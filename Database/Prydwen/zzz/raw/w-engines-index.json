@@ -1,0 +1,1407 @@
+{
+  "provider": "Prydwen",
+  "game": "zzz",
+  "collection": "w-engines",
+  "sourcePath": "/zenless/w-engines",
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "detailPagesTotal": 0,
+  "detailPagesScraped": 0,
+  "staleDetailPagesRemoved": 0,
+  "items": [
+    {
+      "id": "cinder-cobalt",
+      "name": "[Cinder] Cobalt",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/cinder-cobalt-091f612bb8cb.webp",
+      "assetId": "091f612bb8cb",
+      "fields": {
+        "rarity": "B | Type: Rupture",
+        "baseAtkLv60": "475",
+        "hpLv60": "20"
+      },
+      "text": "[Cinder] Cobalt\nRarity: B | Type: Rupture\nUpon entering combat or switching in, the equipper's ATK increases by 7.2/8.2/9.3/10.4/11.5% for 10s . This effect can trigger once every 20s .\nBase ATK (Lv 60): 475\nHP (Lv 60): 20"
+    },
+    {
+      "id": "identity-base",
+      "name": "[Identity] Base",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/identity-base-f93146e9021e.webp",
+      "assetId": "f93146e9021e",
+      "fields": {
+        "rarity": "B | Type: Defence",
+        "baseAtkLv60": "475",
+        "defenseLv60": "32"
+      },
+      "text": "[Identity] Base\nRarity: B | Type: Defence\nWhen attacked, the equipper's DEF increases by 20/23/26/29/32% for 8s .\nBase ATK (Lv 60): 475\nDefense (Lv 60): 32"
+    },
+    {
+      "id": "identity-inflection",
+      "name": "[Identity] Inflection",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/identity-inflection-d0a121ef8eaa.webp",
+      "assetId": "d0a121ef8eaa",
+      "fields": {
+        "rarity": "B | Type: Defence",
+        "baseAtkLv60": "475",
+        "defenseLv60": "32"
+      },
+      "text": "[Identity] Inflection\nRarity: B | Type: Defence\nWhen attacked, reduces the attacker's DMG by 6/7/8/9/10% for 12s .\nBase ATK (Lv 60): 475\nDefense (Lv 60): 32"
+    },
+    {
+      "id": "lunar-decrescent",
+      "name": "[Lunar] Decrescent",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/lunar-decrescent-a9632e8dc111.webp",
+      "assetId": "a9632e8dc111",
+      "fields": {
+        "rarity": "B | Type: Attack",
+        "baseAtkLv60": "475",
+        "attackLv60": "20"
+      },
+      "text": "[Lunar] Decrescent\nRarity: B | Type: Attack\nLaunching a Chain Attack or Ultimate increases the equipper's DMG by 15/17.5/20/22.5/25% for 6s .\nBase ATK (Lv 60): 475\nAttack (Lv 60): 20"
+    },
+    {
+      "id": "lunar-noviluna",
+      "name": "[Lunar] Noviluna",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/lunar-noviluna-1a77d62caeef.webp",
+      "assetId": "1a77d62caeef",
+      "fields": {
+        "rarity": "B | Type: Attack",
+        "baseAtkLv60": "475",
+        "critRateLv60": "16"
+      },
+      "text": "[Lunar] Noviluna\nRarity: B | Type: Attack\nLaunching an EX Special Attack generates 3/3.5/4/4.5/5 Energy for the equipper. This effect can trigger once every 12s .\nBase ATK (Lv 60): 475\nCrit Rate (Lv 60): 16"
+    },
+    {
+      "id": "lunar-pleniluna",
+      "name": "[Lunar] Pleniluna",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/lunar-pleniluna-c5e93a65ab9b.webp",
+      "assetId": "c5e93a65ab9b",
+      "fields": {
+        "rarity": "B | Type: Attack",
+        "baseAtkLv60": "475",
+        "attackLv60": "20"
+      },
+      "text": "[Lunar] Pleniluna\nRarity: B | Type: Attack\nBasic Attack, Dash Attack, and Dodge Counter DMG increase by 12/14/16/18/20%.\nBase ATK (Lv 60): 475\nAttack (Lv 60): 20"
+    },
+    {
+      "id": "magnetic-storm-alpha",
+      "name": "[Magnetic Storm] Alpha",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/magnetic-storm-alpha-7cd4ad456c28.webp",
+      "assetId": "7cd4ad456c28",
+      "fields": {
+        "rarity": "B | Type: Anomaly",
+        "baseAtkLv60": "475",
+        "attackLv60": "20"
+      },
+      "text": "[Magnetic Storm] Alpha\nRarity: B | Type: Anomaly\nAccumulating Anomaly Buildup increases the equipper's Anomaly Mastery by 25/28/32/36/40 for 10s. This effect can trigger once every 20s .\nBase ATK (Lv 60): 475\nAttack (Lv 60): 20"
+    },
+    {
+      "id": "magnetic-storm-bravo",
+      "name": "[Magnetic Storm] Bravo",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/magnetic-storm-bravo-44452bebc7db.webp",
+      "assetId": "44452bebc7db",
+      "fields": {
+        "rarity": "B | Type: Anomaly",
+        "baseAtkLv60": "356",
+        "anomalyProficiencyLv60": "0"
+      },
+      "text": "[Magnetic Storm] Bravo\nRarity: B | Type: Anomaly\nAccumulating Anomaly Buildup increases the equipper's Anomaly Proficiency by 25/28/32/36/40 for 10s . This effect can only be triggered once every 20s .\nBase ATK (Lv 60): 356\nAnomaly Proficiency (Lv 60): 0"
+    },
+    {
+      "id": "magnetic-storm-charlie",
+      "name": "[Magnetic Storm] Charlie",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/magnetic-storm-charlie-a745ad259464.webp",
+      "assetId": "a745ad259464",
+      "fields": {
+        "rarity": "B | Type: Anomaly",
+        "baseAtkLv60": "475",
+        "penRatioLv60": "16"
+      },
+      "text": "[Magnetic Storm] Charlie\nRarity: B | Type: Anomaly\nWhenever a squad member inflicts an Attribute Anomaly on an enemy, the equipper generates 3.5/4/4.5/5/5.5 Energy. This effect can trigger once every 12s .\nBase ATK (Lv 60): 475\nPEN Ratio (Lv 60): 16"
+    },
+    {
+      "id": "reverb-mark-i",
+      "name": "[Reverb] Mark I",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/reverb-mark-i-af7c62b53b26.webp",
+      "assetId": "af7c62b53b26",
+      "fields": {
+        "rarity": "B | Type: Support",
+        "baseAtkLv60": "475",
+        "attackLv60": "20"
+      },
+      "text": "[Reverb] Mark I\nRarity: B | Type: Support\nLaunching an EX Special Attack increases all squad members' Impact by 8/9/10/11/12% for 10s . This effect can trigger once every 20s . Passive effects of the same name do not stack.\nBase ATK (Lv 60): 475\nAttack (Lv 60): 20"
+    },
+    {
+      "id": "reverb-mark-ii",
+      "name": "[Reverb] Mark II",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/reverb-mark-ii-6897143be144.webp",
+      "assetId": "6897143be144",
+      "fields": {
+        "rarity": "B | Type: Support",
+        "baseAtkLv60": "475",
+        "energyRegenLv60": "40"
+      },
+      "text": "[Reverb] Mark II\nRarity: B | Type: Support\nLaunching an EX Special Attack or Chain Attack increases all squad members' Anomaly Mastery and Anomaly Proficiency by 10/12/13/15/16 for 10s . This effect can trigger once every 20s . Passive effects of the same name do not stack.\nBase ATK (Lv 60): 475\nEnergy Regen (Lv 60): 40"
+    },
+    {
+      "id": "reverb-mark-iii",
+      "name": "[Reverb] Mark III",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/reverb-mark-iii-2bbab89aa895.webp",
+      "assetId": "2bbab89aa895",
+      "fields": {
+        "rarity": "B | Type: Support",
+        "baseAtkLv60": "475",
+        "hpLv60": "20"
+      },
+      "text": "[Reverb] Mark III\nRarity: B | Type: Support\nLaunching a Chain Attack or Ultimate increases all squad members' ATK by 8/9/10/11/12% for 10s . This effect can trigger once every 20s . Passive effects of the same name do not stack.\nBase ATK (Lv 60): 475\nHP (Lv 60): 20"
+    },
+    {
+      "id": "vortex-arrow",
+      "name": "[Vortex] Arrow",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/vortex-arrow-435cffd81245.webp",
+      "assetId": "435cffd81245",
+      "fields": {
+        "rarity": "B | Type: Stun",
+        "baseAtkLv60": "475",
+        "impactLv60": "12"
+      },
+      "text": "[Vortex] Arrow\nRarity: B | Type: Stun\nThe equipper's attacks inflict 8/9/10/11/12% more Daze on their main target.\nBase ATK (Lv 60): 475\nImpact (Lv 60): 12"
+    },
+    {
+      "id": "vortex-hatchet",
+      "name": "[Vortex] Hatchet",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/vortex-hatchet-7e89d0520955.webp",
+      "assetId": "7e89d0520955",
+      "fields": {
+        "rarity": "B | Type: Stun",
+        "baseAtkLv60": "475",
+        "energyRegenLv60": "16"
+      },
+      "text": "[Vortex] Hatchet\nRarity: B | Type: Stun\nUpon entering combat or switching in, the equipper's Impact increases by 9/10/11/12/13% for 10s . This effect can trigger once every 20s .\nBase ATK (Lv 60): 475\nEnergy Regen (Lv 60): 16"
+    },
+    {
+      "id": "vortex-revolver",
+      "name": "[Vortex] Revolver",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/vortex-revolver-6ba961da79b7.webp",
+      "assetId": "6ba961da79b7",
+      "fields": {
+        "rarity": "B | Type: Stun",
+        "baseAtkLv60": "475",
+        "attackLv60": "20"
+      },
+      "text": "[Vortex] Revolver\nRarity: B | Type: Stun\nEX Special Attacks inflict 10/11.5/13/14.5/16% more Daze.\nBase ATK (Lv 60): 475\nAttack (Lv 60): 20"
+    },
+    {
+      "id": "angel-in-the-shell",
+      "name": "Angel in the Shell",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/angel-in-the-shell-2c28b7afa1dd.webp",
+      "assetId": "2c28b7afa1dd",
+      "fields": {
+        "rarity": "S | Type: Anomaly",
+        "baseAtkLv60": "713",
+        "anomalyMasteryLv60": "30"
+      },
+      "text": "Angel in the Shell\nRarity: S | Type: Anomaly\nIncreases the equipper's Anomaly Proficiency by 90/103/117/130/144 . When the equipper is an Ether character, and comes on-field or uses a Special Attack or EX Special Attack, they gain a buff: DMG dealt to enemies afflicted with Attribute Anomalies increases by 20/23/26/29/32% , and all Attribute Anomaly DMG they trigger increases by 10/11.5/13/14.5/16% , lasting 15s . Repeated triggers reset the duration, and the effect is removed when switching off-field.\nBase ATK (Lv 60): 713\nAnomaly Mastery (Lv 60): 30"
+    },
+    {
+      "id": "bashful-demon",
+      "name": "Bashful Demon",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/bashful-demon-2ca50991e8ab.webp",
+      "assetId": "2ca50991e8ab",
+      "fields": {
+        "rarity": "A | Type: Support",
+        "baseAtkLv60": "624",
+        "attackLv60": "25"
+      },
+      "text": "Bashful Demon\nRarity: A | Type: Support\nIncreases Ice DMG by 15/17.5/20/22/24% . When launching an EX Special Attack, all squad members' ATK increases by 2/2.3/2.6/2.9/3.2% for 12s , stacking up to 4 times. Retriggering refreshes duration. Passive effects of the same name do not stack.\nBase ATK (Lv 60): 624\nAttack (Lv 60): 25"
+    },
+    {
+      "id": "bellicose-blaze",
+      "name": "Bellicose Blaze",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/bellicose-blaze-1ec3e1494848.webp",
+      "assetId": "1ec3e1494848",
+      "fields": {
+        "rarity": "S | Type: Attack",
+        "baseAtkLv60": "713",
+        "energyRegenLv60": "60"
+      },
+      "text": "Bellicose Blaze\nRarity: S | Type: Attack\nIncreases CRIT Rate by 20/23/26/29/32% . When the equipper triggers an Aftershock that deals Fire DMG , their attacks ignore 15/17.2/19.5/21.7/24% of the target's DEF for 8s . Can stack once every 3s , up to 2 stacks. Repeated triggers reset the duration.\nBase ATK (Lv 60): 713\nEnergy Regen (Lv 60): 60"
+    },
+    {
+      "id": "big-cylinder",
+      "name": "Big Cylinder",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/big-cylinder-609e1b39d28c.webp",
+      "assetId": "609e1b39d28c",
+      "fields": {
+        "rarity": "A | Type: Defence",
+        "baseAtkLv60": "624",
+        "defenseLv60": "40"
+      },
+      "text": "Big Cylinder\nRarity: A | Type: Defence\nReduces DMG taken by 7.5/8.5/9.5/10.5/12% . After being attacked, the next attack to hit an enemy will trigger a critical hit and deal 600/690/780/870/960% of the equipper's DEF as additional DMG. This effect can be triggered once every 7.5s.\nBase ATK (Lv 60): 624\nDefense (Lv 60): 40"
+    },
+    {
+      "id": "blazing-laurel",
+      "name": "Blazing Laurel",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/blazing-laurel-2ffa2eaf795e.webp",
+      "assetId": "2ffa2eaf795e",
+      "fields": {
+        "rarity": "S | Type: Stun",
+        "baseAtkLv60": "713",
+        "impactLv60": "18"
+      },
+      "text": "Blazing Laurel\nRarity: S | Type: Stun\nUpon launching a Quick Assist or Perfect Assist, the equipper's Impact increases by 25/28.75/32.5/36.25/40% for 8s . When the equipper launches and hits an enemy with a Basic Attack, apply Wilt to the target for 30s , stacking up to 20 times, repeated triggers reset the duration. When any squad member hits an enemy, for every stack of Wilt applied to the target, the CRIT DMG of the Ice DMG and Fire DMG dealt by that attack increases by 1.5/1.72/1.95/2.17/2.4% . Only one of this effect can be active at a time in the same squad.\nBase ATK (Lv 60): 713\nImpact (Lv 60): 18"
+    },
+    {
+      "id": "box-cutter",
+      "name": "Box Cutter",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/box-cutter-7d45d95c5e9e.webp",
+      "assetId": "7d45d95c5e9e",
+      "fields": {
+        "rarity": "A | Type: Stun",
+        "baseAtkLv60": "624",
+        "impactLv60": "15"
+      },
+      "text": "Box Cutter\nRarity: A | Type: Stun\nUpon launching an Aftershock, the equipper's Physical DMG increases by 15/17.3/19.5/21.8/24% , and Daze inflicted increases by 10/11.5/13/14.5/16% , lasting 10s .\nBase ATK (Lv 60): 624\nImpact (Lv 60): 15"
+    },
+    {
+      "id": "bunny-band",
+      "name": "Bunny Band",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/bunny-band-0aac9dbc4e58.webp",
+      "assetId": "0aac9dbc4e58",
+      "fields": {
+        "rarity": "A | Type: Defence",
+        "baseAtkLv60": "594",
+        "defenseLv60": "40"
+      },
+      "text": "Bunny Band\nRarity: A | Type: Defence\nIncreases Max HP by 8/9.2/10.4/11.6/12.8% . Increases the equipper's ATK by 10/11.5/13/14.5/16% when they are shielded.\nBase ATK (Lv 60): 594\nDefense (Lv 60): 40"
+    },
+    {
+      "id": "cannon-rotor",
+      "name": "Cannon Rotor",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/cannon-rotor-6add563e7d9e.webp",
+      "assetId": "6add563e7d9e",
+      "fields": {
+        "rarity": "A | Type: Attack",
+        "baseAtkLv60": "594",
+        "critRateLv60": "20"
+      },
+      "text": "Cannon Rotor\nRarity: A | Type: Attack\nIncreases ATK by 7.5/8.6/9.7/10.8/12% . Attacks that land a CRIT on an enemy will inflict an additional 200% of ATK as DMG. This effect can only be triggered once every 8/7.5/7/6.5/6s .\nBase ATK (Lv 60): 594\nCrit Rate (Lv 60): 20"
+    },
+    {
+      "id": "cauldron-of-clarity",
+      "name": "Cauldron of Clarity",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/cauldron-of-clarity-1badb5ecd83b.webp",
+      "assetId": "1badb5ecd83b",
+      "fields": {
+        "rarity": "A | Type: Rupture",
+        "baseAtkLv60": "594",
+        "hpLv60": "25"
+      },
+      "text": "Cauldron of Clarity\nRarity: A | Type: Rupture\nWhen the equipper activates an EX Special Attack, they gain 1 stack of a buff. Each stack increases the equipper's DMG by 4/4.6/5.2/5.8/6.4% , up to 3 stacks, and lasting 20s . This effect can trigger once every 0.5s , and repeated triggers reset the duration. At 3 stacks, the equipper's CRIT Rate increases by 6.5/7.5/8.5/9.4/10.4% .\nBase ATK (Lv 60): 594\nHP (Lv 60): 25"
+    },
+    {
+      "id": "chief-sidekick",
+      "name": "Chief Sidekick",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/chief-sidekick-e8bf0f12a553.webp",
+      "assetId": "e8bf0f12a553",
+      "fields": {
+        "rarity": "S | Type: Stun",
+        "baseAtkLv60": "713",
+        "critRateLv60": "24"
+      },
+      "text": "Chief Sidekick\nRarity: S | Type: Stun\nThe equipper's Impact increases by 30/33/36/39/42 , and their DMG ignores 15/17.2/19.5/21.7/24% of the target's Fire RES . When the equipper is not the active character, Energy Regen increases by 0.4/0.46/0.52/0.58/0.64/s . When the equipper deals Fire DMG with an EX Special Attack, all Agents' DMG increases by 12.5/14.4/16.3/18.1/20% for 30s , stacking up to 2 times. Repeated triggers reset the duration. This effect can trigger once per skill. Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 713\nCRIT Rate (Lv 60): 24"
+    },
+    {
+      "id": "cloudcleave-radiance",
+      "name": "Cloudcleave Radiance",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/cloudcleave-radiance-1d069983614c.webp",
+      "assetId": "1d069983614c",
+      "fields": {
+        "rarity": "S | Type: Attack",
+        "baseAtkLv60": "743",
+        "critDmgLv60": "48"
+      },
+      "text": "Cloudcleave Radiance\nRarity: S | Type: Attack\nThe equipper's DMG ignores 20/22/24/26/28% of the target's Physical RES . When the equipper activates an Ether Veil, the equipper's DMG increases by 25/28.7/32.5/36.2/40% and CRIT DMG increases by 25/28.7/32.5/36.2/40% for 40s . Repeated triggers reset the duration.\nBase ATK (Lv 60): 743\nCRIT DMG (Lv 60): 48"
+    },
+    {
+      "id": "cordis-germina",
+      "name": "Cordis Germina",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/cordis-germina-5fa675cece49.webp",
+      "assetId": "5fa675cece49",
+      "fields": {
+        "rarity": "S | Type: Attack",
+        "baseAtkLv60": "713",
+        "critRateLv60": "24"
+      },
+      "text": "Cordis Germina\nRarity: S | Type: Attack\nIncreases CRIT Rate by 15/17/19/21/23% . When the equipper deals DMG with a Basic Attack or EX Special Attack, they gain 1 stack of a buff. Each stack increases the equipper's Electric DMG by 12.5/14.5/16.5/18.5/20% , up to 2 stacks. Each stack lasts 40s . The duration of each stack is calculated separately. Can trigger once per use of a skill. At 2 stacks, the wearer's Basic Attack and Ultimate DMG ignore 20/23/26/29/32% of enemy DEF.\nBase ATK (Lv 60): 713\nCrit Rate (Lv 60): 24"
+    },
+    {
+      "id": "deep-sea-visitor",
+      "name": "Deep Sea Visitor",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/deep-sea-visitor-14f99f696758.webp",
+      "assetId": "14f99f696758",
+      "fields": {
+        "rarity": "S | Type: Attack",
+        "baseAtkLv60": "713",
+        "critRateLv60": "24"
+      },
+      "text": "Deep Sea Visitor\nRarity: S | Type: Attack\nIncreases Ice DMG by 25/31.5/38/44.5/50% . Upon hitting an enemy with a Basic Attack, the equipper's CRIT Rate increases by 10/12.5.15/17.5/20% for 8s . When dealing Ice DMG with a Dash Attack, the equipper's CRIT Rate increases by an additional 10/12.5.15/17.5/20% for 15s . The duration of each effect is calculated separately.\nBase ATK (Lv 60): 713\nCrit Rate (Lv 60): 24"
+    },
+    {
+      "id": "demara-battery-mark-ii",
+      "name": "Demara Battery Mark II",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/demara-battery-mark-ii-26649fd35edc.webp",
+      "assetId": "26649fd35edc",
+      "fields": {
+        "rarity": "A | Type: Stun",
+        "baseAtkLv60": "624",
+        "impactLv60": "15"
+      },
+      "text": "Demara Battery Mark II\nRarity: A | Type: Stun\nIncreases Electric DMG by 15/17.5/20/22/24%. When the equipper hits an enemy with Dodge Counter or Assist Attack, their Energy Generation Rate increases by 18/20.5/23/25/27.5% for 8s .\nBase ATK (Lv 60): 624\nImpact (Lv 60): 15"
+    },
+    {
+      "id": "dreamlit-hearth",
+      "name": "Dreamlit Hearth",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/dreamlit-hearth-a90787b4b725.webp",
+      "assetId": "a90787b4b725",
+      "fields": {
+        "rarity": "S | Type: Support",
+        "baseAtkLv60": "713",
+        "hpLv60": "30"
+      },
+      "text": "Dreamlit Hearth\nRarity: S | Type: Support\nThe equipper's Energy Regen increases by 0.40/0.46/0.52/0.58/0.64/s . When the equipper activates Ether Veil or extends its duration, all squad members gain 25/28.8/32.5/36.3/40% increased DMG and 15/17.3/19.5/21.8/24% increased Max HP for 45s . Repeated triggers reset the duration. Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 713\nHP (Lv 60): 30"
+    },
+    {
+      "id": "drill-rig-red-axis",
+      "name": "Drill Rig - Red Axis",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/drill-rig-red-axis-6e3a033ab056.webp",
+      "assetId": "6e3a033ab056",
+      "fields": {
+        "rarity": "A | Type: Attack",
+        "baseAtkLv60": "624",
+        "energyRegenLv60": "50"
+      },
+      "text": "Drill Rig - Red Axis\nRarity: A | Type: Attack\nWhen launching an EX Special Attack or Chain Attack, Electric DMG from Basic Attacks and Dash Attacks increases by 50/57.5/65/72.5/80% for 10s . This effect can trigger once every 15s .\nBase ATK (Lv 60): 624\nEnergy Regen (Lv 60): 50"
+    },
+    {
+      "id": "electro-lip-gloss",
+      "name": "Electro-Lip Gloss",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/electro-lip-gloss-1c1a80ffaf5d.webp",
+      "assetId": "1c1a80ffaf5d",
+      "fields": {
+        "rarity": "A | Type: Anomaly",
+        "baseAtkLv60": "594",
+        "anomalyProficiencyLv60": "75"
+      },
+      "text": "Electro-Lip Gloss\nRarity: A | Type: Anomaly\nWhen there are enemies inflicted with Attribute Anomaly on the field, the equipper's ATK increases by 10/11.5/13/14.5/16% and they deal an additional 15/17.5/20/22.5/25% more DMG to the target.\nBase ATK (Lv 60): 594\nAnomaly Proficiency (Lv 60): 75"
+    },
+    {
+      "id": "elegant-vanity",
+      "name": "Elegant Vanity",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/elegant-vanity-e497f030f7a2.webp",
+      "assetId": "e497f030f7a2",
+      "fields": {
+        "rarity": "S | Type: Support",
+        "baseAtkLv60": "713",
+        "attackLv60": "30"
+      },
+      "text": "Elegant Vanity\nRarity: S | Type: Support\nWhen any squad member enters the field through a Quick Assist, Chain Attack, Defensive Assist, or Evasive Assist, the equipper gains 5/5.5/6/6.5/7 Energy. This effect can trigger once every 5s .\nWhen the equipper consumes 25 or more Energy, the DMG dealt by all squad members increases by 10/11.5/13/14.5/16% , stacking up to 2 times, and lasting 20s . Repeated triggers refresh the duration. Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 713\nAttack (Lv 60): 30"
+    },
+    {
+      "id": "flamemaker-shaker",
+      "name": "Flamemaker Shaker",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/flamemaker-shaker-c3f238bd253f.webp",
+      "assetId": "c3f238bd253f",
+      "fields": {
+        "rarity": "S | Type: Anomaly",
+        "baseAtkLv60": "713",
+        "attackLv60": "30"
+      },
+      "text": "Flamemaker Shaker\nRarity: S | Type: Anomaly\nWhile off-field, the equipper's Energy Regen increases by 0.6/0.75/0.9/1.05/1.2 per second. When hitting an enemy with an EX Special Attack or Assist Attack, the equipper's DMG increases by 3.5/4.4/5.2/6.1/7% , stacking up to 10 times and lasting for 6s . This effect can trigger once every 0.3s . While off-field, the stack effect is doubled. Repeated triggers reset the duration. Upon obtaining the DMG increase effect, if the number of current stacks is greater than or equal to 5 , then the equipper's Anomaly Proficiency increases by 50/62/75/87/100 . This Anomaly Proficiency increase does not stack and lasts for 6s .\nBase ATK (Lv 60): 713\nAttack (Lv 60): 30"
+    },
+    {
+      "id": "flight-of-fancy",
+      "name": "Flight of Fancy",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/flight-of-fancy-bbd977bde1b8.webp",
+      "assetId": "bbd977bde1b8",
+      "fields": {
+        "rarity": "S | Type: Anomaly",
+        "baseAtkLv60": "713",
+        "anomalyProficiencyLv60": "90"
+      },
+      "text": "Flight of Fancy\nRarity: S | Type: Anomaly\nIncreases Anomaly Buildup Rate by 40/46/52/58/64% . When the equipper deals Ether DMG, their Anomaly Proficiency increases by 20/23/26/29/32 for 5s , stacking up to 6 times. This effect can trigger once every 0.5s , and repeated triggers reset the duration.\nBase ATK (Lv 60): 713\nAnomaly Proficiency (Lv 60): 90"
+    },
+    {
+      "id": "frostfall-sickle",
+      "name": "Frostfall Sickle",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/frostfall-sickle-db78dc2bd183.webp",
+      "assetId": "db78dc2bd183",
+      "fields": {
+        "rarity": "S | Type: Anomaly",
+        "baseAtkLv60": "713",
+        "anomalyMasteryLv60": "30"
+      },
+      "text": "Frostfall Sickle\nRarity: S | Type: Anomaly\nWhen an Ice attribute equipper uses a Special Attack or EX Special Attack, their Ice DMG is increased by 20/23/26/29/32% for 40s , stacking up to 2 times, once per use of a skill. Repeated triggers refresh the duration. At 2 stacks, the equipper's Abloom DMG dealt is increased by an additional 35/38.5/42/45.5/50% .\nBase ATK (Lv 60): 713\nAnomaly Mastery (Lv 60): 30"
+    },
+    {
+      "id": "fusion-compiler",
+      "name": "Fusion Compiler",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/fusion-compiler-f266d35f10dc.webp",
+      "assetId": "f266d35f10dc",
+      "fields": {
+        "rarity": "S | Type: Anomaly",
+        "baseAtkLv60": "684",
+        "penRatioLv60": "24"
+      },
+      "text": "Fusion Compiler\nRarity: S | Type: Anomaly\nIncreases ATK by 12/15/18/21/24% . When using a Special Attack or EX Special Attack, the equipper's Anomaly Proficiency is increased by 25/31/37/43/50 for 8s , stacking up to 3 times. The duration of each stack is calculated separately.\nBase ATK (Lv 60): 684\nPEN Ratio (Lv 60): 24"
+    },
+    {
+      "id": "gilded-blossom",
+      "name": "Gilded Blossom",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/gilded-blossom-5d59faf94b2e.webp",
+      "assetId": "5d59faf94b2e",
+      "fields": {
+        "rarity": "A | Type: Attack",
+        "baseAtkLv60": "594",
+        "attackLv60": "25"
+      },
+      "text": "Gilded Blossom\nRarity: A | Type: Attack\nATK increases by 6/6.9/7.8/8.7/9.6 %, and DMG dealt by EX Special Attacks increases by 15/17.2/19.5/21.8/24% .\nBase ATK (Lv 60): 594\nAttack (Lv 60): 25"
+    },
+    {
+      "id": "grill-owisp",
+      "name": "Grill O'Wisp",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/grill-owisp-d80a5aeae4d7.webp",
+      "assetId": "d80a5aeae4d7",
+      "fields": {
+        "rarity": "A | Type: Rupture",
+        "baseAtkLv60": "624",
+        "hpLv60": "25"
+      },
+      "text": "Grill O'Wisp\nRarity: A | Type: Rupture\nThe equipper's Fire DMG increases by 15/17.25/19.5/21.75/24% . When the equipper's HP decreases, their CRIT Rate increases by 15/17.25/19.5/21.75/24% for 5s .\nBase ATK (Lv 60): 624\nHP (Lv 60): 25"
+    },
+    {
+      "id": "hailstorm-shrine",
+      "name": "Hailstorm Shrine",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/hailstorm-shrine-50ad31ab3480.webp",
+      "assetId": "50ad31ab3480",
+      "fields": {
+        "rarity": "S | Type: Anomaly",
+        "baseAtkLv60": "743",
+        "critRateLv60": "24"
+      },
+      "text": "Hailstorm Shrine\nRarity: S | Type: Anomaly\nCRIT DMG increases by 50/57/65/72/80% . When using an EX Special Attack or when any squad member applies an Attribute Anomaly to an enemy, the equipper's Ice DMG increases by 20/23/26/29/32% , stacking up to 2 times and lasting 15s . The duration of each stack is calculated separately.\nBase ATK (Lv 60): 743\nCrit Rate (Lv 60): 24"
+    },
+    {
+      "id": "half-sugar-bunny",
+      "name": "Half-Sugar Bunny",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/half-sugar-bunny-601e9d422d2c.webp",
+      "assetId": "601e9d422d2c",
+      "fields": {
+        "rarity": "S | Type: Defence",
+        "baseAtkLv60": "713",
+        "hpLv60": "30"
+      },
+      "text": "Half-Sugar Bunny\nRarity: S | Type: Defence\nThe equipper's Energy Regen increases by 0.46/0.53/06/0.67/0.76 per sec. All squad members gain 10/11.5/13./14.5/16% ATK and 10/11.5/13./14.5/16% Max HP. Only one instance of this effect can exist in the same squad. When the equipper activates or extends an Ether Veil, the whole squad gains 30/34.5/39/43.5/48% CRIT DMG for 60s . Repeated triggers reset the duration.\nBase ATK (Lv 60): 713\nHP (Lv 60): 30"
+    },
+    {
+      "id": "heartstring-nocturne",
+      "name": "Heartstring Nocturne",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/heartstring-nocturne-027325006807.webp",
+      "assetId": "027325006807",
+      "fields": {
+        "rarity": "S | Type: Attack",
+        "baseAtkLv60": "713",
+        "critRateLv60": "24"
+      },
+      "text": "Heartstring Nocturne\nRarity: S | Type: Attack\nCRIT DMG increases by 50/57.5/65/72.5/80% . When the equipper enters the battlefield, or activates a Chain Attack or Ultimate, they gain 1 stack of Heartstring. Each stack of Heartstring allows the equipper's Chain Attack and Ultimate to ignore 12.5/14.5/16.5/18.5/20% of the target's Fire RES, stacking up to 2 times and lasting 30s . Repeated triggers reset the duration.\nBase ATK (Lv 60): 713\nCrit Rate (Lv 60): 24"
+    },
+    {
+      "id": "hellfire-gears",
+      "name": "Hellfire Gears",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/hellfire-gears-8271342a7fd4.webp",
+      "assetId": "8271342a7fd4",
+      "fields": {
+        "rarity": "S | Type: Stun",
+        "baseAtkLv60": "684",
+        "impactLv60": "18"
+      },
+      "text": "Hellfire Gears\nRarity: S | Type: Stun\nWhen off-field, the equipper's Energy Regen increases by 0.6/0.75/0.9/1.05/1.2 per second. When using an EX Special Attack, the equipper's Impact is increased by 10/12.5/15/17.5/20% for 10s , stacking up to 2 times. The duration of each stack is calculated separately.\nBase ATK (Lv 60): 684\nImpact (Lv 60): 18"
+    },
+    {
+      "id": "housekeeper",
+      "name": "Housekeeper",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/housekeeper-d6fc7eab5a26.webp",
+      "assetId": "d6fc7eab5a26",
+      "fields": {
+        "rarity": "A | Type: Attack",
+        "baseAtkLv60": "624",
+        "attackLv60": "25"
+      },
+      "text": "Housekeeper\nRarity: A | Type: Attack\nWhile off-field, Energy Regen increases by 0.45/0.52/0.58/0.65/0.72 per second . When an EX Special Attack hits an enemy, the equipper's Physical DMG increases by 3/3.5/4/4.4/4.8%, stacking up to 15 times and lasting 1s . Retriggering refreshes duration.\nBase ATK (Lv 60): 624\nAttack (Lv 60): 25"
+    },
+    {
+      "id": "ice-jade-teapot",
+      "name": "Ice-Jade Teapot",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/ice-jade-teapot-8d7e0c1b8313.webp",
+      "assetId": "8d7e0c1b8313",
+      "fields": {
+        "rarity": "S | Type: Stun",
+        "baseAtkLv60": "713",
+        "impactLv60": "18"
+      },
+      "text": "Ice-Jade Teapot\nRarity: S | Type: Stun\nWhen a Basic Attack hits an enemy, gain 1 stack of Tea-riffic. Each stack of Tea-riffic increases the user's Impact by 0.7/0.88/1.05/1.22/1.4% , stacking up to 30 times, and lasting for 8s . The duration of each stack is calculated separately. Upon acquiring Tea-riffic, if the equipper possesses stacks of Tea-riffic greater than or equal to 15 , all squad members' DMG is increased by 20/23/26/29/32% for 10s . Passive effects of the same name do not stack.\nBase ATK (Lv 60): 713\nImpact (Lv 60): 18"
+    },
+    {
+      "id": "iris-enigma",
+      "name": "Iris Enigma",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/iris-enigma-8e719ed6d1f4.webp",
+      "assetId": "8e719ed6d1f4",
+      "fields": {
+        "rarity": "A | Type: Support",
+        "baseAtkLv60": "594",
+        "attackLv60": "25"
+      },
+      "text": "Iris Enigma\nRarity: A | Type: Support\nWhenever a squad member launches their Ultimate, increases the equipper's Energy Regen by 1.2/1.36/1.52/1.68/1.84 per second for 12s .\nBase ATK (Lv 60): 594\nAttack (Lv 60): 25"
+    },
+    {
+      "id": "joyau-dore",
+      "name": "Joyau Dore",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/joyau-dore-95cb66a4ad93.webp",
+      "assetId": "95cb66a4ad93",
+      "fields": {
+        "rarity": "S | Type: Anomaly",
+        "baseAtkLv60": "713",
+        "energyRegenLv60": "60"
+      },
+      "text": "Joyau Dore\nRarity: S | Type: Anomaly\nThe equipper's Anomaly Proficiency increases by 70/80/90/100/110 . When the equipper's EX Special Attack deals Wind DMG , the DMG dealt by their Vortex and Windswept increases by 7/8/9/10/11% for 40s , stacking up to 2 times. Repeated triggers reset the duration. This effect can trigger once per skill use. At 2 stacks, all squad members gain 60/69/78/87/96 Anomaly Proficiency. Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 713\nEnergy Regen (Lv 60): 60"
+    },
+    {
+      "id": "kaboom-the-cannon",
+      "name": "Kaboom the Cannon",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/kaboom-the-cannon-873b9e4f976e.webp",
+      "assetId": "873b9e4f976e",
+      "fields": {
+        "rarity": "A | Type: Support",
+        "baseAtkLv60": "624",
+        "energyRegenLv60": "50"
+      },
+      "text": "Kaboom the Cannon\nRarity: A | Type: Support\nWhen any friendly unit in the squad attacks and hits an enemy, all friendly units' ATK increases by 2.5/2.8/3.2/3.6/4% for 8s , stacking up to 4 times. The duration of each stack is calculated separately, and each friendly unit can provide 1 stack of the buff. Passive effects of the same name do not stack.\nBase ATK (Lv 60): 624\nEnergy Regen (Lv 60): 50"
+    },
+    {
+      "id": "krakens-cradle",
+      "name": "Kraken's Cradle",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/krakens-cradle-2a3493a26a1e.webp",
+      "assetId": "2a3493a26a1e",
+      "fields": {
+        "rarity": "S | Type: Rupture",
+        "baseAtkLv60": "713",
+        "hpLv60": "30"
+      },
+      "text": "Kraken's Cradle\nRarity: S | Type: Rupture\nWhen the equipper's HP decreases, their Ice Sheer DMG increases by 6/7/8/9/10% , stacking up to 3 times and lasting 25s . The duration of each stack is calculated separately. This effect can trigger once every 0.5s . When the equipper's HP falls to 50% of Max HP or below, CRIT Rate increases by 20/23/26/29/32% .\nBase ATK (Lv 60): 713\nHP (Lv 60): 30"
+    },
+    {
+      "id": "marcato-desire",
+      "name": "Marcato Desire",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/marcato-desire-e64b5f7d7212.webp",
+      "assetId": "e64b5f7d7212",
+      "fields": {
+        "rarity": "A | Type: Attack",
+        "baseAtkLv60": "594",
+        "critRateLv60": "20"
+      },
+      "text": "Marcato Desire\nRarity: A | Type: Attack\nWhen an EX Special Attack or Chain Attack hits an enemy, the equipper's ATK increases by 6/6.9/7.8/8.7/9.6% for 8s . While the target is under an Attribute Anomaly, this effect is increased by an additional 6/6.9/7.8/8.7/9.6% .\nBase ATK (Lv 60): 594\nCrit Rate (Lv 60): 20"
+    },
+    {
+      "id": "metanukimorphosis",
+      "name": "Metanukimorphosis",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/metanukimorphosis-a1b706d64796.webp",
+      "assetId": "a1b706d64796",
+      "fields": {
+        "rarity": "S | Type: Support",
+        "baseAtkLv60": "713",
+        "energyRegenLv60": "60"
+      },
+      "text": "Metanukimorphosis\nRarity: S | Type: Support\nWhen the equipper's EX Special Attack or Ultimate deals Physical DMG, their Anomaly Mastery increases by 30/34/39/43/48 for 40s .\nWhen the equipper's Aftershock hits an enemy, all squad members' Anomaly Proficiency increases by 60/69/78/87/98 for 40s . Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 713\nEnergy Regen (Lv 60): 60"
+    },
+    {
+      "id": "myriad-eclipse",
+      "name": "Myriad Eclipse",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/myriad-eclipse-895a8fc5dc0b.webp",
+      "assetId": "895a8fc5dc0b",
+      "fields": {
+        "rarity": "S | Type: Attack",
+        "baseAtkLv60": "713",
+        "critRateLv60": "24"
+      },
+      "text": "Myriad Eclipse\nRarity: S | Type: Attack\nIncreases CRIT DMG by 45/51.75/58.5/65.25/72% . When using an EX Special Attack, Chain Attack, or Ultimate to deal Ice DMG, the equipper gains the Absolute Zero Death Sentence effect for 3s . While Absolute Zero Death Sentence is active, the character ignores 25/28.75/32.5/36.25/40% of the enemy's DEF when landing a hit.\nBase ATK (Lv 60): 713\nCrit Rate (Lv 60): 24"
+    },
+    {
+      "id": "neon-fantasies",
+      "name": "Neon Fantasies",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/neon-fantasies-e78cfac7c6e2.webp",
+      "assetId": "e78cfac7c6e2",
+      "fields": {
+        "rarity": "S | Type: Stun",
+        "baseAtkLv60": "713",
+        "anomalyMasteryLv60": "30"
+      },
+      "text": "Neon Fantasies\nRarity: S | Type: Stun\nThe equipper's Anomaly Proficiency increases by 90/103/117/130/145 . When the equipper's EX Special Attack or Basic Attack deals Ether DMG , all squad members' DMG dealt increases by 15/17/19.5/21/24% for 40s , stacking up to 2 times. This effect can trigger once per use of a skill and repeated triggers reset the duration. With 2 stacks, the equipper's Anomaly Proficiency increases by an additional 60/69/78/87/96 . Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 713\nAnomaly Mastery (Lv 60): 30"
+    },
+    {
+      "id": "original-transmorpher",
+      "name": "Original Transmorpher",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/original-transmorpher-57a5e670623c.webp",
+      "assetId": "57a5e670623c",
+      "fields": {
+        "rarity": "A | Type: Defence",
+        "baseAtkLv60": "594",
+        "hpLv60": "25"
+      },
+      "text": "Original Transmorpher\nRarity: A | Type: Defence\nIncreases Max HP by 8/9/10/11/12.5% . When attacked, the equipper's Impact is increased by 10/11.5/13/14.5/16% for 12s .\nBase ATK (Lv 60): 594\nHP (Lv 60): 25"
+    },
+    {
+      "id": "peacekeeper-specialized",
+      "name": "Peacekeeper - Specialized",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/peacekeeper-specialized-f9df5f83fbef.webp",
+      "assetId": "f9df5f83fbef",
+      "fields": {
+        "rarity": "A | Type: Defence",
+        "baseAtkLv60": "624",
+        "attackLv60": "25"
+      },
+      "text": "Peacekeeper - Specialized\nRarity: A | Type: Defence\nWhile Shielded, the equipper's Energy Regen increases by 0.4/s . The Anomaly Buildup of EX Special Attacks and Assist Follow-Ups increase by 36% .\nBase ATK (Lv 60): 624\nAttack (Lv 60): 25"
+    },
+    {
+      "id": "practiced-perfection",
+      "name": "Practiced Perfection",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/practiced-perfection-093b64b32f57.webp",
+      "assetId": "093b64b32f57",
+      "fields": {
+        "rarity": "S | Type: Anomaly",
+        "baseAtkLv60": "713",
+        "attackLv60": "30"
+      },
+      "text": "Practiced Perfection\nRarity: S | Type: Anomaly\nThe equipper's Anomaly Mastery increases by 60/69/78/87/96 . When inflicting Assault, the equipper's Physical DMG increases by 20/23/26/29/32% for 20s , stacking up to 2 times. Repeated triggers reset the duration. When the equipper enters combat, immediately gain 2 stacks.\nBase ATK (Lv 60): 713\nAttack (Lv 60): 30"
+    },
+    {
+      "id": "precious-fossilized-core",
+      "name": "Precious Fossilized Core",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/precious-fossilized-core-dc5e4d8d56b9.webp",
+      "assetId": "dc5e4d8d56b9",
+      "fields": {
+        "rarity": "A | Type: Stun",
+        "baseAtkLv60": "594",
+        "impactLv60": "15"
+      },
+      "text": "Precious Fossilized Core\nRarity: A | Type: Stun\nWhen the target's HP is no lower than 50% , the equipper inflicts 10/11.5/13/14.5/16% more Daze. When the target's HP is no lower than 75%, this bonus is further enhanced by 10/11.5/13/14.5/16% .\nBase ATK (Lv 60): 594\nImpact (Lv 60): 15"
+    },
+    {
+      "id": "puzzle-sphere",
+      "name": "Puzzle Sphere",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/puzzle-sphere-577f129c0868.webp",
+      "assetId": "577f129c0868",
+      "fields": {
+        "rarity": "A | Type: Rupture",
+        "baseAtkLv60": "594",
+        "attackLv60": "25"
+      },
+      "text": "Puzzle Sphere\nRarity: A | Type: Rupture\nUpon launching an EX Special Attack, the equipper's CRIT DMG increases by 16/18.4/20.8/23.2/25.6% for 12s . Additionally, if the target's current HP is below 50% of their Max HP, EX Special Attack DMG increases by 20/23/26/29/32% .\nBase ATK (Lv 60): 594\nAttack (Lv 60): 25"
+    },
+    {
+      "id": "qingming-birdcage",
+      "name": "Qingming Birdcage",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/qingming-birdcage-41c883474764.webp",
+      "assetId": "41c883474764",
+      "fields": {
+        "rarity": "S | Type: Rupture",
+        "baseAtkLv60": "743",
+        "hpLv60": "30"
+      },
+      "text": "Qingming Birdcage\nRarity: S | Type: Rupture\nCRIT Rate increases by 20/23/26/29/32% . When the equipper launches an EX Special Attack, the character gains the Qingming Companion effect, stacking up to 2 times and lasting 15s . On entering combat, immediately gain 2 stacks. Repeated triggers reset the duration. Each stack of the Qingming Companion effect increases the equipper's Ether DMG by 8/9.2/10.4/11.6/12.8% , and increases Ultimate and EX Special Attack Ether Sheer DMG by 10/11.5/13/14.5/16% .\nBase ATK (Lv 60): 743\nHP (Lv 60): 30"
+    },
+    {
+      "id": "radiowave-journey",
+      "name": "Radiowave Journey",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/radiowave-journey-3c3e66d1dbbd.webp",
+      "assetId": "3c3e66d1dbbd",
+      "fields": {
+        "rarity": "A | Type: Rupture",
+        "baseAtkLv60": "594",
+        "hpLv60": "25"
+      },
+      "text": "Radiowave Journey\nRarity: A | Type: Rupture\nWhen launching a Chain Attack or Ultimate, the equipper gains 1 stack of a buff effect. Each stack increases the equipper's Sheer Force by 80/92/104/116/128 , stacking up to 3 times, and lasting 12s . The duration of each stack is calculated separately.\nBase ATK (Lv 60): 594\nHP (Lv 60): 25"
+    },
+    {
+      "id": "rainforest-gourmet",
+      "name": "Rainforest Gourmet",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/rainforest-gourmet-1851fdaeba7c.webp",
+      "assetId": "1851fdaeba7c",
+      "fields": {
+        "rarity": "A | Type: Anomaly",
+        "baseAtkLv60": "594",
+        "anomalyProficiencyLv60": "75"
+      },
+      "text": "Rainforest Gourmet\nRarity: A | Type: Anomaly\nFor every 10 Energy consumed, the equipper gains a buff that increases ATK by 2.5/2.8/3.2/3.6/4% for 10s , stacking up to 10 times. The duration of each stack is calculated separately.\nBase ATK (Lv 60): 594\nAnomaly Proficiency (Lv 60): 75"
+    },
+    {
+      "id": "reel-projector",
+      "name": "Reel Projector",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/reel-projector-f783cd472999.webp",
+      "assetId": "f783cd472999",
+      "fields": {
+        "rarity": "A | Type: Defence",
+        "baseAtkLv60": "594",
+        "impactLv60": "15"
+      },
+      "text": "Reel Projector\nRarity: A | Type: Defence\nWhen a squad member's HP is greater than or equal to 50% , they take 7.5/8.6/9.7/10.8/12% less DMG, and 10/11.5/13/14.5/16% less Miasma Contamination. Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 594\nImpact (Lv 60): 15"
+    },
+    {
+      "id": "riot-suppressor-mark-vi",
+      "name": "Riot Suppressor Mark VI",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/riot-suppressor-mark-vi-75096274e443.webp",
+      "assetId": "75096274e443",
+      "fields": {
+        "rarity": "S | Type: Attack",
+        "baseAtkLv60": "713",
+        "critDamageLv60": "48"
+      },
+      "text": "Riot Suppressor Mark VI\nRarity: S | Type: Attack\nIncreases CRIT Rate by 15% . Launching an EX Special Attack grants the equipper 8 Charge stacks, up to a maximum of 8 stacks. Whenever the equipper's Basic Attack deals Ether DMG , consumes a Charge stack and increases the skill's DMG by 35% .\nBase ATK (Lv 60): 713\nCrit Damage (Lv 60): 48"
+    },
+    {
+      "id": "roaring-fur-nace",
+      "name": "Roaring Fur-nace",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/roaring-fur-nace-2d323bcdd264.webp",
+      "assetId": "2d323bcdd264",
+      "fields": {
+        "rarity": "S | Type: Stun",
+        "baseAtkLv60": "713",
+        "attackLv60": "30"
+      },
+      "text": "Roaring Fur-nace\nRarity: S | Type: Stun\nThe Daze dealt by the equipper's EX Special Attack, Chain Attack, and Ultimate increases by 28/32.2/36.4/40.6/44.8% .\nWhen using a Chain Attack or Ultimate to deal Fire DMG, the DMG dealt by all squad members increases by 10/11.5/13/14.5/16% , stacking up to 2 times and lasting 30s . The duration of each stack is calculated separately. Triggers once per use of a skill. Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 713\nAttack (Lv 60): 30"
+    },
+    {
+      "id": "roaring-ride",
+      "name": "Roaring Ride",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/roaring-ride-807ee0694e47.webp",
+      "assetId": "807ee0694e47",
+      "fields": {
+        "rarity": "A | Type: Anomaly",
+        "baseAtkLv60": "624",
+        "attackLv60": "25"
+      },
+      "text": "Roaring Ride\nRarity: A | Type: Anomaly\nWhen EX Special Attack hits an enemy, one of three possible effects is randomly triggered for 5 seconds. This effect can trigger once every 0.3s . The same types of effects cannot stack. Repeated triggers reset the duration allowing several effects to be active at once:\nincreases the equipper's ATK by 8/9.2/10.4/11.6/12.8% ,\nincreases the equipper's Anomaly Proficiency by 40/46/52/58/64 ,\nincreases the equipper's Anomaly Buildup Rate by 25/28/32/36/40%.\nBase ATK (Lv 60): 624\nAttack (Lv 60): 25"
+    },
+    {
+      "id": "serpentine-seeker",
+      "name": "Serpentine Seeker",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/serpentine-seeker-76387efa201b.webp",
+      "assetId": "76387efa201b",
+      "fields": {
+        "rarity": "S | Type: Attack",
+        "baseAtkLv60": "713",
+        "energyRegenLv60": "60"
+      },
+      "text": "Serpentine Seeker\nRarity: S | Type: Attack\nCRIT Rate increases by 25/28.8/32.5/36.3/40% . When the equipper consumes at least 20 Energy in a single instance, every 20 Energy consumed grants 3s of a buff: when dealing Electric DMG , ignore 28/31.5/35/38.5/42% of the target's DEF. Repeated triggers extend the duration, up to a maximum of 30s . When entering combat, gain 10s of this buff. While the equipper is not the active character, the duration no longer decreases.\nBase ATK (Lv 60): 713\nEnergy Regen (Lv 60): 60"
+    },
+    {
+      "id": "severed-innocence",
+      "name": "Severed Innocence",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/severed-innocence-6cf131e8a6b4.webp",
+      "assetId": "6cf131e8a6b4",
+      "fields": {
+        "rarity": "S | Type: Attack",
+        "baseAtkLv60": "713",
+        "critDmgLv60": "48"
+      },
+      "text": "Severed Innocence\nRarity: S | Type: Attack\nCRIT DMG is increased by 30/34.5/39/43.5/48% . When the equipper lands a hit with a Basic Attack, Special Attack, or Aftershock, they gain 1 stack of a buff. Each stack increases the equipper's CRIT DMG by an additional 10/11.5/13/14.5/16% , stacking up to 3 times. The effect lasts for 30s , with each stack's duration calculated separately, and can only be triggered once per use of a skill. With all 3 stacks, the equipper's Electric DMG increases by 20/23/26/29/32% .\nBase ATK (Lv 60): 713\nCrit DMG (Lv 60): 48"
+    },
+    {
+      "id": "sharpened-stinger",
+      "name": "Sharpened Stinger",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/sharpened-stinger-af0f0229909e.webp",
+      "assetId": "af0f0229909e",
+      "fields": {
+        "rarity": "S | Type: Anomaly",
+        "baseAtkLv60": "713",
+        "anomalyProficiencyLv60": "90"
+      },
+      "text": "Sharpened Stinger\nRarity: S | Type: Anomaly\nUpon activating a Dash Attack, gain 1 stack of Predatory Instinct. Each stack of Predatory Instinct increases the equipper's Physical DMG by 12/15/18/21/24% for 10s , stacking up to 3 times. This effect can trigger once every 0.5s and repeated triggers reset the duration. When entering combat or triggering Perfect Dodge, gain 3 stacks of Predatory Instinct. While Predatory Instinct is at maximum stacks, the equipper's Anomaly Buildup Rate increases by 40/50/60/70/80% .\nBase ATK (Lv 60): 713\nAnomaly Proficiency (Lv 60): 90"
+    },
+    {
+      "id": "six-shooter",
+      "name": "Six Shooter",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/six-shooter-52708e8edd0a.webp",
+      "assetId": "52708e8edd0a",
+      "fields": {
+        "rarity": "A | Type: Stun",
+        "baseAtkLv60": "594",
+        "impactLv60": "15"
+      },
+      "text": "Six Shooter\nRarity: A | Type: Stun\nThe equipper gains a Charge stack every 3s , stacking up to 6 times. When launching an EX Special Attack, consumes all Charge stacks, and each stack increases the Daze inflicted by 4/4.6/5.2/5.8/6.4% .\nBase ATK (Lv 60): 594\nImpact (Lv 60): 15"
+    },
+    {
+      "id": "slice-of-time",
+      "name": "Slice of Time",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/slice-of-time-bc88f4876898.webp",
+      "assetId": "bc88f4876898",
+      "fields": {
+        "rarity": "A | Type: Support",
+        "baseAtkLv60": "594",
+        "penRatioLv60": "20"
+      },
+      "text": "Slice of Time\nRarity: A | Type: Support\nAny squad members' Dodge Counter, EX Special Attack, Assist Attack, or Chain Attack respectively generates 20/23/26/29/32 (Dodge) | 25/28.5/32/35.5/40 (Special) | 30/34.5/39/43.5/48 (Assist) | 35/40/45/50/55 (Chain) more Decibels and generates 0.7/0.8/0.9/1/1.1 Energy for the equipper. This effect can trigger once every 12s . The cooldown for each type of attack is independent of others. Passive effects of the same name do not stack.\nBase ATK (Lv 60): 594\nPEN Ratio (Lv 60): 20"
+    },
+    {
+      "id": "sol-exuvia",
+      "name": "Sol Exuvia",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/sol-exuvia-2139f75e06bd.webp",
+      "assetId": "2139f75e06bd",
+      "fields": {
+        "rarity": "S | Type: Attack",
+        "baseAtkLv60": "713",
+        "atkLv60": "30"
+      },
+      "text": "Sol Exuvia\nRarity: S | Type: Attack\nCRIT Rate increases by 20% . When the equipper is Pyrois, using an Ultimate grants the Eclipse effect. When the Eclipse effect is active, DMG dealt by the equipper ignores 16/17.5/19/20.5/22% of Ether RES , lasting 45s . Repeated triggers reset the duration. When the equipper enters combat, they gain the Eclipse effect.\nBase ATK (Lv 60): 713\nATK% (Lv 60): 30"
+    },
+    {
+      "id": "spectral-gaze",
+      "name": "Spectral Gaze",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/spectral-gaze-b33f54962e0c.webp",
+      "assetId": "b33f54962e0c",
+      "fields": {
+        "rarity": "S | Type: Stun",
+        "baseAtkLv60": "713",
+        "critRateLv60": "24"
+      },
+      "text": "Spectral Gaze\nRarity: S | Type: Stun\nWhen the equipper hits an enemy with an Aftershock, causing Electric DMG, the target's DEF is reduced by 25/28.75/32.5/36.25/40% for 5s . Passive effects of the same name do not stack. When this effect is triggered, if the equipper is not the active character, they gain 1 stack of Spirit Lock, up to a maximum of 3 stacks. This can trigger only once per use of a skill. Each stack of Spirit Lock increases the equipper's Impact by 4/4.6/5.2/5.8/6.4% , lasting 12s . The duration of each stack is calculated separately. At full stacks of Spirit Lock, the equipper's Impact increases by an additional 8/9.2/10.4/11.6/12.8% .\nBase ATK (Lv 60): 713\nCrit Rate (Lv 60): 24"
+    },
+    {
+      "id": "spring-embrace",
+      "name": "Spring Embrace",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/spring-embrace-695c563b6c68.webp",
+      "assetId": "695c563b6c68",
+      "fields": {
+        "rarity": "A | Type: Defence",
+        "baseAtkLv60": "594",
+        "attackLv60": "25"
+      },
+      "text": "Spring Embrace\nRarity: A | Type: Defence\nReduces DMG taken 7.5/8.5/9.5/10.5/12% . When attacked, the equipper's Energy Generation Rate increased by 10/11.5/13/14.5/16% for 12s . When the equipper switches off-field, this buff will be transferred to the new on-field character with its duration refreshed. Passive effects of the same name do not stack.\nBase ATK (Lv 60): 594\nAttack (Lv 60): 25"
+    },
+    {
+      "id": "starlight-engine",
+      "name": "Starlight Engine",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/starlight-engine-4018e18fe53d.webp",
+      "assetId": "4018e18fe53d",
+      "fields": {
+        "rarity": "A | Type: Attack",
+        "baseAtkLv60": "594",
+        "attackLv60": "25"
+      },
+      "text": "Starlight Engine\nRarity: A | Type: Attack\nLaunching a Dodge Counter or Quick Assist increases the equipper's ATK by 12/13.8/15.6/17.4/19.2% for 12s.\nBase ATK (Lv 60): 594\nAttack (Lv 60): 25"
+    },
+    {
+      "id": "starlight-engine-replica",
+      "name": "Starlight Engine Replica",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/starlight-engine-replica-c53410aac417.webp",
+      "assetId": "c53410aac417",
+      "fields": {
+        "rarity": "A | Type: Attack",
+        "baseAtkLv60": "624",
+        "atkLv60": "25"
+      },
+      "text": "Starlight Engine Replica\nRarity: A | Type: Attack\nIncreases the equipper's Physical DMG by 36/41/46.5/52/57.5% for 8s upon hitting an enemy at least 6 meters away with a Basic Attack or Dash Attack.\nBase ATK (Lv 60): 624\nATK (Lv 60): 25"
+    },
+    {
+      "id": "starlight-rider-faceplate",
+      "name": "Starlight Rider Faceplate",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/starlight-rider-faceplate-43a115b87f8c.webp",
+      "assetId": "43a115b87f8c",
+      "fields": {
+        "rarity": "S | Type: Rupture",
+        "baseAtkLv60": "713",
+        "hpLv60": "30"
+      },
+      "text": "Starlight Rider Faceplate\nRarity: S | Type: Rupture\nIncreases CRIT Rate by 20% . When the equipper launches a Special Attack , their Physical Sheer DMG increases by 10% , stacking up to 2 times and lasting 30s. Repeated triggers reset the duration.\nBase ATK (Lv 60): 713\nHP% (Lv 60): 30"
+    },
+    {
+      "id": "steam-oven",
+      "name": "Steam Oven",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/steam-oven-3e546e25a1fe.webp",
+      "assetId": "3e546e25a1fe",
+      "fields": {
+        "rarity": "A | Type: Stun",
+        "baseAtkLv60": "594",
+        "energyRegenLv60": "50"
+      },
+      "text": "Steam Oven\nRarity: A | Type: Stun\nFor every 10 Energy accumulated, the equipper's Impact is increased by 2/2.3/2.6/2.9/3.2% , stacking up to 8 times. After Energy is consumed, this bonus remains for 8 more seconds. The duration of each stack is calculated separately.\nBase ATK (Lv 60): 594\nEnergy Regen (Lv 60): 50"
+    },
+    {
+      "id": "steel-cushion",
+      "name": "Steel Cushion",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/steel-cushion-14d8337ec000.webp",
+      "assetId": "14d8337ec000",
+      "fields": {
+        "rarity": "S | Type: Attack",
+        "baseAtkLv60": "684",
+        "critRateLv60": "24"
+      },
+      "text": "Steel Cushion\nRarity: S | Type: Attack\nIncreases Physical DMG by 20/25/30/35/40% . The equipper's DMG increases by 25/31.5/38/44/50% when attacking the enemy from behind.\nBase ATK (Lv 60): 684\nCrit Rate (Lv 60): 24"
+    },
+    {
+      "id": "street-superstar",
+      "name": "Street Superstar",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/street-superstar-1050ac4bc270.webp",
+      "assetId": "1050ac4bc270",
+      "fields": {
+        "rarity": "A | Type: Attack",
+        "baseAtkLv60": "594",
+        "attackLv60": "25"
+      },
+      "text": "Street Superstar\nRarity: A | Type: Attack\nWhenever a squad member launches a Chain Attack, the equipper gains a Charge stack, stacking up to 3 times. Upon activating their own Ultimate, the equipper consumes all Charge stacks, and each stack increases the skill's DMG by 15/17.2/19.5/21.7/24%.\nBase ATK (Lv 60): 594\nAttack (Lv 60): 25"
+    },
+    {
+      "id": "the-brimstone",
+      "name": "The Brimstone",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/the-brimstone-bdd5620eca4f.webp",
+      "assetId": "bdd5620eca4f",
+      "fields": {
+        "rarity": "S | Type: Attack",
+        "baseAtkLv60": "684",
+        "attackLv60": "30"
+      },
+      "text": "The Brimstone\nRarity: S | Type: Attack\nUpon hitting an enemy with a Basic Attack, Dash Attack, or Dodge Counter, the equipper's ATK increases by 3.5/4.4/5.2/6/7% for 8s , stacking up to 8 times. This effect can trigger once every 0.5s. The duration of each stack is calculated separately.\nBase ATK (Lv 60): 684\nAttack (Lv 60): 30"
+    },
+    {
+      "id": "the-restrained",
+      "name": "The Restrained",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/the-restrained-ba65f478c8b6.webp",
+      "assetId": "ba65f478c8b6",
+      "fields": {
+        "rarity": "S | Type: Stun",
+        "baseAtkLv60": "684",
+        "impactLv60": "18"
+      },
+      "text": "The Restrained\nRarity: S | Type: Stun\nWhen an attack hits an enemy, DMG and Daze from Basic Attacks increase by 6/7.5/9/10.5/12% for 8s , stacking up to 5 times. This effect can trigger at most once during each skill. The duration of each stack is calculated separately.\nBase ATK (Lv 60): 684\nImpact (Lv 60): 18"
+    },
+    {
+      "id": "the-simmering-pot",
+      "name": "The Simmering Pot",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/the-simmering-pot-71327e1913a2.webp",
+      "assetId": "71327e1913a2",
+      "fields": {
+        "rarity": "A | Type: Stun",
+        "baseAtkLv60": "594",
+        "impactLv60": "15"
+      },
+      "text": "The Simmering Pot\nRarity: A | Type: Stun\nWhen activating an Assist Follow-Up, the equipper's Daze inflicted on the target increases by 7.2/8.2/9.2/10.2/11.5% , and DMG dealt increases by 7.2/8.2/9.2/10.2/11.5% for 30s . Repeated triggers reset the duration.\nBase ATK (Lv 60): 594\nImpact (Lv 60): 15"
+    },
+    {
+      "id": "the-vault",
+      "name": "The Vault",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/the-vault-863c6933b140.webp",
+      "assetId": "863c6933b140",
+      "fields": {
+        "rarity": "A | Type: Support",
+        "baseAtkLv60": "624",
+        "energyRegenLv60": "50"
+      },
+      "text": "The Vault\nRarity: A | Type: Support\nDealing Ether DMG using an EX Special Attack, Chain Attack, or Ultimate increases all squad members' DMG against the target by 15/17.5/20/22/24% and increases the equipper's Energy Regen by 0.5/0.58/0.65/0.72/0.8 per second for 2s . Passive effects of the same name do not stack.\nBase ATK (Lv 60): 624\nEnergy Regen (Lv 60): 50"
+    },
+    {
+      "id": "thoughtbop",
+      "name": "Thoughtbop",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/thoughtbop-22e0fec66299.webp",
+      "assetId": "22e0fec66299",
+      "fields": {
+        "rarity": "S | Type: Support",
+        "baseAtkLv60": "713",
+        "energyRegenLv60": "60"
+      },
+      "text": "Thoughtbop\nRarity: S | Type: Support\nWhile not the active character, the equipper's Energy Regen increases by 0.6/0.69/0.78/0.87/0.96 per second. When the equipper uses an EX Special Attack and deals Physical DMG, all squad members gain a buff: DMG dealt increases by 12.5/14.3/16.1/17.9/20% for 40s , stacking up to 2 times. Repeated triggers reset the duration. At 2 stacks, characters gain an additional 10/11.5/13/14.5/16% ATK. Only one instance of this effect can exist in the same squad.\nBase ATK (Lv 60): 713\nEnergy Regen (Lv 60): 60"
+    },
+    {
+      "id": "timeweaver",
+      "name": "Timeweaver",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/timeweaver-69c2a81c227e.webp",
+      "assetId": "69c2a81c227e",
+      "fields": {
+        "rarity": "S | Type: Anomaly",
+        "baseAtkLv60": "713",
+        "attackLv60": "30"
+      },
+      "text": "Timeweaver\nRarity: S | Type: Anomaly\nThe equipper's Electric Anomaly Buildup Rate increases by 30/35/40/45/50% . When Special Attacks or EX Special Attacks hit enemies under Attribute Anomalies, the equipper's Anomaly Proficiency increases by 75/85/95/105/115 for 15s .\nWhen the equipper's Anomaly Proficiency is greater than or equal to 375 , Disorder DMG inflicted by the equipper increases by 25/27.5/30/32.5/35% .\nBase ATK (Lv 60): 713\nAttack (Lv 60): 30"
+    },
+    {
+      "id": "tremor-trigram-vessel",
+      "name": "Tremor Trigram Vessel",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/tremor-trigram-vessel-c0d3b4b0777e.webp",
+      "assetId": "c0d3b4b0777e",
+      "fields": {
+        "rarity": "A | Type: Defence",
+        "baseAtkLv60": "624",
+        "attackLv60": "25"
+      },
+      "text": "Tremor Trigram Vessel\nRarity: A | Type: Defence\nThe equipper's EX Special Attack and Ultimate DMG increases by 25/28.7/32.5/36.2/40% . Whenever any squad member takes DMG or heals, the equipper gains 2/2.3/2.6/2.9/3.2 Energy. This effect can trigger once every 5s .\nBase ATK (Lv 60): 624\nAttack (Lv 60): 25"
+    },
+    {
+      "id": "tusks-of-fury",
+      "name": "Tusks of Fury",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/tusks-of-fury-bf9f9815b1be.webp",
+      "assetId": "bf9f9815b1be",
+      "fields": {
+        "rarity": "S | Type: Defence",
+        "baseAtkLv60": "713",
+        "impactLv60": "18"
+      },
+      "text": "Tusks of Fury\nRarity: S | Type: Defence\nThe Shield value provided by the equipper increases by 30/38/46/52/60% . When any squad member triggers Interrupt or Perfect Dodge, all squad members' DMG increases by 18/22.5/27/31.5/36% and Daze dealt increases by 12/15/18/21/24% for 20s . Passive effects of the same name do not stack.\nBase ATK (Lv 60): 713\nImpact (Lv 60): 18"
+    },
+    {
+      "id": "unfettered-game-ball",
+      "name": "Unfettered Game Ball",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/unfettered-game-ball-0a1898038591.webp",
+      "assetId": "0a1898038591",
+      "fields": {
+        "rarity": "A | Type: Support",
+        "baseAtkLv60": "594",
+        "energyRegenLv60": "50"
+      },
+      "text": "Unfettered Game Ball\nRarity: A | Type: Support\nWhenever the equipper's attack triggers an Attribute Counter effect, all squad members' CRIT Rate against the struck enemy increases by 12/13.5/15.5/17.5/20% for 12s . The bonuses triggered by the same type of passive effects do not stack.\nBase ATK (Lv 60): 594\nEnergy Regen (Lv 60): 50"
+    },
+    {
+      "id": "weeping-cradle",
+      "name": "Weeping Cradle",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/weeping-cradle-60c7922a08be.webp",
+      "assetId": "60c7922a08be",
+      "fields": {
+        "rarity": "S | Type: Support",
+        "baseAtkLv60": "684",
+        "penRatioLv60": "24"
+      },
+      "text": "Weeping Cradle\nRarity: S | Type: Support\nWhile off-field, Energy Regen increases by 0.6/0.75/0.9/1.05/1.2 per second . Attacks from the equipper enhance the squad's DMG against a struck target by 10/12.5/15/17.5/20% for 3 seconds. During this period, this effect is further increased by 1.7/2/2.5/3/3.3% every 0.5s , up to a maximum additional increase of 10.2/12/15/18/19.8% . Repeated triggers only refresh its duration without refreshing the DMG increase effect. Passive effects of the same name do not stack.\nBase ATK (Lv 60): 684\nPEN Ratio (Lv 60): 24"
+    },
+    {
+      "id": "weeping-gemini",
+      "name": "Weeping Gemini",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/weeping-gemini-b64aaa211d35.webp",
+      "assetId": "b64aaa211d35",
+      "fields": {
+        "rarity": "A | Type: Anomaly",
+        "baseAtkLv60": "594",
+        "attackLv60": "25"
+      },
+      "text": "Weeping Gemini\nRarity: A | Type: Anomaly\nWhenever a squad member inflicts an Attribute Anomaly on an enemy, the equipper gains a buff that increases Anomaly Proficiency by 30/34/38/42/46 , stacking up to 4 times. This effect expires when the target recovers from Stun or is defeated. The duration of each stack is calculated separately.\nBase ATK (Lv 60): 594\nAttack (Lv 60): 25"
+    },
+    {
+      "id": "wrathful-vajra",
+      "name": "Wrathful Vajra",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/wrathful-vajra-05713d21ebd4.webp",
+      "assetId": "05713d21ebd4",
+      "fields": {
+        "rarity": "S | Type: Rupture",
+        "baseAtkLv60": "713",
+        "hpLv60": "30"
+      },
+      "text": "Wrathful Vajra\nRarity: S | Type: Rupture\nCRIT Rate increases by 20/23/26/29/32% . When the equipper launches an EX Special Attack, their Fire Sheer DMG increases by 9/10.35/11.7/13.05/14.4% , stacking up to 2 times and lasting 20s . The duration of each stack is calculated separately.\nBase ATK (Lv 60): 713\nHP (Lv 60): 30"
+    },
+    {
+      "id": "yesterday-calls",
+      "name": "Yesterday Calls",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/yesterday-calls-e76e7863e592.webp",
+      "assetId": "e76e7863e592",
+      "fields": {
+        "rarity": "S | Type: Stun",
+        "baseAtkLv60": "713",
+        "critRateLv60": "24"
+      },
+      "text": "Yesterday Calls\nRarity: S | Type: Stun\nWhile off-field, the equipper's Energy Regen increases by 1.5/1.7/1.9/2.1/2.3 per second. When the equipper deals Physical DMG with an EX Special Attack, the Daze dealt by the equipper's attacks increases by 9/10.3/11.7/13/14.5% for 10s , stacking up to 3 times.\nAt 3 stacks, all squad members gain 30/34.5/39/43.5/48% additional CRIT DMG for 40s . Repeated triggers reset the duration. Only one instance of this CRIT DMG boost effect can exist in the same squad.\nBase ATK (Lv 60): 713\nCrit Rate (Lv 60): 24"
+    },
+    {
+      "id": "zanshin-herb-case",
+      "name": "Zanshin Herb Case",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/zanshin-herb-case-f00bf70e4d76.webp",
+      "assetId": "f00bf70e4d76",
+      "fields": {
+        "rarity": "S | Type: Attack",
+        "baseAtkLv60": "713",
+        "critDamageLv60": "48"
+      },
+      "text": "Zanshin Herb Case\nRarity: S | Type: Attack\nCRIT Rate increases by 10/11.5/13/14.5/16% . Dash Attack Electric DMG increases by 40/46/52/58/64% . When any squad member applies an Attribute Anomaly or Stuns an enemy, the equipper's CRIT Rate increases by an additional 10/11.5/13/14.5/16% for 15s .\nBase ATK (Lv 60): 713\nCrit Damage (Lv 60): 48"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T21:45:29.359Z",
+  "generatedAt": "2026-06-22T21:06:37.049Z",
   "source": "Honkai: Star Rail Wiki / Fandom MediaWiki API",
   "sourceExample": "https://honkai-star-rail.fandom.com/wiki/Kafka/Media",
   "requestedWidth": 1600,
@@ -139,9 +139,33 @@
       "name": "Ashveil",
       "key": "ashveil",
       "page": "Ashveil/Media",
-      "status": "error",
-      "error": "503 Service Unavailable",
-      "artworks": []
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Chinese New Year 2026 Ashveil Welt.png",
+          "title": "Chinese New Year 2026 Ashveil Welt.png (1.37 MB)",
+          "localAsset": "HsrWiki/holiday-art/ashveil/01-Chinese New Year 2026 Ashveil Welt.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Ashveil/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_Ashveil_Welt.png",
+          "width": 900,
+          "height": 1200,
+          "originalWidth": 900,
+          "originalHeight": 1200,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 2.png",
+          "title": "Chinese New Year 2026 2.png (6.44 MB)",
+          "localAsset": "HsrWiki/holiday-art/ashveil/02-Chinese New Year 2026 2.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Ashveil/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_2.png",
+          "width": 1600,
+          "height": 1067,
+          "originalWidth": 2160,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        }
+      ]
     },
     {
       "name": "Asta",
@@ -611,6 +635,18 @@
           "originalWidth": 1920,
           "originalHeight": 1096,
           "mime": "image/png"
+        },
+        {
+          "file": "Dragon Boat Festival 2026.jpg",
+          "title": "Dragon Boat Festival 2026.jpg (3.37 MB)",
+          "localAsset": "HsrWiki/holiday-art/danhengimbibitorlunae/02-Dragon Boat Festival 2026.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Dan%20Heng%20%E2%80%A2%20Imbibitor%20Lunae/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Dragon_Boat_Festival_2026.jpg",
+          "width": 1600,
+          "height": 1600,
+          "originalWidth": 4000,
+          "originalHeight": 4000,
+          "mime": "image/jpeg"
         }
       ]
     },
@@ -1440,6 +1476,18 @@
           "originalWidth": 2160,
           "originalHeight": 1440,
           "mime": "image/png"
+        },
+        {
+          "file": "Dragon Boat Festival 2026.jpg",
+          "title": "Dragon Boat Festival 2026.jpg (3.37 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7th/11-Dragon Boat Festival 2026.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Dragon_Boat_Festival_2026.jpg",
+          "width": 1600,
+          "height": 1600,
+          "originalWidth": 4000,
+          "originalHeight": 4000,
+          "mime": "image/jpeg"
         }
       ]
     },
@@ -1568,6 +1616,18 @@
           "originalWidth": 2160,
           "originalHeight": 1440,
           "mime": "image/png"
+        },
+        {
+          "file": "Dragon Boat Festival 2026.jpg",
+          "title": "Dragon Boat Festival 2026.jpg (3.37 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7thevernight/11-Dragon Boat Festival 2026.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Dragon_Boat_Festival_2026.jpg",
+          "width": 1600,
+          "height": 1600,
+          "originalWidth": 4000,
+          "originalHeight": 4000,
+          "mime": "image/jpeg"
         }
       ]
     },
@@ -1696,6 +1756,18 @@
           "originalWidth": 2160,
           "originalHeight": 1440,
           "mime": "image/png"
+        },
+        {
+          "file": "Dragon Boat Festival 2026.jpg",
+          "title": "Dragon Boat Festival 2026.jpg (3.37 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7ththehunt/11-Dragon Boat Festival 2026.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Dragon_Boat_Festival_2026.jpg",
+          "width": 1600,
+          "height": 1600,
+          "originalWidth": 4000,
+          "originalHeight": 4000,
+          "mime": "image/jpeg"
         }
       ]
     },
@@ -2468,6 +2540,18 @@
           "originalWidth": 2160,
           "originalHeight": 1440,
           "mime": "image/png"
+        },
+        {
+          "file": "Dragon Boat Festival 2026.jpg",
+          "title": "Dragon Boat Festival 2026.jpg (3.37 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerdestruction/14-Dragon Boat Festival 2026.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Dragon_Boat_Festival_2026.jpg",
+          "width": 1600,
+          "height": 1600,
+          "originalWidth": 4000,
+          "originalHeight": 4000,
+          "mime": "image/jpeg"
         }
       ]
     },
@@ -2632,6 +2716,18 @@
           "originalWidth": 2160,
           "originalHeight": 1440,
           "mime": "image/png"
+        },
+        {
+          "file": "Dragon Boat Festival 2026.jpg",
+          "title": "Dragon Boat Festival 2026.jpg (3.37 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerelation/14-Dragon Boat Festival 2026.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Dragon_Boat_Festival_2026.jpg",
+          "width": 1600,
+          "height": 1600,
+          "originalWidth": 4000,
+          "originalHeight": 4000,
+          "mime": "image/jpeg"
         }
       ]
     },
@@ -2796,6 +2892,18 @@
           "originalWidth": 2160,
           "originalHeight": 1440,
           "mime": "image/png"
+        },
+        {
+          "file": "Dragon Boat Festival 2026.jpg",
+          "title": "Dragon Boat Festival 2026.jpg (3.37 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerharmony/14-Dragon Boat Festival 2026.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Dragon_Boat_Festival_2026.jpg",
+          "width": 1600,
+          "height": 1600,
+          "originalWidth": 4000,
+          "originalHeight": 4000,
+          "mime": "image/jpeg"
         }
       ]
     },
@@ -2960,6 +3068,18 @@
           "originalWidth": 2160,
           "originalHeight": 1440,
           "mime": "image/png"
+        },
+        {
+          "file": "Dragon Boat Festival 2026.jpg",
+          "title": "Dragon Boat Festival 2026.jpg (3.37 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerpreservation/14-Dragon Boat Festival 2026.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Dragon_Boat_Festival_2026.jpg",
+          "width": 1600,
+          "height": 1600,
+          "originalWidth": 4000,
+          "originalHeight": 4000,
+          "mime": "image/jpeg"
         }
       ]
     },
@@ -3124,6 +3244,18 @@
           "originalWidth": 2160,
           "originalHeight": 1440,
           "mime": "image/png"
+        },
+        {
+          "file": "Dragon Boat Festival 2026.jpg",
+          "title": "Dragon Boat Festival 2026.jpg (3.37 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerremembrance/14-Dragon Boat Festival 2026.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Dragon_Boat_Festival_2026.jpg",
+          "width": 1600,
+          "height": 1600,
+          "originalWidth": 4000,
+          "originalHeight": 4000,
+          "mime": "image/jpeg"
         }
       ]
     },

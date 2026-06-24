@@ -101,6 +101,18 @@ for (const [target, source] of runtimeDirs) {
   await copyDir(source, path.resolve(deployDir, target));
 }
 
+// Static deploy-root files: _redirects, _headers, robots.txt, 404.html,
+// scripts/, etc. Files land at the deploy root; subdirectories are copied whole.
+const publicDir = path.resolve(siteDir, 'public');
+if (await exists(publicDir)) {
+  for (const entry of await fs.readdir(publicDir, { withFileTypes: true })) {
+    const src = path.resolve(publicDir, entry.name);
+    const dest = path.resolve(deployDir, entry.name);
+    if (entry.isDirectory()) await copyDir(src, dest);
+    else await copyFile(src, dest);
+  }
+}
+
 const databaseAssets = await copyReferencedDatabaseAssets();
 const files = await listFiles(deployDir);
 const totalBytes = (await Promise.all(files.map(async (file) => (await fs.stat(file)).size)))

@@ -92,6 +92,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/ardelia/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/ardelia/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/ardelia/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Orbiter.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Ardelia.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Ardelia.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Ardelia.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:dreams-of-the-starry-beach",
@@ -163,6 +169,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/ember/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/ember/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/ember/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Greatsword.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Ember.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Ember.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Ember.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:thunderberge",
@@ -249,6 +261,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/endministrator-male/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/endministrator-male/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/endministrator-male/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Sword.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Endmin.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Endmin.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Endmin.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:grand-vision",
@@ -344,6 +362,12 @@
           "icon": "../../Database/EndfieldWiki/endfield/assets/operators/endministrator-male/icon.png",
           "art": "../../Database/EndfieldWiki/endfield/assets/operators/endministrator-male/splash.png",
           "card": "../../Database/EndfieldWiki/endfield/assets/operators/endministrator-male/banner.png",
+          "skillIcons": [
+            "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Sword.png",
+            "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Endmin.png",
+            "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Endmin.png",
+            "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Endmin.png"
+          ],
           "aePreferredItems": [
             {
               "id": "weapon:grand-vision",
@@ -438,6 +462,12 @@
           "icon": "../../Database/EndfieldWiki/endfield/assets/operators/endministrator-female/icon.png",
           "art": "../../Database/EndfieldWiki/endfield/assets/operators/endministrator-female/splash.png",
           "card": "../../Database/EndfieldWiki/endfield/assets/operators/endministrator-female/banner.png",
+          "skillIcons": [
+            "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Sword.png",
+            "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Endmin.png",
+            "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Endmin.png",
+            "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Endmin.png"
+          ],
           "aePreferredItems": [
             {
               "id": "weapon:grand-vision",
@@ -534,6 +564,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/gilberta/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/gilberta/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/gilberta/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Orbiter.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Gilberta.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Gilberta.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Gilberta.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:delivery-guaranteed",
@@ -609,6 +645,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/laevatain/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/laevatain/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/laevatain/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Sword.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Laevatain.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Laevatain.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Laevatain.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:forgeborn-scathe",
@@ -684,6 +726,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/last-rite/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/last-rite/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/last-rite/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Greatsword.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Lastrite.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Lastrite.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Lastrite.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:khravengger",
@@ -770,6 +818,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/lifeng/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/lifeng/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/lifeng/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Polearm.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Lifeng.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Lifeng.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Lifeng.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:mountain-bearer",
@@ -834,6 +888,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/mi-fu/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/mi-fu/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/mi-fu/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Greatsword.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Mifu.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Mifu.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Mifu.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:amaranthine-tassel",
@@ -896,6 +956,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/pogranichnik/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/pogranichnik/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/pogranichnik/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Sword.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Pogranichnik.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Pogranichnik.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Pogranichnik.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:thermite-cutter",
@@ -969,6 +1035,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/rossi/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/rossi/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/rossi/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Sword.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Rossi.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Rossi.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Rossi.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:lupine-scarlet",
@@ -1053,6 +1125,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/tangtang/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/tangtang/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/tangtang/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Guns.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Tangtang.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Tangtang.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Tangtang.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:brigands-calling",
@@ -1115,6 +1193,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/yvonne/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/yvonne/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/yvonne/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Guns.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Yvonne.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Yvonne.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Yvonne.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:artzy-tyrannical",
@@ -1210,6 +1294,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/zhuang-fangyi/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/zhuang-fangyi/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/zhuang-fangyi/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Orbiter.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Zhuangfangyi.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Zhuangfangyi.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Zhuangfangyi.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:lone-barge",
@@ -1272,6 +1362,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/alesh/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/alesh/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/alesh/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Sword.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Alesh.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Alesh.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Alesh.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:thermite-cutter",
@@ -1323,6 +1419,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/arclight/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/arclight/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/arclight/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Sword.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Arclight.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Arclight.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Arclight.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:thermite-cutter",
@@ -1418,6 +1520,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/avywenna/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/avywenna/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/avywenna/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Polearm.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Avywenna.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Avywenna.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Avywenna.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:jet",
@@ -1480,6 +1588,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/chen-qianyu/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/chen-qianyu/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/chen-qianyu/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Sword.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Chen.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Chen.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Chen.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:sundering-steel",
@@ -1575,6 +1689,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/da-pan/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/da-pan/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/da-pan/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Greatsword.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Dapan.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Dapan.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Dapan.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:amaranthine-tassel",
@@ -1670,6 +1790,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/perlica/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/perlica/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/perlica/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Orbiter.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Perlica.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Perlica.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Perlica.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:stanza-of-memorials",
@@ -1732,6 +1858,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/snowshine/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/snowshine/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/snowshine/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Greatsword.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Snowshine.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Snowshine.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Snowshine.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:finishing-call",
@@ -1816,6 +1948,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/wulfgard/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/wulfgard/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/wulfgard/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Guns.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Wulfgard.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Wulfgard.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Wulfgard.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:clannibal",
@@ -1922,6 +2060,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/xaihi/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/xaihi/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/xaihi/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Orbiter.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Xaihi.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Xaihi.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Xaihi.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:detonation-unit",
@@ -1984,6 +2128,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/akekuri/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/akekuri/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/akekuri/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Sword.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Akekuri.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Akekuri.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Akekuri.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:thermite-cutter",
@@ -2046,6 +2196,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/antal/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/antal/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/antal/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Orbiter.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Antal.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Antal.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Antal.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:detonation-unit",
@@ -2108,6 +2264,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/catcher/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/catcher/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/catcher/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Greatsword.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Catcher.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Catcher.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Catcher.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:obj-heavy-burden",
@@ -2192,6 +2354,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/estella/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/estella/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/estella/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Polearm.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Estella.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Estella.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Estella.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:jet",
@@ -2276,6 +2444,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/fluorite/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/fluorite/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/fluorite/banner.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Guns.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Fluorite.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Fluorite.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Fluorite.png"
+      ],
       "aePreferredItems": [
         {
           "id": "weapon:obj-velocitous",

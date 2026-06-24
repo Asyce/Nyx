@@ -1,0 +1,787 @@
+[
+  {
+    "id": "akekuri",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Akekuri",
+    "slug": "akekuri",
+    "sourcePath": "/arknights-endfield/characters/akekuri",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "rarity": 4,
+      "weapon": "Sword",
+      "class": "Vanguard",
+      "element": "Heat"
+    },
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/akekuri-card-f341349cba2f.webp",
+      "full": "Prydwen/endfield/assets/characters/akekuri-full-illustration-ee55a90ccdd7.webp",
+      "icon": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/akekuri.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 22
+  },
+  {
+    "id": "alesh",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Alesh",
+    "slug": "alesh",
+    "sourcePath": "/arknights-endfield/characters/alesh",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "rarity": 5,
+      "weapon": "Sword",
+      "class": "Vanguard",
+      "element": "Cryo"
+    },
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/alesh-card-d26ce09d6ede.webp",
+      "full": "Prydwen/endfield/assets/characters/alesh-full-illustration-ef55a0791e35.webp",
+      "icon": "Prydwen/endfield/assets/characters/gilberta-e0644812a9c1.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/alesh.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 25
+  },
+  {
+    "id": "antal",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Antal",
+    "slug": "antal",
+    "sourcePath": "/arknights-endfield/characters/antal",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {},
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/antal-card-13accfeae1f4.webp",
+      "full": "Prydwen/endfield/assets/characters/antal-full-illustration-a288f7db32b1.webp",
+      "icon": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/antal.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 19
+  },
+  {
+    "id": "arclight",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Arclight",
+    "slug": "arclight",
+    "sourcePath": "/arknights-endfield/characters/arclight",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "rarity": 5,
+      "weapon": "Sword",
+      "class": "Vanguard",
+      "element": "Electric"
+    },
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/arclight-card-b20c252a6d6a.webp",
+      "full": "Prydwen/endfield/assets/characters/arclight-full-illustration-c98b4e21f070.webp",
+      "icon": "Prydwen/endfield/assets/characters/gilberta-e0644812a9c1.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/arclight.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 50
+  },
+  {
+    "id": "ardelia",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Ardelia",
+    "slug": "ardelia",
+    "sourcePath": "/arknights-endfield/characters/ardelia",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {},
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/ardelia-card-d8267d5852dd.webp",
+      "full": "Prydwen/endfield/assets/characters/ardelia-full-illustration-46d6652acaa7.webp",
+      "icon": "Prydwen/endfield/assets/characters/antal-5e47d449e938.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/ardelia.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 24
+  },
+  {
+    "id": "avywenna",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Avywenna",
+    "slug": "avywenna",
+    "sourcePath": "/arknights-endfield/characters/avywenna",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "rarity": 5,
+      "weapon": "Polearm",
+      "class": "Striker",
+      "element": "Electric"
+    },
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/avywenna-card-4c18245af0e9.webp",
+      "full": "Prydwen/endfield/assets/characters/avywenna-full-illustration-0c16db4a585e.webp",
+      "icon": "Prydwen/endfield/assets/characters/avywenna-ee3f25e30847.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/avywenna.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 22
+  },
+  {
+    "id": "camille",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Camille",
+    "slug": "camille",
+    "sourcePath": "/arknights-endfield/characters/camille",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "Soon"
+    ],
+    "updatedText": "20/June/2026",
+    "facts": {
+      "rarity": 6,
+      "weapon": "Polearm",
+      "class": "Vanguard",
+      "element": "Heat"
+    },
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/camille-card-c01d749cf2bc.webp",
+      "full": "Prydwen/endfield/assets/characters/camille-full-illustration-ee735b733b8e.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/camille.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 2
+  },
+  {
+    "id": "catcher",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Catcher",
+    "slug": "catcher",
+    "sourcePath": "/arknights-endfield/characters/catcher",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "rarity": 4,
+      "weapon": "Greatsword",
+      "class": "Defender",
+      "element": "Physical"
+    },
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/catcher-card-88005c0c29a1.webp",
+      "full": "Prydwen/endfield/assets/characters/catcher-full-illustration-196cfc504b92.webp",
+      "icon": "Prydwen/endfield/assets/characters/pogranichnik-b9a388c21c56.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/catcher.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 20
+  },
+  {
+    "id": "chen-qianyu",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Chen Qianyu",
+    "slug": "chen-qianyu",
+    "sourcePath": "/arknights-endfield/characters/chen-qianyu",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "rarity": 5,
+      "weapon": "Sword",
+      "class": "Guard",
+      "element": "Physical"
+    },
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/chen-qianyu-card-c272d5ba738e.webp",
+      "full": "Prydwen/endfield/assets/characters/chen-qianyu-full-illustration-b98b681ae0c7.webp",
+      "icon": "Prydwen/endfield/assets/characters/lifeng-6e2e470f976d.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/chen-qianyu.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 48
+  },
+  {
+    "id": "da-pan",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Da Pan",
+    "slug": "da-pan",
+    "sourcePath": "/arknights-endfield/characters/da-pan",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "rarity": 5,
+      "weapon": "Greatsword",
+      "class": "Striker",
+      "element": "Physical"
+    },
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/da-pan-card-8f22c9eb9578.webp",
+      "full": "Prydwen/endfield/assets/characters/da-pan-full-illustration-0da350055538.webp",
+      "icon": "Prydwen/endfield/assets/characters/rossi-72f4fe10ab2e.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/da-pan.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 50
+  },
+  {
+    "id": "ember",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Ember",
+    "slug": "ember",
+    "sourcePath": "/arknights-endfield/characters/ember",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "rarity": 6,
+      "weapon": "Greatsword",
+      "class": "Defender",
+      "element": "Heat"
+    },
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/ember-card-a94628b5b21f.webp",
+      "full": "Prydwen/endfield/assets/characters/ember-full-illustration-5f92c72623ce.webp",
+      "icon": "Prydwen/endfield/assets/characters/pogranichnik-b9a388c21c56.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/ember.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 21
+  },
+  {
+    "id": "endministrator",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Endministrator",
+    "slug": "endministrator",
+    "sourcePath": "/arknights-endfield/characters/endministrator",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "rarity": 6,
+      "weapon": "Sword",
+      "class": "Guard",
+      "element": "Physical"
+    },
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/endministrator-card-87449c7e6b78.webp",
+      "full": "Prydwen/endfield/assets/characters/endministrator-full-illustration-f09d4e32afce.webp",
+      "icon": "Prydwen/endfield/assets/characters/rossi-72f4fe10ab2e.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/endministrator.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 50
+  },
+  {
+    "id": "estella",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Estella",
+    "slug": "estella",
+    "sourcePath": "/arknights-endfield/characters/estella",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "rarity": 4,
+      "weapon": "Polearm",
+      "class": "Guard",
+      "element": "Cryo"
+    },
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/estella-card-56c7d72bb3dd.webp",
+      "full": "Prydwen/endfield/assets/characters/estella-full-illustration-671ea5a8e9fe.webp",
+      "icon": "Prydwen/endfield/assets/characters/xaihi-b26fc37d4ba6.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/estella.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 23
+  },
+  {
+    "id": "fluorite",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Fluorite",
+    "slug": "fluorite",
+    "sourcePath": "/arknights-endfield/characters/fluorite",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "rarity": 4,
+      "weapon": "Handcannon",
+      "class": "Caster",
+      "element": "Nature"
+    },
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/fluorite-card-149254723ee9.webp",
+      "full": "Prydwen/endfield/assets/characters/fluorite-full-illustration-8a7e9cf23bf4.webp",
+      "icon": "Prydwen/endfield/assets/characters/gilberta-e0644812a9c1.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/fluorite.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 21
+  },
+  {
+    "id": "gilberta",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Gilberta",
+    "slug": "gilberta",
+    "sourcePath": "/arknights-endfield/characters/gilberta",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {},
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/gilberta-card-f27046de2188.webp",
+      "full": "Prydwen/endfield/assets/characters/gilberta-full-illustration-34358558efe7.webp",
+      "icon": "Prydwen/endfield/assets/characters/antal-5e47d449e938.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/gilberta.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 34
+  },
+  {
+    "id": "laevatain",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Laevatain",
+    "slug": "laevatain",
+    "sourcePath": "/arknights-endfield/characters/laevatain",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "rarity": 6,
+      "weapon": "Sword",
+      "class": "Striker",
+      "element": "Heat"
+    },
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/laevatain-card-5f86cf82fb73.webp",
+      "full": "Prydwen/endfield/assets/characters/laevatain-full-illustration-ebfa40cc3478.webp",
+      "icon": "Prydwen/endfield/assets/characters/gilberta-e0644812a9c1.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/laevatain.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 42
+  },
+  {
+    "id": "last-rite",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Last Rite",
+    "slug": "last-rite",
+    "sourcePath": "/arknights-endfield/characters/last-rite",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "rarity": 6,
+      "weapon": "Greatsword",
+      "class": "Striker",
+      "element": "Cryo"
+    },
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/last-rite-card-6191c71efc0a.webp",
+      "full": "Prydwen/endfield/assets/characters/last-rite-full-illustration-b599a80f63d9.webp",
+      "icon": "Prydwen/endfield/assets/characters/akekuri-3a2535d8266d.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/last-rite.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 45
+  },
+  {
+    "id": "lifeng",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Lifeng",
+    "slug": "lifeng",
+    "sourcePath": "/arknights-endfield/characters/lifeng",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "rarity": 6,
+      "weapon": "Polearm",
+      "class": "Guard",
+      "element": "Physical"
+    },
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/lifeng-card-ec866212856d.webp",
+      "full": "Prydwen/endfield/assets/characters/lifeng-full-illustration-a71bb0d62bd9.webp",
+      "icon": "Prydwen/endfield/assets/characters/pogranichnik-b9a388c21c56.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/lifeng.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 51
+  },
+  {
+    "id": "mi-fu",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Mi Fu",
+    "slug": "mi-fu",
+    "sourcePath": "/arknights-endfield/characters/mi-fu",
+    "contentStatus": "live",
+    "statusLabels": [
+      "New"
+    ],
+    "updatedText": "05/June/2026",
+    "facts": {
+      "rarity": 6,
+      "weapon": "Greatsword",
+      "class": "Guard",
+      "element": "Physical"
+    },
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/mi-fu-card-0965266d85b2.webp",
+      "full": "Prydwen/endfield/assets/characters/mi-fu-full-illustration-bf4317065994.webp",
+      "icon": "Prydwen/endfield/assets/characters/alesh-4631b4aa4d51.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/mi-fu.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 30
+  },
+  {
+    "id": "perlica",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Perlica",
+    "slug": "perlica",
+    "sourcePath": "/arknights-endfield/characters/perlica",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {},
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/perlica-card-b20a7d8a6fe4.webp",
+      "full": "Prydwen/endfield/assets/characters/perlica-full-illustration-ea6d73348291.webp",
+      "icon": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/perlica.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 33
+  },
+  {
+    "id": "pogranichnik",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Pogranichnik",
+    "slug": "pogranichnik",
+    "sourcePath": "/arknights-endfield/characters/pogranichnik",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "rarity": 6,
+      "weapon": "Sword",
+      "class": "Vanguard",
+      "element": "Physical"
+    },
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/pogranichnik-card-18c48cc685ba.webp",
+      "full": "Prydwen/endfield/assets/characters/pogranichnik-full-illustration-9ddcc23d0653.webp",
+      "icon": "Prydwen/endfield/assets/characters/rossi-72f4fe10ab2e.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/pogranichnik.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 32
+  },
+  {
+    "id": "rossi",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Rossi",
+    "slug": "rossi",
+    "sourcePath": "/arknights-endfield/characters/rossi",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "rarity": 6,
+      "weapon": "Sword",
+      "class": "Guard",
+      "element": "Physical"
+    },
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/rossi-card-8cd0c2877986.webp",
+      "full": "Prydwen/endfield/assets/characters/rossi-full-illustration-e309df5d8460.webp",
+      "icon": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/rossi.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 44
+  },
+  {
+    "id": "snowshine",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Snowshine",
+    "slug": "snowshine",
+    "sourcePath": "/arknights-endfield/characters/snowshine",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "rarity": 5,
+      "weapon": "Greatsword",
+      "class": "Defender",
+      "element": "Cryo"
+    },
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/snowshine-card-6929810d4aca.webp",
+      "full": "Prydwen/endfield/assets/characters/snowshine-full-illustration-5bb0c64c2b8d.webp",
+      "icon": "Prydwen/endfield/assets/characters/estella-84894033ba6b.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/snowshine.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 28
+  },
+  {
+    "id": "tangtang",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Tangtang",
+    "slug": "tangtang",
+    "sourcePath": "/arknights-endfield/characters/tangtang",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "rarity": 6,
+      "weapon": "Handcannon",
+      "class": "Caster",
+      "element": "Cryo"
+    },
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/tangtang-card-0a91b152218c.webp",
+      "full": "Prydwen/endfield/assets/characters/tangtang-full-illustration-a2fdbafe3d22.webp",
+      "icon": "Prydwen/endfield/assets/characters/akekuri-3a2535d8266d.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/tangtang.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 44
+  },
+  {
+    "id": "wulfgard",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Wulfgard",
+    "slug": "wulfgard",
+    "sourcePath": "/arknights-endfield/characters/wulfgard",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "rarity": 5,
+      "weapon": "Handcannon",
+      "class": "Caster",
+      "element": "Heat"
+    },
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/wulfgard-card-e452baad5c31.webp",
+      "full": "Prydwen/endfield/assets/characters/wulfgard-full-illustration-b69064f616fa.webp",
+      "icon": "Prydwen/endfield/assets/characters/wulfgard-e79bad876e59.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/wulfgard.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 30
+  },
+  {
+    "id": "xaihi",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Xaihi",
+    "slug": "xaihi",
+    "sourcePath": "/arknights-endfield/characters/xaihi",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {},
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/xaihi-card-1391b9495bfa.webp",
+      "full": "Prydwen/endfield/assets/characters/xaihi-full-illustration-a15c5a3c5367.webp",
+      "icon": "Prydwen/endfield/assets/characters/fluorite-0d128b4b3a6f.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/xaihi.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 25
+  },
+  {
+    "id": "yvonne",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Yvonne",
+    "slug": "yvonne",
+    "sourcePath": "/arknights-endfield/characters/yvonne",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "rarity": 6,
+      "weapon": "Handcannon",
+      "class": "Striker",
+      "element": "Cryo"
+    },
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/yvonne-card-d5fa2fc535a7.webp",
+      "full": "Prydwen/endfield/assets/characters/yvonne-full-illustration-3b2a9c401fa7.webp",
+      "icon": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/yvonne.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 51
+  },
+  {
+    "id": "zhuang-fangyi",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Zhuang Fangyi",
+    "slug": "zhuang-fangyi",
+    "sourcePath": "/arknights-endfield/characters/zhuang-fangyi",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {},
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/zhuang-fangyi-card-fab17e9e9121.webp",
+      "full": "Prydwen/endfield/assets/characters/zhuang-fangyi-full-illustration-a672907f742d.webp",
+      "icon": "Prydwen/endfield/assets/characters/alesh-4631b4aa4d51.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/zhuang-fangyi.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 37
+  }
+]

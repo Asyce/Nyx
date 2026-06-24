@@ -1,0 +1,1507 @@
+{
+  "id": "characters:mortefi",
+  "provider": "Prydwen",
+  "game": "ww",
+  "gameName": "Wuthering Waves",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "mortefi",
+  "name": "Mortefi",
+  "title": "Mortefi Best Build Guide",
+  "sourcePath": "/wuthering-waves/characters/mortefi",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "09/June/2026",
+  "meta": {
+    "title": "Mortefi Best Build Guide | Wuthering Waves (WuWa)",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 4,
+    "element": "Fusion",
+    "weapon": "Pistols"
+  },
+  "assets": [
+    {
+      "id": "0600d7b7604b",
+      "sourceHash": "0600d7b7604b",
+      "kind": "characters",
+      "name": "Mortefi",
+      "fileStem": "mortefi-card",
+      "path": "Prydwen/ww/assets/characters/mortefi-0600d7b7604b.webp",
+      "width": 210,
+      "height": 280
+    },
+    {
+      "id": "c72489fb1776",
+      "sourceHash": "c72489fb1776",
+      "kind": "icons",
+      "name": "Fusion",
+      "fileStem": "element-fusion",
+      "path": "Prydwen/ww/assets/icons/fusion-c72489fb1776.webp",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "39143225474a",
+      "sourceHash": "39143225474a",
+      "kind": "icons",
+      "name": "Fusion DMG",
+      "fileStem": "stat-fire",
+      "path": "Prydwen/ww/assets/icons/fusion-dmg-39143225474a.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "1e70b3adc860",
+      "sourceHash": "1e70b3adc860",
+      "kind": "icons",
+      "name": "ATK%",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "c26c1d310e90",
+      "sourceHash": "c26c1d310e90",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "aa019d34202f",
+      "sourceHash": "aa019d34202f",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "5a0b154cd3d8",
+      "sourceHash": "5a0b154cd3d8",
+      "kind": "icons",
+      "name": "Max Energy",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "39094c227806",
+      "sourceHash": "39094c227806",
+      "kind": "icons",
+      "name": "CRIT Rate",
+      "fileStem": "stat-crit",
+      "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "7e2bcd0760ca",
+      "sourceHash": "7e2bcd0760ca",
+      "kind": "icons",
+      "name": "CRIT DMG",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "94236abd3fdc",
+      "sourceHash": "94236abd3fdc",
+      "kind": "icons",
+      "name": "Healing",
+      "fileStem": "stat-heal",
+      "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "f48ff62c89aa",
+      "sourceHash": "f48ff62c89aa",
+      "kind": "categories",
+      "name": "Interactive Map",
+      "fileStem": "category-map",
+      "path": "Prydwen/ww/assets/categories/interactive-map-f48ff62c89aa.webp",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "id": "d5d907185fab",
+      "sourceHash": "d5d907185fab",
+      "kind": "characters",
+      "name": "Mortefi",
+      "fileStem": "mortefi-full",
+      "path": "Prydwen/ww/assets/characters/mortefi-d5d907185fab.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "afef53941338",
+      "sourceHash": "afef53941338",
+      "kind": "weapons",
+      "name": "Static Mist",
+      "fileStem": "21030015",
+      "path": "Prydwen/ww/assets/weapons/static-mist-afef53941338.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "a0797fb7bf92",
+      "sourceHash": "a0797fb7bf92",
+      "kind": "weapons",
+      "name": "The Last Dance",
+      "fileStem": "21030016",
+      "path": "Prydwen/ww/assets/weapons/the-last-dance-a0797fb7bf92.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "96de9b5aead5",
+      "sourceHash": "96de9b5aead5",
+      "kind": "weapons",
+      "name": "Relativistic Jet",
+      "fileStem": "21030084",
+      "path": "Prydwen/ww/assets/weapons/relativistic-jet-96de9b5aead5.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ec0ad26e1579",
+      "sourceHash": "ec0ad26e1579",
+      "kind": "weapons",
+      "name": "Novaburst",
+      "fileStem": "21030064",
+      "path": "Prydwen/ww/assets/weapons/novaburst-ec0ad26e1579.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "279183c1c2cc",
+      "sourceHash": "279183c1c2cc",
+      "kind": "weapons",
+      "name": "Thunderbolt",
+      "fileStem": "21030074",
+      "path": "Prydwen/ww/assets/weapons/thunderbolt-279183c1c2cc.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "9fbfd63e176c",
+      "sourceHash": "9fbfd63e176c",
+      "kind": "weapons",
+      "name": "Pistols#26",
+      "fileStem": "21030034",
+      "path": "Prydwen/ww/assets/weapons/pistols-26-9fbfd63e176c.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "fe355e2fa0aa",
+      "sourceHash": "fe355e2fa0aa",
+      "kind": "weapons",
+      "name": "Undying Flame",
+      "fileStem": "21030044",
+      "path": "Prydwen/ww/assets/weapons/undying-flame-fe355e2fa0aa.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "358387a78181",
+      "sourceHash": "358387a78181",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-8",
+      "path": "Prydwen/ww/assets/icons/set-8-358387a78181.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "969a4ca96158",
+      "sourceHash": "969a4ca96158",
+      "kind": "misc",
+      "name": "Impermanence Heron",
+      "fileStem": "330000030",
+      "path": "Prydwen/ww/assets/misc/impermanence-heron-969a4ca96158.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "26730b805365",
+      "sourceHash": "26730b805365",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-13",
+      "path": "Prydwen/ww/assets/icons/set-13-26730b805365.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "23f9c4c9d14d",
+      "sourceHash": "23f9c4c9d14d",
+      "kind": "misc",
+      "name": "Hecate",
+      "fileStem": "340000100",
+      "path": "Prydwen/ww/assets/misc/hecate-23f9c4c9d14d.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "d9b47f532b06",
+      "sourceHash": "d9b47f532b06",
+      "kind": "characters",
+      "name": "Augusta",
+      "fileStem": "augusta-icon",
+      "path": "Prydwen/ww/assets/characters/augusta-d9b47f532b06.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "bfb1691bcfa3",
+      "sourceHash": "bfb1691bcfa3",
+      "kind": "characters",
+      "name": "Galbrena",
+      "fileStem": "galbrena-icon",
+      "path": "Prydwen/ww/assets/characters/galbrena-bfb1691bcfa3.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "7c6c3a3bc3ce",
+      "sourceHash": "7c6c3a3bc3ce",
+      "kind": "characters",
+      "name": "Jiyan",
+      "fileStem": "jiyan-icon",
+      "path": "Prydwen/ww/assets/characters/jiyan-7c6c3a3bc3ce.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "552f65617cbb",
+      "sourceHash": "552f65617cbb",
+      "kind": "characters",
+      "name": "Phoebe",
+      "fileStem": "phoebe-icon",
+      "path": "Prydwen/ww/assets/characters/phoebe-552f65617cbb.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "3a3005a58dc2",
+      "sourceHash": "3a3005a58dc2",
+      "kind": "characters",
+      "name": "Zani",
+      "fileStem": "zani-icon",
+      "path": "Prydwen/ww/assets/characters/zani-3a3005a58dc2.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1b2a8f336e3d",
+      "sourceHash": "1b2a8f336e3d",
+      "kind": "characters",
+      "name": "Verina",
+      "fileStem": "verina-icon",
+      "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d909de4aecde",
+      "sourceHash": "d909de4aecde",
+      "kind": "characters",
+      "name": "The Shorekeeper",
+      "fileStem": "the-shorekeeper-icon",
+      "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "4910396b5955",
+      "sourceHash": "4910396b5955",
+      "kind": "characters",
+      "name": "Mortefi",
+      "fileStem": "mortefi-icon",
+      "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "id": "1579a1be3407",
+      "sourceHash": "1579a1be3407",
+      "kind": "characters",
+      "name": "Lupa",
+      "fileStem": "lupa-icon",
+      "path": "Prydwen/ww/assets/characters/lupa-1579a1be3407.webp",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "id": "514d72023ab5",
+      "sourceHash": "514d72023ab5",
+      "kind": "characters",
+      "name": "Rover (Spectro)",
+      "fileStem": "rover-spectro-icon",
+      "path": "Prydwen/ww/assets/characters/rover-spectro-514d72023ab5.webp",
+      "width": 120,
+      "height": 120
+    }
+  ],
+  "sections": [
+    {
+      "id": "mortefi-best-build-guide-0",
+      "level": 1,
+      "heading": "Mortefi Best Build Guide",
+      "text": "Last updated: 09/June/2026",
+      "assets": [
+        {
+          "id": "0600d7b7604b",
+          "sourceHash": "0600d7b7604b",
+          "kind": "characters",
+          "name": "Mortefi",
+          "fileStem": "mortefi-card",
+          "path": "Prydwen/ww/assets/characters/mortefi-0600d7b7604b.webp",
+          "width": 210,
+          "height": 280
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Mortefi from WW (Wuthering Waves). Mortefi is a 4 ★ rarity character from the Fusion element who uses the Pistols type weapon.\n Mortefi, a skilled expert in Applied Tacetite Study and a member of the Academy’s Department of Safety, possesses the unique ability to transform his accumulated frustration into fiery flames. From a burning wrath that consumes all, the red dragon shall descend.\n\n To learn more about Mortefi check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": [
+        {
+          "id": "c72489fb1776",
+          "sourceHash": "c72489fb1776",
+          "kind": "icons",
+          "name": "Fusion",
+          "fileStem": "element-fusion",
+          "path": "Prydwen/ww/assets/icons/fusion-c72489fb1776.webp",
+          "width": 20,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "This character has no video guide yet.",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 1.3\n\n Last major build/calcs update\n Patch 2.3\n\n Last profile update*\n 09/June/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Mortefi check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Impromptu Show",
+      "assets": []
+    },
+    {
+      "id": "basic-attack-10",
+      "level": 5,
+      "heading": "Basic Attack",
+      "text": "Mortefi uses his dual guns and fire to perform up to 4 continuous attacks dealing Fusion DMG.",
+      "assets": []
+    },
+    {
+      "id": "heavy-attack-11",
+      "level": 5,
+      "heading": "Heavy Attack",
+      "text": "Mortefi enters the aiming state for a more powerful shot.\nThe aimed shot fired after charging finishes deals Fusion DMG.",
+      "assets": []
+    },
+    {
+      "id": "mid-air-attack-12",
+      "level": 5,
+      "heading": "Mid-air Attack",
+      "text": "Mortefi consumes Stamina to perform consecutive shots at the target in mid-air, dealing Fusion DMG.",
+      "assets": []
+    },
+    {
+      "id": "dodge-counter-13",
+      "level": 5,
+      "heading": "Dodge Counter",
+      "text": "Use Basic Attack after successful Dodge to attack the target, dealing Fusion DMG.\n\n Multipliers\n\n Resonance Skill\n Passionate Variation\n\n Launch high-speed flame lightning forward, dealing Fusion DMG.\n\n Multipliers\n\n Resonance Liberation\n Violent Finale\n\n Deal Fusion DMG , and apply Burning Rhapsody to all characters in the team.",
+      "assets": []
+    },
+    {
+      "id": "burning-rhapsody-14",
+      "level": 5,
+      "heading": "Burning Rhapsody",
+      "text": "When the on-field character's Basic Attack hits the target, Mortefi launches a Coordinated Attack, firing 1 Marcato. When the on-field character's Heavy Attack hits the target, Mortefi launches a Coordinated Attack, firing 2 Marcato. Mortefi can launch one Coordinated Attack every 0.35s .",
+      "assets": []
+    },
+    {
+      "id": "marcato-15",
+      "level": 5,
+      "heading": "Marcato",
+      "text": "Deals Fusion DMG.\n\n Multipliers\n\n Forte Circuit\n Fury Fugue",
+      "assets": []
+    },
+    {
+      "id": "resonance-skill-fury-fugue-16",
+      "level": 5,
+      "heading": "Resonance Skill: Fury Fugue",
+      "text": "When Mortefi's \"Annoyance\" reaches 100 , his Resonance Skill is replaced with Fury Fudge. When casting Fury Fudge, Mortefi consumes all \"Annoyance\" to unleash high-speed flame lightning, dealing Fusion DMG , considered as Resonance Skill damage.",
+      "assets": []
+    },
+    {
+      "id": "annoyance-17",
+      "level": 5,
+      "heading": "Annoyance",
+      "text": "Mortefi can hold up to 100 Annoyance. When Normal Attack Impromptu Show hits the target, “Annoyance” is restored. When Intro Skill Dissonance hits the target, “Annoyance” is restored.\nWhen Resonance Skill Passionate Variation hits the target, “Annoyance” is restored. Within 5 seconds after casting Passionate Variation, Basic Attack Impromptu that hits the target additionally restores “Annoyance”.\n\n Multipliers\n\n Inherent Skill\n Harmonic Control\n\n After casting Resonance Skill Passionate Variation, the damage of Resonance Skill Draconic Hellfire is increased by 25% for 8s .\n\n Inherent Skill\n Rhythmic Vibrato\n\n During Resonance Liberation Burning Rhapsody, each hit of Resonance Liberation Marcato will increase the damage of the next Resonance Liberation Marcato by 1.5% , which can be triggered once every 0.35s, stacking up to 50 times. The effect will be reset after Resonance Liberation Burning Rhapsody ends.\n\n Intro Skill\n Dissonance\n\n Attack the target, dealing Fusion DMG.\n\n Multipliers\n\n Outro Skill\n Rage Transposition\n\n The next character (or other characters on a nearby team that activates an Outro Skill) gains 38% Heavy Attack DMG Deepen for 14 seconds or until the Character is switched.",
+      "assets": []
+    },
+    {
+      "id": "resonance-chain-dupes-18",
+      "level": 2,
+      "heading": "Resonance Chain (Dupes)",
+      "text": "S 1\n Sequence Node 1\n\n During Resonance Liberation Burning Rhapsody, Mortefi launches Coordinated Attacks when the on-field character performs their Resonance Skills, firing 2 Resonance Liberation's Marcato hits, dealing Fusion Damage .\n\n S 2\n Sequence Node 2\n\n After using the Echo Skill, Mortefi restores an additional 10 Resonance Energy. This can be triggered once every 20 second.\n\n S 3\n Sequence Node 3\n\n During Resonance Liberation Burning Rhapsody, the Crit. DMG of Resonance Liberation's Marcato is increased by 30%.\n\n S 4\n Sequence Node 4\n\n The duration of Resonance Liberation Burning Rhapsody is extended by 7s .\n\n S 5\n Sequence Node 5\n\n When Resonance Skill Passionate Variation or Resonance Skill Fury Fugue hits a target, 4 Resonance Liberation's Marcato hits will be fired, dealing Fusion Damage . DMG of Resonance Liberation's Marcato fired in this way is reduced by 50%.\n\n S 6\n Sequence Node 6\n\n When Resonance Liberation Violent Finale is cast, ATK of all team members is increased by 20% for 20s .",
+      "assets": []
+    },
+    {
+      "id": "minor-fortes-total-19",
+      "level": 2,
+      "heading": "Minor Fortes (Total)",
+      "text": "Fusion DMG\n + 12 %\n\n ATK%\n + 12 %",
+      "assets": [
+        {
+          "id": "39143225474a",
+          "sourceHash": "39143225474a",
+          "kind": "icons",
+          "name": "Fusion DMG",
+          "fileStem": "stat-fire",
+          "path": "Prydwen/ww/assets/icons/fusion-dmg-39143225474a.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "1e70b3adc860",
+          "sourceHash": "1e70b3adc860",
+          "kind": "icons",
+          "name": "ATK%",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "stats-20",
+      "level": 2,
+      "heading": "Stats",
+      "text": "Include minor fortes\n\n Lv. 90\n\n HP\n 10025\n\n ATK\n 250\n\n DEF\n 1137\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Fusion DMG\n 0 %",
+      "assets": [
+        {
+          "id": "c26c1d310e90",
+          "sourceHash": "c26c1d310e90",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "1e70b3adc860",
+          "sourceHash": "1e70b3adc860",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "aa019d34202f",
+          "sourceHash": "aa019d34202f",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "5a0b154cd3d8",
+          "sourceHash": "5a0b154cd3d8",
+          "kind": "icons",
+          "name": "Max Energy",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "39094c227806",
+          "sourceHash": "39094c227806",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "7e2bcd0760ca",
+          "sourceHash": "7e2bcd0760ca",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "94236abd3fdc",
+          "sourceHash": "94236abd3fdc",
+          "kind": "icons",
+          "name": "Healing",
+          "fileStem": "stat-heal",
+          "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "39143225474a",
+          "sourceHash": "39143225474a",
+          "kind": "icons",
+          "name": "Fusion",
+          "fileStem": "stat-fire",
+          "path": "Prydwen/ww/assets/icons/fusion-39143225474a.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "character-ascension-total-22",
+      "level": 5,
+      "heading": "Character Ascension (total)",
+      "text": "4 x LF Whisperin Core\n 12 x MF Whisperin Core\n 12 x HF Whisperin Core\n 4 x FF Whisperin Core\n 46 x Rage Tacet Core\n 60 x Coriolus\n 170 000 Shell Credits",
+      "assets": []
+    },
+    {
+      "id": "skill-upgrades-total-23",
+      "level": 5,
+      "heading": "Skill Upgrades (total)",
+      "text": "25 x LF Whisperin Core\n 28 x MF Whisperin Core\n 40 x HF Whisperin Core\n 57 x FF Whisperin Core\n 25 x Impure Phlogiston\n 28 x Extracted Phlogiston\n 55 x Refined Phlogiston\n 67 x Flawless Phlogiston\n 26 x Monument Bell\n 2 030 000 Shell Credits\n\n While the source of the materials can be quickly found in the game, when it comes Coriolus you will have to gather them from the map. Check our Interactive map to find them quickly:\n\n Interactive Map",
+      "assets": [
+        {
+          "id": "f48ff62c89aa",
+          "sourceHash": "f48ff62c89aa",
+          "kind": "categories",
+          "name": "Interactive Map",
+          "fileStem": "category-map",
+          "path": "Prydwen/ww/assets/categories/interactive-map-f48ff62c89aa.webp",
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "voice-actors-24",
+      "level": 2,
+      "heading": "Voice Actors",
+      "text": "ENG\n Joseph May\n\n JPN\n Miura Katsuyuki\n\n CN\n Liu YiJia\n\n KR\n Kim Da Ol",
+      "assets": []
+    },
+    {
+      "id": "gallery-25",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "d5d907185fab",
+          "sourceHash": "d5d907185fab",
+          "kind": "characters",
+          "name": "Mortefi",
+          "fileStem": "mortefi-full",
+          "path": "Prydwen/ww/assets/characters/mortefi-d5d907185fab.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "ratings-26",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.",
+      "assets": []
+    },
+    {
+      "id": "hybrid-27",
+      "level": 5,
+      "heading": "Hybrid",
+      "text": "T1.5\n Tower of Adversity\n\n T2\n Whimpering Wastes",
+      "assets": []
+    },
+    {
+      "id": "hybrid-29",
+      "level": 5,
+      "heading": "Hybrid",
+      "text": "T1.5\n Tower of Adversity (Value)\n\n T2\n Whimpering Wastes (Value)",
+      "assets": []
+    },
+    {
+      "id": "pros-31",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Incredibly fast Concerto rotation allowing fast access to his Outro\n\n Incredible synergy with Heavy Attackers, boosting them and himself tremendously\n\n Good personal damage considering the suite of buffs he provides\n\n Insane Sequences that make him even stronger\n\n Easy to understand and play even at the highest level\n\n Strong enough to be played as a Hybrid even outside of his Heavy Attacker niche",
+      "assets": []
+    },
+    {
+      "id": "cons-32",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Long Ultimate cooldown - 20 seconds compared to 10 second duration of the buff - so you need to keep this in mind while doing your rotations\n\n If you're stuck at S0, looking at the overpowered Sequences will make you feel bad",
+      "assets": []
+    },
+    {
+      "id": "review-33",
+      "level": 2,
+      "heading": "Review",
+      "text": "Mortefi is a 4-star Fusion Pistol wielding Hybrid that can dish out good damage when built correctly, but truly shines in a more Supportive role with teammates that primarily deal Heavy Attack damage. This is because his Ultimate Skill synergises with Heavy Attacks and his Outro amplies them by a further 38%.\n Mortefi recharges his Forte Gauge with Basic Attacks, Resonance Skill and Intro Skill, which when full will convert his skill to Fury Fugue. This is similar to his Resonance Skill, being an excellent generator of Concerto Energy and Resonance Energy, with the addition of Fusion DMG in an AoE radius. His Forte Gauge can be quickly filled by using his Basic Attacks after Resonance Skill, unlocking Fury Fugue faster. Another great point of Fury Fugue is that it lacks any CD; it can be spammed indefinitely as long as your Forte Gauge fills up, and it doesn’t interfere with his normal Resonance Skill, allowing him to use the two in quick succession.\n His Resonance Skill generates a good amount of Concerto Energy and Resonance Energy while dealing Fusion Damage to his primary target.\n His Ultimate Skill deals Fusion Damage in front of him, generating a good chunk of Concerto Energy and buffing the entire team with Burning Rhapsody. While the buff is active, Mortefi will launch a coordinated attack when an enemy is hit by an ally, up to once every 0.35 seconds. If the landed attack is a Heavy Attack, he instead deals 2 coordinated attacks, doubling his potential damage output, making Heavy Attackers his ideal partners.\n Mortefi requires minimal field time thanks to having one of the fastest and easiest to execute Concerto rotations in the game, which combines his excellent Outro buff, solid DPS and highly synergistic Ultimate Skill. He is also easy to play as his rotation is simple and fast to execute, making him a good choice for players of all skill. Even if you happen to mess up his rotation, it is quite easy to recover.\n While being able to deal good damage as far as Hybrid characters go, his true calling is being a Support thanks to his Outro Skill, hence he prefers the combination of 5P Moonlit Clouds and Impermanence Heron Echo. This stacks an additional 12% DMG and 22% ATK on top of his already potent 38% Heavy Attack amplification from Outro, generating a massive buff stack for the character switching in.\n Overall, Mortefi is currently one of the top Hybrid characters in endgame, especially for characters/teams centered around Heavy Attack burst rotation. Even if not for that, he sees use thanks to his incredibly fast Concerto Rotation and synergy with the 5P Moonlit Clouds and Impermanence Heron Echo. His strong Sequences can further increase his utility to your team.",
+      "assets": []
+    },
+    {
+      "id": "video-guides-34",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "Mortefi guide videos aren't available yet.\n\n Build",
+      "assets": []
+    },
+    {
+      "id": "best-weapons-35",
+      "level": 2,
+      "heading": "Best Weapons",
+      "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n 100.00%\n\n Static Mist (R 1 )\n\n Incredibly potent option offering main stat CRIT RATE, great base damage and a good amount of energy recharge allowing for sub stats to be used elsewhere. Also offers a supportive ability granting the next character to switch in an ATK boost granting it extra value for Hybrid and Support characters.\n 106.12%\n\n The Last Dance (R 1 )\n\n Carlotta's Signature and a solid choice for most pistol based resonators due to its decent base damage, very high CRIT DM% and permanent ATK% boost. Far more effective though for resonators that deal some or the majority of their damage through Resonance Skill damaging abilites.\n 83.92%\n\n Relativistic Jet (R 5 )\n\n Good generalist 4-star weapon that provides extra Energy and has good Base ATK for a 4-star. Significantly reduces Energy requirements on Mortefi.\n 83.64%\n\n Novaburst (R 5 )\n\n Gun usable by all resonators, offering good bonuses to ATK but reliant on dodging 3 times initially (with continual dodges after that). Should only be used by those willing to perform dodges at the start of their rotation and consistently after. Calculations assume you perform dodges as soon as possible and maintain the buff.\n 83.07%\n\n Thunderbolt (R 5 )\n\n Powerful Gun option for Resonance Skill focused damage characters, but with a heavy conditional required for activation. Grants solid base damage and ATK% via main stats. Also offers an incredibly potent stackable Resonance Skill DMG% bonus that requires the users consistently use Basic Attacks to maintain.\n 82.65%\n\n Pistols#26 (R 5 )\n\n Generic gun option usable by all characters but with a significant ramp-up time on its bonus. Also requires the player not to be hit in order to extract full value. If you do get hit this weapon will fall behind (calculations assume you don't get hit once).\n 81.87%\n\n Undying Flame (R 5 )\n\n Strong gun option for resonators that deal primarily Resonance Skill DMG with little to no conditions to worry about, thanks to its effect being tied to Intro skills. Grants a Resonance Skill DMG bonus that lasts for 15 seconds on using Intro - long enough for most Main DPS to finish their burst window making this a strong consistent option.",
+      "assets": [
+        {
+          "id": "afef53941338",
+          "sourceHash": "afef53941338",
+          "kind": "weapons",
+          "name": "Static Mist",
+          "fileStem": "21030015",
+          "path": "Prydwen/ww/assets/weapons/static-mist-afef53941338.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "a0797fb7bf92",
+          "sourceHash": "a0797fb7bf92",
+          "kind": "weapons",
+          "name": "The Last Dance",
+          "fileStem": "21030016",
+          "path": "Prydwen/ww/assets/weapons/the-last-dance-a0797fb7bf92.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "96de9b5aead5",
+          "sourceHash": "96de9b5aead5",
+          "kind": "weapons",
+          "name": "Relativistic Jet",
+          "fileStem": "21030084",
+          "path": "Prydwen/ww/assets/weapons/relativistic-jet-96de9b5aead5.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ec0ad26e1579",
+          "sourceHash": "ec0ad26e1579",
+          "kind": "weapons",
+          "name": "Novaburst",
+          "fileStem": "21030064",
+          "path": "Prydwen/ww/assets/weapons/novaburst-ec0ad26e1579.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "279183c1c2cc",
+          "sourceHash": "279183c1c2cc",
+          "kind": "weapons",
+          "name": "Thunderbolt",
+          "fileStem": "21030074",
+          "path": "Prydwen/ww/assets/weapons/thunderbolt-279183c1c2cc.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9fbfd63e176c",
+          "sourceHash": "9fbfd63e176c",
+          "kind": "weapons",
+          "name": "Pistols#26",
+          "fileStem": "21030034",
+          "path": "Prydwen/ww/assets/weapons/pistols-26-9fbfd63e176c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "fe355e2fa0aa",
+          "sourceHash": "fe355e2fa0aa",
+          "kind": "weapons",
+          "name": "Undying Flame",
+          "fileStem": "21030044",
+          "path": "Prydwen/ww/assets/weapons/undying-flame-fe355e2fa0aa.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "best-echo-sets-37",
+      "level": 6,
+      "heading": "Best Echo Sets",
+      "text": "1\n\nMoonlit Clouds\n\n Offers a 10% unconditional Energy Regen% boost taking some pressure off your gear when aiming at ER breakpoints. Also upon using Outro, grants the next character switching in a 22.5% ATK boost, amplifying any of your main damage dealers burst windows.\n Below you can find Main Echo options:\n\n Impermanence Heron\n\n - Supportive Echo that can be run at the cost of a sizeable chunk of damage for the character who equips, trading personal gain for team benefits. Should always be used and immediately switch cancelled right before performing an Outro, leading to another DPS. When done so will grant the next character switching in 12% increased DMG% which when combined with the 5P Moonlit set which also grants 22.5% ATK% under the same conditions makes for a sizeable boost. While the echo does lower the damage of whoever wears it, it grants a massive chunk of energy on use usually saving 1 or sometimes even 2 Energy Regen sub stats that may otherwise be needed by the wearer allowing for some damage to be recovered.\n\n 2\n\nEmpyrean Anthem\n\n Offers an unconditional 10% Energy Regen% and 80% Coordinated DMG boost. Also grants a passive supportive effect which triggers when the wearer of this set critically strikes with a Coordinated attack - this effect grants the on field Resonator an ATK% boost regardless if they're the wearer of the set or not. The set is better than Moonlit Clouds if and only if the equipped character's Echoes have endgame investment (with 9 or 10 CRIT substats total) and the character has a 5-star weapon equipped. If both conditions aren't met, Moonlit Clouds is a better choice.\n Below you can find Main Echo options:\n\n Hecate\n\n - Offers a 40% unconditional Coordinated Attack DMG% boost when placed in the Main Echo slot, making it a solid choice for Coordinated Attack-focused resonators looking to use the 5P Empyrean Anthem Echo set bonus.",
+      "assets": [
+        {
+          "id": "358387a78181",
+          "sourceHash": "358387a78181",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-8",
+          "path": "Prydwen/ww/assets/icons/set-8-358387a78181.webp",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "969a4ca96158",
+          "sourceHash": "969a4ca96158",
+          "kind": "misc",
+          "name": "Impermanence Heron",
+          "fileStem": "330000030",
+          "path": "Prydwen/ww/assets/misc/impermanence-heron-969a4ca96158.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "26730b805365",
+          "sourceHash": "26730b805365",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-13",
+          "path": "Prydwen/ww/assets/icons/set-13-26730b805365.webp",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "23f9c4c9d14d",
+          "sourceHash": "23f9c4c9d14d",
+          "kind": "misc",
+          "name": "Hecate",
+          "fileStem": "340000100",
+          "path": "Prydwen/ww/assets/misc/hecate-23f9c4c9d14d.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "best-echo-stats-38",
+      "level": 2,
+      "heading": "Best Echo Stats",
+      "text": "4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Fusion DMG\n\n 3 cost\n Fusion DMG > ATK%\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK",
+      "assets": []
+    },
+    {
+      "id": "best-endgame-stats-level-90-39",
+      "level": 2,
+      "heading": "Best Endgame Stats (Level 90)",
+      "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 15000+\n\n DEF: 1100+\n\n ATK: 1900-2200+\n\n CRIT Rate: 60%-80%\n\n CRIT DMG: 215-260%+\n\n Energy Regen: 115%-130%+\n At S2, Mortefi’s requirement will be 120% in most teams with 113% using Augusta due to her rotation extension, without S2 this will increase by ~11%.\n\n Fusion DMG Bonus: 40-70%+",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-40",
+      "level": 2,
+      "heading": "Skill Priority",
+      "text": "Below you can find the order of leveling the abilities for Mortefi .\n Res. Liberation\n\n Forte Circuit\n\n Basic Attack\n\n Res. Skill\n\n Intro Skill\n\n Gameplay and teams",
+      "assets": []
+    },
+    {
+      "id": "rotation-41",
+      "level": 2,
+      "heading": "Rotation",
+      "text": "Mortefi is easy and straightforward to play when following the rotation below, however keep an eye out for the following things while playing him:\n Mortefi’s Ultimate and Outro should be always used together right before you Swap to another character to perform their burst combo (preferably a Heavy attacker). Triggering his Ultimate too early or during his own rotation wastes a chunk of his damage potential as well as buffing potential if S6.\n\n Using Resonance Skill: Passionate Variation gains you additional Annoyance from all Basic Attacks for 5 seconds.Taking advantage of this window is important to allow you regain access to Fury Fugue quickly to complete his Concerto and keep rotation short.\n\n His Ultimate will be always used at the end of his Concerto Rotation, and generates 20 Concerto Energy (a little less than a quarter of the gauge). As such, plan around this and use his Ultimate when you are missing approx 20 Concerto so as to minimize time spent generating it.",
+      "assets": []
+    },
+    {
+      "id": "rotation-42",
+      "level": 6,
+      "heading": "Rotation",
+      "text": "Intro\n\n Skill: Passionate Variation\n\n Skill: Fury Fugue\n\n Basic P1\n\n Basic P2\n\n Basic P3\n\n Basic P4\n\n Skill: Fury Fugue\n\n Ultimate\n\n Echo (Impermanance Heron Swap-Cancel)",
+      "assets": []
+    },
+    {
+      "id": "synergies-43",
+      "level": 2,
+      "heading": "Synergies",
+      "text": "Augusta - Mortefi is by far the best F2P-accessible option for her as he provides a massive 38% Heavy Attack DMG Amplify on his Outro, which he accesses quickly and easily while retaining solid off-field personal damage via his Ultimate's Marcato Coordinated Attacks. As a pistol user, he additionally has access to an extra ATK% buff from the Static Mist weapon and he has an extra ATK% buff with his S6 as well, making him one of the best options by far.\n Galbrena - As one of Galbrena's best partners, Mortefi provides 38% Heavy Attack DMG Amplify on his Outro which is one of Galbrena's 2 main damage types. Additionally, he can wield Moonlit Clouds and the Static Mist pistol for a ton of ATK% and DMG% buffing. On top of his fast rotation and solid personal damage, he makes for a fantastic Galbrena teammate in general, particularly with Lupa in a Mono Fusion setup.\n Jiyan - Mortefi is Jiyan's tailor-made partner. Via his Echo Sets, his S6 and Static Mist, Mortefi can give lots of ATK% buffs, but most importantly he amplifies Jiyan's main damage type, Heavy ATK DMG, by 38% on Outro. Therefore, he buffs Jiyan's damage by large amounts and has amazung synergy with him.\n Phoebe - Mortefi is a good secondary for Absolution Phoebe with a Rejuvenating Glow Spectro Rover, however his Heavy ATK DMG Amplify on Outro faces loads of diminishing returns so his buffing potential mostly lies in his S6 and potentially the Static Mist pistol so he provides lots of ATK% to Phoebe. Overall this pairing is one of the best for Absolution Phoebe, but it is contested.\n Zani - Mortefi, in Zani teams, acts as a substitute for Phoebe's buffing effects, but unfortunately doesn't apply any Spectro Frazzle. To compensate for this, Mortefi with Zani must be used with Spectro Rover, but under these conditions the team can work just fine and is able to clear endgame content without any issues, so the trio is definitely usable for F2P accounts!\n Verina - One of the usual Healing Support options that can slot into any team. Super easy to use, provides amazing team-wide ATK% buffs and 15% DMG Amplify with one of the fastest rotations in the game. Enjoy.\n The Shorekeeper - Similar to Verina, a premium Healing Support option who can not only slot into any team, but also provide insane 12.5% Crit Rate, 25% Crit DMG, 25% ATK and 15% DMG Amplify buffs to your whole team. One of the best but also easy to use characters in the game.",
+      "assets": [
+        {
+          "id": "d9b47f532b06",
+          "sourceHash": "d9b47f532b06",
+          "kind": "characters",
+          "name": "Augusta",
+          "fileStem": "augusta-icon",
+          "path": "Prydwen/ww/assets/characters/augusta-d9b47f532b06.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "bfb1691bcfa3",
+          "sourceHash": "bfb1691bcfa3",
+          "kind": "characters",
+          "name": "Galbrena",
+          "fileStem": "galbrena-icon",
+          "path": "Prydwen/ww/assets/characters/galbrena-bfb1691bcfa3.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7c6c3a3bc3ce",
+          "sourceHash": "7c6c3a3bc3ce",
+          "kind": "characters",
+          "name": "Jiyan",
+          "fileStem": "jiyan-icon",
+          "path": "Prydwen/ww/assets/characters/jiyan-7c6c3a3bc3ce.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "552f65617cbb",
+          "sourceHash": "552f65617cbb",
+          "kind": "characters",
+          "name": "Phoebe",
+          "fileStem": "phoebe-icon",
+          "path": "Prydwen/ww/assets/characters/phoebe-552f65617cbb.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3a3005a58dc2",
+          "sourceHash": "3a3005a58dc2",
+          "kind": "characters",
+          "name": "Zani",
+          "fileStem": "zani-icon",
+          "path": "Prydwen/ww/assets/characters/zani-3a3005a58dc2.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1b2a8f336e3d",
+          "sourceHash": "1b2a8f336e3d",
+          "kind": "characters",
+          "name": "Verina",
+          "fileStem": "verina-icon",
+          "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d909de4aecde",
+          "sourceHash": "d909de4aecde",
+          "kind": "characters",
+          "name": "The Shorekeeper",
+          "fileStem": "the-shorekeeper-icon",
+          "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "example-teams-44",
+      "level": 2,
+      "heading": "Example Teams",
+      "text": "Best Team\n\n Galbrena Mono Fusion Team\n\n Jiyan Team\n\n Phoebe Team\n\n Spectro Rover should be on Rejuvenating Glow.\n\n Zani Team\n\n Spectro Rover should be on Rejuvenating Glow.\n\n Calculations",
+      "assets": [
+        {
+          "id": "d9b47f532b06",
+          "sourceHash": "d9b47f532b06",
+          "kind": "characters",
+          "name": "Augusta",
+          "fileStem": "augusta-icon",
+          "path": "Prydwen/ww/assets/characters/augusta-d9b47f532b06.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "4910396b5955",
+          "sourceHash": "4910396b5955",
+          "kind": "characters",
+          "name": "Mortefi",
+          "fileStem": "mortefi-icon",
+          "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "d909de4aecde",
+          "sourceHash": "d909de4aecde",
+          "kind": "characters",
+          "name": "The Shorekeeper",
+          "fileStem": "the-shorekeeper-icon",
+          "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "1b2a8f336e3d",
+          "sourceHash": "1b2a8f336e3d",
+          "kind": "characters",
+          "name": "Verina",
+          "fileStem": "verina-icon",
+          "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "bfb1691bcfa3",
+          "sourceHash": "bfb1691bcfa3",
+          "kind": "characters",
+          "name": "Galbrena",
+          "fileStem": "galbrena-icon",
+          "path": "Prydwen/ww/assets/characters/galbrena-bfb1691bcfa3.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "1579a1be3407",
+          "sourceHash": "1579a1be3407",
+          "kind": "characters",
+          "name": "Lupa",
+          "fileStem": "lupa-icon",
+          "path": "Prydwen/ww/assets/characters/lupa-1579a1be3407.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "7c6c3a3bc3ce",
+          "sourceHash": "7c6c3a3bc3ce",
+          "kind": "characters",
+          "name": "Jiyan",
+          "fileStem": "jiyan-icon",
+          "path": "Prydwen/ww/assets/characters/jiyan-7c6c3a3bc3ce.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "552f65617cbb",
+          "sourceHash": "552f65617cbb",
+          "kind": "characters",
+          "name": "Phoebe",
+          "fileStem": "phoebe-icon",
+          "path": "Prydwen/ww/assets/characters/phoebe-552f65617cbb.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "514d72023ab5",
+          "sourceHash": "514d72023ab5",
+          "kind": "characters",
+          "name": "Rover (Spectro)",
+          "fileStem": "rover-spectro-icon",
+          "path": "Prydwen/ww/assets/characters/rover-spectro-514d72023ab5.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "3a3005a58dc2",
+          "sourceHash": "3a3005a58dc2",
+          "kind": "characters",
+          "name": "Zani",
+          "fileStem": "zani-icon",
+          "path": "Prydwen/ww/assets/characters/zani-3a3005a58dc2.webp",
+          "width": 120,
+          "height": 120
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "best-echo-stats": {
+      "label": "Best Echo Stats",
+      "sections": [
+        {
+          "heading": "Stats",
+          "text": "Include minor fortes\n\n Lv. 90\n\n HP\n 10025\n\n ATK\n 250\n\n DEF\n 1137\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Fusion DMG\n 0 %",
+          "assets": [
+            {
+              "id": "c26c1d310e90",
+              "sourceHash": "c26c1d310e90",
+              "kind": "icons",
+              "name": "HP",
+              "fileStem": "stat-hp",
+              "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "1e70b3adc860",
+              "sourceHash": "1e70b3adc860",
+              "kind": "icons",
+              "name": "ATK",
+              "fileStem": "stat-atk",
+              "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "aa019d34202f",
+              "sourceHash": "aa019d34202f",
+              "kind": "icons",
+              "name": "DEF",
+              "fileStem": "stat-def",
+              "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "5a0b154cd3d8",
+              "sourceHash": "5a0b154cd3d8",
+              "kind": "icons",
+              "name": "Max Energy",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "39094c227806",
+              "sourceHash": "39094c227806",
+              "kind": "icons",
+              "name": "CRIT Rate",
+              "fileStem": "stat-crit",
+              "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "7e2bcd0760ca",
+              "sourceHash": "7e2bcd0760ca",
+              "kind": "icons",
+              "name": "CRIT DMG",
+              "fileStem": "stat-critdmg",
+              "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "94236abd3fdc",
+              "sourceHash": "94236abd3fdc",
+              "kind": "icons",
+              "name": "Healing",
+              "fileStem": "stat-heal",
+              "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "39143225474a",
+              "sourceHash": "39143225474a",
+              "kind": "icons",
+              "name": "Fusion",
+              "fileStem": "stat-fire",
+              "path": "Prydwen/ww/assets/icons/fusion-39143225474a.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        },
+        {
+          "heading": "Best Echo Stats",
+          "text": "4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Fusion DMG\n\n 3 cost\n Fusion DMG > ATK%\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK",
+          "assets": []
+        }
+      ]
+    },
+    "best-weapons": {
+      "label": "Best Weapons",
+      "sections": [
+        {
+          "heading": "Best Weapons",
+          "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n 100.00%\n\n Static Mist (R 1 )\n\n Incredibly potent option offering main stat CRIT RATE, great base damage and a good amount of energy recharge allowing for sub stats to be used elsewhere. Also offers a supportive ability granting the next character to switch in an ATK boost granting it extra value for Hybrid and Support characters.\n 106.12%\n\n The Last Dance (R 1 )\n\n Carlotta's Signature and a solid choice for most pistol based resonators due to its decent base damage, very high CRIT DM% and permanent ATK% boost. Far more effective though for resonators that deal some or the majority of their damage through Resonance Skill damaging abilites.\n 83.92%\n\n Relativistic Jet (R 5 )\n\n Good generalist 4-star weapon that provides extra Energy and has good Base ATK for a 4-star. Significantly reduces Energy requirements on Mortefi.\n 83.64%\n\n Novaburst (R 5 )\n\n Gun usable by all resonators, offering good bonuses to ATK but reliant on dodging 3 times initially (with continual dodges after that). Should only be used by those willing to perform dodges at the start of their rotation and consistently after. Calculations assume you perform dodges as soon as possible and maintain the buff.\n 83.07%\n\n Thunderbolt (R 5 )\n\n Powerful Gun option for Resonance Skill focused damage characters, but with a heavy conditional required for activation. Grants solid base damage and ATK% via main stats. Also offers an incredibly potent stackable Resonance Skill DMG% bonus that requires the users consistently use Basic Attacks to maintain.\n 82.65%\n\n Pistols#26 (R 5 )\n\n Generic gun option usable by all characters but with a significant ramp-up time on its bonus. Also requires the player not to be hit in order to extract full value. If you do get hit this weapon will fall behind (calculations assume you don't get hit once).\n 81.87%\n\n Undying Flame (R 5 )\n\n Strong gun option for resonators that deal primarily Resonance Skill DMG with little to no conditions to worry about, thanks to its effect being tied to Intro skills. Grants a Resonance Skill DMG bonus that lasts for 15 seconds on using Intro - long enough for most Main DPS to finish their burst window making this a strong consistent option.",
+          "assets": [
+            {
+              "id": "afef53941338",
+              "sourceHash": "afef53941338",
+              "kind": "weapons",
+              "name": "Static Mist",
+              "fileStem": "21030015",
+              "path": "Prydwen/ww/assets/weapons/static-mist-afef53941338.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "a0797fb7bf92",
+              "sourceHash": "a0797fb7bf92",
+              "kind": "weapons",
+              "name": "The Last Dance",
+              "fileStem": "21030016",
+              "path": "Prydwen/ww/assets/weapons/the-last-dance-a0797fb7bf92.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "96de9b5aead5",
+              "sourceHash": "96de9b5aead5",
+              "kind": "weapons",
+              "name": "Relativistic Jet",
+              "fileStem": "21030084",
+              "path": "Prydwen/ww/assets/weapons/relativistic-jet-96de9b5aead5.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "ec0ad26e1579",
+              "sourceHash": "ec0ad26e1579",
+              "kind": "weapons",
+              "name": "Novaburst",
+              "fileStem": "21030064",
+              "path": "Prydwen/ww/assets/weapons/novaburst-ec0ad26e1579.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "279183c1c2cc",
+              "sourceHash": "279183c1c2cc",
+              "kind": "weapons",
+              "name": "Thunderbolt",
+              "fileStem": "21030074",
+              "path": "Prydwen/ww/assets/weapons/thunderbolt-279183c1c2cc.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "9fbfd63e176c",
+              "sourceHash": "9fbfd63e176c",
+              "kind": "weapons",
+              "name": "Pistols#26",
+              "fileStem": "21030034",
+              "path": "Prydwen/ww/assets/weapons/pistols-26-9fbfd63e176c.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "fe355e2fa0aa",
+              "sourceHash": "fe355e2fa0aa",
+              "kind": "weapons",
+              "name": "Undying Flame",
+              "fileStem": "21030044",
+              "path": "Prydwen/ww/assets/weapons/undying-flame-fe355e2fa0aa.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "best-echo-sets": {
+      "label": "Best Echo Sets",
+      "sections": [
+        {
+          "heading": "Best Echo Sets",
+          "text": "1\n\nMoonlit Clouds\n\n Offers a 10% unconditional Energy Regen% boost taking some pressure off your gear when aiming at ER breakpoints. Also upon using Outro, grants the next character switching in a 22.5% ATK boost, amplifying any of your main damage dealers burst windows.\n Below you can find Main Echo options:\n\n Impermanence Heron\n\n - Supportive Echo that can be run at the cost of a sizeable chunk of damage for the character who equips, trading personal gain for team benefits. Should always be used and immediately switch cancelled right before performing an Outro, leading to another DPS. When done so will grant the next character switching in 12% increased DMG% which when combined with the 5P Moonlit set which also grants 22.5% ATK% under the same conditions makes for a sizeable boost. While the echo does lower the damage of whoever wears it, it grants a massive chunk of energy on use usually saving 1 or sometimes even 2 Energy Regen sub stats that may otherwise be needed by the wearer allowing for some damage to be recovered.\n\n 2\n\nEmpyrean Anthem\n\n Offers an unconditional 10% Energy Regen% and 80% Coordinated DMG boost. Also grants a passive supportive effect which triggers when the wearer of this set critically strikes with a Coordinated attack - this effect grants the on field Resonator an ATK% boost regardless if they're the wearer of the set or not. The set is better than Moonlit Clouds if and only if the equipped character's Echoes have endgame investment (with 9 or 10 CRIT substats total) and the character has a 5-star weapon equipped. If both conditions aren't met, Moonlit Clouds is a better choice.\n Below you can find Main Echo options:\n\n Hecate\n\n - Offers a 40% unconditional Coordinated Attack DMG% boost when placed in the Main Echo slot, making it a solid choice for Coordinated Attack-focused resonators looking to use the 5P Empyrean Anthem Echo set bonus.",
+          "assets": [
+            {
+              "id": "358387a78181",
+              "sourceHash": "358387a78181",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-8",
+              "path": "Prydwen/ww/assets/icons/set-8-358387a78181.webp",
+              "width": 50,
+              "height": 50
+            },
+            {
+              "id": "969a4ca96158",
+              "sourceHash": "969a4ca96158",
+              "kind": "misc",
+              "name": "Impermanence Heron",
+              "fileStem": "330000030",
+              "path": "Prydwen/ww/assets/misc/impermanence-heron-969a4ca96158.webp",
+              "width": 35,
+              "height": 35
+            },
+            {
+              "id": "26730b805365",
+              "sourceHash": "26730b805365",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-13",
+              "path": "Prydwen/ww/assets/icons/set-13-26730b805365.webp",
+              "width": 50,
+              "height": 50
+            },
+            {
+              "id": "23f9c4c9d14d",
+              "sourceHash": "23f9c4c9d14d",
+              "kind": "misc",
+              "name": "Hecate",
+              "fileStem": "340000100",
+              "path": "Prydwen/ww/assets/misc/hecate-23f9c4c9d14d.webp",
+              "width": 35,
+              "height": 35
+            }
+          ]
+        }
+      ]
+    },
+    "best-endgame-stats": {
+      "label": "Best Endgame Stats",
+      "sections": [
+        {
+          "heading": "Best Endgame Stats (Level 90)",
+          "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 15000+\n\n DEF: 1100+\n\n ATK: 1900-2200+\n\n CRIT Rate: 60%-80%\n\n CRIT DMG: 215-260%+\n\n Energy Regen: 115%-130%+\n At S2, Mortefi’s requirement will be 120% in most teams with 113% using Augusta due to her rotation extension, without S2 this will increase by ~11%.\n\n Fusion DMG Bonus: 40-70%+",
+          "assets": []
+        }
+      ]
+    },
+    "skill-priority": {
+      "label": "Skill Priority",
+      "sections": [
+        {
+          "heading": "Skill Priority",
+          "text": "Below you can find the order of leveling the abilities for Mortefi .\n Res. Liberation\n\n Forte Circuit\n\n Basic Attack\n\n Res. Skill\n\n Intro Skill\n\n Gameplay and teams",
+          "assets": []
+        }
+      ]
+    },
+    "rotation": {
+      "label": "Rotation",
+      "sections": [
+        {
+          "heading": "Rotation",
+          "text": "Mortefi is easy and straightforward to play when following the rotation below, however keep an eye out for the following things while playing him:\n Mortefi’s Ultimate and Outro should be always used together right before you Swap to another character to perform their burst combo (preferably a Heavy attacker). Triggering his Ultimate too early or during his own rotation wastes a chunk of his damage potential as well as buffing potential if S6.\n\n Using Resonance Skill: Passionate Variation gains you additional Annoyance from all Basic Attacks for 5 seconds.Taking advantage of this window is important to allow you regain access to Fury Fugue quickly to complete his Concerto and keep rotation short.\n\n His Ultimate will be always used at the end of his Concerto Rotation, and generates 20 Concerto Energy (a little less than a quarter of the gauge). As such, plan around this and use his Ultimate when you are missing approx 20 Concerto so as to minimize time spent generating it.",
+          "assets": []
+        },
+        {
+          "heading": "Rotation",
+          "text": "Intro\n\n Skill: Passionate Variation\n\n Skill: Fury Fugue\n\n Basic P1\n\n Basic P2\n\n Basic P3\n\n Basic P4\n\n Skill: Fury Fugue\n\n Ultimate\n\n Echo (Impermanance Heron Swap-Cancel)",
+          "assets": []
+        }
+      ]
+    },
+    "synergies": {
+      "label": "Synergies",
+      "sections": [
+        {
+          "heading": "Synergies",
+          "text": "Augusta - Mortefi is by far the best F2P-accessible option for her as he provides a massive 38% Heavy Attack DMG Amplify on his Outro, which he accesses quickly and easily while retaining solid off-field personal damage via his Ultimate's Marcato Coordinated Attacks. As a pistol user, he additionally has access to an extra ATK% buff from the Static Mist weapon and he has an extra ATK% buff with his S6 as well, making him one of the best options by far.\n Galbrena - As one of Galbrena's best partners, Mortefi provides 38% Heavy Attack DMG Amplify on his Outro which is one of Galbrena's 2 main damage types. Additionally, he can wield Moonlit Clouds and the Static Mist pistol for a ton of ATK% and DMG% buffing. On top of his fast rotation and solid personal damage, he makes for a fantastic Galbrena teammate in general, particularly with Lupa in a Mono Fusion setup.\n Jiyan - Mortefi is Jiyan's tailor-made partner. Via his Echo Sets, his S6 and Static Mist, Mortefi can give lots of ATK% buffs, but most importantly he amplifies Jiyan's main damage type, Heavy ATK DMG, by 38% on Outro. Therefore, he buffs Jiyan's damage by large amounts and has amazung synergy with him.\n Phoebe - Mortefi is a good secondary for Absolution Phoebe with a Rejuvenating Glow Spectro Rover, however his Heavy ATK DMG Amplify on Outro faces loads of diminishing returns so his buffing potential mostly lies in his S6 and potentially the Static Mist pistol so he provides lots of ATK% to Phoebe. Overall this pairing is one of the best for Absolution Phoebe, but it is contested.\n Zani - Mortefi, in Zani teams, acts as a substitute for Phoebe's buffing effects, but unfortunately doesn't apply any Spectro Frazzle. To compensate for this, Mortefi with Zani must be used with Spectro Rover, but under these conditions the team can work just fine and is able to clear endgame content without any issues, so the trio is definitely usable for F2P accounts!\n Verina - One of the usual Healing Support options that can slot into any team. Super easy to use, provides amazing team-wide ATK% buffs and 15% DMG Amplify with one of the fastest rotations in the game. Enjoy.\n The Shorekeeper - Similar to Verina, a premium Healing Support option who can not only slot into any team, but also provide insane 12.5% Crit Rate, 25% Crit DMG, 25% ATK and 15% DMG Amplify buffs to your whole team. One of the best but also easy to use characters in the game.",
+          "assets": [
+            {
+              "id": "d9b47f532b06",
+              "sourceHash": "d9b47f532b06",
+              "kind": "characters",
+              "name": "Augusta",
+              "fileStem": "augusta-icon",
+              "path": "Prydwen/ww/assets/characters/augusta-d9b47f532b06.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "bfb1691bcfa3",
+              "sourceHash": "bfb1691bcfa3",
+              "kind": "characters",
+              "name": "Galbrena",
+              "fileStem": "galbrena-icon",
+              "path": "Prydwen/ww/assets/characters/galbrena-bfb1691bcfa3.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "7c6c3a3bc3ce",
+              "sourceHash": "7c6c3a3bc3ce",
+              "kind": "characters",
+              "name": "Jiyan",
+              "fileStem": "jiyan-icon",
+              "path": "Prydwen/ww/assets/characters/jiyan-7c6c3a3bc3ce.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "552f65617cbb",
+              "sourceHash": "552f65617cbb",
+              "kind": "characters",
+              "name": "Phoebe",
+              "fileStem": "phoebe-icon",
+              "path": "Prydwen/ww/assets/characters/phoebe-552f65617cbb.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "3a3005a58dc2",
+              "sourceHash": "3a3005a58dc2",
+              "kind": "characters",
+              "name": "Zani",
+              "fileStem": "zani-icon",
+              "path": "Prydwen/ww/assets/characters/zani-3a3005a58dc2.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1b2a8f336e3d",
+              "sourceHash": "1b2a8f336e3d",
+              "kind": "characters",
+              "name": "Verina",
+              "fileStem": "verina-icon",
+              "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d909de4aecde",
+              "sourceHash": "d909de4aecde",
+              "kind": "characters",
+              "name": "The Shorekeeper",
+              "fileStem": "the-shorekeeper-icon",
+              "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "example-teams": {
+      "label": "Example Teams",
+      "sections": [
+        {
+          "heading": "Example Teams",
+          "text": "Best Team\n\n Galbrena Mono Fusion Team\n\n Jiyan Team\n\n Phoebe Team\n\n Spectro Rover should be on Rejuvenating Glow.\n\n Zani Team\n\n Spectro Rover should be on Rejuvenating Glow.\n\n Calculations",
+          "assets": [
+            {
+              "id": "d9b47f532b06",
+              "sourceHash": "d9b47f532b06",
+              "kind": "characters",
+              "name": "Augusta",
+              "fileStem": "augusta-icon",
+              "path": "Prydwen/ww/assets/characters/augusta-d9b47f532b06.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "4910396b5955",
+              "sourceHash": "4910396b5955",
+              "kind": "characters",
+              "name": "Mortefi",
+              "fileStem": "mortefi-icon",
+              "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "d909de4aecde",
+              "sourceHash": "d909de4aecde",
+              "kind": "characters",
+              "name": "The Shorekeeper",
+              "fileStem": "the-shorekeeper-icon",
+              "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "1b2a8f336e3d",
+              "sourceHash": "1b2a8f336e3d",
+              "kind": "characters",
+              "name": "Verina",
+              "fileStem": "verina-icon",
+              "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "bfb1691bcfa3",
+              "sourceHash": "bfb1691bcfa3",
+              "kind": "characters",
+              "name": "Galbrena",
+              "fileStem": "galbrena-icon",
+              "path": "Prydwen/ww/assets/characters/galbrena-bfb1691bcfa3.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "1579a1be3407",
+              "sourceHash": "1579a1be3407",
+              "kind": "characters",
+              "name": "Lupa",
+              "fileStem": "lupa-icon",
+              "path": "Prydwen/ww/assets/characters/lupa-1579a1be3407.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "7c6c3a3bc3ce",
+              "sourceHash": "7c6c3a3bc3ce",
+              "kind": "characters",
+              "name": "Jiyan",
+              "fileStem": "jiyan-icon",
+              "path": "Prydwen/ww/assets/characters/jiyan-7c6c3a3bc3ce.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "552f65617cbb",
+              "sourceHash": "552f65617cbb",
+              "kind": "characters",
+              "name": "Phoebe",
+              "fileStem": "phoebe-icon",
+              "path": "Prydwen/ww/assets/characters/phoebe-552f65617cbb.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "514d72023ab5",
+              "sourceHash": "514d72023ab5",
+              "kind": "characters",
+              "name": "Rover (Spectro)",
+              "fileStem": "rover-spectro-icon",
+              "path": "Prydwen/ww/assets/characters/rover-spectro-514d72023ab5.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "3a3005a58dc2",
+              "sourceHash": "3a3005a58dc2",
+              "kind": "characters",
+              "name": "Zani",
+              "fileStem": "zani-icon",
+              "path": "Prydwen/ww/assets/characters/zani-3a3005a58dc2.webp",
+              "width": 120,
+              "height": 120
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Mortefi Best Build Guide | Wuthering Waves (WuWa)\n \n\n Wuthering Waves\n Home Database Characters Weapons Echoes Banners\n Tier Lists Tier List Team Tier List Value Tier List\n Guides Guides\n Resources Map News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Wuthering Waves\n /\n Characters\n /\n Mortefi\n Mortefi Best Build Guide\n Last updated: 09/June/2026\n\n Introduction\n Best guide and build for Mortefi from WW (Wuthering Waves). Mortefi is a 4 ★ rarity character from the Fusion element who uses the Pistols type weapon.\n Mortefi, a skilled expert in Applied Tacetite Study and a member of the Academy’s Department of Safety, possesses the unique ability to transform his accumulated frustration into fiery flames. From a burning wrath that consumes all, the red dragon shall descend.\n\n To learn more about Mortefi check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n This character has no video guide yet.\n\n Update tracker\n Last review update\n Patch 1.3\n\n Last major build/calcs update\n Patch 2.3\n\n Last profile update*\n 09/June/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Mortefi check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Kit\n\n Review\n\n Build\n\n Gameplay and teams\n\n Calculations\n\n Profile\n\n Skills\n Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Impromptu Show\n\n Basic Attack\n Mortefi uses his dual guns and fire to perform up to 4 continuous attacks dealing Fusion DMG.\n Heavy Attack\n Mortefi enters the aiming state for a more powerful shot.\nThe aimed shot fired after charging finishes deals Fusion DMG.\n Mid-air Attack\n Mortefi consumes Stamina to perform consecutive shots at the target in mid-air, dealing Fusion DMG.\n Dodge Counter\n Use Basic Attack after successful Dodge to attack the target, dealing Fusion DMG.\n\n Multipliers\n\n Resonance Skill\n Passionate Variation\n\n Launch high-speed flame lightning forward, dealing Fusion DMG.\n\n Multipliers\n\n Resonance Liberation\n Violent Finale\n\n Deal Fusion DMG , and apply Burning Rhapsody to all characters in the team.\n Burning Rhapsody\n When the on-field character's Basic Attack hits the target, Mortefi launches a Coordinated Attack, firing 1 Marcato. When the on-field character's Heavy Attack hits the target, Mortefi launches a Coordinated Attack, firing 2 Marcato. Mortefi can launch one Coordinated Attack every 0.35s .\n Marcato\n Deals Fusion DMG.\n\n Multipliers\n\n Forte Circuit\n Fury Fugue\n\n Resonance Skill: Fury Fugue\n When Mortefi's \"Annoyance\" reaches 100 , his Resonance Skill is replaced with Fury Fudge. When casting Fury Fudge, Mortefi consumes all \"Annoyance\" to unleash high-speed flame lightning, dealing Fusion DMG , considered as Resonance Skill damage.\n Annoyance\n Mortefi can hold up to 100 Annoyance. When Normal Attack Impromptu Show hits the target, “Annoyance” is restored. When Intro Skill Dissonance hits the target, “Annoyance” is restored.\nWhen Resonance Skill Passionate Variation hits the target, “Annoyance” is restored. Within 5 seconds after casting Passionate Variation, Basic Attack Impromptu that hits the target additionally restores “Annoyance”.\n\n Multipliers\n\n Inherent Skill\n Harmonic Control\n\n After casting Resonance Skill Passionate Variation, the damage of Resonance Skill Draconic Hellfire is increased by 25% for 8s .\n\n Inherent Skill\n Rhythmic Vibrato\n\n During Resonance Liberation Burning Rhapsody, each hit of Resonance Liberation Marcato will increase the damage of the next Resonance Liberation Marcato by 1.5% , which can be triggered once every 0.35s, stacking up to 50 times. The effect will be reset after Resonance Liberation Burning Rhapsody ends.\n\n Intro Skill\n Dissonance\n\n Attack the target, dealing Fusion DMG.\n\n Multipliers\n\n Outro Skill\n Rage Transposition\n\n The next character (or other characters on a nearby team that activates an Outro Skill) gains 38% Heavy Attack DMG Deepen for 14 seconds or until the Character is switched.\n\n Resonance Chain (Dupes)\n S 1\n Sequence Node 1\n\n During Resonance Liberation Burning Rhapsody, Mortefi launches Coordinated Attacks when the on-field character performs their Resonance Skills, firing 2 Resonance Liberation's Marcato hits, dealing Fusion Damage .\n\n S 2\n Sequence Node 2\n\n After using the Echo Skill, Mortefi restores an additional 10 Resonance Energy. This can be triggered once every 20 second.\n\n S 3\n Sequence Node 3\n\n During Resonance Liberation Burning Rhapsody, the Crit. DMG of Resonance Liberation's Marcato is increased by 30%.\n\n S 4\n Sequence Node 4\n\n The duration of Resonance Liberation Burning Rhapsody is extended by 7s .\n\n S 5\n Sequence Node 5\n\n When Resonance Skill Passionate Variation or Resonance Skill Fury Fugue hits a target, 4 Resonance Liberation's Marcato hits will be fired, dealing Fusion Damage . DMG of Resonance Liberation's Marcato fired in this way is reduced by 50%.\n\n S 6\n Sequence Node 6\n\n When Resonance Liberation Violent Finale is cast, ATK of all team members is increased by 20% for 20s .\n\n Minor Fortes (Total)\n Fusion DMG\n + 12 %\n\n ATK%\n + 12 %\n\n Stats\n\nInclude minor fortes\n\n Lv. 90\n\n HP\n 10025\n\n ATK\n 250\n\n DEF\n 1137\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Fusion DMG\n 0 %\n\n Upgrade Materials\n Character Ascension (total)\n 4 x LF Whisperin Core\n 12 x MF Whisperin Core\n 12 x HF Whisperin Core\n 4 x FF Whisperin Core\n 46 x Rage Tacet Core\n 60 x Coriolus\n 170 000 Shell Credits\n\n Skill Upgrades (total)\n 25 x LF Whisperin Core\n 28 x MF Whisperin Core\n 40 x HF Whisperin Core\n 57 x FF Whisperin Core\n 25 x Impure Phlogiston\n 28 x Extracted Phlogiston\n 55 x Refined Phlogiston\n 67 x Flawless Phlogiston\n 26 x Monument Bell\n 2 030 000 Shell Credits\n\n While the source of the materials can be quickly found in the game, when it comes Coriolus you will have to gather them from the map. Check our Interactive map to find them quickly:\n\n Interactive Map\n\n Voice Actors\n ENG\n Joseph May\n\n JPN\n Miura Katsuyuki\n\n CN\n Liu YiJia\n\n KR\n Kim Da Ol\n\n Gallery\n\n Review\n\n Ratings\n Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Hybrid\n T1.5\n Tower of Adversity\n\n T2\n Whimpering Wastes\n\n Value Tier List\n Hybrid\n T1.5\n Tower of Adversity (Value)\n\n T2\n Whimpering Wastes (Value)\n\n Pros & Cons\n Pros\n Incredibly fast Concerto rotation allowing fast access to his Outro\n\n Incredible synergy with Heavy Attackers, boosting them and himself tremendously\n\n Good personal damage considering the suite of buffs he provides\n\n Insane Sequences that make him even stronger\n\n Easy to understand and play even at the highest level\n\n Strong enough to be played as a Hybrid even outside of his Heavy Attacker niche\n\n Cons\n Long Ultimate cooldown - 20 seconds compared to 10 second duration of the buff - so you need to keep this in mind while doing your rotations\n\n If you're stuck at S0, looking at the overpowered Sequences will make you feel bad\n\n Review\n Mortefi is a 4-star Fusion Pistol wielding Hybrid that can dish out good damage when built correctly, but truly shines in a more Supportive role with teammates that primarily deal Heavy Attack damage. This is because his Ultimate Skill synergises with Heavy Attacks and his Outro amplies them by a further 38%.\n Mortefi recharges his Forte Gauge with Basic Attacks, Resonance Skill and Intro Skill, which when full will convert his skill to Fury Fugue. This is similar to his Resonance Skill, being an excellent generator of Concerto Energy and Resonance Energy, with the addition of Fusion DMG in an AoE radius. His Forte Gauge can be quickly filled by using his Basic Attacks after Resonance Skill, unlocking Fury Fugue faster. Another great point of Fury Fugue is that it lacks any CD; it can be spammed indefinitely as long as your Forte Gauge fills up, and it doesn’t interfere with his normal Resonance Skill, allowing him to use the two in quick succession.\n His Resonance Skill generates a good amount of Concerto Energy and Resonance Energy while dealing Fusion Damage to his primary target.\n His Ultimate Skill deals Fusion Damage in front of him, generating a good chunk of Concerto Energy and buffing the entire team with Burning Rhapsody. While the buff is active, Mortefi will launch a coordinated attack when an enemy is hit by an ally, up to once every 0.35 seconds. If the landed attack is a Heavy Attack, he instead deals 2 coordinated attacks, doubling his potential damage output, making Heavy Attackers his ideal partners.\n Mortefi requires minimal field time thanks to having one of the fastest and easiest to execute Concerto rotations in the game, which combines his excellent Outro buff, solid DPS and highly synergistic Ultimate Skill. He is also easy to play as his rotation is simple and fast to execute, making him a good choice for players of all skill. Even if you happen to mess up his rotation, it is quite easy to recover.\n While being able to deal good damage as far as Hybrid characters go, his true calling is being a Support thanks to his Outro Skill, hence he prefers the combination of 5P Moonlit Clouds and Impermanence Heron Echo. This stacks an additional 12% DMG and 22% ATK on top of his already potent 38% Heavy Attack amplification from Outro, generating a massive buff stack for the character switching in.\n Overall, Mortefi is currently one of the top Hybrid characters in endgame, especially for characters/teams centered around Heavy Attack burst rotation. Even if not for that, he sees use thanks to his incredibly fast Concerto Rotation and synergy with the 5P Moonlit Clouds and Impermanence Heron Echo. His strong Sequences can further increase his utility to your team.\n\n Video guides\n Mortefi guide videos aren't available yet.\n\n Build\n\n Best Weapons\n The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n 100.00%\n\n Static Mist (R 1 )\n\n Incredibly potent option offering main stat CRIT RATE, great base damage and a good amount of energy recharge allowing for sub stats to be used elsewhere. Also offers a supportive ability granting the next character to switch in an ATK boost granting it extra value for Hybrid and Support characters.\n 106.12%\n\n The Last Dance (R 1 )\n\n Carlotta's Signature and a solid choice for most pistol based resonators due to its decent base damage, very high CRIT DM% and permanent ATK% boost. Far more effective though for resonators that deal some or the majority of their damage through Resonance Skill damaging abilites.\n 83.92%\n\n Relativistic Jet (R 5 )\n\n Good generalist 4-star weapon that provides extra Energy and has good Base ATK for a 4-star. Significantly reduces Energy requirements on Mortefi.\n 83.64%\n\n Novaburst (R 5 )\n\n Gun usable by all resonators, offering good bonuses to ATK but reliant on dodging 3 times initially (with continual dodges after that). Should only be used by those willing to perform dodges at the start of their rotation and consistently after. Calculations assume you perform dodges as soon as possible and maintain the buff.\n 83.07%\n\n Thunderbolt (R 5 )\n\n Powerful Gun option for Resonance Skill focused damage characters, but with a heavy conditional required for activation. Grants solid base damage and ATK% via main stats. Also offers an incredibly potent stackable Resonance Skill DMG% bonus that requires the users consistently use Basic Attacks to maintain.\n 82.65%\n\n Pistols#26 (R 5 )\n\n Generic gun option usable by all characters but with a significant ramp-up time on its bonus. Also requires the player not to be hit in order to extract full value. If you do get hit this weapon will fall behind (calculations assume you don't get hit once).\n 81.87%\n\n Undying Flame (R 5 )\n\n Strong gun option for resonators that deal primarily Resonance Skill DMG with little to no conditions to worry about, thanks to its effect being tied to Intro skills. Grants a Resonance Skill DMG bonus that lasts for 15 seconds on using Intro - long enough for most Main DPS to finish their burst window making this a strong consistent option.\n\n Best Echo Sets\n Best Echo Sets\n 1\n\nMoonlit Clouds\n\n Offers a 10% unconditional Energy Regen% boost taking some pressure off your gear when aiming at ER breakpoints. Also upon using Outro, grants the next character switching in a 22.5% ATK boost, amplifying any of your main damage dealers burst windows.\n Below you can find Main Echo options:\n\n Impermanence Heron\n\n - Supportive Echo that can be run at the cost of a sizeable chunk of damage for the character who equips, trading personal gain for team benefits. Should always be used and immediately switch cancelled right before performing an Outro, leading to another DPS. When done so will grant the next character switching in 12% increased DMG% which when combined with the 5P Moonlit set which also grants 22.5% ATK% under the same conditions makes for a sizeable boost. While the echo does lower the damage of whoever wears it, it grants a massive chunk of energy on use usually saving 1 or sometimes even 2 Energy Regen sub stats that may otherwise be needed by the wearer allowing for some damage to be recovered.\n\n 2\n\nEmpyrean Anthem\n\n Offers an unconditional 10% Energy Regen% and 80% Coordinated DMG boost. Also grants a passive supportive effect which triggers when the wearer of this set critically strikes with a Coordinated attack - this effect grants the on field Resonator an ATK% boost regardless if they're the wearer of the set or not. The set is better than Moonlit Clouds if and only if the equipped character's Echoes have endgame investment (with 9 or 10 CRIT substats total) and the character has a 5-star weapon equipped. If both conditions aren't met, Moonlit Clouds is a better choice.\n Below you can find Main Echo options:\n\n Hecate\n\n - Offers a 40% unconditional Coordinated Attack DMG% boost when placed in the Main Echo slot, making it a solid choice for Coordinated Attack-focused resonators looking to use the 5P Empyrean Anthem Echo set bonus.\n\n Best Echo Stats\n 4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Fusion DMG\n\n 3 cost\n Fusion DMG > ATK%\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK\n\n Best Endgame Stats (Level 90)\n All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 15000+\n\n DEF: 1100+\n\n ATK: 1900-2200+\n\n CRIT Rate: 60%-80%\n\n CRIT DMG: 215-260%+\n\n Energy Regen: 115%-130%+\n At S2, Mortefi’s requirement will be 120% in most teams with 113% using Augusta due to her rotation extension, without S2 this will increase by ~11%.\n\n Fusion DMG Bonus: 40-70%+\n\n Skill Priority\n Below you can find the order of leveling the abilities for Mortefi .\n Res. Liberation\n\n Forte Circuit\n\n Basic Attack\n\n Res. Skill\n\n Intro Skill\n\n Gameplay and teams\n\n Rotation\n Mortefi is easy and straightforward to play when following the rotation below, however keep an eye out for the following things while playing him:\n Mortefi’s Ultimate and Outro should be always used together right before you Swap to another character to perform their burst combo (preferably a Heavy attacker). Triggering his Ultimate too early or during his own rotation wastes a chunk of his damage potential as well as buffing potential if S6.\n\n Using Resonance Skill: Passionate Variation gains you additional Annoyance from all Basic Attacks for 5 seconds.Taking advantage of this window is important to allow you regain access to Fury Fugue quickly to complete his Concerto and keep rotation short.\n\n His Ultimate will be always used at the end of his Concerto Rotation, and generates 20 Concerto Energy (a little less than a quarter of the gauge). As such, plan around this and use his Ultimate when you are missing approx 20 Concerto so as to minimize time spent generating it.\n\n Rotation\n Intro\n\n Skill: Passionate Variation\n\n Skill: Fury Fugue\n\n Basic P1\n\n Basic P2\n\n Basic P3\n\n Basic P4\n\n Skill: Fury Fugue\n\n Ultimate\n\n Echo (Impermanance Heron Swap-Cancel)\n\n Synergies\n Augusta - Mortefi is by far the best F2P-accessible option for her as he provides a massive 38% Heavy Attack DMG Amplify on his Outro, which he accesses quickly and easily while retaining solid off-field personal damage via his Ultimate's Marcato Coordinated Attacks. As a pistol user, he additionally has access to an extra ATK% buff from the Static Mist weapon and he has an extra ATK% buff with his S6 as well, making him one of the best options by far.\n Galbrena - As one of Galbrena's best partners, Mortefi provides 38% Heavy Attack DMG Amplify on his Outro which is one of Galbrena's 2 main damage types. Additionally, he can wield Moonlit Clouds and the Static Mist pistol for a ton of ATK% and DMG% buffing. On top of his fast rotation and solid personal damage, he makes for a fantastic Galbrena teammate in general, particularly with Lupa in a Mono Fusion setup.\n Jiyan - Mortefi is Jiyan's tailor-made partner. Via his Echo Sets, his S6 and Static Mist, Mortefi can give lots of ATK% buffs, but most importantly he amplifies Jiyan's main damage type, Heavy ATK DMG, by 38% on Outro. Therefore, he buffs Jiyan's damage by large amounts and has amazung synergy with him.\n Phoebe - Mortefi is a good secondary for Absolution Phoebe with a Rejuvenating Glow Spectro Rover, however his Heavy ATK DMG Amplify on Outro faces loads of diminishing returns so his buffing potential mostly lies in his S6 and potentially the Static Mist pistol so he provides lots of ATK% to Phoebe. Overall this pairing is one of the best for Absolution Phoebe, but it is contested.\n Zani - Mortefi, in Zani teams, acts as a substitute for Phoebe's buffing effects, but unfortunately doesn't apply any Spectro Frazzle. To compensate for this, Mortefi with Zani must be used with Spectro Rover, but under these conditions the team can work just fine and is able to clear endgame content without any issues, so the trio is definitely usable for F2P accounts!\n Verina - One of the usual Healing Support options that can slot into any team. Super easy to use, provides amazing team-wide ATK% buffs and 15% DMG Amplify with one of the fastest rotations in the game. Enjoy.\n The Shorekeeper - Similar to Verina, a premium Healing Support option who can not only slot into any team, but also provide insane 12.5% Crit Rate, 25% Crit DMG, 25% ATK and 15% DMG Amplify buffs to your whole team. One of the best but also easy to use characters in the game.\n Example Teams\n Best Team\n\n Galbrena Mono Fusion Team\n\n Jiyan Team\n\n Phoebe Team\n\n Spectro Rover should be on Rejuvenating Glow.\n\n Zani Team\n\n Spectro Rover should be on Rejuvenating Glow.\n\n Calculations"
+}

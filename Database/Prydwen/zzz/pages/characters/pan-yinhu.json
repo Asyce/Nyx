@@ -1,0 +1,1816 @@
+{
+  "id": "characters:pan-yinhu",
+  "provider": "Prydwen",
+  "game": "zzz",
+  "gameName": "Zenless Zone Zero",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "pan-yinhu",
+  "name": "Pan Yinhu",
+  "title": "Pan Yinhu Best Build Guide",
+  "sourcePath": "/zenless/characters/pan-yinhu",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "14/June/2026",
+  "meta": {
+    "title": "Pan Yinhu Best Build Guide | Zenless Zone Zero",
+    "description": ""
+  },
+  "facts": {
+    "attribute": "Physical",
+    "specialty": "Defence",
+    "faction": "Yunkui Summit",
+    "rarity": "A"
+  },
+  "assets": [
+    {
+      "id": "51234ed58c65",
+      "sourceHash": "51234ed58c65",
+      "kind": "characters",
+      "name": "Character",
+      "fileStem": "pan-yinhu-card",
+      "path": "Prydwen/zzz/assets/characters/pan-yinhu-card-51234ed58c65.webp",
+      "width": 370,
+      "height": 512
+    },
+    {
+      "id": "180993e8877a",
+      "sourceHash": "180993e8877a",
+      "kind": "icons",
+      "name": "A",
+      "fileStem": "rarity-a",
+      "path": "Prydwen/zzz/assets/icons/a-180993e8877a.webp",
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "45e0d1f45663",
+      "sourceHash": "45e0d1f45663",
+      "kind": "icons",
+      "name": "Defence",
+      "fileStem": "style-defence",
+      "path": "Prydwen/zzz/assets/icons/defence-45e0d1f45663.webp",
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "880f190c8aa9",
+      "sourceHash": "880f190c8aa9",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-core",
+      "path": "Prydwen/zzz/assets/icons/core-880f190c8aa9.webp",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "13fff798e82d",
+      "sourceHash": "13fff798e82d",
+      "kind": "icons",
+      "name": "Basic",
+      "fileStem": "icon-basic",
+      "path": "Prydwen/zzz/assets/icons/basic-13fff798e82d.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "f3bbacf4beb6",
+      "sourceHash": "f3bbacf4beb6",
+      "kind": "icons",
+      "name": "Dodge",
+      "fileStem": "icon-dodge",
+      "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "de0f0cad1e72",
+      "sourceHash": "de0f0cad1e72",
+      "kind": "icons",
+      "name": "Assist",
+      "fileStem": "icon-assist-m",
+      "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "954b8d0b61b7",
+      "sourceHash": "954b8d0b61b7",
+      "kind": "icons",
+      "name": "Special",
+      "fileStem": "icon-special-full",
+      "path": "Prydwen/zzz/assets/icons/special-954b8d0b61b7.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "803b765175bc",
+      "sourceHash": "803b765175bc",
+      "kind": "icons",
+      "name": "qte",
+      "fileStem": "icon-ulti-full",
+      "path": "Prydwen/zzz/assets/icons/qte-803b765175bc.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "9f68a61db8c5",
+      "sourceHash": "9f68a61db8c5",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-special",
+      "path": "Prydwen/zzz/assets/icons/core-9f68a61db8c5.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "d3cae9ba5d45",
+      "sourceHash": "d3cae9ba5d45",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-ulti",
+      "path": "Prydwen/zzz/assets/icons/core-d3cae9ba5d45.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "94a5940d48d5",
+      "sourceHash": "94a5940d48d5",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-assist",
+      "path": "Prydwen/zzz/assets/icons/core-94a5940d48d5.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "bcc36adf7778",
+      "sourceHash": "bcc36adf7778",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/zzz/assets/icons/stat-hp-bcc36adf7778.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "6bde3e3d95d5",
+      "sourceHash": "6bde3e3d95d5",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-def",
+      "path": "Prydwen/zzz/assets/icons/stat-def-6bde3e3d95d5.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "3be631f5fe8b",
+      "sourceHash": "3be631f5fe8b",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/zzz/assets/icons/stat-atk-3be631f5fe8b.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "7e808fde7ecd",
+      "sourceHash": "7e808fde7ecd",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-crit",
+      "path": "Prydwen/zzz/assets/icons/stat-crit-7e808fde7ecd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "a5d74846670e",
+      "sourceHash": "a5d74846670e",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/zzz/assets/icons/stat-critdmg-a5d74846670e.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "96960682bbd8",
+      "sourceHash": "96960682bbd8",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-pen",
+      "path": "Prydwen/zzz/assets/icons/stat-pen-96960682bbd8.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "55a4b1c5a82a",
+      "sourceHash": "55a4b1c5a82a",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-impact",
+      "path": "Prydwen/zzz/assets/icons/stat-impact-55a4b1c5a82a.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "078045904ece",
+      "sourceHash": "078045904ece",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-mastery",
+      "path": "Prydwen/zzz/assets/icons/stat-mastery-078045904ece.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "09b14c497e98",
+      "sourceHash": "09b14c497e98",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/zzz/assets/icons/stat-energy-09b14c497e98.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "68a0ebf14907",
+      "sourceHash": "68a0ebf14907",
+      "kind": "characters",
+      "name": "Pan Yinhu",
+      "fileStem": "pan-yinhu-full",
+      "path": "Prydwen/zzz/assets/characters/pan-yinhu-68a0ebf14907.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "bf9f9815b1be",
+      "sourceHash": "bf9f9815b1be",
+      "kind": "w-engines",
+      "name": "Tusks of Fury",
+      "fileStem": "tusks-of-fury-image",
+      "path": "Prydwen/zzz/assets/w-engines/tusks-of-fury-bf9f9815b1be.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "c0d3b4b0777e",
+      "sourceHash": "c0d3b4b0777e",
+      "kind": "w-engines",
+      "name": "Tremor Trigram Vessel",
+      "fileStem": "tremor-trigram-vessel-image",
+      "path": "Prydwen/zzz/assets/w-engines/tremor-trigram-vessel-c0d3b4b0777e.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "695c563b6c68",
+      "sourceHash": "695c563b6c68",
+      "kind": "w-engines",
+      "name": "Spring Embrace",
+      "fileStem": "spring-embrace-image",
+      "path": "Prydwen/zzz/assets/w-engines/spring-embrace-695c563b6c68.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "f9df5f83fbef",
+      "sourceHash": "f9df5f83fbef",
+      "kind": "w-engines",
+      "name": "Peacekeeper - Specialized",
+      "fileStem": "peacekeeper-specialized-image",
+      "path": "Prydwen/zzz/assets/w-engines/peacekeeper-specialized-f9df5f83fbef.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "47b453ad83b8",
+      "sourceHash": "47b453ad83b8",
+      "kind": "drive-discs",
+      "name": "Astral Voice",
+      "fileStem": "set-astral",
+      "path": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "9b0991be94a3",
+      "sourceHash": "9b0991be94a3",
+      "kind": "drive-discs",
+      "name": "Hormone Punk",
+      "fileStem": "set-hormone",
+      "path": "Prydwen/zzz/assets/drive-discs/hormone-punk-9b0991be94a3.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "7e8e49d34387",
+      "sourceHash": "7e8e49d34387",
+      "kind": "drive-discs",
+      "name": "Swing Jazz",
+      "fileStem": "set-swing",
+      "path": "Prydwen/zzz/assets/drive-discs/swing-jazz-7e8e49d34387.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "ff78b0b02e04",
+      "sourceHash": "ff78b0b02e04",
+      "kind": "drive-discs",
+      "name": "Fanged Metal",
+      "fileStem": "set-fanged",
+      "path": "Prydwen/zzz/assets/drive-discs/fanged-metal-ff78b0b02e04.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "1c4453ce92f8",
+      "sourceHash": "1c4453ce92f8",
+      "kind": "drive-discs",
+      "name": "Proto Punk",
+      "fileStem": "set-proto",
+      "path": "Prydwen/zzz/assets/drive-discs/proto-punk-1c4453ce92f8.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "53300a2a5c70",
+      "sourceHash": "53300a2a5c70",
+      "kind": "characters",
+      "name": "Yixuan",
+      "fileStem": "yixuan",
+      "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "6e337e3697b9",
+      "sourceHash": "6e337e3697b9",
+      "kind": "characters",
+      "name": "Manato",
+      "fileStem": "manato",
+      "path": "Prydwen/zzz/assets/characters/manato-6e337e3697b9.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "3f97af69c631",
+      "sourceHash": "3f97af69c631",
+      "kind": "characters",
+      "name": "Yidhari",
+      "fileStem": "yidhari",
+      "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "7b812101932f",
+      "sourceHash": "7b812101932f",
+      "kind": "characters",
+      "name": "Banyue",
+      "fileStem": "banyue",
+      "path": "Prydwen/zzz/assets/characters/banyue-7b812101932f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "7557c8060dc2",
+      "sourceHash": "7557c8060dc2",
+      "kind": "characters",
+      "name": "Lucia",
+      "fileStem": "lucia",
+      "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "f34fb0a851f4",
+      "sourceHash": "f34fb0a851f4",
+      "kind": "characters",
+      "name": "Pan Yinhu",
+      "fileStem": "pan-yinhu",
+      "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "3e8d48ac0bd4",
+      "sourceHash": "3e8d48ac0bd4",
+      "kind": "characters",
+      "name": "Ju Fufu",
+      "fileStem": "ju-fufu",
+      "path": "Prydwen/zzz/assets/characters/ju-fufu-3e8d48ac0bd4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "5b1302d794ba",
+      "sourceHash": "5b1302d794ba",
+      "kind": "characters",
+      "name": "Dialyn",
+      "fileStem": "dialyn",
+      "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ce33de22acc4",
+      "sourceHash": "ce33de22acc4",
+      "kind": "characters",
+      "name": "Pulchra",
+      "fileStem": "pulchra",
+      "path": "Prydwen/zzz/assets/characters/pulchra-ce33de22acc4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "5887e20e4502",
+      "sourceHash": "5887e20e4502",
+      "kind": "characters",
+      "name": "Ye Shunguang",
+      "fileStem": "ye-shunguang",
+      "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e8a1e5a4346f",
+      "sourceHash": "e8a1e5a4346f",
+      "kind": "characters",
+      "name": "Zhao",
+      "fileStem": "zhao",
+      "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "2fd489d454a4",
+      "sourceHash": "2fd489d454a4",
+      "kind": "characters",
+      "name": "Trigger",
+      "fileStem": "trigger",
+      "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "05437fe51e49",
+      "sourceHash": "05437fe51e49",
+      "kind": "characters",
+      "name": "Lycaon",
+      "fileStem": "lycaon",
+      "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "98d8d659c143",
+      "sourceHash": "98d8d659c143",
+      "kind": "characters",
+      "name": "Astra Yao",
+      "fileStem": "astra-yao",
+      "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "894a171664e9",
+      "sourceHash": "894a171664e9",
+      "kind": "characters",
+      "name": "Qingyi",
+      "fileStem": "qingyi",
+      "path": "Prydwen/zzz/assets/characters/qingyi-894a171664e9.webp",
+      "width": 60,
+      "height": 60
+    }
+  ],
+  "sections": [
+    {
+      "id": "pan-yinhu-best-build-guide-0",
+      "level": 1,
+      "heading": "Pan Yinhu Best Build Guide",
+      "text": "Last updated: 14/June/2026",
+      "assets": [
+        {
+          "id": "51234ed58c65",
+          "sourceHash": "51234ed58c65",
+          "kind": "characters",
+          "name": "Character",
+          "fileStem": "pan-yinhu-card",
+          "path": "Prydwen/zzz/assets/characters/pan-yinhu-card-51234ed58c65.webp",
+          "width": 370,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Pan Yinhu from ZZZ (Zenless Zone Zero). Pan Yinhu is an rank character with the Physical attribute who belongs to the Defence Specialty and who is part of the Yunkui Summit faction.\n\n To learn more about Pan Yinhu check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": [
+        {
+          "id": "180993e8877a",
+          "sourceHash": "180993e8877a",
+          "kind": "icons",
+          "name": "A",
+          "fileStem": "rarity-a",
+          "path": "Prydwen/zzz/assets/icons/a-180993e8877a.webp",
+          "width": 30,
+          "height": 30
+        },
+        {
+          "id": "45e0d1f45663",
+          "sourceHash": "45e0d1f45663",
+          "kind": "icons",
+          "name": "Defence",
+          "fileStem": "style-defence",
+          "path": "Prydwen/zzz/assets/icons/defence-45e0d1f45663.webp",
+          "width": 30,
+          "height": 30
+        }
+      ]
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Pan Yinhu has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 2.0\n\n Last build update\n Patch 2.0\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 14/June/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.",
+      "assets": []
+    },
+    {
+      "id": "calculations-9",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "To learn more about Pan Yinhu check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile",
+      "assets": []
+    },
+    {
+      "id": "core-skills-10",
+      "level": 2,
+      "heading": "Core skills",
+      "text": "Core Passive Meridian Enlightenment\n\n Lv. 1\n\n For a brief period when Pan Yinhu's EX Special Attack: Mountainous Pulse Strike hits an enemy and triggers Quick Assist, the next Agent entering through a Quick Assist or Chain Attack will gain the Meridian Flow effect. This effect provides a Sheer Force boost equal to 9% of Pan Yinhu's ATK and lasts for 25s . The Sheer Force provided by this effect cannot exceed 540 points.\n\n Base Energy Regen 0\n BASE ATK: 0\n\n Additional Ability Iron Stomach\n\n When another character in your squad is a Rupture character or shares the same Faction:\n When Pan Yinhu hits an enemy with Special Attack: Touch of Death, the enemy suffers the Depleted Qi effect, increasing all DMG against the target by 20% . Each hit of Special Attack: Touch of Death inflicts a 10s Depleted Qi effect. This effect can't stack, but repeated hits on the same enemy will extend the duration.",
+      "assets": [
+        {
+          "id": "880f190c8aa9",
+          "sourceHash": "880f190c8aa9",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-core",
+          "path": "Prydwen/zzz/assets/icons/core-880f190c8aa9.webp",
+          "width": 32,
+          "height": 32
+        }
+      ]
+    },
+    {
+      "id": "skills-11",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Unyielding Strikes\n\n Press to activate:\nLaunches up to four consecutive melee attacks, dealing Physical DMG.\n Multipliers\n\n Dodge: Light as a Swallow\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Sizzling Oil Supreme\n\n Press during a dodge to activate:\nPerform a quick forward melee attack, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Moving Mountains and Seas\n\n Press during a Perfect Dodge to activate.\nPerform a melee attack on enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Sonic Pressure-Point Strike\n\n Press to activate.\nDelivers a forward melee technique while tossing firecrackers, dealing Physical DMG.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n Special Attack: Touch of Death\n\n With Break Force, press to activate.\nSpecial Attack: Touch of Death attacks centered on the enemy, dealing Physical DMG.\nThe skill can be chained up to three times. Each use of Special Attack: Touch of Death consumes 1 point of Break Force.\nWhen Pan Yinhu is the active Agent, DMG received during the skill is reduced by 60% and Anti-Interrupt Level is increased. If he isn't the active Agent, he becomes Invulnerable.\n Multipliers\n\n EX Special Attack: Mountainous Pulse Strike\n\n With enough Energy, press to activate.\nEX Special Attack: Mountainous Pulse Strike unleashes a powerful strike forward, dealing Physical DMG.\nGain 3 points of Break Force on activation. Upon hitting an enemy, it triggers the Quick Assist of the previous character in the squad.\nAgents who enter the field via this Quick Assist will gain the Sheer Force bonus from the Core Passive. After switching out, Pan Yinhu will stay on the field and automatically launch Special Attack: Touch of Death until his Break Force runs out, where he then leaves the field.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Anointed with Wok Steam\n\n When a Chain Attack is triggered, select the character to activate:\nHop onto the Iron Wok and spin rapidly to ram into enemies, dealing massive Physical DMG to all enemies on the way.\n Multipliers\n\n Ultimate: A Feast Fit for an Emperor!\n\n When Decibel Rating is at Maximum, press to activate.\nPerform a technique that compresses qi into fried rice and catapults it at foes, dealing massive Physical DMG and healing the whole squad for some HP, while also applying a 8s heal over time on Agents, recovering certain HP/s.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Ride the Momentum\n\n Press after a Defensive Assist to activate:\nPerform a melee attack on enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Intimidating Presence\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Lift Your Gaze to Good Fortune\n\n When the active character is launched, press to activate.\nPerform a melee attack on enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers",
+      "assets": [
+        {
+          "id": "13fff798e82d",
+          "sourceHash": "13fff798e82d",
+          "kind": "icons",
+          "name": "Basic",
+          "fileStem": "icon-basic",
+          "path": "Prydwen/zzz/assets/icons/basic-13fff798e82d.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "f3bbacf4beb6",
+          "sourceHash": "f3bbacf4beb6",
+          "kind": "icons",
+          "name": "Dodge",
+          "fileStem": "icon-dodge",
+          "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "de0f0cad1e72",
+          "sourceHash": "de0f0cad1e72",
+          "kind": "icons",
+          "name": "Assist",
+          "fileStem": "icon-assist-m",
+          "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "954b8d0b61b7",
+          "sourceHash": "954b8d0b61b7",
+          "kind": "icons",
+          "name": "Special",
+          "fileStem": "icon-special-full",
+          "path": "Prydwen/zzz/assets/icons/special-954b8d0b61b7.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "803b765175bc",
+          "sourceHash": "803b765175bc",
+          "kind": "icons",
+          "name": "qte",
+          "fileStem": "icon-ulti-full",
+          "path": "Prydwen/zzz/assets/icons/qte-803b765175bc.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "9f68a61db8c5",
+          "sourceHash": "9f68a61db8c5",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-special",
+          "path": "Prydwen/zzz/assets/icons/core-9f68a61db8c5.webp",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "id": "d3cae9ba5d45",
+          "sourceHash": "d3cae9ba5d45",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-ulti",
+          "path": "Prydwen/zzz/assets/icons/core-d3cae9ba5d45.webp",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "id": "94a5940d48d5",
+          "sourceHash": "94a5940d48d5",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-assist",
+          "path": "Prydwen/zzz/assets/icons/core-94a5940d48d5.webp",
+          "width": 40,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "id": "mindscapes-12",
+      "level": 2,
+      "heading": "Mindscapes",
+      "text": "M1\n Qi Shield\n Mindscape 1\n\n All units deal 10% increased DMG to enemies affected by Depleted Qi.\n\n M2\n Yunkui Pressure-Point Strike\n Mindscape 2\n\n For every 6 points of Break Force consumed, Pan Yinhu will recover 4 Energy, and the Depleted Qi effect applied when Special Attack: Touch of Death hits an enemy will have its duration increased to 12s .\n\n M3\n Non-Meridian Acupuncture Points\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n First-Class Head Chef\n Mindscape 4\n\n When Ultimate: A Feast Fit for an Emperor! heals the whole squad, the HP recovery is increased by 25% , and the healing over time effect is increased by 25% . On activating Ultimate: A Feast Fit for an Emperor!, gain the Backup Provisions effect. Whenever any character in the squad loses HP, consume the Backup Provisions effect to instantly restore 50% of the HP recovered with Ultimate: A Feast Fit for an Emperor!'s instant HP recovery effect. This effect cannot stack.\n\n M5\n Thiren\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n 6. Meridian Theory\n Mindscape 6\n\n The Meridian Flow effect provided by Core Passive: Meridian Enlightenment increases by an extra 6% of Pan Yinhu's ATK. The maximum Sheer Force provided by this effect increases to 720 .",
+      "assets": []
+    },
+    {
+      "id": "stats-level-60-13",
+      "level": 2,
+      "heading": "Stats (Level 60)",
+      "text": "Pan Yinhu Stats at level 60 (including Core passive bonuses).\n\n HP\n 8453\n\n DEF\n 712\n\n ATK\n 661\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 94\n\n Anomaly Mastery\n 91\n\n Anomaly Proficiency\n 90\n\n Energy Regen\n 1.56",
+      "assets": [
+        {
+          "id": "bcc36adf7778",
+          "sourceHash": "bcc36adf7778",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/zzz/assets/icons/stat-hp-bcc36adf7778.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "6bde3e3d95d5",
+          "sourceHash": "6bde3e3d95d5",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-def",
+          "path": "Prydwen/zzz/assets/icons/stat-def-6bde3e3d95d5.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "3be631f5fe8b",
+          "sourceHash": "3be631f5fe8b",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/zzz/assets/icons/stat-atk-3be631f5fe8b.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "7e808fde7ecd",
+          "sourceHash": "7e808fde7ecd",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/zzz/assets/icons/stat-crit-7e808fde7ecd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "a5d74846670e",
+          "sourceHash": "a5d74846670e",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/zzz/assets/icons/stat-critdmg-a5d74846670e.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "96960682bbd8",
+          "sourceHash": "96960682bbd8",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-pen",
+          "path": "Prydwen/zzz/assets/icons/stat-pen-96960682bbd8.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "55a4b1c5a82a",
+          "sourceHash": "55a4b1c5a82a",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-impact",
+          "path": "Prydwen/zzz/assets/icons/stat-impact-55a4b1c5a82a.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "078045904ece",
+          "sourceHash": "078045904ece",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-mastery",
+          "path": "Prydwen/zzz/assets/icons/stat-mastery-078045904ece.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "09b14c497e98",
+          "sourceHash": "09b14c497e98",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/zzz/assets/icons/stat-energy-09b14c497e98.webp",
+          "width": 24,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "id": "voice-actors-14",
+      "level": 2,
+      "heading": "Voice Actors",
+      "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-15",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "68a0ebf14907",
+          "sourceHash": "68a0ebf14907",
+          "kind": "characters",
+          "name": "Pan Yinhu",
+          "fileStem": "pan-yinhu-full",
+          "path": "Prydwen/zzz/assets/characters/pan-yinhu-68a0ebf14907.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "ratings-16",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.",
+      "assets": []
+    },
+    {
+      "id": "support-17",
+      "level": 5,
+      "heading": "Support",
+      "text": "T1\n Endgame Modes",
+      "assets": []
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Extremely simple plug-and-play Support Agent — anyone can pick him up. Basically the equivalent of Lucy for Sheer Force-scaling Agents, with very low field time and effective buffs;\n\n The only Sheer Force buffer at the time of his release, a unique and valuable role;\n\n Rare presence of healing in his kit which helps with party survivability;\n\n Very low-cost Agent who needs little resources investment-wise aside from his ATK requirement;\n\n Scales well with Mindscapes while retaining his functionality at a baseline.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Only usable with Rupture Agents — very specialized character (excels in his niche but doesn't have the generalist potential of Agents like Nicole/Lucy);\n\n Must be placed before the DPS Agent in the party which can make some team options awkward (with characters like Trigger);\n\n Has a scarce amount of effective W-Engine options.",
+      "assets": []
+    },
+    {
+      "id": "review-21",
+      "level": 2,
+      "heading": "Review",
+      "text": "Pan Yinhu is an A-rank Physical Defender Agent whose primary specialties include buffing Sheer Force, healing the party and increasing damage taken by enemies to enhance teammates, particularly Rupture Agents.\n His kit is extremely simple by design, meaning he is easy to pick up for any Proxies wanting to try him out — simple yet effective characterizes this Agent. Only 3 of his abilities are particularly important so we will only detail them: his EX Special, his Special and his Ultimate.\n First of all, let’s discuss Pan Yinhu’s Ultimate: it deals high Physical DMG and at max level, heals the entire squad for up to 1.6% HP/s per second over 8s (for a total of 12.8% HP) on top of an extra 1060 HP. On most Agents, you can expect this healing to equal between 15 to 20% of their HP, which is a good chunk of help towards keeping your squad alive . It can be used whenever your teammates need healing, or if you somehow aren’t taking damage, there is no specific timing to use it. It is worth noting Pan Yinhu’s Mindscape 4 further increases this healing effect by providing additional healing if Agents are hit by an attack (equivalent to 50% of the flat HP healing given by the Ultimate).\n Pan Yinhu’s Special is the more interesting part of his kit and allows him to access his buffing potential. Using EX Special restores 3 points of “Break Force”, a resource he can use to cast Specials called “Touch of Death”. There are a few reasons to execute both of these abilities:\n Using EX Special accesses the Quick Assist of the previous member in the squad, and it activates Pan Yinhu’s “Meridian Flow” effect provided by his Core Passive. Meridian Flow converts a certain percentage of his ATK into Sheer Force for the character who uses this Quick Assist at up to 540 points (Mindscape 0) or 720 points (Mindscape 6). At max Core Passive level, the ATK requirement to maximize the buff (both at Mindscape 0 and Mindscape 6) is 3000 points. This effect lasts 25s.\n\n Using Touch of Death applies the “Depleted Qi” effect to enemies hit if his Additional Ability is activated, which increases their DMG taken by 20% (with an extra 10% boost at Mindscape 1). This effect lasts 10s.\n\n Therefore, Pan Yinhu’s simple gameplay sums up to the following steps:\n Use EX Special to buff the Sheer Force of the previous character in the squad by triggering a Quick Assist (ideally a Rupture damage dealer) every 25s;\n\n Use 1 Touch of Death to increase the DMG taken by enemies every 10s (can be done 3 times with EX Special);\n\n Use Ultimate if teammates need healing or when readily available.\n\n This is enough to cover his gameplay — Pan Yinhu doesn’t deal much damage on his own and instead relies on Rupture damage dealers like Yixuan to handle the heavy lifting. He therefore doesn’t want to take up much field time, and his kit is perfect for that.\n Pan Yinhu is nonetheless introduced as a pretty good contender in the meta to buff Rupture agents. As the only direct buffer of Sheer Force on his release, he fills a unique role with Rupture damage dealers like Yixuan to increase their damage by a lot — as general ATK increasing supports are less favourable to buff the Sheer Force of Rupture agents than Pan Yinhu’s buff. This makes him fill a niche, but appreciated role, not to mention the healing provided by his Ultimate gives extra comfort in battle, allowing you to tank a few enemy hits without budging.\n In conclusion, Pan Yinhu is an easy, plug-and-play Support for Rupture Agents, able to buff their Sheer Force DMG effectively while keeping a simplistic playstyle and a good balance between buffing capabilities and survivability via the healing his Ultimate provides. Overall a potent Support Agent which does exactly what you expect him to in an effective way.",
+      "assets": []
+    },
+    {
+      "id": "rotations-23",
+      "level": 6,
+      "heading": "Rotations",
+      "text": "Pan Yinhu's rotations are extremely simple in design. He only wants to activate a few of his key abilities when available at specific intervals. His gameplay can be summed up to the following steps:\n Use EX Special to buff the Sheer Force of the previous character in the squad by triggering a Quick Assist (ideally a Rupture damage dealer) every 25s;\n\n Use 1 Touch of Death to increase the DMG taken by enemies every 10s (can be done 3 times with EX Special);\n\n Use Ultimate if teammates need healing or when readily available.\n\n With Yixuan as his DPS to support, ensure you execute Defensive Assists to switch into Pan Yinhu to feed Adrenaline to Yixuan and generate extra Daze.Additional Note: Make sure Pan Yinhu is always the party member following the DPS he is supporting, so that he can Quick Assist into them with his EX Special and provide his Sheer Force boost properly.\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "collaboration-disclaimer-24",
+      "level": 2,
+      "heading": "Collaboration Disclaimer",
+      "text": "For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.",
+      "assets": []
+    },
+    {
+      "id": "best-w-engines-25",
+      "level": 2,
+      "heading": "Best W-Engines",
+      "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Tusks of Fury (S 1 )\n\n The best option for Defender Supports if available. Provides 18% DMG and 12% Daze to all party members for 20s whenever a Perfect Dodge or Interrupt is triggered which is possible to upkeep permanently. Also gives 30% Shield value increase if applicable (not the case for Pan Yinhu) and a high Base ATK along with extra Impact for higher Daze potential.\n Usage: 4.58 %\n Shiyu Defense: 32177\n Deadly Assault: 29810\n\n 2\n\n Tremor Trigram Vessel (S 5 )\n\n Pan Yinhu's signature W-Engine is the best A-rank option available for him, providing both high amounts of ATK and Energy Regen which are the stats he needs. The extra EX Special and Ultimate DMG provided to the user also constitute a small increase to total team damage which is always good to take.\n Usage: 85.5 %\n Shiyu Defense: 28105\n Deadly Assault: 26162\n\n 3\n\n Spring Embrace (S 5 )\n\n Grants the same amount of ATK as Tremor Trigram Vessel which is useful but its additional effect doesn't provide any extra DMG. Has a small effect which reduces DMG taken and also gives extra Energy regeneration if damage is taken by the user, but overall this effect is negligible. Nonetheless, it's better than nothing.\n Usage: 0.53 %\n Shiyu Defense: 29535\n Deadly Assault: 26486\n\n 4\n\n Peacekeeper - Specialized (S 5 )\n\n On Pan Yinhu, this W-Engine's additional effect is mostly useless, however it gives the same amount of ATK as Tremor Trigram Vessel which is useful. If shielded, Pan Yinhu will gain extra Energy Regen but this is mostly negligible. Similarly, the extra Anomaly Buildup on EX Specials and Assist Follow-Ups can be ignored for the most part, however the two effects are better than nothing.\n Usage: 3.51 %\n Shiyu Defense: 28389\n Deadly Assault: 24738",
+      "assets": [
+        {
+          "id": "bf9f9815b1be",
+          "sourceHash": "bf9f9815b1be",
+          "kind": "w-engines",
+          "name": "Tusks of Fury",
+          "fileStem": "tusks-of-fury-image",
+          "path": "Prydwen/zzz/assets/w-engines/tusks-of-fury-bf9f9815b1be.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "c0d3b4b0777e",
+          "sourceHash": "c0d3b4b0777e",
+          "kind": "w-engines",
+          "name": "Tremor Trigram Vessel",
+          "fileStem": "tremor-trigram-vessel-image",
+          "path": "Prydwen/zzz/assets/w-engines/tremor-trigram-vessel-c0d3b4b0777e.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "695c563b6c68",
+          "sourceHash": "695c563b6c68",
+          "kind": "w-engines",
+          "name": "Spring Embrace",
+          "fileStem": "spring-embrace-image",
+          "path": "Prydwen/zzz/assets/w-engines/spring-embrace-695c563b6c68.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "f9df5f83fbef",
+          "sourceHash": "f9df5f83fbef",
+          "kind": "w-engines",
+          "name": "Peacekeeper - Specialized",
+          "fileStem": "peacekeeper-specialized-image",
+          "path": "Prydwen/zzz/assets/w-engines/peacekeeper-specialized-f9df5f83fbef.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-disk-drives-sets-26",
+      "level": 2,
+      "heading": "Best Disk Drives Sets",
+      "text": "1\n\n Astral Voice ( 4 -PC)\n\n Best generalist Support set, providing a useful 10% ATK on the 2-piece but most importantly buffing DMG dealt by characters entering the field via Quick Assists by upwards of 24%, the biggest buff provided by Disc Drives in the game. Generally a must-have set on any team.\n Best combined with your choice of 2-PC Set:\n 2P\n Hormone Punk\n\n (Recommended)\n 2P\n Swing Jazz\n\n 2P\n Fanged Metal\n\n 2\n\n Proto Punk ( 4 -PC)\n\n Niche supportive set used for Agents that are in the position of triggering Perfect Assists. Grants the entire party 15% increased DMG for 10s when triggering a Perfect Assist. Typically used if an Astral Voice wielder is already on the team and the equipped Agent is in a position to trigger lots of Perfect Assists. This set's value is significantly diminished if the player isn't comfortable with timing Perfect Assists, in which case Swing Jazz will be favoured.\n Best combined with your choice of 2-PC Set:\n 2P\n Hormone Punk\n\n (Recommended)\n 2P\n Swing Jazz\n\n 2P\n Fanged Metal\n\n 3\n\n Swing Jazz ( 4 -PC)\n\n One of the best supportive set options. Grants the entire squad a 15% DMG increase for 12 seconds following a Chain Attack or Ultimate, which is easy to time with a Stun window for optimal buff uptime. Additionally grants 20% Energy Regen on the 2-piece to ensure EX Special uptime if necessary on the equipped character, generally used if another Agent in the squad already uses Astral Voice.\n Best combined with your choice of 2-PC Set:\n 2P\n Hormone Punk\n\n (Recommended)\n 2P\n Fanged Metal",
+      "assets": [
+        {
+          "id": "47b453ad83b8",
+          "sourceHash": "47b453ad83b8",
+          "kind": "drive-discs",
+          "name": "Astral Voice",
+          "fileStem": "set-astral",
+          "path": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "9b0991be94a3",
+          "sourceHash": "9b0991be94a3",
+          "kind": "drive-discs",
+          "name": "Hormone Punk",
+          "fileStem": "set-hormone",
+          "path": "Prydwen/zzz/assets/drive-discs/hormone-punk-9b0991be94a3.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "7e8e49d34387",
+          "sourceHash": "7e8e49d34387",
+          "kind": "drive-discs",
+          "name": "Swing Jazz",
+          "fileStem": "set-swing",
+          "path": "Prydwen/zzz/assets/drive-discs/swing-jazz-7e8e49d34387.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "ff78b0b02e04",
+          "sourceHash": "ff78b0b02e04",
+          "kind": "drive-discs",
+          "name": "Fanged Metal",
+          "fileStem": "set-fanged",
+          "path": "Prydwen/zzz/assets/drive-discs/fanged-metal-ff78b0b02e04.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "1c4453ce92f8",
+          "sourceHash": "1c4453ce92f8",
+          "kind": "drive-discs",
+          "name": "Proto Punk",
+          "fileStem": "set-proto",
+          "path": "Prydwen/zzz/assets/drive-discs/proto-punk-1c4453ce92f8.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-disk-drives-stats-27",
+      "level": 2,
+      "heading": "Best Disk Drives Stats",
+      "text": "Disk 4\n CRIT Rate% = CRIT DMG% > ATK%\n\n Disk 5\n Physical DMG% > ATK%\n\n Disk 6\n ATK%\n\n Substats: ATK%/Flat ATK (until 3000 ATK) > CRIT Rate = CRIT DMG > PEN",
+      "assets": []
+    },
+    {
+      "id": "best-endgame-stats-level-60-28",
+      "level": 2,
+      "heading": "Best Endgame Stats (Level 60)",
+      "text": "ATK: 3000+\n\n HP: 10000+\n\n DEF: 800+\n\n Note: Pan Yinhu is a very low-cost Agent, as he only needs to meet his 3000 ATK requirement. Other than that, if you wish to optimize build him for damage with as much CRIT as possible (this isn't necessary though, we recommend you spare the resources).",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-29",
+      "level": 2,
+      "heading": "Skill priority",
+      "text": "Chain Attack\n\n Assist\n\n Special Attack\n\n Basic Attack\n\n Dodge",
+      "assets": [
+        {
+          "id": "803b765175bc",
+          "sourceHash": "803b765175bc",
+          "kind": "icons",
+          "name": "Chain Attack",
+          "fileStem": "icon-ulti-full",
+          "path": "Prydwen/zzz/assets/icons/chain-attack-803b765175bc.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "de0f0cad1e72",
+          "sourceHash": "de0f0cad1e72",
+          "kind": "icons",
+          "name": "Assist",
+          "fileStem": "icon-assist-m",
+          "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "954b8d0b61b7",
+          "sourceHash": "954b8d0b61b7",
+          "kind": "icons",
+          "name": "Special Attack",
+          "fileStem": "icon-special-full",
+          "path": "Prydwen/zzz/assets/icons/special-attack-954b8d0b61b7.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "13fff798e82d",
+          "sourceHash": "13fff798e82d",
+          "kind": "icons",
+          "name": "Basic Attack",
+          "fileStem": "icon-basic",
+          "path": "Prydwen/zzz/assets/icons/basic-attack-13fff798e82d.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "f3bbacf4beb6",
+          "sourceHash": "f3bbacf4beb6",
+          "kind": "icons",
+          "name": "Dodge",
+          "fileStem": "icon-dodge",
+          "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+          "width": 24,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "id": "video-guides-30",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "Teams & Synergy",
+      "assets": []
+    },
+    {
+      "id": "synergy-31",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Below we list only the most important synergies for Pan Yinhu . The character can work with others if you know what to do and how to use them.\n\n Yixuan Manato Yidhari Banyue - Pan is the only non-limited unit who is dedicated to assisting Rupture Agents. Although he is not an ideal option, he is still likely to be superior to most other Supports, and even has some minor synergy with existing Rupture Agents, such as with the healing on his Ultimate. Despite being an A-Rank, his buffs are comparable to that of other Limited Supports (like Astra), and if at M6, he is second place only to Lucia in terms of his buff contribution to Rupture teams.\n Lucia - Although Pan Yinhu does not directly benefit from most of Lucia’s buffs, as both are dedicated supporting units for Rupture Agents, running them both together can work well. It isn’t ideal, given that both provide flat Sheer Force buffs (so they dilute each others’ contribution) and neither has particularly good Daze build-up, but overall the raw amount of buffs they provide more than makes up for it.",
+      "assets": [
+        {
+          "id": "53300a2a5c70",
+          "sourceHash": "53300a2a5c70",
+          "kind": "characters",
+          "name": "Yixuan",
+          "fileStem": "yixuan",
+          "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "6e337e3697b9",
+          "sourceHash": "6e337e3697b9",
+          "kind": "characters",
+          "name": "Manato",
+          "fileStem": "manato",
+          "path": "Prydwen/zzz/assets/characters/manato-6e337e3697b9.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3f97af69c631",
+          "sourceHash": "3f97af69c631",
+          "kind": "characters",
+          "name": "Yidhari",
+          "fileStem": "yidhari",
+          "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7b812101932f",
+          "sourceHash": "7b812101932f",
+          "kind": "characters",
+          "name": "Banyue",
+          "fileStem": "banyue",
+          "path": "Prydwen/zzz/assets/characters/banyue-7b812101932f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7557c8060dc2",
+          "sourceHash": "7557c8060dc2",
+          "kind": "characters",
+          "name": "Lucia",
+          "fileStem": "lucia",
+          "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-shiyu-defense-32",
+      "level": 2,
+      "heading": "Teams (Shiyu Defense)",
+      "text": "This section lists most popular teams featuring Pan Yinhu in the current phase of Shiyu Defense.\n Rank 18\n App. rate: 2.16 %\n Avg. time: 26812\n\n Rank 48\n App. rate: 0.54 %\n Avg. time: 26278\n\n Rank 82\n App. rate: 0.22 %\n Avg. time: 27686\n\n Rank 154\n App. rate: 0.06 %\n Avg. time: 26006\n\n Rank 167\n App. rate: 0.05 %\n Avg. time: 26922\n\n Rank 187\n App. rate: 0.04 %\n Avg. time: 31260\n\n Rank 187\n App. rate: 0.04 %\n Avg. time: 0\n\n Rank 203\n App. rate: 0.03 %\n Avg. time: 27434\n\n Rank 238\n App. rate: 0.02 %\n Avg. time: 27576\n\n Rank 238\n App. rate: 0.02 %\n Avg. time: 27886",
+      "assets": [
+        {
+          "id": "53300a2a5c70",
+          "sourceHash": "53300a2a5c70",
+          "kind": "characters",
+          "name": "Yixuan",
+          "fileStem": "yixuan",
+          "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f34fb0a851f4",
+          "sourceHash": "f34fb0a851f4",
+          "kind": "characters",
+          "name": "Pan Yinhu",
+          "fileStem": "pan-yinhu",
+          "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7557c8060dc2",
+          "sourceHash": "7557c8060dc2",
+          "kind": "characters",
+          "name": "Lucia",
+          "fileStem": "lucia",
+          "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3e8d48ac0bd4",
+          "sourceHash": "3e8d48ac0bd4",
+          "kind": "characters",
+          "name": "Ju Fufu",
+          "fileStem": "ju-fufu",
+          "path": "Prydwen/zzz/assets/characters/ju-fufu-3e8d48ac0bd4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5b1302d794ba",
+          "sourceHash": "5b1302d794ba",
+          "kind": "characters",
+          "name": "Dialyn",
+          "fileStem": "dialyn",
+          "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ce33de22acc4",
+          "sourceHash": "ce33de22acc4",
+          "kind": "characters",
+          "name": "Pulchra",
+          "fileStem": "pulchra",
+          "path": "Prydwen/zzz/assets/characters/pulchra-ce33de22acc4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5887e20e4502",
+          "sourceHash": "5887e20e4502",
+          "kind": "characters",
+          "name": "Ye Shunguang",
+          "fileStem": "ye-shunguang",
+          "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e8a1e5a4346f",
+          "sourceHash": "e8a1e5a4346f",
+          "kind": "characters",
+          "name": "Zhao",
+          "fileStem": "zhao",
+          "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3f97af69c631",
+          "sourceHash": "3f97af69c631",
+          "kind": "characters",
+          "name": "Yidhari",
+          "fileStem": "yidhari",
+          "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "2fd489d454a4",
+          "sourceHash": "2fd489d454a4",
+          "kind": "characters",
+          "name": "Trigger",
+          "fileStem": "trigger",
+          "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7b812101932f",
+          "sourceHash": "7b812101932f",
+          "kind": "characters",
+          "name": "Banyue",
+          "fileStem": "banyue",
+          "path": "Prydwen/zzz/assets/characters/banyue-7b812101932f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "05437fe51e49",
+          "sourceHash": "05437fe51e49",
+          "kind": "characters",
+          "name": "Lycaon",
+          "fileStem": "lycaon",
+          "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-deadly-assault-33",
+      "level": 2,
+      "heading": "Teams (Deadly Assault)",
+      "text": "This section lists most popular teams featuring Pan Yinhu in the current phase of Deadly Assault.\n Rank 16\n App. rate: 2.36 %\n Avg. score: 26659\n\n Rank 28\n App. rate: 1.1 %\n Avg. score: 25672\n\n Rank 69\n App. rate: 0.31 %\n Avg. score: 28815\n\n Rank 83\n App. rate: 0.22 %\n Avg. score: 21691\n\n Rank 108\n App. rate: 0.13 %\n Avg. score: 22598\n\n Rank 136\n App. rate: 0.07 %\n Avg. score: 25482\n\n Rank 157\n App. rate: 0.05 %\n Avg. score: 26228\n\n Rank 174\n App. rate: 0.04 %\n Avg. score: 25079\n\n Rank 205\n App. rate: 0.03 %\n Avg. score: 26975\n\n Rank 225\n App. rate: 0.02 %\n Avg. score: 21653",
+      "assets": [
+        {
+          "id": "53300a2a5c70",
+          "sourceHash": "53300a2a5c70",
+          "kind": "characters",
+          "name": "Yixuan",
+          "fileStem": "yixuan",
+          "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f34fb0a851f4",
+          "sourceHash": "f34fb0a851f4",
+          "kind": "characters",
+          "name": "Pan Yinhu",
+          "fileStem": "pan-yinhu",
+          "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7557c8060dc2",
+          "sourceHash": "7557c8060dc2",
+          "kind": "characters",
+          "name": "Lucia",
+          "fileStem": "lucia",
+          "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3e8d48ac0bd4",
+          "sourceHash": "3e8d48ac0bd4",
+          "kind": "characters",
+          "name": "Ju Fufu",
+          "fileStem": "ju-fufu",
+          "path": "Prydwen/zzz/assets/characters/ju-fufu-3e8d48ac0bd4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5b1302d794ba",
+          "sourceHash": "5b1302d794ba",
+          "kind": "characters",
+          "name": "Dialyn",
+          "fileStem": "dialyn",
+          "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "98d8d659c143",
+          "sourceHash": "98d8d659c143",
+          "kind": "characters",
+          "name": "Astra Yao",
+          "fileStem": "astra-yao",
+          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ce33de22acc4",
+          "sourceHash": "ce33de22acc4",
+          "kind": "characters",
+          "name": "Pulchra",
+          "fileStem": "pulchra",
+          "path": "Prydwen/zzz/assets/characters/pulchra-ce33de22acc4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3f97af69c631",
+          "sourceHash": "3f97af69c631",
+          "kind": "characters",
+          "name": "Yidhari",
+          "fileStem": "yidhari",
+          "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "05437fe51e49",
+          "sourceHash": "05437fe51e49",
+          "kind": "characters",
+          "name": "Lycaon",
+          "fileStem": "lycaon",
+          "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "894a171664e9",
+          "sourceHash": "894a171664e9",
+          "kind": "characters",
+          "name": "Qingyi",
+          "fileStem": "qingyi",
+          "path": "Prydwen/zzz/assets/characters/qingyi-894a171664e9.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "best-w-engines": {
+      "label": "Best W-Engines",
+      "sections": [
+        {
+          "heading": "Best W-Engines",
+          "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Tusks of Fury (S 1 )\n\n The best option for Defender Supports if available. Provides 18% DMG and 12% Daze to all party members for 20s whenever a Perfect Dodge or Interrupt is triggered which is possible to upkeep permanently. Also gives 30% Shield value increase if applicable (not the case for Pan Yinhu) and a high Base ATK along with extra Impact for higher Daze potential.\n Usage: 4.58 %\n Shiyu Defense: 32177\n Deadly Assault: 29810\n\n 2\n\n Tremor Trigram Vessel (S 5 )\n\n Pan Yinhu's signature W-Engine is the best A-rank option available for him, providing both high amounts of ATK and Energy Regen which are the stats he needs. The extra EX Special and Ultimate DMG provided to the user also constitute a small increase to total team damage which is always good to take.\n Usage: 85.5 %\n Shiyu Defense: 28105\n Deadly Assault: 26162\n\n 3\n\n Spring Embrace (S 5 )\n\n Grants the same amount of ATK as Tremor Trigram Vessel which is useful but its additional effect doesn't provide any extra DMG. Has a small effect which reduces DMG taken and also gives extra Energy regeneration if damage is taken by the user, but overall this effect is negligible. Nonetheless, it's better than nothing.\n Usage: 0.53 %\n Shiyu Defense: 29535\n Deadly Assault: 26486\n\n 4\n\n Peacekeeper - Specialized (S 5 )\n\n On Pan Yinhu, this W-Engine's additional effect is mostly useless, however it gives the same amount of ATK as Tremor Trigram Vessel which is useful. If shielded, Pan Yinhu will gain extra Energy Regen but this is mostly negligible. Similarly, the extra Anomaly Buildup on EX Specials and Assist Follow-Ups can be ignored for the most part, however the two effects are better than nothing.\n Usage: 3.51 %\n Shiyu Defense: 28389\n Deadly Assault: 24738",
+          "assets": [
+            {
+              "id": "bf9f9815b1be",
+              "sourceHash": "bf9f9815b1be",
+              "kind": "w-engines",
+              "name": "Tusks of Fury",
+              "fileStem": "tusks-of-fury-image",
+              "path": "Prydwen/zzz/assets/w-engines/tusks-of-fury-bf9f9815b1be.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "c0d3b4b0777e",
+              "sourceHash": "c0d3b4b0777e",
+              "kind": "w-engines",
+              "name": "Tremor Trigram Vessel",
+              "fileStem": "tremor-trigram-vessel-image",
+              "path": "Prydwen/zzz/assets/w-engines/tremor-trigram-vessel-c0d3b4b0777e.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "695c563b6c68",
+              "sourceHash": "695c563b6c68",
+              "kind": "w-engines",
+              "name": "Spring Embrace",
+              "fileStem": "spring-embrace-image",
+              "path": "Prydwen/zzz/assets/w-engines/spring-embrace-695c563b6c68.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "f9df5f83fbef",
+              "sourceHash": "f9df5f83fbef",
+              "kind": "w-engines",
+              "name": "Peacekeeper - Specialized",
+              "fileStem": "peacekeeper-specialized-image",
+              "path": "Prydwen/zzz/assets/w-engines/peacekeeper-specialized-f9df5f83fbef.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-disk-drives-sets": {
+      "label": "Best Disk Drives Sets",
+      "sections": [
+        {
+          "heading": "Best Disk Drives Sets",
+          "text": "1\n\n Astral Voice ( 4 -PC)\n\n Best generalist Support set, providing a useful 10% ATK on the 2-piece but most importantly buffing DMG dealt by characters entering the field via Quick Assists by upwards of 24%, the biggest buff provided by Disc Drives in the game. Generally a must-have set on any team.\n Best combined with your choice of 2-PC Set:\n 2P\n Hormone Punk\n\n (Recommended)\n 2P\n Swing Jazz\n\n 2P\n Fanged Metal\n\n 2\n\n Proto Punk ( 4 -PC)\n\n Niche supportive set used for Agents that are in the position of triggering Perfect Assists. Grants the entire party 15% increased DMG for 10s when triggering a Perfect Assist. Typically used if an Astral Voice wielder is already on the team and the equipped Agent is in a position to trigger lots of Perfect Assists. This set's value is significantly diminished if the player isn't comfortable with timing Perfect Assists, in which case Swing Jazz will be favoured.\n Best combined with your choice of 2-PC Set:\n 2P\n Hormone Punk\n\n (Recommended)\n 2P\n Swing Jazz\n\n 2P\n Fanged Metal\n\n 3\n\n Swing Jazz ( 4 -PC)\n\n One of the best supportive set options. Grants the entire squad a 15% DMG increase for 12 seconds following a Chain Attack or Ultimate, which is easy to time with a Stun window for optimal buff uptime. Additionally grants 20% Energy Regen on the 2-piece to ensure EX Special uptime if necessary on the equipped character, generally used if another Agent in the squad already uses Astral Voice.\n Best combined with your choice of 2-PC Set:\n 2P\n Hormone Punk\n\n (Recommended)\n 2P\n Fanged Metal",
+          "assets": [
+            {
+              "id": "47b453ad83b8",
+              "sourceHash": "47b453ad83b8",
+              "kind": "drive-discs",
+              "name": "Astral Voice",
+              "fileStem": "set-astral",
+              "path": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "9b0991be94a3",
+              "sourceHash": "9b0991be94a3",
+              "kind": "drive-discs",
+              "name": "Hormone Punk",
+              "fileStem": "set-hormone",
+              "path": "Prydwen/zzz/assets/drive-discs/hormone-punk-9b0991be94a3.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "7e8e49d34387",
+              "sourceHash": "7e8e49d34387",
+              "kind": "drive-discs",
+              "name": "Swing Jazz",
+              "fileStem": "set-swing",
+              "path": "Prydwen/zzz/assets/drive-discs/swing-jazz-7e8e49d34387.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "ff78b0b02e04",
+              "sourceHash": "ff78b0b02e04",
+              "kind": "drive-discs",
+              "name": "Fanged Metal",
+              "fileStem": "set-fanged",
+              "path": "Prydwen/zzz/assets/drive-discs/fanged-metal-ff78b0b02e04.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "1c4453ce92f8",
+              "sourceHash": "1c4453ce92f8",
+              "kind": "drive-discs",
+              "name": "Proto Punk",
+              "fileStem": "set-proto",
+              "path": "Prydwen/zzz/assets/drive-discs/proto-punk-1c4453ce92f8.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-disk-drives-stats": {
+      "label": "Best Disk Drives Stats",
+      "sections": [
+        {
+          "heading": "Best Disk Drives Stats",
+          "text": "Disk 4\n CRIT Rate% = CRIT DMG% > ATK%\n\n Disk 5\n Physical DMG% > ATK%\n\n Disk 6\n ATK%\n\n Substats: ATK%/Flat ATK (until 3000 ATK) > CRIT Rate = CRIT DMG > PEN",
+          "assets": []
+        }
+      ]
+    },
+    "best-endgame-stats": {
+      "label": "Best Endgame Stats",
+      "sections": [
+        {
+          "heading": "Best Endgame Stats (Level 60)",
+          "text": "ATK: 3000+\n\n HP: 10000+\n\n DEF: 800+\n\n Note: Pan Yinhu is a very low-cost Agent, as he only needs to meet his 3000 ATK requirement. Other than that, if you wish to optimize build him for damage with as much CRIT as possible (this isn't necessary though, we recommend you spare the resources).",
+          "assets": []
+        }
+      ]
+    },
+    "skill-priority": {
+      "label": "Skill priority",
+      "sections": [
+        {
+          "heading": "Skill priority",
+          "text": "Chain Attack\n\n Assist\n\n Special Attack\n\n Basic Attack\n\n Dodge",
+          "assets": [
+            {
+              "id": "803b765175bc",
+              "sourceHash": "803b765175bc",
+              "kind": "icons",
+              "name": "Chain Attack",
+              "fileStem": "icon-ulti-full",
+              "path": "Prydwen/zzz/assets/icons/chain-attack-803b765175bc.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "de0f0cad1e72",
+              "sourceHash": "de0f0cad1e72",
+              "kind": "icons",
+              "name": "Assist",
+              "fileStem": "icon-assist-m",
+              "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "954b8d0b61b7",
+              "sourceHash": "954b8d0b61b7",
+              "kind": "icons",
+              "name": "Special Attack",
+              "fileStem": "icon-special-full",
+              "path": "Prydwen/zzz/assets/icons/special-attack-954b8d0b61b7.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "13fff798e82d",
+              "sourceHash": "13fff798e82d",
+              "kind": "icons",
+              "name": "Basic Attack",
+              "fileStem": "icon-basic",
+              "path": "Prydwen/zzz/assets/icons/basic-attack-13fff798e82d.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "f3bbacf4beb6",
+              "sourceHash": "f3bbacf4beb6",
+              "kind": "icons",
+              "name": "Dodge",
+              "fileStem": "icon-dodge",
+              "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+              "width": 24,
+              "height": 24
+            }
+          ]
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Below we list only the most important synergies for Pan Yinhu . The character can work with others if you know what to do and how to use them.\n\n Yixuan Manato Yidhari Banyue - Pan is the only non-limited unit who is dedicated to assisting Rupture Agents. Although he is not an ideal option, he is still likely to be superior to most other Supports, and even has some minor synergy with existing Rupture Agents, such as with the healing on his Ultimate. Despite being an A-Rank, his buffs are comparable to that of other Limited Supports (like Astra), and if at M6, he is second place only to Lucia in terms of his buff contribution to Rupture teams.\n Lucia - Although Pan Yinhu does not directly benefit from most of Lucia’s buffs, as both are dedicated supporting units for Rupture Agents, running them both together can work well. It isn’t ideal, given that both provide flat Sheer Force buffs (so they dilute each others’ contribution) and neither has particularly good Daze build-up, but overall the raw amount of buffs they provide more than makes up for it.",
+          "assets": [
+            {
+              "id": "53300a2a5c70",
+              "sourceHash": "53300a2a5c70",
+              "kind": "characters",
+              "name": "Yixuan",
+              "fileStem": "yixuan",
+              "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "6e337e3697b9",
+              "sourceHash": "6e337e3697b9",
+              "kind": "characters",
+              "name": "Manato",
+              "fileStem": "manato",
+              "path": "Prydwen/zzz/assets/characters/manato-6e337e3697b9.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "3f97af69c631",
+              "sourceHash": "3f97af69c631",
+              "kind": "characters",
+              "name": "Yidhari",
+              "fileStem": "yidhari",
+              "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "7b812101932f",
+              "sourceHash": "7b812101932f",
+              "kind": "characters",
+              "name": "Banyue",
+              "fileStem": "banyue",
+              "path": "Prydwen/zzz/assets/characters/banyue-7b812101932f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "7557c8060dc2",
+              "sourceHash": "7557c8060dc2",
+              "kind": "characters",
+              "name": "Lucia",
+              "fileStem": "lucia",
+              "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "teams": {
+      "label": "Teams",
+      "sections": [
+        {
+          "heading": "Teams (Shiyu Defense)",
+          "text": "This section lists most popular teams featuring Pan Yinhu in the current phase of Shiyu Defense.\n Rank 18\n App. rate: 2.16 %\n Avg. time: 26812\n\n Rank 48\n App. rate: 0.54 %\n Avg. time: 26278\n\n Rank 82\n App. rate: 0.22 %\n Avg. time: 27686\n\n Rank 154\n App. rate: 0.06 %\n Avg. time: 26006\n\n Rank 167\n App. rate: 0.05 %\n Avg. time: 26922\n\n Rank 187\n App. rate: 0.04 %\n Avg. time: 31260\n\n Rank 187\n App. rate: 0.04 %\n Avg. time: 0\n\n Rank 203\n App. rate: 0.03 %\n Avg. time: 27434\n\n Rank 238\n App. rate: 0.02 %\n Avg. time: 27576\n\n Rank 238\n App. rate: 0.02 %\n Avg. time: 27886",
+          "assets": [
+            {
+              "id": "53300a2a5c70",
+              "sourceHash": "53300a2a5c70",
+              "kind": "characters",
+              "name": "Yixuan",
+              "fileStem": "yixuan",
+              "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "f34fb0a851f4",
+              "sourceHash": "f34fb0a851f4",
+              "kind": "characters",
+              "name": "Pan Yinhu",
+              "fileStem": "pan-yinhu",
+              "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "7557c8060dc2",
+              "sourceHash": "7557c8060dc2",
+              "kind": "characters",
+              "name": "Lucia",
+              "fileStem": "lucia",
+              "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "3e8d48ac0bd4",
+              "sourceHash": "3e8d48ac0bd4",
+              "kind": "characters",
+              "name": "Ju Fufu",
+              "fileStem": "ju-fufu",
+              "path": "Prydwen/zzz/assets/characters/ju-fufu-3e8d48ac0bd4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "5b1302d794ba",
+              "sourceHash": "5b1302d794ba",
+              "kind": "characters",
+              "name": "Dialyn",
+              "fileStem": "dialyn",
+              "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "ce33de22acc4",
+              "sourceHash": "ce33de22acc4",
+              "kind": "characters",
+              "name": "Pulchra",
+              "fileStem": "pulchra",
+              "path": "Prydwen/zzz/assets/characters/pulchra-ce33de22acc4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "5887e20e4502",
+              "sourceHash": "5887e20e4502",
+              "kind": "characters",
+              "name": "Ye Shunguang",
+              "fileStem": "ye-shunguang",
+              "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "e8a1e5a4346f",
+              "sourceHash": "e8a1e5a4346f",
+              "kind": "characters",
+              "name": "Zhao",
+              "fileStem": "zhao",
+              "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "3f97af69c631",
+              "sourceHash": "3f97af69c631",
+              "kind": "characters",
+              "name": "Yidhari",
+              "fileStem": "yidhari",
+              "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "2fd489d454a4",
+              "sourceHash": "2fd489d454a4",
+              "kind": "characters",
+              "name": "Trigger",
+              "fileStem": "trigger",
+              "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "7b812101932f",
+              "sourceHash": "7b812101932f",
+              "kind": "characters",
+              "name": "Banyue",
+              "fileStem": "banyue",
+              "path": "Prydwen/zzz/assets/characters/banyue-7b812101932f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "05437fe51e49",
+              "sourceHash": "05437fe51e49",
+              "kind": "characters",
+              "name": "Lycaon",
+              "fileStem": "lycaon",
+              "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        },
+        {
+          "heading": "Teams (Deadly Assault)",
+          "text": "This section lists most popular teams featuring Pan Yinhu in the current phase of Deadly Assault.\n Rank 16\n App. rate: 2.36 %\n Avg. score: 26659\n\n Rank 28\n App. rate: 1.1 %\n Avg. score: 25672\n\n Rank 69\n App. rate: 0.31 %\n Avg. score: 28815\n\n Rank 83\n App. rate: 0.22 %\n Avg. score: 21691\n\n Rank 108\n App. rate: 0.13 %\n Avg. score: 22598\n\n Rank 136\n App. rate: 0.07 %\n Avg. score: 25482\n\n Rank 157\n App. rate: 0.05 %\n Avg. score: 26228\n\n Rank 174\n App. rate: 0.04 %\n Avg. score: 25079\n\n Rank 205\n App. rate: 0.03 %\n Avg. score: 26975\n\n Rank 225\n App. rate: 0.02 %\n Avg. score: 21653",
+          "assets": [
+            {
+              "id": "53300a2a5c70",
+              "sourceHash": "53300a2a5c70",
+              "kind": "characters",
+              "name": "Yixuan",
+              "fileStem": "yixuan",
+              "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "f34fb0a851f4",
+              "sourceHash": "f34fb0a851f4",
+              "kind": "characters",
+              "name": "Pan Yinhu",
+              "fileStem": "pan-yinhu",
+              "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "7557c8060dc2",
+              "sourceHash": "7557c8060dc2",
+              "kind": "characters",
+              "name": "Lucia",
+              "fileStem": "lucia",
+              "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "3e8d48ac0bd4",
+              "sourceHash": "3e8d48ac0bd4",
+              "kind": "characters",
+              "name": "Ju Fufu",
+              "fileStem": "ju-fufu",
+              "path": "Prydwen/zzz/assets/characters/ju-fufu-3e8d48ac0bd4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "5b1302d794ba",
+              "sourceHash": "5b1302d794ba",
+              "kind": "characters",
+              "name": "Dialyn",
+              "fileStem": "dialyn",
+              "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "98d8d659c143",
+              "sourceHash": "98d8d659c143",
+              "kind": "characters",
+              "name": "Astra Yao",
+              "fileStem": "astra-yao",
+              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "ce33de22acc4",
+              "sourceHash": "ce33de22acc4",
+              "kind": "characters",
+              "name": "Pulchra",
+              "fileStem": "pulchra",
+              "path": "Prydwen/zzz/assets/characters/pulchra-ce33de22acc4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "3f97af69c631",
+              "sourceHash": "3f97af69c631",
+              "kind": "characters",
+              "name": "Yidhari",
+              "fileStem": "yidhari",
+              "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "05437fe51e49",
+              "sourceHash": "05437fe51e49",
+              "kind": "characters",
+              "name": "Lycaon",
+              "fileStem": "lycaon",
+              "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "894a171664e9",
+              "sourceHash": "894a171664e9",
+              "kind": "characters",
+              "name": "Qingyi",
+              "fileStem": "qingyi",
+              "path": "Prydwen/zzz/assets/characters/qingyi-894a171664e9.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Pan Yinhu Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Pan Yinhu\n Pan Yinhu Best Build Guide\n Last updated: 14/June/2026\n\n Introduction\n Best guide and build for Pan Yinhu from ZZZ (Zenless Zone Zero). Pan Yinhu is an rank character with the Physical attribute who belongs to the Defence Specialty and who is part of the Yunkui Summit faction.\n\n To learn more about Pan Yinhu check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Pan Yinhu has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.0\n\n Last build update\n Patch 2.0\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 14/June/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Pan Yinhu check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Meridian Enlightenment\n\n Lv. 1\n\n For a brief period when Pan Yinhu's EX Special Attack: Mountainous Pulse Strike hits an enemy and triggers Quick Assist, the next Agent entering through a Quick Assist or Chain Attack will gain the Meridian Flow effect. This effect provides a Sheer Force boost equal to 9% of Pan Yinhu's ATK and lasts for 25s . The Sheer Force provided by this effect cannot exceed 540 points.\n\n Base Energy Regen 0\n BASE ATK: 0\n\n Additional Ability Iron Stomach\n\n When another character in your squad is a Rupture character or shares the same Faction:\n When Pan Yinhu hits an enemy with Special Attack: Touch of Death, the enemy suffers the Depleted Qi effect, increasing all DMG against the target by 20% . Each hit of Special Attack: Touch of Death inflicts a 10s Depleted Qi effect. This effect can't stack, but repeated hits on the same enemy will extend the duration.\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Unyielding Strikes\n\n Press to activate:\nLaunches up to four consecutive melee attacks, dealing Physical DMG.\n Multipliers\n\n Dodge: Light as a Swallow\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Sizzling Oil Supreme\n\n Press during a dodge to activate:\nPerform a quick forward melee attack, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Moving Mountains and Seas\n\n Press during a Perfect Dodge to activate.\nPerform a melee attack on enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Sonic Pressure-Point Strike\n\n Press to activate.\nDelivers a forward melee technique while tossing firecrackers, dealing Physical DMG.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n Special Attack: Touch of Death\n\n With Break Force, press to activate.\nSpecial Attack: Touch of Death attacks centered on the enemy, dealing Physical DMG.\nThe skill can be chained up to three times. Each use of Special Attack: Touch of Death consumes 1 point of Break Force.\nWhen Pan Yinhu is the active Agent, DMG received during the skill is reduced by 60% and Anti-Interrupt Level is increased. If he isn't the active Agent, he becomes Invulnerable.\n Multipliers\n\n EX Special Attack: Mountainous Pulse Strike\n\n With enough Energy, press to activate.\nEX Special Attack: Mountainous Pulse Strike unleashes a powerful strike forward, dealing Physical DMG.\nGain 3 points of Break Force on activation. Upon hitting an enemy, it triggers the Quick Assist of the previous character in the squad.\nAgents who enter the field via this Quick Assist will gain the Sheer Force bonus from the Core Passive. After switching out, Pan Yinhu will stay on the field and automatically launch Special Attack: Touch of Death until his Break Force runs out, where he then leaves the field.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Anointed with Wok Steam\n\n When a Chain Attack is triggered, select the character to activate:\nHop onto the Iron Wok and spin rapidly to ram into enemies, dealing massive Physical DMG to all enemies on the way.\n Multipliers\n\n Ultimate: A Feast Fit for an Emperor!\n\n When Decibel Rating is at Maximum, press to activate.\nPerform a technique that compresses qi into fried rice and catapults it at foes, dealing massive Physical DMG and healing the whole squad for some HP, while also applying a 8s heal over time on Agents, recovering certain HP/s.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Ride the Momentum\n\n Press after a Defensive Assist to activate:\nPerform a melee attack on enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Intimidating Presence\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Lift Your Gaze to Good Fortune\n\n When the active character is launched, press to activate.\nPerform a melee attack on enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n Qi Shield\n Mindscape 1\n\n All units deal 10% increased DMG to enemies affected by Depleted Qi.\n\n M2\n Yunkui Pressure-Point Strike\n Mindscape 2\n\n For every 6 points of Break Force consumed, Pan Yinhu will recover 4 Energy, and the Depleted Qi effect applied when Special Attack: Touch of Death hits an enemy will have its duration increased to 12s .\n\n M3\n Non-Meridian Acupuncture Points\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n First-Class Head Chef\n Mindscape 4\n\n When Ultimate: A Feast Fit for an Emperor! heals the whole squad, the HP recovery is increased by 25% , and the healing over time effect is increased by 25% . On activating Ultimate: A Feast Fit for an Emperor!, gain the Backup Provisions effect. Whenever any character in the squad loses HP, consume the Backup Provisions effect to instantly restore 50% of the HP recovered with Ultimate: A Feast Fit for an Emperor!'s instant HP recovery effect. This effect cannot stack.\n\n M5\n Thiren\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n 6. Meridian Theory\n Mindscape 6\n\n The Meridian Flow effect provided by Core Passive: Meridian Enlightenment increases by an extra 6% of Pan Yinhu's ATK. The maximum Sheer Force provided by this effect increases to 720 .\n\n Stats (Level 60)\n Pan Yinhu Stats at level 60 (including Core passive bonuses).\n\n HP\n 8453\n\n DEF\n 712\n\n ATK\n 661\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 94\n\n Anomaly Mastery\n 91\n\n Anomaly Proficiency\n 90\n\n Energy Regen\n 1.56\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Support\n T1\n Endgame Modes\n\n Pros & Cons\n Pros\n Extremely simple plug-and-play Support Agent — anyone can pick him up. Basically the equivalent of Lucy for Sheer Force-scaling Agents, with very low field time and effective buffs;\n\n The only Sheer Force buffer at the time of his release, a unique and valuable role;\n\n Rare presence of healing in his kit which helps with party survivability;\n\n Very low-cost Agent who needs little resources investment-wise aside from his ATK requirement;\n\n Scales well with Mindscapes while retaining his functionality at a baseline.\n\n Cons\n Only usable with Rupture Agents — very specialized character (excels in his niche but doesn't have the generalist potential of Agents like Nicole/Lucy);\n\n Must be placed before the DPS Agent in the party which can make some team options awkward (with characters like Trigger);\n\n Has a scarce amount of effective W-Engine options.\n\n Review\n Pan Yinhu is an A-rank Physical Defender Agent whose primary specialties include buffing Sheer Force, healing the party and increasing damage taken by enemies to enhance teammates, particularly Rupture Agents.\n His kit is extremely simple by design, meaning he is easy to pick up for any Proxies wanting to try him out — simple yet effective characterizes this Agent. Only 3 of his abilities are particularly important so we will only detail them: his EX Special, his Special and his Ultimate.\n First of all, let’s discuss Pan Yinhu’s Ultimate: it deals high Physical DMG and at max level, heals the entire squad for up to 1.6% HP/s per second over 8s (for a total of 12.8% HP) on top of an extra 1060 HP. On most Agents, you can expect this healing to equal between 15 to 20% of their HP, which is a good chunk of help towards keeping your squad alive . It can be used whenever your teammates need healing, or if you somehow aren’t taking damage, there is no specific timing to use it. It is worth noting Pan Yinhu’s Mindscape 4 further increases this healing effect by providing additional healing if Agents are hit by an attack (equivalent to 50% of the flat HP healing given by the Ultimate).\n Pan Yinhu’s Special is the more interesting part of his kit and allows him to access his buffing potential. Using EX Special restores 3 points of “Break Force”, a resource he can use to cast Specials called “Touch of Death”. There are a few reasons to execute both of these abilities:\n Using EX Special accesses the Quick Assist of the previous member in the squad, and it activates Pan Yinhu’s “Meridian Flow” effect provided by his Core Passive. Meridian Flow converts a certain percentage of his ATK into Sheer Force for the character who uses this Quick Assist at up to 540 points (Mindscape 0) or 720 points (Mindscape 6). At max Core Passive level, the ATK requirement to maximize the buff (both at Mindscape 0 and Mindscape 6) is 3000 points. This effect lasts 25s.\n\n Using Touch of Death applies the “Depleted Qi” effect to enemies hit if his Additional Ability is activated, which increases their DMG taken by 20% (with an extra 10% boost at Mindscape 1). This effect lasts 10s.\n\n Therefore, Pan Yinhu’s simple gameplay sums up to the following steps:\n Use EX Special to buff the Sheer Force of the previous character in the squad by triggering a Quick Assist (ideally a Rupture damage dealer) every 25s;\n\n Use 1 Touch of Death to increase the DMG taken by enemies every 10s (can be done 3 times with EX Special);\n\n Use Ultimate if teammates need healing or when readily available.\n\n This is enough to cover his gameplay — Pan Yinhu doesn’t deal much damage on his own and instead relies on Rupture damage dealers like Yixuan to handle the heavy lifting. He therefore doesn’t want to take up much field time, and his kit is perfect for that.\n Pan Yinhu is nonetheless introduced as a pretty good contender in the meta to buff Rupture agents. As the only direct buffer of Sheer Force on his release, he fills a unique role with Rupture damage dealers like Yixuan to increase their damage by a lot — as general ATK increasing supports are less favourable to buff the Sheer Force of Rupture agents than Pan Yinhu’s buff. This makes him fill a niche, but appreciated role, not to mention the healing provided by his Ultimate gives extra comfort in battle, allowing you to tank a few enemy hits without budging.\n In conclusion, Pan Yinhu is an easy, plug-and-play Support for Rupture Agents, able to buff their Sheer Force DMG effectively while keeping a simplistic playstyle and a good balance between buffing capabilities and survivability via the healing his Ultimate provides. Overall a potent Support Agent which does exactly what you expect him to in an effective way.\n\n How to play\n Rotations\n Pan Yinhu's rotations are extremely simple in design. He only wants to activate a few of his key abilities when available at specific intervals. His gameplay can be summed up to the following steps:\n Use EX Special to buff the Sheer Force of the previous character in the squad by triggering a Quick Assist (ideally a Rupture damage dealer) every 25s;\n\n Use 1 Touch of Death to increase the DMG taken by enemies every 10s (can be done 3 times with EX Special);\n\n Use Ultimate if teammates need healing or when readily available.\n\n With Yixuan as his DPS to support, ensure you execute Defensive Assists to switch into Pan Yinhu to feed Adrenaline to Yixuan and generate extra Daze.Additional Note: Make sure Pan Yinhu is always the party member following the DPS he is supporting, so that he can Quick Assist into them with his EX Special and provide his Sheer Force boost properly.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Tusks of Fury (S 1 )\n\n The best option for Defender Supports if available. Provides 18% DMG and 12% Daze to all party members for 20s whenever a Perfect Dodge or Interrupt is triggered which is possible to upkeep permanently. Also gives 30% Shield value increase if applicable (not the case for Pan Yinhu) and a high Base ATK along with extra Impact for higher Daze potential.\n Usage: 4.58 %\n Shiyu Defense: 32177\n Deadly Assault: 29810\n\n 2\n\n Tremor Trigram Vessel (S 5 )\n\n Pan Yinhu's signature W-Engine is the best A-rank option available for him, providing both high amounts of ATK and Energy Regen which are the stats he needs. The extra EX Special and Ultimate DMG provided to the user also constitute a small increase to total team damage which is always good to take.\n Usage: 85.5 %\n Shiyu Defense: 28105\n Deadly Assault: 26162\n\n 3\n\n Spring Embrace (S 5 )\n\n Grants the same amount of ATK as Tremor Trigram Vessel which is useful but its additional effect doesn't provide any extra DMG. Has a small effect which reduces DMG taken and also gives extra Energy regeneration if damage is taken by the user, but overall this effect is negligible. Nonetheless, it's better than nothing.\n Usage: 0.53 %\n Shiyu Defense: 29535\n Deadly Assault: 26486\n\n 4\n\n Peacekeeper - Specialized (S 5 )\n\n On Pan Yinhu, this W-Engine's additional effect is mostly useless, however it gives the same amount of ATK as Tremor Trigram Vessel which is useful. If shielded, Pan Yinhu will gain extra Energy Regen but this is mostly negligible. Similarly, the extra Anomaly Buildup on EX Specials and Assist Follow-Ups can be ignored for the most part, however the two effects are better than nothing.\n Usage: 3.51 %\n Shiyu Defense: 28389\n Deadly Assault: 24738\n\n Best Disk Drives Sets\n 1\n\n Astral Voice ( 4 -PC)\n\n Best generalist Support set, providing a useful 10% ATK on the 2-piece but most importantly buffing DMG dealt by characters entering the field via Quick Assists by upwards of 24%, the biggest buff provided by Disc Drives in the game. Generally a must-have set on any team.\n Best combined with your choice of 2-PC Set:\n 2P\n Hormone Punk\n\n (Recommended)\n 2P\n Swing Jazz\n\n 2P\n Fanged Metal\n\n 2\n\n Proto Punk ( 4 -PC)\n\n Niche supportive set used for Agents that are in the position of triggering Perfect Assists. Grants the entire party 15% increased DMG for 10s when triggering a Perfect Assist. Typically used if an Astral Voice wielder is already on the team and the equipped Agent is in a position to trigger lots of Perfect Assists. This set's value is significantly diminished if the player isn't comfortable with timing Perfect Assists, in which case Swing Jazz will be favoured.\n Best combined with your choice of 2-PC Set:\n 2P\n Hormone Punk\n\n (Recommended)\n 2P\n Swing Jazz\n\n 2P\n Fanged Metal\n\n 3\n\n Swing Jazz ( 4 -PC)\n\n One of the best supportive set options. Grants the entire squad a 15% DMG increase for 12 seconds following a Chain Attack or Ultimate, which is easy to time with a Stun window for optimal buff uptime. Additionally grants 20% Energy Regen on the 2-piece to ensure EX Special uptime if necessary on the equipped character, generally used if another Agent in the squad already uses Astral Voice.\n Best combined with your choice of 2-PC Set:\n 2P\n Hormone Punk\n\n (Recommended)\n 2P\n Fanged Metal\n\n Best Disk Drives Stats\n Disk 4\n CRIT Rate% = CRIT DMG% > ATK%\n\n Disk 5\n Physical DMG% > ATK%\n\n Disk 6\n ATK%\n\n Substats: ATK%/Flat ATK (until 3000 ATK) > CRIT Rate = CRIT DMG > PEN\n\n Best Endgame Stats (Level 60)\n ATK: 3000+\n\n HP: 10000+\n\n DEF: 800+\n\n Note: Pan Yinhu is a very low-cost Agent, as he only needs to meet his 3000 ATK requirement. Other than that, if you wish to optimize build him for damage with as much CRIT as possible (this isn't necessary though, we recommend you spare the resources).\n\n Skill priority\n Chain Attack\n\n Assist\n\n Special Attack\n\n Basic Attack\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Pan Yinhu . The character can work with others if you know what to do and how to use them.\n\n Yixuan Manato Yidhari Banyue - Pan is the only non-limited unit who is dedicated to assisting Rupture Agents. Although he is not an ideal option, he is still likely to be superior to most other Supports, and even has some minor synergy with existing Rupture Agents, such as with the healing on his Ultimate. Despite being an A-Rank, his buffs are comparable to that of other Limited Supports (like Astra), and if at M6, he is second place only to Lucia in terms of his buff contribution to Rupture teams.\n Lucia - Although Pan Yinhu does not directly benefit from most of Lucia’s buffs, as both are dedicated supporting units for Rupture Agents, running them both together can work well. It isn’t ideal, given that both provide flat Sheer Force buffs (so they dilute each others’ contribution) and neither has particularly good Daze build-up, but overall the raw amount of buffs they provide more than makes up for it.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Pan Yinhu in the current phase of Shiyu Defense.\n Rank 18\n App. rate: 2.16 %\n Avg. time: 26812\n\n Rank 48\n App. rate: 0.54 %\n Avg. time: 26278\n\n Rank 82\n App. rate: 0.22 %\n Avg. time: 27686\n\n Rank 154\n App. rate: 0.06 %\n Avg. time: 26006\n\n Rank 167\n App. rate: 0.05 %\n Avg. time: 26922\n\n Rank 187\n App. rate: 0.04 %\n Avg. time: 31260\n\n Rank 187\n App. rate: 0.04 %\n Avg. time: 0\n\n Rank 203\n App. rate: 0.03 %\n Avg. time: 27434\n\n Rank 238\n App. rate: 0.02 %\n Avg. time: 27576\n\n Rank 238\n App. rate: 0.02 %\n Avg. time: 27886\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Pan Yinhu in the current phase of Deadly Assault.\n Rank 16\n App. rate: 2.36 %\n Avg. score: 26659\n\n Rank 28\n App. rate: 1.1 %\n Avg. score: 25672\n\n Rank 69\n App. rate: 0.31 %\n Avg. score: 28815\n\n Rank 83\n App. rate: 0.22 %\n Avg. score: 21691\n\n Rank 108\n App. rate: 0.13 %\n Avg. score: 22598\n\n Rank 136\n App. rate: 0.07 %\n Avg. score: 25482\n\n Rank 157\n App. rate: 0.05 %\n Avg. score: 26228\n\n Rank 174\n App. rate: 0.04 %\n Avg. score: 25079\n\n Rank 205\n App. rate: 0.03 %\n Avg. score: 26975\n\n Rank 225\n App. rate: 0.02 %\n Avg. score: 21653"
+}

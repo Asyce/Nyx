@@ -1,0 +1,1259 @@
+{
+  "id": "characters:lumi",
+  "provider": "Prydwen",
+  "game": "ww",
+  "gameName": "Wuthering Waves",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "lumi",
+  "name": "Lumi",
+  "title": "Lumi Best Build Guide",
+  "sourcePath": "/wuthering-waves/characters/lumi",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "09/June/2026",
+  "meta": {
+    "title": "Lumi Best Build Guide | Wuthering Waves (WuWa)",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 4,
+    "element": "Electro",
+    "weapon": "Broadblade"
+  },
+  "assets": [
+    {
+      "id": "d1a2801c5ca3",
+      "sourceHash": "d1a2801c5ca3",
+      "kind": "characters",
+      "name": "Lumi",
+      "fileStem": "card-lumi",
+      "path": "Prydwen/ww/assets/characters/lumi-d1a2801c5ca3.webp",
+      "width": 210,
+      "height": 280
+    },
+    {
+      "id": "028f59b9e335",
+      "sourceHash": "028f59b9e335",
+      "kind": "icons",
+      "name": "Electro",
+      "fileStem": "element-electro",
+      "path": "Prydwen/ww/assets/icons/electro-028f59b9e335.webp",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "39094c227806",
+      "sourceHash": "39094c227806",
+      "kind": "icons",
+      "name": "CRIT Rate",
+      "fileStem": "stat-crit",
+      "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "1e70b3adc860",
+      "sourceHash": "1e70b3adc860",
+      "kind": "icons",
+      "name": "ATK%",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "c26c1d310e90",
+      "sourceHash": "c26c1d310e90",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "aa019d34202f",
+      "sourceHash": "aa019d34202f",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "5a0b154cd3d8",
+      "sourceHash": "5a0b154cd3d8",
+      "kind": "icons",
+      "name": "Max Energy",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "7e2bcd0760ca",
+      "sourceHash": "7e2bcd0760ca",
+      "kind": "icons",
+      "name": "CRIT DMG",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "94236abd3fdc",
+      "sourceHash": "94236abd3fdc",
+      "kind": "icons",
+      "name": "Healing",
+      "fileStem": "stat-heal",
+      "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "cec2445ceb75",
+      "sourceHash": "cec2445ceb75",
+      "kind": "icons",
+      "name": "Electro",
+      "fileStem": "stat-ele",
+      "path": "Prydwen/ww/assets/icons/electro-cec2445ceb75.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "f48ff62c89aa",
+      "sourceHash": "f48ff62c89aa",
+      "kind": "categories",
+      "name": "Interactive Map",
+      "fileStem": "category-map",
+      "path": "Prydwen/ww/assets/categories/interactive-map-f48ff62c89aa.webp",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "id": "da7336a0c26e",
+      "sourceHash": "da7336a0c26e",
+      "kind": "characters",
+      "name": "Lumi",
+      "fileStem": "lumi-full",
+      "path": "Prydwen/ww/assets/characters/lumi-da7336a0c26e.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "f970567b2315",
+      "sourceHash": "f970567b2315",
+      "kind": "weapons",
+      "name": "Ages of Harvest",
+      "fileStem": "21010026",
+      "path": "Prydwen/ww/assets/weapons/ages-of-harvest-f970567b2315.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "9fafb9f1aada",
+      "sourceHash": "9fafb9f1aada",
+      "kind": "weapons",
+      "name": "Verdant Summit",
+      "fileStem": "21010016",
+      "path": "Prydwen/ww/assets/weapons/verdant-summit-9fafb9f1aada.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "c562aa36c2f7",
+      "sourceHash": "c562aa36c2f7",
+      "kind": "weapons",
+      "name": "Lustrous Razor",
+      "fileStem": "21010015",
+      "path": "Prydwen/ww/assets/weapons/lustrous-razor-c562aa36c2f7.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1b276f8aa3db",
+      "sourceHash": "1b276f8aa3db",
+      "kind": "weapons",
+      "name": "Autumntrace",
+      "fileStem": "21010074",
+      "path": "Prydwen/ww/assets/weapons/autumntrace-1b276f8aa3db.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "730ddc221a80",
+      "sourceHash": "730ddc221a80",
+      "kind": "weapons",
+      "name": "Waning Redshift",
+      "fileStem": "21010084",
+      "path": "Prydwen/ww/assets/weapons/waning-redshift-730ddc221a80.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "99dd896c9195",
+      "sourceHash": "99dd896c9195",
+      "kind": "weapons",
+      "name": "Helios Cleaver",
+      "fileStem": "21010064",
+      "path": "Prydwen/ww/assets/weapons/helios-cleaver-99dd896c9195.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "3f2c99f93513",
+      "sourceHash": "3f2c99f93513",
+      "kind": "weapons",
+      "name": "Broadblade#41",
+      "fileStem": "21010034",
+      "path": "Prydwen/ww/assets/weapons/broadblade-41-3f2c99f93513.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "f86bb0717852",
+      "sourceHash": "f86bb0717852",
+      "kind": "weapons",
+      "name": "Discord",
+      "fileStem": "21010024",
+      "path": "Prydwen/ww/assets/weapons/discord-f86bb0717852.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "358387a78181",
+      "sourceHash": "358387a78181",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-8",
+      "path": "Prydwen/ww/assets/icons/set-8-358387a78181.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "969a4ca96158",
+      "sourceHash": "969a4ca96158",
+      "kind": "misc",
+      "name": "Impermanence Heron",
+      "fileStem": "330000030",
+      "path": "Prydwen/ww/assets/misc/impermanence-heron-969a4ca96158.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "802bc154dac0",
+      "sourceHash": "802bc154dac0",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-3",
+      "path": "Prydwen/ww/assets/icons/set-3-802bc154dac0.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "ac5204c99959",
+      "sourceHash": "ac5204c99959",
+      "kind": "misc",
+      "name": "Nightmare: Thundering Mephis",
+      "fileStem": "330000160",
+      "path": "Prydwen/ww/assets/misc/nightmare-thundering-mephis-ac5204c99959.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "b67d310bf80d",
+      "sourceHash": "b67d310bf80d",
+      "kind": "characters",
+      "name": "Jinhsi",
+      "fileStem": "jinhsi-icon",
+      "path": "Prydwen/ww/assets/characters/jinhsi-b67d310bf80d.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "2789b82fee41",
+      "sourceHash": "2789b82fee41",
+      "kind": "characters",
+      "name": "Carlotta",
+      "fileStem": "carlotta-icon",
+      "path": "Prydwen/ww/assets/characters/carlotta-2789b82fee41.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1b2a8f336e3d",
+      "sourceHash": "1b2a8f336e3d",
+      "kind": "characters",
+      "name": "Verina",
+      "fileStem": "verina-icon",
+      "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d909de4aecde",
+      "sourceHash": "d909de4aecde",
+      "kind": "characters",
+      "name": "The Shorekeeper",
+      "fileStem": "the-shorekeeper-icon",
+      "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "a1c1a1cd66c0",
+      "sourceHash": "a1c1a1cd66c0",
+      "kind": "characters",
+      "name": "Lumi",
+      "fileStem": "lumi-icon",
+      "path": "Prydwen/ww/assets/characters/lumi-a1c1a1cd66c0.webp",
+      "width": 120,
+      "height": 120
+    }
+  ],
+  "sections": [
+    {
+      "id": "lumi-best-build-guide-0",
+      "level": 1,
+      "heading": "Lumi Best Build Guide",
+      "text": "Last updated: 09/June/2026",
+      "assets": [
+        {
+          "id": "d1a2801c5ca3",
+          "sourceHash": "d1a2801c5ca3",
+          "kind": "characters",
+          "name": "Lumi",
+          "fileStem": "card-lumi",
+          "path": "Prydwen/ww/assets/characters/lumi-d1a2801c5ca3.webp",
+          "width": 210,
+          "height": 280
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Lumi from WW (Wuthering Waves). Lumi is a 4 ★ rarity character from the Electro element who uses the Broadblade type weapon.\n From dense forests to vast wilderness, places where navigator of Lollo Logistics Lumi has traveled bear witness to her charming personality, like a shaft of sunlight. Born disciplined, she is now enjoying her daily tasks as a diligent courier, honoring her duty of punctual delivery.\n\n To learn more about Lumi check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": [
+        {
+          "id": "028f59b9e335",
+          "sourceHash": "028f59b9e335",
+          "kind": "icons",
+          "name": "Electro",
+          "fileStem": "element-electro",
+          "path": "Prydwen/ww/assets/icons/electro-028f59b9e335.webp",
+          "width": 20,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "This character has no video guide yet.",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 2.1\n\n Last major build/calcs update\n Patch 2.1\n\n Last profile update*\n 09/June/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Lumi check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Navigation Support\n\n Yellow Light: Basic Attack\n Summon Squeakie to shoot three shots in a row, dealing Electro DMG .\n Yellow Light: Sprint\n Dodge to perform Sprint and enter Zoom Mode. Lumi is unable to Dodge when performing Sprint.\n Yellow Light: Zoom\n When in this state, automatically shoot Glitters at a locked-on target and deal Electro DMG , considered Basic Attack DMG.\n Yellow Light: Plunging Attack\n Consume STA to perform a Plunging Attack, dealing Electro DMG .\n Red Light: Basic Attack\n Perform up to 3 consecutive attacks, dealing Electro DMG .\n Red Light: Heavy Attack\n Consume STA to strike the ground with Squeakie, causing an impact dealing Electro DMG , considered Basic Attack DMG.\n Red Light: Plunging Attack\n Consume STA to perform a Plunging Attack, dealing Electro DMG .\n Red Light: Dodge Counter\n Use Basic Attack right after a successful Dodge to attack the target, dealing Electro DMG .\n\n Multipliers\n\n Resonance Skill\n Searchlight Service\n\n Pounce\n When in Yellow Light Mode, use Resonance Skill to perform Pounce, which consumes STA to pounce on the target before switching to Red Light Mode.\n Lumi will perform a Pounce without STA cost when switched onto the field.\n Rebound\n When in Red Light Mode, use Resonance Skill to perform Rebound, which consumes STA to leap backward and attack the target before switching to Yellow Light Mode.\n Yellow Light Mode\n Perform ranged attacks when in Yellow Light Mode.\n Red Light Mode\n Perform melee attacks when in Red Light Mode.\n\n Multipliers\n\n Resonance Liberation\n Squeakie Express\n\n Throw the giant Squeakie at the target, dealing Electro DMG .\n\n Multipliers\n\n Forte Circuit\n Signal Light\n\n Energized Pounce\n When Yellow Light Spark is fully recovered, replace Resonance Skill with Resonance Skill Energized Pounce that deals Electro DMG and enter Red Spotlight Mode. The DMG dealt is considered Basic Attack DMG.\n When in Red Spotlight Mode, the DMG Multiplier of Red Light: Basic Attack and Red Light: Heavy Attack is increased, with an extra amount of Sparks recovered.\n Red Spotlight Mode ends after performing altogether 4 Basic Attacks and/or Heavy Attacks.\n Energized Rebound\n When Red Light Spark is fully recovered, replace Resonance Skill with Resonance Skill Energized Rebound that deals Electro DMG and enter Yellow Spotlight Mode. The DMG dealt is considered Basic Attack DMG.\n When in Yellow Spotlight Mode, Glitter is replaced by Glare, with an increased DMG Multiplier and an extra amount of Sparks recovered.\n Yellow Spotlight Mode ends after shooting 6 Glares.\n Laser\n Casting Outro Skill consumes all Sparks obtained in the current mode.\n Laser can be cast when the amount of consumed Sparks is greater than or equal to 25 , dealing Electro DMG . The DMG dealt is considered Basic Attack DMG.\n Every 25 Sparks consumed generates 1 extra Laser beam, up to 4 Laser beams.\n Yellow Light Spark\n Lumi can hold up to 100 Yellow Light Sparks.\n Lumi obtains Yellow Light Spark under the following conditions:\n When Yellow Light: Basic Attack hits the target;\nWhen Glitter hits the target;\n\n When Glare hits the target;\n\n When Resonance Skill Energized Rebound hits the target;\n\n When casting Intro Skill Sepcial Delivery.\n\n Red Light Spark\n Lumi can hold up to 100 Red Light Sparks.\n Lumi obtains Red Light Spark under the following conditions:\n When Normal Attack Navigation Support hits the target in Red Light Mode or Red Spotlight Mode.\n\n Multipliers\n\n Inherent Skill\n Pathfinding\n\n Gain 10% Electro DMG Bonus when in Red Light Mode.\n\n Inherent Skill\n Expediting\n\n Casting Energized Pounce or Energized Rebound increases ATK by 10% for 5s .\n\n Intro Skill\n Special Delivery\n\n Enter Yellow Light Mode and attack the target, dealing Electro DMG .\n\n Multipliers\n\n Outro Skill\n Escorting\n\n The incoming Resonator has their Resonance Skill DMG Amplified by 38% for 10s or until they are switched out.",
+      "assets": []
+    },
+    {
+      "id": "resonance-chain-dupes-10",
+      "level": 2,
+      "heading": "Resonance Chain (Dupes)",
+      "text": "S 1\n Sequence Node 1\n\n After casting Energized Rebound, additionally recovers 60 STA within 3s .\n\n S 2\n Sequence Node 2\n\n Energized Pounce and Energized Rebound ignore 20% of the target's DEF.\n\n S 3\n Sequence Node 3\n\n The DMG of Resonance Liberation Squeakie Express is increased by 30% .\n\n S 4\n Sequence Node 4\n\n Gain 30% Basic Attack DMG Bonus.\n\n S 5\n Sequence Node 5\n\n When Spark is fully recovered, Laser DMG Multiplier is increased by 100% .\n\n S 6\n Sequence Node 6\n\n Casting Resonance Liberation Squeakie Express increases all team members' ATK by 20% for 20s .",
+      "assets": []
+    },
+    {
+      "id": "minor-fortes-total-11",
+      "level": 2,
+      "heading": "Minor Fortes (Total)",
+      "text": "CRIT Rate\n + 8 %\n\n ATK%\n + 12 %",
+      "assets": [
+        {
+          "id": "39094c227806",
+          "sourceHash": "39094c227806",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "1e70b3adc860",
+          "sourceHash": "1e70b3adc860",
+          "kind": "icons",
+          "name": "ATK%",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "stats-12",
+      "level": 2,
+      "heading": "Stats",
+      "text": "Include minor fortes\n\n Lv. 90\n\n HP\n 8500\n\n ATK\n 338\n\n DEF\n 880\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Electro DMG\n 0 %",
+      "assets": [
+        {
+          "id": "c26c1d310e90",
+          "sourceHash": "c26c1d310e90",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "1e70b3adc860",
+          "sourceHash": "1e70b3adc860",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "aa019d34202f",
+          "sourceHash": "aa019d34202f",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "5a0b154cd3d8",
+          "sourceHash": "5a0b154cd3d8",
+          "kind": "icons",
+          "name": "Max Energy",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "39094c227806",
+          "sourceHash": "39094c227806",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "7e2bcd0760ca",
+          "sourceHash": "7e2bcd0760ca",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "94236abd3fdc",
+          "sourceHash": "94236abd3fdc",
+          "kind": "icons",
+          "name": "Healing",
+          "fileStem": "stat-heal",
+          "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "cec2445ceb75",
+          "sourceHash": "cec2445ceb75",
+          "kind": "icons",
+          "name": "Electro",
+          "fileStem": "stat-ele",
+          "path": "Prydwen/ww/assets/icons/electro-cec2445ceb75.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "character-ascension-total-14",
+      "level": 5,
+      "heading": "Character Ascension (total)",
+      "text": "4 x LF Howler Core\n 12 x MF Howler Core\n 12 x HF Howler Core\n 4 x FF Howler Core\n 46 x Thundering Tacet Core\n 60 x Terraspawn Fungus\n 170 000 Shell Credits",
+      "assets": []
+    },
+    {
+      "id": "skill-upgrades-total-15",
+      "level": 5,
+      "heading": "Skill Upgrades (total)",
+      "text": "25 x LF Howler Core\n 28 x MF Howler Core\n 40 x HF Howler Core\n 57 x FF Howler Core\n 25 x Waveworn Residue 210\n 28 x Waveworn Residue 226\n 55 x Waveworn Residue 235\n 67 x Waveworn Residue 239\n 26 x Sentinel's Dagger\n 2 030 000 Shell Credits\n\n While the source of the materials can be quickly found in the game, when it comes Terraspawn Fungus you will have to gather them from the map. Check our Interactive map to find them quickly:\n\n Interactive Map",
+      "assets": [
+        {
+          "id": "f48ff62c89aa",
+          "sourceHash": "f48ff62c89aa",
+          "kind": "categories",
+          "name": "Interactive Map",
+          "fileStem": "category-map",
+          "path": "Prydwen/ww/assets/categories/interactive-map-f48ff62c89aa.webp",
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "voice-actors-16",
+      "level": 2,
+      "heading": "Voice Actors",
+      "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "da7336a0c26e",
+          "sourceHash": "da7336a0c26e",
+          "kind": "characters",
+          "name": "Lumi",
+          "fileStem": "lumi-full",
+          "path": "Prydwen/ww/assets/characters/lumi-da7336a0c26e.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "ratings-18",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.",
+      "assets": []
+    },
+    {
+      "id": "hybrid-19",
+      "level": 5,
+      "heading": "Hybrid",
+      "text": "T4\n Tower of Adversity\n\n T4\n Whimpering Wastes",
+      "assets": []
+    },
+    {
+      "id": "hybrid-21",
+      "level": 5,
+      "heading": "Hybrid",
+      "text": "T4\n Tower of Adversity (Value)\n\n T4\n Whimpering Wastes (Value)",
+      "assets": []
+    },
+    {
+      "id": "pros-23",
+      "level": 5,
+      "heading": "Pros",
+      "text": "High mobility kit able to deal damage while moving,\n\n Powerful Resonance Skill Amplification Boost on outro to support the team,\n\n Gains further supportive capabilities with sequences,\n\n Mixes the ranged and melee playstyle allowing for a bit of extra flexibility.",
+      "assets": []
+    },
+    {
+      "id": "cons-24",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Long concerto rotation leads to higher field times than other hybrid/supportive characters,\n\n Can be very energy-hungry resulting in a need for teammates that provide a lot of energy while also needing a good amount of ER.",
+      "assets": []
+    },
+    {
+      "id": "review-25",
+      "level": 2,
+      "heading": "Review",
+      "text": "Lumi is a 4-star Electro Broadblade wielder who is primarily utilized as a Hybrid buffer character but can also be played as a dedicated DPS for those committed enough - in this review, we’ll be covering her Hybrid playstyle.\n Lumi’s main buff and benefit to the team is her Outro skill, which, similar to other Hybrid’s grants the next character to Swap-In a 38% Damage Amplification while they remain on the field. However, what sets her apart is that she amplifies Skill Damage, a damage type currently under-serviced in the Hybrid category - presently, Skill Damage is only buffed by Taoqi.\n Lumi has two main objectives to aim for when playing her as a Hybrid. The first is to generate Concerto Energy quickly in order to access her Outro skill as fast as possible, the second is to ensure she has enough Resonance Energy to use her Ultimate when required for said Concerto Energy generation. To achieve the same, utilizing her kit in a smart and quick way is incredibly beneficial.\n Playing Lumi is simple, everything she does revolves around her dual Forte Gauge which is the first of its kind. Each half of the gauge represents one of her “Combat Stances”, the yellow half “Yellow Light Mode” is a Ranged attacking stance where she calls upon her ally Spuekie to attack for her whereas the red half “Red Light Mode” is a Melee attacking stance allowing her to lash out at enemies with her Broadblade. Lumi can swap between the two stances with no cooldown by using her Resonance skill, although as good as this sounds the attack does minimal damage and has a stamina cost so spamming it isn’t advised.\n Attacking in either of the “Combat Stance” will generate “Light Sparks” filling up the side of the gauge that corresponds to the colour of the stance you’re in and doing this is the backbone of Lumi’s rotation. The reason for this is that upon reaching maximum “Light Sparks” of a colour Lumi can consume them to empower her next Resonance skill significantly - increasing its damage along with higher Concerto and Resonance Energy generation. Executing an empowered Resonance Skill also causes Lumi to enter a more powerful version of her “Combat Stances” for a short time enhancing the Basic Attacks of each stance. Putting this all together, when playing Lumi keep in mind the following:\n Build “Light Sparks” of the stance colour you’re in.\n\n Execute an empowered Resonance Skill to swap stances.\n\n Build “Light Sparks” within the newly swapped stance.\n\n Execute another empowered Resonance Skill to swap back.\n\n Repeat, alternating between both stances as needed.\n\n Lumi’s gameplay is simple and easy to execute at a base level. She has potential in any team that has a main DPS who mostly does Skill damage, boasts great mobility, especially in her “Yellow Light Mode” and can be played as a dedicated DPS if so desired.\n However, at the time of her release, she lacks an ideal team or teammate to play alongside in her Hybrid role,. Furthermore, she also requires a significant amount of help in generating Resonance Energy to gain consistent access to her Ultimate. Lastly, she features a longer than average field time for those in the Hybrid role whose main goal is to get in and out as fast as possible. Combining these Pros and Cons Lumi lands without a position as best in slot in any of the Endgame Meta teams at the time of her release. However, with 2.0 approaching we’ll see if she gains a foothold with any of the new characters.",
+      "assets": []
+    },
+    {
+      "id": "video-guides-26",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "Lumi guide videos aren't available yet.\n\n Build",
+      "assets": []
+    },
+    {
+      "id": "best-weapons-27",
+      "level": 2,
+      "heading": "Best Weapons",
+      "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n 108.33%\n\n Ages of Harvest (R 1 )\n\n Jinhsi's weapon is currently also the best broadblade option for Lumi's damage, who benefits a great amount from the Skill DMG Bonus the weapon provides, as it boosts a good chunk of her rotations damage. The high base ATK, 24% CRIT Rate and 12% DMG Bonus the weapon additionally provides are also all stats that are welcome for her, making it a very high damage option\n 101.11%\n\n Verdant Summit (R 1 )\n\n Jiyan's signature weapon that's not only fantastic for him but also usable on all damage-focused Broadblade users. Offers a huge main stat of CRIT DMG% granting excellent scaling, 12% permanent generic DMG% and up to 48% increased Heavy ATK DMG% after using 1/2 skills and or a Resonance Liberation.\n 100.00%\n\n Lustrous Razor (R 1 )\n\n Top Broadblade option only in competition with some 4★ weapons with multiple copies invested or limited 5★ weapons. Offers high base ATK, ATK%, a good amount of Energy Regen to save at least 1 sub-stat on gear to be reallocated to better uses and a stackable Resonance Liberation ATK DMG% bonus that ramps up as you use Resonance Skills.\n 94.03%\n\n Autumntrace (R 5 )\n\n Strongest 4★ Broadsword option, granting main stat CRIT RATE for excellent scaling and an incredibly easy to access bonus ability which grants a stacking ATK% buff that only requires you to use Basic or Heavy attacks during your rotation.\n 86.84%\n\n Waning Redshift (R 5 )\n\n A solid F2P 4* broadblade option for any DPS character scaling off of ATK. The ATK% boost it provides when casting your Resonance Skill is great on most characters, and while the small energy generation it provides at the same time is more situational, it can be handy as well.\n 82.78%\n\n Helios Cleaver (R 5 )\n\n A generic option, granting a stacking ATK% buff after using your Resonance Skill that starts at 0 and grants 1 stack every 2 seconds up to 4 stacks - reaching a maximum after 8 seconds. Buff resets shortly after the stack cap limit is reached after which you'll have to repeat the cycle anew. Falls behind other options due to it's buff being inconsistent but still a viable option if you don't have better.\n 79.95%\n\n Broadblade#41 (R 5 )\n\n Another generic Broadblade option with a mix of utility and offense, granting a large amount of Energy Regen as a main stat. Also a reasonably strong and easy to maintain bonus ability that offers an ATK% buff as long as you remain above 80% HP. Our calculations assume you'll stay above 80% for the whole fight, if you can't you can lower this weapons performance.\n 72.78%\n\n Discord (R 5 )\n\n Discord is good for players looking to smooth out Lumi's rotation with some extra concerto and also for those hungry for Energy Regeneration for her.",
+      "assets": [
+        {
+          "id": "f970567b2315",
+          "sourceHash": "f970567b2315",
+          "kind": "weapons",
+          "name": "Ages of Harvest",
+          "fileStem": "21010026",
+          "path": "Prydwen/ww/assets/weapons/ages-of-harvest-f970567b2315.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9fafb9f1aada",
+          "sourceHash": "9fafb9f1aada",
+          "kind": "weapons",
+          "name": "Verdant Summit",
+          "fileStem": "21010016",
+          "path": "Prydwen/ww/assets/weapons/verdant-summit-9fafb9f1aada.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "c562aa36c2f7",
+          "sourceHash": "c562aa36c2f7",
+          "kind": "weapons",
+          "name": "Lustrous Razor",
+          "fileStem": "21010015",
+          "path": "Prydwen/ww/assets/weapons/lustrous-razor-c562aa36c2f7.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1b276f8aa3db",
+          "sourceHash": "1b276f8aa3db",
+          "kind": "weapons",
+          "name": "Autumntrace",
+          "fileStem": "21010074",
+          "path": "Prydwen/ww/assets/weapons/autumntrace-1b276f8aa3db.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "730ddc221a80",
+          "sourceHash": "730ddc221a80",
+          "kind": "weapons",
+          "name": "Waning Redshift",
+          "fileStem": "21010084",
+          "path": "Prydwen/ww/assets/weapons/waning-redshift-730ddc221a80.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "99dd896c9195",
+          "sourceHash": "99dd896c9195",
+          "kind": "weapons",
+          "name": "Helios Cleaver",
+          "fileStem": "21010064",
+          "path": "Prydwen/ww/assets/weapons/helios-cleaver-99dd896c9195.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3f2c99f93513",
+          "sourceHash": "3f2c99f93513",
+          "kind": "weapons",
+          "name": "Broadblade#41",
+          "fileStem": "21010034",
+          "path": "Prydwen/ww/assets/weapons/broadblade-41-3f2c99f93513.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f86bb0717852",
+          "sourceHash": "f86bb0717852",
+          "kind": "weapons",
+          "name": "Discord",
+          "fileStem": "21010024",
+          "path": "Prydwen/ww/assets/weapons/discord-f86bb0717852.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "best-echo-sets-29",
+      "level": 6,
+      "heading": "Best Echo Sets",
+      "text": "1\n\nMoonlit Clouds\n\n Offers a 10% unconditional Energy Regen% boost taking some pressure off your gear when aiming at ER breakpoints. Also upon using Outro, grants the next character switching in a 22.5% ATK boost, amplifying any of your main damage dealers burst windows.\n Below you can find Main Echo options:\n\n Impermanence Heron\n\n - Supportive Echo that can be run at the cost of a sizeable chunk of damage for the character who equips, trading personal gain for team benefits. Should always be used and immediately switch cancelled right before performing an Outro, leading to another DPS. When done so will grant the next character switching in 12% increased DMG% which when combined with the 5P Moonlit set which also grants 22.5% ATK% under the same conditions makes for a sizeable boost. While the echo does lower the damage of whoever wears it, it grants a massive chunk of energy on use usually saving 1 or sometimes even 2 Energy Regen sub stats that may otherwise be needed by the wearer allowing for some damage to be recovered.",
+      "assets": [
+        {
+          "id": "358387a78181",
+          "sourceHash": "358387a78181",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-8",
+          "path": "Prydwen/ww/assets/icons/set-8-358387a78181.webp",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "969a4ca96158",
+          "sourceHash": "969a4ca96158",
+          "kind": "misc",
+          "name": "Impermanence Heron",
+          "fileStem": "330000030",
+          "path": "Prydwen/ww/assets/misc/impermanence-heron-969a4ca96158.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "special-echo-sets-30",
+      "level": 6,
+      "heading": "Special Echo Sets",
+      "text": "Void Thunder\n\n If you want to play Lumi as Main DPS (which isn't really that optimal), you can use the Void Thunder set on her.\n Below you can find Main Echo options:\n\n Nightmare: Thundering Mephis\n\n - Offers an unconditional 12% Electro DMG and 12% Liberation DMG boost when placed in the main Main Echo slot, making it a solid choice for Electro focused resonators who emphasize Liberation damage and are looking to use the 5P Void Thunder set bonus.",
+      "assets": [
+        {
+          "id": "802bc154dac0",
+          "sourceHash": "802bc154dac0",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-3",
+          "path": "Prydwen/ww/assets/icons/set-3-802bc154dac0.webp",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "ac5204c99959",
+          "sourceHash": "ac5204c99959",
+          "kind": "misc",
+          "name": "Nightmare: Thundering Mephis",
+          "fileStem": "330000160",
+          "path": "Prydwen/ww/assets/misc/nightmare-thundering-mephis-ac5204c99959.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "best-echo-stats-31",
+      "level": 2,
+      "heading": "Best Echo Stats",
+      "text": "4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Electro DMG\n\n 3 cost\n Electro DMG > Energy Regen\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK",
+      "assets": []
+    },
+    {
+      "id": "best-endgame-stats-level-90-32",
+      "level": 2,
+      "heading": "Best Endgame Stats (Level 90)",
+      "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 14500+\n\n DEF: 1100+\n\n ATK: 2000-2800+\n\n CRIT Rate: 65%+\n\n CRIT DMG: 210%+\n\n Energy Regen: 142%-150%\n Lower end estimated in a team with Carlotta+Shorekeeper, higher end estimated in a team with Phrolova+Shorekeeper.\n\n Electro DMG Bonus: 30-60%+",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-33",
+      "level": 2,
+      "heading": "Skill Priority",
+      "text": "Below you can find the order of leveling the abilities for Lumi .\n Forte Circuit\n\n Res. Liberation\n\n Res. Skill\n\n Intro Skill\n\n Basic Attack\n\n Gameplay and teams",
+      "assets": []
+    },
+    {
+      "id": "rotation-34",
+      "level": 2,
+      "heading": "Rotation",
+      "text": "Lumi's rotation is simple, clean cut but fairly long for a hybrid character - to remedy this you can attempt to integrate swap cancel and swap backs in to shorten it. Be warned you'll need to be quick with your swap backs to not compromise your team or Lumi's rotation.",
+      "assets": []
+    },
+    {
+      "id": "rotation-35",
+      "level": 6,
+      "heading": "Rotation",
+      "text": "Intro\n\n Ultimate\n\n Skill: Energized Pounce (Optionally Swap Cancel and immediately back)\n\n Red Spotlight: Basic Attack 1\n\n Red Spotlight: Basic Attack 2\n\n Red Spotlight: Basic Attack 3 (Optionally Swap Cancel and immediately back)\n\n Skill: Energized Rebound\n\n Yellow Light: Basic Attack\n\n Channelled Dash: Glare x 6\n\n Skill: Energized Pounce\n\n Echo (Swap Cancel)\n\n Outro\n\n Echo: Use Lumi's Echo at the end of her rotation and perform a swap cancel to ensure you're gaining the best uptime for your incoming carry.",
+      "assets": []
+    },
+    {
+      "id": "synergies-36",
+      "level": 2,
+      "heading": "Synergies",
+      "text": "Jinhsi - Lumi is able to significantly buff Jinhsi's nukes via her Outro which gives 38% Resonance Skill DMG Amplify. Synergy ends there, but it's simple and effective nuke damage potential. Be wary however that Shorekeeper will not work in that team, due to Jinhsi's Forte requiring the presence of Coordinated Attacks in her teams (something Lumi and Shorekeeper don't possess, but Verina does).\n Carlotta - Carlotta does almost exclusively Skill DMG, which is exactly what Lumi amplifies by a whopping 38% on her Outro skill, making the synergy pretty natural. Be careful however that you have to time Lumi's Outro right as you activate your Forte nuke with Carlotta, else you won't get the buffs for your whole Ultimate. This means the team is rather awkward to play.\n Verina - One of the usual Healing Support options that can slot into any team. Super easy to use, provides amazing team-wide ATK% buffs and 15% DMG Amplify with one of the fastest rotations in the game. Enjoy.\n The Shorekeeper - Similar to Verina, a premium Healing Support option who can not only slot into any team, but also provide insane 12.5% Crit Rate, 25% Crit DMG, 25% ATK and 15% DMG Amplify buffs to your whole team. One of the best but also easy to use characters in the game.",
+      "assets": [
+        {
+          "id": "b67d310bf80d",
+          "sourceHash": "b67d310bf80d",
+          "kind": "characters",
+          "name": "Jinhsi",
+          "fileStem": "jinhsi-icon",
+          "path": "Prydwen/ww/assets/characters/jinhsi-b67d310bf80d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "2789b82fee41",
+          "sourceHash": "2789b82fee41",
+          "kind": "characters",
+          "name": "Carlotta",
+          "fileStem": "carlotta-icon",
+          "path": "Prydwen/ww/assets/characters/carlotta-2789b82fee41.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1b2a8f336e3d",
+          "sourceHash": "1b2a8f336e3d",
+          "kind": "characters",
+          "name": "Verina",
+          "fileStem": "verina-icon",
+          "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d909de4aecde",
+          "sourceHash": "d909de4aecde",
+          "kind": "characters",
+          "name": "The Shorekeeper",
+          "fileStem": "the-shorekeeper-icon",
+          "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "example-teams-37",
+      "level": 2,
+      "heading": "Example Teams",
+      "text": "Best Team (Jinhsi)\n\n Best Team (Carlotta)\n\n Calculations",
+      "assets": [
+        {
+          "id": "b67d310bf80d",
+          "sourceHash": "b67d310bf80d",
+          "kind": "characters",
+          "name": "Jinhsi",
+          "fileStem": "jinhsi-icon",
+          "path": "Prydwen/ww/assets/characters/jinhsi-b67d310bf80d.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "a1c1a1cd66c0",
+          "sourceHash": "a1c1a1cd66c0",
+          "kind": "characters",
+          "name": "Lumi",
+          "fileStem": "lumi-icon",
+          "path": "Prydwen/ww/assets/characters/lumi-a1c1a1cd66c0.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "1b2a8f336e3d",
+          "sourceHash": "1b2a8f336e3d",
+          "kind": "characters",
+          "name": "Verina",
+          "fileStem": "verina-icon",
+          "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "2789b82fee41",
+          "sourceHash": "2789b82fee41",
+          "kind": "characters",
+          "name": "Carlotta",
+          "fileStem": "carlotta-icon",
+          "path": "Prydwen/ww/assets/characters/carlotta-2789b82fee41.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "d909de4aecde",
+          "sourceHash": "d909de4aecde",
+          "kind": "characters",
+          "name": "The Shorekeeper",
+          "fileStem": "the-shorekeeper-icon",
+          "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+          "width": 120,
+          "height": 120
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "best-echo-stats": {
+      "label": "Best Echo Stats",
+      "sections": [
+        {
+          "heading": "Stats",
+          "text": "Include minor fortes\n\n Lv. 90\n\n HP\n 8500\n\n ATK\n 338\n\n DEF\n 880\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Electro DMG\n 0 %",
+          "assets": [
+            {
+              "id": "c26c1d310e90",
+              "sourceHash": "c26c1d310e90",
+              "kind": "icons",
+              "name": "HP",
+              "fileStem": "stat-hp",
+              "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "1e70b3adc860",
+              "sourceHash": "1e70b3adc860",
+              "kind": "icons",
+              "name": "ATK",
+              "fileStem": "stat-atk",
+              "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "aa019d34202f",
+              "sourceHash": "aa019d34202f",
+              "kind": "icons",
+              "name": "DEF",
+              "fileStem": "stat-def",
+              "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "5a0b154cd3d8",
+              "sourceHash": "5a0b154cd3d8",
+              "kind": "icons",
+              "name": "Max Energy",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "39094c227806",
+              "sourceHash": "39094c227806",
+              "kind": "icons",
+              "name": "CRIT Rate",
+              "fileStem": "stat-crit",
+              "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "7e2bcd0760ca",
+              "sourceHash": "7e2bcd0760ca",
+              "kind": "icons",
+              "name": "CRIT DMG",
+              "fileStem": "stat-critdmg",
+              "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "94236abd3fdc",
+              "sourceHash": "94236abd3fdc",
+              "kind": "icons",
+              "name": "Healing",
+              "fileStem": "stat-heal",
+              "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "cec2445ceb75",
+              "sourceHash": "cec2445ceb75",
+              "kind": "icons",
+              "name": "Electro",
+              "fileStem": "stat-ele",
+              "path": "Prydwen/ww/assets/icons/electro-cec2445ceb75.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        },
+        {
+          "heading": "Best Echo Stats",
+          "text": "4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Electro DMG\n\n 3 cost\n Electro DMG > Energy Regen\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK",
+          "assets": []
+        }
+      ]
+    },
+    "best-weapons": {
+      "label": "Best Weapons",
+      "sections": [
+        {
+          "heading": "Best Weapons",
+          "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n 108.33%\n\n Ages of Harvest (R 1 )\n\n Jinhsi's weapon is currently also the best broadblade option for Lumi's damage, who benefits a great amount from the Skill DMG Bonus the weapon provides, as it boosts a good chunk of her rotations damage. The high base ATK, 24% CRIT Rate and 12% DMG Bonus the weapon additionally provides are also all stats that are welcome for her, making it a very high damage option\n 101.11%\n\n Verdant Summit (R 1 )\n\n Jiyan's signature weapon that's not only fantastic for him but also usable on all damage-focused Broadblade users. Offers a huge main stat of CRIT DMG% granting excellent scaling, 12% permanent generic DMG% and up to 48% increased Heavy ATK DMG% after using 1/2 skills and or a Resonance Liberation.\n 100.00%\n\n Lustrous Razor (R 1 )\n\n Top Broadblade option only in competition with some 4★ weapons with multiple copies invested or limited 5★ weapons. Offers high base ATK, ATK%, a good amount of Energy Regen to save at least 1 sub-stat on gear to be reallocated to better uses and a stackable Resonance Liberation ATK DMG% bonus that ramps up as you use Resonance Skills.\n 94.03%\n\n Autumntrace (R 5 )\n\n Strongest 4★ Broadsword option, granting main stat CRIT RATE for excellent scaling and an incredibly easy to access bonus ability which grants a stacking ATK% buff that only requires you to use Basic or Heavy attacks during your rotation.\n 86.84%\n\n Waning Redshift (R 5 )\n\n A solid F2P 4* broadblade option for any DPS character scaling off of ATK. The ATK% boost it provides when casting your Resonance Skill is great on most characters, and while the small energy generation it provides at the same time is more situational, it can be handy as well.\n 82.78%\n\n Helios Cleaver (R 5 )\n\n A generic option, granting a stacking ATK% buff after using your Resonance Skill that starts at 0 and grants 1 stack every 2 seconds up to 4 stacks - reaching a maximum after 8 seconds. Buff resets shortly after the stack cap limit is reached after which you'll have to repeat the cycle anew. Falls behind other options due to it's buff being inconsistent but still a viable option if you don't have better.\n 79.95%\n\n Broadblade#41 (R 5 )\n\n Another generic Broadblade option with a mix of utility and offense, granting a large amount of Energy Regen as a main stat. Also a reasonably strong and easy to maintain bonus ability that offers an ATK% buff as long as you remain above 80% HP. Our calculations assume you'll stay above 80% for the whole fight, if you can't you can lower this weapons performance.\n 72.78%\n\n Discord (R 5 )\n\n Discord is good for players looking to smooth out Lumi's rotation with some extra concerto and also for those hungry for Energy Regeneration for her.",
+          "assets": [
+            {
+              "id": "f970567b2315",
+              "sourceHash": "f970567b2315",
+              "kind": "weapons",
+              "name": "Ages of Harvest",
+              "fileStem": "21010026",
+              "path": "Prydwen/ww/assets/weapons/ages-of-harvest-f970567b2315.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "9fafb9f1aada",
+              "sourceHash": "9fafb9f1aada",
+              "kind": "weapons",
+              "name": "Verdant Summit",
+              "fileStem": "21010016",
+              "path": "Prydwen/ww/assets/weapons/verdant-summit-9fafb9f1aada.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "c562aa36c2f7",
+              "sourceHash": "c562aa36c2f7",
+              "kind": "weapons",
+              "name": "Lustrous Razor",
+              "fileStem": "21010015",
+              "path": "Prydwen/ww/assets/weapons/lustrous-razor-c562aa36c2f7.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1b276f8aa3db",
+              "sourceHash": "1b276f8aa3db",
+              "kind": "weapons",
+              "name": "Autumntrace",
+              "fileStem": "21010074",
+              "path": "Prydwen/ww/assets/weapons/autumntrace-1b276f8aa3db.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "730ddc221a80",
+              "sourceHash": "730ddc221a80",
+              "kind": "weapons",
+              "name": "Waning Redshift",
+              "fileStem": "21010084",
+              "path": "Prydwen/ww/assets/weapons/waning-redshift-730ddc221a80.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "99dd896c9195",
+              "sourceHash": "99dd896c9195",
+              "kind": "weapons",
+              "name": "Helios Cleaver",
+              "fileStem": "21010064",
+              "path": "Prydwen/ww/assets/weapons/helios-cleaver-99dd896c9195.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "3f2c99f93513",
+              "sourceHash": "3f2c99f93513",
+              "kind": "weapons",
+              "name": "Broadblade#41",
+              "fileStem": "21010034",
+              "path": "Prydwen/ww/assets/weapons/broadblade-41-3f2c99f93513.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "f86bb0717852",
+              "sourceHash": "f86bb0717852",
+              "kind": "weapons",
+              "name": "Discord",
+              "fileStem": "21010024",
+              "path": "Prydwen/ww/assets/weapons/discord-f86bb0717852.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "best-echo-sets": {
+      "label": "Best Echo Sets",
+      "sections": [
+        {
+          "heading": "Best Echo Sets",
+          "text": "1\n\nMoonlit Clouds\n\n Offers a 10% unconditional Energy Regen% boost taking some pressure off your gear when aiming at ER breakpoints. Also upon using Outro, grants the next character switching in a 22.5% ATK boost, amplifying any of your main damage dealers burst windows.\n Below you can find Main Echo options:\n\n Impermanence Heron\n\n - Supportive Echo that can be run at the cost of a sizeable chunk of damage for the character who equips, trading personal gain for team benefits. Should always be used and immediately switch cancelled right before performing an Outro, leading to another DPS. When done so will grant the next character switching in 12% increased DMG% which when combined with the 5P Moonlit set which also grants 22.5% ATK% under the same conditions makes for a sizeable boost. While the echo does lower the damage of whoever wears it, it grants a massive chunk of energy on use usually saving 1 or sometimes even 2 Energy Regen sub stats that may otherwise be needed by the wearer allowing for some damage to be recovered.",
+          "assets": [
+            {
+              "id": "358387a78181",
+              "sourceHash": "358387a78181",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-8",
+              "path": "Prydwen/ww/assets/icons/set-8-358387a78181.webp",
+              "width": 50,
+              "height": 50
+            },
+            {
+              "id": "969a4ca96158",
+              "sourceHash": "969a4ca96158",
+              "kind": "misc",
+              "name": "Impermanence Heron",
+              "fileStem": "330000030",
+              "path": "Prydwen/ww/assets/misc/impermanence-heron-969a4ca96158.webp",
+              "width": 35,
+              "height": 35
+            }
+          ]
+        }
+      ]
+    },
+    "best-endgame-stats": {
+      "label": "Best Endgame Stats",
+      "sections": [
+        {
+          "heading": "Best Endgame Stats (Level 90)",
+          "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 14500+\n\n DEF: 1100+\n\n ATK: 2000-2800+\n\n CRIT Rate: 65%+\n\n CRIT DMG: 210%+\n\n Energy Regen: 142%-150%\n Lower end estimated in a team with Carlotta+Shorekeeper, higher end estimated in a team with Phrolova+Shorekeeper.\n\n Electro DMG Bonus: 30-60%+",
+          "assets": []
+        }
+      ]
+    },
+    "skill-priority": {
+      "label": "Skill Priority",
+      "sections": [
+        {
+          "heading": "Skill Priority",
+          "text": "Below you can find the order of leveling the abilities for Lumi .\n Forte Circuit\n\n Res. Liberation\n\n Res. Skill\n\n Intro Skill\n\n Basic Attack\n\n Gameplay and teams",
+          "assets": []
+        }
+      ]
+    },
+    "rotation": {
+      "label": "Rotation",
+      "sections": [
+        {
+          "heading": "Rotation",
+          "text": "Lumi's rotation is simple, clean cut but fairly long for a hybrid character - to remedy this you can attempt to integrate swap cancel and swap backs in to shorten it. Be warned you'll need to be quick with your swap backs to not compromise your team or Lumi's rotation.",
+          "assets": []
+        },
+        {
+          "heading": "Rotation",
+          "text": "Intro\n\n Ultimate\n\n Skill: Energized Pounce (Optionally Swap Cancel and immediately back)\n\n Red Spotlight: Basic Attack 1\n\n Red Spotlight: Basic Attack 2\n\n Red Spotlight: Basic Attack 3 (Optionally Swap Cancel and immediately back)\n\n Skill: Energized Rebound\n\n Yellow Light: Basic Attack\n\n Channelled Dash: Glare x 6\n\n Skill: Energized Pounce\n\n Echo (Swap Cancel)\n\n Outro\n\n Echo: Use Lumi's Echo at the end of her rotation and perform a swap cancel to ensure you're gaining the best uptime for your incoming carry.",
+          "assets": []
+        }
+      ]
+    },
+    "synergies": {
+      "label": "Synergies",
+      "sections": [
+        {
+          "heading": "Synergies",
+          "text": "Jinhsi - Lumi is able to significantly buff Jinhsi's nukes via her Outro which gives 38% Resonance Skill DMG Amplify. Synergy ends there, but it's simple and effective nuke damage potential. Be wary however that Shorekeeper will not work in that team, due to Jinhsi's Forte requiring the presence of Coordinated Attacks in her teams (something Lumi and Shorekeeper don't possess, but Verina does).\n Carlotta - Carlotta does almost exclusively Skill DMG, which is exactly what Lumi amplifies by a whopping 38% on her Outro skill, making the synergy pretty natural. Be careful however that you have to time Lumi's Outro right as you activate your Forte nuke with Carlotta, else you won't get the buffs for your whole Ultimate. This means the team is rather awkward to play.\n Verina - One of the usual Healing Support options that can slot into any team. Super easy to use, provides amazing team-wide ATK% buffs and 15% DMG Amplify with one of the fastest rotations in the game. Enjoy.\n The Shorekeeper - Similar to Verina, a premium Healing Support option who can not only slot into any team, but also provide insane 12.5% Crit Rate, 25% Crit DMG, 25% ATK and 15% DMG Amplify buffs to your whole team. One of the best but also easy to use characters in the game.",
+          "assets": [
+            {
+              "id": "b67d310bf80d",
+              "sourceHash": "b67d310bf80d",
+              "kind": "characters",
+              "name": "Jinhsi",
+              "fileStem": "jinhsi-icon",
+              "path": "Prydwen/ww/assets/characters/jinhsi-b67d310bf80d.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "2789b82fee41",
+              "sourceHash": "2789b82fee41",
+              "kind": "characters",
+              "name": "Carlotta",
+              "fileStem": "carlotta-icon",
+              "path": "Prydwen/ww/assets/characters/carlotta-2789b82fee41.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1b2a8f336e3d",
+              "sourceHash": "1b2a8f336e3d",
+              "kind": "characters",
+              "name": "Verina",
+              "fileStem": "verina-icon",
+              "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d909de4aecde",
+              "sourceHash": "d909de4aecde",
+              "kind": "characters",
+              "name": "The Shorekeeper",
+              "fileStem": "the-shorekeeper-icon",
+              "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "example-teams": {
+      "label": "Example Teams",
+      "sections": [
+        {
+          "heading": "Example Teams",
+          "text": "Best Team (Jinhsi)\n\n Best Team (Carlotta)\n\n Calculations",
+          "assets": [
+            {
+              "id": "b67d310bf80d",
+              "sourceHash": "b67d310bf80d",
+              "kind": "characters",
+              "name": "Jinhsi",
+              "fileStem": "jinhsi-icon",
+              "path": "Prydwen/ww/assets/characters/jinhsi-b67d310bf80d.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "a1c1a1cd66c0",
+              "sourceHash": "a1c1a1cd66c0",
+              "kind": "characters",
+              "name": "Lumi",
+              "fileStem": "lumi-icon",
+              "path": "Prydwen/ww/assets/characters/lumi-a1c1a1cd66c0.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "1b2a8f336e3d",
+              "sourceHash": "1b2a8f336e3d",
+              "kind": "characters",
+              "name": "Verina",
+              "fileStem": "verina-icon",
+              "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "2789b82fee41",
+              "sourceHash": "2789b82fee41",
+              "kind": "characters",
+              "name": "Carlotta",
+              "fileStem": "carlotta-icon",
+              "path": "Prydwen/ww/assets/characters/carlotta-2789b82fee41.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "d909de4aecde",
+              "sourceHash": "d909de4aecde",
+              "kind": "characters",
+              "name": "The Shorekeeper",
+              "fileStem": "the-shorekeeper-icon",
+              "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+              "width": 120,
+              "height": 120
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Lumi Best Build Guide | Wuthering Waves (WuWa)\n \n\n Wuthering Waves\n Home Database Characters Weapons Echoes Banners\n Tier Lists Tier List Team Tier List Value Tier List\n Guides Guides\n Resources Map News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Wuthering Waves\n /\n Characters\n /\n Lumi\n Lumi Best Build Guide\n Last updated: 09/June/2026\n\n Introduction\n Best guide and build for Lumi from WW (Wuthering Waves). Lumi is a 4 ★ rarity character from the Electro element who uses the Broadblade type weapon.\n From dense forests to vast wilderness, places where navigator of Lollo Logistics Lumi has traveled bear witness to her charming personality, like a shaft of sunlight. Born disciplined, she is now enjoying her daily tasks as a diligent courier, honoring her duty of punctual delivery.\n\n To learn more about Lumi check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n This character has no video guide yet.\n\n Update tracker\n Last review update\n Patch 2.1\n\n Last major build/calcs update\n Patch 2.1\n\n Last profile update*\n 09/June/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Lumi check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Kit\n\n Review\n\n Build\n\n Gameplay and teams\n\n Calculations\n\n Profile\n\n Skills\n Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Navigation Support\n\n Yellow Light: Basic Attack\n Summon Squeakie to shoot three shots in a row, dealing Electro DMG .\n Yellow Light: Sprint\n Dodge to perform Sprint and enter Zoom Mode. Lumi is unable to Dodge when performing Sprint.\n Yellow Light: Zoom\n When in this state, automatically shoot Glitters at a locked-on target and deal Electro DMG , considered Basic Attack DMG.\n Yellow Light: Plunging Attack\n Consume STA to perform a Plunging Attack, dealing Electro DMG .\n Red Light: Basic Attack\n Perform up to 3 consecutive attacks, dealing Electro DMG .\n Red Light: Heavy Attack\n Consume STA to strike the ground with Squeakie, causing an impact dealing Electro DMG , considered Basic Attack DMG.\n Red Light: Plunging Attack\n Consume STA to perform a Plunging Attack, dealing Electro DMG .\n Red Light: Dodge Counter\n Use Basic Attack right after a successful Dodge to attack the target, dealing Electro DMG .\n\n Multipliers\n\n Resonance Skill\n Searchlight Service\n\n Pounce\n When in Yellow Light Mode, use Resonance Skill to perform Pounce, which consumes STA to pounce on the target before switching to Red Light Mode.\n Lumi will perform a Pounce without STA cost when switched onto the field.\n Rebound\n When in Red Light Mode, use Resonance Skill to perform Rebound, which consumes STA to leap backward and attack the target before switching to Yellow Light Mode.\n Yellow Light Mode\n Perform ranged attacks when in Yellow Light Mode.\n Red Light Mode\n Perform melee attacks when in Red Light Mode.\n\n Multipliers\n\n Resonance Liberation\n Squeakie Express\n\n Throw the giant Squeakie at the target, dealing Electro DMG .\n\n Multipliers\n\n Forte Circuit\n Signal Light\n\n Energized Pounce\n When Yellow Light Spark is fully recovered, replace Resonance Skill with Resonance Skill Energized Pounce that deals Electro DMG and enter Red Spotlight Mode. The DMG dealt is considered Basic Attack DMG.\n When in Red Spotlight Mode, the DMG Multiplier of Red Light: Basic Attack and Red Light: Heavy Attack is increased, with an extra amount of Sparks recovered.\n Red Spotlight Mode ends after performing altogether 4 Basic Attacks and/or Heavy Attacks.\n Energized Rebound\n When Red Light Spark is fully recovered, replace Resonance Skill with Resonance Skill Energized Rebound that deals Electro DMG and enter Yellow Spotlight Mode. The DMG dealt is considered Basic Attack DMG.\n When in Yellow Spotlight Mode, Glitter is replaced by Glare, with an increased DMG Multiplier and an extra amount of Sparks recovered.\n Yellow Spotlight Mode ends after shooting 6 Glares.\n Laser\n Casting Outro Skill consumes all Sparks obtained in the current mode.\n Laser can be cast when the amount of consumed Sparks is greater than or equal to 25 , dealing Electro DMG . The DMG dealt is considered Basic Attack DMG.\n Every 25 Sparks consumed generates 1 extra Laser beam, up to 4 Laser beams.\n Yellow Light Spark\n Lumi can hold up to 100 Yellow Light Sparks.\n Lumi obtains Yellow Light Spark under the following conditions:\n When Yellow Light: Basic Attack hits the target;\nWhen Glitter hits the target;\n\n When Glare hits the target;\n\n When Resonance Skill Energized Rebound hits the target;\n\n When casting Intro Skill Sepcial Delivery.\n\n Red Light Spark\n Lumi can hold up to 100 Red Light Sparks.\n Lumi obtains Red Light Spark under the following conditions:\n When Normal Attack Navigation Support hits the target in Red Light Mode or Red Spotlight Mode.\n\n Multipliers\n\n Inherent Skill\n Pathfinding\n\n Gain 10% Electro DMG Bonus when in Red Light Mode.\n\n Inherent Skill\n Expediting\n\n Casting Energized Pounce or Energized Rebound increases ATK by 10% for 5s .\n\n Intro Skill\n Special Delivery\n\n Enter Yellow Light Mode and attack the target, dealing Electro DMG .\n\n Multipliers\n\n Outro Skill\n Escorting\n\n The incoming Resonator has their Resonance Skill DMG Amplified by 38% for 10s or until they are switched out.\n\n Resonance Chain (Dupes)\n S 1\n Sequence Node 1\n\n After casting Energized Rebound, additionally recovers 60 STA within 3s .\n\n S 2\n Sequence Node 2\n\n Energized Pounce and Energized Rebound ignore 20% of the target's DEF.\n\n S 3\n Sequence Node 3\n\n The DMG of Resonance Liberation Squeakie Express is increased by 30% .\n\n S 4\n Sequence Node 4\n\n Gain 30% Basic Attack DMG Bonus.\n\n S 5\n Sequence Node 5\n\n When Spark is fully recovered, Laser DMG Multiplier is increased by 100% .\n\n S 6\n Sequence Node 6\n\n Casting Resonance Liberation Squeakie Express increases all team members' ATK by 20% for 20s .\n\n Minor Fortes (Total)\n CRIT Rate\n + 8 %\n\n ATK%\n + 12 %\n\n Stats\n\nInclude minor fortes\n\n Lv. 90\n\n HP\n 8500\n\n ATK\n 338\n\n DEF\n 880\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Electro DMG\n 0 %\n\n Upgrade Materials\n Character Ascension (total)\n 4 x LF Howler Core\n 12 x MF Howler Core\n 12 x HF Howler Core\n 4 x FF Howler Core\n 46 x Thundering Tacet Core\n 60 x Terraspawn Fungus\n 170 000 Shell Credits\n\n Skill Upgrades (total)\n 25 x LF Howler Core\n 28 x MF Howler Core\n 40 x HF Howler Core\n 57 x FF Howler Core\n 25 x Waveworn Residue 210\n 28 x Waveworn Residue 226\n 55 x Waveworn Residue 235\n 67 x Waveworn Residue 239\n 26 x Sentinel's Dagger\n 2 030 000 Shell Credits\n\n While the source of the materials can be quickly found in the game, when it comes Terraspawn Fungus you will have to gather them from the map. Check our Interactive map to find them quickly:\n\n Interactive Map\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Hybrid\n T4\n Tower of Adversity\n\n T4\n Whimpering Wastes\n\n Value Tier List\n Hybrid\n T4\n Tower of Adversity (Value)\n\n T4\n Whimpering Wastes (Value)\n\n Pros & Cons\n Pros\n High mobility kit able to deal damage while moving,\n\n Powerful Resonance Skill Amplification Boost on outro to support the team,\n\n Gains further supportive capabilities with sequences,\n\n Mixes the ranged and melee playstyle allowing for a bit of extra flexibility.\n\n Cons\n Long concerto rotation leads to higher field times than other hybrid/supportive characters,\n\n Can be very energy-hungry resulting in a need for teammates that provide a lot of energy while also needing a good amount of ER.\n\n Review\n Lumi is a 4-star Electro Broadblade wielder who is primarily utilized as a Hybrid buffer character but can also be played as a dedicated DPS for those committed enough - in this review, we’ll be covering her Hybrid playstyle.\n Lumi’s main buff and benefit to the team is her Outro skill, which, similar to other Hybrid’s grants the next character to Swap-In a 38% Damage Amplification while they remain on the field. However, what sets her apart is that she amplifies Skill Damage, a damage type currently under-serviced in the Hybrid category - presently, Skill Damage is only buffed by Taoqi.\n Lumi has two main objectives to aim for when playing her as a Hybrid. The first is to generate Concerto Energy quickly in order to access her Outro skill as fast as possible, the second is to ensure she has enough Resonance Energy to use her Ultimate when required for said Concerto Energy generation. To achieve the same, utilizing her kit in a smart and quick way is incredibly beneficial.\n Playing Lumi is simple, everything she does revolves around her dual Forte Gauge which is the first of its kind. Each half of the gauge represents one of her “Combat Stances”, the yellow half “Yellow Light Mode” is a Ranged attacking stance where she calls upon her ally Spuekie to attack for her whereas the red half “Red Light Mode” is a Melee attacking stance allowing her to lash out at enemies with her Broadblade. Lumi can swap between the two stances with no cooldown by using her Resonance skill, although as good as this sounds the attack does minimal damage and has a stamina cost so spamming it isn’t advised.\n Attacking in either of the “Combat Stance” will generate “Light Sparks” filling up the side of the gauge that corresponds to the colour of the stance you’re in and doing this is the backbone of Lumi’s rotation. The reason for this is that upon reaching maximum “Light Sparks” of a colour Lumi can consume them to empower her next Resonance skill significantly - increasing its damage along with higher Concerto and Resonance Energy generation. Executing an empowered Resonance Skill also causes Lumi to enter a more powerful version of her “Combat Stances” for a short time enhancing the Basic Attacks of each stance. Putting this all together, when playing Lumi keep in mind the following:\n Build “Light Sparks” of the stance colour you’re in.\n\n Execute an empowered Resonance Skill to swap stances.\n\n Build “Light Sparks” within the newly swapped stance.\n\n Execute another empowered Resonance Skill to swap back.\n\n Repeat, alternating between both stances as needed.\n\n Lumi’s gameplay is simple and easy to execute at a base level. She has potential in any team that has a main DPS who mostly does Skill damage, boasts great mobility, especially in her “Yellow Light Mode” and can be played as a dedicated DPS if so desired.\n However, at the time of her release, she lacks an ideal team or teammate to play alongside in her Hybrid role,. Furthermore, she also requires a significant amount of help in generating Resonance Energy to gain consistent access to her Ultimate. Lastly, she features a longer than average field time for those in the Hybrid role whose main goal is to get in and out as fast as possible. Combining these Pros and Cons Lumi lands without a position as best in slot in any of the Endgame Meta teams at the time of her release. However, with 2.0 approaching we’ll see if she gains a foothold with any of the new characters.\n\n Video guides\n Lumi guide videos aren't available yet.\n\n Build\n\n Best Weapons\n The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n 108.33%\n\n Ages of Harvest (R 1 )\n\n Jinhsi's weapon is currently also the best broadblade option for Lumi's damage, who benefits a great amount from the Skill DMG Bonus the weapon provides, as it boosts a good chunk of her rotations damage. The high base ATK, 24% CRIT Rate and 12% DMG Bonus the weapon additionally provides are also all stats that are welcome for her, making it a very high damage option\n 101.11%\n\n Verdant Summit (R 1 )\n\n Jiyan's signature weapon that's not only fantastic for him but also usable on all damage-focused Broadblade users. Offers a huge main stat of CRIT DMG% granting excellent scaling, 12% permanent generic DMG% and up to 48% increased Heavy ATK DMG% after using 1/2 skills and or a Resonance Liberation.\n 100.00%\n\n Lustrous Razor (R 1 )\n\n Top Broadblade option only in competition with some 4★ weapons with multiple copies invested or limited 5★ weapons. Offers high base ATK, ATK%, a good amount of Energy Regen to save at least 1 sub-stat on gear to be reallocated to better uses and a stackable Resonance Liberation ATK DMG% bonus that ramps up as you use Resonance Skills.\n 94.03%\n\n Autumntrace (R 5 )\n\n Strongest 4★ Broadsword option, granting main stat CRIT RATE for excellent scaling and an incredibly easy to access bonus ability which grants a stacking ATK% buff that only requires you to use Basic or Heavy attacks during your rotation.\n 86.84%\n\n Waning Redshift (R 5 )\n\n A solid F2P 4* broadblade option for any DPS character scaling off of ATK. The ATK% boost it provides when casting your Resonance Skill is great on most characters, and while the small energy generation it provides at the same time is more situational, it can be handy as well.\n 82.78%\n\n Helios Cleaver (R 5 )\n\n A generic option, granting a stacking ATK% buff after using your Resonance Skill that starts at 0 and grants 1 stack every 2 seconds up to 4 stacks - reaching a maximum after 8 seconds. Buff resets shortly after the stack cap limit is reached after which you'll have to repeat the cycle anew. Falls behind other options due to it's buff being inconsistent but still a viable option if you don't have better.\n 79.95%\n\n Broadblade#41 (R 5 )\n\n Another generic Broadblade option with a mix of utility and offense, granting a large amount of Energy Regen as a main stat. Also a reasonably strong and easy to maintain bonus ability that offers an ATK% buff as long as you remain above 80% HP. Our calculations assume you'll stay above 80% for the whole fight, if you can't you can lower this weapons performance.\n 72.78%\n\n Discord (R 5 )\n\n Discord is good for players looking to smooth out Lumi's rotation with some extra concerto and also for those hungry for Energy Regeneration for her.\n\n Best Echo Sets\n Best Echo Sets\n 1\n\nMoonlit Clouds\n\n Offers a 10% unconditional Energy Regen% boost taking some pressure off your gear when aiming at ER breakpoints. Also upon using Outro, grants the next character switching in a 22.5% ATK boost, amplifying any of your main damage dealers burst windows.\n Below you can find Main Echo options:\n\n Impermanence Heron\n\n - Supportive Echo that can be run at the cost of a sizeable chunk of damage for the character who equips, trading personal gain for team benefits. Should always be used and immediately switch cancelled right before performing an Outro, leading to another DPS. When done so will grant the next character switching in 12% increased DMG% which when combined with the 5P Moonlit set which also grants 22.5% ATK% under the same conditions makes for a sizeable boost. While the echo does lower the damage of whoever wears it, it grants a massive chunk of energy on use usually saving 1 or sometimes even 2 Energy Regen sub stats that may otherwise be needed by the wearer allowing for some damage to be recovered.\n\n Special Echo Sets\n\nVoid Thunder\n\n If you want to play Lumi as Main DPS (which isn't really that optimal), you can use the Void Thunder set on her.\n Below you can find Main Echo options:\n\n Nightmare: Thundering Mephis\n\n - Offers an unconditional 12% Electro DMG and 12% Liberation DMG boost when placed in the main Main Echo slot, making it a solid choice for Electro focused resonators who emphasize Liberation damage and are looking to use the 5P Void Thunder set bonus.\n\n Best Echo Stats\n 4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Electro DMG\n\n 3 cost\n Electro DMG > Energy Regen\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK\n\n Best Endgame Stats (Level 90)\n All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 14500+\n\n DEF: 1100+\n\n ATK: 2000-2800+\n\n CRIT Rate: 65%+\n\n CRIT DMG: 210%+\n\n Energy Regen: 142%-150%\n Lower end estimated in a team with Carlotta+Shorekeeper, higher end estimated in a team with Phrolova+Shorekeeper.\n\n Electro DMG Bonus: 30-60%+\n\n Skill Priority\n Below you can find the order of leveling the abilities for Lumi .\n Forte Circuit\n\n Res. Liberation\n\n Res. Skill\n\n Intro Skill\n\n Basic Attack\n\n Gameplay and teams\n\n Rotation\n Lumi's rotation is simple, clean cut but fairly long for a hybrid character - to remedy this you can attempt to integrate swap cancel and swap backs in to shorten it. Be warned you'll need to be quick with your swap backs to not compromise your team or Lumi's rotation.\n Rotation\n Intro\n\n Ultimate\n\n Skill: Energized Pounce (Optionally Swap Cancel and immediately back)\n\n Red Spotlight: Basic Attack 1\n\n Red Spotlight: Basic Attack 2\n\n Red Spotlight: Basic Attack 3 (Optionally Swap Cancel and immediately back)\n\n Skill: Energized Rebound\n\n Yellow Light: Basic Attack\n\n Channelled Dash: Glare x 6\n\n Skill: Energized Pounce\n\n Echo (Swap Cancel)\n\n Outro\n\n Echo: Use Lumi's Echo at the end of her rotation and perform a swap cancel to ensure you're gaining the best uptime for your incoming carry.\n\n Synergies\n Jinhsi - Lumi is able to significantly buff Jinhsi's nukes via her Outro which gives 38% Resonance Skill DMG Amplify. Synergy ends there, but it's simple and effective nuke damage potential. Be wary however that Shorekeeper will not work in that team, due to Jinhsi's Forte requiring the presence of Coordinated Attacks in her teams (something Lumi and Shorekeeper don't possess, but Verina does).\n Carlotta - Carlotta does almost exclusively Skill DMG, which is exactly what Lumi amplifies by a whopping 38% on her Outro skill, making the synergy pretty natural. Be careful however that you have to time Lumi's Outro right as you activate your Forte nuke with Carlotta, else you won't get the buffs for your whole Ultimate. This means the team is rather awkward to play.\n Verina - One of the usual Healing Support options that can slot into any team. Super easy to use, provides amazing team-wide ATK% buffs and 15% DMG Amplify with one of the fastest rotations in the game. Enjoy.\n The Shorekeeper - Similar to Verina, a premium Healing Support option who can not only slot into any team, but also provide insane 12.5% Crit Rate, 25% Crit DMG, 25% ATK and 15% DMG Amplify buffs to your whole team. One of the best but also easy to use characters in the game.\n Example Teams\n Best Team (Jinhsi)\n\n Best Team (Carlotta)\n\n Calculations"
+}

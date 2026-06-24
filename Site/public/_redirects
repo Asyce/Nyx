@@ -1,0 +1,13 @@
+# Old long routes → short slugs (301 permanent). Cloudflare static assets also
+# auto-redirect /<slug>.html → /<slug>, so only the renamed-away paths need rules.
+/simulacrum            /nyx        301
+/simulacrum.html       /nyx        301
+/honkai-star-rail      /hsr        301
+/honkai-star-rail.html /hsr        301
+/zenless-zone-zero     /zzz        301
+/zenless-zone-zero.html /zzz       301
+/wuthering-waves       /wuwa       301
+/wuthering-waves.html  /wuwa       301
+/arknights-endfield    /endfield   301
+/arknights-endfield.html /endfield 301
+/index.html            /           301

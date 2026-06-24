@@ -1,0 +1,1263 @@
+{
+  "id": "characters:buling",
+  "provider": "Prydwen",
+  "game": "ww",
+  "gameName": "Wuthering Waves",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "buling",
+  "name": "Buling",
+  "title": "Buling Best Build Guide",
+  "sourcePath": "/wuthering-waves/characters/buling",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "19/June/2026",
+  "meta": {
+    "title": "Buling Best Build Guide | Wuthering Waves (WuWa)",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 4,
+    "element": "Electro",
+    "weapon": "Rectifier"
+  },
+  "assets": [
+    {
+      "id": "7d7829257f62",
+      "sourceHash": "7d7829257f62",
+      "kind": "characters",
+      "name": "Buling",
+      "fileStem": "buling-card",
+      "path": "Prydwen/ww/assets/characters/buling-7d7829257f62.webp",
+      "width": 210,
+      "height": 280
+    },
+    {
+      "id": "028f59b9e335",
+      "sourceHash": "028f59b9e335",
+      "kind": "icons",
+      "name": "Electro",
+      "fileStem": "element-electro",
+      "path": "Prydwen/ww/assets/icons/electro-028f59b9e335.webp",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "94236abd3fdc",
+      "sourceHash": "94236abd3fdc",
+      "kind": "icons",
+      "name": "Healing Bonus",
+      "fileStem": "stat-heal",
+      "path": "Prydwen/ww/assets/icons/healing-bonus-94236abd3fdc.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "1e70b3adc860",
+      "sourceHash": "1e70b3adc860",
+      "kind": "icons",
+      "name": "ATK%",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "c26c1d310e90",
+      "sourceHash": "c26c1d310e90",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "aa019d34202f",
+      "sourceHash": "aa019d34202f",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "5a0b154cd3d8",
+      "sourceHash": "5a0b154cd3d8",
+      "kind": "icons",
+      "name": "Max Energy",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "39094c227806",
+      "sourceHash": "39094c227806",
+      "kind": "icons",
+      "name": "CRIT Rate",
+      "fileStem": "stat-crit",
+      "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "7e2bcd0760ca",
+      "sourceHash": "7e2bcd0760ca",
+      "kind": "icons",
+      "name": "CRIT DMG",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "cec2445ceb75",
+      "sourceHash": "cec2445ceb75",
+      "kind": "icons",
+      "name": "Electro",
+      "fileStem": "stat-ele",
+      "path": "Prydwen/ww/assets/icons/electro-cec2445ceb75.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "f48ff62c89aa",
+      "sourceHash": "f48ff62c89aa",
+      "kind": "categories",
+      "name": "Interactive Map",
+      "fileStem": "category-map",
+      "path": "Prydwen/ww/assets/categories/interactive-map-f48ff62c89aa.webp",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "id": "f9d6c0f3deac",
+      "sourceHash": "f9d6c0f3deac",
+      "kind": "characters",
+      "name": "Buling",
+      "fileStem": "buling-full",
+      "path": "Prydwen/ww/assets/characters/buling-f9d6c0f3deac.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "d9ac99a03c5f",
+      "sourceHash": "d9ac99a03c5f",
+      "kind": "weapons",
+      "name": "Stringmaster",
+      "fileStem": "21050016",
+      "path": "Prydwen/ww/assets/weapons/stringmaster-d9ac99a03c5f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "81851bbdf85c",
+      "sourceHash": "81851bbdf85c",
+      "kind": "weapons",
+      "name": "Lethean Elegy",
+      "fileStem": "21050066",
+      "path": "Prydwen/ww/assets/weapons/lethean-elegy-81851bbdf85c.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "40447cb92240",
+      "sourceHash": "40447cb92240",
+      "kind": "weapons",
+      "name": "Rime-Draped Sprouts",
+      "fileStem": "21050026",
+      "path": "Prydwen/ww/assets/weapons/rime-draped-sprouts-40447cb92240.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "316e13f434c4",
+      "sourceHash": "316e13f434c4",
+      "kind": "weapons",
+      "name": "Luminous Hymn",
+      "fileStem": "21050046",
+      "path": "Prydwen/ww/assets/weapons/luminous-hymn-316e13f434c4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "40e77541d1a4",
+      "sourceHash": "40e77541d1a4",
+      "kind": "weapons",
+      "name": "Cosmic Ripples",
+      "fileStem": "21050015",
+      "path": "Prydwen/ww/assets/weapons/cosmic-ripples-40e77541d1a4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ea91d622bba6",
+      "sourceHash": "ea91d622bba6",
+      "kind": "weapons",
+      "name": "Waltz in Masquerade",
+      "fileStem": "21050094",
+      "path": "Prydwen/ww/assets/weapons/waltz-in-masquerade-ea91d622bba6.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "9116b6b3061f",
+      "sourceHash": "9116b6b3061f",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-7",
+      "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "963f47d9c985",
+      "sourceHash": "963f47d9c985",
+      "kind": "misc",
+      "name": "Fallacy of No Return",
+      "fileStem": "6000060",
+      "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "2acfd4bfd79d",
+      "sourceHash": "2acfd4bfd79d",
+      "kind": "misc",
+      "name": "Bell-Borne Geochelone",
+      "fileStem": "340000020",
+      "path": "Prydwen/ww/assets/misc/bell-borne-geochelone-2acfd4bfd79d.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "2789b82fee41",
+      "sourceHash": "2789b82fee41",
+      "kind": "characters",
+      "name": "Carlotta",
+      "fileStem": "carlotta-icon",
+      "path": "Prydwen/ww/assets/characters/carlotta-2789b82fee41.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "8367f1df0e13",
+      "sourceHash": "8367f1df0e13",
+      "kind": "characters",
+      "name": "Phrolova",
+      "fileStem": "phrolova-icon",
+      "path": "Prydwen/ww/assets/characters/phrolova-8367f1df0e13.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "60fadd490017",
+      "sourceHash": "60fadd490017",
+      "kind": "characters",
+      "name": "Zhezhi",
+      "fileStem": "zhezhi-icon",
+      "path": "Prydwen/ww/assets/characters/zhezhi-60fadd490017.webp",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "id": "f36ffdcebd10",
+      "sourceHash": "f36ffdcebd10",
+      "kind": "characters",
+      "name": "Brant",
+      "fileStem": "brant-icon",
+      "path": "Prydwen/ww/assets/characters/brant-f36ffdcebd10.webp",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "id": "d42a4f914657",
+      "sourceHash": "d42a4f914657",
+      "kind": "characters",
+      "name": "Cantarella",
+      "fileStem": "cantarella-icon",
+      "path": "Prydwen/ww/assets/characters/cantarella-d42a4f914657.webp",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "id": "c3c0616e25ab",
+      "sourceHash": "c3c0616e25ab",
+      "kind": "characters",
+      "name": "Buling",
+      "fileStem": "buling-icon",
+      "path": "Prydwen/ww/assets/characters/buling-c3c0616e25ab.webp",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "id": "fcae764e088a",
+      "sourceHash": "fcae764e088a",
+      "kind": "characters",
+      "name": "Taoqi",
+      "fileStem": "taoqi-icon",
+      "path": "Prydwen/ww/assets/characters/taoqi-fcae764e088a.webp",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "id": "99437be429aa",
+      "sourceHash": "99437be429aa",
+      "kind": "characters",
+      "name": "Yangyang",
+      "fileStem": "yangyang-icon",
+      "path": "Prydwen/ww/assets/characters/yangyang-99437be429aa.webp",
+      "width": 120,
+      "height": 120
+    }
+  ],
+  "sections": [
+    {
+      "id": "buling-best-build-guide-0",
+      "level": 1,
+      "heading": "Buling Best Build Guide",
+      "text": "Last updated: 19/June/2026",
+      "assets": [
+        {
+          "id": "7d7829257f62",
+          "sourceHash": "7d7829257f62",
+          "kind": "characters",
+          "name": "Buling",
+          "fileStem": "buling-card",
+          "path": "Prydwen/ww/assets/characters/buling-7d7829257f62.webp",
+          "width": 210,
+          "height": 280
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Buling from WW (Wuthering Waves). Buling is a 4 ★ rarity character from the Electro element who uses the Rectifier type weapon.\n\n To learn more about Buling check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": [
+        {
+          "id": "028f59b9e335",
+          "sourceHash": "028f59b9e335",
+          "kind": "icons",
+          "name": "Electro",
+          "fileStem": "element-electro",
+          "path": "Prydwen/ww/assets/icons/electro-028f59b9e335.webp",
+          "width": 20,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "This character has no video guide yet.",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 2.8\n\n Last major build/calcs update\n Patch 2.8\n\n Last profile update*\n 19/June/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Buling check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Hexagram Calls, Lightning Falls\n\n Basic Attack\n Perform up to 4 consecutive attacks, dealing Electro DMG .\n\n Heavy Attack - Mountain Over Thunder\n Hold Normal Attack to consume the highlighted Trigram - Mountain and Trigram - Thunder from left to right and cast Heavy Attack - Mountain Over Thunder, dealing Electro DMG .\n\n Heavy Attack - Thunder Over Mountain\n Hold Normal Attack to consume the highlighted Trigram - Thunder and Trigram - Mountain from left to right and cast Heavy Attack - Thunder Over Mountain, dealing a small amount of Electro DMG and additionally reducing the target's Vibration Strength.\n\n Heavy Attack - Twin Mountains\n Hold Normal Attack to consume the highlighted 2 Trigrams - Mountain from left to right and cast Heavy Attack - Twin Mountains, healing all nearby Resonators in the team.\n\n Heavy Attack - Twin Thunders\n Hold Normal Attack to consume the highlighted 2 Trigrams - Thunder from left to right and cast Heavy Attack - Twin Thunders, healing all nearby Resonators in the team once per second for 8s .\n\n Heavy Attack - Ghost Gate Omen\n When holding Normal Attack with fewer than 2 Trigrams, Buling fails the divination, becoming temporarily immobilized and losing all Trigrams and 20% of her current HP. This effect will not consume HP if Buling's current HP is below 1% .\n\n Mid-air Attack\n Consume STA to perform Mid-air Attack, dealing Electro DMG .\n\n Dodge Counter\n Press Normal Attack right after a successful Dodge to perform Basic Attack Stage 3, dealing Electro DMG .\n After performing Dodge Counter, press Normal Attack to perform Basic Attack Stage 4.\n\n Trigram\n\n Buling can hold up to 4 Trigrams. When Trigrams reach the max number, gaining new Trigrams moves all Trigrams 1 slot to the left, and the original leftmost Trigram will be removed.\n Trigram - Mountain is obtained when Basic Attack Stage 2 deals damage.\n\n Trigram - Thunder is obtained when Basic Attack Stage 4 or Mid-air Attack deals damage.\n\n Trigram - Thunder is obtained when casting Resonance Skill - In Shadow Thunder Stirs.\n\n Multipliers\n\n Resonance Skill\n In Shadow Thunder Stirs\n\n Attack the target, dealing Electro DMG and continuously pulling in nearby targets.\n Right after casting Resonance Skill, press Normal Attack to perform Basic Attack Stage 4.\n\n Multipliers\n\n Resonance Liberation\n Flashing Thunder Spell\n\n Attack the target, dealing Electro DMG .\n\n Multipliers\n\n Forte Circuit\n Thunder Begets Life\n\n Yin-Yang Balance\n When Buling obtains Minor Yin and Minor Yang, she enters the Yin-Yang Balance state, replacing her Resonance Liberation - Flashing Thunder Spell with Resonance Liberation - Flashing Thunder Spell: Harmony.\n\n Flashing Thunder Spell - Harmony\n Attack the target, dealing Electro DMG and generating a Five Thunders Spell Array at the target area. The array deals Electro DMG and inflicts 2 stacks of Electro Flare on all targets within it every 2s , lasting for 24s . When Five Thunders Spell Array is active, all Resonators in the team enter the Thunder Spell - Primordial Qi state.\n While in the Thunder Spell - Primordial Qi state, when any Resonator in the team casts Intro Skill, Thunder Spell - Primordial Qi becomes Thunder Spell - Yin and Yang.\n\n Thunder Spell - Yin and Yang grants 10% Resonance Skill DMG Bonus to all active Resonators in the team. When any Resonator in the team casts Intro Skill during this state, Thunder Spell - Yin and Yang becomes Thunder Spell - Heaven, Earth, Mind.\n\n Thunder Spell - Heaven, Earth, Mind grants 25% Resonance Skill DMG Bonus to all active Resonators in the team.\n\n Minor Yang and Minor Yin\n Minor Yang is obtained after casting Heavy Attack - Mountain Over Thunder or Heavy Attack - Thunder Over Mountain.\n\n Minor Yin is obtained after casting Heavy Attack - Twin Mountains or Heavy Attack - Twin Thunders.\n\n Multipliers\n\n Inherent Skill\n Time Arrives, Evil Declines\n\n Buling gains 25% Healing Bonus when restoring HP for Resonators with less than 50% HP.\n\n Inherent Skill\n Earthly Immortal is Here!\n\n Targets damaged by Intro Skill - Summon and Smite obtain 4 stacks of Electro Flare. This effect is triggered once every 10s .\n\n Intro Skill\n Summon and Smite\n\n Attack the target, dealing Electro DMG and healing all nearby Resonators in the team.\n\n Multipliers\n\n Outro Skill\n Exorcism Spell\n\n Heal the active Resonator in the team by 18% of Buling's ATK per second for 16s . All nearby Resonators in the team have their DMG Amplified by 15% for 30s .",
+      "assets": []
+    },
+    {
+      "id": "resonance-chain-dupes-10",
+      "level": 2,
+      "heading": "Resonance Chain (Dupes)",
+      "text": "S 1\n Sequence Node 1\n\n The Crit. Rate of Resonance Liberation - Flashing Thunder Spell: Harmony is increased by 20% upon dealing damage.\n\n S 2\n Sequence Node 2\n\n Buling restores 25 points of Resonance Energy when she enters the Yin-Yang Balance state. This effect is triggered once every 24s .\n\n S 3\n Sequence Node 3\n\n While Five Thunders Spell Array lasts, whenever the HP of Resonators in the team drops below 50% , immediately restore their HP by 350+150% of Buling's ATK. This effect can be triggered once every 24s .\n\n S 4\n Sequence Node 4\n\n Buling gains 20% Healing Bonus.\n\n S 5\n Sequence Node 5\n\n Five Thunders Spell Array instantly inflicts another 6 stacks of Electro Flare on all targets within its range upon generation.\n\n S 6\n Sequence Node 6\n\n The Thunder Spell - Heaven, Earth, Mind state now grants 50% Resonance Skill DMG Bonus to the active Resonator in the team.",
+      "assets": []
+    },
+    {
+      "id": "minor-fortes-total-11",
+      "level": 2,
+      "heading": "Minor Fortes (Total)",
+      "text": "Healing Bonus\n + 12 %\n\n ATK%\n + 12 %",
+      "assets": [
+        {
+          "id": "94236abd3fdc",
+          "sourceHash": "94236abd3fdc",
+          "kind": "icons",
+          "name": "Healing Bonus",
+          "fileStem": "stat-heal",
+          "path": "Prydwen/ww/assets/icons/healing-bonus-94236abd3fdc.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "1e70b3adc860",
+          "sourceHash": "1e70b3adc860",
+          "kind": "icons",
+          "name": "ATK%",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "stats-12",
+      "level": 2,
+      "heading": "Stats",
+      "text": "Include minor fortes\n\n Lv. 90\n\n HP\n 10625\n\n ATK\n 225\n\n DEF\n 1259\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Electro DMG\n 0 %",
+      "assets": [
+        {
+          "id": "c26c1d310e90",
+          "sourceHash": "c26c1d310e90",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "1e70b3adc860",
+          "sourceHash": "1e70b3adc860",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "aa019d34202f",
+          "sourceHash": "aa019d34202f",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "5a0b154cd3d8",
+          "sourceHash": "5a0b154cd3d8",
+          "kind": "icons",
+          "name": "Max Energy",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "39094c227806",
+          "sourceHash": "39094c227806",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "7e2bcd0760ca",
+          "sourceHash": "7e2bcd0760ca",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "94236abd3fdc",
+          "sourceHash": "94236abd3fdc",
+          "kind": "icons",
+          "name": "Healing",
+          "fileStem": "stat-heal",
+          "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "cec2445ceb75",
+          "sourceHash": "cec2445ceb75",
+          "kind": "icons",
+          "name": "Electro",
+          "fileStem": "stat-ele",
+          "path": "Prydwen/ww/assets/icons/electro-cec2445ceb75.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "character-ascension-total-14",
+      "level": 5,
+      "heading": "Character Ascension (total)",
+      "text": "4 x LF Whisperin Core\n 12 x MF Whisperin Core\n 12 x HF Whisperin Core\n 4 x FF Whisperin Core\n 46 x Blighted Crown of Puppet King\n 60 x Pecok Flower\n 170 000 Shell Credits",
+      "assets": []
+    },
+    {
+      "id": "skill-upgrades-total-15",
+      "level": 5,
+      "heading": "Skill Upgrades (total)",
+      "text": "25 x LF Whisperin Core\n 28 x MF Whisperin Core\n 40 x HF Whisperin Core\n 57 x FF Whisperin Core\n 25 x Lento Helix\n 28 x Adagio Helix\n 55 x Andante Helix\n 67 x Presto Helix\n 26 x Curse of the Abyss\n 2 030 000 Shell Credits\n\n While the source of the materials can be quickly found in the game, when it comes Pecok Flower you will have to gather them from the map. Check our Interactive map to find them quickly:\n\n Interactive Map",
+      "assets": [
+        {
+          "id": "f48ff62c89aa",
+          "sourceHash": "f48ff62c89aa",
+          "kind": "categories",
+          "name": "Interactive Map",
+          "fileStem": "category-map",
+          "path": "Prydwen/ww/assets/categories/interactive-map-f48ff62c89aa.webp",
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "voice-actors-16",
+      "level": 2,
+      "heading": "Voice Actors",
+      "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "f9d6c0f3deac",
+          "sourceHash": "f9d6c0f3deac",
+          "kind": "characters",
+          "name": "Buling",
+          "fileStem": "buling-full",
+          "path": "Prydwen/ww/assets/characters/buling-f9d6c0f3deac.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "ratings-18",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.",
+      "assets": []
+    },
+    {
+      "id": "support-19",
+      "level": 5,
+      "heading": "Support",
+      "text": "T2\n Tower of Adversity\n\n T3\n Whimpering Wastes",
+      "assets": []
+    },
+    {
+      "id": "support-21",
+      "level": 5,
+      "heading": "Support",
+      "text": "T2\n Tower of Adversity (Value)\n\n T3\n Whimpering Wastes (Value)",
+      "assets": []
+    },
+    {
+      "id": "pros-23",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Good generalist buffing reminiscent of already known viable Supports like Verina and Baizhi, featuring her own constant off-field healing while being able to inflict Electro Flare on enemies (may be relevant for future use cases);\n\n Needs close to no investment whatsoever to perform;\n\n As a 4-star character, it is quite easy to access permanently alongside Sequence nodes;\n\n Basically always better than Baizhi. A new 4-star release that has a solid use case for once!",
+      "assets": []
+    },
+    {
+      "id": "cons-24",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Almost always worse than Verina as a generalist. For endgame-level accounts who already own specialized Supports for specialized teams (different forms of Rover, Chisa, Lupa etc.) as well as Shorekeeper, she may never see use;\n\n A lot of her general buffing potential is tied to Skill damage dealers, which limits teams where she stands out, as well as her S6, which is not easily accessible in the short-term;\n\n Lacks a Death Resist ability like Baizhi at S5, or Shorekeeper and Verina’s second passives. Other Supports will be favoured if players want this kind of survivability perk on their team (however, this is optional and doesn’t hinder team damage).",
+      "assets": []
+    },
+    {
+      "id": "review-25",
+      "level": 2,
+      "heading": "Review",
+      "text": "Buling is a 4-star Electro Rectifier Support character with abilities ranging from healing, to Electro Flare/Rage application, to general and specialized buffs oriented towards Skill damage dealers. Specialized in buffing Skill damage Main DPS characters like Carlotta and Phrolova, while retaining more generically applicable buffs for account-wide use, Buling is a character with easy gameplay yet pretty viable buffs that are definitely worth checking out.",
+      "assets": []
+    },
+    {
+      "id": "key-mechanics-buffs-26",
+      "level": 6,
+      "heading": "Key Mechanics & Buffs",
+      "text": "Buling’s kit allows her to provide the team with the following array of buffs & utilities when fully executing her rotation:\n 10% team-wide Skill DMG Bonus for 24s after casting her Enhanced Ultimate and any character’s Intro, which can go up to 25% when a Second Intro is cast (goes up to 50% at S6);\n\n 15% team-wide General DMG Amplification for 30s when casting her Outro (doesn’t expire when swapping);\n\n 25% team-wide ATK for 20s with the Rejuvenating Glow Echo set and Fallacy of No Return (which she should always run in her current teams);\n\n Healing on her Intro, some of her Heavy Attacks and her Outro (constant off-field healing to the active character);\n\n Periodic Electro Flare application via her Intro and enhanced Ultimate (turns into Electro Rage at 10 stacks or above - deals periodic damage to afflicted enemies, possibly enhanced if Electro Rage is also applied up to 10 stacks);\n\n Small amounts of enemy grouping via her Skill.\n\n As can be seen above, a lot of her kit revolves around building up to an Enhanced Ultimate, and that is indeed the focus of her kit; obtained by activating 2 of her unique set of Heavy Attacks, Buling’s gameplay revolves around generating and consuming at least 4 Trigrams in order to access her Enhanced Ultimate to apply the majority of her buffs to then end her rotation.",
+      "assets": []
+    },
+    {
+      "id": "moveset-rotation-27",
+      "level": 6,
+      "heading": "Moveset & Rotation",
+      "text": "Aside from some specific Heavy Attacks, Buling will always use almost all of her moveset to execute her rotations so all of her available moves are worth using. They all revolve around accomplishing the goal of generating enough Trigrams to access her enhanced Ultimate.\n Buling possesses several ways to generate Trigrams, including her Basic 2, Basic 4, Skill and Mid-Air Attack. We make use of all of these features in her rotation. She can generate Thunder Trigrams and Mountain Trigrams, the former being acquired via her Basic 4, Skill and Mid-Air Attack while the latter is only acquired via her Basic 2. This causes an imbalance of Trigrams and she will tend to generate many more Thunder than Mountain Trigrams. Different Heavy Attacks exist depending on the combinations of Trigrams, but in practice we will use the “Mountain over Thunder” and “Twin Thunders” attacks to execute our rotations (since they can be generated in this order the quickest).\n To do so, we generate a Mountain and Thunder Trigram by executing a Basic Attack 2 into Basic Attack 4 (during the Opener, to generate extra Concerto Energy) or Mid-Air Attack (during her loop rotation, since her Intro gives the Concerto needed), then we can use her Skill which directly combos into her Basic 4 for 2 quick extra Thunder Trigrams. Since we’re holding the max of 4 Trigrams, we can then cast her Heavy Attacks to access our Enhanced Ultimate and finish her rotation.\n Buling’s Dodge Counter also allows her to directly transition into her Basic Attack 3, which means it’s perfectly usable to follow with the rest of your rotation if necessary. Even if no Mountain Trigrams end up being generated, there’s no need to worry; all Heavy Attacks give the same amount of Concerto Energy and the rotation will work fine.",
+      "assets": []
+    },
+    {
+      "id": "meta-position-conclusion-28",
+      "level": 6,
+      "heading": "Meta Position & Conclusion",
+      "text": "Overall, Buling is a 4-star Support that unfortunately won’t have a position on the teams of most endgame accounts. While she is a solid universal Support, and she at least stands out from Baizhi in this role often providing more personal damage and a more consistent rotation with very similar general buffs, yet stronger specialized buffs, Buling does not provide more utility than any other dedicated Support or general 5-star Support like Shorekeeper and Verina do to begin with. Verina’s rotation being one of the shortest in the game while still providing close to the same buffing strength means that Buling’s slightly higher personal damage (which is not particularly praise-worthy) does not allow her to stand out, even at S6. However, Buling does match Verina in some teams, being the Carlotta and Phrolova teams as they are both primarily Skill damage dealers. This enables Buling to buff those characters as well as Verina, albeit with slightly increased rotation time (again, only at S6).\n While Buling’s buffing profile is theoretically universally strong for all Skill damage dealers, a lot of her buffing utility (25% Skill DMG Bonus) is locked behind her S6, on top of having very high Energy requirements before her S2 (which makes optimizing her for damage below that threshold much harder). In terms of general use cases, Buling is not comparable to Verina and suffers a lot of comparison from the easy to access Spectro 5-star generalist that can slot into pretty much any team effectively. Buling also sees very little use in teams with certain Skill damage dealers like Jinhsi since she lacks the Coordinated Attacks required to make Jinhsi generate her Forte stacks that enable her damage, which makes her suffer from an even bigger gap in team damage with a support like Verina, whether Buling’s S6 is factored in or not.\n In conclusion, Buling is a viable generalist 4-star Support, she suffers from comparisons with the previously generally strong 5-star Supports and other dedicated team Supports like Spectro and Aero Rover which serve unique roles in their teams that Buling cannot fulfill. While this means Buling can very much be considered an alternative Support choice in several teams (particularly Skill damage-focused ones) and can allow newer accounts to compose teams with a multitude of generalist Supports for endgame contents, in the meta Buling will lack a spot on a lot of endgame accounts as she doesn’t stand out enough in any single given team. However, she can very much be considered if you need one extra Support for your endgame teams!",
+      "assets": []
+    },
+    {
+      "id": "video-guides-29",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "Buling guide videos aren't available yet.\n\n Build",
+      "assets": []
+    },
+    {
+      "id": "best-weapons-30",
+      "level": 2,
+      "heading": "Best Weapons",
+      "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n 1\n\n Stringmaster (R 1 )\n\n The best overall weapon for all Rectifier damage dealers. While Buling is not a damage-oriented character being mostly a Support, she does want to optimize her damage ideally since none of her buffs scale off of a particular stat or condition. As Stringmaster is the best general option for Rectifier damage dealers, it is also the strongest option on Buling thanks to its huge universal damage buffs.\n 2\n\n Lethean Elegy (R 1 )\n\n As another strong generalist option, Phrolova's Signature enables Buling to deal a good chunk of damage while not packing as much of a punch as Stringmaster, making it the second best option available for her.\n 3\n\n Rime-Draped Sprouts (R 1 )\n\n Mostly an ATK and CRIT DMG stat-stick for Buling, who can barely stack its Basic Attack DMG-oriented effect, but it can still be used decently on her.\n 4\n\n Luminous Hymn (R 1 )\n\n Simple ATK and CRIT Rate stat-stick for Buling, who does not benefit from this weapon's Spectro Frazzle-oriented effects.\n 5\n\n Cosmic Ripples (R 1 )\n\n Strongest permanently available option, which grants a lot of ATK and increased Energy Regen as well as some minor amounts of Basic Attack DMG to the wearer which Buling uses decently. One of the strongest options to increase Buling's Healing capabilities while simultaneously increasing her damage by a solid amount, this option can be considered even over above options in order to optimize Buling's Sustain capabilities.\n 6\n\n Waltz in Masquerade (R 5 )\n\n Fully F2P-accessible craftable weapon that capitalizes on Buling's ability to instantly apply Electro Flare on her enemies, which allows this weapon's ATK-increasing passive to be quickly stacked up to the maximum effect for a lot of ATK buffing in total. Still pales in comparison to any 5-stars due to a lack of solid Base ATK.",
+      "assets": [
+        {
+          "id": "d9ac99a03c5f",
+          "sourceHash": "d9ac99a03c5f",
+          "kind": "weapons",
+          "name": "Stringmaster",
+          "fileStem": "21050016",
+          "path": "Prydwen/ww/assets/weapons/stringmaster-d9ac99a03c5f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "81851bbdf85c",
+          "sourceHash": "81851bbdf85c",
+          "kind": "weapons",
+          "name": "Lethean Elegy",
+          "fileStem": "21050066",
+          "path": "Prydwen/ww/assets/weapons/lethean-elegy-81851bbdf85c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "40447cb92240",
+          "sourceHash": "40447cb92240",
+          "kind": "weapons",
+          "name": "Rime-Draped Sprouts",
+          "fileStem": "21050026",
+          "path": "Prydwen/ww/assets/weapons/rime-draped-sprouts-40447cb92240.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "316e13f434c4",
+          "sourceHash": "316e13f434c4",
+          "kind": "weapons",
+          "name": "Luminous Hymn",
+          "fileStem": "21050046",
+          "path": "Prydwen/ww/assets/weapons/luminous-hymn-316e13f434c4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "40e77541d1a4",
+          "sourceHash": "40e77541d1a4",
+          "kind": "weapons",
+          "name": "Cosmic Ripples",
+          "fileStem": "21050015",
+          "path": "Prydwen/ww/assets/weapons/cosmic-ripples-40e77541d1a4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ea91d622bba6",
+          "sourceHash": "ea91d622bba6",
+          "kind": "weapons",
+          "name": "Waltz in Masquerade",
+          "fileStem": "21050094",
+          "path": "Prydwen/ww/assets/weapons/waltz-in-masquerade-ea91d622bba6.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "best-echo-sets-32",
+      "level": 6,
+      "heading": "Best Echo Sets",
+      "text": "1\n\nRejuvenating Glow\n\n Offers a 10% unconditional Healing% boost and an most importantly a 15% ATK% boost for the entire team, lasting 30 seconds whenever you heal yourself or any of your allies. This bonus can be triggered by character abilities and weapon effects, is easy to keep active 100% of the time and is a big help for all party members.\n Below you can find Main Echo options:\n\n Fallacy of No Return\n\n - Grants 10% increased Energy Regeneration for the wearer and a team wide 10% ATK boost on use for 20 seconds. A strong option for those looking to generate as much energy as possible or who favor a more permanent party buffing effect compared to Bell-Borne Geochelone.\n\n Bell-Borne Geochelone\n\n - While nowadays a worse option for the Rejuvenating Glow set for damage than the Fallacy of No Return due to a shorter buff uptime, only granting 10% DMG Bonus for 15 seconds, the Bell-Borne Geochelone remains a good choice if you don't have a good Fallacy to use for the set. It also has increased survivability by blocking 50% of the damage from a max of 3 hits if you desire to have that in your team.",
+      "assets": [
+        {
+          "id": "9116b6b3061f",
+          "sourceHash": "9116b6b3061f",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-7",
+          "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "963f47d9c985",
+          "sourceHash": "963f47d9c985",
+          "kind": "misc",
+          "name": "Fallacy of No Return",
+          "fileStem": "6000060",
+          "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "2acfd4bfd79d",
+          "sourceHash": "2acfd4bfd79d",
+          "kind": "misc",
+          "name": "Bell-Borne Geochelone",
+          "fileStem": "340000020",
+          "path": "Prydwen/ww/assets/misc/bell-borne-geochelone-2acfd4bfd79d.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "best-echo-stats-33",
+      "level": 2,
+      "heading": "Best Echo Stats",
+      "text": "4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Electro DMG\n\n 3 cost\n Electro DMG > Energy Regen\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK\n\n An Energy Regen 3-cost may prove necessary before S2 without good sub-stats. Energy Regen requirements become much lower at S2 onwards.",
+      "assets": []
+    },
+    {
+      "id": "best-endgame-stats-level-90-34",
+      "level": 2,
+      "heading": "Best Endgame Stats (Level 90)",
+      "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 15000+\n\n DEF: 1150+\n\n ATK: 1500-2000+\n\n CRIT Rate: 60%-80%+\n\n CRIT DMG: 215-280%+\n\n Energy Regen: 125%-180%+\n Can vary between 125-135% (S2) on teams with Carlotta (lower end) and Phrolova (higher end), as well as 160-180% in those same teams before S2.\n\n Electro DMG Bonus: 0-60%+",
+      "assets": []
+    },
+    {
+      "id": "sequence-review-35",
+      "level": 2,
+      "heading": "Sequence review",
+      "text": "Since Buling is a Support character who deals very little personal damage, calculating her Sequence value won’t paint the proper picture of how valuable they are. For this reason, we’re instead providing notes on her Sequences to illustrate each of their value for Buling:\n S1 - This Sequence has rather low value but it does give Buling 20% extra CRIT Rate on her strongest attack, which makes for a small personal damage boost on average; however it’s nothing really worth caring about.\n S2 - Medium value. It provides Buling with a lot of extra Energy which significantly lowers her Energy Regen requirements, potentially allowing for both of her Cost 3 Echoes to be damage-oriented, which can provide a meaningful boost to her personal damage.\n S3-S4 - Low value. Both of these sequences only provide minor increases to Buling’s sustain capabilities which doesn’t contribute at all to team damage and only matters if the player is getting frequently hit by enemy attacks. Overall very situational.\n S5 - Low value. This Sequence provides Buling with extra Electro Flare application on enemies hit by her enhanced Ultimate on cast. This could be useful in the future if Buling obtains any Electro Flare-related synergies, but as things stand it only represents a very minor increase to her personal damage.\n S6 - High value. This is Buling’s highest value Sequence node since it allows her to provide the Main DPS of her team (which will be the main recipient of her buff) with a total of 50% Skill DMG Bonus instead of the standard 25%. This represents a significant increase to her buffing capabilities and makes her stand out from Verina as a Skill DMG-oriented buffer in certain teams.",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-36",
+      "level": 2,
+      "heading": "Skill Priority",
+      "text": "Below you can find the order of leveling the abilities for Buling .\n Forte Circuit\n\n Basic Attack\n\n Res. Skill\n\n Intro Skill\n\n Res. Liberation\n\n Skill, Intro and Liberation can be skipped when levelling to save on resources at a minimal damage loss.\n\n Gameplay and teams",
+      "assets": []
+    },
+    {
+      "id": "rotation-37",
+      "level": 2,
+      "heading": "Rotation",
+      "text": "Buling’s gameplay loop is rather simple and leaves little room for optimization beyond learning her rotation correctly. Lacking in strong Swap Cancel windows and having a very straightforward rotation makes her a linear Support character that works in a simple, yet quite effective manner.\n To generate her 4 Trigrams necessary to conclude her rotation, she must use several key abilities being her Basic 2, Basic 4, Skill and Mid-Air Attack, which we can combine to create the following rotations:",
+      "assets": []
+    },
+    {
+      "id": "echo-timing-38",
+      "level": 6,
+      "heading": "Echo Timing",
+      "text": "Best used right before Outro to maximize buff uptime.",
+      "assets": []
+    },
+    {
+      "id": "opener-rotation-39",
+      "level": 6,
+      "heading": "Opener Rotation:",
+      "text": "As Buling is the Support of the teams where she’s involved, in a lot of situations, she will want to open the team’s rotation cycle without an Intro as follows:\n Basic 1\n\n Basic 2\n\n Basic 3\n\n Basic 4 (Cancel animation endlag via Skill)\n\n Skill\n\n Basic 4\n\n Heavy: Twin Thunders\n\n Heavy: Mountain Over Thunder (Cancel animation endlag via Ultimate)\n\n Ultimate: Flashing Thunder Spell - Harmony\n\n Outro",
+      "assets": []
+    },
+    {
+      "id": "loop-rotation-40",
+      "level": 6,
+      "heading": "Loop Rotation:",
+      "text": "If Buling has an Intro available, she gets much more Concerto Energy for herself thanks to it. This allows her to use the following rotation which is shorter than doing 2 Basic 4’s:\n Intro\n\n Basic 1\n\n Basic 2 (Cancel animation endlag via Jump)\n\n Jump\n\n Basic: Mid-air Attack (Cancel animation endlag via Skill)\n\n Skill\n\n Basic 4\n\n Heavy: Mountain Over Thunder\n\n Heavy: Twin Thunders\n\n Ultimate: Flashing Thunder Spell - Harmony\n\n Outro",
+      "assets": []
+    },
+    {
+      "id": "synergies-41",
+      "level": 2,
+      "heading": "Synergies",
+      "text": "Carlotta Phrolova - Buling's best DPS characters to buff as they are Main Skill DMG-oriented DPS. Thanks to Buling's Outro, Echo Set and passive (enhanced via S6), she is capable of providing them with a wide array of ATK, DMG Amplification and Skill DMG Bonus buffs, which makes her suited as a solid Support choice for those teams, particularly if her S6 is unlocked.",
+      "assets": [
+        {
+          "id": "2789b82fee41",
+          "sourceHash": "2789b82fee41",
+          "kind": "characters",
+          "name": "Carlotta",
+          "fileStem": "carlotta-icon",
+          "path": "Prydwen/ww/assets/characters/carlotta-2789b82fee41.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "8367f1df0e13",
+          "sourceHash": "8367f1df0e13",
+          "kind": "characters",
+          "name": "Phrolova",
+          "fileStem": "phrolova-icon",
+          "path": "Prydwen/ww/assets/characters/phrolova-8367f1df0e13.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "example-teams-42",
+      "level": 2,
+      "heading": "Example Teams",
+      "text": "Team #1: Best Team\n\n Team #2: F2P Team\n\n Calculations",
+      "assets": [
+        {
+          "id": "2789b82fee41",
+          "sourceHash": "2789b82fee41",
+          "kind": "characters",
+          "name": "Carlotta",
+          "fileStem": "carlotta-icon",
+          "path": "Prydwen/ww/assets/characters/carlotta-2789b82fee41.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "60fadd490017",
+          "sourceHash": "60fadd490017",
+          "kind": "characters",
+          "name": "Zhezhi",
+          "fileStem": "zhezhi-icon",
+          "path": "Prydwen/ww/assets/characters/zhezhi-60fadd490017.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "f36ffdcebd10",
+          "sourceHash": "f36ffdcebd10",
+          "kind": "characters",
+          "name": "Brant",
+          "fileStem": "brant-icon",
+          "path": "Prydwen/ww/assets/characters/brant-f36ffdcebd10.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "d42a4f914657",
+          "sourceHash": "d42a4f914657",
+          "kind": "characters",
+          "name": "Cantarella",
+          "fileStem": "cantarella-icon",
+          "path": "Prydwen/ww/assets/characters/cantarella-d42a4f914657.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "c3c0616e25ab",
+          "sourceHash": "c3c0616e25ab",
+          "kind": "characters",
+          "name": "Buling",
+          "fileStem": "buling-icon",
+          "path": "Prydwen/ww/assets/characters/buling-c3c0616e25ab.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "fcae764e088a",
+          "sourceHash": "fcae764e088a",
+          "kind": "characters",
+          "name": "Taoqi",
+          "fileStem": "taoqi-icon",
+          "path": "Prydwen/ww/assets/characters/taoqi-fcae764e088a.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "99437be429aa",
+          "sourceHash": "99437be429aa",
+          "kind": "characters",
+          "name": "Yangyang",
+          "fileStem": "yangyang-icon",
+          "path": "Prydwen/ww/assets/characters/yangyang-99437be429aa.webp",
+          "width": 120,
+          "height": 120
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "best-echo-stats": {
+      "label": "Best Echo Stats",
+      "sections": [
+        {
+          "heading": "Stats",
+          "text": "Include minor fortes\n\n Lv. 90\n\n HP\n 10625\n\n ATK\n 225\n\n DEF\n 1259\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Electro DMG\n 0 %",
+          "assets": [
+            {
+              "id": "c26c1d310e90",
+              "sourceHash": "c26c1d310e90",
+              "kind": "icons",
+              "name": "HP",
+              "fileStem": "stat-hp",
+              "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "1e70b3adc860",
+              "sourceHash": "1e70b3adc860",
+              "kind": "icons",
+              "name": "ATK",
+              "fileStem": "stat-atk",
+              "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "aa019d34202f",
+              "sourceHash": "aa019d34202f",
+              "kind": "icons",
+              "name": "DEF",
+              "fileStem": "stat-def",
+              "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "5a0b154cd3d8",
+              "sourceHash": "5a0b154cd3d8",
+              "kind": "icons",
+              "name": "Max Energy",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "39094c227806",
+              "sourceHash": "39094c227806",
+              "kind": "icons",
+              "name": "CRIT Rate",
+              "fileStem": "stat-crit",
+              "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "7e2bcd0760ca",
+              "sourceHash": "7e2bcd0760ca",
+              "kind": "icons",
+              "name": "CRIT DMG",
+              "fileStem": "stat-critdmg",
+              "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "94236abd3fdc",
+              "sourceHash": "94236abd3fdc",
+              "kind": "icons",
+              "name": "Healing",
+              "fileStem": "stat-heal",
+              "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "cec2445ceb75",
+              "sourceHash": "cec2445ceb75",
+              "kind": "icons",
+              "name": "Electro",
+              "fileStem": "stat-ele",
+              "path": "Prydwen/ww/assets/icons/electro-cec2445ceb75.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        },
+        {
+          "heading": "Best Echo Stats",
+          "text": "4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Electro DMG\n\n 3 cost\n Electro DMG > Energy Regen\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK\n\n An Energy Regen 3-cost may prove necessary before S2 without good sub-stats. Energy Regen requirements become much lower at S2 onwards.",
+          "assets": []
+        }
+      ]
+    },
+    "rotation": {
+      "label": "Rotation",
+      "sections": [
+        {
+          "heading": "Moveset & Rotation",
+          "text": "Aside from some specific Heavy Attacks, Buling will always use almost all of her moveset to execute her rotations so all of her available moves are worth using. They all revolve around accomplishing the goal of generating enough Trigrams to access her enhanced Ultimate.\n Buling possesses several ways to generate Trigrams, including her Basic 2, Basic 4, Skill and Mid-Air Attack. We make use of all of these features in her rotation. She can generate Thunder Trigrams and Mountain Trigrams, the former being acquired via her Basic 4, Skill and Mid-Air Attack while the latter is only acquired via her Basic 2. This causes an imbalance of Trigrams and she will tend to generate many more Thunder than Mountain Trigrams. Different Heavy Attacks exist depending on the combinations of Trigrams, but in practice we will use the “Mountain over Thunder” and “Twin Thunders” attacks to execute our rotations (since they can be generated in this order the quickest).\n To do so, we generate a Mountain and Thunder Trigram by executing a Basic Attack 2 into Basic Attack 4 (during the Opener, to generate extra Concerto Energy) or Mid-Air Attack (during her loop rotation, since her Intro gives the Concerto needed), then we can use her Skill which directly combos into her Basic 4 for 2 quick extra Thunder Trigrams. Since we’re holding the max of 4 Trigrams, we can then cast her Heavy Attacks to access our Enhanced Ultimate and finish her rotation.\n Buling’s Dodge Counter also allows her to directly transition into her Basic Attack 3, which means it’s perfectly usable to follow with the rest of your rotation if necessary. Even if no Mountain Trigrams end up being generated, there’s no need to worry; all Heavy Attacks give the same amount of Concerto Energy and the rotation will work fine.",
+          "assets": []
+        },
+        {
+          "heading": "Rotation",
+          "text": "Buling’s gameplay loop is rather simple and leaves little room for optimization beyond learning her rotation correctly. Lacking in strong Swap Cancel windows and having a very straightforward rotation makes her a linear Support character that works in a simple, yet quite effective manner.\n To generate her 4 Trigrams necessary to conclude her rotation, she must use several key abilities being her Basic 2, Basic 4, Skill and Mid-Air Attack, which we can combine to create the following rotations:",
+          "assets": []
+        },
+        {
+          "heading": "Opener Rotation:",
+          "text": "As Buling is the Support of the teams where she’s involved, in a lot of situations, she will want to open the team’s rotation cycle without an Intro as follows:\n Basic 1\n\n Basic 2\n\n Basic 3\n\n Basic 4 (Cancel animation endlag via Skill)\n\n Skill\n\n Basic 4\n\n Heavy: Twin Thunders\n\n Heavy: Mountain Over Thunder (Cancel animation endlag via Ultimate)\n\n Ultimate: Flashing Thunder Spell - Harmony\n\n Outro",
+          "assets": []
+        },
+        {
+          "heading": "Loop Rotation:",
+          "text": "If Buling has an Intro available, she gets much more Concerto Energy for herself thanks to it. This allows her to use the following rotation which is shorter than doing 2 Basic 4’s:\n Intro\n\n Basic 1\n\n Basic 2 (Cancel animation endlag via Jump)\n\n Jump\n\n Basic: Mid-air Attack (Cancel animation endlag via Skill)\n\n Skill\n\n Basic 4\n\n Heavy: Mountain Over Thunder\n\n Heavy: Twin Thunders\n\n Ultimate: Flashing Thunder Spell - Harmony\n\n Outro",
+          "assets": []
+        }
+      ]
+    },
+    "best-weapons": {
+      "label": "Best Weapons",
+      "sections": [
+        {
+          "heading": "Best Weapons",
+          "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n 1\n\n Stringmaster (R 1 )\n\n The best overall weapon for all Rectifier damage dealers. While Buling is not a damage-oriented character being mostly a Support, she does want to optimize her damage ideally since none of her buffs scale off of a particular stat or condition. As Stringmaster is the best general option for Rectifier damage dealers, it is also the strongest option on Buling thanks to its huge universal damage buffs.\n 2\n\n Lethean Elegy (R 1 )\n\n As another strong generalist option, Phrolova's Signature enables Buling to deal a good chunk of damage while not packing as much of a punch as Stringmaster, making it the second best option available for her.\n 3\n\n Rime-Draped Sprouts (R 1 )\n\n Mostly an ATK and CRIT DMG stat-stick for Buling, who can barely stack its Basic Attack DMG-oriented effect, but it can still be used decently on her.\n 4\n\n Luminous Hymn (R 1 )\n\n Simple ATK and CRIT Rate stat-stick for Buling, who does not benefit from this weapon's Spectro Frazzle-oriented effects.\n 5\n\n Cosmic Ripples (R 1 )\n\n Strongest permanently available option, which grants a lot of ATK and increased Energy Regen as well as some minor amounts of Basic Attack DMG to the wearer which Buling uses decently. One of the strongest options to increase Buling's Healing capabilities while simultaneously increasing her damage by a solid amount, this option can be considered even over above options in order to optimize Buling's Sustain capabilities.\n 6\n\n Waltz in Masquerade (R 5 )\n\n Fully F2P-accessible craftable weapon that capitalizes on Buling's ability to instantly apply Electro Flare on her enemies, which allows this weapon's ATK-increasing passive to be quickly stacked up to the maximum effect for a lot of ATK buffing in total. Still pales in comparison to any 5-stars due to a lack of solid Base ATK.",
+          "assets": [
+            {
+              "id": "d9ac99a03c5f",
+              "sourceHash": "d9ac99a03c5f",
+              "kind": "weapons",
+              "name": "Stringmaster",
+              "fileStem": "21050016",
+              "path": "Prydwen/ww/assets/weapons/stringmaster-d9ac99a03c5f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "81851bbdf85c",
+              "sourceHash": "81851bbdf85c",
+              "kind": "weapons",
+              "name": "Lethean Elegy",
+              "fileStem": "21050066",
+              "path": "Prydwen/ww/assets/weapons/lethean-elegy-81851bbdf85c.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "40447cb92240",
+              "sourceHash": "40447cb92240",
+              "kind": "weapons",
+              "name": "Rime-Draped Sprouts",
+              "fileStem": "21050026",
+              "path": "Prydwen/ww/assets/weapons/rime-draped-sprouts-40447cb92240.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "316e13f434c4",
+              "sourceHash": "316e13f434c4",
+              "kind": "weapons",
+              "name": "Luminous Hymn",
+              "fileStem": "21050046",
+              "path": "Prydwen/ww/assets/weapons/luminous-hymn-316e13f434c4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "40e77541d1a4",
+              "sourceHash": "40e77541d1a4",
+              "kind": "weapons",
+              "name": "Cosmic Ripples",
+              "fileStem": "21050015",
+              "path": "Prydwen/ww/assets/weapons/cosmic-ripples-40e77541d1a4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "ea91d622bba6",
+              "sourceHash": "ea91d622bba6",
+              "kind": "weapons",
+              "name": "Waltz in Masquerade",
+              "fileStem": "21050094",
+              "path": "Prydwen/ww/assets/weapons/waltz-in-masquerade-ea91d622bba6.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "best-echo-sets": {
+      "label": "Best Echo Sets",
+      "sections": [
+        {
+          "heading": "Best Echo Sets",
+          "text": "1\n\nRejuvenating Glow\n\n Offers a 10% unconditional Healing% boost and an most importantly a 15% ATK% boost for the entire team, lasting 30 seconds whenever you heal yourself or any of your allies. This bonus can be triggered by character abilities and weapon effects, is easy to keep active 100% of the time and is a big help for all party members.\n Below you can find Main Echo options:\n\n Fallacy of No Return\n\n - Grants 10% increased Energy Regeneration for the wearer and a team wide 10% ATK boost on use for 20 seconds. A strong option for those looking to generate as much energy as possible or who favor a more permanent party buffing effect compared to Bell-Borne Geochelone.\n\n Bell-Borne Geochelone\n\n - While nowadays a worse option for the Rejuvenating Glow set for damage than the Fallacy of No Return due to a shorter buff uptime, only granting 10% DMG Bonus for 15 seconds, the Bell-Borne Geochelone remains a good choice if you don't have a good Fallacy to use for the set. It also has increased survivability by blocking 50% of the damage from a max of 3 hits if you desire to have that in your team.",
+          "assets": [
+            {
+              "id": "9116b6b3061f",
+              "sourceHash": "9116b6b3061f",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-7",
+              "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+              "width": 50,
+              "height": 50
+            },
+            {
+              "id": "963f47d9c985",
+              "sourceHash": "963f47d9c985",
+              "kind": "misc",
+              "name": "Fallacy of No Return",
+              "fileStem": "6000060",
+              "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+              "width": 35,
+              "height": 35
+            },
+            {
+              "id": "2acfd4bfd79d",
+              "sourceHash": "2acfd4bfd79d",
+              "kind": "misc",
+              "name": "Bell-Borne Geochelone",
+              "fileStem": "340000020",
+              "path": "Prydwen/ww/assets/misc/bell-borne-geochelone-2acfd4bfd79d.webp",
+              "width": 35,
+              "height": 35
+            }
+          ]
+        }
+      ]
+    },
+    "best-endgame-stats": {
+      "label": "Best Endgame Stats",
+      "sections": [
+        {
+          "heading": "Best Endgame Stats (Level 90)",
+          "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 15000+\n\n DEF: 1150+\n\n ATK: 1500-2000+\n\n CRIT Rate: 60%-80%+\n\n CRIT DMG: 215-280%+\n\n Energy Regen: 125%-180%+\n Can vary between 125-135% (S2) on teams with Carlotta (lower end) and Phrolova (higher end), as well as 160-180% in those same teams before S2.\n\n Electro DMG Bonus: 0-60%+",
+          "assets": []
+        }
+      ]
+    },
+    "skill-priority": {
+      "label": "Skill Priority",
+      "sections": [
+        {
+          "heading": "Skill Priority",
+          "text": "Below you can find the order of leveling the abilities for Buling .\n Forte Circuit\n\n Basic Attack\n\n Res. Skill\n\n Intro Skill\n\n Res. Liberation\n\n Skill, Intro and Liberation can be skipped when levelling to save on resources at a minimal damage loss.\n\n Gameplay and teams",
+          "assets": []
+        }
+      ]
+    },
+    "synergies": {
+      "label": "Synergies",
+      "sections": [
+        {
+          "heading": "Synergies",
+          "text": "Carlotta Phrolova - Buling's best DPS characters to buff as they are Main Skill DMG-oriented DPS. Thanks to Buling's Outro, Echo Set and passive (enhanced via S6), she is capable of providing them with a wide array of ATK, DMG Amplification and Skill DMG Bonus buffs, which makes her suited as a solid Support choice for those teams, particularly if her S6 is unlocked.",
+          "assets": [
+            {
+              "id": "2789b82fee41",
+              "sourceHash": "2789b82fee41",
+              "kind": "characters",
+              "name": "Carlotta",
+              "fileStem": "carlotta-icon",
+              "path": "Prydwen/ww/assets/characters/carlotta-2789b82fee41.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "8367f1df0e13",
+              "sourceHash": "8367f1df0e13",
+              "kind": "characters",
+              "name": "Phrolova",
+              "fileStem": "phrolova-icon",
+              "path": "Prydwen/ww/assets/characters/phrolova-8367f1df0e13.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "example-teams": {
+      "label": "Example Teams",
+      "sections": [
+        {
+          "heading": "Example Teams",
+          "text": "Team #1: Best Team\n\n Team #2: F2P Team\n\n Calculations",
+          "assets": [
+            {
+              "id": "2789b82fee41",
+              "sourceHash": "2789b82fee41",
+              "kind": "characters",
+              "name": "Carlotta",
+              "fileStem": "carlotta-icon",
+              "path": "Prydwen/ww/assets/characters/carlotta-2789b82fee41.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "60fadd490017",
+              "sourceHash": "60fadd490017",
+              "kind": "characters",
+              "name": "Zhezhi",
+              "fileStem": "zhezhi-icon",
+              "path": "Prydwen/ww/assets/characters/zhezhi-60fadd490017.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "f36ffdcebd10",
+              "sourceHash": "f36ffdcebd10",
+              "kind": "characters",
+              "name": "Brant",
+              "fileStem": "brant-icon",
+              "path": "Prydwen/ww/assets/characters/brant-f36ffdcebd10.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "d42a4f914657",
+              "sourceHash": "d42a4f914657",
+              "kind": "characters",
+              "name": "Cantarella",
+              "fileStem": "cantarella-icon",
+              "path": "Prydwen/ww/assets/characters/cantarella-d42a4f914657.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "c3c0616e25ab",
+              "sourceHash": "c3c0616e25ab",
+              "kind": "characters",
+              "name": "Buling",
+              "fileStem": "buling-icon",
+              "path": "Prydwen/ww/assets/characters/buling-c3c0616e25ab.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "fcae764e088a",
+              "sourceHash": "fcae764e088a",
+              "kind": "characters",
+              "name": "Taoqi",
+              "fileStem": "taoqi-icon",
+              "path": "Prydwen/ww/assets/characters/taoqi-fcae764e088a.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "99437be429aa",
+              "sourceHash": "99437be429aa",
+              "kind": "characters",
+              "name": "Yangyang",
+              "fileStem": "yangyang-icon",
+              "path": "Prydwen/ww/assets/characters/yangyang-99437be429aa.webp",
+              "width": 120,
+              "height": 120
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Buling Best Build Guide | Wuthering Waves (WuWa)\n \n\n Wuthering Waves\n Home Database Characters Weapons Echoes Banners\n Tier Lists Tier List Team Tier List Value Tier List\n Guides Guides\n Resources Map News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Wuthering Waves\n /\n Characters\n /\n Buling\n Buling Best Build Guide\n Last updated: 19/June/2026\n\n Introduction\n Best guide and build for Buling from WW (Wuthering Waves). Buling is a 4 ★ rarity character from the Electro element who uses the Rectifier type weapon.\n\n To learn more about Buling check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n This character has no video guide yet.\n\n Update tracker\n Last review update\n Patch 2.8\n\n Last major build/calcs update\n Patch 2.8\n\n Last profile update*\n 19/June/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Buling check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Kit\n\n Review\n\n Build\n\n Gameplay and teams\n\n Calculations\n\n Profile\n\n Skills\n Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Hexagram Calls, Lightning Falls\n\n Basic Attack\n Perform up to 4 consecutive attacks, dealing Electro DMG .\n\n Heavy Attack - Mountain Over Thunder\n Hold Normal Attack to consume the highlighted Trigram - Mountain and Trigram - Thunder from left to right and cast Heavy Attack - Mountain Over Thunder, dealing Electro DMG .\n\n Heavy Attack - Thunder Over Mountain\n Hold Normal Attack to consume the highlighted Trigram - Thunder and Trigram - Mountain from left to right and cast Heavy Attack - Thunder Over Mountain, dealing a small amount of Electro DMG and additionally reducing the target's Vibration Strength.\n\n Heavy Attack - Twin Mountains\n Hold Normal Attack to consume the highlighted 2 Trigrams - Mountain from left to right and cast Heavy Attack - Twin Mountains, healing all nearby Resonators in the team.\n\n Heavy Attack - Twin Thunders\n Hold Normal Attack to consume the highlighted 2 Trigrams - Thunder from left to right and cast Heavy Attack - Twin Thunders, healing all nearby Resonators in the team once per second for 8s .\n\n Heavy Attack - Ghost Gate Omen\n When holding Normal Attack with fewer than 2 Trigrams, Buling fails the divination, becoming temporarily immobilized and losing all Trigrams and 20% of her current HP. This effect will not consume HP if Buling's current HP is below 1% .\n\n Mid-air Attack\n Consume STA to perform Mid-air Attack, dealing Electro DMG .\n\n Dodge Counter\n Press Normal Attack right after a successful Dodge to perform Basic Attack Stage 3, dealing Electro DMG .\n After performing Dodge Counter, press Normal Attack to perform Basic Attack Stage 4.\n\n Trigram\n\n Buling can hold up to 4 Trigrams. When Trigrams reach the max number, gaining new Trigrams moves all Trigrams 1 slot to the left, and the original leftmost Trigram will be removed.\n Trigram - Mountain is obtained when Basic Attack Stage 2 deals damage.\n\n Trigram - Thunder is obtained when Basic Attack Stage 4 or Mid-air Attack deals damage.\n\n Trigram - Thunder is obtained when casting Resonance Skill - In Shadow Thunder Stirs.\n\n Multipliers\n\n Resonance Skill\n In Shadow Thunder Stirs\n\n Attack the target, dealing Electro DMG and continuously pulling in nearby targets.\n Right after casting Resonance Skill, press Normal Attack to perform Basic Attack Stage 4.\n\n Multipliers\n\n Resonance Liberation\n Flashing Thunder Spell\n\n Attack the target, dealing Electro DMG .\n\n Multipliers\n\n Forte Circuit\n Thunder Begets Life\n\n Yin-Yang Balance\n When Buling obtains Minor Yin and Minor Yang, she enters the Yin-Yang Balance state, replacing her Resonance Liberation - Flashing Thunder Spell with Resonance Liberation - Flashing Thunder Spell: Harmony.\n\n Flashing Thunder Spell - Harmony\n Attack the target, dealing Electro DMG and generating a Five Thunders Spell Array at the target area. The array deals Electro DMG and inflicts 2 stacks of Electro Flare on all targets within it every 2s , lasting for 24s . When Five Thunders Spell Array is active, all Resonators in the team enter the Thunder Spell - Primordial Qi state.\n While in the Thunder Spell - Primordial Qi state, when any Resonator in the team casts Intro Skill, Thunder Spell - Primordial Qi becomes Thunder Spell - Yin and Yang.\n\n Thunder Spell - Yin and Yang grants 10% Resonance Skill DMG Bonus to all active Resonators in the team. When any Resonator in the team casts Intro Skill during this state, Thunder Spell - Yin and Yang becomes Thunder Spell - Heaven, Earth, Mind.\n\n Thunder Spell - Heaven, Earth, Mind grants 25% Resonance Skill DMG Bonus to all active Resonators in the team.\n\n Minor Yang and Minor Yin\n Minor Yang is obtained after casting Heavy Attack - Mountain Over Thunder or Heavy Attack - Thunder Over Mountain.\n\n Minor Yin is obtained after casting Heavy Attack - Twin Mountains or Heavy Attack - Twin Thunders.\n\n Multipliers\n\n Inherent Skill\n Time Arrives, Evil Declines\n\n Buling gains 25% Healing Bonus when restoring HP for Resonators with less than 50% HP.\n\n Inherent Skill\n Earthly Immortal is Here!\n\n Targets damaged by Intro Skill - Summon and Smite obtain 4 stacks of Electro Flare. This effect is triggered once every 10s .\n\n Intro Skill\n Summon and Smite\n\n Attack the target, dealing Electro DMG and healing all nearby Resonators in the team.\n\n Multipliers\n\n Outro Skill\n Exorcism Spell\n\n Heal the active Resonator in the team by 18% of Buling's ATK per second for 16s . All nearby Resonators in the team have their DMG Amplified by 15% for 30s .\n\n Resonance Chain (Dupes)\n S 1\n Sequence Node 1\n\n The Crit. Rate of Resonance Liberation - Flashing Thunder Spell: Harmony is increased by 20% upon dealing damage.\n\n S 2\n Sequence Node 2\n\n Buling restores 25 points of Resonance Energy when she enters the Yin-Yang Balance state. This effect is triggered once every 24s .\n\n S 3\n Sequence Node 3\n\n While Five Thunders Spell Array lasts, whenever the HP of Resonators in the team drops below 50% , immediately restore their HP by 350+150% of Buling's ATK. This effect can be triggered once every 24s .\n\n S 4\n Sequence Node 4\n\n Buling gains 20% Healing Bonus.\n\n S 5\n Sequence Node 5\n\n Five Thunders Spell Array instantly inflicts another 6 stacks of Electro Flare on all targets within its range upon generation.\n\n S 6\n Sequence Node 6\n\n The Thunder Spell - Heaven, Earth, Mind state now grants 50% Resonance Skill DMG Bonus to the active Resonator in the team.\n\n Minor Fortes (Total)\n Healing Bonus\n + 12 %\n\n ATK%\n + 12 %\n\n Stats\n\nInclude minor fortes\n\n Lv. 90\n\n HP\n 10625\n\n ATK\n 225\n\n DEF\n 1259\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Electro DMG\n 0 %\n\n Upgrade Materials\n Character Ascension (total)\n 4 x LF Whisperin Core\n 12 x MF Whisperin Core\n 12 x HF Whisperin Core\n 4 x FF Whisperin Core\n 46 x Blighted Crown of Puppet King\n 60 x Pecok Flower\n 170 000 Shell Credits\n\n Skill Upgrades (total)\n 25 x LF Whisperin Core\n 28 x MF Whisperin Core\n 40 x HF Whisperin Core\n 57 x FF Whisperin Core\n 25 x Lento Helix\n 28 x Adagio Helix\n 55 x Andante Helix\n 67 x Presto Helix\n 26 x Curse of the Abyss\n 2 030 000 Shell Credits\n\n While the source of the materials can be quickly found in the game, when it comes Pecok Flower you will have to gather them from the map. Check our Interactive map to find them quickly:\n\n Interactive Map\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Support\n T2\n Tower of Adversity\n\n T3\n Whimpering Wastes\n\n Value Tier List\n Support\n T2\n Tower of Adversity (Value)\n\n T3\n Whimpering Wastes (Value)\n\n Pros & Cons\n Pros\n Good generalist buffing reminiscent of already known viable Supports like Verina and Baizhi, featuring her own constant off-field healing while being able to inflict Electro Flare on enemies (may be relevant for future use cases);\n\n Needs close to no investment whatsoever to perform;\n\n As a 4-star character, it is quite easy to access permanently alongside Sequence nodes;\n\n Basically always better than Baizhi. A new 4-star release that has a solid use case for once!\n\n Cons\n Almost always worse than Verina as a generalist. For endgame-level accounts who already own specialized Supports for specialized teams (different forms of Rover, Chisa, Lupa etc.) as well as Shorekeeper, she may never see use;\n\n A lot of her general buffing potential is tied to Skill damage dealers, which limits teams where she stands out, as well as her S6, which is not easily accessible in the short-term;\n\n Lacks a Death Resist ability like Baizhi at S5, or Shorekeeper and Verina’s second passives. Other Supports will be favoured if players want this kind of survivability perk on their team (however, this is optional and doesn’t hinder team damage).\n\n Review\n Buling is a 4-star Electro Rectifier Support character with abilities ranging from healing, to Electro Flare/Rage application, to general and specialized buffs oriented towards Skill damage dealers. Specialized in buffing Skill damage Main DPS characters like Carlotta and Phrolova, while retaining more generically applicable buffs for account-wide use, Buling is a character with easy gameplay yet pretty viable buffs that are definitely worth checking out.\n Key Mechanics & Buffs\n Buling’s kit allows her to provide the team with the following array of buffs & utilities when fully executing her rotation:\n 10% team-wide Skill DMG Bonus for 24s after casting her Enhanced Ultimate and any character’s Intro, which can go up to 25% when a Second Intro is cast (goes up to 50% at S6);\n\n 15% team-wide General DMG Amplification for 30s when casting her Outro (doesn’t expire when swapping);\n\n 25% team-wide ATK for 20s with the Rejuvenating Glow Echo set and Fallacy of No Return (which she should always run in her current teams);\n\n Healing on her Intro, some of her Heavy Attacks and her Outro (constant off-field healing to the active character);\n\n Periodic Electro Flare application via her Intro and enhanced Ultimate (turns into Electro Rage at 10 stacks or above - deals periodic damage to afflicted enemies, possibly enhanced if Electro Rage is also applied up to 10 stacks);\n\n Small amounts of enemy grouping via her Skill.\n\n As can be seen above, a lot of her kit revolves around building up to an Enhanced Ultimate, and that is indeed the focus of her kit; obtained by activating 2 of her unique set of Heavy Attacks, Buling’s gameplay revolves around generating and consuming at least 4 Trigrams in order to access her Enhanced Ultimate to apply the majority of her buffs to then end her rotation.\n Moveset & Rotation\n Aside from some specific Heavy Attacks, Buling will always use almost all of her moveset to execute her rotations so all of her available moves are worth using. They all revolve around accomplishing the goal of generating enough Trigrams to access her enhanced Ultimate.\n Buling possesses several ways to generate Trigrams, including her Basic 2, Basic 4, Skill and Mid-Air Attack. We make use of all of these features in her rotation. She can generate Thunder Trigrams and Mountain Trigrams, the former being acquired via her Basic 4, Skill and Mid-Air Attack while the latter is only acquired via her Basic 2. This causes an imbalance of Trigrams and she will tend to generate many more Thunder than Mountain Trigrams. Different Heavy Attacks exist depending on the combinations of Trigrams, but in practice we will use the “Mountain over Thunder” and “Twin Thunders” attacks to execute our rotations (since they can be generated in this order the quickest).\n To do so, we generate a Mountain and Thunder Trigram by executing a Basic Attack 2 into Basic Attack 4 (during the Opener, to generate extra Concerto Energy) or Mid-Air Attack (during her loop rotation, since her Intro gives the Concerto needed), then we can use her Skill which directly combos into her Basic 4 for 2 quick extra Thunder Trigrams. Since we’re holding the max of 4 Trigrams, we can then cast her Heavy Attacks to access our Enhanced Ultimate and finish her rotation.\n Buling’s Dodge Counter also allows her to directly transition into her Basic Attack 3, which means it’s perfectly usable to follow with the rest of your rotation if necessary. Even if no Mountain Trigrams end up being generated, there’s no need to worry; all Heavy Attacks give the same amount of Concerto Energy and the rotation will work fine.\n Meta Position & Conclusion\n Overall, Buling is a 4-star Support that unfortunately won’t have a position on the teams of most endgame accounts. While she is a solid universal Support, and she at least stands out from Baizhi in this role often providing more personal damage and a more consistent rotation with very similar general buffs, yet stronger specialized buffs, Buling does not provide more utility than any other dedicated Support or general 5-star Support like Shorekeeper and Verina do to begin with. Verina’s rotation being one of the shortest in the game while still providing close to the same buffing strength means that Buling’s slightly higher personal damage (which is not particularly praise-worthy) does not allow her to stand out, even at S6. However, Buling does match Verina in some teams, being the Carlotta and Phrolova teams as they are both primarily Skill damage dealers. This enables Buling to buff those characters as well as Verina, albeit with slightly increased rotation time (again, only at S6).\n While Buling’s buffing profile is theoretically universally strong for all Skill damage dealers, a lot of her buffing utility (25% Skill DMG Bonus) is locked behind her S6, on top of having very high Energy requirements before her S2 (which makes optimizing her for damage below that threshold much harder). In terms of general use cases, Buling is not comparable to Verina and suffers a lot of comparison from the easy to access Spectro 5-star generalist that can slot into pretty much any team effectively. Buling also sees very little use in teams with certain Skill damage dealers like Jinhsi since she lacks the Coordinated Attacks required to make Jinhsi generate her Forte stacks that enable her damage, which makes her suffer from an even bigger gap in team damage with a support like Verina, whether Buling’s S6 is factored in or not.\n In conclusion, Buling is a viable generalist 4-star Support, she suffers from comparisons with the previously generally strong 5-star Supports and other dedicated team Supports like Spectro and Aero Rover which serve unique roles in their teams that Buling cannot fulfill. While this means Buling can very much be considered an alternative Support choice in several teams (particularly Skill damage-focused ones) and can allow newer accounts to compose teams with a multitude of generalist Supports for endgame contents, in the meta Buling will lack a spot on a lot of endgame accounts as she doesn’t stand out enough in any single given team. However, she can very much be considered if you need one extra Support for your endgame teams!\n\n Video guides\n Buling guide videos aren't available yet.\n\n Build\n\n Best Weapons\n The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n 1\n\n Stringmaster (R 1 )\n\n The best overall weapon for all Rectifier damage dealers. While Buling is not a damage-oriented character being mostly a Support, she does want to optimize her damage ideally since none of her buffs scale off of a particular stat or condition. As Stringmaster is the best general option for Rectifier damage dealers, it is also the strongest option on Buling thanks to its huge universal damage buffs.\n 2\n\n Lethean Elegy (R 1 )\n\n As another strong generalist option, Phrolova's Signature enables Buling to deal a good chunk of damage while not packing as much of a punch as Stringmaster, making it the second best option available for her.\n 3\n\n Rime-Draped Sprouts (R 1 )\n\n Mostly an ATK and CRIT DMG stat-stick for Buling, who can barely stack its Basic Attack DMG-oriented effect, but it can still be used decently on her.\n 4\n\n Luminous Hymn (R 1 )\n\n Simple ATK and CRIT Rate stat-stick for Buling, who does not benefit from this weapon's Spectro Frazzle-oriented effects.\n 5\n\n Cosmic Ripples (R 1 )\n\n Strongest permanently available option, which grants a lot of ATK and increased Energy Regen as well as some minor amounts of Basic Attack DMG to the wearer which Buling uses decently. One of the strongest options to increase Buling's Healing capabilities while simultaneously increasing her damage by a solid amount, this option can be considered even over above options in order to optimize Buling's Sustain capabilities.\n 6\n\n Waltz in Masquerade (R 5 )\n\n Fully F2P-accessible craftable weapon that capitalizes on Buling's ability to instantly apply Electro Flare on her enemies, which allows this weapon's ATK-increasing passive to be quickly stacked up to the maximum effect for a lot of ATK buffing in total. Still pales in comparison to any 5-stars due to a lack of solid Base ATK.\n\n Best Echo Sets\n Best Echo Sets\n 1\n\nRejuvenating Glow\n\n Offers a 10% unconditional Healing% boost and an most importantly a 15% ATK% boost for the entire team, lasting 30 seconds whenever you heal yourself or any of your allies. This bonus can be triggered by character abilities and weapon effects, is easy to keep active 100% of the time and is a big help for all party members.\n Below you can find Main Echo options:\n\n Fallacy of No Return\n\n - Grants 10% increased Energy Regeneration for the wearer and a team wide 10% ATK boost on use for 20 seconds. A strong option for those looking to generate as much energy as possible or who favor a more permanent party buffing effect compared to Bell-Borne Geochelone.\n\n Bell-Borne Geochelone\n\n - While nowadays a worse option for the Rejuvenating Glow set for damage than the Fallacy of No Return due to a shorter buff uptime, only granting 10% DMG Bonus for 15 seconds, the Bell-Borne Geochelone remains a good choice if you don't have a good Fallacy to use for the set. It also has increased survivability by blocking 50% of the damage from a max of 3 hits if you desire to have that in your team.\n\n Best Echo Stats\n 4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Electro DMG\n\n 3 cost\n Electro DMG > Energy Regen\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK\n\n An Energy Regen 3-cost may prove necessary before S2 without good sub-stats. Energy Regen requirements become much lower at S2 onwards.\n\n Best Endgame Stats (Level 90)\n All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 15000+\n\n DEF: 1150+\n\n ATK: 1500-2000+\n\n CRIT Rate: 60%-80%+\n\n CRIT DMG: 215-280%+\n\n Energy Regen: 125%-180%+\n Can vary between 125-135% (S2) on teams with Carlotta (lower end) and Phrolova (higher end), as well as 160-180% in those same teams before S2.\n\n Electro DMG Bonus: 0-60%+\n\n Sequence review\n Since Buling is a Support character who deals very little personal damage, calculating her Sequence value won’t paint the proper picture of how valuable they are. For this reason, we’re instead providing notes on her Sequences to illustrate each of their value for Buling:\n S1 - This Sequence has rather low value but it does give Buling 20% extra CRIT Rate on her strongest attack, which makes for a small personal damage boost on average; however it’s nothing really worth caring about.\n S2 - Medium value. It provides Buling with a lot of extra Energy which significantly lowers her Energy Regen requirements, potentially allowing for both of her Cost 3 Echoes to be damage-oriented, which can provide a meaningful boost to her personal damage.\n S3-S4 - Low value. Both of these sequences only provide minor increases to Buling’s sustain capabilities which doesn’t contribute at all to team damage and only matters if the player is getting frequently hit by enemy attacks. Overall very situational.\n S5 - Low value. This Sequence provides Buling with extra Electro Flare application on enemies hit by her enhanced Ultimate on cast. This could be useful in the future if Buling obtains any Electro Flare-related synergies, but as things stand it only represents a very minor increase to her personal damage.\n S6 - High value. This is Buling’s highest value Sequence node since it allows her to provide the Main DPS of her team (which will be the main recipient of her buff) with a total of 50% Skill DMG Bonus instead of the standard 25%. This represents a significant increase to her buffing capabilities and makes her stand out from Verina as a Skill DMG-oriented buffer in certain teams.\n\n Skill Priority\n Below you can find the order of leveling the abilities for Buling .\n Forte Circuit\n\n Basic Attack\n\n Res. Skill\n\n Intro Skill\n\n Res. Liberation\n\n Skill, Intro and Liberation can be skipped when levelling to save on resources at a minimal damage loss.\n\n Gameplay and teams\n\n Rotation\n Buling’s gameplay loop is rather simple and leaves little room for optimization beyond learning her rotation correctly. Lacking in strong Swap Cancel windows and having a very straightforward rotation makes her a linear Support character that works in a simple, yet quite effective manner.\n To generate her 4 Trigrams necessary to conclude her rotation, she must use several key abilities being her Basic 2, Basic 4, Skill and Mid-Air Attack, which we can combine to create the following rotations:\n\n Echo Timing\n Best used right before Outro to maximize buff uptime.\n\n Opener Rotation:\n As Buling is the Support of the teams where she’s involved, in a lot of situations, she will want to open the team’s rotation cycle without an Intro as follows:\n Basic 1\n\n Basic 2\n\n Basic 3\n\n Basic 4 (Cancel animation endlag via Skill)\n\n Skill\n\n Basic 4\n\n Heavy: Twin Thunders\n\n Heavy: Mountain Over Thunder (Cancel animation endlag via Ultimate)\n\n Ultimate: Flashing Thunder Spell - Harmony\n\n Outro\n\n Loop Rotation:\n If Buling has an Intro available, she gets much more Concerto Energy for herself thanks to it. This allows her to use the following rotation which is shorter than doing 2 Basic 4’s:\n Intro\n\n Basic 1\n\n Basic 2 (Cancel animation endlag via Jump)\n\n Jump\n\n Basic: Mid-air Attack (Cancel animation endlag via Skill)\n\n Skill\n\n Basic 4\n\n Heavy: Mountain Over Thunder\n\n Heavy: Twin Thunders\n\n Ultimate: Flashing Thunder Spell - Harmony\n\n Outro\n\n Synergies\n Carlotta Phrolova - Buling's best DPS characters to buff as they are Main Skill DMG-oriented DPS. Thanks to Buling's Outro, Echo Set and passive (enhanced via S6), she is capable of providing them with a wide array of ATK, DMG Amplification and Skill DMG Bonus buffs, which makes her suited as a solid Support choice for those teams, particularly if her S6 is unlocked.\n Example Teams\n Team #1: Best Team\n\n Team #2: F2P Team\n\n Calculations"
+}

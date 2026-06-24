@@ -342,9 +342,13 @@ function CMAvatar({ ch, big }){
   const pal = { a:'#9a89ea', b:'#372464', ring:'#cdb3ff', glow:'rgba(150,120,255,.55)' };
   const el = CM_ELEM[ch.el] || '#b7aaff';
   const real = ch.icon || ch.circle || (ch.n === 'Skirk' ? '../assets/char/skirk_circle.png' : null);
+  // Beta characters often ship before their artwork. Show a named, labelled
+  // "art pending" fallback instead of silently rendering bare initials.
+  const artPending = !real && ch.__beta;
   return (
-    <div className={'cm-av r' + ch.r + (big ? ' big' : '')}
-         style={{ '--rA':pal.a, '--rB':pal.b, '--ring':pal.ring, '--glow':pal.glow, '--el':el }}>
+    <div className={'cm-av r' + ch.r + (big ? ' big' : '') + (artPending ? ' art-pending' : '')}
+         style={{ '--rA':pal.a, '--rB':pal.b, '--ring':pal.ring, '--glow':pal.glow, '--el':el }}
+         title={artPending ? ch.n + ' — artwork pending (unreleased)' : undefined}>
       <div className="disc">
         {real ? <img
           className={ch.iconZoom ? 'zoom' : ''}
@@ -354,6 +358,7 @@ function CMAvatar({ ch, big }){
           draggable="false"
         /> : <span className="mono">{cmInitials(ch.n)}</span>}
       </div>
+      {artPending && <span className="cm-av-pending">art pending</span>}
     </div>
   );
 }
@@ -368,7 +373,7 @@ function MatTile({ m }){
   const source = cmMatSourceInfo(m);
   const details = cmMatSourceDetails(m);
   return (
-    <div className="cm-mat" title={(m.name || 'Material') + (qty ? ' x' + qty.toLocaleString('en-US') : '') + (source ? '\n' + source : '')}
+    <div className={'cm-mat' + (m.kind === 'currency' ? ' cur' : '')} title={(m.name || 'Material') + (qty ? ' x' + qty.toLocaleString('en-US') : '') + (source ? '\n' + source : '')}
          style={{ '--rA':pal.a, '--rB':pal.b, '--rarBg':'url("../../assets/mats/rarity' + rarity + '.png")' }}>
       <div className="ic">
         {m.sprite ? <ZzzSpriteIcon icon={icon} sprite={m.sprite} alt="" /> : icon ? <img src={icon} alt="" draggable="false" /> : <span className="glyph">{g}</span>}
@@ -737,6 +742,18 @@ function cmArtFor(ch){
   return ch.art || ch.card || ch.icon || ch.circle || (ch.n === 'Skirk' ? '../assets/char/skirk.jpg' : null);
 }
 
+// G29/G30: newest-released character in a list (by release / updated / sourceOrder).
+function cmCharRelease(ch){
+  return Number(ch && (ch.release || ch.updated || ch.sourceOrder)) || 0;
+}
+function cmNewestChar(chars){
+  let best = null;
+  for (const ch of (chars || [])){
+    if (ch && (!best || cmCharRelease(ch) > cmCharRelease(best))) best = ch;
+  }
+  return best;
+}
+
 function cmBirthdayArtPool(ch){
   return Array.isArray(ch?.birthdayArtPool) ? ch.birthdayArtPool.filter(Boolean) : [];
 }
@@ -832,7 +849,7 @@ function CMCell({ ch, onClick, hideMode, hidden, onToggleHidden }){
     >
       <CMAvatar ch={ch} />
       <span className="cn">{ch.n}</span>
-      {ch.__beta && <span className="cm-beta-tag" title="Beta (latest) data">Beta</span>}
+      {ch.__betaNew && <span className="cm-beta-tag" title="Beta (latest) data — upcoming, not yet released">Beta</span>}
       {hideMode && <span className="hm">{hidden ? 'Hidden' : 'Hide'}</span>}
     </button>
   );
@@ -863,7 +880,7 @@ function cmMergeBetaCfg(liveCfg, betaPack){
   return { ...liveCfg, roster: merged, __betaActive:true };
 }
 
-function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly }){
+function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, pageTab, onPageTab, sections }){
   const [gk, setGk] = React.useState(game || 'gi');
   const [channel, setChannel] = React.useState(() => cmLoadChannel(game || 'gi'));
   const [dataTick, setDataTick] = React.useState(0);
@@ -880,6 +897,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
   const [filt, setFilt] = React.useState({});
   const [showFilt, setShowFilt] = React.useState(false);
   const [hideMenu, setHideMenu] = React.useState(false);
+  const [sectionMenuOpen, setSectionMenuOpen] = React.useState(false); // G13: header section dropdown
   const [hideMode, setHideMode] = React.useState(false);
   const [showHidden, setShowHidden] = React.useState(false);
   const [hiddenPrefs, setHiddenPrefs] = React.useState(cmLoadHiddenPrefs);
@@ -965,7 +983,13 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
   }, [gk]);
 
   React.useEffect(() => { if (open || inline) { setGk(game || 'gi'); if (!selectedName) setSel(null); } }, [open, inline, game, selectedName]);
-  React.useEffect(() => { setSel(null); setQ(''); setFilt({}); setShowFilt(false); setHideMenu(false); setChannel(cmLoadChannel(gk)); }, [gk]);
+  React.useEffect(() => { setSel(null); setQ(''); setFilt({}); setShowFilt(false); setHideMenu(false); setSectionMenuOpen(false); setChannel(cmLoadChannel(gk)); }, [gk]);
+  React.useEffect(() => {
+    if (!sectionMenuOpen) return undefined;
+    const onDoc = () => setSectionMenuOpen(false);
+    document.addEventListener('mousedown', onDoc);
+    return () => document.removeEventListener('mousedown', onDoc);
+  }, [sectionMenuOpen]);
   React.useEffect(() => {
     if (!sel) {
       setActiveVariant(null);
@@ -1001,17 +1025,36 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
     setWeaponPickerOpen(false);
     setWeaponSearch('');
   }, [gk, sel && cmHiddenKey(sel), activeVariant, activeGender]);
+  // Accessible modal dialog: focus the Close button on open, trap Tab within the
+  // dialog, close on Escape, and restore focus to the triggering card on close.
+  const cmPopRef = React.useRef(null);
+  const cmCloseBtnRef = React.useRef(null);
   React.useEffect(() => {
     if (!sel) return undefined;
+    const trigger = (typeof document !== 'undefined') ? document.activeElement : null;
+    const focusTimer = setTimeout(() => { if (cmCloseBtnRef.current) cmCloseBtnRef.current.focus(); }, 0);
     const onKey = (event) => {
-      if (event.key !== 'Escape') return;
-      event.preventDefault();
-      setWeaponPickerOpen(false);
-      setSel(null);
-      if (modalOnly && onClose) onClose();
+      if (event.key === 'Escape') {
+        event.preventDefault();
+        setWeaponPickerOpen(false);
+        setSel(null);
+        if (modalOnly && onClose) onClose();
+        return;
+      }
+      if (event.key === 'Tab' && cmPopRef.current) {
+        const f = cmPopRef.current.querySelectorAll('a[href],button:not([disabled]),input:not([disabled]),select:not([disabled]),textarea:not([disabled]),[tabindex]:not([tabindex="-1"])');
+        if (!f.length) return;
+        const first = f[0], last = f[f.length - 1];
+        if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+        else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+      }
     };
     window.addEventListener('keydown', onKey);
-    return () => window.removeEventListener('keydown', onKey);
+    return () => {
+      clearTimeout(focusTimer);
+      window.removeEventListener('keydown', onKey);
+      if (trigger && typeof trigger.focus === 'function') { try { trigger.focus(); } catch (e) {} }
+    };
   }, [sel, modalOnly, onClose]);
 
   if (!inline && !open) return null;
@@ -1109,9 +1152,11 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
 
   // ----- roster tab data -----
   const roster = cfg.roster.filter(show);
-  const recent = cfg.roster.filter((ch) => ch.recent).filter(show);
-  const recentIds = new Set(recent.map(c => c.id || c.n));
-  const rarityGroups = cfg.rarities.map(r => ({ r, label:cfg.rarityLabel[r], list:roster.filter(c => c.r === r && !recentIds.has(c.id || c.n)) }));
+  // G14: beta-new units lead the Recent strip. G24: Recent is an ADDITIONAL
+  // quick-access row — units still appear under their 5★/4★ rarity group too.
+  const recent = cfg.roster.filter((ch) => ch.recent).filter(show)
+    .sort((a, b) => (a.__betaNew ? 0 : 1) - (b.__betaNew ? 0 : 1));
+  const rarityGroups = cfg.rarities.map(r => ({ r, label:cfg.rarityLabel[r], list:roster.filter(c => c.r === r) }));
 
   // ----- mid tab helpers -----
   const giDayTrio = day === 6 ? null : (day % 3);
@@ -1134,7 +1179,8 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
         return { domain, trio, chars, key:'talent-' + di + '-' + ti };
       })
       .filter((row) => row.chars.length > 0);
-    return rows.length ? { domain, rows } : null;
+    const art = cmArtFor(cmNewestChar(rows.flatMap((r) => r.chars)) || {});
+    return rows.length ? { domain, rows, art } : null;
   }).filter(Boolean);
   const giWeeklyBlocks = (cfg.weeklyBosses || []).map((boss, bi) => {
     const drops = (boss.drops || [])
@@ -1143,8 +1189,9 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
         return { drop, chars, key:'weekly-' + bi + '-' + di };
       })
       .filter((row) => row.chars.length > 0);
-    return drops.length ? { boss, drops } : null;
-  }).filter(Boolean);
+    const newest = cmNewestChar(drops.flatMap((r) => r.chars));
+    return drops.length ? { boss, drops, art:cmArtFor(newest || {}), order:cmCharRelease(newest) } : null;
+  }).filter(Boolean).sort((a, b) => b.order - a.order);
   const activePreset = CM_GI_PRESETS.find((p) => p.targets.every((v, i) => v === giTargets[i]))
     || { key:'custom', label:giTargets.join('/'), targets:giTargets };
 
@@ -1192,6 +1239,12 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
     ledgerInclude.weapon ? weaponReq : [],
   );
   const hasAnyLedgerReq = ascReq.length > 0 || talentReq.length > 0 || weaponReq.length > 0;
+  // G23: keep the Ascension / Talents rows on screen even when the chosen level/targets
+  // compute to zero materials (e.g. Lv 1 or all talents at 1) — show an empty-state
+  // instead of letting the whole section vanish.
+  const hasAscData = !!(req && Array.isArray(req.ascension) && req.ascension.length > 0);
+  const hasTalentData = !!(req && ((Array.isArray(req.talents) && req.talents.length > 0)
+    || (Array.isArray(req.talentStages) && req.talentStages.some((s) => s.length))));
   const selArt = view ? cmPopupArtFor(gk, sel, view, activeArtIndex) : null;
   const specialArtClass = view ? cmSpecialArtClass(gk, sel, view) : '';
   const metaChips = view ? cmMetaChips(gk, view) : [];
@@ -1217,7 +1270,9 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
     return !text || String(weapon.name || '').toLowerCase().includes(text);
   });
   const weaponLabel = cmWeaponRowLabel(gk);
-  const showWeaponDisclaimer = !!activeWeapon;
+  // The auto-selected signature (no manual pick) is an educated guess; the
+  // disclaimer now lives in a hover tooltip on that signature option, not inline.
+  const isSignatureGuess = !!activeWeapon && !pickedWeapon;
   const toggleLedger = (key) => {
     if (!totalIncludeKey) return;
     setTotalIncludeByChar((prev) => {
@@ -1243,9 +1298,23 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
          onMouseDown={inline ? undefined : (e) => { if (e.target === e.currentTarget) onClose(); }}>
       {!modalOnly && <div className="cm-panel" data-screen-label="Character Materials">
 
-        <div className="cm-head">
-          <span className="cm-dia"></span>
-          <div className="cm-ttl"><div className="t">Character Materials</div><div className="s">Art of Khemia {'\u00B7'} {gMeta.name}</div></div>
+        {/* The "Character Materials" header box is removed on the game page (sections
+            are switched from the left nav); the standalone panel keeps a plain title. */}
+        {!(sections && onPageTab) && (
+          <div className="cm-head">
+            <span className="cm-dia"></span>
+            <div className="cm-ttl"><div className="t">Character Materials</div></div>
+            <button type="button" className="cm-x" title="Close" onClick={onClose} style={{ display:inline ? 'none' : undefined }}>{'✕'}</button>
+          </div>
+        )}
+
+        {/* tabs (Roster / Talents / Boss) on top; search + tools sit below them */}
+        <div className="cm-controls">
+          <div className="cm-tabs">
+            {tabs.map(t => (
+              <button type="button" key={t.k} className={curTab === t.k ? 'on' : ''} onClick={() => { setTab(t.k); setSel(null); }}>{t.label}</button>
+            ))}
+          </div>
           <div className="cm-tools">
             <div className="cm-search">
               <span className="ic"></span>
@@ -1310,15 +1379,6 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
               </div>
             )}
           </div>
-          <button type="button" className="cm-x" title="Close" onClick={onClose} style={{ display:inline ? 'none' : undefined }}>{'\u2715'}</button>
-        </div>
-
-        <div className="cm-controls">
-          <div className="cm-tabs">
-            {tabs.map(t => (
-              <button type="button" key={t.k} className={curTab === t.k ? 'on' : ''} onClick={() => { setTab(t.k); setSel(null); }}>{t.label}</button>
-            ))}
-          </div>
         </div>
 
         {/* day selector (Genshin Talents only) */}
@@ -1366,7 +1426,6 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
                           <div className="cm-mtokens">
                             <CMToken
                               name={row.trio.name}
-                              meta={(row.trio.days || []).join(' / ')}
                               color="#e3b269"
                               glyph={'\u25A4'}
                               icon={row.trio.material?.icon}
@@ -1422,6 +1481,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
               <div className="cm-bosshd"><span className="t">{cfg.boss.title}</span></div>
               {cfg.weeklyBosses ? (
                 <React.Fragment>
+                  <div className="cm-trounce-grid">
                   {giWeeklyBlocks.map((block, bi) => (
                     <div className="cm-bgroup cm-weekly" key={'weekly-' + bi}>
                       <div className="cm-bgroup-hd">{block.boss.bossName}</div>
@@ -1435,6 +1495,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
                       ))}
                     </div>
                   ))}
+                  </div>
                   {giWeeklyBlocks.length === 0 && <div className="cm-empty">No weekly material matches for this filter.</div>}
                 </React.Fragment>
               ) : cfg.bossGroups.map((g, gi) => {
@@ -1463,11 +1524,13 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
       {sel && (() => {
         const pop = (
         <div className={'cm-pop-wrap' + (inline ? ' float' : '')} onMouseDown={(e) => { if (e.target === e.currentTarget) closePop(); }}>
-          <div className="cm-pop ledger" data-screen-label="Material popup" style={{ '--el':CM_ELEM[view.el] || '#b7aaff' }}>
+          <div className="cm-pop ledger" data-screen-label="Material popup" ref={cmPopRef}
+               role="dialog" aria-modal="true" aria-label={(sel.n || 'Character') + ' materials'}
+               style={{ '--el':CM_ELEM[view.el] || '#b7aaff' }}>
             <div className="cm-pop-ambient"></div>
-            {selArt && <div className={'cm-pop-bg' + specialArtClass}><img src={selArt} alt="" draggable="false" /></div>}
             <div className="cm-pop-scrim"></div>
-            <button type="button" className="cm-x sm cm-pop-close" title="Close" onClick={closePop}>{'\u2715'}</button>
+            <button type="button" className="cm-x sm cm-pop-close" title="Close" aria-label="Close"
+                    ref={cmCloseBtnRef} onClick={closePop}>{'\u2715'}</button>
 
             <div className="cm-pop-layout">
               <div className="cm-pop-main cm-ledger-main">
@@ -1477,7 +1540,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
                       <span className="cm-pop-name-wrap">
                         {(view.icon || view.circle) && <img className="cm-name-circle" src={view.icon || view.circle} alt="" draggable="false" />}
                         <span className="cm-pop-name">{sel.n}</span>
-                        {sel.__beta && <span className="cm-beta-tag pop" title="Beta (latest) data — upcoming and subject to change">Beta</span>}
+                        {sel.__betaNew && <span className="cm-beta-tag pop" title="Beta (latest) data — upcoming and subject to change">Beta</span>}
                       </span>
                       {metaChips.length > 0 && (
                         <span className="cm-pop-meta-inline">
@@ -1503,6 +1566,13 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
                           {preset.label}
                         </button>
                       ))}
+                    </div>
+                  )}
+                  {/* G36: HSR "Max" toggle sits top-right, same slot/format as the GI presets */}
+                  {gk === 'hsr' && view.req?.talentStages?.some?.((s) => s.length) && (
+                    <div className="cm-presets cm-presets-ledger cm-hsr-max-row">
+                      <button type="button" className={'cm-trace-max' + (hsrMax ? ' on' : '')} aria-pressed={hsrMax}
+                              title="Max out all traces" onClick={() => { setHsrTargets(CM_TALENT_CFG.hsr.max.slice()); setHsrMax(true); }}>Max</button>
                     </div>
                   )}
                 </div>
@@ -1547,7 +1617,8 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
                 )}
 
                 <div className="cm-ledger-rows">
-                  {ascReq.length > 0 && (
+                  {selArt && <div className={'cm-ledger-art' + specialArtClass} aria-hidden="true"><img src={selArt} alt="" draggable="false" /></div>}
+                  {hasAscData && (
                     <div className="cm-ledger-row">
                       <div className="cm-ledger-label"><b>ASCENSION</b>
                         {gk === 'gi'
@@ -1562,17 +1633,34 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
                             </label>
                           : <span>Lv.{CM_GAME_MAX_LEVEL[gk] || 90}</span>}
                       </div>
-                      <div className="cm-mats cm-ledger-mats">{ascReq.map((m, i) => <MatTile key={i} m={m} />)}</div>
+                      <div className="cm-mats cm-ledger-mats">{ascReq.length > 0
+                        ? ascReq.map((m, i) => <MatTile key={i} m={m} />)
+                        : <div className="cm-total-empty">Nothing required at this level.</div>}</div>
                     </div>
                   )}
-                  {talentReq.length > 0 && (
+                  {hasTalentData && (
                     <div className="cm-ledger-row">
                       <div className="cm-ledger-label">
                         <b>{String(cfg.tabs.mid || 'Materials').toUpperCase()}</b>
                         {(() => {
                           const tcfg = CM_TALENT_CFG[gk];
                           const hasInputs = tcfg && view?.req?.talentStages?.some?.((s) => s.length);
-                          if (!hasInputs) return gk !== 'gi' ? <span className="cm-talent-summary">all to max</span> : null;
+                          if (!hasInputs) {
+                            // G37: games without per-level data still show their skill icons
+                            // (read-only, leveled to max) so the format matches GI/HSR.
+                            const skillIcons = (view?.skillIcons || []).filter(Boolean);
+                            if (skillIcons.length) {
+                              return (
+                                <div className="cm-skill-icons" title="Skills (leveled to max)">
+                                  {skillIcons.map((src, i) => (
+                                    <span className="cm-skill-icon" key={i}><img src={src} alt="" draggable="false" /></span>
+                                  ))}
+                                  <span className="cm-talent-summary">Max</span>
+                                </div>
+                              );
+                            }
+                            return gk !== 'gi' ? <span className="cm-talent-summary">all to max</span> : null;
+                          }
                           const values = gk === 'gi' ? giTargets : hsrTalentTargets;
                           const setTalent = (index, raw) => {
                             const max = tcfg.max[index] || 10;
@@ -1585,10 +1673,6 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
                           };
                           return (
                             <React.Fragment>
-                              {gk === 'hsr' && (
-                                <button type="button" className={'cm-trace-max' + (hsrMax ? ' on' : '')} aria-pressed={hsrMax}
-                                        title="Max out all traces" onClick={() => { setHsrTargets(CM_TALENT_CFG.hsr.max.slice()); setHsrMax(true); }}>Max</button>
-                              )}
                               <div className={'cm-talent-triplet cols' + values.length} aria-label="Talent level targets">
                                 {values.map((value, index) => {
                                   const icon = view?.skillIcons?.[index];
@@ -1615,7 +1699,9 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
                           );
                         })()}
                       </div>
-                      <div className="cm-mats cm-ledger-mats">{talentReq.map((m, i) => <MatTile key={i} m={m} />)}</div>
+                      <div className="cm-mats cm-ledger-mats">{talentReq.length > 0
+                        ? talentReq.map((m, i) => <MatTile key={i} m={m} />)
+                        : <div className="cm-total-empty">Nothing required at these levels.</div>}</div>
                     </div>
                   )}
                   {(weaponReq.length > 0 || weaponOptions.length > 0) && (
@@ -1623,17 +1709,28 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
                       <div className="cm-ledger-label cm-weapon-label">
                         {activeWeapon?.icon && <img className="cm-weapon-watermark" src={activeWeapon.icon} alt="" draggable="false" />}
                         <b>{weaponLabel}</b>
-                        <button
-                          type="button"
-                          className="cm-weapon-pick"
-                          aria-haspopup="listbox"
-                          aria-expanded={weaponPickerOpen}
-                          disabled={!weaponOptions.length}
-                          onClick={() => weaponOptions.length && setWeaponPickerOpen((v) => !v)}
-                        >
-                          <span>{activeWeapon?.name || 'Pick a weapon'}</span>
-                          <i>{weaponOptions.length ? '\u25BE' : ''}</i>
-                        </button>
+                        <div className="cm-weapon-pickrow">
+                          <button
+                            type="button"
+                            className="cm-weapon-pick"
+                            aria-haspopup="listbox"
+                            aria-expanded={weaponPickerOpen}
+                            disabled={!weaponOptions.length}
+                            onClick={() => weaponOptions.length && setWeaponPickerOpen((v) => !v)}
+                          >
+                            <span>{activeWeapon?.name || 'Pick a weapon'}</span>
+                            <i>{weaponOptions.length ? '\u25BE' : ''}</i>
+                          </button>
+                          {isSignatureGuess && (
+                            <span className="cm-sig-note" tabIndex={0} role="note" aria-label="About this signature pick">
+                              <span className="cm-sig-mark" aria-hidden="true">{'\u24D8'}</span>
+                              <span className="cm-sig-tip" role="tooltip">
+                                <b>Signature</b>
+                                <em>Signature Weapon is an automated educated guess and could be incorrect. Please double-check other sources before making decisions.</em>
+                              </span>
+                            </span>
+                          )}
+                        </div>
                         {weaponPickerOpen && weaponOptions.length > 0 && (
                           <div className="cm-weapon-menu" role="listbox" aria-label={`Pick ${weaponLabel.toLowerCase()}`} onMouseDown={(e) => e.stopPropagation()}>
                             <input
@@ -1650,6 +1747,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
                                   role="option"
                                   aria-selected={!pickedWeaponId}
                                   className={!pickedWeaponId ? 'on' : ''}
+                                  title="Signature is an automated educated guess and could be incorrect. Please double-check other sources before making decisions."
                                   onClick={() => pickWeapon(null)}
                                 >
                                   <span className="sig">{'\u2605'}</span>
@@ -1671,12 +1769,6 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
                               ))}
                               {filteredWeapons.length === 0 && <div className="cm-weapon-empty">No matches.</div>}
                             </div>
-                          </div>
-                        )}
-                        {showWeaponDisclaimer && (
-                          <div className="cm-sig-disclaimer">
-                            <span>Signature is an <u>automated</u> educated guess and could be incorrect.</span>
-                            <span>Please double check other sources before making decisions.</span>
                           </div>
                         )}
                       </div>

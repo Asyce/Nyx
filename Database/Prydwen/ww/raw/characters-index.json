@@ -1,0 +1,502 @@
+{
+  "provider": "Prydwen",
+  "game": "ww",
+  "collection": "characters",
+  "sourcePath": "/wuthering-waves/characters",
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "detailPagesTotal": 59,
+  "detailPagesScraped": 59,
+  "staleDetailPagesRemoved": 0,
+  "items": [
+    {
+      "id": "aalto",
+      "slug": "aalto",
+      "name": "Aalto",
+      "sourcePath": "/wuthering-waves/characters/aalto",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "aemeath",
+      "slug": "aemeath",
+      "name": "Aemeath",
+      "sourcePath": "/wuthering-waves/characters/aemeath",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "augusta",
+      "slug": "augusta",
+      "name": "Augusta",
+      "sourcePath": "/wuthering-waves/characters/augusta",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "baizhi",
+      "slug": "baizhi",
+      "name": "Baizhi",
+      "sourcePath": "/wuthering-waves/characters/baizhi",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "brant",
+      "slug": "brant",
+      "name": "Brant",
+      "sourcePath": "/wuthering-waves/characters/brant",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "buling",
+      "slug": "buling",
+      "name": "Buling",
+      "sourcePath": "/wuthering-waves/characters/buling",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "calcharo",
+      "slug": "calcharo",
+      "name": "Calcharo",
+      "sourcePath": "/wuthering-waves/characters/calcharo",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "camellya",
+      "slug": "camellya",
+      "name": "Camellya",
+      "sourcePath": "/wuthering-waves/characters/camellya",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "cantarella",
+      "slug": "cantarella",
+      "name": "Cantarella",
+      "sourcePath": "/wuthering-waves/characters/cantarella",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "carlotta",
+      "slug": "carlotta",
+      "name": "Carlotta",
+      "sourcePath": "/wuthering-waves/characters/carlotta",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "cartethyia",
+      "slug": "cartethyia",
+      "name": "Cartethyia",
+      "sourcePath": "/wuthering-waves/characters/cartethyia",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "changli",
+      "slug": "changli",
+      "name": "Changli",
+      "sourcePath": "/wuthering-waves/characters/changli",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "chisa",
+      "slug": "chisa",
+      "name": "Chisa",
+      "sourcePath": "/wuthering-waves/characters/chisa",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "chixia",
+      "slug": "chixia",
+      "name": "Chixia",
+      "sourcePath": "/wuthering-waves/characters/chixia",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "ciaccona",
+      "slug": "ciaccona",
+      "name": "Ciaccona",
+      "sourcePath": "/wuthering-waves/characters/ciaccona",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "danjin",
+      "slug": "danjin",
+      "name": "Danjin",
+      "sourcePath": "/wuthering-waves/characters/danjin",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "denia",
+      "slug": "denia",
+      "name": "Denia",
+      "sourcePath": "/wuthering-waves/characters/denia",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "encore",
+      "slug": "encore",
+      "name": "Encore",
+      "sourcePath": "/wuthering-waves/characters/encore",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "galbrena",
+      "slug": "galbrena",
+      "name": "Galbrena",
+      "sourcePath": "/wuthering-waves/characters/galbrena",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "hiyuki",
+      "slug": "hiyuki",
+      "name": "Hiyuki",
+      "sourcePath": "/wuthering-waves/characters/hiyuki",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "hsin",
+      "slug": "hsin",
+      "name": "Hsin 3.x",
+      "sourcePath": "/wuthering-waves/characters/hsin",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.x"
+      ]
+    },
+    {
+      "id": "iuno",
+      "slug": "iuno",
+      "name": "Iuno",
+      "sourcePath": "/wuthering-waves/characters/iuno",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "jianxin",
+      "slug": "jianxin",
+      "name": "Jianxin",
+      "sourcePath": "/wuthering-waves/characters/jianxin",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "jingran",
+      "slug": "jingran",
+      "name": "Jingran 3.x",
+      "sourcePath": "/wuthering-waves/characters/jingran",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.x"
+      ]
+    },
+    {
+      "id": "jinhsi",
+      "slug": "jinhsi",
+      "name": "Jinhsi",
+      "sourcePath": "/wuthering-waves/characters/jinhsi",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "jiyan",
+      "slug": "jiyan",
+      "name": "Jiyan",
+      "sourcePath": "/wuthering-waves/characters/jiyan",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "lingyang",
+      "slug": "lingyang",
+      "name": "Lingyang",
+      "sourcePath": "/wuthering-waves/characters/lingyang",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "lucilla",
+      "slug": "lucilla",
+      "name": "Lucilla New",
+      "sourcePath": "/wuthering-waves/characters/lucilla",
+      "contentStatus": "live",
+      "statusLabels": [
+        "New"
+      ]
+    },
+    {
+      "id": "lucy",
+      "slug": "lucy",
+      "name": "Lucy New",
+      "sourcePath": "/wuthering-waves/characters/lucy",
+      "contentStatus": "live",
+      "statusLabels": [
+        "New"
+      ]
+    },
+    {
+      "id": "lumi",
+      "slug": "lumi",
+      "name": "Lumi",
+      "sourcePath": "/wuthering-waves/characters/lumi",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "lupa",
+      "slug": "lupa",
+      "name": "Lupa",
+      "sourcePath": "/wuthering-waves/characters/lupa",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "luuk-herssen",
+      "slug": "luuk-herssen",
+      "name": "Luuk Herssen",
+      "sourcePath": "/wuthering-waves/characters/luuk-herssen",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "lynae",
+      "slug": "lynae",
+      "name": "Lynae",
+      "sourcePath": "/wuthering-waves/characters/lynae",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "mornye",
+      "slug": "mornye",
+      "name": "Mornye",
+      "sourcePath": "/wuthering-waves/characters/mornye",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "mortefi",
+      "slug": "mortefi",
+      "name": "Mortefi",
+      "sourcePath": "/wuthering-waves/characters/mortefi",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "phoebe",
+      "slug": "phoebe",
+      "name": "Phoebe",
+      "sourcePath": "/wuthering-waves/characters/phoebe",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "phrolova",
+      "slug": "phrolova",
+      "name": "Phrolova",
+      "sourcePath": "/wuthering-waves/characters/phrolova",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "qingxiao",
+      "slug": "qingxiao",
+      "name": "Qingxiao 3.x",
+      "sourcePath": "/wuthering-waves/characters/qingxiao",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.x"
+      ]
+    },
+    {
+      "id": "qiuyuan",
+      "slug": "qiuyuan",
+      "name": "Qiuyuan",
+      "sourcePath": "/wuthering-waves/characters/qiuyuan",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "rebecca",
+      "slug": "rebecca",
+      "name": "Rebecca New",
+      "sourcePath": "/wuthering-waves/characters/rebecca",
+      "contentStatus": "live",
+      "statusLabels": [
+        "New"
+      ]
+    },
+    {
+      "id": "roccia",
+      "slug": "roccia",
+      "name": "Roccia",
+      "sourcePath": "/wuthering-waves/characters/roccia",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "rover-aero",
+      "slug": "rover-aero",
+      "name": "Rover (Aero)",
+      "sourcePath": "/wuthering-waves/characters/rover-aero",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "rover-havoc",
+      "slug": "rover-havoc",
+      "name": "Rover (Havoc)",
+      "sourcePath": "/wuthering-waves/characters/rover-havoc",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "rover-spectro",
+      "slug": "rover-spectro",
+      "name": "Rover (Spectro)",
+      "sourcePath": "/wuthering-waves/characters/rover-spectro",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "sanhua",
+      "slug": "sanhua",
+      "name": "Sanhua",
+      "sourcePath": "/wuthering-waves/characters/sanhua",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "sigrika",
+      "slug": "sigrika",
+      "name": "Sigrika",
+      "sourcePath": "/wuthering-waves/characters/sigrika",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "suisui",
+      "slug": "suisui",
+      "name": "Suisui 3.5",
+      "sourcePath": "/wuthering-waves/characters/suisui",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.5"
+      ]
+    },
+    {
+      "id": "suoming",
+      "slug": "suoming",
+      "name": "Suoming 3.x",
+      "sourcePath": "/wuthering-waves/characters/suoming",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.x"
+      ]
+    },
+    {
+      "id": "taoqi",
+      "slug": "taoqi",
+      "name": "Taoqi",
+      "sourcePath": "/wuthering-waves/characters/taoqi",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "the-shorekeeper",
+      "slug": "the-shorekeeper",
+      "name": "The Shorekeeper",
+      "sourcePath": "/wuthering-waves/characters/the-shorekeeper",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "verina",
+      "slug": "verina",
+      "name": "Verina",
+      "sourcePath": "/wuthering-waves/characters/verina",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "xiangli-yao",
+      "slug": "xiangli-yao",
+      "name": "Xiangli Yao",
+      "sourcePath": "/wuthering-waves/characters/xiangli-yao",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "yangyang",
+      "slug": "yangyang",
+      "name": "Yangyang",
+      "sourcePath": "/wuthering-waves/characters/yangyang",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "yangyang-xuanling",
+      "slug": "yangyang-xuanling",
+      "name": "Yangyang Xuanling 3.5",
+      "sourcePath": "/wuthering-waves/characters/yangyang-xuanling",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.5"
+      ]
+    },
+    {
+      "id": "yinlin",
+      "slug": "yinlin",
+      "name": "Yinlin",
+      "sourcePath": "/wuthering-waves/characters/yinlin",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "youhu",
+      "slug": "youhu",
+      "name": "Youhu",
+      "sourcePath": "/wuthering-waves/characters/youhu",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "yuanwu",
+      "slug": "yuanwu",
+      "name": "Yuanwu",
+      "sourcePath": "/wuthering-waves/characters/yuanwu",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "zani",
+      "slug": "zani",
+      "name": "Zani",
+      "sourcePath": "/wuthering-waves/characters/zani",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "zhezhi",
+      "slug": "zhezhi",
+      "name": "Zhezhi",
+      "sourcePath": "/wuthering-waves/characters/zhezhi",
+      "contentStatus": "live",
+      "statusLabels": []
+    }
+  ]
+}

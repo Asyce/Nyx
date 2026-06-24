@@ -1,0 +1,38 @@
+{
+  "provider": "Prydwen",
+  "game": "endfield",
+  "gameName": "Arknights: Endfield",
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "sample": null,
+  "source": {
+    "site": "prydwen.gg",
+    "basePath": "/arknights-endfield"
+  },
+  "counts": {
+    "collections": 3,
+    "records": 31,
+    "characters": 28,
+    "assetsPlanned": 286,
+    "errors": 0
+  },
+  "files": {
+    "collections": "Prydwen/endfield/collections.json",
+    "characters": "Prydwen/endfield/characters.json",
+    "collectionPages": "Prydwen/endfield/collections",
+    "detailPages": "Prydwen/endfield/pages",
+    "assets": "Prydwen/endfield/assets",
+    "missingAssets": "Prydwen/endfield/missing-assets.json"
+  },
+  "assets": {
+    "requested": 286,
+    "downloaded": 106,
+    "cached": 180,
+    "missing": 0
+  },
+  "errors": [],
+  "notes": [
+    "Prydwen does not expose Nanoka-style game version switching; preview/beta status is inferred from index labels such as Soon or future-version badges.",
+    "Normalized JSON stores local database-relative asset paths and source paths only, not remote URLs."
+  ],
+  "changeReport": "Prydwen/changes/endfield-latest.json"
+}

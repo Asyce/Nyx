@@ -1,0 +1,1853 @@
+{
+  "provider": "Prydwen",
+  "game": "ww",
+  "collection": "weapons",
+  "sourcePath": "/wuthering-waves/weapons",
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "detailPagesTotal": 0,
+  "detailPagesScraped": 0,
+  "staleDetailPagesRemoved": 0,
+  "items": [
+    {
+      "id": "abyss-surges",
+      "name": "Abyss Surges",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/abyss-surges-4e021e35e328.webp",
+      "assetId": "4e021e35e328",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "36.4 %"
+      },
+      "text": "Abyss Surges\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nATK (Lv.90): 36.4 %"
+    },
+    {
+      "id": "aether-strike",
+      "name": "Aether Strike",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/aether-strike-be4f9e86be91.webp",
+      "assetId": "be4f9e86be91",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "412",
+        "critDmgLv90": "40.5 %"
+      },
+      "text": "Aether Strike\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nCRIT DMG (Lv.90): 40.5 %"
+    },
+    {
+      "id": "ages-of-harvest",
+      "name": "Ages of Harvest",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/ages-of-harvest-f970567b2315.webp",
+      "assetId": "f970567b2315",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "587",
+        "critRateLv90": "24.3 %"
+      },
+      "text": "Ages of Harvest\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %"
+    },
+    {
+      "id": "amity-accord",
+      "name": "Amity Accord",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/amity-accord-28d24c782f6b.webp",
+      "assetId": "28d24c782f6b",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "337",
+        "defLv90": "61.5 %"
+      },
+      "text": "Amity Accord\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 337\nDEF (Lv.90): 61.5 %"
+    },
+    {
+      "id": "augment",
+      "name": "Augment",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/augment-7bfc9f689d32.webp",
+      "assetId": "7bfc9f689d32",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "412",
+        "critRateLv90": "20.2 %"
+      },
+      "text": "Augment\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nCRIT Rate (Lv.90): 20.2 %"
+    },
+    {
+      "id": "aureate-zenith",
+      "name": "Aureate Zenith",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/aureate-zenith-6cc4b4799694.webp",
+      "assetId": "6cc4b4799694",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "412",
+        "critDmgLv90": "40.5 %"
+      },
+      "text": "Aureate Zenith\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nCRIT DMG (Lv.90): 40.5 %"
+    },
+    {
+      "id": "autumntrace",
+      "name": "Autumntrace",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/autumntrace-1b276f8aa3db.webp",
+      "assetId": "1b276f8aa3db",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "412",
+        "critRateLv90": "20.2 %"
+      },
+      "text": "Autumntrace\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nCRIT Rate (Lv.90): 20.2 %"
+    },
+    {
+      "id": "beguiling-melody",
+      "name": "Beguiling Melody",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/beguiling-melody-9088d18023c5.webp",
+      "assetId": "9088d18023c5",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "30.4 %"
+      },
+      "text": "Beguiling Melody\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 300\nATK (Lv.90): 30.4 %"
+    },
+    {
+      "id": "blazing-brilliance",
+      "name": "Blazing Brilliance",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/blazing-brilliance-125c53e53fdd.webp",
+      "assetId": "125c53e53fdd",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "587",
+        "critDmgLv90": "48.6 %"
+      },
+      "text": "Blazing Brilliance\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %"
+    },
+    {
+      "id": "blazing-justice",
+      "name": "Blazing Justice",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/blazing-justice-007d18a5154b.webp",
+      "assetId": "007d18a5154b",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "587",
+        "critDmgLv90": "48.6 %"
+      },
+      "text": "Blazing Justice\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %"
+    },
+    {
+      "id": "bloodpacts-pledge",
+      "name": "Bloodpact's Pledge",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/bloodpacts-pledge-499baf8c0c6f.webp",
+      "assetId": "499baf8c0c6f",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "587",
+        "energyRegLv90": "38.9 %"
+      },
+      "text": "Bloodpact's Pledge\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nEnergy Reg. (Lv.90): 38.9 %"
+    },
+    {
+      "id": "boson-astrolabe",
+      "name": "Boson Astrolabe",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/boson-astrolabe-b1302a03d686.webp",
+      "assetId": "b1302a03d686",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "525",
+        "energyRegLv90": "38.8 %"
+      },
+      "text": "Boson Astrolabe\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 525\nEnergy Reg. (Lv.90): 38.8 %"
+    },
+    {
+      "id": "broadblade-of-night",
+      "name": "Broadblade of Night",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/broadblade-of-night-e457f7675a6a.webp",
+      "assetId": "e457f7675a6a",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "24.3 %"
+      },
+      "text": "Broadblade of Night\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %"
+    },
+    {
+      "id": "broadblade-of-voyager",
+      "name": "Broadblade of Voyager",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/broadblade-of-voyager-d6d61c75ebba.webp",
+      "assetId": "d6d61c75ebba",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "300",
+        "energyRegLv90": "32.3 %"
+      },
+      "text": "Broadblade of Voyager\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 300\nEnergy Reg. (Lv.90): 32.3 %"
+    },
+    {
+      "id": "broadblade-41",
+      "name": "Broadblade#41",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/broadblade-41-3f2c99f93513.webp",
+      "assetId": "3f2c99f93513",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "412",
+        "energyRegLv90": "32.3 %"
+      },
+      "text": "Broadblade#41\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nEnergy Reg. (Lv.90): 32.3 %"
+    },
+    {
+      "id": "cadenza",
+      "name": "Cadenza",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/cadenza-1148707b14c2.webp",
+      "assetId": "1148707b14c2",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "337",
+        "energyRegLv90": "51.8 %"
+      },
+      "text": "Cadenza\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 337\nEnergy Reg. (Lv.90): 51.8 %"
+    },
+    {
+      "id": "call-of-the-abyss",
+      "name": "Call of the Abyss",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/call-of-the-abyss-d250c07a3d25.webp",
+      "assetId": "d250c07a3d25",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "338",
+        "energyRegenLv90": "51.8 %"
+      },
+      "text": "Call of the Abyss\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 338\nEnergy Regen (Lv.90): 51.8 %"
+    },
+    {
+      "id": "celestial-spiral",
+      "name": "Celestial Spiral",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/celestial-spiral-d16f2ad97469.webp",
+      "assetId": "d16f2ad97469",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "18.2 %"
+      },
+      "text": "Celestial Spiral\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %"
+    },
+    {
+      "id": "comet-flare",
+      "name": "Comet Flare",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/comet-flare-c79b3925654d.webp",
+      "assetId": "c79b3925654d",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "412",
+        "hpLv90": "30.3 %"
+      },
+      "text": "Comet Flare\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nHP (Lv.90): 30.3 %"
+    },
+    {
+      "id": "commando-of-conviction",
+      "name": "Commando of Conviction",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/commando-of-conviction-45f3f4db16b4.webp",
+      "assetId": "45f3f4db16b4",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "30.3 %"
+      },
+      "text": "Commando of Conviction\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nATK (Lv.90): 30.3 %"
+    },
+    {
+      "id": "cosmic-ripples",
+      "name": "Cosmic Ripples",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/cosmic-ripples-40e77541d1a4.webp",
+      "assetId": "40e77541d1a4",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "54 %"
+      },
+      "text": "Cosmic Ripples\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 500\nATK (Lv.90): 54 %"
+    },
+    {
+      "id": "dauntless-evernight",
+      "name": "Dauntless Evernight",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/dauntless-evernight-3e7ec5e60b8c.webp",
+      "assetId": "3e7ec5e60b8c",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "337",
+        "defLv90": "61.5 %"
+      },
+      "text": "Dauntless Evernight\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 337\nDEF (Lv.90): 61.5 %"
+    },
+    {
+      "id": "daybreakers-spine",
+      "name": "Daybreaker's Spine",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/daybreakers-spine-935e94d86588.webp",
+      "assetId": "935e94d86588",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "587",
+        "critRateLv90": "24.3 %"
+      },
+      "text": "Daybreaker's Spine\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %"
+    },
+    {
+      "id": "defiers-thorn",
+      "name": "Defier's Thorn",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/defiers-thorn-65168020cc9e.webp",
+      "assetId": "65168020cc9e",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "413",
+        "hpLv90": "72.2 %"
+      },
+      "text": "Defier's Thorn\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 413\nHP (Lv.90): 72.2 %"
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/discord-f86bb0717852.webp",
+      "assetId": "f86bb0717852",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "337",
+        "energyRegLv90": "51.8 %"
+      },
+      "text": "Discord\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 337\nEnergy Reg. (Lv.90): 51.8 %"
+    },
+    {
+      "id": "emerald-of-genesis",
+      "name": "Emerald of Genesis",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/emerald-of-genesis-1ee53622240c.webp",
+      "assetId": "1ee53622240c",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "587",
+        "critRateLv90": "24.3 %"
+      },
+      "text": "Emerald of Genesis\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %"
+    },
+    {
+      "id": "emerald-sentence",
+      "name": "Emerald Sentence",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/emerald-sentence-67b3675ba5a5.webp",
+      "assetId": "67b3675ba5a5",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "587",
+        "critRateLv90": "24.3 %"
+      },
+      "text": "Emerald Sentence\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %"
+    },
+    {
+      "id": "endless-collapse",
+      "name": "Endless Collapse",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/endless-collapse-41d0e5b20979.webp",
+      "assetId": "41d0e5b20979",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "18.2 %"
+      },
+      "text": "Endless Collapse\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %"
+    },
+    {
+      "id": "everbright-polestar",
+      "name": "Everbright Polestar",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/everbright-polestar-d0384e178d37.webp",
+      "assetId": "d0384e178d37",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "587",
+        "critRateLv90": "24.3 %"
+      },
+      "text": "Everbright Polestar\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %"
+    },
+    {
+      "id": "fables-of-wisdom",
+      "name": "Fables of Wisdom",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/fables-of-wisdom-c115f8c39381.webp",
+      "assetId": "c115f8c39381",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "18.2 %"
+      },
+      "text": "Fables of Wisdom\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %"
+    },
+    {
+      "id": "feather-edge",
+      "name": "Feather Edge",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/feather-edge-aa055901e0f5.webp",
+      "assetId": "aa055901e0f5",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "412",
+        "critRateLv90": "20.3 %"
+      },
+      "text": "Feather Edge\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nCRIT Rate (Lv.90): 20.3 %"
+    },
+    {
+      "id": "forged-dwarf-star",
+      "name": "Forged Dwarf Star",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/forged-dwarf-star-9f12ce6e7f56.webp",
+      "assetId": "9f12ce6e7f56",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "500",
+        "critRateLv90": "36 %"
+      },
+      "text": "Forged Dwarf Star\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 500\nCRIT Rate (Lv.90): 36 %"
+    },
+    {
+      "id": "freeze-frame",
+      "name": "Freeze Frame",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/freeze-frame-12bef70511cc.webp",
+      "assetId": "12bef70511cc",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "587",
+        "critRateLv90": "24.2 %"
+      },
+      "text": "Freeze Frame\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.2 %"
+    },
+    {
+      "id": "frostburn",
+      "name": "Frostburn",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/frostburn-0a476c2be498.webp",
+      "assetId": "0a476c2be498",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "587",
+        "critRateLv90": "24.3 %"
+      },
+      "text": "Frostburn\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %"
+    },
+    {
+      "id": "fusion-accretion",
+      "name": "Fusion Accretion",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/fusion-accretion-9e11f35ca985.webp",
+      "assetId": "9e11f35ca985",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "18.2 %"
+      },
+      "text": "Fusion Accretion\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %"
+    },
+    {
+      "id": "gauntlets-of-night",
+      "name": "Gauntlets of Night",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/gauntlets-of-night-cfca143c4025.webp",
+      "assetId": "cfca143c4025",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "24.3 %"
+      },
+      "text": "Gauntlets of Night\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %"
+    },
+    {
+      "id": "gauntlets-of-voyager",
+      "name": "Gauntlets of Voyager",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/gauntlets-of-voyager-59f32c33b110.webp",
+      "assetId": "59f32c33b110",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "325",
+        "defLv90": "30.7 %"
+      },
+      "text": "Gauntlets of Voyager\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 325\nDEF (Lv.90): 30.7 %"
+    },
+    {
+      "id": "gauntlets-21d",
+      "name": "Gauntlets#21D",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/gauntlets-21d-9241c8fa6155.webp",
+      "assetId": "9241c8fa6155",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "387",
+        "energyRegLv90": "38.8 %"
+      },
+      "text": "Gauntlets#21D\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 387\nEnergy Reg. (Lv.90): 38.8 %"
+    },
+    {
+      "id": "guardian-broadblade",
+      "name": "Guardian Broadblade",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/guardian-broadblade-0b42c5f33b3a.webp",
+      "assetId": "0b42c5f33b3a",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "24.3 %"
+      },
+      "text": "Guardian Broadblade\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %"
+    },
+    {
+      "id": "guardian-gauntlets",
+      "name": "Guardian Gauntlets",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/guardian-gauntlets-3d890d3b769f.webp",
+      "assetId": "3d890d3b769f",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "300",
+        "defLv90": "38.4 %"
+      },
+      "text": "Guardian Gauntlets\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 300\nDEF (Lv.90): 38.4 %"
+    },
+    {
+      "id": "guardian-pistols",
+      "name": "Guardian Pistols",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/guardian-pistols-ea731e2052d4.webp",
+      "assetId": "ea731e2052d4",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "24.3 %"
+      },
+      "text": "Guardian Pistols\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %"
+    },
+    {
+      "id": "guardian-rectifier",
+      "name": "Guardian Rectifier",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/guardian-rectifier-50b5665ce4ac.webp",
+      "assetId": "50b5665ce4ac",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "24.3 %"
+      },
+      "text": "Guardian Rectifier\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %"
+    },
+    {
+      "id": "guardian-sword",
+      "name": "Guardian Sword",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/guardian-sword-95f7b81f3e04.webp",
+      "assetId": "95f7b81f3e04",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "300",
+        "hpLv90": "30.3 %"
+      },
+      "text": "Guardian Sword\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 300\nHP (Lv.90): 30.3 %"
+    },
+    {
+      "id": "helios-cleaver",
+      "name": "Helios Cleaver",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/helios-cleaver-99dd896c9195.webp",
+      "assetId": "99dd896c9195",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "30.3 %"
+      },
+      "text": "Helios Cleaver\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nATK (Lv.90): 30.3 %"
+    },
+    {
+      "id": "hollow-mirage",
+      "name": "Hollow Mirage",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/hollow-mirage-149a7a79da9a.webp",
+      "assetId": "149a7a79da9a",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "30.3 %"
+      },
+      "text": "Hollow Mirage\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nATK (Lv.90): 30.3 %"
+    },
+    {
+      "id": "jinzhou-keeper",
+      "name": "Jinzhou Keeper",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/jinzhou-keeper-e87f272729af.webp",
+      "assetId": "e87f272729af",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "36.4 %"
+      },
+      "text": "Jinzhou Keeper\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 387\nATK (Lv.90): 36.4 %"
+    },
+    {
+      "id": "kumokiri",
+      "name": "Kumokiri",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/kumokiri-6d5753910c9f.webp",
+      "assetId": "6d5753910c9f",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "500",
+        "critRateLv90": "36 %"
+      },
+      "text": "Kumokiri\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 500\nCRIT Rate (Lv.90): 36 %"
+    },
+    {
+      "id": "laser-shearer",
+      "name": "Laser Shearer",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/laser-shearer-283736d2fdd0.webp",
+      "assetId": "283736d2fdd0",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "587",
+        "energyRegLv90": "38.8 %"
+      },
+      "text": "Laser Shearer\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nEnergy Reg. (Lv.90): 38.8 %"
+    },
+    {
+      "id": "legend-of-drunken-hero",
+      "name": "Legend of Drunken Hero",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/legend-of-drunken-hero-5275e972617b.webp",
+      "assetId": "5275e972617b",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "18.2 %"
+      },
+      "text": "Legend of Drunken Hero\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %"
+    },
+    {
+      "id": "lethean-elegy",
+      "name": "Lethean Elegy",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/lethean-elegy-81851bbdf85c.webp",
+      "assetId": "81851bbdf85c",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "587",
+        "critRateLv90": "24.3 %"
+      },
+      "text": "Lethean Elegy\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %"
+    },
+    {
+      "id": "lumingloss",
+      "name": "Lumingloss",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/lumingloss-5257981ba208.webp",
+      "assetId": "5257981ba208",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "36.4 %"
+      },
+      "text": "Lumingloss\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 387\nATK (Lv.90): 36.4 %"
+    },
+    {
+      "id": "luminous-hymn",
+      "name": "Luminous Hymn",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/luminous-hymn-316e13f434c4.webp",
+      "assetId": "316e13f434c4",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "500",
+        "critRateLv90": "36 %"
+      },
+      "text": "Luminous Hymn\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 500\nCrit. Rate (Lv.90): 36 %"
+    },
+    {
+      "id": "lunar-cutter",
+      "name": "Lunar Cutter",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/lunar-cutter-05b65e738466.webp",
+      "assetId": "05b65e738466",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "30.3 %"
+      },
+      "text": "Lunar Cutter\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nATK (Lv.90): 30.3 %"
+    },
+    {
+      "id": "lustrous-razor",
+      "name": "Lustrous Razor",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/lustrous-razor-c562aa36c2f7.webp",
+      "assetId": "c562aa36c2f7",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "36.4 %"
+      },
+      "text": "Lustrous Razor\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nATK (Lv.90): 36.4 %"
+    },
+    {
+      "id": "lux-umbra",
+      "name": "Lux & Umbra",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/lux-umbra-1466fa84b06e.webp",
+      "assetId": "1466fa84b06e",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "587",
+        "critDmgLv90": "48.6 %"
+      },
+      "text": "Lux & Umbra\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %"
+    },
+    {
+      "id": "marcato",
+      "name": "Marcato",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/marcato-810367654a44.webp",
+      "assetId": "810367654a44",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "337",
+        "energyRegLv90": "51.8 %"
+      },
+      "text": "Marcato\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 337\nEnergy Reg. (Lv.90): 51.8 %"
+    },
+    {
+      "id": "meditations-on-mercy",
+      "name": "Meditations on Mercy",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/meditations-on-mercy-10623a091d93.webp",
+      "assetId": "10623a091d93",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "18.2 %"
+      },
+      "text": "Meditations on Mercy\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %"
+    },
+    {
+      "id": "moongazers-sigil",
+      "name": "Moongazer's Sigil",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/moongazers-sigil-b07450491f2f.webp",
+      "assetId": "b07450491f2f",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "500",
+        "critRateLv90": "36 %"
+      },
+      "text": "Moongazer's Sigil\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 500\nCRIT Rate (Lv.90): 36 %"
+    },
+    {
+      "id": "novaburst",
+      "name": "Novaburst",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/novaburst-ec0ad26e1579.webp",
+      "assetId": "ec0ad26e1579",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "30.3 %"
+      },
+      "text": "Novaburst\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nATK (Lv.90): 30.3 %"
+    },
+    {
+      "id": "oceans-gift",
+      "name": "Ocean's Gift",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/oceans-gift-bc1ea5ef7017.webp",
+      "assetId": "bc1ea5ef7017",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "18.2 %"
+      },
+      "text": "Ocean's Gift\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %"
+    },
+    {
+      "id": "originite-type-i",
+      "name": "Originite: Type I",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/originite-type-i-0b62cb2f89db.webp",
+      "assetId": "0b62cb2f89db",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "300",
+        "defLv90": "38.4 %"
+      },
+      "text": "Originite: Type I\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 300\nDEF (Lv.90): 38.4 %"
+    },
+    {
+      "id": "originite-type-ii",
+      "name": "Originite: Type II",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/originite-type-ii-08023926a173.webp",
+      "assetId": "08023926a173",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "325",
+        "hpLv90": "24.3 %"
+      },
+      "text": "Originite: Type II\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 325\nHP (Lv.90): 24.3 %"
+    },
+    {
+      "id": "originite-type-iii",
+      "name": "Originite: Type III",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/originite-type-iii-536172b9cbe5.webp",
+      "assetId": "536172b9cbe5",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "24.3 %"
+      },
+      "text": "Originite: Type III\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %"
+    },
+    {
+      "id": "originite-type-iv",
+      "name": "Originite: Type IV",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/originite-type-iv-d176608c4418.webp",
+      "assetId": "d176608c4418",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "300",
+        "critDmgLv90": "40.5 %"
+      },
+      "text": "Originite: Type IV\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 300\nCRIT DMG (Lv.90): 40.5 %"
+    },
+    {
+      "id": "originite-type-v",
+      "name": "Originite: Type V",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/originite-type-v-f2c92f654e3c.webp",
+      "assetId": "f2c92f654e3c",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "30.3 %"
+      },
+      "text": "Originite: Type V\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 300\nATK (Lv.90): 30.3 %"
+    },
+    {
+      "id": "overture",
+      "name": "Overture",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/overture-e3ae249edd0b.webp",
+      "assetId": "e3ae249edd0b",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "337",
+        "energyRegLv90": "51.8 %"
+      },
+      "text": "Overture\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 337\nEnergy Reg. (Lv.90): 51.8 %"
+    },
+    {
+      "id": "phasic-homogenizer",
+      "name": "Phasic Homogenizer",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/phasic-homogenizer-2e005a1451cd.webp",
+      "assetId": "2e005a1451cd",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "587",
+        "critDmgLv90": "48.6 %"
+      },
+      "text": "Phasic Homogenizer\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %"
+    },
+    {
+      "id": "pistols-of-night",
+      "name": "Pistols of Night",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/pistols-of-night-170dc9f4773d.webp",
+      "assetId": "170dc9f4773d",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "24.3 %"
+      },
+      "text": "Pistols of Night\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %"
+    },
+    {
+      "id": "pistols-of-voyager",
+      "name": "Pistols of Voyager",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/pistols-of-voyager-566765cf4466.webp",
+      "assetId": "566765cf4466",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "300",
+        "hpLv90": "30.3 %"
+      },
+      "text": "Pistols of Voyager\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 300\nHP (Lv.90): 30.3 %"
+    },
+    {
+      "id": "pistols-26",
+      "name": "Pistols#26",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/pistols-26-9fbfd63e176c.webp",
+      "assetId": "9fbfd63e176c",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "36.4 %"
+      },
+      "text": "Pistols#26\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 387\nATK (Lv.90): 36.4 %"
+    },
+    {
+      "id": "pulsation-bracer",
+      "name": "Pulsation Bracer",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/pulsation-bracer-a329648e74b3.webp",
+      "assetId": "a329648e74b3",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "587",
+        "critRateLv90": "24.3 %"
+      },
+      "text": "Pulsation Bracer\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %"
+    },
+    {
+      "id": "radiance-cleaver",
+      "name": "Radiance Cleaver",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/radiance-cleaver-137f7d39e41f.webp",
+      "assetId": "137f7d39e41f",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "587",
+        "critDmgLv90": "48.6 %"
+      },
+      "text": "Radiance Cleaver\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %"
+    },
+    {
+      "id": "radiant-dawn",
+      "name": "Radiant Dawn",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/radiant-dawn-bfb2c5a09f23.webp",
+      "assetId": "bfb2c5a09f23",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "412",
+        "critDmgLv90": "40.5 %"
+      },
+      "text": "Radiant Dawn\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nCRIT DMG (Lv.90): 40.5 %"
+    },
+    {
+      "id": "rectifier-of-night",
+      "name": "Rectifier of Night",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/rectifier-of-night-766434e03380.webp",
+      "assetId": "766434e03380",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "24.3 %"
+      },
+      "text": "Rectifier of Night\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %"
+    },
+    {
+      "id": "rectifier-of-voyager",
+      "name": "Rectifier of Voyager",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/rectifier-of-voyager-3ae3446eddca.webp",
+      "assetId": "3ae3446eddca",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "300",
+        "energyRegLv90": "32.3 %"
+      },
+      "text": "Rectifier of Voyager\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 300\nEnergy Reg. (Lv.90): 32.3 %"
+    },
+    {
+      "id": "rectifier-25",
+      "name": "Rectifier#25",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/rectifier-25-150d9e91633f.webp",
+      "assetId": "150d9e91633f",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "337",
+        "energyRegLv90": "51.8 %"
+      },
+      "text": "Rectifier#25\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 337\nEnergy Reg. (Lv.90): 51.8 %"
+    },
+    {
+      "id": "red-spring",
+      "name": "Red Spring",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/red-spring-0191cff521e2.webp",
+      "assetId": "0191cff521e2",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "587",
+        "critRateLv90": "24.3 %"
+      },
+      "text": "Red Spring\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %"
+    },
+    {
+      "id": "relativistic-jet",
+      "name": "Relativistic Jet",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/relativistic-jet-96de9b5aead5.webp",
+      "assetId": "96de9b5aead5",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "18.2 %"
+      },
+      "text": "Relativistic Jet\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %"
+    },
+    {
+      "id": "rime-draped-sprouts",
+      "name": "Rime-Draped Sprouts",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/rime-draped-sprouts-40447cb92240.webp",
+      "assetId": "40447cb92240",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "500",
+        "critDmgLv90": "72 %"
+      },
+      "text": "Rime-Draped Sprouts\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 500\nCRIT DMG (Lv.90): 72 %"
+    },
+    {
+      "id": "romance-in-farewell",
+      "name": "Romance in Farewell",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/romance-in-farewell-d8316ca5e34b.webp",
+      "assetId": "d8316ca5e34b",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "18.2 %"
+      },
+      "text": "Romance in Farewell\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %"
+    },
+    {
+      "id": "skull-thrasher",
+      "name": "Skull Thrasher",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/skull-thrasher-46d1eaf3f2e5.webp",
+      "assetId": "46d1eaf3f2e5",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "500",
+        "critDmgLv90": "72 %"
+      },
+      "text": "Skull Thrasher\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 500\nCRIT DMG% (Lv.90): 72 %"
+    },
+    {
+      "id": "solar-flame",
+      "name": "Solar Flame",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/solar-flame-5f515fc2a164.webp",
+      "assetId": "5f515fc2a164",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "412",
+        "critRateLv90": "20.3 %"
+      },
+      "text": "Solar Flame\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nCRIT Rate (Lv.90): 20.3 %"
+    },
+    {
+      "id": "solsworn-ciphers",
+      "name": "Solsworn Ciphers",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/solsworn-ciphers-3ee55376a9fb.webp",
+      "assetId": "3ee55376a9fb",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "587",
+        "critDmgLv90": "48.6 %"
+      },
+      "text": "Solsworn Ciphers\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %"
+    },
+    {
+      "id": "somnoire-anchor",
+      "name": "Somnoire Anchor",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/somnoire-anchor-4bfd628c3931.webp",
+      "assetId": "4bfd628c3931",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "18.2 %"
+      },
+      "text": "Somnoire Anchor\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %"
+    },
+    {
+      "id": "spectral-trigger",
+      "name": "Spectral Trigger",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/spectral-trigger-7acfe318341c.webp",
+      "assetId": "7acfe318341c",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "587",
+        "critDmgLv90": "48.6 %"
+      },
+      "text": "Spectral Trigger\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT DMG% (Lv.90): 48.6 %"
+    },
+    {
+      "id": "spectrum-blaster",
+      "name": "Spectrum Blaster",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/spectrum-blaster-49ceef135215.webp",
+      "assetId": "49ceef135215",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "587",
+        "critRateLv90": "24.3 %"
+      },
+      "text": "Spectrum Blaster\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %"
+    },
+    {
+      "id": "starfield-calibrator",
+      "name": "Starfield Calibrator",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/starfield-calibrator-9b379cf81db5.webp",
+      "assetId": "9b379cf81db5",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "414",
+        "energyRegenLv90": "77 %"
+      },
+      "text": "Starfield Calibrator\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 414\nEnergy Regen (Lv.90): 77 %"
+    },
+    {
+      "id": "static-mist",
+      "name": "Static Mist",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/static-mist-afef53941338.webp",
+      "assetId": "afef53941338",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "587",
+        "critRateLv90": "24.3 %"
+      },
+      "text": "Static Mist\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %"
+    },
+    {
+      "id": "stellar-symphony",
+      "name": "Stellar Symphony",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/stellar-symphony-f94d1c67d9b4.webp",
+      "assetId": "f94d1c67d9b4",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "412",
+        "energyRegenLv90": "77 %"
+      },
+      "text": "Stellar Symphony\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 412\nEnergy Regen (Lv.90): 77 %"
+    },
+    {
+      "id": "stonard",
+      "name": "Stonard",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/stonard-9bf05a62f031.webp",
+      "assetId": "9bf05a62f031",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "412",
+        "critRateLv90": "20.2 %"
+      },
+      "text": "Stonard\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nCRIT Rate (Lv.90): 20.2 %"
+    },
+    {
+      "id": "stringmaster",
+      "name": "Stringmaster",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/stringmaster-d9ac99a03c5f.webp",
+      "assetId": "d9ac99a03c5f",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "500",
+        "critRateLv90": "36 %"
+      },
+      "text": "Stringmaster\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 500\nCRIT Rate (Lv.90): 36 %"
+    },
+    {
+      "id": "sword-of-night",
+      "name": "Sword of Night",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/sword-of-night-6d2e2b3ede21.webp",
+      "assetId": "6d2e2b3ede21",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "24.3 %"
+      },
+      "text": "Sword of Night\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 325\nATK (Lv.90): 24.3 %"
+    },
+    {
+      "id": "sword-of-voyager",
+      "name": "Sword of Voyager",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/sword-of-voyager-c40fa2d3d818.webp",
+      "assetId": "c40fa2d3d818",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "300",
+        "energyRegLv90": "32.3 %"
+      },
+      "text": "Sword of Voyager\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 300\nEnergy Reg. (Lv.90): 32.3 %"
+    },
+    {
+      "id": "sword-18",
+      "name": "Sword#18",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/sword-18-9afdc6b45bf2.webp",
+      "assetId": "9afdc6b45bf2",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "36.4 %"
+      },
+      "text": "Sword#18\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 387\nATK (Lv.90): 36.4 %"
+    },
+    {
+      "id": "the-last-dance",
+      "name": "The Last Dance",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/the-last-dance-a0797fb7bf92.webp",
+      "assetId": "a0797fb7bf92",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "500",
+        "critDmgLv90": "72 %"
+      },
+      "text": "The Last Dance\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 500\nCRIT DMG (Lv.90): 72 %"
+    },
+    {
+      "id": "thunderbolt",
+      "name": "Thunderbolt",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/thunderbolt-279183c1c2cc.webp",
+      "assetId": "279183c1c2cc",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "36.4 %"
+      },
+      "text": "Thunderbolt\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 387\nATK (Lv.90): 36.4 %"
+    },
+    {
+      "id": "thunderflare-dominion",
+      "name": "Thunderflare Dominion",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/thunderflare-dominion-3c42590d0e49.webp",
+      "assetId": "3c42590d0e49",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "675",
+        "critRateLv90": "12.1 %"
+      },
+      "text": "Thunderflare Dominion\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 675\nCRIT Rate (Lv.90): 12.1 %"
+    },
+    {
+      "id": "tragicomedy",
+      "name": "Tragicomedy",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/tragicomedy-1d9fc851e8c3.webp",
+      "assetId": "1d9fc851e8c3",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "587",
+        "critRateLv90": "24.3 %"
+      },
+      "text": "Tragicomedy\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %"
+    },
+    {
+      "id": "training-broadblade",
+      "name": "Training Broadblade",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/training-broadblade-00a0555eda7d.webp",
+      "assetId": "00a0555eda7d",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "11.4 %"
+      },
+      "text": "Training Broadblade\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 250\nATK (Lv.90): 11.4 %"
+    },
+    {
+      "id": "training-gauntlets",
+      "name": "Training Gauntlets",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/training-gauntlets-deb554548ed4.webp",
+      "assetId": "deb554548ed4",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "11.4 %"
+      },
+      "text": "Training Gauntlets\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 250\nATK (Lv.90): 11.4 %"
+    },
+    {
+      "id": "training-pistols",
+      "name": "Training Pistols",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/training-pistols-2839f0a5c3a3.webp",
+      "assetId": "2839f0a5c3a3",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "11.4 %"
+      },
+      "text": "Training Pistols\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 250\nATK (Lv.90): 11.4 %"
+    },
+    {
+      "id": "training-rectifier",
+      "name": "Training Rectifier",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/training-rectifier-c034e1ea0e88.webp",
+      "assetId": "c034e1ea0e88",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "11.4 %"
+      },
+      "text": "Training Rectifier\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 250\nATK (Lv.90): 11.4 %"
+    },
+    {
+      "id": "training-sword",
+      "name": "Training Sword",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/training-sword-2086455aee21.webp",
+      "assetId": "2086455aee21",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "11.4 %"
+      },
+      "text": "Training Sword\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 250\nATK (Lv.90): 11.4 %"
+    },
+    {
+      "id": "tyro-broadblade",
+      "name": "Tyro Broadblade",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/tyro-broadblade-5beb0abf1f73.webp",
+      "assetId": "5beb0abf1f73",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "14.8 %"
+      },
+      "text": "Tyro Broadblade\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 275\nATK (Lv.90): 14.8 %"
+    },
+    {
+      "id": "tyro-gauntlets",
+      "name": "Tyro Gauntlets",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/tyro-gauntlets-965d884d52bd.webp",
+      "assetId": "965d884d52bd",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "14.8 %"
+      },
+      "text": "Tyro Gauntlets\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 275\nATK (Lv.90): 14.8 %"
+    },
+    {
+      "id": "tyro-pistols",
+      "name": "Tyro Pistols",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/tyro-pistols-58784d45f4ba.webp",
+      "assetId": "58784d45f4ba",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "14.8 %"
+      },
+      "text": "Tyro Pistols\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 275\nATK (Lv.90): 14.8 %"
+    },
+    {
+      "id": "tyro-rectifier",
+      "name": "Tyro Rectifier",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/tyro-rectifier-21ffe50cdc3d.webp",
+      "assetId": "21ffe50cdc3d",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "14.8 %"
+      },
+      "text": "Tyro Rectifier\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 275\nATK (Lv.90): 14.8 %"
+    },
+    {
+      "id": "tyro-sword",
+      "name": "Tyro Sword",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/tyro-sword-d7aede006940.webp",
+      "assetId": "d7aede006940",
+      "fields": {
+        "rarity": "3 ★",
+        "type": "Pistols",
+        "atkLv90": "14.8 %"
+      },
+      "text": "Tyro Sword\nRarity: 3 ★\nType: Pistols\nATK (Lv.90): 275\nATK (Lv.90): 14.8 %"
+    },
+    {
+      "id": "undying-flame",
+      "name": "Undying Flame",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/undying-flame-fe355e2fa0aa.webp",
+      "assetId": "fe355e2fa0aa",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "30.3 %"
+      },
+      "text": "Undying Flame\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nATK (Lv.90): 30.3 %"
+    },
+    {
+      "id": "unflickering-valor",
+      "name": "Unflickering Valor",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/unflickering-valor-534028ff961a.webp",
+      "assetId": "534028ff961a",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "415",
+        "energyRegLv90": "77 %"
+      },
+      "text": "Unflickering Valor\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 415\nEnergy Reg. (Lv.90): 77 %"
+    },
+    {
+      "id": "variation",
+      "name": "Variation",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/variation-c544c5292f1e.webp",
+      "assetId": "c544c5292f1e",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "337",
+        "energyRegLv90": "51.8 %"
+      },
+      "text": "Variation\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 337\nEnergy Reg. (Lv.90): 51.8 %"
+    },
+    {
+      "id": "verdant-summit",
+      "name": "Verdant Summit",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/verdant-summit-9fafb9f1aada.webp",
+      "assetId": "9fafb9f1aada",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "587",
+        "critDmgLv90": "48.6 %"
+      },
+      "text": "Verdant Summit\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %"
+    },
+    {
+      "id": "veritys-handle",
+      "name": "Verity's Handle",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/veritys-handle-ea93f302fdf1.webp",
+      "assetId": "ea93f302fdf1",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "587",
+        "critRateLv90": "24.3 %"
+      },
+      "text": "Verity's Handle\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT Rate (Lv.90): 24.3 %"
+    },
+    {
+      "id": "waltz-in-masquerade",
+      "name": "Waltz in Masquerade",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/waltz-in-masquerade-ea91d622bba6.webp",
+      "assetId": "ea91d622bba6",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "18.2 %"
+      },
+      "text": "Waltz in Masquerade\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %"
+    },
+    {
+      "id": "waning-redshift",
+      "name": "Waning Redshift",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/waning-redshift-730ddc221a80.webp",
+      "assetId": "730ddc221a80",
+      "fields": {
+        "rarity": "4 ★",
+        "type": "Pistols",
+        "atkLv90": "18.2 %"
+      },
+      "text": "Waning Redshift\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 462\nATK (Lv.90): 18.2 %"
+    },
+    {
+      "id": "whispers-of-sirens",
+      "name": "Whispers of Sirens",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/whispers-of-sirens-00628ac6c421.webp",
+      "assetId": "00628ac6c421",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "500",
+        "critDmgLv90": "72 %"
+      },
+      "text": "Whispers of Sirens\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 500\nCRIT DMG (Lv.90): 72 %"
+    },
+    {
+      "id": "wildfire-mark",
+      "name": "Wildfire Mark",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/wildfire-mark-04979eb3f560.webp",
+      "assetId": "04979eb3f560",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "587",
+        "critDmgLv90": "48.6 %"
+      },
+      "text": "Wildfire Mark\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 587\nCRIT DMG (Lv.90): 48.6 %"
+    },
+    {
+      "id": "woodland-aria",
+      "name": "Woodland Aria",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/woodland-aria-55e7c38e5f24.webp",
+      "assetId": "55e7c38e5f24",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "500",
+        "critRateLv90": "36 %"
+      },
+      "text": "Woodland Aria\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 500\nCRIT Rate (Lv.90): 36 %"
+    }
+  ]
+}

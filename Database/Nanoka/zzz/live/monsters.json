@@ -27321,7 +27321,9 @@
     "rarity": 1,
     "type": "Corrupted",
     "description": "Unknown",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/zzz/assets/monsters/Monster_UVARaven.webp"
+    },
     "card": {
       "obtain": "[Unidentified] Defeat this monster in Hollow Zero 1 time to obtain its data",
       "quote": "None",
@@ -118631,7 +118633,9 @@
     "rarity": 3,
     "type": "Special",
     "description": "Unknown",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/zzz/assets/monsters/Monster_MazingerGoldenBomb.webp"
+    },
     "card": {
       "obtain": "[Unidentified] Defeat this monster in Hollow Zero 1 time to obtain its data",
       "quote": "None",
@@ -202252,7 +202256,9 @@
     "rarity": 1,
     "type": "Public Security",
     "description": "Unknown",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/zzz/assets/monsters/Monster_HeavySoldierPro.webp"
+    },
     "card": {
       "obtain": "[Unidentified] Defeat this monster in Hollow Zero 1 time to obtain its data",
       "quote": "None",
@@ -202298,7 +202304,9 @@
     "rarity": 1,
     "type": "Public Security",
     "description": "Unknown",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/zzz/assets/monsters/Monster_MeleeSoldierPro.webp"
+    },
     "card": {
       "obtain": "[Unidentified] Defeat this monster in Hollow Zero 1 time to obtain its data",
       "quote": "None",
@@ -202344,7 +202352,9 @@
     "rarity": 1,
     "type": "Public Security",
     "description": "Unknown",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/zzz/assets/monsters/Monster_RangeSoldierPro.webp"
+    },
     "card": {
       "obtain": "[Unidentified] Defeat this monster in Hollow Zero 1 time to obtain its data",
       "quote": "None",
@@ -216096,7 +216106,9 @@
     "rarity": 1,
     "type": "Corrupted",
     "description": "Unknown",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/zzz/assets/monsters/Monster_UVARavenPro.webp"
+    },
     "card": {
       "obtain": "[Unidentified] Defeat this monster in Hollow Zero 1 time to obtain its data",
       "quote": "None",
@@ -296561,7 +296573,9 @@
     "rarity": 3,
     "type": "Special",
     "description": "According to urban legends among Hollow Raiders, Golden Bangboo keep collecting Dennies and Gear Coins in the Hollow for one purpose: extracting the metals needed to crowdfund the construction of the Golden Mecha. (Of course, this \"gold\" is actually a chrome-copper alloy — only this could provide enough strength to support such a magnificent frame.)\nWhen the Golden Mecha is completed, the Bangboo with the highest contribution will enter the cockpit surrounded by fellow Bangboo, transforming into the Golden Mecha Mechboo to crush enemies who dare attack Golden Bangboo with flashy and powerful combat techniques.\n\"Gold Rush,\" \"Molten Gold Beam,\" \"Golden Missile\"...\nThe skill names might sound weird, but the Bangboo think they're super cool!\n\"Look! It's the Golden Mecha Mechboo!\" \"D—Don't be scared! If we take that thing down, we'll be rich!\"...\nEven though evil Hollow Raiders often treat it like a walking vault, the Bangboo still think it's absolutely awesome!",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/zzz/assets/monsters/Monster_MazingerGoldenBomb.webp"
+    },
     "monsterInfo": {
       "11571": {
         "id": 11571,

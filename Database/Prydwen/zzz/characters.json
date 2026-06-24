@@ -8,7 +8,7 @@
     "sourcePath": "/zenless/characters/alice",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Physical",
       "specialty": "Anomaly",
@@ -16,7 +16,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/alice-card-3068331af0bc.webp"
+      "card": "Prydwen/zzz/assets/characters/alice-card-3068331af0bc.webp",
+      "full": "Prydwen/zzz/assets/characters/alice-a3e05b9a7470.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/alice.json",
     "recommendationSections": [
@@ -28,7 +29,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 46
+    "assetCount": 48
   },
   {
     "id": "anby-demara",
@@ -39,7 +40,7 @@
     "sourcePath": "/zenless/characters/anby-demara",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Electric",
       "specialty": "Stun",
@@ -47,7 +48,8 @@
       "rarity": "A"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/anby-demara-card-420d54a053fa.webp"
+      "card": "Prydwen/zzz/assets/characters/anby-demara-card-420d54a053fa.webp",
+      "full": "Prydwen/zzz/assets/characters/anby-9f2294728151.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/anby-demara.json",
     "recommendationSections": [
@@ -59,7 +61,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 35
+    "assetCount": 36
   },
   {
     "id": "anby-demara-soldier-0",
@@ -70,7 +72,7 @@
     "sourcePath": "/zenless/characters/anby-demara-soldier-0",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Electric",
       "specialty": "Attack",
@@ -78,7 +80,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/anby-demara-soldier-0-card-757f03b93a63.webp"
+      "card": "Prydwen/zzz/assets/characters/anby-demara-soldier-0-card-757f03b93a63.webp",
+      "full": "Prydwen/zzz/assets/characters/anby-soldier-0-4b592e93ab8e.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/anby-demara-soldier-0.json",
     "recommendationSections": [
@@ -101,7 +104,7 @@
     "sourcePath": "/zenless/characters/anton",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Electric",
       "specialty": "Attack",
@@ -109,7 +112,8 @@
       "rarity": "A"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/anton-card-e474583d3963.webp"
+      "card": "Prydwen/zzz/assets/characters/anton-card-e474583d3963.webp",
+      "full": "Prydwen/zzz/assets/characters/anton-4e5e8d4cf8c5.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/anton.json",
     "recommendationSections": [
@@ -121,7 +125,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 40
+    "assetCount": 41
   },
   {
     "id": "aria",
@@ -132,7 +136,7 @@
     "sourcePath": "/zenless/characters/aria",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Ether",
       "specialty": "Anomaly",
@@ -140,7 +144,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/aria-card-85e6eab1e21b.webp"
+      "card": "Prydwen/zzz/assets/characters/aria-card-85e6eab1e21b.webp",
+      "full": "Prydwen/zzz/assets/characters/aria-746e633109ad.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/aria.json",
     "recommendationSections": [
@@ -152,7 +157,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 43
+    "assetCount": 44
   },
   {
     "id": "astra-yao",
@@ -163,7 +168,7 @@
     "sourcePath": "/zenless/characters/astra-yao",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Ether",
       "specialty": "Support",
@@ -171,7 +176,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/astra-yao-card-9e47eb946906.webp"
+      "card": "Prydwen/zzz/assets/characters/astra-yao-card-9e47eb946906.webp",
+      "full": "Prydwen/zzz/assets/characters/astra-yao-524011997577.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/astra-yao.json",
     "recommendationSections": [
@@ -182,7 +188,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 53
+    "assetCount": 56
   },
   {
     "id": "banyue",
@@ -193,7 +199,7 @@
     "sourcePath": "/zenless/characters/banyue",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Fire",
       "specialty": "Rupture",
@@ -201,7 +207,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/banyue-card-0c1cb4ce5ba5.webp"
+      "card": "Prydwen/zzz/assets/characters/banyue-card-0c1cb4ce5ba5.webp",
+      "full": "Prydwen/zzz/assets/characters/banyue-f74ed4cfb61e.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/banyue.json",
     "recommendationSections": [
@@ -213,7 +220,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 42
+    "assetCount": 41
   },
   {
     "id": "ben",
@@ -224,7 +231,7 @@
     "sourcePath": "/zenless/characters/ben",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Fire",
       "specialty": "Defence",
@@ -232,104 +239,10 @@
       "rarity": "A"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/ben-card-46b1afc0f1e3.webp"
+      "card": "Prydwen/zzz/assets/characters/ben-card-46b1afc0f1e3.webp",
+      "full": "Prydwen/zzz/assets/characters/ben-453d193f0424.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/ben.json",
-    "recommendationSections": [
-      "best-w-engines",
-      "best-disk-drives-sets",
-      "best-disk-drives-stats",
-      "best-endgame-stats",
-      "skill-priority",
-      "synergy",
-      "teams"
-    ],
-    "assetCount": 44
-  },
-  {
-    "id": "billy-kid",
-    "provider": "Prydwen",
-    "game": "zzz",
-    "name": "Billy",
-    "slug": "billy-kid",
-    "sourcePath": "/zenless/characters/billy-kid",
-    "contentStatus": "live",
-    "statusLabels": [],
-    "updatedText": "27/May/2026",
-    "facts": {
-      "attribute": "Physical",
-      "specialty": "Attack",
-      "faction": "Cunning Hares",
-      "rarity": "A"
-    },
-    "art": {
-      "card": "Prydwen/zzz/assets/characters/billy-kid-card-6206f07f5204.webp"
-    },
-    "pageFile": "Prydwen/zzz/pages/characters/billy-kid.json",
-    "recommendationSections": [
-      "best-w-engines",
-      "best-disk-drives-sets",
-      "best-disk-drives-stats",
-      "best-endgame-stats",
-      "skill-priority",
-      "synergy",
-      "teams"
-    ],
-    "assetCount": 44
-  },
-  {
-    "id": "billy-starlight",
-    "provider": "Prydwen",
-    "game": "zzz",
-    "name": "Billy - Starlight",
-    "slug": "billy-starlight",
-    "sourcePath": "/zenless/characters/billy-starlight",
-    "contentStatus": "live",
-    "statusLabels": [
-      "New"
-    ],
-    "updatedText": "27/May/2026",
-    "facts": {
-      "attribute": "Physical",
-      "specialty": "Rupture",
-      "faction": "Cunning Hares",
-      "rarity": "S"
-    },
-    "art": {
-      "card": "Prydwen/zzz/assets/characters/billy-starlight-card-0ed8eb7c555e.webp"
-    },
-    "pageFile": "Prydwen/zzz/pages/characters/billy-starlight.json",
-    "recommendationSections": [
-      "best-w-engines",
-      "best-disk-drives-sets",
-      "best-disk-drives-stats",
-      "best-endgame-stats",
-      "skill-priority",
-      "synergy",
-      "teams"
-    ],
-    "assetCount": 49
-  },
-  {
-    "id": "burnice",
-    "provider": "Prydwen",
-    "game": "zzz",
-    "name": "Burnice",
-    "slug": "burnice",
-    "sourcePath": "/zenless/characters/burnice",
-    "contentStatus": "live",
-    "statusLabels": [],
-    "updatedText": "27/May/2026",
-    "facts": {
-      "attribute": "Fire",
-      "specialty": "Anomaly",
-      "faction": "Sons of Calydon",
-      "rarity": "S"
-    },
-    "art": {
-      "card": "Prydwen/zzz/assets/characters/burnice-card-293c8567a0e0.webp"
-    },
-    "pageFile": "Prydwen/zzz/pages/characters/burnice.json",
     "recommendationSections": [
       "best-w-engines",
       "best-disk-drives-sets",
@@ -342,6 +255,102 @@
     "assetCount": 46
   },
   {
+    "id": "billy-kid",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Billy",
+    "slug": "billy-kid",
+    "sourcePath": "/zenless/characters/billy-kid",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "attribute": "Physical",
+      "specialty": "Attack",
+      "faction": "Cunning Hares",
+      "rarity": "A"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/billy-kid-card-6206f07f5204.webp",
+      "full": "Prydwen/zzz/assets/characters/billy-142f00f4ec7a.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/billy-kid.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 45
+  },
+  {
+    "id": "billy-starlight",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Billy - Starlight",
+    "slug": "billy-starlight",
+    "sourcePath": "/zenless/characters/billy-starlight",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "17/June/2026",
+    "facts": {
+      "attribute": "Physical",
+      "specialty": "Rupture",
+      "faction": "Cunning Hares",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/billy-starlight-card-0ed8eb7c555e.webp",
+      "full": "Prydwen/zzz/assets/characters/billy-starlight-9a905fdf1730.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/billy-starlight.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 47
+  },
+  {
+    "id": "burnice",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Burnice",
+    "slug": "burnice",
+    "sourcePath": "/zenless/characters/burnice",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "attribute": "Fire",
+      "specialty": "Anomaly",
+      "faction": "Sons of Calydon",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/burnice-card-293c8567a0e0.webp",
+      "full": "Prydwen/zzz/assets/characters/burnice-00756e804618.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/burnice.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 48
+  },
+  {
     "id": "caesar",
     "provider": "Prydwen",
     "game": "zzz",
@@ -350,7 +359,7 @@
     "sourcePath": "/zenless/characters/caesar",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Physical",
       "specialty": "Defence",
@@ -358,7 +367,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/caesar-card-1391fa604454.webp"
+      "card": "Prydwen/zzz/assets/characters/caesar-card-1391fa604454.webp",
+      "full": "Prydwen/zzz/assets/characters/caesar-b1d63aed5ee9.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/caesar.json",
     "recommendationSections": [
@@ -370,7 +380,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 59
+    "assetCount": 57
   },
   {
     "id": "cissia",
@@ -381,7 +391,7 @@
     "sourcePath": "/zenless/characters/cissia",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Electric",
       "specialty": "Attack",
@@ -389,7 +399,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/cissia-card-2e12f3602dee.webp"
+      "card": "Prydwen/zzz/assets/characters/cissia-card-2e12f3602dee.webp",
+      "full": "Prydwen/zzz/assets/characters/cissia-5a04d57305a5.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/cissia.json",
     "recommendationSections": [
@@ -401,7 +412,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 45
+    "assetCount": 46
   },
   {
     "id": "claret",
@@ -440,7 +451,7 @@
     "sourcePath": "/zenless/characters/corin",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Physical",
       "specialty": "Attack",
@@ -448,7 +459,8 @@
       "rarity": "A"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/corin-card-61bc3852fb48.webp"
+      "card": "Prydwen/zzz/assets/characters/corin-card-61bc3852fb48.webp",
+      "full": "Prydwen/zzz/assets/characters/corin-04cc14dacf63.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/corin.json",
     "recommendationSections": [
@@ -460,7 +472,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 43
+    "assetCount": 44
   },
   {
     "id": "dialyn",
@@ -471,7 +483,7 @@
     "sourcePath": "/zenless/characters/dialyn",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Physical",
       "specialty": "Stun",
@@ -479,7 +491,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/dialyn-card-0237631c9941.webp"
+      "card": "Prydwen/zzz/assets/characters/dialyn-card-0237631c9941.webp",
+      "full": "Prydwen/zzz/assets/characters/dialyn-ff43f11449fb.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/dialyn.json",
     "recommendationSections": [
@@ -491,7 +504,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 51
+    "assetCount": 50
   },
   {
     "id": "ellen",
@@ -502,7 +515,7 @@
     "sourcePath": "/zenless/characters/ellen",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Ice",
       "specialty": "Attack",
@@ -510,71 +523,10 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/ellen-card-3b3592fe3c69.webp"
+      "card": "Prydwen/zzz/assets/characters/ellen-card-3b3592fe3c69.webp",
+      "full": "Prydwen/zzz/assets/characters/ellen-aaf7bba6a047.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/ellen.json",
-    "recommendationSections": [
-      "best-w-engines",
-      "best-disk-drives-sets",
-      "best-disk-drives-stats",
-      "best-endgame-stats",
-      "skill-priority",
-      "synergy",
-      "teams"
-    ],
-    "assetCount": 47
-  },
-  {
-    "id": "evelyn",
-    "provider": "Prydwen",
-    "game": "zzz",
-    "name": "Evelyn",
-    "slug": "evelyn",
-    "sourcePath": "/zenless/characters/evelyn",
-    "contentStatus": "live",
-    "statusLabels": [],
-    "updatedText": "27/May/2026",
-    "facts": {
-      "attribute": "Fire",
-      "specialty": "Attack",
-      "faction": "Stars of Lyra",
-      "rarity": "S"
-    },
-    "art": {
-      "card": "Prydwen/zzz/assets/characters/evelyn-card-a426018184c5.webp"
-    },
-    "pageFile": "Prydwen/zzz/pages/characters/evelyn.json",
-    "recommendationSections": [
-      "best-w-engines",
-      "best-disk-drives-sets",
-      "best-disk-drives-stats",
-      "best-endgame-stats",
-      "skill-priority",
-      "synergy",
-      "teams"
-    ],
-    "assetCount": 41
-  },
-  {
-    "id": "grace-howard",
-    "provider": "Prydwen",
-    "game": "zzz",
-    "name": "Grace",
-    "slug": "grace-howard",
-    "sourcePath": "/zenless/characters/grace-howard",
-    "contentStatus": "live",
-    "statusLabels": [],
-    "updatedText": "27/May/2026",
-    "facts": {
-      "attribute": "Electric",
-      "specialty": "Anomaly",
-      "faction": "Belobog Heavy Industries",
-      "rarity": "S"
-    },
-    "art": {
-      "card": "Prydwen/zzz/assets/characters/grace-howard-card-a5d17776bed9.webp"
-    },
-    "pageFile": "Prydwen/zzz/pages/characters/grace-howard.json",
     "recommendationSections": [
       "best-w-engines",
       "best-disk-drives-sets",
@@ -587,25 +539,58 @@
     "assetCount": 48
   },
   {
-    "id": "harumasa",
+    "id": "evelyn",
     "provider": "Prydwen",
     "game": "zzz",
-    "name": "Harumasa",
-    "slug": "harumasa",
-    "sourcePath": "/zenless/characters/harumasa",
+    "name": "Evelyn",
+    "slug": "evelyn",
+    "sourcePath": "/zenless/characters/evelyn",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
-      "attribute": "Electric",
+      "attribute": "Fire",
       "specialty": "Attack",
-      "faction": "Section 6",
+      "faction": "Stars of Lyra",
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/harumasa-card-0942d53bcdf0.webp"
+      "card": "Prydwen/zzz/assets/characters/evelyn-card-a426018184c5.webp",
+      "full": "Prydwen/zzz/assets/characters/evelyn-40cacb3ba05c.webp"
     },
-    "pageFile": "Prydwen/zzz/pages/characters/harumasa.json",
+    "pageFile": "Prydwen/zzz/pages/characters/evelyn.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 43
+  },
+  {
+    "id": "grace-howard",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Grace",
+    "slug": "grace-howard",
+    "sourcePath": "/zenless/characters/grace-howard",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "attribute": "Electric",
+      "specialty": "Anomaly",
+      "faction": "Belobog Heavy Industries",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/grace-howard-card-a5d17776bed9.webp",
+      "full": "Prydwen/zzz/assets/characters/grace-818f41423b37.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/grace-howard.json",
     "recommendationSections": [
       "best-w-engines",
       "best-disk-drives-sets",
@@ -618,6 +603,38 @@
     "assetCount": 47
   },
   {
+    "id": "harumasa",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Harumasa",
+    "slug": "harumasa",
+    "sourcePath": "/zenless/characters/harumasa",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "attribute": "Electric",
+      "specialty": "Attack",
+      "faction": "Section 6",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/harumasa-card-0942d53bcdf0.webp",
+      "full": "Prydwen/zzz/assets/characters/harumasa-afd749153d1a.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/harumasa.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 46
+  },
+  {
     "id": "hugo",
     "provider": "Prydwen",
     "game": "zzz",
@@ -626,7 +643,7 @@
     "sourcePath": "/zenless/characters/hugo",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Ice",
       "specialty": "Attack",
@@ -634,7 +651,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/hugo-card-fde01c1b39cb.webp"
+      "card": "Prydwen/zzz/assets/characters/hugo-card-fde01c1b39cb.webp",
+      "full": "Prydwen/zzz/assets/characters/hugo-d2392f8cd65f.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/hugo.json",
     "recommendationSections": [
@@ -646,7 +664,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 41
+    "assetCount": 42
   },
   {
     "id": "jane-doe",
@@ -657,7 +675,7 @@
     "sourcePath": "/zenless/characters/jane-doe",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Physical",
       "specialty": "Anomaly",
@@ -665,7 +683,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/jane-doe-card-59c7bcdfa19b.webp"
+      "card": "Prydwen/zzz/assets/characters/jane-doe-card-59c7bcdfa19b.webp",
+      "full": "Prydwen/zzz/assets/characters/jane-doe-aa74499f3c05.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/jane-doe.json",
     "recommendationSections": [
@@ -688,7 +707,7 @@
     "sourcePath": "/zenless/characters/ju-fufu",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Fire",
       "specialty": "Stun",
@@ -696,7 +715,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/ju-fufu-card-ed2fd934b5c6.webp"
+      "card": "Prydwen/zzz/assets/characters/ju-fufu-card-ed2fd934b5c6.webp",
+      "full": "Prydwen/zzz/assets/characters/ju-fufu-083ada970294.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/ju-fufu.json",
     "recommendationSections": [
@@ -708,7 +728,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 52
+    "assetCount": 54
   },
   {
     "id": "koleda",
@@ -719,7 +739,7 @@
     "sourcePath": "/zenless/characters/koleda",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Fire",
       "specialty": "Stun",
@@ -727,9 +747,106 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/koleda-card-e10522f3c747.webp"
+      "card": "Prydwen/zzz/assets/characters/koleda-card-e10522f3c747.webp",
+      "full": "Prydwen/zzz/assets/characters/koleda-b9f1d4fb1aad.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/koleda.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 44
+  },
+  {
+    "id": "lighter",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Lighter",
+    "slug": "lighter",
+    "sourcePath": "/zenless/characters/lighter",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "attribute": "Fire",
+      "specialty": "Stun",
+      "faction": "Sons of Calydon",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/lighter-card-f660ea594d47.webp",
+      "full": "Prydwen/zzz/assets/characters/lighter-dc3a9a94a8f3.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/lighter.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 49
+  },
+  {
+    "id": "lucia",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Lucia",
+    "slug": "lucia",
+    "sourcePath": "/zenless/characters/lucia",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "attribute": "Ether",
+      "specialty": "Support",
+      "faction": "Spook Shack",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/lucia-card-a0197eabc9aa.webp",
+      "full": "Prydwen/zzz/assets/characters/lucia-b3f7c6c00e60.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/lucia.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 41
+  },
+  {
+    "id": "lucy",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Lucy",
+    "slug": "lucy",
+    "sourcePath": "/zenless/characters/lucy",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "14/June/2026",
+    "facts": {
+      "attribute": "Fire",
+      "specialty": "Support",
+      "faction": "Sons of Calydon",
+      "rarity": "A"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/lucy-card-d81b3141fde3.webp",
+      "full": "Prydwen/zzz/assets/characters/lucy-8522160730d1.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/lucy.json",
     "recommendationSections": [
       "best-w-engines",
       "best-disk-drives-sets",
@@ -742,87 +859,26 @@
     "assetCount": 48
   },
   {
-    "id": "lighter",
+    "id": "lycaon",
     "provider": "Prydwen",
     "game": "zzz",
-    "name": "Lighter",
-    "slug": "lighter",
-    "sourcePath": "/zenless/characters/lighter",
+    "name": "Lycaon",
+    "slug": "lycaon",
+    "sourcePath": "/zenless/characters/lycaon",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
-      "attribute": "Fire",
+      "attribute": "Ice",
       "specialty": "Stun",
-      "faction": "Sons of Calydon",
+      "faction": "Victoria Housekeeping Co.",
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/lighter-card-f660ea594d47.webp"
+      "card": "Prydwen/zzz/assets/characters/lycaon-card-e706e87c67e0.webp",
+      "full": "Prydwen/zzz/assets/characters/lycaon-81640864dfb8.webp"
     },
-    "pageFile": "Prydwen/zzz/pages/characters/lighter.json",
-    "recommendationSections": [
-      "best-w-engines",
-      "best-disk-drives-sets",
-      "best-disk-drives-stats",
-      "best-endgame-stats",
-      "skill-priority",
-      "synergy",
-      "teams"
-    ],
-    "assetCount": 51
-  },
-  {
-    "id": "lucia",
-    "provider": "Prydwen",
-    "game": "zzz",
-    "name": "Lucia",
-    "slug": "lucia",
-    "sourcePath": "/zenless/characters/lucia",
-    "contentStatus": "live",
-    "statusLabels": [],
-    "updatedText": "27/May/2026",
-    "facts": {
-      "attribute": "Ether",
-      "specialty": "Support",
-      "faction": "Spook Shack",
-      "rarity": "S"
-    },
-    "art": {
-      "card": "Prydwen/zzz/assets/characters/lucia-card-a0197eabc9aa.webp"
-    },
-    "pageFile": "Prydwen/zzz/pages/characters/lucia.json",
-    "recommendationSections": [
-      "best-w-engines",
-      "best-disk-drives-sets",
-      "best-disk-drives-stats",
-      "best-endgame-stats",
-      "skill-priority",
-      "synergy",
-      "teams"
-    ],
-    "assetCount": 39
-  },
-  {
-    "id": "lucy",
-    "provider": "Prydwen",
-    "game": "zzz",
-    "name": "Lucy",
-    "slug": "lucy",
-    "sourcePath": "/zenless/characters/lucy",
-    "contentStatus": "live",
-    "statusLabels": [],
-    "updatedText": "27/May/2026",
-    "facts": {
-      "attribute": "Fire",
-      "specialty": "Support",
-      "faction": "Sons of Calydon",
-      "rarity": "A"
-    },
-    "art": {
-      "card": "Prydwen/zzz/assets/characters/lucy-card-d81b3141fde3.webp"
-    },
-    "pageFile": "Prydwen/zzz/pages/characters/lucy.json",
+    "pageFile": "Prydwen/zzz/pages/characters/lycaon.json",
     "recommendationSections": [
       "best-w-engines",
       "best-disk-drives-sets",
@@ -835,37 +891,6 @@
     "assetCount": 52
   },
   {
-    "id": "lycaon",
-    "provider": "Prydwen",
-    "game": "zzz",
-    "name": "Lycaon",
-    "slug": "lycaon",
-    "sourcePath": "/zenless/characters/lycaon",
-    "contentStatus": "live",
-    "statusLabels": [],
-    "updatedText": "27/May/2026",
-    "facts": {
-      "attribute": "Ice",
-      "specialty": "Stun",
-      "faction": "Victoria Housekeeping Co.",
-      "rarity": "S"
-    },
-    "art": {
-      "card": "Prydwen/zzz/assets/characters/lycaon-card-e706e87c67e0.webp"
-    },
-    "pageFile": "Prydwen/zzz/pages/characters/lycaon.json",
-    "recommendationSections": [
-      "best-w-engines",
-      "best-disk-drives-sets",
-      "best-disk-drives-stats",
-      "best-endgame-stats",
-      "skill-priority",
-      "synergy",
-      "teams"
-    ],
-    "assetCount": 53
-  },
-  {
     "id": "manato",
     "provider": "Prydwen",
     "game": "zzz",
@@ -874,7 +899,7 @@
     "sourcePath": "/zenless/characters/manato",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Fire",
       "specialty": "Rupture",
@@ -882,7 +907,8 @@
       "rarity": "A"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/manato-card-8bec1392bd95.webp"
+      "card": "Prydwen/zzz/assets/characters/manato-card-8bec1392bd95.webp",
+      "full": "Prydwen/zzz/assets/characters/manato-7f4b75e1c466.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/manato.json",
     "recommendationSections": [
@@ -905,7 +931,7 @@
     "sourcePath": "/zenless/characters/miyabi",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Ice",
       "specialty": "Anomaly",
@@ -913,7 +939,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/miyabi-card-6ec442dcf805.webp"
+      "card": "Prydwen/zzz/assets/characters/miyabi-card-6ec442dcf805.webp",
+      "full": "Prydwen/zzz/assets/characters/miyabi-77dced7400d3.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/miyabi.json",
     "recommendationSections": [
@@ -925,7 +952,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 49
+    "assetCount": 50
   },
   {
     "id": "nangong-yu",
@@ -936,7 +963,7 @@
     "sourcePath": "/zenless/characters/nangong-yu",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Ether",
       "specialty": "Stun",
@@ -944,7 +971,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/nangong-yu-card-f9e4f44692a6.webp"
+      "card": "Prydwen/zzz/assets/characters/nangong-yu-card-f9e4f44692a6.webp",
+      "full": "Prydwen/zzz/assets/characters/nangong-yu-27f17dc0ec46.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/nangong-yu.json",
     "recommendationSections": [
@@ -956,7 +984,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 49
+    "assetCount": 50
   },
   {
     "id": "nekomata",
@@ -967,7 +995,7 @@
     "sourcePath": "/zenless/characters/nekomata",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Physical",
       "specialty": "Attack",
@@ -975,7 +1003,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/nekomata-card-b9bdae637f03.webp"
+      "card": "Prydwen/zzz/assets/characters/nekomata-card-b9bdae637f03.webp",
+      "full": "Prydwen/zzz/assets/characters/nekomata-c03741fa6151.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/nekomata.json",
     "recommendationSections": [
@@ -987,7 +1016,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 43
+    "assetCount": 44
   },
   {
     "id": "nicole-demara",
@@ -998,7 +1027,7 @@
     "sourcePath": "/zenless/characters/nicole-demara",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Ether",
       "specialty": "Support",
@@ -1006,7 +1035,8 @@
       "rarity": "A"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/nicole-demara-card-dc98ff775994.webp"
+      "card": "Prydwen/zzz/assets/characters/nicole-demara-card-dc98ff775994.webp",
+      "full": "Prydwen/zzz/assets/characters/nicole-373bd7d328b4.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/nicole-demara.json",
     "recommendationSections": [
@@ -1018,7 +1048,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 54
+    "assetCount": 60
   },
   {
     "id": "norma",
@@ -1039,7 +1069,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/norma-card-37b562dcffd6.webp"
+      "card": "Prydwen/zzz/assets/characters/norma-card-37b562dcffd6.webp",
+      "full": "Prydwen/zzz/assets/characters/norma-f4dbe2ca9e48.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/norma.json",
     "recommendationSections": [
@@ -1047,7 +1078,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 3
+    "assetCount": 4
   },
   {
     "id": "orphie-and-magus",
@@ -1058,7 +1089,7 @@
     "sourcePath": "/zenless/characters/orphie-and-magus",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "17/June/2026",
     "facts": {
       "attribute": "Fire",
       "specialty": "Attack",
@@ -1066,7 +1097,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/orphie-and-magus-card-bfbdf4b3ab71.webp"
+      "card": "Prydwen/zzz/assets/characters/orphie-and-magus-card-bfbdf4b3ab71.webp",
+      "full": "Prydwen/zzz/assets/characters/orphie-magus-e44aeea91ef9.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/orphie-and-magus.json",
     "recommendationSections": [
@@ -1078,7 +1110,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 49
+    "assetCount": 50
   },
   {
     "id": "pan-yinhu",
@@ -1089,7 +1121,7 @@
     "sourcePath": "/zenless/characters/pan-yinhu",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Physical",
       "specialty": "Defence",
@@ -1097,7 +1129,8 @@
       "rarity": "A"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/pan-yinhu-card-51234ed58c65.webp"
+      "card": "Prydwen/zzz/assets/characters/pan-yinhu-card-51234ed58c65.webp",
+      "full": "Prydwen/zzz/assets/characters/pan-yinhu-68a0ebf14907.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/pan-yinhu.json",
     "recommendationSections": [
@@ -1109,7 +1142,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 44
+    "assetCount": 46
   },
   {
     "id": "phoenix",
@@ -1148,7 +1181,7 @@
     "sourcePath": "/zenless/characters/piper",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Physical",
       "specialty": "Anomaly",
@@ -1156,7 +1189,8 @@
       "rarity": "A"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/piper-card-65240c1c1fef.webp"
+      "card": "Prydwen/zzz/assets/characters/piper-card-65240c1c1fef.webp",
+      "full": "Prydwen/zzz/assets/characters/piper-647be76ff554.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/piper.json",
     "recommendationSections": [
@@ -1179,7 +1213,7 @@
     "sourcePath": "/zenless/characters/promeia",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Ice",
       "specialty": "Anomaly",
@@ -1187,7 +1221,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/promeia-card-a03c6cd391d2.webp"
+      "card": "Prydwen/zzz/assets/characters/promeia-card-a03c6cd391d2.webp",
+      "full": "Prydwen/zzz/assets/characters/promeia-1aa59734d9f7.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/promeia.json",
     "recommendationSections": [
@@ -1199,7 +1234,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 44
+    "assetCount": 43
   },
   {
     "id": "pulchra",
@@ -1210,7 +1245,7 @@
     "sourcePath": "/zenless/characters/pulchra",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Physical",
       "specialty": "Stun",
@@ -1218,7 +1253,8 @@
       "rarity": "A"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/pulchra-card-dc3c088abe6b.webp"
+      "card": "Prydwen/zzz/assets/characters/pulchra-card-dc3c088abe6b.webp",
+      "full": "Prydwen/zzz/assets/characters/pulchra-cb6f22fc2a37.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/pulchra.json",
     "recommendationSections": [
@@ -1229,7 +1265,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 56
+    "assetCount": 52
   },
   {
     "id": "pyrois",
@@ -1238,26 +1274,32 @@
     "name": "Pyrois",
     "slug": "pyrois",
     "sourcePath": "/zenless/characters/pyrois",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "statusLabels": [
-      "3.x"
+      "New"
     ],
-    "updatedText": "12/May/2026",
+    "updatedText": "17/June/2026",
     "facts": {
-      "attribute": "Unknown",
-      "specialty": "Unknown",
-      "faction": "Unknown"
+      "attribute": "Ether",
+      "specialty": "Attack",
+      "faction": "Unknown",
+      "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/pyrois-card-4b8909998042.webp"
+      "card": "Prydwen/zzz/assets/characters/pyrois-card-4b8909998042.webp",
+      "full": "Prydwen/zzz/assets/characters/pyrois-4c5bdf76ba79.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/pyrois.json",
     "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
       "skill-priority",
       "synergy",
       "teams"
     ],
-    "assetCount": 1
+    "assetCount": 34
   },
   {
     "id": "qingyi",
@@ -1268,7 +1310,7 @@
     "sourcePath": "/zenless/characters/qingyi",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Electric",
       "specialty": "Stun",
@@ -1276,7 +1318,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/qingyi-card-d4428a1ed5b7.webp"
+      "card": "Prydwen/zzz/assets/characters/qingyi-card-d4428a1ed5b7.webp",
+      "full": "Prydwen/zzz/assets/characters/qingyi-41754ae2151b.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/qingyi.json",
     "recommendationSections": [
@@ -1288,7 +1331,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 50
+    "assetCount": 49
   },
   {
     "id": "remielle",
@@ -1327,7 +1370,7 @@
     "sourcePath": "/zenless/characters/rina",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Electric",
       "specialty": "Support",
@@ -1335,7 +1378,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/rina-card-c1e5e69afdcd.webp"
+      "card": "Prydwen/zzz/assets/characters/rina-card-c1e5e69afdcd.webp",
+      "full": "Prydwen/zzz/assets/characters/rina-e34c2ce33c6c.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/rina.json",
     "recommendationSections": [
@@ -1347,7 +1391,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 47
+    "assetCount": 40
   },
   {
     "id": "roxy",
@@ -1386,7 +1430,7 @@
     "sourcePath": "/zenless/characters/seed",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Electric",
       "specialty": "Attack",
@@ -1394,7 +1438,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/seed-card-77ec54cdcb4f.webp"
+      "card": "Prydwen/zzz/assets/characters/seed-card-77ec54cdcb4f.webp",
+      "full": "Prydwen/zzz/assets/characters/seed-03f6455f3ab6.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/seed.json",
     "recommendationSections": [
@@ -1406,7 +1451,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 51
+    "assetCount": 52
   },
   {
     "id": "seth",
@@ -1417,7 +1462,7 @@
     "sourcePath": "/zenless/characters/seth",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Electric",
       "specialty": "Defence",
@@ -1425,7 +1470,8 @@
       "rarity": "A"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/seth-card-e376b296a914.webp"
+      "card": "Prydwen/zzz/assets/characters/seth-card-e376b296a914.webp",
+      "full": "Prydwen/zzz/assets/characters/seth-953351a4c1cf.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/seth.json",
     "recommendationSections": [
@@ -1437,7 +1483,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 35
+    "assetCount": 36
   },
   {
     "id": "severian",
@@ -1476,13 +1522,14 @@
     "sourcePath": "/zenless/characters/sigrid",
     "contentStatus": "beta",
     "statusLabels": [
-      "3.x"
+      "3.1"
     ],
-    "updatedText": "12/May/2026",
+    "updatedText": "20/June/2026",
     "facts": {
-      "attribute": "Unknown",
-      "specialty": "Unknown",
-      "faction": "Unknown"
+      "attribute": "Ice",
+      "specialty": "Attack",
+      "faction": "Unknown",
+      "rarity": "S"
     },
     "art": {
       "card": "Prydwen/zzz/assets/characters/sigrid-card-30ecebbe136b.webp"
@@ -1493,7 +1540,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 1
+    "assetCount": 3
   },
   {
     "id": "soldier-11",
@@ -1504,7 +1551,7 @@
     "sourcePath": "/zenless/characters/soldier-11",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Fire",
       "specialty": "Attack",
@@ -1512,7 +1559,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/soldier-11-card-e38c6c583d4e.webp"
+      "card": "Prydwen/zzz/assets/characters/soldier-11-card-e38c6c583d4e.webp",
+      "full": "Prydwen/zzz/assets/characters/soldier-11-c75f3e4f2c7c.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/soldier-11.json",
     "recommendationSections": [
@@ -1535,7 +1583,7 @@
     "sourcePath": "/zenless/characters/soukaku",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Ice",
       "specialty": "Support",
@@ -1543,7 +1591,8 @@
       "rarity": "A"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/soukaku-card-023ed4ea14e8.webp"
+      "card": "Prydwen/zzz/assets/characters/soukaku-card-023ed4ea14e8.webp",
+      "full": "Prydwen/zzz/assets/characters/soukaku-b11bd2e95ae9.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/soukaku.json",
     "recommendationSections": [
@@ -1555,7 +1604,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 46
+    "assetCount": 45
   },
   {
     "id": "sunbringer",
@@ -1594,7 +1643,7 @@
     "sourcePath": "/zenless/characters/sunna",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Physical",
       "specialty": "Support",
@@ -1602,7 +1651,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/sunna-card-f8d4ae5bce0c.webp"
+      "card": "Prydwen/zzz/assets/characters/sunna-card-f8d4ae5bce0c.webp",
+      "full": "Prydwen/zzz/assets/characters/sunna-48eb55c7efc5.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/sunna.json",
     "recommendationSections": [
@@ -1613,7 +1663,7 @@
       "skill-priority",
       "synergy"
     ],
-    "assetCount": 49
+    "assetCount": 50
   },
   {
     "id": "the-storyteller",
@@ -1652,7 +1702,7 @@
     "sourcePath": "/zenless/characters/trigger",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Electric",
       "specialty": "Stun",
@@ -1660,7 +1710,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/trigger-card-d5bdbb4a5e1f.webp"
+      "card": "Prydwen/zzz/assets/characters/trigger-card-d5bdbb4a5e1f.webp",
+      "full": "Prydwen/zzz/assets/characters/trigger-516b78c67182.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/trigger.json",
     "recommendationSections": [
@@ -1681,11 +1732,11 @@
     "name": "Velina",
     "slug": "velina",
     "sourcePath": "/zenless/characters/velina",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "statusLabels": [
-      "3.0"
+      "New"
     ],
-    "updatedText": "07/June/2026",
+    "updatedText": "17/June/2026",
     "facts": {
       "attribute": "Wind",
       "specialty": "Anomaly",
@@ -1693,15 +1744,20 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/velina-card-4d32c038d75f.webp"
+      "card": "Prydwen/zzz/assets/characters/velina-card-4d32c038d75f.webp",
+      "full": "Prydwen/zzz/assets/characters/velina-542b0a87d52a.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/velina.json",
     "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
       "skill-priority",
       "synergy",
       "teams"
     ],
-    "assetCount": 3
+    "assetCount": 35
   },
   {
     "id": "vivian",
@@ -1712,7 +1768,7 @@
     "sourcePath": "/zenless/characters/vivian",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Ether",
       "specialty": "Anomaly",
@@ -1720,7 +1776,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/vivian-card-482bcf62de00.webp"
+      "card": "Prydwen/zzz/assets/characters/vivian-card-482bcf62de00.webp",
+      "full": "Prydwen/zzz/assets/characters/vivian-68e896e0a867.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/vivian.json",
     "recommendationSections": [
@@ -1732,7 +1789,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 45
+    "assetCount": 46
   },
   {
     "id": "yanagi",
@@ -1743,7 +1800,7 @@
     "sourcePath": "/zenless/characters/yanagi",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Electric",
       "specialty": "Anomaly",
@@ -1751,7 +1808,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/yanagi-card-177b4ce659ce.webp"
+      "card": "Prydwen/zzz/assets/characters/yanagi-card-177b4ce659ce.webp",
+      "full": "Prydwen/zzz/assets/characters/yanagi-aef45a0459b1.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/yanagi.json",
     "recommendationSections": [
@@ -1774,7 +1832,7 @@
     "sourcePath": "/zenless/characters/ye-shunguang",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "17/June/2026",
     "facts": {
       "attribute": "Physical",
       "specialty": "Attack",
@@ -1782,7 +1840,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/ye-shunguang-card-df29444e0ab2.webp"
+      "card": "Prydwen/zzz/assets/characters/ye-shunguang-card-df29444e0ab2.webp",
+      "full": "Prydwen/zzz/assets/characters/ye-shunguang-bdd0b5faf96c.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/ye-shunguang.json",
     "recommendationSections": [
@@ -1794,7 +1853,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 42
+    "assetCount": 43
   },
   {
     "id": "yidhari",
@@ -1805,7 +1864,7 @@
     "sourcePath": "/zenless/characters/yidhari",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Ice",
       "specialty": "Rupture",
@@ -1813,7 +1872,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/yidhari-card-c82ab9906959.webp"
+      "card": "Prydwen/zzz/assets/characters/yidhari-card-c82ab9906959.webp",
+      "full": "Prydwen/zzz/assets/characters/yidhari-59c8d8a979e1.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/yidhari.json",
     "recommendationSections": [
@@ -1836,7 +1896,7 @@
     "sourcePath": "/zenless/characters/yixuan",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Ether",
       "specialty": "Rupture",
@@ -1844,7 +1904,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/yixuan-card-ad55b88ea3b6.webp"
+      "card": "Prydwen/zzz/assets/characters/yixuan-card-ad55b88ea3b6.webp",
+      "full": "Prydwen/zzz/assets/characters/yixuan-b71d7689bc1d.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/yixuan.json",
     "recommendationSections": [
@@ -1856,7 +1917,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 41
+    "assetCount": 42
   },
   {
     "id": "ukinami-yuzuha",
@@ -1867,7 +1928,7 @@
     "sourcePath": "/zenless/characters/ukinami-yuzuha",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Physical",
       "specialty": "Support",
@@ -1875,7 +1936,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/ukinami-yuzuha-card-67a7255fc026.webp"
+      "card": "Prydwen/zzz/assets/characters/ukinami-yuzuha-card-67a7255fc026.webp",
+      "full": "Prydwen/zzz/assets/characters/yuzuha-46be4cd37d33.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/ukinami-yuzuha.json",
     "recommendationSections": [
@@ -1886,7 +1948,7 @@
       "skill-priority",
       "synergy"
     ],
-    "assetCount": 44
+    "assetCount": 45
   },
   {
     "id": "zhao",
@@ -1897,7 +1959,7 @@
     "sourcePath": "/zenless/characters/zhao",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Ice",
       "specialty": "Defence",
@@ -1905,7 +1967,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/zhao-card-f906d81225cd.webp"
+      "card": "Prydwen/zzz/assets/characters/zhao-card-f906d81225cd.webp",
+      "full": "Prydwen/zzz/assets/characters/zhao-7c786d3090b7.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/zhao.json",
     "recommendationSections": [
@@ -1928,7 +1991,7 @@
     "sourcePath": "/zenless/characters/zhu-yuan",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "27/May/2026",
+    "updatedText": "14/June/2026",
     "facts": {
       "attribute": "Ether",
       "specialty": "Attack",
@@ -1936,7 +1999,8 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/zhu-yuan-card-1a293fc449ae.webp"
+      "card": "Prydwen/zzz/assets/characters/zhu-yuan-card-1a293fc449ae.webp",
+      "full": "Prydwen/zzz/assets/characters/zhu-yuan-1eeccac3020e.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/zhu-yuan.json",
     "recommendationSections": [
@@ -1948,6 +2012,6 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 44
+    "assetCount": 45
   }
 ]

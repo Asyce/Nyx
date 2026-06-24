@@ -15,14 +15,15 @@ const GP_GAMES = [
 
 const GP_FNS = ['Character Materials', 'Artifact Sorter', 'Wish Tracker'];
 
-/* each game key → its page, so the top rail icons navigate to the page they represent */
+/* each game key → its page, so the top rail icons navigate to the page they
+   represent. Extensionless clean URLs (Cloudflare serves /hsr from hsr.html). */
 const GP_PAGE_HREF = {
-  nyx:  'simulacrum.html',
-  gi:   'genshin.html',
-  hsr:  'honkai-star-rail.html',
-  zzz:  'zenless-zone-zero.html',
-  wuwa: 'wuthering-waves.html',
-  ae:   'arknights-endfield.html',
+  nyx:  '/nyx',
+  gi:   '/genshin',
+  hsr:  '/hsr',
+  zzz:  '/zzz',
+  wuwa: '/wuwa',
+  ae:   '/endfield',
 };
 
 const GP_CODES = [
@@ -244,31 +245,30 @@ function GPBanner({ w, h, next, compact, ph, title, five, fiveIcon, status, four
   const stripRarity = (s) => String(s || '').replace(/^\s*\d+\u2605\s*/, '').trim();
   const fiveName = stripRarity(five) || (next ? '???' : 'Skirk');
   const stars = chips || (fourStars || ['Bennett', 'Xiangling', 'Fischl']).map((s) => ({ key:s, text:s }));
+  // G39: plain square card (no hex .rim). G32: name top-left, 4★ icons bottom-left,
+  // end date bottom-right, and no "Ongoing" label (only a small "Up next" flag).
   return (
-    <div className={'gp-ban f' + (compact ? ' compact' : '')} style={{ width: w ? w + 'px' : undefined }}>
+    <div className={'gp-ban f' + (compact ? ' compact' : '') + (next ? ' isnext' : '')} style={{ width: w ? w + 'px' : undefined }}>
       <div className="ban-art-card" style={{ height: h ? h + 'px' : undefined }}>
-        <span className="rim"></span>
         {usePh
           ? <div className="art ph"><span className="phnote">banner art</span></div>
           : <div className="art" style={{ backgroundImage:'url(' + (art || '../assets/banner/skirk_namecard.png') + ')' }}></div>}
         <div className="shade"></div>
-        <div className={'status f' + (next ? ' next' : '')}>
-          <span className="dot"></span><span>{status || (next ? 'Up next' : 'Ongoing')}</span>
-        </div>
+        <div className="ban-name">{fiveName}</div>
+        {next && <span className="ban-flag">Up next</span>}
         <div className="ban-bottom">
-          <div className="bt">{fiveName}</div>
-          {stars.length > 0 && (
-            <div className="four-icons">
-              {stars.map((s) => (
-                s.icon
-                  ? <img key={s.key || s.text} src={s.icon} alt={stripRarity(s.text)} title={stripRarity(s.text)} draggable="false" />
-                  : <span key={s.key || s.text} className="four-init" title={stripRarity(s.text)}>{(stripRarity(s.text) || '?').slice(0, 1)}</span>
-              ))}
-            </div>
-          )}
+          {stars.length > 0
+            ? <div className="four-icons">
+                {stars.map((s) => (
+                  s.icon
+                    ? <img key={s.key || s.text} src={s.icon} alt={stripRarity(s.text)} title={stripRarity(s.text)} draggable="false" />
+                    : <span key={s.key || s.text} className="four-init" title={stripRarity(s.text)}>{(stripRarity(s.text) || '?').slice(0, 1)}</span>
+                ))}
+              </div>
+            : <span className="four-icons" />}
+          <div className="ban-date">{time || (next ? 'Date pending' : 'Ends soon')}</div>
         </div>
       </div>
-      <div className="ban-duration">{time || (next ? 'Date pending' : 'Ends soon')}</div>
     </div>
   );
 }

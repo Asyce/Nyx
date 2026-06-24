@@ -10,7 +10,8 @@
     "description": "The <te href=850124>bodyguard</te> of <te href=850091>Jinzhou</te>'s <te href=850084>Magistrate</te>, known for having an icy personality.\nOnce regarded as the Asura of Calamity, Sanhua is now a taciturn guardian. She has learned to maintain inner calmness amidst the chaotic frequencies, and the things that once frightened her now fuel her determination.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_7_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_shanhua_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_shanhua_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodySanhua.webp"
     },
     "profile": {
       "charaInfo": {
@@ -3115,7 +3116,8 @@
     "description": "Baizhi is a researcher in <te href=850076>Remnant</te> Ecoacoustics.\nBaizhi's once unfulfilled wish has now manifested as her loyal companion. The Remnant Creature You'tan is her source of healing powers, and a lifelong research focus.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_6_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_bailian_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_bailian_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyBaizhi.webp"
     },
     "profile": {
       "charaInfo": {
@@ -9286,7 +9288,8 @@
     "description": "An artist for hire trying to make a living. Reserved and timid, she is not good with words but speaks volumes through her art, where her creations come to life with impossible authenticity.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_27_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhezhi_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhezhi_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyZhezhi.webp"
     },
     "profile": {
       "charaInfo": {
@@ -12295,7 +12298,8 @@
     "description": "A voluble and whimsical antique appraiser.\nKnown for creating limericks on the spot, she presents her appraisals with flair and precision. She sets up a stall on the street, ensuring antiques find their way to those who truly cherish them.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_31_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_youhu_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_youhu_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyYouhu.webp"
     },
     "profile": {
       "charaInfo": {
@@ -15410,7 +15414,8 @@
     "description": "The second daughter of <te href=850101>Montelli</te> and an art investor unbound by convention, Carlotta moves seamlessly through social circles and business transactions while quietly handling the family's unspeakable \"troubles\" in secret.\nThe blooming of a \"gem,\" the taking of a life—In her own name, she reshapes reality, giving it a new dimension.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_32_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_kelaita_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_kelaita_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyKelaita.webp"
     },
     "profile": {
       "charaInfo": {
@@ -18740,7 +18745,8 @@
     "description": "Hailing from Ashinohara, the Miko of Flaming Sakura now remains in Lahai-Roi as the last and only member of the Special Response Force.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_67_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Feixue_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Feixue_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyFeiXue.webp"
     },
     "profile": {
       "charaInfo": {
@@ -22402,7 +22408,8 @@
     "description": "Lucilla, President of Startorch Academy and idealist with both feet on the ground. She holds quiet vigil over her students as they rise to challenge the very sky.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_66_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Luosela_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Luosela_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLuoSeLa.webp"
     },
     "profile": {
       "charaInfo": {
@@ -25557,7 +25564,8 @@
     "description": "Chixia is a spirited young Jinzhou Patroller who lights up the streets of Jinzhou. She's always ready to be the hero someone needs.\nShe fuses such passion into the bullets that blast out of her fingertips.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_2_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_maxiaofang_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_maxiaofang_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyZhixia.webp"
     },
     "profile": {
       "charaInfo": {
@@ -31743,7 +31751,8 @@
     "description": "Mortefi, a skilled expert in Applied Tacetite Study and a member of the Academy’s Department of Safety, possesses the unique ability to transform his accumulated frustration into fiery flames.\nFrom a burning wrath that consumes all, the red dragon shall descend.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_13_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_baer_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_baer_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyMofeite.webp"
     },
     "profile": {
       "charaInfo": {
@@ -34659,7 +34668,8 @@
     "description": "Changli is a counselor serving the <te href=850091>Jinzhou</te> <te href=850084>Magistrate</te>, and former Secretary-General in the capital. \nShrouded in flames, she's fated to burn brightly until her final embers.\nWith her fiery determination and strategic mindset, she rises to power, always thinking ahead to reach her ultimate goal.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_26_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_changli_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_changli_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyChangli.webp"
     },
     "profile": {
       "charaInfo": {
@@ -37753,7 +37763,8 @@
     "description": "Brant, the captain of <te href=850096>Rinascita</te>'s <te href=850108>Troupe of Fools</te>, is a free spirit and romantic. Unpredictable and full of life, he is the beating heart of the troupe.\n\nOn stage, he slips into countless roles, donning new masks to breathe life into every story. Yet beyond the spotlight, he is unwaveringly genuine, offering nothing but true sincerity to those around him.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_44_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Bulante_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Bulante_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyBulante.webp"
     },
     "profile": {
       "charaInfo": {
@@ -41153,7 +41164,8 @@
     "description": "A Gladiator of Septimont, a radiant star of the arena.\nFiery and straightforward, Lupa lives like a wild lone wolf. As long as she can savor the adrenaline rush of battle, she doesn't mind if that same fire ends up consuming her whole.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_46_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_lupa_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_lupa_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLupa.webp"
     },
     "profile": {
       "charaInfo": {
@@ -44568,7 +44580,8 @@
     "description": "Cold and decisive, she is the \"Discord Slayer\" who hunts across Solaris and the same \"Fiend of Ever-burning Flame\" spoken of in whispers. Now, she serves as a Black Shores Consultant, active across the world.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_55_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Jiabeilina_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Jiabeilina_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyJiabeilina.webp"
     },
     "profile": {
       "charaInfo": {
@@ -48219,7 +48232,8 @@
     "description": "Mornye, a Spacetrek Collective Research Institute engineer and a Department of Exostrider Engineering professor at Startorch Academy.\nEach step on her prosthetic legs carries her toward the stars of her dreams.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_61_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Moning_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Moning_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyMoning.webp"
     },
     "profile": {
       "charaInfo": {
@@ -51583,7 +51597,8 @@
     "description": "Once an Exostrider Synchronist of Rabelle College, she is now a digital ghost who sings quietly amongst stars.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_53_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Aimisi_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Aimisi_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyAimisi.webp"
     },
     "profile": {
       "charaInfo": {
@@ -55406,7 +55421,8 @@
     "description": "Denia, a Department of Voidmatters student at Startorch Academy. Also, a professional slacker who has mastered the art of dozing through courses.\nStill, she hardly misses any campus event, always there to flash her \"gentle\" smile to one and all.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_64_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_daniya_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_daniya_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyDaNiYa.webp"
     },
     "profile": {
       "charaInfo": {
@@ -62488,7 +62504,8 @@
     "description": "Yinlin is a skilled <te href=850087>Patroller</te> and powerful Natural Resonator. After being suspended from her duties at the Public Security Bureau, she must now pursue hidden evils in secrecy.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_17_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_yinlin_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_yinlin_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyYinlin.webp"
     },
     "profile": {
       "charaInfo": {
@@ -65482,7 +65499,8 @@
     "description": "Yuanwu owns a boxing gym where he teaches <te href=850114>Leihuangquan</te> and health management. He is well-respected in the community for his cordial demeanor and pleasant temperament.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_15_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_yuanwu_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_yuanwu_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyYuanwu.webp"
     },
     "profile": {
       "charaInfo": {
@@ -68722,7 +68740,8 @@
     "description": "Jinhsi, <te href=850118>Magistrate of Jinzhou</te>, gently brightens the hopes of her people, like rays of winter sunlight. \nAs the revered Sentinel's Appointed Resonator, she displays humility and wholeheartedly commits herself to guiding her people towards a brilliant future.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_24_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jinxi_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jinxi_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyJinxi.webp"
     },
     "profile": {
       "charaInfo": {
@@ -72119,7 +72138,8 @@
     "description": "Principal Investigator at <te href=850091>Jinzhou</te> <te href=850092>Huaxu Academy</te>, and the Academy's youngest multi-disciplinary scientist. \nA gentle soul with a sharp mind, whose relentless passion for Automata Mechanics always translates into constructive findings and insights.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_25_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_xiangliyao_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_xiangliyao_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyXiangliyao.webp"
     },
     "profile": {
       "charaInfo": {
@@ -75331,7 +75351,8 @@
     "description": "Ephor of Septimont. The undying sun eternally ablaze, and a banner under which defeat does not exist.\nShe comes. She sees. She conquers.\nWith blade held high, she awaits the next challenger or the fate that claims it cannot be defied.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_51_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_aogusita_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_aogusita_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyAogusita.webp"
     },
     "profile": {
       "charaInfo": {
@@ -78750,7 +78771,8 @@
     "description": "Taoist of Mengzhou, Black Shores Consultant, feng shui master, and veteran forum dweller. \nEasygoing and well-traveled, Buling will \"bling\" whatever you seek.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_58_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Buling_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Buling_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyBuling.webp"
     },
     "profile": {
       "charaInfo": {
@@ -82071,7 +82093,8 @@
     "description": "An Edgerunner like Lucy, though completely different in her M.O.\nA whimsical fireball who's always ready to raze out your troubles with her shotgun.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_69_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Libeika_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Libeika_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLiBeiKa.webp"
     },
     "profile": {
       "charaInfo": {
@@ -85663,7 +85686,8 @@
     "description": "Yangyang is an Outrider of the <te href=850086>Midnight Rangers</te>.\nOnce sheltered, now a fighter. She soars with the wind to protect others, like a skylark in flight.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_1_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_yangyang_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_yangyang_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyYangyang.webp"
     },
     "profile": {
       "charaInfo": {
@@ -88547,7 +88571,8 @@
     "description": "Aalto is an enigmatic Information Broker, known for his elusive nature and welcoming smile. Underneath the facade, he is closely affiliated with <te href=850109>the Black Shores</te>.\nRumor has it he'll provide any information at the right price.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_12_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_qiushui_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_qiushui_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyQiushui.webp"
     },
     "profile": {
       "charaInfo": {
@@ -91505,7 +91530,8 @@
     "description": "Jiyan, leader of the <te href=850086>Midnight Rangers</te>, acts with swift and resolute righteousness. He possesses the formidable ability to conjure a powerful Qingloong from the winds, making him invincible on the battlefield.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_11_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jiyan_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jiyan_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyJiyan.webp"
     },
     "profile": {
       "charaInfo": {
@@ -100918,7 +100944,8 @@
     "description": "A wandering bard from <te href=850096>Rinascita</te>, Ciaccona. She sings not only for the Divinity, but also for the common folk.\nShe records stories along her journeys, turning them into songs that evoke laughter, emotion, and tears in both the storytellers and the audience.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_37_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_xiakong_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_xiakong_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyXiakong.webp"
     },
     "profile": {
       "charaInfo": {
@@ -106903,7 +106930,8 @@
     "description": "Cartethyia, the wandering knight who travels across <te href=850096>Rinascita</te>. Formerly known as the Blessed Maiden, the vessel of Divinity, and the Queen of Gale and Tide, she went by the name Fleurdelys. Now, she is simply a free and unfettered wandering knight.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_40_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_katixiya_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_katixiya_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyKatixiya.webp"
     },
     "profile": {
       "charaInfo": {
@@ -110774,7 +110802,8 @@
     "description": "She is favored by fate under one name, and swept away by it in another. Yet never once has she been defeated, nor has she ever yielded.\nNow, witness the defiant Priestess. Witness what keeps her striding forward, never to look back. Witness how she walks the intricate web of destiny and becomes the only answer.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_48_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_younuo_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_younuo_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyYounuo.webp"
     },
     "profile": {
       "charaInfo": {
@@ -114661,7 +114690,8 @@
     "description": "Former senior agent of Mingting's Internal Security Agency. \n\nThough enmity filled his younger days, loyalty defined his later years. However, scapegoated for a murder, he is now but a blind swordsman wandering the world alone.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_56_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Qiuyuan_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Qiuyuan_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyQiuyuan.webp"
     },
     "profile": {
       "charaInfo": {
@@ -117770,7 +117800,8 @@
     "description": "Sigrika, a student of Startorch Academy and a Resonator of Royan Runes.\nDetermined to live up to others' expectations and become a true Solsworn, she devotes herself fully to every challenge.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_65_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Xigelika_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Xigelika_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyXigelika.webp"
     },
     "profile": {
       "charaInfo": {
@@ -130115,7 +130146,8 @@
     "description": "Navigator at <te href=850090>Lollo Logistics</te> and leader of a transport squad.\nBorn in a mountain village in Yuezhou, Lumi's sincere and caring nature brings warmth to everyone around her.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_30_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_dengdeng_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_dengdeng_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyDengdeng.webp"
     },
     "profile": {
       "charaInfo": {
@@ -133225,7 +133257,8 @@
     "description": "The Shorekeeper, guardian of <te href=850109>the Black Shores</te>—this title alone once defined her. \nBut desires, bonds, and emotions… She only began to understand these things after meeting you.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_28_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_shouanren_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_shouanren_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyShouanren.webp"
     },
     "profile": {
       "charaInfo": {
@@ -136388,7 +136421,8 @@
     "description": "Phoebe, <te href=850100>Acolyte</te> of the <te href=850099>Order of the Deep</te>, is a young woman of quiet devotion. With a kind heart, she fulfills her duties with unwavering diligence. Her prayers, like the light she carries, offer comfort and peace to all.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_45_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Feibi_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Feibi_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyFeibi.webp"
     },
     "profile": {
       "charaInfo": {
@@ -139463,7 +139497,8 @@
     "description": "A member of Averardo Vault's security team and holder of \"Best Employee\" for longer than she cares to count.\n \nShe has made plenty of plans for her free time, but for now, her biggest mission is simple: clocking out on time.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_38_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zanni_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zanni_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyZanni.webp"
     },
     "profile": {
       "charaInfo": {
@@ -142957,7 +142992,8 @@
     "description": "\"Just an ordinary student.\"\n\nCalmly, she introduces herself, a faint iridescent shimmer flickering in her eyes. Again, the structures of the world reveal themselves in her vision. Narrowing her eyes, she singles out the very thread that tugs at life itself.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_57_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Qianxiao_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Qianxiao_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyQianxiao.webp"
     },
     "profile": {
       "charaInfo": {
@@ -146513,7 +146549,8 @@
     "description": "A Startorch Academy prep student whose head-turning, electric style hides an inner focus as explosive as a coiled spring.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_60_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Linnai_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Linnai_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLinnai.webp"
     },
     "profile": {
       "charaInfo": {
@@ -150111,7 +150148,8 @@
     "description": "The attending physician of Startorch Academy's Resonator Nursing Unit, renowned for his keen intellect and unshakable composure. Rumor has it nobody has ever seen him lose control.\n \nHe is a keen listener adept at dissecting the shadows in a person's heart. From the unhealing wound on his hand, golden blood seeps, a substance he can summon to become a blade of utmost precision.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_54_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Luhesi_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Luhesi_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyLuhesi.webp"
     },
     "profile": {
       "charaInfo": {
@@ -153497,7 +153535,8 @@
     "description": "An Edgerunner from the Night City. The Netrunner of her crew.\nWith a heavy debt in her heart, she deliberately keeps a distance from people. Even those who are closest to her know little of her past.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_68_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Luxi_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Luxi_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLuXi.webp"
     },
     "profile": {
       "charaInfo": {
@@ -157387,7 +157426,8 @@
     "description": "Taoqi is the director of border defense at the <te href=850085>Ministry of Development</te>. Despite her seemingly laid-back demeanor, she consistently proves to be a dependable and supportive individual, always lending her hand to those in need. Taoqi is not only a reliable colleague, but also a trustworthy friend that people can confide in.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_9_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_taohua_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_taohua_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyTaoqi.webp"
     },
     "profile": {
       "charaInfo": {
@@ -160456,7 +160496,8 @@
     "description": "With a vengeful blade of condensed blood in hand, Ranger Danjin hunts down thieves and bandits for retribution. \nShe journeys to distant lands in pursuit of justice.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_10_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_micai_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_micai_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyDanjin.webp"
     },
     "profile": {
       "charaInfo": {
@@ -163544,7 +163585,8 @@
     "description": "A Bloom Bearer of <te href=850109>the Black Shores</te>, Camellya is free-spirited and dangerously charming.\nShe roams <te href=850079>Solaris</te> in search of talent, immersing herself in the present and relishing its pleasures, all while remaining true to herself, unburdened by thoughts of the past or future.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_29_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_chun_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_chun_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyChun.webp"
     },
     "profile": {
       "charaInfo": {
@@ -173128,7 +173170,8 @@
     "description": "Assistant, prop master, and improv comedian, Roccia is always there to make sure the <te href=850108>Troupe of Fools</te> is at the ready.\n\nThe Magic Box she carries appears to hold the world, or perhaps she had recreated a world inside the box.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_33_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_luokeke_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_luokeke_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLuokeke.webp"
     },
     "profile": {
       "charaInfo": {
@@ -176112,7 +176155,8 @@
     "description": "The current head of <te href=850094>Fisalia</te>, Cantarella, the Bane.\nA mysterious noblewoman, her beauty as captivating as it is perilous. She resides in a crown-like castle perched atop the mountain, where illusory dreams flow like streams, meticulously spun by her own hands.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_34_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_kanteleila_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_kanteleila_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyKanteleila.webp"
     },
     "profile": {
       "charaInfo": {
@@ -179520,7 +179564,8 @@
     "description": "Phrolova, a Fractsidus Overseer walking the fine line between life and death, an uncanny, deadly conductor.\nA silent wave of her baton is enough to attune the very frequencies of being and conduct the symphonies of \"souls.\" The music of hers can sculpt a better world or, just as easily, summon a legion to wreak havoc.",
     "assets": {
       "icon": "Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_41_UI.webp",
-      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_fuluoluo_UI.webp"
+      "background": "Nanoka/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_fuluoluo_UI.webp",
+      "stand": "Nanoka/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyFuluoluo.webp"
     },
     "profile": {
       "charaInfo": {

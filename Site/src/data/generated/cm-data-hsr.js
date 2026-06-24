@@ -9792,6 +9792,1012 @@
   ],
   "roster": [
     {
+      "id": "hsr-yao-guang",
+      "n": "Yao Guang",
+      "title": "Gleam of a Thousand Plumes",
+      "slug": "yao-guang",
+      "updated": 1781474400000,
+      "sourceOrder": 0,
+      "icon": "../../Database/Nanoka/hsr/assets/characters/round/1502.webp",
+      "art": "../../Database/Prydwen/hsr/assets/characters/yao-guang-116e442805a2.webp",
+      "card": "../../Database/Prydwen/hsr/assets/characters/yao-guang-84b9f69c7269.webp",
+      "holidayArtPool": [
+        "../../Database/HsrWiki/holiday-art/yaoguang/01-Chinese New Year 2026.png",
+        "../../Database/HsrWiki/holiday-art/yaoguang/02-Chinese New Year 2026 Yao Guang.png",
+        "../../Database/HsrWiki/holiday-art/yaoguang/03-Chinese New Year 2026 2.png"
+      ],
+      "signatureLightCone": {
+        "id": "23054",
+        "name": "When She Decided to See",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/23054.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/23054.webp",
+        "path": "Elation"
+      },
+      "signatureWeapon": {
+        "id": "23054",
+        "name": "When She Decided to See",
+        "path": "Elation",
+        "educated": false
+      },
+      "signatureWeaponId": "23054",
+      "signatureWeaponName": "When She Decided to See",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/23054.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/23054.webp"
+      ],
+      "status": "live",
+      "labels": [],
+      "r": 5,
+      "el": "Physical",
+      "path": "Elation",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_Passive.webp"
+      ],
+      "req": {
+        "ascension": [
+          {
+            "id": "110431",
+            "name": "Invasive Clot",
+            "qty": 65,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110431.webp"
+          },
+          {
+            "id": "116001",
+            "name": "Whimsy Wax",
+            "qty": 15,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+          },
+          {
+            "id": "116002",
+            "name": "Dreamweave Steel",
+            "qty": 15,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+          },
+          {
+            "id": "116003",
+            "name": "Lucid Awl",
+            "qty": 15,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+          }
+        ],
+        "talents": [
+          {
+            "id": "116001",
+            "name": "Whimsy Wax",
+            "qty": 41,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+          },
+          {
+            "id": "116002",
+            "name": "Dreamweave Steel",
+            "qty": 56,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+          },
+          {
+            "id": "116003",
+            "name": "Lucid Awl",
+            "qty": 58,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 8,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110261",
+            "name": "The Fluffy Hand-drawn Storyboards",
+            "qty": 18,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+          },
+          {
+            "id": "110262",
+            "name": "The Fluffy Serialization Memorial Issue",
+            "qty": 69,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+          },
+          {
+            "id": "110263",
+            "name": "The Fluffy Collector's Edition",
+            "qty": 139,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+          },
+          {
+            "id": "110508",
+            "name": "Vanquished Flow's Reticence",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 16000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 15000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 24000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 65000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 6,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                }
+              ]
+            },
+            {
+              "cost": 250000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 12,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 15000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 24000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 65000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 6,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                }
+              ]
+            },
+            {
+              "cost": 250000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 12,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 15000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 24000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 65000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 6,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                }
+              ]
+            },
+            {
+              "cost": 250000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 12,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "Vanquished Flow's Reticence",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                }
+              ]
+            }
+          ]
+        ],
+        "talentBase": [
+          {
+            "id": "116001",
+            "name": "Whimsy Wax",
+            "qty": 15,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+          },
+          {
+            "id": "116002",
+            "name": "Dreamweave Steel",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+          },
+          {
+            "id": "116003",
+            "name": "Lucid Awl",
+            "qty": 36,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 2,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110261",
+            "name": "The Fluffy Hand-drawn Storyboards",
+            "qty": 7,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+          },
+          {
+            "id": "110262",
+            "name": "The Fluffy Serialization Memorial Issue",
+            "qty": 28,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+          },
+          {
+            "id": "110263",
+            "name": "The Fluffy Collector's Edition",
+            "qty": 59,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+          },
+          {
+            "id": "110508",
+            "name": "Vanquished Flow's Reticence",
+            "qty": 3,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+          }
+        ],
+        "talentBaseCost": 1260000,
+        "ascCost": 308000,
+        "talentCost": 3000000,
+        "currency": 3693000,
+        "weapon": {
+          "name": "When She Decided to See",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/23054.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/23054.webp",
+          "path": "Elation",
+          "items": [
+            {
+              "id": "116001",
+              "name": "Whimsy Wax",
+              "qty": 20,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+            },
+            {
+              "id": "116002",
+              "name": "Dreamweave Steel",
+              "qty": 20,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+            },
+            {
+              "id": "116003",
+              "name": "Lucid Awl",
+              "qty": 14,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+            },
+            {
+              "id": "110261",
+              "name": "The Fluffy Hand-drawn Storyboards",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+            },
+            {
+              "id": "110262",
+              "name": "The Fluffy Serialization Memorial Issue",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+            },
+            {
+              "id": "110263",
+              "name": "The Fluffy Collector's Edition",
+              "qty": 15,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+            }
+          ],
+          "cost": 385000
+        }
+      },
+      "recent": 1
+    },
+    {
       "id": "hsr-evanescia",
       "n": "Evanescia",
       "title": "The Demoiselle in Charge",
@@ -9825,6 +10831,12 @@
       "r": 5,
       "el": "Physical",
       "path": "Elation",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -10826,6 +11838,12 @@
       "r": 5,
       "el": "Fire",
       "path": "Nihility",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -11822,8 +12840,7 @@
       ],
       "r": 5,
       "el": "Fire",
-      "path": "Erudition",
-      "recent": 1
+      "path": "Erudition"
     },
     {
       "id": "hsr-cerydra",
@@ -11859,6 +12876,12 @@
       "r": 5,
       "el": "Wind",
       "path": "Harmony",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -12856,6 +13879,12 @@
       "r": 5,
       "el": "Lightning",
       "path": "Nihility",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1308_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1308_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1308_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1308_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -13855,6 +14884,12 @@
       "r": 5,
       "el": "Lightning",
       "path": "Remembrance",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1402_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1402_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1402_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1402_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -14859,6 +15894,12 @@
       "r": 5,
       "el": "Wind",
       "path": "Erudition",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1405_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1405_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1405_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1405_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -15859,6 +16900,12 @@
       "r": 5,
       "el": "Quantum",
       "path": "Hunt",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1015_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1015_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1015_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1015_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -16856,6 +17903,12 @@
       "r": 5,
       "el": "Physical",
       "path": "Erudition",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1302_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1302_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1302_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1302_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -17832,6 +18885,10 @@
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1504.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/ashveil-b9f510eb9e49.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/ashveil-052ce1666926.webp",
+      "holidayArtPool": [
+        "../../Database/HsrWiki/holiday-art/ashveil/01-Chinese New Year 2026 Ashveil Welt.png",
+        "../../Database/HsrWiki/holiday-art/ashveil/02-Chinese New Year 2026 2.png"
+      ],
       "signatureLightCone": {
         "id": "23056",
         "name": "The Finale of a Lie",
@@ -17856,6 +18913,12 @@
       "r": 5,
       "el": "Lightning",
       "path": "Hunt",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -18854,6 +19917,12 @@
       "r": 5,
       "el": "Imaginary",
       "path": "Preservation",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1304_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1304_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1304_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1304_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -19853,6 +20922,12 @@
       "r": 5,
       "el": "Lightning",
       "path": "Abundance",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1211_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1211_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1211_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1211_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -20850,6 +21925,12 @@
       "r": 5,
       "el": "Wind",
       "path": "Nihility",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1307_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1307_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1307_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1307_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -21853,6 +22934,12 @@
       "r": 5,
       "el": "Wind",
       "path": "Destruction",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1205_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1205_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1205_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1205_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -22857,6 +23944,12 @@
       "r": 5,
       "el": "Physical",
       "path": "Hunt",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1315_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1315_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1315_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1315_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -23855,6 +24948,12 @@
       "r": 5,
       "el": "Wind",
       "path": "Harmony",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1101_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1101_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1101_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1101_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -24854,6 +25953,12 @@
       "r": 5,
       "el": "Quantum",
       "path": "Remembrance",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1407_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -25851,6 +26956,12 @@
       "r": 5,
       "el": "Quantum",
       "path": "Nihility",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -26849,6 +27960,12 @@
       "r": 5,
       "el": "Physical",
       "path": "Destruction",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1107_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1107_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1107_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1107_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -27847,6 +28964,12 @@
       "r": 5,
       "el": "Ice",
       "path": "Remembrance",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -28824,7 +29947,8 @@
       "art": "../../Database/Prydwen/hsr/assets/characters/dan-heng-imbibitor-lunae-baa0ad20b2b7.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/dan-heng-imbibitor-lunae-84f0773bc3d5.webp",
       "holidayArtPool": [
-        "../../Database/HsrWiki/holiday-art/danhengimbibitorlunae/01-Lantern Festival 2024.png"
+        "../../Database/HsrWiki/holiday-art/danhengimbibitorlunae/01-Lantern Festival 2024.png",
+        "../../Database/HsrWiki/holiday-art/danhengimbibitorlunae/02-Dragon Boat Festival 2026.jpg"
       ],
       "signatureLightCone": {
         "id": "23015",
@@ -28850,6 +29974,12 @@
       "r": 5,
       "el": "Imaginary",
       "path": "Destruction",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1213_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1213_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1213_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1213_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -29848,6 +30978,12 @@
       "r": 5,
       "el": "Physical",
       "path": "Preservation",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -30845,6 +31981,12 @@
       "r": 5,
       "el": "Imaginary",
       "path": "Hunt",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1305_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1305_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1305_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1305_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -31844,6 +32986,12 @@
       "r": 5,
       "el": "Wind",
       "path": "Hunt",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1220_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1220_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1220_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1220_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -32847,6 +33995,12 @@
       "r": 5,
       "el": "Fire",
       "path": "Destruction",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1310_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1310_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1310_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1310_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -33846,6 +35000,12 @@
       "r": 5,
       "el": "Quantum",
       "path": "Preservation",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1208_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1208_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1208_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1208_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -34844,6 +36004,12 @@
       "r": 5,
       "el": "Ice",
       "path": "Preservation",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1104_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1104_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1104_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1104_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -35847,6 +37013,12 @@
       "r": 5,
       "el": "Fire",
       "path": "Erudition",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1003_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1003_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1003_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1003_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -36844,6 +38016,12 @@
       "r": 5,
       "el": "Wind",
       "path": "Abundance",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1217_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1217_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1217_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1217_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -37847,6 +39025,12 @@
       "r": 5,
       "el": "Wind",
       "path": "Remembrance",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1409_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1409_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1409_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1409_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -38847,6 +40031,12 @@
       "r": 5,
       "el": "Physical",
       "path": "Nihility",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -39844,6 +41034,12 @@
       "r": 5,
       "el": "Quantum",
       "path": "Erudition",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1314_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1314_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1314_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1314_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -40842,6 +42038,12 @@
       "r": 5,
       "el": "Fire",
       "path": "Nihility",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1218_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1218_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1218_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1218_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -41845,6 +43047,12 @@
       "r": 5,
       "el": "Lightning",
       "path": "Erudition",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1204_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1204_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1204_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1204_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -42842,6 +44050,12 @@
       "r": 5,
       "el": "Ice",
       "path": "Destruction",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1212_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1212_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1212_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1212_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -43839,6 +45053,12 @@
       "r": 5,
       "el": "Lightning",
       "path": "Nihility",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1005_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1005_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1005_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1005_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -44837,6 +46057,12 @@
       "r": 5,
       "el": "Fire",
       "path": "Abundance",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1222_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1222_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1222_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1222_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -45835,6 +47061,12 @@
       "r": 5,
       "el": "Imaginary",
       "path": "Abundance",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1203_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1203_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1203_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1203_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -46802,7 +48034,7 @@
       "slug": "march-7th-evernight",
       "updated": 1780178400000,
       "sourceOrder": 0,
-      "icon": "../../Database/Prydwen/hsr/assets/characters/silver-wolf-7eec89c1a7e2.webp",
+      "icon": "../../Database/Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
       "iconZoom": 1.18,
       "art": "../../Database/Prydwen/hsr/assets/characters/march-7th-evernight-95ed5616b882.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/march-7th-evernight-787da7cf2b25.webp",
@@ -46816,7 +48048,8 @@
         "../../Database/HsrWiki/holiday-art/march7thevernight/07-Christmas 2024.png",
         "../../Database/HsrWiki/holiday-art/march7thevernight/08-New Year 2026.png",
         "../../Database/HsrWiki/holiday-art/march7thevernight/09-Chinese New Year 2026 Himeko March 7th.png",
-        "../../Database/HsrWiki/holiday-art/march7thevernight/10-Chinese New Year 2026 2.png"
+        "../../Database/HsrWiki/holiday-art/march7thevernight/10-Chinese New Year 2026 2.png",
+        "../../Database/HsrWiki/holiday-art/march7thevernight/11-Dragon Boat Festival 2026.jpg"
       ],
       "signatureLightCone": {
         "id": "23049",
@@ -46940,6 +48173,12 @@
       "r": 5,
       "el": "Imaginary",
       "path": "Destruction",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1404_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1404_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1404_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1404_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -47938,6 +49177,12 @@
       "r": 5,
       "el": "Physical",
       "path": "Destruction",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -48936,6 +50181,12 @@
       "r": 5,
       "el": "Imaginary",
       "path": "Erudition",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1317_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1317_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1317_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1317_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -49957,6 +51208,12 @@
       "r": 5,
       "el": "Physical",
       "path": "Harmony",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1309_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1309_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1309_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1309_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -50956,6 +52213,12 @@
       "r": 5,
       "el": "Ice",
       "path": "Harmony",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1303_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1303_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1303_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1303_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -51950,6 +53213,12 @@
       "r": 5,
       "el": "Wind",
       "path": "Destruction",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1014_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1014_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1014_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1014_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -52954,6 +54223,12 @@
       "r": 5,
       "el": "Quantum",
       "path": "Hunt",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1102_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1102_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1102_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1102_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -53951,6 +55226,12 @@
       "r": 5,
       "el": "Quantum",
       "path": "Nihility",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1006_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1006_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1006_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1006_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -55044,6 +56325,12 @@
       "r": 5,
       "el": "Quantum",
       "path": "Harmony",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1306_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1306_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1306_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1306_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -56038,6 +57325,12 @@
       "r": 5,
       "el": "Fire",
       "path": "Elation",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -57037,6 +58330,12 @@
       "r": 5,
       "el": "Imaginary",
       "path": "Harmony",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1313_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1313_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1313_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1313_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -58040,6 +59339,12 @@
       "r": 5,
       "el": "Fire",
       "path": "Nihility",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -59037,6 +60342,12 @@
       "r": 5,
       "el": "Ice",
       "path": "Erudition",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1401_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1401_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1401_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1401_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -60131,6 +61442,12 @@
       "r": 5,
       "el": "Fire",
       "path": "Hunt",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1112_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1112_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1112_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1112_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -61115,7 +62432,8 @@
         "../../Database/HsrWiki/holiday-art/trailblazerdestruction/10-Halloween 2025.jpg",
         "../../Database/HsrWiki/holiday-art/trailblazerdestruction/11-New Year 2026.png",
         "../../Database/HsrWiki/holiday-art/trailblazerdestruction/12-Chinese New Year 2026 Caelus Stelle.png",
-        "../../Database/HsrWiki/holiday-art/trailblazerdestruction/13-Chinese New Year 2026 2.png"
+        "../../Database/HsrWiki/holiday-art/trailblazerdestruction/13-Chinese New Year 2026 2.png",
+        "../../Database/HsrWiki/holiday-art/trailblazerdestruction/14-Dragon Boat Festival 2026.jpg"
       ],
       "status": "live",
       "labels": [],
@@ -61159,7 +62477,8 @@
             "../../Database/HsrWiki/holiday-art/trailblazerdestruction/10-Halloween 2025.jpg",
             "../../Database/HsrWiki/holiday-art/trailblazerdestruction/11-New Year 2026.png",
             "../../Database/HsrWiki/holiday-art/trailblazerdestruction/12-Chinese New Year 2026 Caelus Stelle.png",
-            "../../Database/HsrWiki/holiday-art/trailblazerdestruction/13-Chinese New Year 2026 2.png"
+            "../../Database/HsrWiki/holiday-art/trailblazerdestruction/13-Chinese New Year 2026 2.png",
+            "../../Database/HsrWiki/holiday-art/trailblazerdestruction/14-Dragon Boat Festival 2026.jpg"
           ],
           "status": "live",
           "labels": [],
@@ -61198,7 +62517,8 @@
             "../../Database/HsrWiki/holiday-art/trailblazerpreservation/10-Halloween 2025.jpg",
             "../../Database/HsrWiki/holiday-art/trailblazerpreservation/11-New Year 2026.png",
             "../../Database/HsrWiki/holiday-art/trailblazerpreservation/12-Chinese New Year 2026 Caelus Stelle.png",
-            "../../Database/HsrWiki/holiday-art/trailblazerpreservation/13-Chinese New Year 2026 2.png"
+            "../../Database/HsrWiki/holiday-art/trailblazerpreservation/13-Chinese New Year 2026 2.png",
+            "../../Database/HsrWiki/holiday-art/trailblazerpreservation/14-Dragon Boat Festival 2026.jpg"
           ],
           "status": "live",
           "labels": [],
@@ -61219,7 +62539,7 @@
           "slug": "trailblazer-harmony",
           "updated": 1780178400000,
           "sourceOrder": 0,
-          "icon": "../../Database/Prydwen/hsr/assets/characters/welt-60cd0853b302.webp",
+          "icon": "../../Database/Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
           "iconZoom": 1.18,
           "art": "../../Database/Prydwen/hsr/assets/characters/trailblazer-harmony-65eb58c4d838.webp",
           "card": "../../Database/Prydwen/hsr/assets/characters/trailblazer-harmony-3804679c33dd.webp",
@@ -61236,7 +62556,8 @@
             "../../Database/HsrWiki/holiday-art/trailblazerharmony/10-Halloween 2025.jpg",
             "../../Database/HsrWiki/holiday-art/trailblazerharmony/11-New Year 2026.png",
             "../../Database/HsrWiki/holiday-art/trailblazerharmony/12-Chinese New Year 2026 Caelus Stelle.png",
-            "../../Database/HsrWiki/holiday-art/trailblazerharmony/13-Chinese New Year 2026 2.png"
+            "../../Database/HsrWiki/holiday-art/trailblazerharmony/13-Chinese New Year 2026 2.png",
+            "../../Database/HsrWiki/holiday-art/trailblazerharmony/14-Dragon Boat Festival 2026.jpg"
           ],
           "status": "live",
           "labels": [],
@@ -61258,7 +62579,7 @@
           "slug": "trailblazer-remembrance",
           "updated": 1780178400000,
           "sourceOrder": 0,
-          "icon": "../../Database/Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+          "icon": "../../Database/Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
           "iconZoom": 1.18,
           "art": "../../Database/Prydwen/hsr/assets/characters/trailblazer-remembrance-f5dae98ced6c.webp",
           "card": "../../Database/Prydwen/hsr/assets/characters/trailblazer-remembrance-eb61b9ef8eaa.webp",
@@ -61275,7 +62596,8 @@
             "../../Database/HsrWiki/holiday-art/trailblazerremembrance/10-Halloween 2025.jpg",
             "../../Database/HsrWiki/holiday-art/trailblazerremembrance/11-New Year 2026.png",
             "../../Database/HsrWiki/holiday-art/trailblazerremembrance/12-Chinese New Year 2026 Caelus Stelle.png",
-            "../../Database/HsrWiki/holiday-art/trailblazerremembrance/13-Chinese New Year 2026 2.png"
+            "../../Database/HsrWiki/holiday-art/trailblazerremembrance/13-Chinese New Year 2026 2.png",
+            "../../Database/HsrWiki/holiday-art/trailblazerremembrance/14-Dragon Boat Festival 2026.jpg"
           ],
           "status": "live",
           "labels": [],
@@ -61297,7 +62619,7 @@
           "slug": "trailblazer-elation",
           "updated": 1780178400000,
           "sourceOrder": 0,
-          "icon": "../../Database/Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+          "icon": "../../Database/Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
           "iconZoom": 1.18,
           "art": "../../Database/Prydwen/hsr/assets/characters/trailblazer-elation-add66215f06a.webp",
           "card": "../../Database/Prydwen/hsr/assets/characters/trailblazer-elation-b7e8d644ade6.webp",
@@ -61314,7 +62636,8 @@
             "../../Database/HsrWiki/holiday-art/trailblazerelation/10-Halloween 2025.jpg",
             "../../Database/HsrWiki/holiday-art/trailblazerelation/11-New Year 2026.png",
             "../../Database/HsrWiki/holiday-art/trailblazerelation/12-Chinese New Year 2026 Caelus Stelle.png",
-            "../../Database/HsrWiki/holiday-art/trailblazerelation/13-Chinese New Year 2026 2.png"
+            "../../Database/HsrWiki/holiday-art/trailblazerelation/13-Chinese New Year 2026 2.png",
+            "../../Database/HsrWiki/holiday-art/trailblazerelation/14-Dragon Boat Festival 2026.jpg"
           ],
           "status": "live",
           "labels": [],
@@ -61369,6 +62692,12 @@
       "r": 5,
       "el": "Quantum",
       "path": "Harmony",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1403_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1403_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1403_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1403_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -62370,6 +63699,12 @@
       "r": 5,
       "el": "Imaginary",
       "path": "Nihility",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1004_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1004_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1004_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1004_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -63369,6 +64704,12 @@
       "r": 5,
       "el": "Ice",
       "path": "Hunt",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1209_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1209_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1209_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1209_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -64330,1005 +65671,6 @@
       }
     },
     {
-      "id": "hsr-yao-guang",
-      "n": "Yao Guang",
-      "title": "Gleam of a Thousand Plumes",
-      "slug": "yao-guang",
-      "updated": 1780178400000,
-      "sourceOrder": 0,
-      "icon": "../../Database/Nanoka/hsr/assets/characters/round/1502.webp",
-      "art": "../../Database/Prydwen/hsr/assets/characters/yao-guang-116e442805a2.webp",
-      "card": "../../Database/Prydwen/hsr/assets/characters/yao-guang-84b9f69c7269.webp",
-      "holidayArtPool": [
-        "../../Database/HsrWiki/holiday-art/yaoguang/01-Chinese New Year 2026.png",
-        "../../Database/HsrWiki/holiday-art/yaoguang/02-Chinese New Year 2026 Yao Guang.png",
-        "../../Database/HsrWiki/holiday-art/yaoguang/03-Chinese New Year 2026 2.png"
-      ],
-      "signatureLightCone": {
-        "id": "23054",
-        "name": "When She Decided to See",
-        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/23054.webp",
-        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/23054.webp",
-        "path": "Elation"
-      },
-      "signatureWeapon": {
-        "id": "23054",
-        "name": "When She Decided to See",
-        "path": "Elation",
-        "educated": false
-      },
-      "signatureWeaponId": "23054",
-      "signatureWeaponName": "When She Decided to See",
-      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/23054.webp",
-      "overviewArtPool": [
-        "../../Database/Nanoka/hsr/assets/lightcones/full/23054.webp"
-      ],
-      "status": "live",
-      "labels": [],
-      "r": 5,
-      "el": "Physical",
-      "path": "Elation",
-      "req": {
-        "ascension": [
-          {
-            "id": "110431",
-            "name": "Invasive Clot",
-            "qty": 65,
-            "rar": 5,
-            "kind": "boss",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110431.webp"
-          },
-          {
-            "id": "116001",
-            "name": "Whimsy Wax",
-            "qty": 15,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-          },
-          {
-            "id": "116002",
-            "name": "Dreamweave Steel",
-            "qty": 15,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-          },
-          {
-            "id": "116003",
-            "name": "Lucid Awl",
-            "qty": 15,
-            "rar": 5,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-          }
-        ],
-        "talents": [
-          {
-            "id": "116001",
-            "name": "Whimsy Wax",
-            "qty": 41,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-          },
-          {
-            "id": "116002",
-            "name": "Dreamweave Steel",
-            "qty": 56,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-          },
-          {
-            "id": "116003",
-            "name": "Lucid Awl",
-            "qty": 58,
-            "rar": 5,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-          },
-          {
-            "id": "241",
-            "name": "Tracks of Destiny",
-            "qty": 8,
-            "rar": 4,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
-          },
-          {
-            "id": "110261",
-            "name": "The Fluffy Hand-drawn Storyboards",
-            "qty": 18,
-            "rar": 2,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
-          },
-          {
-            "id": "110262",
-            "name": "The Fluffy Serialization Memorial Issue",
-            "qty": 69,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-          },
-          {
-            "id": "110263",
-            "name": "The Fluffy Collector's Edition",
-            "qty": 139,
-            "rar": 5,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-          },
-          {
-            "id": "110508",
-            "name": "Vanquished Flow's Reticence",
-            "qty": 12,
-            "rar": 5,
-            "kind": "weekly",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-          }
-        ],
-        "talentStages": [
-          [
-            {
-              "cost": 4000,
-              "items": [
-                {
-                  "id": "110261",
-                  "name": "The Fluffy Hand-drawn Storyboards",
-                  "qty": 2,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
-                },
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 5,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 8000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 16000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 32000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 3,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 120000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 5,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 2,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 4000,
-              "items": [
-                {
-                  "id": "110261",
-                  "name": "The Fluffy Hand-drawn Storyboards",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
-                },
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 5,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 8000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 15000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 24000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 32000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 65000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 120000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 6,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                }
-              ]
-            },
-            {
-              "cost": 250000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 12,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 2,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 4000,
-              "items": [
-                {
-                  "id": "110261",
-                  "name": "The Fluffy Hand-drawn Storyboards",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
-                },
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 5,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 8000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 15000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 24000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 32000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 65000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 120000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 6,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                }
-              ]
-            },
-            {
-              "cost": 250000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 12,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 2,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 4000,
-              "items": [
-                {
-                  "id": "110261",
-                  "name": "The Fluffy Hand-drawn Storyboards",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
-                },
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 5,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 8000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 15000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 24000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 32000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 65000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 120000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 6,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                }
-              ]
-            },
-            {
-              "cost": 250000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 12,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "Vanquished Flow's Reticence",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                }
-              ]
-            }
-          ]
-        ],
-        "talentBase": [
-          {
-            "id": "116001",
-            "name": "Whimsy Wax",
-            "qty": 15,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-          },
-          {
-            "id": "116002",
-            "name": "Dreamweave Steel",
-            "qty": 18,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-          },
-          {
-            "id": "116003",
-            "name": "Lucid Awl",
-            "qty": 36,
-            "rar": 5,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-          },
-          {
-            "id": "241",
-            "name": "Tracks of Destiny",
-            "qty": 2,
-            "rar": 4,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
-          },
-          {
-            "id": "110261",
-            "name": "The Fluffy Hand-drawn Storyboards",
-            "qty": 7,
-            "rar": 2,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
-          },
-          {
-            "id": "110262",
-            "name": "The Fluffy Serialization Memorial Issue",
-            "qty": 28,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-          },
-          {
-            "id": "110263",
-            "name": "The Fluffy Collector's Edition",
-            "qty": 59,
-            "rar": 5,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-          },
-          {
-            "id": "110508",
-            "name": "Vanquished Flow's Reticence",
-            "qty": 3,
-            "rar": 5,
-            "kind": "weekly",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-          }
-        ],
-        "talentBaseCost": 1260000,
-        "ascCost": 308000,
-        "talentCost": 3000000,
-        "currency": 3693000,
-        "weapon": {
-          "name": "When She Decided to See",
-          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/23054.webp",
-          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/23054.webp",
-          "path": "Elation",
-          "items": [
-            {
-              "id": "116001",
-              "name": "Whimsy Wax",
-              "qty": 20,
-              "rar": 2,
-              "kind": "mob",
-              "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-            },
-            {
-              "id": "116002",
-              "name": "Dreamweave Steel",
-              "qty": 20,
-              "rar": 3,
-              "kind": "mob",
-              "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-            },
-            {
-              "id": "116003",
-              "name": "Lucid Awl",
-              "qty": 14,
-              "rar": 5,
-              "kind": "mob",
-              "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-            },
-            {
-              "id": "110261",
-              "name": "The Fluffy Hand-drawn Storyboards",
-              "qty": 4,
-              "rar": 2,
-              "kind": "book",
-              "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
-            },
-            {
-              "id": "110262",
-              "name": "The Fluffy Serialization Memorial Issue",
-              "qty": 12,
-              "rar": 3,
-              "kind": "book",
-              "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-            },
-            {
-              "id": "110263",
-              "name": "The Fluffy Collector's Edition",
-              "qty": 15,
-              "rar": 5,
-              "kind": "book",
-              "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-            }
-          ],
-          "cost": 385000
-        }
-      }
-    },
-    {
       "id": "hsr-yunli",
       "n": "Yunli",
       "title": "Dance at Sunset",
@@ -65366,6 +65708,12 @@
       "r": 5,
       "el": "Physical",
       "path": "Destruction",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1221_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1221_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1221_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1221_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -66340,6 +66688,12 @@
       "r": 4,
       "el": "Lightning",
       "path": "Destruction",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1008_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1008_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1008_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1008_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -67236,6 +67590,12 @@
       "r": 4,
       "el": "Fire",
       "path": "Harmony",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1009_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1009_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1009_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1009_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -68141,6 +68501,12 @@
       "r": 4,
       "el": "Wind",
       "path": "Hunt",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1002_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1002_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1002_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1002_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -69035,6 +69401,12 @@
       "r": 4,
       "el": "Fire",
       "path": "Abundance",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1301_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1301_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1301_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1301_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -69928,6 +70300,12 @@
       "r": 4,
       "el": "Fire",
       "path": "Nihility",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1210_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1210_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1210_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1210_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -70822,6 +71200,12 @@
       "r": 4,
       "el": "Physical",
       "path": "Harmony",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1215_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1215_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1215_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1215_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -71721,6 +72105,12 @@
       "r": 4,
       "el": "Ice",
       "path": "Erudition",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1013_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1013_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1013_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1013_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -72618,6 +73008,12 @@
       "r": 4,
       "el": "Fire",
       "path": "Destruction",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1109_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1109_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1109_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1109_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -73514,6 +73910,12 @@
       "r": 4,
       "el": "Physical",
       "path": "Nihility",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1111_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1111_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1111_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1111_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -74410,6 +74812,12 @@
       "r": 4,
       "el": "Quantum",
       "path": "Abundance",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1110_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1110_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1110_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1110_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -75308,13 +75716,20 @@
         "../../Database/HsrWiki/holiday-art/march7th/07-Christmas 2024.png",
         "../../Database/HsrWiki/holiday-art/march7th/08-New Year 2026.png",
         "../../Database/HsrWiki/holiday-art/march7th/09-Chinese New Year 2026 Himeko March 7th.png",
-        "../../Database/HsrWiki/holiday-art/march7th/10-Chinese New Year 2026 2.png"
+        "../../Database/HsrWiki/holiday-art/march7th/10-Chinese New Year 2026 2.png",
+        "../../Database/HsrWiki/holiday-art/march7th/11-Dragon Boat Festival 2026.jpg"
       ],
       "status": "live",
       "labels": [],
       "r": 4,
       "el": "Ice",
       "path": "Preservation",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1224_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1224_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1224_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1224_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -76214,7 +76629,8 @@
         "../../Database/HsrWiki/holiday-art/march7ththehunt/07-Christmas 2024.png",
         "../../Database/HsrWiki/holiday-art/march7ththehunt/08-New Year 2026.png",
         "../../Database/HsrWiki/holiday-art/march7ththehunt/09-Chinese New Year 2026 Himeko March 7th.png",
-        "../../Database/HsrWiki/holiday-art/march7ththehunt/10-Chinese New Year 2026 2.png"
+        "../../Database/HsrWiki/holiday-art/march7ththehunt/10-Chinese New Year 2026 2.png",
+        "../../Database/HsrWiki/holiday-art/march7ththehunt/11-Dragon Boat Festival 2026.jpg"
       ],
       "status": "live",
       "labels": [],
@@ -76240,6 +76656,12 @@
       "r": 4,
       "el": "Ice",
       "path": "Destruction",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1312_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1312_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1312_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1312_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -77137,6 +77559,12 @@
       "r": 4,
       "el": "Lightning",
       "path": "Hunt",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1223_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1223_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1223_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1223_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -78039,6 +78467,12 @@
       "r": 4,
       "el": "Physical",
       "path": "Abundance",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1105_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1105_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1105_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1105_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -78935,6 +79369,12 @@
       "r": 4,
       "el": "Ice",
       "path": "Nihility",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1106_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1106_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1106_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1106_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -79832,6 +80272,12 @@
       "r": 4,
       "el": "Quantum",
       "path": "Erudition",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1201_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1201_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1201_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1201_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -80729,6 +81175,12 @@
       "r": 4,
       "el": "Wind",
       "path": "Nihility",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1108_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1108_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1108_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1108_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -81625,6 +82077,12 @@
       "r": 4,
       "el": "Lightning",
       "path": "Erudition",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1103_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1103_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1103_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1103_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -82522,6 +82980,12 @@
       "r": 4,
       "el": "Physical",
       "path": "Hunt",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1206_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1206_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1206_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1206_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -83415,6 +83879,12 @@
       "r": 4,
       "el": "Lightning",
       "path": "Harmony",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1202_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1202_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1202_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1202_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -84308,6 +84778,12 @@
       "r": 4,
       "el": "Quantum",
       "path": "Destruction",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1214_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1214_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1214_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1214_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -85204,6 +85680,12 @@
       "r": 4,
       "el": "Imaginary",
       "path": "Harmony",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1207_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1207_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1207_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1207_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -86445,6 +86927,7 @@
         "Physical build guides"
       ],
       "chars": [
+        "Yao Guang",
         "Evanescia",
         "Argenti",
         "Boothill",
@@ -86454,7 +86937,6 @@
         "Phainon",
         "Robin",
         "Trailblazer",
-        "Yao Guang",
         "Yunli",
         "Hanya",
         "Luka",

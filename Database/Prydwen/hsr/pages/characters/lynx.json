@@ -1,0 +1,1361 @@
+{
+  "id": "characters:lynx",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "lynx",
+  "name": "Lynx",
+  "title": "Lynx Best Build Guide",
+  "sourcePath": "/star-rail/characters/lynx",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "31/May/2026",
+  "meta": {
+    "title": "Lynx Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 4,
+    "element": "Quantum",
+    "path": "Abundance"
+  },
+  "assets": [
+    {
+      "id": "caf7bd0fec96",
+      "sourceHash": "caf7bd0fec96",
+      "kind": "characters",
+      "name": "Lynx",
+      "fileStem": "lynx-card",
+      "path": "Prydwen/hsr/assets/characters/lynx-caf7bd0fec96.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "a6be649090ba",
+      "sourceHash": "a6be649090ba",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "96654253a4f7",
+      "sourceHash": "96654253a4f7",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "9db79c7ddbf7",
+      "sourceHash": "9db79c7ddbf7",
+      "kind": "icons",
+      "name": "Effect RES",
+      "fileStem": "stat-effectres",
+      "path": "Prydwen/hsr/assets/icons/effect-res-9db79c7ddbf7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "dc6aec4a7776",
+      "sourceHash": "dc6aec4a7776",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "087f2dec68b6",
+      "sourceHash": "087f2dec68b6",
+      "kind": "icons",
+      "name": "Speed",
+      "fileStem": "stat-speed",
+      "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "50d0e755383a",
+      "sourceHash": "50d0e755383a",
+      "kind": "items",
+      "name": "Credit",
+      "fileStem": "credit",
+      "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "a0a02b1fa209",
+      "sourceHash": "a0a02b1fa209",
+      "kind": "items",
+      "name": "Extinguished Core",
+      "fileStem": "extinguished-core",
+      "path": "Prydwen/hsr/assets/items/extinguished-core-a0a02b1fa209.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "bd1804d706c1",
+      "sourceHash": "bd1804d706c1",
+      "kind": "items",
+      "name": "Glimmering Core",
+      "fileStem": "glimmering-core",
+      "path": "Prydwen/hsr/assets/items/glimmering-core-bd1804d706c1.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "7aa47ca8dce7",
+      "sourceHash": "7aa47ca8dce7",
+      "kind": "items",
+      "name": "Nail of the Ape",
+      "fileStem": "nail-of-the-ape",
+      "path": "Prydwen/hsr/assets/items/nail-of-the-ape-7aa47ca8dce7.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "8b1cae9c0357",
+      "sourceHash": "8b1cae9c0357",
+      "kind": "items",
+      "name": "Squirming Core",
+      "fileStem": "squirming-core",
+      "path": "Prydwen/hsr/assets/items/squirming-core-8b1cae9c0357.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "20fadae192d9",
+      "sourceHash": "20fadae192d9",
+      "kind": "characters",
+      "name": "Lynx",
+      "fileStem": "lynx-full",
+      "path": "Prydwen/hsr/assets/characters/lynx-20fadae192d9.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "d9f02a088d4d",
+      "sourceHash": "d9f02a088d4d",
+      "kind": "light-cones",
+      "name": "Night of Fright",
+      "fileStem": "night-of-fright",
+      "path": "Prydwen/hsr/assets/light-cones/night-of-fright-d9f02a088d4d.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "58c2a044512d",
+      "sourceHash": "58c2a044512d",
+      "kind": "light-cones",
+      "name": "Time Waits for No One",
+      "fileStem": "time-waits-for-no-one",
+      "path": "Prydwen/hsr/assets/light-cones/time-waits-for-no-one-58c2a044512d.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "86bde0d4e434",
+      "sourceHash": "86bde0d4e434",
+      "kind": "light-cones",
+      "name": "Post-Op Conversation",
+      "fileStem": "post-op-conversation",
+      "path": "Prydwen/hsr/assets/light-cones/post-op-conversation-86bde0d4e434.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "b81052f2fa6c",
+      "sourceHash": "b81052f2fa6c",
+      "kind": "light-cones",
+      "name": "Perfect Timing",
+      "fileStem": "perfect-timing",
+      "path": "Prydwen/hsr/assets/light-cones/perfect-timing-b81052f2fa6c.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "21f2b82cdad1",
+      "sourceHash": "21f2b82cdad1",
+      "kind": "light-cones",
+      "name": "Quid Pro Quo",
+      "fileStem": "quid-pro-quo",
+      "path": "Prydwen/hsr/assets/light-cones/quid-pro-quo-21f2b82cdad1.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "005f8b638303",
+      "sourceHash": "005f8b638303",
+      "kind": "light-cones",
+      "name": "Multiplication",
+      "fileStem": "multiplication",
+      "path": "Prydwen/hsr/assets/light-cones/multiplication-005f8b638303.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "2f8ec1684b6b",
+      "sourceHash": "2f8ec1684b6b",
+      "kind": "relics",
+      "name": "Warrior Goddess of Sun and Thunder",
+      "fileStem": "warrior-goddess-of-sun-and-thunder",
+      "path": "Prydwen/hsr/assets/relics/warrior-goddess-of-sun-and-thunder-2f8ec1684b6b.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "4cb8065ad660",
+      "sourceHash": "4cb8065ad660",
+      "kind": "relics",
+      "name": "Messenger Traversing Hackerspace",
+      "fileStem": "messenger-traversing-hackerspace",
+      "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "4ed6c0c0e2b5",
+      "sourceHash": "4ed6c0c0e2b5",
+      "kind": "relics",
+      "name": "Passerby of Wandering Cloud",
+      "fileStem": "passerby-of-wandering-cloud",
+      "path": "Prydwen/hsr/assets/relics/passerby-of-wandering-cloud-4ed6c0c0e2b5.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5cb190fcc346",
+      "sourceHash": "5cb190fcc346",
+      "kind": "relics",
+      "name": "Sacerdos' Relived Ordeal",
+      "fileStem": "sacerdos-relived-ordeal",
+      "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "58e79f548454",
+      "sourceHash": "58e79f548454",
+      "kind": "relics",
+      "name": "Longevous Disciple",
+      "fileStem": "longevous-disciple",
+      "path": "Prydwen/hsr/assets/relics/longevous-disciple-58e79f548454.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5b886a96e17a",
+      "sourceHash": "5b886a96e17a",
+      "kind": "relics",
+      "name": "Fleet of the Ageless",
+      "fileStem": "fleet-of-the-ageless",
+      "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "3306e6f6288f",
+      "sourceHash": "3306e6f6288f",
+      "kind": "relics",
+      "name": "Broken Keel",
+      "fileStem": "broken-keel",
+      "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d6cdb5f16b16",
+      "sourceHash": "d6cdb5f16b16",
+      "kind": "relics",
+      "name": "Penacony, Land of the Dreams",
+      "fileStem": "penacony-land-of-the-dreams",
+      "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d6aae5028c5a",
+      "sourceHash": "d6aae5028c5a",
+      "kind": "relics",
+      "name": "Lushaka, the Sunken Seas",
+      "fileStem": "lushaka-the-sunken-seas",
+      "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "c13bc696f36c",
+      "sourceHash": "c13bc696f36c",
+      "kind": "relics",
+      "name": "Giant Tree of Rapt Brooding",
+      "fileStem": "giant-tree-of-rapt-brooding",
+      "path": "Prydwen/hsr/assets/relics/giant-tree-of-rapt-brooding-c13bc696f36c.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "96d628c840c8",
+      "sourceHash": "96d628c840c8",
+      "kind": "icons",
+      "name": "Outgoing Healing",
+      "fileStem": "stat-healing",
+      "path": "Prydwen/hsr/assets/icons/outgoing-healing-96d628c840c8.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "106ddd8eff32",
+      "sourceHash": "106ddd8eff32",
+      "kind": "icons",
+      "name": "Energy Regen",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "0e40f16a52d5",
+      "sourceHash": "0e40f16a52d5",
+      "kind": "characters",
+      "name": "Blade",
+      "fileStem": "blade-icon",
+      "path": "Prydwen/hsr/assets/characters/blade-0e40f16a52d5.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "469e0f88e35b",
+      "sourceHash": "469e0f88e35b",
+      "kind": "characters",
+      "name": "Clara",
+      "fileStem": "clara-icon",
+      "path": "Prydwen/hsr/assets/characters/clara-469e0f88e35b.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "f54da6170f38",
+      "sourceHash": "f54da6170f38",
+      "kind": "characters",
+      "name": "Silver Wolf • Lv. 999",
+      "fileStem": "silver-wolf-lv-999-icon",
+      "path": "Prydwen/hsr/assets/characters/silver-wolf-lv-999-f54da6170f38.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "913ff64407f2",
+      "sourceHash": "913ff64407f2",
+      "kind": "icons",
+      "name": "Imaginary",
+      "fileStem": "ele-imaginary",
+      "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "3d568cb7f29d",
+      "sourceHash": "3d568cb7f29d",
+      "kind": "characters",
+      "name": "Sunday",
+      "fileStem": "sunday-icon",
+      "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "965df81b835a",
+      "sourceHash": "965df81b835a",
+      "kind": "characters",
+      "name": "Yao Guang",
+      "fileStem": "yao-guang-icon",
+      "path": "Prydwen/hsr/assets/characters/yao-guang-965df81b835a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e0db16ed6c66",
+      "sourceHash": "e0db16ed6c66",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "ele-physical",
+      "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "c3ef043f259a",
+      "sourceHash": "c3ef043f259a",
+      "kind": "characters",
+      "name": "Lynx",
+      "fileStem": "lynx-icon",
+      "path": "Prydwen/hsr/assets/characters/lynx-c3ef043f259a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "565914d1a436",
+      "sourceHash": "565914d1a436",
+      "kind": "icons",
+      "name": "Quantum",
+      "fileStem": "ele-quantum",
+      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+      "width": 22,
+      "height": 22
+    }
+  ],
+  "sections": [
+    {
+      "id": "lynx-best-build-guide-0",
+      "level": 1,
+      "heading": "Lynx Best Build Guide",
+      "text": "Last updated: 31/May/2026",
+      "assets": [
+        {
+          "id": "caf7bd0fec96",
+          "sourceHash": "caf7bd0fec96",
+          "kind": "characters",
+          "name": "Lynx",
+          "fileStem": "lynx-card",
+          "path": "Prydwen/hsr/assets/characters/lynx-caf7bd0fec96.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Lynx from HSR (Honkai: Star Rail). Lynx is a 4 ★ character from the Quantum element who follows the Path of Abundance .\n \"In the Landau family, things are quite simple: If you want to do something, just go ahead and do it.\" The youngest daughter of the Landau family, and one of Belobog's best extreme environments explorers. She is highly capable of action despite her apparent lack of motivation. She's only appears introverted and lazy to avoid unnecessary socialization. As for what counts as unnecessary socialization — \"Um, aren't all socialization unnecessary?\"\n\n To learn more about Lynx check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "This character has no video guide yet.",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 2.5\n\n Last major build/calcs update\n Patch 4.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Lynx check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic ATK\n Ice Crampon Technique\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Quantum DMG equal to #1[i]% of this character's Max HP to a single enemy.\n\n Skill\n Salted Camping Cans\n Restore\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Applies \"Survival Response\" to a single target ally and increases their Max HP by #1[i]% of Lynx's Max HP plus #2[i]. If the target ally is a character on the Path of Destruction or Preservation, the chance of them being attacked by enemies will greatly increase. \"Survival Response\" lasts for #3[i] turn(s).\nRestores the target's HP by #4[i]% of Lynx's Max HP plus #5[i].\n\n Ultimate\n Snowfield First Aid\n Restore | 100 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: -\n\n Dispels #1[i] debuff(s) from all allies and immediately restores their respective HP by an amount equal to #2[i]% of Lynx's Max HP plus #3[i].\n\n Talent\n Outdoor Survival Experience\n Restore\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n When using Lynx's Skill or Ultimate, applies continuous healing to the target ally for #1[i] turn(s), restoring the target ally's HP by an amount equal to #2[i]% of Lynx's Max HP plus #3[i] at the start of each their turn. If the target has \"Survival Response\", the continuous healing effect additionally restores HP by an amount equal to #4[i]% of Lynx's Max HP plus #5[i].\n\n Technique\n Chocolate Energy Bar\n Restore\n\n Energy gain: 0\n Break: -\n\n After Lynx uses her Technique, at the start of the next battle, all allies are granted her Talent's continuous healing effect, lasting for #1[i] turn(s).",
+      "assets": []
+    },
+    {
+      "id": "major-traces-10",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "A2 Major trace\n Advance Surveying\n\n After a target with Survival Response is hit, Lynx regenerates 2 Energy immediately.\n\n A4 Major trace\n Exploration Techniques\n\n Increases the chance to resist Crowd Control debuffs by 35% .\n\n A6 Major trace\n Survival in the Extreme\n\n Extends the duration of the continuous healing effect granted by Talent for 1 turn(s).",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-11",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "DEF\n + 22.5%\n\n HP\n + 28%\n\n Effect RES\n + 10%",
+      "assets": [
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "9db79c7ddbf7",
+          "sourceHash": "9db79c7ddbf7",
+          "kind": "icons",
+          "name": "Effect RES",
+          "fileStem": "stat-effectres",
+          "path": "Prydwen/hsr/assets/icons/effect-res-9db79c7ddbf7.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "eidolons-12",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "E 1\n Morning of Snow Hike\n Eidolon 1\n\n When healing allies with HP equal to or lower than 50% , Lynx's Outgoing Healing increases by 20% . This effect also works on continuous healing.\n\n E 2\n Noon of Portable Furnace\n Eidolon 2\n\n A target with \"Survival Response\" can resist debuff application for 1 time(s).\n\n E 3\n Afternoon of Avalanche Beacon\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Dusk of Warm Campfire\n Eidolon 4\n\n When \"Survival Response\" is gained, increases the target's ATK by an amount equal to 3% of Lynx's Max HP for 1 turn(s).\n\n E 5\n Night of Aurora Tea\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Dawn of Explorers' Chart\n Eidolon 6\n\n Additionally boosts the Max HP increasing effect of \"Survival Response\" by an amount equal to 6% of Lynx's Max HP and increases Effect RES by 30% .",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-13",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Enable Ascension",
+      "assets": []
+    },
+    {
+      "id": "level-80-stats-14",
+      "level": 5,
+      "heading": "Level 80 stats",
+      "text": "HP\n\n 1058\n\n ATK\n\n 493\n\n DEF\n\n 551\n\n Speed\n\n 100",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "level-1-80-ascension-materials-15",
+      "level": 5,
+      "heading": "Level 1 → 80 Ascension Materials",
+      "text": "Credit\n\n x 246400\n\n Extinguished Core\n\n x 12\n\n Glimmering Core\n\n x 13\n\n Nail of the Ape\n\n x 50\n\n Squirming Core\n\n x 12",
+      "assets": [
+        {
+          "id": "50d0e755383a",
+          "sourceHash": "50d0e755383a",
+          "kind": "items",
+          "name": "Credit",
+          "fileStem": "credit",
+          "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "a0a02b1fa209",
+          "sourceHash": "a0a02b1fa209",
+          "kind": "items",
+          "name": "Extinguished Core",
+          "fileStem": "extinguished-core",
+          "path": "Prydwen/hsr/assets/items/extinguished-core-a0a02b1fa209.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "bd1804d706c1",
+          "sourceHash": "bd1804d706c1",
+          "kind": "items",
+          "name": "Glimmering Core",
+          "fileStem": "glimmering-core",
+          "path": "Prydwen/hsr/assets/items/glimmering-core-bd1804d706c1.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "7aa47ca8dce7",
+          "sourceHash": "7aa47ca8dce7",
+          "kind": "items",
+          "name": "Nail of the Ape",
+          "fileStem": "nail-of-the-ape",
+          "path": "Prydwen/hsr/assets/items/nail-of-the-ape-7aa47ca8dce7.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "8b1cae9c0357",
+          "sourceHash": "8b1cae9c0357",
+          "kind": "items",
+          "name": "Squirming Core",
+          "fileStem": "squirming-core",
+          "path": "Prydwen/hsr/assets/items/squirming-core-8b1cae9c0357.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "cv-16",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n Risa Mei\n\n JPN\n 照井春佳 (Haruka Terui)\n\n CN\n 米糊\n\n KR\n 이은조 (Lee Eun-jo)",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "20fadae192d9",
+          "sourceHash": "20fadae192d9",
+          "kind": "characters",
+          "name": "Lynx",
+          "fileStem": "lynx-full",
+          "path": "Prydwen/hsr/assets/characters/lynx-20fadae192d9.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Strong consistent AoE healing,\n\n Great synergy with Yunli that improves her performance (if you're lacking Yunli's signature Light Cone),\n\n Can be extremely SP positive with her A6,\n\n AoE Cleanse on her Ultimate,\n\n Very durable,\n\n Stronger than Natasha and more accessible than 5* options.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Really wants her A6 to reach maximum efficacy,\n\n Cleanse is on Ultimate meaning it might not be as accessible as you need it,\n\n Emergency healing can feel bad due to ‘wasting’ turns of her regen.",
+      "assets": []
+    },
+    {
+      "id": "review-by-sushou-21",
+      "level": 2,
+      "heading": "Review (By Sushou)",
+      "text": "Lynx is a great 4-star Healer. She combines the best aspects of Natasha and Bailu into one, providing healing over time from both her Skill and Ultimate, as well as being able to increase an ally’s Max HP by a significant amount with her Skill. She can even increase an ally’s aggro with her Skill if the ally is Destruction or Preservation, making her even better at mitigating damage for the team. Couple all of that with an AoE cleanse on her Ultimate and HP scaling Basic ATKs, and you’ve got an exceptional healer, especially for a 4*.\n Many readily available defensive support options are insufficient on their own in difficult content like Memory of Chaos or Swarm Disaster, and all of the truly good options are 5*s, meaning they’re largely inaccessible unless you get really really lucky. Enter Lynx, resident canned fish enjoyer, another member of the Landau family, and, most importantly, a 4* healer.\n An interesting thing to note right off the bat is that Lynx’ Basic ATK scales with her Max HP instead of her ATK. She deals up to 50% of her Max HP at max Trace level, and since the rest of her kit also scales with HP, it’s extremely likely that Lynx is going to be contributing surprisingly good amounts of damage as your dedicated healer, and this automatically puts her above the likes of Natasha and Bailu in terms of damage contribution—even though Natasha’s E6 adds a HP scaling to her Basic ATK, it’s still only 40% of Nat’s Max HP. Lynx gets to do it for free.\n Lynx’ Skill targets a single ally and heals them for up to 12% of Lynx’ Max HP plus 320 at max Trace level. This already makes it directly superior to Natasha’s Skill, but it elevates it even further by also increasing the targeted ally’s Max HP by up to 7.5% of Lynx’ Max HP plus 200 , meaning a well-invested Lynx can add a significant amount of HP to an ally. The added bonus is that if the targeted ally is on the Path of Destruction or Preservation, they are granted Survival Response, and have a vastly increased chance to be attacked, meaning that you can create a similar sort of effect as if you had Gepard in your team; pick a durable ally and turn them into the primary target for enemies to attack. These effects only last for 2 turns, however, so you need to be mindful of the SP you have available if you wish to maintain this playstyle.\n Because of the additional agro, if you're lacking Yunli's signature Light Cone, Lynx's skill will help her a lot in getting hit more often and thus drastically improve her performance.\n Her Ultimate heals all allies for up to 13.5% of Lynx’ Max HP plus 360, putting it just barely below Natasha’s Ultimate , but it has the added benefit of also being an AoE cleanse , something we’ve not yet seen a character be capable of. This allows Lynx to essentially salvage the previously unsalvageable; if you had the other three members of your team Frozen or Imprisoned, you’d likely be in a losing situation, but with Lynx you can nullify that harsh Crowd Control and get back into the fight. The only thing to note is that this cleanse applies to all debuffs, meaning that you can run into the same issue as always with multiple debuffs, where you can end up cleansing the wrong debuff and still dying. While having this AoE cleanse tied to an Ultimate is handy in a pinch, Natasha and Luocha can at least use a Skill back-to-back to cleanse things if necessary, and Lynx does not have this luxury.\n Lynx’ Talent makes an appearance whenever she heals an ally. Her Skill and Ultimate will apply a regen effect for 2 turns, restoring up to 3.6% of Lynx’ Max HP plus 96 at the start of the ally’s turn. It increases by an additional 4.5% plus 120 if the targeted ally is affected by Survival Response, making this a very noticeable heal over time for the units you designate as your tank. Since this is applied on all healing, including her Ultimate, it makes Lynx a very SP-efficient healer.\n With her Bonus Traces, Lynx’ performance notably improves. Her A2 provides Lynx with a bonus 2 Energy each time a unit with Survival Response is hit, lessening the burden of Energy requirements and potentially allowing for more Ultimates, though it does require SP to be used to apply Survival Response in the first place. Her A4 provides a 35% chance to resist Crowd Control, making it less likely that she’ll be taken out of the fight and allowing her to be ready to cleanse allies if necessary. Finally, her A6 extends the duration of her Talent’s regen effect by 1 turn, for a new total of 3 turns. This just makes Lynx better at what she was already doing, and also helps bridge the gap between Ultimate usages, potentially allowing for permanent uptime on the healing over time.\n As a 4* character, it is entirely possible to get Eidolons for Lynx over time, but they’re actually not a necessity for Lynx to be an excellent healer. Particularly noteworthy is her E2, which allows an ally with Survival Response to resist debuff application one time, and her E6, which further increases the Max HP boost by 6% of Lynx’ Max HP and also increases the ally’s Effect RES by 30%.\n Overall, Lynx is a simple but effective character and she works great as your party's healer till you obtain some stronger, 5-star limited options - but she can be Best in Slot even if you include the 5-star options (Yunli without her signature Cone being the main case). She also appreciates the value of a Thermos, so you should definitely be able to appreciate her. Preparedness is a sign of great wisdom, you know.",
+      "assets": []
+    },
+    {
+      "id": "ratings-22",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.",
+      "assets": []
+    },
+    {
+      "id": "eidolon-0-24",
+      "level": 5,
+      "heading": "Eidolon 0",
+      "text": "T4\n MoC\n\n T4\n PF\n\n T4\n AS",
+      "assets": []
+    },
+    {
+      "id": "eidolon-6-25",
+      "level": 5,
+      "heading": "Eidolon 6",
+      "text": "T3\n MoC\n\n T3\n PF\n\n T3\n AS\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "best-light-cones-27",
+      "level": 2,
+      "heading": "Best Light Cones",
+      "text": "1\n\n Night of Fright (S 1 )\n\n Incredible option for most Abundance characters thanks to good Energy Regen, a stackable team wide buff and a unique healing mechanic capable of keeping your team alive in a pinch when your healer has no skills available at the time.\n\n 2\n\n Time Waits for No One (S 1 )\n\n A good combination of Healing%, HP% and base stats making for a decent pure sustain option for HP% scaling healers but offers no utility or supportive benefits.\n\n 3\n\n Post-Op Conversation (S 5 )\n\n Useful primarily due to its accessible large bonus to Energy Regen - a stat many sustain characters can't get enough of.\n Usage: 50 %\n MoC: -\n PF: 0\n AS: 0\n\n 4\n\n Perfect Timing (S 5 )\n\n Improves healing based on Effect RES and incentivizes characters to stack Effect RES up to 100% for Debuff Immunity (for the ones that can be resisted at least).",
+      "assets": [
+        {
+          "id": "d9f02a088d4d",
+          "sourceHash": "d9f02a088d4d",
+          "kind": "light-cones",
+          "name": "Night of Fright",
+          "fileStem": "night-of-fright",
+          "path": "Prydwen/hsr/assets/light-cones/night-of-fright-d9f02a088d4d.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "58c2a044512d",
+          "sourceHash": "58c2a044512d",
+          "kind": "light-cones",
+          "name": "Time Waits for No One",
+          "fileStem": "time-waits-for-no-one",
+          "path": "Prydwen/hsr/assets/light-cones/time-waits-for-no-one-58c2a044512d.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "86bde0d4e434",
+          "sourceHash": "86bde0d4e434",
+          "kind": "light-cones",
+          "name": "Post-Op Conversation",
+          "fileStem": "post-op-conversation",
+          "path": "Prydwen/hsr/assets/light-cones/post-op-conversation-86bde0d4e434.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "b81052f2fa6c",
+          "sourceHash": "b81052f2fa6c",
+          "kind": "light-cones",
+          "name": "Perfect Timing",
+          "fileStem": "perfect-timing",
+          "path": "Prydwen/hsr/assets/light-cones/perfect-timing-b81052f2fa6c.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "specialist-light-cones-28",
+      "level": 3,
+      "heading": "Specialist Light Cones",
+      "text": "1\n\n Quid Pro Quo (S 1 )\n\n One of the strongest supportive Cones for most Abundance characters - assuming you can deal with losing all the other Cone related healing/utility/support bonuses and have a team that can utilize the energy it provides. Becomes stronger the more often the wearer acts.\n\n 2\n\n Multiplication (S 5 )\n\n Very potent pure Speed option for Abundance characters that use a good amount of Basic Attacks. Allows the wearer many more actions, leading to an accelerated rotation but at the cost of base stats and the bonuses other Cones might provide.",
+      "assets": [
+        {
+          "id": "21f2b82cdad1",
+          "sourceHash": "21f2b82cdad1",
+          "kind": "light-cones",
+          "name": "Quid Pro Quo",
+          "fileStem": "quid-pro-quo",
+          "path": "Prydwen/hsr/assets/light-cones/quid-pro-quo-21f2b82cdad1.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "005f8b638303",
+          "sourceHash": "005f8b638303",
+          "kind": "light-cones",
+          "name": "Multiplication",
+          "fileStem": "multiplication",
+          "path": "Prydwen/hsr/assets/light-cones/multiplication-005f8b638303.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-relic-sets-30",
+      "level": 2,
+      "heading": "Best Relic Sets",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Warrior Goddess of Sun and Thunder ( 4 -PC)\n\n Best in slot set for all healers, increasing their SPD by 12% and providing a teamwide 15% CRIT DMG buff.\n Usage: 50 %\n MoC: -\n PF: 0\n AS: 0\n\n 2\n\n Messenger Traversing Hackerspace ( 4 -PC)\n\n Good team-wide supportive option for characters with Ultimates that target allies. With this set equipped, Ultimates are best timed carefully to ensure the Speed buff is active on key members for as long as possible.\n 3\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Passerby of Wandering Cloud\n\n Sacerdos' Relived Ordeal\n\n Longevous Disciple\n\n 4\n\n Passerby of Wandering Cloud ( 4 -PC)\n\n Option for teams with front-loaded SP usage. Most suitable for Sustain characters but can be used on others if the skill points are needed.",
+      "assets": [
+        {
+          "id": "2f8ec1684b6b",
+          "sourceHash": "2f8ec1684b6b",
+          "kind": "relics",
+          "name": "Warrior Goddess of Sun and Thunder",
+          "fileStem": "warrior-goddess-of-sun-and-thunder",
+          "path": "Prydwen/hsr/assets/relics/warrior-goddess-of-sun-and-thunder-2f8ec1684b6b.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "4cb8065ad660",
+          "sourceHash": "4cb8065ad660",
+          "kind": "relics",
+          "name": "Messenger Traversing Hackerspace",
+          "fileStem": "messenger-traversing-hackerspace",
+          "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "4ed6c0c0e2b5",
+          "sourceHash": "4ed6c0c0e2b5",
+          "kind": "relics",
+          "name": "Passerby of Wandering Cloud",
+          "fileStem": "passerby-of-wandering-cloud",
+          "path": "Prydwen/hsr/assets/relics/passerby-of-wandering-cloud-4ed6c0c0e2b5.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "5cb190fcc346",
+          "sourceHash": "5cb190fcc346",
+          "kind": "relics",
+          "name": "Sacerdos' Relived Ordeal",
+          "fileStem": "sacerdos-relived-ordeal",
+          "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "58e79f548454",
+          "sourceHash": "58e79f548454",
+          "kind": "relics",
+          "name": "Longevous Disciple",
+          "fileStem": "longevous-disciple",
+          "path": "Prydwen/hsr/assets/relics/longevous-disciple-58e79f548454.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-specialist-relic-sets-31",
+      "level": 6,
+      "heading": "Best Specialist Relic Sets",
+      "text": "1\n\n Sacerdos' Relived Ordeal ( 4 -PC)\n\n Incredibly powerful set for characters with Ultimates and or Skills that target a single ally and who work well in teams with a sole damage dealer who can benefit from CRIT DMG. In some teams Lynx consistently uses her Skill to maintain its Taunting effect on a character - while doing this she can apply and maintain this sets effect. Outside of this scenario this sets use becomes a lot more limited.",
+      "assets": [
+        {
+          "id": "5cb190fcc346",
+          "sourceHash": "5cb190fcc346",
+          "kind": "relics",
+          "name": "Sacerdos' Relived Ordeal",
+          "fileStem": "sacerdos-relived-ordeal",
+          "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-planetary-sets-32",
+      "level": 6,
+      "heading": "Best Planetary Sets",
+      "text": "1\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 2\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n Usage: 50 %\n MoC: -\n PF: 0\n AS: 0\n\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n 5\n\n Giant Tree of Rapt Brooding ( 2 -PC)\n\n An option focused on healing output, particularly useful in teams that require strong healing.",
+      "assets": [
+        {
+          "id": "5b886a96e17a",
+          "sourceHash": "5b886a96e17a",
+          "kind": "relics",
+          "name": "Fleet of the Ageless",
+          "fileStem": "fleet-of-the-ageless",
+          "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "3306e6f6288f",
+          "sourceHash": "3306e6f6288f",
+          "kind": "relics",
+          "name": "Broken Keel",
+          "fileStem": "broken-keel",
+          "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "d6cdb5f16b16",
+          "sourceHash": "d6cdb5f16b16",
+          "kind": "relics",
+          "name": "Penacony, Land of the Dreams",
+          "fileStem": "penacony-land-of-the-dreams",
+          "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "d6aae5028c5a",
+          "sourceHash": "d6aae5028c5a",
+          "kind": "relics",
+          "name": "Lushaka, the Sunken Seas",
+          "fileStem": "lushaka-the-sunken-seas",
+          "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "c13bc696f36c",
+          "sourceHash": "c13bc696f36c",
+          "kind": "relics",
+          "name": "Giant Tree of Rapt Brooding",
+          "fileStem": "giant-tree-of-rapt-brooding",
+          "path": "Prydwen/hsr/assets/relics/giant-tree-of-rapt-brooding-c13bc696f36c.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-stats-34",
+      "level": 2,
+      "heading": "Best Stats",
+      "text": "Body\n Outgoing Healing\n > HP%\n\n Feet\n Speed\n\n Planar Sphere\n HP%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (breakpoint) > HP% > Effect RES > DEF%\n\n Focusing on Speed and HP% will make Lynx heal often and give her some bulk. Since Lynx's HP Buff on her Skill / ATK Increase from Eidolon 4 is based on her HP, HP chest can be considered over Outgoing Healing Bonus for more Team DPS, as the difference in healing output is insignificant.",
+      "assets": [
+        {
+          "id": "96d628c840c8",
+          "sourceHash": "96d628c840c8",
+          "kind": "icons",
+          "name": "Outgoing Healing",
+          "fileStem": "stat-healing",
+          "path": "Prydwen/hsr/assets/icons/outgoing-healing-96d628c840c8.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "106ddd8eff32",
+          "sourceHash": "106ddd8eff32",
+          "kind": "icons",
+          "name": "Energy Regen",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "recommended-endgame-stats-35",
+      "level": 2,
+      "heading": "Recommended endgame stats",
+      "text": "HP: 5000 - 5700+\n\n DEF: 900 - 1200+\n\n SPD: 134 (Recommended) / 143 / 160\n\n ENERGY REGEN : 19.44%+",
+      "assets": []
+    },
+    {
+      "id": "traces-priority-36",
+      "level": 2,
+      "heading": "Traces priority",
+      "text": "Skills priority: Ultimate > Talent >= Skill = Basic\n\n Major Traces priority: Advance Surveying (A2) > Survival in the Extreme (A6) > Exploration Techniques (A4)",
+      "assets": []
+    },
+    {
+      "id": "synergy-37",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Blade - Blade has a constant depletion of his HP which requires lots of attention, thankfully Lynx’s HoT as well as her increased Taunt on Skill allows Blade to Follow-Up Attack a lot more often while also healing himself from it.\n Clara - Lynx has a Taunt value increase on her skill which is very useful for characters like Clara who need to be hit to get the most out of their kit. Cleanse on her Ultimate allows Crowd Controls to be ignored in certain scenarios, with her E2 also providing a one time debuff ignore on Skill use.",
+      "assets": [
+        {
+          "id": "0e40f16a52d5",
+          "sourceHash": "0e40f16a52d5",
+          "kind": "characters",
+          "name": "Blade",
+          "fileStem": "blade-icon",
+          "path": "Prydwen/hsr/assets/characters/blade-0e40f16a52d5.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "469e0f88e35b",
+          "sourceHash": "469e0f88e35b",
+          "kind": "characters",
+          "name": "Clara",
+          "fileStem": "clara-icon",
+          "path": "Prydwen/hsr/assets/characters/clara-469e0f88e35b.webp",
+          "width": 45,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "id": "anomaly-arbitration-42",
+      "level": 6,
+      "heading": "Anomaly Arbitration",
+      "text": "Rank 488\n App. rate: 0.01 %\n Avg. cycles : 10\n Avg. cycles (E1+): -\n\n MoC/PF/AS Statistics",
+      "assets": [
+        {
+          "id": "f54da6170f38",
+          "sourceHash": "f54da6170f38",
+          "kind": "characters",
+          "name": "Silver Wolf • Lv. 999",
+          "fileStem": "silver-wolf-lv-999-icon",
+          "path": "Prydwen/hsr/assets/characters/silver-wolf-lv-999-f54da6170f38.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "913ff64407f2",
+          "sourceHash": "913ff64407f2",
+          "kind": "icons",
+          "name": "Imaginary",
+          "fileStem": "ele-imaginary",
+          "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "3d568cb7f29d",
+          "sourceHash": "3d568cb7f29d",
+          "kind": "characters",
+          "name": "Sunday",
+          "fileStem": "sunday-icon",
+          "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "965df81b835a",
+          "sourceHash": "965df81b835a",
+          "kind": "characters",
+          "name": "Yao Guang",
+          "fileStem": "yao-guang-icon",
+          "path": "Prydwen/hsr/assets/characters/yao-guang-965df81b835a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0db16ed6c66",
+          "sourceHash": "e0db16ed6c66",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "ele-physical",
+          "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "c3ef043f259a",
+          "sourceHash": "c3ef043f259a",
+          "kind": "characters",
+          "name": "Lynx",
+          "fileStem": "lynx-icon",
+          "path": "Prydwen/hsr/assets/characters/lynx-c3ef043f259a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "565914d1a436",
+          "sourceHash": "565914d1a436",
+          "kind": "icons",
+          "name": "Quantum",
+          "fileStem": "ele-quantum",
+          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+          "width": 22,
+          "height": 22
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "best-light-cones": {
+      "label": "Best Light Cones",
+      "sections": [
+        {
+          "heading": "Best Light Cones",
+          "text": "1\n\n Night of Fright (S 1 )\n\n Incredible option for most Abundance characters thanks to good Energy Regen, a stackable team wide buff and a unique healing mechanic capable of keeping your team alive in a pinch when your healer has no skills available at the time.\n\n 2\n\n Time Waits for No One (S 1 )\n\n A good combination of Healing%, HP% and base stats making for a decent pure sustain option for HP% scaling healers but offers no utility or supportive benefits.\n\n 3\n\n Post-Op Conversation (S 5 )\n\n Useful primarily due to its accessible large bonus to Energy Regen - a stat many sustain characters can't get enough of.\n Usage: 50 %\n MoC: -\n PF: 0\n AS: 0\n\n 4\n\n Perfect Timing (S 5 )\n\n Improves healing based on Effect RES and incentivizes characters to stack Effect RES up to 100% for Debuff Immunity (for the ones that can be resisted at least).",
+          "assets": [
+            {
+              "id": "d9f02a088d4d",
+              "sourceHash": "d9f02a088d4d",
+              "kind": "light-cones",
+              "name": "Night of Fright",
+              "fileStem": "night-of-fright",
+              "path": "Prydwen/hsr/assets/light-cones/night-of-fright-d9f02a088d4d.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "58c2a044512d",
+              "sourceHash": "58c2a044512d",
+              "kind": "light-cones",
+              "name": "Time Waits for No One",
+              "fileStem": "time-waits-for-no-one",
+              "path": "Prydwen/hsr/assets/light-cones/time-waits-for-no-one-58c2a044512d.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "86bde0d4e434",
+              "sourceHash": "86bde0d4e434",
+              "kind": "light-cones",
+              "name": "Post-Op Conversation",
+              "fileStem": "post-op-conversation",
+              "path": "Prydwen/hsr/assets/light-cones/post-op-conversation-86bde0d4e434.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "b81052f2fa6c",
+              "sourceHash": "b81052f2fa6c",
+              "kind": "light-cones",
+              "name": "Perfect Timing",
+              "fileStem": "perfect-timing",
+              "path": "Prydwen/hsr/assets/light-cones/perfect-timing-b81052f2fa6c.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-relic-sets": {
+      "label": "Best Relic Sets",
+      "sections": [
+        {
+          "heading": "Best Relic Sets",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Warrior Goddess of Sun and Thunder ( 4 -PC)\n\n Best in slot set for all healers, increasing their SPD by 12% and providing a teamwide 15% CRIT DMG buff.\n Usage: 50 %\n MoC: -\n PF: 0\n AS: 0\n\n 2\n\n Messenger Traversing Hackerspace ( 4 -PC)\n\n Good team-wide supportive option for characters with Ultimates that target allies. With this set equipped, Ultimates are best timed carefully to ensure the Speed buff is active on key members for as long as possible.\n 3\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Passerby of Wandering Cloud\n\n Sacerdos' Relived Ordeal\n\n Longevous Disciple\n\n 4\n\n Passerby of Wandering Cloud ( 4 -PC)\n\n Option for teams with front-loaded SP usage. Most suitable for Sustain characters but can be used on others if the skill points are needed.",
+          "assets": [
+            {
+              "id": "2f8ec1684b6b",
+              "sourceHash": "2f8ec1684b6b",
+              "kind": "relics",
+              "name": "Warrior Goddess of Sun and Thunder",
+              "fileStem": "warrior-goddess-of-sun-and-thunder",
+              "path": "Prydwen/hsr/assets/relics/warrior-goddess-of-sun-and-thunder-2f8ec1684b6b.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "4cb8065ad660",
+              "sourceHash": "4cb8065ad660",
+              "kind": "relics",
+              "name": "Messenger Traversing Hackerspace",
+              "fileStem": "messenger-traversing-hackerspace",
+              "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "4ed6c0c0e2b5",
+              "sourceHash": "4ed6c0c0e2b5",
+              "kind": "relics",
+              "name": "Passerby of Wandering Cloud",
+              "fileStem": "passerby-of-wandering-cloud",
+              "path": "Prydwen/hsr/assets/relics/passerby-of-wandering-cloud-4ed6c0c0e2b5.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "5cb190fcc346",
+              "sourceHash": "5cb190fcc346",
+              "kind": "relics",
+              "name": "Sacerdos' Relived Ordeal",
+              "fileStem": "sacerdos-relived-ordeal",
+              "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "58e79f548454",
+              "sourceHash": "58e79f548454",
+              "kind": "relics",
+              "name": "Longevous Disciple",
+              "fileStem": "longevous-disciple",
+              "path": "Prydwen/hsr/assets/relics/longevous-disciple-58e79f548454.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-planetary-sets": {
+      "label": "Best Planetary Sets",
+      "sections": [
+        {
+          "heading": "Best Planetary Sets",
+          "text": "1\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 2\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n Usage: 50 %\n MoC: -\n PF: 0\n AS: 0\n\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n 5\n\n Giant Tree of Rapt Brooding ( 2 -PC)\n\n An option focused on healing output, particularly useful in teams that require strong healing.",
+          "assets": [
+            {
+              "id": "5b886a96e17a",
+              "sourceHash": "5b886a96e17a",
+              "kind": "relics",
+              "name": "Fleet of the Ageless",
+              "fileStem": "fleet-of-the-ageless",
+              "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "3306e6f6288f",
+              "sourceHash": "3306e6f6288f",
+              "kind": "relics",
+              "name": "Broken Keel",
+              "fileStem": "broken-keel",
+              "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "d6cdb5f16b16",
+              "sourceHash": "d6cdb5f16b16",
+              "kind": "relics",
+              "name": "Penacony, Land of the Dreams",
+              "fileStem": "penacony-land-of-the-dreams",
+              "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "d6aae5028c5a",
+              "sourceHash": "d6aae5028c5a",
+              "kind": "relics",
+              "name": "Lushaka, the Sunken Seas",
+              "fileStem": "lushaka-the-sunken-seas",
+              "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "c13bc696f36c",
+              "sourceHash": "c13bc696f36c",
+              "kind": "relics",
+              "name": "Giant Tree of Rapt Brooding",
+              "fileStem": "giant-tree-of-rapt-brooding",
+              "path": "Prydwen/hsr/assets/relics/giant-tree-of-rapt-brooding-c13bc696f36c.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-stats": {
+      "label": "Best Stats",
+      "sections": [
+        {
+          "heading": "Best Stats",
+          "text": "Body\n Outgoing Healing\n > HP%\n\n Feet\n Speed\n\n Planar Sphere\n HP%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (breakpoint) > HP% > Effect RES > DEF%\n\n Focusing on Speed and HP% will make Lynx heal often and give her some bulk. Since Lynx's HP Buff on her Skill / ATK Increase from Eidolon 4 is based on her HP, HP chest can be considered over Outgoing Healing Bonus for more Team DPS, as the difference in healing output is insignificant.",
+          "assets": [
+            {
+              "id": "96d628c840c8",
+              "sourceHash": "96d628c840c8",
+              "kind": "icons",
+              "name": "Outgoing Healing",
+              "fileStem": "stat-healing",
+              "path": "Prydwen/hsr/assets/icons/outgoing-healing-96d628c840c8.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "96654253a4f7",
+              "sourceHash": "96654253a4f7",
+              "kind": "icons",
+              "name": "HP",
+              "fileStem": "stat-hp",
+              "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "087f2dec68b6",
+              "sourceHash": "087f2dec68b6",
+              "kind": "icons",
+              "name": "Speed",
+              "fileStem": "stat-speed",
+              "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "106ddd8eff32",
+              "sourceHash": "106ddd8eff32",
+              "kind": "icons",
+              "name": "Energy Regen",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        }
+      ]
+    },
+    "recommended-endgame-stats": {
+      "label": "Recommended endgame stats",
+      "sections": [
+        {
+          "heading": "Recommended endgame stats",
+          "text": "HP: 5000 - 5700+\n\n DEF: 900 - 1200+\n\n SPD: 134 (Recommended) / 143 / 160\n\n ENERGY REGEN : 19.44%+",
+          "assets": []
+        }
+      ]
+    },
+    "traces-priority": {
+      "label": "Traces priority",
+      "sections": [
+        {
+          "heading": "Traces priority",
+          "text": "Skills priority: Ultimate > Talent >= Skill = Basic\n\n Major Traces priority: Advance Surveying (A2) > Survival in the Extreme (A6) > Exploration Techniques (A4)",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Blade - Blade has a constant depletion of his HP which requires lots of attention, thankfully Lynx’s HoT as well as her increased Taunt on Skill allows Blade to Follow-Up Attack a lot more often while also healing himself from it.\n Clara - Lynx has a Taunt value increase on her skill which is very useful for characters like Clara who need to be hit to get the most out of their kit. Cleanse on her Ultimate allows Crowd Controls to be ignored in certain scenarios, with her E2 also providing a one time debuff ignore on Skill use.",
+          "assets": [
+            {
+              "id": "0e40f16a52d5",
+              "sourceHash": "0e40f16a52d5",
+              "kind": "characters",
+              "name": "Blade",
+              "fileStem": "blade-icon",
+              "path": "Prydwen/hsr/assets/characters/blade-0e40f16a52d5.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "469e0f88e35b",
+              "sourceHash": "469e0f88e35b",
+              "kind": "characters",
+              "name": "Clara",
+              "fileStem": "clara-icon",
+              "path": "Prydwen/hsr/assets/characters/clara-469e0f88e35b.webp",
+              "width": 45,
+              "height": 45
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Lynx Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Lynx\n Lynx Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Lynx from HSR (Honkai: Star Rail). Lynx is a 4 ★ character from the Quantum element who follows the Path of Abundance .\n \"In the Landau family, things are quite simple: If you want to do something, just go ahead and do it.\" The youngest daughter of the Landau family, and one of Belobog's best extreme environments explorers. She is highly capable of action despite her apparent lack of motivation. She's only appears introverted and lazy to avoid unnecessary socialization. As for what counts as unnecessary socialization — \"Um, aren't all socialization unnecessary?\"\n\n To learn more about Lynx check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n This character has no video guide yet.\n\n Update tracker\n Last review update\n Patch 2.5\n\n Last major build/calcs update\n Patch 4.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Lynx check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Ice Crampon Technique\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Quantum DMG equal to #1[i]% of this character's Max HP to a single enemy.\n\n Skill\n Salted Camping Cans\n Restore\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Applies \"Survival Response\" to a single target ally and increases their Max HP by #1[i]% of Lynx's Max HP plus #2[i]. If the target ally is a character on the Path of Destruction or Preservation, the chance of them being attacked by enemies will greatly increase. \"Survival Response\" lasts for #3[i] turn(s).\nRestores the target's HP by #4[i]% of Lynx's Max HP plus #5[i].\n\n Ultimate\n Snowfield First Aid\n Restore | 100 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: -\n\n Dispels #1[i] debuff(s) from all allies and immediately restores their respective HP by an amount equal to #2[i]% of Lynx's Max HP plus #3[i].\n\n Talent\n Outdoor Survival Experience\n Restore\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n When using Lynx's Skill or Ultimate, applies continuous healing to the target ally for #1[i] turn(s), restoring the target ally's HP by an amount equal to #2[i]% of Lynx's Max HP plus #3[i] at the start of each their turn. If the target has \"Survival Response\", the continuous healing effect additionally restores HP by an amount equal to #4[i]% of Lynx's Max HP plus #5[i].\n\n Technique\n Chocolate Energy Bar\n Restore\n\n Energy gain: 0\n Break: -\n\n After Lynx uses her Technique, at the start of the next battle, all allies are granted her Talent's continuous healing effect, lasting for #1[i] turn(s).\n\n Major Traces\n A2 Major trace\n Advance Surveying\n\n After a target with Survival Response is hit, Lynx regenerates 2 Energy immediately.\n\n A4 Major trace\n Exploration Techniques\n\n Increases the chance to resist Crowd Control debuffs by 35% .\n\n A6 Major trace\n Survival in the Extreme\n\n Extends the duration of the continuous healing effect granted by Talent for 1 turn(s).\n\n Minor Traces (total)\n DEF\n + 22.5%\n\n HP\n + 28%\n\n Effect RES\n + 10%\n\n Eidolons\n E 1\n Morning of Snow Hike\n Eidolon 1\n\n When healing allies with HP equal to or lower than 50% , Lynx's Outgoing Healing increases by 20% . This effect also works on continuous healing.\n\n E 2\n Noon of Portable Furnace\n Eidolon 2\n\n A target with \"Survival Response\" can resist debuff application for 1 time(s).\n\n E 3\n Afternoon of Avalanche Beacon\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Dusk of Warm Campfire\n Eidolon 4\n\n When \"Survival Response\" is gained, increases the target's ATK by an amount equal to 3% of Lynx's Max HP for 1 turn(s).\n\n E 5\n Night of Aurora Tea\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Dawn of Explorers' Chart\n Eidolon 6\n\n Additionally boosts the Max HP increasing effect of \"Survival Response\" by an amount equal to 6% of Lynx's Max HP and increases Effect RES by 30% .\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1058\n\n ATK\n\n 493\n\n DEF\n\n 551\n\n Speed\n\n 100\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 246400\n\n Extinguished Core\n\n x 12\n\n Glimmering Core\n\n x 13\n\n Nail of the Ape\n\n x 50\n\n Squirming Core\n\n x 12\n\n CV\n ENG\n Risa Mei\n\n JPN\n 照井春佳 (Haruka Terui)\n\n CN\n 米糊\n\n KR\n 이은조 (Lee Eun-jo)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Strong consistent AoE healing,\n\n Great synergy with Yunli that improves her performance (if you're lacking Yunli's signature Light Cone),\n\n Can be extremely SP positive with her A6,\n\n AoE Cleanse on her Ultimate,\n\n Very durable,\n\n Stronger than Natasha and more accessible than 5* options.\n\n Cons\n Really wants her A6 to reach maximum efficacy,\n\n Cleanse is on Ultimate meaning it might not be as accessible as you need it,\n\n Emergency healing can feel bad due to ‘wasting’ turns of her regen.\n\n Review (By Sushou)\n Lynx is a great 4-star Healer. She combines the best aspects of Natasha and Bailu into one, providing healing over time from both her Skill and Ultimate, as well as being able to increase an ally’s Max HP by a significant amount with her Skill. She can even increase an ally’s aggro with her Skill if the ally is Destruction or Preservation, making her even better at mitigating damage for the team. Couple all of that with an AoE cleanse on her Ultimate and HP scaling Basic ATKs, and you’ve got an exceptional healer, especially for a 4*.\n Many readily available defensive support options are insufficient on their own in difficult content like Memory of Chaos or Swarm Disaster, and all of the truly good options are 5*s, meaning they’re largely inaccessible unless you get really really lucky. Enter Lynx, resident canned fish enjoyer, another member of the Landau family, and, most importantly, a 4* healer.\n An interesting thing to note right off the bat is that Lynx’ Basic ATK scales with her Max HP instead of her ATK. She deals up to 50% of her Max HP at max Trace level, and since the rest of her kit also scales with HP, it’s extremely likely that Lynx is going to be contributing surprisingly good amounts of damage as your dedicated healer, and this automatically puts her above the likes of Natasha and Bailu in terms of damage contribution—even though Natasha’s E6 adds a HP scaling to her Basic ATK, it’s still only 40% of Nat’s Max HP. Lynx gets to do it for free.\n Lynx’ Skill targets a single ally and heals them for up to 12% of Lynx’ Max HP plus 320 at max Trace level. This already makes it directly superior to Natasha’s Skill, but it elevates it even further by also increasing the targeted ally’s Max HP by up to 7.5% of Lynx’ Max HP plus 200 , meaning a well-invested Lynx can add a significant amount of HP to an ally. The added bonus is that if the targeted ally is on the Path of Destruction or Preservation, they are granted Survival Response, and have a vastly increased chance to be attacked, meaning that you can create a similar sort of effect as if you had Gepard in your team; pick a durable ally and turn them into the primary target for enemies to attack. These effects only last for 2 turns, however, so you need to be mindful of the SP you have available if you wish to maintain this playstyle.\n Because of the additional agro, if you're lacking Yunli's signature Light Cone, Lynx's skill will help her a lot in getting hit more often and thus drastically improve her performance.\n Her Ultimate heals all allies for up to 13.5% of Lynx’ Max HP plus 360, putting it just barely below Natasha’s Ultimate , but it has the added benefit of also being an AoE cleanse , something we’ve not yet seen a character be capable of. This allows Lynx to essentially salvage the previously unsalvageable; if you had the other three members of your team Frozen or Imprisoned, you’d likely be in a losing situation, but with Lynx you can nullify that harsh Crowd Control and get back into the fight. The only thing to note is that this cleanse applies to all debuffs, meaning that you can run into the same issue as always with multiple debuffs, where you can end up cleansing the wrong debuff and still dying. While having this AoE cleanse tied to an Ultimate is handy in a pinch, Natasha and Luocha can at least use a Skill back-to-back to cleanse things if necessary, and Lynx does not have this luxury.\n Lynx’ Talent makes an appearance whenever she heals an ally. Her Skill and Ultimate will apply a regen effect for 2 turns, restoring up to 3.6% of Lynx’ Max HP plus 96 at the start of the ally’s turn. It increases by an additional 4.5% plus 120 if the targeted ally is affected by Survival Response, making this a very noticeable heal over time for the units you designate as your tank. Since this is applied on all healing, including her Ultimate, it makes Lynx a very SP-efficient healer.\n With her Bonus Traces, Lynx’ performance notably improves. Her A2 provides Lynx with a bonus 2 Energy each time a unit with Survival Response is hit, lessening the burden of Energy requirements and potentially allowing for more Ultimates, though it does require SP to be used to apply Survival Response in the first place. Her A4 provides a 35% chance to resist Crowd Control, making it less likely that she’ll be taken out of the fight and allowing her to be ready to cleanse allies if necessary. Finally, her A6 extends the duration of her Talent’s regen effect by 1 turn, for a new total of 3 turns. This just makes Lynx better at what she was already doing, and also helps bridge the gap between Ultimate usages, potentially allowing for permanent uptime on the healing over time.\n As a 4* character, it is entirely possible to get Eidolons for Lynx over time, but they’re actually not a necessity for Lynx to be an excellent healer. Particularly noteworthy is her E2, which allows an ally with Survival Response to resist debuff application one time, and her E6, which further increases the Max HP boost by 6% of Lynx’ Max HP and also increases the ally’s Effect RES by 30%.\n Overall, Lynx is a simple but effective character and she works great as your party's healer till you obtain some stronger, 5-star limited options - but she can be Best in Slot even if you include the 5-star options (Yunli without her signature Cone being the main case). She also appreciates the value of a Thermos, so you should definitely be able to appreciate her. Preparedness is a sign of great wisdom, you know.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Sustain\n Eidolon 0\n T4\n MoC\n\n T4\n PF\n\n T4\n AS\n\n Eidolon 6\n T3\n MoC\n\n T3\n PF\n\n T3\n AS\n\n Build and teams\n\n Best Light Cones\n\n 1\n\n Night of Fright (S 1 )\n\n Incredible option for most Abundance characters thanks to good Energy Regen, a stackable team wide buff and a unique healing mechanic capable of keeping your team alive in a pinch when your healer has no skills available at the time.\n\n 2\n\n Time Waits for No One (S 1 )\n\n A good combination of Healing%, HP% and base stats making for a decent pure sustain option for HP% scaling healers but offers no utility or supportive benefits.\n\n 3\n\n Post-Op Conversation (S 5 )\n\n Useful primarily due to its accessible large bonus to Energy Regen - a stat many sustain characters can't get enough of.\n Usage: 50 %\n MoC: -\n PF: 0\n AS: 0\n\n 4\n\n Perfect Timing (S 5 )\n\n Improves healing based on Effect RES and incentivizes characters to stack Effect RES up to 100% for Debuff Immunity (for the ones that can be resisted at least).\n\n Specialist Light Cones\n 1\n\n Quid Pro Quo (S 1 )\n\n One of the strongest supportive Cones for most Abundance characters - assuming you can deal with losing all the other Cone related healing/utility/support bonuses and have a team that can utilize the energy it provides. Becomes stronger the more often the wearer acts.\n\n 2\n\n Multiplication (S 5 )\n\n Very potent pure Speed option for Abundance characters that use a good amount of Basic Attacks. Allows the wearer many more actions, leading to an accelerated rotation but at the cost of base stats and the bonuses other Cones might provide.\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Warrior Goddess of Sun and Thunder ( 4 -PC)\n\n Best in slot set for all healers, increasing their SPD by 12% and providing a teamwide 15% CRIT DMG buff.\n Usage: 50 %\n MoC: -\n PF: 0\n AS: 0\n\n 2\n\n Messenger Traversing Hackerspace ( 4 -PC)\n\n Good team-wide supportive option for characters with Ultimates that target allies. With this set equipped, Ultimates are best timed carefully to ensure the Speed buff is active on key members for as long as possible.\n 3\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Passerby of Wandering Cloud\n\n Sacerdos' Relived Ordeal\n\n Longevous Disciple\n\n 4\n\n Passerby of Wandering Cloud ( 4 -PC)\n\n Option for teams with front-loaded SP usage. Most suitable for Sustain characters but can be used on others if the skill points are needed.\n\n Best Specialist Relic Sets\n 1\n\n Sacerdos' Relived Ordeal ( 4 -PC)\n\n Incredibly powerful set for characters with Ultimates and or Skills that target a single ally and who work well in teams with a sole damage dealer who can benefit from CRIT DMG. In some teams Lynx consistently uses her Skill to maintain its Taunting effect on a character - while doing this she can apply and maintain this sets effect. Outside of this scenario this sets use becomes a lot more limited.\n\n Best Planetary Sets\n 1\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 2\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n Usage: 50 %\n MoC: -\n PF: 0\n AS: 0\n\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n 5\n\n Giant Tree of Rapt Brooding ( 2 -PC)\n\n An option focused on healing output, particularly useful in teams that require strong healing.\n\n Best Stats\n\n Body\n Outgoing Healing\n > HP%\n\n Feet\n Speed\n\n Planar Sphere\n HP%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (breakpoint) > HP% > Effect RES > DEF%\n\n Focusing on Speed and HP% will make Lynx heal often and give her some bulk. Since Lynx's HP Buff on her Skill / ATK Increase from Eidolon 4 is based on her HP, HP chest can be considered over Outgoing Healing Bonus for more Team DPS, as the difference in healing output is insignificant.\n\n Recommended endgame stats\n HP: 5000 - 5700+\n\n DEF: 900 - 1200+\n\n SPD: 134 (Recommended) / 143 / 160\n\n ENERGY REGEN : 19.44%+\n\n Traces priority\n Skills priority: Ultimate > Talent >= Skill = Basic\n\n Major Traces priority: Advance Surveying (A2) > Survival in the Extreme (A6) > Exploration Techniques (A4)\n\n Synergy\n Blade - Blade has a constant depletion of his HP which requires lots of attention, thankfully Lynx’s HoT as well as her increased Taunt on Skill allows Blade to Follow-Up Attack a lot more often while also healing himself from it.\n Clara - Lynx has a Taunt value increase on her skill which is very useful for characters like Clara who need to be hit to get the most out of their kit. Cleanse on her Ultimate allows Crowd Controls to be ignored in certain scenarios, with her E2 also providing a one time debuff ignore on Skill use.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : 10\n Avg. cycles (E1+): -\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

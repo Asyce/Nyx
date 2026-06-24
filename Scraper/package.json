@@ -4,8 +4,11 @@
   "type": "module",
   "scripts": {
     "banners": "node ./banners/scrape.cjs",
+    "banners:test": "node --test banners/tests/",
     "codes": "node ./codes/scrape.cjs",
     "codes:test": "node --test codes/tests/",
+    "test": "node --test codes/tests/ banners/tests/",
+    "validate": "node ./validate-data.cjs",
     "endfield:wiki": "node ./endfield-wiki/scrape.mjs",
     "nanoka": "node ./nanoka/scrape.mjs",
     "nanoka:gi": "node ./nanoka/scrape.mjs --game gi",

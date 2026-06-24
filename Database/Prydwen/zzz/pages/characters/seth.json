@@ -1,0 +1,1255 @@
+{
+  "id": "characters:seth",
+  "provider": "Prydwen",
+  "game": "zzz",
+  "gameName": "Zenless Zone Zero",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "seth",
+  "name": "Seth",
+  "title": "Seth Best Build Guide",
+  "sourcePath": "/zenless/characters/seth",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "14/June/2026",
+  "meta": {
+    "title": "Seth Best Build Guide | Zenless Zone Zero",
+    "description": ""
+  },
+  "facts": {
+    "attribute": "Electric",
+    "specialty": "Defence",
+    "faction": "N.E.P.S.",
+    "rarity": "A"
+  },
+  "assets": [
+    {
+      "id": "e376b296a914",
+      "sourceHash": "e376b296a914",
+      "kind": "characters",
+      "name": "Character",
+      "fileStem": "seth-card",
+      "path": "Prydwen/zzz/assets/characters/seth-card-e376b296a914.webp",
+      "width": 370,
+      "height": 512
+    },
+    {
+      "id": "180993e8877a",
+      "sourceHash": "180993e8877a",
+      "kind": "icons",
+      "name": "A",
+      "fileStem": "rarity-a",
+      "path": "Prydwen/zzz/assets/icons/a-180993e8877a.webp",
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "45e0d1f45663",
+      "sourceHash": "45e0d1f45663",
+      "kind": "icons",
+      "name": "Defence",
+      "fileStem": "style-defence",
+      "path": "Prydwen/zzz/assets/icons/defence-45e0d1f45663.webp",
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "237e68e9343e",
+      "sourceHash": "237e68e9343e",
+      "kind": "factions",
+      "name": "N.E.P.S.",
+      "fileStem": "faction-neps",
+      "path": "Prydwen/zzz/assets/factions/n-e-p-s-237e68e9343e.webp",
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "880f190c8aa9",
+      "sourceHash": "880f190c8aa9",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-core",
+      "path": "Prydwen/zzz/assets/icons/core-880f190c8aa9.webp",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "13fff798e82d",
+      "sourceHash": "13fff798e82d",
+      "kind": "icons",
+      "name": "Basic",
+      "fileStem": "icon-basic",
+      "path": "Prydwen/zzz/assets/icons/basic-13fff798e82d.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "f3bbacf4beb6",
+      "sourceHash": "f3bbacf4beb6",
+      "kind": "icons",
+      "name": "Dodge",
+      "fileStem": "icon-dodge",
+      "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "de0f0cad1e72",
+      "sourceHash": "de0f0cad1e72",
+      "kind": "icons",
+      "name": "Assist",
+      "fileStem": "icon-assist-m",
+      "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "954b8d0b61b7",
+      "sourceHash": "954b8d0b61b7",
+      "kind": "icons",
+      "name": "Special",
+      "fileStem": "icon-special-full",
+      "path": "Prydwen/zzz/assets/icons/special-954b8d0b61b7.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "803b765175bc",
+      "sourceHash": "803b765175bc",
+      "kind": "icons",
+      "name": "qte",
+      "fileStem": "icon-ulti-full",
+      "path": "Prydwen/zzz/assets/icons/qte-803b765175bc.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "9f68a61db8c5",
+      "sourceHash": "9f68a61db8c5",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-special",
+      "path": "Prydwen/zzz/assets/icons/core-9f68a61db8c5.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "d3cae9ba5d45",
+      "sourceHash": "d3cae9ba5d45",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-ulti",
+      "path": "Prydwen/zzz/assets/icons/core-d3cae9ba5d45.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "94a5940d48d5",
+      "sourceHash": "94a5940d48d5",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-assist",
+      "path": "Prydwen/zzz/assets/icons/core-94a5940d48d5.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "bcc36adf7778",
+      "sourceHash": "bcc36adf7778",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/zzz/assets/icons/stat-hp-bcc36adf7778.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "6bde3e3d95d5",
+      "sourceHash": "6bde3e3d95d5",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-def",
+      "path": "Prydwen/zzz/assets/icons/stat-def-6bde3e3d95d5.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "3be631f5fe8b",
+      "sourceHash": "3be631f5fe8b",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/zzz/assets/icons/stat-atk-3be631f5fe8b.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "7e808fde7ecd",
+      "sourceHash": "7e808fde7ecd",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-crit",
+      "path": "Prydwen/zzz/assets/icons/stat-crit-7e808fde7ecd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "a5d74846670e",
+      "sourceHash": "a5d74846670e",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/zzz/assets/icons/stat-critdmg-a5d74846670e.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "96960682bbd8",
+      "sourceHash": "96960682bbd8",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-pen",
+      "path": "Prydwen/zzz/assets/icons/stat-pen-96960682bbd8.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "55a4b1c5a82a",
+      "sourceHash": "55a4b1c5a82a",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-impact",
+      "path": "Prydwen/zzz/assets/icons/stat-impact-55a4b1c5a82a.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "078045904ece",
+      "sourceHash": "078045904ece",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-mastery",
+      "path": "Prydwen/zzz/assets/icons/stat-mastery-078045904ece.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "09b14c497e98",
+      "sourceHash": "09b14c497e98",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/zzz/assets/icons/stat-energy-09b14c497e98.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "953351a4c1cf",
+      "sourceHash": "953351a4c1cf",
+      "kind": "characters",
+      "name": "Seth",
+      "fileStem": "seth-full",
+      "path": "Prydwen/zzz/assets/characters/seth-953351a4c1cf.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "f9df5f83fbef",
+      "sourceHash": "f9df5f83fbef",
+      "kind": "w-engines",
+      "name": "Peacekeeper - Specialized",
+      "fileStem": "peacekeeper-specialized-image",
+      "path": "Prydwen/zzz/assets/w-engines/peacekeeper-specialized-f9df5f83fbef.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "695c563b6c68",
+      "sourceHash": "695c563b6c68",
+      "kind": "w-engines",
+      "name": "Spring Embrace",
+      "fileStem": "spring-embrace-image",
+      "path": "Prydwen/zzz/assets/w-engines/spring-embrace-695c563b6c68.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "0aac9dbc4e58",
+      "sourceHash": "0aac9dbc4e58",
+      "kind": "w-engines",
+      "name": "Bunny Band",
+      "fileStem": "bunny-band-image",
+      "path": "Prydwen/zzz/assets/w-engines/bunny-band-0aac9dbc4e58.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "57a5e670623c",
+      "sourceHash": "57a5e670623c",
+      "kind": "w-engines",
+      "name": "Original Transmorpher",
+      "fileStem": "original-transmorpher-image",
+      "path": "Prydwen/zzz/assets/w-engines/original-transmorpher-57a5e670623c.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "47b453ad83b8",
+      "sourceHash": "47b453ad83b8",
+      "kind": "drive-discs",
+      "name": "Astral Voice",
+      "fileStem": "set-astral",
+      "path": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "7e8e49d34387",
+      "sourceHash": "7e8e49d34387",
+      "kind": "drive-discs",
+      "name": "Swing Jazz",
+      "fileStem": "set-swing",
+      "path": "Prydwen/zzz/assets/drive-discs/swing-jazz-7e8e49d34387.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "4890ba26d7e9",
+      "sourceHash": "4890ba26d7e9",
+      "kind": "drive-discs",
+      "name": "Freedom Blues",
+      "fileStem": "set-freedom",
+      "path": "Prydwen/zzz/assets/drive-discs/freedom-blues-4890ba26d7e9.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "e1ff48081ec4",
+      "sourceHash": "e1ff48081ec4",
+      "kind": "drive-discs",
+      "name": "Chaos Jazz",
+      "fileStem": "set-chaos",
+      "path": "Prydwen/zzz/assets/drive-discs/chaos-jazz-e1ff48081ec4.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "9b0991be94a3",
+      "sourceHash": "9b0991be94a3",
+      "kind": "drive-discs",
+      "name": "Hormone Punk",
+      "fileStem": "set-hormone",
+      "path": "Prydwen/zzz/assets/drive-discs/hormone-punk-9b0991be94a3.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "1c4453ce92f8",
+      "sourceHash": "1c4453ce92f8",
+      "kind": "drive-discs",
+      "name": "Proto Punk",
+      "fileStem": "set-proto",
+      "path": "Prydwen/zzz/assets/drive-discs/proto-punk-1c4453ce92f8.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "1d32dd29b6a7",
+      "sourceHash": "1d32dd29b6a7",
+      "kind": "drive-discs",
+      "name": "Shockstar Disco",
+      "fileStem": "set-shockstar",
+      "path": "Prydwen/zzz/assets/drive-discs/shockstar-disco-1d32dd29b6a7.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "7a4ba5242a6c",
+      "sourceHash": "7a4ba5242a6c",
+      "kind": "characters",
+      "name": "Jane Doe",
+      "fileStem": "jane-doe",
+      "path": "Prydwen/zzz/assets/characters/jane-doe-7a4ba5242a6c.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "79ca38737857",
+      "sourceHash": "79ca38737857",
+      "kind": "characters",
+      "name": "Yanagi",
+      "fileStem": "yanagi",
+      "path": "Prydwen/zzz/assets/characters/yanagi-79ca38737857.webp",
+      "width": 60,
+      "height": 60
+    }
+  ],
+  "sections": [
+    {
+      "id": "seth-best-build-guide-0",
+      "level": 1,
+      "heading": "Seth Best Build Guide",
+      "text": "Last updated: 14/June/2026",
+      "assets": [
+        {
+          "id": "e376b296a914",
+          "sourceHash": "e376b296a914",
+          "kind": "characters",
+          "name": "Character",
+          "fileStem": "seth-card",
+          "path": "Prydwen/zzz/assets/characters/seth-card-e376b296a914.webp",
+          "width": 370,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Seth from ZZZ (Zenless Zone Zero). Seth is an rank character with the Electric attribute who belongs to the Defence Specialty and who is part of the N.E.P.S. faction.\n Seth, a rookie officer in the Public Security Criminal Investigation Special Response Team, is a key player in providing fire support during criminal investigations. He graduated at the top of his class in the academy and could have landed a higher position, but he chose the tougher path of the Special Response Team. His impressive profile makes him seem like a genius, but he's actually a hard worker who has had his own struggles. There have been times when he practiced the subjects he wasn't good at until he cried.\n\n To learn more about Seth check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": [
+        {
+          "id": "180993e8877a",
+          "sourceHash": "180993e8877a",
+          "kind": "icons",
+          "name": "A",
+          "fileStem": "rarity-a",
+          "path": "Prydwen/zzz/assets/icons/a-180993e8877a.webp",
+          "width": 30,
+          "height": 30
+        },
+        {
+          "id": "45e0d1f45663",
+          "sourceHash": "45e0d1f45663",
+          "kind": "icons",
+          "name": "Defence",
+          "fileStem": "style-defence",
+          "path": "Prydwen/zzz/assets/icons/defence-45e0d1f45663.webp",
+          "width": 30,
+          "height": 30
+        },
+        {
+          "id": "237e68e9343e",
+          "sourceHash": "237e68e9343e",
+          "kind": "factions",
+          "name": "N.E.P.S.",
+          "fileStem": "faction-neps",
+          "path": "Prydwen/zzz/assets/factions/n-e-p-s-237e68e9343e.webp",
+          "width": 30,
+          "height": 30
+        }
+      ]
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Seth has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 1.5\n\n Last build update\n Patch 1.5\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 14/June/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.",
+      "assets": []
+    },
+    {
+      "id": "calculations-9",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "To learn more about Seth check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile",
+      "assets": []
+    },
+    {
+      "id": "core-skills-10",
+      "level": 2,
+      "heading": "Core skills",
+      "text": "Core Passive Protector\n\n Lv. 1\n\n When Seth uses EX Special Attack: Thunder Shield Rush - High Voltage, he gains a Shield of Firm Resolve equal to 40% of his initial ATK, up to a max of 3,000 points, and lasting 25s. This can be triggered once every 10s. When Basic Attack: Lightning Strike - Electrified or Assist Follow-Up: Public Security Ruling triggers a Quick Assist or Chain Attack, causing another squad member to enter the field, that squad member gains a Shield of Firm Resolve equal to 40% of Seth's initial ATK, up to a max of 3,000 points, and lasting 25s. This can be triggered once every 10s. A Shield of Firm Resolve grants a 50 point increase to Anomaly Proficiency.\n\n Base Energy Regen 0\n BASE ATK: 0\n\n Additional Ability High Spirit\n\n When another character in your squad shares the same Attribute or Faction:\n When Seth's Chain Attack: Final Judgement or finishing strike during Basic Attack: Lightning Strike - Electrified hits an enemy, the target's Anomaly Buildup RES to all Attributes is reduced by 20% , lasting 20s .",
+      "assets": [
+        {
+          "id": "880f190c8aa9",
+          "sourceHash": "880f190c8aa9",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-core",
+          "path": "Prydwen/zzz/assets/icons/core-880f190c8aa9.webp",
+          "width": 32,
+          "height": 32
+        }
+      ]
+    },
+    {
+      "id": "skills-11",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Lightning Strike\n\n Press to activate:\nUnleashes up to 4 attacks in front, dealing Physical DMG and Electric DMG.\n Multipliers\n\n Basic Attack: Lightning Strike - Electrified\n\n When Resolve is above 75%, hold to activate:\nConsume 75% Resolve to launch continuous attacks in front, followed by a finishing strike that deals Electric DMG.\nWhen the finishing strike hits an enemy, it triggers the Quick Assist of the squad member positioned before Seth.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n Dodge: Evasion Maneuver\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Thunder Assault\n\n Press during a dodge to activate.\nCharge forward with a shield attack, dealing Physical DMG.\nDamage received during the move is decreased by 40%.\n Multipliers\n\n Dodge Counter: Retreat to Advance\n\n Press during a Perfect Dodge to activate.\nUnleash a quick downward strike on enemies in front, dealing Electric DMG.\nAfter the move, hold to chain into EX Special Attack: Thunder Shield Rush - High Voltage, enabling faster charging.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Thunder Shield Rush\n\n Hold to activate.\nLaunch two shield strikes forward, dealing Electric DMG.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n EX Special Attack: Thunder Shield Rush - High Voltage\n\n When Seth has enough energy, press to activate:\nUnleash a series of slashes in front, dealing massive Electric DMG.\nHold to charge the move, and Seth will dash forward, unleashing a series of powerful slashes, dealing massive Electric DMG.\nActivating the move accumulates 75% Resolve.\nAnti-Interrupt level is increased while charging this skill, and damage taken is reduced by 40%.\nSeth is invulnerable during the continuous slashes.\n Multipliers\n\n Chain Attack: Final Judgement\n\n When a Chain Attack is triggered, select Seth to activate:\nLaunch a series of slashes in front, dealing massive Electric DMG.\nActivating the move accumulates 75% Resolve.\nAfter the move, hold to chain into EX Special Attack: Thunder Shield Rush - High Voltage, enabling faster charging.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Justice Prevails\n\n When Decibel Rating is at Maximum, press to activate.\nLaunch a series of upward slashes in front, followed by a finishing strike, dealing massive Electric DMG.\nActivating the move accumulates 75% Resolve, and grants 3 additional Assist Points.\nAfter the move, hold to chain into EX Special Attack: Thunder Shield Rush - High Voltage, enabling faster charging.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Public Security Ruling\n\n Press after a Defensive Assist to activate.\nLaunch a forward thrust attack, followed by two horizontal slashes, dealing Electric DMG.\nWhen the finishing strike hits an enemy, it triggers the Quick Assist of the squad member positioned before Seth.\nAfter the move, hold to chain into EX Special Attack: Thunder Shield Rush - High Voltage, enabling faster charging.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Thundershield\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, inflicting massive Daze.\nSeth gains 25% Resolve upon activating the skill.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Armed Support\n\n When the on-field character is launched, press to activate.\nUnleash a quick downward strike on enemies in front, dealing Electric DMG.\nAfter the move, hold to chain into EX Special Attack: Thunder Shield Rush - High Voltage, enabling faster charging.\nCharacter is invulnerable while using this skill.\n Multipliers",
+      "assets": [
+        {
+          "id": "13fff798e82d",
+          "sourceHash": "13fff798e82d",
+          "kind": "icons",
+          "name": "Basic",
+          "fileStem": "icon-basic",
+          "path": "Prydwen/zzz/assets/icons/basic-13fff798e82d.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "f3bbacf4beb6",
+          "sourceHash": "f3bbacf4beb6",
+          "kind": "icons",
+          "name": "Dodge",
+          "fileStem": "icon-dodge",
+          "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "de0f0cad1e72",
+          "sourceHash": "de0f0cad1e72",
+          "kind": "icons",
+          "name": "Assist",
+          "fileStem": "icon-assist-m",
+          "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "954b8d0b61b7",
+          "sourceHash": "954b8d0b61b7",
+          "kind": "icons",
+          "name": "Special",
+          "fileStem": "icon-special-full",
+          "path": "Prydwen/zzz/assets/icons/special-954b8d0b61b7.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "803b765175bc",
+          "sourceHash": "803b765175bc",
+          "kind": "icons",
+          "name": "qte",
+          "fileStem": "icon-ulti-full",
+          "path": "Prydwen/zzz/assets/icons/qte-803b765175bc.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "9f68a61db8c5",
+          "sourceHash": "9f68a61db8c5",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-special",
+          "path": "Prydwen/zzz/assets/icons/core-9f68a61db8c5.webp",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "id": "d3cae9ba5d45",
+          "sourceHash": "d3cae9ba5d45",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-ulti",
+          "path": "Prydwen/zzz/assets/icons/core-d3cae9ba5d45.webp",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "id": "94a5940d48d5",
+          "sourceHash": "94a5940d48d5",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-assist",
+          "path": "Prydwen/zzz/assets/icons/core-94a5940d48d5.webp",
+          "width": 40,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "id": "mindscapes-12",
+      "level": 2,
+      "heading": "Mindscapes",
+      "text": "M1\n Heroism\n Mindscape 1\n\n The shield value provided by Shield of Firm Resolve and its maximum limit is increased by 30% . When Shield of Firm Resolve ends, the Anomaly Proficiency increase provided by Core Passive: Protector lasts an additional 10s .\n\n M2\n Recklessness of Youth\n Mindscape 2\n\n Upon entering battle, Seth immediately gains 75% Resolve. Hitting an enemy with Basic Attack: Lightning Strike - Electrified increases the move's accumulated Electric Anomaly Buildup by 35% .\n\n M3\n Slow Reflexes\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Core Aspiration\n Mindscape 4\n\n The Daze caused by Defensive Assist: Thundershield is increased by 25% .\n\n M5\n Distant Admiration\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Idealist\n Mindscape 6\n\n When Seth lands a finishing strike on an enemy with Basic Attack: Lightning Strike - Electrified, it deals additional damage equal to 500% of his ATK. The attack is guaranteed to trigger a CRIT, and CRIT DMG is increased by 60% .",
+      "assets": []
+    },
+    {
+      "id": "stats-level-60-13",
+      "level": 2,
+      "heading": "Stats (Level 60)",
+      "text": "Seth Stats at level 60 (including Core passive bonuses).\n\n HP\n 8701\n\n DEF\n 746\n\n ATK\n 643\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 94\n\n Anomaly Mastery\n 86\n\n Anomaly Proficiency\n 90\n\n Energy Regen\n 1.56",
+      "assets": [
+        {
+          "id": "bcc36adf7778",
+          "sourceHash": "bcc36adf7778",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/zzz/assets/icons/stat-hp-bcc36adf7778.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "6bde3e3d95d5",
+          "sourceHash": "6bde3e3d95d5",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-def",
+          "path": "Prydwen/zzz/assets/icons/stat-def-6bde3e3d95d5.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "3be631f5fe8b",
+          "sourceHash": "3be631f5fe8b",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/zzz/assets/icons/stat-atk-3be631f5fe8b.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "7e808fde7ecd",
+          "sourceHash": "7e808fde7ecd",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/zzz/assets/icons/stat-crit-7e808fde7ecd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "a5d74846670e",
+          "sourceHash": "a5d74846670e",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/zzz/assets/icons/stat-critdmg-a5d74846670e.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "96960682bbd8",
+          "sourceHash": "96960682bbd8",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-pen",
+          "path": "Prydwen/zzz/assets/icons/stat-pen-96960682bbd8.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "55a4b1c5a82a",
+          "sourceHash": "55a4b1c5a82a",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-impact",
+          "path": "Prydwen/zzz/assets/icons/stat-impact-55a4b1c5a82a.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "078045904ece",
+          "sourceHash": "078045904ece",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-mastery",
+          "path": "Prydwen/zzz/assets/icons/stat-mastery-078045904ece.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "09b14c497e98",
+          "sourceHash": "09b14c497e98",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/zzz/assets/icons/stat-energy-09b14c497e98.webp",
+          "width": 24,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "id": "voice-actors-14",
+      "level": 2,
+      "heading": "Voice Actors",
+      "text": "ENG\n Nazeeh Tarsha\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-15",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "953351a4c1cf",
+          "sourceHash": "953351a4c1cf",
+          "kind": "characters",
+          "name": "Seth",
+          "fileStem": "seth-full",
+          "path": "Prydwen/zzz/assets/characters/seth-953351a4c1cf.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "ratings-16",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.",
+      "assets": []
+    },
+    {
+      "id": "support-17",
+      "level": 5,
+      "heading": "Support",
+      "text": "T3\n Endgame Modes",
+      "assets": []
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "High duration buff/debuff uptime and they are also easy to apply, which makes keeping them all active easy.\n\n Takes up minimal field time.\n\n Offers decent Defensive shields.\n\n Grants a big Anomaly efficiency bonus to himself and an ally of your choosing.\n\n Debuffs enemies causing them to lose 20% Anomaly Buildup Resistance of all element types.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Can only consistently buff himself and 1 other teammate with his shield and Anomaly Efficiency.\n\n Attack animations on most important attacks his EX Special and Charged Held Basic are on the slower side.",
+      "assets": []
+    },
+    {
+      "id": "review-21",
+      "level": 2,
+      "heading": "Review",
+      "text": "Seth is an A-Rank Electric Melee Defense Agent who is just a Support in disguise. He offers strong Anomaly buffs and Shields to both himself and a designated ally. Seth contributes significantly to Daze and Anomaly buildup, making him a versatile addition to any team - and what's best, he doesn't need to spend a lot of time on the field to do what he does best!\n Seth's abilities center around a unique resource called Resolve. This resource fuels a powerful Enhanced Basic Attack, which triggers a Special Quick Assist for the character positioned before Seth in the squad order - unlike standard Quick Assists, which activate for the next character in line. Seth’s Quick Assist enhances the performance of the preceding squad member - granting them a Shield and a powerful Attribute Anomaly buff for an extended duration. Outside of his Chain Attacks, mastering Seth's kit requires understanding how to maximize this shield and buff for your chosen ally (to be chosen before the mission starts) while keeping Seth’s field time to a minimum.\n Seth’s effectiveness hinges on his Core Passive - Protector, and Additional Ability - High Spirit as these are the core of his support capabilities.\n Seth’s Core Passive grants Seth a Shield equal to 80% of his initial ATK every time he uses his EX Special Attack, with a maximum cap of 3000 for 25 seconds and a 10-second cooldown. The shield’s strength is tied to Seth’s initial ATK, meaning it remains unaffected by any in-combat ATK buffs. What you see on his stat page before a mission is what you get in battle. When Seth triggers a Quick Assist via his Charged Hold Basic Attack or Assist Follow-Up, the same Shield, with identical scaling, cap, and duration, is granted to the ally benefiting from the assist. Additionally, all squad members, including Seth, who are shielded by this effect, gain a significant 100 additional Anomaly Proficiency at max rank. However, due to the mechanics of Seth’s Shields, only himself and the preceding squad member in order can benefit from this buff.\n Seth’s Additional Ability is simpler. It requires at least one squadmate to share Seth’s Attribute or Faction to activate. When active, Seth’s Chain Attack or Charged Hold Basic Attack reduces the enemy's Anomaly Buildup Resistance by 20% for 20 seconds. This debuff significantly enhances Anomaly team performance, increasing overall damage and consistency by accelerating Anomaly application. Since both attacks that apply this effect are commonly used by Seth, maintaining this debuff almost permanently is straightforward and easy.\n Seth wields two distinct Basic Attack forms: a standard 4-part combo and a specialized Charged Hold Basic Attack. His standard combo is rarely employed , due to its lack of Resolve generation and contribution to team utility, thus we shall bypass its details and instead focus on the Charged Hold Basic Attack, which is far more crucial to Seth's role.\n Seth’s Charged Basic Attack: Lightning Strike - Electrified requires and consumes 75% of his Resolve Bar to activate and will cause Seth to launch a flurry of lightning slashes followed by a large finishing move dealing moderate Daze and Electric Anomaly.This attack is irreplaceable for triggering his unique Quick Assist, which applies a shield to an ally, as well as for maintaining the Anomaly Resistance Reduction debuff on enemies. Because of this building and then spending the 75% Resolve to activate it should always be at the top of his priority list and thankfully is easily achievable thanks to his EX Special.\n Seth's EX Special Attack is one of his most reliable and efficient methods for accumulating Resolve. By consuming 80 energy, Seth releases a barrage of heavy Electric attacks that inflict substantial Daze and Electric Anomaly damage. More importantly, this attack immediately grants Seth 75% Resolve , making it an essential component of his rotation. The synergy between the EX Special and his Charged Hold Basic Attack forms his primary combo. This combo should be employed whenever the energy is available, and when either Seth, his designated ally, or the enemy lacks the buffs or debuffs from his Core Passive or Additional Ability.\n Seth's EX Special can be further enhanced by holding the EX button - charging the attack at cost of additional time. While this increases the damage, Daze, and Anomaly application, it does not affect Resolve generation . The additional charge time can be significant, but it can be shortened by executing the charge immediately following a Chain Attack, Ultimate, Dodge Counter, Assist Follow-Up, or Quick Assist. Furthermore, Seth can reduce the recovery time of the Charged EX by performing a Dash Cancel after the final strike, or by Swapping to another character while Seth completes the attack. While the Charged EX can provide a slight boost to Seth's damage, Daze, and Anomaly output, it is entirely optional. Skipping the charge in favor of the standard EX Special will not hinder Seth’s supportive capabilities and may even result in gaining extra field time for other characters.\n Seth's Chain Attack and Ultimate both deal damage, apply Daze, and Anomaly effects compared to moves of their type for defense characters like Seth, but they also both generate 75% Resolve on use. The resolve generation of the chain attack on top of the application/reapplication of Seth’s 20% Anomaly Resistance Reduction make it well worth using whenever you have a Chain Attack to spare. Utilizing Chain Attacks whenever possible, without causing a significant damage loss, reduces the pressure of relying solely on Seth’s EX Special to access his Charged Hold Basic Attack, while also keeping one of his most important supportive bonuses active more consistently. Seth’s Ultimate on the other hand sadly isn’t worth using as between his EX’s and Chain Attacks he more than Resolve he needs covered.\n Seth’s Quick Assist is rather unremarkable and rarely used. However, the synergy between his Defensive Assist and Assist Follow-Up is where he shines. Using Seth’s Assist Follow-Up similarly to his Enhanced Hold Basic Attack triggers a Quick Assist, which, like the Basic Attack, can grant all of Seth’s Core Passive bonuses to a teammate. This makes it a viable alternative in combat, particularly when Resolve or energy is in short supply.\n Overall, Seth emerges as a formidable Anomaly support powerhouse, yet his playstyle is refreshingly straightforward. He only requires the execution of one simple combo to effectively apply all his buffs, shields, and debuffs:\n Standard Combo\n EX Special Attack: Thunder Shield Rush - High Voltage (Generates 75% Resolve)\n\n Basic Attack: Lightning Strike - Electrified (Consumes 75% Resolve)\n\n Team Mate Quick Assist\n\n Despite the simplicity of his core combo, Seth boasts an array of tricks, alternative combo sequences, and options to further enhance his performance. These elements collectively position him as a great character within the Anomaly archetype, offering both ease of use and depth for those willing to explore his full potential.\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "collaboration-disclaimer-22",
+      "level": 2,
+      "heading": "Collaboration Disclaimer",
+      "text": "For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.",
+      "assets": []
+    },
+    {
+      "id": "best-w-engines-23",
+      "level": 2,
+      "heading": "Best W-Engines",
+      "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Peacekeeper - Specialized (S 5 )\n\n Without a doubt the best W-Engine for Seth, it provides him unconditional Standard Attack% to improve the size of his Shields, a great amount of extra Energy Regen for boosting his main burst combo accessibility along with a massive increase to the Anomaly build-up of two of his strongest attacks making him more valuable in Disorder teams.\n Usage: 25 %\n Shiyu Defense: 0\n Deadly Assault: 0\n\n 2\n\n Spring Embrace (S 5 )\n\n An alternative to Peacekeeper, Spring Embrace emphasizes support for teammates. This Engine grants unconditional Standard ATK% which improves Seth's shields while also providing an energy regeneration buff when Seth is hit by enemy attacks. The Energy regeneration buff can be transferred to teammate upon character Swap, fitting well with Seth's Quick Assist playstyle. This set improves the Shield and Anomaly Proficiency buffs Seth already provides on character Swap, making it a solid choice for teams that are focusing in maximizing support.\n 3\n\n Bunny Band (S 5 )\n\n Bunny Band falls behind Seth's top options, due to its situational benefits. It provides 40% Defense, 12.8% Combat HP, and 16% Combat Attack while shielded (at max rank). While on paper, the Combat ATK looks appealing, it does not improve the size of Seth's shields due to the multiplier being limited to \"initial ATK,\" which excludes combat buffs. Its defensive stats also do not scale with Seth's kit, making this set less effective compared to others.\n 4\n\n Original Transmorpher (S 5 )\n\n This W-engine leans heavily towards defensive stats, which do not significantly benefit Seth's kit. However it does provides a buff that offers up to 16% Combat Impact for 12 seconds after taking a hit. This is not as strong as Seth's top choices but it offers some utility thanks to the Combat Impact percentage, particularly in a pool of limited defensive options for Seth.",
+      "assets": [
+        {
+          "id": "f9df5f83fbef",
+          "sourceHash": "f9df5f83fbef",
+          "kind": "w-engines",
+          "name": "Peacekeeper - Specialized",
+          "fileStem": "peacekeeper-specialized-image",
+          "path": "Prydwen/zzz/assets/w-engines/peacekeeper-specialized-f9df5f83fbef.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "695c563b6c68",
+          "sourceHash": "695c563b6c68",
+          "kind": "w-engines",
+          "name": "Spring Embrace",
+          "fileStem": "spring-embrace-image",
+          "path": "Prydwen/zzz/assets/w-engines/spring-embrace-695c563b6c68.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "0aac9dbc4e58",
+          "sourceHash": "0aac9dbc4e58",
+          "kind": "w-engines",
+          "name": "Bunny Band",
+          "fileStem": "bunny-band-image",
+          "path": "Prydwen/zzz/assets/w-engines/bunny-band-0aac9dbc4e58.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "57a5e670623c",
+          "sourceHash": "57a5e670623c",
+          "kind": "w-engines",
+          "name": "Original Transmorpher",
+          "fileStem": "original-transmorpher-image",
+          "path": "Prydwen/zzz/assets/w-engines/original-transmorpher-57a5e670623c.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-disk-drives-sets-24",
+      "level": 2,
+      "heading": "Best Disk Drives Sets",
+      "text": "1\n\n Astral Voice ( 4 -PC)\n\n New best support set. The buff is triggered off Quick Assists and can be stacked multiple times - if you can stack it 2 times, it already beats Swing Jazz (by 1%, but hey!), and if you can also get a third stack, it puts the set ahead of Swing Jazz (24% vs 15%).\n Best combined with your choice of 2-PC Set:\n 2P\n Swing Jazz\n\n (Recommended)\n 2P\n Freedom Blues\n\n Chaos Jazz\n\n 2\n\n Swing Jazz ( 4 -PC)\n\n Great set for Supports aiming to support direct damage dealers or Anomaly characters that do not require the buff from Freedom Blues. Grants the entire squad a 15% DMG increase for 12 seconds following a Chain Attack or Ultimate. Almost always activated via a Chain Attack which perfectly buffs all allies right before the team's largest damage window during stun.\n Best combined with your choice of 2-PC Set:\n 2P\n Hormone Punk\n\n Proto Punk\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 3\n\n Proto Punk ( 4 -PC)\n\n Powerful supportive alternative or addition to Swing Jazz especially for agents that possess a shield within their kit. Increases the size of all Shields provided by the wearer by 15% and also provides a 15% damage increase for 10 seconds when any squad member triggers a Defensive Assist or Evasive Assist.\n Best combined with your choice of 2-PC Set:\n 2P\n Swing Jazz\n\n (Recommended)\n 2P\n Hormone Punk\n\n 2P\n Shockstar Disco\n\n 4\n\n Freedom Blues ( 4 -PC)\n\n Solid supportive set for Seth when supporting Shock Anomaly characters or Disorder teams that capitalize on these effects. It causes all EX Special Attacks to apply an additional 20% Anomaly Buildup Resistance reduction of the character's element (Electric) for 8 seconds to all enemies hit. Although this debuff does suffer some lower returns due to overlapping with Seth's Additional Ability, it remains beneficial, when Seth’s EXs are used before the team applies their Shocks. Despite all of its utility, this set often falls short when compared to the benefits of Swing Jazz, especially in Disorder teams, unless another support is already using that set.\n Best combined with your choice of 2-PC Set:\n 2P\n Swing Jazz\n\n (Recommended)\n 2P\n Hormone Punk\n\n 2P\n Shockstar Disco",
+      "assets": [
+        {
+          "id": "47b453ad83b8",
+          "sourceHash": "47b453ad83b8",
+          "kind": "drive-discs",
+          "name": "Astral Voice",
+          "fileStem": "set-astral",
+          "path": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "7e8e49d34387",
+          "sourceHash": "7e8e49d34387",
+          "kind": "drive-discs",
+          "name": "Swing Jazz",
+          "fileStem": "set-swing",
+          "path": "Prydwen/zzz/assets/drive-discs/swing-jazz-7e8e49d34387.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "4890ba26d7e9",
+          "sourceHash": "4890ba26d7e9",
+          "kind": "drive-discs",
+          "name": "Freedom Blues",
+          "fileStem": "set-freedom",
+          "path": "Prydwen/zzz/assets/drive-discs/freedom-blues-4890ba26d7e9.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "e1ff48081ec4",
+          "sourceHash": "e1ff48081ec4",
+          "kind": "drive-discs",
+          "name": "Chaos Jazz",
+          "fileStem": "set-chaos",
+          "path": "Prydwen/zzz/assets/drive-discs/chaos-jazz-e1ff48081ec4.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "9b0991be94a3",
+          "sourceHash": "9b0991be94a3",
+          "kind": "drive-discs",
+          "name": "Hormone Punk",
+          "fileStem": "set-hormone",
+          "path": "Prydwen/zzz/assets/drive-discs/hormone-punk-9b0991be94a3.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "1c4453ce92f8",
+          "sourceHash": "1c4453ce92f8",
+          "kind": "drive-discs",
+          "name": "Proto Punk",
+          "fileStem": "set-proto",
+          "path": "Prydwen/zzz/assets/drive-discs/proto-punk-1c4453ce92f8.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "1d32dd29b6a7",
+          "sourceHash": "1d32dd29b6a7",
+          "kind": "drive-discs",
+          "name": "Shockstar Disco",
+          "fileStem": "set-shockstar",
+          "path": "Prydwen/zzz/assets/drive-discs/shockstar-disco-1d32dd29b6a7.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-disk-drives-stats-25",
+      "level": 2,
+      "heading": "Best Disk Drives Stats",
+      "text": "Disk 4\n ATK% >= Anomaly Proficiency\n\n Disk 5\n ATK% >= Electric DMG%\n\n Disk 6\n Energy Regen = Anomaly Mastery\n\n Substats: ATK% > Anomaly Proficiency > ATK > PEN",
+      "assets": []
+    },
+    {
+      "id": "best-endgame-stats-level-60-26",
+      "level": 2,
+      "heading": "Best Endgame Stats (Level 60)",
+      "text": "ATK: 2600 - 3200+ (Shield Caps at 3750 Initial ATK but this is hard to achieve)\n\n HP: 11000+\n\n DEF: 900+\n\n Anomaly Proficiency: 200 - 300+ (Optional)",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-27",
+      "level": 2,
+      "heading": "Skill priority",
+      "text": "Chain Attack\n\n Special Attack\n\n Assist\n\n Basic Attack\n\n Dodge",
+      "assets": [
+        {
+          "id": "803b765175bc",
+          "sourceHash": "803b765175bc",
+          "kind": "icons",
+          "name": "Chain Attack",
+          "fileStem": "icon-ulti-full",
+          "path": "Prydwen/zzz/assets/icons/chain-attack-803b765175bc.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "954b8d0b61b7",
+          "sourceHash": "954b8d0b61b7",
+          "kind": "icons",
+          "name": "Special Attack",
+          "fileStem": "icon-special-full",
+          "path": "Prydwen/zzz/assets/icons/special-attack-954b8d0b61b7.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "de0f0cad1e72",
+          "sourceHash": "de0f0cad1e72",
+          "kind": "icons",
+          "name": "Assist",
+          "fileStem": "icon-assist-m",
+          "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "13fff798e82d",
+          "sourceHash": "13fff798e82d",
+          "kind": "icons",
+          "name": "Basic Attack",
+          "fileStem": "icon-basic",
+          "path": "Prydwen/zzz/assets/icons/basic-attack-13fff798e82d.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "f3bbacf4beb6",
+          "sourceHash": "f3bbacf4beb6",
+          "kind": "icons",
+          "name": "Dodge",
+          "fileStem": "icon-dodge",
+          "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+          "width": 24,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "id": "video-guides-28",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "Teams & Synergy",
+      "assets": []
+    },
+    {
+      "id": "synergy-29",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Below we list only the most important synergies for Seth . The character can work with others if you know what to do and how to use them.\n\n Jane Doe - Seth helps Jane and other Anomaly characters by specializing in Anomaly synergy and doesn't require to be played on the field for a long time. He applies a generic 20% Anomaly RES shred to enemies - which amplifies all Anomaly build-up against them. This effect greatly enhances Jane's Anomaly DMG potential. On top of that, Seth grants a chosen squad member (based on team positioning) up to 100 additional Anomaly Proficiency. This boost not only enhances Jane’s damage output but also assists her in capping out her Core Passive bonus, making for a very potent F2P synergy.\n Yanagi - Seth is especially strong at buffing other Anomaly DPS Agents as he reduces the Anomaly Buildup RES of enemies via his Additional Ability. Yanagi and Seth activate each other's Additional Abilities which greatly boosts the Anomaly Buildup of both characters. As Yanagi primarily tries to deal damage via Anomalies and Disorders, the pairing is natural.",
+      "assets": [
+        {
+          "id": "7a4ba5242a6c",
+          "sourceHash": "7a4ba5242a6c",
+          "kind": "characters",
+          "name": "Jane Doe",
+          "fileStem": "jane-doe",
+          "path": "Prydwen/zzz/assets/characters/jane-doe-7a4ba5242a6c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "79ca38737857",
+          "sourceHash": "79ca38737857",
+          "kind": "characters",
+          "name": "Yanagi",
+          "fileStem": "yanagi",
+          "path": "Prydwen/zzz/assets/characters/yanagi-79ca38737857.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-shiyu-defense-30",
+      "level": 2,
+      "heading": "Teams (Shiyu Defense)",
+      "text": "This section lists most popular teams featuring Seth in the current phase of Shiyu Defense.\n There are no teams featuring Seth who have cleared Shiyu Defense in the current cycle.",
+      "assets": []
+    },
+    {
+      "id": "teams-deadly-assault-31",
+      "level": 2,
+      "heading": "Teams (Deadly Assault)",
+      "text": "This section lists most popular teams featuring Seth in the current phase of Deadly Assault.\n There are no teams featuring Seth who have cleared Deadly Assault in the current cycle.",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-w-engines": {
+      "label": "Best W-Engines",
+      "sections": [
+        {
+          "heading": "Best W-Engines",
+          "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Peacekeeper - Specialized (S 5 )\n\n Without a doubt the best W-Engine for Seth, it provides him unconditional Standard Attack% to improve the size of his Shields, a great amount of extra Energy Regen for boosting his main burst combo accessibility along with a massive increase to the Anomaly build-up of two of his strongest attacks making him more valuable in Disorder teams.\n Usage: 25 %\n Shiyu Defense: 0\n Deadly Assault: 0\n\n 2\n\n Spring Embrace (S 5 )\n\n An alternative to Peacekeeper, Spring Embrace emphasizes support for teammates. This Engine grants unconditional Standard ATK% which improves Seth's shields while also providing an energy regeneration buff when Seth is hit by enemy attacks. The Energy regeneration buff can be transferred to teammate upon character Swap, fitting well with Seth's Quick Assist playstyle. This set improves the Shield and Anomaly Proficiency buffs Seth already provides on character Swap, making it a solid choice for teams that are focusing in maximizing support.\n 3\n\n Bunny Band (S 5 )\n\n Bunny Band falls behind Seth's top options, due to its situational benefits. It provides 40% Defense, 12.8% Combat HP, and 16% Combat Attack while shielded (at max rank). While on paper, the Combat ATK looks appealing, it does not improve the size of Seth's shields due to the multiplier being limited to \"initial ATK,\" which excludes combat buffs. Its defensive stats also do not scale with Seth's kit, making this set less effective compared to others.\n 4\n\n Original Transmorpher (S 5 )\n\n This W-engine leans heavily towards defensive stats, which do not significantly benefit Seth's kit. However it does provides a buff that offers up to 16% Combat Impact for 12 seconds after taking a hit. This is not as strong as Seth's top choices but it offers some utility thanks to the Combat Impact percentage, particularly in a pool of limited defensive options for Seth.",
+          "assets": [
+            {
+              "id": "f9df5f83fbef",
+              "sourceHash": "f9df5f83fbef",
+              "kind": "w-engines",
+              "name": "Peacekeeper - Specialized",
+              "fileStem": "peacekeeper-specialized-image",
+              "path": "Prydwen/zzz/assets/w-engines/peacekeeper-specialized-f9df5f83fbef.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "695c563b6c68",
+              "sourceHash": "695c563b6c68",
+              "kind": "w-engines",
+              "name": "Spring Embrace",
+              "fileStem": "spring-embrace-image",
+              "path": "Prydwen/zzz/assets/w-engines/spring-embrace-695c563b6c68.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "0aac9dbc4e58",
+              "sourceHash": "0aac9dbc4e58",
+              "kind": "w-engines",
+              "name": "Bunny Band",
+              "fileStem": "bunny-band-image",
+              "path": "Prydwen/zzz/assets/w-engines/bunny-band-0aac9dbc4e58.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "57a5e670623c",
+              "sourceHash": "57a5e670623c",
+              "kind": "w-engines",
+              "name": "Original Transmorpher",
+              "fileStem": "original-transmorpher-image",
+              "path": "Prydwen/zzz/assets/w-engines/original-transmorpher-57a5e670623c.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-disk-drives-sets": {
+      "label": "Best Disk Drives Sets",
+      "sections": [
+        {
+          "heading": "Best Disk Drives Sets",
+          "text": "1\n\n Astral Voice ( 4 -PC)\n\n New best support set. The buff is triggered off Quick Assists and can be stacked multiple times - if you can stack it 2 times, it already beats Swing Jazz (by 1%, but hey!), and if you can also get a third stack, it puts the set ahead of Swing Jazz (24% vs 15%).\n Best combined with your choice of 2-PC Set:\n 2P\n Swing Jazz\n\n (Recommended)\n 2P\n Freedom Blues\n\n Chaos Jazz\n\n 2\n\n Swing Jazz ( 4 -PC)\n\n Great set for Supports aiming to support direct damage dealers or Anomaly characters that do not require the buff from Freedom Blues. Grants the entire squad a 15% DMG increase for 12 seconds following a Chain Attack or Ultimate. Almost always activated via a Chain Attack which perfectly buffs all allies right before the team's largest damage window during stun.\n Best combined with your choice of 2-PC Set:\n 2P\n Hormone Punk\n\n Proto Punk\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 3\n\n Proto Punk ( 4 -PC)\n\n Powerful supportive alternative or addition to Swing Jazz especially for agents that possess a shield within their kit. Increases the size of all Shields provided by the wearer by 15% and also provides a 15% damage increase for 10 seconds when any squad member triggers a Defensive Assist or Evasive Assist.\n Best combined with your choice of 2-PC Set:\n 2P\n Swing Jazz\n\n (Recommended)\n 2P\n Hormone Punk\n\n 2P\n Shockstar Disco\n\n 4\n\n Freedom Blues ( 4 -PC)\n\n Solid supportive set for Seth when supporting Shock Anomaly characters or Disorder teams that capitalize on these effects. It causes all EX Special Attacks to apply an additional 20% Anomaly Buildup Resistance reduction of the character's element (Electric) for 8 seconds to all enemies hit. Although this debuff does suffer some lower returns due to overlapping with Seth's Additional Ability, it remains beneficial, when Seth’s EXs are used before the team applies their Shocks. Despite all of its utility, this set often falls short when compared to the benefits of Swing Jazz, especially in Disorder teams, unless another support is already using that set.\n Best combined with your choice of 2-PC Set:\n 2P\n Swing Jazz\n\n (Recommended)\n 2P\n Hormone Punk\n\n 2P\n Shockstar Disco",
+          "assets": [
+            {
+              "id": "47b453ad83b8",
+              "sourceHash": "47b453ad83b8",
+              "kind": "drive-discs",
+              "name": "Astral Voice",
+              "fileStem": "set-astral",
+              "path": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "7e8e49d34387",
+              "sourceHash": "7e8e49d34387",
+              "kind": "drive-discs",
+              "name": "Swing Jazz",
+              "fileStem": "set-swing",
+              "path": "Prydwen/zzz/assets/drive-discs/swing-jazz-7e8e49d34387.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "4890ba26d7e9",
+              "sourceHash": "4890ba26d7e9",
+              "kind": "drive-discs",
+              "name": "Freedom Blues",
+              "fileStem": "set-freedom",
+              "path": "Prydwen/zzz/assets/drive-discs/freedom-blues-4890ba26d7e9.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "e1ff48081ec4",
+              "sourceHash": "e1ff48081ec4",
+              "kind": "drive-discs",
+              "name": "Chaos Jazz",
+              "fileStem": "set-chaos",
+              "path": "Prydwen/zzz/assets/drive-discs/chaos-jazz-e1ff48081ec4.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "9b0991be94a3",
+              "sourceHash": "9b0991be94a3",
+              "kind": "drive-discs",
+              "name": "Hormone Punk",
+              "fileStem": "set-hormone",
+              "path": "Prydwen/zzz/assets/drive-discs/hormone-punk-9b0991be94a3.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "1c4453ce92f8",
+              "sourceHash": "1c4453ce92f8",
+              "kind": "drive-discs",
+              "name": "Proto Punk",
+              "fileStem": "set-proto",
+              "path": "Prydwen/zzz/assets/drive-discs/proto-punk-1c4453ce92f8.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "1d32dd29b6a7",
+              "sourceHash": "1d32dd29b6a7",
+              "kind": "drive-discs",
+              "name": "Shockstar Disco",
+              "fileStem": "set-shockstar",
+              "path": "Prydwen/zzz/assets/drive-discs/shockstar-disco-1d32dd29b6a7.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-disk-drives-stats": {
+      "label": "Best Disk Drives Stats",
+      "sections": [
+        {
+          "heading": "Best Disk Drives Stats",
+          "text": "Disk 4\n ATK% >= Anomaly Proficiency\n\n Disk 5\n ATK% >= Electric DMG%\n\n Disk 6\n Energy Regen = Anomaly Mastery\n\n Substats: ATK% > Anomaly Proficiency > ATK > PEN",
+          "assets": []
+        }
+      ]
+    },
+    "best-endgame-stats": {
+      "label": "Best Endgame Stats",
+      "sections": [
+        {
+          "heading": "Best Endgame Stats (Level 60)",
+          "text": "ATK: 2600 - 3200+ (Shield Caps at 3750 Initial ATK but this is hard to achieve)\n\n HP: 11000+\n\n DEF: 900+\n\n Anomaly Proficiency: 200 - 300+ (Optional)",
+          "assets": []
+        }
+      ]
+    },
+    "skill-priority": {
+      "label": "Skill priority",
+      "sections": [
+        {
+          "heading": "Skill priority",
+          "text": "Chain Attack\n\n Special Attack\n\n Assist\n\n Basic Attack\n\n Dodge",
+          "assets": [
+            {
+              "id": "803b765175bc",
+              "sourceHash": "803b765175bc",
+              "kind": "icons",
+              "name": "Chain Attack",
+              "fileStem": "icon-ulti-full",
+              "path": "Prydwen/zzz/assets/icons/chain-attack-803b765175bc.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "954b8d0b61b7",
+              "sourceHash": "954b8d0b61b7",
+              "kind": "icons",
+              "name": "Special Attack",
+              "fileStem": "icon-special-full",
+              "path": "Prydwen/zzz/assets/icons/special-attack-954b8d0b61b7.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "de0f0cad1e72",
+              "sourceHash": "de0f0cad1e72",
+              "kind": "icons",
+              "name": "Assist",
+              "fileStem": "icon-assist-m",
+              "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "13fff798e82d",
+              "sourceHash": "13fff798e82d",
+              "kind": "icons",
+              "name": "Basic Attack",
+              "fileStem": "icon-basic",
+              "path": "Prydwen/zzz/assets/icons/basic-attack-13fff798e82d.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "f3bbacf4beb6",
+              "sourceHash": "f3bbacf4beb6",
+              "kind": "icons",
+              "name": "Dodge",
+              "fileStem": "icon-dodge",
+              "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+              "width": 24,
+              "height": 24
+            }
+          ]
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Below we list only the most important synergies for Seth . The character can work with others if you know what to do and how to use them.\n\n Jane Doe - Seth helps Jane and other Anomaly characters by specializing in Anomaly synergy and doesn't require to be played on the field for a long time. He applies a generic 20% Anomaly RES shred to enemies - which amplifies all Anomaly build-up against them. This effect greatly enhances Jane's Anomaly DMG potential. On top of that, Seth grants a chosen squad member (based on team positioning) up to 100 additional Anomaly Proficiency. This boost not only enhances Jane’s damage output but also assists her in capping out her Core Passive bonus, making for a very potent F2P synergy.\n Yanagi - Seth is especially strong at buffing other Anomaly DPS Agents as he reduces the Anomaly Buildup RES of enemies via his Additional Ability. Yanagi and Seth activate each other's Additional Abilities which greatly boosts the Anomaly Buildup of both characters. As Yanagi primarily tries to deal damage via Anomalies and Disorders, the pairing is natural.",
+          "assets": [
+            {
+              "id": "7a4ba5242a6c",
+              "sourceHash": "7a4ba5242a6c",
+              "kind": "characters",
+              "name": "Jane Doe",
+              "fileStem": "jane-doe",
+              "path": "Prydwen/zzz/assets/characters/jane-doe-7a4ba5242a6c.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "79ca38737857",
+              "sourceHash": "79ca38737857",
+              "kind": "characters",
+              "name": "Yanagi",
+              "fileStem": "yanagi",
+              "path": "Prydwen/zzz/assets/characters/yanagi-79ca38737857.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "teams": {
+      "label": "Teams",
+      "sections": [
+        {
+          "heading": "Teams (Shiyu Defense)",
+          "text": "This section lists most popular teams featuring Seth in the current phase of Shiyu Defense.\n There are no teams featuring Seth who have cleared Shiyu Defense in the current cycle.",
+          "assets": []
+        },
+        {
+          "heading": "Teams (Deadly Assault)",
+          "text": "This section lists most popular teams featuring Seth in the current phase of Deadly Assault.\n There are no teams featuring Seth who have cleared Deadly Assault in the current cycle.",
+          "assets": []
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Seth Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Seth\n Seth Best Build Guide\n Last updated: 14/June/2026\n\n Introduction\n Best guide and build for Seth from ZZZ (Zenless Zone Zero). Seth is an rank character with the Electric attribute who belongs to the Defence Specialty and who is part of the N.E.P.S. faction.\n Seth, a rookie officer in the Public Security Criminal Investigation Special Response Team, is a key player in providing fire support during criminal investigations. He graduated at the top of his class in the academy and could have landed a higher position, but he chose the tougher path of the Special Response Team. His impressive profile makes him seem like a genius, but he's actually a hard worker who has had his own struggles. There have been times when he practiced the subjects he wasn't good at until he cried.\n\n To learn more about Seth check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Seth has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 1.5\n\n Last build update\n Patch 1.5\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 14/June/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Seth check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Protector\n\n Lv. 1\n\n When Seth uses EX Special Attack: Thunder Shield Rush - High Voltage, he gains a Shield of Firm Resolve equal to 40% of his initial ATK, up to a max of 3,000 points, and lasting 25s. This can be triggered once every 10s. When Basic Attack: Lightning Strike - Electrified or Assist Follow-Up: Public Security Ruling triggers a Quick Assist or Chain Attack, causing another squad member to enter the field, that squad member gains a Shield of Firm Resolve equal to 40% of Seth's initial ATK, up to a max of 3,000 points, and lasting 25s. This can be triggered once every 10s. A Shield of Firm Resolve grants a 50 point increase to Anomaly Proficiency.\n\n Base Energy Regen 0\n BASE ATK: 0\n\n Additional Ability High Spirit\n\n When another character in your squad shares the same Attribute or Faction:\n When Seth's Chain Attack: Final Judgement or finishing strike during Basic Attack: Lightning Strike - Electrified hits an enemy, the target's Anomaly Buildup RES to all Attributes is reduced by 20% , lasting 20s .\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Lightning Strike\n\n Press to activate:\nUnleashes up to 4 attacks in front, dealing Physical DMG and Electric DMG.\n Multipliers\n\n Basic Attack: Lightning Strike - Electrified\n\n When Resolve is above 75%, hold to activate:\nConsume 75% Resolve to launch continuous attacks in front, followed by a finishing strike that deals Electric DMG.\nWhen the finishing strike hits an enemy, it triggers the Quick Assist of the squad member positioned before Seth.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n Dodge: Evasion Maneuver\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Thunder Assault\n\n Press during a dodge to activate.\nCharge forward with a shield attack, dealing Physical DMG.\nDamage received during the move is decreased by 40%.\n Multipliers\n\n Dodge Counter: Retreat to Advance\n\n Press during a Perfect Dodge to activate.\nUnleash a quick downward strike on enemies in front, dealing Electric DMG.\nAfter the move, hold to chain into EX Special Attack: Thunder Shield Rush - High Voltage, enabling faster charging.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Thunder Shield Rush\n\n Hold to activate.\nLaunch two shield strikes forward, dealing Electric DMG.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n EX Special Attack: Thunder Shield Rush - High Voltage\n\n When Seth has enough energy, press to activate:\nUnleash a series of slashes in front, dealing massive Electric DMG.\nHold to charge the move, and Seth will dash forward, unleashing a series of powerful slashes, dealing massive Electric DMG.\nActivating the move accumulates 75% Resolve.\nAnti-Interrupt level is increased while charging this skill, and damage taken is reduced by 40%.\nSeth is invulnerable during the continuous slashes.\n Multipliers\n\n Chain Attack: Final Judgement\n\n When a Chain Attack is triggered, select Seth to activate:\nLaunch a series of slashes in front, dealing massive Electric DMG.\nActivating the move accumulates 75% Resolve.\nAfter the move, hold to chain into EX Special Attack: Thunder Shield Rush - High Voltage, enabling faster charging.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Justice Prevails\n\n When Decibel Rating is at Maximum, press to activate.\nLaunch a series of upward slashes in front, followed by a finishing strike, dealing massive Electric DMG.\nActivating the move accumulates 75% Resolve, and grants 3 additional Assist Points.\nAfter the move, hold to chain into EX Special Attack: Thunder Shield Rush - High Voltage, enabling faster charging.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Public Security Ruling\n\n Press after a Defensive Assist to activate.\nLaunch a forward thrust attack, followed by two horizontal slashes, dealing Electric DMG.\nWhen the finishing strike hits an enemy, it triggers the Quick Assist of the squad member positioned before Seth.\nAfter the move, hold to chain into EX Special Attack: Thunder Shield Rush - High Voltage, enabling faster charging.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Thundershield\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, inflicting massive Daze.\nSeth gains 25% Resolve upon activating the skill.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Armed Support\n\n When the on-field character is launched, press to activate.\nUnleash a quick downward strike on enemies in front, dealing Electric DMG.\nAfter the move, hold to chain into EX Special Attack: Thunder Shield Rush - High Voltage, enabling faster charging.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n Heroism\n Mindscape 1\n\n The shield value provided by Shield of Firm Resolve and its maximum limit is increased by 30% . When Shield of Firm Resolve ends, the Anomaly Proficiency increase provided by Core Passive: Protector lasts an additional 10s .\n\n M2\n Recklessness of Youth\n Mindscape 2\n\n Upon entering battle, Seth immediately gains 75% Resolve. Hitting an enemy with Basic Attack: Lightning Strike - Electrified increases the move's accumulated Electric Anomaly Buildup by 35% .\n\n M3\n Slow Reflexes\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Core Aspiration\n Mindscape 4\n\n The Daze caused by Defensive Assist: Thundershield is increased by 25% .\n\n M5\n Distant Admiration\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Idealist\n Mindscape 6\n\n When Seth lands a finishing strike on an enemy with Basic Attack: Lightning Strike - Electrified, it deals additional damage equal to 500% of his ATK. The attack is guaranteed to trigger a CRIT, and CRIT DMG is increased by 60% .\n\n Stats (Level 60)\n Seth Stats at level 60 (including Core passive bonuses).\n\n HP\n 8701\n\n DEF\n 746\n\n ATK\n 643\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 94\n\n Anomaly Mastery\n 86\n\n Anomaly Proficiency\n 90\n\n Energy Regen\n 1.56\n\n Voice Actors\n ENG\n Nazeeh Tarsha\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Support\n T3\n Endgame Modes\n\n Pros & Cons\n Pros\n High duration buff/debuff uptime and they are also easy to apply, which makes keeping them all active easy.\n\n Takes up minimal field time.\n\n Offers decent Defensive shields.\n\n Grants a big Anomaly efficiency bonus to himself and an ally of your choosing.\n\n Debuffs enemies causing them to lose 20% Anomaly Buildup Resistance of all element types.\n\n Cons\n Can only consistently buff himself and 1 other teammate with his shield and Anomaly Efficiency.\n\n Attack animations on most important attacks his EX Special and Charged Held Basic are on the slower side.\n\n Review\n Seth is an A-Rank Electric Melee Defense Agent who is just a Support in disguise. He offers strong Anomaly buffs and Shields to both himself and a designated ally. Seth contributes significantly to Daze and Anomaly buildup, making him a versatile addition to any team - and what's best, he doesn't need to spend a lot of time on the field to do what he does best!\n Seth's abilities center around a unique resource called Resolve. This resource fuels a powerful Enhanced Basic Attack, which triggers a Special Quick Assist for the character positioned before Seth in the squad order - unlike standard Quick Assists, which activate for the next character in line. Seth’s Quick Assist enhances the performance of the preceding squad member - granting them a Shield and a powerful Attribute Anomaly buff for an extended duration. Outside of his Chain Attacks, mastering Seth's kit requires understanding how to maximize this shield and buff for your chosen ally (to be chosen before the mission starts) while keeping Seth’s field time to a minimum.\n Seth’s effectiveness hinges on his Core Passive - Protector, and Additional Ability - High Spirit as these are the core of his support capabilities.\n Seth’s Core Passive grants Seth a Shield equal to 80% of his initial ATK every time he uses his EX Special Attack, with a maximum cap of 3000 for 25 seconds and a 10-second cooldown. The shield’s strength is tied to Seth’s initial ATK, meaning it remains unaffected by any in-combat ATK buffs. What you see on his stat page before a mission is what you get in battle. When Seth triggers a Quick Assist via his Charged Hold Basic Attack or Assist Follow-Up, the same Shield, with identical scaling, cap, and duration, is granted to the ally benefiting from the assist. Additionally, all squad members, including Seth, who are shielded by this effect, gain a significant 100 additional Anomaly Proficiency at max rank. However, due to the mechanics of Seth’s Shields, only himself and the preceding squad member in order can benefit from this buff.\n Seth’s Additional Ability is simpler. It requires at least one squadmate to share Seth’s Attribute or Faction to activate. When active, Seth’s Chain Attack or Charged Hold Basic Attack reduces the enemy's Anomaly Buildup Resistance by 20% for 20 seconds. This debuff significantly enhances Anomaly team performance, increasing overall damage and consistency by accelerating Anomaly application. Since both attacks that apply this effect are commonly used by Seth, maintaining this debuff almost permanently is straightforward and easy.\n Seth wields two distinct Basic Attack forms: a standard 4-part combo and a specialized Charged Hold Basic Attack. His standard combo is rarely employed , due to its lack of Resolve generation and contribution to team utility, thus we shall bypass its details and instead focus on the Charged Hold Basic Attack, which is far more crucial to Seth's role.\n Seth’s Charged Basic Attack: Lightning Strike - Electrified requires and consumes 75% of his Resolve Bar to activate and will cause Seth to launch a flurry of lightning slashes followed by a large finishing move dealing moderate Daze and Electric Anomaly.This attack is irreplaceable for triggering his unique Quick Assist, which applies a shield to an ally, as well as for maintaining the Anomaly Resistance Reduction debuff on enemies. Because of this building and then spending the 75% Resolve to activate it should always be at the top of his priority list and thankfully is easily achievable thanks to his EX Special.\n Seth's EX Special Attack is one of his most reliable and efficient methods for accumulating Resolve. By consuming 80 energy, Seth releases a barrage of heavy Electric attacks that inflict substantial Daze and Electric Anomaly damage. More importantly, this attack immediately grants Seth 75% Resolve , making it an essential component of his rotation. The synergy between the EX Special and his Charged Hold Basic Attack forms his primary combo. This combo should be employed whenever the energy is available, and when either Seth, his designated ally, or the enemy lacks the buffs or debuffs from his Core Passive or Additional Ability.\n Seth's EX Special can be further enhanced by holding the EX button - charging the attack at cost of additional time. While this increases the damage, Daze, and Anomaly application, it does not affect Resolve generation . The additional charge time can be significant, but it can be shortened by executing the charge immediately following a Chain Attack, Ultimate, Dodge Counter, Assist Follow-Up, or Quick Assist. Furthermore, Seth can reduce the recovery time of the Charged EX by performing a Dash Cancel after the final strike, or by Swapping to another character while Seth completes the attack. While the Charged EX can provide a slight boost to Seth's damage, Daze, and Anomaly output, it is entirely optional. Skipping the charge in favor of the standard EX Special will not hinder Seth’s supportive capabilities and may even result in gaining extra field time for other characters.\n Seth's Chain Attack and Ultimate both deal damage, apply Daze, and Anomaly effects compared to moves of their type for defense characters like Seth, but they also both generate 75% Resolve on use. The resolve generation of the chain attack on top of the application/reapplication of Seth’s 20% Anomaly Resistance Reduction make it well worth using whenever you have a Chain Attack to spare. Utilizing Chain Attacks whenever possible, without causing a significant damage loss, reduces the pressure of relying solely on Seth’s EX Special to access his Charged Hold Basic Attack, while also keeping one of his most important supportive bonuses active more consistently. Seth’s Ultimate on the other hand sadly isn’t worth using as between his EX’s and Chain Attacks he more than Resolve he needs covered.\n Seth’s Quick Assist is rather unremarkable and rarely used. However, the synergy between his Defensive Assist and Assist Follow-Up is where he shines. Using Seth’s Assist Follow-Up similarly to his Enhanced Hold Basic Attack triggers a Quick Assist, which, like the Basic Attack, can grant all of Seth’s Core Passive bonuses to a teammate. This makes it a viable alternative in combat, particularly when Resolve or energy is in short supply.\n Overall, Seth emerges as a formidable Anomaly support powerhouse, yet his playstyle is refreshingly straightforward. He only requires the execution of one simple combo to effectively apply all his buffs, shields, and debuffs:\n Standard Combo\n EX Special Attack: Thunder Shield Rush - High Voltage (Generates 75% Resolve)\n\n Basic Attack: Lightning Strike - Electrified (Consumes 75% Resolve)\n\n Team Mate Quick Assist\n\n Despite the simplicity of his core combo, Seth boasts an array of tricks, alternative combo sequences, and options to further enhance his performance. These elements collectively position him as a great character within the Anomaly archetype, offering both ease of use and depth for those willing to explore his full potential.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Peacekeeper - Specialized (S 5 )\n\n Without a doubt the best W-Engine for Seth, it provides him unconditional Standard Attack% to improve the size of his Shields, a great amount of extra Energy Regen for boosting his main burst combo accessibility along with a massive increase to the Anomaly build-up of two of his strongest attacks making him more valuable in Disorder teams.\n Usage: 25 %\n Shiyu Defense: 0\n Deadly Assault: 0\n\n 2\n\n Spring Embrace (S 5 )\n\n An alternative to Peacekeeper, Spring Embrace emphasizes support for teammates. This Engine grants unconditional Standard ATK% which improves Seth's shields while also providing an energy regeneration buff when Seth is hit by enemy attacks. The Energy regeneration buff can be transferred to teammate upon character Swap, fitting well with Seth's Quick Assist playstyle. This set improves the Shield and Anomaly Proficiency buffs Seth already provides on character Swap, making it a solid choice for teams that are focusing in maximizing support.\n 3\n\n Bunny Band (S 5 )\n\n Bunny Band falls behind Seth's top options, due to its situational benefits. It provides 40% Defense, 12.8% Combat HP, and 16% Combat Attack while shielded (at max rank). While on paper, the Combat ATK looks appealing, it does not improve the size of Seth's shields due to the multiplier being limited to \"initial ATK,\" which excludes combat buffs. Its defensive stats also do not scale with Seth's kit, making this set less effective compared to others.\n 4\n\n Original Transmorpher (S 5 )\n\n This W-engine leans heavily towards defensive stats, which do not significantly benefit Seth's kit. However it does provides a buff that offers up to 16% Combat Impact for 12 seconds after taking a hit. This is not as strong as Seth's top choices but it offers some utility thanks to the Combat Impact percentage, particularly in a pool of limited defensive options for Seth.\n Best Disk Drives Sets\n 1\n\n Astral Voice ( 4 -PC)\n\n New best support set. The buff is triggered off Quick Assists and can be stacked multiple times - if you can stack it 2 times, it already beats Swing Jazz (by 1%, but hey!), and if you can also get a third stack, it puts the set ahead of Swing Jazz (24% vs 15%).\n Best combined with your choice of 2-PC Set:\n 2P\n Swing Jazz\n\n (Recommended)\n 2P\n Freedom Blues\n\n Chaos Jazz\n\n 2\n\n Swing Jazz ( 4 -PC)\n\n Great set for Supports aiming to support direct damage dealers or Anomaly characters that do not require the buff from Freedom Blues. Grants the entire squad a 15% DMG increase for 12 seconds following a Chain Attack or Ultimate. Almost always activated via a Chain Attack which perfectly buffs all allies right before the team's largest damage window during stun.\n Best combined with your choice of 2-PC Set:\n 2P\n Hormone Punk\n\n Proto Punk\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 3\n\n Proto Punk ( 4 -PC)\n\n Powerful supportive alternative or addition to Swing Jazz especially for agents that possess a shield within their kit. Increases the size of all Shields provided by the wearer by 15% and also provides a 15% damage increase for 10 seconds when any squad member triggers a Defensive Assist or Evasive Assist.\n Best combined with your choice of 2-PC Set:\n 2P\n Swing Jazz\n\n (Recommended)\n 2P\n Hormone Punk\n\n 2P\n Shockstar Disco\n\n 4\n\n Freedom Blues ( 4 -PC)\n\n Solid supportive set for Seth when supporting Shock Anomaly characters or Disorder teams that capitalize on these effects. It causes all EX Special Attacks to apply an additional 20% Anomaly Buildup Resistance reduction of the character's element (Electric) for 8 seconds to all enemies hit. Although this debuff does suffer some lower returns due to overlapping with Seth's Additional Ability, it remains beneficial, when Seth’s EXs are used before the team applies their Shocks. Despite all of its utility, this set often falls short when compared to the benefits of Swing Jazz, especially in Disorder teams, unless another support is already using that set.\n Best combined with your choice of 2-PC Set:\n 2P\n Swing Jazz\n\n (Recommended)\n 2P\n Hormone Punk\n\n 2P\n Shockstar Disco\n\n Best Disk Drives Stats\n Disk 4\n ATK% >= Anomaly Proficiency\n\n Disk 5\n ATK% >= Electric DMG%\n\n Disk 6\n Energy Regen = Anomaly Mastery\n\n Substats: ATK% > Anomaly Proficiency > ATK > PEN\n\n Best Endgame Stats (Level 60)\n ATK: 2600 - 3200+ (Shield Caps at 3750 Initial ATK but this is hard to achieve)\n\n HP: 11000+\n\n DEF: 900+\n\n Anomaly Proficiency: 200 - 300+ (Optional)\n\n Skill priority\n Chain Attack\n\n Special Attack\n\n Assist\n\n Basic Attack\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Seth . The character can work with others if you know what to do and how to use them.\n\n Jane Doe - Seth helps Jane and other Anomaly characters by specializing in Anomaly synergy and doesn't require to be played on the field for a long time. He applies a generic 20% Anomaly RES shred to enemies - which amplifies all Anomaly build-up against them. This effect greatly enhances Jane's Anomaly DMG potential. On top of that, Seth grants a chosen squad member (based on team positioning) up to 100 additional Anomaly Proficiency. This boost not only enhances Jane’s damage output but also assists her in capping out her Core Passive bonus, making for a very potent F2P synergy.\n Yanagi - Seth is especially strong at buffing other Anomaly DPS Agents as he reduces the Anomaly Buildup RES of enemies via his Additional Ability. Yanagi and Seth activate each other's Additional Abilities which greatly boosts the Anomaly Buildup of both characters. As Yanagi primarily tries to deal damage via Anomalies and Disorders, the pairing is natural.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Seth in the current phase of Shiyu Defense.\n There are no teams featuring Seth who have cleared Shiyu Defense in the current cycle.\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Seth in the current phase of Deadly Assault.\n There are no teams featuring Seth who have cleared Deadly Assault in the current cycle."
+}

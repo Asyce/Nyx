@@ -4,6 +4,7 @@
 const fs   = require('fs');
 const path = require('path');
 const cheerio = require('cheerio');
+const { bannerFreshnessStatus } = require('./normalize.cjs');
 
 const OUTPUT = path.join(__dirname, '..', '..', 'Database', 'Banners', 'banners.json');
 
@@ -1167,6 +1168,15 @@ async function main() {
       },
       upcoming: upcomingEnriched,
     });
+  }
+
+  // Honest freshness: derive each game's status from its actual timeline so an
+  // expired or empty banner can't be stamped "fresh" merely because the HTTP
+  // fetch succeeded (see banners/normalize.cjs). Games preserved from a failed
+  // scrape keep their 'stale' marker.
+  const freshNow = new Date(checkedAt).getTime();
+  for (const game of updatedGames) {
+    if (game && game.freshness) game.freshness.status = bannerFreshnessStatus(game, freshNow);
   }
 
   const payload = {

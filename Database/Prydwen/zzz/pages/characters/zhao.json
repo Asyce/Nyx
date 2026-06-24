@@ -1,0 +1,1918 @@
+{
+  "id": "characters:zhao",
+  "provider": "Prydwen",
+  "game": "zzz",
+  "gameName": "Zenless Zone Zero",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "zhao",
+  "name": "Zhao",
+  "title": "Zhao Best Build Guide",
+  "sourcePath": "/zenless/characters/zhao",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "14/June/2026",
+  "meta": {
+    "title": "Zhao Best Build Guide | Zenless Zone Zero",
+    "description": ""
+  },
+  "facts": {
+    "attribute": "Ice",
+    "specialty": "Defence",
+    "faction": "Krampus Compliance Authority",
+    "rarity": "S"
+  },
+  "assets": [
+    {
+      "id": "f906d81225cd",
+      "sourceHash": "f906d81225cd",
+      "kind": "characters",
+      "name": "Character",
+      "fileStem": "zhao-card",
+      "path": "Prydwen/zzz/assets/characters/zhao-card-f906d81225cd.webp",
+      "width": 370,
+      "height": 512
+    },
+    {
+      "id": "59d53db87dea",
+      "sourceHash": "59d53db87dea",
+      "kind": "icons",
+      "name": "S",
+      "fileStem": "rarity-s",
+      "path": "Prydwen/zzz/assets/icons/s-59d53db87dea.webp",
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "45e0d1f45663",
+      "sourceHash": "45e0d1f45663",
+      "kind": "icons",
+      "name": "Defence",
+      "fileStem": "style-defence",
+      "path": "Prydwen/zzz/assets/icons/defence-45e0d1f45663.webp",
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "880f190c8aa9",
+      "sourceHash": "880f190c8aa9",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-core",
+      "path": "Prydwen/zzz/assets/icons/core-880f190c8aa9.webp",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "13fff798e82d",
+      "sourceHash": "13fff798e82d",
+      "kind": "icons",
+      "name": "Basic",
+      "fileStem": "icon-basic",
+      "path": "Prydwen/zzz/assets/icons/basic-13fff798e82d.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "f3bbacf4beb6",
+      "sourceHash": "f3bbacf4beb6",
+      "kind": "icons",
+      "name": "Dodge",
+      "fileStem": "icon-dodge",
+      "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "de0f0cad1e72",
+      "sourceHash": "de0f0cad1e72",
+      "kind": "icons",
+      "name": "Assist",
+      "fileStem": "icon-assist-m",
+      "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "954b8d0b61b7",
+      "sourceHash": "954b8d0b61b7",
+      "kind": "icons",
+      "name": "Special",
+      "fileStem": "icon-special-full",
+      "path": "Prydwen/zzz/assets/icons/special-954b8d0b61b7.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "803b765175bc",
+      "sourceHash": "803b765175bc",
+      "kind": "icons",
+      "name": "qte",
+      "fileStem": "icon-ulti-full",
+      "path": "Prydwen/zzz/assets/icons/qte-803b765175bc.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "9f68a61db8c5",
+      "sourceHash": "9f68a61db8c5",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-special",
+      "path": "Prydwen/zzz/assets/icons/core-9f68a61db8c5.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "d3cae9ba5d45",
+      "sourceHash": "d3cae9ba5d45",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-ulti",
+      "path": "Prydwen/zzz/assets/icons/core-d3cae9ba5d45.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "94a5940d48d5",
+      "sourceHash": "94a5940d48d5",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-assist",
+      "path": "Prydwen/zzz/assets/icons/core-94a5940d48d5.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "bcc36adf7778",
+      "sourceHash": "bcc36adf7778",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/zzz/assets/icons/stat-hp-bcc36adf7778.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "6bde3e3d95d5",
+      "sourceHash": "6bde3e3d95d5",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-def",
+      "path": "Prydwen/zzz/assets/icons/stat-def-6bde3e3d95d5.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "3be631f5fe8b",
+      "sourceHash": "3be631f5fe8b",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/zzz/assets/icons/stat-atk-3be631f5fe8b.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "7e808fde7ecd",
+      "sourceHash": "7e808fde7ecd",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-crit",
+      "path": "Prydwen/zzz/assets/icons/stat-crit-7e808fde7ecd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "a5d74846670e",
+      "sourceHash": "a5d74846670e",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/zzz/assets/icons/stat-critdmg-a5d74846670e.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "96960682bbd8",
+      "sourceHash": "96960682bbd8",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-pen",
+      "path": "Prydwen/zzz/assets/icons/stat-pen-96960682bbd8.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "55a4b1c5a82a",
+      "sourceHash": "55a4b1c5a82a",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-impact",
+      "path": "Prydwen/zzz/assets/icons/stat-impact-55a4b1c5a82a.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "078045904ece",
+      "sourceHash": "078045904ece",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-mastery",
+      "path": "Prydwen/zzz/assets/icons/stat-mastery-078045904ece.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "09b14c497e98",
+      "sourceHash": "09b14c497e98",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/zzz/assets/icons/stat-energy-09b14c497e98.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "7c786d3090b7",
+      "sourceHash": "7c786d3090b7",
+      "kind": "characters",
+      "name": "Zhao",
+      "fileStem": "zhao-full",
+      "path": "Prydwen/zzz/assets/characters/zhao-7c786d3090b7.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "601e9d422d2c",
+      "sourceHash": "601e9d422d2c",
+      "kind": "w-engines",
+      "name": "Half-Sugar Bunny",
+      "fileStem": "half-sugar-bunny-image",
+      "path": "Prydwen/zzz/assets/w-engines/half-sugar-bunny-601e9d422d2c.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "bf9f9815b1be",
+      "sourceHash": "bf9f9815b1be",
+      "kind": "w-engines",
+      "name": "Tusks of Fury",
+      "fileStem": "tusks-of-fury-image",
+      "path": "Prydwen/zzz/assets/w-engines/tusks-of-fury-bf9f9815b1be.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "57a5e670623c",
+      "sourceHash": "57a5e670623c",
+      "kind": "w-engines",
+      "name": "Original Transmorpher",
+      "fileStem": "original-transmorpher-image",
+      "path": "Prydwen/zzz/assets/w-engines/original-transmorpher-57a5e670623c.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "86d253c71271",
+      "sourceHash": "86d253c71271",
+      "kind": "drive-discs",
+      "name": "Bunny in Wonderland",
+      "fileStem": "set-bunny",
+      "path": "Prydwen/zzz/assets/drive-discs/bunny-in-wonderland-86d253c71271.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "b2e79743efd9",
+      "sourceHash": "b2e79743efd9",
+      "kind": "drive-discs",
+      "name": "Yunkui Tales",
+      "fileStem": "set-yunkai",
+      "path": "Prydwen/zzz/assets/drive-discs/yunkui-tales-b2e79743efd9.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "dc43496aab0e",
+      "sourceHash": "dc43496aab0e",
+      "kind": "drive-discs",
+      "name": "Moonlight Lullaby",
+      "fileStem": "set-moon",
+      "path": "Prydwen/zzz/assets/drive-discs/moonlight-lullaby-dc43496aab0e.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "7e8e49d34387",
+      "sourceHash": "7e8e49d34387",
+      "kind": "drive-discs",
+      "name": "Swing Jazz",
+      "fileStem": "set-swing",
+      "path": "Prydwen/zzz/assets/drive-discs/swing-jazz-7e8e49d34387.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "47b453ad83b8",
+      "sourceHash": "47b453ad83b8",
+      "kind": "drive-discs",
+      "name": "Astral Voice",
+      "fileStem": "set-astral",
+      "path": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5887e20e4502",
+      "sourceHash": "5887e20e4502",
+      "kind": "characters",
+      "name": "Ye Shunguang",
+      "fileStem": "ye-shunguang",
+      "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "fc3965204b18",
+      "sourceHash": "fc3965204b18",
+      "kind": "characters",
+      "name": "Nekomata",
+      "fileStem": "nekomata",
+      "path": "Prydwen/zzz/assets/characters/nekomata-fc3965204b18.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "8c66cbf659f4",
+      "sourceHash": "8c66cbf659f4",
+      "kind": "characters",
+      "name": "Ellen",
+      "fileStem": "ellen",
+      "path": "Prydwen/zzz/assets/characters/ellen-8c66cbf659f4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "c7af821101a1",
+      "sourceHash": "c7af821101a1",
+      "kind": "characters",
+      "name": "Seed",
+      "fileStem": "seed",
+      "path": "Prydwen/zzz/assets/characters/seed-c7af821101a1.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "79ca38737857",
+      "sourceHash": "79ca38737857",
+      "kind": "characters",
+      "name": "Yanagi",
+      "fileStem": "yanagi",
+      "path": "Prydwen/zzz/assets/characters/yanagi-79ca38737857.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "8bdbbd8d6be8",
+      "sourceHash": "8bdbbd8d6be8",
+      "kind": "characters",
+      "name": "Alice",
+      "fileStem": "alice",
+      "path": "Prydwen/zzz/assets/characters/alice-8bdbbd8d6be8.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e8a1e5a4346f",
+      "sourceHash": "e8a1e5a4346f",
+      "kind": "characters",
+      "name": "Zhao",
+      "fileStem": "zhao",
+      "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1cdf4d671727",
+      "sourceHash": "1cdf4d671727",
+      "kind": "characters",
+      "name": "Sunna",
+      "fileStem": "sunna",
+      "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "5b1302d794ba",
+      "sourceHash": "5b1302d794ba",
+      "kind": "characters",
+      "name": "Dialyn",
+      "fileStem": "dialyn",
+      "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "98d8d659c143",
+      "sourceHash": "98d8d659c143",
+      "kind": "characters",
+      "name": "Astra Yao",
+      "fileStem": "astra-yao",
+      "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "2fd489d454a4",
+      "sourceHash": "2fd489d454a4",
+      "kind": "characters",
+      "name": "Trigger",
+      "fileStem": "trigger",
+      "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "3e8d48ac0bd4",
+      "sourceHash": "3e8d48ac0bd4",
+      "kind": "characters",
+      "name": "Ju Fufu",
+      "fileStem": "ju-fufu",
+      "path": "Prydwen/zzz/assets/characters/ju-fufu-3e8d48ac0bd4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "05344f259fe9",
+      "sourceHash": "05344f259fe9",
+      "kind": "characters",
+      "name": "Caesar",
+      "fileStem": "caesar",
+      "path": "Prydwen/zzz/assets/characters/caesar-05344f259fe9.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ad063e072375",
+      "sourceHash": "ad063e072375",
+      "kind": "characters",
+      "name": "Nicole",
+      "fileStem": "nicole-demara",
+      "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "a0147df28355",
+      "sourceHash": "a0147df28355",
+      "kind": "characters",
+      "name": "Lucy",
+      "fileStem": "lucy",
+      "path": "Prydwen/zzz/assets/characters/lucy-a0147df28355.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ce33de22acc4",
+      "sourceHash": "ce33de22acc4",
+      "kind": "characters",
+      "name": "Pulchra",
+      "fileStem": "pulchra",
+      "path": "Prydwen/zzz/assets/characters/pulchra-ce33de22acc4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "05437fe51e49",
+      "sourceHash": "05437fe51e49",
+      "kind": "characters",
+      "name": "Lycaon",
+      "fileStem": "lycaon",
+      "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "08a137fda00f",
+      "sourceHash": "08a137fda00f",
+      "kind": "characters",
+      "name": "Pyrois",
+      "fileStem": "pyrois",
+      "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
+      "width": 60,
+      "height": 60
+    }
+  ],
+  "sections": [
+    {
+      "id": "zhao-best-build-guide-0",
+      "level": 1,
+      "heading": "Zhao Best Build Guide",
+      "text": "Last updated: 14/June/2026",
+      "assets": [
+        {
+          "id": "f906d81225cd",
+          "sourceHash": "f906d81225cd",
+          "kind": "characters",
+          "name": "Character",
+          "fileStem": "zhao-card",
+          "path": "Prydwen/zzz/assets/characters/zhao-card-f906d81225cd.webp",
+          "width": 370,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Zhao from ZZZ (Zenless Zone Zero). Zhao is an rank character with the Ice attribute who belongs to the Defence Specialty and who is part of the Krampus Compliance Authority faction.\n\n To learn more about Zhao check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": [
+        {
+          "id": "59d53db87dea",
+          "sourceHash": "59d53db87dea",
+          "kind": "icons",
+          "name": "S",
+          "fileStem": "rarity-s",
+          "path": "Prydwen/zzz/assets/icons/s-59d53db87dea.webp",
+          "width": 30,
+          "height": 30
+        },
+        {
+          "id": "45e0d1f45663",
+          "sourceHash": "45e0d1f45663",
+          "kind": "icons",
+          "name": "Defence",
+          "fileStem": "style-defence",
+          "path": "Prydwen/zzz/assets/icons/defence-45e0d1f45663.webp",
+          "width": 30,
+          "height": 30
+        }
+      ]
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Zhao has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 2.5\n\n Last build update\n Patch 2.5\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 14/June/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.",
+      "assets": []
+    },
+    {
+      "id": "calculations-9",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "To learn more about Zhao check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile",
+      "assets": []
+    },
+    {
+      "id": "core-skills-10",
+      "level": 2,
+      "heading": "Core skills",
+      "text": "Core Passive Ideal Colleague\n\n Lv. 1\n\n Zhao gains bonus CRIT Rate based on her initial Max HP, gaining 0.8% CRIT Rate for every 1,000 initial Max HP.\n\nUpon entering the battlefield, Zhao gains 100 Frostbite Points. This effect can trigger once every 180s in Investigation Zone mode. The maximum amount of Frostbite Points is 100 .\n\nWhen the currently active character's attacks hit an enemy, Zhao gains 6 Frostbite Points. This can be triggered once every 3s .\n\nWhen Frostbite Points are maxed out, switching Zhao to the field while in combat will activate her Entry Skill.\n\nWhen Zhao activates her Entry Skill, all Frostbite Points are consumed to activate Ether Veil: Wellspring.\n\nWhile Ether Veil: Wellspring is active, all squad members gain 5% Max HP for 40s . Re-activating Ether Veil: Wellspring ends the existing instance before applying a new Ether Veil: Wellspring.\n\nWhen Zhao activates Ether Veil: Wellspring, all squad members' ATK increase by 100 for 50s . Repeated triggers reset the duration.\n\n PEN Ratio 0\n BASE ATK: 0\n\n Additional Ability Crystallization\n\n When another character in your squad is an Attack, Anomaly, or Support character:\n When Zhao is within any Ether Veil, the whole squad's DMG increases by 10% . If Zhao's initial Max HP exceeds 15,000 , every additional 400 initial Max HP increases this DMG bonus by an additional 1% , up to a total maximum increase of 40% . This bonus reaches its maximum when Zhao's initial Max HP reaches 27,000 .",
+      "assets": [
+        {
+          "id": "880f190c8aa9",
+          "sourceHash": "880f190c8aa9",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-core",
+          "path": "Prydwen/zzz/assets/icons/core-880f190c8aa9.webp",
+          "width": 32,
+          "height": 32
+        }
+      ]
+    },
+    {
+      "id": "skills-11",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Glacial Judgment\n\n Press to activate:\nLaunches up to five slashes forward, the first dealing Physical DMG, and the following four Ice DMG.\n Multipliers\n\n Basic Attack: Final Verdict\n\n Hold to activate:\nAfter getting ready, Zhao starts charging up, then launches a forward slash on release, dealing massive Ice DMG.\nWhile charging, Zhao accumulates up to 5s of charge time. When the Finishing Move of Basic Attack: Final Verdict, Chain Attack, or Assist Follow-Up hits, the stored charge time is consumed to deal additional DMG. For every 1 second of charge time, Zhao deals some of Max HP as additional DMG.\nWhen Zhao is in any Ether Veil, if she gets switched out while charging, the charge can continue.\nIf Frostbite Points are maxed out when the skill activates, all Frostbite Points are consumed to trigger Ether Veil: Wellspring and a Quick Assist. If a squadmate is then switched in via Quick Assist, Zhao automatically follows up with Basic Attack: Final Verdict and begins charging.\nDuring skill activation, Anti-Interrupt level increases, and DMG taken is reduced by 40%.\nWhile not the currently controlled character, the character is invulnerable while using this skill.\n Multipliers\n\n Dodge: Bunny Hop\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Bouncing Dash\n\n Press during a dodge to activate:\nSlashes forward, dealing Physical DMG and Ice DMG.\n Multipliers\n\n Dodge Counter: Swift Blink\n\n Press during a Perfect Dodge to activate.\nPerforms a falling slash ahead, dealing Ice DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Shatterfrost Surge\n\n Press to activate.\nLaunches a forward slash, dealing Ice DMG.\nUpon activating this skill, consumes 5% of current HP to grant all squad members HP regeneration equal to 1.1-2% of Zhao's Max HP per second for 5s. The HP-consuming effects of Special Attack: Shatterfrost Surge and EX Special Attack: Frostflow Tundra can trigger at most once every 30s.\n Multipliers\n\n EX Special Attack: Frostflow Tundra\n\n With enough energy, press to activate.\nLaunches multiple forward slashes, dealing massive Ice DMG.\nUpon activating this skill, consumes 5% of current HP to grant all squad members HP regeneration equal to 1.1-2% of Zhao's Max HP per second for 5s. The HP-consuming effects of Special Attack: Shatterfrost Surge and EX Special Attack: Frostflow Tundra can trigger at most once every 30s.\nUpon activating this skill, gain 20 Frostbite Points. If Frostbite Points are maxed out, all Frostbite Points are consumed to activate Ether Veil: Wellspring.\nUpon activating this skill while in any Ether Veil, a Quick Assist is triggered. If a squadmate is then switched in via Quick Assist, Zhao automatically follows up with Basic Attack: Final Verdict and begins charging.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Temporary Alliance\n\n When a Chain Attack is triggered, select the character to activate:\nLaunches multiple slashes in front, dealing massive Ice DMG.\nAfter using this skill, gains 5 Frostbite Points. If Frostbite Points are maxed out, all Frostbite Points are consumed to activate Ether Veil: Wellspring.\nUpon activating this skill while in any Ether Veil, a Quick Assist is triggered. If a squadmate is then switched in via Quick Assist, Zhao automatically follows up with Basic Attack: Final Verdict and begins charging.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Bunny Barrage\n\n When Decibel Rating is at Maximum, press to activate:\nLaunches consecutive attacks in front, followed by a falling slash, dealing massive Ice DMG.\nAfter using this skill, gains 20 Frostbite Points. If Frostbite Points are maxed out, all Frostbite Points are consumed to activate Ether Veil: Wellspring.\nUpon activating this skill while in any Ether Veil, a Quick Assist is triggered. If a squadmate is then switched in via Quick Assist, Zhao automatically follows up with Basic Attack: Final Verdict and begins charging.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Frostlight Reflection\n\n Press after a Defensive Assist to activate:\nLaunch multiple slashes in front, dealing massive Ice DMG.\nUpon activating this skill, if Frostbite Points are maxed out, all Frostbite Points are consumed to activate Ether Veil: Wellspring.\nUpon activating this skill while in any Ether Veil, a Quick Assist is triggered. If a squadmate is then switched in via Quick Assist, Zhao automatically follows up with Basic Attack: Final Verdict and begins charging.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Entry Skill: Burst of Frost\n\n When Zhao has maximum Frostbite Points, and is in combat, press to activate.\nLaunches consecutive attacks forward, followed by a slash, dealing massive Ice DMG.\nUpon activating this skill, all Frostbite Points are consumed to activate Ether Veil: Wellspring.\nUpon activating this skill, a Quick Assist is triggered. If a squadmate is then switched in via Quick Assist, Zhao automatically follows up with Basic Attack: Final Verdict and begins charging.\nActivating this skill is considered as activating a Quick Assist.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Frostveil Suppression\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Patch the Gaps\n\n When the active character is launched, press to activate.\nLaunches a falling slash in front, dealing Ice DMG.\nCharacter is invulnerable while using this skill.\n Multipliers",
+      "assets": [
+        {
+          "id": "13fff798e82d",
+          "sourceHash": "13fff798e82d",
+          "kind": "icons",
+          "name": "Basic",
+          "fileStem": "icon-basic",
+          "path": "Prydwen/zzz/assets/icons/basic-13fff798e82d.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "f3bbacf4beb6",
+          "sourceHash": "f3bbacf4beb6",
+          "kind": "icons",
+          "name": "Dodge",
+          "fileStem": "icon-dodge",
+          "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "de0f0cad1e72",
+          "sourceHash": "de0f0cad1e72",
+          "kind": "icons",
+          "name": "Assist",
+          "fileStem": "icon-assist-m",
+          "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "954b8d0b61b7",
+          "sourceHash": "954b8d0b61b7",
+          "kind": "icons",
+          "name": "Special",
+          "fileStem": "icon-special-full",
+          "path": "Prydwen/zzz/assets/icons/special-954b8d0b61b7.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "803b765175bc",
+          "sourceHash": "803b765175bc",
+          "kind": "icons",
+          "name": "qte",
+          "fileStem": "icon-ulti-full",
+          "path": "Prydwen/zzz/assets/icons/qte-803b765175bc.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "9f68a61db8c5",
+          "sourceHash": "9f68a61db8c5",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-special",
+          "path": "Prydwen/zzz/assets/icons/core-9f68a61db8c5.webp",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "id": "d3cae9ba5d45",
+          "sourceHash": "d3cae9ba5d45",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-ulti",
+          "path": "Prydwen/zzz/assets/icons/core-d3cae9ba5d45.webp",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "id": "94a5940d48d5",
+          "sourceHash": "94a5940d48d5",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-assist",
+          "path": "Prydwen/zzz/assets/icons/core-94a5940d48d5.webp",
+          "width": 40,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "id": "mindscapes-12",
+      "level": 2,
+      "heading": "Mindscapes",
+      "text": "M1\n Righteous Verdict\n Mindscape 1\n\n When Zhao switches out of being the active character, all squad members' DMG ignores 15% of the target's All-Attribute RES for 50s .\n\n M2\n Krampus Senior\n Mindscape 2\n\n When Zhao recovers HP, her ATK increases by 20% , and other squad members' ATK increases by 15% for 50s . Repeated triggers reset the duration.\n\n M3\n Frostveil Edge\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Featherlight Footsteps\n Mindscape 4\n\n When Zhao activates an Ether Veil, she gains 250 Decibels. The CRIT DMG of her Ultimate, Chain Attack, and Basic Attack: Final Verdict increase by 40% .\n\n M5\n Fuzzy Listener\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n No Value Has Its Own Value\n Mindscape 6\n\n The CRIT Rate buff from Core Passive: Ideal Colleague increases to 125% of the original value. The extra DMG gained from charging during Basic Attack: Final Verdict increases to 140% of the original value, and accumulated charge time is no longer consumed when attacking.",
+      "assets": []
+    },
+    {
+      "id": "stats-level-60-13",
+      "level": 2,
+      "heading": "Stats (Level 60)",
+      "text": "Zhao Stats at level 60 (including Core passive bonuses).\n\n HP\n 9117\n\n DEF\n 701\n\n ATK\n 765\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 93\n\n Anomaly Mastery\n 93\n\n Anomaly Proficiency\n 96\n\n Energy Regen\n 1.2",
+      "assets": [
+        {
+          "id": "bcc36adf7778",
+          "sourceHash": "bcc36adf7778",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/zzz/assets/icons/stat-hp-bcc36adf7778.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "6bde3e3d95d5",
+          "sourceHash": "6bde3e3d95d5",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-def",
+          "path": "Prydwen/zzz/assets/icons/stat-def-6bde3e3d95d5.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "3be631f5fe8b",
+          "sourceHash": "3be631f5fe8b",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/zzz/assets/icons/stat-atk-3be631f5fe8b.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "7e808fde7ecd",
+          "sourceHash": "7e808fde7ecd",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/zzz/assets/icons/stat-crit-7e808fde7ecd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "a5d74846670e",
+          "sourceHash": "a5d74846670e",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/zzz/assets/icons/stat-critdmg-a5d74846670e.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "96960682bbd8",
+          "sourceHash": "96960682bbd8",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-pen",
+          "path": "Prydwen/zzz/assets/icons/stat-pen-96960682bbd8.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "55a4b1c5a82a",
+          "sourceHash": "55a4b1c5a82a",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-impact",
+          "path": "Prydwen/zzz/assets/icons/stat-impact-55a4b1c5a82a.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "078045904ece",
+          "sourceHash": "078045904ece",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-mastery",
+          "path": "Prydwen/zzz/assets/icons/stat-mastery-078045904ece.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "09b14c497e98",
+          "sourceHash": "09b14c497e98",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/zzz/assets/icons/stat-energy-09b14c497e98.webp",
+          "width": 24,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "id": "voice-actors-14",
+      "level": 2,
+      "heading": "Voice Actors",
+      "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-15",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "7c786d3090b7",
+          "sourceHash": "7c786d3090b7",
+          "kind": "characters",
+          "name": "Zhao",
+          "fileStem": "zhao-full",
+          "path": "Prydwen/zzz/assets/characters/zhao-7c786d3090b7.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "ratings-16",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.",
+      "assets": []
+    },
+    {
+      "id": "support-17",
+      "level": 5,
+      "heading": "Support",
+      "text": "T0.5\n Endgame Modes",
+      "assets": []
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Universally strong supportive Agent that slots in with most Agents.\n\n Easy to play and easy to build, with low field time and investment commitments.\n\n Is being handed out for free to all players.\n\n May be small, but packs a hell of a punch.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Not a best-in-slot pick for any team but 1 (Ye Shunguang), limiting her longevity.\n\n A fair amount of her power budget is in her Signature W-Engine.\n\n Defence class lacks Drive Discs and can still be restrictive when team building.\n\n Do you see what Damian has to go through?",
+      "assets": []
+    },
+    {
+      "id": "intro-unique-mechanic-22",
+      "level": 6,
+      "heading": "Intro & Unique Mechanic",
+      "text": "Zhao is an Ice Defence Agent who offers universal buffs to Attackers and Anomaly Agents, with the strength of some of her attacks and buffs scaling with her HP.\n Underneath her portrait in combat is a gauge that when full, Zhao can consume it to activate Ether Veil: Wellspring, which is important to maximise her buff value.\n Despite having Ether Veil: Wellspring, Zhao is best suited to Attackers and Anomaly teams rather than Rupture, giving a team-wide 1000 Combat Attack increase and up to 40% in DMG Bonus that are tied to Ether Veils. On top of that, she can contribute some damage and daze through her Basic Attack: “Final Verdict”, a heavy-hitting charged move that can be done while inactive after certain skills.",
+      "assets": []
+    },
+    {
+      "id": "core-passive-additional-ability-23",
+      "level": 6,
+      "heading": "Core Passive & Additional Ability",
+      "text": "Zhao’s Core Passive provides 1.4% CRIT Rate for every 1000 initial Max HP (that is what you see on the stat sheet, before any combat bonuses are applied). This is an uncapped bonus, so it could in theory grow infinitely, but it will most likely be around 35-40%.\n Aside from this bonus, it’s here that the specifics of her unique mechanic is outlined.\n The gauge used for Ether Veil: Wellspring triggers is tracking the Frostbite Points resource, having a cap of 100. It fills up with 6 points whenever a currently active character hits an enemy, with a 3s cooldown. Some skills will also provide bonuses, namely her Chain Attack - generating 5 points - as well as her EX Special and Ultimate - generating 20 points each.\n Although Zhao can activate Ether Veil: Wellspring once 100 points are stocked, there are a few important aspects that must be kept in mind. Activation consumes all Frostbite Points and the resulting Ether Veil: Wellspring lasts for 40 seconds. Re-activation does not increase its duration, but is considered a re-activation, ending any existing instances before applying a new one.\n It also does not get activated automatically, with different ways of going about this.\n The easiest method is done simply by swapping to her, which will cast an “Entry Skill”, doing a hefty amount of damage and triggering an immediate Quick Assist. If swapping to Zhao via a Defensive Assist however, the Entry Skill will not cast. This isn’t an issue, as her Assist Follow-Up will also consume Frostbite Points to activate Ether Veil: Wellspring. In case Zhao is the currently active character, there is no need to swap out and back to her. When using her:\n EX Special\n\n Ultimate\n\n Basic Attack: Final Verdict\n\n If Zhao is at 100 points or builds up to it through the generation of one of these skills, she will also activate Ether Veil: Wellspring.\n All of these different ways of triggering it come in handy, as the 1,000 Combat Attack bonus that Zhao provides lasts 50 seconds and is applied whenever she activates Ether Veil: Wellspring. This means that at the minimum, Zhao must be cycling though activations frequently to maintain her buff, especially when her Additional Ability is factored in.\n Scaling with her initial Max HP, capping at 27,000 HP, Zhao can give up to 40% DMG Bonus to the whole team when she is in an Ether Veil when Attack, Anomaly or Support characters are on the team. It’s this steep requirement that mandates HP % Drive Discs on slots 4 and 5.\n This Ether Veil does not need to be her own, nor does it need to be the Wellspring variant, but in Zhao’s teams, she will likely be the only one who is able to supply one. The end result is that, despite her Combat Attack bonus lasting 50 seconds, to benefit in full from Zhao’s buffs, you would need to be activating it every 40 seconds, making resource management very important for her.",
+      "assets": []
+    },
+    {
+      "id": "basic-attack-24",
+      "level": 6,
+      "heading": "Basic Attack",
+      "text": "Zhao has 2 Basic Attacks, namely “Glacial Judgement” - a standard string - and “Final Verdict” a charged strike.\n The standard Basic Attack string is unremarkable and has few, if any, practical applications, but Final Verdict will see frequent use. It is normally accessed by holding down the Basic Attack button while Zhao is active, but casting it this way is inefficient. This is because it will begin charging automatically after:\n Assist Follow-Ups\n\n EX Specials\n\n Chain Attacks\n\n Ultimates\n\n Entry Skill\n\n It can charge for up to 5 seconds, but you are free to swap out of Zhao while she does so, as it will continue without player input being needed. If manually released (as the active character) or once it hits the maximum charge, it will hit the enemy for a pitiful 140% in DMG Multiplier.\n The catch is that for every second of charge time, 24% of Zhao’s Max HP is added to the attack as additional damage.\n In practice, its damage is not all that significant, but as it effectively needs no time commitment and occurs automatically, it’s a nice-to-have. Zhao is also not swap locked during its charge-up (but is during the strike itself, so be careful!), which does make it rather flexible to use.",
+      "assets": []
+    },
+    {
+      "id": "dodge-25",
+      "level": 6,
+      "heading": "Dodge",
+      "text": "There is genuinely nothing noteworthy about Zhao’s Dodges. They have poor multipliers and do not directly contribute to Frostbite Points generation, and so shouldn’t really be used.",
+      "assets": []
+    },
+    {
+      "id": "assist-26",
+      "level": 6,
+      "heading": "Assist",
+      "text": "When it comes to her Assists, it gets a bit more interesting. Her Quick Assist and Defensive Assist are as standard - with her Defensive Assist using up only 1 Assist Point as is the case for most Defenders - but her Assist Follow-Up is able to trigger a Quick Assist to the next character when in an Ether Veil.\n This does not need to be done as part of its Ether Veil: Wellspring activation properties, but at any time. The attack itself is quite slow, so it isn’t always worth using, but it can be useful depending on the Drive Disc set.\n Her Entry Skill is also considered an “Assist”. In fact, activating it is treated the same as activating a Quick Assist, hence related effects (like Astral Voice stack build, not application) work with it.",
+      "assets": []
+    },
+    {
+      "id": "special-27",
+      "level": 6,
+      "heading": "Special",
+      "text": "Both of Zhao’s Special and EX Special will consume 5% of her HP to grant a 1.7% per second Max HP regen buff, which lasts 5 seconds. There is a 30 second cooldown for this effect which is shared across both skills, but this property alone isn’t all that important.\n Similar to her Assist Follow-Up though, Zhao’s EX Special can trigger a Quick Assist regardless of Frostbite Points if in an Ether Veil. As it’s one of the few skills that generates them, it should be used as often as possible.",
+      "assets": []
+    },
+    {
+      "id": "chain-ultimate-28",
+      "level": 6,
+      "heading": "Chain & Ultimate",
+      "text": "Neither Zhao’s Chain Attack or Ultimate are particularly good, and in fact can sometimes feel detrimental to use owing to their long animations.\n The Chain Attack, despite generating 5 Frostbite Points and giving a free Quick Assist when in an Ether Veil, is better left unused. It does have a high DMG Multiplier, but Zhao’s focus on HP % means that it doesn’t hit particularly hard.\n Her Ultimate, on the other hand, should be used. It suffers from many of the same problems, but the 20 Frostbite Points it generates makes it worthwhile, and sometimes a necessity to cycle Ether Veil: Wellspring quickly enough.",
+      "assets": []
+    },
+    {
+      "id": "how-to-play-29",
+      "level": 2,
+      "heading": "How to play",
+      "text": "Zhao is a very straightforward character to play: the less time you spend on her, the better she’ll do.\n As almost all of her attacks lead to Final Verdict, which itself is cast while Zhao is inactive, it's always better to spend time productively on another Agent. She does need to be occasionally swapped to, such as for EX Special use when Energy allows for, the occasional Ultimate, and - depending on the fight and Decibel requirements - some Defensive Assists and Assist Follow-Ups owing to the reduced Assist Point cost.\n Be sure to consume her Frostbite Points to activate Ether Veil: Wellspring often. There’s little active management required, as it rarely ever builds faster than 40 seconds, meaning that in most circumstances, it should be used whenever points max out so as to avoid overcapping.\n That is truly all there is to her. Cycle through her resources quickly so that she can maintain Ether Veil: Wellspring up at all times. If that isn’t possible, then some planning may be required to make sure it is at the very least activated in time for critical burst periods, but even then, the way Zhao is played remains the same.\n The decision of when and how often to swap to her, rather than what exactly to do when playing her, is most critical to her best performance.\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "collaboration-disclaimer-30",
+      "level": 2,
+      "heading": "Collaboration Disclaimer",
+      "text": "For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.",
+      "assets": []
+    },
+    {
+      "id": "best-w-engines-31",
+      "level": 2,
+      "heading": "Best W-Engines",
+      "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Half-Sugar Bunny (S 1 )\n\n Zhao's Signature W-Engine is a very strong weapon: its HP % mainstat makes it much easier to hit the Initial Max HP requirement to cap out buffs, the ER it provides means its possible to have near full uptime of Zhao's Ether Veil (and therefore her Additional Ability's DMG Bonus) and gives both 10% ATK and 30% CRIT DMG, making it better than most other Stunners' Signature W-Engine gains. Although it isn't needed for Zhao to perform, it can make a big difference.\n Usage: 26.31 %\n Shiyu Defense: 37214\n Deadly Assault: 32762\n\n 2\n\n Tusks of Fury (S 1 )\n\n Tusks of Fury is the second best option for Zhao, although it is a fair bit worse than Half-Sugar Bunny. Its Impact % mainstat and Daze bonus can be helpful in teams outside of Ye Shunguang, as Final Verdict can build up quite a bit of Daze, but its real use lies in the DMG increase it provides. Even without HP % gains, that alone makes it a decent option, although don't forget that it does require the occasional Interrupt or Perfect Dodge for uptime.\n Usage: 2.6 %\n Shiyu Defense: 35854\n Deadly Assault: 30769\n\n 3\n\n Original Transmorpher (S 5 )\n\n Among the A-Rank options, Original Transmorpher is the best - and realistically only - pick. Its HP % mainstat is not far behind Half-Sugar Bunny, meaning that it is still possible to max out or at least sustain a high level of Zhao's buff. The generic Max HP bonus also contributes to Final Verdict's damage scaling, but overall it still falls behind both of the S-Rank W-Engines.\n Usage: 68.59 %\n Shiyu Defense: 34474\n Deadly Assault: 28215",
+      "assets": [
+        {
+          "id": "601e9d422d2c",
+          "sourceHash": "601e9d422d2c",
+          "kind": "w-engines",
+          "name": "Half-Sugar Bunny",
+          "fileStem": "half-sugar-bunny-image",
+          "path": "Prydwen/zzz/assets/w-engines/half-sugar-bunny-601e9d422d2c.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "bf9f9815b1be",
+          "sourceHash": "bf9f9815b1be",
+          "kind": "w-engines",
+          "name": "Tusks of Fury",
+          "fileStem": "tusks-of-fury-image",
+          "path": "Prydwen/zzz/assets/w-engines/tusks-of-fury-bf9f9815b1be.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "57a5e670623c",
+          "sourceHash": "57a5e670623c",
+          "kind": "w-engines",
+          "name": "Original Transmorpher",
+          "fileStem": "original-transmorpher-image",
+          "path": "Prydwen/zzz/assets/w-engines/original-transmorpher-57a5e670623c.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-disk-drives-sets-32",
+      "level": 2,
+      "heading": "Best Disk Drives Sets",
+      "text": "1\n\n Bunny in Wonderland ( 4 -PC)\n\n Bunny in Wonderland is easily Zhao's best-in-slot pick. Its triggering criteria is the easiest to meet, with either EX Special use or Perfect Assists, and while it does need to ramp up, the 18% DMG bonus it gives is teamwide and stacks last long enough that it's easy enough to maintain them. The 2-piece HP effect is also a nice to have, making it easier to meet Zhao's steep HP thresholds.\n Best combined with your choice of 2-PC Set:\n 2P\n Yunkui Tales\n\n (Recommended)\n 2P\n Moonlight Lullaby\n\n Swing Jazz\n\n 2\n\n Astral Voice ( 4 -PC)\n\n Astral Voice is an alternative for Zhao. She can provide Quick Assists with multiple skills, like her Assist Follow-Up, EX Special and on Ether Veil activations, giving a handy way to apply the buff to a damage dealer. It isn't perfect, as her slow attacks and high Energy cost on EX Special means she cannot single handedly maintain 3 stacks, but with some planning it's possible to get decent enough uptime on it to make it passable for Attackers.\n Best combined with your choice of 2-PC Set:\n 2P\n Moonlight Lullaby\n\n Swing Jazz\n\n (Recommended)\n 2P\n Yunkui Tales",
+      "assets": [
+        {
+          "id": "86d253c71271",
+          "sourceHash": "86d253c71271",
+          "kind": "drive-discs",
+          "name": "Bunny in Wonderland",
+          "fileStem": "set-bunny",
+          "path": "Prydwen/zzz/assets/drive-discs/bunny-in-wonderland-86d253c71271.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "b2e79743efd9",
+          "sourceHash": "b2e79743efd9",
+          "kind": "drive-discs",
+          "name": "Yunkui Tales",
+          "fileStem": "set-yunkai",
+          "path": "Prydwen/zzz/assets/drive-discs/yunkui-tales-b2e79743efd9.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "dc43496aab0e",
+          "sourceHash": "dc43496aab0e",
+          "kind": "drive-discs",
+          "name": "Moonlight Lullaby",
+          "fileStem": "set-moon",
+          "path": "Prydwen/zzz/assets/drive-discs/moonlight-lullaby-dc43496aab0e.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "7e8e49d34387",
+          "sourceHash": "7e8e49d34387",
+          "kind": "drive-discs",
+          "name": "Swing Jazz",
+          "fileStem": "set-swing",
+          "path": "Prydwen/zzz/assets/drive-discs/swing-jazz-7e8e49d34387.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "47b453ad83b8",
+          "sourceHash": "47b453ad83b8",
+          "kind": "drive-discs",
+          "name": "Astral Voice",
+          "fileStem": "set-astral",
+          "path": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-disk-drives-stats-33",
+      "level": 2,
+      "heading": "Best Disk Drives Stats",
+      "text": "Disk 4\n HP%\n\n Disk 5\n HP%\n\n Disk 6\n Energy Regen\n\n Substats: HP% (Until 27000 Initial HP) > Flat HP (Until 27000 Initial HP) > Crit Rate = Crit DMG",
+      "assets": []
+    },
+    {
+      "id": "best-endgame-stats-level-60-34",
+      "level": 2,
+      "heading": "Best Endgame Stats (Level 60)",
+      "text": "ATK: 1900+\n\n HP: 25000+\n\n DEF: 800+\n\n Crit Rate: 30%+\n\n Crit DMG: 50%+",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-35",
+      "level": 2,
+      "heading": "Skill priority",
+      "text": "Special Attack\n\n Chain Attack\n\n Basic Attack\n\n Assist\n\n Dodge",
+      "assets": [
+        {
+          "id": "954b8d0b61b7",
+          "sourceHash": "954b8d0b61b7",
+          "kind": "icons",
+          "name": "Special Attack",
+          "fileStem": "icon-special-full",
+          "path": "Prydwen/zzz/assets/icons/special-attack-954b8d0b61b7.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "803b765175bc",
+          "sourceHash": "803b765175bc",
+          "kind": "icons",
+          "name": "Chain Attack",
+          "fileStem": "icon-ulti-full",
+          "path": "Prydwen/zzz/assets/icons/chain-attack-803b765175bc.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "13fff798e82d",
+          "sourceHash": "13fff798e82d",
+          "kind": "icons",
+          "name": "Basic Attack",
+          "fileStem": "icon-basic",
+          "path": "Prydwen/zzz/assets/icons/basic-attack-13fff798e82d.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "de0f0cad1e72",
+          "sourceHash": "de0f0cad1e72",
+          "kind": "icons",
+          "name": "Assist",
+          "fileStem": "icon-assist-m",
+          "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "f3bbacf4beb6",
+          "sourceHash": "f3bbacf4beb6",
+          "kind": "icons",
+          "name": "Dodge",
+          "fileStem": "icon-dodge",
+          "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+          "width": 24,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "id": "video-guides-36",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "Teams & Synergy",
+      "assets": []
+    },
+    {
+      "id": "synergy-37",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Below we list only the most important synergies for Zhao . The character can work with others if you know what to do and how to use them.\n\n Ye Shunguang - Zhao is a particularly good unit for Ye Shunguang, owing to the frequent activations of Ether Veil supplying the latter with 3 Qingming Sword Force points. To top it off, Zhao has very low field time commitments and has a decently strong buff value - especially with her Signature W-Engine - making the two an ideal pair.\n Nekomata Ellen Seed Yanagi Alice - As a strong generalist supportive unit, the raw Attack and DMG Bonuses that Zhao provides means that she can work with a wide variety of different Attackers and Anomaly Agents - the ones listed here are only a small selection. As a Defence character, this can limit her options at times: Miyabi for example, wouldn't work, whereas Soldier 0 - Anby could work, but only with a Stunner. There is no particular synergy to be had aside from pure buff value, but so long as Zhao can slot in a comp without sacrificing Additional Abilities, she will do well.",
+      "assets": [
+        {
+          "id": "5887e20e4502",
+          "sourceHash": "5887e20e4502",
+          "kind": "characters",
+          "name": "Ye Shunguang",
+          "fileStem": "ye-shunguang",
+          "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "fc3965204b18",
+          "sourceHash": "fc3965204b18",
+          "kind": "characters",
+          "name": "Nekomata",
+          "fileStem": "nekomata",
+          "path": "Prydwen/zzz/assets/characters/nekomata-fc3965204b18.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "8c66cbf659f4",
+          "sourceHash": "8c66cbf659f4",
+          "kind": "characters",
+          "name": "Ellen",
+          "fileStem": "ellen",
+          "path": "Prydwen/zzz/assets/characters/ellen-8c66cbf659f4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "c7af821101a1",
+          "sourceHash": "c7af821101a1",
+          "kind": "characters",
+          "name": "Seed",
+          "fileStem": "seed",
+          "path": "Prydwen/zzz/assets/characters/seed-c7af821101a1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "79ca38737857",
+          "sourceHash": "79ca38737857",
+          "kind": "characters",
+          "name": "Yanagi",
+          "fileStem": "yanagi",
+          "path": "Prydwen/zzz/assets/characters/yanagi-79ca38737857.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "8bdbbd8d6be8",
+          "sourceHash": "8bdbbd8d6be8",
+          "kind": "characters",
+          "name": "Alice",
+          "fileStem": "alice",
+          "path": "Prydwen/zzz/assets/characters/alice-8bdbbd8d6be8.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-shiyu-defense-38",
+      "level": 2,
+      "heading": "Teams (Shiyu Defense)",
+      "text": "This section lists most popular teams featuring Zhao in the current phase of Shiyu Defense.\n Rank 1\n App. rate: 37.8 %\n Avg. time: 37098\n\n Rank 3\n App. rate: 17.25 %\n Avg. time: 33572\n\n Rank 9\n App. rate: 6.79 %\n Avg. time: 32016\n\n Rank 23\n App. rate: 1.51 %\n Avg. time: 29104\n\n Rank 30\n App. rate: 1.14 %\n Avg. time: 30230\n\n Rank 39\n App. rate: 0.69 %\n Avg. time: 30117\n\n Rank 46\n App. rate: 0.57 %\n Avg. time: 29029\n\n Rank 55\n App. rate: 0.47 %\n Avg. time: 31383\n\n Rank 76\n App. rate: 0.25 %\n Avg. time: 28400\n\n Rank 87\n App. rate: 0.18 %\n Avg. time: 28058",
+      "assets": [
+        {
+          "id": "5887e20e4502",
+          "sourceHash": "5887e20e4502",
+          "kind": "characters",
+          "name": "Ye Shunguang",
+          "fileStem": "ye-shunguang",
+          "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e8a1e5a4346f",
+          "sourceHash": "e8a1e5a4346f",
+          "kind": "characters",
+          "name": "Zhao",
+          "fileStem": "zhao",
+          "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1cdf4d671727",
+          "sourceHash": "1cdf4d671727",
+          "kind": "characters",
+          "name": "Sunna",
+          "fileStem": "sunna",
+          "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5b1302d794ba",
+          "sourceHash": "5b1302d794ba",
+          "kind": "characters",
+          "name": "Dialyn",
+          "fileStem": "dialyn",
+          "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "98d8d659c143",
+          "sourceHash": "98d8d659c143",
+          "kind": "characters",
+          "name": "Astra Yao",
+          "fileStem": "astra-yao",
+          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "2fd489d454a4",
+          "sourceHash": "2fd489d454a4",
+          "kind": "characters",
+          "name": "Trigger",
+          "fileStem": "trigger",
+          "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3e8d48ac0bd4",
+          "sourceHash": "3e8d48ac0bd4",
+          "kind": "characters",
+          "name": "Ju Fufu",
+          "fileStem": "ju-fufu",
+          "path": "Prydwen/zzz/assets/characters/ju-fufu-3e8d48ac0bd4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "05344f259fe9",
+          "sourceHash": "05344f259fe9",
+          "kind": "characters",
+          "name": "Caesar",
+          "fileStem": "caesar",
+          "path": "Prydwen/zzz/assets/characters/caesar-05344f259fe9.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ad063e072375",
+          "sourceHash": "ad063e072375",
+          "kind": "characters",
+          "name": "Nicole",
+          "fileStem": "nicole-demara",
+          "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "c7af821101a1",
+          "sourceHash": "c7af821101a1",
+          "kind": "characters",
+          "name": "Seed",
+          "fileStem": "seed",
+          "path": "Prydwen/zzz/assets/characters/seed-c7af821101a1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "a0147df28355",
+          "sourceHash": "a0147df28355",
+          "kind": "characters",
+          "name": "Lucy",
+          "fileStem": "lucy",
+          "path": "Prydwen/zzz/assets/characters/lucy-a0147df28355.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ce33de22acc4",
+          "sourceHash": "ce33de22acc4",
+          "kind": "characters",
+          "name": "Pulchra",
+          "fileStem": "pulchra",
+          "path": "Prydwen/zzz/assets/characters/pulchra-ce33de22acc4.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-deadly-assault-39",
+      "level": 2,
+      "heading": "Teams (Deadly Assault)",
+      "text": "This section lists most popular teams featuring Zhao in the current phase of Deadly Assault.\n Rank 1\n App. rate: 25.87 %\n Avg. score: 30198\n\n Rank 3\n App. rate: 17.24 %\n Avg. score: 29862\n\n Rank 12\n App. rate: 5.29 %\n Avg. score: 26129\n\n Rank 31\n App. rate: 1.01 %\n Avg. score: 22824\n\n Rank 39\n App. rate: 0.8 %\n Avg. score: 25908\n\n Rank 52\n App. rate: 0.43 %\n Avg. score: 23398\n\n Rank 55\n App. rate: 0.42 %\n Avg. score: 24003\n\n Rank 83\n App. rate: 0.22 %\n Avg. score: 24197\n\n Rank 85\n App. rate: 0.2 %\n Avg. score: 24804\n\n Rank 85\n App. rate: 0.2 %\n Avg. score: 27454",
+      "assets": [
+        {
+          "id": "5887e20e4502",
+          "sourceHash": "5887e20e4502",
+          "kind": "characters",
+          "name": "Ye Shunguang",
+          "fileStem": "ye-shunguang",
+          "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e8a1e5a4346f",
+          "sourceHash": "e8a1e5a4346f",
+          "kind": "characters",
+          "name": "Zhao",
+          "fileStem": "zhao",
+          "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1cdf4d671727",
+          "sourceHash": "1cdf4d671727",
+          "kind": "characters",
+          "name": "Sunna",
+          "fileStem": "sunna",
+          "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5b1302d794ba",
+          "sourceHash": "5b1302d794ba",
+          "kind": "characters",
+          "name": "Dialyn",
+          "fileStem": "dialyn",
+          "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "98d8d659c143",
+          "sourceHash": "98d8d659c143",
+          "kind": "characters",
+          "name": "Astra Yao",
+          "fileStem": "astra-yao",
+          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "2fd489d454a4",
+          "sourceHash": "2fd489d454a4",
+          "kind": "characters",
+          "name": "Trigger",
+          "fileStem": "trigger",
+          "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3e8d48ac0bd4",
+          "sourceHash": "3e8d48ac0bd4",
+          "kind": "characters",
+          "name": "Ju Fufu",
+          "fileStem": "ju-fufu",
+          "path": "Prydwen/zzz/assets/characters/ju-fufu-3e8d48ac0bd4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "05344f259fe9",
+          "sourceHash": "05344f259fe9",
+          "kind": "characters",
+          "name": "Caesar",
+          "fileStem": "caesar",
+          "path": "Prydwen/zzz/assets/characters/caesar-05344f259fe9.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ad063e072375",
+          "sourceHash": "ad063e072375",
+          "kind": "characters",
+          "name": "Nicole",
+          "fileStem": "nicole-demara",
+          "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "05437fe51e49",
+          "sourceHash": "05437fe51e49",
+          "kind": "characters",
+          "name": "Lycaon",
+          "fileStem": "lycaon",
+          "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "c7af821101a1",
+          "sourceHash": "c7af821101a1",
+          "kind": "characters",
+          "name": "Seed",
+          "fileStem": "seed",
+          "path": "Prydwen/zzz/assets/characters/seed-c7af821101a1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "08a137fda00f",
+          "sourceHash": "08a137fda00f",
+          "kind": "characters",
+          "name": "Pyrois",
+          "fileStem": "pyrois",
+          "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "best-w-engines": {
+      "label": "Best W-Engines",
+      "sections": [
+        {
+          "heading": "Best W-Engines",
+          "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Half-Sugar Bunny (S 1 )\n\n Zhao's Signature W-Engine is a very strong weapon: its HP % mainstat makes it much easier to hit the Initial Max HP requirement to cap out buffs, the ER it provides means its possible to have near full uptime of Zhao's Ether Veil (and therefore her Additional Ability's DMG Bonus) and gives both 10% ATK and 30% CRIT DMG, making it better than most other Stunners' Signature W-Engine gains. Although it isn't needed for Zhao to perform, it can make a big difference.\n Usage: 26.31 %\n Shiyu Defense: 37214\n Deadly Assault: 32762\n\n 2\n\n Tusks of Fury (S 1 )\n\n Tusks of Fury is the second best option for Zhao, although it is a fair bit worse than Half-Sugar Bunny. Its Impact % mainstat and Daze bonus can be helpful in teams outside of Ye Shunguang, as Final Verdict can build up quite a bit of Daze, but its real use lies in the DMG increase it provides. Even without HP % gains, that alone makes it a decent option, although don't forget that it does require the occasional Interrupt or Perfect Dodge for uptime.\n Usage: 2.6 %\n Shiyu Defense: 35854\n Deadly Assault: 30769\n\n 3\n\n Original Transmorpher (S 5 )\n\n Among the A-Rank options, Original Transmorpher is the best - and realistically only - pick. Its HP % mainstat is not far behind Half-Sugar Bunny, meaning that it is still possible to max out or at least sustain a high level of Zhao's buff. The generic Max HP bonus also contributes to Final Verdict's damage scaling, but overall it still falls behind both of the S-Rank W-Engines.\n Usage: 68.59 %\n Shiyu Defense: 34474\n Deadly Assault: 28215",
+          "assets": [
+            {
+              "id": "601e9d422d2c",
+              "sourceHash": "601e9d422d2c",
+              "kind": "w-engines",
+              "name": "Half-Sugar Bunny",
+              "fileStem": "half-sugar-bunny-image",
+              "path": "Prydwen/zzz/assets/w-engines/half-sugar-bunny-601e9d422d2c.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "bf9f9815b1be",
+              "sourceHash": "bf9f9815b1be",
+              "kind": "w-engines",
+              "name": "Tusks of Fury",
+              "fileStem": "tusks-of-fury-image",
+              "path": "Prydwen/zzz/assets/w-engines/tusks-of-fury-bf9f9815b1be.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "57a5e670623c",
+              "sourceHash": "57a5e670623c",
+              "kind": "w-engines",
+              "name": "Original Transmorpher",
+              "fileStem": "original-transmorpher-image",
+              "path": "Prydwen/zzz/assets/w-engines/original-transmorpher-57a5e670623c.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-disk-drives-sets": {
+      "label": "Best Disk Drives Sets",
+      "sections": [
+        {
+          "heading": "Best Disk Drives Sets",
+          "text": "1\n\n Bunny in Wonderland ( 4 -PC)\n\n Bunny in Wonderland is easily Zhao's best-in-slot pick. Its triggering criteria is the easiest to meet, with either EX Special use or Perfect Assists, and while it does need to ramp up, the 18% DMG bonus it gives is teamwide and stacks last long enough that it's easy enough to maintain them. The 2-piece HP effect is also a nice to have, making it easier to meet Zhao's steep HP thresholds.\n Best combined with your choice of 2-PC Set:\n 2P\n Yunkui Tales\n\n (Recommended)\n 2P\n Moonlight Lullaby\n\n Swing Jazz\n\n 2\n\n Astral Voice ( 4 -PC)\n\n Astral Voice is an alternative for Zhao. She can provide Quick Assists with multiple skills, like her Assist Follow-Up, EX Special and on Ether Veil activations, giving a handy way to apply the buff to a damage dealer. It isn't perfect, as her slow attacks and high Energy cost on EX Special means she cannot single handedly maintain 3 stacks, but with some planning it's possible to get decent enough uptime on it to make it passable for Attackers.\n Best combined with your choice of 2-PC Set:\n 2P\n Moonlight Lullaby\n\n Swing Jazz\n\n (Recommended)\n 2P\n Yunkui Tales",
+          "assets": [
+            {
+              "id": "86d253c71271",
+              "sourceHash": "86d253c71271",
+              "kind": "drive-discs",
+              "name": "Bunny in Wonderland",
+              "fileStem": "set-bunny",
+              "path": "Prydwen/zzz/assets/drive-discs/bunny-in-wonderland-86d253c71271.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "b2e79743efd9",
+              "sourceHash": "b2e79743efd9",
+              "kind": "drive-discs",
+              "name": "Yunkui Tales",
+              "fileStem": "set-yunkai",
+              "path": "Prydwen/zzz/assets/drive-discs/yunkui-tales-b2e79743efd9.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "dc43496aab0e",
+              "sourceHash": "dc43496aab0e",
+              "kind": "drive-discs",
+              "name": "Moonlight Lullaby",
+              "fileStem": "set-moon",
+              "path": "Prydwen/zzz/assets/drive-discs/moonlight-lullaby-dc43496aab0e.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "7e8e49d34387",
+              "sourceHash": "7e8e49d34387",
+              "kind": "drive-discs",
+              "name": "Swing Jazz",
+              "fileStem": "set-swing",
+              "path": "Prydwen/zzz/assets/drive-discs/swing-jazz-7e8e49d34387.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "47b453ad83b8",
+              "sourceHash": "47b453ad83b8",
+              "kind": "drive-discs",
+              "name": "Astral Voice",
+              "fileStem": "set-astral",
+              "path": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-disk-drives-stats": {
+      "label": "Best Disk Drives Stats",
+      "sections": [
+        {
+          "heading": "Best Disk Drives Stats",
+          "text": "Disk 4\n HP%\n\n Disk 5\n HP%\n\n Disk 6\n Energy Regen\n\n Substats: HP% (Until 27000 Initial HP) > Flat HP (Until 27000 Initial HP) > Crit Rate = Crit DMG",
+          "assets": []
+        }
+      ]
+    },
+    "best-endgame-stats": {
+      "label": "Best Endgame Stats",
+      "sections": [
+        {
+          "heading": "Best Endgame Stats (Level 60)",
+          "text": "ATK: 1900+\n\n HP: 25000+\n\n DEF: 800+\n\n Crit Rate: 30%+\n\n Crit DMG: 50%+",
+          "assets": []
+        }
+      ]
+    },
+    "skill-priority": {
+      "label": "Skill priority",
+      "sections": [
+        {
+          "heading": "Skill priority",
+          "text": "Special Attack\n\n Chain Attack\n\n Basic Attack\n\n Assist\n\n Dodge",
+          "assets": [
+            {
+              "id": "954b8d0b61b7",
+              "sourceHash": "954b8d0b61b7",
+              "kind": "icons",
+              "name": "Special Attack",
+              "fileStem": "icon-special-full",
+              "path": "Prydwen/zzz/assets/icons/special-attack-954b8d0b61b7.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "803b765175bc",
+              "sourceHash": "803b765175bc",
+              "kind": "icons",
+              "name": "Chain Attack",
+              "fileStem": "icon-ulti-full",
+              "path": "Prydwen/zzz/assets/icons/chain-attack-803b765175bc.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "13fff798e82d",
+              "sourceHash": "13fff798e82d",
+              "kind": "icons",
+              "name": "Basic Attack",
+              "fileStem": "icon-basic",
+              "path": "Prydwen/zzz/assets/icons/basic-attack-13fff798e82d.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "de0f0cad1e72",
+              "sourceHash": "de0f0cad1e72",
+              "kind": "icons",
+              "name": "Assist",
+              "fileStem": "icon-assist-m",
+              "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "f3bbacf4beb6",
+              "sourceHash": "f3bbacf4beb6",
+              "kind": "icons",
+              "name": "Dodge",
+              "fileStem": "icon-dodge",
+              "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+              "width": 24,
+              "height": 24
+            }
+          ]
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Below we list only the most important synergies for Zhao . The character can work with others if you know what to do and how to use them.\n\n Ye Shunguang - Zhao is a particularly good unit for Ye Shunguang, owing to the frequent activations of Ether Veil supplying the latter with 3 Qingming Sword Force points. To top it off, Zhao has very low field time commitments and has a decently strong buff value - especially with her Signature W-Engine - making the two an ideal pair.\n Nekomata Ellen Seed Yanagi Alice - As a strong generalist supportive unit, the raw Attack and DMG Bonuses that Zhao provides means that she can work with a wide variety of different Attackers and Anomaly Agents - the ones listed here are only a small selection. As a Defence character, this can limit her options at times: Miyabi for example, wouldn't work, whereas Soldier 0 - Anby could work, but only with a Stunner. There is no particular synergy to be had aside from pure buff value, but so long as Zhao can slot in a comp without sacrificing Additional Abilities, she will do well.",
+          "assets": [
+            {
+              "id": "5887e20e4502",
+              "sourceHash": "5887e20e4502",
+              "kind": "characters",
+              "name": "Ye Shunguang",
+              "fileStem": "ye-shunguang",
+              "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "fc3965204b18",
+              "sourceHash": "fc3965204b18",
+              "kind": "characters",
+              "name": "Nekomata",
+              "fileStem": "nekomata",
+              "path": "Prydwen/zzz/assets/characters/nekomata-fc3965204b18.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "8c66cbf659f4",
+              "sourceHash": "8c66cbf659f4",
+              "kind": "characters",
+              "name": "Ellen",
+              "fileStem": "ellen",
+              "path": "Prydwen/zzz/assets/characters/ellen-8c66cbf659f4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "c7af821101a1",
+              "sourceHash": "c7af821101a1",
+              "kind": "characters",
+              "name": "Seed",
+              "fileStem": "seed",
+              "path": "Prydwen/zzz/assets/characters/seed-c7af821101a1.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "79ca38737857",
+              "sourceHash": "79ca38737857",
+              "kind": "characters",
+              "name": "Yanagi",
+              "fileStem": "yanagi",
+              "path": "Prydwen/zzz/assets/characters/yanagi-79ca38737857.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "8bdbbd8d6be8",
+              "sourceHash": "8bdbbd8d6be8",
+              "kind": "characters",
+              "name": "Alice",
+              "fileStem": "alice",
+              "path": "Prydwen/zzz/assets/characters/alice-8bdbbd8d6be8.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "teams": {
+      "label": "Teams",
+      "sections": [
+        {
+          "heading": "Teams (Shiyu Defense)",
+          "text": "This section lists most popular teams featuring Zhao in the current phase of Shiyu Defense.\n Rank 1\n App. rate: 37.8 %\n Avg. time: 37098\n\n Rank 3\n App. rate: 17.25 %\n Avg. time: 33572\n\n Rank 9\n App. rate: 6.79 %\n Avg. time: 32016\n\n Rank 23\n App. rate: 1.51 %\n Avg. time: 29104\n\n Rank 30\n App. rate: 1.14 %\n Avg. time: 30230\n\n Rank 39\n App. rate: 0.69 %\n Avg. time: 30117\n\n Rank 46\n App. rate: 0.57 %\n Avg. time: 29029\n\n Rank 55\n App. rate: 0.47 %\n Avg. time: 31383\n\n Rank 76\n App. rate: 0.25 %\n Avg. time: 28400\n\n Rank 87\n App. rate: 0.18 %\n Avg. time: 28058",
+          "assets": [
+            {
+              "id": "5887e20e4502",
+              "sourceHash": "5887e20e4502",
+              "kind": "characters",
+              "name": "Ye Shunguang",
+              "fileStem": "ye-shunguang",
+              "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "e8a1e5a4346f",
+              "sourceHash": "e8a1e5a4346f",
+              "kind": "characters",
+              "name": "Zhao",
+              "fileStem": "zhao",
+              "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1cdf4d671727",
+              "sourceHash": "1cdf4d671727",
+              "kind": "characters",
+              "name": "Sunna",
+              "fileStem": "sunna",
+              "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "5b1302d794ba",
+              "sourceHash": "5b1302d794ba",
+              "kind": "characters",
+              "name": "Dialyn",
+              "fileStem": "dialyn",
+              "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "98d8d659c143",
+              "sourceHash": "98d8d659c143",
+              "kind": "characters",
+              "name": "Astra Yao",
+              "fileStem": "astra-yao",
+              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "2fd489d454a4",
+              "sourceHash": "2fd489d454a4",
+              "kind": "characters",
+              "name": "Trigger",
+              "fileStem": "trigger",
+              "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "3e8d48ac0bd4",
+              "sourceHash": "3e8d48ac0bd4",
+              "kind": "characters",
+              "name": "Ju Fufu",
+              "fileStem": "ju-fufu",
+              "path": "Prydwen/zzz/assets/characters/ju-fufu-3e8d48ac0bd4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "05344f259fe9",
+              "sourceHash": "05344f259fe9",
+              "kind": "characters",
+              "name": "Caesar",
+              "fileStem": "caesar",
+              "path": "Prydwen/zzz/assets/characters/caesar-05344f259fe9.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "ad063e072375",
+              "sourceHash": "ad063e072375",
+              "kind": "characters",
+              "name": "Nicole",
+              "fileStem": "nicole-demara",
+              "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "c7af821101a1",
+              "sourceHash": "c7af821101a1",
+              "kind": "characters",
+              "name": "Seed",
+              "fileStem": "seed",
+              "path": "Prydwen/zzz/assets/characters/seed-c7af821101a1.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "a0147df28355",
+              "sourceHash": "a0147df28355",
+              "kind": "characters",
+              "name": "Lucy",
+              "fileStem": "lucy",
+              "path": "Prydwen/zzz/assets/characters/lucy-a0147df28355.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "ce33de22acc4",
+              "sourceHash": "ce33de22acc4",
+              "kind": "characters",
+              "name": "Pulchra",
+              "fileStem": "pulchra",
+              "path": "Prydwen/zzz/assets/characters/pulchra-ce33de22acc4.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        },
+        {
+          "heading": "Teams (Deadly Assault)",
+          "text": "This section lists most popular teams featuring Zhao in the current phase of Deadly Assault.\n Rank 1\n App. rate: 25.87 %\n Avg. score: 30198\n\n Rank 3\n App. rate: 17.24 %\n Avg. score: 29862\n\n Rank 12\n App. rate: 5.29 %\n Avg. score: 26129\n\n Rank 31\n App. rate: 1.01 %\n Avg. score: 22824\n\n Rank 39\n App. rate: 0.8 %\n Avg. score: 25908\n\n Rank 52\n App. rate: 0.43 %\n Avg. score: 23398\n\n Rank 55\n App. rate: 0.42 %\n Avg. score: 24003\n\n Rank 83\n App. rate: 0.22 %\n Avg. score: 24197\n\n Rank 85\n App. rate: 0.2 %\n Avg. score: 24804\n\n Rank 85\n App. rate: 0.2 %\n Avg. score: 27454",
+          "assets": [
+            {
+              "id": "5887e20e4502",
+              "sourceHash": "5887e20e4502",
+              "kind": "characters",
+              "name": "Ye Shunguang",
+              "fileStem": "ye-shunguang",
+              "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "e8a1e5a4346f",
+              "sourceHash": "e8a1e5a4346f",
+              "kind": "characters",
+              "name": "Zhao",
+              "fileStem": "zhao",
+              "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1cdf4d671727",
+              "sourceHash": "1cdf4d671727",
+              "kind": "characters",
+              "name": "Sunna",
+              "fileStem": "sunna",
+              "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "5b1302d794ba",
+              "sourceHash": "5b1302d794ba",
+              "kind": "characters",
+              "name": "Dialyn",
+              "fileStem": "dialyn",
+              "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "98d8d659c143",
+              "sourceHash": "98d8d659c143",
+              "kind": "characters",
+              "name": "Astra Yao",
+              "fileStem": "astra-yao",
+              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "2fd489d454a4",
+              "sourceHash": "2fd489d454a4",
+              "kind": "characters",
+              "name": "Trigger",
+              "fileStem": "trigger",
+              "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "3e8d48ac0bd4",
+              "sourceHash": "3e8d48ac0bd4",
+              "kind": "characters",
+              "name": "Ju Fufu",
+              "fileStem": "ju-fufu",
+              "path": "Prydwen/zzz/assets/characters/ju-fufu-3e8d48ac0bd4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "05344f259fe9",
+              "sourceHash": "05344f259fe9",
+              "kind": "characters",
+              "name": "Caesar",
+              "fileStem": "caesar",
+              "path": "Prydwen/zzz/assets/characters/caesar-05344f259fe9.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "ad063e072375",
+              "sourceHash": "ad063e072375",
+              "kind": "characters",
+              "name": "Nicole",
+              "fileStem": "nicole-demara",
+              "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "05437fe51e49",
+              "sourceHash": "05437fe51e49",
+              "kind": "characters",
+              "name": "Lycaon",
+              "fileStem": "lycaon",
+              "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "c7af821101a1",
+              "sourceHash": "c7af821101a1",
+              "kind": "characters",
+              "name": "Seed",
+              "fileStem": "seed",
+              "path": "Prydwen/zzz/assets/characters/seed-c7af821101a1.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "08a137fda00f",
+              "sourceHash": "08a137fda00f",
+              "kind": "characters",
+              "name": "Pyrois",
+              "fileStem": "pyrois",
+              "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Zhao Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Zhao\n Zhao Best Build Guide\n Last updated: 14/June/2026\n\n Introduction\n Best guide and build for Zhao from ZZZ (Zenless Zone Zero). Zhao is an rank character with the Ice attribute who belongs to the Defence Specialty and who is part of the Krampus Compliance Authority faction.\n\n To learn more about Zhao check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Zhao has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.5\n\n Last build update\n Patch 2.5\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 14/June/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Zhao check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Ideal Colleague\n\n Lv. 1\n\n Zhao gains bonus CRIT Rate based on her initial Max HP, gaining 0.8% CRIT Rate for every 1,000 initial Max HP.\n\nUpon entering the battlefield, Zhao gains 100 Frostbite Points. This effect can trigger once every 180s in Investigation Zone mode. The maximum amount of Frostbite Points is 100 .\n\nWhen the currently active character's attacks hit an enemy, Zhao gains 6 Frostbite Points. This can be triggered once every 3s .\n\nWhen Frostbite Points are maxed out, switching Zhao to the field while in combat will activate her Entry Skill.\n\nWhen Zhao activates her Entry Skill, all Frostbite Points are consumed to activate Ether Veil: Wellspring.\n\nWhile Ether Veil: Wellspring is active, all squad members gain 5% Max HP for 40s . Re-activating Ether Veil: Wellspring ends the existing instance before applying a new Ether Veil: Wellspring.\n\nWhen Zhao activates Ether Veil: Wellspring, all squad members' ATK increase by 100 for 50s . Repeated triggers reset the duration.\n\n PEN Ratio 0\n BASE ATK: 0\n\n Additional Ability Crystallization\n\n When another character in your squad is an Attack, Anomaly, or Support character:\n When Zhao is within any Ether Veil, the whole squad's DMG increases by 10% . If Zhao's initial Max HP exceeds 15,000 , every additional 400 initial Max HP increases this DMG bonus by an additional 1% , up to a total maximum increase of 40% . This bonus reaches its maximum when Zhao's initial Max HP reaches 27,000 .\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Glacial Judgment\n\n Press to activate:\nLaunches up to five slashes forward, the first dealing Physical DMG, and the following four Ice DMG.\n Multipliers\n\n Basic Attack: Final Verdict\n\n Hold to activate:\nAfter getting ready, Zhao starts charging up, then launches a forward slash on release, dealing massive Ice DMG.\nWhile charging, Zhao accumulates up to 5s of charge time. When the Finishing Move of Basic Attack: Final Verdict, Chain Attack, or Assist Follow-Up hits, the stored charge time is consumed to deal additional DMG. For every 1 second of charge time, Zhao deals some of Max HP as additional DMG.\nWhen Zhao is in any Ether Veil, if she gets switched out while charging, the charge can continue.\nIf Frostbite Points are maxed out when the skill activates, all Frostbite Points are consumed to trigger Ether Veil: Wellspring and a Quick Assist. If a squadmate is then switched in via Quick Assist, Zhao automatically follows up with Basic Attack: Final Verdict and begins charging.\nDuring skill activation, Anti-Interrupt level increases, and DMG taken is reduced by 40%.\nWhile not the currently controlled character, the character is invulnerable while using this skill.\n Multipliers\n\n Dodge: Bunny Hop\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Bouncing Dash\n\n Press during a dodge to activate:\nSlashes forward, dealing Physical DMG and Ice DMG.\n Multipliers\n\n Dodge Counter: Swift Blink\n\n Press during a Perfect Dodge to activate.\nPerforms a falling slash ahead, dealing Ice DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Shatterfrost Surge\n\n Press to activate.\nLaunches a forward slash, dealing Ice DMG.\nUpon activating this skill, consumes 5% of current HP to grant all squad members HP regeneration equal to 1.1-2% of Zhao's Max HP per second for 5s. The HP-consuming effects of Special Attack: Shatterfrost Surge and EX Special Attack: Frostflow Tundra can trigger at most once every 30s.\n Multipliers\n\n EX Special Attack: Frostflow Tundra\n\n With enough energy, press to activate.\nLaunches multiple forward slashes, dealing massive Ice DMG.\nUpon activating this skill, consumes 5% of current HP to grant all squad members HP regeneration equal to 1.1-2% of Zhao's Max HP per second for 5s. The HP-consuming effects of Special Attack: Shatterfrost Surge and EX Special Attack: Frostflow Tundra can trigger at most once every 30s.\nUpon activating this skill, gain 20 Frostbite Points. If Frostbite Points are maxed out, all Frostbite Points are consumed to activate Ether Veil: Wellspring.\nUpon activating this skill while in any Ether Veil, a Quick Assist is triggered. If a squadmate is then switched in via Quick Assist, Zhao automatically follows up with Basic Attack: Final Verdict and begins charging.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Temporary Alliance\n\n When a Chain Attack is triggered, select the character to activate:\nLaunches multiple slashes in front, dealing massive Ice DMG.\nAfter using this skill, gains 5 Frostbite Points. If Frostbite Points are maxed out, all Frostbite Points are consumed to activate Ether Veil: Wellspring.\nUpon activating this skill while in any Ether Veil, a Quick Assist is triggered. If a squadmate is then switched in via Quick Assist, Zhao automatically follows up with Basic Attack: Final Verdict and begins charging.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Bunny Barrage\n\n When Decibel Rating is at Maximum, press to activate:\nLaunches consecutive attacks in front, followed by a falling slash, dealing massive Ice DMG.\nAfter using this skill, gains 20 Frostbite Points. If Frostbite Points are maxed out, all Frostbite Points are consumed to activate Ether Veil: Wellspring.\nUpon activating this skill while in any Ether Veil, a Quick Assist is triggered. If a squadmate is then switched in via Quick Assist, Zhao automatically follows up with Basic Attack: Final Verdict and begins charging.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Frostlight Reflection\n\n Press after a Defensive Assist to activate:\nLaunch multiple slashes in front, dealing massive Ice DMG.\nUpon activating this skill, if Frostbite Points are maxed out, all Frostbite Points are consumed to activate Ether Veil: Wellspring.\nUpon activating this skill while in any Ether Veil, a Quick Assist is triggered. If a squadmate is then switched in via Quick Assist, Zhao automatically follows up with Basic Attack: Final Verdict and begins charging.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Entry Skill: Burst of Frost\n\n When Zhao has maximum Frostbite Points, and is in combat, press to activate.\nLaunches consecutive attacks forward, followed by a slash, dealing massive Ice DMG.\nUpon activating this skill, all Frostbite Points are consumed to activate Ether Veil: Wellspring.\nUpon activating this skill, a Quick Assist is triggered. If a squadmate is then switched in via Quick Assist, Zhao automatically follows up with Basic Attack: Final Verdict and begins charging.\nActivating this skill is considered as activating a Quick Assist.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Frostveil Suppression\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Patch the Gaps\n\n When the active character is launched, press to activate.\nLaunches a falling slash in front, dealing Ice DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n Righteous Verdict\n Mindscape 1\n\n When Zhao switches out of being the active character, all squad members' DMG ignores 15% of the target's All-Attribute RES for 50s .\n\n M2\n Krampus Senior\n Mindscape 2\n\n When Zhao recovers HP, her ATK increases by 20% , and other squad members' ATK increases by 15% for 50s . Repeated triggers reset the duration.\n\n M3\n Frostveil Edge\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Featherlight Footsteps\n Mindscape 4\n\n When Zhao activates an Ether Veil, she gains 250 Decibels. The CRIT DMG of her Ultimate, Chain Attack, and Basic Attack: Final Verdict increase by 40% .\n\n M5\n Fuzzy Listener\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n No Value Has Its Own Value\n Mindscape 6\n\n The CRIT Rate buff from Core Passive: Ideal Colleague increases to 125% of the original value. The extra DMG gained from charging during Basic Attack: Final Verdict increases to 140% of the original value, and accumulated charge time is no longer consumed when attacking.\n\n Stats (Level 60)\n Zhao Stats at level 60 (including Core passive bonuses).\n\n HP\n 9117\n\n DEF\n 701\n\n ATK\n 765\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 93\n\n Anomaly Mastery\n 93\n\n Anomaly Proficiency\n 96\n\n Energy Regen\n 1.2\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Support\n T0.5\n Endgame Modes\n\n Pros & Cons\n Pros\n Universally strong supportive Agent that slots in with most Agents.\n\n Easy to play and easy to build, with low field time and investment commitments.\n\n Is being handed out for free to all players.\n\n May be small, but packs a hell of a punch.\n\n Cons\n Not a best-in-slot pick for any team but 1 (Ye Shunguang), limiting her longevity.\n\n A fair amount of her power budget is in her Signature W-Engine.\n\n Defence class lacks Drive Discs and can still be restrictive when team building.\n\n Do you see what Damian has to go through?\n\n Review\n Intro & Unique Mechanic\n Zhao is an Ice Defence Agent who offers universal buffs to Attackers and Anomaly Agents, with the strength of some of her attacks and buffs scaling with her HP.\n Underneath her portrait in combat is a gauge that when full, Zhao can consume it to activate Ether Veil: Wellspring, which is important to maximise her buff value.\n Despite having Ether Veil: Wellspring, Zhao is best suited to Attackers and Anomaly teams rather than Rupture, giving a team-wide 1000 Combat Attack increase and up to 40% in DMG Bonus that are tied to Ether Veils. On top of that, she can contribute some damage and daze through her Basic Attack: “Final Verdict”, a heavy-hitting charged move that can be done while inactive after certain skills.\n Core Passive & Additional Ability\n Zhao’s Core Passive provides 1.4% CRIT Rate for every 1000 initial Max HP (that is what you see on the stat sheet, before any combat bonuses are applied). This is an uncapped bonus, so it could in theory grow infinitely, but it will most likely be around 35-40%.\n Aside from this bonus, it’s here that the specifics of her unique mechanic is outlined.\n The gauge used for Ether Veil: Wellspring triggers is tracking the Frostbite Points resource, having a cap of 100. It fills up with 6 points whenever a currently active character hits an enemy, with a 3s cooldown. Some skills will also provide bonuses, namely her Chain Attack - generating 5 points - as well as her EX Special and Ultimate - generating 20 points each.\n Although Zhao can activate Ether Veil: Wellspring once 100 points are stocked, there are a few important aspects that must be kept in mind. Activation consumes all Frostbite Points and the resulting Ether Veil: Wellspring lasts for 40 seconds. Re-activation does not increase its duration, but is considered a re-activation, ending any existing instances before applying a new one.\n It also does not get activated automatically, with different ways of going about this.\n The easiest method is done simply by swapping to her, which will cast an “Entry Skill”, doing a hefty amount of damage and triggering an immediate Quick Assist. If swapping to Zhao via a Defensive Assist however, the Entry Skill will not cast. This isn’t an issue, as her Assist Follow-Up will also consume Frostbite Points to activate Ether Veil: Wellspring. In case Zhao is the currently active character, there is no need to swap out and back to her. When using her:\n EX Special\n\n Ultimate\n\n Basic Attack: Final Verdict\n\n If Zhao is at 100 points or builds up to it through the generation of one of these skills, she will also activate Ether Veil: Wellspring.\n All of these different ways of triggering it come in handy, as the 1,000 Combat Attack bonus that Zhao provides lasts 50 seconds and is applied whenever she activates Ether Veil: Wellspring. This means that at the minimum, Zhao must be cycling though activations frequently to maintain her buff, especially when her Additional Ability is factored in.\n Scaling with her initial Max HP, capping at 27,000 HP, Zhao can give up to 40% DMG Bonus to the whole team when she is in an Ether Veil when Attack, Anomaly or Support characters are on the team. It’s this steep requirement that mandates HP % Drive Discs on slots 4 and 5.\n This Ether Veil does not need to be her own, nor does it need to be the Wellspring variant, but in Zhao’s teams, she will likely be the only one who is able to supply one. The end result is that, despite her Combat Attack bonus lasting 50 seconds, to benefit in full from Zhao’s buffs, you would need to be activating it every 40 seconds, making resource management very important for her.\n Basic Attack\n Zhao has 2 Basic Attacks, namely “Glacial Judgement” - a standard string - and “Final Verdict” a charged strike.\n The standard Basic Attack string is unremarkable and has few, if any, practical applications, but Final Verdict will see frequent use. It is normally accessed by holding down the Basic Attack button while Zhao is active, but casting it this way is inefficient. This is because it will begin charging automatically after:\n Assist Follow-Ups\n\n EX Specials\n\n Chain Attacks\n\n Ultimates\n\n Entry Skill\n\n It can charge for up to 5 seconds, but you are free to swap out of Zhao while she does so, as it will continue without player input being needed. If manually released (as the active character) or once it hits the maximum charge, it will hit the enemy for a pitiful 140% in DMG Multiplier.\n The catch is that for every second of charge time, 24% of Zhao’s Max HP is added to the attack as additional damage.\n In practice, its damage is not all that significant, but as it effectively needs no time commitment and occurs automatically, it’s a nice-to-have. Zhao is also not swap locked during its charge-up (but is during the strike itself, so be careful!), which does make it rather flexible to use.\n Dodge\n There is genuinely nothing noteworthy about Zhao’s Dodges. They have poor multipliers and do not directly contribute to Frostbite Points generation, and so shouldn’t really be used.\n Assist\n When it comes to her Assists, it gets a bit more interesting. Her Quick Assist and Defensive Assist are as standard - with her Defensive Assist using up only 1 Assist Point as is the case for most Defenders - but her Assist Follow-Up is able to trigger a Quick Assist to the next character when in an Ether Veil.\n This does not need to be done as part of its Ether Veil: Wellspring activation properties, but at any time. The attack itself is quite slow, so it isn’t always worth using, but it can be useful depending on the Drive Disc set.\n Her Entry Skill is also considered an “Assist”. In fact, activating it is treated the same as activating a Quick Assist, hence related effects (like Astral Voice stack build, not application) work with it.\n Special\n Both of Zhao’s Special and EX Special will consume 5% of her HP to grant a 1.7% per second Max HP regen buff, which lasts 5 seconds. There is a 30 second cooldown for this effect which is shared across both skills, but this property alone isn’t all that important.\n Similar to her Assist Follow-Up though, Zhao’s EX Special can trigger a Quick Assist regardless of Frostbite Points if in an Ether Veil. As it’s one of the few skills that generates them, it should be used as often as possible.\n Chain & Ultimate\n Neither Zhao’s Chain Attack or Ultimate are particularly good, and in fact can sometimes feel detrimental to use owing to their long animations.\n The Chain Attack, despite generating 5 Frostbite Points and giving a free Quick Assist when in an Ether Veil, is better left unused. It does have a high DMG Multiplier, but Zhao’s focus on HP % means that it doesn’t hit particularly hard.\n Her Ultimate, on the other hand, should be used. It suffers from many of the same problems, but the 20 Frostbite Points it generates makes it worthwhile, and sometimes a necessity to cycle Ether Veil: Wellspring quickly enough.\n\n How to play\n Zhao is a very straightforward character to play: the less time you spend on her, the better she’ll do.\n As almost all of her attacks lead to Final Verdict, which itself is cast while Zhao is inactive, it's always better to spend time productively on another Agent. She does need to be occasionally swapped to, such as for EX Special use when Energy allows for, the occasional Ultimate, and - depending on the fight and Decibel requirements - some Defensive Assists and Assist Follow-Ups owing to the reduced Assist Point cost.\n Be sure to consume her Frostbite Points to activate Ether Veil: Wellspring often. There’s little active management required, as it rarely ever builds faster than 40 seconds, meaning that in most circumstances, it should be used whenever points max out so as to avoid overcapping.\n That is truly all there is to her. Cycle through her resources quickly so that she can maintain Ether Veil: Wellspring up at all times. If that isn’t possible, then some planning may be required to make sure it is at the very least activated in time for critical burst periods, but even then, the way Zhao is played remains the same.\n The decision of when and how often to swap to her, rather than what exactly to do when playing her, is most critical to her best performance.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Half-Sugar Bunny (S 1 )\n\n Zhao's Signature W-Engine is a very strong weapon: its HP % mainstat makes it much easier to hit the Initial Max HP requirement to cap out buffs, the ER it provides means its possible to have near full uptime of Zhao's Ether Veil (and therefore her Additional Ability's DMG Bonus) and gives both 10% ATK and 30% CRIT DMG, making it better than most other Stunners' Signature W-Engine gains. Although it isn't needed for Zhao to perform, it can make a big difference.\n Usage: 26.31 %\n Shiyu Defense: 37214\n Deadly Assault: 32762\n\n 2\n\n Tusks of Fury (S 1 )\n\n Tusks of Fury is the second best option for Zhao, although it is a fair bit worse than Half-Sugar Bunny. Its Impact % mainstat and Daze bonus can be helpful in teams outside of Ye Shunguang, as Final Verdict can build up quite a bit of Daze, but its real use lies in the DMG increase it provides. Even without HP % gains, that alone makes it a decent option, although don't forget that it does require the occasional Interrupt or Perfect Dodge for uptime.\n Usage: 2.6 %\n Shiyu Defense: 35854\n Deadly Assault: 30769\n\n 3\n\n Original Transmorpher (S 5 )\n\n Among the A-Rank options, Original Transmorpher is the best - and realistically only - pick. Its HP % mainstat is not far behind Half-Sugar Bunny, meaning that it is still possible to max out or at least sustain a high level of Zhao's buff. The generic Max HP bonus also contributes to Final Verdict's damage scaling, but overall it still falls behind both of the S-Rank W-Engines.\n Usage: 68.59 %\n Shiyu Defense: 34474\n Deadly Assault: 28215\n\n Best Disk Drives Sets\n 1\n\n Bunny in Wonderland ( 4 -PC)\n\n Bunny in Wonderland is easily Zhao's best-in-slot pick. Its triggering criteria is the easiest to meet, with either EX Special use or Perfect Assists, and while it does need to ramp up, the 18% DMG bonus it gives is teamwide and stacks last long enough that it's easy enough to maintain them. The 2-piece HP effect is also a nice to have, making it easier to meet Zhao's steep HP thresholds.\n Best combined with your choice of 2-PC Set:\n 2P\n Yunkui Tales\n\n (Recommended)\n 2P\n Moonlight Lullaby\n\n Swing Jazz\n\n 2\n\n Astral Voice ( 4 -PC)\n\n Astral Voice is an alternative for Zhao. She can provide Quick Assists with multiple skills, like her Assist Follow-Up, EX Special and on Ether Veil activations, giving a handy way to apply the buff to a damage dealer. It isn't perfect, as her slow attacks and high Energy cost on EX Special means she cannot single handedly maintain 3 stacks, but with some planning it's possible to get decent enough uptime on it to make it passable for Attackers.\n Best combined with your choice of 2-PC Set:\n 2P\n Moonlight Lullaby\n\n Swing Jazz\n\n (Recommended)\n 2P\n Yunkui Tales\n\n Best Disk Drives Stats\n Disk 4\n HP%\n\n Disk 5\n HP%\n\n Disk 6\n Energy Regen\n\n Substats: HP% (Until 27000 Initial HP) > Flat HP (Until 27000 Initial HP) > Crit Rate = Crit DMG\n\n Best Endgame Stats (Level 60)\n ATK: 1900+\n\n HP: 25000+\n\n DEF: 800+\n\n Crit Rate: 30%+\n\n Crit DMG: 50%+\n\n Skill priority\n Special Attack\n\n Chain Attack\n\n Basic Attack\n\n Assist\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Zhao . The character can work with others if you know what to do and how to use them.\n\n Ye Shunguang - Zhao is a particularly good unit for Ye Shunguang, owing to the frequent activations of Ether Veil supplying the latter with 3 Qingming Sword Force points. To top it off, Zhao has very low field time commitments and has a decently strong buff value - especially with her Signature W-Engine - making the two an ideal pair.\n Nekomata Ellen Seed Yanagi Alice - As a strong generalist supportive unit, the raw Attack and DMG Bonuses that Zhao provides means that she can work with a wide variety of different Attackers and Anomaly Agents - the ones listed here are only a small selection. As a Defence character, this can limit her options at times: Miyabi for example, wouldn't work, whereas Soldier 0 - Anby could work, but only with a Stunner. There is no particular synergy to be had aside from pure buff value, but so long as Zhao can slot in a comp without sacrificing Additional Abilities, she will do well.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Zhao in the current phase of Shiyu Defense.\n Rank 1\n App. rate: 37.8 %\n Avg. time: 37098\n\n Rank 3\n App. rate: 17.25 %\n Avg. time: 33572\n\n Rank 9\n App. rate: 6.79 %\n Avg. time: 32016\n\n Rank 23\n App. rate: 1.51 %\n Avg. time: 29104\n\n Rank 30\n App. rate: 1.14 %\n Avg. time: 30230\n\n Rank 39\n App. rate: 0.69 %\n Avg. time: 30117\n\n Rank 46\n App. rate: 0.57 %\n Avg. time: 29029\n\n Rank 55\n App. rate: 0.47 %\n Avg. time: 31383\n\n Rank 76\n App. rate: 0.25 %\n Avg. time: 28400\n\n Rank 87\n App. rate: 0.18 %\n Avg. time: 28058\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Zhao in the current phase of Deadly Assault.\n Rank 1\n App. rate: 25.87 %\n Avg. score: 30198\n\n Rank 3\n App. rate: 17.24 %\n Avg. score: 29862\n\n Rank 12\n App. rate: 5.29 %\n Avg. score: 26129\n\n Rank 31\n App. rate: 1.01 %\n Avg. score: 22824\n\n Rank 39\n App. rate: 0.8 %\n Avg. score: 25908\n\n Rank 52\n App. rate: 0.43 %\n Avg. score: 23398\n\n Rank 55\n App. rate: 0.42 %\n Avg. score: 24003\n\n Rank 83\n App. rate: 0.22 %\n Avg. score: 24197\n\n Rank 85\n App. rate: 0.2 %\n Avg. score: 24804\n\n Rank 85\n App. rate: 0.2 %\n Avg. score: 27454"
+}

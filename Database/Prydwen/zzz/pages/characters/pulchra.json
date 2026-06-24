@@ -1,0 +1,1936 @@
+{
+  "id": "characters:pulchra",
+  "provider": "Prydwen",
+  "game": "zzz",
+  "gameName": "Zenless Zone Zero",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "pulchra",
+  "name": "Pulchra",
+  "title": "Pulchra Best Build Guide",
+  "sourcePath": "/zenless/characters/pulchra",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "14/June/2026",
+  "meta": {
+    "title": "Pulchra Best Build Guide | Zenless Zone Zero",
+    "description": ""
+  },
+  "facts": {
+    "attribute": "Physical",
+    "specialty": "Stun",
+    "faction": "Sons of Calydon",
+    "rarity": "A"
+  },
+  "assets": [
+    {
+      "id": "dc3c088abe6b",
+      "sourceHash": "dc3c088abe6b",
+      "kind": "characters",
+      "name": "Character",
+      "fileStem": "pulchra-card",
+      "path": "Prydwen/zzz/assets/characters/pulchra-card-dc3c088abe6b.webp",
+      "width": 370,
+      "height": 512
+    },
+    {
+      "id": "180993e8877a",
+      "sourceHash": "180993e8877a",
+      "kind": "icons",
+      "name": "A",
+      "fileStem": "rarity-a",
+      "path": "Prydwen/zzz/assets/icons/a-180993e8877a.webp",
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "b6f384983a36",
+      "sourceHash": "b6f384983a36",
+      "kind": "icons",
+      "name": "Stun",
+      "fileStem": "style-stun",
+      "path": "Prydwen/zzz/assets/icons/stun-b6f384983a36.webp",
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "012d8f8c207d",
+      "sourceHash": "012d8f8c207d",
+      "kind": "factions",
+      "name": "Sons of Calydon",
+      "fileStem": "faction-sons",
+      "path": "Prydwen/zzz/assets/factions/sons-of-calydon-012d8f8c207d.webp",
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "880f190c8aa9",
+      "sourceHash": "880f190c8aa9",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-core",
+      "path": "Prydwen/zzz/assets/icons/core-880f190c8aa9.webp",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "13fff798e82d",
+      "sourceHash": "13fff798e82d",
+      "kind": "icons",
+      "name": "Basic",
+      "fileStem": "icon-basic",
+      "path": "Prydwen/zzz/assets/icons/basic-13fff798e82d.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "f3bbacf4beb6",
+      "sourceHash": "f3bbacf4beb6",
+      "kind": "icons",
+      "name": "Dodge",
+      "fileStem": "icon-dodge",
+      "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "de0f0cad1e72",
+      "sourceHash": "de0f0cad1e72",
+      "kind": "icons",
+      "name": "Assist",
+      "fileStem": "icon-assist-m",
+      "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "954b8d0b61b7",
+      "sourceHash": "954b8d0b61b7",
+      "kind": "icons",
+      "name": "Special",
+      "fileStem": "icon-special-full",
+      "path": "Prydwen/zzz/assets/icons/special-954b8d0b61b7.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "803b765175bc",
+      "sourceHash": "803b765175bc",
+      "kind": "icons",
+      "name": "qte",
+      "fileStem": "icon-ulti-full",
+      "path": "Prydwen/zzz/assets/icons/qte-803b765175bc.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "9f68a61db8c5",
+      "sourceHash": "9f68a61db8c5",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-special",
+      "path": "Prydwen/zzz/assets/icons/core-9f68a61db8c5.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "d3cae9ba5d45",
+      "sourceHash": "d3cae9ba5d45",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-ulti",
+      "path": "Prydwen/zzz/assets/icons/core-d3cae9ba5d45.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "94a5940d48d5",
+      "sourceHash": "94a5940d48d5",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-assist",
+      "path": "Prydwen/zzz/assets/icons/core-94a5940d48d5.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "bcc36adf7778",
+      "sourceHash": "bcc36adf7778",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/zzz/assets/icons/stat-hp-bcc36adf7778.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "6bde3e3d95d5",
+      "sourceHash": "6bde3e3d95d5",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-def",
+      "path": "Prydwen/zzz/assets/icons/stat-def-6bde3e3d95d5.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "3be631f5fe8b",
+      "sourceHash": "3be631f5fe8b",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/zzz/assets/icons/stat-atk-3be631f5fe8b.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "7e808fde7ecd",
+      "sourceHash": "7e808fde7ecd",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-crit",
+      "path": "Prydwen/zzz/assets/icons/stat-crit-7e808fde7ecd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "a5d74846670e",
+      "sourceHash": "a5d74846670e",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/zzz/assets/icons/stat-critdmg-a5d74846670e.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "96960682bbd8",
+      "sourceHash": "96960682bbd8",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-pen",
+      "path": "Prydwen/zzz/assets/icons/stat-pen-96960682bbd8.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "55a4b1c5a82a",
+      "sourceHash": "55a4b1c5a82a",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-impact",
+      "path": "Prydwen/zzz/assets/icons/stat-impact-55a4b1c5a82a.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "078045904ece",
+      "sourceHash": "078045904ece",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-mastery",
+      "path": "Prydwen/zzz/assets/icons/stat-mastery-078045904ece.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "09b14c497e98",
+      "sourceHash": "09b14c497e98",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/zzz/assets/icons/stat-energy-09b14c497e98.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "cb6f22fc2a37",
+      "sourceHash": "cb6f22fc2a37",
+      "kind": "characters",
+      "name": "Pulchra",
+      "fileStem": "pulchra-full",
+      "path": "Prydwen/zzz/assets/characters/pulchra-cb6f22fc2a37.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "2ffa2eaf795e",
+      "sourceHash": "2ffa2eaf795e",
+      "kind": "w-engines",
+      "name": "Blazing Laurel",
+      "fileStem": "blazing-laurel-image",
+      "path": "Prydwen/zzz/assets/w-engines/blazing-laurel-2ffa2eaf795e.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "7d45d95c5e9e",
+      "sourceHash": "7d45d95c5e9e",
+      "kind": "w-engines",
+      "name": "Box Cutter",
+      "fileStem": "box-cutter-image",
+      "path": "Prydwen/zzz/assets/w-engines/box-cutter-7d45d95c5e9e.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "3e546e25a1fe",
+      "sourceHash": "3e546e25a1fe",
+      "kind": "w-engines",
+      "name": "Steam Oven",
+      "fileStem": "steam-oven-image",
+      "path": "Prydwen/zzz/assets/w-engines/steam-oven-3e546e25a1fe.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "8271342a7fd4",
+      "sourceHash": "8271342a7fd4",
+      "kind": "w-engines",
+      "name": "Hellfire Gears",
+      "fileStem": "hellfire-gears-image",
+      "path": "Prydwen/zzz/assets/w-engines/hellfire-gears-8271342a7fd4.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "dc5e4d8d56b9",
+      "sourceHash": "dc5e4d8d56b9",
+      "kind": "w-engines",
+      "name": "Precious Fossilized Core",
+      "fileStem": "precious-fossilized-core-image",
+      "path": "Prydwen/zzz/assets/w-engines/precious-fossilized-core-dc5e4d8d56b9.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "435cffd81245",
+      "sourceHash": "435cffd81245",
+      "kind": "w-engines",
+      "name": "[Vortex] Arrow",
+      "fileStem": "arrow-image",
+      "path": "Prydwen/zzz/assets/w-engines/vortex-arrow-435cffd81245.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "52708e8edd0a",
+      "sourceHash": "52708e8edd0a",
+      "kind": "w-engines",
+      "name": "Six Shooter",
+      "fileStem": "six-shooter-image",
+      "path": "Prydwen/zzz/assets/w-engines/six-shooter-52708e8edd0a.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "9cafa8e105ae",
+      "sourceHash": "9cafa8e105ae",
+      "kind": "drive-discs",
+      "name": "King of the Summit",
+      "fileStem": "set-king",
+      "path": "Prydwen/zzz/assets/drive-discs/king-of-the-summit-9cafa8e105ae.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "1d32dd29b6a7",
+      "sourceHash": "1d32dd29b6a7",
+      "kind": "drive-discs",
+      "name": "Shockstar Disco",
+      "fileStem": "set-shockstar",
+      "path": "Prydwen/zzz/assets/drive-discs/shockstar-disco-1d32dd29b6a7.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "7e8e49d34387",
+      "sourceHash": "7e8e49d34387",
+      "kind": "drive-discs",
+      "name": "Swing Jazz",
+      "fileStem": "set-swing",
+      "path": "Prydwen/zzz/assets/drive-discs/swing-jazz-7e8e49d34387.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "47b453ad83b8",
+      "sourceHash": "47b453ad83b8",
+      "kind": "drive-discs",
+      "name": "Astral Voice",
+      "fileStem": "set-astral",
+      "path": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "1c4453ce92f8",
+      "sourceHash": "1c4453ce92f8",
+      "kind": "drive-discs",
+      "name": "Proto Punk",
+      "fileStem": "set-proto",
+      "path": "Prydwen/zzz/assets/drive-discs/proto-punk-1c4453ce92f8.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "6e337e3697b9",
+      "sourceHash": "6e337e3697b9",
+      "kind": "characters",
+      "name": "Manato",
+      "fileStem": "manato",
+      "path": "Prydwen/zzz/assets/characters/manato-6e337e3697b9.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "04d0ef59478b",
+      "sourceHash": "04d0ef59478b",
+      "kind": "characters",
+      "name": "Anby: Soldier 0",
+      "fileStem": "anby-demara-soldier-0",
+      "path": "Prydwen/zzz/assets/characters/anby-soldier-0-04d0ef59478b.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "53300a2a5c70",
+      "sourceHash": "53300a2a5c70",
+      "kind": "characters",
+      "name": "Yixuan",
+      "fileStem": "yixuan",
+      "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "fc3965204b18",
+      "sourceHash": "fc3965204b18",
+      "kind": "characters",
+      "name": "Nekomata",
+      "fileStem": "nekomata",
+      "path": "Prydwen/zzz/assets/characters/nekomata-fc3965204b18.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ca536e1965fd",
+      "sourceHash": "ca536e1965fd",
+      "kind": "characters",
+      "name": "Soldier 11",
+      "fileStem": "soldier-11",
+      "path": "Prydwen/zzz/assets/characters/soldier-11-ca536e1965fd.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "375bd3f16b41",
+      "sourceHash": "375bd3f16b41",
+      "kind": "characters",
+      "name": "Corin",
+      "fileStem": "corin",
+      "path": "Prydwen/zzz/assets/characters/corin-375bd3f16b41.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "98d8d659c143",
+      "sourceHash": "98d8d659c143",
+      "kind": "characters",
+      "name": "Astra Yao",
+      "fileStem": "astra-yao",
+      "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ad063e072375",
+      "sourceHash": "ad063e072375",
+      "kind": "characters",
+      "name": "Nicole",
+      "fileStem": "nicole-demara",
+      "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "a0147df28355",
+      "sourceHash": "a0147df28355",
+      "kind": "characters",
+      "name": "Lucy",
+      "fileStem": "lucy",
+      "path": "Prydwen/zzz/assets/characters/lucy-a0147df28355.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ce33de22acc4",
+      "sourceHash": "ce33de22acc4",
+      "kind": "characters",
+      "name": "Pulchra",
+      "fileStem": "pulchra",
+      "path": "Prydwen/zzz/assets/characters/pulchra-ce33de22acc4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "7557c8060dc2",
+      "sourceHash": "7557c8060dc2",
+      "kind": "characters",
+      "name": "Lucia",
+      "fileStem": "lucia",
+      "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "5887e20e4502",
+      "sourceHash": "5887e20e4502",
+      "kind": "characters",
+      "name": "Ye Shunguang",
+      "fileStem": "ye-shunguang",
+      "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e8a1e5a4346f",
+      "sourceHash": "e8a1e5a4346f",
+      "kind": "characters",
+      "name": "Zhao",
+      "fileStem": "zhao",
+      "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "f34fb0a851f4",
+      "sourceHash": "f34fb0a851f4",
+      "kind": "characters",
+      "name": "Pan Yinhu",
+      "fileStem": "pan-yinhu",
+      "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "cacf856bd725",
+      "sourceHash": "cacf856bd725",
+      "kind": "characters",
+      "name": "Orphie & Magus",
+      "fileStem": "orphie-and-magus",
+      "path": "Prydwen/zzz/assets/characters/orphie-magus-cacf856bd725.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "7b812101932f",
+      "sourceHash": "7b812101932f",
+      "kind": "characters",
+      "name": "Banyue",
+      "fileStem": "banyue",
+      "path": "Prydwen/zzz/assets/characters/banyue-7b812101932f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "08a137fda00f",
+      "sourceHash": "08a137fda00f",
+      "kind": "characters",
+      "name": "Pyrois",
+      "fileStem": "pyrois",
+      "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
+      "width": 60,
+      "height": 60
+    }
+  ],
+  "sections": [
+    {
+      "id": "pulchra-best-build-guide-0",
+      "level": 1,
+      "heading": "Pulchra Best Build Guide",
+      "text": "Last updated: 14/June/2026",
+      "assets": [
+        {
+          "id": "dc3c088abe6b",
+          "sourceHash": "dc3c088abe6b",
+          "kind": "characters",
+          "name": "Character",
+          "fileStem": "pulchra-card",
+          "path": "Prydwen/zzz/assets/characters/pulchra-card-dc3c088abe6b.webp",
+          "width": 370,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Pulchra from ZZZ (Zenless Zone Zero). Pulchra is an rank character with the Physical attribute who belongs to the Stun Specialty and who is part of the Sons of Calydon faction.\n\n To learn more about Pulchra check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": [
+        {
+          "id": "180993e8877a",
+          "sourceHash": "180993e8877a",
+          "kind": "icons",
+          "name": "A",
+          "fileStem": "rarity-a",
+          "path": "Prydwen/zzz/assets/icons/a-180993e8877a.webp",
+          "width": 30,
+          "height": 30
+        },
+        {
+          "id": "b6f384983a36",
+          "sourceHash": "b6f384983a36",
+          "kind": "icons",
+          "name": "Stun",
+          "fileStem": "style-stun",
+          "path": "Prydwen/zzz/assets/icons/stun-b6f384983a36.webp",
+          "width": 30,
+          "height": 30
+        },
+        {
+          "id": "012d8f8c207d",
+          "sourceHash": "012d8f8c207d",
+          "kind": "factions",
+          "name": "Sons of Calydon",
+          "fileStem": "faction-sons",
+          "path": "Prydwen/zzz/assets/factions/sons-of-calydon-012d8f8c207d.webp",
+          "width": 30,
+          "height": 30
+        }
+      ]
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Pulchra has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 1.6\n\n Last build update\n Patch 1.6\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 14/June/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.",
+      "assets": []
+    },
+    {
+      "id": "calculations-9",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "To learn more about Pulchra check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile",
+      "assets": []
+    },
+    {
+      "id": "core-skills-10",
+      "level": 2,
+      "heading": "Core skills",
+      "text": "Core Passive Hunter's Instinct\n\n Lv. 1\n\n When Pulchra activates an EX Special Attack, Assist Follow-Up, Chain Attack, or Ultimate, she enters the Hunter's Gait state, increasing the Daze she deals by 15% for 6s .\n\nAfter switching to another character, if Pulchra is still in the Hunter's Gait state, the state will last until Pulchra switches back in. While in the Hunter's Gait state and as the active character, when Pulchra lands a heavy attack on enemies, she can trigger a Quick Assist from the previous character in the squad.\n\n Impact 0\n BASE ATK: 0\n\n Additional Ability Business Partner\n\n When another character in your squad is an Attack or Rupture character or shares the same Faction:\n When Pulchra hits enemies with Special Attack: Rending Claw - Nightmare Shadow, an EX Special Attack, Assist Follow-Up, Chain Attack, or Ultimate, it applies the Binding Trap effect for 15s . After applying Binding Trap, all units' Aftershock DMG against the target is increased by 30% .",
+      "assets": [
+        {
+          "id": "880f190c8aa9",
+          "sourceHash": "880f190c8aa9",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-core",
+          "path": "Prydwen/zzz/assets/icons/core-880f190c8aa9.webp",
+          "width": 32,
+          "height": 32
+        }
+      ]
+    },
+    {
+      "id": "skills-11",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Swift Strike\n\n Press to activate:\nUnleashes up to 3 attacks forward, dealing Physical DMG.\n Multipliers\n\n Basic Attack: Leaping Strike\n\n Hold to activate:\nLeap forward and unleash a series of slashes, dealing Physical DMG.\n Multipliers\n\n Dodge: Reversal Shot\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: First Strike Advantage\n\n Press during a dodge to activate:\nDash forward and slash, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Relentless Retribution\n\n Press during a Perfect Dodge to activate.\nThrust at enemies in front, then follow up with a swift slash, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Rending Claw\n\n Press to activate.\nPerform a rapid back-and-forth piercing attack, dealing Physical DMG.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n Special Attack: Rending Claw - Nightmare Shadow\n\n While Pulchra is in the Hunter's Gait state, and when another active character in the squad hits an enemy with a heavy attack from a Special Attack or EX Special Attack:\nDash back-and-forth piercing enemies surrounding the target, dealing Physical DMG.\nAfter using this skill, if another active character in the squad hits an enemy, Pulchra will repeat the attack up to 5 additional times, with the final attack being a more powerful Finishing Move.\nCharacter is invulnerable while using this skill.\nSpecial Attack: Rending Claw - Nightmare Shadow is an Aftershock attack.\n Multipliers\n\n EX Special Attack: Rending Claw - Flashstep\n\n With enough Energy, press to activate.\nPierce back and forth times, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Hey, Didn't Expect That, Right?\n\n When a Chain Attack is triggered, select the character to activate:\nUnleashes a charged shot forward, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Oh, Time to Play?\n\n When Decibel Rating is at Maximum, press to activate.\nUnleash a powerful shot at enemies in a large area ahead, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Independent Pricing\n\n Press after an Evasive Assist to activate:\nLeap forward into the air and fire, dealing Physical DMG.\nUpon activating this skill, consume 1 Assist Point to enter the Hunter's Gait state.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Evasive Assist: Contract - Outsourced Combat\n\n When the character on field is about to be attacked, press to activate.\nDodges the enemy's attack and activates Vital View.\nCharacter is invulnerable while using this skill.\n\n Quick Assist: Contract - Bodyguard\n\n When the on-field character is launched, press to activate.\nThrust at enemies in front, followed by rapid slashes, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers",
+      "assets": [
+        {
+          "id": "13fff798e82d",
+          "sourceHash": "13fff798e82d",
+          "kind": "icons",
+          "name": "Basic",
+          "fileStem": "icon-basic",
+          "path": "Prydwen/zzz/assets/icons/basic-13fff798e82d.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "f3bbacf4beb6",
+          "sourceHash": "f3bbacf4beb6",
+          "kind": "icons",
+          "name": "Dodge",
+          "fileStem": "icon-dodge",
+          "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "de0f0cad1e72",
+          "sourceHash": "de0f0cad1e72",
+          "kind": "icons",
+          "name": "Assist",
+          "fileStem": "icon-assist-m",
+          "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "954b8d0b61b7",
+          "sourceHash": "954b8d0b61b7",
+          "kind": "icons",
+          "name": "Special",
+          "fileStem": "icon-special-full",
+          "path": "Prydwen/zzz/assets/icons/special-954b8d0b61b7.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "803b765175bc",
+          "sourceHash": "803b765175bc",
+          "kind": "icons",
+          "name": "qte",
+          "fileStem": "icon-ulti-full",
+          "path": "Prydwen/zzz/assets/icons/qte-803b765175bc.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "9f68a61db8c5",
+          "sourceHash": "9f68a61db8c5",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-special",
+          "path": "Prydwen/zzz/assets/icons/core-9f68a61db8c5.webp",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "id": "d3cae9ba5d45",
+          "sourceHash": "d3cae9ba5d45",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-ulti",
+          "path": "Prydwen/zzz/assets/icons/core-d3cae9ba5d45.webp",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "id": "94a5940d48d5",
+          "sourceHash": "94a5940d48d5",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-assist",
+          "path": "Prydwen/zzz/assets/icons/core-94a5940d48d5.webp",
+          "width": 40,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "id": "mindscapes-12",
+      "level": 2,
+      "heading": "Mindscapes",
+      "text": "M1\n Self-Interest\n Mindscape 1\n\n When dealing DMG to enemies affected by Binding Trap, increase own CRIT Rate by 10% .\n\n M2\n Opportunistic\n Mindscape 2\n\n While in the Hunter's Gait state from Core Passive: Hunter's Instinct, Pulchra's ATK is increased by an additional 10% .\n\n M3\n Territorial\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Joy of the Hunt\n Mindscape 4\n\n Reduces Energy Cost of activating EX Special Attack: Rending Claw - Flashstep by 5 .\n\n M5\n Tail Game\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Behind the Mask\n Mindscape 6\n\n Special Attack: Rending Claw - Nightmare Shadow's DMG is increased by 15% , and the number of times the repeated attack can trigger is increased by 2 . Additional Ability: Business Partner's Binding Trap effect now also applies to all damage types, not just Aftershock DMG.",
+      "assets": []
+    },
+    {
+      "id": "stats-level-60-13",
+      "level": 2,
+      "heading": "Stats (Level 60)",
+      "text": "Pulchra Stats at level 60 (including Core passive bonuses).\n\n HP\n 7612\n\n DEF\n 606\n\n ATK\n 665\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 136\n\n Anomaly Mastery\n 92\n\n Anomaly Proficiency\n 90\n\n Energy Regen\n 1.2",
+      "assets": [
+        {
+          "id": "bcc36adf7778",
+          "sourceHash": "bcc36adf7778",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/zzz/assets/icons/stat-hp-bcc36adf7778.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "6bde3e3d95d5",
+          "sourceHash": "6bde3e3d95d5",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-def",
+          "path": "Prydwen/zzz/assets/icons/stat-def-6bde3e3d95d5.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "3be631f5fe8b",
+          "sourceHash": "3be631f5fe8b",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/zzz/assets/icons/stat-atk-3be631f5fe8b.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "7e808fde7ecd",
+          "sourceHash": "7e808fde7ecd",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/zzz/assets/icons/stat-crit-7e808fde7ecd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "a5d74846670e",
+          "sourceHash": "a5d74846670e",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/zzz/assets/icons/stat-critdmg-a5d74846670e.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "96960682bbd8",
+          "sourceHash": "96960682bbd8",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-pen",
+          "path": "Prydwen/zzz/assets/icons/stat-pen-96960682bbd8.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "55a4b1c5a82a",
+          "sourceHash": "55a4b1c5a82a",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-impact",
+          "path": "Prydwen/zzz/assets/icons/stat-impact-55a4b1c5a82a.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "078045904ece",
+          "sourceHash": "078045904ece",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-mastery",
+          "path": "Prydwen/zzz/assets/icons/stat-mastery-078045904ece.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "09b14c497e98",
+          "sourceHash": "09b14c497e98",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/zzz/assets/icons/stat-energy-09b14c497e98.webp",
+          "width": 24,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "id": "voice-actors-14",
+      "level": 2,
+      "heading": "Voice Actors",
+      "text": "ENG\n -\n\n JPN\n Natsumi Fujiwara (藤原夏海)\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-15",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "cb6f22fc2a37",
+          "sourceHash": "cb6f22fc2a37",
+          "kind": "characters",
+          "name": "Pulchra",
+          "fileStem": "pulchra-full",
+          "path": "Prydwen/zzz/assets/characters/pulchra-cb6f22fc2a37.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "ratings-16",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.",
+      "assets": []
+    },
+    {
+      "id": "support-17",
+      "level": 5,
+      "heading": "Support",
+      "text": "T2\n Endgame Modes",
+      "assets": []
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Completely free unit everyone will get on their account,\n\n Offers a team-wide buff for Aftershock Agents (All Agents at M6) while dealing solid Daze,\n\n Uses incredibly minimal field to implement her entire kit.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Has limited options to support with only 1 other Aftershock character in the game,\n\n Requires M6 to unlock her more generic supportive capabilities.",
+      "assets": []
+    },
+    {
+      "id": "review-21",
+      "level": 2,
+      "heading": "Review",
+      "text": "Pulchra is our latest A Rank and the first Physical Stun Agent . Despite not being S Rank, she can certainly find a place in quite a number of teams as a competitive choice! Pulchra, like S0 Anby who releases alongside her, is all about the new damage type and mechanic - Aftershock, which revolves around dealing damage and Daze via triggers instead of directly through abilities (Similar to how Burnice’s Afterburn works). Unlike S0 Anby, Pulchra’s Aftershocks all consist of off-field attacks that can occur while you’re playing another Agent! This fact is the defining feature of Pulchra’s playstyle and it’s no exaggeration to say that she’ll be attacking more from off field than she will from on field.\n Pulchra’s off-field Aftershock attacks are tied to her unique resource gauge, which takes the form of a row of Jagged Fangs consisting of 6 Fangs initially but reaching up to 8 at M6. To accumulate these Fangs Pulchra must first enter Hunter’s Gait, a special state granted each time she uses an EX-Special Attack, Assist Follow-Up, Chain Attack or Ultimate, upon doing so she’ll fully recover all her Fangs as well as gain a 30% increased Daze multiplier.\n When off-field and while she’s in Hunters Gait with Fangs available, whenever another Agent lands a Heavy Attack with either a Special Attack or EX-Special Attack, Pulchra will start her sequence of Aftershock attacks consisting of multiple instances of her Special Attack: Rending Claw - Nightmare Shadow. Each Rending Claw will consume 1 Fang out of Pulchra’s resource gauge and after the first Rending Claw is triggered via a Heavy Special/EX, every subsequent attack landed by an ally will trigger a Rending Claw until Pulchra’s resource gauge is empty. As an extra bonus when consuming the last Fang of her resource gauge, Pulchra’s final Rending Claw will be enhanced.\n This creates the incredibly simple playstyle of landing an ability that refreshes Pulchra’s Hunter’s Gait and Fangs, swapping off her, landing a heavy attack with an ally's Special or EX and then unloading all of Pulchra’s Fangs with your choice of ally attacks until she’s empty, rinse, repeat. When looking to optimize this playstyle it’s worth noting that her most seamless and effective means of easily accessing Hunter’s Gait is her Evasive Assist + Assist Follow-up and her EX-Special Attack. Here is an example of how a Pulchra Rotation might play out at M0:\n Evasive Assist: Contract - Outsourced Combat\n\n Assist Follow-Up: Independent Pricing\n Swap\n\n Allied Heavy EX/Special Attack\n\n Special Attack Rending Claw - Nightmare Shadow x 5\n\n Special Attack Rending Claw - Nightmare Shadow (Finisher)\n\n EX Special Attack: Rending Claw - Flash Step\n Swap\n\n Allied Heavy EX/Special Attack\n\n Special Attack Rending Claw - Nightmare Shadow x 5\n\n Special Attack Rending Claw - Nightmare Shadow (Finisher)\n\n Evasive Assist: Contract - Outsourced Combat\n\n Assist Follow-Up: Independent Pricing\n Swap\n\n Allied Heavy EX/Special Attack\n\n Special Attack Rending Claw - Nightmare Shadow x 5\n\n Special Attack Rending Claw - Nightmare Shadow (Finisher)\n\n Ultimate: Oh, Time to Play?\n Swap\n\n Allied Heavy EX/Special Attack\n\n Special Attack Rending Claw - Nightmare Shadow x 5\n\n Special Attack Rending Claw - Nightmare Shadow (Finisher)\n\n Outside of this, Pulchra brings one more thing to the table thanks to her Additional Ability: Business Partner. While active, any time she hits an enemy with her Special Attack: Rending Claw - Nightmare Shadow, EX-Special Attack, Assist Follow-Up, Chain or Ultimate she applies Binding Trap for 15 seconds. While Binding Trap is active, the entire squad's Aftershock DMG is increased by 30% and at M6 this applies to all damage instead of just Aftershock!\n To summarize, what makes Pulchra unique is her ability to deal considerable damage without being on the field for most part - this frees up field time for the rest of your agents to do what they need to and makes her a potent pick for teams that favor this playstyle. In addition to this, she is a great carrier of either the Astral Voice or Proto Punk Disc Drive Sets, which when combined with her Additional Ability, make for some reasonable team buffs for an A ranked stunner (especially at M6).\n While she definitely has her place, she has a few downsides. Namely, the fact that one of her best Hunter’s Gait enablers (the combo of Evasive Assist + Assist Follow-up) consumes 2 Assist points instead of the standard 1, and the fact that before M6, she has limited buffing capabilities outside of Aftershock focused teams.\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "collaboration-disclaimer-22",
+      "level": 2,
+      "heading": "Collaboration Disclaimer",
+      "text": "For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.",
+      "assets": []
+    },
+    {
+      "id": "best-w-engines-23",
+      "level": 2,
+      "heading": "Best W-Engines",
+      "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n The top number shows the performance of the W-Engine when applying Daze while the bottom number when dealing Damage .\n 109.57%\n 93.72%\n\n Blazing Laurel (S 1 )\n\n Lighter's Signature and Pulchra's best option when it comes to raw daze output, thanks to its high baseline Impact% and absurdly large 25% combat Impact bonus that triggers whenever Pulchra does a Quick Assist or Perfect Assist - which during her rotation is fairly frequently. Pulchra can't take advantage of the supportive Wilt effect of this engine, but it's still a great boost to her Daze.\n Usage: 0.19 %\n Shiyu Defense: 29059\n Deadly Assault: 0\n\n 100.00%\n 100.00%\n\n Box Cutter (S 5 )\n\n Pulchra's signature and an outstanding engine for her, granting her increased Impact%, Physical DMG and Daze% with no downtime. Has lower total potential than some other engines but is incredibly consistent due to its effect being tied to Aftershock triggers.\n Usage: 81.26 %\n Shiyu Defense: 28537\n Deadly Assault: 25239\n\n 99.77%\n 86.98%\n\n Steam Oven (S 5 )\n\n As Pulchra isn't too dependent on her EX Special for Daze application (being able to refill her stacks with Evasive Assists), it's not too difficult to maintain the full buff value from Steam Oven by conserving Energy. If Daze build isn't an immediate requirement, like when leading up to a stun, the extra Energy makes it easier to sustain King of the Summit activations, so it's all around a great option.\n Usage: 4.56 %\n Shiyu Defense: 26956\n Deadly Assault: 23727\n\n 98.18%\n 92.08%\n\n Hellfire Gears (S 1 )\n\n Koleda's Signature W-Engine and decent option for Pulchra albeit less so than some other Stun characters due to the fact her Daze and kit is spread out throughout the entire encounter, because of how her Hunter's Gait functions. Most effective when pairing Pulchra's EX use with other high Daze abilities such as her Ultimate.\n Usage: 6.17 %\n Shiyu Defense: 31122\n Deadly Assault: 25704\n\n 95.89%\n 95.75%\n\n Box Cutter (S 1 )\n\n Pulchra's signature and an outstanding engine for her, granting her increased Impact%, Physical DMG and Daze% with no downtime. Has lower total potential than some other engines but is incredibly consistent due to its effect being tied to Aftershock triggers.\n Usage: 81.26 %\n Shiyu Defense: 28537\n Deadly Assault: 25239\n\n 95.89%\n 86.98%\n\n Precious Fossilized Core (S 5 )\n\n Fossilized Core is always a solid option to use. It has some of the highest Daze % bonuses a W-Engine can give, so in low scoring Deadly Assault fights or in some Shiyu Defence encounters it can do very well. It is reliant on high HP enemies, so it can suffer in certain conditions, but it is rarely a bad pick.\n Usage: 4.74 %\n Shiyu Defense: 28770\n Deadly Assault: 27925\n\n 95.16%\n 80.24%\n\n [Vortex] Arrow (S 5 )\n\n As a B-Rank W-Engine, its low base ATK and Impact as well as offering even less Daze at P5 than Fossilized Core without its HP bonus makes it a terrible pick and one to quickly replace.\n 91.61%\n 86.98%\n\n Six Shooter (S 5 )\n\n Despite being a Battlepass W-Engine, Six Shooter's Daze applying only to EX Specials means it's not a good pick. Most of Pulchra's Daze is coming from her Aftershocks, Assist Follow-Ups and Ultimates, none of which get any benefits. Craftable or Standard Banner alternatives far surpass this, so it isn't worthwhile to use.\n Usage: 0.19 %\n Shiyu Defense: 28289\n Deadly Assault: 0",
+      "assets": [
+        {
+          "id": "2ffa2eaf795e",
+          "sourceHash": "2ffa2eaf795e",
+          "kind": "w-engines",
+          "name": "Blazing Laurel",
+          "fileStem": "blazing-laurel-image",
+          "path": "Prydwen/zzz/assets/w-engines/blazing-laurel-2ffa2eaf795e.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "7d45d95c5e9e",
+          "sourceHash": "7d45d95c5e9e",
+          "kind": "w-engines",
+          "name": "Box Cutter",
+          "fileStem": "box-cutter-image",
+          "path": "Prydwen/zzz/assets/w-engines/box-cutter-7d45d95c5e9e.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "3e546e25a1fe",
+          "sourceHash": "3e546e25a1fe",
+          "kind": "w-engines",
+          "name": "Steam Oven",
+          "fileStem": "steam-oven-image",
+          "path": "Prydwen/zzz/assets/w-engines/steam-oven-3e546e25a1fe.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "8271342a7fd4",
+          "sourceHash": "8271342a7fd4",
+          "kind": "w-engines",
+          "name": "Hellfire Gears",
+          "fileStem": "hellfire-gears-image",
+          "path": "Prydwen/zzz/assets/w-engines/hellfire-gears-8271342a7fd4.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "dc5e4d8d56b9",
+          "sourceHash": "dc5e4d8d56b9",
+          "kind": "w-engines",
+          "name": "Precious Fossilized Core",
+          "fileStem": "precious-fossilized-core-image",
+          "path": "Prydwen/zzz/assets/w-engines/precious-fossilized-core-dc5e4d8d56b9.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "435cffd81245",
+          "sourceHash": "435cffd81245",
+          "kind": "w-engines",
+          "name": "[Vortex] Arrow",
+          "fileStem": "arrow-image",
+          "path": "Prydwen/zzz/assets/w-engines/vortex-arrow-435cffd81245.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "52708e8edd0a",
+          "sourceHash": "52708e8edd0a",
+          "kind": "w-engines",
+          "name": "Six Shooter",
+          "fileStem": "six-shooter-image",
+          "path": "Prydwen/zzz/assets/w-engines/six-shooter-52708e8edd0a.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-disk-drives-sets-24",
+      "level": 2,
+      "heading": "Best Disk Drives Sets",
+      "text": "1\n\n King of the Summit ( 4 -PC)\n\n New best Stun set, to be used on any Stun character in almost any team with very few exceptions. Gives 6% increased Daze on the 2-piece and up to 30% CRIT DMG for the entire squad for 15s when casting EX Specials and Chain Attacks on the condition that the equipper has 50% CRIT Rate or higher, a requirement which is easy to meet but must be ensured. Uptime on this buff is almost always easily maintained permanently, however be mindful this set will not be effective if you aren’t building the rest of your team on CRIT, in which case alternatives will be preferred, and that you cannot run this set multiple times on the same team.\n Best combined with your choice of 2-PC Set:\n 2P\n Shockstar Disco\n\n (Recommended)\n 2P\n Swing Jazz\n\n 2\n\n Astral Voice ( 4 -PC)\n\n Best generalist Support set, providing a useful 10% ATK on the 2-piece but most importantly buffing DMG dealt by characters entering the field via Quick Assists by upwards of 24%, the biggest buff provided by Disc Drives in the game. Generally a must-have set on any team, but be mindful of ensuring uptime on the buff.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Swing Jazz\n\n 3\n\n Proto Punk ( 4 -PC)\n\n Niche supportive set used for teams that are in the position of triggering Perfect Assists often. Grants the entire party 15% increased DMG for 10s when triggering a Perfect Assist. Typically used if an Astral Voice wielder is already on the team and the equipped Agent is in a position to trigger lots of Perfect Assists. This set's value is significantly diminished if the player isn't comfortable with timing Perfect Assists, in which case other sets will be favoured such as 4P Swing Jazz.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Swing Jazz\n\n 4\n\n Shockstar Disco ( 4 -PC)\n\n Provides the highest Daze output of any Disk Drive set in the game. However, the difference between the 4-piece effect increase in Daze is marginal compared to simply using the 2-piece effect, meaning it almost always yields better results to use a supportive set like King of the Summit or Astral Voice to buff your team further, instead of the extra Daze which only gives extra Stun windows against bosses in very specific situations. If an extra Stun window is enabled by using this set it will perform the best, however this only very rarely happens, causing it to be left behind in favour of other sets.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Swing Jazz",
+      "assets": [
+        {
+          "id": "9cafa8e105ae",
+          "sourceHash": "9cafa8e105ae",
+          "kind": "drive-discs",
+          "name": "King of the Summit",
+          "fileStem": "set-king",
+          "path": "Prydwen/zzz/assets/drive-discs/king-of-the-summit-9cafa8e105ae.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "1d32dd29b6a7",
+          "sourceHash": "1d32dd29b6a7",
+          "kind": "drive-discs",
+          "name": "Shockstar Disco",
+          "fileStem": "set-shockstar",
+          "path": "Prydwen/zzz/assets/drive-discs/shockstar-disco-1d32dd29b6a7.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "7e8e49d34387",
+          "sourceHash": "7e8e49d34387",
+          "kind": "drive-discs",
+          "name": "Swing Jazz",
+          "fileStem": "set-swing",
+          "path": "Prydwen/zzz/assets/drive-discs/swing-jazz-7e8e49d34387.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "47b453ad83b8",
+          "sourceHash": "47b453ad83b8",
+          "kind": "drive-discs",
+          "name": "Astral Voice",
+          "fileStem": "set-astral",
+          "path": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "1c4453ce92f8",
+          "sourceHash": "1c4453ce92f8",
+          "kind": "drive-discs",
+          "name": "Proto Punk",
+          "fileStem": "set-proto",
+          "path": "Prydwen/zzz/assets/drive-discs/proto-punk-1c4453ce92f8.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "anomaly-build-26",
+      "level": 5,
+      "heading": "Anomaly Build",
+      "text": "Disk 4\n Anomaly Proficiency\n\n Disk 5\n ATK% = Physical DMG%\n\n Disk 6\n Impact\n\n Substats: Anomaly Profiency > ATK% > PEN > ATK",
+      "assets": []
+    },
+    {
+      "id": "crit-build-27",
+      "level": 5,
+      "heading": "CRIT Build",
+      "text": "Disk 4\n CRIT Rate% >= CRIT DMG%\n\n Disk 5\n ATK% = Physical DMG%\n\n Disk 6\n Impact\n\n Substats: CRIT RATE = CRIT DMG > ATK% > PEN = ATK",
+      "assets": []
+    },
+    {
+      "id": "best-endgame-stats-level-60-28",
+      "level": 2,
+      "heading": "Best Endgame Stats (Level 60)",
+      "text": "ATK: 1800 - 2200+ (Optional)\n\n HP: 10000+\n\n DEF: 850+\n\n IMPACT: 169 - 189+ (Most Important Stat)\n\n Choose one:\n Option 1 (Anomaly teams):\n Anomaly Proficiency: 250 - 300+ (Optional)\n\n Anomaly Mastery: 92+ (Optional)\n\n Option 2 (Crit teams):\n CRIT RATE: 50 - 60%+ (for King of the Summit)\n\n CRIT DMG: 100 - 120%+ (Optional)",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-29",
+      "level": 2,
+      "heading": "Skill priority",
+      "text": "Special Attack\n\n Chain Attack\n\n Assist\n\n Basic Attack\n\n Dodge",
+      "assets": [
+        {
+          "id": "954b8d0b61b7",
+          "sourceHash": "954b8d0b61b7",
+          "kind": "icons",
+          "name": "Special Attack",
+          "fileStem": "icon-special-full",
+          "path": "Prydwen/zzz/assets/icons/special-attack-954b8d0b61b7.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "803b765175bc",
+          "sourceHash": "803b765175bc",
+          "kind": "icons",
+          "name": "Chain Attack",
+          "fileStem": "icon-ulti-full",
+          "path": "Prydwen/zzz/assets/icons/chain-attack-803b765175bc.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "de0f0cad1e72",
+          "sourceHash": "de0f0cad1e72",
+          "kind": "icons",
+          "name": "Assist",
+          "fileStem": "icon-assist-m",
+          "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "13fff798e82d",
+          "sourceHash": "13fff798e82d",
+          "kind": "icons",
+          "name": "Basic Attack",
+          "fileStem": "icon-basic",
+          "path": "Prydwen/zzz/assets/icons/basic-attack-13fff798e82d.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "f3bbacf4beb6",
+          "sourceHash": "f3bbacf4beb6",
+          "kind": "icons",
+          "name": "Dodge",
+          "fileStem": "icon-dodge",
+          "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+          "width": 24,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "id": "video-guides-30",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "Teams & Synergy",
+      "assets": []
+    },
+    {
+      "id": "synergy-31",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Below we list only the most important synergies for Pulchra . The character can work with others if you know what to do and how to use them.\n\n Manato - Being one of the few Stun Agents that has an Additional Ability that supports Rupture Agents, Pulchra is a decent pick for Manato teams. The low time commitment needed for her to perform allows for Manato to on-field and constantly deal damage, however you will want her at M6 so that her DMG % bonuses apply. With both of them being A-Ranks, it makes for a low cost and accessible team.\n Anby: Soldier 0 - Pulchra, being an Aftershock Stunner, has great synergy with SAnby. They activate each others’ Additional Abilities and - as Pulchra’s DMG % bonuses only apply to Aftershocks until M6 - is one of the few pairings where Pulchra has strong performance without needing dupes. With Pulchra being a mostly inactive stunner who applies Daze with little field time required, she affords SAnby the active presence needed to perform. In this comp, Pulchra is able to effectively Stun enemies, provide buffs at M0 and do so at no sacrifice to SAnby’s damage, making for a very capable duo.\n Yixuan Manato - Being one of the few Stun Agents that has an Additional Ability that supports Rupture Agents, Pulchra is a decent teammate pick. You will want her at M6 so that her DMG % bonuses apply, and her performance takes a severe hit against Physical resistant bosses (such as Wandering Hunter), but the low time commitment needed for her to perform means she synergises well with both these Rupture damage dealers who like being on-field to deal damage and build resources.\n Nekomata Soldier 11 Corin - Pulchra is also great with other characters that want a lot of field time and Physical Attack Agents especially as she's able to activate their Additional Abilities effortlessly. This is the case with both Nekomata and Corin (the latter of which usually struggles with this), so there's no conflicts there. Besides, Pulchra takes up minimal amounts of field time as she mostly deals Daze while off-field, much to the benefit of the 3 above characters who really enjoy the extra time.\n Astra Yao Nicole Lucy - These 3 generalist units are capable of acting as Support for any team in the game. Astra Yao provides Quick Assists, extra Chain Attacks, healing, super low field time, ATK, DMG and CRIT DMG buffs which makes her the overall best choice in almost all cases. Nicole provides the sought-after DEF Shred and CRIT Rate at M6 which makes her competitive, and Lucy has long-lasting ATK buffs which makes her a very practical choice, especially in Fire teams where she can help with building Anomaly and trigger Additional Abilities. All in all, these three can work with anyone.",
+      "assets": [
+        {
+          "id": "6e337e3697b9",
+          "sourceHash": "6e337e3697b9",
+          "kind": "characters",
+          "name": "Manato",
+          "fileStem": "manato",
+          "path": "Prydwen/zzz/assets/characters/manato-6e337e3697b9.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "04d0ef59478b",
+          "sourceHash": "04d0ef59478b",
+          "kind": "characters",
+          "name": "Anby: Soldier 0",
+          "fileStem": "anby-demara-soldier-0",
+          "path": "Prydwen/zzz/assets/characters/anby-soldier-0-04d0ef59478b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "53300a2a5c70",
+          "sourceHash": "53300a2a5c70",
+          "kind": "characters",
+          "name": "Yixuan",
+          "fileStem": "yixuan",
+          "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "fc3965204b18",
+          "sourceHash": "fc3965204b18",
+          "kind": "characters",
+          "name": "Nekomata",
+          "fileStem": "nekomata",
+          "path": "Prydwen/zzz/assets/characters/nekomata-fc3965204b18.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ca536e1965fd",
+          "sourceHash": "ca536e1965fd",
+          "kind": "characters",
+          "name": "Soldier 11",
+          "fileStem": "soldier-11",
+          "path": "Prydwen/zzz/assets/characters/soldier-11-ca536e1965fd.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "375bd3f16b41",
+          "sourceHash": "375bd3f16b41",
+          "kind": "characters",
+          "name": "Corin",
+          "fileStem": "corin",
+          "path": "Prydwen/zzz/assets/characters/corin-375bd3f16b41.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "98d8d659c143",
+          "sourceHash": "98d8d659c143",
+          "kind": "characters",
+          "name": "Astra Yao",
+          "fileStem": "astra-yao",
+          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ad063e072375",
+          "sourceHash": "ad063e072375",
+          "kind": "characters",
+          "name": "Nicole",
+          "fileStem": "nicole-demara",
+          "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "a0147df28355",
+          "sourceHash": "a0147df28355",
+          "kind": "characters",
+          "name": "Lucy",
+          "fileStem": "lucy",
+          "path": "Prydwen/zzz/assets/characters/lucy-a0147df28355.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-shiyu-defense-32",
+      "level": 2,
+      "heading": "Teams (Shiyu Defense)",
+      "text": "This section lists most popular teams featuring Pulchra in the current phase of Shiyu Defense.\n Rank 71\n App. rate: 0.31 %\n Avg. time: 26339\n\n Rank 87\n App. rate: 0.18 %\n Avg. time: 28058\n\n Rank 154\n App. rate: 0.06 %\n Avg. time: 26006\n\n Rank 167\n App. rate: 0.05 %\n Avg. time: 26130\n\n Rank 203\n App. rate: 0.03 %\n Avg. time: 26329",
+      "assets": [
+        {
+          "id": "53300a2a5c70",
+          "sourceHash": "53300a2a5c70",
+          "kind": "characters",
+          "name": "Yixuan",
+          "fileStem": "yixuan",
+          "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ce33de22acc4",
+          "sourceHash": "ce33de22acc4",
+          "kind": "characters",
+          "name": "Pulchra",
+          "fileStem": "pulchra",
+          "path": "Prydwen/zzz/assets/characters/pulchra-ce33de22acc4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7557c8060dc2",
+          "sourceHash": "7557c8060dc2",
+          "kind": "characters",
+          "name": "Lucia",
+          "fileStem": "lucia",
+          "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5887e20e4502",
+          "sourceHash": "5887e20e4502",
+          "kind": "characters",
+          "name": "Ye Shunguang",
+          "fileStem": "ye-shunguang",
+          "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e8a1e5a4346f",
+          "sourceHash": "e8a1e5a4346f",
+          "kind": "characters",
+          "name": "Zhao",
+          "fileStem": "zhao",
+          "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f34fb0a851f4",
+          "sourceHash": "f34fb0a851f4",
+          "kind": "characters",
+          "name": "Pan Yinhu",
+          "fileStem": "pan-yinhu",
+          "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "04d0ef59478b",
+          "sourceHash": "04d0ef59478b",
+          "kind": "characters",
+          "name": "Anby: Soldier 0",
+          "fileStem": "anby-demara-soldier-0",
+          "path": "Prydwen/zzz/assets/characters/anby-soldier-0-04d0ef59478b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "cacf856bd725",
+          "sourceHash": "cacf856bd725",
+          "kind": "characters",
+          "name": "Orphie & Magus",
+          "fileStem": "orphie-and-magus",
+          "path": "Prydwen/zzz/assets/characters/orphie-magus-cacf856bd725.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7b812101932f",
+          "sourceHash": "7b812101932f",
+          "kind": "characters",
+          "name": "Banyue",
+          "fileStem": "banyue",
+          "path": "Prydwen/zzz/assets/characters/banyue-7b812101932f.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-deadly-assault-33",
+      "level": 2,
+      "heading": "Teams (Deadly Assault)",
+      "text": "This section lists most popular teams featuring Pulchra in the current phase of Deadly Assault.\n Rank 52\n App. rate: 0.43 %\n Avg. score: 25953\n\n Rank 108\n App. rate: 0.13 %\n Avg. score: 22598\n\n Rank 136\n App. rate: 0.07 %\n Avg. score: 22209\n\n Rank 205\n App. rate: 0.03 %\n Avg. score: 0\n\n Rank 225\n App. rate: 0.02 %\n Avg. score: 0",
+      "assets": [
+        {
+          "id": "53300a2a5c70",
+          "sourceHash": "53300a2a5c70",
+          "kind": "characters",
+          "name": "Yixuan",
+          "fileStem": "yixuan",
+          "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ce33de22acc4",
+          "sourceHash": "ce33de22acc4",
+          "kind": "characters",
+          "name": "Pulchra",
+          "fileStem": "pulchra",
+          "path": "Prydwen/zzz/assets/characters/pulchra-ce33de22acc4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7557c8060dc2",
+          "sourceHash": "7557c8060dc2",
+          "kind": "characters",
+          "name": "Lucia",
+          "fileStem": "lucia",
+          "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f34fb0a851f4",
+          "sourceHash": "f34fb0a851f4",
+          "kind": "characters",
+          "name": "Pan Yinhu",
+          "fileStem": "pan-yinhu",
+          "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5887e20e4502",
+          "sourceHash": "5887e20e4502",
+          "kind": "characters",
+          "name": "Ye Shunguang",
+          "fileStem": "ye-shunguang",
+          "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e8a1e5a4346f",
+          "sourceHash": "e8a1e5a4346f",
+          "kind": "characters",
+          "name": "Zhao",
+          "fileStem": "zhao",
+          "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "08a137fda00f",
+          "sourceHash": "08a137fda00f",
+          "kind": "characters",
+          "name": "Pyrois",
+          "fileStem": "pyrois",
+          "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "98d8d659c143",
+          "sourceHash": "98d8d659c143",
+          "kind": "characters",
+          "name": "Astra Yao",
+          "fileStem": "astra-yao",
+          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ad063e072375",
+          "sourceHash": "ad063e072375",
+          "kind": "characters",
+          "name": "Nicole",
+          "fileStem": "nicole-demara",
+          "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "best-w-engines": {
+      "label": "Best W-Engines",
+      "sections": [
+        {
+          "heading": "Best W-Engines",
+          "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n The top number shows the performance of the W-Engine when applying Daze while the bottom number when dealing Damage .\n 109.57%\n 93.72%\n\n Blazing Laurel (S 1 )\n\n Lighter's Signature and Pulchra's best option when it comes to raw daze output, thanks to its high baseline Impact% and absurdly large 25% combat Impact bonus that triggers whenever Pulchra does a Quick Assist or Perfect Assist - which during her rotation is fairly frequently. Pulchra can't take advantage of the supportive Wilt effect of this engine, but it's still a great boost to her Daze.\n Usage: 0.19 %\n Shiyu Defense: 29059\n Deadly Assault: 0\n\n 100.00%\n 100.00%\n\n Box Cutter (S 5 )\n\n Pulchra's signature and an outstanding engine for her, granting her increased Impact%, Physical DMG and Daze% with no downtime. Has lower total potential than some other engines but is incredibly consistent due to its effect being tied to Aftershock triggers.\n Usage: 81.26 %\n Shiyu Defense: 28537\n Deadly Assault: 25239\n\n 99.77%\n 86.98%\n\n Steam Oven (S 5 )\n\n As Pulchra isn't too dependent on her EX Special for Daze application (being able to refill her stacks with Evasive Assists), it's not too difficult to maintain the full buff value from Steam Oven by conserving Energy. If Daze build isn't an immediate requirement, like when leading up to a stun, the extra Energy makes it easier to sustain King of the Summit activations, so it's all around a great option.\n Usage: 4.56 %\n Shiyu Defense: 26956\n Deadly Assault: 23727\n\n 98.18%\n 92.08%\n\n Hellfire Gears (S 1 )\n\n Koleda's Signature W-Engine and decent option for Pulchra albeit less so than some other Stun characters due to the fact her Daze and kit is spread out throughout the entire encounter, because of how her Hunter's Gait functions. Most effective when pairing Pulchra's EX use with other high Daze abilities such as her Ultimate.\n Usage: 6.17 %\n Shiyu Defense: 31122\n Deadly Assault: 25704\n\n 95.89%\n 95.75%\n\n Box Cutter (S 1 )\n\n Pulchra's signature and an outstanding engine for her, granting her increased Impact%, Physical DMG and Daze% with no downtime. Has lower total potential than some other engines but is incredibly consistent due to its effect being tied to Aftershock triggers.\n Usage: 81.26 %\n Shiyu Defense: 28537\n Deadly Assault: 25239\n\n 95.89%\n 86.98%\n\n Precious Fossilized Core (S 5 )\n\n Fossilized Core is always a solid option to use. It has some of the highest Daze % bonuses a W-Engine can give, so in low scoring Deadly Assault fights or in some Shiyu Defence encounters it can do very well. It is reliant on high HP enemies, so it can suffer in certain conditions, but it is rarely a bad pick.\n Usage: 4.74 %\n Shiyu Defense: 28770\n Deadly Assault: 27925\n\n 95.16%\n 80.24%\n\n [Vortex] Arrow (S 5 )\n\n As a B-Rank W-Engine, its low base ATK and Impact as well as offering even less Daze at P5 than Fossilized Core without its HP bonus makes it a terrible pick and one to quickly replace.\n 91.61%\n 86.98%\n\n Six Shooter (S 5 )\n\n Despite being a Battlepass W-Engine, Six Shooter's Daze applying only to EX Specials means it's not a good pick. Most of Pulchra's Daze is coming from her Aftershocks, Assist Follow-Ups and Ultimates, none of which get any benefits. Craftable or Standard Banner alternatives far surpass this, so it isn't worthwhile to use.\n Usage: 0.19 %\n Shiyu Defense: 28289\n Deadly Assault: 0",
+          "assets": [
+            {
+              "id": "2ffa2eaf795e",
+              "sourceHash": "2ffa2eaf795e",
+              "kind": "w-engines",
+              "name": "Blazing Laurel",
+              "fileStem": "blazing-laurel-image",
+              "path": "Prydwen/zzz/assets/w-engines/blazing-laurel-2ffa2eaf795e.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "7d45d95c5e9e",
+              "sourceHash": "7d45d95c5e9e",
+              "kind": "w-engines",
+              "name": "Box Cutter",
+              "fileStem": "box-cutter-image",
+              "path": "Prydwen/zzz/assets/w-engines/box-cutter-7d45d95c5e9e.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "3e546e25a1fe",
+              "sourceHash": "3e546e25a1fe",
+              "kind": "w-engines",
+              "name": "Steam Oven",
+              "fileStem": "steam-oven-image",
+              "path": "Prydwen/zzz/assets/w-engines/steam-oven-3e546e25a1fe.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "8271342a7fd4",
+              "sourceHash": "8271342a7fd4",
+              "kind": "w-engines",
+              "name": "Hellfire Gears",
+              "fileStem": "hellfire-gears-image",
+              "path": "Prydwen/zzz/assets/w-engines/hellfire-gears-8271342a7fd4.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "dc5e4d8d56b9",
+              "sourceHash": "dc5e4d8d56b9",
+              "kind": "w-engines",
+              "name": "Precious Fossilized Core",
+              "fileStem": "precious-fossilized-core-image",
+              "path": "Prydwen/zzz/assets/w-engines/precious-fossilized-core-dc5e4d8d56b9.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "435cffd81245",
+              "sourceHash": "435cffd81245",
+              "kind": "w-engines",
+              "name": "[Vortex] Arrow",
+              "fileStem": "arrow-image",
+              "path": "Prydwen/zzz/assets/w-engines/vortex-arrow-435cffd81245.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "52708e8edd0a",
+              "sourceHash": "52708e8edd0a",
+              "kind": "w-engines",
+              "name": "Six Shooter",
+              "fileStem": "six-shooter-image",
+              "path": "Prydwen/zzz/assets/w-engines/six-shooter-52708e8edd0a.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-disk-drives-sets": {
+      "label": "Best Disk Drives Sets",
+      "sections": [
+        {
+          "heading": "Best Disk Drives Sets",
+          "text": "1\n\n King of the Summit ( 4 -PC)\n\n New best Stun set, to be used on any Stun character in almost any team with very few exceptions. Gives 6% increased Daze on the 2-piece and up to 30% CRIT DMG for the entire squad for 15s when casting EX Specials and Chain Attacks on the condition that the equipper has 50% CRIT Rate or higher, a requirement which is easy to meet but must be ensured. Uptime on this buff is almost always easily maintained permanently, however be mindful this set will not be effective if you aren’t building the rest of your team on CRIT, in which case alternatives will be preferred, and that you cannot run this set multiple times on the same team.\n Best combined with your choice of 2-PC Set:\n 2P\n Shockstar Disco\n\n (Recommended)\n 2P\n Swing Jazz\n\n 2\n\n Astral Voice ( 4 -PC)\n\n Best generalist Support set, providing a useful 10% ATK on the 2-piece but most importantly buffing DMG dealt by characters entering the field via Quick Assists by upwards of 24%, the biggest buff provided by Disc Drives in the game. Generally a must-have set on any team, but be mindful of ensuring uptime on the buff.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Swing Jazz\n\n 3\n\n Proto Punk ( 4 -PC)\n\n Niche supportive set used for teams that are in the position of triggering Perfect Assists often. Grants the entire party 15% increased DMG for 10s when triggering a Perfect Assist. Typically used if an Astral Voice wielder is already on the team and the equipped Agent is in a position to trigger lots of Perfect Assists. This set's value is significantly diminished if the player isn't comfortable with timing Perfect Assists, in which case other sets will be favoured such as 4P Swing Jazz.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Swing Jazz\n\n 4\n\n Shockstar Disco ( 4 -PC)\n\n Provides the highest Daze output of any Disk Drive set in the game. However, the difference between the 4-piece effect increase in Daze is marginal compared to simply using the 2-piece effect, meaning it almost always yields better results to use a supportive set like King of the Summit or Astral Voice to buff your team further, instead of the extra Daze which only gives extra Stun windows against bosses in very specific situations. If an extra Stun window is enabled by using this set it will perform the best, however this only very rarely happens, causing it to be left behind in favour of other sets.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Swing Jazz",
+          "assets": [
+            {
+              "id": "9cafa8e105ae",
+              "sourceHash": "9cafa8e105ae",
+              "kind": "drive-discs",
+              "name": "King of the Summit",
+              "fileStem": "set-king",
+              "path": "Prydwen/zzz/assets/drive-discs/king-of-the-summit-9cafa8e105ae.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "1d32dd29b6a7",
+              "sourceHash": "1d32dd29b6a7",
+              "kind": "drive-discs",
+              "name": "Shockstar Disco",
+              "fileStem": "set-shockstar",
+              "path": "Prydwen/zzz/assets/drive-discs/shockstar-disco-1d32dd29b6a7.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "7e8e49d34387",
+              "sourceHash": "7e8e49d34387",
+              "kind": "drive-discs",
+              "name": "Swing Jazz",
+              "fileStem": "set-swing",
+              "path": "Prydwen/zzz/assets/drive-discs/swing-jazz-7e8e49d34387.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "47b453ad83b8",
+              "sourceHash": "47b453ad83b8",
+              "kind": "drive-discs",
+              "name": "Astral Voice",
+              "fileStem": "set-astral",
+              "path": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "1c4453ce92f8",
+              "sourceHash": "1c4453ce92f8",
+              "kind": "drive-discs",
+              "name": "Proto Punk",
+              "fileStem": "set-proto",
+              "path": "Prydwen/zzz/assets/drive-discs/proto-punk-1c4453ce92f8.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-endgame-stats": {
+      "label": "Best Endgame Stats",
+      "sections": [
+        {
+          "heading": "Best Endgame Stats (Level 60)",
+          "text": "ATK: 1800 - 2200+ (Optional)\n\n HP: 10000+\n\n DEF: 850+\n\n IMPACT: 169 - 189+ (Most Important Stat)\n\n Choose one:\n Option 1 (Anomaly teams):\n Anomaly Proficiency: 250 - 300+ (Optional)\n\n Anomaly Mastery: 92+ (Optional)\n\n Option 2 (Crit teams):\n CRIT RATE: 50 - 60%+ (for King of the Summit)\n\n CRIT DMG: 100 - 120%+ (Optional)",
+          "assets": []
+        }
+      ]
+    },
+    "skill-priority": {
+      "label": "Skill priority",
+      "sections": [
+        {
+          "heading": "Skill priority",
+          "text": "Special Attack\n\n Chain Attack\n\n Assist\n\n Basic Attack\n\n Dodge",
+          "assets": [
+            {
+              "id": "954b8d0b61b7",
+              "sourceHash": "954b8d0b61b7",
+              "kind": "icons",
+              "name": "Special Attack",
+              "fileStem": "icon-special-full",
+              "path": "Prydwen/zzz/assets/icons/special-attack-954b8d0b61b7.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "803b765175bc",
+              "sourceHash": "803b765175bc",
+              "kind": "icons",
+              "name": "Chain Attack",
+              "fileStem": "icon-ulti-full",
+              "path": "Prydwen/zzz/assets/icons/chain-attack-803b765175bc.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "de0f0cad1e72",
+              "sourceHash": "de0f0cad1e72",
+              "kind": "icons",
+              "name": "Assist",
+              "fileStem": "icon-assist-m",
+              "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "13fff798e82d",
+              "sourceHash": "13fff798e82d",
+              "kind": "icons",
+              "name": "Basic Attack",
+              "fileStem": "icon-basic",
+              "path": "Prydwen/zzz/assets/icons/basic-attack-13fff798e82d.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "f3bbacf4beb6",
+              "sourceHash": "f3bbacf4beb6",
+              "kind": "icons",
+              "name": "Dodge",
+              "fileStem": "icon-dodge",
+              "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+              "width": 24,
+              "height": 24
+            }
+          ]
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Below we list only the most important synergies for Pulchra . The character can work with others if you know what to do and how to use them.\n\n Manato - Being one of the few Stun Agents that has an Additional Ability that supports Rupture Agents, Pulchra is a decent pick for Manato teams. The low time commitment needed for her to perform allows for Manato to on-field and constantly deal damage, however you will want her at M6 so that her DMG % bonuses apply. With both of them being A-Ranks, it makes for a low cost and accessible team.\n Anby: Soldier 0 - Pulchra, being an Aftershock Stunner, has great synergy with SAnby. They activate each others’ Additional Abilities and - as Pulchra’s DMG % bonuses only apply to Aftershocks until M6 - is one of the few pairings where Pulchra has strong performance without needing dupes. With Pulchra being a mostly inactive stunner who applies Daze with little field time required, she affords SAnby the active presence needed to perform. In this comp, Pulchra is able to effectively Stun enemies, provide buffs at M0 and do so at no sacrifice to SAnby’s damage, making for a very capable duo.\n Yixuan Manato - Being one of the few Stun Agents that has an Additional Ability that supports Rupture Agents, Pulchra is a decent teammate pick. You will want her at M6 so that her DMG % bonuses apply, and her performance takes a severe hit against Physical resistant bosses (such as Wandering Hunter), but the low time commitment needed for her to perform means she synergises well with both these Rupture damage dealers who like being on-field to deal damage and build resources.\n Nekomata Soldier 11 Corin - Pulchra is also great with other characters that want a lot of field time and Physical Attack Agents especially as she's able to activate their Additional Abilities effortlessly. This is the case with both Nekomata and Corin (the latter of which usually struggles with this), so there's no conflicts there. Besides, Pulchra takes up minimal amounts of field time as she mostly deals Daze while off-field, much to the benefit of the 3 above characters who really enjoy the extra time.\n Astra Yao Nicole Lucy - These 3 generalist units are capable of acting as Support for any team in the game. Astra Yao provides Quick Assists, extra Chain Attacks, healing, super low field time, ATK, DMG and CRIT DMG buffs which makes her the overall best choice in almost all cases. Nicole provides the sought-after DEF Shred and CRIT Rate at M6 which makes her competitive, and Lucy has long-lasting ATK buffs which makes her a very practical choice, especially in Fire teams where she can help with building Anomaly and trigger Additional Abilities. All in all, these three can work with anyone.",
+          "assets": [
+            {
+              "id": "6e337e3697b9",
+              "sourceHash": "6e337e3697b9",
+              "kind": "characters",
+              "name": "Manato",
+              "fileStem": "manato",
+              "path": "Prydwen/zzz/assets/characters/manato-6e337e3697b9.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "04d0ef59478b",
+              "sourceHash": "04d0ef59478b",
+              "kind": "characters",
+              "name": "Anby: Soldier 0",
+              "fileStem": "anby-demara-soldier-0",
+              "path": "Prydwen/zzz/assets/characters/anby-soldier-0-04d0ef59478b.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "53300a2a5c70",
+              "sourceHash": "53300a2a5c70",
+              "kind": "characters",
+              "name": "Yixuan",
+              "fileStem": "yixuan",
+              "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "fc3965204b18",
+              "sourceHash": "fc3965204b18",
+              "kind": "characters",
+              "name": "Nekomata",
+              "fileStem": "nekomata",
+              "path": "Prydwen/zzz/assets/characters/nekomata-fc3965204b18.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "ca536e1965fd",
+              "sourceHash": "ca536e1965fd",
+              "kind": "characters",
+              "name": "Soldier 11",
+              "fileStem": "soldier-11",
+              "path": "Prydwen/zzz/assets/characters/soldier-11-ca536e1965fd.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "375bd3f16b41",
+              "sourceHash": "375bd3f16b41",
+              "kind": "characters",
+              "name": "Corin",
+              "fileStem": "corin",
+              "path": "Prydwen/zzz/assets/characters/corin-375bd3f16b41.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "98d8d659c143",
+              "sourceHash": "98d8d659c143",
+              "kind": "characters",
+              "name": "Astra Yao",
+              "fileStem": "astra-yao",
+              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "ad063e072375",
+              "sourceHash": "ad063e072375",
+              "kind": "characters",
+              "name": "Nicole",
+              "fileStem": "nicole-demara",
+              "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "a0147df28355",
+              "sourceHash": "a0147df28355",
+              "kind": "characters",
+              "name": "Lucy",
+              "fileStem": "lucy",
+              "path": "Prydwen/zzz/assets/characters/lucy-a0147df28355.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "teams": {
+      "label": "Teams",
+      "sections": [
+        {
+          "heading": "Teams (Shiyu Defense)",
+          "text": "This section lists most popular teams featuring Pulchra in the current phase of Shiyu Defense.\n Rank 71\n App. rate: 0.31 %\n Avg. time: 26339\n\n Rank 87\n App. rate: 0.18 %\n Avg. time: 28058\n\n Rank 154\n App. rate: 0.06 %\n Avg. time: 26006\n\n Rank 167\n App. rate: 0.05 %\n Avg. time: 26130\n\n Rank 203\n App. rate: 0.03 %\n Avg. time: 26329",
+          "assets": [
+            {
+              "id": "53300a2a5c70",
+              "sourceHash": "53300a2a5c70",
+              "kind": "characters",
+              "name": "Yixuan",
+              "fileStem": "yixuan",
+              "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "ce33de22acc4",
+              "sourceHash": "ce33de22acc4",
+              "kind": "characters",
+              "name": "Pulchra",
+              "fileStem": "pulchra",
+              "path": "Prydwen/zzz/assets/characters/pulchra-ce33de22acc4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "7557c8060dc2",
+              "sourceHash": "7557c8060dc2",
+              "kind": "characters",
+              "name": "Lucia",
+              "fileStem": "lucia",
+              "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "5887e20e4502",
+              "sourceHash": "5887e20e4502",
+              "kind": "characters",
+              "name": "Ye Shunguang",
+              "fileStem": "ye-shunguang",
+              "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "e8a1e5a4346f",
+              "sourceHash": "e8a1e5a4346f",
+              "kind": "characters",
+              "name": "Zhao",
+              "fileStem": "zhao",
+              "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "f34fb0a851f4",
+              "sourceHash": "f34fb0a851f4",
+              "kind": "characters",
+              "name": "Pan Yinhu",
+              "fileStem": "pan-yinhu",
+              "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "04d0ef59478b",
+              "sourceHash": "04d0ef59478b",
+              "kind": "characters",
+              "name": "Anby: Soldier 0",
+              "fileStem": "anby-demara-soldier-0",
+              "path": "Prydwen/zzz/assets/characters/anby-soldier-0-04d0ef59478b.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "cacf856bd725",
+              "sourceHash": "cacf856bd725",
+              "kind": "characters",
+              "name": "Orphie & Magus",
+              "fileStem": "orphie-and-magus",
+              "path": "Prydwen/zzz/assets/characters/orphie-magus-cacf856bd725.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "7b812101932f",
+              "sourceHash": "7b812101932f",
+              "kind": "characters",
+              "name": "Banyue",
+              "fileStem": "banyue",
+              "path": "Prydwen/zzz/assets/characters/banyue-7b812101932f.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        },
+        {
+          "heading": "Teams (Deadly Assault)",
+          "text": "This section lists most popular teams featuring Pulchra in the current phase of Deadly Assault.\n Rank 52\n App. rate: 0.43 %\n Avg. score: 25953\n\n Rank 108\n App. rate: 0.13 %\n Avg. score: 22598\n\n Rank 136\n App. rate: 0.07 %\n Avg. score: 22209\n\n Rank 205\n App. rate: 0.03 %\n Avg. score: 0\n\n Rank 225\n App. rate: 0.02 %\n Avg. score: 0",
+          "assets": [
+            {
+              "id": "53300a2a5c70",
+              "sourceHash": "53300a2a5c70",
+              "kind": "characters",
+              "name": "Yixuan",
+              "fileStem": "yixuan",
+              "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "ce33de22acc4",
+              "sourceHash": "ce33de22acc4",
+              "kind": "characters",
+              "name": "Pulchra",
+              "fileStem": "pulchra",
+              "path": "Prydwen/zzz/assets/characters/pulchra-ce33de22acc4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "7557c8060dc2",
+              "sourceHash": "7557c8060dc2",
+              "kind": "characters",
+              "name": "Lucia",
+              "fileStem": "lucia",
+              "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "f34fb0a851f4",
+              "sourceHash": "f34fb0a851f4",
+              "kind": "characters",
+              "name": "Pan Yinhu",
+              "fileStem": "pan-yinhu",
+              "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "5887e20e4502",
+              "sourceHash": "5887e20e4502",
+              "kind": "characters",
+              "name": "Ye Shunguang",
+              "fileStem": "ye-shunguang",
+              "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "e8a1e5a4346f",
+              "sourceHash": "e8a1e5a4346f",
+              "kind": "characters",
+              "name": "Zhao",
+              "fileStem": "zhao",
+              "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "08a137fda00f",
+              "sourceHash": "08a137fda00f",
+              "kind": "characters",
+              "name": "Pyrois",
+              "fileStem": "pyrois",
+              "path": "Prydwen/zzz/assets/characters/pyrois-08a137fda00f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "98d8d659c143",
+              "sourceHash": "98d8d659c143",
+              "kind": "characters",
+              "name": "Astra Yao",
+              "fileStem": "astra-yao",
+              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "ad063e072375",
+              "sourceHash": "ad063e072375",
+              "kind": "characters",
+              "name": "Nicole",
+              "fileStem": "nicole-demara",
+              "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Pulchra Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Pulchra\n Pulchra Best Build Guide\n Last updated: 14/June/2026\n\n Introduction\n Best guide and build for Pulchra from ZZZ (Zenless Zone Zero). Pulchra is an rank character with the Physical attribute who belongs to the Stun Specialty and who is part of the Sons of Calydon faction.\n\n To learn more about Pulchra check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Pulchra has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 1.6\n\n Last build update\n Patch 1.6\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 14/June/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Pulchra check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Hunter's Instinct\n\n Lv. 1\n\n When Pulchra activates an EX Special Attack, Assist Follow-Up, Chain Attack, or Ultimate, she enters the Hunter's Gait state, increasing the Daze she deals by 15% for 6s .\n\nAfter switching to another character, if Pulchra is still in the Hunter's Gait state, the state will last until Pulchra switches back in. While in the Hunter's Gait state and as the active character, when Pulchra lands a heavy attack on enemies, she can trigger a Quick Assist from the previous character in the squad.\n\n Impact 0\n BASE ATK: 0\n\n Additional Ability Business Partner\n\n When another character in your squad is an Attack or Rupture character or shares the same Faction:\n When Pulchra hits enemies with Special Attack: Rending Claw - Nightmare Shadow, an EX Special Attack, Assist Follow-Up, Chain Attack, or Ultimate, it applies the Binding Trap effect for 15s . After applying Binding Trap, all units' Aftershock DMG against the target is increased by 30% .\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Swift Strike\n\n Press to activate:\nUnleashes up to 3 attacks forward, dealing Physical DMG.\n Multipliers\n\n Basic Attack: Leaping Strike\n\n Hold to activate:\nLeap forward and unleash a series of slashes, dealing Physical DMG.\n Multipliers\n\n Dodge: Reversal Shot\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: First Strike Advantage\n\n Press during a dodge to activate:\nDash forward and slash, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Relentless Retribution\n\n Press during a Perfect Dodge to activate.\nThrust at enemies in front, then follow up with a swift slash, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Rending Claw\n\n Press to activate.\nPerform a rapid back-and-forth piercing attack, dealing Physical DMG.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n Special Attack: Rending Claw - Nightmare Shadow\n\n While Pulchra is in the Hunter's Gait state, and when another active character in the squad hits an enemy with a heavy attack from a Special Attack or EX Special Attack:\nDash back-and-forth piercing enemies surrounding the target, dealing Physical DMG.\nAfter using this skill, if another active character in the squad hits an enemy, Pulchra will repeat the attack up to 5 additional times, with the final attack being a more powerful Finishing Move.\nCharacter is invulnerable while using this skill.\nSpecial Attack: Rending Claw - Nightmare Shadow is an Aftershock attack.\n Multipliers\n\n EX Special Attack: Rending Claw - Flashstep\n\n With enough Energy, press to activate.\nPierce back and forth times, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Hey, Didn't Expect That, Right?\n\n When a Chain Attack is triggered, select the character to activate:\nUnleashes a charged shot forward, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Oh, Time to Play?\n\n When Decibel Rating is at Maximum, press to activate.\nUnleash a powerful shot at enemies in a large area ahead, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Independent Pricing\n\n Press after an Evasive Assist to activate:\nLeap forward into the air and fire, dealing Physical DMG.\nUpon activating this skill, consume 1 Assist Point to enter the Hunter's Gait state.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Evasive Assist: Contract - Outsourced Combat\n\n When the character on field is about to be attacked, press to activate.\nDodges the enemy's attack and activates Vital View.\nCharacter is invulnerable while using this skill.\n\n Quick Assist: Contract - Bodyguard\n\n When the on-field character is launched, press to activate.\nThrust at enemies in front, followed by rapid slashes, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n Self-Interest\n Mindscape 1\n\n When dealing DMG to enemies affected by Binding Trap, increase own CRIT Rate by 10% .\n\n M2\n Opportunistic\n Mindscape 2\n\n While in the Hunter's Gait state from Core Passive: Hunter's Instinct, Pulchra's ATK is increased by an additional 10% .\n\n M3\n Territorial\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Joy of the Hunt\n Mindscape 4\n\n Reduces Energy Cost of activating EX Special Attack: Rending Claw - Flashstep by 5 .\n\n M5\n Tail Game\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Behind the Mask\n Mindscape 6\n\n Special Attack: Rending Claw - Nightmare Shadow's DMG is increased by 15% , and the number of times the repeated attack can trigger is increased by 2 . Additional Ability: Business Partner's Binding Trap effect now also applies to all damage types, not just Aftershock DMG.\n\n Stats (Level 60)\n Pulchra Stats at level 60 (including Core passive bonuses).\n\n HP\n 7612\n\n DEF\n 606\n\n ATK\n 665\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 136\n\n Anomaly Mastery\n 92\n\n Anomaly Proficiency\n 90\n\n Energy Regen\n 1.2\n\n Voice Actors\n ENG\n -\n\n JPN\n Natsumi Fujiwara (藤原夏海)\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Support\n T2\n Endgame Modes\n\n Pros & Cons\n Pros\n Completely free unit everyone will get on their account,\n\n Offers a team-wide buff for Aftershock Agents (All Agents at M6) while dealing solid Daze,\n\n Uses incredibly minimal field to implement her entire kit.\n\n Cons\n Has limited options to support with only 1 other Aftershock character in the game,\n\n Requires M6 to unlock her more generic supportive capabilities.\n\n Review\n Pulchra is our latest A Rank and the first Physical Stun Agent . Despite not being S Rank, she can certainly find a place in quite a number of teams as a competitive choice! Pulchra, like S0 Anby who releases alongside her, is all about the new damage type and mechanic - Aftershock, which revolves around dealing damage and Daze via triggers instead of directly through abilities (Similar to how Burnice’s Afterburn works). Unlike S0 Anby, Pulchra’s Aftershocks all consist of off-field attacks that can occur while you’re playing another Agent! This fact is the defining feature of Pulchra’s playstyle and it’s no exaggeration to say that she’ll be attacking more from off field than she will from on field.\n Pulchra’s off-field Aftershock attacks are tied to her unique resource gauge, which takes the form of a row of Jagged Fangs consisting of 6 Fangs initially but reaching up to 8 at M6. To accumulate these Fangs Pulchra must first enter Hunter’s Gait, a special state granted each time she uses an EX-Special Attack, Assist Follow-Up, Chain Attack or Ultimate, upon doing so she’ll fully recover all her Fangs as well as gain a 30% increased Daze multiplier.\n When off-field and while she’s in Hunters Gait with Fangs available, whenever another Agent lands a Heavy Attack with either a Special Attack or EX-Special Attack, Pulchra will start her sequence of Aftershock attacks consisting of multiple instances of her Special Attack: Rending Claw - Nightmare Shadow. Each Rending Claw will consume 1 Fang out of Pulchra’s resource gauge and after the first Rending Claw is triggered via a Heavy Special/EX, every subsequent attack landed by an ally will trigger a Rending Claw until Pulchra’s resource gauge is empty. As an extra bonus when consuming the last Fang of her resource gauge, Pulchra’s final Rending Claw will be enhanced.\n This creates the incredibly simple playstyle of landing an ability that refreshes Pulchra’s Hunter’s Gait and Fangs, swapping off her, landing a heavy attack with an ally's Special or EX and then unloading all of Pulchra’s Fangs with your choice of ally attacks until she’s empty, rinse, repeat. When looking to optimize this playstyle it’s worth noting that her most seamless and effective means of easily accessing Hunter’s Gait is her Evasive Assist + Assist Follow-up and her EX-Special Attack. Here is an example of how a Pulchra Rotation might play out at M0:\n Evasive Assist: Contract - Outsourced Combat\n\n Assist Follow-Up: Independent Pricing\n Swap\n\n Allied Heavy EX/Special Attack\n\n Special Attack Rending Claw - Nightmare Shadow x 5\n\n Special Attack Rending Claw - Nightmare Shadow (Finisher)\n\n EX Special Attack: Rending Claw - Flash Step\n Swap\n\n Allied Heavy EX/Special Attack\n\n Special Attack Rending Claw - Nightmare Shadow x 5\n\n Special Attack Rending Claw - Nightmare Shadow (Finisher)\n\n Evasive Assist: Contract - Outsourced Combat\n\n Assist Follow-Up: Independent Pricing\n Swap\n\n Allied Heavy EX/Special Attack\n\n Special Attack Rending Claw - Nightmare Shadow x 5\n\n Special Attack Rending Claw - Nightmare Shadow (Finisher)\n\n Ultimate: Oh, Time to Play?\n Swap\n\n Allied Heavy EX/Special Attack\n\n Special Attack Rending Claw - Nightmare Shadow x 5\n\n Special Attack Rending Claw - Nightmare Shadow (Finisher)\n\n Outside of this, Pulchra brings one more thing to the table thanks to her Additional Ability: Business Partner. While active, any time she hits an enemy with her Special Attack: Rending Claw - Nightmare Shadow, EX-Special Attack, Assist Follow-Up, Chain or Ultimate she applies Binding Trap for 15 seconds. While Binding Trap is active, the entire squad's Aftershock DMG is increased by 30% and at M6 this applies to all damage instead of just Aftershock!\n To summarize, what makes Pulchra unique is her ability to deal considerable damage without being on the field for most part - this frees up field time for the rest of your agents to do what they need to and makes her a potent pick for teams that favor this playstyle. In addition to this, she is a great carrier of either the Astral Voice or Proto Punk Disc Drive Sets, which when combined with her Additional Ability, make for some reasonable team buffs for an A ranked stunner (especially at M6).\n While she definitely has her place, she has a few downsides. Namely, the fact that one of her best Hunter’s Gait enablers (the combo of Evasive Assist + Assist Follow-up) consumes 2 Assist points instead of the standard 1, and the fact that before M6, she has limited buffing capabilities outside of Aftershock focused teams.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n The top number shows the performance of the W-Engine when applying Daze while the bottom number when dealing Damage .\n 109.57%\n 93.72%\n\n Blazing Laurel (S 1 )\n\n Lighter's Signature and Pulchra's best option when it comes to raw daze output, thanks to its high baseline Impact% and absurdly large 25% combat Impact bonus that triggers whenever Pulchra does a Quick Assist or Perfect Assist - which during her rotation is fairly frequently. Pulchra can't take advantage of the supportive Wilt effect of this engine, but it's still a great boost to her Daze.\n Usage: 0.19 %\n Shiyu Defense: 29059\n Deadly Assault: 0\n\n 100.00%\n 100.00%\n\n Box Cutter (S 5 )\n\n Pulchra's signature and an outstanding engine for her, granting her increased Impact%, Physical DMG and Daze% with no downtime. Has lower total potential than some other engines but is incredibly consistent due to its effect being tied to Aftershock triggers.\n Usage: 81.26 %\n Shiyu Defense: 28537\n Deadly Assault: 25239\n\n 99.77%\n 86.98%\n\n Steam Oven (S 5 )\n\n As Pulchra isn't too dependent on her EX Special for Daze application (being able to refill her stacks with Evasive Assists), it's not too difficult to maintain the full buff value from Steam Oven by conserving Energy. If Daze build isn't an immediate requirement, like when leading up to a stun, the extra Energy makes it easier to sustain King of the Summit activations, so it's all around a great option.\n Usage: 4.56 %\n Shiyu Defense: 26956\n Deadly Assault: 23727\n\n 98.18%\n 92.08%\n\n Hellfire Gears (S 1 )\n\n Koleda's Signature W-Engine and decent option for Pulchra albeit less so than some other Stun characters due to the fact her Daze and kit is spread out throughout the entire encounter, because of how her Hunter's Gait functions. Most effective when pairing Pulchra's EX use with other high Daze abilities such as her Ultimate.\n Usage: 6.17 %\n Shiyu Defense: 31122\n Deadly Assault: 25704\n\n 95.89%\n 95.75%\n\n Box Cutter (S 1 )\n\n Pulchra's signature and an outstanding engine for her, granting her increased Impact%, Physical DMG and Daze% with no downtime. Has lower total potential than some other engines but is incredibly consistent due to its effect being tied to Aftershock triggers.\n Usage: 81.26 %\n Shiyu Defense: 28537\n Deadly Assault: 25239\n\n 95.89%\n 86.98%\n\n Precious Fossilized Core (S 5 )\n\n Fossilized Core is always a solid option to use. It has some of the highest Daze % bonuses a W-Engine can give, so in low scoring Deadly Assault fights or in some Shiyu Defence encounters it can do very well. It is reliant on high HP enemies, so it can suffer in certain conditions, but it is rarely a bad pick.\n Usage: 4.74 %\n Shiyu Defense: 28770\n Deadly Assault: 27925\n\n 95.16%\n 80.24%\n\n [Vortex] Arrow (S 5 )\n\n As a B-Rank W-Engine, its low base ATK and Impact as well as offering even less Daze at P5 than Fossilized Core without its HP bonus makes it a terrible pick and one to quickly replace.\n 91.61%\n 86.98%\n\n Six Shooter (S 5 )\n\n Despite being a Battlepass W-Engine, Six Shooter's Daze applying only to EX Specials means it's not a good pick. Most of Pulchra's Daze is coming from her Aftershocks, Assist Follow-Ups and Ultimates, none of which get any benefits. Craftable or Standard Banner alternatives far surpass this, so it isn't worthwhile to use.\n Usage: 0.19 %\n Shiyu Defense: 28289\n Deadly Assault: 0\n\n Best Disk Drives Sets\n 1\n\n King of the Summit ( 4 -PC)\n\n New best Stun set, to be used on any Stun character in almost any team with very few exceptions. Gives 6% increased Daze on the 2-piece and up to 30% CRIT DMG for the entire squad for 15s when casting EX Specials and Chain Attacks on the condition that the equipper has 50% CRIT Rate or higher, a requirement which is easy to meet but must be ensured. Uptime on this buff is almost always easily maintained permanently, however be mindful this set will not be effective if you aren’t building the rest of your team on CRIT, in which case alternatives will be preferred, and that you cannot run this set multiple times on the same team.\n Best combined with your choice of 2-PC Set:\n 2P\n Shockstar Disco\n\n (Recommended)\n 2P\n Swing Jazz\n\n 2\n\n Astral Voice ( 4 -PC)\n\n Best generalist Support set, providing a useful 10% ATK on the 2-piece but most importantly buffing DMG dealt by characters entering the field via Quick Assists by upwards of 24%, the biggest buff provided by Disc Drives in the game. Generally a must-have set on any team, but be mindful of ensuring uptime on the buff.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Swing Jazz\n\n 3\n\n Proto Punk ( 4 -PC)\n\n Niche supportive set used for teams that are in the position of triggering Perfect Assists often. Grants the entire party 15% increased DMG for 10s when triggering a Perfect Assist. Typically used if an Astral Voice wielder is already on the team and the equipped Agent is in a position to trigger lots of Perfect Assists. This set's value is significantly diminished if the player isn't comfortable with timing Perfect Assists, in which case other sets will be favoured such as 4P Swing Jazz.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Swing Jazz\n\n 4\n\n Shockstar Disco ( 4 -PC)\n\n Provides the highest Daze output of any Disk Drive set in the game. However, the difference between the 4-piece effect increase in Daze is marginal compared to simply using the 2-piece effect, meaning it almost always yields better results to use a supportive set like King of the Summit or Astral Voice to buff your team further, instead of the extra Daze which only gives extra Stun windows against bosses in very specific situations. If an extra Stun window is enabled by using this set it will perform the best, however this only very rarely happens, causing it to be left behind in favour of other sets.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Swing Jazz\n\n Best Disk Drives Stats\n Anomaly Build\n Disk 4\n Anomaly Proficiency\n\n Disk 5\n ATK% = Physical DMG%\n\n Disk 6\n Impact\n\n Substats: Anomaly Profiency > ATK% > PEN > ATK\n\n CRIT Build\n Disk 4\n CRIT Rate% >= CRIT DMG%\n\n Disk 5\n ATK% = Physical DMG%\n\n Disk 6\n Impact\n\n Substats: CRIT RATE = CRIT DMG > ATK% > PEN = ATK\n\n Best Endgame Stats (Level 60)\n ATK: 1800 - 2200+ (Optional)\n\n HP: 10000+\n\n DEF: 850+\n\n IMPACT: 169 - 189+ (Most Important Stat)\n\n Choose one:\n Option 1 (Anomaly teams):\n Anomaly Proficiency: 250 - 300+ (Optional)\n\n Anomaly Mastery: 92+ (Optional)\n\n Option 2 (Crit teams):\n CRIT RATE: 50 - 60%+ (for King of the Summit)\n\n CRIT DMG: 100 - 120%+ (Optional)\n\n Skill priority\n Special Attack\n\n Chain Attack\n\n Assist\n\n Basic Attack\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Pulchra . The character can work with others if you know what to do and how to use them.\n\n Manato - Being one of the few Stun Agents that has an Additional Ability that supports Rupture Agents, Pulchra is a decent pick for Manato teams. The low time commitment needed for her to perform allows for Manato to on-field and constantly deal damage, however you will want her at M6 so that her DMG % bonuses apply. With both of them being A-Ranks, it makes for a low cost and accessible team.\n Anby: Soldier 0 - Pulchra, being an Aftershock Stunner, has great synergy with SAnby. They activate each others’ Additional Abilities and - as Pulchra’s DMG % bonuses only apply to Aftershocks until M6 - is one of the few pairings where Pulchra has strong performance without needing dupes. With Pulchra being a mostly inactive stunner who applies Daze with little field time required, she affords SAnby the active presence needed to perform. In this comp, Pulchra is able to effectively Stun enemies, provide buffs at M0 and do so at no sacrifice to SAnby’s damage, making for a very capable duo.\n Yixuan Manato - Being one of the few Stun Agents that has an Additional Ability that supports Rupture Agents, Pulchra is a decent teammate pick. You will want her at M6 so that her DMG % bonuses apply, and her performance takes a severe hit against Physical resistant bosses (such as Wandering Hunter), but the low time commitment needed for her to perform means she synergises well with both these Rupture damage dealers who like being on-field to deal damage and build resources.\n Nekomata Soldier 11 Corin - Pulchra is also great with other characters that want a lot of field time and Physical Attack Agents especially as she's able to activate their Additional Abilities effortlessly. This is the case with both Nekomata and Corin (the latter of which usually struggles with this), so there's no conflicts there. Besides, Pulchra takes up minimal amounts of field time as she mostly deals Daze while off-field, much to the benefit of the 3 above characters who really enjoy the extra time.\n Astra Yao Nicole Lucy - These 3 generalist units are capable of acting as Support for any team in the game. Astra Yao provides Quick Assists, extra Chain Attacks, healing, super low field time, ATK, DMG and CRIT DMG buffs which makes her the overall best choice in almost all cases. Nicole provides the sought-after DEF Shred and CRIT Rate at M6 which makes her competitive, and Lucy has long-lasting ATK buffs which makes her a very practical choice, especially in Fire teams where she can help with building Anomaly and trigger Additional Abilities. All in all, these three can work with anyone.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Pulchra in the current phase of Shiyu Defense.\n Rank 71\n App. rate: 0.31 %\n Avg. time: 26339\n\n Rank 87\n App. rate: 0.18 %\n Avg. time: 28058\n\n Rank 154\n App. rate: 0.06 %\n Avg. time: 26006\n\n Rank 167\n App. rate: 0.05 %\n Avg. time: 26130\n\n Rank 203\n App. rate: 0.03 %\n Avg. time: 26329\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Pulchra in the current phase of Deadly Assault.\n Rank 52\n App. rate: 0.43 %\n Avg. score: 25953\n\n Rank 108\n App. rate: 0.13 %\n Avg. score: 22598\n\n Rank 136\n App. rate: 0.07 %\n Avg. score: 22209\n\n Rank 205\n App. rate: 0.03 %\n Avg. score: 0\n\n Rank 225\n App. rate: 0.02 %\n Avg. score: 0"
+}

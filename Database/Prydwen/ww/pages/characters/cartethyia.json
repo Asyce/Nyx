@@ -1,0 +1,1359 @@
+{
+  "id": "characters:cartethyia",
+  "provider": "Prydwen",
+  "game": "ww",
+  "gameName": "Wuthering Waves",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "cartethyia",
+  "name": "Cartethyia",
+  "title": "Cartethyia Best Build Guide",
+  "sourcePath": "/wuthering-waves/characters/cartethyia",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "09/June/2026",
+  "meta": {
+    "title": "Cartethyia Best Build Guide | Wuthering Waves (WuWa)",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Aero",
+    "weapon": "Sword"
+  },
+  "assets": [
+    {
+      "id": "ed6aecb666f8",
+      "sourceHash": "ed6aecb666f8",
+      "kind": "characters",
+      "name": "Cartethyia",
+      "fileStem": "cart-card",
+      "path": "Prydwen/ww/assets/characters/cartethyia-ed6aecb666f8.webp",
+      "width": 210,
+      "height": 280
+    },
+    {
+      "id": "ace758a61ce1",
+      "sourceHash": "ace758a61ce1",
+      "kind": "icons",
+      "name": "Aero",
+      "fileStem": "element-aero",
+      "path": "Prydwen/ww/assets/icons/aero-ace758a61ce1.webp",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "39094c227806",
+      "sourceHash": "39094c227806",
+      "kind": "icons",
+      "name": "CRIT Rate",
+      "fileStem": "stat-crit",
+      "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "c26c1d310e90",
+      "sourceHash": "c26c1d310e90",
+      "kind": "icons",
+      "name": "HP%",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "1e70b3adc860",
+      "sourceHash": "1e70b3adc860",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "aa019d34202f",
+      "sourceHash": "aa019d34202f",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "5a0b154cd3d8",
+      "sourceHash": "5a0b154cd3d8",
+      "kind": "icons",
+      "name": "Max Energy",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "7e2bcd0760ca",
+      "sourceHash": "7e2bcd0760ca",
+      "kind": "icons",
+      "name": "CRIT DMG",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "94236abd3fdc",
+      "sourceHash": "94236abd3fdc",
+      "kind": "icons",
+      "name": "Healing",
+      "fileStem": "stat-heal",
+      "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "2133af4a37e3",
+      "sourceHash": "2133af4a37e3",
+      "kind": "icons",
+      "name": "Aero",
+      "fileStem": "stat-wind",
+      "path": "Prydwen/ww/assets/icons/aero-2133af4a37e3.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "f48ff62c89aa",
+      "sourceHash": "f48ff62c89aa",
+      "kind": "categories",
+      "name": "Interactive Map",
+      "fileStem": "category-map",
+      "path": "Prydwen/ww/assets/categories/interactive-map-f48ff62c89aa.webp",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "id": "0aab3b75d895",
+      "sourceHash": "0aab3b75d895",
+      "kind": "characters",
+      "name": "Cartethyia",
+      "fileStem": "cartethyia-full",
+      "path": "Prydwen/ww/assets/characters/cartethyia-0aab3b75d895.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "ba56fbcc8eb4",
+      "sourceHash": "ba56fbcc8eb4",
+      "kind": "characters",
+      "name": "Ciaccona",
+      "fileStem": "ciaccona-icon",
+      "path": "Prydwen/ww/assets/characters/ciaccona-ba56fbcc8eb4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "8f23f048132b",
+      "sourceHash": "8f23f048132b",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-15",
+      "path": "Prydwen/ww/assets/icons/set-15-8f23f048132b.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "eb3e824f153b",
+      "sourceHash": "eb3e824f153b",
+      "kind": "misc",
+      "name": "Nightmare: Kelpie",
+      "fileStem": "6000113",
+      "path": "Prydwen/ww/assets/misc/nightmare-kelpie-eb3e824f153b.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "df8c0bc8d49a",
+      "sourceHash": "df8c0bc8d49a",
+      "kind": "characters",
+      "name": "Rover (Aero)",
+      "fileStem": "rover-aero-icon",
+      "path": "Prydwen/ww/assets/characters/rover-aero-df8c0bc8d49a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "be99542697f0",
+      "sourceHash": "be99542697f0",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-17",
+      "path": "Prydwen/ww/assets/icons/set-17-be99542697f0.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "4e016c2420e8",
+      "sourceHash": "4e016c2420e8",
+      "kind": "misc",
+      "name": "Reminiscence: Fleurdelys",
+      "fileStem": "6000106",
+      "path": "Prydwen/ww/assets/misc/reminiscence-fleurdelys-4e016c2420e8.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "65168020cc9e",
+      "sourceHash": "65168020cc9e",
+      "kind": "weapons",
+      "name": "Defier's Thorn",
+      "fileStem": "21020056",
+      "path": "Prydwen/ww/assets/weapons/defiers-thorn-65168020cc9e.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "0191cff521e2",
+      "sourceHash": "0191cff521e2",
+      "kind": "weapons",
+      "name": "Red Spring",
+      "fileStem": "21020026",
+      "path": "Prydwen/ww/assets/weapons/red-spring-0191cff521e2.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "aa055901e0f5",
+      "sourceHash": "aa055901e0f5",
+      "kind": "weapons",
+      "name": "Feather Edge",
+      "fileStem": "21020104",
+      "path": "Prydwen/ww/assets/weapons/feather-edge-aa055901e0f5.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "125c53e53fdd",
+      "sourceHash": "125c53e53fdd",
+      "kind": "weapons",
+      "name": "Blazing Brilliance",
+      "fileStem": "21020016",
+      "path": "Prydwen/ww/assets/weapons/blazing-brilliance-125c53e53fdd.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "67b3675ba5a5",
+      "sourceHash": "67b3675ba5a5",
+      "kind": "weapons",
+      "name": "Emerald Sentence",
+      "fileStem": "21020066",
+      "path": "Prydwen/ww/assets/weapons/emerald-sentence-67b3675ba5a5.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1ee53622240c",
+      "sourceHash": "1ee53622240c",
+      "kind": "weapons",
+      "name": "Emerald of Genesis",
+      "fileStem": "21020015",
+      "path": "Prydwen/ww/assets/weapons/emerald-of-genesis-1ee53622240c.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "95f7b81f3e04",
+      "sourceHash": "95f7b81f3e04",
+      "kind": "weapons",
+      "name": "Guardian Sword",
+      "fileStem": "21020053",
+      "path": "Prydwen/ww/assets/weapons/guardian-sword-95f7b81f3e04.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "0e96075575d8",
+      "sourceHash": "0e96075575d8",
+      "kind": "characters",
+      "name": "Chisa",
+      "fileStem": "chisa-icon",
+      "path": "Prydwen/ww/assets/characters/chisa-0e96075575d8.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d909de4aecde",
+      "sourceHash": "d909de4aecde",
+      "kind": "characters",
+      "name": "The Shorekeeper",
+      "fileStem": "the-shorekeeper-icon",
+      "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "f3c8221757b4",
+      "sourceHash": "f3c8221757b4",
+      "kind": "characters",
+      "name": "Sanhua",
+      "fileStem": "sanhua-icon",
+      "path": "Prydwen/ww/assets/characters/sanhua-f3c8221757b4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "24cf4bbd3534",
+      "sourceHash": "24cf4bbd3534",
+      "kind": "characters",
+      "name": "Cartethyia",
+      "fileStem": "cartethyia-icon",
+      "path": "Prydwen/ww/assets/characters/cartethyia-24cf4bbd3534.webp",
+      "width": 120,
+      "height": 120
+    }
+  ],
+  "sections": [
+    {
+      "id": "cartethyia-best-build-guide-0",
+      "level": 1,
+      "heading": "Cartethyia Best Build Guide",
+      "text": "Last updated: 09/June/2026",
+      "assets": [
+        {
+          "id": "ed6aecb666f8",
+          "sourceHash": "ed6aecb666f8",
+          "kind": "characters",
+          "name": "Cartethyia",
+          "fileStem": "cart-card",
+          "path": "Prydwen/ww/assets/characters/cartethyia-ed6aecb666f8.webp",
+          "width": 210,
+          "height": 280
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Cartethyia from WW (Wuthering Waves). Cartethyia is a 5 ★ rarity character from the Aero element who uses the Sword type weapon.\n\n To learn more about Cartethyia check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": [
+        {
+          "id": "ace758a61ce1",
+          "sourceHash": "ace758a61ce1",
+          "kind": "icons",
+          "name": "Aero",
+          "fileStem": "element-aero",
+          "path": "Prydwen/ww/assets/icons/aero-ace758a61ce1.webp",
+          "width": 20,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Cartethyia has at least one video guide available:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 2.4\n\n Last major build/calcs update\n Patch 3.0\n\n Last profile update*\n 09/June/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Cartethyia check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Sword to Carve My Forms\n\n Basic Attack - Cartethyia\n Perform up to 4 consecutive attacks, dealing Aero DMG .\n Following Basic Attack - Cartethyia Stage 4, inflict 1 stack of Aero Erosion on targets hit and summon Sword of Divinity's Shadow.\n Up to 1 Sword of Divinity's Shadow may exist at the same time, lasting for 20s .\n Heavy Attack - Cartethyia\n Consume STA to attack the target, dealing Aero DMG and summoning Sword of Discord's Shadow. Can be performed in mid-air.\n Up to 1 Sword of Discord's Shadow may exist at the same time, lasting for 20s .\n This instance of DMG is considered Basic Attack DMG.\n Mid-air Attack - Cartethyia\n Release Normal Attack button while airborne to perform Plunging Attack at the cost of STA, dealing Aero DMG , also considered Aero Erosion DMG .\n Press Normal Attack shortly after the Plunging Attack to perform Basic Attack - Cartethyia Stage 2.\n Casting Mid-air Attack - Cartethyia recalls all Sword Shadows. Based on the types and number of Sword Shadows recalled, perform different forms of Plunging Attack and obtain the corresponding Heart of Virtue, Mandate of Divinity, and Power of Discord.\n Dodge Counter - Cartethyia\n Press Normal Attack shortly after a successful Dodge to attack the target, dealing Aero DMG .\n\n Multipliers\n\n Resonance Skill\n Sword to Bear Their Names\n\n Resonance Skill - Cartethyia\n Attack the target, launch nearby enemies, and then plunge them to the ground, dealing Aero DMG and inflicting 2 stacks of Aero Erosion on the targets hit. This instance of DMG is considered Basic Attack DMG. Can be performed in mid-air.\n Following Cartethyia - Resonance Skill, summon Sword of Virtue's Shadow.\n Up to 1 Sword of Virtue's Shadow may exist at the same time, lasting for 20s .\n\n Multipliers\n\n Resonance Liberation\n A Knight's Heartfelt Prayers\n\n Resonance Liberation - A Knight's Heartfelt Prayers\n By reducing HP to 50% of the Max HP, Cartethyia transforms into Fleurdelys, unlocking new moves and entering the Manifest state for 12s .\n\n Can be performed in mid-air.\n\n Entering Manifest clears all Conviction.\n\n As Fleurdelys, Basic Attack - Fleurdelys Stage 5, Mid-air Attack - Fleurdelys Stage 2, and Resonance Skill - May Tempest Break the Tides instantly trigger 1 instance of Aero Erosion DMG and reduce the Aero Erosion stack on the target hit by 1 .\n Ending the state will not clear Resonance Energy.\n\n No HP cost when HP is below 50% .\n\n Fleurdelys's attacks restore Conviction on hit. When Conviction reaches 120 points, press Resonance Liberation to cast Resonance Liberation - Blade of Howling Squall.\n\n When Conviction is below 120 points, press Resonance Liberation to transform back into Cartethyia. When in Manifest, casting Resonance Liberation - A Knight's Heartfelt Prayers as Cartethyia consumes no Resonance Energy.\n\n When Fleurdelys has Heart of Virtue in Manifest:\n Basic Attack - Fleurdelys Stage 4 will generate a force field to Stagnate the targets within the range.\n\n Fleurdelys's resistance to interruption increases.\n\n Heart of Virtue is removed when Manifest ends.\n\n When Fleurdelys has Mandate of Divinity in Manifest:\n Aero Erosion DMG is Amplified by 50% and the damage interval is decreased by 50% for enemies within a certain distance from Fleurdelys.\n\n Mandate of Divinity is removed when Manifest ends.\n\n When Fleurdelys has Power of Discord in Manifest:\n When casting Basic Attack - Fleurdelys Stage 5, Mid-air Attack - Fleurdelys Stage 2 and Enhanced Heavy Attack - Fleurdelys or after Resonance Skill - May Tempest Break the Tides deals damage, raise the Aero Erosion stacks on all nearby targets to the highest count among the targets.\n\n Power of Discord is removed when Manifest ends.\n\n Fleurdelys will transform back to Cartethyia during quest dialogues, environmental interaction animations, or using Utilities.\n\n Fleurdelys can walk on water. Doing so on deep waters continuously consumes STA. When in walking state, Fleurdelys can step out of a high place and walk in mid-air by continuously consuming STA.\n\n Avatar - Cartethyia\n As Fleurdelys, when Conviction is below 120 points, press Resonance Liberation to perform Basic Attack - Cartethyia Stage 2 and temporarily transform back to Cartethyia, which pauses the timer on Manifest.\n Can be cast in mid-air. Casting the skill in mid-air performs Mid-air Attack - Cartethyia.\n Avatar - Fleurdelys\n When in Manifest, casting Resonance Liberation as Cartethyia performs Basic Attack - Fleurdelys Stage 2 without consuming Resonance Energy and transforms her back to Fleurdelys, which resumes the timer on Manifest.\n Can be cast in mid-air. Casting this skill in mid-air performs Mid-air Attack - Fleurdelys Stage 1.\n Resonance Liberation - Blade of Howling Squall\n When Fleurdelys has 120 points of Conviction, Resonance Liberation - A Knight's Heartfelt Prayers is replaced by Resonance Liberation - Blade of Howling Squall.\n Casting Resonance Liberation - Blade of Howling Squall removes all Conviction, ends Manifest, restores 50% of Max HP, and then deals Aero DMG to all targets in an area along a straight line in front. Upon hitting the target, remove all stacks of Aero Erosion on the target. Each stack removed Amplifies the DMG taken by the targets by 20% , up to 5 stacks.\n Can be cast in mid-air.\n\n Multipliers\n\n Forte Circuit\n Tempest\n\n Cartethyia unlocks new moves when she transforms into Fleurdelys:\n Basic Attack - Fleurdelys\n Basic Attack - Cartethyia is replaced by Basic Attack - Fleurdelys.\n Perform up to 5 consecutive attacks, dealing Aero DMG and restoring Conviction on hit.\n Mid-air Attack - Fleurdelys\n Mid-air Attack - Cartethyia is replaced by Mid-air Attack - Fleurdelys.\n Perform up to 3 consecutive attacks in the air at the cost of STA, dealing Aero DMG and restoring Conviction on hit.\n While airborne, hold Normal Attack to cast Mid-air Attack - Fleurdelys Stage 3.\n Follow up with Basic Attack shortly afterward to cast Basic Attack - Fleurdelys Stage 3.\n While airborne, casting Resonance Skill - Sword to Answer Waves' Call and Resonance Skill - May Tempest Break the Tides resets the cycle of Mid-air Attack - Fleurdelys.\n Heavy Attack - Fleurdelys\n Heavy Attack - Cartethyia is replaced by Heavy Attack - Fleurdelys.\n Thrust forward to deliver a focused strike, dealing Aero DMG and restoring Conviction on hit. This instance of DMG is considered Basic Attack DMG.\n Enhanced Heavy Attack - Fleurdelys\n While casting Heavy Attack - Fleurdelys, press Normal Attack again to cast Enhanced Heavy Attack - Fleurdelys: fall back and blast the area in a straight line in front, dealing Aero DMG and restoring Conviction on hit. This instance of DMG is considered Basic Attack DMG.\n Follow up with Basic Attack shortly after casting Enhanced Heavy Attack - Fleurdelys to cast Upward Cut - Fleurdelys.\n Upward Cut - Fleurdelys\n While Fleurdelys is on the ground, Jump to cast this skill, dealing Aero DMG and restoring Conviction on hit.\n Dodge Counter - Fleurdelys\n Dodge Counter - Cartethyia is replaced by Dodge Counter - Fleurdelys.\n Press Normal Attack shortly after a successful Dodge to attack the target, dealing Aero DMG and restoring Conviction on hit.\n Follow up with Basic Attack shortly afterward to cast Basic Attack - Fleurdelys Stage 4 .\n Resonance Skill - Sword to Answer Waves' Call\n Resonance Skill - Cartethyia is replaced by Resonance Skill - Sword to Answer Waves' Call.\n Summon a force field near the target's location to continuously pull in nearby targets, dealing Aero DMG and restoring Conviction on hit.\n Can be cast in mid-air.\n Resonance Skill - May Tempest Break the Tides\n Following Resonance Skill - Sword to Answer Waves' Call, press Resonance Skill again to call down a giant Sword Shadow to crush an area around the target, creating a force field to pull in nearby targets, dealing Aero DMG to ground targets, and restoring Conviction on hit.\n Follow up with Basic Attack shortly afterward to cast Basic Attack - Fleurdelys Stage 3.\n The Resonance Skill enters cooldown if Resonance Skill - May Tempest Break the Tides is not cast within a certain period or when switching to another Resonator.\n Can be cast in mid-air.\n\n Multipliers\n\n Inherent Skill\n A Heart's Truest Wishes\n\n The healing received by all Resonators other than Cartethyia/Fleurdelys in the team is increased by 20% and their resistance to interruption is enhanced. If Rover: Aero is in the team, Rover: Aero additionally restores 25 Windstrings upon casting Omega Storm.\n\n Inherent Skill\n Wind's Indelible Imprint\n\n Targets with 1 to 3 stacks of Aero Erosion take 30% more DMG from Cartethyia and Fleurdelys. Targets with more than 3 stacks of Aero Erosion additionally take 10% more DMG from Cartethyia and Fleurdelys for each stack of Aero Erosion they have, up to 3 stacks.\n\n Intro Skill\n Sword to Mark Tide's Trace\n\n Cartethyia - Sword to Mark Tide's Trace\n Deal Aero DMG and inflict 2 stacks of Aero Erosion on targets hit. Summon Sword of Discord's Shadow.\n Up to 1 Sword of Discord's Shadow may exist at the same time, lasting 20s .\n Press Normal Attack shortly after Cartethyia - Sword to Mark Tide's Trace to perform Basic Attack - Cartethyia Stage 2.\n Fleurdelys - Sword to Call for Freedom\n Thrust forward to impale the target, dealing Aero DMG and restoring Conviction.\n Press Normal Attack shortly after Fleurdelys - Sword to Call for Freedom to cast Basic Attack - Fleurdelys Stage 2.\n\n Multipliers\n\n Outro Skill\n Wind's Divine Blessing\n\n Aero DMG dealt by the active Resonator in the team other than Cartethyia/Fleurdelys to targets with Negative Statuses is Amplified by 17.5% for 20s .",
+      "assets": []
+    },
+    {
+      "id": "resonance-chain-dupes-10",
+      "level": 2,
+      "heading": "Resonance Chain (Dupes)",
+      "text": "S 1\n Sequence Node 1\n\n Gain Zeal that lasts for 10s when Cartethyia's or Fleurdelys's attacks directly damage and defeat targets inflicted with Aero Erosion .\n In the Zeal state, upon defeating enemies, the next move that directly damages targets raises the Aero Erosion stacks on the targets to the highest count among the targets defeated. This will not exceed the current max Aero Erosion stack limit. Zeal is removed afterward and enters a 1s cooldown.\n When Fleurdelys's Conviction hits 30/60/90/120 , Fleurdelys's Crit. DMG is increased by 25% for 15s , up to 4 stacks. The duration of this effect does not reset upon gaining new stacks. After casting Resonance Liberation - Blade of Howling Squall, the increased Crit. DMG is removed.\n\n S 2\n Sequence Node 2\n\n Casting Resonance Liberation - A Knight's Heartfelt Prayers increases the max stack limit of Aero Erosion on targets within a certain range by 3 stacks. The next attack that directly damages the target inflicts 3 stacks of Aero Erosion on all targets within a certain range and immediately triggers the Aero Erosion DMG on the targets hit once without consuming the Aero Erosion stacks.\n The DMG Multipliers of Cartethyia's Basic Attack, Heavy Attack, Dodge Counter, and Intro Skill are increased by 50% and the DMG Multiplier of her Mid-air Attack is increased by 200% .\n After casting Mid-air Attack - Cartethyia, every 1 type of Sword Shadow recalled reduces the cooldown of Resonance Skill - Cartethyia by 1s .\n\n S 3\n Sequence Node 3\n\n Basic Attack - Fleurdelys Stage 5, Mid-air Attack - Fleurdelys Stage 2, Enhanced Heavy Attack - Fleurdelys, and Resonance Skill - May Tempest Break the Tides now inflict 2 stacks of Aero Erosion on the targets hit.\n The DMG Multiplier of Resonance Liberation - Blade of Howling Squall is increased by 100% .\n\n S 4\n Sequence Node 4\n\n After Resonators in the team inflict Havoc Bane, Fusion Burst, Spectro Frazzle, Electro Flare, Glacio Chafe, or Aero Erosion, all Resonators in the team gain 20% DMG Bonus for all Attributes for 20s .\n\n S 5\n Sequence Node 5\n\n When Cartethyia or Fleurdelys takes a fatal blow, they will not be downed by this instance of damage, but instead gain a Shield equal to 20% of Cartethyia's Max HP for 10s . This effect can be triggered once every 10 min.\n The HP cost for casting Resonance Liberation - A Knight's Heartfelt Prayers is reduced to 25% of Max HP.\n\n S 6\n Sequence Node 6\n\n After casting Resonance Liberation - Blade of Howling Squall, raise the Aero Erosion stacks on the target hit to max. Casting Resonance Liberation - Blade of Howling Squall no longer removes the Aero Erosion stacks on the target.\n Within 30s after casting Intro Skill - Sword to Mark Tide's Trace, Intro Skill - Sword to Call for Freedom, Resonance Liberation - A Knight's Heartfelt Prayers, and Resonance Liberation - Blade of Howling Squall, when any Resonator in the team inflicts Aero Erosion on the targets with max stacks of Aero Erosion , immediately trigger the Aero Erosion DMG once.\n The targets take 40% more DMG from Fleurdelys.",
+      "assets": []
+    },
+    {
+      "id": "minor-fortes-total-11",
+      "level": 2,
+      "heading": "Minor Fortes (Total)",
+      "text": "CRIT Rate\n + 8 %\n\n HP%\n + 12 %",
+      "assets": [
+        {
+          "id": "39094c227806",
+          "sourceHash": "39094c227806",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "c26c1d310e90",
+          "sourceHash": "c26c1d310e90",
+          "kind": "icons",
+          "name": "HP%",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "stats-12",
+      "level": 2,
+      "heading": "Stats",
+      "text": "Include minor fortes\n\n Lv. 90\n\n HP\n 14800\n\n ATK\n 313\n\n DEF\n 611\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Aero DMG\n 0 %",
+      "assets": [
+        {
+          "id": "c26c1d310e90",
+          "sourceHash": "c26c1d310e90",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "1e70b3adc860",
+          "sourceHash": "1e70b3adc860",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "aa019d34202f",
+          "sourceHash": "aa019d34202f",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "5a0b154cd3d8",
+          "sourceHash": "5a0b154cd3d8",
+          "kind": "icons",
+          "name": "Max Energy",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "39094c227806",
+          "sourceHash": "39094c227806",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "7e2bcd0760ca",
+          "sourceHash": "7e2bcd0760ca",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "94236abd3fdc",
+          "sourceHash": "94236abd3fdc",
+          "kind": "icons",
+          "name": "Healing",
+          "fileStem": "stat-heal",
+          "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "2133af4a37e3",
+          "sourceHash": "2133af4a37e3",
+          "kind": "icons",
+          "name": "Aero",
+          "fileStem": "stat-wind",
+          "path": "Prydwen/ww/assets/icons/aero-2133af4a37e3.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "character-ascension-total-14",
+      "level": 5,
+      "heading": "Character Ascension (total)",
+      "text": "4 x LF Tidal Residuum\n 12 x MF Tidal Residuum\n 12 x HF Tidal Residuum\n 4 x FF Tidal Residuum\n 46 x Unfading Glory\n 60 x Bamboo Iris\n 170 000 Shell Credits",
+      "assets": []
+    },
+    {
+      "id": "skill-upgrades-total-15",
+      "level": 5,
+      "heading": "Skill Upgrades (total)",
+      "text": "25 x LF Tidal Residuum\n 28 x MF Tidal Residuum\n 40 x HF Tidal Residuum\n 57 x FF Tidal Residuum\n 25 x Inert Metallic Drip\n 28 x Reactive Metallic Drip\n 55 x Polarized Metallic Drip\n 67 x Heterized Metallic Drip\n 26 x When Irises Bloom\n 2 030 000 Shell Credits\n\n While the source of the materials can be quickly found in the game, when it comes Bamboo Iris you will have to gather them from the map. Check our Interactive map to find them quickly:\n\n Interactive Map",
+      "assets": [
+        {
+          "id": "f48ff62c89aa",
+          "sourceHash": "f48ff62c89aa",
+          "kind": "categories",
+          "name": "Interactive Map",
+          "fileStem": "category-map",
+          "path": "Prydwen/ww/assets/categories/interactive-map-f48ff62c89aa.webp",
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "voice-actors-16",
+      "level": 2,
+      "heading": "Voice Actors",
+      "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "0aab3b75d895",
+          "sourceHash": "0aab3b75d895",
+          "kind": "characters",
+          "name": "Cartethyia",
+          "fileStem": "cartethyia-full",
+          "path": "Prydwen/ww/assets/characters/cartethyia-0aab3b75d895.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "ratings-18",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.",
+      "assets": []
+    },
+    {
+      "id": "dps-19",
+      "level": 5,
+      "heading": "DPS",
+      "text": "T0.5\n Tower of Adversity\n\n T1.5\n Whimpering Wastes",
+      "assets": []
+    },
+    {
+      "id": "dps-21",
+      "level": 5,
+      "heading": "DPS",
+      "text": "T1\n Tower of Adversity (Value)\n\n T2\n Whimpering Wastes (Value)",
+      "assets": []
+    },
+    {
+      "id": "pros-23",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Best DPS in the game in her best team with optimal conditions. Period.\n\n Built-in interruption resistance: once inputs are learnt, her rotation is near-impossible to fail;\n\n Self-sufficient: heals herself, applies and amplifies Aero Erosion, making her able to exploit her kit by herself (albeit not to its full potential);\n\n Difficult to hit as a good chunk of her rotation is spent in the air;\n\n Able to stagnate AND group enemies in Fleurdelys form;\n\n Lots of swap cancel windows: room for optimization & quickswap;\n\n DPS is so good at a baseline that even without her best team or best weapon, she’ll still slap anything in her way with good Echoes;\n\n Increases teammate interruption resistance & healing, funnels Forte points to Aero Rover if present — makes team rotations much smoother;\n\n INSANE second Ultimate animation.",
+      "assets": []
+    },
+    {
+      "id": "cons-24",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Very expensive: teammate reliant, signature weapon reliant, even buffed by teammate signature weapons, requires your other characters to adopt unconventional builds, herself being built unconventionally as she scales off of HP. Be prepared to dump a LOT of resources into this character to unleash her full potential, without the possibility to share her build with anyone else;\n\n Can have difficulties keeping Aero Erosion stacked up in AoE scenarios if she kills all enemies at once (particularly important in Whimpering Wastes). This effect is further amplified without Ciaccona on the team, even in single-target situations;\n\n In-game kit descriptions are 3 times longer to read than our in-depth review. It’s time to make proper use of the shortened description feature you implemented, Kuro…",
+      "assets": []
+    },
+    {
+      "id": "review-25",
+      "level": 2,
+      "heading": "Review",
+      "text": "At long last, the highly-anticipated Cartethyia is available to play in Wuthering Waves 2.4, and she does not mess around. Cartethyia is a 5-star Aero Sword DPS character whose primary role is to deal massive damage to enemies in a wide Area of Effect after she’s been fully buffed by the 2 other characters in your team. Best in a Hypercarry playstyle, but also functional in Quickswap team compositions, Cartethyia relies on the Aero Erosion mechanic to take her damage a step ahead of the competition.\n As Cartethyia’s kit description is, to REALLY say the least, a long read… we’ll spare you all of the unnecessary details and instead exclusively tackle what we use in her rotation.\n Something to note to start with, is that the entirety of Cartethyia’s damage is based on her HP. This makes building her certainly original, but also way more restrictive, as most Swords and Echo sets revolve around buffing ATK. This makes her a very selective DPS in general and is one of her main flaws — but we’re getting ahead of ourselves, so let’s start with her kit in the order of her rotation:\n First of all, Cartethyia has two forms. Her Ultimate allows her to transform into Fleurdelys to gain a new kit, but before that, she needs to accumulate what’s known as “Sword Shadows”. There are 3 types of Sword Shadows, all of which enhance her kit in her Fleurdelys form where she will deal the overwhelming majority of her damage. All Sword Shadows acquired are visible on her Forte bar in her Cartethyia form. Their effects to Fleurdelys are as follows:\n Sword of Discord: Gained after using Cartethyia’s Resonance Intro, it raises the Aero Erosion stacks on all nearby enemies to whatever count is highest among the currently remaining enemies after using most of Fleurdelys’s important abilities. This has two effects: the first is keeping all enemies in range at the same amount of Aero Erosion, the second is refreshing the duration of Aero Erosion (so the stacks will never expire mid-rotation);\n\n Sword of Divinity: Gained after using Cartethyia’s Basic Attack 4, it amplifies Aero Erosion DMG by 50% and reduces the damage interval by 50% for enemies near Fleurdelys (meaning the damage is applied twice as fast effectively doubling the damage on top of 50% Amplification);\n\n Sword of Virtue: Gained after using Cartethyia’s Skill, it allows her to gain increased Interruption Resistance and generate a stagnation field after using her Basic Attack 4 in Fleurdelys form.\n\n All of these Sword Shadows (aside from Sword of Discord in single-target scenarios, but it is really easy to acquire) are really important to obtain. However, another effect stacking up each Sword will have is enhancing Cartethyia’s Mid-Air Attack. Using this Mid-Air Attack summons all Sword Shadows to attack the enemy, inflicting higher damage and granting their effects to Fleurdelys. Hence, it is mandatory to cast this Mid-Air Attack every rotation to ensure Fleurdelys is as buffed as can be to deal the highest amount of damage possible. Besides, the damage on this ability isn’t bad, so increasing it further isn’t a bad idea in any context.\n This means, to start with, we will do the following abilities:\n Intro Skill (This acquires Sword of Virtue);\n\n Basic 2, 3, 4 (Using Intro skill allows Cartethyia to start at Basic 2, this acquires Sword of Divinity);\n\n Resonance Skill (This acquires Sword of Discord);\n\n Mid-Air Attack (This consumes all Swords to grant their effects to Fleurdelys);\n\n Ultimate (This transforms Cartethyia into Fleurdelys).\n\n It should be noted that Intro Skill and Resonance Skill each apply 2 stacks of Aero Erosion on the targets hit, while Basic Attack 4 applies 1 stack, for a total of 5 Aero Erosion stacks per rotation. The limit is naturally 3 stacks, however this can be increased via Aero Rover’s Outro skill and via Cartethyia’s Sequence 2 (each increasing the limit by 3). At most, Fleurdelys benefits from 6 Aero Erosion stacks being present on her targets. Via Cartethyia’s Inherent Skill, all damage dealt by Cartethyia and Fleurdelys on targets affected by Aero Erosion increases by 30% regardless of their stack count. For every stack above 3, she also gains an extra 10% Aero Erosion up to 30% at 6 stacks (for a total of 60% DMG Bonus). This gives her a tremendous amount of DMG Bonus, further adding on to the necessity to apply Aero Erosion on her targets.\n Her other Inherent Skill increases healing to all characters in the team aside from herself by 20%, along with increasing their interruption resistance. She additionally gives 25 Forte points to Aero Rover if they are present in the team and cast their Ultimate - this however only sees real use if Aero Rover is swapped in the middle of Fleurdelys’s rotation (as otherwise, they will face Concerto Energy problems when trying to take advantage of this ability. However, if the player is able to manage that, it is a nice time save).\n With that out of the way, let’s finally tackle her Fleurdelys form, called “Manifest” and establish the essentials:\n When transforming into Fleurdelys, Cartethyia immediately reduces her Max HP to 50% of its original value (unless her current HP is already equal to or below 50%). The Manifest state lasts for 12s.\n\n Fleurdelys gains a brand new kit with new Basic Attacks, 2 new Heavy Attacks, 2 new Resonance Skills, a new Forte bar called “Conviction” which allows her to cast her second Ultimate (the hardest-hitting ability she has), a brand new Intro Skill and certain attacks make her consume Aero Erosion instead of applying it.\n\n When using several key abilities, Fleurdelys will consume 1 stack of Aero Erosion to instantly deal the instance of damage it normally would’ve done.\n\n When using any ability, Fleurdelys restores a portion of Conviction, stackable up to 120. At 120 points, she is able to cast her second Ultimate, deal MASSIVE damage in this process, and end her rotation.\n\n The damage of this second Ultimate is influenced by how much Aero Erosion is present on the targets, up to 5 stacks. Each of these 5 potential stacks get removed on cast and amplify the damage of the attack by 20% each (up to 100%).\n\n The second Ultimate restores 50% of Cartethyia’s (not Fleurdelys’s) max HP.\n\n Ending the state does not cost any Resonance Energy.\n\n Here is the most efficient way to stack up Conviction, along with what abilities consume Aero Erosion:\n Skill 1\n\n Mid-Air Attack 3\n\n Skill 2 (this consumes 1 Aero Erosion)\n\n Basic 3 (her Basic chain starts from stage 3 after Skill 2)\n\n Basic 4\n\n Basic 5 (this consumes 1 Aero Erosion)\n\n Heavy Attack\n\n Enhanced Heavy Attack (press Basic Attack shortly after Heavy Attack)\n\n After all of these abilities have been performed, Fleurdelys is free to perform her second Ultimate, nuke enemies down, and end her rotation. Her Outro amplifies Aero DMG dealt to targets with Negative Status applied by 17.5% for 20s, which is an acceptable boost but nothing impressive.\n All of Cartethyia’s kit mechanics tied to Aero Erosion consumption aren’t utilizable to their fullest on her own. Unfortunately, to fully utilize her Ultimate’s DMG Amplification effect and to fully utilize her Inherent Skill’s DMG Bonus, she will need to be paired with specifically Ciaccona, and before her S2 Aero Rover as well. They are non-negotiably her best teammates, however Cartethyia’s S2 does allow her to throw out Aero Rover as a teammate as she can get 6 stacks of Aero Erosion thanks to it. This removes the need to have a clunky teammate on the team and only further adds to her value (not to mention the insane damage boosts S1 & S2 provide, basically makes clearing any content completely free).\n Nonetheless, at S0, Cartethyia’s teams do get restricted by the nature of her kit’s mechanics, as they tie her down to specific Aero Erosion teammates. However, even without both Ciaccona and Aero Rover (all 3 must non-negotiably be used together for optimal synergy), Cartethyia does get fantastic damage on her own as her kit is mostly self-sufficient. Add that to a solid amount of swap cancel windows (check her Gameplay page for more information on this) and you have a character who is more than enough on her own, and a massive destructive force in her best team. It’s very easy to see Cartethyia deals the most damage of any character currently and as a result is the best damage dealer in the game, making her a staple of the game’s meta.\n In conclusion, Cartethyia is an excellent all-around damage dealer. She is capable of handling all kinds of situations, from single-target to AoE, although she does have some issues re-applying Aero Erosion, particularly in Whimpering Wastes, when a full wave of enemies dies at once. She has the highest damage potential in the game and is able to work with several teammates to a great degree, even her F2P team is good enough to make for a top tier team composition. Note however that her main flaw is in her lack of a good weapon due to her HP scaling & she lacks Aero Erosion teammate options, which can make her expensive or underperform if you don’t invest enough pulls into getting her other upgrades to make full leverage of her kit. However, in her best conditions, Cartethyia will perform as the best DPS in the game, making her one of the most valuable characters in Wuthering Waves.",
+      "assets": []
+    },
+    {
+      "id": "video-guides-26",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "Build",
+      "assets": []
+    },
+    {
+      "id": "best-weapons-27",
+      "level": 2,
+      "heading": "Best Weapons",
+      "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Cartethyia calculations were done using added buffs from the following teammates:\n Ciaccona + Woodland Aria +\n Gusts of Welkin\n\n +\n Nightmare: Kelpie\n\n Rover (Aero) + Bloodpact's Pledge +\n Windward Pilgrimage\n\n +\n Reminiscence: Fleurdelys\n\n 100.00%\n\n Defier's Thorn (R 1 )\n\n Cartethyia's Signature and her best by a large amount, as it provides her with a massive amount of HP% for her to utilize her kit to the fullest potential. On top of this, having an extra passive 8% DEF Ignore and 20% general DMG Amplification to all targets inflicted with Aero Erosion makes this weapon the uncontested best for Cartethyia, as it is the only option which gives her the stats she truly wants.\n 79.50%\n\n Red Spring (R 1 )\n\n Camellya's weapon works well for Cartethyia by virtue of providing 24.3% CRIT Rate as its secondary stat, but also providing an extra 30% Basic Attack DMG bonus via the weapon's passive effect which she uses decently well. For this reason, it is the second best option behind her sought-after Signature.\n 76.30%\n\n Feather Edge (R 5 )\n\n This Battle Pass exclusive is fantastic on Cartethyia because the usual issue of 4-star weapons being low Base ATK doesn't hinder her at all (since she doesn't scale off of it). Instead, she can enjoy the large amount of Liberation DMG Bonus (one of her two main damage types) and the 20.3% CRIT Rate provided by the weapon, making it a great alternative to her Signature.\n 77.00%\n\n Blazing Brilliance (R 1 )\n\n Simple CRIT DMG and Skill DMG stat-stick for Cartethyia, which doesn't compare to above options as Skill DMG is a negligible part of her damage overall.\n 75.90%\n\n Emerald Sentence (R 1 )\n\n Simple CRIT Rate stat-stick for Cartethyia, who barely makes any use of the weapon's passive effects (very minor increase to her Echo Skill DMG which is really negligible).\n 75.70%\n\n Emerald of Genesis (R 1 )\n\n CRIT Rate and Energy Regen stat-stick for Cartethyia, making it the best permanently available option as she lacks any good alternatives that aren't from the Battle Pass.\n 72.30%\n\n Guardian Sword (R 5 )\n\n Last resort option if none of the above are owned, as this is the only Sword in the game that provides HP% other than Cartethyia's Signature.",
+      "assets": [
+        {
+          "id": "ba56fbcc8eb4",
+          "sourceHash": "ba56fbcc8eb4",
+          "kind": "characters",
+          "name": "Ciaccona",
+          "fileStem": "ciaccona-icon",
+          "path": "Prydwen/ww/assets/characters/ciaccona-ba56fbcc8eb4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "8f23f048132b",
+          "sourceHash": "8f23f048132b",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-15",
+          "path": "Prydwen/ww/assets/icons/set-15-8f23f048132b.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "eb3e824f153b",
+          "sourceHash": "eb3e824f153b",
+          "kind": "misc",
+          "name": "Nightmare: Kelpie",
+          "fileStem": "6000113",
+          "path": "Prydwen/ww/assets/misc/nightmare-kelpie-eb3e824f153b.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "df8c0bc8d49a",
+          "sourceHash": "df8c0bc8d49a",
+          "kind": "characters",
+          "name": "Rover (Aero)",
+          "fileStem": "rover-aero-icon",
+          "path": "Prydwen/ww/assets/characters/rover-aero-df8c0bc8d49a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "be99542697f0",
+          "sourceHash": "be99542697f0",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-17",
+          "path": "Prydwen/ww/assets/icons/set-17-be99542697f0.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "4e016c2420e8",
+          "sourceHash": "4e016c2420e8",
+          "kind": "misc",
+          "name": "Reminiscence: Fleurdelys",
+          "fileStem": "6000106",
+          "path": "Prydwen/ww/assets/misc/reminiscence-fleurdelys-4e016c2420e8.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "65168020cc9e",
+          "sourceHash": "65168020cc9e",
+          "kind": "weapons",
+          "name": "Defier's Thorn",
+          "fileStem": "21020056",
+          "path": "Prydwen/ww/assets/weapons/defiers-thorn-65168020cc9e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "0191cff521e2",
+          "sourceHash": "0191cff521e2",
+          "kind": "weapons",
+          "name": "Red Spring",
+          "fileStem": "21020026",
+          "path": "Prydwen/ww/assets/weapons/red-spring-0191cff521e2.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "aa055901e0f5",
+          "sourceHash": "aa055901e0f5",
+          "kind": "weapons",
+          "name": "Feather Edge",
+          "fileStem": "21020104",
+          "path": "Prydwen/ww/assets/weapons/feather-edge-aa055901e0f5.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "125c53e53fdd",
+          "sourceHash": "125c53e53fdd",
+          "kind": "weapons",
+          "name": "Blazing Brilliance",
+          "fileStem": "21020016",
+          "path": "Prydwen/ww/assets/weapons/blazing-brilliance-125c53e53fdd.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "67b3675ba5a5",
+          "sourceHash": "67b3675ba5a5",
+          "kind": "weapons",
+          "name": "Emerald Sentence",
+          "fileStem": "21020066",
+          "path": "Prydwen/ww/assets/weapons/emerald-sentence-67b3675ba5a5.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1ee53622240c",
+          "sourceHash": "1ee53622240c",
+          "kind": "weapons",
+          "name": "Emerald of Genesis",
+          "fileStem": "21020015",
+          "path": "Prydwen/ww/assets/weapons/emerald-of-genesis-1ee53622240c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "95f7b81f3e04",
+          "sourceHash": "95f7b81f3e04",
+          "kind": "weapons",
+          "name": "Guardian Sword",
+          "fileStem": "21020053",
+          "path": "Prydwen/ww/assets/weapons/guardian-sword-95f7b81f3e04.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "best-echo-sets-29",
+      "level": 6,
+      "heading": "Best Echo Sets",
+      "text": "100.00%\n\nWindward Pilgrimage\n\n Best set for Aero Main DPS characters who can apply Aero Erosion or have an Aero Erosion applier on the team. Grants 10% Aero DMG Bonus and an extra 30% Aero DMG Bonus as well as 10% CRIT Rate for 10s when attacking targets inflicted with Aero Erosion. Offers an extra 10% CRIT Rate over the other Aero sets such as Gusts of Welkin or Sierra Gale, providing extra overall damage so long as Aero Erosion is present on the enemy.\n Below you can find Main Echo options:\n\n Reminiscence: Fleurdelys\n\n - A simple Summon Echo that deals a good chunk of damage, but most importantly grants the assigned Resonator 10% unconditional Aero DMG Bonus if equipped in the Main Slot, with an extra 10% Aero DMG Bonus for Cartethyia, making it the best choice for her.",
+      "assets": [
+        {
+          "id": "be99542697f0",
+          "sourceHash": "be99542697f0",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-17",
+          "path": "Prydwen/ww/assets/icons/set-17-be99542697f0.webp",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "4e016c2420e8",
+          "sourceHash": "4e016c2420e8",
+          "kind": "misc",
+          "name": "Reminiscence: Fleurdelys",
+          "fileStem": "6000106",
+          "path": "Prydwen/ww/assets/misc/reminiscence-fleurdelys-4e016c2420e8.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "best-echo-stats-30",
+      "level": 2,
+      "heading": "Best Echo Stats",
+      "text": "4 cost\n CRIT Rate\n\n 4 cost\n CRIT DMG\n\n 1 cost\n HP%\n\n 1 cost\n HP%\n\n 1 cost\n HP%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > HP% > Basic Attack DMG% = Liberation DMG% > HP",
+      "assets": []
+    },
+    {
+      "id": "best-endgame-stats-level-90-31",
+      "level": 2,
+      "heading": "Best Endgame Stats (Level 90)",
+      "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 35000-50000+\n\n DEF: 600+\n\n CRIT Rate: 65-80%+\n\n CRIT DMG: 240-270%+\n\n Energy Regen: 110%+\n\n Aero DMG Bonus: 30%+",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-32",
+      "level": 2,
+      "heading": "Skill Priority",
+      "text": "Below you can find the order of leveling the abilities for Cartethyia .\n Forte Circuit\n\n Res. Liberation\n\n Basic Attack\n\n Res. Skill\n\n Intro Skill\n\n Skill and Intro can be skipped when levelling to save on resources at a minimal damage loss.\n\n Gameplay and teams",
+      "assets": []
+    },
+    {
+      "id": "basic-rotation-34",
+      "level": 6,
+      "heading": "Basic Rotation",
+      "text": "Cartethyia’s main rotation is really easy to perform thanks to her increased Interruption Resistance given by her Sword of Virtue effect. The rotation below is the most optimal way to minimize her rotation time while exploiting all the elements of her kit, as follows:\n Intro - Cartethyia\n\n Basic P2\n\n Basic P3\n\n Basic P4\n\n Skill: Sword to Bear Their Names\n\n Mid-air Attack - Cartethyia\n\n Ultimate: A Knight's Heartfelt Prayers\n\n (Skill 1) Forte: Sword to Answer Waves' Call\n\n Forte: Fleurdelys Mid-air Attack P3 (Hold Basic during Resonance Skill)\n\n Forte: Fleurdelys Basic P3\n\n Forte: Fleurdelys Basic P4\n\n Forte: Fleurdelys Basic P5\n\n (Skill 2) Forte: May Tempest Break the Tides\n\n Forte: Fleurdelys Basic P3\n\n Forte: Fleurdelys Basic P4\n\n Forte: Fleurdelys Basic P5\n\n Ultimate: Blade of Howling Squall\n\n Outro\n\n While Cartethyia has a simple rotation which is set in stone, she has some useful tricks which you can make use of to save a bit of time or otherwise improve your team damage. Here are a bunch of tricks for you to use.\n Cartethyia can adjust her rotation based on team composition:\n In most situations, the rotation we suggested is the best one, as it has the best compromise of damage for time spent on the field. It is fully functional with 14s Outro buffs and reduces Aero Erosion by the least amount of stacks, which makes it best for teams where Aero Erosion stack maintenance matters more.\n\n However, with Ciaccona present on the team, or with an S3 Cartethyia, Aero Erosion will always be at max stacks. As a result, spending 1 more Aero Erosion and slightly extending the rotation by doing Mid-Air Attack 1 & 2 instead of Mid-Air Attack 3 will lead to slightly higher DPS. This is however mostly impractical as it depends on the HP threshold of the enemy you face – if the faster rotation can kill them, it’ll save more time. Remember to adjust your rotations accordingly to the situation if you want to optimize!\n\n Cartethyia has several Swap Cancel windows:\n During her base Cartethyia form, Cartethyia is able to weave in her Resonance Skill in the middle of your other characters’ rotations. A good example of this is with Sanhua in a Cartethyia-Sanhua team. As Sanhua performs her Forte: Detonate Heavy Attack, it’s possible to switch out of Sanhua onto Cartethyia, perform her Resonance Skill, switch back to Sanhua when her animation is finished, then Outro into Cartethyia and skip out on doing this attack in the middle of her own rotation, saving a small bit of time. However, keep in mind that doing this process will require you to execute a Jump after her Basic Attack 4 in order to execute her Mid-Air Attack so that she can activate her Sword Shadow buffs. It is still faster to do so however.\n\n During her Fleurdelys form, Fleurdelys can swap out of the following abilities: Mid-Air Attack 3, Skill 2, Basic P5, Enhanced Heavy Attack.\n\n All of these abilities can be swapped out of (so long as an Outro buff which expires on swap isn’t present) and come back without delaying your Fleurdelys rotation by almost any time, as a result allowing you to weave in some extra attacks with your other characters for added damage & Concerto generation. This enables teams with Quickswap playstyles with characters like Changli.\n\n Doing this with Aero Rover enables them to make full use of Cartethyia’s Additional Ability which grants an extra 25 Windstrings for them when casting their Ultimate. Usually, they run into Concerto Energy problems, but if you Swap Cancel some of Fleurdelys’s abilities and weave in even a single Aero Rover attack, in most situations it’s enough to skip out on 1 Cloudburst Dance which speeds up your rotation and improves Team DPS!\n\n Cartethyia can Animation Cancel some of her abilities.\n It is common for several characters to act out of certain actions quicker by interrupting them with certain abilities. Note to only do this when the damage from the abilities have fully come out (or will fully come out). In Cartethyia’s case, she makes use of this all throughout her rotation, as she is able to act out of certain abilities quicker via certain methods than if she were to follow up with a Basic Attack for example. This small delay where she is unable to perform any actions is called “endlag” and this endlag, lasting for a few tenths of a second in most cases, can be interrupted early via certain abilities. This is a strict improvement to her rotation time without forfeiting any damage, thus increasing DPS. Here are all the examples used in practice throughout her rotation:\n\n In Cartethyia form: Cancelling her Basic Attack 4’s endlag into her Resonance Skill or a Jump into a Mid-Air Attack.\n\n In Cartethyia form: Cancelling her Mid-Air Attack’s endlag with her Ultimate (this can be done really early while still activating Sword Shadow buffs, however you lose out on a good chunk of damage which is not worth it in almost every scenario. Make sure to do this with a bit of timing).\n\n In Fleurdelys form: Cancelling her Mid-Air Attack 3’s endlag with her Skill 2.\n\n In Fleurdelys form: Cancelling her Enhanced Heavy Attack’s endlag into her second Ultimate.\n\n For more advanced players, make sure to incorporate most, if not all of these tricks throughout your entire rotation to take your Cartethyia’s damage way ahead of everyone else!",
+      "assets": []
+    },
+    {
+      "id": "synergies-35",
+      "level": 2,
+      "heading": "Synergies",
+      "text": "Ciaccona - The best Sub DPS option for Cartethyia, who has a short rotation whilst doing great damage, provides good buffs via her Solo Concert, Echo set and potential weapon, and amplifies Aero Erosion damage by 100% on Outro. But most importantly, Ciaccona applies a ton of Aero Erosion off-field over time, which allows Cartethyia to make full leverage of her kit buffs. For these reasons, they are best when paired together.\n Rover (Aero) Chisa The Shorekeeper - All of the three best third slot Support choices Cartethyia has. While Ciaccona is consistently on all of her best teams, each of these characters have their use cases. Aero Rover and Chisa are built to make full leverage of Cartethyia's kit since they can each increase the Aero Erosion stack count on enemies by 3; Shorekeeper is mostly used in Whimpering Wastes since ramping Aero Erosion up to 6 is difficult in multi-wave content so her buffs and rotation speed can see use. While Chisa has better buffs than Aero Rover, that's only with her Signature weapon equipped. Pick and choose your support based on your situation, and you can always play 2 of them as an alternative if Ciaccona isn't available!\n Sanhua - Sanhua works with Cartethyia as her best F2P pair, because buffing Basic Attack DMG for her isn't too bad as it buffs a number of her abilities, but most importantly Sanhua rotates in and out at lightspeed, while still being able to provide some buffing via her Echo set. As she doesn't apply any Aero Erosion, Sanhua's main purpose is mostly to get in and get out for Cartethyia to take all available field time. For these reasons, it's an acceptable duo, still stronger than alternatives like Aalto as he doesn't back up his field time with enough damage and barely gives any higher buffing potential.",
+      "assets": [
+        {
+          "id": "ba56fbcc8eb4",
+          "sourceHash": "ba56fbcc8eb4",
+          "kind": "characters",
+          "name": "Ciaccona",
+          "fileStem": "ciaccona-icon",
+          "path": "Prydwen/ww/assets/characters/ciaccona-ba56fbcc8eb4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "df8c0bc8d49a",
+          "sourceHash": "df8c0bc8d49a",
+          "kind": "characters",
+          "name": "Rover (Aero)",
+          "fileStem": "rover-aero-icon",
+          "path": "Prydwen/ww/assets/characters/rover-aero-df8c0bc8d49a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "0e96075575d8",
+          "sourceHash": "0e96075575d8",
+          "kind": "characters",
+          "name": "Chisa",
+          "fileStem": "chisa-icon",
+          "path": "Prydwen/ww/assets/characters/chisa-0e96075575d8.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d909de4aecde",
+          "sourceHash": "d909de4aecde",
+          "kind": "characters",
+          "name": "The Shorekeeper",
+          "fileStem": "the-shorekeeper-icon",
+          "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f3c8221757b4",
+          "sourceHash": "f3c8221757b4",
+          "kind": "characters",
+          "name": "Sanhua",
+          "fileStem": "sanhua-icon",
+          "path": "Prydwen/ww/assets/characters/sanhua-f3c8221757b4.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "example-teams-36",
+      "level": 2,
+      "heading": "Example Teams",
+      "text": "Team #1\n\n Chisa is only stronger than Aero Rover with her Signature. Shorekeeper is also mostly usable in the third slot in Whimpering Wastes since Aero Erosion won't have time to ramp up to 6.\n\n Team #2: Alternative Teams\n\n Remember Aero Rover is the 2nd character in the rotation with Chisa or Shorekeeper on the team, but they open the rotation with Sanhua on the team. Also use Skyfall Severance to convert Havoc Bane into Erosion if you use them with Chisa!\n\n Calculations",
+      "assets": [
+        {
+          "id": "24cf4bbd3534",
+          "sourceHash": "24cf4bbd3534",
+          "kind": "characters",
+          "name": "Cartethyia",
+          "fileStem": "cartethyia-icon",
+          "path": "Prydwen/ww/assets/characters/cartethyia-24cf4bbd3534.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "ba56fbcc8eb4",
+          "sourceHash": "ba56fbcc8eb4",
+          "kind": "characters",
+          "name": "Ciaccona",
+          "fileStem": "ciaccona-icon",
+          "path": "Prydwen/ww/assets/characters/ciaccona-ba56fbcc8eb4.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "0e96075575d8",
+          "sourceHash": "0e96075575d8",
+          "kind": "characters",
+          "name": "Chisa",
+          "fileStem": "chisa-icon",
+          "path": "Prydwen/ww/assets/characters/chisa-0e96075575d8.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "df8c0bc8d49a",
+          "sourceHash": "df8c0bc8d49a",
+          "kind": "characters",
+          "name": "Rover (Aero)",
+          "fileStem": "rover-aero-icon",
+          "path": "Prydwen/ww/assets/characters/rover-aero-df8c0bc8d49a.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "d909de4aecde",
+          "sourceHash": "d909de4aecde",
+          "kind": "characters",
+          "name": "The Shorekeeper",
+          "fileStem": "the-shorekeeper-icon",
+          "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "f3c8221757b4",
+          "sourceHash": "f3c8221757b4",
+          "kind": "characters",
+          "name": "Sanhua",
+          "fileStem": "sanhua-icon",
+          "path": "Prydwen/ww/assets/characters/sanhua-f3c8221757b4.webp",
+          "width": 120,
+          "height": 120
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "best-echo-stats": {
+      "label": "Best Echo Stats",
+      "sections": [
+        {
+          "heading": "Stats",
+          "text": "Include minor fortes\n\n Lv. 90\n\n HP\n 14800\n\n ATK\n 313\n\n DEF\n 611\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Aero DMG\n 0 %",
+          "assets": [
+            {
+              "id": "c26c1d310e90",
+              "sourceHash": "c26c1d310e90",
+              "kind": "icons",
+              "name": "HP",
+              "fileStem": "stat-hp",
+              "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "1e70b3adc860",
+              "sourceHash": "1e70b3adc860",
+              "kind": "icons",
+              "name": "ATK",
+              "fileStem": "stat-atk",
+              "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "aa019d34202f",
+              "sourceHash": "aa019d34202f",
+              "kind": "icons",
+              "name": "DEF",
+              "fileStem": "stat-def",
+              "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "5a0b154cd3d8",
+              "sourceHash": "5a0b154cd3d8",
+              "kind": "icons",
+              "name": "Max Energy",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "39094c227806",
+              "sourceHash": "39094c227806",
+              "kind": "icons",
+              "name": "CRIT Rate",
+              "fileStem": "stat-crit",
+              "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "7e2bcd0760ca",
+              "sourceHash": "7e2bcd0760ca",
+              "kind": "icons",
+              "name": "CRIT DMG",
+              "fileStem": "stat-critdmg",
+              "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "94236abd3fdc",
+              "sourceHash": "94236abd3fdc",
+              "kind": "icons",
+              "name": "Healing",
+              "fileStem": "stat-heal",
+              "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "2133af4a37e3",
+              "sourceHash": "2133af4a37e3",
+              "kind": "icons",
+              "name": "Aero",
+              "fileStem": "stat-wind",
+              "path": "Prydwen/ww/assets/icons/aero-2133af4a37e3.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        },
+        {
+          "heading": "Best Echo Stats",
+          "text": "4 cost\n CRIT Rate\n\n 4 cost\n CRIT DMG\n\n 1 cost\n HP%\n\n 1 cost\n HP%\n\n 1 cost\n HP%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > HP% > Basic Attack DMG% = Liberation DMG% > HP",
+          "assets": []
+        }
+      ]
+    },
+    "best-weapons": {
+      "label": "Best Weapons",
+      "sections": [
+        {
+          "heading": "Best Weapons",
+          "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Cartethyia calculations were done using added buffs from the following teammates:\n Ciaccona + Woodland Aria +\n Gusts of Welkin\n\n +\n Nightmare: Kelpie\n\n Rover (Aero) + Bloodpact's Pledge +\n Windward Pilgrimage\n\n +\n Reminiscence: Fleurdelys\n\n 100.00%\n\n Defier's Thorn (R 1 )\n\n Cartethyia's Signature and her best by a large amount, as it provides her with a massive amount of HP% for her to utilize her kit to the fullest potential. On top of this, having an extra passive 8% DEF Ignore and 20% general DMG Amplification to all targets inflicted with Aero Erosion makes this weapon the uncontested best for Cartethyia, as it is the only option which gives her the stats she truly wants.\n 79.50%\n\n Red Spring (R 1 )\n\n Camellya's weapon works well for Cartethyia by virtue of providing 24.3% CRIT Rate as its secondary stat, but also providing an extra 30% Basic Attack DMG bonus via the weapon's passive effect which she uses decently well. For this reason, it is the second best option behind her sought-after Signature.\n 76.30%\n\n Feather Edge (R 5 )\n\n This Battle Pass exclusive is fantastic on Cartethyia because the usual issue of 4-star weapons being low Base ATK doesn't hinder her at all (since she doesn't scale off of it). Instead, she can enjoy the large amount of Liberation DMG Bonus (one of her two main damage types) and the 20.3% CRIT Rate provided by the weapon, making it a great alternative to her Signature.\n 77.00%\n\n Blazing Brilliance (R 1 )\n\n Simple CRIT DMG and Skill DMG stat-stick for Cartethyia, which doesn't compare to above options as Skill DMG is a negligible part of her damage overall.\n 75.90%\n\n Emerald Sentence (R 1 )\n\n Simple CRIT Rate stat-stick for Cartethyia, who barely makes any use of the weapon's passive effects (very minor increase to her Echo Skill DMG which is really negligible).\n 75.70%\n\n Emerald of Genesis (R 1 )\n\n CRIT Rate and Energy Regen stat-stick for Cartethyia, making it the best permanently available option as she lacks any good alternatives that aren't from the Battle Pass.\n 72.30%\n\n Guardian Sword (R 5 )\n\n Last resort option if none of the above are owned, as this is the only Sword in the game that provides HP% other than Cartethyia's Signature.",
+          "assets": [
+            {
+              "id": "ba56fbcc8eb4",
+              "sourceHash": "ba56fbcc8eb4",
+              "kind": "characters",
+              "name": "Ciaccona",
+              "fileStem": "ciaccona-icon",
+              "path": "Prydwen/ww/assets/characters/ciaccona-ba56fbcc8eb4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "8f23f048132b",
+              "sourceHash": "8f23f048132b",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-15",
+              "path": "Prydwen/ww/assets/icons/set-15-8f23f048132b.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "eb3e824f153b",
+              "sourceHash": "eb3e824f153b",
+              "kind": "misc",
+              "name": "Nightmare: Kelpie",
+              "fileStem": "6000113",
+              "path": "Prydwen/ww/assets/misc/nightmare-kelpie-eb3e824f153b.webp",
+              "width": 35,
+              "height": 35
+            },
+            {
+              "id": "df8c0bc8d49a",
+              "sourceHash": "df8c0bc8d49a",
+              "kind": "characters",
+              "name": "Rover (Aero)",
+              "fileStem": "rover-aero-icon",
+              "path": "Prydwen/ww/assets/characters/rover-aero-df8c0bc8d49a.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "be99542697f0",
+              "sourceHash": "be99542697f0",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-17",
+              "path": "Prydwen/ww/assets/icons/set-17-be99542697f0.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "4e016c2420e8",
+              "sourceHash": "4e016c2420e8",
+              "kind": "misc",
+              "name": "Reminiscence: Fleurdelys",
+              "fileStem": "6000106",
+              "path": "Prydwen/ww/assets/misc/reminiscence-fleurdelys-4e016c2420e8.webp",
+              "width": 35,
+              "height": 35
+            },
+            {
+              "id": "65168020cc9e",
+              "sourceHash": "65168020cc9e",
+              "kind": "weapons",
+              "name": "Defier's Thorn",
+              "fileStem": "21020056",
+              "path": "Prydwen/ww/assets/weapons/defiers-thorn-65168020cc9e.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "0191cff521e2",
+              "sourceHash": "0191cff521e2",
+              "kind": "weapons",
+              "name": "Red Spring",
+              "fileStem": "21020026",
+              "path": "Prydwen/ww/assets/weapons/red-spring-0191cff521e2.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "aa055901e0f5",
+              "sourceHash": "aa055901e0f5",
+              "kind": "weapons",
+              "name": "Feather Edge",
+              "fileStem": "21020104",
+              "path": "Prydwen/ww/assets/weapons/feather-edge-aa055901e0f5.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "125c53e53fdd",
+              "sourceHash": "125c53e53fdd",
+              "kind": "weapons",
+              "name": "Blazing Brilliance",
+              "fileStem": "21020016",
+              "path": "Prydwen/ww/assets/weapons/blazing-brilliance-125c53e53fdd.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "67b3675ba5a5",
+              "sourceHash": "67b3675ba5a5",
+              "kind": "weapons",
+              "name": "Emerald Sentence",
+              "fileStem": "21020066",
+              "path": "Prydwen/ww/assets/weapons/emerald-sentence-67b3675ba5a5.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1ee53622240c",
+              "sourceHash": "1ee53622240c",
+              "kind": "weapons",
+              "name": "Emerald of Genesis",
+              "fileStem": "21020015",
+              "path": "Prydwen/ww/assets/weapons/emerald-of-genesis-1ee53622240c.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "95f7b81f3e04",
+              "sourceHash": "95f7b81f3e04",
+              "kind": "weapons",
+              "name": "Guardian Sword",
+              "fileStem": "21020053",
+              "path": "Prydwen/ww/assets/weapons/guardian-sword-95f7b81f3e04.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "best-echo-sets": {
+      "label": "Best Echo Sets",
+      "sections": [
+        {
+          "heading": "Best Echo Sets",
+          "text": "100.00%\n\nWindward Pilgrimage\n\n Best set for Aero Main DPS characters who can apply Aero Erosion or have an Aero Erosion applier on the team. Grants 10% Aero DMG Bonus and an extra 30% Aero DMG Bonus as well as 10% CRIT Rate for 10s when attacking targets inflicted with Aero Erosion. Offers an extra 10% CRIT Rate over the other Aero sets such as Gusts of Welkin or Sierra Gale, providing extra overall damage so long as Aero Erosion is present on the enemy.\n Below you can find Main Echo options:\n\n Reminiscence: Fleurdelys\n\n - A simple Summon Echo that deals a good chunk of damage, but most importantly grants the assigned Resonator 10% unconditional Aero DMG Bonus if equipped in the Main Slot, with an extra 10% Aero DMG Bonus for Cartethyia, making it the best choice for her.",
+          "assets": [
+            {
+              "id": "be99542697f0",
+              "sourceHash": "be99542697f0",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-17",
+              "path": "Prydwen/ww/assets/icons/set-17-be99542697f0.webp",
+              "width": 50,
+              "height": 50
+            },
+            {
+              "id": "4e016c2420e8",
+              "sourceHash": "4e016c2420e8",
+              "kind": "misc",
+              "name": "Reminiscence: Fleurdelys",
+              "fileStem": "6000106",
+              "path": "Prydwen/ww/assets/misc/reminiscence-fleurdelys-4e016c2420e8.webp",
+              "width": 35,
+              "height": 35
+            }
+          ]
+        }
+      ]
+    },
+    "best-endgame-stats": {
+      "label": "Best Endgame Stats",
+      "sections": [
+        {
+          "heading": "Best Endgame Stats (Level 90)",
+          "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 35000-50000+\n\n DEF: 600+\n\n CRIT Rate: 65-80%+\n\n CRIT DMG: 240-270%+\n\n Energy Regen: 110%+\n\n Aero DMG Bonus: 30%+",
+          "assets": []
+        }
+      ]
+    },
+    "skill-priority": {
+      "label": "Skill Priority",
+      "sections": [
+        {
+          "heading": "Skill Priority",
+          "text": "Below you can find the order of leveling the abilities for Cartethyia .\n Forte Circuit\n\n Res. Liberation\n\n Basic Attack\n\n Res. Skill\n\n Intro Skill\n\n Skill and Intro can be skipped when levelling to save on resources at a minimal damage loss.\n\n Gameplay and teams",
+          "assets": []
+        }
+      ]
+    },
+    "rotation": {
+      "label": "Rotation",
+      "sections": [
+        {
+          "heading": "Basic Rotation",
+          "text": "Cartethyia’s main rotation is really easy to perform thanks to her increased Interruption Resistance given by her Sword of Virtue effect. The rotation below is the most optimal way to minimize her rotation time while exploiting all the elements of her kit, as follows:\n Intro - Cartethyia\n\n Basic P2\n\n Basic P3\n\n Basic P4\n\n Skill: Sword to Bear Their Names\n\n Mid-air Attack - Cartethyia\n\n Ultimate: A Knight's Heartfelt Prayers\n\n (Skill 1) Forte: Sword to Answer Waves' Call\n\n Forte: Fleurdelys Mid-air Attack P3 (Hold Basic during Resonance Skill)\n\n Forte: Fleurdelys Basic P3\n\n Forte: Fleurdelys Basic P4\n\n Forte: Fleurdelys Basic P5\n\n (Skill 2) Forte: May Tempest Break the Tides\n\n Forte: Fleurdelys Basic P3\n\n Forte: Fleurdelys Basic P4\n\n Forte: Fleurdelys Basic P5\n\n Ultimate: Blade of Howling Squall\n\n Outro\n\n While Cartethyia has a simple rotation which is set in stone, she has some useful tricks which you can make use of to save a bit of time or otherwise improve your team damage. Here are a bunch of tricks for you to use.\n Cartethyia can adjust her rotation based on team composition:\n In most situations, the rotation we suggested is the best one, as it has the best compromise of damage for time spent on the field. It is fully functional with 14s Outro buffs and reduces Aero Erosion by the least amount of stacks, which makes it best for teams where Aero Erosion stack maintenance matters more.\n\n However, with Ciaccona present on the team, or with an S3 Cartethyia, Aero Erosion will always be at max stacks. As a result, spending 1 more Aero Erosion and slightly extending the rotation by doing Mid-Air Attack 1 & 2 instead of Mid-Air Attack 3 will lead to slightly higher DPS. This is however mostly impractical as it depends on the HP threshold of the enemy you face – if the faster rotation can kill them, it’ll save more time. Remember to adjust your rotations accordingly to the situation if you want to optimize!\n\n Cartethyia has several Swap Cancel windows:\n During her base Cartethyia form, Cartethyia is able to weave in her Resonance Skill in the middle of your other characters’ rotations. A good example of this is with Sanhua in a Cartethyia-Sanhua team. As Sanhua performs her Forte: Detonate Heavy Attack, it’s possible to switch out of Sanhua onto Cartethyia, perform her Resonance Skill, switch back to Sanhua when her animation is finished, then Outro into Cartethyia and skip out on doing this attack in the middle of her own rotation, saving a small bit of time. However, keep in mind that doing this process will require you to execute a Jump after her Basic Attack 4 in order to execute her Mid-Air Attack so that she can activate her Sword Shadow buffs. It is still faster to do so however.\n\n During her Fleurdelys form, Fleurdelys can swap out of the following abilities: Mid-Air Attack 3, Skill 2, Basic P5, Enhanced Heavy Attack.\n\n All of these abilities can be swapped out of (so long as an Outro buff which expires on swap isn’t present) and come back without delaying your Fleurdelys rotation by almost any time, as a result allowing you to weave in some extra attacks with your other characters for added damage & Concerto generation. This enables teams with Quickswap playstyles with characters like Changli.\n\n Doing this with Aero Rover enables them to make full use of Cartethyia’s Additional Ability which grants an extra 25 Windstrings for them when casting their Ultimate. Usually, they run into Concerto Energy problems, but if you Swap Cancel some of Fleurdelys’s abilities and weave in even a single Aero Rover attack, in most situations it’s enough to skip out on 1 Cloudburst Dance which speeds up your rotation and improves Team DPS!\n\n Cartethyia can Animation Cancel some of her abilities.\n It is common for several characters to act out of certain actions quicker by interrupting them with certain abilities. Note to only do this when the damage from the abilities have fully come out (or will fully come out). In Cartethyia’s case, she makes use of this all throughout her rotation, as she is able to act out of certain abilities quicker via certain methods than if she were to follow up with a Basic Attack for example. This small delay where she is unable to perform any actions is called “endlag” and this endlag, lasting for a few tenths of a second in most cases, can be interrupted early via certain abilities. This is a strict improvement to her rotation time without forfeiting any damage, thus increasing DPS. Here are all the examples used in practice throughout her rotation:\n\n In Cartethyia form: Cancelling her Basic Attack 4’s endlag into her Resonance Skill or a Jump into a Mid-Air Attack.\n\n In Cartethyia form: Cancelling her Mid-Air Attack’s endlag with her Ultimate (this can be done really early while still activating Sword Shadow buffs, however you lose out on a good chunk of damage which is not worth it in almost every scenario. Make sure to do this with a bit of timing).\n\n In Fleurdelys form: Cancelling her Mid-Air Attack 3’s endlag with her Skill 2.\n\n In Fleurdelys form: Cancelling her Enhanced Heavy Attack’s endlag into her second Ultimate.\n\n For more advanced players, make sure to incorporate most, if not all of these tricks throughout your entire rotation to take your Cartethyia’s damage way ahead of everyone else!",
+          "assets": []
+        }
+      ]
+    },
+    "synergies": {
+      "label": "Synergies",
+      "sections": [
+        {
+          "heading": "Synergies",
+          "text": "Ciaccona - The best Sub DPS option for Cartethyia, who has a short rotation whilst doing great damage, provides good buffs via her Solo Concert, Echo set and potential weapon, and amplifies Aero Erosion damage by 100% on Outro. But most importantly, Ciaccona applies a ton of Aero Erosion off-field over time, which allows Cartethyia to make full leverage of her kit buffs. For these reasons, they are best when paired together.\n Rover (Aero) Chisa The Shorekeeper - All of the three best third slot Support choices Cartethyia has. While Ciaccona is consistently on all of her best teams, each of these characters have their use cases. Aero Rover and Chisa are built to make full leverage of Cartethyia's kit since they can each increase the Aero Erosion stack count on enemies by 3; Shorekeeper is mostly used in Whimpering Wastes since ramping Aero Erosion up to 6 is difficult in multi-wave content so her buffs and rotation speed can see use. While Chisa has better buffs than Aero Rover, that's only with her Signature weapon equipped. Pick and choose your support based on your situation, and you can always play 2 of them as an alternative if Ciaccona isn't available!\n Sanhua - Sanhua works with Cartethyia as her best F2P pair, because buffing Basic Attack DMG for her isn't too bad as it buffs a number of her abilities, but most importantly Sanhua rotates in and out at lightspeed, while still being able to provide some buffing via her Echo set. As she doesn't apply any Aero Erosion, Sanhua's main purpose is mostly to get in and get out for Cartethyia to take all available field time. For these reasons, it's an acceptable duo, still stronger than alternatives like Aalto as he doesn't back up his field time with enough damage and barely gives any higher buffing potential.",
+          "assets": [
+            {
+              "id": "ba56fbcc8eb4",
+              "sourceHash": "ba56fbcc8eb4",
+              "kind": "characters",
+              "name": "Ciaccona",
+              "fileStem": "ciaccona-icon",
+              "path": "Prydwen/ww/assets/characters/ciaccona-ba56fbcc8eb4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "df8c0bc8d49a",
+              "sourceHash": "df8c0bc8d49a",
+              "kind": "characters",
+              "name": "Rover (Aero)",
+              "fileStem": "rover-aero-icon",
+              "path": "Prydwen/ww/assets/characters/rover-aero-df8c0bc8d49a.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "0e96075575d8",
+              "sourceHash": "0e96075575d8",
+              "kind": "characters",
+              "name": "Chisa",
+              "fileStem": "chisa-icon",
+              "path": "Prydwen/ww/assets/characters/chisa-0e96075575d8.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d909de4aecde",
+              "sourceHash": "d909de4aecde",
+              "kind": "characters",
+              "name": "The Shorekeeper",
+              "fileStem": "the-shorekeeper-icon",
+              "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "f3c8221757b4",
+              "sourceHash": "f3c8221757b4",
+              "kind": "characters",
+              "name": "Sanhua",
+              "fileStem": "sanhua-icon",
+              "path": "Prydwen/ww/assets/characters/sanhua-f3c8221757b4.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "example-teams": {
+      "label": "Example Teams",
+      "sections": [
+        {
+          "heading": "Example Teams",
+          "text": "Team #1\n\n Chisa is only stronger than Aero Rover with her Signature. Shorekeeper is also mostly usable in the third slot in Whimpering Wastes since Aero Erosion won't have time to ramp up to 6.\n\n Team #2: Alternative Teams\n\n Remember Aero Rover is the 2nd character in the rotation with Chisa or Shorekeeper on the team, but they open the rotation with Sanhua on the team. Also use Skyfall Severance to convert Havoc Bane into Erosion if you use them with Chisa!\n\n Calculations",
+          "assets": [
+            {
+              "id": "24cf4bbd3534",
+              "sourceHash": "24cf4bbd3534",
+              "kind": "characters",
+              "name": "Cartethyia",
+              "fileStem": "cartethyia-icon",
+              "path": "Prydwen/ww/assets/characters/cartethyia-24cf4bbd3534.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "ba56fbcc8eb4",
+              "sourceHash": "ba56fbcc8eb4",
+              "kind": "characters",
+              "name": "Ciaccona",
+              "fileStem": "ciaccona-icon",
+              "path": "Prydwen/ww/assets/characters/ciaccona-ba56fbcc8eb4.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "0e96075575d8",
+              "sourceHash": "0e96075575d8",
+              "kind": "characters",
+              "name": "Chisa",
+              "fileStem": "chisa-icon",
+              "path": "Prydwen/ww/assets/characters/chisa-0e96075575d8.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "df8c0bc8d49a",
+              "sourceHash": "df8c0bc8d49a",
+              "kind": "characters",
+              "name": "Rover (Aero)",
+              "fileStem": "rover-aero-icon",
+              "path": "Prydwen/ww/assets/characters/rover-aero-df8c0bc8d49a.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "d909de4aecde",
+              "sourceHash": "d909de4aecde",
+              "kind": "characters",
+              "name": "The Shorekeeper",
+              "fileStem": "the-shorekeeper-icon",
+              "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "f3c8221757b4",
+              "sourceHash": "f3c8221757b4",
+              "kind": "characters",
+              "name": "Sanhua",
+              "fileStem": "sanhua-icon",
+              "path": "Prydwen/ww/assets/characters/sanhua-f3c8221757b4.webp",
+              "width": 120,
+              "height": 120
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Cartethyia Best Build Guide | Wuthering Waves (WuWa)\n \n\n Wuthering Waves\n Home Database Characters Weapons Echoes Banners\n Tier Lists Tier List Team Tier List Value Tier List\n Guides Guides\n Resources Map News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Wuthering Waves\n /\n Characters\n /\n Cartethyia\n Cartethyia Best Build Guide\n Last updated: 09/June/2026\n\n Introduction\n Best guide and build for Cartethyia from WW (Wuthering Waves). Cartethyia is a 5 ★ rarity character from the Aero element who uses the Sword type weapon.\n\n To learn more about Cartethyia check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Cartethyia has at least one video guide available:\n\n Update tracker\n Last review update\n Patch 2.4\n\n Last major build/calcs update\n Patch 3.0\n\n Last profile update*\n 09/June/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Cartethyia check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Kit\n\n Review\n\n Build\n\n Gameplay and teams\n\n Calculations\n\n Profile\n\n Skills\n Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Sword to Carve My Forms\n\n Basic Attack - Cartethyia\n Perform up to 4 consecutive attacks, dealing Aero DMG .\n Following Basic Attack - Cartethyia Stage 4, inflict 1 stack of Aero Erosion on targets hit and summon Sword of Divinity's Shadow.\n Up to 1 Sword of Divinity's Shadow may exist at the same time, lasting for 20s .\n Heavy Attack - Cartethyia\n Consume STA to attack the target, dealing Aero DMG and summoning Sword of Discord's Shadow. Can be performed in mid-air.\n Up to 1 Sword of Discord's Shadow may exist at the same time, lasting for 20s .\n This instance of DMG is considered Basic Attack DMG.\n Mid-air Attack - Cartethyia\n Release Normal Attack button while airborne to perform Plunging Attack at the cost of STA, dealing Aero DMG , also considered Aero Erosion DMG .\n Press Normal Attack shortly after the Plunging Attack to perform Basic Attack - Cartethyia Stage 2.\n Casting Mid-air Attack - Cartethyia recalls all Sword Shadows. Based on the types and number of Sword Shadows recalled, perform different forms of Plunging Attack and obtain the corresponding Heart of Virtue, Mandate of Divinity, and Power of Discord.\n Dodge Counter - Cartethyia\n Press Normal Attack shortly after a successful Dodge to attack the target, dealing Aero DMG .\n\n Multipliers\n\n Resonance Skill\n Sword to Bear Their Names\n\n Resonance Skill - Cartethyia\n Attack the target, launch nearby enemies, and then plunge them to the ground, dealing Aero DMG and inflicting 2 stacks of Aero Erosion on the targets hit. This instance of DMG is considered Basic Attack DMG. Can be performed in mid-air.\n Following Cartethyia - Resonance Skill, summon Sword of Virtue's Shadow.\n Up to 1 Sword of Virtue's Shadow may exist at the same time, lasting for 20s .\n\n Multipliers\n\n Resonance Liberation\n A Knight's Heartfelt Prayers\n\n Resonance Liberation - A Knight's Heartfelt Prayers\n By reducing HP to 50% of the Max HP, Cartethyia transforms into Fleurdelys, unlocking new moves and entering the Manifest state for 12s .\n\n Can be performed in mid-air.\n\n Entering Manifest clears all Conviction.\n\n As Fleurdelys, Basic Attack - Fleurdelys Stage 5, Mid-air Attack - Fleurdelys Stage 2, and Resonance Skill - May Tempest Break the Tides instantly trigger 1 instance of Aero Erosion DMG and reduce the Aero Erosion stack on the target hit by 1 .\n Ending the state will not clear Resonance Energy.\n\n No HP cost when HP is below 50% .\n\n Fleurdelys's attacks restore Conviction on hit. When Conviction reaches 120 points, press Resonance Liberation to cast Resonance Liberation - Blade of Howling Squall.\n\n When Conviction is below 120 points, press Resonance Liberation to transform back into Cartethyia. When in Manifest, casting Resonance Liberation - A Knight's Heartfelt Prayers as Cartethyia consumes no Resonance Energy.\n\n When Fleurdelys has Heart of Virtue in Manifest:\n Basic Attack - Fleurdelys Stage 4 will generate a force field to Stagnate the targets within the range.\n\n Fleurdelys's resistance to interruption increases.\n\n Heart of Virtue is removed when Manifest ends.\n\n When Fleurdelys has Mandate of Divinity in Manifest:\n Aero Erosion DMG is Amplified by 50% and the damage interval is decreased by 50% for enemies within a certain distance from Fleurdelys.\n\n Mandate of Divinity is removed when Manifest ends.\n\n When Fleurdelys has Power of Discord in Manifest:\n When casting Basic Attack - Fleurdelys Stage 5, Mid-air Attack - Fleurdelys Stage 2 and Enhanced Heavy Attack - Fleurdelys or after Resonance Skill - May Tempest Break the Tides deals damage, raise the Aero Erosion stacks on all nearby targets to the highest count among the targets.\n\n Power of Discord is removed when Manifest ends.\n\n Fleurdelys will transform back to Cartethyia during quest dialogues, environmental interaction animations, or using Utilities.\n\n Fleurdelys can walk on water. Doing so on deep waters continuously consumes STA. When in walking state, Fleurdelys can step out of a high place and walk in mid-air by continuously consuming STA.\n\n Avatar - Cartethyia\n As Fleurdelys, when Conviction is below 120 points, press Resonance Liberation to perform Basic Attack - Cartethyia Stage 2 and temporarily transform back to Cartethyia, which pauses the timer on Manifest.\n Can be cast in mid-air. Casting the skill in mid-air performs Mid-air Attack - Cartethyia.\n Avatar - Fleurdelys\n When in Manifest, casting Resonance Liberation as Cartethyia performs Basic Attack - Fleurdelys Stage 2 without consuming Resonance Energy and transforms her back to Fleurdelys, which resumes the timer on Manifest.\n Can be cast in mid-air. Casting this skill in mid-air performs Mid-air Attack - Fleurdelys Stage 1.\n Resonance Liberation - Blade of Howling Squall\n When Fleurdelys has 120 points of Conviction, Resonance Liberation - A Knight's Heartfelt Prayers is replaced by Resonance Liberation - Blade of Howling Squall.\n Casting Resonance Liberation - Blade of Howling Squall removes all Conviction, ends Manifest, restores 50% of Max HP, and then deals Aero DMG to all targets in an area along a straight line in front. Upon hitting the target, remove all stacks of Aero Erosion on the target. Each stack removed Amplifies the DMG taken by the targets by 20% , up to 5 stacks.\n Can be cast in mid-air.\n\n Multipliers\n\n Forte Circuit\n Tempest\n\n Cartethyia unlocks new moves when she transforms into Fleurdelys:\n Basic Attack - Fleurdelys\n Basic Attack - Cartethyia is replaced by Basic Attack - Fleurdelys.\n Perform up to 5 consecutive attacks, dealing Aero DMG and restoring Conviction on hit.\n Mid-air Attack - Fleurdelys\n Mid-air Attack - Cartethyia is replaced by Mid-air Attack - Fleurdelys.\n Perform up to 3 consecutive attacks in the air at the cost of STA, dealing Aero DMG and restoring Conviction on hit.\n While airborne, hold Normal Attack to cast Mid-air Attack - Fleurdelys Stage 3.\n Follow up with Basic Attack shortly afterward to cast Basic Attack - Fleurdelys Stage 3.\n While airborne, casting Resonance Skill - Sword to Answer Waves' Call and Resonance Skill - May Tempest Break the Tides resets the cycle of Mid-air Attack - Fleurdelys.\n Heavy Attack - Fleurdelys\n Heavy Attack - Cartethyia is replaced by Heavy Attack - Fleurdelys.\n Thrust forward to deliver a focused strike, dealing Aero DMG and restoring Conviction on hit. This instance of DMG is considered Basic Attack DMG.\n Enhanced Heavy Attack - Fleurdelys\n While casting Heavy Attack - Fleurdelys, press Normal Attack again to cast Enhanced Heavy Attack - Fleurdelys: fall back and blast the area in a straight line in front, dealing Aero DMG and restoring Conviction on hit. This instance of DMG is considered Basic Attack DMG.\n Follow up with Basic Attack shortly after casting Enhanced Heavy Attack - Fleurdelys to cast Upward Cut - Fleurdelys.\n Upward Cut - Fleurdelys\n While Fleurdelys is on the ground, Jump to cast this skill, dealing Aero DMG and restoring Conviction on hit.\n Dodge Counter - Fleurdelys\n Dodge Counter - Cartethyia is replaced by Dodge Counter - Fleurdelys.\n Press Normal Attack shortly after a successful Dodge to attack the target, dealing Aero DMG and restoring Conviction on hit.\n Follow up with Basic Attack shortly afterward to cast Basic Attack - Fleurdelys Stage 4 .\n Resonance Skill - Sword to Answer Waves' Call\n Resonance Skill - Cartethyia is replaced by Resonance Skill - Sword to Answer Waves' Call.\n Summon a force field near the target's location to continuously pull in nearby targets, dealing Aero DMG and restoring Conviction on hit.\n Can be cast in mid-air.\n Resonance Skill - May Tempest Break the Tides\n Following Resonance Skill - Sword to Answer Waves' Call, press Resonance Skill again to call down a giant Sword Shadow to crush an area around the target, creating a force field to pull in nearby targets, dealing Aero DMG to ground targets, and restoring Conviction on hit.\n Follow up with Basic Attack shortly afterward to cast Basic Attack - Fleurdelys Stage 3.\n The Resonance Skill enters cooldown if Resonance Skill - May Tempest Break the Tides is not cast within a certain period or when switching to another Resonator.\n Can be cast in mid-air.\n\n Multipliers\n\n Inherent Skill\n A Heart's Truest Wishes\n\n The healing received by all Resonators other than Cartethyia/Fleurdelys in the team is increased by 20% and their resistance to interruption is enhanced. If Rover: Aero is in the team, Rover: Aero additionally restores 25 Windstrings upon casting Omega Storm.\n\n Inherent Skill\n Wind's Indelible Imprint\n\n Targets with 1 to 3 stacks of Aero Erosion take 30% more DMG from Cartethyia and Fleurdelys. Targets with more than 3 stacks of Aero Erosion additionally take 10% more DMG from Cartethyia and Fleurdelys for each stack of Aero Erosion they have, up to 3 stacks.\n\n Intro Skill\n Sword to Mark Tide's Trace\n\n Cartethyia - Sword to Mark Tide's Trace\n Deal Aero DMG and inflict 2 stacks of Aero Erosion on targets hit. Summon Sword of Discord's Shadow.\n Up to 1 Sword of Discord's Shadow may exist at the same time, lasting 20s .\n Press Normal Attack shortly after Cartethyia - Sword to Mark Tide's Trace to perform Basic Attack - Cartethyia Stage 2.\n Fleurdelys - Sword to Call for Freedom\n Thrust forward to impale the target, dealing Aero DMG and restoring Conviction.\n Press Normal Attack shortly after Fleurdelys - Sword to Call for Freedom to cast Basic Attack - Fleurdelys Stage 2.\n\n Multipliers\n\n Outro Skill\n Wind's Divine Blessing\n\n Aero DMG dealt by the active Resonator in the team other than Cartethyia/Fleurdelys to targets with Negative Statuses is Amplified by 17.5% for 20s .\n\n Resonance Chain (Dupes)\n S 1\n Sequence Node 1\n\n Gain Zeal that lasts for 10s when Cartethyia's or Fleurdelys's attacks directly damage and defeat targets inflicted with Aero Erosion .\n In the Zeal state, upon defeating enemies, the next move that directly damages targets raises the Aero Erosion stacks on the targets to the highest count among the targets defeated. This will not exceed the current max Aero Erosion stack limit. Zeal is removed afterward and enters a 1s cooldown.\n When Fleurdelys's Conviction hits 30/60/90/120 , Fleurdelys's Crit. DMG is increased by 25% for 15s , up to 4 stacks. The duration of this effect does not reset upon gaining new stacks. After casting Resonance Liberation - Blade of Howling Squall, the increased Crit. DMG is removed.\n\n S 2\n Sequence Node 2\n\n Casting Resonance Liberation - A Knight's Heartfelt Prayers increases the max stack limit of Aero Erosion on targets within a certain range by 3 stacks. The next attack that directly damages the target inflicts 3 stacks of Aero Erosion on all targets within a certain range and immediately triggers the Aero Erosion DMG on the targets hit once without consuming the Aero Erosion stacks.\n The DMG Multipliers of Cartethyia's Basic Attack, Heavy Attack, Dodge Counter, and Intro Skill are increased by 50% and the DMG Multiplier of her Mid-air Attack is increased by 200% .\n After casting Mid-air Attack - Cartethyia, every 1 type of Sword Shadow recalled reduces the cooldown of Resonance Skill - Cartethyia by 1s .\n\n S 3\n Sequence Node 3\n\n Basic Attack - Fleurdelys Stage 5, Mid-air Attack - Fleurdelys Stage 2, Enhanced Heavy Attack - Fleurdelys, and Resonance Skill - May Tempest Break the Tides now inflict 2 stacks of Aero Erosion on the targets hit.\n The DMG Multiplier of Resonance Liberation - Blade of Howling Squall is increased by 100% .\n\n S 4\n Sequence Node 4\n\n After Resonators in the team inflict Havoc Bane, Fusion Burst, Spectro Frazzle, Electro Flare, Glacio Chafe, or Aero Erosion, all Resonators in the team gain 20% DMG Bonus for all Attributes for 20s .\n\n S 5\n Sequence Node 5\n\n When Cartethyia or Fleurdelys takes a fatal blow, they will not be downed by this instance of damage, but instead gain a Shield equal to 20% of Cartethyia's Max HP for 10s . This effect can be triggered once every 10 min.\n The HP cost for casting Resonance Liberation - A Knight's Heartfelt Prayers is reduced to 25% of Max HP.\n\n S 6\n Sequence Node 6\n\n After casting Resonance Liberation - Blade of Howling Squall, raise the Aero Erosion stacks on the target hit to max. Casting Resonance Liberation - Blade of Howling Squall no longer removes the Aero Erosion stacks on the target.\n Within 30s after casting Intro Skill - Sword to Mark Tide's Trace, Intro Skill - Sword to Call for Freedom, Resonance Liberation - A Knight's Heartfelt Prayers, and Resonance Liberation - Blade of Howling Squall, when any Resonator in the team inflicts Aero Erosion on the targets with max stacks of Aero Erosion , immediately trigger the Aero Erosion DMG once.\n The targets take 40% more DMG from Fleurdelys.\n\n Minor Fortes (Total)\n CRIT Rate\n + 8 %\n\n HP%\n + 12 %\n\n Stats\n\nInclude minor fortes\n\n Lv. 90\n\n HP\n 14800\n\n ATK\n 313\n\n DEF\n 611\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Aero DMG\n 0 %\n\n Upgrade Materials\n Character Ascension (total)\n 4 x LF Tidal Residuum\n 12 x MF Tidal Residuum\n 12 x HF Tidal Residuum\n 4 x FF Tidal Residuum\n 46 x Unfading Glory\n 60 x Bamboo Iris\n 170 000 Shell Credits\n\n Skill Upgrades (total)\n 25 x LF Tidal Residuum\n 28 x MF Tidal Residuum\n 40 x HF Tidal Residuum\n 57 x FF Tidal Residuum\n 25 x Inert Metallic Drip\n 28 x Reactive Metallic Drip\n 55 x Polarized Metallic Drip\n 67 x Heterized Metallic Drip\n 26 x When Irises Bloom\n 2 030 000 Shell Credits\n\n While the source of the materials can be quickly found in the game, when it comes Bamboo Iris you will have to gather them from the map. Check our Interactive map to find them quickly:\n\n Interactive Map\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n DPS\n T0.5\n Tower of Adversity\n\n T1.5\n Whimpering Wastes\n\n Value Tier List\n DPS\n T1\n Tower of Adversity (Value)\n\n T2\n Whimpering Wastes (Value)\n\n Pros & Cons\n Pros\n Best DPS in the game in her best team with optimal conditions. Period.\n\n Built-in interruption resistance: once inputs are learnt, her rotation is near-impossible to fail;\n\n Self-sufficient: heals herself, applies and amplifies Aero Erosion, making her able to exploit her kit by herself (albeit not to its full potential);\n\n Difficult to hit as a good chunk of her rotation is spent in the air;\n\n Able to stagnate AND group enemies in Fleurdelys form;\n\n Lots of swap cancel windows: room for optimization & quickswap;\n\n DPS is so good at a baseline that even without her best team or best weapon, she’ll still slap anything in her way with good Echoes;\n\n Increases teammate interruption resistance & healing, funnels Forte points to Aero Rover if present — makes team rotations much smoother;\n\n INSANE second Ultimate animation.\n\n Cons\n Very expensive: teammate reliant, signature weapon reliant, even buffed by teammate signature weapons, requires your other characters to adopt unconventional builds, herself being built unconventionally as she scales off of HP. Be prepared to dump a LOT of resources into this character to unleash her full potential, without the possibility to share her build with anyone else;\n\n Can have difficulties keeping Aero Erosion stacked up in AoE scenarios if she kills all enemies at once (particularly important in Whimpering Wastes). This effect is further amplified without Ciaccona on the team, even in single-target situations;\n\n In-game kit descriptions are 3 times longer to read than our in-depth review. It’s time to make proper use of the shortened description feature you implemented, Kuro…\n\n Review\n At long last, the highly-anticipated Cartethyia is available to play in Wuthering Waves 2.4, and she does not mess around. Cartethyia is a 5-star Aero Sword DPS character whose primary role is to deal massive damage to enemies in a wide Area of Effect after she’s been fully buffed by the 2 other characters in your team. Best in a Hypercarry playstyle, but also functional in Quickswap team compositions, Cartethyia relies on the Aero Erosion mechanic to take her damage a step ahead of the competition.\n As Cartethyia’s kit description is, to REALLY say the least, a long read… we’ll spare you all of the unnecessary details and instead exclusively tackle what we use in her rotation.\n Something to note to start with, is that the entirety of Cartethyia’s damage is based on her HP. This makes building her certainly original, but also way more restrictive, as most Swords and Echo sets revolve around buffing ATK. This makes her a very selective DPS in general and is one of her main flaws — but we’re getting ahead of ourselves, so let’s start with her kit in the order of her rotation:\n First of all, Cartethyia has two forms. Her Ultimate allows her to transform into Fleurdelys to gain a new kit, but before that, she needs to accumulate what’s known as “Sword Shadows”. There are 3 types of Sword Shadows, all of which enhance her kit in her Fleurdelys form where she will deal the overwhelming majority of her damage. All Sword Shadows acquired are visible on her Forte bar in her Cartethyia form. Their effects to Fleurdelys are as follows:\n Sword of Discord: Gained after using Cartethyia’s Resonance Intro, it raises the Aero Erosion stacks on all nearby enemies to whatever count is highest among the currently remaining enemies after using most of Fleurdelys’s important abilities. This has two effects: the first is keeping all enemies in range at the same amount of Aero Erosion, the second is refreshing the duration of Aero Erosion (so the stacks will never expire mid-rotation);\n\n Sword of Divinity: Gained after using Cartethyia’s Basic Attack 4, it amplifies Aero Erosion DMG by 50% and reduces the damage interval by 50% for enemies near Fleurdelys (meaning the damage is applied twice as fast effectively doubling the damage on top of 50% Amplification);\n\n Sword of Virtue: Gained after using Cartethyia’s Skill, it allows her to gain increased Interruption Resistance and generate a stagnation field after using her Basic Attack 4 in Fleurdelys form.\n\n All of these Sword Shadows (aside from Sword of Discord in single-target scenarios, but it is really easy to acquire) are really important to obtain. However, another effect stacking up each Sword will have is enhancing Cartethyia’s Mid-Air Attack. Using this Mid-Air Attack summons all Sword Shadows to attack the enemy, inflicting higher damage and granting their effects to Fleurdelys. Hence, it is mandatory to cast this Mid-Air Attack every rotation to ensure Fleurdelys is as buffed as can be to deal the highest amount of damage possible. Besides, the damage on this ability isn’t bad, so increasing it further isn’t a bad idea in any context.\n This means, to start with, we will do the following abilities:\n Intro Skill (This acquires Sword of Virtue);\n\n Basic 2, 3, 4 (Using Intro skill allows Cartethyia to start at Basic 2, this acquires Sword of Divinity);\n\n Resonance Skill (This acquires Sword of Discord);\n\n Mid-Air Attack (This consumes all Swords to grant their effects to Fleurdelys);\n\n Ultimate (This transforms Cartethyia into Fleurdelys).\n\n It should be noted that Intro Skill and Resonance Skill each apply 2 stacks of Aero Erosion on the targets hit, while Basic Attack 4 applies 1 stack, for a total of 5 Aero Erosion stacks per rotation. The limit is naturally 3 stacks, however this can be increased via Aero Rover’s Outro skill and via Cartethyia’s Sequence 2 (each increasing the limit by 3). At most, Fleurdelys benefits from 6 Aero Erosion stacks being present on her targets. Via Cartethyia’s Inherent Skill, all damage dealt by Cartethyia and Fleurdelys on targets affected by Aero Erosion increases by 30% regardless of their stack count. For every stack above 3, she also gains an extra 10% Aero Erosion up to 30% at 6 stacks (for a total of 60% DMG Bonus). This gives her a tremendous amount of DMG Bonus, further adding on to the necessity to apply Aero Erosion on her targets.\n Her other Inherent Skill increases healing to all characters in the team aside from herself by 20%, along with increasing their interruption resistance. She additionally gives 25 Forte points to Aero Rover if they are present in the team and cast their Ultimate - this however only sees real use if Aero Rover is swapped in the middle of Fleurdelys’s rotation (as otherwise, they will face Concerto Energy problems when trying to take advantage of this ability. However, if the player is able to manage that, it is a nice time save).\n With that out of the way, let’s finally tackle her Fleurdelys form, called “Manifest” and establish the essentials:\n When transforming into Fleurdelys, Cartethyia immediately reduces her Max HP to 50% of its original value (unless her current HP is already equal to or below 50%). The Manifest state lasts for 12s.\n\n Fleurdelys gains a brand new kit with new Basic Attacks, 2 new Heavy Attacks, 2 new Resonance Skills, a new Forte bar called “Conviction” which allows her to cast her second Ultimate (the hardest-hitting ability she has), a brand new Intro Skill and certain attacks make her consume Aero Erosion instead of applying it.\n\n When using several key abilities, Fleurdelys will consume 1 stack of Aero Erosion to instantly deal the instance of damage it normally would’ve done.\n\n When using any ability, Fleurdelys restores a portion of Conviction, stackable up to 120. At 120 points, she is able to cast her second Ultimate, deal MASSIVE damage in this process, and end her rotation.\n\n The damage of this second Ultimate is influenced by how much Aero Erosion is present on the targets, up to 5 stacks. Each of these 5 potential stacks get removed on cast and amplify the damage of the attack by 20% each (up to 100%).\n\n The second Ultimate restores 50% of Cartethyia’s (not Fleurdelys’s) max HP.\n\n Ending the state does not cost any Resonance Energy.\n\n Here is the most efficient way to stack up Conviction, along with what abilities consume Aero Erosion:\n Skill 1\n\n Mid-Air Attack 3\n\n Skill 2 (this consumes 1 Aero Erosion)\n\n Basic 3 (her Basic chain starts from stage 3 after Skill 2)\n\n Basic 4\n\n Basic 5 (this consumes 1 Aero Erosion)\n\n Heavy Attack\n\n Enhanced Heavy Attack (press Basic Attack shortly after Heavy Attack)\n\n After all of these abilities have been performed, Fleurdelys is free to perform her second Ultimate, nuke enemies down, and end her rotation. Her Outro amplifies Aero DMG dealt to targets with Negative Status applied by 17.5% for 20s, which is an acceptable boost but nothing impressive.\n All of Cartethyia’s kit mechanics tied to Aero Erosion consumption aren’t utilizable to their fullest on her own. Unfortunately, to fully utilize her Ultimate’s DMG Amplification effect and to fully utilize her Inherent Skill’s DMG Bonus, she will need to be paired with specifically Ciaccona, and before her S2 Aero Rover as well. They are non-negotiably her best teammates, however Cartethyia’s S2 does allow her to throw out Aero Rover as a teammate as she can get 6 stacks of Aero Erosion thanks to it. This removes the need to have a clunky teammate on the team and only further adds to her value (not to mention the insane damage boosts S1 & S2 provide, basically makes clearing any content completely free).\n Nonetheless, at S0, Cartethyia’s teams do get restricted by the nature of her kit’s mechanics, as they tie her down to specific Aero Erosion teammates. However, even without both Ciaccona and Aero Rover (all 3 must non-negotiably be used together for optimal synergy), Cartethyia does get fantastic damage on her own as her kit is mostly self-sufficient. Add that to a solid amount of swap cancel windows (check her Gameplay page for more information on this) and you have a character who is more than enough on her own, and a massive destructive force in her best team. It’s very easy to see Cartethyia deals the most damage of any character currently and as a result is the best damage dealer in the game, making her a staple of the game’s meta.\n In conclusion, Cartethyia is an excellent all-around damage dealer. She is capable of handling all kinds of situations, from single-target to AoE, although she does have some issues re-applying Aero Erosion, particularly in Whimpering Wastes, when a full wave of enemies dies at once. She has the highest damage potential in the game and is able to work with several teammates to a great degree, even her F2P team is good enough to make for a top tier team composition. Note however that her main flaw is in her lack of a good weapon due to her HP scaling & she lacks Aero Erosion teammate options, which can make her expensive or underperform if you don’t invest enough pulls into getting her other upgrades to make full leverage of her kit. However, in her best conditions, Cartethyia will perform as the best DPS in the game, making her one of the most valuable characters in Wuthering Waves.\n\n Video guides\n\n Build\n\n Best Weapons\n The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Cartethyia calculations were done using added buffs from the following teammates:\n Ciaccona + Woodland Aria +\n Gusts of Welkin\n\n +\n Nightmare: Kelpie\n\n Rover (Aero) + Bloodpact's Pledge +\n Windward Pilgrimage\n\n +\n Reminiscence: Fleurdelys\n\n 100.00%\n\n Defier's Thorn (R 1 )\n\n Cartethyia's Signature and her best by a large amount, as it provides her with a massive amount of HP% for her to utilize her kit to the fullest potential. On top of this, having an extra passive 8% DEF Ignore and 20% general DMG Amplification to all targets inflicted with Aero Erosion makes this weapon the uncontested best for Cartethyia, as it is the only option which gives her the stats she truly wants.\n 79.50%\n\n Red Spring (R 1 )\n\n Camellya's weapon works well for Cartethyia by virtue of providing 24.3% CRIT Rate as its secondary stat, but also providing an extra 30% Basic Attack DMG bonus via the weapon's passive effect which she uses decently well. For this reason, it is the second best option behind her sought-after Signature.\n 76.30%\n\n Feather Edge (R 5 )\n\n This Battle Pass exclusive is fantastic on Cartethyia because the usual issue of 4-star weapons being low Base ATK doesn't hinder her at all (since she doesn't scale off of it). Instead, she can enjoy the large amount of Liberation DMG Bonus (one of her two main damage types) and the 20.3% CRIT Rate provided by the weapon, making it a great alternative to her Signature.\n 77.00%\n\n Blazing Brilliance (R 1 )\n\n Simple CRIT DMG and Skill DMG stat-stick for Cartethyia, which doesn't compare to above options as Skill DMG is a negligible part of her damage overall.\n 75.90%\n\n Emerald Sentence (R 1 )\n\n Simple CRIT Rate stat-stick for Cartethyia, who barely makes any use of the weapon's passive effects (very minor increase to her Echo Skill DMG which is really negligible).\n 75.70%\n\n Emerald of Genesis (R 1 )\n\n CRIT Rate and Energy Regen stat-stick for Cartethyia, making it the best permanently available option as she lacks any good alternatives that aren't from the Battle Pass.\n 72.30%\n\n Guardian Sword (R 5 )\n\n Last resort option if none of the above are owned, as this is the only Sword in the game that provides HP% other than Cartethyia's Signature.\n\n Best Echo Sets\n Best Echo Sets\n 100.00%\n\nWindward Pilgrimage\n\n Best set for Aero Main DPS characters who can apply Aero Erosion or have an Aero Erosion applier on the team. Grants 10% Aero DMG Bonus and an extra 30% Aero DMG Bonus as well as 10% CRIT Rate for 10s when attacking targets inflicted with Aero Erosion. Offers an extra 10% CRIT Rate over the other Aero sets such as Gusts of Welkin or Sierra Gale, providing extra overall damage so long as Aero Erosion is present on the enemy.\n Below you can find Main Echo options:\n\n Reminiscence: Fleurdelys\n\n - A simple Summon Echo that deals a good chunk of damage, but most importantly grants the assigned Resonator 10% unconditional Aero DMG Bonus if equipped in the Main Slot, with an extra 10% Aero DMG Bonus for Cartethyia, making it the best choice for her.\n\n Best Echo Stats\n 4 cost\n CRIT Rate\n\n 4 cost\n CRIT DMG\n\n 1 cost\n HP%\n\n 1 cost\n HP%\n\n 1 cost\n HP%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > HP% > Basic Attack DMG% = Liberation DMG% > HP\n\n Best Endgame Stats (Level 90)\n All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 35000-50000+\n\n DEF: 600+\n\n CRIT Rate: 65-80%+\n\n CRIT DMG: 240-270%+\n\n Energy Regen: 110%+\n\n Aero DMG Bonus: 30%+\n\n Skill Priority\n Below you can find the order of leveling the abilities for Cartethyia .\n Forte Circuit\n\n Res. Liberation\n\n Basic Attack\n\n Res. Skill\n\n Intro Skill\n\n Skill and Intro can be skipped when levelling to save on resources at a minimal damage loss.\n\n Gameplay and teams\n\n Rotation\n Basic Rotation\n Cartethyia’s main rotation is really easy to perform thanks to her increased Interruption Resistance given by her Sword of Virtue effect. The rotation below is the most optimal way to minimize her rotation time while exploiting all the elements of her kit, as follows:\n Intro - Cartethyia\n\n Basic P2\n\n Basic P3\n\n Basic P4\n\n Skill: Sword to Bear Their Names\n\n Mid-air Attack - Cartethyia\n\n Ultimate: A Knight's Heartfelt Prayers\n\n (Skill 1) Forte: Sword to Answer Waves' Call\n\n Forte: Fleurdelys Mid-air Attack P3 (Hold Basic during Resonance Skill)\n\n Forte: Fleurdelys Basic P3\n\n Forte: Fleurdelys Basic P4\n\n Forte: Fleurdelys Basic P5\n\n (Skill 2) Forte: May Tempest Break the Tides\n\n Forte: Fleurdelys Basic P3\n\n Forte: Fleurdelys Basic P4\n\n Forte: Fleurdelys Basic P5\n\n Ultimate: Blade of Howling Squall\n\n Outro\n\n While Cartethyia has a simple rotation which is set in stone, she has some useful tricks which you can make use of to save a bit of time or otherwise improve your team damage. Here are a bunch of tricks for you to use.\n Cartethyia can adjust her rotation based on team composition:\n In most situations, the rotation we suggested is the best one, as it has the best compromise of damage for time spent on the field. It is fully functional with 14s Outro buffs and reduces Aero Erosion by the least amount of stacks, which makes it best for teams where Aero Erosion stack maintenance matters more.\n\n However, with Ciaccona present on the team, or with an S3 Cartethyia, Aero Erosion will always be at max stacks. As a result, spending 1 more Aero Erosion and slightly extending the rotation by doing Mid-Air Attack 1 & 2 instead of Mid-Air Attack 3 will lead to slightly higher DPS. This is however mostly impractical as it depends on the HP threshold of the enemy you face – if the faster rotation can kill them, it’ll save more time. Remember to adjust your rotations accordingly to the situation if you want to optimize!\n\n Cartethyia has several Swap Cancel windows:\n During her base Cartethyia form, Cartethyia is able to weave in her Resonance Skill in the middle of your other characters’ rotations. A good example of this is with Sanhua in a Cartethyia-Sanhua team. As Sanhua performs her Forte: Detonate Heavy Attack, it’s possible to switch out of Sanhua onto Cartethyia, perform her Resonance Skill, switch back to Sanhua when her animation is finished, then Outro into Cartethyia and skip out on doing this attack in the middle of her own rotation, saving a small bit of time. However, keep in mind that doing this process will require you to execute a Jump after her Basic Attack 4 in order to execute her Mid-Air Attack so that she can activate her Sword Shadow buffs. It is still faster to do so however.\n\n During her Fleurdelys form, Fleurdelys can swap out of the following abilities: Mid-Air Attack 3, Skill 2, Basic P5, Enhanced Heavy Attack.\n\n All of these abilities can be swapped out of (so long as an Outro buff which expires on swap isn’t present) and come back without delaying your Fleurdelys rotation by almost any time, as a result allowing you to weave in some extra attacks with your other characters for added damage & Concerto generation. This enables teams with Quickswap playstyles with characters like Changli.\n\n Doing this with Aero Rover enables them to make full use of Cartethyia’s Additional Ability which grants an extra 25 Windstrings for them when casting their Ultimate. Usually, they run into Concerto Energy problems, but if you Swap Cancel some of Fleurdelys’s abilities and weave in even a single Aero Rover attack, in most situations it’s enough to skip out on 1 Cloudburst Dance which speeds up your rotation and improves Team DPS!\n\n Cartethyia can Animation Cancel some of her abilities.\n It is common for several characters to act out of certain actions quicker by interrupting them with certain abilities. Note to only do this when the damage from the abilities have fully come out (or will fully come out). In Cartethyia’s case, she makes use of this all throughout her rotation, as she is able to act out of certain abilities quicker via certain methods than if she were to follow up with a Basic Attack for example. This small delay where she is unable to perform any actions is called “endlag” and this endlag, lasting for a few tenths of a second in most cases, can be interrupted early via certain abilities. This is a strict improvement to her rotation time without forfeiting any damage, thus increasing DPS. Here are all the examples used in practice throughout her rotation:\n\n In Cartethyia form: Cancelling her Basic Attack 4’s endlag into her Resonance Skill or a Jump into a Mid-Air Attack.\n\n In Cartethyia form: Cancelling her Mid-Air Attack’s endlag with her Ultimate (this can be done really early while still activating Sword Shadow buffs, however you lose out on a good chunk of damage which is not worth it in almost every scenario. Make sure to do this with a bit of timing).\n\n In Fleurdelys form: Cancelling her Mid-Air Attack 3’s endlag with her Skill 2.\n\n In Fleurdelys form: Cancelling her Enhanced Heavy Attack’s endlag into her second Ultimate.\n\n For more advanced players, make sure to incorporate most, if not all of these tricks throughout your entire rotation to take your Cartethyia’s damage way ahead of everyone else!\n\n Synergies\n Ciaccona - The best Sub DPS option for Cartethyia, who has a short rotation whilst doing great damage, provides good buffs via her Solo Concert, Echo set and potential weapon, and amplifies Aero Erosion damage by 100% on Outro. But most importantly, Ciaccona applies a ton of Aero Erosion off-field over time, which allows Cartethyia to make full leverage of her kit buffs. For these reasons, they are best when paired together.\n Rover (Aero) Chisa The Shorekeeper - All of the three best third slot Support choices Cartethyia has. While Ciaccona is consistently on all of her best teams, each of these characters have their use cases. Aero Rover and Chisa are built to make full leverage of Cartethyia's kit since they can each increase the Aero Erosion stack count on enemies by 3; Shorekeeper is mostly used in Whimpering Wastes since ramping Aero Erosion up to 6 is difficult in multi-wave content so her buffs and rotation speed can see use. While Chisa has better buffs than Aero Rover, that's only with her Signature weapon equipped. Pick and choose your support based on your situation, and you can always play 2 of them as an alternative if Ciaccona isn't available!\n Sanhua - Sanhua works with Cartethyia as her best F2P pair, because buffing Basic Attack DMG for her isn't too bad as it buffs a number of her abilities, but most importantly Sanhua rotates in and out at lightspeed, while still being able to provide some buffing via her Echo set. As she doesn't apply any Aero Erosion, Sanhua's main purpose is mostly to get in and get out for Cartethyia to take all available field time. For these reasons, it's an acceptable duo, still stronger than alternatives like Aalto as he doesn't back up his field time with enough damage and barely gives any higher buffing potential.\n Example Teams\n Team #1\n\n Chisa is only stronger than Aero Rover with her Signature. Shorekeeper is also mostly usable in the third slot in Whimpering Wastes since Aero Erosion won't have time to ramp up to 6.\n\n Team #2: Alternative Teams\n\n Remember Aero Rover is the 2nd character in the rotation with Chisa or Shorekeeper on the team, but they open the rotation with Sanhua on the team. Also use Skyfall Severance to convert Havoc Bane into Erosion if you use them with Chisa!\n\n Calculations"
+}

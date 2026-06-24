@@ -1,0 +1,1655 @@
+{
+  "id": "characters:yunli",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "yunli",
+  "name": "Yunli",
+  "title": "Yunli Best Build Guide",
+  "sourcePath": "/star-rail/characters/yunli",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "31/May/2026",
+  "meta": {
+    "title": "Yunli Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Physical",
+    "path": "Destruction"
+  },
+  "assets": [
+    {
+      "id": "0ec74736d83e",
+      "sourceHash": "0ec74736d83e",
+      "kind": "characters",
+      "name": "Yunli",
+      "fileStem": "yunli-card",
+      "path": "Prydwen/hsr/assets/characters/yunli-0ec74736d83e.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "af5b8acc8f63",
+      "sourceHash": "af5b8acc8f63",
+      "kind": "icons",
+      "name": "CRIT Rate",
+      "fileStem": "stat-critrate",
+      "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "dc6aec4a7776",
+      "sourceHash": "dc6aec4a7776",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "96654253a4f7",
+      "sourceHash": "96654253a4f7",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "a6be649090ba",
+      "sourceHash": "a6be649090ba",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "087f2dec68b6",
+      "sourceHash": "087f2dec68b6",
+      "kind": "icons",
+      "name": "Speed",
+      "fileStem": "stat-speed",
+      "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "50d0e755383a",
+      "sourceHash": "50d0e755383a",
+      "kind": "items",
+      "name": "Credit",
+      "fileStem": "credit",
+      "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "4b49275a9402",
+      "sourceHash": "4b49275a9402",
+      "kind": "items",
+      "name": "Artifex's Module",
+      "fileStem": "artifex-module",
+      "path": "Prydwen/hsr/assets/items/artifexs-module-4b49275a9402.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "c86f47a9e4e8",
+      "sourceHash": "c86f47a9e4e8",
+      "kind": "items",
+      "name": "Artifex's Cogwheel",
+      "fileStem": "artifex-cogwheel",
+      "path": "Prydwen/hsr/assets/items/artifexs-cogwheel-c86f47a9e4e8.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "9b006fa49e49",
+      "sourceHash": "9b006fa49e49",
+      "kind": "items",
+      "name": "IPC Work Permit",
+      "fileStem": "ipc-work-permit",
+      "path": "Prydwen/hsr/assets/items/ipc-work-permit-9b006fa49e49.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "a7a4c46218eb",
+      "sourceHash": "a7a4c46218eb",
+      "kind": "items",
+      "name": "Artifex's Gyreheart",
+      "fileStem": "artifex-gyreheart",
+      "path": "Prydwen/hsr/assets/items/artifexs-gyreheart-a7a4c46218eb.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "fee0a789395c",
+      "sourceHash": "fee0a789395c",
+      "kind": "characters",
+      "name": "Yunli",
+      "fileStem": "yunli-full",
+      "path": "Prydwen/hsr/assets/characters/yunli-fee0a789395c.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "f0b9322f2eb2",
+      "sourceHash": "f0b9322f2eb2",
+      "kind": "light-cones",
+      "name": "Dance at Sunset",
+      "fileStem": "dance-at-sunset",
+      "path": "Prydwen/hsr/assets/light-cones/dance-at-sunset-f0b9322f2eb2.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "40af809ee965",
+      "sourceHash": "40af809ee965",
+      "kind": "light-cones",
+      "name": "Thus Burns the Dawn",
+      "fileStem": "thus-burns-the-dawn",
+      "path": "Prydwen/hsr/assets/light-cones/thus-burns-the-dawn-40af809ee965.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "0b8a81d41057",
+      "sourceHash": "0b8a81d41057",
+      "kind": "light-cones",
+      "name": "The Unreachable Side",
+      "fileStem": "the-unreachable-side",
+      "path": "Prydwen/hsr/assets/light-cones/the-unreachable-side-0b8a81d41057.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "d0c8dda87581",
+      "sourceHash": "d0c8dda87581",
+      "kind": "light-cones",
+      "name": "Brighter Than the Sun",
+      "fileStem": "brighter-than-the-sun",
+      "path": "Prydwen/hsr/assets/light-cones/brighter-than-the-sun-d0c8dda87581.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "1562e27c9224",
+      "sourceHash": "1562e27c9224",
+      "kind": "light-cones",
+      "name": "Something Irreplaceable",
+      "fileStem": "something-irreplaceable",
+      "path": "Prydwen/hsr/assets/light-cones/something-irreplaceable-1562e27c9224.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "83d0f295d2ff",
+      "sourceHash": "83d0f295d2ff",
+      "kind": "light-cones",
+      "name": "On the Fall of an Aeon",
+      "fileStem": "on-the-fall-of-an-aeon",
+      "path": "Prydwen/hsr/assets/light-cones/on-the-fall-of-an-aeon-83d0f295d2ff.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "91f28845f1bf",
+      "sourceHash": "91f28845f1bf",
+      "kind": "light-cones",
+      "name": "Under the Blue Sky",
+      "fileStem": "under-the-blue-sky",
+      "path": "Prydwen/hsr/assets/light-cones/under-the-blue-sky-91f28845f1bf.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "2d90f2919c5d",
+      "sourceHash": "2d90f2919c5d",
+      "kind": "relics",
+      "name": "The Wind-Soaring Valorous",
+      "fileStem": "the-wind-soaring-valorous",
+      "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "86c9cb6c5efe",
+      "sourceHash": "86c9cb6c5efe",
+      "kind": "relics",
+      "name": "Poet of Mourning Collapse",
+      "fileStem": "poet-of-mourning-collapse",
+      "path": "Prydwen/hsr/assets/relics/poet-of-mourning-collapse-86c9cb6c5efe.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "0edbfbfc2eca",
+      "sourceHash": "0edbfbfc2eca",
+      "kind": "relics",
+      "name": "The Ashblazing Grand Duke",
+      "fileStem": "the-ashblazing-grand-duke",
+      "path": "Prydwen/hsr/assets/relics/the-ashblazing-grand-duke-0edbfbfc2eca.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "a73e778a325a",
+      "sourceHash": "a73e778a325a",
+      "kind": "relics",
+      "name": "Champion of Streetwise Boxing",
+      "fileStem": "champion-of-streetwise-boxing",
+      "path": "Prydwen/hsr/assets/relics/champion-of-streetwise-boxing-a73e778a325a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "f521b7a2ee25",
+      "sourceHash": "f521b7a2ee25",
+      "kind": "relics",
+      "name": "Scholar Lost in Erudition",
+      "fileStem": "scholar-lost-in-erudition",
+      "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "deeeca721276",
+      "sourceHash": "deeeca721276",
+      "kind": "relics",
+      "name": "Musketeer of Wild Wheat",
+      "fileStem": "musketeer-of-wild-wheat",
+      "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "507bb2127c32",
+      "sourceHash": "507bb2127c32",
+      "kind": "relics",
+      "name": "Prisoner in Deep Confinement",
+      "fileStem": "prisoner-in-deep-confinement",
+      "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d3afe42bdcff",
+      "sourceHash": "d3afe42bdcff",
+      "kind": "relics",
+      "name": "Inert Salsotto",
+      "fileStem": "inert-salsotto",
+      "path": "Prydwen/hsr/assets/relics/inert-salsotto-d3afe42bdcff.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5c3fed1223b5",
+      "sourceHash": "5c3fed1223b5",
+      "kind": "relics",
+      "name": "Duran, Dynasty of Running Wolves",
+      "fileStem": "duran-dynasty-of-running-wolves",
+      "path": "Prydwen/hsr/assets/relics/duran-dynasty-of-running-wolves-5c3fed1223b5.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "44c437b21b3a",
+      "sourceHash": "44c437b21b3a",
+      "kind": "icons",
+      "name": "CRIT DMG",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "6331eb666473",
+      "sourceHash": "6331eb666473",
+      "kind": "icons",
+      "name": "Physical DMG",
+      "fileStem": "stat-phydmg",
+      "path": "Prydwen/hsr/assets/icons/physical-dmg-6331eb666473.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "106ddd8eff32",
+      "sourceHash": "106ddd8eff32",
+      "kind": "icons",
+      "name": "Energy Regen",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "e985c6a49a99",
+      "sourceHash": "e985c6a49a99",
+      "kind": "characters",
+      "name": "Robin",
+      "fileStem": "robin-icon",
+      "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "2cde7699adbf",
+      "sourceHash": "2cde7699adbf",
+      "kind": "characters",
+      "name": "Tribbie",
+      "fileStem": "tribbie-icon",
+      "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "3d568cb7f29d",
+      "sourceHash": "3d568cb7f29d",
+      "kind": "characters",
+      "name": "Sunday",
+      "fileStem": "sunday-icon",
+      "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "4f2eb19b0697",
+      "sourceHash": "4f2eb19b0697",
+      "kind": "characters",
+      "name": "Tingyun",
+      "fileStem": "tingyun-icon",
+      "path": "Prydwen/hsr/assets/characters/tingyun-4f2eb19b0697.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "714348f14d48",
+      "sourceHash": "714348f14d48",
+      "kind": "characters",
+      "name": "Dan Heng • Permansor Terrae",
+      "fileStem": "dan-heng-permansor-terrae-icon",
+      "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "c4a9c00e98ef",
+      "sourceHash": "c4a9c00e98ef",
+      "kind": "characters",
+      "name": "Huohuo",
+      "fileStem": "huohuo-icon",
+      "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "941ae6e65f60",
+      "sourceHash": "941ae6e65f60",
+      "kind": "characters",
+      "name": "Yunli",
+      "fileStem": "yunli-icon",
+      "path": "Prydwen/hsr/assets/characters/yunli-941ae6e65f60.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e0db16ed6c66",
+      "sourceHash": "e0db16ed6c66",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "ele-physical",
+      "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "f380b4ccce3e",
+      "sourceHash": "f380b4ccce3e",
+      "kind": "characters",
+      "name": "Ashveil",
+      "fileStem": "ashveil-icon",
+      "path": "Prydwen/hsr/assets/characters/ashveil-f380b4ccce3e.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d197456869a0",
+      "sourceHash": "d197456869a0",
+      "kind": "icons",
+      "name": "Lightning",
+      "fileStem": "ele-lightning",
+      "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "565914d1a436",
+      "sourceHash": "565914d1a436",
+      "kind": "icons",
+      "name": "Quantum",
+      "fileStem": "ele-quantum",
+      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "ee11bd390c9a",
+      "sourceHash": "ee11bd390c9a",
+      "kind": "icons",
+      "name": "Wind",
+      "fileStem": "ele-wind",
+      "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "913ff64407f2",
+      "sourceHash": "913ff64407f2",
+      "kind": "icons",
+      "name": "Imaginary",
+      "fileStem": "ele-imaginary",
+      "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "99361e4717fa",
+      "sourceHash": "99361e4717fa",
+      "kind": "characters",
+      "name": "Mortenax Blade",
+      "fileStem": "blade-mortenax-icon",
+      "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "92feb26d8f0e",
+      "sourceHash": "92feb26d8f0e",
+      "kind": "icons",
+      "name": "Fire",
+      "fileStem": "ele-fire",
+      "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "30d074a1060a",
+      "sourceHash": "30d074a1060a",
+      "kind": "characters",
+      "name": "Gallagher",
+      "fileStem": "gallagher-icon",
+      "path": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "fbcfe4133d08",
+      "sourceHash": "fbcfe4133d08",
+      "kind": "characters",
+      "name": "Acheron",
+      "fileStem": "acheron-icon",
+      "path": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1d90270b2b4b",
+      "sourceHash": "1d90270b2b4b",
+      "kind": "characters",
+      "name": "Hyacine",
+      "fileStem": "hyacine-icon",
+      "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+      "width": 60,
+      "height": 60
+    }
+  ],
+  "sections": [
+    {
+      "id": "yunli-best-build-guide-0",
+      "level": 1,
+      "heading": "Yunli Best Build Guide",
+      "text": "Last updated: 31/May/2026",
+      "assets": [
+        {
+          "id": "0ec74736d83e",
+          "sourceHash": "0ec74736d83e",
+          "kind": "characters",
+          "name": "Yunli",
+          "fileStem": "yunli-card",
+          "path": "Prydwen/hsr/assets/characters/yunli-0ec74736d83e.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Yunli from HSR (Honkai: Star Rail). Yunli is a 5 ★ character from the Physical element who follows the Path of Destruction .\n A sword hunter from the Xianzhou Zhuming and \"the Flaming Heart\" General Huaiyan's darling granddaughter. Frank and straightforward. She practiced swordsmanship and forging from Huaiyan since young, and thus is the second-youngest prodigy swordmaster of the Flamewheel Octet. Fueled by an intense loathing for the cursed swords that emerged from the Zhuming, she vowed to \"hunt down and wipe out all cursed swords.\"\n\n To learn more about Yunli check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Yunli has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 3.0\n\n Last major build/calcs update\n Patch 3.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Yunli check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic ATK\n Galespin Summersault\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Physical DMG equal to #1[i]% of Yunli's ATK to a single target enemy.\n\n Skill\n Bladeborne Quake\n Blast\n\n Lv. 1\n\n Energy gain: 30\n Break: 20 + 10 adjacent\n\n Restores HP equal to #1[i]% of Yunli's ATK plus #2[i]. Deals Physical DMG equal to #3[i]% of Yunli's ATK to a single target enemy and Physical DMG equal to #4[i]% of Yunli's ATK to adjacent targets.\n\n Ultimate\n Earthbind, Etherbreak\n Enhance | 120 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20 + 10 adjacent\n\n Consumes 120 Energy. Yunli gains Parry and Taunts all enemies, lasting until the end of the next ally's or enemy's turn. Increases the CRIT DMG dealt by Yunli's next Counter by #1[i]%. When triggering the Counter effect from Talent, launches the Counter 'Intuit: Cull' instead and removes the Parry effect. If no Counter is triggered while Parry is active, Yunli will immediately launch the Counter 'Intuit: Slash' on a random enemy target.\n'Intuit: Slash': Deals Physical DMG equal to #2[i]% of Yunli's ATK to the target, and deals Physical DMG equal to #3[i]% of Yunli's ATK to adjacent targets.\n'Intuit: Cull': Deals Physical DMG equal to #2[i]% of Yunli's ATK to the target, and deals Physical DMG equal to #3[i]% of Yunli's ATK to adjacent targets. Then, additionally deals 6 instances of DMG, each dealing Physical DMG equal to #4[i]% of Yunli's ATK to a random single enemy.\nWhen Yunli deals DMG via this ability, it's considered as dealing Ultimate DMG.\n\n Talent\n Flashforge\n Blast\n\n Lv. 1\n\n Energy gain: 10\n Break: 10 + 10 adjacent\n\n When Yunli gets attacked by an enemy target, additionally regenerates 15 Energy and immediately launches a Counter on the attacker, dealing Physical DMG equal to #1[i]% of Yunli's ATK to the attacker and Physical DMG equal to #2[i]% of Yunli's ATK to adjacent targets.\nIf there is no immediate target to Counter, then Counters a random enemy target instead.\n\n Technique\n Posterior Precedence\n Enhance\n\n Energy gain: 0\n Break: -\n\n This unit gains the Ward effect, lasting for 20 seconds. During this time, upon entering combat by either attacking enemies or receiving an attack, immediately casts 'Intuit: Cull' on a random enemy, and increases the DMG dealt by this attack by 80%.",
+      "assets": []
+    },
+    {
+      "id": "major-traces-10",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "A2 Major trace\n Fiery Wheel\n\n After each use of Intuit: Slash, the next Intuit: Slash will be replaced by Intuit: Cull.\n\n A4 Major trace\n Demon Quell\n\n While in the Parry state, resists Crowd Control debuffs received and reduces DMG received by 20% .\n\n A6 Major trace\n True Sunder\n\n When using a Counter, increases Yunli's ATK by 30% , lasting for 1 turn.",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-11",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "CRIT Rate\n + 6.7%\n\n ATK\n + 28%\n\n HP\n + 18%",
+      "assets": [
+        {
+          "id": "af5b8acc8f63",
+          "sourceHash": "af5b8acc8f63",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-critrate",
+          "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "eidolons-12",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "E 1\n Weathered Blade Does Not Sully\n Eidolon 1\n\n Increases DMG dealt by \"Intuit: Slash\" and \"Intuit: Cull\" by 20% . Increases the number of additional DMG instances for \"Intuit: Cull\" by 3 .\n\n E 2\n First Luster Breaks Dawn\n Eidolon 2\n\n When dealing DMG via Counter, ignores 20% of the target's DEF.\n\n E 3\n Mastlength Twirls Mountweight\n Eidolon 3\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Artisan's Ironsong\n Eidolon 4\n\n After launching \"Intuit: Slash\" or \"Intuit: Cull\", increases this unit's Effect RES by 50% , lasting for 1 turn(s).\n\n E 5\n Blade of Old Outlasts All\n Eidolon 5\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Walk in Blade, Talk in Zither\n Eidolon 6\n\n While Parry is active, if an enemy actively uses their abilities, regardless of whether it attacks Yunli or not, it will trigger \"Intuit: Cull\" and remove the \"Parry\" effect. When dealing DMG via \"Intuit: Slash\" or \"Intuit: Cull\", increases CRIT Rate by 15% and Physical RES PEN by 20% .",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-13",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Enable Ascension",
+      "assets": []
+    },
+    {
+      "id": "level-80-stats-14",
+      "level": 5,
+      "heading": "Level 80 stats",
+      "text": "HP\n\n 1359\n\n ATK\n\n 679\n\n DEF\n\n 460\n\n Speed\n\n 94",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "level-1-80-ascension-materials-15",
+      "level": 5,
+      "heading": "Level 1 → 80 Ascension Materials",
+      "text": "Credit\n\n x 308000\n\n Artifex's Module\n\n x 15\n\n Artifex's Cogwheel\n\n x 15\n\n IPC Work Permit\n\n x 65\n\n Artifex's Gyreheart\n\n x 15",
+      "assets": [
+        {
+          "id": "50d0e755383a",
+          "sourceHash": "50d0e755383a",
+          "kind": "items",
+          "name": "Credit",
+          "fileStem": "credit",
+          "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "4b49275a9402",
+          "sourceHash": "4b49275a9402",
+          "kind": "items",
+          "name": "Artifex's Module",
+          "fileStem": "artifex-module",
+          "path": "Prydwen/hsr/assets/items/artifexs-module-4b49275a9402.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "c86f47a9e4e8",
+          "sourceHash": "c86f47a9e4e8",
+          "kind": "items",
+          "name": "Artifex's Cogwheel",
+          "fileStem": "artifex-cogwheel",
+          "path": "Prydwen/hsr/assets/items/artifexs-cogwheel-c86f47a9e4e8.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "9b006fa49e49",
+          "sourceHash": "9b006fa49e49",
+          "kind": "items",
+          "name": "IPC Work Permit",
+          "fileStem": "ipc-work-permit",
+          "path": "Prydwen/hsr/assets/items/ipc-work-permit-9b006fa49e49.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "a7a4c46218eb",
+          "sourceHash": "a7a4c46218eb",
+          "kind": "items",
+          "name": "Artifex's Gyreheart",
+          "fileStem": "artifex-gyreheart",
+          "path": "Prydwen/hsr/assets/items/artifexs-gyreheart-a7a4c46218eb.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "cv-16",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n Brenna Larsen\n\n JPN\n Shion Wakayama (若山詩音)\n\n CN\n Liu Wen (刘雯)\n\n KR\n Lee Ju-eun (이주은)",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "fee0a789395c",
+          "sourceHash": "fee0a789395c",
+          "kind": "characters",
+          "name": "Yunli",
+          "fileStem": "yunli-full",
+          "path": "Prydwen/hsr/assets/characters/yunli-fee0a789395c.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Very strong general-use DPS unit,\n\n Very good Energy economy leading to consistent Ultimates,\n\n Deals very high damage in both single-target and AoE scenarios,\n\n Counter gameplay means she scales with enemy SPD and not her own,\n\n Has built-in self sustain and resilience to Crowd Control,\n\n Has a charge system on her Ultimate meaning it’s less likely to overcap on Energy.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Potentially very challenging to pilot due to the ‘use it or lose it’ nature of her Ultimate’s Parry,\n\n Consistency greatly relies on having increased aggro either from her Signature Light Cone or from Lynx,\n\n Damage suffers tremendously if enemies are not actively attacking Yunli.",
+      "assets": []
+    },
+    {
+      "id": "review-by-sushou-21",
+      "level": 2,
+      "heading": "Review (By Sushou)",
+      "text": "Yunli is a powerful counter-attacker akin to Clara. She will immediately retaliate when attacked by an enemy, dealing follow-up DMG in a Blast AoE. She will also gain vastly increased Energy gains when being attacked, and may store up to twice the Energy cost of her Ultimate, letting her more tactically use her Ultimate and prevent overcapping. Her enhanced state from her Ultimate will also prevent her from getting hit by Crowd Control and will reduce the DMG she takes. She is trickier to play than may initially appear, but the effort is worth it.\n Fellow sword enjoyer Yunli is a pretty great all-rounder character. She's a follow-up counter-attacker with good self-sustain and Energy economy, and she's got quite a strong kit. She is eerily similar to Clara in a great many ways, but there are some key differences that distinguish the two.\n Yunli's Talent is the centrepiece of her kit, and the first part of the puzzle. Whenever she is attacked by an enemy, she will immediately Counter them, dealing up to 120% ATK to the main target, and 60% ATK to adjacent foes. She will also restore 15 Energy whenever she is attacked, and this is in addition to the 5 Energy she gains from actually landing the Counter. If there is somehow no target to Counter when this activates, she will launch the Counter on a random enemy instead.\n On its own, it's not terribly impressive damage, but it is consistently activated and is a decent source of damage for Yunli. The incoming Energy gains are far more important and are extremely significant, feeding into her game plan perfectly, getting back 20 Energy each time she gets hit and Counters, almost an entire Skill's worth of Energy for doing nothing. The Toughness damage of the Counter is unimpressive, however; even though it is a Blast AoE, the primary target still only takes the minimal amount of Toughness damage.\n Her Skill is a copy of her Talent's Counter. Yunli will launch an attack against an enemy target, dealing the same Blast AoE and damage as from her Counter, 120% ATK against the main foe, and 60% ATK against adjacent ones. Curiously, this Blast AoE does deal the expected increased Toughness damage against the main foe compared to the Counter version, and will additionally restore HP for Yunli, up to 30% ATK plus 200 upon use.\n This is a pretty good means of self-sustain for Yunli should you need it for that, but the rather lacking damage means it's not always going to be used; when most of Yunli's damage comes from her Ultimate Talent's Counter, expending a Skill Point for basically the same effect on your turn may not always be the best option, especially since a Basic ATK is not that far behind in damage and will return a Skill Point instead. You can use this in a pinch to heal Yunli or to regain some extra Energy, but it's not advised to use this exclusively to speed up Breaking an enemy in most cases, as Broken foes cannot attack you, and that's kind of the whole point of the character.\n Yunli's Ultimate is the second part of the puzzle for her big damage. She consumes 120 Energy to gain the Parry stance, Taunting all enemies and increasing the CRIT DMG of Yunli's next Counter by up to 100%. This Parry state only lasts until the end of the next unit's turn, meaning it goes away after the next unit has finished acting, be it an ally or an enemy. This is important to keep in mind because there are two possible actions Yunli can take from the Parry state; Intuit: Cull is used if Yunli gets attacked during her Parry state, dealing up to 220% ATK to the attacker and 110% ATK to adjacent targets, and then dealing 6 additional instances of single-target damage, Bouncing between random enemies, up to 72% ATK per hit. If Yunli is NOT attacked during the short window of Parry, she will instead use Intuit: Slash on a random enemy, dealing the same upfront damage as Cull, but without the additional instances of damage.\n What this means is that you are extremely rewarded for good timing on Yunli's Ultimate, and are heavily punished for bad timing. If you use her Ultimate right before an enemy's turn, they are Taunted and have no choice but to attack Yunli, triggering Yunli's Cull and dealing stupidly high damage to all enemies on the field — the good ending. If, however, you use Yunli's Ultimate and it's an ally acting next, at the end of that ally's turn, Yunli will launch Slash and you'll do very little damage, losing out on most of the benefits of the enhanced Counter.\n This is why Yunli's Max Energy is at 240. Since a single Ultimate usage costs 120 Energy, you can essentially store up to 2 uses of Yunli's Ultimate, thus greatly mitigating the potential for losing out on Energy via overcapping. Because of her Talent's Energy influx, Yunli will constantly have the Energy for Ultimate uses, and you are able to gauge for yourself when you think it'll be best to use a charge. Do note that she cannot use her Ultimate again while the Parry state is active, and all damage done via this state is considered as Ultimate DMG.\n This is why Yunli can be considered to be quite difficult to make full use of, as having the Parry state dissipate before getting attacked will greatly reduce the damage Yunli will be doing, and with the regular damage from her Talent being as low as it is, there's actually quite a big reliance on her Ultimate to be dealing competitive damage. If you misjudge a situation and use the Ultimate at a bad time, you're going to be disappointed at the damage coming out, but the only one to blame will be you.\n Yunli's Bonus Ability Traces do much to improve her game plan. A2 in particular helps to alleviate the issues of mistimed Ultimates. Every time you use an Intuit: Slash (the version without the extra DMG instances), the next time you would have used an Intuit: Slash, it will instead be replaced with an Intuit: Cull (the good one). This means that even if enemies are not able to attack you or inflict damage through means beyond direct attacks, Yunli will still be able to get her maximum strength Counters albeit at a reduced rate.\n Even if you're completely not paying attention (or maybe getting trolled by the Auto mode), Yunli can still pop off. Interestingly enough, this does open the door to potentially massive burst windows by prepping an upgraded Slash in advance; you use an Ultimate in advance, letting the Parry state fall off, and then later you use an Ultimate to get hit by an enemy, followed by another Ultimate and launch a second Cull against enemies. This is a niche interaction, and while it can potentially be used to take full advantage of very limited buff durations, it is a very advanced concept and most players should stick to just timing her Ultimate well instead.\n A4 will further buff the Parry state, granting Yunli a 20% DMG Reduction as well as full immunity to all Crowd Control effects. There is quite literally no way that Yunli can be made to not land her Parry follow-ups, so all of you annoying Crowd Control heavy enemies, eat your hearts out and cry about it. A6 will grant a 1 turn 30% ATK boost whenever Yunli uses a Counter, giving a small but appreciated boost to damage for doing what you were doing anyway.\n In terms of Eidolons, as usual none of them are necessary for Yunli to excel, but a few of them are quite nice to have. E1 will increase the DMG% of Intuit: Slash and Intuit: Cull by 20%, and will additionally increase the extra hits of Cull by 3. E2 will make all damage dealt via Counters ignore 20% of targets' DEF. These two together tremendously increase damage at quite literally no extra cost and no change to gameplay. E4 will let Slash and Cull increase Yunli's Effect RES by 50% for 1 turn, mostly useful for non Crowd Control debuffs or whenever Parry is not available. Finally, E6 will make it so that Yunli can Parry enemy thoughts; if they act in any way even if they don't hit Yunli, Yunli will immediately launch an Intuit: Cull and remove the Parry state. Furthermore, dealing damage through Slash or Cull will increase CRIT Rate by 15% and Physical RES PEN by 20% for these actions.\n It's fairly easy to see how Yunli and Clara may be similar, but there are definitely key differences that set them apart and indeed make them excel in different situations. Both of them are reliant on their Ultimates to deal their big damage, but Clara does not have the failure condition like Yunli does; haphazard usage of Yunli's Ultimate can lead to big damage losses, even when factoring in her A2 bonus, but Clara does not have this limitation. Clara's base Counter damage is also higher against attackers, 160% ATK versus Yunli's 120% ATK.\n Clara's Enhanced Counter also deals a total of 640% ATK as a Blast AoE, whereas Yunli's Cull Counter deals a whopping 872% ATK spread across all enemies, but keep in mind that Clara gets 2 Enhanced Counters per Ultimate where Yunli only gets one. Clara's Skill also does comparatively more than Yunli's Skill, being able to hit all enemies on the field at all times and potentially doubling its damage against enemies with Svarog's Mark of Counter on them.\n As such, it's probably most accurate to say that while Yunli's damage ceiling is undeniably higher in most cases, Clara is just far less hassle to play. Both are great in all three endgame game modes, and their teams are also similar and similarly flexible. Yunli is, for the most part, a superior version of Clara, but please bear in mind that this does not in any way devalue what Clara does — after all, what’s better than having one ballin’ counter-attacker? Two. The answer is two counter-attackers.\n They both like similar teammates too, with units like Tingyun, Sunday and Huohuo providing greater Ultimate uptime and damage boosts — Huohuo in particular restores a whopping 48 Energy with her Ultimate since Yunli's Max Energy is 240, even though she only needs 120 Energy for a use of her Ultimate. Robin also is exceptionally potent as all of her bonuses benefit Yunli, and the teamwide Action Advance is also notable as, like Clara, Yunli does not want to ever build SPD.\n Should you choose to play Yunli in a dual carry comp, Robin also excels at buffing both Yunli and whatever your other DPS character is. March 8th in particular can also be quite an impressive pairing, the student and the master on one team with their emotional support idol backing them up, though do keep in mind that March’s automatic Action Advance when she gets her Enhanced Basic can result in scuffed Ultimate Parry timing for Yunli if you’re not careful.\n These similarities do also mean that both characters face similar issues. Because both characters want to be hit to deal damage, any time they're not getting hit, they're doing next to no damage. Yunli can technically circumvent this, but amusingly enough she can’t do it quite as well as Clara can due to Clara’s teamwide Counter state during her Ultimate. It's still the same issue, though, and it's still quite prevalent for Yunli especially. This is particularly noticeable when looking at Yunli without her Signature Light Cone, because for whatever reason this Light Cone seems to have an absurdly high Aggro modifier. For the sake of consistency alone, getting Yunli's Light Cone for either character is worth considering.\n Yunli is very capable and can wipe the floor with enemies quite easily. Remember to account for her increased CRIT DMG from her Ultimate when building for her, and try to keep track of enemy turns to make best use of her Parry mechanic. If you already own Clara, you may not feel the need to go for Yunli, but again, both of them are incredibly good characters and, if Clara is anything to go by, are going to continue to be good long into the future.",
+      "assets": []
+    },
+    {
+      "id": "ratings-22",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.",
+      "assets": []
+    },
+    {
+      "id": "damage-dealer-23",
+      "level": 5,
+      "heading": "Damage dealer",
+      "text": "T3\n MoC\n\n T3\n PF\n\n T4\n AS\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "best-light-cones-25",
+      "level": 2,
+      "heading": "Best Light Cones",
+      "text": "123.04%\n\n Dance at Sunset (S 1 )\n\n Yunli’s signature Light Cone is a massive upgrade over other options due to Yunli’s sole reliance on getting hit by enemies. It significantly increases the chance of her being targeted by enemies, resulting in more counters and more Energy regeneration. And the Light Cone will also provide 36% CRIT DMG, and a 72% DMG Boost to all of her counterattacks.\n Usage: 93.38 %\n MoC: -\n PF: 34520\n AS: 3276\n\n 117.34%\n\n Thus Burns the Dawn (S 1 )\n\n Phainon's sig on Yunli is an incredible alternative thanks to its massive 687 Base ATK, permanent 18% DEF Ignore on all attacks, and 60% DMG boost after using Ultimate that Yunli can trivially lineup with her Ultimate's Enhanced Counters. In some teams such as a 135/134 setup with Yunli and Phainon that base SPD can also allow her to invest more into CRIT and ATK stats. Although it lacks Taunt increase stat can make it annoying vs. enemies that frequently use Single-Target attacks and not targetting her for Energy.\n Usage: 2.94 %\n MoC: -\n PF: 0\n AS: 0\n\n 102.23%\n\n The Unreachable Side (S 1 )\n\n This Light Cone provides Yunli with a solid amount of Crit Rate and a typically conditional Damage% buff that activates when taking damage or consuming health. However, due to Yunli's counter-attack playstyle, this buff is almost always active, making The Unreachable Side a reasonable alternative if you don't have her Signature Light Cone.\n\n 101.75%\n\n Brighter Than the Sun (S 1 )\n\n This Light Cone provides Yunli with Crit Rate, Attack%, and Energy Recharge but requires her to use multiple basic attacks throughout combat in order to keep its bonuses active. Fortunately for Yunli this downside isn't much of one as she isn't overly reliant on her Skill Usage in the first place and the Energy Recharge% can easily make up for the Energy lost by using Basic Attacks over Skills. It does require two full turns of ramp-up time to become fully active, and utilizing Basic Attacks in AoE fights may feel a bit harder compared to Single-Target encounters.\n\n 100.81%\n\n Something Irreplaceable (S 1 )\n\n 100%\n\n On the Fall of an Aeon (S 5 )\n\n Usage: 3.68 %\n MoC: -\n PF: 0\n AS: 0\n\n 96.81%\n\n Under the Blue Sky (S 5 )",
+      "assets": [
+        {
+          "id": "f0b9322f2eb2",
+          "sourceHash": "f0b9322f2eb2",
+          "kind": "light-cones",
+          "name": "Dance at Sunset",
+          "fileStem": "dance-at-sunset",
+          "path": "Prydwen/hsr/assets/light-cones/dance-at-sunset-f0b9322f2eb2.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "40af809ee965",
+          "sourceHash": "40af809ee965",
+          "kind": "light-cones",
+          "name": "Thus Burns the Dawn",
+          "fileStem": "thus-burns-the-dawn",
+          "path": "Prydwen/hsr/assets/light-cones/thus-burns-the-dawn-40af809ee965.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "0b8a81d41057",
+          "sourceHash": "0b8a81d41057",
+          "kind": "light-cones",
+          "name": "The Unreachable Side",
+          "fileStem": "the-unreachable-side",
+          "path": "Prydwen/hsr/assets/light-cones/the-unreachable-side-0b8a81d41057.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "d0c8dda87581",
+          "sourceHash": "d0c8dda87581",
+          "kind": "light-cones",
+          "name": "Brighter Than the Sun",
+          "fileStem": "brighter-than-the-sun",
+          "path": "Prydwen/hsr/assets/light-cones/brighter-than-the-sun-d0c8dda87581.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "1562e27c9224",
+          "sourceHash": "1562e27c9224",
+          "kind": "light-cones",
+          "name": "Something Irreplaceable",
+          "fileStem": "something-irreplaceable",
+          "path": "Prydwen/hsr/assets/light-cones/something-irreplaceable-1562e27c9224.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "83d0f295d2ff",
+          "sourceHash": "83d0f295d2ff",
+          "kind": "light-cones",
+          "name": "On the Fall of an Aeon",
+          "fileStem": "on-the-fall-of-an-aeon",
+          "path": "Prydwen/hsr/assets/light-cones/on-the-fall-of-an-aeon-83d0f295d2ff.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "91f28845f1bf",
+          "sourceHash": "91f28845f1bf",
+          "kind": "light-cones",
+          "name": "Under the Blue Sky",
+          "fileStem": "under-the-blue-sky",
+          "path": "Prydwen/hsr/assets/light-cones/under-the-blue-sky-91f28845f1bf.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-relic-sets-27",
+      "level": 2,
+      "heading": "Best Relic Sets",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n The Wind-Soaring Valorous ( 4 -PC)\n\n Due to Yunli's incredibly frequent Follow-Ups she will almost always have the 4P bonus buff effect of this set active. Yunli's Ultimate is a hybrid between Follow-Up Attack and Ultimate attack and scales off increases to both. This makes the set buff close to a permanent 36% Damage Increase to her Ultimate which just so happens to be responsible for a massive portion of her damage making this set easily her strongest.\n Usage: 97.06 %\n MoC: -\n PF: 34520\n AS: 3276\n\n 95.53%\n\n Poet of Mourning Collapse ( 4 -PC)\n\n Specialist set intended for use on characters with kits that do not require Speed or that have other ways of accessing it in combat. On characters where this set is viable, the CRIT RATE buff is enough to offset the -8% Speed penalty and the sacrifice of building no Speed before battle. Yunli does not require much or any Speed to function and is often played with action advancers like Sparkle, Sunday, or Robin that allow her to “cheat” her Speed. Because of this Yunli can ignore the main downside of this set for the most part whilst reaping huge rewards. It’s important to note, without an action advancer to help Yunli may want a token amount of speed to offset the -8% and ensure she doesn’t start dropping actions in longer fights.\n 95.02%\n\n The Ashblazing Grand Duke ( 4 -PC)\n\n This set is a reasonable but somewhat inconsistent alternative due to the nature of the 4P bonus and how many hits each of Yunli's actions actually inflict. Yunli's standard talent-based counters only deal 1 hit per target hit (Max of 3 stacks against 3 enemies) but her Ultimate can hit over 8 times on a single enemy and even more than that on multiple. This means Yunli will sometimes have max stacks but have less than half other times. Fortunately, her strongest hits, her Ultimate slashes, will be close to fully buffed making this set still competitive even if it can't unlock its full potential.\n 92.07%\n\n The Ashblazing Grand Duke ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Champion of Streetwise Boxing\n\n Scholar Lost in Erudition\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous",
+      "assets": [
+        {
+          "id": "2d90f2919c5d",
+          "sourceHash": "2d90f2919c5d",
+          "kind": "relics",
+          "name": "The Wind-Soaring Valorous",
+          "fileStem": "the-wind-soaring-valorous",
+          "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "86c9cb6c5efe",
+          "sourceHash": "86c9cb6c5efe",
+          "kind": "relics",
+          "name": "Poet of Mourning Collapse",
+          "fileStem": "poet-of-mourning-collapse",
+          "path": "Prydwen/hsr/assets/relics/poet-of-mourning-collapse-86c9cb6c5efe.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "0edbfbfc2eca",
+          "sourceHash": "0edbfbfc2eca",
+          "kind": "relics",
+          "name": "The Ashblazing Grand Duke",
+          "fileStem": "the-ashblazing-grand-duke",
+          "path": "Prydwen/hsr/assets/relics/the-ashblazing-grand-duke-0edbfbfc2eca.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "a73e778a325a",
+          "sourceHash": "a73e778a325a",
+          "kind": "relics",
+          "name": "Champion of Streetwise Boxing",
+          "fileStem": "champion-of-streetwise-boxing",
+          "path": "Prydwen/hsr/assets/relics/champion-of-streetwise-boxing-a73e778a325a.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "f521b7a2ee25",
+          "sourceHash": "f521b7a2ee25",
+          "kind": "relics",
+          "name": "Scholar Lost in Erudition",
+          "fileStem": "scholar-lost-in-erudition",
+          "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "deeeca721276",
+          "sourceHash": "deeeca721276",
+          "kind": "relics",
+          "name": "Musketeer of Wild Wheat",
+          "fileStem": "musketeer-of-wild-wheat",
+          "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "507bb2127c32",
+          "sourceHash": "507bb2127c32",
+          "kind": "relics",
+          "name": "Prisoner in Deep Confinement",
+          "fileStem": "prisoner-in-deep-confinement",
+          "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-planetary-sets-28",
+      "level": 6,
+      "heading": "Best Planetary Sets",
+      "text": "100%\n\n Inert Salsotto ( 2 -PC)\n\n The most consistent option for Yunli granting her Follow-Up Damage which boosts her Talent AND Ultimate and also one of her strongest stats CRIT RATE all unconditionally with no ramp or downtime.\n 104.53%\n\n Duran, Dynasty of Running Wolves ( 2 -PC)\n\n The highest damage potential set for Yunli but it requires ramp-up time which is dependant on how many enemies are present, how long the fight lasts, and how many Follow-Up Attackers are on your team. Can pull firmly ahead or fall slightly behind Salsotto depending on these factors.\n Usage: 100 %\n MoC: -\n PF: 34520\n AS: 3276",
+      "assets": [
+        {
+          "id": "d3afe42bdcff",
+          "sourceHash": "d3afe42bdcff",
+          "kind": "relics",
+          "name": "Inert Salsotto",
+          "fileStem": "inert-salsotto",
+          "path": "Prydwen/hsr/assets/relics/inert-salsotto-d3afe42bdcff.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "5c3fed1223b5",
+          "sourceHash": "5c3fed1223b5",
+          "kind": "relics",
+          "name": "Duran, Dynasty of Running Wolves",
+          "fileStem": "duran-dynasty-of-running-wolves",
+          "path": "Prydwen/hsr/assets/relics/duran-dynasty-of-running-wolves-5c3fed1223b5.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-stats-30",
+      "level": 2,
+      "heading": "Best Stats",
+      "text": "Body\n CRIT Rate\n > CRIT DMG\n\n Feet\n ATK%\n\n Planar Sphere\n Physical DMG\n > ATK%\n\n Link Rope\n ATK%\n > Energy Regen Rate\n\n Substats: CRIT RATE = CRIT DMG > ATK%\n\n This is your typical DPS build that focuses on the holy trifecta - ATK, Crit Rate, and Crit DMG. For every 1% of Crit try to have 2% of Crit DMG.",
+      "assets": [
+        {
+          "id": "af5b8acc8f63",
+          "sourceHash": "af5b8acc8f63",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-critrate",
+          "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "44c437b21b3a",
+          "sourceHash": "44c437b21b3a",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "6331eb666473",
+          "sourceHash": "6331eb666473",
+          "kind": "icons",
+          "name": "Physical DMG",
+          "fileStem": "stat-phydmg",
+          "path": "Prydwen/hsr/assets/icons/physical-dmg-6331eb666473.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "106ddd8eff32",
+          "sourceHash": "106ddd8eff32",
+          "kind": "icons",
+          "name": "Energy Regen",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "recommended-endgame-stats-31",
+      "level": 2,
+      "heading": "Recommended endgame stats",
+      "text": "HP: 3400+\n\n DEF: 800+\n\n ATK: 3200 - 3400+\n\n CRIT RATE: 90% - 100%+\n\n CRIT DMG: 100% - 120%+\n An acceptable Crit Ratio for Yunli is approximately 100% (Crit Rate) to 100% (Crit Damage). This ratio is crucial because, during actual combat scenarios, it effectively translates to something closer to 100% (Crit Rate) to 200% (Crit Damage) when her Ultimate and Follow-Up Attacks are utilized.\n\n SPD: 94 (Base Speed)",
+      "assets": []
+    },
+    {
+      "id": "traces-priority-32",
+      "level": 2,
+      "heading": "Traces priority",
+      "text": "Skills priority: Ultimate > Talent > Skill = Basic\n\n Major Traces priority: Fiery Wheel (A2) > True Sunder (A6) > Demon Quell (A4)",
+      "assets": []
+    },
+    {
+      "id": "synergy-33",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Robin - Robin provides the best buffs for all Follow-up characters - insanely high flat ATK boost, her Crit DMG% buffs, and DMG% buffs synergize with Yunli insanely well. Robin’s Crit DMG% to Follow-up attacks trace ability also applies to her ultimate - as Yunli’s Ultimate is considered a Follow-up attack. Robin’s team-wide advance is also particularly helpful to Yunli as she does not build any Speed of her own. Robin also supports dual damaging teams excellently of which Yunli has multiple incredibly viable options for.\n Tribbie - Yunli can quickly gain her Ultimate, fueling Tribbie and she in return can help her with dealing more damage to elites and bosses (with her E1).\n Sunday - Sunday provides Yunli with more actions, great buffs and Energy on top of that, improving her performance across the board.\n Tingyun - Tingyun provides additional Energy for Yunli to access more Ultimates pushing her damage even higher than usual. Tingyun also provides a strong DMG% buff and ATK% buff to Yunli through her Ultimate and Skill respectively. Her skill's Benediction also does in fact trigger on Yunli’s Counter and Ultimate, leading to even more damage.\n Dan Heng • Permansor Terrae - Go-to sustain option for ATK-scaling teams. Permansor Terrae can provide strong Shields to the entire team, with an ATK buff for a single teammate and extra ATK multipliers. Notably with Sunday, his Souldragon will enable to the target to receive the full 80% DMG Bonus from Sunday's Skill and Souldragon will be Advanced along the target to repeatedly refresh Shields on the team.\n Huohuo - Huohuo Ultimate has excellent synergy with Yunli - providing 48 energy on use instead of the expected 24. The reason for this is Huohuo considers Yunli’s total energy not how much her ultimate actually costs, meaning Huohuo grants her over a third of an Ultimate each time. Huohuo also provides an Attack buff which will persist in-between Yunli’s counters, and a bunch of cleanses to ensure those Counter’s go off.",
+      "assets": [
+        {
+          "id": "e985c6a49a99",
+          "sourceHash": "e985c6a49a99",
+          "kind": "characters",
+          "name": "Robin",
+          "fileStem": "robin-icon",
+          "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "2cde7699adbf",
+          "sourceHash": "2cde7699adbf",
+          "kind": "characters",
+          "name": "Tribbie",
+          "fileStem": "tribbie-icon",
+          "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "3d568cb7f29d",
+          "sourceHash": "3d568cb7f29d",
+          "kind": "characters",
+          "name": "Sunday",
+          "fileStem": "sunday-icon",
+          "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "4f2eb19b0697",
+          "sourceHash": "4f2eb19b0697",
+          "kind": "characters",
+          "name": "Tingyun",
+          "fileStem": "tingyun-icon",
+          "path": "Prydwen/hsr/assets/characters/tingyun-4f2eb19b0697.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "714348f14d48",
+          "sourceHash": "714348f14d48",
+          "kind": "characters",
+          "name": "Dan Heng • Permansor Terrae",
+          "fileStem": "dan-heng-permansor-terrae-icon",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "c4a9c00e98ef",
+          "sourceHash": "c4a9c00e98ef",
+          "kind": "characters",
+          "name": "Huohuo",
+          "fileStem": "huohuo-icon",
+          "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
+          "width": 45,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "id": "anomaly-arbitration-38",
+      "level": 6,
+      "heading": "Anomaly Arbitration",
+      "text": "Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 10\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 8\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 10\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 5\n\n New\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 8\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : 9\n Avg. cycles (E1+): -\n\n New\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 6\n\n New",
+      "assets": [
+        {
+          "id": "941ae6e65f60",
+          "sourceHash": "941ae6e65f60",
+          "kind": "characters",
+          "name": "Yunli",
+          "fileStem": "yunli-icon",
+          "path": "Prydwen/hsr/assets/characters/yunli-941ae6e65f60.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0db16ed6c66",
+          "sourceHash": "e0db16ed6c66",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "ele-physical",
+          "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "f380b4ccce3e",
+          "sourceHash": "f380b4ccce3e",
+          "kind": "characters",
+          "name": "Ashveil",
+          "fileStem": "ashveil-icon",
+          "path": "Prydwen/hsr/assets/characters/ashveil-f380b4ccce3e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d197456869a0",
+          "sourceHash": "d197456869a0",
+          "kind": "icons",
+          "name": "Lightning",
+          "fileStem": "ele-lightning",
+          "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "2cde7699adbf",
+          "sourceHash": "2cde7699adbf",
+          "kind": "characters",
+          "name": "Tribbie",
+          "fileStem": "tribbie-icon",
+          "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "565914d1a436",
+          "sourceHash": "565914d1a436",
+          "kind": "icons",
+          "name": "Quantum",
+          "fileStem": "ele-quantum",
+          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "714348f14d48",
+          "sourceHash": "714348f14d48",
+          "kind": "characters",
+          "name": "Dan Heng • Permansor Terrae",
+          "fileStem": "dan-heng-permansor-terrae-icon",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e985c6a49a99",
+          "sourceHash": "e985c6a49a99",
+          "kind": "characters",
+          "name": "Robin",
+          "fileStem": "robin-icon",
+          "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "c4a9c00e98ef",
+          "sourceHash": "c4a9c00e98ef",
+          "kind": "characters",
+          "name": "Huohuo",
+          "fileStem": "huohuo-icon",
+          "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ee11bd390c9a",
+          "sourceHash": "ee11bd390c9a",
+          "kind": "icons",
+          "name": "Wind",
+          "fileStem": "ele-wind",
+          "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "3d568cb7f29d",
+          "sourceHash": "3d568cb7f29d",
+          "kind": "characters",
+          "name": "Sunday",
+          "fileStem": "sunday-icon",
+          "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "913ff64407f2",
+          "sourceHash": "913ff64407f2",
+          "kind": "icons",
+          "name": "Imaginary",
+          "fileStem": "ele-imaginary",
+          "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "99361e4717fa",
+          "sourceHash": "99361e4717fa",
+          "kind": "characters",
+          "name": "Mortenax Blade",
+          "fileStem": "blade-mortenax-icon",
+          "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "92feb26d8f0e",
+          "sourceHash": "92feb26d8f0e",
+          "kind": "icons",
+          "name": "Fire",
+          "fileStem": "ele-fire",
+          "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "30d074a1060a",
+          "sourceHash": "30d074a1060a",
+          "kind": "characters",
+          "name": "Gallagher",
+          "fileStem": "gallagher-icon",
+          "path": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "fbcfe4133d08",
+          "sourceHash": "fbcfe4133d08",
+          "kind": "characters",
+          "name": "Acheron",
+          "fileStem": "acheron-icon",
+          "path": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1d90270b2b4b",
+          "sourceHash": "1d90270b2b4b",
+          "kind": "characters",
+          "name": "Hyacine",
+          "fileStem": "hyacine-icon",
+          "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "video-guides-39",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "MoC/PF/AS Statistics",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-light-cones": {
+      "label": "Best Light Cones",
+      "sections": [
+        {
+          "heading": "Best Light Cones",
+          "text": "123.04%\n\n Dance at Sunset (S 1 )\n\n Yunli’s signature Light Cone is a massive upgrade over other options due to Yunli’s sole reliance on getting hit by enemies. It significantly increases the chance of her being targeted by enemies, resulting in more counters and more Energy regeneration. And the Light Cone will also provide 36% CRIT DMG, and a 72% DMG Boost to all of her counterattacks.\n Usage: 93.38 %\n MoC: -\n PF: 34520\n AS: 3276\n\n 117.34%\n\n Thus Burns the Dawn (S 1 )\n\n Phainon's sig on Yunli is an incredible alternative thanks to its massive 687 Base ATK, permanent 18% DEF Ignore on all attacks, and 60% DMG boost after using Ultimate that Yunli can trivially lineup with her Ultimate's Enhanced Counters. In some teams such as a 135/134 setup with Yunli and Phainon that base SPD can also allow her to invest more into CRIT and ATK stats. Although it lacks Taunt increase stat can make it annoying vs. enemies that frequently use Single-Target attacks and not targetting her for Energy.\n Usage: 2.94 %\n MoC: -\n PF: 0\n AS: 0\n\n 102.23%\n\n The Unreachable Side (S 1 )\n\n This Light Cone provides Yunli with a solid amount of Crit Rate and a typically conditional Damage% buff that activates when taking damage or consuming health. However, due to Yunli's counter-attack playstyle, this buff is almost always active, making The Unreachable Side a reasonable alternative if you don't have her Signature Light Cone.\n\n 101.75%\n\n Brighter Than the Sun (S 1 )\n\n This Light Cone provides Yunli with Crit Rate, Attack%, and Energy Recharge but requires her to use multiple basic attacks throughout combat in order to keep its bonuses active. Fortunately for Yunli this downside isn't much of one as she isn't overly reliant on her Skill Usage in the first place and the Energy Recharge% can easily make up for the Energy lost by using Basic Attacks over Skills. It does require two full turns of ramp-up time to become fully active, and utilizing Basic Attacks in AoE fights may feel a bit harder compared to Single-Target encounters.\n\n 100.81%\n\n Something Irreplaceable (S 1 )\n\n 100%\n\n On the Fall of an Aeon (S 5 )\n\n Usage: 3.68 %\n MoC: -\n PF: 0\n AS: 0\n\n 96.81%\n\n Under the Blue Sky (S 5 )",
+          "assets": [
+            {
+              "id": "f0b9322f2eb2",
+              "sourceHash": "f0b9322f2eb2",
+              "kind": "light-cones",
+              "name": "Dance at Sunset",
+              "fileStem": "dance-at-sunset",
+              "path": "Prydwen/hsr/assets/light-cones/dance-at-sunset-f0b9322f2eb2.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "40af809ee965",
+              "sourceHash": "40af809ee965",
+              "kind": "light-cones",
+              "name": "Thus Burns the Dawn",
+              "fileStem": "thus-burns-the-dawn",
+              "path": "Prydwen/hsr/assets/light-cones/thus-burns-the-dawn-40af809ee965.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "0b8a81d41057",
+              "sourceHash": "0b8a81d41057",
+              "kind": "light-cones",
+              "name": "The Unreachable Side",
+              "fileStem": "the-unreachable-side",
+              "path": "Prydwen/hsr/assets/light-cones/the-unreachable-side-0b8a81d41057.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "d0c8dda87581",
+              "sourceHash": "d0c8dda87581",
+              "kind": "light-cones",
+              "name": "Brighter Than the Sun",
+              "fileStem": "brighter-than-the-sun",
+              "path": "Prydwen/hsr/assets/light-cones/brighter-than-the-sun-d0c8dda87581.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "1562e27c9224",
+              "sourceHash": "1562e27c9224",
+              "kind": "light-cones",
+              "name": "Something Irreplaceable",
+              "fileStem": "something-irreplaceable",
+              "path": "Prydwen/hsr/assets/light-cones/something-irreplaceable-1562e27c9224.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "83d0f295d2ff",
+              "sourceHash": "83d0f295d2ff",
+              "kind": "light-cones",
+              "name": "On the Fall of an Aeon",
+              "fileStem": "on-the-fall-of-an-aeon",
+              "path": "Prydwen/hsr/assets/light-cones/on-the-fall-of-an-aeon-83d0f295d2ff.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "91f28845f1bf",
+              "sourceHash": "91f28845f1bf",
+              "kind": "light-cones",
+              "name": "Under the Blue Sky",
+              "fileStem": "under-the-blue-sky",
+              "path": "Prydwen/hsr/assets/light-cones/under-the-blue-sky-91f28845f1bf.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-relic-sets": {
+      "label": "Best Relic Sets",
+      "sections": [
+        {
+          "heading": "Best Relic Sets",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n The Wind-Soaring Valorous ( 4 -PC)\n\n Due to Yunli's incredibly frequent Follow-Ups she will almost always have the 4P bonus buff effect of this set active. Yunli's Ultimate is a hybrid between Follow-Up Attack and Ultimate attack and scales off increases to both. This makes the set buff close to a permanent 36% Damage Increase to her Ultimate which just so happens to be responsible for a massive portion of her damage making this set easily her strongest.\n Usage: 97.06 %\n MoC: -\n PF: 34520\n AS: 3276\n\n 95.53%\n\n Poet of Mourning Collapse ( 4 -PC)\n\n Specialist set intended for use on characters with kits that do not require Speed or that have other ways of accessing it in combat. On characters where this set is viable, the CRIT RATE buff is enough to offset the -8% Speed penalty and the sacrifice of building no Speed before battle. Yunli does not require much or any Speed to function and is often played with action advancers like Sparkle, Sunday, or Robin that allow her to “cheat” her Speed. Because of this Yunli can ignore the main downside of this set for the most part whilst reaping huge rewards. It’s important to note, without an action advancer to help Yunli may want a token amount of speed to offset the -8% and ensure she doesn’t start dropping actions in longer fights.\n 95.02%\n\n The Ashblazing Grand Duke ( 4 -PC)\n\n This set is a reasonable but somewhat inconsistent alternative due to the nature of the 4P bonus and how many hits each of Yunli's actions actually inflict. Yunli's standard talent-based counters only deal 1 hit per target hit (Max of 3 stacks against 3 enemies) but her Ultimate can hit over 8 times on a single enemy and even more than that on multiple. This means Yunli will sometimes have max stacks but have less than half other times. Fortunately, her strongest hits, her Ultimate slashes, will be close to fully buffed making this set still competitive even if it can't unlock its full potential.\n 92.07%\n\n The Ashblazing Grand Duke ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Champion of Streetwise Boxing\n\n Scholar Lost in Erudition\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous",
+          "assets": [
+            {
+              "id": "2d90f2919c5d",
+              "sourceHash": "2d90f2919c5d",
+              "kind": "relics",
+              "name": "The Wind-Soaring Valorous",
+              "fileStem": "the-wind-soaring-valorous",
+              "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "86c9cb6c5efe",
+              "sourceHash": "86c9cb6c5efe",
+              "kind": "relics",
+              "name": "Poet of Mourning Collapse",
+              "fileStem": "poet-of-mourning-collapse",
+              "path": "Prydwen/hsr/assets/relics/poet-of-mourning-collapse-86c9cb6c5efe.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "0edbfbfc2eca",
+              "sourceHash": "0edbfbfc2eca",
+              "kind": "relics",
+              "name": "The Ashblazing Grand Duke",
+              "fileStem": "the-ashblazing-grand-duke",
+              "path": "Prydwen/hsr/assets/relics/the-ashblazing-grand-duke-0edbfbfc2eca.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "a73e778a325a",
+              "sourceHash": "a73e778a325a",
+              "kind": "relics",
+              "name": "Champion of Streetwise Boxing",
+              "fileStem": "champion-of-streetwise-boxing",
+              "path": "Prydwen/hsr/assets/relics/champion-of-streetwise-boxing-a73e778a325a.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "f521b7a2ee25",
+              "sourceHash": "f521b7a2ee25",
+              "kind": "relics",
+              "name": "Scholar Lost in Erudition",
+              "fileStem": "scholar-lost-in-erudition",
+              "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "deeeca721276",
+              "sourceHash": "deeeca721276",
+              "kind": "relics",
+              "name": "Musketeer of Wild Wheat",
+              "fileStem": "musketeer-of-wild-wheat",
+              "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "507bb2127c32",
+              "sourceHash": "507bb2127c32",
+              "kind": "relics",
+              "name": "Prisoner in Deep Confinement",
+              "fileStem": "prisoner-in-deep-confinement",
+              "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-planetary-sets": {
+      "label": "Best Planetary Sets",
+      "sections": [
+        {
+          "heading": "Best Planetary Sets",
+          "text": "100%\n\n Inert Salsotto ( 2 -PC)\n\n The most consistent option for Yunli granting her Follow-Up Damage which boosts her Talent AND Ultimate and also one of her strongest stats CRIT RATE all unconditionally with no ramp or downtime.\n 104.53%\n\n Duran, Dynasty of Running Wolves ( 2 -PC)\n\n The highest damage potential set for Yunli but it requires ramp-up time which is dependant on how many enemies are present, how long the fight lasts, and how many Follow-Up Attackers are on your team. Can pull firmly ahead or fall slightly behind Salsotto depending on these factors.\n Usage: 100 %\n MoC: -\n PF: 34520\n AS: 3276",
+          "assets": [
+            {
+              "id": "d3afe42bdcff",
+              "sourceHash": "d3afe42bdcff",
+              "kind": "relics",
+              "name": "Inert Salsotto",
+              "fileStem": "inert-salsotto",
+              "path": "Prydwen/hsr/assets/relics/inert-salsotto-d3afe42bdcff.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "5c3fed1223b5",
+              "sourceHash": "5c3fed1223b5",
+              "kind": "relics",
+              "name": "Duran, Dynasty of Running Wolves",
+              "fileStem": "duran-dynasty-of-running-wolves",
+              "path": "Prydwen/hsr/assets/relics/duran-dynasty-of-running-wolves-5c3fed1223b5.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-stats": {
+      "label": "Best Stats",
+      "sections": [
+        {
+          "heading": "Best Stats",
+          "text": "Body\n CRIT Rate\n > CRIT DMG\n\n Feet\n ATK%\n\n Planar Sphere\n Physical DMG\n > ATK%\n\n Link Rope\n ATK%\n > Energy Regen Rate\n\n Substats: CRIT RATE = CRIT DMG > ATK%\n\n This is your typical DPS build that focuses on the holy trifecta - ATK, Crit Rate, and Crit DMG. For every 1% of Crit try to have 2% of Crit DMG.",
+          "assets": [
+            {
+              "id": "af5b8acc8f63",
+              "sourceHash": "af5b8acc8f63",
+              "kind": "icons",
+              "name": "CRIT Rate",
+              "fileStem": "stat-critrate",
+              "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "44c437b21b3a",
+              "sourceHash": "44c437b21b3a",
+              "kind": "icons",
+              "name": "CRIT DMG",
+              "fileStem": "stat-critdmg",
+              "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "dc6aec4a7776",
+              "sourceHash": "dc6aec4a7776",
+              "kind": "icons",
+              "name": "ATK",
+              "fileStem": "stat-atk",
+              "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "6331eb666473",
+              "sourceHash": "6331eb666473",
+              "kind": "icons",
+              "name": "Physical DMG",
+              "fileStem": "stat-phydmg",
+              "path": "Prydwen/hsr/assets/icons/physical-dmg-6331eb666473.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "106ddd8eff32",
+              "sourceHash": "106ddd8eff32",
+              "kind": "icons",
+              "name": "Energy Regen",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        }
+      ]
+    },
+    "recommended-endgame-stats": {
+      "label": "Recommended endgame stats",
+      "sections": [
+        {
+          "heading": "Recommended endgame stats",
+          "text": "HP: 3400+\n\n DEF: 800+\n\n ATK: 3200 - 3400+\n\n CRIT RATE: 90% - 100%+\n\n CRIT DMG: 100% - 120%+\n An acceptable Crit Ratio for Yunli is approximately 100% (Crit Rate) to 100% (Crit Damage). This ratio is crucial because, during actual combat scenarios, it effectively translates to something closer to 100% (Crit Rate) to 200% (Crit Damage) when her Ultimate and Follow-Up Attacks are utilized.\n\n SPD: 94 (Base Speed)",
+          "assets": []
+        }
+      ]
+    },
+    "traces-priority": {
+      "label": "Traces priority",
+      "sections": [
+        {
+          "heading": "Traces priority",
+          "text": "Skills priority: Ultimate > Talent > Skill = Basic\n\n Major Traces priority: Fiery Wheel (A2) > True Sunder (A6) > Demon Quell (A4)",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Robin - Robin provides the best buffs for all Follow-up characters - insanely high flat ATK boost, her Crit DMG% buffs, and DMG% buffs synergize with Yunli insanely well. Robin’s Crit DMG% to Follow-up attacks trace ability also applies to her ultimate - as Yunli’s Ultimate is considered a Follow-up attack. Robin’s team-wide advance is also particularly helpful to Yunli as she does not build any Speed of her own. Robin also supports dual damaging teams excellently of which Yunli has multiple incredibly viable options for.\n Tribbie - Yunli can quickly gain her Ultimate, fueling Tribbie and she in return can help her with dealing more damage to elites and bosses (with her E1).\n Sunday - Sunday provides Yunli with more actions, great buffs and Energy on top of that, improving her performance across the board.\n Tingyun - Tingyun provides additional Energy for Yunli to access more Ultimates pushing her damage even higher than usual. Tingyun also provides a strong DMG% buff and ATK% buff to Yunli through her Ultimate and Skill respectively. Her skill's Benediction also does in fact trigger on Yunli’s Counter and Ultimate, leading to even more damage.\n Dan Heng • Permansor Terrae - Go-to sustain option for ATK-scaling teams. Permansor Terrae can provide strong Shields to the entire team, with an ATK buff for a single teammate and extra ATK multipliers. Notably with Sunday, his Souldragon will enable to the target to receive the full 80% DMG Bonus from Sunday's Skill and Souldragon will be Advanced along the target to repeatedly refresh Shields on the team.\n Huohuo - Huohuo Ultimate has excellent synergy with Yunli - providing 48 energy on use instead of the expected 24. The reason for this is Huohuo considers Yunli’s total energy not how much her ultimate actually costs, meaning Huohuo grants her over a third of an Ultimate each time. Huohuo also provides an Attack buff which will persist in-between Yunli’s counters, and a bunch of cleanses to ensure those Counter’s go off.",
+          "assets": [
+            {
+              "id": "e985c6a49a99",
+              "sourceHash": "e985c6a49a99",
+              "kind": "characters",
+              "name": "Robin",
+              "fileStem": "robin-icon",
+              "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "2cde7699adbf",
+              "sourceHash": "2cde7699adbf",
+              "kind": "characters",
+              "name": "Tribbie",
+              "fileStem": "tribbie-icon",
+              "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "3d568cb7f29d",
+              "sourceHash": "3d568cb7f29d",
+              "kind": "characters",
+              "name": "Sunday",
+              "fileStem": "sunday-icon",
+              "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "4f2eb19b0697",
+              "sourceHash": "4f2eb19b0697",
+              "kind": "characters",
+              "name": "Tingyun",
+              "fileStem": "tingyun-icon",
+              "path": "Prydwen/hsr/assets/characters/tingyun-4f2eb19b0697.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "714348f14d48",
+              "sourceHash": "714348f14d48",
+              "kind": "characters",
+              "name": "Dan Heng • Permansor Terrae",
+              "fileStem": "dan-heng-permansor-terrae-icon",
+              "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "c4a9c00e98ef",
+              "sourceHash": "c4a9c00e98ef",
+              "kind": "characters",
+              "name": "Huohuo",
+              "fileStem": "huohuo-icon",
+              "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
+              "width": 45,
+              "height": 45
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Yunli Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Yunli\n Yunli Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Yunli from HSR (Honkai: Star Rail). Yunli is a 5 ★ character from the Physical element who follows the Path of Destruction .\n A sword hunter from the Xianzhou Zhuming and \"the Flaming Heart\" General Huaiyan's darling granddaughter. Frank and straightforward. She practiced swordsmanship and forging from Huaiyan since young, and thus is the second-youngest prodigy swordmaster of the Flamewheel Octet. Fueled by an intense loathing for the cursed swords that emerged from the Zhuming, she vowed to \"hunt down and wipe out all cursed swords.\"\n\n To learn more about Yunli check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Yunli has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 3.0\n\n Last major build/calcs update\n Patch 3.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Yunli check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Galespin Summersault\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Physical DMG equal to #1[i]% of Yunli's ATK to a single target enemy.\n\n Skill\n Bladeborne Quake\n Blast\n\n Lv. 1\n\n Energy gain: 30\n Break: 20 + 10 adjacent\n\n Restores HP equal to #1[i]% of Yunli's ATK plus #2[i]. Deals Physical DMG equal to #3[i]% of Yunli's ATK to a single target enemy and Physical DMG equal to #4[i]% of Yunli's ATK to adjacent targets.\n\n Ultimate\n Earthbind, Etherbreak\n Enhance | 120 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20 + 10 adjacent\n\n Consumes 120 Energy. Yunli gains Parry and Taunts all enemies, lasting until the end of the next ally's or enemy's turn. Increases the CRIT DMG dealt by Yunli's next Counter by #1[i]%. When triggering the Counter effect from Talent, launches the Counter 'Intuit: Cull' instead and removes the Parry effect. If no Counter is triggered while Parry is active, Yunli will immediately launch the Counter 'Intuit: Slash' on a random enemy target.\n'Intuit: Slash': Deals Physical DMG equal to #2[i]% of Yunli's ATK to the target, and deals Physical DMG equal to #3[i]% of Yunli's ATK to adjacent targets.\n'Intuit: Cull': Deals Physical DMG equal to #2[i]% of Yunli's ATK to the target, and deals Physical DMG equal to #3[i]% of Yunli's ATK to adjacent targets. Then, additionally deals 6 instances of DMG, each dealing Physical DMG equal to #4[i]% of Yunli's ATK to a random single enemy.\nWhen Yunli deals DMG via this ability, it's considered as dealing Ultimate DMG.\n\n Talent\n Flashforge\n Blast\n\n Lv. 1\n\n Energy gain: 10\n Break: 10 + 10 adjacent\n\n When Yunli gets attacked by an enemy target, additionally regenerates 15 Energy and immediately launches a Counter on the attacker, dealing Physical DMG equal to #1[i]% of Yunli's ATK to the attacker and Physical DMG equal to #2[i]% of Yunli's ATK to adjacent targets.\nIf there is no immediate target to Counter, then Counters a random enemy target instead.\n\n Technique\n Posterior Precedence\n Enhance\n\n Energy gain: 0\n Break: -\n\n This unit gains the Ward effect, lasting for 20 seconds. During this time, upon entering combat by either attacking enemies or receiving an attack, immediately casts 'Intuit: Cull' on a random enemy, and increases the DMG dealt by this attack by 80%.\n\n Major Traces\n A2 Major trace\n Fiery Wheel\n\n After each use of Intuit: Slash, the next Intuit: Slash will be replaced by Intuit: Cull.\n\n A4 Major trace\n Demon Quell\n\n While in the Parry state, resists Crowd Control debuffs received and reduces DMG received by 20% .\n\n A6 Major trace\n True Sunder\n\n When using a Counter, increases Yunli's ATK by 30% , lasting for 1 turn.\n\n Minor Traces (total)\n CRIT Rate\n + 6.7%\n\n ATK\n + 28%\n\n HP\n + 18%\n\n Eidolons\n E 1\n Weathered Blade Does Not Sully\n Eidolon 1\n\n Increases DMG dealt by \"Intuit: Slash\" and \"Intuit: Cull\" by 20% . Increases the number of additional DMG instances for \"Intuit: Cull\" by 3 .\n\n E 2\n First Luster Breaks Dawn\n Eidolon 2\n\n When dealing DMG via Counter, ignores 20% of the target's DEF.\n\n E 3\n Mastlength Twirls Mountweight\n Eidolon 3\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Artisan's Ironsong\n Eidolon 4\n\n After launching \"Intuit: Slash\" or \"Intuit: Cull\", increases this unit's Effect RES by 50% , lasting for 1 turn(s).\n\n E 5\n Blade of Old Outlasts All\n Eidolon 5\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Walk in Blade, Talk in Zither\n Eidolon 6\n\n While Parry is active, if an enemy actively uses their abilities, regardless of whether it attacks Yunli or not, it will trigger \"Intuit: Cull\" and remove the \"Parry\" effect. When dealing DMG via \"Intuit: Slash\" or \"Intuit: Cull\", increases CRIT Rate by 15% and Physical RES PEN by 20% .\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1359\n\n ATK\n\n 679\n\n DEF\n\n 460\n\n Speed\n\n 94\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 308000\n\n Artifex's Module\n\n x 15\n\n Artifex's Cogwheel\n\n x 15\n\n IPC Work Permit\n\n x 65\n\n Artifex's Gyreheart\n\n x 15\n\n CV\n ENG\n Brenna Larsen\n\n JPN\n Shion Wakayama (若山詩音)\n\n CN\n Liu Wen (刘雯)\n\n KR\n Lee Ju-eun (이주은)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Very strong general-use DPS unit,\n\n Very good Energy economy leading to consistent Ultimates,\n\n Deals very high damage in both single-target and AoE scenarios,\n\n Counter gameplay means she scales with enemy SPD and not her own,\n\n Has built-in self sustain and resilience to Crowd Control,\n\n Has a charge system on her Ultimate meaning it’s less likely to overcap on Energy.\n\n Cons\n Potentially very challenging to pilot due to the ‘use it or lose it’ nature of her Ultimate’s Parry,\n\n Consistency greatly relies on having increased aggro either from her Signature Light Cone or from Lynx,\n\n Damage suffers tremendously if enemies are not actively attacking Yunli.\n\n Review (By Sushou)\n Yunli is a powerful counter-attacker akin to Clara. She will immediately retaliate when attacked by an enemy, dealing follow-up DMG in a Blast AoE. She will also gain vastly increased Energy gains when being attacked, and may store up to twice the Energy cost of her Ultimate, letting her more tactically use her Ultimate and prevent overcapping. Her enhanced state from her Ultimate will also prevent her from getting hit by Crowd Control and will reduce the DMG she takes. She is trickier to play than may initially appear, but the effort is worth it.\n Fellow sword enjoyer Yunli is a pretty great all-rounder character. She's a follow-up counter-attacker with good self-sustain and Energy economy, and she's got quite a strong kit. She is eerily similar to Clara in a great many ways, but there are some key differences that distinguish the two.\n Yunli's Talent is the centrepiece of her kit, and the first part of the puzzle. Whenever she is attacked by an enemy, she will immediately Counter them, dealing up to 120% ATK to the main target, and 60% ATK to adjacent foes. She will also restore 15 Energy whenever she is attacked, and this is in addition to the 5 Energy she gains from actually landing the Counter. If there is somehow no target to Counter when this activates, she will launch the Counter on a random enemy instead.\n On its own, it's not terribly impressive damage, but it is consistently activated and is a decent source of damage for Yunli. The incoming Energy gains are far more important and are extremely significant, feeding into her game plan perfectly, getting back 20 Energy each time she gets hit and Counters, almost an entire Skill's worth of Energy for doing nothing. The Toughness damage of the Counter is unimpressive, however; even though it is a Blast AoE, the primary target still only takes the minimal amount of Toughness damage.\n Her Skill is a copy of her Talent's Counter. Yunli will launch an attack against an enemy target, dealing the same Blast AoE and damage as from her Counter, 120% ATK against the main foe, and 60% ATK against adjacent ones. Curiously, this Blast AoE does deal the expected increased Toughness damage against the main foe compared to the Counter version, and will additionally restore HP for Yunli, up to 30% ATK plus 200 upon use.\n This is a pretty good means of self-sustain for Yunli should you need it for that, but the rather lacking damage means it's not always going to be used; when most of Yunli's damage comes from her Ultimate Talent's Counter, expending a Skill Point for basically the same effect on your turn may not always be the best option, especially since a Basic ATK is not that far behind in damage and will return a Skill Point instead. You can use this in a pinch to heal Yunli or to regain some extra Energy, but it's not advised to use this exclusively to speed up Breaking an enemy in most cases, as Broken foes cannot attack you, and that's kind of the whole point of the character.\n Yunli's Ultimate is the second part of the puzzle for her big damage. She consumes 120 Energy to gain the Parry stance, Taunting all enemies and increasing the CRIT DMG of Yunli's next Counter by up to 100%. This Parry state only lasts until the end of the next unit's turn, meaning it goes away after the next unit has finished acting, be it an ally or an enemy. This is important to keep in mind because there are two possible actions Yunli can take from the Parry state; Intuit: Cull is used if Yunli gets attacked during her Parry state, dealing up to 220% ATK to the attacker and 110% ATK to adjacent targets, and then dealing 6 additional instances of single-target damage, Bouncing between random enemies, up to 72% ATK per hit. If Yunli is NOT attacked during the short window of Parry, she will instead use Intuit: Slash on a random enemy, dealing the same upfront damage as Cull, but without the additional instances of damage.\n What this means is that you are extremely rewarded for good timing on Yunli's Ultimate, and are heavily punished for bad timing. If you use her Ultimate right before an enemy's turn, they are Taunted and have no choice but to attack Yunli, triggering Yunli's Cull and dealing stupidly high damage to all enemies on the field — the good ending. If, however, you use Yunli's Ultimate and it's an ally acting next, at the end of that ally's turn, Yunli will launch Slash and you'll do very little damage, losing out on most of the benefits of the enhanced Counter.\n This is why Yunli's Max Energy is at 240. Since a single Ultimate usage costs 120 Energy, you can essentially store up to 2 uses of Yunli's Ultimate, thus greatly mitigating the potential for losing out on Energy via overcapping. Because of her Talent's Energy influx, Yunli will constantly have the Energy for Ultimate uses, and you are able to gauge for yourself when you think it'll be best to use a charge. Do note that she cannot use her Ultimate again while the Parry state is active, and all damage done via this state is considered as Ultimate DMG.\n This is why Yunli can be considered to be quite difficult to make full use of, as having the Parry state dissipate before getting attacked will greatly reduce the damage Yunli will be doing, and with the regular damage from her Talent being as low as it is, there's actually quite a big reliance on her Ultimate to be dealing competitive damage. If you misjudge a situation and use the Ultimate at a bad time, you're going to be disappointed at the damage coming out, but the only one to blame will be you.\n Yunli's Bonus Ability Traces do much to improve her game plan. A2 in particular helps to alleviate the issues of mistimed Ultimates. Every time you use an Intuit: Slash (the version without the extra DMG instances), the next time you would have used an Intuit: Slash, it will instead be replaced with an Intuit: Cull (the good one). This means that even if enemies are not able to attack you or inflict damage through means beyond direct attacks, Yunli will still be able to get her maximum strength Counters albeit at a reduced rate.\n Even if you're completely not paying attention (or maybe getting trolled by the Auto mode), Yunli can still pop off. Interestingly enough, this does open the door to potentially massive burst windows by prepping an upgraded Slash in advance; you use an Ultimate in advance, letting the Parry state fall off, and then later you use an Ultimate to get hit by an enemy, followed by another Ultimate and launch a second Cull against enemies. This is a niche interaction, and while it can potentially be used to take full advantage of very limited buff durations, it is a very advanced concept and most players should stick to just timing her Ultimate well instead.\n A4 will further buff the Parry state, granting Yunli a 20% DMG Reduction as well as full immunity to all Crowd Control effects. There is quite literally no way that Yunli can be made to not land her Parry follow-ups, so all of you annoying Crowd Control heavy enemies, eat your hearts out and cry about it. A6 will grant a 1 turn 30% ATK boost whenever Yunli uses a Counter, giving a small but appreciated boost to damage for doing what you were doing anyway.\n In terms of Eidolons, as usual none of them are necessary for Yunli to excel, but a few of them are quite nice to have. E1 will increase the DMG% of Intuit: Slash and Intuit: Cull by 20%, and will additionally increase the extra hits of Cull by 3. E2 will make all damage dealt via Counters ignore 20% of targets' DEF. These two together tremendously increase damage at quite literally no extra cost and no change to gameplay. E4 will let Slash and Cull increase Yunli's Effect RES by 50% for 1 turn, mostly useful for non Crowd Control debuffs or whenever Parry is not available. Finally, E6 will make it so that Yunli can Parry enemy thoughts; if they act in any way even if they don't hit Yunli, Yunli will immediately launch an Intuit: Cull and remove the Parry state. Furthermore, dealing damage through Slash or Cull will increase CRIT Rate by 15% and Physical RES PEN by 20% for these actions.\n It's fairly easy to see how Yunli and Clara may be similar, but there are definitely key differences that set them apart and indeed make them excel in different situations. Both of them are reliant on their Ultimates to deal their big damage, but Clara does not have the failure condition like Yunli does; haphazard usage of Yunli's Ultimate can lead to big damage losses, even when factoring in her A2 bonus, but Clara does not have this limitation. Clara's base Counter damage is also higher against attackers, 160% ATK versus Yunli's 120% ATK.\n Clara's Enhanced Counter also deals a total of 640% ATK as a Blast AoE, whereas Yunli's Cull Counter deals a whopping 872% ATK spread across all enemies, but keep in mind that Clara gets 2 Enhanced Counters per Ultimate where Yunli only gets one. Clara's Skill also does comparatively more than Yunli's Skill, being able to hit all enemies on the field at all times and potentially doubling its damage against enemies with Svarog's Mark of Counter on them.\n As such, it's probably most accurate to say that while Yunli's damage ceiling is undeniably higher in most cases, Clara is just far less hassle to play. Both are great in all three endgame game modes, and their teams are also similar and similarly flexible. Yunli is, for the most part, a superior version of Clara, but please bear in mind that this does not in any way devalue what Clara does — after all, what’s better than having one ballin’ counter-attacker? Two. The answer is two counter-attackers.\n They both like similar teammates too, with units like Tingyun, Sunday and Huohuo providing greater Ultimate uptime and damage boosts — Huohuo in particular restores a whopping 48 Energy with her Ultimate since Yunli's Max Energy is 240, even though she only needs 120 Energy for a use of her Ultimate. Robin also is exceptionally potent as all of her bonuses benefit Yunli, and the teamwide Action Advance is also notable as, like Clara, Yunli does not want to ever build SPD.\n Should you choose to play Yunli in a dual carry comp, Robin also excels at buffing both Yunli and whatever your other DPS character is. March 8th in particular can also be quite an impressive pairing, the student and the master on one team with their emotional support idol backing them up, though do keep in mind that March’s automatic Action Advance when she gets her Enhanced Basic can result in scuffed Ultimate Parry timing for Yunli if you’re not careful.\n These similarities do also mean that both characters face similar issues. Because both characters want to be hit to deal damage, any time they're not getting hit, they're doing next to no damage. Yunli can technically circumvent this, but amusingly enough she can’t do it quite as well as Clara can due to Clara’s teamwide Counter state during her Ultimate. It's still the same issue, though, and it's still quite prevalent for Yunli especially. This is particularly noticeable when looking at Yunli without her Signature Light Cone, because for whatever reason this Light Cone seems to have an absurdly high Aggro modifier. For the sake of consistency alone, getting Yunli's Light Cone for either character is worth considering.\n Yunli is very capable and can wipe the floor with enemies quite easily. Remember to account for her increased CRIT DMG from her Ultimate when building for her, and try to keep track of enemy turns to make best use of her Parry mechanic. If you already own Clara, you may not feel the need to go for Yunli, but again, both of them are incredibly good characters and, if Clara is anything to go by, are going to continue to be good long into the future.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Damage dealer\n T3\n MoC\n\n T3\n PF\n\n T4\n AS\n\n Build and teams\n\n Best Light Cones\n\n 123.04%\n\n Dance at Sunset (S 1 )\n\n Yunli’s signature Light Cone is a massive upgrade over other options due to Yunli’s sole reliance on getting hit by enemies. It significantly increases the chance of her being targeted by enemies, resulting in more counters and more Energy regeneration. And the Light Cone will also provide 36% CRIT DMG, and a 72% DMG Boost to all of her counterattacks.\n Usage: 93.38 %\n MoC: -\n PF: 34520\n AS: 3276\n\n 117.34%\n\n Thus Burns the Dawn (S 1 )\n\n Phainon's sig on Yunli is an incredible alternative thanks to its massive 687 Base ATK, permanent 18% DEF Ignore on all attacks, and 60% DMG boost after using Ultimate that Yunli can trivially lineup with her Ultimate's Enhanced Counters. In some teams such as a 135/134 setup with Yunli and Phainon that base SPD can also allow her to invest more into CRIT and ATK stats. Although it lacks Taunt increase stat can make it annoying vs. enemies that frequently use Single-Target attacks and not targetting her for Energy.\n Usage: 2.94 %\n MoC: -\n PF: 0\n AS: 0\n\n 102.23%\n\n The Unreachable Side (S 1 )\n\n This Light Cone provides Yunli with a solid amount of Crit Rate and a typically conditional Damage% buff that activates when taking damage or consuming health. However, due to Yunli's counter-attack playstyle, this buff is almost always active, making The Unreachable Side a reasonable alternative if you don't have her Signature Light Cone.\n\n 101.75%\n\n Brighter Than the Sun (S 1 )\n\n This Light Cone provides Yunli with Crit Rate, Attack%, and Energy Recharge but requires her to use multiple basic attacks throughout combat in order to keep its bonuses active. Fortunately for Yunli this downside isn't much of one as she isn't overly reliant on her Skill Usage in the first place and the Energy Recharge% can easily make up for the Energy lost by using Basic Attacks over Skills. It does require two full turns of ramp-up time to become fully active, and utilizing Basic Attacks in AoE fights may feel a bit harder compared to Single-Target encounters.\n\n 100.81%\n\n Something Irreplaceable (S 1 )\n\n 100%\n\n On the Fall of an Aeon (S 5 )\n\n Usage: 3.68 %\n MoC: -\n PF: 0\n AS: 0\n\n 96.81%\n\n Under the Blue Sky (S 5 )\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n The Wind-Soaring Valorous ( 4 -PC)\n\n Due to Yunli's incredibly frequent Follow-Ups she will almost always have the 4P bonus buff effect of this set active. Yunli's Ultimate is a hybrid between Follow-Up Attack and Ultimate attack and scales off increases to both. This makes the set buff close to a permanent 36% Damage Increase to her Ultimate which just so happens to be responsible for a massive portion of her damage making this set easily her strongest.\n Usage: 97.06 %\n MoC: -\n PF: 34520\n AS: 3276\n\n 95.53%\n\n Poet of Mourning Collapse ( 4 -PC)\n\n Specialist set intended for use on characters with kits that do not require Speed or that have other ways of accessing it in combat. On characters where this set is viable, the CRIT RATE buff is enough to offset the -8% Speed penalty and the sacrifice of building no Speed before battle. Yunli does not require much or any Speed to function and is often played with action advancers like Sparkle, Sunday, or Robin that allow her to “cheat” her Speed. Because of this Yunli can ignore the main downside of this set for the most part whilst reaping huge rewards. It’s important to note, without an action advancer to help Yunli may want a token amount of speed to offset the -8% and ensure she doesn’t start dropping actions in longer fights.\n 95.02%\n\n The Ashblazing Grand Duke ( 4 -PC)\n\n This set is a reasonable but somewhat inconsistent alternative due to the nature of the 4P bonus and how many hits each of Yunli's actions actually inflict. Yunli's standard talent-based counters only deal 1 hit per target hit (Max of 3 stacks against 3 enemies) but her Ultimate can hit over 8 times on a single enemy and even more than that on multiple. This means Yunli will sometimes have max stacks but have less than half other times. Fortunately, her strongest hits, her Ultimate slashes, will be close to fully buffed making this set still competitive even if it can't unlock its full potential.\n 92.07%\n\n The Ashblazing Grand Duke ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Champion of Streetwise Boxing\n\n Scholar Lost in Erudition\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n Best Planetary Sets\n 100%\n\n Inert Salsotto ( 2 -PC)\n\n The most consistent option for Yunli granting her Follow-Up Damage which boosts her Talent AND Ultimate and also one of her strongest stats CRIT RATE all unconditionally with no ramp or downtime.\n 104.53%\n\n Duran, Dynasty of Running Wolves ( 2 -PC)\n\n The highest damage potential set for Yunli but it requires ramp-up time which is dependant on how many enemies are present, how long the fight lasts, and how many Follow-Up Attackers are on your team. Can pull firmly ahead or fall slightly behind Salsotto depending on these factors.\n Usage: 100 %\n MoC: -\n PF: 34520\n AS: 3276\n\n Best Stats\n\n Body\n CRIT Rate\n > CRIT DMG\n\n Feet\n ATK%\n\n Planar Sphere\n Physical DMG\n > ATK%\n\n Link Rope\n ATK%\n > Energy Regen Rate\n\n Substats: CRIT RATE = CRIT DMG > ATK%\n\n This is your typical DPS build that focuses on the holy trifecta - ATK, Crit Rate, and Crit DMG. For every 1% of Crit try to have 2% of Crit DMG.\n\n Recommended endgame stats\n HP: 3400+\n\n DEF: 800+\n\n ATK: 3200 - 3400+\n\n CRIT RATE: 90% - 100%+\n\n CRIT DMG: 100% - 120%+\n An acceptable Crit Ratio for Yunli is approximately 100% (Crit Rate) to 100% (Crit Damage). This ratio is crucial because, during actual combat scenarios, it effectively translates to something closer to 100% (Crit Rate) to 200% (Crit Damage) when her Ultimate and Follow-Up Attacks are utilized.\n\n SPD: 94 (Base Speed)\n\n Traces priority\n Skills priority: Ultimate > Talent > Skill = Basic\n\n Major Traces priority: Fiery Wheel (A2) > True Sunder (A6) > Demon Quell (A4)\n\n Synergy\n Robin - Robin provides the best buffs for all Follow-up characters - insanely high flat ATK boost, her Crit DMG% buffs, and DMG% buffs synergize with Yunli insanely well. Robin’s Crit DMG% to Follow-up attacks trace ability also applies to her ultimate - as Yunli’s Ultimate is considered a Follow-up attack. Robin’s team-wide advance is also particularly helpful to Yunli as she does not build any Speed of her own. Robin also supports dual damaging teams excellently of which Yunli has multiple incredibly viable options for.\n Tribbie - Yunli can quickly gain her Ultimate, fueling Tribbie and she in return can help her with dealing more damage to elites and bosses (with her E1).\n Sunday - Sunday provides Yunli with more actions, great buffs and Energy on top of that, improving her performance across the board.\n Tingyun - Tingyun provides additional Energy for Yunli to access more Ultimates pushing her damage even higher than usual. Tingyun also provides a strong DMG% buff and ATK% buff to Yunli through her Ultimate and Skill respectively. Her skill's Benediction also does in fact trigger on Yunli’s Counter and Ultimate, leading to even more damage.\n Dan Heng • Permansor Terrae - Go-to sustain option for ATK-scaling teams. Permansor Terrae can provide strong Shields to the entire team, with an ATK buff for a single teammate and extra ATK multipliers. Notably with Sunday, his Souldragon will enable to the target to receive the full 80% DMG Bonus from Sunday's Skill and Souldragon will be Advanced along the target to repeatedly refresh Shields on the team.\n Huohuo - Huohuo Ultimate has excellent synergy with Yunli - providing 48 energy on use instead of the expected 24. The reason for this is Huohuo considers Yunli’s total energy not how much her ultimate actually costs, meaning Huohuo grants her over a third of an Ultimate each time. Huohuo also provides an Attack buff which will persist in-between Yunli’s counters, and a bunch of cleanses to ensure those Counter’s go off.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 10\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 8\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 10\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 5\n\n New\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 8\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : 9\n Avg. cycles (E1+): -\n\n New\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 6\n\n New\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

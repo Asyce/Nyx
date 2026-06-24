@@ -1,0 +1,23 @@
+[
+  {
+    "id": "camille",
+    "name": "Camille",
+    "kind": "banner",
+    "wikiFile": "Camille Banner.png",
+    "reason": "Referenced file does not currently resolve through the wiki image API."
+  },
+  {
+    "id": "camille",
+    "name": "Camille",
+    "kind": "portrait",
+    "wikiFile": "Camille tooltip.png",
+    "reason": "Referenced file does not currently resolve through the wiki image API."
+  },
+  {
+    "id": "mi-fu",
+    "name": "Mi Fu",
+    "kind": "portrait",
+    "wikiFile": "Mi_Fu tooltip.png",
+    "reason": "Referenced file does not currently resolve through the wiki image API."
+  }
+]

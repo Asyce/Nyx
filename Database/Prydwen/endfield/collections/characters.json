@@ -1,0 +1,1166 @@
+{
+  "id": "collection:characters",
+  "provider": "Prydwen",
+  "game": "endfield",
+  "gameName": "Arknights: Endfield",
+  "collection": "characters",
+  "recordType": "collection",
+  "slug": "characters",
+  "name": "Arknights: Endfield Characters Build Guides",
+  "title": "Arknights: Endfield Characters Build Guides",
+  "sourcePath": "/arknights-endfield/characters",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "20/June/2026",
+  "meta": {
+    "title": "Arknights: Endfield Characters - All Operators & Build Guides",
+    "description": ""
+  },
+  "facts": {},
+  "assets": [
+    {
+      "id": "07b2dc095dbe",
+      "sourceHash": "07b2dc095dbe",
+      "kind": "categories",
+      "name": "Arknights: Endfield Characters Build Guides",
+      "fileStem": "category-characters",
+      "path": "Prydwen/endfield/assets/categories/arknights-endfield-characters-build-guides-07b2dc095dbe.webp",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "id": "1c9bfc6b9d91",
+      "sourceHash": "1c9bfc6b9d91",
+      "kind": "icons",
+      "name": "Caster",
+      "fileStem": "class-caster",
+      "path": "Prydwen/endfield/assets/icons/caster-1c9bfc6b9d91.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "1dbfd9d7e202",
+      "sourceHash": "1dbfd9d7e202",
+      "kind": "icons",
+      "name": "Defender",
+      "fileStem": "class-defender",
+      "path": "Prydwen/endfield/assets/icons/defender-1dbfd9d7e202.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "dd3b355ad496",
+      "sourceHash": "dd3b355ad496",
+      "kind": "icons",
+      "name": "Guard",
+      "fileStem": "class-guard",
+      "path": "Prydwen/endfield/assets/icons/guard-dd3b355ad496.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "f168127798d9",
+      "sourceHash": "f168127798d9",
+      "kind": "icons",
+      "name": "Striker",
+      "fileStem": "class-striker",
+      "path": "Prydwen/endfield/assets/icons/striker-f168127798d9.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "2eb98b3994fc",
+      "sourceHash": "2eb98b3994fc",
+      "kind": "icons",
+      "name": "Supporter",
+      "fileStem": "class-support",
+      "path": "Prydwen/endfield/assets/icons/supporter-2eb98b3994fc.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "56e0393f2b1e",
+      "sourceHash": "56e0393f2b1e",
+      "kind": "icons",
+      "name": "Vanguard",
+      "fileStem": "class-vanguard",
+      "path": "Prydwen/endfield/assets/icons/vanguard-56e0393f2b1e.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "9b291c88ce28",
+      "sourceHash": "9b291c88ce28",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "element-physical",
+      "path": "Prydwen/endfield/assets/icons/physical-9b291c88ce28.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "ffd55a6794cd",
+      "sourceHash": "ffd55a6794cd",
+      "kind": "icons",
+      "name": "Cryo",
+      "fileStem": "element-cryo",
+      "path": "Prydwen/endfield/assets/icons/cryo-ffd55a6794cd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "21e0d5281fdd",
+      "sourceHash": "21e0d5281fdd",
+      "kind": "icons",
+      "name": "Electric",
+      "fileStem": "element-electric",
+      "path": "Prydwen/endfield/assets/icons/electric-21e0d5281fdd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "4a975b15dfb0",
+      "sourceHash": "4a975b15dfb0",
+      "kind": "icons",
+      "name": "Heat",
+      "fileStem": "element-heat",
+      "path": "Prydwen/endfield/assets/icons/heat-4a975b15dfb0.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "3c1cc57bcd5f",
+      "sourceHash": "3c1cc57bcd5f",
+      "kind": "icons",
+      "name": "Nature",
+      "fileStem": "element-nature",
+      "path": "Prydwen/endfield/assets/icons/nature-3c1cc57bcd5f.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "15eadc978904",
+      "sourceHash": "15eadc978904",
+      "kind": "icons",
+      "name": "Greatsword",
+      "fileStem": "weapon-greatsword",
+      "path": "Prydwen/endfield/assets/icons/greatsword-15eadc978904.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "42ae4b393df9",
+      "sourceHash": "42ae4b393df9",
+      "kind": "icons",
+      "name": "Handcannon",
+      "fileStem": "weapon-guns",
+      "path": "Prydwen/endfield/assets/icons/handcannon-42ae4b393df9.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "bae01a09b1b5",
+      "sourceHash": "bae01a09b1b5",
+      "kind": "icons",
+      "name": "Arts Unit",
+      "fileStem": "weapon-orbiter",
+      "path": "Prydwen/endfield/assets/icons/arts-unit-bae01a09b1b5.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "99c8faf9fc7c",
+      "sourceHash": "99c8faf9fc7c",
+      "kind": "icons",
+      "name": "Polearm",
+      "fileStem": "weapon-polearm",
+      "path": "Prydwen/endfield/assets/icons/polearm-99c8faf9fc7c.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "69fea770728d",
+      "sourceHash": "69fea770728d",
+      "kind": "icons",
+      "name": "Sword",
+      "fileStem": "weapon-sword",
+      "path": "Prydwen/endfield/assets/icons/sword-69fea770728d.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "f341349cba2f",
+      "sourceHash": "f341349cba2f",
+      "kind": "characters",
+      "name": "Akekuri",
+      "fileStem": "akekuri-card",
+      "path": "Prydwen/endfield/assets/characters/akekuri-f341349cba2f.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "d26ce09d6ede",
+      "sourceHash": "d26ce09d6ede",
+      "kind": "characters",
+      "name": "Alesh",
+      "fileStem": "alesh-card",
+      "path": "Prydwen/endfield/assets/characters/alesh-d26ce09d6ede.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "13accfeae1f4",
+      "sourceHash": "13accfeae1f4",
+      "kind": "characters",
+      "name": "Antal",
+      "fileStem": "antal-card",
+      "path": "Prydwen/endfield/assets/characters/antal-13accfeae1f4.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "b20c252a6d6a",
+      "sourceHash": "b20c252a6d6a",
+      "kind": "characters",
+      "name": "Arclight",
+      "fileStem": "arclight-card",
+      "path": "Prydwen/endfield/assets/characters/arclight-b20c252a6d6a.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "d8267d5852dd",
+      "sourceHash": "d8267d5852dd",
+      "kind": "characters",
+      "name": "Ardelia",
+      "fileStem": "ardelia-card",
+      "path": "Prydwen/endfield/assets/characters/ardelia-d8267d5852dd.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "4c18245af0e9",
+      "sourceHash": "4c18245af0e9",
+      "kind": "characters",
+      "name": "Avywenna",
+      "fileStem": "avywenna-card",
+      "path": "Prydwen/endfield/assets/characters/avywenna-4c18245af0e9.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "c01d749cf2bc",
+      "sourceHash": "c01d749cf2bc",
+      "kind": "characters",
+      "name": "Camille",
+      "fileStem": "camille-card",
+      "path": "Prydwen/endfield/assets/characters/camille-c01d749cf2bc.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "88005c0c29a1",
+      "sourceHash": "88005c0c29a1",
+      "kind": "characters",
+      "name": "Catcher",
+      "fileStem": "catcher-card",
+      "path": "Prydwen/endfield/assets/characters/catcher-88005c0c29a1.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "c272d5ba738e",
+      "sourceHash": "c272d5ba738e",
+      "kind": "characters",
+      "name": "Chen Qianyu",
+      "fileStem": "chen-qianyu-card",
+      "path": "Prydwen/endfield/assets/characters/chen-qianyu-c272d5ba738e.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "8f22c9eb9578",
+      "sourceHash": "8f22c9eb9578",
+      "kind": "characters",
+      "name": "Da Pan",
+      "fileStem": "da-pan-card",
+      "path": "Prydwen/endfield/assets/characters/da-pan-8f22c9eb9578.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "a94628b5b21f",
+      "sourceHash": "a94628b5b21f",
+      "kind": "characters",
+      "name": "Ember",
+      "fileStem": "ember-card",
+      "path": "Prydwen/endfield/assets/characters/ember-a94628b5b21f.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "87449c7e6b78",
+      "sourceHash": "87449c7e6b78",
+      "kind": "characters",
+      "name": "Endministrator",
+      "fileStem": "endministrator-card",
+      "path": "Prydwen/endfield/assets/characters/endministrator-87449c7e6b78.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "56c7d72bb3dd",
+      "sourceHash": "56c7d72bb3dd",
+      "kind": "characters",
+      "name": "Estella",
+      "fileStem": "estella-card",
+      "path": "Prydwen/endfield/assets/characters/estella-56c7d72bb3dd.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "149254723ee9",
+      "sourceHash": "149254723ee9",
+      "kind": "characters",
+      "name": "Fluorite",
+      "fileStem": "fluorite-card",
+      "path": "Prydwen/endfield/assets/characters/fluorite-149254723ee9.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "f27046de2188",
+      "sourceHash": "f27046de2188",
+      "kind": "characters",
+      "name": "Gilberta",
+      "fileStem": "gilberta-card",
+      "path": "Prydwen/endfield/assets/characters/gilberta-f27046de2188.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "5f86cf82fb73",
+      "sourceHash": "5f86cf82fb73",
+      "kind": "characters",
+      "name": "Laevatain",
+      "fileStem": "laevatain-card",
+      "path": "Prydwen/endfield/assets/characters/laevatain-5f86cf82fb73.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "6191c71efc0a",
+      "sourceHash": "6191c71efc0a",
+      "kind": "characters",
+      "name": "Last Rite",
+      "fileStem": "last-rite-card",
+      "path": "Prydwen/endfield/assets/characters/last-rite-6191c71efc0a.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "ec866212856d",
+      "sourceHash": "ec866212856d",
+      "kind": "characters",
+      "name": "Lifeng",
+      "fileStem": "lifeng-card",
+      "path": "Prydwen/endfield/assets/characters/lifeng-ec866212856d.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "0965266d85b2",
+      "sourceHash": "0965266d85b2",
+      "kind": "characters",
+      "name": "Mi Fu",
+      "fileStem": "mi-fu-card",
+      "path": "Prydwen/endfield/assets/characters/mi-fu-0965266d85b2.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "b20a7d8a6fe4",
+      "sourceHash": "b20a7d8a6fe4",
+      "kind": "characters",
+      "name": "Perlica",
+      "fileStem": "perlica-card",
+      "path": "Prydwen/endfield/assets/characters/perlica-b20a7d8a6fe4.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "18c48cc685ba",
+      "sourceHash": "18c48cc685ba",
+      "kind": "characters",
+      "name": "Pogranichnik",
+      "fileStem": "pogranichnik-card",
+      "path": "Prydwen/endfield/assets/characters/pogranichnik-18c48cc685ba.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "8cd0c2877986",
+      "sourceHash": "8cd0c2877986",
+      "kind": "characters",
+      "name": "Rossi",
+      "fileStem": "rossi-card",
+      "path": "Prydwen/endfield/assets/characters/rossi-8cd0c2877986.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "6929810d4aca",
+      "sourceHash": "6929810d4aca",
+      "kind": "characters",
+      "name": "Snowshine",
+      "fileStem": "snowshine-card",
+      "path": "Prydwen/endfield/assets/characters/snowshine-6929810d4aca.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "0a91b152218c",
+      "sourceHash": "0a91b152218c",
+      "kind": "characters",
+      "name": "Tangtang",
+      "fileStem": "tangtang-card",
+      "path": "Prydwen/endfield/assets/characters/tangtang-0a91b152218c.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "e452baad5c31",
+      "sourceHash": "e452baad5c31",
+      "kind": "characters",
+      "name": "Wulfgard",
+      "fileStem": "wulfgard-card",
+      "path": "Prydwen/endfield/assets/characters/wulfgard-e452baad5c31.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "1391b9495bfa",
+      "sourceHash": "1391b9495bfa",
+      "kind": "characters",
+      "name": "Xaihi",
+      "fileStem": "xaihi-card",
+      "path": "Prydwen/endfield/assets/characters/xaihi-1391b9495bfa.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "d5fa2fc535a7",
+      "sourceHash": "d5fa2fc535a7",
+      "kind": "characters",
+      "name": "Yvonne",
+      "fileStem": "yvonne-card",
+      "path": "Prydwen/endfield/assets/characters/yvonne-d5fa2fc535a7.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "fab17e9e9121",
+      "sourceHash": "fab17e9e9121",
+      "kind": "characters",
+      "name": "Zhuang Fangyi",
+      "fileStem": "zhuang-fangyi-card",
+      "path": "Prydwen/endfield/assets/characters/zhuang-fangyi-fab17e9e9121.webp",
+      "width": 280,
+      "height": 400
+    }
+  ],
+  "sections": [
+    {
+      "id": "arknights-endfield-characters-build-guides-0",
+      "level": 1,
+      "heading": "Arknights: Endfield Characters Build Guides",
+      "text": "All characters available in Arknights: Endfield. Use our character database to see every character and operator sorted by element, rarity, and class, plus build guides.\n Last updated: 20/June/2026",
+      "assets": []
+    },
+    {
+      "id": "all-arknights-endfield-characters-1",
+      "level": 2,
+      "heading": "All Arknights: Endfield Characters",
+      "text": "Showing 28 Characters\n ×\n 4✦ 5✦ 6✦\n\n Reset\n\n Akekuri\n\n Alesh\n\n Antal\n\n Arclight\n\n Ardelia\n\n Avywenna\n\n Camille Soon\n\n Catcher\n\n Chen Qianyu\n\n Da Pan\n\n Ember\n\n Endministrator\n\n Estella\n\n Fluorite\n\n Gilberta\n\n Laevatain\n\n Last Rite\n\n Lifeng\n\n Mi Fu New\n\n Perlica\n\n Pogranichnik\n\n Rossi\n\n Snowshine\n\n Tangtang\n\n Wulfgard\n\n Xaihi\n\n Yvonne\n\n Zhuang Fangyi",
+      "assets": [
+        {
+          "id": "1c9bfc6b9d91",
+          "sourceHash": "1c9bfc6b9d91",
+          "kind": "icons",
+          "name": "Caster",
+          "fileStem": "class-caster",
+          "path": "Prydwen/endfield/assets/icons/caster-1c9bfc6b9d91.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "1dbfd9d7e202",
+          "sourceHash": "1dbfd9d7e202",
+          "kind": "icons",
+          "name": "Defender",
+          "fileStem": "class-defender",
+          "path": "Prydwen/endfield/assets/icons/defender-1dbfd9d7e202.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "dd3b355ad496",
+          "sourceHash": "dd3b355ad496",
+          "kind": "icons",
+          "name": "Guard",
+          "fileStem": "class-guard",
+          "path": "Prydwen/endfield/assets/icons/guard-dd3b355ad496.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "f168127798d9",
+          "sourceHash": "f168127798d9",
+          "kind": "icons",
+          "name": "Striker",
+          "fileStem": "class-striker",
+          "path": "Prydwen/endfield/assets/icons/striker-f168127798d9.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "2eb98b3994fc",
+          "sourceHash": "2eb98b3994fc",
+          "kind": "icons",
+          "name": "Supporter",
+          "fileStem": "class-support",
+          "path": "Prydwen/endfield/assets/icons/supporter-2eb98b3994fc.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "56e0393f2b1e",
+          "sourceHash": "56e0393f2b1e",
+          "kind": "icons",
+          "name": "Vanguard",
+          "fileStem": "class-vanguard",
+          "path": "Prydwen/endfield/assets/icons/vanguard-56e0393f2b1e.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "9b291c88ce28",
+          "sourceHash": "9b291c88ce28",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "element-physical",
+          "path": "Prydwen/endfield/assets/icons/physical-9b291c88ce28.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "ffd55a6794cd",
+          "sourceHash": "ffd55a6794cd",
+          "kind": "icons",
+          "name": "Cryo",
+          "fileStem": "element-cryo",
+          "path": "Prydwen/endfield/assets/icons/cryo-ffd55a6794cd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "21e0d5281fdd",
+          "sourceHash": "21e0d5281fdd",
+          "kind": "icons",
+          "name": "Electric",
+          "fileStem": "element-electric",
+          "path": "Prydwen/endfield/assets/icons/electric-21e0d5281fdd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "4a975b15dfb0",
+          "sourceHash": "4a975b15dfb0",
+          "kind": "icons",
+          "name": "Heat",
+          "fileStem": "element-heat",
+          "path": "Prydwen/endfield/assets/icons/heat-4a975b15dfb0.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "3c1cc57bcd5f",
+          "sourceHash": "3c1cc57bcd5f",
+          "kind": "icons",
+          "name": "Nature",
+          "fileStem": "element-nature",
+          "path": "Prydwen/endfield/assets/icons/nature-3c1cc57bcd5f.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "15eadc978904",
+          "sourceHash": "15eadc978904",
+          "kind": "icons",
+          "name": "Greatsword",
+          "fileStem": "weapon-greatsword",
+          "path": "Prydwen/endfield/assets/icons/greatsword-15eadc978904.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "42ae4b393df9",
+          "sourceHash": "42ae4b393df9",
+          "kind": "icons",
+          "name": "Handcannon",
+          "fileStem": "weapon-guns",
+          "path": "Prydwen/endfield/assets/icons/handcannon-42ae4b393df9.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "bae01a09b1b5",
+          "sourceHash": "bae01a09b1b5",
+          "kind": "icons",
+          "name": "Arts Unit",
+          "fileStem": "weapon-orbiter",
+          "path": "Prydwen/endfield/assets/icons/arts-unit-bae01a09b1b5.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "99c8faf9fc7c",
+          "sourceHash": "99c8faf9fc7c",
+          "kind": "icons",
+          "name": "Polearm",
+          "fileStem": "weapon-polearm",
+          "path": "Prydwen/endfield/assets/icons/polearm-99c8faf9fc7c.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "69fea770728d",
+          "sourceHash": "69fea770728d",
+          "kind": "icons",
+          "name": "Sword",
+          "fileStem": "weapon-sword",
+          "path": "Prydwen/endfield/assets/icons/sword-69fea770728d.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "f341349cba2f",
+          "sourceHash": "f341349cba2f",
+          "kind": "characters",
+          "name": "Akekuri",
+          "fileStem": "akekuri-card",
+          "path": "Prydwen/endfield/assets/characters/akekuri-f341349cba2f.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "d26ce09d6ede",
+          "sourceHash": "d26ce09d6ede",
+          "kind": "characters",
+          "name": "Alesh",
+          "fileStem": "alesh-card",
+          "path": "Prydwen/endfield/assets/characters/alesh-d26ce09d6ede.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "13accfeae1f4",
+          "sourceHash": "13accfeae1f4",
+          "kind": "characters",
+          "name": "Antal",
+          "fileStem": "antal-card",
+          "path": "Prydwen/endfield/assets/characters/antal-13accfeae1f4.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "b20c252a6d6a",
+          "sourceHash": "b20c252a6d6a",
+          "kind": "characters",
+          "name": "Arclight",
+          "fileStem": "arclight-card",
+          "path": "Prydwen/endfield/assets/characters/arclight-b20c252a6d6a.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "d8267d5852dd",
+          "sourceHash": "d8267d5852dd",
+          "kind": "characters",
+          "name": "Ardelia",
+          "fileStem": "ardelia-card",
+          "path": "Prydwen/endfield/assets/characters/ardelia-d8267d5852dd.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "4c18245af0e9",
+          "sourceHash": "4c18245af0e9",
+          "kind": "characters",
+          "name": "Avywenna",
+          "fileStem": "avywenna-card",
+          "path": "Prydwen/endfield/assets/characters/avywenna-4c18245af0e9.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "c01d749cf2bc",
+          "sourceHash": "c01d749cf2bc",
+          "kind": "characters",
+          "name": "Camille",
+          "fileStem": "camille-card",
+          "path": "Prydwen/endfield/assets/characters/camille-c01d749cf2bc.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "88005c0c29a1",
+          "sourceHash": "88005c0c29a1",
+          "kind": "characters",
+          "name": "Catcher",
+          "fileStem": "catcher-card",
+          "path": "Prydwen/endfield/assets/characters/catcher-88005c0c29a1.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "c272d5ba738e",
+          "sourceHash": "c272d5ba738e",
+          "kind": "characters",
+          "name": "Chen Qianyu",
+          "fileStem": "chen-qianyu-card",
+          "path": "Prydwen/endfield/assets/characters/chen-qianyu-c272d5ba738e.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "8f22c9eb9578",
+          "sourceHash": "8f22c9eb9578",
+          "kind": "characters",
+          "name": "Da Pan",
+          "fileStem": "da-pan-card",
+          "path": "Prydwen/endfield/assets/characters/da-pan-8f22c9eb9578.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "a94628b5b21f",
+          "sourceHash": "a94628b5b21f",
+          "kind": "characters",
+          "name": "Ember",
+          "fileStem": "ember-card",
+          "path": "Prydwen/endfield/assets/characters/ember-a94628b5b21f.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "87449c7e6b78",
+          "sourceHash": "87449c7e6b78",
+          "kind": "characters",
+          "name": "Endministrator",
+          "fileStem": "endministrator-card",
+          "path": "Prydwen/endfield/assets/characters/endministrator-87449c7e6b78.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "56c7d72bb3dd",
+          "sourceHash": "56c7d72bb3dd",
+          "kind": "characters",
+          "name": "Estella",
+          "fileStem": "estella-card",
+          "path": "Prydwen/endfield/assets/characters/estella-56c7d72bb3dd.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "149254723ee9",
+          "sourceHash": "149254723ee9",
+          "kind": "characters",
+          "name": "Fluorite",
+          "fileStem": "fluorite-card",
+          "path": "Prydwen/endfield/assets/characters/fluorite-149254723ee9.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "f27046de2188",
+          "sourceHash": "f27046de2188",
+          "kind": "characters",
+          "name": "Gilberta",
+          "fileStem": "gilberta-card",
+          "path": "Prydwen/endfield/assets/characters/gilberta-f27046de2188.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "5f86cf82fb73",
+          "sourceHash": "5f86cf82fb73",
+          "kind": "characters",
+          "name": "Laevatain",
+          "fileStem": "laevatain-card",
+          "path": "Prydwen/endfield/assets/characters/laevatain-5f86cf82fb73.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "6191c71efc0a",
+          "sourceHash": "6191c71efc0a",
+          "kind": "characters",
+          "name": "Last Rite",
+          "fileStem": "last-rite-card",
+          "path": "Prydwen/endfield/assets/characters/last-rite-6191c71efc0a.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "ec866212856d",
+          "sourceHash": "ec866212856d",
+          "kind": "characters",
+          "name": "Lifeng",
+          "fileStem": "lifeng-card",
+          "path": "Prydwen/endfield/assets/characters/lifeng-ec866212856d.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "0965266d85b2",
+          "sourceHash": "0965266d85b2",
+          "kind": "characters",
+          "name": "Mi Fu",
+          "fileStem": "mi-fu-card",
+          "path": "Prydwen/endfield/assets/characters/mi-fu-0965266d85b2.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "b20a7d8a6fe4",
+          "sourceHash": "b20a7d8a6fe4",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-card",
+          "path": "Prydwen/endfield/assets/characters/perlica-b20a7d8a6fe4.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "18c48cc685ba",
+          "sourceHash": "18c48cc685ba",
+          "kind": "characters",
+          "name": "Pogranichnik",
+          "fileStem": "pogranichnik-card",
+          "path": "Prydwen/endfield/assets/characters/pogranichnik-18c48cc685ba.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "8cd0c2877986",
+          "sourceHash": "8cd0c2877986",
+          "kind": "characters",
+          "name": "Rossi",
+          "fileStem": "rossi-card",
+          "path": "Prydwen/endfield/assets/characters/rossi-8cd0c2877986.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "6929810d4aca",
+          "sourceHash": "6929810d4aca",
+          "kind": "characters",
+          "name": "Snowshine",
+          "fileStem": "snowshine-card",
+          "path": "Prydwen/endfield/assets/characters/snowshine-6929810d4aca.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "0a91b152218c",
+          "sourceHash": "0a91b152218c",
+          "kind": "characters",
+          "name": "Tangtang",
+          "fileStem": "tangtang-card",
+          "path": "Prydwen/endfield/assets/characters/tangtang-0a91b152218c.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "e452baad5c31",
+          "sourceHash": "e452baad5c31",
+          "kind": "characters",
+          "name": "Wulfgard",
+          "fileStem": "wulfgard-card",
+          "path": "Prydwen/endfield/assets/characters/wulfgard-e452baad5c31.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "1391b9495bfa",
+          "sourceHash": "1391b9495bfa",
+          "kind": "characters",
+          "name": "Xaihi",
+          "fileStem": "xaihi-card",
+          "path": "Prydwen/endfield/assets/characters/xaihi-1391b9495bfa.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "d5fa2fc535a7",
+          "sourceHash": "d5fa2fc535a7",
+          "kind": "characters",
+          "name": "Yvonne",
+          "fileStem": "yvonne-card",
+          "path": "Prydwen/endfield/assets/characters/yvonne-d5fa2fc535a7.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "fab17e9e9121",
+          "sourceHash": "fab17e9e9121",
+          "kind": "characters",
+          "name": "Zhuang Fangyi",
+          "fileStem": "zhuang-fangyi-card",
+          "path": "Prydwen/endfield/assets/characters/zhuang-fangyi-fab17e9e9121.webp",
+          "width": 280,
+          "height": 400
+        }
+      ]
+    }
+  ],
+  "recommendations": {},
+  "tables": [],
+  "text": "Arknights: Endfield Characters - All Operators & Build Guides\n \n\n Arknights: Endfield\n Home Database Characters Gear Weapons\n Tier Lists Tier List Team Tier List\n Guides Guides\n Tools Team Builder Adv. Team Builder Rotation Builder Gacha Simulator Material Planner Character Comparison Patch Timeline\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Arknights: Endfield\n /\n Characters Build Guides\n\n Arknights: Endfield Characters Build Guides\n All characters available in Arknights: Endfield. Use our character database to see every character and operator sorted by element, rarity, and class, plus build guides.\n Last updated: 20/June/2026\n\n All Arknights: Endfield Characters\n Showing 28 Characters\n ×\n 4✦ 5✦ 6✦\n\n Reset\n\n Akekuri\n\n Alesh\n\n Antal\n\n Arclight\n\n Ardelia\n\n Avywenna\n\n Camille Soon\n\n Catcher\n\n Chen Qianyu\n\n Da Pan\n\n Ember\n\n Endministrator\n\n Estella\n\n Fluorite\n\n Gilberta\n\n Laevatain\n\n Last Rite\n\n Lifeng\n\n Mi Fu New\n\n Perlica\n\n Pogranichnik\n\n Rossi\n\n Snowshine\n\n Tangtang\n\n Wulfgard\n\n Xaihi\n\n Yvonne\n\n Zhuang Fangyi",
+  "entries": [
+    {
+      "id": "akekuri",
+      "slug": "akekuri",
+      "name": "Akekuri",
+      "sourcePath": "/arknights-endfield/characters/akekuri",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "alesh",
+      "slug": "alesh",
+      "name": "Alesh",
+      "sourcePath": "/arknights-endfield/characters/alesh",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "antal",
+      "slug": "antal",
+      "name": "Antal",
+      "sourcePath": "/arknights-endfield/characters/antal",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "arclight",
+      "slug": "arclight",
+      "name": "Arclight",
+      "sourcePath": "/arknights-endfield/characters/arclight",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "ardelia",
+      "slug": "ardelia",
+      "name": "Ardelia",
+      "sourcePath": "/arknights-endfield/characters/ardelia",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "avywenna",
+      "slug": "avywenna",
+      "name": "Avywenna",
+      "sourcePath": "/arknights-endfield/characters/avywenna",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "camille",
+      "slug": "camille",
+      "name": "Camille Soon",
+      "sourcePath": "/arknights-endfield/characters/camille",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "Soon"
+      ]
+    },
+    {
+      "id": "catcher",
+      "slug": "catcher",
+      "name": "Catcher",
+      "sourcePath": "/arknights-endfield/characters/catcher",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "chen-qianyu",
+      "slug": "chen-qianyu",
+      "name": "Chen Qianyu",
+      "sourcePath": "/arknights-endfield/characters/chen-qianyu",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "da-pan",
+      "slug": "da-pan",
+      "name": "Da Pan",
+      "sourcePath": "/arknights-endfield/characters/da-pan",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "ember",
+      "slug": "ember",
+      "name": "Ember",
+      "sourcePath": "/arknights-endfield/characters/ember",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "endministrator",
+      "slug": "endministrator",
+      "name": "Endministrator",
+      "sourcePath": "/arknights-endfield/characters/endministrator",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "estella",
+      "slug": "estella",
+      "name": "Estella",
+      "sourcePath": "/arknights-endfield/characters/estella",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "fluorite",
+      "slug": "fluorite",
+      "name": "Fluorite",
+      "sourcePath": "/arknights-endfield/characters/fluorite",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "gilberta",
+      "slug": "gilberta",
+      "name": "Gilberta",
+      "sourcePath": "/arknights-endfield/characters/gilberta",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "laevatain",
+      "slug": "laevatain",
+      "name": "Laevatain",
+      "sourcePath": "/arknights-endfield/characters/laevatain",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "last-rite",
+      "slug": "last-rite",
+      "name": "Last Rite",
+      "sourcePath": "/arknights-endfield/characters/last-rite",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "lifeng",
+      "slug": "lifeng",
+      "name": "Lifeng",
+      "sourcePath": "/arknights-endfield/characters/lifeng",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "mi-fu",
+      "slug": "mi-fu",
+      "name": "Mi Fu New",
+      "sourcePath": "/arknights-endfield/characters/mi-fu",
+      "contentStatus": "live",
+      "statusLabels": [
+        "New"
+      ]
+    },
+    {
+      "id": "perlica",
+      "slug": "perlica",
+      "name": "Perlica",
+      "sourcePath": "/arknights-endfield/characters/perlica",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "pogranichnik",
+      "slug": "pogranichnik",
+      "name": "Pogranichnik",
+      "sourcePath": "/arknights-endfield/characters/pogranichnik",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "rossi",
+      "slug": "rossi",
+      "name": "Rossi",
+      "sourcePath": "/arknights-endfield/characters/rossi",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "snowshine",
+      "slug": "snowshine",
+      "name": "Snowshine",
+      "sourcePath": "/arknights-endfield/characters/snowshine",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "tangtang",
+      "slug": "tangtang",
+      "name": "Tangtang",
+      "sourcePath": "/arknights-endfield/characters/tangtang",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "wulfgard",
+      "slug": "wulfgard",
+      "name": "Wulfgard",
+      "sourcePath": "/arknights-endfield/characters/wulfgard",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "xaihi",
+      "slug": "xaihi",
+      "name": "Xaihi",
+      "sourcePath": "/arknights-endfield/characters/xaihi",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "yvonne",
+      "slug": "yvonne",
+      "name": "Yvonne",
+      "sourcePath": "/arknights-endfield/characters/yvonne",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "zhuang-fangyi",
+      "slug": "zhuang-fangyi",
+      "name": "Zhuang Fangyi",
+      "sourcePath": "/arknights-endfield/characters/zhuang-fangyi",
+      "contentStatus": "live",
+      "statusLabels": []
+    }
+  ],
+  "detailPagesScraped": 28,
+  "detailPagesTotal": 28,
+  "staleDetailPagesRemoved": 0
+}

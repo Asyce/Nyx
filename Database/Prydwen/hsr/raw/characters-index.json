@@ -1,0 +1,740 @@
+{
+  "provider": "Prydwen",
+  "game": "hsr",
+  "collection": "characters",
+  "sourcePath": "/star-rail/characters",
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "detailPagesTotal": 90,
+  "detailPagesScraped": 90,
+  "staleDetailPagesRemoved": 0,
+  "items": [
+    {
+      "id": "acheron",
+      "slug": "acheron",
+      "name": "Acheron",
+      "sourcePath": "/star-rail/characters/acheron",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "aglaea",
+      "slug": "aglaea",
+      "name": "Aglaea",
+      "sourcePath": "/star-rail/characters/aglaea",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "anaxa",
+      "slug": "anaxa",
+      "name": "Anaxa",
+      "sourcePath": "/star-rail/characters/anaxa",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "archer",
+      "slug": "archer",
+      "name": "Archer",
+      "sourcePath": "/star-rail/characters/archer",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "argenti",
+      "slug": "argenti",
+      "name": "Argenti",
+      "sourcePath": "/star-rail/characters/argenti",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "arlan",
+      "slug": "arlan",
+      "name": "Arlan",
+      "sourcePath": "/star-rail/characters/arlan",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "ashveil",
+      "slug": "ashveil",
+      "name": "Ashveil",
+      "sourcePath": "/star-rail/characters/ashveil",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "asta",
+      "slug": "asta",
+      "name": "Asta",
+      "sourcePath": "/star-rail/characters/asta",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "aventurine",
+      "slug": "aventurine",
+      "name": "Aventurine",
+      "sourcePath": "/star-rail/characters/aventurine",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "bailu",
+      "slug": "bailu",
+      "name": "Bailu",
+      "sourcePath": "/star-rail/characters/bailu",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "black-swan",
+      "slug": "black-swan",
+      "name": "Black Swan",
+      "sourcePath": "/star-rail/characters/black-swan",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "blade",
+      "slug": "blade",
+      "name": "Blade",
+      "sourcePath": "/star-rail/characters/blade",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "boothill",
+      "slug": "boothill",
+      "name": "Boothill",
+      "sourcePath": "/star-rail/characters/boothill",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "bronya",
+      "slug": "bronya",
+      "name": "Bronya",
+      "sourcePath": "/star-rail/characters/bronya",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "castorice",
+      "slug": "castorice",
+      "name": "Castorice",
+      "sourcePath": "/star-rail/characters/castorice",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "cerydra",
+      "slug": "cerydra",
+      "name": "Cerydra",
+      "sourcePath": "/star-rail/characters/cerydra",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "cipher",
+      "slug": "cipher",
+      "name": "Cipher",
+      "sourcePath": "/star-rail/characters/cipher",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "clara",
+      "slug": "clara",
+      "name": "Clara",
+      "sourcePath": "/star-rail/characters/clara",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "cyrene",
+      "slug": "cyrene",
+      "name": "Cyrene",
+      "sourcePath": "/star-rail/characters/cyrene",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "dan-heng",
+      "slug": "dan-heng",
+      "name": "Dan Heng",
+      "sourcePath": "/star-rail/characters/dan-heng",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "imbibitor-lunae",
+      "slug": "imbibitor-lunae",
+      "name": "Dan Heng • Imbibitor Lunae",
+      "sourcePath": "/star-rail/characters/imbibitor-lunae",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "dan-heng-permansor-terrae",
+      "slug": "dan-heng-permansor-terrae",
+      "name": "Dan Heng • Permansor Terrae",
+      "sourcePath": "/star-rail/characters/dan-heng-permansor-terrae",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "dr-ratio",
+      "slug": "dr-ratio",
+      "name": "Dr. Ratio",
+      "sourcePath": "/star-rail/characters/dr-ratio",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "evanescia",
+      "slug": "evanescia",
+      "name": "Evanescia",
+      "sourcePath": "/star-rail/characters/evanescia",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "feixiao",
+      "slug": "feixiao",
+      "name": "Feixiao",
+      "sourcePath": "/star-rail/characters/feixiao",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "firefly",
+      "slug": "firefly",
+      "name": "Firefly",
+      "sourcePath": "/star-rail/characters/firefly",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "fu-xuan",
+      "slug": "fu-xuan",
+      "name": "Fu Xuan",
+      "sourcePath": "/star-rail/characters/fu-xuan",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "gallagher",
+      "slug": "gallagher",
+      "name": "Gallagher",
+      "sourcePath": "/star-rail/characters/gallagher",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "gepard",
+      "slug": "gepard",
+      "name": "Gepard",
+      "sourcePath": "/star-rail/characters/gepard",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "gilgamesh",
+      "slug": "gilgamesh",
+      "name": "Gilgamesh 4.4",
+      "sourcePath": "/star-rail/characters/gilgamesh",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "4.4"
+      ]
+    },
+    {
+      "id": "guinaifen",
+      "slug": "guinaifen",
+      "name": "Guinaifen",
+      "sourcePath": "/star-rail/characters/guinaifen",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "hanya",
+      "slug": "hanya",
+      "name": "Hanya",
+      "sourcePath": "/star-rail/characters/hanya",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "herta",
+      "slug": "herta",
+      "name": "Herta",
+      "sourcePath": "/star-rail/characters/herta",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "himeko",
+      "slug": "himeko",
+      "name": "Himeko",
+      "sourcePath": "/star-rail/characters/himeko",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "himeko-nova",
+      "slug": "himeko-nova",
+      "name": "Himeko Nova 4.4",
+      "sourcePath": "/star-rail/characters/himeko-nova",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "4.4"
+      ]
+    },
+    {
+      "id": "hook",
+      "slug": "hook",
+      "name": "Hook",
+      "sourcePath": "/star-rail/characters/hook",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "huohuo",
+      "slug": "huohuo",
+      "name": "Huohuo",
+      "sourcePath": "/star-rail/characters/huohuo",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "hyacine",
+      "slug": "hyacine",
+      "name": "Hyacine",
+      "sourcePath": "/star-rail/characters/hyacine",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "hysilens",
+      "slug": "hysilens",
+      "name": "Hysilens",
+      "sourcePath": "/star-rail/characters/hysilens",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "jade",
+      "slug": "jade",
+      "name": "Jade",
+      "sourcePath": "/star-rail/characters/jade",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "jiaoqiu",
+      "slug": "jiaoqiu",
+      "name": "Jiaoqiu",
+      "sourcePath": "/star-rail/characters/jiaoqiu",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "jing-yuan",
+      "slug": "jing-yuan",
+      "name": "Jing Yuan",
+      "sourcePath": "/star-rail/characters/jing-yuan",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "jingliu",
+      "slug": "jingliu",
+      "name": "Jingliu",
+      "sourcePath": "/star-rail/characters/jingliu",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "kafka",
+      "slug": "kafka",
+      "name": "Kafka",
+      "sourcePath": "/star-rail/characters/kafka",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "lingsha",
+      "slug": "lingsha",
+      "name": "Lingsha",
+      "sourcePath": "/star-rail/characters/lingsha",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "luka",
+      "slug": "luka",
+      "name": "Luka",
+      "sourcePath": "/star-rail/characters/luka",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "luocha",
+      "slug": "luocha",
+      "name": "Luocha",
+      "sourcePath": "/star-rail/characters/luocha",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "lynx",
+      "slug": "lynx",
+      "name": "Lynx",
+      "sourcePath": "/star-rail/characters/lynx",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "march-7th",
+      "slug": "march-7th",
+      "name": "March 7th",
+      "sourcePath": "/star-rail/characters/march-7th",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "march-7th-evernight",
+      "slug": "march-7th-evernight",
+      "name": "March 7th • Evernight",
+      "sourcePath": "/star-rail/characters/march-7th-evernight",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "march-7th-swordmaster",
+      "slug": "march-7th-swordmaster",
+      "name": "March 7th • The Hunt",
+      "sourcePath": "/star-rail/characters/march-7th-swordmaster",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "misha",
+      "slug": "misha",
+      "name": "Misha",
+      "sourcePath": "/star-rail/characters/misha",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "blade-mortenax",
+      "slug": "blade-mortenax",
+      "name": "Mortenax Blade New",
+      "sourcePath": "/star-rail/characters/blade-mortenax",
+      "contentStatus": "live",
+      "statusLabels": [
+        "New"
+      ]
+    },
+    {
+      "id": "moze",
+      "slug": "moze",
+      "name": "Moze",
+      "sourcePath": "/star-rail/characters/moze",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "mydei",
+      "slug": "mydei",
+      "name": "Mydei",
+      "sourcePath": "/star-rail/characters/mydei",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "natasha",
+      "slug": "natasha",
+      "name": "Natasha",
+      "sourcePath": "/star-rail/characters/natasha",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "pela",
+      "slug": "pela",
+      "name": "Pela",
+      "sourcePath": "/star-rail/characters/pela",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "phainon",
+      "slug": "phainon",
+      "name": "Phainon",
+      "sourcePath": "/star-rail/characters/phainon",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "qingque",
+      "slug": "qingque",
+      "name": "Qingque",
+      "sourcePath": "/star-rail/characters/qingque",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "rappa",
+      "slug": "rappa",
+      "name": "Rappa",
+      "sourcePath": "/star-rail/characters/rappa",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "rin-tohsaka",
+      "slug": "rin-tohsaka",
+      "name": "Rin Tohsaka 4.4",
+      "sourcePath": "/star-rail/characters/rin-tohsaka",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "4.4"
+      ]
+    },
+    {
+      "id": "robin",
+      "slug": "robin",
+      "name": "Robin",
+      "sourcePath": "/star-rail/characters/robin",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "ruan-mei",
+      "slug": "ruan-mei",
+      "name": "Ruan Mei",
+      "sourcePath": "/star-rail/characters/ruan-mei",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "saber",
+      "slug": "saber",
+      "name": "Saber",
+      "sourcePath": "/star-rail/characters/saber",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "sampo",
+      "slug": "sampo",
+      "name": "Sampo",
+      "sourcePath": "/star-rail/characters/sampo",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "seele",
+      "slug": "seele",
+      "name": "Seele",
+      "sourcePath": "/star-rail/characters/seele",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "serval",
+      "slug": "serval",
+      "name": "Serval",
+      "sourcePath": "/star-rail/characters/serval",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "silver-wolf",
+      "slug": "silver-wolf",
+      "name": "Silver Wolf",
+      "sourcePath": "/star-rail/characters/silver-wolf",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "silver-wolf-lv-999",
+      "slug": "silver-wolf-lv-999",
+      "name": "Silver Wolf • Lv. 999",
+      "sourcePath": "/star-rail/characters/silver-wolf-lv-999",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "sparkle",
+      "slug": "sparkle",
+      "name": "Sparkle",
+      "sourcePath": "/star-rail/characters/sparkle",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "sparxie",
+      "slug": "sparxie",
+      "name": "Sparxie",
+      "sourcePath": "/star-rail/characters/sparxie",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "sunday",
+      "slug": "sunday",
+      "name": "Sunday",
+      "sourcePath": "/star-rail/characters/sunday",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "sushang",
+      "slug": "sushang",
+      "name": "Sushang",
+      "sourcePath": "/star-rail/characters/sushang",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "the-dahlia",
+      "slug": "the-dahlia",
+      "name": "The Dahlia",
+      "sourcePath": "/star-rail/characters/the-dahlia",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "the-herta",
+      "slug": "the-herta",
+      "name": "The Herta",
+      "sourcePath": "/star-rail/characters/the-herta",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "tingyun",
+      "slug": "tingyun",
+      "name": "Tingyun",
+      "sourcePath": "/star-rail/characters/tingyun",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "tingyun-fugue",
+      "slug": "tingyun-fugue",
+      "name": "Tingyun • Fugue",
+      "sourcePath": "/star-rail/characters/tingyun-fugue",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "topaz",
+      "slug": "topaz",
+      "name": "Topaz & Numby",
+      "sourcePath": "/star-rail/characters/topaz",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "trailblazer-destruction",
+      "slug": "trailblazer-destruction",
+      "name": "Trailblazer • Destruction",
+      "sourcePath": "/star-rail/characters/trailblazer-destruction",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "trailblazer-elation",
+      "slug": "trailblazer-elation",
+      "name": "Trailblazer • Elation",
+      "sourcePath": "/star-rail/characters/trailblazer-elation",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "trailblazer-harmony",
+      "slug": "trailblazer-harmony",
+      "name": "Trailblazer • Harmony",
+      "sourcePath": "/star-rail/characters/trailblazer-harmony",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "trailblazer-preservation",
+      "slug": "trailblazer-preservation",
+      "name": "Trailblazer • Preservation",
+      "sourcePath": "/star-rail/characters/trailblazer-preservation",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "trailblazer-remembrance",
+      "slug": "trailblazer-remembrance",
+      "name": "Trailblazer • Remembrance",
+      "sourcePath": "/star-rail/characters/trailblazer-remembrance",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "tribbie",
+      "slug": "tribbie",
+      "name": "Tribbie",
+      "sourcePath": "/star-rail/characters/tribbie",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "welt",
+      "slug": "welt",
+      "name": "Welt",
+      "sourcePath": "/star-rail/characters/welt",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "xueyi",
+      "slug": "xueyi",
+      "name": "Xueyi",
+      "sourcePath": "/star-rail/characters/xueyi",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "yanqing",
+      "slug": "yanqing",
+      "name": "Yanqing",
+      "sourcePath": "/star-rail/characters/yanqing",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "yao-guang",
+      "slug": "yao-guang",
+      "name": "Yao Guang",
+      "sourcePath": "/star-rail/characters/yao-guang",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "yukong",
+      "slug": "yukong",
+      "name": "Yukong",
+      "sourcePath": "/star-rail/characters/yukong",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "yunli",
+      "slug": "yunli",
+      "name": "Yunli",
+      "sourcePath": "/star-rail/characters/yunli",
+      "contentStatus": "live",
+      "statusLabels": []
+    }
+  ]
+}

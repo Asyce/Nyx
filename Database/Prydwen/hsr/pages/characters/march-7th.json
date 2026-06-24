@@ -1,0 +1,1237 @@
+{
+  "id": "characters:march-7th",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "march-7th",
+  "name": "March 7th",
+  "title": "March 7th Best Build Guide",
+  "sourcePath": "/star-rail/characters/march-7th",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "31/May/2026",
+  "meta": {
+    "title": "March 7th Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 4,
+    "element": "Ice",
+    "path": "Preservation"
+  },
+  "assets": [
+    {
+      "id": "c5b60a50f43d",
+      "sourceHash": "c5b60a50f43d",
+      "kind": "characters",
+      "name": "March 7th",
+      "fileStem": "march-7th-card",
+      "path": "Prydwen/hsr/assets/characters/march-7th-c5b60a50f43d.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "5a409c0b426e",
+      "sourceHash": "5a409c0b426e",
+      "kind": "icons",
+      "name": "Ice DMG",
+      "fileStem": "stat-icedmg",
+      "path": "Prydwen/hsr/assets/icons/ice-dmg-5a409c0b426e.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "a6be649090ba",
+      "sourceHash": "a6be649090ba",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "9db79c7ddbf7",
+      "sourceHash": "9db79c7ddbf7",
+      "kind": "icons",
+      "name": "Effect RES",
+      "fileStem": "stat-effectres",
+      "path": "Prydwen/hsr/assets/icons/effect-res-9db79c7ddbf7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "96654253a4f7",
+      "sourceHash": "96654253a4f7",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "dc6aec4a7776",
+      "sourceHash": "dc6aec4a7776",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "087f2dec68b6",
+      "sourceHash": "087f2dec68b6",
+      "kind": "icons",
+      "name": "Speed",
+      "fileStem": "stat-speed",
+      "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "50d0e755383a",
+      "sourceHash": "50d0e755383a",
+      "kind": "items",
+      "name": "Credit",
+      "fileStem": "credit",
+      "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "2a36d7503b78",
+      "sourceHash": "2a36d7503b78",
+      "kind": "items",
+      "name": "Thief's Instinct",
+      "fileStem": "thiefs-instinct",
+      "path": "Prydwen/hsr/assets/items/thiefs-instinct-2a36d7503b78.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "4c97e0301bf1",
+      "sourceHash": "4c97e0301bf1",
+      "kind": "items",
+      "name": "Usurper's Scheme",
+      "fileStem": "usurpers-scheme",
+      "path": "Prydwen/hsr/assets/items/usurpers-scheme-4c97e0301bf1.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "529eb343d12c",
+      "sourceHash": "529eb343d12c",
+      "kind": "items",
+      "name": "Horn of Snow",
+      "fileStem": "horn-of-snow",
+      "path": "Prydwen/hsr/assets/items/horn-of-snow-529eb343d12c.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "393bf9ccb2d2",
+      "sourceHash": "393bf9ccb2d2",
+      "kind": "items",
+      "name": "Conqueror's Will",
+      "fileStem": "conquerors-will",
+      "path": "Prydwen/hsr/assets/items/conquerors-will-393bf9ccb2d2.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "b9b058e0b744",
+      "sourceHash": "b9b058e0b744",
+      "kind": "characters",
+      "name": "March 7th",
+      "fileStem": "march-7th-full",
+      "path": "Prydwen/hsr/assets/characters/march-7th-b9b058e0b744.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "4f273c83a87e",
+      "sourceHash": "4f273c83a87e",
+      "kind": "light-cones",
+      "name": "Inherently Unjust Destiny",
+      "fileStem": "inherently-unjust-destiny",
+      "path": "Prydwen/hsr/assets/light-cones/inherently-unjust-destiny-4f273c83a87e.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "963c878b9eab",
+      "sourceHash": "963c878b9eab",
+      "kind": "light-cones",
+      "name": "Journey, Forever Peaceful",
+      "fileStem": "journey-forever-peaceful",
+      "path": "Prydwen/hsr/assets/light-cones/journey-forever-peaceful-963c878b9eab.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "efced2539770",
+      "sourceHash": "efced2539770",
+      "kind": "light-cones",
+      "name": "Day One of My New Life",
+      "fileStem": "day-one-of-my-new-life",
+      "path": "Prydwen/hsr/assets/light-cones/day-one-of-my-new-life-efced2539770.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "60f4dabfc5ec",
+      "sourceHash": "60f4dabfc5ec",
+      "kind": "light-cones",
+      "name": "Texture of Memories",
+      "fileStem": "texture-of-memories",
+      "path": "Prydwen/hsr/assets/light-cones/texture-of-memories-60f4dabfc5ec.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "4f23d40c871a",
+      "sourceHash": "4f23d40c871a",
+      "kind": "light-cones",
+      "name": "Moment of Victory",
+      "fileStem": "moment-of-victory",
+      "path": "Prydwen/hsr/assets/light-cones/moment-of-victory-4f23d40c871a.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "b8452a2f7f19",
+      "sourceHash": "b8452a2f7f19",
+      "kind": "light-cones",
+      "name": "Landau's Choice",
+      "fileStem": "landaus-choice",
+      "path": "Prydwen/hsr/assets/light-cones/landaus-choice-b8452a2f7f19.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "d4e3fea9be5f",
+      "sourceHash": "d4e3fea9be5f",
+      "kind": "light-cones",
+      "name": "Trend of the Universal Market",
+      "fileStem": "trend-of-the-universal-market",
+      "path": "Prydwen/hsr/assets/light-cones/trend-of-the-universal-market-d4e3fea9be5f.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "201a8d2bf253",
+      "sourceHash": "201a8d2bf253",
+      "kind": "relics",
+      "name": "Self-Enshrouded Recluse",
+      "fileStem": "self-enshrouded-recluse",
+      "path": "Prydwen/hsr/assets/relics/self-enshrouded-recluse-201a8d2bf253.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "3b0bb61766cf",
+      "sourceHash": "3b0bb61766cf",
+      "kind": "relics",
+      "name": "Knight of Purity Palace",
+      "fileStem": "knight-of-purity-palace",
+      "path": "Prydwen/hsr/assets/relics/knight-of-purity-palace-3b0bb61766cf.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5cb190fcc346",
+      "sourceHash": "5cb190fcc346",
+      "kind": "relics",
+      "name": "Sacerdos' Relived Ordeal",
+      "fileStem": "sacerdos-relived-ordeal",
+      "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "19b06ffee878",
+      "sourceHash": "19b06ffee878",
+      "kind": "relics",
+      "name": "Diviner of Distant Reach",
+      "fileStem": "diviner-of-distant-reach",
+      "path": "Prydwen/hsr/assets/relics/diviner-of-distant-reach-19b06ffee878.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "2f8ec1684b6b",
+      "sourceHash": "2f8ec1684b6b",
+      "kind": "relics",
+      "name": "Warrior Goddess of Sun and Thunder",
+      "fileStem": "warrior-goddess-of-sun-and-thunder",
+      "path": "Prydwen/hsr/assets/relics/warrior-goddess-of-sun-and-thunder-2f8ec1684b6b.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "3306e6f6288f",
+      "sourceHash": "3306e6f6288f",
+      "kind": "relics",
+      "name": "Broken Keel",
+      "fileStem": "broken-keel",
+      "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5b886a96e17a",
+      "sourceHash": "5b886a96e17a",
+      "kind": "relics",
+      "name": "Fleet of the Ageless",
+      "fileStem": "fleet-of-the-ageless",
+      "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d6cdb5f16b16",
+      "sourceHash": "d6cdb5f16b16",
+      "kind": "relics",
+      "name": "Penacony, Land of the Dreams",
+      "fileStem": "penacony-land-of-the-dreams",
+      "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d6aae5028c5a",
+      "sourceHash": "d6aae5028c5a",
+      "kind": "relics",
+      "name": "Lushaka, the Sunken Seas",
+      "fileStem": "lushaka-the-sunken-seas",
+      "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "7b4386e9ea22",
+      "sourceHash": "7b4386e9ea22",
+      "kind": "relics",
+      "name": "Belobog of the Architects",
+      "fileStem": "belobog-of-the-architects",
+      "path": "Prydwen/hsr/assets/relics/belobog-of-the-architects-7b4386e9ea22.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "3d18a5aaec4a",
+      "sourceHash": "3d18a5aaec4a",
+      "kind": "relics",
+      "name": "Space Sealing Station",
+      "fileStem": "space-sealing-station",
+      "path": "Prydwen/hsr/assets/relics/space-sealing-station-3d18a5aaec4a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "fd6c20a21941",
+      "sourceHash": "fd6c20a21941",
+      "kind": "icons",
+      "name": "Effect HIT Rate",
+      "fileStem": "stat-effecthit",
+      "path": "Prydwen/hsr/assets/icons/effect-hit-rate-fd6c20a21941.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "106ddd8eff32",
+      "sourceHash": "106ddd8eff32",
+      "kind": "icons",
+      "name": "Energy Regen",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "fbcfe4133d08",
+      "sourceHash": "fbcfe4133d08",
+      "kind": "characters",
+      "name": "Acheron",
+      "fileStem": "acheron-icon",
+      "path": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp",
+      "width": 45,
+      "height": 45
+    }
+  ],
+  "sections": [
+    {
+      "id": "march-7th-best-build-guide-0",
+      "level": 1,
+      "heading": "March 7th Best Build Guide",
+      "text": "Last updated: 31/May/2026",
+      "assets": [
+        {
+          "id": "c5b60a50f43d",
+          "sourceHash": "c5b60a50f43d",
+          "kind": "characters",
+          "name": "March 7th",
+          "fileStem": "march-7th-card",
+          "path": "Prydwen/hsr/assets/characters/march-7th-c5b60a50f43d.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for March 7th from HSR (Honkai: Star Rail). March 7th is a 4 ★ character from the Ice element who follows the Path of Preservation .\n A spirited, quirky young girl who is into all the things girls her age should be interested in, for example, taking photos. She was awakened from a piece of drifting eternal ice only to find out that she knows nothing about herself or her past. While initially in low spirits due to her lack of identity, she decided to name herself after the date she came into this new life.\n And thus, on that day March 7th was born.\n\n To learn more about March 7th check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "March 7th has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 2.6\n\n Last major build/calcs update\n Patch 3.6\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about March 7th check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic ATK\n Frigid Cold Arrow\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Ice DMG equal to #1[i]% of March 7th's ATK to a single enemy.\n\n Skill\n The Power of Cuteness\n Defense\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Provides a single ally with a Shield that can absorb DMG equal to #1[i]% of March 7th's DEF plus #4[i] for #2[i] turn(s).\nIf the ally's current HP percentage is #3[i]% or higher, greatly increases the chance of enemies attacking that ally.\n\n Ultimate\n Glacial Cascade\n AoE | 120 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Deals Ice DMG equal to #1[i]% of March 7th's ATK to all enemies. Hit enemies have a #2[i]% base chance to be Frozen for #3[i] turn(s).\nWhile Frozen, enemies cannot take action and will receive Additional Ice DMG equal to #4[i]% of March 7th's ATK at the beginning of each turn.\n\n Talent\n Girl Power\n Single Target\n\n Lv. 1\n\n Energy gain: 10\n Break: 10\n\n After a Shielded ally is attacked by an enemy, March 7th immediately Counters, dealing Ice DMG equal to #1[i]% of her ATK. This effect can be triggered #2[i] time(s) each turn.\n\n Technique\n Freezing Beauty\n\n Energy gain: 0\n Break: 20\n\n Immediately attacks the enemy. After entering battle, there is a #1[i]% base chance to Freeze a random enemy for #2[i] turn(s).\nWhile Frozen, the enemy cannot take action and will take Additional Ice DMG equal to #3[i]% of March 7th's ATK at the beginning of each turn.",
+      "assets": []
+    },
+    {
+      "id": "major-traces-10",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "A2 Major trace\n Purify\n\n Skill removes 1 debuff from an ally.\n\n A4 Major trace\n Reinforce\n\n The duration of the Shield generated from her Skill is extended for 1 turn(s).\n\n A6 Major trace\n Ice Spell\n\n Increases Ultimate's base chance to Freeze enemies by 15% .",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-11",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "Ice DMG\n + 22.4%\n\n DEF\n + 22.5%\n\n Effect RES\n + 10%",
+      "assets": [
+        {
+          "id": "5a409c0b426e",
+          "sourceHash": "5a409c0b426e",
+          "kind": "icons",
+          "name": "Ice DMG",
+          "fileStem": "stat-icedmg",
+          "path": "Prydwen/hsr/assets/icons/ice-dmg-5a409c0b426e.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "9db79c7ddbf7",
+          "sourceHash": "9db79c7ddbf7",
+          "kind": "icons",
+          "name": "Effect RES",
+          "fileStem": "stat-effectres",
+          "path": "Prydwen/hsr/assets/icons/effect-res-9db79c7ddbf7.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "eidolons-12",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "E 1\n Memory of You\n Eidolon 1\n\n Every time March 7th's Ultimate Freezes a target, she regenerates 6 Energy.\n\n E 2\n Memory of It\n Eidolon 2\n\n Upon entering battle, grants a Shield equal to 24% of March 7th's DEF plus 320 to the ally with the lowest HP percentage, lasting for 3 turn(s).\n\n E 3\n Memory of Everything\n Eidolon 3\n\n Ultimate Lv. + 2 , up to a maximum of Lv. 15 . Basic ATK Lv. + 1 , up to a maximum of Lv. 10 .\n\n E 4\n Never Forfeit Again\n Eidolon 4\n\n The Talent's Counter effect can be triggered 1 more time in each turn. The DMG dealt by Counter increases by an amount that is equal to 30% of March 7th's DEF.\n\n E 5\n Never Forget Again\n Eidolon 5\n\n Skill Lv. + 2 , up to a maximum of Lv. 15 . Talent Lv. + 2 , up to a maximum of Lv. 15 .\n\n E 6\n Just Like This, Always...\n Eidolon 6\n\n Allies under the protection of the Shield granted by the Skill restores HP equal to 4% of their Max HP plus 106 at the beginning of each turn.",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-13",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Enable Ascension",
+      "assets": []
+    },
+    {
+      "id": "level-80-stats-14",
+      "level": 5,
+      "heading": "Level 80 stats",
+      "text": "HP\n\n 1058\n\n ATK\n\n 511\n\n DEF\n\n 573\n\n Speed\n\n 101",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "level-1-80-ascension-materials-15",
+      "level": 5,
+      "heading": "Level 1 → 80 Ascension Materials",
+      "text": "Credit\n\n x 246400\n\n Thief's Instinct\n\n x 12\n\n Usurper's Scheme\n\n x 13\n\n Horn of Snow\n\n x 50\n\n Conqueror's Will\n\n x 12",
+      "assets": [
+        {
+          "id": "50d0e755383a",
+          "sourceHash": "50d0e755383a",
+          "kind": "items",
+          "name": "Credit",
+          "fileStem": "credit",
+          "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "2a36d7503b78",
+          "sourceHash": "2a36d7503b78",
+          "kind": "items",
+          "name": "Thief's Instinct",
+          "fileStem": "thiefs-instinct",
+          "path": "Prydwen/hsr/assets/items/thiefs-instinct-2a36d7503b78.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "4c97e0301bf1",
+          "sourceHash": "4c97e0301bf1",
+          "kind": "items",
+          "name": "Usurper's Scheme",
+          "fileStem": "usurpers-scheme",
+          "path": "Prydwen/hsr/assets/items/usurpers-scheme-4c97e0301bf1.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "529eb343d12c",
+          "sourceHash": "529eb343d12c",
+          "kind": "items",
+          "name": "Horn of Snow",
+          "fileStem": "horn-of-snow",
+          "path": "Prydwen/hsr/assets/items/horn-of-snow-529eb343d12c.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "393bf9ccb2d2",
+          "sourceHash": "393bf9ccb2d2",
+          "kind": "items",
+          "name": "Conqueror's Will",
+          "fileStem": "conquerors-will",
+          "path": "Prydwen/hsr/assets/items/conquerors-will-393bf9ccb2d2.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "cv-16",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n Skyler Davenport\n\n JPN\n Yui Ogura (小倉唯)\n\n CN\n Nuò Yǎ (诺亚)\n\n KR\n Jung Hye-Won (정혜원)",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "b9b058e0b744",
+          "sourceHash": "b9b058e0b744",
+          "kind": "characters",
+          "name": "March 7th",
+          "fileStem": "march-7th-full",
+          "path": "Prydwen/hsr/assets/characters/march-7th-b9b058e0b744.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Strong single target shield,\n\n Source of semi-consistent AoE Freeze,\n\n Versatile teammate that can pivot to fill different roles mid combat,\n\n Has a cleanse on her Skill,\n\n Can increase aggro with her Shield.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Has big issues solo sustaining the team,\n\n Aggro increase is not a guarantee,\n\n Loses tremendous value against Freeze immune foes,\n\n Never the optimal choice,\n\n Can quickly become an SP black hole if on the back foot.",
+      "assets": []
+    },
+    {
+      "id": "review-by-sushou-21",
+      "level": 2,
+      "heading": "Review (By Sushou)",
+      "text": "March 7th is introduced as a shielder and counter-attacker, and remains competent at this role until the mid game. Beyond this, she finds a unique and potentially powerful niche as an AoE Freeze support, able to afflict enemies with Crowd Control and provide defensive utility by proxy. She has a strong taunt effect on her Skills shield, and has the ability to cleanse allies upon applying said shield.\n As the poster-woman of the game, March 7th is introduced to us quite early and fills the role of sustain unit until players are introduced to Natasha a little later on. She was very competent at this role at the beginning, but over time has become less desirable in this specific facet. She is still good, but her team comps are more specialised these days and usually lean into her rather potent Freezing capability.\n March’s Skill gives a single ally a shield for 57% of March’s DEF plus 760 for 3 turns. If the ally’s health is above 30% of their max, they will greatly draw enemies’ aggro onto themselves. This is actually a really powerful single target shield, being even more than what Gepard’s Ultimate provides in terms of raw multiplier.\n This is more or less where the positives end for this Skill. While the shield is powerful, it costs a Skill Point, and teams are usually centred around the sustain unit being an SP generator for the more powerful damage dealers and supports to use on their important skills. The increased aggro ends up being a double-edged sword quite often, as it will result in the shield getting broken more quickly on average, leading to needing a quicker reapplication of said shield. The fact that it lasts for 3 turns at base is often a non-factor when enemies are capable of dealing many strong targeted hits in a short period.\n It’s often more efficient for March to target herself with her Skill and attempt to draw enemies’ attention away from the squishier targets in the party, though how successful this ends up being is entirely at the whim of the random number generator. Tingyun users will know what I’m talking about. This is also more efficient from a shield standpoint, since shields essentially just give a health buffer to allies; shields take damage based on the shielded ally’s DEF, meaning that particularly frail allies will actually get comparatively less value out of shields than high DEF allies, so someone that you are naturally inclined to build DEF on like March herself will have a ‘stronger shield’, technically.\n March’s Talent is dependent on shielded allies. When a shielded ally is attacked, March will immediately counter the attacking enemy with a follow-up attack, dealing up to 100% ATK, and this can happen 2 times between March’s turns. How very disappointing that this counter does not have any natural DEF scaling to it. In fact, none of March’s offensive abilities have anything to do with her DEF. Considering later sustain options like Lynx or Fu Xuan have HP scaling and so even their Basic ATK has HP scaling instead of ATK scaling, it makes March look even more like a product of the early landscape of the game. The most positive thing to say about this Talent is that each counter contributes 10 Energy towards March’s Ultimate.\n Speaking of which, March’s Ultimate is actually very much worth your attention. She deals 150% ATK to all enemies on the field, and there is a 50% base chance for them to be Frozen for 1 turn. This is invaluable… when the Freeze actually lands. A 50% base chance is nothing short of pitiful , especially since it makes all subsequent Effect Hit Rate scale off of this base value. It is entirely on purpose though, as Freeze is one of the most debilitating Crowd Control effects in the game, and having even somewhat consistent application of it can result in making encounters complete jokes.\n The Ultimate also has a fairly average Energy cost of 120, meaning it is not too difficult to have this up quite frequently, especially if March herself is getting attacked, something that is similarly not too challenging to orchestrate thanks to her Skill’s aggro increase. Freeze can completely invalidate certain enemies if you use it tactically, and this utility can help offset the lack of a solid sustain unit’s kit.\n Major Traces are rather straightforward. A2 will allow the application of her Shield to also cleanse 1 debuff from allies, allowing March to retain some useful utility in her back pocket should the need arise. A4 will extend the duration of the Shield to 4 turns, something that as mentioned prior will very rarely come up unless you are denying the enemy any turns at all due to Freeze, at which point this loops back around into being largely useless again.\n A6 is where the money is. It increases the Ultimate’s base chance to Freeze enemies by 15%, for a new base chance of 65%. This is a small but extremely significant bump to the likelihood of Freezing enemies, as this makes all Effect Hit Rate stats worth substantially more. This does have the consequence of making March’s powerful Freeze focused build inaccessible until much later on into the game, but it acts as a nice transition into said build, as around that point March’s solo sustain capabilities take a nosedive.\n March’s Eidolons are not super impactful barring the first one. E1 will regenerate 6 Energy for March every time she Freezes a target with her Ultimate. This greatly improves the uptime on March’s Ultimate and depending on investment level and luck, can result in March keeping enemies near permanently Frozen, often completely eliminating any risk they might have posed. If seeking to actively use March as a Freeze support, this Eidolon should absolutely be on your radar. E4 can also provide more Energy via more counters but is less impactful than E1 for pure Energy gains.\n E6 seems tantalising but you have to really think about how much healing 4% of a character’s Max HP per turn is. If you thought ‘that doesn’t really seem like that much’, you’re correct! It’s near meaningless and does not do anywhere near enough to offset March’s weaknesses.\n Because of how March’s kit interacts with itself, she is a very SP intensive sustain unit, and even when played as a Freeze support she is quite greedy with SP, wanting to use more to get her Ultimate back faster. As a result of this, March’s team comps are usually highly specialised so as to accommodate the increased SP consumption that she has. This leads to more obvious choices like Jingliu or Blade who do not consume much SP at all, but those characters have far better team setups that do not include March 7th. There’s also the rather glaring question of ‘why inflict enemies with Crowd Control if you can just kill them?’ and to that I say ‘no, you’re right, actually’.\n Death is the ultimate Crowd Control. What’s already dead cannot harm you (no, the kamikaze enemies don’t count, don’t be a pedant). As with Preservation Trailblazer, many of the same concerns and criteria arise with March 7th, namely that by including her in your team, you are attempting to lose less ; if you’re bringing March along for either reason, sustain or Freeze, your team is likely already in dire straits, and so this is simply a way of buying yourself more time to hopefully kill the enemy before they kill you.\n For players concerned with optimisation, it’s a safe bet to say that, at least as of the time of writing this, there is never a situation in which March 7th is a more optimal teammate choice over someone else. Enemies very rarely lose the battle of attrition, and even when they do, you’re unlikely to come out unscathed either. In scenarios like Memory of Chaos where you have both a cycle limit as well as the requirement to have everyone be alive at the end, March may be able to facilitate the latter, but won’t do much of anything about expediting enemy expirations, even if invested very well.\n However if she is well invested, she’s also rarely a terrible choice, so it’s difficult to fault the player whichever way they choose to go. March’s kit makes her quite versatile and depending on the exact level of investment, she can easily pivot from one gameplan to the other; combat going well and don’t need to shield? Enjoy endlessly Freezing the enemy while restoring SP; things getting a bit grim? You have her shield to fall back on.\n Otherwise, dedicated Crowd Control doesn’t really have a place at the moment. Until such a time comes about, March 7th is a ‘lose less’ unit who can find surprising use in many scenarios, even if she is ultimately almost always fated to be replaced by stronger and more precisely picked teammates. Still, she is someone you may wish to have ready to go as there are really very few easily accessible Ice units, and she really ruins Ice weak enemies’ days.",
+      "assets": []
+    },
+    {
+      "id": "ratings-22",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.",
+      "assets": []
+    },
+    {
+      "id": "eidolon-0-24",
+      "level": 5,
+      "heading": "Eidolon 0",
+      "text": "T5\n MoC\n\n T5\n PF\n\n T5\n AS",
+      "assets": []
+    },
+    {
+      "id": "eidolon-6-25",
+      "level": 5,
+      "heading": "Eidolon 6",
+      "text": "T5\n MoC\n\n T5\n PF\n\n T5\n AS\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "best-light-cones-27",
+      "level": 2,
+      "heading": "Best Light Cones",
+      "text": "1\n\n Inherently Unjust Destiny (S 1 )\n\n Provides a massive DEF increase for stronger shields, and inflicts enemies with 12% DMG Vulnerability after a Follow-up ATK.\n\n 2\n\n Journey, Forever Peaceful (S 5 )\n\n Best 4* Light Cone obtainable from BP, increasing Shield strength and DMG dealt by all allies.\n\n 3\n\n Day One of My New Life (S 5 )\n\n Decent option based on its team-wide damage reduction and good stats for DEF% scaling characters.\n\n 4\n\n Texture of Memories (S 5 )\n\n Survival focused Cone useful for characters that have kits themed around taking and mitigating damage for the team, especially if they have limited or conditional sustain/shielding options of their own.",
+      "assets": [
+        {
+          "id": "4f273c83a87e",
+          "sourceHash": "4f273c83a87e",
+          "kind": "light-cones",
+          "name": "Inherently Unjust Destiny",
+          "fileStem": "inherently-unjust-destiny",
+          "path": "Prydwen/hsr/assets/light-cones/inherently-unjust-destiny-4f273c83a87e.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "963c878b9eab",
+          "sourceHash": "963c878b9eab",
+          "kind": "light-cones",
+          "name": "Journey, Forever Peaceful",
+          "fileStem": "journey-forever-peaceful",
+          "path": "Prydwen/hsr/assets/light-cones/journey-forever-peaceful-963c878b9eab.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "efced2539770",
+          "sourceHash": "efced2539770",
+          "kind": "light-cones",
+          "name": "Day One of My New Life",
+          "fileStem": "day-one-of-my-new-life",
+          "path": "Prydwen/hsr/assets/light-cones/day-one-of-my-new-life-efced2539770.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "60f4dabfc5ec",
+          "sourceHash": "60f4dabfc5ec",
+          "kind": "light-cones",
+          "name": "Texture of Memories",
+          "fileStem": "texture-of-memories",
+          "path": "Prydwen/hsr/assets/light-cones/texture-of-memories-60f4dabfc5ec.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "specialist-light-cones-28",
+      "level": 3,
+      "heading": "Specialist Light Cones",
+      "text": "1\n\n Moment of Victory (S 1 )\n\n Provides a permanent Taunting effect on the wearer, increasing the chance they'll be attacked dramatically. This effect and the DEF bonuses make this Cone a very powerful choice for most Preservation characters. When playing March in teams where the intention is to use her Shield to direct attacks toward a target other than herself, this Cone can serve as a hindrance redirecting attacks from your desired target toward March.\n\n 2\n\n Landau's Choice (S 5 )\n\n An alternative to Moment of Victory with DMG% Reduction instead of DEF% scaling. Primarily useful for characters that specifically want to redirect and mitigate hits.When playing March in teams where the intention is to use her Shield to direct attacks toward a target other than herself, this Cone can serve as a hindrance redirecting attacks from your desired target toward March.\n\n 3\n\n Trend of the Universal Market (S 1 )\n\n Utility option useful in teams that thrive on having multiple debuffs on enemies or applying debuffs frequently. Grants solid stats for DEF scaling characters. Most notably used to great effect in Acheron teams as it generates her charges each time the wearer is hit.",
+      "assets": [
+        {
+          "id": "4f23d40c871a",
+          "sourceHash": "4f23d40c871a",
+          "kind": "light-cones",
+          "name": "Moment of Victory",
+          "fileStem": "moment-of-victory",
+          "path": "Prydwen/hsr/assets/light-cones/moment-of-victory-4f23d40c871a.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "b8452a2f7f19",
+          "sourceHash": "b8452a2f7f19",
+          "kind": "light-cones",
+          "name": "Landau's Choice",
+          "fileStem": "landaus-choice",
+          "path": "Prydwen/hsr/assets/light-cones/landaus-choice-b8452a2f7f19.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "d4e3fea9be5f",
+          "sourceHash": "d4e3fea9be5f",
+          "kind": "light-cones",
+          "name": "Trend of the Universal Market",
+          "fileStem": "trend-of-the-universal-market",
+          "path": "Prydwen/hsr/assets/light-cones/trend-of-the-universal-market-d4e3fea9be5f.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-relic-sets-30",
+      "level": 2,
+      "heading": "Best Relic Sets",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Self-Enshrouded Recluse ( 4 -PC)\n\n Best set for Shield based characters, improving their Shield strength and providing a teamwide CRIT DMG buff.\n 2\n\n Knight of Purity Palace ( 4 -PC)\n\n Pure defensive option for Shield characters. Not recommended to farm as the domain is inefficient.\n 3\n\n Knight of Purity Palace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder",
+      "assets": [
+        {
+          "id": "201a8d2bf253",
+          "sourceHash": "201a8d2bf253",
+          "kind": "relics",
+          "name": "Self-Enshrouded Recluse",
+          "fileStem": "self-enshrouded-recluse",
+          "path": "Prydwen/hsr/assets/relics/self-enshrouded-recluse-201a8d2bf253.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "3b0bb61766cf",
+          "sourceHash": "3b0bb61766cf",
+          "kind": "relics",
+          "name": "Knight of Purity Palace",
+          "fileStem": "knight-of-purity-palace",
+          "path": "Prydwen/hsr/assets/relics/knight-of-purity-palace-3b0bb61766cf.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "5cb190fcc346",
+          "sourceHash": "5cb190fcc346",
+          "kind": "relics",
+          "name": "Sacerdos' Relived Ordeal",
+          "fileStem": "sacerdos-relived-ordeal",
+          "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "19b06ffee878",
+          "sourceHash": "19b06ffee878",
+          "kind": "relics",
+          "name": "Diviner of Distant Reach",
+          "fileStem": "diviner-of-distant-reach",
+          "path": "Prydwen/hsr/assets/relics/diviner-of-distant-reach-19b06ffee878.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "2f8ec1684b6b",
+          "sourceHash": "2f8ec1684b6b",
+          "kind": "relics",
+          "name": "Warrior Goddess of Sun and Thunder",
+          "fileStem": "warrior-goddess-of-sun-and-thunder",
+          "path": "Prydwen/hsr/assets/relics/warrior-goddess-of-sun-and-thunder-2f8ec1684b6b.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-planetary-sets-31",
+      "level": 6,
+      "heading": "Best Planetary Sets",
+      "text": "1\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n 5\n\n Belobog of the Architects ( 2 -PC)\n\n Hyper specialized but strong option for Defense scaling characters that also aim to stack a high amount of Effect Hit Rating. March 7th builds both a high amount of Effect Hit Rating to land her freeze's and Defense to improve her shields making this a solid option if maxing defense is your primary goal.",
+      "assets": [
+        {
+          "id": "3306e6f6288f",
+          "sourceHash": "3306e6f6288f",
+          "kind": "relics",
+          "name": "Broken Keel",
+          "fileStem": "broken-keel",
+          "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "5b886a96e17a",
+          "sourceHash": "5b886a96e17a",
+          "kind": "relics",
+          "name": "Fleet of the Ageless",
+          "fileStem": "fleet-of-the-ageless",
+          "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "d6cdb5f16b16",
+          "sourceHash": "d6cdb5f16b16",
+          "kind": "relics",
+          "name": "Penacony, Land of the Dreams",
+          "fileStem": "penacony-land-of-the-dreams",
+          "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "d6aae5028c5a",
+          "sourceHash": "d6aae5028c5a",
+          "kind": "relics",
+          "name": "Lushaka, the Sunken Seas",
+          "fileStem": "lushaka-the-sunken-seas",
+          "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "7b4386e9ea22",
+          "sourceHash": "7b4386e9ea22",
+          "kind": "relics",
+          "name": "Belobog of the Architects",
+          "fileStem": "belobog-of-the-architects",
+          "path": "Prydwen/hsr/assets/relics/belobog-of-the-architects-7b4386e9ea22.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-specialist-planetary-sets-32",
+      "level": 6,
+      "heading": "Best Specialist Planetary Sets",
+      "text": "1\n\n Space Sealing Station ( 2 -PC)\n\n Incredibly potent option for buff/debuff based characters. The advance from this set allows the wearer to apply their buffs/debuffs before the rest of the team acts, accelerate rotations, allows access to ultimates closer to the start of the fight and also grants Energy Regen - a valuable stat for many supports.",
+      "assets": [
+        {
+          "id": "3d18a5aaec4a",
+          "sourceHash": "3d18a5aaec4a",
+          "kind": "relics",
+          "name": "Space Sealing Station",
+          "fileStem": "space-sealing-station",
+          "path": "Prydwen/hsr/assets/relics/space-sealing-station-3d18a5aaec4a.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-stats-34",
+      "level": 2,
+      "heading": "Best Stats",
+      "text": "Body\n Effect HIT Rate\n >= DEF%\n\n Feet\n Speed\n\n Planar Sphere\n DEF%\n\n Link Rope\n Energy Regen Rate\n >= DEF%\n\n Substats: Effect Hit Rate (Until 64% OR skip if no Freeze build) = SPD (Breakpoint) > DEF% > HP% = Effect RES\n\n This build focuses on creating the strongest Shields possible and some Effect Hit Rate to land the Freeze.",
+      "assets": [
+        {
+          "id": "fd6c20a21941",
+          "sourceHash": "fd6c20a21941",
+          "kind": "icons",
+          "name": "Effect HIT Rate",
+          "fileStem": "stat-effecthit",
+          "path": "Prydwen/hsr/assets/icons/effect-hit-rate-fd6c20a21941.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "106ddd8eff32",
+          "sourceHash": "106ddd8eff32",
+          "kind": "icons",
+          "name": "Energy Regen",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "recommended-endgame-stats-35",
+      "level": 2,
+      "heading": "Recommended endgame stats",
+      "text": "HP: 3000+\n\n DEF:\n 1800 - 2200+ (EHR build)\n\n 2800 - 3400+ (no freeze build)\n\n SPD: 134 (Recommended) / 143 / 160\n\n ENERGY REGEN : 19.44%+\n\n EFFECT HIT RATE:\n 64% - 92% (recommended)\n\n 0% (if no freeze build)",
+      "assets": []
+    },
+    {
+      "id": "traces-priority-36",
+      "level": 2,
+      "heading": "Traces priority",
+      "text": "Skills priority: Skill > Ultimate = Talent = Basic\n\n Major Traces priority: Purify (A2) > Ice Spell (A6) > Reinforce (A4)",
+      "assets": []
+    },
+    {
+      "id": "synergy-37",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Acheron - Acheron is one of the few remaining synergies which exist for March, with using her Skill on herself with the Trend Light Cone to apply debuffs whenever an enemy attacks her.",
+      "assets": [
+        {
+          "id": "fbcfe4133d08",
+          "sourceHash": "fbcfe4133d08",
+          "kind": "characters",
+          "name": "Acheron",
+          "fileStem": "acheron-icon",
+          "path": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp",
+          "width": 45,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "id": "anomaly-arbitration-42",
+      "level": 6,
+      "heading": "Anomaly Arbitration",
+      "text": "No teams featuring this character with data for Memory of Chaos yet.",
+      "assets": []
+    },
+    {
+      "id": "video-guides-43",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "MoC/PF/AS Statistics",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-light-cones": {
+      "label": "Best Light Cones",
+      "sections": [
+        {
+          "heading": "Best Light Cones",
+          "text": "1\n\n Inherently Unjust Destiny (S 1 )\n\n Provides a massive DEF increase for stronger shields, and inflicts enemies with 12% DMG Vulnerability after a Follow-up ATK.\n\n 2\n\n Journey, Forever Peaceful (S 5 )\n\n Best 4* Light Cone obtainable from BP, increasing Shield strength and DMG dealt by all allies.\n\n 3\n\n Day One of My New Life (S 5 )\n\n Decent option based on its team-wide damage reduction and good stats for DEF% scaling characters.\n\n 4\n\n Texture of Memories (S 5 )\n\n Survival focused Cone useful for characters that have kits themed around taking and mitigating damage for the team, especially if they have limited or conditional sustain/shielding options of their own.",
+          "assets": [
+            {
+              "id": "4f273c83a87e",
+              "sourceHash": "4f273c83a87e",
+              "kind": "light-cones",
+              "name": "Inherently Unjust Destiny",
+              "fileStem": "inherently-unjust-destiny",
+              "path": "Prydwen/hsr/assets/light-cones/inherently-unjust-destiny-4f273c83a87e.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "963c878b9eab",
+              "sourceHash": "963c878b9eab",
+              "kind": "light-cones",
+              "name": "Journey, Forever Peaceful",
+              "fileStem": "journey-forever-peaceful",
+              "path": "Prydwen/hsr/assets/light-cones/journey-forever-peaceful-963c878b9eab.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "efced2539770",
+              "sourceHash": "efced2539770",
+              "kind": "light-cones",
+              "name": "Day One of My New Life",
+              "fileStem": "day-one-of-my-new-life",
+              "path": "Prydwen/hsr/assets/light-cones/day-one-of-my-new-life-efced2539770.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "60f4dabfc5ec",
+              "sourceHash": "60f4dabfc5ec",
+              "kind": "light-cones",
+              "name": "Texture of Memories",
+              "fileStem": "texture-of-memories",
+              "path": "Prydwen/hsr/assets/light-cones/texture-of-memories-60f4dabfc5ec.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-relic-sets": {
+      "label": "Best Relic Sets",
+      "sections": [
+        {
+          "heading": "Best Relic Sets",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Self-Enshrouded Recluse ( 4 -PC)\n\n Best set for Shield based characters, improving their Shield strength and providing a teamwide CRIT DMG buff.\n 2\n\n Knight of Purity Palace ( 4 -PC)\n\n Pure defensive option for Shield characters. Not recommended to farm as the domain is inefficient.\n 3\n\n Knight of Purity Palace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder",
+          "assets": [
+            {
+              "id": "201a8d2bf253",
+              "sourceHash": "201a8d2bf253",
+              "kind": "relics",
+              "name": "Self-Enshrouded Recluse",
+              "fileStem": "self-enshrouded-recluse",
+              "path": "Prydwen/hsr/assets/relics/self-enshrouded-recluse-201a8d2bf253.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "3b0bb61766cf",
+              "sourceHash": "3b0bb61766cf",
+              "kind": "relics",
+              "name": "Knight of Purity Palace",
+              "fileStem": "knight-of-purity-palace",
+              "path": "Prydwen/hsr/assets/relics/knight-of-purity-palace-3b0bb61766cf.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "5cb190fcc346",
+              "sourceHash": "5cb190fcc346",
+              "kind": "relics",
+              "name": "Sacerdos' Relived Ordeal",
+              "fileStem": "sacerdos-relived-ordeal",
+              "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "19b06ffee878",
+              "sourceHash": "19b06ffee878",
+              "kind": "relics",
+              "name": "Diviner of Distant Reach",
+              "fileStem": "diviner-of-distant-reach",
+              "path": "Prydwen/hsr/assets/relics/diviner-of-distant-reach-19b06ffee878.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "2f8ec1684b6b",
+              "sourceHash": "2f8ec1684b6b",
+              "kind": "relics",
+              "name": "Warrior Goddess of Sun and Thunder",
+              "fileStem": "warrior-goddess-of-sun-and-thunder",
+              "path": "Prydwen/hsr/assets/relics/warrior-goddess-of-sun-and-thunder-2f8ec1684b6b.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-planetary-sets": {
+      "label": "Best Planetary Sets",
+      "sections": [
+        {
+          "heading": "Best Planetary Sets",
+          "text": "1\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n 5\n\n Belobog of the Architects ( 2 -PC)\n\n Hyper specialized but strong option for Defense scaling characters that also aim to stack a high amount of Effect Hit Rating. March 7th builds both a high amount of Effect Hit Rating to land her freeze's and Defense to improve her shields making this a solid option if maxing defense is your primary goal.",
+          "assets": [
+            {
+              "id": "3306e6f6288f",
+              "sourceHash": "3306e6f6288f",
+              "kind": "relics",
+              "name": "Broken Keel",
+              "fileStem": "broken-keel",
+              "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "5b886a96e17a",
+              "sourceHash": "5b886a96e17a",
+              "kind": "relics",
+              "name": "Fleet of the Ageless",
+              "fileStem": "fleet-of-the-ageless",
+              "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "d6cdb5f16b16",
+              "sourceHash": "d6cdb5f16b16",
+              "kind": "relics",
+              "name": "Penacony, Land of the Dreams",
+              "fileStem": "penacony-land-of-the-dreams",
+              "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "d6aae5028c5a",
+              "sourceHash": "d6aae5028c5a",
+              "kind": "relics",
+              "name": "Lushaka, the Sunken Seas",
+              "fileStem": "lushaka-the-sunken-seas",
+              "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "7b4386e9ea22",
+              "sourceHash": "7b4386e9ea22",
+              "kind": "relics",
+              "name": "Belobog of the Architects",
+              "fileStem": "belobog-of-the-architects",
+              "path": "Prydwen/hsr/assets/relics/belobog-of-the-architects-7b4386e9ea22.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-stats": {
+      "label": "Best Stats",
+      "sections": [
+        {
+          "heading": "Best Stats",
+          "text": "Body\n Effect HIT Rate\n >= DEF%\n\n Feet\n Speed\n\n Planar Sphere\n DEF%\n\n Link Rope\n Energy Regen Rate\n >= DEF%\n\n Substats: Effect Hit Rate (Until 64% OR skip if no Freeze build) = SPD (Breakpoint) > DEF% > HP% = Effect RES\n\n This build focuses on creating the strongest Shields possible and some Effect Hit Rate to land the Freeze.",
+          "assets": [
+            {
+              "id": "fd6c20a21941",
+              "sourceHash": "fd6c20a21941",
+              "kind": "icons",
+              "name": "Effect HIT Rate",
+              "fileStem": "stat-effecthit",
+              "path": "Prydwen/hsr/assets/icons/effect-hit-rate-fd6c20a21941.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "a6be649090ba",
+              "sourceHash": "a6be649090ba",
+              "kind": "icons",
+              "name": "DEF",
+              "fileStem": "stat-def",
+              "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "087f2dec68b6",
+              "sourceHash": "087f2dec68b6",
+              "kind": "icons",
+              "name": "Speed",
+              "fileStem": "stat-speed",
+              "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "106ddd8eff32",
+              "sourceHash": "106ddd8eff32",
+              "kind": "icons",
+              "name": "Energy Regen",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        }
+      ]
+    },
+    "recommended-endgame-stats": {
+      "label": "Recommended endgame stats",
+      "sections": [
+        {
+          "heading": "Recommended endgame stats",
+          "text": "HP: 3000+\n\n DEF:\n 1800 - 2200+ (EHR build)\n\n 2800 - 3400+ (no freeze build)\n\n SPD: 134 (Recommended) / 143 / 160\n\n ENERGY REGEN : 19.44%+\n\n EFFECT HIT RATE:\n 64% - 92% (recommended)\n\n 0% (if no freeze build)",
+          "assets": []
+        }
+      ]
+    },
+    "traces-priority": {
+      "label": "Traces priority",
+      "sections": [
+        {
+          "heading": "Traces priority",
+          "text": "Skills priority: Skill > Ultimate = Talent = Basic\n\n Major Traces priority: Purify (A2) > Ice Spell (A6) > Reinforce (A4)",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Acheron - Acheron is one of the few remaining synergies which exist for March, with using her Skill on herself with the Trend Light Cone to apply debuffs whenever an enemy attacks her.",
+          "assets": [
+            {
+              "id": "fbcfe4133d08",
+              "sourceHash": "fbcfe4133d08",
+              "kind": "characters",
+              "name": "Acheron",
+              "fileStem": "acheron-icon",
+              "path": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp",
+              "width": 45,
+              "height": 45
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "March 7th Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n March 7th\n March 7th Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for March 7th from HSR (Honkai: Star Rail). March 7th is a 4 ★ character from the Ice element who follows the Path of Preservation .\n A spirited, quirky young girl who is into all the things girls her age should be interested in, for example, taking photos. She was awakened from a piece of drifting eternal ice only to find out that she knows nothing about herself or her past. While initially in low spirits due to her lack of identity, she decided to name herself after the date she came into this new life.\n And thus, on that day March 7th was born.\n\n To learn more about March 7th check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n March 7th has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.6\n\n Last major build/calcs update\n Patch 3.6\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about March 7th check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Frigid Cold Arrow\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Ice DMG equal to #1[i]% of March 7th's ATK to a single enemy.\n\n Skill\n The Power of Cuteness\n Defense\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Provides a single ally with a Shield that can absorb DMG equal to #1[i]% of March 7th's DEF plus #4[i] for #2[i] turn(s).\nIf the ally's current HP percentage is #3[i]% or higher, greatly increases the chance of enemies attacking that ally.\n\n Ultimate\n Glacial Cascade\n AoE | 120 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Deals Ice DMG equal to #1[i]% of March 7th's ATK to all enemies. Hit enemies have a #2[i]% base chance to be Frozen for #3[i] turn(s).\nWhile Frozen, enemies cannot take action and will receive Additional Ice DMG equal to #4[i]% of March 7th's ATK at the beginning of each turn.\n\n Talent\n Girl Power\n Single Target\n\n Lv. 1\n\n Energy gain: 10\n Break: 10\n\n After a Shielded ally is attacked by an enemy, March 7th immediately Counters, dealing Ice DMG equal to #1[i]% of her ATK. This effect can be triggered #2[i] time(s) each turn.\n\n Technique\n Freezing Beauty\n\n Energy gain: 0\n Break: 20\n\n Immediately attacks the enemy. After entering battle, there is a #1[i]% base chance to Freeze a random enemy for #2[i] turn(s).\nWhile Frozen, the enemy cannot take action and will take Additional Ice DMG equal to #3[i]% of March 7th's ATK at the beginning of each turn.\n\n Major Traces\n A2 Major trace\n Purify\n\n Skill removes 1 debuff from an ally.\n\n A4 Major trace\n Reinforce\n\n The duration of the Shield generated from her Skill is extended for 1 turn(s).\n\n A6 Major trace\n Ice Spell\n\n Increases Ultimate's base chance to Freeze enemies by 15% .\n\n Minor Traces (total)\n Ice DMG\n + 22.4%\n\n DEF\n + 22.5%\n\n Effect RES\n + 10%\n\n Eidolons\n E 1\n Memory of You\n Eidolon 1\n\n Every time March 7th's Ultimate Freezes a target, she regenerates 6 Energy.\n\n E 2\n Memory of It\n Eidolon 2\n\n Upon entering battle, grants a Shield equal to 24% of March 7th's DEF plus 320 to the ally with the lowest HP percentage, lasting for 3 turn(s).\n\n E 3\n Memory of Everything\n Eidolon 3\n\n Ultimate Lv. + 2 , up to a maximum of Lv. 15 . Basic ATK Lv. + 1 , up to a maximum of Lv. 10 .\n\n E 4\n Never Forfeit Again\n Eidolon 4\n\n The Talent's Counter effect can be triggered 1 more time in each turn. The DMG dealt by Counter increases by an amount that is equal to 30% of March 7th's DEF.\n\n E 5\n Never Forget Again\n Eidolon 5\n\n Skill Lv. + 2 , up to a maximum of Lv. 15 . Talent Lv. + 2 , up to a maximum of Lv. 15 .\n\n E 6\n Just Like This, Always...\n Eidolon 6\n\n Allies under the protection of the Shield granted by the Skill restores HP equal to 4% of their Max HP plus 106 at the beginning of each turn.\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1058\n\n ATK\n\n 511\n\n DEF\n\n 573\n\n Speed\n\n 101\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 246400\n\n Thief's Instinct\n\n x 12\n\n Usurper's Scheme\n\n x 13\n\n Horn of Snow\n\n x 50\n\n Conqueror's Will\n\n x 12\n\n CV\n ENG\n Skyler Davenport\n\n JPN\n Yui Ogura (小倉唯)\n\n CN\n Nuò Yǎ (诺亚)\n\n KR\n Jung Hye-Won (정혜원)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Strong single target shield,\n\n Source of semi-consistent AoE Freeze,\n\n Versatile teammate that can pivot to fill different roles mid combat,\n\n Has a cleanse on her Skill,\n\n Can increase aggro with her Shield.\n\n Cons\n Has big issues solo sustaining the team,\n\n Aggro increase is not a guarantee,\n\n Loses tremendous value against Freeze immune foes,\n\n Never the optimal choice,\n\n Can quickly become an SP black hole if on the back foot.\n\n Review (By Sushou)\n March 7th is introduced as a shielder and counter-attacker, and remains competent at this role until the mid game. Beyond this, she finds a unique and potentially powerful niche as an AoE Freeze support, able to afflict enemies with Crowd Control and provide defensive utility by proxy. She has a strong taunt effect on her Skills shield, and has the ability to cleanse allies upon applying said shield.\n As the poster-woman of the game, March 7th is introduced to us quite early and fills the role of sustain unit until players are introduced to Natasha a little later on. She was very competent at this role at the beginning, but over time has become less desirable in this specific facet. She is still good, but her team comps are more specialised these days and usually lean into her rather potent Freezing capability.\n March’s Skill gives a single ally a shield for 57% of March’s DEF plus 760 for 3 turns. If the ally’s health is above 30% of their max, they will greatly draw enemies’ aggro onto themselves. This is actually a really powerful single target shield, being even more than what Gepard’s Ultimate provides in terms of raw multiplier.\n This is more or less where the positives end for this Skill. While the shield is powerful, it costs a Skill Point, and teams are usually centred around the sustain unit being an SP generator for the more powerful damage dealers and supports to use on their important skills. The increased aggro ends up being a double-edged sword quite often, as it will result in the shield getting broken more quickly on average, leading to needing a quicker reapplication of said shield. The fact that it lasts for 3 turns at base is often a non-factor when enemies are capable of dealing many strong targeted hits in a short period.\n It’s often more efficient for March to target herself with her Skill and attempt to draw enemies’ attention away from the squishier targets in the party, though how successful this ends up being is entirely at the whim of the random number generator. Tingyun users will know what I’m talking about. This is also more efficient from a shield standpoint, since shields essentially just give a health buffer to allies; shields take damage based on the shielded ally’s DEF, meaning that particularly frail allies will actually get comparatively less value out of shields than high DEF allies, so someone that you are naturally inclined to build DEF on like March herself will have a ‘stronger shield’, technically.\n March’s Talent is dependent on shielded allies. When a shielded ally is attacked, March will immediately counter the attacking enemy with a follow-up attack, dealing up to 100% ATK, and this can happen 2 times between March’s turns. How very disappointing that this counter does not have any natural DEF scaling to it. In fact, none of March’s offensive abilities have anything to do with her DEF. Considering later sustain options like Lynx or Fu Xuan have HP scaling and so even their Basic ATK has HP scaling instead of ATK scaling, it makes March look even more like a product of the early landscape of the game. The most positive thing to say about this Talent is that each counter contributes 10 Energy towards March’s Ultimate.\n Speaking of which, March’s Ultimate is actually very much worth your attention. She deals 150% ATK to all enemies on the field, and there is a 50% base chance for them to be Frozen for 1 turn. This is invaluable… when the Freeze actually lands. A 50% base chance is nothing short of pitiful , especially since it makes all subsequent Effect Hit Rate scale off of this base value. It is entirely on purpose though, as Freeze is one of the most debilitating Crowd Control effects in the game, and having even somewhat consistent application of it can result in making encounters complete jokes.\n The Ultimate also has a fairly average Energy cost of 120, meaning it is not too difficult to have this up quite frequently, especially if March herself is getting attacked, something that is similarly not too challenging to orchestrate thanks to her Skill’s aggro increase. Freeze can completely invalidate certain enemies if you use it tactically, and this utility can help offset the lack of a solid sustain unit’s kit.\n Major Traces are rather straightforward. A2 will allow the application of her Shield to also cleanse 1 debuff from allies, allowing March to retain some useful utility in her back pocket should the need arise. A4 will extend the duration of the Shield to 4 turns, something that as mentioned prior will very rarely come up unless you are denying the enemy any turns at all due to Freeze, at which point this loops back around into being largely useless again.\n A6 is where the money is. It increases the Ultimate’s base chance to Freeze enemies by 15%, for a new base chance of 65%. This is a small but extremely significant bump to the likelihood of Freezing enemies, as this makes all Effect Hit Rate stats worth substantially more. This does have the consequence of making March’s powerful Freeze focused build inaccessible until much later on into the game, but it acts as a nice transition into said build, as around that point March’s solo sustain capabilities take a nosedive.\n March’s Eidolons are not super impactful barring the first one. E1 will regenerate 6 Energy for March every time she Freezes a target with her Ultimate. This greatly improves the uptime on March’s Ultimate and depending on investment level and luck, can result in March keeping enemies near permanently Frozen, often completely eliminating any risk they might have posed. If seeking to actively use March as a Freeze support, this Eidolon should absolutely be on your radar. E4 can also provide more Energy via more counters but is less impactful than E1 for pure Energy gains.\n E6 seems tantalising but you have to really think about how much healing 4% of a character’s Max HP per turn is. If you thought ‘that doesn’t really seem like that much’, you’re correct! It’s near meaningless and does not do anywhere near enough to offset March’s weaknesses.\n Because of how March’s kit interacts with itself, she is a very SP intensive sustain unit, and even when played as a Freeze support she is quite greedy with SP, wanting to use more to get her Ultimate back faster. As a result of this, March’s team comps are usually highly specialised so as to accommodate the increased SP consumption that she has. This leads to more obvious choices like Jingliu or Blade who do not consume much SP at all, but those characters have far better team setups that do not include March 7th. There’s also the rather glaring question of ‘why inflict enemies with Crowd Control if you can just kill them?’ and to that I say ‘no, you’re right, actually’.\n Death is the ultimate Crowd Control. What’s already dead cannot harm you (no, the kamikaze enemies don’t count, don’t be a pedant). As with Preservation Trailblazer, many of the same concerns and criteria arise with March 7th, namely that by including her in your team, you are attempting to lose less ; if you’re bringing March along for either reason, sustain or Freeze, your team is likely already in dire straits, and so this is simply a way of buying yourself more time to hopefully kill the enemy before they kill you.\n For players concerned with optimisation, it’s a safe bet to say that, at least as of the time of writing this, there is never a situation in which March 7th is a more optimal teammate choice over someone else. Enemies very rarely lose the battle of attrition, and even when they do, you’re unlikely to come out unscathed either. In scenarios like Memory of Chaos where you have both a cycle limit as well as the requirement to have everyone be alive at the end, March may be able to facilitate the latter, but won’t do much of anything about expediting enemy expirations, even if invested very well.\n However if she is well invested, she’s also rarely a terrible choice, so it’s difficult to fault the player whichever way they choose to go. March’s kit makes her quite versatile and depending on the exact level of investment, she can easily pivot from one gameplan to the other; combat going well and don’t need to shield? Enjoy endlessly Freezing the enemy while restoring SP; things getting a bit grim? You have her shield to fall back on.\n Otherwise, dedicated Crowd Control doesn’t really have a place at the moment. Until such a time comes about, March 7th is a ‘lose less’ unit who can find surprising use in many scenarios, even if she is ultimately almost always fated to be replaced by stronger and more precisely picked teammates. Still, she is someone you may wish to have ready to go as there are really very few easily accessible Ice units, and she really ruins Ice weak enemies’ days.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Sustain\n Eidolon 0\n T5\n MoC\n\n T5\n PF\n\n T5\n AS\n\n Eidolon 6\n T5\n MoC\n\n T5\n PF\n\n T5\n AS\n\n Build and teams\n\n Best Light Cones\n\n 1\n\n Inherently Unjust Destiny (S 1 )\n\n Provides a massive DEF increase for stronger shields, and inflicts enemies with 12% DMG Vulnerability after a Follow-up ATK.\n\n 2\n\n Journey, Forever Peaceful (S 5 )\n\n Best 4* Light Cone obtainable from BP, increasing Shield strength and DMG dealt by all allies.\n\n 3\n\n Day One of My New Life (S 5 )\n\n Decent option based on its team-wide damage reduction and good stats for DEF% scaling characters.\n\n 4\n\n Texture of Memories (S 5 )\n\n Survival focused Cone useful for characters that have kits themed around taking and mitigating damage for the team, especially if they have limited or conditional sustain/shielding options of their own.\n\n Specialist Light Cones\n 1\n\n Moment of Victory (S 1 )\n\n Provides a permanent Taunting effect on the wearer, increasing the chance they'll be attacked dramatically. This effect and the DEF bonuses make this Cone a very powerful choice for most Preservation characters. When playing March in teams where the intention is to use her Shield to direct attacks toward a target other than herself, this Cone can serve as a hindrance redirecting attacks from your desired target toward March.\n\n 2\n\n Landau's Choice (S 5 )\n\n An alternative to Moment of Victory with DMG% Reduction instead of DEF% scaling. Primarily useful for characters that specifically want to redirect and mitigate hits.When playing March in teams where the intention is to use her Shield to direct attacks toward a target other than herself, this Cone can serve as a hindrance redirecting attacks from your desired target toward March.\n\n 3\n\n Trend of the Universal Market (S 1 )\n\n Utility option useful in teams that thrive on having multiple debuffs on enemies or applying debuffs frequently. Grants solid stats for DEF scaling characters. Most notably used to great effect in Acheron teams as it generates her charges each time the wearer is hit.\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Self-Enshrouded Recluse ( 4 -PC)\n\n Best set for Shield based characters, improving their Shield strength and providing a teamwide CRIT DMG buff.\n 2\n\n Knight of Purity Palace ( 4 -PC)\n\n Pure defensive option for Shield characters. Not recommended to farm as the domain is inefficient.\n 3\n\n Knight of Purity Palace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Best Planetary Sets\n 1\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n 5\n\n Belobog of the Architects ( 2 -PC)\n\n Hyper specialized but strong option for Defense scaling characters that also aim to stack a high amount of Effect Hit Rating. March 7th builds both a high amount of Effect Hit Rating to land her freeze's and Defense to improve her shields making this a solid option if maxing defense is your primary goal.\n\n Best Specialist Planetary Sets\n 1\n\n Space Sealing Station ( 2 -PC)\n\n Incredibly potent option for buff/debuff based characters. The advance from this set allows the wearer to apply their buffs/debuffs before the rest of the team acts, accelerate rotations, allows access to ultimates closer to the start of the fight and also grants Energy Regen - a valuable stat for many supports.\n\n Best Stats\n\n Body\n Effect HIT Rate\n >= DEF%\n\n Feet\n Speed\n\n Planar Sphere\n DEF%\n\n Link Rope\n Energy Regen Rate\n >= DEF%\n\n Substats: Effect Hit Rate (Until 64% OR skip if no Freeze build) = SPD (Breakpoint) > DEF% > HP% = Effect RES\n\n This build focuses on creating the strongest Shields possible and some Effect Hit Rate to land the Freeze.\n\n Recommended endgame stats\n HP: 3000+\n\n DEF:\n 1800 - 2200+ (EHR build)\n\n 2800 - 3400+ (no freeze build)\n\n SPD: 134 (Recommended) / 143 / 160\n\n ENERGY REGEN : 19.44%+\n\n EFFECT HIT RATE:\n 64% - 92% (recommended)\n\n 0% (if no freeze build)\n\n Traces priority\n Skills priority: Skill > Ultimate = Talent = Basic\n\n Major Traces priority: Purify (A2) > Ice Spell (A6) > Reinforce (A4)\n\n Synergy\n Acheron - Acheron is one of the few remaining synergies which exist for March, with using her Skill on herself with the Trend Light Cone to apply debuffs whenever an enemy attacks her.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n No teams featuring this character with data for Memory of Chaos yet.\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

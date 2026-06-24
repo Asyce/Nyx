@@ -1,0 +1,1216 @@
+{
+  "id": "characters:youhu",
+  "provider": "Prydwen",
+  "game": "ww",
+  "gameName": "Wuthering Waves",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "youhu",
+  "name": "Youhu",
+  "title": "Youhu Best Build Guide",
+  "sourcePath": "/wuthering-waves/characters/youhu",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "09/June/2026",
+  "meta": {
+    "title": "Youhu Best Build Guide | Wuthering Waves (WuWa)",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 4,
+    "element": "Glacio",
+    "weapon": "Gauntlets"
+  },
+  "assets": [
+    {
+      "id": "f26dd2f58a87",
+      "sourceHash": "f26dd2f58a87",
+      "kind": "characters",
+      "name": "Youhu",
+      "fileStem": "card-youhu",
+      "path": "Prydwen/ww/assets/characters/youhu-f26dd2f58a87.webp",
+      "width": 210,
+      "height": 280
+    },
+    {
+      "id": "85054d52aec3",
+      "sourceHash": "85054d52aec3",
+      "kind": "icons",
+      "name": "Glacio",
+      "fileStem": "element-glacio",
+      "path": "Prydwen/ww/assets/icons/glacio-85054d52aec3.webp",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "1e70b3adc860",
+      "sourceHash": "1e70b3adc860",
+      "kind": "icons",
+      "name": "ATK%",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "39094c227806",
+      "sourceHash": "39094c227806",
+      "kind": "icons",
+      "name": "CRIT Rate",
+      "fileStem": "stat-crit",
+      "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "c26c1d310e90",
+      "sourceHash": "c26c1d310e90",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "aa019d34202f",
+      "sourceHash": "aa019d34202f",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "5a0b154cd3d8",
+      "sourceHash": "5a0b154cd3d8",
+      "kind": "icons",
+      "name": "Max Energy",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "7e2bcd0760ca",
+      "sourceHash": "7e2bcd0760ca",
+      "kind": "icons",
+      "name": "CRIT DMG",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "94236abd3fdc",
+      "sourceHash": "94236abd3fdc",
+      "kind": "icons",
+      "name": "Healing",
+      "fileStem": "stat-heal",
+      "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "5d2c60395865",
+      "sourceHash": "5d2c60395865",
+      "kind": "icons",
+      "name": "Glacio",
+      "fileStem": "stat-ice",
+      "path": "Prydwen/ww/assets/icons/glacio-5d2c60395865.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "f48ff62c89aa",
+      "sourceHash": "f48ff62c89aa",
+      "kind": "categories",
+      "name": "Interactive Map",
+      "fileStem": "category-map",
+      "path": "Prydwen/ww/assets/categories/interactive-map-f48ff62c89aa.webp",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "id": "27c8d6a72e6f",
+      "sourceHash": "27c8d6a72e6f",
+      "kind": "characters",
+      "name": "Youhu",
+      "fileStem": "youhu-full",
+      "path": "Prydwen/ww/assets/characters/youhu-27c8d6a72e6f.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "810367654a44",
+      "sourceHash": "810367654a44",
+      "kind": "weapons",
+      "name": "Marcato",
+      "fileStem": "21040024",
+      "path": "Prydwen/ww/assets/weapons/marcato-810367654a44.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "9241c8fa6155",
+      "sourceHash": "9241c8fa6155",
+      "kind": "weapons",
+      "name": "Gauntlets#21D",
+      "fileStem": "21040034",
+      "path": "Prydwen/ww/assets/weapons/gauntlets-21d-9241c8fa6155.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "4e021e35e328",
+      "sourceHash": "4e021e35e328",
+      "kind": "weapons",
+      "name": "Abyss Surges",
+      "fileStem": "21040015",
+      "path": "Prydwen/ww/assets/weapons/abyss-surges-4e021e35e328.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d16f2ad97469",
+      "sourceHash": "d16f2ad97469",
+      "kind": "weapons",
+      "name": "Celestial Spiral",
+      "fileStem": "21040084",
+      "path": "Prydwen/ww/assets/weapons/celestial-spiral-d16f2ad97469.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "9116b6b3061f",
+      "sourceHash": "9116b6b3061f",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-7",
+      "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "963f47d9c985",
+      "sourceHash": "963f47d9c985",
+      "kind": "misc",
+      "name": "Fallacy of No Return",
+      "fileStem": "6000060",
+      "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "2acfd4bfd79d",
+      "sourceHash": "2acfd4bfd79d",
+      "kind": "misc",
+      "name": "Bell-Borne Geochelone",
+      "fileStem": "340000020",
+      "path": "Prydwen/ww/assets/misc/bell-borne-geochelone-2acfd4bfd79d.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "358387a78181",
+      "sourceHash": "358387a78181",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-8",
+      "path": "Prydwen/ww/assets/icons/set-8-358387a78181.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "969a4ca96158",
+      "sourceHash": "969a4ca96158",
+      "kind": "misc",
+      "name": "Impermanence Heron",
+      "fileStem": "330000030",
+      "path": "Prydwen/ww/assets/misc/impermanence-heron-969a4ca96158.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "f569a8378909",
+      "sourceHash": "f569a8378909",
+      "kind": "characters",
+      "name": "Yinlin",
+      "fileStem": "yinlin-icon",
+      "path": "Prydwen/ww/assets/characters/yinlin-f569a8378909.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "60fadd490017",
+      "sourceHash": "60fadd490017",
+      "kind": "characters",
+      "name": "Zhezhi",
+      "fileStem": "zhezhi-icon",
+      "path": "Prydwen/ww/assets/characters/zhezhi-60fadd490017.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "4910396b5955",
+      "sourceHash": "4910396b5955",
+      "kind": "characters",
+      "name": "Mortefi",
+      "fileStem": "mortefi-icon",
+      "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ede431e37eed",
+      "sourceHash": "ede431e37eed",
+      "kind": "characters",
+      "name": "Calcharo",
+      "fileStem": "calcharo-icon",
+      "path": "Prydwen/ww/assets/characters/calcharo-ede431e37eed.webp",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "id": "a22c89bd44c5",
+      "sourceHash": "a22c89bd44c5",
+      "kind": "characters",
+      "name": "Youhu",
+      "fileStem": "youhu-icon",
+      "path": "Prydwen/ww/assets/characters/youhu-a22c89bd44c5.webp",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "id": "dfacbe996a59",
+      "sourceHash": "dfacbe996a59",
+      "kind": "characters",
+      "name": "Lingyang",
+      "fileStem": "lingyang-icon",
+      "path": "Prydwen/ww/assets/characters/lingyang-dfacbe996a59.webp",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "id": "7c6c3a3bc3ce",
+      "sourceHash": "7c6c3a3bc3ce",
+      "kind": "characters",
+      "name": "Jiyan",
+      "fileStem": "jiyan-icon",
+      "path": "Prydwen/ww/assets/characters/jiyan-7c6c3a3bc3ce.webp",
+      "width": 120,
+      "height": 120
+    }
+  ],
+  "sections": [
+    {
+      "id": "youhu-best-build-guide-0",
+      "level": 1,
+      "heading": "Youhu Best Build Guide",
+      "text": "Last updated: 09/June/2026",
+      "assets": [
+        {
+          "id": "f26dd2f58a87",
+          "sourceHash": "f26dd2f58a87",
+          "kind": "characters",
+          "name": "Youhu",
+          "fileStem": "card-youhu",
+          "path": "Prydwen/ww/assets/characters/youhu-f26dd2f58a87.webp",
+          "width": 210,
+          "height": 280
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Youhu from WW (Wuthering Waves). Youhu is a 4 ★ rarity character from the Glacio element who uses the Gauntlets type weapon.\n Youhu, a natural expert in identifying antiques, is a capable speaker with distinctive tastes. When dealing with treasures and antiques, this jubilant dynamo settles into calm perception, tracing their distant past through their wrinkles and textures.\n\n To learn more about Youhu check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": [
+        {
+          "id": "85054d52aec3",
+          "sourceHash": "85054d52aec3",
+          "kind": "icons",
+          "name": "Glacio",
+          "fileStem": "element-glacio",
+          "path": "Prydwen/ww/assets/icons/glacio-85054d52aec3.webp",
+          "width": 20,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Youhu has at least one video guide available:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 1.3\n\n Last major build/calcs update\n Patch 2.1\n\n Last profile update*\n 09/June/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Youhu check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Frosty Punches\n\n Basic Attack\n Perform up to 4 consecutive attacks, dealing Glacio DMG .\n Heavy Attack\n When Frost is full, hold the Normal Attack Button to cast Frostfall.\n When Frost is full during the Fortune Rolling state, release the Normal Attack Button to cast Frostfall. If Youhu cannot cast Frostfall at the moment, perform Lucky Draw once instead.\n Youhu can obtain Frost in the following ways:\n When Frost is not full, hold Normal Attack Button to enter the Fortune Rolling state and restore Frost over time.\n\n When Basic Attacks hit a target.\n\n Heavy Attack: Frostfall\n Youhu dashes forward, dealing Glacio DMG , and performs Lucky Draw once.\n Mid-air Attack\n Perform a Plunging Attack at the cost of STA, dealing Glacio DMG .\n Dodge Counter\n When Youhu possesses no Antique, quickly press Normal Attack Button right after a successful Dodge to thrust forward, dealing Glacio DMG , and perform Lucky Draw once.\n\n Multipliers\n\n Resonance Skill\n Scroll Divination\n\n Youhu smashes her scroll down at the enemy, dealing Glacio DMG , restoring HP for all party members nearby, and performs Lucky Draw once.\n Lucky Draw\n Youhu obtains a random Antique after the Lucky Draw. With an Antique, her next Basic Attack will activate the corresponding Antique Appraisal.\n Only one Antique can exist at a time, and the newly drawn Antique will replace the existing one.\n Antique Appraisal\n Chime : Attack the enemy with a Chime, dealing Glacio DMG . Chime can effectively reduce the enemy's Vibration Strength.\n\n Ruyi : Batter the enemy with a Ruyi, dealing Glacio DMG . Ruyi has a higher DMG Multiplier.\n\n Ding : Ram into the enemy on a Ding, dealing Glacio DMG . Ding can effectively break the enemy's stance.\n\n Mask : Throw a Mask at enemies in front, dealing Glacio DMG . Mask can pull in enemies along its path.\n\n Multipliers\n\n Resonance Liberation\n Fortune's Favor\n\n Youhu hurls her scroll at the enemy, causing a Glacio DMG blast in the area.\n On the blast, four buttons will appear. Choose a button within the specified time to obtain the corresponding Antique. Otherwise, obtain one random Antique.\n\n Multipliers\n\n Forte Circuit\n Poetic Essence\n\n At four Auspices, hold the Normal Attack button to release Poetic Essence, dealing Glacio DMG , considered as Resonance Skill DMG, while restoring HP for all nearby party members.\n Youhu can hold up to four Auspices.\n Poetic Essence\n Deal Glacio DMG to enemies within the range and additionally obtain one of the following effects based on the Auspice combination:\n Free Verse : Four different types Auspices. Additionally reduce the Vibration Strength of hit enemies.\n\n Antithesis : A pair of Auspices. Increase Poetic Essence's DMG by 70% .\n\n Double Pun : Two pairs of Auspices. Additionally restore HP for all nearby party members.\n\n Triplet : Three identical Auspices. Increase Poetic Essence's DMG by 175% .\n\n Perfect Rhyme : Four identical Auspices. Simultaneously activate the effects of Free Verse, Double Pun, and Triplet.\n\n Casting Poetic Essence removes all Auspices.\n Auspice\n Youhu gains an Auspice through Antique Appraisal.\n\n Use Basic Attack while holding an Antique to receive the corresponding Auspice.\n\n Youhu unlocks Antiques by casting Resonance Skill Scroll Divination, Intro Skill Scroll of Wonders, Heavy Attack Frostfall, Resonance Liberation Fortune's Favor, and Dodge Counter.\n\n Multipliers\n\n Inherent Skill\n Treasured Piece\n\n Restore HP for all nearby party members based on 30% of the healing provided by Resonance Skill Scroll Divination when Resonance Skill Antique Appraisal is cast.\n\n Inherent Skill\n Rare Find\n\n Gain 15% Glacio DMG Bonus for 14s upon casting Intro Skill Scroll of Wonders.\n\n Intro Skill\n Scroll of Wonders\n\n Toss out the scroll and perform Lucky Draw once.\n\n Multipliers\n\n Outro Skill\n Timeless Classics\n\n The incoming Resonator has their Coordinated Attack DMG Amplified by 100% for 28s .",
+      "assets": []
+    },
+    {
+      "id": "resonance-chain-dupes-10",
+      "level": 2,
+      "heading": "Resonance Chain (Dupes)",
+      "text": "S 1\n Sequence Node 1\n\n Youhu has a 10% chance to gain immunity to damage and interruption after casting Lucky Draw. This effect lasts for 5s or until she is switched out.\n\n S 2\n Sequence Node 2\n\n The DMG bonus of Antithesis, Triplet and Perfect Rhyme on Poetic Essence is doubled.\n\n S 3\n Sequence Node 3\n\n Youhu's ATK is increased by 20% .\n\n S 4\n Sequence Node 4\n\n Every time Resonance Skill Scroll Divination is cast, there is a 20% chance that the skill will not enter Cooldown.\n\n S 5\n Sequence Node 5\n\n When Intro Skill Scroll of Wonders is cast, Youhu's Crit. Rate is increased by 15% for 14s .\n\n S 6\n Sequence Node 6\n\n When casting Resonance Skill Antique Appraisal, gain 1 stack of Sky Blue, stackable up to 4 times, lasting for 7s . Each stack increases Youhu's Crit. DMG by 15% .",
+      "assets": []
+    },
+    {
+      "id": "minor-fortes-total-11",
+      "level": 2,
+      "heading": "Minor Fortes (Total)",
+      "text": "ATK%\n + 12 %\n\n CRIT Rate\n + 8 %",
+      "assets": [
+        {
+          "id": "1e70b3adc860",
+          "sourceHash": "1e70b3adc860",
+          "kind": "icons",
+          "name": "ATK%",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "39094c227806",
+          "sourceHash": "39094c227806",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "stats-12",
+      "level": 2,
+      "heading": "Stats",
+      "text": "Include minor fortes\n\n Lv. 90\n\n HP\n 9975\n\n ATK\n 263\n\n DEF\n 1051\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Glacio DMG\n 0 %",
+      "assets": [
+        {
+          "id": "c26c1d310e90",
+          "sourceHash": "c26c1d310e90",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "1e70b3adc860",
+          "sourceHash": "1e70b3adc860",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "aa019d34202f",
+          "sourceHash": "aa019d34202f",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "5a0b154cd3d8",
+          "sourceHash": "5a0b154cd3d8",
+          "kind": "icons",
+          "name": "Max Energy",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "39094c227806",
+          "sourceHash": "39094c227806",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "7e2bcd0760ca",
+          "sourceHash": "7e2bcd0760ca",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "94236abd3fdc",
+          "sourceHash": "94236abd3fdc",
+          "kind": "icons",
+          "name": "Healing",
+          "fileStem": "stat-heal",
+          "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "5d2c60395865",
+          "sourceHash": "5d2c60395865",
+          "kind": "icons",
+          "name": "Glacio",
+          "fileStem": "stat-ice",
+          "path": "Prydwen/ww/assets/icons/glacio-5d2c60395865.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "character-ascension-total-14",
+      "level": 5,
+      "heading": "Character Ascension (total)",
+      "text": "4 x Crude Ring\n 12 x Basic Ring\n 12 x Improved Ring\n 4 x Tailored Ring\n 46 x Topological Confinement\n 60 x Violet Coral\n 170 000 Shell Credits",
+      "assets": []
+    },
+    {
+      "id": "skill-upgrades-total-15",
+      "level": 5,
+      "heading": "Skill Upgrades (total)",
+      "text": "25 x Crude Ring\n 28 x Basic Ring\n 40 x Improved Ring\n 57 x Tailored Ring\n 25 x Cadence Seed\n 28 x Cadence Bud\n 55 x Cadence Leaf\n 67 x Cadence Blossom\n 26 x Monument Bell\n 2 030 000 Shell Credits\n\n While the source of the materials can be quickly found in the game, when it comes Violet Coral you will have to gather them from the map. Check our Interactive map to find them quickly:\n\n Interactive Map",
+      "assets": [
+        {
+          "id": "f48ff62c89aa",
+          "sourceHash": "f48ff62c89aa",
+          "kind": "categories",
+          "name": "Interactive Map",
+          "fileStem": "category-map",
+          "path": "Prydwen/ww/assets/categories/interactive-map-f48ff62c89aa.webp",
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "voice-actors-16",
+      "level": 2,
+      "heading": "Voice Actors",
+      "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "27c8d6a72e6f",
+          "sourceHash": "27c8d6a72e6f",
+          "kind": "characters",
+          "name": "Youhu",
+          "fileStem": "youhu-full",
+          "path": "Prydwen/ww/assets/characters/youhu-27c8d6a72e6f.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "ratings-18",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.",
+      "assets": []
+    },
+    {
+      "id": "support-19",
+      "level": 5,
+      "heading": "Support",
+      "text": "T4\n Tower of Adversity\n\n T4\n Whimpering Wastes",
+      "assets": []
+    },
+    {
+      "id": "support-21",
+      "level": 5,
+      "heading": "Support",
+      "text": "T4\n Tower of Adversity (Value)\n\n T4\n Whimpering Wastes (Value)",
+      "assets": []
+    },
+    {
+      "id": "pros-23",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Unique and very large Coordinated Attack amplification buff.\n\n Good full team healing capabilities.\n\n Good carrier of supportive Echos and sets.",
+      "assets": []
+    },
+    {
+      "id": "cons-24",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Attack animations are on the slower side for characters.\n\n More limited on team building synergies due to primary buff being limited to coordinated attackers.\n\n Very Concerto hungry especially on her first rotation without access to her Intro immediately.",
+      "assets": []
+    },
+    {
+      "id": "review-25",
+      "level": 2,
+      "heading": "Review",
+      "text": "Youhu is a 4-star Glacio Gauntlet wielder specializing in full team heals and Coordinated Attacks amplification - a buff exclusive to her at the time of her release. She fulfills a similar role to Baizhi in teams, carrying Support Echoes and Sets, providing full team heals, and having a very strong Single Target buff on her Outro. What sets her apart is Melee combat, higher Field time commitments, and a much more specialized but stronger Outro buff which narrows her applications but also has higher potential. As with most supports her game plan is to trigger and maintain her Outro buff on the target of your choice while taking up as little field time as possible. So let's get started and learn exactly how to do that!\n As we’ve just learned, Youhu's Outro is the focus of her kit and responsible for most of her support potential. On its execution she grants the incoming Resonator a whopping 100% Coordinated Attack damage amplification for 28 seconds , persisting throughout Swaps. This is the single biggest source of damage amplification for any attack type in the game and is absolutely something that can have teams built around it, provided you have a Resonator with considerable and consistent Coordinated Attack damage output. However, there aren’t too many of them at the time of her release.\n To achieve her game plan of accessing her Outro as fast as possible and maintaining the same, Concerto Generation is essential - the fastest way to generate it is to effectively employ the combined unique mechanics behind her Forte Gauge and Resonance Skill.\n Her Resonance skill has a cooldown of 15 seconds, generates 10 Concerto Energy, and grants her “Lucky Draw” - a special effect that grants her one of 4 unique “Antique” buffs at random. While an “Antique” is active, her next Basic Attack is enhanced, becoming “Antique Appraisal” consuming the “Antique” buff, granting 10 Concerto Energy, respectable Resonance Energy, and a unique effect depending on which of the 4 “Antique’s” buffs she had active at the time. Here are the names of all 4 “Antique Appraisal” Attacks, and what they do:\n Chime: Reduces enemy’s Vibration Strength substantially allowing for faster Stuns.\n\n Ruyi: Deals the highest damage.\n\n Ding: Disrupts enemy attacks and actions.\n\n Mask: A ranged attack that displaces enemies hit but has the lowest damage.\n\n All “Antique Appraisals” generate the same Resonance and Concerto Energy and have similar animation times, meaning which one you draw doesn't make or break combat in most scenarios.\n Her Resonance Skill is definitely the easiest way to access “Antiques” but fortunately it’s far from the only one. Using either of her Intro skill or landing a successful Dodge Counter will grant “Lucky Draw” awarding a random “Antique” - ready for use in an empowered “Antique Appraisal” Basic Attack.\n She can also gain access to “Lucky draw” through a combination of her 4 part Basic Attack combo and baseline Forte Gauge “Frost”, a resource exclusively built and spent by her Heavy and Basic Attacks. When hitting an enemy(s) with her Basic Attacks Youhu will accumulate “Frost”, and once the “Frost” Forte Gauge is fully filled up, she can perform Heavy Attack: Frostfall expending all “Frost\" in order to gain Concerto Energy and most importantly “Lucky Draw”. Generally landing a full 4 part Basic Attack combo provides enough “Frost” in order to activate Frostfall opening up the following combo:\n Basic P1\n\n Basic P2\n\n Basic P3\n\n Basic P4\n\n Heavy Attack: Frostfall\n\n Enhanced Basic Attack: Antique Appraisal\n\n This combo generates a significant amount of Concerto energy and is good for on-demand access to “Antiques” when you have no other abilities available, but since it takes up a substantial amount of field time to fully execute, tactical use is advised.\n Alternatively, if you’re fine with sacrificing the damage, Energy, and Concerto from the Basic Attacks you can instead press and hold Youhu’s Heavy Attack to begin a channel that will quickly accumulate “Frost” which when full will allow for a Heavy Attack: Frostfall without requiring to perform a full Basic Attack combo, saving field time at the cost of resources & damage.\n Her Resonance Liberation also grants “Antiques” but in a bit of a different way. When attacking with the Liberation a choice between all 4 “Antique Appraisal” types will be presented allowing you to choose the exact “Antique\" you want giving you some control over the randomness in her kit.\n The last piece of the puzzle is her Forte, which we’ve already covered in half earlier with “Frost”, the second half is a separate resource gauge called “Auspice” and is far more impactful as it directly interacts with her “Antique Appraisal” mechanic.\n Every time she uses “Antique Appraisal\" she gains an “Auspice” based on the “Antique” used, for a maximum of 4 “Auspices” that can be tracked above the Forte gauge. Upon gathering 4 “Auspices” she can execute “Poetic Essence” by pressing and holding the Basic Attack. Doing so consumes all “Auspices” to launch an attack generating 20 Concerto Energy, some Resonance Energy, restoring HP to all party members, and dealing Glacio damage. But wait there’s more! Similar to her Resonance skill “Poetic Essence” can gain extra benefits based on the types of the “Antiques\" you convert to “Auspices” when you spend. In most cases the more “Auspices” you have of the same “Antique\" type when using “Poetic Essence\" the more/stronger benefits you can gain. Here are all the bonuses and rules to acquire them:\n Free Verse: 4 “Auspices” of different types (1 + 1 + 1 + 1): Reduces enemy’s Vibration Strength substantially contributing to faster stuns.\n\n Antithesis: 2 “Auspices” of the same type (2 + 1 + 1): Increase “Poetic Essence” DMG by 70%\n\n Double Pun: 2 pairs of “Auspices” of the same type (2 + 2): Add an extra heal to the effect of “Poetic Essence”.\n\n Triplet: 3 “Auspices” of the same type (3 + 1): Increase “Poetic Essence” DMG by 175%\n\n 4 “Auspices” of the same type (4): Gain the bonuses of Free Verse, Double Pun and Triplet.\n\n Youhu has very little control over which “Auspices” she gains outside of the “Antique” selection mechanic on her Resonance Liberation . Because of this, it can pay off well to use your Liberation as the 3rd or 4th “Antique” in order to try for a better “Auspice” combo. With that said, which “Auspice” you end up triggering isn’t too impactful on her overall role in the team - as none of them impact her Resonance Energy or Concerto Energy generation.\n Rounding off her kit, Youhu’s Inherent Skills grants her some nice perks. The first skill “Treasured Palace” adds a heal to each of Youhu’s “Antique Appraisal”, granting up to 30% of the heal generated by her standard Resonance Skill. The second is a 15% Glacio Damage boost upon casting her Intro for 14 seconds. The first improves her sustain capabilities nicely but since damage isn’t her priority, the 2nd isn’t quite as impactful.\n To bring it all together, in order to achieve her game plan of generating Concerto as fast as possible - to execute her Outro quickly and ensure it stays active she should;\n Keep Resonance Skill: Divination on cooldown at all times and follow it up with “Antique Appraisal” for burst concerto generation.\n\n Utilize Intro Skill into “Antique appraisal” to generate the Concerto Energy needed to maintain Outro Buff more easily.\n\n Aim to perform Dodge counters followed by “Antique Appraisal” whenever she has field time and it’s convenient to do so.\n\n When building Concerto Energy for the first use of Outro skill or when missing Concerto Energy to maintain it, use either a full combo of Basic Attacks into a Heavy Attack: Frostfall and “Antique Appraisal\" or skip the Basic Attacks by holding Heavy Attack in place of them.\n\n Use Resonance Liberation when available, preferably as the 3rd or 4th “Auspice” to gain a better shot at a beneficial buff.\n\n Use “Poetic Essence” as soon as you have 4 “Auspice”.\n\n All in all, Youhu is a solid support in general thanks to her healing and Echo choices and also has a strong niche thanks to her huge coordinated attack amplification. With that said her attacks are on the slower end - it takes more work to generate the Concerto she needs compared to other supports and she lacks the selection of coordinated damage dealers to support at the time of her release. Weighing up both sides Youhu stands as a competent but specialized choice with potential to grow with further support to the coordinated attack archetype, specifically for primary DPS.",
+      "assets": []
+    },
+    {
+      "id": "video-guides-26",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "Build",
+      "assets": []
+    },
+    {
+      "id": "best-weapons-27",
+      "level": 2,
+      "heading": "Best Weapons",
+      "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n 1\n\n Marcato (R 5 )\n\n Best weapon for Youhu by far thanks to its massive Energy Generation % main stat and Concerto generation, allowing her to access her Outro far more easily. A top option at S1 or S5 but the more duplicates you have, the further this weapon pulls ahead of the competition.\n 2\n\n Gauntlets#21D (R 5 )\n\n Offers a solid amount of Energy Generation as a main stat and a small boost to ATK% as a bonus ability in combat after dashing or dodging, improving Youhu's healing and Resonance Liberation access.\n 3\n\n Abyss Surges (R 1 )\n\n Grants a small amount of Energy Generation but a much larger ATK% boost compared to other Weapons, offering a larger healing boost by comparison.\n 4\n\n Celestial Spiral (R 5 )\n\n Grants a decent amount of ATK% a flat Resonance Eergy bonus every 20 seconds as opposed to a % multiplier which can be an advantage in some teams but a disadvantage in others.",
+      "assets": [
+        {
+          "id": "810367654a44",
+          "sourceHash": "810367654a44",
+          "kind": "weapons",
+          "name": "Marcato",
+          "fileStem": "21040024",
+          "path": "Prydwen/ww/assets/weapons/marcato-810367654a44.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9241c8fa6155",
+          "sourceHash": "9241c8fa6155",
+          "kind": "weapons",
+          "name": "Gauntlets#21D",
+          "fileStem": "21040034",
+          "path": "Prydwen/ww/assets/weapons/gauntlets-21d-9241c8fa6155.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "4e021e35e328",
+          "sourceHash": "4e021e35e328",
+          "kind": "weapons",
+          "name": "Abyss Surges",
+          "fileStem": "21040015",
+          "path": "Prydwen/ww/assets/weapons/abyss-surges-4e021e35e328.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d16f2ad97469",
+          "sourceHash": "d16f2ad97469",
+          "kind": "weapons",
+          "name": "Celestial Spiral",
+          "fileStem": "21040084",
+          "path": "Prydwen/ww/assets/weapons/celestial-spiral-d16f2ad97469.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "best-echo-sets-29",
+      "level": 6,
+      "heading": "Best Echo Sets",
+      "text": "1\n\nRejuvenating Glow\n\n Offers a 10% unconditional Healing% boost and an most importantly a 15% ATK% boost for the entire team, lasting 30 seconds whenever you heal yourself or any of your allies. This bonus can be triggered by character abilities and weapon effects, is easy to keep active 100% of the time and is a big help for all party members.\n Below you can find Main Echo options:\n\n Fallacy of No Return\n\n - One of two main Echo choice for Youhu. Grants 10% increased Energy Regeneration for Youhu herself and a team wide 10% ATK boost on use for 20 seconds. A strong option for those looking to generate as much energy as possible on Youhu or who favor a more permanent party buffing effect compared to Bell-Borne Geochelone.\n\n Bell-Borne Geochelone\n\n - While nowadays a worse option for the Rejuvenating Glow set for damage than the Fallacy of No Return due to a shorter buff uptime, only granting 10% DMG Bonus for 15 seconds, the Bell-Borne Geochelone remains a good choice if you don't have a good Fallacy to use for the set. It also has increased survivability by blocking 50% of the damage from a max of 3 hits if you desire to have that in your team.",
+      "assets": [
+        {
+          "id": "9116b6b3061f",
+          "sourceHash": "9116b6b3061f",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-7",
+          "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "963f47d9c985",
+          "sourceHash": "963f47d9c985",
+          "kind": "misc",
+          "name": "Fallacy of No Return",
+          "fileStem": "6000060",
+          "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "2acfd4bfd79d",
+          "sourceHash": "2acfd4bfd79d",
+          "kind": "misc",
+          "name": "Bell-Borne Geochelone",
+          "fileStem": "340000020",
+          "path": "Prydwen/ww/assets/misc/bell-borne-geochelone-2acfd4bfd79d.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "special-echo-sets-30",
+      "level": 6,
+      "heading": "Special Echo Sets",
+      "text": "Moonlit Clouds\n\n Offers a 10% unconditional Energy Regen% boost taking some pressure off your gear when aiming at ER breakpoints. Also upon using Outro, grants the next character switching in a 22.5% ATK boost, amplifying any of your main damage dealers burst windows.\n Below you can find Main Echo options:\n\n Impermanence Heron\n\n - Supportive Echo that can be run at the cost of a sizeable chunk of damage for the character who equips, trading personal gain for team benefits. Should always be used and immediately switch cancelled right before performing an Outro, leading to another DPS. When done so will grant the next character switching in 12% increased DMG% which when combined with the 5P Moonlit set which also grants 22.5% ATK% under the same conditions makes for a sizeable boost. While the echo does lower the damage of whoever wears it, it grants a massive chunk of energy on use usually saving 1 or sometimes even 2 Energy Regen sub stats that may otherwise be needed by the wearer allowing for some damage to be recovered.",
+      "assets": [
+        {
+          "id": "358387a78181",
+          "sourceHash": "358387a78181",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-8",
+          "path": "Prydwen/ww/assets/icons/set-8-358387a78181.webp",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "969a4ca96158",
+          "sourceHash": "969a4ca96158",
+          "kind": "misc",
+          "name": "Impermanence Heron",
+          "fileStem": "330000030",
+          "path": "Prydwen/ww/assets/misc/impermanence-heron-969a4ca96158.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "best-echo-stats-31",
+      "level": 2,
+      "heading": "Best Echo Stats",
+      "text": "4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Energy Regen / Glacio DMG%\n\n 3 cost\n Energy Regen / Glacio DMG\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK > Skill DMG%",
+      "assets": []
+    },
+    {
+      "id": "best-endgame-stats-level-90-32",
+      "level": 2,
+      "heading": "Best Endgame Stats (Level 90)",
+      "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n Keep in mind Youhu is a Support who deals very low personal damage, meaning investing in her damage is fully skippable. Energy Regen requirements are by far the most important stat shown.\n HP: 15000+\n\n DEF: 1050+\n\n ATK: 1300+\n\n CRIT Rate: 60%-80%+\n\n CRIT DMG: 210-260%+\n\n Energy Regen: 100%\n\n Glacio DMG Bonus: 0-60%+",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-33",
+      "level": 2,
+      "heading": "Skill Priority",
+      "text": "Below you can find the order of leveling the abilities for Youhu .\n Res. Skill\n\n Forte Circuit\n\n Res. Liberation\n\n Basic Attack\n\n Intro Skill\n\n Gameplay and teams",
+      "assets": []
+    },
+    {
+      "id": "notes-35",
+      "level": 6,
+      "heading": "Notes",
+      "text": "Important! Youhu's Ultimate allows you to choose what Antique you appraise. Youhu isn't exactly praised for her damage so we aim to minimize rotation time to improve team DPS —> as a result, the best Antique to pick against bosses is Mask (top right option, great against bosses as it pushes enemies away and makes her basic attacks inconsistent against smaller enemies), or Ruyi (top left option, great for chasing small enemies down to get your Basic Attacks to connect reliably afterwards).\n\n Youhu's kit fundamentally doesn't loop without Dodge Counters factored into account to generate extra Auspice. Consistently without dodges, these rotations are the best you can perform. Even though it doesn't utilize her full kit every time, it's the best you can have.\n\n You can entirely disregard Rotation 2 if you just want to keep things simple - Rotation 1 loops indefinitely. Rotation 2 is only something to learn if you want to optimize Youhu further.\n\n R3 Marcato or above skips the Basic P1 on your Rotation 2, shortening it down to about 6.0s, but additional ranks provide no further benefit.\n\n These rotations work only if using Marcato as Youhu's weapon. Using a different weapon will require extra attacks to be performed and as a result will take substantially longer.\n\n For your opener when an Intro isn't available, you can realistically use Rotation 1, dodge an enemy attack somewhere and perform a dodge counter. This should compensate for the Concerto Energy deficit from not having access to your Intro.\n\n The swap cancel window on Poetic Essence is decently generous if you wish to exploit it.\n\n We recommend you swap the placements of Poetic Essence and the Antique Appraisal that follows if starting with 3-4 Auspice to get an extra Auspice for your next rotation —> this allows you to use Rotation 2 two times in a row!",
+      "assets": []
+    },
+    {
+      "id": "rotation-1-time-rotation-1-6-5s-36",
+      "level": 6,
+      "heading": "Rotation 1 [Time (Rotation 1): 6.5s]",
+      "text": "Start with 0-1 Auspice\n\n Intro\n\n Antique Appraisal (instant cancel)\n\n Ultimate\n\n Antique Appraisal\n\n Basic P1\n\n Basic P2\n\n Basic P3\n\n Basic P4\n\n Skill\n\n Antique Appraisal\n\n Outro",
+      "assets": []
+    },
+    {
+      "id": "rotation-2-time-rotation-2-6-37s-37",
+      "level": 6,
+      "heading": "Rotation 2 [Time (Rotation 2): 6.37s]",
+      "text": "Start with 2-4 Auspice Rotation & times assume using R1 Marcato\n\n Intro\n\n Antique Appraisal (instant cancel)\n\n Ultimate\n\n Antique Appraisal\n\n Forte: Heavy Attack: Poetic Essence (optionally swap-cancel)\n\n Basic P1\n\n Skill\n\n Antique Appraisal (swap)\n\n Outro\n\n Rotation & times assume using R1 Marcato.",
+      "assets": []
+    },
+    {
+      "id": "synergies-38",
+      "level": 2,
+      "heading": "Synergies",
+      "text": "Yinlin - Youhu's meta niche is to buff Coordinated Attackers by amplifying Coordinated Attack DMG by 100% on Outro. As such, Yinlin, who has the highest DMG of any characters of that type, is the most natural pairing for her. While not comparable to 5 star supports, the pair is viable.\n Zhezhi - Youhu's meta niche is to buff Coordinated Attackers by amplifying Coordinated Attack DMG by 100% on Outro. As such, Zhezhi is a natural pair due to her good Coordinated Attack DMG. While not comparable to 5 star supports, the pair is viable.\n Mortefi - Youhu's meta niche is to buff Coordinated Attackers by amplifying Coordinated Attack DMG by 100% on Outro. As such, Mortefi is a natural pair due to his good Coordinated Attack DMG. While not comparable to 5 star supports, the pair is viable.",
+      "assets": [
+        {
+          "id": "f569a8378909",
+          "sourceHash": "f569a8378909",
+          "kind": "characters",
+          "name": "Yinlin",
+          "fileStem": "yinlin-icon",
+          "path": "Prydwen/ww/assets/characters/yinlin-f569a8378909.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "60fadd490017",
+          "sourceHash": "60fadd490017",
+          "kind": "characters",
+          "name": "Zhezhi",
+          "fileStem": "zhezhi-icon",
+          "path": "Prydwen/ww/assets/characters/zhezhi-60fadd490017.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "4910396b5955",
+          "sourceHash": "4910396b5955",
+          "kind": "characters",
+          "name": "Mortefi",
+          "fileStem": "mortefi-icon",
+          "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "example-teams-39",
+      "level": 2,
+      "heading": "Example Teams",
+      "text": "Best Team\n\n Calcharo is presented here because Youhu's buffs matter more with Main DPS characters that do lower DMG, where Yinlin's own DMG matters more.\n\n Zhezhi Team\n\n Lingyang is presented here because Youhu's buffs matter more with Main DPS characters that do lower DMG, where Zhezhi's own DMG matters more.\n\n Mortefi Team\n\n Calculations",
+      "assets": [
+        {
+          "id": "ede431e37eed",
+          "sourceHash": "ede431e37eed",
+          "kind": "characters",
+          "name": "Calcharo",
+          "fileStem": "calcharo-icon",
+          "path": "Prydwen/ww/assets/characters/calcharo-ede431e37eed.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "f569a8378909",
+          "sourceHash": "f569a8378909",
+          "kind": "characters",
+          "name": "Yinlin",
+          "fileStem": "yinlin-icon",
+          "path": "Prydwen/ww/assets/characters/yinlin-f569a8378909.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "a22c89bd44c5",
+          "sourceHash": "a22c89bd44c5",
+          "kind": "characters",
+          "name": "Youhu",
+          "fileStem": "youhu-icon",
+          "path": "Prydwen/ww/assets/characters/youhu-a22c89bd44c5.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "dfacbe996a59",
+          "sourceHash": "dfacbe996a59",
+          "kind": "characters",
+          "name": "Lingyang",
+          "fileStem": "lingyang-icon",
+          "path": "Prydwen/ww/assets/characters/lingyang-dfacbe996a59.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "60fadd490017",
+          "sourceHash": "60fadd490017",
+          "kind": "characters",
+          "name": "Zhezhi",
+          "fileStem": "zhezhi-icon",
+          "path": "Prydwen/ww/assets/characters/zhezhi-60fadd490017.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "7c6c3a3bc3ce",
+          "sourceHash": "7c6c3a3bc3ce",
+          "kind": "characters",
+          "name": "Jiyan",
+          "fileStem": "jiyan-icon",
+          "path": "Prydwen/ww/assets/characters/jiyan-7c6c3a3bc3ce.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "4910396b5955",
+          "sourceHash": "4910396b5955",
+          "kind": "characters",
+          "name": "Mortefi",
+          "fileStem": "mortefi-icon",
+          "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+          "width": 120,
+          "height": 120
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "best-echo-stats": {
+      "label": "Best Echo Stats",
+      "sections": [
+        {
+          "heading": "Stats",
+          "text": "Include minor fortes\n\n Lv. 90\n\n HP\n 9975\n\n ATK\n 263\n\n DEF\n 1051\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Glacio DMG\n 0 %",
+          "assets": [
+            {
+              "id": "c26c1d310e90",
+              "sourceHash": "c26c1d310e90",
+              "kind": "icons",
+              "name": "HP",
+              "fileStem": "stat-hp",
+              "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "1e70b3adc860",
+              "sourceHash": "1e70b3adc860",
+              "kind": "icons",
+              "name": "ATK",
+              "fileStem": "stat-atk",
+              "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "aa019d34202f",
+              "sourceHash": "aa019d34202f",
+              "kind": "icons",
+              "name": "DEF",
+              "fileStem": "stat-def",
+              "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "5a0b154cd3d8",
+              "sourceHash": "5a0b154cd3d8",
+              "kind": "icons",
+              "name": "Max Energy",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "39094c227806",
+              "sourceHash": "39094c227806",
+              "kind": "icons",
+              "name": "CRIT Rate",
+              "fileStem": "stat-crit",
+              "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "7e2bcd0760ca",
+              "sourceHash": "7e2bcd0760ca",
+              "kind": "icons",
+              "name": "CRIT DMG",
+              "fileStem": "stat-critdmg",
+              "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "94236abd3fdc",
+              "sourceHash": "94236abd3fdc",
+              "kind": "icons",
+              "name": "Healing",
+              "fileStem": "stat-heal",
+              "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "5d2c60395865",
+              "sourceHash": "5d2c60395865",
+              "kind": "icons",
+              "name": "Glacio",
+              "fileStem": "stat-ice",
+              "path": "Prydwen/ww/assets/icons/glacio-5d2c60395865.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        },
+        {
+          "heading": "Best Echo Stats",
+          "text": "4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Energy Regen / Glacio DMG%\n\n 3 cost\n Energy Regen / Glacio DMG\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK > Skill DMG%",
+          "assets": []
+        }
+      ]
+    },
+    "best-weapons": {
+      "label": "Best Weapons",
+      "sections": [
+        {
+          "heading": "Best Weapons",
+          "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n 1\n\n Marcato (R 5 )\n\n Best weapon for Youhu by far thanks to its massive Energy Generation % main stat and Concerto generation, allowing her to access her Outro far more easily. A top option at S1 or S5 but the more duplicates you have, the further this weapon pulls ahead of the competition.\n 2\n\n Gauntlets#21D (R 5 )\n\n Offers a solid amount of Energy Generation as a main stat and a small boost to ATK% as a bonus ability in combat after dashing or dodging, improving Youhu's healing and Resonance Liberation access.\n 3\n\n Abyss Surges (R 1 )\n\n Grants a small amount of Energy Generation but a much larger ATK% boost compared to other Weapons, offering a larger healing boost by comparison.\n 4\n\n Celestial Spiral (R 5 )\n\n Grants a decent amount of ATK% a flat Resonance Eergy bonus every 20 seconds as opposed to a % multiplier which can be an advantage in some teams but a disadvantage in others.",
+          "assets": [
+            {
+              "id": "810367654a44",
+              "sourceHash": "810367654a44",
+              "kind": "weapons",
+              "name": "Marcato",
+              "fileStem": "21040024",
+              "path": "Prydwen/ww/assets/weapons/marcato-810367654a44.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "9241c8fa6155",
+              "sourceHash": "9241c8fa6155",
+              "kind": "weapons",
+              "name": "Gauntlets#21D",
+              "fileStem": "21040034",
+              "path": "Prydwen/ww/assets/weapons/gauntlets-21d-9241c8fa6155.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "4e021e35e328",
+              "sourceHash": "4e021e35e328",
+              "kind": "weapons",
+              "name": "Abyss Surges",
+              "fileStem": "21040015",
+              "path": "Prydwen/ww/assets/weapons/abyss-surges-4e021e35e328.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d16f2ad97469",
+              "sourceHash": "d16f2ad97469",
+              "kind": "weapons",
+              "name": "Celestial Spiral",
+              "fileStem": "21040084",
+              "path": "Prydwen/ww/assets/weapons/celestial-spiral-d16f2ad97469.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "best-echo-sets": {
+      "label": "Best Echo Sets",
+      "sections": [
+        {
+          "heading": "Best Echo Sets",
+          "text": "1\n\nRejuvenating Glow\n\n Offers a 10% unconditional Healing% boost and an most importantly a 15% ATK% boost for the entire team, lasting 30 seconds whenever you heal yourself or any of your allies. This bonus can be triggered by character abilities and weapon effects, is easy to keep active 100% of the time and is a big help for all party members.\n Below you can find Main Echo options:\n\n Fallacy of No Return\n\n - One of two main Echo choice for Youhu. Grants 10% increased Energy Regeneration for Youhu herself and a team wide 10% ATK boost on use for 20 seconds. A strong option for those looking to generate as much energy as possible on Youhu or who favor a more permanent party buffing effect compared to Bell-Borne Geochelone.\n\n Bell-Borne Geochelone\n\n - While nowadays a worse option for the Rejuvenating Glow set for damage than the Fallacy of No Return due to a shorter buff uptime, only granting 10% DMG Bonus for 15 seconds, the Bell-Borne Geochelone remains a good choice if you don't have a good Fallacy to use for the set. It also has increased survivability by blocking 50% of the damage from a max of 3 hits if you desire to have that in your team.",
+          "assets": [
+            {
+              "id": "9116b6b3061f",
+              "sourceHash": "9116b6b3061f",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-7",
+              "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+              "width": 50,
+              "height": 50
+            },
+            {
+              "id": "963f47d9c985",
+              "sourceHash": "963f47d9c985",
+              "kind": "misc",
+              "name": "Fallacy of No Return",
+              "fileStem": "6000060",
+              "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+              "width": 35,
+              "height": 35
+            },
+            {
+              "id": "2acfd4bfd79d",
+              "sourceHash": "2acfd4bfd79d",
+              "kind": "misc",
+              "name": "Bell-Borne Geochelone",
+              "fileStem": "340000020",
+              "path": "Prydwen/ww/assets/misc/bell-borne-geochelone-2acfd4bfd79d.webp",
+              "width": 35,
+              "height": 35
+            }
+          ]
+        }
+      ]
+    },
+    "best-endgame-stats": {
+      "label": "Best Endgame Stats",
+      "sections": [
+        {
+          "heading": "Best Endgame Stats (Level 90)",
+          "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n Keep in mind Youhu is a Support who deals very low personal damage, meaning investing in her damage is fully skippable. Energy Regen requirements are by far the most important stat shown.\n HP: 15000+\n\n DEF: 1050+\n\n ATK: 1300+\n\n CRIT Rate: 60%-80%+\n\n CRIT DMG: 210-260%+\n\n Energy Regen: 100%\n\n Glacio DMG Bonus: 0-60%+",
+          "assets": []
+        }
+      ]
+    },
+    "skill-priority": {
+      "label": "Skill Priority",
+      "sections": [
+        {
+          "heading": "Skill Priority",
+          "text": "Below you can find the order of leveling the abilities for Youhu .\n Res. Skill\n\n Forte Circuit\n\n Res. Liberation\n\n Basic Attack\n\n Intro Skill\n\n Gameplay and teams",
+          "assets": []
+        }
+      ]
+    },
+    "rotation": {
+      "label": "Rotation",
+      "sections": [
+        {
+          "heading": "Rotation 1 [Time (Rotation 1): 6.5s]",
+          "text": "Start with 0-1 Auspice\n\n Intro\n\n Antique Appraisal (instant cancel)\n\n Ultimate\n\n Antique Appraisal\n\n Basic P1\n\n Basic P2\n\n Basic P3\n\n Basic P4\n\n Skill\n\n Antique Appraisal\n\n Outro",
+          "assets": []
+        },
+        {
+          "heading": "Rotation 2 [Time (Rotation 2): 6.37s]",
+          "text": "Start with 2-4 Auspice Rotation & times assume using R1 Marcato\n\n Intro\n\n Antique Appraisal (instant cancel)\n\n Ultimate\n\n Antique Appraisal\n\n Forte: Heavy Attack: Poetic Essence (optionally swap-cancel)\n\n Basic P1\n\n Skill\n\n Antique Appraisal (swap)\n\n Outro\n\n Rotation & times assume using R1 Marcato.",
+          "assets": []
+        }
+      ]
+    },
+    "synergies": {
+      "label": "Synergies",
+      "sections": [
+        {
+          "heading": "Synergies",
+          "text": "Yinlin - Youhu's meta niche is to buff Coordinated Attackers by amplifying Coordinated Attack DMG by 100% on Outro. As such, Yinlin, who has the highest DMG of any characters of that type, is the most natural pairing for her. While not comparable to 5 star supports, the pair is viable.\n Zhezhi - Youhu's meta niche is to buff Coordinated Attackers by amplifying Coordinated Attack DMG by 100% on Outro. As such, Zhezhi is a natural pair due to her good Coordinated Attack DMG. While not comparable to 5 star supports, the pair is viable.\n Mortefi - Youhu's meta niche is to buff Coordinated Attackers by amplifying Coordinated Attack DMG by 100% on Outro. As such, Mortefi is a natural pair due to his good Coordinated Attack DMG. While not comparable to 5 star supports, the pair is viable.",
+          "assets": [
+            {
+              "id": "f569a8378909",
+              "sourceHash": "f569a8378909",
+              "kind": "characters",
+              "name": "Yinlin",
+              "fileStem": "yinlin-icon",
+              "path": "Prydwen/ww/assets/characters/yinlin-f569a8378909.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "60fadd490017",
+              "sourceHash": "60fadd490017",
+              "kind": "characters",
+              "name": "Zhezhi",
+              "fileStem": "zhezhi-icon",
+              "path": "Prydwen/ww/assets/characters/zhezhi-60fadd490017.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "4910396b5955",
+              "sourceHash": "4910396b5955",
+              "kind": "characters",
+              "name": "Mortefi",
+              "fileStem": "mortefi-icon",
+              "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "example-teams": {
+      "label": "Example Teams",
+      "sections": [
+        {
+          "heading": "Example Teams",
+          "text": "Best Team\n\n Calcharo is presented here because Youhu's buffs matter more with Main DPS characters that do lower DMG, where Yinlin's own DMG matters more.\n\n Zhezhi Team\n\n Lingyang is presented here because Youhu's buffs matter more with Main DPS characters that do lower DMG, where Zhezhi's own DMG matters more.\n\n Mortefi Team\n\n Calculations",
+          "assets": [
+            {
+              "id": "ede431e37eed",
+              "sourceHash": "ede431e37eed",
+              "kind": "characters",
+              "name": "Calcharo",
+              "fileStem": "calcharo-icon",
+              "path": "Prydwen/ww/assets/characters/calcharo-ede431e37eed.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "f569a8378909",
+              "sourceHash": "f569a8378909",
+              "kind": "characters",
+              "name": "Yinlin",
+              "fileStem": "yinlin-icon",
+              "path": "Prydwen/ww/assets/characters/yinlin-f569a8378909.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "a22c89bd44c5",
+              "sourceHash": "a22c89bd44c5",
+              "kind": "characters",
+              "name": "Youhu",
+              "fileStem": "youhu-icon",
+              "path": "Prydwen/ww/assets/characters/youhu-a22c89bd44c5.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "dfacbe996a59",
+              "sourceHash": "dfacbe996a59",
+              "kind": "characters",
+              "name": "Lingyang",
+              "fileStem": "lingyang-icon",
+              "path": "Prydwen/ww/assets/characters/lingyang-dfacbe996a59.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "60fadd490017",
+              "sourceHash": "60fadd490017",
+              "kind": "characters",
+              "name": "Zhezhi",
+              "fileStem": "zhezhi-icon",
+              "path": "Prydwen/ww/assets/characters/zhezhi-60fadd490017.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "7c6c3a3bc3ce",
+              "sourceHash": "7c6c3a3bc3ce",
+              "kind": "characters",
+              "name": "Jiyan",
+              "fileStem": "jiyan-icon",
+              "path": "Prydwen/ww/assets/characters/jiyan-7c6c3a3bc3ce.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "4910396b5955",
+              "sourceHash": "4910396b5955",
+              "kind": "characters",
+              "name": "Mortefi",
+              "fileStem": "mortefi-icon",
+              "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+              "width": 120,
+              "height": 120
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Youhu Best Build Guide | Wuthering Waves (WuWa)\n \n\n Wuthering Waves\n Home Database Characters Weapons Echoes Banners\n Tier Lists Tier List Team Tier List Value Tier List\n Guides Guides\n Resources Map News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Wuthering Waves\n /\n Characters\n /\n Youhu\n Youhu Best Build Guide\n Last updated: 09/June/2026\n\n Introduction\n Best guide and build for Youhu from WW (Wuthering Waves). Youhu is a 4 ★ rarity character from the Glacio element who uses the Gauntlets type weapon.\n Youhu, a natural expert in identifying antiques, is a capable speaker with distinctive tastes. When dealing with treasures and antiques, this jubilant dynamo settles into calm perception, tracing their distant past through their wrinkles and textures.\n\n To learn more about Youhu check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Youhu has at least one video guide available:\n\n Update tracker\n Last review update\n Patch 1.3\n\n Last major build/calcs update\n Patch 2.1\n\n Last profile update*\n 09/June/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Youhu check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Kit\n\n Review\n\n Build\n\n Gameplay and teams\n\n Calculations\n\n Profile\n\n Skills\n Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Frosty Punches\n\n Basic Attack\n Perform up to 4 consecutive attacks, dealing Glacio DMG .\n Heavy Attack\n When Frost is full, hold the Normal Attack Button to cast Frostfall.\n When Frost is full during the Fortune Rolling state, release the Normal Attack Button to cast Frostfall. If Youhu cannot cast Frostfall at the moment, perform Lucky Draw once instead.\n Youhu can obtain Frost in the following ways:\n When Frost is not full, hold Normal Attack Button to enter the Fortune Rolling state and restore Frost over time.\n\n When Basic Attacks hit a target.\n\n Heavy Attack: Frostfall\n Youhu dashes forward, dealing Glacio DMG , and performs Lucky Draw once.\n Mid-air Attack\n Perform a Plunging Attack at the cost of STA, dealing Glacio DMG .\n Dodge Counter\n When Youhu possesses no Antique, quickly press Normal Attack Button right after a successful Dodge to thrust forward, dealing Glacio DMG , and perform Lucky Draw once.\n\n Multipliers\n\n Resonance Skill\n Scroll Divination\n\n Youhu smashes her scroll down at the enemy, dealing Glacio DMG , restoring HP for all party members nearby, and performs Lucky Draw once.\n Lucky Draw\n Youhu obtains a random Antique after the Lucky Draw. With an Antique, her next Basic Attack will activate the corresponding Antique Appraisal.\n Only one Antique can exist at a time, and the newly drawn Antique will replace the existing one.\n Antique Appraisal\n Chime : Attack the enemy with a Chime, dealing Glacio DMG . Chime can effectively reduce the enemy's Vibration Strength.\n\n Ruyi : Batter the enemy with a Ruyi, dealing Glacio DMG . Ruyi has a higher DMG Multiplier.\n\n Ding : Ram into the enemy on a Ding, dealing Glacio DMG . Ding can effectively break the enemy's stance.\n\n Mask : Throw a Mask at enemies in front, dealing Glacio DMG . Mask can pull in enemies along its path.\n\n Multipliers\n\n Resonance Liberation\n Fortune's Favor\n\n Youhu hurls her scroll at the enemy, causing a Glacio DMG blast in the area.\n On the blast, four buttons will appear. Choose a button within the specified time to obtain the corresponding Antique. Otherwise, obtain one random Antique.\n\n Multipliers\n\n Forte Circuit\n Poetic Essence\n\n At four Auspices, hold the Normal Attack button to release Poetic Essence, dealing Glacio DMG , considered as Resonance Skill DMG, while restoring HP for all nearby party members.\n Youhu can hold up to four Auspices.\n Poetic Essence\n Deal Glacio DMG to enemies within the range and additionally obtain one of the following effects based on the Auspice combination:\n Free Verse : Four different types Auspices. Additionally reduce the Vibration Strength of hit enemies.\n\n Antithesis : A pair of Auspices. Increase Poetic Essence's DMG by 70% .\n\n Double Pun : Two pairs of Auspices. Additionally restore HP for all nearby party members.\n\n Triplet : Three identical Auspices. Increase Poetic Essence's DMG by 175% .\n\n Perfect Rhyme : Four identical Auspices. Simultaneously activate the effects of Free Verse, Double Pun, and Triplet.\n\n Casting Poetic Essence removes all Auspices.\n Auspice\n Youhu gains an Auspice through Antique Appraisal.\n\n Use Basic Attack while holding an Antique to receive the corresponding Auspice.\n\n Youhu unlocks Antiques by casting Resonance Skill Scroll Divination, Intro Skill Scroll of Wonders, Heavy Attack Frostfall, Resonance Liberation Fortune's Favor, and Dodge Counter.\n\n Multipliers\n\n Inherent Skill\n Treasured Piece\n\n Restore HP for all nearby party members based on 30% of the healing provided by Resonance Skill Scroll Divination when Resonance Skill Antique Appraisal is cast.\n\n Inherent Skill\n Rare Find\n\n Gain 15% Glacio DMG Bonus for 14s upon casting Intro Skill Scroll of Wonders.\n\n Intro Skill\n Scroll of Wonders\n\n Toss out the scroll and perform Lucky Draw once.\n\n Multipliers\n\n Outro Skill\n Timeless Classics\n\n The incoming Resonator has their Coordinated Attack DMG Amplified by 100% for 28s .\n\n Resonance Chain (Dupes)\n S 1\n Sequence Node 1\n\n Youhu has a 10% chance to gain immunity to damage and interruption after casting Lucky Draw. This effect lasts for 5s or until she is switched out.\n\n S 2\n Sequence Node 2\n\n The DMG bonus of Antithesis, Triplet and Perfect Rhyme on Poetic Essence is doubled.\n\n S 3\n Sequence Node 3\n\n Youhu's ATK is increased by 20% .\n\n S 4\n Sequence Node 4\n\n Every time Resonance Skill Scroll Divination is cast, there is a 20% chance that the skill will not enter Cooldown.\n\n S 5\n Sequence Node 5\n\n When Intro Skill Scroll of Wonders is cast, Youhu's Crit. Rate is increased by 15% for 14s .\n\n S 6\n Sequence Node 6\n\n When casting Resonance Skill Antique Appraisal, gain 1 stack of Sky Blue, stackable up to 4 times, lasting for 7s . Each stack increases Youhu's Crit. DMG by 15% .\n\n Minor Fortes (Total)\n ATK%\n + 12 %\n\n CRIT Rate\n + 8 %\n\n Stats\n\nInclude minor fortes\n\n Lv. 90\n\n HP\n 9975\n\n ATK\n 263\n\n DEF\n 1051\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Glacio DMG\n 0 %\n\n Upgrade Materials\n Character Ascension (total)\n 4 x Crude Ring\n 12 x Basic Ring\n 12 x Improved Ring\n 4 x Tailored Ring\n 46 x Topological Confinement\n 60 x Violet Coral\n 170 000 Shell Credits\n\n Skill Upgrades (total)\n 25 x Crude Ring\n 28 x Basic Ring\n 40 x Improved Ring\n 57 x Tailored Ring\n 25 x Cadence Seed\n 28 x Cadence Bud\n 55 x Cadence Leaf\n 67 x Cadence Blossom\n 26 x Monument Bell\n 2 030 000 Shell Credits\n\n While the source of the materials can be quickly found in the game, when it comes Violet Coral you will have to gather them from the map. Check our Interactive map to find them quickly:\n\n Interactive Map\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Support\n T4\n Tower of Adversity\n\n T4\n Whimpering Wastes\n\n Value Tier List\n Support\n T4\n Tower of Adversity (Value)\n\n T4\n Whimpering Wastes (Value)\n\n Pros & Cons\n Pros\n Unique and very large Coordinated Attack amplification buff.\n\n Good full team healing capabilities.\n\n Good carrier of supportive Echos and sets.\n\n Cons\n Attack animations are on the slower side for characters.\n\n More limited on team building synergies due to primary buff being limited to coordinated attackers.\n\n Very Concerto hungry especially on her first rotation without access to her Intro immediately.\n\n Review\n Youhu is a 4-star Glacio Gauntlet wielder specializing in full team heals and Coordinated Attacks amplification - a buff exclusive to her at the time of her release. She fulfills a similar role to Baizhi in teams, carrying Support Echoes and Sets, providing full team heals, and having a very strong Single Target buff on her Outro. What sets her apart is Melee combat, higher Field time commitments, and a much more specialized but stronger Outro buff which narrows her applications but also has higher potential. As with most supports her game plan is to trigger and maintain her Outro buff on the target of your choice while taking up as little field time as possible. So let's get started and learn exactly how to do that!\n As we’ve just learned, Youhu's Outro is the focus of her kit and responsible for most of her support potential. On its execution she grants the incoming Resonator a whopping 100% Coordinated Attack damage amplification for 28 seconds , persisting throughout Swaps. This is the single biggest source of damage amplification for any attack type in the game and is absolutely something that can have teams built around it, provided you have a Resonator with considerable and consistent Coordinated Attack damage output. However, there aren’t too many of them at the time of her release.\n To achieve her game plan of accessing her Outro as fast as possible and maintaining the same, Concerto Generation is essential - the fastest way to generate it is to effectively employ the combined unique mechanics behind her Forte Gauge and Resonance Skill.\n Her Resonance skill has a cooldown of 15 seconds, generates 10 Concerto Energy, and grants her “Lucky Draw” - a special effect that grants her one of 4 unique “Antique” buffs at random. While an “Antique” is active, her next Basic Attack is enhanced, becoming “Antique Appraisal” consuming the “Antique” buff, granting 10 Concerto Energy, respectable Resonance Energy, and a unique effect depending on which of the 4 “Antique’s” buffs she had active at the time. Here are the names of all 4 “Antique Appraisal” Attacks, and what they do:\n Chime: Reduces enemy’s Vibration Strength substantially allowing for faster Stuns.\n\n Ruyi: Deals the highest damage.\n\n Ding: Disrupts enemy attacks and actions.\n\n Mask: A ranged attack that displaces enemies hit but has the lowest damage.\n\n All “Antique Appraisals” generate the same Resonance and Concerto Energy and have similar animation times, meaning which one you draw doesn't make or break combat in most scenarios.\n Her Resonance Skill is definitely the easiest way to access “Antiques” but fortunately it’s far from the only one. Using either of her Intro skill or landing a successful Dodge Counter will grant “Lucky Draw” awarding a random “Antique” - ready for use in an empowered “Antique Appraisal” Basic Attack.\n She can also gain access to “Lucky draw” through a combination of her 4 part Basic Attack combo and baseline Forte Gauge “Frost”, a resource exclusively built and spent by her Heavy and Basic Attacks. When hitting an enemy(s) with her Basic Attacks Youhu will accumulate “Frost”, and once the “Frost” Forte Gauge is fully filled up, she can perform Heavy Attack: Frostfall expending all “Frost\" in order to gain Concerto Energy and most importantly “Lucky Draw”. Generally landing a full 4 part Basic Attack combo provides enough “Frost” in order to activate Frostfall opening up the following combo:\n Basic P1\n\n Basic P2\n\n Basic P3\n\n Basic P4\n\n Heavy Attack: Frostfall\n\n Enhanced Basic Attack: Antique Appraisal\n\n This combo generates a significant amount of Concerto energy and is good for on-demand access to “Antiques” when you have no other abilities available, but since it takes up a substantial amount of field time to fully execute, tactical use is advised.\n Alternatively, if you’re fine with sacrificing the damage, Energy, and Concerto from the Basic Attacks you can instead press and hold Youhu’s Heavy Attack to begin a channel that will quickly accumulate “Frost” which when full will allow for a Heavy Attack: Frostfall without requiring to perform a full Basic Attack combo, saving field time at the cost of resources & damage.\n Her Resonance Liberation also grants “Antiques” but in a bit of a different way. When attacking with the Liberation a choice between all 4 “Antique Appraisal” types will be presented allowing you to choose the exact “Antique\" you want giving you some control over the randomness in her kit.\n The last piece of the puzzle is her Forte, which we’ve already covered in half earlier with “Frost”, the second half is a separate resource gauge called “Auspice” and is far more impactful as it directly interacts with her “Antique Appraisal” mechanic.\n Every time she uses “Antique Appraisal\" she gains an “Auspice” based on the “Antique” used, for a maximum of 4 “Auspices” that can be tracked above the Forte gauge. Upon gathering 4 “Auspices” she can execute “Poetic Essence” by pressing and holding the Basic Attack. Doing so consumes all “Auspices” to launch an attack generating 20 Concerto Energy, some Resonance Energy, restoring HP to all party members, and dealing Glacio damage. But wait there’s more! Similar to her Resonance skill “Poetic Essence” can gain extra benefits based on the types of the “Antiques\" you convert to “Auspices” when you spend. In most cases the more “Auspices” you have of the same “Antique\" type when using “Poetic Essence\" the more/stronger benefits you can gain. Here are all the bonuses and rules to acquire them:\n Free Verse: 4 “Auspices” of different types (1 + 1 + 1 + 1): Reduces enemy’s Vibration Strength substantially contributing to faster stuns.\n\n Antithesis: 2 “Auspices” of the same type (2 + 1 + 1): Increase “Poetic Essence” DMG by 70%\n\n Double Pun: 2 pairs of “Auspices” of the same type (2 + 2): Add an extra heal to the effect of “Poetic Essence”.\n\n Triplet: 3 “Auspices” of the same type (3 + 1): Increase “Poetic Essence” DMG by 175%\n\n 4 “Auspices” of the same type (4): Gain the bonuses of Free Verse, Double Pun and Triplet.\n\n Youhu has very little control over which “Auspices” she gains outside of the “Antique” selection mechanic on her Resonance Liberation . Because of this, it can pay off well to use your Liberation as the 3rd or 4th “Antique” in order to try for a better “Auspice” combo. With that said, which “Auspice” you end up triggering isn’t too impactful on her overall role in the team - as none of them impact her Resonance Energy or Concerto Energy generation.\n Rounding off her kit, Youhu’s Inherent Skills grants her some nice perks. The first skill “Treasured Palace” adds a heal to each of Youhu’s “Antique Appraisal”, granting up to 30% of the heal generated by her standard Resonance Skill. The second is a 15% Glacio Damage boost upon casting her Intro for 14 seconds. The first improves her sustain capabilities nicely but since damage isn’t her priority, the 2nd isn’t quite as impactful.\n To bring it all together, in order to achieve her game plan of generating Concerto as fast as possible - to execute her Outro quickly and ensure it stays active she should;\n Keep Resonance Skill: Divination on cooldown at all times and follow it up with “Antique Appraisal” for burst concerto generation.\n\n Utilize Intro Skill into “Antique appraisal” to generate the Concerto Energy needed to maintain Outro Buff more easily.\n\n Aim to perform Dodge counters followed by “Antique Appraisal” whenever she has field time and it’s convenient to do so.\n\n When building Concerto Energy for the first use of Outro skill or when missing Concerto Energy to maintain it, use either a full combo of Basic Attacks into a Heavy Attack: Frostfall and “Antique Appraisal\" or skip the Basic Attacks by holding Heavy Attack in place of them.\n\n Use Resonance Liberation when available, preferably as the 3rd or 4th “Auspice” to gain a better shot at a beneficial buff.\n\n Use “Poetic Essence” as soon as you have 4 “Auspice”.\n\n All in all, Youhu is a solid support in general thanks to her healing and Echo choices and also has a strong niche thanks to her huge coordinated attack amplification. With that said her attacks are on the slower end - it takes more work to generate the Concerto she needs compared to other supports and she lacks the selection of coordinated damage dealers to support at the time of her release. Weighing up both sides Youhu stands as a competent but specialized choice with potential to grow with further support to the coordinated attack archetype, specifically for primary DPS.\n\n Video guides\n\n Build\n\n Best Weapons\n The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n 1\n\n Marcato (R 5 )\n\n Best weapon for Youhu by far thanks to its massive Energy Generation % main stat and Concerto generation, allowing her to access her Outro far more easily. A top option at S1 or S5 but the more duplicates you have, the further this weapon pulls ahead of the competition.\n 2\n\n Gauntlets#21D (R 5 )\n\n Offers a solid amount of Energy Generation as a main stat and a small boost to ATK% as a bonus ability in combat after dashing or dodging, improving Youhu's healing and Resonance Liberation access.\n 3\n\n Abyss Surges (R 1 )\n\n Grants a small amount of Energy Generation but a much larger ATK% boost compared to other Weapons, offering a larger healing boost by comparison.\n 4\n\n Celestial Spiral (R 5 )\n\n Grants a decent amount of ATK% a flat Resonance Eergy bonus every 20 seconds as opposed to a % multiplier which can be an advantage in some teams but a disadvantage in others.\n\n Best Echo Sets\n Best Echo Sets\n 1\n\nRejuvenating Glow\n\n Offers a 10% unconditional Healing% boost and an most importantly a 15% ATK% boost for the entire team, lasting 30 seconds whenever you heal yourself or any of your allies. This bonus can be triggered by character abilities and weapon effects, is easy to keep active 100% of the time and is a big help for all party members.\n Below you can find Main Echo options:\n\n Fallacy of No Return\n\n - One of two main Echo choice for Youhu. Grants 10% increased Energy Regeneration for Youhu herself and a team wide 10% ATK boost on use for 20 seconds. A strong option for those looking to generate as much energy as possible on Youhu or who favor a more permanent party buffing effect compared to Bell-Borne Geochelone.\n\n Bell-Borne Geochelone\n\n - While nowadays a worse option for the Rejuvenating Glow set for damage than the Fallacy of No Return due to a shorter buff uptime, only granting 10% DMG Bonus for 15 seconds, the Bell-Borne Geochelone remains a good choice if you don't have a good Fallacy to use for the set. It also has increased survivability by blocking 50% of the damage from a max of 3 hits if you desire to have that in your team.\n\n Special Echo Sets\n\nMoonlit Clouds\n\n Offers a 10% unconditional Energy Regen% boost taking some pressure off your gear when aiming at ER breakpoints. Also upon using Outro, grants the next character switching in a 22.5% ATK boost, amplifying any of your main damage dealers burst windows.\n Below you can find Main Echo options:\n\n Impermanence Heron\n\n - Supportive Echo that can be run at the cost of a sizeable chunk of damage for the character who equips, trading personal gain for team benefits. Should always be used and immediately switch cancelled right before performing an Outro, leading to another DPS. When done so will grant the next character switching in 12% increased DMG% which when combined with the 5P Moonlit set which also grants 22.5% ATK% under the same conditions makes for a sizeable boost. While the echo does lower the damage of whoever wears it, it grants a massive chunk of energy on use usually saving 1 or sometimes even 2 Energy Regen sub stats that may otherwise be needed by the wearer allowing for some damage to be recovered.\n\n Best Echo Stats\n 4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Energy Regen / Glacio DMG%\n\n 3 cost\n Energy Regen / Glacio DMG\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK > Skill DMG%\n\n Best Endgame Stats (Level 90)\n All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n Keep in mind Youhu is a Support who deals very low personal damage, meaning investing in her damage is fully skippable. Energy Regen requirements are by far the most important stat shown.\n HP: 15000+\n\n DEF: 1050+\n\n ATK: 1300+\n\n CRIT Rate: 60%-80%+\n\n CRIT DMG: 210-260%+\n\n Energy Regen: 100%\n\n Glacio DMG Bonus: 0-60%+\n\n Skill Priority\n Below you can find the order of leveling the abilities for Youhu .\n Res. Skill\n\n Forte Circuit\n\n Res. Liberation\n\n Basic Attack\n\n Intro Skill\n\n Gameplay and teams\n\n Rotation\n Notes\n Important! Youhu's Ultimate allows you to choose what Antique you appraise. Youhu isn't exactly praised for her damage so we aim to minimize rotation time to improve team DPS —> as a result, the best Antique to pick against bosses is Mask (top right option, great against bosses as it pushes enemies away and makes her basic attacks inconsistent against smaller enemies), or Ruyi (top left option, great for chasing small enemies down to get your Basic Attacks to connect reliably afterwards).\n\n Youhu's kit fundamentally doesn't loop without Dodge Counters factored into account to generate extra Auspice. Consistently without dodges, these rotations are the best you can perform. Even though it doesn't utilize her full kit every time, it's the best you can have.\n\n You can entirely disregard Rotation 2 if you just want to keep things simple - Rotation 1 loops indefinitely. Rotation 2 is only something to learn if you want to optimize Youhu further.\n\n R3 Marcato or above skips the Basic P1 on your Rotation 2, shortening it down to about 6.0s, but additional ranks provide no further benefit.\n\n These rotations work only if using Marcato as Youhu's weapon. Using a different weapon will require extra attacks to be performed and as a result will take substantially longer.\n\n For your opener when an Intro isn't available, you can realistically use Rotation 1, dodge an enemy attack somewhere and perform a dodge counter. This should compensate for the Concerto Energy deficit from not having access to your Intro.\n\n The swap cancel window on Poetic Essence is decently generous if you wish to exploit it.\n\n We recommend you swap the placements of Poetic Essence and the Antique Appraisal that follows if starting with 3-4 Auspice to get an extra Auspice for your next rotation —> this allows you to use Rotation 2 two times in a row!\n\n Rotation 1 [Time (Rotation 1): 6.5s]\n Start with 0-1 Auspice\n\n Intro\n\n Antique Appraisal (instant cancel)\n\n Ultimate\n\n Antique Appraisal\n\n Basic P1\n\n Basic P2\n\n Basic P3\n\n Basic P4\n\n Skill\n\n Antique Appraisal\n\n Outro\n\n Rotation 2 [Time (Rotation 2): 6.37s]\n Start with 2-4 Auspice Rotation & times assume using R1 Marcato\n\n Intro\n\n Antique Appraisal (instant cancel)\n\n Ultimate\n\n Antique Appraisal\n\n Forte: Heavy Attack: Poetic Essence (optionally swap-cancel)\n\n Basic P1\n\n Skill\n\n Antique Appraisal (swap)\n\n Outro\n\n Rotation & times assume using R1 Marcato.\n\n Synergies\n Yinlin - Youhu's meta niche is to buff Coordinated Attackers by amplifying Coordinated Attack DMG by 100% on Outro. As such, Yinlin, who has the highest DMG of any characters of that type, is the most natural pairing for her. While not comparable to 5 star supports, the pair is viable.\n Zhezhi - Youhu's meta niche is to buff Coordinated Attackers by amplifying Coordinated Attack DMG by 100% on Outro. As such, Zhezhi is a natural pair due to her good Coordinated Attack DMG. While not comparable to 5 star supports, the pair is viable.\n Mortefi - Youhu's meta niche is to buff Coordinated Attackers by amplifying Coordinated Attack DMG by 100% on Outro. As such, Mortefi is a natural pair due to his good Coordinated Attack DMG. While not comparable to 5 star supports, the pair is viable.\n Example Teams\n Best Team\n\n Calcharo is presented here because Youhu's buffs matter more with Main DPS characters that do lower DMG, where Yinlin's own DMG matters more.\n\n Zhezhi Team\n\n Lingyang is presented here because Youhu's buffs matter more with Main DPS characters that do lower DMG, where Zhezhi's own DMG matters more.\n\n Mortefi Team\n\n Calculations"
+}

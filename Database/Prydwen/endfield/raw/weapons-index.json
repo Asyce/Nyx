@@ -1,0 +1,1288 @@
+{
+  "provider": "Prydwen",
+  "game": "endfield",
+  "collection": "weapons",
+  "sourcePath": "/arknights-endfield/weapons",
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "detailPagesTotal": 0,
+  "detailPagesScraped": 0,
+  "staleDetailPagesRemoved": 0,
+  "items": [
+    {
+      "id": "aggeloslayer",
+      "name": "Aggeloslayer",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-32-7240419185cc.webp",
+      "assetId": "7240419185cc",
+      "fields": {
+        "rarity": "4 ✦",
+        "type": "Polearm",
+        "baseAtk": "341",
+        "will": "+ 93",
+        "artsDmgBonus": "+ 26.00%"
+      },
+      "text": "Aggeloslayer\nRarity: 4 ✦\nType: Polearm\nBase ATK: 341\nStat 1 Boost - 9/9\nWill : + 93\nStat 2 Boost - 9/9\nArts DMG Bonus : + 26.00%\nPassive Boost - 9/9\nAfter the wielder's Battle Skill hits the enemy, ATK +33.6% for 20s . Effects of the same name cannot stack."
+    },
+    {
+      "id": "amaranthine-tassel",
+      "name": "Amaranthine Tassel",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-69-f1acc14244a5.webp",
+      "assetId": "f1acc14244a5",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Greatsword",
+        "baseAtk": "510",
+        "strength": "+ 156",
+        "atk": "+ 39%",
+        "physicalDmgBonus": "+ 25.60%"
+      },
+      "text": "Amaranthine Tassel\nRarity: 6 ✦\nType: Greatsword\nBase ATK: 510\nStat 1 Boost - 9/9\nStrength : + 156\nStat 2 Boost - 9/9\nATK : + 39%\nPassive Boost - 4/9\nPhysical DMG Bonus : + 25.60%\nWhen the wielder applies Physical Susceptibility , the wielder gains Arts Intensity +48 for 20s . When the wielder applies Crush , the wielder gains Physical DMG Dealt +[14.4% + (4.8% x Max Number of Vulnerability stacks consumed from one enemy)] for 30s .\nShow Effects"
+    },
+    {
+      "id": "ancient-canal",
+      "name": "Ancient Canal",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-22-28a6674042cd.webp",
+      "assetId": "28a6674042cd",
+      "fields": {
+        "rarity": "5 ✦",
+        "type": "Greatsword",
+        "baseAtk": "411",
+        "strength": "+ 124",
+        "artsIntensity": "+ 28"
+      },
+      "text": "Ancient Canal\nRarity: 5 ✦\nType: Greatsword\nBase ATK: 411\nStat 1 Boost - 9/9\nStrength : + 124\nStat 2 Boost - 9/9\nArts Intensity : + 62\nPassive Boost - 9/9\nArts Intensity : + 28\nAfter the wielder consumes Vulnerability stack(s), the wielder gains Physical DMG dealt +[14% x stacks consumed] for 20s . Effects of the same name cannot stack.\nShow Effects"
+    },
+    {
+      "id": "artzy-tyrannical",
+      "name": "Artzy Tyrannical",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-45-bc1f47caaaf1.webp",
+      "assetId": "bc1f47caaaf1",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Handcannon",
+        "baseAtk": "505",
+        "intellect": "+ 156",
+        "criticalRate": "+ 19.50%",
+        "cryoDmgBonus": "+ 25.60%"
+      },
+      "text": "Artzy Tyrannical\nRarity: 6 ✦\nType: Handcannon\nBase ATK: 505\nStat 1 Boost - 9/9\nIntellect : + 156\nStat 2 Boost - 9/9\nCritical Rate : + 19.50%\nPassive Boost - 4/9\nCryo DMG Bonus : + 25.60%\nAfter the wielder scores a critical hit with a Battle Skill or Combo Skill, the wielder gains Cryo DMG dealt +22.4% for 30s . Max stacks for effects of the same name: 3 . Duration of each stack is counted separately. Effect only triggers once every 0.1s ."
+    },
+    {
+      "id": "aspirant",
+      "name": "Aspirant",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-9-270c0c790924.webp",
+      "assetId": "270c0c790924",
+      "fields": {
+        "rarity": "5 ✦",
+        "type": "Sword",
+        "baseAtk": "411",
+        "agility": "+ 124",
+        "physicalDmgBonus": "+ 34.70%",
+        "ultimateDmgBonus": "+ 44.80%"
+      },
+      "text": "Aspirant\nRarity: 5 ✦\nType: Sword\nBase ATK: 411\nStat 1 Boost - 9/9\nAgility : + 124\nStat 2 Boost - 9/9\nPhysical DMG Bonus : + 34.70%\nPassive Boost - 9/9\nUltimate DMG Bonus : + 44.80%\nFor 30s after the wielder applies Lifted , the wielder gains Physical DMG dealt +33.6% during the next Ultimate cast. Max stacks for effects of the same name: 3 . Duration of each stack is counted separately. Effect only triggers once every 0.5s .\nShow Effects"
+    },
+    {
+      "id": "beacon-of-duty",
+      "name": "Beacon of Duty",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-72-7257409e7ffd.webp",
+      "assetId": "7257409e7ffd",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Polearm",
+        "baseAtk": "485",
+        "agility": "+ 156",
+        "ultimateGainEff": "+ 46%",
+        "heatDmgBonus": "+ 11.20%"
+      },
+      "text": "Beacon of Duty\nRarity: 6 ✦\nType: Polearm\nBase ATK: 485\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nUltimate Gain Eff. : + 46%\nPassive Boost - 4/9\nHeat DMG Bonus : + 11.20%\nWhen the wielder's skill applies Heat Infliction , the wielder gains Physical and Heat DMG Dealt +12.8% for 20s . When the wielder's skill applies Heat Susceptibility , the entire team gains Physical and Heat DMG Dealt +11.2% for 30s .\nShow Effects"
+    },
+    {
+      "id": "blessing-of-lustrous-carmine",
+      "name": "Blessing of Lustrous Carmine",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-70-9283863046e5.webp",
+      "assetId": "9283863046e5",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Polearm",
+        "baseAtk": "0"
+      },
+      "text": "Blessing of Lustrous Carmine\nRarity: 6 ✦\nType: Polearm\nBase ATK: 0\nStat 1 Boost - 9/9\n: +\nPassive Boost - 4/9"
+    },
+    {
+      "id": "brigands-calling",
+      "name": "Brigand's Calling",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-64-7c0cbefda221.webp",
+      "assetId": "7c0cbefda221",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Handcannon",
+        "baseAtk": "505",
+        "agility": "+ 156",
+        "attack": "+ 39%",
+        "cryoDmgBonus": "+ 25.60%"
+      },
+      "text": "Brigand's Calling\nRarity: 6 ✦\nType: Handcannon\nBase ATK: 505\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nAttack : + 39%\nPassive Boost - 4/9\nCryo DMG Bonus : + 25.60%\nWhen the wielder applies Cryo Infliction via battle skills or ultimates, the wielder gains Cryo DMG Dealt +32% for 20s .\nWhen the wielder's battle skill or ultimate applies Arts Susceptibility , the target enemy suffers Arts DMG Taken +9.6% for 20s . The two effects apply separately and do not stack with themselves.\nShow Effects"
+    },
+    {
+      "id": "chimeric-justice",
+      "name": "Chimeric Justice",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-33-8062fe254497.webp",
+      "assetId": "8062fe254497",
+      "fields": {
+        "rarity": "5 ✦",
+        "type": "Polearm",
+        "baseAtk": "411",
+        "strength": "+ 124",
+        "ultimateGainEff": "+ 37.10%",
+        "criticalRate": "+ 8.40%"
+      },
+      "text": "Chimeric Justice\nRarity: 5 ✦\nType: Polearm\nBase ATK: 411\nStat 1 Boost - 9/9\nStrength : + 124\nStat 2 Boost - 9/9\nUltimate Gain Eff. : + 37.10%\nPassive Boost - 9/9\nCritical Rate : + 8.40%\nAfter the wielder applies Vulnerability to an enemy with no Vulnerability stacks, ATK +42% for 15s . Effects of the same name cannot stack.\nShow Effects"
+    },
+    {
+      "id": "chivalric-virtues",
+      "name": "Chivalric Virtues",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-62-a0cbad2fbb68.webp",
+      "assetId": "a0cbad2fbb68",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Arts Unit",
+        "baseAtk": "485",
+        "will": "+ 156",
+        "maxHp": "+ 78.00%"
+      },
+      "text": "Chivalric Virtues\nRarity: 6 ✦\nType: Arts Unit\nBase ATK: 485\nStat 1 Boost - 9/9\nWill : + 156\nStat 2 Boost - 9/9\nMax HP : + 78.00%\nPassive Boost - 4/9\nTreatment Efficiency +16% . After the wielder gives HP Treatment with their own skill, the entire team gains ATK +14.4% for 15s . Effects of the same name cannot stack."
+    },
+    {
+      "id": "clannibal",
+      "name": "Clannibal",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-48-0155a527bae3.webp",
+      "assetId": "0155a527bae3",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Handcannon",
+        "baseAtk": "490",
+        "mainAttribute": "+ 132",
+        "artsDmgBonus": "+ 19.20%"
+      },
+      "text": "Clannibal\nRarity: 6 ✦\nType: Handcannon\nBase ATK: 490\nStat 1 Boost - 9/9\nMain Attribute : + 132\nStat 2 Boost - 9/9\nArts DMG Bonus : + 43.30%\nPassive Boost - 4/9\nArts DMG Bonus : + 19.20%\nAfter the wielder consumes an Arts Reaction, target enemy suffers Arts DMG taken +16% (for the specified element) for 15s . Effect only triggers once every 25s .\nShow Effects"
+    },
+    {
+      "id": "cohesive-traction",
+      "name": "Cohesive Traction",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-35-b147d404a760.webp",
+      "assetId": "b147d404a760",
+      "fields": {
+        "rarity": "5 ✦",
+        "type": "Polearm",
+        "baseAtk": "411",
+        "will": "+ 124",
+        "electricDmgBonus": "+ 34.70%",
+        "comboSkillDmgBonus": "+ 28.00%"
+      },
+      "text": "Cohesive Traction\nRarity: 5 ✦\nType: Polearm\nBase ATK: 411\nStat 1 Boost - 9/9\nWill : + 124\nStat 2 Boost - 9/9\nElectric DMG Bonus : + 34.70%\nPassive Boost - 9/9\nCombo Skill DMG Bonus : + 28.00%\nFor 30s after the wielder casts a Combo Skill, the wielder gains Electric DMG dealt +28% during the next Battle Skill cast. Max stacks for effects of the same name: 3 . Duration of each stack is counted separately."
+    },
+    {
+      "id": "contingent-measure",
+      "name": "Contingent Measure",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-2-1a19647c67d3.webp",
+      "assetId": "1a19647c67d3",
+      "fields": {
+        "rarity": "4 ✦",
+        "type": "Sword",
+        "baseAtk": "341",
+        "agility": "+ 93",
+        "physicalDmgBonus": "+ 26.00%"
+      },
+      "text": "Contingent Measure\nRarity: 4 ✦\nType: Sword\nBase ATK: 341\nStat 1 Boost - 9/9\nAgility : + 93\nStat 2 Boost - 9/9\nPhysical DMG Bonus : + 26.00%\nPassive Boost - 9/9\nAfter the wielder's Battle Skill hits the enemy, ATK +33.6% for 20s . Effects of the same name cannot stack."
+    },
+    {
+      "id": "darhoff-7",
+      "name": "Darhoff 7",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-18-b48b8a8184b2.webp",
+      "assetId": "b48b8a8184b2",
+      "fields": {
+        "rarity": "3 ✦",
+        "type": "Greatsword",
+        "baseAtk": "283",
+        "mainAttribute": "+ 79",
+        "flatAtk": "+ 34"
+      },
+      "text": "Darhoff 7\nRarity: 3 ✦\nType: Greatsword\nBase ATK: 283\nStat 1 Boost - 9/9\nMain Attribute : + 79\nPassive Boost - 9/9\nFlat ATK : + 34"
+    },
+    {
+      "id": "delivery-guaranteed",
+      "name": "Delivery Guaranteed",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-57-3e86879d55b0.webp",
+      "assetId": "3e86879d55b0",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Arts Unit",
+        "baseAtk": "500",
+        "will": "+ 156",
+        "ultimateGainEff": "+ 46.40%",
+        "natureDmgBonus": "+ 25.60%"
+      },
+      "text": "Delivery Guaranteed\nRarity: 6 ✦\nType: Arts Unit\nBase ATK: 500\nStat 1 Boost - 9/9\nWill : + 156\nStat 2 Boost - 9/9\nUltimate Gain Eff. : + 46.40%\nPassive Boost - 4/9\nNature DMG Bonus : + 25.60%\nAfter the wielder applies Lifted with their own Combo Skill, the team gains Arts DMG dealt +19.2% for 15s . For every enemy Lifted , the team gains bonus Arts DMG dealt +5.6% , up to a max of 16.8% . Effects of the same name cannot stack.\nShow Effects"
+    },
+    {
+      "id": "detonation-unit",
+      "name": "Detonation Unit",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-60-223a617b3102.webp",
+      "assetId": "223a617b3102",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Arts Unit",
+        "baseAtk": "490",
+        "mainAttribute": "+ 132",
+        "artsIntensity": "+ 78",
+        "secAttribute": "+ 16.00%"
+      },
+      "text": "Detonation Unit\nRarity: 6 ✦\nType: Arts Unit\nBase ATK: 490\nStat 1 Boost - 9/9\nMain Attribute : + 132\nStat 2 Boost - 9/9\nArts Intensity : + 78\nPassive Boost - 4/9\nSec. Attribute : + 16.00%\nAfter the wielder applies an Arts Burst, target enemy suffers Arts DMG taken +14.4% for 15s . Effects of the same name cannot stack.\nShow Effects"
+    },
+    {
+      "id": "dreams-of-the-starry-beach",
+      "name": "Dreams of the Starry Beach",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-58-ec431c92391a.webp",
+      "assetId": "ec431c92391a",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Arts Unit",
+        "baseAtk": "495",
+        "intellect": "+ 156",
+        "treatmentBonus": "+ 46.40%",
+        "secAttribute": "+ 25.60%"
+      },
+      "text": "Dreams of the Starry Beach\nRarity: 6 ✦\nType: Arts Unit\nBase ATK: 495\nStat 1 Boost - 9/9\nIntellect : + 156\nStat 2 Boost - 9/9\nTreatment Bonus : + 46.40%\nPassive Boost - 4/9\nSec. Attribute : + 25.60%\nAfter the wielder consumes Corrosion , target enemy suffers Arts DMG taken +16% for 25s . Effects of the same name cannot stack.\nShow Effects"
+    },
+    {
+      "id": "eminent-repute",
+      "name": "Eminent Repute",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-16-422f4ebe9134.webp",
+      "assetId": "422f4ebe9134",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Sword",
+        "baseAtk": "490",
+        "mainAttribute": "+ 132",
+        "physicalDmgBonus": "+ 43.30%",
+        "attack": "+ 16.00%"
+      },
+      "text": "Eminent Repute\nRarity: 6 ✦\nType: Sword\nBase ATK: 490\nStat 1 Boost - 9/9\nMain Attribute : + 132\nStat 2 Boost - 9/9\nPhysical DMG Bonus : + 43.30%\nPassive Boost - 4/9\nAttack : + 16.00%\nAfter the wielder consumes Vulnerability stack(s), ATK + [8% + 4% x Stacks Consumed] while other Operators in the team gain half of this buff for 20s . Effects of the same name cannot stack.\nShow Effects"
+    },
+    {
+      "id": "exemplar",
+      "name": "Exemplar",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-27-86f77e0b50d9.webp",
+      "assetId": "86f77e0b50d9",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Greatsword",
+        "baseAtk": "500",
+        "mainAttribute": "+ 132",
+        "attack": "+ 39.00%",
+        "physicalDmgBonus": "+ 16.00%"
+      },
+      "text": "Exemplar\nRarity: 6 ✦\nType: Greatsword\nBase ATK: 500\nStat 1 Boost - 9/9\nMain Attribute : + 132\nStat 2 Boost - 9/9\nAttack : + 39.00%\nPassive Boost - 4/9\nPhysical DMG Bonus : + 16.00%\nAfter the wielder's Battle Skill or Ultimate hits the enemy, the wielder gains Physical DMG dealt +16% for 30s . Max stacks for effects of the same name: 3 . Duration of each stack is counted separately. Effect only triggers once every 0.1s ."
+    },
+    {
+      "id": "finchaser-3-0",
+      "name": "Finchaser 3.0",
+      "kind": "weapons",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.0"
+      ],
+      "art": "Prydwen/endfield/assets/weapons/weapon-6-f03041b376ed.webp",
+      "assetId": "f03041b376ed",
+      "fields": {
+        "rarity": "5 ✦",
+        "type": "Sword",
+        "baseAtk": "411",
+        "strength": "+ 124",
+        "cryoDmgBonus": "+ 34.70%",
+        "attack": "+ 14.00%"
+      },
+      "text": "Finchaser 3.0\nRarity: 5 ✦\nType: Sword\nBase ATK: 411\nStat 1 Boost - 9/9\nStrength : + 124\nStat 2 Boost - 9/9\nCryo DMG Bonus : + 34.70%\nPassive Boost - 9/9\nAttack : + 14.00%\nAfter the wielder's Battle Skill applies Solidification , target enemy suffers Cryo DMG taken +19.6% for 15s .\nShow Effects"
+    },
+    {
+      "id": "finishing-call",
+      "name": "Finishing Call",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-23-3d07e1c856e3.webp",
+      "assetId": "3d07e1c856e3",
+      "fields": {
+        "rarity": "5 ✦",
+        "type": "Greatsword",
+        "baseAtk": "411",
+        "strength": "+ 124",
+        "maxHp": "+ 62.40%",
+        "secAttribute": "+ 14.00%"
+      },
+      "text": "Finishing Call\nRarity: 5 ✦\nType: Greatsword\nBase ATK: 411\nStat 1 Boost - 9/9\nStrength : + 124\nStat 2 Boost - 9/9\nMax HP : + 62.40%\nPassive Boost - 9/9\nSec. Attribute : + 14.00%\nCombo Skill HP Treatment effect +56% ."
+    },
+    {
+      "id": "flickers-in-the-mist",
+      "name": "Flickers in the Mist",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-67-f78876ac577c.webp",
+      "assetId": "f78876ac577c",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Arts Unit",
+        "baseAtk": "490",
+        "will": "+ 156",
+        "electricDmgBonus": "+ 43.30%",
+        "atk": "+ 11.20%",
+        "maxStacksForEffectsOfTheSameName": "3 ."
+      },
+      "text": "Flickers in the Mist\nRarity: 6 ✦\nType: Arts Unit\nBase ATK: 490\nStat 1 Boost - 9/9\nWill : + 156\nStat 2 Boost - 9/9\nElectric DMG Bonus : + 43.30%\nPassive Boost - 4/9\nATK : + 11.20%\nWhen the wielder gains Electric Amp the wielder also gains Electric DMG Dealt +8.8% for 30s .\nMax stacks for effects of the same name: 3 .\nDuration of each stack is counted separately.\nThis effect only triggers once every 0.1s .\nShow Effects"
+    },
+    {
+      "id": "fluorescent-roc",
+      "name": "Fluorescent Roc",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-51-10d9047d1563.webp",
+      "assetId": "10d9047d1563",
+      "fields": {
+        "rarity": "4 ✦",
+        "type": "Arts Unit",
+        "baseAtk": "341",
+        "will": "+ 93",
+        "attack": "+ 23.40%"
+      },
+      "text": "Fluorescent Roc\nRarity: 4 ✦\nType: Arts Unit\nBase ATK: 341\nStat 1 Boost - 9/9\nWill : + 93\nStat 2 Boost - 9/9\nAttack : + 23.40%\nPassive Boost - 9/9\nAfter the wielder's Battle Skill hits the enemy, ATK +33.6% for 20s . Effects of the same name cannot stack."
+    },
+    {
+      "id": "forgeborn-scathe",
+      "name": "Forgeborn Scathe",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-12-aabe53d3a9d2.webp",
+      "assetId": "aabe53d3a9d2",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Sword",
+        "baseAtk": "510",
+        "intellect": "+ 156",
+        "attack": "+ 39.00%",
+        "heatDmgBonus": "+ 25.60%"
+      },
+      "text": "Forgeborn Scathe\nRarity: 6 ✦\nType: Sword\nBase ATK: 510\nStat 1 Boost - 9/9\nIntellect : + 156\nStat 2 Boost - 9/9\nAttack : + 39.00%\nPassive Boost - 4/9\nHeat DMG Bonus : + 25.60%\nAfter the wielder casts an Ultimate, the wielder gains Basic Attack DMG dealt +120% for 20s . Effects of the same name cannot stack."
+    },
+    {
+      "id": "former-finery",
+      "name": "Former Finery",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-28-359e0e6c401c.webp",
+      "assetId": "359e0e6c401c",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Greatsword",
+        "baseAtk": "495",
+        "will": "+ 156",
+        "maxHp": "+ 78.00%"
+      },
+      "text": "Former Finery\nRarity: 6 ✦\nType: Greatsword\nBase ATK: 495\nStat 1 Boost - 9/9\nWill : + 156\nStat 2 Boost - 9/9\nMax HP : + 78.00%\nPassive Boost - 4/9\nTreatment Efficiency +16% . When a Protected Operator takes DMG, the wielder restores the said Operator's HP by [134 + Will x 1.12] . Effect only triggers once every 15s ."
+    },
+    {
+      "id": "fortmaker",
+      "name": "Fortmaker",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-5-72e336f8cf2f.webp",
+      "assetId": "72e336f8cf2f",
+      "fields": {
+        "rarity": "5 ✦",
+        "type": "Sword",
+        "baseAtk": "411",
+        "intellect": "+ 124",
+        "ultimateGainEff": "+ 37.10%",
+        "attack": "+ 14.00%",
+        "artsIntensity": "+ 70"
+      },
+      "text": "Fortmaker\nRarity: 5 ✦\nType: Sword\nBase ATK: 411\nStat 1 Boost - 9/9\nIntellect : + 124\nStat 2 Boost - 9/9\nUltimate Gain Eff. : + 37.10%\nPassive Boost - 9/9\nAttack : + 14.00%\nArts Intensity : + 70"
+    },
+    {
+      "id": "freedom-to-proselytize",
+      "name": "Freedom to Proselytize",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-55-19039d768fb2.webp",
+      "assetId": "19039d768fb2",
+      "fields": {
+        "rarity": "5 ✦",
+        "type": "Arts Unit",
+        "baseAtk": "411",
+        "will": "+ 124",
+        "treatmentBonus": "+ 37.10%",
+        "mainAttribute": "+ 14.00%"
+      },
+      "text": "Freedom to Proselytize\nRarity: 5 ✦\nType: Arts Unit\nBase ATK: 411\nStat 1 Boost - 9/9\nWill : + 124\nStat 2 Boost - 9/9\nTreatment Bonus : + 37.10%\nPassive Boost - 9/9\nMain Attribute : + 14.00%\nWhen the wielder restores HP with their own Battle Skill, the Controlled Operator is restored for another [168 + Will x 1.4] Effect only triggers once every 15s ."
+    },
+    {
+      "id": "glorious-memory",
+      "name": "Glorious Memory",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-66-1ab42b505330.webp",
+      "assetId": "1ab42b505330",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Sword",
+        "baseAtk": "490",
+        "agility": "+ 156",
+        "criticalRate": "+ 19.50%",
+        "atk": "+ 11.20%",
+        "maxStacksForEffectsOfTheSameName": "3 . Duration of each stack is counted separately. Effect is only triggered once every 0.5s ."
+      },
+      "text": "Glorious Memory\nRarity: 6 ✦\nType: Sword\nBase ATK: 490\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nCritical Rate : + 19.50%\nPassive Boost - 4/9\nATK : + 11.20%\nWhen the wielder's skill applies Vulnerability , during the next ultimate cast within 30s , the wielder gains DMG Dealt +19.2% .\nMax stacks for effects of the same name: 3 . Duration of each stack is counted separately. Effect is only triggered once every 0.5s .\nShow Effects"
+    },
+    {
+      "id": "grand-vision",
+      "name": "Grand Vision",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-10-6213098755db.webp",
+      "assetId": "6213098755db",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Sword",
+        "baseAtk": "500",
+        "agility": "+ 156",
+        "attack": "+ 39.00%",
+        "artsIntensity": "+ 48"
+      },
+      "text": "Grand Vision\nRarity: 6 ✦\nType: Sword\nBase ATK: 500\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nAttack : + 39.00%\nPassive Boost - 4/9\nArts Intensity : + 48\nFor 20s after the wielder applies Originium Crystals or Solidification the wielder gains Physical DMG dealt +57.6% during the next Battle Skill or Ultimate cast. Effects of the same name cannot stack.\nShow Effects"
+    },
+    {
+      "id": "home-longing",
+      "name": "Home Longing",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-65-e8b472018de9.webp",
+      "assetId": "e8b472018de9",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Handcannon",
+        "baseAtk": "490",
+        "agility": "+ 156",
+        "cryoDmgDealt": "+ 43.33%",
+        "atk": "+ 11.20%"
+      },
+      "text": "Home Longing\nRarity: 6 ✦\nType: Handcannon\nBase ATK: 490\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nCryo DMG Dealt : + 43.33%\nPassive Boost - 4/9\nATK : + 11.20%\nFor 20s after the wielder casts a combo skill, the wielder's next battle skill gains Cryo and Nature DMG Dealt +12.8% . Max stacks for effects of the same name: 2 . Duration of each stack is counted separately."
+    },
+    {
+      "id": "howling-guard",
+      "name": "Howling Guard",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-40-05900d261057.webp",
+      "assetId": "05900d261057",
+      "fields": {
+        "rarity": "4 ✦",
+        "type": "Handcannon",
+        "baseAtk": "341",
+        "intellect": "+ 93",
+        "attack": "+ 23.40%"
+      },
+      "text": "Howling Guard\nRarity: 4 ✦\nType: Handcannon\nBase ATK: 341\nStat 1 Boost - 9/9\nIntellect : + 93\nStat 2 Boost - 9/9\nAttack : + 23.40%\nPassive Boost - 9/9\nAfter the wielder's Battle Skill hits the enemy, ATK +33.6% for 20s . Effects of the same name cannot stack."
+    },
+    {
+      "id": "hypernova-auto",
+      "name": "Hypernova Auto",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-50-32bee329cfb6.webp",
+      "assetId": "32bee329cfb6",
+      "fields": {
+        "rarity": "4 ✦",
+        "type": "Arts Unit",
+        "baseAtk": "341",
+        "intellect": "+ 93",
+        "artsDmgBonus": "+ 26.00%"
+      },
+      "text": "Hypernova Auto\nRarity: 4 ✦\nType: Arts Unit\nBase ATK: 341\nStat 1 Boost - 9/9\nIntellect : + 93\nStat 2 Boost - 9/9\nArts DMG Bonus : + 26.00%\nPassive Boost - 9/9\nWhen the wielder's HP is above 80% , ATK +42% ."
+    },
+    {
+      "id": "industry-0-1",
+      "name": "Industry 0.1",
+      "kind": "weapons",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "0.1"
+      ],
+      "art": "Prydwen/endfield/assets/weapons/weapon-19-f87b5e806d4b.webp",
+      "assetId": "f87b5e806d4b",
+      "fields": {
+        "rarity": "4 ✦",
+        "type": "Greatsword",
+        "baseAtk": "341",
+        "strength": "+ 93",
+        "attack": "+ 23.40%"
+      },
+      "text": "Industry 0.1\nRarity: 4 ✦\nType: Greatsword\nBase ATK: 341\nStat 1 Boost - 9/9\nStrength : + 93\nStat 2 Boost - 9/9\nAttack : + 23.40%\nPassive Boost - 9/9\nAfter the wielder's Battle Skill hits the enemy, ATK +33.6% for 20s . Effects of the same name cannot stack."
+    },
+    {
+      "id": "jet",
+      "name": "JET",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-38-4e51d4780fd1.webp",
+      "assetId": "4e51d4780fd1",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Polearm",
+        "baseAtk": "500",
+        "mainAttribute": "+ 132",
+        "attack": "+ 39.00%",
+        "artsDmgBonus": "+ 19.20%"
+      },
+      "text": "JET\nRarity: 6 ✦\nType: Polearm\nBase ATK: 500\nStat 1 Boost - 9/9\nMain Attribute : + 132\nStat 2 Boost - 9/9\nAttack : + 39.00%\nPassive Boost - 4/9\nArts DMG Bonus : + 19.20%\nAfter the wielder casts a Battle Skill, the wielder gains Arts DMG dealt +19.2% for 15s . After the wielder casts a Combo Skill, Arts DMG dealt +19.2% for 15s . The two effects apply separately and do not stack with themselves.\nShow Effects"
+    },
+    {
+      "id": "jiminy-12",
+      "name": "Jiminy 12",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-49-c98ac52bda7a.webp",
+      "assetId": "c98ac52bda7a",
+      "fields": {
+        "rarity": "3 ✦",
+        "type": "Arts Unit",
+        "baseAtk": "283",
+        "mainAttribute": "+ 79",
+        "flatAtk": "+ 34"
+      },
+      "text": "Jiminy 12\nRarity: 3 ✦\nType: Arts Unit\nBase ATK: 283\nStat 1 Boost - 9/9\nMain Attribute : + 79\nPassive Boost - 9/9\nFlat ATK : + 34"
+    },
+    {
+      "id": "khravengger",
+      "name": "Khravengger",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-26-f2a006932fe1.webp",
+      "assetId": "f2a006932fe1",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Greatsword",
+        "baseAtk": "505",
+        "strength": "+ 156",
+        "attack": "+ 39.00%",
+        "allSkillDmgBonus": "+ 32.00%"
+      },
+      "text": "Khravengger\nRarity: 6 ✦\nType: Greatsword\nBase ATK: 505\nStat 1 Boost - 9/9\nStrength : + 156\nStat 2 Boost - 9/9\nAttack : + 39.00%\nPassive Boost - 4/9\nAll Skill DMG Bonus : + 32.00%\nWhen the wielder's Battle Skill applies Cryo Infliction , the wielder gains Cryo DMG dealt +16% for 15s . When the wielder deals Combo Skill DMG to an enemy with Cryo Infliction , the wielder gains Cryo DMG dealt +32% for 15s . The two effects apply seperately and do not stack with themselves.\nShow Effects"
+    },
+    {
+      "id": "lone-barge",
+      "name": "Lone Barge",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-68-a67f3a59ec6a.webp",
+      "assetId": "a67f3a59ec6a",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Arts Unit",
+        "baseAtk": "0",
+        "will": "+ 156",
+        "atk": "+ 39%",
+        "electricDmgBonus": "+ 25.60%"
+      },
+      "text": "Lone Barge\nRarity: 6 ✦\nType: Arts Unit\nBase ATK: 0\nStat 1 Boost - 9/9\nWill : + 156\nStat 2 Boost - 9/9\nATK : + 39%\nPassive Boost - 4/9\nElectric DMG Bonus : + 25.60%\nWhen the wielder's battle skill consumes Arts Reactions, the wielder gains Battle Skill Electric DMG Dealt +32% for 20s .\nThis effect can reach 2 stacks.\nDuration of each stack is counted separately.\nThis effect only triggers once every 0.1s .\nAfter the wielder casts an ultimate, the wielder gains Battle Skill Electric DMG Dealt +64% for 25s . This effect cannot stack"
+    },
+    {
+      "id": "long-road",
+      "name": "Long Road",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-41-1f503a74851d.webp",
+      "assetId": "1f503a74851d",
+      "fields": {
+        "rarity": "4 ✦",
+        "type": "Handcannon",
+        "baseAtk": "341",
+        "strength": "+ 93",
+        "artsDmgBonus": "+ 26.00%"
+      },
+      "text": "Long Road\nRarity: 4 ✦\nType: Handcannon\nBase ATK: 341\nStat 1 Boost - 9/9\nStrength : + 93\nStat 2 Boost - 9/9\nArts DMG Bonus : + 26.00%\nPassive Boost - 9/9\nAfter the wielder casts a Combo Skill, ATK +33.6% for 20s . Effects of the same name cannot stack."
+    },
+    {
+      "id": "lupine-scarlet",
+      "name": "Lupine Scarlet",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-63-69501df96038.webp",
+      "assetId": "69501df96038",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Sword",
+        "baseAtk": "505",
+        "agility": "+ 156",
+        "criticalRate": "+ 19.50%",
+        "atk": "+ 25.60%"
+      },
+      "text": "Lupine Scarlet\nRarity: 6 ✦\nType: Sword\nBase ATK: 505\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nCritical Rate : + 19.50%\nPassive Boost - 4/9\nATK : + 25.60%\nAfter the wielder's skill deals Critical DMG, the wielder gains 1 stack of Wolven Blood that grants Physical and Heat DMG Dealt +1.6% . Wolven Blood can reach 16 stacks. After reaching 16 stacks, the wielder gains another Physical and Heat DMG Dealt +38.4% for 20s . After the Dealt duration ends, all Wolven Blood stacks are removed."
+    },
+    {
+      "id": "monaihe",
+      "name": "Monaihe",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-53-9d6e35fac46f.webp",
+      "assetId": "9d6e35fac46f",
+      "fields": {
+        "rarity": "5 ✦",
+        "type": "Arts Unit",
+        "baseAtk": "411",
+        "will": "+ 124",
+        "ultimateGainEff": "+ 37.10%",
+        "mainAttribute": "+ 14.00%",
+        "artsIntensity": "+ 70"
+      },
+      "text": "Monaihe\nRarity: 5 ✦\nType: Arts Unit\nBase ATK: 411\nStat 1 Boost - 9/9\nWill : + 124\nStat 2 Boost - 9/9\nUltimate Gain Eff. : + 37.10%\nPassive Boost - 9/9\nMain Attribute : + 14.00%\nArts Intensity : + 70"
+    },
+    {
+      "id": "mountain-bearer",
+      "name": "Mountain Bearer",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-36-4edc630595bb.webp",
+      "assetId": "4edc630595bb",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Polearm",
+        "baseAtk": "500",
+        "agility": "+ 156",
+        "physicalDmgBonus": "+ 43.30%"
+      },
+      "text": "Mountain Bearer\nRarity: 6 ✦\nType: Polearm\nBase ATK: 500\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nPhysical DMG Bonus : + 43.30%\nPassive Boost - 4/9\nAgainst Vulnerability enemies, the wielder gains DMG dealt +32% . When the wielder's Battle Skill applies Vulnerability , the wielder gains All Attributes +12.8% for 15s . When the wielder's Battle Skill applies Physical Susceptibility , the wielder gains all attributes +12.8% for 15 s . Max stacks for effects of the same name: 2 . Duration of each stack is counted separately. Effect only triggers once every 0.1s .\nShow Effects"
+    },
+    {
+      "id": "navigator",
+      "name": "Navigator",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-46-04502e5e808b.webp",
+      "assetId": "04502e5e808b",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Handcannon",
+        "baseAtk": "490",
+        "intellect": "+ 156",
+        "cryoDmgBonus": "+ 43.30%",
+        "criticalRate": "+ 5.60%"
+      },
+      "text": "Navigator\nRarity: 6 ✦\nType: Handcannon\nBase ATK: 490\nStat 1 Boost - 9/9\nIntellect : + 156\nStat 2 Boost - 9/9\nCryo DMG Bonus : + 43.30%\nPassive Boost - 4/9\nCritical Rate : + 5.60%\nWhen Solidification or Corrosion is applied to enemies, the wielder gains Cryo DMG dealt and Nature DMG dealt +5.6% , and Critical Rate +3.2% for 15s . If this effect is triggered by the wielder, double the increase gained. Effects of the same name cannot stack.\nShow Effects"
+    },
+    {
+      "id": "never-rest",
+      "name": "Never Rest",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-11-4b15562a4af5.webp",
+      "assetId": "4b15562a4af5",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Sword",
+        "baseAtk": "500",
+        "will": "+ 156",
+        "attack": "+ 39.00%",
+        "physicalDmgBonus": "+ 25.60%"
+      },
+      "text": "Never Rest\nRarity: 6 ✦\nType: Sword\nBase ATK: 500\nStat 1 Boost - 9/9\nWill : + 156\nStat 2 Boost - 9/9\nAttack : + 39.00%\nPassive Boost - 4/9\nPhysical DMG Bonus : + 25.60%\nAfter the wielder recovers SP with their own skills, the wielder gains Physical DMG dealt +8% while other Operators in the team gain Physical DMG dealt +4% for 30s . Max stacks for effects of the same name: 5 . Duration of each stack is counted separately. Effect only triggers once every 0.1s ."
+    },
+    {
+      "id": "obj-arts-identifier",
+      "name": "OBJ Arts Identifier",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-56-053829fda295.webp",
+      "assetId": "053829fda295",
+      "fields": {
+        "rarity": "5 ✦",
+        "type": "Arts Unit",
+        "baseAtk": "411",
+        "intellect": "+ 124",
+        "artsIntensity": "+ 62",
+        "maxHp": "+ 28.00%"
+      },
+      "text": "OBJ Arts Identifier\nRarity: 5 ✦\nType: Arts Unit\nBase ATK: 411\nStat 1 Boost - 9/9\nIntellect : + 124\nStat 2 Boost - 9/9\nArts Intensity : + 62\nPassive Boost - 9/9\nMax HP : + 28.00%\nAfter the wielder applies Arts Burst or Physical Status with their own Combo Skill, the entire team gains Heat DMG dealt and Electric DMG dealt +22.4% for 15s . Effects of the same name cannot stack.\nShow Effects"
+    },
+    {
+      "id": "obj-edge-of-lightness",
+      "name": "OBJ Edge of Lightness",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-8-26984d7fa028.webp",
+      "assetId": "26984d7fa028",
+      "fields": {
+        "rarity": "5 ✦",
+        "type": "Sword",
+        "baseAtk": "411",
+        "agility": "+ 124",
+        "attack": "+ 31.20%",
+        "secAttribute": "+ 14.00%"
+      },
+      "text": "OBJ Edge of Lightness\nRarity: 5 ✦\nType: Sword\nBase ATK: 411\nStat 1 Boost - 9/9\nAgility : + 124\nStat 2 Boost - 9/9\nAttack : + 31.20%\nPassive Boost - 9/9\nSec. Attribute : + 14.00%\nAfter the wielder recovers SP by their own skill, the entire team gains Heat DMG dealt and Electric DMG dealt +8.4% for 20s . Max stacks for effects of the same name: 3 . Duration of each stack is counted separately."
+    },
+    {
+      "id": "obj-heavy-burden",
+      "name": "OBJ Heavy Burden",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-24-69ef1a59a6ce.webp",
+      "assetId": "69ef1a59a6ce",
+      "fields": {
+        "rarity": "5 ✦",
+        "type": "Greatsword",
+        "baseAtk": "411",
+        "strength": "+ 124",
+        "maxHp": "+ 62.40%",
+        "secAttribute": "+ 14.00%"
+      },
+      "text": "OBJ Heavy Burden\nRarity: 5 ✦\nType: Greatsword\nBase ATK: 411\nStat 1 Boost - 9/9\nStrength : + 124\nStat 2 Boost - 9/9\nMax HP : + 62.40%\nPassive Boost - 9/9\nSec. Attribute : + 14.00%\nAfter the wielder applies Knocked Down or Weakened , DEF +50.4% for 15s . Effects of the same name cannot stack.\nShow Effects"
+    },
+    {
+      "id": "obj-razohorn",
+      "name": "OBJ Razohorn",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-34-9c5294012ced.webp",
+      "assetId": "9c5294012ced",
+      "fields": {
+        "rarity": "5 ✦",
+        "type": "Polearm",
+        "baseAtk": "411",
+        "will": "+ 124",
+        "physicalDmgBonus": "+ 34.70%"
+      },
+      "text": "OBJ Razohorn\nRarity: 5 ✦\nType: Polearm\nBase ATK: 411\nStat 1 Boost - 9/9\nWill : + 124\nStat 2 Boost - 9/9\nPhysical DMG Bonus : + 34.70%\nPassive Boost - 9/9\nTo enemies with Cryo Infliction or Solidification , the wielder gains DMG dealt +22.4% . After consuming Solidification , ATK +33.6% for 15s . Effects of the same name cannot stack.\nShow Effects"
+    },
+    {
+      "id": "obj-velocitous",
+      "name": "OBJ Velocitous",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-43-1c1e8db53162.webp",
+      "assetId": "1c1e8db53162",
+      "fields": {
+        "rarity": "5 ✦",
+        "type": "Handcannon",
+        "baseAtk": "411",
+        "agility": "+ 124",
+        "ultimateGainEff": "+ 37.10%",
+        "attack": "+ 14.00%"
+      },
+      "text": "OBJ Velocitous\nRarity: 5 ✦\nType: Handcannon\nBase ATK: 411\nStat 1 Boost - 9/9\nAgility : + 124\nStat 2 Boost - 9/9\nUltimate Gain Eff. : + 37.10%\nPassive Boost - 9/9\nAttack : + 14.00%\nAfter the wielder consumes an Arts Infliction , the wielder gains Nature DMG dealt +[14% x Stacks Consumed] for 20s . Effects of the same name cannot stack.\nShow Effects"
+    },
+    {
+      "id": "oblivion",
+      "name": "Oblivion",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-61-3d8cd2218ea9.webp",
+      "assetId": "3d8cd2218ea9",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Arts Unit",
+        "baseAtk": "495",
+        "intellect": "+ 156",
+        "artsDmgBonus": "+ 43.30%",
+        "criticalRate": "+ 8.00%"
+      },
+      "text": "Oblivion\nRarity: 6 ✦\nType: Arts Unit\nBase ATK: 495\nStat 1 Boost - 9/9\nIntellect : + 156\nStat 2 Boost - 9/9\nArts DMG Bonus : + 43.30%\nPassive Boost - 4/9\nCritical Rate : + 8.00%\nAfter the wielder casts an Ultimate, the wielder gains Arts DMG dealt +38.4% for 15s . After the wielder casts a Combo Skill, the wielder gains Arts DMG dealt +19.2% for 15s . The two effects apply separately and do not stack with themselves.\nShow Effects"
+    },
+    {
+      "id": "opero-77",
+      "name": "Opero 77",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-30-ad2b59195cff.webp",
+      "assetId": "ad2b59195cff",
+      "fields": {
+        "rarity": "3 ✦",
+        "type": "Polearm",
+        "baseAtk": "283",
+        "mainAttribute": "+ 79",
+        "flatAtk": "+ 34"
+      },
+      "text": "Opero 77\nRarity: 3 ✦\nType: Polearm\nBase ATK: 283\nStat 1 Boost - 9/9\nMain Attribute : + 79\nPassive Boost - 9/9\nFlat ATK : + 34"
+    },
+    {
+      "id": "opus-etch-figure",
+      "name": "Opus: Etch Figure",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-59-d4ff015a8da1.webp",
+      "assetId": "d4ff015a8da1",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Arts Unit",
+        "baseAtk": "485",
+        "will": "+ 156",
+        "natureDmgBonus": "+ 43.30%",
+        "attack": "+ 11.20%"
+      },
+      "text": "Opus: Etch Figure\nRarity: 6 ✦\nType: Arts Unit\nBase ATK: 485\nStat 1 Boost - 9/9\nWill : + 156\nStat 2 Boost - 9/9\nNature DMG Bonus : + 43.30%\nPassive Boost - 4/9\nAttack : + 11.20%\nAfter the wielder applies a Nature Infliction with their own Battle Skill, the team gains Arts DMG dealt +8% for 15s . For every enemy suffering from Nature Infliction applied by the said Battle Skill, the team gains Bonus Arts DMG dealt +3.2% , up to a max of +9.6% . Effects of the same name cannot stack.\nShow Effects"
+    },
+    {
+      "id": "opus-the-living",
+      "name": "Opus: The Living",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-42-fdd90ff9ad3f.webp",
+      "assetId": "fdd90ff9ad3f",
+      "fields": {
+        "rarity": "5 ✦",
+        "type": "Handcannon",
+        "baseAtk": "411",
+        "agility": "+ 124",
+        "artsDmgBonus": "+ 34.70%",
+        "criticalRate": "+ 8.40%"
+      },
+      "text": "Opus: The Living\nRarity: 5 ✦\nType: Handcannon\nBase ATK: 411\nStat 1 Boost - 9/9\nAgility : + 124\nStat 2 Boost - 9/9\nArts DMG Bonus : + 34.70%\nPassive Boost - 9/9\nCritical Rate : + 8.40%\nAfter the wielder applies an Arts Reaction, ATK 21% for 20s . Max stacks for effects of the same name: 2 . Duration of each stack is counted separately. Effect only triggers once every 0.1s ."
+    },
+    {
+      "id": "pathfinders-beacon",
+      "name": "Pathfinder's Beacon",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-31-674e135e66be.webp",
+      "assetId": "674e135e66be",
+      "fields": {
+        "rarity": "4 ✦",
+        "type": "Polearm",
+        "baseAtk": "341",
+        "agility": "+ 93",
+        "attack": "+ 23.40%"
+      },
+      "text": "Pathfinder's Beacon\nRarity: 4 ✦\nType: Polearm\nBase ATK: 341\nStat 1 Boost - 9/9\nAgility : + 93\nStat 2 Boost - 9/9\nAttack : + 23.40%\nPassive Boost - 9/9\nWhen the wielder's HP is above 80% , ATK + 42% ."
+    },
+    {
+      "id": "peco-5",
+      "name": "Peco 5",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-39-7b8228074f48.webp",
+      "assetId": "7b8228074f48",
+      "fields": {
+        "rarity": "3 ✦",
+        "type": "Handcannon",
+        "baseAtk": "283",
+        "mainAttribute": "+ 79",
+        "flatAtk": "+ 34"
+      },
+      "text": "Peco 5\nRarity: 3 ✦\nType: Handcannon\nBase ATK: 283\nStat 1 Boost - 9/9\nMain Attribute : + 79\nPassive Boost - 9/9\nFlat ATK : + 34"
+    },
+    {
+      "id": "phantom-pain",
+      "name": "Phantom Pain",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-71-02dce8a3fb8a.webp",
+      "assetId": "02dce8a3fb8a",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Greatsword",
+        "baseAtk": "490",
+        "strength": "+ 156",
+        "artsIntensity": "+ 78",
+        "physicalDmgBonus": "+ 11.20%"
+      },
+      "text": "Phantom Pain\nRarity: 6 ✦\nType: Greatsword\nBase ATK: 490\nStat 1 Boost - 9/9\nStrength : + 156\nStat 2 Boost - 9/9\nArts Intensity : + 78\nPassive Boost - 4/9\nPhysical DMG Bonus : + 11.20%\nWhen the wielder casts battle skills or combo skills, the wielder gains Physical DMG Dealt +15.4% for 20s ."
+    },
+    {
+      "id": "quencher",
+      "name": "Quencher",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-20-ab8b6c4243e8.webp",
+      "assetId": "ab8b6c4243e8",
+      "fields": {
+        "rarity": "4 ✦",
+        "type": "Greatsword",
+        "baseAtk": "341",
+        "will": "+ 93",
+        "maxHp": "+ 46.80%"
+      },
+      "text": "Quencher\nRarity: 4 ✦\nType: Greatsword\nBase ATK: 341\nStat 1 Boost - 9/9\nWill : + 93\nStat 2 Boost - 9/9\nMax HP : + 46.80%\nPassive Boost - 9/9\nAfter the wielder performs a Final Strike on the enemy, ATK +33.6% for 10s . Effects of the same name cannot stack.\nShow Effects"
+    },
+    {
+      "id": "rapid-ascent",
+      "name": "Rapid Ascent",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-14-3e8807087807.webp",
+      "assetId": "3e8807087807",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Sword",
+        "baseAtk": "495",
+        "mainAttribute": "+ 132",
+        "criticalRate": "+ 19.50%"
+      },
+      "text": "Rapid Ascent\nRarity: 6 ✦\nType: Sword\nBase ATK: 495\nStat 1 Boost - 9/9\nMain Attribute : + 132\nStat 2 Boost - 9/9\nCritical Rate : + 19.50%\nPassive Boost - 4/9\nBattle Skills and Ultimates gain Physical DMG dealt +24% . Against staggered enemies, Battle Skills and Ultimates also gain DMG dealt +56% ."
+    },
+    {
+      "id": "rational-farewell",
+      "name": "Rational Farewell",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-44-1fde38906311.webp",
+      "assetId": "1fde38906311",
+      "fields": {
+        "rarity": "5 ✦",
+        "type": "Handcannon",
+        "baseAtk": "411",
+        "strength": "+ 124",
+        "heatDmgBonus": "+ 34.70%",
+        "battleSkillDmg": "+ 28.00%"
+      },
+      "text": "Rational Farewell\nRarity: 5 ✦\nType: Handcannon\nBase ATK: 411\nStat 1 Boost - 9/9\nStrength : + 124\nStat 2 Boost - 9/9\nHeat DMG Bonus : + 34.70%\nPassive Boost - 9/9\nBattle Skill DMG : + 28.00%\nAfter the wielder's combo skil applies Arts Burst or Combusted , ATK +44.8% for 15s . Effects of the same name cannot stack.\nShow Effects"
+    },
+    {
+      "id": "seeker-of-dark-lung",
+      "name": "Seeker of Dark Lung",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-21-adf7eecd048b.webp",
+      "assetId": "adf7eecd048b",
+      "fields": {
+        "rarity": "5 ✦",
+        "type": "Greatsword",
+        "baseAtk": "411",
+        "strength": "+ 124",
+        "ultimateGainEff": "+ 37.10%",
+        "mainAttribute": "+ 14.00%"
+      },
+      "text": "Seeker of Dark Lung\nRarity: 5 ✦\nType: Greatsword\nBase ATK: 411\nStat 1 Boost - 9/9\nStrength : + 124\nStat 2 Boost - 9/9\nUltimate Gain Eff. : + 37.10%\nPassive Boost - 9/9\nMain Attribute : + 14.00%\nAfter the wielder applies an Arts Burst, ATK +16.8% for 30s . Max stacks for effects of the same name: 3 . Duration of each stack is counted separately. Effect only triggers once every 0.1s ."
+    },
+    {
+      "id": "stanza-of-memorials",
+      "name": "Stanza of Memorials",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-52-bd87bdf5874f.webp",
+      "assetId": "bd87bdf5874f",
+      "fields": {
+        "rarity": "5 ✦",
+        "type": "Arts Unit",
+        "baseAtk": "411",
+        "intellect": "+ 124",
+        "attack": "+ 31.20%",
+        "maxHp": "+ 28.00%"
+      },
+      "text": "Stanza of Memorials\nRarity: 5 ✦\nType: Arts Unit\nBase ATK: 411\nStat 1 Boost - 9/9\nIntellect : + 124\nStat 2 Boost - 9/9\nAttack : + 31.20%\nPassive Boost - 9/9\nMax HP : + 28.00%\nAfter the wielder casts an Ultimate, Operators whose elements differ from the wielder gain ATK +22.4% for 20s . Effects of the same name cannot stack."
+    },
+    {
+      "id": "sundered-prince",
+      "name": "Sundered Prince",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-29-5fdc05b5d065.webp",
+      "assetId": "5fdc05b5d065",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Greatsword",
+        "baseAtk": "490",
+        "strength": "+ 156",
+        "criticalRate": "+ 19.50%"
+      },
+      "text": "Sundered Prince\nRarity: 6 ✦\nType: Greatsword\nBase ATK: 490\nStat 1 Boost - 9/9\nStrength : + 156\nStat 2 Boost - 9/9\nCritical Rate : + 19.50%\nPassive Boost - 4/9\nAfter the wielder performs a Final Strike on the enemy, ATK +16% for 8s . If the wielder is also the Controlled Operator, double the ATK increase gained and buff the Final Strike so that it deals Stagger +19.2% to the enemy. Effects of the same name cannot stack.\nShow Effects"
+    },
+    {
+      "id": "sundering-steel",
+      "name": "Sundering Steel",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-4-5885ce319ff1.webp",
+      "assetId": "5885ce319ff1",
+      "fields": {
+        "rarity": "5 ✦",
+        "type": "Sword",
+        "baseAtk": "411",
+        "agility": "+ 124",
+        "physicalDmgBonus": "+ 34.70%",
+        "attack": "+ 14.00%"
+      },
+      "text": "Sundering Steel\nRarity: 5 ✦\nType: Sword\nBase ATK: 411\nStat 1 Boost - 9/9\nAgility : + 124\nStat 2 Boost - 9/9\nPhysical DMG Bonus : + 34.70%\nPassive Boost - 9/9\nAttack : + 14.00%\nAfter the wielder deals a Physical Status , ATK +21% for 20s . Max stacks for effects of the same name: 2 . Duration of each stack is counted separately. Effect only triggers once every 0.1s ."
+    },
+    {
+      "id": "tarr-11",
+      "name": "Tarr 11",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-1-6fe60a7f8d74.webp",
+      "assetId": "6fe60a7f8d74",
+      "fields": {
+        "rarity": "3 ✦",
+        "type": "Sword",
+        "baseAtk": "283",
+        "mainAttribute": "+ 79",
+        "flatAtk": "+ 34"
+      },
+      "text": "Tarr 11\nRarity: 3 ✦\nType: Sword\nBase ATK: 283\nStat 1 Boost - 9/9\nMain Attribute : + 79\nPassive Boost - 9/9\nFlat ATK : + 34"
+    },
+    {
+      "id": "thermite-cutter",
+      "name": "Thermite Cutter",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-15-8d10a49baaf8.webp",
+      "assetId": "8d10a49baaf8",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Sword",
+        "baseAtk": "490",
+        "will": "+ 156",
+        "attack": "+ 16.00%"
+      },
+      "text": "Thermite Cutter\nRarity: 6 ✦\nType: Sword\nBase ATK: 490\nStat 1 Boost - 9/9\nWill : + 156\nStat 2 Boost - 9/9\nAttack : + 39.00%\nPassive Boost - 4/9\nAttack : + 16.00%\nAfter the wielder's skill recovers SP or grants a Link state, the entire team gains ATK +8% for 20s . Max stacks for effects of the same name: 2 . Duration of each stack counted separately.\nShow Effects"
+    },
+    {
+      "id": "thunderberge",
+      "name": "Thunderberge",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-25-1ac131c60fd7.webp",
+      "assetId": "1ac131c60fd7",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Greatsword",
+        "baseAtk": "495",
+        "strength": "+ 156",
+        "maxHp": "+ 78.00%"
+      },
+      "text": "Thunderberge\nRarity: 6 ✦\nType: Greatsword\nBase ATK: 495\nStat 1 Boost - 9/9\nStrength : + 156\nStat 2 Boost - 9/9\nMax HP : + 78.00%\nPassive Boost - 4/9\nShield applied +38.4% . When the wielder restores HP with their own Combo Skill, grant the Controlled Operator an additional [11.2 x Wielder's Max HP] Shield for 15s . Effect only triggers once every 15s .\nShow Effects"
+    },
+    {
+      "id": "twelve-questions",
+      "name": "Twelve Questions",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-7-7be45f2db113.webp",
+      "assetId": "7be45f2db113",
+      "fields": {
+        "rarity": "5 ✦",
+        "type": "Sword",
+        "baseAtk": "411",
+        "agility": "+ 124",
+        "attack": "+ 31.20%",
+        "secAttribute": "+ 14.00%"
+      },
+      "text": "Twelve Questions\nRarity: 5 ✦\nType: Sword\nBase ATK: 411\nStat 1 Boost - 9/9\nAgility : + 124\nStat 2 Boost - 9/9\nAttack : + 31.20%\nPassive Boost - 9/9\nSec. Attribute : + 14.00%\nAfter the wielder consumes an Arts Reaction, ATK +21% for 20s . Max stacks for effects of the same name: 2 . Duration of each stack is counted separately."
+    },
+    {
+      "id": "umbral-torch",
+      "name": "Umbral Torch",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-13-f7ec5488e601.webp",
+      "assetId": "f7ec5488e601",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Sword",
+        "baseAtk": "490",
+        "intellect": "+ 156",
+        "heatDmgBonus": "+ 43.30%",
+        "attack": "+ 11.20%"
+      },
+      "text": "Umbral Torch\nRarity: 6 ✦\nType: Sword\nBase ATK: 490\nStat 1 Boost - 9/9\nIntellect : + 156\nStat 2 Boost - 9/9\nHeat DMG Bonus : + 43.30%\nPassive Boost - 4/9\nAttack : + 11.20%\nWhenever Combustion or Corrosion is applied to an enemy, the wielder gains Heat DMG dealt and Nature DMG dealt +12.8% for 20s .. Max stacks for effects of the same name: 2 . Duration of each stack is counted seperately. Effect only triggers once every 0.1s .\nShow Effects"
+    },
+    {
+      "id": "valiant",
+      "name": "Valiant",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-37-b3be88b51d6d.webp",
+      "assetId": "b3be88b51d6d",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Polearm",
+        "baseAtk": "495",
+        "agility": "+ 156",
+        "physicalDmgBonus": "+ 43.30%",
+        "attack": "+ 16.00%"
+      },
+      "text": "Valiant\nRarity: 6 ✦\nType: Polearm\nBase ATK: 495\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nPhysical DMG Bonus : + 43.30%\nPassive Boost - 4/9\nAttack : + 16.00%\nWhen the wielder applies Physical Statuses , the wielder also deals another hit of Physical DMG equal to 192% of the wielder's ATK.\nShow Effects"
+    },
+    {
+      "id": "wave-tide",
+      "name": "Wave Tide",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-3-608120057b4a.webp",
+      "assetId": "608120057b4a",
+      "fields": {
+        "rarity": "4 ✦",
+        "type": "Sword",
+        "baseAtk": "341",
+        "intellect": "+ 93",
+        "attack": "+ 23.40%"
+      },
+      "text": "Wave Tide\nRarity: 4 ✦\nType: Sword\nBase ATK: 341\nStat 1 Boost - 9/9\nIntellect : + 93\nStat 2 Boost - 9/9\nAttack : + 23.40%\nPassive Boost - 9/9\nAfter the wielder casts a Combo Skill, ATK +33.6% for 20s . Effects of the same name cannot stack."
+    },
+    {
+      "id": "wedge",
+      "name": "Wedge",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-47-c35515eb63c5.webp",
+      "assetId": "c35515eb63c5",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Handcannon",
+        "baseAtk": "500",
+        "mainAttribute": "+ 132",
+        "criticalRate": "+ 19.50%",
+        "artsDmgBonus": "+ 19.20%"
+      },
+      "text": "Wedge\nRarity: 6 ✦\nType: Handcannon\nBase ATK: 500\nStat 1 Boost - 9/9\nMain Attribute : + 132\nStat 2 Boost - 9/9\nCritical Rate : + 19.50%\nPassive Boost - 4/9\nArts DMG Bonus : + 19.20%\nAfter the wielder casts a Battle Skill, the wielder gains Arts DMG dealt +12.8% for 15s . After the wielder applies an Arts Reaction with their own Battle Skill, the wielder gains Arts DMG dealt +25.6% for 15s . The two effects apply separately and do not stack with themselves.\nShow Effects"
+    },
+    {
+      "id": "white-night-nova",
+      "name": "White Night Nova",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-17-1ef46c9351db.webp",
+      "assetId": "1ef46c9351db",
+      "fields": {
+        "rarity": "6 ✦",
+        "type": "Sword",
+        "baseAtk": "505",
+        "mainAttribute": "+ 132",
+        "artsIntensity": "+ 78",
+        "artsDmgBonus": "+ 19.20%"
+      },
+      "text": "White Night Nova\nRarity: 6 ✦\nType: Sword\nBase ATK: 505\nStat 1 Boost - 9/9\nMain Attribute : + 132\nStat 2 Boost - 9/9\nArts Intensity : + 78\nPassive Boost - 4/9\nArts DMG Bonus : + 19.20%\nAfter the wielder applies Combustion or Electrification , the wielder gains Arts DMG dealt +19.2% and Arts Intensity +40 for 15s . Effects of the same name cannot stack.\nShow Effects"
+    },
+    {
+      "id": "wild-wanderer",
+      "name": "Wild Wanderer",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/endfield/assets/weapons/weapon-54-767f46b1f7c6.webp",
+      "assetId": "767f46b1f7c6",
+      "fields": {
+        "rarity": "5 ✦",
+        "type": "Arts Unit",
+        "baseAtk": "411",
+        "intellect": "+ 124",
+        "electricDmgBonus": "+ 34.70%",
+        "artsIntensity": "+ 28"
+      },
+      "text": "Wild Wanderer\nRarity: 5 ✦\nType: Arts Unit\nBase ATK: 411\nStat 1 Boost - 9/9\nIntellect : + 124\nStat 2 Boost - 9/9\nElectric DMG Bonus : + 34.70%\nPassive Boost - 9/9\nArts Intensity : + 28\nAfter the wielder applies Electrification , the team gains Physical DMG dealt and Electric DMG dealt +22.4% for 15s . Effects of the same name cannot stack.\nShow Effects"
+    }
+  ]
+}

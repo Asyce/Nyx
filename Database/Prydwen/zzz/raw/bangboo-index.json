@@ -1,0 +1,532 @@
+{
+  "provider": "Prydwen",
+  "game": "zzz",
+  "collection": "bangboo",
+  "sourcePath": "/zenless/bangboo",
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "detailPagesTotal": 0,
+  "detailPagesScraped": 0,
+  "staleDetailPagesRemoved": 0,
+  "items": [
+    {
+      "id": "agent-gulliver",
+      "name": "Agent Gulliver",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Agent Gulliver\nRarity: S -Rank"
+    },
+    {
+      "id": "amillion",
+      "name": "Amillion",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Amillion\nRarity: S -Rank"
+    },
+    {
+      "id": "avocaboo",
+      "name": "Avocaboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Avocaboo\nRarity: A -Rank"
+    },
+    {
+      "id": "baddieboo",
+      "name": "Baddieboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Baddieboo\nRarity: A -Rank"
+    },
+    {
+      "id": "bagboo",
+      "name": "Bagboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Bagboo\nRarity: A -Rank"
+    },
+    {
+      "id": "bangvolver",
+      "name": "Bangvolver",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Bangvolver\nRarity: S -Rank"
+    },
+    {
+      "id": "belion",
+      "name": "Belion",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Belion\nRarity: S -Rank"
+    },
+    {
+      "id": "biggest-fan",
+      "name": "Biggest Fan",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Biggest Fan\nRarity: S -Rank"
+    },
+    {
+      "id": "bild-n-boolok",
+      "name": "Bild N. Boolok",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Bild N. Boolok\nRarity: A -Rank"
+    },
+    {
+      "id": "birkblick",
+      "name": "Birkblick",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Birkblick\nRarity: S -Rank"
+    },
+    {
+      "id": "boollseye",
+      "name": "Boollseye",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Boollseye\nRarity: A -Rank"
+    },
+    {
+      "id": "booltergeist",
+      "name": "Booltergeist",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Booltergeist\nRarity: A -Rank"
+    },
+    {
+      "id": "booressure",
+      "name": "Booressure",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Booressure\nRarity: A -Rank"
+    },
+    {
+      "id": "brawlerboo",
+      "name": "Brawlerboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Brawlerboo\nRarity: A -Rank"
+    },
+    {
+      "id": "butler",
+      "name": "Butler",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Butler\nRarity: S -Rank"
+    },
+    {
+      "id": "cryboo",
+      "name": "Cryboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Cryboo\nRarity: A -Rank"
+    },
+    {
+      "id": "devilboo",
+      "name": "Devilboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Devilboo\nRarity: A -Rank"
+    },
+    {
+      "id": "electroboo",
+      "name": "Electroboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Electroboo\nRarity: A -Rank"
+    },
+    {
+      "id": "excaliboo",
+      "name": "Excaliboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Excaliboo\nRarity: A -Rank"
+    },
+    {
+      "id": "exploreboo",
+      "name": "Exploreboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Exploreboo\nRarity: A -Rank"
+    },
+    {
+      "id": "knightboo",
+      "name": "Knightboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Knightboo\nRarity: A -Rank"
+    },
+    {
+      "id": "luckyboo",
+      "name": "Luckyboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Luckyboo\nRarity: A -Rank"
+    },
+    {
+      "id": "magnetiboo",
+      "name": "Magnetiboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Magnetiboo\nRarity: A -Rank"
+    },
+    {
+      "id": "mercury",
+      "name": "Mercury",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Mercury\nRarity: S -Rank"
+    },
+    {
+      "id": "miss-esme",
+      "name": "Miss Esme",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Miss Esme\nRarity: S -Rank"
+    },
+    {
+      "id": "officer-cui",
+      "name": "Officer Cui",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Officer Cui\nRarity: S -Rank"
+    },
+    {
+      "id": "overtimeboo",
+      "name": "Overtimeboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Overtimeboo\nRarity: A -Rank"
+    },
+    {
+      "id": "paperboo",
+      "name": "Paperboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Paperboo\nRarity: A -Rank"
+    },
+    {
+      "id": "penguinboo",
+      "name": "Penguinboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Penguinboo\nRarity: A -Rank"
+    },
+    {
+      "id": "plugboo",
+      "name": "Plugboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Plugboo\nRarity: S -Rank"
+    },
+    {
+      "id": "red-moccus",
+      "name": "Red Moccus",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Red Moccus\nRarity: S -Rank"
+    },
+    {
+      "id": "resonaboo",
+      "name": "Resonaboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Resonaboo\nRarity: S -Rank"
+    },
+    {
+      "id": "robin",
+      "name": "Robin",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Robin\nRarity: S -Rank"
+    },
+    {
+      "id": "rocketboo",
+      "name": "Rocketboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Rocketboo\nRarity: S -Rank"
+    },
+    {
+      "id": "safety",
+      "name": "Safety",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Safety\nRarity: S -Rank"
+    },
+    {
+      "id": "sharkboo",
+      "name": "Sharkboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Sharkboo\nRarity: S -Rank"
+    },
+    {
+      "id": "snap",
+      "name": "Snap",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Snap\nRarity: S -Rank"
+    },
+    {
+      "id": "sprout",
+      "name": "Sprout",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Sprout\nRarity: S -Rank"
+    },
+    {
+      "id": "sumoboo",
+      "name": "Sumoboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Sumoboo\nRarity: A -Rank"
+    },
+    {
+      "id": "ultra-jake",
+      "name": "Ultra Jake",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Ultra Jake\nRarity: S -Rank"
+    }
+  ]
+}

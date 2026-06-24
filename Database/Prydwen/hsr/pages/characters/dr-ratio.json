@@ -1,0 +1,1685 @@
+{
+  "id": "characters:dr-ratio",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "dr-ratio",
+  "name": "Dr. Ratio",
+  "title": "Dr. Ratio Best Build Guide",
+  "sourcePath": "/star-rail/characters/dr-ratio",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "31/May/2026",
+  "meta": {
+    "title": "Dr. Ratio Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Imaginary",
+    "path": "Hunt"
+  },
+  "assets": [
+    {
+      "id": "b21115efaa74",
+      "sourceHash": "b21115efaa74",
+      "kind": "characters",
+      "name": "Dr. Ratio",
+      "fileStem": "dr-ratio-card",
+      "path": "Prydwen/hsr/assets/characters/dr-ratio-b21115efaa74.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "dc6aec4a7776",
+      "sourceHash": "dc6aec4a7776",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "af5b8acc8f63",
+      "sourceHash": "af5b8acc8f63",
+      "kind": "icons",
+      "name": "CRIT Rate",
+      "fileStem": "stat-critrate",
+      "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "a6be649090ba",
+      "sourceHash": "a6be649090ba",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "96654253a4f7",
+      "sourceHash": "96654253a4f7",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "087f2dec68b6",
+      "sourceHash": "087f2dec68b6",
+      "kind": "icons",
+      "name": "Speed",
+      "fileStem": "stat-speed",
+      "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "50d0e755383a",
+      "sourceHash": "50d0e755383a",
+      "kind": "items",
+      "name": "Credit",
+      "fileStem": "credit",
+      "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "2a36d7503b78",
+      "sourceHash": "2a36d7503b78",
+      "kind": "items",
+      "name": "Thief's Instinct",
+      "fileStem": "thiefs-instinct",
+      "path": "Prydwen/hsr/assets/items/thiefs-instinct-2a36d7503b78.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "4c97e0301bf1",
+      "sourceHash": "4c97e0301bf1",
+      "kind": "items",
+      "name": "Usurper's Scheme",
+      "fileStem": "usurpers-scheme",
+      "path": "Prydwen/hsr/assets/items/usurpers-scheme-4c97e0301bf1.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "39fa11a3f236",
+      "sourceHash": "39fa11a3f236",
+      "kind": "items",
+      "name": "Suppressing Edict",
+      "fileStem": "suppressing-edict",
+      "path": "Prydwen/hsr/assets/items/suppressing-edict-39fa11a3f236.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "393bf9ccb2d2",
+      "sourceHash": "393bf9ccb2d2",
+      "kind": "items",
+      "name": "Conqueror's Will",
+      "fileStem": "conquerors-will",
+      "path": "Prydwen/hsr/assets/items/conquerors-will-393bf9ccb2d2.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "310ed2bb50ec",
+      "sourceHash": "310ed2bb50ec",
+      "kind": "characters",
+      "name": "Dr. Ratio",
+      "fileStem": "dr-ratio-full",
+      "path": "Prydwen/hsr/assets/characters/dr-ratio-310ed2bb50ec.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "64273080383a",
+      "sourceHash": "64273080383a",
+      "kind": "light-cones",
+      "name": "Baptism of Pure Thought",
+      "fileStem": "baptism-of-pure-thought",
+      "path": "Prydwen/hsr/assets/light-cones/baptism-of-pure-thought-64273080383a.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "86e9a7e2bf92",
+      "sourceHash": "86e9a7e2bf92",
+      "kind": "light-cones",
+      "name": "Worrisome, Blissful",
+      "fileStem": "worrisome-blissful",
+      "path": "Prydwen/hsr/assets/light-cones/worrisome-blissful-86e9a7e2bf92.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "ffd8743e3f54",
+      "sourceHash": "ffd8743e3f54",
+      "kind": "light-cones",
+      "name": "Only Silence Remains",
+      "fileStem": "only-silence-remains",
+      "path": "Prydwen/hsr/assets/light-cones/only-silence-remains-ffd8743e3f54.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "a3c50358a7f0",
+      "sourceHash": "a3c50358a7f0",
+      "kind": "light-cones",
+      "name": "Cruising in the Stellar Sea",
+      "fileStem": "cruising-in-the-stellar-sea",
+      "path": "Prydwen/hsr/assets/light-cones/cruising-in-the-stellar-sea-a3c50358a7f0.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "c5f44d688dfd",
+      "sourceHash": "c5f44d688dfd",
+      "kind": "light-cones",
+      "name": "In the Night",
+      "fileStem": "in-the-night",
+      "path": "Prydwen/hsr/assets/light-cones/in-the-night-c5f44d688dfd.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "6e205de52037",
+      "sourceHash": "6e205de52037",
+      "kind": "relics",
+      "name": "Pioneer Diver of Dead Waters",
+      "fileStem": "pioneer-diver-of-dead-waters",
+      "path": "Prydwen/hsr/assets/relics/pioneer-diver-of-dead-waters-6e205de52037.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "b8549d5464b2",
+      "sourceHash": "b8549d5464b2",
+      "kind": "relics",
+      "name": "Wastelander of Banditry Desert",
+      "fileStem": "wastelander-of-banditry-desert",
+      "path": "Prydwen/hsr/assets/relics/wastelander-of-banditry-desert-b8549d5464b2.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "0edbfbfc2eca",
+      "sourceHash": "0edbfbfc2eca",
+      "kind": "relics",
+      "name": "The Ashblazing Grand Duke",
+      "fileStem": "the-ashblazing-grand-duke",
+      "path": "Prydwen/hsr/assets/relics/the-ashblazing-grand-duke-0edbfbfc2eca.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "f521b7a2ee25",
+      "sourceHash": "f521b7a2ee25",
+      "kind": "relics",
+      "name": "Scholar Lost in Erudition",
+      "fileStem": "scholar-lost-in-erudition",
+      "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "deeeca721276",
+      "sourceHash": "deeeca721276",
+      "kind": "relics",
+      "name": "Musketeer of Wild Wheat",
+      "fileStem": "musketeer-of-wild-wheat",
+      "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "507bb2127c32",
+      "sourceHash": "507bb2127c32",
+      "kind": "relics",
+      "name": "Prisoner in Deep Confinement",
+      "fileStem": "prisoner-in-deep-confinement",
+      "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "2d90f2919c5d",
+      "sourceHash": "2d90f2919c5d",
+      "kind": "relics",
+      "name": "The Wind-Soaring Valorous",
+      "fileStem": "the-wind-soaring-valorous",
+      "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5c3fed1223b5",
+      "sourceHash": "5c3fed1223b5",
+      "kind": "relics",
+      "name": "Duran, Dynasty of Running Wolves",
+      "fileStem": "duran-dynasty-of-running-wolves",
+      "path": "Prydwen/hsr/assets/relics/duran-dynasty-of-running-wolves-5c3fed1223b5.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "b58fdc60eb2f",
+      "sourceHash": "b58fdc60eb2f",
+      "kind": "relics",
+      "name": "Izumo Gensei and Takama Divine Realm",
+      "fileStem": "izumo-gensei-and-takama-divine-realm",
+      "path": "Prydwen/hsr/assets/relics/izumo-gensei-and-takama-divine-realm-b58fdc60eb2f.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "83a4c570a0a2",
+      "sourceHash": "83a4c570a0a2",
+      "kind": "relics",
+      "name": "Firmament Frontline: Glamoth",
+      "fileStem": "firmament-frontline-glamoth",
+      "path": "Prydwen/hsr/assets/relics/firmament-frontline-glamoth-83a4c570a0a2.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d3afe42bdcff",
+      "sourceHash": "d3afe42bdcff",
+      "kind": "relics",
+      "name": "Inert Salsotto",
+      "fileStem": "inert-salsotto",
+      "path": "Prydwen/hsr/assets/relics/inert-salsotto-d3afe42bdcff.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "44c437b21b3a",
+      "sourceHash": "44c437b21b3a",
+      "kind": "icons",
+      "name": "CRIT DMG",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "0c5f542e33b7",
+      "sourceHash": "0c5f542e33b7",
+      "kind": "icons",
+      "name": "Imaginary DMG",
+      "fileStem": "stat-imaginarydmg",
+      "path": "Prydwen/hsr/assets/icons/imaginary-dmg-0c5f542e33b7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "e985c6a49a99",
+      "sourceHash": "e985c6a49a99",
+      "kind": "characters",
+      "name": "Robin",
+      "fileStem": "robin-icon",
+      "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "1ca64ab50183",
+      "sourceHash": "1ca64ab50183",
+      "kind": "characters",
+      "name": "Topaz & Numby",
+      "fileStem": "topaz-icon",
+      "path": "Prydwen/hsr/assets/characters/topaz-numby-1ca64ab50183.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "800df8257794",
+      "sourceHash": "800df8257794",
+      "kind": "characters",
+      "name": "Moze",
+      "fileStem": "moze-icon",
+      "path": "Prydwen/hsr/assets/characters/moze-800df8257794.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "113fc62e3664",
+      "sourceHash": "113fc62e3664",
+      "kind": "characters",
+      "name": "Jiaoqiu",
+      "fileStem": "jiaoqiu-icon",
+      "path": "Prydwen/hsr/assets/characters/jiaoqiu-113fc62e3664.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "7eec89c1a7e2",
+      "sourceHash": "7eec89c1a7e2",
+      "kind": "characters",
+      "name": "Silver Wolf",
+      "fileStem": "silver-wolf-icon",
+      "path": "Prydwen/hsr/assets/characters/silver-wolf-7eec89c1a7e2.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "22cecac0da56",
+      "sourceHash": "22cecac0da56",
+      "kind": "characters",
+      "name": "Pela",
+      "fileStem": "pela-icon",
+      "path": "Prydwen/hsr/assets/characters/pela-22cecac0da56.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "714348f14d48",
+      "sourceHash": "714348f14d48",
+      "kind": "characters",
+      "name": "Dan Heng • Permansor Terrae",
+      "fileStem": "dan-heng-permansor-terrae-icon",
+      "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "0658046ea612",
+      "sourceHash": "0658046ea612",
+      "kind": "characters",
+      "name": "Aventurine",
+      "fileStem": "aventurine-icon",
+      "path": "Prydwen/hsr/assets/characters/aventurine-0658046ea612.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "54aee7624703",
+      "sourceHash": "54aee7624703",
+      "kind": "characters",
+      "name": "Dr. Ratio",
+      "fileStem": "dr-ratio-icon",
+      "path": "Prydwen/hsr/assets/characters/dr-ratio-54aee7624703.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "913ff64407f2",
+      "sourceHash": "913ff64407f2",
+      "kind": "icons",
+      "name": "Imaginary",
+      "fileStem": "ele-imaginary",
+      "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "99361e4717fa",
+      "sourceHash": "99361e4717fa",
+      "kind": "characters",
+      "name": "Mortenax Blade",
+      "fileStem": "blade-mortenax-icon",
+      "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "92feb26d8f0e",
+      "sourceHash": "92feb26d8f0e",
+      "kind": "icons",
+      "name": "Fire",
+      "fileStem": "ele-fire",
+      "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "2cde7699adbf",
+      "sourceHash": "2cde7699adbf",
+      "kind": "characters",
+      "name": "Tribbie",
+      "fileStem": "tribbie-icon",
+      "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "565914d1a436",
+      "sourceHash": "565914d1a436",
+      "kind": "icons",
+      "name": "Quantum",
+      "fileStem": "ele-quantum",
+      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "c4a9c00e98ef",
+      "sourceHash": "c4a9c00e98ef",
+      "kind": "characters",
+      "name": "Huohuo",
+      "fileStem": "huohuo-icon",
+      "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ee11bd390c9a",
+      "sourceHash": "ee11bd390c9a",
+      "kind": "icons",
+      "name": "Wind",
+      "fileStem": "ele-wind",
+      "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "f380b4ccce3e",
+      "sourceHash": "f380b4ccce3e",
+      "kind": "characters",
+      "name": "Ashveil",
+      "fileStem": "ashveil-icon",
+      "path": "Prydwen/hsr/assets/characters/ashveil-f380b4ccce3e.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d197456869a0",
+      "sourceHash": "d197456869a0",
+      "kind": "icons",
+      "name": "Lightning",
+      "fileStem": "ele-lightning",
+      "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "e0db16ed6c66",
+      "sourceHash": "e0db16ed6c66",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "ele-physical",
+      "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "901456d3c61d",
+      "sourceHash": "901456d3c61d",
+      "kind": "characters",
+      "name": "Luocha",
+      "fileStem": "luocha-icon",
+      "path": "Prydwen/hsr/assets/characters/luocha-901456d3c61d.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "3d568cb7f29d",
+      "sourceHash": "3d568cb7f29d",
+      "kind": "characters",
+      "name": "Sunday",
+      "fileStem": "sunday-icon",
+      "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+      "width": 60,
+      "height": 60
+    }
+  ],
+  "sections": [
+    {
+      "id": "dr-ratio-best-build-guide-0",
+      "level": 1,
+      "heading": "Dr. Ratio Best Build Guide",
+      "text": "Last updated: 31/May/2026",
+      "assets": [
+        {
+          "id": "b21115efaa74",
+          "sourceHash": "b21115efaa74",
+          "kind": "characters",
+          "name": "Dr. Ratio",
+          "fileStem": "dr-ratio-card",
+          "path": "Prydwen/hsr/assets/characters/dr-ratio-b21115efaa74.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Dr. Ratio from HSR (Honkai: Star Rail). Dr. Ratio is a 5 ★ character from the Imaginary element who follows the Path of Hunt .\n A candid and self-centered Intelligentsia Guild member, who often conceals his appearance with a strange plaster sculpture. He demonstrated unparalleled intelligence and talent since his youth, but now refers to himself as a \"Mundanite.\" He firmly believes that intellect and creativity are not confined to geniuses. He seeks to distribute knowledge to the entire universe to cure the persistent disease named ignorance.\n\n To learn more about Dr. Ratio check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Dr. Ratio has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 3.2\n\n Last major build/calcs update\n Patch 3.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Dr. Ratio check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic ATK\n Mind is Might\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Imaginary DMG equal to #1[i]% of Dr. Ratio's ATK to a single target enemy.\n\n Skill\n Intellectual Midwifery\n Single Target\n\n Lv. 1\n\n Energy gain: 30\n Break: 20\n\n Deals Imaginary DMG equal to #1[i]% of Dr. Ratio's ATK to a single target enemy.\n\n Ultimate\n Syllogistic Paradox\n Single Target | 140 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 30\n\n Deals Imaginary DMG equal to #1[i]% of Dr. Ratio's ATK to a single target enemy and applies Wiseman's Folly. When Dr. Ratio's allies attack a target afflicted with Wiseman's Folly, Dr. Ratio launches his Talent's follow-up attack for 1 time against this target.\nWiseman's Folly can be triggered for up to #2[i] times and only affects the most recent target of Dr. Ratio's Ultimate. This trigger count resets after Dr. Ratio's Ultimate is used.\n\n Talent\n Cogito, Ergo Sum\n Single Target\n\n Lv. 1\n\n Energy gain: 5\n Break: 10\n\n When using his Skill, Dr. Ratio has a #2[i]% fixed chance of launching a follow-up attack against his target for 1 time, dealing Imaginary DMG equal to #1[i]% of Dr. Ratio's ATK. For each debuff the target enemy has, the fixed chance of launching follow-up attack increases by #3[i]%. If the target enemy is defeated before the follow-up attack triggers, the follow-up attack will be directed at a single random enemy instead.\n\n Technique\n Mold of Idolatry\n Impair\n\n Energy gain: 0\n Break: -\n\n After using Technique, creates a special dimension that Taunts nearby enemies, lasting for #1[i] second(s). After entering battle with enemies in this special dimension, there is a #2[i]% base chance to reduce each single enemy target's SPD by #3[i]% for #4[i] turn(s). Only 1 dimension created by allies can exist at the same time.",
+      "assets": []
+    },
+    {
+      "id": "major-traces-10",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "A2 Major trace\n Summation\n\n When Dr. Ratio uses his Skill, for every debuff on the target, his CRIT Rate increases by 2.5% and CRIT DMG by 5% . This effect can stack up to 6 time(s).\n\n A4 Major trace\n Inference\n\n When Skill is used to attack an enemy target, there is a 100% base chance to reduce the attacked target's Effect RES by 10% for 2 turn(s).\n\n A6 Major trace\n Deduction\n\n When dealing DMG to a target that has 3 or more debuff(s), for each debuff the target has, the DMG dealt by Dr. Ratio to this target increases by 10% , up to a maximum increase of 50% .",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-11",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "ATK\n + 28%\n\n CRIT Rate\n + 12%\n\n DEF\n + 12.5%",
+      "assets": [
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "af5b8acc8f63",
+          "sourceHash": "af5b8acc8f63",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-critrate",
+          "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "eidolons-12",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "E 1\n Pride Comes Before a Fall\n Eidolon 1\n\n The maximum stackable count for the Trace \"Summation\" increases by 4 . When a battle begins, immediately obtains 4 stacks of Summation. Needs to unlock Summation first.\n\n E 2\n The Divine Is in the Details\n Eidolon 2\n\n When his Talent's follow-up attack hits a target, for every debuff the target has, additionally deals Imaginary Additional DMG equal to 20% of Dr. Ratio's ATK. This effect can be triggered for a maximum of 4 time(s) during each follow-up attack.\n\n E 3\n Know Thyself\n Eidolon 3\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Ignorance Is Blight\n Eidolon 4\n\n When triggering the Talent, additionally regenerates 15 Energy for Dr. Ratio.\n\n E 5\n Sic Itur Ad Astra\n Eidolon 5\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Vincit Omnia Veritas\n Eidolon 6\n\n Increases the trigger count for Wiseman's Folly by 1 . The DMG dealt by the Talent's follow-up attack increases by 50% .",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-13",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Enable Ascension",
+      "assets": []
+    },
+    {
+      "id": "level-80-stats-14",
+      "level": 5,
+      "heading": "Level 80 stats",
+      "text": "HP\n\n 1047\n\n ATK\n\n 776\n\n DEF\n\n 460\n\n Speed\n\n 103",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "level-1-80-ascension-materials-15",
+      "level": 5,
+      "heading": "Level 1 → 80 Ascension Materials",
+      "text": "Credit\n\n x 308000\n\n Thief's Instinct\n\n x 15\n\n Usurper's Scheme\n\n x 15\n\n Suppressing Edict\n\n x 65\n\n Conqueror's Will\n\n x 15",
+      "assets": [
+        {
+          "id": "50d0e755383a",
+          "sourceHash": "50d0e755383a",
+          "kind": "items",
+          "name": "Credit",
+          "fileStem": "credit",
+          "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "2a36d7503b78",
+          "sourceHash": "2a36d7503b78",
+          "kind": "items",
+          "name": "Thief's Instinct",
+          "fileStem": "thiefs-instinct",
+          "path": "Prydwen/hsr/assets/items/thiefs-instinct-2a36d7503b78.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "4c97e0301bf1",
+          "sourceHash": "4c97e0301bf1",
+          "kind": "items",
+          "name": "Usurper's Scheme",
+          "fileStem": "usurpers-scheme",
+          "path": "Prydwen/hsr/assets/items/usurpers-scheme-4c97e0301bf1.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "39fa11a3f236",
+          "sourceHash": "39fa11a3f236",
+          "kind": "items",
+          "name": "Suppressing Edict",
+          "fileStem": "suppressing-edict",
+          "path": "Prydwen/hsr/assets/items/suppressing-edict-39fa11a3f236.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "393bf9ccb2d2",
+          "sourceHash": "393bf9ccb2d2",
+          "kind": "items",
+          "name": "Conqueror's Will",
+          "fileStem": "conquerors-will",
+          "path": "Prydwen/hsr/assets/items/conquerors-will-393bf9ccb2d2.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "cv-16",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n Jordan Paul Haro\n\n JPN\n 武内駿輔 (Takeuchi Shunsuke)\n\n CN\n 桑毓泽 (Sang Yuze)\n\n KR\n 이동훈 (Lee Donghoon)",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "310ed2bb50ec",
+          "sourceHash": "310ed2bb50ec",
+          "kind": "characters",
+          "name": "Dr. Ratio",
+          "fileStem": "dr-ratio-full",
+          "path": "Prydwen/hsr/assets/characters/dr-ratio-310ed2bb50ec.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Great single-target damage,\n\n Follow-up ATKs deal high Toughness damage,\n\n Many powerful relic options to choose from\n\n Some limited potential to deal with multiple targets.\n\n Easy to build CRIT stats with Traces adding decent amounts of CRIT Rate.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Low damage multipliers compared to version 3 units,\n\n High Energy cost Ultimate,\n\n Requires at least 3 debuffs on targets for consistent Follow-ups,\n\n Outside of his slight multi-target capabilities, he’s still ultimately a single-target unit.",
+      "assets": []
+    },
+    {
+      "id": "review-by-sushou-21",
+      "level": 2,
+      "heading": "Review (By Sushou)",
+      "text": "Dr. Ratio is a very powerful single-target damage dealer that was given out for free to all players from 1.6 to until the start of 2.1. He specialises in dealing damage through follow-ups and accumulating permanent CRIT buffs in combat. He also benefits noticeably from attacking debuffed enemies, guaranteeing his follow-up at 3 debuffs and receiving a DMG bonus per stack, maxing out at 5 debuffs. The ways he can use his follow-up attack both provide more Energy over time than other characters and can somewhat alleviate the usual inherent weakness of Hunt characters.\n The abrasive meme-lord with a heart of gold, Dr. Veritas Ratio finally graces us with his presence. Giving us the ability to play him early with a Trial version taught us much about his capabilities, and now that he’s here for real, it’s fairly apparent that he was actually holding out on us.\n Before going into the usual breakdown, some important information first. Since debuffs are very important for Dr. Ratio’s kit, you should know what exactly constitutes a debuff in this game. The rule is this: if a Status Effect features a small red arrow pointing downwards, this is considered a debuff. If you are in doubt, you can inspect the Enemy Details window in combat and the Status Summary at the bottom will explicitly state how many debuffs they are currently afflicted with. If you don’t read this paragraph, you forfeit the right to complain later when you discover Hanya’s Burden isn’t a debuff.\n Dr. Ratio’s Skill is a standard single-target Skill, dealing up to 150% of his ATK to a single enemy. This may initially seem rather low but this Skill works in tandem with his Talent as well as his Bonus Ability Traces, leading to far greater damage numbers for the meagre cost of 1 Skill Point.\n His Talent is his main source of damage. When using his Skill, he has a 40% fixed chance to launch a follow-up attack against his target, dealing up to an impressive 270% ATK. Each debuff the target of his Skill is affected by will increase the fixed chance of this follow-up occurring by 20%. This means that if the targeted enemy has at least 3 debuffs on them, Dr. Ratio will always follow a Skill usage with a Talent follow-up, dealing a combined 420% ATK to a single enemy. Very dank, and very strong.\n It should be noted that if his Skill defeats the target before the follow-up can be launched, Ratio will launch it anyway against a random other enemy. This prevents much of the value from being lost due to an early enemy death, but more importantly it helps to alleviate the natural downside of the Path of The Hunt, namely that they are exclusively single-target focused. In a similar sort of vein as Seele can use lesser enemies to bolster her offence, Ratio can pick off smaller foes and weakened stragglers and still deal damage against the remaining foes; with an upfront damage multiplier of 150% on his Skill, it is not unreasonable to expect this to deal with trash adds outright with proper setup.\n Dr. Ratio’s Ultimate deals up to 240% ATK to a single enemy and applies a status effect called Wiseman’s Folly (it's not a debuff). Whenever allies attack a target with Wiseman’s Folly, Dr. Ratio will automatically launch a follow-up attack against them out of turn. This can happen 2 times before the status effect is automatically removed. This lasts indefinitely unless the afflicted enemy dies or until the trigger count is met.\n This Ultimate allows Ratio to deal even more damage outside of his turn and use buffs even more efficiently. There is however an issue with this Ultimate, and that is that the debuff is removed when the enemy dies. It does not hop like Topaz’s Proof of Debt, meaning if an enemy dies before the trigger count is met for Ratio’s Ultimate, he completely loses the effects of the Ultimate. Given that this admittedly strong Ultimate has a steep cost of 140 Energy, losing its effects is miserable to have happen even if you’ve already gotten one follow-up off. Mostly if this happens, sorry, it’s a skill issue. This should only ever naturally occur at the very end of combat when it doesn’t matter anymore.\n Another important thing to note is that because of the amount of follow-ups Ratio throws, his Energy economy is actually surprisingly good since each Talent follow-up gives 5 Energy; assuming you’re attacking an enemy with at least 3 debuffs, his Skill gives 35 Energy per cast, and his Ultimate provides 10 additional Energy once the Wiseman’s Folly follow-ups have been expended . The amount of follow-ups also contributes to a very impressive amount of overall Toughness damage, with each one dealing 30 Toughness damage, the same as a typical Basic ATK. Combining with his Skill again, each one of his turns he will be dealing 90 Toughness damage, the equivalent of all single-target Ultimates besides Xueyi’s.\n Dr. Ratio’s Bonus Ability Traces provide some very powerful additional effects. A2 will provide permanent stacks of 2.5% CRIT Rate and 5% CRIT DMG whenever he uses his Skill against a debuffed enemy. The number of stacks he gets depends on the number of debuffs the enemy has on them, and he can have up to 6 stacks in total, granting 15% CRIT Rate and 30% CRIT DMG. This passive has sparked some confusion due to its wording, so to be as clear as possible, the bonuses do not need to be obtained concurrently ; if an enemy has only 3 debuffs on them, you will gain the full 6 stacks after two Skill uses against them; if they only have 2, you will need three Skill uses to get the 6 stacks.\n His A4 gives his Skill a 100% base chance to reduce the target’s Effect RES by 10% for 2 turns, giving Ratio an inherent debuff to apply to enemies. This debuff also becomes easier to maintain on enemies after its initial application due to the Effect RES reduction it provides. This also means teammates only need to provide 2 additional debuffs to meet the 100% follow-up chance on Skill use from his Talent. Do note that this debuff is only applied after the follow-up check occurs, meaning if you’re relying on this as your 3rd debuff, your first follow-up won’t have a 100% fixed chance to happen.\n A6 will grant Ratio a DMG% buff for attacking debuffed enemies. This effect starts functioning at 3 debuffs and maxes out at 5, providing 10% DMG dealt for each debuff. This means that having 5 debuffs will give him a bonus 50% DMG dealt against the target with a 100% fixed chance to throw follow-ups on Skill uses, resulting in colossal damage output, but so long as you can meet the 3 debuff threshold for his Talent, 30% DMG dealt is perfectly acceptable as well. 100% chance for his follow-up is the most important milestone to reach, so don’t bend over backwards going for 5 debuffs if the team can’t attain it or if it’d result in a worse team composition.\n Dr. Ratio also gets 12% CRIT Rate from his Minor Traces as well as 28% ATK. ‘Why are you mentioning ATK Traces?’ Because, as of the time of writing this, Dr. Ratio has the absolute highest Base ATK value in the game of 776, meaning ATK% bonuses will have a more noticeable impact on his overall ATK rating (it's actually funny how this is still true in 2.5 - nearly 8 months after his release).\n Let's go over Dr. Ratio's Eidolons next. Ratio is great at E0 and absolutely none of them are necessary in any way. However, here's some info about how the Eidolons work for him. E1 allows A6 CRIT buffs to stack to 10, E2 causes his follow-up to deal 20% additional ATK damage per debuff against debuffed enemies, up to an 80% ATK bonus per follow-up, E4 basically refills Ratio’s Energy bar in mere moments by giving 15 Energy back per follow-up, and E6 increases the number of Ultimate triggers to 3 while also increasing the DMG dealt by the follow-up by a massive 50%.\n As you can no doubt tell from what’s been said already, a very significant portion of Ratio’s total damage comes from his follow-up attack, but even more than that, it’s a majority of his damage. If you are unable to meet the minimum requirements of 3 debuffs to activate his follow-up attack, you will haemorrhage damage . There are only benefits to reap by meeting this baseline as it unlocks all the aforementioned great parts of his kit: his overall damage throughput, his remarkable Energy economy and Toughness damage, and even a minor ability to break out of his otherwise pure single-target damage profile.\n As such, Ratio pairs very well with characters that can enable or amplify his capabilities. Also, it’s important to know that all Nihility characters can equip the Light Cone Resolution Shines As Pearls of Sweat, providing an extra debuff and decreasing enemies’ DEF.\n Here are some great options for this spot:\n Topaz is his best partner, but do note that without hers E1 or S1, you will need to find a source of at least 1 more debuff to hit his cap.\n\n Pela can keep her Ultimate’s DEF Shred up pretty much indefinitely on all enemies, making it easier to switch to new targets when Ratio’s chalk deals the finishing blow, but it is only 1 consistent debuff without Resolution.\n\n Silver Wolf is understandably fantastic for racking up huge amounts of debuffs on single targets even at E0, and with the right setup, a single Skill usage from Silver Wolf can very nearly enable Dr. Ratio’s entire kit while also being able to ensure the enemy has an Imaginary Weakness thanks to her Skill’s Weakness Implant.\n\n Jiaoqiu is another great option for the debuffer spot that easily can fill the debuff quota for Dr. Ratio and provide some additional damage. Especially in AoE scenarios, this can greatly offset Ratio’s weaker AoE capabilities by either dealing with smaller enemies outright, or by softening them up enough that Ratio can kill them with his Skill and then throw his follow-up on a completely different target.\n\n If gaining enough debuffs is not a concern then Ratio of course also has access to the usual suite of Harmony characters as well. Bronya, Ruan Mei, Tingyun, Robin and Sunday are all very good at significantly increasing the damage Dr. Ratio can deal - so basically the usual Hypercarry Amplifiers pair nicely with him. Robin being the obvious choice for any FUA team as it's the archetype she shines the most with.\n A final note is that Dr. Ratio’s signature Light Cone is exceptionally powerful on him in particular. Ratio is absolutely fine and strong with the likes of Cruising in the Stellar Sea, but his performance goes up by that much more with his signature Light Cone, and it provides better quality of life than trying to maintain the passives of other Light Cone options. Again, Ratio is being evaluated here with the easily and freely accessible options and he’s already guaranteed to swat everything away with little effort, but he gets that much stronger with his sig.\n Overall, Dr. Ratio is not a complicated character once you’ve understood how he works, and he works with a vast array of other characters, fitting in nicely among the rest of the roster. Just keep in mind that he was replaced as the premier FUA damage dealer by Feixiao , who can do what Dr. Ratio does, but better. So if you're interested in the FUA archetype, check Feixiao first.\n Dr. Ratio isn't by any means weak, but his glory days have passed.",
+      "assets": []
+    },
+    {
+      "id": "ratings-22",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.",
+      "assets": []
+    },
+    {
+      "id": "damage-dealer-23",
+      "level": 5,
+      "heading": "Damage dealer",
+      "text": "T5\n MoC\n\n T5\n PF\n\n T5\n AS\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "best-light-cones-25",
+      "level": 2,
+      "heading": "Best Light Cones",
+      "text": "116.12%\n\n Baptism of Pure Thought (S 1 )\n\n Clear best Light Cone for Ratio assuming you can maintain 3 debuffs on the enemy. Becomes even more powerful when including teammates that can shred DEF like Pela or Silver Wolf.\n Usage: 100 %\n MoC: -\n PF: 0\n AS: 0\n\n 107.17%\n\n Worrisome, Blissful (S 1 )\n\n Less powerful than Ratio's signature but still a reasonable choice, boasting the advantage of applying a debuff of its own with its in-built effect. This debuff boosts other damage dealers' attack as well as Ratios while also counting as a debuff for Ratio to take advantage of.\n\n 101.41%\n\n Only Silence Remains (S 5 )\n\n An alternative to Cruising as a somewhat accessible option but only at S5 and in battles you can quickly narrow down to 2 enemies or less. More situational and difficult to make use of than the other Cones.\n\n 100%\n\n Cruising in the Stellar Sea (S 5 )\n\n 95.75%\n\n In the Night (S 1 )\n\n Calcs contain some reallocation of ATK%, CRIT RATE, and CRIT DMG% to SPD in order to achieve 4-6 stacks of the bonus. With better relics and teams that grant more Speed this Cone's performance will improve comparatively.",
+      "assets": [
+        {
+          "id": "64273080383a",
+          "sourceHash": "64273080383a",
+          "kind": "light-cones",
+          "name": "Baptism of Pure Thought",
+          "fileStem": "baptism-of-pure-thought",
+          "path": "Prydwen/hsr/assets/light-cones/baptism-of-pure-thought-64273080383a.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "86e9a7e2bf92",
+          "sourceHash": "86e9a7e2bf92",
+          "kind": "light-cones",
+          "name": "Worrisome, Blissful",
+          "fileStem": "worrisome-blissful",
+          "path": "Prydwen/hsr/assets/light-cones/worrisome-blissful-86e9a7e2bf92.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "ffd8743e3f54",
+          "sourceHash": "ffd8743e3f54",
+          "kind": "light-cones",
+          "name": "Only Silence Remains",
+          "fileStem": "only-silence-remains",
+          "path": "Prydwen/hsr/assets/light-cones/only-silence-remains-ffd8743e3f54.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "a3c50358a7f0",
+          "sourceHash": "a3c50358a7f0",
+          "kind": "light-cones",
+          "name": "Cruising in the Stellar Sea",
+          "fileStem": "cruising-in-the-stellar-sea",
+          "path": "Prydwen/hsr/assets/light-cones/cruising-in-the-stellar-sea-a3c50358a7f0.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "c5f44d688dfd",
+          "sourceHash": "c5f44d688dfd",
+          "kind": "light-cones",
+          "name": "In the Night",
+          "fileStem": "in-the-night",
+          "path": "Prydwen/hsr/assets/light-cones/in-the-night-c5f44d688dfd.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-relic-sets-27",
+      "level": 2,
+      "heading": "Best Relic Sets",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n Pioneer Diver of Dead Waters ( 4 -PC)\n\n 100% uptime | 3 Debuffs Required\n Usage: 75 %\n MoC: -\n PF: 0\n AS: 0\n\n 95.41%\n\n Wastelander of Banditry Desert ( 4 -PC)\n\n 94.83%\n\n The Ashblazing Grand Duke ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Pioneer Diver of Dead Waters\n\n Scholar Lost in Erudition\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n Wastelander of Banditry Desert",
+      "assets": [
+        {
+          "id": "6e205de52037",
+          "sourceHash": "6e205de52037",
+          "kind": "relics",
+          "name": "Pioneer Diver of Dead Waters",
+          "fileStem": "pioneer-diver-of-dead-waters",
+          "path": "Prydwen/hsr/assets/relics/pioneer-diver-of-dead-waters-6e205de52037.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "b8549d5464b2",
+          "sourceHash": "b8549d5464b2",
+          "kind": "relics",
+          "name": "Wastelander of Banditry Desert",
+          "fileStem": "wastelander-of-banditry-desert",
+          "path": "Prydwen/hsr/assets/relics/wastelander-of-banditry-desert-b8549d5464b2.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "0edbfbfc2eca",
+          "sourceHash": "0edbfbfc2eca",
+          "kind": "relics",
+          "name": "The Ashblazing Grand Duke",
+          "fileStem": "the-ashblazing-grand-duke",
+          "path": "Prydwen/hsr/assets/relics/the-ashblazing-grand-duke-0edbfbfc2eca.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "f521b7a2ee25",
+          "sourceHash": "f521b7a2ee25",
+          "kind": "relics",
+          "name": "Scholar Lost in Erudition",
+          "fileStem": "scholar-lost-in-erudition",
+          "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "deeeca721276",
+          "sourceHash": "deeeca721276",
+          "kind": "relics",
+          "name": "Musketeer of Wild Wheat",
+          "fileStem": "musketeer-of-wild-wheat",
+          "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "507bb2127c32",
+          "sourceHash": "507bb2127c32",
+          "kind": "relics",
+          "name": "Prisoner in Deep Confinement",
+          "fileStem": "prisoner-in-deep-confinement",
+          "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "2d90f2919c5d",
+          "sourceHash": "2d90f2919c5d",
+          "kind": "relics",
+          "name": "The Wind-Soaring Valorous",
+          "fileStem": "the-wind-soaring-valorous",
+          "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-planetary-sets-28",
+      "level": 6,
+      "heading": "Best Planetary Sets",
+      "text": "100%\n\n Duran, Dynasty of Running Wolves ( 2 -PC)\n\n Best planar option for Dr. Ratio due to all of his teams featuring a good amount of Follow-Up attack triggers.\n Usage: 37.5 %\n MoC: -\n PF: 0\n AS: 0\n\n 99.46%\n\n Izumo Gensei and Takama Divine Realm ( 2 -PC)\n\n Gives a lot of CRIT Rate as long as you play Dr. Ratio with another Hunt character.\n 98.87%\n\n Firmament Frontline: Glamoth ( 2 -PC)\n\n 135 Speed\n 98.31%\n\n Inert Salsotto ( 2 -PC)\n\n Usage: 62.5 %\n MoC: -\n PF: 0\n AS: 0",
+      "assets": [
+        {
+          "id": "5c3fed1223b5",
+          "sourceHash": "5c3fed1223b5",
+          "kind": "relics",
+          "name": "Duran, Dynasty of Running Wolves",
+          "fileStem": "duran-dynasty-of-running-wolves",
+          "path": "Prydwen/hsr/assets/relics/duran-dynasty-of-running-wolves-5c3fed1223b5.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "b58fdc60eb2f",
+          "sourceHash": "b58fdc60eb2f",
+          "kind": "relics",
+          "name": "Izumo Gensei and Takama Divine Realm",
+          "fileStem": "izumo-gensei-and-takama-divine-realm",
+          "path": "Prydwen/hsr/assets/relics/izumo-gensei-and-takama-divine-realm-b58fdc60eb2f.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "83a4c570a0a2",
+          "sourceHash": "83a4c570a0a2",
+          "kind": "relics",
+          "name": "Firmament Frontline: Glamoth",
+          "fileStem": "firmament-frontline-glamoth",
+          "path": "Prydwen/hsr/assets/relics/firmament-frontline-glamoth-83a4c570a0a2.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "d3afe42bdcff",
+          "sourceHash": "d3afe42bdcff",
+          "kind": "relics",
+          "name": "Inert Salsotto",
+          "fileStem": "inert-salsotto",
+          "path": "Prydwen/hsr/assets/relics/inert-salsotto-d3afe42bdcff.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-stats-30",
+      "level": 2,
+      "heading": "Best Stats",
+      "text": "Body\n CRIT Rate\n >= CRIT DMG\n\n Feet\n Speed\n > ATK%\n\n Planar Sphere\n Imaginary DMG\n >= ATK%\n\n Link Rope\n ATK%\n\n Substats: SPD (breakpoint) > CRIT RATE = CRIT DMG > ATK%\n\n Reaching an acceptable Speed breakpoint for MoC and Pure Fiction while also hitting a high Crit Ratio is your top priority when searching for sub-stats. After achieving these goals ATK% can be searched for as a bonus.",
+      "assets": [
+        {
+          "id": "af5b8acc8f63",
+          "sourceHash": "af5b8acc8f63",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-critrate",
+          "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "44c437b21b3a",
+          "sourceHash": "44c437b21b3a",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "0c5f542e33b7",
+          "sourceHash": "0c5f542e33b7",
+          "kind": "icons",
+          "name": "Imaginary DMG",
+          "fileStem": "stat-imaginarydmg",
+          "path": "Prydwen/hsr/assets/icons/imaginary-dmg-0c5f542e33b7.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "recommended-endgame-stats-31",
+      "level": 2,
+      "heading": "Recommended endgame stats",
+      "text": "HP: 2800 - 3000+\n\n DEF: 900 - 1000+\n\n ATK: 2700 - 3100+\n\n CRIT RATE: 90% - 100% (including Dr. Ratio self-buffs)\n\n CRIT DMG: 180% - 200%+ (including Dr. Ratio self-buffs)\n\n SPD: Base Speed / 134 (Recommended) / 143 / 161",
+      "assets": []
+    },
+    {
+      "id": "traces-priority-32",
+      "level": 2,
+      "heading": "Traces priority",
+      "text": "Skills priority: Talent > Skill > Ultimate > Basic\n\n Major Traces priority: Summation (A2) > Deduction (A6) > Inference (A4)",
+      "assets": []
+    },
+    {
+      "id": "synergy-33",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Robin - Robin is the premier choice for the Amplifier spot in any FUA team, making her perfect for Dr. Ratio.\n Topaz & Numby - Topaz & Numby provides one of the necessary debuffs Dr. Ratio needs for his Skill. With either E1 or her Light Cone, or with both, she can completely fill the debuff needs for him as well as apply some very strong Follow-Up Attack centric debuffs on the enemy. Topaz also gets benefits out of Dr. Ratio for when his Follow-Up Attack activates on the enemy with the Mark, Numby advances forward resulting in even more actions.\n Moze - Dr. Ratio relies on enemies being debuffed at least 3 times (but ideally 5) in order to unleash his maximum potential - Moze relies on being paired with teammates that can attack as frequently as possible. Each of these character's solve each others problems perfectly.\n Jiaoqiu - Dr. Ratio relies on his team to apply 3-5 debuffs to bring his kit fully online. This restrict his teammate options, but Jiaoqiu having 2 semi-permanent debuffs and a 3rd from his Cone can do a lot to help with this. With Jiaoqiu bringing tons of debuffs, Ratio has a lot more options to choose from for the Amplifier and Sustain slots.\n Silver Wolf - Dr Ratio enjoys the plethora of debuffs Silver Wolf can apply to enemies. She can apply more than enough debuffs to guarantee his Follow-up ATKs trigger while also maxing out his debuff based damage bonuses almost single handedly.\n Pela - Pela is a free to play version of Jiaoqiu that provides him with debuffs and DEF Shred.\n Dan Heng • Permansor Terrae - Go-to sustain option for ATK-scaling teams. Permansor Terrae can provide strong Shields to the entire team, with an ATK buff for a single teammate and extra ATK multipliers. Notably with Sunday, his Souldragon will enable to the target to receive the full 80% DMG Bonus from Sunday's Skill and Souldragon will be Advanced along with the target to repeatedly refresh Shields on the team. Lacks debuffs for Ratio unless using debuff Light Cones.\n Aventurine - Alternative Follow-up Sustain that can apply a CRIT DMG Vulnerability debuffs to enemies, and with additional debuffs from signature Light Cone.",
+      "assets": [
+        {
+          "id": "e985c6a49a99",
+          "sourceHash": "e985c6a49a99",
+          "kind": "characters",
+          "name": "Robin",
+          "fileStem": "robin-icon",
+          "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "1ca64ab50183",
+          "sourceHash": "1ca64ab50183",
+          "kind": "characters",
+          "name": "Topaz & Numby",
+          "fileStem": "topaz-icon",
+          "path": "Prydwen/hsr/assets/characters/topaz-numby-1ca64ab50183.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "800df8257794",
+          "sourceHash": "800df8257794",
+          "kind": "characters",
+          "name": "Moze",
+          "fileStem": "moze-icon",
+          "path": "Prydwen/hsr/assets/characters/moze-800df8257794.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "113fc62e3664",
+          "sourceHash": "113fc62e3664",
+          "kind": "characters",
+          "name": "Jiaoqiu",
+          "fileStem": "jiaoqiu-icon",
+          "path": "Prydwen/hsr/assets/characters/jiaoqiu-113fc62e3664.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "7eec89c1a7e2",
+          "sourceHash": "7eec89c1a7e2",
+          "kind": "characters",
+          "name": "Silver Wolf",
+          "fileStem": "silver-wolf-icon",
+          "path": "Prydwen/hsr/assets/characters/silver-wolf-7eec89c1a7e2.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "22cecac0da56",
+          "sourceHash": "22cecac0da56",
+          "kind": "characters",
+          "name": "Pela",
+          "fileStem": "pela-icon",
+          "path": "Prydwen/hsr/assets/characters/pela-22cecac0da56.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "714348f14d48",
+          "sourceHash": "714348f14d48",
+          "kind": "characters",
+          "name": "Dan Heng • Permansor Terrae",
+          "fileStem": "dan-heng-permansor-terrae-icon",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "0658046ea612",
+          "sourceHash": "0658046ea612",
+          "kind": "characters",
+          "name": "Aventurine",
+          "fileStem": "aventurine-icon",
+          "path": "Prydwen/hsr/assets/characters/aventurine-0658046ea612.webp",
+          "width": 45,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "id": "anomaly-arbitration-38",
+      "level": 6,
+      "heading": "Anomaly Arbitration",
+      "text": "Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 9\n\n New\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.5\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 6\n\n New\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 3\n\n New\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 7",
+      "assets": [
+        {
+          "id": "54aee7624703",
+          "sourceHash": "54aee7624703",
+          "kind": "characters",
+          "name": "Dr. Ratio",
+          "fileStem": "dr-ratio-icon",
+          "path": "Prydwen/hsr/assets/characters/dr-ratio-54aee7624703.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "913ff64407f2",
+          "sourceHash": "913ff64407f2",
+          "kind": "icons",
+          "name": "Imaginary",
+          "fileStem": "ele-imaginary",
+          "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "99361e4717fa",
+          "sourceHash": "99361e4717fa",
+          "kind": "characters",
+          "name": "Mortenax Blade",
+          "fileStem": "blade-mortenax-icon",
+          "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "92feb26d8f0e",
+          "sourceHash": "92feb26d8f0e",
+          "kind": "icons",
+          "name": "Fire",
+          "fileStem": "ele-fire",
+          "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "2cde7699adbf",
+          "sourceHash": "2cde7699adbf",
+          "kind": "characters",
+          "name": "Tribbie",
+          "fileStem": "tribbie-icon",
+          "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "565914d1a436",
+          "sourceHash": "565914d1a436",
+          "kind": "icons",
+          "name": "Quantum",
+          "fileStem": "ele-quantum",
+          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "c4a9c00e98ef",
+          "sourceHash": "c4a9c00e98ef",
+          "kind": "characters",
+          "name": "Huohuo",
+          "fileStem": "huohuo-icon",
+          "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ee11bd390c9a",
+          "sourceHash": "ee11bd390c9a",
+          "kind": "icons",
+          "name": "Wind",
+          "fileStem": "ele-wind",
+          "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "f380b4ccce3e",
+          "sourceHash": "f380b4ccce3e",
+          "kind": "characters",
+          "name": "Ashveil",
+          "fileStem": "ashveil-icon",
+          "path": "Prydwen/hsr/assets/characters/ashveil-f380b4ccce3e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d197456869a0",
+          "sourceHash": "d197456869a0",
+          "kind": "icons",
+          "name": "Lightning",
+          "fileStem": "ele-lightning",
+          "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "714348f14d48",
+          "sourceHash": "714348f14d48",
+          "kind": "characters",
+          "name": "Dan Heng • Permansor Terrae",
+          "fileStem": "dan-heng-permansor-terrae-icon",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0db16ed6c66",
+          "sourceHash": "e0db16ed6c66",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "ele-physical",
+          "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "901456d3c61d",
+          "sourceHash": "901456d3c61d",
+          "kind": "characters",
+          "name": "Luocha",
+          "fileStem": "luocha-icon",
+          "path": "Prydwen/hsr/assets/characters/luocha-901456d3c61d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3d568cb7f29d",
+          "sourceHash": "3d568cb7f29d",
+          "kind": "characters",
+          "name": "Sunday",
+          "fileStem": "sunday-icon",
+          "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "video-guides-39",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "MoC/PF/AS Statistics",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-light-cones": {
+      "label": "Best Light Cones",
+      "sections": [
+        {
+          "heading": "Best Light Cones",
+          "text": "116.12%\n\n Baptism of Pure Thought (S 1 )\n\n Clear best Light Cone for Ratio assuming you can maintain 3 debuffs on the enemy. Becomes even more powerful when including teammates that can shred DEF like Pela or Silver Wolf.\n Usage: 100 %\n MoC: -\n PF: 0\n AS: 0\n\n 107.17%\n\n Worrisome, Blissful (S 1 )\n\n Less powerful than Ratio's signature but still a reasonable choice, boasting the advantage of applying a debuff of its own with its in-built effect. This debuff boosts other damage dealers' attack as well as Ratios while also counting as a debuff for Ratio to take advantage of.\n\n 101.41%\n\n Only Silence Remains (S 5 )\n\n An alternative to Cruising as a somewhat accessible option but only at S5 and in battles you can quickly narrow down to 2 enemies or less. More situational and difficult to make use of than the other Cones.\n\n 100%\n\n Cruising in the Stellar Sea (S 5 )\n\n 95.75%\n\n In the Night (S 1 )\n\n Calcs contain some reallocation of ATK%, CRIT RATE, and CRIT DMG% to SPD in order to achieve 4-6 stacks of the bonus. With better relics and teams that grant more Speed this Cone's performance will improve comparatively.",
+          "assets": [
+            {
+              "id": "64273080383a",
+              "sourceHash": "64273080383a",
+              "kind": "light-cones",
+              "name": "Baptism of Pure Thought",
+              "fileStem": "baptism-of-pure-thought",
+              "path": "Prydwen/hsr/assets/light-cones/baptism-of-pure-thought-64273080383a.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "86e9a7e2bf92",
+              "sourceHash": "86e9a7e2bf92",
+              "kind": "light-cones",
+              "name": "Worrisome, Blissful",
+              "fileStem": "worrisome-blissful",
+              "path": "Prydwen/hsr/assets/light-cones/worrisome-blissful-86e9a7e2bf92.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "ffd8743e3f54",
+              "sourceHash": "ffd8743e3f54",
+              "kind": "light-cones",
+              "name": "Only Silence Remains",
+              "fileStem": "only-silence-remains",
+              "path": "Prydwen/hsr/assets/light-cones/only-silence-remains-ffd8743e3f54.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "a3c50358a7f0",
+              "sourceHash": "a3c50358a7f0",
+              "kind": "light-cones",
+              "name": "Cruising in the Stellar Sea",
+              "fileStem": "cruising-in-the-stellar-sea",
+              "path": "Prydwen/hsr/assets/light-cones/cruising-in-the-stellar-sea-a3c50358a7f0.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "c5f44d688dfd",
+              "sourceHash": "c5f44d688dfd",
+              "kind": "light-cones",
+              "name": "In the Night",
+              "fileStem": "in-the-night",
+              "path": "Prydwen/hsr/assets/light-cones/in-the-night-c5f44d688dfd.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-relic-sets": {
+      "label": "Best Relic Sets",
+      "sections": [
+        {
+          "heading": "Best Relic Sets",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n Pioneer Diver of Dead Waters ( 4 -PC)\n\n 100% uptime | 3 Debuffs Required\n Usage: 75 %\n MoC: -\n PF: 0\n AS: 0\n\n 95.41%\n\n Wastelander of Banditry Desert ( 4 -PC)\n\n 94.83%\n\n The Ashblazing Grand Duke ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Pioneer Diver of Dead Waters\n\n Scholar Lost in Erudition\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n Wastelander of Banditry Desert",
+          "assets": [
+            {
+              "id": "6e205de52037",
+              "sourceHash": "6e205de52037",
+              "kind": "relics",
+              "name": "Pioneer Diver of Dead Waters",
+              "fileStem": "pioneer-diver-of-dead-waters",
+              "path": "Prydwen/hsr/assets/relics/pioneer-diver-of-dead-waters-6e205de52037.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "b8549d5464b2",
+              "sourceHash": "b8549d5464b2",
+              "kind": "relics",
+              "name": "Wastelander of Banditry Desert",
+              "fileStem": "wastelander-of-banditry-desert",
+              "path": "Prydwen/hsr/assets/relics/wastelander-of-banditry-desert-b8549d5464b2.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "0edbfbfc2eca",
+              "sourceHash": "0edbfbfc2eca",
+              "kind": "relics",
+              "name": "The Ashblazing Grand Duke",
+              "fileStem": "the-ashblazing-grand-duke",
+              "path": "Prydwen/hsr/assets/relics/the-ashblazing-grand-duke-0edbfbfc2eca.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "f521b7a2ee25",
+              "sourceHash": "f521b7a2ee25",
+              "kind": "relics",
+              "name": "Scholar Lost in Erudition",
+              "fileStem": "scholar-lost-in-erudition",
+              "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "deeeca721276",
+              "sourceHash": "deeeca721276",
+              "kind": "relics",
+              "name": "Musketeer of Wild Wheat",
+              "fileStem": "musketeer-of-wild-wheat",
+              "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "507bb2127c32",
+              "sourceHash": "507bb2127c32",
+              "kind": "relics",
+              "name": "Prisoner in Deep Confinement",
+              "fileStem": "prisoner-in-deep-confinement",
+              "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "2d90f2919c5d",
+              "sourceHash": "2d90f2919c5d",
+              "kind": "relics",
+              "name": "The Wind-Soaring Valorous",
+              "fileStem": "the-wind-soaring-valorous",
+              "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-planetary-sets": {
+      "label": "Best Planetary Sets",
+      "sections": [
+        {
+          "heading": "Best Planetary Sets",
+          "text": "100%\n\n Duran, Dynasty of Running Wolves ( 2 -PC)\n\n Best planar option for Dr. Ratio due to all of his teams featuring a good amount of Follow-Up attack triggers.\n Usage: 37.5 %\n MoC: -\n PF: 0\n AS: 0\n\n 99.46%\n\n Izumo Gensei and Takama Divine Realm ( 2 -PC)\n\n Gives a lot of CRIT Rate as long as you play Dr. Ratio with another Hunt character.\n 98.87%\n\n Firmament Frontline: Glamoth ( 2 -PC)\n\n 135 Speed\n 98.31%\n\n Inert Salsotto ( 2 -PC)\n\n Usage: 62.5 %\n MoC: -\n PF: 0\n AS: 0",
+          "assets": [
+            {
+              "id": "5c3fed1223b5",
+              "sourceHash": "5c3fed1223b5",
+              "kind": "relics",
+              "name": "Duran, Dynasty of Running Wolves",
+              "fileStem": "duran-dynasty-of-running-wolves",
+              "path": "Prydwen/hsr/assets/relics/duran-dynasty-of-running-wolves-5c3fed1223b5.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "b58fdc60eb2f",
+              "sourceHash": "b58fdc60eb2f",
+              "kind": "relics",
+              "name": "Izumo Gensei and Takama Divine Realm",
+              "fileStem": "izumo-gensei-and-takama-divine-realm",
+              "path": "Prydwen/hsr/assets/relics/izumo-gensei-and-takama-divine-realm-b58fdc60eb2f.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "83a4c570a0a2",
+              "sourceHash": "83a4c570a0a2",
+              "kind": "relics",
+              "name": "Firmament Frontline: Glamoth",
+              "fileStem": "firmament-frontline-glamoth",
+              "path": "Prydwen/hsr/assets/relics/firmament-frontline-glamoth-83a4c570a0a2.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "d3afe42bdcff",
+              "sourceHash": "d3afe42bdcff",
+              "kind": "relics",
+              "name": "Inert Salsotto",
+              "fileStem": "inert-salsotto",
+              "path": "Prydwen/hsr/assets/relics/inert-salsotto-d3afe42bdcff.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-stats": {
+      "label": "Best Stats",
+      "sections": [
+        {
+          "heading": "Best Stats",
+          "text": "Body\n CRIT Rate\n >= CRIT DMG\n\n Feet\n Speed\n > ATK%\n\n Planar Sphere\n Imaginary DMG\n >= ATK%\n\n Link Rope\n ATK%\n\n Substats: SPD (breakpoint) > CRIT RATE = CRIT DMG > ATK%\n\n Reaching an acceptable Speed breakpoint for MoC and Pure Fiction while also hitting a high Crit Ratio is your top priority when searching for sub-stats. After achieving these goals ATK% can be searched for as a bonus.",
+          "assets": [
+            {
+              "id": "af5b8acc8f63",
+              "sourceHash": "af5b8acc8f63",
+              "kind": "icons",
+              "name": "CRIT Rate",
+              "fileStem": "stat-critrate",
+              "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "44c437b21b3a",
+              "sourceHash": "44c437b21b3a",
+              "kind": "icons",
+              "name": "CRIT DMG",
+              "fileStem": "stat-critdmg",
+              "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "087f2dec68b6",
+              "sourceHash": "087f2dec68b6",
+              "kind": "icons",
+              "name": "Speed",
+              "fileStem": "stat-speed",
+              "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "dc6aec4a7776",
+              "sourceHash": "dc6aec4a7776",
+              "kind": "icons",
+              "name": "ATK",
+              "fileStem": "stat-atk",
+              "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "0c5f542e33b7",
+              "sourceHash": "0c5f542e33b7",
+              "kind": "icons",
+              "name": "Imaginary DMG",
+              "fileStem": "stat-imaginarydmg",
+              "path": "Prydwen/hsr/assets/icons/imaginary-dmg-0c5f542e33b7.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        }
+      ]
+    },
+    "recommended-endgame-stats": {
+      "label": "Recommended endgame stats",
+      "sections": [
+        {
+          "heading": "Recommended endgame stats",
+          "text": "HP: 2800 - 3000+\n\n DEF: 900 - 1000+\n\n ATK: 2700 - 3100+\n\n CRIT RATE: 90% - 100% (including Dr. Ratio self-buffs)\n\n CRIT DMG: 180% - 200%+ (including Dr. Ratio self-buffs)\n\n SPD: Base Speed / 134 (Recommended) / 143 / 161",
+          "assets": []
+        }
+      ]
+    },
+    "traces-priority": {
+      "label": "Traces priority",
+      "sections": [
+        {
+          "heading": "Traces priority",
+          "text": "Skills priority: Talent > Skill > Ultimate > Basic\n\n Major Traces priority: Summation (A2) > Deduction (A6) > Inference (A4)",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Robin - Robin is the premier choice for the Amplifier spot in any FUA team, making her perfect for Dr. Ratio.\n Topaz & Numby - Topaz & Numby provides one of the necessary debuffs Dr. Ratio needs for his Skill. With either E1 or her Light Cone, or with both, she can completely fill the debuff needs for him as well as apply some very strong Follow-Up Attack centric debuffs on the enemy. Topaz also gets benefits out of Dr. Ratio for when his Follow-Up Attack activates on the enemy with the Mark, Numby advances forward resulting in even more actions.\n Moze - Dr. Ratio relies on enemies being debuffed at least 3 times (but ideally 5) in order to unleash his maximum potential - Moze relies on being paired with teammates that can attack as frequently as possible. Each of these character's solve each others problems perfectly.\n Jiaoqiu - Dr. Ratio relies on his team to apply 3-5 debuffs to bring his kit fully online. This restrict his teammate options, but Jiaoqiu having 2 semi-permanent debuffs and a 3rd from his Cone can do a lot to help with this. With Jiaoqiu bringing tons of debuffs, Ratio has a lot more options to choose from for the Amplifier and Sustain slots.\n Silver Wolf - Dr Ratio enjoys the plethora of debuffs Silver Wolf can apply to enemies. She can apply more than enough debuffs to guarantee his Follow-up ATKs trigger while also maxing out his debuff based damage bonuses almost single handedly.\n Pela - Pela is a free to play version of Jiaoqiu that provides him with debuffs and DEF Shred.\n Dan Heng • Permansor Terrae - Go-to sustain option for ATK-scaling teams. Permansor Terrae can provide strong Shields to the entire team, with an ATK buff for a single teammate and extra ATK multipliers. Notably with Sunday, his Souldragon will enable to the target to receive the full 80% DMG Bonus from Sunday's Skill and Souldragon will be Advanced along with the target to repeatedly refresh Shields on the team. Lacks debuffs for Ratio unless using debuff Light Cones.\n Aventurine - Alternative Follow-up Sustain that can apply a CRIT DMG Vulnerability debuffs to enemies, and with additional debuffs from signature Light Cone.",
+          "assets": [
+            {
+              "id": "e985c6a49a99",
+              "sourceHash": "e985c6a49a99",
+              "kind": "characters",
+              "name": "Robin",
+              "fileStem": "robin-icon",
+              "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "1ca64ab50183",
+              "sourceHash": "1ca64ab50183",
+              "kind": "characters",
+              "name": "Topaz & Numby",
+              "fileStem": "topaz-icon",
+              "path": "Prydwen/hsr/assets/characters/topaz-numby-1ca64ab50183.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "800df8257794",
+              "sourceHash": "800df8257794",
+              "kind": "characters",
+              "name": "Moze",
+              "fileStem": "moze-icon",
+              "path": "Prydwen/hsr/assets/characters/moze-800df8257794.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "113fc62e3664",
+              "sourceHash": "113fc62e3664",
+              "kind": "characters",
+              "name": "Jiaoqiu",
+              "fileStem": "jiaoqiu-icon",
+              "path": "Prydwen/hsr/assets/characters/jiaoqiu-113fc62e3664.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "7eec89c1a7e2",
+              "sourceHash": "7eec89c1a7e2",
+              "kind": "characters",
+              "name": "Silver Wolf",
+              "fileStem": "silver-wolf-icon",
+              "path": "Prydwen/hsr/assets/characters/silver-wolf-7eec89c1a7e2.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "22cecac0da56",
+              "sourceHash": "22cecac0da56",
+              "kind": "characters",
+              "name": "Pela",
+              "fileStem": "pela-icon",
+              "path": "Prydwen/hsr/assets/characters/pela-22cecac0da56.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "714348f14d48",
+              "sourceHash": "714348f14d48",
+              "kind": "characters",
+              "name": "Dan Heng • Permansor Terrae",
+              "fileStem": "dan-heng-permansor-terrae-icon",
+              "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "0658046ea612",
+              "sourceHash": "0658046ea612",
+              "kind": "characters",
+              "name": "Aventurine",
+              "fileStem": "aventurine-icon",
+              "path": "Prydwen/hsr/assets/characters/aventurine-0658046ea612.webp",
+              "width": 45,
+              "height": 45
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Dr. Ratio Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Dr. Ratio\n Dr. Ratio Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Dr. Ratio from HSR (Honkai: Star Rail). Dr. Ratio is a 5 ★ character from the Imaginary element who follows the Path of Hunt .\n A candid and self-centered Intelligentsia Guild member, who often conceals his appearance with a strange plaster sculpture. He demonstrated unparalleled intelligence and talent since his youth, but now refers to himself as a \"Mundanite.\" He firmly believes that intellect and creativity are not confined to geniuses. He seeks to distribute knowledge to the entire universe to cure the persistent disease named ignorance.\n\n To learn more about Dr. Ratio check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Dr. Ratio has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 3.2\n\n Last major build/calcs update\n Patch 3.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Dr. Ratio check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Mind is Might\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Imaginary DMG equal to #1[i]% of Dr. Ratio's ATK to a single target enemy.\n\n Skill\n Intellectual Midwifery\n Single Target\n\n Lv. 1\n\n Energy gain: 30\n Break: 20\n\n Deals Imaginary DMG equal to #1[i]% of Dr. Ratio's ATK to a single target enemy.\n\n Ultimate\n Syllogistic Paradox\n Single Target | 140 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 30\n\n Deals Imaginary DMG equal to #1[i]% of Dr. Ratio's ATK to a single target enemy and applies Wiseman's Folly. When Dr. Ratio's allies attack a target afflicted with Wiseman's Folly, Dr. Ratio launches his Talent's follow-up attack for 1 time against this target.\nWiseman's Folly can be triggered for up to #2[i] times and only affects the most recent target of Dr. Ratio's Ultimate. This trigger count resets after Dr. Ratio's Ultimate is used.\n\n Talent\n Cogito, Ergo Sum\n Single Target\n\n Lv. 1\n\n Energy gain: 5\n Break: 10\n\n When using his Skill, Dr. Ratio has a #2[i]% fixed chance of launching a follow-up attack against his target for 1 time, dealing Imaginary DMG equal to #1[i]% of Dr. Ratio's ATK. For each debuff the target enemy has, the fixed chance of launching follow-up attack increases by #3[i]%. If the target enemy is defeated before the follow-up attack triggers, the follow-up attack will be directed at a single random enemy instead.\n\n Technique\n Mold of Idolatry\n Impair\n\n Energy gain: 0\n Break: -\n\n After using Technique, creates a special dimension that Taunts nearby enemies, lasting for #1[i] second(s). After entering battle with enemies in this special dimension, there is a #2[i]% base chance to reduce each single enemy target's SPD by #3[i]% for #4[i] turn(s). Only 1 dimension created by allies can exist at the same time.\n\n Major Traces\n A2 Major trace\n Summation\n\n When Dr. Ratio uses his Skill, for every debuff on the target, his CRIT Rate increases by 2.5% and CRIT DMG by 5% . This effect can stack up to 6 time(s).\n\n A4 Major trace\n Inference\n\n When Skill is used to attack an enemy target, there is a 100% base chance to reduce the attacked target's Effect RES by 10% for 2 turn(s).\n\n A6 Major trace\n Deduction\n\n When dealing DMG to a target that has 3 or more debuff(s), for each debuff the target has, the DMG dealt by Dr. Ratio to this target increases by 10% , up to a maximum increase of 50% .\n\n Minor Traces (total)\n ATK\n + 28%\n\n CRIT Rate\n + 12%\n\n DEF\n + 12.5%\n\n Eidolons\n E 1\n Pride Comes Before a Fall\n Eidolon 1\n\n The maximum stackable count for the Trace \"Summation\" increases by 4 . When a battle begins, immediately obtains 4 stacks of Summation. Needs to unlock Summation first.\n\n E 2\n The Divine Is in the Details\n Eidolon 2\n\n When his Talent's follow-up attack hits a target, for every debuff the target has, additionally deals Imaginary Additional DMG equal to 20% of Dr. Ratio's ATK. This effect can be triggered for a maximum of 4 time(s) during each follow-up attack.\n\n E 3\n Know Thyself\n Eidolon 3\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Ignorance Is Blight\n Eidolon 4\n\n When triggering the Talent, additionally regenerates 15 Energy for Dr. Ratio.\n\n E 5\n Sic Itur Ad Astra\n Eidolon 5\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Vincit Omnia Veritas\n Eidolon 6\n\n Increases the trigger count for Wiseman's Folly by 1 . The DMG dealt by the Talent's follow-up attack increases by 50% .\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1047\n\n ATK\n\n 776\n\n DEF\n\n 460\n\n Speed\n\n 103\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 308000\n\n Thief's Instinct\n\n x 15\n\n Usurper's Scheme\n\n x 15\n\n Suppressing Edict\n\n x 65\n\n Conqueror's Will\n\n x 15\n\n CV\n ENG\n Jordan Paul Haro\n\n JPN\n 武内駿輔 (Takeuchi Shunsuke)\n\n CN\n 桑毓泽 (Sang Yuze)\n\n KR\n 이동훈 (Lee Donghoon)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Great single-target damage,\n\n Follow-up ATKs deal high Toughness damage,\n\n Many powerful relic options to choose from\n\n Some limited potential to deal with multiple targets.\n\n Easy to build CRIT stats with Traces adding decent amounts of CRIT Rate.\n\n Cons\n Low damage multipliers compared to version 3 units,\n\n High Energy cost Ultimate,\n\n Requires at least 3 debuffs on targets for consistent Follow-ups,\n\n Outside of his slight multi-target capabilities, he’s still ultimately a single-target unit.\n\n Review (By Sushou)\n Dr. Ratio is a very powerful single-target damage dealer that was given out for free to all players from 1.6 to until the start of 2.1. He specialises in dealing damage through follow-ups and accumulating permanent CRIT buffs in combat. He also benefits noticeably from attacking debuffed enemies, guaranteeing his follow-up at 3 debuffs and receiving a DMG bonus per stack, maxing out at 5 debuffs. The ways he can use his follow-up attack both provide more Energy over time than other characters and can somewhat alleviate the usual inherent weakness of Hunt characters.\n The abrasive meme-lord with a heart of gold, Dr. Veritas Ratio finally graces us with his presence. Giving us the ability to play him early with a Trial version taught us much about his capabilities, and now that he’s here for real, it’s fairly apparent that he was actually holding out on us.\n Before going into the usual breakdown, some important information first. Since debuffs are very important for Dr. Ratio’s kit, you should know what exactly constitutes a debuff in this game. The rule is this: if a Status Effect features a small red arrow pointing downwards, this is considered a debuff. If you are in doubt, you can inspect the Enemy Details window in combat and the Status Summary at the bottom will explicitly state how many debuffs they are currently afflicted with. If you don’t read this paragraph, you forfeit the right to complain later when you discover Hanya’s Burden isn’t a debuff.\n Dr. Ratio’s Skill is a standard single-target Skill, dealing up to 150% of his ATK to a single enemy. This may initially seem rather low but this Skill works in tandem with his Talent as well as his Bonus Ability Traces, leading to far greater damage numbers for the meagre cost of 1 Skill Point.\n His Talent is his main source of damage. When using his Skill, he has a 40% fixed chance to launch a follow-up attack against his target, dealing up to an impressive 270% ATK. Each debuff the target of his Skill is affected by will increase the fixed chance of this follow-up occurring by 20%. This means that if the targeted enemy has at least 3 debuffs on them, Dr. Ratio will always follow a Skill usage with a Talent follow-up, dealing a combined 420% ATK to a single enemy. Very dank, and very strong.\n It should be noted that if his Skill defeats the target before the follow-up can be launched, Ratio will launch it anyway against a random other enemy. This prevents much of the value from being lost due to an early enemy death, but more importantly it helps to alleviate the natural downside of the Path of The Hunt, namely that they are exclusively single-target focused. In a similar sort of vein as Seele can use lesser enemies to bolster her offence, Ratio can pick off smaller foes and weakened stragglers and still deal damage against the remaining foes; with an upfront damage multiplier of 150% on his Skill, it is not unreasonable to expect this to deal with trash adds outright with proper setup.\n Dr. Ratio’s Ultimate deals up to 240% ATK to a single enemy and applies a status effect called Wiseman’s Folly (it's not a debuff). Whenever allies attack a target with Wiseman’s Folly, Dr. Ratio will automatically launch a follow-up attack against them out of turn. This can happen 2 times before the status effect is automatically removed. This lasts indefinitely unless the afflicted enemy dies or until the trigger count is met.\n This Ultimate allows Ratio to deal even more damage outside of his turn and use buffs even more efficiently. There is however an issue with this Ultimate, and that is that the debuff is removed when the enemy dies. It does not hop like Topaz’s Proof of Debt, meaning if an enemy dies before the trigger count is met for Ratio’s Ultimate, he completely loses the effects of the Ultimate. Given that this admittedly strong Ultimate has a steep cost of 140 Energy, losing its effects is miserable to have happen even if you’ve already gotten one follow-up off. Mostly if this happens, sorry, it’s a skill issue. This should only ever naturally occur at the very end of combat when it doesn’t matter anymore.\n Another important thing to note is that because of the amount of follow-ups Ratio throws, his Energy economy is actually surprisingly good since each Talent follow-up gives 5 Energy; assuming you’re attacking an enemy with at least 3 debuffs, his Skill gives 35 Energy per cast, and his Ultimate provides 10 additional Energy once the Wiseman’s Folly follow-ups have been expended . The amount of follow-ups also contributes to a very impressive amount of overall Toughness damage, with each one dealing 30 Toughness damage, the same as a typical Basic ATK. Combining with his Skill again, each one of his turns he will be dealing 90 Toughness damage, the equivalent of all single-target Ultimates besides Xueyi’s.\n Dr. Ratio’s Bonus Ability Traces provide some very powerful additional effects. A2 will provide permanent stacks of 2.5% CRIT Rate and 5% CRIT DMG whenever he uses his Skill against a debuffed enemy. The number of stacks he gets depends on the number of debuffs the enemy has on them, and he can have up to 6 stacks in total, granting 15% CRIT Rate and 30% CRIT DMG. This passive has sparked some confusion due to its wording, so to be as clear as possible, the bonuses do not need to be obtained concurrently ; if an enemy has only 3 debuffs on them, you will gain the full 6 stacks after two Skill uses against them; if they only have 2, you will need three Skill uses to get the 6 stacks.\n His A4 gives his Skill a 100% base chance to reduce the target’s Effect RES by 10% for 2 turns, giving Ratio an inherent debuff to apply to enemies. This debuff also becomes easier to maintain on enemies after its initial application due to the Effect RES reduction it provides. This also means teammates only need to provide 2 additional debuffs to meet the 100% follow-up chance on Skill use from his Talent. Do note that this debuff is only applied after the follow-up check occurs, meaning if you’re relying on this as your 3rd debuff, your first follow-up won’t have a 100% fixed chance to happen.\n A6 will grant Ratio a DMG% buff for attacking debuffed enemies. This effect starts functioning at 3 debuffs and maxes out at 5, providing 10% DMG dealt for each debuff. This means that having 5 debuffs will give him a bonus 50% DMG dealt against the target with a 100% fixed chance to throw follow-ups on Skill uses, resulting in colossal damage output, but so long as you can meet the 3 debuff threshold for his Talent, 30% DMG dealt is perfectly acceptable as well. 100% chance for his follow-up is the most important milestone to reach, so don’t bend over backwards going for 5 debuffs if the team can’t attain it or if it’d result in a worse team composition.\n Dr. Ratio also gets 12% CRIT Rate from his Minor Traces as well as 28% ATK. ‘Why are you mentioning ATK Traces?’ Because, as of the time of writing this, Dr. Ratio has the absolute highest Base ATK value in the game of 776, meaning ATK% bonuses will have a more noticeable impact on his overall ATK rating (it's actually funny how this is still true in 2.5 - nearly 8 months after his release).\n Let's go over Dr. Ratio's Eidolons next. Ratio is great at E0 and absolutely none of them are necessary in any way. However, here's some info about how the Eidolons work for him. E1 allows A6 CRIT buffs to stack to 10, E2 causes his follow-up to deal 20% additional ATK damage per debuff against debuffed enemies, up to an 80% ATK bonus per follow-up, E4 basically refills Ratio’s Energy bar in mere moments by giving 15 Energy back per follow-up, and E6 increases the number of Ultimate triggers to 3 while also increasing the DMG dealt by the follow-up by a massive 50%.\n As you can no doubt tell from what’s been said already, a very significant portion of Ratio’s total damage comes from his follow-up attack, but even more than that, it’s a majority of his damage. If you are unable to meet the minimum requirements of 3 debuffs to activate his follow-up attack, you will haemorrhage damage . There are only benefits to reap by meeting this baseline as it unlocks all the aforementioned great parts of his kit: his overall damage throughput, his remarkable Energy economy and Toughness damage, and even a minor ability to break out of his otherwise pure single-target damage profile.\n As such, Ratio pairs very well with characters that can enable or amplify his capabilities. Also, it’s important to know that all Nihility characters can equip the Light Cone Resolution Shines As Pearls of Sweat, providing an extra debuff and decreasing enemies’ DEF.\n Here are some great options for this spot:\n Topaz is his best partner, but do note that without hers E1 or S1, you will need to find a source of at least 1 more debuff to hit his cap.\n\n Pela can keep her Ultimate’s DEF Shred up pretty much indefinitely on all enemies, making it easier to switch to new targets when Ratio’s chalk deals the finishing blow, but it is only 1 consistent debuff without Resolution.\n\n Silver Wolf is understandably fantastic for racking up huge amounts of debuffs on single targets even at E0, and with the right setup, a single Skill usage from Silver Wolf can very nearly enable Dr. Ratio’s entire kit while also being able to ensure the enemy has an Imaginary Weakness thanks to her Skill’s Weakness Implant.\n\n Jiaoqiu is another great option for the debuffer spot that easily can fill the debuff quota for Dr. Ratio and provide some additional damage. Especially in AoE scenarios, this can greatly offset Ratio’s weaker AoE capabilities by either dealing with smaller enemies outright, or by softening them up enough that Ratio can kill them with his Skill and then throw his follow-up on a completely different target.\n\n If gaining enough debuffs is not a concern then Ratio of course also has access to the usual suite of Harmony characters as well. Bronya, Ruan Mei, Tingyun, Robin and Sunday are all very good at significantly increasing the damage Dr. Ratio can deal - so basically the usual Hypercarry Amplifiers pair nicely with him. Robin being the obvious choice for any FUA team as it's the archetype she shines the most with.\n A final note is that Dr. Ratio’s signature Light Cone is exceptionally powerful on him in particular. Ratio is absolutely fine and strong with the likes of Cruising in the Stellar Sea, but his performance goes up by that much more with his signature Light Cone, and it provides better quality of life than trying to maintain the passives of other Light Cone options. Again, Ratio is being evaluated here with the easily and freely accessible options and he’s already guaranteed to swat everything away with little effort, but he gets that much stronger with his sig.\n Overall, Dr. Ratio is not a complicated character once you’ve understood how he works, and he works with a vast array of other characters, fitting in nicely among the rest of the roster. Just keep in mind that he was replaced as the premier FUA damage dealer by Feixiao , who can do what Dr. Ratio does, but better. So if you're interested in the FUA archetype, check Feixiao first.\n Dr. Ratio isn't by any means weak, but his glory days have passed.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Damage dealer\n T5\n MoC\n\n T5\n PF\n\n T5\n AS\n\n Build and teams\n\n Best Light Cones\n\n 116.12%\n\n Baptism of Pure Thought (S 1 )\n\n Clear best Light Cone for Ratio assuming you can maintain 3 debuffs on the enemy. Becomes even more powerful when including teammates that can shred DEF like Pela or Silver Wolf.\n Usage: 100 %\n MoC: -\n PF: 0\n AS: 0\n\n 107.17%\n\n Worrisome, Blissful (S 1 )\n\n Less powerful than Ratio's signature but still a reasonable choice, boasting the advantage of applying a debuff of its own with its in-built effect. This debuff boosts other damage dealers' attack as well as Ratios while also counting as a debuff for Ratio to take advantage of.\n\n 101.41%\n\n Only Silence Remains (S 5 )\n\n An alternative to Cruising as a somewhat accessible option but only at S5 and in battles you can quickly narrow down to 2 enemies or less. More situational and difficult to make use of than the other Cones.\n\n 100%\n\n Cruising in the Stellar Sea (S 5 )\n\n 95.75%\n\n In the Night (S 1 )\n\n Calcs contain some reallocation of ATK%, CRIT RATE, and CRIT DMG% to SPD in order to achieve 4-6 stacks of the bonus. With better relics and teams that grant more Speed this Cone's performance will improve comparatively.\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n Pioneer Diver of Dead Waters ( 4 -PC)\n\n 100% uptime | 3 Debuffs Required\n Usage: 75 %\n MoC: -\n PF: 0\n AS: 0\n\n 95.41%\n\n Wastelander of Banditry Desert ( 4 -PC)\n\n 94.83%\n\n The Ashblazing Grand Duke ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Pioneer Diver of Dead Waters\n\n Scholar Lost in Erudition\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n Wastelander of Banditry Desert\n\n Best Planetary Sets\n 100%\n\n Duran, Dynasty of Running Wolves ( 2 -PC)\n\n Best planar option for Dr. Ratio due to all of his teams featuring a good amount of Follow-Up attack triggers.\n Usage: 37.5 %\n MoC: -\n PF: 0\n AS: 0\n\n 99.46%\n\n Izumo Gensei and Takama Divine Realm ( 2 -PC)\n\n Gives a lot of CRIT Rate as long as you play Dr. Ratio with another Hunt character.\n 98.87%\n\n Firmament Frontline: Glamoth ( 2 -PC)\n\n 135 Speed\n 98.31%\n\n Inert Salsotto ( 2 -PC)\n\n Usage: 62.5 %\n MoC: -\n PF: 0\n AS: 0\n\n Best Stats\n\n Body\n CRIT Rate\n >= CRIT DMG\n\n Feet\n Speed\n > ATK%\n\n Planar Sphere\n Imaginary DMG\n >= ATK%\n\n Link Rope\n ATK%\n\n Substats: SPD (breakpoint) > CRIT RATE = CRIT DMG > ATK%\n\n Reaching an acceptable Speed breakpoint for MoC and Pure Fiction while also hitting a high Crit Ratio is your top priority when searching for sub-stats. After achieving these goals ATK% can be searched for as a bonus.\n\n Recommended endgame stats\n HP: 2800 - 3000+\n\n DEF: 900 - 1000+\n\n ATK: 2700 - 3100+\n\n CRIT RATE: 90% - 100% (including Dr. Ratio self-buffs)\n\n CRIT DMG: 180% - 200%+ (including Dr. Ratio self-buffs)\n\n SPD: Base Speed / 134 (Recommended) / 143 / 161\n\n Traces priority\n Skills priority: Talent > Skill > Ultimate > Basic\n\n Major Traces priority: Summation (A2) > Deduction (A6) > Inference (A4)\n\n Synergy\n Robin - Robin is the premier choice for the Amplifier spot in any FUA team, making her perfect for Dr. Ratio.\n Topaz & Numby - Topaz & Numby provides one of the necessary debuffs Dr. Ratio needs for his Skill. With either E1 or her Light Cone, or with both, she can completely fill the debuff needs for him as well as apply some very strong Follow-Up Attack centric debuffs on the enemy. Topaz also gets benefits out of Dr. Ratio for when his Follow-Up Attack activates on the enemy with the Mark, Numby advances forward resulting in even more actions.\n Moze - Dr. Ratio relies on enemies being debuffed at least 3 times (but ideally 5) in order to unleash his maximum potential - Moze relies on being paired with teammates that can attack as frequently as possible. Each of these character's solve each others problems perfectly.\n Jiaoqiu - Dr. Ratio relies on his team to apply 3-5 debuffs to bring his kit fully online. This restrict his teammate options, but Jiaoqiu having 2 semi-permanent debuffs and a 3rd from his Cone can do a lot to help with this. With Jiaoqiu bringing tons of debuffs, Ratio has a lot more options to choose from for the Amplifier and Sustain slots.\n Silver Wolf - Dr Ratio enjoys the plethora of debuffs Silver Wolf can apply to enemies. She can apply more than enough debuffs to guarantee his Follow-up ATKs trigger while also maxing out his debuff based damage bonuses almost single handedly.\n Pela - Pela is a free to play version of Jiaoqiu that provides him with debuffs and DEF Shred.\n Dan Heng • Permansor Terrae - Go-to sustain option for ATK-scaling teams. Permansor Terrae can provide strong Shields to the entire team, with an ATK buff for a single teammate and extra ATK multipliers. Notably with Sunday, his Souldragon will enable to the target to receive the full 80% DMG Bonus from Sunday's Skill and Souldragon will be Advanced along with the target to repeatedly refresh Shields on the team. Lacks debuffs for Ratio unless using debuff Light Cones.\n Aventurine - Alternative Follow-up Sustain that can apply a CRIT DMG Vulnerability debuffs to enemies, and with additional debuffs from signature Light Cone.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 9\n\n New\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.5\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 6\n\n New\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 3\n\n New\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 7\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

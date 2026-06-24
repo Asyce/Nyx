@@ -34,7 +34,8 @@
         "Electro",
         "Aero",
         "Spectro",
-        "Havoc"
+        "Havoc",
+        "Unknown"
       ]
     },
     {
@@ -80,6 +81,13 @@
       "r": 5,
       "el": "Havoc",
       "w": "Rectifier",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconFuluoluo/SP_IconFuluoluoB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconFuluoluo/SP_IconFuluoluoC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconFuluoluo/SP_IconFuluoluoY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconFuluoluo/SP_IconFuluoluoQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -348,9 +356,7 @@
         "ascCost": 170000,
         "talentCost": 2030000,
         "currency": 2200000
-      },
-      "recent": 1,
-      "recentFallback": 1
+      }
     },
     {
       "id": "ww-cantarella",
@@ -367,6 +373,13 @@
       "r": 5,
       "el": "Havoc",
       "w": "Rectifier",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconKanteleila/SP_IconKanteleilaB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconKanteleila/SP_IconKanteleilaC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconKanteleila/SP_IconKanteleilaY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconKanteleila/SP_IconKanteleilaQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -632,9 +645,7 @@
         "ascCost": 170000,
         "talentCost": 2030000,
         "currency": 2200000
-      },
-      "recent": 1,
-      "recentFallback": 1
+      }
     },
     {
       "id": "ww-roccia",
@@ -651,6 +662,13 @@
       "r": 5,
       "el": "Havoc",
       "w": "Gauntlets",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuokeke/SP_IconLuokekeB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuokeke/SP_IconLuokekeC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuokeke/SP_IconLuokekeY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuokeke/SP_IconLuokekeQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -916,9 +934,7 @@
         "ascCost": 170000,
         "talentCost": 2030000,
         "currency": 2200000
-      },
-      "recent": 1,
-      "recentFallback": 1
+      }
     },
     {
       "id": "wuwa-rover",
@@ -934,6 +950,13 @@
       "r": 5,
       "el": "Spectro",
       "w": "Sword",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZhujue/SP_IconZhujueB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZhujue/SP_IconZhujueC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZhujue/SP_IconZhujueY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZhujue/SP_IconZhujueQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -1219,6 +1242,13 @@
           "r": 5,
           "el": "Spectro",
           "w": "Sword",
+          "skillIcons": [
+            "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp",
+            "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZhujue/SP_IconZhujueB1.webp",
+            "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZhujue/SP_IconZhujueC1.webp",
+            "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZhujue/SP_IconZhujueY.webp",
+            "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZhujue/SP_IconZhujueQTE.webp"
+          ],
           "req": {
             "ascension": [
               {
@@ -1503,6 +1533,13 @@
           "r": 5,
           "el": "Havoc",
           "w": "Sword",
+          "skillIcons": [
+            "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp",
+            "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZhujueDark/SP_IconZhujueDarkB1.webp",
+            "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZhujueDark/SP_IconZhujueDarkC1.webp",
+            "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZhujueDark/SP_IconZhujueDarkY.webp",
+            "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZhujueDark/SP_IconZhujueDarkQTE.webp"
+          ],
           "req": {
             "ascension": [
               {
@@ -1762,8 +1799,6 @@
             "talentCost": 2030000,
             "currency": 2200000
           },
-          "recent": 1,
-          "recentFallback": 1,
           "rawName": "Rover (Havoc)",
           "baseName": "Rover",
           "variantValue": "Havoc",
@@ -1786,6 +1821,13 @@
           "r": 5,
           "el": "Aero",
           "w": "Sword",
+          "skillIcons": [
+            "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp",
+            "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconFengzhu/SP_IconFengzhuB1.webp",
+            "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconFengzhu/SP_IconFengzhuC1.webp",
+            "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconFengzhu/SP_IconFengzhuY.webp",
+            "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconFengzhu/SP_IconFengzhuQTE.webp"
+          ],
           "req": {
             "ascension": [
               {
@@ -2060,7 +2102,7 @@
       "n": "Camellya",
       "title": "Sanguine Blossom",
       "slug": "camellya",
-      "updated": 1780956000000,
+      "updated": 1781820000000,
       "sourceOrder": 1603,
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_29_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/camellya-b68cebb29e98.webp",
@@ -2070,6 +2112,13 @@
       "r": 5,
       "el": "Havoc",
       "w": "Sword",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconChun/SP_IconChunB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconChun/SP_IconChunC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconChun/SP_IconChunY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconChun/SP_IconChunQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -2321,8 +2370,7 @@
         "talentCost": 2030000,
         "currency": 2200000
       },
-      "recent": 1,
-      "recentFallback": 1
+      "recent": 1
     },
     {
       "id": "ww-danjin",
@@ -2339,6 +2387,13 @@
       "r": 4,
       "el": "Havoc",
       "w": "Sword",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconMicai/SP_IconMicaiB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconMicai/SP_IconMicaiC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconMicai/SP_IconMicaiY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconMicai/SP_IconMicaiQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -2603,9 +2658,7 @@
         "ascCost": 170000,
         "talentCost": 2030000,
         "currency": 2200000
-      },
-      "recent": 1,
-      "recentFallback": 1
+      }
     },
     {
       "id": "ww-taoqi",
@@ -2622,6 +2675,13 @@
       "r": 4,
       "el": "Havoc",
       "w": "Broadblade",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorSword.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconTaohua/SP_IconTaoHuaB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconTaohua/SP_IconTaoHuaC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconTaohua/SP_IconTaoHuaY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconTaohua/SP_IconTaoHuaQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -2878,16 +2938,14 @@
         "ascCost": 170000,
         "talentCost": 2030000,
         "currency": 2200000
-      },
-      "recent": 1,
-      "recentFallback": 1
+      }
     },
     {
       "id": "ww-lucy",
       "n": "Lucy",
       "title": "Xeno-Domain Hacking",
       "slug": "lucy",
-      "updated": 1780956000000,
+      "updated": 1781820000000,
       "sourceOrder": 1511,
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_68_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/lucy-9479ec44b129.webp",
@@ -2899,6 +2957,13 @@
       "r": 5,
       "el": "Spectro",
       "w": "Pistols",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorGun.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLucy/SP_SkillIconLucyB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLucy/SP_SkillIconLucyC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLucy/SP_SkillIconLucyY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLucy/SP_SkillIconLucyQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -3138,15 +3203,14 @@
         "talentCost": 2030000,
         "currency": 2200000
       },
-      "recent": 1,
-      "recentFallback": 1
+      "recent": 1
     },
     {
       "id": "ww-luuk-herssen",
       "n": "Luuk Herssen",
       "title": "Phase Transition",
       "slug": "luuk-herssen",
-      "updated": 1780956000000,
+      "updated": 1781820000000,
       "sourceOrder": 1510,
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_54_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/luuk-herssen-5652dfe8996d.webp",
@@ -3156,6 +3220,13 @@
       "r": 5,
       "el": "Spectro",
       "w": "Gauntlets",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuhesi/SP_IconLuhesiB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuhesi/SP_IconLuhesiC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuhesi/SP_IconLuhesiY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuhesi/SP_IconLuhesiQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -3395,15 +3466,14 @@
         "talentCost": 2030000,
         "currency": 2200000
       },
-      "recent": 1,
-      "recentFallback": 1
+      "recent": 1
     },
     {
       "id": "ww-lynae",
       "n": "Lynae",
       "title": "Radiant Spectrum",
       "slug": "lynae",
-      "updated": 1780956000000,
+      "updated": 1781820000000,
       "sourceOrder": 1509,
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_60_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/lynae-2900407f5a79.webp",
@@ -3413,6 +3483,13 @@
       "r": 5,
       "el": "Spectro",
       "w": "Pistols",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorGun.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLinNai/SP_IconLinNaiB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLinNai/SP_IconLinNaiC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLinNai/SP_IconLinNaiY1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLinNai/SP_IconLinNaiQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -3651,14 +3728,15 @@
         "ascCost": 170000,
         "talentCost": 2030000,
         "currency": 2200000
-      }
+      },
+      "recent": 1
     },
     {
       "id": "ww-chisa",
       "n": "Chisa",
       "title": "Eye of Unravelling",
       "slug": "chisa",
-      "updated": 1780956000000,
+      "updated": 1781820000000,
       "sourceOrder": 1508,
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_57_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/chisa-4f80c7455c43.webp",
@@ -3668,6 +3746,13 @@
       "r": 5,
       "el": "Havoc",
       "w": "Broadblade",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorSword.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQianxiao/SP_IconQianxiaoB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQianxiao/SP_IconQianxiaoC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQianxiao/SP_IconQianxiaoY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQianxiao/SP_IconQianxiaoQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -3930,7 +4015,8 @@
         "ascCost": 170000,
         "talentCost": 2030000,
         "currency": 2200000
-      }
+      },
+      "recent": 1
     },
     {
       "id": "ww-zani",
@@ -3947,6 +4033,13 @@
       "r": 5,
       "el": "Spectro",
       "w": "Gauntlets",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZanni/SP_IconZanniB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZanni/SP_IconZanniC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZanni/SP_IconZanniY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZanni/SP_IconZanniQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -4229,6 +4322,13 @@
       "r": 5,
       "el": "Spectro",
       "w": "Rectifier",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconFeibi/SP_IconFeibiB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconFeibi/SP_IconFeibiC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconFeibi/SP_IconFeibiY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconFeibi/SP_IconFeibiQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -4499,6 +4599,13 @@
       "r": 4,
       "el": "Electro",
       "w": "Broadblade",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorSword.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconDengdeng/SP_IconDengdengB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconDengdeng/SP_IconDengdengC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconDengdeng/SP_IconDengdengY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconDengdeng/SP_IconDengdengQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -4775,6 +4882,13 @@
       "r": 5,
       "el": "Spectro",
       "w": "Rectifier",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJueyuan/SP_IconJueyuanB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJueyuan/SP_IconJueyuanC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJueyuan/SP_IconJueyuanY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJueyuan/SP_IconJueyuanQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -5038,7 +5152,7 @@
       "n": "Sigrika",
       "title": "True Name Manifestation",
       "slug": "sigrika",
-      "updated": 1780956000000,
+      "updated": 1781820000000,
       "sourceOrder": 1412,
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_65_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/sigrika-feaeb4a6e35f.webp",
@@ -5048,6 +5162,13 @@
       "r": 5,
       "el": "Aero",
       "w": "Gauntlets",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXigelika/SP_IconXigelikaB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXigelika/SP_IconXigelikaC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXigelika/SP_IconXigelikaY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXigelika/SP_IconXigelikaQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -5286,14 +5407,15 @@
         "ascCost": 170000,
         "talentCost": 2030000,
         "currency": 2200000
-      }
+      },
+      "recent": 1
     },
     {
       "id": "ww-qiuyuan",
       "n": "Qiuyuan",
       "title": "Bambooscape",
       "slug": "qiuyuan",
-      "updated": 1780956000000,
+      "updated": 1781820000000,
       "sourceOrder": 1411,
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_56_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/qiuyuan-9101898bdf10.webp",
@@ -5303,6 +5425,13 @@
       "r": 5,
       "el": "Aero",
       "w": "Sword",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQiuyuan/SP_IconQiuyuanB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQiuyuan/SP_IconQiuyuanC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQiuyuan/SP_IconQiuyuanY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQiuyuan/SP_IconQiuyuanQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -5559,7 +5688,8 @@
         "ascCost": 170000,
         "talentCost": 2030000,
         "currency": 2200000
-      }
+      },
+      "recent": 1
     },
     {
       "id": "ww-iuno",
@@ -5576,6 +5706,13 @@
       "r": 5,
       "el": "Aero",
       "w": "Gauntlets",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconYounuo/SP_IconYounuoB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconYounuo/SP_IconYounuoC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconYounuo/SP_IconYounuoY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconYounuo/SP_IconYounuoQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -5858,6 +5995,13 @@
       "r": 5,
       "el": "Aero",
       "w": "Sword",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconKatixiya/SP_IconKatixiyaB3.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconKatixiya/SP_IconKatixiyaC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconKatixiya/SP_IconKatixiyaY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconKatixiya/SP_IconKatixiyaQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -6140,6 +6284,13 @@
       "r": 5,
       "el": "Aero",
       "w": "Pistols",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorGun.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXiakong/SP_IconXiakongB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXiakong/SP_IconXiakongC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXiakong/SP_IconXiakongY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXiakong/SP_IconXiakongQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -6422,6 +6573,13 @@
       "r": 5,
       "el": "Aero",
       "w": "Gauntlets",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJianxin/SP_IconJianxinB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJianxin/SP_IconJianxinC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJianxin/SP_IconJianxinY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJianxin/SP_IconJianxinQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -6698,6 +6856,13 @@
       "r": 5,
       "el": "Aero",
       "w": "Broadblade",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorSword.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJiyan/SP_IconJiyanB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJiyan/SP_IconJiyanC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJiyan/SP_IconJiyanY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJiyan/SP_IconJiyanQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -6971,6 +7136,13 @@
       "r": 4,
       "el": "Aero",
       "w": "Pistols",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorGun.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQiushui/SP_IconQiushuiB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQiushui/SP_IconQiushuiC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQiushui/SP_IconQiushuiY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQiushui/SP_IconQiushuiQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -7244,6 +7416,13 @@
       "r": 4,
       "el": "Aero",
       "w": "Sword",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconYangyang/SP_IconYangyangB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconYangyang/SP_IconYangyangC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconYangyang/SP_IconYangyangY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconYangyang/SP_IconYangyangQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -7518,7 +7697,7 @@
       "n": "Rebecca",
       "title": "Fury-Type Arsenal",
       "slug": "rebecca",
-      "updated": 1780956000000,
+      "updated": 1781820000000,
       "sourceOrder": 1308,
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_69_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/rebecca-7d52d26dbc84.webp",
@@ -7530,6 +7709,13 @@
       "r": 5,
       "el": "Electro",
       "w": "Pistols",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorGun.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLibeika/SP_IconLibeikaB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLibeika/SP_IconLibeikaC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLibeika/SP_IconLibeikaY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLibeika/SP_IconLibeikaQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -7768,14 +7954,15 @@
         "ascCost": 170000,
         "talentCost": 2030000,
         "currency": 2200000
-      }
+      },
+      "recent": 1
     },
     {
       "id": "ww-buling",
       "n": "Buling",
       "title": "Divine Hearing",
       "slug": "buling",
-      "updated": 1780956000000,
+      "updated": 1781820000000,
       "sourceOrder": 1307,
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_58_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/buling-f9d6c0f3deac.webp",
@@ -7785,6 +7972,13 @@
       "r": 4,
       "el": "Electro",
       "w": "Rectifier",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconBuling/SP_IconBulingB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconBuling/SP_IconBulingC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconBuling/SP_IconBulingC2.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconBuling/SP_IconBulingQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -8041,7 +8235,8 @@
         "ascCost": 170000,
         "talentCost": 2030000,
         "currency": 2200000
-      }
+      },
+      "recent": 1
     },
     {
       "id": "ww-augusta",
@@ -8058,6 +8253,13 @@
       "r": 5,
       "el": "Electro",
       "w": "Broadblade",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorSword.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconAogusita/SP_IconAogusitaB3.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconAogusita/SP_IconAogusitaC2.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconAogusita/SP_IconAogusitaY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconAogusita/SP_IconAogusitaQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -8340,6 +8542,13 @@
       "r": 5,
       "el": "Electro",
       "w": "Gauntlets",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXiangliyao/SP_IconXiangliyaoB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXiangliyao/SP_IconXiangliyaoC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXiangliyao/SP_IconXiangliyaoY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXiangliyao/SP_IconXiangliyaoQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -8609,7 +8818,7 @@
       "n": "Jinhsi",
       "title": "Thawborn Renewal",
       "slug": "jinhsi",
-      "updated": 1780956000000,
+      "updated": 1781906400000,
       "sourceOrder": 1304,
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_24_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/jinhsi-5b27fbfe30f2.webp",
@@ -8619,6 +8828,13 @@
       "r": 5,
       "el": "Spectro",
       "w": "Broadblade",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorSword.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJinxi/SP_IconJinxiB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJinxi/SP_IconJinxiC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJinxi/SP_IconJinxiY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJinxi/SP_IconJinxiQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -8875,7 +9091,8 @@
         "ascCost": 170000,
         "talentCost": 2030000,
         "currency": 2200000
-      }
+      },
+      "recent": 1
     },
     {
       "id": "ww-yuanwu",
@@ -8892,6 +9109,13 @@
       "r": 4,
       "el": "Electro",
       "w": "Gauntlets",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconYuanwu/SP_IconYuanwuB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconYuanwu/SP_IconYuanwuC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconYuanwu/SP_IconYuanwuY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconYuanwu/SP_IconYuanwuQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -9179,6 +9403,13 @@
       "r": 5,
       "el": "Electro",
       "w": "Rectifier",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconYinlin/SP_IconYinlinB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconYinlin/SP_IconYinlinC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconYinlin/SP_IconYinlinY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconYinlin/SP_IconYinlinQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -9455,6 +9686,13 @@
       "r": 5,
       "el": "Electro",
       "w": "Broadblade",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorSword.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconKakaluo/SP_IconKakaluoB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconKakaluo/SP_IconKakaluoC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconKakaluo/SP_IconKakaluoY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconKakaluo/SP_IconKakaluoQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -9726,7 +9964,7 @@
       "n": "Denia",
       "title": "Bubbles of Nihility",
       "slug": "denia",
-      "updated": 1780956000000,
+      "updated": 1781906400000,
       "sourceOrder": 1211,
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_64_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/denia-ad67928de9d2.webp",
@@ -9735,7 +9973,14 @@
       "labels": [],
       "r": 5,
       "el": "Fusion",
-      "w": "Unknown",
+      "w": "Rectifier",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconDaniya/SP_IconDaniyaB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconDaniya/SP_IconDaniyaC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconDaniya/SP_IconDaniyaY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconDaniya/SP_IconDaniyaQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -9974,14 +10219,15 @@
         "ascCost": 170000,
         "talentCost": 2030000,
         "currency": 2200000
-      }
+      },
+      "recent": 1
     },
     {
       "id": "ww-aemeath",
       "n": "Aemeath",
       "title": "Guiding Starlance",
       "slug": "aemeath",
-      "updated": 1780956000000,
+      "updated": 1781906400000,
       "sourceOrder": 1210,
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_53_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/aemeath-c3afbd3131bd.webp",
@@ -9991,6 +10237,13 @@
       "r": 5,
       "el": "Fusion",
       "w": "Sword",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconAimisi/SP_IconAimisiB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconAimisi/SP_IconAimisiC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconAimisi/SP_IconAimisiY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconAimisi/SP_IconAimisiQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -10229,14 +10482,15 @@
         "ascCost": 170000,
         "talentCost": 2030000,
         "currency": 2200000
-      }
+      },
+      "recent": 1
     },
     {
       "id": "ww-mornye",
       "n": "Mornye",
       "title": "Astral Mapping",
       "slug": "mornye",
-      "updated": 1780956000000,
+      "updated": 1781820000000,
       "sourceOrder": 1209,
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_61_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/mornye-4ea899250861.webp",
@@ -10246,6 +10500,13 @@
       "r": 5,
       "el": "Fusion",
       "w": "Broadblade",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorSword.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconMoNing/SP_IconMoNingB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconMoNing/SP_IconMoNingC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconMoNing/SP_IconMoNingY1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconMoNing/SP_IconMoNingQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -10484,7 +10745,8 @@
         "ascCost": 170000,
         "talentCost": 2030000,
         "currency": 2200000
-      }
+      },
+      "recent": 1
     },
     {
       "id": "ww-galbrena",
@@ -10501,6 +10763,13 @@
       "r": 5,
       "el": "Fusion",
       "w": "Pistols",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorGun.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJiaBeiLiNa/SP_IconJiaBeiLiNaB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJiaBeiLiNa/SP_IconJiaBeiLiNaC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJiaBeiLiNa/SP_IconJiaBeiLiNaY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJiaBeiLiNa/SP_IconJiaBeiLiNaQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -10783,6 +11052,13 @@
       "r": 5,
       "el": "Fusion",
       "w": "Broadblade",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorSword.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLupa/SP_IconLupaB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLupa/SP_IconLupaC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLupa/SP_IconLupaY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLupa/SP_IconLupaQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -11053,6 +11329,13 @@
       "r": 5,
       "el": "Fusion",
       "w": "Sword",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconBulante/SP_IconBulanteB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconBulante/SP_IconBulanteC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconBulante/SP_IconBulanteY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconBulante/SP_IconBulanteQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -11325,7 +11608,7 @@
       "n": "Changli",
       "title": "Eternal Blaze",
       "slug": "changli",
-      "updated": 1780956000000,
+      "updated": 1781820000000,
       "sourceOrder": 1205,
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_26_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/changli-dc0ce1974c67.webp",
@@ -11335,6 +11618,13 @@
       "r": 5,
       "el": "Fusion",
       "w": "Sword",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconChangli/SP_IconChangliB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconChangli/SP_IconChangliC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconChangli/SP_IconChangliY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconChangli/SP_IconChangliQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -11599,7 +11889,8 @@
         "ascCost": 170000,
         "talentCost": 2030000,
         "currency": 2200000
-      }
+      },
+      "recent": 1
     },
     {
       "id": "ww-mortefi",
@@ -11616,6 +11907,13 @@
       "r": 4,
       "el": "Fusion",
       "w": "Pistols",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorGun.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconMotefei/SP_IconMotefeiB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconMotefei/SP_IconMotefeiC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconMotefei/SP_IconMotefeiY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconMotefei/SP_IconMotefeiQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -11892,6 +12190,13 @@
       "r": 5,
       "el": "Fusion",
       "w": "Rectifier",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconAnke/SP_IconAnkeB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconAnke/SP_IconAnkeC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconAnke/SP_IconAnkeY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconAnke/SP_IconAnkeQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -12168,6 +12473,13 @@
       "r": 4,
       "el": "Fusion",
       "w": "Pistols",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorGun.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconMaxiaofang/SP_IconMaxiaofangB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconMaxiaofang/SP_IconMaxiaofangC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconMaxiaofang/SP_IconMaxiaofangY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconMaxiaofang/SP_IconMaxiaofangQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -12431,18 +12743,25 @@
       "n": "Lucilla",
       "title": "Memory Palace",
       "slug": "lucilla",
-      "updated": 1780869600000,
+      "updated": 1781906400000,
       "sourceOrder": 1109,
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_66_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/lucilla-645cef8d92d9.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/lucilla-3cde2eba4714.webp",
-      "status": "beta",
+      "status": "live",
       "labels": [
-        "3.4"
+        "New"
       ],
       "r": 5,
       "el": "Glacio",
       "w": "Rectifier",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuosela/SP_SkillIconLuoselaB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuosela/SP_SkillIconLuoselaC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuosela/SP_SkillIconLuoselaY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLuosela/SP_SkillIconLuoselaQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -12681,14 +13000,15 @@
         "ascCost": 170000,
         "talentCost": 2030000,
         "currency": 2200000
-      }
+      },
+      "recent": 1
     },
     {
       "id": "ww-hiyuki",
       "n": "Hiyuki",
       "title": "Futures' Tithe",
       "slug": "hiyuki",
-      "updated": 1780956000000,
+      "updated": 1781820000000,
       "sourceOrder": 1108,
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_67_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/hiyuki-099635d10d97.webp",
@@ -12698,6 +13018,13 @@
       "r": 5,
       "el": "Glacio",
       "w": "Sword",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconFeixue/SP_IconFeixueB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconFeixue/SP_IconFeixueC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconFeixue/SP_IconFeixueY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconFeixue/SP_IconFeixueQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -12936,7 +13263,8 @@
         "ascCost": 170000,
         "talentCost": 2030000,
         "currency": 2200000
-      }
+      },
+      "recent": 1
     },
     {
       "id": "ww-carlotta",
@@ -12953,6 +13281,13 @@
       "r": 5,
       "el": "Glacio",
       "w": "Pistols",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorGun.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconKelaita/SP_IconKelaitaB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconKelaita/SP_IconKelaitaC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconKelaita/SP_IconKelaitaY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconKelaita/SP_IconKelaitaQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -13235,6 +13570,13 @@
       "r": 4,
       "el": "Glacio",
       "w": "Gauntlets",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconYouhu/SP_IconYouhuB4.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconYouhu/SP_IconYouhuC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconYouhu/SP_IconYouhuY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconYouhu/SP_IconYouhuQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -13509,7 +13851,7 @@
       "n": "Zhezhi",
       "title": "Enchanted Brush",
       "slug": "zhezhi",
-      "updated": 1780956000000,
+      "updated": 1781820000000,
       "sourceOrder": 1105,
       "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_27_UI.webp",
       "art": "../../Database/Prydwen/ww/assets/characters/zhezhi-1c6bb925a9a4.webp",
@@ -13519,6 +13861,13 @@
       "r": 5,
       "el": "Glacio",
       "w": "Rectifier",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZhezhi/SP_IconZhezhiB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZhezhi/SP_IconZhezhiC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZhezhi/SP_IconZhezhiY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZhezhi/SP_IconZhezhiQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -13775,7 +14124,8 @@
         "ascCost": 170000,
         "talentCost": 2030000,
         "currency": 2200000
-      }
+      },
+      "recent": 1
     },
     {
       "id": "ww-lingyang",
@@ -13792,6 +14142,13 @@
       "r": 5,
       "el": "Glacio",
       "w": "Gauntlets",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLingyang/SP_IconLingyangB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLingyang/SP_IconLingyangC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLingyang/SP_IconLingyangY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconLingyang/SP_IconLingyangQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -14071,6 +14428,13 @@
       "r": 4,
       "el": "Glacio",
       "w": "Rectifier",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconBailian/SP_IconBailianB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconBailian/SP_IconBailianC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconBailian/SP_IconBailianY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconBailian/SP_IconBailianQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -14344,6 +14708,13 @@
       "r": 4,
       "el": "Glacio",
       "w": "Sword",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSanhua/SP_IconSanhuaB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSanhua/SP_IconSanhuaC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSanhua/SP_IconSanhuaY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSanhua/SP_IconSanhuaQTE.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -14606,6 +14977,98 @@
       }
     },
     {
+      "id": "ww-hsin",
+      "n": "Hsin",
+      "title": "The Fox",
+      "slug": "hsin",
+      "updated": 1781474400000,
+      "sourceOrder": 0,
+      "icon": "../../Database/Prydwen/ww/assets/characters/hsin-ca1c715d65d0.webp",
+      "iconZoom": 1.18,
+      "art": "../../Database/Prydwen/ww/assets/characters/hsin-652a82fc04a8.webp",
+      "card": "../../Database/Prydwen/ww/assets/characters/hsin-ca1c715d65d0.webp",
+      "status": "beta",
+      "labels": [
+        "3.x"
+      ],
+      "r": 5,
+      "el": "Unknown",
+      "w": "Unknown"
+    },
+    {
+      "id": "ww-jingran",
+      "n": "Jingran",
+      "slug": "jingran",
+      "updated": 1781474400000,
+      "sourceOrder": 0,
+      "icon": "../../Database/Prydwen/ww/assets/characters/jingran-0e6d2cc79ad5.webp",
+      "iconZoom": 1.18,
+      "art": "../../Database/Prydwen/ww/assets/characters/jingran-2b0e720255d4.webp",
+      "card": "../../Database/Prydwen/ww/assets/characters/jingran-0e6d2cc79ad5.webp",
+      "status": "beta",
+      "labels": [
+        "3.x"
+      ],
+      "r": 5,
+      "el": "Unknown",
+      "w": "Unknown"
+    },
+    {
+      "id": "ww-qingxiao",
+      "n": "Qingxiao",
+      "slug": "qingxiao",
+      "updated": 1781474400000,
+      "sourceOrder": 0,
+      "icon": "../../Database/Prydwen/ww/assets/characters/qingxiao-4f6ce581004d.webp",
+      "iconZoom": 1.18,
+      "art": "../../Database/Prydwen/ww/assets/characters/qingxiao-df2ddd77ec24.webp",
+      "card": "../../Database/Prydwen/ww/assets/characters/qingxiao-4f6ce581004d.webp",
+      "status": "beta",
+      "labels": [
+        "3.x"
+      ],
+      "r": 5,
+      "el": "Unknown",
+      "w": "Unknown"
+    },
+    {
+      "id": "ww-suisui",
+      "n": "Suisui",
+      "slug": "suisui",
+      "updated": 1781733600000,
+      "sourceOrder": 0,
+      "icon": "../../Database/Prydwen/ww/assets/characters/suisui-6c2f0381f367.webp",
+      "iconZoom": 1.18,
+      "art": "../../Database/Prydwen/ww/assets/characters/suisui-d7e1ee5a66d1.webp",
+      "card": "../../Database/Prydwen/ww/assets/characters/suisui-6c2f0381f367.webp",
+      "status": "beta",
+      "labels": [
+        "3.5"
+      ],
+      "r": 5,
+      "el": "Glacio",
+      "w": "Rectifier",
+      "recent": 1
+    },
+    {
+      "id": "ww-suoming",
+      "n": "Suoming",
+      "slug": "suoming",
+      "updated": 1781474400000,
+      "sourceOrder": 0,
+      "icon": "../../Database/Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
+      "iconZoom": 1.18,
+      "art": "../../Database/Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp",
+      "card": "../../Database/Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
+      "status": "beta",
+      "labels": [
+        "3.x"
+      ],
+      "r": 5,
+      "el": "Unknown",
+      "w": "Unknown"
+    },
+    {
       "id": "ww-the-shorekeeper",
       "n": "The Shorekeeper",
       "title": "Euphonic Chrysalis",
@@ -14621,6 +15084,26 @@
       "r": 5,
       "el": "Spectro",
       "w": "Rectifier"
+    },
+    {
+      "id": "ww-yangyang-xuanling",
+      "n": "Yangyang Xuanling",
+      "title": "Yangyang: Xuanling",
+      "slug": "yangyang-xuanling",
+      "updated": 1781733600000,
+      "sourceOrder": 0,
+      "icon": "../../Database/Prydwen/ww/assets/characters/yangyang-xuanling-184e6fda4c3c.webp",
+      "iconZoom": 1.18,
+      "art": "../../Database/Prydwen/ww/assets/characters/yangyang-xuanling-47cdc9f48f22.webp",
+      "card": "../../Database/Prydwen/ww/assets/characters/yangyang-xuanling-184e6fda4c3c.webp",
+      "status": "beta",
+      "labels": [
+        "3.5"
+      ],
+      "r": 5,
+      "el": "Havoc",
+      "w": "Sword",
+      "recent": 1
     }
   ],
   "midGroups": [
@@ -15382,7 +15865,7 @@
   ],
   "boss": {
     "title": "Weekly Challenge",
-    "count": 51
+    "count": 57
   },
   "bossGroups": [],
   "weeklyBosses": []

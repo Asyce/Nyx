@@ -1,0 +1,1666 @@
+{
+  "id": "characters:hiyuki",
+  "provider": "Prydwen",
+  "game": "ww",
+  "gameName": "Wuthering Waves",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "hiyuki",
+  "name": "Hiyuki",
+  "title": "Hiyuki Best Build Guide",
+  "sourcePath": "/wuthering-waves/characters/hiyuki",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "19/June/2026",
+  "meta": {
+    "title": "Hiyuki Best Build Guide | Wuthering Waves (WuWa)",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Glacio",
+    "weapon": "Sword"
+  },
+  "assets": [
+    {
+      "id": "6dff9c6a84da",
+      "sourceHash": "6dff9c6a84da",
+      "kind": "characters",
+      "name": "Hiyuki",
+      "fileStem": "hiyuki-card",
+      "path": "Prydwen/ww/assets/characters/hiyuki-6dff9c6a84da.webp",
+      "width": 210,
+      "height": 280
+    },
+    {
+      "id": "85054d52aec3",
+      "sourceHash": "85054d52aec3",
+      "kind": "icons",
+      "name": "Glacio",
+      "fileStem": "element-glacio",
+      "path": "Prydwen/ww/assets/icons/glacio-85054d52aec3.webp",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "39094c227806",
+      "sourceHash": "39094c227806",
+      "kind": "icons",
+      "name": "CRIT Rate",
+      "fileStem": "stat-crit",
+      "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "1e70b3adc860",
+      "sourceHash": "1e70b3adc860",
+      "kind": "icons",
+      "name": "ATK%",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "c26c1d310e90",
+      "sourceHash": "c26c1d310e90",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "aa019d34202f",
+      "sourceHash": "aa019d34202f",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "5a0b154cd3d8",
+      "sourceHash": "5a0b154cd3d8",
+      "kind": "icons",
+      "name": "Max Energy",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "7e2bcd0760ca",
+      "sourceHash": "7e2bcd0760ca",
+      "kind": "icons",
+      "name": "CRIT DMG",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "94236abd3fdc",
+      "sourceHash": "94236abd3fdc",
+      "kind": "icons",
+      "name": "Healing",
+      "fileStem": "stat-heal",
+      "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "5d2c60395865",
+      "sourceHash": "5d2c60395865",
+      "kind": "icons",
+      "name": "Glacio",
+      "fileStem": "stat-ice",
+      "path": "Prydwen/ww/assets/icons/glacio-5d2c60395865.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "099635d10d97",
+      "sourceHash": "099635d10d97",
+      "kind": "characters",
+      "name": "Hiyuki",
+      "fileStem": "hiyuki-full",
+      "path": "Prydwen/ww/assets/characters/hiyuki-099635d10d97.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "ddae26999871",
+      "sourceHash": "ddae26999871",
+      "kind": "characters",
+      "name": "Lucilla",
+      "fileStem": "lucilla-icon",
+      "path": "Prydwen/ww/assets/characters/lucilla-ddae26999871.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "8598bcf61232",
+      "sourceHash": "8598bcf61232",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-30",
+      "path": "Prydwen/ww/assets/icons/set-30-8598bcf61232.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "733b28dfb61c",
+      "sourceHash": "733b28dfb61c",
+      "kind": "misc",
+      "name": "Glommoth",
+      "fileStem": "6000195",
+      "path": "Prydwen/ww/assets/misc/glommoth-733b28dfb61c.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "0e96075575d8",
+      "sourceHash": "0e96075575d8",
+      "kind": "characters",
+      "name": "Chisa",
+      "fileStem": "chisa-icon",
+      "path": "Prydwen/ww/assets/characters/chisa-0e96075575d8.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "9116b6b3061f",
+      "sourceHash": "9116b6b3061f",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-7",
+      "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "963f47d9c985",
+      "sourceHash": "963f47d9c985",
+      "kind": "misc",
+      "name": "Fallacy of No Return",
+      "fileStem": "6000060",
+      "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "0a476c2be498",
+      "sourceHash": "0a476c2be498",
+      "kind": "weapons",
+      "name": "Frostburn",
+      "fileStem": "21020086",
+      "path": "Prydwen/ww/assets/weapons/frostburn-0a476c2be498.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1ee53622240c",
+      "sourceHash": "1ee53622240c",
+      "kind": "weapons",
+      "name": "Emerald of Genesis",
+      "fileStem": "21020015",
+      "path": "Prydwen/ww/assets/weapons/emerald-of-genesis-1ee53622240c.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "125c53e53fdd",
+      "sourceHash": "125c53e53fdd",
+      "kind": "weapons",
+      "name": "Blazing Brilliance",
+      "fileStem": "21020016",
+      "path": "Prydwen/ww/assets/weapons/blazing-brilliance-125c53e53fdd.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "67b3675ba5a5",
+      "sourceHash": "67b3675ba5a5",
+      "kind": "weapons",
+      "name": "Emerald Sentence",
+      "fileStem": "21020066",
+      "path": "Prydwen/ww/assets/weapons/emerald-sentence-67b3675ba5a5.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "0191cff521e2",
+      "sourceHash": "0191cff521e2",
+      "kind": "weapons",
+      "name": "Red Spring",
+      "fileStem": "21020026",
+      "path": "Prydwen/ww/assets/weapons/red-spring-0191cff521e2.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d0384e178d37",
+      "sourceHash": "d0384e178d37",
+      "kind": "weapons",
+      "name": "Everbright Polestar",
+      "fileStem": "21020076",
+      "path": "Prydwen/ww/assets/weapons/everbright-polestar-d0384e178d37.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "aa055901e0f5",
+      "sourceHash": "aa055901e0f5",
+      "kind": "weapons",
+      "name": "Feather Edge",
+      "fileStem": "21020104",
+      "path": "Prydwen/ww/assets/weapons/feather-edge-aa055901e0f5.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "c115f8c39381",
+      "sourceHash": "c115f8c39381",
+      "kind": "weapons",
+      "name": "Fables of Wisdom",
+      "fileStem": "21020094",
+      "path": "Prydwen/ww/assets/weapons/fables-of-wisdom-c115f8c39381.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "2cf8174d4354",
+      "sourceHash": "2cf8174d4354",
+      "kind": "misc",
+      "name": "Reminiscence: Threnodian - Voidborne Construct",
+      "fileStem": "6000199",
+      "path": "Prydwen/ww/assets/misc/reminiscence-threnodian-voidborne-construct-2cf8174d4354.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "e366b96f341c",
+      "sourceHash": "e366b96f341c",
+      "kind": "characters",
+      "name": "Lynae",
+      "fileStem": "lynae-icon",
+      "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "40d7023b51fa",
+      "sourceHash": "40d7023b51fa",
+      "kind": "characters",
+      "name": "Mornye",
+      "fileStem": "mornye-icon",
+      "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d909de4aecde",
+      "sourceHash": "d909de4aecde",
+      "kind": "characters",
+      "name": "The Shorekeeper",
+      "fileStem": "the-shorekeeper-icon",
+      "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1b2a8f336e3d",
+      "sourceHash": "1b2a8f336e3d",
+      "kind": "characters",
+      "name": "Verina",
+      "fileStem": "verina-icon",
+      "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "f569a8378909",
+      "sourceHash": "f569a8378909",
+      "kind": "characters",
+      "name": "Yinlin",
+      "fileStem": "yinlin-icon",
+      "path": "Prydwen/ww/assets/characters/yinlin-f569a8378909.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "60fadd490017",
+      "sourceHash": "60fadd490017",
+      "kind": "characters",
+      "name": "Zhezhi",
+      "fileStem": "zhezhi-icon",
+      "path": "Prydwen/ww/assets/characters/zhezhi-60fadd490017.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "886b0b6d9bb6",
+      "sourceHash": "886b0b6d9bb6",
+      "kind": "characters",
+      "name": "Changli",
+      "fileStem": "changli-icon",
+      "path": "Prydwen/ww/assets/characters/changli-886b0b6d9bb6.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "3f68e864215a",
+      "sourceHash": "3f68e864215a",
+      "kind": "characters",
+      "name": "Jianxin",
+      "fileStem": "jianxin-icon",
+      "path": "Prydwen/ww/assets/characters/jianxin-3f68e864215a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "5bd44ca9e74f",
+      "sourceHash": "5bd44ca9e74f",
+      "kind": "characters",
+      "name": "Hiyuki",
+      "fileStem": "hiyuki-icon",
+      "path": "Prydwen/ww/assets/characters/hiyuki-5bd44ca9e74f.webp",
+      "width": 120,
+      "height": 120
+    }
+  ],
+  "sections": [
+    {
+      "id": "hiyuki-best-build-guide-0",
+      "level": 1,
+      "heading": "Hiyuki Best Build Guide",
+      "text": "Last updated: 19/June/2026",
+      "assets": [
+        {
+          "id": "6dff9c6a84da",
+          "sourceHash": "6dff9c6a84da",
+          "kind": "characters",
+          "name": "Hiyuki",
+          "fileStem": "hiyuki-card",
+          "path": "Prydwen/ww/assets/characters/hiyuki-6dff9c6a84da.webp",
+          "width": 210,
+          "height": 280
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Hiyuki from WW (Wuthering Waves). Hiyuki is a 5 ★ rarity character from the Glacio element who uses the Sword type weapon.\n\n To learn more about Hiyuki check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": [
+        {
+          "id": "85054d52aec3",
+          "sourceHash": "85054d52aec3",
+          "kind": "icons",
+          "name": "Glacio",
+          "fileStem": "element-glacio",
+          "path": "Prydwen/ww/assets/icons/glacio-85054d52aec3.webp",
+          "width": 20,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Hiyuki has at least one video guide available:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 3.3\n\n Last major build/calcs update\n Patch 3.3\n\n Last profile update*\n 19/June/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Hiyuki check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Flaming Sakura Blade Art\n\n Basic Attack - Present Self\n Press Normal Attack consecutively or hold it down to perform up to 3 consecutive attacks, dealing Glacio DMG .\n\n Basic Attack - Present Self Stage 3 applies 1 stack of Glacio Chafe on hit.\n\n Heavy Attack - Frost Splinter: Present Self\n When Dedication reaches 300 points, Heavy Attack - Frost Splinter: Present Self becomes available.\n\n Hold Normal Attack to shoot out 3 arrows one by one at the cost of STA, dealing Glacio DMG , considered Resonance Liberation DMG. Hiyuki is immune to interruptions in the duration.\n\n When the last arrow is shot, 300 points of Dedication is consumed and Foreclaiming: Inward Vision becomes available. The arrow applies 1 stack of Glacio Chafe on hit.\n\n Mid-air Attack - Present Self\n Consume STA to perform a Plunging Attack from Mid-air, dealing Glacio DMG .\n\n Dodge Counter - Present Self\n Press Normal Attack within a certain period after a successful Dodge to attack the target, dealing Glacio DMG .\n\n Press Normal Attack within a certain period after casting this skill to perform Basic Attack - Present Self Stage 3.\n\n Basic Attack - Foreclaimed Self\n While in Foreclaimed Self, Basic Attack - Present Self is replaced by Basic Attack - Foreclaimed Self.\n\n Perform up to 5 consecutive attacks, dealing Glacio DMG , considered Resonance Liberation DMG.\n\n Basic Attack - Foreclaimed Self Stage 3, 4, and 5 each applies 1 stack of Glacio Chafe on hit.\n\n Heavy Attack - Foreclaimed Self\n In Foreclaimed Self, hold Normal Attack to enter Hold Breath, continuously consuming STA. When Normal Attack is released or STA is depleted, Hiyuki leaves the Hold Breath state and thrusts forward, dealing Glacio DMG , considered Resonance Liberation DMG. Press Normal Attack within a certain period after casting this skill to perform Basic Attack - Foreclaimed Self Stage 2.\n\n If Hiyuki is attacked by an enemy within a certain period during the thrust, neutralize that instance of damage, Stagnate nearby targets, and become immune to interruptions for a certain period afterward while reducing all incoming damage by 100% . Press Normal Attack within a certain period after casting this skill to chain into Basic Attack - Foreclaimed Self Stage 4 instead.\n\n Heavy Attack - Bitterfrost: Foreclaimed Self\n When Whiteout Bitterfrost is full, Heavy Attack - Foreclaimed Self is replaced with Heavy Attack - Bitterfrost: Foreclaimed Self.\n\n Hold Normal Attack and consume STA and 3 stacks of Whiteout Bitterfrost to gain 1 point of Snowforged Blade, dealing Glacio DMG , considered Resonance Liberation DMG.\n\n Heavy Attack - Bitterfrost: Foreclaimed Self applies 1 stack of Glacio Chafe on hit.\n\n If Hiyuki is airborne while casting this skill, she'll land on the ground first.\n\n Mid-air Attack - Foreclaimed Self\n While in Foreclaimed Self, Mid-air Attack - Present Self is replaced by Mid-air Attack - Foreclaimed Self.\n\n Consume STA to perform up to 3 consecutive attacks in Mid-air, dealing Glacio DMG , considered Resonance Liberation DMG. Stage 3 is a Plunging Attack.\n\n Mid-air Attack - Foreclaimed Self Stage 2 & 3 apply 1 stack of Glacio Chafe on hit.\n\n The Mid-air Attack - Foreclaimed Self combo will not be reset by casting skills other than Basic Attack - Iai within a short period.\n\n Hold Normal Attack while airborne to perform a Plunging Attack at the cost of STA.\n\n Dodge Counter - Foreclaimed Self\n While in Foreclaimed Self, Dodge Counter - Present Self is replaced by Dodge Counter - Foreclaimed Self.\n\n Press Normal Attack within a certain period after a successful Dodge to attack the target, dealing Glacio DMG , considered Resonance Liberation DMG.\n\n Press Normal Attack within a certain period after casting this skill to perform Basic Attack - Foreclaimed Self Stage 3.\n\n Multipliers\n\n Resonance Skill\n Frostblight\n\n Resonance Skill - Present Self\n Deal Glacio DMG .\n\n Casting this skill enhances the next Basic Attack - Present Self Stage 3, which now restores 100 points of Dedication when cast. Switching to another Resonator ends this effect.\n\n Press Normal Attack within a certain period after casting this skill to perform Basic Attack - Present Self Stage 3.\n\n If Dedication is below 300 points, hold Normal Attack within a certain period after casting this skill to perform Basic Attack - Present Self Stage 3.\n\n While in Foreclaimed Self, Resonance Skill - Present Self is replaced by Frostblight: Jade Cleave and Frostblight: Petalfall:\n Frostblight: Jade Cleave\n While on the ground, press Resonance Skill to pull in nearby targets and deal Glacio DMG , removing the targets' Frostbind.\n\n This skill shares a Cooldown with Frostblight: Petalfall.\n\n Frostblight: Petalfall\n While in mid-air, press Resonance Skill to pull in nearby targets and deal Glacio DMG , removing the targets' Frostbind.\n\n This skill shares a Cooldown with Frostblight: Jade Cleave.\n\n Multipliers\n\n Resonance Liberation\n Foreclaiming\n\n Foreclaiming: Inward Vision\n Heavy Attack - Foreclaiming: Inward Vision becomes available after casting Frost Splinter: Present Self.\n\n While in Present Self, press Resonance Liberation to cast this skill, dealing Glacio DMG . Upon casting this skill, gain 3 points of Frostharden Iai, remove 300 points of Dedication and Frostheart. Then, enter Foreclaimed Self and restore 50 points of Frostheart.\n\n Foreclaiming: Inward Vision applies 4 stacks of Glacio Chafe on hit.\nCasting Foreclaiming: Inward Vision does not consume Resonance Energy, and restores 50 points of Frostheart.\n\n Foreclaiming: Blade Liberation\n While in Foreclaimed Self, Foreclaiming: Blade Liberation can be cast via the following ways:\n Press Resonance Liberation and release to cast Foreclaiming: Blade Liberation. If Hiyuki has 3 points of Snowforged Blade, consume all Snowforged Blade. Otherwise, this cast does not consume Snowforged Blade.\n\n Hold Resonance Liberation to enter a charging state. During this state, consume 1 point of Snowforged Blade periodically. Release Resonance Liberation to cast Foreclaiming: Blade Liberation. If no Snowforged Blade is consumed when Resonance Liberation is released, Hiyuki will continue to charge the attack and cast the skill automatically after certain time. Foreclaiming: Blade Liberation will also be cast automatically when Snowforged Blade depletes.\n\n Hiyuki deals Glacio DMG . Each point of Snowforged Blade consumed increases the DMG Multiplier of this attack.\n\n Casting the skill consumes 300 points of Dedication and Frostheart, and ends Foreclaimed Self.\n\n Multipliers\n\n Forte Circuit\n Everfrost Dominion\n\n Glacio Bite\n While Hiyuki is in the team, Glacio Chafe inflicted by nearby Resonators in the team is converted to Glacio Bite. Every time a new stack of Glacio Bite is inflicted on a target, an instance of Glacio Bite DMG is triggered based on that enemy's current Glacio Bite stack limit. Glacio Bite can be inflicted on frozen targets. Glacio Bite is also considered Glacio Chafe and Glacio Bite DMG is also considered Glacio Chafe DMG.\n\n When Foreclaiming: Inward Vision or Basic Attack - Iai hits a target, if the target has no fewer than 10 stacks of Glacio Chafe, consume 10 stacks and trigger Frostbind once.\n\n When Hiyuki joins the team, remove all stacks Glacio Chafe from the targets. When Hiyuki leaves the team, if there is no other Resonator in the team who can convert Glacio Chafe into Glacio Chafe, all enemies' Glacio Bite stacks are cleared.\n\n Present Self\n Hiyuki starts in Present Self. While in Present Self, casting certain skills restores Dedication.\n\n Foreclaimed Self\n Hiyuki enters Foreclaimed Self after casting Foreclaiming: Inward Vision. While in Foreclaimed Self, Hiyuki unlocks a new form and restores Frostheart by casting certain skills.\n\n Iai Stance\n If Hiyuki has at least 100 points of Frostheart, performing any of the following actions causes her to flash backward at the cost of STA and enter Iai Stance:\n Press Dodge after casting any Normal Attacks - Foreclaimed Self other than Heavy Attack - Bitterfrost: Foreclaimed Self, Frostblight: Jade Cleave, Frostblight: Petalfall, Basic Attack - Iai, or Intro Skill - Frostedge.\n\n Hold Resonance Skill within a certain period after casting Frostblight: Jade Cleave or Frostblight: Petalfall.\n\n While performing the actions above, if there is a valid target within the range and the forward input is held down, Hiyuki instead flashes behind the enemy at the cost of STA and enters Iai Stance.\n\n Hiyuki may enter Iai Stance while airborne. Upon entering the Iai Stance, Hiyuki's mid-air Dodge charges are reset. Iai Stance ends if Hiyuki is switched out.\n\n Basic Attack - Iai\n Within a certain period upon after entering Iai Stance, press Normal Attack and consume 100 points of Frostheart to cast Basic Attack - Iai, dealing Glacio DMG , considered Resonance Liberation DMG.\n\n If Frostheart remains at 100 points or above after casting this skill, press Normal Attack within a certian period to cast Basic Attack - Iai again.\n\n If Hiyuki is attacked by an enemy within a certain period during Basic Attack - Iai, neutralize this instance of damage and become immune to interruptions for a certain duration afterwards while reducing all incoming DMG by 100% .\n\n Each time Basic Attack - Iai is cast, if Hiyuki has Frostharden Iai, consume 1 stack of Frostharden Iai to inflict 3 stacks of Glacio Chafe on hit, and gain 1 stack of Whiteout Bitterfrost.\n\n Dedication\n Hiyuki holds up to 300 points of Dedication.\n\n While in Present Self, casting Basic Attack - Present Self Stage 3 restores 100 points of Dedication and casting Resonance Skill - Present Self enhances the next Basic Attack - Present Self Stage 3, which now additionally restores 100 points of Dedication. This effect ends when Hiyuki is switched out.\n\n Frostheart\n Hiyuki holds up to 300 points of Frostheart.\n\n Frostheart is restored while casting Frostblight: Jade Cleave and Frostblight: Petalfall, or when Normal Attacks - Foreclaimed Self other than Heavy Attack - Bitterfrost: Foreclaimed Self hits the target.\n\n Frostharden Iai\n Frostharden Iai has a maximum of 3 points.\n\n Casting Foreclaiming: Inward Vision grants 3 points of Frostharden Iai.\n\n Whiteout Bitterfrost\n Whiteout Bitterfrost stacks up to 3 times.\n\n Each time Frostharden Iai is consumed through Basic Attack - Iai, gain 1 stack of Whiteout Bitterfrost.\n\n Snowforged Blade\n Snowforged Blade stacks up to 3 times.\n\n Each time Heavy Attack - Frost Splinter: Foreclaimed Self is cast, gain 1 stack of Snowforged Blade.\n\n Multipliers\n\n Forte Circuit\n Tune Break: Sword\n\n When the target's Off-Tune Level is full, Hiyuki can cast Tune Break on the target.\n While in Present Self, press or hold Normal Attack shortly after casting Tune Break to cast Basic Attack - Present Self Stage 3.\n While in Foreclaimed Self, press Normal Attack shortly after casting Tune Break to cast Basic Attack - Foreclaimed Self Stage 3.\n\n Inherent Skill\n Fine Snow\n\n When a Resonator in the team applies Glacio Chafe or Havoc Bane, Hiyuki gains 1 stack of Snow Rust. Snow Rust stacks up to 3 times. Each Resonator can trigger this effect only once in this way.\n Based on Hiyuki's current stacks of Snow Rust, the following bonuses are unlocked:\n 1 stack of Snow Rust: When Hiyuki is the active Resonator in the team, Glacio Bite DMG is Amplified by 30% against targets within a certain range. Hiyuki's Crit. DMG is increased by 40% .\n\n 2 stacks of Snow Rust: When Hiyuki is the active Resonator in the team, each time she applies Glacio Chafe, she additionally deals 102% Glacio Bite DMG once.\n\n 3 stacks of Snow Rust: When Hiyuki is the active Resonator in the team, Glacio Bite DMG is additionally Amplified by 30% against targets within a certain range.\n\n This effect resets when new Resonators are added to the team.\n\n Inherent Skill\n Ephemeral Realm\n\n Once Hiyuki leaves the combat state or recovers after being knocked out, when she stays out of combat for 4s with has fewer than 1 point of Snowforged Blade, restore 1 point.\n\n Intro Skill\n Frostedge\n\n Deal Glacio DMG , considered Resonance Liberation DMG, and apply 1 stack of Glacio Chafe on hit.\n In Present Self, casting this skill restores 200 points of Dedication. Press or hold Normal Attack within a certain period after casting this skill to cast Basic Attack - Foreclaimed Self Stage 3.\n In Foreclaimed Self, press Normal Attack within a certain period after casting this skill to cast Basic Attack - Foreclaimed Self Stage 2.\n\n Multipliers\n\n Outro Skill\n Snowlight Blessing\n\n Glacio DMG dealt by nearby Resonators other than Hiyuki in the team is Amplified by 20% against targets affected by Glacio Chafe for 20s .",
+      "assets": []
+    },
+    {
+      "id": "resonance-chain-dupes-10",
+      "level": 2,
+      "heading": "Resonance Chain (Dupes)",
+      "text": "S 1\n Sequence Node 1\n\n The DMG Multipliers of Basic Attack - Foreclaimed Self, Heavy Attack - Foreclaimed Self, Mid-air Attack - Foreclaimed Self, Mid-air Plunging Attack - Foreclaimed Self, Dodge Counter - Foreclaimed Self are increased by 120% .\n Basic Attack - Foreclaimed Self Stage 3 now has an increased range and pulls enemies within range toward the center. Hiyuki is immune to interruptions while casting Basic Attack - Foreclaimed Self Stage 4 & 5.\n Casting Foreclaiming: Inward Vision enhances the next Basic Attack - Foreclaimed Self Stage 1 & 2, which now inflict 1 stack of Glacio Chafe on hit.\n\n S 2\n Sequence Node 2\n\n Basic Attack - Iai's DMG Multiplier is increased by 125% .\n Inherent Skill Ephemeral Realm's effect becomes the following one:\n Once Hiyuki leaves the combat state or recovers from being knocked out, after staying out of combat for 4s , restore 3 points of Snowforged Blade.\n\n Once Hiyuki leaves the combat state or recovers from being knocked out, after staying out of combat for 4s, the following effects are triggered once:\n Restore 3 points of Frostharden Iai.\n\n Reset the Cooldown of 2 charges of Frostblight: Jade Cleave.\n\n Restore an additional 50 points of Frostheart for the next 2 casts of Frostblight: Jade Cleave or Frostblight: Petalfall.\n\n S 3\n Sequence Node 3\n\n Inherent Skill Fine Snow gains the following effect: Every 2s after a Resonator joins the team or Hiyuki is revived, Hiyuki gains 1 stack of Snow Rust. Hiyuki can obtain up to 1 stack of Snow Rust in this way.\n The DMG Multipliers of Heavy Attack - Frost Splinter: Present Self and Heavy Attack - Bitterfrost: Foreclaimed Self are increased by 160% .\n At 2 stacks of Snow Rust, while Hiyuki is the active Resonator in the team, the DMG Multiplier of the additionally applied Glacio Bite DMG each time she inflicts Glacio Chafe is increased by 488% .\n\n S 4\n Sequence Node 4\n\n Casting Resonance Skill: Present Self, Frostblight: Jade Cleave, or Frostblight: Petalfall increases the damage dealt by all nearby Resonators in the team by 20% for 30s .\n Restore 18% of Max HP while casting Frostblight: Jade Cleave or Frostblight: Petalfall.\n\n S 5\n Sequence Node 5\n\n The DMG Multipliers of Resonance Skill - Present Self, Frostblight: Jade Cleave, and Frostblight: Petalfall are increased by 80% .\n\n S 6\n Sequence Node 6\n\n The Crit. DMG of Foreclaiming: Inward Vision and Foreclaiming: Blade Liberation are increased by 500% .\n At 2 stacks of Snow Rust, the effect \"While Hiyuki is the active Resonator in the team, each time she applies Glacio Chafe, she additionally deals an instance of Glacio Bite DMG with a fixed DMG Multiplier\" changes to \"While Hiyuki is the active Resonator in the team, each time a Resonator in the team applies Glacio Chafe, she additionally deals an instance of Glacio Bite DMG with a fixed DMG Multiplier.\"\n At 2 stacks of Snow Rust, Hiyuki's Crit. DMG is increased by 40% .\n At 3 stacks of Snow Rust, the total Glacio Bite DMG taken by targets within a certain range of the active Resonator in the team is increased by 25% .",
+      "assets": []
+    },
+    {
+      "id": "minor-fortes-total-11",
+      "level": 2,
+      "heading": "Minor Fortes (Total)",
+      "text": "CRIT Rate\n + 8 %\n\n ATK%\n + 12 %",
+      "assets": [
+        {
+          "id": "39094c227806",
+          "sourceHash": "39094c227806",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "1e70b3adc860",
+          "sourceHash": "1e70b3adc860",
+          "kind": "icons",
+          "name": "ATK%",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "stats-12",
+      "level": 2,
+      "heading": "Stats",
+      "text": "Include minor fortes\n\n Lv. 90\n\n HP\n 10300\n\n ATK\n 463\n\n DEF\n 1112\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Glacio DMG\n 0 %",
+      "assets": [
+        {
+          "id": "c26c1d310e90",
+          "sourceHash": "c26c1d310e90",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "1e70b3adc860",
+          "sourceHash": "1e70b3adc860",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "aa019d34202f",
+          "sourceHash": "aa019d34202f",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "5a0b154cd3d8",
+          "sourceHash": "5a0b154cd3d8",
+          "kind": "icons",
+          "name": "Max Energy",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "39094c227806",
+          "sourceHash": "39094c227806",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "7e2bcd0760ca",
+          "sourceHash": "7e2bcd0760ca",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "94236abd3fdc",
+          "sourceHash": "94236abd3fdc",
+          "kind": "icons",
+          "name": "Healing",
+          "fileStem": "stat-heal",
+          "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "5d2c60395865",
+          "sourceHash": "5d2c60395865",
+          "kind": "icons",
+          "name": "Glacio",
+          "fileStem": "stat-ice",
+          "path": "Prydwen/ww/assets/icons/glacio-5d2c60395865.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "upgrade-materials-13",
+      "level": 2,
+      "heading": "Upgrade Materials",
+      "text": "Hiyuki upgrade material information aren't available yet.",
+      "assets": []
+    },
+    {
+      "id": "voice-actors-14",
+      "level": 2,
+      "heading": "Voice Actors",
+      "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-15",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "099635d10d97",
+          "sourceHash": "099635d10d97",
+          "kind": "characters",
+          "name": "Hiyuki",
+          "fileStem": "hiyuki-full",
+          "path": "Prydwen/ww/assets/characters/hiyuki-099635d10d97.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "ratings-16",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.",
+      "assets": []
+    },
+    {
+      "id": "dps-17",
+      "level": 5,
+      "heading": "DPS",
+      "text": "T0\n Tower of Adversity\n\n T0.5\n Whimpering Wastes",
+      "assets": []
+    },
+    {
+      "id": "dps-19",
+      "level": 5,
+      "heading": "DPS",
+      "text": "T1\n Tower of Adversity (Value)\n\n T1\n Whimpering Wastes (Value)",
+      "assets": []
+    },
+    {
+      "id": "pros-21",
+      "level": 5,
+      "heading": "Pros",
+      "text": "The best Glacio DPS by a huge margin in her best team (literally no competition since Carlotta).\n\n Big AoE hits spread across her rotation alongside grouping give her pretty good multi-wave capabilities despite being a Negative Status character.\n\n All of her long animations pause in-game timers or at least grant invulnerability, meaning she doesn’t have windows where she’s especially vulnerable (dodging is almost always an option in the worst-case scenario).",
+      "assets": []
+    },
+    {
+      "id": "cons-22",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Very few alternatives in teammates - Lucilla/Lynae and Chisa are huge power-ups that lock Hiyuki’s full potential (although Chisa is replaceable by Mornye if Lynae is present, that’s the only replacement comparable to her best team by a lot). Overall not the most F2P-friendly damage dealer ever released.",
+      "assets": []
+    },
+    {
+      "id": "review-23",
+      "level": 2,
+      "heading": "Review",
+      "text": "Hiyuki is a 5-star Glacio Sword DPS character whose mechanics revolve around Glacio Chafe and Liberation DMG. Featuring several big hits across her rotation, built-in grouping capabilities, and a huge damage potential, Hiyuki’s rotation revolves around building her Forte resources efficiently in order to unleash all of her powerful moves in quick succession to dispatch enemies quickly with overwhelming force. Let’s look into how to achieve this exact goal.",
+      "assets": []
+    },
+    {
+      "id": "rotation-related-mechanics-24",
+      "level": 6,
+      "heading": "Rotation & Related Mechanics",
+      "text": "Hiyuki has several Forte resources she wants to build up in order to enter her Ultimate stance to deal the majority of her damage, then end it and finish it off with a big AoE-damaging second Ultimate attack (similarly to Zani, just packing more of a punch).\n First, she wants to build up Dedication. This can be done via her Intro and her Basic 3 (either accessed directly after her Intro or after her base Skill). This is pretty quick to do, and lets her cast a Heavy Attack that then allows her to enter her Ultimate stance.\n Once she enters her Ultimate stance, she can then build up Frostheart via Skills and Basic Attacks (2 skills and a full Basic chain will do the trick). This allows her to cast a special Basic Attack called Iai after a dodge, which then converts her Forte into 3 points of Whiteout Bitterfrost. This allows her to cast a special Heavy Attack, to then finally empower her Ultimate with yet another Heavy Attack to finally cast her second Ultimate automatically. At this point, her rotation is finished and she is ready to Outro. That’s her rotation covered and done.",
+      "assets": []
+    },
+    {
+      "id": "glacio-chafe-passives-25",
+      "level": 6,
+      "heading": "Glacio Chafe & Passives",
+      "text": "Hiyuki is a Glacio Chafe damage dealer, meaning that she applies Glacio Chafe stacks with several attacks throughout her rotation, stacking up to 10 times by default, being the following:\n 1 stack via her Intro;\n\n 1 stack via her Basic 3;\n\n 1 stack via her enhanced Heavy Attack;\n\n 4 stacks via her first Ultimate;\n\n 1 stack each with her Basic 3, 4, and 5 in Ultimate stance;\n\n 3 stacks for each Iai cast;\n\n 1 stack for her enhanced Heavy Attack in her Ultimate stance.\n\n That’s 20 stacks applied per rotation, which covers more than the max possible stack count on her own. However, Hiyuki has a particular interaction with Glacio Chafe.\n Indeed, she will convert all Glacio Chafe applied on enemies instantly into Glacio Bite, similarly to Zani with Spectro Frazzle and Heliacal Embers (except it’s actually considered Glacio Chafe, so it’s a proper Negative Status, unlike Zani’s case). Glacio Bite works very similarly to Glacio Chafe except it can deal significantly more damage via one of Hiyuki’s passives, and it also stuns enemies for 2 seconds instead of freezing them as Glacio Chafe would.\n Finally, let’s cover the passive (Inherent Skill) in question, called “Fine Snow”. This shapes Hiyuki’s teambuilding. This passive can stack up to 3 times, 1 per application of Havoc Bane or Glacio Chafe in the team. Each stack enhances her Glacio Bite damage. Hiyuki will get 1 stack by herself; however, she will need teammates to get 2 and 3 stacks; this means characters like Chisa and Lucilla are strongly recommended on her team to stack up this passive. Getting 2 stacks is particularly significant as it makes Hiyuki’s Glacio Bite DMG skyrocket, representing a significant damage boost. This is intended to make Glacio Chafe and Havoc Bane supports stronger for her teams, and sure enough it makes characters like Chisa and Lucilla a major upgrade in Hiyuki teams. The third stack isn’t a significant damage increase, however, so it can be disregarded in the future with minimal consequences.",
+      "assets": []
+    },
+    {
+      "id": "meta-position-conclusion-26",
+      "level": 6,
+      "heading": "Meta Position & Conclusion",
+      "text": "Hiyuki’s a super strong Glacio main damage dealer, to no one’s surprise. However, she’s quite restricted in teammate options. Due to the way her kit and passives work, Hiyuki seriously lacks a variety of options in terms of teammates. She is quite reliant on having a fully constituted limited team around her to perform at her desired level. A character like Aemeath, on the other hand, can reach a similar ceiling in all areas currently, yet has a much wider variety of teammate options and similar weapon options, and depends less on having a full team to function. They also both depend on at least having one strong teammate, both being strong Liberation Sword damage dealers, which is a class of characters that lacks F2P-accessible buffers, Jianxin being quite a subpar choice in this aspect and the only available one.\n Overall, Hiyuki’s very strong performance-wise but is stranded for good permanent teammates, needing to lean into very specific team compositions to reach peak performance. Nonetheless, provided she’s surrounded by the right teammates, she’s going to tear through any content the game has to offer effortlessly, making her an amazing pickup for players looking to lean into her full premium team.",
+      "assets": []
+    },
+    {
+      "id": "video-guides-27",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "Build",
+      "assets": []
+    },
+    {
+      "id": "best-weapons-28",
+      "level": 2,
+      "heading": "Best Weapons",
+      "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Hiyuki calculations were done using added buffs from the following teammates:\n Lucilla + Freeze Frame +\n Wishes of Quiet Snowfall\n\n +\n Glommoth\n\n Chisa + Kumokiri +\n Rejuvenating Glow\n\n +\n Fallacy of No Return\n\n 100.00%\n\n Frostburn (R 1 )\n\n Hiyuki's Signature is largely superior to other options thanks to its big stat boosts related to Glacio Chafe and Liberation DMG that only she can utilize to their fullest potential. Other weapons don't provide stat boosts anywhere near as effective, making this weapon a very worthwhile investment to increase Hiyuki's damage ceiling.\n 81.10%\n\n Emerald of Genesis (R 1 )\n\n The Standard Banner Sword that's often the best F2P choice on almost all Sword damage dealers, Hiyuki being no exception. Provides her some Energy Regen and ATK% when casting Skills as well as CRIT Rate and good Base ATK, making it the second best option since no other Sword gives her desirable stats.\n 80.40%\n\n Blazing Brilliance (R 1 )\n\n Changli's Signature matches Emerald of Genesis in performance but doesn't go above it since its CRIT DMG and Skill DMG stat increases are nice, but not better than what the standard weapon can provide. Still worth considering over Emerald of Genesis if players are willing to crit-fish with this weapon to drive its value higher.\n 79.60%\n\n Emerald Sentence (R 1 )\n\n Qiuyuan's Signature can buff the Echo Skill DMG of the team making it very slightly more than a stat-stick on Hiyuki, but it really doesn't have much of an effect for her teams so overall it's practically the same as an ATK and CRIT Rate stat-stick for Hiyuki.\n 79.40%\n\n Red Spring (R 1 )\n\n Simple ATK and CRIT Rate stat-stick for Hiyuki, who barely benefits from this weapon's Basic DMG-focused effects.\n 79.20%\n\n Everbright Polestar (R 1 )\n\n Simple ATK, DMG Bonus and CRIT Rate stat-stick for Hiyuki, who does not benefit from this weapon's Tune Rupture and Fusion Burst-related effects.\n 77.30%\n\n Feather Edge (R 5 )\n\n Best 4-star weapon for Hiyuki, this Battle Pass exclusive provides CRIT Rate, and an ATK and Liberation DMG Bonus on its passive which in spite of its low Base ATK makes it competitive with low-ranking 5-star options.\n 72.40%\n\n Fables of Wisdom (R 5 )\n\n Best fully F2P, no-gacha weapon for Hiyuki, simple ATK stat-stick with decent Base ATK. Upgrade to a better weapon when possible.",
+      "assets": [
+        {
+          "id": "ddae26999871",
+          "sourceHash": "ddae26999871",
+          "kind": "characters",
+          "name": "Lucilla",
+          "fileStem": "lucilla-icon",
+          "path": "Prydwen/ww/assets/characters/lucilla-ddae26999871.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "8598bcf61232",
+          "sourceHash": "8598bcf61232",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-30",
+          "path": "Prydwen/ww/assets/icons/set-30-8598bcf61232.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "733b28dfb61c",
+          "sourceHash": "733b28dfb61c",
+          "kind": "misc",
+          "name": "Glommoth",
+          "fileStem": "6000195",
+          "path": "Prydwen/ww/assets/misc/glommoth-733b28dfb61c.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "0e96075575d8",
+          "sourceHash": "0e96075575d8",
+          "kind": "characters",
+          "name": "Chisa",
+          "fileStem": "chisa-icon",
+          "path": "Prydwen/ww/assets/characters/chisa-0e96075575d8.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9116b6b3061f",
+          "sourceHash": "9116b6b3061f",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-7",
+          "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "963f47d9c985",
+          "sourceHash": "963f47d9c985",
+          "kind": "misc",
+          "name": "Fallacy of No Return",
+          "fileStem": "6000060",
+          "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "0a476c2be498",
+          "sourceHash": "0a476c2be498",
+          "kind": "weapons",
+          "name": "Frostburn",
+          "fileStem": "21020086",
+          "path": "Prydwen/ww/assets/weapons/frostburn-0a476c2be498.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1ee53622240c",
+          "sourceHash": "1ee53622240c",
+          "kind": "weapons",
+          "name": "Emerald of Genesis",
+          "fileStem": "21020015",
+          "path": "Prydwen/ww/assets/weapons/emerald-of-genesis-1ee53622240c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "125c53e53fdd",
+          "sourceHash": "125c53e53fdd",
+          "kind": "weapons",
+          "name": "Blazing Brilliance",
+          "fileStem": "21020016",
+          "path": "Prydwen/ww/assets/weapons/blazing-brilliance-125c53e53fdd.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "67b3675ba5a5",
+          "sourceHash": "67b3675ba5a5",
+          "kind": "weapons",
+          "name": "Emerald Sentence",
+          "fileStem": "21020066",
+          "path": "Prydwen/ww/assets/weapons/emerald-sentence-67b3675ba5a5.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "0191cff521e2",
+          "sourceHash": "0191cff521e2",
+          "kind": "weapons",
+          "name": "Red Spring",
+          "fileStem": "21020026",
+          "path": "Prydwen/ww/assets/weapons/red-spring-0191cff521e2.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d0384e178d37",
+          "sourceHash": "d0384e178d37",
+          "kind": "weapons",
+          "name": "Everbright Polestar",
+          "fileStem": "21020076",
+          "path": "Prydwen/ww/assets/weapons/everbright-polestar-d0384e178d37.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "aa055901e0f5",
+          "sourceHash": "aa055901e0f5",
+          "kind": "weapons",
+          "name": "Feather Edge",
+          "fileStem": "21020104",
+          "path": "Prydwen/ww/assets/weapons/feather-edge-aa055901e0f5.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "c115f8c39381",
+          "sourceHash": "c115f8c39381",
+          "kind": "weapons",
+          "name": "Fables of Wisdom",
+          "fileStem": "21020094",
+          "path": "Prydwen/ww/assets/weapons/fables-of-wisdom-c115f8c39381.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "best-echo-sets-30",
+      "level": 6,
+      "heading": "Best Echo Sets",
+      "text": "100.00%\n\nWishes of Quiet Snowfall\n\n This Glacio Chafe DPS and Support focused set provides Hiyuki with a huge 25% CRIT Rate boost on top of 20% total Glacio DMG Bonus. This set is the best choice bar none due to its very high stat gains for Hiyuki specifically.\n Below you can find Main Echo options:\n\n Reminiscence: Threnodian - Voidborne Construct\n\n - Simple Summon Echo, can be used at any point in the rotation and grants 12% Glacio DMG Bonus as well as 12% Liberation DMG Bonus when equipped in the Main Slot. No-brainer Main Echo choice for Hiyuki.",
+      "assets": [
+        {
+          "id": "8598bcf61232",
+          "sourceHash": "8598bcf61232",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-30",
+          "path": "Prydwen/ww/assets/icons/set-30-8598bcf61232.webp",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "2cf8174d4354",
+          "sourceHash": "2cf8174d4354",
+          "kind": "misc",
+          "name": "Reminiscence: Threnodian - Voidborne Construct",
+          "fileStem": "6000199",
+          "path": "Prydwen/ww/assets/misc/reminiscence-threnodian-voidborne-construct-2cf8174d4354.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "best-echo-stats-31",
+      "level": 2,
+      "heading": "Best Echo Stats",
+      "text": "4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Glacio DMG\n\n 3 cost\n Glacio DMG ≥ ATK%\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT DMG = CRIT Rate (until 75%) > ATK% > Liberation DMG% > ATK\n\n 1 Glacio DMG 1 ATK% is close enough to 2 Glacio DMG with Hiyuki's Signature that you can simply pick between the best substats between the two 3-cost main stat builds.",
+      "assets": []
+    },
+    {
+      "id": "best-endgame-stats-level-90-32",
+      "level": 2,
+      "heading": "Best Endgame Stats (Level 90)",
+      "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 15000+\n\n DEF: 1150+\n\n ATK: 1800-2200+\n\n Crit Rate: 65%+ (Before Set)\n\n Crit DMG: 210%-260%+\n\n Energy Regen: 120%\n\n Glacio DMG%: 40%-70%+",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-33",
+      "level": 2,
+      "heading": "Skill Priority",
+      "text": "Below you can find the order of leveling the abilities for Hiyuki .\n Res. Liberation\n\n Basic Attack\n\n Forte Circuit\n\n Res. Skill\n\n Intro Skill\n\n Intro can be skipped when levelling to save on resources at a minimal damage loss, with Skill also being semi-skippable but worth investing if resources are available.\n\n Gameplay and teams",
+      "assets": []
+    },
+    {
+      "id": "rotation-how-to-play-35",
+      "level": 5,
+      "heading": "Rotation & How to Play",
+      "text": "Note : Some ability names written in the rotations have been shortened for ease of comprehension.\n\n In order to minimize Hiyuki’s field time while ensuring all of the relevant attacks are dealt with maximal damage, we came up with the following rotation:",
+      "assets": []
+    },
+    {
+      "id": "echo-timing-36",
+      "level": 6,
+      "heading": "Echo Timing",
+      "text": "Cast Summon at any point in her rotation.",
+      "assets": []
+    },
+    {
+      "id": "standard-rotation-37",
+      "level": 6,
+      "heading": "Standard Rotation:",
+      "text": "Intro\n\n Basic 3\n\n Heavy: Frost Splinter (Cancel animation as soon as possible via Ultimate)\n\n Ultimate: Inward Vision\n\n Basic: Foreclaimed Self 1\n\n Basic: Foreclaimed Self 2\n\n Basic: Foreclaimed Self 3 (Cancel animation on cast via Skill)\n\n Skill: Jade Cleave\n\n Skill: Petalfall\n\n Basic: Foreclaimed Self 1\n\n Basic: Foreclaimed Self 2\n\n Basic: Foreclaimed Self 3 (Cancel animation on cast via Dodge)\n\n Dodge (Enter Iai Stance)\n\n Basic: Iai (3 times)\n\n Heavy: Bitterfrost\n\n Hold Ultimate: Blade Liberation\n\n Skill (Swap)\n\n Outro\n\n The Skill before Outro is optional and can be skipped if you take too much time to cast it before swapping out and have enough Energy Regen. It can also be kept for later use, to cast Basic 3 before Intro and then go directly into Heavy: Frost Splinter once Intro is cast.\n When it comes to Ultimate stack management, it’s possible to hold off on consuming her Ultimate stacks (that she accumulates up to 3, 1 per rotation except on the Opener where she gets 2 in a single rotation). This is done by tapping her Second Ultimate instead of holding it, which consumes stacks progressively (or by holding for fewer stacks than the max). Each stack empowers her second Ultimate significantly. This can be utilized by holding off on unleashing the full power of Hiyuki’s second Ultimate intentionally, to reserve that power for upcoming enemies on the next rotation if the current enemy wave is at low HP. This is particularly useful for multi-wave combat.\n It is also worth noting that Hiyuki’s Tune Break Skill leads directly into her Foreclaimed Self Basic 3, and building up Forte pre-Intro in order to cast extra Iai attacks per rotation is entirely possible, although this is restricted to advanced Quickswap.",
+      "assets": []
+    },
+    {
+      "id": "synergies-38",
+      "level": 2,
+      "heading": "Synergies",
+      "text": "Lucilla Lynae - Best and only competitive buffers for Hiyuki. Lucilla leans a lot into Hiyuki's Glacio Chafe DMG, while Lynae will have Hiyuki doing bigger numbers on her Ultimates due to her higher raw Liberation DMG buffing. Overall, Lucilla wins out because she can stack up Hiyuki's passive that requires allies to apply Glacio Chafe/Havoc Bane, fully leans into the Glacio Chafe archetype and has an easy rotation. Lynae is a bit worse due to no Glacio Chafe synergy, but still has strong enough general buffs that she remains one of the top picks for the Hiyuki team's 2nd slot.\n Chisa Mornye The Shorekeeper Verina - These are the Support choices Hiyuki has ranked in order. Anyone other than Chisa and Mornye (with Lynae specifically for the latter) will experience significant drop-offs in performance. This is because Chisa's ability to apply Havoc Bane makes her synergize with Hiyuki's passive, giving her a second stack to deal a ton of additional Glacio Bite DMG. Mornye on the other hand has a synergy with Lynae more than Hiyuki, but she has very general buffs that Hiyuki can exploit too; Shorekeeper and Verina serve as alternative options if neither are available.\n Yinlin Zhezhi Changli Jianxin - These are potential \"last resort\" buffing/secondary damage dealing options for Hiyuki if Lynae isn't available. Due to lower overall buffs, or an excessive rotation time, or simply lower overall personal damage, these Support options can work for Hiyuki, but Chisa is strongly recommended to back her up as a Support if you want to use any of these with her.",
+      "assets": [
+        {
+          "id": "ddae26999871",
+          "sourceHash": "ddae26999871",
+          "kind": "characters",
+          "name": "Lucilla",
+          "fileStem": "lucilla-icon",
+          "path": "Prydwen/ww/assets/characters/lucilla-ddae26999871.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e366b96f341c",
+          "sourceHash": "e366b96f341c",
+          "kind": "characters",
+          "name": "Lynae",
+          "fileStem": "lynae-icon",
+          "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "0e96075575d8",
+          "sourceHash": "0e96075575d8",
+          "kind": "characters",
+          "name": "Chisa",
+          "fileStem": "chisa-icon",
+          "path": "Prydwen/ww/assets/characters/chisa-0e96075575d8.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "40d7023b51fa",
+          "sourceHash": "40d7023b51fa",
+          "kind": "characters",
+          "name": "Mornye",
+          "fileStem": "mornye-icon",
+          "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d909de4aecde",
+          "sourceHash": "d909de4aecde",
+          "kind": "characters",
+          "name": "The Shorekeeper",
+          "fileStem": "the-shorekeeper-icon",
+          "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1b2a8f336e3d",
+          "sourceHash": "1b2a8f336e3d",
+          "kind": "characters",
+          "name": "Verina",
+          "fileStem": "verina-icon",
+          "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f569a8378909",
+          "sourceHash": "f569a8378909",
+          "kind": "characters",
+          "name": "Yinlin",
+          "fileStem": "yinlin-icon",
+          "path": "Prydwen/ww/assets/characters/yinlin-f569a8378909.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "60fadd490017",
+          "sourceHash": "60fadd490017",
+          "kind": "characters",
+          "name": "Zhezhi",
+          "fileStem": "zhezhi-icon",
+          "path": "Prydwen/ww/assets/characters/zhezhi-60fadd490017.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "886b0b6d9bb6",
+          "sourceHash": "886b0b6d9bb6",
+          "kind": "characters",
+          "name": "Changli",
+          "fileStem": "changli-icon",
+          "path": "Prydwen/ww/assets/characters/changli-886b0b6d9bb6.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3f68e864215a",
+          "sourceHash": "3f68e864215a",
+          "kind": "characters",
+          "name": "Jianxin",
+          "fileStem": "jianxin-icon",
+          "path": "Prydwen/ww/assets/characters/jianxin-3f68e864215a.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "example-teams-39",
+      "level": 2,
+      "heading": "Example Teams",
+      "text": "Best Team\n\n Only consider Mornye with Lynae (unless stranded for better options).\n\n Alternative Teams\n\n Other Support options listed above are possible to use in this team but will provide very subpar results. Not recommended, try to get Chisa for a strong backing in terms of Support.\n\n Calculations",
+      "assets": [
+        {
+          "id": "5bd44ca9e74f",
+          "sourceHash": "5bd44ca9e74f",
+          "kind": "characters",
+          "name": "Hiyuki",
+          "fileStem": "hiyuki-icon",
+          "path": "Prydwen/ww/assets/characters/hiyuki-5bd44ca9e74f.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "ddae26999871",
+          "sourceHash": "ddae26999871",
+          "kind": "characters",
+          "name": "Lucilla",
+          "fileStem": "lucilla-icon",
+          "path": "Prydwen/ww/assets/characters/lucilla-ddae26999871.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "e366b96f341c",
+          "sourceHash": "e366b96f341c",
+          "kind": "characters",
+          "name": "Lynae",
+          "fileStem": "lynae-icon",
+          "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "0e96075575d8",
+          "sourceHash": "0e96075575d8",
+          "kind": "characters",
+          "name": "Chisa",
+          "fileStem": "chisa-icon",
+          "path": "Prydwen/ww/assets/characters/chisa-0e96075575d8.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "40d7023b51fa",
+          "sourceHash": "40d7023b51fa",
+          "kind": "characters",
+          "name": "Mornye",
+          "fileStem": "mornye-icon",
+          "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "d909de4aecde",
+          "sourceHash": "d909de4aecde",
+          "kind": "characters",
+          "name": "The Shorekeeper",
+          "fileStem": "the-shorekeeper-icon",
+          "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "1b2a8f336e3d",
+          "sourceHash": "1b2a8f336e3d",
+          "kind": "characters",
+          "name": "Verina",
+          "fileStem": "verina-icon",
+          "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "f569a8378909",
+          "sourceHash": "f569a8378909",
+          "kind": "characters",
+          "name": "Yinlin",
+          "fileStem": "yinlin-icon",
+          "path": "Prydwen/ww/assets/characters/yinlin-f569a8378909.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "60fadd490017",
+          "sourceHash": "60fadd490017",
+          "kind": "characters",
+          "name": "Zhezhi",
+          "fileStem": "zhezhi-icon",
+          "path": "Prydwen/ww/assets/characters/zhezhi-60fadd490017.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "886b0b6d9bb6",
+          "sourceHash": "886b0b6d9bb6",
+          "kind": "characters",
+          "name": "Changli",
+          "fileStem": "changli-icon",
+          "path": "Prydwen/ww/assets/characters/changli-886b0b6d9bb6.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "3f68e864215a",
+          "sourceHash": "3f68e864215a",
+          "kind": "characters",
+          "name": "Jianxin",
+          "fileStem": "jianxin-icon",
+          "path": "Prydwen/ww/assets/characters/jianxin-3f68e864215a.webp",
+          "width": 120,
+          "height": 120
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "best-echo-stats": {
+      "label": "Best Echo Stats",
+      "sections": [
+        {
+          "heading": "Stats",
+          "text": "Include minor fortes\n\n Lv. 90\n\n HP\n 10300\n\n ATK\n 463\n\n DEF\n 1112\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Glacio DMG\n 0 %",
+          "assets": [
+            {
+              "id": "c26c1d310e90",
+              "sourceHash": "c26c1d310e90",
+              "kind": "icons",
+              "name": "HP",
+              "fileStem": "stat-hp",
+              "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "1e70b3adc860",
+              "sourceHash": "1e70b3adc860",
+              "kind": "icons",
+              "name": "ATK",
+              "fileStem": "stat-atk",
+              "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "aa019d34202f",
+              "sourceHash": "aa019d34202f",
+              "kind": "icons",
+              "name": "DEF",
+              "fileStem": "stat-def",
+              "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "5a0b154cd3d8",
+              "sourceHash": "5a0b154cd3d8",
+              "kind": "icons",
+              "name": "Max Energy",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "39094c227806",
+              "sourceHash": "39094c227806",
+              "kind": "icons",
+              "name": "CRIT Rate",
+              "fileStem": "stat-crit",
+              "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "7e2bcd0760ca",
+              "sourceHash": "7e2bcd0760ca",
+              "kind": "icons",
+              "name": "CRIT DMG",
+              "fileStem": "stat-critdmg",
+              "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "94236abd3fdc",
+              "sourceHash": "94236abd3fdc",
+              "kind": "icons",
+              "name": "Healing",
+              "fileStem": "stat-heal",
+              "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "5d2c60395865",
+              "sourceHash": "5d2c60395865",
+              "kind": "icons",
+              "name": "Glacio",
+              "fileStem": "stat-ice",
+              "path": "Prydwen/ww/assets/icons/glacio-5d2c60395865.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        },
+        {
+          "heading": "Best Echo Stats",
+          "text": "4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Glacio DMG\n\n 3 cost\n Glacio DMG ≥ ATK%\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT DMG = CRIT Rate (until 75%) > ATK% > Liberation DMG% > ATK\n\n 1 Glacio DMG 1 ATK% is close enough to 2 Glacio DMG with Hiyuki's Signature that you can simply pick between the best substats between the two 3-cost main stat builds.",
+          "assets": []
+        }
+      ]
+    },
+    "rotation": {
+      "label": "Rotation",
+      "sections": [
+        {
+          "heading": "Rotation & Related Mechanics",
+          "text": "Hiyuki has several Forte resources she wants to build up in order to enter her Ultimate stance to deal the majority of her damage, then end it and finish it off with a big AoE-damaging second Ultimate attack (similarly to Zani, just packing more of a punch).\n First, she wants to build up Dedication. This can be done via her Intro and her Basic 3 (either accessed directly after her Intro or after her base Skill). This is pretty quick to do, and lets her cast a Heavy Attack that then allows her to enter her Ultimate stance.\n Once she enters her Ultimate stance, she can then build up Frostheart via Skills and Basic Attacks (2 skills and a full Basic chain will do the trick). This allows her to cast a special Basic Attack called Iai after a dodge, which then converts her Forte into 3 points of Whiteout Bitterfrost. This allows her to cast a special Heavy Attack, to then finally empower her Ultimate with yet another Heavy Attack to finally cast her second Ultimate automatically. At this point, her rotation is finished and she is ready to Outro. That’s her rotation covered and done.",
+          "assets": []
+        },
+        {
+          "heading": "Rotation & How to Play",
+          "text": "Note : Some ability names written in the rotations have been shortened for ease of comprehension.\n\n In order to minimize Hiyuki’s field time while ensuring all of the relevant attacks are dealt with maximal damage, we came up with the following rotation:",
+          "assets": []
+        },
+        {
+          "heading": "Standard Rotation:",
+          "text": "Intro\n\n Basic 3\n\n Heavy: Frost Splinter (Cancel animation as soon as possible via Ultimate)\n\n Ultimate: Inward Vision\n\n Basic: Foreclaimed Self 1\n\n Basic: Foreclaimed Self 2\n\n Basic: Foreclaimed Self 3 (Cancel animation on cast via Skill)\n\n Skill: Jade Cleave\n\n Skill: Petalfall\n\n Basic: Foreclaimed Self 1\n\n Basic: Foreclaimed Self 2\n\n Basic: Foreclaimed Self 3 (Cancel animation on cast via Dodge)\n\n Dodge (Enter Iai Stance)\n\n Basic: Iai (3 times)\n\n Heavy: Bitterfrost\n\n Hold Ultimate: Blade Liberation\n\n Skill (Swap)\n\n Outro\n\n The Skill before Outro is optional and can be skipped if you take too much time to cast it before swapping out and have enough Energy Regen. It can also be kept for later use, to cast Basic 3 before Intro and then go directly into Heavy: Frost Splinter once Intro is cast.\n When it comes to Ultimate stack management, it’s possible to hold off on consuming her Ultimate stacks (that she accumulates up to 3, 1 per rotation except on the Opener where she gets 2 in a single rotation). This is done by tapping her Second Ultimate instead of holding it, which consumes stacks progressively (or by holding for fewer stacks than the max). Each stack empowers her second Ultimate significantly. This can be utilized by holding off on unleashing the full power of Hiyuki’s second Ultimate intentionally, to reserve that power for upcoming enemies on the next rotation if the current enemy wave is at low HP. This is particularly useful for multi-wave combat.\n It is also worth noting that Hiyuki’s Tune Break Skill leads directly into her Foreclaimed Self Basic 3, and building up Forte pre-Intro in order to cast extra Iai attacks per rotation is entirely possible, although this is restricted to advanced Quickswap.",
+          "assets": []
+        }
+      ]
+    },
+    "best-weapons": {
+      "label": "Best Weapons",
+      "sections": [
+        {
+          "heading": "Best Weapons",
+          "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Hiyuki calculations were done using added buffs from the following teammates:\n Lucilla + Freeze Frame +\n Wishes of Quiet Snowfall\n\n +\n Glommoth\n\n Chisa + Kumokiri +\n Rejuvenating Glow\n\n +\n Fallacy of No Return\n\n 100.00%\n\n Frostburn (R 1 )\n\n Hiyuki's Signature is largely superior to other options thanks to its big stat boosts related to Glacio Chafe and Liberation DMG that only she can utilize to their fullest potential. Other weapons don't provide stat boosts anywhere near as effective, making this weapon a very worthwhile investment to increase Hiyuki's damage ceiling.\n 81.10%\n\n Emerald of Genesis (R 1 )\n\n The Standard Banner Sword that's often the best F2P choice on almost all Sword damage dealers, Hiyuki being no exception. Provides her some Energy Regen and ATK% when casting Skills as well as CRIT Rate and good Base ATK, making it the second best option since no other Sword gives her desirable stats.\n 80.40%\n\n Blazing Brilliance (R 1 )\n\n Changli's Signature matches Emerald of Genesis in performance but doesn't go above it since its CRIT DMG and Skill DMG stat increases are nice, but not better than what the standard weapon can provide. Still worth considering over Emerald of Genesis if players are willing to crit-fish with this weapon to drive its value higher.\n 79.60%\n\n Emerald Sentence (R 1 )\n\n Qiuyuan's Signature can buff the Echo Skill DMG of the team making it very slightly more than a stat-stick on Hiyuki, but it really doesn't have much of an effect for her teams so overall it's practically the same as an ATK and CRIT Rate stat-stick for Hiyuki.\n 79.40%\n\n Red Spring (R 1 )\n\n Simple ATK and CRIT Rate stat-stick for Hiyuki, who barely benefits from this weapon's Basic DMG-focused effects.\n 79.20%\n\n Everbright Polestar (R 1 )\n\n Simple ATK, DMG Bonus and CRIT Rate stat-stick for Hiyuki, who does not benefit from this weapon's Tune Rupture and Fusion Burst-related effects.\n 77.30%\n\n Feather Edge (R 5 )\n\n Best 4-star weapon for Hiyuki, this Battle Pass exclusive provides CRIT Rate, and an ATK and Liberation DMG Bonus on its passive which in spite of its low Base ATK makes it competitive with low-ranking 5-star options.\n 72.40%\n\n Fables of Wisdom (R 5 )\n\n Best fully F2P, no-gacha weapon for Hiyuki, simple ATK stat-stick with decent Base ATK. Upgrade to a better weapon when possible.",
+          "assets": [
+            {
+              "id": "ddae26999871",
+              "sourceHash": "ddae26999871",
+              "kind": "characters",
+              "name": "Lucilla",
+              "fileStem": "lucilla-icon",
+              "path": "Prydwen/ww/assets/characters/lucilla-ddae26999871.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "8598bcf61232",
+              "sourceHash": "8598bcf61232",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-30",
+              "path": "Prydwen/ww/assets/icons/set-30-8598bcf61232.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "733b28dfb61c",
+              "sourceHash": "733b28dfb61c",
+              "kind": "misc",
+              "name": "Glommoth",
+              "fileStem": "6000195",
+              "path": "Prydwen/ww/assets/misc/glommoth-733b28dfb61c.webp",
+              "width": 35,
+              "height": 35
+            },
+            {
+              "id": "0e96075575d8",
+              "sourceHash": "0e96075575d8",
+              "kind": "characters",
+              "name": "Chisa",
+              "fileStem": "chisa-icon",
+              "path": "Prydwen/ww/assets/characters/chisa-0e96075575d8.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "9116b6b3061f",
+              "sourceHash": "9116b6b3061f",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-7",
+              "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "963f47d9c985",
+              "sourceHash": "963f47d9c985",
+              "kind": "misc",
+              "name": "Fallacy of No Return",
+              "fileStem": "6000060",
+              "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+              "width": 35,
+              "height": 35
+            },
+            {
+              "id": "0a476c2be498",
+              "sourceHash": "0a476c2be498",
+              "kind": "weapons",
+              "name": "Frostburn",
+              "fileStem": "21020086",
+              "path": "Prydwen/ww/assets/weapons/frostburn-0a476c2be498.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1ee53622240c",
+              "sourceHash": "1ee53622240c",
+              "kind": "weapons",
+              "name": "Emerald of Genesis",
+              "fileStem": "21020015",
+              "path": "Prydwen/ww/assets/weapons/emerald-of-genesis-1ee53622240c.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "125c53e53fdd",
+              "sourceHash": "125c53e53fdd",
+              "kind": "weapons",
+              "name": "Blazing Brilliance",
+              "fileStem": "21020016",
+              "path": "Prydwen/ww/assets/weapons/blazing-brilliance-125c53e53fdd.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "67b3675ba5a5",
+              "sourceHash": "67b3675ba5a5",
+              "kind": "weapons",
+              "name": "Emerald Sentence",
+              "fileStem": "21020066",
+              "path": "Prydwen/ww/assets/weapons/emerald-sentence-67b3675ba5a5.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "0191cff521e2",
+              "sourceHash": "0191cff521e2",
+              "kind": "weapons",
+              "name": "Red Spring",
+              "fileStem": "21020026",
+              "path": "Prydwen/ww/assets/weapons/red-spring-0191cff521e2.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d0384e178d37",
+              "sourceHash": "d0384e178d37",
+              "kind": "weapons",
+              "name": "Everbright Polestar",
+              "fileStem": "21020076",
+              "path": "Prydwen/ww/assets/weapons/everbright-polestar-d0384e178d37.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "aa055901e0f5",
+              "sourceHash": "aa055901e0f5",
+              "kind": "weapons",
+              "name": "Feather Edge",
+              "fileStem": "21020104",
+              "path": "Prydwen/ww/assets/weapons/feather-edge-aa055901e0f5.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "c115f8c39381",
+              "sourceHash": "c115f8c39381",
+              "kind": "weapons",
+              "name": "Fables of Wisdom",
+              "fileStem": "21020094",
+              "path": "Prydwen/ww/assets/weapons/fables-of-wisdom-c115f8c39381.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "best-echo-sets": {
+      "label": "Best Echo Sets",
+      "sections": [
+        {
+          "heading": "Best Echo Sets",
+          "text": "100.00%\n\nWishes of Quiet Snowfall\n\n This Glacio Chafe DPS and Support focused set provides Hiyuki with a huge 25% CRIT Rate boost on top of 20% total Glacio DMG Bonus. This set is the best choice bar none due to its very high stat gains for Hiyuki specifically.\n Below you can find Main Echo options:\n\n Reminiscence: Threnodian - Voidborne Construct\n\n - Simple Summon Echo, can be used at any point in the rotation and grants 12% Glacio DMG Bonus as well as 12% Liberation DMG Bonus when equipped in the Main Slot. No-brainer Main Echo choice for Hiyuki.",
+          "assets": [
+            {
+              "id": "8598bcf61232",
+              "sourceHash": "8598bcf61232",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-30",
+              "path": "Prydwen/ww/assets/icons/set-30-8598bcf61232.webp",
+              "width": 50,
+              "height": 50
+            },
+            {
+              "id": "2cf8174d4354",
+              "sourceHash": "2cf8174d4354",
+              "kind": "misc",
+              "name": "Reminiscence: Threnodian - Voidborne Construct",
+              "fileStem": "6000199",
+              "path": "Prydwen/ww/assets/misc/reminiscence-threnodian-voidborne-construct-2cf8174d4354.webp",
+              "width": 35,
+              "height": 35
+            }
+          ]
+        }
+      ]
+    },
+    "best-endgame-stats": {
+      "label": "Best Endgame Stats",
+      "sections": [
+        {
+          "heading": "Best Endgame Stats (Level 90)",
+          "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 15000+\n\n DEF: 1150+\n\n ATK: 1800-2200+\n\n Crit Rate: 65%+ (Before Set)\n\n Crit DMG: 210%-260%+\n\n Energy Regen: 120%\n\n Glacio DMG%: 40%-70%+",
+          "assets": []
+        }
+      ]
+    },
+    "skill-priority": {
+      "label": "Skill Priority",
+      "sections": [
+        {
+          "heading": "Skill Priority",
+          "text": "Below you can find the order of leveling the abilities for Hiyuki .\n Res. Liberation\n\n Basic Attack\n\n Forte Circuit\n\n Res. Skill\n\n Intro Skill\n\n Intro can be skipped when levelling to save on resources at a minimal damage loss, with Skill also being semi-skippable but worth investing if resources are available.\n\n Gameplay and teams",
+          "assets": []
+        }
+      ]
+    },
+    "synergies": {
+      "label": "Synergies",
+      "sections": [
+        {
+          "heading": "Synergies",
+          "text": "Lucilla Lynae - Best and only competitive buffers for Hiyuki. Lucilla leans a lot into Hiyuki's Glacio Chafe DMG, while Lynae will have Hiyuki doing bigger numbers on her Ultimates due to her higher raw Liberation DMG buffing. Overall, Lucilla wins out because she can stack up Hiyuki's passive that requires allies to apply Glacio Chafe/Havoc Bane, fully leans into the Glacio Chafe archetype and has an easy rotation. Lynae is a bit worse due to no Glacio Chafe synergy, but still has strong enough general buffs that she remains one of the top picks for the Hiyuki team's 2nd slot.\n Chisa Mornye The Shorekeeper Verina - These are the Support choices Hiyuki has ranked in order. Anyone other than Chisa and Mornye (with Lynae specifically for the latter) will experience significant drop-offs in performance. This is because Chisa's ability to apply Havoc Bane makes her synergize with Hiyuki's passive, giving her a second stack to deal a ton of additional Glacio Bite DMG. Mornye on the other hand has a synergy with Lynae more than Hiyuki, but she has very general buffs that Hiyuki can exploit too; Shorekeeper and Verina serve as alternative options if neither are available.\n Yinlin Zhezhi Changli Jianxin - These are potential \"last resort\" buffing/secondary damage dealing options for Hiyuki if Lynae isn't available. Due to lower overall buffs, or an excessive rotation time, or simply lower overall personal damage, these Support options can work for Hiyuki, but Chisa is strongly recommended to back her up as a Support if you want to use any of these with her.",
+          "assets": [
+            {
+              "id": "ddae26999871",
+              "sourceHash": "ddae26999871",
+              "kind": "characters",
+              "name": "Lucilla",
+              "fileStem": "lucilla-icon",
+              "path": "Prydwen/ww/assets/characters/lucilla-ddae26999871.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "e366b96f341c",
+              "sourceHash": "e366b96f341c",
+              "kind": "characters",
+              "name": "Lynae",
+              "fileStem": "lynae-icon",
+              "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "0e96075575d8",
+              "sourceHash": "0e96075575d8",
+              "kind": "characters",
+              "name": "Chisa",
+              "fileStem": "chisa-icon",
+              "path": "Prydwen/ww/assets/characters/chisa-0e96075575d8.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "40d7023b51fa",
+              "sourceHash": "40d7023b51fa",
+              "kind": "characters",
+              "name": "Mornye",
+              "fileStem": "mornye-icon",
+              "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d909de4aecde",
+              "sourceHash": "d909de4aecde",
+              "kind": "characters",
+              "name": "The Shorekeeper",
+              "fileStem": "the-shorekeeper-icon",
+              "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1b2a8f336e3d",
+              "sourceHash": "1b2a8f336e3d",
+              "kind": "characters",
+              "name": "Verina",
+              "fileStem": "verina-icon",
+              "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "f569a8378909",
+              "sourceHash": "f569a8378909",
+              "kind": "characters",
+              "name": "Yinlin",
+              "fileStem": "yinlin-icon",
+              "path": "Prydwen/ww/assets/characters/yinlin-f569a8378909.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "60fadd490017",
+              "sourceHash": "60fadd490017",
+              "kind": "characters",
+              "name": "Zhezhi",
+              "fileStem": "zhezhi-icon",
+              "path": "Prydwen/ww/assets/characters/zhezhi-60fadd490017.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "886b0b6d9bb6",
+              "sourceHash": "886b0b6d9bb6",
+              "kind": "characters",
+              "name": "Changli",
+              "fileStem": "changli-icon",
+              "path": "Prydwen/ww/assets/characters/changli-886b0b6d9bb6.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "3f68e864215a",
+              "sourceHash": "3f68e864215a",
+              "kind": "characters",
+              "name": "Jianxin",
+              "fileStem": "jianxin-icon",
+              "path": "Prydwen/ww/assets/characters/jianxin-3f68e864215a.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "example-teams": {
+      "label": "Example Teams",
+      "sections": [
+        {
+          "heading": "Example Teams",
+          "text": "Best Team\n\n Only consider Mornye with Lynae (unless stranded for better options).\n\n Alternative Teams\n\n Other Support options listed above are possible to use in this team but will provide very subpar results. Not recommended, try to get Chisa for a strong backing in terms of Support.\n\n Calculations",
+          "assets": [
+            {
+              "id": "5bd44ca9e74f",
+              "sourceHash": "5bd44ca9e74f",
+              "kind": "characters",
+              "name": "Hiyuki",
+              "fileStem": "hiyuki-icon",
+              "path": "Prydwen/ww/assets/characters/hiyuki-5bd44ca9e74f.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "ddae26999871",
+              "sourceHash": "ddae26999871",
+              "kind": "characters",
+              "name": "Lucilla",
+              "fileStem": "lucilla-icon",
+              "path": "Prydwen/ww/assets/characters/lucilla-ddae26999871.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "e366b96f341c",
+              "sourceHash": "e366b96f341c",
+              "kind": "characters",
+              "name": "Lynae",
+              "fileStem": "lynae-icon",
+              "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "0e96075575d8",
+              "sourceHash": "0e96075575d8",
+              "kind": "characters",
+              "name": "Chisa",
+              "fileStem": "chisa-icon",
+              "path": "Prydwen/ww/assets/characters/chisa-0e96075575d8.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "40d7023b51fa",
+              "sourceHash": "40d7023b51fa",
+              "kind": "characters",
+              "name": "Mornye",
+              "fileStem": "mornye-icon",
+              "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "d909de4aecde",
+              "sourceHash": "d909de4aecde",
+              "kind": "characters",
+              "name": "The Shorekeeper",
+              "fileStem": "the-shorekeeper-icon",
+              "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "1b2a8f336e3d",
+              "sourceHash": "1b2a8f336e3d",
+              "kind": "characters",
+              "name": "Verina",
+              "fileStem": "verina-icon",
+              "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "f569a8378909",
+              "sourceHash": "f569a8378909",
+              "kind": "characters",
+              "name": "Yinlin",
+              "fileStem": "yinlin-icon",
+              "path": "Prydwen/ww/assets/characters/yinlin-f569a8378909.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "60fadd490017",
+              "sourceHash": "60fadd490017",
+              "kind": "characters",
+              "name": "Zhezhi",
+              "fileStem": "zhezhi-icon",
+              "path": "Prydwen/ww/assets/characters/zhezhi-60fadd490017.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "886b0b6d9bb6",
+              "sourceHash": "886b0b6d9bb6",
+              "kind": "characters",
+              "name": "Changli",
+              "fileStem": "changli-icon",
+              "path": "Prydwen/ww/assets/characters/changli-886b0b6d9bb6.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "3f68e864215a",
+              "sourceHash": "3f68e864215a",
+              "kind": "characters",
+              "name": "Jianxin",
+              "fileStem": "jianxin-icon",
+              "path": "Prydwen/ww/assets/characters/jianxin-3f68e864215a.webp",
+              "width": 120,
+              "height": 120
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Hiyuki Best Build Guide | Wuthering Waves (WuWa)\n \n\n Wuthering Waves\n Home Database Characters Weapons Echoes Banners\n Tier Lists Tier List Team Tier List Value Tier List\n Guides Guides\n Resources Map News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Wuthering Waves\n /\n Characters\n /\n Hiyuki\n Hiyuki Best Build Guide\n Last updated: 19/June/2026\n\n Introduction\n Best guide and build for Hiyuki from WW (Wuthering Waves). Hiyuki is a 5 ★ rarity character from the Glacio element who uses the Sword type weapon.\n\n To learn more about Hiyuki check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Hiyuki has at least one video guide available:\n\n Update tracker\n Last review update\n Patch 3.3\n\n Last major build/calcs update\n Patch 3.3\n\n Last profile update*\n 19/June/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Hiyuki check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Kit\n\n Review\n\n Build\n\n Gameplay and teams\n\n Calculations\n\n Profile\n\n Skills\n Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Flaming Sakura Blade Art\n\n Basic Attack - Present Self\n Press Normal Attack consecutively or hold it down to perform up to 3 consecutive attacks, dealing Glacio DMG .\n\n Basic Attack - Present Self Stage 3 applies 1 stack of Glacio Chafe on hit.\n\n Heavy Attack - Frost Splinter: Present Self\n When Dedication reaches 300 points, Heavy Attack - Frost Splinter: Present Self becomes available.\n\n Hold Normal Attack to shoot out 3 arrows one by one at the cost of STA, dealing Glacio DMG , considered Resonance Liberation DMG. Hiyuki is immune to interruptions in the duration.\n\n When the last arrow is shot, 300 points of Dedication is consumed and Foreclaiming: Inward Vision becomes available. The arrow applies 1 stack of Glacio Chafe on hit.\n\n Mid-air Attack - Present Self\n Consume STA to perform a Plunging Attack from Mid-air, dealing Glacio DMG .\n\n Dodge Counter - Present Self\n Press Normal Attack within a certain period after a successful Dodge to attack the target, dealing Glacio DMG .\n\n Press Normal Attack within a certain period after casting this skill to perform Basic Attack - Present Self Stage 3.\n\n Basic Attack - Foreclaimed Self\n While in Foreclaimed Self, Basic Attack - Present Self is replaced by Basic Attack - Foreclaimed Self.\n\n Perform up to 5 consecutive attacks, dealing Glacio DMG , considered Resonance Liberation DMG.\n\n Basic Attack - Foreclaimed Self Stage 3, 4, and 5 each applies 1 stack of Glacio Chafe on hit.\n\n Heavy Attack - Foreclaimed Self\n In Foreclaimed Self, hold Normal Attack to enter Hold Breath, continuously consuming STA. When Normal Attack is released or STA is depleted, Hiyuki leaves the Hold Breath state and thrusts forward, dealing Glacio DMG , considered Resonance Liberation DMG. Press Normal Attack within a certain period after casting this skill to perform Basic Attack - Foreclaimed Self Stage 2.\n\n If Hiyuki is attacked by an enemy within a certain period during the thrust, neutralize that instance of damage, Stagnate nearby targets, and become immune to interruptions for a certain period afterward while reducing all incoming damage by 100% . Press Normal Attack within a certain period after casting this skill to chain into Basic Attack - Foreclaimed Self Stage 4 instead.\n\n Heavy Attack - Bitterfrost: Foreclaimed Self\n When Whiteout Bitterfrost is full, Heavy Attack - Foreclaimed Self is replaced with Heavy Attack - Bitterfrost: Foreclaimed Self.\n\n Hold Normal Attack and consume STA and 3 stacks of Whiteout Bitterfrost to gain 1 point of Snowforged Blade, dealing Glacio DMG , considered Resonance Liberation DMG.\n\n Heavy Attack - Bitterfrost: Foreclaimed Self applies 1 stack of Glacio Chafe on hit.\n\n If Hiyuki is airborne while casting this skill, she'll land on the ground first.\n\n Mid-air Attack - Foreclaimed Self\n While in Foreclaimed Self, Mid-air Attack - Present Self is replaced by Mid-air Attack - Foreclaimed Self.\n\n Consume STA to perform up to 3 consecutive attacks in Mid-air, dealing Glacio DMG , considered Resonance Liberation DMG. Stage 3 is a Plunging Attack.\n\n Mid-air Attack - Foreclaimed Self Stage 2 & 3 apply 1 stack of Glacio Chafe on hit.\n\n The Mid-air Attack - Foreclaimed Self combo will not be reset by casting skills other than Basic Attack - Iai within a short period.\n\n Hold Normal Attack while airborne to perform a Plunging Attack at the cost of STA.\n\n Dodge Counter - Foreclaimed Self\n While in Foreclaimed Self, Dodge Counter - Present Self is replaced by Dodge Counter - Foreclaimed Self.\n\n Press Normal Attack within a certain period after a successful Dodge to attack the target, dealing Glacio DMG , considered Resonance Liberation DMG.\n\n Press Normal Attack within a certain period after casting this skill to perform Basic Attack - Foreclaimed Self Stage 3.\n\n Multipliers\n\n Resonance Skill\n Frostblight\n\n Resonance Skill - Present Self\n Deal Glacio DMG .\n\n Casting this skill enhances the next Basic Attack - Present Self Stage 3, which now restores 100 points of Dedication when cast. Switching to another Resonator ends this effect.\n\n Press Normal Attack within a certain period after casting this skill to perform Basic Attack - Present Self Stage 3.\n\n If Dedication is below 300 points, hold Normal Attack within a certain period after casting this skill to perform Basic Attack - Present Self Stage 3.\n\n While in Foreclaimed Self, Resonance Skill - Present Self is replaced by Frostblight: Jade Cleave and Frostblight: Petalfall:\n Frostblight: Jade Cleave\n While on the ground, press Resonance Skill to pull in nearby targets and deal Glacio DMG , removing the targets' Frostbind.\n\n This skill shares a Cooldown with Frostblight: Petalfall.\n\n Frostblight: Petalfall\n While in mid-air, press Resonance Skill to pull in nearby targets and deal Glacio DMG , removing the targets' Frostbind.\n\n This skill shares a Cooldown with Frostblight: Jade Cleave.\n\n Multipliers\n\n Resonance Liberation\n Foreclaiming\n\n Foreclaiming: Inward Vision\n Heavy Attack - Foreclaiming: Inward Vision becomes available after casting Frost Splinter: Present Self.\n\n While in Present Self, press Resonance Liberation to cast this skill, dealing Glacio DMG . Upon casting this skill, gain 3 points of Frostharden Iai, remove 300 points of Dedication and Frostheart. Then, enter Foreclaimed Self and restore 50 points of Frostheart.\n\n Foreclaiming: Inward Vision applies 4 stacks of Glacio Chafe on hit.\nCasting Foreclaiming: Inward Vision does not consume Resonance Energy, and restores 50 points of Frostheart.\n\n Foreclaiming: Blade Liberation\n While in Foreclaimed Self, Foreclaiming: Blade Liberation can be cast via the following ways:\n Press Resonance Liberation and release to cast Foreclaiming: Blade Liberation. If Hiyuki has 3 points of Snowforged Blade, consume all Snowforged Blade. Otherwise, this cast does not consume Snowforged Blade.\n\n Hold Resonance Liberation to enter a charging state. During this state, consume 1 point of Snowforged Blade periodically. Release Resonance Liberation to cast Foreclaiming: Blade Liberation. If no Snowforged Blade is consumed when Resonance Liberation is released, Hiyuki will continue to charge the attack and cast the skill automatically after certain time. Foreclaiming: Blade Liberation will also be cast automatically when Snowforged Blade depletes.\n\n Hiyuki deals Glacio DMG . Each point of Snowforged Blade consumed increases the DMG Multiplier of this attack.\n\n Casting the skill consumes 300 points of Dedication and Frostheart, and ends Foreclaimed Self.\n\n Multipliers\n\n Forte Circuit\n Everfrost Dominion\n\n Glacio Bite\n While Hiyuki is in the team, Glacio Chafe inflicted by nearby Resonators in the team is converted to Glacio Bite. Every time a new stack of Glacio Bite is inflicted on a target, an instance of Glacio Bite DMG is triggered based on that enemy's current Glacio Bite stack limit. Glacio Bite can be inflicted on frozen targets. Glacio Bite is also considered Glacio Chafe and Glacio Bite DMG is also considered Glacio Chafe DMG.\n\n When Foreclaiming: Inward Vision or Basic Attack - Iai hits a target, if the target has no fewer than 10 stacks of Glacio Chafe, consume 10 stacks and trigger Frostbind once.\n\n When Hiyuki joins the team, remove all stacks Glacio Chafe from the targets. When Hiyuki leaves the team, if there is no other Resonator in the team who can convert Glacio Chafe into Glacio Chafe, all enemies' Glacio Bite stacks are cleared.\n\n Present Self\n Hiyuki starts in Present Self. While in Present Self, casting certain skills restores Dedication.\n\n Foreclaimed Self\n Hiyuki enters Foreclaimed Self after casting Foreclaiming: Inward Vision. While in Foreclaimed Self, Hiyuki unlocks a new form and restores Frostheart by casting certain skills.\n\n Iai Stance\n If Hiyuki has at least 100 points of Frostheart, performing any of the following actions causes her to flash backward at the cost of STA and enter Iai Stance:\n Press Dodge after casting any Normal Attacks - Foreclaimed Self other than Heavy Attack - Bitterfrost: Foreclaimed Self, Frostblight: Jade Cleave, Frostblight: Petalfall, Basic Attack - Iai, or Intro Skill - Frostedge.\n\n Hold Resonance Skill within a certain period after casting Frostblight: Jade Cleave or Frostblight: Petalfall.\n\n While performing the actions above, if there is a valid target within the range and the forward input is held down, Hiyuki instead flashes behind the enemy at the cost of STA and enters Iai Stance.\n\n Hiyuki may enter Iai Stance while airborne. Upon entering the Iai Stance, Hiyuki's mid-air Dodge charges are reset. Iai Stance ends if Hiyuki is switched out.\n\n Basic Attack - Iai\n Within a certain period upon after entering Iai Stance, press Normal Attack and consume 100 points of Frostheart to cast Basic Attack - Iai, dealing Glacio DMG , considered Resonance Liberation DMG.\n\n If Frostheart remains at 100 points or above after casting this skill, press Normal Attack within a certian period to cast Basic Attack - Iai again.\n\n If Hiyuki is attacked by an enemy within a certain period during Basic Attack - Iai, neutralize this instance of damage and become immune to interruptions for a certain duration afterwards while reducing all incoming DMG by 100% .\n\n Each time Basic Attack - Iai is cast, if Hiyuki has Frostharden Iai, consume 1 stack of Frostharden Iai to inflict 3 stacks of Glacio Chafe on hit, and gain 1 stack of Whiteout Bitterfrost.\n\n Dedication\n Hiyuki holds up to 300 points of Dedication.\n\n While in Present Self, casting Basic Attack - Present Self Stage 3 restores 100 points of Dedication and casting Resonance Skill - Present Self enhances the next Basic Attack - Present Self Stage 3, which now additionally restores 100 points of Dedication. This effect ends when Hiyuki is switched out.\n\n Frostheart\n Hiyuki holds up to 300 points of Frostheart.\n\n Frostheart is restored while casting Frostblight: Jade Cleave and Frostblight: Petalfall, or when Normal Attacks - Foreclaimed Self other than Heavy Attack - Bitterfrost: Foreclaimed Self hits the target.\n\n Frostharden Iai\n Frostharden Iai has a maximum of 3 points.\n\n Casting Foreclaiming: Inward Vision grants 3 points of Frostharden Iai.\n\n Whiteout Bitterfrost\n Whiteout Bitterfrost stacks up to 3 times.\n\n Each time Frostharden Iai is consumed through Basic Attack - Iai, gain 1 stack of Whiteout Bitterfrost.\n\n Snowforged Blade\n Snowforged Blade stacks up to 3 times.\n\n Each time Heavy Attack - Frost Splinter: Foreclaimed Self is cast, gain 1 stack of Snowforged Blade.\n\n Multipliers\n\n Forte Circuit\n Tune Break: Sword\n\n When the target's Off-Tune Level is full, Hiyuki can cast Tune Break on the target.\n While in Present Self, press or hold Normal Attack shortly after casting Tune Break to cast Basic Attack - Present Self Stage 3.\n While in Foreclaimed Self, press Normal Attack shortly after casting Tune Break to cast Basic Attack - Foreclaimed Self Stage 3.\n\n Inherent Skill\n Fine Snow\n\n When a Resonator in the team applies Glacio Chafe or Havoc Bane, Hiyuki gains 1 stack of Snow Rust. Snow Rust stacks up to 3 times. Each Resonator can trigger this effect only once in this way.\n Based on Hiyuki's current stacks of Snow Rust, the following bonuses are unlocked:\n 1 stack of Snow Rust: When Hiyuki is the active Resonator in the team, Glacio Bite DMG is Amplified by 30% against targets within a certain range. Hiyuki's Crit. DMG is increased by 40% .\n\n 2 stacks of Snow Rust: When Hiyuki is the active Resonator in the team, each time she applies Glacio Chafe, she additionally deals 102% Glacio Bite DMG once.\n\n 3 stacks of Snow Rust: When Hiyuki is the active Resonator in the team, Glacio Bite DMG is additionally Amplified by 30% against targets within a certain range.\n\n This effect resets when new Resonators are added to the team.\n\n Inherent Skill\n Ephemeral Realm\n\n Once Hiyuki leaves the combat state or recovers after being knocked out, when she stays out of combat for 4s with has fewer than 1 point of Snowforged Blade, restore 1 point.\n\n Intro Skill\n Frostedge\n\n Deal Glacio DMG , considered Resonance Liberation DMG, and apply 1 stack of Glacio Chafe on hit.\n In Present Self, casting this skill restores 200 points of Dedication. Press or hold Normal Attack within a certain period after casting this skill to cast Basic Attack - Foreclaimed Self Stage 3.\n In Foreclaimed Self, press Normal Attack within a certain period after casting this skill to cast Basic Attack - Foreclaimed Self Stage 2.\n\n Multipliers\n\n Outro Skill\n Snowlight Blessing\n\n Glacio DMG dealt by nearby Resonators other than Hiyuki in the team is Amplified by 20% against targets affected by Glacio Chafe for 20s .\n\n Resonance Chain (Dupes)\n S 1\n Sequence Node 1\n\n The DMG Multipliers of Basic Attack - Foreclaimed Self, Heavy Attack - Foreclaimed Self, Mid-air Attack - Foreclaimed Self, Mid-air Plunging Attack - Foreclaimed Self, Dodge Counter - Foreclaimed Self are increased by 120% .\n Basic Attack - Foreclaimed Self Stage 3 now has an increased range and pulls enemies within range toward the center. Hiyuki is immune to interruptions while casting Basic Attack - Foreclaimed Self Stage 4 & 5.\n Casting Foreclaiming: Inward Vision enhances the next Basic Attack - Foreclaimed Self Stage 1 & 2, which now inflict 1 stack of Glacio Chafe on hit.\n\n S 2\n Sequence Node 2\n\n Basic Attack - Iai's DMG Multiplier is increased by 125% .\n Inherent Skill Ephemeral Realm's effect becomes the following one:\n Once Hiyuki leaves the combat state or recovers from being knocked out, after staying out of combat for 4s , restore 3 points of Snowforged Blade.\n\n Once Hiyuki leaves the combat state or recovers from being knocked out, after staying out of combat for 4s, the following effects are triggered once:\n Restore 3 points of Frostharden Iai.\n\n Reset the Cooldown of 2 charges of Frostblight: Jade Cleave.\n\n Restore an additional 50 points of Frostheart for the next 2 casts of Frostblight: Jade Cleave or Frostblight: Petalfall.\n\n S 3\n Sequence Node 3\n\n Inherent Skill Fine Snow gains the following effect: Every 2s after a Resonator joins the team or Hiyuki is revived, Hiyuki gains 1 stack of Snow Rust. Hiyuki can obtain up to 1 stack of Snow Rust in this way.\n The DMG Multipliers of Heavy Attack - Frost Splinter: Present Self and Heavy Attack - Bitterfrost: Foreclaimed Self are increased by 160% .\n At 2 stacks of Snow Rust, while Hiyuki is the active Resonator in the team, the DMG Multiplier of the additionally applied Glacio Bite DMG each time she inflicts Glacio Chafe is increased by 488% .\n\n S 4\n Sequence Node 4\n\n Casting Resonance Skill: Present Self, Frostblight: Jade Cleave, or Frostblight: Petalfall increases the damage dealt by all nearby Resonators in the team by 20% for 30s .\n Restore 18% of Max HP while casting Frostblight: Jade Cleave or Frostblight: Petalfall.\n\n S 5\n Sequence Node 5\n\n The DMG Multipliers of Resonance Skill - Present Self, Frostblight: Jade Cleave, and Frostblight: Petalfall are increased by 80% .\n\n S 6\n Sequence Node 6\n\n The Crit. DMG of Foreclaiming: Inward Vision and Foreclaiming: Blade Liberation are increased by 500% .\n At 2 stacks of Snow Rust, the effect \"While Hiyuki is the active Resonator in the team, each time she applies Glacio Chafe, she additionally deals an instance of Glacio Bite DMG with a fixed DMG Multiplier\" changes to \"While Hiyuki is the active Resonator in the team, each time a Resonator in the team applies Glacio Chafe, she additionally deals an instance of Glacio Bite DMG with a fixed DMG Multiplier.\"\n At 2 stacks of Snow Rust, Hiyuki's Crit. DMG is increased by 40% .\n At 3 stacks of Snow Rust, the total Glacio Bite DMG taken by targets within a certain range of the active Resonator in the team is increased by 25% .\n\n Minor Fortes (Total)\n CRIT Rate\n + 8 %\n\n ATK%\n + 12 %\n\n Stats\n\nInclude minor fortes\n\n Lv. 90\n\n HP\n 10300\n\n ATK\n 463\n\n DEF\n 1112\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Glacio DMG\n 0 %\n\n Upgrade Materials\n Hiyuki upgrade material information aren't available yet.\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n DPS\n T0\n Tower of Adversity\n\n T0.5\n Whimpering Wastes\n\n Value Tier List\n DPS\n T1\n Tower of Adversity (Value)\n\n T1\n Whimpering Wastes (Value)\n\n Pros & Cons\n Pros\n The best Glacio DPS by a huge margin in her best team (literally no competition since Carlotta).\n\n Big AoE hits spread across her rotation alongside grouping give her pretty good multi-wave capabilities despite being a Negative Status character.\n\n All of her long animations pause in-game timers or at least grant invulnerability, meaning she doesn’t have windows where she’s especially vulnerable (dodging is almost always an option in the worst-case scenario).\n\n Cons\n Very few alternatives in teammates - Lucilla/Lynae and Chisa are huge power-ups that lock Hiyuki’s full potential (although Chisa is replaceable by Mornye if Lynae is present, that’s the only replacement comparable to her best team by a lot). Overall not the most F2P-friendly damage dealer ever released.\n\n Review\n Hiyuki is a 5-star Glacio Sword DPS character whose mechanics revolve around Glacio Chafe and Liberation DMG. Featuring several big hits across her rotation, built-in grouping capabilities, and a huge damage potential, Hiyuki’s rotation revolves around building her Forte resources efficiently in order to unleash all of her powerful moves in quick succession to dispatch enemies quickly with overwhelming force. Let’s look into how to achieve this exact goal.\n Rotation & Related Mechanics\n Hiyuki has several Forte resources she wants to build up in order to enter her Ultimate stance to deal the majority of her damage, then end it and finish it off with a big AoE-damaging second Ultimate attack (similarly to Zani, just packing more of a punch).\n First, she wants to build up Dedication. This can be done via her Intro and her Basic 3 (either accessed directly after her Intro or after her base Skill). This is pretty quick to do, and lets her cast a Heavy Attack that then allows her to enter her Ultimate stance.\n Once she enters her Ultimate stance, she can then build up Frostheart via Skills and Basic Attacks (2 skills and a full Basic chain will do the trick). This allows her to cast a special Basic Attack called Iai after a dodge, which then converts her Forte into 3 points of Whiteout Bitterfrost. This allows her to cast a special Heavy Attack, to then finally empower her Ultimate with yet another Heavy Attack to finally cast her second Ultimate automatically. At this point, her rotation is finished and she is ready to Outro. That’s her rotation covered and done.\n Glacio Chafe & Passives\n Hiyuki is a Glacio Chafe damage dealer, meaning that she applies Glacio Chafe stacks with several attacks throughout her rotation, stacking up to 10 times by default, being the following:\n 1 stack via her Intro;\n\n 1 stack via her Basic 3;\n\n 1 stack via her enhanced Heavy Attack;\n\n 4 stacks via her first Ultimate;\n\n 1 stack each with her Basic 3, 4, and 5 in Ultimate stance;\n\n 3 stacks for each Iai cast;\n\n 1 stack for her enhanced Heavy Attack in her Ultimate stance.\n\n That’s 20 stacks applied per rotation, which covers more than the max possible stack count on her own. However, Hiyuki has a particular interaction with Glacio Chafe.\n Indeed, she will convert all Glacio Chafe applied on enemies instantly into Glacio Bite, similarly to Zani with Spectro Frazzle and Heliacal Embers (except it’s actually considered Glacio Chafe, so it’s a proper Negative Status, unlike Zani’s case). Glacio Bite works very similarly to Glacio Chafe except it can deal significantly more damage via one of Hiyuki’s passives, and it also stuns enemies for 2 seconds instead of freezing them as Glacio Chafe would.\n Finally, let’s cover the passive (Inherent Skill) in question, called “Fine Snow”. This shapes Hiyuki’s teambuilding. This passive can stack up to 3 times, 1 per application of Havoc Bane or Glacio Chafe in the team. Each stack enhances her Glacio Bite damage. Hiyuki will get 1 stack by herself; however, she will need teammates to get 2 and 3 stacks; this means characters like Chisa and Lucilla are strongly recommended on her team to stack up this passive. Getting 2 stacks is particularly significant as it makes Hiyuki’s Glacio Bite DMG skyrocket, representing a significant damage boost. This is intended to make Glacio Chafe and Havoc Bane supports stronger for her teams, and sure enough it makes characters like Chisa and Lucilla a major upgrade in Hiyuki teams. The third stack isn’t a significant damage increase, however, so it can be disregarded in the future with minimal consequences.\n Meta Position & Conclusion\n Hiyuki’s a super strong Glacio main damage dealer, to no one’s surprise. However, she’s quite restricted in teammate options. Due to the way her kit and passives work, Hiyuki seriously lacks a variety of options in terms of teammates. She is quite reliant on having a fully constituted limited team around her to perform at her desired level. A character like Aemeath, on the other hand, can reach a similar ceiling in all areas currently, yet has a much wider variety of teammate options and similar weapon options, and depends less on having a full team to function. They also both depend on at least having one strong teammate, both being strong Liberation Sword damage dealers, which is a class of characters that lacks F2P-accessible buffers, Jianxin being quite a subpar choice in this aspect and the only available one.\n Overall, Hiyuki’s very strong performance-wise but is stranded for good permanent teammates, needing to lean into very specific team compositions to reach peak performance. Nonetheless, provided she’s surrounded by the right teammates, she’s going to tear through any content the game has to offer effortlessly, making her an amazing pickup for players looking to lean into her full premium team.\n\n Video guides\n\n Build\n\n Best Weapons\n The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Hiyuki calculations were done using added buffs from the following teammates:\n Lucilla + Freeze Frame +\n Wishes of Quiet Snowfall\n\n +\n Glommoth\n\n Chisa + Kumokiri +\n Rejuvenating Glow\n\n +\n Fallacy of No Return\n\n 100.00%\n\n Frostburn (R 1 )\n\n Hiyuki's Signature is largely superior to other options thanks to its big stat boosts related to Glacio Chafe and Liberation DMG that only she can utilize to their fullest potential. Other weapons don't provide stat boosts anywhere near as effective, making this weapon a very worthwhile investment to increase Hiyuki's damage ceiling.\n 81.10%\n\n Emerald of Genesis (R 1 )\n\n The Standard Banner Sword that's often the best F2P choice on almost all Sword damage dealers, Hiyuki being no exception. Provides her some Energy Regen and ATK% when casting Skills as well as CRIT Rate and good Base ATK, making it the second best option since no other Sword gives her desirable stats.\n 80.40%\n\n Blazing Brilliance (R 1 )\n\n Changli's Signature matches Emerald of Genesis in performance but doesn't go above it since its CRIT DMG and Skill DMG stat increases are nice, but not better than what the standard weapon can provide. Still worth considering over Emerald of Genesis if players are willing to crit-fish with this weapon to drive its value higher.\n 79.60%\n\n Emerald Sentence (R 1 )\n\n Qiuyuan's Signature can buff the Echo Skill DMG of the team making it very slightly more than a stat-stick on Hiyuki, but it really doesn't have much of an effect for her teams so overall it's practically the same as an ATK and CRIT Rate stat-stick for Hiyuki.\n 79.40%\n\n Red Spring (R 1 )\n\n Simple ATK and CRIT Rate stat-stick for Hiyuki, who barely benefits from this weapon's Basic DMG-focused effects.\n 79.20%\n\n Everbright Polestar (R 1 )\n\n Simple ATK, DMG Bonus and CRIT Rate stat-stick for Hiyuki, who does not benefit from this weapon's Tune Rupture and Fusion Burst-related effects.\n 77.30%\n\n Feather Edge (R 5 )\n\n Best 4-star weapon for Hiyuki, this Battle Pass exclusive provides CRIT Rate, and an ATK and Liberation DMG Bonus on its passive which in spite of its low Base ATK makes it competitive with low-ranking 5-star options.\n 72.40%\n\n Fables of Wisdom (R 5 )\n\n Best fully F2P, no-gacha weapon for Hiyuki, simple ATK stat-stick with decent Base ATK. Upgrade to a better weapon when possible.\n\n Best Echo Sets\n Best Echo Sets\n 100.00%\n\nWishes of Quiet Snowfall\n\n This Glacio Chafe DPS and Support focused set provides Hiyuki with a huge 25% CRIT Rate boost on top of 20% total Glacio DMG Bonus. This set is the best choice bar none due to its very high stat gains for Hiyuki specifically.\n Below you can find Main Echo options:\n\n Reminiscence: Threnodian - Voidborne Construct\n\n - Simple Summon Echo, can be used at any point in the rotation and grants 12% Glacio DMG Bonus as well as 12% Liberation DMG Bonus when equipped in the Main Slot. No-brainer Main Echo choice for Hiyuki.\n\n Best Echo Stats\n 4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Glacio DMG\n\n 3 cost\n Glacio DMG ≥ ATK%\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT DMG = CRIT Rate (until 75%) > ATK% > Liberation DMG% > ATK\n\n 1 Glacio DMG 1 ATK% is close enough to 2 Glacio DMG with Hiyuki's Signature that you can simply pick between the best substats between the two 3-cost main stat builds.\n\n Best Endgame Stats (Level 90)\n All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 15000+\n\n DEF: 1150+\n\n ATK: 1800-2200+\n\n Crit Rate: 65%+ (Before Set)\n\n Crit DMG: 210%-260%+\n\n Energy Regen: 120%\n\n Glacio DMG%: 40%-70%+\n\n Skill Priority\n Below you can find the order of leveling the abilities for Hiyuki .\n Res. Liberation\n\n Basic Attack\n\n Forte Circuit\n\n Res. Skill\n\n Intro Skill\n\n Intro can be skipped when levelling to save on resources at a minimal damage loss, with Skill also being semi-skippable but worth investing if resources are available.\n\n Gameplay and teams\n\n Rotation\n Rotation & How to Play\n\n Note : Some ability names written in the rotations have been shortened for ease of comprehension.\n\n In order to minimize Hiyuki’s field time while ensuring all of the relevant attacks are dealt with maximal damage, we came up with the following rotation:\n\n Echo Timing\n Cast Summon at any point in her rotation.\n\n Standard Rotation:\n Intro\n\n Basic 3\n\n Heavy: Frost Splinter (Cancel animation as soon as possible via Ultimate)\n\n Ultimate: Inward Vision\n\n Basic: Foreclaimed Self 1\n\n Basic: Foreclaimed Self 2\n\n Basic: Foreclaimed Self 3 (Cancel animation on cast via Skill)\n\n Skill: Jade Cleave\n\n Skill: Petalfall\n\n Basic: Foreclaimed Self 1\n\n Basic: Foreclaimed Self 2\n\n Basic: Foreclaimed Self 3 (Cancel animation on cast via Dodge)\n\n Dodge (Enter Iai Stance)\n\n Basic: Iai (3 times)\n\n Heavy: Bitterfrost\n\n Hold Ultimate: Blade Liberation\n\n Skill (Swap)\n\n Outro\n\n The Skill before Outro is optional and can be skipped if you take too much time to cast it before swapping out and have enough Energy Regen. It can also be kept for later use, to cast Basic 3 before Intro and then go directly into Heavy: Frost Splinter once Intro is cast.\n When it comes to Ultimate stack management, it’s possible to hold off on consuming her Ultimate stacks (that she accumulates up to 3, 1 per rotation except on the Opener where she gets 2 in a single rotation). This is done by tapping her Second Ultimate instead of holding it, which consumes stacks progressively (or by holding for fewer stacks than the max). Each stack empowers her second Ultimate significantly. This can be utilized by holding off on unleashing the full power of Hiyuki’s second Ultimate intentionally, to reserve that power for upcoming enemies on the next rotation if the current enemy wave is at low HP. This is particularly useful for multi-wave combat.\n It is also worth noting that Hiyuki’s Tune Break Skill leads directly into her Foreclaimed Self Basic 3, and building up Forte pre-Intro in order to cast extra Iai attacks per rotation is entirely possible, although this is restricted to advanced Quickswap.\n\n Synergies\n Lucilla Lynae - Best and only competitive buffers for Hiyuki. Lucilla leans a lot into Hiyuki's Glacio Chafe DMG, while Lynae will have Hiyuki doing bigger numbers on her Ultimates due to her higher raw Liberation DMG buffing. Overall, Lucilla wins out because she can stack up Hiyuki's passive that requires allies to apply Glacio Chafe/Havoc Bane, fully leans into the Glacio Chafe archetype and has an easy rotation. Lynae is a bit worse due to no Glacio Chafe synergy, but still has strong enough general buffs that she remains one of the top picks for the Hiyuki team's 2nd slot.\n Chisa Mornye The Shorekeeper Verina - These are the Support choices Hiyuki has ranked in order. Anyone other than Chisa and Mornye (with Lynae specifically for the latter) will experience significant drop-offs in performance. This is because Chisa's ability to apply Havoc Bane makes her synergize with Hiyuki's passive, giving her a second stack to deal a ton of additional Glacio Bite DMG. Mornye on the other hand has a synergy with Lynae more than Hiyuki, but she has very general buffs that Hiyuki can exploit too; Shorekeeper and Verina serve as alternative options if neither are available.\n Yinlin Zhezhi Changli Jianxin - These are potential \"last resort\" buffing/secondary damage dealing options for Hiyuki if Lynae isn't available. Due to lower overall buffs, or an excessive rotation time, or simply lower overall personal damage, these Support options can work for Hiyuki, but Chisa is strongly recommended to back her up as a Support if you want to use any of these with her.\n Example Teams\n Best Team\n\n Only consider Mornye with Lynae (unless stranded for better options).\n\n Alternative Teams\n\n Other Support options listed above are possible to use in this team but will provide very subpar results. Not recommended, try to get Chisa for a strong backing in terms of Support.\n\n Calculations"
+}

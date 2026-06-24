@@ -41,7 +41,7 @@
     "sourcePath": "/wuthering-waves/characters/aemeath",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "09/June/2026",
+    "updatedText": "20/June/2026",
     "facts": {
       "rarity": 5,
       "element": "Fusion",
@@ -96,7 +96,7 @@
       "synergies",
       "example-teams"
     ],
-    "assetCount": 42
+    "assetCount": 44
   },
   {
     "id": "baizhi",
@@ -171,7 +171,7 @@
     "sourcePath": "/wuthering-waves/characters/buling",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "09/June/2026",
+    "updatedText": "19/June/2026",
     "facts": {
       "rarity": 4,
       "element": "Electro",
@@ -236,7 +236,7 @@
     "sourcePath": "/wuthering-waves/characters/camellya",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "09/June/2026",
+    "updatedText": "19/June/2026",
     "facts": {
       "rarity": 5,
       "element": "Havoc",
@@ -249,11 +249,11 @@
     "pageFile": "Prydwen/ww/pages/characters/camellya.json",
     "recommendationSections": [
       "best-echo-stats",
+      "rotation",
       "best-weapons",
       "best-echo-sets",
       "best-endgame-stats",
       "skill-priority",
-      "rotation",
       "synergies",
       "example-teams"
     ],
@@ -289,7 +289,7 @@
       "synergies",
       "example-teams"
     ],
-    "assetCount": 41
+    "assetCount": 42
   },
   {
     "id": "carlotta",
@@ -365,7 +365,7 @@
     "sourcePath": "/wuthering-waves/characters/changli",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "09/June/2026",
+    "updatedText": "19/June/2026",
     "facts": {
       "rarity": 5,
       "element": "Fusion",
@@ -378,11 +378,11 @@
     "pageFile": "Prydwen/ww/pages/characters/changli.json",
     "recommendationSections": [
       "best-echo-stats",
+      "rotation",
       "best-weapons",
       "best-echo-sets",
       "best-endgame-stats",
       "skill-priority",
-      "rotation",
       "synergies",
       "example-teams"
     ],
@@ -397,7 +397,7 @@
     "sourcePath": "/wuthering-waves/characters/chisa",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "09/June/2026",
+    "updatedText": "19/June/2026",
     "facts": {
       "rarity": 5,
       "element": "Havoc",
@@ -419,7 +419,7 @@
       "synergies",
       "example-teams"
     ],
-    "assetCount": 42
+    "assetCount": 46
   },
   {
     "id": "chixia",
@@ -504,7 +504,7 @@
     "art": {
       "card": "Prydwen/ww/assets/characters/danjin-f2f25e3c04cd.webp",
       "full": "Prydwen/ww/assets/characters/danjin-f5c38f132cf5.webp",
-      "icon": "Prydwen/ww/assets/characters/danjin-80f52f56be00.webp"
+      "icon": "Prydwen/ww/assets/characters/qiuyuan-c7b0f2c9aaa2.webp"
     },
     "pageFile": "Prydwen/ww/pages/characters/danjin.json",
     "recommendationSections": [
@@ -516,7 +516,7 @@
       "synergies",
       "example-teams"
     ],
-    "assetCount": 36
+    "assetCount": 38
   },
   {
     "id": "denia",
@@ -527,11 +527,11 @@
     "sourcePath": "/wuthering-waves/characters/denia",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "09/June/2026",
+    "updatedText": "20/June/2026",
     "facts": {
       "rarity": 5,
       "element": "Fusion",
-      "weapon": "Unknown"
+      "weapon": "Rectifier"
     },
     "art": {
       "card": "Prydwen/ww/assets/characters/denia-cd066b7db391.webp",
@@ -615,7 +615,7 @@
       "synergies",
       "example-teams"
     ],
-    "assetCount": 42
+    "assetCount": 47
   },
   {
     "id": "hiyuki",
@@ -626,7 +626,7 @@
     "sourcePath": "/wuthering-waves/characters/hiyuki",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "09/June/2026",
+    "updatedText": "19/June/2026",
     "facts": {
       "rarity": 5,
       "element": "Glacio",
@@ -649,6 +649,36 @@
       "example-teams"
     ],
     "assetCount": 35
+  },
+  {
+    "id": "hsin",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Hsin",
+    "slug": "hsin",
+    "sourcePath": "/wuthering-waves/characters/hsin",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "3.x"
+    ],
+    "updatedText": "15/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Unknown",
+      "weapon": "Unknown"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/hsin-ca1c715d65d0.webp",
+      "full": "Prydwen/ww/assets/characters/hsin-652a82fc04a8.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/hsin.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 2
   },
   {
     "id": "iuno",
@@ -681,7 +711,7 @@
       "synergies",
       "example-teams"
     ],
-    "assetCount": 51
+    "assetCount": 55
   },
   {
     "id": "jianxin",
@@ -717,6 +747,36 @@
     "assetCount": 34
   },
   {
+    "id": "jingran",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Jingran",
+    "slug": "jingran",
+    "sourcePath": "/wuthering-waves/characters/jingran",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "3.x"
+    ],
+    "updatedText": "15/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Unknown",
+      "weapon": "Unknown"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/jingran-0e6d2cc79ad5.webp",
+      "full": "Prydwen/ww/assets/characters/jingran-2b0e720255d4.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/jingran.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 2
+  },
+  {
     "id": "jinhsi",
     "provider": "Prydwen",
     "game": "ww",
@@ -725,7 +785,7 @@
     "sourcePath": "/wuthering-waves/characters/jinhsi",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "09/June/2026",
+    "updatedText": "20/June/2026",
     "facts": {
       "rarity": 5,
       "element": "Spectro",
@@ -739,11 +799,11 @@
     "pageFile": "Prydwen/ww/pages/characters/jinhsi.json",
     "recommendationSections": [
       "best-echo-stats",
+      "rotation",
       "best-weapons",
       "best-echo-sets",
       "best-endgame-stats",
       "skill-priority",
-      "rotation",
       "synergies",
       "example-teams"
     ],
@@ -820,11 +880,11 @@
     "name": "Lucilla",
     "slug": "lucilla",
     "sourcePath": "/wuthering-waves/characters/lucilla",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "statusLabels": [
-      "3.4"
+      "New"
     ],
-    "updatedText": "08/June/2026",
+    "updatedText": "20/June/2026",
     "facts": {
       "rarity": 5,
       "element": "Glacio",
@@ -832,16 +892,21 @@
     },
     "art": {
       "card": "Prydwen/ww/assets/characters/lucilla-3cde2eba4714.webp",
-      "full": "Prydwen/ww/assets/characters/lucilla-645cef8d92d9.webp"
+      "full": "Prydwen/ww/assets/characters/lucilla-645cef8d92d9.webp",
+      "icon": "Prydwen/ww/assets/characters/cantarella-d42a4f914657.webp"
     },
     "pageFile": "Prydwen/ww/pages/characters/lucilla.json",
     "recommendationSections": [
       "best-echo-stats",
       "rotation",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
       "synergies",
       "example-teams"
     ],
-    "assetCount": 3
+    "assetCount": 36
   },
   {
     "id": "lucy",
@@ -854,7 +919,7 @@
     "statusLabels": [
       "New"
     ],
-    "updatedText": "09/June/2026",
+    "updatedText": "19/June/2026",
     "facts": {
       "rarity": 5,
       "element": "Spectro",
@@ -952,7 +1017,7 @@
     "sourcePath": "/wuthering-waves/characters/luuk-herssen",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "09/June/2026",
+    "updatedText": "19/June/2026",
     "facts": {
       "rarity": 5,
       "element": "Spectro",
@@ -985,7 +1050,7 @@
     "sourcePath": "/wuthering-waves/characters/lynae",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "09/June/2026",
+    "updatedText": "19/June/2026",
     "facts": {
       "rarity": 5,
       "element": "Spectro",
@@ -1018,7 +1083,7 @@
     "sourcePath": "/wuthering-waves/characters/mornye",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "09/June/2026",
+    "updatedText": "19/June/2026",
     "facts": {
       "rarity": 5,
       "element": "Fusion",
@@ -1138,7 +1203,37 @@
       "synergies",
       "example-teams"
     ],
-    "assetCount": 47
+    "assetCount": 49
+  },
+  {
+    "id": "qingxiao",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Qingxiao",
+    "slug": "qingxiao",
+    "sourcePath": "/wuthering-waves/characters/qingxiao",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "3.x"
+    ],
+    "updatedText": "15/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Unknown",
+      "weapon": "Unknown"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/qingxiao-4f6ce581004d.webp",
+      "full": "Prydwen/ww/assets/characters/qingxiao-df2ddd77ec24.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/qingxiao.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 2
   },
   {
     "id": "qiuyuan",
@@ -1149,7 +1244,7 @@
     "sourcePath": "/wuthering-waves/characters/qiuyuan",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "09/June/2026",
+    "updatedText": "19/June/2026",
     "facts": {
       "rarity": 5,
       "element": "Aero",
@@ -1171,7 +1266,7 @@
       "synergies",
       "example-teams"
     ],
-    "assetCount": 42
+    "assetCount": 45
   },
   {
     "id": "rebecca",
@@ -1184,7 +1279,7 @@
     "statusLabels": [
       "New"
     ],
-    "updatedText": "09/June/2026",
+    "updatedText": "19/June/2026",
     "facts": {
       "rarity": 5,
       "element": "Electro",
@@ -1379,7 +1474,7 @@
     "sourcePath": "/wuthering-waves/characters/sigrika",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "09/June/2026",
+    "updatedText": "19/June/2026",
     "facts": {
       "rarity": 5,
       "element": "Aero",
@@ -1401,7 +1496,67 @@
       "synergies",
       "example-teams"
     ],
-    "assetCount": 34
+    "assetCount": 35
+  },
+  {
+    "id": "suisui",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Suisui",
+    "slug": "suisui",
+    "sourcePath": "/wuthering-waves/characters/suisui",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "3.5"
+    ],
+    "updatedText": "18/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Glacio",
+      "weapon": "Rectifier"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/suisui-6c2f0381f367.webp",
+      "full": "Prydwen/ww/assets/characters/suisui-d7e1ee5a66d1.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/suisui.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 3
+  },
+  {
+    "id": "suoming",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Suoming",
+    "slug": "suoming",
+    "sourcePath": "/wuthering-waves/characters/suoming",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "3.x"
+    ],
+    "updatedText": "15/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Unknown",
+      "weapon": "Unknown"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
+      "full": "Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/suoming.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 2
   },
   {
     "id": "taoqi",
@@ -1565,6 +1720,36 @@
     "assetCount": 28
   },
   {
+    "id": "yangyang-xuanling",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Yangyang Xuanling",
+    "slug": "yangyang-xuanling",
+    "sourcePath": "/wuthering-waves/characters/yangyang-xuanling",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "3.5"
+    ],
+    "updatedText": "18/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Havoc",
+      "weapon": "Sword"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/yangyang-xuanling-184e6fda4c3c.webp",
+      "full": "Prydwen/ww/assets/characters/yangyang-xuanling-47cdc9f48f22.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/yangyang-xuanling.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 3
+  },
+  {
     "id": "yinlin",
     "provider": "Prydwen",
     "game": "ww",
@@ -1703,7 +1888,7 @@
     "sourcePath": "/wuthering-waves/characters/zhezhi",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "09/June/2026",
+    "updatedText": "19/June/2026",
     "facts": {
       "rarity": 5,
       "element": "Glacio",

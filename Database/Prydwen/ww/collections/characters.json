@@ -1,0 +1,1908 @@
+{
+  "id": "collection:characters",
+  "provider": "Prydwen",
+  "game": "ww",
+  "gameName": "Wuthering Waves",
+  "collection": "characters",
+  "recordType": "collection",
+  "slug": "characters",
+  "name": "Wuthering Waves Characters Build Guides",
+  "title": "Wuthering Waves Characters Build Guides",
+  "sourcePath": "/wuthering-waves/characters",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "20/June/2026",
+  "meta": {
+    "title": "Wuthering Waves Characters - Builds, Weapons & Echoes",
+    "description": ""
+  },
+  "facts": {},
+  "assets": [
+    {
+      "id": "54a477ee91f9",
+      "sourceHash": "54a477ee91f9",
+      "kind": "categories",
+      "name": "Characters",
+      "fileStem": "category-characters",
+      "path": "Prydwen/ww/assets/categories/characters-54a477ee91f9.webp",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "id": "ace758a61ce1",
+      "sourceHash": "ace758a61ce1",
+      "kind": "icons",
+      "name": "Aero",
+      "fileStem": "element-aero",
+      "path": "Prydwen/ww/assets/icons/aero-ace758a61ce1.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "028f59b9e335",
+      "sourceHash": "028f59b9e335",
+      "kind": "icons",
+      "name": "Electro",
+      "fileStem": "element-electro",
+      "path": "Prydwen/ww/assets/icons/electro-028f59b9e335.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "c72489fb1776",
+      "sourceHash": "c72489fb1776",
+      "kind": "icons",
+      "name": "Fusion",
+      "fileStem": "element-fusion",
+      "path": "Prydwen/ww/assets/icons/fusion-c72489fb1776.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "85054d52aec3",
+      "sourceHash": "85054d52aec3",
+      "kind": "icons",
+      "name": "Glacio",
+      "fileStem": "element-glacio",
+      "path": "Prydwen/ww/assets/icons/glacio-85054d52aec3.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "ce5995a7f3ec",
+      "sourceHash": "ce5995a7f3ec",
+      "kind": "icons",
+      "name": "Havoc",
+      "fileStem": "element-havoc",
+      "path": "Prydwen/ww/assets/icons/havoc-ce5995a7f3ec.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "d8b7d0006201",
+      "sourceHash": "d8b7d0006201",
+      "kind": "icons",
+      "name": "Spectro",
+      "fileStem": "element-spectro",
+      "path": "Prydwen/ww/assets/icons/spectro-d8b7d0006201.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "9659e10257c1",
+      "sourceHash": "9659e10257c1",
+      "kind": "icons",
+      "name": "Broadblade",
+      "fileStem": "weapon-broadblade",
+      "path": "Prydwen/ww/assets/icons/broadblade-9659e10257c1.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "d82c62257ca7",
+      "sourceHash": "d82c62257ca7",
+      "kind": "icons",
+      "name": "Gauntlets",
+      "fileStem": "weapon-gauntlets",
+      "path": "Prydwen/ww/assets/icons/gauntlets-d82c62257ca7.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "6864581f2de1",
+      "sourceHash": "6864581f2de1",
+      "kind": "icons",
+      "name": "Pistols",
+      "fileStem": "weapon-pistols",
+      "path": "Prydwen/ww/assets/icons/pistols-6864581f2de1.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "f260875f2926",
+      "sourceHash": "f260875f2926",
+      "kind": "icons",
+      "name": "Rectifier",
+      "fileStem": "weapon-rectifier",
+      "path": "Prydwen/ww/assets/icons/rectifier-f260875f2926.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "2752ad70ac33",
+      "sourceHash": "2752ad70ac33",
+      "kind": "icons",
+      "name": "Sword",
+      "fileStem": "weapon-sword",
+      "path": "Prydwen/ww/assets/icons/sword-2752ad70ac33.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "539d2edc55d7",
+      "sourceHash": "539d2edc55d7",
+      "kind": "characters",
+      "name": "Aalto",
+      "fileStem": "aalto-card",
+      "path": "Prydwen/ww/assets/characters/aalto-539d2edc55d7.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "e8051cbd92ef",
+      "sourceHash": "e8051cbd92ef",
+      "kind": "characters",
+      "name": "Aemeath",
+      "fileStem": "math-card",
+      "path": "Prydwen/ww/assets/characters/aemeath-e8051cbd92ef.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "596c5cc53cbb",
+      "sourceHash": "596c5cc53cbb",
+      "kind": "characters",
+      "name": "Augusta",
+      "fileStem": "aug-card",
+      "path": "Prydwen/ww/assets/characters/augusta-596c5cc53cbb.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "acde6f786624",
+      "sourceHash": "acde6f786624",
+      "kind": "characters",
+      "name": "Baizhi",
+      "fileStem": "baizhi-card",
+      "path": "Prydwen/ww/assets/characters/baizhi-acde6f786624.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "5c3498ef8ba3",
+      "sourceHash": "5c3498ef8ba3",
+      "kind": "characters",
+      "name": "Brant",
+      "fileStem": "card-brant",
+      "path": "Prydwen/ww/assets/characters/brant-5c3498ef8ba3.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "7d7829257f62",
+      "sourceHash": "7d7829257f62",
+      "kind": "characters",
+      "name": "Buling",
+      "fileStem": "buling-card",
+      "path": "Prydwen/ww/assets/characters/buling-7d7829257f62.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "f3467aaf6a4e",
+      "sourceHash": "f3467aaf6a4e",
+      "kind": "characters",
+      "name": "Calcharo",
+      "fileStem": "kakarot-card",
+      "path": "Prydwen/ww/assets/characters/calcharo-f3467aaf6a4e.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "4925b6647aa1",
+      "sourceHash": "4925b6647aa1",
+      "kind": "characters",
+      "name": "Camellya",
+      "fileStem": "card-cam",
+      "path": "Prydwen/ww/assets/characters/camellya-4925b6647aa1.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "fd611af55043",
+      "sourceHash": "fd611af55043",
+      "kind": "characters",
+      "name": "Cantarella",
+      "fileStem": "card-canta",
+      "path": "Prydwen/ww/assets/characters/cantarella-fd611af55043.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "456e87859c2e",
+      "sourceHash": "456e87859c2e",
+      "kind": "characters",
+      "name": "Carlotta",
+      "fileStem": "card-carlotta",
+      "path": "Prydwen/ww/assets/characters/carlotta-456e87859c2e.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "ed6aecb666f8",
+      "sourceHash": "ed6aecb666f8",
+      "kind": "characters",
+      "name": "Cartethyia",
+      "fileStem": "cart-card",
+      "path": "Prydwen/ww/assets/characters/cartethyia-ed6aecb666f8.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "a93358eca2a0",
+      "sourceHash": "a93358eca2a0",
+      "kind": "characters",
+      "name": "Changli",
+      "fileStem": "card-changli",
+      "path": "Prydwen/ww/assets/characters/changli-a93358eca2a0.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "c9f908c02435",
+      "sourceHash": "c9f908c02435",
+      "kind": "characters",
+      "name": "Chisa",
+      "fileStem": "chisa-card",
+      "path": "Prydwen/ww/assets/characters/chisa-c9f908c02435.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "c0793791b62e",
+      "sourceHash": "c0793791b62e",
+      "kind": "characters",
+      "name": "Chixia",
+      "fileStem": "chixia-card",
+      "path": "Prydwen/ww/assets/characters/chixia-c0793791b62e.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "f94394577c2e",
+      "sourceHash": "f94394577c2e",
+      "kind": "characters",
+      "name": "Ciaccona",
+      "fileStem": "cia-card",
+      "path": "Prydwen/ww/assets/characters/ciaccona-f94394577c2e.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "f2f25e3c04cd",
+      "sourceHash": "f2f25e3c04cd",
+      "kind": "characters",
+      "name": "Danjin",
+      "fileStem": "danjin-card",
+      "path": "Prydwen/ww/assets/characters/danjin-f2f25e3c04cd.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "cd066b7db391",
+      "sourceHash": "cd066b7db391",
+      "kind": "characters",
+      "name": "Denia",
+      "fileStem": "denia-card",
+      "path": "Prydwen/ww/assets/characters/denia-cd066b7db391.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "c448f1c9cc94",
+      "sourceHash": "c448f1c9cc94",
+      "kind": "characters",
+      "name": "Encore",
+      "fileStem": "encore-card",
+      "path": "Prydwen/ww/assets/characters/encore-c448f1c9cc94.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "fe2988f30e1d",
+      "sourceHash": "fe2988f30e1d",
+      "kind": "characters",
+      "name": "Galbrena",
+      "fileStem": "gal-card",
+      "path": "Prydwen/ww/assets/characters/galbrena-fe2988f30e1d.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "6dff9c6a84da",
+      "sourceHash": "6dff9c6a84da",
+      "kind": "characters",
+      "name": "Hiyuki",
+      "fileStem": "hiyuki-card",
+      "path": "Prydwen/ww/assets/characters/hiyuki-6dff9c6a84da.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "ca1c715d65d0",
+      "sourceHash": "ca1c715d65d0",
+      "kind": "characters",
+      "name": "Hsin",
+      "fileStem": "hsin-card",
+      "path": "Prydwen/ww/assets/characters/hsin-ca1c715d65d0.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "565fb00e415b",
+      "sourceHash": "565fb00e415b",
+      "kind": "characters",
+      "name": "Iuno",
+      "fileStem": "iuno-card",
+      "path": "Prydwen/ww/assets/characters/iuno-565fb00e415b.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "0c0181a96d16",
+      "sourceHash": "0c0181a96d16",
+      "kind": "characters",
+      "name": "Jianxin",
+      "fileStem": "jiaxin-card",
+      "path": "Prydwen/ww/assets/characters/jianxin-0c0181a96d16.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "0e6d2cc79ad5",
+      "sourceHash": "0e6d2cc79ad5",
+      "kind": "characters",
+      "name": "Jingran",
+      "fileStem": "jingran-card",
+      "path": "Prydwen/ww/assets/characters/jingran-0e6d2cc79ad5.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "4e46d433a28a",
+      "sourceHash": "4e46d433a28a",
+      "kind": "characters",
+      "name": "Jinhsi",
+      "fileStem": "jihni-card",
+      "path": "Prydwen/ww/assets/characters/jinhsi-4e46d433a28a.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "526f427140dc",
+      "sourceHash": "526f427140dc",
+      "kind": "characters",
+      "name": "Jiyan",
+      "fileStem": "jiyan-card",
+      "path": "Prydwen/ww/assets/characters/jiyan-526f427140dc.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "b85e18b088e5",
+      "sourceHash": "b85e18b088e5",
+      "kind": "characters",
+      "name": "Lingyang",
+      "fileStem": "ling-card",
+      "path": "Prydwen/ww/assets/characters/lingyang-b85e18b088e5.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "3cde2eba4714",
+      "sourceHash": "3cde2eba4714",
+      "kind": "characters",
+      "name": "Lucilla",
+      "fileStem": "47-card",
+      "path": "Prydwen/ww/assets/characters/lucilla-3cde2eba4714.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "af75001a9717",
+      "sourceHash": "af75001a9717",
+      "kind": "characters",
+      "name": "Lucy",
+      "fileStem": "lucy-card",
+      "path": "Prydwen/ww/assets/characters/lucy-af75001a9717.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "d1a2801c5ca3",
+      "sourceHash": "d1a2801c5ca3",
+      "kind": "characters",
+      "name": "Lumi",
+      "fileStem": "card-lumi",
+      "path": "Prydwen/ww/assets/characters/lumi-d1a2801c5ca3.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "8ba3ee431e4e",
+      "sourceHash": "8ba3ee431e4e",
+      "kind": "characters",
+      "name": "Lupa",
+      "fileStem": "lupa-card",
+      "path": "Prydwen/ww/assets/characters/lupa-8ba3ee431e4e.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "f1d67bfe71d8",
+      "sourceHash": "f1d67bfe71d8",
+      "kind": "characters",
+      "name": "Luuk Herssen",
+      "fileStem": "45-card",
+      "path": "Prydwen/ww/assets/characters/luuk-herssen-f1d67bfe71d8.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "6c7571198e39",
+      "sourceHash": "6c7571198e39",
+      "kind": "characters",
+      "name": "Lynae",
+      "fileStem": "48-card",
+      "path": "Prydwen/ww/assets/characters/lynae-6c7571198e39.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "a1fc5522783e",
+      "sourceHash": "a1fc5522783e",
+      "kind": "characters",
+      "name": "Mornye",
+      "fileStem": "46-card",
+      "path": "Prydwen/ww/assets/characters/mornye-a1fc5522783e.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "0600d7b7604b",
+      "sourceHash": "0600d7b7604b",
+      "kind": "characters",
+      "name": "Mortefi",
+      "fileStem": "mortefi-card",
+      "path": "Prydwen/ww/assets/characters/mortefi-0600d7b7604b.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "bea66e5535ea",
+      "sourceHash": "bea66e5535ea",
+      "kind": "characters",
+      "name": "Phoebe",
+      "fileStem": "card-phoebe",
+      "path": "Prydwen/ww/assets/characters/phoebe-bea66e5535ea.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "8e2483db1896",
+      "sourceHash": "8e2483db1896",
+      "kind": "characters",
+      "name": "Phrolova",
+      "fileStem": "phr-card",
+      "path": "Prydwen/ww/assets/characters/phrolova-8e2483db1896.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "4f6ce581004d",
+      "sourceHash": "4f6ce581004d",
+      "kind": "characters",
+      "name": "Qingxiao",
+      "fileStem": "qingxiao-card",
+      "path": "Prydwen/ww/assets/characters/qingxiao-4f6ce581004d.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "b816ed5533f2",
+      "sourceHash": "b816ed5533f2",
+      "kind": "characters",
+      "name": "Qiuyuan",
+      "fileStem": "qiu-card",
+      "path": "Prydwen/ww/assets/characters/qiuyuan-b816ed5533f2.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "9e9cb9043a78",
+      "sourceHash": "9e9cb9043a78",
+      "kind": "characters",
+      "name": "Rebecca",
+      "fileStem": "rebecca-card",
+      "path": "Prydwen/ww/assets/characters/rebecca-9e9cb9043a78.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "ce75867fe195",
+      "sourceHash": "ce75867fe195",
+      "kind": "characters",
+      "name": "Roccia",
+      "fileStem": "card-roccia",
+      "path": "Prydwen/ww/assets/characters/roccia-ce75867fe195.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "578c4299a93d",
+      "sourceHash": "578c4299a93d",
+      "kind": "characters",
+      "name": "Rover (Aero)",
+      "fileStem": "rover-card",
+      "path": "Prydwen/ww/assets/characters/rover-aero-578c4299a93d.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "57e51bfbb2dc",
+      "sourceHash": "57e51bfbb2dc",
+      "kind": "characters",
+      "name": "Sanhua",
+      "fileStem": "senhua-card",
+      "path": "Prydwen/ww/assets/characters/sanhua-57e51bfbb2dc.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "dac26839b843",
+      "sourceHash": "dac26839b843",
+      "kind": "characters",
+      "name": "Sigrika",
+      "fileStem": "44-card",
+      "path": "Prydwen/ww/assets/characters/sigrika-dac26839b843.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "6c2f0381f367",
+      "sourceHash": "6c2f0381f367",
+      "kind": "characters",
+      "name": "Suisui",
+      "fileStem": "suisui-card",
+      "path": "Prydwen/ww/assets/characters/suisui-6c2f0381f367.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "21bccf295a95",
+      "sourceHash": "21bccf295a95",
+      "kind": "characters",
+      "name": "Suoming",
+      "fileStem": "suoming-card",
+      "path": "Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "a247d98b0cb7",
+      "sourceHash": "a247d98b0cb7",
+      "kind": "characters",
+      "name": "Taoqi",
+      "fileStem": "taoqi-card",
+      "path": "Prydwen/ww/assets/characters/taoqi-a247d98b0cb7.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "8912921a4bf3",
+      "sourceHash": "8912921a4bf3",
+      "kind": "characters",
+      "name": "The Shorekeeper",
+      "fileStem": "card-keeper",
+      "path": "Prydwen/ww/assets/characters/the-shorekeeper-8912921a4bf3.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "97b026bd1974",
+      "sourceHash": "97b026bd1974",
+      "kind": "characters",
+      "name": "Verina",
+      "fileStem": "verina-card",
+      "path": "Prydwen/ww/assets/characters/verina-97b026bd1974.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "95457cfe2c17",
+      "sourceHash": "95457cfe2c17",
+      "kind": "characters",
+      "name": "Xiangli Yao",
+      "fileStem": "card-xiang",
+      "path": "Prydwen/ww/assets/characters/xiangli-yao-95457cfe2c17.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "a29c4de025eb",
+      "sourceHash": "a29c4de025eb",
+      "kind": "characters",
+      "name": "Yangyang",
+      "fileStem": "yang-card",
+      "path": "Prydwen/ww/assets/characters/yangyang-a29c4de025eb.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "184e6fda4c3c",
+      "sourceHash": "184e6fda4c3c",
+      "kind": "characters",
+      "name": "Yangyang Xuanling",
+      "fileStem": "yangyang-xuanling-card",
+      "path": "Prydwen/ww/assets/characters/yangyang-xuanling-184e6fda4c3c.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "8885c8997e38",
+      "sourceHash": "8885c8997e38",
+      "kind": "characters",
+      "name": "Yinlin",
+      "fileStem": "yinglin-card",
+      "path": "Prydwen/ww/assets/characters/yinlin-8885c8997e38.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "f26dd2f58a87",
+      "sourceHash": "f26dd2f58a87",
+      "kind": "characters",
+      "name": "Youhu",
+      "fileStem": "card-youhu",
+      "path": "Prydwen/ww/assets/characters/youhu-f26dd2f58a87.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "b4bc2a6d49f2",
+      "sourceHash": "b4bc2a6d49f2",
+      "kind": "characters",
+      "name": "Yuanwu",
+      "fileStem": "yuanwu-card",
+      "path": "Prydwen/ww/assets/characters/yuanwu-b4bc2a6d49f2.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "97fdbe2b5ce6",
+      "sourceHash": "97fdbe2b5ce6",
+      "kind": "characters",
+      "name": "Zani",
+      "fileStem": "card-zani",
+      "path": "Prydwen/ww/assets/characters/zani-97fdbe2b5ce6.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "2209c8db2f13",
+      "sourceHash": "2209c8db2f13",
+      "kind": "characters",
+      "name": "Zhezhi",
+      "fileStem": "card-zhe",
+      "path": "Prydwen/ww/assets/characters/zhezhi-2209c8db2f13.webp",
+      "width": 280,
+      "height": 400
+    }
+  ],
+  "sections": [
+    {
+      "id": "wuthering-waves-characters-build-guides-0",
+      "level": 1,
+      "heading": "Wuthering Waves Characters Build Guides",
+      "text": "Browse all Wuthering Waves characters and Resonators with build guides, weapons, Echoes, teams, rotations, elements, and upcoming characters.\n Last updated: 20/June/2026",
+      "assets": []
+    },
+    {
+      "id": "all-wuthering-waves-characters-1",
+      "level": 2,
+      "heading": "All Wuthering Waves Characters",
+      "text": "Showing 59 Characters\n ×\n 4★ 5★\n\n Reset\n\n Aalto\n\n Aemeath\n\n Augusta\n\n Baizhi\n\n Brant\n\n Buling\n\n Calcharo\n\n Camellya\n\n Cantarella\n\n Carlotta\n\n Cartethyia\n\n Changli\n\n Chisa\n\n Chixia\n\n Ciaccona\n\n Danjin\n\n Denia\n\n Encore\n\n Galbrena\n\n Hiyuki\n\n Hsin 3.x\n\n Iuno\n\n Jianxin\n\n Jingran 3.x\n\n Jinhsi\n\n Jiyan\n\n Lingyang\n\n Lucilla New\n\n Lucy New\n\n Lumi\n\n Lupa\n\n Luuk Herssen\n\n Lynae\n\n Mornye\n\n Mortefi\n\n Phoebe\n\n Phrolova\n\n Qingxiao 3.x\n\n Qiuyuan\n\n Rebecca New\n\n Roccia\n\n Rover (Aero)\n\n Rover (Havoc)\n\n Rover (Spectro)\n\n Sanhua\n\n Sigrika\n\n Suisui 3.5\n\n Suoming 3.x\n\n Taoqi\n\n The Shorekeeper\n\n Verina\n\n Xiangli Yao\n\n Yangyang\n\n Yangyang Xuanling 3.5\n\n Yinlin\n\n Youhu\n\n Yuanwu\n\n Zani\n\n Zhezhi",
+      "assets": [
+        {
+          "id": "ace758a61ce1",
+          "sourceHash": "ace758a61ce1",
+          "kind": "icons",
+          "name": "Aero",
+          "fileStem": "element-aero",
+          "path": "Prydwen/ww/assets/icons/aero-ace758a61ce1.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "028f59b9e335",
+          "sourceHash": "028f59b9e335",
+          "kind": "icons",
+          "name": "Electro",
+          "fileStem": "element-electro",
+          "path": "Prydwen/ww/assets/icons/electro-028f59b9e335.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "c72489fb1776",
+          "sourceHash": "c72489fb1776",
+          "kind": "icons",
+          "name": "Fusion",
+          "fileStem": "element-fusion",
+          "path": "Prydwen/ww/assets/icons/fusion-c72489fb1776.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "85054d52aec3",
+          "sourceHash": "85054d52aec3",
+          "kind": "icons",
+          "name": "Glacio",
+          "fileStem": "element-glacio",
+          "path": "Prydwen/ww/assets/icons/glacio-85054d52aec3.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "ce5995a7f3ec",
+          "sourceHash": "ce5995a7f3ec",
+          "kind": "icons",
+          "name": "Havoc",
+          "fileStem": "element-havoc",
+          "path": "Prydwen/ww/assets/icons/havoc-ce5995a7f3ec.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "d8b7d0006201",
+          "sourceHash": "d8b7d0006201",
+          "kind": "icons",
+          "name": "Spectro",
+          "fileStem": "element-spectro",
+          "path": "Prydwen/ww/assets/icons/spectro-d8b7d0006201.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "9659e10257c1",
+          "sourceHash": "9659e10257c1",
+          "kind": "icons",
+          "name": "Broadblade",
+          "fileStem": "weapon-broadblade",
+          "path": "Prydwen/ww/assets/icons/broadblade-9659e10257c1.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "d82c62257ca7",
+          "sourceHash": "d82c62257ca7",
+          "kind": "icons",
+          "name": "Gauntlets",
+          "fileStem": "weapon-gauntlets",
+          "path": "Prydwen/ww/assets/icons/gauntlets-d82c62257ca7.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "6864581f2de1",
+          "sourceHash": "6864581f2de1",
+          "kind": "icons",
+          "name": "Pistols",
+          "fileStem": "weapon-pistols",
+          "path": "Prydwen/ww/assets/icons/pistols-6864581f2de1.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "f260875f2926",
+          "sourceHash": "f260875f2926",
+          "kind": "icons",
+          "name": "Rectifier",
+          "fileStem": "weapon-rectifier",
+          "path": "Prydwen/ww/assets/icons/rectifier-f260875f2926.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "2752ad70ac33",
+          "sourceHash": "2752ad70ac33",
+          "kind": "icons",
+          "name": "Sword",
+          "fileStem": "weapon-sword",
+          "path": "Prydwen/ww/assets/icons/sword-2752ad70ac33.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "539d2edc55d7",
+          "sourceHash": "539d2edc55d7",
+          "kind": "characters",
+          "name": "Aalto",
+          "fileStem": "aalto-card",
+          "path": "Prydwen/ww/assets/characters/aalto-539d2edc55d7.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "e8051cbd92ef",
+          "sourceHash": "e8051cbd92ef",
+          "kind": "characters",
+          "name": "Aemeath",
+          "fileStem": "math-card",
+          "path": "Prydwen/ww/assets/characters/aemeath-e8051cbd92ef.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "596c5cc53cbb",
+          "sourceHash": "596c5cc53cbb",
+          "kind": "characters",
+          "name": "Augusta",
+          "fileStem": "aug-card",
+          "path": "Prydwen/ww/assets/characters/augusta-596c5cc53cbb.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "acde6f786624",
+          "sourceHash": "acde6f786624",
+          "kind": "characters",
+          "name": "Baizhi",
+          "fileStem": "baizhi-card",
+          "path": "Prydwen/ww/assets/characters/baizhi-acde6f786624.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "5c3498ef8ba3",
+          "sourceHash": "5c3498ef8ba3",
+          "kind": "characters",
+          "name": "Brant",
+          "fileStem": "card-brant",
+          "path": "Prydwen/ww/assets/characters/brant-5c3498ef8ba3.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "7d7829257f62",
+          "sourceHash": "7d7829257f62",
+          "kind": "characters",
+          "name": "Buling",
+          "fileStem": "buling-card",
+          "path": "Prydwen/ww/assets/characters/buling-7d7829257f62.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "f3467aaf6a4e",
+          "sourceHash": "f3467aaf6a4e",
+          "kind": "characters",
+          "name": "Calcharo",
+          "fileStem": "kakarot-card",
+          "path": "Prydwen/ww/assets/characters/calcharo-f3467aaf6a4e.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "4925b6647aa1",
+          "sourceHash": "4925b6647aa1",
+          "kind": "characters",
+          "name": "Camellya",
+          "fileStem": "card-cam",
+          "path": "Prydwen/ww/assets/characters/camellya-4925b6647aa1.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "fd611af55043",
+          "sourceHash": "fd611af55043",
+          "kind": "characters",
+          "name": "Cantarella",
+          "fileStem": "card-canta",
+          "path": "Prydwen/ww/assets/characters/cantarella-fd611af55043.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "456e87859c2e",
+          "sourceHash": "456e87859c2e",
+          "kind": "characters",
+          "name": "Carlotta",
+          "fileStem": "card-carlotta",
+          "path": "Prydwen/ww/assets/characters/carlotta-456e87859c2e.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "ed6aecb666f8",
+          "sourceHash": "ed6aecb666f8",
+          "kind": "characters",
+          "name": "Cartethyia",
+          "fileStem": "cart-card",
+          "path": "Prydwen/ww/assets/characters/cartethyia-ed6aecb666f8.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "a93358eca2a0",
+          "sourceHash": "a93358eca2a0",
+          "kind": "characters",
+          "name": "Changli",
+          "fileStem": "card-changli",
+          "path": "Prydwen/ww/assets/characters/changli-a93358eca2a0.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "c9f908c02435",
+          "sourceHash": "c9f908c02435",
+          "kind": "characters",
+          "name": "Chisa",
+          "fileStem": "chisa-card",
+          "path": "Prydwen/ww/assets/characters/chisa-c9f908c02435.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "c0793791b62e",
+          "sourceHash": "c0793791b62e",
+          "kind": "characters",
+          "name": "Chixia",
+          "fileStem": "chixia-card",
+          "path": "Prydwen/ww/assets/characters/chixia-c0793791b62e.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "f94394577c2e",
+          "sourceHash": "f94394577c2e",
+          "kind": "characters",
+          "name": "Ciaccona",
+          "fileStem": "cia-card",
+          "path": "Prydwen/ww/assets/characters/ciaccona-f94394577c2e.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "f2f25e3c04cd",
+          "sourceHash": "f2f25e3c04cd",
+          "kind": "characters",
+          "name": "Danjin",
+          "fileStem": "danjin-card",
+          "path": "Prydwen/ww/assets/characters/danjin-f2f25e3c04cd.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "cd066b7db391",
+          "sourceHash": "cd066b7db391",
+          "kind": "characters",
+          "name": "Denia",
+          "fileStem": "denia-card",
+          "path": "Prydwen/ww/assets/characters/denia-cd066b7db391.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "c448f1c9cc94",
+          "sourceHash": "c448f1c9cc94",
+          "kind": "characters",
+          "name": "Encore",
+          "fileStem": "encore-card",
+          "path": "Prydwen/ww/assets/characters/encore-c448f1c9cc94.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "fe2988f30e1d",
+          "sourceHash": "fe2988f30e1d",
+          "kind": "characters",
+          "name": "Galbrena",
+          "fileStem": "gal-card",
+          "path": "Prydwen/ww/assets/characters/galbrena-fe2988f30e1d.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "6dff9c6a84da",
+          "sourceHash": "6dff9c6a84da",
+          "kind": "characters",
+          "name": "Hiyuki",
+          "fileStem": "hiyuki-card",
+          "path": "Prydwen/ww/assets/characters/hiyuki-6dff9c6a84da.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "ca1c715d65d0",
+          "sourceHash": "ca1c715d65d0",
+          "kind": "characters",
+          "name": "Hsin",
+          "fileStem": "hsin-card",
+          "path": "Prydwen/ww/assets/characters/hsin-ca1c715d65d0.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "565fb00e415b",
+          "sourceHash": "565fb00e415b",
+          "kind": "characters",
+          "name": "Iuno",
+          "fileStem": "iuno-card",
+          "path": "Prydwen/ww/assets/characters/iuno-565fb00e415b.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "0c0181a96d16",
+          "sourceHash": "0c0181a96d16",
+          "kind": "characters",
+          "name": "Jianxin",
+          "fileStem": "jiaxin-card",
+          "path": "Prydwen/ww/assets/characters/jianxin-0c0181a96d16.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "0e6d2cc79ad5",
+          "sourceHash": "0e6d2cc79ad5",
+          "kind": "characters",
+          "name": "Jingran",
+          "fileStem": "jingran-card",
+          "path": "Prydwen/ww/assets/characters/jingran-0e6d2cc79ad5.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "4e46d433a28a",
+          "sourceHash": "4e46d433a28a",
+          "kind": "characters",
+          "name": "Jinhsi",
+          "fileStem": "jihni-card",
+          "path": "Prydwen/ww/assets/characters/jinhsi-4e46d433a28a.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "526f427140dc",
+          "sourceHash": "526f427140dc",
+          "kind": "characters",
+          "name": "Jiyan",
+          "fileStem": "jiyan-card",
+          "path": "Prydwen/ww/assets/characters/jiyan-526f427140dc.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "b85e18b088e5",
+          "sourceHash": "b85e18b088e5",
+          "kind": "characters",
+          "name": "Lingyang",
+          "fileStem": "ling-card",
+          "path": "Prydwen/ww/assets/characters/lingyang-b85e18b088e5.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "3cde2eba4714",
+          "sourceHash": "3cde2eba4714",
+          "kind": "characters",
+          "name": "Lucilla",
+          "fileStem": "47-card",
+          "path": "Prydwen/ww/assets/characters/lucilla-3cde2eba4714.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "af75001a9717",
+          "sourceHash": "af75001a9717",
+          "kind": "characters",
+          "name": "Lucy",
+          "fileStem": "lucy-card",
+          "path": "Prydwen/ww/assets/characters/lucy-af75001a9717.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "d1a2801c5ca3",
+          "sourceHash": "d1a2801c5ca3",
+          "kind": "characters",
+          "name": "Lumi",
+          "fileStem": "card-lumi",
+          "path": "Prydwen/ww/assets/characters/lumi-d1a2801c5ca3.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "8ba3ee431e4e",
+          "sourceHash": "8ba3ee431e4e",
+          "kind": "characters",
+          "name": "Lupa",
+          "fileStem": "lupa-card",
+          "path": "Prydwen/ww/assets/characters/lupa-8ba3ee431e4e.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "f1d67bfe71d8",
+          "sourceHash": "f1d67bfe71d8",
+          "kind": "characters",
+          "name": "Luuk Herssen",
+          "fileStem": "45-card",
+          "path": "Prydwen/ww/assets/characters/luuk-herssen-f1d67bfe71d8.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "6c7571198e39",
+          "sourceHash": "6c7571198e39",
+          "kind": "characters",
+          "name": "Lynae",
+          "fileStem": "48-card",
+          "path": "Prydwen/ww/assets/characters/lynae-6c7571198e39.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "a1fc5522783e",
+          "sourceHash": "a1fc5522783e",
+          "kind": "characters",
+          "name": "Mornye",
+          "fileStem": "46-card",
+          "path": "Prydwen/ww/assets/characters/mornye-a1fc5522783e.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "0600d7b7604b",
+          "sourceHash": "0600d7b7604b",
+          "kind": "characters",
+          "name": "Mortefi",
+          "fileStem": "mortefi-card",
+          "path": "Prydwen/ww/assets/characters/mortefi-0600d7b7604b.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "bea66e5535ea",
+          "sourceHash": "bea66e5535ea",
+          "kind": "characters",
+          "name": "Phoebe",
+          "fileStem": "card-phoebe",
+          "path": "Prydwen/ww/assets/characters/phoebe-bea66e5535ea.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "8e2483db1896",
+          "sourceHash": "8e2483db1896",
+          "kind": "characters",
+          "name": "Phrolova",
+          "fileStem": "phr-card",
+          "path": "Prydwen/ww/assets/characters/phrolova-8e2483db1896.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "4f6ce581004d",
+          "sourceHash": "4f6ce581004d",
+          "kind": "characters",
+          "name": "Qingxiao",
+          "fileStem": "qingxiao-card",
+          "path": "Prydwen/ww/assets/characters/qingxiao-4f6ce581004d.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "b816ed5533f2",
+          "sourceHash": "b816ed5533f2",
+          "kind": "characters",
+          "name": "Qiuyuan",
+          "fileStem": "qiu-card",
+          "path": "Prydwen/ww/assets/characters/qiuyuan-b816ed5533f2.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "9e9cb9043a78",
+          "sourceHash": "9e9cb9043a78",
+          "kind": "characters",
+          "name": "Rebecca",
+          "fileStem": "rebecca-card",
+          "path": "Prydwen/ww/assets/characters/rebecca-9e9cb9043a78.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "ce75867fe195",
+          "sourceHash": "ce75867fe195",
+          "kind": "characters",
+          "name": "Roccia",
+          "fileStem": "card-roccia",
+          "path": "Prydwen/ww/assets/characters/roccia-ce75867fe195.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "578c4299a93d",
+          "sourceHash": "578c4299a93d",
+          "kind": "characters",
+          "name": "Rover (Aero)",
+          "fileStem": "rover-card",
+          "path": "Prydwen/ww/assets/characters/rover-aero-578c4299a93d.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "57e51bfbb2dc",
+          "sourceHash": "57e51bfbb2dc",
+          "kind": "characters",
+          "name": "Sanhua",
+          "fileStem": "senhua-card",
+          "path": "Prydwen/ww/assets/characters/sanhua-57e51bfbb2dc.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "dac26839b843",
+          "sourceHash": "dac26839b843",
+          "kind": "characters",
+          "name": "Sigrika",
+          "fileStem": "44-card",
+          "path": "Prydwen/ww/assets/characters/sigrika-dac26839b843.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "6c2f0381f367",
+          "sourceHash": "6c2f0381f367",
+          "kind": "characters",
+          "name": "Suisui",
+          "fileStem": "suisui-card",
+          "path": "Prydwen/ww/assets/characters/suisui-6c2f0381f367.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "21bccf295a95",
+          "sourceHash": "21bccf295a95",
+          "kind": "characters",
+          "name": "Suoming",
+          "fileStem": "suoming-card",
+          "path": "Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "a247d98b0cb7",
+          "sourceHash": "a247d98b0cb7",
+          "kind": "characters",
+          "name": "Taoqi",
+          "fileStem": "taoqi-card",
+          "path": "Prydwen/ww/assets/characters/taoqi-a247d98b0cb7.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "8912921a4bf3",
+          "sourceHash": "8912921a4bf3",
+          "kind": "characters",
+          "name": "The Shorekeeper",
+          "fileStem": "card-keeper",
+          "path": "Prydwen/ww/assets/characters/the-shorekeeper-8912921a4bf3.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "97b026bd1974",
+          "sourceHash": "97b026bd1974",
+          "kind": "characters",
+          "name": "Verina",
+          "fileStem": "verina-card",
+          "path": "Prydwen/ww/assets/characters/verina-97b026bd1974.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "95457cfe2c17",
+          "sourceHash": "95457cfe2c17",
+          "kind": "characters",
+          "name": "Xiangli Yao",
+          "fileStem": "card-xiang",
+          "path": "Prydwen/ww/assets/characters/xiangli-yao-95457cfe2c17.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "a29c4de025eb",
+          "sourceHash": "a29c4de025eb",
+          "kind": "characters",
+          "name": "Yangyang",
+          "fileStem": "yang-card",
+          "path": "Prydwen/ww/assets/characters/yangyang-a29c4de025eb.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "184e6fda4c3c",
+          "sourceHash": "184e6fda4c3c",
+          "kind": "characters",
+          "name": "Yangyang Xuanling",
+          "fileStem": "yangyang-xuanling-card",
+          "path": "Prydwen/ww/assets/characters/yangyang-xuanling-184e6fda4c3c.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "8885c8997e38",
+          "sourceHash": "8885c8997e38",
+          "kind": "characters",
+          "name": "Yinlin",
+          "fileStem": "yinglin-card",
+          "path": "Prydwen/ww/assets/characters/yinlin-8885c8997e38.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "f26dd2f58a87",
+          "sourceHash": "f26dd2f58a87",
+          "kind": "characters",
+          "name": "Youhu",
+          "fileStem": "card-youhu",
+          "path": "Prydwen/ww/assets/characters/youhu-f26dd2f58a87.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "b4bc2a6d49f2",
+          "sourceHash": "b4bc2a6d49f2",
+          "kind": "characters",
+          "name": "Yuanwu",
+          "fileStem": "yuanwu-card",
+          "path": "Prydwen/ww/assets/characters/yuanwu-b4bc2a6d49f2.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "97fdbe2b5ce6",
+          "sourceHash": "97fdbe2b5ce6",
+          "kind": "characters",
+          "name": "Zani",
+          "fileStem": "card-zani",
+          "path": "Prydwen/ww/assets/characters/zani-97fdbe2b5ce6.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "2209c8db2f13",
+          "sourceHash": "2209c8db2f13",
+          "kind": "characters",
+          "name": "Zhezhi",
+          "fileStem": "card-zhe",
+          "path": "Prydwen/ww/assets/characters/zhezhi-2209c8db2f13.webp",
+          "width": 280,
+          "height": 400
+        }
+      ]
+    }
+  ],
+  "recommendations": {},
+  "tables": [],
+  "text": "Wuthering Waves Characters - Builds, Weapons & Echoes\n \n\n Wuthering Waves\n Home Database Characters Weapons Echoes Banners\n Tier Lists Tier List Team Tier List Value Tier List\n Guides Guides\n Resources Map News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Wuthering Waves\n /\n Characters List\n\n Wuthering Waves Characters Build Guides\n Browse all Wuthering Waves characters and Resonators with build guides, weapons, Echoes, teams, rotations, elements, and upcoming characters.\n Last updated: 20/June/2026\n\n All Wuthering Waves Characters\n Showing 59 Characters\n ×\n 4★ 5★\n\n Reset\n\n Aalto\n\n Aemeath\n\n Augusta\n\n Baizhi\n\n Brant\n\n Buling\n\n Calcharo\n\n Camellya\n\n Cantarella\n\n Carlotta\n\n Cartethyia\n\n Changli\n\n Chisa\n\n Chixia\n\n Ciaccona\n\n Danjin\n\n Denia\n\n Encore\n\n Galbrena\n\n Hiyuki\n\n Hsin 3.x\n\n Iuno\n\n Jianxin\n\n Jingran 3.x\n\n Jinhsi\n\n Jiyan\n\n Lingyang\n\n Lucilla New\n\n Lucy New\n\n Lumi\n\n Lupa\n\n Luuk Herssen\n\n Lynae\n\n Mornye\n\n Mortefi\n\n Phoebe\n\n Phrolova\n\n Qingxiao 3.x\n\n Qiuyuan\n\n Rebecca New\n\n Roccia\n\n Rover (Aero)\n\n Rover (Havoc)\n\n Rover (Spectro)\n\n Sanhua\n\n Sigrika\n\n Suisui 3.5\n\n Suoming 3.x\n\n Taoqi\n\n The Shorekeeper\n\n Verina\n\n Xiangli Yao\n\n Yangyang\n\n Yangyang Xuanling 3.5\n\n Yinlin\n\n Youhu\n\n Yuanwu\n\n Zani\n\n Zhezhi",
+  "entries": [
+    {
+      "id": "aalto",
+      "slug": "aalto",
+      "name": "Aalto",
+      "sourcePath": "/wuthering-waves/characters/aalto",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "aemeath",
+      "slug": "aemeath",
+      "name": "Aemeath",
+      "sourcePath": "/wuthering-waves/characters/aemeath",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "augusta",
+      "slug": "augusta",
+      "name": "Augusta",
+      "sourcePath": "/wuthering-waves/characters/augusta",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "baizhi",
+      "slug": "baizhi",
+      "name": "Baizhi",
+      "sourcePath": "/wuthering-waves/characters/baizhi",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "brant",
+      "slug": "brant",
+      "name": "Brant",
+      "sourcePath": "/wuthering-waves/characters/brant",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "buling",
+      "slug": "buling",
+      "name": "Buling",
+      "sourcePath": "/wuthering-waves/characters/buling",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "calcharo",
+      "slug": "calcharo",
+      "name": "Calcharo",
+      "sourcePath": "/wuthering-waves/characters/calcharo",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "camellya",
+      "slug": "camellya",
+      "name": "Camellya",
+      "sourcePath": "/wuthering-waves/characters/camellya",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "cantarella",
+      "slug": "cantarella",
+      "name": "Cantarella",
+      "sourcePath": "/wuthering-waves/characters/cantarella",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "carlotta",
+      "slug": "carlotta",
+      "name": "Carlotta",
+      "sourcePath": "/wuthering-waves/characters/carlotta",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "cartethyia",
+      "slug": "cartethyia",
+      "name": "Cartethyia",
+      "sourcePath": "/wuthering-waves/characters/cartethyia",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "changli",
+      "slug": "changli",
+      "name": "Changli",
+      "sourcePath": "/wuthering-waves/characters/changli",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "chisa",
+      "slug": "chisa",
+      "name": "Chisa",
+      "sourcePath": "/wuthering-waves/characters/chisa",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "chixia",
+      "slug": "chixia",
+      "name": "Chixia",
+      "sourcePath": "/wuthering-waves/characters/chixia",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "ciaccona",
+      "slug": "ciaccona",
+      "name": "Ciaccona",
+      "sourcePath": "/wuthering-waves/characters/ciaccona",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "danjin",
+      "slug": "danjin",
+      "name": "Danjin",
+      "sourcePath": "/wuthering-waves/characters/danjin",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "denia",
+      "slug": "denia",
+      "name": "Denia",
+      "sourcePath": "/wuthering-waves/characters/denia",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "encore",
+      "slug": "encore",
+      "name": "Encore",
+      "sourcePath": "/wuthering-waves/characters/encore",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "galbrena",
+      "slug": "galbrena",
+      "name": "Galbrena",
+      "sourcePath": "/wuthering-waves/characters/galbrena",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "hiyuki",
+      "slug": "hiyuki",
+      "name": "Hiyuki",
+      "sourcePath": "/wuthering-waves/characters/hiyuki",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "hsin",
+      "slug": "hsin",
+      "name": "Hsin 3.x",
+      "sourcePath": "/wuthering-waves/characters/hsin",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.x"
+      ]
+    },
+    {
+      "id": "iuno",
+      "slug": "iuno",
+      "name": "Iuno",
+      "sourcePath": "/wuthering-waves/characters/iuno",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "jianxin",
+      "slug": "jianxin",
+      "name": "Jianxin",
+      "sourcePath": "/wuthering-waves/characters/jianxin",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "jingran",
+      "slug": "jingran",
+      "name": "Jingran 3.x",
+      "sourcePath": "/wuthering-waves/characters/jingran",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.x"
+      ]
+    },
+    {
+      "id": "jinhsi",
+      "slug": "jinhsi",
+      "name": "Jinhsi",
+      "sourcePath": "/wuthering-waves/characters/jinhsi",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "jiyan",
+      "slug": "jiyan",
+      "name": "Jiyan",
+      "sourcePath": "/wuthering-waves/characters/jiyan",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "lingyang",
+      "slug": "lingyang",
+      "name": "Lingyang",
+      "sourcePath": "/wuthering-waves/characters/lingyang",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "lucilla",
+      "slug": "lucilla",
+      "name": "Lucilla New",
+      "sourcePath": "/wuthering-waves/characters/lucilla",
+      "contentStatus": "live",
+      "statusLabels": [
+        "New"
+      ]
+    },
+    {
+      "id": "lucy",
+      "slug": "lucy",
+      "name": "Lucy New",
+      "sourcePath": "/wuthering-waves/characters/lucy",
+      "contentStatus": "live",
+      "statusLabels": [
+        "New"
+      ]
+    },
+    {
+      "id": "lumi",
+      "slug": "lumi",
+      "name": "Lumi",
+      "sourcePath": "/wuthering-waves/characters/lumi",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "lupa",
+      "slug": "lupa",
+      "name": "Lupa",
+      "sourcePath": "/wuthering-waves/characters/lupa",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "luuk-herssen",
+      "slug": "luuk-herssen",
+      "name": "Luuk Herssen",
+      "sourcePath": "/wuthering-waves/characters/luuk-herssen",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "lynae",
+      "slug": "lynae",
+      "name": "Lynae",
+      "sourcePath": "/wuthering-waves/characters/lynae",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "mornye",
+      "slug": "mornye",
+      "name": "Mornye",
+      "sourcePath": "/wuthering-waves/characters/mornye",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "mortefi",
+      "slug": "mortefi",
+      "name": "Mortefi",
+      "sourcePath": "/wuthering-waves/characters/mortefi",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "phoebe",
+      "slug": "phoebe",
+      "name": "Phoebe",
+      "sourcePath": "/wuthering-waves/characters/phoebe",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "phrolova",
+      "slug": "phrolova",
+      "name": "Phrolova",
+      "sourcePath": "/wuthering-waves/characters/phrolova",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "qingxiao",
+      "slug": "qingxiao",
+      "name": "Qingxiao 3.x",
+      "sourcePath": "/wuthering-waves/characters/qingxiao",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.x"
+      ]
+    },
+    {
+      "id": "qiuyuan",
+      "slug": "qiuyuan",
+      "name": "Qiuyuan",
+      "sourcePath": "/wuthering-waves/characters/qiuyuan",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "rebecca",
+      "slug": "rebecca",
+      "name": "Rebecca New",
+      "sourcePath": "/wuthering-waves/characters/rebecca",
+      "contentStatus": "live",
+      "statusLabels": [
+        "New"
+      ]
+    },
+    {
+      "id": "roccia",
+      "slug": "roccia",
+      "name": "Roccia",
+      "sourcePath": "/wuthering-waves/characters/roccia",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "rover-aero",
+      "slug": "rover-aero",
+      "name": "Rover (Aero)",
+      "sourcePath": "/wuthering-waves/characters/rover-aero",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "rover-havoc",
+      "slug": "rover-havoc",
+      "name": "Rover (Havoc)",
+      "sourcePath": "/wuthering-waves/characters/rover-havoc",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "rover-spectro",
+      "slug": "rover-spectro",
+      "name": "Rover (Spectro)",
+      "sourcePath": "/wuthering-waves/characters/rover-spectro",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "sanhua",
+      "slug": "sanhua",
+      "name": "Sanhua",
+      "sourcePath": "/wuthering-waves/characters/sanhua",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "sigrika",
+      "slug": "sigrika",
+      "name": "Sigrika",
+      "sourcePath": "/wuthering-waves/characters/sigrika",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "suisui",
+      "slug": "suisui",
+      "name": "Suisui 3.5",
+      "sourcePath": "/wuthering-waves/characters/suisui",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.5"
+      ]
+    },
+    {
+      "id": "suoming",
+      "slug": "suoming",
+      "name": "Suoming 3.x",
+      "sourcePath": "/wuthering-waves/characters/suoming",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.x"
+      ]
+    },
+    {
+      "id": "taoqi",
+      "slug": "taoqi",
+      "name": "Taoqi",
+      "sourcePath": "/wuthering-waves/characters/taoqi",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "the-shorekeeper",
+      "slug": "the-shorekeeper",
+      "name": "The Shorekeeper",
+      "sourcePath": "/wuthering-waves/characters/the-shorekeeper",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "verina",
+      "slug": "verina",
+      "name": "Verina",
+      "sourcePath": "/wuthering-waves/characters/verina",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "xiangli-yao",
+      "slug": "xiangli-yao",
+      "name": "Xiangli Yao",
+      "sourcePath": "/wuthering-waves/characters/xiangli-yao",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "yangyang",
+      "slug": "yangyang",
+      "name": "Yangyang",
+      "sourcePath": "/wuthering-waves/characters/yangyang",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "yangyang-xuanling",
+      "slug": "yangyang-xuanling",
+      "name": "Yangyang Xuanling 3.5",
+      "sourcePath": "/wuthering-waves/characters/yangyang-xuanling",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.5"
+      ]
+    },
+    {
+      "id": "yinlin",
+      "slug": "yinlin",
+      "name": "Yinlin",
+      "sourcePath": "/wuthering-waves/characters/yinlin",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "youhu",
+      "slug": "youhu",
+      "name": "Youhu",
+      "sourcePath": "/wuthering-waves/characters/youhu",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "yuanwu",
+      "slug": "yuanwu",
+      "name": "Yuanwu",
+      "sourcePath": "/wuthering-waves/characters/yuanwu",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "zani",
+      "slug": "zani",
+      "name": "Zani",
+      "sourcePath": "/wuthering-waves/characters/zani",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "zhezhi",
+      "slug": "zhezhi",
+      "name": "Zhezhi",
+      "sourcePath": "/wuthering-waves/characters/zhezhi",
+      "contentStatus": "live",
+      "statusLabels": []
+    }
+  ],
+  "detailPagesScraped": 59,
+  "detailPagesTotal": 59,
+  "staleDetailPagesRemoved": 0
+}

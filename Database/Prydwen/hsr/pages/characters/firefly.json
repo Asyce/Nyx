@@ -1,0 +1,1287 @@
+{
+  "id": "characters:firefly",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "firefly",
+  "name": "Firefly",
+  "title": "Firefly Best Build Guide",
+  "sourcePath": "/star-rail/characters/firefly",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "31/May/2026",
+  "meta": {
+    "title": "Firefly Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Fire",
+    "path": "Destruction"
+  },
+  "assets": [
+    {
+      "id": "623b0891aedd",
+      "sourceHash": "623b0891aedd",
+      "kind": "characters",
+      "name": "Firefly",
+      "fileStem": "firefly-card",
+      "path": "Prydwen/hsr/assets/characters/firefly-623b0891aedd.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "6890417bdf8b",
+      "sourceHash": "6890417bdf8b",
+      "kind": "icons",
+      "name": "Break Effect",
+      "fileStem": "stat-break",
+      "path": "Prydwen/hsr/assets/icons/break-effect-6890417bdf8b.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "087f2dec68b6",
+      "sourceHash": "087f2dec68b6",
+      "kind": "icons",
+      "name": "Speed",
+      "fileStem": "stat-speed",
+      "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "9db79c7ddbf7",
+      "sourceHash": "9db79c7ddbf7",
+      "kind": "icons",
+      "name": "Effect RES",
+      "fileStem": "stat-effectres",
+      "path": "Prydwen/hsr/assets/icons/effect-res-9db79c7ddbf7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "96654253a4f7",
+      "sourceHash": "96654253a4f7",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "dc6aec4a7776",
+      "sourceHash": "dc6aec4a7776",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "a6be649090ba",
+      "sourceHash": "a6be649090ba",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "50d0e755383a",
+      "sourceHash": "50d0e755383a",
+      "kind": "items",
+      "name": "Credit",
+      "fileStem": "credit",
+      "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "b976a1043f39",
+      "sourceHash": "b976a1043f39",
+      "kind": "items",
+      "name": "Tatters of Thought",
+      "fileStem": "tatters-of-thought",
+      "path": "Prydwen/hsr/assets/items/tatters-of-thought-b976a1043f39.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "485a3b8cc2b3",
+      "sourceHash": "485a3b8cc2b3",
+      "kind": "items",
+      "name": "Fragments of Impression",
+      "fileStem": "fragments-of-impression",
+      "path": "Prydwen/hsr/assets/items/fragments-of-impression-485a3b8cc2b3.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "e7254e3bb516",
+      "sourceHash": "e7254e3bb516",
+      "kind": "items",
+      "name": "Raging Heart",
+      "fileStem": "raging-heart",
+      "path": "Prydwen/hsr/assets/items/raging-heart-e7254e3bb516.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "beee664e3222",
+      "sourceHash": "beee664e3222",
+      "kind": "items",
+      "name": "Shards of Desires",
+      "fileStem": "shards-of-desires",
+      "path": "Prydwen/hsr/assets/items/shards-of-desires-beee664e3222.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "6259a9ca0ba4",
+      "sourceHash": "6259a9ca0ba4",
+      "kind": "characters",
+      "name": "Firefly",
+      "fileStem": "firefly-full",
+      "path": "Prydwen/hsr/assets/characters/firefly-6259a9ca0ba4.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "5aa3af4bbe3d",
+      "sourceHash": "5aa3af4bbe3d",
+      "kind": "light-cones",
+      "name": "Whereabouts Should Dreams Rest",
+      "fileStem": "whereabouts-should-dreams-rest",
+      "path": "Prydwen/hsr/assets/light-cones/whereabouts-should-dreams-rest-5aa3af4bbe3d.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "40af809ee965",
+      "sourceHash": "40af809ee965",
+      "kind": "light-cones",
+      "name": "Thus Burns the Dawn",
+      "fileStem": "thus-burns-the-dawn",
+      "path": "Prydwen/hsr/assets/light-cones/thus-burns-the-dawn-40af809ee965.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "83d0f295d2ff",
+      "sourceHash": "83d0f295d2ff",
+      "kind": "light-cones",
+      "name": "On the Fall of an Aeon",
+      "fileStem": "on-the-fall-of-an-aeon",
+      "path": "Prydwen/hsr/assets/light-cones/on-the-fall-of-an-aeon-83d0f295d2ff.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "be3eed62e90a",
+      "sourceHash": "be3eed62e90a",
+      "kind": "light-cones",
+      "name": "Indelible Promise",
+      "fileStem": "indelible-promise",
+      "path": "Prydwen/hsr/assets/light-cones/indelible-promise-be3eed62e90a.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "2fc8ce1ab137",
+      "sourceHash": "2fc8ce1ab137",
+      "kind": "relics",
+      "name": "Iron Cavalry Against the Scourge",
+      "fileStem": "iron-cavalry-against-the-scourge",
+      "path": "Prydwen/hsr/assets/relics/iron-cavalry-against-the-scourge-2fc8ce1ab137.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "bd16ed7ff036",
+      "sourceHash": "bd16ed7ff036",
+      "kind": "relics",
+      "name": "Thief of Shooting Meteor",
+      "fileStem": "thief-of-shooting-meteor",
+      "path": "Prydwen/hsr/assets/relics/thief-of-shooting-meteor-bd16ed7ff036.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "f08c8ab4a73a",
+      "sourceHash": "f08c8ab4a73a",
+      "kind": "relics",
+      "name": "Forge of the Kalpagni Lantern",
+      "fileStem": "forge-of-the-kalpagni-lantern",
+      "path": "Prydwen/hsr/assets/relics/forge-of-the-kalpagni-lantern-f08c8ab4a73a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "a8ea2dfcb1ee",
+      "sourceHash": "a8ea2dfcb1ee",
+      "kind": "relics",
+      "name": "Talia: Kingdom of Banditry",
+      "fileStem": "talia-kingdom-of-banditry",
+      "path": "Prydwen/hsr/assets/relics/talia-kingdom-of-banditry-a8ea2dfcb1ee.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "cec6f11ca61e",
+      "sourceHash": "cec6f11ca61e",
+      "kind": "characters",
+      "name": "The Dahlia",
+      "fileStem": "the-dahlia-icon",
+      "path": "Prydwen/hsr/assets/characters/the-dahlia-cec6f11ca61e.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "b77207bce6c8",
+      "sourceHash": "b77207bce6c8",
+      "kind": "characters",
+      "name": "Ruan Mei",
+      "fileStem": "ruan-mei-icon",
+      "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "444d6f5749b7",
+      "sourceHash": "444d6f5749b7",
+      "kind": "characters",
+      "name": "Tingyun • Fugue",
+      "fileStem": "tingyun-fugue-icon",
+      "path": "Prydwen/hsr/assets/characters/tingyun-fugue-444d6f5749b7.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "de41e1704266",
+      "sourceHash": "de41e1704266",
+      "kind": "characters",
+      "name": "Trailblazer • Harmony",
+      "fileStem": "trailblazer-harmony-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-harmony-de41e1704266.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "ab0724067e0c",
+      "sourceHash": "ab0724067e0c",
+      "kind": "characters",
+      "name": "Lingsha",
+      "fileStem": "lingsha-icon",
+      "path": "Prydwen/hsr/assets/characters/lingsha-ab0724067e0c.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "30d074a1060a",
+      "sourceHash": "30d074a1060a",
+      "kind": "characters",
+      "name": "Gallagher",
+      "fileStem": "gallagher-icon",
+      "path": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "4c12f1ecf12f",
+      "sourceHash": "4c12f1ecf12f",
+      "kind": "characters",
+      "name": "Firefly",
+      "fileStem": "firefly-icon",
+      "path": "Prydwen/hsr/assets/characters/firefly-4c12f1ecf12f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "92feb26d8f0e",
+      "sourceHash": "92feb26d8f0e",
+      "kind": "icons",
+      "name": "Fire",
+      "fileStem": "ele-fire",
+      "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "7d36eb39792a",
+      "sourceHash": "7d36eb39792a",
+      "kind": "icons",
+      "name": "Ice",
+      "fileStem": "ele-ice",
+      "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "913ff64407f2",
+      "sourceHash": "913ff64407f2",
+      "kind": "icons",
+      "name": "Imaginary",
+      "fileStem": "ele-imaginary",
+      "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "2cde7699adbf",
+      "sourceHash": "2cde7699adbf",
+      "kind": "characters",
+      "name": "Tribbie",
+      "fileStem": "tribbie-icon",
+      "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "565914d1a436",
+      "sourceHash": "565914d1a436",
+      "kind": "icons",
+      "name": "Quantum",
+      "fileStem": "ele-quantum",
+      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+      "width": 22,
+      "height": 22
+    }
+  ],
+  "sections": [
+    {
+      "id": "firefly-best-build-guide-0",
+      "level": 1,
+      "heading": "Firefly Best Build Guide",
+      "text": "Last updated: 31/May/2026",
+      "assets": [
+        {
+          "id": "623b0891aedd",
+          "sourceHash": "623b0891aedd",
+          "kind": "characters",
+          "name": "Firefly",
+          "fileStem": "firefly-card",
+          "path": "Prydwen/hsr/assets/characters/firefly-623b0891aedd.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Firefly from HSR (Honkai: Star Rail). Firefly is a 5 ★ character from the Fire element who follows the Path of Destruction .\n A member of the Stellaron Hunters and a young girl clad in a mechanical armor \"SAM.\" Born as a weapon, she's afflicted with the agony of Entropy Loss Syndrome due to genetic modification. She joined the Stellaron Hunters in search of the meaning of life, relentlessly pursuing ways to defy fate.\n\n To learn more about Firefly check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Firefly has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 4.2\n\n Last major build/calcs update\n Patch 4.2\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Firefly check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic ATK\n Order: Flare Propulsion\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Fire DMG equal to #1[i]% of SAM's ATK to a single target enemy.\n Basic ATK (Enhanced)\n Fyrefly Type-IV: Pyrogenic Decimation\n Single Target\n\n Lv. 1\n\n Energy gain: 0\n Break: 15\n\n Restores HP by an amount equal to 20% of this unit's Max HP. Deals Fire DMG equal to #1[i]% of SAM's ATK to one designated enemy target\n\n Skill\n Order: Aerial Bombardment\n Single Target\n\n Lv. 1\n\n Energy gain: 0\n Break: 20\n\n Consumes HP equal to 40% of this unit's Max HP and regenerates a fixed amount of Energy equal to #2[i]% of this unit's Max Energy. Deals Fire DMG equal to #1[i]% of SAM's ATK to one designated enemy target. If the current HP is not sufficient, reduces SAM's HP to 1 when using this Skill. Advances this unit's next Action by 25%.\n Skill (Enhanced)\n Fyrefly Type-IV: Deathstar Overload\n Blast\n\n Lv. 1\n\n Energy gain: 0\n Break: 30 + 15 adjacent\n\n Restores HP by an amount equal to 25% of this unit's Max HP. Adds Fire Weakness to one designated enemy target and its adjacent targets, lasting for 2 turns. Deals Fire DMG equal to (0.2 × Break Effect + #1[i]%) of SAM's ATK to this target. At the same time, deals Fire DMG equal to (0.1 × Break Effect + #2[i]%) of SAM's ATK to adjacent targets. The Break Effect taken into the calculation is capped at 360%.\n\n Ultimate\n Fyrefly Type-IV: Complete Combustion\n Enhance | 240 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: -\n\n Enters the Complete Combustion state, advances this unit's Action by 100%, and gains Enhanced Basic ATK and Enhanced Skill. While in Complete Combustion, increases SPD by #1[i], and when using the Enhanced Basic ATK or Enhanced Skill, increases this unit's Weakness Break Efficiency by 50% and increases the Break DMG dealt by SAM to the enemy targets by #2[i]%, lasting until this current attack ends.\nA countdown timer for the Complete Combustion state appears in the Action Order. When the countdown timer's turn starts, SAM exits the Complete Combustion state. The countdown timer has a fixed SPD of 70.\nSAM cannot use Ultimate while in Complete Combustion.\n\n Talent\n Chrysalid Pyronexus\n Defense\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n The lower the HP, the less DMG received. When HP is 20% or lower, the DMG Reduction reaches its maximum effect, reducing up to #1[i]%. During the Complete Combustion, the DMG Reduction remains at its maximum effect, and the Effect RES increases by #2[i]%.\nIf Energy is lower than 50% when the battle starts, regenerates Energy to 50%. Once Energy is regenerated to its maximum, dispels all debuffs on this unit.\n\n Technique\n Δ Order: Meteoric Incineration\n Support\n\n Energy gain: 0\n Break: 20\n\n Leaps into the air and moves about freely for 5 seconds, which can be ended early by launching a plunging attack. When the duration ends, plunges and immediately attacks all enemies within a set area. At the start of each wave, applies a Fire Weakness to all enemies, lasting for 2 turn(s). Then, deals Fire DMG equal to 200% of SAM's ATK to all enemies.",
+      "assets": []
+    },
+    {
+      "id": "major-traces-10",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "A2 Major trace\n Module α: Antilag Outburst\n\n While in the Complete Combustion state, SAM's Break Effect increases by 25% . When using Enhanced Basic ATK or Enhanced Skill to inflict Weakness Break on a target, the Complete Combustion countdown is delayed by 10% . This effect can trigger a maximum of 3 time(s) during each Complete Combustion state.\n\n A4 Major trace\n Module β: Autoreactive Armor\n\n When SAM is in Complete Combustion with a Break Effect that is equal to or greater than 150%/300% , attacking a Weakness-Broken enemy target will convert the Toughness Reduction of this attack into 1 instance of 100%/150% Super Break DMG.\n\n A6 Major trace\n Module γ: Core Overload\n\n For every 10 point(s) of SAM's ATK that exceeds 1800 , increases this unit's Break Effect by 0.8% .",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-11",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "Break Effect\n + 37.3%\n\n Speed\n + 5\n\n Effect RES\n + 18%",
+      "assets": [
+        {
+          "id": "6890417bdf8b",
+          "sourceHash": "6890417bdf8b",
+          "kind": "icons",
+          "name": "Break Effect",
+          "fileStem": "stat-break",
+          "path": "Prydwen/hsr/assets/icons/break-effect-6890417bdf8b.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "9db79c7ddbf7",
+          "sourceHash": "9db79c7ddbf7",
+          "kind": "icons",
+          "name": "Effect RES",
+          "fileStem": "stat-effectres",
+          "path": "Prydwen/hsr/assets/icons/effect-res-9db79c7ddbf7.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "eidolons-12",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "E 1\n In Reddened Chrysalis, I Once Rest\n Eidolon 1\n\n When using the Enhanced Skill, ignores 15% of the target's DEF. The Enhanced Skill does not consume Skill Points.\n\n E 2\n From Shattered Sky, I Free Fall\n Eidolon 2\n\n While in the Complete Combustion state, using the Enhanced Basic ATK or the Enhanced Skill to defeat an enemy target or to Break their Weakness allows SAM to immediately gain 1 extra turn.\n This effect can only trigger 1 time per turn, and the trigger count resets at the start of SAM's turn.\n\n E 3\n Amidst Silenced Stars, I Deep Sleep\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Upon Lighted Fyrefly, I Soon Gaze\n Eidolon 4\n\n While in Complete Combustion, increases SAM's Effect RES by 50% .\n\n E 5\n From Undreamt Night, I Thence Shine\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n In Finalized Morrow, I Full Bloom\n Eidolon 6\n\n While in Complete Combustion, increases SAM's Fire RES PEN by 20% . When using the Enhanced Basic ATK or Enhanced Skill, increases Weakness Break Efficiency by 50% .",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-13",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Enable Ascension",
+      "assets": []
+    },
+    {
+      "id": "level-80-stats-14",
+      "level": 5,
+      "heading": "Level 80 stats",
+      "text": "HP\n\n 814\n\n ATK\n\n 523\n\n DEF\n\n 776\n\n Speed\n\n 104",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "level-1-80-ascension-materials-15",
+      "level": 5,
+      "heading": "Level 1 → 80 Ascension Materials",
+      "text": "Credit\n\n x 308000\n\n Tatters of Thought\n\n x 15\n\n Fragments of Impression\n\n x 15\n\n Raging Heart\n\n x 65\n\n Shards of Desires\n\n x 15",
+      "assets": [
+        {
+          "id": "50d0e755383a",
+          "sourceHash": "50d0e755383a",
+          "kind": "items",
+          "name": "Credit",
+          "fileStem": "credit",
+          "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "b976a1043f39",
+          "sourceHash": "b976a1043f39",
+          "kind": "items",
+          "name": "Tatters of Thought",
+          "fileStem": "tatters-of-thought",
+          "path": "Prydwen/hsr/assets/items/tatters-of-thought-b976a1043f39.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "485a3b8cc2b3",
+          "sourceHash": "485a3b8cc2b3",
+          "kind": "items",
+          "name": "Fragments of Impression",
+          "fileStem": "fragments-of-impression",
+          "path": "Prydwen/hsr/assets/items/fragments-of-impression-485a3b8cc2b3.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "e7254e3bb516",
+          "sourceHash": "e7254e3bb516",
+          "kind": "items",
+          "name": "Raging Heart",
+          "fileStem": "raging-heart",
+          "path": "Prydwen/hsr/assets/items/raging-heart-e7254e3bb516.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "beee664e3222",
+          "sourceHash": "beee664e3222",
+          "kind": "items",
+          "name": "Shards of Desires",
+          "fileStem": "shards-of-desires",
+          "path": "Prydwen/hsr/assets/items/shards-of-desires-beee664e3222.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "cv-16",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n Analesa Fisher & Adin Rudd\n\n JPN\n Kusunoki Tomori (楠木ともり) & Kasama Jun (笠間淳)\n\n CN\n Song Yuanyuan (宋媛媛) & Gan Ziqi (淦子齐)\n\n KR\n Yu Hye-ji (유혜지) & Jang Seo-hwa (장서화)",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "6259a9ca0ba4",
+          "sourceHash": "6259a9ca0ba4",
+          "kind": "characters",
+          "name": "Firefly",
+          "fileStem": "firefly-full",
+          "path": "Prydwen/hsr/assets/characters/firefly-6259a9ca0ba4.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Great Super Break DPS,\n\n Constantly Implants Fire Weakness in multiple enemies at a time,\n\n Very high natural Toughness damage,\n\n Very high natural durability allows for easier sustainless comps,\n\n Very speedy character with built in SPD boosts and Action Advances,\n\n Completely self-sufficient when it comes to her own Energy economy,\n\n Very accessible low cost team with the Harmony TB, Ruan Mei, and Gallagher.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Premium team is a colossal upgrade,\n\n Burns through SP extremely quickly,\n\n The Dahlia is near mandatory for modern Toughness bar values,\n\n Requires very high stat investment to reach her peak,\n\n Skipped the queue smh my head.",
+      "assets": []
+    },
+    {
+      "id": "overview-22",
+      "level": 6,
+      "heading": "[Overview]",
+      "text": "Firefly is a Destruction Superbreak main DPS with the ability to Implant Fire Weakness onto her enemies. She is extremely fast acting, and has a strong self-sufficient Energy loop to enter her Enhanced state through her Ultimate. She deals high amounts of Super Break DMG to Weakness Broken foes, and can extend her Enhanced state by Breaking foes. She is also inordinately durable, possessing very high persistent damage reduction and Effect RES, and even heals herself whenever she attacks in her Enhanced state.",
+      "assets": []
+    },
+    {
+      "id": "intro-23",
+      "level": 6,
+      "heading": "[Intro]",
+      "text": "The black swan of this round of Novaflares (no not that Black Swan, she was last round), I don't think anyone really expected an already top performing DPS to be getting buffed, but here we are.\n I really want to say that the buffs has fixed all of Firefly's issues, but not all of them have been, and maybe even a new issue has shown up. It's not like a real issue, it's kinda fake actually, but it is something that can mess with some peoples' old setups for Firefly.\n She was already strong when she got a new teammate that literally revived the archetype, and now she's getting buffed again.\n Curious.",
+      "assets": []
+    },
+    {
+      "id": "abilities-24",
+      "level": 6,
+      "heading": "[Abilities]",
+      "text": "Firefly has an Enhanced state that is entered with her Ultimate, and she is strongest within that state. Using her Ultimate will enter the Complete Combustion state, advancing Firefly's action by 100%.\n In Complete Combustion, her Basic ATK and Skill are Enhanced, her SPD is increased by 60, and she gets an extra 50% Weakness Break Efficiency when attacking, while also increasing the Break DMG enemies receive from her by 20%.\n A countdown timer for the Complete Combustion state appears on the Action Order with a fixed SPD of 70. Once this passes, Firefly will exit the Complete Combustion state automatically. She cannot use her Ultimate before the countdown is finished, so you can't stay in the Ultimate permanently.\n Her regular Skill will consume 40% of Firefly's Max HP and attack a single enemy for 200% ATK. This attack will also regenerate 60% of Firefly's Max Energy, and will Advance her next action by 25%. This is what helps Firefly to get back into her Enhanced state as quickly as possible, and the massive percentage Energy restore means that at worst, it will only take her 2 turns to re-enter her Ultimate.\n Due to Firefly's Ultimate costing an insane 240 Energy, it's unlikely that she will be able to have enough Energy restored for a 1 turn re-entry without specific teammates like The Dahlia to help her out.\n The Enhanced Skill completely changes its tune though. Attacking will restore 25% Max HP to Firefly. This is now a Blast AoE that applies a Fire Weakness to the enemies that you hit for 2 turns. Then it deals DMG equal to (0.2 x Break Effect + 200% ATK) to the primary target, dealing half the amount to the adjacent foes.\n Despite how awful that looks, it really is fairly meaningless. This isn't where the real damage is from at all, we need to wait until the Bonus Traces for that, so you can safely ignore this.\n Firefly's Talent will grant her damage reduction based on how low her HP is. When her HP is at 20% of lower, she will gain the maximum reduction of 40%. During the Complete Combustion state, Firefly is always benefitting from the 40% DMG Reduction, and will additionally gain 30% Effect RES.\n When entering combat, if Firefly's Energy is less than 50%, it will be set to 50%, and when her Energy reaches 100%, all debuffs currently on Firefly will be removed. This starting Energy allows Firefly to enter her Ultimate after her very first turn thanks to her normal Skill restoring 60% Max Energy. The debuff cleanse is great but it'll come up so infrequently due to Firefly's own good Energy economy, and there's also nothing stopping you from getting afflicted by debuffs after the initial cleanse goes off, so just ignore this line for the most part, I say.\n Due to the SPD boost provided by the Complete Combustion state, it's pretty effortless to reach over 200 effective SPD in combat, made even easier if you have Firefly's premium teammates.\n Maintaining the gameplay loop for Firefly is quite easy and intuitive.",
+      "assets": []
+    },
+    {
+      "id": "bonus-traces-25",
+      "level": 6,
+      "heading": "[Bonus Traces]",
+      "text": "A2 has received a bit of a revamp due to Firefly actually being able to apply Fire Weakness in a limited AoE now, so the old 55% Break Efficiency for non Fire-Weak foes is redundant.\n Instead, Firefly gets a 25% Break Effect boost during Complete Combustion, and Breaking an enemy with her Enhanced Basic or Enhanced Skill will cause the Complete Combustion countdown (the one in the Action Order) to be delayed by 10%. This can trigger up to 3 times in one Complete Combustion cycle.\n This is what I was alluding to by a new 'fake' issue. There are rotations where it's important for Firefly to be able to leave the Complete Combustion state, use a normal Skill (that under the right circumstances deals some good damage too), and then immediately re-enter the Complete Combustion state. This advances you by 100% and so you get an immediate Enhanced Skill again.\n Delaying the countdown timer can prevent this from happening, and in those specific cases, now you'd actually lose the 'free' unenhanced Skill. In general though, this simply doesn't matter, especially for the overwhelming majority of people, and trying to account for this without being very familiar with SPD mechanics will probably just cause more issues and headache. Maintaining the extra 60 SPD from the Enhanced state for longer is generally just fine.\n A4 has been turbo buffed. Previously, this would grant 35% Super Break DMG against Broken foes if you had 200% Break Effect, rising to 50% Super Break DMG if you had at least 360% Break Effect. Unsurprisingly this completely sucked and is nothing short of insulting for a supposed Super Break focused DPS to have.\n Rest easy because the Super Break DMG values have been increased massively, now providing 100% Super Break DMG at the first threshold, and 150% Super Break DMG at the second one. Damn, imagine being competent at the one thing you do. This was why people were so up in arms about it on her release, because she literally wasn't functional without the Harmony Trailblazer's assistance.\n The thresholds for reaching these Super Break bonuses have also been lowered to 150% and 300% respectively, making them much more accessible for the majority of people without having to sacrifice other luxuries like SPD.\n The ATK is for the A6, by the way. Top segue. For every 10 points of ATK that exceeds 1800, you gain 0.8% Break Effect. This, amusingly enough, hasn't got an upper limit to it. Yeah, this just... goes on and on if you can keep pumping ATK.\n 100 ATK is 8% Break Effect, slightly nicer numbers (c'mon devs, you didn't think to put it in integer form, what are you twelve?) and this is going to be a big way that you reach the upper threshold for the A4. It also means that any outside sources of ATK and ATK% can actually be surprisingly good for Firefly, even if those sources don't otherwise provide Break Effect up front (achoo *Bronya*).\n Minor Traces are also pretty good, even more Effect RES is kind of whatever, but the extra Break Effect to get to the threshold is great. 5 SPD is 5 SPD.",
+      "assets": []
+    },
+    {
+      "id": "eidolons-26",
+      "level": 6,
+      "heading": "[Eidolons]",
+      "text": "The usual disclaimer about Eidolons here. As an older unit it's not too surprising for people to have Eidolons, especially since she's a favourite and has had a couple reruns now.\n E1 is unchanged. Using the Enhanced Skill against enemies will ignore 15% of the targets' DEF, and the Enhanced Skill will no longer consume Skill Points. Great to have, both effects are great for damage and quality of life.\n E2 has been... Let me check my notes real quick... THEY BUFFED THIS??? Completely inexplicably, might I add. This was already her best Eidolon given what it did and how early it was.\n It's the same as before, using Enhanced Skill or Enhanced Basic to defeat an enemy or to Break them will grant Firefly 1 extra turn, and this had a 1 turn cooldown, so you couldn't use it on repeat. That limitation is now gone. Yeah. So now you can gain that extra turn on EVERY turn. Hey at least it's still limited to one extra turn per turn or we'd really be in trouble, wouldn't we?\n Incomprehensible, may god have mercy on your wretched soul.\n E4 is unchanged, granting a bonus 50% Effect RES during Complete Combustion, making you functionally un-debuffable.\n E6 is also unchanged, granting 20% Fire RES PEN during the Enhanced state, and providing a further 50% Weakness Break Efficiency boost to the Enhanced Basic and Enhanced Skill.",
+      "assets": []
+    },
+    {
+      "id": "the-rest-27",
+      "level": 6,
+      "heading": "[The Rest]",
+      "text": "Going into it, I thought that I'd probably have the least to say about Firefly out of all the characters, and now that I'm here, I can see that I was absolutely right about that.\n She's already a top performer, I'm still somewhat baffled by the decision to Novaflare her... Is what I would say if her A4 Trace wasn't hot garbage before this update to her. Seriously, how that thing made it through playtesting is beyond me, and now finally Firefly is able to be unbound from the necessity of playing with another source of Super Break.\n Just in time for sustainless Firefly teams to become pretty widespread. Missing the mark yet again, eh? Well, better for us I guess, having both Fugue and the Harmony Trailblazer on the same team as Constance and Firefly is nothing short of nuclear, with these buffs especially. Enemies can't hurt you if they're a cwispy cwater now can they?\n Aside from that, the overall team hasn't changed pretty much at all. Either you have The Dahlia, or you're not running Super Break. The environment without Constance just doesn't really allow for Super Break to function without her. It wasn't really that long ago that this archetype was literally dead in a ditch, so don't go using the Firefly Novaflare as an excuse to run weird stuff.\n ... But since you're here, let's talk about Bronya. Hey! Hey, sit down! Listen, Bronya gives Firefly additional actions, and also gives her a decent ATK boost through her Ultimate (even if it only lasts a couple turns)... Okay a big part of it is because of that Battle Pass Harmony Light Cone that increases the team's Break DMG dealt, but DDD is fine too, you know?\n This is definitely a Pure Fiction only strategy, and it's not really something I'd recommend for an E0 Firefly unless your Bronya already has a few Eidolons in her, but if you have at least an E2 Firefly and your Enhanced Skills don't cost SP anymore, and you get the extra turns to kill things even faster... Hey, it's there, and it's pretty cool. The delicate balancing act of advancing Bronya just enough to line her up with Firefly gets me all giddy, but I'm a wacko who enjoys SPD discussions for fun.\n If you want to be safer and go with a sustain, your only two real options are Gallagher and Lingsha, though they're also somewhat improved by Firefly's improved Weakness Implanting from this Novaflare. Ruan Mei can be a good middle ground, offering some offensive and defensive value, and she's also pretty accessible since she's in the 5-star shop.\n Oh, and since you can save the Trailblazer's Path per team preset, you can switch between your Break and non-Break setups much more easily. Just remember that the Remembrance Trailblazer is peak design and hotly contested, and the Elation Trailblazer just showed up to the archetype that's currently being shilled (and will likely continue to be shilled), so maybe make a preset that doesn't rely on having the Harmony Trailblazer in it. I know how hard it is to give up DDD, but you may need to consider it depending on what the endgame boss line-up looks like.\n Firefull Flyshine, indeed.",
+      "assets": []
+    },
+    {
+      "id": "wrap-up-28",
+      "level": 6,
+      "heading": "[Wrap up]",
+      "text": "If you're looking to get into Break and you've got the pieces but never quite experimented with them, now would be the time to do that. The team is highly competitive, and even has preferable matchups into a lot of the unpleasant Bosses.\n This team also has a pretty good time brute-forcing content thanks to The Dahlia's whole 'You should take Super Break DMG, NOW!' thing she has going on, so the full premium team is gonna stick around for quite a while I reckon.\n If you don't have all of these constituent parts, then it's the same story as always, you should get the important supports first (this is a thinly veiled way of saying that you get The Dahlia first and foremost), and hold off until you have the full ensemble. Three copies of Exodia's Left Leg aren't gonna really accomplish much, and to add to that, even though these are some great changes for Firefly, she still isn't quite on the same sort of level as the capital M 'Mistake' characters, like a certain pink-haired jellyfish, so how far you could push it into the future is entirely dependent on your own investment into Firefly.\n For now, at the very least, it's way more than enough, so for the Firefly havers (and especially the E2 havers), congratulations! You had enough foresight to choose one of the devs' favourites.",
+      "assets": []
+    },
+    {
+      "id": "ratings-29",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.",
+      "assets": []
+    },
+    {
+      "id": "damage-dealer-30",
+      "level": 5,
+      "heading": "Damage dealer",
+      "text": "T0\n MoC\n\n T0.5\n PF\n\n T0\n AS\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "best-light-cones-32",
+      "level": 2,
+      "heading": "Best Light Cones",
+      "text": "117.76%\n\n Whereabouts Should Dreams Rest (S 1 )\n\n Firefly's signature offers her a tremendous 60% Break Effect and a 24% damage taken debuff that multiplies all of her Break damage. Both of these are ideal for amplifying Firefly's damage but aren't something she cannot get elsewhere from the rest of her team. Break Effect can be acquired from her relics and teammates and as for the damage-taken debuff, she already has one that stacks additively with the Cone attached to her ultimate and Gallagher's damage-taken debuff also stacks additively with this as well. The combination of these facts means that while this Cone amplifies Firefly's personal damage fairly well, its value can drop off depending on which teammates you decide to pair with her.\n Usage: 73.09 %\n MoC: 7.63 cyc.\n PF: 28168\n AS: 3468\n\n 115.57%\n\n Thus Burns the Dawn (S 1 )\n\n Phainon's signature is an incredible alternative, offering 12 Base SPD increase, 687 Base ATK which is the highest in the game and can be converted to Break Effect via Firefly's Traces, and a permanent 18% DEF ignore on all attacks, which can also affect Break DMG. Strong option even without utilizing the 60% DMG buff (which does not affect Super Break regardless), Make sure to not overcap on DEF Reduction past 100%.\n Usage: 3.3 %\n MoC: 8 cyc.\n PF: 28464\n AS: 3457\n\n 100%\n\n On the Fall of an Aeon (S 5 )\n\n Best free-to-play option for Firefly, offering up an incredible amount of ATK% and a strong amount of base ATK resulting in a sizable amount of Break Effect from her bonus ability as a result. The raw Break Effect gained thanks to her conversion is enough to make this Cone a strong option if you're not in the market for going for her Signature, especially if you make up for some of the lost damage multipliers through effective use of team building (you can gain damage taken multiplier similar to the one on the Signature from Gallagher shrinking the gap between the two Cones).\n Usage: 21.89 %\n MoC: 8.71 cyc.\n PF: 26921\n AS: 3431\n\n 98.14%\n\n Indelible Promise (S 5 )\n\n An option for those who do not have Fall of An Aeon S5 available either due to it being used on another character or still waiting in the Herta's Shop (you should get on that for Firefly's sake!)\n Usage: 1.29 %\n MoC: 9.14 cyc.\n PF: 24120\n AS: 3377",
+      "assets": [
+        {
+          "id": "5aa3af4bbe3d",
+          "sourceHash": "5aa3af4bbe3d",
+          "kind": "light-cones",
+          "name": "Whereabouts Should Dreams Rest",
+          "fileStem": "whereabouts-should-dreams-rest",
+          "path": "Prydwen/hsr/assets/light-cones/whereabouts-should-dreams-rest-5aa3af4bbe3d.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "40af809ee965",
+          "sourceHash": "40af809ee965",
+          "kind": "light-cones",
+          "name": "Thus Burns the Dawn",
+          "fileStem": "thus-burns-the-dawn",
+          "path": "Prydwen/hsr/assets/light-cones/thus-burns-the-dawn-40af809ee965.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "83d0f295d2ff",
+          "sourceHash": "83d0f295d2ff",
+          "kind": "light-cones",
+          "name": "On the Fall of an Aeon",
+          "fileStem": "on-the-fall-of-an-aeon",
+          "path": "Prydwen/hsr/assets/light-cones/on-the-fall-of-an-aeon-83d0f295d2ff.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "be3eed62e90a",
+          "sourceHash": "be3eed62e90a",
+          "kind": "light-cones",
+          "name": "Indelible Promise",
+          "fileStem": "indelible-promise",
+          "path": "Prydwen/hsr/assets/light-cones/indelible-promise-be3eed62e90a.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-relic-sets-34",
+      "level": 2,
+      "heading": "Best Relic Sets",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n Iron Cavalry Against the Scourge ( 4 -PC)\n\n Best and most consistent set for Firefly by a significant margin, granting her BREAK EFFECT% but more importantly DEF SHRED for her Break and Super Breaks. As a break-focused character, stats that boost that damage are rare making DEF SHRED absurdly valuable for her.\n Usage: 99.79 %\n MoC: 7.88 cyc.\n PF: 27587\n AS: 3454\n\n 90.87%\n\n Thief of Shooting Meteor ( 4 -PC)\n\n A much weaker alternative to Cavalry.",
+      "assets": [
+        {
+          "id": "2fc8ce1ab137",
+          "sourceHash": "2fc8ce1ab137",
+          "kind": "relics",
+          "name": "Iron Cavalry Against the Scourge",
+          "fileStem": "iron-cavalry-against-the-scourge",
+          "path": "Prydwen/hsr/assets/relics/iron-cavalry-against-the-scourge-2fc8ce1ab137.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "bd16ed7ff036",
+          "sourceHash": "bd16ed7ff036",
+          "kind": "relics",
+          "name": "Thief of Shooting Meteor",
+          "fileStem": "thief-of-shooting-meteor",
+          "path": "Prydwen/hsr/assets/relics/thief-of-shooting-meteor-bd16ed7ff036.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-planetary-sets-35",
+      "level": 6,
+      "heading": "Best Planetary Sets",
+      "text": "100%\n\n Forge of the Kalpagni Lantern ( 2 -PC)\n\n Best Planar Set for Firefly, offering her some much-appreciated Speed so she can reach the desired Speed breakpoint easier and tremendous amount of Break Effect on top of that.\n Usage: 99.32 %\n MoC: 7.88 cyc.\n PF: 27587\n AS: 3455\n\n 96.77%\n\n Talia: Kingdom of Banditry ( 2 -PC)\n\n A reasonable alternative to Forge of Kalpagni with a similar Break% but no Speed bonus. If you've already got Speed covered and aren't looking for more this set isn't much of a downgrade.\n Usage: 0.31 %\n MoC: 9 cyc.\n PF: 0\n AS: 3372",
+      "assets": [
+        {
+          "id": "f08c8ab4a73a",
+          "sourceHash": "f08c8ab4a73a",
+          "kind": "relics",
+          "name": "Forge of the Kalpagni Lantern",
+          "fileStem": "forge-of-the-kalpagni-lantern",
+          "path": "Prydwen/hsr/assets/relics/forge-of-the-kalpagni-lantern-f08c8ab4a73a.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "a8ea2dfcb1ee",
+          "sourceHash": "a8ea2dfcb1ee",
+          "kind": "relics",
+          "name": "Talia: Kingdom of Banditry",
+          "fileStem": "talia-kingdom-of-banditry",
+          "path": "Prydwen/hsr/assets/relics/talia-kingdom-of-banditry-a8ea2dfcb1ee.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-stats-37",
+      "level": 2,
+      "heading": "Best Stats",
+      "text": "Body\n ATK%\n\n Feet\n Speed\n\n Planar Sphere\n ATK%\n\n Link Rope\n Break Effect\n\n Substats: SPD (Until Breakpoint) > Break Effect% > ATK%\n\n Stack Speed until you have enough to achieve Firefly's 210 Speed goal (or higher if you're aiming for 0 cycles) while fully buffed in combat, then stack Break Effect wherever possible while picking up any ATK% you can here and there for additional benefits.",
+      "assets": [
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "6890417bdf8b",
+          "sourceHash": "6890417bdf8b",
+          "kind": "icons",
+          "name": "Break Effect",
+          "fileStem": "stat-break",
+          "path": "Prydwen/hsr/assets/icons/break-effect-6890417bdf8b.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "recommended-endgame-stats-38",
+      "level": 2,
+      "heading": "Recommended endgame stats",
+      "text": "HP: 2600+\n\n SPD: 157\n There are many SPD breakpoints for Firefly, either tuned to her Complete Combustion timer or Action Value cutoff in endgame modes. Sometimes her Complete Combustion timer may be reset during Memory of Chaos Wave Changes, and your team may include Action Advances which further complicates her SPD setup.\n\n The SPD we recommend is tuned for Anomaly Arbitration where her Combustion timer delay will (almost) always take effect. You can also just build as much SPD as possible, but keep in mind that sometimes intentionally letting Firefly take a turn right after Complete Combustion ends can be beneficial for maintaining her SPD buff.\n\n Other SPD breakpoint to consider: 178.4 (Memory of Chaos)\n\n Break Effect: 300%",
+      "assets": []
+    },
+    {
+      "id": "traces-priority-39",
+      "level": 2,
+      "heading": "Traces priority",
+      "text": "Skills priority: Ultimate > Skill = Talent > Basic\n\n Major Traces priority: Module Î±: Antilag Outburst (A2) > Module Î²: Autoreactive Armor (A4) > Module Î³: Core Overload (A6)",
+      "assets": []
+    },
+    {
+      "id": "synergy-40",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "The Dahlia - The Dahlia fixes all of Firefly's weaknesses at E0: her inability to deal with inflated Toughness bars, Skill Point economy, Ultimate downtime. Her Zone allows Firefly to deal Super Break DMG against enemies not Weakness Broken, including enemies with Toughness Lock mechanics where Firefly was previously powerless against. The Dahlia can restore Skill Points via her Follow-up ATK and be played Skill Point positive using her Basic ATK, or also spam her Skill with E1 Firefly for more Toughness Reduction. Lastly, she can increase Firefly's SPD by 30% and refund 10% Energy per Enhanced Skill. With 4 refunds and her Skill restoring 60% fixed Energy, Firefly can immediately re-enter her Ultimate state with no downtime.\n Ruan Mei - Ruan Mei's teamwide Weakness Break Efficiency buffs causes enemies to be broken much faster, and directly increases DMG dealt by Super Breaks. Her Ultimate can extend enemies' Weakness Broken states, allowing for longer burst windows, on top of the RES PEN buffs provided, and her teamwide SPD and Break Effect buffs can also make gearing easier on Firefly.\n Tingyun • Fugue - Can provide other allies (such as Lingsha) with her Foxian Prayer for the Weakness Type ignore, since Firefly already has this effect built into her kit. She increases all allies' Break Effect and Super Break multipliers, applies Exo-Toughness to all enemies, providing an extra Break DMG instance which is a nice burst of DMG, and is useful for triggering Firefly's Eidolon 2 effect.\n Trailblazer • Harmony - Free unit with Eidolon 6 accesible after Penacony exploration. Provides the team with increased Super Break multipliers and Break Effect. With Eidolon 6, the Trailblazer can recover Ultimate very quickly on Energy Rope, which can enable Action Advance spam via the Dance! Dance! Dance! Light Cone.\n Lingsha - Premium sustain for Break teams. Lingsha can increase enemies' Break DMG Taken by 25%, and is capable of dishing out high AoE Toughness DMG together with Firefly's Weakness Implant. Altough with E0 Firefly, who is notoriously known for being Skill Point hungry, the team may need careful planning around the Skill Point economy, and Lingsha loses effectiveness when not consistently using her Skill.\n Gallagher - Strong F2P sustain for any team, and especially for Break teams. Gallagher is known for his high Single-Target Toughness DMG, and for his ability to generate the most Skill Points as a sustain - which is much needed for E0 Firefly.",
+      "assets": [
+        {
+          "id": "cec6f11ca61e",
+          "sourceHash": "cec6f11ca61e",
+          "kind": "characters",
+          "name": "The Dahlia",
+          "fileStem": "the-dahlia-icon",
+          "path": "Prydwen/hsr/assets/characters/the-dahlia-cec6f11ca61e.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "b77207bce6c8",
+          "sourceHash": "b77207bce6c8",
+          "kind": "characters",
+          "name": "Ruan Mei",
+          "fileStem": "ruan-mei-icon",
+          "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "444d6f5749b7",
+          "sourceHash": "444d6f5749b7",
+          "kind": "characters",
+          "name": "Tingyun • Fugue",
+          "fileStem": "tingyun-fugue-icon",
+          "path": "Prydwen/hsr/assets/characters/tingyun-fugue-444d6f5749b7.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "de41e1704266",
+          "sourceHash": "de41e1704266",
+          "kind": "characters",
+          "name": "Trailblazer • Harmony",
+          "fileStem": "trailblazer-harmony-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-harmony-de41e1704266.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "ab0724067e0c",
+          "sourceHash": "ab0724067e0c",
+          "kind": "characters",
+          "name": "Lingsha",
+          "fileStem": "lingsha-icon",
+          "path": "Prydwen/hsr/assets/characters/lingsha-ab0724067e0c.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "30d074a1060a",
+          "sourceHash": "30d074a1060a",
+          "kind": "characters",
+          "name": "Gallagher",
+          "fileStem": "gallagher-icon",
+          "path": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp",
+          "width": 45,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "id": "anomaly-arbitration-45",
+      "level": 6,
+      "heading": "Anomaly Arbitration",
+      "text": "Rank 4\n App. rate: 11.6 %\n Avg. cycles : 8.09\n Avg. cycles (E1+): 4.97\n\n Rank 8\n App. rate: 5.74 %\n Avg. cycles : 6.58\n Avg. cycles (E1+): 3.32\n\n Rank 12\n App. rate: 3.58 %\n Avg. cycles : 8.48\n Avg. cycles (E1+): 6.48\n\n Rank 13\n App. rate: 3.28 %\n Avg. cycles : 5.17\n Avg. cycles (E1+): 1.93\n\n Rank 17\n App. rate: 1.7 %\n Avg. cycles : 6\n Avg. cycles (E1+): 4.21\n\n Rank 27\n App. rate: 0.97 %\n Avg. cycles : 8.16\n Avg. cycles (E1+): 6.06\n\n Rank 29\n App. rate: 0.93 %\n Avg. cycles : 8.43\n Avg. cycles (E1+): 7.04\n\n Rank 43\n App. rate: 0.51 %\n Avg. cycles : 8.4\n Avg. cycles (E1+): 7.11\n\n Rank 45\n App. rate: 0.48 %\n Avg. cycles : 9\n Avg. cycles (E1+): 7.74\n\n Rank 53\n App. rate: 0.39 %\n Avg. cycles : 5\n Avg. cycles (E1+): 0.77",
+      "assets": [
+        {
+          "id": "4c12f1ecf12f",
+          "sourceHash": "4c12f1ecf12f",
+          "kind": "characters",
+          "name": "Firefly",
+          "fileStem": "firefly-icon",
+          "path": "Prydwen/hsr/assets/characters/firefly-4c12f1ecf12f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "92feb26d8f0e",
+          "sourceHash": "92feb26d8f0e",
+          "kind": "icons",
+          "name": "Fire",
+          "fileStem": "ele-fire",
+          "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "444d6f5749b7",
+          "sourceHash": "444d6f5749b7",
+          "kind": "characters",
+          "name": "Tingyun • Fugue",
+          "fileStem": "tingyun-fugue-icon",
+          "path": "Prydwen/hsr/assets/characters/tingyun-fugue-444d6f5749b7.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "cec6f11ca61e",
+          "sourceHash": "cec6f11ca61e",
+          "kind": "characters",
+          "name": "The Dahlia",
+          "fileStem": "the-dahlia-icon",
+          "path": "Prydwen/hsr/assets/characters/the-dahlia-cec6f11ca61e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ab0724067e0c",
+          "sourceHash": "ab0724067e0c",
+          "kind": "characters",
+          "name": "Lingsha",
+          "fileStem": "lingsha-icon",
+          "path": "Prydwen/hsr/assets/characters/lingsha-ab0724067e0c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b77207bce6c8",
+          "sourceHash": "b77207bce6c8",
+          "kind": "characters",
+          "name": "Ruan Mei",
+          "fileStem": "ruan-mei-icon",
+          "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7d36eb39792a",
+          "sourceHash": "7d36eb39792a",
+          "kind": "icons",
+          "name": "Ice",
+          "fileStem": "ele-ice",
+          "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "30d074a1060a",
+          "sourceHash": "30d074a1060a",
+          "kind": "characters",
+          "name": "Gallagher",
+          "fileStem": "gallagher-icon",
+          "path": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "de41e1704266",
+          "sourceHash": "de41e1704266",
+          "kind": "characters",
+          "name": "Trailblazer • Harmony",
+          "fileStem": "trailblazer-harmony-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-harmony-de41e1704266.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "913ff64407f2",
+          "sourceHash": "913ff64407f2",
+          "kind": "icons",
+          "name": "Imaginary",
+          "fileStem": "ele-imaginary",
+          "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "2cde7699adbf",
+          "sourceHash": "2cde7699adbf",
+          "kind": "characters",
+          "name": "Tribbie",
+          "fileStem": "tribbie-icon",
+          "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "565914d1a436",
+          "sourceHash": "565914d1a436",
+          "kind": "icons",
+          "name": "Quantum",
+          "fileStem": "ele-quantum",
+          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+          "width": 22,
+          "height": 22
+        }
+      ]
+    },
+    {
+      "id": "video-guides-46",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "MoC/PF/AS Statistics",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-light-cones": {
+      "label": "Best Light Cones",
+      "sections": [
+        {
+          "heading": "Best Light Cones",
+          "text": "117.76%\n\n Whereabouts Should Dreams Rest (S 1 )\n\n Firefly's signature offers her a tremendous 60% Break Effect and a 24% damage taken debuff that multiplies all of her Break damage. Both of these are ideal for amplifying Firefly's damage but aren't something she cannot get elsewhere from the rest of her team. Break Effect can be acquired from her relics and teammates and as for the damage-taken debuff, she already has one that stacks additively with the Cone attached to her ultimate and Gallagher's damage-taken debuff also stacks additively with this as well. The combination of these facts means that while this Cone amplifies Firefly's personal damage fairly well, its value can drop off depending on which teammates you decide to pair with her.\n Usage: 73.09 %\n MoC: 7.63 cyc.\n PF: 28168\n AS: 3468\n\n 115.57%\n\n Thus Burns the Dawn (S 1 )\n\n Phainon's signature is an incredible alternative, offering 12 Base SPD increase, 687 Base ATK which is the highest in the game and can be converted to Break Effect via Firefly's Traces, and a permanent 18% DEF ignore on all attacks, which can also affect Break DMG. Strong option even without utilizing the 60% DMG buff (which does not affect Super Break regardless), Make sure to not overcap on DEF Reduction past 100%.\n Usage: 3.3 %\n MoC: 8 cyc.\n PF: 28464\n AS: 3457\n\n 100%\n\n On the Fall of an Aeon (S 5 )\n\n Best free-to-play option for Firefly, offering up an incredible amount of ATK% and a strong amount of base ATK resulting in a sizable amount of Break Effect from her bonus ability as a result. The raw Break Effect gained thanks to her conversion is enough to make this Cone a strong option if you're not in the market for going for her Signature, especially if you make up for some of the lost damage multipliers through effective use of team building (you can gain damage taken multiplier similar to the one on the Signature from Gallagher shrinking the gap between the two Cones).\n Usage: 21.89 %\n MoC: 8.71 cyc.\n PF: 26921\n AS: 3431\n\n 98.14%\n\n Indelible Promise (S 5 )\n\n An option for those who do not have Fall of An Aeon S5 available either due to it being used on another character or still waiting in the Herta's Shop (you should get on that for Firefly's sake!)\n Usage: 1.29 %\n MoC: 9.14 cyc.\n PF: 24120\n AS: 3377",
+          "assets": [
+            {
+              "id": "5aa3af4bbe3d",
+              "sourceHash": "5aa3af4bbe3d",
+              "kind": "light-cones",
+              "name": "Whereabouts Should Dreams Rest",
+              "fileStem": "whereabouts-should-dreams-rest",
+              "path": "Prydwen/hsr/assets/light-cones/whereabouts-should-dreams-rest-5aa3af4bbe3d.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "40af809ee965",
+              "sourceHash": "40af809ee965",
+              "kind": "light-cones",
+              "name": "Thus Burns the Dawn",
+              "fileStem": "thus-burns-the-dawn",
+              "path": "Prydwen/hsr/assets/light-cones/thus-burns-the-dawn-40af809ee965.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "83d0f295d2ff",
+              "sourceHash": "83d0f295d2ff",
+              "kind": "light-cones",
+              "name": "On the Fall of an Aeon",
+              "fileStem": "on-the-fall-of-an-aeon",
+              "path": "Prydwen/hsr/assets/light-cones/on-the-fall-of-an-aeon-83d0f295d2ff.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "be3eed62e90a",
+              "sourceHash": "be3eed62e90a",
+              "kind": "light-cones",
+              "name": "Indelible Promise",
+              "fileStem": "indelible-promise",
+              "path": "Prydwen/hsr/assets/light-cones/indelible-promise-be3eed62e90a.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-relic-sets": {
+      "label": "Best Relic Sets",
+      "sections": [
+        {
+          "heading": "Best Relic Sets",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n Iron Cavalry Against the Scourge ( 4 -PC)\n\n Best and most consistent set for Firefly by a significant margin, granting her BREAK EFFECT% but more importantly DEF SHRED for her Break and Super Breaks. As a break-focused character, stats that boost that damage are rare making DEF SHRED absurdly valuable for her.\n Usage: 99.79 %\n MoC: 7.88 cyc.\n PF: 27587\n AS: 3454\n\n 90.87%\n\n Thief of Shooting Meteor ( 4 -PC)\n\n A much weaker alternative to Cavalry.",
+          "assets": [
+            {
+              "id": "2fc8ce1ab137",
+              "sourceHash": "2fc8ce1ab137",
+              "kind": "relics",
+              "name": "Iron Cavalry Against the Scourge",
+              "fileStem": "iron-cavalry-against-the-scourge",
+              "path": "Prydwen/hsr/assets/relics/iron-cavalry-against-the-scourge-2fc8ce1ab137.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "bd16ed7ff036",
+              "sourceHash": "bd16ed7ff036",
+              "kind": "relics",
+              "name": "Thief of Shooting Meteor",
+              "fileStem": "thief-of-shooting-meteor",
+              "path": "Prydwen/hsr/assets/relics/thief-of-shooting-meteor-bd16ed7ff036.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-planetary-sets": {
+      "label": "Best Planetary Sets",
+      "sections": [
+        {
+          "heading": "Best Planetary Sets",
+          "text": "100%\n\n Forge of the Kalpagni Lantern ( 2 -PC)\n\n Best Planar Set for Firefly, offering her some much-appreciated Speed so she can reach the desired Speed breakpoint easier and tremendous amount of Break Effect on top of that.\n Usage: 99.32 %\n MoC: 7.88 cyc.\n PF: 27587\n AS: 3455\n\n 96.77%\n\n Talia: Kingdom of Banditry ( 2 -PC)\n\n A reasonable alternative to Forge of Kalpagni with a similar Break% but no Speed bonus. If you've already got Speed covered and aren't looking for more this set isn't much of a downgrade.\n Usage: 0.31 %\n MoC: 9 cyc.\n PF: 0\n AS: 3372",
+          "assets": [
+            {
+              "id": "f08c8ab4a73a",
+              "sourceHash": "f08c8ab4a73a",
+              "kind": "relics",
+              "name": "Forge of the Kalpagni Lantern",
+              "fileStem": "forge-of-the-kalpagni-lantern",
+              "path": "Prydwen/hsr/assets/relics/forge-of-the-kalpagni-lantern-f08c8ab4a73a.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "a8ea2dfcb1ee",
+              "sourceHash": "a8ea2dfcb1ee",
+              "kind": "relics",
+              "name": "Talia: Kingdom of Banditry",
+              "fileStem": "talia-kingdom-of-banditry",
+              "path": "Prydwen/hsr/assets/relics/talia-kingdom-of-banditry-a8ea2dfcb1ee.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-stats": {
+      "label": "Best Stats",
+      "sections": [
+        {
+          "heading": "Best Stats",
+          "text": "Body\n ATK%\n\n Feet\n Speed\n\n Planar Sphere\n ATK%\n\n Link Rope\n Break Effect\n\n Substats: SPD (Until Breakpoint) > Break Effect% > ATK%\n\n Stack Speed until you have enough to achieve Firefly's 210 Speed goal (or higher if you're aiming for 0 cycles) while fully buffed in combat, then stack Break Effect wherever possible while picking up any ATK% you can here and there for additional benefits.",
+          "assets": [
+            {
+              "id": "dc6aec4a7776",
+              "sourceHash": "dc6aec4a7776",
+              "kind": "icons",
+              "name": "ATK",
+              "fileStem": "stat-atk",
+              "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "087f2dec68b6",
+              "sourceHash": "087f2dec68b6",
+              "kind": "icons",
+              "name": "Speed",
+              "fileStem": "stat-speed",
+              "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "6890417bdf8b",
+              "sourceHash": "6890417bdf8b",
+              "kind": "icons",
+              "name": "Break Effect",
+              "fileStem": "stat-break",
+              "path": "Prydwen/hsr/assets/icons/break-effect-6890417bdf8b.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        }
+      ]
+    },
+    "recommended-endgame-stats": {
+      "label": "Recommended endgame stats",
+      "sections": [
+        {
+          "heading": "Recommended endgame stats",
+          "text": "HP: 2600+\n\n SPD: 157\n There are many SPD breakpoints for Firefly, either tuned to her Complete Combustion timer or Action Value cutoff in endgame modes. Sometimes her Complete Combustion timer may be reset during Memory of Chaos Wave Changes, and your team may include Action Advances which further complicates her SPD setup.\n\n The SPD we recommend is tuned for Anomaly Arbitration where her Combustion timer delay will (almost) always take effect. You can also just build as much SPD as possible, but keep in mind that sometimes intentionally letting Firefly take a turn right after Complete Combustion ends can be beneficial for maintaining her SPD buff.\n\n Other SPD breakpoint to consider: 178.4 (Memory of Chaos)\n\n Break Effect: 300%",
+          "assets": []
+        }
+      ]
+    },
+    "traces-priority": {
+      "label": "Traces priority",
+      "sections": [
+        {
+          "heading": "Traces priority",
+          "text": "Skills priority: Ultimate > Skill = Talent > Basic\n\n Major Traces priority: Module Î±: Antilag Outburst (A2) > Module Î²: Autoreactive Armor (A4) > Module Î³: Core Overload (A6)",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "The Dahlia - The Dahlia fixes all of Firefly's weaknesses at E0: her inability to deal with inflated Toughness bars, Skill Point economy, Ultimate downtime. Her Zone allows Firefly to deal Super Break DMG against enemies not Weakness Broken, including enemies with Toughness Lock mechanics where Firefly was previously powerless against. The Dahlia can restore Skill Points via her Follow-up ATK and be played Skill Point positive using her Basic ATK, or also spam her Skill with E1 Firefly for more Toughness Reduction. Lastly, she can increase Firefly's SPD by 30% and refund 10% Energy per Enhanced Skill. With 4 refunds and her Skill restoring 60% fixed Energy, Firefly can immediately re-enter her Ultimate state with no downtime.\n Ruan Mei - Ruan Mei's teamwide Weakness Break Efficiency buffs causes enemies to be broken much faster, and directly increases DMG dealt by Super Breaks. Her Ultimate can extend enemies' Weakness Broken states, allowing for longer burst windows, on top of the RES PEN buffs provided, and her teamwide SPD and Break Effect buffs can also make gearing easier on Firefly.\n Tingyun • Fugue - Can provide other allies (such as Lingsha) with her Foxian Prayer for the Weakness Type ignore, since Firefly already has this effect built into her kit. She increases all allies' Break Effect and Super Break multipliers, applies Exo-Toughness to all enemies, providing an extra Break DMG instance which is a nice burst of DMG, and is useful for triggering Firefly's Eidolon 2 effect.\n Trailblazer • Harmony - Free unit with Eidolon 6 accesible after Penacony exploration. Provides the team with increased Super Break multipliers and Break Effect. With Eidolon 6, the Trailblazer can recover Ultimate very quickly on Energy Rope, which can enable Action Advance spam via the Dance! Dance! Dance! Light Cone.\n Lingsha - Premium sustain for Break teams. Lingsha can increase enemies' Break DMG Taken by 25%, and is capable of dishing out high AoE Toughness DMG together with Firefly's Weakness Implant. Altough with E0 Firefly, who is notoriously known for being Skill Point hungry, the team may need careful planning around the Skill Point economy, and Lingsha loses effectiveness when not consistently using her Skill.\n Gallagher - Strong F2P sustain for any team, and especially for Break teams. Gallagher is known for his high Single-Target Toughness DMG, and for his ability to generate the most Skill Points as a sustain - which is much needed for E0 Firefly.",
+          "assets": [
+            {
+              "id": "cec6f11ca61e",
+              "sourceHash": "cec6f11ca61e",
+              "kind": "characters",
+              "name": "The Dahlia",
+              "fileStem": "the-dahlia-icon",
+              "path": "Prydwen/hsr/assets/characters/the-dahlia-cec6f11ca61e.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "b77207bce6c8",
+              "sourceHash": "b77207bce6c8",
+              "kind": "characters",
+              "name": "Ruan Mei",
+              "fileStem": "ruan-mei-icon",
+              "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "444d6f5749b7",
+              "sourceHash": "444d6f5749b7",
+              "kind": "characters",
+              "name": "Tingyun • Fugue",
+              "fileStem": "tingyun-fugue-icon",
+              "path": "Prydwen/hsr/assets/characters/tingyun-fugue-444d6f5749b7.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "de41e1704266",
+              "sourceHash": "de41e1704266",
+              "kind": "characters",
+              "name": "Trailblazer • Harmony",
+              "fileStem": "trailblazer-harmony-icon",
+              "path": "Prydwen/hsr/assets/characters/trailblazer-harmony-de41e1704266.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "ab0724067e0c",
+              "sourceHash": "ab0724067e0c",
+              "kind": "characters",
+              "name": "Lingsha",
+              "fileStem": "lingsha-icon",
+              "path": "Prydwen/hsr/assets/characters/lingsha-ab0724067e0c.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "30d074a1060a",
+              "sourceHash": "30d074a1060a",
+              "kind": "characters",
+              "name": "Gallagher",
+              "fileStem": "gallagher-icon",
+              "path": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp",
+              "width": 45,
+              "height": 45
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Firefly Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Firefly\n Firefly Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Firefly from HSR (Honkai: Star Rail). Firefly is a 5 ★ character from the Fire element who follows the Path of Destruction .\n A member of the Stellaron Hunters and a young girl clad in a mechanical armor \"SAM.\" Born as a weapon, she's afflicted with the agony of Entropy Loss Syndrome due to genetic modification. She joined the Stellaron Hunters in search of the meaning of life, relentlessly pursuing ways to defy fate.\n\n To learn more about Firefly check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Firefly has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 4.2\n\n Last major build/calcs update\n Patch 4.2\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Firefly check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Order: Flare Propulsion\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Fire DMG equal to #1[i]% of SAM's ATK to a single target enemy.\n Basic ATK (Enhanced)\n Fyrefly Type-IV: Pyrogenic Decimation\n Single Target\n\n Lv. 1\n\n Energy gain: 0\n Break: 15\n\n Restores HP by an amount equal to 20% of this unit's Max HP. Deals Fire DMG equal to #1[i]% of SAM's ATK to one designated enemy target\n\n Skill\n Order: Aerial Bombardment\n Single Target\n\n Lv. 1\n\n Energy gain: 0\n Break: 20\n\n Consumes HP equal to 40% of this unit's Max HP and regenerates a fixed amount of Energy equal to #2[i]% of this unit's Max Energy. Deals Fire DMG equal to #1[i]% of SAM's ATK to one designated enemy target. If the current HP is not sufficient, reduces SAM's HP to 1 when using this Skill. Advances this unit's next Action by 25%.\n Skill (Enhanced)\n Fyrefly Type-IV: Deathstar Overload\n Blast\n\n Lv. 1\n\n Energy gain: 0\n Break: 30 + 15 adjacent\n\n Restores HP by an amount equal to 25% of this unit's Max HP. Adds Fire Weakness to one designated enemy target and its adjacent targets, lasting for 2 turns. Deals Fire DMG equal to (0.2 × Break Effect + #1[i]%) of SAM's ATK to this target. At the same time, deals Fire DMG equal to (0.1 × Break Effect + #2[i]%) of SAM's ATK to adjacent targets. The Break Effect taken into the calculation is capped at 360%.\n\n Ultimate\n Fyrefly Type-IV: Complete Combustion\n Enhance | 240 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: -\n\n Enters the Complete Combustion state, advances this unit's Action by 100%, and gains Enhanced Basic ATK and Enhanced Skill. While in Complete Combustion, increases SPD by #1[i], and when using the Enhanced Basic ATK or Enhanced Skill, increases this unit's Weakness Break Efficiency by 50% and increases the Break DMG dealt by SAM to the enemy targets by #2[i]%, lasting until this current attack ends.\nA countdown timer for the Complete Combustion state appears in the Action Order. When the countdown timer's turn starts, SAM exits the Complete Combustion state. The countdown timer has a fixed SPD of 70.\nSAM cannot use Ultimate while in Complete Combustion.\n\n Talent\n Chrysalid Pyronexus\n Defense\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n The lower the HP, the less DMG received. When HP is 20% or lower, the DMG Reduction reaches its maximum effect, reducing up to #1[i]%. During the Complete Combustion, the DMG Reduction remains at its maximum effect, and the Effect RES increases by #2[i]%.\nIf Energy is lower than 50% when the battle starts, regenerates Energy to 50%. Once Energy is regenerated to its maximum, dispels all debuffs on this unit.\n\n Technique\n Δ Order: Meteoric Incineration\n Support\n\n Energy gain: 0\n Break: 20\n\n Leaps into the air and moves about freely for 5 seconds, which can be ended early by launching a plunging attack. When the duration ends, plunges and immediately attacks all enemies within a set area. At the start of each wave, applies a Fire Weakness to all enemies, lasting for 2 turn(s). Then, deals Fire DMG equal to 200% of SAM's ATK to all enemies.\n\n Major Traces\n A2 Major trace\n Module α: Antilag Outburst\n\n While in the Complete Combustion state, SAM's Break Effect increases by 25% . When using Enhanced Basic ATK or Enhanced Skill to inflict Weakness Break on a target, the Complete Combustion countdown is delayed by 10% . This effect can trigger a maximum of 3 time(s) during each Complete Combustion state.\n\n A4 Major trace\n Module β: Autoreactive Armor\n\n When SAM is in Complete Combustion with a Break Effect that is equal to or greater than 150%/300% , attacking a Weakness-Broken enemy target will convert the Toughness Reduction of this attack into 1 instance of 100%/150% Super Break DMG.\n\n A6 Major trace\n Module γ: Core Overload\n\n For every 10 point(s) of SAM's ATK that exceeds 1800 , increases this unit's Break Effect by 0.8% .\n\n Minor Traces (total)\n Break Effect\n + 37.3%\n\n Speed\n + 5\n\n Effect RES\n + 18%\n\n Eidolons\n E 1\n In Reddened Chrysalis, I Once Rest\n Eidolon 1\n\n When using the Enhanced Skill, ignores 15% of the target's DEF. The Enhanced Skill does not consume Skill Points.\n\n E 2\n From Shattered Sky, I Free Fall\n Eidolon 2\n\n While in the Complete Combustion state, using the Enhanced Basic ATK or the Enhanced Skill to defeat an enemy target or to Break their Weakness allows SAM to immediately gain 1 extra turn.\n This effect can only trigger 1 time per turn, and the trigger count resets at the start of SAM's turn.\n\n E 3\n Amidst Silenced Stars, I Deep Sleep\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Upon Lighted Fyrefly, I Soon Gaze\n Eidolon 4\n\n While in Complete Combustion, increases SAM's Effect RES by 50% .\n\n E 5\n From Undreamt Night, I Thence Shine\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n In Finalized Morrow, I Full Bloom\n Eidolon 6\n\n While in Complete Combustion, increases SAM's Fire RES PEN by 20% . When using the Enhanced Basic ATK or Enhanced Skill, increases Weakness Break Efficiency by 50% .\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 814\n\n ATK\n\n 523\n\n DEF\n\n 776\n\n Speed\n\n 104\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 308000\n\n Tatters of Thought\n\n x 15\n\n Fragments of Impression\n\n x 15\n\n Raging Heart\n\n x 65\n\n Shards of Desires\n\n x 15\n\n CV\n ENG\n Analesa Fisher & Adin Rudd\n\n JPN\n Kusunoki Tomori (楠木ともり) & Kasama Jun (笠間淳)\n\n CN\n Song Yuanyuan (宋媛媛) & Gan Ziqi (淦子齐)\n\n KR\n Yu Hye-ji (유혜지) & Jang Seo-hwa (장서화)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Great Super Break DPS,\n\n Constantly Implants Fire Weakness in multiple enemies at a time,\n\n Very high natural Toughness damage,\n\n Very high natural durability allows for easier sustainless comps,\n\n Very speedy character with built in SPD boosts and Action Advances,\n\n Completely self-sufficient when it comes to her own Energy economy,\n\n Very accessible low cost team with the Harmony TB, Ruan Mei, and Gallagher.\n\n Cons\n Premium team is a colossal upgrade,\n\n Burns through SP extremely quickly,\n\n The Dahlia is near mandatory for modern Toughness bar values,\n\n Requires very high stat investment to reach her peak,\n\n Skipped the queue smh my head.\n\n Review (By Sushou)\n [Overview]\n Firefly is a Destruction Superbreak main DPS with the ability to Implant Fire Weakness onto her enemies. She is extremely fast acting, and has a strong self-sufficient Energy loop to enter her Enhanced state through her Ultimate. She deals high amounts of Super Break DMG to Weakness Broken foes, and can extend her Enhanced state by Breaking foes. She is also inordinately durable, possessing very high persistent damage reduction and Effect RES, and even heals herself whenever she attacks in her Enhanced state.\n [Intro]\n The black swan of this round of Novaflares (no not that Black Swan, she was last round), I don't think anyone really expected an already top performing DPS to be getting buffed, but here we are.\n I really want to say that the buffs has fixed all of Firefly's issues, but not all of them have been, and maybe even a new issue has shown up. It's not like a real issue, it's kinda fake actually, but it is something that can mess with some peoples' old setups for Firefly.\n She was already strong when she got a new teammate that literally revived the archetype, and now she's getting buffed again.\n Curious.\n [Abilities]\n Firefly has an Enhanced state that is entered with her Ultimate, and she is strongest within that state. Using her Ultimate will enter the Complete Combustion state, advancing Firefly's action by 100%.\n In Complete Combustion, her Basic ATK and Skill are Enhanced, her SPD is increased by 60, and she gets an extra 50% Weakness Break Efficiency when attacking, while also increasing the Break DMG enemies receive from her by 20%.\n A countdown timer for the Complete Combustion state appears on the Action Order with a fixed SPD of 70. Once this passes, Firefly will exit the Complete Combustion state automatically. She cannot use her Ultimate before the countdown is finished, so you can't stay in the Ultimate permanently.\n Her regular Skill will consume 40% of Firefly's Max HP and attack a single enemy for 200% ATK. This attack will also regenerate 60% of Firefly's Max Energy, and will Advance her next action by 25%. This is what helps Firefly to get back into her Enhanced state as quickly as possible, and the massive percentage Energy restore means that at worst, it will only take her 2 turns to re-enter her Ultimate.\n Due to Firefly's Ultimate costing an insane 240 Energy, it's unlikely that she will be able to have enough Energy restored for a 1 turn re-entry without specific teammates like The Dahlia to help her out.\n The Enhanced Skill completely changes its tune though. Attacking will restore 25% Max HP to Firefly. This is now a Blast AoE that applies a Fire Weakness to the enemies that you hit for 2 turns. Then it deals DMG equal to (0.2 x Break Effect + 200% ATK) to the primary target, dealing half the amount to the adjacent foes.\n Despite how awful that looks, it really is fairly meaningless. This isn't where the real damage is from at all, we need to wait until the Bonus Traces for that, so you can safely ignore this.\n Firefly's Talent will grant her damage reduction based on how low her HP is. When her HP is at 20% of lower, she will gain the maximum reduction of 40%. During the Complete Combustion state, Firefly is always benefitting from the 40% DMG Reduction, and will additionally gain 30% Effect RES.\n When entering combat, if Firefly's Energy is less than 50%, it will be set to 50%, and when her Energy reaches 100%, all debuffs currently on Firefly will be removed. This starting Energy allows Firefly to enter her Ultimate after her very first turn thanks to her normal Skill restoring 60% Max Energy. The debuff cleanse is great but it'll come up so infrequently due to Firefly's own good Energy economy, and there's also nothing stopping you from getting afflicted by debuffs after the initial cleanse goes off, so just ignore this line for the most part, I say.\n Due to the SPD boost provided by the Complete Combustion state, it's pretty effortless to reach over 200 effective SPD in combat, made even easier if you have Firefly's premium teammates.\n Maintaining the gameplay loop for Firefly is quite easy and intuitive.\n [Bonus Traces]\n A2 has received a bit of a revamp due to Firefly actually being able to apply Fire Weakness in a limited AoE now, so the old 55% Break Efficiency for non Fire-Weak foes is redundant.\n Instead, Firefly gets a 25% Break Effect boost during Complete Combustion, and Breaking an enemy with her Enhanced Basic or Enhanced Skill will cause the Complete Combustion countdown (the one in the Action Order) to be delayed by 10%. This can trigger up to 3 times in one Complete Combustion cycle.\n This is what I was alluding to by a new 'fake' issue. There are rotations where it's important for Firefly to be able to leave the Complete Combustion state, use a normal Skill (that under the right circumstances deals some good damage too), and then immediately re-enter the Complete Combustion state. This advances you by 100% and so you get an immediate Enhanced Skill again.\n Delaying the countdown timer can prevent this from happening, and in those specific cases, now you'd actually lose the 'free' unenhanced Skill. In general though, this simply doesn't matter, especially for the overwhelming majority of people, and trying to account for this without being very familiar with SPD mechanics will probably just cause more issues and headache. Maintaining the extra 60 SPD from the Enhanced state for longer is generally just fine.\n A4 has been turbo buffed. Previously, this would grant 35% Super Break DMG against Broken foes if you had 200% Break Effect, rising to 50% Super Break DMG if you had at least 360% Break Effect. Unsurprisingly this completely sucked and is nothing short of insulting for a supposed Super Break focused DPS to have.\n Rest easy because the Super Break DMG values have been increased massively, now providing 100% Super Break DMG at the first threshold, and 150% Super Break DMG at the second one. Damn, imagine being competent at the one thing you do. This was why people were so up in arms about it on her release, because she literally wasn't functional without the Harmony Trailblazer's assistance.\n The thresholds for reaching these Super Break bonuses have also been lowered to 150% and 300% respectively, making them much more accessible for the majority of people without having to sacrifice other luxuries like SPD.\n The ATK is for the A6, by the way. Top segue. For every 10 points of ATK that exceeds 1800, you gain 0.8% Break Effect. This, amusingly enough, hasn't got an upper limit to it. Yeah, this just... goes on and on if you can keep pumping ATK.\n 100 ATK is 8% Break Effect, slightly nicer numbers (c'mon devs, you didn't think to put it in integer form, what are you twelve?) and this is going to be a big way that you reach the upper threshold for the A4. It also means that any outside sources of ATK and ATK% can actually be surprisingly good for Firefly, even if those sources don't otherwise provide Break Effect up front (achoo *Bronya*).\n Minor Traces are also pretty good, even more Effect RES is kind of whatever, but the extra Break Effect to get to the threshold is great. 5 SPD is 5 SPD.\n [Eidolons]\n The usual disclaimer about Eidolons here. As an older unit it's not too surprising for people to have Eidolons, especially since she's a favourite and has had a couple reruns now.\n E1 is unchanged. Using the Enhanced Skill against enemies will ignore 15% of the targets' DEF, and the Enhanced Skill will no longer consume Skill Points. Great to have, both effects are great for damage and quality of life.\n E2 has been... Let me check my notes real quick... THEY BUFFED THIS??? Completely inexplicably, might I add. This was already her best Eidolon given what it did and how early it was.\n It's the same as before, using Enhanced Skill or Enhanced Basic to defeat an enemy or to Break them will grant Firefly 1 extra turn, and this had a 1 turn cooldown, so you couldn't use it on repeat. That limitation is now gone. Yeah. So now you can gain that extra turn on EVERY turn. Hey at least it's still limited to one extra turn per turn or we'd really be in trouble, wouldn't we?\n Incomprehensible, may god have mercy on your wretched soul.\n E4 is unchanged, granting a bonus 50% Effect RES during Complete Combustion, making you functionally un-debuffable.\n E6 is also unchanged, granting 20% Fire RES PEN during the Enhanced state, and providing a further 50% Weakness Break Efficiency boost to the Enhanced Basic and Enhanced Skill.\n [The Rest]\n Going into it, I thought that I'd probably have the least to say about Firefly out of all the characters, and now that I'm here, I can see that I was absolutely right about that.\n She's already a top performer, I'm still somewhat baffled by the decision to Novaflare her... Is what I would say if her A4 Trace wasn't hot garbage before this update to her. Seriously, how that thing made it through playtesting is beyond me, and now finally Firefly is able to be unbound from the necessity of playing with another source of Super Break.\n Just in time for sustainless Firefly teams to become pretty widespread. Missing the mark yet again, eh? Well, better for us I guess, having both Fugue and the Harmony Trailblazer on the same team as Constance and Firefly is nothing short of nuclear, with these buffs especially. Enemies can't hurt you if they're a cwispy cwater now can they?\n Aside from that, the overall team hasn't changed pretty much at all. Either you have The Dahlia, or you're not running Super Break. The environment without Constance just doesn't really allow for Super Break to function without her. It wasn't really that long ago that this archetype was literally dead in a ditch, so don't go using the Firefly Novaflare as an excuse to run weird stuff.\n ... But since you're here, let's talk about Bronya. Hey! Hey, sit down! Listen, Bronya gives Firefly additional actions, and also gives her a decent ATK boost through her Ultimate (even if it only lasts a couple turns)... Okay a big part of it is because of that Battle Pass Harmony Light Cone that increases the team's Break DMG dealt, but DDD is fine too, you know?\n This is definitely a Pure Fiction only strategy, and it's not really something I'd recommend for an E0 Firefly unless your Bronya already has a few Eidolons in her, but if you have at least an E2 Firefly and your Enhanced Skills don't cost SP anymore, and you get the extra turns to kill things even faster... Hey, it's there, and it's pretty cool. The delicate balancing act of advancing Bronya just enough to line her up with Firefly gets me all giddy, but I'm a wacko who enjoys SPD discussions for fun.\n If you want to be safer and go with a sustain, your only two real options are Gallagher and Lingsha, though they're also somewhat improved by Firefly's improved Weakness Implanting from this Novaflare. Ruan Mei can be a good middle ground, offering some offensive and defensive value, and she's also pretty accessible since she's in the 5-star shop.\n Oh, and since you can save the Trailblazer's Path per team preset, you can switch between your Break and non-Break setups much more easily. Just remember that the Remembrance Trailblazer is peak design and hotly contested, and the Elation Trailblazer just showed up to the archetype that's currently being shilled (and will likely continue to be shilled), so maybe make a preset that doesn't rely on having the Harmony Trailblazer in it. I know how hard it is to give up DDD, but you may need to consider it depending on what the endgame boss line-up looks like.\n Firefull Flyshine, indeed.\n [Wrap up]\n If you're looking to get into Break and you've got the pieces but never quite experimented with them, now would be the time to do that. The team is highly competitive, and even has preferable matchups into a lot of the unpleasant Bosses.\n This team also has a pretty good time brute-forcing content thanks to The Dahlia's whole 'You should take Super Break DMG, NOW!' thing she has going on, so the full premium team is gonna stick around for quite a while I reckon.\n If you don't have all of these constituent parts, then it's the same story as always, you should get the important supports first (this is a thinly veiled way of saying that you get The Dahlia first and foremost), and hold off until you have the full ensemble. Three copies of Exodia's Left Leg aren't gonna really accomplish much, and to add to that, even though these are some great changes for Firefly, she still isn't quite on the same sort of level as the capital M 'Mistake' characters, like a certain pink-haired jellyfish, so how far you could push it into the future is entirely dependent on your own investment into Firefly.\n For now, at the very least, it's way more than enough, so for the Firefly havers (and especially the E2 havers), congratulations! You had enough foresight to choose one of the devs' favourites.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Damage dealer\n T0\n MoC\n\n T0.5\n PF\n\n T0\n AS\n\n Build and teams\n\n Best Light Cones\n\n 117.76%\n\n Whereabouts Should Dreams Rest (S 1 )\n\n Firefly's signature offers her a tremendous 60% Break Effect and a 24% damage taken debuff that multiplies all of her Break damage. Both of these are ideal for amplifying Firefly's damage but aren't something she cannot get elsewhere from the rest of her team. Break Effect can be acquired from her relics and teammates and as for the damage-taken debuff, she already has one that stacks additively with the Cone attached to her ultimate and Gallagher's damage-taken debuff also stacks additively with this as well. The combination of these facts means that while this Cone amplifies Firefly's personal damage fairly well, its value can drop off depending on which teammates you decide to pair with her.\n Usage: 73.09 %\n MoC: 7.63 cyc.\n PF: 28168\n AS: 3468\n\n 115.57%\n\n Thus Burns the Dawn (S 1 )\n\n Phainon's signature is an incredible alternative, offering 12 Base SPD increase, 687 Base ATK which is the highest in the game and can be converted to Break Effect via Firefly's Traces, and a permanent 18% DEF ignore on all attacks, which can also affect Break DMG. Strong option even without utilizing the 60% DMG buff (which does not affect Super Break regardless), Make sure to not overcap on DEF Reduction past 100%.\n Usage: 3.3 %\n MoC: 8 cyc.\n PF: 28464\n AS: 3457\n\n 100%\n\n On the Fall of an Aeon (S 5 )\n\n Best free-to-play option for Firefly, offering up an incredible amount of ATK% and a strong amount of base ATK resulting in a sizable amount of Break Effect from her bonus ability as a result. The raw Break Effect gained thanks to her conversion is enough to make this Cone a strong option if you're not in the market for going for her Signature, especially if you make up for some of the lost damage multipliers through effective use of team building (you can gain damage taken multiplier similar to the one on the Signature from Gallagher shrinking the gap between the two Cones).\n Usage: 21.89 %\n MoC: 8.71 cyc.\n PF: 26921\n AS: 3431\n\n 98.14%\n\n Indelible Promise (S 5 )\n\n An option for those who do not have Fall of An Aeon S5 available either due to it being used on another character or still waiting in the Herta's Shop (you should get on that for Firefly's sake!)\n Usage: 1.29 %\n MoC: 9.14 cyc.\n PF: 24120\n AS: 3377\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n Iron Cavalry Against the Scourge ( 4 -PC)\n\n Best and most consistent set for Firefly by a significant margin, granting her BREAK EFFECT% but more importantly DEF SHRED for her Break and Super Breaks. As a break-focused character, stats that boost that damage are rare making DEF SHRED absurdly valuable for her.\n Usage: 99.79 %\n MoC: 7.88 cyc.\n PF: 27587\n AS: 3454\n\n 90.87%\n\n Thief of Shooting Meteor ( 4 -PC)\n\n A much weaker alternative to Cavalry.\n\n Best Planetary Sets\n 100%\n\n Forge of the Kalpagni Lantern ( 2 -PC)\n\n Best Planar Set for Firefly, offering her some much-appreciated Speed so she can reach the desired Speed breakpoint easier and tremendous amount of Break Effect on top of that.\n Usage: 99.32 %\n MoC: 7.88 cyc.\n PF: 27587\n AS: 3455\n\n 96.77%\n\n Talia: Kingdom of Banditry ( 2 -PC)\n\n A reasonable alternative to Forge of Kalpagni with a similar Break% but no Speed bonus. If you've already got Speed covered and aren't looking for more this set isn't much of a downgrade.\n Usage: 0.31 %\n MoC: 9 cyc.\n PF: 0\n AS: 3372\n\n Best Stats\n\n Body\n ATK%\n\n Feet\n Speed\n\n Planar Sphere\n ATK%\n\n Link Rope\n Break Effect\n\n Substats: SPD (Until Breakpoint) > Break Effect% > ATK%\n\n Stack Speed until you have enough to achieve Firefly's 210 Speed goal (or higher if you're aiming for 0 cycles) while fully buffed in combat, then stack Break Effect wherever possible while picking up any ATK% you can here and there for additional benefits.\n\n Recommended endgame stats\n HP: 2600+\n\n SPD: 157\n There are many SPD breakpoints for Firefly, either tuned to her Complete Combustion timer or Action Value cutoff in endgame modes. Sometimes her Complete Combustion timer may be reset during Memory of Chaos Wave Changes, and your team may include Action Advances which further complicates her SPD setup.\n\n The SPD we recommend is tuned for Anomaly Arbitration where her Combustion timer delay will (almost) always take effect. You can also just build as much SPD as possible, but keep in mind that sometimes intentionally letting Firefly take a turn right after Complete Combustion ends can be beneficial for maintaining her SPD buff.\n\n Other SPD breakpoint to consider: 178.4 (Memory of Chaos)\n\n Break Effect: 300%\n\n Traces priority\n Skills priority: Ultimate > Skill = Talent > Basic\n\n Major Traces priority: Module Î±: Antilag Outburst (A2) > Module Î²: Autoreactive Armor (A4) > Module Î³: Core Overload (A6)\n\n Synergy\n The Dahlia - The Dahlia fixes all of Firefly's weaknesses at E0: her inability to deal with inflated Toughness bars, Skill Point economy, Ultimate downtime. Her Zone allows Firefly to deal Super Break DMG against enemies not Weakness Broken, including enemies with Toughness Lock mechanics where Firefly was previously powerless against. The Dahlia can restore Skill Points via her Follow-up ATK and be played Skill Point positive using her Basic ATK, or also spam her Skill with E1 Firefly for more Toughness Reduction. Lastly, she can increase Firefly's SPD by 30% and refund 10% Energy per Enhanced Skill. With 4 refunds and her Skill restoring 60% fixed Energy, Firefly can immediately re-enter her Ultimate state with no downtime.\n Ruan Mei - Ruan Mei's teamwide Weakness Break Efficiency buffs causes enemies to be broken much faster, and directly increases DMG dealt by Super Breaks. Her Ultimate can extend enemies' Weakness Broken states, allowing for longer burst windows, on top of the RES PEN buffs provided, and her teamwide SPD and Break Effect buffs can also make gearing easier on Firefly.\n Tingyun • Fugue - Can provide other allies (such as Lingsha) with her Foxian Prayer for the Weakness Type ignore, since Firefly already has this effect built into her kit. She increases all allies' Break Effect and Super Break multipliers, applies Exo-Toughness to all enemies, providing an extra Break DMG instance which is a nice burst of DMG, and is useful for triggering Firefly's Eidolon 2 effect.\n Trailblazer • Harmony - Free unit with Eidolon 6 accesible after Penacony exploration. Provides the team with increased Super Break multipliers and Break Effect. With Eidolon 6, the Trailblazer can recover Ultimate very quickly on Energy Rope, which can enable Action Advance spam via the Dance! Dance! Dance! Light Cone.\n Lingsha - Premium sustain for Break teams. Lingsha can increase enemies' Break DMG Taken by 25%, and is capable of dishing out high AoE Toughness DMG together with Firefly's Weakness Implant. Altough with E0 Firefly, who is notoriously known for being Skill Point hungry, the team may need careful planning around the Skill Point economy, and Lingsha loses effectiveness when not consistently using her Skill.\n Gallagher - Strong F2P sustain for any team, and especially for Break teams. Gallagher is known for his high Single-Target Toughness DMG, and for his ability to generate the most Skill Points as a sustain - which is much needed for E0 Firefly.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 4\n App. rate: 11.6 %\n Avg. cycles : 8.09\n Avg. cycles (E1+): 4.97\n\n Rank 8\n App. rate: 5.74 %\n Avg. cycles : 6.58\n Avg. cycles (E1+): 3.32\n\n Rank 12\n App. rate: 3.58 %\n Avg. cycles : 8.48\n Avg. cycles (E1+): 6.48\n\n Rank 13\n App. rate: 3.28 %\n Avg. cycles : 5.17\n Avg. cycles (E1+): 1.93\n\n Rank 17\n App. rate: 1.7 %\n Avg. cycles : 6\n Avg. cycles (E1+): 4.21\n\n Rank 27\n App. rate: 0.97 %\n Avg. cycles : 8.16\n Avg. cycles (E1+): 6.06\n\n Rank 29\n App. rate: 0.93 %\n Avg. cycles : 8.43\n Avg. cycles (E1+): 7.04\n\n Rank 43\n App. rate: 0.51 %\n Avg. cycles : 8.4\n Avg. cycles (E1+): 7.11\n\n Rank 45\n App. rate: 0.48 %\n Avg. cycles : 9\n Avg. cycles (E1+): 7.74\n\n Rank 53\n App. rate: 0.39 %\n Avg. cycles : 5\n Avg. cycles (E1+): 0.77\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

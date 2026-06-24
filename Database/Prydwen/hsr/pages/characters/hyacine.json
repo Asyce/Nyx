@@ -1,0 +1,1642 @@
+{
+  "id": "characters:hyacine",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "hyacine",
+  "name": "Hyacine",
+  "title": "Hyacine Best Build Guide",
+  "sourcePath": "/star-rail/characters/hyacine",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "31/May/2026",
+  "meta": {
+    "title": "Hyacine Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Wind",
+    "path": "Remembrance"
+  },
+  "assets": [
+    {
+      "id": "1e9a0fafaf7c",
+      "sourceHash": "1e9a0fafaf7c",
+      "kind": "characters",
+      "name": "Hyacine",
+      "fileStem": "hyacine-card",
+      "path": "Prydwen/hsr/assets/characters/hyacine-1e9a0fafaf7c.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "96654253a4f7",
+      "sourceHash": "96654253a4f7",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "087f2dec68b6",
+      "sourceHash": "087f2dec68b6",
+      "kind": "icons",
+      "name": "Speed",
+      "fileStem": "stat-speed",
+      "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "9db79c7ddbf7",
+      "sourceHash": "9db79c7ddbf7",
+      "kind": "icons",
+      "name": "Effect RES",
+      "fileStem": "stat-effectres",
+      "path": "Prydwen/hsr/assets/icons/effect-res-9db79c7ddbf7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "dc6aec4a7776",
+      "sourceHash": "dc6aec4a7776",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "a6be649090ba",
+      "sourceHash": "a6be649090ba",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "50d0e755383a",
+      "sourceHash": "50d0e755383a",
+      "kind": "items",
+      "name": "Credit",
+      "fileStem": "credit",
+      "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "2649302b2177",
+      "sourceHash": "2649302b2177",
+      "kind": "items",
+      "name": "Fear-Stomped Flesh",
+      "fileStem": "fear-stomped-flesh",
+      "path": "Prydwen/hsr/assets/items/fear-stomped-flesh-2649302b2177.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "bd0c01055352",
+      "sourceHash": "bd0c01055352",
+      "kind": "items",
+      "name": "Courage-Torn Chest",
+      "fileStem": "courage-torn-chest",
+      "path": "Prydwen/hsr/assets/items/courage-torn-chest-bd0c01055352.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "9854abdc3380",
+      "sourceHash": "9854abdc3380",
+      "kind": "items",
+      "name": "A Glass of the Besotted Era",
+      "fileStem": "a-glass-of-the-besotted-era",
+      "path": "Prydwen/hsr/assets/items/a-glass-of-the-besotted-era-9854abdc3380.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "8b0d54e34ba4",
+      "sourceHash": "8b0d54e34ba4",
+      "kind": "items",
+      "name": "Glory-Aspersed Torso",
+      "fileStem": "glory-aspersed-torso",
+      "path": "Prydwen/hsr/assets/items/glory-aspersed-torso-8b0d54e34ba4.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "7a76e3deaee9",
+      "sourceHash": "7a76e3deaee9",
+      "kind": "characters",
+      "name": "Hyacine",
+      "fileStem": "hyacine-full",
+      "path": "Prydwen/hsr/assets/characters/hyacine-7a76e3deaee9.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "b2a862506882",
+      "sourceHash": "b2a862506882",
+      "kind": "light-cones",
+      "name": "Long May Rainbows Adorn the Sky",
+      "fileStem": "long-may-rainbows-adorn-the-sky",
+      "path": "Prydwen/hsr/assets/light-cones/long-may-rainbows-adorn-the-sky-b2a862506882.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "de9d54f233b5",
+      "sourceHash": "de9d54f233b5",
+      "kind": "light-cones",
+      "name": "Memory's Curtain Never Falls",
+      "fileStem": "memorys-curtain-never-falls",
+      "path": "Prydwen/hsr/assets/light-cones/memorys-curtain-never-falls-de9d54f233b5.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "b6cb0c99005d",
+      "sourceHash": "b6cb0c99005d",
+      "kind": "light-cones",
+      "name": "The Story's Next Page",
+      "fileStem": "the-storys-next-page",
+      "path": "Prydwen/hsr/assets/light-cones/the-storys-next-page-b6cb0c99005d.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "2f8ec1684b6b",
+      "sourceHash": "2f8ec1684b6b",
+      "kind": "relics",
+      "name": "Warrior Goddess of Sun and Thunder",
+      "fileStem": "warrior-goddess-of-sun-and-thunder",
+      "path": "Prydwen/hsr/assets/relics/warrior-goddess-of-sun-and-thunder-2f8ec1684b6b.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "4cb8065ad660",
+      "sourceHash": "4cb8065ad660",
+      "kind": "relics",
+      "name": "Messenger Traversing Hackerspace",
+      "fileStem": "messenger-traversing-hackerspace",
+      "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5cb190fcc346",
+      "sourceHash": "5cb190fcc346",
+      "kind": "relics",
+      "name": "Sacerdos' Relived Ordeal",
+      "fileStem": "sacerdos-relived-ordeal",
+      "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "19b06ffee878",
+      "sourceHash": "19b06ffee878",
+      "kind": "relics",
+      "name": "Diviner of Distant Reach",
+      "fileStem": "diviner-of-distant-reach",
+      "path": "Prydwen/hsr/assets/relics/diviner-of-distant-reach-19b06ffee878.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "c13bc696f36c",
+      "sourceHash": "c13bc696f36c",
+      "kind": "relics",
+      "name": "Giant Tree of Rapt Brooding",
+      "fileStem": "giant-tree-of-rapt-brooding",
+      "path": "Prydwen/hsr/assets/relics/giant-tree-of-rapt-brooding-c13bc696f36c.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d6aae5028c5a",
+      "sourceHash": "d6aae5028c5a",
+      "kind": "relics",
+      "name": "Lushaka, the Sunken Seas",
+      "fileStem": "lushaka-the-sunken-seas",
+      "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d6cdb5f16b16",
+      "sourceHash": "d6cdb5f16b16",
+      "kind": "relics",
+      "name": "Penacony, Land of the Dreams",
+      "fileStem": "penacony-land-of-the-dreams",
+      "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "3306e6f6288f",
+      "sourceHash": "3306e6f6288f",
+      "kind": "relics",
+      "name": "Broken Keel",
+      "fileStem": "broken-keel",
+      "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "96d628c840c8",
+      "sourceHash": "96d628c840c8",
+      "kind": "icons",
+      "name": "Outgoing Healing",
+      "fileStem": "stat-healing",
+      "path": "Prydwen/hsr/assets/icons/outgoing-healing-96d628c840c8.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "106ddd8eff32",
+      "sourceHash": "106ddd8eff32",
+      "kind": "icons",
+      "name": "Energy Regen",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "fd3d60695240",
+      "sourceHash": "fd3d60695240",
+      "kind": "characters",
+      "name": "Castorice",
+      "fileStem": "castorice-icon",
+      "path": "Prydwen/hsr/assets/characters/castorice-fd3d60695240.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "e6a5c98adfc4",
+      "sourceHash": "e6a5c98adfc4",
+      "kind": "characters",
+      "name": "March 7th • Evernight",
+      "fileStem": "march-7th-evernight-icon",
+      "path": "Prydwen/hsr/assets/characters/march-7th-evernight-e6a5c98adfc4.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "99361e4717fa",
+      "sourceHash": "99361e4717fa",
+      "kind": "characters",
+      "name": "Mortenax Blade",
+      "fileStem": "blade-mortenax-icon",
+      "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "0e40f16a52d5",
+      "sourceHash": "0e40f16a52d5",
+      "kind": "characters",
+      "name": "Blade",
+      "fileStem": "blade-icon",
+      "path": "Prydwen/hsr/assets/characters/blade-0e40f16a52d5.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "fecc96b9e5e6",
+      "sourceHash": "fecc96b9e5e6",
+      "kind": "characters",
+      "name": "The Herta",
+      "fileStem": "the-herta-icon",
+      "path": "Prydwen/hsr/assets/characters/the-herta-fecc96b9e5e6.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "55d5418dfd9c",
+      "sourceHash": "55d5418dfd9c",
+      "kind": "characters",
+      "name": "Feixiao",
+      "fileStem": "feixiao-icon",
+      "path": "Prydwen/hsr/assets/characters/feixiao-55d5418dfd9c.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "fbcfe4133d08",
+      "sourceHash": "fbcfe4133d08",
+      "kind": "characters",
+      "name": "Acheron",
+      "fileStem": "acheron-icon",
+      "path": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "565914d1a436",
+      "sourceHash": "565914d1a436",
+      "kind": "icons",
+      "name": "Quantum",
+      "fileStem": "ele-quantum",
+      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "7d36eb39792a",
+      "sourceHash": "7d36eb39792a",
+      "kind": "icons",
+      "name": "Ice",
+      "fileStem": "ele-ice",
+      "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "005597837585",
+      "sourceHash": "005597837585",
+      "kind": "characters",
+      "name": "Cyrene",
+      "fileStem": "cyrene-icon",
+      "path": "Prydwen/hsr/assets/characters/cyrene-005597837585.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1d90270b2b4b",
+      "sourceHash": "1d90270b2b4b",
+      "kind": "characters",
+      "name": "Hyacine",
+      "fileStem": "hyacine-icon",
+      "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ee11bd390c9a",
+      "sourceHash": "ee11bd390c9a",
+      "kind": "icons",
+      "name": "Wind",
+      "fileStem": "ele-wind",
+      "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "2cde7699adbf",
+      "sourceHash": "2cde7699adbf",
+      "kind": "characters",
+      "name": "Tribbie",
+      "fileStem": "tribbie-icon",
+      "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "f380b4ccce3e",
+      "sourceHash": "f380b4ccce3e",
+      "kind": "characters",
+      "name": "Ashveil",
+      "fileStem": "ashveil-icon",
+      "path": "Prydwen/hsr/assets/characters/ashveil-f380b4ccce3e.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d197456869a0",
+      "sourceHash": "d197456869a0",
+      "kind": "icons",
+      "name": "Lightning",
+      "fileStem": "ele-lightning",
+      "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "92feb26d8f0e",
+      "sourceHash": "92feb26d8f0e",
+      "kind": "icons",
+      "name": "Fire",
+      "fileStem": "ele-fire",
+      "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "f54da6170f38",
+      "sourceHash": "f54da6170f38",
+      "kind": "characters",
+      "name": "Silver Wolf • Lv. 999",
+      "fileStem": "silver-wolf-lv-999-icon",
+      "path": "Prydwen/hsr/assets/characters/silver-wolf-lv-999-f54da6170f38.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "913ff64407f2",
+      "sourceHash": "913ff64407f2",
+      "kind": "icons",
+      "name": "Imaginary",
+      "fileStem": "ele-imaginary",
+      "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "7fc1b269fb6f",
+      "sourceHash": "7fc1b269fb6f",
+      "kind": "characters",
+      "name": "Sparxie",
+      "fileStem": "sparxie-icon",
+      "path": "Prydwen/hsr/assets/characters/sparxie-7fc1b269fb6f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "965df81b835a",
+      "sourceHash": "965df81b835a",
+      "kind": "characters",
+      "name": "Yao Guang",
+      "fileStem": "yao-guang-icon",
+      "path": "Prydwen/hsr/assets/characters/yao-guang-965df81b835a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e0db16ed6c66",
+      "sourceHash": "e0db16ed6c66",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "ele-physical",
+      "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "d3e344772d55",
+      "sourceHash": "d3e344772d55",
+      "kind": "characters",
+      "name": "Trailblazer • Remembrance",
+      "fileStem": "trailblazer-remembrance-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "c721ded1f2e0",
+      "sourceHash": "c721ded1f2e0",
+      "kind": "characters",
+      "name": "Trailblazer • Elation",
+      "fileStem": "trailblazer-elation-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-elation-c721ded1f2e0.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "bc2d64a2cd5f",
+      "sourceHash": "bc2d64a2cd5f",
+      "kind": "characters",
+      "name": "Hysilens",
+      "fileStem": "hysilens-icon",
+      "path": "Prydwen/hsr/assets/characters/hysilens-bc2d64a2cd5f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e01f880a2668",
+      "sourceHash": "e01f880a2668",
+      "kind": "characters",
+      "name": "Black Swan",
+      "fileStem": "black-swan-icon",
+      "path": "Prydwen/hsr/assets/characters/black-swan-e01f880a2668.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "a137ba3e51ff",
+      "sourceHash": "a137ba3e51ff",
+      "kind": "characters",
+      "name": "Kafka",
+      "fileStem": "kafka-icon",
+      "path": "Prydwen/hsr/assets/characters/kafka-a137ba3e51ff.webp",
+      "width": 60,
+      "height": 60
+    }
+  ],
+  "sections": [
+    {
+      "id": "hyacine-best-build-guide-0",
+      "level": 1,
+      "heading": "Hyacine Best Build Guide",
+      "text": "Last updated: 31/May/2026",
+      "assets": [
+        {
+          "id": "1e9a0fafaf7c",
+          "sourceHash": "1e9a0fafaf7c",
+          "kind": "characters",
+          "name": "Hyacine",
+          "fileStem": "hyacine-card",
+          "path": "Prydwen/hsr/assets/characters/hyacine-1e9a0fafaf7c.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Hyacine from HSR (Honkai: Star Rail). Hyacine is a 5 ★ character from the Wind element who follows the Path of Remembrance .\n As the city-state in the clouds crumbles through time, the Twilight Courtyard opens its gates once more, bringing a glimmer of light to Evernight. You, Physician Hyacinthia, Chrysos Heir who guards the Sky Coreflame, must inherit your ancestors' will and mend the torn fabric of dusk and dawn. May the rainbow light pour down, dissolve all grudges, and bring the dawn back to this land.\n\n To learn more about Hyacine check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Hyacine has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 3.2\n\n Last major build/calcs update\n Patch 3.4\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Hyacine check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic ATK\n When Breeze Kisses Cirrus\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Wind DMG equal to #1[i]% of Hyacine's Max HP to one designated enemy.\n\n Skill\n Love Over the Rainbow\n Restore\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Summons memosprite Little Ica, restores HP equal to #1[i]% of Hyacine's Max HP plus #2[i] for all allies aside from Little Ica, and restores HP equal to #3[i]% of Hyacine's Max HP plus #4[i] for Little Ica.\n\n Ultimate\n We Who Fly Into Twilight\n Support | 140 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: -\n\n Summons memosprite Little Ica, restores HP equal to #1[i]% of Hyacine's Max HP plus #2[i] for all allies aside from Little Ica, and restores HP equal to #5[i]% of Hyacine's Max HP plus #6[i] for Little Ica. Hyacine enters the \"After Rain\" state for 3 turn(s) afterward. Reduces the state's duration by 1 turn each time Hyacine's turn begins. When in \"After Rain\" state, increases Max HP for all allies by #3[i]% + #4[i].\n\n Talent\n First Light Heals the World\n Enhance\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n The memosprite Little Ica initially has Max HP equal to 50% of Hyacine's Max HP. When Hyacine or Little Ica provides healing, increases Little Ica's DMG dealt by #1[i]% for 2 turn(s). Stacks up to 3 time(s).\n\n Technique\n Day So Right, Life So Fine!\n\n Energy gain: 0\n Break: -\n\n At the start of the next battle, restores HP equal to 30% of Hyacine's Max HP plus 600 for all allies and increases their Max HP by 20% for 2 turn(s).",
+      "assets": []
+    },
+    {
+      "id": "memosprite-skills-10",
+      "level": 2,
+      "heading": "Memosprite Skills",
+      "text": "Memosprite Skill\n Rainclouds, Time to Go!\n AoE\n\n Lv. 1\n\n Energy gain: 5\n Break: 10\n\n Deals Wind DMG to all enemies equal to #1[i]% of the tally of healing done by Hyacine and Little Ica in the current battle, and clears 50% of the tally of healing.\n\n Memosprite Talent\n Take Sky in Hand\n Restore\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n Little Ica's SPD remains at 0 , is immune to debuffs, and they will not appear on the Action Order.\n\nIf ally targets (except Little Ica) have their HP reduced, then Little Ica will consume HP equal to 4% of their own Max HP and restore HP equal to #1[i]% of Hyacine's Max HP plus #2[i] for the ally target with reduced HP at the start of any target's turn or after any target takes action.\n\nWhile Hyacine is in the \"After Rain\" state, Little Ica immediately obtains 1 extra turn and automatically uses \"Rainclouds, Time to Go!\" after Hyacine uses an ability. Moreover, when Little Ica triggers their Talent's healing effect, additionally restores HP for all ally targets by an amount equal to #1[i]% of Hyacine's Max HP plus #2[i]. After Little Ica uses an ability, all Continuous Effects' duration decreases by 1 turn.\n Memosprite Talent\n Soar, Unto the Sunlight\n Support\n\n Energy gain: 0\n Break: -\n\n When summoned, additionally regenerates 15 Energy for Hyacine. When first summoned, additionally regenerates 30 Energy.\n Memosprite Talent\n Roar Rumbles the Realm\n Support\n\n Energy gain: 0\n Break: 5\n\n Upon disappearing, advances the action of Hyacine by 30% .",
+      "assets": []
+    },
+    {
+      "id": "major-traces-11",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "A2 Major trace\n Gloomy Grin\n\n Increases Hyacine and Little Ica's CRIT Rate by 100% . When providing healing to an ally target with less than or equal to 50% this unit's Max HP, increases Hyacine and Little Ica's Outgoing Healing by 25% .\n\n A4 Major trace\n Stormy Caress\n\n Increases Hyacine's Effect RES by 50% . When using Skill and Ultimate, dispels 1 debuff(s) from all ally targets.\n\n A6 Major trace\n Tempestuous Halt\n\n When Hyacine's SPD exceeds 200 , increases her and Little Ica's Max HP by 20% . Then, for every 1 excess SPD, increases Hyacine's and Little Ica's Outgoing Healing by 1% . Up to a max of 200 excess SPD can be taken into account for this effect.",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-12",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "HP\n + 10%\n\n Speed\n + 14\n\n Effect RES\n + 18%",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "9db79c7ddbf7",
+          "sourceHash": "9db79c7ddbf7",
+          "kind": "icons",
+          "name": "Effect RES",
+          "fileStem": "stat-effectres",
+          "path": "Prydwen/hsr/assets/icons/effect-res-9db79c7ddbf7.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "eidolons-13",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "E 1\n Cradle the Candle of Night\n Eidolon 1\n\n When Hyacine is in the \"After Rain\" state, additionally increases the Max HP of all ally targets by 50% , and immediately restores HP equal to 8% of Hyacine's Max HP after using an attack.\n\n E 2\n Come Sit in My Courtyard\n Eidolon 2\n\n When an ally target's HP decreases, SPD increases by 30% , lasting for 2 turn(s)\n\n E 3\n Depart, Unto the Sun!\n Eidolon 3\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10. Memosprite Skill Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Sunlit Amber, Yours to Keep\n Eidolon 4\n\n The \"Tempestuous Halt\" Trace is enhanced. For every 1 of SPD exceeded, additionally increases Hyacine and Little Ica's CRIT DMG by 2% .\n\n E 5\n Twilight Drapes the Tide\n Eidolon 5\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15. Memosprite Talent Lv. +1 , up to a maximum of Lv. 10.\n\n E 6\n O Sky, Heed My Plea\n Eidolon 6\n\n Little Ica uses Memosprite Skill and changes the amount of Healing tally cleared to 12% . When Little Ica is on the field, increases all ally targets' All-Type RES PEN by 20% .",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-14",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Enable Ascension",
+      "assets": []
+    },
+    {
+      "id": "level-80-stats-15",
+      "level": 5,
+      "heading": "Level 80 stats",
+      "text": "HP\n\n 1087\n\n ATK\n\n 388\n\n DEF\n\n 630\n\n Speed\n\n 110",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "level-1-80-ascension-materials-16",
+      "level": 5,
+      "heading": "Level 1 → 80 Ascension Materials",
+      "text": "Credit\n\n x 308000\n\n Fear-Stomped Flesh\n\n x 15\n\n Courage-Torn Chest\n\n x 15\n\n A Glass of the Besotted Era\n\n x 65\n\n Glory-Aspersed Torso\n\n x 15",
+      "assets": [
+        {
+          "id": "50d0e755383a",
+          "sourceHash": "50d0e755383a",
+          "kind": "items",
+          "name": "Credit",
+          "fileStem": "credit",
+          "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "2649302b2177",
+          "sourceHash": "2649302b2177",
+          "kind": "items",
+          "name": "Fear-Stomped Flesh",
+          "fileStem": "fear-stomped-flesh",
+          "path": "Prydwen/hsr/assets/items/fear-stomped-flesh-2649302b2177.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "bd0c01055352",
+          "sourceHash": "bd0c01055352",
+          "kind": "items",
+          "name": "Courage-Torn Chest",
+          "fileStem": "courage-torn-chest",
+          "path": "Prydwen/hsr/assets/items/courage-torn-chest-bd0c01055352.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "9854abdc3380",
+          "sourceHash": "9854abdc3380",
+          "kind": "items",
+          "name": "A Glass of the Besotted Era",
+          "fileStem": "a-glass-of-the-besotted-era",
+          "path": "Prydwen/hsr/assets/items/a-glass-of-the-besotted-era-9854abdc3380.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "8b0d54e34ba4",
+          "sourceHash": "8b0d54e34ba4",
+          "kind": "items",
+          "name": "Glory-Aspersed Torso",
+          "fileStem": "glory-aspersed-torso",
+          "path": "Prydwen/hsr/assets/items/glory-aspersed-torso-8b0d54e34ba4.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "cv-17",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n Holly Earl\n\n JPN\n Yomiya Hina (羊宮 妃那)\n\n CN\n Jing Chen (静宸)\n\n KR\n Kim Yeon-woo (김연우)",
+      "assets": []
+    },
+    {
+      "id": "gallery-18",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "7a76e3deaee9",
+          "sourceHash": "7a76e3deaee9",
+          "kind": "characters",
+          "name": "Hyacine",
+          "fileStem": "hyacine-full",
+          "path": "Prydwen/hsr/assets/characters/hyacine-7a76e3deaee9.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "pros-20",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Excellent healing, both active and passive,\n\n Provides teamwide Max HP increase,\n\n Deals surprisingly good damage and has 100% CRIT Rate,\n\n Easy access to teamwide debuff cleansing,\n\n Naturally speedy and encourages high SPD,\n\n Excellent synergy with HP-scaling damage dealers,\n\n Great F2P light cone option.",
+      "assets": []
+    },
+    {
+      "id": "cons-21",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Burst healing requires SP consumption,\n\n Very reliant on Ultimate for maximum benefits and to deal damage,\n\n Signature Light Cone provides significant benefits for multiple teams,\n\n The Little World Devourer can break free and destroy (or rather eat) everything we know if Hyacine ever loses control...",
+      "assets": []
+    },
+    {
+      "id": "review-by-sushou-22",
+      "level": 2,
+      "heading": "Review (By Sushou)",
+      "text": "Hyacine is a Wind Remembrance healer that scales with HP. She is a peculiar but highly potent hybrid of healing sustain and damage dealer, with the ability to increase the Max HP of allies and provide fairly consistent debuff cleansing as well. Her memosprite Little Ica can deal damage based on a tally of the total healing done by Hyacine and Little Ica in the battle, resulting in staggering amounts of damage being dealt. She is an immaculate support option for any team, but especially for the many HP scaling units we now have available.\n The Path of Remembrance clearly didn't get the memo about picking a lane and sticking to it, as with Hyacine's release, it now has DPS, support, and healer niches all available to the one Path. Not that I'm complaining, because Hyacine is pretty ridiculous all around, and has a very cute memosprite called Little Ica, who definitely hasn't overtaken the community with various memes, and is definitely not some all-devouring god... probably.\n Hyacine is a sustain unit who is capable of dealing pretty remarkable damage as well. Little Ica has an initial Max HP equal to 50% of Hyacine's Max HP, and her Talent will also increase Little Ica's DMG dealt by 80% for 2 turns whenever either Hyacine or Little Ica provide healing to allies, stacking up to 3 times. This will make sense shortly.\n Her Skill will summon Little Ica and restore 8% of Hyacine's Max HP plus 160 for all allies besides Little Ica. It will instead restore 10% Hyacine's Max HP plus 200 for Little Ica. Little Ica's healing is done by sacrificing some of their HP, so getting a little bit of extra healing from Hyacine's Skill is very nice.\n Hyacine's Ultimate will also summon Little Ica if they are not present yet, and will restore 10% Hyacine's Max HP plus 200 for all allies besides Little Ica, who will receive 12% plus 240 instead. This Ultimate will put Hyacine into the After Rain state for 3 turns, and will be reduced by one at the start of Hyacine's turn. During After Rain, all allies have their Max HP increased by a ludicrous 30% plus 600, resulting in hilariously large HP values.\n This bonus affects Hyacine herself, meaning that all of her healing is also greatly increased in the process, as well as the healing that Little Ica provides. Having a whopping 30% extra Max HP is a massive boost to survivability for the entire party by default, but when paired with other HP scalers this becomes a massive boost to overall damage dealt, especially for characters like Castorice.\n So far, a fairly standard (though strong) kit, nothing really too outstanding, right? Ah, but we've yet to address the fluffy harbinger of doom Hyacine calls her memosprite yet.\n Little Ica's Talent describes how they act. They have 0 SPD, are immune to all debuffs, and will not appear on the Action Order. This hasn't really happened before, even summons like Lightning-Lord and Numby appear on the Action Order even if they can't be hit. Despite not showing up on the Action Order, Little Ica CAN still get targeted and hit for various effects and damage.\n Whenever allies other than Little Ica have their HP reduced for whatever reason, be it an enemy attack or self or ally consumption, Little Ica will consume 4% of their own Max HP to heal that ally by 2% of Hyacine's Max HP plus 20. This healing will occur at the start of any target's turn or after any target takes action. This is just a fancy way of saying it's ever so slightly delayed but not by enough to ever matter. This is quite useful for interactions where the amount of HP someone is missing is relevant for the turn in which they act.\n When Hyacine is in the After Rain state, Little Ica's healing effect will restore HP for all ally targets instead of just the one that triggered the condition. This means Hyacine and Little Ica get to restore a tremendous amount of HP during Hyacine's Ultimate duration, making it particularly easy to maintain a team with characters that sacrifice their life.\n This is where the damage now comes in. During the After Rain state, Little Ica will gain an Extra Turn whenever Hyacine uses an ability, and will automatically use 'Rainclouds, Time to Go!'. This is a fully AoE attack that has a unique multiplier.\n Throughout the encounter, Hyacine is keeping a tally of the amount of healing done by herself and Little Ica for that specific encounter. This tally is then what is used to calculate the damage of Little Ica's giga drill breaker; 20% of the tally of healing done that encounter is converted to Wind DMG and dealt to all enemies on the field.\n If you're looking at that and thinking 'oh that sounds like a lot of damage', congratulations, you are absolutely correct . More amusing is that this is a very consistent amount of damage to be doing as well, especially from the character occupying the sustain slot on the team.\n It's not infinite damage, however. Every time Little Ica pierces the heavens, the healing tally will be reduced by 50% . But since it's not getting completely wiped every time, this means you will always be doing *some* damage, and with the healing throughput that Hyacine can have (especially on the teams that like to maim themselves to deal damage), it's going to be *good* damage.\n Little Ica has a couple more passives as well. When summoned, Hyacine will restore an extra 15 Energy, increased to 30 Energy if it's the first time Little Ica is being summoned in the encounter. This means that Hyacine can very reasonably and consistently get a first turn Ultimate off in fights. Her Energy amount is only 140 which, while technically above average, is by no means so high that it's difficult to maintain most of the time. The last thing is that if Little Ica falls, Hyacine's action will be advanced by 30%, making it easier to resummon Little Ica quickly.\n It's a lot, and we're still not done, because there's the Bonus Traces as well.\n A2 will increase Hyacine and Little Ica's CRIT Rates by 100%, meaning they are always guaranteed to crit. In addition, whenever healing is provided for a target whose HP is equal to or less than 50% of Hyacine's Max HP, both Hyacine and Little Ica will gain a 25% Outgoing Healing boost. For low HP teammates such as those that do not scale their damage off of HP, or for particularly aggressive HP consumers, this is going to be active very often.\n\n A4 will simply increase Hyacine's Effect RES by 50%, and will let Hyacine cleanse a debuff from every single ally whenever she uses her Skill or her Ultimate. Easy access to a teamwide cleanse is invaluable for quite a few fights where it is otherwise easy to get overwhelmed by debilitating debuffs, and being more resistant to crowd-control herself is also very valuable, especially as it makes reaching 100% Effect RES that much easier, should you choose to do so.\n\n Lastly, A6 is a stat conversion Trace. When Hyacine's SPD exceeds 200, Hyacine and Little Ica will increase their Max HP by 20%. Then, for every 1 excess SPD, Hyacine and Little Ica will gain 1% Outgoing Healing bonus, up to 200% Outgoing Healing at 400 SPD.\n\n Now, obviously you are never hitting this number ever in regular gameplay, ever. However, the 200 SPD threshold is surprisingly easier to reach than you may expect ; Hyacine's Base SPD is 110, and she gains 14 SPD through her Minor Traces, so with some guaranteed SPD bonuses from Relics and a little bit of luck on substats, and you could very easily surpass 200 SPD when in combat, and indeed you should aim for it as the extra HP is a massive boost to all of what Hyacine wants to be doing.\n With all of that covered, it should be apparent that Hyacine's poised to be extremely useful for any team, as the healing output is phenomenal. As mentioned, her usefulness for Castorice is extremely high, and her use for other characters that scale around HP is similarly high.\n This, however, does come with a catch, which is how it can become less efficient to utilise Hyacine in teams that are not so SP efficient. In order for Hyacine to maintain her Ultimate’s After Rain state and keep Little Ica moving and her huge HP buff active she needs to use a skill every action or gain a significant amount of energy through combat - failing to do this will lead to downtime. Because of this Hyacine is strongest in teams with skill points to spare, though she’s still good in tighter SP set-ups, just less potent.\n Fortunately, Mydei and Castorice are incapable of consuming Skill Points, Blade uses very few, and each of their other team members generally restores more SP than they can consume anyway, so there is a surplus of Skill Points for Hyacine to use. Even outside HP scalers characters like Anaxa can be quite SP efficient if he needs to be and those who don’t require the HP% boost from Hyacine’s ultimate can manage a bit of downtime without much loss - meaning Hyacine can still be a top sustain choice across the board.\n Hyacine can also work as a substitute sustain unit in Feixiao teams and The Herta teams. For Feixiao, because Little Ica's attacks count towards generating Flying Aureus stacks for Feixiao, you can get a consistent stream of charge for Feixiao's Ultimate. It's a little more consistent than Aventurine, but without all of the other benefits that Aventurine brings. For The Herta teams, Lingsha is still undeniably the best option, but Hyacine is not too far behind, so is a viable alternative.\n With the inclusion of Hyacine's Signature Light Cone, she gains access to a debuff, meaning she is also now usable for Acheron to generate points of Slashed Dream for Acheron's Ultimate. This actually ends up being quite substantial and results in being the most consistent source of debuff generation from the sustain slot in an Acheron setup (excluding E2S1 Aventurine).\n As alluded to earlier this Light Cone also allows her to turbo-charge Blade due to its ability to siphon a token amount of HP whenever Hyacine uses a Basic, Skill, or Ultimate. This leads to Blade getting substantially more Talent follow-ups off and greatly increasing both his total damage output as well as his survivability. This is maybe the least compelling option of the teams right now, but Blade is slated to receive buffs Soon™, and depending on how that goes, this might be a particular synergy worth keeping an eye out for.\n Realistically, Hyacine is not that hard to use, so if you're paying even a small amount of attention, you'll probably be completely fine in whatever way you want to use her. There is actually a semi-cursed potential to use her as a hypercarry because of what Little Ica can do, pair her with Sunday and watch the sparks fly, but this is not her primary intended use case, so it's up to the individual if they want to go down this path. All we’ll say is that you may be surprised at the power of the portly Pegasus.\n Now go, my little devourer of worlds, be free and fill thy belly!",
+      "assets": []
+    },
+    {
+      "id": "ratings-23",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.",
+      "assets": []
+    },
+    {
+      "id": "sustain-24",
+      "level": 5,
+      "heading": "Sustain",
+      "text": "T0\n MoC\n\n T0\n PF\n\n T0\n AS\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "best-light-cones-26",
+      "level": 2,
+      "heading": "Best Light Cones",
+      "text": "1\n\n Long May Rainbows Adorn the Sky (S 1 )\n\n Hyacine's signature Light Cone grants her a permanent 18% SPD, and allows Little Ica to apply a 18% Vulnerability debuff. This Cone also adds a team-wide HP drain to each of Hyacine's Actions allowing her to trigger a myriad of additional effects within her teams opening up new synergies while also boosting her and Little Ica's performance at the same time.\n Usage: 78.1 %\n MoC: 7.33 cyc.\n PF: 39783\n AS: 3528\n\n 2\n\n Memory's Curtain Never Falls (S 5 )\n\n Herta's Store Remembrance Light Cone is Hyacine's best F2P option and primary alternative to her signature thanks to the large amount of increased SPD% it offers - this speed is key in allowing her to reach her 200 SPD breakpoint. This cone can also provide a team-wide DMG buff. When playing Hyacine alongside Remembrance Trailblazer, prioritize equipping this Light Cone on Hyacine.\n Usage: 15.18 %\n MoC: 8.62 cyc.\n PF: 35271\n AS: 3383\n\n 3\n\n The Story's Next Page (S 5 )\n\n If no other options are available, this Light Cone can boost Hyacine's healing, but will make it very hard for her to reach 200 SPD.\n Usage: 5.71 %\n MoC: 8.74 cyc.\n PF: 35299\n AS: 3373",
+      "assets": [
+        {
+          "id": "b2a862506882",
+          "sourceHash": "b2a862506882",
+          "kind": "light-cones",
+          "name": "Long May Rainbows Adorn the Sky",
+          "fileStem": "long-may-rainbows-adorn-the-sky",
+          "path": "Prydwen/hsr/assets/light-cones/long-may-rainbows-adorn-the-sky-b2a862506882.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "de9d54f233b5",
+          "sourceHash": "de9d54f233b5",
+          "kind": "light-cones",
+          "name": "Memory's Curtain Never Falls",
+          "fileStem": "memorys-curtain-never-falls",
+          "path": "Prydwen/hsr/assets/light-cones/memorys-curtain-never-falls-de9d54f233b5.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "b6cb0c99005d",
+          "sourceHash": "b6cb0c99005d",
+          "kind": "light-cones",
+          "name": "The Story's Next Page",
+          "fileStem": "the-storys-next-page",
+          "path": "Prydwen/hsr/assets/light-cones/the-storys-next-page-b6cb0c99005d.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-relic-sets-28",
+      "level": 2,
+      "heading": "Best Relic Sets",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Warrior Goddess of Sun and Thunder ( 4 -PC)\n\n Clear best-in-slot for Hyacine, granting her 12% SPD allowing her to reach 200 Speed more easily while also boosting the team's CRIT DMG by 15%.\n Usage: 96.75 %\n MoC: 7.71 cyc.\n PF: 38829\n AS: 3472\n\n 2\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Usage: 0.12 %\n MoC: 8 cyc.\n PF: 36587\n AS: 3436",
+      "assets": [
+        {
+          "id": "2f8ec1684b6b",
+          "sourceHash": "2f8ec1684b6b",
+          "kind": "relics",
+          "name": "Warrior Goddess of Sun and Thunder",
+          "fileStem": "warrior-goddess-of-sun-and-thunder",
+          "path": "Prydwen/hsr/assets/relics/warrior-goddess-of-sun-and-thunder-2f8ec1684b6b.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "4cb8065ad660",
+          "sourceHash": "4cb8065ad660",
+          "kind": "relics",
+          "name": "Messenger Traversing Hackerspace",
+          "fileStem": "messenger-traversing-hackerspace",
+          "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "5cb190fcc346",
+          "sourceHash": "5cb190fcc346",
+          "kind": "relics",
+          "name": "Sacerdos' Relived Ordeal",
+          "fileStem": "sacerdos-relived-ordeal",
+          "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "19b06ffee878",
+          "sourceHash": "19b06ffee878",
+          "kind": "relics",
+          "name": "Diviner of Distant Reach",
+          "fileStem": "diviner-of-distant-reach",
+          "path": "Prydwen/hsr/assets/relics/diviner-of-distant-reach-19b06ffee878.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-planetary-sets-29",
+      "level": 6,
+      "heading": "Best Planetary Sets",
+      "text": "1\n\n Giant Tree of Rapt Brooding ( 2 -PC)\n\n Helps Hyacine reach 200 SPD more easily while also boosting healing output. Top option for Hyacine personal damage and healing focused strategies.\n Usage: 98.29 %\n MoC: 7.71 cyc.\n PF: 38803\n AS: 3472\n\n 2\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Strong when supporting a single ATK based DPS character and when Energy Regen is useful (Cannot buff Memosprites).\n Usage: 0.17 %\n MoC: -\n PF: 40000\n AS: 3512\n\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top pick when when supporting one or many team mates of the same element as the wearer and when Energy Regen is useful. (Only to be used with Wind DPS)\n 4\n\n Broken Keel ( 2 -PC)\n\n Useful when seeking additional Effect Resistance and or when supporting CRIT based teammates\n Usage: 0.24 %\n MoC: -\n PF: 35360\n AS: 3349",
+      "assets": [
+        {
+          "id": "c13bc696f36c",
+          "sourceHash": "c13bc696f36c",
+          "kind": "relics",
+          "name": "Giant Tree of Rapt Brooding",
+          "fileStem": "giant-tree-of-rapt-brooding",
+          "path": "Prydwen/hsr/assets/relics/giant-tree-of-rapt-brooding-c13bc696f36c.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "d6aae5028c5a",
+          "sourceHash": "d6aae5028c5a",
+          "kind": "relics",
+          "name": "Lushaka, the Sunken Seas",
+          "fileStem": "lushaka-the-sunken-seas",
+          "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "d6cdb5f16b16",
+          "sourceHash": "d6cdb5f16b16",
+          "kind": "relics",
+          "name": "Penacony, Land of the Dreams",
+          "fileStem": "penacony-land-of-the-dreams",
+          "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "3306e6f6288f",
+          "sourceHash": "3306e6f6288f",
+          "kind": "relics",
+          "name": "Broken Keel",
+          "fileStem": "broken-keel",
+          "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-stats-31",
+      "level": 2,
+      "heading": "Best Stats",
+      "text": "Body\n Outgoing Healing\n > HP%\n\n Feet\n Speed\n\n Planar Sphere\n HP%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD to 200 or more > HP% > CRIT DMG >= Effect RES",
+      "assets": [
+        {
+          "id": "96d628c840c8",
+          "sourceHash": "96d628c840c8",
+          "kind": "icons",
+          "name": "Outgoing Healing",
+          "fileStem": "stat-healing",
+          "path": "Prydwen/hsr/assets/icons/outgoing-healing-96d628c840c8.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "106ddd8eff32",
+          "sourceHash": "106ddd8eff32",
+          "kind": "icons",
+          "name": "Energy Regen",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "recommended-endgame-stats-32",
+      "level": 2,
+      "heading": "Recommended endgame stats",
+      "text": "HP: 4300 - 5000+\n\n DEF: 1000+\n\n CRIT DMG: 100 - 120%+\n\n SPD: 200+ (in combat)\n\n EFFECT RES: 32% (nice to have)\n Hyacine gains 68% Effect Res for free from her bonus ability and traces. After achieving her other stat goals, taking the time to gain the remaining 32% is well worth it to make her effect immune.",
+      "assets": []
+    },
+    {
+      "id": "traces-priority-33",
+      "level": 2,
+      "heading": "Traces priority",
+      "text": "Skills priority: Ultimate > M.Talent = Skill > Talent = M.Skill > Basic (Healing Focus) or Talent = M.Skill > Ultimate > M.Talent = Skill > Basic (DPS Focus)\n\n Major Traces priority: Gloomy Grin (A2) > Stormy Caress (A4) > Tempestuous Halt (A6)",
+      "assets": []
+    },
+    {
+      "id": "synergy-34",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Castorice - Hyacine is the best-in-slot sustain option for Castorice, able to reach insane SPD thresholds to provide the most Ultimate charge for Castorice. She also provides exceptional teamwide healing every Skill and Ultimate, and Little Ica can also provide small teamwide healing after HP loss either from Castorice or Hyacine's Light Cone HP drain, or from getting attacked. Also increases the team's Max HP to improve Castorice's scaling.\n March 7th • Evernight - Hyacine is similarly the strongest sustain slot for Evernight, another HP scaling / HP draining Remembrance character. Hyacine does not provide Ultimate charge but instead can stack up Evernight's powerful resource, Memoria, to access even higher multipliers. The HP buff on top is fantastic for Evernight's damage output, but the synergy is mutual; Evernight amplifies Little Ica's DPS by an obscene amount thanks to a high CRIT DMG buff, Vulnerability debuff, and possibly more through Relics and Light Cones.\n Mortenax Blade - Hyacine is currently the best sustain option for Mortenax Blade's damage due to her providing Max HP buffs. She naturally reaches high SPD and her turns are always followed by Little Ica's attacks which can generate a lot of charges for Mortenax Blade.\n Blade - With Hyacine's Signature Light Cone, every action by her can Charge Blade's Talent to allow for more Follow-up ATKs. She also provides a sizable teamwide HP buff, acts as a sub-dps and keeps Blade and his team alive making her one of his best team mates.\n The Herta Feixiao - When Hyacine's Ultimate is active, Little Ica will immediately attack again after every Hyacine's actions, which can benefit units that rely heavily on allies launching frequent attacks - The Herta especially benefits from this as Little Ica's attacks are AoE. With that said Hyacine requires heavy Skill Point investment in order to keep her Ultimate active which can hurt some team's resources. Aim to use Hyacine's Ultimate at the start of her turn to extend the duration.\n Acheron - With Hyacine's Signature Light Cone, Little Ica can apply a debuff every turn for Ultimate stacks adding her to the list of debuffing sustains Acheron can choose from.",
+      "assets": [
+        {
+          "id": "fd3d60695240",
+          "sourceHash": "fd3d60695240",
+          "kind": "characters",
+          "name": "Castorice",
+          "fileStem": "castorice-icon",
+          "path": "Prydwen/hsr/assets/characters/castorice-fd3d60695240.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "e6a5c98adfc4",
+          "sourceHash": "e6a5c98adfc4",
+          "kind": "characters",
+          "name": "March 7th • Evernight",
+          "fileStem": "march-7th-evernight-icon",
+          "path": "Prydwen/hsr/assets/characters/march-7th-evernight-e6a5c98adfc4.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "99361e4717fa",
+          "sourceHash": "99361e4717fa",
+          "kind": "characters",
+          "name": "Mortenax Blade",
+          "fileStem": "blade-mortenax-icon",
+          "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "0e40f16a52d5",
+          "sourceHash": "0e40f16a52d5",
+          "kind": "characters",
+          "name": "Blade",
+          "fileStem": "blade-icon",
+          "path": "Prydwen/hsr/assets/characters/blade-0e40f16a52d5.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "fecc96b9e5e6",
+          "sourceHash": "fecc96b9e5e6",
+          "kind": "characters",
+          "name": "The Herta",
+          "fileStem": "the-herta-icon",
+          "path": "Prydwen/hsr/assets/characters/the-herta-fecc96b9e5e6.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "55d5418dfd9c",
+          "sourceHash": "55d5418dfd9c",
+          "kind": "characters",
+          "name": "Feixiao",
+          "fileStem": "feixiao-icon",
+          "path": "Prydwen/hsr/assets/characters/feixiao-55d5418dfd9c.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "fbcfe4133d08",
+          "sourceHash": "fbcfe4133d08",
+          "kind": "characters",
+          "name": "Acheron",
+          "fileStem": "acheron-icon",
+          "path": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp",
+          "width": 45,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "id": "anomaly-arbitration-39",
+      "level": 6,
+      "heading": "Anomaly Arbitration",
+      "text": "Rank 2\n App. rate: 23.72 %\n Avg. cycles : 7.24\n Avg. cycles (E1+): 3.81\n\n Rank 9\n App. rate: 4.29 %\n Avg. cycles : 8.35\n Avg. cycles (E1+): 4.82\n\n Rank 18\n App. rate: 1.68 %\n Avg. cycles : 7.32\n Avg. cycles (E1+): 3.77\n\n New\n\n Rank 20\n App. rate: 1.54 %\n Avg. cycles : 7.94\n Avg. cycles (E1+): 4.7\n\n Rank 21\n App. rate: 1.3 %\n Avg. cycles : 8.67\n Avg. cycles (E1+): 6.42\n\n Rank 22\n App. rate: 1.23 %\n Avg. cycles : 8.41\n Avg. cycles (E1+): 6.47\n\n Rank 25\n App. rate: 1 %\n Avg. cycles : 9.12\n Avg. cycles (E1+): 3.26\n\n Rank 28\n App. rate: 0.95 %\n Avg. cycles : 8.41\n Avg. cycles (E1+): 5.93\n\n Rank 30\n App. rate: 0.9 %\n Avg. cycles : 8.9\n Avg. cycles (E1+): 4.52\n\n New\n\n Rank 33\n App. rate: 0.76 %\n Avg. cycles : 7.89\n Avg. cycles (E1+): 6.43",
+      "assets": [
+        {
+          "id": "fd3d60695240",
+          "sourceHash": "fd3d60695240",
+          "kind": "characters",
+          "name": "Castorice",
+          "fileStem": "castorice-icon",
+          "path": "Prydwen/hsr/assets/characters/castorice-fd3d60695240.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "565914d1a436",
+          "sourceHash": "565914d1a436",
+          "kind": "icons",
+          "name": "Quantum",
+          "fileStem": "ele-quantum",
+          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "e6a5c98adfc4",
+          "sourceHash": "e6a5c98adfc4",
+          "kind": "characters",
+          "name": "March 7th • Evernight",
+          "fileStem": "march-7th-evernight-icon",
+          "path": "Prydwen/hsr/assets/characters/march-7th-evernight-e6a5c98adfc4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7d36eb39792a",
+          "sourceHash": "7d36eb39792a",
+          "kind": "icons",
+          "name": "Ice",
+          "fileStem": "ele-ice",
+          "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "005597837585",
+          "sourceHash": "005597837585",
+          "kind": "characters",
+          "name": "Cyrene",
+          "fileStem": "cyrene-icon",
+          "path": "Prydwen/hsr/assets/characters/cyrene-005597837585.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1d90270b2b4b",
+          "sourceHash": "1d90270b2b4b",
+          "kind": "characters",
+          "name": "Hyacine",
+          "fileStem": "hyacine-icon",
+          "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ee11bd390c9a",
+          "sourceHash": "ee11bd390c9a",
+          "kind": "icons",
+          "name": "Wind",
+          "fileStem": "ele-wind",
+          "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "2cde7699adbf",
+          "sourceHash": "2cde7699adbf",
+          "kind": "characters",
+          "name": "Tribbie",
+          "fileStem": "tribbie-icon",
+          "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f380b4ccce3e",
+          "sourceHash": "f380b4ccce3e",
+          "kind": "characters",
+          "name": "Ashveil",
+          "fileStem": "ashveil-icon",
+          "path": "Prydwen/hsr/assets/characters/ashveil-f380b4ccce3e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d197456869a0",
+          "sourceHash": "d197456869a0",
+          "kind": "icons",
+          "name": "Lightning",
+          "fileStem": "ele-lightning",
+          "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "99361e4717fa",
+          "sourceHash": "99361e4717fa",
+          "kind": "characters",
+          "name": "Mortenax Blade",
+          "fileStem": "blade-mortenax-icon",
+          "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "92feb26d8f0e",
+          "sourceHash": "92feb26d8f0e",
+          "kind": "icons",
+          "name": "Fire",
+          "fileStem": "ele-fire",
+          "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "f54da6170f38",
+          "sourceHash": "f54da6170f38",
+          "kind": "characters",
+          "name": "Silver Wolf • Lv. 999",
+          "fileStem": "silver-wolf-lv-999-icon",
+          "path": "Prydwen/hsr/assets/characters/silver-wolf-lv-999-f54da6170f38.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "913ff64407f2",
+          "sourceHash": "913ff64407f2",
+          "kind": "icons",
+          "name": "Imaginary",
+          "fileStem": "ele-imaginary",
+          "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "7fc1b269fb6f",
+          "sourceHash": "7fc1b269fb6f",
+          "kind": "characters",
+          "name": "Sparxie",
+          "fileStem": "sparxie-icon",
+          "path": "Prydwen/hsr/assets/characters/sparxie-7fc1b269fb6f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "965df81b835a",
+          "sourceHash": "965df81b835a",
+          "kind": "characters",
+          "name": "Yao Guang",
+          "fileStem": "yao-guang-icon",
+          "path": "Prydwen/hsr/assets/characters/yao-guang-965df81b835a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0db16ed6c66",
+          "sourceHash": "e0db16ed6c66",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "ele-physical",
+          "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "d3e344772d55",
+          "sourceHash": "d3e344772d55",
+          "kind": "characters",
+          "name": "Trailblazer • Remembrance",
+          "fileStem": "trailblazer-remembrance-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "c721ded1f2e0",
+          "sourceHash": "c721ded1f2e0",
+          "kind": "characters",
+          "name": "Trailblazer • Elation",
+          "fileStem": "trailblazer-elation-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-elation-c721ded1f2e0.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "fbcfe4133d08",
+          "sourceHash": "fbcfe4133d08",
+          "kind": "characters",
+          "name": "Acheron",
+          "fileStem": "acheron-icon",
+          "path": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "bc2d64a2cd5f",
+          "sourceHash": "bc2d64a2cd5f",
+          "kind": "characters",
+          "name": "Hysilens",
+          "fileStem": "hysilens-icon",
+          "path": "Prydwen/hsr/assets/characters/hysilens-bc2d64a2cd5f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e01f880a2668",
+          "sourceHash": "e01f880a2668",
+          "kind": "characters",
+          "name": "Black Swan",
+          "fileStem": "black-swan-icon",
+          "path": "Prydwen/hsr/assets/characters/black-swan-e01f880a2668.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "a137ba3e51ff",
+          "sourceHash": "a137ba3e51ff",
+          "kind": "characters",
+          "name": "Kafka",
+          "fileStem": "kafka-icon",
+          "path": "Prydwen/hsr/assets/characters/kafka-a137ba3e51ff.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "video-guides-40",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "MoC/PF/AS Statistics",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-light-cones": {
+      "label": "Best Light Cones",
+      "sections": [
+        {
+          "heading": "Best Light Cones",
+          "text": "1\n\n Long May Rainbows Adorn the Sky (S 1 )\n\n Hyacine's signature Light Cone grants her a permanent 18% SPD, and allows Little Ica to apply a 18% Vulnerability debuff. This Cone also adds a team-wide HP drain to each of Hyacine's Actions allowing her to trigger a myriad of additional effects within her teams opening up new synergies while also boosting her and Little Ica's performance at the same time.\n Usage: 78.1 %\n MoC: 7.33 cyc.\n PF: 39783\n AS: 3528\n\n 2\n\n Memory's Curtain Never Falls (S 5 )\n\n Herta's Store Remembrance Light Cone is Hyacine's best F2P option and primary alternative to her signature thanks to the large amount of increased SPD% it offers - this speed is key in allowing her to reach her 200 SPD breakpoint. This cone can also provide a team-wide DMG buff. When playing Hyacine alongside Remembrance Trailblazer, prioritize equipping this Light Cone on Hyacine.\n Usage: 15.18 %\n MoC: 8.62 cyc.\n PF: 35271\n AS: 3383\n\n 3\n\n The Story's Next Page (S 5 )\n\n If no other options are available, this Light Cone can boost Hyacine's healing, but will make it very hard for her to reach 200 SPD.\n Usage: 5.71 %\n MoC: 8.74 cyc.\n PF: 35299\n AS: 3373",
+          "assets": [
+            {
+              "id": "b2a862506882",
+              "sourceHash": "b2a862506882",
+              "kind": "light-cones",
+              "name": "Long May Rainbows Adorn the Sky",
+              "fileStem": "long-may-rainbows-adorn-the-sky",
+              "path": "Prydwen/hsr/assets/light-cones/long-may-rainbows-adorn-the-sky-b2a862506882.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "de9d54f233b5",
+              "sourceHash": "de9d54f233b5",
+              "kind": "light-cones",
+              "name": "Memory's Curtain Never Falls",
+              "fileStem": "memorys-curtain-never-falls",
+              "path": "Prydwen/hsr/assets/light-cones/memorys-curtain-never-falls-de9d54f233b5.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "b6cb0c99005d",
+              "sourceHash": "b6cb0c99005d",
+              "kind": "light-cones",
+              "name": "The Story's Next Page",
+              "fileStem": "the-storys-next-page",
+              "path": "Prydwen/hsr/assets/light-cones/the-storys-next-page-b6cb0c99005d.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-relic-sets": {
+      "label": "Best Relic Sets",
+      "sections": [
+        {
+          "heading": "Best Relic Sets",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Warrior Goddess of Sun and Thunder ( 4 -PC)\n\n Clear best-in-slot for Hyacine, granting her 12% SPD allowing her to reach 200 Speed more easily while also boosting the team's CRIT DMG by 15%.\n Usage: 96.75 %\n MoC: 7.71 cyc.\n PF: 38829\n AS: 3472\n\n 2\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Usage: 0.12 %\n MoC: 8 cyc.\n PF: 36587\n AS: 3436",
+          "assets": [
+            {
+              "id": "2f8ec1684b6b",
+              "sourceHash": "2f8ec1684b6b",
+              "kind": "relics",
+              "name": "Warrior Goddess of Sun and Thunder",
+              "fileStem": "warrior-goddess-of-sun-and-thunder",
+              "path": "Prydwen/hsr/assets/relics/warrior-goddess-of-sun-and-thunder-2f8ec1684b6b.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "4cb8065ad660",
+              "sourceHash": "4cb8065ad660",
+              "kind": "relics",
+              "name": "Messenger Traversing Hackerspace",
+              "fileStem": "messenger-traversing-hackerspace",
+              "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "5cb190fcc346",
+              "sourceHash": "5cb190fcc346",
+              "kind": "relics",
+              "name": "Sacerdos' Relived Ordeal",
+              "fileStem": "sacerdos-relived-ordeal",
+              "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "19b06ffee878",
+              "sourceHash": "19b06ffee878",
+              "kind": "relics",
+              "name": "Diviner of Distant Reach",
+              "fileStem": "diviner-of-distant-reach",
+              "path": "Prydwen/hsr/assets/relics/diviner-of-distant-reach-19b06ffee878.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-planetary-sets": {
+      "label": "Best Planetary Sets",
+      "sections": [
+        {
+          "heading": "Best Planetary Sets",
+          "text": "1\n\n Giant Tree of Rapt Brooding ( 2 -PC)\n\n Helps Hyacine reach 200 SPD more easily while also boosting healing output. Top option for Hyacine personal damage and healing focused strategies.\n Usage: 98.29 %\n MoC: 7.71 cyc.\n PF: 38803\n AS: 3472\n\n 2\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Strong when supporting a single ATK based DPS character and when Energy Regen is useful (Cannot buff Memosprites).\n Usage: 0.17 %\n MoC: -\n PF: 40000\n AS: 3512\n\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top pick when when supporting one or many team mates of the same element as the wearer and when Energy Regen is useful. (Only to be used with Wind DPS)\n 4\n\n Broken Keel ( 2 -PC)\n\n Useful when seeking additional Effect Resistance and or when supporting CRIT based teammates\n Usage: 0.24 %\n MoC: -\n PF: 35360\n AS: 3349",
+          "assets": [
+            {
+              "id": "c13bc696f36c",
+              "sourceHash": "c13bc696f36c",
+              "kind": "relics",
+              "name": "Giant Tree of Rapt Brooding",
+              "fileStem": "giant-tree-of-rapt-brooding",
+              "path": "Prydwen/hsr/assets/relics/giant-tree-of-rapt-brooding-c13bc696f36c.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "d6aae5028c5a",
+              "sourceHash": "d6aae5028c5a",
+              "kind": "relics",
+              "name": "Lushaka, the Sunken Seas",
+              "fileStem": "lushaka-the-sunken-seas",
+              "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "d6cdb5f16b16",
+              "sourceHash": "d6cdb5f16b16",
+              "kind": "relics",
+              "name": "Penacony, Land of the Dreams",
+              "fileStem": "penacony-land-of-the-dreams",
+              "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "3306e6f6288f",
+              "sourceHash": "3306e6f6288f",
+              "kind": "relics",
+              "name": "Broken Keel",
+              "fileStem": "broken-keel",
+              "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-stats": {
+      "label": "Best Stats",
+      "sections": [
+        {
+          "heading": "Best Stats",
+          "text": "Body\n Outgoing Healing\n > HP%\n\n Feet\n Speed\n\n Planar Sphere\n HP%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD to 200 or more > HP% > CRIT DMG >= Effect RES",
+          "assets": [
+            {
+              "id": "96d628c840c8",
+              "sourceHash": "96d628c840c8",
+              "kind": "icons",
+              "name": "Outgoing Healing",
+              "fileStem": "stat-healing",
+              "path": "Prydwen/hsr/assets/icons/outgoing-healing-96d628c840c8.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "96654253a4f7",
+              "sourceHash": "96654253a4f7",
+              "kind": "icons",
+              "name": "HP",
+              "fileStem": "stat-hp",
+              "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "087f2dec68b6",
+              "sourceHash": "087f2dec68b6",
+              "kind": "icons",
+              "name": "Speed",
+              "fileStem": "stat-speed",
+              "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "106ddd8eff32",
+              "sourceHash": "106ddd8eff32",
+              "kind": "icons",
+              "name": "Energy Regen",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        }
+      ]
+    },
+    "recommended-endgame-stats": {
+      "label": "Recommended endgame stats",
+      "sections": [
+        {
+          "heading": "Recommended endgame stats",
+          "text": "HP: 4300 - 5000+\n\n DEF: 1000+\n\n CRIT DMG: 100 - 120%+\n\n SPD: 200+ (in combat)\n\n EFFECT RES: 32% (nice to have)\n Hyacine gains 68% Effect Res for free from her bonus ability and traces. After achieving her other stat goals, taking the time to gain the remaining 32% is well worth it to make her effect immune.",
+          "assets": []
+        }
+      ]
+    },
+    "traces-priority": {
+      "label": "Traces priority",
+      "sections": [
+        {
+          "heading": "Traces priority",
+          "text": "Skills priority: Ultimate > M.Talent = Skill > Talent = M.Skill > Basic (Healing Focus) or Talent = M.Skill > Ultimate > M.Talent = Skill > Basic (DPS Focus)\n\n Major Traces priority: Gloomy Grin (A2) > Stormy Caress (A4) > Tempestuous Halt (A6)",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Castorice - Hyacine is the best-in-slot sustain option for Castorice, able to reach insane SPD thresholds to provide the most Ultimate charge for Castorice. She also provides exceptional teamwide healing every Skill and Ultimate, and Little Ica can also provide small teamwide healing after HP loss either from Castorice or Hyacine's Light Cone HP drain, or from getting attacked. Also increases the team's Max HP to improve Castorice's scaling.\n March 7th • Evernight - Hyacine is similarly the strongest sustain slot for Evernight, another HP scaling / HP draining Remembrance character. Hyacine does not provide Ultimate charge but instead can stack up Evernight's powerful resource, Memoria, to access even higher multipliers. The HP buff on top is fantastic for Evernight's damage output, but the synergy is mutual; Evernight amplifies Little Ica's DPS by an obscene amount thanks to a high CRIT DMG buff, Vulnerability debuff, and possibly more through Relics and Light Cones.\n Mortenax Blade - Hyacine is currently the best sustain option for Mortenax Blade's damage due to her providing Max HP buffs. She naturally reaches high SPD and her turns are always followed by Little Ica's attacks which can generate a lot of charges for Mortenax Blade.\n Blade - With Hyacine's Signature Light Cone, every action by her can Charge Blade's Talent to allow for more Follow-up ATKs. She also provides a sizable teamwide HP buff, acts as a sub-dps and keeps Blade and his team alive making her one of his best team mates.\n The Herta Feixiao - When Hyacine's Ultimate is active, Little Ica will immediately attack again after every Hyacine's actions, which can benefit units that rely heavily on allies launching frequent attacks - The Herta especially benefits from this as Little Ica's attacks are AoE. With that said Hyacine requires heavy Skill Point investment in order to keep her Ultimate active which can hurt some team's resources. Aim to use Hyacine's Ultimate at the start of her turn to extend the duration.\n Acheron - With Hyacine's Signature Light Cone, Little Ica can apply a debuff every turn for Ultimate stacks adding her to the list of debuffing sustains Acheron can choose from.",
+          "assets": [
+            {
+              "id": "fd3d60695240",
+              "sourceHash": "fd3d60695240",
+              "kind": "characters",
+              "name": "Castorice",
+              "fileStem": "castorice-icon",
+              "path": "Prydwen/hsr/assets/characters/castorice-fd3d60695240.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "e6a5c98adfc4",
+              "sourceHash": "e6a5c98adfc4",
+              "kind": "characters",
+              "name": "March 7th • Evernight",
+              "fileStem": "march-7th-evernight-icon",
+              "path": "Prydwen/hsr/assets/characters/march-7th-evernight-e6a5c98adfc4.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "99361e4717fa",
+              "sourceHash": "99361e4717fa",
+              "kind": "characters",
+              "name": "Mortenax Blade",
+              "fileStem": "blade-mortenax-icon",
+              "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "0e40f16a52d5",
+              "sourceHash": "0e40f16a52d5",
+              "kind": "characters",
+              "name": "Blade",
+              "fileStem": "blade-icon",
+              "path": "Prydwen/hsr/assets/characters/blade-0e40f16a52d5.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "fecc96b9e5e6",
+              "sourceHash": "fecc96b9e5e6",
+              "kind": "characters",
+              "name": "The Herta",
+              "fileStem": "the-herta-icon",
+              "path": "Prydwen/hsr/assets/characters/the-herta-fecc96b9e5e6.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "55d5418dfd9c",
+              "sourceHash": "55d5418dfd9c",
+              "kind": "characters",
+              "name": "Feixiao",
+              "fileStem": "feixiao-icon",
+              "path": "Prydwen/hsr/assets/characters/feixiao-55d5418dfd9c.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "fbcfe4133d08",
+              "sourceHash": "fbcfe4133d08",
+              "kind": "characters",
+              "name": "Acheron",
+              "fileStem": "acheron-icon",
+              "path": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp",
+              "width": 45,
+              "height": 45
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Hyacine Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Hyacine\n Hyacine Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Hyacine from HSR (Honkai: Star Rail). Hyacine is a 5 ★ character from the Wind element who follows the Path of Remembrance .\n As the city-state in the clouds crumbles through time, the Twilight Courtyard opens its gates once more, bringing a glimmer of light to Evernight. You, Physician Hyacinthia, Chrysos Heir who guards the Sky Coreflame, must inherit your ancestors' will and mend the torn fabric of dusk and dawn. May the rainbow light pour down, dissolve all grudges, and bring the dawn back to this land.\n\n To learn more about Hyacine check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Hyacine has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 3.2\n\n Last major build/calcs update\n Patch 3.4\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Hyacine check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n When Breeze Kisses Cirrus\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Wind DMG equal to #1[i]% of Hyacine's Max HP to one designated enemy.\n\n Skill\n Love Over the Rainbow\n Restore\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Summons memosprite Little Ica, restores HP equal to #1[i]% of Hyacine's Max HP plus #2[i] for all allies aside from Little Ica, and restores HP equal to #3[i]% of Hyacine's Max HP plus #4[i] for Little Ica.\n\n Ultimate\n We Who Fly Into Twilight\n Support | 140 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: -\n\n Summons memosprite Little Ica, restores HP equal to #1[i]% of Hyacine's Max HP plus #2[i] for all allies aside from Little Ica, and restores HP equal to #5[i]% of Hyacine's Max HP plus #6[i] for Little Ica. Hyacine enters the \"After Rain\" state for 3 turn(s) afterward. Reduces the state's duration by 1 turn each time Hyacine's turn begins. When in \"After Rain\" state, increases Max HP for all allies by #3[i]% + #4[i].\n\n Talent\n First Light Heals the World\n Enhance\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n The memosprite Little Ica initially has Max HP equal to 50% of Hyacine's Max HP. When Hyacine or Little Ica provides healing, increases Little Ica's DMG dealt by #1[i]% for 2 turn(s). Stacks up to 3 time(s).\n\n Technique\n Day So Right, Life So Fine!\n\n Energy gain: 0\n Break: -\n\n At the start of the next battle, restores HP equal to 30% of Hyacine's Max HP plus 600 for all allies and increases their Max HP by 20% for 2 turn(s).\n\n Memosprite Skills\n Memosprite Skill\n Rainclouds, Time to Go!\n AoE\n\n Lv. 1\n\n Energy gain: 5\n Break: 10\n\n Deals Wind DMG to all enemies equal to #1[i]% of the tally of healing done by Hyacine and Little Ica in the current battle, and clears 50% of the tally of healing.\n\n Memosprite Talent\n Take Sky in Hand\n Restore\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n Little Ica's SPD remains at 0 , is immune to debuffs, and they will not appear on the Action Order.\n\nIf ally targets (except Little Ica) have their HP reduced, then Little Ica will consume HP equal to 4% of their own Max HP and restore HP equal to #1[i]% of Hyacine's Max HP plus #2[i] for the ally target with reduced HP at the start of any target's turn or after any target takes action.\n\nWhile Hyacine is in the \"After Rain\" state, Little Ica immediately obtains 1 extra turn and automatically uses \"Rainclouds, Time to Go!\" after Hyacine uses an ability. Moreover, when Little Ica triggers their Talent's healing effect, additionally restores HP for all ally targets by an amount equal to #1[i]% of Hyacine's Max HP plus #2[i]. After Little Ica uses an ability, all Continuous Effects' duration decreases by 1 turn.\n Memosprite Talent\n Soar, Unto the Sunlight\n Support\n\n Energy gain: 0\n Break: -\n\n When summoned, additionally regenerates 15 Energy for Hyacine. When first summoned, additionally regenerates 30 Energy.\n Memosprite Talent\n Roar Rumbles the Realm\n Support\n\n Energy gain: 0\n Break: 5\n\n Upon disappearing, advances the action of Hyacine by 30% .\n\n Major Traces\n A2 Major trace\n Gloomy Grin\n\n Increases Hyacine and Little Ica's CRIT Rate by 100% . When providing healing to an ally target with less than or equal to 50% this unit's Max HP, increases Hyacine and Little Ica's Outgoing Healing by 25% .\n\n A4 Major trace\n Stormy Caress\n\n Increases Hyacine's Effect RES by 50% . When using Skill and Ultimate, dispels 1 debuff(s) from all ally targets.\n\n A6 Major trace\n Tempestuous Halt\n\n When Hyacine's SPD exceeds 200 , increases her and Little Ica's Max HP by 20% . Then, for every 1 excess SPD, increases Hyacine's and Little Ica's Outgoing Healing by 1% . Up to a max of 200 excess SPD can be taken into account for this effect.\n\n Minor Traces (total)\n HP\n + 10%\n\n Speed\n + 14\n\n Effect RES\n + 18%\n\n Eidolons\n E 1\n Cradle the Candle of Night\n Eidolon 1\n\n When Hyacine is in the \"After Rain\" state, additionally increases the Max HP of all ally targets by 50% , and immediately restores HP equal to 8% of Hyacine's Max HP after using an attack.\n\n E 2\n Come Sit in My Courtyard\n Eidolon 2\n\n When an ally target's HP decreases, SPD increases by 30% , lasting for 2 turn(s)\n\n E 3\n Depart, Unto the Sun!\n Eidolon 3\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10. Memosprite Skill Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Sunlit Amber, Yours to Keep\n Eidolon 4\n\n The \"Tempestuous Halt\" Trace is enhanced. For every 1 of SPD exceeded, additionally increases Hyacine and Little Ica's CRIT DMG by 2% .\n\n E 5\n Twilight Drapes the Tide\n Eidolon 5\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15. Memosprite Talent Lv. +1 , up to a maximum of Lv. 10.\n\n E 6\n O Sky, Heed My Plea\n Eidolon 6\n\n Little Ica uses Memosprite Skill and changes the amount of Healing tally cleared to 12% . When Little Ica is on the field, increases all ally targets' All-Type RES PEN by 20% .\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1087\n\n ATK\n\n 388\n\n DEF\n\n 630\n\n Speed\n\n 110\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 308000\n\n Fear-Stomped Flesh\n\n x 15\n\n Courage-Torn Chest\n\n x 15\n\n A Glass of the Besotted Era\n\n x 65\n\n Glory-Aspersed Torso\n\n x 15\n\n CV\n ENG\n Holly Earl\n\n JPN\n Yomiya Hina (羊宮 妃那)\n\n CN\n Jing Chen (静宸)\n\n KR\n Kim Yeon-woo (김연우)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Excellent healing, both active and passive,\n\n Provides teamwide Max HP increase,\n\n Deals surprisingly good damage and has 100% CRIT Rate,\n\n Easy access to teamwide debuff cleansing,\n\n Naturally speedy and encourages high SPD,\n\n Excellent synergy with HP-scaling damage dealers,\n\n Great F2P light cone option.\n\n Cons\n Burst healing requires SP consumption,\n\n Very reliant on Ultimate for maximum benefits and to deal damage,\n\n Signature Light Cone provides significant benefits for multiple teams,\n\n The Little World Devourer can break free and destroy (or rather eat) everything we know if Hyacine ever loses control...\n\n Review (By Sushou)\n Hyacine is a Wind Remembrance healer that scales with HP. She is a peculiar but highly potent hybrid of healing sustain and damage dealer, with the ability to increase the Max HP of allies and provide fairly consistent debuff cleansing as well. Her memosprite Little Ica can deal damage based on a tally of the total healing done by Hyacine and Little Ica in the battle, resulting in staggering amounts of damage being dealt. She is an immaculate support option for any team, but especially for the many HP scaling units we now have available.\n The Path of Remembrance clearly didn't get the memo about picking a lane and sticking to it, as with Hyacine's release, it now has DPS, support, and healer niches all available to the one Path. Not that I'm complaining, because Hyacine is pretty ridiculous all around, and has a very cute memosprite called Little Ica, who definitely hasn't overtaken the community with various memes, and is definitely not some all-devouring god... probably.\n Hyacine is a sustain unit who is capable of dealing pretty remarkable damage as well. Little Ica has an initial Max HP equal to 50% of Hyacine's Max HP, and her Talent will also increase Little Ica's DMG dealt by 80% for 2 turns whenever either Hyacine or Little Ica provide healing to allies, stacking up to 3 times. This will make sense shortly.\n Her Skill will summon Little Ica and restore 8% of Hyacine's Max HP plus 160 for all allies besides Little Ica. It will instead restore 10% Hyacine's Max HP plus 200 for Little Ica. Little Ica's healing is done by sacrificing some of their HP, so getting a little bit of extra healing from Hyacine's Skill is very nice.\n Hyacine's Ultimate will also summon Little Ica if they are not present yet, and will restore 10% Hyacine's Max HP plus 200 for all allies besides Little Ica, who will receive 12% plus 240 instead. This Ultimate will put Hyacine into the After Rain state for 3 turns, and will be reduced by one at the start of Hyacine's turn. During After Rain, all allies have their Max HP increased by a ludicrous 30% plus 600, resulting in hilariously large HP values.\n This bonus affects Hyacine herself, meaning that all of her healing is also greatly increased in the process, as well as the healing that Little Ica provides. Having a whopping 30% extra Max HP is a massive boost to survivability for the entire party by default, but when paired with other HP scalers this becomes a massive boost to overall damage dealt, especially for characters like Castorice.\n So far, a fairly standard (though strong) kit, nothing really too outstanding, right? Ah, but we've yet to address the fluffy harbinger of doom Hyacine calls her memosprite yet.\n Little Ica's Talent describes how they act. They have 0 SPD, are immune to all debuffs, and will not appear on the Action Order. This hasn't really happened before, even summons like Lightning-Lord and Numby appear on the Action Order even if they can't be hit. Despite not showing up on the Action Order, Little Ica CAN still get targeted and hit for various effects and damage.\n Whenever allies other than Little Ica have their HP reduced for whatever reason, be it an enemy attack or self or ally consumption, Little Ica will consume 4% of their own Max HP to heal that ally by 2% of Hyacine's Max HP plus 20. This healing will occur at the start of any target's turn or after any target takes action. This is just a fancy way of saying it's ever so slightly delayed but not by enough to ever matter. This is quite useful for interactions where the amount of HP someone is missing is relevant for the turn in which they act.\n When Hyacine is in the After Rain state, Little Ica's healing effect will restore HP for all ally targets instead of just the one that triggered the condition. This means Hyacine and Little Ica get to restore a tremendous amount of HP during Hyacine's Ultimate duration, making it particularly easy to maintain a team with characters that sacrifice their life.\n This is where the damage now comes in. During the After Rain state, Little Ica will gain an Extra Turn whenever Hyacine uses an ability, and will automatically use 'Rainclouds, Time to Go!'. This is a fully AoE attack that has a unique multiplier.\n Throughout the encounter, Hyacine is keeping a tally of the amount of healing done by herself and Little Ica for that specific encounter. This tally is then what is used to calculate the damage of Little Ica's giga drill breaker; 20% of the tally of healing done that encounter is converted to Wind DMG and dealt to all enemies on the field.\n If you're looking at that and thinking 'oh that sounds like a lot of damage', congratulations, you are absolutely correct . More amusing is that this is a very consistent amount of damage to be doing as well, especially from the character occupying the sustain slot on the team.\n It's not infinite damage, however. Every time Little Ica pierces the heavens, the healing tally will be reduced by 50% . But since it's not getting completely wiped every time, this means you will always be doing *some* damage, and with the healing throughput that Hyacine can have (especially on the teams that like to maim themselves to deal damage), it's going to be *good* damage.\n Little Ica has a couple more passives as well. When summoned, Hyacine will restore an extra 15 Energy, increased to 30 Energy if it's the first time Little Ica is being summoned in the encounter. This means that Hyacine can very reasonably and consistently get a first turn Ultimate off in fights. Her Energy amount is only 140 which, while technically above average, is by no means so high that it's difficult to maintain most of the time. The last thing is that if Little Ica falls, Hyacine's action will be advanced by 30%, making it easier to resummon Little Ica quickly.\n It's a lot, and we're still not done, because there's the Bonus Traces as well.\n A2 will increase Hyacine and Little Ica's CRIT Rates by 100%, meaning they are always guaranteed to crit. In addition, whenever healing is provided for a target whose HP is equal to or less than 50% of Hyacine's Max HP, both Hyacine and Little Ica will gain a 25% Outgoing Healing boost. For low HP teammates such as those that do not scale their damage off of HP, or for particularly aggressive HP consumers, this is going to be active very often.\n\n A4 will simply increase Hyacine's Effect RES by 50%, and will let Hyacine cleanse a debuff from every single ally whenever she uses her Skill or her Ultimate. Easy access to a teamwide cleanse is invaluable for quite a few fights where it is otherwise easy to get overwhelmed by debilitating debuffs, and being more resistant to crowd-control herself is also very valuable, especially as it makes reaching 100% Effect RES that much easier, should you choose to do so.\n\n Lastly, A6 is a stat conversion Trace. When Hyacine's SPD exceeds 200, Hyacine and Little Ica will increase their Max HP by 20%. Then, for every 1 excess SPD, Hyacine and Little Ica will gain 1% Outgoing Healing bonus, up to 200% Outgoing Healing at 400 SPD.\n\n Now, obviously you are never hitting this number ever in regular gameplay, ever. However, the 200 SPD threshold is surprisingly easier to reach than you may expect ; Hyacine's Base SPD is 110, and she gains 14 SPD through her Minor Traces, so with some guaranteed SPD bonuses from Relics and a little bit of luck on substats, and you could very easily surpass 200 SPD when in combat, and indeed you should aim for it as the extra HP is a massive boost to all of what Hyacine wants to be doing.\n With all of that covered, it should be apparent that Hyacine's poised to be extremely useful for any team, as the healing output is phenomenal. As mentioned, her usefulness for Castorice is extremely high, and her use for other characters that scale around HP is similarly high.\n This, however, does come with a catch, which is how it can become less efficient to utilise Hyacine in teams that are not so SP efficient. In order for Hyacine to maintain her Ultimate’s After Rain state and keep Little Ica moving and her huge HP buff active she needs to use a skill every action or gain a significant amount of energy through combat - failing to do this will lead to downtime. Because of this Hyacine is strongest in teams with skill points to spare, though she’s still good in tighter SP set-ups, just less potent.\n Fortunately, Mydei and Castorice are incapable of consuming Skill Points, Blade uses very few, and each of their other team members generally restores more SP than they can consume anyway, so there is a surplus of Skill Points for Hyacine to use. Even outside HP scalers characters like Anaxa can be quite SP efficient if he needs to be and those who don’t require the HP% boost from Hyacine’s ultimate can manage a bit of downtime without much loss - meaning Hyacine can still be a top sustain choice across the board.\n Hyacine can also work as a substitute sustain unit in Feixiao teams and The Herta teams. For Feixiao, because Little Ica's attacks count towards generating Flying Aureus stacks for Feixiao, you can get a consistent stream of charge for Feixiao's Ultimate. It's a little more consistent than Aventurine, but without all of the other benefits that Aventurine brings. For The Herta teams, Lingsha is still undeniably the best option, but Hyacine is not too far behind, so is a viable alternative.\n With the inclusion of Hyacine's Signature Light Cone, she gains access to a debuff, meaning she is also now usable for Acheron to generate points of Slashed Dream for Acheron's Ultimate. This actually ends up being quite substantial and results in being the most consistent source of debuff generation from the sustain slot in an Acheron setup (excluding E2S1 Aventurine).\n As alluded to earlier this Light Cone also allows her to turbo-charge Blade due to its ability to siphon a token amount of HP whenever Hyacine uses a Basic, Skill, or Ultimate. This leads to Blade getting substantially more Talent follow-ups off and greatly increasing both his total damage output as well as his survivability. This is maybe the least compelling option of the teams right now, but Blade is slated to receive buffs Soon™, and depending on how that goes, this might be a particular synergy worth keeping an eye out for.\n Realistically, Hyacine is not that hard to use, so if you're paying even a small amount of attention, you'll probably be completely fine in whatever way you want to use her. There is actually a semi-cursed potential to use her as a hypercarry because of what Little Ica can do, pair her with Sunday and watch the sparks fly, but this is not her primary intended use case, so it's up to the individual if they want to go down this path. All we’ll say is that you may be surprised at the power of the portly Pegasus.\n Now go, my little devourer of worlds, be free and fill thy belly!\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Sustain\n T0\n MoC\n\n T0\n PF\n\n T0\n AS\n\n Build and teams\n\n Best Light Cones\n\n 1\n\n Long May Rainbows Adorn the Sky (S 1 )\n\n Hyacine's signature Light Cone grants her a permanent 18% SPD, and allows Little Ica to apply a 18% Vulnerability debuff. This Cone also adds a team-wide HP drain to each of Hyacine's Actions allowing her to trigger a myriad of additional effects within her teams opening up new synergies while also boosting her and Little Ica's performance at the same time.\n Usage: 78.1 %\n MoC: 7.33 cyc.\n PF: 39783\n AS: 3528\n\n 2\n\n Memory's Curtain Never Falls (S 5 )\n\n Herta's Store Remembrance Light Cone is Hyacine's best F2P option and primary alternative to her signature thanks to the large amount of increased SPD% it offers - this speed is key in allowing her to reach her 200 SPD breakpoint. This cone can also provide a team-wide DMG buff. When playing Hyacine alongside Remembrance Trailblazer, prioritize equipping this Light Cone on Hyacine.\n Usage: 15.18 %\n MoC: 8.62 cyc.\n PF: 35271\n AS: 3383\n\n 3\n\n The Story's Next Page (S 5 )\n\n If no other options are available, this Light Cone can boost Hyacine's healing, but will make it very hard for her to reach 200 SPD.\n Usage: 5.71 %\n MoC: 8.74 cyc.\n PF: 35299\n AS: 3373\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Warrior Goddess of Sun and Thunder ( 4 -PC)\n\n Clear best-in-slot for Hyacine, granting her 12% SPD allowing her to reach 200 Speed more easily while also boosting the team's CRIT DMG by 15%.\n Usage: 96.75 %\n MoC: 7.71 cyc.\n PF: 38829\n AS: 3472\n\n 2\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Usage: 0.12 %\n MoC: 8 cyc.\n PF: 36587\n AS: 3436\n\n Best Planetary Sets\n 1\n\n Giant Tree of Rapt Brooding ( 2 -PC)\n\n Helps Hyacine reach 200 SPD more easily while also boosting healing output. Top option for Hyacine personal damage and healing focused strategies.\n Usage: 98.29 %\n MoC: 7.71 cyc.\n PF: 38803\n AS: 3472\n\n 2\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Strong when supporting a single ATK based DPS character and when Energy Regen is useful (Cannot buff Memosprites).\n Usage: 0.17 %\n MoC: -\n PF: 40000\n AS: 3512\n\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top pick when when supporting one or many team mates of the same element as the wearer and when Energy Regen is useful. (Only to be used with Wind DPS)\n 4\n\n Broken Keel ( 2 -PC)\n\n Useful when seeking additional Effect Resistance and or when supporting CRIT based teammates\n Usage: 0.24 %\n MoC: -\n PF: 35360\n AS: 3349\n\n Best Stats\n\n Body\n Outgoing Healing\n > HP%\n\n Feet\n Speed\n\n Planar Sphere\n HP%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD to 200 or more > HP% > CRIT DMG >= Effect RES\n\n Recommended endgame stats\n HP: 4300 - 5000+\n\n DEF: 1000+\n\n CRIT DMG: 100 - 120%+\n\n SPD: 200+ (in combat)\n\n EFFECT RES: 32% (nice to have)\n Hyacine gains 68% Effect Res for free from her bonus ability and traces. After achieving her other stat goals, taking the time to gain the remaining 32% is well worth it to make her effect immune.\n\n Traces priority\n Skills priority: Ultimate > M.Talent = Skill > Talent = M.Skill > Basic (Healing Focus) or Talent = M.Skill > Ultimate > M.Talent = Skill > Basic (DPS Focus)\n\n Major Traces priority: Gloomy Grin (A2) > Stormy Caress (A4) > Tempestuous Halt (A6)\n\n Synergy\n Castorice - Hyacine is the best-in-slot sustain option for Castorice, able to reach insane SPD thresholds to provide the most Ultimate charge for Castorice. She also provides exceptional teamwide healing every Skill and Ultimate, and Little Ica can also provide small teamwide healing after HP loss either from Castorice or Hyacine's Light Cone HP drain, or from getting attacked. Also increases the team's Max HP to improve Castorice's scaling.\n March 7th • Evernight - Hyacine is similarly the strongest sustain slot for Evernight, another HP scaling / HP draining Remembrance character. Hyacine does not provide Ultimate charge but instead can stack up Evernight's powerful resource, Memoria, to access even higher multipliers. The HP buff on top is fantastic for Evernight's damage output, but the synergy is mutual; Evernight amplifies Little Ica's DPS by an obscene amount thanks to a high CRIT DMG buff, Vulnerability debuff, and possibly more through Relics and Light Cones.\n Mortenax Blade - Hyacine is currently the best sustain option for Mortenax Blade's damage due to her providing Max HP buffs. She naturally reaches high SPD and her turns are always followed by Little Ica's attacks which can generate a lot of charges for Mortenax Blade.\n Blade - With Hyacine's Signature Light Cone, every action by her can Charge Blade's Talent to allow for more Follow-up ATKs. She also provides a sizable teamwide HP buff, acts as a sub-dps and keeps Blade and his team alive making her one of his best team mates.\n The Herta Feixiao - When Hyacine's Ultimate is active, Little Ica will immediately attack again after every Hyacine's actions, which can benefit units that rely heavily on allies launching frequent attacks - The Herta especially benefits from this as Little Ica's attacks are AoE. With that said Hyacine requires heavy Skill Point investment in order to keep her Ultimate active which can hurt some team's resources. Aim to use Hyacine's Ultimate at the start of her turn to extend the duration.\n Acheron - With Hyacine's Signature Light Cone, Little Ica can apply a debuff every turn for Ultimate stacks adding her to the list of debuffing sustains Acheron can choose from.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 2\n App. rate: 23.72 %\n Avg. cycles : 7.24\n Avg. cycles (E1+): 3.81\n\n Rank 9\n App. rate: 4.29 %\n Avg. cycles : 8.35\n Avg. cycles (E1+): 4.82\n\n Rank 18\n App. rate: 1.68 %\n Avg. cycles : 7.32\n Avg. cycles (E1+): 3.77\n\n New\n\n Rank 20\n App. rate: 1.54 %\n Avg. cycles : 7.94\n Avg. cycles (E1+): 4.7\n\n Rank 21\n App. rate: 1.3 %\n Avg. cycles : 8.67\n Avg. cycles (E1+): 6.42\n\n Rank 22\n App. rate: 1.23 %\n Avg. cycles : 8.41\n Avg. cycles (E1+): 6.47\n\n Rank 25\n App. rate: 1 %\n Avg. cycles : 9.12\n Avg. cycles (E1+): 3.26\n\n Rank 28\n App. rate: 0.95 %\n Avg. cycles : 8.41\n Avg. cycles (E1+): 5.93\n\n Rank 30\n App. rate: 0.9 %\n Avg. cycles : 8.9\n Avg. cycles (E1+): 4.52\n\n New\n\n Rank 33\n App. rate: 0.76 %\n Avg. cycles : 7.89\n Avg. cycles (E1+): 6.43\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

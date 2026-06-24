@@ -1,0 +1,1466 @@
+{
+  "id": "characters:guinaifen",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "guinaifen",
+  "name": "Guinaifen",
+  "title": "Guinaifen Best Build Guide",
+  "sourcePath": "/star-rail/characters/guinaifen",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "31/May/2026",
+  "meta": {
+    "title": "Guinaifen Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 4,
+    "element": "Fire",
+    "path": "Nihility"
+  },
+  "assets": [
+    {
+      "id": "e7c32f758256",
+      "sourceHash": "e7c32f758256",
+      "kind": "characters",
+      "name": "Guinaifen",
+      "fileStem": "guinaifen-card",
+      "path": "Prydwen/hsr/assets/characters/guinaifen-e7c32f758256.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "83d3d255b767",
+      "sourceHash": "83d3d255b767",
+      "kind": "icons",
+      "name": "Fire DMG",
+      "fileStem": "stat-firedmg",
+      "path": "Prydwen/hsr/assets/icons/fire-dmg-83d3d255b767.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "fd6c20a21941",
+      "sourceHash": "fd6c20a21941",
+      "kind": "icons",
+      "name": "Effect HIT Rate",
+      "fileStem": "stat-effecthit",
+      "path": "Prydwen/hsr/assets/icons/effect-hit-rate-fd6c20a21941.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "6890417bdf8b",
+      "sourceHash": "6890417bdf8b",
+      "kind": "icons",
+      "name": "Break Effect",
+      "fileStem": "stat-break",
+      "path": "Prydwen/hsr/assets/icons/break-effect-6890417bdf8b.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "96654253a4f7",
+      "sourceHash": "96654253a4f7",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "dc6aec4a7776",
+      "sourceHash": "dc6aec4a7776",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "a6be649090ba",
+      "sourceHash": "a6be649090ba",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "087f2dec68b6",
+      "sourceHash": "087f2dec68b6",
+      "kind": "icons",
+      "name": "Speed",
+      "fileStem": "stat-speed",
+      "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "50d0e755383a",
+      "sourceHash": "50d0e755383a",
+      "kind": "items",
+      "name": "Credit",
+      "fileStem": "credit",
+      "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "4b49275a9402",
+      "sourceHash": "4b49275a9402",
+      "kind": "items",
+      "name": "Artifex's Module",
+      "fileStem": "artifex-module",
+      "path": "Prydwen/hsr/assets/items/artifexs-module-4b49275a9402.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "c86f47a9e4e8",
+      "sourceHash": "c86f47a9e4e8",
+      "kind": "items",
+      "name": "Artifex's Cogwheel",
+      "fileStem": "artifex-cogwheel",
+      "path": "Prydwen/hsr/assets/items/artifexs-cogwheel-c86f47a9e4e8.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "ce05b442f040",
+      "sourceHash": "ce05b442f040",
+      "kind": "items",
+      "name": "Searing Steel Blade",
+      "fileStem": "searing-steel-blade",
+      "path": "Prydwen/hsr/assets/items/searing-steel-blade-ce05b442f040.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "a7a4c46218eb",
+      "sourceHash": "a7a4c46218eb",
+      "kind": "items",
+      "name": "Artifex's Gyreheart",
+      "fileStem": "artifex-gyreheart",
+      "path": "Prydwen/hsr/assets/items/artifexs-gyreheart-a7a4c46218eb.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "ccfd0b05a9af",
+      "sourceHash": "ccfd0b05a9af",
+      "kind": "characters",
+      "name": "Guinaifen",
+      "fileStem": "guinaifen-full",
+      "path": "Prydwen/hsr/assets/characters/guinaifen-ccfd0b05a9af.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "54a56452a37b",
+      "sourceHash": "54a56452a37b",
+      "kind": "light-cones",
+      "name": "Lies Dance on the Breeze",
+      "fileStem": "lies-dance-on-the-breeze",
+      "path": "Prydwen/hsr/assets/light-cones/lies-dance-on-the-breeze-54a56452a37b.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "15da4c783197",
+      "sourceHash": "15da4c783197",
+      "kind": "light-cones",
+      "name": "Those Many Springs",
+      "fileStem": "those-many-springs",
+      "path": "Prydwen/hsr/assets/light-cones/those-many-springs-15da4c783197.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "8041d992b728",
+      "sourceHash": "8041d992b728",
+      "kind": "light-cones",
+      "name": "Resolution Shines As Pearls of Sweat",
+      "fileStem": "resolution-shines-as-pearls-of-sweat",
+      "path": "Prydwen/hsr/assets/light-cones/resolution-shines-as-pearls-of-sweat-8041d992b728.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "c1dc6c998c62",
+      "sourceHash": "c1dc6c998c62",
+      "kind": "light-cones",
+      "name": "Eyes of the Prey",
+      "fileStem": "eyes-of-the-prey",
+      "path": "Prydwen/hsr/assets/light-cones/eyes-of-the-prey-c1dc6c998c62.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "f6766d543c32",
+      "sourceHash": "f6766d543c32",
+      "kind": "light-cones",
+      "name": "Solitary Healing",
+      "fileStem": "solitary-healing",
+      "path": "Prydwen/hsr/assets/light-cones/solitary-healing-f6766d543c32.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "4cb8065ad660",
+      "sourceHash": "4cb8065ad660",
+      "kind": "relics",
+      "name": "Messenger Traversing Hackerspace",
+      "fileStem": "messenger-traversing-hackerspace",
+      "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5cb190fcc346",
+      "sourceHash": "5cb190fcc346",
+      "kind": "relics",
+      "name": "Sacerdos' Relived Ordeal",
+      "fileStem": "sacerdos-relived-ordeal",
+      "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "6e205de52037",
+      "sourceHash": "6e205de52037",
+      "kind": "relics",
+      "name": "Pioneer Diver of Dead Waters",
+      "fileStem": "pioneer-diver-of-dead-waters",
+      "path": "Prydwen/hsr/assets/relics/pioneer-diver-of-dead-waters-6e205de52037.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "b75b6bbcc082",
+      "sourceHash": "b75b6bbcc082",
+      "kind": "relics",
+      "name": "Firesmith of Lava-Forging",
+      "fileStem": "firesmith-of-lava-forging",
+      "path": "Prydwen/hsr/assets/relics/firesmith-of-lava-forging-b75b6bbcc082.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "deeeca721276",
+      "sourceHash": "deeeca721276",
+      "kind": "relics",
+      "name": "Musketeer of Wild Wheat",
+      "fileStem": "musketeer-of-wild-wheat",
+      "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "507bb2127c32",
+      "sourceHash": "507bb2127c32",
+      "kind": "relics",
+      "name": "Prisoner in Deep Confinement",
+      "fileStem": "prisoner-in-deep-confinement",
+      "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "2d90f2919c5d",
+      "sourceHash": "2d90f2919c5d",
+      "kind": "relics",
+      "name": "The Wind-Soaring Valorous",
+      "fileStem": "the-wind-soaring-valorous",
+      "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "2fc8ce1ab137",
+      "sourceHash": "2fc8ce1ab137",
+      "kind": "relics",
+      "name": "Iron Cavalry Against the Scourge",
+      "fileStem": "iron-cavalry-against-the-scourge",
+      "path": "Prydwen/hsr/assets/relics/iron-cavalry-against-the-scourge-2fc8ce1ab137.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5b886a96e17a",
+      "sourceHash": "5b886a96e17a",
+      "kind": "relics",
+      "name": "Fleet of the Ageless",
+      "fileStem": "fleet-of-the-ageless",
+      "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "3306e6f6288f",
+      "sourceHash": "3306e6f6288f",
+      "kind": "relics",
+      "name": "Broken Keel",
+      "fileStem": "broken-keel",
+      "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d6cdb5f16b16",
+      "sourceHash": "d6cdb5f16b16",
+      "kind": "relics",
+      "name": "Penacony, Land of the Dreams",
+      "fileStem": "penacony-land-of-the-dreams",
+      "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d6aae5028c5a",
+      "sourceHash": "d6aae5028c5a",
+      "kind": "relics",
+      "name": "Lushaka, the Sunken Seas",
+      "fileStem": "lushaka-the-sunken-seas",
+      "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "83a4c570a0a2",
+      "sourceHash": "83a4c570a0a2",
+      "kind": "relics",
+      "name": "Firmament Frontline: Glamoth",
+      "fileStem": "firmament-frontline-glamoth",
+      "path": "Prydwen/hsr/assets/relics/firmament-frontline-glamoth-83a4c570a0a2.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "f08c8ab4a73a",
+      "sourceHash": "f08c8ab4a73a",
+      "kind": "relics",
+      "name": "Forge of the Kalpagni Lantern",
+      "fileStem": "forge-of-the-kalpagni-lantern",
+      "path": "Prydwen/hsr/assets/relics/forge-of-the-kalpagni-lantern-f08c8ab4a73a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "bb6d718b4cb3",
+      "sourceHash": "bb6d718b4cb3",
+      "kind": "relics",
+      "name": "Sprightly Vonwacq",
+      "fileStem": "sprightly-vonwacq",
+      "path": "Prydwen/hsr/assets/relics/sprightly-vonwacq-bb6d718b4cb3.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "a137ba3e51ff",
+      "sourceHash": "a137ba3e51ff",
+      "kind": "characters",
+      "name": "Kafka",
+      "fileStem": "kafka-icon",
+      "path": "Prydwen/hsr/assets/characters/kafka-a137ba3e51ff.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "fbcfe4133d08",
+      "sourceHash": "fbcfe4133d08",
+      "kind": "characters",
+      "name": "Acheron",
+      "fileStem": "acheron-icon",
+      "path": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "bc2d64a2cd5f",
+      "sourceHash": "bc2d64a2cd5f",
+      "kind": "characters",
+      "name": "Hysilens",
+      "fileStem": "hysilens-icon",
+      "path": "Prydwen/hsr/assets/characters/hysilens-bc2d64a2cd5f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e0db16ed6c66",
+      "sourceHash": "e0db16ed6c66",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "ele-physical",
+      "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "e01f880a2668",
+      "sourceHash": "e01f880a2668",
+      "kind": "characters",
+      "name": "Black Swan",
+      "fileStem": "black-swan-icon",
+      "path": "Prydwen/hsr/assets/characters/black-swan-e01f880a2668.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ee11bd390c9a",
+      "sourceHash": "ee11bd390c9a",
+      "kind": "icons",
+      "name": "Wind",
+      "fileStem": "ele-wind",
+      "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "d197456869a0",
+      "sourceHash": "d197456869a0",
+      "kind": "icons",
+      "name": "Lightning",
+      "fileStem": "ele-lightning",
+      "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "9ca500103ec6",
+      "sourceHash": "9ca500103ec6",
+      "kind": "characters",
+      "name": "Guinaifen",
+      "fileStem": "guinaifen-icon",
+      "path": "Prydwen/hsr/assets/characters/guinaifen-9ca500103ec6.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "92feb26d8f0e",
+      "sourceHash": "92feb26d8f0e",
+      "kind": "icons",
+      "name": "Fire",
+      "fileStem": "ele-fire",
+      "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+      "width": 22,
+      "height": 22
+    }
+  ],
+  "sections": [
+    {
+      "id": "guinaifen-best-build-guide-0",
+      "level": 1,
+      "heading": "Guinaifen Best Build Guide",
+      "text": "Last updated: 31/May/2026",
+      "assets": [
+        {
+          "id": "e7c32f758256",
+          "sourceHash": "e7c32f758256",
+          "kind": "characters",
+          "name": "Guinaifen",
+          "fileStem": "guinaifen-card",
+          "path": "Prydwen/hsr/assets/characters/guinaifen-e7c32f758256.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Guinaifen from HSR (Honkai: Star Rail). Guinaifen is a 4 ★ character from the Fire element who follows the Path of Nihility .\n A performance artist visiting the Xianzhou Luofu — in other words, a street performer.\nShe's chasing a new life on the Luofu when not concerned with food and shelter.\n\n To learn more about Guinaifen check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Guinaifen has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 3.0\n\n Last major build/calcs update\n Patch 3.4\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Guinaifen check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic ATK\n Standing Ovation\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Fire DMG equal to #1[i]% of Guinaifen's ATK to a single enemy.\n\n Skill\n Blazing Welcome\n Blast\n\n Lv. 1\n\n Energy gain: 30\n Break: 20 + 10 adjacent\n\n Deals Fire DMG equal to #1[i]% of Guinaifen's ATK to a single enemy and deals Fire DMG equal to #2[i]% of Guinaifen's ATK to any adjacent enemies with a #3[i]% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to #4[i]% of Guinaifen's ATK at the beginning of each turn, lasting for #5[i] turn(s).\n\n Ultimate\n Watch This Showstopper\n AoE | 120 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Deals Fire DMG equal to #1[i]% of Guinaifen's ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produce DMG equal to #2[i]% of their original DMG.\n\n Talent\n PatrAeon Benefits\n Impair\n\n Lv. 1\n\n Energy gain: 5\n Break: -\n\n When Guinaifen is on the field, there is a #1[i]% base chance to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives #4[i]% increased DMG, which lasts for #5[i] turn(s) and can stack up to #6[i] time(s).\n\n Technique\n Skill Showcase\n\n Energy gain: 0\n Break: 20\n\n Immediately attacks the enemy. After entering battle, deals DMG for #2[i] time(s), dealing Fire DMG equal to #1[i]% of Guinaifen's ATK to a random single enemy target each time, with a #3[i]% base chance of inflicting Firekiss on them.",
+      "assets": []
+    },
+    {
+      "id": "major-traces-10",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "A2 Major trace\n High Poles\n\n Basic ATK has a 80% base chance of inflicting an enemy with a Burn, equivalent to that of Skill.\n\n A4 Major trace\n Bladed Hoop\n\n When the battle begins, Guinaifen's action is advanced forward by 25% .\n\n A6 Major trace\n Walking on Knives\n\n Deals 20% more DMG to Burned enemies.",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-11",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "Fire DMG\n + 22.4%\n\n Effect HIT Rate\n + 10%\n\n Break Effect\n + 24%",
+      "assets": [
+        {
+          "id": "83d3d255b767",
+          "sourceHash": "83d3d255b767",
+          "kind": "icons",
+          "name": "Fire DMG",
+          "fileStem": "stat-firedmg",
+          "path": "Prydwen/hsr/assets/icons/fire-dmg-83d3d255b767.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "fd6c20a21941",
+          "sourceHash": "fd6c20a21941",
+          "kind": "icons",
+          "name": "Effect HIT Rate",
+          "fileStem": "stat-effecthit",
+          "path": "Prydwen/hsr/assets/icons/effect-hit-rate-fd6c20a21941.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "6890417bdf8b",
+          "sourceHash": "6890417bdf8b",
+          "kind": "icons",
+          "name": "Break Effect",
+          "fileStem": "stat-break",
+          "path": "Prydwen/hsr/assets/icons/break-effect-6890417bdf8b.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "eidolons-12",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "E 1\n Slurping Noodles During Handstand\n Eidolon 1\n\n When Skill is used, there is a 100% base chance to reduce the attacked target enemy's Effect RES by 10% for 2 turn(s).\n\n E 2\n Brushing Teeth While Whistling\n Eidolon 2\n\n When an enemy target is Burned, Guinaifen's Basic ATK and Skill can increase the DMG multiplier of their Burn status by 40% .\n\n E 3\n Smashing Boulder on Chest\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Blocking Pike with Neck\n Eidolon 4\n\n Every time the Burn status inflicted by Guinaifen causes DMG, Guinaifen regenerates 2 Energy.\n\n E 5\n Swallowing Sword to Stomach\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Catching Bullet with Hands\n Eidolon 6\n\n Increases the stackable Firekiss count by 1 .",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-13",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Enable Ascension",
+      "assets": []
+    },
+    {
+      "id": "level-80-stats-14",
+      "level": 5,
+      "heading": "Level 80 stats",
+      "text": "HP\n\n 882\n\n ATK\n\n 582\n\n DEF\n\n 441\n\n Speed\n\n 106",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "level-1-80-ascension-materials-15",
+      "level": 5,
+      "heading": "Level 1 → 80 Ascension Materials",
+      "text": "Credit\n\n x 246400\n\n Artifex's Module\n\n x 12\n\n Artifex's Cogwheel\n\n x 13\n\n Searing Steel Blade\n\n x 50\n\n Artifex's Gyreheart\n\n x 12",
+      "assets": [
+        {
+          "id": "50d0e755383a",
+          "sourceHash": "50d0e755383a",
+          "kind": "items",
+          "name": "Credit",
+          "fileStem": "credit",
+          "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "4b49275a9402",
+          "sourceHash": "4b49275a9402",
+          "kind": "items",
+          "name": "Artifex's Module",
+          "fileStem": "artifex-module",
+          "path": "Prydwen/hsr/assets/items/artifexs-module-4b49275a9402.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "c86f47a9e4e8",
+          "sourceHash": "c86f47a9e4e8",
+          "kind": "items",
+          "name": "Artifex's Cogwheel",
+          "fileStem": "artifex-cogwheel",
+          "path": "Prydwen/hsr/assets/items/artifexs-cogwheel-c86f47a9e4e8.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "ce05b442f040",
+          "sourceHash": "ce05b442f040",
+          "kind": "items",
+          "name": "Searing Steel Blade",
+          "fileStem": "searing-steel-blade",
+          "path": "Prydwen/hsr/assets/items/searing-steel-blade-ce05b442f040.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "a7a4c46218eb",
+          "sourceHash": "a7a4c46218eb",
+          "kind": "items",
+          "name": "Artifex's Gyreheart",
+          "fileStem": "artifex-gyreheart",
+          "path": "Prydwen/hsr/assets/items/artifexs-gyreheart-a7a4c46218eb.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "cv-16",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n Morgan Lauré\n\n JPN\n 直田姫奈 (Suguta Hina)\n\n CN\n 小敢 (Xiaogan)\n\n KR\n 김수영 (Kim Soo-young)",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "ccfd0b05a9af",
+          "sourceHash": "ccfd0b05a9af",
+          "kind": "characters",
+          "name": "Guinaifen",
+          "fileStem": "guinaifen-full",
+          "path": "Prydwen/hsr/assets/characters/guinaifen-ccfd0b05a9af.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Strong universally appreciated debuff with permanent uptime,\n\n SP flexible,\n\n Decent personal damage output for a support,\n\n Can force proc all Burn DoT effects on enemies,\n\n Fully SP positive in single-target.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Extremely investment heavy especially for a Support,\n\n Damage taken is a weaker debuff than DEF Shred,\n\n Specific stat requirements can leave little room for defensive stats.",
+      "assets": []
+    },
+    {
+      "id": "review-by-sushou-21",
+      "level": 2,
+      "heading": "Review (By Sushou)",
+      "text": "Guinaifen is a decent 4-star Support character. She afflicts enemies with a debuff that increases their total damage taken and can stack up to 3 times. She also deals a very impressive amount of damage over time (for a Support that is) and can apply it very easily to many enemies at once. She can even be SP positive in 1 or 2 target scenarios, resulting in a near-universally applicable support character that also contributes very significant damage of her own. The cost of this is a very steep investment requirement, especially when compared to other support options.\n Guinaifen, Guinevere, or just Gwen. However you choose to call her, her charm is infectious and fiery, and her gameplay is equally explosive. As a DoT-based character, you may be led to believe that Gwen is predominantly made for Kafka teams and that she may not see much use elsewhere, but you would be quite mistaken.\n Guinaifen’s Talent is the source of her powerful debuff. While she is still alive and on the field, there is a 100% base chance to apply the Firekiss debuff to an enemy after they sustain damage from a Burn DoT. Firekiss will increase the damage that the target takes by up to 7%, stacking up to 3 times for a total of 21%.\n Being able to inflict a 21% damage vulnerability is very strong. While damage taken is a slightly lesser debuff when compared to the likes of DEF Shred, it has the similar benefit of being very uncommon, meaning it often performs at its listed values due to not suffering from diminishing returns. Welt’s 12% damage vulnerability debuff already gets high praise, and Gwen comes in slamming with 21%. What’s more ridiculous is that Firekiss lasts for 3 turns, meaning this debuff is permanently active in practice. Even better is it’s completely unremovable, so there’s no possible way for enemies to get rid of it outside of its duration running out.\n Since her Talent requires a Burn DoT, it’s only fitting that she can also apply one. Guinaifen’s Skill will deal damage in a Blast AoE, up to 120% ATK to the main target and up to 40% to adjacent foes. This Skill has a 100% base chance to Burn all targets hits for 2 turns. Oh and the Burn DoT itself deals up to 218% of Gwen’s ATK per tick. That is a very impressive damage multiplier to have in what is supposed to be a support character’s kit. Having a 100% base chance also means that it’s relatively easy to get enough Effect Hit Rate (EHR) to make this a guaranteed application on even the absolute pinnacle enemies you may encounter.\n Guinaifen’s Ultimate deals damage to all enemies on the field, up to 120% ATK at max Trace level. If a target is afflicted with Burn, it will immediately deal damage equal to 92% of the Burn’s original damage. Yeah, the thing that Kafka does for all DoT effects, Gwen can do that for all Burns. This significantly improves her already quite impressive personal damage. With this Ultimate having an average Energy cost of 120, this is going to be up pretty often. This also has the added benefit of stacking Firekiss even faster, thus reducing the required ramp-up time.\n Guinaifen’s Bonus Ability Traces raise her efficacy quite substantially. Her A2 will grant her Basic ATK an 80% base chance to inflict the same Burn DoT as the one from her Skill. While the base chance is slightly lower than on her Skill, this is what allows Gwen to be SP flexible, as she can range from SP neutral to even SP positive in 1 or 2 target scenarios as the majority of her damage comes from DoT. With this Bonus Ability, Gwen is able to contribute very significant damage while still restoring SP.\n Her A4 will Advance Forward Gwen’s action by 25% at the beginning of the fight, which with a good amount of SPD will usually mean Gwen is one of the first people to act in a fight, if not the first. It’s like having a weaker Vonwacq permanently without actually needing to use Vonwacq (this is the greatest trade deal in the history of trade deals).\n Gwen’s A6 is particularly potent as it is exactly what Himeko has, causing Gwen to deal 20% increased damage to Burned enemies. This naturally also applies to the DoT effect she applies, and also stacks fully with her own damage vulnerability provided by Firekiss. Interesting to note as well is that Gwen is the first character to get Break Effect Minor Traces, getting a total of 24% Break Effect for free.\n Guinaifen absolutely does not need Eidolons to be strong, but as a 4-star character it is entirely possible to eventually get Eidolons for her. Of particular note is E1 and E6. E1 grants Skill a 100% base chance to reduce the attacked enemies’ Effect RES by 10% for 2 turns, and E6 increases the maximum stacks of Firekiss to 4, meaning that by the time you get to this Eidolon level, Firekiss is going to be providing a 30.4% damage vulnerability.\n However, the cost of this power is the need for investment, and it is a particularly great need for Guinaifen. Usually support options like Pela only really need a little bit of one important stat to get going, sometimes not even needing to be at max level. Guinaifen can get by with the bare minimum just like the aforementioned characters, but she won’t be able to compete with them at just that level, as she really wants to be built to deal damage as well.\n She reaches a whole new level when you actually invest into her fully, and while this is something that is ultimately a very good investment, it is also something that not everybody can immediately afford to do. In addition to this, since Guinaifen does deal damage and especially because she is likely to be using Basic ATK a lot, she also requires pretty much all of her Traces to be levelled up to the maximum, which is yet more investment compared to her fellow debuffer.\n Getting the required amount of EHR without sacrificing too much ATK% is actually quite difficult, and because of the need for such stats to begin with, Guinaifen can potentially be a little less safe when compared to support options that can afford to go for defensive stats. In practice, this should not be a particularly difficult thing to work around since Tingyun is one of the best supports already and has the same investment requirements and perceived squishiness, and Gwen has higher base stats than Tingyun does. If this is the supposed reason for your Gwen dying, that is most assuredly not the fault of Guinaifen.\n Think of her as a long-term investment that will only get better as you get more things for her. She’s worth the extra effort, even if it may not be immediately evident.",
+      "assets": []
+    },
+    {
+      "id": "ratings-22",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.",
+      "assets": []
+    },
+    {
+      "id": "eidolon-0-23",
+      "level": 5,
+      "heading": "Eidolon 0",
+      "text": "T5\n MoC\n\n T5\n PF\n\n T5\n AS",
+      "assets": []
+    },
+    {
+      "id": "eidolon-6-24",
+      "level": 5,
+      "heading": "Eidolon 6",
+      "text": "T5\n MoC\n\n T5\n PF\n\n T5\n AS\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "best-light-cones-26",
+      "level": 2,
+      "heading": "Best Light Cones",
+      "text": "1\n\n Lies Dance on the Breeze (S 1 )\n\n Cipher's signature and a top option on almost every Nihility character working within the supportive role, thanks to its 2-turn 24% DEF shred debuff applied on hit and tremendous 18% increased SPD. Requires the wearer to reach 170 SPD to fully activate but thanks to this Cone's passive SPD and most supports building SPD anyways this isn't unachievable.\n\n 2\n\n Those Many Springs (S 1 )\n\n Incredibly strong team-wide supportive option for DoT based Nihility supports seeking a large amount of Effect Hit Rating and who can apply and maintain their DoT throughout combat.\n\n 3\n\n Resolution Shines As Pearls of Sweat (S 1 )\n\n One of the top Nihility supportive options available. Must be played around effectively due to its 1 turn duration - aim to apply this during the enemies turn or right after it. Becomes more powerful when combined with other sources of DEF% reduction.",
+      "assets": [
+        {
+          "id": "54a56452a37b",
+          "sourceHash": "54a56452a37b",
+          "kind": "light-cones",
+          "name": "Lies Dance on the Breeze",
+          "fileStem": "lies-dance-on-the-breeze",
+          "path": "Prydwen/hsr/assets/light-cones/lies-dance-on-the-breeze-54a56452a37b.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "15da4c783197",
+          "sourceHash": "15da4c783197",
+          "kind": "light-cones",
+          "name": "Those Many Springs",
+          "fileStem": "those-many-springs",
+          "path": "Prydwen/hsr/assets/light-cones/those-many-springs-15da4c783197.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "8041d992b728",
+          "sourceHash": "8041d992b728",
+          "kind": "light-cones",
+          "name": "Resolution Shines As Pearls of Sweat",
+          "fileStem": "resolution-shines-as-pearls-of-sweat",
+          "path": "Prydwen/hsr/assets/light-cones/resolution-shines-as-pearls-of-sweat-8041d992b728.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "specialist-light-cones-27",
+      "level": 3,
+      "heading": "Specialist Light Cones",
+      "text": "1\n\n Eyes of the Prey (S 5 )\n\n Solid option for those seeking a strong amount of Effect Hit Rating and or a large boost to DoT damage.\n\n 2\n\n Solitary Healing (S 5 )\n\n Specialty Energy Regeneration Cone for DoT users that grants tremendous Energy generation in endgame modes with many enemies that can be killed quickly like Pure Fiction, allowing for Ult spamming assuming the wearer can apply their DoT's fast enough. Also provides solid DoT DMG% and some Break Effect as an additional bonus.",
+      "assets": [
+        {
+          "id": "c1dc6c998c62",
+          "sourceHash": "c1dc6c998c62",
+          "kind": "light-cones",
+          "name": "Eyes of the Prey",
+          "fileStem": "eyes-of-the-prey",
+          "path": "Prydwen/hsr/assets/light-cones/eyes-of-the-prey-c1dc6c998c62.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "f6766d543c32",
+          "sourceHash": "f6766d543c32",
+          "kind": "light-cones",
+          "name": "Solitary Healing",
+          "fileStem": "solitary-healing",
+          "path": "Prydwen/hsr/assets/light-cones/solitary-healing-f6766d543c32.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-relic-sets-29",
+      "level": 2,
+      "heading": "Best Relic Sets",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Pioneer Diver of Dead Waters\n\n Firesmith of Lava-Forging\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous",
+      "assets": [
+        {
+          "id": "4cb8065ad660",
+          "sourceHash": "4cb8065ad660",
+          "kind": "relics",
+          "name": "Messenger Traversing Hackerspace",
+          "fileStem": "messenger-traversing-hackerspace",
+          "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "5cb190fcc346",
+          "sourceHash": "5cb190fcc346",
+          "kind": "relics",
+          "name": "Sacerdos' Relived Ordeal",
+          "fileStem": "sacerdos-relived-ordeal",
+          "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "6e205de52037",
+          "sourceHash": "6e205de52037",
+          "kind": "relics",
+          "name": "Pioneer Diver of Dead Waters",
+          "fileStem": "pioneer-diver-of-dead-waters",
+          "path": "Prydwen/hsr/assets/relics/pioneer-diver-of-dead-waters-6e205de52037.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "b75b6bbcc082",
+          "sourceHash": "b75b6bbcc082",
+          "kind": "relics",
+          "name": "Firesmith of Lava-Forging",
+          "fileStem": "firesmith-of-lava-forging",
+          "path": "Prydwen/hsr/assets/relics/firesmith-of-lava-forging-b75b6bbcc082.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "deeeca721276",
+          "sourceHash": "deeeca721276",
+          "kind": "relics",
+          "name": "Musketeer of Wild Wheat",
+          "fileStem": "musketeer-of-wild-wheat",
+          "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "507bb2127c32",
+          "sourceHash": "507bb2127c32",
+          "kind": "relics",
+          "name": "Prisoner in Deep Confinement",
+          "fileStem": "prisoner-in-deep-confinement",
+          "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "2d90f2919c5d",
+          "sourceHash": "2d90f2919c5d",
+          "kind": "relics",
+          "name": "The Wind-Soaring Valorous",
+          "fileStem": "the-wind-soaring-valorous",
+          "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-specialist-relic-sets-30",
+      "level": 6,
+      "heading": "Best Specialist Relic Sets",
+      "text": "1\n\n Prisoner in Deep Confinement ( 4 -PC)\n\n Exceptional damage set for DoT-focused characters that play within teams that can consistently apply and maintain 3 DoT's to enemies. Becomes more powerful when combined with other sources of DEF% reduction. Best set for a damage-focused Guinaifen if supportive 2P bonuses and sub stats aren't a priority.\n 2\n\n Iron Cavalry Against the Scourge ( 4 -PC)\n\n Top damage-focused option for characters that play within teams that leverage Super Break or deal predominantly Break/Super Break damage themselves. Becomes even stronger with additional sources of DEF% reduction. Should only be used when playing Guinaifen in Super Break teams where she is granted the ability to do so by another teammate.",
+      "assets": [
+        {
+          "id": "507bb2127c32",
+          "sourceHash": "507bb2127c32",
+          "kind": "relics",
+          "name": "Prisoner in Deep Confinement",
+          "fileStem": "prisoner-in-deep-confinement",
+          "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "2fc8ce1ab137",
+          "sourceHash": "2fc8ce1ab137",
+          "kind": "relics",
+          "name": "Iron Cavalry Against the Scourge",
+          "fileStem": "iron-cavalry-against-the-scourge",
+          "path": "Prydwen/hsr/assets/relics/iron-cavalry-against-the-scourge-2fc8ce1ab137.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-planetary-sets-31",
+      "level": 6,
+      "heading": "Best Planetary Sets",
+      "text": "1\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 2\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.",
+      "assets": [
+        {
+          "id": "5b886a96e17a",
+          "sourceHash": "5b886a96e17a",
+          "kind": "relics",
+          "name": "Fleet of the Ageless",
+          "fileStem": "fleet-of-the-ageless",
+          "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "3306e6f6288f",
+          "sourceHash": "3306e6f6288f",
+          "kind": "relics",
+          "name": "Broken Keel",
+          "fileStem": "broken-keel",
+          "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "d6cdb5f16b16",
+          "sourceHash": "d6cdb5f16b16",
+          "kind": "relics",
+          "name": "Penacony, Land of the Dreams",
+          "fileStem": "penacony-land-of-the-dreams",
+          "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "d6aae5028c5a",
+          "sourceHash": "d6aae5028c5a",
+          "kind": "relics",
+          "name": "Lushaka, the Sunken Seas",
+          "fileStem": "lushaka-the-sunken-seas",
+          "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-specialist-planetary-sets-32",
+      "level": 6,
+      "heading": "Best Specialist Planetary Sets",
+      "text": "1\n\n Firmament Frontline: Glamoth ( 2 -PC)\n\n A generic and strong option for damage characters that scale best from the combiantion of DMG% and ATK% and who can build/reach a large amount of Speed (160 preferrably). A top option for those looking to elevate their Guinaifen's damage instead of using supportive options.\n 2\n\n Forge of the Kalpagni Lantern ( 2 -PC)\n\n Powerful Break-focused set, primarily for Fire characters. Useful both for Break characters and Break scaling Supports and Sustains thanks to its massive Break Effect% buff and permanent 6% Speed boost. Should only be used when playing Guinaifen within Super Break teams where she is granted the ability to do so by another teammate.\n 3\n\n Sprightly Vonwacq ( 2 -PC)\n\n Incredibly potent option for buff/debuff based characters. The advance from this set allows the wearer to apply their buffs/debuffs before the rest of the team acts, accelerate rotations, allows access to ultimates closer to the start of the fight and also grants Energy Regen - a valuable stat for many supports.",
+      "assets": [
+        {
+          "id": "83a4c570a0a2",
+          "sourceHash": "83a4c570a0a2",
+          "kind": "relics",
+          "name": "Firmament Frontline: Glamoth",
+          "fileStem": "firmament-frontline-glamoth",
+          "path": "Prydwen/hsr/assets/relics/firmament-frontline-glamoth-83a4c570a0a2.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "f08c8ab4a73a",
+          "sourceHash": "f08c8ab4a73a",
+          "kind": "relics",
+          "name": "Forge of the Kalpagni Lantern",
+          "fileStem": "forge-of-the-kalpagni-lantern",
+          "path": "Prydwen/hsr/assets/relics/forge-of-the-kalpagni-lantern-f08c8ab4a73a.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "bb6d718b4cb3",
+          "sourceHash": "bb6d718b4cb3",
+          "kind": "relics",
+          "name": "Sprightly Vonwacq",
+          "fileStem": "sprightly-vonwacq",
+          "path": "Prydwen/hsr/assets/relics/sprightly-vonwacq-bb6d718b4cb3.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-stats-34",
+      "level": 2,
+      "heading": "Best Stats",
+      "text": "Body\n ATK%\n > Effect HIT Rate\n\n Feet\n Speed\n\n Planar Sphere\n Fire DMG\n > ATK%\n\n Link Rope\n ATK%\n\n Substats: EHR (67%) > SPD (breakpoint) > ATK% > HP% = DEF% = Break Effect %\n\n Stack enough sub-stats to reach 67% Effect Hit Rating and 134 Speed after which stack ATK% as much as possible. While fishing for ATK% ensure your HP and Defence are not neglected and aim for the recommended stat template to ensure Guinaifen isn't constantly getting 1-shot. Break effect can also be good but is more suited to highly specialized Guinaifen builds.",
+      "assets": [
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "fd6c20a21941",
+          "sourceHash": "fd6c20a21941",
+          "kind": "icons",
+          "name": "Effect HIT Rate",
+          "fileStem": "stat-effecthit",
+          "path": "Prydwen/hsr/assets/icons/effect-hit-rate-fd6c20a21941.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "83d3d255b767",
+          "sourceHash": "83d3d255b767",
+          "kind": "icons",
+          "name": "Fire DMG",
+          "fileStem": "stat-firedmg",
+          "path": "Prydwen/hsr/assets/icons/fire-dmg-83d3d255b767.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "recommended-endgame-stats-35",
+      "level": 2,
+      "heading": "Recommended endgame stats",
+      "text": "HP: 3000+\n\n DEF: 800 - 900+\n\n ATK: 2600 - 3000+\n\n SPD: 134 / 143 (Recommended)\n\n EFFECT HIT RATE : 67%",
+      "assets": []
+    },
+    {
+      "id": "traces-priority-36",
+      "level": 2,
+      "heading": "Traces priority",
+      "text": "Skills priority: Skill = Talent > Ultimate > Basic\n\n Major Traces priority: High Poles (A2) > Walking on Knives (A6) > Bladed Hoop (A4)",
+      "assets": []
+    },
+    {
+      "id": "synergy-37",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Kafka - Kafka can detonate any Burns that are on the enemy with her Skill and Ultimate, and if you’ve got E4 on Guinaifen, allows her to get her Ultimate 1 turn earlier depending on the rotation you’ve used. Guinaifen also acts as another DoT partner for Kafka.\n Acheron - Guinaifen can be used in place of other Nihility characters for Acheron, however she only has a small DMG% taken debuff on Fire Kiss. This requires a few turns to stack up and can fall off if no Burn is on the enemy, compared to her counterparts such as Pela and Silver Wolf.",
+      "assets": [
+        {
+          "id": "a137ba3e51ff",
+          "sourceHash": "a137ba3e51ff",
+          "kind": "characters",
+          "name": "Kafka",
+          "fileStem": "kafka-icon",
+          "path": "Prydwen/hsr/assets/characters/kafka-a137ba3e51ff.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "fbcfe4133d08",
+          "sourceHash": "fbcfe4133d08",
+          "kind": "characters",
+          "name": "Acheron",
+          "fileStem": "acheron-icon",
+          "path": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp",
+          "width": 45,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "id": "anomaly-arbitration-42",
+      "level": 6,
+      "heading": "Anomaly Arbitration",
+      "text": "Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 1",
+      "assets": [
+        {
+          "id": "bc2d64a2cd5f",
+          "sourceHash": "bc2d64a2cd5f",
+          "kind": "characters",
+          "name": "Hysilens",
+          "fileStem": "hysilens-icon",
+          "path": "Prydwen/hsr/assets/characters/hysilens-bc2d64a2cd5f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0db16ed6c66",
+          "sourceHash": "e0db16ed6c66",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "ele-physical",
+          "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "e01f880a2668",
+          "sourceHash": "e01f880a2668",
+          "kind": "characters",
+          "name": "Black Swan",
+          "fileStem": "black-swan-icon",
+          "path": "Prydwen/hsr/assets/characters/black-swan-e01f880a2668.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ee11bd390c9a",
+          "sourceHash": "ee11bd390c9a",
+          "kind": "icons",
+          "name": "Wind",
+          "fileStem": "ele-wind",
+          "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "a137ba3e51ff",
+          "sourceHash": "a137ba3e51ff",
+          "kind": "characters",
+          "name": "Kafka",
+          "fileStem": "kafka-icon",
+          "path": "Prydwen/hsr/assets/characters/kafka-a137ba3e51ff.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d197456869a0",
+          "sourceHash": "d197456869a0",
+          "kind": "icons",
+          "name": "Lightning",
+          "fileStem": "ele-lightning",
+          "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "9ca500103ec6",
+          "sourceHash": "9ca500103ec6",
+          "kind": "characters",
+          "name": "Guinaifen",
+          "fileStem": "guinaifen-icon",
+          "path": "Prydwen/hsr/assets/characters/guinaifen-9ca500103ec6.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "92feb26d8f0e",
+          "sourceHash": "92feb26d8f0e",
+          "kind": "icons",
+          "name": "Fire",
+          "fileStem": "ele-fire",
+          "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+          "width": 22,
+          "height": 22
+        }
+      ]
+    },
+    {
+      "id": "video-guides-43",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "MoC/PF/AS Statistics",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-light-cones": {
+      "label": "Best Light Cones",
+      "sections": [
+        {
+          "heading": "Best Light Cones",
+          "text": "1\n\n Lies Dance on the Breeze (S 1 )\n\n Cipher's signature and a top option on almost every Nihility character working within the supportive role, thanks to its 2-turn 24% DEF shred debuff applied on hit and tremendous 18% increased SPD. Requires the wearer to reach 170 SPD to fully activate but thanks to this Cone's passive SPD and most supports building SPD anyways this isn't unachievable.\n\n 2\n\n Those Many Springs (S 1 )\n\n Incredibly strong team-wide supportive option for DoT based Nihility supports seeking a large amount of Effect Hit Rating and who can apply and maintain their DoT throughout combat.\n\n 3\n\n Resolution Shines As Pearls of Sweat (S 1 )\n\n One of the top Nihility supportive options available. Must be played around effectively due to its 1 turn duration - aim to apply this during the enemies turn or right after it. Becomes more powerful when combined with other sources of DEF% reduction.",
+          "assets": [
+            {
+              "id": "54a56452a37b",
+              "sourceHash": "54a56452a37b",
+              "kind": "light-cones",
+              "name": "Lies Dance on the Breeze",
+              "fileStem": "lies-dance-on-the-breeze",
+              "path": "Prydwen/hsr/assets/light-cones/lies-dance-on-the-breeze-54a56452a37b.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "15da4c783197",
+              "sourceHash": "15da4c783197",
+              "kind": "light-cones",
+              "name": "Those Many Springs",
+              "fileStem": "those-many-springs",
+              "path": "Prydwen/hsr/assets/light-cones/those-many-springs-15da4c783197.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "8041d992b728",
+              "sourceHash": "8041d992b728",
+              "kind": "light-cones",
+              "name": "Resolution Shines As Pearls of Sweat",
+              "fileStem": "resolution-shines-as-pearls-of-sweat",
+              "path": "Prydwen/hsr/assets/light-cones/resolution-shines-as-pearls-of-sweat-8041d992b728.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-relic-sets": {
+      "label": "Best Relic Sets",
+      "sections": [
+        {
+          "heading": "Best Relic Sets",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Pioneer Diver of Dead Waters\n\n Firesmith of Lava-Forging\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous",
+          "assets": [
+            {
+              "id": "4cb8065ad660",
+              "sourceHash": "4cb8065ad660",
+              "kind": "relics",
+              "name": "Messenger Traversing Hackerspace",
+              "fileStem": "messenger-traversing-hackerspace",
+              "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "5cb190fcc346",
+              "sourceHash": "5cb190fcc346",
+              "kind": "relics",
+              "name": "Sacerdos' Relived Ordeal",
+              "fileStem": "sacerdos-relived-ordeal",
+              "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "6e205de52037",
+              "sourceHash": "6e205de52037",
+              "kind": "relics",
+              "name": "Pioneer Diver of Dead Waters",
+              "fileStem": "pioneer-diver-of-dead-waters",
+              "path": "Prydwen/hsr/assets/relics/pioneer-diver-of-dead-waters-6e205de52037.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "b75b6bbcc082",
+              "sourceHash": "b75b6bbcc082",
+              "kind": "relics",
+              "name": "Firesmith of Lava-Forging",
+              "fileStem": "firesmith-of-lava-forging",
+              "path": "Prydwen/hsr/assets/relics/firesmith-of-lava-forging-b75b6bbcc082.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "deeeca721276",
+              "sourceHash": "deeeca721276",
+              "kind": "relics",
+              "name": "Musketeer of Wild Wheat",
+              "fileStem": "musketeer-of-wild-wheat",
+              "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "507bb2127c32",
+              "sourceHash": "507bb2127c32",
+              "kind": "relics",
+              "name": "Prisoner in Deep Confinement",
+              "fileStem": "prisoner-in-deep-confinement",
+              "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "2d90f2919c5d",
+              "sourceHash": "2d90f2919c5d",
+              "kind": "relics",
+              "name": "The Wind-Soaring Valorous",
+              "fileStem": "the-wind-soaring-valorous",
+              "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-planetary-sets": {
+      "label": "Best Planetary Sets",
+      "sections": [
+        {
+          "heading": "Best Planetary Sets",
+          "text": "1\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 2\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.",
+          "assets": [
+            {
+              "id": "5b886a96e17a",
+              "sourceHash": "5b886a96e17a",
+              "kind": "relics",
+              "name": "Fleet of the Ageless",
+              "fileStem": "fleet-of-the-ageless",
+              "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "3306e6f6288f",
+              "sourceHash": "3306e6f6288f",
+              "kind": "relics",
+              "name": "Broken Keel",
+              "fileStem": "broken-keel",
+              "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "d6cdb5f16b16",
+              "sourceHash": "d6cdb5f16b16",
+              "kind": "relics",
+              "name": "Penacony, Land of the Dreams",
+              "fileStem": "penacony-land-of-the-dreams",
+              "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "d6aae5028c5a",
+              "sourceHash": "d6aae5028c5a",
+              "kind": "relics",
+              "name": "Lushaka, the Sunken Seas",
+              "fileStem": "lushaka-the-sunken-seas",
+              "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-stats": {
+      "label": "Best Stats",
+      "sections": [
+        {
+          "heading": "Best Stats",
+          "text": "Body\n ATK%\n > Effect HIT Rate\n\n Feet\n Speed\n\n Planar Sphere\n Fire DMG\n > ATK%\n\n Link Rope\n ATK%\n\n Substats: EHR (67%) > SPD (breakpoint) > ATK% > HP% = DEF% = Break Effect %\n\n Stack enough sub-stats to reach 67% Effect Hit Rating and 134 Speed after which stack ATK% as much as possible. While fishing for ATK% ensure your HP and Defence are not neglected and aim for the recommended stat template to ensure Guinaifen isn't constantly getting 1-shot. Break effect can also be good but is more suited to highly specialized Guinaifen builds.",
+          "assets": [
+            {
+              "id": "dc6aec4a7776",
+              "sourceHash": "dc6aec4a7776",
+              "kind": "icons",
+              "name": "ATK",
+              "fileStem": "stat-atk",
+              "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "fd6c20a21941",
+              "sourceHash": "fd6c20a21941",
+              "kind": "icons",
+              "name": "Effect HIT Rate",
+              "fileStem": "stat-effecthit",
+              "path": "Prydwen/hsr/assets/icons/effect-hit-rate-fd6c20a21941.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "087f2dec68b6",
+              "sourceHash": "087f2dec68b6",
+              "kind": "icons",
+              "name": "Speed",
+              "fileStem": "stat-speed",
+              "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "83d3d255b767",
+              "sourceHash": "83d3d255b767",
+              "kind": "icons",
+              "name": "Fire DMG",
+              "fileStem": "stat-firedmg",
+              "path": "Prydwen/hsr/assets/icons/fire-dmg-83d3d255b767.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        }
+      ]
+    },
+    "recommended-endgame-stats": {
+      "label": "Recommended endgame stats",
+      "sections": [
+        {
+          "heading": "Recommended endgame stats",
+          "text": "HP: 3000+\n\n DEF: 800 - 900+\n\n ATK: 2600 - 3000+\n\n SPD: 134 / 143 (Recommended)\n\n EFFECT HIT RATE : 67%",
+          "assets": []
+        }
+      ]
+    },
+    "traces-priority": {
+      "label": "Traces priority",
+      "sections": [
+        {
+          "heading": "Traces priority",
+          "text": "Skills priority: Skill = Talent > Ultimate > Basic\n\n Major Traces priority: High Poles (A2) > Walking on Knives (A6) > Bladed Hoop (A4)",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Kafka - Kafka can detonate any Burns that are on the enemy with her Skill and Ultimate, and if you’ve got E4 on Guinaifen, allows her to get her Ultimate 1 turn earlier depending on the rotation you’ve used. Guinaifen also acts as another DoT partner for Kafka.\n Acheron - Guinaifen can be used in place of other Nihility characters for Acheron, however she only has a small DMG% taken debuff on Fire Kiss. This requires a few turns to stack up and can fall off if no Burn is on the enemy, compared to her counterparts such as Pela and Silver Wolf.",
+          "assets": [
+            {
+              "id": "a137ba3e51ff",
+              "sourceHash": "a137ba3e51ff",
+              "kind": "characters",
+              "name": "Kafka",
+              "fileStem": "kafka-icon",
+              "path": "Prydwen/hsr/assets/characters/kafka-a137ba3e51ff.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "fbcfe4133d08",
+              "sourceHash": "fbcfe4133d08",
+              "kind": "characters",
+              "name": "Acheron",
+              "fileStem": "acheron-icon",
+              "path": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp",
+              "width": 45,
+              "height": 45
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Guinaifen Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Guinaifen\n Guinaifen Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Guinaifen from HSR (Honkai: Star Rail). Guinaifen is a 4 ★ character from the Fire element who follows the Path of Nihility .\n A performance artist visiting the Xianzhou Luofu — in other words, a street performer.\nShe's chasing a new life on the Luofu when not concerned with food and shelter.\n\n To learn more about Guinaifen check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Guinaifen has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 3.0\n\n Last major build/calcs update\n Patch 3.4\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Guinaifen check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Standing Ovation\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Fire DMG equal to #1[i]% of Guinaifen's ATK to a single enemy.\n\n Skill\n Blazing Welcome\n Blast\n\n Lv. 1\n\n Energy gain: 30\n Break: 20 + 10 adjacent\n\n Deals Fire DMG equal to #1[i]% of Guinaifen's ATK to a single enemy and deals Fire DMG equal to #2[i]% of Guinaifen's ATK to any adjacent enemies with a #3[i]% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to #4[i]% of Guinaifen's ATK at the beginning of each turn, lasting for #5[i] turn(s).\n\n Ultimate\n Watch This Showstopper\n AoE | 120 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Deals Fire DMG equal to #1[i]% of Guinaifen's ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produce DMG equal to #2[i]% of their original DMG.\n\n Talent\n PatrAeon Benefits\n Impair\n\n Lv. 1\n\n Energy gain: 5\n Break: -\n\n When Guinaifen is on the field, there is a #1[i]% base chance to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives #4[i]% increased DMG, which lasts for #5[i] turn(s) and can stack up to #6[i] time(s).\n\n Technique\n Skill Showcase\n\n Energy gain: 0\n Break: 20\n\n Immediately attacks the enemy. After entering battle, deals DMG for #2[i] time(s), dealing Fire DMG equal to #1[i]% of Guinaifen's ATK to a random single enemy target each time, with a #3[i]% base chance of inflicting Firekiss on them.\n\n Major Traces\n A2 Major trace\n High Poles\n\n Basic ATK has a 80% base chance of inflicting an enemy with a Burn, equivalent to that of Skill.\n\n A4 Major trace\n Bladed Hoop\n\n When the battle begins, Guinaifen's action is advanced forward by 25% .\n\n A6 Major trace\n Walking on Knives\n\n Deals 20% more DMG to Burned enemies.\n\n Minor Traces (total)\n Fire DMG\n + 22.4%\n\n Effect HIT Rate\n + 10%\n\n Break Effect\n + 24%\n\n Eidolons\n E 1\n Slurping Noodles During Handstand\n Eidolon 1\n\n When Skill is used, there is a 100% base chance to reduce the attacked target enemy's Effect RES by 10% for 2 turn(s).\n\n E 2\n Brushing Teeth While Whistling\n Eidolon 2\n\n When an enemy target is Burned, Guinaifen's Basic ATK and Skill can increase the DMG multiplier of their Burn status by 40% .\n\n E 3\n Smashing Boulder on Chest\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Blocking Pike with Neck\n Eidolon 4\n\n Every time the Burn status inflicted by Guinaifen causes DMG, Guinaifen regenerates 2 Energy.\n\n E 5\n Swallowing Sword to Stomach\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Catching Bullet with Hands\n Eidolon 6\n\n Increases the stackable Firekiss count by 1 .\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 882\n\n ATK\n\n 582\n\n DEF\n\n 441\n\n Speed\n\n 106\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 246400\n\n Artifex's Module\n\n x 12\n\n Artifex's Cogwheel\n\n x 13\n\n Searing Steel Blade\n\n x 50\n\n Artifex's Gyreheart\n\n x 12\n\n CV\n ENG\n Morgan Lauré\n\n JPN\n 直田姫奈 (Suguta Hina)\n\n CN\n 小敢 (Xiaogan)\n\n KR\n 김수영 (Kim Soo-young)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Strong universally appreciated debuff with permanent uptime,\n\n SP flexible,\n\n Decent personal damage output for a support,\n\n Can force proc all Burn DoT effects on enemies,\n\n Fully SP positive in single-target.\n\n Cons\n Extremely investment heavy especially for a Support,\n\n Damage taken is a weaker debuff than DEF Shred,\n\n Specific stat requirements can leave little room for defensive stats.\n\n Review (By Sushou)\n Guinaifen is a decent 4-star Support character. She afflicts enemies with a debuff that increases their total damage taken and can stack up to 3 times. She also deals a very impressive amount of damage over time (for a Support that is) and can apply it very easily to many enemies at once. She can even be SP positive in 1 or 2 target scenarios, resulting in a near-universally applicable support character that also contributes very significant damage of her own. The cost of this is a very steep investment requirement, especially when compared to other support options.\n Guinaifen, Guinevere, or just Gwen. However you choose to call her, her charm is infectious and fiery, and her gameplay is equally explosive. As a DoT-based character, you may be led to believe that Gwen is predominantly made for Kafka teams and that she may not see much use elsewhere, but you would be quite mistaken.\n Guinaifen’s Talent is the source of her powerful debuff. While she is still alive and on the field, there is a 100% base chance to apply the Firekiss debuff to an enemy after they sustain damage from a Burn DoT. Firekiss will increase the damage that the target takes by up to 7%, stacking up to 3 times for a total of 21%.\n Being able to inflict a 21% damage vulnerability is very strong. While damage taken is a slightly lesser debuff when compared to the likes of DEF Shred, it has the similar benefit of being very uncommon, meaning it often performs at its listed values due to not suffering from diminishing returns. Welt’s 12% damage vulnerability debuff already gets high praise, and Gwen comes in slamming with 21%. What’s more ridiculous is that Firekiss lasts for 3 turns, meaning this debuff is permanently active in practice. Even better is it’s completely unremovable, so there’s no possible way for enemies to get rid of it outside of its duration running out.\n Since her Talent requires a Burn DoT, it’s only fitting that she can also apply one. Guinaifen’s Skill will deal damage in a Blast AoE, up to 120% ATK to the main target and up to 40% to adjacent foes. This Skill has a 100% base chance to Burn all targets hits for 2 turns. Oh and the Burn DoT itself deals up to 218% of Gwen’s ATK per tick. That is a very impressive damage multiplier to have in what is supposed to be a support character’s kit. Having a 100% base chance also means that it’s relatively easy to get enough Effect Hit Rate (EHR) to make this a guaranteed application on even the absolute pinnacle enemies you may encounter.\n Guinaifen’s Ultimate deals damage to all enemies on the field, up to 120% ATK at max Trace level. If a target is afflicted with Burn, it will immediately deal damage equal to 92% of the Burn’s original damage. Yeah, the thing that Kafka does for all DoT effects, Gwen can do that for all Burns. This significantly improves her already quite impressive personal damage. With this Ultimate having an average Energy cost of 120, this is going to be up pretty often. This also has the added benefit of stacking Firekiss even faster, thus reducing the required ramp-up time.\n Guinaifen’s Bonus Ability Traces raise her efficacy quite substantially. Her A2 will grant her Basic ATK an 80% base chance to inflict the same Burn DoT as the one from her Skill. While the base chance is slightly lower than on her Skill, this is what allows Gwen to be SP flexible, as she can range from SP neutral to even SP positive in 1 or 2 target scenarios as the majority of her damage comes from DoT. With this Bonus Ability, Gwen is able to contribute very significant damage while still restoring SP.\n Her A4 will Advance Forward Gwen’s action by 25% at the beginning of the fight, which with a good amount of SPD will usually mean Gwen is one of the first people to act in a fight, if not the first. It’s like having a weaker Vonwacq permanently without actually needing to use Vonwacq (this is the greatest trade deal in the history of trade deals).\n Gwen’s A6 is particularly potent as it is exactly what Himeko has, causing Gwen to deal 20% increased damage to Burned enemies. This naturally also applies to the DoT effect she applies, and also stacks fully with her own damage vulnerability provided by Firekiss. Interesting to note as well is that Gwen is the first character to get Break Effect Minor Traces, getting a total of 24% Break Effect for free.\n Guinaifen absolutely does not need Eidolons to be strong, but as a 4-star character it is entirely possible to eventually get Eidolons for her. Of particular note is E1 and E6. E1 grants Skill a 100% base chance to reduce the attacked enemies’ Effect RES by 10% for 2 turns, and E6 increases the maximum stacks of Firekiss to 4, meaning that by the time you get to this Eidolon level, Firekiss is going to be providing a 30.4% damage vulnerability.\n However, the cost of this power is the need for investment, and it is a particularly great need for Guinaifen. Usually support options like Pela only really need a little bit of one important stat to get going, sometimes not even needing to be at max level. Guinaifen can get by with the bare minimum just like the aforementioned characters, but she won’t be able to compete with them at just that level, as she really wants to be built to deal damage as well.\n She reaches a whole new level when you actually invest into her fully, and while this is something that is ultimately a very good investment, it is also something that not everybody can immediately afford to do. In addition to this, since Guinaifen does deal damage and especially because she is likely to be using Basic ATK a lot, she also requires pretty much all of her Traces to be levelled up to the maximum, which is yet more investment compared to her fellow debuffer.\n Getting the required amount of EHR without sacrificing too much ATK% is actually quite difficult, and because of the need for such stats to begin with, Guinaifen can potentially be a little less safe when compared to support options that can afford to go for defensive stats. In practice, this should not be a particularly difficult thing to work around since Tingyun is one of the best supports already and has the same investment requirements and perceived squishiness, and Gwen has higher base stats than Tingyun does. If this is the supposed reason for your Gwen dying, that is most assuredly not the fault of Guinaifen.\n Think of her as a long-term investment that will only get better as you get more things for her. She’s worth the extra effort, even if it may not be immediately evident.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Eidolon 0\n T5\n MoC\n\n T5\n PF\n\n T5\n AS\n\n Eidolon 6\n T5\n MoC\n\n T5\n PF\n\n T5\n AS\n\n Build and teams\n\n Best Light Cones\n\n 1\n\n Lies Dance on the Breeze (S 1 )\n\n Cipher's signature and a top option on almost every Nihility character working within the supportive role, thanks to its 2-turn 24% DEF shred debuff applied on hit and tremendous 18% increased SPD. Requires the wearer to reach 170 SPD to fully activate but thanks to this Cone's passive SPD and most supports building SPD anyways this isn't unachievable.\n\n 2\n\n Those Many Springs (S 1 )\n\n Incredibly strong team-wide supportive option for DoT based Nihility supports seeking a large amount of Effect Hit Rating and who can apply and maintain their DoT throughout combat.\n\n 3\n\n Resolution Shines As Pearls of Sweat (S 1 )\n\n One of the top Nihility supportive options available. Must be played around effectively due to its 1 turn duration - aim to apply this during the enemies turn or right after it. Becomes more powerful when combined with other sources of DEF% reduction.\n\n Specialist Light Cones\n 1\n\n Eyes of the Prey (S 5 )\n\n Solid option for those seeking a strong amount of Effect Hit Rating and or a large boost to DoT damage.\n\n 2\n\n Solitary Healing (S 5 )\n\n Specialty Energy Regeneration Cone for DoT users that grants tremendous Energy generation in endgame modes with many enemies that can be killed quickly like Pure Fiction, allowing for Ult spamming assuming the wearer can apply their DoT's fast enough. Also provides solid DoT DMG% and some Break Effect as an additional bonus.\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Pioneer Diver of Dead Waters\n\n Firesmith of Lava-Forging\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n Best Specialist Relic Sets\n 1\n\n Prisoner in Deep Confinement ( 4 -PC)\n\n Exceptional damage set for DoT-focused characters that play within teams that can consistently apply and maintain 3 DoT's to enemies. Becomes more powerful when combined with other sources of DEF% reduction. Best set for a damage-focused Guinaifen if supportive 2P bonuses and sub stats aren't a priority.\n 2\n\n Iron Cavalry Against the Scourge ( 4 -PC)\n\n Top damage-focused option for characters that play within teams that leverage Super Break or deal predominantly Break/Super Break damage themselves. Becomes even stronger with additional sources of DEF% reduction. Should only be used when playing Guinaifen in Super Break teams where she is granted the ability to do so by another teammate.\n\n Best Planetary Sets\n 1\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 2\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n\n Best Specialist Planetary Sets\n 1\n\n Firmament Frontline: Glamoth ( 2 -PC)\n\n A generic and strong option for damage characters that scale best from the combiantion of DMG% and ATK% and who can build/reach a large amount of Speed (160 preferrably). A top option for those looking to elevate their Guinaifen's damage instead of using supportive options.\n 2\n\n Forge of the Kalpagni Lantern ( 2 -PC)\n\n Powerful Break-focused set, primarily for Fire characters. Useful both for Break characters and Break scaling Supports and Sustains thanks to its massive Break Effect% buff and permanent 6% Speed boost. Should only be used when playing Guinaifen within Super Break teams where she is granted the ability to do so by another teammate.\n 3\n\n Sprightly Vonwacq ( 2 -PC)\n\n Incredibly potent option for buff/debuff based characters. The advance from this set allows the wearer to apply their buffs/debuffs before the rest of the team acts, accelerate rotations, allows access to ultimates closer to the start of the fight and also grants Energy Regen - a valuable stat for many supports.\n\n Best Stats\n\n Body\n ATK%\n > Effect HIT Rate\n\n Feet\n Speed\n\n Planar Sphere\n Fire DMG\n > ATK%\n\n Link Rope\n ATK%\n\n Substats: EHR (67%) > SPD (breakpoint) > ATK% > HP% = DEF% = Break Effect %\n\n Stack enough sub-stats to reach 67% Effect Hit Rating and 134 Speed after which stack ATK% as much as possible. While fishing for ATK% ensure your HP and Defence are not neglected and aim for the recommended stat template to ensure Guinaifen isn't constantly getting 1-shot. Break effect can also be good but is more suited to highly specialized Guinaifen builds.\n\n Recommended endgame stats\n HP: 3000+\n\n DEF: 800 - 900+\n\n ATK: 2600 - 3000+\n\n SPD: 134 / 143 (Recommended)\n\n EFFECT HIT RATE : 67%\n\n Traces priority\n Skills priority: Skill = Talent > Ultimate > Basic\n\n Major Traces priority: High Poles (A2) > Walking on Knives (A6) > Bladed Hoop (A4)\n\n Synergy\n Kafka - Kafka can detonate any Burns that are on the enemy with her Skill and Ultimate, and if you’ve got E4 on Guinaifen, allows her to get her Ultimate 1 turn earlier depending on the rotation you’ve used. Guinaifen also acts as another DoT partner for Kafka.\n Acheron - Guinaifen can be used in place of other Nihility characters for Acheron, however she only has a small DMG% taken debuff on Fire Kiss. This requires a few turns to stack up and can fall off if no Burn is on the enemy, compared to her counterparts such as Pela and Silver Wolf.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 1\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

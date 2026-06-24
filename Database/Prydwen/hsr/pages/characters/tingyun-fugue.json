@@ -1,0 +1,1722 @@
+{
+  "id": "characters:tingyun-fugue",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "tingyun-fugue",
+  "name": "Tingyun • Fugue",
+  "title": "Tingyun • Fugue Best Build Guide",
+  "sourcePath": "/star-rail/characters/tingyun-fugue",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "31/May/2026",
+  "meta": {
+    "title": "Tingyun • Fugue Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Fire",
+    "path": "Nihility"
+  },
+  "assets": [
+    {
+      "id": "3f875158793e",
+      "sourceHash": "3f875158793e",
+      "kind": "characters",
+      "name": "Tingyun • Fugue",
+      "fileStem": "tingyun-fugue-card",
+      "path": "Prydwen/hsr/assets/characters/tingyun-fugue-3f875158793e.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "6890417bdf8b",
+      "sourceHash": "6890417bdf8b",
+      "kind": "icons",
+      "name": "Break Effect",
+      "fileStem": "stat-break",
+      "path": "Prydwen/hsr/assets/icons/break-effect-6890417bdf8b.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "087f2dec68b6",
+      "sourceHash": "087f2dec68b6",
+      "kind": "icons",
+      "name": "Speed",
+      "fileStem": "stat-speed",
+      "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "96654253a4f7",
+      "sourceHash": "96654253a4f7",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "dc6aec4a7776",
+      "sourceHash": "dc6aec4a7776",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "a6be649090ba",
+      "sourceHash": "a6be649090ba",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "50d0e755383a",
+      "sourceHash": "50d0e755383a",
+      "kind": "items",
+      "name": "Credit",
+      "fileStem": "credit",
+      "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "9ab235265d65",
+      "sourceHash": "9ab235265d65",
+      "kind": "items",
+      "name": "Immortal Scionette",
+      "fileStem": "immortal-scionette",
+      "path": "Prydwen/hsr/assets/items/immortal-scionette-9ab235265d65.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "f09bb9ca1d6d",
+      "sourceHash": "f09bb9ca1d6d",
+      "kind": "items",
+      "name": "Immortal Aeroblossom",
+      "fileStem": "immortal-aeroblossom",
+      "path": "Prydwen/hsr/assets/items/immortal-aeroblossom-f09bb9ca1d6d.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "ce05b442f040",
+      "sourceHash": "ce05b442f040",
+      "kind": "items",
+      "name": "Searing Steel Blade",
+      "fileStem": "searing-steel-blade",
+      "path": "Prydwen/hsr/assets/items/searing-steel-blade-ce05b442f040.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "f2f182d18e1a",
+      "sourceHash": "f2f182d18e1a",
+      "kind": "items",
+      "name": "Immortal Lumintwig",
+      "fileStem": "immortal-lumintwig",
+      "path": "Prydwen/hsr/assets/items/immortal-lumintwig-f2f182d18e1a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "ca9647a723e1",
+      "sourceHash": "ca9647a723e1",
+      "kind": "characters",
+      "name": "Tingyun • Fugue",
+      "fileStem": "tingyun-fugue-full",
+      "path": "Prydwen/hsr/assets/characters/tingyun-fugue-ca9647a723e1.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "2d2b97e137ac",
+      "sourceHash": "2d2b97e137ac",
+      "kind": "light-cones",
+      "name": "Long Road Leads Home",
+      "fileStem": "long-road-leads-home",
+      "path": "Prydwen/hsr/assets/light-cones/long-road-leads-home-2d2b97e137ac.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "54a56452a37b",
+      "sourceHash": "54a56452a37b",
+      "kind": "light-cones",
+      "name": "Lies Dance on the Breeze",
+      "fileStem": "lies-dance-on-the-breeze",
+      "path": "Prydwen/hsr/assets/light-cones/lies-dance-on-the-breeze-54a56452a37b.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "8041d992b728",
+      "sourceHash": "8041d992b728",
+      "kind": "light-cones",
+      "name": "Resolution Shines As Pearls of Sweat",
+      "fileStem": "resolution-shines-as-pearls-of-sweat",
+      "path": "Prydwen/hsr/assets/light-cones/resolution-shines-as-pearls-of-sweat-8041d992b728.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "f6766d543c32",
+      "sourceHash": "f6766d543c32",
+      "kind": "light-cones",
+      "name": "Solitary Healing",
+      "fileStem": "solitary-healing",
+      "path": "Prydwen/hsr/assets/light-cones/solitary-healing-f6766d543c32.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "a84d3eec8989",
+      "sourceHash": "a84d3eec8989",
+      "kind": "light-cones",
+      "name": "Before the Tutorial Mission Starts",
+      "fileStem": "before-the-tutorial-mission-starts",
+      "path": "Prydwen/hsr/assets/light-cones/before-the-tutorial-mission-starts-a84d3eec8989.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "2fc8ce1ab137",
+      "sourceHash": "2fc8ce1ab137",
+      "kind": "relics",
+      "name": "Iron Cavalry Against the Scourge",
+      "fileStem": "iron-cavalry-against-the-scourge",
+      "path": "Prydwen/hsr/assets/relics/iron-cavalry-against-the-scourge-2fc8ce1ab137.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "bd16ed7ff036",
+      "sourceHash": "bd16ed7ff036",
+      "kind": "relics",
+      "name": "Thief of Shooting Meteor",
+      "fileStem": "thief-of-shooting-meteor",
+      "path": "Prydwen/hsr/assets/relics/thief-of-shooting-meteor-bd16ed7ff036.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "706574c241bc",
+      "sourceHash": "706574c241bc",
+      "kind": "relics",
+      "name": "Watchmaker, Master of Dream Machinations",
+      "fileStem": "watchmaker-master-of-dream-machinations",
+      "path": "Prydwen/hsr/assets/relics/watchmaker-master-of-dream-machinations-706574c241bc.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5cb190fcc346",
+      "sourceHash": "5cb190fcc346",
+      "kind": "relics",
+      "name": "Sacerdos' Relived Ordeal",
+      "fileStem": "sacerdos-relived-ordeal",
+      "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "4cb8065ad660",
+      "sourceHash": "4cb8065ad660",
+      "kind": "relics",
+      "name": "Messenger Traversing Hackerspace",
+      "fileStem": "messenger-traversing-hackerspace",
+      "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "36af28ceb2d3",
+      "sourceHash": "36af28ceb2d3",
+      "kind": "relics",
+      "name": "Eagle of Twilight Line",
+      "fileStem": "eagle-of-twilight-line",
+      "path": "Prydwen/hsr/assets/relics/eagle-of-twilight-line-36af28ceb2d3.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "f08c8ab4a73a",
+      "sourceHash": "f08c8ab4a73a",
+      "kind": "relics",
+      "name": "Forge of the Kalpagni Lantern",
+      "fileStem": "forge-of-the-kalpagni-lantern",
+      "path": "Prydwen/hsr/assets/relics/forge-of-the-kalpagni-lantern-f08c8ab4a73a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "a8ea2dfcb1ee",
+      "sourceHash": "a8ea2dfcb1ee",
+      "kind": "relics",
+      "name": "Talia: Kingdom of Banditry",
+      "fileStem": "talia-kingdom-of-banditry",
+      "path": "Prydwen/hsr/assets/relics/talia-kingdom-of-banditry-a8ea2dfcb1ee.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "bb6d718b4cb3",
+      "sourceHash": "bb6d718b4cb3",
+      "kind": "relics",
+      "name": "Sprightly Vonwacq",
+      "fileStem": "sprightly-vonwacq",
+      "path": "Prydwen/hsr/assets/relics/sprightly-vonwacq-bb6d718b4cb3.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d6aae5028c5a",
+      "sourceHash": "d6aae5028c5a",
+      "kind": "relics",
+      "name": "Lushaka, the Sunken Seas",
+      "fileStem": "lushaka-the-sunken-seas",
+      "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "fd6c20a21941",
+      "sourceHash": "fd6c20a21941",
+      "kind": "icons",
+      "name": "Effect HIT Rate",
+      "fileStem": "stat-effecthit",
+      "path": "Prydwen/hsr/assets/icons/effect-hit-rate-fd6c20a21941.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "106ddd8eff32",
+      "sourceHash": "106ddd8eff32",
+      "kind": "icons",
+      "name": "Energy Regen",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "f8ad01025a66",
+      "sourceHash": "f8ad01025a66",
+      "kind": "characters",
+      "name": "Rappa",
+      "fileStem": "rappa-icon",
+      "path": "Prydwen/hsr/assets/characters/rappa-f8ad01025a66.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "4c12f1ecf12f",
+      "sourceHash": "4c12f1ecf12f",
+      "kind": "characters",
+      "name": "Firefly",
+      "fileStem": "firefly-icon",
+      "path": "Prydwen/hsr/assets/characters/firefly-4c12f1ecf12f.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "fd57eb6e6eb9",
+      "sourceHash": "fd57eb6e6eb9",
+      "kind": "characters",
+      "name": "Boothill",
+      "fileStem": "boothill-icon",
+      "path": "Prydwen/hsr/assets/characters/boothill-fd57eb6e6eb9.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "589a6cfaa6d4",
+      "sourceHash": "589a6cfaa6d4",
+      "kind": "characters",
+      "name": "Himeko",
+      "fileStem": "himeko-icon",
+      "path": "Prydwen/hsr/assets/characters/himeko-589a6cfaa6d4.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "fbcfe4133d08",
+      "sourceHash": "fbcfe4133d08",
+      "kind": "characters",
+      "name": "Acheron",
+      "fileStem": "acheron-icon",
+      "path": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "ab0724067e0c",
+      "sourceHash": "ab0724067e0c",
+      "kind": "characters",
+      "name": "Lingsha",
+      "fileStem": "lingsha-icon",
+      "path": "Prydwen/hsr/assets/characters/lingsha-ab0724067e0c.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "8a21234a1ace",
+      "sourceHash": "8a21234a1ace",
+      "kind": "characters",
+      "name": "Xueyi",
+      "fileStem": "xueyi-icon",
+      "path": "Prydwen/hsr/assets/characters/xueyi-8a21234a1ace.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "5e2bc8197f82",
+      "sourceHash": "5e2bc8197f82",
+      "kind": "characters",
+      "name": "Sushang",
+      "fileStem": "sushang-icon",
+      "path": "Prydwen/hsr/assets/characters/sushang-5e2bc8197f82.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "581b845e003c",
+      "sourceHash": "581b845e003c",
+      "kind": "characters",
+      "name": "Luka",
+      "fileStem": "luka-icon",
+      "path": "Prydwen/hsr/assets/characters/luka-581b845e003c.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "92feb26d8f0e",
+      "sourceHash": "92feb26d8f0e",
+      "kind": "icons",
+      "name": "Fire",
+      "fileStem": "ele-fire",
+      "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "444d6f5749b7",
+      "sourceHash": "444d6f5749b7",
+      "kind": "characters",
+      "name": "Tingyun • Fugue",
+      "fileStem": "tingyun-fugue-icon",
+      "path": "Prydwen/hsr/assets/characters/tingyun-fugue-444d6f5749b7.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "cec6f11ca61e",
+      "sourceHash": "cec6f11ca61e",
+      "kind": "characters",
+      "name": "The Dahlia",
+      "fileStem": "the-dahlia-icon",
+      "path": "Prydwen/hsr/assets/characters/the-dahlia-cec6f11ca61e.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "b77207bce6c8",
+      "sourceHash": "b77207bce6c8",
+      "kind": "characters",
+      "name": "Ruan Mei",
+      "fileStem": "ruan-mei-icon",
+      "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "7d36eb39792a",
+      "sourceHash": "7d36eb39792a",
+      "kind": "icons",
+      "name": "Ice",
+      "fileStem": "ele-ice",
+      "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "30d074a1060a",
+      "sourceHash": "30d074a1060a",
+      "kind": "characters",
+      "name": "Gallagher",
+      "fileStem": "gallagher-icon",
+      "path": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "de41e1704266",
+      "sourceHash": "de41e1704266",
+      "kind": "characters",
+      "name": "Trailblazer • Harmony",
+      "fileStem": "trailblazer-harmony-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-harmony-de41e1704266.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "913ff64407f2",
+      "sourceHash": "913ff64407f2",
+      "kind": "icons",
+      "name": "Imaginary",
+      "fileStem": "ele-imaginary",
+      "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "2cde7699adbf",
+      "sourceHash": "2cde7699adbf",
+      "kind": "characters",
+      "name": "Tribbie",
+      "fileStem": "tribbie-icon",
+      "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "565914d1a436",
+      "sourceHash": "565914d1a436",
+      "kind": "icons",
+      "name": "Quantum",
+      "fileStem": "ele-quantum",
+      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "714348f14d48",
+      "sourceHash": "714348f14d48",
+      "kind": "characters",
+      "name": "Dan Heng • Permansor Terrae",
+      "fileStem": "dan-heng-permansor-terrae-icon",
+      "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e0db16ed6c66",
+      "sourceHash": "e0db16ed6c66",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "ele-physical",
+      "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "1d90270b2b4b",
+      "sourceHash": "1d90270b2b4b",
+      "kind": "characters",
+      "name": "Hyacine",
+      "fileStem": "hyacine-icon",
+      "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ee11bd390c9a",
+      "sourceHash": "ee11bd390c9a",
+      "kind": "icons",
+      "name": "Wind",
+      "fileStem": "ele-wind",
+      "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+      "width": 22,
+      "height": 22
+    }
+  ],
+  "sections": [
+    {
+      "id": "tingyun-fugue-best-build-guide-0",
+      "level": 1,
+      "heading": "Tingyun • Fugue Best Build Guide",
+      "text": "Last updated: 31/May/2026",
+      "assets": [
+        {
+          "id": "3f875158793e",
+          "sourceHash": "3f875158793e",
+          "kind": "characters",
+          "name": "Tingyun • Fugue",
+          "fileStem": "tingyun-fugue-card",
+          "path": "Prydwen/hsr/assets/characters/tingyun-fugue-3f875158793e.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Tingyun • Fugue from HSR (Honkai: Star Rail). Tingyun • Fugue is a 5 ★ character from the Fire element who follows the Path of Nihility .\n A tactful foxian girl, whose appearance, name, and identity have all been stolen. The fates have left her a thread of chance at survival, yet the brand of Destruction still writhes with anticipation. The one in a fugue who has experienced life and death and is given a new life... when would she be able to return home?\n\n To learn more about Tingyun • Fugue check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Tingyun • Fugue has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 3.2\n\n Last major build/calcs update\n Patch 4.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Tingyun • Fugue check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic ATK\n Radiant Streak\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Fire DMG equal to #1[i]% of Fugue's ATK to one designated enemy.\n Basic ATK (Enhanced)\n Fiery Caress\n Blast\n\n Lv. 1\n\n Energy gain: 20\n Break: 10 + 5 adjacent\n\n Deals Fire DMG equal to #1[i]% of Fugue's ATK to one designated enemy and Fire DMG equal to #2[i]% of Fugue's ATK to adjacent targets.\n\n Skill\n Virtue Beckons Bliss\n Support\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Grants one designated ally \"Foxian Prayer\". Enters the \"Torrid Scorch\" state, lasting for #1[i] turn(s). The duration reduces by 1 at the start of Fugue's every turn. \"Foxian Prayer\" only takes effect on the most recent target of Fugue's Skill.\nThe ally target with \"Foxian Prayer\" increases their Break Effect by #2[i]% and can also reduce Toughness even when attacking enemies that don't have the corresponding Weakness Type, with the effect equivalent to #6[i]% of the original Toughness Reduction value. This cannot stack with other Toughness Reduction effects that also ignore Weakness Type.\nWhile in the \"Torrid Scorch\" state, Fugue enhances her Basic ATK. Every time an ally target with \"Foxian Prayer\" attacks, Fugue has a #3[i]% base chance to reduce the attacked enemy target's DEF by #4[i]%, lasting for #5[i] turn(s).\n\n Ultimate\n Solar Splendor Shines Upon All\n AoE | 130 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Deals Fire DMG equal to #1[i]% of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect.\n\n Talent\n Fortune Follows Where Virtue Spreads\n Impair\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n While Fugue is on the field, enemy targets will get additionally afflicted with \"Cloudflame Luster,\" equal to #2[i]% of their Max Toughness. When the initial Toughness is reduced to 0, \"Cloudflame Luster\" can be further reduced. When \"Cloudflame Luster\" is reduced to 0, the enemy will receive Weakness Break DMG again.\nWhile Fugue is on the field and after allies attack Weakness Broken enemy targets, converts the Toughness Reduction of this attack into 1 instance of #1[i]% Super Break DMG.\n\n Technique\n Percipient Shine\n Impair\n\n Energy gain: 0\n Break: -\n\n After using Technique, inflicts Daze on enemies within a certain area, lasting for #1[i] second(s). While Dazed, enemies will not actively attack ally targets.\nAfter entering battle via actively attacking Dazed enemies, Fugue's action advances by #4[i]%, with a #2[i]% base chance to inflict each enemy target with the same DEF Reduction state as that applied by Fugue's Skill, lasting for #3[i] turn(s).",
+      "assets": []
+    },
+    {
+      "id": "major-traces-10",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "A2 Major trace\n Verdantia Renaissance\n\n After ally targets break weakness, additionally delays the action of the enemy target by 15% .\n\n A4 Major trace\n Sylvan Enigma\n\n Increases this unit's Break Effect by 30% . After using Skill for the first time, immediately recovers 1 Skill Point(s).\n\n A6 Major trace\n Phecda Primordia\n\n When an enemy target's Weakness gets broken, increases teammates' (i.e., excluding this unit) Break Effect by 6% . If Fugue's Break Effect is 220% or higher, the Break Effect increase is boosted by an additional 12% , lasting for 2 turn(s). This effect can stack up to 2 time(s).",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-11",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "Break Effect\n + 24%\n\n Speed\n + 14\n\n HP\n + 10%",
+      "assets": [
+        {
+          "id": "6890417bdf8b",
+          "sourceHash": "6890417bdf8b",
+          "kind": "icons",
+          "name": "Break Effect",
+          "fileStem": "stat-break",
+          "path": "Prydwen/hsr/assets/icons/break-effect-6890417bdf8b.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "eidolons-12",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "E 1\n Earthbound I Was, Cloudward I Be\n Eidolon 1\n\n Ally target with \"Foxian Prayer\" increases their Weakness Break Efficiency by 50% .\n\n E 2\n Beatitude Dawns for the Worthy\n Eidolon 2\n\n When an enemy target's Weakness gets broken, Fugue regenerates 3 Energy. After using Ultimate, advances the action of all allies by 24% .\n\n E 3\n Verity Weaves Thoughts to Blade\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Bereft of Form, Which Name to Bear\n Eidolon 4\n\n Ally target with \"Foxian Prayer\" increases their Break DMG dealt by 20% .\n\n E 5\n Colored Cloud Rains Fortune\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Clairvoyance of Boom and Doom\n Eidolon 6\n\n Increases Fugue's Weakness Break Efficiency by 50% . While Fugue is in the \"Torrid Scorch\" state, \"Foxian Prayer\" takes effect on all allies.",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-13",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Enable Ascension",
+      "assets": []
+    },
+    {
+      "id": "level-80-stats-14",
+      "level": 5,
+      "heading": "Level 80 stats",
+      "text": "HP\n\n 1125\n\n ATK\n\n 582\n\n DEF\n\n 557\n\n Speed\n\n 102",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "level-1-80-ascension-materials-15",
+      "level": 5,
+      "heading": "Level 1 → 80 Ascension Materials",
+      "text": "Credit\n\n x 308000\n\n Immortal Scionette\n\n x 15\n\n Immortal Aeroblossom\n\n x 15\n\n Searing Steel Blade\n\n x 65\n\n Immortal Lumintwig\n\n x 15",
+      "assets": [
+        {
+          "id": "50d0e755383a",
+          "sourceHash": "50d0e755383a",
+          "kind": "items",
+          "name": "Credit",
+          "fileStem": "credit",
+          "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "9ab235265d65",
+          "sourceHash": "9ab235265d65",
+          "kind": "items",
+          "name": "Immortal Scionette",
+          "fileStem": "immortal-scionette",
+          "path": "Prydwen/hsr/assets/items/immortal-scionette-9ab235265d65.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "f09bb9ca1d6d",
+          "sourceHash": "f09bb9ca1d6d",
+          "kind": "items",
+          "name": "Immortal Aeroblossom",
+          "fileStem": "immortal-aeroblossom",
+          "path": "Prydwen/hsr/assets/items/immortal-aeroblossom-f09bb9ca1d6d.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "ce05b442f040",
+          "sourceHash": "ce05b442f040",
+          "kind": "items",
+          "name": "Searing Steel Blade",
+          "fileStem": "searing-steel-blade",
+          "path": "Prydwen/hsr/assets/items/searing-steel-blade-ce05b442f040.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "f2f182d18e1a",
+          "sourceHash": "f2f182d18e1a",
+          "kind": "items",
+          "name": "Immortal Lumintwig",
+          "fileStem": "immortal-lumintwig",
+          "path": "Prydwen/hsr/assets/items/immortal-lumintwig-f2f182d18e1a.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "cv-16",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n Anya Floris\n\n JPN\n 高田 憂希 (Yūki Takada)\n\n CN\n 蒋丽 (Li Jiang)\n\n KR\n 이명호 (Lee Myeong-ho)",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "ca9647a723e1",
+          "sourceHash": "ca9647a723e1",
+          "kind": "characters",
+          "name": "Tingyun • Fugue",
+          "fileStem": "tingyun-fugue-full",
+          "path": "Prydwen/hsr/assets/characters/tingyun-fugue-ca9647a723e1.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Provides a source of Exo Toughness, allowing enemies to get Broken a second time,\n\n Allows an ally to ignore Weakness Types when dealing Toughness damage,\n\n Provides the ability to deal Super Break DMG by just existing,\n\n Gives the team large Break Effect bonuses,\n\n Provides additional free Delay against Broken enemies,\n\n Provides a source of DEF reduction,\n\n Frees the Trailblazer from the Harmony Path,\n\n She learned how to protect her neck.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Weaker Super Break DMG than the Harmony Trailblazer,\n\n Underwhelming and expensive Ultimate,\n\n DEF reduction is rather low and requires investment into EHR for consistency,\n\n Enhanced Basics are basically cosmetic,\n\n Skill can only buff one ally at a time (Unless you go for E6).",
+      "assets": []
+    },
+    {
+      "id": "review-by-sushou-21",
+      "level": 2,
+      "heading": "Review (By Sushou)",
+      "text": "Fugue is a potent Break and Super Break focused Nihility support. She allows the team to easily deal Super Break damage against Weakness Broken enemies and is the first unit ever to be able to forcibly apply Exo Toughness to enemies, letting them get Broken a second time before recovering. She also allows a single ally to reduce enemy Toughness regardless of Type while also reducing the attacked enemies' DEF. Fugue is expertly tailored to existing Break DPS and has the tools to remain relevant for future Break units as well.\n Tingyun is back from the brink of death and with new trauma comes new powers, as is tradition. Fugue (pronounced like 'Fyoog' not like 'Foogway' you weirdos) is a Break support that applies the previously Memory of Chaos exclusive status of Exo Toughness, a second universal Toughness bar that appears after an enemy's initial Toughness has been depleted and allows them to get Broken a second time without needing to recover first. This opens the floodgates for some of our exemplar Break DPS to become completely absurd, and you'll soon see why.\n Fugue's Talent is what allows for this Exo Toughness to be in effect. While she is on the field, enemies are afflicted with Cloudflame Luster which stores 40% of the enemy's Max Toughness and is reduced once the original Toughness is depleted, allowing for a second Break to occur. Additionally, while Fugue is on the field, allies attacking Weakness Broken enemies will convert the Toughness damage into 100% Super Break DMG at max Trace level.\n This is a very simple and effective Talent that does all of its effects for merely existing. Being able to apply Weakness Break a second time is great in general as it lets you delay the enemy a second time and inflict potentially powerful Break DoT effects twice , especially for something like Physical Break. The more impressive aspect of the Exo Toughness is that any effects that rely on enemies getting Weakness Broken are able to be activated consecutively; for example, Himeko can gain more than 1 Charge of her Talent per enemy now with this effect, letting her get significantly more follow-ups as a result.\n On top of this, the Talent also casually lets the team deal Super Break DMG against Broken foes with no downtime or maintenance required , though do keep in mind that, while 100% Super Break DMG is impressive, it is a fair bit below what the Harmony Trailblazer provides at max value — 160% Super Break. Not needing to maintain any sort of buff does make it a lot more user friendly, and 100% Super Break is still more than enough to deal huge amounts of damage for our usual Break DPS line up.\n Fugue's Skill will buff an ally for 3 of Fugue's turns. The buffed ally gains up to 30% additional Break Effect and can reduce enemy Toughness regardless of Weakness Type at 50% effectiveness (half of the original Toughness damage). This effect doesn't stack with other effects that allow ignoring of Weakness Type, and only one ally may be buffed at a time. In addition to this, Fugue's Basic ATK is Enhanced to be a Blast AoE, and she has a 100% base chance to reduce the DEF of the enemy that's attacked by the buffed ally, up to 18% DEF reduction for 2 turns.\n Casually letting an ally ignore Weakness Type is incredible as it makes really pesky enemy line ups a lot more manageable, and allows Fugue's Talent to be useful in pretty much any situation. 50% reduced effectiveness is definitely noticeable, so don't expect to be Breaking enemies extremely quickly if you're not buffing a dedicated Breaker or someone with naturally high Toughness damage.\n The DEF reduction is also very appreciated as it's one of the few things that impacts the amount of Break DMG that enemies sustain, but being tied to a 100% base chance makes it a little less consistent without a bit of Effect Hit Rate. Since the DEF reduction applies to the enemy themselves, everyone on the team can benefit from this, making it potentially quite powerful.\n One interesting thing about this Skill is that most of our Break DPS already have no trouble dealing lots of Toughness damage, either being able to implant a Weakness Type onto enemies or just ignoring their Weakness Type altogether, so the Type ignore that the Skill provides isn't that useful on them. Luckily, there are plenty of other characters that could make excellent use of this buff instead, such as Gallagher, Lingsha, or Aventurine, letting them ignore Type and deal massive amounts of Toughness themselves, all while still providing the DEF reduction for everyone to enjoy.\n Fugue's Ultimate is comparatively less interesting, as it's an attack dealing up to 200% ATK to all enemies on the field. This attack fully ignores Weakness Type dealing 100% Toughness reduction to all enemies hit. When Breaking enemies with this damage, it triggers the Fire Break.\n This is mostly just an additional source of AoE damage in your Super Break comps and can be a clutch way to Break enemies or get them just within range of Breaking to one of your main Break DPS, but with a cost of 130 Energy, it's really not a focal point of Fugue's kit and your Energy economy is quite poor anyway since the Enhanced Basic does not restore extra Energy, so it's really just a 'nice to have' ability.\n The Bonus Ability Traces also lean heavily into Break support capabilities. A2 will delay enemy actions by an additional 15% whenever they're Weakness is Broken (30% in total including the second Break from her Talent), and A4 is a free 30% Break Effect and a one time SP refund on using her Skill. A6 provides a stacking Break Effect buff for the team based on when enemies are Broken; 6% by default, but 18% if Fugue's Break Effect is 220% or higher in combat. This Break Effect bonus lasts for 2 turns and can stack up to 2 times, for a total of 12% or 36% Break Effect, depending on if the criteria is met.\n Fugue does not have anything that complicated about her kit, since everything is quite unambiguous in how it works out. It's more how she works in tandem with our existing Break DPS that's interesting, but for the most part, this is also not particularly tricky to discuss.\n The Galaxy Ranger duo, Boothill and Rappa, are already rather agnostic when it comes to relying on Super Break DMG; they both deal direct Break DMG, Boothill especially, and Rappa has a large amount of Super Break native to her kit as well. Rappa always enjoys having greater Super Break DMG, so the Super Break Fugue provides is greatly appreciated, even for Boothill, but the Exo Toughness Fugue brings is even more desirable.\n The Exo Toughness interaction absolutely skyrockets their ramp-up. Boothill can get to 3 stacks of Pocket Trickshot from just one enemy, 1 from Breaking them, 1 from Break number two, and 1 from killing them, meaning Boothill is at max power basically instantly. Rappa meanwhile gets to recover even more Energy and gain even more Talent Charge from Breaking Elites a second time, greatly helping with maintaining good Ultimate uptime for her and making it much easier to chain Ultimates back to back, unlocking Rappa's full (ridiculous) potential with ease.\n Firefly is where the conversation gets a bit trickier, as she is the only Break DPS currently that is wholly reliant on Super Break to be able to deal damage, and doesn't have enough of it naturally in her own kit, thus becoming dependent on external sources like the Harmony Trailblazer. Most Firefly enthusiasts already know this, and as such are curious if Fugue could replace the Harmony Trailblazer in this team, and the answer is 'mostly yes, but a little bit of no'; the Harmony Trailblazer's Super Break contribution is much higher than Fugue's and the difference becomes extremely noticeable with Firefly. Firefly also doesn't really benefit from Exo Toughness at all, and certainly not in the way the Galaxy Rangers do, but it can end up making things a little easier in hard fights due to Fugue delaying the enemies' actions quite significantly and allowing for more time actually landing the Super Break DMG.\n Fugue's Skill also doesn't assist Firefly all that much since Firefly has an easy Fire Weakness Implant already, and both Gallagher and Lingsha are also Fire Type, so there's no mismatch in Elements to speak of. Should there be a future Break support or hybrid like either of those two Abundance characters that isn't Fire Type, Fugue can easily use her Skill to buff them instead of Firefly. It can end up evening out, but for the most part the Harmony Trailblazer is still a better overall pairing for Firefly.\n There is also the potential of having both Fugue and the Harmony Trailblazer together, and instead having Fugue replace Ruan Mei, but this is really only something that could happen if you opt for an E1 Fugue, as the loss of Ruan Mei's Weakness Break Efficiency is not something that Firefly can afford to miss out on.\n Speaking of Eidolons, as usual, not necessary at all, but can be good if you choose to go for them. E1 increases the buffed ally's Weakness Break Efficiency by 50%, E2 regenerates 3 Energy for Fugue when a target is Broken and lets Fugue's Ultimate advance allies action by 24%, E4 increases the Break DMG of the buffed ally by 20%, and E6 increases Fugue's own Weakness Break Efficiency by 50% and lets the effects of the Skill's buff apply to all allies.\n Fugue is undoubtedly a powerful Break support that makes the archetype even stronger and is a worthy pickup, even if all you're doing is freeing your Trailblazer from the shackles of the Harmony Path. Exo Toughness as a mechanic has a lot of potential to continue to grow and allow for lots of interesting interactions down the line. Get her for your Galaxy Rangers or your Glamoth Cavalry girl, she won't let you down.\n But we all know the real ones will get her to unlock lore-accurate Himeko. 'You won't get away! You won't get away! You won't get away—'",
+      "assets": []
+    },
+    {
+      "id": "ratings-22",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n T0.5\n MoC\n\n T1\n PF\n\n T0.5\n AS\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "best-light-cones-24",
+      "level": 2,
+      "heading": "Best Light Cones",
+      "text": "1\n\n Long Road Leads Home (S 1 )\n\n Fugue's signature Cone - offers huge amounts of Break Effect% and a combat debuff that triggers every time an enemy is Weakness Broken, inflicting an 18% Break DMG taken debuff unto them (stackable up to 2 times). Excellent choice for support Nihility charcers wihin Break focused teams but also usable on Nihility Break damage dealers as well. Makes Fugue's Break Effect requirements much easier to achieve, and is incredibly easy to apply both stacks of the Break DMG vulnerability thanks to \"Cloudflame Luster\".\n Usage: 41.94 %\n MoC: 6.79 cyc.\n PF: 28944\n AS: 3498\n\n 2\n\n Lies Dance on the Breeze (S 1 )\n\n Strong option for the high DEF Reduction effect, and allowing Fugue to reach high SPD thresholds. Can make 220 Break Effect difficult to reach\n Usage: 2.72 %\n MoC: 2 cyc.\n PF: 25360\n AS: 3727\n\n 3\n\n Resolution Shines As Pearls of Sweat (S 5 )\n\n Combining the DEF Reduction from her Skill and from 4-pc Iron Cavalry, this Light Cone becomes a solid alternative for Fugue - since her Enhanced Basic ATK can apply the debuff to multiple targets. Doesn't have Break Effect so using it can make hitting 220% a bit harder.\n Usage: 33.88 %\n MoC: 7.57 cyc.\n PF: 27963\n AS: 3459",
+      "assets": [
+        {
+          "id": "2d2b97e137ac",
+          "sourceHash": "2d2b97e137ac",
+          "kind": "light-cones",
+          "name": "Long Road Leads Home",
+          "fileStem": "long-road-leads-home",
+          "path": "Prydwen/hsr/assets/light-cones/long-road-leads-home-2d2b97e137ac.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "54a56452a37b",
+          "sourceHash": "54a56452a37b",
+          "kind": "light-cones",
+          "name": "Lies Dance on the Breeze",
+          "fileStem": "lies-dance-on-the-breeze",
+          "path": "Prydwen/hsr/assets/light-cones/lies-dance-on-the-breeze-54a56452a37b.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "8041d992b728",
+          "sourceHash": "8041d992b728",
+          "kind": "light-cones",
+          "name": "Resolution Shines As Pearls of Sweat",
+          "fileStem": "resolution-shines-as-pearls-of-sweat",
+          "path": "Prydwen/hsr/assets/light-cones/resolution-shines-as-pearls-of-sweat-8041d992b728.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "specialist-light-cones-25",
+      "level": 3,
+      "heading": "Specialist Light Cones",
+      "text": "1\n\n Solitary Healing (S 5 )\n\n A good choice for Fugue's struggling to reach the required Break Effect breakpoint for her trace but also offers the potential to gain some extra energy under the right circumstances. Break Effect is universally helpful - the Cone's secondary effect is most likely to be useful in Pure Fiction.\n Usage: 12.75 %\n MoC: 8.71 cyc.\n PF: 26689\n AS: 3407\n\n 2\n\n Before the Tutorial Mission Starts (S 5 )\n\n Opens up new Energy Rotation possibilities for Fugue given she can reliably inflict the DEF Shred needed to trigger this Cone. Mainly useful for those looking for more Fugue ultimates.\n Usage: 3.9 %\n MoC: 9 cyc.\n PF: 27280\n AS: 3479",
+      "assets": [
+        {
+          "id": "f6766d543c32",
+          "sourceHash": "f6766d543c32",
+          "kind": "light-cones",
+          "name": "Solitary Healing",
+          "fileStem": "solitary-healing",
+          "path": "Prydwen/hsr/assets/light-cones/solitary-healing-f6766d543c32.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "a84d3eec8989",
+          "sourceHash": "a84d3eec8989",
+          "kind": "light-cones",
+          "name": "Before the Tutorial Mission Starts",
+          "fileStem": "before-the-tutorial-mission-starts",
+          "path": "Prydwen/hsr/assets/light-cones/before-the-tutorial-mission-starts-a84d3eec8989.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-relic-sets-27",
+      "level": 2,
+      "heading": "Best Relic Sets",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Iron Cavalry Against the Scourge ( 4 -PC)\n\n Fugue's goal is to reach 220% Break Effect not the 250% required to fully activate this set - additionally her Break damage isn't a large contributor to overall team damage. With that said if you have all other boxes checked and don't desire any of the other options increasing her Break damage never hurts.\n Usage: 75.16 %\n MoC: 7.71 cyc.\n PF: 28108\n AS: 3460\n\n 2\n\n Thief of Shooting Meteor ( 4 -PC)\n\n Fugue's \"Cloudflame Luster\" counts as an additional Break for the 4P of this set making it more potent on Fugue. Fugue's Ultimate isn't a major part of her kit at E0 but is still useful in heavy AoE modes like Pure Fiction where you'll just so happen to plenty of enemies to double break.\n Usage: 4.99 %\n MoC: -\n PF: 29720\n AS: 3307\n\n 3\n\n Thief of Shooting Meteor ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Iron Cavalry Against the Scourge\n\n Watchmaker, Master of Dream Machinations\n\n Sacerdos' Relived Ordeal\n\n Messenger Traversing Hackerspace\n\n Usage: 0.61 %\n MoC: -\n PF: 29400\n AS: 3383",
+      "assets": [
+        {
+          "id": "2fc8ce1ab137",
+          "sourceHash": "2fc8ce1ab137",
+          "kind": "relics",
+          "name": "Iron Cavalry Against the Scourge",
+          "fileStem": "iron-cavalry-against-the-scourge",
+          "path": "Prydwen/hsr/assets/relics/iron-cavalry-against-the-scourge-2fc8ce1ab137.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "bd16ed7ff036",
+          "sourceHash": "bd16ed7ff036",
+          "kind": "relics",
+          "name": "Thief of Shooting Meteor",
+          "fileStem": "thief-of-shooting-meteor",
+          "path": "Prydwen/hsr/assets/relics/thief-of-shooting-meteor-bd16ed7ff036.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "706574c241bc",
+          "sourceHash": "706574c241bc",
+          "kind": "relics",
+          "name": "Watchmaker, Master of Dream Machinations",
+          "fileStem": "watchmaker-master-of-dream-machinations",
+          "path": "Prydwen/hsr/assets/relics/watchmaker-master-of-dream-machinations-706574c241bc.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "5cb190fcc346",
+          "sourceHash": "5cb190fcc346",
+          "kind": "relics",
+          "name": "Sacerdos' Relived Ordeal",
+          "fileStem": "sacerdos-relived-ordeal",
+          "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "4cb8065ad660",
+          "sourceHash": "4cb8065ad660",
+          "kind": "relics",
+          "name": "Messenger Traversing Hackerspace",
+          "fileStem": "messenger-traversing-hackerspace",
+          "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-specialist-relic-sets-28",
+      "level": 6,
+      "heading": "Best Specialist Relic Sets",
+      "text": "1\n\n Eagle of Twilight Line ( 4 -PC)\n\n Only suitable for min-maxing and those aiming to achieve a high frequency of ultimates via Eidolons, Light Cones of specific team compositions as baseline Fugue doesn't have fast enough Ultimate access to make effective use of this set.\n Usage: 8.54 %\n MoC: -\n PF: 26440\n AS: 3448",
+      "assets": [
+        {
+          "id": "36af28ceb2d3",
+          "sourceHash": "36af28ceb2d3",
+          "kind": "relics",
+          "name": "Eagle of Twilight Line",
+          "fileStem": "eagle-of-twilight-line",
+          "path": "Prydwen/hsr/assets/relics/eagle-of-twilight-line-36af28ceb2d3.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-planetary-sets-29",
+      "level": 6,
+      "heading": "Best Planetary Sets",
+      "text": "1\n\n Forge of the Kalpagni Lantern ( 2 -PC)\n\n Best set for Fugue assuming there is Fire weakness which depending on her teammate can be all the time or only some of the time - whether this set is best in slot will depend on that and the enemies you're facing.\n Usage: 81.99 %\n MoC: 7.71 cyc.\n PF: 27737\n AS: 3460\n\n 2\n\n Talia: Kingdom of Banditry ( 2 -PC)\n\n Alternative to Forge for Fugue's not always up against Fire Weak enemies or paired with characters that can implant it like Firefly.\n Usage: 7.44 %\n MoC: 7.5 cyc.\n PF: 29130\n AS: 3462",
+      "assets": [
+        {
+          "id": "f08c8ab4a73a",
+          "sourceHash": "f08c8ab4a73a",
+          "kind": "relics",
+          "name": "Forge of the Kalpagni Lantern",
+          "fileStem": "forge-of-the-kalpagni-lantern",
+          "path": "Prydwen/hsr/assets/relics/forge-of-the-kalpagni-lantern-f08c8ab4a73a.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "a8ea2dfcb1ee",
+          "sourceHash": "a8ea2dfcb1ee",
+          "kind": "relics",
+          "name": "Talia: Kingdom of Banditry",
+          "fileStem": "talia-kingdom-of-banditry",
+          "path": "Prydwen/hsr/assets/relics/talia-kingdom-of-banditry-a8ea2dfcb1ee.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-specialist-planetary-sets-30",
+      "level": 6,
+      "heading": "Best Specialist Planetary Sets",
+      "text": "1\n\n Sprightly Vonwacq ( 2 -PC)\n\n Fugue already has a combat action advance in her kit which covers most scenarios. This option is only recommended for those looking for the Energy % this Planar provides or for those looking to min-max Fugue's action value for very specific breakpoints.\n Usage: 4.53 %\n MoC: -\n PF: 0\n AS: 0\n\n 2\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n An alternative Energy option to Sprightly Vonwacq which can offer a small buff to the carry of Fugue's teams assuming they can make use of ATK% (Firefly and Rappa).\n Usage: 4.94 %\n MoC: 4 cyc.\n PF: 29360\n AS: 3500",
+      "assets": [
+        {
+          "id": "bb6d718b4cb3",
+          "sourceHash": "bb6d718b4cb3",
+          "kind": "relics",
+          "name": "Sprightly Vonwacq",
+          "fileStem": "sprightly-vonwacq",
+          "path": "Prydwen/hsr/assets/relics/sprightly-vonwacq-bb6d718b4cb3.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "d6aae5028c5a",
+          "sourceHash": "d6aae5028c5a",
+          "kind": "relics",
+          "name": "Lushaka, the Sunken Seas",
+          "fileStem": "lushaka-the-sunken-seas",
+          "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-stats-32",
+      "level": 2,
+      "heading": "Best Stats",
+      "text": "Body\n Effect HIT Rate\n\n Feet\n Speed\n\n Planar Sphere\n HP%\n = DEF%\n\n Link Rope\n Break Effect\n = Energy Regen Rate\n\n Substats: Effect Hit Rate (Until 67%) > Break Effect (Until 220% or 250% For Iron Cavalry) > SPD > HP% = DEF%\n\n Get Break Effect to 220% (in combat - 190% outside), Effect Hit Rate to 67%. Then get as much SPD as possible. HP% and DEF% Substats can also be useful to improve survivability",
+      "assets": [
+        {
+          "id": "fd6c20a21941",
+          "sourceHash": "fd6c20a21941",
+          "kind": "icons",
+          "name": "Effect HIT Rate",
+          "fileStem": "stat-effecthit",
+          "path": "Prydwen/hsr/assets/icons/effect-hit-rate-fd6c20a21941.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "6890417bdf8b",
+          "sourceHash": "6890417bdf8b",
+          "kind": "icons",
+          "name": "Break Effect",
+          "fileStem": "stat-break",
+          "path": "Prydwen/hsr/assets/icons/break-effect-6890417bdf8b.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "106ddd8eff32",
+          "sourceHash": "106ddd8eff32",
+          "kind": "icons",
+          "name": "Energy Regen",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "recommended-endgame-stats-33",
+      "level": 2,
+      "heading": "Recommended endgame stats",
+      "text": "HP: 3000-4000+\n\n DEF: 900-1400+\n\n Break Effect%: 190%+ (on the stat screen) or 220%+when using Iron Cavalry,\n Keep in mind that you get 30% BE from her A4 Trace that only activates during combat and it's not visible in the stat screen,\n\n Same thing if you're using Forge - it gives you an additional 40% BE in combat,\n\n And you also get 20% BE from Ruan Mei from her A2 in combat,\n\n So just reduce the BE requirement you see above based on your teammates and Relics,\n\n Effect Hit Rating: 67%\n\n Energy Regen: 100% - 124.44%+ (Read energy notes)\n\n SPD: 142-160+ (Breakpoint at 160)",
+      "assets": []
+    },
+    {
+      "id": "traces-priority-34",
+      "level": 2,
+      "heading": "Traces priority",
+      "text": "Skills priority: Talent > Skill = Ultimate = Basic\n\n Major Traces priority: Sylvan Enigma (A4) > Phecda Primordia (A6) > Verdantia Renaissance (A2)",
+      "assets": []
+    },
+    {
+      "id": "synergy-35",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Rappa - Rappa relies heavily on scoring as many Weakness Breaks as possible to fuel her energy needs. \"Cloudflame Luster\" and the double breaks it provides allows her to gain twice the Charges and as a result twice the Energy. This essentially doubles the DMG and Energy gain from her Talent while also scoring her some extra up front break damage as well.\n Firefly - As one of the premiere Break damage dealers, it's no surprise that Firefly would be more than happy to have Fugue join their team. Fugue Super Break is excellent, Exo Toughness is a nice burst of additional damage and Fugue's buffs and debuffs are also a great addition. However unlike other characters like Boothill, Rappa and Himeko, Firefly doesn't gain transformational benefit from the ability to Break enemies twice in quick succession, making Fugue useable with her but not revolutionary when a free and very capable Harmony Trailblazer exists. When factoring in Eidolons on either Fugue or Firefly things can change.\n Boothill - With Fugue, Boothill now has the potential to gain all 3 Pocket Trickshots in just 1 attack: 1 from the standard Break, 1 from the \"Cloudflame Luster\" Break and 1 from getting the kill. Pulling this off will require Boothill to be able to deal enough Toughness damage to Break through the standard Toughness bar and extra 40% bar but is definitely worth going for. Fugue also doubles his Weakness Break DMG as he gets 2 Breaks instead of 1 per target and allows him to deal with non-Physical weak enemies without having to rely on his Ultimate.\n Himeko - Similar to Rappa, Fugue's \"Cloudflame Luster\" turbo charges Himeko's talent and Charge gain - so much so in fact it becomes difficult to make use of all the Charges she generates as Charges cannot exceed the limit. It's a funny but welcome consequence of too much success. Fugue also offers Himeko the break scaling she so depsperately needs via Superbreak on top of granting her the ability to finally deal with non-fire weak enemies all be it at 50% efficiency.\n Acheron - Fugue only really has one major synergy with Acheron and that's to act as superpowered Debuff battery. Fugue herself can apply debuffs with Nihility Cone but can also grant a team member the ability to do the same with her Foxian Prayer - buffing an ally that attacks frequently with this like Lingsha or Aventurine leads to an incredible amount of charges for Acheron. With that said as Fugue isn't an intended support for Acheron you may have more success with supports who can directly buff her instead,\n Lingsha - Lingsha is a pseudo-Erudition units that can be played as main DPS and she also works with Fugue, turning her into an even bigger killing machine, especially in Pure Fiction,\n Xueyi Sushang Luka - Xueyi, Sushang & Luka will all benefit from the Exo-Toughness, drastically improving their potential and performance.",
+      "assets": [
+        {
+          "id": "f8ad01025a66",
+          "sourceHash": "f8ad01025a66",
+          "kind": "characters",
+          "name": "Rappa",
+          "fileStem": "rappa-icon",
+          "path": "Prydwen/hsr/assets/characters/rappa-f8ad01025a66.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "4c12f1ecf12f",
+          "sourceHash": "4c12f1ecf12f",
+          "kind": "characters",
+          "name": "Firefly",
+          "fileStem": "firefly-icon",
+          "path": "Prydwen/hsr/assets/characters/firefly-4c12f1ecf12f.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "fd57eb6e6eb9",
+          "sourceHash": "fd57eb6e6eb9",
+          "kind": "characters",
+          "name": "Boothill",
+          "fileStem": "boothill-icon",
+          "path": "Prydwen/hsr/assets/characters/boothill-fd57eb6e6eb9.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "589a6cfaa6d4",
+          "sourceHash": "589a6cfaa6d4",
+          "kind": "characters",
+          "name": "Himeko",
+          "fileStem": "himeko-icon",
+          "path": "Prydwen/hsr/assets/characters/himeko-589a6cfaa6d4.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "fbcfe4133d08",
+          "sourceHash": "fbcfe4133d08",
+          "kind": "characters",
+          "name": "Acheron",
+          "fileStem": "acheron-icon",
+          "path": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "ab0724067e0c",
+          "sourceHash": "ab0724067e0c",
+          "kind": "characters",
+          "name": "Lingsha",
+          "fileStem": "lingsha-icon",
+          "path": "Prydwen/hsr/assets/characters/lingsha-ab0724067e0c.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "8a21234a1ace",
+          "sourceHash": "8a21234a1ace",
+          "kind": "characters",
+          "name": "Xueyi",
+          "fileStem": "xueyi-icon",
+          "path": "Prydwen/hsr/assets/characters/xueyi-8a21234a1ace.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "5e2bc8197f82",
+          "sourceHash": "5e2bc8197f82",
+          "kind": "characters",
+          "name": "Sushang",
+          "fileStem": "sushang-icon",
+          "path": "Prydwen/hsr/assets/characters/sushang-5e2bc8197f82.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "581b845e003c",
+          "sourceHash": "581b845e003c",
+          "kind": "characters",
+          "name": "Luka",
+          "fileStem": "luka-icon",
+          "path": "Prydwen/hsr/assets/characters/luka-581b845e003c.webp",
+          "width": 45,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "id": "anomaly-arbitration-40",
+      "level": 6,
+      "heading": "Anomaly Arbitration",
+      "text": "Rank 4\n App. rate: 11.6 %\n Avg. cycles : 8.09\n Avg. cycles (E1+): 4.97\n\n Rank 8\n App. rate: 5.74 %\n Avg. cycles : 6.58\n Avg. cycles (E1+): 3.32\n\n Rank 12\n App. rate: 3.58 %\n Avg. cycles : 8.48\n Avg. cycles (E1+): 6.48\n\n Rank 13\n App. rate: 3.28 %\n Avg. cycles : 5.17\n Avg. cycles (E1+): 1.93\n\n Rank 53\n App. rate: 0.39 %\n Avg. cycles : 5\n Avg. cycles (E1+): 0.77\n\n Rank 53\n App. rate: 0.39 %\n Avg. cycles : 7.44\n Avg. cycles (E1+): 5.87\n\n Rank 67\n App. rate: 0.3 %\n Avg. cycles : 8.33\n Avg. cycles (E1+): 7.31\n\n Rank 85\n App. rate: 0.22 %\n Avg. cycles : 8.3\n Avg. cycles (E1+): 5.64\n\n Rank 85\n App. rate: 0.22 %\n Avg. cycles : -\n Avg. cycles (E1+): 3.24\n\n Rank 94\n App. rate: 0.19 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.19",
+      "assets": [
+        {
+          "id": "4c12f1ecf12f",
+          "sourceHash": "4c12f1ecf12f",
+          "kind": "characters",
+          "name": "Firefly",
+          "fileStem": "firefly-icon",
+          "path": "Prydwen/hsr/assets/characters/firefly-4c12f1ecf12f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "92feb26d8f0e",
+          "sourceHash": "92feb26d8f0e",
+          "kind": "icons",
+          "name": "Fire",
+          "fileStem": "ele-fire",
+          "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "444d6f5749b7",
+          "sourceHash": "444d6f5749b7",
+          "kind": "characters",
+          "name": "Tingyun • Fugue",
+          "fileStem": "tingyun-fugue-icon",
+          "path": "Prydwen/hsr/assets/characters/tingyun-fugue-444d6f5749b7.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "cec6f11ca61e",
+          "sourceHash": "cec6f11ca61e",
+          "kind": "characters",
+          "name": "The Dahlia",
+          "fileStem": "the-dahlia-icon",
+          "path": "Prydwen/hsr/assets/characters/the-dahlia-cec6f11ca61e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ab0724067e0c",
+          "sourceHash": "ab0724067e0c",
+          "kind": "characters",
+          "name": "Lingsha",
+          "fileStem": "lingsha-icon",
+          "path": "Prydwen/hsr/assets/characters/lingsha-ab0724067e0c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b77207bce6c8",
+          "sourceHash": "b77207bce6c8",
+          "kind": "characters",
+          "name": "Ruan Mei",
+          "fileStem": "ruan-mei-icon",
+          "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7d36eb39792a",
+          "sourceHash": "7d36eb39792a",
+          "kind": "icons",
+          "name": "Ice",
+          "fileStem": "ele-ice",
+          "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "30d074a1060a",
+          "sourceHash": "30d074a1060a",
+          "kind": "characters",
+          "name": "Gallagher",
+          "fileStem": "gallagher-icon",
+          "path": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "de41e1704266",
+          "sourceHash": "de41e1704266",
+          "kind": "characters",
+          "name": "Trailblazer • Harmony",
+          "fileStem": "trailblazer-harmony-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-harmony-de41e1704266.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "913ff64407f2",
+          "sourceHash": "913ff64407f2",
+          "kind": "icons",
+          "name": "Imaginary",
+          "fileStem": "ele-imaginary",
+          "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "2cde7699adbf",
+          "sourceHash": "2cde7699adbf",
+          "kind": "characters",
+          "name": "Tribbie",
+          "fileStem": "tribbie-icon",
+          "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "565914d1a436",
+          "sourceHash": "565914d1a436",
+          "kind": "icons",
+          "name": "Quantum",
+          "fileStem": "ele-quantum",
+          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "714348f14d48",
+          "sourceHash": "714348f14d48",
+          "kind": "characters",
+          "name": "Dan Heng • Permansor Terrae",
+          "fileStem": "dan-heng-permansor-terrae-icon",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0db16ed6c66",
+          "sourceHash": "e0db16ed6c66",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "ele-physical",
+          "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "f8ad01025a66",
+          "sourceHash": "f8ad01025a66",
+          "kind": "characters",
+          "name": "Rappa",
+          "fileStem": "rappa-icon",
+          "path": "Prydwen/hsr/assets/characters/rappa-f8ad01025a66.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1d90270b2b4b",
+          "sourceHash": "1d90270b2b4b",
+          "kind": "characters",
+          "name": "Hyacine",
+          "fileStem": "hyacine-icon",
+          "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ee11bd390c9a",
+          "sourceHash": "ee11bd390c9a",
+          "kind": "icons",
+          "name": "Wind",
+          "fileStem": "ele-wind",
+          "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "fd57eb6e6eb9",
+          "sourceHash": "fd57eb6e6eb9",
+          "kind": "characters",
+          "name": "Boothill",
+          "fileStem": "boothill-icon",
+          "path": "Prydwen/hsr/assets/characters/boothill-fd57eb6e6eb9.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "video-guides-41",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "MoC/PF/AS Statistics",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-light-cones": {
+      "label": "Best Light Cones",
+      "sections": [
+        {
+          "heading": "Best Light Cones",
+          "text": "1\n\n Long Road Leads Home (S 1 )\n\n Fugue's signature Cone - offers huge amounts of Break Effect% and a combat debuff that triggers every time an enemy is Weakness Broken, inflicting an 18% Break DMG taken debuff unto them (stackable up to 2 times). Excellent choice for support Nihility charcers wihin Break focused teams but also usable on Nihility Break damage dealers as well. Makes Fugue's Break Effect requirements much easier to achieve, and is incredibly easy to apply both stacks of the Break DMG vulnerability thanks to \"Cloudflame Luster\".\n Usage: 41.94 %\n MoC: 6.79 cyc.\n PF: 28944\n AS: 3498\n\n 2\n\n Lies Dance on the Breeze (S 1 )\n\n Strong option for the high DEF Reduction effect, and allowing Fugue to reach high SPD thresholds. Can make 220 Break Effect difficult to reach\n Usage: 2.72 %\n MoC: 2 cyc.\n PF: 25360\n AS: 3727\n\n 3\n\n Resolution Shines As Pearls of Sweat (S 5 )\n\n Combining the DEF Reduction from her Skill and from 4-pc Iron Cavalry, this Light Cone becomes a solid alternative for Fugue - since her Enhanced Basic ATK can apply the debuff to multiple targets. Doesn't have Break Effect so using it can make hitting 220% a bit harder.\n Usage: 33.88 %\n MoC: 7.57 cyc.\n PF: 27963\n AS: 3459",
+          "assets": [
+            {
+              "id": "2d2b97e137ac",
+              "sourceHash": "2d2b97e137ac",
+              "kind": "light-cones",
+              "name": "Long Road Leads Home",
+              "fileStem": "long-road-leads-home",
+              "path": "Prydwen/hsr/assets/light-cones/long-road-leads-home-2d2b97e137ac.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "54a56452a37b",
+              "sourceHash": "54a56452a37b",
+              "kind": "light-cones",
+              "name": "Lies Dance on the Breeze",
+              "fileStem": "lies-dance-on-the-breeze",
+              "path": "Prydwen/hsr/assets/light-cones/lies-dance-on-the-breeze-54a56452a37b.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "8041d992b728",
+              "sourceHash": "8041d992b728",
+              "kind": "light-cones",
+              "name": "Resolution Shines As Pearls of Sweat",
+              "fileStem": "resolution-shines-as-pearls-of-sweat",
+              "path": "Prydwen/hsr/assets/light-cones/resolution-shines-as-pearls-of-sweat-8041d992b728.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-relic-sets": {
+      "label": "Best Relic Sets",
+      "sections": [
+        {
+          "heading": "Best Relic Sets",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Iron Cavalry Against the Scourge ( 4 -PC)\n\n Fugue's goal is to reach 220% Break Effect not the 250% required to fully activate this set - additionally her Break damage isn't a large contributor to overall team damage. With that said if you have all other boxes checked and don't desire any of the other options increasing her Break damage never hurts.\n Usage: 75.16 %\n MoC: 7.71 cyc.\n PF: 28108\n AS: 3460\n\n 2\n\n Thief of Shooting Meteor ( 4 -PC)\n\n Fugue's \"Cloudflame Luster\" counts as an additional Break for the 4P of this set making it more potent on Fugue. Fugue's Ultimate isn't a major part of her kit at E0 but is still useful in heavy AoE modes like Pure Fiction where you'll just so happen to plenty of enemies to double break.\n Usage: 4.99 %\n MoC: -\n PF: 29720\n AS: 3307\n\n 3\n\n Thief of Shooting Meteor ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Iron Cavalry Against the Scourge\n\n Watchmaker, Master of Dream Machinations\n\n Sacerdos' Relived Ordeal\n\n Messenger Traversing Hackerspace\n\n Usage: 0.61 %\n MoC: -\n PF: 29400\n AS: 3383",
+          "assets": [
+            {
+              "id": "2fc8ce1ab137",
+              "sourceHash": "2fc8ce1ab137",
+              "kind": "relics",
+              "name": "Iron Cavalry Against the Scourge",
+              "fileStem": "iron-cavalry-against-the-scourge",
+              "path": "Prydwen/hsr/assets/relics/iron-cavalry-against-the-scourge-2fc8ce1ab137.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "bd16ed7ff036",
+              "sourceHash": "bd16ed7ff036",
+              "kind": "relics",
+              "name": "Thief of Shooting Meteor",
+              "fileStem": "thief-of-shooting-meteor",
+              "path": "Prydwen/hsr/assets/relics/thief-of-shooting-meteor-bd16ed7ff036.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "706574c241bc",
+              "sourceHash": "706574c241bc",
+              "kind": "relics",
+              "name": "Watchmaker, Master of Dream Machinations",
+              "fileStem": "watchmaker-master-of-dream-machinations",
+              "path": "Prydwen/hsr/assets/relics/watchmaker-master-of-dream-machinations-706574c241bc.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "5cb190fcc346",
+              "sourceHash": "5cb190fcc346",
+              "kind": "relics",
+              "name": "Sacerdos' Relived Ordeal",
+              "fileStem": "sacerdos-relived-ordeal",
+              "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "4cb8065ad660",
+              "sourceHash": "4cb8065ad660",
+              "kind": "relics",
+              "name": "Messenger Traversing Hackerspace",
+              "fileStem": "messenger-traversing-hackerspace",
+              "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-planetary-sets": {
+      "label": "Best Planetary Sets",
+      "sections": [
+        {
+          "heading": "Best Planetary Sets",
+          "text": "1\n\n Forge of the Kalpagni Lantern ( 2 -PC)\n\n Best set for Fugue assuming there is Fire weakness which depending on her teammate can be all the time or only some of the time - whether this set is best in slot will depend on that and the enemies you're facing.\n Usage: 81.99 %\n MoC: 7.71 cyc.\n PF: 27737\n AS: 3460\n\n 2\n\n Talia: Kingdom of Banditry ( 2 -PC)\n\n Alternative to Forge for Fugue's not always up against Fire Weak enemies or paired with characters that can implant it like Firefly.\n Usage: 7.44 %\n MoC: 7.5 cyc.\n PF: 29130\n AS: 3462",
+          "assets": [
+            {
+              "id": "f08c8ab4a73a",
+              "sourceHash": "f08c8ab4a73a",
+              "kind": "relics",
+              "name": "Forge of the Kalpagni Lantern",
+              "fileStem": "forge-of-the-kalpagni-lantern",
+              "path": "Prydwen/hsr/assets/relics/forge-of-the-kalpagni-lantern-f08c8ab4a73a.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "a8ea2dfcb1ee",
+              "sourceHash": "a8ea2dfcb1ee",
+              "kind": "relics",
+              "name": "Talia: Kingdom of Banditry",
+              "fileStem": "talia-kingdom-of-banditry",
+              "path": "Prydwen/hsr/assets/relics/talia-kingdom-of-banditry-a8ea2dfcb1ee.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-stats": {
+      "label": "Best Stats",
+      "sections": [
+        {
+          "heading": "Best Stats",
+          "text": "Body\n Effect HIT Rate\n\n Feet\n Speed\n\n Planar Sphere\n HP%\n = DEF%\n\n Link Rope\n Break Effect\n = Energy Regen Rate\n\n Substats: Effect Hit Rate (Until 67%) > Break Effect (Until 220% or 250% For Iron Cavalry) > SPD > HP% = DEF%\n\n Get Break Effect to 220% (in combat - 190% outside), Effect Hit Rate to 67%. Then get as much SPD as possible. HP% and DEF% Substats can also be useful to improve survivability",
+          "assets": [
+            {
+              "id": "fd6c20a21941",
+              "sourceHash": "fd6c20a21941",
+              "kind": "icons",
+              "name": "Effect HIT Rate",
+              "fileStem": "stat-effecthit",
+              "path": "Prydwen/hsr/assets/icons/effect-hit-rate-fd6c20a21941.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "087f2dec68b6",
+              "sourceHash": "087f2dec68b6",
+              "kind": "icons",
+              "name": "Speed",
+              "fileStem": "stat-speed",
+              "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "96654253a4f7",
+              "sourceHash": "96654253a4f7",
+              "kind": "icons",
+              "name": "HP",
+              "fileStem": "stat-hp",
+              "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "a6be649090ba",
+              "sourceHash": "a6be649090ba",
+              "kind": "icons",
+              "name": "DEF",
+              "fileStem": "stat-def",
+              "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "6890417bdf8b",
+              "sourceHash": "6890417bdf8b",
+              "kind": "icons",
+              "name": "Break Effect",
+              "fileStem": "stat-break",
+              "path": "Prydwen/hsr/assets/icons/break-effect-6890417bdf8b.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "106ddd8eff32",
+              "sourceHash": "106ddd8eff32",
+              "kind": "icons",
+              "name": "Energy Regen",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        }
+      ]
+    },
+    "recommended-endgame-stats": {
+      "label": "Recommended endgame stats",
+      "sections": [
+        {
+          "heading": "Recommended endgame stats",
+          "text": "HP: 3000-4000+\n\n DEF: 900-1400+\n\n Break Effect%: 190%+ (on the stat screen) or 220%+when using Iron Cavalry,\n Keep in mind that you get 30% BE from her A4 Trace that only activates during combat and it's not visible in the stat screen,\n\n Same thing if you're using Forge - it gives you an additional 40% BE in combat,\n\n And you also get 20% BE from Ruan Mei from her A2 in combat,\n\n So just reduce the BE requirement you see above based on your teammates and Relics,\n\n Effect Hit Rating: 67%\n\n Energy Regen: 100% - 124.44%+ (Read energy notes)\n\n SPD: 142-160+ (Breakpoint at 160)",
+          "assets": []
+        }
+      ]
+    },
+    "traces-priority": {
+      "label": "Traces priority",
+      "sections": [
+        {
+          "heading": "Traces priority",
+          "text": "Skills priority: Talent > Skill = Ultimate = Basic\n\n Major Traces priority: Sylvan Enigma (A4) > Phecda Primordia (A6) > Verdantia Renaissance (A2)",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Rappa - Rappa relies heavily on scoring as many Weakness Breaks as possible to fuel her energy needs. \"Cloudflame Luster\" and the double breaks it provides allows her to gain twice the Charges and as a result twice the Energy. This essentially doubles the DMG and Energy gain from her Talent while also scoring her some extra up front break damage as well.\n Firefly - As one of the premiere Break damage dealers, it's no surprise that Firefly would be more than happy to have Fugue join their team. Fugue Super Break is excellent, Exo Toughness is a nice burst of additional damage and Fugue's buffs and debuffs are also a great addition. However unlike other characters like Boothill, Rappa and Himeko, Firefly doesn't gain transformational benefit from the ability to Break enemies twice in quick succession, making Fugue useable with her but not revolutionary when a free and very capable Harmony Trailblazer exists. When factoring in Eidolons on either Fugue or Firefly things can change.\n Boothill - With Fugue, Boothill now has the potential to gain all 3 Pocket Trickshots in just 1 attack: 1 from the standard Break, 1 from the \"Cloudflame Luster\" Break and 1 from getting the kill. Pulling this off will require Boothill to be able to deal enough Toughness damage to Break through the standard Toughness bar and extra 40% bar but is definitely worth going for. Fugue also doubles his Weakness Break DMG as he gets 2 Breaks instead of 1 per target and allows him to deal with non-Physical weak enemies without having to rely on his Ultimate.\n Himeko - Similar to Rappa, Fugue's \"Cloudflame Luster\" turbo charges Himeko's talent and Charge gain - so much so in fact it becomes difficult to make use of all the Charges she generates as Charges cannot exceed the limit. It's a funny but welcome consequence of too much success. Fugue also offers Himeko the break scaling she so depsperately needs via Superbreak on top of granting her the ability to finally deal with non-fire weak enemies all be it at 50% efficiency.\n Acheron - Fugue only really has one major synergy with Acheron and that's to act as superpowered Debuff battery. Fugue herself can apply debuffs with Nihility Cone but can also grant a team member the ability to do the same with her Foxian Prayer - buffing an ally that attacks frequently with this like Lingsha or Aventurine leads to an incredible amount of charges for Acheron. With that said as Fugue isn't an intended support for Acheron you may have more success with supports who can directly buff her instead,\n Lingsha - Lingsha is a pseudo-Erudition units that can be played as main DPS and she also works with Fugue, turning her into an even bigger killing machine, especially in Pure Fiction,\n Xueyi Sushang Luka - Xueyi, Sushang & Luka will all benefit from the Exo-Toughness, drastically improving their potential and performance.",
+          "assets": [
+            {
+              "id": "f8ad01025a66",
+              "sourceHash": "f8ad01025a66",
+              "kind": "characters",
+              "name": "Rappa",
+              "fileStem": "rappa-icon",
+              "path": "Prydwen/hsr/assets/characters/rappa-f8ad01025a66.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "4c12f1ecf12f",
+              "sourceHash": "4c12f1ecf12f",
+              "kind": "characters",
+              "name": "Firefly",
+              "fileStem": "firefly-icon",
+              "path": "Prydwen/hsr/assets/characters/firefly-4c12f1ecf12f.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "fd57eb6e6eb9",
+              "sourceHash": "fd57eb6e6eb9",
+              "kind": "characters",
+              "name": "Boothill",
+              "fileStem": "boothill-icon",
+              "path": "Prydwen/hsr/assets/characters/boothill-fd57eb6e6eb9.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "589a6cfaa6d4",
+              "sourceHash": "589a6cfaa6d4",
+              "kind": "characters",
+              "name": "Himeko",
+              "fileStem": "himeko-icon",
+              "path": "Prydwen/hsr/assets/characters/himeko-589a6cfaa6d4.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "fbcfe4133d08",
+              "sourceHash": "fbcfe4133d08",
+              "kind": "characters",
+              "name": "Acheron",
+              "fileStem": "acheron-icon",
+              "path": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "ab0724067e0c",
+              "sourceHash": "ab0724067e0c",
+              "kind": "characters",
+              "name": "Lingsha",
+              "fileStem": "lingsha-icon",
+              "path": "Prydwen/hsr/assets/characters/lingsha-ab0724067e0c.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "8a21234a1ace",
+              "sourceHash": "8a21234a1ace",
+              "kind": "characters",
+              "name": "Xueyi",
+              "fileStem": "xueyi-icon",
+              "path": "Prydwen/hsr/assets/characters/xueyi-8a21234a1ace.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "5e2bc8197f82",
+              "sourceHash": "5e2bc8197f82",
+              "kind": "characters",
+              "name": "Sushang",
+              "fileStem": "sushang-icon",
+              "path": "Prydwen/hsr/assets/characters/sushang-5e2bc8197f82.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "581b845e003c",
+              "sourceHash": "581b845e003c",
+              "kind": "characters",
+              "name": "Luka",
+              "fileStem": "luka-icon",
+              "path": "Prydwen/hsr/assets/characters/luka-581b845e003c.webp",
+              "width": 45,
+              "height": 45
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Tingyun • Fugue Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Tingyun • Fugue\n Tingyun • Fugue Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Tingyun • Fugue from HSR (Honkai: Star Rail). Tingyun • Fugue is a 5 ★ character from the Fire element who follows the Path of Nihility .\n A tactful foxian girl, whose appearance, name, and identity have all been stolen. The fates have left her a thread of chance at survival, yet the brand of Destruction still writhes with anticipation. The one in a fugue who has experienced life and death and is given a new life... when would she be able to return home?\n\n To learn more about Tingyun • Fugue check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Tingyun • Fugue has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 3.2\n\n Last major build/calcs update\n Patch 4.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Tingyun • Fugue check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Radiant Streak\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Fire DMG equal to #1[i]% of Fugue's ATK to one designated enemy.\n Basic ATK (Enhanced)\n Fiery Caress\n Blast\n\n Lv. 1\n\n Energy gain: 20\n Break: 10 + 5 adjacent\n\n Deals Fire DMG equal to #1[i]% of Fugue's ATK to one designated enemy and Fire DMG equal to #2[i]% of Fugue's ATK to adjacent targets.\n\n Skill\n Virtue Beckons Bliss\n Support\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Grants one designated ally \"Foxian Prayer\". Enters the \"Torrid Scorch\" state, lasting for #1[i] turn(s). The duration reduces by 1 at the start of Fugue's every turn. \"Foxian Prayer\" only takes effect on the most recent target of Fugue's Skill.\nThe ally target with \"Foxian Prayer\" increases their Break Effect by #2[i]% and can also reduce Toughness even when attacking enemies that don't have the corresponding Weakness Type, with the effect equivalent to #6[i]% of the original Toughness Reduction value. This cannot stack with other Toughness Reduction effects that also ignore Weakness Type.\nWhile in the \"Torrid Scorch\" state, Fugue enhances her Basic ATK. Every time an ally target with \"Foxian Prayer\" attacks, Fugue has a #3[i]% base chance to reduce the attacked enemy target's DEF by #4[i]%, lasting for #5[i] turn(s).\n\n Ultimate\n Solar Splendor Shines Upon All\n AoE | 130 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Deals Fire DMG equal to #1[i]% of Fugue's ATK to all enemies. This attack ignores Weakness Type to reduce all enemies' Toughness. And when breaking Weakness, triggers the Fire Weakness Break effect.\n\n Talent\n Fortune Follows Where Virtue Spreads\n Impair\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n While Fugue is on the field, enemy targets will get additionally afflicted with \"Cloudflame Luster,\" equal to #2[i]% of their Max Toughness. When the initial Toughness is reduced to 0, \"Cloudflame Luster\" can be further reduced. When \"Cloudflame Luster\" is reduced to 0, the enemy will receive Weakness Break DMG again.\nWhile Fugue is on the field and after allies attack Weakness Broken enemy targets, converts the Toughness Reduction of this attack into 1 instance of #1[i]% Super Break DMG.\n\n Technique\n Percipient Shine\n Impair\n\n Energy gain: 0\n Break: -\n\n After using Technique, inflicts Daze on enemies within a certain area, lasting for #1[i] second(s). While Dazed, enemies will not actively attack ally targets.\nAfter entering battle via actively attacking Dazed enemies, Fugue's action advances by #4[i]%, with a #2[i]% base chance to inflict each enemy target with the same DEF Reduction state as that applied by Fugue's Skill, lasting for #3[i] turn(s).\n\n Major Traces\n A2 Major trace\n Verdantia Renaissance\n\n After ally targets break weakness, additionally delays the action of the enemy target by 15% .\n\n A4 Major trace\n Sylvan Enigma\n\n Increases this unit's Break Effect by 30% . After using Skill for the first time, immediately recovers 1 Skill Point(s).\n\n A6 Major trace\n Phecda Primordia\n\n When an enemy target's Weakness gets broken, increases teammates' (i.e., excluding this unit) Break Effect by 6% . If Fugue's Break Effect is 220% or higher, the Break Effect increase is boosted by an additional 12% , lasting for 2 turn(s). This effect can stack up to 2 time(s).\n\n Minor Traces (total)\n Break Effect\n + 24%\n\n Speed\n + 14\n\n HP\n + 10%\n\n Eidolons\n E 1\n Earthbound I Was, Cloudward I Be\n Eidolon 1\n\n Ally target with \"Foxian Prayer\" increases their Weakness Break Efficiency by 50% .\n\n E 2\n Beatitude Dawns for the Worthy\n Eidolon 2\n\n When an enemy target's Weakness gets broken, Fugue regenerates 3 Energy. After using Ultimate, advances the action of all allies by 24% .\n\n E 3\n Verity Weaves Thoughts to Blade\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Bereft of Form, Which Name to Bear\n Eidolon 4\n\n Ally target with \"Foxian Prayer\" increases their Break DMG dealt by 20% .\n\n E 5\n Colored Cloud Rains Fortune\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Clairvoyance of Boom and Doom\n Eidolon 6\n\n Increases Fugue's Weakness Break Efficiency by 50% . While Fugue is in the \"Torrid Scorch\" state, \"Foxian Prayer\" takes effect on all allies.\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1125\n\n ATK\n\n 582\n\n DEF\n\n 557\n\n Speed\n\n 102\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 308000\n\n Immortal Scionette\n\n x 15\n\n Immortal Aeroblossom\n\n x 15\n\n Searing Steel Blade\n\n x 65\n\n Immortal Lumintwig\n\n x 15\n\n CV\n ENG\n Anya Floris\n\n JPN\n 高田 憂希 (Yūki Takada)\n\n CN\n 蒋丽 (Li Jiang)\n\n KR\n 이명호 (Lee Myeong-ho)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Provides a source of Exo Toughness, allowing enemies to get Broken a second time,\n\n Allows an ally to ignore Weakness Types when dealing Toughness damage,\n\n Provides the ability to deal Super Break DMG by just existing,\n\n Gives the team large Break Effect bonuses,\n\n Provides additional free Delay against Broken enemies,\n\n Provides a source of DEF reduction,\n\n Frees the Trailblazer from the Harmony Path,\n\n She learned how to protect her neck.\n\n Cons\n Weaker Super Break DMG than the Harmony Trailblazer,\n\n Underwhelming and expensive Ultimate,\n\n DEF reduction is rather low and requires investment into EHR for consistency,\n\n Enhanced Basics are basically cosmetic,\n\n Skill can only buff one ally at a time (Unless you go for E6).\n\n Review (By Sushou)\n Fugue is a potent Break and Super Break focused Nihility support. She allows the team to easily deal Super Break damage against Weakness Broken enemies and is the first unit ever to be able to forcibly apply Exo Toughness to enemies, letting them get Broken a second time before recovering. She also allows a single ally to reduce enemy Toughness regardless of Type while also reducing the attacked enemies' DEF. Fugue is expertly tailored to existing Break DPS and has the tools to remain relevant for future Break units as well.\n Tingyun is back from the brink of death and with new trauma comes new powers, as is tradition. Fugue (pronounced like 'Fyoog' not like 'Foogway' you weirdos) is a Break support that applies the previously Memory of Chaos exclusive status of Exo Toughness, a second universal Toughness bar that appears after an enemy's initial Toughness has been depleted and allows them to get Broken a second time without needing to recover first. This opens the floodgates for some of our exemplar Break DPS to become completely absurd, and you'll soon see why.\n Fugue's Talent is what allows for this Exo Toughness to be in effect. While she is on the field, enemies are afflicted with Cloudflame Luster which stores 40% of the enemy's Max Toughness and is reduced once the original Toughness is depleted, allowing for a second Break to occur. Additionally, while Fugue is on the field, allies attacking Weakness Broken enemies will convert the Toughness damage into 100% Super Break DMG at max Trace level.\n This is a very simple and effective Talent that does all of its effects for merely existing. Being able to apply Weakness Break a second time is great in general as it lets you delay the enemy a second time and inflict potentially powerful Break DoT effects twice , especially for something like Physical Break. The more impressive aspect of the Exo Toughness is that any effects that rely on enemies getting Weakness Broken are able to be activated consecutively; for example, Himeko can gain more than 1 Charge of her Talent per enemy now with this effect, letting her get significantly more follow-ups as a result.\n On top of this, the Talent also casually lets the team deal Super Break DMG against Broken foes with no downtime or maintenance required , though do keep in mind that, while 100% Super Break DMG is impressive, it is a fair bit below what the Harmony Trailblazer provides at max value — 160% Super Break. Not needing to maintain any sort of buff does make it a lot more user friendly, and 100% Super Break is still more than enough to deal huge amounts of damage for our usual Break DPS line up.\n Fugue's Skill will buff an ally for 3 of Fugue's turns. The buffed ally gains up to 30% additional Break Effect and can reduce enemy Toughness regardless of Weakness Type at 50% effectiveness (half of the original Toughness damage). This effect doesn't stack with other effects that allow ignoring of Weakness Type, and only one ally may be buffed at a time. In addition to this, Fugue's Basic ATK is Enhanced to be a Blast AoE, and she has a 100% base chance to reduce the DEF of the enemy that's attacked by the buffed ally, up to 18% DEF reduction for 2 turns.\n Casually letting an ally ignore Weakness Type is incredible as it makes really pesky enemy line ups a lot more manageable, and allows Fugue's Talent to be useful in pretty much any situation. 50% reduced effectiveness is definitely noticeable, so don't expect to be Breaking enemies extremely quickly if you're not buffing a dedicated Breaker or someone with naturally high Toughness damage.\n The DEF reduction is also very appreciated as it's one of the few things that impacts the amount of Break DMG that enemies sustain, but being tied to a 100% base chance makes it a little less consistent without a bit of Effect Hit Rate. Since the DEF reduction applies to the enemy themselves, everyone on the team can benefit from this, making it potentially quite powerful.\n One interesting thing about this Skill is that most of our Break DPS already have no trouble dealing lots of Toughness damage, either being able to implant a Weakness Type onto enemies or just ignoring their Weakness Type altogether, so the Type ignore that the Skill provides isn't that useful on them. Luckily, there are plenty of other characters that could make excellent use of this buff instead, such as Gallagher, Lingsha, or Aventurine, letting them ignore Type and deal massive amounts of Toughness themselves, all while still providing the DEF reduction for everyone to enjoy.\n Fugue's Ultimate is comparatively less interesting, as it's an attack dealing up to 200% ATK to all enemies on the field. This attack fully ignores Weakness Type dealing 100% Toughness reduction to all enemies hit. When Breaking enemies with this damage, it triggers the Fire Break.\n This is mostly just an additional source of AoE damage in your Super Break comps and can be a clutch way to Break enemies or get them just within range of Breaking to one of your main Break DPS, but with a cost of 130 Energy, it's really not a focal point of Fugue's kit and your Energy economy is quite poor anyway since the Enhanced Basic does not restore extra Energy, so it's really just a 'nice to have' ability.\n The Bonus Ability Traces also lean heavily into Break support capabilities. A2 will delay enemy actions by an additional 15% whenever they're Weakness is Broken (30% in total including the second Break from her Talent), and A4 is a free 30% Break Effect and a one time SP refund on using her Skill. A6 provides a stacking Break Effect buff for the team based on when enemies are Broken; 6% by default, but 18% if Fugue's Break Effect is 220% or higher in combat. This Break Effect bonus lasts for 2 turns and can stack up to 2 times, for a total of 12% or 36% Break Effect, depending on if the criteria is met.\n Fugue does not have anything that complicated about her kit, since everything is quite unambiguous in how it works out. It's more how she works in tandem with our existing Break DPS that's interesting, but for the most part, this is also not particularly tricky to discuss.\n The Galaxy Ranger duo, Boothill and Rappa, are already rather agnostic when it comes to relying on Super Break DMG; they both deal direct Break DMG, Boothill especially, and Rappa has a large amount of Super Break native to her kit as well. Rappa always enjoys having greater Super Break DMG, so the Super Break Fugue provides is greatly appreciated, even for Boothill, but the Exo Toughness Fugue brings is even more desirable.\n The Exo Toughness interaction absolutely skyrockets their ramp-up. Boothill can get to 3 stacks of Pocket Trickshot from just one enemy, 1 from Breaking them, 1 from Break number two, and 1 from killing them, meaning Boothill is at max power basically instantly. Rappa meanwhile gets to recover even more Energy and gain even more Talent Charge from Breaking Elites a second time, greatly helping with maintaining good Ultimate uptime for her and making it much easier to chain Ultimates back to back, unlocking Rappa's full (ridiculous) potential with ease.\n Firefly is where the conversation gets a bit trickier, as she is the only Break DPS currently that is wholly reliant on Super Break to be able to deal damage, and doesn't have enough of it naturally in her own kit, thus becoming dependent on external sources like the Harmony Trailblazer. Most Firefly enthusiasts already know this, and as such are curious if Fugue could replace the Harmony Trailblazer in this team, and the answer is 'mostly yes, but a little bit of no'; the Harmony Trailblazer's Super Break contribution is much higher than Fugue's and the difference becomes extremely noticeable with Firefly. Firefly also doesn't really benefit from Exo Toughness at all, and certainly not in the way the Galaxy Rangers do, but it can end up making things a little easier in hard fights due to Fugue delaying the enemies' actions quite significantly and allowing for more time actually landing the Super Break DMG.\n Fugue's Skill also doesn't assist Firefly all that much since Firefly has an easy Fire Weakness Implant already, and both Gallagher and Lingsha are also Fire Type, so there's no mismatch in Elements to speak of. Should there be a future Break support or hybrid like either of those two Abundance characters that isn't Fire Type, Fugue can easily use her Skill to buff them instead of Firefly. It can end up evening out, but for the most part the Harmony Trailblazer is still a better overall pairing for Firefly.\n There is also the potential of having both Fugue and the Harmony Trailblazer together, and instead having Fugue replace Ruan Mei, but this is really only something that could happen if you opt for an E1 Fugue, as the loss of Ruan Mei's Weakness Break Efficiency is not something that Firefly can afford to miss out on.\n Speaking of Eidolons, as usual, not necessary at all, but can be good if you choose to go for them. E1 increases the buffed ally's Weakness Break Efficiency by 50%, E2 regenerates 3 Energy for Fugue when a target is Broken and lets Fugue's Ultimate advance allies action by 24%, E4 increases the Break DMG of the buffed ally by 20%, and E6 increases Fugue's own Weakness Break Efficiency by 50% and lets the effects of the Skill's buff apply to all allies.\n Fugue is undoubtedly a powerful Break support that makes the archetype even stronger and is a worthy pickup, even if all you're doing is freeing your Trailblazer from the shackles of the Harmony Path. Exo Toughness as a mechanic has a lot of potential to continue to grow and allow for lots of interesting interactions down the line. Get her for your Galaxy Rangers or your Glamoth Cavalry girl, she won't let you down.\n But we all know the real ones will get her to unlock lore-accurate Himeko. 'You won't get away! You won't get away! You won't get away—'\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n T0.5\n MoC\n\n T1\n PF\n\n T0.5\n AS\n\n Build and teams\n\n Best Light Cones\n\n 1\n\n Long Road Leads Home (S 1 )\n\n Fugue's signature Cone - offers huge amounts of Break Effect% and a combat debuff that triggers every time an enemy is Weakness Broken, inflicting an 18% Break DMG taken debuff unto them (stackable up to 2 times). Excellent choice for support Nihility charcers wihin Break focused teams but also usable on Nihility Break damage dealers as well. Makes Fugue's Break Effect requirements much easier to achieve, and is incredibly easy to apply both stacks of the Break DMG vulnerability thanks to \"Cloudflame Luster\".\n Usage: 41.94 %\n MoC: 6.79 cyc.\n PF: 28944\n AS: 3498\n\n 2\n\n Lies Dance on the Breeze (S 1 )\n\n Strong option for the high DEF Reduction effect, and allowing Fugue to reach high SPD thresholds. Can make 220 Break Effect difficult to reach\n Usage: 2.72 %\n MoC: 2 cyc.\n PF: 25360\n AS: 3727\n\n 3\n\n Resolution Shines As Pearls of Sweat (S 5 )\n\n Combining the DEF Reduction from her Skill and from 4-pc Iron Cavalry, this Light Cone becomes a solid alternative for Fugue - since her Enhanced Basic ATK can apply the debuff to multiple targets. Doesn't have Break Effect so using it can make hitting 220% a bit harder.\n Usage: 33.88 %\n MoC: 7.57 cyc.\n PF: 27963\n AS: 3459\n\n Specialist Light Cones\n 1\n\n Solitary Healing (S 5 )\n\n A good choice for Fugue's struggling to reach the required Break Effect breakpoint for her trace but also offers the potential to gain some extra energy under the right circumstances. Break Effect is universally helpful - the Cone's secondary effect is most likely to be useful in Pure Fiction.\n Usage: 12.75 %\n MoC: 8.71 cyc.\n PF: 26689\n AS: 3407\n\n 2\n\n Before the Tutorial Mission Starts (S 5 )\n\n Opens up new Energy Rotation possibilities for Fugue given she can reliably inflict the DEF Shred needed to trigger this Cone. Mainly useful for those looking for more Fugue ultimates.\n Usage: 3.9 %\n MoC: 9 cyc.\n PF: 27280\n AS: 3479\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Iron Cavalry Against the Scourge ( 4 -PC)\n\n Fugue's goal is to reach 220% Break Effect not the 250% required to fully activate this set - additionally her Break damage isn't a large contributor to overall team damage. With that said if you have all other boxes checked and don't desire any of the other options increasing her Break damage never hurts.\n Usage: 75.16 %\n MoC: 7.71 cyc.\n PF: 28108\n AS: 3460\n\n 2\n\n Thief of Shooting Meteor ( 4 -PC)\n\n Fugue's \"Cloudflame Luster\" counts as an additional Break for the 4P of this set making it more potent on Fugue. Fugue's Ultimate isn't a major part of her kit at E0 but is still useful in heavy AoE modes like Pure Fiction where you'll just so happen to plenty of enemies to double break.\n Usage: 4.99 %\n MoC: -\n PF: 29720\n AS: 3307\n\n 3\n\n Thief of Shooting Meteor ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Iron Cavalry Against the Scourge\n\n Watchmaker, Master of Dream Machinations\n\n Sacerdos' Relived Ordeal\n\n Messenger Traversing Hackerspace\n\n Usage: 0.61 %\n MoC: -\n PF: 29400\n AS: 3383\n\n Best Specialist Relic Sets\n 1\n\n Eagle of Twilight Line ( 4 -PC)\n\n Only suitable for min-maxing and those aiming to achieve a high frequency of ultimates via Eidolons, Light Cones of specific team compositions as baseline Fugue doesn't have fast enough Ultimate access to make effective use of this set.\n Usage: 8.54 %\n MoC: -\n PF: 26440\n AS: 3448\n\n Best Planetary Sets\n 1\n\n Forge of the Kalpagni Lantern ( 2 -PC)\n\n Best set for Fugue assuming there is Fire weakness which depending on her teammate can be all the time or only some of the time - whether this set is best in slot will depend on that and the enemies you're facing.\n Usage: 81.99 %\n MoC: 7.71 cyc.\n PF: 27737\n AS: 3460\n\n 2\n\n Talia: Kingdom of Banditry ( 2 -PC)\n\n Alternative to Forge for Fugue's not always up against Fire Weak enemies or paired with characters that can implant it like Firefly.\n Usage: 7.44 %\n MoC: 7.5 cyc.\n PF: 29130\n AS: 3462\n\n Best Specialist Planetary Sets\n 1\n\n Sprightly Vonwacq ( 2 -PC)\n\n Fugue already has a combat action advance in her kit which covers most scenarios. This option is only recommended for those looking for the Energy % this Planar provides or for those looking to min-max Fugue's action value for very specific breakpoints.\n Usage: 4.53 %\n MoC: -\n PF: 0\n AS: 0\n\n 2\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n An alternative Energy option to Sprightly Vonwacq which can offer a small buff to the carry of Fugue's teams assuming they can make use of ATK% (Firefly and Rappa).\n Usage: 4.94 %\n MoC: 4 cyc.\n PF: 29360\n AS: 3500\n\n Best Stats\n\n Body\n Effect HIT Rate\n\n Feet\n Speed\n\n Planar Sphere\n HP%\n = DEF%\n\n Link Rope\n Break Effect\n = Energy Regen Rate\n\n Substats: Effect Hit Rate (Until 67%) > Break Effect (Until 220% or 250% For Iron Cavalry) > SPD > HP% = DEF%\n\n Get Break Effect to 220% (in combat - 190% outside), Effect Hit Rate to 67%. Then get as much SPD as possible. HP% and DEF% Substats can also be useful to improve survivability\n\n Recommended endgame stats\n HP: 3000-4000+\n\n DEF: 900-1400+\n\n Break Effect%: 190%+ (on the stat screen) or 220%+when using Iron Cavalry,\n Keep in mind that you get 30% BE from her A4 Trace that only activates during combat and it's not visible in the stat screen,\n\n Same thing if you're using Forge - it gives you an additional 40% BE in combat,\n\n And you also get 20% BE from Ruan Mei from her A2 in combat,\n\n So just reduce the BE requirement you see above based on your teammates and Relics,\n\n Effect Hit Rating: 67%\n\n Energy Regen: 100% - 124.44%+ (Read energy notes)\n\n SPD: 142-160+ (Breakpoint at 160)\n\n Traces priority\n Skills priority: Talent > Skill = Ultimate = Basic\n\n Major Traces priority: Sylvan Enigma (A4) > Phecda Primordia (A6) > Verdantia Renaissance (A2)\n\n Synergy\n Rappa - Rappa relies heavily on scoring as many Weakness Breaks as possible to fuel her energy needs. \"Cloudflame Luster\" and the double breaks it provides allows her to gain twice the Charges and as a result twice the Energy. This essentially doubles the DMG and Energy gain from her Talent while also scoring her some extra up front break damage as well.\n Firefly - As one of the premiere Break damage dealers, it's no surprise that Firefly would be more than happy to have Fugue join their team. Fugue Super Break is excellent, Exo Toughness is a nice burst of additional damage and Fugue's buffs and debuffs are also a great addition. However unlike other characters like Boothill, Rappa and Himeko, Firefly doesn't gain transformational benefit from the ability to Break enemies twice in quick succession, making Fugue useable with her but not revolutionary when a free and very capable Harmony Trailblazer exists. When factoring in Eidolons on either Fugue or Firefly things can change.\n Boothill - With Fugue, Boothill now has the potential to gain all 3 Pocket Trickshots in just 1 attack: 1 from the standard Break, 1 from the \"Cloudflame Luster\" Break and 1 from getting the kill. Pulling this off will require Boothill to be able to deal enough Toughness damage to Break through the standard Toughness bar and extra 40% bar but is definitely worth going for. Fugue also doubles his Weakness Break DMG as he gets 2 Breaks instead of 1 per target and allows him to deal with non-Physical weak enemies without having to rely on his Ultimate.\n Himeko - Similar to Rappa, Fugue's \"Cloudflame Luster\" turbo charges Himeko's talent and Charge gain - so much so in fact it becomes difficult to make use of all the Charges she generates as Charges cannot exceed the limit. It's a funny but welcome consequence of too much success. Fugue also offers Himeko the break scaling she so depsperately needs via Superbreak on top of granting her the ability to finally deal with non-fire weak enemies all be it at 50% efficiency.\n Acheron - Fugue only really has one major synergy with Acheron and that's to act as superpowered Debuff battery. Fugue herself can apply debuffs with Nihility Cone but can also grant a team member the ability to do the same with her Foxian Prayer - buffing an ally that attacks frequently with this like Lingsha or Aventurine leads to an incredible amount of charges for Acheron. With that said as Fugue isn't an intended support for Acheron you may have more success with supports who can directly buff her instead,\n Lingsha - Lingsha is a pseudo-Erudition units that can be played as main DPS and she also works with Fugue, turning her into an even bigger killing machine, especially in Pure Fiction,\n Xueyi Sushang Luka - Xueyi, Sushang & Luka will all benefit from the Exo-Toughness, drastically improving their potential and performance.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 4\n App. rate: 11.6 %\n Avg. cycles : 8.09\n Avg. cycles (E1+): 4.97\n\n Rank 8\n App. rate: 5.74 %\n Avg. cycles : 6.58\n Avg. cycles (E1+): 3.32\n\n Rank 12\n App. rate: 3.58 %\n Avg. cycles : 8.48\n Avg. cycles (E1+): 6.48\n\n Rank 13\n App. rate: 3.28 %\n Avg. cycles : 5.17\n Avg. cycles (E1+): 1.93\n\n Rank 53\n App. rate: 0.39 %\n Avg. cycles : 5\n Avg. cycles (E1+): 0.77\n\n Rank 53\n App. rate: 0.39 %\n Avg. cycles : 7.44\n Avg. cycles (E1+): 5.87\n\n Rank 67\n App. rate: 0.3 %\n Avg. cycles : 8.33\n Avg. cycles (E1+): 7.31\n\n Rank 85\n App. rate: 0.22 %\n Avg. cycles : 8.3\n Avg. cycles (E1+): 5.64\n\n Rank 85\n App. rate: 0.22 %\n Avg. cycles : -\n Avg. cycles (E1+): 3.24\n\n Rank 94\n App. rate: 0.19 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.19\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

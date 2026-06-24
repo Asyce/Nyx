@@ -1,0 +1,38 @@
+{
+  "provider": "Prydwen",
+  "game": "ww",
+  "gameName": "Wuthering Waves",
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "sample": null,
+  "source": {
+    "site": "prydwen.gg",
+    "basePath": "/wuthering-waves"
+  },
+  "counts": {
+    "collections": 3,
+    "records": 62,
+    "characters": 59,
+    "assetsPlanned": 508,
+    "errors": 0
+  },
+  "files": {
+    "collections": "Prydwen/ww/collections.json",
+    "characters": "Prydwen/ww/characters.json",
+    "collectionPages": "Prydwen/ww/collections",
+    "detailPages": "Prydwen/ww/pages",
+    "assets": "Prydwen/ww/assets",
+    "missingAssets": "Prydwen/ww/missing-assets.json"
+  },
+  "assets": {
+    "requested": 508,
+    "downloaded": 299,
+    "cached": 209,
+    "missing": 0
+  },
+  "errors": [],
+  "notes": [
+    "Prydwen does not expose Nanoka-style game version switching; preview/beta status is inferred from index labels such as Soon or future-version badges.",
+    "Normalized JSON stores local database-relative asset paths and source paths only, not remote URLs."
+  ],
+  "changeReport": "Prydwen/changes/ww-latest.json"
+}

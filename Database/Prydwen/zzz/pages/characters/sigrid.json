@@ -1,0 +1,266 @@
+{
+  "id": "characters:sigrid",
+  "provider": "Prydwen",
+  "game": "zzz",
+  "gameName": "Zenless Zone Zero",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "sigrid",
+  "name": "Sigrid",
+  "title": "Sigrid Best Build Guide",
+  "sourcePath": "/zenless/characters/sigrid",
+  "contentStatus": "beta",
+  "statusLabels": [
+    "3.1"
+  ],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "20/June/2026",
+  "meta": {
+    "title": "Sigrid Best Build Guide | Zenless Zone Zero",
+    "description": ""
+  },
+  "facts": {
+    "attribute": "Ice",
+    "specialty": "Attack",
+    "faction": "Unknown",
+    "rarity": "S"
+  },
+  "assets": [
+    {
+      "id": "30ecebbe136b",
+      "sourceHash": "30ecebbe136b",
+      "kind": "characters",
+      "name": "Character",
+      "fileStem": "sigrid-card",
+      "path": "Prydwen/zzz/assets/characters/sigrid-card-30ecebbe136b.webp",
+      "width": 370,
+      "height": 512
+    },
+    {
+      "id": "59d53db87dea",
+      "sourceHash": "59d53db87dea",
+      "kind": "icons",
+      "name": "S",
+      "fileStem": "rarity-s",
+      "path": "Prydwen/zzz/assets/icons/s-59d53db87dea.webp",
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "3183e920376c",
+      "sourceHash": "3183e920376c",
+      "kind": "icons",
+      "name": "Attack",
+      "fileStem": "style-attack",
+      "path": "Prydwen/zzz/assets/icons/attack-3183e920376c.webp",
+      "width": 30,
+      "height": 30
+    }
+  ],
+  "sections": [
+    {
+      "id": "sigrid-best-build-guide-0",
+      "level": 1,
+      "heading": "Sigrid Best Build Guide",
+      "text": "Last updated: 20/June/2026",
+      "assets": [
+        {
+          "id": "30ecebbe136b",
+          "sourceHash": "30ecebbe136b",
+          "kind": "characters",
+          "name": "Character",
+          "fileStem": "sigrid-card",
+          "path": "Prydwen/zzz/assets/characters/sigrid-card-30ecebbe136b.webp",
+          "width": 370,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Sigrid from ZZZ (Zenless Zone Zero). Sigrid is an rank character with the Ice attribute who belongs to the Attack Specialty and who is part of the Unknown Faction faction.\n\n To learn more about Sigrid check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": [
+        {
+          "id": "59d53db87dea",
+          "sourceHash": "59d53db87dea",
+          "kind": "icons",
+          "name": "S",
+          "fileStem": "rarity-s",
+          "path": "Prydwen/zzz/assets/icons/s-59d53db87dea.webp",
+          "width": 30,
+          "height": 30
+        },
+        {
+          "id": "3183e920376c",
+          "sourceHash": "3183e920376c",
+          "kind": "icons",
+          "name": "Attack",
+          "fileStem": "style-attack",
+          "path": "Prydwen/zzz/assets/icons/attack-3183e920376c.webp",
+          "width": 30,
+          "height": 30
+        }
+      ]
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "This character has no video guide yet.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "To learn more about Sigrid check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile",
+      "assets": []
+    },
+    {
+      "id": "core-skills-9",
+      "level": 2,
+      "heading": "Core skills",
+      "text": "Sigrid core skills aren't available yet. They will be added once more information about the character are released.",
+      "assets": []
+    },
+    {
+      "id": "skills-10",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Sigrid skills aren't available yet. They will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "mindscapes-11",
+      "level": 2,
+      "heading": "Mindscapes",
+      "text": "M1\n\n Mindscape 1",
+      "assets": []
+    },
+    {
+      "id": "stats-level-60-12",
+      "level": 2,
+      "heading": "Stats (Level 60)",
+      "text": "Sigrid stats aren't available yet. They will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "voice-actors-13",
+      "level": 2,
+      "heading": "Voice Actors",
+      "text": "ENG\n Dani Chambers\n\n JPN\n Kaida Yuhko\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-14",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Sigrid images aren't available yet. They will be added soon!\n\n Review",
+      "assets": []
+    },
+    {
+      "id": "ratings-15",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Sigrid ratings aren't available yet. They will be added as soon as it is possible.",
+      "assets": []
+    },
+    {
+      "id": "pros-cons-16",
+      "level": 2,
+      "heading": "Pros & Cons",
+      "text": "Sigrid pros & cons aren't available yet. They will be added when the character is released.",
+      "assets": []
+    },
+    {
+      "id": "review-17",
+      "level": 2,
+      "heading": "Review",
+      "text": "Sigrid review isn't available yet. It will be added soon!\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "best-build-18",
+      "level": 2,
+      "heading": "Best Build",
+      "text": "Sigrid build information aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-19",
+      "level": 2,
+      "heading": "Skill priority",
+      "text": "Sigrid skill priority information aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "video-guides-20",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "Sigrid guide videos aren't available yet.\n\n Teams & Synergy",
+      "assets": []
+    },
+    {
+      "id": "synergy-21",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Below we list only the most important synergies for Sigrid . The character can work with others if you know what to do and how to use them.\n\n Sigrid synergy information aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "teams-shiyu-defense-22",
+      "level": 2,
+      "heading": "Teams (Shiyu Defense)",
+      "text": "This section lists most popular teams featuring Sigrid in the current phase of Shiyu Defense.\n There are no teams featuring Sigrid who have cleared Shiyu Defense in the current cycle.",
+      "assets": []
+    },
+    {
+      "id": "teams-deadly-assault-23",
+      "level": 2,
+      "heading": "Teams (Deadly Assault)",
+      "text": "This section lists most popular teams featuring Sigrid in the current phase of Deadly Assault.\n There are no teams featuring Sigrid who have cleared Deadly Assault in the current cycle.",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "skill-priority": {
+      "label": "Skill priority",
+      "sections": [
+        {
+          "heading": "Skill priority",
+          "text": "Sigrid skill priority information aren't available yet. They will be added soon.",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Below we list only the most important synergies for Sigrid . The character can work with others if you know what to do and how to use them.\n\n Sigrid synergy information aren't available yet. They will be added soon.",
+          "assets": []
+        }
+      ]
+    },
+    "teams": {
+      "label": "Teams",
+      "sections": [
+        {
+          "heading": "Teams (Shiyu Defense)",
+          "text": "This section lists most popular teams featuring Sigrid in the current phase of Shiyu Defense.\n There are no teams featuring Sigrid who have cleared Shiyu Defense in the current cycle.",
+          "assets": []
+        },
+        {
+          "heading": "Teams (Deadly Assault)",
+          "text": "This section lists most popular teams featuring Sigrid in the current phase of Deadly Assault.\n There are no teams featuring Sigrid who have cleared Deadly Assault in the current cycle.",
+          "assets": []
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Sigrid Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Sigrid\n Sigrid Best Build Guide\n Last updated: 20/June/2026\n\n Introduction\n Best guide and build for Sigrid from ZZZ (Zenless Zone Zero). Sigrid is an rank character with the Ice attribute who belongs to the Attack Specialty and who is part of the Unknown Faction faction.\n\n To learn more about Sigrid check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n This character has no video guide yet.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Sigrid check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n Sigrid core skills aren't available yet. They will be added once more information about the character are released.\n\n Skills\n Sigrid skills aren't available yet. They will be added soon!\n\n Mindscapes\n M1\n\n Mindscape 1\n\n Stats (Level 60)\n Sigrid stats aren't available yet. They will be added soon!\n\n Voice Actors\n ENG\n Dani Chambers\n\n JPN\n Kaida Yuhko\n\n CN\n -\n\n KR\n -\n\n Gallery\n Sigrid images aren't available yet. They will be added soon!\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Sigrid ratings aren't available yet. They will be added as soon as it is possible.\n\n Pros & Cons\n Sigrid pros & cons aren't available yet. They will be added when the character is released.\n\n Review\n Sigrid review isn't available yet. It will be added soon!\n\n Build and teams\n\n Best Build\n Sigrid build information aren't available yet. They will be added soon.\n\n Skill priority\n Sigrid skill priority information aren't available yet. They will be added soon.\n\n Video guides\n Sigrid guide videos aren't available yet.\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Sigrid . The character can work with others if you know what to do and how to use them.\n\n Sigrid synergy information aren't available yet. They will be added soon.\n\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Sigrid in the current phase of Shiyu Defense.\n There are no teams featuring Sigrid who have cleared Shiyu Defense in the current cycle.\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Sigrid in the current phase of Deadly Assault.\n There are no teams featuring Sigrid who have cleared Deadly Assault in the current cycle."
+}

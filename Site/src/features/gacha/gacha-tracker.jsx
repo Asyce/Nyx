@@ -169,13 +169,49 @@ function GachaTracker({ open, onClose, cfg, inline }){
             <ol className="gt-steps">
               <li><span className="n">1</span><div><b>Open your history</b><span>In {CUR === 'Primogems' ? 'Genshin' : 'the game'}, open the {PULL} history page so the feed URL is cached.</span></div></li>
               <li><span className="n">2</span><div><b>Copy the feed URL</b><span>{ADAPT ? 'Open PowerShell (Windows search → PowerShell) and run the command below — it copies your link to the clipboard.' : 'Run the helper command, then copy the ' + PULL.toLowerCase() + ' history link it prints.'}</span></div></li>
-              <li><span className="n">3</span><div><b>Paste &amp; import</b><span>Drop the link below — Nyx reads every banner and never sees your account.</span></div></li>
+              <li><span className="n">3</span><div><b>Paste &amp; import</b><span>Drop the link below — Pengo&rsquo;s worker proxies it to the game to read every banner, and keeps nothing (no token, no history).</span></div></li>
             </ol>
             {ADAPT && ADAPT.helperCommand && (
               <div className="gt-cmd">
                 <code>{ADAPT.helperCommand}</code>
                 <button type="button" onClick={() => { try { navigator.clipboard.writeText(ADAPT.helperCommand); } catch (e) {} }}>Copy</button>
               </div>
+            )}
+            {ADAPT && ADAPT.safeScript && (
+              <details className="gt-safe">
+                <summary>Prefer not to run a remote command? Download &amp; verify instead</summary>
+                <div className="gt-safe-body">
+                  <p className="gt-safe-note">
+                    The script only reads your local game cache to find the history link and copies it to your
+                    clipboard — its one network call is a validation hit to the game&rsquo;s own API. Pengo&rsquo;s
+                    worker then proxies the history request to the game provider and stores nothing: not your
+                    authorization token, not your pull history.
+                  </p>
+                  <ol className="gt-safe-steps">
+                    <li>
+                      <b>Download</b>{' '}
+                      <a href={ADAPT.safeScript.url} download>pengo-pulls.ps1</a>
+                      {'  ·  '}
+                      <a href={ADAPT.safeScript.url} target="_blank" rel="noopener noreferrer">view source</a>
+                    </li>
+                    <li>
+                      <b>Verify</b> (optional) — the hash should match:
+                      <div className="gt-cmd">
+                        <code>Get-FileHash pengo-pulls.ps1 -Algorithm SHA256</code>
+                        <button type="button" onClick={() => { try { navigator.clipboard.writeText('Get-FileHash pengo-pulls.ps1 -Algorithm SHA256'); } catch (e) {} }}>Copy</button>
+                      </div>
+                      <div className="gt-sha">SHA-256 <code>{ADAPT.safeScript.sha256}</code></div>
+                    </li>
+                    <li>
+                      <b>Run</b> it in PowerShell:
+                      <div className="gt-cmd">
+                        <code>{'powershell -ExecutionPolicy Bypass -File pengo-pulls.ps1 -Game ' + ADAPT.game}</code>
+                        <button type="button" onClick={() => { try { navigator.clipboard.writeText('powershell -ExecutionPolicy Bypass -File pengo-pulls.ps1 -Game ' + ADAPT.game); } catch (e) {} }}>Copy</button>
+                      </div>
+                    </li>
+                  </ol>
+                </div>
+              </details>
             )}
             <div className="gt-urlrow">
               <input value={url} onChange={(e) => setUrl(e.target.value)} spellCheck="false"

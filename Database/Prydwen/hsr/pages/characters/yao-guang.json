@@ -1,0 +1,1434 @@
+{
+  "id": "characters:yao-guang",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "yao-guang",
+  "name": "Yao Guang",
+  "title": "Yao Guang Best Build Guide",
+  "sourcePath": "/star-rail/characters/yao-guang",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "15/June/2026",
+  "meta": {
+    "title": "Yao Guang Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Physical",
+    "path": "Elation"
+  },
+  "assets": [
+    {
+      "id": "84b9f69c7269",
+      "sourceHash": "84b9f69c7269",
+      "kind": "characters",
+      "name": "Yao Guang",
+      "fileStem": "yao-guang-card",
+      "path": "Prydwen/hsr/assets/characters/yao-guang-84b9f69c7269.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "af5b8acc8f63",
+      "sourceHash": "af5b8acc8f63",
+      "kind": "icons",
+      "name": "CRIT Rate",
+      "fileStem": "stat-critrate",
+      "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "087f2dec68b6",
+      "sourceHash": "087f2dec68b6",
+      "kind": "icons",
+      "name": "Speed",
+      "fileStem": "stat-speed",
+      "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "f04b1133fb9e",
+      "sourceHash": "f04b1133fb9e",
+      "kind": "icons",
+      "name": "Elation",
+      "fileStem": "stat-elation",
+      "path": "Prydwen/hsr/assets/icons/elation-f04b1133fb9e.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "96654253a4f7",
+      "sourceHash": "96654253a4f7",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "dc6aec4a7776",
+      "sourceHash": "dc6aec4a7776",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "a6be649090ba",
+      "sourceHash": "a6be649090ba",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "50d0e755383a",
+      "sourceHash": "50d0e755383a",
+      "kind": "items",
+      "name": "Credit",
+      "fileStem": "credit",
+      "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "151a3c83ba98",
+      "sourceHash": "151a3c83ba98",
+      "kind": "items",
+      "name": "Whimsy Wax",
+      "fileStem": "whimsy-wax",
+      "path": "Prydwen/hsr/assets/items/whimsy-wax-151a3c83ba98.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "ca4f0541afae",
+      "sourceHash": "ca4f0541afae",
+      "kind": "items",
+      "name": "Dreamweave Steel",
+      "fileStem": "dreamweave-steel",
+      "path": "Prydwen/hsr/assets/items/dreamweave-steel-ca4f0541afae.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "b44caf6c0187",
+      "sourceHash": "b44caf6c0187",
+      "kind": "items",
+      "name": "Invasive Clot",
+      "fileStem": "invasive-clot",
+      "path": "Prydwen/hsr/assets/items/invasive-clot-b44caf6c0187.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "1a9a49c21124",
+      "sourceHash": "1a9a49c21124",
+      "kind": "items",
+      "name": "Lucid Awl",
+      "fileStem": "lucid-awl",
+      "path": "Prydwen/hsr/assets/items/lucid-awl-1a9a49c21124.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "116e442805a2",
+      "sourceHash": "116e442805a2",
+      "kind": "characters",
+      "name": "Yao Guang",
+      "fileStem": "yao-guang-full",
+      "path": "Prydwen/hsr/assets/characters/yao-guang-116e442805a2.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "a258593669d8",
+      "sourceHash": "a258593669d8",
+      "kind": "light-cones",
+      "name": "When She Decided to See",
+      "fileStem": "when-she-decided-to-see",
+      "path": "Prydwen/hsr/assets/light-cones/when-she-decided-to-see-a258593669d8.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "536246563aca",
+      "sourceHash": "536246563aca",
+      "kind": "light-cones",
+      "name": "Mushy Shroomy's Adventures",
+      "fileStem": "mushy-shroomys-adventures",
+      "path": "Prydwen/hsr/assets/light-cones/mushy-shroomys-adventures-536246563aca.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "19b06ffee878",
+      "sourceHash": "19b06ffee878",
+      "kind": "relics",
+      "name": "Diviner of Distant Reach",
+      "fileStem": "diviner-of-distant-reach",
+      "path": "Prydwen/hsr/assets/relics/diviner-of-distant-reach-19b06ffee878.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "4cb8065ad660",
+      "sourceHash": "4cb8065ad660",
+      "kind": "relics",
+      "name": "Messenger Traversing Hackerspace",
+      "fileStem": "messenger-traversing-hackerspace",
+      "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5cb190fcc346",
+      "sourceHash": "5cb190fcc346",
+      "kind": "relics",
+      "name": "Sacerdos' Relived Ordeal",
+      "fileStem": "sacerdos-relived-ordeal",
+      "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "2f8ec1684b6b",
+      "sourceHash": "2f8ec1684b6b",
+      "kind": "relics",
+      "name": "Warrior Goddess of Sun and Thunder",
+      "fileStem": "warrior-goddess-of-sun-and-thunder",
+      "path": "Prydwen/hsr/assets/relics/warrior-goddess-of-sun-and-thunder-2f8ec1684b6b.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d6aae5028c5a",
+      "sourceHash": "d6aae5028c5a",
+      "kind": "relics",
+      "name": "Lushaka, the Sunken Seas",
+      "fileStem": "lushaka-the-sunken-seas",
+      "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "bb6d718b4cb3",
+      "sourceHash": "bb6d718b4cb3",
+      "kind": "relics",
+      "name": "Sprightly Vonwacq",
+      "fileStem": "sprightly-vonwacq",
+      "path": "Prydwen/hsr/assets/relics/sprightly-vonwacq-bb6d718b4cb3.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "3306e6f6288f",
+      "sourceHash": "3306e6f6288f",
+      "kind": "relics",
+      "name": "Broken Keel",
+      "fileStem": "broken-keel",
+      "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "c13bc696f36c",
+      "sourceHash": "c13bc696f36c",
+      "kind": "relics",
+      "name": "Giant Tree of Rapt Brooding",
+      "fileStem": "giant-tree-of-rapt-brooding",
+      "path": "Prydwen/hsr/assets/relics/giant-tree-of-rapt-brooding-c13bc696f36c.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "44c437b21b3a",
+      "sourceHash": "44c437b21b3a",
+      "kind": "icons",
+      "name": "CRIT DMG",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "106ddd8eff32",
+      "sourceHash": "106ddd8eff32",
+      "kind": "icons",
+      "name": "Energy Regen",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "f54da6170f38",
+      "sourceHash": "f54da6170f38",
+      "kind": "characters",
+      "name": "Silver Wolf • Lv. 999",
+      "fileStem": "silver-wolf-lv-999-icon",
+      "path": "Prydwen/hsr/assets/characters/silver-wolf-lv-999-f54da6170f38.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "7fc1b269fb6f",
+      "sourceHash": "7fc1b269fb6f",
+      "kind": "characters",
+      "name": "Sparxie",
+      "fileStem": "sparxie-icon",
+      "path": "Prydwen/hsr/assets/characters/sparxie-7fc1b269fb6f.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "913ff64407f2",
+      "sourceHash": "913ff64407f2",
+      "kind": "icons",
+      "name": "Imaginary",
+      "fileStem": "ele-imaginary",
+      "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "92feb26d8f0e",
+      "sourceHash": "92feb26d8f0e",
+      "kind": "icons",
+      "name": "Fire",
+      "fileStem": "ele-fire",
+      "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "965df81b835a",
+      "sourceHash": "965df81b835a",
+      "kind": "characters",
+      "name": "Yao Guang",
+      "fileStem": "yao-guang-icon",
+      "path": "Prydwen/hsr/assets/characters/yao-guang-965df81b835a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e0db16ed6c66",
+      "sourceHash": "e0db16ed6c66",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "ele-physical",
+      "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "c4a9c00e98ef",
+      "sourceHash": "c4a9c00e98ef",
+      "kind": "characters",
+      "name": "Huohuo",
+      "fileStem": "huohuo-icon",
+      "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ee11bd390c9a",
+      "sourceHash": "ee11bd390c9a",
+      "kind": "icons",
+      "name": "Wind",
+      "fileStem": "ele-wind",
+      "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "c721ded1f2e0",
+      "sourceHash": "c721ded1f2e0",
+      "kind": "characters",
+      "name": "Trailblazer • Elation",
+      "fileStem": "trailblazer-elation-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-elation-c721ded1f2e0.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d197456869a0",
+      "sourceHash": "d197456869a0",
+      "kind": "icons",
+      "name": "Lightning",
+      "fileStem": "ele-lightning",
+      "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "abea49c1784d",
+      "sourceHash": "abea49c1784d",
+      "kind": "characters",
+      "name": "Evanescia",
+      "fileStem": "evanescia-icon",
+      "path": "Prydwen/hsr/assets/characters/evanescia-abea49c1784d.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "714348f14d48",
+      "sourceHash": "714348f14d48",
+      "kind": "characters",
+      "name": "Dan Heng • Permansor Terrae",
+      "fileStem": "dan-heng-permansor-terrae-icon",
+      "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1d90270b2b4b",
+      "sourceHash": "1d90270b2b4b",
+      "kind": "characters",
+      "name": "Hyacine",
+      "fileStem": "hyacine-icon",
+      "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "da99d2d9a505",
+      "sourceHash": "da99d2d9a505",
+      "kind": "characters",
+      "name": "Sparkle",
+      "fileStem": "sparkle-icon",
+      "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "565914d1a436",
+      "sourceHash": "565914d1a436",
+      "kind": "icons",
+      "name": "Quantum",
+      "fileStem": "ele-quantum",
+      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "17e078e8c1e4",
+      "sourceHash": "17e078e8c1e4",
+      "kind": "characters",
+      "name": "Fu Xuan",
+      "fileStem": "fu-xuan-icon",
+      "path": "Prydwen/hsr/assets/characters/fu-xuan-17e078e8c1e4.webp",
+      "width": 60,
+      "height": 60
+    }
+  ],
+  "sections": [
+    {
+      "id": "yao-guang-best-build-guide-0",
+      "level": 1,
+      "heading": "Yao Guang Best Build Guide",
+      "text": "Last updated: 15/June/2026",
+      "assets": [
+        {
+          "id": "84b9f69c7269",
+          "sourceHash": "84b9f69c7269",
+          "kind": "characters",
+          "name": "Yao Guang",
+          "fileStem": "yao-guang-card",
+          "path": "Prydwen/hsr/assets/characters/yao-guang-84b9f69c7269.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Yao Guang from HSR (Honkai: Star Rail). Yao Guang is a 5 ★ character from the Physical element who follows the Path of Elation .\n Her mysterious, bold, and radical actions were so revolutionary that they left everyone stunned. She saw all fortune, good and ill, through the \"eye\" of The Hunt. Yet, knowing that fate is not to be defied, the Seer Strategist still faced the danger alone. To be dealt such a cursed fortune... How can one ever hope to alter their fate?\n\n To learn more about Yao Guang check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Yao Guang has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 4.0\n\n Last major build/calcs update\n Patch 4.0\n\n Last profile update*\n 15/June/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Yao Guang check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic ATK\n Whistlebolt Sings Joy\n Blast\n\n Lv. 1\n\n Energy gain: 20\n Break: 10 + 5 adjacent\n\n Deals Physical DMG equal to #1[i]% of Yao Guang's ATK to one designated enemy and Physical DMG equal to #2[i]% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30.\n\n Skill\n Decalight Unveils All\n Support\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to #1[i]% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline.\n\n Ultimate\n Hexagram of Feathered Fortune\n Support | 180 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: -\n\n Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn, does not consume Punchline, and increases all allies' All-Type RES PEN by #1[i]% for 3 turn(s).\n\n Talent\n Behold Wherever Light Unfolds\n Support\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n When Yao Guang holds \"Certified Banger\":\n• After an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of #1[i]% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\n• When triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack.\n\n Technique\n Untethered Glimmer Sails Far\n Impair\n\n Energy gain: 0\n Break: -\n\n After using Technique, automatically triggers Skill 1 time at the start of the next battle without consuming any Skill Points. When Yao Guang is in the team, breaking destructible objects immediately grants Fortune Pouch, up to 8 within every Earth Week.\n\n Elation Skill\n Let Thy Fortune Burst in Flames\n AoE\n\n Lv. 1\n\n Energy gain: 5\n Break: 5 + 20 adjacent\n\n Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals #1[i]% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of #2[i]% Physical Elation DMG to one random enemy.",
+      "assets": []
+    },
+    {
+      "id": "major-traces-10",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "A2 Major trace\n Amaze-In Grace\n\n When Yao Guang's SPD is 120 or higher, increases this unit's Elation by 30% . For every 1 SPD exceeded, increases this unit's Elation by 1% . Up to a max of 200 excess SPD can be taken into account for this effect.\n\n A4 Major trace\n Poised and Sated\n\n Increases this unit's CRIT DMG by 60% . After using Elation Skill, recovers 1 Skill Point(s) for the team.\n\n A6 Major trace\n Felicity Ensemble\n\n When Yao Guang gains Certified Banger, its duration increases by 1 turn(s).",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-11",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "CRIT Rate\n + 18.7%\n\n Speed\n + 9\n\n Elation\n + 10%",
+      "assets": [
+        {
+          "id": "af5b8acc8f63",
+          "sourceHash": "af5b8acc8f63",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-critrate",
+          "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "f04b1133fb9e",
+          "sourceHash": "f04b1133fb9e",
+          "kind": "icons",
+          "name": "Elation",
+          "fileStem": "stat-elation",
+          "path": "Prydwen/hsr/assets/icons/elation-f04b1133fb9e.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "eidolons-12",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "E 1\n Chuckle Chimes Where Jade Falls\n Eidolon 1\n\n In Aha's extra turn triggered by Ultimate, the fixed amount of Punchline taken into account increases to 40 . When dealing Elation DMG, all ally targets ignore 20% of the target's DEF.\n\n E 2\n Blind Arrows Guided by Feathers\n Eidolon 2\n\n While the Zone is active, increases all ally targets' SPD by 12% , and additionally increases Elation by 16% .\n\n E 3\n Auspices Mirrored In Decalight\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10. Elation Skill Lv. +1 , up to a maximum of Lv. 15.\n\n E 4\n Threads of Fate Colored by Plumes\n Eidolon 4\n\n In Aha's extra turn triggered by Yao Guang's Ultimate, the DMG dealt by all ally characters' Elation Skill becomes 150% of the original DMG.\n\n E 5\n Bejeweled in Radiant Grace\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15. Elation Skill Lv. +1 , up to a maximum of Lv. 15.\n\n E 6\n Ferried Along the Astral Arc\n Eidolon 6\n\n All ally targets' Elation DMG merrymakes by 25% . Increases the DMG multiplier of Yao Guang's Elation Skill by 100% of its original multiplier.",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-13",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Enable Ascension",
+      "assets": []
+    },
+    {
+      "id": "level-80-stats-14",
+      "level": 5,
+      "heading": "Level 80 stats",
+      "text": "HP\n\n 1242\n\n ATK\n\n 465\n\n DEF\n\n 654\n\n Speed\n\n 101",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "level-1-80-ascension-materials-15",
+      "level": 5,
+      "heading": "Level 1 → 80 Ascension Materials",
+      "text": "Credit\n\n x 308000\n\n Whimsy Wax\n\n x 15\n\n Dreamweave Steel\n\n x 15\n\n Invasive Clot\n\n x 65\n\n Lucid Awl\n\n x 15",
+      "assets": [
+        {
+          "id": "50d0e755383a",
+          "sourceHash": "50d0e755383a",
+          "kind": "items",
+          "name": "Credit",
+          "fileStem": "credit",
+          "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "151a3c83ba98",
+          "sourceHash": "151a3c83ba98",
+          "kind": "items",
+          "name": "Whimsy Wax",
+          "fileStem": "whimsy-wax",
+          "path": "Prydwen/hsr/assets/items/whimsy-wax-151a3c83ba98.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "ca4f0541afae",
+          "sourceHash": "ca4f0541afae",
+          "kind": "items",
+          "name": "Dreamweave Steel",
+          "fileStem": "dreamweave-steel",
+          "path": "Prydwen/hsr/assets/items/dreamweave-steel-ca4f0541afae.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "b44caf6c0187",
+          "sourceHash": "b44caf6c0187",
+          "kind": "items",
+          "name": "Invasive Clot",
+          "fileStem": "invasive-clot",
+          "path": "Prydwen/hsr/assets/items/invasive-clot-b44caf6c0187.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "1a9a49c21124",
+          "sourceHash": "1a9a49c21124",
+          "kind": "items",
+          "name": "Lucid Awl",
+          "fileStem": "lucid-awl",
+          "path": "Prydwen/hsr/assets/items/lucid-awl-1a9a49c21124.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "cv-16",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n -\n\n JPN\n 花澤 香菜 (Hanazawa Kana)\n\n CN\n 秦紫翼 (Qin Ziyi)\n\n KR\n 이슬 (Lee Seul)",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "116e442805a2",
+          "sourceHash": "116e442805a2",
+          "kind": "characters",
+          "name": "Yao Guang",
+          "fileStem": "yao-guang-full",
+          "path": "Prydwen/hsr/assets/characters/yao-guang-116e442805a2.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Able to generate extra Aha Instants for the team that do not consume Punchline,\n\n Consistent Punchline generation without needing to use SP,\n\n SP positive and generates an extra Skill Point from her Elation Skill,\n\n Great general buffs with DMG Vulnerability and All-Type RES PEN,\n\n Increases the team's total Elation and deals extra instances of Elation DMG,\n\n Important unit for Elation teams moving forward,\n\n Not expensive to get going.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Extremely high Energy cost of 180,\n\n Doesn't provide as much value as existing Harmony or Nihility supports for non-Elation teams,\n\n Full potential is locked and needs more Elation units in the team to unlock it.",
+      "assets": []
+    },
+    {
+      "id": "review-by-sushou-21",
+      "level": 2,
+      "heading": "Review (By Sushou)",
+      "text": "The first of a new Path, the Path of Elation. She's a support character tailored to the new Elation mechanics, but carries strong general purpose buffing with her as well, providing high All-Type RES PEN to allies and Damage Vulnerability against foes. She becomes stronger with more Elation characters on the team, and her Ultimate is able to immediately trigger an extra Aha Instant for free, in which all other Elation characters on the team will use their Elation Skills. She is already very potent, and will only grow stronger as more Elation units are released.",
+      "assets": []
+    },
+    {
+      "id": "intro-22",
+      "level": 6,
+      "heading": "[Intro]",
+      "text": "The Seer Strategist of the Xianzhou Yuque, Yao Guang, decided that life was too boring on the Path of the Hunt, and so more closely aligns with... The Elation?? Yes, that's right, it's now come to the absolutely unenviable task of attempting to explain what the mechanics of a new Path are and what we can expect moving forward.\n Remembrance's whole thing was memosprites, but largely this ended up being a slightly altered version of existing team archetypes that were focused on CRIT, and the running theme eventually became that they are HP scalers. It seemed to settle into its own archetype over time.\n Elation has no such issues, as it defines itself as unique from the rest straight away. This is good because there shouldn't be any overlapping or conflicting of identities. But Aha does not do 'simple'. Aha does 'Chaos, chaos!', and it falls to me to try and explicate what this entails.",
+      "assets": []
+    },
+    {
+      "id": "the-world-revolving-23",
+      "level": 6,
+      "heading": "[The World Revolving]",
+      "text": "The Path of Elation is all about entertaining Aha through the Aha Instant. Aha THEMSELVES (yes really) steal THEIR way into your Turn Order, and when there's an Aha Instant, THEY will grant an Extra Turn to all Elation units on the field.\n During this Extra Turn, Elation units will use their Elation Skill automatically without consuming any normal resources, and this will happen in sequence, meaning that every Elation unit will use an Elation Skill in every Aha Instant, guaranteed. Aha's speed on the Turn Order is affected by the number of Elation characters in the team, and increasing their SPD will also increase Aha's SPD. The frequency of Aha Instants is directly affected by Aha's SPD.\n There's two mechanics that are integral to this Aha Instant: Punchline, and Certified Banger. If you think these sound cringy, you should first check whether or not you currently talk like this fam.\n Punchline is a resource that is generated by Elation units doing things or using abilities. Notice that this includes enemies. Punchline is stored in the bottom right of the screen next to Aha's comedy mask, and the amount of Punchline here is shared across the entire team. When the Aha Instant is triggered, the amount of Punchline stored will determine the amount of Elation DMG that is dealt in this Instant. After the Instant, the stored Punchline will become 'consumed', resetting to 0.\n After Elation characters use their Elation Skill, they obtain the Certified Banger state, something that is directly tied to Elation characters' Talents and has unique effects for each one.\n The 'consumed' Punchline stacks will then be stored on each Elation character individually, seen as a number next to the character beside a side profile view of Aha's comedy mask. Consumed Punchline stacks will affect how much Elation DMG that specific character will do. When you gain Consumed Punchline, the stacks you get have a set duration before disappearing, but each stack tally is independently timed from one another.\n The Consumed Punchline will also stack with the regular Punchline during the Aha Instant to further buff characters' Elation Skills. Elation DMG is not affected by DMG Boosting effects, it is only affected by Elation (a brand new stat), and Merrymake, a new type of Boost that is incredibly rare and powerful as it's a final multiplier.\n Do note that the unconsumed Punchline points will only affect Elation Skill DMG during the Aha Instant. It is only when they are consumed after the Aha Instant that they will affect all Elation DMG dealt by Elation characters (but again, will stack together with unconsumed Punchline during the Aha Instant).\n This is a lot, so let's try an example:\n Let's say you have 2 Elation characters on a team, Floof and Bluff, and by using their Abilities, you have generated 30 Punchline, denoted in the bottom right. Then, the Aha Instant triggers, causing both Elation characters to use their Elation Skills one after another, dealing Elation DMG based on the 30 Punchline you had, and entering their respective Certified Banger states. After this, both characters will have 30 Consumed Punchline, seen as the number 30 next to the respective character portraits of Floof and Bluff. The Punchline from the bottom right is now showing 0.\n Floof and Bluff generate 20 Punchline before the next Aha Instant. In this second Instant, Floof and Fluff will deal Elation Skill DMG as though they had 50 Punchline stored (30 Consumed Punchline from before + the 20 unconsumed Punchline from this time). Then, the Punchline tally is reset to 0 again, and Floof and Bluff now have 50 Punchline stored.\n But Floof is faster than Bluff, and so the duration of the first Certified Banger state runs out for Floof before it does for Bluff (the one that came from 30 Punchline). Because of this, Floof now has 20 Punchline stored (losing the stack of 30 from the first Aha Instant), and Bluff still has 50 Punchline stored (the stack of 30 from the first Instant, and the stack of 20 from the second Instant), but has 2 turns remaining for the stack of 20, and only 1 turn remaining for the stack of 30.\n This is the basis for Elation gameplay, and I promise you it's a lot easier to understand once you actually see it in game. Please keep these terms in mind as I explain things, as it's important to understanding just why Yao Guang is poised to be a pivotal character in Elation teams moving forward.",
+      "assets": []
+    },
+    {
+      "id": "abilities-24",
+      "level": 6,
+      "heading": "[Abilities]",
+      "text": "Yao Guang herself is relatively simple, it's really just the general Elation mechanics that make it quite the pain to explain.\n Her Skill will deploy a Zone for 3 of Yao Guang's turns. This Zone will increase all allies' Elation by an amount equal to 20% of Yao Guang's Elation.\n ... Right. Elation is actually a brand new stat that exists in the game now, and is tailor-made for Elation characters to make use in much the same way that Break Effect is designed for Break teams. It's even similar in the sense that general DMG Boosts do nothing for actual Elation DMG, so it's very important to have a lot of this stat if you want to maximise the damage that occurs in an Aha Instant.\n As such, being able to share a portion of her own Elation with others makes Yao Guang already very useful for the future of Elation teams.\n Yao Guang's Basic ATK is a Blast AoE, dealing 90% ATK to the main target and 30% ATK to adjacent foes. The energy recovered by this Basic ATK is always 30, making it a very reliable way to gain Energy. Using either Yao Guang's Basic ATK or Skill will gain 3 Punchline. Not too impressive on its own, but it's still a consistent amount, especially from the Basic ATK since it's a way to gain Punchline without consuming SP at all (something that may become relevant).\n Yao Guang's Ultimate is a big reason she's gonna be in damn near every Elation team moving forward. She will gain 5 Punchline, and then immediately creates an Aha Instant with a fixed value of 20 Punchline. This turn does not consume Punchline, and also increases all allies' All-Type RES PEN by 20% for 3 turns. Aside from the very impressive RES PEN, being able to just give Aha an Extra Turn for every Elation unit to use their Elation Skills is fantastic. Don't let the fixed Punchline value of 20 fool you, that's only for the actual Punchline being consumed — if your Elation characters are already holding a large amount of Consumed Punchline, they will still be able to drop a fat nuke on the enemies instantly thanks to Yao Guang.\n Even better is that this is a genuinely free Aha Instant, not consuming any of the floating Punchline in the process, and even granting some extra thanks to the 5 Punchline from just using Yao Guang's Ultimate. This is a very strong way to boost damage for the entire team.\n The only downside is that it costs a whopping 180 Energy to use, so you're going to have to work for this power, and you DO want to work for it because that All-Type RES PEN is one of the few things that can buff Elation DMG. Be glad the Basic ATK restores 30 Energy.\n Her Talent describes her Certified Banger. The Certified Banger state for Yao Guang will allow for allies to trigger 1 additional instance of 20% Elation DMG of the corresponding Type to a random enemy that was hit by an attack of theirs. If said attack consumed SP, then there will be a second additional instance of Elation DMG. This Great Boon will use the attacker's Elation stat to calculate damage, but in the event that it's lower than Yao Guang's, Yao Guang's Elation will be used for the calculation instead. This effect cannot trigger off of itself. Free extra damage is free extra damage, and it will add up very quickly, especially if Yao Guang is holding a lot of Consumed Punchline.\n Yao Guang's Elation Skill is used automatically during the Aha Instant. It will inflict Woe's Whisper on all enemies, lasting for 3 turns. Woe's Whisper will make enemies take 16% increased DMG. She then deals 100% Elation DMG to all enemies, followed by 5 instances of 20% Elation DMG to one random enemy.\n The damage you'll see from this will be in the vein of 'that's pretty good for a support', but you must of course remember that she is alone for now. With even a single other Elation unit on the team, that number can very quickly transform into 'hey wait, that's DPS numbers!' and you will in fact scarcely believe it's coming from a support character.",
+      "assets": []
+    },
+    {
+      "id": "bonus-traces-25",
+      "level": 6,
+      "heading": "[Bonus Traces]",
+      "text": "The A2 is a stat converter. When Yao Guang's SPD is 120 or higher, increases this units Elation by 30%. For every 1 SPD beyond this cap, increases the Elation bonus by 1%. Up to 200 SPD can be considered for this effect, resulting in a total bonus of 230% Elation if you somehow reach 320 SPD.\n Naturally, this is not possible in regular gameplay (for now, touch wood), but it is still very useful to try and go for a fast acting Yao Guang, not only for the Elation bonus you get from this Trace, but also because a faster General is a faster Aha.\n Her A4 will increase Yao Guang's CRIT DMG by 60% unconditionally, and will also allow her Elation Skill to recover 1 SP for the team when used, making the ordinarily SP neutral Aha Instant actually give SP back.\n Lastly, the A6. It's one line, and it's that it increases Yao Guang's Certified Banger duration by 1 turn, for a new maximum of 3 turns. Innocuous, yet very potent, for it means that Yao Guang will be able to hold onto a lot more Consumed Elation than her future peers, quite often having a significant amount more. This then plays into her Talent letting her be the main point of Calculation for the additional DMG instances from Great Boon, increasing team Elation DMG even further.\n See? I told you the actual character was simple. Ignore the Everything else™ shaped everything else surrounding her. We'll all get used to it soon enough.",
+      "assets": []
+    },
+    {
+      "id": "eidolons-26",
+      "level": 6,
+      "heading": "[Eidolons]",
+      "text": "Hello, yes, it's me again to tell you that you do not need Eidolons in order to have a good time, and this is especially true with Yao Guang. The reasons you would want to pull for her and bring her to your team do not change when you consider her Eidolons. Even still, should you wish to go for them, you can have a pretty good time.\n E1 makes the Ult's guaranteed Aha Instant have a fixed Punchline value of 40 now, up from 20, and allies dealing Elation DMG will ignore 20% of the target's DEF.\n\n E2 will make her Skill's Zone increase allies' SPD by 12%, and increases Elation by 16%.\n\n E4 is pretty strong. In Aha's Extra Turn that's granted by Yao Guang's Ultimate, allies' Elation Skill DMG will become 150% of its original DMG. This is a straight 1.5x final multiplier to the damage you deal, which is uhhh... Pretty strong, I'd say. A shame it comes so late though, as E4 is very rarely a target point or stopping point.\n\n Lastly the E6 will Merrymake allies' Elation DMG by 25%. This is ANOTHER multiplier to the Elation DMG that the team can do, and coupled with the boost from her E4, you're going to be hitting some obscene numbers on both Yao Guang and any Elation units you use alongside her.\n Oh and it also doubles the final damage of her own Elation Skill. You know, for funsies.",
+      "assets": []
+    },
+    {
+      "id": "the-rest-27",
+      "level": 6,
+      "heading": "[The Rest]",
+      "text": "Normally I'd have this big spiel about what this all means for the unit and for future teams and the like, but really, I don't think she's that complicated at all.\n All of Yao Guang's buffs and benefits are simple to understand, regardless of the team composition you're looking to put her into. She has DMG Vuln and RES PEN, so she's automatically going to be at least somewhat good for everyone, even outside of a dedicated Elation team.\n Hell, she even restores extra SP with her Elation Skill, so you can actually use her quite well in teams that have SP negative supports as well. Since her Punchline generation is also very consistent, and she rather likes building for SPD thanks to her Bonus Trace, she can actually generate a fairly consistent stream of Punchline all by herself, and the bonus turn you get for her Certified Banger state means she can hold onto Consumed Punchline for longer.\n She's just very self-synergistic and it's quite readily apparent when you actually try to use her in-game.\n But that's why it's so impressive, because this is the first in what is likely to be a fairly long line of Elation units, and yet... Yao Guang is a complete character already, at E0, and without much special attention either. Knowing that she will only become better with the addition of future Elation units into the team is honestly somewhat frightening.\n This is not even mentioning the fact that a good stream of Punchline generation could theoretically let the team's DMG keep ramping up over time, getting stronger and stronger. Maybe this isn't so impressive for those obsessed with 0 cycles, but for even the enthusiast player, having that kind of a fallback mechanism built into the team is very reassuring.\n But let's say you like a character who is more generally applicable, and do not wish to be tethered to one archetype exclusively. Well... like I said, Yao Guang is already a complete character. Maybe she's not quite as impressive as a Tribbie or Cipher for non Elation teams, but she's still a very strong support with buffs that are very rarely diluted.\n Yao Guang can fit with the newly buffed Sparkle very well in an Archer team, for example. The high SP positivity of the team lets Archer spam out Caladbolg with reckless abandon, and he sure does appreciate having some extra RES PEN as well.\n Yao Guang is unlikely to be replacing anyone on an already built non Elation team, simply because we're quite spoiled for choice when it comes to strong supports. Having said that, Yao Guang is The Future™, and if you have even a passing interest in Elation teams, you are encouraged to seek out Yao Guang. She is going to be IMPORTANT, and you will feel like quite the Fool if you miss her.\n Having said that, her supportive abilities are a little suspect outside of Elation, of course, and there is no guarantee that she will definitely stay relevant, but for those looking to the future, you should at least consider getting her.",
+      "assets": []
+    },
+    {
+      "id": "wrap-up-28",
+      "level": 6,
+      "heading": "[Wrap up]",
+      "text": "You know I think the Elation explanation took more characters than the actual kit description and review of Yao Guang. We just can't have nice things. I am not making any promises whatsoever, okay, but I have a strong suspicion that this will be a more measured approach to a new playable Path than the first time they did this.\n Remembrance is memed on quite a bit for its insane cost, but I can tell you that seeing what Yao Guang does, and how Elation works as a mechanic, that she is of a different composition.\n It is definitely too early to call this the Hyacine of Elation, but please, do yourself a favour and get familiar with Elation. Once you do, you'll quickly realise the potential that this unit has for this fresh new archetype — but please, make an educated decision, and one you will not regret.\n As a wise saying goes: 'Don't fall in love with potential'.",
+      "assets": []
+    },
+    {
+      "id": "ratings-29",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n T0\n MoC\n\n T0\n PF\n\n T0\n AS\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "best-light-cones-31",
+      "level": 2,
+      "heading": "Best Light Cones",
+      "text": "1\n\n When She Decided to See (S 1 )\n\n Yao Guang's signature Light Cone is a massive QoL improvement over other options, but it is not required for her to function. The SPD increase will allow her to achieve high SPD, which in turn allows Aha to also reach SPD thresholds. The Light Cone offers strong CRIT buff for all allies including herself for stronger Elation DMG, but most importantly, Yao Guang has poor Energy economy and this Light Cone will likely help with achieving Ultimates 1 turn earlier while also ensuring her Ultimate is ready after the first turn.\n Usage: 57.79 %\n MoC: 7.1 cyc.\n PF: 38250\n AS: 3654\n\n 2\n\n Mushy Shroomy's Adventures (S 5 )\n\n The only F2P Light Cone obtainable from the Forgotten Hall store increases enemies' Elation DMG Taken. It provides no value in non-Elation teams, and it lacks Energy utility which leads to slower Ultimate rotations.\n Usage: 38.46 %\n MoC: 7.94 cyc.\n PF: 34984\n AS: 3598",
+      "assets": [
+        {
+          "id": "a258593669d8",
+          "sourceHash": "a258593669d8",
+          "kind": "light-cones",
+          "name": "When She Decided to See",
+          "fileStem": "when-she-decided-to-see",
+          "path": "Prydwen/hsr/assets/light-cones/when-she-decided-to-see-a258593669d8.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "536246563aca",
+          "sourceHash": "536246563aca",
+          "kind": "light-cones",
+          "name": "Mushy Shroomy's Adventures",
+          "fileStem": "mushy-shroomys-adventures",
+          "path": "Prydwen/hsr/assets/light-cones/mushy-shroomys-adventures-536246563aca.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-relic-sets-33",
+      "level": 2,
+      "heading": "Best Relic Sets",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Diviner of Distant Reach ( 4 -PC)\n\n Strong and efficient to farm set for Elation teams thanks to its teamwide Elation buffs, has SPD which is converted to Elation on Yao Guang for more stat share, and has high CRIT Rate for her Elation DMG procs.\n Usage: 97.95 %\n MoC: 7.57 cyc.\n PF: 35962\n AS: 3620\n\n 2\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n Potential best in slot if reaching 200 SPD due to Action Value breakpoint optimizations on Aha and herself, which requires her Signature Light Cone for it to be feasible. The SPD breakpoint not only allows her to take 3 turns within 150 AV, but also allows Aha to act twice in the same AV. The current Aha breakpoint requires another Elation ally with 134 SPD but can be done with another Elation teammate in the future. In Elation teams, use the Diviner set if not reaching any AV breakpoints.\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder",
+      "assets": [
+        {
+          "id": "19b06ffee878",
+          "sourceHash": "19b06ffee878",
+          "kind": "relics",
+          "name": "Diviner of Distant Reach",
+          "fileStem": "diviner-of-distant-reach",
+          "path": "Prydwen/hsr/assets/relics/diviner-of-distant-reach-19b06ffee878.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "4cb8065ad660",
+          "sourceHash": "4cb8065ad660",
+          "kind": "relics",
+          "name": "Messenger Traversing Hackerspace",
+          "fileStem": "messenger-traversing-hackerspace",
+          "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "5cb190fcc346",
+          "sourceHash": "5cb190fcc346",
+          "kind": "relics",
+          "name": "Sacerdos' Relived Ordeal",
+          "fileStem": "sacerdos-relived-ordeal",
+          "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "2f8ec1684b6b",
+          "sourceHash": "2f8ec1684b6b",
+          "kind": "relics",
+          "name": "Warrior Goddess of Sun and Thunder",
+          "fileStem": "warrior-goddess-of-sun-and-thunder",
+          "path": "Prydwen/hsr/assets/relics/warrior-goddess-of-sun-and-thunder-2f8ec1684b6b.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-planetary-sets-34",
+      "level": 6,
+      "heading": "Best Planetary Sets",
+      "text": "1\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Provides an ATK buff for the first ally and slightly increases her Energy Regeneration Rate. Note: For Elation units, ATK does not affect Elation DMG unlike CRIT, althrough some will use ATK for Elation stat conversion so it can still be useful if they aren't capped on the conversion.\n Usage: 78.43 %\n MoC: 7.71 cyc.\n PF: 35850\n AS: 3616\n\n 2\n\n Sprightly Vonwacq ( 2 -PC)\n\n Energy Regen is useful but the Action Advance is often not needed with how fast she is naturally, especially since you should wait for team buffs before using her Ultimate.\n Usage: 17.83 %\n MoC: 6.57 cyc.\n PF: 37726\n AS: 3633\n\n 3\n\n Broken Keel ( 2 -PC)\n\n Can increase Elation DMG but sets with Energy is preferred due to how powerful her Ultimate is.\n Usage: 0.76 %\n MoC: 8.17 cyc.\n PF: 35251\n AS: 3628\n\n 4\n\n Giant Tree of Rapt Brooding ( 2 -PC)\n\n Lacks Energy but SPD thresholds can be important, check the note on the main Relic options.\n Usage: 0.65 %\n MoC: 8.33 cyc.\n PF: 36322\n AS: 3639",
+      "assets": [
+        {
+          "id": "d6aae5028c5a",
+          "sourceHash": "d6aae5028c5a",
+          "kind": "relics",
+          "name": "Lushaka, the Sunken Seas",
+          "fileStem": "lushaka-the-sunken-seas",
+          "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "bb6d718b4cb3",
+          "sourceHash": "bb6d718b4cb3",
+          "kind": "relics",
+          "name": "Sprightly Vonwacq",
+          "fileStem": "sprightly-vonwacq",
+          "path": "Prydwen/hsr/assets/relics/sprightly-vonwacq-bb6d718b4cb3.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "3306e6f6288f",
+          "sourceHash": "3306e6f6288f",
+          "kind": "relics",
+          "name": "Broken Keel",
+          "fileStem": "broken-keel",
+          "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "c13bc696f36c",
+          "sourceHash": "c13bc696f36c",
+          "kind": "relics",
+          "name": "Giant Tree of Rapt Brooding",
+          "fileStem": "giant-tree-of-rapt-brooding",
+          "path": "Prydwen/hsr/assets/relics/giant-tree-of-rapt-brooding-c13bc696f36c.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-stats-36",
+      "level": 2,
+      "heading": "Best Stats",
+      "text": "Body\n CRIT DMG\n > CRIT Rate\n\n Feet\n Speed\n\n Planar Sphere\n HP%\n > DEF%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (as much as possible) > CRIT Rate > CRIT DMG",
+      "assets": [
+        {
+          "id": "44c437b21b3a",
+          "sourceHash": "44c437b21b3a",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "af5b8acc8f63",
+          "sourceHash": "af5b8acc8f63",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-critrate",
+          "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "106ddd8eff32",
+          "sourceHash": "106ddd8eff32",
+          "kind": "icons",
+          "name": "Energy Regen",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "recommended-endgame-stats-37",
+      "level": 2,
+      "heading": "Recommended endgame stats",
+      "text": "HP: 3000-4000\n\n DEF: 1000-1100\n\n CRIT Rate: 100% (in-combat)\n\n CRIT DMG: 100% (pre-combat)\n\n SPD: 160-200\n Aim to reach 200 SPD for 3 turns in 150 AV, and also speed up Aha to 134 SPD.\n\n For now, this would require 134 SPD Sparxie, but future Elation characters will remove the need for this.",
+      "assets": []
+    },
+    {
+      "id": "traces-priority-38",
+      "level": 2,
+      "heading": "Traces priority",
+      "text": "Skills priority: Skill = Ultimate > Talent > Basic\n\n Major Traces priority: Poised and Sated (A4) > Amaze-In Grace (A2) > Felicity Ensemble (A6)",
+      "assets": []
+    },
+    {
+      "id": "eidolon-information-40",
+      "level": 2,
+      "heading": "Eidolon Information",
+      "text": "Eidolon 1: Extremely powerful first Eidolon for a support, enabling all Elation DMG to ignore 20% DEF. The Aha Instant from her Ultimate will now have 40 Punchlines, which is more Elation Skill DMG but more importantly, it will be converted and stored for 2 turns, allowing Elation characters to deal more DMG through their Certified Banger states.\n Eidolon 2: 16% teamwide Elation DMG is rather small, but 12% SPD on Yao Guang gets converted to Elation and allows certain Action Value breakpoints on Aha / Yao Guang to be much more achievable. Aim to reach 200 SPD after buffs on Yao Guang so she can get 3 turns within 150 AV while Aha also gets 2. As of 4.0 this will require 134 Sparxie, but having more Elation characters will make it unnecessary.\n Eidolon 4: 1.5x DMG multiplier on her Aha Instant is strong but generally it is never worth to pull for E4.\n Eidolon 6: Provides a rare 25% DMG increase through the Merrymake multiplier and makes her a strong Sub DPS by doubling her Elation Skill DMG.",
+      "assets": []
+    },
+    {
+      "id": "synergy-41",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Silver Wolf • Lv. 999 - Yao Guang's Hidden MMR generation is often superior owing to the fact that her Ultimate can be controlled and provides a burst generation of Hidden MMR while not in Ultimate state, improving Silver Wolf LV.999's Ultimate uptime. Her Ultimate triggering an extra Aha Instant also synergizes really well with her Elation teammates, making her a top pick for Silver Wolf LV.999\n Sparxie - Yao Guang is an Elation-tailored support that becomes stronger with more Elation characters on the team (yes that is the whole Elation Path gimmick). Her Ultimate triggers an extra Aha Instant which allows all Elation characters to use their Elation Skills, and then adds Certified Bangers to them with 20 Punchlines which allows them to deal more DMG through their Certified Banger states. She has teamwide buffs: 20% of her Elation is shared to all allies, 16% DMG Vulnerability debuff on enemies, and teamwide 20% All-Type RES PEN for 3 turns.",
+      "assets": [
+        {
+          "id": "f54da6170f38",
+          "sourceHash": "f54da6170f38",
+          "kind": "characters",
+          "name": "Silver Wolf • Lv. 999",
+          "fileStem": "silver-wolf-lv-999-icon",
+          "path": "Prydwen/hsr/assets/characters/silver-wolf-lv-999-f54da6170f38.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "7fc1b269fb6f",
+          "sourceHash": "7fc1b269fb6f",
+          "kind": "characters",
+          "name": "Sparxie",
+          "fileStem": "sparxie-icon",
+          "path": "Prydwen/hsr/assets/characters/sparxie-7fc1b269fb6f.webp",
+          "width": 45,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "id": "anomaly-arbitration-46",
+      "level": 6,
+      "heading": "Anomaly Arbitration",
+      "text": "Rank 1\n App. rate: 24.6 %\n Avg. cycles : 7\n Avg. cycles (E1+): 3.74\n\n Rank 5\n App. rate: 10.73 %\n Avg. cycles : 7.78\n Avg. cycles (E1+): 5.05\n\n Rank 6\n App. rate: 9.99 %\n Avg. cycles : 7.84\n Avg. cycles (E1+): 4.23\n\n Rank 7\n App. rate: 7.19 %\n Avg. cycles : 7.51\n Avg. cycles (E1+): 4.73\n\n Rank 16\n App. rate: 1.96 %\n Avg. cycles : 8.58\n Avg. cycles (E1+): 6.17\n\n Rank 20\n App. rate: 1.54 %\n Avg. cycles : 7.94\n Avg. cycles (E1+): 4.7\n\n Rank 28\n App. rate: 0.95 %\n Avg. cycles : 8.41\n Avg. cycles (E1+): 5.93\n\n Rank 31\n App. rate: 0.89 %\n Avg. cycles : 8.58\n Avg. cycles (E1+): 5.52\n\n Rank 34\n App. rate: 0.72 %\n Avg. cycles : 8.77\n Avg. cycles (E1+): 6.47\n\n Rank 37\n App. rate: 0.65 %\n Avg. cycles : 8\n Avg. cycles (E1+): 4.21",
+      "assets": [
+        {
+          "id": "f54da6170f38",
+          "sourceHash": "f54da6170f38",
+          "kind": "characters",
+          "name": "Silver Wolf • Lv. 999",
+          "fileStem": "silver-wolf-lv-999-icon",
+          "path": "Prydwen/hsr/assets/characters/silver-wolf-lv-999-f54da6170f38.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "913ff64407f2",
+          "sourceHash": "913ff64407f2",
+          "kind": "icons",
+          "name": "Imaginary",
+          "fileStem": "ele-imaginary",
+          "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "7fc1b269fb6f",
+          "sourceHash": "7fc1b269fb6f",
+          "kind": "characters",
+          "name": "Sparxie",
+          "fileStem": "sparxie-icon",
+          "path": "Prydwen/hsr/assets/characters/sparxie-7fc1b269fb6f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "92feb26d8f0e",
+          "sourceHash": "92feb26d8f0e",
+          "kind": "icons",
+          "name": "Fire",
+          "fileStem": "ele-fire",
+          "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "965df81b835a",
+          "sourceHash": "965df81b835a",
+          "kind": "characters",
+          "name": "Yao Guang",
+          "fileStem": "yao-guang-icon",
+          "path": "Prydwen/hsr/assets/characters/yao-guang-965df81b835a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0db16ed6c66",
+          "sourceHash": "e0db16ed6c66",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "ele-physical",
+          "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "c4a9c00e98ef",
+          "sourceHash": "c4a9c00e98ef",
+          "kind": "characters",
+          "name": "Huohuo",
+          "fileStem": "huohuo-icon",
+          "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ee11bd390c9a",
+          "sourceHash": "ee11bd390c9a",
+          "kind": "icons",
+          "name": "Wind",
+          "fileStem": "ele-wind",
+          "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "c721ded1f2e0",
+          "sourceHash": "c721ded1f2e0",
+          "kind": "characters",
+          "name": "Trailblazer • Elation",
+          "fileStem": "trailblazer-elation-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-elation-c721ded1f2e0.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d197456869a0",
+          "sourceHash": "d197456869a0",
+          "kind": "icons",
+          "name": "Lightning",
+          "fileStem": "ele-lightning",
+          "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "abea49c1784d",
+          "sourceHash": "abea49c1784d",
+          "kind": "characters",
+          "name": "Evanescia",
+          "fileStem": "evanescia-icon",
+          "path": "Prydwen/hsr/assets/characters/evanescia-abea49c1784d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "714348f14d48",
+          "sourceHash": "714348f14d48",
+          "kind": "characters",
+          "name": "Dan Heng • Permansor Terrae",
+          "fileStem": "dan-heng-permansor-terrae-icon",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1d90270b2b4b",
+          "sourceHash": "1d90270b2b4b",
+          "kind": "characters",
+          "name": "Hyacine",
+          "fileStem": "hyacine-icon",
+          "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "da99d2d9a505",
+          "sourceHash": "da99d2d9a505",
+          "kind": "characters",
+          "name": "Sparkle",
+          "fileStem": "sparkle-icon",
+          "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "565914d1a436",
+          "sourceHash": "565914d1a436",
+          "kind": "icons",
+          "name": "Quantum",
+          "fileStem": "ele-quantum",
+          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "17e078e8c1e4",
+          "sourceHash": "17e078e8c1e4",
+          "kind": "characters",
+          "name": "Fu Xuan",
+          "fileStem": "fu-xuan-icon",
+          "path": "Prydwen/hsr/assets/characters/fu-xuan-17e078e8c1e4.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "video-guides-47",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "MoC/PF/AS Statistics",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-light-cones": {
+      "label": "Best Light Cones",
+      "sections": [
+        {
+          "heading": "Best Light Cones",
+          "text": "1\n\n When She Decided to See (S 1 )\n\n Yao Guang's signature Light Cone is a massive QoL improvement over other options, but it is not required for her to function. The SPD increase will allow her to achieve high SPD, which in turn allows Aha to also reach SPD thresholds. The Light Cone offers strong CRIT buff for all allies including herself for stronger Elation DMG, but most importantly, Yao Guang has poor Energy economy and this Light Cone will likely help with achieving Ultimates 1 turn earlier while also ensuring her Ultimate is ready after the first turn.\n Usage: 57.79 %\n MoC: 7.1 cyc.\n PF: 38250\n AS: 3654\n\n 2\n\n Mushy Shroomy's Adventures (S 5 )\n\n The only F2P Light Cone obtainable from the Forgotten Hall store increases enemies' Elation DMG Taken. It provides no value in non-Elation teams, and it lacks Energy utility which leads to slower Ultimate rotations.\n Usage: 38.46 %\n MoC: 7.94 cyc.\n PF: 34984\n AS: 3598",
+          "assets": [
+            {
+              "id": "a258593669d8",
+              "sourceHash": "a258593669d8",
+              "kind": "light-cones",
+              "name": "When She Decided to See",
+              "fileStem": "when-she-decided-to-see",
+              "path": "Prydwen/hsr/assets/light-cones/when-she-decided-to-see-a258593669d8.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "536246563aca",
+              "sourceHash": "536246563aca",
+              "kind": "light-cones",
+              "name": "Mushy Shroomy's Adventures",
+              "fileStem": "mushy-shroomys-adventures",
+              "path": "Prydwen/hsr/assets/light-cones/mushy-shroomys-adventures-536246563aca.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-relic-sets": {
+      "label": "Best Relic Sets",
+      "sections": [
+        {
+          "heading": "Best Relic Sets",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Diviner of Distant Reach ( 4 -PC)\n\n Strong and efficient to farm set for Elation teams thanks to its teamwide Elation buffs, has SPD which is converted to Elation on Yao Guang for more stat share, and has high CRIT Rate for her Elation DMG procs.\n Usage: 97.95 %\n MoC: 7.57 cyc.\n PF: 35962\n AS: 3620\n\n 2\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n Potential best in slot if reaching 200 SPD due to Action Value breakpoint optimizations on Aha and herself, which requires her Signature Light Cone for it to be feasible. The SPD breakpoint not only allows her to take 3 turns within 150 AV, but also allows Aha to act twice in the same AV. The current Aha breakpoint requires another Elation ally with 134 SPD but can be done with another Elation teammate in the future. In Elation teams, use the Diviner set if not reaching any AV breakpoints.\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder",
+          "assets": [
+            {
+              "id": "19b06ffee878",
+              "sourceHash": "19b06ffee878",
+              "kind": "relics",
+              "name": "Diviner of Distant Reach",
+              "fileStem": "diviner-of-distant-reach",
+              "path": "Prydwen/hsr/assets/relics/diviner-of-distant-reach-19b06ffee878.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "4cb8065ad660",
+              "sourceHash": "4cb8065ad660",
+              "kind": "relics",
+              "name": "Messenger Traversing Hackerspace",
+              "fileStem": "messenger-traversing-hackerspace",
+              "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "5cb190fcc346",
+              "sourceHash": "5cb190fcc346",
+              "kind": "relics",
+              "name": "Sacerdos' Relived Ordeal",
+              "fileStem": "sacerdos-relived-ordeal",
+              "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "2f8ec1684b6b",
+              "sourceHash": "2f8ec1684b6b",
+              "kind": "relics",
+              "name": "Warrior Goddess of Sun and Thunder",
+              "fileStem": "warrior-goddess-of-sun-and-thunder",
+              "path": "Prydwen/hsr/assets/relics/warrior-goddess-of-sun-and-thunder-2f8ec1684b6b.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-planetary-sets": {
+      "label": "Best Planetary Sets",
+      "sections": [
+        {
+          "heading": "Best Planetary Sets",
+          "text": "1\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Provides an ATK buff for the first ally and slightly increases her Energy Regeneration Rate. Note: For Elation units, ATK does not affect Elation DMG unlike CRIT, althrough some will use ATK for Elation stat conversion so it can still be useful if they aren't capped on the conversion.\n Usage: 78.43 %\n MoC: 7.71 cyc.\n PF: 35850\n AS: 3616\n\n 2\n\n Sprightly Vonwacq ( 2 -PC)\n\n Energy Regen is useful but the Action Advance is often not needed with how fast she is naturally, especially since you should wait for team buffs before using her Ultimate.\n Usage: 17.83 %\n MoC: 6.57 cyc.\n PF: 37726\n AS: 3633\n\n 3\n\n Broken Keel ( 2 -PC)\n\n Can increase Elation DMG but sets with Energy is preferred due to how powerful her Ultimate is.\n Usage: 0.76 %\n MoC: 8.17 cyc.\n PF: 35251\n AS: 3628\n\n 4\n\n Giant Tree of Rapt Brooding ( 2 -PC)\n\n Lacks Energy but SPD thresholds can be important, check the note on the main Relic options.\n Usage: 0.65 %\n MoC: 8.33 cyc.\n PF: 36322\n AS: 3639",
+          "assets": [
+            {
+              "id": "d6aae5028c5a",
+              "sourceHash": "d6aae5028c5a",
+              "kind": "relics",
+              "name": "Lushaka, the Sunken Seas",
+              "fileStem": "lushaka-the-sunken-seas",
+              "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "bb6d718b4cb3",
+              "sourceHash": "bb6d718b4cb3",
+              "kind": "relics",
+              "name": "Sprightly Vonwacq",
+              "fileStem": "sprightly-vonwacq",
+              "path": "Prydwen/hsr/assets/relics/sprightly-vonwacq-bb6d718b4cb3.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "3306e6f6288f",
+              "sourceHash": "3306e6f6288f",
+              "kind": "relics",
+              "name": "Broken Keel",
+              "fileStem": "broken-keel",
+              "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "c13bc696f36c",
+              "sourceHash": "c13bc696f36c",
+              "kind": "relics",
+              "name": "Giant Tree of Rapt Brooding",
+              "fileStem": "giant-tree-of-rapt-brooding",
+              "path": "Prydwen/hsr/assets/relics/giant-tree-of-rapt-brooding-c13bc696f36c.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-stats": {
+      "label": "Best Stats",
+      "sections": [
+        {
+          "heading": "Best Stats",
+          "text": "Body\n CRIT DMG\n > CRIT Rate\n\n Feet\n Speed\n\n Planar Sphere\n HP%\n > DEF%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (as much as possible) > CRIT Rate > CRIT DMG",
+          "assets": [
+            {
+              "id": "44c437b21b3a",
+              "sourceHash": "44c437b21b3a",
+              "kind": "icons",
+              "name": "CRIT DMG",
+              "fileStem": "stat-critdmg",
+              "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "af5b8acc8f63",
+              "sourceHash": "af5b8acc8f63",
+              "kind": "icons",
+              "name": "CRIT Rate",
+              "fileStem": "stat-critrate",
+              "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "087f2dec68b6",
+              "sourceHash": "087f2dec68b6",
+              "kind": "icons",
+              "name": "Speed",
+              "fileStem": "stat-speed",
+              "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "96654253a4f7",
+              "sourceHash": "96654253a4f7",
+              "kind": "icons",
+              "name": "HP",
+              "fileStem": "stat-hp",
+              "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "a6be649090ba",
+              "sourceHash": "a6be649090ba",
+              "kind": "icons",
+              "name": "DEF",
+              "fileStem": "stat-def",
+              "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "106ddd8eff32",
+              "sourceHash": "106ddd8eff32",
+              "kind": "icons",
+              "name": "Energy Regen",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        }
+      ]
+    },
+    "recommended-endgame-stats": {
+      "label": "Recommended endgame stats",
+      "sections": [
+        {
+          "heading": "Recommended endgame stats",
+          "text": "HP: 3000-4000\n\n DEF: 1000-1100\n\n CRIT Rate: 100% (in-combat)\n\n CRIT DMG: 100% (pre-combat)\n\n SPD: 160-200\n Aim to reach 200 SPD for 3 turns in 150 AV, and also speed up Aha to 134 SPD.\n\n For now, this would require 134 SPD Sparxie, but future Elation characters will remove the need for this.",
+          "assets": []
+        }
+      ]
+    },
+    "traces-priority": {
+      "label": "Traces priority",
+      "sections": [
+        {
+          "heading": "Traces priority",
+          "text": "Skills priority: Skill = Ultimate > Talent > Basic\n\n Major Traces priority: Poised and Sated (A4) > Amaze-In Grace (A2) > Felicity Ensemble (A6)",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Silver Wolf • Lv. 999 - Yao Guang's Hidden MMR generation is often superior owing to the fact that her Ultimate can be controlled and provides a burst generation of Hidden MMR while not in Ultimate state, improving Silver Wolf LV.999's Ultimate uptime. Her Ultimate triggering an extra Aha Instant also synergizes really well with her Elation teammates, making her a top pick for Silver Wolf LV.999\n Sparxie - Yao Guang is an Elation-tailored support that becomes stronger with more Elation characters on the team (yes that is the whole Elation Path gimmick). Her Ultimate triggers an extra Aha Instant which allows all Elation characters to use their Elation Skills, and then adds Certified Bangers to them with 20 Punchlines which allows them to deal more DMG through their Certified Banger states. She has teamwide buffs: 20% of her Elation is shared to all allies, 16% DMG Vulnerability debuff on enemies, and teamwide 20% All-Type RES PEN for 3 turns.",
+          "assets": [
+            {
+              "id": "f54da6170f38",
+              "sourceHash": "f54da6170f38",
+              "kind": "characters",
+              "name": "Silver Wolf • Lv. 999",
+              "fileStem": "silver-wolf-lv-999-icon",
+              "path": "Prydwen/hsr/assets/characters/silver-wolf-lv-999-f54da6170f38.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "7fc1b269fb6f",
+              "sourceHash": "7fc1b269fb6f",
+              "kind": "characters",
+              "name": "Sparxie",
+              "fileStem": "sparxie-icon",
+              "path": "Prydwen/hsr/assets/characters/sparxie-7fc1b269fb6f.webp",
+              "width": 45,
+              "height": 45
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Yao Guang Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Yao Guang\n Yao Guang Best Build Guide\n Last updated: 15/June/2026\n\n Introduction\n Best guide and build for Yao Guang from HSR (Honkai: Star Rail). Yao Guang is a 5 ★ character from the Physical element who follows the Path of Elation .\n Her mysterious, bold, and radical actions were so revolutionary that they left everyone stunned. She saw all fortune, good and ill, through the \"eye\" of The Hunt. Yet, knowing that fate is not to be defied, the Seer Strategist still faced the danger alone. To be dealt such a cursed fortune... How can one ever hope to alter their fate?\n\n To learn more about Yao Guang check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Yao Guang has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 4.0\n\n Last major build/calcs update\n Patch 4.0\n\n Last profile update*\n 15/June/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Yao Guang check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Whistlebolt Sings Joy\n Blast\n\n Lv. 1\n\n Energy gain: 20\n Break: 10 + 5 adjacent\n\n Deals Physical DMG equal to #1[i]% of Yao Guang's ATK to one designated enemy and Physical DMG equal to #2[i]% of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to 30.\n\n Skill\n Decalight Unveils All\n Support\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Deploys a Zone for 3 turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to #1[i]% of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains 3 Punchline.\n\n Ultimate\n Hexagram of Feathered Fortune\n Support | 180 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: -\n\n Gains 5 Punchline. Aha immediately gains 1 extra turn where a fixed amount of 20 Punchline is taken into account. This turn, does not consume Punchline, and increases all allies' All-Type RES PEN by #1[i]% for 3 turn(s).\n\n Talent\n Behold Wherever Light Unfolds\n Support\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n When Yao Guang holds \"Certified Banger\":\n• After an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of #1[i]% Elation DMG of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\n• When triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of Elation DMG will take Yao Guang's Elation into calculation.\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack.\n\n Technique\n Untethered Glimmer Sails Far\n Impair\n\n Energy gain: 0\n Break: -\n\n After using Technique, automatically triggers Skill 1 time at the start of the next battle without consuming any Skill Points. When Yao Guang is in the team, breaking destructible objects immediately grants Fortune Pouch, up to 8 within every Earth Week.\n\n Elation Skill\n Let Thy Fortune Burst in Flames\n AoE\n\n Lv. 1\n\n Energy gain: 5\n Break: 5 + 20 adjacent\n\n Inflicts \"Woe's Whisper\" on all enemies, lasting for 3 turn(s). Enemy targets under the \"Woe's Whisper\" state take 16% increased DMG. Deals #1[i]% Physical Elation DMG to all enemies. Then, deals 5 instance(s) of #2[i]% Physical Elation DMG to one random enemy.\n\n Major Traces\n A2 Major trace\n Amaze-In Grace\n\n When Yao Guang's SPD is 120 or higher, increases this unit's Elation by 30% . For every 1 SPD exceeded, increases this unit's Elation by 1% . Up to a max of 200 excess SPD can be taken into account for this effect.\n\n A4 Major trace\n Poised and Sated\n\n Increases this unit's CRIT DMG by 60% . After using Elation Skill, recovers 1 Skill Point(s) for the team.\n\n A6 Major trace\n Felicity Ensemble\n\n When Yao Guang gains Certified Banger, its duration increases by 1 turn(s).\n\n Minor Traces (total)\n CRIT Rate\n + 18.7%\n\n Speed\n + 9\n\n Elation\n + 10%\n\n Eidolons\n E 1\n Chuckle Chimes Where Jade Falls\n Eidolon 1\n\n In Aha's extra turn triggered by Ultimate, the fixed amount of Punchline taken into account increases to 40 . When dealing Elation DMG, all ally targets ignore 20% of the target's DEF.\n\n E 2\n Blind Arrows Guided by Feathers\n Eidolon 2\n\n While the Zone is active, increases all ally targets' SPD by 12% , and additionally increases Elation by 16% .\n\n E 3\n Auspices Mirrored In Decalight\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10. Elation Skill Lv. +1 , up to a maximum of Lv. 15.\n\n E 4\n Threads of Fate Colored by Plumes\n Eidolon 4\n\n In Aha's extra turn triggered by Yao Guang's Ultimate, the DMG dealt by all ally characters' Elation Skill becomes 150% of the original DMG.\n\n E 5\n Bejeweled in Radiant Grace\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15. Elation Skill Lv. +1 , up to a maximum of Lv. 15.\n\n E 6\n Ferried Along the Astral Arc\n Eidolon 6\n\n All ally targets' Elation DMG merrymakes by 25% . Increases the DMG multiplier of Yao Guang's Elation Skill by 100% of its original multiplier.\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1242\n\n ATK\n\n 465\n\n DEF\n\n 654\n\n Speed\n\n 101\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 308000\n\n Whimsy Wax\n\n x 15\n\n Dreamweave Steel\n\n x 15\n\n Invasive Clot\n\n x 65\n\n Lucid Awl\n\n x 15\n\n CV\n ENG\n -\n\n JPN\n 花澤 香菜 (Hanazawa Kana)\n\n CN\n 秦紫翼 (Qin Ziyi)\n\n KR\n 이슬 (Lee Seul)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Able to generate extra Aha Instants for the team that do not consume Punchline,\n\n Consistent Punchline generation without needing to use SP,\n\n SP positive and generates an extra Skill Point from her Elation Skill,\n\n Great general buffs with DMG Vulnerability and All-Type RES PEN,\n\n Increases the team's total Elation and deals extra instances of Elation DMG,\n\n Important unit for Elation teams moving forward,\n\n Not expensive to get going.\n\n Cons\n Extremely high Energy cost of 180,\n\n Doesn't provide as much value as existing Harmony or Nihility supports for non-Elation teams,\n\n Full potential is locked and needs more Elation units in the team to unlock it.\n\n Review (By Sushou)\n The first of a new Path, the Path of Elation. She's a support character tailored to the new Elation mechanics, but carries strong general purpose buffing with her as well, providing high All-Type RES PEN to allies and Damage Vulnerability against foes. She becomes stronger with more Elation characters on the team, and her Ultimate is able to immediately trigger an extra Aha Instant for free, in which all other Elation characters on the team will use their Elation Skills. She is already very potent, and will only grow stronger as more Elation units are released.\n [Intro]\n The Seer Strategist of the Xianzhou Yuque, Yao Guang, decided that life was too boring on the Path of the Hunt, and so more closely aligns with... The Elation?? Yes, that's right, it's now come to the absolutely unenviable task of attempting to explain what the mechanics of a new Path are and what we can expect moving forward.\n Remembrance's whole thing was memosprites, but largely this ended up being a slightly altered version of existing team archetypes that were focused on CRIT, and the running theme eventually became that they are HP scalers. It seemed to settle into its own archetype over time.\n Elation has no such issues, as it defines itself as unique from the rest straight away. This is good because there shouldn't be any overlapping or conflicting of identities. But Aha does not do 'simple'. Aha does 'Chaos, chaos!', and it falls to me to try and explicate what this entails.\n [The World Revolving]\n The Path of Elation is all about entertaining Aha through the Aha Instant. Aha THEMSELVES (yes really) steal THEIR way into your Turn Order, and when there's an Aha Instant, THEY will grant an Extra Turn to all Elation units on the field.\n During this Extra Turn, Elation units will use their Elation Skill automatically without consuming any normal resources, and this will happen in sequence, meaning that every Elation unit will use an Elation Skill in every Aha Instant, guaranteed. Aha's speed on the Turn Order is affected by the number of Elation characters in the team, and increasing their SPD will also increase Aha's SPD. The frequency of Aha Instants is directly affected by Aha's SPD.\n There's two mechanics that are integral to this Aha Instant: Punchline, and Certified Banger. If you think these sound cringy, you should first check whether or not you currently talk like this fam.\n Punchline is a resource that is generated by Elation units doing things or using abilities. Notice that this includes enemies. Punchline is stored in the bottom right of the screen next to Aha's comedy mask, and the amount of Punchline here is shared across the entire team. When the Aha Instant is triggered, the amount of Punchline stored will determine the amount of Elation DMG that is dealt in this Instant. After the Instant, the stored Punchline will become 'consumed', resetting to 0.\n After Elation characters use their Elation Skill, they obtain the Certified Banger state, something that is directly tied to Elation characters' Talents and has unique effects for each one.\n The 'consumed' Punchline stacks will then be stored on each Elation character individually, seen as a number next to the character beside a side profile view of Aha's comedy mask. Consumed Punchline stacks will affect how much Elation DMG that specific character will do. When you gain Consumed Punchline, the stacks you get have a set duration before disappearing, but each stack tally is independently timed from one another.\n The Consumed Punchline will also stack with the regular Punchline during the Aha Instant to further buff characters' Elation Skills. Elation DMG is not affected by DMG Boosting effects, it is only affected by Elation (a brand new stat), and Merrymake, a new type of Boost that is incredibly rare and powerful as it's a final multiplier.\n Do note that the unconsumed Punchline points will only affect Elation Skill DMG during the Aha Instant. It is only when they are consumed after the Aha Instant that they will affect all Elation DMG dealt by Elation characters (but again, will stack together with unconsumed Punchline during the Aha Instant).\n This is a lot, so let's try an example:\n Let's say you have 2 Elation characters on a team, Floof and Bluff, and by using their Abilities, you have generated 30 Punchline, denoted in the bottom right. Then, the Aha Instant triggers, causing both Elation characters to use their Elation Skills one after another, dealing Elation DMG based on the 30 Punchline you had, and entering their respective Certified Banger states. After this, both characters will have 30 Consumed Punchline, seen as the number 30 next to the respective character portraits of Floof and Bluff. The Punchline from the bottom right is now showing 0.\n Floof and Bluff generate 20 Punchline before the next Aha Instant. In this second Instant, Floof and Fluff will deal Elation Skill DMG as though they had 50 Punchline stored (30 Consumed Punchline from before + the 20 unconsumed Punchline from this time). Then, the Punchline tally is reset to 0 again, and Floof and Bluff now have 50 Punchline stored.\n But Floof is faster than Bluff, and so the duration of the first Certified Banger state runs out for Floof before it does for Bluff (the one that came from 30 Punchline). Because of this, Floof now has 20 Punchline stored (losing the stack of 30 from the first Aha Instant), and Bluff still has 50 Punchline stored (the stack of 30 from the first Instant, and the stack of 20 from the second Instant), but has 2 turns remaining for the stack of 20, and only 1 turn remaining for the stack of 30.\n This is the basis for Elation gameplay, and I promise you it's a lot easier to understand once you actually see it in game. Please keep these terms in mind as I explain things, as it's important to understanding just why Yao Guang is poised to be a pivotal character in Elation teams moving forward.\n [Abilities]\n Yao Guang herself is relatively simple, it's really just the general Elation mechanics that make it quite the pain to explain.\n Her Skill will deploy a Zone for 3 of Yao Guang's turns. This Zone will increase all allies' Elation by an amount equal to 20% of Yao Guang's Elation.\n ... Right. Elation is actually a brand new stat that exists in the game now, and is tailor-made for Elation characters to make use in much the same way that Break Effect is designed for Break teams. It's even similar in the sense that general DMG Boosts do nothing for actual Elation DMG, so it's very important to have a lot of this stat if you want to maximise the damage that occurs in an Aha Instant.\n As such, being able to share a portion of her own Elation with others makes Yao Guang already very useful for the future of Elation teams.\n Yao Guang's Basic ATK is a Blast AoE, dealing 90% ATK to the main target and 30% ATK to adjacent foes. The energy recovered by this Basic ATK is always 30, making it a very reliable way to gain Energy. Using either Yao Guang's Basic ATK or Skill will gain 3 Punchline. Not too impressive on its own, but it's still a consistent amount, especially from the Basic ATK since it's a way to gain Punchline without consuming SP at all (something that may become relevant).\n Yao Guang's Ultimate is a big reason she's gonna be in damn near every Elation team moving forward. She will gain 5 Punchline, and then immediately creates an Aha Instant with a fixed value of 20 Punchline. This turn does not consume Punchline, and also increases all allies' All-Type RES PEN by 20% for 3 turns. Aside from the very impressive RES PEN, being able to just give Aha an Extra Turn for every Elation unit to use their Elation Skills is fantastic. Don't let the fixed Punchline value of 20 fool you, that's only for the actual Punchline being consumed — if your Elation characters are already holding a large amount of Consumed Punchline, they will still be able to drop a fat nuke on the enemies instantly thanks to Yao Guang.\n Even better is that this is a genuinely free Aha Instant, not consuming any of the floating Punchline in the process, and even granting some extra thanks to the 5 Punchline from just using Yao Guang's Ultimate. This is a very strong way to boost damage for the entire team.\n The only downside is that it costs a whopping 180 Energy to use, so you're going to have to work for this power, and you DO want to work for it because that All-Type RES PEN is one of the few things that can buff Elation DMG. Be glad the Basic ATK restores 30 Energy.\n Her Talent describes her Certified Banger. The Certified Banger state for Yao Guang will allow for allies to trigger 1 additional instance of 20% Elation DMG of the corresponding Type to a random enemy that was hit by an attack of theirs. If said attack consumed SP, then there will be a second additional instance of Elation DMG. This Great Boon will use the attacker's Elation stat to calculate damage, but in the event that it's lower than Yao Guang's, Yao Guang's Elation will be used for the calculation instead. This effect cannot trigger off of itself. Free extra damage is free extra damage, and it will add up very quickly, especially if Yao Guang is holding a lot of Consumed Punchline.\n Yao Guang's Elation Skill is used automatically during the Aha Instant. It will inflict Woe's Whisper on all enemies, lasting for 3 turns. Woe's Whisper will make enemies take 16% increased DMG. She then deals 100% Elation DMG to all enemies, followed by 5 instances of 20% Elation DMG to one random enemy.\n The damage you'll see from this will be in the vein of 'that's pretty good for a support', but you must of course remember that she is alone for now. With even a single other Elation unit on the team, that number can very quickly transform into 'hey wait, that's DPS numbers!' and you will in fact scarcely believe it's coming from a support character.\n [Bonus Traces]\n The A2 is a stat converter. When Yao Guang's SPD is 120 or higher, increases this units Elation by 30%. For every 1 SPD beyond this cap, increases the Elation bonus by 1%. Up to 200 SPD can be considered for this effect, resulting in a total bonus of 230% Elation if you somehow reach 320 SPD.\n Naturally, this is not possible in regular gameplay (for now, touch wood), but it is still very useful to try and go for a fast acting Yao Guang, not only for the Elation bonus you get from this Trace, but also because a faster General is a faster Aha.\n Her A4 will increase Yao Guang's CRIT DMG by 60% unconditionally, and will also allow her Elation Skill to recover 1 SP for the team when used, making the ordinarily SP neutral Aha Instant actually give SP back.\n Lastly, the A6. It's one line, and it's that it increases Yao Guang's Certified Banger duration by 1 turn, for a new maximum of 3 turns. Innocuous, yet very potent, for it means that Yao Guang will be able to hold onto a lot more Consumed Elation than her future peers, quite often having a significant amount more. This then plays into her Talent letting her be the main point of Calculation for the additional DMG instances from Great Boon, increasing team Elation DMG even further.\n See? I told you the actual character was simple. Ignore the Everything else™ shaped everything else surrounding her. We'll all get used to it soon enough.\n [Eidolons]\n Hello, yes, it's me again to tell you that you do not need Eidolons in order to have a good time, and this is especially true with Yao Guang. The reasons you would want to pull for her and bring her to your team do not change when you consider her Eidolons. Even still, should you wish to go for them, you can have a pretty good time.\n E1 makes the Ult's guaranteed Aha Instant have a fixed Punchline value of 40 now, up from 20, and allies dealing Elation DMG will ignore 20% of the target's DEF.\n\n E2 will make her Skill's Zone increase allies' SPD by 12%, and increases Elation by 16%.\n\n E4 is pretty strong. In Aha's Extra Turn that's granted by Yao Guang's Ultimate, allies' Elation Skill DMG will become 150% of its original DMG. This is a straight 1.5x final multiplier to the damage you deal, which is uhhh... Pretty strong, I'd say. A shame it comes so late though, as E4 is very rarely a target point or stopping point.\n\n Lastly the E6 will Merrymake allies' Elation DMG by 25%. This is ANOTHER multiplier to the Elation DMG that the team can do, and coupled with the boost from her E4, you're going to be hitting some obscene numbers on both Yao Guang and any Elation units you use alongside her.\n Oh and it also doubles the final damage of her own Elation Skill. You know, for funsies.\n\n [The Rest]\n Normally I'd have this big spiel about what this all means for the unit and for future teams and the like, but really, I don't think she's that complicated at all.\n All of Yao Guang's buffs and benefits are simple to understand, regardless of the team composition you're looking to put her into. She has DMG Vuln and RES PEN, so she's automatically going to be at least somewhat good for everyone, even outside of a dedicated Elation team.\n Hell, she even restores extra SP with her Elation Skill, so you can actually use her quite well in teams that have SP negative supports as well. Since her Punchline generation is also very consistent, and she rather likes building for SPD thanks to her Bonus Trace, she can actually generate a fairly consistent stream of Punchline all by herself, and the bonus turn you get for her Certified Banger state means she can hold onto Consumed Punchline for longer.\n She's just very self-synergistic and it's quite readily apparent when you actually try to use her in-game.\n But that's why it's so impressive, because this is the first in what is likely to be a fairly long line of Elation units, and yet... Yao Guang is a complete character already, at E0, and without much special attention either. Knowing that she will only become better with the addition of future Elation units into the team is honestly somewhat frightening.\n This is not even mentioning the fact that a good stream of Punchline generation could theoretically let the team's DMG keep ramping up over time, getting stronger and stronger. Maybe this isn't so impressive for those obsessed with 0 cycles, but for even the enthusiast player, having that kind of a fallback mechanism built into the team is very reassuring.\n But let's say you like a character who is more generally applicable, and do not wish to be tethered to one archetype exclusively. Well... like I said, Yao Guang is already a complete character. Maybe she's not quite as impressive as a Tribbie or Cipher for non Elation teams, but she's still a very strong support with buffs that are very rarely diluted.\n Yao Guang can fit with the newly buffed Sparkle very well in an Archer team, for example. The high SP positivity of the team lets Archer spam out Caladbolg with reckless abandon, and he sure does appreciate having some extra RES PEN as well.\n Yao Guang is unlikely to be replacing anyone on an already built non Elation team, simply because we're quite spoiled for choice when it comes to strong supports. Having said that, Yao Guang is The Future™, and if you have even a passing interest in Elation teams, you are encouraged to seek out Yao Guang. She is going to be IMPORTANT, and you will feel like quite the Fool if you miss her.\n Having said that, her supportive abilities are a little suspect outside of Elation, of course, and there is no guarantee that she will definitely stay relevant, but for those looking to the future, you should at least consider getting her.\n [Wrap up]\n You know I think the Elation explanation took more characters than the actual kit description and review of Yao Guang. We just can't have nice things. I am not making any promises whatsoever, okay, but I have a strong suspicion that this will be a more measured approach to a new playable Path than the first time they did this.\n Remembrance is memed on quite a bit for its insane cost, but I can tell you that seeing what Yao Guang does, and how Elation works as a mechanic, that she is of a different composition.\n It is definitely too early to call this the Hyacine of Elation, but please, do yourself a favour and get familiar with Elation. Once you do, you'll quickly realise the potential that this unit has for this fresh new archetype — but please, make an educated decision, and one you will not regret.\n As a wise saying goes: 'Don't fall in love with potential'.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n T0\n MoC\n\n T0\n PF\n\n T0\n AS\n\n Build and teams\n\n Best Light Cones\n\n 1\n\n When She Decided to See (S 1 )\n\n Yao Guang's signature Light Cone is a massive QoL improvement over other options, but it is not required for her to function. The SPD increase will allow her to achieve high SPD, which in turn allows Aha to also reach SPD thresholds. The Light Cone offers strong CRIT buff for all allies including herself for stronger Elation DMG, but most importantly, Yao Guang has poor Energy economy and this Light Cone will likely help with achieving Ultimates 1 turn earlier while also ensuring her Ultimate is ready after the first turn.\n Usage: 57.79 %\n MoC: 7.1 cyc.\n PF: 38250\n AS: 3654\n\n 2\n\n Mushy Shroomy's Adventures (S 5 )\n\n The only F2P Light Cone obtainable from the Forgotten Hall store increases enemies' Elation DMG Taken. It provides no value in non-Elation teams, and it lacks Energy utility which leads to slower Ultimate rotations.\n Usage: 38.46 %\n MoC: 7.94 cyc.\n PF: 34984\n AS: 3598\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Diviner of Distant Reach ( 4 -PC)\n\n Strong and efficient to farm set for Elation teams thanks to its teamwide Elation buffs, has SPD which is converted to Elation on Yao Guang for more stat share, and has high CRIT Rate for her Elation DMG procs.\n Usage: 97.95 %\n MoC: 7.57 cyc.\n PF: 35962\n AS: 3620\n\n 2\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n Potential best in slot if reaching 200 SPD due to Action Value breakpoint optimizations on Aha and herself, which requires her Signature Light Cone for it to be feasible. The SPD breakpoint not only allows her to take 3 turns within 150 AV, but also allows Aha to act twice in the same AV. The current Aha breakpoint requires another Elation ally with 134 SPD but can be done with another Elation teammate in the future. In Elation teams, use the Diviner set if not reaching any AV breakpoints.\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Best Planetary Sets\n 1\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Provides an ATK buff for the first ally and slightly increases her Energy Regeneration Rate. Note: For Elation units, ATK does not affect Elation DMG unlike CRIT, althrough some will use ATK for Elation stat conversion so it can still be useful if they aren't capped on the conversion.\n Usage: 78.43 %\n MoC: 7.71 cyc.\n PF: 35850\n AS: 3616\n\n 2\n\n Sprightly Vonwacq ( 2 -PC)\n\n Energy Regen is useful but the Action Advance is often not needed with how fast she is naturally, especially since you should wait for team buffs before using her Ultimate.\n Usage: 17.83 %\n MoC: 6.57 cyc.\n PF: 37726\n AS: 3633\n\n 3\n\n Broken Keel ( 2 -PC)\n\n Can increase Elation DMG but sets with Energy is preferred due to how powerful her Ultimate is.\n Usage: 0.76 %\n MoC: 8.17 cyc.\n PF: 35251\n AS: 3628\n\n 4\n\n Giant Tree of Rapt Brooding ( 2 -PC)\n\n Lacks Energy but SPD thresholds can be important, check the note on the main Relic options.\n Usage: 0.65 %\n MoC: 8.33 cyc.\n PF: 36322\n AS: 3639\n\n Best Stats\n\n Body\n CRIT DMG\n > CRIT Rate\n\n Feet\n Speed\n\n Planar Sphere\n HP%\n > DEF%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (as much as possible) > CRIT Rate > CRIT DMG\n\n Recommended endgame stats\n HP: 3000-4000\n\n DEF: 1000-1100\n\n CRIT Rate: 100% (in-combat)\n\n CRIT DMG: 100% (pre-combat)\n\n SPD: 160-200\n Aim to reach 200 SPD for 3 turns in 150 AV, and also speed up Aha to 134 SPD.\n\n For now, this would require 134 SPD Sparxie, but future Elation characters will remove the need for this.\n\n Traces priority\n Skills priority: Skill = Ultimate > Talent > Basic\n\n Major Traces priority: Poised and Sated (A4) > Amaze-In Grace (A2) > Felicity Ensemble (A6)\n\n Eidolon Information\n\n Eidolon 1: Extremely powerful first Eidolon for a support, enabling all Elation DMG to ignore 20% DEF. The Aha Instant from her Ultimate will now have 40 Punchlines, which is more Elation Skill DMG but more importantly, it will be converted and stored for 2 turns, allowing Elation characters to deal more DMG through their Certified Banger states.\n Eidolon 2: 16% teamwide Elation DMG is rather small, but 12% SPD on Yao Guang gets converted to Elation and allows certain Action Value breakpoints on Aha / Yao Guang to be much more achievable. Aim to reach 200 SPD after buffs on Yao Guang so she can get 3 turns within 150 AV while Aha also gets 2. As of 4.0 this will require 134 Sparxie, but having more Elation characters will make it unnecessary.\n Eidolon 4: 1.5x DMG multiplier on her Aha Instant is strong but generally it is never worth to pull for E4.\n Eidolon 6: Provides a rare 25% DMG increase through the Merrymake multiplier and makes her a strong Sub DPS by doubling her Elation Skill DMG.\n\n Synergy\n Silver Wolf • Lv. 999 - Yao Guang's Hidden MMR generation is often superior owing to the fact that her Ultimate can be controlled and provides a burst generation of Hidden MMR while not in Ultimate state, improving Silver Wolf LV.999's Ultimate uptime. Her Ultimate triggering an extra Aha Instant also synergizes really well with her Elation teammates, making her a top pick for Silver Wolf LV.999\n Sparxie - Yao Guang is an Elation-tailored support that becomes stronger with more Elation characters on the team (yes that is the whole Elation Path gimmick). Her Ultimate triggers an extra Aha Instant which allows all Elation characters to use their Elation Skills, and then adds Certified Bangers to them with 20 Punchlines which allows them to deal more DMG through their Certified Banger states. She has teamwide buffs: 20% of her Elation is shared to all allies, 16% DMG Vulnerability debuff on enemies, and teamwide 20% All-Type RES PEN for 3 turns.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 1\n App. rate: 24.6 %\n Avg. cycles : 7\n Avg. cycles (E1+): 3.74\n\n Rank 5\n App. rate: 10.73 %\n Avg. cycles : 7.78\n Avg. cycles (E1+): 5.05\n\n Rank 6\n App. rate: 9.99 %\n Avg. cycles : 7.84\n Avg. cycles (E1+): 4.23\n\n Rank 7\n App. rate: 7.19 %\n Avg. cycles : 7.51\n Avg. cycles (E1+): 4.73\n\n Rank 16\n App. rate: 1.96 %\n Avg. cycles : 8.58\n Avg. cycles (E1+): 6.17\n\n Rank 20\n App. rate: 1.54 %\n Avg. cycles : 7.94\n Avg. cycles (E1+): 4.7\n\n Rank 28\n App. rate: 0.95 %\n Avg. cycles : 8.41\n Avg. cycles (E1+): 5.93\n\n Rank 31\n App. rate: 0.89 %\n Avg. cycles : 8.58\n Avg. cycles (E1+): 5.52\n\n Rank 34\n App. rate: 0.72 %\n Avg. cycles : 8.77\n Avg. cycles (E1+): 6.47\n\n Rank 37\n App. rate: 0.65 %\n Avg. cycles : 8\n Avg. cycles (E1+): 4.21\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

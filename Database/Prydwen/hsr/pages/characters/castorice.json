@@ -1,0 +1,1602 @@
+{
+  "id": "characters:castorice",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "castorice",
+  "name": "Castorice",
+  "title": "Castorice Best Build Guide",
+  "sourcePath": "/star-rail/characters/castorice",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "31/May/2026",
+  "meta": {
+    "title": "Castorice Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Quantum",
+    "path": "Remembrance"
+  },
+  "assets": [
+    {
+      "id": "e57e4aaef3ff",
+      "sourceHash": "e57e4aaef3ff",
+      "kind": "characters",
+      "name": "Castorice",
+      "fileStem": "castorice-card",
+      "path": "Prydwen/hsr/assets/characters/castorice-e57e4aaef3ff.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "af5b8acc8f63",
+      "sourceHash": "af5b8acc8f63",
+      "kind": "icons",
+      "name": "CRIT Rate",
+      "fileStem": "stat-critrate",
+      "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "44c437b21b3a",
+      "sourceHash": "44c437b21b3a",
+      "kind": "icons",
+      "name": "CRIT DMG",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "982761f78cd0",
+      "sourceHash": "982761f78cd0",
+      "kind": "icons",
+      "name": "Quantum DMG",
+      "fileStem": "stat-quantumdmg",
+      "path": "Prydwen/hsr/assets/icons/quantum-dmg-982761f78cd0.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "96654253a4f7",
+      "sourceHash": "96654253a4f7",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "dc6aec4a7776",
+      "sourceHash": "dc6aec4a7776",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "a6be649090ba",
+      "sourceHash": "a6be649090ba",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "087f2dec68b6",
+      "sourceHash": "087f2dec68b6",
+      "kind": "icons",
+      "name": "Speed",
+      "fileStem": "stat-speed",
+      "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "50d0e755383a",
+      "sourceHash": "50d0e755383a",
+      "kind": "items",
+      "name": "Credit",
+      "fileStem": "credit",
+      "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "a677c0eac85e",
+      "sourceHash": "a677c0eac85e",
+      "kind": "items",
+      "name": "Ethereal Omen",
+      "fileStem": "ethereal-omen",
+      "path": "Prydwen/hsr/assets/items/ethereal-omen-a677c0eac85e.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "dec5a804803d",
+      "sourceHash": "dec5a804803d",
+      "kind": "echoes",
+      "name": "Echoing Wail",
+      "fileStem": "echoing-wail",
+      "path": "Prydwen/hsr/assets/echoes/echoing-wail-dec5a804803d.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "f0c274d7b4b6",
+      "sourceHash": "f0c274d7b4b6",
+      "kind": "items",
+      "name": "Darkveil Moonlight",
+      "fileStem": "darkveil-moonlight",
+      "path": "Prydwen/hsr/assets/items/darkveil-moonlight-f0c274d7b4b6.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "c910987cea6e",
+      "sourceHash": "c910987cea6e",
+      "kind": "items",
+      "name": "Eternal Lament",
+      "fileStem": "eternal-lament",
+      "path": "Prydwen/hsr/assets/items/eternal-lament-c910987cea6e.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "e684162b72fd",
+      "sourceHash": "e684162b72fd",
+      "kind": "characters",
+      "name": "Castorice",
+      "fileStem": "castorice-full",
+      "path": "Prydwen/hsr/assets/characters/castorice-e684162b72fd.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "b1b035879f08",
+      "sourceHash": "b1b035879f08",
+      "kind": "light-cones",
+      "name": "Make Farewells More Beautiful",
+      "fileStem": "make-farewells-more-beautiful",
+      "path": "Prydwen/hsr/assets/light-cones/make-farewells-more-beautiful-b1b035879f08.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "66b0d588409b",
+      "sourceHash": "66b0d588409b",
+      "kind": "light-cones",
+      "name": "The Flower Remembers",
+      "fileStem": "the-flower-remembers",
+      "path": "Prydwen/hsr/assets/light-cones/the-flower-remembers-66b0d588409b.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "948dcf65a447",
+      "sourceHash": "948dcf65a447",
+      "kind": "light-cones",
+      "name": "Sweat Now, Cry Less",
+      "fileStem": "sweat-now-cry-less",
+      "path": "Prydwen/hsr/assets/light-cones/sweat-now-cry-less-948dcf65a447.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "58c2a044512d",
+      "sourceHash": "58c2a044512d",
+      "kind": "light-cones",
+      "name": "Time Waits for No One",
+      "fileStem": "time-waits-for-no-one",
+      "path": "Prydwen/hsr/assets/light-cones/time-waits-for-no-one-58c2a044512d.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "b6cb0c99005d",
+      "sourceHash": "b6cb0c99005d",
+      "kind": "light-cones",
+      "name": "The Story's Next Page",
+      "fileStem": "the-storys-next-page",
+      "path": "Prydwen/hsr/assets/light-cones/the-storys-next-page-b6cb0c99005d.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "86bde0d4e434",
+      "sourceHash": "86bde0d4e434",
+      "kind": "light-cones",
+      "name": "Post-Op Conversation",
+      "fileStem": "post-op-conversation",
+      "path": "Prydwen/hsr/assets/light-cones/post-op-conversation-86bde0d4e434.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "2d8a5d2f77bd",
+      "sourceHash": "2d8a5d2f77bd",
+      "kind": "light-cones",
+      "name": "Victory In a Blink",
+      "fileStem": "victory-in-a-blink",
+      "path": "Prydwen/hsr/assets/light-cones/victory-in-a-blink-2d8a5d2f77bd.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "86c9cb6c5efe",
+      "sourceHash": "86c9cb6c5efe",
+      "kind": "relics",
+      "name": "Poet of Mourning Collapse",
+      "fileStem": "poet-of-mourning-collapse",
+      "path": "Prydwen/hsr/assets/relics/poet-of-mourning-collapse-86c9cb6c5efe.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "f521b7a2ee25",
+      "sourceHash": "f521b7a2ee25",
+      "kind": "relics",
+      "name": "Scholar Lost in Erudition",
+      "fileStem": "scholar-lost-in-erudition",
+      "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "58e79f548454",
+      "sourceHash": "58e79f548454",
+      "kind": "relics",
+      "name": "Longevous Disciple",
+      "fileStem": "longevous-disciple",
+      "path": "Prydwen/hsr/assets/relics/longevous-disciple-58e79f548454.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "c153d0175293",
+      "sourceHash": "c153d0175293",
+      "kind": "relics",
+      "name": "Genius of Brilliant Stars",
+      "fileStem": "genius-of-brilliant-stars",
+      "path": "Prydwen/hsr/assets/relics/genius-of-brilliant-stars-c153d0175293.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "19f596f01746",
+      "sourceHash": "19f596f01746",
+      "kind": "relics",
+      "name": "Arcadia of Woven Dreams",
+      "fileStem": "arcadia-of-woven-dreams",
+      "path": "Prydwen/hsr/assets/relics/arcadia-of-woven-dreams-19f596f01746.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "6206930710f0",
+      "sourceHash": "6206930710f0",
+      "kind": "relics",
+      "name": "Bone Collection's Serene Demesne",
+      "fileStem": "bone-collections-serene-demesne",
+      "path": "Prydwen/hsr/assets/relics/bone-collections-serene-demesne-6206930710f0.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "62f715257f39",
+      "sourceHash": "62f715257f39",
+      "kind": "relics",
+      "name": "The Wondrous BananAmusement Park",
+      "fileStem": "the-wondrous-bananamusement-park",
+      "path": "Prydwen/hsr/assets/relics/the-wondrous-bananamusement-park-62f715257f39.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "1d90270b2b4b",
+      "sourceHash": "1d90270b2b4b",
+      "kind": "characters",
+      "name": "Hyacine",
+      "fileStem": "hyacine-icon",
+      "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "e6a5c98adfc4",
+      "sourceHash": "e6a5c98adfc4",
+      "kind": "characters",
+      "name": "March 7th • Evernight",
+      "fileStem": "march-7th-evernight-icon",
+      "path": "Prydwen/hsr/assets/characters/march-7th-evernight-e6a5c98adfc4.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "005597837585",
+      "sourceHash": "005597837585",
+      "kind": "characters",
+      "name": "Cyrene",
+      "fileStem": "cyrene-icon",
+      "path": "Prydwen/hsr/assets/characters/cyrene-005597837585.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "99361e4717fa",
+      "sourceHash": "99361e4717fa",
+      "kind": "characters",
+      "name": "Mortenax Blade",
+      "fileStem": "blade-mortenax-icon",
+      "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "2cde7699adbf",
+      "sourceHash": "2cde7699adbf",
+      "kind": "characters",
+      "name": "Tribbie",
+      "fileStem": "tribbie-icon",
+      "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "d3e344772d55",
+      "sourceHash": "d3e344772d55",
+      "kind": "characters",
+      "name": "Trailblazer • Remembrance",
+      "fileStem": "trailblazer-remembrance-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "3d568cb7f29d",
+      "sourceHash": "3d568cb7f29d",
+      "kind": "characters",
+      "name": "Sunday",
+      "fileStem": "sunday-icon",
+      "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "b77207bce6c8",
+      "sourceHash": "b77207bce6c8",
+      "kind": "characters",
+      "name": "Ruan Mei",
+      "fileStem": "ruan-mei-icon",
+      "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "30d074a1060a",
+      "sourceHash": "30d074a1060a",
+      "kind": "characters",
+      "name": "Gallagher",
+      "fileStem": "gallagher-icon",
+      "path": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "901456d3c61d",
+      "sourceHash": "901456d3c61d",
+      "kind": "characters",
+      "name": "Luocha",
+      "fileStem": "luocha-icon",
+      "path": "Prydwen/hsr/assets/characters/luocha-901456d3c61d.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "941e5d329286",
+      "sourceHash": "941e5d329286",
+      "kind": "characters",
+      "name": "Mydei",
+      "fileStem": "mydei-icon",
+      "path": "Prydwen/hsr/assets/characters/mydei-941e5d329286.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "fd3d60695240",
+      "sourceHash": "fd3d60695240",
+      "kind": "characters",
+      "name": "Castorice",
+      "fileStem": "castorice-icon",
+      "path": "Prydwen/hsr/assets/characters/castorice-fd3d60695240.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "565914d1a436",
+      "sourceHash": "565914d1a436",
+      "kind": "icons",
+      "name": "Quantum",
+      "fileStem": "ele-quantum",
+      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "7d36eb39792a",
+      "sourceHash": "7d36eb39792a",
+      "kind": "icons",
+      "name": "Ice",
+      "fileStem": "ele-ice",
+      "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "ee11bd390c9a",
+      "sourceHash": "ee11bd390c9a",
+      "kind": "icons",
+      "name": "Wind",
+      "fileStem": "ele-wind",
+      "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "92feb26d8f0e",
+      "sourceHash": "92feb26d8f0e",
+      "kind": "icons",
+      "name": "Fire",
+      "fileStem": "ele-fire",
+      "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+      "width": 22,
+      "height": 22
+    }
+  ],
+  "sections": [
+    {
+      "id": "castorice-best-build-guide-0",
+      "level": 1,
+      "heading": "Castorice Best Build Guide",
+      "text": "Last updated: 31/May/2026",
+      "assets": [
+        {
+          "id": "e57e4aaef3ff",
+          "sourceHash": "e57e4aaef3ff",
+          "kind": "characters",
+          "name": "Castorice",
+          "fileStem": "castorice-card",
+          "path": "Prydwen/hsr/assets/characters/castorice-e57e4aaef3ff.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Castorice from HSR (Honkai: Star Rail). Castorice is a 5 ★ character from the Quantum element who follows the Path of Remembrance .\n \"Servant of Death\" Castorice The land that reveres death, Aidonia, where snow falls endlessly, has today drifted into a sweet slumber. Castorice, daughter of the River of Souls, Chrysos Heir in search of \"Death\" Coreflame, sets forth. You must guard the lament of souls and embrace the solitude of destiny. Life and death are but a journey. When butterfly alights on the branch, what withers will bloom anew.\n\n To learn more about Castorice check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Castorice has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 3.2\n\n Last major build/calcs update\n Patch 3.6\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Castorice check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic ATK\n Lament, Nethersea's Ripple\n Single Target\n\n Lv. 1\n\n Energy gain: 0\n Break: 10\n\n Deals Quantum DMG equal to #1[i]% of Castorice's Max HP to one designated enemy.\n\n Skill\n Silence, Wraithfly's Caress\n Blast\n\n Lv. 1\n\n Energy gain: 0\n Break: 20 + 10 adjacent\n\n Consumes 30% of all allies' current HP. Deals Quantum DMG equal to #1[i]% of Castorice's Max HP to one designated enemy and Quantum DMG equal to #2[i]% of Castorice's Max HP to adjacent targets.\nIf current HP is insufficient, this ability will reduce HP to 1.\nIf Netherwing is on the battlefield, this Skill becomes \"Boneclaw, Doomdrake's Embrace\" instead.\n AoE (Enhanced)\n Boneclaw, Doomdrake's Embrace\n AoE\n\n Lv. 1\n\n Energy gain: 0\n Break: 20\n\n Consumes 40% of all allies' (except Netherwing) current HP. Castorice and Netherwing launch a Joint ATK on the target and deal Quantum DMG equal to #1[i]% and #2[i]% of Castorice's Max HP to all enemies.\nIf current HP is insufficient, using the ability will reduce HP to 1.\n\n Ultimate\n Doomshriek, Dawn's Chime\n Summon 0\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n Summons the memosprite Netherwing and advances its action by 100%. At the same time, creates the Territory \"Lost Netherland\", which decreases all enemies' All-Type RES by #1[i]%. If the DMG Boost effect from Castorice's Talent is active, the effect is extended to Netherwing. Netherwing has an initial SPD of 165 and a set Max HP equal to 100% of max Newbud.\nAfter Netherwing experiences 3 turns or when its HP is 0, it disappears and dispels the Territory \"Lost Netherland\".\n\n Talent\n Desolation Across Palms\n Enhance\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n Max \"Newbud\" is based on all characters' levels on the battlefield. For each point of HP lost by all allies, Castorice gains 1 point of \"Newbud.\" When \"Newbud\" reaches its maximum, Castorice's Ultimate can be used. When allies lose HP, Castorice's and Netherwing's DMG dealt increase by #1[i]%. This effect can stack up to 3 times, lasting for 3 turn(s).\nWhen Netherwing is on the field, \"Newbud\" cannot be gained through Talent, and HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing.\n\n Technique\n Wail, Death's Herald\n\n Energy gain: 0\n Break: -\n\n After using Technique, enters the \"Netherveil\" state that lasts for 20 seconds. While \"Netherveil\" is active, enemies are unable to approach Castorice on their own.\nWhile in the \"Netherveil\" state, attacking will cause all enemies within range to enter combat. At the same time, summons the memosprite Netherwing and causes it to advance its action by 100%, as well as create its Territory \"Lost Netherland.\" Netherwing starts with current HP equal to 50% of max \"Newbud.\" After entering battle, consumes 40% of all allies' current HP aside from Netherwing.\nAfter entering battle and before summoning Netherwing, Castorice gains \"Newbud\" equal to 30% of maximum \"Newbud.\"\n\n Unique\n Sanctuary of Mooncocoon\n Unique\n\n Energy gain: 0\n Break: -\n\n After obtaining Castorice or when Castorice is in the current team, receive the following effect: In battle, when an ally character receives a killing blow, all ally characters that received a killing blow in this action enter the \"Mooncocoon\" state. Characters in \"Mooncocoon\" temporarily delay becoming downed and can take actions normally. After the action, if their present HP increases, or if they gain the Shield effect before their next turn, \"Mooncocoon\" is removed. Otherwise, they will be downed immediately. This effect can be triggered 1 time per battle.",
+      "assets": []
+    },
+    {
+      "id": "memosprite-skills-10",
+      "level": 2,
+      "heading": "Memosprite Skills",
+      "text": "Memosprite Skill\n Claw Splits the Veil\n AoE\n\n Lv. 1\n\n Energy gain: 0\n Break: 10\n\n Deals Quantum DMG equal to #1[i]% of Castorice's Max HP to all enemies.\n Memosprite Skill\n Breath Scorches the Shadow\n AoE\n\n Lv. 1\n\n Energy gain: 0\n Break: 10\n\n Activating \"Breath Scorches the Shadow\" will consume 25% of Netherwing's Max HP to deal Quantum DMG equal to #1[i]% of Castorice's Max HP to all enemies.\nIn one attack, \"Breath Scorches the Shadow\" can be activated repeatedly, with the DMG multiplier increasing respectively to #2[i]% / #3[i]%, until #3[i]%. The DMG Multiplier Boost effect will not be reduced before Netherwing disappears.\nWhen Netherwing's current HP is equal to or lower than 25% of its Max HP, activating the ability will reduce HP to 1, and then trigger the ability effect equal to that of the Talent \"Wings Sweep the Ruins.\n\n Memosprite Talent\n Mooncocoon Shrouds the Form\n Support\n\n Energy gain: 0\n Break: -\n\n When Netherwing is on the field, it acts as backup for allies. When allies take DMG or consumes HP, their current HP can be reduced to a minimum of 1, after which Netherwing will consume HP at 500% of the original value until Netherwing disappears.\n Memosprite Talent\n Roar Rumbles the Realm\n Support\n\n Energy gain: 0\n Break: -\n\n When Netherwing is summoned, increases DMG dealt by all allies by 10% for 3 turn(s).\n Memosprite Talent\n Wings Sweep the Ruins\n Bounce\n\n Lv. 1\n\n Energy gain: 0\n Break: 5\n\n When Netherwing disappears, deals 6 instance(s) of DMG, with every instance dealing Quantum DMG equal to #1[i]% of Castorice's Max HP to one random enemy units. At the same time, restores HP equal to #2[i]% of Castorice's Max HP plus #3[i] to all allies.",
+      "assets": []
+    },
+    {
+      "id": "major-traces-11",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "A2 Major trace\n Contained Dark Tide\n\n After ally targets (excluding Netherwing) receive healing, converts 100% of healed value into \"Newbud.\" If Netherwing is on the battlefield, the healing is instead converted into Netherwing's HP. The converted value for each ally target cannot exceed 12% of \"Newbud\"'s maximum limit. The accumulated conversion value from all units resets after any unit takes action.\n\n A4 Major trace\n Inverted Torch\n\n When Castorice's current HP is greater or equal to 50% of this unit's Max HP, her SPD increases by 40% . When Netherwing uses Breath Scorches the Shadow and deals fatal damage to all enemies on the field or brings them to a point where they cannot lose more HP, Netherwing's SPD increases by 100% for 1 turn.\n\n A6 Major trace\n Where The West Wind Dwells\n\n Each time Netherwing uses Breath Scorches the Shadow, increases its DMG dealt by 30% . This effect stacks up to 6 and lasts until the end of this turn.",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-12",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "CRIT Rate\n + 18.7%\n\n CRIT DMG\n + 13.3%\n\n Quantum DMG\n + 14.4%",
+      "assets": [
+        {
+          "id": "af5b8acc8f63",
+          "sourceHash": "af5b8acc8f63",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-critrate",
+          "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "44c437b21b3a",
+          "sourceHash": "44c437b21b3a",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "982761f78cd0",
+          "sourceHash": "982761f78cd0",
+          "kind": "icons",
+          "name": "Quantum DMG",
+          "fileStem": "stat-quantumdmg",
+          "path": "Prydwen/hsr/assets/icons/quantum-dmg-982761f78cd0.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "eidolons-13",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "E 1\n Snowbound Maiden, Memory to Tomb\n Eidolon 1\n\n When the enemy target's current HP is 80%/50% or lower than this unit's Max HP, the DMG dealt with \"Boneclaw, Doomdrake's Embrace,\" \"Claw Splits the Veil,\" \"Breath Scorches the Shadow,\" and \"Wings Sweep the Ruins\" is 120%/140% of the original DMG.\n\n E 2\n Crown on Wings of Bloom\n Eidolon 2\n\n After summoning memosprite Netherwing, Castorice gains 2 stack(s) of \"Ardent Will.\" A maximum of 2 stacks of \"Ardent Will\" can be possessed at any given time, and can be used to offset Netherwing's HP consumption when using Memosprite Skill \"Breath Scorches the Shadow\" while advancing Castorice's action by 100% . In the next usage of Enhanced Skill, Castorice gains 30% of maximum \"Newbud\" points.\n\n E 3\n Pious Pilgrim, Dance in Doom\n Eidolon 3\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10. Memosprite Talent Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Rest in Songs of Gloom\n Eidolon 4\n\n While Castorice is on the battlefield, all allies' Incoming Healing increases by 20% when having their HP restored.\n\n E 5\n Pristine Pages, Prophecy as Plume\n Eidolon 5\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15. Memosprite Skill Lv. +1 , up to a maximum of Lv. 10.\n\n E 6\n Await for Years to Loom\n Eidolon 6\n\n When Castorice or Netherwing deals DMG, increases Quantum RES PEN by 20% . When Netherwing attacks, it can ignore Weakness Type and directly reduce enemy Toughness. When it inflicts Weakness Break, triggers the Quantum Weakness Break effect. Additionally increases the Bounce count for Netherwing's Talent \"Wings Sweep the Ruins\" by 3 time(s).",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-14",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Enable Ascension",
+      "assets": []
+    },
+    {
+      "id": "level-80-stats-15",
+      "level": 5,
+      "heading": "Level 80 stats",
+      "text": "HP\n\n 1631\n\n ATK\n\n 523\n\n DEF\n\n 485\n\n Speed\n\n 95",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "level-1-80-ascension-materials-16",
+      "level": 5,
+      "heading": "Level 1 → 80 Ascension Materials",
+      "text": "Credit\n\n x 308000\n\n Ethereal Omen\n\n x 15\n\n Echoing Wail\n\n x 15\n\n Darkveil Moonlight\n\n x 65\n\n Eternal Lament\n\n x 15",
+      "assets": [
+        {
+          "id": "50d0e755383a",
+          "sourceHash": "50d0e755383a",
+          "kind": "items",
+          "name": "Credit",
+          "fileStem": "credit",
+          "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "a677c0eac85e",
+          "sourceHash": "a677c0eac85e",
+          "kind": "items",
+          "name": "Ethereal Omen",
+          "fileStem": "ethereal-omen",
+          "path": "Prydwen/hsr/assets/items/ethereal-omen-a677c0eac85e.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "dec5a804803d",
+          "sourceHash": "dec5a804803d",
+          "kind": "echoes",
+          "name": "Echoing Wail",
+          "fileStem": "echoing-wail",
+          "path": "Prydwen/hsr/assets/echoes/echoing-wail-dec5a804803d.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "f0c274d7b4b6",
+          "sourceHash": "f0c274d7b4b6",
+          "kind": "items",
+          "name": "Darkveil Moonlight",
+          "fileStem": "darkveil-moonlight",
+          "path": "Prydwen/hsr/assets/items/darkveil-moonlight-f0c274d7b4b6.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "c910987cea6e",
+          "sourceHash": "c910987cea6e",
+          "kind": "items",
+          "name": "Eternal Lament",
+          "fileStem": "eternal-lament",
+          "path": "Prydwen/hsr/assets/items/eternal-lament-c910987cea6e.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "cv-17",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n Melody Muze\n\n JPN\n Saitou Chiwa (斎藤 千和)\n\n CN\n Ruan Congqing (阮从青)\n\n KR\n Lee Serena (이세레나)",
+      "assets": []
+    },
+    {
+      "id": "gallery-18",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "e684162b72fd",
+          "sourceHash": "e684162b72fd",
+          "kind": "characters",
+          "name": "Castorice",
+          "fileStem": "castorice-full",
+          "path": "Prydwen/hsr/assets/characters/castorice-e684162b72fd.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "pros-20",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Versatile AoE/Bounce damage dealer,\n\n Strong Toughness Reduction on attacks,\n\n High HP makes her extremely difficult to kill,\n\n Scales better with more aggressive enemies,\n\n Netherwing prevents other allies from dying, and heals on exit,\n\n Completely SP neutral,\n\n Netherwing provides All-Type RES PEN,\n\n Initiate fights with Netherwing directly,\n\n Unique Energy mechanic allows for consistent Ultimate uses.",
+      "assets": []
+    },
+    {
+      "id": "cons-21",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Poor F2P Light Cone options,\n\n Requires high stat investments for herself and the team,\n\n Revive passive is highly conditional,\n\n Completely non-functional with shield-based sustains.",
+      "assets": []
+    },
+    {
+      "id": "review-by-sushou-22",
+      "level": 2,
+      "heading": "Review (By Sushou)",
+      "text": "Castorice is an extraordinarily powerful Remembrance DPS that scales with HP and does not consume Skill Points. Like Acheron and Feixiao, Castorice does not use Energy for her Ultimate, instead using a charge system that accumulates based on HP lost from allies, and Castorice's Skill and Enhanced Skill consume HP from all allies to be used. Her memosprite is Netherwing, a giant dragon whose presence alters the field and decreases enemies' All-Type RES. Castorice has numerous ways to boost her damage output and even provides defensive value for the team with some AoE healing after Netherwing departs the field, damage redirection to Netherwing to prevent allies from dropping below 1 HP, and a once-per-battle pseudo-Revive from her unique passive.\n The ephemeral reaper graces us at last. Castorice is the character we're getting for the second anniversary of Star Rail, and she brings with her immense amounts of sakuga. Yes, she is also unfathomably powerful and good and all that, but have you seen those animations? Whatever they're feeding those lot, they should keep doing it.\n Breaking from our usual coverage, we’ll address Castorice’s one-of-a-kind (at least at the moment) global passive first, since it’s a contentious part of her kit. Hearing 'global revive passive' makes it sound like it's game-breaking, but in the current endgame, for most, it will end up as more of a nice bonus to have than something mandatory.\n When an ally receives a killing blow, they get put in a stasis effect where they can still act until the end of their next turn, but unless they get healed or shielded before that time expires, the ally will still die. It is not a replacement for a sustain unit, and is mostly a small fallback for when you've made a mistake in endgame content and would otherwise need to restart the fight (at least at the moment).\n Back to the regularly scheduled breakdown, Castorice uses HP for dealing damage, continuing the recent trend of Amphoreus characters doing so . She actually has the single highest base HP value in the game, exceeding even Mydei, and even better is that, also like Mydei, Castorice does not consume any Skill Points to use her Skill. Instead of consuming her own HP to use her Skill, Castorice consumes everyone's HP instead; 30% current HP drained from all allies (including herself) to deal up to 50% Castorice's Max HP to a target enemy, and 30% to adjacent targets.\n This HP loss is very important for Castorice's Talent and Ultimate. Castorice doesn't have normal Energy, instead having a charge system that's represented as a percentage in game. Whenever allies lose HP, Castorice gets 1 point of Newbud. When Newbud reaches 100%, Castorice can use her Ultimate to summon the memosprite Netherwing, a massive and imposing dragon. Newbud is not accumulated when Netherwing is on the field.\n Whenever allies lose HP, Castorice and Netherwing's DMG dealt increases by up to 20%, stacking up to 3 times and lasting for 3 turns (essentially a permanent 60% DMG bonus). The exact number of charge she needs is ambiguous in-game, but at max Equilibrium Level, this amounts to exactly 34000 charge — or in other words, your team needs to sustain 34000 points of damage to fully charge Castorice's Ultimate.\n This seems like quite a lot and puts a lot of pressure onto your sustain to be able to restore HP. Along with a Bonus Ability Trace later, this is the clear indicator that Castorice teams should only ever consider using direct Abundance healers, especially ones with huge healing throughput like Gallagher and Luocha . As the HP drain of Castorice's Skill is current HP, if you are not healing consistently, you will not be getting enough Newbud to use Castorice's Ultimate. Do not run shielders.\n After Castorice has gained enough Newbud, she can summon Netherwing . While Netherwing is active, Castorice's Skill becomes Enhanced, becoming a fully AoE Joint ATK, much like Aglaea's Enhanced Basic. Castorice will consume 40% current HP from all allies (including herself, but excluding Netherwing) to deal 30% and 50% of her Max HP (80% total) to all enemies. This is absurdly powerful, and this isn't factoring in what Netherwing themselves can do.\n Netherwing is quite the summon, being a fair bit different from the ones we've seen thus far. When Netherwing is summoned, their action is advanced by 100%. They bring with them a domain expansion — sorry, 'Territory' — that decreases all enemies' All-Type RES by up to 20% for simply being on field. Netherwing also inherits any existing DMG boosting stacks from Castorice's Talent.\n They have an impressive initial SPD of 165 and a Max HP equal to 100% of the max value of Newbud (which we know is 34000 HP). After 3 of Netherwing's turns, or after their HP is reduced to 0, it disappears and dispels its Territory, Lost Netherland.\n Netherwing is too large to fight in the same row as your team, so they occupy a sort of backup row when summoned. This also means enemies can't actually directly harm Netherwing. Netherwing has an emergency damage redirection passive, where allies cannot go below 1 HP, but all excess damage is redirected to Netherwing at 500% of the original value. Useful very often, but don't rely on this all the time since even Netherwing's absurd Max HP can't survive too long against 500% damage. Netherwing also boosts all allies DMG dealt by 10% for 3 turns when summoned.\n That's just what Netherwing does passively. Now onto actual attacks. Netherwing can choose between a claw attack and a breath attack. The claw attack deals 40% of Castorice's Max HP to all enemies on the field. It's a rather powerful AoE attack that is used to end the action early or to preserve HP.\n The breath attack, however... we’re not allowed to type the exact sentence we would use to describe this, so you know it's good. This is also a fully AoE attack that consumes 25% of Netherwing's Max HP to deal up to 24% Castorice's Max HP to all enemies. This does not end the action, by the way. You can just keep going, with the second cast dealing 28% Castorice's Max HP, and the third cast onward dealing 34%. This DMG Multiplier does not decrease until Netherwing disappears, so if you do not consume all of Netherwing's HP in one action, Netherwing's next breath attack will start off fully ramped up.\n Consuming HP when Netherwing is at or below 25% Max HP will reduce their HP to 1 and trigger a finisher burst called Wings Sweep the Ruins. This is an enormous kamikaze Bounce attack, dealing 6 instances of Quantum DMG equal to 40% of Castorice's Max HP. This attack also restores 6% of Castorice's Max HP plus 800 to all allies. This attack can end up dealing a total of 240% of Castorice's Max HP if all the Bounces land on one enemy.\n Combining this with a fully channelled breath attack, you're adding an extra 120% for a new total of 360% DMG multiplier. This is absurd, and getting to heal allies when Netherwing leaves is just the cherry on top.\n There are two main ways to utilise Netherwing’s power. The first way is to just immediately use all 4 breath attacks in one action and go in for the big finisher explosion. This is the generally preferred way, especially after factoring in her A6 Bonus Trace.\n The second way is to hold off on finishing the breath attack, either by only doing 3 breath attacks into a claw, or by just skipping the breath attack and using Netherwing’s claw attack. This is useful if you need to stack buffs onto Netherwing after they are already summoned, or if you want to delay the explosion for some reason. This playstyle is imperative in Sunday teams.\n This is all just at base without factoring in the Bonus Ability Traces.\n Castorice's A2 allows for Newbud to be charged by factoring in ally healing received; 100% of the healed value is stored into Newbu d. If Netherwing is on the field, the healing is instead converted into HP for Netherwing. The converted value for each ally cannot exceed 12% of Newbud's maximum value (so this only counts up to 4080 HP per ally), and the value can be taken from the ally again after any unit takes action. Oh, and overhealing is absolutely included in the conversion, so don’t worry about your healers’ efforts going to waste. This is the Trace we mentioned earlier when we said you definitely only want to use Abundance healers with Castorice. With someone like Gallagher or Luocha on the team, not only do you heavily offset the damage everyone is taking from Castorice's Skill uses, but you also greatly accelerate the accumulation of Newbud for fast resummons of Netherwing.\n A4 will grant Castorice a 40% SPD boost as long as her current HP is greater or equal to 50%. In addition to this, when Netherwing deals fatal damage to all enemies on the field with their breath attack, or brings them to a point where they cannot lose more HP (such as a phase transition), Netherwing will gain 100% SPD for 1 turn.\n This provides Castorice a very frequent potent SPD boost in combat, allowing her to fully benefit from the 4-piece bonus of the Poet of Mourning Collapse relic set while still getting to be fast. The bonus for Netherwing is for AoE content like Pure Fiction, where Netherwing's breath attack can wipe the field easily, and it lets them act almost instantly against the new incoming enemies.\n Her A6 makes it so that each time Netherwing uses their breath attack, their DMG dealt will increase by 30%. This effect stacks up to 6 times and lasts until the end of the turn. Realistically, it is not possible to have Netherwing use their breath attack more than 4 times (since the cost would become exactly 100% Max HP), but certain Blessings or Eidolons could potentially increase this value.\n Either way, with this Trace active, it now becomes more efficient to go all out on the breath attack if you choose to use it, as the ramping DMG boost will then also apply to Wings Sweep the Ruins, resulting in a colossal nuke against enemies.\n Eidolons are, as usual, completely unnecessary, but should you choose to go for them, you won't be disappointed. E2 in particular is a huge damage increase on Netherwing's breath attack, allowing you to cast it a total of 6 times in succession, while advancing Castorice's action by 100% and granting a head start towards the next summon of Netherwing.\n Please read the comparison between her Signature and her Eidolons if you would like help in deciding which to go for.\n Castorice is a harbinger of death. She has no issues with decimating everything in front of her while also providing an accessible lifeline for the party. By being completely SP neutral, she also has no issue with other characters using Skill Points, especially for healers to be able to maximise their healing output.\n We’ve already discussed healing, but when it comes to support, the best general pairing for Castorice is the Remembrance Trailblazer. Mem's Support is a fantastic boon to Castorice's already insane damage, as the undiluted multiplier from the True DMG lets you pretty much annihilate whatever's bold enough to be in front of you. Additionally, the inclusion of Mem in the team means Castorice has an extra target to siphon HP from, further increasing the generation of Newbud and accelerating the next use of her Ultimate, and the Trailblazer can contribute to the healing amount by using their Skill to heal Mem.\n The True DMG multiplier isn't as high as it could be since Castorice doesn't meet the Energy requirement to do so (given that it's technically 0), but thanks to the Trailblazer's Bonus Trace, she still gets a total of 36% extra True DMG. Mem's Support is also automatically mirrored onto Netherwing when they are summoned, so there's no risk of losing value from the powerful buff. Mem also being able to directly attack helps to proc HP healing and draining effects from the team, and can even further accelerate the accumulation of Newbud.\n Tribbie is probably the best general support for Castorice . Tribbie is fantastic for Castorice for the same reasons that Tribbie is great for Mydei; Tribbie's buffs are universal and are not tied to any one particular stat, meaning that the HP scaling Castorice will get full value at all times. Tribbie also ends up having wonderful synergy with the aforementioned Abundance healers since they require attacking to proc their healing.\n Tribbie’s frequent follow-up attacks mean she can equally frequently proc Luocha’s or Gallagher’s healing effects, contributing even more to Newbud generation. You’re probably seeing a theme here by now. In addition to this, since Tribbie is a HP scaler herself, Castorice’s HP draining Skills will be able to generate a lot more Newbud upfront due to Tribbie’s build, resulting in her having a very high amount of Max HP.\n These two characters of Tribbie and the Remembrance Trailblazer make up the best support team for Castorice. They provide the team with everything you could possibly want and then some more on top. It’s great that one of these characters is freely available to everyone, but Tribbie in particular provides the largest increase to overall performance, so it’s important to know this if you plan on having the strongest Castorice team possible.\n Sunday is, of course, an alternative for Castorice, but is surprisingly more challenging to make use of for Castorice specifically . As Castorice doesn't use Energy, Sunday's Energy Restore is completely useless. Worse still is that Netherwing will not mirror Sunday's buffs if they were already active before Netherwing was summoned; Sunday would need to refresh the benefits of his Skill, Ultimate, and Talent directly in order for Netherwing to gain those benefits.\n This is where the aforementioned second playstyle of Netherwing comes in. By delaying the use of Wings Sweep the Ruins by using Netherwing’s claw attack, you give Sunday enough time to re-buff Castorice and also have the effects spread to Netherwing, leading to a fully powered-up finisher.\n Castorice also has fluctuating SPD values, especially when losing large amounts of HP at once, meaning that attempting to SPD tune to Sunday is quite the headache, and Netherwing's naturally very high SPD of 165 compounds this further. Giving Castorice more turns will also lead to steeper HP drain on the entire party, putting more pressure on the healers to be able to heal things back quickly enough — remember that Castorice's HP drain is based on current HP, so if everyone is already very low when she uses her Skill, the amount of Newbud she will generate will be significantly reduced, leading to far fewer Ultimate uses.\n It's not impossible to use Sunday by any means, but it should be pretty clear that he’s definitely more challenging to use.\n If you are interested in running a dual DPS setup, then the number 1 pick for that is the vanquisher Mydei. He already has no trouble fluctuating his own HP in order to deal damage, and has plenty of ways to regain it as well. Having a naturally nigh-unkillable unit on the team with the dragon that also prevents death can result in an extraordinarily durable team comp that deals huge damage as well.\n Do note that if you use Mydei with her, you're somewhat forcing yourself to also use Tribbie as the support for both the DPS. Mydei would be taking the Remembrance Trailblazer's spot in the team, and this is again due to Tribbie providing universal buffs that benefit both Mydei and Castorice simultaneously. Neither of these two DPS explicitly needs the other to function, they work masterfully alone or together, but that choice is ultimately yours. Mydei is a good option to have in case the enemy is also weak to Imaginary.\n If you are lacking Tribbie, this is going to result in a sizeable reduction to Castorice’s performance, and makes running dual DPS with Mydei extremely difficult, but it’s not completely over if you don’t have Tribbie… There is still the classic option of putting in Pela. The DEF Reduction she provides is greatly appreciated, and due to the extremely SP positive nature of the team (regardless of if you're using Remembrance Trailblazer or Mydei for the other slot), Pela has plenty of Skill Points to use to funnel herself enough Energy for maximum uptime on her Ultimate's debuff. Jiaoqiu is also quite similar so if he's not being used for a certain Self-Annihilator, he can also be used for Castorice. Finally, Ruan Mei can also be used as a Tribbie replacement if she’s not used elsewhere.\n It's definitely far worse than using Tribbie, but at least you’re not completely and utterly out of options if you don’t have Tribbie.\n Lastly, actually playing Castorice. The actual in-combat experience is not that complicated, to the point that even Auto-Battle will play exactly as you would prefer to play to maximise damage. The issue is more in building the team ahead of said battle.\n Aside from that, there's not much else to say. She's crazy strong, and somehow has room to grow if units get released that are tailored for her gameplay. She's quite easy to pilot (if you're not using Sunday, sorry), and worst case scenario, Auto-Battle has you covered too. Strong in all game modes, beautiful design, and she's got a dragon.\n Happy anniversary.",
+      "assets": []
+    },
+    {
+      "id": "ratings-23",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.",
+      "assets": []
+    },
+    {
+      "id": "damage-dealer-24",
+      "level": 5,
+      "heading": "Damage dealer",
+      "text": "T0\n MoC\n\n T0\n PF\n\n T0\n AS\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "best-light-cones-26",
+      "level": 2,
+      "heading": "Best Light Cones",
+      "text": "123.10%\n\n Make Farewells More Beautiful (S 1 )\n\n Due to Remembrance Path's limited Light Cone options, her signature is a strong improvement over the alternatives. It significantly increases her Max HP, allowing for more to be consumed for Ultimate Charges, and has an impressive 30% DEF Ignore for both herself and Netherwing. The Action Advance can also allow her to reach certain Action Value breakpoints, as her SPD is limited by 4-Pc Poet's activation conditions.\n Usage: 93.85 %\n MoC: 7.37 cyc.\n PF: 39584\n AS: 3509\n\n 109.04%\n\n The Flower Remembers (S 5 )\n\n The second Battle Pass Remembrance Light Cone is a strong alternative at high Superimpositions. Provides CRIT DMG for Castorice which is inherited by her memosprite, as well as another CRIT DMG buff for the memosprite itself.\n Usage: 0.96 %\n MoC: 9.33 cyc.\n PF: 34726\n AS: 3308\n\n 107.48%\n\n Sweat Now, Cry Less (S 5 )\n\n Another decent alternative to Castorice's signature when but with the downside of granting CRIT Rate that can easily overcap beyond 100% due to her Traces, Relics, and team buffs if not careful, wasting a portion of its potential.\n Usage: 2.23 %\n MoC: 7.56 cyc.\n PF: 37639\n AS: 3376\n\n 93.23%\n\n Time Waits for No One (S 1 )\n\n Since the Remembrance Path does not have any F2P accessible Light Cone for DPS, running off-Path Light Cones just for Base HP can be a competitive option. Aim for any Light Cone with 1376/1270/1164 Base HP.\n Usage: 0.95 %\n MoC: 9.5 cyc.\n PF: 34701\n AS: 3364\n\n 92.65%\n\n The Story's Next Page (S 5 )\n\n Healing-focused Light Cone but can be used on Castorice for the Max HP increase. (Netherwing can also heal allies on exit)\n Usage: 0.73 %\n MoC: 8.33 cyc.\n PF: 35701\n AS: 3389\n\n 87.08%\n\n Post-Op Conversation (S 5 )\n\n Like above, Light Cones with 1058 HP can also work well and outpeform other Rememberance options.\n\n 86.80%\n\n Victory In a Blink (S 5 )\n\n Unfortunately this Cone loses out to Base HP off-path Cone due to its low base HP, mediocre CRIT DMG boost, and the fact its DMG% does not apply for Castorice.\n Usage: 0.47 %\n MoC: 10 cyc.\n PF: 33583\n AS: 3254",
+      "assets": [
+        {
+          "id": "b1b035879f08",
+          "sourceHash": "b1b035879f08",
+          "kind": "light-cones",
+          "name": "Make Farewells More Beautiful",
+          "fileStem": "make-farewells-more-beautiful",
+          "path": "Prydwen/hsr/assets/light-cones/make-farewells-more-beautiful-b1b035879f08.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "66b0d588409b",
+          "sourceHash": "66b0d588409b",
+          "kind": "light-cones",
+          "name": "The Flower Remembers",
+          "fileStem": "the-flower-remembers",
+          "path": "Prydwen/hsr/assets/light-cones/the-flower-remembers-66b0d588409b.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "948dcf65a447",
+          "sourceHash": "948dcf65a447",
+          "kind": "light-cones",
+          "name": "Sweat Now, Cry Less",
+          "fileStem": "sweat-now-cry-less",
+          "path": "Prydwen/hsr/assets/light-cones/sweat-now-cry-less-948dcf65a447.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "58c2a044512d",
+          "sourceHash": "58c2a044512d",
+          "kind": "light-cones",
+          "name": "Time Waits for No One",
+          "fileStem": "time-waits-for-no-one",
+          "path": "Prydwen/hsr/assets/light-cones/time-waits-for-no-one-58c2a044512d.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "b6cb0c99005d",
+          "sourceHash": "b6cb0c99005d",
+          "kind": "light-cones",
+          "name": "The Story's Next Page",
+          "fileStem": "the-storys-next-page",
+          "path": "Prydwen/hsr/assets/light-cones/the-storys-next-page-b6cb0c99005d.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "86bde0d4e434",
+          "sourceHash": "86bde0d4e434",
+          "kind": "light-cones",
+          "name": "Post-Op Conversation",
+          "fileStem": "post-op-conversation",
+          "path": "Prydwen/hsr/assets/light-cones/post-op-conversation-86bde0d4e434.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "2d8a5d2f77bd",
+          "sourceHash": "2d8a5d2f77bd",
+          "kind": "light-cones",
+          "name": "Victory In a Blink",
+          "fileStem": "victory-in-a-blink",
+          "path": "Prydwen/hsr/assets/light-cones/victory-in-a-blink-2d8a5d2f77bd.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-relic-sets-28",
+      "level": 2,
+      "heading": "Best Relic Sets",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n Poet of Mourning Collapse ( 4 -PC)\n\n Castorice can naturally be played on the slower side due to her kit and free 40% Speed boost in combat, which doesn't interfere with the 4P set bonus. All this makes this set almost purely upside and the highest priority to farm if you aren't using it yet.\n Usage: 99.56 %\n MoC: 7.44 cyc.\n PF: 39334\n AS: 3499\n\n 87.75%\n\n Scholar Lost in Erudition ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Longevous Disciple\n\n Genius of Brilliant Stars\n\n Poet of Mourning Collapse\n\n Arcadia of Woven Dreams",
+      "assets": [
+        {
+          "id": "86c9cb6c5efe",
+          "sourceHash": "86c9cb6c5efe",
+          "kind": "relics",
+          "name": "Poet of Mourning Collapse",
+          "fileStem": "poet-of-mourning-collapse",
+          "path": "Prydwen/hsr/assets/relics/poet-of-mourning-collapse-86c9cb6c5efe.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "f521b7a2ee25",
+          "sourceHash": "f521b7a2ee25",
+          "kind": "relics",
+          "name": "Scholar Lost in Erudition",
+          "fileStem": "scholar-lost-in-erudition",
+          "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "58e79f548454",
+          "sourceHash": "58e79f548454",
+          "kind": "relics",
+          "name": "Longevous Disciple",
+          "fileStem": "longevous-disciple",
+          "path": "Prydwen/hsr/assets/relics/longevous-disciple-58e79f548454.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "c153d0175293",
+          "sourceHash": "c153d0175293",
+          "kind": "relics",
+          "name": "Genius of Brilliant Stars",
+          "fileStem": "genius-of-brilliant-stars",
+          "path": "Prydwen/hsr/assets/relics/genius-of-brilliant-stars-c153d0175293.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "19f596f01746",
+          "sourceHash": "19f596f01746",
+          "kind": "relics",
+          "name": "Arcadia of Woven Dreams",
+          "fileStem": "arcadia-of-woven-dreams",
+          "path": "Prydwen/hsr/assets/relics/arcadia-of-woven-dreams-19f596f01746.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-planetary-sets-29",
+      "level": 6,
+      "heading": "Best Planetary Sets",
+      "text": "100%\n\n Bone Collection's Serene Demesne ( 2 -PC)\n\n The natural choice for Castorice as most other options either don't affect her memosprite or have unsuitable stats.\n Usage: 99.64 %\n MoC: 7.44 cyc.\n PF: 39329\n AS: 3499\n\n 96%\n\n Arcadia of Woven Dreams ( 2 -PC)\n\n 3 stacks | Weaker alternative for Castorice, as she already gains DMG% buffs from her kit. With Evernight, the memosprites might not be active all the time either, making this set not ideal.\n Usage: 0.02 %\n MoC: -\n PF: 0\n AS: 0\n\n 92.70%\n\n The Wondrous BananAmusement Park ( 2 -PC)\n\n The additional CRIT DMG does not affect Netherwing\n Usage: 0.04 %\n MoC: -\n PF: 0\n AS: 3276",
+      "assets": [
+        {
+          "id": "6206930710f0",
+          "sourceHash": "6206930710f0",
+          "kind": "relics",
+          "name": "Bone Collection's Serene Demesne",
+          "fileStem": "bone-collections-serene-demesne",
+          "path": "Prydwen/hsr/assets/relics/bone-collections-serene-demesne-6206930710f0.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "19f596f01746",
+          "sourceHash": "19f596f01746",
+          "kind": "relics",
+          "name": "Arcadia of Woven Dreams",
+          "fileStem": "arcadia-of-woven-dreams",
+          "path": "Prydwen/hsr/assets/relics/arcadia-of-woven-dreams-19f596f01746.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "62f715257f39",
+          "sourceHash": "62f715257f39",
+          "kind": "relics",
+          "name": "The Wondrous BananAmusement Park",
+          "fileStem": "the-wondrous-bananamusement-park",
+          "path": "Prydwen/hsr/assets/relics/the-wondrous-bananamusement-park-62f715257f39.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-stats-31",
+      "level": 2,
+      "heading": "Best Stats",
+      "text": "Body\n CRIT DMG\n > HP%\n\n Feet\n HP%\n\n Planar Sphere\n HP%\n > Quantum DMG\n\n Link Rope\n HP%\n\n Substats: CRIT DMG = CRIT Rate > HP% > SPD (Less than 95)",
+      "assets": [
+        {
+          "id": "44c437b21b3a",
+          "sourceHash": "44c437b21b3a",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "982761f78cd0",
+          "sourceHash": "982761f78cd0",
+          "kind": "icons",
+          "name": "Quantum DMG",
+          "fileStem": "stat-quantumdmg",
+          "path": "Prydwen/hsr/assets/icons/quantum-dmg-982761f78cd0.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "recommended-endgame-stats-32",
+      "level": 2,
+      "heading": "Recommended endgame stats",
+      "text": "HP: 7000-8000+\n\n DEF: 700+\n\n CRIT Rate: 80-100% (Including Poet)\n\n CRIT DMG: 200-220% +\n\n SPD: Base Speed OR <95",
+      "assets": []
+    },
+    {
+      "id": "traces-priority-33",
+      "level": 2,
+      "heading": "Traces priority",
+      "text": "Skills priority: Memo Skill = Memo Talent > Ultimate = Talent > Skill > Basic\n\n Major Traces priority: Contained Dark Tide (A2) > Where The West Wind Dwells (A6) > Inverted Torch (A4)",
+      "assets": []
+    },
+    {
+      "id": "synergy-34",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Hyacine - The most important support for Castorice. Her healing output is unmatched amongst healers as she can automatically trigger healing after HP loss which can be through HP drain or getting attacked. She naturally reaches extremely high SPD thresholds, atleast 200, and can provide teamwide healing every turn. Her \"total\" healing output also gets stronger with more allied units on the field. All this together leads to an insane amount of Castorice's Ultimate Charges. Furthermore, Hyacine's Ultimate provides a substantial HP buff for the entire team, increasing the DMG output of Castorice and her teammates. With Evernight on the team, she can also deal significant DMG herself, and lastly her signature Light Cone can drain the team's HP to trigger even more healing, on top of all the benefits for Evernight.\n March 7th • Evernight - Evernight is a very powerful supportive sub DPS that pairs perfectly with Castorice. In raw buffs she can provide over 100% CRIT DMG to Netherwing (and any other memosprites) as well as a 30% Vulnerability to the whole team, not to mention extra bonuses from Relics / Light Cones. Furthermore, Evernight continously detonates her memosprite Evey, which alongside her own HP Drain provides substantial amounts of Newbud. Finally, the raw DMG that Evernight can dish out is quite meaningful and allows Castorice to save some of her power for when it truly matters.\n Cyrene - Cyrene is the last Remembrance teammate to complete Castorice teams. Despite her Memosprite being untargetable, it will always mirror Cyrene's HP fluctations, resulting in additional Newbud generation for Castorice. Her buffs allow Castorice to overcharge her Ultimate up to 200%, and increases her detonation attack damage based on overflowed Newbud, stronger against 2 or less targets. In multi-target situations, it is not recommended to overcharge her Ultimate, as the majority of Netherwing's DMG would be from the Breath attacks, whereas it is unaffected by overflowed Newbud. Against 2 or less targets, Cyrene will massively boost the Bounce DMG from 40% per instance, up to 112% at max overflow, resulting in impressive Single-Target damage. Keep in mind the condition is checked when using her Ultimate, and not when the attack occurs\n Mortenax Blade - Mortenax Blade isn't Castorice's best-in-slot support but can be used in place of them in cases where they are occupied by other teams. His HP drain can help charge Castorice's Ultimate and he has great synergy with her other teammates like Tribbie and Hyacine.\n Tribbie - Tribbie offers strong DMG potential and rare buffs for the entire team. The RES PEN and DMG Taken debuffs are extremely beneficial for Castorice as she is saturated on most common stats like DMG% and CRIT DMG. These buffs also affect her teammates which is important as it enables both Hyacine and Evernight to contribute significant amounts of DMG as well.\n Trailblazer • Remembrance - As a Remembrance character, the Trailblazer has their memosprite Mem, which gives Castorice more targets to consume HP from. Once Mem’s Support is on Castorice, Netherwing will also receive it as well when summoned, allowing both to deal a tremendous 36% extra True DMG. On top of this, Trailblazer also brings 10% CRIT RATE and a substanial amount of CRIT DMG to the party while also directly benefitting from Castorice and Netherwing as well (The Trailblazer’s E2 regenerates Energy for themself when Netherwing takes action). At the time of Castorice's release Rememberance Trailblazer is one of the best supports for her.\n Sunday - Sunday is also an effective support for Castorice, thanks to his kit being revolved around Summons. With that said he does also present her with a few inconveniences to work around. The most notable one being that Netherwing does not retroactively inherit Sunday's Skill and Ultimate buff, leading to wasted Action Value in order to wait for buffs. Sunday's Ultimate offering Energy refund does not work on Castorice as she does not use Energy. Lastly, Castorice's SPD can fluctuate in battle, often leading to unreliable SPD tuning while you have to wait for Sunday's turn before detonating Netherwing. When pairing them together, make sure to save Sunday's Ultimate until Netherwing is summoned, and wait until Netherwing receives Sunday's Skill buff before detonating.\n Ruan Mei - Strong generic support, mostly known for the teamwide Weakness Break Efficiency buffs, which can be tremendous in Break-oriented gamemodes such as Apocalyptic Shadows. Can also provide a teamwide SPD buff, which is useful for higher healing output on Hyacine.\n Gallagher - Much weaker alternative healer to Hyacine. Gallagher boasts high healing outputs but is reliant on enemy count and debuff uptime in order to perform. His healing debuff can trigger for every attacked enemy, leading to a ton of Charges for Castorice. This is most notable with Tribbie, who can frequently launch AoE attacks to trigger this healing. Although against Pure Fiction or frail enemies, they can easily lose the debuff.\n Luocha - Luocha, like Gallagher, comes with on-hit healing capabilties in the form of his healing field, scaling with the amount of ally targets. This give him a distinct advantage in modes where Gallagher is unable to maintain his Ultimate debuff on enemies. When playing Luocha with Castorice, focus on maximizing his healing output by stacking ATK% and Outgoing Healing Bonus.\n Mydei - Mydei can also be paired with Castorice in a dual DPS setup since they can benefit from each other. Castorice's massive HP drain helps charge up Mydei's \"Godslayer Be God\" attacks, and she can also provide a 20% All-Type RES reduction (provided that Netherwing is maintained on the field) and she increases DMG dealt by all allies by 10% when Netherwing is summoned. Mydei in return takes more DMG than usual due to his 0 DEF and has self-HP drain that also charge Castorice's Ultimate.",
+      "assets": [
+        {
+          "id": "1d90270b2b4b",
+          "sourceHash": "1d90270b2b4b",
+          "kind": "characters",
+          "name": "Hyacine",
+          "fileStem": "hyacine-icon",
+          "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "e6a5c98adfc4",
+          "sourceHash": "e6a5c98adfc4",
+          "kind": "characters",
+          "name": "March 7th • Evernight",
+          "fileStem": "march-7th-evernight-icon",
+          "path": "Prydwen/hsr/assets/characters/march-7th-evernight-e6a5c98adfc4.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "005597837585",
+          "sourceHash": "005597837585",
+          "kind": "characters",
+          "name": "Cyrene",
+          "fileStem": "cyrene-icon",
+          "path": "Prydwen/hsr/assets/characters/cyrene-005597837585.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "99361e4717fa",
+          "sourceHash": "99361e4717fa",
+          "kind": "characters",
+          "name": "Mortenax Blade",
+          "fileStem": "blade-mortenax-icon",
+          "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "2cde7699adbf",
+          "sourceHash": "2cde7699adbf",
+          "kind": "characters",
+          "name": "Tribbie",
+          "fileStem": "tribbie-icon",
+          "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "d3e344772d55",
+          "sourceHash": "d3e344772d55",
+          "kind": "characters",
+          "name": "Trailblazer • Remembrance",
+          "fileStem": "trailblazer-remembrance-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "3d568cb7f29d",
+          "sourceHash": "3d568cb7f29d",
+          "kind": "characters",
+          "name": "Sunday",
+          "fileStem": "sunday-icon",
+          "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "b77207bce6c8",
+          "sourceHash": "b77207bce6c8",
+          "kind": "characters",
+          "name": "Ruan Mei",
+          "fileStem": "ruan-mei-icon",
+          "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "30d074a1060a",
+          "sourceHash": "30d074a1060a",
+          "kind": "characters",
+          "name": "Gallagher",
+          "fileStem": "gallagher-icon",
+          "path": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "901456d3c61d",
+          "sourceHash": "901456d3c61d",
+          "kind": "characters",
+          "name": "Luocha",
+          "fileStem": "luocha-icon",
+          "path": "Prydwen/hsr/assets/characters/luocha-901456d3c61d.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "941e5d329286",
+          "sourceHash": "941e5d329286",
+          "kind": "characters",
+          "name": "Mydei",
+          "fileStem": "mydei-icon",
+          "path": "Prydwen/hsr/assets/characters/mydei-941e5d329286.webp",
+          "width": 45,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "id": "anomaly-arbitration-39",
+      "level": 6,
+      "heading": "Anomaly Arbitration",
+      "text": "Rank 2\n App. rate: 23.72 %\n Avg. cycles : 7.24\n Avg. cycles (E1+): 3.81\n\n Rank 9\n App. rate: 4.29 %\n Avg. cycles : 8.35\n Avg. cycles (E1+): 4.82\n\n Rank 21\n App. rate: 1.3 %\n Avg. cycles : 8.67\n Avg. cycles (E1+): 6.42\n\n Rank 22\n App. rate: 1.23 %\n Avg. cycles : 8.41\n Avg. cycles (E1+): 6.47\n\n Rank 44\n App. rate: 0.49 %\n Avg. cycles : 9.5\n Avg. cycles (E1+): 6.75\n\n Rank 48\n App. rate: 0.46 %\n Avg. cycles : 8.21\n Avg. cycles (E1+): 6.83\n\n Rank 95\n App. rate: 0.18 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.67\n\n Rank 132\n App. rate: 0.11 %\n Avg. cycles : 10\n Avg. cycles (E1+): 5.93\n\n New\n\n Rank 185\n App. rate: 0.07 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.09\n\n Rank 202\n App. rate: 0.06 %\n Avg. cycles : 10\n Avg. cycles (E1+): 3.89\n\n New",
+      "assets": [
+        {
+          "id": "fd3d60695240",
+          "sourceHash": "fd3d60695240",
+          "kind": "characters",
+          "name": "Castorice",
+          "fileStem": "castorice-icon",
+          "path": "Prydwen/hsr/assets/characters/castorice-fd3d60695240.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "565914d1a436",
+          "sourceHash": "565914d1a436",
+          "kind": "icons",
+          "name": "Quantum",
+          "fileStem": "ele-quantum",
+          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "e6a5c98adfc4",
+          "sourceHash": "e6a5c98adfc4",
+          "kind": "characters",
+          "name": "March 7th • Evernight",
+          "fileStem": "march-7th-evernight-icon",
+          "path": "Prydwen/hsr/assets/characters/march-7th-evernight-e6a5c98adfc4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7d36eb39792a",
+          "sourceHash": "7d36eb39792a",
+          "kind": "icons",
+          "name": "Ice",
+          "fileStem": "ele-ice",
+          "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "005597837585",
+          "sourceHash": "005597837585",
+          "kind": "characters",
+          "name": "Cyrene",
+          "fileStem": "cyrene-icon",
+          "path": "Prydwen/hsr/assets/characters/cyrene-005597837585.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1d90270b2b4b",
+          "sourceHash": "1d90270b2b4b",
+          "kind": "characters",
+          "name": "Hyacine",
+          "fileStem": "hyacine-icon",
+          "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ee11bd390c9a",
+          "sourceHash": "ee11bd390c9a",
+          "kind": "icons",
+          "name": "Wind",
+          "fileStem": "ele-wind",
+          "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "2cde7699adbf",
+          "sourceHash": "2cde7699adbf",
+          "kind": "characters",
+          "name": "Tribbie",
+          "fileStem": "tribbie-icon",
+          "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d3e344772d55",
+          "sourceHash": "d3e344772d55",
+          "kind": "characters",
+          "name": "Trailblazer • Remembrance",
+          "fileStem": "trailblazer-remembrance-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b77207bce6c8",
+          "sourceHash": "b77207bce6c8",
+          "kind": "characters",
+          "name": "Ruan Mei",
+          "fileStem": "ruan-mei-icon",
+          "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "99361e4717fa",
+          "sourceHash": "99361e4717fa",
+          "kind": "characters",
+          "name": "Mortenax Blade",
+          "fileStem": "blade-mortenax-icon",
+          "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "92feb26d8f0e",
+          "sourceHash": "92feb26d8f0e",
+          "kind": "icons",
+          "name": "Fire",
+          "fileStem": "ele-fire",
+          "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+          "width": 22,
+          "height": 22
+        }
+      ]
+    },
+    {
+      "id": "video-guides-40",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "MoC/PF/AS Statistics",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-light-cones": {
+      "label": "Best Light Cones",
+      "sections": [
+        {
+          "heading": "Best Light Cones",
+          "text": "123.10%\n\n Make Farewells More Beautiful (S 1 )\n\n Due to Remembrance Path's limited Light Cone options, her signature is a strong improvement over the alternatives. It significantly increases her Max HP, allowing for more to be consumed for Ultimate Charges, and has an impressive 30% DEF Ignore for both herself and Netherwing. The Action Advance can also allow her to reach certain Action Value breakpoints, as her SPD is limited by 4-Pc Poet's activation conditions.\n Usage: 93.85 %\n MoC: 7.37 cyc.\n PF: 39584\n AS: 3509\n\n 109.04%\n\n The Flower Remembers (S 5 )\n\n The second Battle Pass Remembrance Light Cone is a strong alternative at high Superimpositions. Provides CRIT DMG for Castorice which is inherited by her memosprite, as well as another CRIT DMG buff for the memosprite itself.\n Usage: 0.96 %\n MoC: 9.33 cyc.\n PF: 34726\n AS: 3308\n\n 107.48%\n\n Sweat Now, Cry Less (S 5 )\n\n Another decent alternative to Castorice's signature when but with the downside of granting CRIT Rate that can easily overcap beyond 100% due to her Traces, Relics, and team buffs if not careful, wasting a portion of its potential.\n Usage: 2.23 %\n MoC: 7.56 cyc.\n PF: 37639\n AS: 3376\n\n 93.23%\n\n Time Waits for No One (S 1 )\n\n Since the Remembrance Path does not have any F2P accessible Light Cone for DPS, running off-Path Light Cones just for Base HP can be a competitive option. Aim for any Light Cone with 1376/1270/1164 Base HP.\n Usage: 0.95 %\n MoC: 9.5 cyc.\n PF: 34701\n AS: 3364\n\n 92.65%\n\n The Story's Next Page (S 5 )\n\n Healing-focused Light Cone but can be used on Castorice for the Max HP increase. (Netherwing can also heal allies on exit)\n Usage: 0.73 %\n MoC: 8.33 cyc.\n PF: 35701\n AS: 3389\n\n 87.08%\n\n Post-Op Conversation (S 5 )\n\n Like above, Light Cones with 1058 HP can also work well and outpeform other Rememberance options.\n\n 86.80%\n\n Victory In a Blink (S 5 )\n\n Unfortunately this Cone loses out to Base HP off-path Cone due to its low base HP, mediocre CRIT DMG boost, and the fact its DMG% does not apply for Castorice.\n Usage: 0.47 %\n MoC: 10 cyc.\n PF: 33583\n AS: 3254",
+          "assets": [
+            {
+              "id": "b1b035879f08",
+              "sourceHash": "b1b035879f08",
+              "kind": "light-cones",
+              "name": "Make Farewells More Beautiful",
+              "fileStem": "make-farewells-more-beautiful",
+              "path": "Prydwen/hsr/assets/light-cones/make-farewells-more-beautiful-b1b035879f08.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "66b0d588409b",
+              "sourceHash": "66b0d588409b",
+              "kind": "light-cones",
+              "name": "The Flower Remembers",
+              "fileStem": "the-flower-remembers",
+              "path": "Prydwen/hsr/assets/light-cones/the-flower-remembers-66b0d588409b.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "948dcf65a447",
+              "sourceHash": "948dcf65a447",
+              "kind": "light-cones",
+              "name": "Sweat Now, Cry Less",
+              "fileStem": "sweat-now-cry-less",
+              "path": "Prydwen/hsr/assets/light-cones/sweat-now-cry-less-948dcf65a447.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "58c2a044512d",
+              "sourceHash": "58c2a044512d",
+              "kind": "light-cones",
+              "name": "Time Waits for No One",
+              "fileStem": "time-waits-for-no-one",
+              "path": "Prydwen/hsr/assets/light-cones/time-waits-for-no-one-58c2a044512d.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "b6cb0c99005d",
+              "sourceHash": "b6cb0c99005d",
+              "kind": "light-cones",
+              "name": "The Story's Next Page",
+              "fileStem": "the-storys-next-page",
+              "path": "Prydwen/hsr/assets/light-cones/the-storys-next-page-b6cb0c99005d.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "86bde0d4e434",
+              "sourceHash": "86bde0d4e434",
+              "kind": "light-cones",
+              "name": "Post-Op Conversation",
+              "fileStem": "post-op-conversation",
+              "path": "Prydwen/hsr/assets/light-cones/post-op-conversation-86bde0d4e434.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "2d8a5d2f77bd",
+              "sourceHash": "2d8a5d2f77bd",
+              "kind": "light-cones",
+              "name": "Victory In a Blink",
+              "fileStem": "victory-in-a-blink",
+              "path": "Prydwen/hsr/assets/light-cones/victory-in-a-blink-2d8a5d2f77bd.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-relic-sets": {
+      "label": "Best Relic Sets",
+      "sections": [
+        {
+          "heading": "Best Relic Sets",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n Poet of Mourning Collapse ( 4 -PC)\n\n Castorice can naturally be played on the slower side due to her kit and free 40% Speed boost in combat, which doesn't interfere with the 4P set bonus. All this makes this set almost purely upside and the highest priority to farm if you aren't using it yet.\n Usage: 99.56 %\n MoC: 7.44 cyc.\n PF: 39334\n AS: 3499\n\n 87.75%\n\n Scholar Lost in Erudition ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Longevous Disciple\n\n Genius of Brilliant Stars\n\n Poet of Mourning Collapse\n\n Arcadia of Woven Dreams",
+          "assets": [
+            {
+              "id": "86c9cb6c5efe",
+              "sourceHash": "86c9cb6c5efe",
+              "kind": "relics",
+              "name": "Poet of Mourning Collapse",
+              "fileStem": "poet-of-mourning-collapse",
+              "path": "Prydwen/hsr/assets/relics/poet-of-mourning-collapse-86c9cb6c5efe.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "f521b7a2ee25",
+              "sourceHash": "f521b7a2ee25",
+              "kind": "relics",
+              "name": "Scholar Lost in Erudition",
+              "fileStem": "scholar-lost-in-erudition",
+              "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "58e79f548454",
+              "sourceHash": "58e79f548454",
+              "kind": "relics",
+              "name": "Longevous Disciple",
+              "fileStem": "longevous-disciple",
+              "path": "Prydwen/hsr/assets/relics/longevous-disciple-58e79f548454.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "c153d0175293",
+              "sourceHash": "c153d0175293",
+              "kind": "relics",
+              "name": "Genius of Brilliant Stars",
+              "fileStem": "genius-of-brilliant-stars",
+              "path": "Prydwen/hsr/assets/relics/genius-of-brilliant-stars-c153d0175293.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "19f596f01746",
+              "sourceHash": "19f596f01746",
+              "kind": "relics",
+              "name": "Arcadia of Woven Dreams",
+              "fileStem": "arcadia-of-woven-dreams",
+              "path": "Prydwen/hsr/assets/relics/arcadia-of-woven-dreams-19f596f01746.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-planetary-sets": {
+      "label": "Best Planetary Sets",
+      "sections": [
+        {
+          "heading": "Best Planetary Sets",
+          "text": "100%\n\n Bone Collection's Serene Demesne ( 2 -PC)\n\n The natural choice for Castorice as most other options either don't affect her memosprite or have unsuitable stats.\n Usage: 99.64 %\n MoC: 7.44 cyc.\n PF: 39329\n AS: 3499\n\n 96%\n\n Arcadia of Woven Dreams ( 2 -PC)\n\n 3 stacks | Weaker alternative for Castorice, as she already gains DMG% buffs from her kit. With Evernight, the memosprites might not be active all the time either, making this set not ideal.\n Usage: 0.02 %\n MoC: -\n PF: 0\n AS: 0\n\n 92.70%\n\n The Wondrous BananAmusement Park ( 2 -PC)\n\n The additional CRIT DMG does not affect Netherwing\n Usage: 0.04 %\n MoC: -\n PF: 0\n AS: 3276",
+          "assets": [
+            {
+              "id": "6206930710f0",
+              "sourceHash": "6206930710f0",
+              "kind": "relics",
+              "name": "Bone Collection's Serene Demesne",
+              "fileStem": "bone-collections-serene-demesne",
+              "path": "Prydwen/hsr/assets/relics/bone-collections-serene-demesne-6206930710f0.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "19f596f01746",
+              "sourceHash": "19f596f01746",
+              "kind": "relics",
+              "name": "Arcadia of Woven Dreams",
+              "fileStem": "arcadia-of-woven-dreams",
+              "path": "Prydwen/hsr/assets/relics/arcadia-of-woven-dreams-19f596f01746.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "62f715257f39",
+              "sourceHash": "62f715257f39",
+              "kind": "relics",
+              "name": "The Wondrous BananAmusement Park",
+              "fileStem": "the-wondrous-bananamusement-park",
+              "path": "Prydwen/hsr/assets/relics/the-wondrous-bananamusement-park-62f715257f39.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-stats": {
+      "label": "Best Stats",
+      "sections": [
+        {
+          "heading": "Best Stats",
+          "text": "Body\n CRIT DMG\n > HP%\n\n Feet\n HP%\n\n Planar Sphere\n HP%\n > Quantum DMG\n\n Link Rope\n HP%\n\n Substats: CRIT DMG = CRIT Rate > HP% > SPD (Less than 95)",
+          "assets": [
+            {
+              "id": "44c437b21b3a",
+              "sourceHash": "44c437b21b3a",
+              "kind": "icons",
+              "name": "CRIT DMG",
+              "fileStem": "stat-critdmg",
+              "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "96654253a4f7",
+              "sourceHash": "96654253a4f7",
+              "kind": "icons",
+              "name": "HP",
+              "fileStem": "stat-hp",
+              "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "982761f78cd0",
+              "sourceHash": "982761f78cd0",
+              "kind": "icons",
+              "name": "Quantum DMG",
+              "fileStem": "stat-quantumdmg",
+              "path": "Prydwen/hsr/assets/icons/quantum-dmg-982761f78cd0.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        }
+      ]
+    },
+    "recommended-endgame-stats": {
+      "label": "Recommended endgame stats",
+      "sections": [
+        {
+          "heading": "Recommended endgame stats",
+          "text": "HP: 7000-8000+\n\n DEF: 700+\n\n CRIT Rate: 80-100% (Including Poet)\n\n CRIT DMG: 200-220% +\n\n SPD: Base Speed OR <95",
+          "assets": []
+        }
+      ]
+    },
+    "traces-priority": {
+      "label": "Traces priority",
+      "sections": [
+        {
+          "heading": "Traces priority",
+          "text": "Skills priority: Memo Skill = Memo Talent > Ultimate = Talent > Skill > Basic\n\n Major Traces priority: Contained Dark Tide (A2) > Where The West Wind Dwells (A6) > Inverted Torch (A4)",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Hyacine - The most important support for Castorice. Her healing output is unmatched amongst healers as she can automatically trigger healing after HP loss which can be through HP drain or getting attacked. She naturally reaches extremely high SPD thresholds, atleast 200, and can provide teamwide healing every turn. Her \"total\" healing output also gets stronger with more allied units on the field. All this together leads to an insane amount of Castorice's Ultimate Charges. Furthermore, Hyacine's Ultimate provides a substantial HP buff for the entire team, increasing the DMG output of Castorice and her teammates. With Evernight on the team, she can also deal significant DMG herself, and lastly her signature Light Cone can drain the team's HP to trigger even more healing, on top of all the benefits for Evernight.\n March 7th • Evernight - Evernight is a very powerful supportive sub DPS that pairs perfectly with Castorice. In raw buffs she can provide over 100% CRIT DMG to Netherwing (and any other memosprites) as well as a 30% Vulnerability to the whole team, not to mention extra bonuses from Relics / Light Cones. Furthermore, Evernight continously detonates her memosprite Evey, which alongside her own HP Drain provides substantial amounts of Newbud. Finally, the raw DMG that Evernight can dish out is quite meaningful and allows Castorice to save some of her power for when it truly matters.\n Cyrene - Cyrene is the last Remembrance teammate to complete Castorice teams. Despite her Memosprite being untargetable, it will always mirror Cyrene's HP fluctations, resulting in additional Newbud generation for Castorice. Her buffs allow Castorice to overcharge her Ultimate up to 200%, and increases her detonation attack damage based on overflowed Newbud, stronger against 2 or less targets. In multi-target situations, it is not recommended to overcharge her Ultimate, as the majority of Netherwing's DMG would be from the Breath attacks, whereas it is unaffected by overflowed Newbud. Against 2 or less targets, Cyrene will massively boost the Bounce DMG from 40% per instance, up to 112% at max overflow, resulting in impressive Single-Target damage. Keep in mind the condition is checked when using her Ultimate, and not when the attack occurs\n Mortenax Blade - Mortenax Blade isn't Castorice's best-in-slot support but can be used in place of them in cases where they are occupied by other teams. His HP drain can help charge Castorice's Ultimate and he has great synergy with her other teammates like Tribbie and Hyacine.\n Tribbie - Tribbie offers strong DMG potential and rare buffs for the entire team. The RES PEN and DMG Taken debuffs are extremely beneficial for Castorice as she is saturated on most common stats like DMG% and CRIT DMG. These buffs also affect her teammates which is important as it enables both Hyacine and Evernight to contribute significant amounts of DMG as well.\n Trailblazer • Remembrance - As a Remembrance character, the Trailblazer has their memosprite Mem, which gives Castorice more targets to consume HP from. Once Mem’s Support is on Castorice, Netherwing will also receive it as well when summoned, allowing both to deal a tremendous 36% extra True DMG. On top of this, Trailblazer also brings 10% CRIT RATE and a substanial amount of CRIT DMG to the party while also directly benefitting from Castorice and Netherwing as well (The Trailblazer’s E2 regenerates Energy for themself when Netherwing takes action). At the time of Castorice's release Rememberance Trailblazer is one of the best supports for her.\n Sunday - Sunday is also an effective support for Castorice, thanks to his kit being revolved around Summons. With that said he does also present her with a few inconveniences to work around. The most notable one being that Netherwing does not retroactively inherit Sunday's Skill and Ultimate buff, leading to wasted Action Value in order to wait for buffs. Sunday's Ultimate offering Energy refund does not work on Castorice as she does not use Energy. Lastly, Castorice's SPD can fluctuate in battle, often leading to unreliable SPD tuning while you have to wait for Sunday's turn before detonating Netherwing. When pairing them together, make sure to save Sunday's Ultimate until Netherwing is summoned, and wait until Netherwing receives Sunday's Skill buff before detonating.\n Ruan Mei - Strong generic support, mostly known for the teamwide Weakness Break Efficiency buffs, which can be tremendous in Break-oriented gamemodes such as Apocalyptic Shadows. Can also provide a teamwide SPD buff, which is useful for higher healing output on Hyacine.\n Gallagher - Much weaker alternative healer to Hyacine. Gallagher boasts high healing outputs but is reliant on enemy count and debuff uptime in order to perform. His healing debuff can trigger for every attacked enemy, leading to a ton of Charges for Castorice. This is most notable with Tribbie, who can frequently launch AoE attacks to trigger this healing. Although against Pure Fiction or frail enemies, they can easily lose the debuff.\n Luocha - Luocha, like Gallagher, comes with on-hit healing capabilties in the form of his healing field, scaling with the amount of ally targets. This give him a distinct advantage in modes where Gallagher is unable to maintain his Ultimate debuff on enemies. When playing Luocha with Castorice, focus on maximizing his healing output by stacking ATK% and Outgoing Healing Bonus.\n Mydei - Mydei can also be paired with Castorice in a dual DPS setup since they can benefit from each other. Castorice's massive HP drain helps charge up Mydei's \"Godslayer Be God\" attacks, and she can also provide a 20% All-Type RES reduction (provided that Netherwing is maintained on the field) and she increases DMG dealt by all allies by 10% when Netherwing is summoned. Mydei in return takes more DMG than usual due to his 0 DEF and has self-HP drain that also charge Castorice's Ultimate.",
+          "assets": [
+            {
+              "id": "1d90270b2b4b",
+              "sourceHash": "1d90270b2b4b",
+              "kind": "characters",
+              "name": "Hyacine",
+              "fileStem": "hyacine-icon",
+              "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "e6a5c98adfc4",
+              "sourceHash": "e6a5c98adfc4",
+              "kind": "characters",
+              "name": "March 7th • Evernight",
+              "fileStem": "march-7th-evernight-icon",
+              "path": "Prydwen/hsr/assets/characters/march-7th-evernight-e6a5c98adfc4.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "005597837585",
+              "sourceHash": "005597837585",
+              "kind": "characters",
+              "name": "Cyrene",
+              "fileStem": "cyrene-icon",
+              "path": "Prydwen/hsr/assets/characters/cyrene-005597837585.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "99361e4717fa",
+              "sourceHash": "99361e4717fa",
+              "kind": "characters",
+              "name": "Mortenax Blade",
+              "fileStem": "blade-mortenax-icon",
+              "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "2cde7699adbf",
+              "sourceHash": "2cde7699adbf",
+              "kind": "characters",
+              "name": "Tribbie",
+              "fileStem": "tribbie-icon",
+              "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "d3e344772d55",
+              "sourceHash": "d3e344772d55",
+              "kind": "characters",
+              "name": "Trailblazer • Remembrance",
+              "fileStem": "trailblazer-remembrance-icon",
+              "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "3d568cb7f29d",
+              "sourceHash": "3d568cb7f29d",
+              "kind": "characters",
+              "name": "Sunday",
+              "fileStem": "sunday-icon",
+              "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "b77207bce6c8",
+              "sourceHash": "b77207bce6c8",
+              "kind": "characters",
+              "name": "Ruan Mei",
+              "fileStem": "ruan-mei-icon",
+              "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "30d074a1060a",
+              "sourceHash": "30d074a1060a",
+              "kind": "characters",
+              "name": "Gallagher",
+              "fileStem": "gallagher-icon",
+              "path": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "901456d3c61d",
+              "sourceHash": "901456d3c61d",
+              "kind": "characters",
+              "name": "Luocha",
+              "fileStem": "luocha-icon",
+              "path": "Prydwen/hsr/assets/characters/luocha-901456d3c61d.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "941e5d329286",
+              "sourceHash": "941e5d329286",
+              "kind": "characters",
+              "name": "Mydei",
+              "fileStem": "mydei-icon",
+              "path": "Prydwen/hsr/assets/characters/mydei-941e5d329286.webp",
+              "width": 45,
+              "height": 45
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Castorice Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Castorice\n Castorice Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Castorice from HSR (Honkai: Star Rail). Castorice is a 5 ★ character from the Quantum element who follows the Path of Remembrance .\n \"Servant of Death\" Castorice The land that reveres death, Aidonia, where snow falls endlessly, has today drifted into a sweet slumber. Castorice, daughter of the River of Souls, Chrysos Heir in search of \"Death\" Coreflame, sets forth. You must guard the lament of souls and embrace the solitude of destiny. Life and death are but a journey. When butterfly alights on the branch, what withers will bloom anew.\n\n To learn more about Castorice check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Castorice has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 3.2\n\n Last major build/calcs update\n Patch 3.6\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Castorice check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Lament, Nethersea's Ripple\n Single Target\n\n Lv. 1\n\n Energy gain: 0\n Break: 10\n\n Deals Quantum DMG equal to #1[i]% of Castorice's Max HP to one designated enemy.\n\n Skill\n Silence, Wraithfly's Caress\n Blast\n\n Lv. 1\n\n Energy gain: 0\n Break: 20 + 10 adjacent\n\n Consumes 30% of all allies' current HP. Deals Quantum DMG equal to #1[i]% of Castorice's Max HP to one designated enemy and Quantum DMG equal to #2[i]% of Castorice's Max HP to adjacent targets.\nIf current HP is insufficient, this ability will reduce HP to 1.\nIf Netherwing is on the battlefield, this Skill becomes \"Boneclaw, Doomdrake's Embrace\" instead.\n AoE (Enhanced)\n Boneclaw, Doomdrake's Embrace\n AoE\n\n Lv. 1\n\n Energy gain: 0\n Break: 20\n\n Consumes 40% of all allies' (except Netherwing) current HP. Castorice and Netherwing launch a Joint ATK on the target and deal Quantum DMG equal to #1[i]% and #2[i]% of Castorice's Max HP to all enemies.\nIf current HP is insufficient, using the ability will reduce HP to 1.\n\n Ultimate\n Doomshriek, Dawn's Chime\n Summon 0\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n Summons the memosprite Netherwing and advances its action by 100%. At the same time, creates the Territory \"Lost Netherland\", which decreases all enemies' All-Type RES by #1[i]%. If the DMG Boost effect from Castorice's Talent is active, the effect is extended to Netherwing. Netherwing has an initial SPD of 165 and a set Max HP equal to 100% of max Newbud.\nAfter Netherwing experiences 3 turns or when its HP is 0, it disappears and dispels the Territory \"Lost Netherland\".\n\n Talent\n Desolation Across Palms\n Enhance\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n Max \"Newbud\" is based on all characters' levels on the battlefield. For each point of HP lost by all allies, Castorice gains 1 point of \"Newbud.\" When \"Newbud\" reaches its maximum, Castorice's Ultimate can be used. When allies lose HP, Castorice's and Netherwing's DMG dealt increase by #1[i]%. This effect can stack up to 3 times, lasting for 3 turn(s).\nWhen Netherwing is on the field, \"Newbud\" cannot be gained through Talent, and HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing.\n\n Technique\n Wail, Death's Herald\n\n Energy gain: 0\n Break: -\n\n After using Technique, enters the \"Netherveil\" state that lasts for 20 seconds. While \"Netherveil\" is active, enemies are unable to approach Castorice on their own.\nWhile in the \"Netherveil\" state, attacking will cause all enemies within range to enter combat. At the same time, summons the memosprite Netherwing and causes it to advance its action by 100%, as well as create its Territory \"Lost Netherland.\" Netherwing starts with current HP equal to 50% of max \"Newbud.\" After entering battle, consumes 40% of all allies' current HP aside from Netherwing.\nAfter entering battle and before summoning Netherwing, Castorice gains \"Newbud\" equal to 30% of maximum \"Newbud.\"\n\n Unique\n Sanctuary of Mooncocoon\n Unique\n\n Energy gain: 0\n Break: -\n\n After obtaining Castorice or when Castorice is in the current team, receive the following effect: In battle, when an ally character receives a killing blow, all ally characters that received a killing blow in this action enter the \"Mooncocoon\" state. Characters in \"Mooncocoon\" temporarily delay becoming downed and can take actions normally. After the action, if their present HP increases, or if they gain the Shield effect before their next turn, \"Mooncocoon\" is removed. Otherwise, they will be downed immediately. This effect can be triggered 1 time per battle.\n\n Memosprite Skills\n Memosprite Skill\n Claw Splits the Veil\n AoE\n\n Lv. 1\n\n Energy gain: 0\n Break: 10\n\n Deals Quantum DMG equal to #1[i]% of Castorice's Max HP to all enemies.\n Memosprite Skill\n Breath Scorches the Shadow\n AoE\n\n Lv. 1\n\n Energy gain: 0\n Break: 10\n\n Activating \"Breath Scorches the Shadow\" will consume 25% of Netherwing's Max HP to deal Quantum DMG equal to #1[i]% of Castorice's Max HP to all enemies.\nIn one attack, \"Breath Scorches the Shadow\" can be activated repeatedly, with the DMG multiplier increasing respectively to #2[i]% / #3[i]%, until #3[i]%. The DMG Multiplier Boost effect will not be reduced before Netherwing disappears.\nWhen Netherwing's current HP is equal to or lower than 25% of its Max HP, activating the ability will reduce HP to 1, and then trigger the ability effect equal to that of the Talent \"Wings Sweep the Ruins.\n\n Memosprite Talent\n Mooncocoon Shrouds the Form\n Support\n\n Energy gain: 0\n Break: -\n\n When Netherwing is on the field, it acts as backup for allies. When allies take DMG or consumes HP, their current HP can be reduced to a minimum of 1, after which Netherwing will consume HP at 500% of the original value until Netherwing disappears.\n Memosprite Talent\n Roar Rumbles the Realm\n Support\n\n Energy gain: 0\n Break: -\n\n When Netherwing is summoned, increases DMG dealt by all allies by 10% for 3 turn(s).\n Memosprite Talent\n Wings Sweep the Ruins\n Bounce\n\n Lv. 1\n\n Energy gain: 0\n Break: 5\n\n When Netherwing disappears, deals 6 instance(s) of DMG, with every instance dealing Quantum DMG equal to #1[i]% of Castorice's Max HP to one random enemy units. At the same time, restores HP equal to #2[i]% of Castorice's Max HP plus #3[i] to all allies.\n\n Major Traces\n A2 Major trace\n Contained Dark Tide\n\n After ally targets (excluding Netherwing) receive healing, converts 100% of healed value into \"Newbud.\" If Netherwing is on the battlefield, the healing is instead converted into Netherwing's HP. The converted value for each ally target cannot exceed 12% of \"Newbud\"'s maximum limit. The accumulated conversion value from all units resets after any unit takes action.\n\n A4 Major trace\n Inverted Torch\n\n When Castorice's current HP is greater or equal to 50% of this unit's Max HP, her SPD increases by 40% . When Netherwing uses Breath Scorches the Shadow and deals fatal damage to all enemies on the field or brings them to a point where they cannot lose more HP, Netherwing's SPD increases by 100% for 1 turn.\n\n A6 Major trace\n Where The West Wind Dwells\n\n Each time Netherwing uses Breath Scorches the Shadow, increases its DMG dealt by 30% . This effect stacks up to 6 and lasts until the end of this turn.\n\n Minor Traces (total)\n CRIT Rate\n + 18.7%\n\n CRIT DMG\n + 13.3%\n\n Quantum DMG\n + 14.4%\n\n Eidolons\n E 1\n Snowbound Maiden, Memory to Tomb\n Eidolon 1\n\n When the enemy target's current HP is 80%/50% or lower than this unit's Max HP, the DMG dealt with \"Boneclaw, Doomdrake's Embrace,\" \"Claw Splits the Veil,\" \"Breath Scorches the Shadow,\" and \"Wings Sweep the Ruins\" is 120%/140% of the original DMG.\n\n E 2\n Crown on Wings of Bloom\n Eidolon 2\n\n After summoning memosprite Netherwing, Castorice gains 2 stack(s) of \"Ardent Will.\" A maximum of 2 stacks of \"Ardent Will\" can be possessed at any given time, and can be used to offset Netherwing's HP consumption when using Memosprite Skill \"Breath Scorches the Shadow\" while advancing Castorice's action by 100% . In the next usage of Enhanced Skill, Castorice gains 30% of maximum \"Newbud\" points.\n\n E 3\n Pious Pilgrim, Dance in Doom\n Eidolon 3\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10. Memosprite Talent Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Rest in Songs of Gloom\n Eidolon 4\n\n While Castorice is on the battlefield, all allies' Incoming Healing increases by 20% when having their HP restored.\n\n E 5\n Pristine Pages, Prophecy as Plume\n Eidolon 5\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15. Memosprite Skill Lv. +1 , up to a maximum of Lv. 10.\n\n E 6\n Await for Years to Loom\n Eidolon 6\n\n When Castorice or Netherwing deals DMG, increases Quantum RES PEN by 20% . When Netherwing attacks, it can ignore Weakness Type and directly reduce enemy Toughness. When it inflicts Weakness Break, triggers the Quantum Weakness Break effect. Additionally increases the Bounce count for Netherwing's Talent \"Wings Sweep the Ruins\" by 3 time(s).\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1631\n\n ATK\n\n 523\n\n DEF\n\n 485\n\n Speed\n\n 95\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 308000\n\n Ethereal Omen\n\n x 15\n\n Echoing Wail\n\n x 15\n\n Darkveil Moonlight\n\n x 65\n\n Eternal Lament\n\n x 15\n\n CV\n ENG\n Melody Muze\n\n JPN\n Saitou Chiwa (斎藤 千和)\n\n CN\n Ruan Congqing (阮从青)\n\n KR\n Lee Serena (이세레나)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Versatile AoE/Bounce damage dealer,\n\n Strong Toughness Reduction on attacks,\n\n High HP makes her extremely difficult to kill,\n\n Scales better with more aggressive enemies,\n\n Netherwing prevents other allies from dying, and heals on exit,\n\n Completely SP neutral,\n\n Netherwing provides All-Type RES PEN,\n\n Initiate fights with Netherwing directly,\n\n Unique Energy mechanic allows for consistent Ultimate uses.\n\n Cons\n Poor F2P Light Cone options,\n\n Requires high stat investments for herself and the team,\n\n Revive passive is highly conditional,\n\n Completely non-functional with shield-based sustains.\n\n Review (By Sushou)\n Castorice is an extraordinarily powerful Remembrance DPS that scales with HP and does not consume Skill Points. Like Acheron and Feixiao, Castorice does not use Energy for her Ultimate, instead using a charge system that accumulates based on HP lost from allies, and Castorice's Skill and Enhanced Skill consume HP from all allies to be used. Her memosprite is Netherwing, a giant dragon whose presence alters the field and decreases enemies' All-Type RES. Castorice has numerous ways to boost her damage output and even provides defensive value for the team with some AoE healing after Netherwing departs the field, damage redirection to Netherwing to prevent allies from dropping below 1 HP, and a once-per-battle pseudo-Revive from her unique passive.\n The ephemeral reaper graces us at last. Castorice is the character we're getting for the second anniversary of Star Rail, and she brings with her immense amounts of sakuga. Yes, she is also unfathomably powerful and good and all that, but have you seen those animations? Whatever they're feeding those lot, they should keep doing it.\n Breaking from our usual coverage, we’ll address Castorice’s one-of-a-kind (at least at the moment) global passive first, since it’s a contentious part of her kit. Hearing 'global revive passive' makes it sound like it's game-breaking, but in the current endgame, for most, it will end up as more of a nice bonus to have than something mandatory.\n When an ally receives a killing blow, they get put in a stasis effect where they can still act until the end of their next turn, but unless they get healed or shielded before that time expires, the ally will still die. It is not a replacement for a sustain unit, and is mostly a small fallback for when you've made a mistake in endgame content and would otherwise need to restart the fight (at least at the moment).\n Back to the regularly scheduled breakdown, Castorice uses HP for dealing damage, continuing the recent trend of Amphoreus characters doing so . She actually has the single highest base HP value in the game, exceeding even Mydei, and even better is that, also like Mydei, Castorice does not consume any Skill Points to use her Skill. Instead of consuming her own HP to use her Skill, Castorice consumes everyone's HP instead; 30% current HP drained from all allies (including herself) to deal up to 50% Castorice's Max HP to a target enemy, and 30% to adjacent targets.\n This HP loss is very important for Castorice's Talent and Ultimate. Castorice doesn't have normal Energy, instead having a charge system that's represented as a percentage in game. Whenever allies lose HP, Castorice gets 1 point of Newbud. When Newbud reaches 100%, Castorice can use her Ultimate to summon the memosprite Netherwing, a massive and imposing dragon. Newbud is not accumulated when Netherwing is on the field.\n Whenever allies lose HP, Castorice and Netherwing's DMG dealt increases by up to 20%, stacking up to 3 times and lasting for 3 turns (essentially a permanent 60% DMG bonus). The exact number of charge she needs is ambiguous in-game, but at max Equilibrium Level, this amounts to exactly 34000 charge — or in other words, your team needs to sustain 34000 points of damage to fully charge Castorice's Ultimate.\n This seems like quite a lot and puts a lot of pressure onto your sustain to be able to restore HP. Along with a Bonus Ability Trace later, this is the clear indicator that Castorice teams should only ever consider using direct Abundance healers, especially ones with huge healing throughput like Gallagher and Luocha . As the HP drain of Castorice's Skill is current HP, if you are not healing consistently, you will not be getting enough Newbud to use Castorice's Ultimate. Do not run shielders.\n After Castorice has gained enough Newbud, she can summon Netherwing . While Netherwing is active, Castorice's Skill becomes Enhanced, becoming a fully AoE Joint ATK, much like Aglaea's Enhanced Basic. Castorice will consume 40% current HP from all allies (including herself, but excluding Netherwing) to deal 30% and 50% of her Max HP (80% total) to all enemies. This is absurdly powerful, and this isn't factoring in what Netherwing themselves can do.\n Netherwing is quite the summon, being a fair bit different from the ones we've seen thus far. When Netherwing is summoned, their action is advanced by 100%. They bring with them a domain expansion — sorry, 'Territory' — that decreases all enemies' All-Type RES by up to 20% for simply being on field. Netherwing also inherits any existing DMG boosting stacks from Castorice's Talent.\n They have an impressive initial SPD of 165 and a Max HP equal to 100% of the max value of Newbud (which we know is 34000 HP). After 3 of Netherwing's turns, or after their HP is reduced to 0, it disappears and dispels its Territory, Lost Netherland.\n Netherwing is too large to fight in the same row as your team, so they occupy a sort of backup row when summoned. This also means enemies can't actually directly harm Netherwing. Netherwing has an emergency damage redirection passive, where allies cannot go below 1 HP, but all excess damage is redirected to Netherwing at 500% of the original value. Useful very often, but don't rely on this all the time since even Netherwing's absurd Max HP can't survive too long against 500% damage. Netherwing also boosts all allies DMG dealt by 10% for 3 turns when summoned.\n That's just what Netherwing does passively. Now onto actual attacks. Netherwing can choose between a claw attack and a breath attack. The claw attack deals 40% of Castorice's Max HP to all enemies on the field. It's a rather powerful AoE attack that is used to end the action early or to preserve HP.\n The breath attack, however... we’re not allowed to type the exact sentence we would use to describe this, so you know it's good. This is also a fully AoE attack that consumes 25% of Netherwing's Max HP to deal up to 24% Castorice's Max HP to all enemies. This does not end the action, by the way. You can just keep going, with the second cast dealing 28% Castorice's Max HP, and the third cast onward dealing 34%. This DMG Multiplier does not decrease until Netherwing disappears, so if you do not consume all of Netherwing's HP in one action, Netherwing's next breath attack will start off fully ramped up.\n Consuming HP when Netherwing is at or below 25% Max HP will reduce their HP to 1 and trigger a finisher burst called Wings Sweep the Ruins. This is an enormous kamikaze Bounce attack, dealing 6 instances of Quantum DMG equal to 40% of Castorice's Max HP. This attack also restores 6% of Castorice's Max HP plus 800 to all allies. This attack can end up dealing a total of 240% of Castorice's Max HP if all the Bounces land on one enemy.\n Combining this with a fully channelled breath attack, you're adding an extra 120% for a new total of 360% DMG multiplier. This is absurd, and getting to heal allies when Netherwing leaves is just the cherry on top.\n There are two main ways to utilise Netherwing’s power. The first way is to just immediately use all 4 breath attacks in one action and go in for the big finisher explosion. This is the generally preferred way, especially after factoring in her A6 Bonus Trace.\n The second way is to hold off on finishing the breath attack, either by only doing 3 breath attacks into a claw, or by just skipping the breath attack and using Netherwing’s claw attack. This is useful if you need to stack buffs onto Netherwing after they are already summoned, or if you want to delay the explosion for some reason. This playstyle is imperative in Sunday teams.\n This is all just at base without factoring in the Bonus Ability Traces.\n Castorice's A2 allows for Newbud to be charged by factoring in ally healing received; 100% of the healed value is stored into Newbu d. If Netherwing is on the field, the healing is instead converted into HP for Netherwing. The converted value for each ally cannot exceed 12% of Newbud's maximum value (so this only counts up to 4080 HP per ally), and the value can be taken from the ally again after any unit takes action. Oh, and overhealing is absolutely included in the conversion, so don’t worry about your healers’ efforts going to waste. This is the Trace we mentioned earlier when we said you definitely only want to use Abundance healers with Castorice. With someone like Gallagher or Luocha on the team, not only do you heavily offset the damage everyone is taking from Castorice's Skill uses, but you also greatly accelerate the accumulation of Newbud for fast resummons of Netherwing.\n A4 will grant Castorice a 40% SPD boost as long as her current HP is greater or equal to 50%. In addition to this, when Netherwing deals fatal damage to all enemies on the field with their breath attack, or brings them to a point where they cannot lose more HP (such as a phase transition), Netherwing will gain 100% SPD for 1 turn.\n This provides Castorice a very frequent potent SPD boost in combat, allowing her to fully benefit from the 4-piece bonus of the Poet of Mourning Collapse relic set while still getting to be fast. The bonus for Netherwing is for AoE content like Pure Fiction, where Netherwing's breath attack can wipe the field easily, and it lets them act almost instantly against the new incoming enemies.\n Her A6 makes it so that each time Netherwing uses their breath attack, their DMG dealt will increase by 30%. This effect stacks up to 6 times and lasts until the end of the turn. Realistically, it is not possible to have Netherwing use their breath attack more than 4 times (since the cost would become exactly 100% Max HP), but certain Blessings or Eidolons could potentially increase this value.\n Either way, with this Trace active, it now becomes more efficient to go all out on the breath attack if you choose to use it, as the ramping DMG boost will then also apply to Wings Sweep the Ruins, resulting in a colossal nuke against enemies.\n Eidolons are, as usual, completely unnecessary, but should you choose to go for them, you won't be disappointed. E2 in particular is a huge damage increase on Netherwing's breath attack, allowing you to cast it a total of 6 times in succession, while advancing Castorice's action by 100% and granting a head start towards the next summon of Netherwing.\n Please read the comparison between her Signature and her Eidolons if you would like help in deciding which to go for.\n Castorice is a harbinger of death. She has no issues with decimating everything in front of her while also providing an accessible lifeline for the party. By being completely SP neutral, she also has no issue with other characters using Skill Points, especially for healers to be able to maximise their healing output.\n We’ve already discussed healing, but when it comes to support, the best general pairing for Castorice is the Remembrance Trailblazer. Mem's Support is a fantastic boon to Castorice's already insane damage, as the undiluted multiplier from the True DMG lets you pretty much annihilate whatever's bold enough to be in front of you. Additionally, the inclusion of Mem in the team means Castorice has an extra target to siphon HP from, further increasing the generation of Newbud and accelerating the next use of her Ultimate, and the Trailblazer can contribute to the healing amount by using their Skill to heal Mem.\n The True DMG multiplier isn't as high as it could be since Castorice doesn't meet the Energy requirement to do so (given that it's technically 0), but thanks to the Trailblazer's Bonus Trace, she still gets a total of 36% extra True DMG. Mem's Support is also automatically mirrored onto Netherwing when they are summoned, so there's no risk of losing value from the powerful buff. Mem also being able to directly attack helps to proc HP healing and draining effects from the team, and can even further accelerate the accumulation of Newbud.\n Tribbie is probably the best general support for Castorice . Tribbie is fantastic for Castorice for the same reasons that Tribbie is great for Mydei; Tribbie's buffs are universal and are not tied to any one particular stat, meaning that the HP scaling Castorice will get full value at all times. Tribbie also ends up having wonderful synergy with the aforementioned Abundance healers since they require attacking to proc their healing.\n Tribbie’s frequent follow-up attacks mean she can equally frequently proc Luocha’s or Gallagher’s healing effects, contributing even more to Newbud generation. You’re probably seeing a theme here by now. In addition to this, since Tribbie is a HP scaler herself, Castorice’s HP draining Skills will be able to generate a lot more Newbud upfront due to Tribbie’s build, resulting in her having a very high amount of Max HP.\n These two characters of Tribbie and the Remembrance Trailblazer make up the best support team for Castorice. They provide the team with everything you could possibly want and then some more on top. It’s great that one of these characters is freely available to everyone, but Tribbie in particular provides the largest increase to overall performance, so it’s important to know this if you plan on having the strongest Castorice team possible.\n Sunday is, of course, an alternative for Castorice, but is surprisingly more challenging to make use of for Castorice specifically . As Castorice doesn't use Energy, Sunday's Energy Restore is completely useless. Worse still is that Netherwing will not mirror Sunday's buffs if they were already active before Netherwing was summoned; Sunday would need to refresh the benefits of his Skill, Ultimate, and Talent directly in order for Netherwing to gain those benefits.\n This is where the aforementioned second playstyle of Netherwing comes in. By delaying the use of Wings Sweep the Ruins by using Netherwing’s claw attack, you give Sunday enough time to re-buff Castorice and also have the effects spread to Netherwing, leading to a fully powered-up finisher.\n Castorice also has fluctuating SPD values, especially when losing large amounts of HP at once, meaning that attempting to SPD tune to Sunday is quite the headache, and Netherwing's naturally very high SPD of 165 compounds this further. Giving Castorice more turns will also lead to steeper HP drain on the entire party, putting more pressure on the healers to be able to heal things back quickly enough — remember that Castorice's HP drain is based on current HP, so if everyone is already very low when she uses her Skill, the amount of Newbud she will generate will be significantly reduced, leading to far fewer Ultimate uses.\n It's not impossible to use Sunday by any means, but it should be pretty clear that he’s definitely more challenging to use.\n If you are interested in running a dual DPS setup, then the number 1 pick for that is the vanquisher Mydei. He already has no trouble fluctuating his own HP in order to deal damage, and has plenty of ways to regain it as well. Having a naturally nigh-unkillable unit on the team with the dragon that also prevents death can result in an extraordinarily durable team comp that deals huge damage as well.\n Do note that if you use Mydei with her, you're somewhat forcing yourself to also use Tribbie as the support for both the DPS. Mydei would be taking the Remembrance Trailblazer's spot in the team, and this is again due to Tribbie providing universal buffs that benefit both Mydei and Castorice simultaneously. Neither of these two DPS explicitly needs the other to function, they work masterfully alone or together, but that choice is ultimately yours. Mydei is a good option to have in case the enemy is also weak to Imaginary.\n If you are lacking Tribbie, this is going to result in a sizeable reduction to Castorice’s performance, and makes running dual DPS with Mydei extremely difficult, but it’s not completely over if you don’t have Tribbie… There is still the classic option of putting in Pela. The DEF Reduction she provides is greatly appreciated, and due to the extremely SP positive nature of the team (regardless of if you're using Remembrance Trailblazer or Mydei for the other slot), Pela has plenty of Skill Points to use to funnel herself enough Energy for maximum uptime on her Ultimate's debuff. Jiaoqiu is also quite similar so if he's not being used for a certain Self-Annihilator, he can also be used for Castorice. Finally, Ruan Mei can also be used as a Tribbie replacement if she’s not used elsewhere.\n It's definitely far worse than using Tribbie, but at least you’re not completely and utterly out of options if you don’t have Tribbie.\n Lastly, actually playing Castorice. The actual in-combat experience is not that complicated, to the point that even Auto-Battle will play exactly as you would prefer to play to maximise damage. The issue is more in building the team ahead of said battle.\n Aside from that, there's not much else to say. She's crazy strong, and somehow has room to grow if units get released that are tailored for her gameplay. She's quite easy to pilot (if you're not using Sunday, sorry), and worst case scenario, Auto-Battle has you covered too. Strong in all game modes, beautiful design, and she's got a dragon.\n Happy anniversary.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Damage dealer\n T0\n MoC\n\n T0\n PF\n\n T0\n AS\n\n Build and teams\n\n Best Light Cones\n\n 123.10%\n\n Make Farewells More Beautiful (S 1 )\n\n Due to Remembrance Path's limited Light Cone options, her signature is a strong improvement over the alternatives. It significantly increases her Max HP, allowing for more to be consumed for Ultimate Charges, and has an impressive 30% DEF Ignore for both herself and Netherwing. The Action Advance can also allow her to reach certain Action Value breakpoints, as her SPD is limited by 4-Pc Poet's activation conditions.\n Usage: 93.85 %\n MoC: 7.37 cyc.\n PF: 39584\n AS: 3509\n\n 109.04%\n\n The Flower Remembers (S 5 )\n\n The second Battle Pass Remembrance Light Cone is a strong alternative at high Superimpositions. Provides CRIT DMG for Castorice which is inherited by her memosprite, as well as another CRIT DMG buff for the memosprite itself.\n Usage: 0.96 %\n MoC: 9.33 cyc.\n PF: 34726\n AS: 3308\n\n 107.48%\n\n Sweat Now, Cry Less (S 5 )\n\n Another decent alternative to Castorice's signature when but with the downside of granting CRIT Rate that can easily overcap beyond 100% due to her Traces, Relics, and team buffs if not careful, wasting a portion of its potential.\n Usage: 2.23 %\n MoC: 7.56 cyc.\n PF: 37639\n AS: 3376\n\n 93.23%\n\n Time Waits for No One (S 1 )\n\n Since the Remembrance Path does not have any F2P accessible Light Cone for DPS, running off-Path Light Cones just for Base HP can be a competitive option. Aim for any Light Cone with 1376/1270/1164 Base HP.\n Usage: 0.95 %\n MoC: 9.5 cyc.\n PF: 34701\n AS: 3364\n\n 92.65%\n\n The Story's Next Page (S 5 )\n\n Healing-focused Light Cone but can be used on Castorice for the Max HP increase. (Netherwing can also heal allies on exit)\n Usage: 0.73 %\n MoC: 8.33 cyc.\n PF: 35701\n AS: 3389\n\n 87.08%\n\n Post-Op Conversation (S 5 )\n\n Like above, Light Cones with 1058 HP can also work well and outpeform other Rememberance options.\n\n 86.80%\n\n Victory In a Blink (S 5 )\n\n Unfortunately this Cone loses out to Base HP off-path Cone due to its low base HP, mediocre CRIT DMG boost, and the fact its DMG% does not apply for Castorice.\n Usage: 0.47 %\n MoC: 10 cyc.\n PF: 33583\n AS: 3254\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n Poet of Mourning Collapse ( 4 -PC)\n\n Castorice can naturally be played on the slower side due to her kit and free 40% Speed boost in combat, which doesn't interfere with the 4P set bonus. All this makes this set almost purely upside and the highest priority to farm if you aren't using it yet.\n Usage: 99.56 %\n MoC: 7.44 cyc.\n PF: 39334\n AS: 3499\n\n 87.75%\n\n Scholar Lost in Erudition ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Longevous Disciple\n\n Genius of Brilliant Stars\n\n Poet of Mourning Collapse\n\n Arcadia of Woven Dreams\n\n Best Planetary Sets\n 100%\n\n Bone Collection's Serene Demesne ( 2 -PC)\n\n The natural choice for Castorice as most other options either don't affect her memosprite or have unsuitable stats.\n Usage: 99.64 %\n MoC: 7.44 cyc.\n PF: 39329\n AS: 3499\n\n 96%\n\n Arcadia of Woven Dreams ( 2 -PC)\n\n 3 stacks | Weaker alternative for Castorice, as she already gains DMG% buffs from her kit. With Evernight, the memosprites might not be active all the time either, making this set not ideal.\n Usage: 0.02 %\n MoC: -\n PF: 0\n AS: 0\n\n 92.70%\n\n The Wondrous BananAmusement Park ( 2 -PC)\n\n The additional CRIT DMG does not affect Netherwing\n Usage: 0.04 %\n MoC: -\n PF: 0\n AS: 3276\n\n Best Stats\n\n Body\n CRIT DMG\n > HP%\n\n Feet\n HP%\n\n Planar Sphere\n HP%\n > Quantum DMG\n\n Link Rope\n HP%\n\n Substats: CRIT DMG = CRIT Rate > HP% > SPD (Less than 95)\n\n Recommended endgame stats\n HP: 7000-8000+\n\n DEF: 700+\n\n CRIT Rate: 80-100% (Including Poet)\n\n CRIT DMG: 200-220% +\n\n SPD: Base Speed OR <95\n\n Traces priority\n Skills priority: Memo Skill = Memo Talent > Ultimate = Talent > Skill > Basic\n\n Major Traces priority: Contained Dark Tide (A2) > Where The West Wind Dwells (A6) > Inverted Torch (A4)\n\n Synergy\n Hyacine - The most important support for Castorice. Her healing output is unmatched amongst healers as she can automatically trigger healing after HP loss which can be through HP drain or getting attacked. She naturally reaches extremely high SPD thresholds, atleast 200, and can provide teamwide healing every turn. Her \"total\" healing output also gets stronger with more allied units on the field. All this together leads to an insane amount of Castorice's Ultimate Charges. Furthermore, Hyacine's Ultimate provides a substantial HP buff for the entire team, increasing the DMG output of Castorice and her teammates. With Evernight on the team, she can also deal significant DMG herself, and lastly her signature Light Cone can drain the team's HP to trigger even more healing, on top of all the benefits for Evernight.\n March 7th • Evernight - Evernight is a very powerful supportive sub DPS that pairs perfectly with Castorice. In raw buffs she can provide over 100% CRIT DMG to Netherwing (and any other memosprites) as well as a 30% Vulnerability to the whole team, not to mention extra bonuses from Relics / Light Cones. Furthermore, Evernight continously detonates her memosprite Evey, which alongside her own HP Drain provides substantial amounts of Newbud. Finally, the raw DMG that Evernight can dish out is quite meaningful and allows Castorice to save some of her power for when it truly matters.\n Cyrene - Cyrene is the last Remembrance teammate to complete Castorice teams. Despite her Memosprite being untargetable, it will always mirror Cyrene's HP fluctations, resulting in additional Newbud generation for Castorice. Her buffs allow Castorice to overcharge her Ultimate up to 200%, and increases her detonation attack damage based on overflowed Newbud, stronger against 2 or less targets. In multi-target situations, it is not recommended to overcharge her Ultimate, as the majority of Netherwing's DMG would be from the Breath attacks, whereas it is unaffected by overflowed Newbud. Against 2 or less targets, Cyrene will massively boost the Bounce DMG from 40% per instance, up to 112% at max overflow, resulting in impressive Single-Target damage. Keep in mind the condition is checked when using her Ultimate, and not when the attack occurs\n Mortenax Blade - Mortenax Blade isn't Castorice's best-in-slot support but can be used in place of them in cases where they are occupied by other teams. His HP drain can help charge Castorice's Ultimate and he has great synergy with her other teammates like Tribbie and Hyacine.\n Tribbie - Tribbie offers strong DMG potential and rare buffs for the entire team. The RES PEN and DMG Taken debuffs are extremely beneficial for Castorice as she is saturated on most common stats like DMG% and CRIT DMG. These buffs also affect her teammates which is important as it enables both Hyacine and Evernight to contribute significant amounts of DMG as well.\n Trailblazer • Remembrance - As a Remembrance character, the Trailblazer has their memosprite Mem, which gives Castorice more targets to consume HP from. Once Mem’s Support is on Castorice, Netherwing will also receive it as well when summoned, allowing both to deal a tremendous 36% extra True DMG. On top of this, Trailblazer also brings 10% CRIT RATE and a substanial amount of CRIT DMG to the party while also directly benefitting from Castorice and Netherwing as well (The Trailblazer’s E2 regenerates Energy for themself when Netherwing takes action). At the time of Castorice's release Rememberance Trailblazer is one of the best supports for her.\n Sunday - Sunday is also an effective support for Castorice, thanks to his kit being revolved around Summons. With that said he does also present her with a few inconveniences to work around. The most notable one being that Netherwing does not retroactively inherit Sunday's Skill and Ultimate buff, leading to wasted Action Value in order to wait for buffs. Sunday's Ultimate offering Energy refund does not work on Castorice as she does not use Energy. Lastly, Castorice's SPD can fluctuate in battle, often leading to unreliable SPD tuning while you have to wait for Sunday's turn before detonating Netherwing. When pairing them together, make sure to save Sunday's Ultimate until Netherwing is summoned, and wait until Netherwing receives Sunday's Skill buff before detonating.\n Ruan Mei - Strong generic support, mostly known for the teamwide Weakness Break Efficiency buffs, which can be tremendous in Break-oriented gamemodes such as Apocalyptic Shadows. Can also provide a teamwide SPD buff, which is useful for higher healing output on Hyacine.\n Gallagher - Much weaker alternative healer to Hyacine. Gallagher boasts high healing outputs but is reliant on enemy count and debuff uptime in order to perform. His healing debuff can trigger for every attacked enemy, leading to a ton of Charges for Castorice. This is most notable with Tribbie, who can frequently launch AoE attacks to trigger this healing. Although against Pure Fiction or frail enemies, they can easily lose the debuff.\n Luocha - Luocha, like Gallagher, comes with on-hit healing capabilties in the form of his healing field, scaling with the amount of ally targets. This give him a distinct advantage in modes where Gallagher is unable to maintain his Ultimate debuff on enemies. When playing Luocha with Castorice, focus on maximizing his healing output by stacking ATK% and Outgoing Healing Bonus.\n Mydei - Mydei can also be paired with Castorice in a dual DPS setup since they can benefit from each other. Castorice's massive HP drain helps charge up Mydei's \"Godslayer Be God\" attacks, and she can also provide a 20% All-Type RES reduction (provided that Netherwing is maintained on the field) and she increases DMG dealt by all allies by 10% when Netherwing is summoned. Mydei in return takes more DMG than usual due to his 0 DEF and has self-HP drain that also charge Castorice's Ultimate.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 2\n App. rate: 23.72 %\n Avg. cycles : 7.24\n Avg. cycles (E1+): 3.81\n\n Rank 9\n App. rate: 4.29 %\n Avg. cycles : 8.35\n Avg. cycles (E1+): 4.82\n\n Rank 21\n App. rate: 1.3 %\n Avg. cycles : 8.67\n Avg. cycles (E1+): 6.42\n\n Rank 22\n App. rate: 1.23 %\n Avg. cycles : 8.41\n Avg. cycles (E1+): 6.47\n\n Rank 44\n App. rate: 0.49 %\n Avg. cycles : 9.5\n Avg. cycles (E1+): 6.75\n\n Rank 48\n App. rate: 0.46 %\n Avg. cycles : 8.21\n Avg. cycles (E1+): 6.83\n\n Rank 95\n App. rate: 0.18 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.67\n\n Rank 132\n App. rate: 0.11 %\n Avg. cycles : 10\n Avg. cycles (E1+): 5.93\n\n New\n\n Rank 185\n App. rate: 0.07 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.09\n\n Rank 202\n App. rate: 0.06 %\n Avg. cycles : 10\n Avg. cycles (E1+): 3.89\n\n New\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

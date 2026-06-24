@@ -1,0 +1,287 @@
+{
+  "id": "characters:norma",
+  "provider": "Prydwen",
+  "game": "zzz",
+  "gameName": "Zenless Zone Zero",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "norma",
+  "name": "Norma",
+  "title": "Norma Best Build Guide",
+  "sourcePath": "/zenless/characters/norma",
+  "contentStatus": "beta",
+  "statusLabels": [
+    "3.0"
+  ],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "07/June/2026",
+  "meta": {
+    "title": "Norma Best Build Guide | Zenless Zone Zero",
+    "description": ""
+  },
+  "facts": {
+    "attribute": "Fire",
+    "specialty": "Stun",
+    "faction": "External Strategy Department",
+    "rarity": "S"
+  },
+  "assets": [
+    {
+      "id": "37b562dcffd6",
+      "sourceHash": "37b562dcffd6",
+      "kind": "characters",
+      "name": "Character",
+      "fileStem": "norma-card",
+      "path": "Prydwen/zzz/assets/characters/norma-card-37b562dcffd6.webp",
+      "width": 370,
+      "height": 512
+    },
+    {
+      "id": "59d53db87dea",
+      "sourceHash": "59d53db87dea",
+      "kind": "icons",
+      "name": "S",
+      "fileStem": "rarity-s",
+      "path": "Prydwen/zzz/assets/icons/s-59d53db87dea.webp",
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "b6f384983a36",
+      "sourceHash": "b6f384983a36",
+      "kind": "icons",
+      "name": "Stun",
+      "fileStem": "style-stun",
+      "path": "Prydwen/zzz/assets/icons/stun-b6f384983a36.webp",
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "f4dbe2ca9e48",
+      "sourceHash": "f4dbe2ca9e48",
+      "kind": "characters",
+      "name": "Norma",
+      "fileStem": "norma-full",
+      "path": "Prydwen/zzz/assets/characters/norma-f4dbe2ca9e48.webp",
+      "width": 600,
+      "height": 750
+    }
+  ],
+  "sections": [
+    {
+      "id": "norma-best-build-guide-0",
+      "level": 1,
+      "heading": "Norma Best Build Guide",
+      "text": "Last updated: 07/June/2026",
+      "assets": [
+        {
+          "id": "37b562dcffd6",
+          "sourceHash": "37b562dcffd6",
+          "kind": "characters",
+          "name": "Character",
+          "fileStem": "norma-card",
+          "path": "Prydwen/zzz/assets/characters/norma-card-37b562dcffd6.webp",
+          "width": 370,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Norma from ZZZ (Zenless Zone Zero). Norma is an rank character with the Fire attribute who belongs to the Stun Specialty and who is part of the External Strategy Department faction.\n\n To learn more about Norma check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": [
+        {
+          "id": "59d53db87dea",
+          "sourceHash": "59d53db87dea",
+          "kind": "icons",
+          "name": "S",
+          "fileStem": "rarity-s",
+          "path": "Prydwen/zzz/assets/icons/s-59d53db87dea.webp",
+          "width": 30,
+          "height": 30
+        },
+        {
+          "id": "b6f384983a36",
+          "sourceHash": "b6f384983a36",
+          "kind": "icons",
+          "name": "Stun",
+          "fileStem": "style-stun",
+          "path": "Prydwen/zzz/assets/icons/stun-b6f384983a36.webp",
+          "width": 30,
+          "height": 30
+        }
+      ]
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "This character has no video guide yet.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "To learn more about Norma check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile",
+      "assets": []
+    },
+    {
+      "id": "core-skills-9",
+      "level": 2,
+      "heading": "Core skills",
+      "text": "Norma core skills aren't available yet. They will be added once more information about the character are released.",
+      "assets": []
+    },
+    {
+      "id": "skills-10",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Norma skills aren't available yet. They will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "mindscapes-11",
+      "level": 2,
+      "heading": "Mindscapes",
+      "text": "Norma Mindscape information aren't available yet. They will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "stats-level-60-12",
+      "level": 2,
+      "heading": "Stats (Level 60)",
+      "text": "Norma stats aren't available yet. They will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "voice-actors-13",
+      "level": 2,
+      "heading": "Voice Actors",
+      "text": "ENG\n Madeline Dorroh\n\n JPN\n Izumi Fuka\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-14",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "f4dbe2ca9e48",
+          "sourceHash": "f4dbe2ca9e48",
+          "kind": "characters",
+          "name": "Norma",
+          "fileStem": "norma-full",
+          "path": "Prydwen/zzz/assets/characters/norma-f4dbe2ca9e48.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "ratings-15",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Norma ratings aren't available yet. They will be added as soon as it is possible.",
+      "assets": []
+    },
+    {
+      "id": "pros-cons-16",
+      "level": 2,
+      "heading": "Pros & Cons",
+      "text": "Norma pros & cons aren't available yet. They will be added when the character is released.",
+      "assets": []
+    },
+    {
+      "id": "review-17",
+      "level": 2,
+      "heading": "Review",
+      "text": "Norma review isn't available yet. It will be added soon!\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "best-build-18",
+      "level": 2,
+      "heading": "Best Build",
+      "text": "Norma build information aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-19",
+      "level": 2,
+      "heading": "Skill priority",
+      "text": "Norma skill priority information aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "video-guides-20",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "Norma guide videos aren't available yet.\n\n Teams & Synergy",
+      "assets": []
+    },
+    {
+      "id": "synergy-21",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Below we list only the most important synergies for Norma . The character can work with others if you know what to do and how to use them.\n\n Norma synergy information aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "teams-shiyu-defense-22",
+      "level": 2,
+      "heading": "Teams (Shiyu Defense)",
+      "text": "This section lists most popular teams featuring Norma in the current phase of Shiyu Defense.\n There are no teams featuring Norma who have cleared Shiyu Defense in the current cycle.",
+      "assets": []
+    },
+    {
+      "id": "teams-deadly-assault-23",
+      "level": 2,
+      "heading": "Teams (Deadly Assault)",
+      "text": "This section lists most popular teams featuring Norma in the current phase of Deadly Assault.\n There are no teams featuring Norma who have cleared Deadly Assault in the current cycle.",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "skill-priority": {
+      "label": "Skill priority",
+      "sections": [
+        {
+          "heading": "Skill priority",
+          "text": "Norma skill priority information aren't available yet. They will be added soon.",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Below we list only the most important synergies for Norma . The character can work with others if you know what to do and how to use them.\n\n Norma synergy information aren't available yet. They will be added soon.",
+          "assets": []
+        }
+      ]
+    },
+    "teams": {
+      "label": "Teams",
+      "sections": [
+        {
+          "heading": "Teams (Shiyu Defense)",
+          "text": "This section lists most popular teams featuring Norma in the current phase of Shiyu Defense.\n There are no teams featuring Norma who have cleared Shiyu Defense in the current cycle.",
+          "assets": []
+        },
+        {
+          "heading": "Teams (Deadly Assault)",
+          "text": "This section lists most popular teams featuring Norma in the current phase of Deadly Assault.\n There are no teams featuring Norma who have cleared Deadly Assault in the current cycle.",
+          "assets": []
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Norma Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Norma\n Norma Best Build Guide\n Last updated: 07/June/2026\n\n Introduction\n Best guide and build for Norma from ZZZ (Zenless Zone Zero). Norma is an rank character with the Fire attribute who belongs to the Stun Specialty and who is part of the External Strategy Department faction.\n\n To learn more about Norma check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n This character has no video guide yet.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Norma check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n Norma core skills aren't available yet. They will be added once more information about the character are released.\n\n Skills\n Norma skills aren't available yet. They will be added soon!\n\n Mindscapes\n Norma Mindscape information aren't available yet. They will be added soon!\n\n Stats (Level 60)\n Norma stats aren't available yet. They will be added soon!\n\n Voice Actors\n ENG\n Madeline Dorroh\n\n JPN\n Izumi Fuka\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Norma ratings aren't available yet. They will be added as soon as it is possible.\n\n Pros & Cons\n Norma pros & cons aren't available yet. They will be added when the character is released.\n\n Review\n Norma review isn't available yet. It will be added soon!\n\n Build and teams\n\n Best Build\n Norma build information aren't available yet. They will be added soon.\n\n Skill priority\n Norma skill priority information aren't available yet. They will be added soon.\n\n Video guides\n Norma guide videos aren't available yet.\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Norma . The character can work with others if you know what to do and how to use them.\n\n Norma synergy information aren't available yet. They will be added soon.\n\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Norma in the current phase of Shiyu Defense.\n There are no teams featuring Norma who have cleared Shiyu Defense in the current cycle.\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Norma in the current phase of Deadly Assault.\n There are no teams featuring Norma who have cleared Deadly Assault in the current cycle."
+}

@@ -10,6 +10,9 @@ const root = path.resolve(__dirname, '..', '..');
 // scraper's publish gate and this display filter, so they never disagree.
 const require = createRequire(import.meta.url);
 const { isUsefulReward: isUsefulRewardShared } = require(path.resolve(root, 'Scraper', 'codes', 'reward-vocab.cjs'));
+// Banner timeline reflow + freshness — shared with the scraper so the deployed
+// site never shows an expired/empty phase as the live banner (see normalize.cjs).
+const { reflowBannerGroup } = require(path.resolve(root, 'Scraper', 'banners', 'normalize.cjs'));
 const siteDir = path.resolve(root, 'Site');
 const generatedDataDir = path.resolve(siteDir, 'src', 'data', 'generated');
 const dbDir = path.resolve(root, 'Database');
@@ -479,6 +482,37 @@ function loadHsrSignatureLightConeMap() {
 
 const WIKI_TITLE_CACHE = loadWikiTitleCache();
 const GENSHIN_BIRTHDAY_ART = loadGenshinBirthdayArtMap();
+// G31: GI character namecards (wide banner art), keyed normName(name) -> asset path.
+const GENSHIN_NAMECARD_ART = (() => {
+  const rel = 'GenshinWiki/namecards/manifest.json';
+  const map = new Map();
+  if (!exists(rel)) return map;
+  for (const [key, relPath] of Object.entries(readJson(rel) || {})) {
+    const asset = dbAsset(relPath);
+    if (key && asset) map.set(key, asset);
+  }
+  return map;
+})();
+// G37: Endfield skill icons scraped from endfield.wiki.gg, keyed normKey(name) -> [Basic, Skill, Combo, Ult].
+const ENDFIELD_SKILL_ICONS = (() => {
+  const rel = 'EndfieldWiki/endfield/skill-icons/manifest.json';
+  const map = new Map();
+  if (!exists(rel)) return map;
+  for (const [key, arr] of Object.entries(readJson(rel) || {})) {
+    const icons = (arr || []).map((p) => (p ? dbAsset(p) : null));
+    if (icons.some(Boolean)) map.set(key, icons);
+  }
+  return map;
+})();
+// G37/ZZZ: the 5 skill-type icons are SHARED across all agents (Basic / Dodge /
+// Assist / Special Attack / Chain Attack), sourced from static.nanoka.cc.
+const ZZZ_SKILL_ICONS = [
+  'Nanoka/zzz/assets/skills/Icon_Normal.webp',
+  'Nanoka/zzz/assets/skills/Icon_Evade.webp',
+  'Nanoka/zzz/assets/skills/Icon_Switch.webp',
+  'Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp',
+  'Nanoka/zzz/assets/skills/Icon_UltimateReady.webp',
+].map((p) => dbAsset(p));
 const HSR_HOLIDAY_ART = loadHsrHolidayArtMap();
 const HSR_SIGNATURE_LIGHT_CONES = loadHsrSignatureLightConeMap();
 
@@ -1158,6 +1192,7 @@ function buildGiRoster() {
         iconZoom,
         art: dbAsset(ch.assets?.gacha || ch.assets?.card || ch.assets?.circle || ch.assets?.icon),
         birthdayArtPool: birthdayArtPool.length ? birthdayArtPool : undefined,
+        namecard: GENSHIN_NAMECARD_ART.get(nameKey) || undefined,
         ...(skillIcons.length ? { skillIcons } : {}),
         book,
         ...(signature ? {
@@ -1338,6 +1373,37 @@ function hsrSignatureForCharacter(name, pathName) {
   if (!candidates.length) return null;
   if (!pathName) return candidates[0];
   return candidates.find((lc) => lc.path === pathName) || null;
+}
+
+// The 4 main traces map to skill_trees point01-04 (Basic ATK / Skill / Ultimate
+// / Talent). Each level under a point carries the same skill `icon` (upstream
+// names it .png; the scraped assets are .webp). Returns a 4-slot array aligned
+// to CM_TALENT_CFG.hsr so the popout shows [skill icon][number] like Genshin.
+function hsrSkillIcons(raw) {
+  const POINTS = ['point01', 'point02', 'point03', 'point04'];
+  const icons = POINTS.map((pk) => {
+    const point = raw?.skill_trees?.[pk];
+    if (!point) return null;
+    const lv = point['1'] || Object.values(point)[0];
+    const icon = lv?.icon;
+    if (!icon) return null;
+    return dbAsset(`Nanoka/hsr/assets/skills/${String(icon).replace(/\.(png|jpe?g)$/i, '.webp')}`);
+  });
+  return icons.some(Boolean) ? icons : [];
+}
+
+function buildHsrSkillIconMap() {
+  const out = new Map();
+  if (!exists(`Nanoka/hsr/${nch()}/characters.json`)) return out;
+  for (const ch of readJson(`Nanoka/hsr/${nch()}/characters.json`)) {
+    const rawRel = `Nanoka/hsr/${nch()}/raw/characters/${ch.id}.json`;
+    if (!ch?.name || !exists(rawRel)) continue;
+    const icons = hsrSkillIcons(readJson(rawRel));
+    if (!icons.length) continue;
+    out.set(String(ch.name).toLowerCase(), icons);
+    out.set(normKey(ch.name), icons);
+  }
+  return out;
 }
 
 function buildHsrReqMap() {
@@ -1560,7 +1626,40 @@ function buildWuwaReqMap() {
   return out;
 }
 
-function buildPrydwenRoster(game, mapFacts, reqByName = null) {
+// G37/WuWa: the 5 core skills carry an Unreal icon path in raw.skill_trees;
+// map it to the locally-scraped webp under Nanoka/ww/assets/skills.
+function wuwaSkillIcons(raw) {
+  const ORDER = ['Normal Attack', 'Resonance Skill', 'Resonance Liberation', 'Forte Circuit', 'Intro Skill'];
+  const byType = {};
+  for (const node of Object.values(raw?.skill_trees || {})) {
+    const t = node?.skill?.type, ic = node?.skill?.icon;
+    if (t && ic && !byType[t]) byType[t] = ic;
+  }
+  const icons = ORDER.map((t) => {
+    const ic = byType[t];
+    if (!ic) return null;
+    const p = String(ic).replace(/^\/Game\/Aki\/UI\//, '').split('.')[0];
+    const rel = `Nanoka/ww/assets/skills/${p}.webp`;
+    return exists(rel) ? dbAsset(rel) : null;
+  });
+  return icons.some(Boolean) ? icons : [];
+}
+
+function buildWuwaSkillIconMap() {
+  const out = new Map();
+  if (!exists(`Nanoka/ww/${nch()}/characters.json`)) return out;
+  for (const ch of readJson(`Nanoka/ww/${nch()}/characters.json`)) {
+    const rawRel = `Nanoka/ww/${nch()}/raw/characters/${ch.id}.json`;
+    if (!ch?.name || !exists(rawRel)) continue;
+    const icons = wuwaSkillIcons(readJson(rawRel));
+    if (!icons.length) continue;
+    out.set(String(ch.name).toLowerCase(), icons);
+    out.set(normKey(ch.name), icons);
+  }
+  return out;
+}
+
+function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName = null) {
   const overlayGame = game === 'ww' ? 'wuwa' : game;
   const overlay = localAvatarOverlay(game);
   const rawChars = readJson(`Prydwen/${game}/characters.json`);
@@ -1570,6 +1669,7 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null) {
     const mapped = mapFacts(ch.facts || {});
     const local = overlay.get(normKey(ch.name));
     const req = reqByName?.get(String(ch.name || '').toLowerCase()) || reqByName?.get(normKey(ch.name)) || null;
+    const skillIcons = skillIconsByName?.get(String(ch.name || '').toLowerCase()) || skillIconsByName?.get(normKey(ch.name)) || (game === 'zzz' ? ZZZ_SKILL_ICONS : null);
     const signatureLightCone = game === 'hsr' ? hsrSignatureForCharacter(ch.name, mapped.path) : null;
     const signatureReq = signatureLightCone ? hsrLightConeReqByName.get(normKey(signatureLightCone.name)) : null;
     const holidayArtPool = game === 'hsr' ? (HSR_HOLIDAY_ART.get(normKey(ch.name)) || []) : [];
@@ -1625,9 +1725,39 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null) {
       status: ch.contentStatus,
       labels: ch.statusLabels || [],
       ...mapped,
+      ...(skillIcons ? { skillIcons } : {}),
       ...(mergedReq ? { req: mergedReq } : {}),
     };
   });
+  // G38: in the BETA channel, surface Nanoka beta-only ZZZ agents (e.g. Sigrid) that
+  // Prydwen doesn't carry yet, so a zzz beta delta is produced and the Live/Beta toggle
+  // appears. Live channel stays filtered to Prydwen∩Nanoka (no unreleased placeholders).
+  if (game === 'zzz' && NANOKA_CHANNEL === 'beta' && exists(`Nanoka/zzz/${nch()}/agents.json`)) {
+    const have = new Set(chars.map((c) => normKey(c.n)));
+    const firstVal = (v) => (v && typeof v === 'object' ? Object.values(v)[0] : v);
+    for (const ag of readJson(`Nanoka/zzz/${nch()}/agents.json`)) {
+      if (String(ag.contentStatus || '').toLowerCase() !== 'beta') continue;
+      const display = String(ag.name || '').replace(/^Avatar_\w+_Size\d+_/, '').replace(/_En$/, '').replace(/_/g, ' ').trim();
+      if (!display || have.has(normKey(display))) continue;
+      have.add(normKey(display));
+      const req = reqByName?.get(String(ag.name || '').toLowerCase()) || reqByName?.get(normKey(ag.name)) || null;
+      const icon = dbAsset(ag.assets?.icon);
+      chars.push({
+        id: `zzz-${ag.id}`,
+        n: display,
+        updated: Number.MAX_SAFE_INTEGER, // newest → leads the recent strip
+        sourceOrder: 0,
+        icon,
+        art: icon,
+        card: icon,
+        r: Number(ag.rarity) >= 5 ? 'S' : 'A',
+        el: firstVal(ag.element) || 'Unknown',
+        spec: firstVal(ag.specialty) || undefined,
+        status: 'beta',
+        ...(req ? { req } : {}),
+      });
+    }
+  }
   if (game === 'ww') {
     chars.sort((a, b) => (b.sourceOrder || 0) - (a.sourceOrder || 0) || rarityScore(b.r) - rarityScore(a.r) || a.n.localeCompare(b.n));
   } else {
@@ -1810,6 +1940,7 @@ function buildEndfieldRoster() {
       icon: dbAsset(ch.art?.icon?.path || ch.art?.icon || ch.art?.card),
       art: dbAsset(ch.art?.splash?.path || ch.art?.banner?.path || ch.art?.full || ch.art?.card || ch.art?.icon?.path),
       card: dbAsset(ch.art?.banner?.path || ch.art?.portrait?.path || ch.art?.splash?.path || ch.art?.card),
+      skillIcons: ENDFIELD_SKILL_ICONS.get(normKey(ch.name)) || undefined,
       aePreferredItems: preferredWeapons,
       aeSkillItems: skillItems.length ? skillItems : preferredWeapons,
       aeStatItems: statItems,
@@ -2560,10 +2691,19 @@ function normalizeBannerCharacter(rosters, key, entry) {
   const name = typeof entry === 'string' ? entry : entry?.name;
   if (!name) return null;
   const local = rosterHit(rosters, key, name);
+  // The banner scraper already enriched each character with a nanoka CDN icon
+  // (`image` / `imageFallback`). Fall back to those when the local roster has no
+  // hit — otherwise the icon goes null and the renderer shows one shared game
+  // art for every card (the "all banners show the same face" bug).
+  const entryImage = typeof entry === 'object' ? (entry.image || entry.icon || null) : null;
+  const entryFallback = typeof entry === 'object' ? (entry.imageFallback || null) : null;
   return {
     name,
-    icon: local?.icon || null,
-    art: local?.art || local?.card || null,
+    icon: local?.icon || entryImage || null,
+    iconFallback: entryFallback || null,
+    iconZoom: typeof entry === 'object' ? !!entry.imageFallbackZoom : false,
+    art: local?.art || local?.card || entryImage || null,
+    namecard: local?.namecard || null, // G31: GI banner art prefers the namecard
     rarity: local?.r || entry?.rarity || null,
   };
 }
@@ -2591,17 +2731,22 @@ function normalizeBannerPhase(rosters, key, phase) {
 function buildBannersData(rosters) {
   if (!exists('Banners/banners.json')) return { updated: null, games: {} };
   const src = readJson('Banners/banners.json');
+  const now = Date.now();
   const games = {};
   for (const group of src.games || []) {
     const key = gameKey(group.id || group.slug || group.name);
     if (!key) continue;
-    games[key] = {
+    // 1) Normalize each phase's characters (roster art + scraper CDN icons).
+    const normalized = {
       name: group.name,
       freshness: group.freshness || null,
       current: normalizeBannerPhase(rosters, key, group.current),
       next: normalizeBannerPhase(rosters, key, group.next),
       upcoming: (group.upcoming || []).map((phase) => normalizeBannerPhase(rosters, key, phase)),
     };
+    // 2) Re-thread current/next/upcoming from the timeline and compute honest
+    //    freshness (drops expired-as-current, merges identical windows).
+    games[key] = reflowBannerGroup(normalized, now);
   }
   return { updated: src.updated || src.generatedAt || null, checkedAt: src.checkedAt || null, games };
 }
@@ -2704,9 +2849,9 @@ function buildRostersForChannel(channel) {
   try {
     const rawRosters = {
       gi: buildGiRoster(),
-      hsr: buildPrydwenRoster('hsr', (f) => ({ r: f.rarity, el: f.element, path: f.path }), buildHsrReqMap()),
+      hsr: buildPrydwenRoster('hsr', (f) => ({ r: f.rarity, el: f.element, path: f.path }), buildHsrReqMap(), buildHsrSkillIconMap()),
       zzz: buildPrydwenRoster('zzz', (f) => ({ r: f.rarity, el: f.attribute, spec: f.specialty, tag: f.faction }), buildZzzReqMap()),
-      wuwa: buildPrydwenRoster('ww', (f) => ({ r: f.rarity, el: f.element, w: f.weapon }), buildWuwaReqMap()),
+      wuwa: buildPrydwenRoster('ww', (f) => ({ r: f.rarity, el: f.element, w: f.weapon }), buildWuwaReqMap(), buildWuwaSkillIconMap()),
       ae: buildEndfieldRoster(),
     };
     return Object.fromEntries(

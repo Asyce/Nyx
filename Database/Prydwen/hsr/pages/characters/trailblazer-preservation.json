@@ -1,0 +1,1065 @@
+{
+  "id": "characters:trailblazer-preservation",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "trailblazer-preservation",
+  "name": "Trailblazer • Preservation",
+  "title": "Trailblazer • Preservation Best Build Guide",
+  "sourcePath": "/star-rail/characters/trailblazer-preservation",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "31/May/2026",
+  "meta": {
+    "title": "Trailblazer • Preservation Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Fire",
+    "path": "Preservation"
+  },
+  "assets": [
+    {
+      "id": "81565a7917de",
+      "sourceHash": "81565a7917de",
+      "kind": "characters",
+      "name": "Trailblazer • Preservation",
+      "fileStem": "trailblazer-preservation-card",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-preservation-81565a7917de.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "a6be649090ba",
+      "sourceHash": "a6be649090ba",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "dc6aec4a7776",
+      "sourceHash": "dc6aec4a7776",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "96654253a4f7",
+      "sourceHash": "96654253a4f7",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "087f2dec68b6",
+      "sourceHash": "087f2dec68b6",
+      "kind": "icons",
+      "name": "Speed",
+      "fileStem": "stat-speed",
+      "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "50d0e755383a",
+      "sourceHash": "50d0e755383a",
+      "kind": "items",
+      "name": "Credit",
+      "fileStem": "credit",
+      "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "2a36d7503b78",
+      "sourceHash": "2a36d7503b78",
+      "kind": "items",
+      "name": "Thief's Instinct",
+      "fileStem": "thiefs-instinct",
+      "path": "Prydwen/hsr/assets/items/thiefs-instinct-2a36d7503b78.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "4c97e0301bf1",
+      "sourceHash": "4c97e0301bf1",
+      "kind": "items",
+      "name": "Usurper's Scheme",
+      "fileStem": "usurpers-scheme",
+      "path": "Prydwen/hsr/assets/items/usurpers-scheme-4c97e0301bf1.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "6d928784c7af",
+      "sourceHash": "6d928784c7af",
+      "kind": "items",
+      "name": "Enigmatic Ectostella",
+      "fileStem": "enigmatic-ectostella",
+      "path": "Prydwen/hsr/assets/items/enigmatic-ectostella-6d928784c7af.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "393bf9ccb2d2",
+      "sourceHash": "393bf9ccb2d2",
+      "kind": "items",
+      "name": "Conqueror's Will",
+      "fileStem": "conquerors-will",
+      "path": "Prydwen/hsr/assets/items/conquerors-will-393bf9ccb2d2.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "eab569c8a012",
+      "sourceHash": "eab569c8a012",
+      "kind": "characters",
+      "name": "Trailblazer • Preservation",
+      "fileStem": "trailblazer-preservation-full",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-preservation-eab569c8a012.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "4f23d40c871a",
+      "sourceHash": "4f23d40c871a",
+      "kind": "light-cones",
+      "name": "Moment of Victory",
+      "fileStem": "moment-of-victory",
+      "path": "Prydwen/hsr/assets/light-cones/moment-of-victory-4f23d40c871a.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "b8452a2f7f19",
+      "sourceHash": "b8452a2f7f19",
+      "kind": "light-cones",
+      "name": "Landau's Choice",
+      "fileStem": "landaus-choice",
+      "path": "Prydwen/hsr/assets/light-cones/landaus-choice-b8452a2f7f19.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "60f4dabfc5ec",
+      "sourceHash": "60f4dabfc5ec",
+      "kind": "light-cones",
+      "name": "Texture of Memories",
+      "fileStem": "texture-of-memories",
+      "path": "Prydwen/hsr/assets/light-cones/texture-of-memories-60f4dabfc5ec.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "efced2539770",
+      "sourceHash": "efced2539770",
+      "kind": "light-cones",
+      "name": "Day One of My New Life",
+      "fileStem": "day-one-of-my-new-life",
+      "path": "Prydwen/hsr/assets/light-cones/day-one-of-my-new-life-efced2539770.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "d4e3fea9be5f",
+      "sourceHash": "d4e3fea9be5f",
+      "kind": "light-cones",
+      "name": "Trend of the Universal Market",
+      "fileStem": "trend-of-the-universal-market",
+      "path": "Prydwen/hsr/assets/light-cones/trend-of-the-universal-market-d4e3fea9be5f.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "3b0bb61766cf",
+      "sourceHash": "3b0bb61766cf",
+      "kind": "relics",
+      "name": "Knight of Purity Palace",
+      "fileStem": "knight-of-purity-palace",
+      "path": "Prydwen/hsr/assets/relics/knight-of-purity-palace-3b0bb61766cf.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "ff71f6760eca",
+      "sourceHash": "ff71f6760eca",
+      "kind": "relics",
+      "name": "Guard of Wuthering Snow",
+      "fileStem": "guard-of-wuthering-snow",
+      "path": "Prydwen/hsr/assets/relics/guard-of-wuthering-snow-ff71f6760eca.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "4cb8065ad660",
+      "sourceHash": "4cb8065ad660",
+      "kind": "relics",
+      "name": "Messenger Traversing Hackerspace",
+      "fileStem": "messenger-traversing-hackerspace",
+      "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5cb190fcc346",
+      "sourceHash": "5cb190fcc346",
+      "kind": "relics",
+      "name": "Sacerdos' Relived Ordeal",
+      "fileStem": "sacerdos-relived-ordeal",
+      "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "3306e6f6288f",
+      "sourceHash": "3306e6f6288f",
+      "kind": "relics",
+      "name": "Broken Keel",
+      "fileStem": "broken-keel",
+      "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5b886a96e17a",
+      "sourceHash": "5b886a96e17a",
+      "kind": "relics",
+      "name": "Fleet of the Ageless",
+      "fileStem": "fleet-of-the-ageless",
+      "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d6cdb5f16b16",
+      "sourceHash": "d6cdb5f16b16",
+      "kind": "relics",
+      "name": "Penacony, Land of the Dreams",
+      "fileStem": "penacony-land-of-the-dreams",
+      "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d6aae5028c5a",
+      "sourceHash": "d6aae5028c5a",
+      "kind": "relics",
+      "name": "Lushaka, the Sunken Seas",
+      "fileStem": "lushaka-the-sunken-seas",
+      "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "83d3d255b767",
+      "sourceHash": "83d3d255b767",
+      "kind": "icons",
+      "name": "Fire DMG",
+      "fileStem": "stat-firedmg",
+      "path": "Prydwen/hsr/assets/icons/fire-dmg-83d3d255b767.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "106ddd8eff32",
+      "sourceHash": "106ddd8eff32",
+      "kind": "icons",
+      "name": "Energy Regen",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "fbcfe4133d08",
+      "sourceHash": "fbcfe4133d08",
+      "kind": "characters",
+      "name": "Acheron",
+      "fileStem": "acheron-icon",
+      "path": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp",
+      "width": 45,
+      "height": 45
+    }
+  ],
+  "sections": [
+    {
+      "id": "trailblazer-preservation-best-build-guide-0",
+      "level": 1,
+      "heading": "Trailblazer • Preservation Best Build Guide",
+      "text": "Last updated: 31/May/2026",
+      "assets": [
+        {
+          "id": "81565a7917de",
+          "sourceHash": "81565a7917de",
+          "kind": "characters",
+          "name": "Trailblazer • Preservation",
+          "fileStem": "trailblazer-preservation-card",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-preservation-81565a7917de.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Trailblazer • Preservation from HSR (Honkai: Star Rail). Trailblazer • Preservation is a 5 ★ character from the Fire element who follows the Path of Preservation .\n A girl/boy who boarded the Astral Express. They chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.\n\n To learn more about Trailblazer • Preservation check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Trailblazer • Preservation has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 2.6\n\n Last major build/calcs update\n Patch 4.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Trailblazer • Preservation check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic ATK\n Ice-Breaking Light\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Fire DMG equal to #1[i]% of the Trailblazer's ATK to a single enemy and gains 1 stack of Magma Will.\n Basic ATK (Enhanced)\n Ice-Breaking Light\n Blast\n\n Lv. 1\n\n Energy gain: 30\n Break: 20 + 10 adjacent\n\n Consumes 4 stacks of Magma Will to enhance Basic ATK, dealing Fire DMG equal to #1[i]% of the Trailblazer's ATK to a single enemy and Fire DMG to equal to #2[i]% of the Trailblazer's ATK to enemies adjacent to it.\n\n Skill\n Ever-Burning Amber\n Defense\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Increases the Trailblazer's DMG Reduction by #1[i]% and gains 1 stack of Magma Will, with a #2[i]% base chance to Taunt all enemies for #3[i] turn(s).\n\n Ultimate\n War-Flaming Lance\n AoE | 120 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Deals Fire DMG equal to #1[i]% of the Trailblazer's ATK plus #2[i]% of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.\n\n Talent\n Treasure of the Architects\n Enhance\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of #3[i] stack(s).\nWhen Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it.\nWhen the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to #1[i]% of the Trailblazer's DEF plus #4[i]. The Shield lasts for #2[i] turn(s).\n\n Technique\n Call of the Guardian\n Defense\n\n Energy gain: 0\n Break: -\n\n After using Technique, at the start of the next battle, gains a Shield that absorbs DMG equal to #1[i]% of the Trailblazer's DEF plus #2[i] for #3[i] turn(s).",
+      "assets": []
+    },
+    {
+      "id": "major-traces-10",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "A2 Major trace\n The Strong Defend the Weak\n\n After using the Skill, the DMG taken by all allies reduces by 15% for 1 turn(s).\n\n A4 Major trace\n Unwavering Gallantry\n\n Using Enhanced Basic ATK restores the Trailblazer's HP by 5% of their Max HP.\n\n A6 Major trace\n Action Beats Overthinking\n\n When the Trailblazer is protected by a Shield at the beginning of the turn, increases ATK by 15% and regenerates 5 Energy until the action is over.",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-11",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "DEF\n + 35%\n\n ATK\n + 18%\n\n HP\n + 10%",
+      "assets": [
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "eidolons-12",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "E 1\n Earth-Shaking Resonance\n Eidolon 1\n\n When the Trailblazer uses their Basic ATK, additionally deals Fire DMG equal to 25% of the Trailblazer's DEF. When the Trailblazer uses their enhanced Basic ATK, deal Additional Fire DMG equal to 50% of the Trailblazer's DEF.\n\n E 2\n Time-Defying Tenacity\n Eidolon 2\n\n The Shield applied to all allies from the Trailblazer's Talent will block extra DMG equal to 2% of the Trailblazer's DEF plus 27 .\n\n E 3\n Trail-Blazing Blueprint\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 4\n Nation-Building Oath\n Eidolon 4\n\n At the start of the battle, immediately gains 4 stack(s) of Magma Will.\n\n E 5\n Spirit-Warming Flame\n Eidolon 5\n\n Ultimate Lv. + 2 , up to a maximum of Lv. 15 . Basic ATK Lv. + 1 , up to a maximum of Lv. 10 .\n\n E 6\n City-Forging Bulwarks\n Eidolon 6\n\n After the Trailblazer use enhanced Basic ATK or Ultimate, their DEF increases by 10% . Stacks up to 3 time(s).",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-13",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Enable Ascension",
+      "assets": []
+    },
+    {
+      "id": "level-80-stats-14",
+      "level": 5,
+      "heading": "Level 80 stats",
+      "text": "HP\n\n 1241\n\n ATK\n\n 601\n\n DEF\n\n 606\n\n Speed\n\n 95",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "level-1-80-ascension-materials-15",
+      "level": 5,
+      "heading": "Level 1 → 80 Ascension Materials",
+      "text": "Credit\n\n x 246400\n\n Thief's Instinct\n\n x 12\n\n Usurper's Scheme\n\n x 13\n\n Enigmatic Ectostella\n\n x 28\n\n Conqueror's Will\n\n x 12",
+      "assets": [
+        {
+          "id": "50d0e755383a",
+          "sourceHash": "50d0e755383a",
+          "kind": "items",
+          "name": "Credit",
+          "fileStem": "credit",
+          "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "2a36d7503b78",
+          "sourceHash": "2a36d7503b78",
+          "kind": "items",
+          "name": "Thief's Instinct",
+          "fileStem": "thiefs-instinct",
+          "path": "Prydwen/hsr/assets/items/thiefs-instinct-2a36d7503b78.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "4c97e0301bf1",
+          "sourceHash": "4c97e0301bf1",
+          "kind": "items",
+          "name": "Usurper's Scheme",
+          "fileStem": "usurpers-scheme",
+          "path": "Prydwen/hsr/assets/items/usurpers-scheme-4c97e0301bf1.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "6d928784c7af",
+          "sourceHash": "6d928784c7af",
+          "kind": "items",
+          "name": "Enigmatic Ectostella",
+          "fileStem": "enigmatic-ectostella",
+          "path": "Prydwen/hsr/assets/items/enigmatic-ectostella-6d928784c7af.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "393bf9ccb2d2",
+          "sourceHash": "393bf9ccb2d2",
+          "kind": "items",
+          "name": "Conqueror's Will",
+          "fileStem": "conquerors-will",
+          "path": "Prydwen/hsr/assets/items/conquerors-will-393bf9ccb2d2.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "cv-16",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n Rachael Chau | Caleb Yen\n\n JPN\n Ishikawa Yui (石川 由依) | Enoki Junya (榎木 淳弥)\n\n CN\n Chen Tingting (陈婷婷) | Qin Juge (秦且歌)\n\n KR\n Kim Ha-ru (김하루) | Kim Myung-jun (김명준)",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "eab569c8a012",
+          "sourceHash": "eab569c8a012",
+          "kind": "characters",
+          "name": "Trailblazer • Preservation",
+          "fileStem": "trailblazer-preservation-full",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-preservation-eab569c8a012.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Decent support with consistent shielding,\n\n Versatile build paths for the heavily invested,\n\n High Toughness damage for a support,\n\n AoE Taunt ability invalidates some enemies.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Harmony Trailblazer exist and they are vastly superior,\n\n Value drops as the player gains more defensive options,\n\n Cannot Taunt without expending Skill Points.",
+      "assets": []
+    },
+    {
+      "id": "review-by-sushou-21",
+      "level": 2,
+      "heading": "Review (By Sushou)",
+      "text": "The Preservation version of the Trailblazer deals decent damage for a defensive unit and quite significant Toughness damage as well. They also offer small but consistent party-wide shields at no additional cost. They are able to circumvent enemy lock-ons and unfavourable targeting through their Skill, taunting enemies and provoking them into attacking only the Trailblazer. Later on, they are able to provide teamwide damage reduction that can significantly reduce damage from hard hitting enemy and Boss AoE attacks.\n Following the very epic events on Jarilo-VI, the players gain access to the Preservation flavour of the Trailblazer. This is a unit that attempts to consolidate defensive utility with damage and Toughness damage. Compared to the Destruction variant, this ends up being significantly more successful, and is a version of the Trailblazer that still sees quite widespread use even now when far more (and far more powerful) sustain characters exist.\n The big draw of the Preservation Trailblazer is their Talent. After using any action, be it a Basic ATK, Skill, or Ultimate, the Trailblazer will apply a shield to all allies for up to 6% of their DEF plus 80, lasting for 2 turns. This is not a large shield by any stretch of the imagination, even at unreasonable DEF values, but the cool part is that it is reapplied by any action, meaning these shields are quite good at dealing with small but frequent sources of damage; even though these shields are unlikely to fully mitigate any attack in the late game, the damage that does end spilling over will be significantly reduced.\n The Trailblazer also gains stacks of Magma Will whenever they are hit or use their Basic ATK or Skill, stacking up to 8 times. At 4 stacks, their Basic ATK will be Enhanced, becoming a Blast AoE that deals damage to adjacent foes as well. This Enhanced Basic also deals increased Toughness damage to the main target. This attack consumes the 4 stacks of Magma Will and will not add any back.\n The Trailblazer’s Ultimate deals damage to all enemies on the field, dealing up to 100% ATK plus 150% of the Trailblazer’s DEF. This also automatically Enhances the next Basic ATK at no cost. The upfront damage is certainly nice, but the more impactful aspect of this Ultimate is that it deals 60 Toughness damage to all enemies on the field and also counts towards activating the Talent, meaning it is possible to activate this during the enemy’s turn to refresh the shields in a pinch.\n Their Skill assumes a defensive stance, reducing incoming damage by up to 50% and having a 100% base chance to Taunt all enemies for 1 turn. This provoke is how the Trailblazer can circumvent lock-ons and redirect strong damage, so that in the inevitable situation where your Foxian teammates end up taking The World’s damage, you have an opportunity to prevent that from resulting in their death. The base chance is high, but on its own is insufficient to provide a true 100% chance of provoking enemies, especially at higher levels and in later stages of Memory of Chaos.\n It is not (always) fatal if you do not land the Taunt, as their A2 Bonus Ability Trace provides a 15% damage reduction for the rest of the team for 1 turn whenever the Trailblazer uses their Skill, meaning even if the enemy cannot be made to attack them specifically, the damage reduction on top of the Talent’s shields will do a great job at protecting the other party members. Their A4 restores 5% Max HP whenever they use an Enhanced Basic, and then A6 provides a very tangible 5 Energy per turn so long as the Trailblazer remains shielded. It also provides a very not-tangible 15% ATK increase.\n As is the case with the Trailblazer being the main character, you are going to gain access to all of their Eidolons over time by just playing. Unlike the Destruction variant, these Eidolons are actually quite compelling. E1 makes their Basic ATK and Enhanced Basic have additional DEF% scaling, 25% and 50% respectively. This is ultimately pretty negligible unless you’re building for more of a bruiser type of Preservation Trailblazer, in which case it can actually be a pretty significant increase to their overall damage contribution.\n E4 grants 4 stacks of Magma Will at the start of a fight, but E2 and E6 are the big big ones. E2 increases the value of the Talent’s shields by an extra 2% DEF plus 27, for a new total value of 8% plus 107. While still rather paltry shields compared to the ones that someone like Gepard can provide, you should remember that these are entirely free shields that are refreshed upon every action of the Trailblazer. E6 will increase the Trailblazer’s DEF by 10% for every Enhanced Basic ATK or Ultimate they use, up to 30%, providing yet further bonuses to their kit.\n In the early and mid game, the shields provided by the Preservation Trailblazer are more than enough on their own to completely stifle enemy damage, as the base values are quite high at that point. Later on, however, this starts to be less and less true, as enemy damage starts to climb extraordinarily quickly, enough that if your focus is shielding, you better be damn sure that those shields can endure at least a few attacks before getting broken. Even with the quick reapplication, even singular attacks from non-Elite enemies can easily do in the thousands of damage, far more than the Trailblazer will ever be able to mitigate within reason; for context, you’d need to hit 5-digit DEF values for the shields to be able to exceed 1000, and that’s not happening, even inside the Simulated Universe.\n As such, the Preservation Trailblazer is not able to remain the solo sustain unit of a team unless the player is exceptionally brave. Even then, it remains inadvisable in most cases. There are a few enemies who get completely shafted by a Taunt, like Voidranger Tramplers or Malefic Apes, and in cases where they are the main threats of an encounter, Preservation Trailblazer can actually be a suitable stand-in for a proper sustain unit. Do note that in these cases, they are very SP negative, as their Taunt requires they spend Skill Points, so keep this in mind when building a team around their Taunt.\n It is an ultimately inescapable fate that the Preservation Trailblazer will see less and less use over time, both for you specifically, and for the general playerbase. Players nowadays have access to stronger, more versatile, and more interesting characters, and team slots are invariably limited to a maximum of four. The days of shoddy sustain units are largely behind us, and with them goes one of the most compelling reasons to use Preservation Trailblazer.\n As with the Destruction Trailblazer, investing a lot into Preservation Trailblazer is not advised because the Harmony Trailblazer exist. There's a vast gulf between the Harmony and the two other paths available to the Trailblazer and it's honestly a waste to invest anything into them.\n … The Ultimate animation will always be top tier, though.",
+      "assets": []
+    },
+    {
+      "id": "ratings-22",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.",
+      "assets": []
+    },
+    {
+      "id": "sustain-23",
+      "level": 5,
+      "heading": "Sustain",
+      "text": "T5\n MoC\n\n T5\n PF\n\n T5\n AS\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "best-light-cones-25",
+      "level": 2,
+      "heading": "Best Light Cones",
+      "text": "1\n\n Moment of Victory (S 1 )\n\n Provides a permanent Taunting effect on the wearer, increasing the chance they'll be attacked dramatically. This effect and the DEF bonuses make this Cone a very powerful choice for most Preservation characters.\n\n 2\n\n Landau's Choice (S 5 )\n\n An alternative to Moment of Victory with DMG% Reduction instead of DEF% scaling. Primarily useful for characters that specifically want to redirect and mitigate hits.\n\n 3\n\n Texture of Memories (S 5 )\n\n Survival focused Cone useful for characters that have kits themed around taking and mitigating damage for the team, especially if they have limited or conditional sustain/shielding options of their own.\n\n 4\n\n Day One of My New Life (S 5 )\n\n Decent option based on its team-wide damage reduction and good stats for DEF% scaling characters.",
+      "assets": [
+        {
+          "id": "4f23d40c871a",
+          "sourceHash": "4f23d40c871a",
+          "kind": "light-cones",
+          "name": "Moment of Victory",
+          "fileStem": "moment-of-victory",
+          "path": "Prydwen/hsr/assets/light-cones/moment-of-victory-4f23d40c871a.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "b8452a2f7f19",
+          "sourceHash": "b8452a2f7f19",
+          "kind": "light-cones",
+          "name": "Landau's Choice",
+          "fileStem": "landaus-choice",
+          "path": "Prydwen/hsr/assets/light-cones/landaus-choice-b8452a2f7f19.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "60f4dabfc5ec",
+          "sourceHash": "60f4dabfc5ec",
+          "kind": "light-cones",
+          "name": "Texture of Memories",
+          "fileStem": "texture-of-memories",
+          "path": "Prydwen/hsr/assets/light-cones/texture-of-memories-60f4dabfc5ec.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "efced2539770",
+          "sourceHash": "efced2539770",
+          "kind": "light-cones",
+          "name": "Day One of My New Life",
+          "fileStem": "day-one-of-my-new-life",
+          "path": "Prydwen/hsr/assets/light-cones/day-one-of-my-new-life-efced2539770.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "specialist-light-cones-26",
+      "level": 3,
+      "heading": "Specialist Light Cones",
+      "text": "1\n\n Trend of the Universal Market (S 1 )\n\n Utility option useful in teams that thrive on having multiple debuffs on enemies or applying debuffs frequently. Grants solid stats for DEF scaling characters. Most notably used to great effect in Acheron teams as it generates her charges each time the wearer is hit.",
+      "assets": [
+        {
+          "id": "d4e3fea9be5f",
+          "sourceHash": "d4e3fea9be5f",
+          "kind": "light-cones",
+          "name": "Trend of the Universal Market",
+          "fileStem": "trend-of-the-universal-market",
+          "path": "Prydwen/hsr/assets/light-cones/trend-of-the-universal-market-d4e3fea9be5f.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-relic-sets-28",
+      "level": 2,
+      "heading": "Best Relic Sets",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Knight of Purity Palace ( 4 -PC)\n\n Best defensive-focused set option for all Shield based characters.\n 2\n\n Knight of Purity Palace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Guard of Wuthering Snow\n\n Messenger Traversing Hackerspace\n\n Sacerdos' Relived Ordeal",
+      "assets": [
+        {
+          "id": "3b0bb61766cf",
+          "sourceHash": "3b0bb61766cf",
+          "kind": "relics",
+          "name": "Knight of Purity Palace",
+          "fileStem": "knight-of-purity-palace",
+          "path": "Prydwen/hsr/assets/relics/knight-of-purity-palace-3b0bb61766cf.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "ff71f6760eca",
+          "sourceHash": "ff71f6760eca",
+          "kind": "relics",
+          "name": "Guard of Wuthering Snow",
+          "fileStem": "guard-of-wuthering-snow",
+          "path": "Prydwen/hsr/assets/relics/guard-of-wuthering-snow-ff71f6760eca.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "4cb8065ad660",
+          "sourceHash": "4cb8065ad660",
+          "kind": "relics",
+          "name": "Messenger Traversing Hackerspace",
+          "fileStem": "messenger-traversing-hackerspace",
+          "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "5cb190fcc346",
+          "sourceHash": "5cb190fcc346",
+          "kind": "relics",
+          "name": "Sacerdos' Relived Ordeal",
+          "fileStem": "sacerdos-relived-ordeal",
+          "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-planetary-sets-29",
+      "level": 6,
+      "heading": "Best Planetary Sets",
+      "text": "1\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.",
+      "assets": [
+        {
+          "id": "3306e6f6288f",
+          "sourceHash": "3306e6f6288f",
+          "kind": "relics",
+          "name": "Broken Keel",
+          "fileStem": "broken-keel",
+          "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "5b886a96e17a",
+          "sourceHash": "5b886a96e17a",
+          "kind": "relics",
+          "name": "Fleet of the Ageless",
+          "fileStem": "fleet-of-the-ageless",
+          "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "d6cdb5f16b16",
+          "sourceHash": "d6cdb5f16b16",
+          "kind": "relics",
+          "name": "Penacony, Land of the Dreams",
+          "fileStem": "penacony-land-of-the-dreams",
+          "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "d6aae5028c5a",
+          "sourceHash": "d6aae5028c5a",
+          "kind": "relics",
+          "name": "Lushaka, the Sunken Seas",
+          "fileStem": "lushaka-the-sunken-seas",
+          "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-stats-31",
+      "level": 2,
+      "heading": "Best Stats",
+      "text": "Body\n DEF%\n\n Feet\n Speed\n >= DEF%\n\n Planar Sphere\n DEF%\n >= Fire DMG\n\n Link Rope\n Energy Regen Rate\n >= DEF%\n\n Substats: Effect RES until 30% (if running Broken Keel) > Speed > DEF% > HP% > Effect Hit Rate\n\n This build focuses on Taunting and team utility while still trying to obtain decent Shield capacity.\n\n Trailblazer • Preservation endgame stats aren't available yet.",
+      "assets": [
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "83d3d255b767",
+          "sourceHash": "83d3d255b767",
+          "kind": "icons",
+          "name": "Fire DMG",
+          "fileStem": "stat-firedmg",
+          "path": "Prydwen/hsr/assets/icons/fire-dmg-83d3d255b767.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "106ddd8eff32",
+          "sourceHash": "106ddd8eff32",
+          "kind": "icons",
+          "name": "Energy Regen",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "traces-priority-32",
+      "level": 2,
+      "heading": "Traces priority",
+      "text": "Skills priority: Ultimate > Talent > Basic > Skill\n\n Major Traces priority: The Strong Defend the Weak > Action Beats Overthinking > Unwavering Gallantry",
+      "assets": []
+    },
+    {
+      "id": "synergy-33",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Acheron - Probably one of the last main synergies for Fire Trailblazer after Harmony Trailblazer has come out. Fire Trailblazer is able to provide the best taunt in the game as well as utilise the Trend Light Cone and stack an immense amount of debuffs for Acheron to use her Ultimate much more frequently.",
+      "assets": [
+        {
+          "id": "fbcfe4133d08",
+          "sourceHash": "fbcfe4133d08",
+          "kind": "characters",
+          "name": "Acheron",
+          "fileStem": "acheron-icon",
+          "path": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp",
+          "width": 45,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "id": "anomaly-arbitration-38",
+      "level": 6,
+      "heading": "Anomaly Arbitration",
+      "text": "No teams featuring this character with data for Memory of Chaos yet.",
+      "assets": []
+    },
+    {
+      "id": "video-guides-39",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "MoC/PF/AS Statistics",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-light-cones": {
+      "label": "Best Light Cones",
+      "sections": [
+        {
+          "heading": "Best Light Cones",
+          "text": "1\n\n Moment of Victory (S 1 )\n\n Provides a permanent Taunting effect on the wearer, increasing the chance they'll be attacked dramatically. This effect and the DEF bonuses make this Cone a very powerful choice for most Preservation characters.\n\n 2\n\n Landau's Choice (S 5 )\n\n An alternative to Moment of Victory with DMG% Reduction instead of DEF% scaling. Primarily useful for characters that specifically want to redirect and mitigate hits.\n\n 3\n\n Texture of Memories (S 5 )\n\n Survival focused Cone useful for characters that have kits themed around taking and mitigating damage for the team, especially if they have limited or conditional sustain/shielding options of their own.\n\n 4\n\n Day One of My New Life (S 5 )\n\n Decent option based on its team-wide damage reduction and good stats for DEF% scaling characters.",
+          "assets": [
+            {
+              "id": "4f23d40c871a",
+              "sourceHash": "4f23d40c871a",
+              "kind": "light-cones",
+              "name": "Moment of Victory",
+              "fileStem": "moment-of-victory",
+              "path": "Prydwen/hsr/assets/light-cones/moment-of-victory-4f23d40c871a.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "b8452a2f7f19",
+              "sourceHash": "b8452a2f7f19",
+              "kind": "light-cones",
+              "name": "Landau's Choice",
+              "fileStem": "landaus-choice",
+              "path": "Prydwen/hsr/assets/light-cones/landaus-choice-b8452a2f7f19.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "60f4dabfc5ec",
+              "sourceHash": "60f4dabfc5ec",
+              "kind": "light-cones",
+              "name": "Texture of Memories",
+              "fileStem": "texture-of-memories",
+              "path": "Prydwen/hsr/assets/light-cones/texture-of-memories-60f4dabfc5ec.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "efced2539770",
+              "sourceHash": "efced2539770",
+              "kind": "light-cones",
+              "name": "Day One of My New Life",
+              "fileStem": "day-one-of-my-new-life",
+              "path": "Prydwen/hsr/assets/light-cones/day-one-of-my-new-life-efced2539770.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-relic-sets": {
+      "label": "Best Relic Sets",
+      "sections": [
+        {
+          "heading": "Best Relic Sets",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Knight of Purity Palace ( 4 -PC)\n\n Best defensive-focused set option for all Shield based characters.\n 2\n\n Knight of Purity Palace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Guard of Wuthering Snow\n\n Messenger Traversing Hackerspace\n\n Sacerdos' Relived Ordeal",
+          "assets": [
+            {
+              "id": "3b0bb61766cf",
+              "sourceHash": "3b0bb61766cf",
+              "kind": "relics",
+              "name": "Knight of Purity Palace",
+              "fileStem": "knight-of-purity-palace",
+              "path": "Prydwen/hsr/assets/relics/knight-of-purity-palace-3b0bb61766cf.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "ff71f6760eca",
+              "sourceHash": "ff71f6760eca",
+              "kind": "relics",
+              "name": "Guard of Wuthering Snow",
+              "fileStem": "guard-of-wuthering-snow",
+              "path": "Prydwen/hsr/assets/relics/guard-of-wuthering-snow-ff71f6760eca.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "4cb8065ad660",
+              "sourceHash": "4cb8065ad660",
+              "kind": "relics",
+              "name": "Messenger Traversing Hackerspace",
+              "fileStem": "messenger-traversing-hackerspace",
+              "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "5cb190fcc346",
+              "sourceHash": "5cb190fcc346",
+              "kind": "relics",
+              "name": "Sacerdos' Relived Ordeal",
+              "fileStem": "sacerdos-relived-ordeal",
+              "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-planetary-sets": {
+      "label": "Best Planetary Sets",
+      "sections": [
+        {
+          "heading": "Best Planetary Sets",
+          "text": "1\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.",
+          "assets": [
+            {
+              "id": "3306e6f6288f",
+              "sourceHash": "3306e6f6288f",
+              "kind": "relics",
+              "name": "Broken Keel",
+              "fileStem": "broken-keel",
+              "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "5b886a96e17a",
+              "sourceHash": "5b886a96e17a",
+              "kind": "relics",
+              "name": "Fleet of the Ageless",
+              "fileStem": "fleet-of-the-ageless",
+              "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "d6cdb5f16b16",
+              "sourceHash": "d6cdb5f16b16",
+              "kind": "relics",
+              "name": "Penacony, Land of the Dreams",
+              "fileStem": "penacony-land-of-the-dreams",
+              "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "d6aae5028c5a",
+              "sourceHash": "d6aae5028c5a",
+              "kind": "relics",
+              "name": "Lushaka, the Sunken Seas",
+              "fileStem": "lushaka-the-sunken-seas",
+              "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-stats": {
+      "label": "Best Stats",
+      "sections": [
+        {
+          "heading": "Best Stats",
+          "text": "Body\n DEF%\n\n Feet\n Speed\n >= DEF%\n\n Planar Sphere\n DEF%\n >= Fire DMG\n\n Link Rope\n Energy Regen Rate\n >= DEF%\n\n Substats: Effect RES until 30% (if running Broken Keel) > Speed > DEF% > HP% > Effect Hit Rate\n\n This build focuses on Taunting and team utility while still trying to obtain decent Shield capacity.\n\n Trailblazer • Preservation endgame stats aren't available yet.",
+          "assets": [
+            {
+              "id": "a6be649090ba",
+              "sourceHash": "a6be649090ba",
+              "kind": "icons",
+              "name": "DEF",
+              "fileStem": "stat-def",
+              "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "087f2dec68b6",
+              "sourceHash": "087f2dec68b6",
+              "kind": "icons",
+              "name": "Speed",
+              "fileStem": "stat-speed",
+              "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "83d3d255b767",
+              "sourceHash": "83d3d255b767",
+              "kind": "icons",
+              "name": "Fire DMG",
+              "fileStem": "stat-firedmg",
+              "path": "Prydwen/hsr/assets/icons/fire-dmg-83d3d255b767.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "106ddd8eff32",
+              "sourceHash": "106ddd8eff32",
+              "kind": "icons",
+              "name": "Energy Regen",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        }
+      ]
+    },
+    "traces-priority": {
+      "label": "Traces priority",
+      "sections": [
+        {
+          "heading": "Traces priority",
+          "text": "Skills priority: Ultimate > Talent > Basic > Skill\n\n Major Traces priority: The Strong Defend the Weak > Action Beats Overthinking > Unwavering Gallantry",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Acheron - Probably one of the last main synergies for Fire Trailblazer after Harmony Trailblazer has come out. Fire Trailblazer is able to provide the best taunt in the game as well as utilise the Trend Light Cone and stack an immense amount of debuffs for Acheron to use her Ultimate much more frequently.",
+          "assets": [
+            {
+              "id": "fbcfe4133d08",
+              "sourceHash": "fbcfe4133d08",
+              "kind": "characters",
+              "name": "Acheron",
+              "fileStem": "acheron-icon",
+              "path": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp",
+              "width": 45,
+              "height": 45
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Trailblazer • Preservation Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Trailblazer • Preservation\n Trailblazer • Preservation Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Trailblazer • Preservation from HSR (Honkai: Star Rail). Trailblazer • Preservation is a 5 ★ character from the Fire element who follows the Path of Preservation .\n A girl/boy who boarded the Astral Express. They chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.\n\n To learn more about Trailblazer • Preservation check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Trailblazer • Preservation has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.6\n\n Last major build/calcs update\n Patch 4.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Trailblazer • Preservation check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Ice-Breaking Light\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Fire DMG equal to #1[i]% of the Trailblazer's ATK to a single enemy and gains 1 stack of Magma Will.\n Basic ATK (Enhanced)\n Ice-Breaking Light\n Blast\n\n Lv. 1\n\n Energy gain: 30\n Break: 20 + 10 adjacent\n\n Consumes 4 stacks of Magma Will to enhance Basic ATK, dealing Fire DMG equal to #1[i]% of the Trailblazer's ATK to a single enemy and Fire DMG to equal to #2[i]% of the Trailblazer's ATK to enemies adjacent to it.\n\n Skill\n Ever-Burning Amber\n Defense\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Increases the Trailblazer's DMG Reduction by #1[i]% and gains 1 stack of Magma Will, with a #2[i]% base chance to Taunt all enemies for #3[i] turn(s).\n\n Ultimate\n War-Flaming Lance\n AoE | 120 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Deals Fire DMG equal to #1[i]% of the Trailblazer's ATK plus #2[i]% of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.\n\n Talent\n Treasure of the Architects\n Enhance\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of #3[i] stack(s).\nWhen Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it.\nWhen the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to #1[i]% of the Trailblazer's DEF plus #4[i]. The Shield lasts for #2[i] turn(s).\n\n Technique\n Call of the Guardian\n Defense\n\n Energy gain: 0\n Break: -\n\n After using Technique, at the start of the next battle, gains a Shield that absorbs DMG equal to #1[i]% of the Trailblazer's DEF plus #2[i] for #3[i] turn(s).\n\n Major Traces\n A2 Major trace\n The Strong Defend the Weak\n\n After using the Skill, the DMG taken by all allies reduces by 15% for 1 turn(s).\n\n A4 Major trace\n Unwavering Gallantry\n\n Using Enhanced Basic ATK restores the Trailblazer's HP by 5% of their Max HP.\n\n A6 Major trace\n Action Beats Overthinking\n\n When the Trailblazer is protected by a Shield at the beginning of the turn, increases ATK by 15% and regenerates 5 Energy until the action is over.\n\n Minor Traces (total)\n DEF\n + 35%\n\n ATK\n + 18%\n\n HP\n + 10%\n\n Eidolons\n E 1\n Earth-Shaking Resonance\n Eidolon 1\n\n When the Trailblazer uses their Basic ATK, additionally deals Fire DMG equal to 25% of the Trailblazer's DEF. When the Trailblazer uses their enhanced Basic ATK, deal Additional Fire DMG equal to 50% of the Trailblazer's DEF.\n\n E 2\n Time-Defying Tenacity\n Eidolon 2\n\n The Shield applied to all allies from the Trailblazer's Talent will block extra DMG equal to 2% of the Trailblazer's DEF plus 27 .\n\n E 3\n Trail-Blazing Blueprint\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 4\n Nation-Building Oath\n Eidolon 4\n\n At the start of the battle, immediately gains 4 stack(s) of Magma Will.\n\n E 5\n Spirit-Warming Flame\n Eidolon 5\n\n Ultimate Lv. + 2 , up to a maximum of Lv. 15 . Basic ATK Lv. + 1 , up to a maximum of Lv. 10 .\n\n E 6\n City-Forging Bulwarks\n Eidolon 6\n\n After the Trailblazer use enhanced Basic ATK or Ultimate, their DEF increases by 10% . Stacks up to 3 time(s).\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1241\n\n ATK\n\n 601\n\n DEF\n\n 606\n\n Speed\n\n 95\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 246400\n\n Thief's Instinct\n\n x 12\n\n Usurper's Scheme\n\n x 13\n\n Enigmatic Ectostella\n\n x 28\n\n Conqueror's Will\n\n x 12\n\n CV\n ENG\n Rachael Chau | Caleb Yen\n\n JPN\n Ishikawa Yui (石川 由依) | Enoki Junya (榎木 淳弥)\n\n CN\n Chen Tingting (陈婷婷) | Qin Juge (秦且歌)\n\n KR\n Kim Ha-ru (김하루) | Kim Myung-jun (김명준)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Decent support with consistent shielding,\n\n Versatile build paths for the heavily invested,\n\n High Toughness damage for a support,\n\n AoE Taunt ability invalidates some enemies.\n\n Cons\n Harmony Trailblazer exist and they are vastly superior,\n\n Value drops as the player gains more defensive options,\n\n Cannot Taunt without expending Skill Points.\n\n Review (By Sushou)\n The Preservation version of the Trailblazer deals decent damage for a defensive unit and quite significant Toughness damage as well. They also offer small but consistent party-wide shields at no additional cost. They are able to circumvent enemy lock-ons and unfavourable targeting through their Skill, taunting enemies and provoking them into attacking only the Trailblazer. Later on, they are able to provide teamwide damage reduction that can significantly reduce damage from hard hitting enemy and Boss AoE attacks.\n Following the very epic events on Jarilo-VI, the players gain access to the Preservation flavour of the Trailblazer. This is a unit that attempts to consolidate defensive utility with damage and Toughness damage. Compared to the Destruction variant, this ends up being significantly more successful, and is a version of the Trailblazer that still sees quite widespread use even now when far more (and far more powerful) sustain characters exist.\n The big draw of the Preservation Trailblazer is their Talent. After using any action, be it a Basic ATK, Skill, or Ultimate, the Trailblazer will apply a shield to all allies for up to 6% of their DEF plus 80, lasting for 2 turns. This is not a large shield by any stretch of the imagination, even at unreasonable DEF values, but the cool part is that it is reapplied by any action, meaning these shields are quite good at dealing with small but frequent sources of damage; even though these shields are unlikely to fully mitigate any attack in the late game, the damage that does end spilling over will be significantly reduced.\n The Trailblazer also gains stacks of Magma Will whenever they are hit or use their Basic ATK or Skill, stacking up to 8 times. At 4 stacks, their Basic ATK will be Enhanced, becoming a Blast AoE that deals damage to adjacent foes as well. This Enhanced Basic also deals increased Toughness damage to the main target. This attack consumes the 4 stacks of Magma Will and will not add any back.\n The Trailblazer’s Ultimate deals damage to all enemies on the field, dealing up to 100% ATK plus 150% of the Trailblazer’s DEF. This also automatically Enhances the next Basic ATK at no cost. The upfront damage is certainly nice, but the more impactful aspect of this Ultimate is that it deals 60 Toughness damage to all enemies on the field and also counts towards activating the Talent, meaning it is possible to activate this during the enemy’s turn to refresh the shields in a pinch.\n Their Skill assumes a defensive stance, reducing incoming damage by up to 50% and having a 100% base chance to Taunt all enemies for 1 turn. This provoke is how the Trailblazer can circumvent lock-ons and redirect strong damage, so that in the inevitable situation where your Foxian teammates end up taking The World’s damage, you have an opportunity to prevent that from resulting in their death. The base chance is high, but on its own is insufficient to provide a true 100% chance of provoking enemies, especially at higher levels and in later stages of Memory of Chaos.\n It is not (always) fatal if you do not land the Taunt, as their A2 Bonus Ability Trace provides a 15% damage reduction for the rest of the team for 1 turn whenever the Trailblazer uses their Skill, meaning even if the enemy cannot be made to attack them specifically, the damage reduction on top of the Talent’s shields will do a great job at protecting the other party members. Their A4 restores 5% Max HP whenever they use an Enhanced Basic, and then A6 provides a very tangible 5 Energy per turn so long as the Trailblazer remains shielded. It also provides a very not-tangible 15% ATK increase.\n As is the case with the Trailblazer being the main character, you are going to gain access to all of their Eidolons over time by just playing. Unlike the Destruction variant, these Eidolons are actually quite compelling. E1 makes their Basic ATK and Enhanced Basic have additional DEF% scaling, 25% and 50% respectively. This is ultimately pretty negligible unless you’re building for more of a bruiser type of Preservation Trailblazer, in which case it can actually be a pretty significant increase to their overall damage contribution.\n E4 grants 4 stacks of Magma Will at the start of a fight, but E2 and E6 are the big big ones. E2 increases the value of the Talent’s shields by an extra 2% DEF plus 27, for a new total value of 8% plus 107. While still rather paltry shields compared to the ones that someone like Gepard can provide, you should remember that these are entirely free shields that are refreshed upon every action of the Trailblazer. E6 will increase the Trailblazer’s DEF by 10% for every Enhanced Basic ATK or Ultimate they use, up to 30%, providing yet further bonuses to their kit.\n In the early and mid game, the shields provided by the Preservation Trailblazer are more than enough on their own to completely stifle enemy damage, as the base values are quite high at that point. Later on, however, this starts to be less and less true, as enemy damage starts to climb extraordinarily quickly, enough that if your focus is shielding, you better be damn sure that those shields can endure at least a few attacks before getting broken. Even with the quick reapplication, even singular attacks from non-Elite enemies can easily do in the thousands of damage, far more than the Trailblazer will ever be able to mitigate within reason; for context, you’d need to hit 5-digit DEF values for the shields to be able to exceed 1000, and that’s not happening, even inside the Simulated Universe.\n As such, the Preservation Trailblazer is not able to remain the solo sustain unit of a team unless the player is exceptionally brave. Even then, it remains inadvisable in most cases. There are a few enemies who get completely shafted by a Taunt, like Voidranger Tramplers or Malefic Apes, and in cases where they are the main threats of an encounter, Preservation Trailblazer can actually be a suitable stand-in for a proper sustain unit. Do note that in these cases, they are very SP negative, as their Taunt requires they spend Skill Points, so keep this in mind when building a team around their Taunt.\n It is an ultimately inescapable fate that the Preservation Trailblazer will see less and less use over time, both for you specifically, and for the general playerbase. Players nowadays have access to stronger, more versatile, and more interesting characters, and team slots are invariably limited to a maximum of four. The days of shoddy sustain units are largely behind us, and with them goes one of the most compelling reasons to use Preservation Trailblazer.\n As with the Destruction Trailblazer, investing a lot into Preservation Trailblazer is not advised because the Harmony Trailblazer exist. There's a vast gulf between the Harmony and the two other paths available to the Trailblazer and it's honestly a waste to invest anything into them.\n … The Ultimate animation will always be top tier, though.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Sustain\n T5\n MoC\n\n T5\n PF\n\n T5\n AS\n\n Build and teams\n\n Best Light Cones\n\n 1\n\n Moment of Victory (S 1 )\n\n Provides a permanent Taunting effect on the wearer, increasing the chance they'll be attacked dramatically. This effect and the DEF bonuses make this Cone a very powerful choice for most Preservation characters.\n\n 2\n\n Landau's Choice (S 5 )\n\n An alternative to Moment of Victory with DMG% Reduction instead of DEF% scaling. Primarily useful for characters that specifically want to redirect and mitigate hits.\n\n 3\n\n Texture of Memories (S 5 )\n\n Survival focused Cone useful for characters that have kits themed around taking and mitigating damage for the team, especially if they have limited or conditional sustain/shielding options of their own.\n\n 4\n\n Day One of My New Life (S 5 )\n\n Decent option based on its team-wide damage reduction and good stats for DEF% scaling characters.\n\n Specialist Light Cones\n 1\n\n Trend of the Universal Market (S 1 )\n\n Utility option useful in teams that thrive on having multiple debuffs on enemies or applying debuffs frequently. Grants solid stats for DEF scaling characters. Most notably used to great effect in Acheron teams as it generates her charges each time the wearer is hit.\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Knight of Purity Palace ( 4 -PC)\n\n Best defensive-focused set option for all Shield based characters.\n 2\n\n Knight of Purity Palace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Guard of Wuthering Snow\n\n Messenger Traversing Hackerspace\n\n Sacerdos' Relived Ordeal\n\n Best Planetary Sets\n 1\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n\n Best Stats\n\n Body\n DEF%\n\n Feet\n Speed\n >= DEF%\n\n Planar Sphere\n DEF%\n >= Fire DMG\n\n Link Rope\n Energy Regen Rate\n >= DEF%\n\n Substats: Effect RES until 30% (if running Broken Keel) > Speed > DEF% > HP% > Effect Hit Rate\n\n This build focuses on Taunting and team utility while still trying to obtain decent Shield capacity.\n\n Trailblazer • Preservation endgame stats aren't available yet.\n\n Traces priority\n Skills priority: Ultimate > Talent > Basic > Skill\n\n Major Traces priority: The Strong Defend the Weak > Action Beats Overthinking > Unwavering Gallantry\n\n Synergy\n Acheron - Probably one of the last main synergies for Fire Trailblazer after Harmony Trailblazer has come out. Fire Trailblazer is able to provide the best taunt in the game as well as utilise the Trend Light Cone and stack an immense amount of debuffs for Acheron to use her Ultimate much more frequently.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n No teams featuring this character with data for Memory of Chaos yet.\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

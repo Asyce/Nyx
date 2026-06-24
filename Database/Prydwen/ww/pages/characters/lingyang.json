@@ -1,0 +1,1540 @@
+{
+  "id": "characters:lingyang",
+  "provider": "Prydwen",
+  "game": "ww",
+  "gameName": "Wuthering Waves",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "lingyang",
+  "name": "Lingyang",
+  "title": "Lingyang Best Build Guide",
+  "sourcePath": "/wuthering-waves/characters/lingyang",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "09/June/2026",
+  "meta": {
+    "title": "Lingyang Best Build Guide | Wuthering Waves (WuWa)",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Glacio",
+    "weapon": "Gauntlets"
+  },
+  "assets": [
+    {
+      "id": "b85e18b088e5",
+      "sourceHash": "b85e18b088e5",
+      "kind": "characters",
+      "name": "Lingyang",
+      "fileStem": "ling-card",
+      "path": "Prydwen/ww/assets/characters/lingyang-b85e18b088e5.webp",
+      "width": 210,
+      "height": 280
+    },
+    {
+      "id": "85054d52aec3",
+      "sourceHash": "85054d52aec3",
+      "kind": "icons",
+      "name": "Glacio",
+      "fileStem": "element-glacio",
+      "path": "Prydwen/ww/assets/icons/glacio-85054d52aec3.webp",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "5d2c60395865",
+      "sourceHash": "5d2c60395865",
+      "kind": "icons",
+      "name": "Glacio DMG",
+      "fileStem": "stat-ice",
+      "path": "Prydwen/ww/assets/icons/glacio-dmg-5d2c60395865.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "1e70b3adc860",
+      "sourceHash": "1e70b3adc860",
+      "kind": "icons",
+      "name": "ATK%",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "c26c1d310e90",
+      "sourceHash": "c26c1d310e90",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "aa019d34202f",
+      "sourceHash": "aa019d34202f",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "5a0b154cd3d8",
+      "sourceHash": "5a0b154cd3d8",
+      "kind": "icons",
+      "name": "Max Energy",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "39094c227806",
+      "sourceHash": "39094c227806",
+      "kind": "icons",
+      "name": "CRIT Rate",
+      "fileStem": "stat-crit",
+      "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "7e2bcd0760ca",
+      "sourceHash": "7e2bcd0760ca",
+      "kind": "icons",
+      "name": "CRIT DMG",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "94236abd3fdc",
+      "sourceHash": "94236abd3fdc",
+      "kind": "icons",
+      "name": "Healing",
+      "fileStem": "stat-heal",
+      "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "f48ff62c89aa",
+      "sourceHash": "f48ff62c89aa",
+      "kind": "categories",
+      "name": "Interactive Map",
+      "fileStem": "category-map",
+      "path": "Prydwen/ww/assets/categories/interactive-map-f48ff62c89aa.webp",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "id": "12be3e3b8011",
+      "sourceHash": "12be3e3b8011",
+      "kind": "characters",
+      "name": "Lingyang",
+      "fileStem": "lingyang-full",
+      "path": "Prydwen/ww/assets/characters/lingyang-12be3e3b8011.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "b07450491f2f",
+      "sourceHash": "b07450491f2f",
+      "kind": "weapons",
+      "name": "Moongazer's Sigil",
+      "fileStem": "21040046",
+      "path": "Prydwen/ww/assets/weapons/moongazers-sigil-b07450491f2f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "007d18a5154b",
+      "sourceHash": "007d18a5154b",
+      "kind": "weapons",
+      "name": "Blazing Justice",
+      "fileStem": "21040036",
+      "path": "Prydwen/ww/assets/weapons/blazing-justice-007d18a5154b.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ea93f302fdf1",
+      "sourceHash": "ea93f302fdf1",
+      "kind": "weapons",
+      "name": "Verity's Handle",
+      "fileStem": "21040016",
+      "path": "Prydwen/ww/assets/weapons/veritys-handle-ea93f302fdf1.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1d9fc851e8c3",
+      "sourceHash": "1d9fc851e8c3",
+      "kind": "weapons",
+      "name": "Tragicomedy",
+      "fileStem": "21040026",
+      "path": "Prydwen/ww/assets/weapons/tragicomedy-1d9fc851e8c3.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "4e021e35e328",
+      "sourceHash": "4e021e35e328",
+      "kind": "weapons",
+      "name": "Abyss Surges",
+      "fileStem": "21040015",
+      "path": "Prydwen/ww/assets/weapons/abyss-surges-4e021e35e328.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "be4f9e86be91",
+      "sourceHash": "be4f9e86be91",
+      "kind": "weapons",
+      "name": "Aether Strike",
+      "fileStem": "21040104",
+      "path": "Prydwen/ww/assets/weapons/aether-strike-be4f9e86be91.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d16f2ad97469",
+      "sourceHash": "d16f2ad97469",
+      "kind": "weapons",
+      "name": "Celestial Spiral",
+      "fileStem": "21040084",
+      "path": "Prydwen/ww/assets/weapons/celestial-spiral-d16f2ad97469.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "149a7a79da9a",
+      "sourceHash": "149a7a79da9a",
+      "kind": "weapons",
+      "name": "Hollow Mirage",
+      "fileStem": "21040064",
+      "path": "Prydwen/ww/assets/weapons/hollow-mirage-149a7a79da9a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "9bf05a62f031",
+      "sourceHash": "9bf05a62f031",
+      "kind": "weapons",
+      "name": "Stonard",
+      "fileStem": "21040074",
+      "path": "Prydwen/ww/assets/weapons/stonard-9bf05a62f031.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "5275e972617b",
+      "sourceHash": "5275e972617b",
+      "kind": "weapons",
+      "name": "Legend of Drunken Hero",
+      "fileStem": "21040094",
+      "path": "Prydwen/ww/assets/weapons/legend-of-drunken-hero-5275e972617b.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "423ea0547985",
+      "sourceHash": "423ea0547985",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-9",
+      "path": "Prydwen/ww/assets/icons/set-9-423ea0547985.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "6d0a97769954",
+      "sourceHash": "6d0a97769954",
+      "kind": "misc",
+      "name": "Mech Abomination",
+      "fileStem": "340000060",
+      "path": "Prydwen/ww/assets/misc/mech-abomination-6d0a97769954.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "bad07e5ac671",
+      "sourceHash": "bad07e5ac671",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-10",
+      "path": "Prydwen/ww/assets/icons/set-10-bad07e5ac671.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "1147a45ddfa7",
+      "sourceHash": "1147a45ddfa7",
+      "kind": "misc",
+      "name": "Sentry Construct",
+      "fileStem": "330000120",
+      "path": "Prydwen/ww/assets/misc/sentry-construct-1147a45ddfa7.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "145775e07fcb",
+      "sourceHash": "145775e07fcb",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-1",
+      "path": "Prydwen/ww/assets/icons/set-1-145775e07fcb.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "10348db5d3ac",
+      "sourceHash": "10348db5d3ac",
+      "kind": "misc",
+      "name": "Lampylumen Myriad",
+      "fileStem": "330000040",
+      "path": "Prydwen/ww/assets/misc/lampylumen-myriad-10348db5d3ac.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "e366b96f341c",
+      "sourceHash": "e366b96f341c",
+      "kind": "characters",
+      "name": "Lynae",
+      "fileStem": "lynae-icon",
+      "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "60fadd490017",
+      "sourceHash": "60fadd490017",
+      "kind": "characters",
+      "name": "Zhezhi",
+      "fileStem": "zhezhi-icon",
+      "path": "Prydwen/ww/assets/characters/zhezhi-60fadd490017.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "f3c8221757b4",
+      "sourceHash": "f3c8221757b4",
+      "kind": "characters",
+      "name": "Sanhua",
+      "fileStem": "sanhua-icon",
+      "path": "Prydwen/ww/assets/characters/sanhua-f3c8221757b4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1b2a8f336e3d",
+      "sourceHash": "1b2a8f336e3d",
+      "kind": "characters",
+      "name": "Verina",
+      "fileStem": "verina-icon",
+      "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d909de4aecde",
+      "sourceHash": "d909de4aecde",
+      "kind": "characters",
+      "name": "The Shorekeeper",
+      "fileStem": "the-shorekeeper-icon",
+      "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "dfacbe996a59",
+      "sourceHash": "dfacbe996a59",
+      "kind": "characters",
+      "name": "Lingyang",
+      "fileStem": "lingyang-icon",
+      "path": "Prydwen/ww/assets/characters/lingyang-dfacbe996a59.webp",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "id": "40d7023b51fa",
+      "sourceHash": "40d7023b51fa",
+      "kind": "characters",
+      "name": "Mornye",
+      "fileStem": "mornye-icon",
+      "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+      "width": 120,
+      "height": 120
+    }
+  ],
+  "sections": [
+    {
+      "id": "lingyang-best-build-guide-0",
+      "level": 1,
+      "heading": "Lingyang Best Build Guide",
+      "text": "Last updated: 09/June/2026",
+      "assets": [
+        {
+          "id": "b85e18b088e5",
+          "sourceHash": "b85e18b088e5",
+          "kind": "characters",
+          "name": "Lingyang",
+          "fileStem": "ling-card",
+          "path": "Prydwen/ww/assets/characters/lingyang-b85e18b088e5.webp",
+          "width": 210,
+          "height": 280
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Lingyang from WW (Wuthering Waves). Lingyang is a 5 ★ rarity character from the Glacio element who uses the Gauntlets type weapon.\n Lingyang is talented and friendly member of the Liondance Troupe in Jinzhou. His passion and courage are evident as he engages with humans, showcasing his impressive physical abilities. With his unique style, he embodies the spirit of Liondancing.\n\n To learn more about Lingyang check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": [
+        {
+          "id": "85054d52aec3",
+          "sourceHash": "85054d52aec3",
+          "kind": "icons",
+          "name": "Glacio",
+          "fileStem": "element-glacio",
+          "path": "Prydwen/ww/assets/icons/glacio-85054d52aec3.webp",
+          "width": 20,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "This character has no video guide yet.",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 1.3\n\n Last major build/calcs update\n Patch 2.6\n\n Last profile update*\n 09/June/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Lingyang check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Majestic Fists",
+      "assets": []
+    },
+    {
+      "id": "basic-attack-10",
+      "level": 5,
+      "heading": "Basic Attack",
+      "text": "Perform up to 5 attacks, dealing Glacio damage.",
+      "assets": []
+    },
+    {
+      "id": "basic-attack-feral-roars-11",
+      "level": 5,
+      "heading": "Basic Attack: Feral Roars",
+      "text": "After Resonance Skill Furious Punches is cast, Basic Attack V is replaced with Feral Roars, dealing Glacio damage.",
+      "assets": []
+    },
+    {
+      "id": "heavy-attack-12",
+      "level": 5,
+      "heading": "Heavy Attack",
+      "text": "Consume Stamina to attack the target, dealing Glacio damage.",
+      "assets": []
+    },
+    {
+      "id": "mid-air-attack-13",
+      "level": 5,
+      "heading": "Mid-air Attack",
+      "text": "Consume Stamina to perform a Mid-air Plunging Attack, dealing Glacio damage.",
+      "assets": []
+    },
+    {
+      "id": "dodge-counter-14",
+      "level": 5,
+      "heading": "Dodge Counter",
+      "text": "Use a Basic Attack after a successful Dodge to attack the target, dealing Glacio damage.\n\n Multipliers\n\n Resonance Skill\n Ancient Arts",
+      "assets": []
+    },
+    {
+      "id": "ancient-arts-15",
+      "level": 5,
+      "heading": "Ancient Arts",
+      "text": "Attack the target, dealing Glacio damage.",
+      "assets": []
+    },
+    {
+      "id": "furious-punches-16",
+      "level": 5,
+      "heading": "Furious Punches",
+      "text": "When Basic Attacks III, IV, or V or Basic Attack Feral Roars hits the target, Resonance Skill Ancient Arts is replaced with Resonance Skill Swift Punches. If Lingyang uses Basic Attack after casting Basic Attack Feral Roars and Resonance Skill Swift Punches, he will start from Basic Attack III.\n Lingyang's Resonance Skill will not reset his Basic Attack stage.\n\n Multipliers\n\n Resonance Liberation\n Strive: Lion's Vigor\n\n Attack the target, dealing Glacio damage , and receive the blessing of Lion's Vigor, which lasts for 14 seconds.",
+      "assets": []
+    },
+    {
+      "id": "lions-vigor-17",
+      "level": 5,
+      "heading": "Lion's Vigor",
+      "text": "Lingyang's Glacio DMG Bonus is increased by 50% ;\n\n Multipliers\n\n Forte Circuit\n Unification of Spirits",
+      "assets": []
+    },
+    {
+      "id": "heavy-attack-glorious-plunge-18",
+      "level": 5,
+      "heading": "Heavy Attack: Glorious Plunge",
+      "text": "When Lion's Spirit is full, use Heavy Attack to perform Glorious Plunge, dealing Glacio damage.",
+      "assets": []
+    },
+    {
+      "id": "mid-air-attack-tail-strike-19",
+      "level": 5,
+      "heading": "Mid-air Attack: Tail Strike",
+      "text": "When Lion's Spirit is not full, use Basic Attack after Heavy Attack to perform Tail Strike, dealing Glacio damage.",
+      "assets": []
+    },
+    {
+      "id": "striding-lion-20",
+      "level": 5,
+      "heading": "Striding Lion",
+      "text": "After casting Heavy Attack Glorious Plunge, enter Striding Lion state; After casting Intro Skill Lion Awakens or Resonance Liberation Strive: Lion's Vigor, if Lion's Spirit is full, use Basic Attack to enter Striding Lion state.\nIn the Striding Lion state: Attacks can be launched in mid-air. If you are back on the ground, use Heavy Attack Glorious Plunge to get back in the air.\n Lion's Spirit is continuously consumed, and the Striding Lion state ends in 5s after Lion's Spirit runs out; If Lingyang is in the Resonance Liberation Lion's Vigor state, the consumption speed of Lion's Spirit is reduced by 50% , extending Striding Lion state by up to 10s .\n Lingyang's Basic Attack is replaced with Basic Attack Feral Gyrate, which performs up to 2 consecutive attacks, dealing Glacio damage. Lingyang's Resonance Skill is replaced with Mountain Roamer, dealing Glacio damage.\nWhen Lion's Spirit is less than 10 , use Basic Attack to perform Stormy Kicks, dealing Glacio damage ; after performing Basic Attack Stormy Kicks, the Mid-air Attack Radiant Plunge becomes available. Concerto Energy is restored when Lion's Spirit is consumed.",
+      "assets": []
+    },
+    {
+      "id": "lions-spirit-21",
+      "level": 5,
+      "heading": "Lion's Spirit",
+      "text": "Lingyang can hold up to 100 Lion's Spirit. When casting Resonance Skill Furious Punches, Lion's Spirit is restored.\nWhen casting Intro Skill Lion Awakens, Lion's Spirit is restored. When casting Resonance Liberation Strive: Lion's Vigor, Lion's Spirit is restored.\n\n Multipliers\n\n Inherent Skill\n Lion's Pride\n\n The damage of the Intro Skill Lion Awakens is increased by 50%.\n\n Inherent Skill\n Diligent Practice\n\n Under the Striding Lion state, within 3s after each Basic Attack, the next Mountain Roamer will deal an additional Glacio damage , equal to 150% of Mountain Roamer damage, considered as Resonance Skill damage.\n\n Intro Skill\n Lion Awakens\n\n Lingyang appears and deals Glacio damage.\n\n Multipliers\n\n Outro Skill\n Frosty Marks\n\n Lingyang releases a shock wave centered on the skill target, dealing Glacio DMG equal to 587.94% of Lingyang's ATK to targets within the range.",
+      "assets": []
+    },
+    {
+      "id": "resonance-chain-dupes-22",
+      "level": 2,
+      "heading": "Resonance Chain (Dupes)",
+      "text": "S 1\n Sequence Node 1\n\n During Resonance Liberation Lion's Vigor, Lingyang's Anti-Interruption is enhanced.\n\n S 2\n Sequence Node 2\n\n Intro Skill Lion Awakens additionally recovers 10 Resonance Energy for Lingyang, triggered once every 20s .\n\n S 3\n Sequence Node 3\n\n During Resonance Liberation Lion's Vigor, Lingyang's Basic Attack DMG Bonus is increased by 20% , and Resonance Skill DMG Bonus increased by 10%.\n\n S 4\n Sequence Node 4\n\n Outro Skill Frosty Marks increases the Glacio DMG Bonus of all team members by 20% for 30s .\n\n S 5\n Sequence Node 5\n\n Resonance Liberation Strive: Lion's Vigor additionally deals Glacio DMG equal to 200% of Lingyang's ATK.\n\n S 6\n Sequence Node 6\n\n In the Forte Circuit Striding Lion state, during the first 3s after every Resonance Skill Mountain Roamer, the Basic Attack DMG Bonus for Lingyang's next Basic Attack is increased by 100% .",
+      "assets": []
+    },
+    {
+      "id": "minor-fortes-total-23",
+      "level": 2,
+      "heading": "Minor Fortes (Total)",
+      "text": "Glacio DMG\n + 12 %\n\n ATK%\n + 12 %",
+      "assets": [
+        {
+          "id": "5d2c60395865",
+          "sourceHash": "5d2c60395865",
+          "kind": "icons",
+          "name": "Glacio DMG",
+          "fileStem": "stat-ice",
+          "path": "Prydwen/ww/assets/icons/glacio-dmg-5d2c60395865.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "1e70b3adc860",
+          "sourceHash": "1e70b3adc860",
+          "kind": "icons",
+          "name": "ATK%",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "stats-24",
+      "level": 2,
+      "heading": "Stats",
+      "text": "Include minor fortes\n\n Lv. 90\n\n HP\n 10388\n\n ATK\n 438\n\n DEF\n 1210\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Glacio DMG\n 0 %",
+      "assets": [
+        {
+          "id": "c26c1d310e90",
+          "sourceHash": "c26c1d310e90",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "1e70b3adc860",
+          "sourceHash": "1e70b3adc860",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "aa019d34202f",
+          "sourceHash": "aa019d34202f",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "5a0b154cd3d8",
+          "sourceHash": "5a0b154cd3d8",
+          "kind": "icons",
+          "name": "Max Energy",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "39094c227806",
+          "sourceHash": "39094c227806",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "7e2bcd0760ca",
+          "sourceHash": "7e2bcd0760ca",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "94236abd3fdc",
+          "sourceHash": "94236abd3fdc",
+          "kind": "icons",
+          "name": "Healing",
+          "fileStem": "stat-heal",
+          "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "5d2c60395865",
+          "sourceHash": "5d2c60395865",
+          "kind": "icons",
+          "name": "Glacio",
+          "fileStem": "stat-ice",
+          "path": "Prydwen/ww/assets/icons/glacio-5d2c60395865.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "character-ascension-total-26",
+      "level": 5,
+      "heading": "Character Ascension (total)",
+      "text": "4 x LF Whisperin Core\n 12 x MF Whisperin Core\n 12 x HF Whisperin Core\n 4 x FF Whisperin Core\n 46 x Sound-Keeping Tacet Core\n 60 x Coriolus\n 170 000 Shell Credits",
+      "assets": []
+    },
+    {
+      "id": "skill-upgrades-total-27",
+      "level": 5,
+      "heading": "Skill Upgrades (total)",
+      "text": "25 x LF Whisperin Core\n 28 x MF Whisperin Core\n 40 x HF Whisperin Core\n 57 x FF Whisperin Core\n 25 x Cadence Seed\n 28 x Cadence Bud\n 55 x Cadence Leaf\n 67 x Cadence Blossom\n 26 x Unending Destruction\n 2 030 000 Shell Credits\n\n While the source of the materials can be quickly found in the game, when it comes Coriolus you will have to gather them from the map. Check our Interactive map to find them quickly:\n\n Interactive Map",
+      "assets": [
+        {
+          "id": "f48ff62c89aa",
+          "sourceHash": "f48ff62c89aa",
+          "kind": "categories",
+          "name": "Interactive Map",
+          "fileStem": "category-map",
+          "path": "Prydwen/ww/assets/categories/interactive-map-f48ff62c89aa.webp",
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "voice-actors-28",
+      "level": 2,
+      "heading": "Voice Actors",
+      "text": "ENG\n Aleksander Varadian\n\n JPN\n Natsuki Hanae\n\n CN\n Koi\n\n KR\n Lee Sang-ho",
+      "assets": []
+    },
+    {
+      "id": "gallery-29",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "12be3e3b8011",
+          "sourceHash": "12be3e3b8011",
+          "kind": "characters",
+          "name": "Lingyang",
+          "fileStem": "lingyang-full",
+          "path": "Prydwen/ww/assets/characters/lingyang-12be3e3b8011.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "ratings-30",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.",
+      "assets": []
+    },
+    {
+      "id": "dps-31",
+      "level": 5,
+      "heading": "DPS",
+      "text": "T3\n Tower of Adversity\n\n T4\n Whimpering Wastes",
+      "assets": []
+    },
+    {
+      "id": "dps-33",
+      "level": 5,
+      "heading": "DPS",
+      "text": "T4\n Tower of Adversity (Value)\n\n T4\n Whimpering Wastes (Value)",
+      "assets": []
+    },
+    {
+      "id": "pros-35",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Can Fly!\n\n Unique playstyle not found anywhere else\n\n Gains the most free stats from his baseline S0 kit of any character thanks to his Ultimate boost\n\n Button mashing combo that is hard to mess up\n\n Can juggle enemies in the air (excluding elites and bosses), comboing them continuously and rendering them immobile\n\n Can ignore some boss and enemy mechanics while in the air",
+      "assets": []
+    },
+    {
+      "id": "cons-36",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Falls slightly behind other damage dealers with a similar role\n\n Flying can be disorienting for some players\n\n Flying mobility is somewhat limited, making dodging, retargeting and moving while airborne harder without practice\n\n Some bosses have unusual hitboxes which can make striking them while airborne a challenge, resulting in damage losses\n\n Takes more time to get used to and learn than many other characters",
+      "assets": []
+    },
+    {
+      "id": "review-37",
+      "level": 2,
+      "heading": "Review",
+      "text": "Lingyang is a 5-star Glacio Gauntlet wielder DPS that is most often played in Hyper Carry teams. As Lingyang deals the majority of his damage during his Ultimate burst window, which takes up a considerable amount of field time incentivizing him being played with supports to buff him to the max before using his Ultimate Skill. Lingyang also has very little incentive to switch out during his Ultimate burst window with it often resulting in a damage loss meaning you’ll want to pair him with characters that can give him the field time he needs.\n Lingyang recharges his Forte Gauge with his second Resonance Skill, Intro Skill and Ultimate Skill, though an interesting thing to note is that his Forte Gauge can be completely filled by performing his Intro followed by his Ultimate Skill once. This allows players to bypass having to use his Basic Attacks and Resonance Skill to generate Forte Gauge. Once full, he can perform a Heavy Attack to enter Striding Lion state, sending him airborne and enhancing all of his abilities for a short duration. It is during this state that Lingyang’s DPS potential is at maximum and should be played attentively giving him all the buffs and support he needs during it.\n Lingyang features two Resonance Skills with no cooldown. The first Resonance Skill; Ancient Arts is a simple punch that deals a small amount of Glacio damage to its target, though it is rarely used. His second Resonance Skill; Furious Punches can be only utilized after he has either used Basic Attack 3/4/5 or his Special Basic Attack - Feral Roars. This skill also deals a small amount of Glacio damage, however it generates a significant amount of his Forte Gauge along with allowing him to follow it up with Basic Attack 3 directly. This allows you to quickly juggle his Basic Attack 3 and Furious Punches, quickly filling his Forte Gauge.\n His Ultimate deals a large strike in front of him, causing Glacio damage, generating Concerto Energy and a major portion of his Forte Gauge. It also increases his Glacio damage by 50% and further empowers his Forte Gauge empowerment to increase its duration.\n In regards to field time, he is required to stay for the entire duration of his Ultimate enhanced Forte, which allows him to bring solid burst damage during this window. He has a unique aerial combat flair which while makes you immune to some ground attacks, also makes some significantly harder to dodge in return. This can be a drawback of his combat style, as it takes time to become accustomed to it, making actions like hitting enemies, repositioning and target changes harder to execute. Similar to Jiyan, he lacks the opportunity to leave the field mid-rotation as it causes him to lose a considerable amount of damage, making him more suited to the Hyper Carry archetype as mentioned earlier.\n Lingyang is a mixed bag when it comes to play difficulty. On one hand, he is easy to play in the sense that all he requires is building enough Resonance Energy to use his Ultimate then unload all the attacks he can to maximize his damage during the burst window. On other hand, his unique Aerial combat makes it rough to navigate him, and it takes extra practice to master. Having to learn timing to dodge attacks and discern which attacks will hit you or not while airborne contributes massively to his low usage among players.\n As a Main DPS he will prefer damage maximization. As such, you can equip him with damage-focused Echo and set.\n Overall, due to Lingyang’s damage being on the lower side of 5-stars, combined with his unique airborne gameplay that requires extra work to manage, he lags behind in usage compared to most other DPS in endgame.",
+      "assets": []
+    },
+    {
+      "id": "video-guides-38",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "Lingyang guide videos aren't available yet.\n\n Build",
+      "assets": []
+    },
+    {
+      "id": "best-weapons-39",
+      "level": 2,
+      "heading": "Best Weapons",
+      "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n 106.20%\n\n Moongazer's Sigil (R 1 )\n\n Iuno's Signature is Lingyang's best choice by virtue of its really high CRIT Rate boost, its good ATK stats, and its 36% Liberation DMG DEF Ignore and 20% DMG Bonus effects which can fully apply to Lingyang's initial Ultimate cast. In other words, the CRIT and ATK stats are great for Lingyang and it makes his initial Ultimate cast damage go way up, which makes it the best choice.\n 105.30%\n\n Blazing Justice (R 1 )\n\n Zani's Signature offers high ATK, CRIT DMG and 8% DEF Ignore for 6s when casting Basic Attacks, which is easily upkept throughout most of Lingyang's rotation. Overall a very strong generalist Gauntlets choice.\n 104.20%\n\n Verity's Handle (R 1 )\n\n High Base ATK, a good CRIT Rate stat, 12% Attribute DMG Bonus unconditionally and 48% Liberation DMG Bonus when casting Ultimate as well. Xiangli Yao's weapon provides lots of good stats, making it a highly competitive weapon choice for Lingyang.\n 103.00%\n\n Tragicomedy (R 1 )\n\n ATK and CRIT Rate stat-stick for Lingyang, who barely benefits from this weapon's Heavy Attack DMG-increasing effect (he does benefit from it on his Glorious Plunge attack, but it's not enough to make it rank above other limited weapon options).\n 100.00%\n\n Abyss Surges (R 1 )\n\n Lingyang's best permanently available Gauntlets choice. Increases Energy Regen which alleviates his requirements and also provides a huge amount of ATK. The Basic and Skill DMG increases are also quite useful on Lingyang, making it a very strong choice overall.\n 88.90%\n\n Aether Strike (R 5 )\n\n This Battle Pass exclusive provides a great ATK and Liberation DMG increase when casting Ultimate, on top of a CRIT DMG secondary stat while retaining acceptable Base ATK. Not as favourable as Abyss Surges for Lingyang, but a very good replacement nonetheless.\n 86.50%\n\n Celestial Spiral (R 5 )\n\n Increases ATK by a good amount but also has a very niche Flat Energy restoration effect when casting Skill which helps alleviate Lingyang's Energy Regen requirements, which makes it a strong 4-star alternative.\n 82.80%\n\n Hollow Mirage (R 5 )\n\n Will perform lower than Stonard if Lingyang takes any damage during his rotation. Niche 4-star weapon only worth using if nothing above is available. Gives extra ATK and DEF after using Ultimate which is only upkept consistently if the character does not take damage.\n 82.30%\n\n Stonard (R 5 )\n\n This Battle Pass exclusive gives a good amount CRIT Rate despite a rather low Base ATK and increases Liberation DMG when casting Skill. Unfortunately, this doesn't represent much of his damage total and as a result this weapon falls behind in performance when compared to some other 4-stars.\n 79.50%\n\n Legend of Drunken Hero (R 5 )\n\n The best option that doesn't require any gacha and is permanently accessible. Simple ATK stat-stick for Lingyang who is unable to take advantage of this weapon's additional ATK boosts if Negative Statuses are applied on enemies, since none of his best teams make use of statuses currently.",
+      "assets": [
+        {
+          "id": "b07450491f2f",
+          "sourceHash": "b07450491f2f",
+          "kind": "weapons",
+          "name": "Moongazer's Sigil",
+          "fileStem": "21040046",
+          "path": "Prydwen/ww/assets/weapons/moongazers-sigil-b07450491f2f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "007d18a5154b",
+          "sourceHash": "007d18a5154b",
+          "kind": "weapons",
+          "name": "Blazing Justice",
+          "fileStem": "21040036",
+          "path": "Prydwen/ww/assets/weapons/blazing-justice-007d18a5154b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ea93f302fdf1",
+          "sourceHash": "ea93f302fdf1",
+          "kind": "weapons",
+          "name": "Verity's Handle",
+          "fileStem": "21040016",
+          "path": "Prydwen/ww/assets/weapons/veritys-handle-ea93f302fdf1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1d9fc851e8c3",
+          "sourceHash": "1d9fc851e8c3",
+          "kind": "weapons",
+          "name": "Tragicomedy",
+          "fileStem": "21040026",
+          "path": "Prydwen/ww/assets/weapons/tragicomedy-1d9fc851e8c3.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "4e021e35e328",
+          "sourceHash": "4e021e35e328",
+          "kind": "weapons",
+          "name": "Abyss Surges",
+          "fileStem": "21040015",
+          "path": "Prydwen/ww/assets/weapons/abyss-surges-4e021e35e328.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "be4f9e86be91",
+          "sourceHash": "be4f9e86be91",
+          "kind": "weapons",
+          "name": "Aether Strike",
+          "fileStem": "21040104",
+          "path": "Prydwen/ww/assets/weapons/aether-strike-be4f9e86be91.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d16f2ad97469",
+          "sourceHash": "d16f2ad97469",
+          "kind": "weapons",
+          "name": "Celestial Spiral",
+          "fileStem": "21040084",
+          "path": "Prydwen/ww/assets/weapons/celestial-spiral-d16f2ad97469.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "149a7a79da9a",
+          "sourceHash": "149a7a79da9a",
+          "kind": "weapons",
+          "name": "Hollow Mirage",
+          "fileStem": "21040064",
+          "path": "Prydwen/ww/assets/weapons/hollow-mirage-149a7a79da9a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9bf05a62f031",
+          "sourceHash": "9bf05a62f031",
+          "kind": "weapons",
+          "name": "Stonard",
+          "fileStem": "21040074",
+          "path": "Prydwen/ww/assets/weapons/stonard-9bf05a62f031.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5275e972617b",
+          "sourceHash": "5275e972617b",
+          "kind": "weapons",
+          "name": "Legend of Drunken Hero",
+          "fileStem": "21040094",
+          "path": "Prydwen/ww/assets/weapons/legend-of-drunken-hero-5275e972617b.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "best-echo-sets-41",
+      "level": 6,
+      "heading": "Best Echo Sets",
+      "text": "100.00%\n\nEndless Resonance\n\n Offers a 10% unconditional ATK% boost and an additional 5% ATK% for every 1.5 seconds the equipped character has been actively on-field - up to 20% after 6 seconds, totalling 30% additional ATK% after fully ramped. This set is completely incompatible with quickswap playstyles, but for the hypercarry playstyle Lingyang will generally use, this is his best set by a small margin.\n Below you can find Main Echo options:\n\n Mech Abomination\n\n - Very easy echo to use that should be used at the very beginning of the burst window right after the Intro. Thanks to its instant cast there is no thinking required and you can enjoy your ATK% boost and some nice burst damage.\n\n 98.90%\n\nFrosty Resolve\n\n This set grants permanent Resonance Skill DMG% and even bigger Glacio and Skill DMG increases when casting Skill and Liberation respectively. While the second Skill DMG boost is not upkept consistently by Lingyang, he does benefit from the stat and the Glacio DMG boost is additionally appreciated, making it his second best set and his best set that can be used in quickswap compositions.\n Below you can find Main Echo options:\n\n Sentry Construct\n\n - The Sentry Construct is the most effective Main echo choice for Frosty Resolve users thanks to its passive 12% Glacio and Resonance Skill DMG% bonuses which are active at all times. The transformation ability of Sentry Construct is also powerful, swap cancellable, usable in the air and accessible more often than other Echoes, thanks to its ability to recharge cooldown when the user activates their Resonance Liberation.\n\n 97.80%\n\nFreezing Frost\n\n Offers a 10% unconditional Glacio DMG% boost and up to an additional 30% Glacio DMG% after you land 3 Basic or Heavy Attacks for a grand total of 40% additional Glacio damage after fully ramped.\n Below you can find Main Echo options:\n\n Lampylumen Myriad\n\n - Provides a total of 12% Glacio and Skill DMG boosts when casting all 3 hits for 15s, deals a good amount of damage and freezes enemies for a short duration on the final hit. All great things, but the problem with this Echo is that it takes a while to cast and is best used pre-rotation before Intro by swap cancelling out of the final hit. This takes a lot of time to execute and is the main reason why Freezing Frost does not rank above other Glacio damage-focused sets like Frosty Resolve.",
+      "assets": [
+        {
+          "id": "423ea0547985",
+          "sourceHash": "423ea0547985",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-9",
+          "path": "Prydwen/ww/assets/icons/set-9-423ea0547985.webp",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "6d0a97769954",
+          "sourceHash": "6d0a97769954",
+          "kind": "misc",
+          "name": "Mech Abomination",
+          "fileStem": "340000060",
+          "path": "Prydwen/ww/assets/misc/mech-abomination-6d0a97769954.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "bad07e5ac671",
+          "sourceHash": "bad07e5ac671",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-10",
+          "path": "Prydwen/ww/assets/icons/set-10-bad07e5ac671.webp",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "1147a45ddfa7",
+          "sourceHash": "1147a45ddfa7",
+          "kind": "misc",
+          "name": "Sentry Construct",
+          "fileStem": "330000120",
+          "path": "Prydwen/ww/assets/misc/sentry-construct-1147a45ddfa7.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "145775e07fcb",
+          "sourceHash": "145775e07fcb",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-1",
+          "path": "Prydwen/ww/assets/icons/set-1-145775e07fcb.webp",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "10348db5d3ac",
+          "sourceHash": "10348db5d3ac",
+          "kind": "misc",
+          "name": "Lampylumen Myriad",
+          "fileStem": "330000040",
+          "path": "Prydwen/ww/assets/misc/lampylumen-myriad-10348db5d3ac.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "best-echo-stats-42",
+      "level": 2,
+      "heading": "Best Echo Stats",
+      "text": "4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Glacio DMG\n\n 3 cost\n Glacio DMG > ATK%\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK",
+      "assets": []
+    },
+    {
+      "id": "best-endgame-stats-level-90-43",
+      "level": 2,
+      "heading": "Best Endgame Stats (Level 90)",
+      "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 15000+\n\n DEF: 1150+\n\n ATK: 2100-2500+\n\n CRIT Rate: 60-80%+\n\n CRIT DMG: 215-260%+\n\n Energy Regen: 120-125%+\n Estimated in a Zhezhi+Shorekeeper team.\n\n Glacio DMG Bonus: 40-70%+",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-44",
+      "level": 2,
+      "heading": "Skill Priority",
+      "text": "Below you can find the order of leveling the abilities for Lingyang .\n Forte Circuit\n\n Res. Liberation\n\n Intro Skill\n\n Res. Skill\n\n Basic Attack\n\n Gameplay and teams",
+      "assets": []
+    },
+    {
+      "id": "combo-requirements-46",
+      "level": 6,
+      "heading": "COMBO REQUIREMENTS",
+      "text": "Unlike other characters, Lingyang can directly jump into action without any Warm-Up phase. Only thing to focus outside of his Ultimate burst combo is ensuring usage of Echo at appropriate time, that is, if Buff Echo, use it right before burst combo execution, if direct damage Echo (such as Glacial Predator), use it whenever off cooldown.",
+      "assets": []
+    },
+    {
+      "id": "burst-combo-47",
+      "level": 6,
+      "heading": "BURST COMBO",
+      "text": "Lingyang’s combo is incredibly simple, just make sure you have full energy available on him before Swapping to him and enter with his Intro to generate a portion of his Forte Gauge required. Follow it up with his Ultimate and perform a Heavy Attack to become airborne.\n While airborne, alternate between using a single Basic Attack and a single Resonance Skill to take advantage of his Inherent Skill: Diligent Practice. Ensure that you do not chain 2 of same type together while alternating between them, as it is very easy to accidentally do the same and lose damage overall.\n Under ideal circumstances, you can execute 9 independant attacks during his Ultimate duration, but if you get Stunned or use Dodge, this number will reduce. While the damage loss from this isn’t a disaster, you may need to spend extra time building energy via other characters to make up for it. While his Ultimate is on cooldown or he lacks the energy, utilize that time on the rest of the team recharging their Concerto Energy and preparing buffs for his next burst combo.\n Echo (Use before combo but refer to Echo recommendations for exact specifics for your chosen Echo)\n\n Intro\n\n Ultimate\n\n Heavy Attack: Glorious Plunge (Used to enter Forte and become airborne)\n\n Basic Attack: Feral Gyrate P1\n\n Skill: Mountain Roamer\n\n Basic Attack: Feral Gyrate P2\n\n Skill: Mountain Roamer\n\n Basic Attack: Feral Gyrate P1\n\n Skill: Mountain Roamer\n\n Basic Attack: Feral Gyrate P2\n\n Skill: Mountain Roamer\n\n Basic Attack: Feral Gyrate P1\n\n Basic Attack: Stormy Kicks\n\n Mid-Air Attack: Tail Strike\n\n Outro",
+      "assets": []
+    },
+    {
+      "id": "synergies-48",
+      "level": 2,
+      "heading": "Synergies",
+      "text": "Lynae Zhezhi - Lingyang's best partners. Lynae has the strongest generalist buffs in the game and makes for a particularly strong core with Mornye to deal extra Tune Break damage and provide some the strongest array of buffs Lingyang can have. Zhezhi is also very strong by virtue of sporting good personal damage off-field via Coordinated Attacks and amazing 20% Glacio and 25% Skill DMG buffs on Outro that Lingyang very much appreciates.\n Sanhua - One of the fastest rotation times in the game with a very good 38% Basic ATK DMG Amplify buff on Outro allows her to buff Lingyang a great amount, and allows him to take the spotlight by doing most of the team's damage. Often used if Zhezhi is taken up by another team or if you don't own her since Sanhua's free.\n Verina - One of the usual Healing Support options that can slot into any team. Super easy to use, provides amazing team-wide ATK% buffs and 15% DMG Amplify with one of the fastest rotations in the game. Enjoy.\n The Shorekeeper - Similar to Verina, a premium Healing Support option who can not only slot into any team, but also provide insane 12.5% Crit Rate, 25% Crit DMG, 25% ATK and 15% DMG Amplify buffs to your whole team. One of the best but also easy to use characters in the game.",
+      "assets": [
+        {
+          "id": "e366b96f341c",
+          "sourceHash": "e366b96f341c",
+          "kind": "characters",
+          "name": "Lynae",
+          "fileStem": "lynae-icon",
+          "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "60fadd490017",
+          "sourceHash": "60fadd490017",
+          "kind": "characters",
+          "name": "Zhezhi",
+          "fileStem": "zhezhi-icon",
+          "path": "Prydwen/ww/assets/characters/zhezhi-60fadd490017.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f3c8221757b4",
+          "sourceHash": "f3c8221757b4",
+          "kind": "characters",
+          "name": "Sanhua",
+          "fileStem": "sanhua-icon",
+          "path": "Prydwen/ww/assets/characters/sanhua-f3c8221757b4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1b2a8f336e3d",
+          "sourceHash": "1b2a8f336e3d",
+          "kind": "characters",
+          "name": "Verina",
+          "fileStem": "verina-icon",
+          "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d909de4aecde",
+          "sourceHash": "d909de4aecde",
+          "kind": "characters",
+          "name": "The Shorekeeper",
+          "fileStem": "the-shorekeeper-icon",
+          "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "example-teams-49",
+      "level": 2,
+      "heading": "Example Teams",
+      "text": "Best Team\n\n Mornye is only best with Lynae on the team.\n\n F2P Team\n\n Calculations",
+      "assets": [
+        {
+          "id": "dfacbe996a59",
+          "sourceHash": "dfacbe996a59",
+          "kind": "characters",
+          "name": "Lingyang",
+          "fileStem": "lingyang-icon",
+          "path": "Prydwen/ww/assets/characters/lingyang-dfacbe996a59.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "e366b96f341c",
+          "sourceHash": "e366b96f341c",
+          "kind": "characters",
+          "name": "Lynae",
+          "fileStem": "lynae-icon",
+          "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "60fadd490017",
+          "sourceHash": "60fadd490017",
+          "kind": "characters",
+          "name": "Zhezhi",
+          "fileStem": "zhezhi-icon",
+          "path": "Prydwen/ww/assets/characters/zhezhi-60fadd490017.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "40d7023b51fa",
+          "sourceHash": "40d7023b51fa",
+          "kind": "characters",
+          "name": "Mornye",
+          "fileStem": "mornye-icon",
+          "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "d909de4aecde",
+          "sourceHash": "d909de4aecde",
+          "kind": "characters",
+          "name": "The Shorekeeper",
+          "fileStem": "the-shorekeeper-icon",
+          "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "1b2a8f336e3d",
+          "sourceHash": "1b2a8f336e3d",
+          "kind": "characters",
+          "name": "Verina",
+          "fileStem": "verina-icon",
+          "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "f3c8221757b4",
+          "sourceHash": "f3c8221757b4",
+          "kind": "characters",
+          "name": "Sanhua",
+          "fileStem": "sanhua-icon",
+          "path": "Prydwen/ww/assets/characters/sanhua-f3c8221757b4.webp",
+          "width": 120,
+          "height": 120
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "best-echo-stats": {
+      "label": "Best Echo Stats",
+      "sections": [
+        {
+          "heading": "Stats",
+          "text": "Include minor fortes\n\n Lv. 90\n\n HP\n 10388\n\n ATK\n 438\n\n DEF\n 1210\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Glacio DMG\n 0 %",
+          "assets": [
+            {
+              "id": "c26c1d310e90",
+              "sourceHash": "c26c1d310e90",
+              "kind": "icons",
+              "name": "HP",
+              "fileStem": "stat-hp",
+              "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "1e70b3adc860",
+              "sourceHash": "1e70b3adc860",
+              "kind": "icons",
+              "name": "ATK",
+              "fileStem": "stat-atk",
+              "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "aa019d34202f",
+              "sourceHash": "aa019d34202f",
+              "kind": "icons",
+              "name": "DEF",
+              "fileStem": "stat-def",
+              "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "5a0b154cd3d8",
+              "sourceHash": "5a0b154cd3d8",
+              "kind": "icons",
+              "name": "Max Energy",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "39094c227806",
+              "sourceHash": "39094c227806",
+              "kind": "icons",
+              "name": "CRIT Rate",
+              "fileStem": "stat-crit",
+              "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "7e2bcd0760ca",
+              "sourceHash": "7e2bcd0760ca",
+              "kind": "icons",
+              "name": "CRIT DMG",
+              "fileStem": "stat-critdmg",
+              "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "94236abd3fdc",
+              "sourceHash": "94236abd3fdc",
+              "kind": "icons",
+              "name": "Healing",
+              "fileStem": "stat-heal",
+              "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "5d2c60395865",
+              "sourceHash": "5d2c60395865",
+              "kind": "icons",
+              "name": "Glacio",
+              "fileStem": "stat-ice",
+              "path": "Prydwen/ww/assets/icons/glacio-5d2c60395865.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        },
+        {
+          "heading": "Best Echo Stats",
+          "text": "4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Glacio DMG\n\n 3 cost\n Glacio DMG > ATK%\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK",
+          "assets": []
+        }
+      ]
+    },
+    "best-weapons": {
+      "label": "Best Weapons",
+      "sections": [
+        {
+          "heading": "Best Weapons",
+          "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n 106.20%\n\n Moongazer's Sigil (R 1 )\n\n Iuno's Signature is Lingyang's best choice by virtue of its really high CRIT Rate boost, its good ATK stats, and its 36% Liberation DMG DEF Ignore and 20% DMG Bonus effects which can fully apply to Lingyang's initial Ultimate cast. In other words, the CRIT and ATK stats are great for Lingyang and it makes his initial Ultimate cast damage go way up, which makes it the best choice.\n 105.30%\n\n Blazing Justice (R 1 )\n\n Zani's Signature offers high ATK, CRIT DMG and 8% DEF Ignore for 6s when casting Basic Attacks, which is easily upkept throughout most of Lingyang's rotation. Overall a very strong generalist Gauntlets choice.\n 104.20%\n\n Verity's Handle (R 1 )\n\n High Base ATK, a good CRIT Rate stat, 12% Attribute DMG Bonus unconditionally and 48% Liberation DMG Bonus when casting Ultimate as well. Xiangli Yao's weapon provides lots of good stats, making it a highly competitive weapon choice for Lingyang.\n 103.00%\n\n Tragicomedy (R 1 )\n\n ATK and CRIT Rate stat-stick for Lingyang, who barely benefits from this weapon's Heavy Attack DMG-increasing effect (he does benefit from it on his Glorious Plunge attack, but it's not enough to make it rank above other limited weapon options).\n 100.00%\n\n Abyss Surges (R 1 )\n\n Lingyang's best permanently available Gauntlets choice. Increases Energy Regen which alleviates his requirements and also provides a huge amount of ATK. The Basic and Skill DMG increases are also quite useful on Lingyang, making it a very strong choice overall.\n 88.90%\n\n Aether Strike (R 5 )\n\n This Battle Pass exclusive provides a great ATK and Liberation DMG increase when casting Ultimate, on top of a CRIT DMG secondary stat while retaining acceptable Base ATK. Not as favourable as Abyss Surges for Lingyang, but a very good replacement nonetheless.\n 86.50%\n\n Celestial Spiral (R 5 )\n\n Increases ATK by a good amount but also has a very niche Flat Energy restoration effect when casting Skill which helps alleviate Lingyang's Energy Regen requirements, which makes it a strong 4-star alternative.\n 82.80%\n\n Hollow Mirage (R 5 )\n\n Will perform lower than Stonard if Lingyang takes any damage during his rotation. Niche 4-star weapon only worth using if nothing above is available. Gives extra ATK and DEF after using Ultimate which is only upkept consistently if the character does not take damage.\n 82.30%\n\n Stonard (R 5 )\n\n This Battle Pass exclusive gives a good amount CRIT Rate despite a rather low Base ATK and increases Liberation DMG when casting Skill. Unfortunately, this doesn't represent much of his damage total and as a result this weapon falls behind in performance when compared to some other 4-stars.\n 79.50%\n\n Legend of Drunken Hero (R 5 )\n\n The best option that doesn't require any gacha and is permanently accessible. Simple ATK stat-stick for Lingyang who is unable to take advantage of this weapon's additional ATK boosts if Negative Statuses are applied on enemies, since none of his best teams make use of statuses currently.",
+          "assets": [
+            {
+              "id": "b07450491f2f",
+              "sourceHash": "b07450491f2f",
+              "kind": "weapons",
+              "name": "Moongazer's Sigil",
+              "fileStem": "21040046",
+              "path": "Prydwen/ww/assets/weapons/moongazers-sigil-b07450491f2f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "007d18a5154b",
+              "sourceHash": "007d18a5154b",
+              "kind": "weapons",
+              "name": "Blazing Justice",
+              "fileStem": "21040036",
+              "path": "Prydwen/ww/assets/weapons/blazing-justice-007d18a5154b.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "ea93f302fdf1",
+              "sourceHash": "ea93f302fdf1",
+              "kind": "weapons",
+              "name": "Verity's Handle",
+              "fileStem": "21040016",
+              "path": "Prydwen/ww/assets/weapons/veritys-handle-ea93f302fdf1.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1d9fc851e8c3",
+              "sourceHash": "1d9fc851e8c3",
+              "kind": "weapons",
+              "name": "Tragicomedy",
+              "fileStem": "21040026",
+              "path": "Prydwen/ww/assets/weapons/tragicomedy-1d9fc851e8c3.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "4e021e35e328",
+              "sourceHash": "4e021e35e328",
+              "kind": "weapons",
+              "name": "Abyss Surges",
+              "fileStem": "21040015",
+              "path": "Prydwen/ww/assets/weapons/abyss-surges-4e021e35e328.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "be4f9e86be91",
+              "sourceHash": "be4f9e86be91",
+              "kind": "weapons",
+              "name": "Aether Strike",
+              "fileStem": "21040104",
+              "path": "Prydwen/ww/assets/weapons/aether-strike-be4f9e86be91.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d16f2ad97469",
+              "sourceHash": "d16f2ad97469",
+              "kind": "weapons",
+              "name": "Celestial Spiral",
+              "fileStem": "21040084",
+              "path": "Prydwen/ww/assets/weapons/celestial-spiral-d16f2ad97469.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "149a7a79da9a",
+              "sourceHash": "149a7a79da9a",
+              "kind": "weapons",
+              "name": "Hollow Mirage",
+              "fileStem": "21040064",
+              "path": "Prydwen/ww/assets/weapons/hollow-mirage-149a7a79da9a.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "9bf05a62f031",
+              "sourceHash": "9bf05a62f031",
+              "kind": "weapons",
+              "name": "Stonard",
+              "fileStem": "21040074",
+              "path": "Prydwen/ww/assets/weapons/stonard-9bf05a62f031.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "5275e972617b",
+              "sourceHash": "5275e972617b",
+              "kind": "weapons",
+              "name": "Legend of Drunken Hero",
+              "fileStem": "21040094",
+              "path": "Prydwen/ww/assets/weapons/legend-of-drunken-hero-5275e972617b.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "best-echo-sets": {
+      "label": "Best Echo Sets",
+      "sections": [
+        {
+          "heading": "Best Echo Sets",
+          "text": "100.00%\n\nEndless Resonance\n\n Offers a 10% unconditional ATK% boost and an additional 5% ATK% for every 1.5 seconds the equipped character has been actively on-field - up to 20% after 6 seconds, totalling 30% additional ATK% after fully ramped. This set is completely incompatible with quickswap playstyles, but for the hypercarry playstyle Lingyang will generally use, this is his best set by a small margin.\n Below you can find Main Echo options:\n\n Mech Abomination\n\n - Very easy echo to use that should be used at the very beginning of the burst window right after the Intro. Thanks to its instant cast there is no thinking required and you can enjoy your ATK% boost and some nice burst damage.\n\n 98.90%\n\nFrosty Resolve\n\n This set grants permanent Resonance Skill DMG% and even bigger Glacio and Skill DMG increases when casting Skill and Liberation respectively. While the second Skill DMG boost is not upkept consistently by Lingyang, he does benefit from the stat and the Glacio DMG boost is additionally appreciated, making it his second best set and his best set that can be used in quickswap compositions.\n Below you can find Main Echo options:\n\n Sentry Construct\n\n - The Sentry Construct is the most effective Main echo choice for Frosty Resolve users thanks to its passive 12% Glacio and Resonance Skill DMG% bonuses which are active at all times. The transformation ability of Sentry Construct is also powerful, swap cancellable, usable in the air and accessible more often than other Echoes, thanks to its ability to recharge cooldown when the user activates their Resonance Liberation.\n\n 97.80%\n\nFreezing Frost\n\n Offers a 10% unconditional Glacio DMG% boost and up to an additional 30% Glacio DMG% after you land 3 Basic or Heavy Attacks for a grand total of 40% additional Glacio damage after fully ramped.\n Below you can find Main Echo options:\n\n Lampylumen Myriad\n\n - Provides a total of 12% Glacio and Skill DMG boosts when casting all 3 hits for 15s, deals a good amount of damage and freezes enemies for a short duration on the final hit. All great things, but the problem with this Echo is that it takes a while to cast and is best used pre-rotation before Intro by swap cancelling out of the final hit. This takes a lot of time to execute and is the main reason why Freezing Frost does not rank above other Glacio damage-focused sets like Frosty Resolve.",
+          "assets": [
+            {
+              "id": "423ea0547985",
+              "sourceHash": "423ea0547985",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-9",
+              "path": "Prydwen/ww/assets/icons/set-9-423ea0547985.webp",
+              "width": 50,
+              "height": 50
+            },
+            {
+              "id": "6d0a97769954",
+              "sourceHash": "6d0a97769954",
+              "kind": "misc",
+              "name": "Mech Abomination",
+              "fileStem": "340000060",
+              "path": "Prydwen/ww/assets/misc/mech-abomination-6d0a97769954.webp",
+              "width": 35,
+              "height": 35
+            },
+            {
+              "id": "bad07e5ac671",
+              "sourceHash": "bad07e5ac671",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-10",
+              "path": "Prydwen/ww/assets/icons/set-10-bad07e5ac671.webp",
+              "width": 50,
+              "height": 50
+            },
+            {
+              "id": "1147a45ddfa7",
+              "sourceHash": "1147a45ddfa7",
+              "kind": "misc",
+              "name": "Sentry Construct",
+              "fileStem": "330000120",
+              "path": "Prydwen/ww/assets/misc/sentry-construct-1147a45ddfa7.webp",
+              "width": 35,
+              "height": 35
+            },
+            {
+              "id": "145775e07fcb",
+              "sourceHash": "145775e07fcb",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-1",
+              "path": "Prydwen/ww/assets/icons/set-1-145775e07fcb.webp",
+              "width": 50,
+              "height": 50
+            },
+            {
+              "id": "10348db5d3ac",
+              "sourceHash": "10348db5d3ac",
+              "kind": "misc",
+              "name": "Lampylumen Myriad",
+              "fileStem": "330000040",
+              "path": "Prydwen/ww/assets/misc/lampylumen-myriad-10348db5d3ac.webp",
+              "width": 35,
+              "height": 35
+            }
+          ]
+        }
+      ]
+    },
+    "best-endgame-stats": {
+      "label": "Best Endgame Stats",
+      "sections": [
+        {
+          "heading": "Best Endgame Stats (Level 90)",
+          "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 15000+\n\n DEF: 1150+\n\n ATK: 2100-2500+\n\n CRIT Rate: 60-80%+\n\n CRIT DMG: 215-260%+\n\n Energy Regen: 120-125%+\n Estimated in a Zhezhi+Shorekeeper team.\n\n Glacio DMG Bonus: 40-70%+",
+          "assets": []
+        }
+      ]
+    },
+    "skill-priority": {
+      "label": "Skill Priority",
+      "sections": [
+        {
+          "heading": "Skill Priority",
+          "text": "Below you can find the order of leveling the abilities for Lingyang .\n Forte Circuit\n\n Res. Liberation\n\n Intro Skill\n\n Res. Skill\n\n Basic Attack\n\n Gameplay and teams",
+          "assets": []
+        }
+      ]
+    },
+    "synergies": {
+      "label": "Synergies",
+      "sections": [
+        {
+          "heading": "Synergies",
+          "text": "Lynae Zhezhi - Lingyang's best partners. Lynae has the strongest generalist buffs in the game and makes for a particularly strong core with Mornye to deal extra Tune Break damage and provide some the strongest array of buffs Lingyang can have. Zhezhi is also very strong by virtue of sporting good personal damage off-field via Coordinated Attacks and amazing 20% Glacio and 25% Skill DMG buffs on Outro that Lingyang very much appreciates.\n Sanhua - One of the fastest rotation times in the game with a very good 38% Basic ATK DMG Amplify buff on Outro allows her to buff Lingyang a great amount, and allows him to take the spotlight by doing most of the team's damage. Often used if Zhezhi is taken up by another team or if you don't own her since Sanhua's free.\n Verina - One of the usual Healing Support options that can slot into any team. Super easy to use, provides amazing team-wide ATK% buffs and 15% DMG Amplify with one of the fastest rotations in the game. Enjoy.\n The Shorekeeper - Similar to Verina, a premium Healing Support option who can not only slot into any team, but also provide insane 12.5% Crit Rate, 25% Crit DMG, 25% ATK and 15% DMG Amplify buffs to your whole team. One of the best but also easy to use characters in the game.",
+          "assets": [
+            {
+              "id": "e366b96f341c",
+              "sourceHash": "e366b96f341c",
+              "kind": "characters",
+              "name": "Lynae",
+              "fileStem": "lynae-icon",
+              "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "60fadd490017",
+              "sourceHash": "60fadd490017",
+              "kind": "characters",
+              "name": "Zhezhi",
+              "fileStem": "zhezhi-icon",
+              "path": "Prydwen/ww/assets/characters/zhezhi-60fadd490017.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "f3c8221757b4",
+              "sourceHash": "f3c8221757b4",
+              "kind": "characters",
+              "name": "Sanhua",
+              "fileStem": "sanhua-icon",
+              "path": "Prydwen/ww/assets/characters/sanhua-f3c8221757b4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1b2a8f336e3d",
+              "sourceHash": "1b2a8f336e3d",
+              "kind": "characters",
+              "name": "Verina",
+              "fileStem": "verina-icon",
+              "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d909de4aecde",
+              "sourceHash": "d909de4aecde",
+              "kind": "characters",
+              "name": "The Shorekeeper",
+              "fileStem": "the-shorekeeper-icon",
+              "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "example-teams": {
+      "label": "Example Teams",
+      "sections": [
+        {
+          "heading": "Example Teams",
+          "text": "Best Team\n\n Mornye is only best with Lynae on the team.\n\n F2P Team\n\n Calculations",
+          "assets": [
+            {
+              "id": "dfacbe996a59",
+              "sourceHash": "dfacbe996a59",
+              "kind": "characters",
+              "name": "Lingyang",
+              "fileStem": "lingyang-icon",
+              "path": "Prydwen/ww/assets/characters/lingyang-dfacbe996a59.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "e366b96f341c",
+              "sourceHash": "e366b96f341c",
+              "kind": "characters",
+              "name": "Lynae",
+              "fileStem": "lynae-icon",
+              "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "60fadd490017",
+              "sourceHash": "60fadd490017",
+              "kind": "characters",
+              "name": "Zhezhi",
+              "fileStem": "zhezhi-icon",
+              "path": "Prydwen/ww/assets/characters/zhezhi-60fadd490017.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "40d7023b51fa",
+              "sourceHash": "40d7023b51fa",
+              "kind": "characters",
+              "name": "Mornye",
+              "fileStem": "mornye-icon",
+              "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "d909de4aecde",
+              "sourceHash": "d909de4aecde",
+              "kind": "characters",
+              "name": "The Shorekeeper",
+              "fileStem": "the-shorekeeper-icon",
+              "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "1b2a8f336e3d",
+              "sourceHash": "1b2a8f336e3d",
+              "kind": "characters",
+              "name": "Verina",
+              "fileStem": "verina-icon",
+              "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "f3c8221757b4",
+              "sourceHash": "f3c8221757b4",
+              "kind": "characters",
+              "name": "Sanhua",
+              "fileStem": "sanhua-icon",
+              "path": "Prydwen/ww/assets/characters/sanhua-f3c8221757b4.webp",
+              "width": 120,
+              "height": 120
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Lingyang Best Build Guide | Wuthering Waves (WuWa)\n \n\n Wuthering Waves\n Home Database Characters Weapons Echoes Banners\n Tier Lists Tier List Team Tier List Value Tier List\n Guides Guides\n Resources Map News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Wuthering Waves\n /\n Characters\n /\n Lingyang\n Lingyang Best Build Guide\n Last updated: 09/June/2026\n\n Introduction\n Best guide and build for Lingyang from WW (Wuthering Waves). Lingyang is a 5 ★ rarity character from the Glacio element who uses the Gauntlets type weapon.\n Lingyang is talented and friendly member of the Liondance Troupe in Jinzhou. His passion and courage are evident as he engages with humans, showcasing his impressive physical abilities. With his unique style, he embodies the spirit of Liondancing.\n\n To learn more about Lingyang check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n This character has no video guide yet.\n\n Update tracker\n Last review update\n Patch 1.3\n\n Last major build/calcs update\n Patch 2.6\n\n Last profile update*\n 09/June/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Lingyang check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Kit\n\n Review\n\n Build\n\n Gameplay and teams\n\n Calculations\n\n Profile\n\n Skills\n Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Majestic Fists\n\n Basic Attack\n Perform up to 5 attacks, dealing Glacio damage.\n Basic Attack: Feral Roars\n After Resonance Skill Furious Punches is cast, Basic Attack V is replaced with Feral Roars, dealing Glacio damage.\n Heavy Attack\n Consume Stamina to attack the target, dealing Glacio damage.\n Mid-air Attack\n Consume Stamina to perform a Mid-air Plunging Attack, dealing Glacio damage.\n Dodge Counter\n Use a Basic Attack after a successful Dodge to attack the target, dealing Glacio damage.\n\n Multipliers\n\n Resonance Skill\n Ancient Arts\n\n Ancient Arts\n Attack the target, dealing Glacio damage.\n Furious Punches\n When Basic Attacks III, IV, or V or Basic Attack Feral Roars hits the target, Resonance Skill Ancient Arts is replaced with Resonance Skill Swift Punches. If Lingyang uses Basic Attack after casting Basic Attack Feral Roars and Resonance Skill Swift Punches, he will start from Basic Attack III.\n Lingyang's Resonance Skill will not reset his Basic Attack stage.\n\n Multipliers\n\n Resonance Liberation\n Strive: Lion's Vigor\n\n Attack the target, dealing Glacio damage , and receive the blessing of Lion's Vigor, which lasts for 14 seconds.\n Lion's Vigor\n Lingyang's Glacio DMG Bonus is increased by 50% ;\n\n Multipliers\n\n Forte Circuit\n Unification of Spirits\n\n Heavy Attack: Glorious Plunge\n When Lion's Spirit is full, use Heavy Attack to perform Glorious Plunge, dealing Glacio damage.\n Mid-air Attack: Tail Strike\n When Lion's Spirit is not full, use Basic Attack after Heavy Attack to perform Tail Strike, dealing Glacio damage.\n Striding Lion\n After casting Heavy Attack Glorious Plunge, enter Striding Lion state; After casting Intro Skill Lion Awakens or Resonance Liberation Strive: Lion's Vigor, if Lion's Spirit is full, use Basic Attack to enter Striding Lion state.\nIn the Striding Lion state: Attacks can be launched in mid-air. If you are back on the ground, use Heavy Attack Glorious Plunge to get back in the air.\n Lion's Spirit is continuously consumed, and the Striding Lion state ends in 5s after Lion's Spirit runs out; If Lingyang is in the Resonance Liberation Lion's Vigor state, the consumption speed of Lion's Spirit is reduced by 50% , extending Striding Lion state by up to 10s .\n Lingyang's Basic Attack is replaced with Basic Attack Feral Gyrate, which performs up to 2 consecutive attacks, dealing Glacio damage. Lingyang's Resonance Skill is replaced with Mountain Roamer, dealing Glacio damage.\nWhen Lion's Spirit is less than 10 , use Basic Attack to perform Stormy Kicks, dealing Glacio damage ; after performing Basic Attack Stormy Kicks, the Mid-air Attack Radiant Plunge becomes available. Concerto Energy is restored when Lion's Spirit is consumed.\n Lion's Spirit\n Lingyang can hold up to 100 Lion's Spirit. When casting Resonance Skill Furious Punches, Lion's Spirit is restored.\nWhen casting Intro Skill Lion Awakens, Lion's Spirit is restored. When casting Resonance Liberation Strive: Lion's Vigor, Lion's Spirit is restored.\n\n Multipliers\n\n Inherent Skill\n Lion's Pride\n\n The damage of the Intro Skill Lion Awakens is increased by 50%.\n\n Inherent Skill\n Diligent Practice\n\n Under the Striding Lion state, within 3s after each Basic Attack, the next Mountain Roamer will deal an additional Glacio damage , equal to 150% of Mountain Roamer damage, considered as Resonance Skill damage.\n\n Intro Skill\n Lion Awakens\n\n Lingyang appears and deals Glacio damage.\n\n Multipliers\n\n Outro Skill\n Frosty Marks\n\n Lingyang releases a shock wave centered on the skill target, dealing Glacio DMG equal to 587.94% of Lingyang's ATK to targets within the range.\n\n Resonance Chain (Dupes)\n S 1\n Sequence Node 1\n\n During Resonance Liberation Lion's Vigor, Lingyang's Anti-Interruption is enhanced.\n\n S 2\n Sequence Node 2\n\n Intro Skill Lion Awakens additionally recovers 10 Resonance Energy for Lingyang, triggered once every 20s .\n\n S 3\n Sequence Node 3\n\n During Resonance Liberation Lion's Vigor, Lingyang's Basic Attack DMG Bonus is increased by 20% , and Resonance Skill DMG Bonus increased by 10%.\n\n S 4\n Sequence Node 4\n\n Outro Skill Frosty Marks increases the Glacio DMG Bonus of all team members by 20% for 30s .\n\n S 5\n Sequence Node 5\n\n Resonance Liberation Strive: Lion's Vigor additionally deals Glacio DMG equal to 200% of Lingyang's ATK.\n\n S 6\n Sequence Node 6\n\n In the Forte Circuit Striding Lion state, during the first 3s after every Resonance Skill Mountain Roamer, the Basic Attack DMG Bonus for Lingyang's next Basic Attack is increased by 100% .\n\n Minor Fortes (Total)\n Glacio DMG\n + 12 %\n\n ATK%\n + 12 %\n\n Stats\n\nInclude minor fortes\n\n Lv. 90\n\n HP\n 10388\n\n ATK\n 438\n\n DEF\n 1210\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Glacio DMG\n 0 %\n\n Upgrade Materials\n Character Ascension (total)\n 4 x LF Whisperin Core\n 12 x MF Whisperin Core\n 12 x HF Whisperin Core\n 4 x FF Whisperin Core\n 46 x Sound-Keeping Tacet Core\n 60 x Coriolus\n 170 000 Shell Credits\n\n Skill Upgrades (total)\n 25 x LF Whisperin Core\n 28 x MF Whisperin Core\n 40 x HF Whisperin Core\n 57 x FF Whisperin Core\n 25 x Cadence Seed\n 28 x Cadence Bud\n 55 x Cadence Leaf\n 67 x Cadence Blossom\n 26 x Unending Destruction\n 2 030 000 Shell Credits\n\n While the source of the materials can be quickly found in the game, when it comes Coriolus you will have to gather them from the map. Check our Interactive map to find them quickly:\n\n Interactive Map\n\n Voice Actors\n ENG\n Aleksander Varadian\n\n JPN\n Natsuki Hanae\n\n CN\n Koi\n\n KR\n Lee Sang-ho\n\n Gallery\n\n Review\n\n Ratings\n Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n DPS\n T3\n Tower of Adversity\n\n T4\n Whimpering Wastes\n\n Value Tier List\n DPS\n T4\n Tower of Adversity (Value)\n\n T4\n Whimpering Wastes (Value)\n\n Pros & Cons\n Pros\n Can Fly!\n\n Unique playstyle not found anywhere else\n\n Gains the most free stats from his baseline S0 kit of any character thanks to his Ultimate boost\n\n Button mashing combo that is hard to mess up\n\n Can juggle enemies in the air (excluding elites and bosses), comboing them continuously and rendering them immobile\n\n Can ignore some boss and enemy mechanics while in the air\n\n Cons\n Falls slightly behind other damage dealers with a similar role\n\n Flying can be disorienting for some players\n\n Flying mobility is somewhat limited, making dodging, retargeting and moving while airborne harder without practice\n\n Some bosses have unusual hitboxes which can make striking them while airborne a challenge, resulting in damage losses\n\n Takes more time to get used to and learn than many other characters\n\n Review\n Lingyang is a 5-star Glacio Gauntlet wielder DPS that is most often played in Hyper Carry teams. As Lingyang deals the majority of his damage during his Ultimate burst window, which takes up a considerable amount of field time incentivizing him being played with supports to buff him to the max before using his Ultimate Skill. Lingyang also has very little incentive to switch out during his Ultimate burst window with it often resulting in a damage loss meaning you’ll want to pair him with characters that can give him the field time he needs.\n Lingyang recharges his Forte Gauge with his second Resonance Skill, Intro Skill and Ultimate Skill, though an interesting thing to note is that his Forte Gauge can be completely filled by performing his Intro followed by his Ultimate Skill once. This allows players to bypass having to use his Basic Attacks and Resonance Skill to generate Forte Gauge. Once full, he can perform a Heavy Attack to enter Striding Lion state, sending him airborne and enhancing all of his abilities for a short duration. It is during this state that Lingyang’s DPS potential is at maximum and should be played attentively giving him all the buffs and support he needs during it.\n Lingyang features two Resonance Skills with no cooldown. The first Resonance Skill; Ancient Arts is a simple punch that deals a small amount of Glacio damage to its target, though it is rarely used. His second Resonance Skill; Furious Punches can be only utilized after he has either used Basic Attack 3/4/5 or his Special Basic Attack - Feral Roars. This skill also deals a small amount of Glacio damage, however it generates a significant amount of his Forte Gauge along with allowing him to follow it up with Basic Attack 3 directly. This allows you to quickly juggle his Basic Attack 3 and Furious Punches, quickly filling his Forte Gauge.\n His Ultimate deals a large strike in front of him, causing Glacio damage, generating Concerto Energy and a major portion of his Forte Gauge. It also increases his Glacio damage by 50% and further empowers his Forte Gauge empowerment to increase its duration.\n In regards to field time, he is required to stay for the entire duration of his Ultimate enhanced Forte, which allows him to bring solid burst damage during this window. He has a unique aerial combat flair which while makes you immune to some ground attacks, also makes some significantly harder to dodge in return. This can be a drawback of his combat style, as it takes time to become accustomed to it, making actions like hitting enemies, repositioning and target changes harder to execute. Similar to Jiyan, he lacks the opportunity to leave the field mid-rotation as it causes him to lose a considerable amount of damage, making him more suited to the Hyper Carry archetype as mentioned earlier.\n Lingyang is a mixed bag when it comes to play difficulty. On one hand, he is easy to play in the sense that all he requires is building enough Resonance Energy to use his Ultimate then unload all the attacks he can to maximize his damage during the burst window. On other hand, his unique Aerial combat makes it rough to navigate him, and it takes extra practice to master. Having to learn timing to dodge attacks and discern which attacks will hit you or not while airborne contributes massively to his low usage among players.\n As a Main DPS he will prefer damage maximization. As such, you can equip him with damage-focused Echo and set.\n Overall, due to Lingyang’s damage being on the lower side of 5-stars, combined with his unique airborne gameplay that requires extra work to manage, he lags behind in usage compared to most other DPS in endgame.\n\n Video guides\n Lingyang guide videos aren't available yet.\n\n Build\n\n Best Weapons\n The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n 106.20%\n\n Moongazer's Sigil (R 1 )\n\n Iuno's Signature is Lingyang's best choice by virtue of its really high CRIT Rate boost, its good ATK stats, and its 36% Liberation DMG DEF Ignore and 20% DMG Bonus effects which can fully apply to Lingyang's initial Ultimate cast. In other words, the CRIT and ATK stats are great for Lingyang and it makes his initial Ultimate cast damage go way up, which makes it the best choice.\n 105.30%\n\n Blazing Justice (R 1 )\n\n Zani's Signature offers high ATK, CRIT DMG and 8% DEF Ignore for 6s when casting Basic Attacks, which is easily upkept throughout most of Lingyang's rotation. Overall a very strong generalist Gauntlets choice.\n 104.20%\n\n Verity's Handle (R 1 )\n\n High Base ATK, a good CRIT Rate stat, 12% Attribute DMG Bonus unconditionally and 48% Liberation DMG Bonus when casting Ultimate as well. Xiangli Yao's weapon provides lots of good stats, making it a highly competitive weapon choice for Lingyang.\n 103.00%\n\n Tragicomedy (R 1 )\n\n ATK and CRIT Rate stat-stick for Lingyang, who barely benefits from this weapon's Heavy Attack DMG-increasing effect (he does benefit from it on his Glorious Plunge attack, but it's not enough to make it rank above other limited weapon options).\n 100.00%\n\n Abyss Surges (R 1 )\n\n Lingyang's best permanently available Gauntlets choice. Increases Energy Regen which alleviates his requirements and also provides a huge amount of ATK. The Basic and Skill DMG increases are also quite useful on Lingyang, making it a very strong choice overall.\n 88.90%\n\n Aether Strike (R 5 )\n\n This Battle Pass exclusive provides a great ATK and Liberation DMG increase when casting Ultimate, on top of a CRIT DMG secondary stat while retaining acceptable Base ATK. Not as favourable as Abyss Surges for Lingyang, but a very good replacement nonetheless.\n 86.50%\n\n Celestial Spiral (R 5 )\n\n Increases ATK by a good amount but also has a very niche Flat Energy restoration effect when casting Skill which helps alleviate Lingyang's Energy Regen requirements, which makes it a strong 4-star alternative.\n 82.80%\n\n Hollow Mirage (R 5 )\n\n Will perform lower than Stonard if Lingyang takes any damage during his rotation. Niche 4-star weapon only worth using if nothing above is available. Gives extra ATK and DEF after using Ultimate which is only upkept consistently if the character does not take damage.\n 82.30%\n\n Stonard (R 5 )\n\n This Battle Pass exclusive gives a good amount CRIT Rate despite a rather low Base ATK and increases Liberation DMG when casting Skill. Unfortunately, this doesn't represent much of his damage total and as a result this weapon falls behind in performance when compared to some other 4-stars.\n 79.50%\n\n Legend of Drunken Hero (R 5 )\n\n The best option that doesn't require any gacha and is permanently accessible. Simple ATK stat-stick for Lingyang who is unable to take advantage of this weapon's additional ATK boosts if Negative Statuses are applied on enemies, since none of his best teams make use of statuses currently.\n\n Best Echo Sets\n Best Echo Sets\n 100.00%\n\nEndless Resonance\n\n Offers a 10% unconditional ATK% boost and an additional 5% ATK% for every 1.5 seconds the equipped character has been actively on-field - up to 20% after 6 seconds, totalling 30% additional ATK% after fully ramped. This set is completely incompatible with quickswap playstyles, but for the hypercarry playstyle Lingyang will generally use, this is his best set by a small margin.\n Below you can find Main Echo options:\n\n Mech Abomination\n\n - Very easy echo to use that should be used at the very beginning of the burst window right after the Intro. Thanks to its instant cast there is no thinking required and you can enjoy your ATK% boost and some nice burst damage.\n\n 98.90%\n\nFrosty Resolve\n\n This set grants permanent Resonance Skill DMG% and even bigger Glacio and Skill DMG increases when casting Skill and Liberation respectively. While the second Skill DMG boost is not upkept consistently by Lingyang, he does benefit from the stat and the Glacio DMG boost is additionally appreciated, making it his second best set and his best set that can be used in quickswap compositions.\n Below you can find Main Echo options:\n\n Sentry Construct\n\n - The Sentry Construct is the most effective Main echo choice for Frosty Resolve users thanks to its passive 12% Glacio and Resonance Skill DMG% bonuses which are active at all times. The transformation ability of Sentry Construct is also powerful, swap cancellable, usable in the air and accessible more often than other Echoes, thanks to its ability to recharge cooldown when the user activates their Resonance Liberation.\n\n 97.80%\n\nFreezing Frost\n\n Offers a 10% unconditional Glacio DMG% boost and up to an additional 30% Glacio DMG% after you land 3 Basic or Heavy Attacks for a grand total of 40% additional Glacio damage after fully ramped.\n Below you can find Main Echo options:\n\n Lampylumen Myriad\n\n - Provides a total of 12% Glacio and Skill DMG boosts when casting all 3 hits for 15s, deals a good amount of damage and freezes enemies for a short duration on the final hit. All great things, but the problem with this Echo is that it takes a while to cast and is best used pre-rotation before Intro by swap cancelling out of the final hit. This takes a lot of time to execute and is the main reason why Freezing Frost does not rank above other Glacio damage-focused sets like Frosty Resolve.\n\n Best Echo Stats\n 4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Glacio DMG\n\n 3 cost\n Glacio DMG > ATK%\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK\n\n Best Endgame Stats (Level 90)\n All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 15000+\n\n DEF: 1150+\n\n ATK: 2100-2500+\n\n CRIT Rate: 60-80%+\n\n CRIT DMG: 215-260%+\n\n Energy Regen: 120-125%+\n Estimated in a Zhezhi+Shorekeeper team.\n\n Glacio DMG Bonus: 40-70%+\n\n Skill Priority\n Below you can find the order of leveling the abilities for Lingyang .\n Forte Circuit\n\n Res. Liberation\n\n Intro Skill\n\n Res. Skill\n\n Basic Attack\n\n Gameplay and teams\n\n Rotation\n COMBO REQUIREMENTS\n Unlike other characters, Lingyang can directly jump into action without any Warm-Up phase. Only thing to focus outside of his Ultimate burst combo is ensuring usage of Echo at appropriate time, that is, if Buff Echo, use it right before burst combo execution, if direct damage Echo (such as Glacial Predator), use it whenever off cooldown.\n BURST COMBO\n Lingyang’s combo is incredibly simple, just make sure you have full energy available on him before Swapping to him and enter with his Intro to generate a portion of his Forte Gauge required. Follow it up with his Ultimate and perform a Heavy Attack to become airborne.\n While airborne, alternate between using a single Basic Attack and a single Resonance Skill to take advantage of his Inherent Skill: Diligent Practice. Ensure that you do not chain 2 of same type together while alternating between them, as it is very easy to accidentally do the same and lose damage overall.\n Under ideal circumstances, you can execute 9 independant attacks during his Ultimate duration, but if you get Stunned or use Dodge, this number will reduce. While the damage loss from this isn’t a disaster, you may need to spend extra time building energy via other characters to make up for it. While his Ultimate is on cooldown or he lacks the energy, utilize that time on the rest of the team recharging their Concerto Energy and preparing buffs for his next burst combo.\n Echo (Use before combo but refer to Echo recommendations for exact specifics for your chosen Echo)\n\n Intro\n\n Ultimate\n\n Heavy Attack: Glorious Plunge (Used to enter Forte and become airborne)\n\n Basic Attack: Feral Gyrate P1\n\n Skill: Mountain Roamer\n\n Basic Attack: Feral Gyrate P2\n\n Skill: Mountain Roamer\n\n Basic Attack: Feral Gyrate P1\n\n Skill: Mountain Roamer\n\n Basic Attack: Feral Gyrate P2\n\n Skill: Mountain Roamer\n\n Basic Attack: Feral Gyrate P1\n\n Basic Attack: Stormy Kicks\n\n Mid-Air Attack: Tail Strike\n\n Outro\n\n Synergies\n Lynae Zhezhi - Lingyang's best partners. Lynae has the strongest generalist buffs in the game and makes for a particularly strong core with Mornye to deal extra Tune Break damage and provide some the strongest array of buffs Lingyang can have. Zhezhi is also very strong by virtue of sporting good personal damage off-field via Coordinated Attacks and amazing 20% Glacio and 25% Skill DMG buffs on Outro that Lingyang very much appreciates.\n Sanhua - One of the fastest rotation times in the game with a very good 38% Basic ATK DMG Amplify buff on Outro allows her to buff Lingyang a great amount, and allows him to take the spotlight by doing most of the team's damage. Often used if Zhezhi is taken up by another team or if you don't own her since Sanhua's free.\n Verina - One of the usual Healing Support options that can slot into any team. Super easy to use, provides amazing team-wide ATK% buffs and 15% DMG Amplify with one of the fastest rotations in the game. Enjoy.\n The Shorekeeper - Similar to Verina, a premium Healing Support option who can not only slot into any team, but also provide insane 12.5% Crit Rate, 25% Crit DMG, 25% ATK and 15% DMG Amplify buffs to your whole team. One of the best but also easy to use characters in the game.\n Example Teams\n Best Team\n\n Mornye is only best with Lynae on the team.\n\n F2P Team\n\n Calculations"
+}

@@ -1,0 +1,178 @@
+{
+  "id": "characters:rin-tohsaka",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "rin-tohsaka",
+  "name": "Rin Tohsaka",
+  "title": "Rin Tohsaka Best Build Guide",
+  "sourcePath": "/star-rail/characters/rin-tohsaka",
+  "contentStatus": "beta",
+  "statusLabels": [
+    "4.4"
+  ],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "31/May/2026",
+  "meta": {
+    "title": "Rin Tohsaka Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Quantum",
+    "path": "Erudition"
+  },
+  "assets": [
+    {
+      "id": "0ac7ee84c320",
+      "sourceHash": "0ac7ee84c320",
+      "kind": "characters",
+      "name": "Rin Tohsaka",
+      "fileStem": "rin-tohsaka-card",
+      "path": "Prydwen/hsr/assets/characters/rin-tohsaka-0ac7ee84c320.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "ac78bcd23e3e",
+      "sourceHash": "ac78bcd23e3e",
+      "kind": "characters",
+      "name": "Rin Tohsaka",
+      "fileStem": "rin-tohsaka-full",
+      "path": "Prydwen/hsr/assets/characters/rin-tohsaka-ac78bcd23e3e.webp",
+      "width": 600,
+      "height": 750
+    }
+  ],
+  "sections": [
+    {
+      "id": "rin-tohsaka-best-build-guide-0",
+      "level": 1,
+      "heading": "Rin Tohsaka Best Build Guide",
+      "text": "Last updated: 31/May/2026",
+      "assets": [
+        {
+          "id": "0ac7ee84c320",
+          "sourceHash": "0ac7ee84c320",
+          "kind": "characters",
+          "name": "Rin Tohsaka",
+          "fileStem": "rin-tohsaka-card",
+          "path": "Prydwen/hsr/assets/characters/rin-tohsaka-0ac7ee84c320.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Rin Tohsaka from HSR (Honkai: Star Rail). Rin Tohsaka is a 5 ★ character from the Quantum element who follows the Path of Erudition .\n\n To learn more about Rin Tohsaka check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "This character has no video guide yet.\n\n To learn more about Rin Tohsaka check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-7",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-8",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Rin Tohsaka skills aren't available yet. They will be added when the character is released.",
+      "assets": []
+    },
+    {
+      "id": "major-traces-9",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "Rin Tohsaka traces aren't available yet. They will be added when the character is released.",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-10",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "Rin Tohsaka traces aren't available yet. They will be added when the character is released.",
+      "assets": []
+    },
+    {
+      "id": "eidolons-11",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "Rin Tohsaka eidolons aren't available yet. They will be added when the character is released.",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-12",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Rin Tohsaka Stats and Materials aren't available yet. They will be added when the character is released.",
+      "assets": []
+    },
+    {
+      "id": "cv-13",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-14",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "ac78bcd23e3e",
+          "sourceHash": "ac78bcd23e3e",
+          "kind": "characters",
+          "name": "Rin Tohsaka",
+          "fileStem": "rin-tohsaka-full",
+          "path": "Prydwen/hsr/assets/characters/rin-tohsaka-ac78bcd23e3e.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "review-15",
+      "level": 2,
+      "heading": "Review",
+      "text": "Review for Rin Tohsaka is not available yet. It will be added when the character is released.\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "build-and-teams-16",
+      "level": 2,
+      "heading": "Build and teams",
+      "text": "Build recommendations and team compositions for Rin Tohsaka are not available yet. They will be added when the character is released.\n\n MoC/PF/AS Statistics",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "teams": {
+      "label": "Teams",
+      "sections": [
+        {
+          "heading": "Build and teams",
+          "text": "Build recommendations and team compositions for Rin Tohsaka are not available yet. They will be added when the character is released.\n\n MoC/PF/AS Statistics",
+          "assets": []
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Rin Tohsaka Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Rin Tohsaka\n Rin Tohsaka Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Rin Tohsaka from HSR (Honkai: Star Rail). Rin Tohsaka is a 5 ★ character from the Quantum element who follows the Path of Erudition .\n\n To learn more about Rin Tohsaka check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n This character has no video guide yet.\n\n To learn more about Rin Tohsaka check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Rin Tohsaka skills aren't available yet. They will be added when the character is released.\n\n Major Traces\n Rin Tohsaka traces aren't available yet. They will be added when the character is released.\n\n Minor Traces (total)\n Rin Tohsaka traces aren't available yet. They will be added when the character is released.\n\n Eidolons\n Rin Tohsaka eidolons aren't available yet. They will be added when the character is released.\n\n Stats and materials\n Rin Tohsaka Stats and Materials aren't available yet. They will be added when the character is released.\n\n CV\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Review\n Review for Rin Tohsaka is not available yet. It will be added when the character is released.\n\n Build and teams\n\n Build and teams\n Build recommendations and team compositions for Rin Tohsaka are not available yet. They will be added when the character is released.\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

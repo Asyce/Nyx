@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="robots" content="noindex"/>
+<link rel="icon" type="image/png" href="/assets/icon/nyx_logo.png"/>
+<title>Page not found — Pengo</title>
+<style>
+  @font-face{ font-family:'GI'; src:url('/assets/fonts/GI.ttf') format('truetype'); font-display:swap; }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html,body{ height:100%; }
+  body{ background:#05040b; color:#f3f0ff; font-family:'Segoe UI',system-ui,sans-serif;
+    display:flex; align-items:center; justify-content:center; text-align:center; padding:24px;
+    background-image:radial-gradient(120% 95% at 50% 22%, #0b0820 0%, #05040b 72%); }
+  .wrap{ max-width:560px; }
+  .eye{ width:104px; height:104px; margin:0 auto 22px; opacity:.92;
+    background:#cdc2ff; -webkit-mask:url('/assets/icon/eye_ball.png') center/contain no-repeat;
+    mask:url('/assets/icon/eye_ball.png') center/contain no-repeat;
+    filter:drop-shadow(0 0 14px rgba(139,123,255,.5)); }
+  h1{ font-family:'GI',serif; font-size:64px; letter-spacing:.06em; margin-bottom:6px;
+    text-shadow:0 0 26px rgba(139,123,255,.45); }
+  p{ color:#c9c0ec; font-size:16px; line-height:1.5; margin-bottom:26px; }
+  .games{ display:flex; flex-wrap:wrap; gap:10px; justify-content:center; }
+  .games a{ display:inline-block; padding:9px 16px; border-radius:8px; text-decoration:none;
+    color:#ece6ff; font-size:14px; letter-spacing:.04em;
+    background:rgba(139,123,255,.14); box-shadow:inset 0 0 0 1px rgba(183,170,255,.28);
+    transition:background .2s, transform .2s; }
+  .games a:hover{ background:rgba(139,123,255,.26); transform:translateY(-2px); }
+  .games a:focus-visible{ outline:2px solid #b7aaff; outline-offset:2px; }
+  .home{ display:inline-block; margin-top:22px; color:#b7aaff; font-size:14px; }
+</style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="eye" aria-hidden="true"></div>
+    <h1>404</h1>
+    <p>That page wandered off the map. Pick a world to get back on track.</p>
+    <nav class="games" aria-label="Pengo games">
+      <a href="/genshin">Genshin Impact</a>
+      <a href="/hsr">Honkai: Star Rail</a>
+      <a href="/zzz">Zenless Zone Zero</a>
+      <a href="/wuwa">Wuthering Waves</a>
+      <a href="/endfield">Arknights: Endfield</a>
+      <a href="/nyx">Nyx hub</a>
+    </nav>
+    <a class="home" href="/">← Back to the worlds index</a>
+  </main>
+</body>
+</html>

@@ -1,0 +1,271 @@
+{
+  "id": "characters:suisui",
+  "provider": "Prydwen",
+  "game": "ww",
+  "gameName": "Wuthering Waves",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "suisui",
+  "name": "Suisui",
+  "title": "Suisui Best Build Guide",
+  "sourcePath": "/wuthering-waves/characters/suisui",
+  "contentStatus": "beta",
+  "statusLabels": [
+    "3.5"
+  ],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "18/June/2026",
+  "meta": {
+    "title": "Suisui Best Build Guide | Wuthering Waves (WuWa)",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Glacio",
+    "weapon": "Rectifier"
+  },
+  "assets": [
+    {
+      "id": "6c2f0381f367",
+      "sourceHash": "6c2f0381f367",
+      "kind": "characters",
+      "name": "Suisui",
+      "fileStem": "suisui-card",
+      "path": "Prydwen/ww/assets/characters/suisui-6c2f0381f367.webp",
+      "width": 210,
+      "height": 280
+    },
+    {
+      "id": "85054d52aec3",
+      "sourceHash": "85054d52aec3",
+      "kind": "icons",
+      "name": "Glacio",
+      "fileStem": "element-glacio",
+      "path": "Prydwen/ww/assets/icons/glacio-85054d52aec3.webp",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "d7e1ee5a66d1",
+      "sourceHash": "d7e1ee5a66d1",
+      "kind": "characters",
+      "name": "Suisui",
+      "fileStem": "suisui-full",
+      "path": "Prydwen/ww/assets/characters/suisui-d7e1ee5a66d1.webp",
+      "width": 600,
+      "height": 750
+    }
+  ],
+  "sections": [
+    {
+      "id": "suisui-best-build-guide-0",
+      "level": 1,
+      "heading": "Suisui Best Build Guide",
+      "text": "Last updated: 18/June/2026",
+      "assets": [
+        {
+          "id": "6c2f0381f367",
+          "sourceHash": "6c2f0381f367",
+          "kind": "characters",
+          "name": "Suisui",
+          "fileStem": "suisui-card",
+          "path": "Prydwen/ww/assets/characters/suisui-6c2f0381f367.webp",
+          "width": 210,
+          "height": 280
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Suisui from WW (Wuthering Waves). Suisui is a 5 ★ rarity character from the Glacio element who uses the Rectifier type weapon.\n\n To learn more about Suisui check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": [
+        {
+          "id": "85054d52aec3",
+          "sourceHash": "85054d52aec3",
+          "kind": "icons",
+          "name": "Glacio",
+          "fileStem": "element-glacio",
+          "path": "Prydwen/ww/assets/icons/glacio-85054d52aec3.webp",
+          "width": 20,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "This character has no video guide yet.\n\n To learn more about Suisui check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": []
+    },
+    {
+      "id": "calculations-7",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-8",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Suisui skills aren't available yet. They will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "resonance-chain-dupes-9",
+      "level": 2,
+      "heading": "Resonance Chain (Dupes)",
+      "text": "Suisui dupes information aren't available yet. They will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "minor-fortes-total-10",
+      "level": 2,
+      "heading": "Minor Fortes (Total)",
+      "text": "Suisui Minor Fortes information aren't available yet.",
+      "assets": []
+    },
+    {
+      "id": "stats-11",
+      "level": 2,
+      "heading": "Stats",
+      "text": "Suisui stats aren't available yet.",
+      "assets": []
+    },
+    {
+      "id": "upgrade-materials-12",
+      "level": 2,
+      "heading": "Upgrade Materials",
+      "text": "Suisui upgrade material information aren't available yet.",
+      "assets": []
+    },
+    {
+      "id": "voice-actors-13",
+      "level": 2,
+      "heading": "Voice Actors",
+      "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-14",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "d7e1ee5a66d1",
+          "sourceHash": "d7e1ee5a66d1",
+          "kind": "characters",
+          "name": "Suisui",
+          "fileStem": "suisui-full",
+          "path": "Prydwen/ww/assets/characters/suisui-d7e1ee5a66d1.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "ratings-15",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Suisui ratings aren't available yet.",
+      "assets": []
+    },
+    {
+      "id": "pros-cons-16",
+      "level": 2,
+      "heading": "Pros & Cons",
+      "text": "Suisui pros & cons aren't available yet.",
+      "assets": []
+    },
+    {
+      "id": "review-17",
+      "level": 2,
+      "heading": "Review",
+      "text": "Suisui mini-review isn't available yet.",
+      "assets": []
+    },
+    {
+      "id": "video-guides-18",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "Suisui guide videos aren't available yet.\n\n Build",
+      "assets": []
+    },
+    {
+      "id": "best-build-19",
+      "level": 2,
+      "heading": "Best build",
+      "text": "Suisui build information aren't available yet.\n\n Gameplay and teams",
+      "assets": []
+    },
+    {
+      "id": "rotation-20",
+      "level": 2,
+      "heading": "Rotation",
+      "text": "Suisui rotation information aren't available yet.",
+      "assets": []
+    },
+    {
+      "id": "synergies-21",
+      "level": 2,
+      "heading": "Synergies",
+      "text": "Suisui synergies are currently missing.",
+      "assets": []
+    },
+    {
+      "id": "example-teams-22",
+      "level": 2,
+      "heading": "Example Teams",
+      "text": "Suisui teams are currently missing.\n\n Calculations",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-echo-stats": {
+      "label": "Best Echo Stats",
+      "sections": [
+        {
+          "heading": "Stats",
+          "text": "Suisui stats aren't available yet.",
+          "assets": []
+        }
+      ]
+    },
+    "rotation": {
+      "label": "Rotation",
+      "sections": [
+        {
+          "heading": "Rotation",
+          "text": "Suisui rotation information aren't available yet.",
+          "assets": []
+        }
+      ]
+    },
+    "synergies": {
+      "label": "Synergies",
+      "sections": [
+        {
+          "heading": "Synergies",
+          "text": "Suisui synergies are currently missing.",
+          "assets": []
+        }
+      ]
+    },
+    "example-teams": {
+      "label": "Example Teams",
+      "sections": [
+        {
+          "heading": "Example Teams",
+          "text": "Suisui teams are currently missing.\n\n Calculations",
+          "assets": []
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Suisui Best Build Guide | Wuthering Waves (WuWa)\n \n\n Wuthering Waves\n Home Database Characters Weapons Echoes Banners\n Tier Lists Tier List Team Tier List Value Tier List\n Guides Guides\n Resources Map News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Wuthering Waves\n /\n Characters\n /\n Suisui\n Suisui Best Build Guide\n Last updated: 18/June/2026\n\n Introduction\n Best guide and build for Suisui from WW (Wuthering Waves). Suisui is a 5 ★ rarity character from the Glacio element who uses the Rectifier type weapon.\n\n To learn more about Suisui check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n This character has no video guide yet.\n\n To learn more about Suisui check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Kit\n\n Review\n\n Build\n\n Gameplay and teams\n\n Calculations\n\n Profile\n\n Skills\n Suisui skills aren't available yet. They will be added soon!\n\n Resonance Chain (Dupes)\n Suisui dupes information aren't available yet. They will be added soon!\n\n Minor Fortes (Total)\n Suisui Minor Fortes information aren't available yet.\n\n Stats\n Suisui stats aren't available yet.\n\n Upgrade Materials\n Suisui upgrade material information aren't available yet.\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Suisui ratings aren't available yet.\n\n Pros & Cons\n Suisui pros & cons aren't available yet.\n\n Review\n Suisui mini-review isn't available yet.\n\n Video guides\n Suisui guide videos aren't available yet.\n\n Build\n\n Best build\n Suisui build information aren't available yet.\n\n Gameplay and teams\n\n Rotation\n Suisui rotation information aren't available yet.\n\n Synergies\n Suisui synergies are currently missing.\n\n Example Teams\n Suisui teams are currently missing.\n\n Calculations"
+}

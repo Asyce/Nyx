@@ -1,0 +1,1592 @@
+{
+  "id": "characters:bronya",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "bronya",
+  "name": "Bronya",
+  "title": "Bronya Best Build Guide",
+  "sourcePath": "/star-rail/characters/bronya",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "31/May/2026",
+  "meta": {
+    "title": "Bronya Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Wind",
+    "path": "Harmony"
+  },
+  "assets": [
+    {
+      "id": "8b9a40705315",
+      "sourceHash": "8b9a40705315",
+      "kind": "characters",
+      "name": "Bronya",
+      "fileStem": "bronya-card",
+      "path": "Prydwen/hsr/assets/characters/bronya-8b9a40705315.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "c4c6f35c46eb",
+      "sourceHash": "c4c6f35c46eb",
+      "kind": "icons",
+      "name": "Wind DMG",
+      "fileStem": "stat-winddmg",
+      "path": "Prydwen/hsr/assets/icons/wind-dmg-c4c6f35c46eb.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "44c437b21b3a",
+      "sourceHash": "44c437b21b3a",
+      "kind": "icons",
+      "name": "CRIT DMG",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "9db79c7ddbf7",
+      "sourceHash": "9db79c7ddbf7",
+      "kind": "icons",
+      "name": "Effect RES",
+      "fileStem": "stat-effectres",
+      "path": "Prydwen/hsr/assets/icons/effect-res-9db79c7ddbf7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "96654253a4f7",
+      "sourceHash": "96654253a4f7",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "dc6aec4a7776",
+      "sourceHash": "dc6aec4a7776",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "a6be649090ba",
+      "sourceHash": "a6be649090ba",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "087f2dec68b6",
+      "sourceHash": "087f2dec68b6",
+      "kind": "icons",
+      "name": "Speed",
+      "fileStem": "stat-speed",
+      "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "50d0e755383a",
+      "sourceHash": "50d0e755383a",
+      "kind": "items",
+      "name": "Credit",
+      "fileStem": "credit",
+      "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "5920dfdbdd98",
+      "sourceHash": "5920dfdbdd98",
+      "kind": "items",
+      "name": "Silvermane Badge",
+      "fileStem": "silvermane-badge",
+      "path": "Prydwen/hsr/assets/items/silvermane-badge-5920dfdbdd98.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "c5270ddf85ba",
+      "sourceHash": "c5270ddf85ba",
+      "kind": "items",
+      "name": "Silvermane Insignia",
+      "fileStem": "silvermane-insignia",
+      "path": "Prydwen/hsr/assets/items/silvermane-insignia-c5270ddf85ba.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "d08c18c98818",
+      "sourceHash": "d08c18c98818",
+      "kind": "items",
+      "name": "Storm Eye",
+      "fileStem": "storm-eye",
+      "path": "Prydwen/hsr/assets/items/storm-eye-d08c18c98818.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "edfa40097b84",
+      "sourceHash": "edfa40097b84",
+      "kind": "items",
+      "name": "Silvermane Medal",
+      "fileStem": "silvermane-medal",
+      "path": "Prydwen/hsr/assets/items/silvermane-medal-edfa40097b84.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "4ae6e88598ab",
+      "sourceHash": "4ae6e88598ab",
+      "kind": "characters",
+      "name": "Bronya",
+      "fileStem": "bronya-full",
+      "path": "Prydwen/hsr/assets/characters/bronya-4ae6e88598ab.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "e88861d2cf9f",
+      "sourceHash": "e88861d2cf9f",
+      "kind": "light-cones",
+      "name": "A Grounded Ascent",
+      "fileStem": "a-grounded-ascent",
+      "path": "Prydwen/hsr/assets/light-cones/a-grounded-ascent-e88861d2cf9f.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "5524dabe1c9b",
+      "sourceHash": "5524dabe1c9b",
+      "kind": "light-cones",
+      "name": "But the Battle Isn't Over",
+      "fileStem": "but-the-battle-isnt-over",
+      "path": "Prydwen/hsr/assets/light-cones/but-the-battle-isnt-over-5524dabe1c9b.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "811928d0c67e",
+      "sourceHash": "811928d0c67e",
+      "kind": "light-cones",
+      "name": "Past and Future",
+      "fileStem": "past-and-future",
+      "path": "Prydwen/hsr/assets/light-cones/past-and-future-811928d0c67e.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "51329378b0cb",
+      "sourceHash": "51329378b0cb",
+      "kind": "light-cones",
+      "name": "Dance! Dance! Dance!",
+      "fileStem": "dance-dance-dance",
+      "path": "Prydwen/hsr/assets/light-cones/dance-dance-dance-51329378b0cb.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "5cb190fcc346",
+      "sourceHash": "5cb190fcc346",
+      "kind": "relics",
+      "name": "Sacerdos' Relived Ordeal",
+      "fileStem": "sacerdos-relived-ordeal",
+      "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "4cb8065ad660",
+      "sourceHash": "4cb8065ad660",
+      "kind": "relics",
+      "name": "Messenger Traversing Hackerspace",
+      "fileStem": "messenger-traversing-hackerspace",
+      "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "19b06ffee878",
+      "sourceHash": "19b06ffee878",
+      "kind": "relics",
+      "name": "Diviner of Distant Reach",
+      "fileStem": "diviner-of-distant-reach",
+      "path": "Prydwen/hsr/assets/relics/diviner-of-distant-reach-19b06ffee878.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "2f8ec1684b6b",
+      "sourceHash": "2f8ec1684b6b",
+      "kind": "relics",
+      "name": "Warrior Goddess of Sun and Thunder",
+      "fileStem": "warrior-goddess-of-sun-and-thunder",
+      "path": "Prydwen/hsr/assets/relics/warrior-goddess-of-sun-and-thunder-2f8ec1684b6b.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "36af28ceb2d3",
+      "sourceHash": "36af28ceb2d3",
+      "kind": "relics",
+      "name": "Eagle of Twilight Line",
+      "fileStem": "eagle-of-twilight-line",
+      "path": "Prydwen/hsr/assets/relics/eagle-of-twilight-line-36af28ceb2d3.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "3306e6f6288f",
+      "sourceHash": "3306e6f6288f",
+      "kind": "relics",
+      "name": "Broken Keel",
+      "fileStem": "broken-keel",
+      "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5b886a96e17a",
+      "sourceHash": "5b886a96e17a",
+      "kind": "relics",
+      "name": "Fleet of the Ageless",
+      "fileStem": "fleet-of-the-ageless",
+      "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d6cdb5f16b16",
+      "sourceHash": "d6cdb5f16b16",
+      "kind": "relics",
+      "name": "Penacony, Land of the Dreams",
+      "fileStem": "penacony-land-of-the-dreams",
+      "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d6aae5028c5a",
+      "sourceHash": "d6aae5028c5a",
+      "kind": "relics",
+      "name": "Lushaka, the Sunken Seas",
+      "fileStem": "lushaka-the-sunken-seas",
+      "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "bb6d718b4cb3",
+      "sourceHash": "bb6d718b4cb3",
+      "kind": "relics",
+      "name": "Sprightly Vonwacq",
+      "fileStem": "sprightly-vonwacq",
+      "path": "Prydwen/hsr/assets/relics/sprightly-vonwacq-bb6d718b4cb3.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "106ddd8eff32",
+      "sourceHash": "106ddd8eff32",
+      "kind": "icons",
+      "name": "Energy Regen",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "0e40f16a52d5",
+      "sourceHash": "0e40f16a52d5",
+      "kind": "characters",
+      "name": "Blade",
+      "fileStem": "blade-icon",
+      "path": "Prydwen/hsr/assets/characters/blade-0e40f16a52d5.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "01364e9ee9d6",
+      "sourceHash": "01364e9ee9d6",
+      "kind": "characters",
+      "name": "Jingliu",
+      "fileStem": "jingliu-icon",
+      "path": "Prydwen/hsr/assets/characters/jingliu-01364e9ee9d6.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "fd57eb6e6eb9",
+      "sourceHash": "fd57eb6e6eb9",
+      "kind": "characters",
+      "name": "Boothill",
+      "fileStem": "boothill-icon",
+      "path": "Prydwen/hsr/assets/characters/boothill-fd57eb6e6eb9.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "bdd27122e011",
+      "sourceHash": "bdd27122e011",
+      "kind": "characters",
+      "name": "Phainon",
+      "fileStem": "phainon-icon",
+      "path": "Prydwen/hsr/assets/characters/phainon-bdd27122e011.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e0db16ed6c66",
+      "sourceHash": "e0db16ed6c66",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "ele-physical",
+      "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "239e290d80b6",
+      "sourceHash": "239e290d80b6",
+      "kind": "characters",
+      "name": "Bronya",
+      "fileStem": "bronya-icon",
+      "path": "Prydwen/hsr/assets/characters/bronya-239e290d80b6.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ee11bd390c9a",
+      "sourceHash": "ee11bd390c9a",
+      "kind": "icons",
+      "name": "Wind",
+      "fileStem": "ele-wind",
+      "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "3d568cb7f29d",
+      "sourceHash": "3d568cb7f29d",
+      "kind": "characters",
+      "name": "Sunday",
+      "fileStem": "sunday-icon",
+      "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "913ff64407f2",
+      "sourceHash": "913ff64407f2",
+      "kind": "icons",
+      "name": "Imaginary",
+      "fileStem": "ele-imaginary",
+      "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "714348f14d48",
+      "sourceHash": "714348f14d48",
+      "kind": "characters",
+      "name": "Dan Heng • Permansor Terrae",
+      "fileStem": "dan-heng-permansor-terrae-icon",
+      "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1b219ef71829",
+      "sourceHash": "1b219ef71829",
+      "kind": "characters",
+      "name": "Cerydra",
+      "fileStem": "cerydra-icon",
+      "path": "Prydwen/hsr/assets/characters/cerydra-1b219ef71829.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "da99d2d9a505",
+      "sourceHash": "da99d2d9a505",
+      "kind": "characters",
+      "name": "Sparkle",
+      "fileStem": "sparkle-icon",
+      "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "565914d1a436",
+      "sourceHash": "565914d1a436",
+      "kind": "icons",
+      "name": "Quantum",
+      "fileStem": "ele-quantum",
+      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "d3e344772d55",
+      "sourceHash": "d3e344772d55",
+      "kind": "characters",
+      "name": "Trailblazer • Remembrance",
+      "fileStem": "trailblazer-remembrance-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "7d36eb39792a",
+      "sourceHash": "7d36eb39792a",
+      "kind": "icons",
+      "name": "Ice",
+      "fileStem": "ele-ice",
+      "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "4c12f1ecf12f",
+      "sourceHash": "4c12f1ecf12f",
+      "kind": "characters",
+      "name": "Firefly",
+      "fileStem": "firefly-icon",
+      "path": "Prydwen/hsr/assets/characters/firefly-4c12f1ecf12f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "92feb26d8f0e",
+      "sourceHash": "92feb26d8f0e",
+      "kind": "icons",
+      "name": "Fire",
+      "fileStem": "ele-fire",
+      "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "444d6f5749b7",
+      "sourceHash": "444d6f5749b7",
+      "kind": "characters",
+      "name": "Tingyun • Fugue",
+      "fileStem": "tingyun-fugue-icon",
+      "path": "Prydwen/hsr/assets/characters/tingyun-fugue-444d6f5749b7.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "cec6f11ca61e",
+      "sourceHash": "cec6f11ca61e",
+      "kind": "characters",
+      "name": "The Dahlia",
+      "fileStem": "the-dahlia-icon",
+      "path": "Prydwen/hsr/assets/characters/the-dahlia-cec6f11ca61e.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e985c6a49a99",
+      "sourceHash": "e985c6a49a99",
+      "kind": "characters",
+      "name": "Robin",
+      "fileStem": "robin-icon",
+      "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "de41e1704266",
+      "sourceHash": "de41e1704266",
+      "kind": "characters",
+      "name": "Trailblazer • Harmony",
+      "fileStem": "trailblazer-harmony-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-harmony-de41e1704266.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ca43f286c4b8",
+      "sourceHash": "ca43f286c4b8",
+      "kind": "characters",
+      "name": "Anaxa",
+      "fileStem": "anaxa-icon",
+      "path": "Prydwen/hsr/assets/characters/anaxa-ca43f286c4b8.webp",
+      "width": 60,
+      "height": 60
+    }
+  ],
+  "sections": [
+    {
+      "id": "bronya-best-build-guide-0",
+      "level": 1,
+      "heading": "Bronya Best Build Guide",
+      "text": "Last updated: 31/May/2026",
+      "assets": [
+        {
+          "id": "8b9a40705315",
+          "sourceHash": "8b9a40705315",
+          "kind": "characters",
+          "name": "Bronya",
+          "fileStem": "bronya-card",
+          "path": "Prydwen/hsr/assets/characters/bronya-8b9a40705315.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Bronya from HSR (Honkai: Star Rail). Bronya is a 5 ★ character from the Wind element who follows the Path of Harmony .\n Heir to the Supreme Guardian of Belobog, she is the young and capable commander of the Silvermane Guards. Bronya received rigorous education from an early age, and possesses the grace and affinity as expected of an heir. However, after witnessing the abysmal conditions in the Underworld, seeds of doubt began growing in Belobog's future leader's mind.\n\n\"Can all the training I've received really help me lead the people to the lives they want?\"\n\n To learn more about Bronya check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Bronya has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 3.0\n\n Last major build/calcs update\n Patch 3.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Bronya check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic ATK\n Windrider Bullet\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Wind DMG equal to #1[i]% of Bronya's ATK to a single enemy.\n\n Skill\n Combat Redeployment\n Support\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by #1[i]% for #3[i] turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.\n\n Ultimate\n The Belobog March\n Support | 120 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: -\n\n Increases the ATK of all allies by #1[i]%, and increases their CRIT DMG equal to #2[i]% of Bronya's CRIT DMG plus #3[i]% for #4[i] turn(s).\n\n Talent\n Leading the Way\n Enhance\n\n Lv. 1\n\n Energy gain: 5\n Break: 10\n\n After using her Basic ATK, Bronya's next action will be Advanced Forward by #1[i]%.\n\n Technique\n Banner of Command\n Support\n\n Energy gain: 0\n Break: -\n\n After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by #1[i]% for #2[i] turn(s).",
+      "assets": []
+    },
+    {
+      "id": "major-traces-10",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "A2 Major trace\n Command\n\n The CRIT Rate for Basic ATK increases to 100% .\n\n A4 Major trace\n Battlefield\n\n At the start of the battle, all allies' DEF increases by 20% for 2 turn(s).\n\n A6 Major trace\n Military Might\n\n When Bronya is on the field, all allies deal 10% more DMG.",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-11",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "Wind DMG\n + 22.4%\n\n CRIT DMG\n + 24%\n\n Effect RES\n + 10%",
+      "assets": [
+        {
+          "id": "c4c6f35c46eb",
+          "sourceHash": "c4c6f35c46eb",
+          "kind": "icons",
+          "name": "Wind DMG",
+          "fileStem": "stat-winddmg",
+          "path": "Prydwen/hsr/assets/icons/wind-dmg-c4c6f35c46eb.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "44c437b21b3a",
+          "sourceHash": "44c437b21b3a",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "9db79c7ddbf7",
+          "sourceHash": "9db79c7ddbf7",
+          "kind": "icons",
+          "name": "Effect RES",
+          "fileStem": "stat-effectres",
+          "path": "Prydwen/hsr/assets/icons/effect-res-9db79c7ddbf7.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "eidolons-12",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "E 1\n Hone Your Strength\n Eidolon 1\n\n Using Bronya's Skill has a 50% fixed chance of recovering 1 Skill Point. This effect has a 1 turn cooldown.\n\n E 2\n Quick March\n Eidolon 2\n\n When using Skill, the target ally's SPD increases by 30% after taking action, lasting for 1 turn.\n\n E 3\n Bombardment\n Eidolon 3\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 4\n Take by Surprise\n Eidolon 4\n\n After an ally uses Basic ATK on an enemy with Wind Weakness , Bronya immediately launches a follow-up attack on the target, dealing Wind DMG equal to 80% of Bronya's Basic ATK DMG. This effect can only be triggered 1 time per turn.\n\n E 5\n Unstoppable\n Eidolon 5\n\n Skill Lv. +2 , up to a maximum of Lv. 15 . Basic ATK Lv. +1 . up to a maximum of Lv. 10 .\n\n E 6\n Piercing Rainbow\n Eidolon 6\n\n The duration of the DMG Boost effect placed by the Skill on the target ally increases by 1 turn(s).",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-13",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Enable Ascension",
+      "assets": []
+    },
+    {
+      "id": "level-80-stats-14",
+      "level": 5,
+      "heading": "Level 80 stats",
+      "text": "HP\n\n 1241\n\n ATK\n\n 582\n\n DEF\n\n 533\n\n Speed\n\n 99",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "level-1-80-ascension-materials-15",
+      "level": 5,
+      "heading": "Level 1 → 80 Ascension Materials",
+      "text": "Credit\n\n x 308000\n\n Silvermane Badge\n\n x 15\n\n Silvermane Insignia\n\n x 15\n\n Storm Eye\n\n x 65\n\n Silvermane Medal\n\n x 15",
+      "assets": [
+        {
+          "id": "50d0e755383a",
+          "sourceHash": "50d0e755383a",
+          "kind": "items",
+          "name": "Credit",
+          "fileStem": "credit",
+          "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "5920dfdbdd98",
+          "sourceHash": "5920dfdbdd98",
+          "kind": "items",
+          "name": "Silvermane Badge",
+          "fileStem": "silvermane-badge",
+          "path": "Prydwen/hsr/assets/items/silvermane-badge-5920dfdbdd98.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "c5270ddf85ba",
+          "sourceHash": "c5270ddf85ba",
+          "kind": "items",
+          "name": "Silvermane Insignia",
+          "fileStem": "silvermane-insignia",
+          "path": "Prydwen/hsr/assets/items/silvermane-insignia-c5270ddf85ba.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "d08c18c98818",
+          "sourceHash": "d08c18c98818",
+          "kind": "items",
+          "name": "Storm Eye",
+          "fileStem": "storm-eye",
+          "path": "Prydwen/hsr/assets/items/storm-eye-d08c18c98818.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "edfa40097b84",
+          "sourceHash": "edfa40097b84",
+          "kind": "items",
+          "name": "Silvermane Medal",
+          "fileStem": "silvermane-medal",
+          "path": "Prydwen/hsr/assets/items/silvermane-medal-edfa40097b84.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "cv-16",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n Madeline Reiter\n\n JPN\n Asumi Kana (阿澄佳奈)\n\n CN\n 谢莹\n\n KR\n 이보희",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "4ae6e88598ab",
+          "sourceHash": "4ae6e88598ab",
+          "kind": "characters",
+          "name": "Bronya",
+          "fileStem": "bronya-full",
+          "path": "Prydwen/hsr/assets/characters/bronya-4ae6e88598ab.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Absurd offensive buffs,\n\n 100% Action Advance on Skill,\n\n Flexible playstyles,\n\n Scales tremendously well with Eidolons.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Skill's 1 turn buff doesn't work well with some damage dealers,\n\n Really wants her E1 to help with SP issues,\n\n Overall game knowledge checker with a high floor and high ceiling.",
+      "assets": []
+    },
+    {
+      "id": "review-by-sushou-21",
+      "level": 2,
+      "heading": "Review (By Sushou)",
+      "text": "Bronya is a potent Harmony support who specializes in helping Hypercarry DPS. She can Advance a single ally's Action by 100%, functionally giving them another turn before their time, and gives them a large DMG boost. She also increases the whole team's ATK and additionally their CRIT DMG based on how much CRIT DMG Bronya herself has. She is a quintessential support character for hypercarry setups where SP consumption is not a concern.\n Bronya is possibly one of the most complex characters in the game to maximise. Her abilities lend themselves perfectly to boosting the absolute heck out of a single teammate but require her to be perfectly tuned to said teammate's SPD. Add in the potential to shift Bronya herself in the turn order from her Talent and you have the biggest headache in this game. Not even Yukong is as mentally taxing as Bronya is.\n Because SPD is such an important stat when talking about Bronya, you may think that it is important that you understand what SPD is. It's convoluted, that's for sure, but I can safely say that you do not need to understand SPD at its most fundamental to be able to use Bronya.\n All of this is essentially because you want to maximise the value of the 100% Action Advance on Bronya's Skill. She targets a single ally, dispels 1 debuff from them, increases their DMG by up to 66%, and Action Advances them by 100%, meaning it is now their turn once more. The best way for this Skill to be used is literally immediately after your damage dealer has already acted — and I do mean immediately . That little number you see on character portraits in the turn order? Yeah, Bronya should be immediately after your current damage dealer's turn and that number should ideally be as close to 1 as possible.\n This is what has lead to colloquial descriptions of Bronya playstyles such as 'Slow Bronya' in which she is SPD tuned to have 1 fewer point of SPD compared to the DPS (so if your DPS has 134 SPD, Bronya should have 133 or so), or 'Hyper Bronya' in which Bronya goes plus ultra on her SPD stat to around the 160s or even higher if that's even possible, and you just relentlessly Action Advance your preferably low SPD damage dealer.\n This gets even more interesting with Bronya's Talent. After using her Basic ATK, Bronya's own Action will be Advanced Forward by up to 30%. You get more turn per turn, essentially. This is also how Bronya can 'fix' her spot in the turn order by quite literally just shifting herself up until she's where she needs to be. This leads to other various forms of 'alternating' playstyles, in which Bronya alternates between Skill and Basic ATK to keep herself and her damage dealer aligned.\n It's... a lot, I know. However, I will say that you can definitely get a feel for all of this by just playing her over time, especially under unfavourable circumstances. Bronya's Talent and Skill can fix a lot of unsavoury situations during combat, and there's really no need to strictly adhere to one SPD value or Bronya playstyle unless you're trying to be fully, maximally , optimal. Again, there are plenty of resources online for figuring all of this out, as well as calculators to find your optimal speeds.\n Bronya's Ultimate increases the ATK of all allies by up to 55%, and increases their CRIT DMG by up to 16% of Bronya's CRIT DMG plus 20% for 2 turns . This can result in a very powerful CRIT buff for your damage dealers, especially if Bronya is built for a lot of CRIT DMG. At an average cost of 120 Energy, this can be up fairly frequently, potentially having full uptime with the proper Light Cones and maybe some luck here and there. CRIT buffs are extremely powerful because they're usually quite rare, and now factoring in her Skill as well, Bronya is capable of providing ATK%, DMG%, and CDMG% to your damage dealer.\n Amusingly enough, the single strongest thing she has is the Action Advance — more turns equals more damage. It's probably the simplest part of her whole kit. The only issue with this is the exorbitant SP costs attempting to maintain frequent Skill usages. This is where the alternating playstyles come in, but these playstyles have inexorable damage losses associated with them compared to just spamming her Skill. Maintaining good SP economy is paramount to seeing success with Bronya over extended fights. I specify extended because if you just kill the enemies fast enough that you don't run out of SP, well then you no longer really have a problem there.\n Bronya's Bonus Traces don't really change anything besides providing nice passive bonuses. A2 increases the CRIT chance of her Basic ATK to 100%, A4 provides a 20% DEF boost for 2 turns upon entering combat, and A6 provides a permanent 10% DMG buff for as long as Bronya is alive and on the field.\n Her Eidolons are something that players may get over time due to her being a standard 5-star character. They are all quite impressive, meaning Bronya scales even better with Eidolons. E1 is a great starting point since it gives her Skill a 50% fixed chance of refunding a Skill Point on use, with a 1 turn cooldown. This greatly alleviates the SP concerns from spamming her Skill and is so valuable that many players opt to use their 300 standard pull guarantee on a second copy of Bronya just for this. That decision is ultimately up to the player, but it is verifiably good.\n Because of Bronya's Skill's 1-turn duration, the DMG boost actually doesn't catch a fair few things from certain damage dealers, making the pair rather incompatible. The biggest ones to note are follow-up attackers like Topaz, Dr. Ratio, and especially Jing Yuan, characters where the vast majority of their damage comes outside of their turn. This is why E6 Bronya is the dream, as E6 extends the duration of the DMG buff from 1 turn to 2 turns, meaning everyone gets to benefit from it unconditionally.\n Overall, Bronya has a lot more competition these days, mostly from Sunday and Sparkle who are the two other Hypercarry Supports, but also from Ruan Mei and Robin. Still, despite all that, Bronya found her home with Boothill who doesn't really use her CRIT DMG buff, but loves the additional actions she grants him.",
+      "assets": []
+    },
+    {
+      "id": "ratings-22",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n T2\n MoC\n\n T1.5\n PF\n\n T1.5\n AS\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "best-light-cones-24",
+      "level": 2,
+      "heading": "Best Light Cones",
+      "text": "1\n\n A Grounded Ascent (S 1 )\n\n Sunday’s Signature Light Cone refunds 1 Skill Point every other Skill usage, while also providing a strong ramping DMG% buff, making it the top pick for Bronya.\n Usage: 6.79 %\n MoC: -\n PF: 0\n AS: 0\n\n 2\n\n But the Battle Isn't Over (S 1 )\n\n A top option for characters that advance others via their skill, guaranteeing the DMG% boost of this Cone. Useful even on characters without the ability, thanks to the Energy Regen and skill point generation.\n Usage: 67.38 %\n MoC: -\n PF: 25960\n AS: 3239\n\n 3\n\n Past and Future (S 5 )\n\n F2P option and alternative to But The Battle Isn't Over for characters that advance others via their Skill, guaranteeing the DMG% boost of this Cone.\n Usage: 7.65 %\n MoC: -\n PF: 0\n AS: 3318",
+      "assets": [
+        {
+          "id": "e88861d2cf9f",
+          "sourceHash": "e88861d2cf9f",
+          "kind": "light-cones",
+          "name": "A Grounded Ascent",
+          "fileStem": "a-grounded-ascent",
+          "path": "Prydwen/hsr/assets/light-cones/a-grounded-ascent-e88861d2cf9f.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "5524dabe1c9b",
+          "sourceHash": "5524dabe1c9b",
+          "kind": "light-cones",
+          "name": "But the Battle Isn't Over",
+          "fileStem": "but-the-battle-isnt-over",
+          "path": "Prydwen/hsr/assets/light-cones/but-the-battle-isnt-over-5524dabe1c9b.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "811928d0c67e",
+          "sourceHash": "811928d0c67e",
+          "kind": "light-cones",
+          "name": "Past and Future",
+          "fileStem": "past-and-future",
+          "path": "Prydwen/hsr/assets/light-cones/past-and-future-811928d0c67e.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "specialist-light-cones-25",
+      "level": 3,
+      "heading": "Specialist Light Cones",
+      "text": "1\n\n Dance! Dance! Dance! (S 5 )\n\n Allows characters with high Speed and/or an accessible Ultimate to grant substantial action boosts to themselves and the team allowing for higher Speed (and cycle) breakpoints. Strongest on characters who can access their Ultimate at least once every 3 (but ideally 2) actions. Specifically strong when combined with other additional action advances or energy generation. When playing Bronya according to the -1 Speed build exercise caution when using this set bonus as it can ruin your Speed tuning unless carefully managed.\n Usage: 8.48 %\n MoC: -\n PF: 21480\n AS: 0",
+      "assets": [
+        {
+          "id": "51329378b0cb",
+          "sourceHash": "51329378b0cb",
+          "kind": "light-cones",
+          "name": "Dance! Dance! Dance!",
+          "fileStem": "dance-dance-dance",
+          "path": "Prydwen/hsr/assets/light-cones/dance-dance-dance-51329378b0cb.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-relic-sets-27",
+      "level": 2,
+      "heading": "Best Relic Sets",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Sacerdos' Relived Ordeal ( 4 -PC)\n\n Incredibly powerful set for characters with Ultimates and or Skills which target a single ally and who work well in teams with a sole damage dealer who can benefit from CRIT DMG.\n Usage: 48.43 %\n MoC: -\n PF: 27680\n AS: 3272\n\n 2\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Usage: 7.28 %\n MoC: -\n PF: 0\n AS: 0",
+      "assets": [
+        {
+          "id": "5cb190fcc346",
+          "sourceHash": "5cb190fcc346",
+          "kind": "relics",
+          "name": "Sacerdos' Relived Ordeal",
+          "fileStem": "sacerdos-relived-ordeal",
+          "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "4cb8065ad660",
+          "sourceHash": "4cb8065ad660",
+          "kind": "relics",
+          "name": "Messenger Traversing Hackerspace",
+          "fileStem": "messenger-traversing-hackerspace",
+          "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "19b06ffee878",
+          "sourceHash": "19b06ffee878",
+          "kind": "relics",
+          "name": "Diviner of Distant Reach",
+          "fileStem": "diviner-of-distant-reach",
+          "path": "Prydwen/hsr/assets/relics/diviner-of-distant-reach-19b06ffee878.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "2f8ec1684b6b",
+          "sourceHash": "2f8ec1684b6b",
+          "kind": "relics",
+          "name": "Warrior Goddess of Sun and Thunder",
+          "fileStem": "warrior-goddess-of-sun-and-thunder",
+          "path": "Prydwen/hsr/assets/relics/warrior-goddess-of-sun-and-thunder-2f8ec1684b6b.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-specialist-relic-sets-28",
+      "level": 6,
+      "heading": "Best Specialist Relic Sets",
+      "text": "1\n\n Messenger Traversing Hackerspace ( 4 -PC)\n\n Good team wide supportive option for characters with Ultimates which target allies. With this set equipped Ultimates are best timed carefully to ensure the Speed buff is active on key members for as long as possible. When playing Bronya according to the -1 Speed build exercise caution when using this set bonus as it can ruin your Speed tuning unless carefully managed (challenging).\n Usage: 19.28 %\n MoC: -\n PF: 24240\n AS: 3422\n\n 2\n\n Eagle of Twilight Line ( 4 -PC)\n\n Allows characters with accessible Ultimates to reach higher Speed (and cycle) breakpoints compared to just stacking Speed. Strongest on characters with powerful ultimate related effects or who can access their ultimate at least once every 3 (but ideally 2) actions. Particularly strong when combined with other action advancement effects. When playing Bronya according to the -1 Speed build exercise caution when using this set bonus as it can ruin your Speed tuning unless carefully managed (challenging).\n Usage: 5.29 %\n MoC: -\n PF: 0\n AS: 0",
+      "assets": [
+        {
+          "id": "4cb8065ad660",
+          "sourceHash": "4cb8065ad660",
+          "kind": "relics",
+          "name": "Messenger Traversing Hackerspace",
+          "fileStem": "messenger-traversing-hackerspace",
+          "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "36af28ceb2d3",
+          "sourceHash": "36af28ceb2d3",
+          "kind": "relics",
+          "name": "Eagle of Twilight Line",
+          "fileStem": "eagle-of-twilight-line",
+          "path": "Prydwen/hsr/assets/relics/eagle-of-twilight-line-36af28ceb2d3.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-planetary-sets-29",
+      "level": 6,
+      "heading": "Best Planetary Sets",
+      "text": "1\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n Usage: 44.17 %\n MoC: -\n PF: 24580\n AS: 3242\n\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n Usage: 4.22 %\n MoC: -\n PF: 0\n AS: 0\n\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n Usage: 28.58 %\n MoC: -\n PF: 24240\n AS: 3272",
+      "assets": [
+        {
+          "id": "3306e6f6288f",
+          "sourceHash": "3306e6f6288f",
+          "kind": "relics",
+          "name": "Broken Keel",
+          "fileStem": "broken-keel",
+          "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "5b886a96e17a",
+          "sourceHash": "5b886a96e17a",
+          "kind": "relics",
+          "name": "Fleet of the Ageless",
+          "fileStem": "fleet-of-the-ageless",
+          "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "d6cdb5f16b16",
+          "sourceHash": "d6cdb5f16b16",
+          "kind": "relics",
+          "name": "Penacony, Land of the Dreams",
+          "fileStem": "penacony-land-of-the-dreams",
+          "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "d6aae5028c5a",
+          "sourceHash": "d6aae5028c5a",
+          "kind": "relics",
+          "name": "Lushaka, the Sunken Seas",
+          "fileStem": "lushaka-the-sunken-seas",
+          "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-specialist-planetary-sets-30",
+      "level": 6,
+      "heading": "Best Specialist Planetary Sets",
+      "text": "1\n\n Sprightly Vonwacq ( 2 -PC)\n\n Incredibly potent option for buff/debuff based characters. The advance from this set allows the wearer to apply their buffs/debuffs before the rest of the team acts, accelerate rotations, allows access to ultimates closer to the start of the fight and also grants Energy Regen - a valuable stat for many supports.\n Usage: 18.25 %\n MoC: -\n PF: 0\n AS: 0",
+      "assets": [
+        {
+          "id": "bb6d718b4cb3",
+          "sourceHash": "bb6d718b4cb3",
+          "kind": "relics",
+          "name": "Sprightly Vonwacq",
+          "fileStem": "sprightly-vonwacq",
+          "path": "Prydwen/hsr/assets/relics/sprightly-vonwacq-bb6d718b4cb3.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-stats-32",
+      "level": 2,
+      "heading": "Best Stats",
+      "text": "Body\n CRIT DMG\n\n Feet\n Speed\n\n Planar Sphere\n HP%\n > DEF%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (Until breakpoint) > CRIT DMG > HP = DEF > Effect RES% (30% If Keel)\n\n Can be played 2 ways, either Tune her SPD to be 1 below main DPS and spam Skill, or maximize her SPD to alternate between Basics and Skills to remain SP Neutral.",
+      "assets": [
+        {
+          "id": "44c437b21b3a",
+          "sourceHash": "44c437b21b3a",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "106ddd8eff32",
+          "sourceHash": "106ddd8eff32",
+          "kind": "icons",
+          "name": "Energy Regen",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "recommended-endgame-stats-33",
+      "level": 2,
+      "heading": "Recommended endgame stats",
+      "text": "HP: 3000 - 4000+\n\n DEF: 800 - 1100+\n\n SPD: 1-2 Speed slower than carry / 160+ (0 Speed Carry)\n\n ENERGY REGEN : 19.44%+\n\n CRIT DMG: 175 - 210%+",
+      "assets": []
+    },
+    {
+      "id": "traces-priority-34",
+      "level": 2,
+      "heading": "Traces priority",
+      "text": "Skills priority: Skill > Ultimate > Talent > Basic\n\n Major Traces priority: Command (A2) > Military Might (A6) > Battlefield (A4)",
+      "assets": []
+    },
+    {
+      "id": "synergy-35",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Blade - Blade being a DPS who rarely uses any Skill Points allows Bronya to always skill on him for maximizing DPS output, while also utilising all of her buffs, unlike other Harmonies who are always missing 1 or 2 buffs compared to Bronya.\n Jingliu - Jingliu has an awkward downtime after coming out of her Syzygy state, with a -1 Speed Bronya setup, you can skill with Jingliu into Bronya skilling her back up to go straight back into her Syzygy state and prolong her insane damage output.\n Boothill - Boothill biggest weakness is his ramp-up time from being Single Target and needing to get his Pocket Trickshots done asap to deal the most damage. Bronya alleviates the ramp-up time if built with -1 Speed to Boothill, and can allow for much quicker rotations, at the cost of additional Skill Point consumption.",
+      "assets": [
+        {
+          "id": "0e40f16a52d5",
+          "sourceHash": "0e40f16a52d5",
+          "kind": "characters",
+          "name": "Blade",
+          "fileStem": "blade-icon",
+          "path": "Prydwen/hsr/assets/characters/blade-0e40f16a52d5.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "01364e9ee9d6",
+          "sourceHash": "01364e9ee9d6",
+          "kind": "characters",
+          "name": "Jingliu",
+          "fileStem": "jingliu-icon",
+          "path": "Prydwen/hsr/assets/characters/jingliu-01364e9ee9d6.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "fd57eb6e6eb9",
+          "sourceHash": "fd57eb6e6eb9",
+          "kind": "characters",
+          "name": "Boothill",
+          "fileStem": "boothill-icon",
+          "path": "Prydwen/hsr/assets/characters/boothill-fd57eb6e6eb9.webp",
+          "width": 45,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "id": "anomaly-arbitration-40",
+      "level": 6,
+      "heading": "Anomaly Arbitration",
+      "text": "Rank 67\n App. rate: 0.3 %\n Avg. cycles : 9\n Avg. cycles (E1+): 6.15\n\n Rank 87\n App. rate: 0.21 %\n Avg. cycles : -\n Avg. cycles (E1+): 3.76\n\n Rank 126\n App. rate: 0.12 %\n Avg. cycles : 10\n Avg. cycles (E1+): 2.3\n\n Rank 202\n App. rate: 0.06 %\n Avg. cycles : -\n Avg. cycles (E1+): 1.4\n\n Rank 248\n App. rate: 0.04 %\n Avg. cycles : -\n Avg. cycles (E1+): 2.33\n\n Rank 306\n App. rate: 0.03 %\n Avg. cycles : -\n Avg. cycles (E1+): 3.5\n\n Rank 306\n App. rate: 0.03 %\n Avg. cycles : -\n Avg. cycles (E1+): 3.25\n\n Rank 306\n App. rate: 0.03 %\n Avg. cycles : -\n Avg. cycles (E1+): 4\n\n Rank 400\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 6.33\n\n Rank 400\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.33",
+      "assets": [
+        {
+          "id": "bdd27122e011",
+          "sourceHash": "bdd27122e011",
+          "kind": "characters",
+          "name": "Phainon",
+          "fileStem": "phainon-icon",
+          "path": "Prydwen/hsr/assets/characters/phainon-bdd27122e011.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0db16ed6c66",
+          "sourceHash": "e0db16ed6c66",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "ele-physical",
+          "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "239e290d80b6",
+          "sourceHash": "239e290d80b6",
+          "kind": "characters",
+          "name": "Bronya",
+          "fileStem": "bronya-icon",
+          "path": "Prydwen/hsr/assets/characters/bronya-239e290d80b6.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ee11bd390c9a",
+          "sourceHash": "ee11bd390c9a",
+          "kind": "icons",
+          "name": "Wind",
+          "fileStem": "ele-wind",
+          "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "3d568cb7f29d",
+          "sourceHash": "3d568cb7f29d",
+          "kind": "characters",
+          "name": "Sunday",
+          "fileStem": "sunday-icon",
+          "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "913ff64407f2",
+          "sourceHash": "913ff64407f2",
+          "kind": "icons",
+          "name": "Imaginary",
+          "fileStem": "ele-imaginary",
+          "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "714348f14d48",
+          "sourceHash": "714348f14d48",
+          "kind": "characters",
+          "name": "Dan Heng • Permansor Terrae",
+          "fileStem": "dan-heng-permansor-terrae-icon",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1b219ef71829",
+          "sourceHash": "1b219ef71829",
+          "kind": "characters",
+          "name": "Cerydra",
+          "fileStem": "cerydra-icon",
+          "path": "Prydwen/hsr/assets/characters/cerydra-1b219ef71829.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "da99d2d9a505",
+          "sourceHash": "da99d2d9a505",
+          "kind": "characters",
+          "name": "Sparkle",
+          "fileStem": "sparkle-icon",
+          "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "565914d1a436",
+          "sourceHash": "565914d1a436",
+          "kind": "icons",
+          "name": "Quantum",
+          "fileStem": "ele-quantum",
+          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "d3e344772d55",
+          "sourceHash": "d3e344772d55",
+          "kind": "characters",
+          "name": "Trailblazer • Remembrance",
+          "fileStem": "trailblazer-remembrance-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7d36eb39792a",
+          "sourceHash": "7d36eb39792a",
+          "kind": "icons",
+          "name": "Ice",
+          "fileStem": "ele-ice",
+          "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "4c12f1ecf12f",
+          "sourceHash": "4c12f1ecf12f",
+          "kind": "characters",
+          "name": "Firefly",
+          "fileStem": "firefly-icon",
+          "path": "Prydwen/hsr/assets/characters/firefly-4c12f1ecf12f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "92feb26d8f0e",
+          "sourceHash": "92feb26d8f0e",
+          "kind": "icons",
+          "name": "Fire",
+          "fileStem": "ele-fire",
+          "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "444d6f5749b7",
+          "sourceHash": "444d6f5749b7",
+          "kind": "characters",
+          "name": "Tingyun • Fugue",
+          "fileStem": "tingyun-fugue-icon",
+          "path": "Prydwen/hsr/assets/characters/tingyun-fugue-444d6f5749b7.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "cec6f11ca61e",
+          "sourceHash": "cec6f11ca61e",
+          "kind": "characters",
+          "name": "The Dahlia",
+          "fileStem": "the-dahlia-icon",
+          "path": "Prydwen/hsr/assets/characters/the-dahlia-cec6f11ca61e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e985c6a49a99",
+          "sourceHash": "e985c6a49a99",
+          "kind": "characters",
+          "name": "Robin",
+          "fileStem": "robin-icon",
+          "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "de41e1704266",
+          "sourceHash": "de41e1704266",
+          "kind": "characters",
+          "name": "Trailblazer • Harmony",
+          "fileStem": "trailblazer-harmony-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-harmony-de41e1704266.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ca43f286c4b8",
+          "sourceHash": "ca43f286c4b8",
+          "kind": "characters",
+          "name": "Anaxa",
+          "fileStem": "anaxa-icon",
+          "path": "Prydwen/hsr/assets/characters/anaxa-ca43f286c4b8.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "video-guides-41",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "MoC/PF/AS Statistics",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-light-cones": {
+      "label": "Best Light Cones",
+      "sections": [
+        {
+          "heading": "Best Light Cones",
+          "text": "1\n\n A Grounded Ascent (S 1 )\n\n Sunday’s Signature Light Cone refunds 1 Skill Point every other Skill usage, while also providing a strong ramping DMG% buff, making it the top pick for Bronya.\n Usage: 6.79 %\n MoC: -\n PF: 0\n AS: 0\n\n 2\n\n But the Battle Isn't Over (S 1 )\n\n A top option for characters that advance others via their skill, guaranteeing the DMG% boost of this Cone. Useful even on characters without the ability, thanks to the Energy Regen and skill point generation.\n Usage: 67.38 %\n MoC: -\n PF: 25960\n AS: 3239\n\n 3\n\n Past and Future (S 5 )\n\n F2P option and alternative to But The Battle Isn't Over for characters that advance others via their Skill, guaranteeing the DMG% boost of this Cone.\n Usage: 7.65 %\n MoC: -\n PF: 0\n AS: 3318",
+          "assets": [
+            {
+              "id": "e88861d2cf9f",
+              "sourceHash": "e88861d2cf9f",
+              "kind": "light-cones",
+              "name": "A Grounded Ascent",
+              "fileStem": "a-grounded-ascent",
+              "path": "Prydwen/hsr/assets/light-cones/a-grounded-ascent-e88861d2cf9f.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "5524dabe1c9b",
+              "sourceHash": "5524dabe1c9b",
+              "kind": "light-cones",
+              "name": "But the Battle Isn't Over",
+              "fileStem": "but-the-battle-isnt-over",
+              "path": "Prydwen/hsr/assets/light-cones/but-the-battle-isnt-over-5524dabe1c9b.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "811928d0c67e",
+              "sourceHash": "811928d0c67e",
+              "kind": "light-cones",
+              "name": "Past and Future",
+              "fileStem": "past-and-future",
+              "path": "Prydwen/hsr/assets/light-cones/past-and-future-811928d0c67e.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-relic-sets": {
+      "label": "Best Relic Sets",
+      "sections": [
+        {
+          "heading": "Best Relic Sets",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Sacerdos' Relived Ordeal ( 4 -PC)\n\n Incredibly powerful set for characters with Ultimates and or Skills which target a single ally and who work well in teams with a sole damage dealer who can benefit from CRIT DMG.\n Usage: 48.43 %\n MoC: -\n PF: 27680\n AS: 3272\n\n 2\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Usage: 7.28 %\n MoC: -\n PF: 0\n AS: 0",
+          "assets": [
+            {
+              "id": "5cb190fcc346",
+              "sourceHash": "5cb190fcc346",
+              "kind": "relics",
+              "name": "Sacerdos' Relived Ordeal",
+              "fileStem": "sacerdos-relived-ordeal",
+              "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "4cb8065ad660",
+              "sourceHash": "4cb8065ad660",
+              "kind": "relics",
+              "name": "Messenger Traversing Hackerspace",
+              "fileStem": "messenger-traversing-hackerspace",
+              "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "19b06ffee878",
+              "sourceHash": "19b06ffee878",
+              "kind": "relics",
+              "name": "Diviner of Distant Reach",
+              "fileStem": "diviner-of-distant-reach",
+              "path": "Prydwen/hsr/assets/relics/diviner-of-distant-reach-19b06ffee878.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "2f8ec1684b6b",
+              "sourceHash": "2f8ec1684b6b",
+              "kind": "relics",
+              "name": "Warrior Goddess of Sun and Thunder",
+              "fileStem": "warrior-goddess-of-sun-and-thunder",
+              "path": "Prydwen/hsr/assets/relics/warrior-goddess-of-sun-and-thunder-2f8ec1684b6b.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-planetary-sets": {
+      "label": "Best Planetary Sets",
+      "sections": [
+        {
+          "heading": "Best Planetary Sets",
+          "text": "1\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n Usage: 44.17 %\n MoC: -\n PF: 24580\n AS: 3242\n\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n Usage: 4.22 %\n MoC: -\n PF: 0\n AS: 0\n\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n Usage: 28.58 %\n MoC: -\n PF: 24240\n AS: 3272",
+          "assets": [
+            {
+              "id": "3306e6f6288f",
+              "sourceHash": "3306e6f6288f",
+              "kind": "relics",
+              "name": "Broken Keel",
+              "fileStem": "broken-keel",
+              "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "5b886a96e17a",
+              "sourceHash": "5b886a96e17a",
+              "kind": "relics",
+              "name": "Fleet of the Ageless",
+              "fileStem": "fleet-of-the-ageless",
+              "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "d6cdb5f16b16",
+              "sourceHash": "d6cdb5f16b16",
+              "kind": "relics",
+              "name": "Penacony, Land of the Dreams",
+              "fileStem": "penacony-land-of-the-dreams",
+              "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "d6aae5028c5a",
+              "sourceHash": "d6aae5028c5a",
+              "kind": "relics",
+              "name": "Lushaka, the Sunken Seas",
+              "fileStem": "lushaka-the-sunken-seas",
+              "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-stats": {
+      "label": "Best Stats",
+      "sections": [
+        {
+          "heading": "Best Stats",
+          "text": "Body\n CRIT DMG\n\n Feet\n Speed\n\n Planar Sphere\n HP%\n > DEF%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (Until breakpoint) > CRIT DMG > HP = DEF > Effect RES% (30% If Keel)\n\n Can be played 2 ways, either Tune her SPD to be 1 below main DPS and spam Skill, or maximize her SPD to alternate between Basics and Skills to remain SP Neutral.",
+          "assets": [
+            {
+              "id": "44c437b21b3a",
+              "sourceHash": "44c437b21b3a",
+              "kind": "icons",
+              "name": "CRIT DMG",
+              "fileStem": "stat-critdmg",
+              "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "087f2dec68b6",
+              "sourceHash": "087f2dec68b6",
+              "kind": "icons",
+              "name": "Speed",
+              "fileStem": "stat-speed",
+              "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "96654253a4f7",
+              "sourceHash": "96654253a4f7",
+              "kind": "icons",
+              "name": "HP",
+              "fileStem": "stat-hp",
+              "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "a6be649090ba",
+              "sourceHash": "a6be649090ba",
+              "kind": "icons",
+              "name": "DEF",
+              "fileStem": "stat-def",
+              "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "106ddd8eff32",
+              "sourceHash": "106ddd8eff32",
+              "kind": "icons",
+              "name": "Energy Regen",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        }
+      ]
+    },
+    "recommended-endgame-stats": {
+      "label": "Recommended endgame stats",
+      "sections": [
+        {
+          "heading": "Recommended endgame stats",
+          "text": "HP: 3000 - 4000+\n\n DEF: 800 - 1100+\n\n SPD: 1-2 Speed slower than carry / 160+ (0 Speed Carry)\n\n ENERGY REGEN : 19.44%+\n\n CRIT DMG: 175 - 210%+",
+          "assets": []
+        }
+      ]
+    },
+    "traces-priority": {
+      "label": "Traces priority",
+      "sections": [
+        {
+          "heading": "Traces priority",
+          "text": "Skills priority: Skill > Ultimate > Talent > Basic\n\n Major Traces priority: Command (A2) > Military Might (A6) > Battlefield (A4)",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Blade - Blade being a DPS who rarely uses any Skill Points allows Bronya to always skill on him for maximizing DPS output, while also utilising all of her buffs, unlike other Harmonies who are always missing 1 or 2 buffs compared to Bronya.\n Jingliu - Jingliu has an awkward downtime after coming out of her Syzygy state, with a -1 Speed Bronya setup, you can skill with Jingliu into Bronya skilling her back up to go straight back into her Syzygy state and prolong her insane damage output.\n Boothill - Boothill biggest weakness is his ramp-up time from being Single Target and needing to get his Pocket Trickshots done asap to deal the most damage. Bronya alleviates the ramp-up time if built with -1 Speed to Boothill, and can allow for much quicker rotations, at the cost of additional Skill Point consumption.",
+          "assets": [
+            {
+              "id": "0e40f16a52d5",
+              "sourceHash": "0e40f16a52d5",
+              "kind": "characters",
+              "name": "Blade",
+              "fileStem": "blade-icon",
+              "path": "Prydwen/hsr/assets/characters/blade-0e40f16a52d5.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "01364e9ee9d6",
+              "sourceHash": "01364e9ee9d6",
+              "kind": "characters",
+              "name": "Jingliu",
+              "fileStem": "jingliu-icon",
+              "path": "Prydwen/hsr/assets/characters/jingliu-01364e9ee9d6.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "fd57eb6e6eb9",
+              "sourceHash": "fd57eb6e6eb9",
+              "kind": "characters",
+              "name": "Boothill",
+              "fileStem": "boothill-icon",
+              "path": "Prydwen/hsr/assets/characters/boothill-fd57eb6e6eb9.webp",
+              "width": 45,
+              "height": 45
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Bronya Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Bronya\n Bronya Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Bronya from HSR (Honkai: Star Rail). Bronya is a 5 ★ character from the Wind element who follows the Path of Harmony .\n Heir to the Supreme Guardian of Belobog, she is the young and capable commander of the Silvermane Guards. Bronya received rigorous education from an early age, and possesses the grace and affinity as expected of an heir. However, after witnessing the abysmal conditions in the Underworld, seeds of doubt began growing in Belobog's future leader's mind.\n\n\"Can all the training I've received really help me lead the people to the lives they want?\"\n\n To learn more about Bronya check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Bronya has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 3.0\n\n Last major build/calcs update\n Patch 3.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Bronya check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Windrider Bullet\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Wind DMG equal to #1[i]% of Bronya's ATK to a single enemy.\n\n Skill\n Combat Redeployment\n Support\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by #1[i]% for #3[i] turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.\n\n Ultimate\n The Belobog March\n Support | 120 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: -\n\n Increases the ATK of all allies by #1[i]%, and increases their CRIT DMG equal to #2[i]% of Bronya's CRIT DMG plus #3[i]% for #4[i] turn(s).\n\n Talent\n Leading the Way\n Enhance\n\n Lv. 1\n\n Energy gain: 5\n Break: 10\n\n After using her Basic ATK, Bronya's next action will be Advanced Forward by #1[i]%.\n\n Technique\n Banner of Command\n Support\n\n Energy gain: 0\n Break: -\n\n After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by #1[i]% for #2[i] turn(s).\n\n Major Traces\n A2 Major trace\n Command\n\n The CRIT Rate for Basic ATK increases to 100% .\n\n A4 Major trace\n Battlefield\n\n At the start of the battle, all allies' DEF increases by 20% for 2 turn(s).\n\n A6 Major trace\n Military Might\n\n When Bronya is on the field, all allies deal 10% more DMG.\n\n Minor Traces (total)\n Wind DMG\n + 22.4%\n\n CRIT DMG\n + 24%\n\n Effect RES\n + 10%\n\n Eidolons\n E 1\n Hone Your Strength\n Eidolon 1\n\n Using Bronya's Skill has a 50% fixed chance of recovering 1 Skill Point. This effect has a 1 turn cooldown.\n\n E 2\n Quick March\n Eidolon 2\n\n When using Skill, the target ally's SPD increases by 30% after taking action, lasting for 1 turn.\n\n E 3\n Bombardment\n Eidolon 3\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 4\n Take by Surprise\n Eidolon 4\n\n After an ally uses Basic ATK on an enemy with Wind Weakness , Bronya immediately launches a follow-up attack on the target, dealing Wind DMG equal to 80% of Bronya's Basic ATK DMG. This effect can only be triggered 1 time per turn.\n\n E 5\n Unstoppable\n Eidolon 5\n\n Skill Lv. +2 , up to a maximum of Lv. 15 . Basic ATK Lv. +1 . up to a maximum of Lv. 10 .\n\n E 6\n Piercing Rainbow\n Eidolon 6\n\n The duration of the DMG Boost effect placed by the Skill on the target ally increases by 1 turn(s).\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1241\n\n ATK\n\n 582\n\n DEF\n\n 533\n\n Speed\n\n 99\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 308000\n\n Silvermane Badge\n\n x 15\n\n Silvermane Insignia\n\n x 15\n\n Storm Eye\n\n x 65\n\n Silvermane Medal\n\n x 15\n\n CV\n ENG\n Madeline Reiter\n\n JPN\n Asumi Kana (阿澄佳奈)\n\n CN\n 谢莹\n\n KR\n 이보희\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Absurd offensive buffs,\n\n 100% Action Advance on Skill,\n\n Flexible playstyles,\n\n Scales tremendously well with Eidolons.\n\n Cons\n Skill's 1 turn buff doesn't work well with some damage dealers,\n\n Really wants her E1 to help with SP issues,\n\n Overall game knowledge checker with a high floor and high ceiling.\n\n Review (By Sushou)\n Bronya is a potent Harmony support who specializes in helping Hypercarry DPS. She can Advance a single ally's Action by 100%, functionally giving them another turn before their time, and gives them a large DMG boost. She also increases the whole team's ATK and additionally their CRIT DMG based on how much CRIT DMG Bronya herself has. She is a quintessential support character for hypercarry setups where SP consumption is not a concern.\n Bronya is possibly one of the most complex characters in the game to maximise. Her abilities lend themselves perfectly to boosting the absolute heck out of a single teammate but require her to be perfectly tuned to said teammate's SPD. Add in the potential to shift Bronya herself in the turn order from her Talent and you have the biggest headache in this game. Not even Yukong is as mentally taxing as Bronya is.\n Because SPD is such an important stat when talking about Bronya, you may think that it is important that you understand what SPD is. It's convoluted, that's for sure, but I can safely say that you do not need to understand SPD at its most fundamental to be able to use Bronya.\n All of this is essentially because you want to maximise the value of the 100% Action Advance on Bronya's Skill. She targets a single ally, dispels 1 debuff from them, increases their DMG by up to 66%, and Action Advances them by 100%, meaning it is now their turn once more. The best way for this Skill to be used is literally immediately after your damage dealer has already acted — and I do mean immediately . That little number you see on character portraits in the turn order? Yeah, Bronya should be immediately after your current damage dealer's turn and that number should ideally be as close to 1 as possible.\n This is what has lead to colloquial descriptions of Bronya playstyles such as 'Slow Bronya' in which she is SPD tuned to have 1 fewer point of SPD compared to the DPS (so if your DPS has 134 SPD, Bronya should have 133 or so), or 'Hyper Bronya' in which Bronya goes plus ultra on her SPD stat to around the 160s or even higher if that's even possible, and you just relentlessly Action Advance your preferably low SPD damage dealer.\n This gets even more interesting with Bronya's Talent. After using her Basic ATK, Bronya's own Action will be Advanced Forward by up to 30%. You get more turn per turn, essentially. This is also how Bronya can 'fix' her spot in the turn order by quite literally just shifting herself up until she's where she needs to be. This leads to other various forms of 'alternating' playstyles, in which Bronya alternates between Skill and Basic ATK to keep herself and her damage dealer aligned.\n It's... a lot, I know. However, I will say that you can definitely get a feel for all of this by just playing her over time, especially under unfavourable circumstances. Bronya's Talent and Skill can fix a lot of unsavoury situations during combat, and there's really no need to strictly adhere to one SPD value or Bronya playstyle unless you're trying to be fully, maximally , optimal. Again, there are plenty of resources online for figuring all of this out, as well as calculators to find your optimal speeds.\n Bronya's Ultimate increases the ATK of all allies by up to 55%, and increases their CRIT DMG by up to 16% of Bronya's CRIT DMG plus 20% for 2 turns . This can result in a very powerful CRIT buff for your damage dealers, especially if Bronya is built for a lot of CRIT DMG. At an average cost of 120 Energy, this can be up fairly frequently, potentially having full uptime with the proper Light Cones and maybe some luck here and there. CRIT buffs are extremely powerful because they're usually quite rare, and now factoring in her Skill as well, Bronya is capable of providing ATK%, DMG%, and CDMG% to your damage dealer.\n Amusingly enough, the single strongest thing she has is the Action Advance — more turns equals more damage. It's probably the simplest part of her whole kit. The only issue with this is the exorbitant SP costs attempting to maintain frequent Skill usages. This is where the alternating playstyles come in, but these playstyles have inexorable damage losses associated with them compared to just spamming her Skill. Maintaining good SP economy is paramount to seeing success with Bronya over extended fights. I specify extended because if you just kill the enemies fast enough that you don't run out of SP, well then you no longer really have a problem there.\n Bronya's Bonus Traces don't really change anything besides providing nice passive bonuses. A2 increases the CRIT chance of her Basic ATK to 100%, A4 provides a 20% DEF boost for 2 turns upon entering combat, and A6 provides a permanent 10% DMG buff for as long as Bronya is alive and on the field.\n Her Eidolons are something that players may get over time due to her being a standard 5-star character. They are all quite impressive, meaning Bronya scales even better with Eidolons. E1 is a great starting point since it gives her Skill a 50% fixed chance of refunding a Skill Point on use, with a 1 turn cooldown. This greatly alleviates the SP concerns from spamming her Skill and is so valuable that many players opt to use their 300 standard pull guarantee on a second copy of Bronya just for this. That decision is ultimately up to the player, but it is verifiably good.\n Because of Bronya's Skill's 1-turn duration, the DMG boost actually doesn't catch a fair few things from certain damage dealers, making the pair rather incompatible. The biggest ones to note are follow-up attackers like Topaz, Dr. Ratio, and especially Jing Yuan, characters where the vast majority of their damage comes outside of their turn. This is why E6 Bronya is the dream, as E6 extends the duration of the DMG buff from 1 turn to 2 turns, meaning everyone gets to benefit from it unconditionally.\n Overall, Bronya has a lot more competition these days, mostly from Sunday and Sparkle who are the two other Hypercarry Supports, but also from Ruan Mei and Robin. Still, despite all that, Bronya found her home with Boothill who doesn't really use her CRIT DMG buff, but loves the additional actions she grants him.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n T2\n MoC\n\n T1.5\n PF\n\n T1.5\n AS\n\n Build and teams\n\n Best Light Cones\n\n 1\n\n A Grounded Ascent (S 1 )\n\n Sunday’s Signature Light Cone refunds 1 Skill Point every other Skill usage, while also providing a strong ramping DMG% buff, making it the top pick for Bronya.\n Usage: 6.79 %\n MoC: -\n PF: 0\n AS: 0\n\n 2\n\n But the Battle Isn't Over (S 1 )\n\n A top option for characters that advance others via their skill, guaranteeing the DMG% boost of this Cone. Useful even on characters without the ability, thanks to the Energy Regen and skill point generation.\n Usage: 67.38 %\n MoC: -\n PF: 25960\n AS: 3239\n\n 3\n\n Past and Future (S 5 )\n\n F2P option and alternative to But The Battle Isn't Over for characters that advance others via their Skill, guaranteeing the DMG% boost of this Cone.\n Usage: 7.65 %\n MoC: -\n PF: 0\n AS: 3318\n\n Specialist Light Cones\n 1\n\n Dance! Dance! Dance! (S 5 )\n\n Allows characters with high Speed and/or an accessible Ultimate to grant substantial action boosts to themselves and the team allowing for higher Speed (and cycle) breakpoints. Strongest on characters who can access their Ultimate at least once every 3 (but ideally 2) actions. Specifically strong when combined with other additional action advances or energy generation. When playing Bronya according to the -1 Speed build exercise caution when using this set bonus as it can ruin your Speed tuning unless carefully managed.\n Usage: 8.48 %\n MoC: -\n PF: 21480\n AS: 0\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Sacerdos' Relived Ordeal ( 4 -PC)\n\n Incredibly powerful set for characters with Ultimates and or Skills which target a single ally and who work well in teams with a sole damage dealer who can benefit from CRIT DMG.\n Usage: 48.43 %\n MoC: -\n PF: 27680\n AS: 3272\n\n 2\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Usage: 7.28 %\n MoC: -\n PF: 0\n AS: 0\n\n Best Specialist Relic Sets\n 1\n\n Messenger Traversing Hackerspace ( 4 -PC)\n\n Good team wide supportive option for characters with Ultimates which target allies. With this set equipped Ultimates are best timed carefully to ensure the Speed buff is active on key members for as long as possible. When playing Bronya according to the -1 Speed build exercise caution when using this set bonus as it can ruin your Speed tuning unless carefully managed (challenging).\n Usage: 19.28 %\n MoC: -\n PF: 24240\n AS: 3422\n\n 2\n\n Eagle of Twilight Line ( 4 -PC)\n\n Allows characters with accessible Ultimates to reach higher Speed (and cycle) breakpoints compared to just stacking Speed. Strongest on characters with powerful ultimate related effects or who can access their ultimate at least once every 3 (but ideally 2) actions. Particularly strong when combined with other action advancement effects. When playing Bronya according to the -1 Speed build exercise caution when using this set bonus as it can ruin your Speed tuning unless carefully managed (challenging).\n Usage: 5.29 %\n MoC: -\n PF: 0\n AS: 0\n\n Best Planetary Sets\n 1\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n Usage: 44.17 %\n MoC: -\n PF: 24580\n AS: 3242\n\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n Usage: 4.22 %\n MoC: -\n PF: 0\n AS: 0\n\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n Usage: 28.58 %\n MoC: -\n PF: 24240\n AS: 3272\n\n Best Specialist Planetary Sets\n 1\n\n Sprightly Vonwacq ( 2 -PC)\n\n Incredibly potent option for buff/debuff based characters. The advance from this set allows the wearer to apply their buffs/debuffs before the rest of the team acts, accelerate rotations, allows access to ultimates closer to the start of the fight and also grants Energy Regen - a valuable stat for many supports.\n Usage: 18.25 %\n MoC: -\n PF: 0\n AS: 0\n\n Best Stats\n\n Body\n CRIT DMG\n\n Feet\n Speed\n\n Planar Sphere\n HP%\n > DEF%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (Until breakpoint) > CRIT DMG > HP = DEF > Effect RES% (30% If Keel)\n\n Can be played 2 ways, either Tune her SPD to be 1 below main DPS and spam Skill, or maximize her SPD to alternate between Basics and Skills to remain SP Neutral.\n\n Recommended endgame stats\n HP: 3000 - 4000+\n\n DEF: 800 - 1100+\n\n SPD: 1-2 Speed slower than carry / 160+ (0 Speed Carry)\n\n ENERGY REGEN : 19.44%+\n\n CRIT DMG: 175 - 210%+\n\n Traces priority\n Skills priority: Skill > Ultimate > Talent > Basic\n\n Major Traces priority: Command (A2) > Military Might (A6) > Battlefield (A4)\n\n Synergy\n Blade - Blade being a DPS who rarely uses any Skill Points allows Bronya to always skill on him for maximizing DPS output, while also utilising all of her buffs, unlike other Harmonies who are always missing 1 or 2 buffs compared to Bronya.\n Jingliu - Jingliu has an awkward downtime after coming out of her Syzygy state, with a -1 Speed Bronya setup, you can skill with Jingliu into Bronya skilling her back up to go straight back into her Syzygy state and prolong her insane damage output.\n Boothill - Boothill biggest weakness is his ramp-up time from being Single Target and needing to get his Pocket Trickshots done asap to deal the most damage. Bronya alleviates the ramp-up time if built with -1 Speed to Boothill, and can allow for much quicker rotations, at the cost of additional Skill Point consumption.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 67\n App. rate: 0.3 %\n Avg. cycles : 9\n Avg. cycles (E1+): 6.15\n\n Rank 87\n App. rate: 0.21 %\n Avg. cycles : -\n Avg. cycles (E1+): 3.76\n\n Rank 126\n App. rate: 0.12 %\n Avg. cycles : 10\n Avg. cycles (E1+): 2.3\n\n Rank 202\n App. rate: 0.06 %\n Avg. cycles : -\n Avg. cycles (E1+): 1.4\n\n Rank 248\n App. rate: 0.04 %\n Avg. cycles : -\n Avg. cycles (E1+): 2.33\n\n Rank 306\n App. rate: 0.03 %\n Avg. cycles : -\n Avg. cycles (E1+): 3.5\n\n Rank 306\n App. rate: 0.03 %\n Avg. cycles : -\n Avg. cycles (E1+): 3.25\n\n Rank 306\n App. rate: 0.03 %\n Avg. cycles : -\n Avg. cycles (E1+): 4\n\n Rank 400\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 6.33\n\n Rank 400\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.33\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

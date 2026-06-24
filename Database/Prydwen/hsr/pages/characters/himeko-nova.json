@@ -1,0 +1,178 @@
+{
+  "id": "characters:himeko-nova",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "himeko-nova",
+  "name": "Himeko Nova",
+  "title": "Himeko Nova Best Build Guide",
+  "sourcePath": "/star-rail/characters/himeko-nova",
+  "contentStatus": "beta",
+  "statusLabels": [
+    "4.4"
+  ],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "06/June/2026",
+  "meta": {
+    "title": "Himeko Nova Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Fire",
+    "path": "Erudition"
+  },
+  "assets": [
+    {
+      "id": "2a8de327b90f",
+      "sourceHash": "2a8de327b90f",
+      "kind": "characters",
+      "name": "Himeko Nova",
+      "fileStem": "himeko-nova-card",
+      "path": "Prydwen/hsr/assets/characters/himeko-nova-2a8de327b90f.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "4191fdac6ee2",
+      "sourceHash": "4191fdac6ee2",
+      "kind": "characters",
+      "name": "Himeko Nova",
+      "fileStem": "himeko-nova-full",
+      "path": "Prydwen/hsr/assets/characters/himeko-nova-4191fdac6ee2.webp",
+      "width": 600,
+      "height": 750
+    }
+  ],
+  "sections": [
+    {
+      "id": "himeko-nova-best-build-guide-0",
+      "level": 1,
+      "heading": "Himeko Nova Best Build Guide",
+      "text": "Last updated: 06/June/2026",
+      "assets": [
+        {
+          "id": "2a8de327b90f",
+          "sourceHash": "2a8de327b90f",
+          "kind": "characters",
+          "name": "Himeko Nova",
+          "fileStem": "himeko-nova-card",
+          "path": "Prydwen/hsr/assets/characters/himeko-nova-2a8de327b90f.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Himeko Nova from HSR (Honkai: Star Rail). Himeko Nova is a 5 ★ character from the Fire element who follows the Path of Erudition .\n\n To learn more about Himeko Nova check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "This character has no video guide yet.\n\n To learn more about Himeko Nova check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-7",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-8",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Himeko Nova skills aren't available yet. They will be added when the character is released.",
+      "assets": []
+    },
+    {
+      "id": "major-traces-9",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "Himeko Nova traces aren't available yet. They will be added when the character is released.",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-10",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "Himeko Nova traces aren't available yet. They will be added when the character is released.",
+      "assets": []
+    },
+    {
+      "id": "eidolons-11",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "Himeko Nova eidolons aren't available yet. They will be added when the character is released.",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-12",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Himeko Nova Stats and Materials aren't available yet. They will be added when the character is released.",
+      "assets": []
+    },
+    {
+      "id": "cv-13",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-14",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "4191fdac6ee2",
+          "sourceHash": "4191fdac6ee2",
+          "kind": "characters",
+          "name": "Himeko Nova",
+          "fileStem": "himeko-nova-full",
+          "path": "Prydwen/hsr/assets/characters/himeko-nova-4191fdac6ee2.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "review-15",
+      "level": 2,
+      "heading": "Review",
+      "text": "Review for Himeko Nova is not available yet. It will be added when the character is released.\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "build-and-teams-16",
+      "level": 2,
+      "heading": "Build and teams",
+      "text": "Build recommendations and team compositions for Himeko Nova are not available yet. They will be added when the character is released.\n\n MoC/PF/AS Statistics",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "teams": {
+      "label": "Teams",
+      "sections": [
+        {
+          "heading": "Build and teams",
+          "text": "Build recommendations and team compositions for Himeko Nova are not available yet. They will be added when the character is released.\n\n MoC/PF/AS Statistics",
+          "assets": []
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Himeko Nova Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Himeko Nova\n Himeko Nova Best Build Guide\n Last updated: 06/June/2026\n\n Introduction\n Best guide and build for Himeko Nova from HSR (Honkai: Star Rail). Himeko Nova is a 5 ★ character from the Fire element who follows the Path of Erudition .\n\n To learn more about Himeko Nova check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n This character has no video guide yet.\n\n To learn more about Himeko Nova check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Himeko Nova skills aren't available yet. They will be added when the character is released.\n\n Major Traces\n Himeko Nova traces aren't available yet. They will be added when the character is released.\n\n Minor Traces (total)\n Himeko Nova traces aren't available yet. They will be added when the character is released.\n\n Eidolons\n Himeko Nova eidolons aren't available yet. They will be added when the character is released.\n\n Stats and materials\n Himeko Nova Stats and Materials aren't available yet. They will be added when the character is released.\n\n CV\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Review\n Review for Himeko Nova is not available yet. It will be added when the character is released.\n\n Build and teams\n\n Build and teams\n Build recommendations and team compositions for Himeko Nova are not available yet. They will be added when the character is released.\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

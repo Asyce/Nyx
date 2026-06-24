@@ -72,17 +72,18 @@
   .elayer.drips{ -webkit-mask-image:url('../assets/icon/eye_drips.png'); mask-image:url('../assets/icon/eye_drips.png'); }
 
   /* ===== top-left: large wordmark on the (180-flipped) achievement-cycle plate ===== */
-  .hd-right{ position:absolute; top:24px; left:-18px; z-index:20;
-    width:600px; height:110px; display:flex; align-items:center; justify-content:flex-start; }
+  .hd-right{ position:absolute; top:6px; left:-40px; z-index:20;
+    width:720px; height:128px; display:flex; align-items:center; justify-content:flex-start;
+    transform:scale(.8); transform-origin:top left; }
   .hd-right .plate{ position:absolute; inset:0; pointer-events:none;
     background:url('../assets/decor/achievement_cycle.png') center/100% 100% no-repeat;
     mix-blend-mode:screen; opacity:.55; transform:rotate(180deg);
     -webkit-mask:linear-gradient(90deg, #000 0%, #000 30%, transparent 88%);
     mask:linear-gradient(90deg, #000 0%, #000 30%, transparent 88%); }
-  .hd-right .wm{ position:relative; display:flex; align-items:center; gap:16px; white-space:nowrap;
-    font-family:'GI',serif; font-size:62px; line-height:.9; letter-spacing:.04em; color:#f7f4ff;
+  .hd-right .wm{ position:relative; display:flex; align-items:center; gap:18px; white-space:nowrap;
+    font-family:'GI',serif; font-size:78px; line-height:.9; letter-spacing:.04em; color:#f7f4ff;
     text-shadow:0 0 26px var(--accent-glow), 0 2px 18px rgba(0,0,0,.6); }
-  .hd-right .wm-logo{ height:94px; width:auto; flex:none;
+  .hd-right .wm-logo{ height:120px; width:auto; flex:none;
     filter:drop-shadow(0 0 14px var(--accent-glow)) drop-shadow(0 2px 8px rgba(0,0,0,.55)); }
 
   /* ===== banner buttons — centered above the cards ===== */
@@ -103,13 +104,13 @@
   /* ===== layout: Nyx apart, games in a 3-wide grid ===== */
   .layout{ position:absolute; inset:0; z-index:10;
     display:flex; flex-direction:column; align-items:center; justify-content:center; gap:46px; }
-  .grid{ display:grid; grid-template-columns:repeat(3, 270px); gap:54px 44px; }
+  .grid{ display:grid; grid-template-columns:repeat(3, 304px); gap:48px 40px; }
   .col{ position:relative; cursor:pointer; transition:filter .5s ease; }
   /* hovering any card greys out all the others */
   .layout:has(.col:hover) .col:not(:hover){ filter:grayscale(1) brightness(.5); }
 
   /* ===== circular sigil-orbit game card ===== */
-  .card{ position:relative; width:270px; height:270px;
+  .card{ position:relative; width:304px; height:304px;
     transition:transform .5s cubic-bezier(.2,.7,.2,1), filter .5s;
     filter:drop-shadow(0 0 calc(4px*var(--glow)) var(--accent-glow)) drop-shadow(0 12px 24px rgba(0,0,0,.55)); }
   .framewrap{ position:absolute; inset:0; }
@@ -127,7 +128,7 @@
     background:var(--accent);
     -webkit-mask:url('../assets/decor/patternv1.png') center/contain no-repeat;
     mask:url('../assets/decor/patternv1.png') center/contain no-repeat;
-    offset-path:path('M 135 9 A 126 126 0 0 1 135 261 A 126 126 0 0 1 135 9 Z');
+    offset-path:path('M 152 9 A 143 143 0 0 1 152 295 A 143 143 0 0 1 152 9 Z');
     offset-rotate:auto;
     animation:chainloop 42s linear infinite; animation-play-state:paused;
     animation-delay:calc(var(--i) * -1.75s);
@@ -195,6 +196,35 @@
   @media (prefers-reduced-motion: reduce){
     .page-pattern, .lk, .fx, .ringA, .ringB, .elayer.drips, .hd-eye .drop{ animation:none; }
   }
+
+  /* screen-reader / crawler label — the cards stay imagery-only for sighted
+     users, but each link carries its game name for assistive tech and search. */
+  .sr-only{ position:absolute; width:1px; height:1px; padding:0; margin:-1px;
+    overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+  .col{ text-decoration:none; color:inherit; -webkit-tap-highlight-color:transparent; }
+  /* keyboard focus ring around the circular card */
+  .col:focus-visible{ outline:3px solid var(--accent-bright); outline-offset:8px; border-radius:50%; }
+
+  /* ===== mobile: a real compact grid instead of the off-screen 1600×900 canvas ===== */
+  @media (max-width: 760px){
+    html, body{ height:auto; min-height:100%; overflow-x:hidden; overflow-y:auto; }
+    .stage-wrap{ position:static; inset:auto; display:block; overflow:visible; height:auto; place-items:initial; }
+    .stage{ position:static; width:100%; height:auto; transform:none !important; }
+    .hd{ display:none; }
+    .hd-right{ position:static; transform:none; width:auto; height:auto;
+      padding:24px 16px 2px; justify-content:center; }
+    .hd-right .plate{ display:none; }
+    .hd-right .wm{ font-size:30px; gap:9px; justify-content:center; }
+    .hd-right .wm-logo{ height:38px; }
+    .layout{ position:static; inset:auto; padding:10px 16px 40px; gap:20px; justify-content:flex-start; }
+    .topbanners{ flex-wrap:wrap; }
+    .grid{ grid-template-columns:repeat(2, minmax(0, 1fr)); gap:20px 16px; width:100%; max-width:430px; }
+    .col, .col.sim{ width:100%; display:flex; justify-content:center; }
+    .card{ width:100%; max-width:170px; height:auto; aspect-ratio:1 / 1; }
+    /* hover-only / pixel-anchored decorations don't translate to small touch cards */
+    .lk, .ringA, .ringB, .fx{ display:none; }
+    .layout:has(.col:active) .col:not(:active){ filter:none; }
+  }
 </style>
 </head>
 <body>
@@ -246,7 +276,8 @@
 
         <div class="grid">
 
-          <div class="col sim" data-screen-label="Card 1 · Nyx">
+          <a class="col sim" href="/nyx" data-screen-label="Card 1 · Nyx" aria-label="Nyx">
+            <span class="sr-only">Nyx</span>
             <div class="card">
               <div class="framewrap">
                 <div class="bed"></div>
@@ -265,9 +296,10 @@
               </div>
               <span class="ringA"></span><span class="ringB"></span>
             </div>
-          </div>
+          </a>
 
-          <div class="col" data-screen-label="Card 2 · Genshin Impact">
+          <a class="col" href="/genshin" data-screen-label="Card 2 · Genshin Impact" aria-label="Genshin Impact">
+            <span class="sr-only">Genshin Impact</span>
             <div class="card">
               <div class="framewrap">
                 <div class="bed"></div>
@@ -282,9 +314,10 @@
               </div>
               <span class="ringA"></span><span class="ringB"></span>
             </div>
-          </div>
+          </a>
 
-          <div class="col" data-screen-label="Card 3 · Honkai: Star Rail">
+          <a class="col" href="/hsr" data-screen-label="Card 3 · Honkai: Star Rail" aria-label="Honkai: Star Rail">
+            <span class="sr-only">Honkai: Star Rail</span>
             <div class="card">
               <div class="framewrap">
                 <div class="bed"></div>
@@ -299,9 +332,10 @@
               </div>
               <span class="ringA"></span><span class="ringB"></span>
             </div>
-          </div>
+          </a>
 
-          <div class="col" data-screen-label="Card 4 · Zenless Zone Zero">
+          <a class="col" href="/zzz" data-screen-label="Card 4 · Zenless Zone Zero" aria-label="Zenless Zone Zero">
+            <span class="sr-only">Zenless Zone Zero</span>
             <div class="card">
               <div class="framewrap">
                 <div class="bed"></div>
@@ -316,9 +350,10 @@
               </div>
               <span class="ringA"></span><span class="ringB"></span>
             </div>
-          </div>
+          </a>
 
-          <div class="col" data-screen-label="Card 5 · Wuthering Waves">
+          <a class="col" href="/wuwa" data-screen-label="Card 5 · Wuthering Waves" aria-label="Wuthering Waves">
+            <span class="sr-only">Wuthering Waves</span>
             <div class="card">
               <div class="framewrap">
                 <div class="bed"></div>
@@ -333,9 +368,10 @@
               </div>
               <span class="ringA"></span><span class="ringB"></span>
             </div>
-          </div>
+          </a>
 
-          <div class="col" data-screen-label="Card 6 · Arknights: Endfield">
+          <a class="col" href="/endfield" data-screen-label="Card 6 · Arknights: Endfield" aria-label="Arknights: Endfield">
+            <span class="sr-only">Arknights: Endfield</span>
             <div class="card">
               <div class="framewrap">
                 <div class="bed"></div>
@@ -350,7 +386,7 @@
               </div>
               <span class="ringA"></span><span class="ringB"></span>
             </div>
-          </div>
+          </a>
 
         </div>
 
@@ -367,6 +403,9 @@
         var vw = window.innerWidth || document.documentElement.clientWidth;
         var vh = window.innerHeight || document.documentElement.clientHeight;
         if(!vw || !vh){ requestAnimationFrame(fit); return; }
+        // mobile uses a natural compact grid (see the max-width:760px CSS), so
+        // clear the desktop letterbox transform instead of scaling off-screen.
+        if(vw <= 760){ stage.style.transform = ''; return; }
         stage.style.transform = 'scale(' + Math.min(1, vw/1600, vh/900) + ')';
       }
       window.addEventListener('resize', fit);
@@ -386,25 +425,18 @@
       }
     });
 
-    // each world card routes to its game page
+    // each world card is a real <a> (keyboard + crawlable); this just adds the
+    // fade-out transition for plain left-clicks. Modified / middle clicks fall
+    // through to native behaviour so "open in new tab" still works.
     (function(){
-      var dests = [
-        'simulacrum.html',
-        'genshin.html',
-        'honkai-star-rail.html',
-        'zenless-zone-zero.html',
-        'wuthering-waves.html',
-        'arknights-endfield.html'
-      ];
       var leaving = false;
-      document.querySelectorAll('.grid .col').forEach(function(el, i){
-        el.style.cursor = 'pointer';
-        el.addEventListener('click', function(){
-          var dest = dests[i];
+      document.querySelectorAll('.grid .col').forEach(function(el){
+        el.addEventListener('click', function(e){
+          if(e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+          var dest = el.getAttribute('href');
           if(!dest || leaving) return;
+          e.preventDefault();
           leaving = true;
-          // fade the index out before navigating so the jump to the game page
-          // reads as a deliberate transition instead of a hard cut to its bg
           document.body.style.transition = 'opacity .32s ease';
           document.body.style.opacity = '0';
           setTimeout(function(){ window.location.href = dest; }, 300);

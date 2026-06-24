@@ -7,11 +7,13 @@
     "generate:weapons": "node ./tools/gen-weapons-meta.mjs",
     "scrape:gcg": "node ./tools/scrape-nanoka-gcg.mjs",
     "scrape:gi-birthdays": "node ./tools/scrape-genshin-birthday-art.mjs",
+    "scrape:gi-namecards": "node ./tools/scrape-genshin-namecards.mjs",
+    "scrape:ae-skills": "node ./tools/scrape-endfield-skill-icons.mjs",
     "scrape:gi-signatures": "node ./tools/scrape-genshin-signature-weapons.mjs",
     "scrape:hsr-holidays": "node ./tools/scrape-hsr-holiday-art.mjs",
     "scrape:hsr-signatures": "node ./tools/scrape-hsr-signature-lightcones.mjs",
     "build": "npm run generate:data && npm run generate:weapons && node ./tools/build-site.mjs",
-    "build:deploy": "npm run build && node ./tools/build-deploy.mjs",
+    "build:deploy": "npm run build && node ./tools/build-deploy.mjs && node ./tools/inject-seo.mjs",
     "serve": "python -m http.server 5173 --bind 127.0.0.1 --directory .."
   },
   "dependencies": {

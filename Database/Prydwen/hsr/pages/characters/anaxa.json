@@ -1,0 +1,1800 @@
+{
+  "id": "characters:anaxa",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "anaxa",
+  "name": "Anaxa",
+  "title": "Anaxa Best Build Guide",
+  "sourcePath": "/star-rail/characters/anaxa",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "31/May/2026",
+  "meta": {
+    "title": "Anaxa Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Wind",
+    "path": "Erudition"
+  },
+  "assets": [
+    {
+      "id": "5979b0746f3c",
+      "sourceHash": "5979b0746f3c",
+      "kind": "characters",
+      "name": "Anaxa",
+      "fileStem": "anaxa-card",
+      "path": "Prydwen/hsr/assets/characters/anaxa-5979b0746f3c.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "af5b8acc8f63",
+      "sourceHash": "af5b8acc8f63",
+      "kind": "icons",
+      "name": "CRIT Rate",
+      "fileStem": "stat-critrate",
+      "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "96654253a4f7",
+      "sourceHash": "96654253a4f7",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "c4c6f35c46eb",
+      "sourceHash": "c4c6f35c46eb",
+      "kind": "icons",
+      "name": "Wind DMG",
+      "fileStem": "stat-winddmg",
+      "path": "Prydwen/hsr/assets/icons/wind-dmg-c4c6f35c46eb.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "dc6aec4a7776",
+      "sourceHash": "dc6aec4a7776",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "a6be649090ba",
+      "sourceHash": "a6be649090ba",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "087f2dec68b6",
+      "sourceHash": "087f2dec68b6",
+      "kind": "icons",
+      "name": "Speed",
+      "fileStem": "stat-speed",
+      "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "50d0e755383a",
+      "sourceHash": "50d0e755383a",
+      "kind": "items",
+      "name": "Credit",
+      "fileStem": "credit",
+      "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "a677c0eac85e",
+      "sourceHash": "a677c0eac85e",
+      "kind": "items",
+      "name": "Ethereal Omen",
+      "fileStem": "ethereal-omen",
+      "path": "Prydwen/hsr/assets/items/ethereal-omen-a677c0eac85e.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "dec5a804803d",
+      "sourceHash": "dec5a804803d",
+      "kind": "echoes",
+      "name": "Echoing Wail",
+      "fileStem": "echoing-wail",
+      "path": "Prydwen/hsr/assets/echoes/echoing-wail-dec5a804803d.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "9854abdc3380",
+      "sourceHash": "9854abdc3380",
+      "kind": "items",
+      "name": "A Glass of the Besotted Era",
+      "fileStem": "a-glass-of-the-besotted-era",
+      "path": "Prydwen/hsr/assets/items/a-glass-of-the-besotted-era-9854abdc3380.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "c910987cea6e",
+      "sourceHash": "c910987cea6e",
+      "kind": "items",
+      "name": "Eternal Lament",
+      "fileStem": "eternal-lament",
+      "path": "Prydwen/hsr/assets/items/eternal-lament-c910987cea6e.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "9deca43a40ab",
+      "sourceHash": "9deca43a40ab",
+      "kind": "characters",
+      "name": "Anaxa",
+      "fileStem": "anaxa-full",
+      "path": "Prydwen/hsr/assets/characters/anaxa-9deca43a40ab.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "09d8727f7e88",
+      "sourceHash": "09d8727f7e88",
+      "kind": "light-cones",
+      "name": "Life Should Be Cast to Flames",
+      "fileStem": "life-should-be-cast-to-flames",
+      "path": "Prydwen/hsr/assets/light-cones/life-should-be-cast-to-flames-09d8727f7e88.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "1f5f647f14e6",
+      "sourceHash": "1f5f647f14e6",
+      "kind": "light-cones",
+      "name": "Into the Unreachable Veil",
+      "fileStem": "into-the-unreachable-veil",
+      "path": "Prydwen/hsr/assets/light-cones/into-the-unreachable-veil-1f5f647f14e6.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "d8c177040207",
+      "sourceHash": "d8c177040207",
+      "kind": "light-cones",
+      "name": "The Great Cosmic Enterprise",
+      "fileStem": "the-great-cosmic-enterprise",
+      "path": "Prydwen/hsr/assets/light-cones/the-great-cosmic-enterprise-d8c177040207.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "1975a2492785",
+      "sourceHash": "1975a2492785",
+      "kind": "light-cones",
+      "name": "Today Is Another Peaceful Day",
+      "fileStem": "today-is-another-peaceful-day",
+      "path": "Prydwen/hsr/assets/light-cones/today-is-another-peaceful-day-1975a2492785.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "efdffaadc6e8",
+      "sourceHash": "efdffaadc6e8",
+      "kind": "light-cones",
+      "name": "Before Dawn",
+      "fileStem": "before-dawn",
+      "path": "Prydwen/hsr/assets/light-cones/before-dawn-efdffaadc6e8.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "75b9a740d310",
+      "sourceHash": "75b9a740d310",
+      "kind": "relics",
+      "name": "As Navigator Isee Sees It",
+      "fileStem": "as-navigator-isee-sees-it",
+      "path": "Prydwen/hsr/assets/relics/as-navigator-isee-sees-it-75b9a740d310.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "093d3932e1af",
+      "sourceHash": "093d3932e1af",
+      "kind": "relics",
+      "name": "Wavestrider Captain",
+      "fileStem": "wavestrider-captain",
+      "path": "Prydwen/hsr/assets/relics/wavestrider-captain-093d3932e1af.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "c153d0175293",
+      "sourceHash": "c153d0175293",
+      "kind": "relics",
+      "name": "Genius of Brilliant Stars",
+      "fileStem": "genius-of-brilliant-stars",
+      "path": "Prydwen/hsr/assets/relics/genius-of-brilliant-stars-c153d0175293.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "f521b7a2ee25",
+      "sourceHash": "f521b7a2ee25",
+      "kind": "relics",
+      "name": "Scholar Lost in Erudition",
+      "fileStem": "scholar-lost-in-erudition",
+      "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "6e205de52037",
+      "sourceHash": "6e205de52037",
+      "kind": "relics",
+      "name": "Pioneer Diver of Dead Waters",
+      "fileStem": "pioneer-diver-of-dead-waters",
+      "path": "Prydwen/hsr/assets/relics/pioneer-diver-of-dead-waters-6e205de52037.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "36af28ceb2d3",
+      "sourceHash": "36af28ceb2d3",
+      "kind": "relics",
+      "name": "Eagle of Twilight Line",
+      "fileStem": "eagle-of-twilight-line",
+      "path": "Prydwen/hsr/assets/relics/eagle-of-twilight-line-36af28ceb2d3.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "507bb2127c32",
+      "sourceHash": "507bb2127c32",
+      "kind": "relics",
+      "name": "Prisoner in Deep Confinement",
+      "fileStem": "prisoner-in-deep-confinement",
+      "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "deeeca721276",
+      "sourceHash": "deeeca721276",
+      "kind": "relics",
+      "name": "Musketeer of Wild Wheat",
+      "fileStem": "musketeer-of-wild-wheat",
+      "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "f71c3d91b222",
+      "sourceHash": "f71c3d91b222",
+      "kind": "relics",
+      "name": "Hero of Triumphant Song",
+      "fileStem": "hero-of-triumphant-song",
+      "path": "Prydwen/hsr/assets/relics/hero-of-triumphant-song-f71c3d91b222.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5cb190fcc346",
+      "sourceHash": "5cb190fcc346",
+      "kind": "relics",
+      "name": "Sacerdos' Relived Ordeal",
+      "fileStem": "sacerdos-relived-ordeal",
+      "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "4cb8065ad660",
+      "sourceHash": "4cb8065ad660",
+      "kind": "relics",
+      "name": "Messenger Traversing Hackerspace",
+      "fileStem": "messenger-traversing-hackerspace",
+      "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "441039825aff",
+      "sourceHash": "441039825aff",
+      "kind": "relics",
+      "name": "Divine-Querying Master Smith",
+      "fileStem": "divine-querying-master-smith",
+      "path": "Prydwen/hsr/assets/relics/divine-querying-master-smith-441039825aff.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "b58fdc60eb2f",
+      "sourceHash": "b58fdc60eb2f",
+      "kind": "relics",
+      "name": "Izumo Gensei and Takama Divine Realm",
+      "fileStem": "izumo-gensei-and-takama-divine-realm",
+      "path": "Prydwen/hsr/assets/relics/izumo-gensei-and-takama-divine-realm-b58fdc60eb2f.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "0ad357f87585",
+      "sourceHash": "0ad357f87585",
+      "kind": "relics",
+      "name": "Rutilant Arena",
+      "fileStem": "rutilant-arena",
+      "path": "Prydwen/hsr/assets/relics/rutilant-arena-0ad357f87585.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "44c437b21b3a",
+      "sourceHash": "44c437b21b3a",
+      "kind": "icons",
+      "name": "CRIT DMG",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "106ddd8eff32",
+      "sourceHash": "106ddd8eff32",
+      "kind": "icons",
+      "name": "Energy Regen",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "fecc96b9e5e6",
+      "sourceHash": "fecc96b9e5e6",
+      "kind": "characters",
+      "name": "The Herta",
+      "fileStem": "the-herta-icon",
+      "path": "Prydwen/hsr/assets/characters/the-herta-fecc96b9e5e6.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "2cde7699adbf",
+      "sourceHash": "2cde7699adbf",
+      "kind": "characters",
+      "name": "Tribbie",
+      "fileStem": "tribbie-icon",
+      "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "e985c6a49a99",
+      "sourceHash": "e985c6a49a99",
+      "kind": "characters",
+      "name": "Robin",
+      "fileStem": "robin-icon",
+      "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "3d568cb7f29d",
+      "sourceHash": "3d568cb7f29d",
+      "kind": "characters",
+      "name": "Sunday",
+      "fileStem": "sunday-icon",
+      "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "1b219ef71829",
+      "sourceHash": "1b219ef71829",
+      "kind": "characters",
+      "name": "Cerydra",
+      "fileStem": "cerydra-icon",
+      "path": "Prydwen/hsr/assets/characters/cerydra-1b219ef71829.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "714348f14d48",
+      "sourceHash": "714348f14d48",
+      "kind": "characters",
+      "name": "Dan Heng • Permansor Terrae",
+      "fileStem": "dan-heng-permansor-terrae-icon",
+      "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "005597837585",
+      "sourceHash": "005597837585",
+      "kind": "characters",
+      "name": "Cyrene",
+      "fileStem": "cyrene-icon",
+      "path": "Prydwen/hsr/assets/characters/cyrene-005597837585.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "ca43f286c4b8",
+      "sourceHash": "ca43f286c4b8",
+      "kind": "characters",
+      "name": "Anaxa",
+      "fileStem": "anaxa-icon",
+      "path": "Prydwen/hsr/assets/characters/anaxa-ca43f286c4b8.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ee11bd390c9a",
+      "sourceHash": "ee11bd390c9a",
+      "kind": "icons",
+      "name": "Wind",
+      "fileStem": "ele-wind",
+      "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "7d36eb39792a",
+      "sourceHash": "7d36eb39792a",
+      "kind": "icons",
+      "name": "Ice",
+      "fileStem": "ele-ice",
+      "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "e0db16ed6c66",
+      "sourceHash": "e0db16ed6c66",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "ele-physical",
+      "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "565914d1a436",
+      "sourceHash": "565914d1a436",
+      "kind": "icons",
+      "name": "Quantum",
+      "fileStem": "ele-quantum",
+      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "913ff64407f2",
+      "sourceHash": "913ff64407f2",
+      "kind": "icons",
+      "name": "Imaginary",
+      "fileStem": "ele-imaginary",
+      "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "1d90270b2b4b",
+      "sourceHash": "1d90270b2b4b",
+      "kind": "characters",
+      "name": "Hyacine",
+      "fileStem": "hyacine-icon",
+      "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d3e344772d55",
+      "sourceHash": "d3e344772d55",
+      "kind": "characters",
+      "name": "Trailblazer • Remembrance",
+      "fileStem": "trailblazer-remembrance-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "c4a9c00e98ef",
+      "sourceHash": "c4a9c00e98ef",
+      "kind": "characters",
+      "name": "Huohuo",
+      "fileStem": "huohuo-icon",
+      "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "0658046ea612",
+      "sourceHash": "0658046ea612",
+      "kind": "characters",
+      "name": "Aventurine",
+      "fileStem": "aventurine-icon",
+      "path": "Prydwen/hsr/assets/characters/aventurine-0658046ea612.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "da99d2d9a505",
+      "sourceHash": "da99d2d9a505",
+      "kind": "characters",
+      "name": "Sparkle",
+      "fileStem": "sparkle-icon",
+      "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+      "width": 60,
+      "height": 60
+    }
+  ],
+  "sections": [
+    {
+      "id": "anaxa-best-build-guide-0",
+      "level": 1,
+      "heading": "Anaxa Best Build Guide",
+      "text": "Last updated: 31/May/2026",
+      "assets": [
+        {
+          "id": "5979b0746f3c",
+          "sourceHash": "5979b0746f3c",
+          "kind": "characters",
+          "name": "Anaxa",
+          "fileStem": "anaxa-card",
+          "path": "Prydwen/hsr/assets/characters/anaxa-5979b0746f3c.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Anaxa from HSR (Honkai: Star Rail). Anaxa is a 5 ★ character from the Wind element who follows the Path of Erudition .\n The Grove of Epiphany, where knowledge flourishes and philosophers are born. Yet here stands Anaxagoras the blasphemer, the Chrysos Heir who challenges the Coreflame of Reason: Would you truly embrace infamy and defy prophecy, driving the thorns of doubt into the Sacred Tree of wisdom?\n\n To learn more about Anaxa check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Anaxa has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 3.2\n\n Last major build/calcs update\n Patch 4.3\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Anaxa check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic ATK\n Pain, Brews Truth\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Wind DMG equal to #1[i]% of Anaxa's ATK to one designated enemy.\n\n Skill\n Fractal, Exiles Fallacy\n Bounce\n\n Lv. 1\n\n Energy gain: 6\n Break: 10\n\n Deals Wind DMG equal to #1[i]% of Anaxa's ATK to one designated enemy and additionally deals #2[i] instance(s) of DMG. Each instance of DMG deals Wind DMG equal to #1[i]% of Anaxa's ATK to one random enemy, prioritizing Bouncing to enemy targets that have not been hit by this instance of Skill.\nWhen used, for each attackable enemy on the field, this Skill has its DMG dealt increased by #3[i]%.\n\n Ultimate\n Sprouting Life Sculpts Earth\n AoE | 140 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Inflicts the \"Sublimation\" state on all enemies, then deals Wind DMG equal to #1[i]% of Anaxa's ATK to all enemies.\nIn the \"Sublimation\" state, the targets will be simultaneously inflicted with Physical, Fire, Ice, Lightning, Wind, Quantum, and Imaginary Weaknesses, lasting until the start of the targets' turn. If the targets do not have Control RES, they are unable to take action in the \"Sublimation\" state.\n\n Talent\n Tetrad Wisdom Reigns Thrice\n Impair\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n Each time Anaxa lands 1 hit on enemy targets, inflicts 1 Weakness of a random Type to the targets, lasting for #2[i] turn(s), with priority to the Weakness Type that the target doesn't already possess.\nWhile Anaxa is on the field, inflicts the \"Qualitative Disclosure\" state on enemy targets that have at least #3[i] different Types of Weaknesses. Anaxa deals #1[i]% increased DMG to targets afflicted with the \"Qualitative Disclosure\" state. In addition, after using Basic ATK or Skill on them, unleashes 1 additional instance of Skill on the targets. This additional Skill does not consume any Skill Points and cannot trigger this effect again. If the target has been defeated before the additional Skill is used, it will be cast on one random enemy instead.\n\n Technique\n Prism of the Pupil\n Impair\n\n Energy gain: 0\n Break: -\n\n After using Technique, inflicts the Terrified state on enemies in a set area. Terrified enemies will flee in a direction away from Anaxa for #1[i] second(s). When allies enter battle via actively attacking a Terrified enemy, it will always be considered as entering battle via attacking a Weakness. After entering battle, Anaxa applies 1 Weakness of the attacker's Type to every enemy target, lasting for #2[i] turn(s).",
+      "assets": []
+    },
+    {
+      "id": "major-traces-10",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "A2 Major trace\n Roaming Signifier\n\n When using Basic ATK, additionally regenerates 10 Energy. At the start of the turn, if there are no enemy targets in the \"Qualitative Disclosure\" state, immediately regenerates 30 Energy.\n\n A4 Major trace\n Imperative Hiatus\n\n Based on the number of \"Erudition\" characters in the team, one of the following effects will be triggered in the current battle:\n1 character: Increases Anaxa's CRIT DMG by 140% .\nAt least 2 characters: Increases DMG dealt by all allies by 50% .\n\n A6 Major trace\n Qualitative Shift\n\n For every 1 different Weakness Type an enemy target has, the DMG that Anaxa deals to that target ignores 4% of their DEF. Up to a max of 7 Weakness Types can be taken into account for this effect.",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-11",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "CRIT Rate\n + 12%\n\n HP\n + 10%\n\n Wind DMG\n + 22.4%",
+      "assets": [
+        {
+          "id": "af5b8acc8f63",
+          "sourceHash": "af5b8acc8f63",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-critrate",
+          "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "c4c6f35c46eb",
+          "sourceHash": "c4c6f35c46eb",
+          "kind": "icons",
+          "name": "Wind DMG",
+          "fileStem": "stat-winddmg",
+          "path": "Prydwen/hsr/assets/icons/wind-dmg-c4c6f35c46eb.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "eidolons-12",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "E 1\n Magician, Isolated by Stars\n Eidolon 1\n\n After using Skill for the first time, recovers 1 Skill Point(s). When using Skill to hit enemy targets, decreases the targets' DEF by 16% , lasting for 2 turn(s).\n\n E 2\n Soul, True to History\n Eidolon 2\n\n When enemy targets enter the battlefield, triggers 1 instance of the Talent's Weakness Implant effect, and reduces their All-Type RES by 20% .\n\n E 3\n Pupil, Etched into Cosmos\n Eidolon 3\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Blaze, Plunged to Canyon\n Eidolon 4\n\n When using Skill, increases ATK by 30% , lasting for 2 turn(s). This effect can stack up to 2 time(s).\n\n E 5\n Embryo, Set Beyond Vortex\n Eidolon 5\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Everything Is in Everything\n Eidolon 6\n\n The DMG dealt by Anaxa is 130% of the original DMG. The 2 effects in the Trace \"Imperative Hiatus\" will be triggered directly and will no longer depend on the number of \"Erudition\" characters in the team.",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-13",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Enable Ascension",
+      "assets": []
+    },
+    {
+      "id": "level-80-stats-14",
+      "level": 5,
+      "heading": "Level 80 stats",
+      "text": "HP\n\n 970\n\n ATK\n\n 756\n\n DEF\n\n 557\n\n Speed\n\n 97",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "level-1-80-ascension-materials-15",
+      "level": 5,
+      "heading": "Level 1 → 80 Ascension Materials",
+      "text": "Credit\n\n x 308000\n\n Ethereal Omen\n\n x 15\n\n Echoing Wail\n\n x 15\n\n A Glass of the Besotted Era\n\n x 65\n\n Eternal Lament\n\n x 15",
+      "assets": [
+        {
+          "id": "50d0e755383a",
+          "sourceHash": "50d0e755383a",
+          "kind": "items",
+          "name": "Credit",
+          "fileStem": "credit",
+          "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "a677c0eac85e",
+          "sourceHash": "a677c0eac85e",
+          "kind": "items",
+          "name": "Ethereal Omen",
+          "fileStem": "ethereal-omen",
+          "path": "Prydwen/hsr/assets/items/ethereal-omen-a677c0eac85e.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "dec5a804803d",
+          "sourceHash": "dec5a804803d",
+          "kind": "echoes",
+          "name": "Echoing Wail",
+          "fileStem": "echoing-wail",
+          "path": "Prydwen/hsr/assets/echoes/echoing-wail-dec5a804803d.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "9854abdc3380",
+          "sourceHash": "9854abdc3380",
+          "kind": "items",
+          "name": "A Glass of the Besotted Era",
+          "fileStem": "a-glass-of-the-besotted-era",
+          "path": "Prydwen/hsr/assets/items/a-glass-of-the-besotted-era-9854abdc3380.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "c910987cea6e",
+          "sourceHash": "c910987cea6e",
+          "kind": "items",
+          "name": "Eternal Lament",
+          "fileStem": "eternal-lament",
+          "path": "Prydwen/hsr/assets/items/eternal-lament-c910987cea6e.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "cv-16",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n Stephen Fu\n\n JPN\n Uchida Yuma (内田 雄馬)\n\n CN\n Qian Wenqing (钱文青)\n\n KR\n Lee Sang-jun (이상준)",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "9deca43a40ab",
+          "sourceHash": "9deca43a40ab",
+          "kind": "characters",
+          "name": "Anaxa",
+          "fileStem": "anaxa-full",
+          "path": "Prydwen/hsr/assets/characters/anaxa-9deca43a40ab.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Can be played both as Main DPS and Sub-DPS,\n\n Can implant all 7 Weakness Types on all enemies incredibly fast, allowing the whole team to break enemies,\n\n Strong single-target damage (and Toughness damage) for an Erudition character,\n\n Has a guaranteed Crowd Control to disrupt Extra Actions from enemies,\n\n Flexible rotation - able to use Basic ATK and still achieve 2-turn Ultimate rotations,\n\n Excellent synergy in one of the top DPS compositions.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Underwhelming AoE scaling for an Erudition character,\n\n Has competition in his niches as a weakness implanter and Erudition support damage.",
+      "assets": []
+    },
+    {
+      "id": "review-by-sushou-21",
+      "level": 2,
+      "heading": "Review (By Sushou)",
+      "text": "Anaxa is a remarkable Erudition character with an emphasis on Weakness Implant, allowing him to be played not only as a Main DPS but also as a Sub DPS. He deals increased DMG to targets with extra Weakness Types and provides additional bonuses to himself and the team based on the number of Erudition units in the team. He is extremely flexible as a character, being able to be used in almost any team due to his ability to mass implant weaknesses onto enemies, extremely good Energy economy, and high personal damage output. After some initial ramp-up, he can even be played SP neutral or positive at the cost of some damage, making him a fantastic pairing for even SP inefficient DPS.\n Anaxagoras, the man bold enough to face countless people and say 'No, you are all wrong, actually'. Thankfully, compared to other 3.x characters like Castorice, his kit is much easier to understand and dissect. He's a phenomenal universal DPS whose prowess with Weakness Implant is both coveted and envied (if you know, you know), being able to casually implant every Weakness in the game onto everything on the field and deal even more damage as a result.\n Anaxa's Skill will deal up to 70% ATK to a single enemy, and then four additional single hits to a random enemy. This is a Bounce skill, so it will function the same way as Asta's and Sampo's Skills, only here, instead of it being completely random, Anaxa's Skill Bounce will prioritise Bouncing to enemies that have not yet been hit by this instance of his Skill.\n The total damage it can deal is 350% ATK spread across all the enemies, making it quite potent in single-target scenarios. It may look underwhelming in AoE at only 70% per enemy, but the Skill actually has an additional effect that grants a 20% DMG bonus for every enemy on the field; this means the single-target damage is slightly higher than advertised, and that the AoE damage against 5 targets has a 100% DMG bonus, making this Skill effective against any number of enemies.\n Anaxa's Talent will inflict 1 random Weakness Type onto enemies for every 1 hit he lands, prioritising Weaknesses that the enemy doesn't already have. Now, the reason for the Bounce Skill becomes apparent. Using his Skill against 5 enemies will Implant a random Weakness into every single foe , and rather amusingly, using it against a single enemy will most likely max out the available Weaknesses, making them vulnerable to every Element.\n Additionally, if an enemy has at least 5 different Weakness Types while Anaxa is still on the field, Anaxa will automatically inflict them with the Qualitative Disclosure state. Anaxa will deal up to 30% increased DMG to enemies in this state, and when using either a Basic ATK or Skill against such an enemy, he will also automatically use an additional instance of his Skill on the target. This auto Skill usage is completely free, but it does not reactivate this effect.\n This means that for simply doing what he was already doing anyway, Anaxa gets to double-up on his Skill uses without expending any extra SP . This extra Skill usage functions exactly the same way as his regular Skill, meaning that even if you hit the only enemy with Qualitative Disclosure, the extra Skill will still Bounce in the same way to all the other foes. Oh, and yes, this extra Skill does also regenerate the exact same amount of Energy, meaning you can be getting as much as 60 Energy every single turn.\n The Ultimate is also extremely funny. Anaxa will inflict the Sublimation state onto all enemies and deals up to 160% ATK to them as well. During the Sublimation state, the enemies will be simultaneously inflicted with... Let me just check my notes... Yeah, every single Weakness Type currently in the game. That's Physical, Fire, Ice, Lightning, Wind, Quantum, and Imaginary.\n This Sublimation state only lasts until the start of the targets' next turn, but if they don't have Control RES, they will also be unable to act in the Sublimation state. I'd say to make sure to make it count, but even with an Energy cost of 140, Anaxa gets so much Energy back that you'll probably get another shot sooner than you expect.\n It's refreshing when a basic kit breakdown doesn't take much time at all. Anaxa already performs well with just this, but the Bonus Traces are very impactful and make him even better.\n Anaxa's A2 will regenerate an additional 10 Energy whenever he uses his Basic ATK. This means that there is no Energy penalty for choosing to be SP positive with Anaxa, and especially when factoring in his free follow-up Skill from his Talent, Anaxa is now able to regenerate 60 Energy consistently, regardless of if he used a Skill Point or not.\n Additionally, if there are no enemies with Qualitative Disclosure on the field, Anaxa will automatically regenerate 30 Energy at the start of his turn. This effect coupled with the last means that Anaxa is guaranteed to always be getting 60 Energy on every turn, no matter what, making his Energy economy exceptionally good.\n His A4 will provide bonuses based on the number of Erudition characters in the team. If there is 1 Erudition character (Himself alone), Anaxa will increase his own CRIT DMG by a whopping 140%. With this he becomes very serviceable as a main DPS with this Trace active.\n However, when there are at least 2 Erudition characters in the team, Anaxa will instead increase the DMG dealt by all allies by 50%. This is a permanent and very potent buff, and since Anaxa himself also benefits from this, this boosts Anaxa’s value as a sub-DPS for other Erudition main DPS’s significantly. Note, you can only have either the first or second buff active at one time, not both.\n Lastly, Anaxa's A6 is a fun one. For every 1 different Weakness Type on an enemy, Anaxa gets to ignore 4% of their DEF when dealing damage. At the cap of 7 Weaknesses, Anaxa gets to permanently ignore 28% of the enemy's DEF when hitting them, which is a staggeringly powerful bonus to have on a character by default. With how strong all of these Traces are, it's imperative that you unlock all of them if you want Anaxa to be at his strongest.\n Anaxa's got some impressive stuff in his kit, and being able to Implant so many Weaknesses really quite effortlessly means he can enable teams to go against typically unfavourable matchups and have a better time, without necessarily needing to factor in actual Weakness Types.\n Do note, however, that Implanting a Weakness is not quite the same as having that Weakness inherently; you do not gain the natural DMG bonus that you would otherwise have, and any existing resistances are not magically thrown aside, so if you're thinking of bringing Himeko to fight Blaze out of Space, you'll be reducing the Toughness now, sure, but you'll still need to contend with the massive Fire RES that enemy naturally has.\n With the A4, as mentioned already, it is pretty clear that Anaxa is designed specifically to enable Erudition characters to deal even more damage and be more universally applicable, and when it comes to strong Erudition characters... Well, it's obviously going to be Big Hat Herta.\n Big Herta already has no troubles wiping the floor with pretty much everything, and her teams are pretty versatile already, but Anaxa gets to amplify that even more. Especially since Herta already has bonuses for the number of Erudition characters on the team herself, putting her and Anaxa together means they both benefit from each others respective A4 Bonus Trace effects automatically, giving the entire team a laughable amount of increased DMG — buffs comparable to having multiple Harmony characters on the team but without sacrificing any damage potential.\n Outside of The Herta, all of his combined unique supportive capabilities also mean he is going to be a compelling choice for any future Erudition DPS as well, further amplifying his already high pull value. Heck, maybe he'll even find his way into Super Break teams at some point.\n As obviously strong as Anaxa is as a Sub-DPS (the role he is clearly designed for) in a lot of teams, he can still hold his own in hypercarry set-ups, especially in modes that can take advantage of his ability to make enemy toughness bars a thing of the past. Getting 140% CRIT DMG for free and having solid damage multipliers is enough to give him a fair shot at clearing most of endgame solo at the time of his release.\n He's a pretty cool guy, and like all Flame Chasers is destined for greatness. You may not like it, but this is what peak physical performance looks like (insert image of 7 Implanted Weaknesses here).",
+      "assets": []
+    },
+    {
+      "id": "ratings-22",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.",
+      "assets": []
+    },
+    {
+      "id": "support-dps-23",
+      "level": 5,
+      "heading": "Support DPS",
+      "text": "T1.5\n MoC\n\n T0.5\n PF\n\n T1.5\n AS",
+      "assets": []
+    },
+    {
+      "id": "damage-dealer-24",
+      "level": 5,
+      "heading": "Damage dealer",
+      "text": "T0.5\n MoC\n\n T1\n PF\n\n T0.5\n AS\n\n Build and teams\n\n Anaxa Relic and Light Cone calculations are based on fighting against 3 targets.",
+      "assets": []
+    },
+    {
+      "id": "best-light-cones-26",
+      "level": 2,
+      "heading": "Best Light Cones",
+      "text": "117%\n\n Life Should Be Cast to Flames (S 1 )\n\n Anaxa's Signature is his best in slot option for personal damage and team support. Provides the Energy he's missing in order to perform 2-turn Ultimate rotations consistently, a large amount of DMG%, and applies a 12% DEF Reduction to enemies amplifying his and his teams damage significantly.\n Usage: 54.55 %\n MoC: 8.83 cyc.\n PF: 27221\n AS: 3367\n\n 115.12%\n\n Into the Unreachable Veil (S 1 )\n\n The Herta's Signature Light Cone and surprisingly potent choice for Anaxa, granting him a solid amount of CRIT RATE, a massive increase to his Skill and Ultimate DMG, and an extra 1 SP refund every Ultimate. Even so, not his best option and likely already in use by one of his best teammates and the owner of this Cone, The Herta.\n Usage: 15.18 %\n MoC: 8.17 cyc.\n PF: 26865\n AS: 3405\n\n 100.00%\n\n The Great Cosmic Enterprise (S 5 )\n\n Great F2P option for Anaxa, increasing his DMG dealt based on the amount of Weakness Types on the target - something his ultimate applies all 7 of immediately (although temporary), and the rest of his kit can achieve over time. Depending on the amount of enemies and how frequently fresh ones spawn, this Cone can take a while to ramp up though. Calculated with 6 Vulnerabilities on enemies on average - will perform worse with less.\n Usage: 23.19 %\n MoC: 8.8 cyc.\n PF: 26404\n AS: 3347\n\n 99.57%\n\n Today Is Another Peaceful Day (S 5 )\n\n A strong, generic and consistent DMG option, providing a permanent 56% DMG boost. If you already have this Cone maxed out, it's a solid choice.\n Usage: 0.44 %\n MoC: -\n PF: 33080\n AS: 0\n\n 98.68%\n\n Before Dawn (S 1 )\n\n Jing Yuan's signature is a passable option for Anaxa if it's all you have and/or don't want to level up another Erudition Cone for him.\n Usage: 0.54 %\n MoC: -\n PF: 0\n AS: 3101\n\n Anaxa Relic and Light Cone calculations are based on fighting against 3 targets.",
+      "assets": [
+        {
+          "id": "09d8727f7e88",
+          "sourceHash": "09d8727f7e88",
+          "kind": "light-cones",
+          "name": "Life Should Be Cast to Flames",
+          "fileStem": "life-should-be-cast-to-flames",
+          "path": "Prydwen/hsr/assets/light-cones/life-should-be-cast-to-flames-09d8727f7e88.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "1f5f647f14e6",
+          "sourceHash": "1f5f647f14e6",
+          "kind": "light-cones",
+          "name": "Into the Unreachable Veil",
+          "fileStem": "into-the-unreachable-veil",
+          "path": "Prydwen/hsr/assets/light-cones/into-the-unreachable-veil-1f5f647f14e6.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "d8c177040207",
+          "sourceHash": "d8c177040207",
+          "kind": "light-cones",
+          "name": "The Great Cosmic Enterprise",
+          "fileStem": "the-great-cosmic-enterprise",
+          "path": "Prydwen/hsr/assets/light-cones/the-great-cosmic-enterprise-d8c177040207.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "1975a2492785",
+          "sourceHash": "1975a2492785",
+          "kind": "light-cones",
+          "name": "Today Is Another Peaceful Day",
+          "fileStem": "today-is-another-peaceful-day",
+          "path": "Prydwen/hsr/assets/light-cones/today-is-another-peaceful-day-1975a2492785.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "efdffaadc6e8",
+          "sourceHash": "efdffaadc6e8",
+          "kind": "light-cones",
+          "name": "Before Dawn",
+          "fileStem": "before-dawn",
+          "path": "Prydwen/hsr/assets/light-cones/before-dawn-efdffaadc6e8.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-relic-sets-28",
+      "level": 2,
+      "heading": "Best Relic Sets",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 114.34%\n\n As Navigator Isee Sees It ( 4 -PC)\n\n Best in slot for main DPS Anaxa where his extra Skills can help maintain maximum stacks of the buff, better if paired with Cerydra for Skill duplication.\n Usage: 1.15 %\n MoC: -\n PF: 0\n AS: 3172\n\n 109.59%\n\n Wavestrider Captain ( 4 -PC)\n\n Only for main DPS, strong alternative with teammates that can target him every turn such as with Cyrene and Cerydra. Anaxa can maintain good uptime on the set with how fast he can regain his Ultimate.\n Usage: 1.15 %\n MoC: -\n PF: 0\n AS: 3434\n\n 100.02%\n\n Genius of Brilliant Stars ( 4 -PC)\n\n Anaxa can implant Quantum Weakness on enemies himself enabling the 20% DEF ignore at all times which becomes even more potent when combined with his Bonus Ability, Signature Light Cone, Eidolon 1 and other sources of DEF SHRED.\n Usage: 19.44 %\n MoC: 8.78 cyc.\n PF: 26153\n AS: 3515\n\n 100.00%\n\n Scholar Lost in Erudition ( 4 -PC)\n\n A solid, generic and easily farmable option for Anaxa, thanks to its passive CRIT RATE and high DMG multipliers to his main abilities. Not his best but not bad either.\n Usage: 35.19 %\n MoC: 8.22 cyc.\n PF: 25493\n AS: 3372\n\n 95.71%\n\n Scholar Lost in Erudition ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Pioneer Diver of Dead Waters\n\n Eagle of Twilight Line\n\n Prisoner in Deep Confinement\n\n Musketeer of Wild Wheat\n\n Hero of Triumphant Song\n\n Sacerdos' Relived Ordeal\n\n Messenger Traversing Hackerspace\n\n Usage: 0.14 %\n MoC: -\n PF: 0\n AS: 0",
+      "assets": [
+        {
+          "id": "75b9a740d310",
+          "sourceHash": "75b9a740d310",
+          "kind": "relics",
+          "name": "As Navigator Isee Sees It",
+          "fileStem": "as-navigator-isee-sees-it",
+          "path": "Prydwen/hsr/assets/relics/as-navigator-isee-sees-it-75b9a740d310.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "093d3932e1af",
+          "sourceHash": "093d3932e1af",
+          "kind": "relics",
+          "name": "Wavestrider Captain",
+          "fileStem": "wavestrider-captain",
+          "path": "Prydwen/hsr/assets/relics/wavestrider-captain-093d3932e1af.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "c153d0175293",
+          "sourceHash": "c153d0175293",
+          "kind": "relics",
+          "name": "Genius of Brilliant Stars",
+          "fileStem": "genius-of-brilliant-stars",
+          "path": "Prydwen/hsr/assets/relics/genius-of-brilliant-stars-c153d0175293.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "f521b7a2ee25",
+          "sourceHash": "f521b7a2ee25",
+          "kind": "relics",
+          "name": "Scholar Lost in Erudition",
+          "fileStem": "scholar-lost-in-erudition",
+          "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "6e205de52037",
+          "sourceHash": "6e205de52037",
+          "kind": "relics",
+          "name": "Pioneer Diver of Dead Waters",
+          "fileStem": "pioneer-diver-of-dead-waters",
+          "path": "Prydwen/hsr/assets/relics/pioneer-diver-of-dead-waters-6e205de52037.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "36af28ceb2d3",
+          "sourceHash": "36af28ceb2d3",
+          "kind": "relics",
+          "name": "Eagle of Twilight Line",
+          "fileStem": "eagle-of-twilight-line",
+          "path": "Prydwen/hsr/assets/relics/eagle-of-twilight-line-36af28ceb2d3.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "507bb2127c32",
+          "sourceHash": "507bb2127c32",
+          "kind": "relics",
+          "name": "Prisoner in Deep Confinement",
+          "fileStem": "prisoner-in-deep-confinement",
+          "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "deeeca721276",
+          "sourceHash": "deeeca721276",
+          "kind": "relics",
+          "name": "Musketeer of Wild Wheat",
+          "fileStem": "musketeer-of-wild-wheat",
+          "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "f71c3d91b222",
+          "sourceHash": "f71c3d91b222",
+          "kind": "relics",
+          "name": "Hero of Triumphant Song",
+          "fileStem": "hero-of-triumphant-song",
+          "path": "Prydwen/hsr/assets/relics/hero-of-triumphant-song-f71c3d91b222.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "5cb190fcc346",
+          "sourceHash": "5cb190fcc346",
+          "kind": "relics",
+          "name": "Sacerdos' Relived Ordeal",
+          "fileStem": "sacerdos-relived-ordeal",
+          "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "4cb8065ad660",
+          "sourceHash": "4cb8065ad660",
+          "kind": "relics",
+          "name": "Messenger Traversing Hackerspace",
+          "fileStem": "messenger-traversing-hackerspace",
+          "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-specialist-relic-sets-29",
+      "level": 6,
+      "heading": "Best Specialist Relic Sets",
+      "text": "103.77%\n\n Eagle of Twilight Line ( 4 -PC)\n\n In most cases, Anaxa has access to his ultimate every 2 actions, making this set an incredibly efficient way of allowing him to gain additional actions for more damage, but also greater supportive benefit for his team (The Herta can gain more energy).\n Usage: 37.69 %\n MoC: 7.5 cyc.\n PF: 27062\n AS: 3228\n\n 99.88%\n\n Divine-Querying Master Smith ( 4 -PC)\n\n ONLY Works with his Signature Light Cone or Eidolon 1, can increase the team's DMG dealt by 15% which may be useful when played as The Herta's support.",
+      "assets": [
+        {
+          "id": "36af28ceb2d3",
+          "sourceHash": "36af28ceb2d3",
+          "kind": "relics",
+          "name": "Eagle of Twilight Line",
+          "fileStem": "eagle-of-twilight-line",
+          "path": "Prydwen/hsr/assets/relics/eagle-of-twilight-line-36af28ceb2d3.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "441039825aff",
+          "sourceHash": "441039825aff",
+          "kind": "relics",
+          "name": "Divine-Querying Master Smith",
+          "fileStem": "divine-querying-master-smith",
+          "path": "Prydwen/hsr/assets/relics/divine-querying-master-smith-441039825aff.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-planetary-sets-30",
+      "level": 6,
+      "heading": "Best Planetary Sets",
+      "text": "101.62%\n\n Izumo Gensei and Takama Divine Realm ( 2 -PC)\n\n Anaxa is very often paired with another Erudition character, because of that, this set has no downside while also having a large amount of CRIT RATE, one of his best stats. Note when playing Anaxa Hyper Carry (without another Erudition), this does NOT work.\n Usage: 12.03 %\n MoC: 5 cyc.\n PF: 26640\n AS: 3153\n\n 100.00%\n\n Rutilant Arena ( 2 -PC)\n\n A great and generic option for Anaxa that boosts his damage output.\n Usage: 75.61 %\n MoC: 8.79 cyc.\n PF: 26826\n AS: 3376",
+      "assets": [
+        {
+          "id": "b58fdc60eb2f",
+          "sourceHash": "b58fdc60eb2f",
+          "kind": "relics",
+          "name": "Izumo Gensei and Takama Divine Realm",
+          "fileStem": "izumo-gensei-and-takama-divine-realm",
+          "path": "Prydwen/hsr/assets/relics/izumo-gensei-and-takama-divine-realm-b58fdc60eb2f.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "0ad357f87585",
+          "sourceHash": "0ad357f87585",
+          "kind": "relics",
+          "name": "Rutilant Arena",
+          "fileStem": "rutilant-arena",
+          "path": "Prydwen/hsr/assets/relics/rutilant-arena-0ad357f87585.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-stats-32",
+      "level": 2,
+      "heading": "Best Stats",
+      "text": "Body\n CRIT Rate\n > CRIT DMG\n\n Feet\n Speed\n\n Planar Sphere\n ATK%\n > Wind DMG\n\n Link Rope\n ATK%\n >= Energy Regen Rate\n\n Substats: SPD (Until Desired Breakpoint) > CRIT RATE > CRIT DMG > ATK%",
+      "assets": [
+        {
+          "id": "af5b8acc8f63",
+          "sourceHash": "af5b8acc8f63",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-critrate",
+          "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "44c437b21b3a",
+          "sourceHash": "44c437b21b3a",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "c4c6f35c46eb",
+          "sourceHash": "c4c6f35c46eb",
+          "kind": "icons",
+          "name": "Wind DMG",
+          "fileStem": "stat-winddmg",
+          "path": "Prydwen/hsr/assets/icons/wind-dmg-c4c6f35c46eb.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "106ddd8eff32",
+          "sourceHash": "106ddd8eff32",
+          "kind": "icons",
+          "name": "Energy Regen",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "recommended-endgame-stats-33",
+      "level": 2,
+      "heading": "Recommended endgame stats",
+      "text": "ATK: 2600-3000+\n\n HP: 2800+\n\n DEF: 1100+\n\n CRIT Rate: 90-100%\n\n CRIT DMG: 100-120% + (Before Trace)\n\n SPD: 134+",
+      "assets": []
+    },
+    {
+      "id": "traces-priority-34",
+      "level": 2,
+      "heading": "Traces priority",
+      "text": "Skills priority: Skill > Ultimate > Talent > Basic\n\n Major Traces priority: Imperative Hiatus (A4) > Roaming Signifier (A2) > Qualitative Shift (A6)",
+      "assets": []
+    },
+    {
+      "id": "synergy-35",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "The Herta - The Herta currently stands at the top of the meta, but requires another Erudition character alongside her - Anaxa is the best character for this role. His Skill can hit all enemies and launches twice every turn, which combined with his AoE Ultimate, generates an absurd amount of Energy for The Herta while also fulfilling her Erudition teammate requirements, providing a 50% teamwide DMG boost, bringing respectable damage to the table, and best of all, implanting all 7 weaknesses on all enemies.\n Tribbie - Anaxa's primarily playstle is acting as a sub-dps in double damage teams, and for that reason Tribbie's team wide RES PEN and DMG Taken% buffs are a potent choice, allowing him to benefit when compared to single target buffers where he would miss out. Another reason Tribbie is fantastic alongside Anaxa is that her RES PEN allows him and his teams to better take advantage of his brute forcing capabilities granted by his weakness implants. Tribbie plus Anaxa make going against non-weak enemies truly quite viable.\n Robin - When Tribbie is otherwise unavailable, Robin can also be a strong choice alongside Anaxa when played in double damage teams thanks to her team wide advancement, great buffs and the fact he can trigger her concerto damage far more frequently than most characters due to performing 2 attacks per action instead of one.\n Sunday - When playing Anaxa as a Hypercarry, Sunday is one of the most powerful partners for him in the usual 135/134 setup, allowing him to rain down an ocean of bullets upon his enemies by performing 4 almost back to back actions and an ultimate all at once. In addition to Sunday's usual action advancement shenanigans, Anaxa very much appreciates his damage amplification buffs as well.\n Cerydra - Cerydra is a strong option for Hyper Carry Anaxa as the fact he can use his Skill twice per turn allows him to stack Charges for her very quickly. Cerydra's skill duplication allows Anaxa to use his skill back to back twice, which can then be followed by his talent twice for a total of 4 skills in one shot. Cerydra's SPD buff can also allow Anaxa to run ATK% boots over SPD, but should be pursued with caution as when running the combo alongside an action advancer you may run into uptime issues.\n Dan Heng • Permansor Terrae - Strong Shielder who can work with both Sub-DPS and Main DPS Anaxa. Notably for Main DPS Anaxa, Souldragon provides him with an ATK buff, extra ATK multipliers, and enables him to receive the full 80% DMG Bonus from Sunday's Skill.\n Cyrene - Cyrene offers beneficial buffs for both Anaxa's Sub DPS and Main DPS playstyle, but it's recommended to stick to Main DPS Anaxa with Cyrene. Every Ultimate will grant Anaxa an immediate action, a Skill Point, and additional Bounce instances for his Skill which can be duplicated by Cerydra. Lastly, for both of his playstyles, Cyrene's buffs also provide a large increase in Skill DMG for other Erudition allies.",
+      "assets": [
+        {
+          "id": "fecc96b9e5e6",
+          "sourceHash": "fecc96b9e5e6",
+          "kind": "characters",
+          "name": "The Herta",
+          "fileStem": "the-herta-icon",
+          "path": "Prydwen/hsr/assets/characters/the-herta-fecc96b9e5e6.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "2cde7699adbf",
+          "sourceHash": "2cde7699adbf",
+          "kind": "characters",
+          "name": "Tribbie",
+          "fileStem": "tribbie-icon",
+          "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "e985c6a49a99",
+          "sourceHash": "e985c6a49a99",
+          "kind": "characters",
+          "name": "Robin",
+          "fileStem": "robin-icon",
+          "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "3d568cb7f29d",
+          "sourceHash": "3d568cb7f29d",
+          "kind": "characters",
+          "name": "Sunday",
+          "fileStem": "sunday-icon",
+          "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "1b219ef71829",
+          "sourceHash": "1b219ef71829",
+          "kind": "characters",
+          "name": "Cerydra",
+          "fileStem": "cerydra-icon",
+          "path": "Prydwen/hsr/assets/characters/cerydra-1b219ef71829.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "714348f14d48",
+          "sourceHash": "714348f14d48",
+          "kind": "characters",
+          "name": "Dan Heng • Permansor Terrae",
+          "fileStem": "dan-heng-permansor-terrae-icon",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "005597837585",
+          "sourceHash": "005597837585",
+          "kind": "characters",
+          "name": "Cyrene",
+          "fileStem": "cyrene-icon",
+          "path": "Prydwen/hsr/assets/characters/cyrene-005597837585.webp",
+          "width": 45,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "id": "anomaly-arbitration-40",
+      "level": 6,
+      "heading": "Anomaly Arbitration",
+      "text": "Rank 37\n App. rate: 0.65 %\n Avg. cycles : 8.12\n Avg. cycles (E1+): 5.58\n\n Rank 47\n App. rate: 0.47 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.07\n\n Rank 79\n App. rate: 0.25 %\n Avg. cycles : 9.5\n Avg. cycles (E1+): 8.76\n\n Rank 108\n App. rate: 0.15 %\n Avg. cycles : -\n Avg. cycles (E1+): 6.88\n\n Rank 119\n App. rate: 0.13 %\n Avg. cycles : 9.67\n Avg. cycles (E1+): 5.6\n\n Rank 119\n App. rate: 0.13 %\n Avg. cycles : -\n Avg. cycles (E1+): 1.55\n\n Rank 160\n App. rate: 0.09 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.5\n\n Rank 248\n App. rate: 0.04 %\n Avg. cycles : -\n Avg. cycles (E1+): 6.67\n\n Rank 248\n App. rate: 0.04 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.33\n\n Rank 248\n App. rate: 0.04 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.83",
+      "assets": [
+        {
+          "id": "ca43f286c4b8",
+          "sourceHash": "ca43f286c4b8",
+          "kind": "characters",
+          "name": "Anaxa",
+          "fileStem": "anaxa-icon",
+          "path": "Prydwen/hsr/assets/characters/anaxa-ca43f286c4b8.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ee11bd390c9a",
+          "sourceHash": "ee11bd390c9a",
+          "kind": "icons",
+          "name": "Wind",
+          "fileStem": "ele-wind",
+          "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "1b219ef71829",
+          "sourceHash": "1b219ef71829",
+          "kind": "characters",
+          "name": "Cerydra",
+          "fileStem": "cerydra-icon",
+          "path": "Prydwen/hsr/assets/characters/cerydra-1b219ef71829.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "005597837585",
+          "sourceHash": "005597837585",
+          "kind": "characters",
+          "name": "Cyrene",
+          "fileStem": "cyrene-icon",
+          "path": "Prydwen/hsr/assets/characters/cyrene-005597837585.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7d36eb39792a",
+          "sourceHash": "7d36eb39792a",
+          "kind": "icons",
+          "name": "Ice",
+          "fileStem": "ele-ice",
+          "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "714348f14d48",
+          "sourceHash": "714348f14d48",
+          "kind": "characters",
+          "name": "Dan Heng • Permansor Terrae",
+          "fileStem": "dan-heng-permansor-terrae-icon",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0db16ed6c66",
+          "sourceHash": "e0db16ed6c66",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "ele-physical",
+          "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "fecc96b9e5e6",
+          "sourceHash": "fecc96b9e5e6",
+          "kind": "characters",
+          "name": "The Herta",
+          "fileStem": "the-herta-icon",
+          "path": "Prydwen/hsr/assets/characters/the-herta-fecc96b9e5e6.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "2cde7699adbf",
+          "sourceHash": "2cde7699adbf",
+          "kind": "characters",
+          "name": "Tribbie",
+          "fileStem": "tribbie-icon",
+          "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "565914d1a436",
+          "sourceHash": "565914d1a436",
+          "kind": "icons",
+          "name": "Quantum",
+          "fileStem": "ele-quantum",
+          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "3d568cb7f29d",
+          "sourceHash": "3d568cb7f29d",
+          "kind": "characters",
+          "name": "Sunday",
+          "fileStem": "sunday-icon",
+          "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "913ff64407f2",
+          "sourceHash": "913ff64407f2",
+          "kind": "icons",
+          "name": "Imaginary",
+          "fileStem": "ele-imaginary",
+          "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "1d90270b2b4b",
+          "sourceHash": "1d90270b2b4b",
+          "kind": "characters",
+          "name": "Hyacine",
+          "fileStem": "hyacine-icon",
+          "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d3e344772d55",
+          "sourceHash": "d3e344772d55",
+          "kind": "characters",
+          "name": "Trailblazer • Remembrance",
+          "fileStem": "trailblazer-remembrance-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "c4a9c00e98ef",
+          "sourceHash": "c4a9c00e98ef",
+          "kind": "characters",
+          "name": "Huohuo",
+          "fileStem": "huohuo-icon",
+          "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "0658046ea612",
+          "sourceHash": "0658046ea612",
+          "kind": "characters",
+          "name": "Aventurine",
+          "fileStem": "aventurine-icon",
+          "path": "Prydwen/hsr/assets/characters/aventurine-0658046ea612.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "da99d2d9a505",
+          "sourceHash": "da99d2d9a505",
+          "kind": "characters",
+          "name": "Sparkle",
+          "fileStem": "sparkle-icon",
+          "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "video-guides-41",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "MoC/PF/AS Statistics",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-light-cones": {
+      "label": "Best Light Cones",
+      "sections": [
+        {
+          "heading": "Best Light Cones",
+          "text": "117%\n\n Life Should Be Cast to Flames (S 1 )\n\n Anaxa's Signature is his best in slot option for personal damage and team support. Provides the Energy he's missing in order to perform 2-turn Ultimate rotations consistently, a large amount of DMG%, and applies a 12% DEF Reduction to enemies amplifying his and his teams damage significantly.\n Usage: 54.55 %\n MoC: 8.83 cyc.\n PF: 27221\n AS: 3367\n\n 115.12%\n\n Into the Unreachable Veil (S 1 )\n\n The Herta's Signature Light Cone and surprisingly potent choice for Anaxa, granting him a solid amount of CRIT RATE, a massive increase to his Skill and Ultimate DMG, and an extra 1 SP refund every Ultimate. Even so, not his best option and likely already in use by one of his best teammates and the owner of this Cone, The Herta.\n Usage: 15.18 %\n MoC: 8.17 cyc.\n PF: 26865\n AS: 3405\n\n 100.00%\n\n The Great Cosmic Enterprise (S 5 )\n\n Great F2P option for Anaxa, increasing his DMG dealt based on the amount of Weakness Types on the target - something his ultimate applies all 7 of immediately (although temporary), and the rest of his kit can achieve over time. Depending on the amount of enemies and how frequently fresh ones spawn, this Cone can take a while to ramp up though. Calculated with 6 Vulnerabilities on enemies on average - will perform worse with less.\n Usage: 23.19 %\n MoC: 8.8 cyc.\n PF: 26404\n AS: 3347\n\n 99.57%\n\n Today Is Another Peaceful Day (S 5 )\n\n A strong, generic and consistent DMG option, providing a permanent 56% DMG boost. If you already have this Cone maxed out, it's a solid choice.\n Usage: 0.44 %\n MoC: -\n PF: 33080\n AS: 0\n\n 98.68%\n\n Before Dawn (S 1 )\n\n Jing Yuan's signature is a passable option for Anaxa if it's all you have and/or don't want to level up another Erudition Cone for him.\n Usage: 0.54 %\n MoC: -\n PF: 0\n AS: 3101\n\n Anaxa Relic and Light Cone calculations are based on fighting against 3 targets.",
+          "assets": [
+            {
+              "id": "09d8727f7e88",
+              "sourceHash": "09d8727f7e88",
+              "kind": "light-cones",
+              "name": "Life Should Be Cast to Flames",
+              "fileStem": "life-should-be-cast-to-flames",
+              "path": "Prydwen/hsr/assets/light-cones/life-should-be-cast-to-flames-09d8727f7e88.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "1f5f647f14e6",
+              "sourceHash": "1f5f647f14e6",
+              "kind": "light-cones",
+              "name": "Into the Unreachable Veil",
+              "fileStem": "into-the-unreachable-veil",
+              "path": "Prydwen/hsr/assets/light-cones/into-the-unreachable-veil-1f5f647f14e6.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "d8c177040207",
+              "sourceHash": "d8c177040207",
+              "kind": "light-cones",
+              "name": "The Great Cosmic Enterprise",
+              "fileStem": "the-great-cosmic-enterprise",
+              "path": "Prydwen/hsr/assets/light-cones/the-great-cosmic-enterprise-d8c177040207.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "1975a2492785",
+              "sourceHash": "1975a2492785",
+              "kind": "light-cones",
+              "name": "Today Is Another Peaceful Day",
+              "fileStem": "today-is-another-peaceful-day",
+              "path": "Prydwen/hsr/assets/light-cones/today-is-another-peaceful-day-1975a2492785.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "efdffaadc6e8",
+              "sourceHash": "efdffaadc6e8",
+              "kind": "light-cones",
+              "name": "Before Dawn",
+              "fileStem": "before-dawn",
+              "path": "Prydwen/hsr/assets/light-cones/before-dawn-efdffaadc6e8.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-relic-sets": {
+      "label": "Best Relic Sets",
+      "sections": [
+        {
+          "heading": "Best Relic Sets",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 114.34%\n\n As Navigator Isee Sees It ( 4 -PC)\n\n Best in slot for main DPS Anaxa where his extra Skills can help maintain maximum stacks of the buff, better if paired with Cerydra for Skill duplication.\n Usage: 1.15 %\n MoC: -\n PF: 0\n AS: 3172\n\n 109.59%\n\n Wavestrider Captain ( 4 -PC)\n\n Only for main DPS, strong alternative with teammates that can target him every turn such as with Cyrene and Cerydra. Anaxa can maintain good uptime on the set with how fast he can regain his Ultimate.\n Usage: 1.15 %\n MoC: -\n PF: 0\n AS: 3434\n\n 100.02%\n\n Genius of Brilliant Stars ( 4 -PC)\n\n Anaxa can implant Quantum Weakness on enemies himself enabling the 20% DEF ignore at all times which becomes even more potent when combined with his Bonus Ability, Signature Light Cone, Eidolon 1 and other sources of DEF SHRED.\n Usage: 19.44 %\n MoC: 8.78 cyc.\n PF: 26153\n AS: 3515\n\n 100.00%\n\n Scholar Lost in Erudition ( 4 -PC)\n\n A solid, generic and easily farmable option for Anaxa, thanks to its passive CRIT RATE and high DMG multipliers to his main abilities. Not his best but not bad either.\n Usage: 35.19 %\n MoC: 8.22 cyc.\n PF: 25493\n AS: 3372\n\n 95.71%\n\n Scholar Lost in Erudition ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Pioneer Diver of Dead Waters\n\n Eagle of Twilight Line\n\n Prisoner in Deep Confinement\n\n Musketeer of Wild Wheat\n\n Hero of Triumphant Song\n\n Sacerdos' Relived Ordeal\n\n Messenger Traversing Hackerspace\n\n Usage: 0.14 %\n MoC: -\n PF: 0\n AS: 0",
+          "assets": [
+            {
+              "id": "75b9a740d310",
+              "sourceHash": "75b9a740d310",
+              "kind": "relics",
+              "name": "As Navigator Isee Sees It",
+              "fileStem": "as-navigator-isee-sees-it",
+              "path": "Prydwen/hsr/assets/relics/as-navigator-isee-sees-it-75b9a740d310.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "093d3932e1af",
+              "sourceHash": "093d3932e1af",
+              "kind": "relics",
+              "name": "Wavestrider Captain",
+              "fileStem": "wavestrider-captain",
+              "path": "Prydwen/hsr/assets/relics/wavestrider-captain-093d3932e1af.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "c153d0175293",
+              "sourceHash": "c153d0175293",
+              "kind": "relics",
+              "name": "Genius of Brilliant Stars",
+              "fileStem": "genius-of-brilliant-stars",
+              "path": "Prydwen/hsr/assets/relics/genius-of-brilliant-stars-c153d0175293.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "f521b7a2ee25",
+              "sourceHash": "f521b7a2ee25",
+              "kind": "relics",
+              "name": "Scholar Lost in Erudition",
+              "fileStem": "scholar-lost-in-erudition",
+              "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "6e205de52037",
+              "sourceHash": "6e205de52037",
+              "kind": "relics",
+              "name": "Pioneer Diver of Dead Waters",
+              "fileStem": "pioneer-diver-of-dead-waters",
+              "path": "Prydwen/hsr/assets/relics/pioneer-diver-of-dead-waters-6e205de52037.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "36af28ceb2d3",
+              "sourceHash": "36af28ceb2d3",
+              "kind": "relics",
+              "name": "Eagle of Twilight Line",
+              "fileStem": "eagle-of-twilight-line",
+              "path": "Prydwen/hsr/assets/relics/eagle-of-twilight-line-36af28ceb2d3.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "507bb2127c32",
+              "sourceHash": "507bb2127c32",
+              "kind": "relics",
+              "name": "Prisoner in Deep Confinement",
+              "fileStem": "prisoner-in-deep-confinement",
+              "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "deeeca721276",
+              "sourceHash": "deeeca721276",
+              "kind": "relics",
+              "name": "Musketeer of Wild Wheat",
+              "fileStem": "musketeer-of-wild-wheat",
+              "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "f71c3d91b222",
+              "sourceHash": "f71c3d91b222",
+              "kind": "relics",
+              "name": "Hero of Triumphant Song",
+              "fileStem": "hero-of-triumphant-song",
+              "path": "Prydwen/hsr/assets/relics/hero-of-triumphant-song-f71c3d91b222.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "5cb190fcc346",
+              "sourceHash": "5cb190fcc346",
+              "kind": "relics",
+              "name": "Sacerdos' Relived Ordeal",
+              "fileStem": "sacerdos-relived-ordeal",
+              "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "4cb8065ad660",
+              "sourceHash": "4cb8065ad660",
+              "kind": "relics",
+              "name": "Messenger Traversing Hackerspace",
+              "fileStem": "messenger-traversing-hackerspace",
+              "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-planetary-sets": {
+      "label": "Best Planetary Sets",
+      "sections": [
+        {
+          "heading": "Best Planetary Sets",
+          "text": "101.62%\n\n Izumo Gensei and Takama Divine Realm ( 2 -PC)\n\n Anaxa is very often paired with another Erudition character, because of that, this set has no downside while also having a large amount of CRIT RATE, one of his best stats. Note when playing Anaxa Hyper Carry (without another Erudition), this does NOT work.\n Usage: 12.03 %\n MoC: 5 cyc.\n PF: 26640\n AS: 3153\n\n 100.00%\n\n Rutilant Arena ( 2 -PC)\n\n A great and generic option for Anaxa that boosts his damage output.\n Usage: 75.61 %\n MoC: 8.79 cyc.\n PF: 26826\n AS: 3376",
+          "assets": [
+            {
+              "id": "b58fdc60eb2f",
+              "sourceHash": "b58fdc60eb2f",
+              "kind": "relics",
+              "name": "Izumo Gensei and Takama Divine Realm",
+              "fileStem": "izumo-gensei-and-takama-divine-realm",
+              "path": "Prydwen/hsr/assets/relics/izumo-gensei-and-takama-divine-realm-b58fdc60eb2f.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "0ad357f87585",
+              "sourceHash": "0ad357f87585",
+              "kind": "relics",
+              "name": "Rutilant Arena",
+              "fileStem": "rutilant-arena",
+              "path": "Prydwen/hsr/assets/relics/rutilant-arena-0ad357f87585.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-stats": {
+      "label": "Best Stats",
+      "sections": [
+        {
+          "heading": "Best Stats",
+          "text": "Body\n CRIT Rate\n > CRIT DMG\n\n Feet\n Speed\n\n Planar Sphere\n ATK%\n > Wind DMG\n\n Link Rope\n ATK%\n >= Energy Regen Rate\n\n Substats: SPD (Until Desired Breakpoint) > CRIT RATE > CRIT DMG > ATK%",
+          "assets": [
+            {
+              "id": "af5b8acc8f63",
+              "sourceHash": "af5b8acc8f63",
+              "kind": "icons",
+              "name": "CRIT Rate",
+              "fileStem": "stat-critrate",
+              "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "44c437b21b3a",
+              "sourceHash": "44c437b21b3a",
+              "kind": "icons",
+              "name": "CRIT DMG",
+              "fileStem": "stat-critdmg",
+              "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "087f2dec68b6",
+              "sourceHash": "087f2dec68b6",
+              "kind": "icons",
+              "name": "Speed",
+              "fileStem": "stat-speed",
+              "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "dc6aec4a7776",
+              "sourceHash": "dc6aec4a7776",
+              "kind": "icons",
+              "name": "ATK",
+              "fileStem": "stat-atk",
+              "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "c4c6f35c46eb",
+              "sourceHash": "c4c6f35c46eb",
+              "kind": "icons",
+              "name": "Wind DMG",
+              "fileStem": "stat-winddmg",
+              "path": "Prydwen/hsr/assets/icons/wind-dmg-c4c6f35c46eb.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "106ddd8eff32",
+              "sourceHash": "106ddd8eff32",
+              "kind": "icons",
+              "name": "Energy Regen",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        }
+      ]
+    },
+    "recommended-endgame-stats": {
+      "label": "Recommended endgame stats",
+      "sections": [
+        {
+          "heading": "Recommended endgame stats",
+          "text": "ATK: 2600-3000+\n\n HP: 2800+\n\n DEF: 1100+\n\n CRIT Rate: 90-100%\n\n CRIT DMG: 100-120% + (Before Trace)\n\n SPD: 134+",
+          "assets": []
+        }
+      ]
+    },
+    "traces-priority": {
+      "label": "Traces priority",
+      "sections": [
+        {
+          "heading": "Traces priority",
+          "text": "Skills priority: Skill > Ultimate > Talent > Basic\n\n Major Traces priority: Imperative Hiatus (A4) > Roaming Signifier (A2) > Qualitative Shift (A6)",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "The Herta - The Herta currently stands at the top of the meta, but requires another Erudition character alongside her - Anaxa is the best character for this role. His Skill can hit all enemies and launches twice every turn, which combined with his AoE Ultimate, generates an absurd amount of Energy for The Herta while also fulfilling her Erudition teammate requirements, providing a 50% teamwide DMG boost, bringing respectable damage to the table, and best of all, implanting all 7 weaknesses on all enemies.\n Tribbie - Anaxa's primarily playstle is acting as a sub-dps in double damage teams, and for that reason Tribbie's team wide RES PEN and DMG Taken% buffs are a potent choice, allowing him to benefit when compared to single target buffers where he would miss out. Another reason Tribbie is fantastic alongside Anaxa is that her RES PEN allows him and his teams to better take advantage of his brute forcing capabilities granted by his weakness implants. Tribbie plus Anaxa make going against non-weak enemies truly quite viable.\n Robin - When Tribbie is otherwise unavailable, Robin can also be a strong choice alongside Anaxa when played in double damage teams thanks to her team wide advancement, great buffs and the fact he can trigger her concerto damage far more frequently than most characters due to performing 2 attacks per action instead of one.\n Sunday - When playing Anaxa as a Hypercarry, Sunday is one of the most powerful partners for him in the usual 135/134 setup, allowing him to rain down an ocean of bullets upon his enemies by performing 4 almost back to back actions and an ultimate all at once. In addition to Sunday's usual action advancement shenanigans, Anaxa very much appreciates his damage amplification buffs as well.\n Cerydra - Cerydra is a strong option for Hyper Carry Anaxa as the fact he can use his Skill twice per turn allows him to stack Charges for her very quickly. Cerydra's skill duplication allows Anaxa to use his skill back to back twice, which can then be followed by his talent twice for a total of 4 skills in one shot. Cerydra's SPD buff can also allow Anaxa to run ATK% boots over SPD, but should be pursued with caution as when running the combo alongside an action advancer you may run into uptime issues.\n Dan Heng • Permansor Terrae - Strong Shielder who can work with both Sub-DPS and Main DPS Anaxa. Notably for Main DPS Anaxa, Souldragon provides him with an ATK buff, extra ATK multipliers, and enables him to receive the full 80% DMG Bonus from Sunday's Skill.\n Cyrene - Cyrene offers beneficial buffs for both Anaxa's Sub DPS and Main DPS playstyle, but it's recommended to stick to Main DPS Anaxa with Cyrene. Every Ultimate will grant Anaxa an immediate action, a Skill Point, and additional Bounce instances for his Skill which can be duplicated by Cerydra. Lastly, for both of his playstyles, Cyrene's buffs also provide a large increase in Skill DMG for other Erudition allies.",
+          "assets": [
+            {
+              "id": "fecc96b9e5e6",
+              "sourceHash": "fecc96b9e5e6",
+              "kind": "characters",
+              "name": "The Herta",
+              "fileStem": "the-herta-icon",
+              "path": "Prydwen/hsr/assets/characters/the-herta-fecc96b9e5e6.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "2cde7699adbf",
+              "sourceHash": "2cde7699adbf",
+              "kind": "characters",
+              "name": "Tribbie",
+              "fileStem": "tribbie-icon",
+              "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "e985c6a49a99",
+              "sourceHash": "e985c6a49a99",
+              "kind": "characters",
+              "name": "Robin",
+              "fileStem": "robin-icon",
+              "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "3d568cb7f29d",
+              "sourceHash": "3d568cb7f29d",
+              "kind": "characters",
+              "name": "Sunday",
+              "fileStem": "sunday-icon",
+              "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "1b219ef71829",
+              "sourceHash": "1b219ef71829",
+              "kind": "characters",
+              "name": "Cerydra",
+              "fileStem": "cerydra-icon",
+              "path": "Prydwen/hsr/assets/characters/cerydra-1b219ef71829.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "714348f14d48",
+              "sourceHash": "714348f14d48",
+              "kind": "characters",
+              "name": "Dan Heng • Permansor Terrae",
+              "fileStem": "dan-heng-permansor-terrae-icon",
+              "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "005597837585",
+              "sourceHash": "005597837585",
+              "kind": "characters",
+              "name": "Cyrene",
+              "fileStem": "cyrene-icon",
+              "path": "Prydwen/hsr/assets/characters/cyrene-005597837585.webp",
+              "width": 45,
+              "height": 45
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Anaxa Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Anaxa\n Anaxa Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Anaxa from HSR (Honkai: Star Rail). Anaxa is a 5 ★ character from the Wind element who follows the Path of Erudition .\n The Grove of Epiphany, where knowledge flourishes and philosophers are born. Yet here stands Anaxagoras the blasphemer, the Chrysos Heir who challenges the Coreflame of Reason: Would you truly embrace infamy and defy prophecy, driving the thorns of doubt into the Sacred Tree of wisdom?\n\n To learn more about Anaxa check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Anaxa has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 3.2\n\n Last major build/calcs update\n Patch 4.3\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Anaxa check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Pain, Brews Truth\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Wind DMG equal to #1[i]% of Anaxa's ATK to one designated enemy.\n\n Skill\n Fractal, Exiles Fallacy\n Bounce\n\n Lv. 1\n\n Energy gain: 6\n Break: 10\n\n Deals Wind DMG equal to #1[i]% of Anaxa's ATK to one designated enemy and additionally deals #2[i] instance(s) of DMG. Each instance of DMG deals Wind DMG equal to #1[i]% of Anaxa's ATK to one random enemy, prioritizing Bouncing to enemy targets that have not been hit by this instance of Skill.\nWhen used, for each attackable enemy on the field, this Skill has its DMG dealt increased by #3[i]%.\n\n Ultimate\n Sprouting Life Sculpts Earth\n AoE | 140 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Inflicts the \"Sublimation\" state on all enemies, then deals Wind DMG equal to #1[i]% of Anaxa's ATK to all enemies.\nIn the \"Sublimation\" state, the targets will be simultaneously inflicted with Physical, Fire, Ice, Lightning, Wind, Quantum, and Imaginary Weaknesses, lasting until the start of the targets' turn. If the targets do not have Control RES, they are unable to take action in the \"Sublimation\" state.\n\n Talent\n Tetrad Wisdom Reigns Thrice\n Impair\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n Each time Anaxa lands 1 hit on enemy targets, inflicts 1 Weakness of a random Type to the targets, lasting for #2[i] turn(s), with priority to the Weakness Type that the target doesn't already possess.\nWhile Anaxa is on the field, inflicts the \"Qualitative Disclosure\" state on enemy targets that have at least #3[i] different Types of Weaknesses. Anaxa deals #1[i]% increased DMG to targets afflicted with the \"Qualitative Disclosure\" state. In addition, after using Basic ATK or Skill on them, unleashes 1 additional instance of Skill on the targets. This additional Skill does not consume any Skill Points and cannot trigger this effect again. If the target has been defeated before the additional Skill is used, it will be cast on one random enemy instead.\n\n Technique\n Prism of the Pupil\n Impair\n\n Energy gain: 0\n Break: -\n\n After using Technique, inflicts the Terrified state on enemies in a set area. Terrified enemies will flee in a direction away from Anaxa for #1[i] second(s). When allies enter battle via actively attacking a Terrified enemy, it will always be considered as entering battle via attacking a Weakness. After entering battle, Anaxa applies 1 Weakness of the attacker's Type to every enemy target, lasting for #2[i] turn(s).\n\n Major Traces\n A2 Major trace\n Roaming Signifier\n\n When using Basic ATK, additionally regenerates 10 Energy. At the start of the turn, if there are no enemy targets in the \"Qualitative Disclosure\" state, immediately regenerates 30 Energy.\n\n A4 Major trace\n Imperative Hiatus\n\n Based on the number of \"Erudition\" characters in the team, one of the following effects will be triggered in the current battle:\n1 character: Increases Anaxa's CRIT DMG by 140% .\nAt least 2 characters: Increases DMG dealt by all allies by 50% .\n\n A6 Major trace\n Qualitative Shift\n\n For every 1 different Weakness Type an enemy target has, the DMG that Anaxa deals to that target ignores 4% of their DEF. Up to a max of 7 Weakness Types can be taken into account for this effect.\n\n Minor Traces (total)\n CRIT Rate\n + 12%\n\n HP\n + 10%\n\n Wind DMG\n + 22.4%\n\n Eidolons\n E 1\n Magician, Isolated by Stars\n Eidolon 1\n\n After using Skill for the first time, recovers 1 Skill Point(s). When using Skill to hit enemy targets, decreases the targets' DEF by 16% , lasting for 2 turn(s).\n\n E 2\n Soul, True to History\n Eidolon 2\n\n When enemy targets enter the battlefield, triggers 1 instance of the Talent's Weakness Implant effect, and reduces their All-Type RES by 20% .\n\n E 3\n Pupil, Etched into Cosmos\n Eidolon 3\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Blaze, Plunged to Canyon\n Eidolon 4\n\n When using Skill, increases ATK by 30% , lasting for 2 turn(s). This effect can stack up to 2 time(s).\n\n E 5\n Embryo, Set Beyond Vortex\n Eidolon 5\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Everything Is in Everything\n Eidolon 6\n\n The DMG dealt by Anaxa is 130% of the original DMG. The 2 effects in the Trace \"Imperative Hiatus\" will be triggered directly and will no longer depend on the number of \"Erudition\" characters in the team.\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 970\n\n ATK\n\n 756\n\n DEF\n\n 557\n\n Speed\n\n 97\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 308000\n\n Ethereal Omen\n\n x 15\n\n Echoing Wail\n\n x 15\n\n A Glass of the Besotted Era\n\n x 65\n\n Eternal Lament\n\n x 15\n\n CV\n ENG\n Stephen Fu\n\n JPN\n Uchida Yuma (内田 雄馬)\n\n CN\n Qian Wenqing (钱文青)\n\n KR\n Lee Sang-jun (이상준)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Can be played both as Main DPS and Sub-DPS,\n\n Can implant all 7 Weakness Types on all enemies incredibly fast, allowing the whole team to break enemies,\n\n Strong single-target damage (and Toughness damage) for an Erudition character,\n\n Has a guaranteed Crowd Control to disrupt Extra Actions from enemies,\n\n Flexible rotation - able to use Basic ATK and still achieve 2-turn Ultimate rotations,\n\n Excellent synergy in one of the top DPS compositions.\n\n Cons\n Underwhelming AoE scaling for an Erudition character,\n\n Has competition in his niches as a weakness implanter and Erudition support damage.\n\n Review (By Sushou)\n Anaxa is a remarkable Erudition character with an emphasis on Weakness Implant, allowing him to be played not only as a Main DPS but also as a Sub DPS. He deals increased DMG to targets with extra Weakness Types and provides additional bonuses to himself and the team based on the number of Erudition units in the team. He is extremely flexible as a character, being able to be used in almost any team due to his ability to mass implant weaknesses onto enemies, extremely good Energy economy, and high personal damage output. After some initial ramp-up, he can even be played SP neutral or positive at the cost of some damage, making him a fantastic pairing for even SP inefficient DPS.\n Anaxagoras, the man bold enough to face countless people and say 'No, you are all wrong, actually'. Thankfully, compared to other 3.x characters like Castorice, his kit is much easier to understand and dissect. He's a phenomenal universal DPS whose prowess with Weakness Implant is both coveted and envied (if you know, you know), being able to casually implant every Weakness in the game onto everything on the field and deal even more damage as a result.\n Anaxa's Skill will deal up to 70% ATK to a single enemy, and then four additional single hits to a random enemy. This is a Bounce skill, so it will function the same way as Asta's and Sampo's Skills, only here, instead of it being completely random, Anaxa's Skill Bounce will prioritise Bouncing to enemies that have not yet been hit by this instance of his Skill.\n The total damage it can deal is 350% ATK spread across all the enemies, making it quite potent in single-target scenarios. It may look underwhelming in AoE at only 70% per enemy, but the Skill actually has an additional effect that grants a 20% DMG bonus for every enemy on the field; this means the single-target damage is slightly higher than advertised, and that the AoE damage against 5 targets has a 100% DMG bonus, making this Skill effective against any number of enemies.\n Anaxa's Talent will inflict 1 random Weakness Type onto enemies for every 1 hit he lands, prioritising Weaknesses that the enemy doesn't already have. Now, the reason for the Bounce Skill becomes apparent. Using his Skill against 5 enemies will Implant a random Weakness into every single foe , and rather amusingly, using it against a single enemy will most likely max out the available Weaknesses, making them vulnerable to every Element.\n Additionally, if an enemy has at least 5 different Weakness Types while Anaxa is still on the field, Anaxa will automatically inflict them with the Qualitative Disclosure state. Anaxa will deal up to 30% increased DMG to enemies in this state, and when using either a Basic ATK or Skill against such an enemy, he will also automatically use an additional instance of his Skill on the target. This auto Skill usage is completely free, but it does not reactivate this effect.\n This means that for simply doing what he was already doing anyway, Anaxa gets to double-up on his Skill uses without expending any extra SP . This extra Skill usage functions exactly the same way as his regular Skill, meaning that even if you hit the only enemy with Qualitative Disclosure, the extra Skill will still Bounce in the same way to all the other foes. Oh, and yes, this extra Skill does also regenerate the exact same amount of Energy, meaning you can be getting as much as 60 Energy every single turn.\n The Ultimate is also extremely funny. Anaxa will inflict the Sublimation state onto all enemies and deals up to 160% ATK to them as well. During the Sublimation state, the enemies will be simultaneously inflicted with... Let me just check my notes... Yeah, every single Weakness Type currently in the game. That's Physical, Fire, Ice, Lightning, Wind, Quantum, and Imaginary.\n This Sublimation state only lasts until the start of the targets' next turn, but if they don't have Control RES, they will also be unable to act in the Sublimation state. I'd say to make sure to make it count, but even with an Energy cost of 140, Anaxa gets so much Energy back that you'll probably get another shot sooner than you expect.\n It's refreshing when a basic kit breakdown doesn't take much time at all. Anaxa already performs well with just this, but the Bonus Traces are very impactful and make him even better.\n Anaxa's A2 will regenerate an additional 10 Energy whenever he uses his Basic ATK. This means that there is no Energy penalty for choosing to be SP positive with Anaxa, and especially when factoring in his free follow-up Skill from his Talent, Anaxa is now able to regenerate 60 Energy consistently, regardless of if he used a Skill Point or not.\n Additionally, if there are no enemies with Qualitative Disclosure on the field, Anaxa will automatically regenerate 30 Energy at the start of his turn. This effect coupled with the last means that Anaxa is guaranteed to always be getting 60 Energy on every turn, no matter what, making his Energy economy exceptionally good.\n His A4 will provide bonuses based on the number of Erudition characters in the team. If there is 1 Erudition character (Himself alone), Anaxa will increase his own CRIT DMG by a whopping 140%. With this he becomes very serviceable as a main DPS with this Trace active.\n However, when there are at least 2 Erudition characters in the team, Anaxa will instead increase the DMG dealt by all allies by 50%. This is a permanent and very potent buff, and since Anaxa himself also benefits from this, this boosts Anaxa’s value as a sub-DPS for other Erudition main DPS’s significantly. Note, you can only have either the first or second buff active at one time, not both.\n Lastly, Anaxa's A6 is a fun one. For every 1 different Weakness Type on an enemy, Anaxa gets to ignore 4% of their DEF when dealing damage. At the cap of 7 Weaknesses, Anaxa gets to permanently ignore 28% of the enemy's DEF when hitting them, which is a staggeringly powerful bonus to have on a character by default. With how strong all of these Traces are, it's imperative that you unlock all of them if you want Anaxa to be at his strongest.\n Anaxa's got some impressive stuff in his kit, and being able to Implant so many Weaknesses really quite effortlessly means he can enable teams to go against typically unfavourable matchups and have a better time, without necessarily needing to factor in actual Weakness Types.\n Do note, however, that Implanting a Weakness is not quite the same as having that Weakness inherently; you do not gain the natural DMG bonus that you would otherwise have, and any existing resistances are not magically thrown aside, so if you're thinking of bringing Himeko to fight Blaze out of Space, you'll be reducing the Toughness now, sure, but you'll still need to contend with the massive Fire RES that enemy naturally has.\n With the A4, as mentioned already, it is pretty clear that Anaxa is designed specifically to enable Erudition characters to deal even more damage and be more universally applicable, and when it comes to strong Erudition characters... Well, it's obviously going to be Big Hat Herta.\n Big Herta already has no troubles wiping the floor with pretty much everything, and her teams are pretty versatile already, but Anaxa gets to amplify that even more. Especially since Herta already has bonuses for the number of Erudition characters on the team herself, putting her and Anaxa together means they both benefit from each others respective A4 Bonus Trace effects automatically, giving the entire team a laughable amount of increased DMG — buffs comparable to having multiple Harmony characters on the team but without sacrificing any damage potential.\n Outside of The Herta, all of his combined unique supportive capabilities also mean he is going to be a compelling choice for any future Erudition DPS as well, further amplifying his already high pull value. Heck, maybe he'll even find his way into Super Break teams at some point.\n As obviously strong as Anaxa is as a Sub-DPS (the role he is clearly designed for) in a lot of teams, he can still hold his own in hypercarry set-ups, especially in modes that can take advantage of his ability to make enemy toughness bars a thing of the past. Getting 140% CRIT DMG for free and having solid damage multipliers is enough to give him a fair shot at clearing most of endgame solo at the time of his release.\n He's a pretty cool guy, and like all Flame Chasers is destined for greatness. You may not like it, but this is what peak physical performance looks like (insert image of 7 Implanted Weaknesses here).\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Support DPS\n T1.5\n MoC\n\n T0.5\n PF\n\n T1.5\n AS\n\n Damage dealer\n T0.5\n MoC\n\n T1\n PF\n\n T0.5\n AS\n\n Build and teams\n\n Anaxa Relic and Light Cone calculations are based on fighting against 3 targets.\n\n Best Light Cones\n\n 117%\n\n Life Should Be Cast to Flames (S 1 )\n\n Anaxa's Signature is his best in slot option for personal damage and team support. Provides the Energy he's missing in order to perform 2-turn Ultimate rotations consistently, a large amount of DMG%, and applies a 12% DEF Reduction to enemies amplifying his and his teams damage significantly.\n Usage: 54.55 %\n MoC: 8.83 cyc.\n PF: 27221\n AS: 3367\n\n 115.12%\n\n Into the Unreachable Veil (S 1 )\n\n The Herta's Signature Light Cone and surprisingly potent choice for Anaxa, granting him a solid amount of CRIT RATE, a massive increase to his Skill and Ultimate DMG, and an extra 1 SP refund every Ultimate. Even so, not his best option and likely already in use by one of his best teammates and the owner of this Cone, The Herta.\n Usage: 15.18 %\n MoC: 8.17 cyc.\n PF: 26865\n AS: 3405\n\n 100.00%\n\n The Great Cosmic Enterprise (S 5 )\n\n Great F2P option for Anaxa, increasing his DMG dealt based on the amount of Weakness Types on the target - something his ultimate applies all 7 of immediately (although temporary), and the rest of his kit can achieve over time. Depending on the amount of enemies and how frequently fresh ones spawn, this Cone can take a while to ramp up though. Calculated with 6 Vulnerabilities on enemies on average - will perform worse with less.\n Usage: 23.19 %\n MoC: 8.8 cyc.\n PF: 26404\n AS: 3347\n\n 99.57%\n\n Today Is Another Peaceful Day (S 5 )\n\n A strong, generic and consistent DMG option, providing a permanent 56% DMG boost. If you already have this Cone maxed out, it's a solid choice.\n Usage: 0.44 %\n MoC: -\n PF: 33080\n AS: 0\n\n 98.68%\n\n Before Dawn (S 1 )\n\n Jing Yuan's signature is a passable option for Anaxa if it's all you have and/or don't want to level up another Erudition Cone for him.\n Usage: 0.54 %\n MoC: -\n PF: 0\n AS: 3101\n\n Anaxa Relic and Light Cone calculations are based on fighting against 3 targets.\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 114.34%\n\n As Navigator Isee Sees It ( 4 -PC)\n\n Best in slot for main DPS Anaxa where his extra Skills can help maintain maximum stacks of the buff, better if paired with Cerydra for Skill duplication.\n Usage: 1.15 %\n MoC: -\n PF: 0\n AS: 3172\n\n 109.59%\n\n Wavestrider Captain ( 4 -PC)\n\n Only for main DPS, strong alternative with teammates that can target him every turn such as with Cyrene and Cerydra. Anaxa can maintain good uptime on the set with how fast he can regain his Ultimate.\n Usage: 1.15 %\n MoC: -\n PF: 0\n AS: 3434\n\n 100.02%\n\n Genius of Brilliant Stars ( 4 -PC)\n\n Anaxa can implant Quantum Weakness on enemies himself enabling the 20% DEF ignore at all times which becomes even more potent when combined with his Bonus Ability, Signature Light Cone, Eidolon 1 and other sources of DEF SHRED.\n Usage: 19.44 %\n MoC: 8.78 cyc.\n PF: 26153\n AS: 3515\n\n 100.00%\n\n Scholar Lost in Erudition ( 4 -PC)\n\n A solid, generic and easily farmable option for Anaxa, thanks to its passive CRIT RATE and high DMG multipliers to his main abilities. Not his best but not bad either.\n Usage: 35.19 %\n MoC: 8.22 cyc.\n PF: 25493\n AS: 3372\n\n 95.71%\n\n Scholar Lost in Erudition ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Pioneer Diver of Dead Waters\n\n Eagle of Twilight Line\n\n Prisoner in Deep Confinement\n\n Musketeer of Wild Wheat\n\n Hero of Triumphant Song\n\n Sacerdos' Relived Ordeal\n\n Messenger Traversing Hackerspace\n\n Usage: 0.14 %\n MoC: -\n PF: 0\n AS: 0\n\n Best Specialist Relic Sets\n 103.77%\n\n Eagle of Twilight Line ( 4 -PC)\n\n In most cases, Anaxa has access to his ultimate every 2 actions, making this set an incredibly efficient way of allowing him to gain additional actions for more damage, but also greater supportive benefit for his team (The Herta can gain more energy).\n Usage: 37.69 %\n MoC: 7.5 cyc.\n PF: 27062\n AS: 3228\n\n 99.88%\n\n Divine-Querying Master Smith ( 4 -PC)\n\n ONLY Works with his Signature Light Cone or Eidolon 1, can increase the team's DMG dealt by 15% which may be useful when played as The Herta's support.\n\n Best Planetary Sets\n 101.62%\n\n Izumo Gensei and Takama Divine Realm ( 2 -PC)\n\n Anaxa is very often paired with another Erudition character, because of that, this set has no downside while also having a large amount of CRIT RATE, one of his best stats. Note when playing Anaxa Hyper Carry (without another Erudition), this does NOT work.\n Usage: 12.03 %\n MoC: 5 cyc.\n PF: 26640\n AS: 3153\n\n 100.00%\n\n Rutilant Arena ( 2 -PC)\n\n A great and generic option for Anaxa that boosts his damage output.\n Usage: 75.61 %\n MoC: 8.79 cyc.\n PF: 26826\n AS: 3376\n\n Best Stats\n\n Body\n CRIT Rate\n > CRIT DMG\n\n Feet\n Speed\n\n Planar Sphere\n ATK%\n > Wind DMG\n\n Link Rope\n ATK%\n >= Energy Regen Rate\n\n Substats: SPD (Until Desired Breakpoint) > CRIT RATE > CRIT DMG > ATK%\n\n Recommended endgame stats\n ATK: 2600-3000+\n\n HP: 2800+\n\n DEF: 1100+\n\n CRIT Rate: 90-100%\n\n CRIT DMG: 100-120% + (Before Trace)\n\n SPD: 134+\n\n Traces priority\n Skills priority: Skill > Ultimate > Talent > Basic\n\n Major Traces priority: Imperative Hiatus (A4) > Roaming Signifier (A2) > Qualitative Shift (A6)\n\n Synergy\n The Herta - The Herta currently stands at the top of the meta, but requires another Erudition character alongside her - Anaxa is the best character for this role. His Skill can hit all enemies and launches twice every turn, which combined with his AoE Ultimate, generates an absurd amount of Energy for The Herta while also fulfilling her Erudition teammate requirements, providing a 50% teamwide DMG boost, bringing respectable damage to the table, and best of all, implanting all 7 weaknesses on all enemies.\n Tribbie - Anaxa's primarily playstle is acting as a sub-dps in double damage teams, and for that reason Tribbie's team wide RES PEN and DMG Taken% buffs are a potent choice, allowing him to benefit when compared to single target buffers where he would miss out. Another reason Tribbie is fantastic alongside Anaxa is that her RES PEN allows him and his teams to better take advantage of his brute forcing capabilities granted by his weakness implants. Tribbie plus Anaxa make going against non-weak enemies truly quite viable.\n Robin - When Tribbie is otherwise unavailable, Robin can also be a strong choice alongside Anaxa when played in double damage teams thanks to her team wide advancement, great buffs and the fact he can trigger her concerto damage far more frequently than most characters due to performing 2 attacks per action instead of one.\n Sunday - When playing Anaxa as a Hypercarry, Sunday is one of the most powerful partners for him in the usual 135/134 setup, allowing him to rain down an ocean of bullets upon his enemies by performing 4 almost back to back actions and an ultimate all at once. In addition to Sunday's usual action advancement shenanigans, Anaxa very much appreciates his damage amplification buffs as well.\n Cerydra - Cerydra is a strong option for Hyper Carry Anaxa as the fact he can use his Skill twice per turn allows him to stack Charges for her very quickly. Cerydra's skill duplication allows Anaxa to use his skill back to back twice, which can then be followed by his talent twice for a total of 4 skills in one shot. Cerydra's SPD buff can also allow Anaxa to run ATK% boots over SPD, but should be pursued with caution as when running the combo alongside an action advancer you may run into uptime issues.\n Dan Heng • Permansor Terrae - Strong Shielder who can work with both Sub-DPS and Main DPS Anaxa. Notably for Main DPS Anaxa, Souldragon provides him with an ATK buff, extra ATK multipliers, and enables him to receive the full 80% DMG Bonus from Sunday's Skill.\n Cyrene - Cyrene offers beneficial buffs for both Anaxa's Sub DPS and Main DPS playstyle, but it's recommended to stick to Main DPS Anaxa with Cyrene. Every Ultimate will grant Anaxa an immediate action, a Skill Point, and additional Bounce instances for his Skill which can be duplicated by Cerydra. Lastly, for both of his playstyles, Cyrene's buffs also provide a large increase in Skill DMG for other Erudition allies.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 37\n App. rate: 0.65 %\n Avg. cycles : 8.12\n Avg. cycles (E1+): 5.58\n\n Rank 47\n App. rate: 0.47 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.07\n\n Rank 79\n App. rate: 0.25 %\n Avg. cycles : 9.5\n Avg. cycles (E1+): 8.76\n\n Rank 108\n App. rate: 0.15 %\n Avg. cycles : -\n Avg. cycles (E1+): 6.88\n\n Rank 119\n App. rate: 0.13 %\n Avg. cycles : 9.67\n Avg. cycles (E1+): 5.6\n\n Rank 119\n App. rate: 0.13 %\n Avg. cycles : -\n Avg. cycles (E1+): 1.55\n\n Rank 160\n App. rate: 0.09 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.5\n\n Rank 248\n App. rate: 0.04 %\n Avg. cycles : -\n Avg. cycles (E1+): 6.67\n\n Rank 248\n App. rate: 0.04 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.33\n\n Rank 248\n App. rate: 0.04 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.83\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

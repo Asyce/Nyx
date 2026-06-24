@@ -1,0 +1,1334 @@
+{
+  "id": "characters:yuanwu",
+  "provider": "Prydwen",
+  "game": "ww",
+  "gameName": "Wuthering Waves",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "yuanwu",
+  "name": "Yuanwu",
+  "title": "Yuanwu Best Build Guide",
+  "sourcePath": "/wuthering-waves/characters/yuanwu",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "09/June/2026",
+  "meta": {
+    "title": "Yuanwu Best Build Guide | Wuthering Waves (WuWa)",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 4,
+    "element": "Electro",
+    "weapon": "Gauntlets"
+  },
+  "assets": [
+    {
+      "id": "b4bc2a6d49f2",
+      "sourceHash": "b4bc2a6d49f2",
+      "kind": "characters",
+      "name": "Yuanwu",
+      "fileStem": "yuanwu-card",
+      "path": "Prydwen/ww/assets/characters/yuanwu-b4bc2a6d49f2.webp",
+      "width": 210,
+      "height": 280
+    },
+    {
+      "id": "028f59b9e335",
+      "sourceHash": "028f59b9e335",
+      "kind": "icons",
+      "name": "Electro",
+      "fileStem": "element-electro",
+      "path": "Prydwen/ww/assets/icons/electro-028f59b9e335.webp",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "cec2445ceb75",
+      "sourceHash": "cec2445ceb75",
+      "kind": "icons",
+      "name": "Electro DMG",
+      "fileStem": "stat-ele",
+      "path": "Prydwen/ww/assets/icons/electro-dmg-cec2445ceb75.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "aa019d34202f",
+      "sourceHash": "aa019d34202f",
+      "kind": "icons",
+      "name": "DEF%",
+      "fileStem": "stat-def",
+      "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "c26c1d310e90",
+      "sourceHash": "c26c1d310e90",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "1e70b3adc860",
+      "sourceHash": "1e70b3adc860",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "5a0b154cd3d8",
+      "sourceHash": "5a0b154cd3d8",
+      "kind": "icons",
+      "name": "Max Energy",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "39094c227806",
+      "sourceHash": "39094c227806",
+      "kind": "icons",
+      "name": "CRIT Rate",
+      "fileStem": "stat-crit",
+      "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "7e2bcd0760ca",
+      "sourceHash": "7e2bcd0760ca",
+      "kind": "icons",
+      "name": "CRIT DMG",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "94236abd3fdc",
+      "sourceHash": "94236abd3fdc",
+      "kind": "icons",
+      "name": "Healing",
+      "fileStem": "stat-heal",
+      "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "f48ff62c89aa",
+      "sourceHash": "f48ff62c89aa",
+      "kind": "categories",
+      "name": "Interactive Map",
+      "fileStem": "category-map",
+      "path": "Prydwen/ww/assets/categories/interactive-map-f48ff62c89aa.webp",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "id": "d5ca96af6402",
+      "sourceHash": "d5ca96af6402",
+      "kind": "characters",
+      "name": "Yuanwu",
+      "fileStem": "yuanwu-full",
+      "path": "Prydwen/ww/assets/characters/yuanwu-d5ca96af6402.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "ea93f302fdf1",
+      "sourceHash": "ea93f302fdf1",
+      "kind": "weapons",
+      "name": "Verity's Handle",
+      "fileStem": "21040016",
+      "path": "Prydwen/ww/assets/weapons/veritys-handle-ea93f302fdf1.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "28d24c782f6b",
+      "sourceHash": "28d24c782f6b",
+      "kind": "weapons",
+      "name": "Amity Accord",
+      "fileStem": "21040044",
+      "path": "Prydwen/ww/assets/weapons/amity-accord-28d24c782f6b.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "9bf05a62f031",
+      "sourceHash": "9bf05a62f031",
+      "kind": "weapons",
+      "name": "Stonard",
+      "fileStem": "21040074",
+      "path": "Prydwen/ww/assets/weapons/stonard-9bf05a62f031.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "3d890d3b769f",
+      "sourceHash": "3d890d3b769f",
+      "kind": "weapons",
+      "name": "Guardian Gauntlets",
+      "fileStem": "21040053",
+      "path": "Prydwen/ww/assets/weapons/guardian-gauntlets-3d890d3b769f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d176608c4418",
+      "sourceHash": "d176608c4418",
+      "kind": "weapons",
+      "name": "Originite: Type IV",
+      "fileStem": "21040023",
+      "path": "Prydwen/ww/assets/weapons/originite-type-iv-d176608c4418.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "59f32c33b110",
+      "sourceHash": "59f32c33b110",
+      "kind": "weapons",
+      "name": "Gauntlets of Voyager",
+      "fileStem": "21040043",
+      "path": "Prydwen/ww/assets/weapons/gauntlets-of-voyager-59f32c33b110.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "4e021e35e328",
+      "sourceHash": "4e021e35e328",
+      "kind": "weapons",
+      "name": "Abyss Surges",
+      "fileStem": "21040015",
+      "path": "Prydwen/ww/assets/weapons/abyss-surges-4e021e35e328.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "9116b6b3061f",
+      "sourceHash": "9116b6b3061f",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-7",
+      "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "963f47d9c985",
+      "sourceHash": "963f47d9c985",
+      "kind": "misc",
+      "name": "Fallacy of No Return",
+      "fileStem": "6000060",
+      "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "2acfd4bfd79d",
+      "sourceHash": "2acfd4bfd79d",
+      "kind": "misc",
+      "name": "Bell-Borne Geochelone",
+      "fileStem": "340000020",
+      "path": "Prydwen/ww/assets/misc/bell-borne-geochelone-2acfd4bfd79d.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "358387a78181",
+      "sourceHash": "358387a78181",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-8",
+      "path": "Prydwen/ww/assets/icons/set-8-358387a78181.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "969a4ca96158",
+      "sourceHash": "969a4ca96158",
+      "kind": "misc",
+      "name": "Impermanence Heron",
+      "fileStem": "330000030",
+      "path": "Prydwen/ww/assets/misc/impermanence-heron-969a4ca96158.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "26730b805365",
+      "sourceHash": "26730b805365",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-13",
+      "path": "Prydwen/ww/assets/icons/set-13-26730b805365.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "6d1ec2f31e70",
+      "sourceHash": "6d1ec2f31e70",
+      "kind": "misc",
+      "name": "Nightmare: Tempest Mephis",
+      "fileStem": "330000170",
+      "path": "Prydwen/ww/assets/misc/nightmare-tempest-mephis-6d1ec2f31e70.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "b67d310bf80d",
+      "sourceHash": "b67d310bf80d",
+      "kind": "characters",
+      "name": "Jinhsi",
+      "fileStem": "jinhsi-icon",
+      "path": "Prydwen/ww/assets/characters/jinhsi-b67d310bf80d.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1b2a8f336e3d",
+      "sourceHash": "1b2a8f336e3d",
+      "kind": "characters",
+      "name": "Verina",
+      "fileStem": "verina-icon",
+      "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d909de4aecde",
+      "sourceHash": "d909de4aecde",
+      "kind": "characters",
+      "name": "The Shorekeeper",
+      "fileStem": "the-shorekeeper-icon",
+      "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "33f610856d71",
+      "sourceHash": "33f610856d71",
+      "kind": "characters",
+      "name": "Yuanwu",
+      "fileStem": "yuanwu-icon",
+      "path": "Prydwen/ww/assets/characters/yuanwu-33f610856d71.webp",
+      "width": 120,
+      "height": 120
+    }
+  ],
+  "sections": [
+    {
+      "id": "yuanwu-best-build-guide-0",
+      "level": 1,
+      "heading": "Yuanwu Best Build Guide",
+      "text": "Last updated: 09/June/2026",
+      "assets": [
+        {
+          "id": "b4bc2a6d49f2",
+          "sourceHash": "b4bc2a6d49f2",
+          "kind": "characters",
+          "name": "Yuanwu",
+          "fileStem": "yuanwu-card",
+          "path": "Prydwen/ww/assets/characters/yuanwu-b4bc2a6d49f2.webp",
+          "width": 210,
+          "height": 280
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Yuanwu from WW (Wuthering Waves). Yuanwu is a 4 ★ rarity character from the Electro element who uses the Gauntlets type weapon.\n Yuanwu owns a boxing gym where he teaches martial arts and health management. He is well-respected in the community for his cordial demeanor and pleasant temperament.\n\n To learn more about Yuanwu check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": [
+        {
+          "id": "028f59b9e335",
+          "sourceHash": "028f59b9e335",
+          "kind": "icons",
+          "name": "Electro",
+          "fileStem": "element-electro",
+          "path": "Prydwen/ww/assets/icons/electro-028f59b9e335.webp",
+          "width": 20,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "This character has no video guide yet.",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 2.1\n\n Last major build/calcs update\n Patch 2.1\n\n Last profile update*\n 09/June/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Yuanwu check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Leihuangquan",
+      "assets": []
+    },
+    {
+      "id": "basic-attack-10",
+      "level": 5,
+      "heading": "Basic Attack",
+      "text": "Perform up to 5 continuous attacks, dealing Electro DMG.",
+      "assets": []
+    },
+    {
+      "id": "heavy-attack-11",
+      "level": 5,
+      "heading": "Heavy Attack",
+      "text": "Consume Stamina to attack the target, dealing Electro DMG.",
+      "assets": []
+    },
+    {
+      "id": "mid-air-attack-12",
+      "level": 5,
+      "heading": "Mid-air Attack",
+      "text": "Consume Stamina to launch a Plunging Attack, dealing Electro DMG.",
+      "assets": []
+    },
+    {
+      "id": "dodge-counter-13",
+      "level": 5,
+      "heading": "Dodge Counter",
+      "text": "Use Basic Attack after a successful Dodge to attack the target, dealing Electro DMG.\n\n Multipliers\n\n Resonance Skill\n Leihuang Master",
+      "assets": []
+    },
+    {
+      "id": "thunder-wedge-14",
+      "level": 5,
+      "heading": "Thunder Wedge",
+      "text": "Yuanwu summons Thunder Wedge, dealing Electro DMG, and forms a Thunder Field centered on the Thunder Wedge. Thunder Wedge lasts for 12s .\n Forte Circuit Rumbling Spark and Resonance Liberation Blazing Might will immediately detonate Resonance Skill Thunder Wedge on the field, dealing Electro DMG , considered as Resonance Skill Damage.",
+      "assets": []
+    },
+    {
+      "id": "thunder-field-15",
+      "level": 5,
+      "heading": "Thunder Field",
+      "text": "The on-field character gains the effects below when in the Thunder Field: a Coordinated Attack from Resonance Skill Thunder Wedge is triggered when attacks hit a target, dealing Electro DMG. This can be triggered once every 1.2s . The effect lasts for 1.5s.\n\n Multipliers\n\n Resonance Liberation\n Blazing Might\n\n Awaken the power of thunder and provide Forte Circuit Lightning Infused status for all nearby characters for 10s , granting them increased Anti-interruption, then perform a powerful blow that deals Electro DMG.\n\n Multipliers\n\n Forte Circuit\n Unassuming Blade",
+      "assets": []
+    },
+    {
+      "id": "rumbling-spark-16",
+      "level": 5,
+      "heading": "Rumbling Spark",
+      "text": "When \"Readiness\" is full, long press Resonance Skill to consume all \"Readiness\" and cast Rumbling Spark, dealing Electro DMG and entering the Lightning Infused state.",
+      "assets": []
+    },
+    {
+      "id": "thunder-uprising-17",
+      "level": 5,
+      "heading": "Thunder Uprising",
+      "text": "When you have full \"Readiness\", Resonance Skill Thunder Wedge will cast Thunder Uprising, dealing Electro DMG .",
+      "assets": []
+    },
+    {
+      "id": "lightning-infused-18",
+      "level": 5,
+      "heading": "Lightning Infused",
+      "text": "The character in Lightning Infused state has a greatly increased anti-interruption. When Yuanwu is in this state:\n Basic Attacks: Hits targets in a larger range, depletes enemy Vibration Strength faster.\n\n Heavy Attacks: Attack speed is increased, deplete enemy Vibration Strength faster\n\n Dodge Counters: Attack speed is increased, deplete enemy Vibration Strength faster.\n\n Use Basic Attack within 3s after casting a Heavy Attack or a successful Counterattack to cast Thunderweaver, dealing Electro DMG , considered as Basic Attack damage;",
+      "assets": []
+    },
+    {
+      "id": "edge-19",
+      "level": 5,
+      "heading": "Edge",
+      "text": "Yuanwu can hold up to 100 \"Readiness\".\n When Resonance Skill Thunder Wedge is on the field, Yuanwu gains 6 \"Readiness\" every second, even when he is not the on-field character; When Resonance Skill Thunder Wedge hits a target with a Coordinated Attack, Yuanwu gains 5 \"Readiness\".\n\n Multipliers\n\n Inherent Skill\n Thunderweaver\n\n The damage multiplier of Resonance Skill Thunder Uprising is increased by 40% , and its depletion of enemy Vibration Strength is enhanced.\n\n Inherent Skill\n Reserved Confidence\n\n The ranges of the Resonance Skill Thunder Field and Thunder Uprising are greatly expanded. When exiting during combat, if Readiness is not full, Yuanwu will automatically leave 1 Resonance Skill Thunder Wedge in place.\n\n Intro Skill\n Thunder Bombardment\n\n Attack the target, dealing Electro DMG.\n\n Multipliers\n\n Outro Skill\n Lightning Manipulation\n\n Yuanwu summons thunderbolts on a field centered on the skill target, dealing significant Vibration Strength depletion to the enemies hit.",
+      "assets": []
+    },
+    {
+      "id": "resonance-chain-dupes-20",
+      "level": 2,
+      "heading": "Resonance Chain (Dupes)",
+      "text": "S 1\n Sequence Node 1\n\n When Yuanwu is in Forte Circuit's Lightning Infused state, his Basic Attack Speed is increased by 20%, and his Heavy Attack Speed is increased by 20%.\n\n S 2\n Sequence Node 2\n\n Intro Skill Thunder Bombardment additionally recovers 15 Resonance Energy for Yuanwu.\n\n S 3\n Sequence Node 3\n\n When the Coordinated Attacks of Resonance Skill's Thunder Wedge hits a target, the damage is additionally increased by 20% of Yuanwu's DEF.\n\n S 4\n Sequence Node 4\n\n When casting Resonance Liberation Blazing Might, the on-field character will gain a Shield equal to 200% of Yuanwu's DEF for 10s .\n\n S 5\n Sequence Node 5\n\n When Resonance Skill Thunder Wedge is on the field, Yuanwu's Resonance Liberation DMG Bonus is increased by 50%.\n\n S 6\n Sequence Node 6\n\n All team members nearby within the range of Resonance Skill Thunder Wedge will gain a 32% DEF increase, lasting 3s .",
+      "assets": []
+    },
+    {
+      "id": "minor-fortes-total-21",
+      "level": 2,
+      "heading": "Minor Fortes (Total)",
+      "text": "Electro DMG\n + 12 %\n\n DEF%\n + 15.2 %",
+      "assets": [
+        {
+          "id": "cec2445ceb75",
+          "sourceHash": "cec2445ceb75",
+          "kind": "icons",
+          "name": "Electro DMG",
+          "fileStem": "stat-ele",
+          "path": "Prydwen/ww/assets/icons/electro-dmg-cec2445ceb75.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "aa019d34202f",
+          "sourceHash": "aa019d34202f",
+          "kind": "icons",
+          "name": "DEF%",
+          "fileStem": "stat-def",
+          "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "stats-22",
+      "level": 2,
+      "heading": "Stats",
+      "text": "Include minor fortes\n\n Lv. 90\n\n HP\n 8525\n\n ATK\n 225\n\n DEF\n 1638\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Electro DMG\n 0 %",
+      "assets": [
+        {
+          "id": "c26c1d310e90",
+          "sourceHash": "c26c1d310e90",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "1e70b3adc860",
+          "sourceHash": "1e70b3adc860",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "aa019d34202f",
+          "sourceHash": "aa019d34202f",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "5a0b154cd3d8",
+          "sourceHash": "5a0b154cd3d8",
+          "kind": "icons",
+          "name": "Max Energy",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "39094c227806",
+          "sourceHash": "39094c227806",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "7e2bcd0760ca",
+          "sourceHash": "7e2bcd0760ca",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "94236abd3fdc",
+          "sourceHash": "94236abd3fdc",
+          "kind": "icons",
+          "name": "Healing",
+          "fileStem": "stat-heal",
+          "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "cec2445ceb75",
+          "sourceHash": "cec2445ceb75",
+          "kind": "icons",
+          "name": "Electro",
+          "fileStem": "stat-ele",
+          "path": "Prydwen/ww/assets/icons/electro-cec2445ceb75.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "character-ascension-total-24",
+      "level": 5,
+      "heading": "Character Ascension (total)",
+      "text": "4 x Crude Ring\n 12 x Basic Ring\n 12 x Improved Ring\n 4 x Tailored Ring\n 46 x Hidden Thunder Tacet Core\n 60 x Terraspawn Fungus\n 170 000 Shell Credits",
+      "assets": []
+    },
+    {
+      "id": "skill-upgrades-total-25",
+      "level": 5,
+      "heading": "Skill Upgrades (total)",
+      "text": "25 x Crude Ring\n 28 x Basic Ring\n 40 x Improved Ring\n 57 x Tailored Ring\n 25 x Cadence Seed\n 28 x Cadence Bud\n 55 x Cadence Leaf\n 67 x Cadence Blossom\n 26 x Unending Destruction\n 2 030 000 Shell Credits\n\n While the source of the materials can be quickly found in the game, when it comes Terraspawn Fungus you will have to gather them from the map. Check our Interactive map to find them quickly:\n\n Interactive Map",
+      "assets": [
+        {
+          "id": "f48ff62c89aa",
+          "sourceHash": "f48ff62c89aa",
+          "kind": "categories",
+          "name": "Interactive Map",
+          "fileStem": "category-map",
+          "path": "Prydwen/ww/assets/categories/interactive-map-f48ff62c89aa.webp",
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "voice-actors-26",
+      "level": 2,
+      "heading": "Voice Actors",
+      "text": "ENG\n Adam Diggle\n\n JPN\n Shirokuma Hiroshi\n\n CN\n Liu BeiChen\n\n KR\n Park Sung Tae",
+      "assets": []
+    },
+    {
+      "id": "gallery-27",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "d5ca96af6402",
+          "sourceHash": "d5ca96af6402",
+          "kind": "characters",
+          "name": "Yuanwu",
+          "fileStem": "yuanwu-full",
+          "path": "Prydwen/ww/assets/characters/yuanwu-d5ca96af6402.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "ratings-28",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.",
+      "assets": []
+    },
+    {
+      "id": "support-29",
+      "level": 5,
+      "heading": "Support",
+      "text": "T4\n Tower of Adversity\n\n T4\n Whimpering Wastes",
+      "assets": []
+    },
+    {
+      "id": "support-31",
+      "level": 5,
+      "heading": "Support",
+      "text": "T4\n Tower of Adversity (Value)\n\n T4\n Whimpering Wastes (Value)",
+      "assets": []
+    },
+    {
+      "id": "pros-33",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Is surprisingly a great user of the Rejuvenating Glow healing set by being able to run the Originite: Type IV weapon to trigger it with a single basic attack;\n\n Has the shortest rotation time in the game, as he doesn’t need to use anything beyond a basic attack, and his skill and echo;\n\n Requires absolutely no investment to perform;\n\n Arguably the easiest character to play, just use basic, skill, echo and swap off;\n\n Provides interruption resistance to the entire team, making all rotations easier to perform;\n\n Makes the stagger bar of enemies easier to shred through;\n\n He’s free!",
+      "assets": []
+    },
+    {
+      "id": "cons-34",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Does not provide close to any buffs and is lacking compared to other supports in that department;\n\n Needs to replace his Thunder Wedge often against highly mobile enemies;\n\n Does pretty much literally zero damage unless you’re willing to invest hard into him, which has very little return;\n\n Only works in a single team as of patch 1.4 (Jinhsi), where he is not the strongest option, incentivizing investment even less.",
+      "assets": []
+    },
+    {
+      "id": "review-35",
+      "level": 2,
+      "heading": "Review",
+      "text": "Yuanwu is a free 4-star Electro Gauntlet Hybrid character whose main role is to provide buffs to the rest of your team with very low field time. His unique support abilities include a team-wide anti-interruption buff, which makes received enemy attacks not cancel your own, as well as the ability to deal extra Vibration Strength bar damage with his Outro, allowing you to stagger enemies, particularly bosses, and make them vulnerable in short amounts of time.\n Yuanwu’s skill, replaceable once every 3 seconds, is the core of his gameplay. Summoning a Thunder Wedge that creates a large circular area around itself, it generates Forte gauge for Yuanwu by launching Coordinated Attacks every 1.2 seconds to enemies who take damage within it. Dealing damage based on his DEF, it represents the most important part of his kit and lasts for 12 seconds.\n However, once Yuanwu’s Forte gauge is filled, which is going to be generated off-field by his Thunder Wedge’s coordinated attacks, he can use an enhanced skill that detonates the Thunder Wedge early, dealing a bigger burst of damage based on his DEF. He then enters a state where the rest of his own attacks are empowered. His Ultimate, which deals damage based on his DEF and gives his Forte’s enhanced state to the entire team, which in the case of his other teammates grants the Interruption Resistance buff. It also has the Thunder Wedge detonation effect, which greatly helps his generation of Concerto Energy.\n All things considered, this makes Yuanwu a character who wants to spend minimal time on the field due to his kit being pretty much exclusively centered around placing his Thunder Wedge down and leaving the field immediately. While he gets enhanced attacks from his Forte’s enhanced state, they end up having extremely subpar damage compared to the rest of the cast; all in all, in his single meta use case, you end up pretty much forfeiting this kit entirely.\n And now we enter into the main problem with Yuanwu and why he is a low-tier character: presenting subpar damage, and sporting literally no inherent damage buffs in his kit, he does not fill either of the two niches that are required to be a meta character, healing not being necessary due to dodging, healers simply being favoured due to their buffing potential.\n As a result, Yuanwu finds himself only one meta niche: being a stack generator for one of the best characters in the game, Jinhsi. Thankfully, he does have Coordinated Attacks that can have 100% uptime, meaning you can infinitely refresh his Thunder Wedge and have it always be ready to hit enemies. As currently the only character in the game that practically does so, he finds value in being the best Forte stack generator for Jinhsi, who capitalizes off of Coordinated Attacks, and finds himself usable sporting the Rejuvenating Glow Echo set and the 3 star weapon Originite: Type IV to allow him to heal himself and trigger the 15% team-wide attack buff the set provides. Only requiring him to add a single Basic Attack to his rotation and simply requiring him to place his Thunder Wedge down and ignore the rest of his kit entirely, he is completely effective to use in Jinhsi teams at level 1 with a 3 star weapon and level 0 echoes, allowing you to invest in your other characters without sacrificing close to any of the team’s damage ceiling.\n But let’s not forget that even in this role, he finds himself doing practically no damage and as a result contributes smaller amounts to the whole team’s damage than any option that does. Not to mention that he only has ONE team he properly works in, and requires a very specific build to work (albeit not being an expensive one, it requires you to build your support on a second supportive set, i.e Moonlit Clouds, which is awkward to do in itself).\n In summary, this makes Yuanwu usable in a single team, and not useful in many other places. But if you still wish to use him in this role, he is very much recommendable, as his simplistic gameplay makes him very easy to pick up for even the most casual of players.",
+      "assets": []
+    },
+    {
+      "id": "video-guides-36",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "Yuanwu guide videos aren't available yet.\n\n Build",
+      "assets": []
+    },
+    {
+      "id": "best-weapons-37",
+      "level": 2,
+      "heading": "Best Weapons",
+      "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n 101.32%\n\n Verity's Handle (R 1 )\n\n Xiangli Yao's signature and an ideal weapon for any Resonance Liberation based Gauntlet user. Grants a tremendous 24.3% CRIT RATE boost and 12% generic DMG% boost all permanently and on top of that also grants an incredibly convenient 48% Resonance Liberation DMG% lasting 8 seconds on use of the wearers Liberation. Due to the timing of when this buff activates, it is almost always up when you need it most and the duration can also be extended up to 3 times for 5 seconds each time whenever you use a resonance skill. This extends the total duration of this buff to a whopping 23 seconds.\n 100.00%\n\n Amity Accord (R 5 )\n\n Outstanding damage focused option for DEF-scaling damage dealers that deal a reasonable portion of their damage with their Resonance Liberation. Current best option for all DEF scalers.\n 93.03%\n\n Stonard (R 5 )\n\n Specialist Gauntlets for Resonance Liberation scaling users, thanks to its passive that grants increased Resonance Liberation DMG% after using a Resonance Skill. Still usable by characters who don't focus specifically on Liberation damage as a big part of their kit, thanks to the reasonably high base stats but more importantly CRIT RATE main stat.\n 90.36%\n\n Guardian Gauntlets (R 5 )\n\n Free to play accessible alternative for DEF-scaling damage dealers that make use of their Resonance Liberation as a damage dealing tool. A good alternative if you don't have Amity Accord.\n 86.70%\n\n Originite: Type IV (R 5 )\n\n Gauntlets with the unique function of adding healing to a characters kit causing their Basic Attacks to restore a small amount of health to themselves with a cooldown of 3 seconds. The Gauntlets have bad combat stats and the heal would otherwise be considered terrible for most content but it allows characters to activate the incredibly powerful 5P Rejuvenating Glow set which requires healing to buff. This weapon should only be equipped when aiming to use the set on a character who could not otherwise heal.\n 85.91%\n\n Gauntlets of Voyager (R 5 )\n\n An easily accessible supportive option with a reasonable amount of Energy Regen. It also grants the unique ability to gain a sizable chunk of raw Resonance Energy once every 20 seconds. For most character's rotations in teams, this bonus will be ready every time it's their turn to switch-in, making this weapon a great choice for any character who doesn't need damage but needs their Ultimate fast and has trouble accessing it otherwise. The flat energy gain is more powerful the less energy the character and team they are a part of can generate.\n 85.01%\n\n Abyss Surges (R 1 )\n\n One of the top Gauntlets options in game with the only competitors being 4★ Weapons with multiple dupes. Offers high base ATK, ATK%, a good amount of Energy Regen to save at least 1 sub-stat on gear to be reallocated to better uses and a conditional bonus boosting Resonance Skill damage and Basic Attacks that is very easy to satisfy.\n -\n\n Originite: Type IV (R 5 )\n\n If you're playing Yuanwu in the Support role, here is the Weapon you should use on him (so he can trigger the Rejuvenating Glow set):\nGauntlets with the unique function of adding healing to a characters kit causing their Basic Attacks to restore a small amount of health to themselves with a cooldown of 3 seconds. The Gauntlets have bad combat stats and the heal would otherwise be considered terrible for most content but it allows characters to activate the incredibly powerful 5P Rejuvenating Glow set which requires healing to buff. This weapon should only be equipped when aiming to use the set on a character who could not otherwise heal.",
+      "assets": [
+        {
+          "id": "ea93f302fdf1",
+          "sourceHash": "ea93f302fdf1",
+          "kind": "weapons",
+          "name": "Verity's Handle",
+          "fileStem": "21040016",
+          "path": "Prydwen/ww/assets/weapons/veritys-handle-ea93f302fdf1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "28d24c782f6b",
+          "sourceHash": "28d24c782f6b",
+          "kind": "weapons",
+          "name": "Amity Accord",
+          "fileStem": "21040044",
+          "path": "Prydwen/ww/assets/weapons/amity-accord-28d24c782f6b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9bf05a62f031",
+          "sourceHash": "9bf05a62f031",
+          "kind": "weapons",
+          "name": "Stonard",
+          "fileStem": "21040074",
+          "path": "Prydwen/ww/assets/weapons/stonard-9bf05a62f031.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3d890d3b769f",
+          "sourceHash": "3d890d3b769f",
+          "kind": "weapons",
+          "name": "Guardian Gauntlets",
+          "fileStem": "21040053",
+          "path": "Prydwen/ww/assets/weapons/guardian-gauntlets-3d890d3b769f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d176608c4418",
+          "sourceHash": "d176608c4418",
+          "kind": "weapons",
+          "name": "Originite: Type IV",
+          "fileStem": "21040023",
+          "path": "Prydwen/ww/assets/weapons/originite-type-iv-d176608c4418.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "59f32c33b110",
+          "sourceHash": "59f32c33b110",
+          "kind": "weapons",
+          "name": "Gauntlets of Voyager",
+          "fileStem": "21040043",
+          "path": "Prydwen/ww/assets/weapons/gauntlets-of-voyager-59f32c33b110.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "4e021e35e328",
+          "sourceHash": "4e021e35e328",
+          "kind": "weapons",
+          "name": "Abyss Surges",
+          "fileStem": "21040015",
+          "path": "Prydwen/ww/assets/weapons/abyss-surges-4e021e35e328.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "best-echo-sets-39",
+      "level": 6,
+      "heading": "Best Echo Sets",
+      "text": "1\n\nRejuvenating Glow\n\n Offers a 10% unconditional Healing% boost and an most importantly a 15% ATK% boost for the entire team, lasting 30 seconds whenever you heal yourself or any of your allies. This bonus can be triggered by character abilities and weapon effects, is easy to keep active 100% of the time and is a big help for all party members.\n Below you can find Main Echo options:\n\n Fallacy of No Return\n\n - Grants 10% increased Energy Regeneration for the wearer and a team wide 10% ATK boost on use for 20 seconds. A strong option for those looking to generate as much energy as possible or who favor a more permanent party buffing effect compared to Bell-Borne Geochelone.\n\n Bell-Borne Geochelone\n\n - While nowadays a worse option for the Rejuvenating Glow set for damage than the Fallacy of No Return due to a shorter buff uptime, only granting 10% DMG Bonus for 15 seconds, the Bell-Borne Geochelone remains a good choice if you don't have a good Fallacy to use for the set. It also has increased survivability by blocking 50% of the damage from a max of 3 hits if you desire to have that in your team.\n\n 2\n\nMoonlit Clouds\n\n Offers a 10% unconditional Energy Regen% boost taking some pressure off your gear when aiming at ER breakpoints. Also upon using Outro, grants the next character switching in a 22.5% ATK boost, amplifying any of your main damage dealers burst windows.\n Below you can find Main Echo options:\n\n Impermanence Heron\n\n - Supportive Echo that can be run at the cost of a sizeable chunk of damage for the character who equips, trading personal gain for team benefits. Should always be used and immediately switch cancelled right before performing an Outro, leading to another DPS. When done so will grant the next character switching in 12% increased DMG% which when combined with the 5P Moonlit set which also grants 22.5% ATK% under the same conditions makes for a sizeable boost. While the echo does lower the damage of whoever wears it, it grants a massive chunk of energy on use usually saving 1 or sometimes even 2 Energy Regen sub stats that may otherwise be needed by the wearer allowing for some damage to be recovered.",
+      "assets": [
+        {
+          "id": "9116b6b3061f",
+          "sourceHash": "9116b6b3061f",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-7",
+          "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "963f47d9c985",
+          "sourceHash": "963f47d9c985",
+          "kind": "misc",
+          "name": "Fallacy of No Return",
+          "fileStem": "6000060",
+          "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "2acfd4bfd79d",
+          "sourceHash": "2acfd4bfd79d",
+          "kind": "misc",
+          "name": "Bell-Borne Geochelone",
+          "fileStem": "340000020",
+          "path": "Prydwen/ww/assets/misc/bell-borne-geochelone-2acfd4bfd79d.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "358387a78181",
+          "sourceHash": "358387a78181",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-8",
+          "path": "Prydwen/ww/assets/icons/set-8-358387a78181.webp",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "969a4ca96158",
+          "sourceHash": "969a4ca96158",
+          "kind": "misc",
+          "name": "Impermanence Heron",
+          "fileStem": "330000030",
+          "path": "Prydwen/ww/assets/misc/impermanence-heron-969a4ca96158.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "special-echo-sets-40",
+      "level": 6,
+      "heading": "Special Echo Sets",
+      "text": "Empyrean Anthem\n\n Offers an unconditional 10% Energy Regen% and 80% Coordinated DMG boost. Also grants a passive supportive effect which triggers when the wearer of this set critically strikes with a Coordinated attack - this effect grants the on field Resonator an ATK% boost regardless if they're the wearer of the set or not.\n Below you can find Main Echo options:\n\n Nightmare: Tempest Mephis\n\n - Offers an unconditional 12% Electro DMG and 12% Resonance Skill DMG boost when placed in the Main Echo slot, making it a solid choice for Electro focused resonators who emphasize Resonance Skill damage and are looking to use either the 5P Empyrean Anthem Echo or 5P Void Thunder set bonus.",
+      "assets": [
+        {
+          "id": "26730b805365",
+          "sourceHash": "26730b805365",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-13",
+          "path": "Prydwen/ww/assets/icons/set-13-26730b805365.webp",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "6d1ec2f31e70",
+          "sourceHash": "6d1ec2f31e70",
+          "kind": "misc",
+          "name": "Nightmare: Tempest Mephis",
+          "fileStem": "330000170",
+          "path": "Prydwen/ww/assets/misc/nightmare-tempest-mephis-6d1ec2f31e70.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "best-echo-stats-41",
+      "level": 2,
+      "heading": "Best Echo Stats",
+      "text": "4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Electro DMG\n\n 3 cost\n Electro DMG > DEF%\n\n 1 cost\n DEF%\n\n 1 cost\n DEF%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > DEF% > Flat DEF",
+      "assets": []
+    },
+    {
+      "id": "best-endgame-stats-level-90-42",
+      "level": 2,
+      "heading": "Best Endgame Stats (Level 90)",
+      "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n Keep in mind Yuanwu is a Support who deals very low personal damage, meaning investing in her damage is fully skippable. Energy Regen requirements are by far the most important stat shown.\n HP: 13000+\n\n DEF: 1800+\n\n ATK: 1200+\n\n CRIT Rate: 60%+\n\n CRIT DMG: 250%+\n\n Energy Regen: 100%\n Yuanwu’s optimal playstyle in a Jinhsi team does not involve his Resonance Liberation.\n\n Electro DMG Bonus: 30-60%+",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-43",
+      "level": 2,
+      "heading": "Skill Priority",
+      "text": "Below you can find the order of leveling the abilities for Yuanwu .\n Res. Liberation\n\n Res. Skill\n\n Forte Circuit\n\n Intro Skill\n\n Basic Attack\n\n Gameplay and teams",
+      "assets": []
+    },
+    {
+      "id": "rotation-44",
+      "level": 2,
+      "heading": "Rotation",
+      "text": "Unlike most primary DPS and Hybrid dealers, Yuanwu features no set rotation when played and instead focuses on his Ultimate and Resonance Skill, which make up the majority of his endgame capabilities. While we have assigned him a “rotation” for the purpose of calculations, it is better to refer to the following list as things to watch out for during his gameplay instead:\n Building Yuanwu’s Forte Gauge as fast as possible should be your focus as it maximizes his damage potential and generates Concerto and Resonance Energy.\n\n While his Thunder Wedge (skill) is active, he gains Forte Gauge passively, and gains additional Forte each time he lands a coordinated attack (whether after an attack by himself or via ally) on an enemy in his Wedge radius. As such it is essential to keep his Wedge active at all times and within range of the currently targeted enemy to maximize Forte generation.\n\n Another benefit of keeping his Thunder Wedge active and in range of target enemy is that it emits a pulse of energy dealing small AoE damage upon completely filling his Forte.\n\n Using a charged skill on an enemy to expend filled Forte Gauge is by far, the easiest way to generate Concerto and Resonance Energy for him.\n\n Upon executing his Ultimate or Forte Gauge empowered skill, he explodes any active Thunder Wedges, thus making it important to ensure it’s presence on the target you are about to hit with either skill beforehand. (Thunder Wedge can be summoned back shortly to minimize downtime).\n\n Yuanwu’s Ultimate skill grants him Lightning-infused state grants him many effects, including Anti-Interruption which benefits other team members even after Swapping.\n\n Yuanwu’s Ultimate should be utilized as soon as it's available (preferably with detonation of a Wedge), unless it's being saved to assist an teammate with Anti-Interruption buff.\n\n Despite Lighting Infused state being an enhanced state, like many other characters possess, due to its low multipliers, it's not worth keeping Yuanwu on the field to utilize his Basic Attack combos.",
+      "assets": []
+    },
+    {
+      "id": "ability-priority-45",
+      "level": 6,
+      "heading": "Ability Priority",
+      "text": "Echo\n\n Intro (If Available)\n\n Skill: Place Thunderwedge\n\n Ultimate (Detonates Thunderwedge)\n\n Skill: Forte: Rumbling Spark\n\n Skill: Place Thunderwedge\n\n Outro (If Available)\n\n Skill: Place Thunderwedge (As needed to keep active and on top of enemies)",
+      "assets": []
+    },
+    {
+      "id": "synergies-46",
+      "level": 2,
+      "heading": "Synergies",
+      "text": "Jinhsi - Yuanwu's only meta use case is to work as a good budget option for Jinhsi teams, as he's free to acquire, takes minimal field time, can activate the Rejuvenating Glow set easily with the Originite: Type IV 3 star weapon, and has the highest Coordinated Attack frequency of any character in the game. The pairing isn't meta, but requires minimal investment to perform, and remains a good option.\n Verina - One of the usual Healing Support options that can slot into any team. Super easy to use, provides amazing team-wide ATK% buffs and 15% DMG Amplify with one of the fastest rotations in the game. Make sure to run her with Moonlit Clouds if you're using her along with Yuanwu, as she can trigger her Outro way more consistently & faster than he can every rotation!\n The Shorekeeper - Similar to Verina, a premium Healing Support option who can not only slot into any team, but also provide insane 12.5% Crit Rate, 25% Crit DMG, 25% ATK and 15% DMG Amplify buffs to your whole team. One of the best but also easy to use characters in the game. Make sure to run her with Moonlit Clouds if you're using her along with Yuanwu, as she can trigger her Outro way more consistently & faster than he can every rotation!",
+      "assets": [
+        {
+          "id": "b67d310bf80d",
+          "sourceHash": "b67d310bf80d",
+          "kind": "characters",
+          "name": "Jinhsi",
+          "fileStem": "jinhsi-icon",
+          "path": "Prydwen/ww/assets/characters/jinhsi-b67d310bf80d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1b2a8f336e3d",
+          "sourceHash": "1b2a8f336e3d",
+          "kind": "characters",
+          "name": "Verina",
+          "fileStem": "verina-icon",
+          "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d909de4aecde",
+          "sourceHash": "d909de4aecde",
+          "kind": "characters",
+          "name": "The Shorekeeper",
+          "fileStem": "the-shorekeeper-icon",
+          "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "example-teams-47",
+      "level": 2,
+      "heading": "Example Teams",
+      "text": "Best Team\n\n Make sure to run Yuanwu on Rejuvenating Glow and your third party member on Moonlit Clouds for optimal DPS!\n\n Calculations",
+      "assets": [
+        {
+          "id": "b67d310bf80d",
+          "sourceHash": "b67d310bf80d",
+          "kind": "characters",
+          "name": "Jinhsi",
+          "fileStem": "jinhsi-icon",
+          "path": "Prydwen/ww/assets/characters/jinhsi-b67d310bf80d.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "33f610856d71",
+          "sourceHash": "33f610856d71",
+          "kind": "characters",
+          "name": "Yuanwu",
+          "fileStem": "yuanwu-icon",
+          "path": "Prydwen/ww/assets/characters/yuanwu-33f610856d71.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "d909de4aecde",
+          "sourceHash": "d909de4aecde",
+          "kind": "characters",
+          "name": "The Shorekeeper",
+          "fileStem": "the-shorekeeper-icon",
+          "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "1b2a8f336e3d",
+          "sourceHash": "1b2a8f336e3d",
+          "kind": "characters",
+          "name": "Verina",
+          "fileStem": "verina-icon",
+          "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+          "width": 120,
+          "height": 120
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "best-echo-stats": {
+      "label": "Best Echo Stats",
+      "sections": [
+        {
+          "heading": "Stats",
+          "text": "Include minor fortes\n\n Lv. 90\n\n HP\n 8525\n\n ATK\n 225\n\n DEF\n 1638\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Electro DMG\n 0 %",
+          "assets": [
+            {
+              "id": "c26c1d310e90",
+              "sourceHash": "c26c1d310e90",
+              "kind": "icons",
+              "name": "HP",
+              "fileStem": "stat-hp",
+              "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "1e70b3adc860",
+              "sourceHash": "1e70b3adc860",
+              "kind": "icons",
+              "name": "ATK",
+              "fileStem": "stat-atk",
+              "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "aa019d34202f",
+              "sourceHash": "aa019d34202f",
+              "kind": "icons",
+              "name": "DEF",
+              "fileStem": "stat-def",
+              "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "5a0b154cd3d8",
+              "sourceHash": "5a0b154cd3d8",
+              "kind": "icons",
+              "name": "Max Energy",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "39094c227806",
+              "sourceHash": "39094c227806",
+              "kind": "icons",
+              "name": "CRIT Rate",
+              "fileStem": "stat-crit",
+              "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "7e2bcd0760ca",
+              "sourceHash": "7e2bcd0760ca",
+              "kind": "icons",
+              "name": "CRIT DMG",
+              "fileStem": "stat-critdmg",
+              "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "94236abd3fdc",
+              "sourceHash": "94236abd3fdc",
+              "kind": "icons",
+              "name": "Healing",
+              "fileStem": "stat-heal",
+              "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "cec2445ceb75",
+              "sourceHash": "cec2445ceb75",
+              "kind": "icons",
+              "name": "Electro",
+              "fileStem": "stat-ele",
+              "path": "Prydwen/ww/assets/icons/electro-cec2445ceb75.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        },
+        {
+          "heading": "Best Echo Stats",
+          "text": "4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Electro DMG\n\n 3 cost\n Electro DMG > DEF%\n\n 1 cost\n DEF%\n\n 1 cost\n DEF%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > DEF% > Flat DEF",
+          "assets": []
+        }
+      ]
+    },
+    "best-weapons": {
+      "label": "Best Weapons",
+      "sections": [
+        {
+          "heading": "Best Weapons",
+          "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n 101.32%\n\n Verity's Handle (R 1 )\n\n Xiangli Yao's signature and an ideal weapon for any Resonance Liberation based Gauntlet user. Grants a tremendous 24.3% CRIT RATE boost and 12% generic DMG% boost all permanently and on top of that also grants an incredibly convenient 48% Resonance Liberation DMG% lasting 8 seconds on use of the wearers Liberation. Due to the timing of when this buff activates, it is almost always up when you need it most and the duration can also be extended up to 3 times for 5 seconds each time whenever you use a resonance skill. This extends the total duration of this buff to a whopping 23 seconds.\n 100.00%\n\n Amity Accord (R 5 )\n\n Outstanding damage focused option for DEF-scaling damage dealers that deal a reasonable portion of their damage with their Resonance Liberation. Current best option for all DEF scalers.\n 93.03%\n\n Stonard (R 5 )\n\n Specialist Gauntlets for Resonance Liberation scaling users, thanks to its passive that grants increased Resonance Liberation DMG% after using a Resonance Skill. Still usable by characters who don't focus specifically on Liberation damage as a big part of their kit, thanks to the reasonably high base stats but more importantly CRIT RATE main stat.\n 90.36%\n\n Guardian Gauntlets (R 5 )\n\n Free to play accessible alternative for DEF-scaling damage dealers that make use of their Resonance Liberation as a damage dealing tool. A good alternative if you don't have Amity Accord.\n 86.70%\n\n Originite: Type IV (R 5 )\n\n Gauntlets with the unique function of adding healing to a characters kit causing their Basic Attacks to restore a small amount of health to themselves with a cooldown of 3 seconds. The Gauntlets have bad combat stats and the heal would otherwise be considered terrible for most content but it allows characters to activate the incredibly powerful 5P Rejuvenating Glow set which requires healing to buff. This weapon should only be equipped when aiming to use the set on a character who could not otherwise heal.\n 85.91%\n\n Gauntlets of Voyager (R 5 )\n\n An easily accessible supportive option with a reasonable amount of Energy Regen. It also grants the unique ability to gain a sizable chunk of raw Resonance Energy once every 20 seconds. For most character's rotations in teams, this bonus will be ready every time it's their turn to switch-in, making this weapon a great choice for any character who doesn't need damage but needs their Ultimate fast and has trouble accessing it otherwise. The flat energy gain is more powerful the less energy the character and team they are a part of can generate.\n 85.01%\n\n Abyss Surges (R 1 )\n\n One of the top Gauntlets options in game with the only competitors being 4★ Weapons with multiple dupes. Offers high base ATK, ATK%, a good amount of Energy Regen to save at least 1 sub-stat on gear to be reallocated to better uses and a conditional bonus boosting Resonance Skill damage and Basic Attacks that is very easy to satisfy.\n -\n\n Originite: Type IV (R 5 )\n\n If you're playing Yuanwu in the Support role, here is the Weapon you should use on him (so he can trigger the Rejuvenating Glow set):\nGauntlets with the unique function of adding healing to a characters kit causing their Basic Attacks to restore a small amount of health to themselves with a cooldown of 3 seconds. The Gauntlets have bad combat stats and the heal would otherwise be considered terrible for most content but it allows characters to activate the incredibly powerful 5P Rejuvenating Glow set which requires healing to buff. This weapon should only be equipped when aiming to use the set on a character who could not otherwise heal.",
+          "assets": [
+            {
+              "id": "ea93f302fdf1",
+              "sourceHash": "ea93f302fdf1",
+              "kind": "weapons",
+              "name": "Verity's Handle",
+              "fileStem": "21040016",
+              "path": "Prydwen/ww/assets/weapons/veritys-handle-ea93f302fdf1.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "28d24c782f6b",
+              "sourceHash": "28d24c782f6b",
+              "kind": "weapons",
+              "name": "Amity Accord",
+              "fileStem": "21040044",
+              "path": "Prydwen/ww/assets/weapons/amity-accord-28d24c782f6b.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "9bf05a62f031",
+              "sourceHash": "9bf05a62f031",
+              "kind": "weapons",
+              "name": "Stonard",
+              "fileStem": "21040074",
+              "path": "Prydwen/ww/assets/weapons/stonard-9bf05a62f031.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "3d890d3b769f",
+              "sourceHash": "3d890d3b769f",
+              "kind": "weapons",
+              "name": "Guardian Gauntlets",
+              "fileStem": "21040053",
+              "path": "Prydwen/ww/assets/weapons/guardian-gauntlets-3d890d3b769f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d176608c4418",
+              "sourceHash": "d176608c4418",
+              "kind": "weapons",
+              "name": "Originite: Type IV",
+              "fileStem": "21040023",
+              "path": "Prydwen/ww/assets/weapons/originite-type-iv-d176608c4418.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "59f32c33b110",
+              "sourceHash": "59f32c33b110",
+              "kind": "weapons",
+              "name": "Gauntlets of Voyager",
+              "fileStem": "21040043",
+              "path": "Prydwen/ww/assets/weapons/gauntlets-of-voyager-59f32c33b110.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "4e021e35e328",
+              "sourceHash": "4e021e35e328",
+              "kind": "weapons",
+              "name": "Abyss Surges",
+              "fileStem": "21040015",
+              "path": "Prydwen/ww/assets/weapons/abyss-surges-4e021e35e328.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "best-echo-sets": {
+      "label": "Best Echo Sets",
+      "sections": [
+        {
+          "heading": "Best Echo Sets",
+          "text": "1\n\nRejuvenating Glow\n\n Offers a 10% unconditional Healing% boost and an most importantly a 15% ATK% boost for the entire team, lasting 30 seconds whenever you heal yourself or any of your allies. This bonus can be triggered by character abilities and weapon effects, is easy to keep active 100% of the time and is a big help for all party members.\n Below you can find Main Echo options:\n\n Fallacy of No Return\n\n - Grants 10% increased Energy Regeneration for the wearer and a team wide 10% ATK boost on use for 20 seconds. A strong option for those looking to generate as much energy as possible or who favor a more permanent party buffing effect compared to Bell-Borne Geochelone.\n\n Bell-Borne Geochelone\n\n - While nowadays a worse option for the Rejuvenating Glow set for damage than the Fallacy of No Return due to a shorter buff uptime, only granting 10% DMG Bonus for 15 seconds, the Bell-Borne Geochelone remains a good choice if you don't have a good Fallacy to use for the set. It also has increased survivability by blocking 50% of the damage from a max of 3 hits if you desire to have that in your team.\n\n 2\n\nMoonlit Clouds\n\n Offers a 10% unconditional Energy Regen% boost taking some pressure off your gear when aiming at ER breakpoints. Also upon using Outro, grants the next character switching in a 22.5% ATK boost, amplifying any of your main damage dealers burst windows.\n Below you can find Main Echo options:\n\n Impermanence Heron\n\n - Supportive Echo that can be run at the cost of a sizeable chunk of damage for the character who equips, trading personal gain for team benefits. Should always be used and immediately switch cancelled right before performing an Outro, leading to another DPS. When done so will grant the next character switching in 12% increased DMG% which when combined with the 5P Moonlit set which also grants 22.5% ATK% under the same conditions makes for a sizeable boost. While the echo does lower the damage of whoever wears it, it grants a massive chunk of energy on use usually saving 1 or sometimes even 2 Energy Regen sub stats that may otherwise be needed by the wearer allowing for some damage to be recovered.",
+          "assets": [
+            {
+              "id": "9116b6b3061f",
+              "sourceHash": "9116b6b3061f",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-7",
+              "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+              "width": 50,
+              "height": 50
+            },
+            {
+              "id": "963f47d9c985",
+              "sourceHash": "963f47d9c985",
+              "kind": "misc",
+              "name": "Fallacy of No Return",
+              "fileStem": "6000060",
+              "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+              "width": 35,
+              "height": 35
+            },
+            {
+              "id": "2acfd4bfd79d",
+              "sourceHash": "2acfd4bfd79d",
+              "kind": "misc",
+              "name": "Bell-Borne Geochelone",
+              "fileStem": "340000020",
+              "path": "Prydwen/ww/assets/misc/bell-borne-geochelone-2acfd4bfd79d.webp",
+              "width": 35,
+              "height": 35
+            },
+            {
+              "id": "358387a78181",
+              "sourceHash": "358387a78181",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-8",
+              "path": "Prydwen/ww/assets/icons/set-8-358387a78181.webp",
+              "width": 50,
+              "height": 50
+            },
+            {
+              "id": "969a4ca96158",
+              "sourceHash": "969a4ca96158",
+              "kind": "misc",
+              "name": "Impermanence Heron",
+              "fileStem": "330000030",
+              "path": "Prydwen/ww/assets/misc/impermanence-heron-969a4ca96158.webp",
+              "width": 35,
+              "height": 35
+            }
+          ]
+        }
+      ]
+    },
+    "best-endgame-stats": {
+      "label": "Best Endgame Stats",
+      "sections": [
+        {
+          "heading": "Best Endgame Stats (Level 90)",
+          "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n Keep in mind Yuanwu is a Support who deals very low personal damage, meaning investing in her damage is fully skippable. Energy Regen requirements are by far the most important stat shown.\n HP: 13000+\n\n DEF: 1800+\n\n ATK: 1200+\n\n CRIT Rate: 60%+\n\n CRIT DMG: 250%+\n\n Energy Regen: 100%\n Yuanwu’s optimal playstyle in a Jinhsi team does not involve his Resonance Liberation.\n\n Electro DMG Bonus: 30-60%+",
+          "assets": []
+        }
+      ]
+    },
+    "skill-priority": {
+      "label": "Skill Priority",
+      "sections": [
+        {
+          "heading": "Skill Priority",
+          "text": "Below you can find the order of leveling the abilities for Yuanwu .\n Res. Liberation\n\n Res. Skill\n\n Forte Circuit\n\n Intro Skill\n\n Basic Attack\n\n Gameplay and teams",
+          "assets": []
+        }
+      ]
+    },
+    "rotation": {
+      "label": "Rotation",
+      "sections": [
+        {
+          "heading": "Rotation",
+          "text": "Unlike most primary DPS and Hybrid dealers, Yuanwu features no set rotation when played and instead focuses on his Ultimate and Resonance Skill, which make up the majority of his endgame capabilities. While we have assigned him a “rotation” for the purpose of calculations, it is better to refer to the following list as things to watch out for during his gameplay instead:\n Building Yuanwu’s Forte Gauge as fast as possible should be your focus as it maximizes his damage potential and generates Concerto and Resonance Energy.\n\n While his Thunder Wedge (skill) is active, he gains Forte Gauge passively, and gains additional Forte each time he lands a coordinated attack (whether after an attack by himself or via ally) on an enemy in his Wedge radius. As such it is essential to keep his Wedge active at all times and within range of the currently targeted enemy to maximize Forte generation.\n\n Another benefit of keeping his Thunder Wedge active and in range of target enemy is that it emits a pulse of energy dealing small AoE damage upon completely filling his Forte.\n\n Using a charged skill on an enemy to expend filled Forte Gauge is by far, the easiest way to generate Concerto and Resonance Energy for him.\n\n Upon executing his Ultimate or Forte Gauge empowered skill, he explodes any active Thunder Wedges, thus making it important to ensure it’s presence on the target you are about to hit with either skill beforehand. (Thunder Wedge can be summoned back shortly to minimize downtime).\n\n Yuanwu’s Ultimate skill grants him Lightning-infused state grants him many effects, including Anti-Interruption which benefits other team members even after Swapping.\n\n Yuanwu’s Ultimate should be utilized as soon as it's available (preferably with detonation of a Wedge), unless it's being saved to assist an teammate with Anti-Interruption buff.\n\n Despite Lighting Infused state being an enhanced state, like many other characters possess, due to its low multipliers, it's not worth keeping Yuanwu on the field to utilize his Basic Attack combos.",
+          "assets": []
+        }
+      ]
+    },
+    "synergies": {
+      "label": "Synergies",
+      "sections": [
+        {
+          "heading": "Synergies",
+          "text": "Jinhsi - Yuanwu's only meta use case is to work as a good budget option for Jinhsi teams, as he's free to acquire, takes minimal field time, can activate the Rejuvenating Glow set easily with the Originite: Type IV 3 star weapon, and has the highest Coordinated Attack frequency of any character in the game. The pairing isn't meta, but requires minimal investment to perform, and remains a good option.\n Verina - One of the usual Healing Support options that can slot into any team. Super easy to use, provides amazing team-wide ATK% buffs and 15% DMG Amplify with one of the fastest rotations in the game. Make sure to run her with Moonlit Clouds if you're using her along with Yuanwu, as she can trigger her Outro way more consistently & faster than he can every rotation!\n The Shorekeeper - Similar to Verina, a premium Healing Support option who can not only slot into any team, but also provide insane 12.5% Crit Rate, 25% Crit DMG, 25% ATK and 15% DMG Amplify buffs to your whole team. One of the best but also easy to use characters in the game. Make sure to run her with Moonlit Clouds if you're using her along with Yuanwu, as she can trigger her Outro way more consistently & faster than he can every rotation!",
+          "assets": [
+            {
+              "id": "b67d310bf80d",
+              "sourceHash": "b67d310bf80d",
+              "kind": "characters",
+              "name": "Jinhsi",
+              "fileStem": "jinhsi-icon",
+              "path": "Prydwen/ww/assets/characters/jinhsi-b67d310bf80d.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1b2a8f336e3d",
+              "sourceHash": "1b2a8f336e3d",
+              "kind": "characters",
+              "name": "Verina",
+              "fileStem": "verina-icon",
+              "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d909de4aecde",
+              "sourceHash": "d909de4aecde",
+              "kind": "characters",
+              "name": "The Shorekeeper",
+              "fileStem": "the-shorekeeper-icon",
+              "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "example-teams": {
+      "label": "Example Teams",
+      "sections": [
+        {
+          "heading": "Example Teams",
+          "text": "Best Team\n\n Make sure to run Yuanwu on Rejuvenating Glow and your third party member on Moonlit Clouds for optimal DPS!\n\n Calculations",
+          "assets": [
+            {
+              "id": "b67d310bf80d",
+              "sourceHash": "b67d310bf80d",
+              "kind": "characters",
+              "name": "Jinhsi",
+              "fileStem": "jinhsi-icon",
+              "path": "Prydwen/ww/assets/characters/jinhsi-b67d310bf80d.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "33f610856d71",
+              "sourceHash": "33f610856d71",
+              "kind": "characters",
+              "name": "Yuanwu",
+              "fileStem": "yuanwu-icon",
+              "path": "Prydwen/ww/assets/characters/yuanwu-33f610856d71.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "d909de4aecde",
+              "sourceHash": "d909de4aecde",
+              "kind": "characters",
+              "name": "The Shorekeeper",
+              "fileStem": "the-shorekeeper-icon",
+              "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "1b2a8f336e3d",
+              "sourceHash": "1b2a8f336e3d",
+              "kind": "characters",
+              "name": "Verina",
+              "fileStem": "verina-icon",
+              "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+              "width": 120,
+              "height": 120
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Yuanwu Best Build Guide | Wuthering Waves (WuWa)\n \n\n Wuthering Waves\n Home Database Characters Weapons Echoes Banners\n Tier Lists Tier List Team Tier List Value Tier List\n Guides Guides\n Resources Map News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Wuthering Waves\n /\n Characters\n /\n Yuanwu\n Yuanwu Best Build Guide\n Last updated: 09/June/2026\n\n Introduction\n Best guide and build for Yuanwu from WW (Wuthering Waves). Yuanwu is a 4 ★ rarity character from the Electro element who uses the Gauntlets type weapon.\n Yuanwu owns a boxing gym where he teaches martial arts and health management. He is well-respected in the community for his cordial demeanor and pleasant temperament.\n\n To learn more about Yuanwu check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n This character has no video guide yet.\n\n Update tracker\n Last review update\n Patch 2.1\n\n Last major build/calcs update\n Patch 2.1\n\n Last profile update*\n 09/June/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Yuanwu check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Kit\n\n Review\n\n Build\n\n Gameplay and teams\n\n Calculations\n\n Profile\n\n Skills\n Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Leihuangquan\n\n Basic Attack\n Perform up to 5 continuous attacks, dealing Electro DMG.\n Heavy Attack\n Consume Stamina to attack the target, dealing Electro DMG.\n Mid-air Attack\n Consume Stamina to launch a Plunging Attack, dealing Electro DMG.\n Dodge Counter\n Use Basic Attack after a successful Dodge to attack the target, dealing Electro DMG.\n\n Multipliers\n\n Resonance Skill\n Leihuang Master\n\n Thunder Wedge\n Yuanwu summons Thunder Wedge, dealing Electro DMG, and forms a Thunder Field centered on the Thunder Wedge. Thunder Wedge lasts for 12s .\n Forte Circuit Rumbling Spark and Resonance Liberation Blazing Might will immediately detonate Resonance Skill Thunder Wedge on the field, dealing Electro DMG , considered as Resonance Skill Damage.\n Thunder Field\n The on-field character gains the effects below when in the Thunder Field: a Coordinated Attack from Resonance Skill Thunder Wedge is triggered when attacks hit a target, dealing Electro DMG. This can be triggered once every 1.2s . The effect lasts for 1.5s.\n\n Multipliers\n\n Resonance Liberation\n Blazing Might\n\n Awaken the power of thunder and provide Forte Circuit Lightning Infused status for all nearby characters for 10s , granting them increased Anti-interruption, then perform a powerful blow that deals Electro DMG.\n\n Multipliers\n\n Forte Circuit\n Unassuming Blade\n\n Rumbling Spark\n When \"Readiness\" is full, long press Resonance Skill to consume all \"Readiness\" and cast Rumbling Spark, dealing Electro DMG and entering the Lightning Infused state.\n Thunder Uprising\n When you have full \"Readiness\", Resonance Skill Thunder Wedge will cast Thunder Uprising, dealing Electro DMG .\n Lightning Infused\n The character in Lightning Infused state has a greatly increased anti-interruption. When Yuanwu is in this state:\n Basic Attacks: Hits targets in a larger range, depletes enemy Vibration Strength faster.\n\n Heavy Attacks: Attack speed is increased, deplete enemy Vibration Strength faster\n\n Dodge Counters: Attack speed is increased, deplete enemy Vibration Strength faster.\n\n Use Basic Attack within 3s after casting a Heavy Attack or a successful Counterattack to cast Thunderweaver, dealing Electro DMG , considered as Basic Attack damage;\n\n Edge\n Yuanwu can hold up to 100 \"Readiness\".\n When Resonance Skill Thunder Wedge is on the field, Yuanwu gains 6 \"Readiness\" every second, even when he is not the on-field character; When Resonance Skill Thunder Wedge hits a target with a Coordinated Attack, Yuanwu gains 5 \"Readiness\".\n\n Multipliers\n\n Inherent Skill\n Thunderweaver\n\n The damage multiplier of Resonance Skill Thunder Uprising is increased by 40% , and its depletion of enemy Vibration Strength is enhanced.\n\n Inherent Skill\n Reserved Confidence\n\n The ranges of the Resonance Skill Thunder Field and Thunder Uprising are greatly expanded. When exiting during combat, if Readiness is not full, Yuanwu will automatically leave 1 Resonance Skill Thunder Wedge in place.\n\n Intro Skill\n Thunder Bombardment\n\n Attack the target, dealing Electro DMG.\n\n Multipliers\n\n Outro Skill\n Lightning Manipulation\n\n Yuanwu summons thunderbolts on a field centered on the skill target, dealing significant Vibration Strength depletion to the enemies hit.\n\n Resonance Chain (Dupes)\n S 1\n Sequence Node 1\n\n When Yuanwu is in Forte Circuit's Lightning Infused state, his Basic Attack Speed is increased by 20%, and his Heavy Attack Speed is increased by 20%.\n\n S 2\n Sequence Node 2\n\n Intro Skill Thunder Bombardment additionally recovers 15 Resonance Energy for Yuanwu.\n\n S 3\n Sequence Node 3\n\n When the Coordinated Attacks of Resonance Skill's Thunder Wedge hits a target, the damage is additionally increased by 20% of Yuanwu's DEF.\n\n S 4\n Sequence Node 4\n\n When casting Resonance Liberation Blazing Might, the on-field character will gain a Shield equal to 200% of Yuanwu's DEF for 10s .\n\n S 5\n Sequence Node 5\n\n When Resonance Skill Thunder Wedge is on the field, Yuanwu's Resonance Liberation DMG Bonus is increased by 50%.\n\n S 6\n Sequence Node 6\n\n All team members nearby within the range of Resonance Skill Thunder Wedge will gain a 32% DEF increase, lasting 3s .\n\n Minor Fortes (Total)\n Electro DMG\n + 12 %\n\n DEF%\n + 15.2 %\n\n Stats\n\nInclude minor fortes\n\n Lv. 90\n\n HP\n 8525\n\n ATK\n 225\n\n DEF\n 1638\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Electro DMG\n 0 %\n\n Upgrade Materials\n Character Ascension (total)\n 4 x Crude Ring\n 12 x Basic Ring\n 12 x Improved Ring\n 4 x Tailored Ring\n 46 x Hidden Thunder Tacet Core\n 60 x Terraspawn Fungus\n 170 000 Shell Credits\n\n Skill Upgrades (total)\n 25 x Crude Ring\n 28 x Basic Ring\n 40 x Improved Ring\n 57 x Tailored Ring\n 25 x Cadence Seed\n 28 x Cadence Bud\n 55 x Cadence Leaf\n 67 x Cadence Blossom\n 26 x Unending Destruction\n 2 030 000 Shell Credits\n\n While the source of the materials can be quickly found in the game, when it comes Terraspawn Fungus you will have to gather them from the map. Check our Interactive map to find them quickly:\n\n Interactive Map\n\n Voice Actors\n ENG\n Adam Diggle\n\n JPN\n Shirokuma Hiroshi\n\n CN\n Liu BeiChen\n\n KR\n Park Sung Tae\n\n Gallery\n\n Review\n\n Ratings\n Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Support\n T4\n Tower of Adversity\n\n T4\n Whimpering Wastes\n\n Value Tier List\n Support\n T4\n Tower of Adversity (Value)\n\n T4\n Whimpering Wastes (Value)\n\n Pros & Cons\n Pros\n Is surprisingly a great user of the Rejuvenating Glow healing set by being able to run the Originite: Type IV weapon to trigger it with a single basic attack;\n\n Has the shortest rotation time in the game, as he doesn’t need to use anything beyond a basic attack, and his skill and echo;\n\n Requires absolutely no investment to perform;\n\n Arguably the easiest character to play, just use basic, skill, echo and swap off;\n\n Provides interruption resistance to the entire team, making all rotations easier to perform;\n\n Makes the stagger bar of enemies easier to shred through;\n\n He’s free!\n\n Cons\n Does not provide close to any buffs and is lacking compared to other supports in that department;\n\n Needs to replace his Thunder Wedge often against highly mobile enemies;\n\n Does pretty much literally zero damage unless you’re willing to invest hard into him, which has very little return;\n\n Only works in a single team as of patch 1.4 (Jinhsi), where he is not the strongest option, incentivizing investment even less.\n\n Review\n Yuanwu is a free 4-star Electro Gauntlet Hybrid character whose main role is to provide buffs to the rest of your team with very low field time. His unique support abilities include a team-wide anti-interruption buff, which makes received enemy attacks not cancel your own, as well as the ability to deal extra Vibration Strength bar damage with his Outro, allowing you to stagger enemies, particularly bosses, and make them vulnerable in short amounts of time.\n Yuanwu’s skill, replaceable once every 3 seconds, is the core of his gameplay. Summoning a Thunder Wedge that creates a large circular area around itself, it generates Forte gauge for Yuanwu by launching Coordinated Attacks every 1.2 seconds to enemies who take damage within it. Dealing damage based on his DEF, it represents the most important part of his kit and lasts for 12 seconds.\n However, once Yuanwu’s Forte gauge is filled, which is going to be generated off-field by his Thunder Wedge’s coordinated attacks, he can use an enhanced skill that detonates the Thunder Wedge early, dealing a bigger burst of damage based on his DEF. He then enters a state where the rest of his own attacks are empowered. His Ultimate, which deals damage based on his DEF and gives his Forte’s enhanced state to the entire team, which in the case of his other teammates grants the Interruption Resistance buff. It also has the Thunder Wedge detonation effect, which greatly helps his generation of Concerto Energy.\n All things considered, this makes Yuanwu a character who wants to spend minimal time on the field due to his kit being pretty much exclusively centered around placing his Thunder Wedge down and leaving the field immediately. While he gets enhanced attacks from his Forte’s enhanced state, they end up having extremely subpar damage compared to the rest of the cast; all in all, in his single meta use case, you end up pretty much forfeiting this kit entirely.\n And now we enter into the main problem with Yuanwu and why he is a low-tier character: presenting subpar damage, and sporting literally no inherent damage buffs in his kit, he does not fill either of the two niches that are required to be a meta character, healing not being necessary due to dodging, healers simply being favoured due to their buffing potential.\n As a result, Yuanwu finds himself only one meta niche: being a stack generator for one of the best characters in the game, Jinhsi. Thankfully, he does have Coordinated Attacks that can have 100% uptime, meaning you can infinitely refresh his Thunder Wedge and have it always be ready to hit enemies. As currently the only character in the game that practically does so, he finds value in being the best Forte stack generator for Jinhsi, who capitalizes off of Coordinated Attacks, and finds himself usable sporting the Rejuvenating Glow Echo set and the 3 star weapon Originite: Type IV to allow him to heal himself and trigger the 15% team-wide attack buff the set provides. Only requiring him to add a single Basic Attack to his rotation and simply requiring him to place his Thunder Wedge down and ignore the rest of his kit entirely, he is completely effective to use in Jinhsi teams at level 1 with a 3 star weapon and level 0 echoes, allowing you to invest in your other characters without sacrificing close to any of the team’s damage ceiling.\n But let’s not forget that even in this role, he finds himself doing practically no damage and as a result contributes smaller amounts to the whole team’s damage than any option that does. Not to mention that he only has ONE team he properly works in, and requires a very specific build to work (albeit not being an expensive one, it requires you to build your support on a second supportive set, i.e Moonlit Clouds, which is awkward to do in itself).\n In summary, this makes Yuanwu usable in a single team, and not useful in many other places. But if you still wish to use him in this role, he is very much recommendable, as his simplistic gameplay makes him very easy to pick up for even the most casual of players.\n\n Video guides\n Yuanwu guide videos aren't available yet.\n\n Build\n\n Best Weapons\n The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n 101.32%\n\n Verity's Handle (R 1 )\n\n Xiangli Yao's signature and an ideal weapon for any Resonance Liberation based Gauntlet user. Grants a tremendous 24.3% CRIT RATE boost and 12% generic DMG% boost all permanently and on top of that also grants an incredibly convenient 48% Resonance Liberation DMG% lasting 8 seconds on use of the wearers Liberation. Due to the timing of when this buff activates, it is almost always up when you need it most and the duration can also be extended up to 3 times for 5 seconds each time whenever you use a resonance skill. This extends the total duration of this buff to a whopping 23 seconds.\n 100.00%\n\n Amity Accord (R 5 )\n\n Outstanding damage focused option for DEF-scaling damage dealers that deal a reasonable portion of their damage with their Resonance Liberation. Current best option for all DEF scalers.\n 93.03%\n\n Stonard (R 5 )\n\n Specialist Gauntlets for Resonance Liberation scaling users, thanks to its passive that grants increased Resonance Liberation DMG% after using a Resonance Skill. Still usable by characters who don't focus specifically on Liberation damage as a big part of their kit, thanks to the reasonably high base stats but more importantly CRIT RATE main stat.\n 90.36%\n\n Guardian Gauntlets (R 5 )\n\n Free to play accessible alternative for DEF-scaling damage dealers that make use of their Resonance Liberation as a damage dealing tool. A good alternative if you don't have Amity Accord.\n 86.70%\n\n Originite: Type IV (R 5 )\n\n Gauntlets with the unique function of adding healing to a characters kit causing their Basic Attacks to restore a small amount of health to themselves with a cooldown of 3 seconds. The Gauntlets have bad combat stats and the heal would otherwise be considered terrible for most content but it allows characters to activate the incredibly powerful 5P Rejuvenating Glow set which requires healing to buff. This weapon should only be equipped when aiming to use the set on a character who could not otherwise heal.\n 85.91%\n\n Gauntlets of Voyager (R 5 )\n\n An easily accessible supportive option with a reasonable amount of Energy Regen. It also grants the unique ability to gain a sizable chunk of raw Resonance Energy once every 20 seconds. For most character's rotations in teams, this bonus will be ready every time it's their turn to switch-in, making this weapon a great choice for any character who doesn't need damage but needs their Ultimate fast and has trouble accessing it otherwise. The flat energy gain is more powerful the less energy the character and team they are a part of can generate.\n 85.01%\n\n Abyss Surges (R 1 )\n\n One of the top Gauntlets options in game with the only competitors being 4★ Weapons with multiple dupes. Offers high base ATK, ATK%, a good amount of Energy Regen to save at least 1 sub-stat on gear to be reallocated to better uses and a conditional bonus boosting Resonance Skill damage and Basic Attacks that is very easy to satisfy.\n -\n\n Originite: Type IV (R 5 )\n\n If you're playing Yuanwu in the Support role, here is the Weapon you should use on him (so he can trigger the Rejuvenating Glow set):\nGauntlets with the unique function of adding healing to a characters kit causing their Basic Attacks to restore a small amount of health to themselves with a cooldown of 3 seconds. The Gauntlets have bad combat stats and the heal would otherwise be considered terrible for most content but it allows characters to activate the incredibly powerful 5P Rejuvenating Glow set which requires healing to buff. This weapon should only be equipped when aiming to use the set on a character who could not otherwise heal.\n\n Best Echo Sets\n Best Echo Sets\n 1\n\nRejuvenating Glow\n\n Offers a 10% unconditional Healing% boost and an most importantly a 15% ATK% boost for the entire team, lasting 30 seconds whenever you heal yourself or any of your allies. This bonus can be triggered by character abilities and weapon effects, is easy to keep active 100% of the time and is a big help for all party members.\n Below you can find Main Echo options:\n\n Fallacy of No Return\n\n - Grants 10% increased Energy Regeneration for the wearer and a team wide 10% ATK boost on use for 20 seconds. A strong option for those looking to generate as much energy as possible or who favor a more permanent party buffing effect compared to Bell-Borne Geochelone.\n\n Bell-Borne Geochelone\n\n - While nowadays a worse option for the Rejuvenating Glow set for damage than the Fallacy of No Return due to a shorter buff uptime, only granting 10% DMG Bonus for 15 seconds, the Bell-Borne Geochelone remains a good choice if you don't have a good Fallacy to use for the set. It also has increased survivability by blocking 50% of the damage from a max of 3 hits if you desire to have that in your team.\n\n 2\n\nMoonlit Clouds\n\n Offers a 10% unconditional Energy Regen% boost taking some pressure off your gear when aiming at ER breakpoints. Also upon using Outro, grants the next character switching in a 22.5% ATK boost, amplifying any of your main damage dealers burst windows.\n Below you can find Main Echo options:\n\n Impermanence Heron\n\n - Supportive Echo that can be run at the cost of a sizeable chunk of damage for the character who equips, trading personal gain for team benefits. Should always be used and immediately switch cancelled right before performing an Outro, leading to another DPS. When done so will grant the next character switching in 12% increased DMG% which when combined with the 5P Moonlit set which also grants 22.5% ATK% under the same conditions makes for a sizeable boost. While the echo does lower the damage of whoever wears it, it grants a massive chunk of energy on use usually saving 1 or sometimes even 2 Energy Regen sub stats that may otherwise be needed by the wearer allowing for some damage to be recovered.\n\n Special Echo Sets\n\nEmpyrean Anthem\n\n Offers an unconditional 10% Energy Regen% and 80% Coordinated DMG boost. Also grants a passive supportive effect which triggers when the wearer of this set critically strikes with a Coordinated attack - this effect grants the on field Resonator an ATK% boost regardless if they're the wearer of the set or not.\n Below you can find Main Echo options:\n\n Nightmare: Tempest Mephis\n\n - Offers an unconditional 12% Electro DMG and 12% Resonance Skill DMG boost when placed in the Main Echo slot, making it a solid choice for Electro focused resonators who emphasize Resonance Skill damage and are looking to use either the 5P Empyrean Anthem Echo or 5P Void Thunder set bonus.\n\n Best Echo Stats\n 4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Electro DMG\n\n 3 cost\n Electro DMG > DEF%\n\n 1 cost\n DEF%\n\n 1 cost\n DEF%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > DEF% > Flat DEF\n\n Best Endgame Stats (Level 90)\n All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n Keep in mind Yuanwu is a Support who deals very low personal damage, meaning investing in her damage is fully skippable. Energy Regen requirements are by far the most important stat shown.\n HP: 13000+\n\n DEF: 1800+\n\n ATK: 1200+\n\n CRIT Rate: 60%+\n\n CRIT DMG: 250%+\n\n Energy Regen: 100%\n Yuanwu’s optimal playstyle in a Jinhsi team does not involve his Resonance Liberation.\n\n Electro DMG Bonus: 30-60%+\n\n Skill Priority\n Below you can find the order of leveling the abilities for Yuanwu .\n Res. Liberation\n\n Res. Skill\n\n Forte Circuit\n\n Intro Skill\n\n Basic Attack\n\n Gameplay and teams\n\n Rotation\n Unlike most primary DPS and Hybrid dealers, Yuanwu features no set rotation when played and instead focuses on his Ultimate and Resonance Skill, which make up the majority of his endgame capabilities. While we have assigned him a “rotation” for the purpose of calculations, it is better to refer to the following list as things to watch out for during his gameplay instead:\n Building Yuanwu’s Forte Gauge as fast as possible should be your focus as it maximizes his damage potential and generates Concerto and Resonance Energy.\n\n While his Thunder Wedge (skill) is active, he gains Forte Gauge passively, and gains additional Forte each time he lands a coordinated attack (whether after an attack by himself or via ally) on an enemy in his Wedge radius. As such it is essential to keep his Wedge active at all times and within range of the currently targeted enemy to maximize Forte generation.\n\n Another benefit of keeping his Thunder Wedge active and in range of target enemy is that it emits a pulse of energy dealing small AoE damage upon completely filling his Forte.\n\n Using a charged skill on an enemy to expend filled Forte Gauge is by far, the easiest way to generate Concerto and Resonance Energy for him.\n\n Upon executing his Ultimate or Forte Gauge empowered skill, he explodes any active Thunder Wedges, thus making it important to ensure it’s presence on the target you are about to hit with either skill beforehand. (Thunder Wedge can be summoned back shortly to minimize downtime).\n\n Yuanwu’s Ultimate skill grants him Lightning-infused state grants him many effects, including Anti-Interruption which benefits other team members even after Swapping.\n\n Yuanwu’s Ultimate should be utilized as soon as it's available (preferably with detonation of a Wedge), unless it's being saved to assist an teammate with Anti-Interruption buff.\n\n Despite Lighting Infused state being an enhanced state, like many other characters possess, due to its low multipliers, it's not worth keeping Yuanwu on the field to utilize his Basic Attack combos.\n\n Ability Priority\n Echo\n\n Intro (If Available)\n\n Skill: Place Thunderwedge\n\n Ultimate (Detonates Thunderwedge)\n\n Skill: Forte: Rumbling Spark\n\n Skill: Place Thunderwedge\n\n Outro (If Available)\n\n Skill: Place Thunderwedge (As needed to keep active and on top of enemies)\n\n Synergies\n Jinhsi - Yuanwu's only meta use case is to work as a good budget option for Jinhsi teams, as he's free to acquire, takes minimal field time, can activate the Rejuvenating Glow set easily with the Originite: Type IV 3 star weapon, and has the highest Coordinated Attack frequency of any character in the game. The pairing isn't meta, but requires minimal investment to perform, and remains a good option.\n Verina - One of the usual Healing Support options that can slot into any team. Super easy to use, provides amazing team-wide ATK% buffs and 15% DMG Amplify with one of the fastest rotations in the game. Make sure to run her with Moonlit Clouds if you're using her along with Yuanwu, as she can trigger her Outro way more consistently & faster than he can every rotation!\n The Shorekeeper - Similar to Verina, a premium Healing Support option who can not only slot into any team, but also provide insane 12.5% Crit Rate, 25% Crit DMG, 25% ATK and 15% DMG Amplify buffs to your whole team. One of the best but also easy to use characters in the game. Make sure to run her with Moonlit Clouds if you're using her along with Yuanwu, as she can trigger her Outro way more consistently & faster than he can every rotation!\n Example Teams\n Best Team\n\n Make sure to run Yuanwu on Rejuvenating Glow and your third party member on Moonlit Clouds for optimal DPS!\n\n Calculations"
+}

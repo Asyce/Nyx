@@ -1,0 +1,1345 @@
+{
+  "id": "characters:sushang",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "sushang",
+  "name": "Sushang",
+  "title": "Sushang Best Build Guide",
+  "sourcePath": "/star-rail/characters/sushang",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "31/May/2026",
+  "meta": {
+    "title": "Sushang Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 4,
+    "element": "Physical",
+    "path": "Hunt"
+  },
+  "assets": [
+    {
+      "id": "257b48f16066",
+      "sourceHash": "257b48f16066",
+      "kind": "characters",
+      "name": "Sushang",
+      "fileStem": "sushang-card",
+      "path": "Prydwen/hsr/assets/characters/sushang-257b48f16066.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "dc6aec4a7776",
+      "sourceHash": "dc6aec4a7776",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "96654253a4f7",
+      "sourceHash": "96654253a4f7",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "a6be649090ba",
+      "sourceHash": "a6be649090ba",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "087f2dec68b6",
+      "sourceHash": "087f2dec68b6",
+      "kind": "icons",
+      "name": "Speed",
+      "fileStem": "stat-speed",
+      "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "50d0e755383a",
+      "sourceHash": "50d0e755383a",
+      "kind": "items",
+      "name": "Credit",
+      "fileStem": "credit",
+      "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "4b49275a9402",
+      "sourceHash": "4b49275a9402",
+      "kind": "items",
+      "name": "Artifex's Module",
+      "fileStem": "artifex-module",
+      "path": "Prydwen/hsr/assets/items/artifexs-module-4b49275a9402.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "c86f47a9e4e8",
+      "sourceHash": "c86f47a9e4e8",
+      "kind": "items",
+      "name": "Artifex's Cogwheel",
+      "fileStem": "artifex-cogwheel",
+      "path": "Prydwen/hsr/assets/items/artifexs-cogwheel-c86f47a9e4e8.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "6bfb1c4b9e13",
+      "sourceHash": "6bfb1c4b9e13",
+      "kind": "items",
+      "name": "Broken Teeth of Iron Wolf",
+      "fileStem": "broken-teeth-of-iron-wolf",
+      "path": "Prydwen/hsr/assets/items/broken-teeth-of-iron-wolf-6bfb1c4b9e13.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "a7a4c46218eb",
+      "sourceHash": "a7a4c46218eb",
+      "kind": "items",
+      "name": "Artifex's Gyreheart",
+      "fileStem": "artifex-gyreheart",
+      "path": "Prydwen/hsr/assets/items/artifexs-gyreheart-a7a4c46218eb.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "1f3fcfa90040",
+      "sourceHash": "1f3fcfa90040",
+      "kind": "characters",
+      "name": "Sushang",
+      "fileStem": "sushang-full",
+      "path": "Prydwen/hsr/assets/characters/sushang-1f3fcfa90040.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "44243fdf45aa",
+      "sourceHash": "44243fdf45aa",
+      "kind": "light-cones",
+      "name": "Sailing Towards A Second Life",
+      "fileStem": "sailing-towards-a-second-life",
+      "path": "Prydwen/hsr/assets/light-cones/sailing-towards-a-second-life-44243fdf45aa.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "ce8e5845b105",
+      "sourceHash": "ce8e5845b105",
+      "kind": "light-cones",
+      "name": "Swordplay",
+      "fileStem": "swordplay",
+      "path": "Prydwen/hsr/assets/light-cones/swordplay-ce8e5845b105.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "a3c50358a7f0",
+      "sourceHash": "a3c50358a7f0",
+      "kind": "light-cones",
+      "name": "Cruising in the Stellar Sea",
+      "fileStem": "cruising-in-the-stellar-sea",
+      "path": "Prydwen/hsr/assets/light-cones/cruising-in-the-stellar-sea-a3c50358a7f0.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "ffd8743e3f54",
+      "sourceHash": "ffd8743e3f54",
+      "kind": "light-cones",
+      "name": "Only Silence Remains",
+      "fileStem": "only-silence-remains",
+      "path": "Prydwen/hsr/assets/light-cones/only-silence-remains-ffd8743e3f54.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "a73e778a325a",
+      "sourceHash": "a73e778a325a",
+      "kind": "relics",
+      "name": "Champion of Streetwise Boxing",
+      "fileStem": "champion-of-streetwise-boxing",
+      "path": "Prydwen/hsr/assets/relics/champion-of-streetwise-boxing-a73e778a325a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "bd16ed7ff036",
+      "sourceHash": "bd16ed7ff036",
+      "kind": "relics",
+      "name": "Thief of Shooting Meteor",
+      "fileStem": "thief-of-shooting-meteor",
+      "path": "Prydwen/hsr/assets/relics/thief-of-shooting-meteor-bd16ed7ff036.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "706574c241bc",
+      "sourceHash": "706574c241bc",
+      "kind": "relics",
+      "name": "Watchmaker, Master of Dream Machinations",
+      "fileStem": "watchmaker-master-of-dream-machinations",
+      "path": "Prydwen/hsr/assets/relics/watchmaker-master-of-dream-machinations-706574c241bc.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "deeeca721276",
+      "sourceHash": "deeeca721276",
+      "kind": "relics",
+      "name": "Musketeer of Wild Wheat",
+      "fileStem": "musketeer-of-wild-wheat",
+      "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "507bb2127c32",
+      "sourceHash": "507bb2127c32",
+      "kind": "relics",
+      "name": "Prisoner in Deep Confinement",
+      "fileStem": "prisoner-in-deep-confinement",
+      "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "2d90f2919c5d",
+      "sourceHash": "2d90f2919c5d",
+      "kind": "relics",
+      "name": "The Wind-Soaring Valorous",
+      "fileStem": "the-wind-soaring-valorous",
+      "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "a8ea2dfcb1ee",
+      "sourceHash": "a8ea2dfcb1ee",
+      "kind": "relics",
+      "name": "Talia: Kingdom of Banditry",
+      "fileStem": "talia-kingdom-of-banditry",
+      "path": "Prydwen/hsr/assets/relics/talia-kingdom-of-banditry-a8ea2dfcb1ee.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "83a4c570a0a2",
+      "sourceHash": "83a4c570a0a2",
+      "kind": "relics",
+      "name": "Firmament Frontline: Glamoth",
+      "fileStem": "firmament-frontline-glamoth",
+      "path": "Prydwen/hsr/assets/relics/firmament-frontline-glamoth-83a4c570a0a2.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "3d18a5aaec4a",
+      "sourceHash": "3d18a5aaec4a",
+      "kind": "relics",
+      "name": "Space Sealing Station",
+      "fileStem": "space-sealing-station",
+      "path": "Prydwen/hsr/assets/relics/space-sealing-station-3d18a5aaec4a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "af5b8acc8f63",
+      "sourceHash": "af5b8acc8f63",
+      "kind": "icons",
+      "name": "CRIT Rate",
+      "fileStem": "stat-critrate",
+      "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "44c437b21b3a",
+      "sourceHash": "44c437b21b3a",
+      "kind": "icons",
+      "name": "CRIT DMG",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "6331eb666473",
+      "sourceHash": "6331eb666473",
+      "kind": "icons",
+      "name": "Physical DMG",
+      "fileStem": "stat-phydmg",
+      "path": "Prydwen/hsr/assets/icons/physical-dmg-6331eb666473.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "6890417bdf8b",
+      "sourceHash": "6890417bdf8b",
+      "kind": "icons",
+      "name": "Break Effect",
+      "fileStem": "stat-break",
+      "path": "Prydwen/hsr/assets/icons/break-effect-6890417bdf8b.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "444d6f5749b7",
+      "sourceHash": "444d6f5749b7",
+      "kind": "characters",
+      "name": "Tingyun • Fugue",
+      "fileStem": "tingyun-fugue-icon",
+      "path": "Prydwen/hsr/assets/characters/tingyun-fugue-444d6f5749b7.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "de41e1704266",
+      "sourceHash": "de41e1704266",
+      "kind": "characters",
+      "name": "Trailblazer • Harmony",
+      "fileStem": "trailblazer-harmony-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-harmony-de41e1704266.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "b77207bce6c8",
+      "sourceHash": "b77207bce6c8",
+      "kind": "characters",
+      "name": "Ruan Mei",
+      "fileStem": "ruan-mei-icon",
+      "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "7eec89c1a7e2",
+      "sourceHash": "7eec89c1a7e2",
+      "kind": "characters",
+      "name": "Silver Wolf",
+      "fileStem": "silver-wolf-icon",
+      "path": "Prydwen/hsr/assets/characters/silver-wolf-7eec89c1a7e2.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "5e2bc8197f82",
+      "sourceHash": "5e2bc8197f82",
+      "kind": "characters",
+      "name": "Sushang",
+      "fileStem": "sushang-icon",
+      "path": "Prydwen/hsr/assets/characters/sushang-5e2bc8197f82.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e0db16ed6c66",
+      "sourceHash": "e0db16ed6c66",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "ele-physical",
+      "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "92feb26d8f0e",
+      "sourceHash": "92feb26d8f0e",
+      "kind": "icons",
+      "name": "Fire",
+      "fileStem": "ele-fire",
+      "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "cec6f11ca61e",
+      "sourceHash": "cec6f11ca61e",
+      "kind": "characters",
+      "name": "The Dahlia",
+      "fileStem": "the-dahlia-icon",
+      "path": "Prydwen/hsr/assets/characters/the-dahlia-cec6f11ca61e.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ab0724067e0c",
+      "sourceHash": "ab0724067e0c",
+      "kind": "characters",
+      "name": "Lingsha",
+      "fileStem": "lingsha-icon",
+      "path": "Prydwen/hsr/assets/characters/lingsha-ab0724067e0c.webp",
+      "width": 60,
+      "height": 60
+    }
+  ],
+  "sections": [
+    {
+      "id": "sushang-best-build-guide-0",
+      "level": 1,
+      "heading": "Sushang Best Build Guide",
+      "text": "Last updated: 31/May/2026",
+      "assets": [
+        {
+          "id": "257b48f16066",
+          "sourceHash": "257b48f16066",
+          "kind": "characters",
+          "name": "Sushang",
+          "fileStem": "sushang-card",
+          "path": "Prydwen/hsr/assets/characters/sushang-257b48f16066.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Sushang from HSR (Honkai: Star Rail). Sushang is a 4 ★ character from the Physical element who follows the Path of Hunt .\n A naive and enthusiastic newcomer to the Cloud Knights who wields a greatsword. She yearns for the historic legends of the Cloud Knights, and is eager to become such a legendary figure herself. As such, Sushang firmly believes in the philosophies \"be eager to help those in need,\" \"do one good deed a day and reflect on oneself three times a day,\" leading her to busy days full of helping others.\n\n To learn more about Sushang check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "This character has no video guide yet.",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 2.6\n\n Last major build/calcs update\n Patch 4.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Sushang check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic ATK\n Cloudfencer Art: Starshine\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Physical DMG equal to #1[i]% of Sushang's ATK to a single enemy.\n\n Skill\n Cloudfencer Art: Mountainfall\n Single Target\n\n Lv. 1\n\n Energy gain: 30\n Break: 20\n\n Deals Physical DMG equal to #1[i]% of Sushang's ATK to a single enemy. In addition, there is a #3[i]% chance to trigger Sword Stance on the final hit, dealing Additional Physical DMG equal to #2[i]% of Sushang's ATK to the enemy.\nIf the enemy is inflicted with Weakness Break, Sword Stance is guaranteed to trigger.\n\n Ultimate\n Shape of Taixu: Dawn Herald\n Single Target | 120 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 30\n\n Deals Physical DMG equal to #1[i]% of Sushang's ATK to a single enemy target, and she immediately takes action again. In addition, Sushang's ATK increases by #4[i]% and using her Skill has 2 extra chances to trigger Sword Stance for #2[i] turn(s).\nSword Stance triggered from the extra chances deals #3[i]% of the original DMG.\n\n Talent\n Dancing Blade\n Enhance\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n When an enemy has their Weakness Broken on the field, Sushang's SPD increases by #1[i]% for #2[i] turn(s).\n\n Technique\n Cloudfencer Art: Warcry\n\n Energy gain: 0\n Break: 20\n\n Immediately attacks the enemy. Upon entering battle, Sushang deals Physical DMG equal to #1[i]% of her ATK to all enemies.",
+      "assets": []
+    },
+    {
+      "id": "major-traces-10",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "A2 Major trace\n Guileless\n\n When current HP percentage is 50% or lower, reduces the chance of being attacked by enemies.\n\n A4 Major trace\n Riposte\n\n For every Sword Stance triggered, the DMG dealt by Sword Stance increases by 2.5% . Stacks up to 10 time(s).\n\n A6 Major trace\n Vanquisher\n\n After using Basic ATK or Skill, if there are enemies on the field with Weakness Break, Sushang's action is Advanced Forward by 15% .",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-11",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "ATK\n + 28%\n\n HP\n + 18%\n\n DEF\n + 12.5%",
+      "assets": [
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "eidolons-12",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "E 1\n Cut With Ease\n Eidolon 1\n\n After using Skill against a Weakness Broken enemy, regenerates 1 Skill Point.\n\n E 2\n Refine in Toil\n Eidolon 2\n\n After triggering Sword Stance, the DMG taken by Sushang is reduced by 20% for 1 turn.\n\n E 3\n Rise From Fame\n Eidolon 3\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15 . Talent Lv. +2 , up to a maximum of Lv. 15 .\n\n E 4\n Cleave With Heart\n Eidolon 4\n\n Sushang's Break Effect increases by 40% .\n\n E 5\n Prevail via Taixu\n Eidolon 5\n\n Skill Lv. +2 , up to a maximum of Lv. 15 . Basic ATK Lv. +1 , up to a maximum of Lv. 10 .\n\n E 6\n Dwell Like Water\n Eidolon 6\n\n Talent's SPD Boost is stackable and can stack up to 2 times. Additionally, after entering battle, Sushang immediately gains 1 stack of her Talent's SPD Boost.",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-13",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Enable Ascension",
+      "assets": []
+    },
+    {
+      "id": "level-80-stats-14",
+      "level": 5,
+      "heading": "Level 80 stats",
+      "text": "HP\n\n 917\n\n ATK\n\n 564\n\n DEF\n\n 418\n\n Speed\n\n 107",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "level-1-80-ascension-materials-15",
+      "level": 5,
+      "heading": "Level 1 → 80 Ascension Materials",
+      "text": "Credit\n\n x 246400\n\n Artifex's Module\n\n x 12\n\n Artifex's Cogwheel\n\n x 13\n\n Broken Teeth of Iron Wolf\n\n x 50\n\n Artifex's Gyreheart\n\n x 12",
+      "assets": [
+        {
+          "id": "50d0e755383a",
+          "sourceHash": "50d0e755383a",
+          "kind": "items",
+          "name": "Credit",
+          "fileStem": "credit",
+          "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "4b49275a9402",
+          "sourceHash": "4b49275a9402",
+          "kind": "items",
+          "name": "Artifex's Module",
+          "fileStem": "artifex-module",
+          "path": "Prydwen/hsr/assets/items/artifexs-module-4b49275a9402.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "c86f47a9e4e8",
+          "sourceHash": "c86f47a9e4e8",
+          "kind": "items",
+          "name": "Artifex's Cogwheel",
+          "fileStem": "artifex-cogwheel",
+          "path": "Prydwen/hsr/assets/items/artifexs-cogwheel-c86f47a9e4e8.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "6bfb1c4b9e13",
+          "sourceHash": "6bfb1c4b9e13",
+          "kind": "items",
+          "name": "Broken Teeth of Iron Wolf",
+          "fileStem": "broken-teeth-of-iron-wolf",
+          "path": "Prydwen/hsr/assets/items/broken-teeth-of-iron-wolf-6bfb1c4b9e13.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "a7a4c46218eb",
+          "sourceHash": "a7a4c46218eb",
+          "kind": "items",
+          "name": "Artifex's Gyreheart",
+          "fileStem": "artifex-gyreheart",
+          "path": "Prydwen/hsr/assets/items/artifexs-gyreheart-a7a4c46218eb.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "cv-16",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n Anjali Kunapanen\n\n JPN\n Fukuen Misato (福圓美里)\n\n CN\n Chen Tingting (陈婷婷)\n\n KR\n Park Si-yoon (박시윤)",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "1f3fcfa90040",
+          "sourceHash": "1f3fcfa90040",
+          "kind": "characters",
+          "name": "Sushang",
+          "fileStem": "sushang-full",
+          "path": "Prydwen/hsr/assets/characters/sushang-1f3fcfa90040.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Oppressive rush-down when facing Broken enemies,\n\n Deceptively speedy character,\n\n High base Ability multipliers,\n\n Scales well with Eidolons.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Damage and speed falter if enemies are not being Broken frequently,\n\n Purely single-target,\n\n Subject to RNG if enemies are not Broken,\n\n Potentially SP hungry without Eidolons.",
+      "assets": []
+    },
+    {
+      "id": "review-by-sushou-21",
+      "level": 2,
+      "heading": "Review (By Sushou)",
+      "text": "Sushang is a competent single-target damage dealer with a focus on attacking Broken enemies and having Weakness Broken enemies on the field. She is able to fully Action Advance herself with her Ultimate and excels at putting on the pressure against Broken enemies. Both her damage potential and speed rely on having enemies in this state, so it is important to facilitate this with her teammates.\n Sushang’s Skill deals up to 210% ATK to a single enemy and has a 33% fixed chance to trigger Sword Stance on the final hit, dealing an additional 100% ATK. This bonus damage is guaranteed on Broken enemies. This is already a strong start with her Skill dealing potentially 310% ATK with nothing else. Sushang’s Ultimate deals 320% ATK to a single enemy and immediately Advances her forward by 100%, meaning it is her turn now. She also gets a 30% ATK increase for 2 turns, and her Skill has 2 extra chances at triggering Sword Stance, with the extra procs being at 50% of the original damage.\n This means that Sushang’s Ultimate boosts her Skill significantly. The extra ATK aside, having 2 extra procs of Sword Stance at 50% means she’s essentially getting a full power bonus hit, meaning that if all 3 Sword Stances activate, Sushang’s Skill is doing 410% ATK to a single enemy. Once again, keep in mind that against a Broken enemy Sword Stance is guaranteed to proc, including the bonus ones from her Ultimate. With the Ultimate having an average Energy cost of 120, this will be up fairly often. The addition of having a 100% Action Advance inherent to the Ultimate is also very powerful as you can make Sushang take back-to-back turns, maximising the damage you can deal against Broken foe.\n Sushang’s Talent gives her a 20% SPD boost for 2 turns when an enemy on the field has their Weakness Broken. Sushang’s base SPD is above average but a little on the lower end for Hunt units at 107, meaning her Talent will be granting her just about 21 SPD. This is still a pretty substantial increase to SPD and can possibly allow for her to run ATK Boots without worrying about SPD too much.\n Now, let’s talk about the obvious issue with this kit; it has far too much reliance on having enemies be Broken. Pretty much all of what Sushang has to offer is contingent on that one big asterisk. Depending on what you’re against, this may not be too much of a challenge, but even against simple Elites, the frequency at which you will be Breaking enemies will drop dramatically, especially if the Elite is not a summoner type. Boss enemies have even greater Toughness bars meaning it can take even longer to Break them.\n This may naturally incentivize the player to build for more Break Effect on Sushang, and the issue with that is that you kinda… can’t, really. Let me elaborate by way of a comparison; Xueyi is a Break unit that directly benefits from building Break Effect thanks to a passive that grants an equivalent amount of DMG%, and even she can’t afford to go all out on Break Effect because of diminishing returns and the desire for CRIT stats. Now imagine that but without the DMG conversion passive and exclusively single-target, and you’ve got Sushang. Yeah… it’s not ideal, especially since Xueyi also benefits from merely dealing Toughness Damage, while Sushang only gets her benefits upon an enemy getting fully Broken.\n Sushang is a very momentum-driven character; she thrives when enemies are Broken, and the goal is to make the most out of those situations before they recover. This is especially amplified by Sushang’s A6 Bonus Ability Trace, which Action Advances her forward by 15% after using a Basic ATK or Skill if there’s even a single Broken enemy on the field. This makes Sushang a deceptively speedy character, and both accentuates and exacerbates all of the aforementioned things in her kit. A2 also gives some nice DMG to Sword Stance every time it’s triggered, and A4 exists.\n With Eidolons, Sushang becomes noticeably stronger. E1 will refund a Skill Point when using Skill against a Broken enemy, leading to never needing to worry about SP when attacking them. E2 will reduce Sushang’s DMG taken by 20% after a Sword Stance is triggered for 1 turn, offering a nice and fairly significant reduction in damage taken. E4 grants Sushang a permanent plus 40% Break Effect which helps in dealing more damage when she is the one Breaking, and finally E6 allows the Talent’s SPD boost to stack up to 2 times, also granting her one stack immediately upon entering combat. This means Sushang can gain almost 43 SPD from just her Talent alone, meaning she almost becomes a mini Seele in terms of raw Actions taken.\n Ah, but what’s this? A comparison to Seele? Yeah don’t get excited, when I say it’s only in terms of raw Actions taken, I mean it explicitly. What Seele is is an anomaly when it comes to Hunt units because she actually gets better with more enemies around. Sushang, unfortunately, falls into the same category as ‘every other Hunt unit’. Without sufficient help from supports or potentially even a second damage dealer, Sushang will absolutely hate going against multiple opponents. Add in the need for enemies to Broken and you now have a unit virtually glued at the hip to Ruan Mei, and even then it may still not be enough on its own if the enemy isn’t also weak to Ice.\n The ramp-up to dealing damage can be excruciatingly long, and with how fast enemies become in the endgame, the window of opportunity to actually deal said damage is exceptionally short, so it’s no surprise that units that simply don’t have that limitation are typically far stronger than Sushang at much less effort — after all, who cares if the enemy is Broken if they’re already dead?\n Seriously, it gets almost annoying to have everything lined up perfectly with supports only to go in and hit numbers that make you rethink your life choice s. On my way to call the police and report a goddamned robbery. Sushang may be fast but she doesn’t have anything else in her kit to boost her damage. The need for CRIT stats and ATK while also baiting people into building Break Effect can make for some of the most botched builds in the game; some of the worst builds I’ve ever seen have all been on Sushang.\n Having said that, I return to what I said at the very beginning. With Ruan Mei and Harmony MC existing, break-focused builds and units have new life breathed into them. Sushang is still a competent character in her own right, and someone players are likely to have access to. Especially if you are lacking coverage for Physical enemies and don’t have the likes of Argenti, Clara, Yunli, or even Luka, then Sushang should be someone you consider building.",
+      "assets": []
+    },
+    {
+      "id": "ratings-22",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.",
+      "assets": []
+    },
+    {
+      "id": "eidolon-0-24",
+      "level": 5,
+      "heading": "Eidolon 0",
+      "text": "T5\n MoC\n\n T5\n PF\n\n T5\n AS",
+      "assets": []
+    },
+    {
+      "id": "eidolon-6-25",
+      "level": 5,
+      "heading": "Eidolon 6",
+      "text": "T5\n MoC\n\n T5\n PF\n\n T5\n AS\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "best-light-cones-27",
+      "level": 2,
+      "heading": "Best Light Cones",
+      "text": "109.04%\n\n Sailing Towards A Second Life (S 1 )\n\n Sushang's best in slot Light Cone.\n Usage: 50 %\n MoC: -\n PF: 0\n AS: 0\n\n 100%\n\n Swordplay (S 5 )\n\n Assumes full access to all 5 stacks throughout the entire duration of the fight. In fights where target swapping is required this Cone performance can be reduced substantially.\n\n 96.12%\n\n Cruising in the Stellar Sea (S 5 )\n\n 95.37%\n\n Only Silence Remains (S 5 )",
+      "assets": [
+        {
+          "id": "44243fdf45aa",
+          "sourceHash": "44243fdf45aa",
+          "kind": "light-cones",
+          "name": "Sailing Towards A Second Life",
+          "fileStem": "sailing-towards-a-second-life",
+          "path": "Prydwen/hsr/assets/light-cones/sailing-towards-a-second-life-44243fdf45aa.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "ce8e5845b105",
+          "sourceHash": "ce8e5845b105",
+          "kind": "light-cones",
+          "name": "Swordplay",
+          "fileStem": "swordplay",
+          "path": "Prydwen/hsr/assets/light-cones/swordplay-ce8e5845b105.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "a3c50358a7f0",
+          "sourceHash": "a3c50358a7f0",
+          "kind": "light-cones",
+          "name": "Cruising in the Stellar Sea",
+          "fileStem": "cruising-in-the-stellar-sea",
+          "path": "Prydwen/hsr/assets/light-cones/cruising-in-the-stellar-sea-a3c50358a7f0.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "ffd8743e3f54",
+          "sourceHash": "ffd8743e3f54",
+          "kind": "light-cones",
+          "name": "Only Silence Remains",
+          "fileStem": "only-silence-remains",
+          "path": "Prydwen/hsr/assets/light-cones/only-silence-remains-ffd8743e3f54.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-relic-sets-29",
+      "level": 2,
+      "heading": "Best Relic Sets",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n Champion of Streetwise Boxing ( 4 -PC)\n\n 96.50%\n\n Thief of Shooting Meteor ( 4 -PC)\n\n 96.42%\n\n Thief of Shooting Meteor ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Watchmaker, Master of Dream Machinations\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous",
+      "assets": [
+        {
+          "id": "a73e778a325a",
+          "sourceHash": "a73e778a325a",
+          "kind": "relics",
+          "name": "Champion of Streetwise Boxing",
+          "fileStem": "champion-of-streetwise-boxing",
+          "path": "Prydwen/hsr/assets/relics/champion-of-streetwise-boxing-a73e778a325a.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "bd16ed7ff036",
+          "sourceHash": "bd16ed7ff036",
+          "kind": "relics",
+          "name": "Thief of Shooting Meteor",
+          "fileStem": "thief-of-shooting-meteor",
+          "path": "Prydwen/hsr/assets/relics/thief-of-shooting-meteor-bd16ed7ff036.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "706574c241bc",
+          "sourceHash": "706574c241bc",
+          "kind": "relics",
+          "name": "Watchmaker, Master of Dream Machinations",
+          "fileStem": "watchmaker-master-of-dream-machinations",
+          "path": "Prydwen/hsr/assets/relics/watchmaker-master-of-dream-machinations-706574c241bc.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "deeeca721276",
+          "sourceHash": "deeeca721276",
+          "kind": "relics",
+          "name": "Musketeer of Wild Wheat",
+          "fileStem": "musketeer-of-wild-wheat",
+          "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "507bb2127c32",
+          "sourceHash": "507bb2127c32",
+          "kind": "relics",
+          "name": "Prisoner in Deep Confinement",
+          "fileStem": "prisoner-in-deep-confinement",
+          "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "2d90f2919c5d",
+          "sourceHash": "2d90f2919c5d",
+          "kind": "relics",
+          "name": "The Wind-Soaring Valorous",
+          "fileStem": "the-wind-soaring-valorous",
+          "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-planetary-sets-30",
+      "level": 6,
+      "heading": "Best Planetary Sets",
+      "text": "100%\n\n Talia: Kingdom of Banditry ( 2 -PC)\n\n Usage: 50 %\n MoC: -\n PF: 0\n AS: 0\n\n 98.10%\n\n Firmament Frontline: Glamoth ( 2 -PC)\n\n 135 Speed\n 98.09%\n\n Space Sealing Station ( 2 -PC)",
+      "assets": [
+        {
+          "id": "a8ea2dfcb1ee",
+          "sourceHash": "a8ea2dfcb1ee",
+          "kind": "relics",
+          "name": "Talia: Kingdom of Banditry",
+          "fileStem": "talia-kingdom-of-banditry",
+          "path": "Prydwen/hsr/assets/relics/talia-kingdom-of-banditry-a8ea2dfcb1ee.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "83a4c570a0a2",
+          "sourceHash": "83a4c570a0a2",
+          "kind": "relics",
+          "name": "Firmament Frontline: Glamoth",
+          "fileStem": "firmament-frontline-glamoth",
+          "path": "Prydwen/hsr/assets/relics/firmament-frontline-glamoth-83a4c570a0a2.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "3d18a5aaec4a",
+          "sourceHash": "3d18a5aaec4a",
+          "kind": "relics",
+          "name": "Space Sealing Station",
+          "fileStem": "space-sealing-station",
+          "path": "Prydwen/hsr/assets/relics/space-sealing-station-3d18a5aaec4a.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-stats-32",
+      "level": 2,
+      "heading": "Best Stats",
+      "text": "Body\n CRIT Rate\n >= CRIT DMG\n\n Feet\n Speed\n >= ATK%\n\n Planar Sphere\n Physical DMG\n >= ATK%\n\n Link Rope\n Break Effect\n > ATK%\n\n Substats: SPD (breakpoint) > BREAK EFFECT% (If Break Build) >= CRIT RATE = CRIT DMG > ATK%",
+      "assets": [
+        {
+          "id": "af5b8acc8f63",
+          "sourceHash": "af5b8acc8f63",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-critrate",
+          "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "44c437b21b3a",
+          "sourceHash": "44c437b21b3a",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "6331eb666473",
+          "sourceHash": "6331eb666473",
+          "kind": "icons",
+          "name": "Physical DMG",
+          "fileStem": "stat-phydmg",
+          "path": "Prydwen/hsr/assets/icons/physical-dmg-6331eb666473.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "6890417bdf8b",
+          "sourceHash": "6890417bdf8b",
+          "kind": "icons",
+          "name": "Break Effect",
+          "fileStem": "stat-break",
+          "path": "Prydwen/hsr/assets/icons/break-effect-6890417bdf8b.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "recommended-endgame-stats-33",
+      "level": 2,
+      "heading": "Recommended endgame stats",
+      "text": "HP: 3000+\n\n DEF: 800 - 1000+\n\n ATK: 1900 - 2700+\n\n CRIT RATE: 60% - 70%+\n\n CRIT DMG: 120% - 140%+\n\n SPD: Base Speed (H yperspeed Sparkle/Bronya) / 134 (Recommended) / 143 / 160\n\n BREAK EFFECT: 0% - 120%+",
+      "assets": []
+    },
+    {
+      "id": "traces-priority-34",
+      "level": 2,
+      "heading": "Traces priority",
+      "text": "Skills priority: Skill > Ultimate > Talent > Basic\n\n Major Traces priority: Riposte > Vanquisher > Guileless",
+      "assets": []
+    },
+    {
+      "id": "synergy-35",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Tingyun • Fugue - Tingyun • Fugue is a great partner for Sushang - much better than HMC - as Exo-Toughness helps a lot in improving her performance,\n Trailblazer • Harmony - Trailblazer • Harmony has allowed Sushang to be back to her glory days thanks to Super Break. Being able to be built full crit DPS or as a Hybrid, Harmony Trailblazer takes care of the awkwardness of when enemies are Broken and still provides a reason to invest in Break effect.\n Ruan Mei - Ruan Mei delay on enemies recovering from the Broken status allows Sushang to get a few more hits in while the enemies are Broken, which allows Sushang’s E1 to refund her Skill Points making it technically free. Not to mention the Weakness Break efficiency synergy.\n Silver Wolf - Silver Wolf allows Sushang to always hit Physical Weak enemies and always have a way to put enemies into the Broken state.",
+      "assets": [
+        {
+          "id": "444d6f5749b7",
+          "sourceHash": "444d6f5749b7",
+          "kind": "characters",
+          "name": "Tingyun • Fugue",
+          "fileStem": "tingyun-fugue-icon",
+          "path": "Prydwen/hsr/assets/characters/tingyun-fugue-444d6f5749b7.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "de41e1704266",
+          "sourceHash": "de41e1704266",
+          "kind": "characters",
+          "name": "Trailblazer • Harmony",
+          "fileStem": "trailblazer-harmony-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-harmony-de41e1704266.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "b77207bce6c8",
+          "sourceHash": "b77207bce6c8",
+          "kind": "characters",
+          "name": "Ruan Mei",
+          "fileStem": "ruan-mei-icon",
+          "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "7eec89c1a7e2",
+          "sourceHash": "7eec89c1a7e2",
+          "kind": "characters",
+          "name": "Silver Wolf",
+          "fileStem": "silver-wolf-icon",
+          "path": "Prydwen/hsr/assets/characters/silver-wolf-7eec89c1a7e2.webp",
+          "width": 45,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "id": "anomaly-arbitration-40",
+      "level": 6,
+      "heading": "Anomaly Arbitration",
+      "text": "Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 3\n\n MoC/PF/AS Statistics",
+      "assets": [
+        {
+          "id": "5e2bc8197f82",
+          "sourceHash": "5e2bc8197f82",
+          "kind": "characters",
+          "name": "Sushang",
+          "fileStem": "sushang-icon",
+          "path": "Prydwen/hsr/assets/characters/sushang-5e2bc8197f82.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0db16ed6c66",
+          "sourceHash": "e0db16ed6c66",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "ele-physical",
+          "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "444d6f5749b7",
+          "sourceHash": "444d6f5749b7",
+          "kind": "characters",
+          "name": "Tingyun • Fugue",
+          "fileStem": "tingyun-fugue-icon",
+          "path": "Prydwen/hsr/assets/characters/tingyun-fugue-444d6f5749b7.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "92feb26d8f0e",
+          "sourceHash": "92feb26d8f0e",
+          "kind": "icons",
+          "name": "Fire",
+          "fileStem": "ele-fire",
+          "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "cec6f11ca61e",
+          "sourceHash": "cec6f11ca61e",
+          "kind": "characters",
+          "name": "The Dahlia",
+          "fileStem": "the-dahlia-icon",
+          "path": "Prydwen/hsr/assets/characters/the-dahlia-cec6f11ca61e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ab0724067e0c",
+          "sourceHash": "ab0724067e0c",
+          "kind": "characters",
+          "name": "Lingsha",
+          "fileStem": "lingsha-icon",
+          "path": "Prydwen/hsr/assets/characters/lingsha-ab0724067e0c.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "best-light-cones": {
+      "label": "Best Light Cones",
+      "sections": [
+        {
+          "heading": "Best Light Cones",
+          "text": "109.04%\n\n Sailing Towards A Second Life (S 1 )\n\n Sushang's best in slot Light Cone.\n Usage: 50 %\n MoC: -\n PF: 0\n AS: 0\n\n 100%\n\n Swordplay (S 5 )\n\n Assumes full access to all 5 stacks throughout the entire duration of the fight. In fights where target swapping is required this Cone performance can be reduced substantially.\n\n 96.12%\n\n Cruising in the Stellar Sea (S 5 )\n\n 95.37%\n\n Only Silence Remains (S 5 )",
+          "assets": [
+            {
+              "id": "44243fdf45aa",
+              "sourceHash": "44243fdf45aa",
+              "kind": "light-cones",
+              "name": "Sailing Towards A Second Life",
+              "fileStem": "sailing-towards-a-second-life",
+              "path": "Prydwen/hsr/assets/light-cones/sailing-towards-a-second-life-44243fdf45aa.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "ce8e5845b105",
+              "sourceHash": "ce8e5845b105",
+              "kind": "light-cones",
+              "name": "Swordplay",
+              "fileStem": "swordplay",
+              "path": "Prydwen/hsr/assets/light-cones/swordplay-ce8e5845b105.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "a3c50358a7f0",
+              "sourceHash": "a3c50358a7f0",
+              "kind": "light-cones",
+              "name": "Cruising in the Stellar Sea",
+              "fileStem": "cruising-in-the-stellar-sea",
+              "path": "Prydwen/hsr/assets/light-cones/cruising-in-the-stellar-sea-a3c50358a7f0.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "ffd8743e3f54",
+              "sourceHash": "ffd8743e3f54",
+              "kind": "light-cones",
+              "name": "Only Silence Remains",
+              "fileStem": "only-silence-remains",
+              "path": "Prydwen/hsr/assets/light-cones/only-silence-remains-ffd8743e3f54.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-relic-sets": {
+      "label": "Best Relic Sets",
+      "sections": [
+        {
+          "heading": "Best Relic Sets",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n Champion of Streetwise Boxing ( 4 -PC)\n\n 96.50%\n\n Thief of Shooting Meteor ( 4 -PC)\n\n 96.42%\n\n Thief of Shooting Meteor ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Watchmaker, Master of Dream Machinations\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous",
+          "assets": [
+            {
+              "id": "a73e778a325a",
+              "sourceHash": "a73e778a325a",
+              "kind": "relics",
+              "name": "Champion of Streetwise Boxing",
+              "fileStem": "champion-of-streetwise-boxing",
+              "path": "Prydwen/hsr/assets/relics/champion-of-streetwise-boxing-a73e778a325a.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "bd16ed7ff036",
+              "sourceHash": "bd16ed7ff036",
+              "kind": "relics",
+              "name": "Thief of Shooting Meteor",
+              "fileStem": "thief-of-shooting-meteor",
+              "path": "Prydwen/hsr/assets/relics/thief-of-shooting-meteor-bd16ed7ff036.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "706574c241bc",
+              "sourceHash": "706574c241bc",
+              "kind": "relics",
+              "name": "Watchmaker, Master of Dream Machinations",
+              "fileStem": "watchmaker-master-of-dream-machinations",
+              "path": "Prydwen/hsr/assets/relics/watchmaker-master-of-dream-machinations-706574c241bc.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "deeeca721276",
+              "sourceHash": "deeeca721276",
+              "kind": "relics",
+              "name": "Musketeer of Wild Wheat",
+              "fileStem": "musketeer-of-wild-wheat",
+              "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "507bb2127c32",
+              "sourceHash": "507bb2127c32",
+              "kind": "relics",
+              "name": "Prisoner in Deep Confinement",
+              "fileStem": "prisoner-in-deep-confinement",
+              "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "2d90f2919c5d",
+              "sourceHash": "2d90f2919c5d",
+              "kind": "relics",
+              "name": "The Wind-Soaring Valorous",
+              "fileStem": "the-wind-soaring-valorous",
+              "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-planetary-sets": {
+      "label": "Best Planetary Sets",
+      "sections": [
+        {
+          "heading": "Best Planetary Sets",
+          "text": "100%\n\n Talia: Kingdom of Banditry ( 2 -PC)\n\n Usage: 50 %\n MoC: -\n PF: 0\n AS: 0\n\n 98.10%\n\n Firmament Frontline: Glamoth ( 2 -PC)\n\n 135 Speed\n 98.09%\n\n Space Sealing Station ( 2 -PC)",
+          "assets": [
+            {
+              "id": "a8ea2dfcb1ee",
+              "sourceHash": "a8ea2dfcb1ee",
+              "kind": "relics",
+              "name": "Talia: Kingdom of Banditry",
+              "fileStem": "talia-kingdom-of-banditry",
+              "path": "Prydwen/hsr/assets/relics/talia-kingdom-of-banditry-a8ea2dfcb1ee.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "83a4c570a0a2",
+              "sourceHash": "83a4c570a0a2",
+              "kind": "relics",
+              "name": "Firmament Frontline: Glamoth",
+              "fileStem": "firmament-frontline-glamoth",
+              "path": "Prydwen/hsr/assets/relics/firmament-frontline-glamoth-83a4c570a0a2.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "3d18a5aaec4a",
+              "sourceHash": "3d18a5aaec4a",
+              "kind": "relics",
+              "name": "Space Sealing Station",
+              "fileStem": "space-sealing-station",
+              "path": "Prydwen/hsr/assets/relics/space-sealing-station-3d18a5aaec4a.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-stats": {
+      "label": "Best Stats",
+      "sections": [
+        {
+          "heading": "Best Stats",
+          "text": "Body\n CRIT Rate\n >= CRIT DMG\n\n Feet\n Speed\n >= ATK%\n\n Planar Sphere\n Physical DMG\n >= ATK%\n\n Link Rope\n Break Effect\n > ATK%\n\n Substats: SPD (breakpoint) > BREAK EFFECT% (If Break Build) >= CRIT RATE = CRIT DMG > ATK%",
+          "assets": [
+            {
+              "id": "af5b8acc8f63",
+              "sourceHash": "af5b8acc8f63",
+              "kind": "icons",
+              "name": "CRIT Rate",
+              "fileStem": "stat-critrate",
+              "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "44c437b21b3a",
+              "sourceHash": "44c437b21b3a",
+              "kind": "icons",
+              "name": "CRIT DMG",
+              "fileStem": "stat-critdmg",
+              "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "087f2dec68b6",
+              "sourceHash": "087f2dec68b6",
+              "kind": "icons",
+              "name": "Speed",
+              "fileStem": "stat-speed",
+              "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "dc6aec4a7776",
+              "sourceHash": "dc6aec4a7776",
+              "kind": "icons",
+              "name": "ATK",
+              "fileStem": "stat-atk",
+              "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "6331eb666473",
+              "sourceHash": "6331eb666473",
+              "kind": "icons",
+              "name": "Physical DMG",
+              "fileStem": "stat-phydmg",
+              "path": "Prydwen/hsr/assets/icons/physical-dmg-6331eb666473.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "6890417bdf8b",
+              "sourceHash": "6890417bdf8b",
+              "kind": "icons",
+              "name": "Break Effect",
+              "fileStem": "stat-break",
+              "path": "Prydwen/hsr/assets/icons/break-effect-6890417bdf8b.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        }
+      ]
+    },
+    "recommended-endgame-stats": {
+      "label": "Recommended endgame stats",
+      "sections": [
+        {
+          "heading": "Recommended endgame stats",
+          "text": "HP: 3000+\n\n DEF: 800 - 1000+\n\n ATK: 1900 - 2700+\n\n CRIT RATE: 60% - 70%+\n\n CRIT DMG: 120% - 140%+\n\n SPD: Base Speed (H yperspeed Sparkle/Bronya) / 134 (Recommended) / 143 / 160\n\n BREAK EFFECT: 0% - 120%+",
+          "assets": []
+        }
+      ]
+    },
+    "traces-priority": {
+      "label": "Traces priority",
+      "sections": [
+        {
+          "heading": "Traces priority",
+          "text": "Skills priority: Skill > Ultimate > Talent > Basic\n\n Major Traces priority: Riposte > Vanquisher > Guileless",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Tingyun • Fugue - Tingyun • Fugue is a great partner for Sushang - much better than HMC - as Exo-Toughness helps a lot in improving her performance,\n Trailblazer • Harmony - Trailblazer • Harmony has allowed Sushang to be back to her glory days thanks to Super Break. Being able to be built full crit DPS or as a Hybrid, Harmony Trailblazer takes care of the awkwardness of when enemies are Broken and still provides a reason to invest in Break effect.\n Ruan Mei - Ruan Mei delay on enemies recovering from the Broken status allows Sushang to get a few more hits in while the enemies are Broken, which allows Sushang’s E1 to refund her Skill Points making it technically free. Not to mention the Weakness Break efficiency synergy.\n Silver Wolf - Silver Wolf allows Sushang to always hit Physical Weak enemies and always have a way to put enemies into the Broken state.",
+          "assets": [
+            {
+              "id": "444d6f5749b7",
+              "sourceHash": "444d6f5749b7",
+              "kind": "characters",
+              "name": "Tingyun • Fugue",
+              "fileStem": "tingyun-fugue-icon",
+              "path": "Prydwen/hsr/assets/characters/tingyun-fugue-444d6f5749b7.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "de41e1704266",
+              "sourceHash": "de41e1704266",
+              "kind": "characters",
+              "name": "Trailblazer • Harmony",
+              "fileStem": "trailblazer-harmony-icon",
+              "path": "Prydwen/hsr/assets/characters/trailblazer-harmony-de41e1704266.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "b77207bce6c8",
+              "sourceHash": "b77207bce6c8",
+              "kind": "characters",
+              "name": "Ruan Mei",
+              "fileStem": "ruan-mei-icon",
+              "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "7eec89c1a7e2",
+              "sourceHash": "7eec89c1a7e2",
+              "kind": "characters",
+              "name": "Silver Wolf",
+              "fileStem": "silver-wolf-icon",
+              "path": "Prydwen/hsr/assets/characters/silver-wolf-7eec89c1a7e2.webp",
+              "width": 45,
+              "height": 45
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Sushang Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Sushang\n Sushang Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Sushang from HSR (Honkai: Star Rail). Sushang is a 4 ★ character from the Physical element who follows the Path of Hunt .\n A naive and enthusiastic newcomer to the Cloud Knights who wields a greatsword. She yearns for the historic legends of the Cloud Knights, and is eager to become such a legendary figure herself. As such, Sushang firmly believes in the philosophies \"be eager to help those in need,\" \"do one good deed a day and reflect on oneself three times a day,\" leading her to busy days full of helping others.\n\n To learn more about Sushang check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n This character has no video guide yet.\n\n Update tracker\n Last review update\n Patch 2.6\n\n Last major build/calcs update\n Patch 4.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Sushang check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Cloudfencer Art: Starshine\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Physical DMG equal to #1[i]% of Sushang's ATK to a single enemy.\n\n Skill\n Cloudfencer Art: Mountainfall\n Single Target\n\n Lv. 1\n\n Energy gain: 30\n Break: 20\n\n Deals Physical DMG equal to #1[i]% of Sushang's ATK to a single enemy. In addition, there is a #3[i]% chance to trigger Sword Stance on the final hit, dealing Additional Physical DMG equal to #2[i]% of Sushang's ATK to the enemy.\nIf the enemy is inflicted with Weakness Break, Sword Stance is guaranteed to trigger.\n\n Ultimate\n Shape of Taixu: Dawn Herald\n Single Target | 120 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 30\n\n Deals Physical DMG equal to #1[i]% of Sushang's ATK to a single enemy target, and she immediately takes action again. In addition, Sushang's ATK increases by #4[i]% and using her Skill has 2 extra chances to trigger Sword Stance for #2[i] turn(s).\nSword Stance triggered from the extra chances deals #3[i]% of the original DMG.\n\n Talent\n Dancing Blade\n Enhance\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n When an enemy has their Weakness Broken on the field, Sushang's SPD increases by #1[i]% for #2[i] turn(s).\n\n Technique\n Cloudfencer Art: Warcry\n\n Energy gain: 0\n Break: 20\n\n Immediately attacks the enemy. Upon entering battle, Sushang deals Physical DMG equal to #1[i]% of her ATK to all enemies.\n\n Major Traces\n A2 Major trace\n Guileless\n\n When current HP percentage is 50% or lower, reduces the chance of being attacked by enemies.\n\n A4 Major trace\n Riposte\n\n For every Sword Stance triggered, the DMG dealt by Sword Stance increases by 2.5% . Stacks up to 10 time(s).\n\n A6 Major trace\n Vanquisher\n\n After using Basic ATK or Skill, if there are enemies on the field with Weakness Break, Sushang's action is Advanced Forward by 15% .\n\n Minor Traces (total)\n ATK\n + 28%\n\n HP\n + 18%\n\n DEF\n + 12.5%\n\n Eidolons\n E 1\n Cut With Ease\n Eidolon 1\n\n After using Skill against a Weakness Broken enemy, regenerates 1 Skill Point.\n\n E 2\n Refine in Toil\n Eidolon 2\n\n After triggering Sword Stance, the DMG taken by Sushang is reduced by 20% for 1 turn.\n\n E 3\n Rise From Fame\n Eidolon 3\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15 . Talent Lv. +2 , up to a maximum of Lv. 15 .\n\n E 4\n Cleave With Heart\n Eidolon 4\n\n Sushang's Break Effect increases by 40% .\n\n E 5\n Prevail via Taixu\n Eidolon 5\n\n Skill Lv. +2 , up to a maximum of Lv. 15 . Basic ATK Lv. +1 , up to a maximum of Lv. 10 .\n\n E 6\n Dwell Like Water\n Eidolon 6\n\n Talent's SPD Boost is stackable and can stack up to 2 times. Additionally, after entering battle, Sushang immediately gains 1 stack of her Talent's SPD Boost.\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 917\n\n ATK\n\n 564\n\n DEF\n\n 418\n\n Speed\n\n 107\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 246400\n\n Artifex's Module\n\n x 12\n\n Artifex's Cogwheel\n\n x 13\n\n Broken Teeth of Iron Wolf\n\n x 50\n\n Artifex's Gyreheart\n\n x 12\n\n CV\n ENG\n Anjali Kunapanen\n\n JPN\n Fukuen Misato (福圓美里)\n\n CN\n Chen Tingting (陈婷婷)\n\n KR\n Park Si-yoon (박시윤)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Oppressive rush-down when facing Broken enemies,\n\n Deceptively speedy character,\n\n High base Ability multipliers,\n\n Scales well with Eidolons.\n\n Cons\n Damage and speed falter if enemies are not being Broken frequently,\n\n Purely single-target,\n\n Subject to RNG if enemies are not Broken,\n\n Potentially SP hungry without Eidolons.\n\n Review (By Sushou)\n Sushang is a competent single-target damage dealer with a focus on attacking Broken enemies and having Weakness Broken enemies on the field. She is able to fully Action Advance herself with her Ultimate and excels at putting on the pressure against Broken enemies. Both her damage potential and speed rely on having enemies in this state, so it is important to facilitate this with her teammates.\n Sushang’s Skill deals up to 210% ATK to a single enemy and has a 33% fixed chance to trigger Sword Stance on the final hit, dealing an additional 100% ATK. This bonus damage is guaranteed on Broken enemies. This is already a strong start with her Skill dealing potentially 310% ATK with nothing else. Sushang’s Ultimate deals 320% ATK to a single enemy and immediately Advances her forward by 100%, meaning it is her turn now. She also gets a 30% ATK increase for 2 turns, and her Skill has 2 extra chances at triggering Sword Stance, with the extra procs being at 50% of the original damage.\n This means that Sushang’s Ultimate boosts her Skill significantly. The extra ATK aside, having 2 extra procs of Sword Stance at 50% means she’s essentially getting a full power bonus hit, meaning that if all 3 Sword Stances activate, Sushang’s Skill is doing 410% ATK to a single enemy. Once again, keep in mind that against a Broken enemy Sword Stance is guaranteed to proc, including the bonus ones from her Ultimate. With the Ultimate having an average Energy cost of 120, this will be up fairly often. The addition of having a 100% Action Advance inherent to the Ultimate is also very powerful as you can make Sushang take back-to-back turns, maximising the damage you can deal against Broken foe.\n Sushang’s Talent gives her a 20% SPD boost for 2 turns when an enemy on the field has their Weakness Broken. Sushang’s base SPD is above average but a little on the lower end for Hunt units at 107, meaning her Talent will be granting her just about 21 SPD. This is still a pretty substantial increase to SPD and can possibly allow for her to run ATK Boots without worrying about SPD too much.\n Now, let’s talk about the obvious issue with this kit; it has far too much reliance on having enemies be Broken. Pretty much all of what Sushang has to offer is contingent on that one big asterisk. Depending on what you’re against, this may not be too much of a challenge, but even against simple Elites, the frequency at which you will be Breaking enemies will drop dramatically, especially if the Elite is not a summoner type. Boss enemies have even greater Toughness bars meaning it can take even longer to Break them.\n This may naturally incentivize the player to build for more Break Effect on Sushang, and the issue with that is that you kinda… can’t, really. Let me elaborate by way of a comparison; Xueyi is a Break unit that directly benefits from building Break Effect thanks to a passive that grants an equivalent amount of DMG%, and even she can’t afford to go all out on Break Effect because of diminishing returns and the desire for CRIT stats. Now imagine that but without the DMG conversion passive and exclusively single-target, and you’ve got Sushang. Yeah… it’s not ideal, especially since Xueyi also benefits from merely dealing Toughness Damage, while Sushang only gets her benefits upon an enemy getting fully Broken.\n Sushang is a very momentum-driven character; she thrives when enemies are Broken, and the goal is to make the most out of those situations before they recover. This is especially amplified by Sushang’s A6 Bonus Ability Trace, which Action Advances her forward by 15% after using a Basic ATK or Skill if there’s even a single Broken enemy on the field. This makes Sushang a deceptively speedy character, and both accentuates and exacerbates all of the aforementioned things in her kit. A2 also gives some nice DMG to Sword Stance every time it’s triggered, and A4 exists.\n With Eidolons, Sushang becomes noticeably stronger. E1 will refund a Skill Point when using Skill against a Broken enemy, leading to never needing to worry about SP when attacking them. E2 will reduce Sushang’s DMG taken by 20% after a Sword Stance is triggered for 1 turn, offering a nice and fairly significant reduction in damage taken. E4 grants Sushang a permanent plus 40% Break Effect which helps in dealing more damage when she is the one Breaking, and finally E6 allows the Talent’s SPD boost to stack up to 2 times, also granting her one stack immediately upon entering combat. This means Sushang can gain almost 43 SPD from just her Talent alone, meaning she almost becomes a mini Seele in terms of raw Actions taken.\n Ah, but what’s this? A comparison to Seele? Yeah don’t get excited, when I say it’s only in terms of raw Actions taken, I mean it explicitly. What Seele is is an anomaly when it comes to Hunt units because she actually gets better with more enemies around. Sushang, unfortunately, falls into the same category as ‘every other Hunt unit’. Without sufficient help from supports or potentially even a second damage dealer, Sushang will absolutely hate going against multiple opponents. Add in the need for enemies to Broken and you now have a unit virtually glued at the hip to Ruan Mei, and even then it may still not be enough on its own if the enemy isn’t also weak to Ice.\n The ramp-up to dealing damage can be excruciatingly long, and with how fast enemies become in the endgame, the window of opportunity to actually deal said damage is exceptionally short, so it’s no surprise that units that simply don’t have that limitation are typically far stronger than Sushang at much less effort — after all, who cares if the enemy is Broken if they’re already dead?\n Seriously, it gets almost annoying to have everything lined up perfectly with supports only to go in and hit numbers that make you rethink your life choice s. On my way to call the police and report a goddamned robbery. Sushang may be fast but she doesn’t have anything else in her kit to boost her damage. The need for CRIT stats and ATK while also baiting people into building Break Effect can make for some of the most botched builds in the game; some of the worst builds I’ve ever seen have all been on Sushang.\n Having said that, I return to what I said at the very beginning. With Ruan Mei and Harmony MC existing, break-focused builds and units have new life breathed into them. Sushang is still a competent character in her own right, and someone players are likely to have access to. Especially if you are lacking coverage for Physical enemies and don’t have the likes of Argenti, Clara, Yunli, or even Luka, then Sushang should be someone you consider building.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Damage dealer\n Eidolon 0\n T5\n MoC\n\n T5\n PF\n\n T5\n AS\n\n Eidolon 6\n T5\n MoC\n\n T5\n PF\n\n T5\n AS\n\n Build and teams\n\n Best Light Cones\n\n 109.04%\n\n Sailing Towards A Second Life (S 1 )\n\n Sushang's best in slot Light Cone.\n Usage: 50 %\n MoC: -\n PF: 0\n AS: 0\n\n 100%\n\n Swordplay (S 5 )\n\n Assumes full access to all 5 stacks throughout the entire duration of the fight. In fights where target swapping is required this Cone performance can be reduced substantially.\n\n 96.12%\n\n Cruising in the Stellar Sea (S 5 )\n\n 95.37%\n\n Only Silence Remains (S 5 )\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n Champion of Streetwise Boxing ( 4 -PC)\n\n 96.50%\n\n Thief of Shooting Meteor ( 4 -PC)\n\n 96.42%\n\n Thief of Shooting Meteor ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Watchmaker, Master of Dream Machinations\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n Best Planetary Sets\n 100%\n\n Talia: Kingdom of Banditry ( 2 -PC)\n\n Usage: 50 %\n MoC: -\n PF: 0\n AS: 0\n\n 98.10%\n\n Firmament Frontline: Glamoth ( 2 -PC)\n\n 135 Speed\n 98.09%\n\n Space Sealing Station ( 2 -PC)\n\n Best Stats\n\n Body\n CRIT Rate\n >= CRIT DMG\n\n Feet\n Speed\n >= ATK%\n\n Planar Sphere\n Physical DMG\n >= ATK%\n\n Link Rope\n Break Effect\n > ATK%\n\n Substats: SPD (breakpoint) > BREAK EFFECT% (If Break Build) >= CRIT RATE = CRIT DMG > ATK%\n\n Recommended endgame stats\n HP: 3000+\n\n DEF: 800 - 1000+\n\n ATK: 1900 - 2700+\n\n CRIT RATE: 60% - 70%+\n\n CRIT DMG: 120% - 140%+\n\n SPD: Base Speed (H yperspeed Sparkle/Bronya) / 134 (Recommended) / 143 / 160\n\n BREAK EFFECT: 0% - 120%+\n\n Traces priority\n Skills priority: Skill > Ultimate > Talent > Basic\n\n Major Traces priority: Riposte > Vanquisher > Guileless\n\n Synergy\n Tingyun • Fugue - Tingyun • Fugue is a great partner for Sushang - much better than HMC - as Exo-Toughness helps a lot in improving her performance,\n Trailblazer • Harmony - Trailblazer • Harmony has allowed Sushang to be back to her glory days thanks to Super Break. Being able to be built full crit DPS or as a Hybrid, Harmony Trailblazer takes care of the awkwardness of when enemies are Broken and still provides a reason to invest in Break effect.\n Ruan Mei - Ruan Mei delay on enemies recovering from the Broken status allows Sushang to get a few more hits in while the enemies are Broken, which allows Sushang’s E1 to refund her Skill Points making it technically free. Not to mention the Weakness Break efficiency synergy.\n Silver Wolf - Silver Wolf allows Sushang to always hit Physical Weak enemies and always have a way to put enemies into the Broken state.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 3\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

@@ -1,0 +1,1607 @@
+{
+  "id": "characters:sparkle",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "sparkle",
+  "name": "Sparkle",
+  "title": "Sparkle Best Build Guide",
+  "sourcePath": "/star-rail/characters/sparkle",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "31/May/2026",
+  "meta": {
+    "title": "Sparkle Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Quantum",
+    "path": "Harmony"
+  },
+  "assets": [
+    {
+      "id": "c948ac5a51ee",
+      "sourceHash": "c948ac5a51ee",
+      "kind": "characters",
+      "name": "Sparkle",
+      "fileStem": "sparkle-card",
+      "path": "Prydwen/hsr/assets/characters/sparkle-c948ac5a51ee.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "96654253a4f7",
+      "sourceHash": "96654253a4f7",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "44c437b21b3a",
+      "sourceHash": "44c437b21b3a",
+      "kind": "icons",
+      "name": "CRIT DMG",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "9db79c7ddbf7",
+      "sourceHash": "9db79c7ddbf7",
+      "kind": "icons",
+      "name": "Effect RES",
+      "fileStem": "stat-effectres",
+      "path": "Prydwen/hsr/assets/icons/effect-res-9db79c7ddbf7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "dc6aec4a7776",
+      "sourceHash": "dc6aec4a7776",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "a6be649090ba",
+      "sourceHash": "a6be649090ba",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "087f2dec68b6",
+      "sourceHash": "087f2dec68b6",
+      "kind": "icons",
+      "name": "Speed",
+      "fileStem": "stat-speed",
+      "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "50d0e755383a",
+      "sourceHash": "50d0e755383a",
+      "kind": "items",
+      "name": "Credit",
+      "fileStem": "credit",
+      "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "b976a1043f39",
+      "sourceHash": "b976a1043f39",
+      "kind": "items",
+      "name": "Tatters of Thought",
+      "fileStem": "tatters-of-thought",
+      "path": "Prydwen/hsr/assets/items/tatters-of-thought-b976a1043f39.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "485a3b8cc2b3",
+      "sourceHash": "485a3b8cc2b3",
+      "kind": "items",
+      "name": "Fragments of Impression",
+      "fileStem": "fragments-of-impression",
+      "path": "Prydwen/hsr/assets/items/fragments-of-impression-485a3b8cc2b3.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "6f5b0c927d8c",
+      "sourceHash": "6f5b0c927d8c",
+      "kind": "items",
+      "name": "Dream Flamer",
+      "fileStem": "dream-flamer",
+      "path": "Prydwen/hsr/assets/items/dream-flamer-6f5b0c927d8c.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "beee664e3222",
+      "sourceHash": "beee664e3222",
+      "kind": "items",
+      "name": "Shards of Desires",
+      "fileStem": "shards-of-desires",
+      "path": "Prydwen/hsr/assets/items/shards-of-desires-beee664e3222.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "12736023b340",
+      "sourceHash": "12736023b340",
+      "kind": "characters",
+      "name": "Sparkle",
+      "fileStem": "sparkle-full",
+      "path": "Prydwen/hsr/assets/characters/sparkle-12736023b340.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "e88861d2cf9f",
+      "sourceHash": "e88861d2cf9f",
+      "kind": "light-cones",
+      "name": "A Grounded Ascent",
+      "fileStem": "a-grounded-ascent",
+      "path": "Prydwen/hsr/assets/light-cones/a-grounded-ascent-e88861d2cf9f.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "517c502052ae",
+      "sourceHash": "517c502052ae",
+      "kind": "light-cones",
+      "name": "Earthly Escapade",
+      "fileStem": "earthly-escapade",
+      "path": "Prydwen/hsr/assets/light-cones/earthly-escapade-517c502052ae.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "51329378b0cb",
+      "sourceHash": "51329378b0cb",
+      "kind": "light-cones",
+      "name": "Dance! Dance! Dance!",
+      "fileStem": "dance-dance-dance",
+      "path": "Prydwen/hsr/assets/light-cones/dance-dance-dance-51329378b0cb.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "5524dabe1c9b",
+      "sourceHash": "5524dabe1c9b",
+      "kind": "light-cones",
+      "name": "But the Battle Isn't Over",
+      "fileStem": "but-the-battle-isnt-over",
+      "path": "Prydwen/hsr/assets/light-cones/but-the-battle-isnt-over-5524dabe1c9b.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "5cb190fcc346",
+      "sourceHash": "5cb190fcc346",
+      "kind": "relics",
+      "name": "Sacerdos' Relived Ordeal",
+      "fileStem": "sacerdos-relived-ordeal",
+      "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "36af28ceb2d3",
+      "sourceHash": "36af28ceb2d3",
+      "kind": "relics",
+      "name": "Eagle of Twilight Line",
+      "fileStem": "eagle-of-twilight-line",
+      "path": "Prydwen/hsr/assets/relics/eagle-of-twilight-line-36af28ceb2d3.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "4cb8065ad660",
+      "sourceHash": "4cb8065ad660",
+      "kind": "relics",
+      "name": "Messenger Traversing Hackerspace",
+      "fileStem": "messenger-traversing-hackerspace",
+      "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "19b06ffee878",
+      "sourceHash": "19b06ffee878",
+      "kind": "relics",
+      "name": "Diviner of Distant Reach",
+      "fileStem": "diviner-of-distant-reach",
+      "path": "Prydwen/hsr/assets/relics/diviner-of-distant-reach-19b06ffee878.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "2f8ec1684b6b",
+      "sourceHash": "2f8ec1684b6b",
+      "kind": "relics",
+      "name": "Warrior Goddess of Sun and Thunder",
+      "fileStem": "warrior-goddess-of-sun-and-thunder",
+      "path": "Prydwen/hsr/assets/relics/warrior-goddess-of-sun-and-thunder-2f8ec1684b6b.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d6aae5028c5a",
+      "sourceHash": "d6aae5028c5a",
+      "kind": "relics",
+      "name": "Lushaka, the Sunken Seas",
+      "fileStem": "lushaka-the-sunken-seas",
+      "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "3306e6f6288f",
+      "sourceHash": "3306e6f6288f",
+      "kind": "relics",
+      "name": "Broken Keel",
+      "fileStem": "broken-keel",
+      "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d6cdb5f16b16",
+      "sourceHash": "d6cdb5f16b16",
+      "kind": "relics",
+      "name": "Penacony, Land of the Dreams",
+      "fileStem": "penacony-land-of-the-dreams",
+      "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "106ddd8eff32",
+      "sourceHash": "106ddd8eff32",
+      "kind": "icons",
+      "name": "Energy Regen",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "5ff31ffb6345",
+      "sourceHash": "5ff31ffb6345",
+      "kind": "characters",
+      "name": "Archer",
+      "fileStem": "archer-icon",
+      "path": "Prydwen/hsr/assets/characters/archer-5ff31ffb6345.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "0ed3dbce2c95",
+      "sourceHash": "0ed3dbce2c95",
+      "kind": "characters",
+      "name": "Dan Heng • Imbibitor Lunae",
+      "fileStem": "imbibitor-lunae-icon",
+      "path": "Prydwen/hsr/assets/characters/dan-heng-imbibitor-lunae-0ed3dbce2c95.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "7fc1b269fb6f",
+      "sourceHash": "7fc1b269fb6f",
+      "kind": "characters",
+      "name": "Sparxie",
+      "fileStem": "sparxie-icon",
+      "path": "Prydwen/hsr/assets/characters/sparxie-7fc1b269fb6f.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "bdd27122e011",
+      "sourceHash": "bdd27122e011",
+      "kind": "characters",
+      "name": "Phainon",
+      "fileStem": "phainon-icon",
+      "path": "Prydwen/hsr/assets/characters/phainon-bdd27122e011.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e0db16ed6c66",
+      "sourceHash": "e0db16ed6c66",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "ele-physical",
+      "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "1b219ef71829",
+      "sourceHash": "1b219ef71829",
+      "kind": "characters",
+      "name": "Cerydra",
+      "fileStem": "cerydra-icon",
+      "path": "Prydwen/hsr/assets/characters/cerydra-1b219ef71829.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ee11bd390c9a",
+      "sourceHash": "ee11bd390c9a",
+      "kind": "icons",
+      "name": "Wind",
+      "fileStem": "ele-wind",
+      "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "da99d2d9a505",
+      "sourceHash": "da99d2d9a505",
+      "kind": "characters",
+      "name": "Sparkle",
+      "fileStem": "sparkle-icon",
+      "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "565914d1a436",
+      "sourceHash": "565914d1a436",
+      "kind": "icons",
+      "name": "Quantum",
+      "fileStem": "ele-quantum",
+      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "3d568cb7f29d",
+      "sourceHash": "3d568cb7f29d",
+      "kind": "characters",
+      "name": "Sunday",
+      "fileStem": "sunday-icon",
+      "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "913ff64407f2",
+      "sourceHash": "913ff64407f2",
+      "kind": "icons",
+      "name": "Imaginary",
+      "fileStem": "ele-imaginary",
+      "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "abea49c1784d",
+      "sourceHash": "abea49c1784d",
+      "kind": "characters",
+      "name": "Evanescia",
+      "fileStem": "evanescia-icon",
+      "path": "Prydwen/hsr/assets/characters/evanescia-abea49c1784d.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "c721ded1f2e0",
+      "sourceHash": "c721ded1f2e0",
+      "kind": "characters",
+      "name": "Trailblazer • Elation",
+      "fileStem": "trailblazer-elation-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-elation-c721ded1f2e0.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d197456869a0",
+      "sourceHash": "d197456869a0",
+      "kind": "icons",
+      "name": "Lightning",
+      "fileStem": "ele-lightning",
+      "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "c4a9c00e98ef",
+      "sourceHash": "c4a9c00e98ef",
+      "kind": "characters",
+      "name": "Huohuo",
+      "fileStem": "huohuo-icon",
+      "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "2cde7699adbf",
+      "sourceHash": "2cde7699adbf",
+      "kind": "characters",
+      "name": "Tribbie",
+      "fileStem": "tribbie-icon",
+      "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "714348f14d48",
+      "sourceHash": "714348f14d48",
+      "kind": "characters",
+      "name": "Dan Heng • Permansor Terrae",
+      "fileStem": "dan-heng-permansor-terrae-icon",
+      "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "92feb26d8f0e",
+      "sourceHash": "92feb26d8f0e",
+      "kind": "icons",
+      "name": "Fire",
+      "fileStem": "ele-fire",
+      "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "965df81b835a",
+      "sourceHash": "965df81b835a",
+      "kind": "characters",
+      "name": "Yao Guang",
+      "fileStem": "yao-guang-icon",
+      "path": "Prydwen/hsr/assets/characters/yao-guang-965df81b835a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "f54da6170f38",
+      "sourceHash": "f54da6170f38",
+      "kind": "characters",
+      "name": "Silver Wolf • Lv. 999",
+      "fileStem": "silver-wolf-lv-999-icon",
+      "path": "Prydwen/hsr/assets/characters/silver-wolf-lv-999-f54da6170f38.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "7eec89c1a7e2",
+      "sourceHash": "7eec89c1a7e2",
+      "kind": "characters",
+      "name": "Silver Wolf",
+      "fileStem": "silver-wolf-icon",
+      "path": "Prydwen/hsr/assets/characters/silver-wolf-7eec89c1a7e2.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d3e344772d55",
+      "sourceHash": "d3e344772d55",
+      "kind": "characters",
+      "name": "Trailblazer • Remembrance",
+      "fileStem": "trailblazer-remembrance-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "7d36eb39792a",
+      "sourceHash": "7d36eb39792a",
+      "kind": "icons",
+      "name": "Ice",
+      "fileStem": "ele-ice",
+      "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+      "width": 22,
+      "height": 22
+    }
+  ],
+  "sections": [
+    {
+      "id": "sparkle-best-build-guide-0",
+      "level": 1,
+      "heading": "Sparkle Best Build Guide",
+      "text": "Last updated: 31/May/2026",
+      "assets": [
+        {
+          "id": "c948ac5a51ee",
+          "sourceHash": "c948ac5a51ee",
+          "kind": "characters",
+          "name": "Sparkle",
+          "fileStem": "sparkle-card",
+          "path": "Prydwen/hsr/assets/characters/sparkle-c948ac5a51ee.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Sparkle from HSR (Honkai: Star Rail). Sparkle is a 5 ★ character from the Quantum element who follows the Path of Harmony .\n A member of the Masked Fools. Inscrutable and unscrupulous. A dangerous master of theatrics engrossed in playing roles. A woman of countless masks and many faces.\nWealth, status, power... None of this matters to Sparkle. The only thing that can lure her interest is \"amusement.\"\n\n To learn more about Sparkle check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Sparkle has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 4.0\n\n Last major build/calcs update\n Patch 4.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Sparkle check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic ATK\n Monodrama\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Quantum DMG equal to #1[i]% of Sparkle's ATK to one designated enemy.\n\n Skill\n Dreamdiver\n Support\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Increases the CRIT DMG of a designated ally by #1[i]% of Sparkle's CRIT DMG plus #2[i]%, lasting for 2 turn(s). And at the same time, advances this ally's action by 50%.\nWhen Sparkle uses this ability on herself, the Action Advance effect will not trigger.\n\n Ultimate\n The Hero with a Thousand Faces\n Support | 110 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: -\n\n Recovers 6 Skill Point(s) for allies. If Skill Points overflow during recovery, the excess points will be recorded, up to a max of 10 points. When an ally character's turn ends, if Skill Points are below the maximum, Sparkle consumes the recorded value to recover Skill Points until the upper limit is reached. Then, grants all allies \"Cipher.\" For ally targets with \"Cipher,\" each stack of the DMG Boost against enemies provided by Sparkle's Talent additionally increases by #1[i]%, per stack, lasting for 3 turn(s).\n\n Talent\n Red Herring\n Support\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n While Sparkle is on the battlefield, additionally increases the max number of Skill Points by 2. Whenever an ally target consumes 1 Skill Point, Sparkle gains 1 stack of \"Figment,\" with each stack increasing the DMG taken by all enemies by #1[i]%. This effect lasts for 2 turn(s) and can stack up to 3 time(s).\n\n Technique\n Unreliable Narrator\n Support\n\n Energy gain: 0\n Break: -\n\n Using the Technique grants all allies Misdirect for #2[i] seconds. Characters with Misdirect will not be detected by enemies, and entering battle in the Misdirect state recovers #1[i] Skill Point(s) for the team and regenerates #2[i] Energy for Sparkle.",
+      "assets": []
+    },
+    {
+      "id": "major-traces-10",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "A2 Major trace\n Almanac\n\n Using Basic ATK additionally regenerates 10 Energy. When an ally character who holds the CRIT DMG Boost effect provided by the Skill consumes Skill Points, Sparkle additionally regenerates 1 Energy.\n\n A4 Major trace\n Artificial Flower\n\n If an ally character consumes 3 or more Skill Points in a single turn, Sparkle's next use of Skill will not consume Skill Points.\n\n A6 Major trace\n Nocturne\n\n Increases all allies's ATK by 45% . When an ally character holds the CRIT DMG Boost effect provided by the Skill, All-Type RES PEN increases by 10% .",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-11",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "HP\n + 28%\n\n CRIT DMG\n + 24%\n\n Effect RES\n + 10%",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "44c437b21b3a",
+          "sourceHash": "44c437b21b3a",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "9db79c7ddbf7",
+          "sourceHash": "9db79c7ddbf7",
+          "kind": "icons",
+          "name": "Effect RES",
+          "fileStem": "stat-effectres",
+          "path": "Prydwen/hsr/assets/icons/effect-res-9db79c7ddbf7.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "eidolons-12",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "E 1\n Suspension of Disbelief\n Eidolon 1\n\n Increases the ATK of ally targets with \"Cipher\" by 40% . When the battle starts or when using Skill, increases Sparkle's SPD by 15% , lasting for 2 turn(s).\n\n E 2\n Purely Fictitious\n Eidolon 2\n\n Each stack of the Talent's effect additionally reduces the enemy target's DEF by 10% .\n\n E 3\n Pipedream\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Life Is a Gamble\n Eidolon 4\n\n The Ultimate recovers 1 more Skill Point. The Talent additionally increases the Max Skill Points by 1 .\n\n E 5\n Parallax Truth\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Narrative Polysemy\n Eidolon 6\n\n The CRIT DMG Boost effect provided by the Skill additionally increases by an amount equal to 30% of Sparkle's CRIT DMG. When Sparkle uses Skill, her Skill's CRIT DMG Boost effect will apply to all teammates with \"Cipher.\" When Sparkle uses her Ultimate, any single ally who benefits from her Skill's CRIT DMG Boost will spread that effect to teammates with \"Cipher.\"",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-13",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Enable Ascension",
+      "assets": []
+    },
+    {
+      "id": "level-80-stats-14",
+      "level": 5,
+      "heading": "Level 80 stats",
+      "text": "HP\n\n 1397\n\n ATK\n\n 523\n\n DEF\n\n 485\n\n Speed\n\n 101",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "level-1-80-ascension-materials-15",
+      "level": 5,
+      "heading": "Level 1 → 80 Ascension Materials",
+      "text": "Credit\n\n x 308000\n\n Tatters of Thought\n\n x 15\n\n Fragments of Impression\n\n x 15\n\n Dream Flamer\n\n x 65\n\n Shards of Desires\n\n x 15",
+      "assets": [
+        {
+          "id": "50d0e755383a",
+          "sourceHash": "50d0e755383a",
+          "kind": "items",
+          "name": "Credit",
+          "fileStem": "credit",
+          "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "b976a1043f39",
+          "sourceHash": "b976a1043f39",
+          "kind": "items",
+          "name": "Tatters of Thought",
+          "fileStem": "tatters-of-thought",
+          "path": "Prydwen/hsr/assets/items/tatters-of-thought-b976a1043f39.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "485a3b8cc2b3",
+          "sourceHash": "485a3b8cc2b3",
+          "kind": "items",
+          "name": "Fragments of Impression",
+          "fileStem": "fragments-of-impression",
+          "path": "Prydwen/hsr/assets/items/fragments-of-impression-485a3b8cc2b3.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "6f5b0c927d8c",
+          "sourceHash": "6f5b0c927d8c",
+          "kind": "items",
+          "name": "Dream Flamer",
+          "fileStem": "dream-flamer",
+          "path": "Prydwen/hsr/assets/items/dream-flamer-6f5b0c927d8c.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "beee664e3222",
+          "sourceHash": "beee664e3222",
+          "kind": "items",
+          "name": "Shards of Desires",
+          "fileStem": "shards-of-desires",
+          "path": "Prydwen/hsr/assets/items/shards-of-desires-beee664e3222.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "cv-16",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n Lizzie Freeman\n\n JPN\n 上田丽奈 (Ueda Reina)\n\n CN\n 赵爽 (Zhao Shuang)\n\n KR\n 성예원 (Sung Ye-won)",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "12736023b340",
+          "sourceHash": "12736023b340",
+          "kind": "characters",
+          "name": "Sparkle",
+          "fileStem": "sparkle-full",
+          "path": "Prydwen/hsr/assets/characters/sparkle-12736023b340.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Excellent undiluted buffs in DMG Vulnerability and All-Type RES PEN,\n\n Literal Skill Point printer with her Ultimate even accounting for SP overflow,\n\n Provides an ally with huge CRIT DMG and 50% Action Advance,\n\n Skill's buffs last for 2 full turns,\n\n Good Energy economy,\n\n Reliable support buffer for very SP negative teams or characters,\n\n Her buffs are perfect for working with the new Elation Path characters and mechanics,\n\n Great value Eidolons.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Stuck at only having a 50% Action Advance instead of the full 100%,\n\n Can't replace Sunday's Energy generation when that's needed,\n\n Still short womp womp.",
+      "assets": []
+    },
+    {
+      "id": "review-by-sushou-21",
+      "level": 2,
+      "heading": "Review (By Sushou)",
+      "text": "Sparkle is a wonderfully unhinged gremlin following the Path of Harmony... allegedly. She's an Action Advancer with a specialty in extreme Skill Point generation. This comes with the added benefit of CRIT DMG boosts, Vulnerability, and even a bit of All-Type RES PEN. She is extremely strong for general CRIT based teams, and absolutely invaluable for teams with high SP consumption.",
+      "assets": []
+    },
+    {
+      "id": "intro-22",
+      "level": 6,
+      "heading": "[Intro]",
+      "text": "'If Novaflare was so good, how come there isn't a second — WOOA—'\n Live reaction right there. Yes, to the joy of everyone, they're back at it again with a second Novaflare targeting Black Swan and Sparkle.\n Sparkle has been in a very interesting situation every since her release. I say interesting but really I mean upsetting; she stole her way into players' hearts but never really managed to steal her way into the meta anywhere near as decisively as her Harmony competitors.\n Imbibitor Lunae's falloff must be studied, Seele has had better options pretty much the whole time, and Qingque just couldn't keep up with the rest of the game (much to my absolute grief). It wasn't really until Archer walked into the wrong universe that Sparkle saw a big boom.\n Even in that team, it can feel a little tricky to make the most of her buffs, especially since Sparkle is not really as SP positive as she initially seems, mostly because she needs to use her Skill for both the buffs and the Energy for her Ultimate. It's not bad, but it could be better, and the increased SP limit she provides is very important for the absurd SP consumption that Archer has.\n These issues have been identified and then violently hammered into a more agreeable shape. Or maybe Sparkle got tired of pretending to be weak. Either way, the buffs that Sparkle has received are nothing short of immaculate.\n To all present and future SP negative units, take note of your archetype's newly appointed queen.",
+      "assets": []
+    },
+    {
+      "id": "abilities-23",
+      "level": 6,
+      "heading": "[Abilities]",
+      "text": "Sparkle's biggest draw has always been her ability to restore SP on demand with her Ultimate, as well as her benefit of increasing the SP maximum of the whole team. Her Action Advance is also very good given what it does, but it being only a 50% Advance compared to the 100% Advance provided by Sunday or Bronya made Sparkle's version less coveted.\n While the amount of Action Advance has not been changed, there are now myriad other benefits that Sparkle provides that more than offset that difference.\n Sparkle's Skill increases the CRIT DMG of an ally by 24% of Sparkle's CRIT DMG plus 45%, lasting 2 turns, and simultaneously Action Advances them by 50%. This cannot Advance Sparkle herself.\n The astute of you will notice something different immediately: this buff now lasts for a full 2 turns at base. By far one of the most unwieldy aspects of this Skill was that the buff only lasted for a single turn, and an unexciting Bonus Trace extended this duration to... 'until the start of the next turn' which is functionally useless for many DPS units.\n Now this being a full 2 turns actually means it's something you can opt into using if you're trying to conserve SP or if you don't need the Action Advance, and this will no longer result in the very powerful buff falling off just before the critical turn.\n Sparkle's Talent has been tweaked. It still increases the max number of Skill Points by 2, and still provides team bonuses for having allies consume SP, but the benefit has changed from 6% DMG to be 4% DMG Vulnerability. This stacks up to 3 times and lasts for 2 turns.\n 'Number lower! Bad!!' Hold your horses bud, while the number has indeed gone down, the nature of the buff is actually quite a bit better; DMG Vulnerability is rarer to find and generally doesn't reach values that are high enough that you start to see diminishing returns. This is in stark contrast to the typically very saturated DMG% stat.\n This results in a total of 12% Vulnerability by default, which is good but not great. Don't worry though, Sparkle's Ultimate still increases the benefits of this Talent.\n The Ultimate has been completely revamped for the better. The vibe may be the same but the effectiveness is incomparably better. Upon using her Ultimate, Sparkle will instantly recover 6 Skill Points for allies. SIX.\n If Skill Points overflow during recovery, the excess points will be recorded, up to a maximum of 10 points. When an ally's turn ends, if Skill Points are below the maximum, Sparkle draws from the overflow to restore SP to the current upper limit.\n Additionally, grants all allies Cipher (not the car), increasing the benefits of Sparkle's Talent by 6% per stack, lasting for 3 turns.\n Who — what is this possibly trying to account for I have to wonder? This is to ensure that you're going to be using Sparkle far into the future, because I can't see this maximum overflow ever being reached during normal endgame content. Regardless, it means that if you play it well, you can pretty much always ensure that there is a fully loaded SP tank for your voracious DPS to consume, AND you'll still have SP left over for allies to use to set up for the next time you go to burst.\n The increase to Sparkle's Talent means that the Vulnerability bonus goes to a total of 30%, which is much more impressive. 3 turns makes it pretty easy to maintain this bonus near indefinitely once you're rolling, so realistically this should always be in effect.\n Recovering 6 Skill Points instantly compared to the measly 4 you had before is a very big deal as well. For people who didn't use Sparkle much, you may not have realised that Sparkle actually struggled to genuinely generate the SP required for the real SP fiends like Qingque or Archer, especially seeing as she's constantly using her Skill to keep up the buff on said DPS.\n If it takes you 3 turns to use Sparkle's Ultimate, you will now guarantee at least a 3 SP net gain, though in reality this ends up being even more thanks to some crazy changes to Bonus Traces, and if you're maximising the uptime of Sparkle's Skill buff and the Action Advance isn't needed for you right now, you could maybe even get something absurd like an 8 SP net gain for using her Ultimate after those 3 turns.\n Maybe that overflow amount isn't so crazy after all...",
+      "assets": []
+    },
+    {
+      "id": "bonus-traces-24",
+      "level": 6,
+      "heading": "[Bonus Traces]",
+      "text": "Sparkle's Bonus Traces have also received a facelift, and one that would rival even Korean skincare.\n Her A2 still recovers an extra 10 Energy for Sparkle when she uses her Basic ATK. This was nice for Ult consistency but with how her Skill worked before, it was really more of a last resort, since using her Basic ATK would guarantee that her Skill's buff would drop from the DPS.\n As this is no longer the case, this Trace is already much better, but they added even more to it. When the ally who holds the CRIT DMG Boost from her Skill consumes SP, Sparkle regenerates an additional 1 Energy. If you've ever been single digits off of Sparkle's Ultimate, this one is for you.\n Her A4 has been completely rewritten. Previously it extended the duration of the CRIT DMG Boost from her Skill until the start of the ally's next turn. A terrible effect, and now completely redundant as the Skill lasts for 2 full real turns by default.\n Instead, if an ally character consumes 3 or more Skill Points in a single turn, Sparkle's next use of Skill will not consume any Skill Points. This is exceptional, and is the reason I said it could be possible to restore massive amounts of SP per Ultimate rotation.\n This doesn't even specify that the ally needs to be the one being buffed by the Skill, and getting to use Sparkle's Skill for free is just amazing in general. 3 SP per turn is not at all difficult to do for characters Sparkle wants to be paired with often (Imbibitor Lunae, Archer, possibly Seele too), meaning you get to occasionally save SP by just doing what you were already doing.\n Lastly the A6. This was the Quantum specific ally buff, where you would grant the party increasing amounts of ATK% based on the number of Quantum allies, up to 45%.\n Press F to pay respects because that aspect is gone; you are now always granting 45% ATK to all allies regardless of Type-affiliation. While a little sad about the flavour being removed, this is undeniably an improvement for future teambuilding, and already makes her a much more appealing pick for existing characters too; there are already great support options that are Quantum, but there are many more that are not, and you'll no longer be punished for switching things up.\n In addition to this, the A6 will now also provide 10% All-Type RES PEN for the ally with Sparkle's CRIT DMG Boost. This means that Sparkle is now able to provide three highly coveted buffing methods that do not tend to overlap with the typical DMG% saturation. The All-Type RES PEN alone is enough to substantially boost Sparkle's efficacy in combat.\n It's genuinely amazing.",
+      "assets": []
+    },
+    {
+      "id": "eidolons-25",
+      "level": 6,
+      "heading": "[Eidolons]",
+      "text": "Indeed, even the Eidolons have received an update, and Sparkle cannot stop winning. The usual disclaimer of course, especially now after these immaculate buffs, but should you choose to go higher investment, you'll likely have a good time.\n Her E1 increases the ATK of allies with Cipher by 40%. This is what it did previously, but also increased the duration of the Cipher buff by 1 turn. Seeing as Cipher now already lasts 3 turns instead of the old 2, a new line has been added in its place: When the battle starts or when using Skill, increases Sparkle's SPD by 15% for 2 turns. This is just a generally good SPD boost, and it lasts forever since you are always using Sparkle's Skill at least once every 2 turns. Quite a good value E1.\n E2 got a direct buff. Previously it made each stack of the Talent's effect allow allies to ignore 8% of the enemies' DEF when attacking, up to a max of 24%. This was already quite good.\n Now, it allows each stack of the Talent's effect to additionally reduce the enemies' DEF by 10%, up to 30%. Aside from the larger number, there is a subtle yet important distinction between 'DEF ignore' and 'DEF shred', which is that the latter is strictly better.\n The reason for this is that that what counts as 'allies' is sometimes nebulous and may not include certain things that you would otherwise really hope were included. In particular, seeing the direction that a certain chaotic Aeon is taking in order to assume a position in the Turn Order, this eliminates the possibility of THEM not being included in the fun. Plus it's just good in general. These first two Eidolons are now very high value if you choose to go for them, and seeing a glimpse of what's over the horizon, Sparkle is likely to be seeing a lot of use in the coming patches.\n E3 and E5 are unchanged Ability Trace levels. The E4 is also unchanged, letting the Ultimate restore 1 additional Skill Point, and increasing the Skill Point cap by a further 1. This is indirectly better since Sparkle's Ultimate already restores more SP by default than you would previously have been able to restore with her E4. Now if you have the E4 you can restore 7 SP instantly. Crazy.\n Lastly, the E6 is also unchanged, but like the E4 is also indirectly buffed due to Sparkle's base kit being so much better now. The CRIT DMG Boost from the Skill additionally increases by 30% of Sparkle's CRIT DMG. When using Skill, the CRIT DMG Boost will apply to all allies with Cipher, and when using her Ultimate, any ally who is already boosted by the Skill will spread those effects to those affected by Cipher.\n It's just more and more benefits on top of what you already had, but E6 is of course somewhat of a daunting thing to try and go for. Only the naïve Fools who think they can 'fix' Sparkle would start the journey, but only the enlightened ones who realise Sparkle could make them worse will finish it.\n You're all insane.",
+      "assets": []
+    },
+    {
+      "id": "the-rest-26",
+      "level": 6,
+      "heading": "[The Rest]",
+      "text": "So what does all this mean for our Elated 'friend'? Well I think it's pretty simple. I think it means she's an absolute powerhouse of a support unit now.\n Of course the biggest winners from this (besides Sparkle herself, of course) are Archer and any future SP negative DPS. Archer is already doing very well for himself, but this will skyrocket his performance quite substantially.\n Naturally this will extend to future DPS as mentioned, but could also be quite good for some older DPS like Seele or Imbibitor Lunae should they ever get a Novaflare of their own.\n But I think it's important to separate Sparkle from those SP fiends, because quite simply, she's just incredible in any CRIT based team now. It really doesn't matter if your DPS isn't able to consume all those Skill Points that Sparkle generates, because guess what, other characters and supports often like to use SP as well, and Sparkle has enough for pretty much everyone.\n This means that at a baseline, I would argue that Sparkle is actually more easily utilised than her Action Advancing competitors of Bronya and Sunday. Her buffs are actually stronger than theirs as well as long as you're not needing the Energy from Sunday.\n Having such vast SP reserves can make it a lot easier to play everyone on the team, not just whoever your DPS is, and Sparkle gets to give very appreciated ways of buffing team damage — ways that synergise much better than just raw DMG% boosts.\n Additionally, since Sparkle's Action Advance is only 50%, there are many more ways to speed tune her that don't feel abysmal, and playing speedier characters alongside her is less daunting than with either of the other two Advancing Harmony units.\n Now, obviously, if you're going for something specific, there's a high likelihood that you will still want a 100% Action Advance, and the depths of Bronya's theorycrafting possibilities are quite possibly fathomless, so for the five or so of us who know how to make use of that, Sparkle won't be able to replace that.\n And, if you're in the market for a particularly Energy hungry DPS like Saber, it's fairly unlikely that you will find a compelling argument to replace Sunday either, as his percentage based Energy restore is just far too good to pass up, in addition to him being fairly SP neutral after the start of the fight.\n But consider this: if you are not specifically after these unique benefits from these two Harmonys, then you are quite likely to be dealing more damage with Sparkle in the team, not just for the superior damage buffs, but also because you will never ever have SP issues, meaning your team rotations can be maintained very easily and consistently. This could also then make actual team gearing easier since you're not having to accommodate for turns in which you HAVE to restore SP, since it'll just sort of happen on its own.\n Consider this also: you have multiple teammate slots! You can genuinely play Sparkle alongside either Bronya or Sunday and see massive success; you will naturally offset the SP expenditure because of what Sparkle does, and Sparkle's buffs actually don't conflict with those two. Vulnerability and All-Type RES PEN are not offered by Bronya or Sunday, who predominantly offer large DMG% Boosts in addition to similar CRIT DMG Boosts.\n If you have a DPS who benefits from sheer turn count, you could very easily slot in Sparkle alongside one of those and have a very powerful team. Hell, you could even use all three at once if you're not interested in running a sustain unit, and just constantly pull up the DPS to hit things. Granted, that probably won't work with someone like Archer, you do still need SOME time to get SP back, but for any normal DPS, this can be very funny and surprisingly effective.\n Or, perhaps you have a DPS who really benefits from Cerydra? Having the Skill Points to allow Cerydra to spam out her Skill for extra Military Merit and Energy for her Ultimate can be a great way to accelerate the power of that team as well, even if it's at the cost of not having a full Action Advance.\n Outside of the specific scenarios in which Bronya or Sunday are preferred for their unique benefits, Sparkle is... kinda just better now. She even plays well with other supports, whether they're Harmony or Nihility, and she slots in easily and hassle-free. It's so damn good.\n It just works™.",
+      "assets": []
+    },
+    {
+      "id": "why-so-serious-27",
+      "level": 6,
+      "heading": "[Why so serious?]",
+      "text": "Honestly I'm just extremely glad that this round of Novaflare is as good as it is, it really is fantastic.\n This does of course mean that we are likely to see more characters who like to scoff SP like they're at a free cheese tasting board at Waitrose. We already have an inkling of how that might go, and for those specific characters, Sparkle is just undeniably going to be the best-in-slot.\n But as mentioned, she's so good now that you can just use her wherever, and it'll probably work (and work WELL).\n Go forth, spread the good name of Ela — I mean... 'Harmony', of course, and laugh your heart out, for revenge has been had, Chicken-wing Boy.",
+      "assets": []
+    },
+    {
+      "id": "ratings-28",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n T0\n MoC\n\n T0.5\n PF\n\n T0.5\n AS\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "best-light-cones-30",
+      "level": 2,
+      "heading": "Best Light Cones",
+      "text": "1\n\n A Grounded Ascent (S 1 )\n\n Best in slot for teams that require heavy Skill Point usage. Potentially enables faster Ultimates with extra Energy, provides an ally with ramping DMG buff up to 45%, and additionally restores 1 Skill Point every 2 turns. Note: DMG buffs do not affect Elation DMG.\n Usage: 14.47 %\n MoC: 10 cyc.\n PF: 33440\n AS: 3379\n\n 2\n\n Earthly Escapade (S 1 )\n\n Sparkle's Signature offers strong CRIT buffs for the entire team but is generally not recommended to pull as it lacks other utilities like teamwide Action Advance, or faster Ultimates.\n Usage: 35.61 %\n MoC: 8.6 cyc.\n PF: 30225\n AS: 3440\n\n 3\n\n Dance! Dance! Dance! (S 5 )\n\n One of the strongest option if played built around and utilized correctly, allows Sparkle and her teammates to achieve certain Action Value breakpoints, allowing for more turns within a cycle.\n Usage: 37.53 %\n MoC: 8.38 cyc.\n PF: 29560\n AS: 3398\n\n 4\n\n But the Battle Isn't Over (S 1 )\n\n An alternative option for Skill Point dependent teams. When used correctly, it can provide the target of her Skill with extra DMG boost, and offers 1 SP restoration every once in a while.\n Usage: 6.25 %\n MoC: 8 cyc.\n PF: 29444\n AS: 3325",
+      "assets": [
+        {
+          "id": "e88861d2cf9f",
+          "sourceHash": "e88861d2cf9f",
+          "kind": "light-cones",
+          "name": "A Grounded Ascent",
+          "fileStem": "a-grounded-ascent",
+          "path": "Prydwen/hsr/assets/light-cones/a-grounded-ascent-e88861d2cf9f.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "517c502052ae",
+          "sourceHash": "517c502052ae",
+          "kind": "light-cones",
+          "name": "Earthly Escapade",
+          "fileStem": "earthly-escapade",
+          "path": "Prydwen/hsr/assets/light-cones/earthly-escapade-517c502052ae.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "51329378b0cb",
+          "sourceHash": "51329378b0cb",
+          "kind": "light-cones",
+          "name": "Dance! Dance! Dance!",
+          "fileStem": "dance-dance-dance",
+          "path": "Prydwen/hsr/assets/light-cones/dance-dance-dance-51329378b0cb.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "5524dabe1c9b",
+          "sourceHash": "5524dabe1c9b",
+          "kind": "light-cones",
+          "name": "But the Battle Isn't Over",
+          "fileStem": "but-the-battle-isnt-over",
+          "path": "Prydwen/hsr/assets/light-cones/but-the-battle-isnt-over-5524dabe1c9b.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-relic-sets-32",
+      "level": 2,
+      "heading": "Best Relic Sets",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Sacerdos' Relived Ordeal ( 4 -PC)\n\n Strong and easy to use support set for Sparkle, granting her ally 36% CRIT DMG buff and also increases her SPD.\n Usage: 51.87 %\n MoC: 8.43 cyc.\n PF: 30648\n AS: 3399\n\n 2\n\n Eagle of Twilight Line ( 4 -PC)\n\n Best option for those aiming to hit Action Value breakpoints on Sparkle as it effectively offers the most SPD. Make sure not to use her Ultimate during her own turn or when her next turn is close. Check out the recommended stats section to see how much SPD you should reach.\n Usage: 24.43 %\n MoC: 9 cyc.\n PF: 27400\n AS: 3415\n\n 3\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Usage: 1.73 %\n MoC: -\n PF: 32400\n AS: 3661",
+      "assets": [
+        {
+          "id": "5cb190fcc346",
+          "sourceHash": "5cb190fcc346",
+          "kind": "relics",
+          "name": "Sacerdos' Relived Ordeal",
+          "fileStem": "sacerdos-relived-ordeal",
+          "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "36af28ceb2d3",
+          "sourceHash": "36af28ceb2d3",
+          "kind": "relics",
+          "name": "Eagle of Twilight Line",
+          "fileStem": "eagle-of-twilight-line",
+          "path": "Prydwen/hsr/assets/relics/eagle-of-twilight-line-36af28ceb2d3.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "4cb8065ad660",
+          "sourceHash": "4cb8065ad660",
+          "kind": "relics",
+          "name": "Messenger Traversing Hackerspace",
+          "fileStem": "messenger-traversing-hackerspace",
+          "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "19b06ffee878",
+          "sourceHash": "19b06ffee878",
+          "kind": "relics",
+          "name": "Diviner of Distant Reach",
+          "fileStem": "diviner-of-distant-reach",
+          "path": "Prydwen/hsr/assets/relics/diviner-of-distant-reach-19b06ffee878.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "2f8ec1684b6b",
+          "sourceHash": "2f8ec1684b6b",
+          "kind": "relics",
+          "name": "Warrior Goddess of Sun and Thunder",
+          "fileStem": "warrior-goddess-of-sun-and-thunder",
+          "path": "Prydwen/hsr/assets/relics/warrior-goddess-of-sun-and-thunder-2f8ec1684b6b.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-planetary-sets-33",
+      "level": 6,
+      "heading": "Best Planetary Sets",
+      "text": "1\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Strong when supporting a single ATK based DPS character and when Energy Regen is useful.\n Usage: 46.41 %\n MoC: 9 cyc.\n PF: 30666\n AS: 3412\n\n 2\n\n Broken Keel ( 2 -PC)\n\n Useful when seeking additional Effect RES and or when supporting CRIT based team mates. Requires atleast 30% Effect Res to be useful.\n Usage: 26.61 %\n MoC: 8.5 cyc.\n PF: 30088\n AS: 3387\n\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top pick when when supporting one or many teammates of the same element as the wearer and when Energy Regen is useful.\n Usage: 7.08 %\n MoC: 9.5 cyc.\n PF: 27480\n AS: 3393",
+      "assets": [
+        {
+          "id": "d6aae5028c5a",
+          "sourceHash": "d6aae5028c5a",
+          "kind": "relics",
+          "name": "Lushaka, the Sunken Seas",
+          "fileStem": "lushaka-the-sunken-seas",
+          "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "3306e6f6288f",
+          "sourceHash": "3306e6f6288f",
+          "kind": "relics",
+          "name": "Broken Keel",
+          "fileStem": "broken-keel",
+          "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "d6cdb5f16b16",
+          "sourceHash": "d6cdb5f16b16",
+          "kind": "relics",
+          "name": "Penacony, Land of the Dreams",
+          "fileStem": "penacony-land-of-the-dreams",
+          "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-stats-35",
+      "level": 2,
+      "heading": "Best Stats",
+      "text": "Body\n CRIT DMG\n\n Feet\n Speed\n\n Planar Sphere\n HP%\n >= DEF%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (Until breakpoint OR as much as possible) > CRIT DMG% > HP = DEF = EFF RES% (30% if using Broken Keel)",
+      "assets": [
+        {
+          "id": "44c437b21b3a",
+          "sourceHash": "44c437b21b3a",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "106ddd8eff32",
+          "sourceHash": "106ddd8eff32",
+          "kind": "icons",
+          "name": "Energy Regen",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "recommended-endgame-stats-36",
+      "level": 2,
+      "heading": "Recommended endgame stats",
+      "text": "HP: 4000 - 4500+\n\n DEF: 800 - 1000+\n\n CRIT DMG: 175 - 210%+\n\n Energy Regen: 119.44%+\n\n SPD:\n We recommend building SPD on Sparkle optimized around gamemodes with Action Value cutoff in multiples of 150, that is, the first cycle in Memory of Chaos, and in Anomaly Arbitration. The goal is to achieve 3 turns within 150 Action Value, which requires 200 Effective SPD. However, when factoring in Action Advances, the threshold is much closer within reach. The most common sources that help with achieving this include:\n 24% Action Advance from Dance! Dance! Dance! Light Cone (DDD) can be held by Sparkle or other allies.\n\n 25% Action Advance from 4-Pc Eagle of Twilight Line\n\n 15% SPD buff from E1 (assuming you use Sparkle's Skill at least once every 2 turns)\n\n Here are the SPD thresholds to aim for:\n 200 SPD\n\n 184 SPD with 4-Pc Eagle OR S5 DDD,\n\n 167.4 SPD with both 4-Pc Eagle AND S5 DDD,\n\n When including permanent SPD buffs like Sparkle's E1 15% SPD or/and Ruan Mei's 10% SPD, reduce the number by 15 or/and 10, respectively.",
+      "assets": []
+    },
+    {
+      "id": "traces-priority-37",
+      "level": 2,
+      "heading": "Traces priority",
+      "text": "Skills priority: Skill > Ultimate = Talent > Basic\n\n Major Traces priority: Artificial Flower (A4) > Nocturne (A6) > Almanac (A2)",
+      "assets": []
+    },
+    {
+      "id": "eidolon-information-39",
+      "level": 2,
+      "heading": "Eidolon Information",
+      "text": "Eidolon 1: Provides an extra 40% teamwide ATK buff and 15% SPD buff on Sparkle, both of which can be maintained at full uptime easily. The extra SPD can allow Sparkle to equip other offensive Light Cone or Relic Sets while still reaching SPD thresholds. ATK buff is nice for most carries, althrough for Sparxie specficially it may be unnecessary.\n Eidolon 2: Permanent 30% DEF Shred on all enemies, at minimum 20% raw DPS increase, much stronger with additional DEF Shred. For those wanting their SP-intensive DPS to be stronger or those that love Sparkle, this is the recommended investment stopping point as any further Eidolons are too expensive for what they offer.\n Eidolon 4: 1 extra Skill Point recovery and cap. Nothing too significant.\n Eidolon 6: Her Skill's CRIT DMG becomes teamwide and has a much higher scaling at 54% of her CRIT DMG instead of 24%. Can allow Sparkle to effectively slot in comps with multiple damager dealers through she can only provide Action Advance on 1 ally.",
+      "assets": []
+    },
+    {
+      "id": "synergy-40",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Archer Dan Heng • Imbibitor Lunae Sparxie - Sparkle increases the Skill Point cap by 2, and restores 6 Skill Points(!) with her Ultimate for any SP-intensive characters to consume all and deal massive DMG. Her Skill can sync an ally's SPD up to her's (possibly without consuming any Skill Points), allowing them to ignore SPD and focus on damaging stats like ATK and CRIT. With her Skill buff lasting 2 turns and her Basic ATK regenerating 30 Energy, she can also use her Basic ATK to generate Skill Points without much downsides. Lastly, she offers strong damage amplification buffs for a single ally: ~100% CRIT DMG, 45% ATK, 10% All-Type RES PEN, and 30% DMG Vulnerability on enemies\n Sparxie - At the time of her release, the double Sparkle duo is the best way to play Sparxie. Sparkle increases the Skill Point cap and regenerates 6 with her Ultimate, all while consuming possibly 0 Skill Points, allowing Sparxie to use all Skill Points for her Enhanced Basic ATK. Her ATK buff and Action Advance allows Sparxie to ignore SPD and focus on CRIT and even Energy Regeneration Rate since any ATK past 3,600 has minimal gains. Sparkle also offers some of the strongest amplification buffs in the game: ~100% CRIT DMG, 10% All-Type RES PEN, 30% DMG Vulnerability on enemies.",
+      "assets": [
+        {
+          "id": "5ff31ffb6345",
+          "sourceHash": "5ff31ffb6345",
+          "kind": "characters",
+          "name": "Archer",
+          "fileStem": "archer-icon",
+          "path": "Prydwen/hsr/assets/characters/archer-5ff31ffb6345.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "0ed3dbce2c95",
+          "sourceHash": "0ed3dbce2c95",
+          "kind": "characters",
+          "name": "Dan Heng • Imbibitor Lunae",
+          "fileStem": "imbibitor-lunae-icon",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-imbibitor-lunae-0ed3dbce2c95.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "7fc1b269fb6f",
+          "sourceHash": "7fc1b269fb6f",
+          "kind": "characters",
+          "name": "Sparxie",
+          "fileStem": "sparxie-icon",
+          "path": "Prydwen/hsr/assets/characters/sparxie-7fc1b269fb6f.webp",
+          "width": 45,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "id": "anomaly-arbitration-45",
+      "level": 6,
+      "heading": "Anomaly Arbitration",
+      "text": "Rank 15\n App. rate: 1.97 %\n Avg. cycles : 7.29\n Avg. cycles (E1+): 3.28\n\n Rank 24\n App. rate: 1.07 %\n Avg. cycles : 8\n Avg. cycles (E1+): 6.01\n\n Rank 26\n App. rate: 0.98 %\n Avg. cycles : 10\n Avg. cycles (E1+): 6.05\n\n Rank 34\n App. rate: 0.72 %\n Avg. cycles : 8.77\n Avg. cycles (E1+): 6.47\n\n Rank 39\n App. rate: 0.63 %\n Avg. cycles : 8.75\n Avg. cycles (E1+): 5.89\n\n Rank 40\n App. rate: 0.58 %\n Avg. cycles : 8.8\n Avg. cycles (E1+): 5.67\n\n Rank 41\n App. rate: 0.57 %\n Avg. cycles : 9\n Avg. cycles (E1+): 5.44\n\n Rank 42\n App. rate: 0.53 %\n Avg. cycles : 9.25\n Avg. cycles (E1+): 6.17\n\n Rank 50\n App. rate: 0.43 %\n Avg. cycles : 10\n Avg. cycles (E1+): 6.17\n\n Rank 58\n App. rate: 0.36 %\n Avg. cycles : 10\n Avg. cycles (E1+): 3.4",
+      "assets": [
+        {
+          "id": "bdd27122e011",
+          "sourceHash": "bdd27122e011",
+          "kind": "characters",
+          "name": "Phainon",
+          "fileStem": "phainon-icon",
+          "path": "Prydwen/hsr/assets/characters/phainon-bdd27122e011.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0db16ed6c66",
+          "sourceHash": "e0db16ed6c66",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "ele-physical",
+          "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "1b219ef71829",
+          "sourceHash": "1b219ef71829",
+          "kind": "characters",
+          "name": "Cerydra",
+          "fileStem": "cerydra-icon",
+          "path": "Prydwen/hsr/assets/characters/cerydra-1b219ef71829.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ee11bd390c9a",
+          "sourceHash": "ee11bd390c9a",
+          "kind": "icons",
+          "name": "Wind",
+          "fileStem": "ele-wind",
+          "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "da99d2d9a505",
+          "sourceHash": "da99d2d9a505",
+          "kind": "characters",
+          "name": "Sparkle",
+          "fileStem": "sparkle-icon",
+          "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "565914d1a436",
+          "sourceHash": "565914d1a436",
+          "kind": "icons",
+          "name": "Quantum",
+          "fileStem": "ele-quantum",
+          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "3d568cb7f29d",
+          "sourceHash": "3d568cb7f29d",
+          "kind": "characters",
+          "name": "Sunday",
+          "fileStem": "sunday-icon",
+          "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "913ff64407f2",
+          "sourceHash": "913ff64407f2",
+          "kind": "icons",
+          "name": "Imaginary",
+          "fileStem": "ele-imaginary",
+          "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "abea49c1784d",
+          "sourceHash": "abea49c1784d",
+          "kind": "characters",
+          "name": "Evanescia",
+          "fileStem": "evanescia-icon",
+          "path": "Prydwen/hsr/assets/characters/evanescia-abea49c1784d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "c721ded1f2e0",
+          "sourceHash": "c721ded1f2e0",
+          "kind": "characters",
+          "name": "Trailblazer • Elation",
+          "fileStem": "trailblazer-elation-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-elation-c721ded1f2e0.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d197456869a0",
+          "sourceHash": "d197456869a0",
+          "kind": "icons",
+          "name": "Lightning",
+          "fileStem": "ele-lightning",
+          "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "c4a9c00e98ef",
+          "sourceHash": "c4a9c00e98ef",
+          "kind": "characters",
+          "name": "Huohuo",
+          "fileStem": "huohuo-icon",
+          "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5ff31ffb6345",
+          "sourceHash": "5ff31ffb6345",
+          "kind": "characters",
+          "name": "Archer",
+          "fileStem": "archer-icon",
+          "path": "Prydwen/hsr/assets/characters/archer-5ff31ffb6345.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "2cde7699adbf",
+          "sourceHash": "2cde7699adbf",
+          "kind": "characters",
+          "name": "Tribbie",
+          "fileStem": "tribbie-icon",
+          "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "714348f14d48",
+          "sourceHash": "714348f14d48",
+          "kind": "characters",
+          "name": "Dan Heng • Permansor Terrae",
+          "fileStem": "dan-heng-permansor-terrae-icon",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7fc1b269fb6f",
+          "sourceHash": "7fc1b269fb6f",
+          "kind": "characters",
+          "name": "Sparxie",
+          "fileStem": "sparxie-icon",
+          "path": "Prydwen/hsr/assets/characters/sparxie-7fc1b269fb6f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "92feb26d8f0e",
+          "sourceHash": "92feb26d8f0e",
+          "kind": "icons",
+          "name": "Fire",
+          "fileStem": "ele-fire",
+          "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "965df81b835a",
+          "sourceHash": "965df81b835a",
+          "kind": "characters",
+          "name": "Yao Guang",
+          "fileStem": "yao-guang-icon",
+          "path": "Prydwen/hsr/assets/characters/yao-guang-965df81b835a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f54da6170f38",
+          "sourceHash": "f54da6170f38",
+          "kind": "characters",
+          "name": "Silver Wolf • Lv. 999",
+          "fileStem": "silver-wolf-lv-999-icon",
+          "path": "Prydwen/hsr/assets/characters/silver-wolf-lv-999-f54da6170f38.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7eec89c1a7e2",
+          "sourceHash": "7eec89c1a7e2",
+          "kind": "characters",
+          "name": "Silver Wolf",
+          "fileStem": "silver-wolf-icon",
+          "path": "Prydwen/hsr/assets/characters/silver-wolf-7eec89c1a7e2.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d3e344772d55",
+          "sourceHash": "d3e344772d55",
+          "kind": "characters",
+          "name": "Trailblazer • Remembrance",
+          "fileStem": "trailblazer-remembrance-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7d36eb39792a",
+          "sourceHash": "7d36eb39792a",
+          "kind": "icons",
+          "name": "Ice",
+          "fileStem": "ele-ice",
+          "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+          "width": 22,
+          "height": 22
+        }
+      ]
+    },
+    {
+      "id": "video-guides-46",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "MoC/PF/AS Statistics",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-light-cones": {
+      "label": "Best Light Cones",
+      "sections": [
+        {
+          "heading": "Best Light Cones",
+          "text": "1\n\n A Grounded Ascent (S 1 )\n\n Best in slot for teams that require heavy Skill Point usage. Potentially enables faster Ultimates with extra Energy, provides an ally with ramping DMG buff up to 45%, and additionally restores 1 Skill Point every 2 turns. Note: DMG buffs do not affect Elation DMG.\n Usage: 14.47 %\n MoC: 10 cyc.\n PF: 33440\n AS: 3379\n\n 2\n\n Earthly Escapade (S 1 )\n\n Sparkle's Signature offers strong CRIT buffs for the entire team but is generally not recommended to pull as it lacks other utilities like teamwide Action Advance, or faster Ultimates.\n Usage: 35.61 %\n MoC: 8.6 cyc.\n PF: 30225\n AS: 3440\n\n 3\n\n Dance! Dance! Dance! (S 5 )\n\n One of the strongest option if played built around and utilized correctly, allows Sparkle and her teammates to achieve certain Action Value breakpoints, allowing for more turns within a cycle.\n Usage: 37.53 %\n MoC: 8.38 cyc.\n PF: 29560\n AS: 3398\n\n 4\n\n But the Battle Isn't Over (S 1 )\n\n An alternative option for Skill Point dependent teams. When used correctly, it can provide the target of her Skill with extra DMG boost, and offers 1 SP restoration every once in a while.\n Usage: 6.25 %\n MoC: 8 cyc.\n PF: 29444\n AS: 3325",
+          "assets": [
+            {
+              "id": "e88861d2cf9f",
+              "sourceHash": "e88861d2cf9f",
+              "kind": "light-cones",
+              "name": "A Grounded Ascent",
+              "fileStem": "a-grounded-ascent",
+              "path": "Prydwen/hsr/assets/light-cones/a-grounded-ascent-e88861d2cf9f.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "517c502052ae",
+              "sourceHash": "517c502052ae",
+              "kind": "light-cones",
+              "name": "Earthly Escapade",
+              "fileStem": "earthly-escapade",
+              "path": "Prydwen/hsr/assets/light-cones/earthly-escapade-517c502052ae.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "51329378b0cb",
+              "sourceHash": "51329378b0cb",
+              "kind": "light-cones",
+              "name": "Dance! Dance! Dance!",
+              "fileStem": "dance-dance-dance",
+              "path": "Prydwen/hsr/assets/light-cones/dance-dance-dance-51329378b0cb.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "5524dabe1c9b",
+              "sourceHash": "5524dabe1c9b",
+              "kind": "light-cones",
+              "name": "But the Battle Isn't Over",
+              "fileStem": "but-the-battle-isnt-over",
+              "path": "Prydwen/hsr/assets/light-cones/but-the-battle-isnt-over-5524dabe1c9b.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-relic-sets": {
+      "label": "Best Relic Sets",
+      "sections": [
+        {
+          "heading": "Best Relic Sets",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Sacerdos' Relived Ordeal ( 4 -PC)\n\n Strong and easy to use support set for Sparkle, granting her ally 36% CRIT DMG buff and also increases her SPD.\n Usage: 51.87 %\n MoC: 8.43 cyc.\n PF: 30648\n AS: 3399\n\n 2\n\n Eagle of Twilight Line ( 4 -PC)\n\n Best option for those aiming to hit Action Value breakpoints on Sparkle as it effectively offers the most SPD. Make sure not to use her Ultimate during her own turn or when her next turn is close. Check out the recommended stats section to see how much SPD you should reach.\n Usage: 24.43 %\n MoC: 9 cyc.\n PF: 27400\n AS: 3415\n\n 3\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Usage: 1.73 %\n MoC: -\n PF: 32400\n AS: 3661",
+          "assets": [
+            {
+              "id": "5cb190fcc346",
+              "sourceHash": "5cb190fcc346",
+              "kind": "relics",
+              "name": "Sacerdos' Relived Ordeal",
+              "fileStem": "sacerdos-relived-ordeal",
+              "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "36af28ceb2d3",
+              "sourceHash": "36af28ceb2d3",
+              "kind": "relics",
+              "name": "Eagle of Twilight Line",
+              "fileStem": "eagle-of-twilight-line",
+              "path": "Prydwen/hsr/assets/relics/eagle-of-twilight-line-36af28ceb2d3.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "4cb8065ad660",
+              "sourceHash": "4cb8065ad660",
+              "kind": "relics",
+              "name": "Messenger Traversing Hackerspace",
+              "fileStem": "messenger-traversing-hackerspace",
+              "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "19b06ffee878",
+              "sourceHash": "19b06ffee878",
+              "kind": "relics",
+              "name": "Diviner of Distant Reach",
+              "fileStem": "diviner-of-distant-reach",
+              "path": "Prydwen/hsr/assets/relics/diviner-of-distant-reach-19b06ffee878.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "2f8ec1684b6b",
+              "sourceHash": "2f8ec1684b6b",
+              "kind": "relics",
+              "name": "Warrior Goddess of Sun and Thunder",
+              "fileStem": "warrior-goddess-of-sun-and-thunder",
+              "path": "Prydwen/hsr/assets/relics/warrior-goddess-of-sun-and-thunder-2f8ec1684b6b.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-planetary-sets": {
+      "label": "Best Planetary Sets",
+      "sections": [
+        {
+          "heading": "Best Planetary Sets",
+          "text": "1\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Strong when supporting a single ATK based DPS character and when Energy Regen is useful.\n Usage: 46.41 %\n MoC: 9 cyc.\n PF: 30666\n AS: 3412\n\n 2\n\n Broken Keel ( 2 -PC)\n\n Useful when seeking additional Effect RES and or when supporting CRIT based team mates. Requires atleast 30% Effect Res to be useful.\n Usage: 26.61 %\n MoC: 8.5 cyc.\n PF: 30088\n AS: 3387\n\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top pick when when supporting one or many teammates of the same element as the wearer and when Energy Regen is useful.\n Usage: 7.08 %\n MoC: 9.5 cyc.\n PF: 27480\n AS: 3393",
+          "assets": [
+            {
+              "id": "d6aae5028c5a",
+              "sourceHash": "d6aae5028c5a",
+              "kind": "relics",
+              "name": "Lushaka, the Sunken Seas",
+              "fileStem": "lushaka-the-sunken-seas",
+              "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "3306e6f6288f",
+              "sourceHash": "3306e6f6288f",
+              "kind": "relics",
+              "name": "Broken Keel",
+              "fileStem": "broken-keel",
+              "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "d6cdb5f16b16",
+              "sourceHash": "d6cdb5f16b16",
+              "kind": "relics",
+              "name": "Penacony, Land of the Dreams",
+              "fileStem": "penacony-land-of-the-dreams",
+              "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-stats": {
+      "label": "Best Stats",
+      "sections": [
+        {
+          "heading": "Best Stats",
+          "text": "Body\n CRIT DMG\n\n Feet\n Speed\n\n Planar Sphere\n HP%\n >= DEF%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (Until breakpoint OR as much as possible) > CRIT DMG% > HP = DEF = EFF RES% (30% if using Broken Keel)",
+          "assets": [
+            {
+              "id": "44c437b21b3a",
+              "sourceHash": "44c437b21b3a",
+              "kind": "icons",
+              "name": "CRIT DMG",
+              "fileStem": "stat-critdmg",
+              "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "087f2dec68b6",
+              "sourceHash": "087f2dec68b6",
+              "kind": "icons",
+              "name": "Speed",
+              "fileStem": "stat-speed",
+              "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "96654253a4f7",
+              "sourceHash": "96654253a4f7",
+              "kind": "icons",
+              "name": "HP",
+              "fileStem": "stat-hp",
+              "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "a6be649090ba",
+              "sourceHash": "a6be649090ba",
+              "kind": "icons",
+              "name": "DEF",
+              "fileStem": "stat-def",
+              "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "106ddd8eff32",
+              "sourceHash": "106ddd8eff32",
+              "kind": "icons",
+              "name": "Energy Regen",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        }
+      ]
+    },
+    "recommended-endgame-stats": {
+      "label": "Recommended endgame stats",
+      "sections": [
+        {
+          "heading": "Recommended endgame stats",
+          "text": "HP: 4000 - 4500+\n\n DEF: 800 - 1000+\n\n CRIT DMG: 175 - 210%+\n\n Energy Regen: 119.44%+\n\n SPD:\n We recommend building SPD on Sparkle optimized around gamemodes with Action Value cutoff in multiples of 150, that is, the first cycle in Memory of Chaos, and in Anomaly Arbitration. The goal is to achieve 3 turns within 150 Action Value, which requires 200 Effective SPD. However, when factoring in Action Advances, the threshold is much closer within reach. The most common sources that help with achieving this include:\n 24% Action Advance from Dance! Dance! Dance! Light Cone (DDD) can be held by Sparkle or other allies.\n\n 25% Action Advance from 4-Pc Eagle of Twilight Line\n\n 15% SPD buff from E1 (assuming you use Sparkle's Skill at least once every 2 turns)\n\n Here are the SPD thresholds to aim for:\n 200 SPD\n\n 184 SPD with 4-Pc Eagle OR S5 DDD,\n\n 167.4 SPD with both 4-Pc Eagle AND S5 DDD,\n\n When including permanent SPD buffs like Sparkle's E1 15% SPD or/and Ruan Mei's 10% SPD, reduce the number by 15 or/and 10, respectively.",
+          "assets": []
+        }
+      ]
+    },
+    "traces-priority": {
+      "label": "Traces priority",
+      "sections": [
+        {
+          "heading": "Traces priority",
+          "text": "Skills priority: Skill > Ultimate = Talent > Basic\n\n Major Traces priority: Artificial Flower (A4) > Nocturne (A6) > Almanac (A2)",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Archer Dan Heng • Imbibitor Lunae Sparxie - Sparkle increases the Skill Point cap by 2, and restores 6 Skill Points(!) with her Ultimate for any SP-intensive characters to consume all and deal massive DMG. Her Skill can sync an ally's SPD up to her's (possibly without consuming any Skill Points), allowing them to ignore SPD and focus on damaging stats like ATK and CRIT. With her Skill buff lasting 2 turns and her Basic ATK regenerating 30 Energy, she can also use her Basic ATK to generate Skill Points without much downsides. Lastly, she offers strong damage amplification buffs for a single ally: ~100% CRIT DMG, 45% ATK, 10% All-Type RES PEN, and 30% DMG Vulnerability on enemies\n Sparxie - At the time of her release, the double Sparkle duo is the best way to play Sparxie. Sparkle increases the Skill Point cap and regenerates 6 with her Ultimate, all while consuming possibly 0 Skill Points, allowing Sparxie to use all Skill Points for her Enhanced Basic ATK. Her ATK buff and Action Advance allows Sparxie to ignore SPD and focus on CRIT and even Energy Regeneration Rate since any ATK past 3,600 has minimal gains. Sparkle also offers some of the strongest amplification buffs in the game: ~100% CRIT DMG, 10% All-Type RES PEN, 30% DMG Vulnerability on enemies.",
+          "assets": [
+            {
+              "id": "5ff31ffb6345",
+              "sourceHash": "5ff31ffb6345",
+              "kind": "characters",
+              "name": "Archer",
+              "fileStem": "archer-icon",
+              "path": "Prydwen/hsr/assets/characters/archer-5ff31ffb6345.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "0ed3dbce2c95",
+              "sourceHash": "0ed3dbce2c95",
+              "kind": "characters",
+              "name": "Dan Heng • Imbibitor Lunae",
+              "fileStem": "imbibitor-lunae-icon",
+              "path": "Prydwen/hsr/assets/characters/dan-heng-imbibitor-lunae-0ed3dbce2c95.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "7fc1b269fb6f",
+              "sourceHash": "7fc1b269fb6f",
+              "kind": "characters",
+              "name": "Sparxie",
+              "fileStem": "sparxie-icon",
+              "path": "Prydwen/hsr/assets/characters/sparxie-7fc1b269fb6f.webp",
+              "width": 45,
+              "height": 45
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Sparkle Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Sparkle\n Sparkle Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Sparkle from HSR (Honkai: Star Rail). Sparkle is a 5 ★ character from the Quantum element who follows the Path of Harmony .\n A member of the Masked Fools. Inscrutable and unscrupulous. A dangerous master of theatrics engrossed in playing roles. A woman of countless masks and many faces.\nWealth, status, power... None of this matters to Sparkle. The only thing that can lure her interest is \"amusement.\"\n\n To learn more about Sparkle check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Sparkle has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 4.0\n\n Last major build/calcs update\n Patch 4.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Sparkle check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Monodrama\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Quantum DMG equal to #1[i]% of Sparkle's ATK to one designated enemy.\n\n Skill\n Dreamdiver\n Support\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Increases the CRIT DMG of a designated ally by #1[i]% of Sparkle's CRIT DMG plus #2[i]%, lasting for 2 turn(s). And at the same time, advances this ally's action by 50%.\nWhen Sparkle uses this ability on herself, the Action Advance effect will not trigger.\n\n Ultimate\n The Hero with a Thousand Faces\n Support | 110 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: -\n\n Recovers 6 Skill Point(s) for allies. If Skill Points overflow during recovery, the excess points will be recorded, up to a max of 10 points. When an ally character's turn ends, if Skill Points are below the maximum, Sparkle consumes the recorded value to recover Skill Points until the upper limit is reached. Then, grants all allies \"Cipher.\" For ally targets with \"Cipher,\" each stack of the DMG Boost against enemies provided by Sparkle's Talent additionally increases by #1[i]%, per stack, lasting for 3 turn(s).\n\n Talent\n Red Herring\n Support\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n While Sparkle is on the battlefield, additionally increases the max number of Skill Points by 2. Whenever an ally target consumes 1 Skill Point, Sparkle gains 1 stack of \"Figment,\" with each stack increasing the DMG taken by all enemies by #1[i]%. This effect lasts for 2 turn(s) and can stack up to 3 time(s).\n\n Technique\n Unreliable Narrator\n Support\n\n Energy gain: 0\n Break: -\n\n Using the Technique grants all allies Misdirect for #2[i] seconds. Characters with Misdirect will not be detected by enemies, and entering battle in the Misdirect state recovers #1[i] Skill Point(s) for the team and regenerates #2[i] Energy for Sparkle.\n\n Major Traces\n A2 Major trace\n Almanac\n\n Using Basic ATK additionally regenerates 10 Energy. When an ally character who holds the CRIT DMG Boost effect provided by the Skill consumes Skill Points, Sparkle additionally regenerates 1 Energy.\n\n A4 Major trace\n Artificial Flower\n\n If an ally character consumes 3 or more Skill Points in a single turn, Sparkle's next use of Skill will not consume Skill Points.\n\n A6 Major trace\n Nocturne\n\n Increases all allies's ATK by 45% . When an ally character holds the CRIT DMG Boost effect provided by the Skill, All-Type RES PEN increases by 10% .\n\n Minor Traces (total)\n HP\n + 28%\n\n CRIT DMG\n + 24%\n\n Effect RES\n + 10%\n\n Eidolons\n E 1\n Suspension of Disbelief\n Eidolon 1\n\n Increases the ATK of ally targets with \"Cipher\" by 40% . When the battle starts or when using Skill, increases Sparkle's SPD by 15% , lasting for 2 turn(s).\n\n E 2\n Purely Fictitious\n Eidolon 2\n\n Each stack of the Talent's effect additionally reduces the enemy target's DEF by 10% .\n\n E 3\n Pipedream\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Life Is a Gamble\n Eidolon 4\n\n The Ultimate recovers 1 more Skill Point. The Talent additionally increases the Max Skill Points by 1 .\n\n E 5\n Parallax Truth\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Narrative Polysemy\n Eidolon 6\n\n The CRIT DMG Boost effect provided by the Skill additionally increases by an amount equal to 30% of Sparkle's CRIT DMG. When Sparkle uses Skill, her Skill's CRIT DMG Boost effect will apply to all teammates with \"Cipher.\" When Sparkle uses her Ultimate, any single ally who benefits from her Skill's CRIT DMG Boost will spread that effect to teammates with \"Cipher.\"\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1397\n\n ATK\n\n 523\n\n DEF\n\n 485\n\n Speed\n\n 101\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 308000\n\n Tatters of Thought\n\n x 15\n\n Fragments of Impression\n\n x 15\n\n Dream Flamer\n\n x 65\n\n Shards of Desires\n\n x 15\n\n CV\n ENG\n Lizzie Freeman\n\n JPN\n 上田丽奈 (Ueda Reina)\n\n CN\n 赵爽 (Zhao Shuang)\n\n KR\n 성예원 (Sung Ye-won)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Excellent undiluted buffs in DMG Vulnerability and All-Type RES PEN,\n\n Literal Skill Point printer with her Ultimate even accounting for SP overflow,\n\n Provides an ally with huge CRIT DMG and 50% Action Advance,\n\n Skill's buffs last for 2 full turns,\n\n Good Energy economy,\n\n Reliable support buffer for very SP negative teams or characters,\n\n Her buffs are perfect for working with the new Elation Path characters and mechanics,\n\n Great value Eidolons.\n\n Cons\n Stuck at only having a 50% Action Advance instead of the full 100%,\n\n Can't replace Sunday's Energy generation when that's needed,\n\n Still short womp womp.\n\n Review (By Sushou)\n Sparkle is a wonderfully unhinged gremlin following the Path of Harmony... allegedly. She's an Action Advancer with a specialty in extreme Skill Point generation. This comes with the added benefit of CRIT DMG boosts, Vulnerability, and even a bit of All-Type RES PEN. She is extremely strong for general CRIT based teams, and absolutely invaluable for teams with high SP consumption.\n [Intro]\n 'If Novaflare was so good, how come there isn't a second — WOOA—'\n Live reaction right there. Yes, to the joy of everyone, they're back at it again with a second Novaflare targeting Black Swan and Sparkle.\n Sparkle has been in a very interesting situation every since her release. I say interesting but really I mean upsetting; she stole her way into players' hearts but never really managed to steal her way into the meta anywhere near as decisively as her Harmony competitors.\n Imbibitor Lunae's falloff must be studied, Seele has had better options pretty much the whole time, and Qingque just couldn't keep up with the rest of the game (much to my absolute grief). It wasn't really until Archer walked into the wrong universe that Sparkle saw a big boom.\n Even in that team, it can feel a little tricky to make the most of her buffs, especially since Sparkle is not really as SP positive as she initially seems, mostly because she needs to use her Skill for both the buffs and the Energy for her Ultimate. It's not bad, but it could be better, and the increased SP limit she provides is very important for the absurd SP consumption that Archer has.\n These issues have been identified and then violently hammered into a more agreeable shape. Or maybe Sparkle got tired of pretending to be weak. Either way, the buffs that Sparkle has received are nothing short of immaculate.\n To all present and future SP negative units, take note of your archetype's newly appointed queen.\n [Abilities]\n Sparkle's biggest draw has always been her ability to restore SP on demand with her Ultimate, as well as her benefit of increasing the SP maximum of the whole team. Her Action Advance is also very good given what it does, but it being only a 50% Advance compared to the 100% Advance provided by Sunday or Bronya made Sparkle's version less coveted.\n While the amount of Action Advance has not been changed, there are now myriad other benefits that Sparkle provides that more than offset that difference.\n Sparkle's Skill increases the CRIT DMG of an ally by 24% of Sparkle's CRIT DMG plus 45%, lasting 2 turns, and simultaneously Action Advances them by 50%. This cannot Advance Sparkle herself.\n The astute of you will notice something different immediately: this buff now lasts for a full 2 turns at base. By far one of the most unwieldy aspects of this Skill was that the buff only lasted for a single turn, and an unexciting Bonus Trace extended this duration to... 'until the start of the next turn' which is functionally useless for many DPS units.\n Now this being a full 2 turns actually means it's something you can opt into using if you're trying to conserve SP or if you don't need the Action Advance, and this will no longer result in the very powerful buff falling off just before the critical turn.\n Sparkle's Talent has been tweaked. It still increases the max number of Skill Points by 2, and still provides team bonuses for having allies consume SP, but the benefit has changed from 6% DMG to be 4% DMG Vulnerability. This stacks up to 3 times and lasts for 2 turns.\n 'Number lower! Bad!!' Hold your horses bud, while the number has indeed gone down, the nature of the buff is actually quite a bit better; DMG Vulnerability is rarer to find and generally doesn't reach values that are high enough that you start to see diminishing returns. This is in stark contrast to the typically very saturated DMG% stat.\n This results in a total of 12% Vulnerability by default, which is good but not great. Don't worry though, Sparkle's Ultimate still increases the benefits of this Talent.\n The Ultimate has been completely revamped for the better. The vibe may be the same but the effectiveness is incomparably better. Upon using her Ultimate, Sparkle will instantly recover 6 Skill Points for allies. SIX.\n If Skill Points overflow during recovery, the excess points will be recorded, up to a maximum of 10 points. When an ally's turn ends, if Skill Points are below the maximum, Sparkle draws from the overflow to restore SP to the current upper limit.\n Additionally, grants all allies Cipher (not the car), increasing the benefits of Sparkle's Talent by 6% per stack, lasting for 3 turns.\n Who — what is this possibly trying to account for I have to wonder? This is to ensure that you're going to be using Sparkle far into the future, because I can't see this maximum overflow ever being reached during normal endgame content. Regardless, it means that if you play it well, you can pretty much always ensure that there is a fully loaded SP tank for your voracious DPS to consume, AND you'll still have SP left over for allies to use to set up for the next time you go to burst.\n The increase to Sparkle's Talent means that the Vulnerability bonus goes to a total of 30%, which is much more impressive. 3 turns makes it pretty easy to maintain this bonus near indefinitely once you're rolling, so realistically this should always be in effect.\n Recovering 6 Skill Points instantly compared to the measly 4 you had before is a very big deal as well. For people who didn't use Sparkle much, you may not have realised that Sparkle actually struggled to genuinely generate the SP required for the real SP fiends like Qingque or Archer, especially seeing as she's constantly using her Skill to keep up the buff on said DPS.\n If it takes you 3 turns to use Sparkle's Ultimate, you will now guarantee at least a 3 SP net gain, though in reality this ends up being even more thanks to some crazy changes to Bonus Traces, and if you're maximising the uptime of Sparkle's Skill buff and the Action Advance isn't needed for you right now, you could maybe even get something absurd like an 8 SP net gain for using her Ultimate after those 3 turns.\n Maybe that overflow amount isn't so crazy after all...\n [Bonus Traces]\n Sparkle's Bonus Traces have also received a facelift, and one that would rival even Korean skincare.\n Her A2 still recovers an extra 10 Energy for Sparkle when she uses her Basic ATK. This was nice for Ult consistency but with how her Skill worked before, it was really more of a last resort, since using her Basic ATK would guarantee that her Skill's buff would drop from the DPS.\n As this is no longer the case, this Trace is already much better, but they added even more to it. When the ally who holds the CRIT DMG Boost from her Skill consumes SP, Sparkle regenerates an additional 1 Energy. If you've ever been single digits off of Sparkle's Ultimate, this one is for you.\n Her A4 has been completely rewritten. Previously it extended the duration of the CRIT DMG Boost from her Skill until the start of the ally's next turn. A terrible effect, and now completely redundant as the Skill lasts for 2 full real turns by default.\n Instead, if an ally character consumes 3 or more Skill Points in a single turn, Sparkle's next use of Skill will not consume any Skill Points. This is exceptional, and is the reason I said it could be possible to restore massive amounts of SP per Ultimate rotation.\n This doesn't even specify that the ally needs to be the one being buffed by the Skill, and getting to use Sparkle's Skill for free is just amazing in general. 3 SP per turn is not at all difficult to do for characters Sparkle wants to be paired with often (Imbibitor Lunae, Archer, possibly Seele too), meaning you get to occasionally save SP by just doing what you were already doing.\n Lastly the A6. This was the Quantum specific ally buff, where you would grant the party increasing amounts of ATK% based on the number of Quantum allies, up to 45%.\n Press F to pay respects because that aspect is gone; you are now always granting 45% ATK to all allies regardless of Type-affiliation. While a little sad about the flavour being removed, this is undeniably an improvement for future teambuilding, and already makes her a much more appealing pick for existing characters too; there are already great support options that are Quantum, but there are many more that are not, and you'll no longer be punished for switching things up.\n In addition to this, the A6 will now also provide 10% All-Type RES PEN for the ally with Sparkle's CRIT DMG Boost. This means that Sparkle is now able to provide three highly coveted buffing methods that do not tend to overlap with the typical DMG% saturation. The All-Type RES PEN alone is enough to substantially boost Sparkle's efficacy in combat.\n It's genuinely amazing.\n [Eidolons]\n Indeed, even the Eidolons have received an update, and Sparkle cannot stop winning. The usual disclaimer of course, especially now after these immaculate buffs, but should you choose to go higher investment, you'll likely have a good time.\n Her E1 increases the ATK of allies with Cipher by 40%. This is what it did previously, but also increased the duration of the Cipher buff by 1 turn. Seeing as Cipher now already lasts 3 turns instead of the old 2, a new line has been added in its place: When the battle starts or when using Skill, increases Sparkle's SPD by 15% for 2 turns. This is just a generally good SPD boost, and it lasts forever since you are always using Sparkle's Skill at least once every 2 turns. Quite a good value E1.\n E2 got a direct buff. Previously it made each stack of the Talent's effect allow allies to ignore 8% of the enemies' DEF when attacking, up to a max of 24%. This was already quite good.\n Now, it allows each stack of the Talent's effect to additionally reduce the enemies' DEF by 10%, up to 30%. Aside from the larger number, there is a subtle yet important distinction between 'DEF ignore' and 'DEF shred', which is that the latter is strictly better.\n The reason for this is that that what counts as 'allies' is sometimes nebulous and may not include certain things that you would otherwise really hope were included. In particular, seeing the direction that a certain chaotic Aeon is taking in order to assume a position in the Turn Order, this eliminates the possibility of THEM not being included in the fun. Plus it's just good in general. These first two Eidolons are now very high value if you choose to go for them, and seeing a glimpse of what's over the horizon, Sparkle is likely to be seeing a lot of use in the coming patches.\n E3 and E5 are unchanged Ability Trace levels. The E4 is also unchanged, letting the Ultimate restore 1 additional Skill Point, and increasing the Skill Point cap by a further 1. This is indirectly better since Sparkle's Ultimate already restores more SP by default than you would previously have been able to restore with her E4. Now if you have the E4 you can restore 7 SP instantly. Crazy.\n Lastly, the E6 is also unchanged, but like the E4 is also indirectly buffed due to Sparkle's base kit being so much better now. The CRIT DMG Boost from the Skill additionally increases by 30% of Sparkle's CRIT DMG. When using Skill, the CRIT DMG Boost will apply to all allies with Cipher, and when using her Ultimate, any ally who is already boosted by the Skill will spread those effects to those affected by Cipher.\n It's just more and more benefits on top of what you already had, but E6 is of course somewhat of a daunting thing to try and go for. Only the naïve Fools who think they can 'fix' Sparkle would start the journey, but only the enlightened ones who realise Sparkle could make them worse will finish it.\n You're all insane.\n [The Rest]\n So what does all this mean for our Elated 'friend'? Well I think it's pretty simple. I think it means she's an absolute powerhouse of a support unit now.\n Of course the biggest winners from this (besides Sparkle herself, of course) are Archer and any future SP negative DPS. Archer is already doing very well for himself, but this will skyrocket his performance quite substantially.\n Naturally this will extend to future DPS as mentioned, but could also be quite good for some older DPS like Seele or Imbibitor Lunae should they ever get a Novaflare of their own.\n But I think it's important to separate Sparkle from those SP fiends, because quite simply, she's just incredible in any CRIT based team now. It really doesn't matter if your DPS isn't able to consume all those Skill Points that Sparkle generates, because guess what, other characters and supports often like to use SP as well, and Sparkle has enough for pretty much everyone.\n This means that at a baseline, I would argue that Sparkle is actually more easily utilised than her Action Advancing competitors of Bronya and Sunday. Her buffs are actually stronger than theirs as well as long as you're not needing the Energy from Sunday.\n Having such vast SP reserves can make it a lot easier to play everyone on the team, not just whoever your DPS is, and Sparkle gets to give very appreciated ways of buffing team damage — ways that synergise much better than just raw DMG% boosts.\n Additionally, since Sparkle's Action Advance is only 50%, there are many more ways to speed tune her that don't feel abysmal, and playing speedier characters alongside her is less daunting than with either of the other two Advancing Harmony units.\n Now, obviously, if you're going for something specific, there's a high likelihood that you will still want a 100% Action Advance, and the depths of Bronya's theorycrafting possibilities are quite possibly fathomless, so for the five or so of us who know how to make use of that, Sparkle won't be able to replace that.\n And, if you're in the market for a particularly Energy hungry DPS like Saber, it's fairly unlikely that you will find a compelling argument to replace Sunday either, as his percentage based Energy restore is just far too good to pass up, in addition to him being fairly SP neutral after the start of the fight.\n But consider this: if you are not specifically after these unique benefits from these two Harmonys, then you are quite likely to be dealing more damage with Sparkle in the team, not just for the superior damage buffs, but also because you will never ever have SP issues, meaning your team rotations can be maintained very easily and consistently. This could also then make actual team gearing easier since you're not having to accommodate for turns in which you HAVE to restore SP, since it'll just sort of happen on its own.\n Consider this also: you have multiple teammate slots! You can genuinely play Sparkle alongside either Bronya or Sunday and see massive success; you will naturally offset the SP expenditure because of what Sparkle does, and Sparkle's buffs actually don't conflict with those two. Vulnerability and All-Type RES PEN are not offered by Bronya or Sunday, who predominantly offer large DMG% Boosts in addition to similar CRIT DMG Boosts.\n If you have a DPS who benefits from sheer turn count, you could very easily slot in Sparkle alongside one of those and have a very powerful team. Hell, you could even use all three at once if you're not interested in running a sustain unit, and just constantly pull up the DPS to hit things. Granted, that probably won't work with someone like Archer, you do still need SOME time to get SP back, but for any normal DPS, this can be very funny and surprisingly effective.\n Or, perhaps you have a DPS who really benefits from Cerydra? Having the Skill Points to allow Cerydra to spam out her Skill for extra Military Merit and Energy for her Ultimate can be a great way to accelerate the power of that team as well, even if it's at the cost of not having a full Action Advance.\n Outside of the specific scenarios in which Bronya or Sunday are preferred for their unique benefits, Sparkle is... kinda just better now. She even plays well with other supports, whether they're Harmony or Nihility, and she slots in easily and hassle-free. It's so damn good.\n It just works™.\n [Why so serious?]\n Honestly I'm just extremely glad that this round of Novaflare is as good as it is, it really is fantastic.\n This does of course mean that we are likely to see more characters who like to scoff SP like they're at a free cheese tasting board at Waitrose. We already have an inkling of how that might go, and for those specific characters, Sparkle is just undeniably going to be the best-in-slot.\n But as mentioned, she's so good now that you can just use her wherever, and it'll probably work (and work WELL).\n Go forth, spread the good name of Ela — I mean... 'Harmony', of course, and laugh your heart out, for revenge has been had, Chicken-wing Boy.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n T0\n MoC\n\n T0.5\n PF\n\n T0.5\n AS\n\n Build and teams\n\n Best Light Cones\n\n 1\n\n A Grounded Ascent (S 1 )\n\n Best in slot for teams that require heavy Skill Point usage. Potentially enables faster Ultimates with extra Energy, provides an ally with ramping DMG buff up to 45%, and additionally restores 1 Skill Point every 2 turns. Note: DMG buffs do not affect Elation DMG.\n Usage: 14.47 %\n MoC: 10 cyc.\n PF: 33440\n AS: 3379\n\n 2\n\n Earthly Escapade (S 1 )\n\n Sparkle's Signature offers strong CRIT buffs for the entire team but is generally not recommended to pull as it lacks other utilities like teamwide Action Advance, or faster Ultimates.\n Usage: 35.61 %\n MoC: 8.6 cyc.\n PF: 30225\n AS: 3440\n\n 3\n\n Dance! Dance! Dance! (S 5 )\n\n One of the strongest option if played built around and utilized correctly, allows Sparkle and her teammates to achieve certain Action Value breakpoints, allowing for more turns within a cycle.\n Usage: 37.53 %\n MoC: 8.38 cyc.\n PF: 29560\n AS: 3398\n\n 4\n\n But the Battle Isn't Over (S 1 )\n\n An alternative option for Skill Point dependent teams. When used correctly, it can provide the target of her Skill with extra DMG boost, and offers 1 SP restoration every once in a while.\n Usage: 6.25 %\n MoC: 8 cyc.\n PF: 29444\n AS: 3325\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Sacerdos' Relived Ordeal ( 4 -PC)\n\n Strong and easy to use support set for Sparkle, granting her ally 36% CRIT DMG buff and also increases her SPD.\n Usage: 51.87 %\n MoC: 8.43 cyc.\n PF: 30648\n AS: 3399\n\n 2\n\n Eagle of Twilight Line ( 4 -PC)\n\n Best option for those aiming to hit Action Value breakpoints on Sparkle as it effectively offers the most SPD. Make sure not to use her Ultimate during her own turn or when her next turn is close. Check out the recommended stats section to see how much SPD you should reach.\n Usage: 24.43 %\n MoC: 9 cyc.\n PF: 27400\n AS: 3415\n\n 3\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Usage: 1.73 %\n MoC: -\n PF: 32400\n AS: 3661\n\n Best Planetary Sets\n 1\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Strong when supporting a single ATK based DPS character and when Energy Regen is useful.\n Usage: 46.41 %\n MoC: 9 cyc.\n PF: 30666\n AS: 3412\n\n 2\n\n Broken Keel ( 2 -PC)\n\n Useful when seeking additional Effect RES and or when supporting CRIT based team mates. Requires atleast 30% Effect Res to be useful.\n Usage: 26.61 %\n MoC: 8.5 cyc.\n PF: 30088\n AS: 3387\n\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top pick when when supporting one or many teammates of the same element as the wearer and when Energy Regen is useful.\n Usage: 7.08 %\n MoC: 9.5 cyc.\n PF: 27480\n AS: 3393\n\n Best Stats\n\n Body\n CRIT DMG\n\n Feet\n Speed\n\n Planar Sphere\n HP%\n >= DEF%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (Until breakpoint OR as much as possible) > CRIT DMG% > HP = DEF = EFF RES% (30% if using Broken Keel)\n\n Recommended endgame stats\n HP: 4000 - 4500+\n\n DEF: 800 - 1000+\n\n CRIT DMG: 175 - 210%+\n\n Energy Regen: 119.44%+\n\n SPD:\n We recommend building SPD on Sparkle optimized around gamemodes with Action Value cutoff in multiples of 150, that is, the first cycle in Memory of Chaos, and in Anomaly Arbitration. The goal is to achieve 3 turns within 150 Action Value, which requires 200 Effective SPD. However, when factoring in Action Advances, the threshold is much closer within reach. The most common sources that help with achieving this include:\n 24% Action Advance from Dance! Dance! Dance! Light Cone (DDD) can be held by Sparkle or other allies.\n\n 25% Action Advance from 4-Pc Eagle of Twilight Line\n\n 15% SPD buff from E1 (assuming you use Sparkle's Skill at least once every 2 turns)\n\n Here are the SPD thresholds to aim for:\n 200 SPD\n\n 184 SPD with 4-Pc Eagle OR S5 DDD,\n\n 167.4 SPD with both 4-Pc Eagle AND S5 DDD,\n\n When including permanent SPD buffs like Sparkle's E1 15% SPD or/and Ruan Mei's 10% SPD, reduce the number by 15 or/and 10, respectively.\n\n Traces priority\n Skills priority: Skill > Ultimate = Talent > Basic\n\n Major Traces priority: Artificial Flower (A4) > Nocturne (A6) > Almanac (A2)\n\n Eidolon Information\n\n Eidolon 1: Provides an extra 40% teamwide ATK buff and 15% SPD buff on Sparkle, both of which can be maintained at full uptime easily. The extra SPD can allow Sparkle to equip other offensive Light Cone or Relic Sets while still reaching SPD thresholds. ATK buff is nice for most carries, althrough for Sparxie specficially it may be unnecessary.\n Eidolon 2: Permanent 30% DEF Shred on all enemies, at minimum 20% raw DPS increase, much stronger with additional DEF Shred. For those wanting their SP-intensive DPS to be stronger or those that love Sparkle, this is the recommended investment stopping point as any further Eidolons are too expensive for what they offer.\n Eidolon 4: 1 extra Skill Point recovery and cap. Nothing too significant.\n Eidolon 6: Her Skill's CRIT DMG becomes teamwide and has a much higher scaling at 54% of her CRIT DMG instead of 24%. Can allow Sparkle to effectively slot in comps with multiple damager dealers through she can only provide Action Advance on 1 ally.\n\n Synergy\n Archer Dan Heng • Imbibitor Lunae Sparxie - Sparkle increases the Skill Point cap by 2, and restores 6 Skill Points(!) with her Ultimate for any SP-intensive characters to consume all and deal massive DMG. Her Skill can sync an ally's SPD up to her's (possibly without consuming any Skill Points), allowing them to ignore SPD and focus on damaging stats like ATK and CRIT. With her Skill buff lasting 2 turns and her Basic ATK regenerating 30 Energy, she can also use her Basic ATK to generate Skill Points without much downsides. Lastly, she offers strong damage amplification buffs for a single ally: ~100% CRIT DMG, 45% ATK, 10% All-Type RES PEN, and 30% DMG Vulnerability on enemies\n Sparxie - At the time of her release, the double Sparkle duo is the best way to play Sparxie. Sparkle increases the Skill Point cap and regenerates 6 with her Ultimate, all while consuming possibly 0 Skill Points, allowing Sparxie to use all Skill Points for her Enhanced Basic ATK. Her ATK buff and Action Advance allows Sparxie to ignore SPD and focus on CRIT and even Energy Regeneration Rate since any ATK past 3,600 has minimal gains. Sparkle also offers some of the strongest amplification buffs in the game: ~100% CRIT DMG, 10% All-Type RES PEN, 30% DMG Vulnerability on enemies.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 15\n App. rate: 1.97 %\n Avg. cycles : 7.29\n Avg. cycles (E1+): 3.28\n\n Rank 24\n App. rate: 1.07 %\n Avg. cycles : 8\n Avg. cycles (E1+): 6.01\n\n Rank 26\n App. rate: 0.98 %\n Avg. cycles : 10\n Avg. cycles (E1+): 6.05\n\n Rank 34\n App. rate: 0.72 %\n Avg. cycles : 8.77\n Avg. cycles (E1+): 6.47\n\n Rank 39\n App. rate: 0.63 %\n Avg. cycles : 8.75\n Avg. cycles (E1+): 5.89\n\n Rank 40\n App. rate: 0.58 %\n Avg. cycles : 8.8\n Avg. cycles (E1+): 5.67\n\n Rank 41\n App. rate: 0.57 %\n Avg. cycles : 9\n Avg. cycles (E1+): 5.44\n\n Rank 42\n App. rate: 0.53 %\n Avg. cycles : 9.25\n Avg. cycles (E1+): 6.17\n\n Rank 50\n App. rate: 0.43 %\n Avg. cycles : 10\n Avg. cycles (E1+): 6.17\n\n Rank 58\n App. rate: 0.36 %\n Avg. cycles : 10\n Avg. cycles (E1+): 3.4\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

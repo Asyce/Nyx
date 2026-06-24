@@ -1,0 +1,1255 @@
+{
+  "id": "characters:anby-demara",
+  "provider": "Prydwen",
+  "game": "zzz",
+  "gameName": "Zenless Zone Zero",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "anby-demara",
+  "name": "Anby",
+  "title": "Anby Best Build Guide",
+  "sourcePath": "/zenless/characters/anby-demara",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "14/June/2026",
+  "meta": {
+    "title": "Anby Best Build Guide | Zenless Zone Zero",
+    "description": ""
+  },
+  "facts": {
+    "attribute": "Electric",
+    "specialty": "Stun",
+    "faction": "Cunning Hares",
+    "rarity": "A"
+  },
+  "assets": [
+    {
+      "id": "420d54a053fa",
+      "sourceHash": "420d54a053fa",
+      "kind": "characters",
+      "name": "Character",
+      "fileStem": "anby-demara-card",
+      "path": "Prydwen/zzz/assets/characters/anby-demara-card-420d54a053fa.webp",
+      "width": 370,
+      "height": 512
+    },
+    {
+      "id": "180993e8877a",
+      "sourceHash": "180993e8877a",
+      "kind": "icons",
+      "name": "A",
+      "fileStem": "rarity-a",
+      "path": "Prydwen/zzz/assets/icons/a-180993e8877a.webp",
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "b6f384983a36",
+      "sourceHash": "b6f384983a36",
+      "kind": "icons",
+      "name": "Stun",
+      "fileStem": "style-stun",
+      "path": "Prydwen/zzz/assets/icons/stun-b6f384983a36.webp",
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "64c88c4fc92c",
+      "sourceHash": "64c88c4fc92c",
+      "kind": "factions",
+      "name": "Gentle House AKA Cunning Hares",
+      "fileStem": "faction-gentle",
+      "path": "Prydwen/zzz/assets/factions/gentle-house-aka-cunning-hares-64c88c4fc92c.webp",
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "880f190c8aa9",
+      "sourceHash": "880f190c8aa9",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-core",
+      "path": "Prydwen/zzz/assets/icons/core-880f190c8aa9.webp",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "13fff798e82d",
+      "sourceHash": "13fff798e82d",
+      "kind": "icons",
+      "name": "Basic",
+      "fileStem": "icon-basic",
+      "path": "Prydwen/zzz/assets/icons/basic-13fff798e82d.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "f3bbacf4beb6",
+      "sourceHash": "f3bbacf4beb6",
+      "kind": "icons",
+      "name": "Dodge",
+      "fileStem": "icon-dodge",
+      "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "de0f0cad1e72",
+      "sourceHash": "de0f0cad1e72",
+      "kind": "icons",
+      "name": "Assist",
+      "fileStem": "icon-assist-m",
+      "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "954b8d0b61b7",
+      "sourceHash": "954b8d0b61b7",
+      "kind": "icons",
+      "name": "Special",
+      "fileStem": "icon-special-full",
+      "path": "Prydwen/zzz/assets/icons/special-954b8d0b61b7.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "803b765175bc",
+      "sourceHash": "803b765175bc",
+      "kind": "icons",
+      "name": "qte",
+      "fileStem": "icon-ulti-full",
+      "path": "Prydwen/zzz/assets/icons/qte-803b765175bc.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "9f68a61db8c5",
+      "sourceHash": "9f68a61db8c5",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-special",
+      "path": "Prydwen/zzz/assets/icons/core-9f68a61db8c5.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "d3cae9ba5d45",
+      "sourceHash": "d3cae9ba5d45",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-ulti",
+      "path": "Prydwen/zzz/assets/icons/core-d3cae9ba5d45.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "94a5940d48d5",
+      "sourceHash": "94a5940d48d5",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-assist",
+      "path": "Prydwen/zzz/assets/icons/core-94a5940d48d5.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "bcc36adf7778",
+      "sourceHash": "bcc36adf7778",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/zzz/assets/icons/stat-hp-bcc36adf7778.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "6bde3e3d95d5",
+      "sourceHash": "6bde3e3d95d5",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-def",
+      "path": "Prydwen/zzz/assets/icons/stat-def-6bde3e3d95d5.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "3be631f5fe8b",
+      "sourceHash": "3be631f5fe8b",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/zzz/assets/icons/stat-atk-3be631f5fe8b.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "7e808fde7ecd",
+      "sourceHash": "7e808fde7ecd",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-crit",
+      "path": "Prydwen/zzz/assets/icons/stat-crit-7e808fde7ecd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "a5d74846670e",
+      "sourceHash": "a5d74846670e",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/zzz/assets/icons/stat-critdmg-a5d74846670e.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "96960682bbd8",
+      "sourceHash": "96960682bbd8",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-pen",
+      "path": "Prydwen/zzz/assets/icons/stat-pen-96960682bbd8.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "55a4b1c5a82a",
+      "sourceHash": "55a4b1c5a82a",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-impact",
+      "path": "Prydwen/zzz/assets/icons/stat-impact-55a4b1c5a82a.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "078045904ece",
+      "sourceHash": "078045904ece",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-mastery",
+      "path": "Prydwen/zzz/assets/icons/stat-mastery-078045904ece.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "09b14c497e98",
+      "sourceHash": "09b14c497e98",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/zzz/assets/icons/stat-energy-09b14c497e98.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "9f2294728151",
+      "sourceHash": "9f2294728151",
+      "kind": "characters",
+      "name": "Anby",
+      "fileStem": "anby-demara-full",
+      "path": "Prydwen/zzz/assets/characters/anby-9f2294728151.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "8271342a7fd4",
+      "sourceHash": "8271342a7fd4",
+      "kind": "w-engines",
+      "name": "Hellfire Gears",
+      "fileStem": "hellfire-gears-image",
+      "path": "Prydwen/zzz/assets/w-engines/hellfire-gears-8271342a7fd4.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "3e546e25a1fe",
+      "sourceHash": "3e546e25a1fe",
+      "kind": "w-engines",
+      "name": "Steam Oven",
+      "fileStem": "steam-oven-image",
+      "path": "Prydwen/zzz/assets/w-engines/steam-oven-3e546e25a1fe.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "dc5e4d8d56b9",
+      "sourceHash": "dc5e4d8d56b9",
+      "kind": "w-engines",
+      "name": "Precious Fossilized Core",
+      "fileStem": "precious-fossilized-core-image",
+      "path": "Prydwen/zzz/assets/w-engines/precious-fossilized-core-dc5e4d8d56b9.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "ba65f478c8b6",
+      "sourceHash": "ba65f478c8b6",
+      "kind": "w-engines",
+      "name": "The Restrained",
+      "fileStem": "the-restrained-image",
+      "path": "Prydwen/zzz/assets/w-engines/the-restrained-ba65f478c8b6.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "26649fd35edc",
+      "sourceHash": "26649fd35edc",
+      "kind": "w-engines",
+      "name": "Demara Battery Mark II",
+      "fileStem": "demara-battery-mark-ii-image",
+      "path": "Prydwen/zzz/assets/w-engines/demara-battery-mark-ii-26649fd35edc.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "9cafa8e105ae",
+      "sourceHash": "9cafa8e105ae",
+      "kind": "drive-discs",
+      "name": "King of the Summit",
+      "fileStem": "set-king",
+      "path": "Prydwen/zzz/assets/drive-discs/king-of-the-summit-9cafa8e105ae.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "1d32dd29b6a7",
+      "sourceHash": "1d32dd29b6a7",
+      "kind": "drive-discs",
+      "name": "Shockstar Disco",
+      "fileStem": "set-shockstar",
+      "path": "Prydwen/zzz/assets/drive-discs/shockstar-disco-1d32dd29b6a7.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "7e8e49d34387",
+      "sourceHash": "7e8e49d34387",
+      "kind": "drive-discs",
+      "name": "Swing Jazz",
+      "fileStem": "set-swing",
+      "path": "Prydwen/zzz/assets/drive-discs/swing-jazz-7e8e49d34387.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "47b453ad83b8",
+      "sourceHash": "47b453ad83b8",
+      "kind": "drive-discs",
+      "name": "Astral Voice",
+      "fileStem": "set-astral",
+      "path": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "1c4453ce92f8",
+      "sourceHash": "1c4453ce92f8",
+      "kind": "drive-discs",
+      "name": "Proto Punk",
+      "fileStem": "set-proto",
+      "path": "Prydwen/zzz/assets/drive-discs/proto-punk-1c4453ce92f8.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "c46964eb00d4",
+      "sourceHash": "c46964eb00d4",
+      "kind": "characters",
+      "name": "Harumasa",
+      "fileStem": "harumasa",
+      "path": "Prydwen/zzz/assets/characters/harumasa-c46964eb00d4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "6037eb213413",
+      "sourceHash": "6037eb213413",
+      "kind": "characters",
+      "name": "Zhu Yuan",
+      "fileStem": "zhu-yuan",
+      "path": "Prydwen/zzz/assets/characters/zhu-yuan-6037eb213413.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ad063e072375",
+      "sourceHash": "ad063e072375",
+      "kind": "characters",
+      "name": "Nicole",
+      "fileStem": "nicole-demara",
+      "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
+      "width": 60,
+      "height": 60
+    }
+  ],
+  "sections": [
+    {
+      "id": "anby-best-build-guide-0",
+      "level": 1,
+      "heading": "Anby Best Build Guide",
+      "text": "Last updated: 14/June/2026",
+      "assets": [
+        {
+          "id": "420d54a053fa",
+          "sourceHash": "420d54a053fa",
+          "kind": "characters",
+          "name": "Character",
+          "fileStem": "anby-demara-card",
+          "path": "Prydwen/zzz/assets/characters/anby-demara-card-420d54a053fa.webp",
+          "width": 370,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Anby from ZZZ (Zenless Zone Zero). Anby is an rank character with the Electric attribute who belongs to the Stun Specialty and who is part of the Cunning Hares faction.\n A mysterious young girl who never talks about her past, almost as if she didn't have one. She is calm and collected, and unusually competent and efficient in combat, almost as if she'd had years of training. In an unexpected incident, Nicole brought her back to the Cunning Hares, and she has an emotional independence on her ever since. She loves watching movies, but due to certain lack of common sense she seems to almost think them real-life stories.\n\n To learn more about Anby check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": [
+        {
+          "id": "180993e8877a",
+          "sourceHash": "180993e8877a",
+          "kind": "icons",
+          "name": "A",
+          "fileStem": "rarity-a",
+          "path": "Prydwen/zzz/assets/icons/a-180993e8877a.webp",
+          "width": 30,
+          "height": 30
+        },
+        {
+          "id": "b6f384983a36",
+          "sourceHash": "b6f384983a36",
+          "kind": "icons",
+          "name": "Stun",
+          "fileStem": "style-stun",
+          "path": "Prydwen/zzz/assets/icons/stun-b6f384983a36.webp",
+          "width": 30,
+          "height": 30
+        },
+        {
+          "id": "64c88c4fc92c",
+          "sourceHash": "64c88c4fc92c",
+          "kind": "factions",
+          "name": "Gentle House AKA Cunning Hares",
+          "fileStem": "faction-gentle",
+          "path": "Prydwen/zzz/assets/factions/gentle-house-aka-cunning-hares-64c88c4fc92c.webp",
+          "width": 30,
+          "height": 30
+        }
+      ]
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "This character has no video guide yet.",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 2.0\n\n Last build update\n Patch 2.0\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 14/June/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.",
+      "assets": []
+    },
+    {
+      "id": "calculations-9",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "To learn more about Anby check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile",
+      "assets": []
+    },
+    {
+      "id": "core-skills-10",
+      "level": 2,
+      "heading": "Core skills",
+      "text": "Core Passive Fluctuating Voltage\n\n Lv. 1\n\n Launch a Basic Attack: Thunderbolt, Special Attack, or EX Special Attack after the 3rd-hit of Anby's Basic Attack for an extra 32% Daze.\n\n Impact 0\n BASE ATK: 0\n\n Additional Ability Parallel Connection\n\n When another character in your squad shares the same Attribute or Faction:\n When Anby's Dodge Counter hits an enemy, she gains an extra 7.2 Energy. This effect can trigger once every 5s .",
+      "assets": [
+        {
+          "id": "880f190c8aa9",
+          "sourceHash": "880f190c8aa9",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-core",
+          "path": "Prydwen/zzz/assets/icons/core-880f190c8aa9.webp",
+          "width": 32,
+          "height": 32
+        }
+      ]
+    },
+    {
+      "id": "skills-11",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Turbo Volt\n\n Press to activate.\nUnleashes up to 4 slashes. The first 3 hits deal Physical DMG the 4th hit deals Electric DMG.\n Multipliers\n\n Basic Attack: Thunderbolt\n\n After unleashing the 3rd hit of the Basic Attack, hold down or pause for a short while, and then press to activate.\nUnleashes a downward strike that deals Electric DMG.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n Dodge: Slide\n\n Press to dodge.\nA rapid dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Taser Blast\n\n Press during a dodge to activate.\nSlashes all nearby enemies, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Thunderclap\n\n Press during a Perfect Dodge to activate.\nSlashes enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Fork Lightning\n\n Press to activate.\nUnleashes an upward slash that deals Electric DMG.\nThis attack launches faster when used after the 3rd-hit of the Basic Attack or Basic Attack: Thunderbolt.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n EX Special Attack: Lightning Bolt\n\n With enough energy, press to activate.\nUnleashes a powerful upward slash that deals Electric DMG.\nThis attack launches faster when used after the 3rd hit of her Basic Attack or Basic Attack: Thunderbolt.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Electro Engine\n\n When a Chain Attack is triggered, select the character to activate.\nUnleashes a powerful upwards slash at enemies in a small area, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Overdrive Engine\n\n When Decibel Rating is at Maximum, press to activate.\nUnleashes a powerful upward slash at enemies in a small area followed by several falling attacks, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Lightning Whirl\n\n Press after a Defensive Assist to activate.\nPerform a spinning slash against enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Flash\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, inflicting massive Daze.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Thunderfall\n\n When the on-field character is launched, press to activate.\nSlashes enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\n Multipliers",
+      "assets": [
+        {
+          "id": "13fff798e82d",
+          "sourceHash": "13fff798e82d",
+          "kind": "icons",
+          "name": "Basic",
+          "fileStem": "icon-basic",
+          "path": "Prydwen/zzz/assets/icons/basic-13fff798e82d.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "f3bbacf4beb6",
+          "sourceHash": "f3bbacf4beb6",
+          "kind": "icons",
+          "name": "Dodge",
+          "fileStem": "icon-dodge",
+          "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "de0f0cad1e72",
+          "sourceHash": "de0f0cad1e72",
+          "kind": "icons",
+          "name": "Assist",
+          "fileStem": "icon-assist-m",
+          "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "954b8d0b61b7",
+          "sourceHash": "954b8d0b61b7",
+          "kind": "icons",
+          "name": "Special",
+          "fileStem": "icon-special-full",
+          "path": "Prydwen/zzz/assets/icons/special-954b8d0b61b7.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "803b765175bc",
+          "sourceHash": "803b765175bc",
+          "kind": "icons",
+          "name": "qte",
+          "fileStem": "icon-ulti-full",
+          "path": "Prydwen/zzz/assets/icons/qte-803b765175bc.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "9f68a61db8c5",
+          "sourceHash": "9f68a61db8c5",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-special",
+          "path": "Prydwen/zzz/assets/icons/core-9f68a61db8c5.webp",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "id": "d3cae9ba5d45",
+          "sourceHash": "d3cae9ba5d45",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-ulti",
+          "path": "Prydwen/zzz/assets/icons/core-d3cae9ba5d45.webp",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "id": "94a5940d48d5",
+          "sourceHash": "94a5940d48d5",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-assist",
+          "path": "Prydwen/zzz/assets/icons/core-94a5940d48d5.webp",
+          "width": 40,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "id": "mindscapes-12",
+      "level": 2,
+      "heading": "Mindscapes",
+      "text": "M1\n Rapid Charge Mode\n Mindscape 1\n\n When the 4th-hit of Anby's Basic Attack hits an enemy, her Energy Generation Rate is increased by 12% for 30s .\n\n M2\n Precision Discharge\n Mindscape 2\n\n When Basic Attack: Thunderbolt hits a Stunned enemy, its DMG is increased by 30% . When Anby's EX Special Attack hits an enemy that is not Stunned, the Daze inflicted is increased by 10% .\n\n M3\n Well-Disciplined\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Conducting Charge\n Mindscape 4\n\n When Anby launches a Chain Attack or uses her Ultimate, off-field Electric Agents recover 3 Energy. For every 12% Energy Generation Anby Has, recover an additional 2 Energy, up to a maximum of 6 .\n\n M5\n Street Experience\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Charging Field\n Mindscape 6\n\n When Anby uses her EX Special Attack, she gains 8 stacks of Charge (max 8 stacks). When she hits an enemy with her Basic Attack or Dash Attack, 1 stack of Charge is consumed, increasing that attack's DMG by 45% .",
+      "assets": []
+    },
+    {
+      "id": "stats-level-60-13",
+      "level": 2,
+      "heading": "Stats (Level 60)",
+      "text": "Anby Stats at level 60 (including Core passive bonuses).\n\n HP\n 7500\n\n DEF\n 612\n\n ATK\n 658\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 136\n\n Anomaly Mastery\n 94\n\n Anomaly Proficiency\n 93\n\n Energy Regen\n 1.2",
+      "assets": [
+        {
+          "id": "bcc36adf7778",
+          "sourceHash": "bcc36adf7778",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/zzz/assets/icons/stat-hp-bcc36adf7778.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "6bde3e3d95d5",
+          "sourceHash": "6bde3e3d95d5",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-def",
+          "path": "Prydwen/zzz/assets/icons/stat-def-6bde3e3d95d5.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "3be631f5fe8b",
+          "sourceHash": "3be631f5fe8b",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/zzz/assets/icons/stat-atk-3be631f5fe8b.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "7e808fde7ecd",
+          "sourceHash": "7e808fde7ecd",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/zzz/assets/icons/stat-crit-7e808fde7ecd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "a5d74846670e",
+          "sourceHash": "a5d74846670e",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/zzz/assets/icons/stat-critdmg-a5d74846670e.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "96960682bbd8",
+          "sourceHash": "96960682bbd8",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-pen",
+          "path": "Prydwen/zzz/assets/icons/stat-pen-96960682bbd8.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "55a4b1c5a82a",
+          "sourceHash": "55a4b1c5a82a",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-impact",
+          "path": "Prydwen/zzz/assets/icons/stat-impact-55a4b1c5a82a.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "078045904ece",
+          "sourceHash": "078045904ece",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-mastery",
+          "path": "Prydwen/zzz/assets/icons/stat-mastery-078045904ece.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "09b14c497e98",
+          "sourceHash": "09b14c497e98",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/zzz/assets/icons/stat-energy-09b14c497e98.webp",
+          "width": 24,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "id": "voice-actors-14",
+      "level": 2,
+      "heading": "Voice Actors",
+      "text": "ENG\n -\n\n JPN\n Tanezaki Atsumi (種﨑敦美)\n\n CN\n Yan Ning (宴宁)\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-15",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "9f2294728151",
+          "sourceHash": "9f2294728151",
+          "kind": "characters",
+          "name": "Anby",
+          "fileStem": "anby-demara-full",
+          "path": "Prydwen/zzz/assets/characters/anby-9f2294728151.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "ratings-16",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.",
+      "assets": []
+    },
+    {
+      "id": "support-17",
+      "level": 5,
+      "heading": "Support",
+      "text": "T3\n Endgame Modes",
+      "assets": []
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Very easy combos to learn and execute with high daze potential and a simplistic onfielder playstyle;\n\n High Energy generation built into her kit, even able to funnel flat Energy to other Electric characters;\n\n Becomes stronger the more aggressive the enemy is, thanks to her Dodge Counter, while remaining usable at a baseline;\n\n Surprisingly acceptable personal damage by Stun character standards, especially at M6;\n\n She’s free!",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Has little to no AoE potential unless enemies are on top of each other;\n\n Provides very little value to other Agents as she has no extra buffs/debuffs like other Stun Agents do;\n\n Overshadowed in any team by one or more options, which makes her very easily replaceable.",
+      "assets": []
+    },
+    {
+      "id": "review-21",
+      "level": 2,
+      "heading": "Review",
+      "text": "Anby Demara, often called Stun Anby to differentiate her from her S-rank Soldier 0 counterpart, is a free A-Rank Electric Stun Agent available right from the get-go whose main role is to deal a lot of Daze to enemies in a short amount of field time in order to offer Stun windows for your other Agents to exploit.\n Anby is a character who’s very conceptually simple to get a good grasp on . Overall, being a free character you get right from the start of the game, Anby is a character who portrays the phrase “simple yet effective” perfectly. There are some minor intricacies to her kit, but once you get a grasp of her 2 main combos (which really doesn’t take long to do), it becomes very difficult to play her incorrectly, which is one of her biggest strengths.\n When it comes to explaining her kit, we’ll keep things as short as we can because it’s really simple to grasp:\n Her Chain and Ultimate are simple bursts of DMG and Daze with no intricacies to them, the same applies to her Quick Assist, and her Defensive Assist is a simple big burst of Daze that should be executed along with her Assist Follow-Up when possible to stun enemies faster.\n Anby’s Basic Attack and EX Special are generally tied together, they’re the two main components of Anby’s combo. After the third hit of Anby’s Basic Attack, she can follow up with a special Basic Attack called “Thunderbolt” by holding down the Basic Attack button or by pausing for a split second then pressing Basic again (it’s easier and doesn’t cause any losses to simply hold the Basic Attack button, so typically that’s what you’ll do).\n Her EX Special is another big burst of damage and Daze that costs 60 Energy and is also usable after her Basic P3 for a faster start-up, after which she can immediately follow up with her Thunderbolt Basic Attack by simply tapping the Basic Attack input, allowing for a very quick burst of Daze.\n Executing either of these actions after Basic P3 allows Anby, via her Core Passive, to gain up to 64% extra Daze on them. This means when you have enough Energy available you can execute this combo:\n Basic P1\n\n Basic P2\n\n Basic P3\n\n EX Special\n\n Basic Attack: Thunderbolt\n\n The EX Special gains 64% extra Daze doing this via Anby’s Core Passive, which is extremely valuable to stun enemies quickly. However, if you don’t have the Energy required to perform an EX Special, simply perform this combo:\n Basic P1\n\n Basic P2\n\n Basic P3\n\n Basic Attack: Thunderbolt\n\n Hold Basic Attack after Basic P3 to perform Thunderbolt here, which gains an extra 64% Daze via Anby’s Core Passive.\n Some intricacies to mention include the following:\n Try to use Anby’s Ultimate whenever possible and out of a Stun window to create more Stun opportunities for your team;\n\n Anby’s Dodge Counter is very powerful and should be executed whenever possible (even interrupting your combo for it), this grants her extra Energy with her Additional Ability activated;\n\n If you can perform a Defensive Assist with Anby, it’s never a bad idea to do so to stun enemies quicker;\n\n Anby’s Basic P4 can be used instead of standard combos every 30s by simply repeatedly tapping Basic Attack to get extra Energy Regen from her M1.\n\n Finally, simply repeat the above actions until the enemy is stunned, then chain into your DPS Agent for big bursts of damage. Make sure to have Anby’s Additional Ability condition satisfied for more EX Specials, which means faster Stuns!\n That sums up Anby’s gameplay in just about full detail, she’s really simplistic in essence. Her regular Special is unused as her Thunderbolt Basic is always more preferable to execute. Certain intricacies may apply depending on your specific team and the enemy you’re facing, however in terms of general usage this is as complex as it gets.\n Regarding Anby’s meta relevancy, she’s always outclassed by at least one other Stun agent in any team, which is to be expected as she’s a free character obtained at the very beginning of the game . The biggest example of this is Qingyi, being another Electric Stun Agent who wants to stay on the field, stuns quickly, and applies Stun DMG Multiplier debuffs, outclassing Anby in just about every way. However, to Anby’s credit, for the character you start the game with, she very much doesn’t disappoint. Building her, even into the late game, should give you the resources you need to fully clear endgame content. She works as a “budget Qingyi” of sorts and while Anby doesn’t provide nearly as much as the robot policewoman does, she fills the same niche as her, slots in similar team compositions and remains effective nonetheless.\n In conclusion, Anby is a simplistic Stun Agent to play, build, and use, and while she’s a free character given at the very beginning of the game with little special qualities to make her stand out, she remains very suitable in her role thanks to her Daze and Damage numbers standing fairly strong to this day, especially at M6. She won’t disappoint if you wish to build her, however be aware that she will be outclassed by other Stun Agent options once you acquire them, so you may end up replacing her someday. But until that day comes, she’ll be very serviceable.\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "collaboration-disclaimer-22",
+      "level": 2,
+      "heading": "Collaboration Disclaimer",
+      "text": "For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.",
+      "assets": []
+    },
+    {
+      "id": "best-w-engines-23",
+      "level": 2,
+      "heading": "Best W-Engines",
+      "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n The top number shows the performance of the W-Engine when applying Daze while the bottom number when dealing Damage .\n 103.72%\n 94.00%\n\n Hellfire Gears (S 1 )\n\n Koleda's Signature W-Engine is an incredible option for all Stun Agents that use their EX Special Attack at least somewhat regularly. Maintaining at least 1 stack of its buff consistently is expected, but its value only increases further at 2 stacks. Energy Regen, strong base stats and a great combat buff make this Engine a safe option on most Agents.\n 101.55%\n 88.85%\n\n Steam Oven (S 5 )\n\n This F2P craftable W-Engine grants a really high amount of short-term Daze output via its ability to increase Impact based on total Energy accumulated. For this reason, this is one of the best W-Engines to open up a fight with, but unfortunately when trying to sustain Daze over long fights this W-Engine does fall behind in performance. Will display stronger performance in Shiyu Defense, and much worse in Deadly Assault. Nevertheless one of the best A-rank options available.\n 101.05%\n 88.85%\n\n Precious Fossilized Core (S 5 )\n\n Amazing option for all Stun Agents, particularly in Deadly Assault due to its massive buffs to Daze that it gives against higher HP enemies which is exploited to its full potential in the gamemode, in a lot of cases even outperforming S-rank W-Engines despite being an F2P craftable. Unfortunately not as powerful in other endgame contents, but still a perfectly viable choice.\n Usage: 11.11 %\n Shiyu Defense: 0\n Deadly Assault: 20317\n\n 100.00%\n 100.00%\n\n The Restrained (S 1 )\n\n Lycaon's Signature W-Engine is particularly interesting not only thanks to its high Basic Attack Daze increasing effect, but also due to its ability to increase Basic Attack damage at the same time. This leads to typically slightly lower Daze output while giving high damage as a trade-off. The more personal damage your Stun Agent deals, the higher the value of this W-Engine, but it is typically not preferred on most Stun Agents as they mostly want to deal Daze and this W-Engine is less specialized to do so than others.\n Usage: 17.78 %\n Shiyu Defense: 25812\n Deadly Assault: 21774\n\n 93.00%\n 103.26%\n\n Demara Battery Mark II (S 5 )\n\n Anby's Signature W-Engine is unfortunately only great for its personal damage potential, however since Anby primarily wants to deal Daze to enemies and her damage is not as high as a DPS, it is much more preferable to pick a W-Engine with higher daze output listed above. Only to be used if for some reason you want to play Stun Anby as a Main DPS (not recommended, use Soldier 0 for that).\n Usage: 53.33 %\n Shiyu Defense: 30106\n Deadly Assault: 22867",
+      "assets": [
+        {
+          "id": "8271342a7fd4",
+          "sourceHash": "8271342a7fd4",
+          "kind": "w-engines",
+          "name": "Hellfire Gears",
+          "fileStem": "hellfire-gears-image",
+          "path": "Prydwen/zzz/assets/w-engines/hellfire-gears-8271342a7fd4.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "3e546e25a1fe",
+          "sourceHash": "3e546e25a1fe",
+          "kind": "w-engines",
+          "name": "Steam Oven",
+          "fileStem": "steam-oven-image",
+          "path": "Prydwen/zzz/assets/w-engines/steam-oven-3e546e25a1fe.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "dc5e4d8d56b9",
+          "sourceHash": "dc5e4d8d56b9",
+          "kind": "w-engines",
+          "name": "Precious Fossilized Core",
+          "fileStem": "precious-fossilized-core-image",
+          "path": "Prydwen/zzz/assets/w-engines/precious-fossilized-core-dc5e4d8d56b9.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "ba65f478c8b6",
+          "sourceHash": "ba65f478c8b6",
+          "kind": "w-engines",
+          "name": "The Restrained",
+          "fileStem": "the-restrained-image",
+          "path": "Prydwen/zzz/assets/w-engines/the-restrained-ba65f478c8b6.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "26649fd35edc",
+          "sourceHash": "26649fd35edc",
+          "kind": "w-engines",
+          "name": "Demara Battery Mark II",
+          "fileStem": "demara-battery-mark-ii-image",
+          "path": "Prydwen/zzz/assets/w-engines/demara-battery-mark-ii-26649fd35edc.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-disk-drives-sets-24",
+      "level": 2,
+      "heading": "Best Disk Drives Sets",
+      "text": "1\n\n King of the Summit ( 4 -PC)\n\n New best Stun set, to be used on any Stun character in almost any team with very few exceptions. Gives 6% increased Daze on the 2-piece and up to 30% CRIT DMG for the entire squad for 15s when casting EX Specials and Chain Attacks on the condition that the equipper has 50% CRIT Rate or higher, a requirement which is easy to meet but must be ensured. Uptime on this buff is almost always easily maintained permanently, however be mindful this set will not be effective if you aren’t building the rest of your team on CRIT, in which case alternatives will be preferred, and that you cannot run this set multiple times on the same team.\n Best combined with your choice of 2-PC Set:\n 2P\n Shockstar Disco\n\n (Recommended)\n 2P\n Swing Jazz\n\n 2\n\n Astral Voice ( 4 -PC)\n\n Best generalist Support set, providing a useful 10% ATK on the 2-piece but most importantly buffing DMG dealt by characters entering the field via Quick Assists by upwards of 24%, the biggest buff provided by Disc Drives in the game. Generally a must-have set on any team, but be mindful of ensuring uptime on the buff.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Swing Jazz\n\n 3\n\n Proto Punk ( 4 -PC)\n\n Niche supportive set used for teams that are in the position of triggering Perfect Assists often. Grants the entire party 15% increased DMG for 10s when triggering a Perfect Assist. Typically used if an Astral Voice wielder is already on the team and the equipped Agent is in a position to trigger lots of Perfect Assists. This set's value is significantly diminished if the player isn't comfortable with timing Perfect Assists, in which case other sets will be favoured such as 4P Swing Jazz.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Swing Jazz\n\n 4\n\n Shockstar Disco ( 4 -PC)\n\n Provides the highest Daze output of any Disk Drive set in the game. However, the difference between the 4-piece effect increase in Daze is marginal compared to simply using the 2-piece effect, meaning it almost always yields better results to use a supportive set like King of the Summit or Astral Voice to buff your team further, instead of the extra Daze which only gives extra Stun windows against bosses in very specific situations. If an extra Stun window is enabled by using this set it will perform the best, however this only very rarely happens, causing it to be left behind in favour of other sets.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Swing Jazz",
+      "assets": [
+        {
+          "id": "9cafa8e105ae",
+          "sourceHash": "9cafa8e105ae",
+          "kind": "drive-discs",
+          "name": "King of the Summit",
+          "fileStem": "set-king",
+          "path": "Prydwen/zzz/assets/drive-discs/king-of-the-summit-9cafa8e105ae.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "1d32dd29b6a7",
+          "sourceHash": "1d32dd29b6a7",
+          "kind": "drive-discs",
+          "name": "Shockstar Disco",
+          "fileStem": "set-shockstar",
+          "path": "Prydwen/zzz/assets/drive-discs/shockstar-disco-1d32dd29b6a7.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "7e8e49d34387",
+          "sourceHash": "7e8e49d34387",
+          "kind": "drive-discs",
+          "name": "Swing Jazz",
+          "fileStem": "set-swing",
+          "path": "Prydwen/zzz/assets/drive-discs/swing-jazz-7e8e49d34387.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "47b453ad83b8",
+          "sourceHash": "47b453ad83b8",
+          "kind": "drive-discs",
+          "name": "Astral Voice",
+          "fileStem": "set-astral",
+          "path": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "1c4453ce92f8",
+          "sourceHash": "1c4453ce92f8",
+          "kind": "drive-discs",
+          "name": "Proto Punk",
+          "fileStem": "set-proto",
+          "path": "Prydwen/zzz/assets/drive-discs/proto-punk-1c4453ce92f8.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-disk-drives-stats-25",
+      "level": 2,
+      "heading": "Best Disk Drives Stats",
+      "text": "Disk 4\n CRIT Rate% >= CRIT DMG%\n\n Disk 5\n Electric DMG% > ATK%\n\n Disk 6\n Impact\n\n Substats: CRIT RATE = CRIT DMG > ATK% > PEN = ATK",
+      "assets": []
+    },
+    {
+      "id": "best-endgame-stats-level-60-26",
+      "level": 2,
+      "heading": "Best Endgame Stats (Level 60)",
+      "text": "Impact: 169 - 190+\n\n ATK: 1700 - 2000+ (Optional)\n\n HP: 9500+\n\n DEF: 800+\n\n CRIT RATE: 50%+ (Needed for King of the Summit)\n\n CRIT DMG: 100% - 120%+ (Optional)",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-27",
+      "level": 2,
+      "heading": "Skill priority",
+      "text": "Special Attack\n\n Basic Attack\n\n Chain Attack\n\n Dodge\n\n Assist",
+      "assets": [
+        {
+          "id": "954b8d0b61b7",
+          "sourceHash": "954b8d0b61b7",
+          "kind": "icons",
+          "name": "Special Attack",
+          "fileStem": "icon-special-full",
+          "path": "Prydwen/zzz/assets/icons/special-attack-954b8d0b61b7.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "13fff798e82d",
+          "sourceHash": "13fff798e82d",
+          "kind": "icons",
+          "name": "Basic Attack",
+          "fileStem": "icon-basic",
+          "path": "Prydwen/zzz/assets/icons/basic-attack-13fff798e82d.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "803b765175bc",
+          "sourceHash": "803b765175bc",
+          "kind": "icons",
+          "name": "Chain Attack",
+          "fileStem": "icon-ulti-full",
+          "path": "Prydwen/zzz/assets/icons/chain-attack-803b765175bc.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "f3bbacf4beb6",
+          "sourceHash": "f3bbacf4beb6",
+          "kind": "icons",
+          "name": "Dodge",
+          "fileStem": "icon-dodge",
+          "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "de0f0cad1e72",
+          "sourceHash": "de0f0cad1e72",
+          "kind": "icons",
+          "name": "Assist",
+          "fileStem": "icon-assist-m",
+          "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+          "width": 24,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "id": "video-guides-28",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "Anby guide videos aren't available yet.\n\n Teams & Synergy",
+      "assets": []
+    },
+    {
+      "id": "synergy-29",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Below we list only the most important synergies for Anby . The character can work with others if you know what to do and how to use them.\n\n Harumasa - Harumasa's current best F2P Stun partner is Anby, replacing Qingyi if you don't have her. She's desirable for a few reasons, being her quick Daze application which fills in for Harumasa's downtime due to her field time requirements, her ability to inflict Shock anomaly, and her acceptable personal damage. All in all the two form a great pair if you don't have other Agents.\n Zhu Yuan - Anby makes for a great F2P stunner for Zhu Yuan due to her quick Daze application that fills in for Zhu Yuan's downtime. She acts as a solid replacement to Qingyi, so it's easy to see why the two work well together as their kits have similarities. Much like the synergy with Harumasa, Anby is an option to consider if you lack stronger Stun Agents.\n Nicole - The Demara sisters are able to activate each other's Additional Abilities, which is great for enhancing Anby's Energy Regen while Nicole gets to provide an extra Ether DMG Boost to the whole party. Beyond that, Anby is able to quickly create Stun windows for Nicole's DEF shred to gain extra effectiveness, greatly enhancing the performance of the DPS character you pair them with, making the two a great duo to increase your DPS character's damage.",
+      "assets": [
+        {
+          "id": "c46964eb00d4",
+          "sourceHash": "c46964eb00d4",
+          "kind": "characters",
+          "name": "Harumasa",
+          "fileStem": "harumasa",
+          "path": "Prydwen/zzz/assets/characters/harumasa-c46964eb00d4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "6037eb213413",
+          "sourceHash": "6037eb213413",
+          "kind": "characters",
+          "name": "Zhu Yuan",
+          "fileStem": "zhu-yuan",
+          "path": "Prydwen/zzz/assets/characters/zhu-yuan-6037eb213413.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ad063e072375",
+          "sourceHash": "ad063e072375",
+          "kind": "characters",
+          "name": "Nicole",
+          "fileStem": "nicole-demara",
+          "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-shiyu-defense-30",
+      "level": 2,
+      "heading": "Teams (Shiyu Defense)",
+      "text": "This section lists most popular teams featuring Anby in the current phase of Shiyu Defense.\n There are no teams featuring Anby who have cleared Shiyu Defense in the current cycle.",
+      "assets": []
+    },
+    {
+      "id": "teams-deadly-assault-31",
+      "level": 2,
+      "heading": "Teams (Deadly Assault)",
+      "text": "This section lists most popular teams featuring Anby in the current phase of Deadly Assault.\n There are no teams featuring Anby who have cleared Deadly Assault in the current cycle.",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-w-engines": {
+      "label": "Best W-Engines",
+      "sections": [
+        {
+          "heading": "Best W-Engines",
+          "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n The top number shows the performance of the W-Engine when applying Daze while the bottom number when dealing Damage .\n 103.72%\n 94.00%\n\n Hellfire Gears (S 1 )\n\n Koleda's Signature W-Engine is an incredible option for all Stun Agents that use their EX Special Attack at least somewhat regularly. Maintaining at least 1 stack of its buff consistently is expected, but its value only increases further at 2 stacks. Energy Regen, strong base stats and a great combat buff make this Engine a safe option on most Agents.\n 101.55%\n 88.85%\n\n Steam Oven (S 5 )\n\n This F2P craftable W-Engine grants a really high amount of short-term Daze output via its ability to increase Impact based on total Energy accumulated. For this reason, this is one of the best W-Engines to open up a fight with, but unfortunately when trying to sustain Daze over long fights this W-Engine does fall behind in performance. Will display stronger performance in Shiyu Defense, and much worse in Deadly Assault. Nevertheless one of the best A-rank options available.\n 101.05%\n 88.85%\n\n Precious Fossilized Core (S 5 )\n\n Amazing option for all Stun Agents, particularly in Deadly Assault due to its massive buffs to Daze that it gives against higher HP enemies which is exploited to its full potential in the gamemode, in a lot of cases even outperforming S-rank W-Engines despite being an F2P craftable. Unfortunately not as powerful in other endgame contents, but still a perfectly viable choice.\n Usage: 11.11 %\n Shiyu Defense: 0\n Deadly Assault: 20317\n\n 100.00%\n 100.00%\n\n The Restrained (S 1 )\n\n Lycaon's Signature W-Engine is particularly interesting not only thanks to its high Basic Attack Daze increasing effect, but also due to its ability to increase Basic Attack damage at the same time. This leads to typically slightly lower Daze output while giving high damage as a trade-off. The more personal damage your Stun Agent deals, the higher the value of this W-Engine, but it is typically not preferred on most Stun Agents as they mostly want to deal Daze and this W-Engine is less specialized to do so than others.\n Usage: 17.78 %\n Shiyu Defense: 25812\n Deadly Assault: 21774\n\n 93.00%\n 103.26%\n\n Demara Battery Mark II (S 5 )\n\n Anby's Signature W-Engine is unfortunately only great for its personal damage potential, however since Anby primarily wants to deal Daze to enemies and her damage is not as high as a DPS, it is much more preferable to pick a W-Engine with higher daze output listed above. Only to be used if for some reason you want to play Stun Anby as a Main DPS (not recommended, use Soldier 0 for that).\n Usage: 53.33 %\n Shiyu Defense: 30106\n Deadly Assault: 22867",
+          "assets": [
+            {
+              "id": "8271342a7fd4",
+              "sourceHash": "8271342a7fd4",
+              "kind": "w-engines",
+              "name": "Hellfire Gears",
+              "fileStem": "hellfire-gears-image",
+              "path": "Prydwen/zzz/assets/w-engines/hellfire-gears-8271342a7fd4.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "3e546e25a1fe",
+              "sourceHash": "3e546e25a1fe",
+              "kind": "w-engines",
+              "name": "Steam Oven",
+              "fileStem": "steam-oven-image",
+              "path": "Prydwen/zzz/assets/w-engines/steam-oven-3e546e25a1fe.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "dc5e4d8d56b9",
+              "sourceHash": "dc5e4d8d56b9",
+              "kind": "w-engines",
+              "name": "Precious Fossilized Core",
+              "fileStem": "precious-fossilized-core-image",
+              "path": "Prydwen/zzz/assets/w-engines/precious-fossilized-core-dc5e4d8d56b9.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "ba65f478c8b6",
+              "sourceHash": "ba65f478c8b6",
+              "kind": "w-engines",
+              "name": "The Restrained",
+              "fileStem": "the-restrained-image",
+              "path": "Prydwen/zzz/assets/w-engines/the-restrained-ba65f478c8b6.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "26649fd35edc",
+              "sourceHash": "26649fd35edc",
+              "kind": "w-engines",
+              "name": "Demara Battery Mark II",
+              "fileStem": "demara-battery-mark-ii-image",
+              "path": "Prydwen/zzz/assets/w-engines/demara-battery-mark-ii-26649fd35edc.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-disk-drives-sets": {
+      "label": "Best Disk Drives Sets",
+      "sections": [
+        {
+          "heading": "Best Disk Drives Sets",
+          "text": "1\n\n King of the Summit ( 4 -PC)\n\n New best Stun set, to be used on any Stun character in almost any team with very few exceptions. Gives 6% increased Daze on the 2-piece and up to 30% CRIT DMG for the entire squad for 15s when casting EX Specials and Chain Attacks on the condition that the equipper has 50% CRIT Rate or higher, a requirement which is easy to meet but must be ensured. Uptime on this buff is almost always easily maintained permanently, however be mindful this set will not be effective if you aren’t building the rest of your team on CRIT, in which case alternatives will be preferred, and that you cannot run this set multiple times on the same team.\n Best combined with your choice of 2-PC Set:\n 2P\n Shockstar Disco\n\n (Recommended)\n 2P\n Swing Jazz\n\n 2\n\n Astral Voice ( 4 -PC)\n\n Best generalist Support set, providing a useful 10% ATK on the 2-piece but most importantly buffing DMG dealt by characters entering the field via Quick Assists by upwards of 24%, the biggest buff provided by Disc Drives in the game. Generally a must-have set on any team, but be mindful of ensuring uptime on the buff.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Swing Jazz\n\n 3\n\n Proto Punk ( 4 -PC)\n\n Niche supportive set used for teams that are in the position of triggering Perfect Assists often. Grants the entire party 15% increased DMG for 10s when triggering a Perfect Assist. Typically used if an Astral Voice wielder is already on the team and the equipped Agent is in a position to trigger lots of Perfect Assists. This set's value is significantly diminished if the player isn't comfortable with timing Perfect Assists, in which case other sets will be favoured such as 4P Swing Jazz.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Swing Jazz\n\n 4\n\n Shockstar Disco ( 4 -PC)\n\n Provides the highest Daze output of any Disk Drive set in the game. However, the difference between the 4-piece effect increase in Daze is marginal compared to simply using the 2-piece effect, meaning it almost always yields better results to use a supportive set like King of the Summit or Astral Voice to buff your team further, instead of the extra Daze which only gives extra Stun windows against bosses in very specific situations. If an extra Stun window is enabled by using this set it will perform the best, however this only very rarely happens, causing it to be left behind in favour of other sets.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Swing Jazz",
+          "assets": [
+            {
+              "id": "9cafa8e105ae",
+              "sourceHash": "9cafa8e105ae",
+              "kind": "drive-discs",
+              "name": "King of the Summit",
+              "fileStem": "set-king",
+              "path": "Prydwen/zzz/assets/drive-discs/king-of-the-summit-9cafa8e105ae.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "1d32dd29b6a7",
+              "sourceHash": "1d32dd29b6a7",
+              "kind": "drive-discs",
+              "name": "Shockstar Disco",
+              "fileStem": "set-shockstar",
+              "path": "Prydwen/zzz/assets/drive-discs/shockstar-disco-1d32dd29b6a7.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "7e8e49d34387",
+              "sourceHash": "7e8e49d34387",
+              "kind": "drive-discs",
+              "name": "Swing Jazz",
+              "fileStem": "set-swing",
+              "path": "Prydwen/zzz/assets/drive-discs/swing-jazz-7e8e49d34387.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "47b453ad83b8",
+              "sourceHash": "47b453ad83b8",
+              "kind": "drive-discs",
+              "name": "Astral Voice",
+              "fileStem": "set-astral",
+              "path": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "1c4453ce92f8",
+              "sourceHash": "1c4453ce92f8",
+              "kind": "drive-discs",
+              "name": "Proto Punk",
+              "fileStem": "set-proto",
+              "path": "Prydwen/zzz/assets/drive-discs/proto-punk-1c4453ce92f8.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-disk-drives-stats": {
+      "label": "Best Disk Drives Stats",
+      "sections": [
+        {
+          "heading": "Best Disk Drives Stats",
+          "text": "Disk 4\n CRIT Rate% >= CRIT DMG%\n\n Disk 5\n Electric DMG% > ATK%\n\n Disk 6\n Impact\n\n Substats: CRIT RATE = CRIT DMG > ATK% > PEN = ATK",
+          "assets": []
+        }
+      ]
+    },
+    "best-endgame-stats": {
+      "label": "Best Endgame Stats",
+      "sections": [
+        {
+          "heading": "Best Endgame Stats (Level 60)",
+          "text": "Impact: 169 - 190+\n\n ATK: 1700 - 2000+ (Optional)\n\n HP: 9500+\n\n DEF: 800+\n\n CRIT RATE: 50%+ (Needed for King of the Summit)\n\n CRIT DMG: 100% - 120%+ (Optional)",
+          "assets": []
+        }
+      ]
+    },
+    "skill-priority": {
+      "label": "Skill priority",
+      "sections": [
+        {
+          "heading": "Skill priority",
+          "text": "Special Attack\n\n Basic Attack\n\n Chain Attack\n\n Dodge\n\n Assist",
+          "assets": [
+            {
+              "id": "954b8d0b61b7",
+              "sourceHash": "954b8d0b61b7",
+              "kind": "icons",
+              "name": "Special Attack",
+              "fileStem": "icon-special-full",
+              "path": "Prydwen/zzz/assets/icons/special-attack-954b8d0b61b7.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "13fff798e82d",
+              "sourceHash": "13fff798e82d",
+              "kind": "icons",
+              "name": "Basic Attack",
+              "fileStem": "icon-basic",
+              "path": "Prydwen/zzz/assets/icons/basic-attack-13fff798e82d.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "803b765175bc",
+              "sourceHash": "803b765175bc",
+              "kind": "icons",
+              "name": "Chain Attack",
+              "fileStem": "icon-ulti-full",
+              "path": "Prydwen/zzz/assets/icons/chain-attack-803b765175bc.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "f3bbacf4beb6",
+              "sourceHash": "f3bbacf4beb6",
+              "kind": "icons",
+              "name": "Dodge",
+              "fileStem": "icon-dodge",
+              "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "de0f0cad1e72",
+              "sourceHash": "de0f0cad1e72",
+              "kind": "icons",
+              "name": "Assist",
+              "fileStem": "icon-assist-m",
+              "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+              "width": 24,
+              "height": 24
+            }
+          ]
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Below we list only the most important synergies for Anby . The character can work with others if you know what to do and how to use them.\n\n Harumasa - Harumasa's current best F2P Stun partner is Anby, replacing Qingyi if you don't have her. She's desirable for a few reasons, being her quick Daze application which fills in for Harumasa's downtime due to her field time requirements, her ability to inflict Shock anomaly, and her acceptable personal damage. All in all the two form a great pair if you don't have other Agents.\n Zhu Yuan - Anby makes for a great F2P stunner for Zhu Yuan due to her quick Daze application that fills in for Zhu Yuan's downtime. She acts as a solid replacement to Qingyi, so it's easy to see why the two work well together as their kits have similarities. Much like the synergy with Harumasa, Anby is an option to consider if you lack stronger Stun Agents.\n Nicole - The Demara sisters are able to activate each other's Additional Abilities, which is great for enhancing Anby's Energy Regen while Nicole gets to provide an extra Ether DMG Boost to the whole party. Beyond that, Anby is able to quickly create Stun windows for Nicole's DEF shred to gain extra effectiveness, greatly enhancing the performance of the DPS character you pair them with, making the two a great duo to increase your DPS character's damage.",
+          "assets": [
+            {
+              "id": "c46964eb00d4",
+              "sourceHash": "c46964eb00d4",
+              "kind": "characters",
+              "name": "Harumasa",
+              "fileStem": "harumasa",
+              "path": "Prydwen/zzz/assets/characters/harumasa-c46964eb00d4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "6037eb213413",
+              "sourceHash": "6037eb213413",
+              "kind": "characters",
+              "name": "Zhu Yuan",
+              "fileStem": "zhu-yuan",
+              "path": "Prydwen/zzz/assets/characters/zhu-yuan-6037eb213413.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "ad063e072375",
+              "sourceHash": "ad063e072375",
+              "kind": "characters",
+              "name": "Nicole",
+              "fileStem": "nicole-demara",
+              "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "teams": {
+      "label": "Teams",
+      "sections": [
+        {
+          "heading": "Teams (Shiyu Defense)",
+          "text": "This section lists most popular teams featuring Anby in the current phase of Shiyu Defense.\n There are no teams featuring Anby who have cleared Shiyu Defense in the current cycle.",
+          "assets": []
+        },
+        {
+          "heading": "Teams (Deadly Assault)",
+          "text": "This section lists most popular teams featuring Anby in the current phase of Deadly Assault.\n There are no teams featuring Anby who have cleared Deadly Assault in the current cycle.",
+          "assets": []
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Anby Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Anby\n Anby Best Build Guide\n Last updated: 14/June/2026\n\n Introduction\n Best guide and build for Anby from ZZZ (Zenless Zone Zero). Anby is an rank character with the Electric attribute who belongs to the Stun Specialty and who is part of the Cunning Hares faction.\n A mysterious young girl who never talks about her past, almost as if she didn't have one. She is calm and collected, and unusually competent and efficient in combat, almost as if she'd had years of training. In an unexpected incident, Nicole brought her back to the Cunning Hares, and she has an emotional independence on her ever since. She loves watching movies, but due to certain lack of common sense she seems to almost think them real-life stories.\n\n To learn more about Anby check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n This character has no video guide yet.\n\n Update tracker\n Last review update\n Patch 2.0\n\n Last build update\n Patch 2.0\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 14/June/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Anby check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Fluctuating Voltage\n\n Lv. 1\n\n Launch a Basic Attack: Thunderbolt, Special Attack, or EX Special Attack after the 3rd-hit of Anby's Basic Attack for an extra 32% Daze.\n\n Impact 0\n BASE ATK: 0\n\n Additional Ability Parallel Connection\n\n When another character in your squad shares the same Attribute or Faction:\n When Anby's Dodge Counter hits an enemy, she gains an extra 7.2 Energy. This effect can trigger once every 5s .\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Turbo Volt\n\n Press to activate.\nUnleashes up to 4 slashes. The first 3 hits deal Physical DMG the 4th hit deals Electric DMG.\n Multipliers\n\n Basic Attack: Thunderbolt\n\n After unleashing the 3rd hit of the Basic Attack, hold down or pause for a short while, and then press to activate.\nUnleashes a downward strike that deals Electric DMG.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n Dodge: Slide\n\n Press to dodge.\nA rapid dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Taser Blast\n\n Press during a dodge to activate.\nSlashes all nearby enemies, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Thunderclap\n\n Press during a Perfect Dodge to activate.\nSlashes enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Fork Lightning\n\n Press to activate.\nUnleashes an upward slash that deals Electric DMG.\nThis attack launches faster when used after the 3rd-hit of the Basic Attack or Basic Attack: Thunderbolt.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n EX Special Attack: Lightning Bolt\n\n With enough energy, press to activate.\nUnleashes a powerful upward slash that deals Electric DMG.\nThis attack launches faster when used after the 3rd hit of her Basic Attack or Basic Attack: Thunderbolt.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Electro Engine\n\n When a Chain Attack is triggered, select the character to activate.\nUnleashes a powerful upwards slash at enemies in a small area, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Overdrive Engine\n\n When Decibel Rating is at Maximum, press to activate.\nUnleashes a powerful upward slash at enemies in a small area followed by several falling attacks, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Lightning Whirl\n\n Press after a Defensive Assist to activate.\nPerform a spinning slash against enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Flash\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, inflicting massive Daze.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Thunderfall\n\n When the on-field character is launched, press to activate.\nSlashes enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n Rapid Charge Mode\n Mindscape 1\n\n When the 4th-hit of Anby's Basic Attack hits an enemy, her Energy Generation Rate is increased by 12% for 30s .\n\n M2\n Precision Discharge\n Mindscape 2\n\n When Basic Attack: Thunderbolt hits a Stunned enemy, its DMG is increased by 30% . When Anby's EX Special Attack hits an enemy that is not Stunned, the Daze inflicted is increased by 10% .\n\n M3\n Well-Disciplined\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Conducting Charge\n Mindscape 4\n\n When Anby launches a Chain Attack or uses her Ultimate, off-field Electric Agents recover 3 Energy. For every 12% Energy Generation Anby Has, recover an additional 2 Energy, up to a maximum of 6 .\n\n M5\n Street Experience\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Charging Field\n Mindscape 6\n\n When Anby uses her EX Special Attack, she gains 8 stacks of Charge (max 8 stacks). When she hits an enemy with her Basic Attack or Dash Attack, 1 stack of Charge is consumed, increasing that attack's DMG by 45% .\n\n Stats (Level 60)\n Anby Stats at level 60 (including Core passive bonuses).\n\n HP\n 7500\n\n DEF\n 612\n\n ATK\n 658\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 136\n\n Anomaly Mastery\n 94\n\n Anomaly Proficiency\n 93\n\n Energy Regen\n 1.2\n\n Voice Actors\n ENG\n -\n\n JPN\n Tanezaki Atsumi (種﨑敦美)\n\n CN\n Yan Ning (宴宁)\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Support\n T3\n Endgame Modes\n\n Pros & Cons\n Pros\n Very easy combos to learn and execute with high daze potential and a simplistic onfielder playstyle;\n\n High Energy generation built into her kit, even able to funnel flat Energy to other Electric characters;\n\n Becomes stronger the more aggressive the enemy is, thanks to her Dodge Counter, while remaining usable at a baseline;\n\n Surprisingly acceptable personal damage by Stun character standards, especially at M6;\n\n She’s free!\n\n Cons\n Has little to no AoE potential unless enemies are on top of each other;\n\n Provides very little value to other Agents as she has no extra buffs/debuffs like other Stun Agents do;\n\n Overshadowed in any team by one or more options, which makes her very easily replaceable.\n\n Review\n Anby Demara, often called Stun Anby to differentiate her from her S-rank Soldier 0 counterpart, is a free A-Rank Electric Stun Agent available right from the get-go whose main role is to deal a lot of Daze to enemies in a short amount of field time in order to offer Stun windows for your other Agents to exploit.\n Anby is a character who’s very conceptually simple to get a good grasp on . Overall, being a free character you get right from the start of the game, Anby is a character who portrays the phrase “simple yet effective” perfectly. There are some minor intricacies to her kit, but once you get a grasp of her 2 main combos (which really doesn’t take long to do), it becomes very difficult to play her incorrectly, which is one of her biggest strengths.\n When it comes to explaining her kit, we’ll keep things as short as we can because it’s really simple to grasp:\n Her Chain and Ultimate are simple bursts of DMG and Daze with no intricacies to them, the same applies to her Quick Assist, and her Defensive Assist is a simple big burst of Daze that should be executed along with her Assist Follow-Up when possible to stun enemies faster.\n Anby’s Basic Attack and EX Special are generally tied together, they’re the two main components of Anby’s combo. After the third hit of Anby’s Basic Attack, she can follow up with a special Basic Attack called “Thunderbolt” by holding down the Basic Attack button or by pausing for a split second then pressing Basic again (it’s easier and doesn’t cause any losses to simply hold the Basic Attack button, so typically that’s what you’ll do).\n Her EX Special is another big burst of damage and Daze that costs 60 Energy and is also usable after her Basic P3 for a faster start-up, after which she can immediately follow up with her Thunderbolt Basic Attack by simply tapping the Basic Attack input, allowing for a very quick burst of Daze.\n Executing either of these actions after Basic P3 allows Anby, via her Core Passive, to gain up to 64% extra Daze on them. This means when you have enough Energy available you can execute this combo:\n Basic P1\n\n Basic P2\n\n Basic P3\n\n EX Special\n\n Basic Attack: Thunderbolt\n\n The EX Special gains 64% extra Daze doing this via Anby’s Core Passive, which is extremely valuable to stun enemies quickly. However, if you don’t have the Energy required to perform an EX Special, simply perform this combo:\n Basic P1\n\n Basic P2\n\n Basic P3\n\n Basic Attack: Thunderbolt\n\n Hold Basic Attack after Basic P3 to perform Thunderbolt here, which gains an extra 64% Daze via Anby’s Core Passive.\n Some intricacies to mention include the following:\n Try to use Anby’s Ultimate whenever possible and out of a Stun window to create more Stun opportunities for your team;\n\n Anby’s Dodge Counter is very powerful and should be executed whenever possible (even interrupting your combo for it), this grants her extra Energy with her Additional Ability activated;\n\n If you can perform a Defensive Assist with Anby, it’s never a bad idea to do so to stun enemies quicker;\n\n Anby’s Basic P4 can be used instead of standard combos every 30s by simply repeatedly tapping Basic Attack to get extra Energy Regen from her M1.\n\n Finally, simply repeat the above actions until the enemy is stunned, then chain into your DPS Agent for big bursts of damage. Make sure to have Anby’s Additional Ability condition satisfied for more EX Specials, which means faster Stuns!\n That sums up Anby’s gameplay in just about full detail, she’s really simplistic in essence. Her regular Special is unused as her Thunderbolt Basic is always more preferable to execute. Certain intricacies may apply depending on your specific team and the enemy you’re facing, however in terms of general usage this is as complex as it gets.\n Regarding Anby’s meta relevancy, she’s always outclassed by at least one other Stun agent in any team, which is to be expected as she’s a free character obtained at the very beginning of the game . The biggest example of this is Qingyi, being another Electric Stun Agent who wants to stay on the field, stuns quickly, and applies Stun DMG Multiplier debuffs, outclassing Anby in just about every way. However, to Anby’s credit, for the character you start the game with, she very much doesn’t disappoint. Building her, even into the late game, should give you the resources you need to fully clear endgame content. She works as a “budget Qingyi” of sorts and while Anby doesn’t provide nearly as much as the robot policewoman does, she fills the same niche as her, slots in similar team compositions and remains effective nonetheless.\n In conclusion, Anby is a simplistic Stun Agent to play, build, and use, and while she’s a free character given at the very beginning of the game with little special qualities to make her stand out, she remains very suitable in her role thanks to her Daze and Damage numbers standing fairly strong to this day, especially at M6. She won’t disappoint if you wish to build her, however be aware that she will be outclassed by other Stun Agent options once you acquire them, so you may end up replacing her someday. But until that day comes, she’ll be very serviceable.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n The top number shows the performance of the W-Engine when applying Daze while the bottom number when dealing Damage .\n 103.72%\n 94.00%\n\n Hellfire Gears (S 1 )\n\n Koleda's Signature W-Engine is an incredible option for all Stun Agents that use their EX Special Attack at least somewhat regularly. Maintaining at least 1 stack of its buff consistently is expected, but its value only increases further at 2 stacks. Energy Regen, strong base stats and a great combat buff make this Engine a safe option on most Agents.\n 101.55%\n 88.85%\n\n Steam Oven (S 5 )\n\n This F2P craftable W-Engine grants a really high amount of short-term Daze output via its ability to increase Impact based on total Energy accumulated. For this reason, this is one of the best W-Engines to open up a fight with, but unfortunately when trying to sustain Daze over long fights this W-Engine does fall behind in performance. Will display stronger performance in Shiyu Defense, and much worse in Deadly Assault. Nevertheless one of the best A-rank options available.\n 101.05%\n 88.85%\n\n Precious Fossilized Core (S 5 )\n\n Amazing option for all Stun Agents, particularly in Deadly Assault due to its massive buffs to Daze that it gives against higher HP enemies which is exploited to its full potential in the gamemode, in a lot of cases even outperforming S-rank W-Engines despite being an F2P craftable. Unfortunately not as powerful in other endgame contents, but still a perfectly viable choice.\n Usage: 11.11 %\n Shiyu Defense: 0\n Deadly Assault: 20317\n\n 100.00%\n 100.00%\n\n The Restrained (S 1 )\n\n Lycaon's Signature W-Engine is particularly interesting not only thanks to its high Basic Attack Daze increasing effect, but also due to its ability to increase Basic Attack damage at the same time. This leads to typically slightly lower Daze output while giving high damage as a trade-off. The more personal damage your Stun Agent deals, the higher the value of this W-Engine, but it is typically not preferred on most Stun Agents as they mostly want to deal Daze and this W-Engine is less specialized to do so than others.\n Usage: 17.78 %\n Shiyu Defense: 25812\n Deadly Assault: 21774\n\n 93.00%\n 103.26%\n\n Demara Battery Mark II (S 5 )\n\n Anby's Signature W-Engine is unfortunately only great for its personal damage potential, however since Anby primarily wants to deal Daze to enemies and her damage is not as high as a DPS, it is much more preferable to pick a W-Engine with higher daze output listed above. Only to be used if for some reason you want to play Stun Anby as a Main DPS (not recommended, use Soldier 0 for that).\n Usage: 53.33 %\n Shiyu Defense: 30106\n Deadly Assault: 22867\n\n Best Disk Drives Sets\n 1\n\n King of the Summit ( 4 -PC)\n\n New best Stun set, to be used on any Stun character in almost any team with very few exceptions. Gives 6% increased Daze on the 2-piece and up to 30% CRIT DMG for the entire squad for 15s when casting EX Specials and Chain Attacks on the condition that the equipper has 50% CRIT Rate or higher, a requirement which is easy to meet but must be ensured. Uptime on this buff is almost always easily maintained permanently, however be mindful this set will not be effective if you aren’t building the rest of your team on CRIT, in which case alternatives will be preferred, and that you cannot run this set multiple times on the same team.\n Best combined with your choice of 2-PC Set:\n 2P\n Shockstar Disco\n\n (Recommended)\n 2P\n Swing Jazz\n\n 2\n\n Astral Voice ( 4 -PC)\n\n Best generalist Support set, providing a useful 10% ATK on the 2-piece but most importantly buffing DMG dealt by characters entering the field via Quick Assists by upwards of 24%, the biggest buff provided by Disc Drives in the game. Generally a must-have set on any team, but be mindful of ensuring uptime on the buff.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Swing Jazz\n\n 3\n\n Proto Punk ( 4 -PC)\n\n Niche supportive set used for teams that are in the position of triggering Perfect Assists often. Grants the entire party 15% increased DMG for 10s when triggering a Perfect Assist. Typically used if an Astral Voice wielder is already on the team and the equipped Agent is in a position to trigger lots of Perfect Assists. This set's value is significantly diminished if the player isn't comfortable with timing Perfect Assists, in which case other sets will be favoured such as 4P Swing Jazz.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Swing Jazz\n\n 4\n\n Shockstar Disco ( 4 -PC)\n\n Provides the highest Daze output of any Disk Drive set in the game. However, the difference between the 4-piece effect increase in Daze is marginal compared to simply using the 2-piece effect, meaning it almost always yields better results to use a supportive set like King of the Summit or Astral Voice to buff your team further, instead of the extra Daze which only gives extra Stun windows against bosses in very specific situations. If an extra Stun window is enabled by using this set it will perform the best, however this only very rarely happens, causing it to be left behind in favour of other sets.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Swing Jazz\n\n Best Disk Drives Stats\n Disk 4\n CRIT Rate% >= CRIT DMG%\n\n Disk 5\n Electric DMG% > ATK%\n\n Disk 6\n Impact\n\n Substats: CRIT RATE = CRIT DMG > ATK% > PEN = ATK\n\n Best Endgame Stats (Level 60)\n Impact: 169 - 190+\n\n ATK: 1700 - 2000+ (Optional)\n\n HP: 9500+\n\n DEF: 800+\n\n CRIT RATE: 50%+ (Needed for King of the Summit)\n\n CRIT DMG: 100% - 120%+ (Optional)\n\n Skill priority\n Special Attack\n\n Basic Attack\n\n Chain Attack\n\n Dodge\n\n Assist\n\n Video guides\n Anby guide videos aren't available yet.\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Anby . The character can work with others if you know what to do and how to use them.\n\n Harumasa - Harumasa's current best F2P Stun partner is Anby, replacing Qingyi if you don't have her. She's desirable for a few reasons, being her quick Daze application which fills in for Harumasa's downtime due to her field time requirements, her ability to inflict Shock anomaly, and her acceptable personal damage. All in all the two form a great pair if you don't have other Agents.\n Zhu Yuan - Anby makes for a great F2P stunner for Zhu Yuan due to her quick Daze application that fills in for Zhu Yuan's downtime. She acts as a solid replacement to Qingyi, so it's easy to see why the two work well together as their kits have similarities. Much like the synergy with Harumasa, Anby is an option to consider if you lack stronger Stun Agents.\n Nicole - The Demara sisters are able to activate each other's Additional Abilities, which is great for enhancing Anby's Energy Regen while Nicole gets to provide an extra Ether DMG Boost to the whole party. Beyond that, Anby is able to quickly create Stun windows for Nicole's DEF shred to gain extra effectiveness, greatly enhancing the performance of the DPS character you pair them with, making the two a great duo to increase your DPS character's damage.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Anby in the current phase of Shiyu Defense.\n There are no teams featuring Anby who have cleared Shiyu Defense in the current cycle.\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Anby in the current phase of Deadly Assault.\n There are no teams featuring Anby who have cleared Deadly Assault in the current cycle."
+}

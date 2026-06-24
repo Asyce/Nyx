@@ -1,0 +1,965 @@
+{
+  "provider": "Prydwen",
+  "game": "hsr",
+  "collection": "relic-sets",
+  "sourcePath": "/star-rail/guides/relic-sets",
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "detailPagesTotal": 0,
+  "detailPagesScraped": 0,
+  "staleDetailPagesRemoved": 0,
+  "items": [
+    {
+      "id": "amphoreus-the-eternal-land",
+      "name": "Amphoreus, The Eternal Land",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/amphoreus-the-eternal-land-93d6c2686318.webp",
+      "assetId": "93d6c2686318",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) Increases the wearer's CRIT Rate by 8% . While the wearer's memosprite is on the field, increases all allies' SPD by 8% . This effect cannot be stacked."
+        ]
+      },
+      "text": "Amphoreus, The Eternal Land\nType: PLANETARY ORNAMENT SET\n(2) Increases the wearer's CRIT Rate by 8% . While the wearer's memosprite is on the field, increases all allies' SPD by 8% . This effect cannot be stacked."
+    },
+    {
+      "id": "arcadia-of-woven-dreams",
+      "name": "Arcadia of Woven Dreams",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/arcadia-of-woven-dreams-19f596f01746.webp",
+      "assetId": "19f596f01746",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) When there are currently more or less than 4 ally targets in battle, each additional/missing ally target increases the wearer and their memosprite's DMG by 9%/12% , up to a maximum of 4/3 stacks."
+        ]
+      },
+      "text": "Arcadia of Woven Dreams\nType: PLANETARY ORNAMENT SET\n(2) When there are currently more or less than 4 ally targets in battle, each additional/missing ally target increases the wearer and their memosprite's DMG by 9%/12% , up to a maximum of 4/3 stacks."
+    },
+    {
+      "id": "as-navigator-isee-sees-it",
+      "name": "As Navigator Isee Sees It",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/as-navigator-isee-sees-it-75b9a740d310.webp",
+      "assetId": "75b9a740d310",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases ATK by 12% .",
+          "(4) When the wearer enters combat or uses Skill, the DMG dealt by their Skill and Ultimate increases by 18% , stacking up to 3 time(s). At the start of the wearer's turn or after using Ultimate, removes 1 stack(s) of this effect."
+        ]
+      },
+      "text": "As Navigator Isee Sees It\nType: RELIC SET\n(2) Increases ATK by 12% .\n(4) When the wearer enters combat or uses Skill, the DMG dealt by their Skill and Ultimate increases by 18% , stacking up to 3 time(s). At the start of the wearer's turn or after using Ultimate, removes 1 stack(s) of this effect."
+    },
+    {
+      "id": "band-of-sizzling-thunder",
+      "name": "Band of Sizzling Thunder",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/band-of-sizzling-thunder-a587afe51aae.webp",
+      "assetId": "a587afe51aae",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases Lightning DMG by 10% .",
+          "(4) When the wearer uses Skill, increases the wearer's ATK by 20% for 1 turn(s)."
+        ]
+      },
+      "text": "Band of Sizzling Thunder\nType: RELIC SET\n(2) Increases Lightning DMG by 10% .\n(4) When the wearer uses Skill, increases the wearer's ATK by 20% for 1 turn(s)."
+    },
+    {
+      "id": "belobog-of-the-architects",
+      "name": "Belobog of the Architects",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/belobog-of-the-architects-7b4386e9ea22.webp",
+      "assetId": "7b4386e9ea22",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) Increases the wearer's DEF by 15% . When the wearer's Effect Hit Rate is 50% or higher, the wearer gains an extra 15% DEF."
+        ]
+      },
+      "text": "Belobog of the Architects\nType: PLANETARY ORNAMENT SET\n(2) Increases the wearer's DEF by 15% . When the wearer's Effect Hit Rate is 50% or higher, the wearer gains an extra 15% DEF."
+    },
+    {
+      "id": "bone-collections-serene-demesne",
+      "name": "Bone Collection's Serene Demesne",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/bone-collections-serene-demesne-6206930710f0.webp",
+      "assetId": "6206930710f0",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) Increases the wearer's Max HP by 12% . When the wearer's Max HP is 5000 or higher, increases the wearer's and their memosprite's CRIT DMG by 28% ."
+        ]
+      },
+      "text": "Bone Collection's Serene Demesne\nType: PLANETARY ORNAMENT SET\n(2) Increases the wearer's Max HP by 12% . When the wearer's Max HP is 5000 or higher, increases the wearer's and their memosprite's CRIT DMG by 28% ."
+    },
+    {
+      "id": "broken-keel",
+      "name": "Broken Keel",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+      "assetId": "3306e6f6288f",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) Increases the wearer's Effect RES by 10% . When the wearer's Effect RES is at 30% or higher, all allies' CRIT DMG increases by 10% ."
+        ]
+      },
+      "text": "Broken Keel\nType: PLANETARY ORNAMENT SET\n(2) Increases the wearer's Effect RES by 10% . When the wearer's Effect RES is at 30% or higher, all allies' CRIT DMG increases by 10% ."
+    },
+    {
+      "id": "celestial-differentiator",
+      "name": "Celestial Differentiator",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/celestial-differentiator-96a2d752ff4d.webp",
+      "assetId": "96a2d752ff4d",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) Increases the wearer's CRIT DMG by 16% . When the wearer's current CRIT DMG reaches 120% or higher, after entering battle, the wearer's CRIT Rate increases by 60% until the end of their first attack."
+        ]
+      },
+      "text": "Celestial Differentiator\nType: PLANETARY ORNAMENT SET\n(2) Increases the wearer's CRIT DMG by 16% . When the wearer's current CRIT DMG reaches 120% or higher, after entering battle, the wearer's CRIT Rate increases by 60% until the end of their first attack."
+    },
+    {
+      "id": "champion-of-streetwise-boxing",
+      "name": "Champion of Streetwise Boxing",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/champion-of-streetwise-boxing-a73e778a325a.webp",
+      "assetId": "a73e778a325a",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases Physical DMG by 10% .",
+          "(4) After the wearer attacks or is hit, their ATK increases by 5% for the rest of the battle. This effect can stack up to 5 time(s)."
+        ]
+      },
+      "text": "Champion of Streetwise Boxing\nType: RELIC SET\n(2) Increases Physical DMG by 10% .\n(4) After the wearer attacks or is hit, their ATK increases by 5% for the rest of the battle. This effect can stack up to 5 time(s)."
+    },
+    {
+      "id": "city-of-converging-stars",
+      "name": "City of Converging Stars",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/city-of-converging-stars-ce4ff214e47e.webp",
+      "assetId": "ce4ff214e47e",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) When the wearer uses Follow-Up ATK, increases ATK by 24% for 2 turn(s). When an enemy target gets defeated, increases CRIT DMG for all allies by 12% in the current battle. This effect cannot stack.",
+          "(2) Increases Max HP by 12% .",
+          "(4) Increases the wearer's CRIT DMG dealt to enemy targets in the DEF reduction state by 28% . After the wearer inflicts the DEF reduction state on an enemy target, all allies gain \"Comburent\" for 2 turn(s). This effect cannot be stacked. The DMG dealt by ally targets with \"Comburent\" increases by 15% . This effect can be triggered again after the wearer uses an attack."
+        ]
+      },
+      "text": "City of Converging Stars\nType: PLANETARY ORNAMENT SET\n(2) When the wearer uses Follow-Up ATK, increases ATK by 24% for 2 turn(s). When an enemy target gets defeated, increases CRIT DMG for all allies by 12% in the current battle. This effect cannot stack.\nDivine-Querying Master Smith\n(2) Increases Max HP by 12% .\n(4) Increases the wearer's CRIT DMG dealt to enemy targets in the DEF reduction state by 28% . After the wearer inflicts the DEF reduction state on an enemy target, all allies gain \"Comburent\" for 2 turn(s). This effect cannot be stacked. The DMG dealt by ally targets with \"Comburent\" increases by 15% . This effect can be triggered again after the wearer uses an attack."
+    },
+    {
+      "id": "divine-querying-master-smith",
+      "name": "Divine-Querying Master Smith",
+      "kind": "relics",
+      "art": "Prydwen/hsr/assets/relics/divine-querying-master-smith-441039825aff.webp",
+      "assetId": "441039825aff",
+      "contentStatus": "live"
+    },
+    {
+      "id": "diviner-of-distant-reach",
+      "name": "Diviner of Distant Reach",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/diviner-of-distant-reach-19b06ffee878.webp",
+      "assetId": "19b06ffee878",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases SPD by 6% .",
+          "(4) Before entering combat, if the wearer's SPD is greater than or equal to 120/160 , increases the wearer's CRIT Rate by 10%/18% . When the wearer uses Elation Skill for the first time in each battle, enhances all allies' Elation by 10% . This effect cannot stack."
+        ]
+      },
+      "text": "Diviner of Distant Reach\nType: RELIC SET\n(2) Increases SPD by 6% .\n(4) Before entering combat, if the wearer's SPD is greater than or equal to 120/160 , increases the wearer's CRIT Rate by 10%/18% . When the wearer uses Elation Skill for the first time in each battle, enhances all allies' Elation by 10% . This effect cannot stack."
+    },
+    {
+      "id": "duran-dynasty-of-running-wolves",
+      "name": "Duran, Dynasty of Running Wolves",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/duran-dynasty-of-running-wolves-5c3fed1223b5.webp",
+      "assetId": "5c3fed1223b5",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) When allies use follow-up attacks, the wearer receives 1 stack of Merit, stacking up to 5 times. Every stack of Merit increases the DMG dealt by the wearer's follow-up attacks by 5% . When there are 5 stacks, additionally increases the wearer's CRIT DMG by 25% ."
+        ]
+      },
+      "text": "Duran, Dynasty of Running Wolves\nType: PLANETARY ORNAMENT SET\n(2) When allies use follow-up attacks, the wearer receives 1 stack of Merit, stacking up to 5 times. Every stack of Merit increases the DMG dealt by the wearer's follow-up attacks by 5% . When there are 5 stacks, additionally increases the wearer's CRIT DMG by 25% ."
+    },
+    {
+      "id": "eagle-of-twilight-line",
+      "name": "Eagle of Twilight Line",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/eagle-of-twilight-line-36af28ceb2d3.webp",
+      "assetId": "36af28ceb2d3",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases Wind DMG by 10% .",
+          "(4) After the wearer uses Ultimate, their action is Advanced Forward by 25% ."
+        ]
+      },
+      "text": "Eagle of Twilight Line\nType: RELIC SET\n(2) Increases Wind DMG by 10% .\n(4) After the wearer uses Ultimate, their action is Advanced Forward by 25% ."
+    },
+    {
+      "id": "ever-glorious-magical-girl",
+      "name": "Ever-Glorious Magical Girl",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/ever-glorious-magical-girl-3dd5bc179206.webp",
+      "assetId": "3dd5bc179206",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases CRIT DMG by 16% .",
+          "(4) The Elation DMG dealt by the wearer and their memosprites ignores 10% of targets' DEF. For every 5 accumulated Punchline allies gain, the Elation DMG dealt additionally ignores 1% of targets' DEF, stacking up to 10 time(s)."
+        ]
+      },
+      "text": "Ever-Glorious Magical Girl\nType: RELIC SET\n(2) Increases CRIT DMG by 16% .\n(4) The Elation DMG dealt by the wearer and their memosprites ignores 10% of targets' DEF. For every 5 accumulated Punchline allies gain, the Elation DMG dealt additionally ignores 1% of targets' DEF, stacking up to 10 time(s)."
+    },
+    {
+      "id": "firesmith-of-lava-forging",
+      "name": "Firesmith of Lava-Forging",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/firesmith-of-lava-forging-b75b6bbcc082.webp",
+      "assetId": "b75b6bbcc082",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases Fire DMG by 10% .",
+          "(4) Increases the wearer's Skill DMG by 12% . After unleashing Ultimate, increases the wearer's Fire DMG by 12% for next attack."
+        ]
+      },
+      "text": "Firesmith of Lava-Forging\nType: RELIC SET\n(2) Increases Fire DMG by 10% .\n(4) Increases the wearer's Skill DMG by 12% . After unleashing Ultimate, increases the wearer's Fire DMG by 12% for next attack."
+    },
+    {
+      "id": "firmament-frontline-glamoth",
+      "name": "Firmament Frontline: Glamoth",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/firmament-frontline-glamoth-83a4c570a0a2.webp",
+      "assetId": "83a4c570a0a2",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) Increases the wearer's ATK by 12% . When the wearer's SPD is equal to or higher than 135/160, the wearer deals 12%/18% more DMG."
+        ]
+      },
+      "text": "Firmament Frontline: Glamoth\nType: PLANETARY ORNAMENT SET\n(2) Increases the wearer's ATK by 12% . When the wearer's SPD is equal to or higher than 135/160, the wearer deals 12%/18% more DMG."
+    },
+    {
+      "id": "fleet-of-the-ageless",
+      "name": "Fleet of the Ageless",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+      "assetId": "5b886a96e17a",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) Increases the wearer's Max HP by 12% . When the wearer's SPD reaches 120 or higher, all allies' ATK increases by 8%."
+        ]
+      },
+      "text": "Fleet of the Ageless\nType: PLANETARY ORNAMENT SET\n(2) Increases the wearer's Max HP by 12% . When the wearer's SPD reaches 120 or higher, all allies' ATK increases by 8%."
+    },
+    {
+      "id": "forge-of-the-kalpagni-lantern",
+      "name": "Forge of the Kalpagni Lantern",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/forge-of-the-kalpagni-lantern-f08c8ab4a73a.webp",
+      "assetId": "f08c8ab4a73a",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) Increase the wearer's SPD by 6% . When the wearer hits enemy targets with Fire Weakness, the wearer's Break Effect increases by 40% , lasting for 1 turn(s)."
+        ]
+      },
+      "text": "Forge of the Kalpagni Lantern\nType: PLANETARY ORNAMENT SET\n(2) Increase the wearer's SPD by 6% . When the wearer hits enemy targets with Fire Weakness, the wearer's Break Effect increases by 40% , lasting for 1 turn(s)."
+    },
+    {
+      "id": "genius-of-brilliant-stars",
+      "name": "Genius of Brilliant Stars",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/genius-of-brilliant-stars-c153d0175293.webp",
+      "assetId": "c153d0175293",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases Quantum DMG by 10% .",
+          "(4) When the wearer deals DMG to the target enemy, ignores 10% DEF. If the target enemy has Quantum Weakness, the wearer additionally ignores 10% DEF."
+        ]
+      },
+      "text": "Genius of Brilliant Stars\nType: RELIC SET\n(2) Increases Quantum DMG by 10% .\n(4) When the wearer deals DMG to the target enemy, ignores 10% DEF. If the target enemy has Quantum Weakness, the wearer additionally ignores 10% DEF."
+    },
+    {
+      "id": "giant-tree-of-rapt-brooding",
+      "name": "Giant Tree of Rapt Brooding",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/giant-tree-of-rapt-brooding-c13bc696f36c.webp",
+      "assetId": "c13bc696f36c",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) Increases the wearer's SPD by 6% . When the wearer's SPD is 135/180 or higher, the wearer and their memosprite's Outgoing Healing increases by 12%/20% ."
+        ]
+      },
+      "text": "Giant Tree of Rapt Brooding\nType: PLANETARY ORNAMENT SET\n(2) Increases the wearer's SPD by 6% . When the wearer's SPD is 135/180 or higher, the wearer and their memosprite's Outgoing Healing increases by 12%/20% ."
+    },
+    {
+      "id": "guard-of-wuthering-snow",
+      "name": "Guard of Wuthering Snow",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/guard-of-wuthering-snow-ff71f6760eca.webp",
+      "assetId": "ff71f6760eca",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Reduces DMG taken by 8% .",
+          "(4) At the beginning of the turn, if the wearer's HP is equal to or less than 50% of their Max HP, restores HP equal to 8% of their Max HP and regenerates 5 Energy."
+        ]
+      },
+      "text": "Guard of Wuthering Snow\nType: RELIC SET\n(2) Reduces DMG taken by 8% .\n(4) At the beginning of the turn, if the wearer's HP is equal to or less than 50% of their Max HP, restores HP equal to 8% of their Max HP and regenerates 5 Energy."
+    },
+    {
+      "id": "hero-of-triumphant-song",
+      "name": "Hero of Triumphant Song",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/hero-of-triumphant-song-f71c3d91b222.webp",
+      "assetId": "f71c3d91b222",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases ATK by 12% .",
+          "(4) While the wearer's memosprite is on the field, increases the wearer's SPD by 6% . When the wearer's memosprite attacks, increases the wearer and memosprite's CRIT DMG by 30% for 2 turn(s)."
+        ]
+      },
+      "text": "Hero of Triumphant Song\nType: RELIC SET\n(2) Increases ATK by 12% .\n(4) While the wearer's memosprite is on the field, increases the wearer's SPD by 6% . When the wearer's memosprite attacks, increases the wearer and memosprite's CRIT DMG by 30% for 2 turn(s)."
+    },
+    {
+      "id": "hunter-of-glacial-forest",
+      "name": "Hunter of Glacial Forest",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/hunter-of-glacial-forest-0c7e5b9d3ab7.webp",
+      "assetId": "0c7e5b9d3ab7",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases Ice DMG by 10% .",
+          "(4) After the wearer unleashes their Ultimate, their CRIT DMG increases by 25% for 2 turn(s)."
+        ]
+      },
+      "text": "Hunter of Glacial Forest\nType: RELIC SET\n(2) Increases Ice DMG by 10% .\n(4) After the wearer unleashes their Ultimate, their CRIT DMG increases by 25% for 2 turn(s)."
+    },
+    {
+      "id": "inert-salsotto",
+      "name": "Inert Salsotto",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/inert-salsotto-d3afe42bdcff.webp",
+      "assetId": "d3afe42bdcff",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) Increases the wearer's CRIT Rate by 8% . When the wearer's current CRIT Rate reaches 50% or higher, the wearer's Ultimate and follow-up attack DMG increases by 15% ."
+        ]
+      },
+      "text": "Inert Salsotto\nType: PLANETARY ORNAMENT SET\n(2) Increases the wearer's CRIT Rate by 8% . When the wearer's current CRIT Rate reaches 50% or higher, the wearer's Ultimate and follow-up attack DMG increases by 15% ."
+    },
+    {
+      "id": "iron-cavalry-against-the-scourge",
+      "name": "Iron Cavalry Against the Scourge",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/iron-cavalry-against-the-scourge-2fc8ce1ab137.webp",
+      "assetId": "2fc8ce1ab137",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases Break Effect by 16% .",
+          "(4) If the wearer's Break Effect is 150% or higher, ignores 10% of the enemy target's DEF when dealing Break DMG to them. When the wearer's Break Effect is 250% or higher, the Super Break DMG they deal to enemy targets additionally ignores 15% of the targets' DEF."
+        ]
+      },
+      "text": "Iron Cavalry Against the Scourge\nType: RELIC SET\n(2) Increases Break Effect by 16% .\n(4) If the wearer's Break Effect is 150% or higher, ignores 10% of the enemy target's DEF when dealing Break DMG to them. When the wearer's Break Effect is 250% or higher, the Super Break DMG they deal to enemy targets additionally ignores 15% of the targets' DEF."
+    },
+    {
+      "id": "izumo-gensei-and-takama-divine-realm",
+      "name": "Izumo Gensei and Takama Divine Realm",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/izumo-gensei-and-takama-divine-realm-b58fdc60eb2f.webp",
+      "assetId": "b58fdc60eb2f",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) Increases the wearer's ATK by 12% . When entering battle, if at least one other ally follows the same Path as the wearer, then the wearer's CRIT Rate increases by 12% ."
+        ]
+      },
+      "text": "Izumo Gensei and Takama Divine Realm\nType: PLANETARY ORNAMENT SET\n(2) Increases the wearer's ATK by 12% . When entering battle, if at least one other ally follows the same Path as the wearer, then the wearer's CRIT Rate increases by 12% ."
+    },
+    {
+      "id": "knight-of-purity-palace",
+      "name": "Knight of Purity Palace",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/knight-of-purity-palace-3b0bb61766cf.webp",
+      "assetId": "3b0bb61766cf",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases DEF by 15% .",
+          "(4) Increases the max DMG that can be absorbed by the shield created by the wearer by 20% ."
+        ]
+      },
+      "text": "Knight of Purity Palace\nType: RELIC SET\n(2) Increases DEF by 15% .\n(4) Increases the max DMG that can be absorbed by the shield created by the wearer by 20% ."
+    },
+    {
+      "id": "longevous-disciple",
+      "name": "Longevous Disciple",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/longevous-disciple-58e79f548454.webp",
+      "assetId": "58e79f548454",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases Max HP by 12% .",
+          "(4) When the wearer is hit or has their HP consumed by an ally or themselves, their CRIT Rate increases by 8% for 2 turn(s) and up to 2 stacks."
+        ]
+      },
+      "text": "Longevous Disciple\nType: RELIC SET\n(2) Increases Max HP by 12% .\n(4) When the wearer is hit or has their HP consumed by an ally or themselves, their CRIT Rate increases by 8% for 2 turn(s) and up to 2 stacks."
+    },
+    {
+      "id": "lushaka-the-sunken-seas",
+      "name": "Lushaka, the Sunken Seas",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+      "assetId": "d6aae5028c5a",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) Increases the wearer's Energy Regeneration Rate by 5% . If the wearer is not the first character in the team lineup, then increase the ATK of the first character in the team lineup by 12% ."
+        ]
+      },
+      "text": "Lushaka, the Sunken Seas\nType: PLANETARY ORNAMENT SET\n(2) Increases the wearer's Energy Regeneration Rate by 5% . If the wearer is not the first character in the team lineup, then increase the ATK of the first character in the team lineup by 12% ."
+    },
+    {
+      "id": "messenger-traversing-hackerspace",
+      "name": "Messenger Traversing Hackerspace",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+      "assetId": "4cb8065ad660",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases SPD by 6% .",
+          "(4) When the wearer uses their Ultimate on an ally, SPD for all allies increases by 12% for 1 turn(s). This effect cannot be stacked."
+        ]
+      },
+      "text": "Messenger Traversing Hackerspace\nType: RELIC SET\n(2) Increases SPD by 6% .\n(4) When the wearer uses their Ultimate on an ally, SPD for all allies increases by 12% for 1 turn(s). This effect cannot be stacked."
+    },
+    {
+      "id": "musketeer-of-wild-wheat",
+      "name": "Musketeer of Wild Wheat",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+      "assetId": "deeeca721276",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) ATK increases by 12% .",
+          "(4) The wearer's SPD increases by 6% and Basic ATK DMG increases by 10% ."
+        ]
+      },
+      "text": "Musketeer of Wild Wheat\nType: RELIC SET\n(2) ATK increases by 12% .\n(4) The wearer's SPD increases by 6% and Basic ATK DMG increases by 10% ."
+    },
+    {
+      "id": "pan-cosmic-commercial-enterprise",
+      "name": "Pan-Cosmic Commercial Enterprise",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/pan-cosmic-commercial-enterprise-e6fb9390da3a.webp",
+      "assetId": "e6fb9390da3a",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) Increases the wearer's Effect Hit Rate by 10% . Meanwhile, the wearer's ATK increases by an amount that is equal to 25% of the current Effect Hit Rate, up to a maximum of 25% ."
+        ]
+      },
+      "text": "Pan-Cosmic Commercial Enterprise\nType: PLANETARY ORNAMENT SET\n(2) Increases the wearer's Effect Hit Rate by 10% . Meanwhile, the wearer's ATK increases by an amount that is equal to 25% of the current Effect Hit Rate, up to a maximum of 25% ."
+    },
+    {
+      "id": "passerby-of-wandering-cloud",
+      "name": "Passerby of Wandering Cloud",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/passerby-of-wandering-cloud-4ed6c0c0e2b5.webp",
+      "assetId": "4ed6c0c0e2b5",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases Outgoing Healing by 10% .",
+          "(4) At the beginning of the battle, immediately recovers 1 Skill Point."
+        ]
+      },
+      "text": "Passerby of Wandering Cloud\nType: RELIC SET\n(2) Increases Outgoing Healing by 10% .\n(4) At the beginning of the battle, immediately recovers 1 Skill Point."
+    },
+    {
+      "id": "penacony-land-of-the-dreams",
+      "name": "Penacony, Land of the Dreams",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+      "assetId": "d6cdb5f16b16",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) Increases wearer's Energy Regeneration Rate by 5% . Increases DMG for all other allies with the same DMG Type as the wearer by 10% ."
+        ]
+      },
+      "text": "Penacony, Land of the Dreams\nType: PLANETARY ORNAMENT SET\n(2) Increases wearer's Energy Regeneration Rate by 5% . Increases DMG for all other allies with the same DMG Type as the wearer by 10% ."
+    },
+    {
+      "id": "pioneer-diver-of-dead-waters",
+      "name": "Pioneer Diver of Dead Waters",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/pioneer-diver-of-dead-waters-6e205de52037.webp",
+      "assetId": "6e205de52037",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases DMG dealt to enemies with debuff by 12%.",
+          "(4) Increases CRIT Rate by 4% . The wearer deals 8%/12% increased CRIT DMG to enemies with at least 2/3 debuffs. After the wearer inflicts a debuff on enemy targets, the aforementioned effects increase by 100% , lasting for 1 turn."
+        ]
+      },
+      "text": "Pioneer Diver of Dead Waters\nType: RELIC SET\n(2) Increases DMG dealt to enemies with debuff by 12%.\n(4) Increases CRIT Rate by 4% . The wearer deals 8%/12% increased CRIT DMG to enemies with at least 2/3 debuffs. After the wearer inflicts a debuff on enemy targets, the aforementioned effects increase by 100% , lasting for 1 turn."
+    },
+    {
+      "id": "poet-of-mourning-collapse",
+      "name": "Poet of Mourning Collapse",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/poet-of-mourning-collapse-86c9cb6c5efe.webp",
+      "assetId": "86c9cb6c5efe",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases Quantum DMG by 10% .",
+          "(4) Decreases the wearer's SPD by 8% . Before entering battle, if the wearer's SPD is less than 110/95 , increases the wearer's CRIT Rate by 20%/32% . This effect also applies to the wearer's memosprite."
+        ]
+      },
+      "text": "Poet of Mourning Collapse\nType: RELIC SET\n(2) Increases Quantum DMG by 10% .\n(4) Decreases the wearer's SPD by 8% . Before entering battle, if the wearer's SPD is less than 110/95 , increases the wearer's CRIT Rate by 20%/32% . This effect also applies to the wearer's memosprite."
+    },
+    {
+      "id": "prisoner-in-deep-confinement",
+      "name": "Prisoner in Deep Confinement",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+      "assetId": "507bb2127c32",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases ATK by 12%.",
+          "(4) For every DoT the target enemy is afflicted with, the wearer will ignore 6% of target's DEF when dealing DMG to them. This effect is valid for a max of 3 DoTs."
+        ]
+      },
+      "text": "Prisoner in Deep Confinement\nType: RELIC SET\n(2) Increases ATK by 12%.\n(4) For every DoT the target enemy is afflicted with, the wearer will ignore 6% of target's DEF when dealing DMG to them. This effect is valid for a max of 3 DoTs."
+    },
+    {
+      "id": "punklorde-stage-zero",
+      "name": "Punklorde Stage Zero",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/punklorde-stage-zero-b294610c063e.webp",
+      "assetId": "b294610c063e",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) Increases the wearer's Elation by 8% . When Elation reaches 40%/80% for the first time in combat, increases the wearer's CRIT DMG by 20%/32% ."
+        ]
+      },
+      "text": "Punklorde Stage Zero\nType: PLANETARY ORNAMENT SET\n(2) Increases the wearer's Elation by 8% . When Elation reaches 40%/80% for the first time in combat, increases the wearer's CRIT DMG by 20%/32% ."
+    },
+    {
+      "id": "revelry-by-the-sea",
+      "name": "Revelry by the Sea",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/revelry-by-the-sea-bdb07ff6a03c.webp",
+      "assetId": "bdb07ff6a03c",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) Increases the wearer's ATK by 12% . When the wearer's ATK is higher than or equal to 2400/3600 , increases the DoT DMG dealt by 12%/24% ."
+        ]
+      },
+      "text": "Revelry by the Sea\nType: PLANETARY ORNAMENT SET\n(2) Increases the wearer's ATK by 12% . When the wearer's ATK is higher than or equal to 2400/3600 , increases the DoT DMG dealt by 12%/24% ."
+    },
+    {
+      "id": "rutilant-arena",
+      "name": "Rutilant Arena",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/rutilant-arena-0ad357f87585.webp",
+      "assetId": "0ad357f87585",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) Increases the wearer's CRIT Rate by 8% . When the wearer's current CRIT Rate reaches 70% or higher, the wearer's Basic ATK and Skill DMG increase by 20% ."
+        ]
+      },
+      "text": "Rutilant Arena\nType: PLANETARY ORNAMENT SET\n(2) Increases the wearer's CRIT Rate by 8% . When the wearer's current CRIT Rate reaches 70% or higher, the wearer's Basic ATK and Skill DMG increase by 20% ."
+    },
+    {
+      "id": "sacerdos-relived-ordeal",
+      "name": "Sacerdos' Relived Ordeal",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+      "assetId": "5cb190fcc346",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases SPD by 6% .",
+          "(4) When using Skill or Ultimate on one ally target, increases the ability target's CRIT DMG by 18% , lasting for 2 turn(s). This effect can stack up to 2 time(s)."
+        ]
+      },
+      "text": "Sacerdos' Relived Ordeal\nType: RELIC SET\n(2) Increases SPD by 6% .\n(4) When using Skill or Ultimate on one ally target, increases the ability target's CRIT DMG by 18% , lasting for 2 turn(s). This effect can stack up to 2 time(s)."
+    },
+    {
+      "id": "scholar-lost-in-erudition",
+      "name": "Scholar Lost in Erudition",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+      "assetId": "f521b7a2ee25",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases CRIT Rate by 8% .",
+          "(4) Increases DMG dealt by Skill and Ultimate by 20% . After using Ultimate, additionally increases the DMG dealt by the next Skill by 25% ."
+        ]
+      },
+      "text": "Scholar Lost in Erudition\nType: RELIC SET\n(2) Increases CRIT Rate by 8% .\n(4) Increases DMG dealt by Skill and Ultimate by 20% . After using Ultimate, additionally increases the DMG dealt by the next Skill by 25% ."
+    },
+    {
+      "id": "self-enshrouded-recluse",
+      "name": "Self-Enshrouded Recluse",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/self-enshrouded-recluse-201a8d2bf253.webp",
+      "assetId": "201a8d2bf253",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases Shield Effect by 10% .",
+          "(4) Increases Shield Effect provided by the wearer by 12% . When an ally target has a Shield provided by the wearer, the ally target's CRIT DMG increases by 15% ."
+        ]
+      },
+      "text": "Self-Enshrouded Recluse\nType: RELIC SET\n(2) Increases Shield Effect by 10% .\n(4) Increases Shield Effect provided by the wearer by 12% . When an ally target has a Shield provided by the wearer, the ally target's CRIT DMG increases by 15% ."
+    },
+    {
+      "id": "sigonia-the-unclaimed-desolation",
+      "name": "Sigonia, the Unclaimed Desolation",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/sigonia-the-unclaimed-desolation-3e3ff5ebf5d2.webp",
+      "assetId": "3e3ff5ebf5d2",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) Increases the wearer's CRIT Rate by 4% . When an enemy target gets defeated, the wearer's CRIT DMG increases by 4% , stacking up to 10 time(s)."
+        ]
+      },
+      "text": "Sigonia, the Unclaimed Desolation\nType: PLANETARY ORNAMENT SET\n(2) Increases the wearer's CRIT Rate by 4% . When an enemy target gets defeated, the wearer's CRIT DMG increases by 4% , stacking up to 10 time(s)."
+    },
+    {
+      "id": "space-sealing-station",
+      "name": "Space Sealing Station",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/space-sealing-station-3d18a5aaec4a.webp",
+      "assetId": "3d18a5aaec4a",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) Increases the wearer's ATK by 12% . When the wearer's SPD reaches 120 or higher, the wearer's ATK increases by an extra 12% ."
+        ]
+      },
+      "text": "Space Sealing Station\nType: PLANETARY ORNAMENT SET\n(2) Increases the wearer's ATK by 12% . When the wearer's SPD reaches 120 or higher, the wearer's ATK increases by an extra 12% ."
+    },
+    {
+      "id": "sprightly-vonwacq",
+      "name": "Sprightly Vonwacq",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/sprightly-vonwacq-bb6d718b4cb3.webp",
+      "assetId": "bb6d718b4cb3",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) Increases the wearer's Energy Regeneration Rate by 5% . When the wearer's SPD reaches 120 or higher, the wearer's action is Advanced Forward by 40% immediately upon entering battle."
+        ]
+      },
+      "text": "Sprightly Vonwacq\nType: PLANETARY ORNAMENT SET\n(2) Increases the wearer's Energy Regeneration Rate by 5% . When the wearer's SPD reaches 120 or higher, the wearer's action is Advanced Forward by 40% immediately upon entering battle."
+    },
+    {
+      "id": "talia-kingdom-of-banditry",
+      "name": "Talia: Kingdom of Banditry",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/talia-kingdom-of-banditry-a8ea2dfcb1ee.webp",
+      "assetId": "a8ea2dfcb1ee",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) Increases the wearer's Break Effect by 16% . When the wearer's SPD reaches 145 or higher, the wearer's Break effect increases by an extra 20% ."
+        ]
+      },
+      "text": "Talia: Kingdom of Banditry\nType: PLANETARY ORNAMENT SET\n(2) Increases the wearer's Break Effect by 16% . When the wearer's SPD reaches 145 or higher, the wearer's Break effect increases by an extra 20% ."
+    },
+    {
+      "id": "tengoku-livestream",
+      "name": "Tengoku@Livestream",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/tengoku-livestream-00d632e048f5.webp",
+      "assetId": "00d632e048f5",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) Increases the wearer's CRIT DMG by 16% . If 3 or more Skill Points are consumed in the same turn, additionally increases the wearer's CRIT DMG by 32% for 3 turns."
+        ]
+      },
+      "text": "Tengoku@Livestream\nType: PLANETARY ORNAMENT SET\n(2) Increases the wearer's CRIT DMG by 16% . If 3 or more Skill Points are consumed in the same turn, additionally increases the wearer's CRIT DMG by 32% for 3 turns."
+    },
+    {
+      "id": "the-ashblazing-grand-duke",
+      "name": "The Ashblazing Grand Duke",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/the-ashblazing-grand-duke-0edbfbfc2eca.webp",
+      "assetId": "0edbfbfc2eca",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases follow-up attack DMG by 20%.",
+          "(4) When the wearer uses follow-up attacks against the target enemy, increase the wearer's ATK by 6% for every time the follow-up attack deals DMG. This effect can stack for a maximum of 8 times and lasts for 3 turns. This effect is removed the next time the wearer uses a follow-up attack."
+        ]
+      },
+      "text": "The Ashblazing Grand Duke\nType: RELIC SET\n(2) Increases follow-up attack DMG by 20%.\n(4) When the wearer uses follow-up attacks against the target enemy, increase the wearer's ATK by 6% for every time the follow-up attack deals DMG. This effect can stack for a maximum of 8 times and lasts for 3 turns. This effect is removed the next time the wearer uses a follow-up attack."
+    },
+    {
+      "id": "the-wind-soaring-valorous",
+      "name": "The Wind-Soaring Valorous",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+      "assetId": "2d90f2919c5d",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) ATK increases by 12% .",
+          "(4) Increases the wearer's CRIT Rate by 6% . When the wearer uses a follow-up attack, increase the DMG dealt by their Ultimate by 36% , lasting for 1 turn(s)."
+        ]
+      },
+      "text": "The Wind-Soaring Valorous\nType: RELIC SET\n(2) ATK increases by 12% .\n(4) Increases the wearer's CRIT Rate by 6% . When the wearer uses a follow-up attack, increase the DMG dealt by their Ultimate by 36% , lasting for 1 turn(s)."
+    },
+    {
+      "id": "the-wondrous-bananamusement-park",
+      "name": "The Wondrous BananAmusement Park",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/the-wondrous-bananamusement-park-62f715257f39.webp",
+      "assetId": "62f715257f39",
+      "fields": {
+        "type": "PLANETARY ORNAMENT SET",
+        "bonuses": [
+          "(2) Increases the wearer's CRIT DMG by 16% . When a target summoned by the wearer is on the field, CRIT DMG additionally increases by 32%."
+        ]
+      },
+      "text": "The Wondrous BananAmusement Park\nType: PLANETARY ORNAMENT SET\n(2) Increases the wearer's CRIT DMG by 16% . When a target summoned by the wearer is on the field, CRIT DMG additionally increases by 32%."
+    },
+    {
+      "id": "thief-of-shooting-meteor",
+      "name": "Thief of Shooting Meteor",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/thief-of-shooting-meteor-bd16ed7ff036.webp",
+      "assetId": "bd16ed7ff036",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases Break Effect by 16%",
+          "(4) Increases the wearer's Break Effect by 16% . When the wearer inflicts Weakness Break on an enemy, regenerates 3 Energy."
+        ]
+      },
+      "text": "Thief of Shooting Meteor\nType: RELIC SET\n(2) Increases Break Effect by 16%\n(4) Increases the wearer's Break Effect by 16% . When the wearer inflicts Weakness Break on an enemy, regenerates 3 Energy."
+    },
+    {
+      "id": "warrior-goddess-of-sun-and-thunder",
+      "name": "Warrior Goddess of Sun and Thunder",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/warrior-goddess-of-sun-and-thunder-2f8ec1684b6b.webp",
+      "assetId": "2f8ec1684b6b",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases SPD by 6% .",
+          "(4) When the wearer and their memosprite provide healing to ally targets aside from themselves, the wearer gains \"Gentle Rain,\" which can be triggered up to 1 time per turn, lasting for 2 turn(s). While the wearer has \"Gentle Rain,\" increases their SPD by 6% and all allies' CRIT DMG by 15% . This effect cannot be stacked."
+        ]
+      },
+      "text": "Warrior Goddess of Sun and Thunder\nType: RELIC SET\n(2) Increases SPD by 6% .\n(4) When the wearer and their memosprite provide healing to ally targets aside from themselves, the wearer gains \"Gentle Rain,\" which can be triggered up to 1 time per turn, lasting for 2 turn(s). While the wearer has \"Gentle Rain,\" increases their SPD by 6% and all allies' CRIT DMG by 15% . This effect cannot be stacked."
+    },
+    {
+      "id": "wastelander-of-banditry-desert",
+      "name": "Wastelander of Banditry Desert",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/wastelander-of-banditry-desert-b8549d5464b2.webp",
+      "assetId": "b8549d5464b2",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases Imaginary DMG by 10% .",
+          "(4) When attacking debuffed enemies, the wearer's CRIT Rate increases by 10% , and their CRIT DMG increases by 20% against Imprisoned enemies."
+        ]
+      },
+      "text": "Wastelander of Banditry Desert\nType: RELIC SET\n(2) Increases Imaginary DMG by 10% .\n(4) When attacking debuffed enemies, the wearer's CRIT Rate increases by 10% , and their CRIT DMG increases by 20% against Imprisoned enemies."
+    },
+    {
+      "id": "watchmaker-master-of-dream-machinations",
+      "name": "Watchmaker, Master of Dream Machinations",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/watchmaker-master-of-dream-machinations-706574c241bc.webp",
+      "assetId": "706574c241bc",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases Break Effect by 16% .",
+          "(4) When the wearer uses their Ultimate on an ally, Break Effect for all allies increases by 30% for 2 turn(s). This effect cannot be stacked."
+        ]
+      },
+      "text": "Watchmaker, Master of Dream Machinations\nType: RELIC SET\n(2) Increases Break Effect by 16% .\n(4) When the wearer uses their Ultimate on an ally, Break Effect for all allies increases by 30% for 2 turn(s). This effect cannot be stacked."
+    },
+    {
+      "id": "wavestrider-captain",
+      "name": "Wavestrider Captain",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/wavestrider-captain-093d3932e1af.webp",
+      "assetId": "093d3932e1af",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases CRIT DMG by 16% .",
+          "(4) When the wearer becomes the target of another ally target's ability, gains 1 stack of \"Help,\" stacking up to 2 time(s). If there are 2 stack(s) of \"Help\" when the wearer uses their Ultimate, consumes all \"Help\" to increase the wearer's ATK by 48% for 1 turn(s)."
+        ]
+      },
+      "text": "Wavestrider Captain\nType: RELIC SET\n(2) Increases CRIT DMG by 16% .\n(4) When the wearer becomes the target of another ally target's ability, gains 1 stack of \"Help,\" stacking up to 2 time(s). If there are 2 stack(s) of \"Help\" when the wearer uses their Ultimate, consumes all \"Help\" to increase the wearer's ATK by 48% for 1 turn(s)."
+    },
+    {
+      "id": "world-remaking-deliverer",
+      "name": "World-Remaking Deliverer",
+      "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/relics/world-remaking-deliverer-4e4defeee5d3.webp",
+      "assetId": "4e4defeee5d3",
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases CRIT Rate by 8% .",
+          "(4) After the wearer uses Basic ATK or Skill, if the wearer's memosprite is on the field, increases Max HP of the wearer and their memosprite by 24% , and increases all allies' DMG by 15% until the wearer's next Basic ATK or Skill."
+        ]
+      },
+      "text": "World-Remaking Deliverer\nType: RELIC SET\n(2) Increases CRIT Rate by 8% .\n(4) After the wearer uses Basic ATK or Skill, if the wearer's memosprite is on the field, increases Max HP of the wearer and their memosprite by 24% , and increases all allies' DMG by 15% until the wearer's next Basic ATK or Skill."
+    }
+  ]
+}

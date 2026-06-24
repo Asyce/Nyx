@@ -1,0 +1,1671 @@
+{
+  "id": "characters:zani",
+  "provider": "Prydwen",
+  "game": "ww",
+  "gameName": "Wuthering Waves",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "zani",
+  "name": "Zani",
+  "title": "Zani Best Build Guide",
+  "sourcePath": "/wuthering-waves/characters/zani",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "09/June/2026",
+  "meta": {
+    "title": "Zani Best Build Guide | Wuthering Waves (WuWa)",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Spectro",
+    "weapon": "Gauntlets"
+  },
+  "assets": [
+    {
+      "id": "97fdbe2b5ce6",
+      "sourceHash": "97fdbe2b5ce6",
+      "kind": "characters",
+      "name": "Zani",
+      "fileStem": "card-zani",
+      "path": "Prydwen/ww/assets/characters/zani-97fdbe2b5ce6.webp",
+      "width": 210,
+      "height": 280
+    },
+    {
+      "id": "d8b7d0006201",
+      "sourceHash": "d8b7d0006201",
+      "kind": "icons",
+      "name": "Spectro",
+      "fileStem": "element-spectro",
+      "path": "Prydwen/ww/assets/icons/spectro-d8b7d0006201.webp",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "39094c227806",
+      "sourceHash": "39094c227806",
+      "kind": "icons",
+      "name": "CRIT Rate",
+      "fileStem": "stat-crit",
+      "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "1e70b3adc860",
+      "sourceHash": "1e70b3adc860",
+      "kind": "icons",
+      "name": "ATK%",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "c26c1d310e90",
+      "sourceHash": "c26c1d310e90",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "aa019d34202f",
+      "sourceHash": "aa019d34202f",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "5a0b154cd3d8",
+      "sourceHash": "5a0b154cd3d8",
+      "kind": "icons",
+      "name": "Max Energy",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "7e2bcd0760ca",
+      "sourceHash": "7e2bcd0760ca",
+      "kind": "icons",
+      "name": "CRIT DMG",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "94236abd3fdc",
+      "sourceHash": "94236abd3fdc",
+      "kind": "icons",
+      "name": "Healing",
+      "fileStem": "stat-heal",
+      "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "5447b53221f2",
+      "sourceHash": "5447b53221f2",
+      "kind": "icons",
+      "name": "Spectro",
+      "fileStem": "stat-spec",
+      "path": "Prydwen/ww/assets/icons/spectro-5447b53221f2.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "f48ff62c89aa",
+      "sourceHash": "f48ff62c89aa",
+      "kind": "categories",
+      "name": "Interactive Map",
+      "fileStem": "category-map",
+      "path": "Prydwen/ww/assets/categories/interactive-map-f48ff62c89aa.webp",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "id": "3b924faaa0f7",
+      "sourceHash": "3b924faaa0f7",
+      "kind": "characters",
+      "name": "Zani",
+      "fileStem": "zani-full",
+      "path": "Prydwen/ww/assets/characters/zani-3b924faaa0f7.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "552f65617cbb",
+      "sourceHash": "552f65617cbb",
+      "kind": "characters",
+      "name": "Phoebe",
+      "fileStem": "phoebe-icon",
+      "path": "Prydwen/ww/assets/characters/phoebe-552f65617cbb.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "358387a78181",
+      "sourceHash": "358387a78181",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-8",
+      "path": "Prydwen/ww/assets/icons/set-8-358387a78181.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "969a4ca96158",
+      "sourceHash": "969a4ca96158",
+      "kind": "misc",
+      "name": "Impermanence Heron",
+      "fileStem": "330000030",
+      "path": "Prydwen/ww/assets/misc/impermanence-heron-969a4ca96158.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "514d72023ab5",
+      "sourceHash": "514d72023ab5",
+      "kind": "characters",
+      "name": "Rover (Spectro)",
+      "fileStem": "rover-spectro-icon",
+      "path": "Prydwen/ww/assets/characters/rover-spectro-514d72023ab5.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "9116b6b3061f",
+      "sourceHash": "9116b6b3061f",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-7",
+      "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "963f47d9c985",
+      "sourceHash": "963f47d9c985",
+      "kind": "misc",
+      "name": "Fallacy of No Return",
+      "fileStem": "6000060",
+      "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "007d18a5154b",
+      "sourceHash": "007d18a5154b",
+      "kind": "weapons",
+      "name": "Blazing Justice",
+      "fileStem": "21040036",
+      "path": "Prydwen/ww/assets/weapons/blazing-justice-007d18a5154b.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1d9fc851e8c3",
+      "sourceHash": "1d9fc851e8c3",
+      "kind": "weapons",
+      "name": "Tragicomedy",
+      "fileStem": "21040026",
+      "path": "Prydwen/ww/assets/weapons/tragicomedy-1d9fc851e8c3.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ea93f302fdf1",
+      "sourceHash": "ea93f302fdf1",
+      "kind": "weapons",
+      "name": "Verity's Handle",
+      "fileStem": "21040016",
+      "path": "Prydwen/ww/assets/weapons/veritys-handle-ea93f302fdf1.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "a329648e74b3",
+      "sourceHash": "a329648e74b3",
+      "kind": "weapons",
+      "name": "Pulsation Bracer",
+      "fileStem": "21040045",
+      "path": "Prydwen/ww/assets/weapons/pulsation-bracer-a329648e74b3.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "b07450491f2f",
+      "sourceHash": "b07450491f2f",
+      "kind": "weapons",
+      "name": "Moongazer's Sigil",
+      "fileStem": "21040046",
+      "path": "Prydwen/ww/assets/weapons/moongazers-sigil-b07450491f2f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "4e021e35e328",
+      "sourceHash": "4e021e35e328",
+      "kind": "weapons",
+      "name": "Abyss Surges",
+      "fileStem": "21040015",
+      "path": "Prydwen/ww/assets/weapons/abyss-surges-4e021e35e328.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "be4f9e86be91",
+      "sourceHash": "be4f9e86be91",
+      "kind": "weapons",
+      "name": "Aether Strike",
+      "fileStem": "21040104",
+      "path": "Prydwen/ww/assets/weapons/aether-strike-be4f9e86be91.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d16f2ad97469",
+      "sourceHash": "d16f2ad97469",
+      "kind": "weapons",
+      "name": "Celestial Spiral",
+      "fileStem": "21040084",
+      "path": "Prydwen/ww/assets/weapons/celestial-spiral-d16f2ad97469.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "9bf05a62f031",
+      "sourceHash": "9bf05a62f031",
+      "kind": "weapons",
+      "name": "Stonard",
+      "fileStem": "21040074",
+      "path": "Prydwen/ww/assets/weapons/stonard-9bf05a62f031.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "149a7a79da9a",
+      "sourceHash": "149a7a79da9a",
+      "kind": "weapons",
+      "name": "Hollow Mirage",
+      "fileStem": "21040064",
+      "path": "Prydwen/ww/assets/weapons/hollow-mirage-149a7a79da9a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "5275e972617b",
+      "sourceHash": "5275e972617b",
+      "kind": "weapons",
+      "name": "Legend of Drunken Hero",
+      "fileStem": "21040094",
+      "path": "Prydwen/ww/assets/weapons/legend-of-drunken-hero-5275e972617b.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "37183f04cf5e",
+      "sourceHash": "37183f04cf5e",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-11",
+      "path": "Prydwen/ww/assets/icons/set-11-37183f04cf5e.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "ae2257c84ddf",
+      "sourceHash": "ae2257c84ddf",
+      "kind": "misc",
+      "name": "Capitaneus",
+      "fileStem": "6000104",
+      "path": "Prydwen/ww/assets/misc/capitaneus-ae2257c84ddf.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "31664164f398",
+      "sourceHash": "31664164f398",
+      "kind": "misc",
+      "name": "Nightmare: Mourning Aix",
+      "fileStem": "330000200",
+      "path": "Prydwen/ww/assets/misc/nightmare-mourning-aix-31664164f398.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "ba56fbcc8eb4",
+      "sourceHash": "ba56fbcc8eb4",
+      "kind": "characters",
+      "name": "Ciaccona",
+      "fileStem": "ciaccona-icon",
+      "path": "Prydwen/ww/assets/characters/ciaccona-ba56fbcc8eb4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e6913cb7353a",
+      "sourceHash": "e6913cb7353a",
+      "kind": "characters",
+      "name": "Iuno",
+      "fileStem": "iuno-icon",
+      "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "8367f1df0e13",
+      "sourceHash": "8367f1df0e13",
+      "kind": "characters",
+      "name": "Phrolova",
+      "fileStem": "phrolova-icon",
+      "path": "Prydwen/ww/assets/characters/phrolova-8367f1df0e13.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "4910396b5955",
+      "sourceHash": "4910396b5955",
+      "kind": "characters",
+      "name": "Mortefi",
+      "fileStem": "mortefi-icon",
+      "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d909de4aecde",
+      "sourceHash": "d909de4aecde",
+      "kind": "characters",
+      "name": "The Shorekeeper",
+      "fileStem": "the-shorekeeper-icon",
+      "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1b2a8f336e3d",
+      "sourceHash": "1b2a8f336e3d",
+      "kind": "characters",
+      "name": "Verina",
+      "fileStem": "verina-icon",
+      "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "3a3005a58dc2",
+      "sourceHash": "3a3005a58dc2",
+      "kind": "characters",
+      "name": "Zani",
+      "fileStem": "zani-icon",
+      "path": "Prydwen/ww/assets/characters/zani-3a3005a58dc2.webp",
+      "width": 120,
+      "height": 120
+    }
+  ],
+  "sections": [
+    {
+      "id": "zani-best-build-guide-0",
+      "level": 1,
+      "heading": "Zani Best Build Guide",
+      "text": "Last updated: 09/June/2026",
+      "assets": [
+        {
+          "id": "97fdbe2b5ce6",
+          "sourceHash": "97fdbe2b5ce6",
+          "kind": "characters",
+          "name": "Zani",
+          "fileStem": "card-zani",
+          "path": "Prydwen/ww/assets/characters/zani-97fdbe2b5ce6.webp",
+          "width": 210,
+          "height": 280
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Zani from WW (Wuthering Waves). Zani is a 5 ★ rarity character from the Spectro element who uses the Gauntlets type weapon.\n A member of Averardo Vault's security team and holder of \"Best Employee\" for longer than she cares to count. She has made plenty of plans for her free time, but for now, her biggest mission is simple: clocking out on time.\n\n To learn more about Zani check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": [
+        {
+          "id": "d8b7d0006201",
+          "sourceHash": "d8b7d0006201",
+          "kind": "icons",
+          "name": "Spectro",
+          "fileStem": "element-spectro",
+          "path": "Prydwen/ww/assets/icons/spectro-d8b7d0006201.webp",
+          "width": 20,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Zani has at least one video guide available:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 2.3\n\n Last major build/calcs update\n Patch 3.0\n\n Last profile update*\n 09/June/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Zani check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Routine Negotiation\n\n Basic Attack\n Perform up to 4 consecutive attacks to deal Spectro DMG .\n After performing Basic Attack Stage 3, Press Normal Attack at the right time to perform Basic Attack Breakthrough, which can be followed by Basic Attack Stage 4 by pressing Normal Attack again.\n Following Basic Attack Stage 3, Basic Attack Stage 4 can also be triggered by dodging and pressing Normal Attack within a certain time after Basic Attack Stage 3.\n Heavy Attack\n Consume STA to attack the target, dealing Spectro DMG . Press Normal Attack within a certain time to perform Basic Attack Stage 3.\n Mid-air Attack\n Consume STA to perform a plunging attack, dealing Spectro DMG . Press Normal Attack within a certain time to perform Basic Attack Stage 3.\n Dodge Counter\n Press successful Dodge to attack the target, dealing Spectro DMG . Then press Normal Attack at the right time to cast Basic Attack Breakthrough.\n If Dodge Counter is not followed by Basic Attack Stage 4, press Normal Attack on the ground within a certain time to cast Basic Attack Stage 4.\n\n Multipliers\n\n Resonance Skill\n Restless Watch\n\n Standard Defense Protocol\n Attack the target to deal Spectro DMG and enter a block stance. This state ends early if Zani is switched off the field. Press Normal Attack within a certain time to perform Basic Attack Stage 3, recovering 10 points of Redundant Energy and Stagnating the target on hit.\n When attacked by the enemy in the block stance, reduce this instance of damage by 100% and Stagnate nearby targets, then cast Resonance Skill Pinpoint Strike, dealing Spectro DMG and additionally reducing their Vibration Strength by 5% . The DMG taken by Zani is reduced by 30% within the next 2s .\n Crisis Response Protocol\n When Zani is not in Inferno Mode and has full Redundant Energy, her Resonance Skill is replaced with Resonance Skill Crisis Response Protocol.\n Hold Resonance Skill to enter Ready Stance. While in Ready Stance, Zani is immune to interruption. This state ends early if Zani is switched off the field. After releasing Resonance Skill button or when the stance duration ends, consume all Redundant Energy to cast Targeted Action, dealing Spectro DMG .\n When attacked by the enemy in Ready Stance, reduce this instance of damage by 100% and consume all Redundant Energy to cast Forcible Riposte, dealing Spectro DMG , Stagnating the target, and further reducing their Vibration Strength by 5% . The DMG taken by Zani is reduced by 30% within the next 2s .\n Casting Targeted Action or Forcible Riposte inflicts a stack of Heliacal Ember upon the target on hit and recovers Blaze before entering Sunburst mode.\n Sunburst\n The Spectro Frazzle DMG dealt by Zani to the target is Amplified by 20% .\n\n Multipliers\n\n Resonance Liberation\n Between Dawn and Dusk\n\n Rekindle\n Deal Spectro DMG and enter Inferno Mode, increasing Max Blaze from 100 to 150 and granting 50 Blazes. When in Inferno Mode, the DMG Multiplier of Basic Attack is increased.\n The Last Stand\n When in Inferno Mode, Resonance Liberation The Last Stand becomes available when Blaze is lower than 30 or after 8s in Inferno Mode.\n Casting Resonance Liberation The Last Stand deals Spectro DMG and ends the Inferno Mode.\n\n Multipliers\n\n Forte Circuit\n There Will Be A Light\n\n Heliacal Ember\n When Zani is in the team and a nearby Resonator inflicts Spectro Frazzle upon a target, immediately consume all Spectro Frazzle stacks and trigger the corresponding DMG, then convert Spectro Frazzle into an equal number of Heliacal Embers. Every time the conversion happens, Zani obtains Blaze based on the stacks of Heliacal Ember inflicted. Heliacal Ember is capped at 60 stacks, with each stack lasting for 6s . Heliacal Ember stacks are counted toward the Spectro Frazzle stacks for the Eternal Radiance Sonata Effect.\n Scorching Light\n When Zani is in Inferno Mode, Heavy Slash - Daybreak, Heavy Slash - Dawning, Heavy Slash - Nightfall, and Heavy Slash - Lightsmash become available, which deal Spectro DMG that is considered both Heavy Attack DMG and Spectro Frazzle DMG .\n When Blaze is higher than 30 , Resonance Skill Standard Defense Protocol is replaced with Resonance Skill Scorching Light.\n\n Hold Resonance Skill to enter Ready Stance, during which Zani is immune to interruption. This state ends early when Zani is switched off the field. Release Resonance Skill button to consume Blaze and perform Heavy Slash - Daybreak.\n\n When attacked in a certain time after entering Ready Stance, reduce this instance of damage by 100% and Stagnate nearby targets, then perform Heavy Slash - Lightsmash, consuming Blazes and further reducing their Vibration Strength by 10% . The DMG taken within the next 2s is reduced by 30% .\n\n After casting Heavy Slash - Lightsmash, Basic Attack is replaced with Heavy Slash - Nightfall, consuming up to 40 Blazes on hit, with each Blaze increasing the DMG Multiplier of Heavy Slash - Nightfall.\n\n When Ready Stance ends, immediately perform Heavy Slash - Nightfall.\n\n When Blaze is higher than 30 , Basic Attack is replaced with Heavy Slash - Daybreak. After entering Inferno Mode, casting Basic Attack immediately replaces the current Basic Attack with Resonance Skill Scorching Light. Hold Basic Attack to enter Ready Stance.\n\n After performing Heavy Slash - Daybreak, Basic Attack is replaced with Heavy Slash - Dawning when Zani has more than 30 Blazes. Heavy Slash - Dawning consumes Blazes.\nAfter performing Heavy Slash - Dawning, Basic Attack is replaced with Heavy Slash - Nightfall.\n\n If Basic Attack is not replaced with Heavy Slash - Nightfall after a successful Dodge, press Normal Attack within a certain time to perform Heavy Slash - Lightsmash at the cost of Blazes.\n\n Redundant Energy\n Zani can hold up to 100 Redundant Energy.\n Obtain Redundant Energy when Normal Attacks hit a target.\n\n Obtain Redundant Energy when Intro Skill Immediate Execution hits a target.\n\n Obtain Redundant Energy when casting Resonance Skill Standard Defense Protocol.\n\n Obtain Redundant Energy when casting Pinpoint Strike.\n\n Cannot obtain Redundant Energy while in Inferno Mode.\n\n Blaze\n Blaze is capped at 100 when not in Inferno Mode.\n Blaze is capped at 150 in Inferno Mode.\n\n Casting Targeted Action or Forcible Riposte grants 10 Blazes.\n\n Every stack of Heliacal Ember converted from Spectro Frazzle grants 5 Blazes.\n\n Casting Resonance Liberation Rekindle grants 50 Blazes.\n\n Multipliers\n\n Inherent Skill\n Quick Response\n\n Casting Intro Skill Immediate Execution gives 12% Spectro DMG Bonus for 14s .\n\n Inherent Skill\n Fear No Pain\n\n When in Ready Stance, all DMG taken is reduced by 40% .\n\n Intro Skill\n Immediate Execution\n\n Attack the target, dealing Spectro DMG .\n\n Multipliers\n\n Outro Skill\n Beacon For the Future\n\n Attack the target, dealing Spectro DMG equal to 150% of Zani's ATK and removing all stacks of Heliacal Ember inflicted upon the target. Each stack increases the DMG dealt by 10% . This DMG is considered Spectro Frazzle DMG . The Spectro DMG dealt by other Resonators in the team to the target marked by Heliacal Ember is Amplified by 20% for 20s .",
+      "assets": []
+    },
+    {
+      "id": "resonance-chain-dupes-10",
+      "level": 2,
+      "heading": "Resonance Chain (Dupes)",
+      "text": "S 1\n Sequence Node 1\n\n Casting Targeted Action or Forcible Riposte gives 50% Spectro DMG Bonus for 14s .\n Immune to interruptions while casting Resonance Skill Heavy Slash - Nightfall.\n\n S 2\n Sequence Node 2\n\n Crit. Rate is increased by 20% .\n The DMG Multiplier of Targeted Action and Forcible Riposte is increased by 80% .\n\n S 3\n Sequence Node 3\n\n When in Inferno Mode, every 1 Blaze consumed increases the DMG Multiplier of Resonance Liberation The Last Stand by 8% , maxed at 1200% .\n\n S 4\n Sequence Node 4\n\n When Intro Skill Immediate Execution is cast, ATK of all Resonators in the team is increased by 20% for 30s .\n\n S 5\n Sequence Node 5\n\n The DMG Multiplier of Resonance Liberation Rekindle is increased by 120% .\n\n S 6\n Sequence Node 6\n\n The DMG Multipliers of Heavy Slash - Daybreak, Heavy Slash- Dawning, Heavy Slash - Nightfall, and Heavy Slash - Lightsmash are increased by 40% . Every Blaze consumed increases the DMG Multiplier of Heavy Slash - Nightfall by 40% on hit.\n Gain following effects when in Inferno Mode:\n When Blaze is lower than 70 , restore 70 Blazes immediately. This effect is triggered once in Inferno Mode.\n\n Within 8s after entering Inferno Mode, Zani will remain standing with at least 1 HP if hit by a fatal blow.",
+      "assets": []
+    },
+    {
+      "id": "minor-fortes-total-11",
+      "level": 2,
+      "heading": "Minor Fortes (Total)",
+      "text": "CRIT Rate\n + 8 %\n\n ATK%\n + 12 %",
+      "assets": [
+        {
+          "id": "39094c227806",
+          "sourceHash": "39094c227806",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "1e70b3adc860",
+          "sourceHash": "1e70b3adc860",
+          "kind": "icons",
+          "name": "ATK%",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "stats-12",
+      "level": 2,
+      "heading": "Stats",
+      "text": "Include minor fortes\n\n Lv. 90\n\n HP\n 10775\n\n ATK\n 438\n\n DEF\n 1137\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Spectro DMG\n 0 %",
+      "assets": [
+        {
+          "id": "c26c1d310e90",
+          "sourceHash": "c26c1d310e90",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "1e70b3adc860",
+          "sourceHash": "1e70b3adc860",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "aa019d34202f",
+          "sourceHash": "aa019d34202f",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "5a0b154cd3d8",
+          "sourceHash": "5a0b154cd3d8",
+          "kind": "icons",
+          "name": "Max Energy",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "39094c227806",
+          "sourceHash": "39094c227806",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "7e2bcd0760ca",
+          "sourceHash": "7e2bcd0760ca",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "94236abd3fdc",
+          "sourceHash": "94236abd3fdc",
+          "kind": "icons",
+          "name": "Healing",
+          "fileStem": "stat-heal",
+          "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "5447b53221f2",
+          "sourceHash": "5447b53221f2",
+          "kind": "icons",
+          "name": "Spectro",
+          "fileStem": "stat-spec",
+          "path": "Prydwen/ww/assets/icons/spectro-5447b53221f2.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "character-ascension-total-14",
+      "level": 5,
+      "heading": "Character Ascension (total)",
+      "text": "4 x LF Polygon Core\n 12 x MF Polygon Core\n 12 x HF Polygon Core\n 4 x FF Polygon Core\n 46 x Platinum Core\n 60 x Sword Acorus\n 170 000 Shell Credits",
+      "assets": []
+    },
+    {
+      "id": "skill-upgrades-total-15",
+      "level": 5,
+      "heading": "Skill Upgrades (total)",
+      "text": "25 x LF Polygon Core\n 28 x MF Polygon Core\n 40 x HF Polygon Core\n 57 x FF Polygon Core\n 25 x Cadence Seed\n 28 x Cadence Bud\n 55 x Cadence Leaf\n 67 x Cadence Blossom\n 26 x The Netherworld's Stare\n 2 030 000 Shell Credits\n\n While the source of the materials can be quickly found in the game, when it comes Sword Acorus you will have to gather them from the map. Check our Interactive map to find them quickly:\n\n Interactive Map",
+      "assets": [
+        {
+          "id": "f48ff62c89aa",
+          "sourceHash": "f48ff62c89aa",
+          "kind": "categories",
+          "name": "Interactive Map",
+          "fileStem": "category-map",
+          "path": "Prydwen/ww/assets/categories/interactive-map-f48ff62c89aa.webp",
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "voice-actors-16",
+      "level": 2,
+      "heading": "Voice Actors",
+      "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "3b924faaa0f7",
+          "sourceHash": "3b924faaa0f7",
+          "kind": "characters",
+          "name": "Zani",
+          "fileStem": "zani-full",
+          "path": "Prydwen/ww/assets/characters/zani-3b924faaa0f7.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "ratings-18",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.",
+      "assets": []
+    },
+    {
+      "id": "dps-19",
+      "level": 5,
+      "heading": "DPS",
+      "text": "T1.5\n Tower of Adversity\n\n T2\n Whimpering Wastes",
+      "assets": []
+    },
+    {
+      "id": "dps-21",
+      "level": 5,
+      "heading": "DPS",
+      "text": "T2\n Tower of Adversity (Value)\n\n T2\n Whimpering Wastes (Value)",
+      "assets": []
+    },
+    {
+      "id": "pros-23",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Very high baseline Cleave damage with potential for improvement, thanks to lots of optional Swap Cancel windows during her Ultimate;\n\n Easy to use thanks to a good ability to tank damage as well as simple combos;\n\n Deals both Spectro Frazzle and Heavy Attack DMG at once, allowing for several options to buff her damage;\n\n Able to parry enemy attacks to enhance her combos and stun them faster by depleting their Vibration bar quicker;\n\n Looks REALLY cool in her Ultimate stance (factually speaking).",
+      "assets": []
+    },
+    {
+      "id": "cons-24",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Expensive to access her maximum damage potential: really likes being paired with Phoebe due to massive DMG Amplification boosts, RES Shred etc, with Zani and Phoebe’s signatures both contributing to that Amplification among other things - in short, without Phoebe lots of potential damage is lost;\n\n Her full combos are inaccessible without enough Spectro Frazzle applied to get the maximum amount of Blaze Forte points (currently only Confession Phoebe allows for this). This joins an issue of team flexibility — Zani is locked into one team archetype to maximize damage.",
+      "assets": []
+    },
+    {
+      "id": "review-25",
+      "level": 2,
+      "heading": "Review",
+      "text": "Zani is a 5-star Spectro Gauntlets DPS who specializes in dealing high damage during the stance she enters in her Ultimate called “Inferno Mode”. Her kit is centered around certain key elements, the most important one being Spectro Frazzle which she passively and instantly converts into “Heliacal Ember” in order to charge her Ultimate Forte points, called “Blaze” which she needs in order to execute her combos to access her damage. Generally speaking, Zani has attacks that have a good Cleave range, meaning she’s able to handle clumps of enemies well, and she has increased damage resistance as well as parries built into her kit, all of this making her tanky while able to deal lots of damage.\n When put this way, this type of character sounds a lot like a tank, slow and tanky but hits hard — however, worry not as while Zani has some animations that are pretty lengthy, she actually ends up rotating pretty smoothly . With that being said, Zani has a very complex kit packed with details, so we’ll focus on explaining what’s being used in her actual rotations in detail (we’ll only mention other elements briefly).\n As said earlier, Zani’s main focus will be to build up Blaze for her to use during her Inferno Mode stance. It stacks up to 150 points, so the goal with Zani will be to reach that threshold. There are a few ways to do this:\n Entering Inferno Mode (via her Ultimate, 50 points);\n\n Using her Enhanced Skill “Crisis Response Protocol” (10 points);\n\n Converting Spectro Frazzle into Heliacal Ember (5 points per stack).\n\n Heliacal Ember works as a variant to Spectro Frazzle which stacks up to 60 times, but any Spectro Frazzle-related buffs don’t apply (for things such as Spectro Rover’s Shimmer effect, Confession Phoebe’s Spectro Frazzle depletion extension rate, Absolution Phoebe’s DMG Amplification on Heavy Attack Starflash etc). The only exception is they serve as a way to activate the Eternal Radiance set effects. However, the damage granted by Heliacal Ember is instantaneous and equivalent to the damage Spectro Frazzle would’ve normally dealt.\n As Zani cannot apply any Spectro Frazzle by herself and this is dependent on the gameplay of her teammates , the main point of interest is casting this Enhanced Skill. To do this, she needs to build 100 points of “Redundant Energy” which is her Forte bar outside of her Ultimate stance. Additionally, it gives her an extra Heliacal Ember to activate Eternal Radiance Echo bonuses and a 20% Spectro Frazzle DMG Amplify effect for 14s to further increase her Inferno Mode damage potential, making it especially important to build before using her Ultimate. There are a few ways to do this:\n Using her Basic Attacks;\n\n Using her skill “Standard Defense Protocol” and its parry variant “Pinpoint Strike”;\n\n Using her Intro Skill.\n\n Zani’s Resonance Skill indeed allows her to first do a small hit of damage (Standard Defense Protocol) and then enter a parry stance that she can hold for up to 2 seconds, during which she takes no damage for 1 attack (and 30% reduced DMG in the 2 seconds that follow). If an attack is successfully parried, she will execute Pinpoint Strike for extra damage and Redundant Energy, which is enough to cast her Enhanced Skill after an Intro. To get all 100 Redundant Energy points without a parry, following an Intro Skill with Standard Defense Protocol into Basic Attack 3 should be all that’s needed for quick access to her Enhanced Skill. However, in the case that all hits don’t connect, Basic Attack 4 may also be necessary (which is still fine to do). Regardless, once this is achieved, Zani is ready to activate her Ultimate and enter Inferno Mode.\n During Inferno Mode, Zani gets a new kit featuring new Basic Attacks, a new parry Skill with a new counter (which also doubles as a Dodge Counter), and she utilizes her other Forte bar to execute all of these actions. She gets 50 Blaze points which she’ll consume to execute her combos in Inferno Mode (with the cap extended from 100 to 150 and her Ultimate filling those missing 50 points). All of the damage she can deal during this stance is considered Heavy Attack DMG and Spectro Frazzle DMG simultaneously, so all related buffs apply . In total, factoring in the Enhanced Skill’s 10 and the Ultimate’s 50 Blaze, 90 points need to be filled via Spectro Frazzle application which requires 18 Spectro Frazzle to be converted into Heliacal Ember in total. Luckily, for her main Ultimate combo, only 140 points are needed which lowers the total down to 16 Spectro Frazzle. She also gets a 25% multiplier increase to her Basic Attacks, but this doesn’t apply to the new ones she acquires so it can be ignored (it only applies to her regular Basics that only occur if Forte points aren’t available to consume).\n Now to get into the details, Zani’s new Basic Attacks are called “Daybreak”, “Dawning”, and “Nightfall”. These are the center of her Inferno Mode kit. The simplest possible rotation only requires you to perform her Basic Attack string 2 times, which casts each of these skills twice. Simple and effective. Daybreak consumes 10 Blaze, Dawning consumes 20 Blaze and Nightfall consumes up to 40 Blaze, with each Blaze consumed giving an extra multiplier increase to Nightfall specifically (other attacks do not benefit from this). So as said earlier, her standard combo consumes 140 Blaze.\n However, other options are available. Her Skill allows you to immediately enter a parry stance for up to 2 seconds during which she will take up to 70% reduced damage. Parrying any attack triggers an equivalent to Dawning called “Lightsmash” which consumes 20 Blaze, after which Zani can immediately follow with Nightfall. This combo therefore only costs 60 Blaze. The exact same thing occurs if a Dodge Counter is executed. This can be important to factor in if your team can’t generate the full 150 Blaze consistently for Zani.\n Finally, once Zani has consumed enough Blaze and has 30 left or less (the threshold is indicated above her Forte bar), then she can cast another Ultimate called “The Last Stand” which deals noteworthy damage, stops ingame timers and prevents you from switching out during it like any regular Ultimate would, and this also ends her rotation as it ends Inferno Mode at the same time. Note that this may not deal more damage than a fully powered Nightfall as Spectro Frazzle and Heavy Attack DMG buffs do not apply to The Last Stand. Once she has performed all of these actions, she’s ready to switch out and cast her Outro which is considered Spectro Frazzle DMG as it deals a final burst of damage dependent on the stacks of Heliacal Ember present on enemies, consumes all Heliacal Ember stacks present on targets, and also amplifies the Spectro DMG of all characters except Zani by 20% if they have Heliacal Ember applied, which is typically a small DMG boost for your Supports but has little usage beyond that.\n This explains Zani’s kit, so let’s further detail her potential as a character. She deals a lot of damage, this much is undeniable, however it comes at a cost. Confession Phoebe is currently the only character able to quickly and consistently apply all of the Spectro Frazzle Zani needs by herself ; this makes her especially desirable in Zani teams as without her it’s difficult to fully execute Zani’s Ultimate combos. But on top of this, Confession mode Phoebe also gives 100% Spectro Frazzle DMG Amplify on her Outro and an extra 30% with her Signature weapon, making her a necessity in Zani teams to reach her maximum potential. Zani can still easily function as a character when separated from Phoebe due to really high baseline damage but it does undeniably strip away a lot of her potential . Additionally, Zani’s weapon is an especially important grab as it gives an extra 50% Spectro Frazzle DMG Amplify effect and an 8% DEF reduction on enemies with pretty much permanent uptime. In other words: she’s expensive, as all of those upgrades contribute loads to her potential. We will reiterate this does not strip away your possibilities of using Zani without any of these upgrades involved, but her damage will tank a significant amount. This is her biggest weakness.\n Beyond this, her team comps are pretty restrictive as a Spectro Frazzle applier needs to be present in some form on your team. Finally, as Zani will end up dealing a lot of the team’s damage potential, buffing her own damage as heavily as possible is highly recommended, so she’ll pretty much always end up in a core of Zani herself, a Spectro Frazzle applier, and a generalist Support. It’s difficult to justify other team comps in the current meta and makes her playstyle much more restrictive than other characters we’ve previously seen — while teambuilding freedom exists around Zani, her performance will take a hit as a result of attempting that.\n However, it’s absolutely undeniable that as things currently stand, Zani’s damage potential is very high and under the right conditions, she can carry your account across all forms of currently available endgame content. She’s an amazing DPS that has all the tools she needs for all kinds of players, whether competitive or casual, to enjoy playing the game.\n In conclusion, while Zani has a couple of weaknesses in regards to her restrictiveness, it is undeniable that her strengths far outweigh those weaknesses. Her damage potential is high enough to justify her being a top tier DPS character without a doubt, and as she has no issues with receiving damage, or dealing damage in both AoE and single-target situations, she’s suited to all kinds of enemy encounters and is likely to make your gameplay experience smooth and easy!",
+      "assets": []
+    },
+    {
+      "id": "video-guides-26",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "Build",
+      "assets": []
+    },
+    {
+      "id": "best-weapons-27",
+      "level": 2,
+      "heading": "Best Weapons",
+      "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Zani calculations were done using added buffs from the following teammates:\n Phoebe + Luminous Hymn +\n Moonlit Clouds\n\n +\n Impermanence Heron\n\n Rover (Spectro) + Blazing Brilliance +\n Rejuvenating Glow\n\n +\n Fallacy of No Return\n\n 100.00%\n\n Blazing Justice (R 1 )\n\n Zani's Signature weapon is by far her best option, thanks to its massive boosts in her best stats: 48.6% CRIT DMG with high ATK, 50% Spectro Frazzle Amplification, and even 8% DEF Ignore with a simple condition (that can be permanently triggered during any part of Zani's rotation). How much stronger this weapon is compared to other options depends on how many other sources of Frazzle Amplify you have access to. For example, with Phoebe's 100% Frazzle Amplify applied, the value of this weapon is diminished due to dilution, but without it, it becomes far more important.\n 93.70%\n\n Tragicomedy (R 1 )\n\n Roccia's weapon is an amazing choice on Zani as all her attacks during her Ultimate stance are the Heavy Attack type while still being treated as Basic Attack casts for the purpose of this weapon's passive, giving her 48% Heavy DMG Bonus combined with an extra 24.3% CRIT Rate and high ATK make it the second best choice.\n 85.00%\n\n Verity's Handle (R 1 )\n\n Beyond the usual high Base ATK, CRIT Rate and all-type DMG bonus buffs Xiangli Yao's weapon provides, Zani makes little use of the extra Liberation DMG Bonus effect so this weapon is comparably weaker than other options, but can still be considered as a good alternative due to raw stats alone.\n 82.40%\n\n Pulsation Bracer (R 1 )\n\n The best permanently available option for Zani which acts as a nice ATK and CRIT Rate stat-stick for her.\n 80.50%\n\n Moongazer's Sigil (R 1 )\n\n Simple ATK, CRIT Rate and Liberation DMG stat-stick for Zani who does not benefit from this weapon's DEF Ignore-related effects. Suffers from a low Base ATK and too much CRIT Rate causing Zani to easily overcap.\n 77.20%\n\n Abyss Surges (R 1 )\n\n The extra Energy Regen and huge ATK boosts this weapon provides are very useful to Zani, but she has little use for the rest of its passive boosting Basic and Skill DMG. With that said, it remains the best permanently available choice thanks to its really high Base ATK and small Energy Regen boost.\n 72.60%\n\n Aether Strike (R 5 )\n\n This Battle Pass exclusive is focused on buffing Liberation DMG which Zani barely benefits from, but luckily for her the CRIT DMG and ATK stats provided by this weapon are used well on her which makes it the best 4-star choice for her.\n 69.30%\n\n Celestial Spiral (R 5 )\n\n One of the best 4-star weapons on Zani thanks to its solid Base ATK, ATK-increasing effects, and ability to restore flat Energy when Resonance Skill is cast, which eases Zani's build requirements requiring no Energy Regen at all.\n 67.70%\n\n Stonard (R 5 )\n\n Similarly to Aether Strike, this Battle Pass exclusive is focused on buffing Liberation DMG which Zani barely benefits from, but Zani does benefit from the CRIT Rate stat this weapon has. Not better than the above 4-stars because it only buffs Liberation DMG and not ATK which Zani would prefer.\n 66.10%\n\n Hollow Mirage (R 5 )\n\n Provides some extra ATK increase over Legend of Drunken Hero which is dependent on not getting hit to upkeep. Even in the best conditions for this weapon, it's only slightly higher than the craftable, making it not recommended if better options are available.\n 62.90%\n\n Legend of Drunken Hero (R 5 )\n\n While this Rinascita craftable looks like it'd work well on Zani as she is a Negative Status character, unfortunately for her Heliacal Ember (which she converts Spectro Frazzle into) does not count as a Negative Status, which makes its passive only benefit Zani if Ciaccona or Chisa are on the team to apply other Negative Statuses than Spectro Frazzle. Seeing as neither are top teammate choices for her, this weapon is only used as a last resort F2P option.",
+      "assets": [
+        {
+          "id": "552f65617cbb",
+          "sourceHash": "552f65617cbb",
+          "kind": "characters",
+          "name": "Phoebe",
+          "fileStem": "phoebe-icon",
+          "path": "Prydwen/ww/assets/characters/phoebe-552f65617cbb.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "358387a78181",
+          "sourceHash": "358387a78181",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-8",
+          "path": "Prydwen/ww/assets/icons/set-8-358387a78181.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "969a4ca96158",
+          "sourceHash": "969a4ca96158",
+          "kind": "misc",
+          "name": "Impermanence Heron",
+          "fileStem": "330000030",
+          "path": "Prydwen/ww/assets/misc/impermanence-heron-969a4ca96158.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "514d72023ab5",
+          "sourceHash": "514d72023ab5",
+          "kind": "characters",
+          "name": "Rover (Spectro)",
+          "fileStem": "rover-spectro-icon",
+          "path": "Prydwen/ww/assets/characters/rover-spectro-514d72023ab5.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9116b6b3061f",
+          "sourceHash": "9116b6b3061f",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-7",
+          "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "963f47d9c985",
+          "sourceHash": "963f47d9c985",
+          "kind": "misc",
+          "name": "Fallacy of No Return",
+          "fileStem": "6000060",
+          "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "007d18a5154b",
+          "sourceHash": "007d18a5154b",
+          "kind": "weapons",
+          "name": "Blazing Justice",
+          "fileStem": "21040036",
+          "path": "Prydwen/ww/assets/weapons/blazing-justice-007d18a5154b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1d9fc851e8c3",
+          "sourceHash": "1d9fc851e8c3",
+          "kind": "weapons",
+          "name": "Tragicomedy",
+          "fileStem": "21040026",
+          "path": "Prydwen/ww/assets/weapons/tragicomedy-1d9fc851e8c3.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ea93f302fdf1",
+          "sourceHash": "ea93f302fdf1",
+          "kind": "weapons",
+          "name": "Verity's Handle",
+          "fileStem": "21040016",
+          "path": "Prydwen/ww/assets/weapons/veritys-handle-ea93f302fdf1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "a329648e74b3",
+          "sourceHash": "a329648e74b3",
+          "kind": "weapons",
+          "name": "Pulsation Bracer",
+          "fileStem": "21040045",
+          "path": "Prydwen/ww/assets/weapons/pulsation-bracer-a329648e74b3.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b07450491f2f",
+          "sourceHash": "b07450491f2f",
+          "kind": "weapons",
+          "name": "Moongazer's Sigil",
+          "fileStem": "21040046",
+          "path": "Prydwen/ww/assets/weapons/moongazers-sigil-b07450491f2f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "4e021e35e328",
+          "sourceHash": "4e021e35e328",
+          "kind": "weapons",
+          "name": "Abyss Surges",
+          "fileStem": "21040015",
+          "path": "Prydwen/ww/assets/weapons/abyss-surges-4e021e35e328.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "be4f9e86be91",
+          "sourceHash": "be4f9e86be91",
+          "kind": "weapons",
+          "name": "Aether Strike",
+          "fileStem": "21040104",
+          "path": "Prydwen/ww/assets/weapons/aether-strike-be4f9e86be91.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d16f2ad97469",
+          "sourceHash": "d16f2ad97469",
+          "kind": "weapons",
+          "name": "Celestial Spiral",
+          "fileStem": "21040084",
+          "path": "Prydwen/ww/assets/weapons/celestial-spiral-d16f2ad97469.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9bf05a62f031",
+          "sourceHash": "9bf05a62f031",
+          "kind": "weapons",
+          "name": "Stonard",
+          "fileStem": "21040074",
+          "path": "Prydwen/ww/assets/weapons/stonard-9bf05a62f031.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "149a7a79da9a",
+          "sourceHash": "149a7a79da9a",
+          "kind": "weapons",
+          "name": "Hollow Mirage",
+          "fileStem": "21040064",
+          "path": "Prydwen/ww/assets/weapons/hollow-mirage-149a7a79da9a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5275e972617b",
+          "sourceHash": "5275e972617b",
+          "kind": "weapons",
+          "name": "Legend of Drunken Hero",
+          "fileStem": "21040094",
+          "path": "Prydwen/ww/assets/weapons/legend-of-drunken-hero-5275e972617b.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "best-echo-sets-29",
+      "level": 6,
+      "heading": "Best Echo Sets",
+      "text": "100.00%\n\nEternal Radiance\n\n Offers a 10% unconditional Spectro DMG% boost, a 20% CRIT RATE buff for 15 seconds after inflicting Spectro Frazzle and further 15% Spectro DMG% boost for 15 seconds after attacking an enemy that has 10 Spectro Frazzle Stacks. For characters that have the capability to inflict Spectro Frazzle in their kit the 20% CRIT RATE boost is close to permanent, while the 15% Spectro DMG boost should maintain decent uptime in Spectro Frazzle focused teams. Generally the best in slot set for all DPS characters capable of inflicting Spectro Frazzle.\n Below you can find Main Echo options:\n\n Capitaneus\n\n - Offers an unconditional 12% Spectro DMG and 12% Heavy Attack DMG boost when active in a resonator's Main Echo Slot, making it a solid choice for Spectro focused resonators who emphasize Heavy Attack damage and are looking to use the 5P Eternal Radiance set bonus.\n\n Nightmare: Mourning Aix\n\n - Offers an unconditional 12% Spectro DMG boost when active in a resonators Main Echo Slot and gains a 100% DMG bonus to its attack against enemies inflicted by Spectro Frazzle. This echo is the go-to choice for most resonators capable of inflicting Spectro Frazzle, who are focusing on damage and are looking to use the 5P Eternal Radiance set bonus.",
+      "assets": [
+        {
+          "id": "37183f04cf5e",
+          "sourceHash": "37183f04cf5e",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-11",
+          "path": "Prydwen/ww/assets/icons/set-11-37183f04cf5e.webp",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "ae2257c84ddf",
+          "sourceHash": "ae2257c84ddf",
+          "kind": "misc",
+          "name": "Capitaneus",
+          "fileStem": "6000104",
+          "path": "Prydwen/ww/assets/misc/capitaneus-ae2257c84ddf.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "31664164f398",
+          "sourceHash": "31664164f398",
+          "kind": "misc",
+          "name": "Nightmare: Mourning Aix",
+          "fileStem": "330000200",
+          "path": "Prydwen/ww/assets/misc/nightmare-mourning-aix-31664164f398.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "best-echo-stats-30",
+      "level": 2,
+      "heading": "Best Echo Stats",
+      "text": "4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Spectro DMG\n\n 3 cost\n Spectro DMG > ATK%\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK",
+      "assets": []
+    },
+    {
+      "id": "best-endgame-stats-level-90-31",
+      "level": 2,
+      "heading": "Best Endgame Stats (Level 90)",
+      "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 15000+\n\n DEF: 1100+\n\n ATK: 1800-2300+\n\n CRIT Rate: 65%+ (before Echo set bonuses)\n\n CRIT DMG: 210-260%+\n\n Energy Regen: 115%+\n Energy requirements may be lowered in a Quickswap-heavy playstyle.\n\n Spectro DMG Bonus: 50-80%+",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-32",
+      "level": 2,
+      "heading": "Skill Priority",
+      "text": "Below you can find the order of leveling the abilities for Zani .\n Forte Circuit\n\n Res. Liberation\n\n Res. Skill\n\n Intro Skill\n\n Basic Attack\n\n Skill, Intro and Basic can be skipped when levelling to save on resources at a minimal damage loss.\n\n Gameplay and teams",
+      "assets": []
+    },
+    {
+      "id": "standard-dps-rotation-34",
+      "level": 6,
+      "heading": "Standard DPS Rotation",
+      "text": "Zani's kit requires another character assist her by applying Spectro Frazzle to her target in order to help her with generating her secondary Forte Gauge Blaze. Outside of this fact, her rotation is relatively simple and revolves around the usual affair of building and spending resources while aiming for 100 concerto energy. There are two approaches to this, a standard approach and a double intro approach.\n Intro\n\n Skill: Standard Def Protocol\n\n Basic P3\n\n Skill: Targeted Action\n\n Ultimate: Rekindle\n\n Forte: Heavy Slash - Daybreak\n\n Forte: Heavy Slash - Dawning\n\n Forte: Heavy Slash - Nightfall\n\n Forte: Heavy Slash - Daybreak\n\n Forte: Heavy Slash - Dawning\n\n Forte: Heavy Slash - Nightfall\n\n Ultimate: The Last Stand\n\n Outro",
+      "assets": []
+    },
+    {
+      "id": "double-intro-dps-rotation-35",
+      "level": 6,
+      "heading": "Double Intro DPS Rotation",
+      "text": "If you're finding yourself frustrated with the rotation above and frequently missing a few points of concerto due to missing one or two hits, the double intro rotation might be what you're looking for as it cuts two of the most frustrating attacks to land out. The downside of this rotation is using another intro one of your other characters might need.\n Intro\n\n <-- Swap -->\n\n Intro\n\n Skill: Targeted Action\n\n Ultimate: Rekindle\n\n Forte: Heavy Slash - Daybreak\n\n Forte: Heavy Slash - Dawning\n\n Forte: Heavy Slash - Nightfall\n\n Forte: Heavy Slash - Daybreak\n\n Forte: Heavy Slash - Dawning\n\n Forte: Heavy Slash - Nightfall\n\n Ultimate: The Last Stand\n\n Outro",
+      "assets": []
+    },
+    {
+      "id": "synergies-36",
+      "level": 2,
+      "heading": "Synergies",
+      "text": "Phoebe - Phoebe in her Confession mode is the perfect Zani teammate. Providing 100% DMG Amplification, able to run a supportive set like Moonlit Clouds for extra damage and also being able to fully fill Zani's Blaze bar by applying lots of Spectro Frazzle, no teammate choice Zani has can compare to Phoebe, making her the best Zani team choice by huge amounts.\n Rover (Spectro) Ciaccona - These two are the other Spectro Frazzle appliers Zani has to try to fill her Blaze bar. While neither compare to Phoebe, having 2 Frazzle appliers in the team they can allow Zani to execute 3 Nightfalls per rotation (with some quickswap if Phoebe + Spectro Rover is used) for extra damage, making Phoebe + Spectro Rover the best Zani team when fully optimized (with Ciaccona as a worse alternative if need be).\n Iuno Phrolova Mortefi - All 3 of these characters can Amplify Zani's Heavy Attack DMG via their Outros to buff her damage further. While none of them quite compete with Phoebe's 100% Amplification, Phrolova has a lot of personal damage to her name and Mortefi is F2P-accessible with higher buffing. Iuno is an in-between of the two with extra sustain.\n The Shorekeeper Verina - As the best generalist Support, it's no surprise Shorekeeper can slot in any team in the game as she provides high team-wide ATK%, 15% DMG Amplification, CRIT Rate and CRIT DMG buffs making her the best option for Zani teams without quickswap (she also has much higher sustain than Spectro Rover if that's desired!)",
+      "assets": [
+        {
+          "id": "552f65617cbb",
+          "sourceHash": "552f65617cbb",
+          "kind": "characters",
+          "name": "Phoebe",
+          "fileStem": "phoebe-icon",
+          "path": "Prydwen/ww/assets/characters/phoebe-552f65617cbb.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "514d72023ab5",
+          "sourceHash": "514d72023ab5",
+          "kind": "characters",
+          "name": "Rover (Spectro)",
+          "fileStem": "rover-spectro-icon",
+          "path": "Prydwen/ww/assets/characters/rover-spectro-514d72023ab5.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ba56fbcc8eb4",
+          "sourceHash": "ba56fbcc8eb4",
+          "kind": "characters",
+          "name": "Ciaccona",
+          "fileStem": "ciaccona-icon",
+          "path": "Prydwen/ww/assets/characters/ciaccona-ba56fbcc8eb4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e6913cb7353a",
+          "sourceHash": "e6913cb7353a",
+          "kind": "characters",
+          "name": "Iuno",
+          "fileStem": "iuno-icon",
+          "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "8367f1df0e13",
+          "sourceHash": "8367f1df0e13",
+          "kind": "characters",
+          "name": "Phrolova",
+          "fileStem": "phrolova-icon",
+          "path": "Prydwen/ww/assets/characters/phrolova-8367f1df0e13.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "4910396b5955",
+          "sourceHash": "4910396b5955",
+          "kind": "characters",
+          "name": "Mortefi",
+          "fileStem": "mortefi-icon",
+          "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d909de4aecde",
+          "sourceHash": "d909de4aecde",
+          "kind": "characters",
+          "name": "The Shorekeeper",
+          "fileStem": "the-shorekeeper-icon",
+          "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1b2a8f336e3d",
+          "sourceHash": "1b2a8f336e3d",
+          "kind": "characters",
+          "name": "Verina",
+          "fileStem": "verina-icon",
+          "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "example-teams-37",
+      "level": 2,
+      "heading": "Example Teams",
+      "text": "Team #1: Best Team\n\n Team #2: Premium Alternatives\n\n Team #3: F2P Team\n\n Calculations",
+      "assets": [
+        {
+          "id": "3a3005a58dc2",
+          "sourceHash": "3a3005a58dc2",
+          "kind": "characters",
+          "name": "Zani",
+          "fileStem": "zani-icon",
+          "path": "Prydwen/ww/assets/characters/zani-3a3005a58dc2.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "552f65617cbb",
+          "sourceHash": "552f65617cbb",
+          "kind": "characters",
+          "name": "Phoebe",
+          "fileStem": "phoebe-icon",
+          "path": "Prydwen/ww/assets/characters/phoebe-552f65617cbb.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "514d72023ab5",
+          "sourceHash": "514d72023ab5",
+          "kind": "characters",
+          "name": "Rover (Spectro)",
+          "fileStem": "rover-spectro-icon",
+          "path": "Prydwen/ww/assets/characters/rover-spectro-514d72023ab5.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "d909de4aecde",
+          "sourceHash": "d909de4aecde",
+          "kind": "characters",
+          "name": "The Shorekeeper",
+          "fileStem": "the-shorekeeper-icon",
+          "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "ba56fbcc8eb4",
+          "sourceHash": "ba56fbcc8eb4",
+          "kind": "characters",
+          "name": "Ciaccona",
+          "fileStem": "ciaccona-icon",
+          "path": "Prydwen/ww/assets/characters/ciaccona-ba56fbcc8eb4.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "e6913cb7353a",
+          "sourceHash": "e6913cb7353a",
+          "kind": "characters",
+          "name": "Iuno",
+          "fileStem": "iuno-icon",
+          "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "8367f1df0e13",
+          "sourceHash": "8367f1df0e13",
+          "kind": "characters",
+          "name": "Phrolova",
+          "fileStem": "phrolova-icon",
+          "path": "Prydwen/ww/assets/characters/phrolova-8367f1df0e13.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "4910396b5955",
+          "sourceHash": "4910396b5955",
+          "kind": "characters",
+          "name": "Mortefi",
+          "fileStem": "mortefi-icon",
+          "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+          "width": 120,
+          "height": 120
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "best-echo-stats": {
+      "label": "Best Echo Stats",
+      "sections": [
+        {
+          "heading": "Stats",
+          "text": "Include minor fortes\n\n Lv. 90\n\n HP\n 10775\n\n ATK\n 438\n\n DEF\n 1137\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Spectro DMG\n 0 %",
+          "assets": [
+            {
+              "id": "c26c1d310e90",
+              "sourceHash": "c26c1d310e90",
+              "kind": "icons",
+              "name": "HP",
+              "fileStem": "stat-hp",
+              "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "1e70b3adc860",
+              "sourceHash": "1e70b3adc860",
+              "kind": "icons",
+              "name": "ATK",
+              "fileStem": "stat-atk",
+              "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "aa019d34202f",
+              "sourceHash": "aa019d34202f",
+              "kind": "icons",
+              "name": "DEF",
+              "fileStem": "stat-def",
+              "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "5a0b154cd3d8",
+              "sourceHash": "5a0b154cd3d8",
+              "kind": "icons",
+              "name": "Max Energy",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "39094c227806",
+              "sourceHash": "39094c227806",
+              "kind": "icons",
+              "name": "CRIT Rate",
+              "fileStem": "stat-crit",
+              "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "7e2bcd0760ca",
+              "sourceHash": "7e2bcd0760ca",
+              "kind": "icons",
+              "name": "CRIT DMG",
+              "fileStem": "stat-critdmg",
+              "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "94236abd3fdc",
+              "sourceHash": "94236abd3fdc",
+              "kind": "icons",
+              "name": "Healing",
+              "fileStem": "stat-heal",
+              "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "5447b53221f2",
+              "sourceHash": "5447b53221f2",
+              "kind": "icons",
+              "name": "Spectro",
+              "fileStem": "stat-spec",
+              "path": "Prydwen/ww/assets/icons/spectro-5447b53221f2.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        },
+        {
+          "heading": "Best Echo Stats",
+          "text": "4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Spectro DMG\n\n 3 cost\n Spectro DMG > ATK%\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK",
+          "assets": []
+        }
+      ]
+    },
+    "best-weapons": {
+      "label": "Best Weapons",
+      "sections": [
+        {
+          "heading": "Best Weapons",
+          "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Zani calculations were done using added buffs from the following teammates:\n Phoebe + Luminous Hymn +\n Moonlit Clouds\n\n +\n Impermanence Heron\n\n Rover (Spectro) + Blazing Brilliance +\n Rejuvenating Glow\n\n +\n Fallacy of No Return\n\n 100.00%\n\n Blazing Justice (R 1 )\n\n Zani's Signature weapon is by far her best option, thanks to its massive boosts in her best stats: 48.6% CRIT DMG with high ATK, 50% Spectro Frazzle Amplification, and even 8% DEF Ignore with a simple condition (that can be permanently triggered during any part of Zani's rotation). How much stronger this weapon is compared to other options depends on how many other sources of Frazzle Amplify you have access to. For example, with Phoebe's 100% Frazzle Amplify applied, the value of this weapon is diminished due to dilution, but without it, it becomes far more important.\n 93.70%\n\n Tragicomedy (R 1 )\n\n Roccia's weapon is an amazing choice on Zani as all her attacks during her Ultimate stance are the Heavy Attack type while still being treated as Basic Attack casts for the purpose of this weapon's passive, giving her 48% Heavy DMG Bonus combined with an extra 24.3% CRIT Rate and high ATK make it the second best choice.\n 85.00%\n\n Verity's Handle (R 1 )\n\n Beyond the usual high Base ATK, CRIT Rate and all-type DMG bonus buffs Xiangli Yao's weapon provides, Zani makes little use of the extra Liberation DMG Bonus effect so this weapon is comparably weaker than other options, but can still be considered as a good alternative due to raw stats alone.\n 82.40%\n\n Pulsation Bracer (R 1 )\n\n The best permanently available option for Zani which acts as a nice ATK and CRIT Rate stat-stick for her.\n 80.50%\n\n Moongazer's Sigil (R 1 )\n\n Simple ATK, CRIT Rate and Liberation DMG stat-stick for Zani who does not benefit from this weapon's DEF Ignore-related effects. Suffers from a low Base ATK and too much CRIT Rate causing Zani to easily overcap.\n 77.20%\n\n Abyss Surges (R 1 )\n\n The extra Energy Regen and huge ATK boosts this weapon provides are very useful to Zani, but she has little use for the rest of its passive boosting Basic and Skill DMG. With that said, it remains the best permanently available choice thanks to its really high Base ATK and small Energy Regen boost.\n 72.60%\n\n Aether Strike (R 5 )\n\n This Battle Pass exclusive is focused on buffing Liberation DMG which Zani barely benefits from, but luckily for her the CRIT DMG and ATK stats provided by this weapon are used well on her which makes it the best 4-star choice for her.\n 69.30%\n\n Celestial Spiral (R 5 )\n\n One of the best 4-star weapons on Zani thanks to its solid Base ATK, ATK-increasing effects, and ability to restore flat Energy when Resonance Skill is cast, which eases Zani's build requirements requiring no Energy Regen at all.\n 67.70%\n\n Stonard (R 5 )\n\n Similarly to Aether Strike, this Battle Pass exclusive is focused on buffing Liberation DMG which Zani barely benefits from, but Zani does benefit from the CRIT Rate stat this weapon has. Not better than the above 4-stars because it only buffs Liberation DMG and not ATK which Zani would prefer.\n 66.10%\n\n Hollow Mirage (R 5 )\n\n Provides some extra ATK increase over Legend of Drunken Hero which is dependent on not getting hit to upkeep. Even in the best conditions for this weapon, it's only slightly higher than the craftable, making it not recommended if better options are available.\n 62.90%\n\n Legend of Drunken Hero (R 5 )\n\n While this Rinascita craftable looks like it'd work well on Zani as she is a Negative Status character, unfortunately for her Heliacal Ember (which she converts Spectro Frazzle into) does not count as a Negative Status, which makes its passive only benefit Zani if Ciaccona or Chisa are on the team to apply other Negative Statuses than Spectro Frazzle. Seeing as neither are top teammate choices for her, this weapon is only used as a last resort F2P option.",
+          "assets": [
+            {
+              "id": "552f65617cbb",
+              "sourceHash": "552f65617cbb",
+              "kind": "characters",
+              "name": "Phoebe",
+              "fileStem": "phoebe-icon",
+              "path": "Prydwen/ww/assets/characters/phoebe-552f65617cbb.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "358387a78181",
+              "sourceHash": "358387a78181",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-8",
+              "path": "Prydwen/ww/assets/icons/set-8-358387a78181.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "969a4ca96158",
+              "sourceHash": "969a4ca96158",
+              "kind": "misc",
+              "name": "Impermanence Heron",
+              "fileStem": "330000030",
+              "path": "Prydwen/ww/assets/misc/impermanence-heron-969a4ca96158.webp",
+              "width": 35,
+              "height": 35
+            },
+            {
+              "id": "514d72023ab5",
+              "sourceHash": "514d72023ab5",
+              "kind": "characters",
+              "name": "Rover (Spectro)",
+              "fileStem": "rover-spectro-icon",
+              "path": "Prydwen/ww/assets/characters/rover-spectro-514d72023ab5.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "9116b6b3061f",
+              "sourceHash": "9116b6b3061f",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-7",
+              "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "963f47d9c985",
+              "sourceHash": "963f47d9c985",
+              "kind": "misc",
+              "name": "Fallacy of No Return",
+              "fileStem": "6000060",
+              "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+              "width": 35,
+              "height": 35
+            },
+            {
+              "id": "007d18a5154b",
+              "sourceHash": "007d18a5154b",
+              "kind": "weapons",
+              "name": "Blazing Justice",
+              "fileStem": "21040036",
+              "path": "Prydwen/ww/assets/weapons/blazing-justice-007d18a5154b.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1d9fc851e8c3",
+              "sourceHash": "1d9fc851e8c3",
+              "kind": "weapons",
+              "name": "Tragicomedy",
+              "fileStem": "21040026",
+              "path": "Prydwen/ww/assets/weapons/tragicomedy-1d9fc851e8c3.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "ea93f302fdf1",
+              "sourceHash": "ea93f302fdf1",
+              "kind": "weapons",
+              "name": "Verity's Handle",
+              "fileStem": "21040016",
+              "path": "Prydwen/ww/assets/weapons/veritys-handle-ea93f302fdf1.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "a329648e74b3",
+              "sourceHash": "a329648e74b3",
+              "kind": "weapons",
+              "name": "Pulsation Bracer",
+              "fileStem": "21040045",
+              "path": "Prydwen/ww/assets/weapons/pulsation-bracer-a329648e74b3.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "b07450491f2f",
+              "sourceHash": "b07450491f2f",
+              "kind": "weapons",
+              "name": "Moongazer's Sigil",
+              "fileStem": "21040046",
+              "path": "Prydwen/ww/assets/weapons/moongazers-sigil-b07450491f2f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "4e021e35e328",
+              "sourceHash": "4e021e35e328",
+              "kind": "weapons",
+              "name": "Abyss Surges",
+              "fileStem": "21040015",
+              "path": "Prydwen/ww/assets/weapons/abyss-surges-4e021e35e328.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "be4f9e86be91",
+              "sourceHash": "be4f9e86be91",
+              "kind": "weapons",
+              "name": "Aether Strike",
+              "fileStem": "21040104",
+              "path": "Prydwen/ww/assets/weapons/aether-strike-be4f9e86be91.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d16f2ad97469",
+              "sourceHash": "d16f2ad97469",
+              "kind": "weapons",
+              "name": "Celestial Spiral",
+              "fileStem": "21040084",
+              "path": "Prydwen/ww/assets/weapons/celestial-spiral-d16f2ad97469.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "9bf05a62f031",
+              "sourceHash": "9bf05a62f031",
+              "kind": "weapons",
+              "name": "Stonard",
+              "fileStem": "21040074",
+              "path": "Prydwen/ww/assets/weapons/stonard-9bf05a62f031.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "149a7a79da9a",
+              "sourceHash": "149a7a79da9a",
+              "kind": "weapons",
+              "name": "Hollow Mirage",
+              "fileStem": "21040064",
+              "path": "Prydwen/ww/assets/weapons/hollow-mirage-149a7a79da9a.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "5275e972617b",
+              "sourceHash": "5275e972617b",
+              "kind": "weapons",
+              "name": "Legend of Drunken Hero",
+              "fileStem": "21040094",
+              "path": "Prydwen/ww/assets/weapons/legend-of-drunken-hero-5275e972617b.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "best-echo-sets": {
+      "label": "Best Echo Sets",
+      "sections": [
+        {
+          "heading": "Best Echo Sets",
+          "text": "100.00%\n\nEternal Radiance\n\n Offers a 10% unconditional Spectro DMG% boost, a 20% CRIT RATE buff for 15 seconds after inflicting Spectro Frazzle and further 15% Spectro DMG% boost for 15 seconds after attacking an enemy that has 10 Spectro Frazzle Stacks. For characters that have the capability to inflict Spectro Frazzle in their kit the 20% CRIT RATE boost is close to permanent, while the 15% Spectro DMG boost should maintain decent uptime in Spectro Frazzle focused teams. Generally the best in slot set for all DPS characters capable of inflicting Spectro Frazzle.\n Below you can find Main Echo options:\n\n Capitaneus\n\n - Offers an unconditional 12% Spectro DMG and 12% Heavy Attack DMG boost when active in a resonator's Main Echo Slot, making it a solid choice for Spectro focused resonators who emphasize Heavy Attack damage and are looking to use the 5P Eternal Radiance set bonus.\n\n Nightmare: Mourning Aix\n\n - Offers an unconditional 12% Spectro DMG boost when active in a resonators Main Echo Slot and gains a 100% DMG bonus to its attack against enemies inflicted by Spectro Frazzle. This echo is the go-to choice for most resonators capable of inflicting Spectro Frazzle, who are focusing on damage and are looking to use the 5P Eternal Radiance set bonus.",
+          "assets": [
+            {
+              "id": "37183f04cf5e",
+              "sourceHash": "37183f04cf5e",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-11",
+              "path": "Prydwen/ww/assets/icons/set-11-37183f04cf5e.webp",
+              "width": 50,
+              "height": 50
+            },
+            {
+              "id": "ae2257c84ddf",
+              "sourceHash": "ae2257c84ddf",
+              "kind": "misc",
+              "name": "Capitaneus",
+              "fileStem": "6000104",
+              "path": "Prydwen/ww/assets/misc/capitaneus-ae2257c84ddf.webp",
+              "width": 35,
+              "height": 35
+            },
+            {
+              "id": "31664164f398",
+              "sourceHash": "31664164f398",
+              "kind": "misc",
+              "name": "Nightmare: Mourning Aix",
+              "fileStem": "330000200",
+              "path": "Prydwen/ww/assets/misc/nightmare-mourning-aix-31664164f398.webp",
+              "width": 35,
+              "height": 35
+            }
+          ]
+        }
+      ]
+    },
+    "best-endgame-stats": {
+      "label": "Best Endgame Stats",
+      "sections": [
+        {
+          "heading": "Best Endgame Stats (Level 90)",
+          "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 15000+\n\n DEF: 1100+\n\n ATK: 1800-2300+\n\n CRIT Rate: 65%+ (before Echo set bonuses)\n\n CRIT DMG: 210-260%+\n\n Energy Regen: 115%+\n Energy requirements may be lowered in a Quickswap-heavy playstyle.\n\n Spectro DMG Bonus: 50-80%+",
+          "assets": []
+        }
+      ]
+    },
+    "skill-priority": {
+      "label": "Skill Priority",
+      "sections": [
+        {
+          "heading": "Skill Priority",
+          "text": "Below you can find the order of leveling the abilities for Zani .\n Forte Circuit\n\n Res. Liberation\n\n Res. Skill\n\n Intro Skill\n\n Basic Attack\n\n Skill, Intro and Basic can be skipped when levelling to save on resources at a minimal damage loss.\n\n Gameplay and teams",
+          "assets": []
+        }
+      ]
+    },
+    "rotation": {
+      "label": "Rotation",
+      "sections": [
+        {
+          "heading": "Standard DPS Rotation",
+          "text": "Zani's kit requires another character assist her by applying Spectro Frazzle to her target in order to help her with generating her secondary Forte Gauge Blaze. Outside of this fact, her rotation is relatively simple and revolves around the usual affair of building and spending resources while aiming for 100 concerto energy. There are two approaches to this, a standard approach and a double intro approach.\n Intro\n\n Skill: Standard Def Protocol\n\n Basic P3\n\n Skill: Targeted Action\n\n Ultimate: Rekindle\n\n Forte: Heavy Slash - Daybreak\n\n Forte: Heavy Slash - Dawning\n\n Forte: Heavy Slash - Nightfall\n\n Forte: Heavy Slash - Daybreak\n\n Forte: Heavy Slash - Dawning\n\n Forte: Heavy Slash - Nightfall\n\n Ultimate: The Last Stand\n\n Outro",
+          "assets": []
+        },
+        {
+          "heading": "Double Intro DPS Rotation",
+          "text": "If you're finding yourself frustrated with the rotation above and frequently missing a few points of concerto due to missing one or two hits, the double intro rotation might be what you're looking for as it cuts two of the most frustrating attacks to land out. The downside of this rotation is using another intro one of your other characters might need.\n Intro\n\n <-- Swap -->\n\n Intro\n\n Skill: Targeted Action\n\n Ultimate: Rekindle\n\n Forte: Heavy Slash - Daybreak\n\n Forte: Heavy Slash - Dawning\n\n Forte: Heavy Slash - Nightfall\n\n Forte: Heavy Slash - Daybreak\n\n Forte: Heavy Slash - Dawning\n\n Forte: Heavy Slash - Nightfall\n\n Ultimate: The Last Stand\n\n Outro",
+          "assets": []
+        }
+      ]
+    },
+    "synergies": {
+      "label": "Synergies",
+      "sections": [
+        {
+          "heading": "Synergies",
+          "text": "Phoebe - Phoebe in her Confession mode is the perfect Zani teammate. Providing 100% DMG Amplification, able to run a supportive set like Moonlit Clouds for extra damage and also being able to fully fill Zani's Blaze bar by applying lots of Spectro Frazzle, no teammate choice Zani has can compare to Phoebe, making her the best Zani team choice by huge amounts.\n Rover (Spectro) Ciaccona - These two are the other Spectro Frazzle appliers Zani has to try to fill her Blaze bar. While neither compare to Phoebe, having 2 Frazzle appliers in the team they can allow Zani to execute 3 Nightfalls per rotation (with some quickswap if Phoebe + Spectro Rover is used) for extra damage, making Phoebe + Spectro Rover the best Zani team when fully optimized (with Ciaccona as a worse alternative if need be).\n Iuno Phrolova Mortefi - All 3 of these characters can Amplify Zani's Heavy Attack DMG via their Outros to buff her damage further. While none of them quite compete with Phoebe's 100% Amplification, Phrolova has a lot of personal damage to her name and Mortefi is F2P-accessible with higher buffing. Iuno is an in-between of the two with extra sustain.\n The Shorekeeper Verina - As the best generalist Support, it's no surprise Shorekeeper can slot in any team in the game as she provides high team-wide ATK%, 15% DMG Amplification, CRIT Rate and CRIT DMG buffs making her the best option for Zani teams without quickswap (she also has much higher sustain than Spectro Rover if that's desired!)",
+          "assets": [
+            {
+              "id": "552f65617cbb",
+              "sourceHash": "552f65617cbb",
+              "kind": "characters",
+              "name": "Phoebe",
+              "fileStem": "phoebe-icon",
+              "path": "Prydwen/ww/assets/characters/phoebe-552f65617cbb.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "514d72023ab5",
+              "sourceHash": "514d72023ab5",
+              "kind": "characters",
+              "name": "Rover (Spectro)",
+              "fileStem": "rover-spectro-icon",
+              "path": "Prydwen/ww/assets/characters/rover-spectro-514d72023ab5.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "ba56fbcc8eb4",
+              "sourceHash": "ba56fbcc8eb4",
+              "kind": "characters",
+              "name": "Ciaccona",
+              "fileStem": "ciaccona-icon",
+              "path": "Prydwen/ww/assets/characters/ciaccona-ba56fbcc8eb4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "e6913cb7353a",
+              "sourceHash": "e6913cb7353a",
+              "kind": "characters",
+              "name": "Iuno",
+              "fileStem": "iuno-icon",
+              "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "8367f1df0e13",
+              "sourceHash": "8367f1df0e13",
+              "kind": "characters",
+              "name": "Phrolova",
+              "fileStem": "phrolova-icon",
+              "path": "Prydwen/ww/assets/characters/phrolova-8367f1df0e13.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "4910396b5955",
+              "sourceHash": "4910396b5955",
+              "kind": "characters",
+              "name": "Mortefi",
+              "fileStem": "mortefi-icon",
+              "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d909de4aecde",
+              "sourceHash": "d909de4aecde",
+              "kind": "characters",
+              "name": "The Shorekeeper",
+              "fileStem": "the-shorekeeper-icon",
+              "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1b2a8f336e3d",
+              "sourceHash": "1b2a8f336e3d",
+              "kind": "characters",
+              "name": "Verina",
+              "fileStem": "verina-icon",
+              "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "example-teams": {
+      "label": "Example Teams",
+      "sections": [
+        {
+          "heading": "Example Teams",
+          "text": "Team #1: Best Team\n\n Team #2: Premium Alternatives\n\n Team #3: F2P Team\n\n Calculations",
+          "assets": [
+            {
+              "id": "3a3005a58dc2",
+              "sourceHash": "3a3005a58dc2",
+              "kind": "characters",
+              "name": "Zani",
+              "fileStem": "zani-icon",
+              "path": "Prydwen/ww/assets/characters/zani-3a3005a58dc2.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "552f65617cbb",
+              "sourceHash": "552f65617cbb",
+              "kind": "characters",
+              "name": "Phoebe",
+              "fileStem": "phoebe-icon",
+              "path": "Prydwen/ww/assets/characters/phoebe-552f65617cbb.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "514d72023ab5",
+              "sourceHash": "514d72023ab5",
+              "kind": "characters",
+              "name": "Rover (Spectro)",
+              "fileStem": "rover-spectro-icon",
+              "path": "Prydwen/ww/assets/characters/rover-spectro-514d72023ab5.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "d909de4aecde",
+              "sourceHash": "d909de4aecde",
+              "kind": "characters",
+              "name": "The Shorekeeper",
+              "fileStem": "the-shorekeeper-icon",
+              "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "ba56fbcc8eb4",
+              "sourceHash": "ba56fbcc8eb4",
+              "kind": "characters",
+              "name": "Ciaccona",
+              "fileStem": "ciaccona-icon",
+              "path": "Prydwen/ww/assets/characters/ciaccona-ba56fbcc8eb4.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "e6913cb7353a",
+              "sourceHash": "e6913cb7353a",
+              "kind": "characters",
+              "name": "Iuno",
+              "fileStem": "iuno-icon",
+              "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "8367f1df0e13",
+              "sourceHash": "8367f1df0e13",
+              "kind": "characters",
+              "name": "Phrolova",
+              "fileStem": "phrolova-icon",
+              "path": "Prydwen/ww/assets/characters/phrolova-8367f1df0e13.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "4910396b5955",
+              "sourceHash": "4910396b5955",
+              "kind": "characters",
+              "name": "Mortefi",
+              "fileStem": "mortefi-icon",
+              "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+              "width": 120,
+              "height": 120
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Zani Best Build Guide | Wuthering Waves (WuWa)\n \n\n Wuthering Waves\n Home Database Characters Weapons Echoes Banners\n Tier Lists Tier List Team Tier List Value Tier List\n Guides Guides\n Resources Map News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Wuthering Waves\n /\n Characters\n /\n Zani\n Zani Best Build Guide\n Last updated: 09/June/2026\n\n Introduction\n Best guide and build for Zani from WW (Wuthering Waves). Zani is a 5 ★ rarity character from the Spectro element who uses the Gauntlets type weapon.\n A member of Averardo Vault's security team and holder of \"Best Employee\" for longer than she cares to count. She has made plenty of plans for her free time, but for now, her biggest mission is simple: clocking out on time.\n\n To learn more about Zani check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Zani has at least one video guide available:\n\n Update tracker\n Last review update\n Patch 2.3\n\n Last major build/calcs update\n Patch 3.0\n\n Last profile update*\n 09/June/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Zani check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Kit\n\n Review\n\n Build\n\n Gameplay and teams\n\n Calculations\n\n Profile\n\n Skills\n Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Routine Negotiation\n\n Basic Attack\n Perform up to 4 consecutive attacks to deal Spectro DMG .\n After performing Basic Attack Stage 3, Press Normal Attack at the right time to perform Basic Attack Breakthrough, which can be followed by Basic Attack Stage 4 by pressing Normal Attack again.\n Following Basic Attack Stage 3, Basic Attack Stage 4 can also be triggered by dodging and pressing Normal Attack within a certain time after Basic Attack Stage 3.\n Heavy Attack\n Consume STA to attack the target, dealing Spectro DMG . Press Normal Attack within a certain time to perform Basic Attack Stage 3.\n Mid-air Attack\n Consume STA to perform a plunging attack, dealing Spectro DMG . Press Normal Attack within a certain time to perform Basic Attack Stage 3.\n Dodge Counter\n Press successful Dodge to attack the target, dealing Spectro DMG . Then press Normal Attack at the right time to cast Basic Attack Breakthrough.\n If Dodge Counter is not followed by Basic Attack Stage 4, press Normal Attack on the ground within a certain time to cast Basic Attack Stage 4.\n\n Multipliers\n\n Resonance Skill\n Restless Watch\n\n Standard Defense Protocol\n Attack the target to deal Spectro DMG and enter a block stance. This state ends early if Zani is switched off the field. Press Normal Attack within a certain time to perform Basic Attack Stage 3, recovering 10 points of Redundant Energy and Stagnating the target on hit.\n When attacked by the enemy in the block stance, reduce this instance of damage by 100% and Stagnate nearby targets, then cast Resonance Skill Pinpoint Strike, dealing Spectro DMG and additionally reducing their Vibration Strength by 5% . The DMG taken by Zani is reduced by 30% within the next 2s .\n Crisis Response Protocol\n When Zani is not in Inferno Mode and has full Redundant Energy, her Resonance Skill is replaced with Resonance Skill Crisis Response Protocol.\n Hold Resonance Skill to enter Ready Stance. While in Ready Stance, Zani is immune to interruption. This state ends early if Zani is switched off the field. After releasing Resonance Skill button or when the stance duration ends, consume all Redundant Energy to cast Targeted Action, dealing Spectro DMG .\n When attacked by the enemy in Ready Stance, reduce this instance of damage by 100% and consume all Redundant Energy to cast Forcible Riposte, dealing Spectro DMG , Stagnating the target, and further reducing their Vibration Strength by 5% . The DMG taken by Zani is reduced by 30% within the next 2s .\n Casting Targeted Action or Forcible Riposte inflicts a stack of Heliacal Ember upon the target on hit and recovers Blaze before entering Sunburst mode.\n Sunburst\n The Spectro Frazzle DMG dealt by Zani to the target is Amplified by 20% .\n\n Multipliers\n\n Resonance Liberation\n Between Dawn and Dusk\n\n Rekindle\n Deal Spectro DMG and enter Inferno Mode, increasing Max Blaze from 100 to 150 and granting 50 Blazes. When in Inferno Mode, the DMG Multiplier of Basic Attack is increased.\n The Last Stand\n When in Inferno Mode, Resonance Liberation The Last Stand becomes available when Blaze is lower than 30 or after 8s in Inferno Mode.\n Casting Resonance Liberation The Last Stand deals Spectro DMG and ends the Inferno Mode.\n\n Multipliers\n\n Forte Circuit\n There Will Be A Light\n\n Heliacal Ember\n When Zani is in the team and a nearby Resonator inflicts Spectro Frazzle upon a target, immediately consume all Spectro Frazzle stacks and trigger the corresponding DMG, then convert Spectro Frazzle into an equal number of Heliacal Embers. Every time the conversion happens, Zani obtains Blaze based on the stacks of Heliacal Ember inflicted. Heliacal Ember is capped at 60 stacks, with each stack lasting for 6s . Heliacal Ember stacks are counted toward the Spectro Frazzle stacks for the Eternal Radiance Sonata Effect.\n Scorching Light\n When Zani is in Inferno Mode, Heavy Slash - Daybreak, Heavy Slash - Dawning, Heavy Slash - Nightfall, and Heavy Slash - Lightsmash become available, which deal Spectro DMG that is considered both Heavy Attack DMG and Spectro Frazzle DMG .\n When Blaze is higher than 30 , Resonance Skill Standard Defense Protocol is replaced with Resonance Skill Scorching Light.\n\n Hold Resonance Skill to enter Ready Stance, during which Zani is immune to interruption. This state ends early when Zani is switched off the field. Release Resonance Skill button to consume Blaze and perform Heavy Slash - Daybreak.\n\n When attacked in a certain time after entering Ready Stance, reduce this instance of damage by 100% and Stagnate nearby targets, then perform Heavy Slash - Lightsmash, consuming Blazes and further reducing their Vibration Strength by 10% . The DMG taken within the next 2s is reduced by 30% .\n\n After casting Heavy Slash - Lightsmash, Basic Attack is replaced with Heavy Slash - Nightfall, consuming up to 40 Blazes on hit, with each Blaze increasing the DMG Multiplier of Heavy Slash - Nightfall.\n\n When Ready Stance ends, immediately perform Heavy Slash - Nightfall.\n\n When Blaze is higher than 30 , Basic Attack is replaced with Heavy Slash - Daybreak. After entering Inferno Mode, casting Basic Attack immediately replaces the current Basic Attack with Resonance Skill Scorching Light. Hold Basic Attack to enter Ready Stance.\n\n After performing Heavy Slash - Daybreak, Basic Attack is replaced with Heavy Slash - Dawning when Zani has more than 30 Blazes. Heavy Slash - Dawning consumes Blazes.\nAfter performing Heavy Slash - Dawning, Basic Attack is replaced with Heavy Slash - Nightfall.\n\n If Basic Attack is not replaced with Heavy Slash - Nightfall after a successful Dodge, press Normal Attack within a certain time to perform Heavy Slash - Lightsmash at the cost of Blazes.\n\n Redundant Energy\n Zani can hold up to 100 Redundant Energy.\n Obtain Redundant Energy when Normal Attacks hit a target.\n\n Obtain Redundant Energy when Intro Skill Immediate Execution hits a target.\n\n Obtain Redundant Energy when casting Resonance Skill Standard Defense Protocol.\n\n Obtain Redundant Energy when casting Pinpoint Strike.\n\n Cannot obtain Redundant Energy while in Inferno Mode.\n\n Blaze\n Blaze is capped at 100 when not in Inferno Mode.\n Blaze is capped at 150 in Inferno Mode.\n\n Casting Targeted Action or Forcible Riposte grants 10 Blazes.\n\n Every stack of Heliacal Ember converted from Spectro Frazzle grants 5 Blazes.\n\n Casting Resonance Liberation Rekindle grants 50 Blazes.\n\n Multipliers\n\n Inherent Skill\n Quick Response\n\n Casting Intro Skill Immediate Execution gives 12% Spectro DMG Bonus for 14s .\n\n Inherent Skill\n Fear No Pain\n\n When in Ready Stance, all DMG taken is reduced by 40% .\n\n Intro Skill\n Immediate Execution\n\n Attack the target, dealing Spectro DMG .\n\n Multipliers\n\n Outro Skill\n Beacon For the Future\n\n Attack the target, dealing Spectro DMG equal to 150% of Zani's ATK and removing all stacks of Heliacal Ember inflicted upon the target. Each stack increases the DMG dealt by 10% . This DMG is considered Spectro Frazzle DMG . The Spectro DMG dealt by other Resonators in the team to the target marked by Heliacal Ember is Amplified by 20% for 20s .\n\n Resonance Chain (Dupes)\n S 1\n Sequence Node 1\n\n Casting Targeted Action or Forcible Riposte gives 50% Spectro DMG Bonus for 14s .\n Immune to interruptions while casting Resonance Skill Heavy Slash - Nightfall.\n\n S 2\n Sequence Node 2\n\n Crit. Rate is increased by 20% .\n The DMG Multiplier of Targeted Action and Forcible Riposte is increased by 80% .\n\n S 3\n Sequence Node 3\n\n When in Inferno Mode, every 1 Blaze consumed increases the DMG Multiplier of Resonance Liberation The Last Stand by 8% , maxed at 1200% .\n\n S 4\n Sequence Node 4\n\n When Intro Skill Immediate Execution is cast, ATK of all Resonators in the team is increased by 20% for 30s .\n\n S 5\n Sequence Node 5\n\n The DMG Multiplier of Resonance Liberation Rekindle is increased by 120% .\n\n S 6\n Sequence Node 6\n\n The DMG Multipliers of Heavy Slash - Daybreak, Heavy Slash- Dawning, Heavy Slash - Nightfall, and Heavy Slash - Lightsmash are increased by 40% . Every Blaze consumed increases the DMG Multiplier of Heavy Slash - Nightfall by 40% on hit.\n Gain following effects when in Inferno Mode:\n When Blaze is lower than 70 , restore 70 Blazes immediately. This effect is triggered once in Inferno Mode.\n\n Within 8s after entering Inferno Mode, Zani will remain standing with at least 1 HP if hit by a fatal blow.\n\n Minor Fortes (Total)\n CRIT Rate\n + 8 %\n\n ATK%\n + 12 %\n\n Stats\n\nInclude minor fortes\n\n Lv. 90\n\n HP\n 10775\n\n ATK\n 438\n\n DEF\n 1137\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Spectro DMG\n 0 %\n\n Upgrade Materials\n Character Ascension (total)\n 4 x LF Polygon Core\n 12 x MF Polygon Core\n 12 x HF Polygon Core\n 4 x FF Polygon Core\n 46 x Platinum Core\n 60 x Sword Acorus\n 170 000 Shell Credits\n\n Skill Upgrades (total)\n 25 x LF Polygon Core\n 28 x MF Polygon Core\n 40 x HF Polygon Core\n 57 x FF Polygon Core\n 25 x Cadence Seed\n 28 x Cadence Bud\n 55 x Cadence Leaf\n 67 x Cadence Blossom\n 26 x The Netherworld's Stare\n 2 030 000 Shell Credits\n\n While the source of the materials can be quickly found in the game, when it comes Sword Acorus you will have to gather them from the map. Check our Interactive map to find them quickly:\n\n Interactive Map\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n DPS\n T1.5\n Tower of Adversity\n\n T2\n Whimpering Wastes\n\n Value Tier List\n DPS\n T2\n Tower of Adversity (Value)\n\n T2\n Whimpering Wastes (Value)\n\n Pros & Cons\n Pros\n Very high baseline Cleave damage with potential for improvement, thanks to lots of optional Swap Cancel windows during her Ultimate;\n\n Easy to use thanks to a good ability to tank damage as well as simple combos;\n\n Deals both Spectro Frazzle and Heavy Attack DMG at once, allowing for several options to buff her damage;\n\n Able to parry enemy attacks to enhance her combos and stun them faster by depleting their Vibration bar quicker;\n\n Looks REALLY cool in her Ultimate stance (factually speaking).\n\n Cons\n Expensive to access her maximum damage potential: really likes being paired with Phoebe due to massive DMG Amplification boosts, RES Shred etc, with Zani and Phoebe’s signatures both contributing to that Amplification among other things - in short, without Phoebe lots of potential damage is lost;\n\n Her full combos are inaccessible without enough Spectro Frazzle applied to get the maximum amount of Blaze Forte points (currently only Confession Phoebe allows for this). This joins an issue of team flexibility — Zani is locked into one team archetype to maximize damage.\n\n Review\n Zani is a 5-star Spectro Gauntlets DPS who specializes in dealing high damage during the stance she enters in her Ultimate called “Inferno Mode”. Her kit is centered around certain key elements, the most important one being Spectro Frazzle which she passively and instantly converts into “Heliacal Ember” in order to charge her Ultimate Forte points, called “Blaze” which she needs in order to execute her combos to access her damage. Generally speaking, Zani has attacks that have a good Cleave range, meaning she’s able to handle clumps of enemies well, and she has increased damage resistance as well as parries built into her kit, all of this making her tanky while able to deal lots of damage.\n When put this way, this type of character sounds a lot like a tank, slow and tanky but hits hard — however, worry not as while Zani has some animations that are pretty lengthy, she actually ends up rotating pretty smoothly . With that being said, Zani has a very complex kit packed with details, so we’ll focus on explaining what’s being used in her actual rotations in detail (we’ll only mention other elements briefly).\n As said earlier, Zani’s main focus will be to build up Blaze for her to use during her Inferno Mode stance. It stacks up to 150 points, so the goal with Zani will be to reach that threshold. There are a few ways to do this:\n Entering Inferno Mode (via her Ultimate, 50 points);\n\n Using her Enhanced Skill “Crisis Response Protocol” (10 points);\n\n Converting Spectro Frazzle into Heliacal Ember (5 points per stack).\n\n Heliacal Ember works as a variant to Spectro Frazzle which stacks up to 60 times, but any Spectro Frazzle-related buffs don’t apply (for things such as Spectro Rover’s Shimmer effect, Confession Phoebe’s Spectro Frazzle depletion extension rate, Absolution Phoebe’s DMG Amplification on Heavy Attack Starflash etc). The only exception is they serve as a way to activate the Eternal Radiance set effects. However, the damage granted by Heliacal Ember is instantaneous and equivalent to the damage Spectro Frazzle would’ve normally dealt.\n As Zani cannot apply any Spectro Frazzle by herself and this is dependent on the gameplay of her teammates , the main point of interest is casting this Enhanced Skill. To do this, she needs to build 100 points of “Redundant Energy” which is her Forte bar outside of her Ultimate stance. Additionally, it gives her an extra Heliacal Ember to activate Eternal Radiance Echo bonuses and a 20% Spectro Frazzle DMG Amplify effect for 14s to further increase her Inferno Mode damage potential, making it especially important to build before using her Ultimate. There are a few ways to do this:\n Using her Basic Attacks;\n\n Using her skill “Standard Defense Protocol” and its parry variant “Pinpoint Strike”;\n\n Using her Intro Skill.\n\n Zani’s Resonance Skill indeed allows her to first do a small hit of damage (Standard Defense Protocol) and then enter a parry stance that she can hold for up to 2 seconds, during which she takes no damage for 1 attack (and 30% reduced DMG in the 2 seconds that follow). If an attack is successfully parried, she will execute Pinpoint Strike for extra damage and Redundant Energy, which is enough to cast her Enhanced Skill after an Intro. To get all 100 Redundant Energy points without a parry, following an Intro Skill with Standard Defense Protocol into Basic Attack 3 should be all that’s needed for quick access to her Enhanced Skill. However, in the case that all hits don’t connect, Basic Attack 4 may also be necessary (which is still fine to do). Regardless, once this is achieved, Zani is ready to activate her Ultimate and enter Inferno Mode.\n During Inferno Mode, Zani gets a new kit featuring new Basic Attacks, a new parry Skill with a new counter (which also doubles as a Dodge Counter), and she utilizes her other Forte bar to execute all of these actions. She gets 50 Blaze points which she’ll consume to execute her combos in Inferno Mode (with the cap extended from 100 to 150 and her Ultimate filling those missing 50 points). All of the damage she can deal during this stance is considered Heavy Attack DMG and Spectro Frazzle DMG simultaneously, so all related buffs apply . In total, factoring in the Enhanced Skill’s 10 and the Ultimate’s 50 Blaze, 90 points need to be filled via Spectro Frazzle application which requires 18 Spectro Frazzle to be converted into Heliacal Ember in total. Luckily, for her main Ultimate combo, only 140 points are needed which lowers the total down to 16 Spectro Frazzle. She also gets a 25% multiplier increase to her Basic Attacks, but this doesn’t apply to the new ones she acquires so it can be ignored (it only applies to her regular Basics that only occur if Forte points aren’t available to consume).\n Now to get into the details, Zani’s new Basic Attacks are called “Daybreak”, “Dawning”, and “Nightfall”. These are the center of her Inferno Mode kit. The simplest possible rotation only requires you to perform her Basic Attack string 2 times, which casts each of these skills twice. Simple and effective. Daybreak consumes 10 Blaze, Dawning consumes 20 Blaze and Nightfall consumes up to 40 Blaze, with each Blaze consumed giving an extra multiplier increase to Nightfall specifically (other attacks do not benefit from this). So as said earlier, her standard combo consumes 140 Blaze.\n However, other options are available. Her Skill allows you to immediately enter a parry stance for up to 2 seconds during which she will take up to 70% reduced damage. Parrying any attack triggers an equivalent to Dawning called “Lightsmash” which consumes 20 Blaze, after which Zani can immediately follow with Nightfall. This combo therefore only costs 60 Blaze. The exact same thing occurs if a Dodge Counter is executed. This can be important to factor in if your team can’t generate the full 150 Blaze consistently for Zani.\n Finally, once Zani has consumed enough Blaze and has 30 left or less (the threshold is indicated above her Forte bar), then she can cast another Ultimate called “The Last Stand” which deals noteworthy damage, stops ingame timers and prevents you from switching out during it like any regular Ultimate would, and this also ends her rotation as it ends Inferno Mode at the same time. Note that this may not deal more damage than a fully powered Nightfall as Spectro Frazzle and Heavy Attack DMG buffs do not apply to The Last Stand. Once she has performed all of these actions, she’s ready to switch out and cast her Outro which is considered Spectro Frazzle DMG as it deals a final burst of damage dependent on the stacks of Heliacal Ember present on enemies, consumes all Heliacal Ember stacks present on targets, and also amplifies the Spectro DMG of all characters except Zani by 20% if they have Heliacal Ember applied, which is typically a small DMG boost for your Supports but has little usage beyond that.\n This explains Zani’s kit, so let’s further detail her potential as a character. She deals a lot of damage, this much is undeniable, however it comes at a cost. Confession Phoebe is currently the only character able to quickly and consistently apply all of the Spectro Frazzle Zani needs by herself ; this makes her especially desirable in Zani teams as without her it’s difficult to fully execute Zani’s Ultimate combos. But on top of this, Confession mode Phoebe also gives 100% Spectro Frazzle DMG Amplify on her Outro and an extra 30% with her Signature weapon, making her a necessity in Zani teams to reach her maximum potential. Zani can still easily function as a character when separated from Phoebe due to really high baseline damage but it does undeniably strip away a lot of her potential . Additionally, Zani’s weapon is an especially important grab as it gives an extra 50% Spectro Frazzle DMG Amplify effect and an 8% DEF reduction on enemies with pretty much permanent uptime. In other words: she’s expensive, as all of those upgrades contribute loads to her potential. We will reiterate this does not strip away your possibilities of using Zani without any of these upgrades involved, but her damage will tank a significant amount. This is her biggest weakness.\n Beyond this, her team comps are pretty restrictive as a Spectro Frazzle applier needs to be present in some form on your team. Finally, as Zani will end up dealing a lot of the team’s damage potential, buffing her own damage as heavily as possible is highly recommended, so she’ll pretty much always end up in a core of Zani herself, a Spectro Frazzle applier, and a generalist Support. It’s difficult to justify other team comps in the current meta and makes her playstyle much more restrictive than other characters we’ve previously seen — while teambuilding freedom exists around Zani, her performance will take a hit as a result of attempting that.\n However, it’s absolutely undeniable that as things currently stand, Zani’s damage potential is very high and under the right conditions, she can carry your account across all forms of currently available endgame content. She’s an amazing DPS that has all the tools she needs for all kinds of players, whether competitive or casual, to enjoy playing the game.\n In conclusion, while Zani has a couple of weaknesses in regards to her restrictiveness, it is undeniable that her strengths far outweigh those weaknesses. Her damage potential is high enough to justify her being a top tier DPS character without a doubt, and as she has no issues with receiving damage, or dealing damage in both AoE and single-target situations, she’s suited to all kinds of enemy encounters and is likely to make your gameplay experience smooth and easy!\n\n Video guides\n\n Build\n\n Best Weapons\n The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Zani calculations were done using added buffs from the following teammates:\n Phoebe + Luminous Hymn +\n Moonlit Clouds\n\n +\n Impermanence Heron\n\n Rover (Spectro) + Blazing Brilliance +\n Rejuvenating Glow\n\n +\n Fallacy of No Return\n\n 100.00%\n\n Blazing Justice (R 1 )\n\n Zani's Signature weapon is by far her best option, thanks to its massive boosts in her best stats: 48.6% CRIT DMG with high ATK, 50% Spectro Frazzle Amplification, and even 8% DEF Ignore with a simple condition (that can be permanently triggered during any part of Zani's rotation). How much stronger this weapon is compared to other options depends on how many other sources of Frazzle Amplify you have access to. For example, with Phoebe's 100% Frazzle Amplify applied, the value of this weapon is diminished due to dilution, but without it, it becomes far more important.\n 93.70%\n\n Tragicomedy (R 1 )\n\n Roccia's weapon is an amazing choice on Zani as all her attacks during her Ultimate stance are the Heavy Attack type while still being treated as Basic Attack casts for the purpose of this weapon's passive, giving her 48% Heavy DMG Bonus combined with an extra 24.3% CRIT Rate and high ATK make it the second best choice.\n 85.00%\n\n Verity's Handle (R 1 )\n\n Beyond the usual high Base ATK, CRIT Rate and all-type DMG bonus buffs Xiangli Yao's weapon provides, Zani makes little use of the extra Liberation DMG Bonus effect so this weapon is comparably weaker than other options, but can still be considered as a good alternative due to raw stats alone.\n 82.40%\n\n Pulsation Bracer (R 1 )\n\n The best permanently available option for Zani which acts as a nice ATK and CRIT Rate stat-stick for her.\n 80.50%\n\n Moongazer's Sigil (R 1 )\n\n Simple ATK, CRIT Rate and Liberation DMG stat-stick for Zani who does not benefit from this weapon's DEF Ignore-related effects. Suffers from a low Base ATK and too much CRIT Rate causing Zani to easily overcap.\n 77.20%\n\n Abyss Surges (R 1 )\n\n The extra Energy Regen and huge ATK boosts this weapon provides are very useful to Zani, but she has little use for the rest of its passive boosting Basic and Skill DMG. With that said, it remains the best permanently available choice thanks to its really high Base ATK and small Energy Regen boost.\n 72.60%\n\n Aether Strike (R 5 )\n\n This Battle Pass exclusive is focused on buffing Liberation DMG which Zani barely benefits from, but luckily for her the CRIT DMG and ATK stats provided by this weapon are used well on her which makes it the best 4-star choice for her.\n 69.30%\n\n Celestial Spiral (R 5 )\n\n One of the best 4-star weapons on Zani thanks to its solid Base ATK, ATK-increasing effects, and ability to restore flat Energy when Resonance Skill is cast, which eases Zani's build requirements requiring no Energy Regen at all.\n 67.70%\n\n Stonard (R 5 )\n\n Similarly to Aether Strike, this Battle Pass exclusive is focused on buffing Liberation DMG which Zani barely benefits from, but Zani does benefit from the CRIT Rate stat this weapon has. Not better than the above 4-stars because it only buffs Liberation DMG and not ATK which Zani would prefer.\n 66.10%\n\n Hollow Mirage (R 5 )\n\n Provides some extra ATK increase over Legend of Drunken Hero which is dependent on not getting hit to upkeep. Even in the best conditions for this weapon, it's only slightly higher than the craftable, making it not recommended if better options are available.\n 62.90%\n\n Legend of Drunken Hero (R 5 )\n\n While this Rinascita craftable looks like it'd work well on Zani as she is a Negative Status character, unfortunately for her Heliacal Ember (which she converts Spectro Frazzle into) does not count as a Negative Status, which makes its passive only benefit Zani if Ciaccona or Chisa are on the team to apply other Negative Statuses than Spectro Frazzle. Seeing as neither are top teammate choices for her, this weapon is only used as a last resort F2P option.\n\n Best Echo Sets\n Best Echo Sets\n 100.00%\n\nEternal Radiance\n\n Offers a 10% unconditional Spectro DMG% boost, a 20% CRIT RATE buff for 15 seconds after inflicting Spectro Frazzle and further 15% Spectro DMG% boost for 15 seconds after attacking an enemy that has 10 Spectro Frazzle Stacks. For characters that have the capability to inflict Spectro Frazzle in their kit the 20% CRIT RATE boost is close to permanent, while the 15% Spectro DMG boost should maintain decent uptime in Spectro Frazzle focused teams. Generally the best in slot set for all DPS characters capable of inflicting Spectro Frazzle.\n Below you can find Main Echo options:\n\n Capitaneus\n\n - Offers an unconditional 12% Spectro DMG and 12% Heavy Attack DMG boost when active in a resonator's Main Echo Slot, making it a solid choice for Spectro focused resonators who emphasize Heavy Attack damage and are looking to use the 5P Eternal Radiance set bonus.\n\n Nightmare: Mourning Aix\n\n - Offers an unconditional 12% Spectro DMG boost when active in a resonators Main Echo Slot and gains a 100% DMG bonus to its attack against enemies inflicted by Spectro Frazzle. This echo is the go-to choice for most resonators capable of inflicting Spectro Frazzle, who are focusing on damage and are looking to use the 5P Eternal Radiance set bonus.\n\n Best Echo Stats\n 4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Spectro DMG\n\n 3 cost\n Spectro DMG > ATK%\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK\n\n Best Endgame Stats (Level 90)\n All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 15000+\n\n DEF: 1100+\n\n ATK: 1800-2300+\n\n CRIT Rate: 65%+ (before Echo set bonuses)\n\n CRIT DMG: 210-260%+\n\n Energy Regen: 115%+\n Energy requirements may be lowered in a Quickswap-heavy playstyle.\n\n Spectro DMG Bonus: 50-80%+\n\n Skill Priority\n Below you can find the order of leveling the abilities for Zani .\n Forte Circuit\n\n Res. Liberation\n\n Res. Skill\n\n Intro Skill\n\n Basic Attack\n\n Skill, Intro and Basic can be skipped when levelling to save on resources at a minimal damage loss.\n\n Gameplay and teams\n\n Rotation\n Standard DPS Rotation\n Zani's kit requires another character assist her by applying Spectro Frazzle to her target in order to help her with generating her secondary Forte Gauge Blaze. Outside of this fact, her rotation is relatively simple and revolves around the usual affair of building and spending resources while aiming for 100 concerto energy. There are two approaches to this, a standard approach and a double intro approach.\n Intro\n\n Skill: Standard Def Protocol\n\n Basic P3\n\n Skill: Targeted Action\n\n Ultimate: Rekindle\n\n Forte: Heavy Slash - Daybreak\n\n Forte: Heavy Slash - Dawning\n\n Forte: Heavy Slash - Nightfall\n\n Forte: Heavy Slash - Daybreak\n\n Forte: Heavy Slash - Dawning\n\n Forte: Heavy Slash - Nightfall\n\n Ultimate: The Last Stand\n\n Outro\n\n Double Intro DPS Rotation\n If you're finding yourself frustrated with the rotation above and frequently missing a few points of concerto due to missing one or two hits, the double intro rotation might be what you're looking for as it cuts two of the most frustrating attacks to land out. The downside of this rotation is using another intro one of your other characters might need.\n Intro\n\n <-- Swap -->\n\n Intro\n\n Skill: Targeted Action\n\n Ultimate: Rekindle\n\n Forte: Heavy Slash - Daybreak\n\n Forte: Heavy Slash - Dawning\n\n Forte: Heavy Slash - Nightfall\n\n Forte: Heavy Slash - Daybreak\n\n Forte: Heavy Slash - Dawning\n\n Forte: Heavy Slash - Nightfall\n\n Ultimate: The Last Stand\n\n Outro\n\n Synergies\n Phoebe - Phoebe in her Confession mode is the perfect Zani teammate. Providing 100% DMG Amplification, able to run a supportive set like Moonlit Clouds for extra damage and also being able to fully fill Zani's Blaze bar by applying lots of Spectro Frazzle, no teammate choice Zani has can compare to Phoebe, making her the best Zani team choice by huge amounts.\n Rover (Spectro) Ciaccona - These two are the other Spectro Frazzle appliers Zani has to try to fill her Blaze bar. While neither compare to Phoebe, having 2 Frazzle appliers in the team they can allow Zani to execute 3 Nightfalls per rotation (with some quickswap if Phoebe + Spectro Rover is used) for extra damage, making Phoebe + Spectro Rover the best Zani team when fully optimized (with Ciaccona as a worse alternative if need be).\n Iuno Phrolova Mortefi - All 3 of these characters can Amplify Zani's Heavy Attack DMG via their Outros to buff her damage further. While none of them quite compete with Phoebe's 100% Amplification, Phrolova has a lot of personal damage to her name and Mortefi is F2P-accessible with higher buffing. Iuno is an in-between of the two with extra sustain.\n The Shorekeeper Verina - As the best generalist Support, it's no surprise Shorekeeper can slot in any team in the game as she provides high team-wide ATK%, 15% DMG Amplification, CRIT Rate and CRIT DMG buffs making her the best option for Zani teams without quickswap (she also has much higher sustain than Spectro Rover if that's desired!)\n Example Teams\n Team #1: Best Team\n\n Team #2: Premium Alternatives\n\n Team #3: F2P Team\n\n Calculations"
+}

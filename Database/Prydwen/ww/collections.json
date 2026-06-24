@@ -1,0 +1,35 @@
+[
+  {
+    "id": "characters",
+    "label": "Characters",
+    "sourcePath": "/wuthering-waves/characters",
+    "file": "Prydwen/ww/collections/characters.json",
+    "detailPagesTotal": 59,
+    "detailPagesScraped": 59,
+    "staleDetailPagesRemoved": 0,
+    "entries": 59,
+    "assets": 69
+  },
+  {
+    "id": "weapons",
+    "label": "Weapons",
+    "sourcePath": "/wuthering-waves/weapons",
+    "file": "Prydwen/ww/collections/weapons.json",
+    "detailPagesTotal": 0,
+    "detailPagesScraped": 0,
+    "staleDetailPagesRemoved": 0,
+    "entries": 118,
+    "assets": 119
+  },
+  {
+    "id": "echoes",
+    "label": "Echoes",
+    "sourcePath": "/wuthering-waves/echoes",
+    "file": "Prydwen/ww/collections/echoes.json",
+    "detailPagesTotal": 0,
+    "detailPagesScraped": 0,
+    "staleDetailPagesRemoved": 0,
+    "entries": 164,
+    "assets": 196
+  }
+]

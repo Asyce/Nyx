@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+# Keep the gacha proxy and the bulk data files out of search indexes — the site
+# should be findable, but the generated datasets aren't meant to be crawled.
+Disallow: /api/
+Disallow: /dist/
+Disallow: /Database/
+
+Sitemap: https://pengo.gg/sitemap.xml

@@ -1,0 +1,1878 @@
+{
+  "id": "characters:augusta",
+  "provider": "Prydwen",
+  "game": "ww",
+  "gameName": "Wuthering Waves",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "augusta",
+  "name": "Augusta",
+  "title": "Augusta Best Build Guide",
+  "sourcePath": "/wuthering-waves/characters/augusta",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "09/June/2026",
+  "meta": {
+    "title": "Augusta Best Build Guide | Wuthering Waves (WuWa)",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Electro",
+    "weapon": "Broadblade"
+  },
+  "assets": [
+    {
+      "id": "596c5cc53cbb",
+      "sourceHash": "596c5cc53cbb",
+      "kind": "characters",
+      "name": "Augusta",
+      "fileStem": "aug-card",
+      "path": "Prydwen/ww/assets/characters/augusta-596c5cc53cbb.webp",
+      "width": 210,
+      "height": 280
+    },
+    {
+      "id": "028f59b9e335",
+      "sourceHash": "028f59b9e335",
+      "kind": "icons",
+      "name": "Electro",
+      "fileStem": "element-electro",
+      "path": "Prydwen/ww/assets/icons/electro-028f59b9e335.webp",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "39094c227806",
+      "sourceHash": "39094c227806",
+      "kind": "icons",
+      "name": "CRIT Rate",
+      "fileStem": "stat-crit",
+      "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "1e70b3adc860",
+      "sourceHash": "1e70b3adc860",
+      "kind": "icons",
+      "name": "ATK%",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "c26c1d310e90",
+      "sourceHash": "c26c1d310e90",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "aa019d34202f",
+      "sourceHash": "aa019d34202f",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "5a0b154cd3d8",
+      "sourceHash": "5a0b154cd3d8",
+      "kind": "icons",
+      "name": "Max Energy",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "7e2bcd0760ca",
+      "sourceHash": "7e2bcd0760ca",
+      "kind": "icons",
+      "name": "CRIT DMG",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "94236abd3fdc",
+      "sourceHash": "94236abd3fdc",
+      "kind": "icons",
+      "name": "Healing",
+      "fileStem": "stat-heal",
+      "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "cec2445ceb75",
+      "sourceHash": "cec2445ceb75",
+      "kind": "icons",
+      "name": "Electro",
+      "fileStem": "stat-ele",
+      "path": "Prydwen/ww/assets/icons/electro-cec2445ceb75.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "f48ff62c89aa",
+      "sourceHash": "f48ff62c89aa",
+      "kind": "categories",
+      "name": "Interactive Map",
+      "fileStem": "category-map",
+      "path": "Prydwen/ww/assets/categories/interactive-map-f48ff62c89aa.webp",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "id": "218057f11bbd",
+      "sourceHash": "218057f11bbd",
+      "kind": "characters",
+      "name": "Augusta",
+      "fileStem": "augusta-full",
+      "path": "Prydwen/ww/assets/characters/augusta-218057f11bbd.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "e6913cb7353a",
+      "sourceHash": "e6913cb7353a",
+      "kind": "characters",
+      "name": "Iuno",
+      "fileStem": "iuno-icon",
+      "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e9b4be1a962a",
+      "sourceHash": "e9b4be1a962a",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-19",
+      "path": "Prydwen/ww/assets/icons/set-19-e9b4be1a962a.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "380124f06e75",
+      "sourceHash": "380124f06e75",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-4",
+      "path": "Prydwen/ww/assets/icons/set-4-380124f06e75.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "9cc1c0d4021f",
+      "sourceHash": "9cc1c0d4021f",
+      "kind": "misc",
+      "name": "Lady of the Sea",
+      "fileStem": "6000160",
+      "path": "Prydwen/ww/assets/misc/lady-of-the-sea-9cc1c0d4021f.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "d909de4aecde",
+      "sourceHash": "d909de4aecde",
+      "kind": "characters",
+      "name": "The Shorekeeper",
+      "fileStem": "the-shorekeeper-icon",
+      "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "9116b6b3061f",
+      "sourceHash": "9116b6b3061f",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-7",
+      "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "963f47d9c985",
+      "sourceHash": "963f47d9c985",
+      "kind": "misc",
+      "name": "Fallacy of No Return",
+      "fileStem": "6000060",
+      "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "3c42590d0e49",
+      "sourceHash": "3c42590d0e49",
+      "kind": "weapons",
+      "name": "Thunderflare Dominion",
+      "fileStem": "21010046",
+      "path": "Prydwen/ww/assets/weapons/thunderflare-dominion-3c42590d0e49.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "9fafb9f1aada",
+      "sourceHash": "9fafb9f1aada",
+      "kind": "weapons",
+      "name": "Verdant Summit",
+      "fileStem": "21010016",
+      "path": "Prydwen/ww/assets/weapons/verdant-summit-9fafb9f1aada.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "f970567b2315",
+      "sourceHash": "f970567b2315",
+      "kind": "weapons",
+      "name": "Ages of Harvest",
+      "fileStem": "21010026",
+      "path": "Prydwen/ww/assets/weapons/ages-of-harvest-f970567b2315.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "04979eb3f560",
+      "sourceHash": "04979eb3f560",
+      "kind": "weapons",
+      "name": "Wildfire Mark",
+      "fileStem": "21010036",
+      "path": "Prydwen/ww/assets/weapons/wildfire-mark-04979eb3f560.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "137f7d39e41f",
+      "sourceHash": "137f7d39e41f",
+      "kind": "weapons",
+      "name": "Radiance Cleaver",
+      "fileStem": "21010045",
+      "path": "Prydwen/ww/assets/weapons/radiance-cleaver-137f7d39e41f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "6d5753910c9f",
+      "sourceHash": "6d5753910c9f",
+      "kind": "weapons",
+      "name": "Kumokiri",
+      "fileStem": "21010056",
+      "path": "Prydwen/ww/assets/weapons/kumokiri-6d5753910c9f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "c562aa36c2f7",
+      "sourceHash": "c562aa36c2f7",
+      "kind": "weapons",
+      "name": "Lustrous Razor",
+      "fileStem": "21010015",
+      "path": "Prydwen/ww/assets/weapons/lustrous-razor-c562aa36c2f7.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "6cc4b4799694",
+      "sourceHash": "6cc4b4799694",
+      "kind": "weapons",
+      "name": "Aureate Zenith",
+      "fileStem": "21010104",
+      "path": "Prydwen/ww/assets/weapons/aureate-zenith-6cc4b4799694.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1b276f8aa3db",
+      "sourceHash": "1b276f8aa3db",
+      "kind": "weapons",
+      "name": "Autumntrace",
+      "fileStem": "21010074",
+      "path": "Prydwen/ww/assets/weapons/autumntrace-1b276f8aa3db.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "730ddc221a80",
+      "sourceHash": "730ddc221a80",
+      "kind": "weapons",
+      "name": "Waning Redshift",
+      "fileStem": "21010084",
+      "path": "Prydwen/ww/assets/weapons/waning-redshift-730ddc221a80.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "99dd896c9195",
+      "sourceHash": "99dd896c9195",
+      "kind": "weapons",
+      "name": "Helios Cleaver",
+      "fileStem": "21010064",
+      "path": "Prydwen/ww/assets/weapons/helios-cleaver-99dd896c9195.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "10623a091d93",
+      "sourceHash": "10623a091d93",
+      "kind": "weapons",
+      "name": "Meditations on Mercy",
+      "fileStem": "21010094",
+      "path": "Prydwen/ww/assets/weapons/meditations-on-mercy-10623a091d93.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "802bc154dac0",
+      "sourceHash": "802bc154dac0",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-3",
+      "path": "Prydwen/ww/assets/icons/set-3-802bc154dac0.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "423ea0547985",
+      "sourceHash": "423ea0547985",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-9",
+      "path": "Prydwen/ww/assets/icons/set-9-423ea0547985.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "789f50e907c6",
+      "sourceHash": "789f50e907c6",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-29",
+      "path": "Prydwen/ww/assets/icons/set-29-789f50e907c6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "358387a78181",
+      "sourceHash": "358387a78181",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-8",
+      "path": "Prydwen/ww/assets/icons/set-8-358387a78181.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "26730b805365",
+      "sourceHash": "26730b805365",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-13",
+      "path": "Prydwen/ww/assets/icons/set-13-26730b805365.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "b314b4a5977f",
+      "sourceHash": "b314b4a5977f",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-14",
+      "path": "Prydwen/ww/assets/icons/set-14-b314b4a5977f.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "91e1ddc75682",
+      "sourceHash": "91e1ddc75682",
+      "kind": "misc",
+      "name": "The False Sovereign",
+      "fileStem": "6000121",
+      "path": "Prydwen/ww/assets/misc/the-false-sovereign-91e1ddc75682.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "e366b96f341c",
+      "sourceHash": "e366b96f341c",
+      "kind": "characters",
+      "name": "Lynae",
+      "fileStem": "lynae-icon",
+      "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "59d02501284b",
+      "sourceHash": "59d02501284b",
+      "kind": "characters",
+      "name": "Rebecca",
+      "fileStem": "rebecca-icon",
+      "path": "Prydwen/ww/assets/characters/rebecca-59d02501284b.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "4910396b5955",
+      "sourceHash": "4910396b5955",
+      "kind": "characters",
+      "name": "Mortefi",
+      "fileStem": "mortefi-icon",
+      "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1b2a8f336e3d",
+      "sourceHash": "1b2a8f336e3d",
+      "kind": "characters",
+      "name": "Verina",
+      "fileStem": "verina-icon",
+      "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "40d7023b51fa",
+      "sourceHash": "40d7023b51fa",
+      "kind": "characters",
+      "name": "Mornye",
+      "fileStem": "mornye-icon",
+      "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d9b47f532b06",
+      "sourceHash": "d9b47f532b06",
+      "kind": "characters",
+      "name": "Augusta",
+      "fileStem": "augusta-icon",
+      "path": "Prydwen/ww/assets/characters/augusta-d9b47f532b06.webp",
+      "width": 120,
+      "height": 120
+    }
+  ],
+  "sections": [
+    {
+      "id": "augusta-best-build-guide-0",
+      "level": 1,
+      "heading": "Augusta Best Build Guide",
+      "text": "Last updated: 09/June/2026",
+      "assets": [
+        {
+          "id": "596c5cc53cbb",
+          "sourceHash": "596c5cc53cbb",
+          "kind": "characters",
+          "name": "Augusta",
+          "fileStem": "aug-card",
+          "path": "Prydwen/ww/assets/characters/augusta-596c5cc53cbb.webp",
+          "width": 210,
+          "height": 280
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Augusta from WW (Wuthering Waves). Augusta is a 5 ★ rarity character from the Electro element who uses the Broadblade type weapon.\n\n To learn more about Augusta check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": [
+        {
+          "id": "028f59b9e335",
+          "sourceHash": "028f59b9e335",
+          "kind": "icons",
+          "name": "Electro",
+          "fileStem": "element-electro",
+          "path": "Prydwen/ww/assets/icons/electro-028f59b9e335.webp",
+          "width": 20,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Augusta has at least one video guide available:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 2.6\n\n Last major build/calcs update\n Patch 3.0\n\n Last profile update*\n 09/June/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Augusta check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Hunter's Path\n\n Basic Attack\n Perform up to 4 consecutive attacks, dealing Electro DMG.\n Heavy Attack - Steelclash\n Consume STA to attack the target, dealing Electro DMG . Press Normal Attack shortly after performing Heavy Attack to perform Basic Attack Stage 2.\n Mid-air Attack\n Consume STA to perform Plunging Attack from mid-air, dealing Electro DMG .\n Dodge Counter\n Press Normal Attack after a successful Dodge to attack the target, dealing Electro DMG .\n Mid-air Dodge Counter\n Press Normal Attack after a successful Mid-air Dodge to perform Plunging Attack at the cost of STA, dealing Electro DMG .\n Heavy Attack - Thunderoar: Backstep\n When Prowess is full, Heavy Attack - Steelclash is replaced with Heavy Attack - Thunderoar: Backstep, dealing Electro DMG and consuming all Prowess.\n While in action, release or press Normal Attack again within a certain period to perform Heavy Attack - Thunderoar: Spinslash.\n\n Heavy Attack - Thunderoar: Spinslash is available if Augusta remains on the ground for a certain period after this skill is interrupted.\n\n Heavy Attack - Thunderoar: Spinslash\n Augusta whirls and lashes out with her Broadblade, dealing Electro DMG .\n Heavy Attack - Thunderoar: Uppercut\n Press Jump when Prowess is full to perform Heavy Attack - Thunderoar: Uppercut, dealing Electro DMG and consuming all Prowess.\n If Prowess is full when casting Resonance Skill - Warrior's Blade, press Resonance Skill or Jump to perform Heavy Attack - Thunderoar: Uppercut, dealing Electro DMG and consuming all Prowess.\n\n If Prowess is full when casting Heavy Attack - Steelclash or Dodge Counter – Heavy Attack: Steelclash, release Normal Attack after a certain period or press Normal Attack or Jump again to perform Heavy Attack - Thunderoar: Uppercut, dealing, Electro DMG and consuming all Prowess.\n\n Dodge Counter - Heavy Attack: Steelclash\n When Prowess is full, Dodge Counter is replaced with Dodge Counter - Heavy Attack: Steelclash, dealing Electro DMG , considered as Heavy Attack DMG.\n Dodge Counter - Thunderoar: Backstep\n When Ascendancy is full, press Normal Attack following a successful Dodge on the ground to cast Dodge Counter - Thunderoar: Backstep in place of Dodge Counter and Dodge Counter - Heavy Attack: Steelclash, dealing Electro DMG , considered as Heavy Attack DMG.\n Release or press Normal Attack again within a certain period into the action to perform Heavy Attack - Thunderoar: Spinslash.\n\n Heavy Attack - Thunderoar: Spinslash is available if Augusta remains on the ground for a certain period after this skill is interrupted.\n\n Prowess\n Augusta can hold up to 100 points of Prowess.\n Prowess is obtained when Basic Attack, Heavy Attack - Steelclash, Mid-air Attack, Mid-air Dodge Counter, Resonance Skill - Warrior's Blade, Dodge Counter, or Dodge Counter - Heavy Attack: Steelclash deals damage.\n\n Prowess is fully restored when casting Intro Skill - Stride of Goldenflare.\n\n Multipliers\n\n Resonance Skill\n Warrior's Blade\n\n Augusta leaps and slams down her Broadblade, dealing Electro DMG .\n\n Multipliers\n\n Resonance Liberation\n Sunward Conquest\n\n Resonance Liberation - Sword of Eternal Oath\n Press and release Resonance Liberation to cast this skill. Augusta will sweep her Broadblade forward, dealing Electro DMG , considered as Heavy Attack DMG.\n Resonance Liberation - Sublime is the Sun\n When Majesty reaches 2 stacks, hold Resonance Liberation to cast Resonance Liberation - Sublime is the Sun. Casting Resonance Liberation - Sublime is the Sun costs no Resonance Energy but 2 stacks of Majesty instead.\n When casting Resonance Liberation - Sublime is the Sun, Augusta generates the Ruler's Realm and enters the Sworn Allegiance state for 7s . Within this duration, time is temporarily stopped, and Resonator switching is disabled. Only Sublime is the Sun - Sunborne, Sublime is the Sun - Everbright Protector, and Dodge can be performed in the Sworn Allegiance state. Mid-air Attack is available while airborne.\n\n In the Sworn Allegiance state, press or hold Normal Attack to cast Sublime is the Sun - Sunborne. Augusta can walk on water without consuming STA in this state.\n\n Performing environmental, gameplay, or other interactions ends Sworn Allegiance without triggering Sublime is the Sun - Everbright Protector.\n\n Sublime is the Sun - Sunborne\n Deal Electro DMG , considered as Heavy Attack DMG. After casting Sublime is the Sun - Sunborne 9 times, press Normal Attack or Resonance Liberation to perform Sublime is the Sun - Everbright Protector.\n Sublime is the Sun - Everbright Protector\n Deal Electro DMG , considered as Heavy Attack DMG. Casting Sublime is the Sun - Everbright Protector ends the Sworn Allegiance state and consumes all stacks of Crown of Wills later. All other Resonators in the team will be made to leave the field.\n When Sworn Allegiance ends, Sublime is the Sun - Everbright Protector is automatically cast.\n\n During Sworn Allegiance, hold Resonance Liberation to cast Sublime is the Sun - Everbright Protector early.\n\n Ruler's Realm\n Ruler's Realm lasts for 30s .\n\n When Resonators in the team cast Intro Skill within Ruler's Realm, they gain a shield equal to 650 + 5% of Augusta's Max HP for 10s . This effect is unstackable. This Shield will not be passed on to the incoming Resonator.\n\n Majesty\n Augusta can hold up to 2 stacks of Majesty.\n 1 stack of Majesty is obtained when casting Resonance Skill - Undying Sunlight: Plunge.\n\n 1 stack of Majesty is obtained when other Resonators in the team cast Outro Skill under the effect of Augusta's Outro Skill - Battlesong of the Unyielding.\n\n Multipliers\n\n Forte Circuit\n Call Me By the Sun\n\n Resonance Skill - Undying Sunlight: Strike\n When Ascendancy is full, Resonance Skill - Warrior's Blade is replaced with Resonance Skill - Undying Sunlight: Strike, dealing Electro DMG .\n Press Normal Attack or Resonance Skill during the action to cast Resonance Skill - Undying Sunlight: Leap.\n\n Resonance Skill - Undying Sunlight: Strike can be re-cast shortly after being interrupted.\n\n Resonance Skill - Undying Sunlight: Leap can be cast some time again after being interrupted.\n\n Can be cast mid-air.\n\n Resonance Skill - Undying Sunlight: Leap\n Deal Electro DMG .\n Press Normal Attack or Resonance Skill during the action to cast Resonance Skill - Undying Sunlight: Plunge.\n\n Resonance Skill - Undying Sunlight: Leap can be re-cast shortly after being interrupted.\n\n Resonance Skill - Undying Sunlight: Plunge can be cast some time again after being interrupted.\n\n Can only be cast mid-air.\n\n Resonance Skill - Undying Sunlight: Plunge\n Consume all Ascendancy to cast this skill, dealing Electro DMG , considered as Heavy Attack DMG.\n Casting this skill grants 1 stack of Majesty.\n\n Can only be cast mid-air.\n\n Dodge Counter - Undying Sunlight: Strike\n When Ascendancy is full, press Resonance Skill after a successful ground Dodge or press Normal Attack or Resonance Skill after successful Mid-air Dodge to cast Dodge Counter - Undying Sunlight: Strike, dealing Electro DMG , considered as Resonance Skill DMG.\n Press Normal Attack or Resonance Skill during the action to cast Resonance Skill - Undying Sunlight: Leap.\n\n Resonance Skill - Undying Sunlight: Leap can be cast again some time after being interrupted.\n\n Ascendancy\n Augusta can hold up to 100 points of Ascendancy.\n Ascendancy is obtained when Normal Attacks deal damage.\n\n Casting Intro Skill - Stride of Goldenflare restores 20% Ascendancy.\n\n Casting Resonance Skill - Warrior's Blade restores 10% Ascendancy.\n\n Casting Resonance Liberation - Sword of Eternal Oath restores 40% Ascendancy.\n\n Multipliers\n\n Inherent Skill\n Glory's Favor\n\n When Augusta deals damage, she gains a shield equal to 350 + 2.5% of her Max HP for 5s , triggered once every 0.5s . This effect is unstackable. This Shield will not be passed on to the incoming Resonator.\n\n Inherent Skill\n Blazing Valor\n\n When Augusta is out of combat for over 4s , she gains the following effects that can be triggered once every 4s :\n If Majesty is less than 1 stack, restore 1 stack.\n\n Fully restore Crown of Wills.\n\n Intro Skill\n Stride of Goldenflare\n\n Deal Electro DMG .\n\n Multipliers\n\n Outro Skill\n Battlesong of the Unyielding\n\n The next Resonator switched onto the field gains the following effects for 14s , which end immediately if they are switched out:\n Gain 15% DMG Amplification for all Attributes.\n\n Casting Outro Skill grants 1 stack of Majesty and 1 stack of Crown of Wills to Augusta.\n\n Crown of Wills\n Each stack grants 15% Electro DMG Bonus , up to 1 stack.\n\n When Resonance Liberation - Sublime is the Sun: Everbright Protector ends, all stacks of Crown of Wills are removed.",
+      "assets": []
+    },
+    {
+      "id": "resonance-chain-dupes-10",
+      "level": 2,
+      "heading": "Resonance Chain (Dupes)",
+      "text": "S 1\n Sequence Node 1\n\n Each stack of Crown of Wills additionally increases Augusta's Crit. DMG by 15% .\n\n The max stack of Crown of Wills is increased to 2 .\n\n Casting Intro Skill - Stride of Goldenflare now grants 1 stack of Crown of Wills.\n\n Resonance Skill - Undying Sunlight: Strike, Resonance Skill - Undying Sunlight: Leap, and Resonance Skill - Undying Sunlight: Plunge are now immune to interruption.\n\n S 2\n Sequence Node 2\n\n Crown of Wills provides additional effects: Each stack increases Augusta's Crit. Rate by 20% .\n\n For every 1% of Crit. Rate over 100% , Augusta gains 2% Crit. DMG increase, up to 100% .\n\n S 3\n Sequence Node 3\n\n The following skills have their DMG Multiplier increased by 25% :\n Heavy Attack - Thunderoar: Backstep, Dodge Counter - Thunderoar: Backstep, Heavy Attack - Thunderoar: Spinslash, Heavy Attack - Thunderoar: Uppercut.\n\n Resonance Skill - Undying Sunlight: Plunge.\n\n Resonance Liberation - Sublime is the Sun: Sunborne, Resonance Liberation - Sublime is the Sun: Everbright Protector.\n\n S 4\n Sequence Node 4\n\n Casting Intro Skill - Stride of Goldenflare increases the ATK of all Resonators in the team by 20% for 30s .\n\n S 5\n Sequence Node 5\n\n The Shield provided by Inherent Skill - Glory's Favor is increased by 50% .\n\n S 6\n Sequence Node 6\n\n Augusta can now hold up to 4 stacks of Crown of Wills.\n\n For every 1% of Crit. Rate over 150% , Augusta gains 2% Crit. DMG increase, up to 50% .\n\n When Augusta performs Heavy Attack - Thunderoar: Spinslash or Heavy Attack - Thunderoar: Uppercut, she obtains 2 stacks of Crown of Wills. Augusta can only obtain 2 stacks of Crown of Wills every 1s via Engraved in Radiant Light.\n\n While casting Heavy Attack - Thunderoar: Spinslash or Heavy Attack - Thunderoar: Uppercut, Thunder Rage is triggered at the spot, dealing two instances of Electro DMG , with each instance equal to 100% of Augusta's ATK, considered as Heavy Attack DMG.",
+      "assets": []
+    },
+    {
+      "id": "minor-fortes-total-11",
+      "level": 2,
+      "heading": "Minor Fortes (Total)",
+      "text": "CRIT Rate\n + 8 %\n\n ATK%\n + 12 %",
+      "assets": [
+        {
+          "id": "39094c227806",
+          "sourceHash": "39094c227806",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "1e70b3adc860",
+          "sourceHash": "1e70b3adc860",
+          "kind": "icons",
+          "name": "ATK%",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "stats-12",
+      "level": 2,
+      "heading": "Stats",
+      "text": "Include minor fortes\n\n Lv. 90\n\n HP\n 10300\n\n ATK\n 463\n\n DEF\n 1112\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Electro DMG\n 0 %",
+      "assets": [
+        {
+          "id": "c26c1d310e90",
+          "sourceHash": "c26c1d310e90",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "1e70b3adc860",
+          "sourceHash": "1e70b3adc860",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "aa019d34202f",
+          "sourceHash": "aa019d34202f",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "5a0b154cd3d8",
+          "sourceHash": "5a0b154cd3d8",
+          "kind": "icons",
+          "name": "Max Energy",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "39094c227806",
+          "sourceHash": "39094c227806",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "7e2bcd0760ca",
+          "sourceHash": "7e2bcd0760ca",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "94236abd3fdc",
+          "sourceHash": "94236abd3fdc",
+          "kind": "icons",
+          "name": "Healing",
+          "fileStem": "stat-heal",
+          "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "cec2445ceb75",
+          "sourceHash": "cec2445ceb75",
+          "kind": "icons",
+          "name": "Electro",
+          "fileStem": "stat-ele",
+          "path": "Prydwen/ww/assets/icons/electro-cec2445ceb75.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "character-ascension-total-14",
+      "level": 5,
+      "heading": "Character Ascension (total)",
+      "text": "4 x LF Tidal Residuum\n 12 x MF Tidal Residuum\n 12 x HF Tidal Residuum\n 4 x FF Tidal Residuum\n 46 x Blighted Crown of Puppet King\n 60 x Luminous Calendula\n 170 000 Shell Credits",
+      "assets": []
+    },
+    {
+      "id": "skill-upgrades-total-15",
+      "level": 5,
+      "heading": "Skill Upgrades (total)",
+      "text": "25 x LF Tidal Residuum\n 28 x MF Tidal Residuum\n 40 x HF Tidal Residuum\n 57 x FF Tidal Residuum\n 25 x Waveworn Residue 210\n 28 x Waveworn Residue 226\n 55 x Waveworn Residue 235\n 67 x Waveworn Residue 239\n 26 x When Irises Bloom\n 2 030 000 Shell Credits\n\n While the source of the materials can be quickly found in the game, when it comes Luminous Calendula you will have to gather them from the map. Check our Interactive map to find them quickly:\n\n Interactive Map",
+      "assets": [
+        {
+          "id": "f48ff62c89aa",
+          "sourceHash": "f48ff62c89aa",
+          "kind": "categories",
+          "name": "Interactive Map",
+          "fileStem": "category-map",
+          "path": "Prydwen/ww/assets/categories/interactive-map-f48ff62c89aa.webp",
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "voice-actors-16",
+      "level": 2,
+      "heading": "Voice Actors",
+      "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "218057f11bbd",
+          "sourceHash": "218057f11bbd",
+          "kind": "characters",
+          "name": "Augusta",
+          "fileStem": "augusta-full",
+          "path": "Prydwen/ww/assets/characters/augusta-218057f11bbd.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "ratings-18",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.",
+      "assets": []
+    },
+    {
+      "id": "dps-19",
+      "level": 5,
+      "heading": "DPS",
+      "text": "T1\n Tower of Adversity\n\n T1\n Whimpering Wastes",
+      "assets": []
+    },
+    {
+      "id": "dps-21",
+      "level": 5,
+      "heading": "DPS",
+      "text": "T1\n Tower of Adversity (Value)\n\n T1\n Whimpering Wastes (Value)",
+      "assets": []
+    },
+    {
+      "id": "pros-23",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Very high single-target and AoE damage alike;\n\n Able to function with premium teammates and without — has amazing F2P options which allow her to perform even without high vertical investment;\n\n Completely stops time during her second Ultimate, meaning you’re fully invulnerable during the cast;\n\n Summons a REALLY cool blazing sun in the sky when casting her second Ultimate. How was that necessary??",
+      "assets": []
+    },
+    {
+      "id": "cons-24",
+      "level": 5,
+      "heading": "Cons",
+      "text": "About half of her damage is concentrated in her second Ultimate — backloaded damage isn’t optimal for killing several groups of small enemies like in Whimpering Wastes, not to mention the timestop effect prevents the next wave from spawning leading to lots of wasted damage without proper timing;\n\n Her Shields have next to no strength whatsoever, they only serve as a means to activate her Signature Weapon and Echo Set buffs and won’t actually protect from any meaningful damage;\n\n Very difficult to use in quickswap compositions due to Outro mechanics. While not impossible, definitely difficult to force;\n\n Shields don’t leave you immune to interruption, be wary to dodge enemy attacks so your rotation doesn’t get slowed down.",
+      "assets": []
+    },
+    {
+      "id": "review-25",
+      "level": 2,
+      "heading": "Review",
+      "text": "Augusta is a 5-star Electro Broadblade DPS whose focus is on dealing high Heavy Attack damage to enemies by activating a time-stop Ultimate stance where she attacks enemies in quick succession, dealing lots of damage in the blink of an eye. Much like her Electro element would suggest, in spite of wielding a heavy weapon class, Augusta is capable of unleashing many attacks in quick succession to tear down her enemies.",
+      "assets": []
+    },
+    {
+      "id": "key-mechanics-26",
+      "level": 6,
+      "heading": "Key Mechanics",
+      "text": "Let’s get the most important abilities of Augusta out of the way first: her 3 unique resources.\n The first of which is Prowess: this is her first Forte gauge used to cast Enhanced Heavy Attacks and is obtained when most of her abilities deal damage.\n\n The second is Ascendancy: this is her second Forte gauge restored via Basic Attacks, Intro skill, her first Ultimate and her base Resonance Skill. It allows her to cast an enhanced Resonance Skill to gain her final resource, Majesty.\n\n Majesty has 2 points, 1 of which is acquired via her Outro and the other is acquired via an enhanced Resonance Skill with full Ascendancy. When 2 points are obtained, Augusta can unleash her second Ultimate for massive damage, ending her rotation.\n\n Therefore, Augusta’s goal will be to maximize Prowess and Ascendancy generation in order to gain her Majesty stacks and finish it off with her second Ultimate.\n Additionally, Augusta starts combat with 1 Majesty thanks to her second Inherent Skill which means she won’t have ramp-up issues due to lacking an Outro initially. Finally, her first Inherent Skill makes it so Augusta gains a shield for 5s every 0.5s every time she deals damage, which means she will always have extra HP in that form. Even though the shield value is rather small and it doesn’t stack, it does add to her sustainability.",
+      "assets": []
+    },
+    {
+      "id": "intro-skill-27",
+      "level": 6,
+      "heading": "Intro Skill",
+      "text": "Augusta’s Intro makes her restore 20% Ascendancy and full Prowess so it’s definitely a must in her rotation. Aside from that, it simply deals damage and restores Concerto Energy like all other Intros.",
+      "assets": []
+    },
+    {
+      "id": "how-to-use-prowess-and-restore-ascendancy-28",
+      "level": 6,
+      "heading": "How to use Prowess and restore Ascendancy",
+      "text": "Augusta’s Prowess mechanic allows her to use different Enhanced Heavy Attacks, triggered with different inputs. However, Uppercut, triggered by jumping with full Prowess, is not good as it sends her up into the air and Augusta rather be on the ground at all times to maximize her damage, so make sure not to accidentally use it.\n More importantly however, she has a standard Heavy Attack variant which is called Backstep which she can follow with Spinslash by pressing Basic Attack shortly after, which is her standard combo. It can be done all the same by performing a Dodge Counter with full Prowess instead of a Heavy Attack.\n Other than this, her base Resonance Skill restores full Prowess and her Intro Skill does also, which should be plenty in order to restore Ascendancy fully, provided her base Ultimate is used also — as it gives the 10% Ascendancy she’d be missing. It only requires using Ultimate with enough Resonance Energy, so make sure that condition is fulfilled by having enough Energy Regen. Depending on the team, anywhere between 110% and 120% Energy Regen should be enough for Augusta to function.",
+      "assets": []
+    },
+    {
+      "id": "how-to-use-ascendancy-29",
+      "level": 6,
+      "heading": "How to use Ascendancy",
+      "text": "Ascendancy is used in order to perform 3 different Enhanced Resonance Skills — which are in reality all part of the same sequence. Simply press Resonance Skill with full Ascendancy then press Basic Attack or Resonance Skill 2 more times to leap into the air and plunge to restore Majesty to full. When this is performed, Augusta is ready to cast her second Ultimate. Also, don’t worry about getting interrupted; if that happens, Augusta can re-cast her Enhanced Skill sequence, no problem.",
+      "assets": []
+    },
+    {
+      "id": "second-ultimate-and-outro-30",
+      "level": 6,
+      "heading": "Second Ultimate and Outro",
+      "text": "By holding Ultimate with 2 stacks of Majesty, Augusta enters her Second Ultimate stance for 7s. Within this duration, time is stopped and she cannot switch out or do anything except walk, dodge, and finish her rotation with 9 swift Heavy Attacks (simply performed by spamming or holding Basic Attack), then use a finishing move by pressing Basic Attack again.\n Additionally, performing this sequence of attacks gives an effect for 30s to all characters in the team called Ruler’s Realm, which grants a stronger Shield to all characters who cast Intro Skill, further contributing to sustainability.\n Finally, Augusta’s Outro Skill allows her to give 15% DMG Amplify to any character that she outros into, which lasts the usual 14s. It also restores 1 Majesty if that character performs their own Outro skill, and gives Augusta 15% Electro DMG Bonus for her next rotation, but be careful as all of these effects expire on swap — because of this mechanic, Augusta is much less compatible with quickswapping than most other characters as the character Augusta Outros into cannot be switched out of until they can cast their own Outro skill, since it would ruin Augusta’s Majesty stack generation, thus significantly slowing down her subsequent rotation.",
+      "assets": []
+    },
+    {
+      "id": "meta-position-conclusion-31",
+      "level": 6,
+      "heading": "Meta position & Conclusion",
+      "text": "Augusta’s primary selling point is her damage output. Ranking among some of the highest damaging characters in the game, Augusta is a tried-and-true DPS not unlike the current meta damage dealers. Working brilliantly with a free unit in the form of Mortefi as well as the flexible Shorekeeper, Augusta is easily accessible and performs at the level of the greatest DPS characters. If that wasn’t enough, she can reach an even higher ceiling alongside her best buffer Iuno, and alongside her she’s guaranteed to make clearing endgame content a breeze (if her baseline with Mortefi wasn’t already more than enough anyway).",
+      "assets": []
+    },
+    {
+      "id": "video-guides-32",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "Build",
+      "assets": []
+    },
+    {
+      "id": "best-weapons-33",
+      "level": 2,
+      "heading": "Best Weapons",
+      "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Augusta calculations were done using added buffs from the following teammates:\n Iuno + Moongazer's Sigil +\n Crown of Valor\n\n Sierra Gale\n\n +\n Lady of the Sea\n\n The Shorekeeper + Variation +\n Rejuvenating Glow\n\n +\n Fallacy of No Return\n\n 100.00%\n\n Thunderflare Dominion (R 1 )\n\n A very specialized Broadblade that breaks records for the highest Base ATK in the game, providing a smaller amount of CRIT Rate in exchange, while giving Heavy Attack DMG Bonus, ATK%, and allowing Heavy Attack DMG to ignore target DEF when applying shields up to 36% DEF at 5 stacks. While this weapon does have ramp-up on its DEF ignore effect, it's easily the best choice for Augusta bar none, as this weapon is specialized to be used by her in order to make full use of its effect.\n 90.30%\n\n Verdant Summit (R 1 )\n\n Jiyan's Signature weapon is fantastic on Augusta and has similar performance to even her Signature weapon thanks to its easy to acquire 48% Heavy Attack DMG Bonus increase, as well as 12% general DMG Bonus, good Base ATK and CRIT DMG stats.\n 80.40%\n\n Ages of Harvest (R 1 )\n\n While this weapon focuses on boosting Resonance Skill damage, Jinhsi's Signature is still great on Augusta as she does deal some amount of Skill damage and benefits from its good Base ATK, as well as its DMG Bonus and CRIT Rate increasing effects.\n 77.30%\n\n Wildfire Mark (R 1 )\n\n This Broadblade lacks the extra punch that the above options do as its passive effect is entirely useless on Augusta. It does buff Mortefi's DMG if he is present on the team, however he is far from dealing most of the damage in the team and Augusta only uses this Broadblade for its ATK and CRIT DMG stats, which makes it rank lower than above options.\n 77.30%\n\n Radiance Cleaver (R 1 )\n\n Simple ATK and CRIT DMG stat-stick for Augusta, the strongest permanently available choice for her.\n 77.20%\n\n Kumokiri (R 1 )\n\n Simple ATK and CRIT Rate stat-stick for Augusta, who does not benefit from this weapon's Liberation DMG-increasing effects.\n 74.30%\n\n Lustrous Razor (R 1 )\n\n One of the best permanent choices for Augusta who benefits from its Energy Regen boosting effect but its Resonance Liberation DMG increase is useless on her, which makes it rank below all limited options. Nonetheless very much usable on Augusta who performs fantastically even with this weapon equipped.\n 73.20%\n\n Aureate Zenith (R 5 )\n\n The new Battle Pass Broadblade is amazing on Augusta and is her best 4* option bar none as it increases ATK, Heavy Attack DMG Bonus and CRIT DMG by massive amounts especially at Rank 5. Unfortunately, its lower-end Base ATK makes it rank below all 5-star options, but it remains a good choice if you don't wish to invest any pulls into Augusta and rather spend for this weapon instead.\n 71.00%\n\n Autumntrace (R 5 )\n\n This Battle Pass weapon also gives Augusta good stats, particularly ATK and CRIT Rate, but suffers like all other 4-star weapons from low Base ATK which causes it to perform lower than all 5-star options. However it remains very much usable on Augusta.\n 66.50%\n\n Waning Redshift (R 5 )\n\n The best non-Battle Pass 4-star for Augusta as it gives her some flat Resonance Energy which means she doesn't need any Energy Regen on her build to work, however only increasing ATK isn't enough to make it stand out above other options.\n 63.90%\n\n Helios Cleaver (R 5 )\n\n Similar to Waning Redshift but focuses even more on increasing ATK after using multiple Resonance Skills, which Augusta isn't able to fully stack, making it lag behind other choices in terms of performance.\n 60.70%\n\n Meditations on Mercy (R 5 )\n\n Last resort option if none of the above weapons are owned. Solely used as an ATK stat-stick as its passive is entirely unused on Augusta, but accessible as a guarantee thanks to being craftable.",
+      "assets": [
+        {
+          "id": "e6913cb7353a",
+          "sourceHash": "e6913cb7353a",
+          "kind": "characters",
+          "name": "Iuno",
+          "fileStem": "iuno-icon",
+          "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e9b4be1a962a",
+          "sourceHash": "e9b4be1a962a",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-19",
+          "path": "Prydwen/ww/assets/icons/set-19-e9b4be1a962a.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "380124f06e75",
+          "sourceHash": "380124f06e75",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-4",
+          "path": "Prydwen/ww/assets/icons/set-4-380124f06e75.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "9cc1c0d4021f",
+          "sourceHash": "9cc1c0d4021f",
+          "kind": "misc",
+          "name": "Lady of the Sea",
+          "fileStem": "6000160",
+          "path": "Prydwen/ww/assets/misc/lady-of-the-sea-9cc1c0d4021f.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "d909de4aecde",
+          "sourceHash": "d909de4aecde",
+          "kind": "characters",
+          "name": "The Shorekeeper",
+          "fileStem": "the-shorekeeper-icon",
+          "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9116b6b3061f",
+          "sourceHash": "9116b6b3061f",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-7",
+          "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "963f47d9c985",
+          "sourceHash": "963f47d9c985",
+          "kind": "misc",
+          "name": "Fallacy of No Return",
+          "fileStem": "6000060",
+          "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "3c42590d0e49",
+          "sourceHash": "3c42590d0e49",
+          "kind": "weapons",
+          "name": "Thunderflare Dominion",
+          "fileStem": "21010046",
+          "path": "Prydwen/ww/assets/weapons/thunderflare-dominion-3c42590d0e49.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9fafb9f1aada",
+          "sourceHash": "9fafb9f1aada",
+          "kind": "weapons",
+          "name": "Verdant Summit",
+          "fileStem": "21010016",
+          "path": "Prydwen/ww/assets/weapons/verdant-summit-9fafb9f1aada.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f970567b2315",
+          "sourceHash": "f970567b2315",
+          "kind": "weapons",
+          "name": "Ages of Harvest",
+          "fileStem": "21010026",
+          "path": "Prydwen/ww/assets/weapons/ages-of-harvest-f970567b2315.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "04979eb3f560",
+          "sourceHash": "04979eb3f560",
+          "kind": "weapons",
+          "name": "Wildfire Mark",
+          "fileStem": "21010036",
+          "path": "Prydwen/ww/assets/weapons/wildfire-mark-04979eb3f560.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "137f7d39e41f",
+          "sourceHash": "137f7d39e41f",
+          "kind": "weapons",
+          "name": "Radiance Cleaver",
+          "fileStem": "21010045",
+          "path": "Prydwen/ww/assets/weapons/radiance-cleaver-137f7d39e41f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "6d5753910c9f",
+          "sourceHash": "6d5753910c9f",
+          "kind": "weapons",
+          "name": "Kumokiri",
+          "fileStem": "21010056",
+          "path": "Prydwen/ww/assets/weapons/kumokiri-6d5753910c9f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "c562aa36c2f7",
+          "sourceHash": "c562aa36c2f7",
+          "kind": "weapons",
+          "name": "Lustrous Razor",
+          "fileStem": "21010015",
+          "path": "Prydwen/ww/assets/weapons/lustrous-razor-c562aa36c2f7.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "6cc4b4799694",
+          "sourceHash": "6cc4b4799694",
+          "kind": "weapons",
+          "name": "Aureate Zenith",
+          "fileStem": "21010104",
+          "path": "Prydwen/ww/assets/weapons/aureate-zenith-6cc4b4799694.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1b276f8aa3db",
+          "sourceHash": "1b276f8aa3db",
+          "kind": "weapons",
+          "name": "Autumntrace",
+          "fileStem": "21010074",
+          "path": "Prydwen/ww/assets/weapons/autumntrace-1b276f8aa3db.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "730ddc221a80",
+          "sourceHash": "730ddc221a80",
+          "kind": "weapons",
+          "name": "Waning Redshift",
+          "fileStem": "21010084",
+          "path": "Prydwen/ww/assets/weapons/waning-redshift-730ddc221a80.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "99dd896c9195",
+          "sourceHash": "99dd896c9195",
+          "kind": "weapons",
+          "name": "Helios Cleaver",
+          "fileStem": "21010064",
+          "path": "Prydwen/ww/assets/weapons/helios-cleaver-99dd896c9195.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "10623a091d93",
+          "sourceHash": "10623a091d93",
+          "kind": "weapons",
+          "name": "Meditations on Mercy",
+          "fileStem": "21010094",
+          "path": "Prydwen/ww/assets/weapons/meditations-on-mercy-10623a091d93.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "best-echo-sets-35",
+      "level": 6,
+      "heading": "Best Echo Sets",
+      "text": "100.00%\n\nCrown of Valor\n\n Augusta's best set bar none. Increases ATK and CRIT DMG by 6% and 4% for 4s respectively when a Shield is applied to the equipped character, stacking up to 5 times every 0.5s. This totals to 30% ATK and 20% CRIT DMG, which is the best set for Augusta in specific as she's the only character in the game who's able to fully stack up this effect.\n Best combined with your choice of:\n 2P\n Void Thunder\n\n (Recommended)\n 2P\n Endless Resonance\n\n Reel of Spliced Memories\n\n 2P\n Moonlit Clouds\n\n Empyrean Anthem\n\n Tidebreaking Courage\n\n Below you can find Main Echo options:\n\n The False Sovereign\n\n - A Transform and Summon echo similar to Nightmare: Kelpie, which gives 12% Electro and 12% Heavy DMG Bonus passively in the main slot, and unconditionally summons the Echo to deal DMG whenever an Intro skill is triggered, additionally having Transform casts for extra damage. One of them is typically used at the end of a rotation, the second cast is a bit more difficult to exploit and may require quickswapping to be utilized (difficult in a team with Augusta but not impossible). The best Echo for Augusta in any situation.",
+      "assets": [
+        {
+          "id": "e9b4be1a962a",
+          "sourceHash": "e9b4be1a962a",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-19",
+          "path": "Prydwen/ww/assets/icons/set-19-e9b4be1a962a.webp",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "802bc154dac0",
+          "sourceHash": "802bc154dac0",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-3",
+          "path": "Prydwen/ww/assets/icons/set-3-802bc154dac0.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "423ea0547985",
+          "sourceHash": "423ea0547985",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-9",
+          "path": "Prydwen/ww/assets/icons/set-9-423ea0547985.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "789f50e907c6",
+          "sourceHash": "789f50e907c6",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-29",
+          "path": "Prydwen/ww/assets/icons/set-29-789f50e907c6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "358387a78181",
+          "sourceHash": "358387a78181",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-8",
+          "path": "Prydwen/ww/assets/icons/set-8-358387a78181.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "26730b805365",
+          "sourceHash": "26730b805365",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-13",
+          "path": "Prydwen/ww/assets/icons/set-13-26730b805365.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "b314b4a5977f",
+          "sourceHash": "b314b4a5977f",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-14",
+          "path": "Prydwen/ww/assets/icons/set-14-b314b4a5977f.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "91e1ddc75682",
+          "sourceHash": "91e1ddc75682",
+          "kind": "misc",
+          "name": "The False Sovereign",
+          "fileStem": "6000121",
+          "path": "Prydwen/ww/assets/misc/the-false-sovereign-91e1ddc75682.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "best-echo-stats-36",
+      "level": 2,
+      "heading": "Best Echo Stats",
+      "text": "4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Electro DMG\n\n 3 cost\n Electro DMG > ATK%\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% = Heavy Attack DMG% > ATK > Resonance Skill DMG%",
+      "assets": []
+    },
+    {
+      "id": "best-endgame-stats-level-90-37",
+      "level": 2,
+      "heading": "Best Endgame Stats (Level 90)",
+      "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 14500+\n\n DEF: 1100+\n\n ATK: 2000-2800+\n\n CRIT Rate: 65-80%+\n\n CRIT DMG: 210-260%+\n\n Energy Regen: 116%-125%\n Lower end estimated in a team with Mortefi+Shorekeeper, higher end estimated in a team with Iuno+Shorekeeper.\n\n Electro DMG Bonus: 40-70%+",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-38",
+      "level": 2,
+      "heading": "Skill Priority",
+      "text": "Below you can find the order of leveling the abilities for Augusta .\n Res. Liberation\n\n Forte Circuit\n\n Basic Attack\n\n Res. Skill\n\n Intro Skill\n\n Skill and Intro can be skipped when levelling to save on resources at a minimal damage loss.\n\n Gameplay and teams",
+      "assets": []
+    },
+    {
+      "id": "core-rotation-40",
+      "level": 6,
+      "heading": "Core Rotation",
+      "text": "Augusta aims to stack Ascendancy as quickly as possible in order to generate Majesty and cast her second Ultimate’s attack sequence, finishing her rotation. Below is the best way to do so.\n Echo Timing: Best used right at the end of the whole rotation (make sure to Swap Cancel it immediately after casting in order to optimize).\n Intro\n\n Heavy Attack: Backstep\n\n Heavy Attack: Spinslash\n\n Skill\n\n Heavy Attack: Backstep\n\n Heavy Attack: Spinslash\n\n Ultimate: Sword of Eternal Oath\n\n Forte: Skill: Undying Sunlight: Strike\n\n Forte: Skill: Undying Sunlight: Leap\n\n Forte: Skill: Undying Sunlight: Plunge\n\n Ultimate: Sublime is the Sun\n\n Ultimate: Sunborne (9 times)\n\n Ultimate: Everbright Protector\n\n Outro",
+      "assets": []
+    },
+    {
+      "id": "additional-tips-tricks-41",
+      "level": 6,
+      "heading": "Additional Tips & Tricks",
+      "text": "Augusta’s core rotation is extremely simple with little to no tricks to it. This is because she will be under an Amplify Outro boost in her best teams, and switching out of Augusta during her rotation instantly ends this kind of buff. Additionally, her Outro skill mechanic forces the next character she Outros into not to be switched out of, and half of her damage is concentrated in abilities before her second Ultimate — all of this to say, she’s near-incompatible with quickswap playstyles.\n The best we can work with is some animation cancels and an extra The False Sovereign transform Echo cast prior to her rotation as well as when she ends it, performed at some point in your secondary buffer’s rotation, as follows:\n After your third character (the one Augusta has switched into) has cast their own Outro, try to cast one The False Sovereign active Echo Skill where it makes sense to do so (try to Swap Cancel an ability of your secondary character). If this isn’t possible to do without losing rotation time, then do not consider doing this.\n\n When Augusta finishes her second Ultimate attack sequence, make sure to cast one The False Sovereign active Echo Skill before immediately switching out to cast her Outro.\n\n Augusta can cancel the endlag on the Spinslashes in her rotation. What we mean is when the damage of Spinslash has fully come out, she can immediately follow with abilities that can chain together quicker than simply letting the animation fully play out, as follows:\n The first Spinslash’s endlag can be cancelled by her base Resonance Skill;\n\n The second Spinslash’s endlag can be cancelled by her base Ultimate.\n\n And to conclude, a few extra tips:\n Augusta can cancel the endlag on one of the Spinslashes in her rotation. What we mean is when the damage of the second Spinslash has fully come out, she can immediately follow with her Ultimate which can chain together quicker than simply letting the animation fully play out: hence, the second Spinslash’s endlag can be cancelled by her base Ultimate.\n\n If needed, since Augusta and her teammates have quick rotations, when playing optimally some filler attacks may need to be added depending on the team. In Augusta’s case, this isn’t a problem: simply go for a few normal attacks into an extra Backstep + Spinslash combo, or go for a Heavy Attack, cancel the endlag with a dash (else you would follow up with the undesirable Uppercut Heavy Attack) and then do the Backstep + Spinslash combo as normal (this second variant will be quicker).\n\n Additional warning: Augusta’s second Ultimate field instantly kills all on-field entities, including things such as Phrolova’s Hecate. This makes the synergy between the two close to unusable and should be considered when teambuilding.",
+      "assets": []
+    },
+    {
+      "id": "synergies-42",
+      "level": 2,
+      "heading": "Synergies",
+      "text": "Iuno Lynae Rebecca Mortefi - These are the Outro buffers that pair best with Augusta. Iuno is the best by far due to her high personal damage and giving a whopping 90% DMG Amplification effect to Augusta in total, however Mortefi and Rebecca are close seconds in the Heavy DMG buffing department. Lynae may also prove more effective than those two in conjunction with Mornye as the extent of their generalist buffing potential is unparalleled.\n The Shorekeeper Verina Mornye - As the two best generalist Supports by heaps and bounds, it's no surprise Shorekeeper and Verina can slot in almost any team in the game as they provide high team-wide ATK% and 15% DMG Amplify. Shorekeeper additionally provides CRIT Rate and CRIT DMG, always making her the best third slot teammate for Augusta teams, but Verina is a close, more accessible second provided Shorekeeper isn't available. Mornye may also see niche use cases alongside Lynae and Rebecca due to their synergy with Tune Rupture and Hack mechanics respectively.",
+      "assets": [
+        {
+          "id": "e6913cb7353a",
+          "sourceHash": "e6913cb7353a",
+          "kind": "characters",
+          "name": "Iuno",
+          "fileStem": "iuno-icon",
+          "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e366b96f341c",
+          "sourceHash": "e366b96f341c",
+          "kind": "characters",
+          "name": "Lynae",
+          "fileStem": "lynae-icon",
+          "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "59d02501284b",
+          "sourceHash": "59d02501284b",
+          "kind": "characters",
+          "name": "Rebecca",
+          "fileStem": "rebecca-icon",
+          "path": "Prydwen/ww/assets/characters/rebecca-59d02501284b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "4910396b5955",
+          "sourceHash": "4910396b5955",
+          "kind": "characters",
+          "name": "Mortefi",
+          "fileStem": "mortefi-icon",
+          "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d909de4aecde",
+          "sourceHash": "d909de4aecde",
+          "kind": "characters",
+          "name": "The Shorekeeper",
+          "fileStem": "the-shorekeeper-icon",
+          "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1b2a8f336e3d",
+          "sourceHash": "1b2a8f336e3d",
+          "kind": "characters",
+          "name": "Verina",
+          "fileStem": "verina-icon",
+          "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "40d7023b51fa",
+          "sourceHash": "40d7023b51fa",
+          "kind": "characters",
+          "name": "Mornye",
+          "fileStem": "mornye-icon",
+          "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "example-teams-43",
+      "level": 2,
+      "heading": "Example Teams",
+      "text": "Team #1 - Best Team\n\n Mornye is more niche in use, only consider her with Rebecca or Lynae on the team (for Hack and Tune Rupture synergies respectively).\n\n Calculations",
+      "assets": [
+        {
+          "id": "d9b47f532b06",
+          "sourceHash": "d9b47f532b06",
+          "kind": "characters",
+          "name": "Augusta",
+          "fileStem": "augusta-icon",
+          "path": "Prydwen/ww/assets/characters/augusta-d9b47f532b06.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "e6913cb7353a",
+          "sourceHash": "e6913cb7353a",
+          "kind": "characters",
+          "name": "Iuno",
+          "fileStem": "iuno-icon",
+          "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "e366b96f341c",
+          "sourceHash": "e366b96f341c",
+          "kind": "characters",
+          "name": "Lynae",
+          "fileStem": "lynae-icon",
+          "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "59d02501284b",
+          "sourceHash": "59d02501284b",
+          "kind": "characters",
+          "name": "Rebecca",
+          "fileStem": "rebecca-icon",
+          "path": "Prydwen/ww/assets/characters/rebecca-59d02501284b.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "4910396b5955",
+          "sourceHash": "4910396b5955",
+          "kind": "characters",
+          "name": "Mortefi",
+          "fileStem": "mortefi-icon",
+          "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "d909de4aecde",
+          "sourceHash": "d909de4aecde",
+          "kind": "characters",
+          "name": "The Shorekeeper",
+          "fileStem": "the-shorekeeper-icon",
+          "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "1b2a8f336e3d",
+          "sourceHash": "1b2a8f336e3d",
+          "kind": "characters",
+          "name": "Verina",
+          "fileStem": "verina-icon",
+          "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "40d7023b51fa",
+          "sourceHash": "40d7023b51fa",
+          "kind": "characters",
+          "name": "Mornye",
+          "fileStem": "mornye-icon",
+          "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+          "width": 120,
+          "height": 120
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "best-echo-stats": {
+      "label": "Best Echo Stats",
+      "sections": [
+        {
+          "heading": "Stats",
+          "text": "Include minor fortes\n\n Lv. 90\n\n HP\n 10300\n\n ATK\n 463\n\n DEF\n 1112\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Electro DMG\n 0 %",
+          "assets": [
+            {
+              "id": "c26c1d310e90",
+              "sourceHash": "c26c1d310e90",
+              "kind": "icons",
+              "name": "HP",
+              "fileStem": "stat-hp",
+              "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "1e70b3adc860",
+              "sourceHash": "1e70b3adc860",
+              "kind": "icons",
+              "name": "ATK",
+              "fileStem": "stat-atk",
+              "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "aa019d34202f",
+              "sourceHash": "aa019d34202f",
+              "kind": "icons",
+              "name": "DEF",
+              "fileStem": "stat-def",
+              "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "5a0b154cd3d8",
+              "sourceHash": "5a0b154cd3d8",
+              "kind": "icons",
+              "name": "Max Energy",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "39094c227806",
+              "sourceHash": "39094c227806",
+              "kind": "icons",
+              "name": "CRIT Rate",
+              "fileStem": "stat-crit",
+              "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "7e2bcd0760ca",
+              "sourceHash": "7e2bcd0760ca",
+              "kind": "icons",
+              "name": "CRIT DMG",
+              "fileStem": "stat-critdmg",
+              "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "94236abd3fdc",
+              "sourceHash": "94236abd3fdc",
+              "kind": "icons",
+              "name": "Healing",
+              "fileStem": "stat-heal",
+              "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "cec2445ceb75",
+              "sourceHash": "cec2445ceb75",
+              "kind": "icons",
+              "name": "Electro",
+              "fileStem": "stat-ele",
+              "path": "Prydwen/ww/assets/icons/electro-cec2445ceb75.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        },
+        {
+          "heading": "Best Echo Stats",
+          "text": "4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Electro DMG\n\n 3 cost\n Electro DMG > ATK%\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% = Heavy Attack DMG% > ATK > Resonance Skill DMG%",
+          "assets": []
+        }
+      ]
+    },
+    "best-weapons": {
+      "label": "Best Weapons",
+      "sections": [
+        {
+          "heading": "Best Weapons",
+          "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Augusta calculations were done using added buffs from the following teammates:\n Iuno + Moongazer's Sigil +\n Crown of Valor\n\n Sierra Gale\n\n +\n Lady of the Sea\n\n The Shorekeeper + Variation +\n Rejuvenating Glow\n\n +\n Fallacy of No Return\n\n 100.00%\n\n Thunderflare Dominion (R 1 )\n\n A very specialized Broadblade that breaks records for the highest Base ATK in the game, providing a smaller amount of CRIT Rate in exchange, while giving Heavy Attack DMG Bonus, ATK%, and allowing Heavy Attack DMG to ignore target DEF when applying shields up to 36% DEF at 5 stacks. While this weapon does have ramp-up on its DEF ignore effect, it's easily the best choice for Augusta bar none, as this weapon is specialized to be used by her in order to make full use of its effect.\n 90.30%\n\n Verdant Summit (R 1 )\n\n Jiyan's Signature weapon is fantastic on Augusta and has similar performance to even her Signature weapon thanks to its easy to acquire 48% Heavy Attack DMG Bonus increase, as well as 12% general DMG Bonus, good Base ATK and CRIT DMG stats.\n 80.40%\n\n Ages of Harvest (R 1 )\n\n While this weapon focuses on boosting Resonance Skill damage, Jinhsi's Signature is still great on Augusta as she does deal some amount of Skill damage and benefits from its good Base ATK, as well as its DMG Bonus and CRIT Rate increasing effects.\n 77.30%\n\n Wildfire Mark (R 1 )\n\n This Broadblade lacks the extra punch that the above options do as its passive effect is entirely useless on Augusta. It does buff Mortefi's DMG if he is present on the team, however he is far from dealing most of the damage in the team and Augusta only uses this Broadblade for its ATK and CRIT DMG stats, which makes it rank lower than above options.\n 77.30%\n\n Radiance Cleaver (R 1 )\n\n Simple ATK and CRIT DMG stat-stick for Augusta, the strongest permanently available choice for her.\n 77.20%\n\n Kumokiri (R 1 )\n\n Simple ATK and CRIT Rate stat-stick for Augusta, who does not benefit from this weapon's Liberation DMG-increasing effects.\n 74.30%\n\n Lustrous Razor (R 1 )\n\n One of the best permanent choices for Augusta who benefits from its Energy Regen boosting effect but its Resonance Liberation DMG increase is useless on her, which makes it rank below all limited options. Nonetheless very much usable on Augusta who performs fantastically even with this weapon equipped.\n 73.20%\n\n Aureate Zenith (R 5 )\n\n The new Battle Pass Broadblade is amazing on Augusta and is her best 4* option bar none as it increases ATK, Heavy Attack DMG Bonus and CRIT DMG by massive amounts especially at Rank 5. Unfortunately, its lower-end Base ATK makes it rank below all 5-star options, but it remains a good choice if you don't wish to invest any pulls into Augusta and rather spend for this weapon instead.\n 71.00%\n\n Autumntrace (R 5 )\n\n This Battle Pass weapon also gives Augusta good stats, particularly ATK and CRIT Rate, but suffers like all other 4-star weapons from low Base ATK which causes it to perform lower than all 5-star options. However it remains very much usable on Augusta.\n 66.50%\n\n Waning Redshift (R 5 )\n\n The best non-Battle Pass 4-star for Augusta as it gives her some flat Resonance Energy which means she doesn't need any Energy Regen on her build to work, however only increasing ATK isn't enough to make it stand out above other options.\n 63.90%\n\n Helios Cleaver (R 5 )\n\n Similar to Waning Redshift but focuses even more on increasing ATK after using multiple Resonance Skills, which Augusta isn't able to fully stack, making it lag behind other choices in terms of performance.\n 60.70%\n\n Meditations on Mercy (R 5 )\n\n Last resort option if none of the above weapons are owned. Solely used as an ATK stat-stick as its passive is entirely unused on Augusta, but accessible as a guarantee thanks to being craftable.",
+          "assets": [
+            {
+              "id": "e6913cb7353a",
+              "sourceHash": "e6913cb7353a",
+              "kind": "characters",
+              "name": "Iuno",
+              "fileStem": "iuno-icon",
+              "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "e9b4be1a962a",
+              "sourceHash": "e9b4be1a962a",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-19",
+              "path": "Prydwen/ww/assets/icons/set-19-e9b4be1a962a.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "380124f06e75",
+              "sourceHash": "380124f06e75",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-4",
+              "path": "Prydwen/ww/assets/icons/set-4-380124f06e75.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "9cc1c0d4021f",
+              "sourceHash": "9cc1c0d4021f",
+              "kind": "misc",
+              "name": "Lady of the Sea",
+              "fileStem": "6000160",
+              "path": "Prydwen/ww/assets/misc/lady-of-the-sea-9cc1c0d4021f.webp",
+              "width": 35,
+              "height": 35
+            },
+            {
+              "id": "d909de4aecde",
+              "sourceHash": "d909de4aecde",
+              "kind": "characters",
+              "name": "The Shorekeeper",
+              "fileStem": "the-shorekeeper-icon",
+              "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "9116b6b3061f",
+              "sourceHash": "9116b6b3061f",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-7",
+              "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "963f47d9c985",
+              "sourceHash": "963f47d9c985",
+              "kind": "misc",
+              "name": "Fallacy of No Return",
+              "fileStem": "6000060",
+              "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+              "width": 35,
+              "height": 35
+            },
+            {
+              "id": "3c42590d0e49",
+              "sourceHash": "3c42590d0e49",
+              "kind": "weapons",
+              "name": "Thunderflare Dominion",
+              "fileStem": "21010046",
+              "path": "Prydwen/ww/assets/weapons/thunderflare-dominion-3c42590d0e49.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "9fafb9f1aada",
+              "sourceHash": "9fafb9f1aada",
+              "kind": "weapons",
+              "name": "Verdant Summit",
+              "fileStem": "21010016",
+              "path": "Prydwen/ww/assets/weapons/verdant-summit-9fafb9f1aada.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "f970567b2315",
+              "sourceHash": "f970567b2315",
+              "kind": "weapons",
+              "name": "Ages of Harvest",
+              "fileStem": "21010026",
+              "path": "Prydwen/ww/assets/weapons/ages-of-harvest-f970567b2315.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "04979eb3f560",
+              "sourceHash": "04979eb3f560",
+              "kind": "weapons",
+              "name": "Wildfire Mark",
+              "fileStem": "21010036",
+              "path": "Prydwen/ww/assets/weapons/wildfire-mark-04979eb3f560.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "137f7d39e41f",
+              "sourceHash": "137f7d39e41f",
+              "kind": "weapons",
+              "name": "Radiance Cleaver",
+              "fileStem": "21010045",
+              "path": "Prydwen/ww/assets/weapons/radiance-cleaver-137f7d39e41f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "6d5753910c9f",
+              "sourceHash": "6d5753910c9f",
+              "kind": "weapons",
+              "name": "Kumokiri",
+              "fileStem": "21010056",
+              "path": "Prydwen/ww/assets/weapons/kumokiri-6d5753910c9f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "c562aa36c2f7",
+              "sourceHash": "c562aa36c2f7",
+              "kind": "weapons",
+              "name": "Lustrous Razor",
+              "fileStem": "21010015",
+              "path": "Prydwen/ww/assets/weapons/lustrous-razor-c562aa36c2f7.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "6cc4b4799694",
+              "sourceHash": "6cc4b4799694",
+              "kind": "weapons",
+              "name": "Aureate Zenith",
+              "fileStem": "21010104",
+              "path": "Prydwen/ww/assets/weapons/aureate-zenith-6cc4b4799694.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1b276f8aa3db",
+              "sourceHash": "1b276f8aa3db",
+              "kind": "weapons",
+              "name": "Autumntrace",
+              "fileStem": "21010074",
+              "path": "Prydwen/ww/assets/weapons/autumntrace-1b276f8aa3db.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "730ddc221a80",
+              "sourceHash": "730ddc221a80",
+              "kind": "weapons",
+              "name": "Waning Redshift",
+              "fileStem": "21010084",
+              "path": "Prydwen/ww/assets/weapons/waning-redshift-730ddc221a80.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "99dd896c9195",
+              "sourceHash": "99dd896c9195",
+              "kind": "weapons",
+              "name": "Helios Cleaver",
+              "fileStem": "21010064",
+              "path": "Prydwen/ww/assets/weapons/helios-cleaver-99dd896c9195.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "10623a091d93",
+              "sourceHash": "10623a091d93",
+              "kind": "weapons",
+              "name": "Meditations on Mercy",
+              "fileStem": "21010094",
+              "path": "Prydwen/ww/assets/weapons/meditations-on-mercy-10623a091d93.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "best-echo-sets": {
+      "label": "Best Echo Sets",
+      "sections": [
+        {
+          "heading": "Best Echo Sets",
+          "text": "100.00%\n\nCrown of Valor\n\n Augusta's best set bar none. Increases ATK and CRIT DMG by 6% and 4% for 4s respectively when a Shield is applied to the equipped character, stacking up to 5 times every 0.5s. This totals to 30% ATK and 20% CRIT DMG, which is the best set for Augusta in specific as she's the only character in the game who's able to fully stack up this effect.\n Best combined with your choice of:\n 2P\n Void Thunder\n\n (Recommended)\n 2P\n Endless Resonance\n\n Reel of Spliced Memories\n\n 2P\n Moonlit Clouds\n\n Empyrean Anthem\n\n Tidebreaking Courage\n\n Below you can find Main Echo options:\n\n The False Sovereign\n\n - A Transform and Summon echo similar to Nightmare: Kelpie, which gives 12% Electro and 12% Heavy DMG Bonus passively in the main slot, and unconditionally summons the Echo to deal DMG whenever an Intro skill is triggered, additionally having Transform casts for extra damage. One of them is typically used at the end of a rotation, the second cast is a bit more difficult to exploit and may require quickswapping to be utilized (difficult in a team with Augusta but not impossible). The best Echo for Augusta in any situation.",
+          "assets": [
+            {
+              "id": "e9b4be1a962a",
+              "sourceHash": "e9b4be1a962a",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-19",
+              "path": "Prydwen/ww/assets/icons/set-19-e9b4be1a962a.webp",
+              "width": 50,
+              "height": 50
+            },
+            {
+              "id": "802bc154dac0",
+              "sourceHash": "802bc154dac0",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-3",
+              "path": "Prydwen/ww/assets/icons/set-3-802bc154dac0.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "423ea0547985",
+              "sourceHash": "423ea0547985",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-9",
+              "path": "Prydwen/ww/assets/icons/set-9-423ea0547985.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "789f50e907c6",
+              "sourceHash": "789f50e907c6",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-29",
+              "path": "Prydwen/ww/assets/icons/set-29-789f50e907c6.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "358387a78181",
+              "sourceHash": "358387a78181",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-8",
+              "path": "Prydwen/ww/assets/icons/set-8-358387a78181.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "26730b805365",
+              "sourceHash": "26730b805365",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-13",
+              "path": "Prydwen/ww/assets/icons/set-13-26730b805365.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "b314b4a5977f",
+              "sourceHash": "b314b4a5977f",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-14",
+              "path": "Prydwen/ww/assets/icons/set-14-b314b4a5977f.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "91e1ddc75682",
+              "sourceHash": "91e1ddc75682",
+              "kind": "misc",
+              "name": "The False Sovereign",
+              "fileStem": "6000121",
+              "path": "Prydwen/ww/assets/misc/the-false-sovereign-91e1ddc75682.webp",
+              "width": 35,
+              "height": 35
+            }
+          ]
+        }
+      ]
+    },
+    "best-endgame-stats": {
+      "label": "Best Endgame Stats",
+      "sections": [
+        {
+          "heading": "Best Endgame Stats (Level 90)",
+          "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 14500+\n\n DEF: 1100+\n\n ATK: 2000-2800+\n\n CRIT Rate: 65-80%+\n\n CRIT DMG: 210-260%+\n\n Energy Regen: 116%-125%\n Lower end estimated in a team with Mortefi+Shorekeeper, higher end estimated in a team with Iuno+Shorekeeper.\n\n Electro DMG Bonus: 40-70%+",
+          "assets": []
+        }
+      ]
+    },
+    "skill-priority": {
+      "label": "Skill Priority",
+      "sections": [
+        {
+          "heading": "Skill Priority",
+          "text": "Below you can find the order of leveling the abilities for Augusta .\n Res. Liberation\n\n Forte Circuit\n\n Basic Attack\n\n Res. Skill\n\n Intro Skill\n\n Skill and Intro can be skipped when levelling to save on resources at a minimal damage loss.\n\n Gameplay and teams",
+          "assets": []
+        }
+      ]
+    },
+    "rotation": {
+      "label": "Rotation",
+      "sections": [
+        {
+          "heading": "Core Rotation",
+          "text": "Augusta aims to stack Ascendancy as quickly as possible in order to generate Majesty and cast her second Ultimate’s attack sequence, finishing her rotation. Below is the best way to do so.\n Echo Timing: Best used right at the end of the whole rotation (make sure to Swap Cancel it immediately after casting in order to optimize).\n Intro\n\n Heavy Attack: Backstep\n\n Heavy Attack: Spinslash\n\n Skill\n\n Heavy Attack: Backstep\n\n Heavy Attack: Spinslash\n\n Ultimate: Sword of Eternal Oath\n\n Forte: Skill: Undying Sunlight: Strike\n\n Forte: Skill: Undying Sunlight: Leap\n\n Forte: Skill: Undying Sunlight: Plunge\n\n Ultimate: Sublime is the Sun\n\n Ultimate: Sunborne (9 times)\n\n Ultimate: Everbright Protector\n\n Outro",
+          "assets": []
+        }
+      ]
+    },
+    "synergies": {
+      "label": "Synergies",
+      "sections": [
+        {
+          "heading": "Synergies",
+          "text": "Iuno Lynae Rebecca Mortefi - These are the Outro buffers that pair best with Augusta. Iuno is the best by far due to her high personal damage and giving a whopping 90% DMG Amplification effect to Augusta in total, however Mortefi and Rebecca are close seconds in the Heavy DMG buffing department. Lynae may also prove more effective than those two in conjunction with Mornye as the extent of their generalist buffing potential is unparalleled.\n The Shorekeeper Verina Mornye - As the two best generalist Supports by heaps and bounds, it's no surprise Shorekeeper and Verina can slot in almost any team in the game as they provide high team-wide ATK% and 15% DMG Amplify. Shorekeeper additionally provides CRIT Rate and CRIT DMG, always making her the best third slot teammate for Augusta teams, but Verina is a close, more accessible second provided Shorekeeper isn't available. Mornye may also see niche use cases alongside Lynae and Rebecca due to their synergy with Tune Rupture and Hack mechanics respectively.",
+          "assets": [
+            {
+              "id": "e6913cb7353a",
+              "sourceHash": "e6913cb7353a",
+              "kind": "characters",
+              "name": "Iuno",
+              "fileStem": "iuno-icon",
+              "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "e366b96f341c",
+              "sourceHash": "e366b96f341c",
+              "kind": "characters",
+              "name": "Lynae",
+              "fileStem": "lynae-icon",
+              "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "59d02501284b",
+              "sourceHash": "59d02501284b",
+              "kind": "characters",
+              "name": "Rebecca",
+              "fileStem": "rebecca-icon",
+              "path": "Prydwen/ww/assets/characters/rebecca-59d02501284b.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "4910396b5955",
+              "sourceHash": "4910396b5955",
+              "kind": "characters",
+              "name": "Mortefi",
+              "fileStem": "mortefi-icon",
+              "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d909de4aecde",
+              "sourceHash": "d909de4aecde",
+              "kind": "characters",
+              "name": "The Shorekeeper",
+              "fileStem": "the-shorekeeper-icon",
+              "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1b2a8f336e3d",
+              "sourceHash": "1b2a8f336e3d",
+              "kind": "characters",
+              "name": "Verina",
+              "fileStem": "verina-icon",
+              "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "40d7023b51fa",
+              "sourceHash": "40d7023b51fa",
+              "kind": "characters",
+              "name": "Mornye",
+              "fileStem": "mornye-icon",
+              "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "example-teams": {
+      "label": "Example Teams",
+      "sections": [
+        {
+          "heading": "Example Teams",
+          "text": "Team #1 - Best Team\n\n Mornye is more niche in use, only consider her with Rebecca or Lynae on the team (for Hack and Tune Rupture synergies respectively).\n\n Calculations",
+          "assets": [
+            {
+              "id": "d9b47f532b06",
+              "sourceHash": "d9b47f532b06",
+              "kind": "characters",
+              "name": "Augusta",
+              "fileStem": "augusta-icon",
+              "path": "Prydwen/ww/assets/characters/augusta-d9b47f532b06.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "e6913cb7353a",
+              "sourceHash": "e6913cb7353a",
+              "kind": "characters",
+              "name": "Iuno",
+              "fileStem": "iuno-icon",
+              "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "e366b96f341c",
+              "sourceHash": "e366b96f341c",
+              "kind": "characters",
+              "name": "Lynae",
+              "fileStem": "lynae-icon",
+              "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "59d02501284b",
+              "sourceHash": "59d02501284b",
+              "kind": "characters",
+              "name": "Rebecca",
+              "fileStem": "rebecca-icon",
+              "path": "Prydwen/ww/assets/characters/rebecca-59d02501284b.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "4910396b5955",
+              "sourceHash": "4910396b5955",
+              "kind": "characters",
+              "name": "Mortefi",
+              "fileStem": "mortefi-icon",
+              "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "d909de4aecde",
+              "sourceHash": "d909de4aecde",
+              "kind": "characters",
+              "name": "The Shorekeeper",
+              "fileStem": "the-shorekeeper-icon",
+              "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "1b2a8f336e3d",
+              "sourceHash": "1b2a8f336e3d",
+              "kind": "characters",
+              "name": "Verina",
+              "fileStem": "verina-icon",
+              "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "40d7023b51fa",
+              "sourceHash": "40d7023b51fa",
+              "kind": "characters",
+              "name": "Mornye",
+              "fileStem": "mornye-icon",
+              "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+              "width": 120,
+              "height": 120
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Augusta Best Build Guide | Wuthering Waves (WuWa)\n \n\n Wuthering Waves\n Home Database Characters Weapons Echoes Banners\n Tier Lists Tier List Team Tier List Value Tier List\n Guides Guides\n Resources Map News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Wuthering Waves\n /\n Characters\n /\n Augusta\n Augusta Best Build Guide\n Last updated: 09/June/2026\n\n Introduction\n Best guide and build for Augusta from WW (Wuthering Waves). Augusta is a 5 ★ rarity character from the Electro element who uses the Broadblade type weapon.\n\n To learn more about Augusta check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Augusta has at least one video guide available:\n\n Update tracker\n Last review update\n Patch 2.6\n\n Last major build/calcs update\n Patch 3.0\n\n Last profile update*\n 09/June/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Augusta check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Kit\n\n Review\n\n Build\n\n Gameplay and teams\n\n Calculations\n\n Profile\n\n Skills\n Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Hunter's Path\n\n Basic Attack\n Perform up to 4 consecutive attacks, dealing Electro DMG.\n Heavy Attack - Steelclash\n Consume STA to attack the target, dealing Electro DMG . Press Normal Attack shortly after performing Heavy Attack to perform Basic Attack Stage 2.\n Mid-air Attack\n Consume STA to perform Plunging Attack from mid-air, dealing Electro DMG .\n Dodge Counter\n Press Normal Attack after a successful Dodge to attack the target, dealing Electro DMG .\n Mid-air Dodge Counter\n Press Normal Attack after a successful Mid-air Dodge to perform Plunging Attack at the cost of STA, dealing Electro DMG .\n Heavy Attack - Thunderoar: Backstep\n When Prowess is full, Heavy Attack - Steelclash is replaced with Heavy Attack - Thunderoar: Backstep, dealing Electro DMG and consuming all Prowess.\n While in action, release or press Normal Attack again within a certain period to perform Heavy Attack - Thunderoar: Spinslash.\n\n Heavy Attack - Thunderoar: Spinslash is available if Augusta remains on the ground for a certain period after this skill is interrupted.\n\n Heavy Attack - Thunderoar: Spinslash\n Augusta whirls and lashes out with her Broadblade, dealing Electro DMG .\n Heavy Attack - Thunderoar: Uppercut\n Press Jump when Prowess is full to perform Heavy Attack - Thunderoar: Uppercut, dealing Electro DMG and consuming all Prowess.\n If Prowess is full when casting Resonance Skill - Warrior's Blade, press Resonance Skill or Jump to perform Heavy Attack - Thunderoar: Uppercut, dealing Electro DMG and consuming all Prowess.\n\n If Prowess is full when casting Heavy Attack - Steelclash or Dodge Counter – Heavy Attack: Steelclash, release Normal Attack after a certain period or press Normal Attack or Jump again to perform Heavy Attack - Thunderoar: Uppercut, dealing, Electro DMG and consuming all Prowess.\n\n Dodge Counter - Heavy Attack: Steelclash\n When Prowess is full, Dodge Counter is replaced with Dodge Counter - Heavy Attack: Steelclash, dealing Electro DMG , considered as Heavy Attack DMG.\n Dodge Counter - Thunderoar: Backstep\n When Ascendancy is full, press Normal Attack following a successful Dodge on the ground to cast Dodge Counter - Thunderoar: Backstep in place of Dodge Counter and Dodge Counter - Heavy Attack: Steelclash, dealing Electro DMG , considered as Heavy Attack DMG.\n Release or press Normal Attack again within a certain period into the action to perform Heavy Attack - Thunderoar: Spinslash.\n\n Heavy Attack - Thunderoar: Spinslash is available if Augusta remains on the ground for a certain period after this skill is interrupted.\n\n Prowess\n Augusta can hold up to 100 points of Prowess.\n Prowess is obtained when Basic Attack, Heavy Attack - Steelclash, Mid-air Attack, Mid-air Dodge Counter, Resonance Skill - Warrior's Blade, Dodge Counter, or Dodge Counter - Heavy Attack: Steelclash deals damage.\n\n Prowess is fully restored when casting Intro Skill - Stride of Goldenflare.\n\n Multipliers\n\n Resonance Skill\n Warrior's Blade\n\n Augusta leaps and slams down her Broadblade, dealing Electro DMG .\n\n Multipliers\n\n Resonance Liberation\n Sunward Conquest\n\n Resonance Liberation - Sword of Eternal Oath\n Press and release Resonance Liberation to cast this skill. Augusta will sweep her Broadblade forward, dealing Electro DMG , considered as Heavy Attack DMG.\n Resonance Liberation - Sublime is the Sun\n When Majesty reaches 2 stacks, hold Resonance Liberation to cast Resonance Liberation - Sublime is the Sun. Casting Resonance Liberation - Sublime is the Sun costs no Resonance Energy but 2 stacks of Majesty instead.\n When casting Resonance Liberation - Sublime is the Sun, Augusta generates the Ruler's Realm and enters the Sworn Allegiance state for 7s . Within this duration, time is temporarily stopped, and Resonator switching is disabled. Only Sublime is the Sun - Sunborne, Sublime is the Sun - Everbright Protector, and Dodge can be performed in the Sworn Allegiance state. Mid-air Attack is available while airborne.\n\n In the Sworn Allegiance state, press or hold Normal Attack to cast Sublime is the Sun - Sunborne. Augusta can walk on water without consuming STA in this state.\n\n Performing environmental, gameplay, or other interactions ends Sworn Allegiance without triggering Sublime is the Sun - Everbright Protector.\n\n Sublime is the Sun - Sunborne\n Deal Electro DMG , considered as Heavy Attack DMG. After casting Sublime is the Sun - Sunborne 9 times, press Normal Attack or Resonance Liberation to perform Sublime is the Sun - Everbright Protector.\n Sublime is the Sun - Everbright Protector\n Deal Electro DMG , considered as Heavy Attack DMG. Casting Sublime is the Sun - Everbright Protector ends the Sworn Allegiance state and consumes all stacks of Crown of Wills later. All other Resonators in the team will be made to leave the field.\n When Sworn Allegiance ends, Sublime is the Sun - Everbright Protector is automatically cast.\n\n During Sworn Allegiance, hold Resonance Liberation to cast Sublime is the Sun - Everbright Protector early.\n\n Ruler's Realm\n Ruler's Realm lasts for 30s .\n\n When Resonators in the team cast Intro Skill within Ruler's Realm, they gain a shield equal to 650 + 5% of Augusta's Max HP for 10s . This effect is unstackable. This Shield will not be passed on to the incoming Resonator.\n\n Majesty\n Augusta can hold up to 2 stacks of Majesty.\n 1 stack of Majesty is obtained when casting Resonance Skill - Undying Sunlight: Plunge.\n\n 1 stack of Majesty is obtained when other Resonators in the team cast Outro Skill under the effect of Augusta's Outro Skill - Battlesong of the Unyielding.\n\n Multipliers\n\n Forte Circuit\n Call Me By the Sun\n\n Resonance Skill - Undying Sunlight: Strike\n When Ascendancy is full, Resonance Skill - Warrior's Blade is replaced with Resonance Skill - Undying Sunlight: Strike, dealing Electro DMG .\n Press Normal Attack or Resonance Skill during the action to cast Resonance Skill - Undying Sunlight: Leap.\n\n Resonance Skill - Undying Sunlight: Strike can be re-cast shortly after being interrupted.\n\n Resonance Skill - Undying Sunlight: Leap can be cast some time again after being interrupted.\n\n Can be cast mid-air.\n\n Resonance Skill - Undying Sunlight: Leap\n Deal Electro DMG .\n Press Normal Attack or Resonance Skill during the action to cast Resonance Skill - Undying Sunlight: Plunge.\n\n Resonance Skill - Undying Sunlight: Leap can be re-cast shortly after being interrupted.\n\n Resonance Skill - Undying Sunlight: Plunge can be cast some time again after being interrupted.\n\n Can only be cast mid-air.\n\n Resonance Skill - Undying Sunlight: Plunge\n Consume all Ascendancy to cast this skill, dealing Electro DMG , considered as Heavy Attack DMG.\n Casting this skill grants 1 stack of Majesty.\n\n Can only be cast mid-air.\n\n Dodge Counter - Undying Sunlight: Strike\n When Ascendancy is full, press Resonance Skill after a successful ground Dodge or press Normal Attack or Resonance Skill after successful Mid-air Dodge to cast Dodge Counter - Undying Sunlight: Strike, dealing Electro DMG , considered as Resonance Skill DMG.\n Press Normal Attack or Resonance Skill during the action to cast Resonance Skill - Undying Sunlight: Leap.\n\n Resonance Skill - Undying Sunlight: Leap can be cast again some time after being interrupted.\n\n Ascendancy\n Augusta can hold up to 100 points of Ascendancy.\n Ascendancy is obtained when Normal Attacks deal damage.\n\n Casting Intro Skill - Stride of Goldenflare restores 20% Ascendancy.\n\n Casting Resonance Skill - Warrior's Blade restores 10% Ascendancy.\n\n Casting Resonance Liberation - Sword of Eternal Oath restores 40% Ascendancy.\n\n Multipliers\n\n Inherent Skill\n Glory's Favor\n\n When Augusta deals damage, she gains a shield equal to 350 + 2.5% of her Max HP for 5s , triggered once every 0.5s . This effect is unstackable. This Shield will not be passed on to the incoming Resonator.\n\n Inherent Skill\n Blazing Valor\n\n When Augusta is out of combat for over 4s , she gains the following effects that can be triggered once every 4s :\n If Majesty is less than 1 stack, restore 1 stack.\n\n Fully restore Crown of Wills.\n\n Intro Skill\n Stride of Goldenflare\n\n Deal Electro DMG .\n\n Multipliers\n\n Outro Skill\n Battlesong of the Unyielding\n\n The next Resonator switched onto the field gains the following effects for 14s , which end immediately if they are switched out:\n Gain 15% DMG Amplification for all Attributes.\n\n Casting Outro Skill grants 1 stack of Majesty and 1 stack of Crown of Wills to Augusta.\n\n Crown of Wills\n Each stack grants 15% Electro DMG Bonus , up to 1 stack.\n\n When Resonance Liberation - Sublime is the Sun: Everbright Protector ends, all stacks of Crown of Wills are removed.\n\n Resonance Chain (Dupes)\n S 1\n Sequence Node 1\n\n Each stack of Crown of Wills additionally increases Augusta's Crit. DMG by 15% .\n\n The max stack of Crown of Wills is increased to 2 .\n\n Casting Intro Skill - Stride of Goldenflare now grants 1 stack of Crown of Wills.\n\n Resonance Skill - Undying Sunlight: Strike, Resonance Skill - Undying Sunlight: Leap, and Resonance Skill - Undying Sunlight: Plunge are now immune to interruption.\n\n S 2\n Sequence Node 2\n\n Crown of Wills provides additional effects: Each stack increases Augusta's Crit. Rate by 20% .\n\n For every 1% of Crit. Rate over 100% , Augusta gains 2% Crit. DMG increase, up to 100% .\n\n S 3\n Sequence Node 3\n\n The following skills have their DMG Multiplier increased by 25% :\n Heavy Attack - Thunderoar: Backstep, Dodge Counter - Thunderoar: Backstep, Heavy Attack - Thunderoar: Spinslash, Heavy Attack - Thunderoar: Uppercut.\n\n Resonance Skill - Undying Sunlight: Plunge.\n\n Resonance Liberation - Sublime is the Sun: Sunborne, Resonance Liberation - Sublime is the Sun: Everbright Protector.\n\n S 4\n Sequence Node 4\n\n Casting Intro Skill - Stride of Goldenflare increases the ATK of all Resonators in the team by 20% for 30s .\n\n S 5\n Sequence Node 5\n\n The Shield provided by Inherent Skill - Glory's Favor is increased by 50% .\n\n S 6\n Sequence Node 6\n\n Augusta can now hold up to 4 stacks of Crown of Wills.\n\n For every 1% of Crit. Rate over 150% , Augusta gains 2% Crit. DMG increase, up to 50% .\n\n When Augusta performs Heavy Attack - Thunderoar: Spinslash or Heavy Attack - Thunderoar: Uppercut, she obtains 2 stacks of Crown of Wills. Augusta can only obtain 2 stacks of Crown of Wills every 1s via Engraved in Radiant Light.\n\n While casting Heavy Attack - Thunderoar: Spinslash or Heavy Attack - Thunderoar: Uppercut, Thunder Rage is triggered at the spot, dealing two instances of Electro DMG , with each instance equal to 100% of Augusta's ATK, considered as Heavy Attack DMG.\n\n Minor Fortes (Total)\n CRIT Rate\n + 8 %\n\n ATK%\n + 12 %\n\n Stats\n\nInclude minor fortes\n\n Lv. 90\n\n HP\n 10300\n\n ATK\n 463\n\n DEF\n 1112\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Electro DMG\n 0 %\n\n Upgrade Materials\n Character Ascension (total)\n 4 x LF Tidal Residuum\n 12 x MF Tidal Residuum\n 12 x HF Tidal Residuum\n 4 x FF Tidal Residuum\n 46 x Blighted Crown of Puppet King\n 60 x Luminous Calendula\n 170 000 Shell Credits\n\n Skill Upgrades (total)\n 25 x LF Tidal Residuum\n 28 x MF Tidal Residuum\n 40 x HF Tidal Residuum\n 57 x FF Tidal Residuum\n 25 x Waveworn Residue 210\n 28 x Waveworn Residue 226\n 55 x Waveworn Residue 235\n 67 x Waveworn Residue 239\n 26 x When Irises Bloom\n 2 030 000 Shell Credits\n\n While the source of the materials can be quickly found in the game, when it comes Luminous Calendula you will have to gather them from the map. Check our Interactive map to find them quickly:\n\n Interactive Map\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n DPS\n T1\n Tower of Adversity\n\n T1\n Whimpering Wastes\n\n Value Tier List\n DPS\n T1\n Tower of Adversity (Value)\n\n T1\n Whimpering Wastes (Value)\n\n Pros & Cons\n Pros\n Very high single-target and AoE damage alike;\n\n Able to function with premium teammates and without — has amazing F2P options which allow her to perform even without high vertical investment;\n\n Completely stops time during her second Ultimate, meaning you’re fully invulnerable during the cast;\n\n Summons a REALLY cool blazing sun in the sky when casting her second Ultimate. How was that necessary??\n\n Cons\n About half of her damage is concentrated in her second Ultimate — backloaded damage isn’t optimal for killing several groups of small enemies like in Whimpering Wastes, not to mention the timestop effect prevents the next wave from spawning leading to lots of wasted damage without proper timing;\n\n Her Shields have next to no strength whatsoever, they only serve as a means to activate her Signature Weapon and Echo Set buffs and won’t actually protect from any meaningful damage;\n\n Very difficult to use in quickswap compositions due to Outro mechanics. While not impossible, definitely difficult to force;\n\n Shields don’t leave you immune to interruption, be wary to dodge enemy attacks so your rotation doesn’t get slowed down.\n\n Review\n Augusta is a 5-star Electro Broadblade DPS whose focus is on dealing high Heavy Attack damage to enemies by activating a time-stop Ultimate stance where she attacks enemies in quick succession, dealing lots of damage in the blink of an eye. Much like her Electro element would suggest, in spite of wielding a heavy weapon class, Augusta is capable of unleashing many attacks in quick succession to tear down her enemies.\n Key Mechanics\n Let’s get the most important abilities of Augusta out of the way first: her 3 unique resources.\n The first of which is Prowess: this is her first Forte gauge used to cast Enhanced Heavy Attacks and is obtained when most of her abilities deal damage.\n\n The second is Ascendancy: this is her second Forte gauge restored via Basic Attacks, Intro skill, her first Ultimate and her base Resonance Skill. It allows her to cast an enhanced Resonance Skill to gain her final resource, Majesty.\n\n Majesty has 2 points, 1 of which is acquired via her Outro and the other is acquired via an enhanced Resonance Skill with full Ascendancy. When 2 points are obtained, Augusta can unleash her second Ultimate for massive damage, ending her rotation.\n\n Therefore, Augusta’s goal will be to maximize Prowess and Ascendancy generation in order to gain her Majesty stacks and finish it off with her second Ultimate.\n Additionally, Augusta starts combat with 1 Majesty thanks to her second Inherent Skill which means she won’t have ramp-up issues due to lacking an Outro initially. Finally, her first Inherent Skill makes it so Augusta gains a shield for 5s every 0.5s every time she deals damage, which means she will always have extra HP in that form. Even though the shield value is rather small and it doesn’t stack, it does add to her sustainability.\n Intro Skill\n Augusta’s Intro makes her restore 20% Ascendancy and full Prowess so it’s definitely a must in her rotation. Aside from that, it simply deals damage and restores Concerto Energy like all other Intros.\n How to use Prowess and restore Ascendancy\n Augusta’s Prowess mechanic allows her to use different Enhanced Heavy Attacks, triggered with different inputs. However, Uppercut, triggered by jumping with full Prowess, is not good as it sends her up into the air and Augusta rather be on the ground at all times to maximize her damage, so make sure not to accidentally use it.\n More importantly however, she has a standard Heavy Attack variant which is called Backstep which she can follow with Spinslash by pressing Basic Attack shortly after, which is her standard combo. It can be done all the same by performing a Dodge Counter with full Prowess instead of a Heavy Attack.\n Other than this, her base Resonance Skill restores full Prowess and her Intro Skill does also, which should be plenty in order to restore Ascendancy fully, provided her base Ultimate is used also — as it gives the 10% Ascendancy she’d be missing. It only requires using Ultimate with enough Resonance Energy, so make sure that condition is fulfilled by having enough Energy Regen. Depending on the team, anywhere between 110% and 120% Energy Regen should be enough for Augusta to function.\n How to use Ascendancy\n Ascendancy is used in order to perform 3 different Enhanced Resonance Skills — which are in reality all part of the same sequence. Simply press Resonance Skill with full Ascendancy then press Basic Attack or Resonance Skill 2 more times to leap into the air and plunge to restore Majesty to full. When this is performed, Augusta is ready to cast her second Ultimate. Also, don’t worry about getting interrupted; if that happens, Augusta can re-cast her Enhanced Skill sequence, no problem.\n Second Ultimate and Outro\n By holding Ultimate with 2 stacks of Majesty, Augusta enters her Second Ultimate stance for 7s. Within this duration, time is stopped and she cannot switch out or do anything except walk, dodge, and finish her rotation with 9 swift Heavy Attacks (simply performed by spamming or holding Basic Attack), then use a finishing move by pressing Basic Attack again.\n Additionally, performing this sequence of attacks gives an effect for 30s to all characters in the team called Ruler’s Realm, which grants a stronger Shield to all characters who cast Intro Skill, further contributing to sustainability.\n Finally, Augusta’s Outro Skill allows her to give 15% DMG Amplify to any character that she outros into, which lasts the usual 14s. It also restores 1 Majesty if that character performs their own Outro skill, and gives Augusta 15% Electro DMG Bonus for her next rotation, but be careful as all of these effects expire on swap — because of this mechanic, Augusta is much less compatible with quickswapping than most other characters as the character Augusta Outros into cannot be switched out of until they can cast their own Outro skill, since it would ruin Augusta’s Majesty stack generation, thus significantly slowing down her subsequent rotation.\n Meta position & Conclusion\n Augusta’s primary selling point is her damage output. Ranking among some of the highest damaging characters in the game, Augusta is a tried-and-true DPS not unlike the current meta damage dealers. Working brilliantly with a free unit in the form of Mortefi as well as the flexible Shorekeeper, Augusta is easily accessible and performs at the level of the greatest DPS characters. If that wasn’t enough, she can reach an even higher ceiling alongside her best buffer Iuno, and alongside her she’s guaranteed to make clearing endgame content a breeze (if her baseline with Mortefi wasn’t already more than enough anyway).\n\n Video guides\n\n Build\n\n Best Weapons\n The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Augusta calculations were done using added buffs from the following teammates:\n Iuno + Moongazer's Sigil +\n Crown of Valor\n\n Sierra Gale\n\n +\n Lady of the Sea\n\n The Shorekeeper + Variation +\n Rejuvenating Glow\n\n +\n Fallacy of No Return\n\n 100.00%\n\n Thunderflare Dominion (R 1 )\n\n A very specialized Broadblade that breaks records for the highest Base ATK in the game, providing a smaller amount of CRIT Rate in exchange, while giving Heavy Attack DMG Bonus, ATK%, and allowing Heavy Attack DMG to ignore target DEF when applying shields up to 36% DEF at 5 stacks. While this weapon does have ramp-up on its DEF ignore effect, it's easily the best choice for Augusta bar none, as this weapon is specialized to be used by her in order to make full use of its effect.\n 90.30%\n\n Verdant Summit (R 1 )\n\n Jiyan's Signature weapon is fantastic on Augusta and has similar performance to even her Signature weapon thanks to its easy to acquire 48% Heavy Attack DMG Bonus increase, as well as 12% general DMG Bonus, good Base ATK and CRIT DMG stats.\n 80.40%\n\n Ages of Harvest (R 1 )\n\n While this weapon focuses on boosting Resonance Skill damage, Jinhsi's Signature is still great on Augusta as she does deal some amount of Skill damage and benefits from its good Base ATK, as well as its DMG Bonus and CRIT Rate increasing effects.\n 77.30%\n\n Wildfire Mark (R 1 )\n\n This Broadblade lacks the extra punch that the above options do as its passive effect is entirely useless on Augusta. It does buff Mortefi's DMG if he is present on the team, however he is far from dealing most of the damage in the team and Augusta only uses this Broadblade for its ATK and CRIT DMG stats, which makes it rank lower than above options.\n 77.30%\n\n Radiance Cleaver (R 1 )\n\n Simple ATK and CRIT DMG stat-stick for Augusta, the strongest permanently available choice for her.\n 77.20%\n\n Kumokiri (R 1 )\n\n Simple ATK and CRIT Rate stat-stick for Augusta, who does not benefit from this weapon's Liberation DMG-increasing effects.\n 74.30%\n\n Lustrous Razor (R 1 )\n\n One of the best permanent choices for Augusta who benefits from its Energy Regen boosting effect but its Resonance Liberation DMG increase is useless on her, which makes it rank below all limited options. Nonetheless very much usable on Augusta who performs fantastically even with this weapon equipped.\n 73.20%\n\n Aureate Zenith (R 5 )\n\n The new Battle Pass Broadblade is amazing on Augusta and is her best 4* option bar none as it increases ATK, Heavy Attack DMG Bonus and CRIT DMG by massive amounts especially at Rank 5. Unfortunately, its lower-end Base ATK makes it rank below all 5-star options, but it remains a good choice if you don't wish to invest any pulls into Augusta and rather spend for this weapon instead.\n 71.00%\n\n Autumntrace (R 5 )\n\n This Battle Pass weapon also gives Augusta good stats, particularly ATK and CRIT Rate, but suffers like all other 4-star weapons from low Base ATK which causes it to perform lower than all 5-star options. However it remains very much usable on Augusta.\n 66.50%\n\n Waning Redshift (R 5 )\n\n The best non-Battle Pass 4-star for Augusta as it gives her some flat Resonance Energy which means she doesn't need any Energy Regen on her build to work, however only increasing ATK isn't enough to make it stand out above other options.\n 63.90%\n\n Helios Cleaver (R 5 )\n\n Similar to Waning Redshift but focuses even more on increasing ATK after using multiple Resonance Skills, which Augusta isn't able to fully stack, making it lag behind other choices in terms of performance.\n 60.70%\n\n Meditations on Mercy (R 5 )\n\n Last resort option if none of the above weapons are owned. Solely used as an ATK stat-stick as its passive is entirely unused on Augusta, but accessible as a guarantee thanks to being craftable.\n\n Best Echo Sets\n Best Echo Sets\n 100.00%\n\nCrown of Valor\n\n Augusta's best set bar none. Increases ATK and CRIT DMG by 6% and 4% for 4s respectively when a Shield is applied to the equipped character, stacking up to 5 times every 0.5s. This totals to 30% ATK and 20% CRIT DMG, which is the best set for Augusta in specific as she's the only character in the game who's able to fully stack up this effect.\n Best combined with your choice of:\n 2P\n Void Thunder\n\n (Recommended)\n 2P\n Endless Resonance\n\n Reel of Spliced Memories\n\n 2P\n Moonlit Clouds\n\n Empyrean Anthem\n\n Tidebreaking Courage\n\n Below you can find Main Echo options:\n\n The False Sovereign\n\n - A Transform and Summon echo similar to Nightmare: Kelpie, which gives 12% Electro and 12% Heavy DMG Bonus passively in the main slot, and unconditionally summons the Echo to deal DMG whenever an Intro skill is triggered, additionally having Transform casts for extra damage. One of them is typically used at the end of a rotation, the second cast is a bit more difficult to exploit and may require quickswapping to be utilized (difficult in a team with Augusta but not impossible). The best Echo for Augusta in any situation.\n\n Best Echo Stats\n 4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Electro DMG\n\n 3 cost\n Electro DMG > ATK%\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% = Heavy Attack DMG% > ATK > Resonance Skill DMG%\n\n Best Endgame Stats (Level 90)\n All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 14500+\n\n DEF: 1100+\n\n ATK: 2000-2800+\n\n CRIT Rate: 65-80%+\n\n CRIT DMG: 210-260%+\n\n Energy Regen: 116%-125%\n Lower end estimated in a team with Mortefi+Shorekeeper, higher end estimated in a team with Iuno+Shorekeeper.\n\n Electro DMG Bonus: 40-70%+\n\n Skill Priority\n Below you can find the order of leveling the abilities for Augusta .\n Res. Liberation\n\n Forte Circuit\n\n Basic Attack\n\n Res. Skill\n\n Intro Skill\n\n Skill and Intro can be skipped when levelling to save on resources at a minimal damage loss.\n\n Gameplay and teams\n\n Rotation\n Core Rotation\n Augusta aims to stack Ascendancy as quickly as possible in order to generate Majesty and cast her second Ultimate’s attack sequence, finishing her rotation. Below is the best way to do so.\n Echo Timing: Best used right at the end of the whole rotation (make sure to Swap Cancel it immediately after casting in order to optimize).\n Intro\n\n Heavy Attack: Backstep\n\n Heavy Attack: Spinslash\n\n Skill\n\n Heavy Attack: Backstep\n\n Heavy Attack: Spinslash\n\n Ultimate: Sword of Eternal Oath\n\n Forte: Skill: Undying Sunlight: Strike\n\n Forte: Skill: Undying Sunlight: Leap\n\n Forte: Skill: Undying Sunlight: Plunge\n\n Ultimate: Sublime is the Sun\n\n Ultimate: Sunborne (9 times)\n\n Ultimate: Everbright Protector\n\n Outro\n\n Additional Tips & Tricks\n Augusta’s core rotation is extremely simple with little to no tricks to it. This is because she will be under an Amplify Outro boost in her best teams, and switching out of Augusta during her rotation instantly ends this kind of buff. Additionally, her Outro skill mechanic forces the next character she Outros into not to be switched out of, and half of her damage is concentrated in abilities before her second Ultimate — all of this to say, she’s near-incompatible with quickswap playstyles.\n The best we can work with is some animation cancels and an extra The False Sovereign transform Echo cast prior to her rotation as well as when she ends it, performed at some point in your secondary buffer’s rotation, as follows:\n After your third character (the one Augusta has switched into) has cast their own Outro, try to cast one The False Sovereign active Echo Skill where it makes sense to do so (try to Swap Cancel an ability of your secondary character). If this isn’t possible to do without losing rotation time, then do not consider doing this.\n\n When Augusta finishes her second Ultimate attack sequence, make sure to cast one The False Sovereign active Echo Skill before immediately switching out to cast her Outro.\n\n Augusta can cancel the endlag on the Spinslashes in her rotation. What we mean is when the damage of Spinslash has fully come out, she can immediately follow with abilities that can chain together quicker than simply letting the animation fully play out, as follows:\n The first Spinslash’s endlag can be cancelled by her base Resonance Skill;\n\n The second Spinslash’s endlag can be cancelled by her base Ultimate.\n\n And to conclude, a few extra tips:\n Augusta can cancel the endlag on one of the Spinslashes in her rotation. What we mean is when the damage of the second Spinslash has fully come out, she can immediately follow with her Ultimate which can chain together quicker than simply letting the animation fully play out: hence, the second Spinslash’s endlag can be cancelled by her base Ultimate.\n\n If needed, since Augusta and her teammates have quick rotations, when playing optimally some filler attacks may need to be added depending on the team. In Augusta’s case, this isn’t a problem: simply go for a few normal attacks into an extra Backstep + Spinslash combo, or go for a Heavy Attack, cancel the endlag with a dash (else you would follow up with the undesirable Uppercut Heavy Attack) and then do the Backstep + Spinslash combo as normal (this second variant will be quicker).\n\n Additional warning: Augusta’s second Ultimate field instantly kills all on-field entities, including things such as Phrolova’s Hecate. This makes the synergy between the two close to unusable and should be considered when teambuilding.\n\n Synergies\n Iuno Lynae Rebecca Mortefi - These are the Outro buffers that pair best with Augusta. Iuno is the best by far due to her high personal damage and giving a whopping 90% DMG Amplification effect to Augusta in total, however Mortefi and Rebecca are close seconds in the Heavy DMG buffing department. Lynae may also prove more effective than those two in conjunction with Mornye as the extent of their generalist buffing potential is unparalleled.\n The Shorekeeper Verina Mornye - As the two best generalist Supports by heaps and bounds, it's no surprise Shorekeeper and Verina can slot in almost any team in the game as they provide high team-wide ATK% and 15% DMG Amplify. Shorekeeper additionally provides CRIT Rate and CRIT DMG, always making her the best third slot teammate for Augusta teams, but Verina is a close, more accessible second provided Shorekeeper isn't available. Mornye may also see niche use cases alongside Lynae and Rebecca due to their synergy with Tune Rupture and Hack mechanics respectively.\n Example Teams\n Team #1 - Best Team\n\n Mornye is more niche in use, only consider her with Rebecca or Lynae on the team (for Hack and Tune Rupture synergies respectively).\n\n Calculations"
+}

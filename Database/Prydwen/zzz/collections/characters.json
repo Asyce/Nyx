@@ -1,0 +1,2214 @@
+{
+  "id": "collection:characters",
+  "provider": "Prydwen",
+  "game": "zzz",
+  "gameName": "Zenless Zone Zero",
+  "collection": "characters",
+  "recordType": "collection",
+  "slug": "characters",
+  "name": "Zenless Zone Zero (ZZZ) Characters Build Guides",
+  "title": "Zenless Zone Zero (ZZZ) Characters Build Guides",
+  "sourcePath": "/zenless/characters",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "20/June/2026",
+  "meta": {
+    "title": "Zenless Zone Zero Characters - Agents & Builds",
+    "description": ""
+  },
+  "facts": {
+    "rarity": "A"
+  },
+  "assets": [
+    {
+      "id": "92fda35b19b5",
+      "sourceHash": "92fda35b19b5",
+      "kind": "categories",
+      "name": "Characters",
+      "fileStem": "category-characters",
+      "path": "Prydwen/zzz/assets/categories/characters-92fda35b19b5.webp",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "id": "180993e8877a",
+      "sourceHash": "180993e8877a",
+      "kind": "icons",
+      "name": "A",
+      "fileStem": "rarity-a",
+      "path": "Prydwen/zzz/assets/icons/a-180993e8877a.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "59d53db87dea",
+      "sourceHash": "59d53db87dea",
+      "kind": "icons",
+      "name": "S",
+      "fileStem": "rarity-s",
+      "path": "Prydwen/zzz/assets/icons/s-59d53db87dea.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "9f8e30ec8474",
+      "sourceHash": "9f8e30ec8474",
+      "kind": "icons",
+      "name": "Electric",
+      "fileStem": "ele-electric",
+      "path": "Prydwen/zzz/assets/icons/electric-9f8e30ec8474.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "7c3cb42f372d",
+      "sourceHash": "7c3cb42f372d",
+      "kind": "icons",
+      "name": "Ether",
+      "fileStem": "ele-ether",
+      "path": "Prydwen/zzz/assets/icons/ether-7c3cb42f372d.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "27a90975269c",
+      "sourceHash": "27a90975269c",
+      "kind": "icons",
+      "name": "Fire",
+      "fileStem": "ele-fire",
+      "path": "Prydwen/zzz/assets/icons/fire-27a90975269c.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "23c00d6d6b3e",
+      "sourceHash": "23c00d6d6b3e",
+      "kind": "icons",
+      "name": "Ice",
+      "fileStem": "ele-ice",
+      "path": "Prydwen/zzz/assets/icons/ice-23c00d6d6b3e.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "8a22818c00a2",
+      "sourceHash": "8a22818c00a2",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "ele-physical",
+      "path": "Prydwen/zzz/assets/icons/physical-8a22818c00a2.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "7fac1ffa5620",
+      "sourceHash": "7fac1ffa5620",
+      "kind": "icons",
+      "name": "Wind",
+      "fileStem": "ele-wind",
+      "path": "Prydwen/zzz/assets/icons/wind-7fac1ffa5620.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "883cade061c8",
+      "sourceHash": "883cade061c8",
+      "kind": "icons",
+      "name": "Anomaly",
+      "fileStem": "style-anomaly",
+      "path": "Prydwen/zzz/assets/icons/anomaly-883cade061c8.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "3183e920376c",
+      "sourceHash": "3183e920376c",
+      "kind": "icons",
+      "name": "Attack",
+      "fileStem": "style-attack",
+      "path": "Prydwen/zzz/assets/icons/attack-3183e920376c.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "45e0d1f45663",
+      "sourceHash": "45e0d1f45663",
+      "kind": "icons",
+      "name": "Defence",
+      "fileStem": "style-defence",
+      "path": "Prydwen/zzz/assets/icons/defence-45e0d1f45663.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "b6f384983a36",
+      "sourceHash": "b6f384983a36",
+      "kind": "icons",
+      "name": "Stun",
+      "fileStem": "style-stun",
+      "path": "Prydwen/zzz/assets/icons/stun-b6f384983a36.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "c5d48a29e423",
+      "sourceHash": "c5d48a29e423",
+      "kind": "icons",
+      "name": "Support",
+      "fileStem": "style-support",
+      "path": "Prydwen/zzz/assets/icons/support-c5d48a29e423.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "7239401e9a64",
+      "sourceHash": "7239401e9a64",
+      "kind": "icons",
+      "name": "Rupture",
+      "fileStem": "style-rupture",
+      "path": "Prydwen/zzz/assets/icons/rupture-7239401e9a64.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "3068331af0bc",
+      "sourceHash": "3068331af0bc",
+      "kind": "characters",
+      "name": "Alice",
+      "fileStem": "alice-card",
+      "path": "Prydwen/zzz/assets/characters/alice-3068331af0bc.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "420d54a053fa",
+      "sourceHash": "420d54a053fa",
+      "kind": "characters",
+      "name": "Anby",
+      "fileStem": "anby-demara-card",
+      "path": "Prydwen/zzz/assets/characters/anby-420d54a053fa.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "757f03b93a63",
+      "sourceHash": "757f03b93a63",
+      "kind": "characters",
+      "name": "Anby: Soldier 0",
+      "fileStem": "anby-demara-soldier-0-card",
+      "path": "Prydwen/zzz/assets/characters/anby-soldier-0-757f03b93a63.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "e474583d3963",
+      "sourceHash": "e474583d3963",
+      "kind": "characters",
+      "name": "Anton",
+      "fileStem": "anton-card",
+      "path": "Prydwen/zzz/assets/characters/anton-e474583d3963.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "85e6eab1e21b",
+      "sourceHash": "85e6eab1e21b",
+      "kind": "characters",
+      "name": "Aria",
+      "fileStem": "aria-card",
+      "path": "Prydwen/zzz/assets/characters/aria-85e6eab1e21b.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "9e47eb946906",
+      "sourceHash": "9e47eb946906",
+      "kind": "characters",
+      "name": "Astra Yao",
+      "fileStem": "astra-yao-card",
+      "path": "Prydwen/zzz/assets/characters/astra-yao-9e47eb946906.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "0c1cb4ce5ba5",
+      "sourceHash": "0c1cb4ce5ba5",
+      "kind": "characters",
+      "name": "Banyue",
+      "fileStem": "banyue-card",
+      "path": "Prydwen/zzz/assets/characters/banyue-0c1cb4ce5ba5.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "46b1afc0f1e3",
+      "sourceHash": "46b1afc0f1e3",
+      "kind": "characters",
+      "name": "Ben",
+      "fileStem": "ben-card",
+      "path": "Prydwen/zzz/assets/characters/ben-46b1afc0f1e3.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "6206f07f5204",
+      "sourceHash": "6206f07f5204",
+      "kind": "characters",
+      "name": "Billy",
+      "fileStem": "billy-kid-card",
+      "path": "Prydwen/zzz/assets/characters/billy-6206f07f5204.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "0ed8eb7c555e",
+      "sourceHash": "0ed8eb7c555e",
+      "kind": "characters",
+      "name": "Billy - Starlight",
+      "fileStem": "billy-starlight-card",
+      "path": "Prydwen/zzz/assets/characters/billy-starlight-0ed8eb7c555e.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "293c8567a0e0",
+      "sourceHash": "293c8567a0e0",
+      "kind": "characters",
+      "name": "Burnice",
+      "fileStem": "burnice-card",
+      "path": "Prydwen/zzz/assets/characters/burnice-293c8567a0e0.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "1391fa604454",
+      "sourceHash": "1391fa604454",
+      "kind": "characters",
+      "name": "Caesar",
+      "fileStem": "caesar-card",
+      "path": "Prydwen/zzz/assets/characters/caesar-1391fa604454.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "2e12f3602dee",
+      "sourceHash": "2e12f3602dee",
+      "kind": "characters",
+      "name": "Cissia",
+      "fileStem": "cissia-card",
+      "path": "Prydwen/zzz/assets/characters/cissia-2e12f3602dee.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "17fa415ab21f",
+      "sourceHash": "17fa415ab21f",
+      "kind": "characters",
+      "name": "Claret",
+      "fileStem": "claret-card",
+      "path": "Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "61bc3852fb48",
+      "sourceHash": "61bc3852fb48",
+      "kind": "characters",
+      "name": "Corin",
+      "fileStem": "corin-card",
+      "path": "Prydwen/zzz/assets/characters/corin-61bc3852fb48.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "0237631c9941",
+      "sourceHash": "0237631c9941",
+      "kind": "characters",
+      "name": "Dialyn",
+      "fileStem": "dialyn-card",
+      "path": "Prydwen/zzz/assets/characters/dialyn-0237631c9941.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "3b3592fe3c69",
+      "sourceHash": "3b3592fe3c69",
+      "kind": "characters",
+      "name": "Ellen",
+      "fileStem": "ellen-card",
+      "path": "Prydwen/zzz/assets/characters/ellen-3b3592fe3c69.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "a426018184c5",
+      "sourceHash": "a426018184c5",
+      "kind": "characters",
+      "name": "Evelyn",
+      "fileStem": "evelyn-card",
+      "path": "Prydwen/zzz/assets/characters/evelyn-a426018184c5.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "a5d17776bed9",
+      "sourceHash": "a5d17776bed9",
+      "kind": "characters",
+      "name": "Grace",
+      "fileStem": "grace-howard-card",
+      "path": "Prydwen/zzz/assets/characters/grace-a5d17776bed9.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "0942d53bcdf0",
+      "sourceHash": "0942d53bcdf0",
+      "kind": "characters",
+      "name": "Harumasa",
+      "fileStem": "harumasa-card",
+      "path": "Prydwen/zzz/assets/characters/harumasa-0942d53bcdf0.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "fde01c1b39cb",
+      "sourceHash": "fde01c1b39cb",
+      "kind": "characters",
+      "name": "Hugo",
+      "fileStem": "hugo-card",
+      "path": "Prydwen/zzz/assets/characters/hugo-fde01c1b39cb.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "59c7bcdfa19b",
+      "sourceHash": "59c7bcdfa19b",
+      "kind": "characters",
+      "name": "Jane Doe",
+      "fileStem": "jane-doe-card",
+      "path": "Prydwen/zzz/assets/characters/jane-doe-59c7bcdfa19b.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "ed2fd934b5c6",
+      "sourceHash": "ed2fd934b5c6",
+      "kind": "characters",
+      "name": "Ju Fufu",
+      "fileStem": "ju-fufu-card",
+      "path": "Prydwen/zzz/assets/characters/ju-fufu-ed2fd934b5c6.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "e10522f3c747",
+      "sourceHash": "e10522f3c747",
+      "kind": "characters",
+      "name": "Koleda",
+      "fileStem": "koleda-card",
+      "path": "Prydwen/zzz/assets/characters/koleda-e10522f3c747.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "f660ea594d47",
+      "sourceHash": "f660ea594d47",
+      "kind": "characters",
+      "name": "Lighter",
+      "fileStem": "lighter-card",
+      "path": "Prydwen/zzz/assets/characters/lighter-f660ea594d47.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "a0197eabc9aa",
+      "sourceHash": "a0197eabc9aa",
+      "kind": "characters",
+      "name": "Lucia",
+      "fileStem": "lucia-card",
+      "path": "Prydwen/zzz/assets/characters/lucia-a0197eabc9aa.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "d81b3141fde3",
+      "sourceHash": "d81b3141fde3",
+      "kind": "characters",
+      "name": "Lucy",
+      "fileStem": "lucy-card",
+      "path": "Prydwen/zzz/assets/characters/lucy-d81b3141fde3.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "e706e87c67e0",
+      "sourceHash": "e706e87c67e0",
+      "kind": "characters",
+      "name": "Lycaon",
+      "fileStem": "lycaon-card",
+      "path": "Prydwen/zzz/assets/characters/lycaon-e706e87c67e0.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "8bec1392bd95",
+      "sourceHash": "8bec1392bd95",
+      "kind": "characters",
+      "name": "Manato",
+      "fileStem": "manato-card",
+      "path": "Prydwen/zzz/assets/characters/manato-8bec1392bd95.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "6ec442dcf805",
+      "sourceHash": "6ec442dcf805",
+      "kind": "characters",
+      "name": "Miyabi",
+      "fileStem": "miyabi-card",
+      "path": "Prydwen/zzz/assets/characters/miyabi-6ec442dcf805.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "deeb7a57dd69",
+      "sourceHash": "deeb7a57dd69",
+      "kind": "icons",
+      "name": "Miyabi Ice element",
+      "fileStem": "ele-frost",
+      "path": "Prydwen/zzz/assets/icons/miyabi-ice-element-deeb7a57dd69.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "f9e4f44692a6",
+      "sourceHash": "f9e4f44692a6",
+      "kind": "characters",
+      "name": "Nangong Yu",
+      "fileStem": "nangong-yu-card",
+      "path": "Prydwen/zzz/assets/characters/nangong-yu-f9e4f44692a6.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "b9bdae637f03",
+      "sourceHash": "b9bdae637f03",
+      "kind": "characters",
+      "name": "Nekomata",
+      "fileStem": "nekomata-card",
+      "path": "Prydwen/zzz/assets/characters/nekomata-b9bdae637f03.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "dc98ff775994",
+      "sourceHash": "dc98ff775994",
+      "kind": "characters",
+      "name": "Nicole",
+      "fileStem": "nicole-demara-card",
+      "path": "Prydwen/zzz/assets/characters/nicole-dc98ff775994.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "37b562dcffd6",
+      "sourceHash": "37b562dcffd6",
+      "kind": "characters",
+      "name": "Norma",
+      "fileStem": "norma-card",
+      "path": "Prydwen/zzz/assets/characters/norma-37b562dcffd6.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "bfbdf4b3ab71",
+      "sourceHash": "bfbdf4b3ab71",
+      "kind": "characters",
+      "name": "Orphie & Magus",
+      "fileStem": "orphie-and-magus-card",
+      "path": "Prydwen/zzz/assets/characters/orphie-magus-bfbdf4b3ab71.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "51234ed58c65",
+      "sourceHash": "51234ed58c65",
+      "kind": "characters",
+      "name": "Pan Yinhu",
+      "fileStem": "pan-yinhu-card",
+      "path": "Prydwen/zzz/assets/characters/pan-yinhu-51234ed58c65.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "004477e43e6a",
+      "sourceHash": "004477e43e6a",
+      "kind": "characters",
+      "name": "Phoenix",
+      "fileStem": "phoenix-card",
+      "path": "Prydwen/zzz/assets/characters/phoenix-004477e43e6a.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "65240c1c1fef",
+      "sourceHash": "65240c1c1fef",
+      "kind": "characters",
+      "name": "Piper",
+      "fileStem": "piper-card",
+      "path": "Prydwen/zzz/assets/characters/piper-65240c1c1fef.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "a03c6cd391d2",
+      "sourceHash": "a03c6cd391d2",
+      "kind": "characters",
+      "name": "Promeia",
+      "fileStem": "promeia-card",
+      "path": "Prydwen/zzz/assets/characters/promeia-a03c6cd391d2.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "dc3c088abe6b",
+      "sourceHash": "dc3c088abe6b",
+      "kind": "characters",
+      "name": "Pulchra",
+      "fileStem": "pulchra-card",
+      "path": "Prydwen/zzz/assets/characters/pulchra-dc3c088abe6b.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "4b8909998042",
+      "sourceHash": "4b8909998042",
+      "kind": "characters",
+      "name": "Pyrois",
+      "fileStem": "pyrois-card",
+      "path": "Prydwen/zzz/assets/characters/pyrois-4b8909998042.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "d4428a1ed5b7",
+      "sourceHash": "d4428a1ed5b7",
+      "kind": "characters",
+      "name": "Qingyi",
+      "fileStem": "qingyi-card",
+      "path": "Prydwen/zzz/assets/characters/qingyi-d4428a1ed5b7.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "e8b52d52cf40",
+      "sourceHash": "e8b52d52cf40",
+      "kind": "characters",
+      "name": "Remielle",
+      "fileStem": "remielle-card",
+      "path": "Prydwen/zzz/assets/characters/remielle-e8b52d52cf40.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "c1e5e69afdcd",
+      "sourceHash": "c1e5e69afdcd",
+      "kind": "characters",
+      "name": "Rina",
+      "fileStem": "rina-card",
+      "path": "Prydwen/zzz/assets/characters/rina-c1e5e69afdcd.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "493c2cf722ad",
+      "sourceHash": "493c2cf722ad",
+      "kind": "characters",
+      "name": "Roxy",
+      "fileStem": "roxy-card",
+      "path": "Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "77ec54cdcb4f",
+      "sourceHash": "77ec54cdcb4f",
+      "kind": "characters",
+      "name": "Seed",
+      "fileStem": "seed-card",
+      "path": "Prydwen/zzz/assets/characters/seed-77ec54cdcb4f.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "e376b296a914",
+      "sourceHash": "e376b296a914",
+      "kind": "characters",
+      "name": "Seth",
+      "fileStem": "seth-card",
+      "path": "Prydwen/zzz/assets/characters/seth-e376b296a914.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "3825b4c9fad3",
+      "sourceHash": "3825b4c9fad3",
+      "kind": "characters",
+      "name": "Severian",
+      "fileStem": "severian-card",
+      "path": "Prydwen/zzz/assets/characters/severian-3825b4c9fad3.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "30ecebbe136b",
+      "sourceHash": "30ecebbe136b",
+      "kind": "characters",
+      "name": "Sigrid",
+      "fileStem": "sigrid-card",
+      "path": "Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "e38c6c583d4e",
+      "sourceHash": "e38c6c583d4e",
+      "kind": "characters",
+      "name": "Soldier 11",
+      "fileStem": "soldier-11-card",
+      "path": "Prydwen/zzz/assets/characters/soldier-11-e38c6c583d4e.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "023ed4ea14e8",
+      "sourceHash": "023ed4ea14e8",
+      "kind": "characters",
+      "name": "Soukaku",
+      "fileStem": "soukaku-card",
+      "path": "Prydwen/zzz/assets/characters/soukaku-023ed4ea14e8.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "dd4ba74d5d7d",
+      "sourceHash": "dd4ba74d5d7d",
+      "kind": "characters",
+      "name": "Sunbringer",
+      "fileStem": "sunbringer-card",
+      "path": "Prydwen/zzz/assets/characters/sunbringer-dd4ba74d5d7d.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "f8d4ae5bce0c",
+      "sourceHash": "f8d4ae5bce0c",
+      "kind": "characters",
+      "name": "Sunna",
+      "fileStem": "sunna-card",
+      "path": "Prydwen/zzz/assets/characters/sunna-f8d4ae5bce0c.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "3c5a2a31b657",
+      "sourceHash": "3c5a2a31b657",
+      "kind": "characters",
+      "name": "The Storyteller",
+      "fileStem": "the-storyteller-card",
+      "path": "Prydwen/zzz/assets/characters/the-storyteller-3c5a2a31b657.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "d5bdbb4a5e1f",
+      "sourceHash": "d5bdbb4a5e1f",
+      "kind": "characters",
+      "name": "Trigger",
+      "fileStem": "trigger-card",
+      "path": "Prydwen/zzz/assets/characters/trigger-d5bdbb4a5e1f.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "4d32c038d75f",
+      "sourceHash": "4d32c038d75f",
+      "kind": "characters",
+      "name": "Velina",
+      "fileStem": "velina-card",
+      "path": "Prydwen/zzz/assets/characters/velina-4d32c038d75f.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "482bcf62de00",
+      "sourceHash": "482bcf62de00",
+      "kind": "characters",
+      "name": "Vivian",
+      "fileStem": "vivian-card",
+      "path": "Prydwen/zzz/assets/characters/vivian-482bcf62de00.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "177b4ce659ce",
+      "sourceHash": "177b4ce659ce",
+      "kind": "characters",
+      "name": "Yanagi",
+      "fileStem": "yanagi-card",
+      "path": "Prydwen/zzz/assets/characters/yanagi-177b4ce659ce.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "df29444e0ab2",
+      "sourceHash": "df29444e0ab2",
+      "kind": "characters",
+      "name": "Ye Shunguang",
+      "fileStem": "ye-shunguang-card",
+      "path": "Prydwen/zzz/assets/characters/ye-shunguang-df29444e0ab2.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "56b7b502763c",
+      "sourceHash": "56b7b502763c",
+      "kind": "icons",
+      "name": "Ye Shunguang Physical element",
+      "fileStem": "ele-honest",
+      "path": "Prydwen/zzz/assets/icons/ye-shunguang-physical-element-56b7b502763c.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "c82ab9906959",
+      "sourceHash": "c82ab9906959",
+      "kind": "characters",
+      "name": "Yidhari",
+      "fileStem": "yidhari-card",
+      "path": "Prydwen/zzz/assets/characters/yidhari-c82ab9906959.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "ad55b88ea3b6",
+      "sourceHash": "ad55b88ea3b6",
+      "kind": "characters",
+      "name": "Yixuan",
+      "fileStem": "yixuan-card",
+      "path": "Prydwen/zzz/assets/characters/yixuan-ad55b88ea3b6.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "74d2a38784d3",
+      "sourceHash": "74d2a38784d3",
+      "kind": "icons",
+      "name": "Yixuan Ether element",
+      "fileStem": "ele-yi",
+      "path": "Prydwen/zzz/assets/icons/yixuan-ether-element-74d2a38784d3.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "67a7255fc026",
+      "sourceHash": "67a7255fc026",
+      "kind": "characters",
+      "name": "Yuzuha",
+      "fileStem": "ukinami-yuzuha-card",
+      "path": "Prydwen/zzz/assets/characters/yuzuha-67a7255fc026.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "f906d81225cd",
+      "sourceHash": "f906d81225cd",
+      "kind": "characters",
+      "name": "Zhao",
+      "fileStem": "zhao-card",
+      "path": "Prydwen/zzz/assets/characters/zhao-f906d81225cd.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "1a293fc449ae",
+      "sourceHash": "1a293fc449ae",
+      "kind": "characters",
+      "name": "Zhu Yuan",
+      "fileStem": "zhu-yuan-card",
+      "path": "Prydwen/zzz/assets/characters/zhu-yuan-1a293fc449ae.webp",
+      "width": 280,
+      "height": 400
+    }
+  ],
+  "sections": [
+    {
+      "id": "zenless-zone-zero-zzz-characters-build-guides-0",
+      "level": 1,
+      "heading": "Zenless Zone Zero (ZZZ) Characters Build Guides",
+      "text": "Browse all Zenless Zone Zero characters (Agents) with ZZZ build guides, W-Engines, Drive Discs, teams, attributes, roles, and factions.\n Last updated: 20/June/2026",
+      "assets": []
+    },
+    {
+      "id": "all-zenless-zone-zero-characters-1",
+      "level": 2,
+      "heading": "All Zenless Zone Zero Characters",
+      "text": "Showing 64 Agents\n ×\n\n Reset\n\n Alice\n\n Anby\n\n Anby: Soldier 0\n\n Anton\n\n Aria\n\n Astra Yao\n\n Banyue\n\n Ben\n\n Billy\n\n Billy - Starlight\n\n Burnice\n\n Caesar\n\n Cissia\n\n Claret 3.x\n\n Corin\n\n Dialyn\n\n Ellen\n\n Evelyn\n\n Grace\n\n Harumasa\n\n Hugo\n\n Jane Doe\n\n Ju Fufu\n\n Koleda\n\n Lighter\n\n Lucia\n\n Lucy\n\n Lycaon\n\n Manato\n\n Miyabi\n\n Nangong Yu\n\n Nekomata\n\n Nicole\n\n Norma 3.0\n\n Orphie & Magus\n\n Pan Yinhu\n\n Phoenix 3.x\n\n Piper\n\n Promeia\n\n Pulchra\n\n Pyrois New\n\n Qingyi\n\n Remielle 3.x\n\n Rina\n\n Roxy 3.x\n\n Seed\n\n Seth\n\n Severian 3.x\n\n Sigrid 3.1\n\n Soldier 11\n\n Soukaku\n\n Sunbringer 3.x\n\n Sunna\n\n The Storyteller 3.x\n\n Trigger\n\n Velina New\n\n Vivian\n\n Yanagi\n\n Ye Shunguang\n\n Yidhari\n\n Yixuan\n\n Yuzuha\n\n Zhao\n\n Zhu Yuan",
+      "assets": [
+        {
+          "id": "180993e8877a",
+          "sourceHash": "180993e8877a",
+          "kind": "icons",
+          "name": "A",
+          "fileStem": "rarity-a",
+          "path": "Prydwen/zzz/assets/icons/a-180993e8877a.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "59d53db87dea",
+          "sourceHash": "59d53db87dea",
+          "kind": "icons",
+          "name": "S",
+          "fileStem": "rarity-s",
+          "path": "Prydwen/zzz/assets/icons/s-59d53db87dea.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "9f8e30ec8474",
+          "sourceHash": "9f8e30ec8474",
+          "kind": "icons",
+          "name": "Electric",
+          "fileStem": "ele-electric",
+          "path": "Prydwen/zzz/assets/icons/electric-9f8e30ec8474.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "7c3cb42f372d",
+          "sourceHash": "7c3cb42f372d",
+          "kind": "icons",
+          "name": "Ether",
+          "fileStem": "ele-ether",
+          "path": "Prydwen/zzz/assets/icons/ether-7c3cb42f372d.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "27a90975269c",
+          "sourceHash": "27a90975269c",
+          "kind": "icons",
+          "name": "Fire",
+          "fileStem": "ele-fire",
+          "path": "Prydwen/zzz/assets/icons/fire-27a90975269c.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "23c00d6d6b3e",
+          "sourceHash": "23c00d6d6b3e",
+          "kind": "icons",
+          "name": "Ice",
+          "fileStem": "ele-ice",
+          "path": "Prydwen/zzz/assets/icons/ice-23c00d6d6b3e.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "8a22818c00a2",
+          "sourceHash": "8a22818c00a2",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "ele-physical",
+          "path": "Prydwen/zzz/assets/icons/physical-8a22818c00a2.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "7fac1ffa5620",
+          "sourceHash": "7fac1ffa5620",
+          "kind": "icons",
+          "name": "Wind",
+          "fileStem": "ele-wind",
+          "path": "Prydwen/zzz/assets/icons/wind-7fac1ffa5620.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "883cade061c8",
+          "sourceHash": "883cade061c8",
+          "kind": "icons",
+          "name": "Anomaly",
+          "fileStem": "style-anomaly",
+          "path": "Prydwen/zzz/assets/icons/anomaly-883cade061c8.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "3183e920376c",
+          "sourceHash": "3183e920376c",
+          "kind": "icons",
+          "name": "Attack",
+          "fileStem": "style-attack",
+          "path": "Prydwen/zzz/assets/icons/attack-3183e920376c.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "45e0d1f45663",
+          "sourceHash": "45e0d1f45663",
+          "kind": "icons",
+          "name": "Defence",
+          "fileStem": "style-defence",
+          "path": "Prydwen/zzz/assets/icons/defence-45e0d1f45663.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "b6f384983a36",
+          "sourceHash": "b6f384983a36",
+          "kind": "icons",
+          "name": "Stun",
+          "fileStem": "style-stun",
+          "path": "Prydwen/zzz/assets/icons/stun-b6f384983a36.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "c5d48a29e423",
+          "sourceHash": "c5d48a29e423",
+          "kind": "icons",
+          "name": "Support",
+          "fileStem": "style-support",
+          "path": "Prydwen/zzz/assets/icons/support-c5d48a29e423.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "7239401e9a64",
+          "sourceHash": "7239401e9a64",
+          "kind": "icons",
+          "name": "Rupture",
+          "fileStem": "style-rupture",
+          "path": "Prydwen/zzz/assets/icons/rupture-7239401e9a64.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "3068331af0bc",
+          "sourceHash": "3068331af0bc",
+          "kind": "characters",
+          "name": "Alice",
+          "fileStem": "alice-card",
+          "path": "Prydwen/zzz/assets/characters/alice-3068331af0bc.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "420d54a053fa",
+          "sourceHash": "420d54a053fa",
+          "kind": "characters",
+          "name": "Anby",
+          "fileStem": "anby-demara-card",
+          "path": "Prydwen/zzz/assets/characters/anby-420d54a053fa.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "757f03b93a63",
+          "sourceHash": "757f03b93a63",
+          "kind": "characters",
+          "name": "Anby: Soldier 0",
+          "fileStem": "anby-demara-soldier-0-card",
+          "path": "Prydwen/zzz/assets/characters/anby-soldier-0-757f03b93a63.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "e474583d3963",
+          "sourceHash": "e474583d3963",
+          "kind": "characters",
+          "name": "Anton",
+          "fileStem": "anton-card",
+          "path": "Prydwen/zzz/assets/characters/anton-e474583d3963.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "85e6eab1e21b",
+          "sourceHash": "85e6eab1e21b",
+          "kind": "characters",
+          "name": "Aria",
+          "fileStem": "aria-card",
+          "path": "Prydwen/zzz/assets/characters/aria-85e6eab1e21b.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "9e47eb946906",
+          "sourceHash": "9e47eb946906",
+          "kind": "characters",
+          "name": "Astra Yao",
+          "fileStem": "astra-yao-card",
+          "path": "Prydwen/zzz/assets/characters/astra-yao-9e47eb946906.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "0c1cb4ce5ba5",
+          "sourceHash": "0c1cb4ce5ba5",
+          "kind": "characters",
+          "name": "Banyue",
+          "fileStem": "banyue-card",
+          "path": "Prydwen/zzz/assets/characters/banyue-0c1cb4ce5ba5.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "46b1afc0f1e3",
+          "sourceHash": "46b1afc0f1e3",
+          "kind": "characters",
+          "name": "Ben",
+          "fileStem": "ben-card",
+          "path": "Prydwen/zzz/assets/characters/ben-46b1afc0f1e3.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "6206f07f5204",
+          "sourceHash": "6206f07f5204",
+          "kind": "characters",
+          "name": "Billy",
+          "fileStem": "billy-kid-card",
+          "path": "Prydwen/zzz/assets/characters/billy-6206f07f5204.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "0ed8eb7c555e",
+          "sourceHash": "0ed8eb7c555e",
+          "kind": "characters",
+          "name": "Billy - Starlight",
+          "fileStem": "billy-starlight-card",
+          "path": "Prydwen/zzz/assets/characters/billy-starlight-0ed8eb7c555e.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "293c8567a0e0",
+          "sourceHash": "293c8567a0e0",
+          "kind": "characters",
+          "name": "Burnice",
+          "fileStem": "burnice-card",
+          "path": "Prydwen/zzz/assets/characters/burnice-293c8567a0e0.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "1391fa604454",
+          "sourceHash": "1391fa604454",
+          "kind": "characters",
+          "name": "Caesar",
+          "fileStem": "caesar-card",
+          "path": "Prydwen/zzz/assets/characters/caesar-1391fa604454.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "2e12f3602dee",
+          "sourceHash": "2e12f3602dee",
+          "kind": "characters",
+          "name": "Cissia",
+          "fileStem": "cissia-card",
+          "path": "Prydwen/zzz/assets/characters/cissia-2e12f3602dee.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "17fa415ab21f",
+          "sourceHash": "17fa415ab21f",
+          "kind": "characters",
+          "name": "Claret",
+          "fileStem": "claret-card",
+          "path": "Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "61bc3852fb48",
+          "sourceHash": "61bc3852fb48",
+          "kind": "characters",
+          "name": "Corin",
+          "fileStem": "corin-card",
+          "path": "Prydwen/zzz/assets/characters/corin-61bc3852fb48.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "0237631c9941",
+          "sourceHash": "0237631c9941",
+          "kind": "characters",
+          "name": "Dialyn",
+          "fileStem": "dialyn-card",
+          "path": "Prydwen/zzz/assets/characters/dialyn-0237631c9941.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "3b3592fe3c69",
+          "sourceHash": "3b3592fe3c69",
+          "kind": "characters",
+          "name": "Ellen",
+          "fileStem": "ellen-card",
+          "path": "Prydwen/zzz/assets/characters/ellen-3b3592fe3c69.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "a426018184c5",
+          "sourceHash": "a426018184c5",
+          "kind": "characters",
+          "name": "Evelyn",
+          "fileStem": "evelyn-card",
+          "path": "Prydwen/zzz/assets/characters/evelyn-a426018184c5.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "a5d17776bed9",
+          "sourceHash": "a5d17776bed9",
+          "kind": "characters",
+          "name": "Grace",
+          "fileStem": "grace-howard-card",
+          "path": "Prydwen/zzz/assets/characters/grace-a5d17776bed9.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "0942d53bcdf0",
+          "sourceHash": "0942d53bcdf0",
+          "kind": "characters",
+          "name": "Harumasa",
+          "fileStem": "harumasa-card",
+          "path": "Prydwen/zzz/assets/characters/harumasa-0942d53bcdf0.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "fde01c1b39cb",
+          "sourceHash": "fde01c1b39cb",
+          "kind": "characters",
+          "name": "Hugo",
+          "fileStem": "hugo-card",
+          "path": "Prydwen/zzz/assets/characters/hugo-fde01c1b39cb.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "59c7bcdfa19b",
+          "sourceHash": "59c7bcdfa19b",
+          "kind": "characters",
+          "name": "Jane Doe",
+          "fileStem": "jane-doe-card",
+          "path": "Prydwen/zzz/assets/characters/jane-doe-59c7bcdfa19b.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "ed2fd934b5c6",
+          "sourceHash": "ed2fd934b5c6",
+          "kind": "characters",
+          "name": "Ju Fufu",
+          "fileStem": "ju-fufu-card",
+          "path": "Prydwen/zzz/assets/characters/ju-fufu-ed2fd934b5c6.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "e10522f3c747",
+          "sourceHash": "e10522f3c747",
+          "kind": "characters",
+          "name": "Koleda",
+          "fileStem": "koleda-card",
+          "path": "Prydwen/zzz/assets/characters/koleda-e10522f3c747.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "f660ea594d47",
+          "sourceHash": "f660ea594d47",
+          "kind": "characters",
+          "name": "Lighter",
+          "fileStem": "lighter-card",
+          "path": "Prydwen/zzz/assets/characters/lighter-f660ea594d47.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "a0197eabc9aa",
+          "sourceHash": "a0197eabc9aa",
+          "kind": "characters",
+          "name": "Lucia",
+          "fileStem": "lucia-card",
+          "path": "Prydwen/zzz/assets/characters/lucia-a0197eabc9aa.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "d81b3141fde3",
+          "sourceHash": "d81b3141fde3",
+          "kind": "characters",
+          "name": "Lucy",
+          "fileStem": "lucy-card",
+          "path": "Prydwen/zzz/assets/characters/lucy-d81b3141fde3.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "e706e87c67e0",
+          "sourceHash": "e706e87c67e0",
+          "kind": "characters",
+          "name": "Lycaon",
+          "fileStem": "lycaon-card",
+          "path": "Prydwen/zzz/assets/characters/lycaon-e706e87c67e0.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "8bec1392bd95",
+          "sourceHash": "8bec1392bd95",
+          "kind": "characters",
+          "name": "Manato",
+          "fileStem": "manato-card",
+          "path": "Prydwen/zzz/assets/characters/manato-8bec1392bd95.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "6ec442dcf805",
+          "sourceHash": "6ec442dcf805",
+          "kind": "characters",
+          "name": "Miyabi",
+          "fileStem": "miyabi-card",
+          "path": "Prydwen/zzz/assets/characters/miyabi-6ec442dcf805.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "deeb7a57dd69",
+          "sourceHash": "deeb7a57dd69",
+          "kind": "icons",
+          "name": "Miyabi Ice element",
+          "fileStem": "ele-frost",
+          "path": "Prydwen/zzz/assets/icons/miyabi-ice-element-deeb7a57dd69.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "f9e4f44692a6",
+          "sourceHash": "f9e4f44692a6",
+          "kind": "characters",
+          "name": "Nangong Yu",
+          "fileStem": "nangong-yu-card",
+          "path": "Prydwen/zzz/assets/characters/nangong-yu-f9e4f44692a6.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "b9bdae637f03",
+          "sourceHash": "b9bdae637f03",
+          "kind": "characters",
+          "name": "Nekomata",
+          "fileStem": "nekomata-card",
+          "path": "Prydwen/zzz/assets/characters/nekomata-b9bdae637f03.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "dc98ff775994",
+          "sourceHash": "dc98ff775994",
+          "kind": "characters",
+          "name": "Nicole",
+          "fileStem": "nicole-demara-card",
+          "path": "Prydwen/zzz/assets/characters/nicole-dc98ff775994.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "37b562dcffd6",
+          "sourceHash": "37b562dcffd6",
+          "kind": "characters",
+          "name": "Norma",
+          "fileStem": "norma-card",
+          "path": "Prydwen/zzz/assets/characters/norma-37b562dcffd6.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "bfbdf4b3ab71",
+          "sourceHash": "bfbdf4b3ab71",
+          "kind": "characters",
+          "name": "Orphie & Magus",
+          "fileStem": "orphie-and-magus-card",
+          "path": "Prydwen/zzz/assets/characters/orphie-magus-bfbdf4b3ab71.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "51234ed58c65",
+          "sourceHash": "51234ed58c65",
+          "kind": "characters",
+          "name": "Pan Yinhu",
+          "fileStem": "pan-yinhu-card",
+          "path": "Prydwen/zzz/assets/characters/pan-yinhu-51234ed58c65.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "004477e43e6a",
+          "sourceHash": "004477e43e6a",
+          "kind": "characters",
+          "name": "Phoenix",
+          "fileStem": "phoenix-card",
+          "path": "Prydwen/zzz/assets/characters/phoenix-004477e43e6a.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "65240c1c1fef",
+          "sourceHash": "65240c1c1fef",
+          "kind": "characters",
+          "name": "Piper",
+          "fileStem": "piper-card",
+          "path": "Prydwen/zzz/assets/characters/piper-65240c1c1fef.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "a03c6cd391d2",
+          "sourceHash": "a03c6cd391d2",
+          "kind": "characters",
+          "name": "Promeia",
+          "fileStem": "promeia-card",
+          "path": "Prydwen/zzz/assets/characters/promeia-a03c6cd391d2.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "dc3c088abe6b",
+          "sourceHash": "dc3c088abe6b",
+          "kind": "characters",
+          "name": "Pulchra",
+          "fileStem": "pulchra-card",
+          "path": "Prydwen/zzz/assets/characters/pulchra-dc3c088abe6b.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "4b8909998042",
+          "sourceHash": "4b8909998042",
+          "kind": "characters",
+          "name": "Pyrois",
+          "fileStem": "pyrois-card",
+          "path": "Prydwen/zzz/assets/characters/pyrois-4b8909998042.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "d4428a1ed5b7",
+          "sourceHash": "d4428a1ed5b7",
+          "kind": "characters",
+          "name": "Qingyi",
+          "fileStem": "qingyi-card",
+          "path": "Prydwen/zzz/assets/characters/qingyi-d4428a1ed5b7.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "e8b52d52cf40",
+          "sourceHash": "e8b52d52cf40",
+          "kind": "characters",
+          "name": "Remielle",
+          "fileStem": "remielle-card",
+          "path": "Prydwen/zzz/assets/characters/remielle-e8b52d52cf40.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "c1e5e69afdcd",
+          "sourceHash": "c1e5e69afdcd",
+          "kind": "characters",
+          "name": "Rina",
+          "fileStem": "rina-card",
+          "path": "Prydwen/zzz/assets/characters/rina-c1e5e69afdcd.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "493c2cf722ad",
+          "sourceHash": "493c2cf722ad",
+          "kind": "characters",
+          "name": "Roxy",
+          "fileStem": "roxy-card",
+          "path": "Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "77ec54cdcb4f",
+          "sourceHash": "77ec54cdcb4f",
+          "kind": "characters",
+          "name": "Seed",
+          "fileStem": "seed-card",
+          "path": "Prydwen/zzz/assets/characters/seed-77ec54cdcb4f.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "e376b296a914",
+          "sourceHash": "e376b296a914",
+          "kind": "characters",
+          "name": "Seth",
+          "fileStem": "seth-card",
+          "path": "Prydwen/zzz/assets/characters/seth-e376b296a914.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "3825b4c9fad3",
+          "sourceHash": "3825b4c9fad3",
+          "kind": "characters",
+          "name": "Severian",
+          "fileStem": "severian-card",
+          "path": "Prydwen/zzz/assets/characters/severian-3825b4c9fad3.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "30ecebbe136b",
+          "sourceHash": "30ecebbe136b",
+          "kind": "characters",
+          "name": "Sigrid",
+          "fileStem": "sigrid-card",
+          "path": "Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "e38c6c583d4e",
+          "sourceHash": "e38c6c583d4e",
+          "kind": "characters",
+          "name": "Soldier 11",
+          "fileStem": "soldier-11-card",
+          "path": "Prydwen/zzz/assets/characters/soldier-11-e38c6c583d4e.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "023ed4ea14e8",
+          "sourceHash": "023ed4ea14e8",
+          "kind": "characters",
+          "name": "Soukaku",
+          "fileStem": "soukaku-card",
+          "path": "Prydwen/zzz/assets/characters/soukaku-023ed4ea14e8.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "dd4ba74d5d7d",
+          "sourceHash": "dd4ba74d5d7d",
+          "kind": "characters",
+          "name": "Sunbringer",
+          "fileStem": "sunbringer-card",
+          "path": "Prydwen/zzz/assets/characters/sunbringer-dd4ba74d5d7d.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "f8d4ae5bce0c",
+          "sourceHash": "f8d4ae5bce0c",
+          "kind": "characters",
+          "name": "Sunna",
+          "fileStem": "sunna-card",
+          "path": "Prydwen/zzz/assets/characters/sunna-f8d4ae5bce0c.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "3c5a2a31b657",
+          "sourceHash": "3c5a2a31b657",
+          "kind": "characters",
+          "name": "The Storyteller",
+          "fileStem": "the-storyteller-card",
+          "path": "Prydwen/zzz/assets/characters/the-storyteller-3c5a2a31b657.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "d5bdbb4a5e1f",
+          "sourceHash": "d5bdbb4a5e1f",
+          "kind": "characters",
+          "name": "Trigger",
+          "fileStem": "trigger-card",
+          "path": "Prydwen/zzz/assets/characters/trigger-d5bdbb4a5e1f.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "4d32c038d75f",
+          "sourceHash": "4d32c038d75f",
+          "kind": "characters",
+          "name": "Velina",
+          "fileStem": "velina-card",
+          "path": "Prydwen/zzz/assets/characters/velina-4d32c038d75f.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "482bcf62de00",
+          "sourceHash": "482bcf62de00",
+          "kind": "characters",
+          "name": "Vivian",
+          "fileStem": "vivian-card",
+          "path": "Prydwen/zzz/assets/characters/vivian-482bcf62de00.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "177b4ce659ce",
+          "sourceHash": "177b4ce659ce",
+          "kind": "characters",
+          "name": "Yanagi",
+          "fileStem": "yanagi-card",
+          "path": "Prydwen/zzz/assets/characters/yanagi-177b4ce659ce.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "df29444e0ab2",
+          "sourceHash": "df29444e0ab2",
+          "kind": "characters",
+          "name": "Ye Shunguang",
+          "fileStem": "ye-shunguang-card",
+          "path": "Prydwen/zzz/assets/characters/ye-shunguang-df29444e0ab2.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "56b7b502763c",
+          "sourceHash": "56b7b502763c",
+          "kind": "icons",
+          "name": "Ye Shunguang Physical element",
+          "fileStem": "ele-honest",
+          "path": "Prydwen/zzz/assets/icons/ye-shunguang-physical-element-56b7b502763c.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "c82ab9906959",
+          "sourceHash": "c82ab9906959",
+          "kind": "characters",
+          "name": "Yidhari",
+          "fileStem": "yidhari-card",
+          "path": "Prydwen/zzz/assets/characters/yidhari-c82ab9906959.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "ad55b88ea3b6",
+          "sourceHash": "ad55b88ea3b6",
+          "kind": "characters",
+          "name": "Yixuan",
+          "fileStem": "yixuan-card",
+          "path": "Prydwen/zzz/assets/characters/yixuan-ad55b88ea3b6.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "74d2a38784d3",
+          "sourceHash": "74d2a38784d3",
+          "kind": "icons",
+          "name": "Yixuan Ether element",
+          "fileStem": "ele-yi",
+          "path": "Prydwen/zzz/assets/icons/yixuan-ether-element-74d2a38784d3.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "67a7255fc026",
+          "sourceHash": "67a7255fc026",
+          "kind": "characters",
+          "name": "Yuzuha",
+          "fileStem": "ukinami-yuzuha-card",
+          "path": "Prydwen/zzz/assets/characters/yuzuha-67a7255fc026.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "f906d81225cd",
+          "sourceHash": "f906d81225cd",
+          "kind": "characters",
+          "name": "Zhao",
+          "fileStem": "zhao-card",
+          "path": "Prydwen/zzz/assets/characters/zhao-f906d81225cd.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "1a293fc449ae",
+          "sourceHash": "1a293fc449ae",
+          "kind": "characters",
+          "name": "Zhu Yuan",
+          "fileStem": "zhu-yuan-card",
+          "path": "Prydwen/zzz/assets/characters/zhu-yuan-1a293fc449ae.webp",
+          "width": 280,
+          "height": 400
+        }
+      ]
+    }
+  ],
+  "recommendations": {},
+  "tables": [],
+  "text": "Zenless Zone Zero Characters - Agents & Builds\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Agents / Characters List\n\n Zenless Zone Zero (ZZZ) Characters Build Guides\n Browse all Zenless Zone Zero characters (Agents) with ZZZ build guides, W-Engines, Drive Discs, teams, attributes, roles, and factions.\n Last updated: 20/June/2026\n\n All Zenless Zone Zero Characters\n Showing 64 Agents\n ×\n\n Reset\n\n Alice\n\n Anby\n\n Anby: Soldier 0\n\n Anton\n\n Aria\n\n Astra Yao\n\n Banyue\n\n Ben\n\n Billy\n\n Billy - Starlight\n\n Burnice\n\n Caesar\n\n Cissia\n\n Claret 3.x\n\n Corin\n\n Dialyn\n\n Ellen\n\n Evelyn\n\n Grace\n\n Harumasa\n\n Hugo\n\n Jane Doe\n\n Ju Fufu\n\n Koleda\n\n Lighter\n\n Lucia\n\n Lucy\n\n Lycaon\n\n Manato\n\n Miyabi\n\n Nangong Yu\n\n Nekomata\n\n Nicole\n\n Norma 3.0\n\n Orphie & Magus\n\n Pan Yinhu\n\n Phoenix 3.x\n\n Piper\n\n Promeia\n\n Pulchra\n\n Pyrois New\n\n Qingyi\n\n Remielle 3.x\n\n Rina\n\n Roxy 3.x\n\n Seed\n\n Seth\n\n Severian 3.x\n\n Sigrid 3.1\n\n Soldier 11\n\n Soukaku\n\n Sunbringer 3.x\n\n Sunna\n\n The Storyteller 3.x\n\n Trigger\n\n Velina New\n\n Vivian\n\n Yanagi\n\n Ye Shunguang\n\n Yidhari\n\n Yixuan\n\n Yuzuha\n\n Zhao\n\n Zhu Yuan",
+  "entries": [
+    {
+      "id": "alice",
+      "slug": "alice",
+      "name": "Alice",
+      "sourcePath": "/zenless/characters/alice",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "anby-demara",
+      "slug": "anby-demara",
+      "name": "Anby",
+      "sourcePath": "/zenless/characters/anby-demara",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "anby-demara-soldier-0",
+      "slug": "anby-demara-soldier-0",
+      "name": "Anby: Soldier 0",
+      "sourcePath": "/zenless/characters/anby-demara-soldier-0",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "anton",
+      "slug": "anton",
+      "name": "Anton",
+      "sourcePath": "/zenless/characters/anton",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "aria",
+      "slug": "aria",
+      "name": "Aria",
+      "sourcePath": "/zenless/characters/aria",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "astra-yao",
+      "slug": "astra-yao",
+      "name": "Astra Yao",
+      "sourcePath": "/zenless/characters/astra-yao",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "banyue",
+      "slug": "banyue",
+      "name": "Banyue",
+      "sourcePath": "/zenless/characters/banyue",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "ben",
+      "slug": "ben",
+      "name": "Ben",
+      "sourcePath": "/zenless/characters/ben",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "billy-kid",
+      "slug": "billy-kid",
+      "name": "Billy",
+      "sourcePath": "/zenless/characters/billy-kid",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "billy-starlight",
+      "slug": "billy-starlight",
+      "name": "Billy - Starlight",
+      "sourcePath": "/zenless/characters/billy-starlight",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "burnice",
+      "slug": "burnice",
+      "name": "Burnice",
+      "sourcePath": "/zenless/characters/burnice",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "caesar",
+      "slug": "caesar",
+      "name": "Caesar",
+      "sourcePath": "/zenless/characters/caesar",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "cissia",
+      "slug": "cissia",
+      "name": "Cissia",
+      "sourcePath": "/zenless/characters/cissia",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "claret",
+      "slug": "claret",
+      "name": "Claret 3.x",
+      "sourcePath": "/zenless/characters/claret",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.x"
+      ]
+    },
+    {
+      "id": "corin",
+      "slug": "corin",
+      "name": "Corin",
+      "sourcePath": "/zenless/characters/corin",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "dialyn",
+      "slug": "dialyn",
+      "name": "Dialyn",
+      "sourcePath": "/zenless/characters/dialyn",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "ellen",
+      "slug": "ellen",
+      "name": "Ellen",
+      "sourcePath": "/zenless/characters/ellen",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "evelyn",
+      "slug": "evelyn",
+      "name": "Evelyn",
+      "sourcePath": "/zenless/characters/evelyn",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "grace-howard",
+      "slug": "grace-howard",
+      "name": "Grace",
+      "sourcePath": "/zenless/characters/grace-howard",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "harumasa",
+      "slug": "harumasa",
+      "name": "Harumasa",
+      "sourcePath": "/zenless/characters/harumasa",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "hugo",
+      "slug": "hugo",
+      "name": "Hugo",
+      "sourcePath": "/zenless/characters/hugo",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "jane-doe",
+      "slug": "jane-doe",
+      "name": "Jane Doe",
+      "sourcePath": "/zenless/characters/jane-doe",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "ju-fufu",
+      "slug": "ju-fufu",
+      "name": "Ju Fufu",
+      "sourcePath": "/zenless/characters/ju-fufu",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "koleda",
+      "slug": "koleda",
+      "name": "Koleda",
+      "sourcePath": "/zenless/characters/koleda",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "lighter",
+      "slug": "lighter",
+      "name": "Lighter",
+      "sourcePath": "/zenless/characters/lighter",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "lucia",
+      "slug": "lucia",
+      "name": "Lucia",
+      "sourcePath": "/zenless/characters/lucia",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "lucy",
+      "slug": "lucy",
+      "name": "Lucy",
+      "sourcePath": "/zenless/characters/lucy",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "lycaon",
+      "slug": "lycaon",
+      "name": "Lycaon",
+      "sourcePath": "/zenless/characters/lycaon",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "manato",
+      "slug": "manato",
+      "name": "Manato",
+      "sourcePath": "/zenless/characters/manato",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "miyabi",
+      "slug": "miyabi",
+      "name": "Miyabi",
+      "sourcePath": "/zenless/characters/miyabi",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "nangong-yu",
+      "slug": "nangong-yu",
+      "name": "Nangong Yu",
+      "sourcePath": "/zenless/characters/nangong-yu",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "nekomata",
+      "slug": "nekomata",
+      "name": "Nekomata",
+      "sourcePath": "/zenless/characters/nekomata",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "nicole-demara",
+      "slug": "nicole-demara",
+      "name": "Nicole",
+      "sourcePath": "/zenless/characters/nicole-demara",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "norma",
+      "slug": "norma",
+      "name": "Norma 3.0",
+      "sourcePath": "/zenless/characters/norma",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.0"
+      ]
+    },
+    {
+      "id": "orphie-and-magus",
+      "slug": "orphie-and-magus",
+      "name": "Orphie & Magus",
+      "sourcePath": "/zenless/characters/orphie-and-magus",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "pan-yinhu",
+      "slug": "pan-yinhu",
+      "name": "Pan Yinhu",
+      "sourcePath": "/zenless/characters/pan-yinhu",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "phoenix",
+      "slug": "phoenix",
+      "name": "Phoenix 3.x",
+      "sourcePath": "/zenless/characters/phoenix",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.x"
+      ]
+    },
+    {
+      "id": "piper",
+      "slug": "piper",
+      "name": "Piper",
+      "sourcePath": "/zenless/characters/piper",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "promeia",
+      "slug": "promeia",
+      "name": "Promeia",
+      "sourcePath": "/zenless/characters/promeia",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "pulchra",
+      "slug": "pulchra",
+      "name": "Pulchra",
+      "sourcePath": "/zenless/characters/pulchra",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "pyrois",
+      "slug": "pyrois",
+      "name": "Pyrois New",
+      "sourcePath": "/zenless/characters/pyrois",
+      "contentStatus": "live",
+      "statusLabels": [
+        "New"
+      ]
+    },
+    {
+      "id": "qingyi",
+      "slug": "qingyi",
+      "name": "Qingyi",
+      "sourcePath": "/zenless/characters/qingyi",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "remielle",
+      "slug": "remielle",
+      "name": "Remielle 3.x",
+      "sourcePath": "/zenless/characters/remielle",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.x"
+      ]
+    },
+    {
+      "id": "rina",
+      "slug": "rina",
+      "name": "Rina",
+      "sourcePath": "/zenless/characters/rina",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "roxy",
+      "slug": "roxy",
+      "name": "Roxy 3.x",
+      "sourcePath": "/zenless/characters/roxy",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.x"
+      ]
+    },
+    {
+      "id": "seed",
+      "slug": "seed",
+      "name": "Seed",
+      "sourcePath": "/zenless/characters/seed",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "seth",
+      "slug": "seth",
+      "name": "Seth",
+      "sourcePath": "/zenless/characters/seth",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "severian",
+      "slug": "severian",
+      "name": "Severian 3.x",
+      "sourcePath": "/zenless/characters/severian",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.x"
+      ]
+    },
+    {
+      "id": "sigrid",
+      "slug": "sigrid",
+      "name": "Sigrid 3.1",
+      "sourcePath": "/zenless/characters/sigrid",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.1"
+      ]
+    },
+    {
+      "id": "soldier-11",
+      "slug": "soldier-11",
+      "name": "Soldier 11",
+      "sourcePath": "/zenless/characters/soldier-11",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "soukaku",
+      "slug": "soukaku",
+      "name": "Soukaku",
+      "sourcePath": "/zenless/characters/soukaku",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "sunbringer",
+      "slug": "sunbringer",
+      "name": "Sunbringer 3.x",
+      "sourcePath": "/zenless/characters/sunbringer",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.x"
+      ]
+    },
+    {
+      "id": "sunna",
+      "slug": "sunna",
+      "name": "Sunna",
+      "sourcePath": "/zenless/characters/sunna",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "the-storyteller",
+      "slug": "the-storyteller",
+      "name": "The Storyteller 3.x",
+      "sourcePath": "/zenless/characters/the-storyteller",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.x"
+      ]
+    },
+    {
+      "id": "trigger",
+      "slug": "trigger",
+      "name": "Trigger",
+      "sourcePath": "/zenless/characters/trigger",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "velina",
+      "slug": "velina",
+      "name": "Velina New",
+      "sourcePath": "/zenless/characters/velina",
+      "contentStatus": "live",
+      "statusLabels": [
+        "New"
+      ]
+    },
+    {
+      "id": "vivian",
+      "slug": "vivian",
+      "name": "Vivian",
+      "sourcePath": "/zenless/characters/vivian",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "yanagi",
+      "slug": "yanagi",
+      "name": "Yanagi",
+      "sourcePath": "/zenless/characters/yanagi",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "ye-shunguang",
+      "slug": "ye-shunguang",
+      "name": "Ye Shunguang",
+      "sourcePath": "/zenless/characters/ye-shunguang",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "yidhari",
+      "slug": "yidhari",
+      "name": "Yidhari",
+      "sourcePath": "/zenless/characters/yidhari",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "yixuan",
+      "slug": "yixuan",
+      "name": "Yixuan",
+      "sourcePath": "/zenless/characters/yixuan",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "ukinami-yuzuha",
+      "slug": "ukinami-yuzuha",
+      "name": "Yuzuha",
+      "sourcePath": "/zenless/characters/ukinami-yuzuha",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "zhao",
+      "slug": "zhao",
+      "name": "Zhao",
+      "sourcePath": "/zenless/characters/zhao",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "zhu-yuan",
+      "slug": "zhu-yuan",
+      "name": "Zhu Yuan",
+      "sourcePath": "/zenless/characters/zhu-yuan",
+      "contentStatus": "live",
+      "statusLabels": []
+    }
+  ],
+  "detailPagesScraped": 64,
+  "detailPagesTotal": 64,
+  "staleDetailPagesRemoved": 0
+}

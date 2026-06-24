@@ -1,0 +1,200 @@
+{
+  "provider": "EndfieldWiki",
+  "game": "endfield",
+  "generatedAt": "2026-06-22T21:03:44.232Z",
+  "summary": {
+    "characters": {
+      "added": 29,
+      "removed": 0,
+      "changed": 0,
+      "unchanged": 0
+    }
+  },
+  "sections": {
+    "characters": {
+      "added": [
+        {
+          "id": "akekuri",
+          "name": "Akekuri",
+          "previousHash": null,
+          "currentHash": "66776a1b48f2a50a6b9af462f3f856d2fe7533d57e791a8da9c2cd100bad1361"
+        },
+        {
+          "id": "alesh",
+          "name": "Alesh",
+          "previousHash": null,
+          "currentHash": "f793de101a773cf2afdab17d45eee150de1f119ff63b80659aa92c277edfffeb"
+        },
+        {
+          "id": "antal",
+          "name": "Antal",
+          "previousHash": null,
+          "currentHash": "dd73fa9f83293b3e71f25c24551c388ceb91bd9bd6c88de507e30cc97e985429"
+        },
+        {
+          "id": "arclight",
+          "name": "Arclight",
+          "previousHash": null,
+          "currentHash": "eda649050d19a1d117899bdd8c900c168c0d50357a7de220769f9e3c27f4a304"
+        },
+        {
+          "id": "ardelia",
+          "name": "Ardelia",
+          "previousHash": null,
+          "currentHash": "c7e787084422b97182168c2a70e42a64ec998752fae9a3089d32b5f4110b37cb"
+        },
+        {
+          "id": "avywenna",
+          "name": "Avywenna",
+          "previousHash": null,
+          "currentHash": "c81a8b240f3dc38c54785540d0c5b8dd505ad7ae21905307bb22f549588296a9"
+        },
+        {
+          "id": "camille",
+          "name": "Camille",
+          "previousHash": null,
+          "currentHash": "94b1043c9d7e12f2738d0515e160129e3a18ca5c5161447e1b455963fcf762fb"
+        },
+        {
+          "id": "catcher",
+          "name": "Catcher",
+          "previousHash": null,
+          "currentHash": "1a1a62d17924c15effc1105653b05f657afaf43b5a42619af0ec4f59d654bee2"
+        },
+        {
+          "id": "chen-qianyu",
+          "name": "Chen Qianyu",
+          "previousHash": null,
+          "currentHash": "d5eaa3035d048609e712407308eb10a154e29debf38801ec0c977bf4f4fb00c4"
+        },
+        {
+          "id": "da-pan",
+          "name": "Da Pan",
+          "previousHash": null,
+          "currentHash": "7194e53bd939ed909f95cb733a9984690b4fa7dc58f88a8cd5c8beee53e5117c"
+        },
+        {
+          "id": "ember",
+          "name": "Ember",
+          "previousHash": null,
+          "currentHash": "31a6fd3dec0dcc02ce03bc1cd7552e84af1a6a6fb3b28aa67993e0ca917d6e4d"
+        },
+        {
+          "id": "endministrator-female",
+          "name": "Endministrator",
+          "previousHash": null,
+          "currentHash": "cd369919d6fa5d84c01b9a0c7ed4bf7ce0d5b1eb22c3e0621a8ddcb201df9bce"
+        },
+        {
+          "id": "endministrator-male",
+          "name": "Endministrator",
+          "previousHash": null,
+          "currentHash": "56ea1e0247b8d6a61306ab456e4d511a1d2cda7c16316e529a39cae172cccc00"
+        },
+        {
+          "id": "estella",
+          "name": "Estella",
+          "previousHash": null,
+          "currentHash": "6e6c3f1ebeb084e84e152d59879755833c4cb9e6a8f828232b23a9b5e5255bd1"
+        },
+        {
+          "id": "fluorite",
+          "name": "Fluorite",
+          "previousHash": null,
+          "currentHash": "6ef0e1e1b84c01e1a5473b0668877e6c5c7ca6472cd485dd5b4fcc183ce7c195"
+        },
+        {
+          "id": "gilberta",
+          "name": "Gilberta",
+          "previousHash": null,
+          "currentHash": "f4d42b97225d62f006ee7f25dc9488c74d94746fe0ee629ccfb740a561eaa630"
+        },
+        {
+          "id": "laevatain",
+          "name": "Laevatain",
+          "previousHash": null,
+          "currentHash": "9a80b6107953cfdea9e0efacfa5fe1e5e200f535a59f00fbe940d900b05a856d"
+        },
+        {
+          "id": "last-rite",
+          "name": "Last Rite",
+          "previousHash": null,
+          "currentHash": "a486fabe21043db3831db7d41045728a81e8721b71f0b7602d2fa76af445ffbf"
+        },
+        {
+          "id": "lifeng",
+          "name": "Lifeng",
+          "previousHash": null,
+          "currentHash": "448f38ff210f5a2e7b3788550b8e0b26b6d774117a7b41047555aedc8c3f0dc4"
+        },
+        {
+          "id": "mi-fu",
+          "name": "Mi Fu",
+          "previousHash": null,
+          "currentHash": "585f4535532dae8d6620415c424f165c211f3ef01c10c9f167211d965636b1a1"
+        },
+        {
+          "id": "perlica",
+          "name": "Perlica",
+          "previousHash": null,
+          "currentHash": "c25cf35f818ff97796bb773bb2c370ba197225e4b3991fa1f48ebe7735f63035"
+        },
+        {
+          "id": "pogranichnik",
+          "name": "Pogranichnik",
+          "previousHash": null,
+          "currentHash": "b75a51864cd36e916ab5115032a9a95c9ff64e249075163e6cb4dac30311d8b0"
+        },
+        {
+          "id": "rossi",
+          "name": "Rossi",
+          "previousHash": null,
+          "currentHash": "d8df46422f7acc660b4f0860f6419d984137ced98dc77a4d40af08491f0a94c4"
+        },
+        {
+          "id": "snowshine",
+          "name": "Snowshine",
+          "previousHash": null,
+          "currentHash": "a7a6db0808082b588efad63e82705f5403f5eadd052b54a25223fa462c327fb6"
+        },
+        {
+          "id": "tangtang",
+          "name": "Tangtang",
+          "previousHash": null,
+          "currentHash": "4b71615144ea53fc269f8e50cd116f00925a5186d9b3a46aae0c53a4318b9c5f"
+        },
+        {
+          "id": "wulfgard",
+          "name": "Wulfgard",
+          "previousHash": null,
+          "currentHash": "f85b8aa8ed4bf0293dec511a1b891dc9531eb948d2658ecdb70519963c80dd92"
+        },
+        {
+          "id": "xaihi",
+          "name": "Xaihi",
+          "previousHash": null,
+          "currentHash": "e0e53a11d560b866aa5b52798bd97cdcb4835b1eecc24dc48d0eb95d2e9f5e1d"
+        },
+        {
+          "id": "yvonne",
+          "name": "Yvonne",
+          "previousHash": null,
+          "currentHash": "2b62ec516f9a2d5ffe4c5d71dec58237a9458665743ff87e3d1eac5a800a0556"
+        },
+        {
+          "id": "zhuang-fangyi",
+          "name": "Zhuang Fangyi",
+          "previousHash": null,
+          "currentHash": "30988f8066e973e2afacf11e63367b4ce9d94c2b2d485dc00c961f0db3516f49"
+        }
+      ],
+      "removed": [],
+      "changed": [],
+      "unchanged": 0,
+      "totals": {
+        "previous": 0,
+        "current": 29
+      }
+    }
+  }
+}

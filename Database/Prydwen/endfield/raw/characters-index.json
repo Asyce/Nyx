@@ -1,0 +1,240 @@
+{
+  "provider": "Prydwen",
+  "game": "endfield",
+  "collection": "characters",
+  "sourcePath": "/arknights-endfield/characters",
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "detailPagesTotal": 28,
+  "detailPagesScraped": 28,
+  "staleDetailPagesRemoved": 0,
+  "items": [
+    {
+      "id": "akekuri",
+      "slug": "akekuri",
+      "name": "Akekuri",
+      "sourcePath": "/arknights-endfield/characters/akekuri",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "alesh",
+      "slug": "alesh",
+      "name": "Alesh",
+      "sourcePath": "/arknights-endfield/characters/alesh",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "antal",
+      "slug": "antal",
+      "name": "Antal",
+      "sourcePath": "/arknights-endfield/characters/antal",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "arclight",
+      "slug": "arclight",
+      "name": "Arclight",
+      "sourcePath": "/arknights-endfield/characters/arclight",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "ardelia",
+      "slug": "ardelia",
+      "name": "Ardelia",
+      "sourcePath": "/arknights-endfield/characters/ardelia",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "avywenna",
+      "slug": "avywenna",
+      "name": "Avywenna",
+      "sourcePath": "/arknights-endfield/characters/avywenna",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "camille",
+      "slug": "camille",
+      "name": "Camille Soon",
+      "sourcePath": "/arknights-endfield/characters/camille",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "Soon"
+      ]
+    },
+    {
+      "id": "catcher",
+      "slug": "catcher",
+      "name": "Catcher",
+      "sourcePath": "/arknights-endfield/characters/catcher",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "chen-qianyu",
+      "slug": "chen-qianyu",
+      "name": "Chen Qianyu",
+      "sourcePath": "/arknights-endfield/characters/chen-qianyu",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "da-pan",
+      "slug": "da-pan",
+      "name": "Da Pan",
+      "sourcePath": "/arknights-endfield/characters/da-pan",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "ember",
+      "slug": "ember",
+      "name": "Ember",
+      "sourcePath": "/arknights-endfield/characters/ember",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "endministrator",
+      "slug": "endministrator",
+      "name": "Endministrator",
+      "sourcePath": "/arknights-endfield/characters/endministrator",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "estella",
+      "slug": "estella",
+      "name": "Estella",
+      "sourcePath": "/arknights-endfield/characters/estella",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "fluorite",
+      "slug": "fluorite",
+      "name": "Fluorite",
+      "sourcePath": "/arknights-endfield/characters/fluorite",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "gilberta",
+      "slug": "gilberta",
+      "name": "Gilberta",
+      "sourcePath": "/arknights-endfield/characters/gilberta",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "laevatain",
+      "slug": "laevatain",
+      "name": "Laevatain",
+      "sourcePath": "/arknights-endfield/characters/laevatain",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "last-rite",
+      "slug": "last-rite",
+      "name": "Last Rite",
+      "sourcePath": "/arknights-endfield/characters/last-rite",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "lifeng",
+      "slug": "lifeng",
+      "name": "Lifeng",
+      "sourcePath": "/arknights-endfield/characters/lifeng",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "mi-fu",
+      "slug": "mi-fu",
+      "name": "Mi Fu New",
+      "sourcePath": "/arknights-endfield/characters/mi-fu",
+      "contentStatus": "live",
+      "statusLabels": [
+        "New"
+      ]
+    },
+    {
+      "id": "perlica",
+      "slug": "perlica",
+      "name": "Perlica",
+      "sourcePath": "/arknights-endfield/characters/perlica",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "pogranichnik",
+      "slug": "pogranichnik",
+      "name": "Pogranichnik",
+      "sourcePath": "/arknights-endfield/characters/pogranichnik",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "rossi",
+      "slug": "rossi",
+      "name": "Rossi",
+      "sourcePath": "/arknights-endfield/characters/rossi",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "snowshine",
+      "slug": "snowshine",
+      "name": "Snowshine",
+      "sourcePath": "/arknights-endfield/characters/snowshine",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "tangtang",
+      "slug": "tangtang",
+      "name": "Tangtang",
+      "sourcePath": "/arknights-endfield/characters/tangtang",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "wulfgard",
+      "slug": "wulfgard",
+      "name": "Wulfgard",
+      "sourcePath": "/arknights-endfield/characters/wulfgard",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "xaihi",
+      "slug": "xaihi",
+      "name": "Xaihi",
+      "sourcePath": "/arknights-endfield/characters/xaihi",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "yvonne",
+      "slug": "yvonne",
+      "name": "Yvonne",
+      "sourcePath": "/arknights-endfield/characters/yvonne",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "zhuang-fangyi",
+      "slug": "zhuang-fangyi",
+      "name": "Zhuang Fangyi",
+      "sourcePath": "/arknights-endfield/characters/zhuang-fangyi",
+      "contentStatus": "live",
+      "statusLabels": []
+    }
+  ]
+}

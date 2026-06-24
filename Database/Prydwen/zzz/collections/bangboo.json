@@ -1,0 +1,1739 @@
+{
+  "id": "collection:bangboo",
+  "provider": "Prydwen",
+  "game": "zzz",
+  "gameName": "Zenless Zone Zero",
+  "collection": "bangboo",
+  "recordType": "collection",
+  "slug": "bangboo",
+  "name": "Zenless Zone Zero Bangboo List",
+  "title": "Zenless Zone Zero Bangboo List",
+  "sourcePath": "/zenless/bangboo",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "22/June/2026",
+  "meta": {
+    "title": "Bangboo | Zenless Zone Zero",
+    "description": ""
+  },
+  "facts": {
+    "rarity": "A"
+  },
+  "assets": [
+    {
+      "id": "a63d2a7ff15f",
+      "sourceHash": "a63d2a7ff15f",
+      "kind": "categories",
+      "name": "Bangboo",
+      "fileStem": "category-bangboo",
+      "path": "Prydwen/zzz/assets/categories/bangboo-a63d2a7ff15f.webp",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "id": "180993e8877a",
+      "sourceHash": "180993e8877a",
+      "kind": "icons",
+      "name": "A",
+      "fileStem": "rarity-a",
+      "path": "Prydwen/zzz/assets/icons/a-180993e8877a.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "59d53db87dea",
+      "sourceHash": "59d53db87dea",
+      "kind": "icons",
+      "name": "S",
+      "fileStem": "rarity-s",
+      "path": "Prydwen/zzz/assets/icons/s-59d53db87dea.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "ab6b58efcb05",
+      "sourceHash": "ab6b58efcb05",
+      "kind": "misc",
+      "name": "Agent Gulliver",
+      "fileStem": "agent-gulliver",
+      "path": "Prydwen/zzz/assets/misc/agent-gulliver-ab6b58efcb05.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "3c85c5357003",
+      "sourceHash": "3c85c5357003",
+      "kind": "misc",
+      "name": "Amillion",
+      "fileStem": "amillion",
+      "path": "Prydwen/zzz/assets/misc/amillion-3c85c5357003.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "c31204bc956f",
+      "sourceHash": "c31204bc956f",
+      "kind": "misc",
+      "name": "Avocaboo",
+      "fileStem": "avocaboo",
+      "path": "Prydwen/zzz/assets/misc/avocaboo-c31204bc956f.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "0792836d4fb2",
+      "sourceHash": "0792836d4fb2",
+      "kind": "misc",
+      "name": "Baddieboo",
+      "fileStem": "baddieboo",
+      "path": "Prydwen/zzz/assets/misc/baddieboo-0792836d4fb2.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "49c26ad74528",
+      "sourceHash": "49c26ad74528",
+      "kind": "misc",
+      "name": "Bagboo",
+      "fileStem": "bagboo",
+      "path": "Prydwen/zzz/assets/misc/bagboo-49c26ad74528.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "1180813c5545",
+      "sourceHash": "1180813c5545",
+      "kind": "misc",
+      "name": "Bangvolver",
+      "fileStem": "bangvolver",
+      "path": "Prydwen/zzz/assets/misc/bangvolver-1180813c5545.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "d74eca6a71da",
+      "sourceHash": "d74eca6a71da",
+      "kind": "misc",
+      "name": "Belion",
+      "fileStem": "belion",
+      "path": "Prydwen/zzz/assets/misc/belion-d74eca6a71da.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "76b8dcb99073",
+      "sourceHash": "76b8dcb99073",
+      "kind": "misc",
+      "name": "Biggest Fan",
+      "fileStem": "biggest-fan",
+      "path": "Prydwen/zzz/assets/misc/biggest-fan-76b8dcb99073.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "934a18196210",
+      "sourceHash": "934a18196210",
+      "kind": "misc",
+      "name": "Bild N. Boolok",
+      "fileStem": "bild-n-boolok",
+      "path": "Prydwen/zzz/assets/misc/bild-n-boolok-934a18196210.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "01114b8a9c88",
+      "sourceHash": "01114b8a9c88",
+      "kind": "misc",
+      "name": "Birkblick",
+      "fileStem": "birkblick",
+      "path": "Prydwen/zzz/assets/misc/birkblick-01114b8a9c88.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "036cedfcf51e",
+      "sourceHash": "036cedfcf51e",
+      "kind": "misc",
+      "name": "Boollseye",
+      "fileStem": "boollseye",
+      "path": "Prydwen/zzz/assets/misc/boollseye-036cedfcf51e.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "90462cf1bde0",
+      "sourceHash": "90462cf1bde0",
+      "kind": "misc",
+      "name": "Booltergeist",
+      "fileStem": "booltergeist",
+      "path": "Prydwen/zzz/assets/misc/booltergeist-90462cf1bde0.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "e22c939cc13c",
+      "sourceHash": "e22c939cc13c",
+      "kind": "misc",
+      "name": "Booressure",
+      "fileStem": "booressure",
+      "path": "Prydwen/zzz/assets/misc/booressure-e22c939cc13c.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "582155a5cf3e",
+      "sourceHash": "582155a5cf3e",
+      "kind": "misc",
+      "name": "Brawlerboo",
+      "fileStem": "brawlerboo",
+      "path": "Prydwen/zzz/assets/misc/brawlerboo-582155a5cf3e.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "22b39e6bca38",
+      "sourceHash": "22b39e6bca38",
+      "kind": "misc",
+      "name": "Butler",
+      "fileStem": "butler",
+      "path": "Prydwen/zzz/assets/misc/butler-22b39e6bca38.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "dd6f84ef0f92",
+      "sourceHash": "dd6f84ef0f92",
+      "kind": "misc",
+      "name": "Cryboo",
+      "fileStem": "cryboo",
+      "path": "Prydwen/zzz/assets/misc/cryboo-dd6f84ef0f92.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "a9eabe02128e",
+      "sourceHash": "a9eabe02128e",
+      "kind": "misc",
+      "name": "Devilboo",
+      "fileStem": "devilboo",
+      "path": "Prydwen/zzz/assets/misc/devilboo-a9eabe02128e.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "14a4706f10cf",
+      "sourceHash": "14a4706f10cf",
+      "kind": "misc",
+      "name": "Electroboo",
+      "fileStem": "electroboo",
+      "path": "Prydwen/zzz/assets/misc/electroboo-14a4706f10cf.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "e336878028e9",
+      "sourceHash": "e336878028e9",
+      "kind": "misc",
+      "name": "Excaliboo",
+      "fileStem": "excaliboo",
+      "path": "Prydwen/zzz/assets/misc/excaliboo-e336878028e9.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "0c3c3a6ee512",
+      "sourceHash": "0c3c3a6ee512",
+      "kind": "misc",
+      "name": "Exploreboo",
+      "fileStem": "exploreboo",
+      "path": "Prydwen/zzz/assets/misc/exploreboo-0c3c3a6ee512.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "7a0bae415024",
+      "sourceHash": "7a0bae415024",
+      "kind": "misc",
+      "name": "Knightboo",
+      "fileStem": "knightboo",
+      "path": "Prydwen/zzz/assets/misc/knightboo-7a0bae415024.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "50dc905b691d",
+      "sourceHash": "50dc905b691d",
+      "kind": "misc",
+      "name": "Luckyboo",
+      "fileStem": "luckyboo",
+      "path": "Prydwen/zzz/assets/misc/luckyboo-50dc905b691d.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "84def8c80ad5",
+      "sourceHash": "84def8c80ad5",
+      "kind": "misc",
+      "name": "Magnetiboo",
+      "fileStem": "magnetiboo",
+      "path": "Prydwen/zzz/assets/misc/magnetiboo-84def8c80ad5.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "569540c0f126",
+      "sourceHash": "569540c0f126",
+      "kind": "misc",
+      "name": "Mercury",
+      "fileStem": "mercury",
+      "path": "Prydwen/zzz/assets/misc/mercury-569540c0f126.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "57396a338151",
+      "sourceHash": "57396a338151",
+      "kind": "misc",
+      "name": "Miss Esme",
+      "fileStem": "miss-esme",
+      "path": "Prydwen/zzz/assets/misc/miss-esme-57396a338151.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "5ad8db022026",
+      "sourceHash": "5ad8db022026",
+      "kind": "misc",
+      "name": "Officer Cui",
+      "fileStem": "officer-cui",
+      "path": "Prydwen/zzz/assets/misc/officer-cui-5ad8db022026.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "055265578e90",
+      "sourceHash": "055265578e90",
+      "kind": "misc",
+      "name": "Overtimeboo",
+      "fileStem": "overtimeboo",
+      "path": "Prydwen/zzz/assets/misc/overtimeboo-055265578e90.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "0670076bd8ee",
+      "sourceHash": "0670076bd8ee",
+      "kind": "misc",
+      "name": "Paperboo",
+      "fileStem": "paperboo",
+      "path": "Prydwen/zzz/assets/misc/paperboo-0670076bd8ee.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "a43ed9aa3f13",
+      "sourceHash": "a43ed9aa3f13",
+      "kind": "misc",
+      "name": "Penguinboo",
+      "fileStem": "penguinboo",
+      "path": "Prydwen/zzz/assets/misc/penguinboo-a43ed9aa3f13.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "116d31520d49",
+      "sourceHash": "116d31520d49",
+      "kind": "misc",
+      "name": "Plugboo",
+      "fileStem": "plugboo",
+      "path": "Prydwen/zzz/assets/misc/plugboo-116d31520d49.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "cf914b34eadf",
+      "sourceHash": "cf914b34eadf",
+      "kind": "misc",
+      "name": "Red Moccus",
+      "fileStem": "red-moccus",
+      "path": "Prydwen/zzz/assets/misc/red-moccus-cf914b34eadf.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "90539f8dd451",
+      "sourceHash": "90539f8dd451",
+      "kind": "misc",
+      "name": "Resonaboo",
+      "fileStem": "resonaboo",
+      "path": "Prydwen/zzz/assets/misc/resonaboo-90539f8dd451.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "ab688938179d",
+      "sourceHash": "ab688938179d",
+      "kind": "misc",
+      "name": "Robin",
+      "fileStem": "robin",
+      "path": "Prydwen/zzz/assets/misc/robin-ab688938179d.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "f37199bc75b5",
+      "sourceHash": "f37199bc75b5",
+      "kind": "misc",
+      "name": "Rocketboo",
+      "fileStem": "rocketboo",
+      "path": "Prydwen/zzz/assets/misc/rocketboo-f37199bc75b5.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "fb7644558fba",
+      "sourceHash": "fb7644558fba",
+      "kind": "misc",
+      "name": "Safety",
+      "fileStem": "safety",
+      "path": "Prydwen/zzz/assets/misc/safety-fb7644558fba.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "582d77a29467",
+      "sourceHash": "582d77a29467",
+      "kind": "misc",
+      "name": "Sharkboo",
+      "fileStem": "sharkboo",
+      "path": "Prydwen/zzz/assets/misc/sharkboo-582d77a29467.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "af00206675f1",
+      "sourceHash": "af00206675f1",
+      "kind": "misc",
+      "name": "Snap",
+      "fileStem": "snap",
+      "path": "Prydwen/zzz/assets/misc/snap-af00206675f1.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "5af9087a2e6d",
+      "sourceHash": "5af9087a2e6d",
+      "kind": "misc",
+      "name": "Sprout",
+      "fileStem": "sprout",
+      "path": "Prydwen/zzz/assets/misc/sprout-5af9087a2e6d.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "3f525d4baee3",
+      "sourceHash": "3f525d4baee3",
+      "kind": "misc",
+      "name": "Sumoboo",
+      "fileStem": "sumoboo",
+      "path": "Prydwen/zzz/assets/misc/sumoboo-3f525d4baee3.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "74ec1df4681f",
+      "sourceHash": "74ec1df4681f",
+      "kind": "misc",
+      "name": "Ultra Jake",
+      "fileStem": "ultra-jake",
+      "path": "Prydwen/zzz/assets/misc/ultra-jake-74ec1df4681f.webp",
+      "width": 70,
+      "height": 70
+    }
+  ],
+  "sections": [
+    {
+      "id": "zenless-zone-zero-bangboo-list-0",
+      "level": 1,
+      "heading": "Zenless Zone Zero Bangboo List",
+      "text": "Bangboo are 'pets' in Zenless Zone Zero that help your team - find every Bangboo available in the game below!\n Last updated: 22/June/2026",
+      "assets": []
+    },
+    {
+      "id": "bangboo-1",
+      "level": 2,
+      "heading": "Bangboo",
+      "text": "Showing 40 Bangboo\n ×\n\n Reset",
+      "assets": [
+        {
+          "id": "180993e8877a",
+          "sourceHash": "180993e8877a",
+          "kind": "icons",
+          "name": "A",
+          "fileStem": "rarity-a",
+          "path": "Prydwen/zzz/assets/icons/a-180993e8877a.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "59d53db87dea",
+          "sourceHash": "59d53db87dea",
+          "kind": "icons",
+          "name": "S",
+          "fileStem": "rarity-s",
+          "path": "Prydwen/zzz/assets/icons/s-59d53db87dea.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "ab6b58efcb05",
+          "sourceHash": "ab6b58efcb05",
+          "kind": "misc",
+          "name": "Agent Gulliver",
+          "fileStem": "agent-gulliver",
+          "path": "Prydwen/zzz/assets/misc/agent-gulliver-ab6b58efcb05.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "agent-gulliver-2",
+      "level": 2,
+      "heading": "Agent Gulliver",
+      "text": "Rarity: S -Rank",
+      "assets": [
+        {
+          "id": "3c85c5357003",
+          "sourceHash": "3c85c5357003",
+          "kind": "misc",
+          "name": "Amillion",
+          "fileStem": "amillion",
+          "path": "Prydwen/zzz/assets/misc/amillion-3c85c5357003.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "amillion-3",
+      "level": 2,
+      "heading": "Amillion",
+      "text": "Rarity: S -Rank",
+      "assets": [
+        {
+          "id": "c31204bc956f",
+          "sourceHash": "c31204bc956f",
+          "kind": "misc",
+          "name": "Avocaboo",
+          "fileStem": "avocaboo",
+          "path": "Prydwen/zzz/assets/misc/avocaboo-c31204bc956f.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "avocaboo-4",
+      "level": 2,
+      "heading": "Avocaboo",
+      "text": "Rarity: A -Rank",
+      "assets": [
+        {
+          "id": "0792836d4fb2",
+          "sourceHash": "0792836d4fb2",
+          "kind": "misc",
+          "name": "Baddieboo",
+          "fileStem": "baddieboo",
+          "path": "Prydwen/zzz/assets/misc/baddieboo-0792836d4fb2.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "baddieboo-5",
+      "level": 2,
+      "heading": "Baddieboo",
+      "text": "Rarity: A -Rank",
+      "assets": [
+        {
+          "id": "49c26ad74528",
+          "sourceHash": "49c26ad74528",
+          "kind": "misc",
+          "name": "Bagboo",
+          "fileStem": "bagboo",
+          "path": "Prydwen/zzz/assets/misc/bagboo-49c26ad74528.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "bagboo-6",
+      "level": 2,
+      "heading": "Bagboo",
+      "text": "Rarity: A -Rank",
+      "assets": [
+        {
+          "id": "1180813c5545",
+          "sourceHash": "1180813c5545",
+          "kind": "misc",
+          "name": "Bangvolver",
+          "fileStem": "bangvolver",
+          "path": "Prydwen/zzz/assets/misc/bangvolver-1180813c5545.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "bangvolver-7",
+      "level": 2,
+      "heading": "Bangvolver",
+      "text": "Rarity: S -Rank",
+      "assets": [
+        {
+          "id": "d74eca6a71da",
+          "sourceHash": "d74eca6a71da",
+          "kind": "misc",
+          "name": "Belion",
+          "fileStem": "belion",
+          "path": "Prydwen/zzz/assets/misc/belion-d74eca6a71da.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "belion-8",
+      "level": 2,
+      "heading": "Belion",
+      "text": "Rarity: S -Rank",
+      "assets": [
+        {
+          "id": "76b8dcb99073",
+          "sourceHash": "76b8dcb99073",
+          "kind": "misc",
+          "name": "Biggest Fan",
+          "fileStem": "biggest-fan",
+          "path": "Prydwen/zzz/assets/misc/biggest-fan-76b8dcb99073.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "biggest-fan-9",
+      "level": 2,
+      "heading": "Biggest Fan",
+      "text": "Rarity: S -Rank",
+      "assets": [
+        {
+          "id": "934a18196210",
+          "sourceHash": "934a18196210",
+          "kind": "misc",
+          "name": "Bild N. Boolok",
+          "fileStem": "bild-n-boolok",
+          "path": "Prydwen/zzz/assets/misc/bild-n-boolok-934a18196210.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "bild-n-boolok-10",
+      "level": 2,
+      "heading": "Bild N. Boolok",
+      "text": "Rarity: A -Rank",
+      "assets": [
+        {
+          "id": "01114b8a9c88",
+          "sourceHash": "01114b8a9c88",
+          "kind": "misc",
+          "name": "Birkblick",
+          "fileStem": "birkblick",
+          "path": "Prydwen/zzz/assets/misc/birkblick-01114b8a9c88.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "birkblick-11",
+      "level": 2,
+      "heading": "Birkblick",
+      "text": "Rarity: S -Rank",
+      "assets": [
+        {
+          "id": "036cedfcf51e",
+          "sourceHash": "036cedfcf51e",
+          "kind": "misc",
+          "name": "Boollseye",
+          "fileStem": "boollseye",
+          "path": "Prydwen/zzz/assets/misc/boollseye-036cedfcf51e.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "boollseye-12",
+      "level": 2,
+      "heading": "Boollseye",
+      "text": "Rarity: A -Rank",
+      "assets": [
+        {
+          "id": "90462cf1bde0",
+          "sourceHash": "90462cf1bde0",
+          "kind": "misc",
+          "name": "Booltergeist",
+          "fileStem": "booltergeist",
+          "path": "Prydwen/zzz/assets/misc/booltergeist-90462cf1bde0.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "booltergeist-13",
+      "level": 2,
+      "heading": "Booltergeist",
+      "text": "Rarity: A -Rank",
+      "assets": [
+        {
+          "id": "e22c939cc13c",
+          "sourceHash": "e22c939cc13c",
+          "kind": "misc",
+          "name": "Booressure",
+          "fileStem": "booressure",
+          "path": "Prydwen/zzz/assets/misc/booressure-e22c939cc13c.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "booressure-14",
+      "level": 2,
+      "heading": "Booressure",
+      "text": "Rarity: A -Rank",
+      "assets": [
+        {
+          "id": "582155a5cf3e",
+          "sourceHash": "582155a5cf3e",
+          "kind": "misc",
+          "name": "Brawlerboo",
+          "fileStem": "brawlerboo",
+          "path": "Prydwen/zzz/assets/misc/brawlerboo-582155a5cf3e.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "brawlerboo-15",
+      "level": 2,
+      "heading": "Brawlerboo",
+      "text": "Rarity: A -Rank",
+      "assets": [
+        {
+          "id": "22b39e6bca38",
+          "sourceHash": "22b39e6bca38",
+          "kind": "misc",
+          "name": "Butler",
+          "fileStem": "butler",
+          "path": "Prydwen/zzz/assets/misc/butler-22b39e6bca38.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "butler-16",
+      "level": 2,
+      "heading": "Butler",
+      "text": "Rarity: S -Rank",
+      "assets": [
+        {
+          "id": "dd6f84ef0f92",
+          "sourceHash": "dd6f84ef0f92",
+          "kind": "misc",
+          "name": "Cryboo",
+          "fileStem": "cryboo",
+          "path": "Prydwen/zzz/assets/misc/cryboo-dd6f84ef0f92.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "cryboo-17",
+      "level": 2,
+      "heading": "Cryboo",
+      "text": "Rarity: A -Rank",
+      "assets": [
+        {
+          "id": "a9eabe02128e",
+          "sourceHash": "a9eabe02128e",
+          "kind": "misc",
+          "name": "Devilboo",
+          "fileStem": "devilboo",
+          "path": "Prydwen/zzz/assets/misc/devilboo-a9eabe02128e.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "devilboo-18",
+      "level": 2,
+      "heading": "Devilboo",
+      "text": "Rarity: A -Rank",
+      "assets": [
+        {
+          "id": "14a4706f10cf",
+          "sourceHash": "14a4706f10cf",
+          "kind": "misc",
+          "name": "Electroboo",
+          "fileStem": "electroboo",
+          "path": "Prydwen/zzz/assets/misc/electroboo-14a4706f10cf.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "electroboo-19",
+      "level": 2,
+      "heading": "Electroboo",
+      "text": "Rarity: A -Rank",
+      "assets": [
+        {
+          "id": "e336878028e9",
+          "sourceHash": "e336878028e9",
+          "kind": "misc",
+          "name": "Excaliboo",
+          "fileStem": "excaliboo",
+          "path": "Prydwen/zzz/assets/misc/excaliboo-e336878028e9.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "excaliboo-20",
+      "level": 2,
+      "heading": "Excaliboo",
+      "text": "Rarity: A -Rank",
+      "assets": [
+        {
+          "id": "0c3c3a6ee512",
+          "sourceHash": "0c3c3a6ee512",
+          "kind": "misc",
+          "name": "Exploreboo",
+          "fileStem": "exploreboo",
+          "path": "Prydwen/zzz/assets/misc/exploreboo-0c3c3a6ee512.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "exploreboo-21",
+      "level": 2,
+      "heading": "Exploreboo",
+      "text": "Rarity: A -Rank",
+      "assets": [
+        {
+          "id": "7a0bae415024",
+          "sourceHash": "7a0bae415024",
+          "kind": "misc",
+          "name": "Knightboo",
+          "fileStem": "knightboo",
+          "path": "Prydwen/zzz/assets/misc/knightboo-7a0bae415024.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "knightboo-22",
+      "level": 2,
+      "heading": "Knightboo",
+      "text": "Rarity: A -Rank",
+      "assets": [
+        {
+          "id": "50dc905b691d",
+          "sourceHash": "50dc905b691d",
+          "kind": "misc",
+          "name": "Luckyboo",
+          "fileStem": "luckyboo",
+          "path": "Prydwen/zzz/assets/misc/luckyboo-50dc905b691d.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "luckyboo-23",
+      "level": 2,
+      "heading": "Luckyboo",
+      "text": "Rarity: A -Rank",
+      "assets": [
+        {
+          "id": "84def8c80ad5",
+          "sourceHash": "84def8c80ad5",
+          "kind": "misc",
+          "name": "Magnetiboo",
+          "fileStem": "magnetiboo",
+          "path": "Prydwen/zzz/assets/misc/magnetiboo-84def8c80ad5.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "magnetiboo-24",
+      "level": 2,
+      "heading": "Magnetiboo",
+      "text": "Rarity: A -Rank",
+      "assets": [
+        {
+          "id": "569540c0f126",
+          "sourceHash": "569540c0f126",
+          "kind": "misc",
+          "name": "Mercury",
+          "fileStem": "mercury",
+          "path": "Prydwen/zzz/assets/misc/mercury-569540c0f126.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "mercury-25",
+      "level": 2,
+      "heading": "Mercury",
+      "text": "Rarity: S -Rank",
+      "assets": [
+        {
+          "id": "57396a338151",
+          "sourceHash": "57396a338151",
+          "kind": "misc",
+          "name": "Miss Esme",
+          "fileStem": "miss-esme",
+          "path": "Prydwen/zzz/assets/misc/miss-esme-57396a338151.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "miss-esme-26",
+      "level": 2,
+      "heading": "Miss Esme",
+      "text": "Rarity: S -Rank",
+      "assets": [
+        {
+          "id": "5ad8db022026",
+          "sourceHash": "5ad8db022026",
+          "kind": "misc",
+          "name": "Officer Cui",
+          "fileStem": "officer-cui",
+          "path": "Prydwen/zzz/assets/misc/officer-cui-5ad8db022026.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "officer-cui-27",
+      "level": 2,
+      "heading": "Officer Cui",
+      "text": "Rarity: S -Rank",
+      "assets": [
+        {
+          "id": "055265578e90",
+          "sourceHash": "055265578e90",
+          "kind": "misc",
+          "name": "Overtimeboo",
+          "fileStem": "overtimeboo",
+          "path": "Prydwen/zzz/assets/misc/overtimeboo-055265578e90.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "overtimeboo-28",
+      "level": 2,
+      "heading": "Overtimeboo",
+      "text": "Rarity: A -Rank",
+      "assets": [
+        {
+          "id": "0670076bd8ee",
+          "sourceHash": "0670076bd8ee",
+          "kind": "misc",
+          "name": "Paperboo",
+          "fileStem": "paperboo",
+          "path": "Prydwen/zzz/assets/misc/paperboo-0670076bd8ee.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "paperboo-29",
+      "level": 2,
+      "heading": "Paperboo",
+      "text": "Rarity: A -Rank",
+      "assets": [
+        {
+          "id": "a43ed9aa3f13",
+          "sourceHash": "a43ed9aa3f13",
+          "kind": "misc",
+          "name": "Penguinboo",
+          "fileStem": "penguinboo",
+          "path": "Prydwen/zzz/assets/misc/penguinboo-a43ed9aa3f13.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "penguinboo-30",
+      "level": 2,
+      "heading": "Penguinboo",
+      "text": "Rarity: A -Rank",
+      "assets": [
+        {
+          "id": "116d31520d49",
+          "sourceHash": "116d31520d49",
+          "kind": "misc",
+          "name": "Plugboo",
+          "fileStem": "plugboo",
+          "path": "Prydwen/zzz/assets/misc/plugboo-116d31520d49.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "plugboo-31",
+      "level": 2,
+      "heading": "Plugboo",
+      "text": "Rarity: S -Rank",
+      "assets": [
+        {
+          "id": "cf914b34eadf",
+          "sourceHash": "cf914b34eadf",
+          "kind": "misc",
+          "name": "Red Moccus",
+          "fileStem": "red-moccus",
+          "path": "Prydwen/zzz/assets/misc/red-moccus-cf914b34eadf.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "red-moccus-32",
+      "level": 2,
+      "heading": "Red Moccus",
+      "text": "Rarity: S -Rank",
+      "assets": [
+        {
+          "id": "90539f8dd451",
+          "sourceHash": "90539f8dd451",
+          "kind": "misc",
+          "name": "Resonaboo",
+          "fileStem": "resonaboo",
+          "path": "Prydwen/zzz/assets/misc/resonaboo-90539f8dd451.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "resonaboo-33",
+      "level": 2,
+      "heading": "Resonaboo",
+      "text": "Rarity: S -Rank",
+      "assets": [
+        {
+          "id": "ab688938179d",
+          "sourceHash": "ab688938179d",
+          "kind": "misc",
+          "name": "Robin",
+          "fileStem": "robin",
+          "path": "Prydwen/zzz/assets/misc/robin-ab688938179d.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "robin-34",
+      "level": 2,
+      "heading": "Robin",
+      "text": "Rarity: S -Rank",
+      "assets": [
+        {
+          "id": "f37199bc75b5",
+          "sourceHash": "f37199bc75b5",
+          "kind": "misc",
+          "name": "Rocketboo",
+          "fileStem": "rocketboo",
+          "path": "Prydwen/zzz/assets/misc/rocketboo-f37199bc75b5.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "rocketboo-35",
+      "level": 2,
+      "heading": "Rocketboo",
+      "text": "Rarity: S -Rank",
+      "assets": [
+        {
+          "id": "fb7644558fba",
+          "sourceHash": "fb7644558fba",
+          "kind": "misc",
+          "name": "Safety",
+          "fileStem": "safety",
+          "path": "Prydwen/zzz/assets/misc/safety-fb7644558fba.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "safety-36",
+      "level": 2,
+      "heading": "Safety",
+      "text": "Rarity: S -Rank",
+      "assets": [
+        {
+          "id": "582d77a29467",
+          "sourceHash": "582d77a29467",
+          "kind": "misc",
+          "name": "Sharkboo",
+          "fileStem": "sharkboo",
+          "path": "Prydwen/zzz/assets/misc/sharkboo-582d77a29467.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "sharkboo-37",
+      "level": 2,
+      "heading": "Sharkboo",
+      "text": "Rarity: S -Rank",
+      "assets": [
+        {
+          "id": "af00206675f1",
+          "sourceHash": "af00206675f1",
+          "kind": "misc",
+          "name": "Snap",
+          "fileStem": "snap",
+          "path": "Prydwen/zzz/assets/misc/snap-af00206675f1.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "snap-38",
+      "level": 2,
+      "heading": "Snap",
+      "text": "Rarity: S -Rank",
+      "assets": [
+        {
+          "id": "5af9087a2e6d",
+          "sourceHash": "5af9087a2e6d",
+          "kind": "misc",
+          "name": "Sprout",
+          "fileStem": "sprout",
+          "path": "Prydwen/zzz/assets/misc/sprout-5af9087a2e6d.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "sprout-39",
+      "level": 2,
+      "heading": "Sprout",
+      "text": "Rarity: S -Rank",
+      "assets": [
+        {
+          "id": "3f525d4baee3",
+          "sourceHash": "3f525d4baee3",
+          "kind": "misc",
+          "name": "Sumoboo",
+          "fileStem": "sumoboo",
+          "path": "Prydwen/zzz/assets/misc/sumoboo-3f525d4baee3.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "sumoboo-40",
+      "level": 2,
+      "heading": "Sumoboo",
+      "text": "Rarity: A -Rank",
+      "assets": [
+        {
+          "id": "74ec1df4681f",
+          "sourceHash": "74ec1df4681f",
+          "kind": "misc",
+          "name": "Ultra Jake",
+          "fileStem": "ultra-jake",
+          "path": "Prydwen/zzz/assets/misc/ultra-jake-74ec1df4681f.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "ultra-jake-41",
+      "level": 2,
+      "heading": "Ultra Jake",
+      "text": "Rarity: S -Rank",
+      "assets": []
+    }
+  ],
+  "recommendations": {},
+  "tables": [],
+  "text": "Bangboo | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Bangboo List\n\n Zenless Zone Zero Bangboo List\n Bangboo are 'pets' in Zenless Zone Zero that help your team - find every Bangboo available in the game below!\n Last updated: 22/June/2026\n\n Bangboo\n Showing 40 Bangboo\n ×\n\n Reset\n\n Agent Gulliver\n Rarity: S -Rank\n\n Amillion\n Rarity: S -Rank\n\n Avocaboo\n Rarity: A -Rank\n\n Baddieboo\n Rarity: A -Rank\n\n Bagboo\n Rarity: A -Rank\n\n Bangvolver\n Rarity: S -Rank\n\n Belion\n Rarity: S -Rank\n\n Biggest Fan\n Rarity: S -Rank\n\n Bild N. Boolok\n Rarity: A -Rank\n\n Birkblick\n Rarity: S -Rank\n\n Boollseye\n Rarity: A -Rank\n\n Booltergeist\n Rarity: A -Rank\n\n Booressure\n Rarity: A -Rank\n\n Brawlerboo\n Rarity: A -Rank\n\n Butler\n Rarity: S -Rank\n\n Cryboo\n Rarity: A -Rank\n\n Devilboo\n Rarity: A -Rank\n\n Electroboo\n Rarity: A -Rank\n\n Excaliboo\n Rarity: A -Rank\n\n Exploreboo\n Rarity: A -Rank\n\n Knightboo\n Rarity: A -Rank\n\n Luckyboo\n Rarity: A -Rank\n\n Magnetiboo\n Rarity: A -Rank\n\n Mercury\n Rarity: S -Rank\n\n Miss Esme\n Rarity: S -Rank\n\n Officer Cui\n Rarity: S -Rank\n\n Overtimeboo\n Rarity: A -Rank\n\n Paperboo\n Rarity: A -Rank\n\n Penguinboo\n Rarity: A -Rank\n\n Plugboo\n Rarity: S -Rank\n\n Red Moccus\n Rarity: S -Rank\n\n Resonaboo\n Rarity: S -Rank\n\n Robin\n Rarity: S -Rank\n\n Rocketboo\n Rarity: S -Rank\n\n Safety\n Rarity: S -Rank\n\n Sharkboo\n Rarity: S -Rank\n\n Snap\n Rarity: S -Rank\n\n Sprout\n Rarity: S -Rank\n\n Sumoboo\n Rarity: A -Rank\n\n Ultra Jake\n Rarity: S -Rank",
+  "entries": [
+    {
+      "id": "agent-gulliver",
+      "name": "Agent Gulliver",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Agent Gulliver\nRarity: S -Rank"
+    },
+    {
+      "id": "amillion",
+      "name": "Amillion",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Amillion\nRarity: S -Rank"
+    },
+    {
+      "id": "avocaboo",
+      "name": "Avocaboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Avocaboo\nRarity: A -Rank"
+    },
+    {
+      "id": "baddieboo",
+      "name": "Baddieboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Baddieboo\nRarity: A -Rank"
+    },
+    {
+      "id": "bagboo",
+      "name": "Bagboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Bagboo\nRarity: A -Rank"
+    },
+    {
+      "id": "bangvolver",
+      "name": "Bangvolver",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Bangvolver\nRarity: S -Rank"
+    },
+    {
+      "id": "belion",
+      "name": "Belion",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Belion\nRarity: S -Rank"
+    },
+    {
+      "id": "biggest-fan",
+      "name": "Biggest Fan",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Biggest Fan\nRarity: S -Rank"
+    },
+    {
+      "id": "bild-n-boolok",
+      "name": "Bild N. Boolok",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Bild N. Boolok\nRarity: A -Rank"
+    },
+    {
+      "id": "birkblick",
+      "name": "Birkblick",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Birkblick\nRarity: S -Rank"
+    },
+    {
+      "id": "boollseye",
+      "name": "Boollseye",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Boollseye\nRarity: A -Rank"
+    },
+    {
+      "id": "booltergeist",
+      "name": "Booltergeist",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Booltergeist\nRarity: A -Rank"
+    },
+    {
+      "id": "booressure",
+      "name": "Booressure",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Booressure\nRarity: A -Rank"
+    },
+    {
+      "id": "brawlerboo",
+      "name": "Brawlerboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Brawlerboo\nRarity: A -Rank"
+    },
+    {
+      "id": "butler",
+      "name": "Butler",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Butler\nRarity: S -Rank"
+    },
+    {
+      "id": "cryboo",
+      "name": "Cryboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Cryboo\nRarity: A -Rank"
+    },
+    {
+      "id": "devilboo",
+      "name": "Devilboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Devilboo\nRarity: A -Rank"
+    },
+    {
+      "id": "electroboo",
+      "name": "Electroboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Electroboo\nRarity: A -Rank"
+    },
+    {
+      "id": "excaliboo",
+      "name": "Excaliboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Excaliboo\nRarity: A -Rank"
+    },
+    {
+      "id": "exploreboo",
+      "name": "Exploreboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Exploreboo\nRarity: A -Rank"
+    },
+    {
+      "id": "knightboo",
+      "name": "Knightboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Knightboo\nRarity: A -Rank"
+    },
+    {
+      "id": "luckyboo",
+      "name": "Luckyboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Luckyboo\nRarity: A -Rank"
+    },
+    {
+      "id": "magnetiboo",
+      "name": "Magnetiboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Magnetiboo\nRarity: A -Rank"
+    },
+    {
+      "id": "mercury",
+      "name": "Mercury",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Mercury\nRarity: S -Rank"
+    },
+    {
+      "id": "miss-esme",
+      "name": "Miss Esme",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Miss Esme\nRarity: S -Rank"
+    },
+    {
+      "id": "officer-cui",
+      "name": "Officer Cui",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Officer Cui\nRarity: S -Rank"
+    },
+    {
+      "id": "overtimeboo",
+      "name": "Overtimeboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Overtimeboo\nRarity: A -Rank"
+    },
+    {
+      "id": "paperboo",
+      "name": "Paperboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Paperboo\nRarity: A -Rank"
+    },
+    {
+      "id": "penguinboo",
+      "name": "Penguinboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Penguinboo\nRarity: A -Rank"
+    },
+    {
+      "id": "plugboo",
+      "name": "Plugboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Plugboo\nRarity: S -Rank"
+    },
+    {
+      "id": "red-moccus",
+      "name": "Red Moccus",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Red Moccus\nRarity: S -Rank"
+    },
+    {
+      "id": "resonaboo",
+      "name": "Resonaboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Resonaboo\nRarity: S -Rank"
+    },
+    {
+      "id": "robin",
+      "name": "Robin",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Robin\nRarity: S -Rank"
+    },
+    {
+      "id": "rocketboo",
+      "name": "Rocketboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Rocketboo\nRarity: S -Rank"
+    },
+    {
+      "id": "safety",
+      "name": "Safety",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Safety\nRarity: S -Rank"
+    },
+    {
+      "id": "sharkboo",
+      "name": "Sharkboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Sharkboo\nRarity: S -Rank"
+    },
+    {
+      "id": "snap",
+      "name": "Snap",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Snap\nRarity: S -Rank"
+    },
+    {
+      "id": "sprout",
+      "name": "Sprout",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Sprout\nRarity: S -Rank"
+    },
+    {
+      "id": "sumoboo",
+      "name": "Sumoboo",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "A -Rank"
+      },
+      "text": "Sumoboo\nRarity: A -Rank"
+    },
+    {
+      "id": "ultra-jake",
+      "name": "Ultra Jake",
+      "kind": "bangboo",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "rarity": "S -Rank"
+      },
+      "text": "Ultra Jake\nRarity: S -Rank"
+    }
+  ],
+  "detailPagesScraped": 0,
+  "detailPagesTotal": 0,
+  "staleDetailPagesRemoved": 0
+}

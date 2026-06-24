@@ -1,0 +1,1625 @@
+{
+  "id": "characters:jing-yuan",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "jing-yuan",
+  "name": "Jing Yuan",
+  "title": "Jing Yuan Best Build Guide",
+  "sourcePath": "/star-rail/characters/jing-yuan",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "31/May/2026",
+  "meta": {
+    "title": "Jing Yuan Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Lightning",
+    "path": "Erudition"
+  },
+  "assets": [
+    {
+      "id": "87407975cfe5",
+      "sourceHash": "87407975cfe5",
+      "kind": "characters",
+      "name": "Jing Yuan",
+      "fileStem": "jing-yuan-card",
+      "path": "Prydwen/hsr/assets/characters/jing-yuan-87407975cfe5.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "af5b8acc8f63",
+      "sourceHash": "af5b8acc8f63",
+      "kind": "icons",
+      "name": "CRIT Rate",
+      "fileStem": "stat-critrate",
+      "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "dc6aec4a7776",
+      "sourceHash": "dc6aec4a7776",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "a6be649090ba",
+      "sourceHash": "a6be649090ba",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "96654253a4f7",
+      "sourceHash": "96654253a4f7",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "087f2dec68b6",
+      "sourceHash": "087f2dec68b6",
+      "kind": "icons",
+      "name": "Speed",
+      "fileStem": "stat-speed",
+      "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "50d0e755383a",
+      "sourceHash": "50d0e755383a",
+      "kind": "items",
+      "name": "Credit",
+      "fileStem": "credit",
+      "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "9ab235265d65",
+      "sourceHash": "9ab235265d65",
+      "kind": "items",
+      "name": "Immortal Scionette",
+      "fileStem": "immortal-scionette",
+      "path": "Prydwen/hsr/assets/items/immortal-scionette-9ab235265d65.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "f09bb9ca1d6d",
+      "sourceHash": "f09bb9ca1d6d",
+      "kind": "items",
+      "name": "Immortal Aeroblossom",
+      "fileStem": "immortal-aeroblossom",
+      "path": "Prydwen/hsr/assets/items/immortal-aeroblossom-f09bb9ca1d6d.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "40ecb3e58a8d",
+      "sourceHash": "40ecb3e58a8d",
+      "kind": "items",
+      "name": "Shape Shifter's Lightning Staff",
+      "fileStem": "shape-shifters-lightning-staff",
+      "path": "Prydwen/hsr/assets/items/shape-shifters-lightning-staff-40ecb3e58a8d.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "f2f182d18e1a",
+      "sourceHash": "f2f182d18e1a",
+      "kind": "items",
+      "name": "Immortal Lumintwig",
+      "fileStem": "immortal-lumintwig",
+      "path": "Prydwen/hsr/assets/items/immortal-lumintwig-f2f182d18e1a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "388ef1942c9c",
+      "sourceHash": "388ef1942c9c",
+      "kind": "characters",
+      "name": "Jing Yuan",
+      "fileStem": "jing-yuan-full",
+      "path": "Prydwen/hsr/assets/characters/jing-yuan-388ef1942c9c.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "efdffaadc6e8",
+      "sourceHash": "efdffaadc6e8",
+      "kind": "light-cones",
+      "name": "Before Dawn",
+      "fileStem": "before-dawn",
+      "path": "Prydwen/hsr/assets/light-cones/before-dawn-efdffaadc6e8.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "ee0c4a5102b3",
+      "sourceHash": "ee0c4a5102b3",
+      "kind": "light-cones",
+      "name": "A Dream Scented in Wheat",
+      "fileStem": "a-dream-scented-in-wheat",
+      "path": "Prydwen/hsr/assets/light-cones/a-dream-scented-in-wheat-ee0c4a5102b3.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "1975a2492785",
+      "sourceHash": "1975a2492785",
+      "kind": "light-cones",
+      "name": "Today Is Another Peaceful Day",
+      "fileStem": "today-is-another-peaceful-day",
+      "path": "Prydwen/hsr/assets/light-cones/today-is-another-peaceful-day-1975a2492785.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "91e57edd022e",
+      "sourceHash": "91e57edd022e",
+      "kind": "light-cones",
+      "name": "Geniuses' Repose",
+      "fileStem": "geniuses-repose",
+      "path": "Prydwen/hsr/assets/light-cones/geniuses-repose-91e57edd022e.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "ab251a923606",
+      "sourceHash": "ab251a923606",
+      "kind": "light-cones",
+      "name": "The Seriousness of Breakfast",
+      "fileStem": "the-seriousness-of-breakfast",
+      "path": "Prydwen/hsr/assets/light-cones/the-seriousness-of-breakfast-ab251a923606.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "0edbfbfc2eca",
+      "sourceHash": "0edbfbfc2eca",
+      "kind": "relics",
+      "name": "The Ashblazing Grand Duke",
+      "fileStem": "the-ashblazing-grand-duke",
+      "path": "Prydwen/hsr/assets/relics/the-ashblazing-grand-duke-0edbfbfc2eca.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "a587afe51aae",
+      "sourceHash": "a587afe51aae",
+      "kind": "relics",
+      "name": "Band of Sizzling Thunder",
+      "fileStem": "band-of-sizzling-thunder",
+      "path": "Prydwen/hsr/assets/relics/band-of-sizzling-thunder-a587afe51aae.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "6e205de52037",
+      "sourceHash": "6e205de52037",
+      "kind": "relics",
+      "name": "Pioneer Diver of Dead Waters",
+      "fileStem": "pioneer-diver-of-dead-waters",
+      "path": "Prydwen/hsr/assets/relics/pioneer-diver-of-dead-waters-6e205de52037.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "f521b7a2ee25",
+      "sourceHash": "f521b7a2ee25",
+      "kind": "relics",
+      "name": "Scholar Lost in Erudition",
+      "fileStem": "scholar-lost-in-erudition",
+      "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "deeeca721276",
+      "sourceHash": "deeeca721276",
+      "kind": "relics",
+      "name": "Musketeer of Wild Wheat",
+      "fileStem": "musketeer-of-wild-wheat",
+      "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "507bb2127c32",
+      "sourceHash": "507bb2127c32",
+      "kind": "relics",
+      "name": "Prisoner in Deep Confinement",
+      "fileStem": "prisoner-in-deep-confinement",
+      "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "2d90f2919c5d",
+      "sourceHash": "2d90f2919c5d",
+      "kind": "relics",
+      "name": "The Wind-Soaring Valorous",
+      "fileStem": "the-wind-soaring-valorous",
+      "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "62f715257f39",
+      "sourceHash": "62f715257f39",
+      "kind": "relics",
+      "name": "The Wondrous BananAmusement Park",
+      "fileStem": "the-wondrous-bananamusement-park",
+      "path": "Prydwen/hsr/assets/relics/the-wondrous-bananamusement-park-62f715257f39.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d3afe42bdcff",
+      "sourceHash": "d3afe42bdcff",
+      "kind": "relics",
+      "name": "Inert Salsotto",
+      "fileStem": "inert-salsotto",
+      "path": "Prydwen/hsr/assets/relics/inert-salsotto-d3afe42bdcff.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "44c437b21b3a",
+      "sourceHash": "44c437b21b3a",
+      "kind": "icons",
+      "name": "CRIT DMG",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "4ef2b2a9e30c",
+      "sourceHash": "4ef2b2a9e30c",
+      "kind": "icons",
+      "name": "Lightning DMG",
+      "fileStem": "stat-lightningdmg",
+      "path": "Prydwen/hsr/assets/icons/lightning-dmg-4ef2b2a9e30c.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "3d568cb7f29d",
+      "sourceHash": "3d568cb7f29d",
+      "kind": "characters",
+      "name": "Sunday",
+      "fileStem": "sunday-icon",
+      "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "e985c6a49a99",
+      "sourceHash": "e985c6a49a99",
+      "kind": "characters",
+      "name": "Robin",
+      "fileStem": "robin-icon",
+      "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "113fc62e3664",
+      "sourceHash": "113fc62e3664",
+      "kind": "characters",
+      "name": "Jiaoqiu",
+      "fileStem": "jiaoqiu-icon",
+      "path": "Prydwen/hsr/assets/characters/jiaoqiu-113fc62e3664.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "b77207bce6c8",
+      "sourceHash": "b77207bce6c8",
+      "kind": "characters",
+      "name": "Ruan Mei",
+      "fileStem": "ruan-mei-icon",
+      "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "4f2eb19b0697",
+      "sourceHash": "4f2eb19b0697",
+      "kind": "characters",
+      "name": "Tingyun",
+      "fileStem": "tingyun-icon",
+      "path": "Prydwen/hsr/assets/characters/tingyun-4f2eb19b0697.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "da99d2d9a505",
+      "sourceHash": "da99d2d9a505",
+      "kind": "characters",
+      "name": "Sparkle",
+      "fileStem": "sparkle-icon",
+      "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "595561d19628",
+      "sourceHash": "595561d19628",
+      "kind": "characters",
+      "name": "Hanya",
+      "fileStem": "hanya-icon",
+      "path": "Prydwen/hsr/assets/characters/hanya-595561d19628.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "c4a9c00e98ef",
+      "sourceHash": "c4a9c00e98ef",
+      "kind": "characters",
+      "name": "Huohuo",
+      "fileStem": "huohuo-icon",
+      "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "0658046ea612",
+      "sourceHash": "0658046ea612",
+      "kind": "characters",
+      "name": "Aventurine",
+      "fileStem": "aventurine-icon",
+      "path": "Prydwen/hsr/assets/characters/aventurine-0658046ea612.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "0651f02efbd5",
+      "sourceHash": "0651f02efbd5",
+      "kind": "characters",
+      "name": "Jing Yuan",
+      "fileStem": "jing-yuan-icon",
+      "path": "Prydwen/hsr/assets/characters/jing-yuan-0651f02efbd5.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d197456869a0",
+      "sourceHash": "d197456869a0",
+      "kind": "icons",
+      "name": "Lightning",
+      "fileStem": "ele-lightning",
+      "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "913ff64407f2",
+      "sourceHash": "913ff64407f2",
+      "kind": "icons",
+      "name": "Imaginary",
+      "fileStem": "ele-imaginary",
+      "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "2cde7699adbf",
+      "sourceHash": "2cde7699adbf",
+      "kind": "characters",
+      "name": "Tribbie",
+      "fileStem": "tribbie-icon",
+      "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "565914d1a436",
+      "sourceHash": "565914d1a436",
+      "kind": "icons",
+      "name": "Quantum",
+      "fileStem": "ele-quantum",
+      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "714348f14d48",
+      "sourceHash": "714348f14d48",
+      "kind": "characters",
+      "name": "Dan Heng • Permansor Terrae",
+      "fileStem": "dan-heng-permansor-terrae-icon",
+      "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e0db16ed6c66",
+      "sourceHash": "e0db16ed6c66",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "ele-physical",
+      "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "99361e4717fa",
+      "sourceHash": "99361e4717fa",
+      "kind": "characters",
+      "name": "Mortenax Blade",
+      "fileStem": "blade-mortenax-icon",
+      "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "92feb26d8f0e",
+      "sourceHash": "92feb26d8f0e",
+      "kind": "icons",
+      "name": "Fire",
+      "fileStem": "ele-fire",
+      "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "ee11bd390c9a",
+      "sourceHash": "ee11bd390c9a",
+      "kind": "icons",
+      "name": "Wind",
+      "fileStem": "ele-wind",
+      "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "f380b4ccce3e",
+      "sourceHash": "f380b4ccce3e",
+      "kind": "characters",
+      "name": "Ashveil",
+      "fileStem": "ashveil-icon",
+      "path": "Prydwen/hsr/assets/characters/ashveil-f380b4ccce3e.webp",
+      "width": 60,
+      "height": 60
+    }
+  ],
+  "sections": [
+    {
+      "id": "jing-yuan-best-build-guide-0",
+      "level": 1,
+      "heading": "Jing Yuan Best Build Guide",
+      "text": "Last updated: 31/May/2026",
+      "assets": [
+        {
+          "id": "87407975cfe5",
+          "sourceHash": "87407975cfe5",
+          "kind": "characters",
+          "name": "Jing Yuan",
+          "fileStem": "jing-yuan-card",
+          "path": "Prydwen/hsr/assets/characters/jing-yuan-87407975cfe5.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Jing Yuan from HSR (Honkai: Star Rail). Jing Yuan is a 5 ★ character from the Lightning element who follows the Path of Erudition .\n Although his appearance may be one of indolence, the Cloud Knight general who commands the Xianzhou Luofu is more meticulous than seemingly meets the eye. He does not consider saving a situation from the brink of disaster to be a show of wisdom, and is thus fastidious with routine affairs to avoid any potential problems. Due to his careful management, the Xianzhou have enjoyed many years of peace, with Jing Yuan's seemingly lazy demeanor having earned him the moniker of \"Dozing General.\"\n\n To learn more about Jing Yuan check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Jing Yuan has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 2.7\n\n Last major build/calcs update\n Patch 4.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Jing Yuan check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic ATK\n Glistening Light\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Jing Yuan deals Lightning DMG equal to #1[i]% of his ATK to a single enemy.\n\n Skill\n Rifting Zenith\n AoE\n\n Lv. 1\n\n Energy gain: 30\n Break: 10\n\n Deals Lightning DMG equal to #1[i]% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by #2[i] for the next turn.\n\n Ultimate\n Lightbringer\n AoE | 130 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Deals Lightning DMG equal to #1[i]% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by #2[i] for the next turn.\n\n Talent\n Prana Extirpated\n Bounce\n\n Lv. 1\n\n Energy gain: 0\n Break: 5\n\n Summons Lightning-Lord at the start of the battle. Lightning-Lord has #1[i] base SPD and #4[i] base Hits Per Action. When the Lightning-Lord takes action, its hits are considered as follow-up attacks, with each hit dealing Lightning DMG equal to #2[i]% of Jing Yuan's ATK to a random single enemy, and enemies adjacent to it also receive Lightning DMG equal to #5[i]% of the DMG dealt to the target enemy.\nThe Lightning-Lord's Hits Per Action can reach a max of #6[i]. Every time Lightning-Lord's Hits Per Action increases by 1, its SPD increases by #3[i]. After the Lightning-Lord's action ends, its SPD and Hits Per Action return to their base values.\nWhen Jing Yuan is knocked down, the Lightning-Lord will disappear.\nWhen Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.\n\n Technique\n Spirit Invocation\n Enhance\n\n Energy gain: 0\n Break: -\n\n After the Technique is used, the Lightning-Lord's Hits Per Action in the first turn increases by #1[i] at the start of the next battle.",
+      "assets": []
+    },
+    {
+      "id": "major-traces-10",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "A2 Major trace\n Battalia Crush\n\n If the Lightning-Lord's Hits Per Action is greater or equal to 6 in the next turn, its CRIT DMG increases by 25% for the next turn.\n\n A4 Major trace\n Savant Providence\n\n At the start of the battle, immediately regenerates 15 Energy .\n\n A6 Major trace\n War Marshal\n\n After using Skill, CRIT Rate increases by 10% for 2 turn(s).",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-11",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "CRIT Rate\n + 12%\n\n ATK\n + 28%\n\n DEF\n + 12.5%",
+      "assets": [
+        {
+          "id": "af5b8acc8f63",
+          "sourceHash": "af5b8acc8f63",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-critrate",
+          "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "eidolons-12",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "E 1\n Slash, Seas Split\n Eidolon 1\n\n When Lightning-Lord attacks, the DMG multiplier on enemies adjacent to the target enemy increases by an extra amount equal to 25% of the DMG multiplier against the target enemy.\n\n E 2\n Swing, Skies Squashed\n Eidolon 2\n\n After Lightning-Lord takes action, DMG caused by Jing Yuan's Basic ATK, Skill, and Ultimate increases by 20% for 2 turn(s).\n\n E 3\n Strike, Suns Subdued\n Eidolon 3\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15 . Basic ATK Lv. +1 , up to a maximum of Lv. 10 .\n\n E 4\n Spin, Stars Sieged\n Eidolon 4\n\n For each hit performed by the Lightning-Lord when it takes action, Jing Yuan regenerates 2 Energy.\n\n E 5\n Stride, Spoils Seized\n Eidolon 5\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Sweep, Souls Slain\n Eidolon 6\n\n Each hit performed by the Lightning-Lord when it takes action will make the target enemy Vulnerable. While Vulnerable, enemies receive 12% more DMG until the end of the Lightning-Lord's current turn, stacking up to 3 time(s).",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-13",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Enable Ascension",
+      "assets": []
+    },
+    {
+      "id": "level-80-stats-14",
+      "level": 5,
+      "heading": "Level 80 stats",
+      "text": "HP\n\n 1164\n\n ATK\n\n 698\n\n DEF\n\n 485\n\n Speed\n\n 99",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "level-1-80-ascension-materials-15",
+      "level": 5,
+      "heading": "Level 1 → 80 Ascension Materials",
+      "text": "Credit\n\n x 308000\n\n Immortal Scionette\n\n x 15\n\n Immortal Aeroblossom\n\n x 15\n\n Shape Shifter's Lightning Staff\n\n x 65\n\n Immortal Lumintwig\n\n x 15",
+      "assets": [
+        {
+          "id": "50d0e755383a",
+          "sourceHash": "50d0e755383a",
+          "kind": "items",
+          "name": "Credit",
+          "fileStem": "credit",
+          "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "9ab235265d65",
+          "sourceHash": "9ab235265d65",
+          "kind": "items",
+          "name": "Immortal Scionette",
+          "fileStem": "immortal-scionette",
+          "path": "Prydwen/hsr/assets/items/immortal-scionette-9ab235265d65.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "f09bb9ca1d6d",
+          "sourceHash": "f09bb9ca1d6d",
+          "kind": "items",
+          "name": "Immortal Aeroblossom",
+          "fileStem": "immortal-aeroblossom",
+          "path": "Prydwen/hsr/assets/items/immortal-aeroblossom-f09bb9ca1d6d.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "40ecb3e58a8d",
+          "sourceHash": "40ecb3e58a8d",
+          "kind": "items",
+          "name": "Shape Shifter's Lightning Staff",
+          "fileStem": "shape-shifters-lightning-staff",
+          "path": "Prydwen/hsr/assets/items/shape-shifters-lightning-staff-40ecb3e58a8d.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "f2f182d18e1a",
+          "sourceHash": "f2f182d18e1a",
+          "kind": "items",
+          "name": "Immortal Lumintwig",
+          "fileStem": "immortal-lumintwig",
+          "path": "Prydwen/hsr/assets/items/immortal-lumintwig-f2f182d18e1a.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "cv-16",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n Alejandro Saab\n\n JPN\n Ono Daisuke (小野大輔)\n\n CN\n Sun Ye (孫曄)\n\n KR\n Ryu Seung-gon (류승곤)",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "388ef1942c9c",
+          "sourceHash": "388ef1942c9c",
+          "kind": "characters",
+          "name": "Jing Yuan",
+          "fileStem": "jing-yuan-full",
+          "path": "Prydwen/hsr/assets/characters/jing-yuan-388ef1942c9c.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Great AoE damage combined with decent single-target damage,\n\n Very versatile, making him a viable choice in any mode,\n\n Great at Breaking as each Lightning Lord attack is treated as a separate damage instance,\n\n Indirectly buffed by Hoyo every other patch by releasing new Relics or characters (like Sunday),\n\n A freaking Stand.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Crowd Control - if Jing Yuan gets CCed, Lightning Lord will lose its turn which is a massive damage loss,\n\n If you don't have Sunday, his performance is drastically reduced - no other Amplifier can currently replace him.",
+      "assets": []
+    },
+    {
+      "id": "review-by-sushou-21",
+      "level": 2,
+      "heading": "Review (By Sushou)",
+      "text": "The Dozing General of the Xianzhou Luofu is undeniably a strong and intimidating character. Jing Yuan is able to dole out great single-target damage in addition to already impressive AoE damage, and has bonus Crit stats for free that turn his already impressive damage up a notch.\n Interestingly enough, you wouldn’t be able to tell how strong he can be with just a glance at his overall multipliers—they look rather modest, and that’s putting it generously… right ? You wouldn’t know it, but the vast majority of Jing Yuan’s damage in combat comes from his talent! Where on earth does that damage come from?\n Well, this is unfortunately a failure on the part of the skill description of Jing Yuan’s talent mostly. See, Jing Yuan is always shadowed by an additional in-combat entity, his Lightning Lord. Lightning Lord has its own Speed value and will act independently of Jing Yuan, and if Jing Yuan is downed in combat, Lightning Lord will also peace out.\n The talent description is quite verbose and is rather confusing, resulting in many people severely underrating Jing Yuan as a character. Let’s try and break it down.\n Lightning Lord’s attacks target a random enemy, dealing 25% of its damage to adjacent targets. Its attacks are considered follow-ups, and Lightning Lord has the base values of 60 Speed, and an Attack Count of 3. One Attack Count equates to dealing up to 66% of Jing Yuan’s atk at max trace level, which means Lightning Lord’s base damage with its base 3 Attack Count is up to 198% of Jing Yuan’s atk. Any further increases to this Attack Count will add on the value of 1 Attack Count to the current total.\n This means that you just take the base multiplier and multiply it by the current Attack Count to work out how much damage Lightning Lord’s attack will deal. Since the absolute maximum amount of Attack Count is 10, this means Lightning Lord’s attack can deal at most up to 660% of Jing Yuan’s attack, and that’s if it’s only on one target. If there are multiple enemies all taking splash damage from each hit, it skyrockets to a theoretical maximum of 990%. Yeah, now you see where the ridiculous damage comes from.\n An important clarification is that each Attack Count introduces the increased damage as a whole new instance of damage. This means at 10 stacks, it deals that 660% multiplier as 10 separate hits of 66%, with each one targeting different enemies and splashing onto foes adjacent to them. This spreads the total damage out relatively evenly across all targets, with only some slight losses occurring if some of the damage targets corner targets (thus losing half of the splash damage), but overall is a quite consistent AoE damage tool. More obviously, in single-target scenarios, all of that damage gets concentrated on that one target, creating quite the damage nuke.\n In addition to this, every time Lightning Lord’s Attack Count increases by 1, it will gain 10 extra Speed. This pushes its turn forward and allows Lightning Lord to get more attacks over the course of a fight. The reason this is important to facilitate is that as mentioned previously, the max Attack Count is 10, so if Jing Yuan is somehow able to act again before Lightning Lord attacks, you can end up losing out on damage due to overcapping the Attack Count. In practice, this is extremely unlikely unless you turbo-stack Speed onto Jing Yuan.\n Because each Attack Count adds the same amount of damage to Lightning Lord’s next attack, the damage gains from each stack are entirely linear (with one caveat discussed later), but you ideally want to be getting stacks as high as possible for speed purposes. After Lightning Lord attacks, its Attack Count will return back to the base value of 3, and its speed will also return to the base value of 60.\n The way Jing Yuan increases the Attack Count of Lightning Lord is through his Skill and his Ultimate, and getting more uses out of each will increase the rate at which Lightning Lord can slam its heavenly spear directly through your enemies.\n Jing Yuan’s skill deals AoE damage to all foes on the field, up to 100% atk to all at max trace level. A very unimpressive multiplier, but as we now know, this is not the main source of Jing Yuan’s damage; using this skill will increase Lightning Lord’s Attack Count by 2.\n Jing Yuan’s ultimate is also an AoE attack, cleaving all enemies for up to 200% atk at max trace level, and simultaneously increasing Lightning Lord’s Attack Count by 3. This is a great way of instantly increasing the Attack Count, but it comes at a steep above-average energy cost of 130.\n Because these two attacks increase Lightning Lord’s Attack Count—and more importantly, because basic attack does NOT increase Attack Count at all—Jing Yuan always wants to be spending SP to use his skill, as this will increase Lightning Lord’s Count, and will also regenerate more energy for Jing Yuan to get more ultimates off.\n His bonus traces are expertly tailored to improve his performance and serve to increase his scaling even further. Remember that one caveat that was alluded to earlier? Well, his A2 bonus trace is where this caveat is. I said earlier that each stack of Attack Count is a linear increase in damage, and that’s true… up until you unlock his A2.\n A2 makes it so that if Lightning Lord’s Attack Count is at 6 or above when it next attacks, its Crit Damage will be increased by 25%. This is an absurd bonus that will basically always be active unless Jing Yuan has his turn delayed. With even a small amount of investment into speed, 6 stacks is hardly a challenge to obtain otherwise, and you should always strive to reach at least 6 before Lightning Lord’s next turn.\n This synergizes very well with Jing Yuan’s A6, which increases his crit rate by 10% for 2 turns after using his skill, meaning Jing Yuan has easy access to free crit stats in his kit. A4 also gives Jing Yuan a bonus 15 energy at the start of a battle, giving him a head-start in reaching his ultimate and stacking Lightning Lord to the max.\n I do need to point out that maximizing Jing Yuan’s effectiveness means you need to pay extra attention to your skill order and rotation; if you’re the kind of person who is likely to be using Jing Yuan’s skill when he’s already at full energy, just as an example, you may notice that you inevitably run into scenarios where Lightning Lord is attacking before at least 6 stacks.\n You may also want to specifically try and concentrate all of Lightning Lord’s immense power onto a single target, and so you’d ideally want to focus-fire any surrounding lesser foes before Lightning Lord strikes to maximize the number of Attack Counts going onto the main foe. Either way, Jing Yuan benefits a lot from more attentive play, as even small overcaps on energy can add up a lot over the course of an entire encounter.\n However, despite the huge multiplier that Lightning Lord provides, it, unfortunately, does not always benefit fully from outside buff sources, meaning Jing Yuan loses out on a lot of the usefulness of potentially powerful buff s. But everything changed when the Fire Nation attacked... wrong story - when Sunday was released. He fixes all the issues Jing Yuan has, finally giving us the ability to pull Lightning Lord forward - gone are the days of LL lazying around, barely doing anything. Still, if you don't have Sunday, while there are some good options for Amplifiers, they are all lagging behind the Charmony Dove. So if you love your General, give him the best he deserves. Give him Sunday.\n Jing Yuan is a great character owing to his fantastic talent scaling and inherent crit buffs. He works well in almost all circumstances but requires extensive knowledge about buff timing and turn order to truly maximize. He is not a cheap unit and demands a lot, but he can definitely be worth your while.\n He also has spectacular hair. Even a general needs to look his best~",
+      "assets": []
+    },
+    {
+      "id": "ratings-22",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.",
+      "assets": []
+    },
+    {
+      "id": "damage-dealer-23",
+      "level": 5,
+      "heading": "Damage dealer",
+      "text": "T4\n MoC\n\n T3\n PF\n\n T3\n AS\n\n Build and teams\n\n Jing Yuan Relic and Light Cone calculations are based on fighting against 3 targets.",
+      "assets": []
+    },
+    {
+      "id": "best-light-cones-25",
+      "level": 2,
+      "heading": "Best Light Cones",
+      "text": "107.70%\n\n Before Dawn (S 1 )\n\n BIS Light Cone for Jing Yuan - Gives CRIT, DMG Bonus on his Skill and Ult, and a massive bonus to Follow-up attacks.\n Usage: 94.44 %\n MoC: -\n PF: 25480\n AS: 0\n\n 100.11%\n\n A Dream Scented in Wheat (S 5 )\n\n The second Battle Pass Light Cone offers a permanent CRIT Rate, Ultimate and Follow-up ATK DMG, all of which Jing Yuan needs.\n\n 100%\n\n Today Is Another Peaceful Day (S 5 )\n\n Great damage bonus that is always active.\n Usage: 2.66 %\n MoC: -\n PF: 0\n AS: 0\n\n 95.02%\n\n Geniuses' Repose (S 5 )\n\n Assumes full uptime on the on-kill CRIT DMG% boost at all times. Failing to keep this buff active will lower this Cone's performance.\n\n 91.21%\n\n The Seriousness of Breakfast (S 5 )\n\n Assumes immediate uptime on the on-kill ATK% boost. Not having access to easily defeatable enemies at the start of the fight or being slow to slay enemies will lower this Cone's performance.\n\n Jing Yuan Relic and Light Cone calculations are based on fighting against 3 targets.",
+      "assets": [
+        {
+          "id": "efdffaadc6e8",
+          "sourceHash": "efdffaadc6e8",
+          "kind": "light-cones",
+          "name": "Before Dawn",
+          "fileStem": "before-dawn",
+          "path": "Prydwen/hsr/assets/light-cones/before-dawn-efdffaadc6e8.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "ee0c4a5102b3",
+          "sourceHash": "ee0c4a5102b3",
+          "kind": "light-cones",
+          "name": "A Dream Scented in Wheat",
+          "fileStem": "a-dream-scented-in-wheat",
+          "path": "Prydwen/hsr/assets/light-cones/a-dream-scented-in-wheat-ee0c4a5102b3.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "1975a2492785",
+          "sourceHash": "1975a2492785",
+          "kind": "light-cones",
+          "name": "Today Is Another Peaceful Day",
+          "fileStem": "today-is-another-peaceful-day",
+          "path": "Prydwen/hsr/assets/light-cones/today-is-another-peaceful-day-1975a2492785.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "91e57edd022e",
+          "sourceHash": "91e57edd022e",
+          "kind": "light-cones",
+          "name": "Geniuses' Repose",
+          "fileStem": "geniuses-repose",
+          "path": "Prydwen/hsr/assets/light-cones/geniuses-repose-91e57edd022e.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "ab251a923606",
+          "sourceHash": "ab251a923606",
+          "kind": "light-cones",
+          "name": "The Seriousness of Breakfast",
+          "fileStem": "the-seriousness-of-breakfast",
+          "path": "Prydwen/hsr/assets/light-cones/the-seriousness-of-breakfast-ab251a923606.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-relic-sets-27",
+      "level": 2,
+      "heading": "Best Relic Sets",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n The Ashblazing Grand Duke ( 4 -PC)\n\n Best set for Jing Yuan that perfectly works with his kit, giving a big edge over other options.\n Usage: 98.67 %\n MoC: -\n PF: 25480\n AS: 0\n\n 93.53%\n\n Band of Sizzling Thunder ( 4 -PC)\n\n 91.12%\n\n The Ashblazing Grand Duke ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Pioneer Diver of Dead Waters\n\n Scholar Lost in Erudition\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n Band of Sizzling Thunder\n\n Usage: 1.33 %\n MoC: -\n PF: 0\n AS: 0",
+      "assets": [
+        {
+          "id": "0edbfbfc2eca",
+          "sourceHash": "0edbfbfc2eca",
+          "kind": "relics",
+          "name": "The Ashblazing Grand Duke",
+          "fileStem": "the-ashblazing-grand-duke",
+          "path": "Prydwen/hsr/assets/relics/the-ashblazing-grand-duke-0edbfbfc2eca.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "a587afe51aae",
+          "sourceHash": "a587afe51aae",
+          "kind": "relics",
+          "name": "Band of Sizzling Thunder",
+          "fileStem": "band-of-sizzling-thunder",
+          "path": "Prydwen/hsr/assets/relics/band-of-sizzling-thunder-a587afe51aae.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "6e205de52037",
+          "sourceHash": "6e205de52037",
+          "kind": "relics",
+          "name": "Pioneer Diver of Dead Waters",
+          "fileStem": "pioneer-diver-of-dead-waters",
+          "path": "Prydwen/hsr/assets/relics/pioneer-diver-of-dead-waters-6e205de52037.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "f521b7a2ee25",
+          "sourceHash": "f521b7a2ee25",
+          "kind": "relics",
+          "name": "Scholar Lost in Erudition",
+          "fileStem": "scholar-lost-in-erudition",
+          "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "deeeca721276",
+          "sourceHash": "deeeca721276",
+          "kind": "relics",
+          "name": "Musketeer of Wild Wheat",
+          "fileStem": "musketeer-of-wild-wheat",
+          "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "507bb2127c32",
+          "sourceHash": "507bb2127c32",
+          "kind": "relics",
+          "name": "Prisoner in Deep Confinement",
+          "fileStem": "prisoner-in-deep-confinement",
+          "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "2d90f2919c5d",
+          "sourceHash": "2d90f2919c5d",
+          "kind": "relics",
+          "name": "The Wind-Soaring Valorous",
+          "fileStem": "the-wind-soaring-valorous",
+          "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-planetary-sets-28",
+      "level": 6,
+      "heading": "Best Planetary Sets",
+      "text": "100%\n\n The Wondrous BananAmusement Park ( 2 -PC)\n\n Usage: 84.49 %\n MoC: -\n PF: 25480\n AS: 0\n\n 93.12%\n\n Inert Salsotto ( 2 -PC)\n\n Usage: 14.18 %\n MoC: -\n PF: 0\n AS: 0",
+      "assets": [
+        {
+          "id": "62f715257f39",
+          "sourceHash": "62f715257f39",
+          "kind": "relics",
+          "name": "The Wondrous BananAmusement Park",
+          "fileStem": "the-wondrous-bananamusement-park",
+          "path": "Prydwen/hsr/assets/relics/the-wondrous-bananamusement-park-62f715257f39.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "d3afe42bdcff",
+          "sourceHash": "d3afe42bdcff",
+          "kind": "relics",
+          "name": "Inert Salsotto",
+          "fileStem": "inert-salsotto",
+          "path": "Prydwen/hsr/assets/relics/inert-salsotto-d3afe42bdcff.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-stats-30",
+      "level": 2,
+      "heading": "Best Stats",
+      "text": "Body\n CRIT Rate\n >= CRIT DMG\n\n Feet\n Speed\n >= ATK%\n\n Planar Sphere\n Lightning DMG\n > ATK%\n\n Link Rope\n ATK%\n\n Substats: Speed (Until breakpoint to make -1 Speed setup work) > CRIT RATE = CRIT DMG > ATK%\n\n This is your typical DPS build that focuses on the holy trifecta - ATK, Crit Rate, and Crit DMG. For every 1% of Crit try to have 2% of Crit DMG.",
+      "assets": [
+        {
+          "id": "af5b8acc8f63",
+          "sourceHash": "af5b8acc8f63",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-critrate",
+          "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "44c437b21b3a",
+          "sourceHash": "44c437b21b3a",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "4ef2b2a9e30c",
+          "sourceHash": "4ef2b2a9e30c",
+          "kind": "icons",
+          "name": "Lightning DMG",
+          "fileStem": "stat-lightningdmg",
+          "path": "Prydwen/hsr/assets/icons/lightning-dmg-4ef2b2a9e30c.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "recommended-endgame-stats-31",
+      "level": 2,
+      "heading": "Recommended endgame stats",
+      "text": "HP: 2800 - 3000+\n\n DEF: 900 - 1100+\n\n ATK: 2600 - 3000+\n\n CRIT RATE: 80% - 90%+ (with buffs up)\n\n CRIT DMG: 140% - 160%+\n\n For Speed, you have two options:\n 134+ Speed when you play Jing Yuan with Sunday in the -1 Speed setup. You can aim for more Speed, but make sure that Sunday is always 1 Speed slower than Jing Yuan (preferred option),\n\n Base Speed when you play Jing Yuan with Sparkle in the Hyperspeed setup or when you play him with very, very fast Hanya (alternative and less optimal setup for those who don't have Sunday yet and have to use Sparkle or who play Sunday with Hanya as they don't have Robin).",
+      "assets": []
+    },
+    {
+      "id": "traces-priority-32",
+      "level": 2,
+      "heading": "Traces priority",
+      "text": "Skills priority: Talent > Skill = Ultimate > Basic\n\n Major Traces priority: War Marshal (A6) > Battalia Crush (A2) > Savant Providence (A4)",
+      "assets": []
+    },
+    {
+      "id": "synergy-33",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Sunday - Sunday is the best support for Jing Yuan who elevates him to new heights. Playing Jing Yuan without Sunday and with is such massive difference, that he goes from an underwhelming DPS to one of the strongest in the game. Make sure to play Sunday in the -1 Speed setup to make the synergy work well!\n Robin - Robin is the second best support for Jing Yuan that provides him with a lot of buffs and also gives him additional actions, further improving his performance.\n Jiaoqiu - Jiaoqiu is an interesting alternative to Robin. He focuses on debuffing enemies, rather than buffing Jing Yuan and is especially powerful if you snag yourself E1 Sunday. A good F2P alternative to the Fox is Pela who allows you abuse the DEF Ignore that comes with E1 Sunday.\n Ruan Mei - Ruan Mei as always makes her appearance, being a great universal buffer. Just make sure her Speed boost doesn't mess with your Speed tuning.\n Tingyun - Tingyun is an alternative to those lacking Robin who provides Jing Yuan with a plethora of buffs and Energy.\n Sparkle - Sparkle is the former second-best partner for Jing Yuan and now only a way weaker option for those lacking Sunday. Make sure to play her in the Hyperspeed variant (160+ Speed while Jing Yuan uses ATK Boots).\n Hanya - Hanya is an experimental tech that still allows you to run ATK% boots on Jing Yuan as she can provide him with enough Speed to make the Sunday -1 Speed setup work. Just keep in mind you need a very, very fast Hanya for this to happen.\n Huohuo - Huohuo is the best Sustain option for Jing Yuan as she provides him with great buffs and Energy.\n Aventurine - Aventurine is an alternative option for the Sustain spot for stages where there's so much CC thrown your way that Huohuo struggles to keep up with cleansing.",
+      "assets": [
+        {
+          "id": "3d568cb7f29d",
+          "sourceHash": "3d568cb7f29d",
+          "kind": "characters",
+          "name": "Sunday",
+          "fileStem": "sunday-icon",
+          "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "e985c6a49a99",
+          "sourceHash": "e985c6a49a99",
+          "kind": "characters",
+          "name": "Robin",
+          "fileStem": "robin-icon",
+          "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "113fc62e3664",
+          "sourceHash": "113fc62e3664",
+          "kind": "characters",
+          "name": "Jiaoqiu",
+          "fileStem": "jiaoqiu-icon",
+          "path": "Prydwen/hsr/assets/characters/jiaoqiu-113fc62e3664.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "b77207bce6c8",
+          "sourceHash": "b77207bce6c8",
+          "kind": "characters",
+          "name": "Ruan Mei",
+          "fileStem": "ruan-mei-icon",
+          "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "4f2eb19b0697",
+          "sourceHash": "4f2eb19b0697",
+          "kind": "characters",
+          "name": "Tingyun",
+          "fileStem": "tingyun-icon",
+          "path": "Prydwen/hsr/assets/characters/tingyun-4f2eb19b0697.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "da99d2d9a505",
+          "sourceHash": "da99d2d9a505",
+          "kind": "characters",
+          "name": "Sparkle",
+          "fileStem": "sparkle-icon",
+          "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "595561d19628",
+          "sourceHash": "595561d19628",
+          "kind": "characters",
+          "name": "Hanya",
+          "fileStem": "hanya-icon",
+          "path": "Prydwen/hsr/assets/characters/hanya-595561d19628.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "c4a9c00e98ef",
+          "sourceHash": "c4a9c00e98ef",
+          "kind": "characters",
+          "name": "Huohuo",
+          "fileStem": "huohuo-icon",
+          "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "0658046ea612",
+          "sourceHash": "0658046ea612",
+          "kind": "characters",
+          "name": "Aventurine",
+          "fileStem": "aventurine-icon",
+          "path": "Prydwen/hsr/assets/characters/aventurine-0658046ea612.webp",
+          "width": 45,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "id": "anomaly-arbitration-38",
+      "level": 6,
+      "heading": "Anomaly Arbitration",
+      "text": "Rank 306\n App. rate: 0.03 %\n Avg. cycles : -\n Avg. cycles (E1+): 6.8\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 5\n\n New\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 9",
+      "assets": [
+        {
+          "id": "0651f02efbd5",
+          "sourceHash": "0651f02efbd5",
+          "kind": "characters",
+          "name": "Jing Yuan",
+          "fileStem": "jing-yuan-icon",
+          "path": "Prydwen/hsr/assets/characters/jing-yuan-0651f02efbd5.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d197456869a0",
+          "sourceHash": "d197456869a0",
+          "kind": "icons",
+          "name": "Lightning",
+          "fileStem": "ele-lightning",
+          "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "3d568cb7f29d",
+          "sourceHash": "3d568cb7f29d",
+          "kind": "characters",
+          "name": "Sunday",
+          "fileStem": "sunday-icon",
+          "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "913ff64407f2",
+          "sourceHash": "913ff64407f2",
+          "kind": "icons",
+          "name": "Imaginary",
+          "fileStem": "ele-imaginary",
+          "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "2cde7699adbf",
+          "sourceHash": "2cde7699adbf",
+          "kind": "characters",
+          "name": "Tribbie",
+          "fileStem": "tribbie-icon",
+          "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "565914d1a436",
+          "sourceHash": "565914d1a436",
+          "kind": "icons",
+          "name": "Quantum",
+          "fileStem": "ele-quantum",
+          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "714348f14d48",
+          "sourceHash": "714348f14d48",
+          "kind": "characters",
+          "name": "Dan Heng • Permansor Terrae",
+          "fileStem": "dan-heng-permansor-terrae-icon",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0db16ed6c66",
+          "sourceHash": "e0db16ed6c66",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "ele-physical",
+          "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "99361e4717fa",
+          "sourceHash": "99361e4717fa",
+          "kind": "characters",
+          "name": "Mortenax Blade",
+          "fileStem": "blade-mortenax-icon",
+          "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "92feb26d8f0e",
+          "sourceHash": "92feb26d8f0e",
+          "kind": "icons",
+          "name": "Fire",
+          "fileStem": "ele-fire",
+          "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "c4a9c00e98ef",
+          "sourceHash": "c4a9c00e98ef",
+          "kind": "characters",
+          "name": "Huohuo",
+          "fileStem": "huohuo-icon",
+          "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ee11bd390c9a",
+          "sourceHash": "ee11bd390c9a",
+          "kind": "icons",
+          "name": "Wind",
+          "fileStem": "ele-wind",
+          "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "f380b4ccce3e",
+          "sourceHash": "f380b4ccce3e",
+          "kind": "characters",
+          "name": "Ashveil",
+          "fileStem": "ashveil-icon",
+          "path": "Prydwen/hsr/assets/characters/ashveil-f380b4ccce3e.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "video-guides-39",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "MoC/PF/AS Statistics",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-light-cones": {
+      "label": "Best Light Cones",
+      "sections": [
+        {
+          "heading": "Best Light Cones",
+          "text": "107.70%\n\n Before Dawn (S 1 )\n\n BIS Light Cone for Jing Yuan - Gives CRIT, DMG Bonus on his Skill and Ult, and a massive bonus to Follow-up attacks.\n Usage: 94.44 %\n MoC: -\n PF: 25480\n AS: 0\n\n 100.11%\n\n A Dream Scented in Wheat (S 5 )\n\n The second Battle Pass Light Cone offers a permanent CRIT Rate, Ultimate and Follow-up ATK DMG, all of which Jing Yuan needs.\n\n 100%\n\n Today Is Another Peaceful Day (S 5 )\n\n Great damage bonus that is always active.\n Usage: 2.66 %\n MoC: -\n PF: 0\n AS: 0\n\n 95.02%\n\n Geniuses' Repose (S 5 )\n\n Assumes full uptime on the on-kill CRIT DMG% boost at all times. Failing to keep this buff active will lower this Cone's performance.\n\n 91.21%\n\n The Seriousness of Breakfast (S 5 )\n\n Assumes immediate uptime on the on-kill ATK% boost. Not having access to easily defeatable enemies at the start of the fight or being slow to slay enemies will lower this Cone's performance.\n\n Jing Yuan Relic and Light Cone calculations are based on fighting against 3 targets.",
+          "assets": [
+            {
+              "id": "efdffaadc6e8",
+              "sourceHash": "efdffaadc6e8",
+              "kind": "light-cones",
+              "name": "Before Dawn",
+              "fileStem": "before-dawn",
+              "path": "Prydwen/hsr/assets/light-cones/before-dawn-efdffaadc6e8.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "ee0c4a5102b3",
+              "sourceHash": "ee0c4a5102b3",
+              "kind": "light-cones",
+              "name": "A Dream Scented in Wheat",
+              "fileStem": "a-dream-scented-in-wheat",
+              "path": "Prydwen/hsr/assets/light-cones/a-dream-scented-in-wheat-ee0c4a5102b3.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "1975a2492785",
+              "sourceHash": "1975a2492785",
+              "kind": "light-cones",
+              "name": "Today Is Another Peaceful Day",
+              "fileStem": "today-is-another-peaceful-day",
+              "path": "Prydwen/hsr/assets/light-cones/today-is-another-peaceful-day-1975a2492785.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "91e57edd022e",
+              "sourceHash": "91e57edd022e",
+              "kind": "light-cones",
+              "name": "Geniuses' Repose",
+              "fileStem": "geniuses-repose",
+              "path": "Prydwen/hsr/assets/light-cones/geniuses-repose-91e57edd022e.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "ab251a923606",
+              "sourceHash": "ab251a923606",
+              "kind": "light-cones",
+              "name": "The Seriousness of Breakfast",
+              "fileStem": "the-seriousness-of-breakfast",
+              "path": "Prydwen/hsr/assets/light-cones/the-seriousness-of-breakfast-ab251a923606.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-relic-sets": {
+      "label": "Best Relic Sets",
+      "sections": [
+        {
+          "heading": "Best Relic Sets",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n The Ashblazing Grand Duke ( 4 -PC)\n\n Best set for Jing Yuan that perfectly works with his kit, giving a big edge over other options.\n Usage: 98.67 %\n MoC: -\n PF: 25480\n AS: 0\n\n 93.53%\n\n Band of Sizzling Thunder ( 4 -PC)\n\n 91.12%\n\n The Ashblazing Grand Duke ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Pioneer Diver of Dead Waters\n\n Scholar Lost in Erudition\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n Band of Sizzling Thunder\n\n Usage: 1.33 %\n MoC: -\n PF: 0\n AS: 0",
+          "assets": [
+            {
+              "id": "0edbfbfc2eca",
+              "sourceHash": "0edbfbfc2eca",
+              "kind": "relics",
+              "name": "The Ashblazing Grand Duke",
+              "fileStem": "the-ashblazing-grand-duke",
+              "path": "Prydwen/hsr/assets/relics/the-ashblazing-grand-duke-0edbfbfc2eca.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "a587afe51aae",
+              "sourceHash": "a587afe51aae",
+              "kind": "relics",
+              "name": "Band of Sizzling Thunder",
+              "fileStem": "band-of-sizzling-thunder",
+              "path": "Prydwen/hsr/assets/relics/band-of-sizzling-thunder-a587afe51aae.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "6e205de52037",
+              "sourceHash": "6e205de52037",
+              "kind": "relics",
+              "name": "Pioneer Diver of Dead Waters",
+              "fileStem": "pioneer-diver-of-dead-waters",
+              "path": "Prydwen/hsr/assets/relics/pioneer-diver-of-dead-waters-6e205de52037.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "f521b7a2ee25",
+              "sourceHash": "f521b7a2ee25",
+              "kind": "relics",
+              "name": "Scholar Lost in Erudition",
+              "fileStem": "scholar-lost-in-erudition",
+              "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "deeeca721276",
+              "sourceHash": "deeeca721276",
+              "kind": "relics",
+              "name": "Musketeer of Wild Wheat",
+              "fileStem": "musketeer-of-wild-wheat",
+              "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "507bb2127c32",
+              "sourceHash": "507bb2127c32",
+              "kind": "relics",
+              "name": "Prisoner in Deep Confinement",
+              "fileStem": "prisoner-in-deep-confinement",
+              "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "2d90f2919c5d",
+              "sourceHash": "2d90f2919c5d",
+              "kind": "relics",
+              "name": "The Wind-Soaring Valorous",
+              "fileStem": "the-wind-soaring-valorous",
+              "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-planetary-sets": {
+      "label": "Best Planetary Sets",
+      "sections": [
+        {
+          "heading": "Best Planetary Sets",
+          "text": "100%\n\n The Wondrous BananAmusement Park ( 2 -PC)\n\n Usage: 84.49 %\n MoC: -\n PF: 25480\n AS: 0\n\n 93.12%\n\n Inert Salsotto ( 2 -PC)\n\n Usage: 14.18 %\n MoC: -\n PF: 0\n AS: 0",
+          "assets": [
+            {
+              "id": "62f715257f39",
+              "sourceHash": "62f715257f39",
+              "kind": "relics",
+              "name": "The Wondrous BananAmusement Park",
+              "fileStem": "the-wondrous-bananamusement-park",
+              "path": "Prydwen/hsr/assets/relics/the-wondrous-bananamusement-park-62f715257f39.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "d3afe42bdcff",
+              "sourceHash": "d3afe42bdcff",
+              "kind": "relics",
+              "name": "Inert Salsotto",
+              "fileStem": "inert-salsotto",
+              "path": "Prydwen/hsr/assets/relics/inert-salsotto-d3afe42bdcff.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-stats": {
+      "label": "Best Stats",
+      "sections": [
+        {
+          "heading": "Best Stats",
+          "text": "Body\n CRIT Rate\n >= CRIT DMG\n\n Feet\n Speed\n >= ATK%\n\n Planar Sphere\n Lightning DMG\n > ATK%\n\n Link Rope\n ATK%\n\n Substats: Speed (Until breakpoint to make -1 Speed setup work) > CRIT RATE = CRIT DMG > ATK%\n\n This is your typical DPS build that focuses on the holy trifecta - ATK, Crit Rate, and Crit DMG. For every 1% of Crit try to have 2% of Crit DMG.",
+          "assets": [
+            {
+              "id": "af5b8acc8f63",
+              "sourceHash": "af5b8acc8f63",
+              "kind": "icons",
+              "name": "CRIT Rate",
+              "fileStem": "stat-critrate",
+              "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "44c437b21b3a",
+              "sourceHash": "44c437b21b3a",
+              "kind": "icons",
+              "name": "CRIT DMG",
+              "fileStem": "stat-critdmg",
+              "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "087f2dec68b6",
+              "sourceHash": "087f2dec68b6",
+              "kind": "icons",
+              "name": "Speed",
+              "fileStem": "stat-speed",
+              "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "dc6aec4a7776",
+              "sourceHash": "dc6aec4a7776",
+              "kind": "icons",
+              "name": "ATK",
+              "fileStem": "stat-atk",
+              "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "4ef2b2a9e30c",
+              "sourceHash": "4ef2b2a9e30c",
+              "kind": "icons",
+              "name": "Lightning DMG",
+              "fileStem": "stat-lightningdmg",
+              "path": "Prydwen/hsr/assets/icons/lightning-dmg-4ef2b2a9e30c.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        }
+      ]
+    },
+    "recommended-endgame-stats": {
+      "label": "Recommended endgame stats",
+      "sections": [
+        {
+          "heading": "Recommended endgame stats",
+          "text": "HP: 2800 - 3000+\n\n DEF: 900 - 1100+\n\n ATK: 2600 - 3000+\n\n CRIT RATE: 80% - 90%+ (with buffs up)\n\n CRIT DMG: 140% - 160%+\n\n For Speed, you have two options:\n 134+ Speed when you play Jing Yuan with Sunday in the -1 Speed setup. You can aim for more Speed, but make sure that Sunday is always 1 Speed slower than Jing Yuan (preferred option),\n\n Base Speed when you play Jing Yuan with Sparkle in the Hyperspeed setup or when you play him with very, very fast Hanya (alternative and less optimal setup for those who don't have Sunday yet and have to use Sparkle or who play Sunday with Hanya as they don't have Robin).",
+          "assets": []
+        }
+      ]
+    },
+    "traces-priority": {
+      "label": "Traces priority",
+      "sections": [
+        {
+          "heading": "Traces priority",
+          "text": "Skills priority: Talent > Skill = Ultimate > Basic\n\n Major Traces priority: War Marshal (A6) > Battalia Crush (A2) > Savant Providence (A4)",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Sunday - Sunday is the best support for Jing Yuan who elevates him to new heights. Playing Jing Yuan without Sunday and with is such massive difference, that he goes from an underwhelming DPS to one of the strongest in the game. Make sure to play Sunday in the -1 Speed setup to make the synergy work well!\n Robin - Robin is the second best support for Jing Yuan that provides him with a lot of buffs and also gives him additional actions, further improving his performance.\n Jiaoqiu - Jiaoqiu is an interesting alternative to Robin. He focuses on debuffing enemies, rather than buffing Jing Yuan and is especially powerful if you snag yourself E1 Sunday. A good F2P alternative to the Fox is Pela who allows you abuse the DEF Ignore that comes with E1 Sunday.\n Ruan Mei - Ruan Mei as always makes her appearance, being a great universal buffer. Just make sure her Speed boost doesn't mess with your Speed tuning.\n Tingyun - Tingyun is an alternative to those lacking Robin who provides Jing Yuan with a plethora of buffs and Energy.\n Sparkle - Sparkle is the former second-best partner for Jing Yuan and now only a way weaker option for those lacking Sunday. Make sure to play her in the Hyperspeed variant (160+ Speed while Jing Yuan uses ATK Boots).\n Hanya - Hanya is an experimental tech that still allows you to run ATK% boots on Jing Yuan as she can provide him with enough Speed to make the Sunday -1 Speed setup work. Just keep in mind you need a very, very fast Hanya for this to happen.\n Huohuo - Huohuo is the best Sustain option for Jing Yuan as she provides him with great buffs and Energy.\n Aventurine - Aventurine is an alternative option for the Sustain spot for stages where there's so much CC thrown your way that Huohuo struggles to keep up with cleansing.",
+          "assets": [
+            {
+              "id": "3d568cb7f29d",
+              "sourceHash": "3d568cb7f29d",
+              "kind": "characters",
+              "name": "Sunday",
+              "fileStem": "sunday-icon",
+              "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "e985c6a49a99",
+              "sourceHash": "e985c6a49a99",
+              "kind": "characters",
+              "name": "Robin",
+              "fileStem": "robin-icon",
+              "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "113fc62e3664",
+              "sourceHash": "113fc62e3664",
+              "kind": "characters",
+              "name": "Jiaoqiu",
+              "fileStem": "jiaoqiu-icon",
+              "path": "Prydwen/hsr/assets/characters/jiaoqiu-113fc62e3664.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "b77207bce6c8",
+              "sourceHash": "b77207bce6c8",
+              "kind": "characters",
+              "name": "Ruan Mei",
+              "fileStem": "ruan-mei-icon",
+              "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "4f2eb19b0697",
+              "sourceHash": "4f2eb19b0697",
+              "kind": "characters",
+              "name": "Tingyun",
+              "fileStem": "tingyun-icon",
+              "path": "Prydwen/hsr/assets/characters/tingyun-4f2eb19b0697.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "da99d2d9a505",
+              "sourceHash": "da99d2d9a505",
+              "kind": "characters",
+              "name": "Sparkle",
+              "fileStem": "sparkle-icon",
+              "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "595561d19628",
+              "sourceHash": "595561d19628",
+              "kind": "characters",
+              "name": "Hanya",
+              "fileStem": "hanya-icon",
+              "path": "Prydwen/hsr/assets/characters/hanya-595561d19628.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "c4a9c00e98ef",
+              "sourceHash": "c4a9c00e98ef",
+              "kind": "characters",
+              "name": "Huohuo",
+              "fileStem": "huohuo-icon",
+              "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "0658046ea612",
+              "sourceHash": "0658046ea612",
+              "kind": "characters",
+              "name": "Aventurine",
+              "fileStem": "aventurine-icon",
+              "path": "Prydwen/hsr/assets/characters/aventurine-0658046ea612.webp",
+              "width": 45,
+              "height": 45
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Jing Yuan Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Jing Yuan\n Jing Yuan Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Jing Yuan from HSR (Honkai: Star Rail). Jing Yuan is a 5 ★ character from the Lightning element who follows the Path of Erudition .\n Although his appearance may be one of indolence, the Cloud Knight general who commands the Xianzhou Luofu is more meticulous than seemingly meets the eye. He does not consider saving a situation from the brink of disaster to be a show of wisdom, and is thus fastidious with routine affairs to avoid any potential problems. Due to his careful management, the Xianzhou have enjoyed many years of peace, with Jing Yuan's seemingly lazy demeanor having earned him the moniker of \"Dozing General.\"\n\n To learn more about Jing Yuan check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Jing Yuan has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.7\n\n Last major build/calcs update\n Patch 4.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Jing Yuan check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Glistening Light\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Jing Yuan deals Lightning DMG equal to #1[i]% of his ATK to a single enemy.\n\n Skill\n Rifting Zenith\n AoE\n\n Lv. 1\n\n Energy gain: 30\n Break: 10\n\n Deals Lightning DMG equal to #1[i]% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by #2[i] for the next turn.\n\n Ultimate\n Lightbringer\n AoE | 130 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Deals Lightning DMG equal to #1[i]% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by #2[i] for the next turn.\n\n Talent\n Prana Extirpated\n Bounce\n\n Lv. 1\n\n Energy gain: 0\n Break: 5\n\n Summons Lightning-Lord at the start of the battle. Lightning-Lord has #1[i] base SPD and #4[i] base Hits Per Action. When the Lightning-Lord takes action, its hits are considered as follow-up attacks, with each hit dealing Lightning DMG equal to #2[i]% of Jing Yuan's ATK to a random single enemy, and enemies adjacent to it also receive Lightning DMG equal to #5[i]% of the DMG dealt to the target enemy.\nThe Lightning-Lord's Hits Per Action can reach a max of #6[i]. Every time Lightning-Lord's Hits Per Action increases by 1, its SPD increases by #3[i]. After the Lightning-Lord's action ends, its SPD and Hits Per Action return to their base values.\nWhen Jing Yuan is knocked down, the Lightning-Lord will disappear.\nWhen Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.\n\n Technique\n Spirit Invocation\n Enhance\n\n Energy gain: 0\n Break: -\n\n After the Technique is used, the Lightning-Lord's Hits Per Action in the first turn increases by #1[i] at the start of the next battle.\n\n Major Traces\n A2 Major trace\n Battalia Crush\n\n If the Lightning-Lord's Hits Per Action is greater or equal to 6 in the next turn, its CRIT DMG increases by 25% for the next turn.\n\n A4 Major trace\n Savant Providence\n\n At the start of the battle, immediately regenerates 15 Energy .\n\n A6 Major trace\n War Marshal\n\n After using Skill, CRIT Rate increases by 10% for 2 turn(s).\n\n Minor Traces (total)\n CRIT Rate\n + 12%\n\n ATK\n + 28%\n\n DEF\n + 12.5%\n\n Eidolons\n E 1\n Slash, Seas Split\n Eidolon 1\n\n When Lightning-Lord attacks, the DMG multiplier on enemies adjacent to the target enemy increases by an extra amount equal to 25% of the DMG multiplier against the target enemy.\n\n E 2\n Swing, Skies Squashed\n Eidolon 2\n\n After Lightning-Lord takes action, DMG caused by Jing Yuan's Basic ATK, Skill, and Ultimate increases by 20% for 2 turn(s).\n\n E 3\n Strike, Suns Subdued\n Eidolon 3\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15 . Basic ATK Lv. +1 , up to a maximum of Lv. 10 .\n\n E 4\n Spin, Stars Sieged\n Eidolon 4\n\n For each hit performed by the Lightning-Lord when it takes action, Jing Yuan regenerates 2 Energy.\n\n E 5\n Stride, Spoils Seized\n Eidolon 5\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Sweep, Souls Slain\n Eidolon 6\n\n Each hit performed by the Lightning-Lord when it takes action will make the target enemy Vulnerable. While Vulnerable, enemies receive 12% more DMG until the end of the Lightning-Lord's current turn, stacking up to 3 time(s).\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1164\n\n ATK\n\n 698\n\n DEF\n\n 485\n\n Speed\n\n 99\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 308000\n\n Immortal Scionette\n\n x 15\n\n Immortal Aeroblossom\n\n x 15\n\n Shape Shifter's Lightning Staff\n\n x 65\n\n Immortal Lumintwig\n\n x 15\n\n CV\n ENG\n Alejandro Saab\n\n JPN\n Ono Daisuke (小野大輔)\n\n CN\n Sun Ye (孫曄)\n\n KR\n Ryu Seung-gon (류승곤)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Great AoE damage combined with decent single-target damage,\n\n Very versatile, making him a viable choice in any mode,\n\n Great at Breaking as each Lightning Lord attack is treated as a separate damage instance,\n\n Indirectly buffed by Hoyo every other patch by releasing new Relics or characters (like Sunday),\n\n A freaking Stand.\n\n Cons\n Crowd Control - if Jing Yuan gets CCed, Lightning Lord will lose its turn which is a massive damage loss,\n\n If you don't have Sunday, his performance is drastically reduced - no other Amplifier can currently replace him.\n\n Review (By Sushou)\n The Dozing General of the Xianzhou Luofu is undeniably a strong and intimidating character. Jing Yuan is able to dole out great single-target damage in addition to already impressive AoE damage, and has bonus Crit stats for free that turn his already impressive damage up a notch.\n Interestingly enough, you wouldn’t be able to tell how strong he can be with just a glance at his overall multipliers—they look rather modest, and that’s putting it generously… right ? You wouldn’t know it, but the vast majority of Jing Yuan’s damage in combat comes from his talent! Where on earth does that damage come from?\n Well, this is unfortunately a failure on the part of the skill description of Jing Yuan’s talent mostly. See, Jing Yuan is always shadowed by an additional in-combat entity, his Lightning Lord. Lightning Lord has its own Speed value and will act independently of Jing Yuan, and if Jing Yuan is downed in combat, Lightning Lord will also peace out.\n The talent description is quite verbose and is rather confusing, resulting in many people severely underrating Jing Yuan as a character. Let’s try and break it down.\n Lightning Lord’s attacks target a random enemy, dealing 25% of its damage to adjacent targets. Its attacks are considered follow-ups, and Lightning Lord has the base values of 60 Speed, and an Attack Count of 3. One Attack Count equates to dealing up to 66% of Jing Yuan’s atk at max trace level, which means Lightning Lord’s base damage with its base 3 Attack Count is up to 198% of Jing Yuan’s atk. Any further increases to this Attack Count will add on the value of 1 Attack Count to the current total.\n This means that you just take the base multiplier and multiply it by the current Attack Count to work out how much damage Lightning Lord’s attack will deal. Since the absolute maximum amount of Attack Count is 10, this means Lightning Lord’s attack can deal at most up to 660% of Jing Yuan’s attack, and that’s if it’s only on one target. If there are multiple enemies all taking splash damage from each hit, it skyrockets to a theoretical maximum of 990%. Yeah, now you see where the ridiculous damage comes from.\n An important clarification is that each Attack Count introduces the increased damage as a whole new instance of damage. This means at 10 stacks, it deals that 660% multiplier as 10 separate hits of 66%, with each one targeting different enemies and splashing onto foes adjacent to them. This spreads the total damage out relatively evenly across all targets, with only some slight losses occurring if some of the damage targets corner targets (thus losing half of the splash damage), but overall is a quite consistent AoE damage tool. More obviously, in single-target scenarios, all of that damage gets concentrated on that one target, creating quite the damage nuke.\n In addition to this, every time Lightning Lord’s Attack Count increases by 1, it will gain 10 extra Speed. This pushes its turn forward and allows Lightning Lord to get more attacks over the course of a fight. The reason this is important to facilitate is that as mentioned previously, the max Attack Count is 10, so if Jing Yuan is somehow able to act again before Lightning Lord attacks, you can end up losing out on damage due to overcapping the Attack Count. In practice, this is extremely unlikely unless you turbo-stack Speed onto Jing Yuan.\n Because each Attack Count adds the same amount of damage to Lightning Lord’s next attack, the damage gains from each stack are entirely linear (with one caveat discussed later), but you ideally want to be getting stacks as high as possible for speed purposes. After Lightning Lord attacks, its Attack Count will return back to the base value of 3, and its speed will also return to the base value of 60.\n The way Jing Yuan increases the Attack Count of Lightning Lord is through his Skill and his Ultimate, and getting more uses out of each will increase the rate at which Lightning Lord can slam its heavenly spear directly through your enemies.\n Jing Yuan’s skill deals AoE damage to all foes on the field, up to 100% atk to all at max trace level. A very unimpressive multiplier, but as we now know, this is not the main source of Jing Yuan’s damage; using this skill will increase Lightning Lord’s Attack Count by 2.\n Jing Yuan’s ultimate is also an AoE attack, cleaving all enemies for up to 200% atk at max trace level, and simultaneously increasing Lightning Lord’s Attack Count by 3. This is a great way of instantly increasing the Attack Count, but it comes at a steep above-average energy cost of 130.\n Because these two attacks increase Lightning Lord’s Attack Count—and more importantly, because basic attack does NOT increase Attack Count at all—Jing Yuan always wants to be spending SP to use his skill, as this will increase Lightning Lord’s Count, and will also regenerate more energy for Jing Yuan to get more ultimates off.\n His bonus traces are expertly tailored to improve his performance and serve to increase his scaling even further. Remember that one caveat that was alluded to earlier? Well, his A2 bonus trace is where this caveat is. I said earlier that each stack of Attack Count is a linear increase in damage, and that’s true… up until you unlock his A2.\n A2 makes it so that if Lightning Lord’s Attack Count is at 6 or above when it next attacks, its Crit Damage will be increased by 25%. This is an absurd bonus that will basically always be active unless Jing Yuan has his turn delayed. With even a small amount of investment into speed, 6 stacks is hardly a challenge to obtain otherwise, and you should always strive to reach at least 6 before Lightning Lord’s next turn.\n This synergizes very well with Jing Yuan’s A6, which increases his crit rate by 10% for 2 turns after using his skill, meaning Jing Yuan has easy access to free crit stats in his kit. A4 also gives Jing Yuan a bonus 15 energy at the start of a battle, giving him a head-start in reaching his ultimate and stacking Lightning Lord to the max.\n I do need to point out that maximizing Jing Yuan’s effectiveness means you need to pay extra attention to your skill order and rotation; if you’re the kind of person who is likely to be using Jing Yuan’s skill when he’s already at full energy, just as an example, you may notice that you inevitably run into scenarios where Lightning Lord is attacking before at least 6 stacks.\n You may also want to specifically try and concentrate all of Lightning Lord’s immense power onto a single target, and so you’d ideally want to focus-fire any surrounding lesser foes before Lightning Lord strikes to maximize the number of Attack Counts going onto the main foe. Either way, Jing Yuan benefits a lot from more attentive play, as even small overcaps on energy can add up a lot over the course of an entire encounter.\n However, despite the huge multiplier that Lightning Lord provides, it, unfortunately, does not always benefit fully from outside buff sources, meaning Jing Yuan loses out on a lot of the usefulness of potentially powerful buff s. But everything changed when the Fire Nation attacked... wrong story - when Sunday was released. He fixes all the issues Jing Yuan has, finally giving us the ability to pull Lightning Lord forward - gone are the days of LL lazying around, barely doing anything. Still, if you don't have Sunday, while there are some good options for Amplifiers, they are all lagging behind the Charmony Dove. So if you love your General, give him the best he deserves. Give him Sunday.\n Jing Yuan is a great character owing to his fantastic talent scaling and inherent crit buffs. He works well in almost all circumstances but requires extensive knowledge about buff timing and turn order to truly maximize. He is not a cheap unit and demands a lot, but he can definitely be worth your while.\n He also has spectacular hair. Even a general needs to look his best~\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Damage dealer\n T4\n MoC\n\n T3\n PF\n\n T3\n AS\n\n Build and teams\n\n Jing Yuan Relic and Light Cone calculations are based on fighting against 3 targets.\n\n Best Light Cones\n\n 107.70%\n\n Before Dawn (S 1 )\n\n BIS Light Cone for Jing Yuan - Gives CRIT, DMG Bonus on his Skill and Ult, and a massive bonus to Follow-up attacks.\n Usage: 94.44 %\n MoC: -\n PF: 25480\n AS: 0\n\n 100.11%\n\n A Dream Scented in Wheat (S 5 )\n\n The second Battle Pass Light Cone offers a permanent CRIT Rate, Ultimate and Follow-up ATK DMG, all of which Jing Yuan needs.\n\n 100%\n\n Today Is Another Peaceful Day (S 5 )\n\n Great damage bonus that is always active.\n Usage: 2.66 %\n MoC: -\n PF: 0\n AS: 0\n\n 95.02%\n\n Geniuses' Repose (S 5 )\n\n Assumes full uptime on the on-kill CRIT DMG% boost at all times. Failing to keep this buff active will lower this Cone's performance.\n\n 91.21%\n\n The Seriousness of Breakfast (S 5 )\n\n Assumes immediate uptime on the on-kill ATK% boost. Not having access to easily defeatable enemies at the start of the fight or being slow to slay enemies will lower this Cone's performance.\n\n Jing Yuan Relic and Light Cone calculations are based on fighting against 3 targets.\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n The Ashblazing Grand Duke ( 4 -PC)\n\n Best set for Jing Yuan that perfectly works with his kit, giving a big edge over other options.\n Usage: 98.67 %\n MoC: -\n PF: 25480\n AS: 0\n\n 93.53%\n\n Band of Sizzling Thunder ( 4 -PC)\n\n 91.12%\n\n The Ashblazing Grand Duke ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Pioneer Diver of Dead Waters\n\n Scholar Lost in Erudition\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n Band of Sizzling Thunder\n\n Usage: 1.33 %\n MoC: -\n PF: 0\n AS: 0\n\n Best Planetary Sets\n 100%\n\n The Wondrous BananAmusement Park ( 2 -PC)\n\n Usage: 84.49 %\n MoC: -\n PF: 25480\n AS: 0\n\n 93.12%\n\n Inert Salsotto ( 2 -PC)\n\n Usage: 14.18 %\n MoC: -\n PF: 0\n AS: 0\n\n Best Stats\n\n Body\n CRIT Rate\n >= CRIT DMG\n\n Feet\n Speed\n >= ATK%\n\n Planar Sphere\n Lightning DMG\n > ATK%\n\n Link Rope\n ATK%\n\n Substats: Speed (Until breakpoint to make -1 Speed setup work) > CRIT RATE = CRIT DMG > ATK%\n\n This is your typical DPS build that focuses on the holy trifecta - ATK, Crit Rate, and Crit DMG. For every 1% of Crit try to have 2% of Crit DMG.\n\n Recommended endgame stats\n HP: 2800 - 3000+\n\n DEF: 900 - 1100+\n\n ATK: 2600 - 3000+\n\n CRIT RATE: 80% - 90%+ (with buffs up)\n\n CRIT DMG: 140% - 160%+\n\n For Speed, you have two options:\n 134+ Speed when you play Jing Yuan with Sunday in the -1 Speed setup. You can aim for more Speed, but make sure that Sunday is always 1 Speed slower than Jing Yuan (preferred option),\n\n Base Speed when you play Jing Yuan with Sparkle in the Hyperspeed setup or when you play him with very, very fast Hanya (alternative and less optimal setup for those who don't have Sunday yet and have to use Sparkle or who play Sunday with Hanya as they don't have Robin).\n\n Traces priority\n Skills priority: Talent > Skill = Ultimate > Basic\n\n Major Traces priority: War Marshal (A6) > Battalia Crush (A2) > Savant Providence (A4)\n\n Synergy\n Sunday - Sunday is the best support for Jing Yuan who elevates him to new heights. Playing Jing Yuan without Sunday and with is such massive difference, that he goes from an underwhelming DPS to one of the strongest in the game. Make sure to play Sunday in the -1 Speed setup to make the synergy work well!\n Robin - Robin is the second best support for Jing Yuan that provides him with a lot of buffs and also gives him additional actions, further improving his performance.\n Jiaoqiu - Jiaoqiu is an interesting alternative to Robin. He focuses on debuffing enemies, rather than buffing Jing Yuan and is especially powerful if you snag yourself E1 Sunday. A good F2P alternative to the Fox is Pela who allows you abuse the DEF Ignore that comes with E1 Sunday.\n Ruan Mei - Ruan Mei as always makes her appearance, being a great universal buffer. Just make sure her Speed boost doesn't mess with your Speed tuning.\n Tingyun - Tingyun is an alternative to those lacking Robin who provides Jing Yuan with a plethora of buffs and Energy.\n Sparkle - Sparkle is the former second-best partner for Jing Yuan and now only a way weaker option for those lacking Sunday. Make sure to play her in the Hyperspeed variant (160+ Speed while Jing Yuan uses ATK Boots).\n Hanya - Hanya is an experimental tech that still allows you to run ATK% boots on Jing Yuan as she can provide him with enough Speed to make the Sunday -1 Speed setup work. Just keep in mind you need a very, very fast Hanya for this to happen.\n Huohuo - Huohuo is the best Sustain option for Jing Yuan as she provides him with great buffs and Energy.\n Aventurine - Aventurine is an alternative option for the Sustain spot for stages where there's so much CC thrown your way that Huohuo struggles to keep up with cleansing.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 306\n App. rate: 0.03 %\n Avg. cycles : -\n Avg. cycles (E1+): 6.8\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 5\n\n New\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 9\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

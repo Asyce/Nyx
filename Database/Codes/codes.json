@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T00:31:09.829Z",
+  "generatedAt": "2026-06-22T20:55:49.647Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,12 +9,12 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-06-21T00:31:09.829Z",
+      "lastSuccessfulFetch": "2026-06-22T20:55:49.647Z",
       "codes": [
         {
           "code": "MAGENICOLESPUZZLE",
           "rewards": "Primogem x 60, Midsommar Torte x 1, Fruit Tandem Turnovers x 1, Chenyu Adeptea x 5",
-          "added": "2026-06-21",
+          "added": "2026-06-22",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MAGENICOLESPUZZLE",
           "hoyoVerified": true,
           "premium": true,
@@ -23,20 +23,9 @@
           "firstSeen": "2026-06-13T20:18:32.371Z"
         },
         {
-          "code": "MARIONETTE",
-          "rewards": "Primogem x 100, Fine Enhancement Ore x 10",
-          "added": "2026-06-21",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MARIONETTE",
-          "hoyoVerified": true,
-          "premium": true,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-06-20T23:42:46.446Z"
-        },
-        {
           "code": "PFY1S40I88T9",
           "rewards": "Primogem x 60, Adventurer's Experience x 5",
-          "added": "2026-06-21",
+          "added": "2026-06-22",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9",
           "hoyoVerified": true,
           "premium": true,
@@ -45,26 +34,17 @@
           "firstSeen": "2026-06-20T23:42:46.446Z"
         },
         {
-          "code": "TEAPARTYTIME",
-          "rewards": "Primogem x 100, Mora x 50000",
+          "code": "LEGEDILJKSGM",
+          "rewards": "60 Primogem, 5 Adventurer's Experience",
           "added": "2026-06-21",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=TEAPARTYTIME",
-          "hoyoVerified": true,
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "regionLocked": null,
+          "expires": null,
+          "variants": [],
           "premium": true,
           "premium100": false,
           "cwSeen": true,
-          "firstSeen": "2026-06-20T23:42:46.446Z"
-        },
-        {
-          "code": "TOTHEMOON",
-          "rewards": "Primogem x 100, Hero's Wit x 5",
-          "added": "2026-06-21",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=TOTHEMOON",
-          "hoyoVerified": true,
-          "premium": true,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-06-20T23:42:46.446Z"
+          "firstSeen": "2026-06-22T20:55:49.647Z"
         },
         {
           "code": "LCXGEA5SX65L",
@@ -105,12 +85,12 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-06-21T00:31:04.266Z",
+      "lastSuccessfulFetch": "2026-06-22T20:55:40.799Z",
       "codes": [
         {
           "code": "CREATIONNYMPH",
           "rewards": "60 stellar jade and one fuel",
-          "added": "2026-06-21",
+          "added": "2026-06-22",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "hoyoVerified": true,
           "premium": true,
@@ -121,7 +101,7 @@
         {
           "code": "CTK5DRQVT48F",
           "rewards": "",
-          "added": "2026-06-21",
+          "added": "2026-06-22",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CTK5DRQVT48F",
           "hoyoVerified": true,
           "premium": false,
@@ -132,7 +112,7 @@
         {
           "code": "FAREWELL",
           "rewards": "60 stellar jade and one fuel",
-          "added": "2026-06-21",
+          "added": "2026-06-22",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "hoyoVerified": true,
           "premium": true,
@@ -143,7 +123,7 @@
         {
           "code": "IFYOUAREREADINGTHIS",
           "rewards": "60 stellar jade and one fuel",
-          "added": "2026-06-21",
+          "added": "2026-06-22",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "hoyoVerified": true,
           "premium": true,
@@ -154,7 +134,7 @@
         {
           "code": "OMEGA",
           "rewards": "60 stellar jade and one fuel",
-          "added": "2026-06-21",
+          "added": "2026-06-22",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "hoyoVerified": true,
           "premium": true,
@@ -165,7 +145,7 @@
         {
           "code": "STARRAILGIFT",
           "rewards": "50 stellar jade, 10k credits, two traveler's guides, and five bottled soda",
-          "added": "2026-06-21",
+          "added": "2026-06-22",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "hoyoVerified": true,
           "premium": true,
@@ -212,12 +192,12 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-06-21T00:31:07.429Z",
+      "lastSuccessfulFetch": "2026-06-22T20:55:44.001Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
           "rewards": "50 polychrome, two official investigator logs, three w-engine power supplies, and one bangboo algorithm module",
-          "added": "2026-06-21",
+          "added": "2026-06-22",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "hoyoVerified": true,
           "premium": true,
@@ -268,7 +248,7 @@
       ],
       "review": {
         "reason": "1 Zenless Zone Zero code(s) held for review: held from an earlier run. Confirm legit ones in REVIEWED_CODES to publish.",
-        "detectedAt": "2026-06-21T00:31:07.429Z",
+        "detectedAt": "2026-06-22T20:55:44.001Z",
         "codes": [
           {
             "code": "BEYONDTHECLOUDS",
@@ -290,7 +270,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-06-21T00:31:09.033Z",
+      "lastSuccessfulFetch": "2026-06-22T20:55:45.596Z",
       "codes": []
     }
   ]

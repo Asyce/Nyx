@@ -1,0 +1,1857 @@
+{
+  "id": "characters:jane-doe",
+  "provider": "Prydwen",
+  "game": "zzz",
+  "gameName": "Zenless Zone Zero",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "jane-doe",
+  "name": "Jane Doe",
+  "title": "Jane Doe Best Build Guide",
+  "sourcePath": "/zenless/characters/jane-doe",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "14/June/2026",
+  "meta": {
+    "title": "Jane Doe Best Build Guide | Zenless Zone Zero",
+    "description": ""
+  },
+  "facts": {
+    "attribute": "Physical",
+    "specialty": "Anomaly",
+    "faction": "N.E.P.S.",
+    "rarity": "S"
+  },
+  "assets": [
+    {
+      "id": "59c7bcdfa19b",
+      "sourceHash": "59c7bcdfa19b",
+      "kind": "characters",
+      "name": "Character",
+      "fileStem": "jane-doe-card",
+      "path": "Prydwen/zzz/assets/characters/jane-doe-card-59c7bcdfa19b.webp",
+      "width": 370,
+      "height": 512
+    },
+    {
+      "id": "59d53db87dea",
+      "sourceHash": "59d53db87dea",
+      "kind": "icons",
+      "name": "S",
+      "fileStem": "rarity-s",
+      "path": "Prydwen/zzz/assets/icons/s-59d53db87dea.webp",
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "883cade061c8",
+      "sourceHash": "883cade061c8",
+      "kind": "icons",
+      "name": "Anomaly",
+      "fileStem": "style-anomaly",
+      "path": "Prydwen/zzz/assets/icons/anomaly-883cade061c8.webp",
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "237e68e9343e",
+      "sourceHash": "237e68e9343e",
+      "kind": "factions",
+      "name": "N.E.P.S.",
+      "fileStem": "faction-neps",
+      "path": "Prydwen/zzz/assets/factions/n-e-p-s-237e68e9343e.webp",
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "880f190c8aa9",
+      "sourceHash": "880f190c8aa9",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-core",
+      "path": "Prydwen/zzz/assets/icons/core-880f190c8aa9.webp",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "13fff798e82d",
+      "sourceHash": "13fff798e82d",
+      "kind": "icons",
+      "name": "Basic",
+      "fileStem": "icon-basic",
+      "path": "Prydwen/zzz/assets/icons/basic-13fff798e82d.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "f3bbacf4beb6",
+      "sourceHash": "f3bbacf4beb6",
+      "kind": "icons",
+      "name": "Dodge",
+      "fileStem": "icon-dodge",
+      "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "de0f0cad1e72",
+      "sourceHash": "de0f0cad1e72",
+      "kind": "icons",
+      "name": "Assist",
+      "fileStem": "icon-assist-m",
+      "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "954b8d0b61b7",
+      "sourceHash": "954b8d0b61b7",
+      "kind": "icons",
+      "name": "Special",
+      "fileStem": "icon-special-full",
+      "path": "Prydwen/zzz/assets/icons/special-954b8d0b61b7.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "803b765175bc",
+      "sourceHash": "803b765175bc",
+      "kind": "icons",
+      "name": "qte",
+      "fileStem": "icon-ulti-full",
+      "path": "Prydwen/zzz/assets/icons/qte-803b765175bc.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "9f68a61db8c5",
+      "sourceHash": "9f68a61db8c5",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-special",
+      "path": "Prydwen/zzz/assets/icons/core-9f68a61db8c5.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "d3cae9ba5d45",
+      "sourceHash": "d3cae9ba5d45",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-ulti",
+      "path": "Prydwen/zzz/assets/icons/core-d3cae9ba5d45.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "94a5940d48d5",
+      "sourceHash": "94a5940d48d5",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-assist",
+      "path": "Prydwen/zzz/assets/icons/core-94a5940d48d5.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "bcc36adf7778",
+      "sourceHash": "bcc36adf7778",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/zzz/assets/icons/stat-hp-bcc36adf7778.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "6bde3e3d95d5",
+      "sourceHash": "6bde3e3d95d5",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-def",
+      "path": "Prydwen/zzz/assets/icons/stat-def-6bde3e3d95d5.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "3be631f5fe8b",
+      "sourceHash": "3be631f5fe8b",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/zzz/assets/icons/stat-atk-3be631f5fe8b.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "7e808fde7ecd",
+      "sourceHash": "7e808fde7ecd",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-crit",
+      "path": "Prydwen/zzz/assets/icons/stat-crit-7e808fde7ecd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "a5d74846670e",
+      "sourceHash": "a5d74846670e",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/zzz/assets/icons/stat-critdmg-a5d74846670e.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "96960682bbd8",
+      "sourceHash": "96960682bbd8",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-pen",
+      "path": "Prydwen/zzz/assets/icons/stat-pen-96960682bbd8.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "55a4b1c5a82a",
+      "sourceHash": "55a4b1c5a82a",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-impact",
+      "path": "Prydwen/zzz/assets/icons/stat-impact-55a4b1c5a82a.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "078045904ece",
+      "sourceHash": "078045904ece",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-mastery",
+      "path": "Prydwen/zzz/assets/icons/stat-mastery-078045904ece.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "09b14c497e98",
+      "sourceHash": "09b14c497e98",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/zzz/assets/icons/stat-energy-09b14c497e98.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "aa74499f3c05",
+      "sourceHash": "aa74499f3c05",
+      "kind": "characters",
+      "name": "Jane Doe",
+      "fileStem": "jane-doe-full",
+      "path": "Prydwen/zzz/assets/characters/jane-doe-aa74499f3c05.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "e33ff79684e5",
+      "sourceHash": "e33ff79684e5",
+      "kind": "characters",
+      "name": "Vivian",
+      "fileStem": "vivian",
+      "path": "Prydwen/zzz/assets/characters/vivian-e33ff79684e5.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d2c1c9b40367",
+      "sourceHash": "d2c1c9b40367",
+      "kind": "characters",
+      "name": "Yuzuha",
+      "fileStem": "ukinami-yuzuha",
+      "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "af0f0229909e",
+      "sourceHash": "af0f0229909e",
+      "kind": "w-engines",
+      "name": "Sharpened Stinger",
+      "fileStem": "sharpened-stinger-image",
+      "path": "Prydwen/zzz/assets/w-engines/sharpened-stinger-af0f0229909e.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "093b64b32f57",
+      "sourceHash": "093b64b32f57",
+      "kind": "w-engines",
+      "name": "Practiced Perfection",
+      "fileStem": "practiced-perfection-image",
+      "path": "Prydwen/zzz/assets/w-engines/practiced-perfection-093b64b32f57.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "b64aaa211d35",
+      "sourceHash": "b64aaa211d35",
+      "kind": "w-engines",
+      "name": "Weeping Gemini",
+      "fileStem": "weeping-gemini-image",
+      "path": "Prydwen/zzz/assets/w-engines/weeping-gemini-b64aaa211d35.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "1c1a80ffaf5d",
+      "sourceHash": "1c1a80ffaf5d",
+      "kind": "w-engines",
+      "name": "Electro-Lip Gloss",
+      "fileStem": "electro-lip-gloss-image",
+      "path": "Prydwen/zzz/assets/w-engines/electro-lip-gloss-1c1a80ffaf5d.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "f266d35f10dc",
+      "sourceHash": "f266d35f10dc",
+      "kind": "w-engines",
+      "name": "Fusion Compiler",
+      "fileStem": "fusion-compiler-image",
+      "path": "Prydwen/zzz/assets/w-engines/fusion-compiler-f266d35f10dc.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "ff78b0b02e04",
+      "sourceHash": "ff78b0b02e04",
+      "kind": "drive-discs",
+      "name": "Fanged Metal",
+      "fileStem": "set-fanged",
+      "path": "Prydwen/zzz/assets/drive-discs/fanged-metal-ff78b0b02e04.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5148cf1e5846",
+      "sourceHash": "5148cf1e5846",
+      "kind": "drive-discs",
+      "name": "Phaethon's Melody",
+      "fileStem": "set-melody",
+      "path": "Prydwen/zzz/assets/drive-discs/phaethons-melody-5148cf1e5846.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "69d899f282ca",
+      "sourceHash": "69d899f282ca",
+      "kind": "drive-discs",
+      "name": "Puffer Electro",
+      "fileStem": "set-puffer",
+      "path": "Prydwen/zzz/assets/drive-discs/puffer-electro-69d899f282ca.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "4890ba26d7e9",
+      "sourceHash": "4890ba26d7e9",
+      "kind": "drive-discs",
+      "name": "Freedom Blues",
+      "fileStem": "set-freedom",
+      "path": "Prydwen/zzz/assets/drive-discs/freedom-blues-4890ba26d7e9.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "e1ff48081ec4",
+      "sourceHash": "e1ff48081ec4",
+      "kind": "drive-discs",
+      "name": "Chaos Jazz",
+      "fileStem": "set-chaos",
+      "path": "Prydwen/zzz/assets/drive-discs/chaos-jazz-e1ff48081ec4.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "47b453ad83b8",
+      "sourceHash": "47b453ad83b8",
+      "kind": "drive-discs",
+      "name": "Astral Voice",
+      "fileStem": "set-astral",
+      "path": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "9b0991be94a3",
+      "sourceHash": "9b0991be94a3",
+      "kind": "drive-discs",
+      "name": "Hormone Punk",
+      "fileStem": "set-hormone",
+      "path": "Prydwen/zzz/assets/drive-discs/hormone-punk-9b0991be94a3.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "8bdbbd8d6be8",
+      "sourceHash": "8bdbbd8d6be8",
+      "kind": "characters",
+      "name": "Alice",
+      "fileStem": "alice",
+      "path": "Prydwen/zzz/assets/characters/alice-8bdbbd8d6be8.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "7cafcffe0fee",
+      "sourceHash": "7cafcffe0fee",
+      "kind": "characters",
+      "name": "Burnice",
+      "fileStem": "burnice",
+      "path": "Prydwen/zzz/assets/characters/burnice-7cafcffe0fee.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "450895960093",
+      "sourceHash": "450895960093",
+      "kind": "characters",
+      "name": "Seth",
+      "fileStem": "seth",
+      "path": "Prydwen/zzz/assets/characters/seth-450895960093.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "98d8d659c143",
+      "sourceHash": "98d8d659c143",
+      "kind": "characters",
+      "name": "Astra Yao",
+      "fileStem": "astra-yao",
+      "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "2fd489d454a4",
+      "sourceHash": "2fd489d454a4",
+      "kind": "characters",
+      "name": "Trigger",
+      "fileStem": "trigger",
+      "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "a0147df28355",
+      "sourceHash": "a0147df28355",
+      "kind": "characters",
+      "name": "Lucy",
+      "fileStem": "lucy",
+      "path": "Prydwen/zzz/assets/characters/lucy-a0147df28355.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ad063e072375",
+      "sourceHash": "ad063e072375",
+      "kind": "characters",
+      "name": "Nicole",
+      "fileStem": "nicole-demara",
+      "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "7a4ba5242a6c",
+      "sourceHash": "7a4ba5242a6c",
+      "kind": "characters",
+      "name": "Jane Doe",
+      "fileStem": "jane-doe",
+      "path": "Prydwen/zzz/assets/characters/jane-doe-7a4ba5242a6c.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d6ce03b535c6",
+      "sourceHash": "d6ce03b535c6",
+      "kind": "characters",
+      "name": "Velina",
+      "fileStem": "velina",
+      "path": "Prydwen/zzz/assets/characters/velina-d6ce03b535c6.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "2541747ebcdb",
+      "sourceHash": "2541747ebcdb",
+      "kind": "characters",
+      "name": "Nangong Yu",
+      "fileStem": "nangong-yu",
+      "path": "Prydwen/zzz/assets/characters/nangong-yu-2541747ebcdb.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1cdf4d671727",
+      "sourceHash": "1cdf4d671727",
+      "kind": "characters",
+      "name": "Sunna",
+      "fileStem": "sunna",
+      "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+      "width": 60,
+      "height": 60
+    }
+  ],
+  "sections": [
+    {
+      "id": "jane-doe-best-build-guide-0",
+      "level": 1,
+      "heading": "Jane Doe Best Build Guide",
+      "text": "Last updated: 14/June/2026",
+      "assets": [
+        {
+          "id": "59c7bcdfa19b",
+          "sourceHash": "59c7bcdfa19b",
+          "kind": "characters",
+          "name": "Character",
+          "fileStem": "jane-doe-card",
+          "path": "Prydwen/zzz/assets/characters/jane-doe-card-59c7bcdfa19b.webp",
+          "width": 370,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Jane Doe from ZZZ (Zenless Zone Zero). Jane Doe is an rank character with the Physical attribute who belongs to the Anomaly Specialty and who is part of the N.E.P.S. faction.\n Jane, a criminal behavior specialist, has had a \"colorful\" career as a consultant with Public Security over the years. She is an expert in disguise, infiltration, and other investigative work. She has a bad habit of trolling others and sometimes plays harmless pranks. She's a skilled mimic, able to change her appearance and demeanor at will, making people wonder what the \"real\" Jane is like.\n\n To learn more about Jane Doe check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": [
+        {
+          "id": "59d53db87dea",
+          "sourceHash": "59d53db87dea",
+          "kind": "icons",
+          "name": "S",
+          "fileStem": "rarity-s",
+          "path": "Prydwen/zzz/assets/icons/s-59d53db87dea.webp",
+          "width": 30,
+          "height": 30
+        },
+        {
+          "id": "883cade061c8",
+          "sourceHash": "883cade061c8",
+          "kind": "icons",
+          "name": "Anomaly",
+          "fileStem": "style-anomaly",
+          "path": "Prydwen/zzz/assets/icons/anomaly-883cade061c8.webp",
+          "width": 30,
+          "height": 30
+        },
+        {
+          "id": "237e68e9343e",
+          "sourceHash": "237e68e9343e",
+          "kind": "factions",
+          "name": "N.E.P.S.",
+          "fileStem": "faction-neps",
+          "path": "Prydwen/zzz/assets/factions/n-e-p-s-237e68e9343e.webp",
+          "width": 30,
+          "height": 30
+        }
+      ]
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Jane Doe has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 2.3\n\n Last build update\n Patch 2.3\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 14/June/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.",
+      "assets": []
+    },
+    {
+      "id": "calculations-9",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "To learn more about Jane Doe check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile",
+      "assets": []
+    },
+    {
+      "id": "core-skills-10",
+      "level": 2,
+      "heading": "Core skills",
+      "text": "Core Passive Insight\n\n Lv. 1\n\n When Jane's attacks hit an enemy, it causes them to enter the Gnawed state, lasting for 10s. If any squad member triggers Assault on an enemy in the Gnawed state and causes the Flinch effect, the Flinch effect is increased by 5s, and Assault DMG has a chance to trigger a CRIT, with a base CRIT Rate of 20% and CRIT DMG of 50%. Each point of Jane's Anomaly Proficiency further increases this CRIT Rate by 0.1%\n\n PEN Ratio 0\n BASE ATK: 0\n\n Additional Ability Sore Spot\n\n When there are other Anomaly Agents or Agents of the same faction in the squad:\n Jane's Anomaly Buildup Rate is increased by 15% . When the enemy is already suffering from an Attribute Anomaly, Jane's Anomaly Buildup towards the target is increased by an additional 15% .",
+      "assets": [
+        {
+          "id": "880f190c8aa9",
+          "sourceHash": "880f190c8aa9",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-core",
+          "path": "Prydwen/zzz/assets/icons/core-880f190c8aa9.webp",
+          "width": 32,
+          "height": 32
+        }
+      ]
+    },
+    {
+      "id": "skills-11",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Dancing Blades\n\n Press to activate:\nUnleashes up to 6 attacks in front, dealing Physical DMG.\n Multipliers\n\n Passion\n\n When Jane triggers Perfect Dodge, Defensive Assist, or performs a move that deals damage to the enemy, she accumulates Passion Stream. Upon reaching the maximum Passion Stream, Jane enters the Passion state.\nWhile in the Passion state, Jane Physical Anomaly Buildup Rate is increased by 25%. Additionally, if Jane Anomaly Proficiency exceeds 120 points, each extra point raises her ATK by 2, up to a maximum of 600.\n In the Passion state, Jane skills that deal damage expend Passion Stream. Activating a Perfect Dodge or Defensive Assist regenerates Passion Stream. Jane exits the Passion state when all of her Passion Stream is expended.\n\n Basic Attack: Salchow Jump\n\n Entering the Passion state grants Jane one use of Basic Attack: Salchow Jump. When available, hold to activate:\nLaunch rapid consecutive attacks forward, followed by a finishing strike, dealing Physical DMG.\nHold the button during the continuous attacks to extend the skill duration. Release to trigger the finishing strike early.\nAnti-Interrupt level is increased during the continuous attacks, and Jane takes 40% reduced DMG. Jane is invulnerable during the finishing strike.\nUsing Basic Attack: Salchow Jump while in the Passion state generates Passion Stream.\n Multipliers\n\n Dodge: Phantom\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\nJane has an extra dodge, alternating between two dodges before entering the Passion state. After entering the Passion state, Jane can pass through enemies in front when dodging.\n\n Dash Attack: Edge Jump\n\n Press during a dodge to activate.\nIf after a single dodge, launch an upward slash in front, dealing Physical DMG.\nIf after a second dodge, perform a series of slashes in front, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Phantom Thrust\n\n While in the Passion state, press during a dodge to activate:\nLaunch three quick slashes in front, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Swift Shadow\n\n Press during a Perfect Dodge to activate.\nIf after a single dodge, unleash multiple slashes at enemies in front, followed by a downward thrust, dealing Physical DMG.\nIf after a second dodge, leap up and deliver three consecutive attack combos to enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Dodge Counter: Swift Shadow Dance\n\n While in the Passion state, press during a Perfect Dodge to activate.\nSlash enemies in front quickly multiple times, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Aerial Sweep\n\n Press to activate.\nLeaps into the air to launch a series of kicks forward, then sweeps across, dealing Physical DMG.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n EX Special Attack: Aerial Sweep - Tail Swipe\n\n When Jane has enough energy, press to activate:\nLeaps into the air to launch a series of kicks forward, then sweeps across, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Flowers of Sin\n\n When a Chain Attack is triggered, select Jane to activate:\nSlash enemies in a large area in front, dealing massive Physical DMG.\nJane enters the Passion state when using the skill, and gains max Passion Stream\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Final Curtain\n\n When Decibel Rating is at Maximum, press to activate.\nSlash enemies back and forth in a large area, followed by a finishing strike, dealing massive Physical DMG.\nJane enters the Passion state when using the skill, and gains max Passion Stream.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Gale Sweep\n\n Press after a Defensive Assist to activate.\nLeap up and swiftly slash the enemy, then execute a wide sweeping slash across a large area in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Last Defense\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, inflicting massive Daze.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Dark Thorn\n\n When the on-field character is launched, press to activate.\nUnleash multiple slashes at enemies in front, followed by a downward thrust, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Lutz Jump\n\n While in the Passion state, when the on-field character is launched, press to activate:\nSlash enemies in front quickly multiple times, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers",
+      "assets": [
+        {
+          "id": "13fff798e82d",
+          "sourceHash": "13fff798e82d",
+          "kind": "icons",
+          "name": "Basic",
+          "fileStem": "icon-basic",
+          "path": "Prydwen/zzz/assets/icons/basic-13fff798e82d.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "f3bbacf4beb6",
+          "sourceHash": "f3bbacf4beb6",
+          "kind": "icons",
+          "name": "Dodge",
+          "fileStem": "icon-dodge",
+          "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "de0f0cad1e72",
+          "sourceHash": "de0f0cad1e72",
+          "kind": "icons",
+          "name": "Assist",
+          "fileStem": "icon-assist-m",
+          "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "954b8d0b61b7",
+          "sourceHash": "954b8d0b61b7",
+          "kind": "icons",
+          "name": "Special",
+          "fileStem": "icon-special-full",
+          "path": "Prydwen/zzz/assets/icons/special-954b8d0b61b7.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "803b765175bc",
+          "sourceHash": "803b765175bc",
+          "kind": "icons",
+          "name": "qte",
+          "fileStem": "icon-ulti-full",
+          "path": "Prydwen/zzz/assets/icons/qte-803b765175bc.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "9f68a61db8c5",
+          "sourceHash": "9f68a61db8c5",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-special",
+          "path": "Prydwen/zzz/assets/icons/core-9f68a61db8c5.webp",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "id": "d3cae9ba5d45",
+          "sourceHash": "d3cae9ba5d45",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-ulti",
+          "path": "Prydwen/zzz/assets/icons/core-d3cae9ba5d45.webp",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "id": "94a5940d48d5",
+          "sourceHash": "94a5940d48d5",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-assist",
+          "path": "Prydwen/zzz/assets/icons/core-94a5940d48d5.webp",
+          "width": 40,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "id": "mindscapes-12",
+      "level": 2,
+      "heading": "Mindscapes",
+      "text": "M1\n Crime Counsel\n Mindscape 1\n\n The maximum uses of Basic Attack: Salchow Jump are increased by one. While in the Passion state, Jane's Physical Anomaly Buildup Rate increases by an extra 15% and each point of Jane's Anomaly Proficiency increases her damage by 0.1% , up to a maximum of 30% .\n\n M2\n Adapt to the Environment\n Mindscape 2\n\n When Jane's attack hits an enemy in the Gnawed state, or when any squad member triggers Assault on an enemy in the Gnawed state, 15% of the enemy's DEF is ignored. Additionally, when Assault DMG triggers a CRIT, the CRIT DMG is increased by 50% .\n\n M3\n Anonymity\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Adapt and Thrive\n Mindscape 4\n\n When any squad member triggers the Assault or Disorder effects, all squad members' Attribute Anomaly DMG is increased by 18% , lasting 15s .\n\n M5\n Compulsive Hoarder\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Shady Technique\n Mindscape 6\n\n While in the Passion state, Jane's CRIT Rate increases by 20% , and CRIT DMG by 40% . After any squad member inflicts Assault, Jane instantly enters the Passion state, and gains max Passion Stream. When Assault deals a CRIT, Jane performs an additional attack on the target, dealing Physical DMG equal to 1,600% of her Anomaly Proficiency.",
+      "assets": []
+    },
+    {
+      "id": "stats-level-60-13",
+      "level": 2,
+      "heading": "Stats (Level 60)",
+      "text": "Jane Doe Stats at level 60 (including Core passive bonuses).\n\n HP\n 7788\n\n DEF\n 606\n\n ATK\n 880\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 86\n\n Anomaly Mastery\n 148\n\n Anomaly Proficiency\n 114\n\n Energy Regen\n 1.2",
+      "assets": [
+        {
+          "id": "bcc36adf7778",
+          "sourceHash": "bcc36adf7778",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/zzz/assets/icons/stat-hp-bcc36adf7778.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "6bde3e3d95d5",
+          "sourceHash": "6bde3e3d95d5",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-def",
+          "path": "Prydwen/zzz/assets/icons/stat-def-6bde3e3d95d5.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "3be631f5fe8b",
+          "sourceHash": "3be631f5fe8b",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/zzz/assets/icons/stat-atk-3be631f5fe8b.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "7e808fde7ecd",
+          "sourceHash": "7e808fde7ecd",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/zzz/assets/icons/stat-crit-7e808fde7ecd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "a5d74846670e",
+          "sourceHash": "a5d74846670e",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/zzz/assets/icons/stat-critdmg-a5d74846670e.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "96960682bbd8",
+          "sourceHash": "96960682bbd8",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-pen",
+          "path": "Prydwen/zzz/assets/icons/stat-pen-96960682bbd8.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "55a4b1c5a82a",
+          "sourceHash": "55a4b1c5a82a",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-impact",
+          "path": "Prydwen/zzz/assets/icons/stat-impact-55a4b1c5a82a.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "078045904ece",
+          "sourceHash": "078045904ece",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-mastery",
+          "path": "Prydwen/zzz/assets/icons/stat-mastery-078045904ece.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "09b14c497e98",
+          "sourceHash": "09b14c497e98",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/zzz/assets/icons/stat-energy-09b14c497e98.webp",
+          "width": 24,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "id": "voice-actors-14",
+      "level": 2,
+      "heading": "Voice Actors",
+      "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-15",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "aa74499f3c05",
+          "sourceHash": "aa74499f3c05",
+          "kind": "characters",
+          "name": "Jane Doe",
+          "fileStem": "jane-doe-full",
+          "path": "Prydwen/zzz/assets/characters/jane-doe-aa74499f3c05.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "ratings-16",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.",
+      "assets": []
+    },
+    {
+      "id": "anomaly-dps-17",
+      "level": 5,
+      "heading": "Anomaly DPS",
+      "text": "T1\n Endgame Modes",
+      "assets": []
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Incredible mobility and 3 Dashes.\n\n Absurdly fast and consistent Physical Anomaly buildup resulting in very frequent Assault Triggers.\n\n Can cause Assault to critically strike - an additional multiplier not accessible to any other Anomaly character at the time of her release.\n\n Strong damage in and outside of burst windows, making her viable all throughout the duration of combat.\n\n Can drastically extend her Passion State in the hands of a skilled player thanks to multiple abilities resetting and extending the state when used optimally.\n\n Can be used as a sole DPS or alongside other Anomaly characters in Disorder teams giving her great team-building flexibility and future prospects.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "When not taking advantage of her Chain Attack or the team's Ultimate Jane requires meaningful field time to enter and take advantage of the Passion State.\n\n Can lose significant power if enough Anomaly Proficiency cannot be acquired in order to activate her scaling abilities.\n\n Can sometimes lose meaningful damage due to the Anomaly Trigger cooldown and the Anomaly Ability cap (Abilities that can only Trigger Assault at the end of their animation and can waste build-up if it exceeds 100% before the end of the animation).\n\n Compared to other characters, she's not versatile - if the endgame buffs don't favor her, she struggles a lot.",
+      "assets": []
+    },
+    {
+      "id": "review-21",
+      "level": 2,
+      "heading": "Review",
+      "text": "Jane Doe is an S-rank Physical Anomaly Agent characterized by her primarily on-field playstyle which is flashy and ideal for Proxies who particularly enjoy playing around Perfect Dodging and high-damage Assault Anomalies that can also critically strike. As one of the most recognizable Agents in the game, she’s been playable for a long time and, like many other Anomaly DPS Agents, has seen a massive surge in power with Vivian’s release. But before we get into her meta strengths, let’s detail what her kit is all about:",
+      "assets": []
+    },
+    {
+      "id": "key-mechanics-22",
+      "level": 6,
+      "heading": "Key Mechanics",
+      "text": "Jane has a unique resource called Passion Stream, displayed below her HP bar, going up to 100 points. When she inflicts damage, she either gains or loses this resource. This depends on whether or not she is in the Passion state.\n Jane’s Passion Stream gauge is restored by attacking, getting a Perfect Dodge or a Defensive Assist. When it is full, she enters the Passion state. While she is in this state, the Passion Stream gauge turns red instead of its usual blue. Inflicting damage will then consume Passion, Jane’s Anomaly Buildup Rate will be increased by 25%, and if her Anomaly Proficiency exceeds 120, each extra point increases her ATK by 2, up to a maximum of 600 at 420 Anomaly Proficiency .\n The Passion Stream gauge can be restored while in the Passion State by triggering Perfect Dodges and/or Defensive Assists. It can also be restored by performing her Salchow Jump attack in the Passion state, triggered by holding Basic Attack after entering the Passion state (of which has one charge refreshing every time the Passion State is re-entered).\n Jane’s Core Passive allows her to inflict the Gnawed state to any enemies hit for 10s. This causes them to have an extended duration on the Flinch effect, and Assault Anomaly damage will become able to critically strike with a base CRIT Rate of 37% and a fixed CRIT DMG of 50%. The CRIT Rate will increase depending on her Anomaly Proficiency, reaching 100% CRIT Rate at 375 Anomaly Proficiency.",
+      "assets": []
+    },
+    {
+      "id": "basic-attack-23",
+      "level": 6,
+      "heading": "Basic Attack",
+      "text": "Jane features a 6-part Basic Attack. This serves as one of her primary means of dealing damage on-field and accumulating Passion while awaiting an opportunity to ideally Dodge Counter.\n More interestingly however, she possesses a special Basic Attack called Salchow Jump, of which she gains one charge every time she enters the Passion state. Holding Basic Attack with a Salchow Jump charge available causes her to spin rapidly, then perform a finishing move, during which she is invulnerable, which can be activated early by releasing Basic Attack if needed to dodge an enemy attack. This deals a high amount of damage and applies a good amount of Physical Anomaly. However, it also severely restricts her movement which can cause issues where all hits fail to fully connect against more mobile enemies, which must be kept in mind. As mentioned earlier, it also restores Passion instead of consuming it, which paired with its good damage and Anomaly potential makes it worth executing in every Passion State she enters.",
+      "assets": []
+    },
+    {
+      "id": "chain-attack-ultimate-24",
+      "level": 6,
+      "heading": "Chain Attack & Ultimate",
+      "text": "Jane’s Chain Attack and Ultimate function as expected, however it is worth noting that they cause Jane to immediately enter the Passion state at full value, then about half of her passion is subtracted from inflicting damage. This causes Salchow Jump charges to refresh which is particularly important during her Combos — during Stun Windows (and even outside of them sometimes with her Ultimate if you are significantly overcapping on Decibels), thanks to these attacks she will be able to trigger multiple Salchow Jumps in quick succession by repeatedly entering the Passion State.",
+      "assets": []
+    },
+    {
+      "id": "dash-attack-dodge-counter-25",
+      "level": 6,
+      "heading": "Dash Attack & Dodge Counter",
+      "text": "Jane has two different Dash Attacks and Dodge Counters depending on whether or not she is in the Passion state. Additionally, she has different animations depending on whether the Perfect Dodge is triggered after the first or second dodge, but for all intents and purposes this makes little to no difference.\n While the Dash Attack and Dodge Counter both get increased damage inside of the Passion State, in all instances the Dodge Counter applies a significantly higher amount of Daze and Anomaly per second than any Basic Attacks and triggering a Perfect Dodge always restores Passion Stream for Jane. This makes them especially important to execute whenever an opportunity presents itself. Hence, Jane’s damage potential is significantly raised depending on the player’s ability to frequently Perfect Dodge an enemy’s attacks.",
+      "assets": []
+    },
+    {
+      "id": "unused-redundant-parts-of-her-kit-26",
+      "level": 6,
+      "heading": "Unused/Redundant parts of her kit",
+      "text": "Jane’s Special, EX Special and Assist-related attacks all function as you’d expect them to and aren’t worth going into detail over.\n Of these attacks however, we will give a particular emphasis to her EX Special. It is most notable as it deals a good chunk of damage and Anomaly when it is available, and even though it does nothing out of the ordinary otherwise (which is why we don’t go into detail over it) it is used in all of Jane’s best combos.",
+      "assets": []
+    },
+    {
+      "id": "meta-position-conclusion-27",
+      "level": 6,
+      "heading": "Meta Position & Conclusion",
+      "text": "Jane has recently gotten lots of options in terms of teams thanks to the many Anomaly-related characters who have joined the roster, mostly in the form of Alice, Vivian and Yuzuha.\n While Alice, Jane and Nicole is the best team in the game bar-none at Mindscape 2 and higher, Jane pairs the best with Vivian before that.\n Due to Vivian’s Abloom having the highest scaling of Assault Anomaly and Vivian providing Jane the necessary fieldtime needed, Jane pairs exceptionally well with her.\n While Yuzuha is the best overall Support for all Anomaly teams and especially for Alice, being able to significantly contribute to Anomaly Build-Up while also being able to trigger Assault during inactive attacks to prevent Anomaly Overflow, Nicole can under certain circumstances be a superior choice.\n As a result, while Jane would normally have fallen to the wayside in favour of more recently released Agents, she instead experienced a resurgence in usage alongside them, gaining a significant boost to her damage ceiling when played alongside Vivian or Alice, and Yuzuha or Nicole as the ideal third slot partner.\n In conclusion, while Jane definitely benefits strongly from Dodge Counters, which may deter some players away from her as this makes or breaks her damage potential depending on how aggressive the enemy is, it is worth keeping in mind that outside of this she has a fairly straightforward on-field playstyle and retains good damage potential to this day, seeing relatively frequent use in Endgame Contents despite being first released near the beginning of the game.\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "collaboration-disclaimer-28",
+      "level": 2,
+      "heading": "Collaboration Disclaimer",
+      "text": "For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.",
+      "assets": []
+    },
+    {
+      "id": "best-w-engines-29",
+      "level": 2,
+      "heading": "Best W-Engines",
+      "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.",
+      "assets": []
+    },
+    {
+      "id": "team-buffed-calculations-30",
+      "level": 5,
+      "heading": "Team-buffed calculations",
+      "text": "The top number shows team-buffed calculations, while the bottom number in the 'vacuum', so just their performance solo. For the team-buffed calculations, here's the team setup we used for them:\n Vivian + Flight of Fancy\n Yuzuha + Metanukimorphosis\n 100.00%\n 100.00%\n\n Sharpened Stinger (S 1 )\n\n Jane's Signature provides her with 90 AP and a stackable buff that grants 36% Physical DMG and 40% Anomaly Buildup Rate. This statline makes hitting Janes goal of 420 AP easier while also boosting her damage significantly but requires her to factor in Dash Attacks or Dodge counters into her gameplay. When used correctly, one of Janes top options, when neglected (stacks allowed to fall off) loses significant value.\n Usage: 82.99 %\n Shiyu Defense: 28174\n Deadly Assault: 25883\n\n 91.59%\n 96.08%\n\n Practiced Perfection (S 1 )\n\n Alice's Signature W-Engine provides Jane with up to 60 Anomaly Mastery, 30% ATK and 40% Physical DMG Bonus but notably does not provide AP which makes reaching 420 quite a tricky endeavour. Fortunately Jane can get around this with the support of some of her best team mates and their ideal weapons (Yuzuha + Her Signature). Also thanks to the extra Anomaly Mastery and superior buildup this Engine has comapred to her signature it's able to scale better alongside Vivian allowing it to catch up in performance when her damage is included (Our calculations only assume Jane's damage).\n Usage: 5.46 %\n Shiyu Defense: 28220\n Deadly Assault: 33202\n\n 81.54%\n 86.04%\n\n Weeping Gemini (S 5 )\n\n The best fully F2P-accessible A-rank option for many Anomaly Agents, Jane being no exception to this. Grants a massive boost to Anomaly Proficiency when any squad member inflicts an Attribute Anomaly on enemies, while providing good permanent ATK via its main stats. Not comparable to the above options but a viable alternative if you don't have access to them.\n Usage: 7.06 %\n Shiyu Defense: 27753\n Deadly Assault: 25229\n\n 80.57%\n 84.92%\n\n Electro-Lip Gloss (S 5 )\n\n The Anomaly battle pass W-Engine is one that can either be exceptionally powerful or fairly weak depending on the combat circumstances, team and gameplay utilized alongside it. This Engine is only recommended for teams that can apply an Attribute Anomaly at all times on relevant enemies.\n Usage: 1.27 %\n Shiyu Defense: 31076\n Deadly Assault: 23912\n\n 78.33%\n 78.37%\n\n Fusion Compiler (S 1 )\n\n A solid accessible option, granting 24% PEN Ratio, great Base ATK, ATK% and is able to provide extra Anomaly Proficiency when a Special or EX Special attack is used. When using this engine, you'll need to weave in Jane's Special Attacks at least once every 8s to ensure maximum uptime on the stackable part of this Engine's buff or its performance will suffer.Due to this, we have calculated this W-Engine with 2 stacks, but if you are able to maintain 3 stacks at all time, this W-Engine can perform better than shown here.\n Usage: 0.55 %\n Shiyu Defense: 31808\n Deadly Assault: 26867",
+      "assets": [
+        {
+          "id": "e33ff79684e5",
+          "sourceHash": "e33ff79684e5",
+          "kind": "characters",
+          "name": "Vivian",
+          "fileStem": "vivian",
+          "path": "Prydwen/zzz/assets/characters/vivian-e33ff79684e5.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d2c1c9b40367",
+          "sourceHash": "d2c1c9b40367",
+          "kind": "characters",
+          "name": "Yuzuha",
+          "fileStem": "ukinami-yuzuha",
+          "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "af0f0229909e",
+          "sourceHash": "af0f0229909e",
+          "kind": "w-engines",
+          "name": "Sharpened Stinger",
+          "fileStem": "sharpened-stinger-image",
+          "path": "Prydwen/zzz/assets/w-engines/sharpened-stinger-af0f0229909e.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "093b64b32f57",
+          "sourceHash": "093b64b32f57",
+          "kind": "w-engines",
+          "name": "Practiced Perfection",
+          "fileStem": "practiced-perfection-image",
+          "path": "Prydwen/zzz/assets/w-engines/practiced-perfection-093b64b32f57.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "b64aaa211d35",
+          "sourceHash": "b64aaa211d35",
+          "kind": "w-engines",
+          "name": "Weeping Gemini",
+          "fileStem": "weeping-gemini-image",
+          "path": "Prydwen/zzz/assets/w-engines/weeping-gemini-b64aaa211d35.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "1c1a80ffaf5d",
+          "sourceHash": "1c1a80ffaf5d",
+          "kind": "w-engines",
+          "name": "Electro-Lip Gloss",
+          "fileStem": "electro-lip-gloss-image",
+          "path": "Prydwen/zzz/assets/w-engines/electro-lip-gloss-1c1a80ffaf5d.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "f266d35f10dc",
+          "sourceHash": "f266d35f10dc",
+          "kind": "w-engines",
+          "name": "Fusion Compiler",
+          "fileStem": "fusion-compiler-image",
+          "path": "Prydwen/zzz/assets/w-engines/fusion-compiler-f266d35f10dc.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-disk-drives-sets-31",
+      "level": 2,
+      "heading": "Best Disk Drives Sets",
+      "text": "100.00%\n\n Fanged Metal ( 4 -PC)\n\n Best option for direct Anomaly-based Physical damage dealers, granting 10% permanent Physical DMG% from the 2-PC and 35% increased DMG against enemies inflicted by Assault by any party member for 12 seconds. DMG% bonus against enemies will be up the majority of most fights against boss-type enemies thanks to its long duration and ability to trigger from any team member, allowing a Physical-based Bangboo/teammate to assist with uptime via their own Assaults.\n Best combined with your choice of 2-PC Set:\n 2P\n Phaethon's Melody\n\n (Recommended)\n 2P\n Puffer Electro\n\n 2P\n Freedom Blues\n\n Chaos Jazz\n\n 2P\n Astral Voice\n\n Hormone Punk",
+      "assets": [
+        {
+          "id": "ff78b0b02e04",
+          "sourceHash": "ff78b0b02e04",
+          "kind": "drive-discs",
+          "name": "Fanged Metal",
+          "fileStem": "set-fanged",
+          "path": "Prydwen/zzz/assets/drive-discs/fanged-metal-ff78b0b02e04.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "5148cf1e5846",
+          "sourceHash": "5148cf1e5846",
+          "kind": "drive-discs",
+          "name": "Phaethon's Melody",
+          "fileStem": "set-melody",
+          "path": "Prydwen/zzz/assets/drive-discs/phaethons-melody-5148cf1e5846.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "69d899f282ca",
+          "sourceHash": "69d899f282ca",
+          "kind": "drive-discs",
+          "name": "Puffer Electro",
+          "fileStem": "set-puffer",
+          "path": "Prydwen/zzz/assets/drive-discs/puffer-electro-69d899f282ca.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "4890ba26d7e9",
+          "sourceHash": "4890ba26d7e9",
+          "kind": "drive-discs",
+          "name": "Freedom Blues",
+          "fileStem": "set-freedom",
+          "path": "Prydwen/zzz/assets/drive-discs/freedom-blues-4890ba26d7e9.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "e1ff48081ec4",
+          "sourceHash": "e1ff48081ec4",
+          "kind": "drive-discs",
+          "name": "Chaos Jazz",
+          "fileStem": "set-chaos",
+          "path": "Prydwen/zzz/assets/drive-discs/chaos-jazz-e1ff48081ec4.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "47b453ad83b8",
+          "sourceHash": "47b453ad83b8",
+          "kind": "drive-discs",
+          "name": "Astral Voice",
+          "fileStem": "set-astral",
+          "path": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "9b0991be94a3",
+          "sourceHash": "9b0991be94a3",
+          "kind": "drive-discs",
+          "name": "Hormone Punk",
+          "fileStem": "set-hormone",
+          "path": "Prydwen/zzz/assets/drive-discs/hormone-punk-9b0991be94a3.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-disk-drives-stats-32",
+      "level": 2,
+      "heading": "Best Disk Drives Stats",
+      "text": "Disk 4\n Anomaly Proficiency\n\n Disk 5\n PEN Ratio% > Physical DMG% > ATK%\n\n Disk 6\n Anomaly Mastery\n\n Substats: Anomaly Proficiency > ATK% > PEN = ATK",
+      "assets": []
+    },
+    {
+      "id": "best-endgame-stats-level-60-33",
+      "level": 2,
+      "heading": "Best Endgame Stats (Level 60)",
+      "text": "ATK: 2300 - 2800+\n\n HP: 9000 - 10000+\n\n DEF : 800+\n\n Anomaly Proficiency: 375 - 420+ (IN COMBAT; 420 Required for cap of 600 Flat Combat Attack in Passion State)\n\n Anomaly Mastery: 192+",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-34",
+      "level": 2,
+      "heading": "Skill priority",
+      "text": "Chain Attack\n\n Special Attack\n\n Basic Attack\n\n Dodge\n\n Assist",
+      "assets": [
+        {
+          "id": "803b765175bc",
+          "sourceHash": "803b765175bc",
+          "kind": "icons",
+          "name": "Chain Attack",
+          "fileStem": "icon-ulti-full",
+          "path": "Prydwen/zzz/assets/icons/chain-attack-803b765175bc.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "954b8d0b61b7",
+          "sourceHash": "954b8d0b61b7",
+          "kind": "icons",
+          "name": "Special Attack",
+          "fileStem": "icon-special-full",
+          "path": "Prydwen/zzz/assets/icons/special-attack-954b8d0b61b7.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "13fff798e82d",
+          "sourceHash": "13fff798e82d",
+          "kind": "icons",
+          "name": "Basic Attack",
+          "fileStem": "icon-basic",
+          "path": "Prydwen/zzz/assets/icons/basic-attack-13fff798e82d.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "f3bbacf4beb6",
+          "sourceHash": "f3bbacf4beb6",
+          "kind": "icons",
+          "name": "Dodge",
+          "fileStem": "icon-dodge",
+          "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "de0f0cad1e72",
+          "sourceHash": "de0f0cad1e72",
+          "kind": "icons",
+          "name": "Assist",
+          "fileStem": "icon-assist-m",
+          "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+          "width": 24,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "id": "video-guides-35",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "Teams & Synergy",
+      "assets": []
+    },
+    {
+      "id": "synergy-36",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Below we list only the most important synergies for Jane Doe . The character can work with others if you know what to do and how to use them.\n\n Alice - Normally, Jane is the greedy, on-field DPS Anomaly Agent, but with Alice she takes a step back to function as a supportive unit instead, making for a surprisingly strong team. Jane’s Core Passive allows all Assaults to CRIT, and this also applies to Alice’s Polarity Disorders. With Polarity Assaults being able to Disorder with normal Assaults, the pair can still loop Disorders despite being a Mono Physical team. As Assaults are single damage ticks, Disorders aren’t even all that important, with back-to-back Assaults doing so much damage that it can even outpace traditional Disorder-focused Anomaly teams. If Mindscapes are on the table, then the value Alice’s and Jane’s M2 brings to the team is so large that the pair will come close to - or even match - the performance of M6 teams.\n Burnice Vivian - Unsurprisingly, the 2 Sub-DPS Anomaly Agents are very good pairings for Jane. As far as Anomaly units go, Jane is particularly greedy for field time, as she’s reliant on Perfect Dodges to sustain Passion State and her Signature’s buff, so the less time commitment is needed by her partners, the better she does. Vivian in particular is especially good, as Ablooms triggered in Physical Anomaly count as “Assaults”, and therefore can CRIT as a result of Jane’s Core Passive. Given that Ablooms scale particularly well with Physical Anomaly, it makes for one of the most synergistic Anomaly combinations in the game\n Seth - Seth is a decent teammate on hypercarry Jane comps, where instead of working around Disorders, she just loops back-to-back Assaults instead. Seth doesn’t care for being on-field much, being able to quickswap out of his EX early and providing Quick Assists out of his enhanced Basic Attack and Assist Follow-Ups, all the while applying a 20% Anomaly Build-Up RES Shred to enemies and 100 Anomaly Proficiency to a single unit (keep in mind the shred is from enhanced Basic Attack only!). This buff not only enhances Jane’s damage output, but also assists in capping out her Core Passive bonus, making for a very potent F2P synergy.\n Yuzuha - As the dedicated Anomaly Support unit, Yuzuha is an ideal match for Jane. as her greedy, on-field playstyle and high Anomaly build-up means other units can struggle to keep up, so Yuzuha makes up for the lopsided build-up and makes Disorder juggling a lot easier. This isn’t even necessary though, as unlike most teams where Yuzuha would Flavor Match a Sub-DPS Anomaly Agent (like Burnice or Vivian) just Flavor Matching Jane instead and looping back-to-back Assaults is a competitive, if not superior option at times! It allows for Jane to be built with ATK D6 (although surprisingly, AM D6 can sometimes still do better!) and lead to a simple gameplan of going for Disorders if resources are available, but otherwise ignoring any complexity and focus on getting as many Assaults as possible. The raw damage buffs that Yuzuha provides, combined with Jane’s burst potential, makes for a very strong pair.\n Astra Yao Trigger Lucy Nicole - Any generalist support is also fine for Jane. Astra, despite being geared towards Attackers (her CRIT DMG buffs will do little for Jane, as Assault CRITs are independent of CRIT stats), the raw value of ATK and DMG % bonuses she provides makes her a solid second best pick after Yuzuha. Nicole is a powerhouse of a unit generally, and as Jane inflicts Assault - a one time burst of damage - it’s possible to ensure that every tick has DEF Shred applied to it if well managed. She can even make for a pseudo-Anomaly unit if Yuzuha Flavor Matches her, being a solid low cost option. Using Nicole well can be demanding, so Lucy is also an option, having long-lasting ATK bonuses and the ability to provide a consistent 4th stack for Kaboom the Cannon, but she isn’t a particularly strong pick. Trigger is also a surprisingly strong pick; as Anomaly Agents deal much of their damage out-of-stun and her Stun DMG multiplier bonus applies regardless of stun, it’s a strong, undiluted damage increase to Jane’s Assaults - which is even further increased if Spectral Gaze is available. Trigger also still deals a fair amount of Daze even without her Additional Ability, but as it can work with element match, using Yanagi or even Seth for it is still workable.",
+      "assets": [
+        {
+          "id": "8bdbbd8d6be8",
+          "sourceHash": "8bdbbd8d6be8",
+          "kind": "characters",
+          "name": "Alice",
+          "fileStem": "alice",
+          "path": "Prydwen/zzz/assets/characters/alice-8bdbbd8d6be8.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7cafcffe0fee",
+          "sourceHash": "7cafcffe0fee",
+          "kind": "characters",
+          "name": "Burnice",
+          "fileStem": "burnice",
+          "path": "Prydwen/zzz/assets/characters/burnice-7cafcffe0fee.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e33ff79684e5",
+          "sourceHash": "e33ff79684e5",
+          "kind": "characters",
+          "name": "Vivian",
+          "fileStem": "vivian",
+          "path": "Prydwen/zzz/assets/characters/vivian-e33ff79684e5.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "450895960093",
+          "sourceHash": "450895960093",
+          "kind": "characters",
+          "name": "Seth",
+          "fileStem": "seth",
+          "path": "Prydwen/zzz/assets/characters/seth-450895960093.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d2c1c9b40367",
+          "sourceHash": "d2c1c9b40367",
+          "kind": "characters",
+          "name": "Yuzuha",
+          "fileStem": "ukinami-yuzuha",
+          "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "98d8d659c143",
+          "sourceHash": "98d8d659c143",
+          "kind": "characters",
+          "name": "Astra Yao",
+          "fileStem": "astra-yao",
+          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "2fd489d454a4",
+          "sourceHash": "2fd489d454a4",
+          "kind": "characters",
+          "name": "Trigger",
+          "fileStem": "trigger",
+          "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "a0147df28355",
+          "sourceHash": "a0147df28355",
+          "kind": "characters",
+          "name": "Lucy",
+          "fileStem": "lucy",
+          "path": "Prydwen/zzz/assets/characters/lucy-a0147df28355.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ad063e072375",
+          "sourceHash": "ad063e072375",
+          "kind": "characters",
+          "name": "Nicole",
+          "fileStem": "nicole-demara",
+          "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-shiyu-defense-37",
+      "level": 2,
+      "heading": "Teams (Shiyu Defense)",
+      "text": "This section lists most popular teams featuring Jane Doe in the current phase of Shiyu Defense.\n Rank 26\n App. rate: 1.47 %\n Avg. time: 30831\n\n Rank 31\n App. rate: 1.11 %\n Avg. time: 26633\n\n Rank 44\n App. rate: 0.58 %\n Avg. time: 26430\n\n Rank 51\n App. rate: 0.5 %\n Avg. time: 26160\n\n Rank 87\n App. rate: 0.18 %\n Avg. time: 29414\n\n Rank 101\n App. rate: 0.14 %\n Avg. time: 27602\n\n Rank 117\n App. rate: 0.1 %\n Avg. time: 27034\n\n Rank 238\n App. rate: 0.02 %\n Avg. time: 0\n\n Rank 238\n App. rate: 0.02 %\n Avg. time: 25773",
+      "assets": [
+        {
+          "id": "7a4ba5242a6c",
+          "sourceHash": "7a4ba5242a6c",
+          "kind": "characters",
+          "name": "Jane Doe",
+          "fileStem": "jane-doe",
+          "path": "Prydwen/zzz/assets/characters/jane-doe-7a4ba5242a6c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d6ce03b535c6",
+          "sourceHash": "d6ce03b535c6",
+          "kind": "characters",
+          "name": "Velina",
+          "fileStem": "velina",
+          "path": "Prydwen/zzz/assets/characters/velina-d6ce03b535c6.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d2c1c9b40367",
+          "sourceHash": "d2c1c9b40367",
+          "kind": "characters",
+          "name": "Yuzuha",
+          "fileStem": "ukinami-yuzuha",
+          "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "8bdbbd8d6be8",
+          "sourceHash": "8bdbbd8d6be8",
+          "kind": "characters",
+          "name": "Alice",
+          "fileStem": "alice",
+          "path": "Prydwen/zzz/assets/characters/alice-8bdbbd8d6be8.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7cafcffe0fee",
+          "sourceHash": "7cafcffe0fee",
+          "kind": "characters",
+          "name": "Burnice",
+          "fileStem": "burnice",
+          "path": "Prydwen/zzz/assets/characters/burnice-7cafcffe0fee.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e33ff79684e5",
+          "sourceHash": "e33ff79684e5",
+          "kind": "characters",
+          "name": "Vivian",
+          "fileStem": "vivian",
+          "path": "Prydwen/zzz/assets/characters/vivian-e33ff79684e5.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "98d8d659c143",
+          "sourceHash": "98d8d659c143",
+          "kind": "characters",
+          "name": "Astra Yao",
+          "fileStem": "astra-yao",
+          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "2541747ebcdb",
+          "sourceHash": "2541747ebcdb",
+          "kind": "characters",
+          "name": "Nangong Yu",
+          "fileStem": "nangong-yu",
+          "path": "Prydwen/zzz/assets/characters/nangong-yu-2541747ebcdb.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1cdf4d671727",
+          "sourceHash": "1cdf4d671727",
+          "kind": "characters",
+          "name": "Sunna",
+          "fileStem": "sunna",
+          "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-deadly-assault-38",
+      "level": 2,
+      "heading": "Teams (Deadly Assault)",
+      "text": "This section lists most popular teams featuring Jane Doe in the current phase of Deadly Assault.\n Rank 7\n App. rate: 9.23 %\n Avg. score: 26255\n\n Rank 69\n App. rate: 0.31 %\n Avg. score: 22122\n\n Rank 95\n App. rate: 0.18 %\n Avg. score: 21214\n\n Rank 174\n App. rate: 0.04 %\n Avg. score: 23227\n\n Rank 205\n App. rate: 0.03 %\n Avg. score: 21276",
+      "assets": [
+        {
+          "id": "7a4ba5242a6c",
+          "sourceHash": "7a4ba5242a6c",
+          "kind": "characters",
+          "name": "Jane Doe",
+          "fileStem": "jane-doe",
+          "path": "Prydwen/zzz/assets/characters/jane-doe-7a4ba5242a6c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d6ce03b535c6",
+          "sourceHash": "d6ce03b535c6",
+          "kind": "characters",
+          "name": "Velina",
+          "fileStem": "velina",
+          "path": "Prydwen/zzz/assets/characters/velina-d6ce03b535c6.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d2c1c9b40367",
+          "sourceHash": "d2c1c9b40367",
+          "kind": "characters",
+          "name": "Yuzuha",
+          "fileStem": "ukinami-yuzuha",
+          "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "98d8d659c143",
+          "sourceHash": "98d8d659c143",
+          "kind": "characters",
+          "name": "Astra Yao",
+          "fileStem": "astra-yao",
+          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e33ff79684e5",
+          "sourceHash": "e33ff79684e5",
+          "kind": "characters",
+          "name": "Vivian",
+          "fileStem": "vivian",
+          "path": "Prydwen/zzz/assets/characters/vivian-e33ff79684e5.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "2541747ebcdb",
+          "sourceHash": "2541747ebcdb",
+          "kind": "characters",
+          "name": "Nangong Yu",
+          "fileStem": "nangong-yu",
+          "path": "Prydwen/zzz/assets/characters/nangong-yu-2541747ebcdb.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "best-w-engines": {
+      "label": "Best W-Engines",
+      "sections": [
+        {
+          "heading": "Best W-Engines",
+          "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.",
+          "assets": []
+        }
+      ]
+    },
+    "best-disk-drives-sets": {
+      "label": "Best Disk Drives Sets",
+      "sections": [
+        {
+          "heading": "Best Disk Drives Sets",
+          "text": "100.00%\n\n Fanged Metal ( 4 -PC)\n\n Best option for direct Anomaly-based Physical damage dealers, granting 10% permanent Physical DMG% from the 2-PC and 35% increased DMG against enemies inflicted by Assault by any party member for 12 seconds. DMG% bonus against enemies will be up the majority of most fights against boss-type enemies thanks to its long duration and ability to trigger from any team member, allowing a Physical-based Bangboo/teammate to assist with uptime via their own Assaults.\n Best combined with your choice of 2-PC Set:\n 2P\n Phaethon's Melody\n\n (Recommended)\n 2P\n Puffer Electro\n\n 2P\n Freedom Blues\n\n Chaos Jazz\n\n 2P\n Astral Voice\n\n Hormone Punk",
+          "assets": [
+            {
+              "id": "ff78b0b02e04",
+              "sourceHash": "ff78b0b02e04",
+              "kind": "drive-discs",
+              "name": "Fanged Metal",
+              "fileStem": "set-fanged",
+              "path": "Prydwen/zzz/assets/drive-discs/fanged-metal-ff78b0b02e04.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "5148cf1e5846",
+              "sourceHash": "5148cf1e5846",
+              "kind": "drive-discs",
+              "name": "Phaethon's Melody",
+              "fileStem": "set-melody",
+              "path": "Prydwen/zzz/assets/drive-discs/phaethons-melody-5148cf1e5846.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "69d899f282ca",
+              "sourceHash": "69d899f282ca",
+              "kind": "drive-discs",
+              "name": "Puffer Electro",
+              "fileStem": "set-puffer",
+              "path": "Prydwen/zzz/assets/drive-discs/puffer-electro-69d899f282ca.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "4890ba26d7e9",
+              "sourceHash": "4890ba26d7e9",
+              "kind": "drive-discs",
+              "name": "Freedom Blues",
+              "fileStem": "set-freedom",
+              "path": "Prydwen/zzz/assets/drive-discs/freedom-blues-4890ba26d7e9.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "e1ff48081ec4",
+              "sourceHash": "e1ff48081ec4",
+              "kind": "drive-discs",
+              "name": "Chaos Jazz",
+              "fileStem": "set-chaos",
+              "path": "Prydwen/zzz/assets/drive-discs/chaos-jazz-e1ff48081ec4.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "47b453ad83b8",
+              "sourceHash": "47b453ad83b8",
+              "kind": "drive-discs",
+              "name": "Astral Voice",
+              "fileStem": "set-astral",
+              "path": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "9b0991be94a3",
+              "sourceHash": "9b0991be94a3",
+              "kind": "drive-discs",
+              "name": "Hormone Punk",
+              "fileStem": "set-hormone",
+              "path": "Prydwen/zzz/assets/drive-discs/hormone-punk-9b0991be94a3.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-disk-drives-stats": {
+      "label": "Best Disk Drives Stats",
+      "sections": [
+        {
+          "heading": "Best Disk Drives Stats",
+          "text": "Disk 4\n Anomaly Proficiency\n\n Disk 5\n PEN Ratio% > Physical DMG% > ATK%\n\n Disk 6\n Anomaly Mastery\n\n Substats: Anomaly Proficiency > ATK% > PEN = ATK",
+          "assets": []
+        }
+      ]
+    },
+    "best-endgame-stats": {
+      "label": "Best Endgame Stats",
+      "sections": [
+        {
+          "heading": "Best Endgame Stats (Level 60)",
+          "text": "ATK: 2300 - 2800+\n\n HP: 9000 - 10000+\n\n DEF : 800+\n\n Anomaly Proficiency: 375 - 420+ (IN COMBAT; 420 Required for cap of 600 Flat Combat Attack in Passion State)\n\n Anomaly Mastery: 192+",
+          "assets": []
+        }
+      ]
+    },
+    "skill-priority": {
+      "label": "Skill priority",
+      "sections": [
+        {
+          "heading": "Skill priority",
+          "text": "Chain Attack\n\n Special Attack\n\n Basic Attack\n\n Dodge\n\n Assist",
+          "assets": [
+            {
+              "id": "803b765175bc",
+              "sourceHash": "803b765175bc",
+              "kind": "icons",
+              "name": "Chain Attack",
+              "fileStem": "icon-ulti-full",
+              "path": "Prydwen/zzz/assets/icons/chain-attack-803b765175bc.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "954b8d0b61b7",
+              "sourceHash": "954b8d0b61b7",
+              "kind": "icons",
+              "name": "Special Attack",
+              "fileStem": "icon-special-full",
+              "path": "Prydwen/zzz/assets/icons/special-attack-954b8d0b61b7.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "13fff798e82d",
+              "sourceHash": "13fff798e82d",
+              "kind": "icons",
+              "name": "Basic Attack",
+              "fileStem": "icon-basic",
+              "path": "Prydwen/zzz/assets/icons/basic-attack-13fff798e82d.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "f3bbacf4beb6",
+              "sourceHash": "f3bbacf4beb6",
+              "kind": "icons",
+              "name": "Dodge",
+              "fileStem": "icon-dodge",
+              "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "de0f0cad1e72",
+              "sourceHash": "de0f0cad1e72",
+              "kind": "icons",
+              "name": "Assist",
+              "fileStem": "icon-assist-m",
+              "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+              "width": 24,
+              "height": 24
+            }
+          ]
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Below we list only the most important synergies for Jane Doe . The character can work with others if you know what to do and how to use them.\n\n Alice - Normally, Jane is the greedy, on-field DPS Anomaly Agent, but with Alice she takes a step back to function as a supportive unit instead, making for a surprisingly strong team. Jane’s Core Passive allows all Assaults to CRIT, and this also applies to Alice’s Polarity Disorders. With Polarity Assaults being able to Disorder with normal Assaults, the pair can still loop Disorders despite being a Mono Physical team. As Assaults are single damage ticks, Disorders aren’t even all that important, with back-to-back Assaults doing so much damage that it can even outpace traditional Disorder-focused Anomaly teams. If Mindscapes are on the table, then the value Alice’s and Jane’s M2 brings to the team is so large that the pair will come close to - or even match - the performance of M6 teams.\n Burnice Vivian - Unsurprisingly, the 2 Sub-DPS Anomaly Agents are very good pairings for Jane. As far as Anomaly units go, Jane is particularly greedy for field time, as she’s reliant on Perfect Dodges to sustain Passion State and her Signature’s buff, so the less time commitment is needed by her partners, the better she does. Vivian in particular is especially good, as Ablooms triggered in Physical Anomaly count as “Assaults”, and therefore can CRIT as a result of Jane’s Core Passive. Given that Ablooms scale particularly well with Physical Anomaly, it makes for one of the most synergistic Anomaly combinations in the game\n Seth - Seth is a decent teammate on hypercarry Jane comps, where instead of working around Disorders, she just loops back-to-back Assaults instead. Seth doesn’t care for being on-field much, being able to quickswap out of his EX early and providing Quick Assists out of his enhanced Basic Attack and Assist Follow-Ups, all the while applying a 20% Anomaly Build-Up RES Shred to enemies and 100 Anomaly Proficiency to a single unit (keep in mind the shred is from enhanced Basic Attack only!). This buff not only enhances Jane’s damage output, but also assists in capping out her Core Passive bonus, making for a very potent F2P synergy.\n Yuzuha - As the dedicated Anomaly Support unit, Yuzuha is an ideal match for Jane. as her greedy, on-field playstyle and high Anomaly build-up means other units can struggle to keep up, so Yuzuha makes up for the lopsided build-up and makes Disorder juggling a lot easier. This isn’t even necessary though, as unlike most teams where Yuzuha would Flavor Match a Sub-DPS Anomaly Agent (like Burnice or Vivian) just Flavor Matching Jane instead and looping back-to-back Assaults is a competitive, if not superior option at times! It allows for Jane to be built with ATK D6 (although surprisingly, AM D6 can sometimes still do better!) and lead to a simple gameplan of going for Disorders if resources are available, but otherwise ignoring any complexity and focus on getting as many Assaults as possible. The raw damage buffs that Yuzuha provides, combined with Jane’s burst potential, makes for a very strong pair.\n Astra Yao Trigger Lucy Nicole - Any generalist support is also fine for Jane. Astra, despite being geared towards Attackers (her CRIT DMG buffs will do little for Jane, as Assault CRITs are independent of CRIT stats), the raw value of ATK and DMG % bonuses she provides makes her a solid second best pick after Yuzuha. Nicole is a powerhouse of a unit generally, and as Jane inflicts Assault - a one time burst of damage - it’s possible to ensure that every tick has DEF Shred applied to it if well managed. She can even make for a pseudo-Anomaly unit if Yuzuha Flavor Matches her, being a solid low cost option. Using Nicole well can be demanding, so Lucy is also an option, having long-lasting ATK bonuses and the ability to provide a consistent 4th stack for Kaboom the Cannon, but she isn’t a particularly strong pick. Trigger is also a surprisingly strong pick; as Anomaly Agents deal much of their damage out-of-stun and her Stun DMG multiplier bonus applies regardless of stun, it’s a strong, undiluted damage increase to Jane’s Assaults - which is even further increased if Spectral Gaze is available. Trigger also still deals a fair amount of Daze even without her Additional Ability, but as it can work with element match, using Yanagi or even Seth for it is still workable.",
+          "assets": [
+            {
+              "id": "8bdbbd8d6be8",
+              "sourceHash": "8bdbbd8d6be8",
+              "kind": "characters",
+              "name": "Alice",
+              "fileStem": "alice",
+              "path": "Prydwen/zzz/assets/characters/alice-8bdbbd8d6be8.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "7cafcffe0fee",
+              "sourceHash": "7cafcffe0fee",
+              "kind": "characters",
+              "name": "Burnice",
+              "fileStem": "burnice",
+              "path": "Prydwen/zzz/assets/characters/burnice-7cafcffe0fee.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "e33ff79684e5",
+              "sourceHash": "e33ff79684e5",
+              "kind": "characters",
+              "name": "Vivian",
+              "fileStem": "vivian",
+              "path": "Prydwen/zzz/assets/characters/vivian-e33ff79684e5.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "450895960093",
+              "sourceHash": "450895960093",
+              "kind": "characters",
+              "name": "Seth",
+              "fileStem": "seth",
+              "path": "Prydwen/zzz/assets/characters/seth-450895960093.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d2c1c9b40367",
+              "sourceHash": "d2c1c9b40367",
+              "kind": "characters",
+              "name": "Yuzuha",
+              "fileStem": "ukinami-yuzuha",
+              "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "98d8d659c143",
+              "sourceHash": "98d8d659c143",
+              "kind": "characters",
+              "name": "Astra Yao",
+              "fileStem": "astra-yao",
+              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "2fd489d454a4",
+              "sourceHash": "2fd489d454a4",
+              "kind": "characters",
+              "name": "Trigger",
+              "fileStem": "trigger",
+              "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "a0147df28355",
+              "sourceHash": "a0147df28355",
+              "kind": "characters",
+              "name": "Lucy",
+              "fileStem": "lucy",
+              "path": "Prydwen/zzz/assets/characters/lucy-a0147df28355.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "ad063e072375",
+              "sourceHash": "ad063e072375",
+              "kind": "characters",
+              "name": "Nicole",
+              "fileStem": "nicole-demara",
+              "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "teams": {
+      "label": "Teams",
+      "sections": [
+        {
+          "heading": "Teams (Shiyu Defense)",
+          "text": "This section lists most popular teams featuring Jane Doe in the current phase of Shiyu Defense.\n Rank 26\n App. rate: 1.47 %\n Avg. time: 30831\n\n Rank 31\n App. rate: 1.11 %\n Avg. time: 26633\n\n Rank 44\n App. rate: 0.58 %\n Avg. time: 26430\n\n Rank 51\n App. rate: 0.5 %\n Avg. time: 26160\n\n Rank 87\n App. rate: 0.18 %\n Avg. time: 29414\n\n Rank 101\n App. rate: 0.14 %\n Avg. time: 27602\n\n Rank 117\n App. rate: 0.1 %\n Avg. time: 27034\n\n Rank 238\n App. rate: 0.02 %\n Avg. time: 0\n\n Rank 238\n App. rate: 0.02 %\n Avg. time: 25773",
+          "assets": [
+            {
+              "id": "7a4ba5242a6c",
+              "sourceHash": "7a4ba5242a6c",
+              "kind": "characters",
+              "name": "Jane Doe",
+              "fileStem": "jane-doe",
+              "path": "Prydwen/zzz/assets/characters/jane-doe-7a4ba5242a6c.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d6ce03b535c6",
+              "sourceHash": "d6ce03b535c6",
+              "kind": "characters",
+              "name": "Velina",
+              "fileStem": "velina",
+              "path": "Prydwen/zzz/assets/characters/velina-d6ce03b535c6.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d2c1c9b40367",
+              "sourceHash": "d2c1c9b40367",
+              "kind": "characters",
+              "name": "Yuzuha",
+              "fileStem": "ukinami-yuzuha",
+              "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "8bdbbd8d6be8",
+              "sourceHash": "8bdbbd8d6be8",
+              "kind": "characters",
+              "name": "Alice",
+              "fileStem": "alice",
+              "path": "Prydwen/zzz/assets/characters/alice-8bdbbd8d6be8.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "7cafcffe0fee",
+              "sourceHash": "7cafcffe0fee",
+              "kind": "characters",
+              "name": "Burnice",
+              "fileStem": "burnice",
+              "path": "Prydwen/zzz/assets/characters/burnice-7cafcffe0fee.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "e33ff79684e5",
+              "sourceHash": "e33ff79684e5",
+              "kind": "characters",
+              "name": "Vivian",
+              "fileStem": "vivian",
+              "path": "Prydwen/zzz/assets/characters/vivian-e33ff79684e5.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "98d8d659c143",
+              "sourceHash": "98d8d659c143",
+              "kind": "characters",
+              "name": "Astra Yao",
+              "fileStem": "astra-yao",
+              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "2541747ebcdb",
+              "sourceHash": "2541747ebcdb",
+              "kind": "characters",
+              "name": "Nangong Yu",
+              "fileStem": "nangong-yu",
+              "path": "Prydwen/zzz/assets/characters/nangong-yu-2541747ebcdb.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1cdf4d671727",
+              "sourceHash": "1cdf4d671727",
+              "kind": "characters",
+              "name": "Sunna",
+              "fileStem": "sunna",
+              "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        },
+        {
+          "heading": "Teams (Deadly Assault)",
+          "text": "This section lists most popular teams featuring Jane Doe in the current phase of Deadly Assault.\n Rank 7\n App. rate: 9.23 %\n Avg. score: 26255\n\n Rank 69\n App. rate: 0.31 %\n Avg. score: 22122\n\n Rank 95\n App. rate: 0.18 %\n Avg. score: 21214\n\n Rank 174\n App. rate: 0.04 %\n Avg. score: 23227\n\n Rank 205\n App. rate: 0.03 %\n Avg. score: 21276",
+          "assets": [
+            {
+              "id": "7a4ba5242a6c",
+              "sourceHash": "7a4ba5242a6c",
+              "kind": "characters",
+              "name": "Jane Doe",
+              "fileStem": "jane-doe",
+              "path": "Prydwen/zzz/assets/characters/jane-doe-7a4ba5242a6c.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d6ce03b535c6",
+              "sourceHash": "d6ce03b535c6",
+              "kind": "characters",
+              "name": "Velina",
+              "fileStem": "velina",
+              "path": "Prydwen/zzz/assets/characters/velina-d6ce03b535c6.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d2c1c9b40367",
+              "sourceHash": "d2c1c9b40367",
+              "kind": "characters",
+              "name": "Yuzuha",
+              "fileStem": "ukinami-yuzuha",
+              "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "98d8d659c143",
+              "sourceHash": "98d8d659c143",
+              "kind": "characters",
+              "name": "Astra Yao",
+              "fileStem": "astra-yao",
+              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "e33ff79684e5",
+              "sourceHash": "e33ff79684e5",
+              "kind": "characters",
+              "name": "Vivian",
+              "fileStem": "vivian",
+              "path": "Prydwen/zzz/assets/characters/vivian-e33ff79684e5.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "2541747ebcdb",
+              "sourceHash": "2541747ebcdb",
+              "kind": "characters",
+              "name": "Nangong Yu",
+              "fileStem": "nangong-yu",
+              "path": "Prydwen/zzz/assets/characters/nangong-yu-2541747ebcdb.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Jane Doe Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Jane Doe\n Jane Doe Best Build Guide\n Last updated: 14/June/2026\n\n Introduction\n Best guide and build for Jane Doe from ZZZ (Zenless Zone Zero). Jane Doe is an rank character with the Physical attribute who belongs to the Anomaly Specialty and who is part of the N.E.P.S. faction.\n Jane, a criminal behavior specialist, has had a \"colorful\" career as a consultant with Public Security over the years. She is an expert in disguise, infiltration, and other investigative work. She has a bad habit of trolling others and sometimes plays harmless pranks. She's a skilled mimic, able to change her appearance and demeanor at will, making people wonder what the \"real\" Jane is like.\n\n To learn more about Jane Doe check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Jane Doe has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.3\n\n Last build update\n Patch 2.3\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 14/June/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Jane Doe check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Insight\n\n Lv. 1\n\n When Jane's attacks hit an enemy, it causes them to enter the Gnawed state, lasting for 10s. If any squad member triggers Assault on an enemy in the Gnawed state and causes the Flinch effect, the Flinch effect is increased by 5s, and Assault DMG has a chance to trigger a CRIT, with a base CRIT Rate of 20% and CRIT DMG of 50%. Each point of Jane's Anomaly Proficiency further increases this CRIT Rate by 0.1%\n\n PEN Ratio 0\n BASE ATK: 0\n\n Additional Ability Sore Spot\n\n When there are other Anomaly Agents or Agents of the same faction in the squad:\n Jane's Anomaly Buildup Rate is increased by 15% . When the enemy is already suffering from an Attribute Anomaly, Jane's Anomaly Buildup towards the target is increased by an additional 15% .\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Dancing Blades\n\n Press to activate:\nUnleashes up to 6 attacks in front, dealing Physical DMG.\n Multipliers\n\n Passion\n\n When Jane triggers Perfect Dodge, Defensive Assist, or performs a move that deals damage to the enemy, she accumulates Passion Stream. Upon reaching the maximum Passion Stream, Jane enters the Passion state.\nWhile in the Passion state, Jane Physical Anomaly Buildup Rate is increased by 25%. Additionally, if Jane Anomaly Proficiency exceeds 120 points, each extra point raises her ATK by 2, up to a maximum of 600.\n In the Passion state, Jane skills that deal damage expend Passion Stream. Activating a Perfect Dodge or Defensive Assist regenerates Passion Stream. Jane exits the Passion state when all of her Passion Stream is expended.\n\n Basic Attack: Salchow Jump\n\n Entering the Passion state grants Jane one use of Basic Attack: Salchow Jump. When available, hold to activate:\nLaunch rapid consecutive attacks forward, followed by a finishing strike, dealing Physical DMG.\nHold the button during the continuous attacks to extend the skill duration. Release to trigger the finishing strike early.\nAnti-Interrupt level is increased during the continuous attacks, and Jane takes 40% reduced DMG. Jane is invulnerable during the finishing strike.\nUsing Basic Attack: Salchow Jump while in the Passion state generates Passion Stream.\n Multipliers\n\n Dodge: Phantom\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\nJane has an extra dodge, alternating between two dodges before entering the Passion state. After entering the Passion state, Jane can pass through enemies in front when dodging.\n\n Dash Attack: Edge Jump\n\n Press during a dodge to activate.\nIf after a single dodge, launch an upward slash in front, dealing Physical DMG.\nIf after a second dodge, perform a series of slashes in front, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Phantom Thrust\n\n While in the Passion state, press during a dodge to activate:\nLaunch three quick slashes in front, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Swift Shadow\n\n Press during a Perfect Dodge to activate.\nIf after a single dodge, unleash multiple slashes at enemies in front, followed by a downward thrust, dealing Physical DMG.\nIf after a second dodge, leap up and deliver three consecutive attack combos to enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Dodge Counter: Swift Shadow Dance\n\n While in the Passion state, press during a Perfect Dodge to activate.\nSlash enemies in front quickly multiple times, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Aerial Sweep\n\n Press to activate.\nLeaps into the air to launch a series of kicks forward, then sweeps across, dealing Physical DMG.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n EX Special Attack: Aerial Sweep - Tail Swipe\n\n When Jane has enough energy, press to activate:\nLeaps into the air to launch a series of kicks forward, then sweeps across, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Flowers of Sin\n\n When a Chain Attack is triggered, select Jane to activate:\nSlash enemies in a large area in front, dealing massive Physical DMG.\nJane enters the Passion state when using the skill, and gains max Passion Stream\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Final Curtain\n\n When Decibel Rating is at Maximum, press to activate.\nSlash enemies back and forth in a large area, followed by a finishing strike, dealing massive Physical DMG.\nJane enters the Passion state when using the skill, and gains max Passion Stream.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Gale Sweep\n\n Press after a Defensive Assist to activate.\nLeap up and swiftly slash the enemy, then execute a wide sweeping slash across a large area in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Last Defense\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, inflicting massive Daze.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Dark Thorn\n\n When the on-field character is launched, press to activate.\nUnleash multiple slashes at enemies in front, followed by a downward thrust, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Lutz Jump\n\n While in the Passion state, when the on-field character is launched, press to activate:\nSlash enemies in front quickly multiple times, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n Crime Counsel\n Mindscape 1\n\n The maximum uses of Basic Attack: Salchow Jump are increased by one. While in the Passion state, Jane's Physical Anomaly Buildup Rate increases by an extra 15% and each point of Jane's Anomaly Proficiency increases her damage by 0.1% , up to a maximum of 30% .\n\n M2\n Adapt to the Environment\n Mindscape 2\n\n When Jane's attack hits an enemy in the Gnawed state, or when any squad member triggers Assault on an enemy in the Gnawed state, 15% of the enemy's DEF is ignored. Additionally, when Assault DMG triggers a CRIT, the CRIT DMG is increased by 50% .\n\n M3\n Anonymity\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Adapt and Thrive\n Mindscape 4\n\n When any squad member triggers the Assault or Disorder effects, all squad members' Attribute Anomaly DMG is increased by 18% , lasting 15s .\n\n M5\n Compulsive Hoarder\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Shady Technique\n Mindscape 6\n\n While in the Passion state, Jane's CRIT Rate increases by 20% , and CRIT DMG by 40% . After any squad member inflicts Assault, Jane instantly enters the Passion state, and gains max Passion Stream. When Assault deals a CRIT, Jane performs an additional attack on the target, dealing Physical DMG equal to 1,600% of her Anomaly Proficiency.\n\n Stats (Level 60)\n Jane Doe Stats at level 60 (including Core passive bonuses).\n\n HP\n 7788\n\n DEF\n 606\n\n ATK\n 880\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 86\n\n Anomaly Mastery\n 148\n\n Anomaly Proficiency\n 114\n\n Energy Regen\n 1.2\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Anomaly DPS\n T1\n Endgame Modes\n\n Pros & Cons\n Pros\n Incredible mobility and 3 Dashes.\n\n Absurdly fast and consistent Physical Anomaly buildup resulting in very frequent Assault Triggers.\n\n Can cause Assault to critically strike - an additional multiplier not accessible to any other Anomaly character at the time of her release.\n\n Strong damage in and outside of burst windows, making her viable all throughout the duration of combat.\n\n Can drastically extend her Passion State in the hands of a skilled player thanks to multiple abilities resetting and extending the state when used optimally.\n\n Can be used as a sole DPS or alongside other Anomaly characters in Disorder teams giving her great team-building flexibility and future prospects.\n\n Cons\n When not taking advantage of her Chain Attack or the team's Ultimate Jane requires meaningful field time to enter and take advantage of the Passion State.\n\n Can lose significant power if enough Anomaly Proficiency cannot be acquired in order to activate her scaling abilities.\n\n Can sometimes lose meaningful damage due to the Anomaly Trigger cooldown and the Anomaly Ability cap (Abilities that can only Trigger Assault at the end of their animation and can waste build-up if it exceeds 100% before the end of the animation).\n\n Compared to other characters, she's not versatile - if the endgame buffs don't favor her, she struggles a lot.\n\n Review\n Jane Doe is an S-rank Physical Anomaly Agent characterized by her primarily on-field playstyle which is flashy and ideal for Proxies who particularly enjoy playing around Perfect Dodging and high-damage Assault Anomalies that can also critically strike. As one of the most recognizable Agents in the game, she’s been playable for a long time and, like many other Anomaly DPS Agents, has seen a massive surge in power with Vivian’s release. But before we get into her meta strengths, let’s detail what her kit is all about:\n Key Mechanics\n Jane has a unique resource called Passion Stream, displayed below her HP bar, going up to 100 points. When she inflicts damage, she either gains or loses this resource. This depends on whether or not she is in the Passion state.\n Jane’s Passion Stream gauge is restored by attacking, getting a Perfect Dodge or a Defensive Assist. When it is full, she enters the Passion state. While she is in this state, the Passion Stream gauge turns red instead of its usual blue. Inflicting damage will then consume Passion, Jane’s Anomaly Buildup Rate will be increased by 25%, and if her Anomaly Proficiency exceeds 120, each extra point increases her ATK by 2, up to a maximum of 600 at 420 Anomaly Proficiency .\n The Passion Stream gauge can be restored while in the Passion State by triggering Perfect Dodges and/or Defensive Assists. It can also be restored by performing her Salchow Jump attack in the Passion state, triggered by holding Basic Attack after entering the Passion state (of which has one charge refreshing every time the Passion State is re-entered).\n Jane’s Core Passive allows her to inflict the Gnawed state to any enemies hit for 10s. This causes them to have an extended duration on the Flinch effect, and Assault Anomaly damage will become able to critically strike with a base CRIT Rate of 37% and a fixed CRIT DMG of 50%. The CRIT Rate will increase depending on her Anomaly Proficiency, reaching 100% CRIT Rate at 375 Anomaly Proficiency.\n Basic Attack\n Jane features a 6-part Basic Attack. This serves as one of her primary means of dealing damage on-field and accumulating Passion while awaiting an opportunity to ideally Dodge Counter.\n More interestingly however, she possesses a special Basic Attack called Salchow Jump, of which she gains one charge every time she enters the Passion state. Holding Basic Attack with a Salchow Jump charge available causes her to spin rapidly, then perform a finishing move, during which she is invulnerable, which can be activated early by releasing Basic Attack if needed to dodge an enemy attack. This deals a high amount of damage and applies a good amount of Physical Anomaly. However, it also severely restricts her movement which can cause issues where all hits fail to fully connect against more mobile enemies, which must be kept in mind. As mentioned earlier, it also restores Passion instead of consuming it, which paired with its good damage and Anomaly potential makes it worth executing in every Passion State she enters.\n Chain Attack & Ultimate\n Jane’s Chain Attack and Ultimate function as expected, however it is worth noting that they cause Jane to immediately enter the Passion state at full value, then about half of her passion is subtracted from inflicting damage. This causes Salchow Jump charges to refresh which is particularly important during her Combos — during Stun Windows (and even outside of them sometimes with her Ultimate if you are significantly overcapping on Decibels), thanks to these attacks she will be able to trigger multiple Salchow Jumps in quick succession by repeatedly entering the Passion State.\n Dash Attack & Dodge Counter\n Jane has two different Dash Attacks and Dodge Counters depending on whether or not she is in the Passion state. Additionally, she has different animations depending on whether the Perfect Dodge is triggered after the first or second dodge, but for all intents and purposes this makes little to no difference.\n While the Dash Attack and Dodge Counter both get increased damage inside of the Passion State, in all instances the Dodge Counter applies a significantly higher amount of Daze and Anomaly per second than any Basic Attacks and triggering a Perfect Dodge always restores Passion Stream for Jane. This makes them especially important to execute whenever an opportunity presents itself. Hence, Jane’s damage potential is significantly raised depending on the player’s ability to frequently Perfect Dodge an enemy’s attacks.\n Unused/Redundant parts of her kit\n Jane’s Special, EX Special and Assist-related attacks all function as you’d expect them to and aren’t worth going into detail over.\n Of these attacks however, we will give a particular emphasis to her EX Special. It is most notable as it deals a good chunk of damage and Anomaly when it is available, and even though it does nothing out of the ordinary otherwise (which is why we don’t go into detail over it) it is used in all of Jane’s best combos.\n Meta Position & Conclusion\n Jane has recently gotten lots of options in terms of teams thanks to the many Anomaly-related characters who have joined the roster, mostly in the form of Alice, Vivian and Yuzuha.\n While Alice, Jane and Nicole is the best team in the game bar-none at Mindscape 2 and higher, Jane pairs the best with Vivian before that.\n Due to Vivian’s Abloom having the highest scaling of Assault Anomaly and Vivian providing Jane the necessary fieldtime needed, Jane pairs exceptionally well with her.\n While Yuzuha is the best overall Support for all Anomaly teams and especially for Alice, being able to significantly contribute to Anomaly Build-Up while also being able to trigger Assault during inactive attacks to prevent Anomaly Overflow, Nicole can under certain circumstances be a superior choice.\n As a result, while Jane would normally have fallen to the wayside in favour of more recently released Agents, she instead experienced a resurgence in usage alongside them, gaining a significant boost to her damage ceiling when played alongside Vivian or Alice, and Yuzuha or Nicole as the ideal third slot partner.\n In conclusion, while Jane definitely benefits strongly from Dodge Counters, which may deter some players away from her as this makes or breaks her damage potential depending on how aggressive the enemy is, it is worth keeping in mind that outside of this she has a fairly straightforward on-field playstyle and retains good damage potential to this day, seeing relatively frequent use in Endgame Contents despite being first released near the beginning of the game.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n Team-buffed calculations\n The top number shows team-buffed calculations, while the bottom number in the 'vacuum', so just their performance solo. For the team-buffed calculations, here's the team setup we used for them:\n Vivian + Flight of Fancy\n Yuzuha + Metanukimorphosis\n 100.00%\n 100.00%\n\n Sharpened Stinger (S 1 )\n\n Jane's Signature provides her with 90 AP and a stackable buff that grants 36% Physical DMG and 40% Anomaly Buildup Rate. This statline makes hitting Janes goal of 420 AP easier while also boosting her damage significantly but requires her to factor in Dash Attacks or Dodge counters into her gameplay. When used correctly, one of Janes top options, when neglected (stacks allowed to fall off) loses significant value.\n Usage: 82.99 %\n Shiyu Defense: 28174\n Deadly Assault: 25883\n\n 91.59%\n 96.08%\n\n Practiced Perfection (S 1 )\n\n Alice's Signature W-Engine provides Jane with up to 60 Anomaly Mastery, 30% ATK and 40% Physical DMG Bonus but notably does not provide AP which makes reaching 420 quite a tricky endeavour. Fortunately Jane can get around this with the support of some of her best team mates and their ideal weapons (Yuzuha + Her Signature). Also thanks to the extra Anomaly Mastery and superior buildup this Engine has comapred to her signature it's able to scale better alongside Vivian allowing it to catch up in performance when her damage is included (Our calculations only assume Jane's damage).\n Usage: 5.46 %\n Shiyu Defense: 28220\n Deadly Assault: 33202\n\n 81.54%\n 86.04%\n\n Weeping Gemini (S 5 )\n\n The best fully F2P-accessible A-rank option for many Anomaly Agents, Jane being no exception to this. Grants a massive boost to Anomaly Proficiency when any squad member inflicts an Attribute Anomaly on enemies, while providing good permanent ATK via its main stats. Not comparable to the above options but a viable alternative if you don't have access to them.\n Usage: 7.06 %\n Shiyu Defense: 27753\n Deadly Assault: 25229\n\n 80.57%\n 84.92%\n\n Electro-Lip Gloss (S 5 )\n\n The Anomaly battle pass W-Engine is one that can either be exceptionally powerful or fairly weak depending on the combat circumstances, team and gameplay utilized alongside it. This Engine is only recommended for teams that can apply an Attribute Anomaly at all times on relevant enemies.\n Usage: 1.27 %\n Shiyu Defense: 31076\n Deadly Assault: 23912\n\n 78.33%\n 78.37%\n\n Fusion Compiler (S 1 )\n\n A solid accessible option, granting 24% PEN Ratio, great Base ATK, ATK% and is able to provide extra Anomaly Proficiency when a Special or EX Special attack is used. When using this engine, you'll need to weave in Jane's Special Attacks at least once every 8s to ensure maximum uptime on the stackable part of this Engine's buff or its performance will suffer.Due to this, we have calculated this W-Engine with 2 stacks, but if you are able to maintain 3 stacks at all time, this W-Engine can perform better than shown here.\n Usage: 0.55 %\n Shiyu Defense: 31808\n Deadly Assault: 26867\n\n Best Disk Drives Sets\n 100.00%\n\n Fanged Metal ( 4 -PC)\n\n Best option for direct Anomaly-based Physical damage dealers, granting 10% permanent Physical DMG% from the 2-PC and 35% increased DMG against enemies inflicted by Assault by any party member for 12 seconds. DMG% bonus against enemies will be up the majority of most fights against boss-type enemies thanks to its long duration and ability to trigger from any team member, allowing a Physical-based Bangboo/teammate to assist with uptime via their own Assaults.\n Best combined with your choice of 2-PC Set:\n 2P\n Phaethon's Melody\n\n (Recommended)\n 2P\n Puffer Electro\n\n 2P\n Freedom Blues\n\n Chaos Jazz\n\n 2P\n Astral Voice\n\n Hormone Punk\n\n Best Disk Drives Stats\n Disk 4\n Anomaly Proficiency\n\n Disk 5\n PEN Ratio% > Physical DMG% > ATK%\n\n Disk 6\n Anomaly Mastery\n\n Substats: Anomaly Proficiency > ATK% > PEN = ATK\n\n Best Endgame Stats (Level 60)\n ATK: 2300 - 2800+\n\n HP: 9000 - 10000+\n\n DEF : 800+\n\n Anomaly Proficiency: 375 - 420+ (IN COMBAT; 420 Required for cap of 600 Flat Combat Attack in Passion State)\n\n Anomaly Mastery: 192+\n\n Skill priority\n Chain Attack\n\n Special Attack\n\n Basic Attack\n\n Dodge\n\n Assist\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Jane Doe . The character can work with others if you know what to do and how to use them.\n\n Alice - Normally, Jane is the greedy, on-field DPS Anomaly Agent, but with Alice she takes a step back to function as a supportive unit instead, making for a surprisingly strong team. Jane’s Core Passive allows all Assaults to CRIT, and this also applies to Alice’s Polarity Disorders. With Polarity Assaults being able to Disorder with normal Assaults, the pair can still loop Disorders despite being a Mono Physical team. As Assaults are single damage ticks, Disorders aren’t even all that important, with back-to-back Assaults doing so much damage that it can even outpace traditional Disorder-focused Anomaly teams. If Mindscapes are on the table, then the value Alice’s and Jane’s M2 brings to the team is so large that the pair will come close to - or even match - the performance of M6 teams.\n Burnice Vivian - Unsurprisingly, the 2 Sub-DPS Anomaly Agents are very good pairings for Jane. As far as Anomaly units go, Jane is particularly greedy for field time, as she’s reliant on Perfect Dodges to sustain Passion State and her Signature’s buff, so the less time commitment is needed by her partners, the better she does. Vivian in particular is especially good, as Ablooms triggered in Physical Anomaly count as “Assaults”, and therefore can CRIT as a result of Jane’s Core Passive. Given that Ablooms scale particularly well with Physical Anomaly, it makes for one of the most synergistic Anomaly combinations in the game\n Seth - Seth is a decent teammate on hypercarry Jane comps, where instead of working around Disorders, she just loops back-to-back Assaults instead. Seth doesn’t care for being on-field much, being able to quickswap out of his EX early and providing Quick Assists out of his enhanced Basic Attack and Assist Follow-Ups, all the while applying a 20% Anomaly Build-Up RES Shred to enemies and 100 Anomaly Proficiency to a single unit (keep in mind the shred is from enhanced Basic Attack only!). This buff not only enhances Jane’s damage output, but also assists in capping out her Core Passive bonus, making for a very potent F2P synergy.\n Yuzuha - As the dedicated Anomaly Support unit, Yuzuha is an ideal match for Jane. as her greedy, on-field playstyle and high Anomaly build-up means other units can struggle to keep up, so Yuzuha makes up for the lopsided build-up and makes Disorder juggling a lot easier. This isn’t even necessary though, as unlike most teams where Yuzuha would Flavor Match a Sub-DPS Anomaly Agent (like Burnice or Vivian) just Flavor Matching Jane instead and looping back-to-back Assaults is a competitive, if not superior option at times! It allows for Jane to be built with ATK D6 (although surprisingly, AM D6 can sometimes still do better!) and lead to a simple gameplan of going for Disorders if resources are available, but otherwise ignoring any complexity and focus on getting as many Assaults as possible. The raw damage buffs that Yuzuha provides, combined with Jane’s burst potential, makes for a very strong pair.\n Astra Yao Trigger Lucy Nicole - Any generalist support is also fine for Jane. Astra, despite being geared towards Attackers (her CRIT DMG buffs will do little for Jane, as Assault CRITs are independent of CRIT stats), the raw value of ATK and DMG % bonuses she provides makes her a solid second best pick after Yuzuha. Nicole is a powerhouse of a unit generally, and as Jane inflicts Assault - a one time burst of damage - it’s possible to ensure that every tick has DEF Shred applied to it if well managed. She can even make for a pseudo-Anomaly unit if Yuzuha Flavor Matches her, being a solid low cost option. Using Nicole well can be demanding, so Lucy is also an option, having long-lasting ATK bonuses and the ability to provide a consistent 4th stack for Kaboom the Cannon, but she isn’t a particularly strong pick. Trigger is also a surprisingly strong pick; as Anomaly Agents deal much of their damage out-of-stun and her Stun DMG multiplier bonus applies regardless of stun, it’s a strong, undiluted damage increase to Jane’s Assaults - which is even further increased if Spectral Gaze is available. Trigger also still deals a fair amount of Daze even without her Additional Ability, but as it can work with element match, using Yanagi or even Seth for it is still workable.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Jane Doe in the current phase of Shiyu Defense.\n Rank 26\n App. rate: 1.47 %\n Avg. time: 30831\n\n Rank 31\n App. rate: 1.11 %\n Avg. time: 26633\n\n Rank 44\n App. rate: 0.58 %\n Avg. time: 26430\n\n Rank 51\n App. rate: 0.5 %\n Avg. time: 26160\n\n Rank 87\n App. rate: 0.18 %\n Avg. time: 29414\n\n Rank 101\n App. rate: 0.14 %\n Avg. time: 27602\n\n Rank 117\n App. rate: 0.1 %\n Avg. time: 27034\n\n Rank 238\n App. rate: 0.02 %\n Avg. time: 0\n\n Rank 238\n App. rate: 0.02 %\n Avg. time: 25773\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Jane Doe in the current phase of Deadly Assault.\n Rank 7\n App. rate: 9.23 %\n Avg. score: 26255\n\n Rank 69\n App. rate: 0.31 %\n Avg. score: 22122\n\n Rank 95\n App. rate: 0.18 %\n Avg. score: 21214\n\n Rank 174\n App. rate: 0.04 %\n Avg. score: 23227\n\n Rank 205\n App. rate: 0.03 %\n Avg. score: 21276"
+}

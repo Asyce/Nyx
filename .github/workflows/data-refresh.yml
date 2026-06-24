@@ -1,0 +1,79 @@
+name: Data refresh & deploy
+
+# High-frequency refresh of the fast-moving data (banners + redemption codes).
+# Runs every 6 hours so newly-added codes/banners reach pengo.gg quickly.
+# Heavy roster/material/asset syncs live in roster-sync.yml (daily).
+
+on:
+  schedule:
+    - cron: '15 */6 * * *' # 00:15, 06:15, 12:15, 18:15 UTC
+  workflow_dispatch: {}
+
+concurrency:
+  group: pengo-deploy
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      CF_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install scraper deps
+        working-directory: Scraper
+        run: npm install --no-audit --no-fund
+
+      - name: Install site deps
+        working-directory: Site
+        run: npm install --no-audit --no-fund
+
+      # Pure-function tests (reward filter + banner timeline/freshness). A failure
+      # here stops the job before anything is committed or deployed.
+      - name: Unit tests
+        working-directory: Scraper
+        run: npm test
+
+      # Scrapers self-preserve last-known-good per game on a failed fetch, so a
+      # transient source outage (e.g. Reddit 403 from CI IPs) must not fail the job.
+      - name: Scrape banners + codes
+        working-directory: Scraper
+        run: |
+          node ./banners/scrape.cjs || echo "::warning::banner scrape had errors; carry-forward applied"
+          node ./codes/scrape.cjs   || echo "::warning::codes scrape had errors; carry-forward applied"
+
+      # Structural gate on the REAL scraped output. Non-zero here = refuse to
+      # commit/deploy, so the already-live last-known-good is preserved.
+      - name: Validate scraped data
+        working-directory: Scraper
+        run: npm run validate
+
+      - name: Build site
+        working-directory: Site
+        run: npm run build:deploy
+
+      - name: Deploy to Cloudflare
+        if: ${{ env.CF_API_TOKEN != '' }}
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: npx --yes wrangler deploy
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "pengo-bot"
+          git config user.email "bot@pengo.gg"
+          git add Database
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "chore(data): scheduled banner/code refresh [skip ci]"
+            git push
+          fi

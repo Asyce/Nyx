@@ -1,0 +1,1405 @@
+{
+  "id": "characters:anton",
+  "provider": "Prydwen",
+  "game": "zzz",
+  "gameName": "Zenless Zone Zero",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "anton",
+  "name": "Anton",
+  "title": "Anton Best Build Guide",
+  "sourcePath": "/zenless/characters/anton",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "14/June/2026",
+  "meta": {
+    "title": "Anton Best Build Guide | Zenless Zone Zero",
+    "description": ""
+  },
+  "facts": {
+    "attribute": "Electric",
+    "specialty": "Attack",
+    "faction": "Belobog Heavy Industries",
+    "rarity": "A"
+  },
+  "assets": [
+    {
+      "id": "e474583d3963",
+      "sourceHash": "e474583d3963",
+      "kind": "characters",
+      "name": "Character",
+      "fileStem": "anton-card",
+      "path": "Prydwen/zzz/assets/characters/anton-card-e474583d3963.webp",
+      "width": 370,
+      "height": 512
+    },
+    {
+      "id": "180993e8877a",
+      "sourceHash": "180993e8877a",
+      "kind": "icons",
+      "name": "A",
+      "fileStem": "rarity-a",
+      "path": "Prydwen/zzz/assets/icons/a-180993e8877a.webp",
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "3183e920376c",
+      "sourceHash": "3183e920376c",
+      "kind": "icons",
+      "name": "Attack",
+      "fileStem": "style-attack",
+      "path": "Prydwen/zzz/assets/icons/attack-3183e920376c.webp",
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "469d56d7d4cd",
+      "sourceHash": "469d56d7d4cd",
+      "kind": "factions",
+      "name": "Belobog Heavy Industries",
+      "fileStem": "faction-belobog",
+      "path": "Prydwen/zzz/assets/factions/belobog-heavy-industries-469d56d7d4cd.webp",
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "880f190c8aa9",
+      "sourceHash": "880f190c8aa9",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-core",
+      "path": "Prydwen/zzz/assets/icons/core-880f190c8aa9.webp",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "13fff798e82d",
+      "sourceHash": "13fff798e82d",
+      "kind": "icons",
+      "name": "Basic",
+      "fileStem": "icon-basic",
+      "path": "Prydwen/zzz/assets/icons/basic-13fff798e82d.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "f3bbacf4beb6",
+      "sourceHash": "f3bbacf4beb6",
+      "kind": "icons",
+      "name": "Dodge",
+      "fileStem": "icon-dodge",
+      "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "de0f0cad1e72",
+      "sourceHash": "de0f0cad1e72",
+      "kind": "icons",
+      "name": "Assist",
+      "fileStem": "icon-assist-m",
+      "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "954b8d0b61b7",
+      "sourceHash": "954b8d0b61b7",
+      "kind": "icons",
+      "name": "Special",
+      "fileStem": "icon-special-full",
+      "path": "Prydwen/zzz/assets/icons/special-954b8d0b61b7.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "803b765175bc",
+      "sourceHash": "803b765175bc",
+      "kind": "icons",
+      "name": "qte",
+      "fileStem": "icon-ulti-full",
+      "path": "Prydwen/zzz/assets/icons/qte-803b765175bc.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "9f68a61db8c5",
+      "sourceHash": "9f68a61db8c5",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-special",
+      "path": "Prydwen/zzz/assets/icons/core-9f68a61db8c5.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "d3cae9ba5d45",
+      "sourceHash": "d3cae9ba5d45",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-ulti",
+      "path": "Prydwen/zzz/assets/icons/core-d3cae9ba5d45.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "94a5940d48d5",
+      "sourceHash": "94a5940d48d5",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-assist",
+      "path": "Prydwen/zzz/assets/icons/core-94a5940d48d5.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "bcc36adf7778",
+      "sourceHash": "bcc36adf7778",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/zzz/assets/icons/stat-hp-bcc36adf7778.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "6bde3e3d95d5",
+      "sourceHash": "6bde3e3d95d5",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-def",
+      "path": "Prydwen/zzz/assets/icons/stat-def-6bde3e3d95d5.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "3be631f5fe8b",
+      "sourceHash": "3be631f5fe8b",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/zzz/assets/icons/stat-atk-3be631f5fe8b.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "7e808fde7ecd",
+      "sourceHash": "7e808fde7ecd",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-crit",
+      "path": "Prydwen/zzz/assets/icons/stat-crit-7e808fde7ecd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "a5d74846670e",
+      "sourceHash": "a5d74846670e",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/zzz/assets/icons/stat-critdmg-a5d74846670e.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "96960682bbd8",
+      "sourceHash": "96960682bbd8",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-pen",
+      "path": "Prydwen/zzz/assets/icons/stat-pen-96960682bbd8.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "55a4b1c5a82a",
+      "sourceHash": "55a4b1c5a82a",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-impact",
+      "path": "Prydwen/zzz/assets/icons/stat-impact-55a4b1c5a82a.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "078045904ece",
+      "sourceHash": "078045904ece",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-mastery",
+      "path": "Prydwen/zzz/assets/icons/stat-mastery-078045904ece.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "09b14c497e98",
+      "sourceHash": "09b14c497e98",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/zzz/assets/icons/stat-energy-09b14c497e98.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "4e5e8d4cf8c5",
+      "sourceHash": "4e5e8d4cf8c5",
+      "kind": "characters",
+      "name": "Anton",
+      "fileStem": "anton-full",
+      "path": "Prydwen/zzz/assets/characters/anton-4e5e8d4cf8c5.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "027325006807",
+      "sourceHash": "027325006807",
+      "kind": "w-engines",
+      "name": "Heartstring Nocturne",
+      "fileStem": "heartstring-nocturne-image",
+      "path": "Prydwen/zzz/assets/w-engines/heartstring-nocturne-027325006807.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "f00bf70e4d76",
+      "sourceHash": "f00bf70e4d76",
+      "kind": "w-engines",
+      "name": "Zanshin Herb Case",
+      "fileStem": "zanshin-herb-case-image",
+      "path": "Prydwen/zzz/assets/w-engines/zanshin-herb-case-f00bf70e4d76.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "bdd5620eca4f",
+      "sourceHash": "bdd5620eca4f",
+      "kind": "w-engines",
+      "name": "The Brimstone",
+      "fileStem": "the-brimstone-image",
+      "path": "Prydwen/zzz/assets/w-engines/the-brimstone-bdd5620eca4f.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "1050ac4bc270",
+      "sourceHash": "1050ac4bc270",
+      "kind": "w-engines",
+      "name": "Street Superstar",
+      "fileStem": "street-superstar-image",
+      "path": "Prydwen/zzz/assets/w-engines/street-superstar-1050ac4bc270.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "4018e18fe53d",
+      "sourceHash": "4018e18fe53d",
+      "kind": "w-engines",
+      "name": "Starlight Engine",
+      "fileStem": "starlight-engine-image",
+      "path": "Prydwen/zzz/assets/w-engines/starlight-engine-4018e18fe53d.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "e64b5f7d7212",
+      "sourceHash": "e64b5f7d7212",
+      "kind": "w-engines",
+      "name": "Marcato Desire",
+      "fileStem": "marcato-desire-image",
+      "path": "Prydwen/zzz/assets/w-engines/marcato-desire-e64b5f7d7212.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "6add563e7d9e",
+      "sourceHash": "6add563e7d9e",
+      "kind": "w-engines",
+      "name": "Cannon Rotor",
+      "fileStem": "cannon-rotor-image",
+      "path": "Prydwen/zzz/assets/w-engines/cannon-rotor-6add563e7d9e.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "5d59faf94b2e",
+      "sourceHash": "5d59faf94b2e",
+      "kind": "w-engines",
+      "name": "Gilded Blossom",
+      "fileStem": "gilded-blossom-image",
+      "path": "Prydwen/zzz/assets/w-engines/gilded-blossom-5d59faf94b2e.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "6e3a033ab056",
+      "sourceHash": "6e3a033ab056",
+      "kind": "w-engines",
+      "name": "Drill Rig - Red Axis",
+      "fileStem": "drill-rig-red-axis-image",
+      "path": "Prydwen/zzz/assets/w-engines/drill-rig-red-axis-6e3a033ab056.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "c2b777015ac8",
+      "sourceHash": "c2b777015ac8",
+      "kind": "drive-discs",
+      "name": "Thunder Metal",
+      "fileStem": "set-thunder",
+      "path": "Prydwen/zzz/assets/drive-discs/thunder-metal-c2b777015ac8.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "fe975d3b2c66",
+      "sourceHash": "fe975d3b2c66",
+      "kind": "drive-discs",
+      "name": "Woodpecker Electro",
+      "fileStem": "set-woodpecker",
+      "path": "Prydwen/zzz/assets/drive-discs/woodpecker-electro-fe975d3b2c66.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "9b0991be94a3",
+      "sourceHash": "9b0991be94a3",
+      "kind": "drive-discs",
+      "name": "Hormone Punk",
+      "fileStem": "set-hormone",
+      "path": "Prydwen/zzz/assets/drive-discs/hormone-punk-9b0991be94a3.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "69d899f282ca",
+      "sourceHash": "69d899f282ca",
+      "kind": "drive-discs",
+      "name": "Puffer Electro",
+      "fileStem": "set-puffer",
+      "path": "Prydwen/zzz/assets/drive-discs/puffer-electro-69d899f282ca.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "2fd489d454a4",
+      "sourceHash": "2fd489d454a4",
+      "kind": "characters",
+      "name": "Trigger",
+      "fileStem": "trigger",
+      "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "894a171664e9",
+      "sourceHash": "894a171664e9",
+      "kind": "characters",
+      "name": "Qingyi",
+      "fileStem": "qingyi",
+      "path": "Prydwen/zzz/assets/characters/qingyi-894a171664e9.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "4dd7369afa54",
+      "sourceHash": "4dd7369afa54",
+      "kind": "characters",
+      "name": "Grace",
+      "fileStem": "grace-howard",
+      "path": "Prydwen/zzz/assets/characters/grace-4dd7369afa54.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "98d8d659c143",
+      "sourceHash": "98d8d659c143",
+      "kind": "characters",
+      "name": "Astra Yao",
+      "fileStem": "astra-yao",
+      "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ad063e072375",
+      "sourceHash": "ad063e072375",
+      "kind": "characters",
+      "name": "Nicole",
+      "fileStem": "nicole-demara",
+      "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
+      "width": 60,
+      "height": 60
+    }
+  ],
+  "sections": [
+    {
+      "id": "anton-best-build-guide-0",
+      "level": 1,
+      "heading": "Anton Best Build Guide",
+      "text": "Last updated: 14/June/2026",
+      "assets": [
+        {
+          "id": "e474583d3963",
+          "sourceHash": "e474583d3963",
+          "kind": "characters",
+          "name": "Character",
+          "fileStem": "anton-card",
+          "path": "Prydwen/zzz/assets/characters/anton-card-e474583d3963.webp",
+          "width": 370,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Anton from ZZZ (Zenless Zone Zero). Anton is an rank character with the Electric attribute who belongs to the Attack Specialty and who is part of the Belobog Heavy Industries faction.\n Leads Others in His Passion for Work. A senior staff member of Belobog Industries, he's an onsite project manager who's always ready to go. Energetic and Reliable. He's full of vigor and always rises to the occasion. Kind-Hearted Despite Appearances. With a sharp tongue but a soft heart, he can't say \"no\" to those in need. Strong, Sincere & Straightforward. Open and honest, nothing can seem to upset him.\n\n To learn more about Anton check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": [
+        {
+          "id": "180993e8877a",
+          "sourceHash": "180993e8877a",
+          "kind": "icons",
+          "name": "A",
+          "fileStem": "rarity-a",
+          "path": "Prydwen/zzz/assets/icons/a-180993e8877a.webp",
+          "width": 30,
+          "height": 30
+        },
+        {
+          "id": "3183e920376c",
+          "sourceHash": "3183e920376c",
+          "kind": "icons",
+          "name": "Attack",
+          "fileStem": "style-attack",
+          "path": "Prydwen/zzz/assets/icons/attack-3183e920376c.webp",
+          "width": 30,
+          "height": 30
+        },
+        {
+          "id": "469d56d7d4cd",
+          "sourceHash": "469d56d7d4cd",
+          "kind": "factions",
+          "name": "Belobog Heavy Industries",
+          "fileStem": "faction-belobog",
+          "path": "Prydwen/zzz/assets/factions/belobog-heavy-industries-469d56d7d4cd.webp",
+          "width": 30,
+          "height": 30
+        }
+      ]
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "This character has no video guide yet.",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 1.5\n\n Last build update\n Patch 1.5\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 14/June/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.",
+      "assets": []
+    },
+    {
+      "id": "calculations-9",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "To learn more about Anton check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile",
+      "assets": []
+    },
+    {
+      "id": "core-skills-10",
+      "level": 2,
+      "heading": "Core skills",
+      "text": "Core Passive Brothers in Arms!\n\n Lv. 1\n\n When Anton uses his Pile Driver Attack, the skill's DMG is increased by 12% . When he uses his Drill Attack, the skill's DMG is increased by 20% .\n\n PEN Ratio 0\n BASE ATK: 0\n\n Additional Ability Teamwork\n\n When another character in your squad shares the same Attribute or Faction:\n While Anton is in Burst Mode, for every 4 critical hits, the next attack hitting Shocked enemies triggers an additional bout of Shock DMG at 45% of the original DMG. This effect can be triggered once every 0.5s .",
+      "assets": [
+        {
+          "id": "880f190c8aa9",
+          "sourceHash": "880f190c8aa9",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-core",
+          "path": "Prydwen/zzz/assets/icons/core-880f190c8aa9.webp",
+          "width": 32,
+          "height": 32
+        }
+      ]
+    },
+    {
+      "id": "skills-11",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Enthusiastic Drills\n\n Press to activate.\nUnleashes up to 4 mixed attacks in front, dealing Physical DMG.\nThe 4th-hit is a Piledriver Attack.\n Multipliers\n\n Basic Attack: Enthusiastic Drills (Burst Mode)\n\n Press while Anton is in Burst Mode to activate:\nUnleashes up to 3 mixed attacks in front, dealing massive Electric DMG.\nDuring the 2nd Drill Attack and 3rd Pile Driver Attack, press repeatedly or hold to extend the skill duration.\n Multipliers\n\n Dodge: Let's Move\n\n Press to dodge.\nA rapid dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Fire With Fire\n\n Press during a Dodge to activate:\nRams into enemies in front of him, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Retaliation\n\n Press during a Perfect Dodge to activate.\nContinuously strikes enemies in front with heavy punches, dealing Physical DMG.\nCharacter is invulnerable during the attack.\n Multipliers\n\n Dodge Counter: Overload Drill (Burst Mode)\n\n While in Burst Mode, press during a Perfect Dodge to activate.\nLaunch a Drill Attack at enemies in front of him, dealing massive Electric DMG.\nCharacter is invulnerable during the attack.\n Multipliers\n\n Special Attack: Spin, Bro!\n\n Press to activate.\nUnleashes a Pile Driver Attack against enemies in a line in front, dealing Electric DMG.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n EX Special Attack: Smash the Horizon, Bro!\n\n With enough energy, press to activate:\nLaunches several Pile Driver Attacks at enemies in a line in front of him, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill.\nAnton enters Burst Mode after using this skill. When in Burst Mode, Anton's attacks become more powerful, dealing massive Electric DMG while continually consuming Energy upon hitting an enemy. Burst Mode remains active until his Energy is depleted.\n Multipliers\n\n Special Attack: Explosive Drill (Burst Mode)\n\n Press while in Burst Mode to activate.\nLaunches a Pile Driver Attack at enemies in front, dealing Electric DMG.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n Chain Attack: Go Go Go!\n\n When a Chain Attack is triggered, select the character to activate:\nUnleashes a Pile Driver Attack onto the ground in front of him over a large area, dealing massive Electric DMG to enemies within range.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Go Go Go Go Go!\n\n When Decibel Rating is at Maximum, press to activate.\nUnleashes a Pile Driver Attack onto the ground in front of him over a large area, dealing massive Electric DMG to enemies within range.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Limit Burst\n\n Press after a Defensive Assist to activate.\nLaunches a Drill Attack that ends in a Pile Driver Attack, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Iron Wrist\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Shoulder-To-Shoulder\n\n When the character in combat is launched, press to activate.\nContinuously strikes enemies in front of him with heavy punches, dealing Physical DMG.\nCharacter is invulnerable during the attack.\n Multipliers\n\n Quick Assist: Protective Drill (Burst Mode)\n\n When the on-field character is launched, press to activate.\nAttacks enemies in front with a Drill Attack, dealing massive Electric DMG.\nCharacter is invulnerable during the attack.\n Multipliers",
+      "assets": [
+        {
+          "id": "13fff798e82d",
+          "sourceHash": "13fff798e82d",
+          "kind": "icons",
+          "name": "Basic",
+          "fileStem": "icon-basic",
+          "path": "Prydwen/zzz/assets/icons/basic-13fff798e82d.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "f3bbacf4beb6",
+          "sourceHash": "f3bbacf4beb6",
+          "kind": "icons",
+          "name": "Dodge",
+          "fileStem": "icon-dodge",
+          "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "de0f0cad1e72",
+          "sourceHash": "de0f0cad1e72",
+          "kind": "icons",
+          "name": "Assist",
+          "fileStem": "icon-assist-m",
+          "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "954b8d0b61b7",
+          "sourceHash": "954b8d0b61b7",
+          "kind": "icons",
+          "name": "Special",
+          "fileStem": "icon-special-full",
+          "path": "Prydwen/zzz/assets/icons/special-954b8d0b61b7.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "803b765175bc",
+          "sourceHash": "803b765175bc",
+          "kind": "icons",
+          "name": "qte",
+          "fileStem": "icon-ulti-full",
+          "path": "Prydwen/zzz/assets/icons/qte-803b765175bc.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "9f68a61db8c5",
+          "sourceHash": "9f68a61db8c5",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-special",
+          "path": "Prydwen/zzz/assets/icons/core-9f68a61db8c5.webp",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "id": "d3cae9ba5d45",
+          "sourceHash": "d3cae9ba5d45",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-ulti",
+          "path": "Prydwen/zzz/assets/icons/core-d3cae9ba5d45.webp",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "id": "94a5940d48d5",
+          "sourceHash": "94a5940d48d5",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-assist",
+          "path": "Prydwen/zzz/assets/icons/core-94a5940d48d5.webp",
+          "width": 40,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "id": "mindscapes-12",
+      "level": 2,
+      "heading": "Mindscapes",
+      "text": "M1\n Warm-up Exercises\n Mindscape 1\n\n When Drill Attack hits an enemy, Anton gains additional Energy up to a maximum of 5 Energy per skill use.\n\n M2\n State of Flow\n Mindscape 2\n\n When Anton uses his EX Special Attack and enters Burst Mode, he gains a Shield that equals to 7.5% of his max HP. While in Burst Mode, entering combat or switching in reapplies the Shield effect. This effect can trigger once every 15s. The Shield dissipates when Burst Mode ends.\n\n M3\n Rotational Training\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Everyone Get Fired Up!\n Mindscape 4\n\n When Anton uses a Chain Attack or Ultimate, all squad members' CRIT Rate increases by 10% for 12s .\n\n M5\n Jack of All Trades\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Break the Limit\n Mindscape 6\n\n When Anton's Piledriver Attack triggers a critical hit, his Basic Attack: Enthusiastic Drills (Burst Mode) and Dodge Counter: Overload Drill (Burst Mode) deal 4% more DMG for 30s , stacking up to 6 times. Repeated triggers reset the duration.",
+      "assets": []
+    },
+    {
+      "id": "stats-level-60-13",
+      "level": 2,
+      "heading": "Stats (Level 60)",
+      "text": "Anton Stats at level 60 (including Core passive bonuses).\n\n HP\n 7219\n\n DEF\n 622\n\n ATK\n 791\n\n CRIT Rate\n 19.4 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 95\n\n Anomaly Mastery\n 86\n\n Anomaly Proficiency\n 90\n\n Energy Regen\n 1.2",
+      "assets": [
+        {
+          "id": "bcc36adf7778",
+          "sourceHash": "bcc36adf7778",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/zzz/assets/icons/stat-hp-bcc36adf7778.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "6bde3e3d95d5",
+          "sourceHash": "6bde3e3d95d5",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-def",
+          "path": "Prydwen/zzz/assets/icons/stat-def-6bde3e3d95d5.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "3be631f5fe8b",
+          "sourceHash": "3be631f5fe8b",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/zzz/assets/icons/stat-atk-3be631f5fe8b.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "7e808fde7ecd",
+          "sourceHash": "7e808fde7ecd",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/zzz/assets/icons/stat-crit-7e808fde7ecd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "a5d74846670e",
+          "sourceHash": "a5d74846670e",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/zzz/assets/icons/stat-critdmg-a5d74846670e.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "96960682bbd8",
+          "sourceHash": "96960682bbd8",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-pen",
+          "path": "Prydwen/zzz/assets/icons/stat-pen-96960682bbd8.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "55a4b1c5a82a",
+          "sourceHash": "55a4b1c5a82a",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-impact",
+          "path": "Prydwen/zzz/assets/icons/stat-impact-55a4b1c5a82a.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "078045904ece",
+          "sourceHash": "078045904ece",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-mastery",
+          "path": "Prydwen/zzz/assets/icons/stat-mastery-078045904ece.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "09b14c497e98",
+          "sourceHash": "09b14c497e98",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/zzz/assets/icons/stat-energy-09b14c497e98.webp",
+          "width": 24,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "id": "voice-actors-14",
+      "level": 2,
+      "heading": "Voice Actors",
+      "text": "ENG\n -\n\n JPN\n Kamio Shinichiro (神尾 晋一郎)\n\n CN\n Xiāo Dí (萧翟)\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-15",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "4e5e8d4cf8c5",
+          "sourceHash": "4e5e8d4cf8c5",
+          "kind": "characters",
+          "name": "Anton",
+          "fileStem": "anton-full",
+          "path": "Prydwen/zzz/assets/characters/anton-4e5e8d4cf8c5.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "ratings-16",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.",
+      "assets": []
+    },
+    {
+      "id": "crit-dps-17",
+      "level": 5,
+      "heading": "Crit DPS",
+      "text": "T3\n Endgame Modes",
+      "assets": []
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Has the unique mechanic to retrigger Shocks every 0.5 seconds after dealing 4 Critical Hits while in Burst mode giving him one of the highest potential kits for an A-rank unit.\n\n Has great Mindscapes, giving him good scaling potential as you develop your account. His M1 prolongs his Burst Mode duration by a good amount, and his M4 gives the whole team a Crit Rate buff after he uses a Chain or Ultimate attack for 12 seconds.\n\n Is a Bro.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Has a large amount of his potential damage within his kit tied to his ability to trigger additional damage against Shocked enemies, making him reliant on ensuring enemies remain Shocked as much as possible and for as large amount of damage as possible.\n\n Has limited options outside of S-rank’s when it comes to team building.\n\n Relies heavily on being in Burst Mode to deal the majority of his damage and feels lackluster outside of it, making Anton one of the most energy-reliant characters in the game.",
+      "assets": []
+    },
+    {
+      "id": "review-21",
+      "level": 2,
+      "heading": "Review",
+      "text": "Anton review isn't available yet. It will be added soon!\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "collaboration-disclaimer-22",
+      "level": 2,
+      "heading": "Collaboration Disclaimer",
+      "text": "For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.",
+      "assets": []
+    },
+    {
+      "id": "best-w-engines-23",
+      "level": 2,
+      "heading": "Best W-Engines",
+      "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 105.84%\n\n Heartstring Nocturne (S 1 )\n\n A great stat stick for most characters. Grants a tremendous amount of unconditional CRIT RATE and CRIT DMG.\n 102.61%\n\n Zanshin Herb Case (S 1 )\n\n A solid all around generic option thanks to its close to permanent uptime of 20% CRIT RATE and always active 45% CRIT DMG, alongside its high base ATK.\n 100.00%\n\n The Brimstone (S 1 )\n\n Soldier 11's Signature W-Engine and a good choice for any character with a focus on using a lot of Basic Attacks or even just a few long lasting ones. The catch is each buff stack has its own duration and only 1 buff can be gained every 0.5 seconds, making maintaining max stacks of this buff require constant Basic Attacks.\n 93.26%\n\n Street Superstar (S 5 )\n\n A decent but somewhat niche Free To Play accessible option for all Attack Agents. Against bosses you can guarantee 3 Chain Attacks every time you Stun them, meaning this W-engine's effect essentially grants 72% Ultimate damage. These bonuses allow it to be a competitive option during burst rotations with the ultimate available, but when the ultimate isn't available or executing a standard rotation this W-engine falls behind.\n 92.96%\n\n Starlight Engine (S 5 )\n\n A solid all-around Free To Play accessible option for all Attack Agents. Grants 25% unconditional Standard Attack and a further 19.2% (At S5) Combat Attack buff after performing a Dodge Counter or Quick Assist lasting 12 seconds. This buff is reasonably easy for all Attack Agents to achieve in both their standard and burst rotations, assuming a Support character is present on the team.\n 91.38%\n\n Marcato Desire (S 5 )\n\n Reasonable option for CRIT scaling agents playing in teams capable of applying Anomaly semi-consistently to trigger and maintain its secondary bonus effect a decent amount of the time.\n 90.40%\n\n Cannon Rotor (S 5 )\n\n The battle pass W-engine - an expensive engine to acquire which while incredibly consistent is often weaker than other W-Engines. The main issue with the on Crit trigger ability is that the damage is Physical and cannot CRIT meaning for non-physical characters you'll be losing all elemental DMG% boosts on this damage and for all characters not CRITing is a big downside making the damage from this unimpactful.\n 86.90%\n\n Gilded Blossom (S 5 )\n\n A weaker alternative to Starlight Engine that offers ATK% and increases the damage of EX Special attacks. Only use if you lack better W-Engines.\n 86.56%\n\n Drill Rig - Red Axis (S 5 )\n\n Anton's Signature W-Engine a specialized option design specifically with his kit in mind but which can be used to varying degrees of success by other Electric Combat characters with a focus on specifically Electric Basic burst damage. If you feel you don't need the Energy Regen from this W-engine on Anton, its value drops significantly as it cannot compete in raw damage output compared to all other Engines, as such you should consider it lower on this list.",
+      "assets": [
+        {
+          "id": "027325006807",
+          "sourceHash": "027325006807",
+          "kind": "w-engines",
+          "name": "Heartstring Nocturne",
+          "fileStem": "heartstring-nocturne-image",
+          "path": "Prydwen/zzz/assets/w-engines/heartstring-nocturne-027325006807.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "f00bf70e4d76",
+          "sourceHash": "f00bf70e4d76",
+          "kind": "w-engines",
+          "name": "Zanshin Herb Case",
+          "fileStem": "zanshin-herb-case-image",
+          "path": "Prydwen/zzz/assets/w-engines/zanshin-herb-case-f00bf70e4d76.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "bdd5620eca4f",
+          "sourceHash": "bdd5620eca4f",
+          "kind": "w-engines",
+          "name": "The Brimstone",
+          "fileStem": "the-brimstone-image",
+          "path": "Prydwen/zzz/assets/w-engines/the-brimstone-bdd5620eca4f.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "1050ac4bc270",
+          "sourceHash": "1050ac4bc270",
+          "kind": "w-engines",
+          "name": "Street Superstar",
+          "fileStem": "street-superstar-image",
+          "path": "Prydwen/zzz/assets/w-engines/street-superstar-1050ac4bc270.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "4018e18fe53d",
+          "sourceHash": "4018e18fe53d",
+          "kind": "w-engines",
+          "name": "Starlight Engine",
+          "fileStem": "starlight-engine-image",
+          "path": "Prydwen/zzz/assets/w-engines/starlight-engine-4018e18fe53d.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "e64b5f7d7212",
+          "sourceHash": "e64b5f7d7212",
+          "kind": "w-engines",
+          "name": "Marcato Desire",
+          "fileStem": "marcato-desire-image",
+          "path": "Prydwen/zzz/assets/w-engines/marcato-desire-e64b5f7d7212.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "6add563e7d9e",
+          "sourceHash": "6add563e7d9e",
+          "kind": "w-engines",
+          "name": "Cannon Rotor",
+          "fileStem": "cannon-rotor-image",
+          "path": "Prydwen/zzz/assets/w-engines/cannon-rotor-6add563e7d9e.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "5d59faf94b2e",
+          "sourceHash": "5d59faf94b2e",
+          "kind": "w-engines",
+          "name": "Gilded Blossom",
+          "fileStem": "gilded-blossom-image",
+          "path": "Prydwen/zzz/assets/w-engines/gilded-blossom-5d59faf94b2e.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "6e3a033ab056",
+          "sourceHash": "6e3a033ab056",
+          "kind": "w-engines",
+          "name": "Drill Rig - Red Axis",
+          "fileStem": "drill-rig-red-axis-image",
+          "path": "Prydwen/zzz/assets/w-engines/drill-rig-red-axis-6e3a033ab056.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-disk-drives-sets-24",
+      "level": 2,
+      "heading": "Best Disk Drives Sets",
+      "text": "100.00%\n\n Thunder Metal ( 4 -PC)\n\n Competitive option for direct and Anomaly-based Electric damage dealers granting 10% permanent Electric DMG% from the 2-PC and 28% increased combat ATK% as long as any enemy is Shocked. This set is incredibly powerful as Shock lasts for 10 seconds baseline, giving this bonus a long duration and due to the strength of combat ATK% multiplying all a characters standard ATK stats like FLAT ATK and ATK% ((Base ATK * (1 + ATK%)) + Flat ATK) * (1 + Combat ATK%).\n Best combined with your choice of 2-PC Set:\n 2P\n Woodpecker Electro\n\n (Recommended)\n 2P\n Hormone Punk\n\n 2P\n Puffer Electro\n\n 88.93%\n\n Puffer Electro ( 4 -PC)\n\n A top option for burst damage characters aiming to deal most of their damage in a short window following their Ultimate. The set grants 8% permanent PEN Ratio% from the 2-PC, 15% increased combat ATK% for 12 seconds after using an Ultimate and 20% increased Ultimate DMG from the 4P. When evaluating this set we assume you'll gain and save your damaging Ultimate for the enemy Stun window and use it before executing the rest of your combo. If you're unable to gain your Ultimate every stun window, this sets value will drop compared to its listing.\n Best combined with your choice of 2-PC Set:\n 2P\n Woodpecker Electro\n\n (Recommended)\n 2P\n Hormone Punk\n\n 2P\n Thunder Metal\n\n 85.59%\n\n Woodpecker Electro ( 4 -PC)\n\n Great option for all direct damage dealers that make use of some form of Basic ATK and EX frequently. The set grants 8% permanent CRIT RATE% from the 2-PC and a 9% increased combat ATK% buff for 6 seconds when triggering a CRIT with each a Basic Attack, Dodge Counter or EX Special Attack from the 4P. Each buff belongs to an attack type so you'll need to CRIT with each type every 6 seconds to maintain 3 stacks. You can expect 2 stacks of this set most of the time one from basics and one from either EX's during a burst window or Dodge Counters during downtime granting 18% combat ATK% that multiplies all ATK stats like FLAT ATK and ATK% ((Base ATK * (1 + ATK%)) + Flat ATK) * (1 + Combat ATK%).\n\nDespite all this, the set has ramp-up time and can quickly fall off without access to energy for EX's making it most suitable for characters with cheap EX's, frequent Dodge Counters or concentrated burst damage windows.\n Best combined with your choice of 2-PC Set:\n 2P\n Puffer Electro\n\n (Recommended)\n 2P\n Hormone Punk\n\n 2P\n Thunder Metal",
+      "assets": [
+        {
+          "id": "c2b777015ac8",
+          "sourceHash": "c2b777015ac8",
+          "kind": "drive-discs",
+          "name": "Thunder Metal",
+          "fileStem": "set-thunder",
+          "path": "Prydwen/zzz/assets/drive-discs/thunder-metal-c2b777015ac8.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "fe975d3b2c66",
+          "sourceHash": "fe975d3b2c66",
+          "kind": "drive-discs",
+          "name": "Woodpecker Electro",
+          "fileStem": "set-woodpecker",
+          "path": "Prydwen/zzz/assets/drive-discs/woodpecker-electro-fe975d3b2c66.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "9b0991be94a3",
+          "sourceHash": "9b0991be94a3",
+          "kind": "drive-discs",
+          "name": "Hormone Punk",
+          "fileStem": "set-hormone",
+          "path": "Prydwen/zzz/assets/drive-discs/hormone-punk-9b0991be94a3.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "69d899f282ca",
+          "sourceHash": "69d899f282ca",
+          "kind": "drive-discs",
+          "name": "Puffer Electro",
+          "fileStem": "set-puffer",
+          "path": "Prydwen/zzz/assets/drive-discs/puffer-electro-69d899f282ca.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-disk-drives-stats-25",
+      "level": 2,
+      "heading": "Best Disk Drives Stats",
+      "text": "Disk 4\n CRIT Rate% >= CRIT DMG%\n\n Disk 5\n Electric DMG%\n\n Disk 6\n ATK%\n\n Substats: CRIT RATE = CRIT DMG > ATK% > PEN = ATK",
+      "assets": []
+    },
+    {
+      "id": "best-endgame-stats-level-60-26",
+      "level": 2,
+      "heading": "Best Endgame Stats (Level 60)",
+      "text": "ATK: 2300-2800+\n\n HP: 9000+\n\n DEF: 800+\n\n CRIT RATE: 70-100%\n\n CRIT DMG: 120-160%+",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-27",
+      "level": 2,
+      "heading": "Skill priority",
+      "text": "Chain Attack\n\n Basic Attack\n\n Special Attack\n\n Assist\n\n Dodge",
+      "assets": [
+        {
+          "id": "803b765175bc",
+          "sourceHash": "803b765175bc",
+          "kind": "icons",
+          "name": "Chain Attack",
+          "fileStem": "icon-ulti-full",
+          "path": "Prydwen/zzz/assets/icons/chain-attack-803b765175bc.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "13fff798e82d",
+          "sourceHash": "13fff798e82d",
+          "kind": "icons",
+          "name": "Basic Attack",
+          "fileStem": "icon-basic",
+          "path": "Prydwen/zzz/assets/icons/basic-attack-13fff798e82d.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "954b8d0b61b7",
+          "sourceHash": "954b8d0b61b7",
+          "kind": "icons",
+          "name": "Special Attack",
+          "fileStem": "icon-special-full",
+          "path": "Prydwen/zzz/assets/icons/special-attack-954b8d0b61b7.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "de0f0cad1e72",
+          "sourceHash": "de0f0cad1e72",
+          "kind": "icons",
+          "name": "Assist",
+          "fileStem": "icon-assist-m",
+          "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "f3bbacf4beb6",
+          "sourceHash": "f3bbacf4beb6",
+          "kind": "icons",
+          "name": "Dodge",
+          "fileStem": "icon-dodge",
+          "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+          "width": 24,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "id": "video-guides-28",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "Anton guide videos aren't available yet.\n\n Teams & Synergy",
+      "assets": []
+    },
+    {
+      "id": "synergy-29",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Below we list only the most important synergies for Anton . The character can work with others if you know what to do and how to use them.\n\n Trigger Qingyi - These two Stun powerhouses are able to activate Anton's Additional Ability and allows him to capitalize on Shock damage while creating lots of Stun windows for him to deal a lot of damage. They both provide Stun DMG Multiplier debuffs but Qingyi deals more Daze at the cost of more field time while Trigger is almost always off-field, so both have their pros and cons, but both appear as the best options for Anton if you want to run a Stun unit with him.\n Grace - One of Anton’s kit-defining features is his Additional Ability that allows him to partially trigger any Shock on the target he is hitting every 4th Critical Hit he deals. Grace allows him to exploit this as she activates this Additional Ability by herself inflicts good Shock damage that Anton can freely exploit during his damage windows.\n Astra Yao Nicole - These 2 generalist Support units are capable of servicing as the Support to any team in the game. Astra Yao provides Quick Assists, extra Chain Attacks, healing, super low field time, ATK, DMG and CRIT DMG buffs which makes her the overall best choice in almost all cases. Nicole provides the sought-after DEF Shred and CRIT Rate at M6 which makes her competitive. They can work with any team in the game to great effect, whether that's by themselves or together. Astra Yao is especially desirable on Anton by allowing him to exploit his extremely high Quick Assist multiplier, and if you want to make the effort on capitalizing this effect, Astra Yao's Special is perfect for the job.",
+      "assets": [
+        {
+          "id": "2fd489d454a4",
+          "sourceHash": "2fd489d454a4",
+          "kind": "characters",
+          "name": "Trigger",
+          "fileStem": "trigger",
+          "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "894a171664e9",
+          "sourceHash": "894a171664e9",
+          "kind": "characters",
+          "name": "Qingyi",
+          "fileStem": "qingyi",
+          "path": "Prydwen/zzz/assets/characters/qingyi-894a171664e9.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "4dd7369afa54",
+          "sourceHash": "4dd7369afa54",
+          "kind": "characters",
+          "name": "Grace",
+          "fileStem": "grace-howard",
+          "path": "Prydwen/zzz/assets/characters/grace-4dd7369afa54.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "98d8d659c143",
+          "sourceHash": "98d8d659c143",
+          "kind": "characters",
+          "name": "Astra Yao",
+          "fileStem": "astra-yao",
+          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ad063e072375",
+          "sourceHash": "ad063e072375",
+          "kind": "characters",
+          "name": "Nicole",
+          "fileStem": "nicole-demara",
+          "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-shiyu-defense-30",
+      "level": 2,
+      "heading": "Teams (Shiyu Defense)",
+      "text": "This section lists most popular teams featuring Anton in the current phase of Shiyu Defense.\n There are no teams featuring Anton who have cleared Shiyu Defense in the current cycle.",
+      "assets": []
+    },
+    {
+      "id": "teams-deadly-assault-31",
+      "level": 2,
+      "heading": "Teams (Deadly Assault)",
+      "text": "This section lists most popular teams featuring Anton in the current phase of Deadly Assault.\n There are no teams featuring Anton who have cleared Deadly Assault in the current cycle.",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-w-engines": {
+      "label": "Best W-Engines",
+      "sections": [
+        {
+          "heading": "Best W-Engines",
+          "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 105.84%\n\n Heartstring Nocturne (S 1 )\n\n A great stat stick for most characters. Grants a tremendous amount of unconditional CRIT RATE and CRIT DMG.\n 102.61%\n\n Zanshin Herb Case (S 1 )\n\n A solid all around generic option thanks to its close to permanent uptime of 20% CRIT RATE and always active 45% CRIT DMG, alongside its high base ATK.\n 100.00%\n\n The Brimstone (S 1 )\n\n Soldier 11's Signature W-Engine and a good choice for any character with a focus on using a lot of Basic Attacks or even just a few long lasting ones. The catch is each buff stack has its own duration and only 1 buff can be gained every 0.5 seconds, making maintaining max stacks of this buff require constant Basic Attacks.\n 93.26%\n\n Street Superstar (S 5 )\n\n A decent but somewhat niche Free To Play accessible option for all Attack Agents. Against bosses you can guarantee 3 Chain Attacks every time you Stun them, meaning this W-engine's effect essentially grants 72% Ultimate damage. These bonuses allow it to be a competitive option during burst rotations with the ultimate available, but when the ultimate isn't available or executing a standard rotation this W-engine falls behind.\n 92.96%\n\n Starlight Engine (S 5 )\n\n A solid all-around Free To Play accessible option for all Attack Agents. Grants 25% unconditional Standard Attack and a further 19.2% (At S5) Combat Attack buff after performing a Dodge Counter or Quick Assist lasting 12 seconds. This buff is reasonably easy for all Attack Agents to achieve in both their standard and burst rotations, assuming a Support character is present on the team.\n 91.38%\n\n Marcato Desire (S 5 )\n\n Reasonable option for CRIT scaling agents playing in teams capable of applying Anomaly semi-consistently to trigger and maintain its secondary bonus effect a decent amount of the time.\n 90.40%\n\n Cannon Rotor (S 5 )\n\n The battle pass W-engine - an expensive engine to acquire which while incredibly consistent is often weaker than other W-Engines. The main issue with the on Crit trigger ability is that the damage is Physical and cannot CRIT meaning for non-physical characters you'll be losing all elemental DMG% boosts on this damage and for all characters not CRITing is a big downside making the damage from this unimpactful.\n 86.90%\n\n Gilded Blossom (S 5 )\n\n A weaker alternative to Starlight Engine that offers ATK% and increases the damage of EX Special attacks. Only use if you lack better W-Engines.\n 86.56%\n\n Drill Rig - Red Axis (S 5 )\n\n Anton's Signature W-Engine a specialized option design specifically with his kit in mind but which can be used to varying degrees of success by other Electric Combat characters with a focus on specifically Electric Basic burst damage. If you feel you don't need the Energy Regen from this W-engine on Anton, its value drops significantly as it cannot compete in raw damage output compared to all other Engines, as such you should consider it lower on this list.",
+          "assets": [
+            {
+              "id": "027325006807",
+              "sourceHash": "027325006807",
+              "kind": "w-engines",
+              "name": "Heartstring Nocturne",
+              "fileStem": "heartstring-nocturne-image",
+              "path": "Prydwen/zzz/assets/w-engines/heartstring-nocturne-027325006807.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "f00bf70e4d76",
+              "sourceHash": "f00bf70e4d76",
+              "kind": "w-engines",
+              "name": "Zanshin Herb Case",
+              "fileStem": "zanshin-herb-case-image",
+              "path": "Prydwen/zzz/assets/w-engines/zanshin-herb-case-f00bf70e4d76.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "bdd5620eca4f",
+              "sourceHash": "bdd5620eca4f",
+              "kind": "w-engines",
+              "name": "The Brimstone",
+              "fileStem": "the-brimstone-image",
+              "path": "Prydwen/zzz/assets/w-engines/the-brimstone-bdd5620eca4f.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "1050ac4bc270",
+              "sourceHash": "1050ac4bc270",
+              "kind": "w-engines",
+              "name": "Street Superstar",
+              "fileStem": "street-superstar-image",
+              "path": "Prydwen/zzz/assets/w-engines/street-superstar-1050ac4bc270.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "4018e18fe53d",
+              "sourceHash": "4018e18fe53d",
+              "kind": "w-engines",
+              "name": "Starlight Engine",
+              "fileStem": "starlight-engine-image",
+              "path": "Prydwen/zzz/assets/w-engines/starlight-engine-4018e18fe53d.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "e64b5f7d7212",
+              "sourceHash": "e64b5f7d7212",
+              "kind": "w-engines",
+              "name": "Marcato Desire",
+              "fileStem": "marcato-desire-image",
+              "path": "Prydwen/zzz/assets/w-engines/marcato-desire-e64b5f7d7212.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "6add563e7d9e",
+              "sourceHash": "6add563e7d9e",
+              "kind": "w-engines",
+              "name": "Cannon Rotor",
+              "fileStem": "cannon-rotor-image",
+              "path": "Prydwen/zzz/assets/w-engines/cannon-rotor-6add563e7d9e.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "5d59faf94b2e",
+              "sourceHash": "5d59faf94b2e",
+              "kind": "w-engines",
+              "name": "Gilded Blossom",
+              "fileStem": "gilded-blossom-image",
+              "path": "Prydwen/zzz/assets/w-engines/gilded-blossom-5d59faf94b2e.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "6e3a033ab056",
+              "sourceHash": "6e3a033ab056",
+              "kind": "w-engines",
+              "name": "Drill Rig - Red Axis",
+              "fileStem": "drill-rig-red-axis-image",
+              "path": "Prydwen/zzz/assets/w-engines/drill-rig-red-axis-6e3a033ab056.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-disk-drives-sets": {
+      "label": "Best Disk Drives Sets",
+      "sections": [
+        {
+          "heading": "Best Disk Drives Sets",
+          "text": "100.00%\n\n Thunder Metal ( 4 -PC)\n\n Competitive option for direct and Anomaly-based Electric damage dealers granting 10% permanent Electric DMG% from the 2-PC and 28% increased combat ATK% as long as any enemy is Shocked. This set is incredibly powerful as Shock lasts for 10 seconds baseline, giving this bonus a long duration and due to the strength of combat ATK% multiplying all a characters standard ATK stats like FLAT ATK and ATK% ((Base ATK * (1 + ATK%)) + Flat ATK) * (1 + Combat ATK%).\n Best combined with your choice of 2-PC Set:\n 2P\n Woodpecker Electro\n\n (Recommended)\n 2P\n Hormone Punk\n\n 2P\n Puffer Electro\n\n 88.93%\n\n Puffer Electro ( 4 -PC)\n\n A top option for burst damage characters aiming to deal most of their damage in a short window following their Ultimate. The set grants 8% permanent PEN Ratio% from the 2-PC, 15% increased combat ATK% for 12 seconds after using an Ultimate and 20% increased Ultimate DMG from the 4P. When evaluating this set we assume you'll gain and save your damaging Ultimate for the enemy Stun window and use it before executing the rest of your combo. If you're unable to gain your Ultimate every stun window, this sets value will drop compared to its listing.\n Best combined with your choice of 2-PC Set:\n 2P\n Woodpecker Electro\n\n (Recommended)\n 2P\n Hormone Punk\n\n 2P\n Thunder Metal\n\n 85.59%\n\n Woodpecker Electro ( 4 -PC)\n\n Great option for all direct damage dealers that make use of some form of Basic ATK and EX frequently. The set grants 8% permanent CRIT RATE% from the 2-PC and a 9% increased combat ATK% buff for 6 seconds when triggering a CRIT with each a Basic Attack, Dodge Counter or EX Special Attack from the 4P. Each buff belongs to an attack type so you'll need to CRIT with each type every 6 seconds to maintain 3 stacks. You can expect 2 stacks of this set most of the time one from basics and one from either EX's during a burst window or Dodge Counters during downtime granting 18% combat ATK% that multiplies all ATK stats like FLAT ATK and ATK% ((Base ATK * (1 + ATK%)) + Flat ATK) * (1 + Combat ATK%).\n\nDespite all this, the set has ramp-up time and can quickly fall off without access to energy for EX's making it most suitable for characters with cheap EX's, frequent Dodge Counters or concentrated burst damage windows.\n Best combined with your choice of 2-PC Set:\n 2P\n Puffer Electro\n\n (Recommended)\n 2P\n Hormone Punk\n\n 2P\n Thunder Metal",
+          "assets": [
+            {
+              "id": "c2b777015ac8",
+              "sourceHash": "c2b777015ac8",
+              "kind": "drive-discs",
+              "name": "Thunder Metal",
+              "fileStem": "set-thunder",
+              "path": "Prydwen/zzz/assets/drive-discs/thunder-metal-c2b777015ac8.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "fe975d3b2c66",
+              "sourceHash": "fe975d3b2c66",
+              "kind": "drive-discs",
+              "name": "Woodpecker Electro",
+              "fileStem": "set-woodpecker",
+              "path": "Prydwen/zzz/assets/drive-discs/woodpecker-electro-fe975d3b2c66.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "9b0991be94a3",
+              "sourceHash": "9b0991be94a3",
+              "kind": "drive-discs",
+              "name": "Hormone Punk",
+              "fileStem": "set-hormone",
+              "path": "Prydwen/zzz/assets/drive-discs/hormone-punk-9b0991be94a3.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "69d899f282ca",
+              "sourceHash": "69d899f282ca",
+              "kind": "drive-discs",
+              "name": "Puffer Electro",
+              "fileStem": "set-puffer",
+              "path": "Prydwen/zzz/assets/drive-discs/puffer-electro-69d899f282ca.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-disk-drives-stats": {
+      "label": "Best Disk Drives Stats",
+      "sections": [
+        {
+          "heading": "Best Disk Drives Stats",
+          "text": "Disk 4\n CRIT Rate% >= CRIT DMG%\n\n Disk 5\n Electric DMG%\n\n Disk 6\n ATK%\n\n Substats: CRIT RATE = CRIT DMG > ATK% > PEN = ATK",
+          "assets": []
+        }
+      ]
+    },
+    "best-endgame-stats": {
+      "label": "Best Endgame Stats",
+      "sections": [
+        {
+          "heading": "Best Endgame Stats (Level 60)",
+          "text": "ATK: 2300-2800+\n\n HP: 9000+\n\n DEF: 800+\n\n CRIT RATE: 70-100%\n\n CRIT DMG: 120-160%+",
+          "assets": []
+        }
+      ]
+    },
+    "skill-priority": {
+      "label": "Skill priority",
+      "sections": [
+        {
+          "heading": "Skill priority",
+          "text": "Chain Attack\n\n Basic Attack\n\n Special Attack\n\n Assist\n\n Dodge",
+          "assets": [
+            {
+              "id": "803b765175bc",
+              "sourceHash": "803b765175bc",
+              "kind": "icons",
+              "name": "Chain Attack",
+              "fileStem": "icon-ulti-full",
+              "path": "Prydwen/zzz/assets/icons/chain-attack-803b765175bc.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "13fff798e82d",
+              "sourceHash": "13fff798e82d",
+              "kind": "icons",
+              "name": "Basic Attack",
+              "fileStem": "icon-basic",
+              "path": "Prydwen/zzz/assets/icons/basic-attack-13fff798e82d.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "954b8d0b61b7",
+              "sourceHash": "954b8d0b61b7",
+              "kind": "icons",
+              "name": "Special Attack",
+              "fileStem": "icon-special-full",
+              "path": "Prydwen/zzz/assets/icons/special-attack-954b8d0b61b7.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "de0f0cad1e72",
+              "sourceHash": "de0f0cad1e72",
+              "kind": "icons",
+              "name": "Assist",
+              "fileStem": "icon-assist-m",
+              "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "f3bbacf4beb6",
+              "sourceHash": "f3bbacf4beb6",
+              "kind": "icons",
+              "name": "Dodge",
+              "fileStem": "icon-dodge",
+              "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+              "width": 24,
+              "height": 24
+            }
+          ]
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Below we list only the most important synergies for Anton . The character can work with others if you know what to do and how to use them.\n\n Trigger Qingyi - These two Stun powerhouses are able to activate Anton's Additional Ability and allows him to capitalize on Shock damage while creating lots of Stun windows for him to deal a lot of damage. They both provide Stun DMG Multiplier debuffs but Qingyi deals more Daze at the cost of more field time while Trigger is almost always off-field, so both have their pros and cons, but both appear as the best options for Anton if you want to run a Stun unit with him.\n Grace - One of Anton’s kit-defining features is his Additional Ability that allows him to partially trigger any Shock on the target he is hitting every 4th Critical Hit he deals. Grace allows him to exploit this as she activates this Additional Ability by herself inflicts good Shock damage that Anton can freely exploit during his damage windows.\n Astra Yao Nicole - These 2 generalist Support units are capable of servicing as the Support to any team in the game. Astra Yao provides Quick Assists, extra Chain Attacks, healing, super low field time, ATK, DMG and CRIT DMG buffs which makes her the overall best choice in almost all cases. Nicole provides the sought-after DEF Shred and CRIT Rate at M6 which makes her competitive. They can work with any team in the game to great effect, whether that's by themselves or together. Astra Yao is especially desirable on Anton by allowing him to exploit his extremely high Quick Assist multiplier, and if you want to make the effort on capitalizing this effect, Astra Yao's Special is perfect for the job.",
+          "assets": [
+            {
+              "id": "2fd489d454a4",
+              "sourceHash": "2fd489d454a4",
+              "kind": "characters",
+              "name": "Trigger",
+              "fileStem": "trigger",
+              "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "894a171664e9",
+              "sourceHash": "894a171664e9",
+              "kind": "characters",
+              "name": "Qingyi",
+              "fileStem": "qingyi",
+              "path": "Prydwen/zzz/assets/characters/qingyi-894a171664e9.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "4dd7369afa54",
+              "sourceHash": "4dd7369afa54",
+              "kind": "characters",
+              "name": "Grace",
+              "fileStem": "grace-howard",
+              "path": "Prydwen/zzz/assets/characters/grace-4dd7369afa54.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "98d8d659c143",
+              "sourceHash": "98d8d659c143",
+              "kind": "characters",
+              "name": "Astra Yao",
+              "fileStem": "astra-yao",
+              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "ad063e072375",
+              "sourceHash": "ad063e072375",
+              "kind": "characters",
+              "name": "Nicole",
+              "fileStem": "nicole-demara",
+              "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "teams": {
+      "label": "Teams",
+      "sections": [
+        {
+          "heading": "Teams (Shiyu Defense)",
+          "text": "This section lists most popular teams featuring Anton in the current phase of Shiyu Defense.\n There are no teams featuring Anton who have cleared Shiyu Defense in the current cycle.",
+          "assets": []
+        },
+        {
+          "heading": "Teams (Deadly Assault)",
+          "text": "This section lists most popular teams featuring Anton in the current phase of Deadly Assault.\n There are no teams featuring Anton who have cleared Deadly Assault in the current cycle.",
+          "assets": []
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Anton Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Anton\n Anton Best Build Guide\n Last updated: 14/June/2026\n\n Introduction\n Best guide and build for Anton from ZZZ (Zenless Zone Zero). Anton is an rank character with the Electric attribute who belongs to the Attack Specialty and who is part of the Belobog Heavy Industries faction.\n Leads Others in His Passion for Work. A senior staff member of Belobog Industries, he's an onsite project manager who's always ready to go. Energetic and Reliable. He's full of vigor and always rises to the occasion. Kind-Hearted Despite Appearances. With a sharp tongue but a soft heart, he can't say \"no\" to those in need. Strong, Sincere & Straightforward. Open and honest, nothing can seem to upset him.\n\n To learn more about Anton check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n This character has no video guide yet.\n\n Update tracker\n Last review update\n Patch 1.5\n\n Last build update\n Patch 1.5\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 14/June/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Anton check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Brothers in Arms!\n\n Lv. 1\n\n When Anton uses his Pile Driver Attack, the skill's DMG is increased by 12% . When he uses his Drill Attack, the skill's DMG is increased by 20% .\n\n PEN Ratio 0\n BASE ATK: 0\n\n Additional Ability Teamwork\n\n When another character in your squad shares the same Attribute or Faction:\n While Anton is in Burst Mode, for every 4 critical hits, the next attack hitting Shocked enemies triggers an additional bout of Shock DMG at 45% of the original DMG. This effect can be triggered once every 0.5s .\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Enthusiastic Drills\n\n Press to activate.\nUnleashes up to 4 mixed attacks in front, dealing Physical DMG.\nThe 4th-hit is a Piledriver Attack.\n Multipliers\n\n Basic Attack: Enthusiastic Drills (Burst Mode)\n\n Press while Anton is in Burst Mode to activate:\nUnleashes up to 3 mixed attacks in front, dealing massive Electric DMG.\nDuring the 2nd Drill Attack and 3rd Pile Driver Attack, press repeatedly or hold to extend the skill duration.\n Multipliers\n\n Dodge: Let's Move\n\n Press to dodge.\nA rapid dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Fire With Fire\n\n Press during a Dodge to activate:\nRams into enemies in front of him, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Retaliation\n\n Press during a Perfect Dodge to activate.\nContinuously strikes enemies in front with heavy punches, dealing Physical DMG.\nCharacter is invulnerable during the attack.\n Multipliers\n\n Dodge Counter: Overload Drill (Burst Mode)\n\n While in Burst Mode, press during a Perfect Dodge to activate.\nLaunch a Drill Attack at enemies in front of him, dealing massive Electric DMG.\nCharacter is invulnerable during the attack.\n Multipliers\n\n Special Attack: Spin, Bro!\n\n Press to activate.\nUnleashes a Pile Driver Attack against enemies in a line in front, dealing Electric DMG.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n EX Special Attack: Smash the Horizon, Bro!\n\n With enough energy, press to activate:\nLaunches several Pile Driver Attacks at enemies in a line in front of him, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill.\nAnton enters Burst Mode after using this skill. When in Burst Mode, Anton's attacks become more powerful, dealing massive Electric DMG while continually consuming Energy upon hitting an enemy. Burst Mode remains active until his Energy is depleted.\n Multipliers\n\n Special Attack: Explosive Drill (Burst Mode)\n\n Press while in Burst Mode to activate.\nLaunches a Pile Driver Attack at enemies in front, dealing Electric DMG.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n Chain Attack: Go Go Go!\n\n When a Chain Attack is triggered, select the character to activate:\nUnleashes a Pile Driver Attack onto the ground in front of him over a large area, dealing massive Electric DMG to enemies within range.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Go Go Go Go Go!\n\n When Decibel Rating is at Maximum, press to activate.\nUnleashes a Pile Driver Attack onto the ground in front of him over a large area, dealing massive Electric DMG to enemies within range.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Limit Burst\n\n Press after a Defensive Assist to activate.\nLaunches a Drill Attack that ends in a Pile Driver Attack, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Iron Wrist\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Shoulder-To-Shoulder\n\n When the character in combat is launched, press to activate.\nContinuously strikes enemies in front of him with heavy punches, dealing Physical DMG.\nCharacter is invulnerable during the attack.\n Multipliers\n\n Quick Assist: Protective Drill (Burst Mode)\n\n When the on-field character is launched, press to activate.\nAttacks enemies in front with a Drill Attack, dealing massive Electric DMG.\nCharacter is invulnerable during the attack.\n Multipliers\n\n Mindscapes\n M1\n Warm-up Exercises\n Mindscape 1\n\n When Drill Attack hits an enemy, Anton gains additional Energy up to a maximum of 5 Energy per skill use.\n\n M2\n State of Flow\n Mindscape 2\n\n When Anton uses his EX Special Attack and enters Burst Mode, he gains a Shield that equals to 7.5% of his max HP. While in Burst Mode, entering combat or switching in reapplies the Shield effect. This effect can trigger once every 15s. The Shield dissipates when Burst Mode ends.\n\n M3\n Rotational Training\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Everyone Get Fired Up!\n Mindscape 4\n\n When Anton uses a Chain Attack or Ultimate, all squad members' CRIT Rate increases by 10% for 12s .\n\n M5\n Jack of All Trades\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Break the Limit\n Mindscape 6\n\n When Anton's Piledriver Attack triggers a critical hit, his Basic Attack: Enthusiastic Drills (Burst Mode) and Dodge Counter: Overload Drill (Burst Mode) deal 4% more DMG for 30s , stacking up to 6 times. Repeated triggers reset the duration.\n\n Stats (Level 60)\n Anton Stats at level 60 (including Core passive bonuses).\n\n HP\n 7219\n\n DEF\n 622\n\n ATK\n 791\n\n CRIT Rate\n 19.4 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 95\n\n Anomaly Mastery\n 86\n\n Anomaly Proficiency\n 90\n\n Energy Regen\n 1.2\n\n Voice Actors\n ENG\n -\n\n JPN\n Kamio Shinichiro (神尾 晋一郎)\n\n CN\n Xiāo Dí (萧翟)\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Crit DPS\n T3\n Endgame Modes\n\n Pros & Cons\n Pros\n Has the unique mechanic to retrigger Shocks every 0.5 seconds after dealing 4 Critical Hits while in Burst mode giving him one of the highest potential kits for an A-rank unit.\n\n Has great Mindscapes, giving him good scaling potential as you develop your account. His M1 prolongs his Burst Mode duration by a good amount, and his M4 gives the whole team a Crit Rate buff after he uses a Chain or Ultimate attack for 12 seconds.\n\n Is a Bro.\n\n Cons\n Has a large amount of his potential damage within his kit tied to his ability to trigger additional damage against Shocked enemies, making him reliant on ensuring enemies remain Shocked as much as possible and for as large amount of damage as possible.\n\n Has limited options outside of S-rank’s when it comes to team building.\n\n Relies heavily on being in Burst Mode to deal the majority of his damage and feels lackluster outside of it, making Anton one of the most energy-reliant characters in the game.\n\n Review\n Anton review isn't available yet. It will be added soon!\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 105.84%\n\n Heartstring Nocturne (S 1 )\n\n A great stat stick for most characters. Grants a tremendous amount of unconditional CRIT RATE and CRIT DMG.\n 102.61%\n\n Zanshin Herb Case (S 1 )\n\n A solid all around generic option thanks to its close to permanent uptime of 20% CRIT RATE and always active 45% CRIT DMG, alongside its high base ATK.\n 100.00%\n\n The Brimstone (S 1 )\n\n Soldier 11's Signature W-Engine and a good choice for any character with a focus on using a lot of Basic Attacks or even just a few long lasting ones. The catch is each buff stack has its own duration and only 1 buff can be gained every 0.5 seconds, making maintaining max stacks of this buff require constant Basic Attacks.\n 93.26%\n\n Street Superstar (S 5 )\n\n A decent but somewhat niche Free To Play accessible option for all Attack Agents. Against bosses you can guarantee 3 Chain Attacks every time you Stun them, meaning this W-engine's effect essentially grants 72% Ultimate damage. These bonuses allow it to be a competitive option during burst rotations with the ultimate available, but when the ultimate isn't available or executing a standard rotation this W-engine falls behind.\n 92.96%\n\n Starlight Engine (S 5 )\n\n A solid all-around Free To Play accessible option for all Attack Agents. Grants 25% unconditional Standard Attack and a further 19.2% (At S5) Combat Attack buff after performing a Dodge Counter or Quick Assist lasting 12 seconds. This buff is reasonably easy for all Attack Agents to achieve in both their standard and burst rotations, assuming a Support character is present on the team.\n 91.38%\n\n Marcato Desire (S 5 )\n\n Reasonable option for CRIT scaling agents playing in teams capable of applying Anomaly semi-consistently to trigger and maintain its secondary bonus effect a decent amount of the time.\n 90.40%\n\n Cannon Rotor (S 5 )\n\n The battle pass W-engine - an expensive engine to acquire which while incredibly consistent is often weaker than other W-Engines. The main issue with the on Crit trigger ability is that the damage is Physical and cannot CRIT meaning for non-physical characters you'll be losing all elemental DMG% boosts on this damage and for all characters not CRITing is a big downside making the damage from this unimpactful.\n 86.90%\n\n Gilded Blossom (S 5 )\n\n A weaker alternative to Starlight Engine that offers ATK% and increases the damage of EX Special attacks. Only use if you lack better W-Engines.\n 86.56%\n\n Drill Rig - Red Axis (S 5 )\n\n Anton's Signature W-Engine a specialized option design specifically with his kit in mind but which can be used to varying degrees of success by other Electric Combat characters with a focus on specifically Electric Basic burst damage. If you feel you don't need the Energy Regen from this W-engine on Anton, its value drops significantly as it cannot compete in raw damage output compared to all other Engines, as such you should consider it lower on this list.\n Best Disk Drives Sets\n 100.00%\n\n Thunder Metal ( 4 -PC)\n\n Competitive option for direct and Anomaly-based Electric damage dealers granting 10% permanent Electric DMG% from the 2-PC and 28% increased combat ATK% as long as any enemy is Shocked. This set is incredibly powerful as Shock lasts for 10 seconds baseline, giving this bonus a long duration and due to the strength of combat ATK% multiplying all a characters standard ATK stats like FLAT ATK and ATK% ((Base ATK * (1 + ATK%)) + Flat ATK) * (1 + Combat ATK%).\n Best combined with your choice of 2-PC Set:\n 2P\n Woodpecker Electro\n\n (Recommended)\n 2P\n Hormone Punk\n\n 2P\n Puffer Electro\n\n 88.93%\n\n Puffer Electro ( 4 -PC)\n\n A top option for burst damage characters aiming to deal most of their damage in a short window following their Ultimate. The set grants 8% permanent PEN Ratio% from the 2-PC, 15% increased combat ATK% for 12 seconds after using an Ultimate and 20% increased Ultimate DMG from the 4P. When evaluating this set we assume you'll gain and save your damaging Ultimate for the enemy Stun window and use it before executing the rest of your combo. If you're unable to gain your Ultimate every stun window, this sets value will drop compared to its listing.\n Best combined with your choice of 2-PC Set:\n 2P\n Woodpecker Electro\n\n (Recommended)\n 2P\n Hormone Punk\n\n 2P\n Thunder Metal\n\n 85.59%\n\n Woodpecker Electro ( 4 -PC)\n\n Great option for all direct damage dealers that make use of some form of Basic ATK and EX frequently. The set grants 8% permanent CRIT RATE% from the 2-PC and a 9% increased combat ATK% buff for 6 seconds when triggering a CRIT with each a Basic Attack, Dodge Counter or EX Special Attack from the 4P. Each buff belongs to an attack type so you'll need to CRIT with each type every 6 seconds to maintain 3 stacks. You can expect 2 stacks of this set most of the time one from basics and one from either EX's during a burst window or Dodge Counters during downtime granting 18% combat ATK% that multiplies all ATK stats like FLAT ATK and ATK% ((Base ATK * (1 + ATK%)) + Flat ATK) * (1 + Combat ATK%).\n\nDespite all this, the set has ramp-up time and can quickly fall off without access to energy for EX's making it most suitable for characters with cheap EX's, frequent Dodge Counters or concentrated burst damage windows.\n Best combined with your choice of 2-PC Set:\n 2P\n Puffer Electro\n\n (Recommended)\n 2P\n Hormone Punk\n\n 2P\n Thunder Metal\n\n Best Disk Drives Stats\n Disk 4\n CRIT Rate% >= CRIT DMG%\n\n Disk 5\n Electric DMG%\n\n Disk 6\n ATK%\n\n Substats: CRIT RATE = CRIT DMG > ATK% > PEN = ATK\n\n Best Endgame Stats (Level 60)\n ATK: 2300-2800+\n\n HP: 9000+\n\n DEF: 800+\n\n CRIT RATE: 70-100%\n\n CRIT DMG: 120-160%+\n\n Skill priority\n Chain Attack\n\n Basic Attack\n\n Special Attack\n\n Assist\n\n Dodge\n\n Video guides\n Anton guide videos aren't available yet.\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Anton . The character can work with others if you know what to do and how to use them.\n\n Trigger Qingyi - These two Stun powerhouses are able to activate Anton's Additional Ability and allows him to capitalize on Shock damage while creating lots of Stun windows for him to deal a lot of damage. They both provide Stun DMG Multiplier debuffs but Qingyi deals more Daze at the cost of more field time while Trigger is almost always off-field, so both have their pros and cons, but both appear as the best options for Anton if you want to run a Stun unit with him.\n Grace - One of Anton’s kit-defining features is his Additional Ability that allows him to partially trigger any Shock on the target he is hitting every 4th Critical Hit he deals. Grace allows him to exploit this as she activates this Additional Ability by herself inflicts good Shock damage that Anton can freely exploit during his damage windows.\n Astra Yao Nicole - These 2 generalist Support units are capable of servicing as the Support to any team in the game. Astra Yao provides Quick Assists, extra Chain Attacks, healing, super low field time, ATK, DMG and CRIT DMG buffs which makes her the overall best choice in almost all cases. Nicole provides the sought-after DEF Shred and CRIT Rate at M6 which makes her competitive. They can work with any team in the game to great effect, whether that's by themselves or together. Astra Yao is especially desirable on Anton by allowing him to exploit his extremely high Quick Assist multiplier, and if you want to make the effort on capitalizing this effect, Astra Yao's Special is perfect for the job.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Anton in the current phase of Shiyu Defense.\n There are no teams featuring Anton who have cleared Shiyu Defense in the current cycle.\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Anton in the current phase of Deadly Assault.\n There are no teams featuring Anton who have cleared Deadly Assault in the current cycle."
+}

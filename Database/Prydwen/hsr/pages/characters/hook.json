@@ -1,0 +1,1084 @@
+{
+  "id": "characters:hook",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "hook",
+  "name": "Hook",
+  "title": "Hook Best Build Guide",
+  "sourcePath": "/star-rail/characters/hook",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "31/May/2026",
+  "meta": {
+    "title": "Hook Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 4,
+    "element": "Fire",
+    "path": "Destruction"
+  },
+  "assets": [
+    {
+      "id": "04178d3d46d9",
+      "sourceHash": "04178d3d46d9",
+      "kind": "characters",
+      "name": "Hook",
+      "fileStem": "hook-card",
+      "path": "Prydwen/hsr/assets/characters/hook-04178d3d46d9.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "dc6aec4a7776",
+      "sourceHash": "dc6aec4a7776",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "96654253a4f7",
+      "sourceHash": "96654253a4f7",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "44c437b21b3a",
+      "sourceHash": "44c437b21b3a",
+      "kind": "icons",
+      "name": "CRIT DMG",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "a6be649090ba",
+      "sourceHash": "a6be649090ba",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "087f2dec68b6",
+      "sourceHash": "087f2dec68b6",
+      "kind": "icons",
+      "name": "Speed",
+      "fileStem": "stat-speed",
+      "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "50d0e755383a",
+      "sourceHash": "50d0e755383a",
+      "kind": "items",
+      "name": "Credit",
+      "fileStem": "credit",
+      "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "6f042f830691",
+      "sourceHash": "6f042f830691",
+      "kind": "items",
+      "name": "Ancient Part",
+      "fileStem": "ancient-part",
+      "path": "Prydwen/hsr/assets/items/ancient-part-6f042f830691.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "005235ca1b8a",
+      "sourceHash": "005235ca1b8a",
+      "kind": "items",
+      "name": "Ancient Spindle",
+      "fileStem": "ancient-spindle",
+      "path": "Prydwen/hsr/assets/items/ancient-spindle-005235ca1b8a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "20a33d37d80f",
+      "sourceHash": "20a33d37d80f",
+      "kind": "items",
+      "name": "Endotherm Chitin",
+      "fileStem": "endotherm-chitin",
+      "path": "Prydwen/hsr/assets/items/endotherm-chitin-20a33d37d80f.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "433c510bb267",
+      "sourceHash": "433c510bb267",
+      "kind": "items",
+      "name": "Ancient Engine",
+      "fileStem": "ancient-engine",
+      "path": "Prydwen/hsr/assets/items/ancient-engine-433c510bb267.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "c27c777b6337",
+      "sourceHash": "c27c777b6337",
+      "kind": "characters",
+      "name": "Hook",
+      "fileStem": "hook-full",
+      "path": "Prydwen/hsr/assets/characters/hook-c27c777b6337.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "83d0f295d2ff",
+      "sourceHash": "83d0f295d2ff",
+      "kind": "light-cones",
+      "name": "On the Fall of an Aeon",
+      "fileStem": "on-the-fall-of-an-aeon",
+      "path": "Prydwen/hsr/assets/light-cones/on-the-fall-of-an-aeon-83d0f295d2ff.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "be960f437f51",
+      "sourceHash": "be960f437f51",
+      "kind": "light-cones",
+      "name": "Woof! Walk Time!",
+      "fileStem": "woof-walk-time",
+      "path": "Prydwen/hsr/assets/light-cones/woof-walk-time-be960f437f51.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "9418dda8a1de",
+      "sourceHash": "9418dda8a1de",
+      "kind": "light-cones",
+      "name": "A Secret Vow",
+      "fileStem": "a-secret-vow",
+      "path": "Prydwen/hsr/assets/light-cones/a-secret-vow-9418dda8a1de.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "6e205de52037",
+      "sourceHash": "6e205de52037",
+      "kind": "relics",
+      "name": "Pioneer Diver of Dead Waters",
+      "fileStem": "pioneer-diver-of-dead-waters",
+      "path": "Prydwen/hsr/assets/relics/pioneer-diver-of-dead-waters-6e205de52037.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "f521b7a2ee25",
+      "sourceHash": "f521b7a2ee25",
+      "kind": "relics",
+      "name": "Scholar Lost in Erudition",
+      "fileStem": "scholar-lost-in-erudition",
+      "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "b75b6bbcc082",
+      "sourceHash": "b75b6bbcc082",
+      "kind": "relics",
+      "name": "Firesmith of Lava-Forging",
+      "fileStem": "firesmith-of-lava-forging",
+      "path": "Prydwen/hsr/assets/relics/firesmith-of-lava-forging-b75b6bbcc082.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "deeeca721276",
+      "sourceHash": "deeeca721276",
+      "kind": "relics",
+      "name": "Musketeer of Wild Wheat",
+      "fileStem": "musketeer-of-wild-wheat",
+      "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "507bb2127c32",
+      "sourceHash": "507bb2127c32",
+      "kind": "relics",
+      "name": "Prisoner in Deep Confinement",
+      "fileStem": "prisoner-in-deep-confinement",
+      "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "2d90f2919c5d",
+      "sourceHash": "2d90f2919c5d",
+      "kind": "relics",
+      "name": "The Wind-Soaring Valorous",
+      "fileStem": "the-wind-soaring-valorous",
+      "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "83a4c570a0a2",
+      "sourceHash": "83a4c570a0a2",
+      "kind": "relics",
+      "name": "Firmament Frontline: Glamoth",
+      "fileStem": "firmament-frontline-glamoth",
+      "path": "Prydwen/hsr/assets/relics/firmament-frontline-glamoth-83a4c570a0a2.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "0ad357f87585",
+      "sourceHash": "0ad357f87585",
+      "kind": "relics",
+      "name": "Rutilant Arena",
+      "fileStem": "rutilant-arena",
+      "path": "Prydwen/hsr/assets/relics/rutilant-arena-0ad357f87585.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "3d18a5aaec4a",
+      "sourceHash": "3d18a5aaec4a",
+      "kind": "relics",
+      "name": "Space Sealing Station",
+      "fileStem": "space-sealing-station",
+      "path": "Prydwen/hsr/assets/relics/space-sealing-station-3d18a5aaec4a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "af5b8acc8f63",
+      "sourceHash": "af5b8acc8f63",
+      "kind": "icons",
+      "name": "CRIT Rate",
+      "fileStem": "stat-critrate",
+      "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "83d3d255b767",
+      "sourceHash": "83d3d255b767",
+      "kind": "icons",
+      "name": "Fire DMG",
+      "fileStem": "stat-firedmg",
+      "path": "Prydwen/hsr/assets/icons/fire-dmg-83d3d255b767.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "4f2eb19b0697",
+      "sourceHash": "4f2eb19b0697",
+      "kind": "characters",
+      "name": "Tingyun",
+      "fileStem": "tingyun-icon",
+      "path": "Prydwen/hsr/assets/characters/tingyun-4f2eb19b0697.webp",
+      "width": 45,
+      "height": 45
+    }
+  ],
+  "sections": [
+    {
+      "id": "hook-best-build-guide-0",
+      "level": 1,
+      "heading": "Hook Best Build Guide",
+      "text": "Last updated: 31/May/2026",
+      "assets": [
+        {
+          "id": "04178d3d46d9",
+          "sourceHash": "04178d3d46d9",
+          "kind": "characters",
+          "name": "Hook",
+          "fileStem": "hook-card",
+          "path": "Prydwen/hsr/assets/characters/hook-04178d3d46d9.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Hook from HSR (Honkai: Star Rail). Hook is a 4 ★ character from the Fire element who follows the Path of Destruction .\n Who am I? Heh, I'm the boss around here, you can call me... Pitch-Dark Hook the Great! Don't underestimate her, she's the boss of The Moles adventure squad! If you stand out on your adventure, maybe Pitch-Dark Hook the Great will invite you to join The Moles. You'll have to find out for yourself what kind of experience that would be~\n\n To learn more about Hook check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "This character has no video guide yet.",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 3.0\n\n Last major build/calcs update\n Patch 3.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Hook check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic ATK\n Hehe! Don't Get Burned!\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Fire DMG equal to #1[i]% of Hook's ATK to a single enemy.\n\n Skill\n Hey! Remember Hook?\n Single Target\n\n Lv. 1\n\n Energy gain: 30\n Break: 20\n\n Deals Fire DMG equal to #1[i]% of Hook's ATK to a single enemy. In addition, there is a #2[i]% base chance to inflict Burn for #3[i] turn(s).\nWhen afflicted with Burn, enemies will take Fire DoT equal to #4[i]% of Hook's ATK at the beginning of each turn.\n Skill (Enhanced)\n Hey! Remember Hook?\n Blast\n\n Lv. 1\n\n Energy gain: 30\n Break: 20 + 10 adjacent\n\n Deals Fire DMG equal to #1[i]% of Hook's ATK to a single enemy, with a #2[i]% base chance to Burn them for #3[i] turn(s). Additionally, deals Fire DMG equal to #5[i]% of Hook's ATK to enemies adjacent to it.\nWhen afflicted with Burn, enemies will take Fire DoT equal to #4[i]% of Hook's ATK at the beginning of each turn.\n\n Ultimate\n Boom! Here Comes the Fire!\n Single Target | 120 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 30\n\n Deals Fire DMG equal to #1[i]% of Hook's ATK to a single enemy.\nAfter using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it.\n\n Talent\n Ha! Oil to the Flames!\n Enhance\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n When attacking a target afflicted with Burn, deals Additional Fire DMG equal to #1[i]% of Hook's ATK and regenerates #2[i] extra Energy.\n\n Technique\n Ack! Look at This Mess!\n\n Energy gain: 0\n Break: 20\n\n Immediately attacks the enemy. Upon entering battle, Hook deals Fire DMG equal to #4[i]% of her ATK to a random enemy. In addition, there is a #1[i]% base chance to inflict Burn on every enemy for #3[i] turn(s).\nWhen afflicted with Burn, enemies will take Fire DoT equal to #2[i]% of Hook's ATK at the beginning of each turn.",
+      "assets": []
+    },
+    {
+      "id": "major-traces-10",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "A2 Major trace\n Innocence\n\n Hook restores HP equal to 5% of her Max HP whenever her Talent is triggered.\n\n A4 Major trace\n Naivete\n\n The chance to resist Crowd Control Debuffs increases by 35% .\n\n A6 Major trace\n Playing With Fire\n\n When using her Ultimate, Hook has her action Advanced Forward by 20% and Hook additionally regenerates 5 Energy.",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-11",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "ATK\n + 28%\n\n HP\n + 18%\n\n CRIT DMG\n + 13.3%",
+      "assets": [
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "44c437b21b3a",
+          "sourceHash": "44c437b21b3a",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "eidolons-12",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "E 1\n Early to Bed. Early to Rise\n Eidolon 1\n\n Enhanced Skill deals 20% increased DMG.\n\n E 2\n Happy Tummy. Happy Body\n Eidolon 2\n\n Extends the duration of Burn caused by Skill by 1 turn(s).\n\n E 3\n Don’t Be Picky. Nothing’s Icky\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15 . Basic ATK Lv. +1 . up to a maximum of Lv. 10 .\n\n E 4\n It's Okay to Not Know\n Eidolon 4\n\n When Talent is triggered, there is a 100% base chance to Burn enemies adjacent to the target enemy, equivalent to that of Skill.\n\n E 5\n Let the Moles' Deeds Be Known\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Always Ready to Punch and Kick\n Eidolon 6\n\n Hook deals 20% more DMG to enemies inflicted with Burn.",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-13",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Enable Ascension",
+      "assets": []
+    },
+    {
+      "id": "level-80-stats-14",
+      "level": 5,
+      "heading": "Level 80 stats",
+      "text": "HP\n\n 1340\n\n ATK\n\n 617\n\n DEF\n\n 352\n\n Speed\n\n 94",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "level-1-80-ascension-materials-15",
+      "level": 5,
+      "heading": "Level 1 → 80 Ascension Materials",
+      "text": "Credit\n\n x 246400\n\n Ancient Part\n\n x 12\n\n Ancient Spindle\n\n x 13\n\n Endotherm Chitin\n\n x 50\n\n Ancient Engine\n\n x 12",
+      "assets": [
+        {
+          "id": "50d0e755383a",
+          "sourceHash": "50d0e755383a",
+          "kind": "items",
+          "name": "Credit",
+          "fileStem": "credit",
+          "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "6f042f830691",
+          "sourceHash": "6f042f830691",
+          "kind": "items",
+          "name": "Ancient Part",
+          "fileStem": "ancient-part",
+          "path": "Prydwen/hsr/assets/items/ancient-part-6f042f830691.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "005235ca1b8a",
+          "sourceHash": "005235ca1b8a",
+          "kind": "items",
+          "name": "Ancient Spindle",
+          "fileStem": "ancient-spindle",
+          "path": "Prydwen/hsr/assets/items/ancient-spindle-005235ca1b8a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "20a33d37d80f",
+          "sourceHash": "20a33d37d80f",
+          "kind": "items",
+          "name": "Endotherm Chitin",
+          "fileStem": "endotherm-chitin",
+          "path": "Prydwen/hsr/assets/items/endotherm-chitin-20a33d37d80f.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "433c510bb267",
+          "sourceHash": "433c510bb267",
+          "kind": "items",
+          "name": "Ancient Engine",
+          "fileStem": "ancient-engine",
+          "path": "Prydwen/hsr/assets/items/ancient-engine-433c510bb267.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "cv-16",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n Felecia Angelle\n\n JPN\n Tokui Sora (徳井青空)\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "c27c777b6337",
+          "sourceHash": "c27c777b6337",
+          "kind": "characters",
+          "name": "Hook",
+          "fileStem": "hook-full",
+          "path": "Prydwen/hsr/assets/characters/hook-c27c777b6337.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Decent single-target damage output,\n\n Lots of free Energy from her kit,\n\n Faster than you may expect due to Action Advance from A6,\n\n High single-target Toughness damage.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Not really a Destruction unit in any way, more like a Hunt with occasional AoE,\n\n Reliant on Burn to land for maximum power,\n\n Can’t really be optimised beyond her apparent strength,\n\n More and better generalist characters exist.",
+      "assets": []
+    },
+    {
+      "id": "review-by-sushou-21",
+      "level": 2,
+      "heading": "Review (By Sushou)",
+      "text": "Hook is a mostly single-target focused damage dealer with some occasional Blast AoE thrown in. She is focused on inflicting Burn on enemies and then dealing increased damage against them, while also recovering some HP for herself and even regenerating some extra Energy. Her infrequent AoE results in her being more of an honorary Hunt unit, rather than a fully fledged Destruction character.\n We’ve got characters like Qingque that are ‘Erudition’ in point size 50 inverted commas, and then we’ve got Hook who is ‘Destruction question mark?’ and doesn’t really seem to be doing Destruction things as well as she probably should do. Even still, she’s a decent damage dealer and a relatively accessible source of Fire DMG.\n Hook’s Skill deals up to 240% ATK to a single enemy and has a 100% base chance to Burn them for 2 turns, with the Burn dealing 65% ATK at the start of each turn. This Skill has an Enhanced version after using her Ultimate that deals up to 280% ATK to a single enemy and 80% ATK to adjacent foes, with the same Burn chance and damage.\n Her Ultimate deals up to 400% ATK to a single enemy and Enhances her next Skill. That’s it, that’s all it does. Would have been nice for it to be AoE but at least it has a good damage multiplier. It also has an average Energy cost of 120 meaning it’s up more than you’d think, especially when factoring in Hook’s Talent. Hook’s Talent will deal additional Fire DMG of up to 100% ATK when Hook attacks a target afflicted with Burn, and will also regenerate 5 extra Energy.\n With this, it’s plain to see that Hook is really not that complicated of a character, perhaps even to her detriment in some regards. What I mean by this is that there’s nothing to really optimise or play around with. Our collective galaxybrains are mostly useless here since Hook’s kit really is just this simple. Her upsides and downsides are as presented, and that’s a little unfortunate since it results in her potential being really quite low by comparison to other characters.\n There can be no new support character that is beneficial to Hook’s performance without also always being better for other damage dealers. She’s a competent dps, but with her being quote unquote ‘Destruction’ and more like a Hunt character, she naturally struggles in many of the scenarios we see in the endgame these days. If there’s ever a Fire-weak Boss that needs to be pounded into the ground, then Pitch Dark Hook the Great will undoubtedly have a good time against them — provided they don’t summon reinforcements all the time.\n Hook’s Bonus Ability Traces definitely help out quite a bit with her performance but are really equally as boring as the rest of her kit. A2 restores 5% Max HP to Hook whenever her Talent is triggered, A4 increases the chance to resist Crowd Control debuffs by 35%, and A6 will Action Advance Hook by 20% when using her Ultimate, and additionally restore an extra 5 Energy.\n It’s a lot of extra Energy coming Hook’s way for just playing the game as you normally would, and it definitely contributes a fair bit to even more frequent Ultimates, thus reducing the downtime on her only source of AoE in her Enhanced Skill. Especially if you include teammates like Tingyun or Huohuo with Hook, you can end up getting extraordinarily frequent Ultimates that are dealing 500% ATK with her Talent included. It’s definitely nothing to scoff at, and Hook’s base stats are also surprisingly good.\n With Eidolons, Hook’s performance actually goes up a fair bit. E1 grants a 20% DMG bonus to her Enhanced Skill, and E2 extends the duration of her Skill’s Burn by 1 turn. This leads to greatly increased consistency especially since you’re not likely to be building for Effect Hit Rate on purpose on Hook. E4 continues the trend by having a 100% base chance to burn adjacent enemies whenever her Talent is triggered, and finally E6 caps things off with a 20% DMG bonus against Burned enemies.\n She’s definitely one of the forgotten characters of this game, and it’s a bit unfortunate because she’s really not bad at all. It’s just that there are plenty of characters that are better . If you’re lacking a Fire option but are sitting by an unlevelled Hook with potentially even E6, I may even recommend using her until you get something better. You may even be pleasantly surprised by her performance.",
+      "assets": []
+    },
+    {
+      "id": "ratings-22",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.",
+      "assets": []
+    },
+    {
+      "id": "eidolon-0-24",
+      "level": 5,
+      "heading": "Eidolon 0",
+      "text": "T5\n MoC\n\n T5\n PF\n\n T5\n AS",
+      "assets": []
+    },
+    {
+      "id": "eidolon-6-25",
+      "level": 5,
+      "heading": "Eidolon 6",
+      "text": "T5\n MoC\n\n T5\n PF\n\n T5\n AS\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "best-light-cones-27",
+      "level": 2,
+      "heading": "Best Light Cones",
+      "text": "100%\n\n On the Fall of an Aeon (S 5 )\n\n 92.36%\n\n Woof! Walk Time! (S 5 )\n\n 87.62%\n\n A Secret Vow (S 5 )",
+      "assets": [
+        {
+          "id": "83d0f295d2ff",
+          "sourceHash": "83d0f295d2ff",
+          "kind": "light-cones",
+          "name": "On the Fall of an Aeon",
+          "fileStem": "on-the-fall-of-an-aeon",
+          "path": "Prydwen/hsr/assets/light-cones/on-the-fall-of-an-aeon-83d0f295d2ff.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "be960f437f51",
+          "sourceHash": "be960f437f51",
+          "kind": "light-cones",
+          "name": "Woof! Walk Time!",
+          "fileStem": "woof-walk-time",
+          "path": "Prydwen/hsr/assets/light-cones/woof-walk-time-be960f437f51.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "9418dda8a1de",
+          "sourceHash": "9418dda8a1de",
+          "kind": "light-cones",
+          "name": "A Secret Vow",
+          "fileStem": "a-secret-vow",
+          "path": "Prydwen/hsr/assets/light-cones/a-secret-vow-9418dda8a1de.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-relic-sets-29",
+      "level": 2,
+      "heading": "Best Relic Sets",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n Pioneer Diver of Dead Waters ( 4 -PC)\n\n 100% uptime | 3 Debuffs Required\n 95.87%\n\n Scholar Lost in Erudition ( 4 -PC)\n\n 92.10%\n\n Pioneer Diver of Dead Waters ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Firesmith of Lava-Forging\n\n Scholar Lost in Erudition\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n 90.31%\n\n Firesmith of Lava-Forging ( 4 -PC)",
+      "assets": [
+        {
+          "id": "6e205de52037",
+          "sourceHash": "6e205de52037",
+          "kind": "relics",
+          "name": "Pioneer Diver of Dead Waters",
+          "fileStem": "pioneer-diver-of-dead-waters",
+          "path": "Prydwen/hsr/assets/relics/pioneer-diver-of-dead-waters-6e205de52037.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "f521b7a2ee25",
+          "sourceHash": "f521b7a2ee25",
+          "kind": "relics",
+          "name": "Scholar Lost in Erudition",
+          "fileStem": "scholar-lost-in-erudition",
+          "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "b75b6bbcc082",
+          "sourceHash": "b75b6bbcc082",
+          "kind": "relics",
+          "name": "Firesmith of Lava-Forging",
+          "fileStem": "firesmith-of-lava-forging",
+          "path": "Prydwen/hsr/assets/relics/firesmith-of-lava-forging-b75b6bbcc082.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "deeeca721276",
+          "sourceHash": "deeeca721276",
+          "kind": "relics",
+          "name": "Musketeer of Wild Wheat",
+          "fileStem": "musketeer-of-wild-wheat",
+          "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "507bb2127c32",
+          "sourceHash": "507bb2127c32",
+          "kind": "relics",
+          "name": "Prisoner in Deep Confinement",
+          "fileStem": "prisoner-in-deep-confinement",
+          "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "2d90f2919c5d",
+          "sourceHash": "2d90f2919c5d",
+          "kind": "relics",
+          "name": "The Wind-Soaring Valorous",
+          "fileStem": "the-wind-soaring-valorous",
+          "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-planetary-sets-30",
+      "level": 6,
+      "heading": "Best Planetary Sets",
+      "text": "100.20%\n\n Firmament Frontline: Glamoth ( 2 -PC)\n\n 100%\n\n Rutilant Arena ( 2 -PC)\n\n 98.21%\n\n Space Sealing Station ( 2 -PC)",
+      "assets": [
+        {
+          "id": "83a4c570a0a2",
+          "sourceHash": "83a4c570a0a2",
+          "kind": "relics",
+          "name": "Firmament Frontline: Glamoth",
+          "fileStem": "firmament-frontline-glamoth",
+          "path": "Prydwen/hsr/assets/relics/firmament-frontline-glamoth-83a4c570a0a2.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "0ad357f87585",
+          "sourceHash": "0ad357f87585",
+          "kind": "relics",
+          "name": "Rutilant Arena",
+          "fileStem": "rutilant-arena",
+          "path": "Prydwen/hsr/assets/relics/rutilant-arena-0ad357f87585.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "3d18a5aaec4a",
+          "sourceHash": "3d18a5aaec4a",
+          "kind": "relics",
+          "name": "Space Sealing Station",
+          "fileStem": "space-sealing-station",
+          "path": "Prydwen/hsr/assets/relics/space-sealing-station-3d18a5aaec4a.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-stats-32",
+      "level": 2,
+      "heading": "Best Stats",
+      "text": "Body\n CRIT Rate\n >= CRIT DMG\n\n Feet\n Speed\n >= ATK%\n\n Planar Sphere\n Fire DMG\n > ATK%\n\n Link Rope\n ATK%\n\n Substats: SPD (breakpoint) > CRIT RATE = CRIT DMG > ATK%\n\n This is your typical DPS build that focuses on the holy trifecta - ATK, Crit Rate, and Crit DMG. For every 1% of Crit try to have 2% of Crit DMG.",
+      "assets": [
+        {
+          "id": "af5b8acc8f63",
+          "sourceHash": "af5b8acc8f63",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-critrate",
+          "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "44c437b21b3a",
+          "sourceHash": "44c437b21b3a",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "83d3d255b767",
+          "sourceHash": "83d3d255b767",
+          "kind": "icons",
+          "name": "Fire DMG",
+          "fileStem": "stat-firedmg",
+          "path": "Prydwen/hsr/assets/icons/fire-dmg-83d3d255b767.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "recommended-endgame-stats-33",
+      "level": 2,
+      "heading": "Recommended endgame stats",
+      "text": "HP: 3500+\n\n DEF: 700 - 800+\n\n ATK: 2400 - 2800+\n\n CRIT RATE: 60% - 70%+\n\n CRIT DMG: 120% - 140%+\n\n SPD: Base Speed (H yperspeed Sparkle/Bronya) / 134 (Recommended) / 143",
+      "assets": []
+    },
+    {
+      "id": "traces-priority-34",
+      "level": 2,
+      "heading": "Traces priority",
+      "text": "Skills priority: Skill > Ultimate > Talent > Basic\n\n Major Traces priority: Playing With Fire (A6) > Innocence (A2) > Naivete (A4)",
+      "assets": []
+    },
+    {
+      "id": "synergy-35",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Tingyun - Hook’s main damage comes from getting quick enough Ultimates to be able to use her Enhanced Skill, with her Ultimate also advancing her next turn by 20%. Hook’s skill also turns a Single Target ability into a Blast Attack, hitting multiple enemies while also triggering her Talent for extra damage and a 5% heal with her Innocence Trace.",
+      "assets": [
+        {
+          "id": "4f2eb19b0697",
+          "sourceHash": "4f2eb19b0697",
+          "kind": "characters",
+          "name": "Tingyun",
+          "fileStem": "tingyun-icon",
+          "path": "Prydwen/hsr/assets/characters/tingyun-4f2eb19b0697.webp",
+          "width": 45,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "id": "anomaly-arbitration-40",
+      "level": 6,
+      "heading": "Anomaly Arbitration",
+      "text": "No teams featuring this character with data for Memory of Chaos yet.\n\n MoC/PF/AS Statistics",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-light-cones": {
+      "label": "Best Light Cones",
+      "sections": [
+        {
+          "heading": "Best Light Cones",
+          "text": "100%\n\n On the Fall of an Aeon (S 5 )\n\n 92.36%\n\n Woof! Walk Time! (S 5 )\n\n 87.62%\n\n A Secret Vow (S 5 )",
+          "assets": [
+            {
+              "id": "83d0f295d2ff",
+              "sourceHash": "83d0f295d2ff",
+              "kind": "light-cones",
+              "name": "On the Fall of an Aeon",
+              "fileStem": "on-the-fall-of-an-aeon",
+              "path": "Prydwen/hsr/assets/light-cones/on-the-fall-of-an-aeon-83d0f295d2ff.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "be960f437f51",
+              "sourceHash": "be960f437f51",
+              "kind": "light-cones",
+              "name": "Woof! Walk Time!",
+              "fileStem": "woof-walk-time",
+              "path": "Prydwen/hsr/assets/light-cones/woof-walk-time-be960f437f51.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "9418dda8a1de",
+              "sourceHash": "9418dda8a1de",
+              "kind": "light-cones",
+              "name": "A Secret Vow",
+              "fileStem": "a-secret-vow",
+              "path": "Prydwen/hsr/assets/light-cones/a-secret-vow-9418dda8a1de.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-relic-sets": {
+      "label": "Best Relic Sets",
+      "sections": [
+        {
+          "heading": "Best Relic Sets",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n Pioneer Diver of Dead Waters ( 4 -PC)\n\n 100% uptime | 3 Debuffs Required\n 95.87%\n\n Scholar Lost in Erudition ( 4 -PC)\n\n 92.10%\n\n Pioneer Diver of Dead Waters ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Firesmith of Lava-Forging\n\n Scholar Lost in Erudition\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n 90.31%\n\n Firesmith of Lava-Forging ( 4 -PC)",
+          "assets": [
+            {
+              "id": "6e205de52037",
+              "sourceHash": "6e205de52037",
+              "kind": "relics",
+              "name": "Pioneer Diver of Dead Waters",
+              "fileStem": "pioneer-diver-of-dead-waters",
+              "path": "Prydwen/hsr/assets/relics/pioneer-diver-of-dead-waters-6e205de52037.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "f521b7a2ee25",
+              "sourceHash": "f521b7a2ee25",
+              "kind": "relics",
+              "name": "Scholar Lost in Erudition",
+              "fileStem": "scholar-lost-in-erudition",
+              "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "b75b6bbcc082",
+              "sourceHash": "b75b6bbcc082",
+              "kind": "relics",
+              "name": "Firesmith of Lava-Forging",
+              "fileStem": "firesmith-of-lava-forging",
+              "path": "Prydwen/hsr/assets/relics/firesmith-of-lava-forging-b75b6bbcc082.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "deeeca721276",
+              "sourceHash": "deeeca721276",
+              "kind": "relics",
+              "name": "Musketeer of Wild Wheat",
+              "fileStem": "musketeer-of-wild-wheat",
+              "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "507bb2127c32",
+              "sourceHash": "507bb2127c32",
+              "kind": "relics",
+              "name": "Prisoner in Deep Confinement",
+              "fileStem": "prisoner-in-deep-confinement",
+              "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "2d90f2919c5d",
+              "sourceHash": "2d90f2919c5d",
+              "kind": "relics",
+              "name": "The Wind-Soaring Valorous",
+              "fileStem": "the-wind-soaring-valorous",
+              "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-planetary-sets": {
+      "label": "Best Planetary Sets",
+      "sections": [
+        {
+          "heading": "Best Planetary Sets",
+          "text": "100.20%\n\n Firmament Frontline: Glamoth ( 2 -PC)\n\n 100%\n\n Rutilant Arena ( 2 -PC)\n\n 98.21%\n\n Space Sealing Station ( 2 -PC)",
+          "assets": [
+            {
+              "id": "83a4c570a0a2",
+              "sourceHash": "83a4c570a0a2",
+              "kind": "relics",
+              "name": "Firmament Frontline: Glamoth",
+              "fileStem": "firmament-frontline-glamoth",
+              "path": "Prydwen/hsr/assets/relics/firmament-frontline-glamoth-83a4c570a0a2.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "0ad357f87585",
+              "sourceHash": "0ad357f87585",
+              "kind": "relics",
+              "name": "Rutilant Arena",
+              "fileStem": "rutilant-arena",
+              "path": "Prydwen/hsr/assets/relics/rutilant-arena-0ad357f87585.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "3d18a5aaec4a",
+              "sourceHash": "3d18a5aaec4a",
+              "kind": "relics",
+              "name": "Space Sealing Station",
+              "fileStem": "space-sealing-station",
+              "path": "Prydwen/hsr/assets/relics/space-sealing-station-3d18a5aaec4a.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-stats": {
+      "label": "Best Stats",
+      "sections": [
+        {
+          "heading": "Best Stats",
+          "text": "Body\n CRIT Rate\n >= CRIT DMG\n\n Feet\n Speed\n >= ATK%\n\n Planar Sphere\n Fire DMG\n > ATK%\n\n Link Rope\n ATK%\n\n Substats: SPD (breakpoint) > CRIT RATE = CRIT DMG > ATK%\n\n This is your typical DPS build that focuses on the holy trifecta - ATK, Crit Rate, and Crit DMG. For every 1% of Crit try to have 2% of Crit DMG.",
+          "assets": [
+            {
+              "id": "af5b8acc8f63",
+              "sourceHash": "af5b8acc8f63",
+              "kind": "icons",
+              "name": "CRIT Rate",
+              "fileStem": "stat-critrate",
+              "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "44c437b21b3a",
+              "sourceHash": "44c437b21b3a",
+              "kind": "icons",
+              "name": "CRIT DMG",
+              "fileStem": "stat-critdmg",
+              "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "087f2dec68b6",
+              "sourceHash": "087f2dec68b6",
+              "kind": "icons",
+              "name": "Speed",
+              "fileStem": "stat-speed",
+              "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "dc6aec4a7776",
+              "sourceHash": "dc6aec4a7776",
+              "kind": "icons",
+              "name": "ATK",
+              "fileStem": "stat-atk",
+              "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "83d3d255b767",
+              "sourceHash": "83d3d255b767",
+              "kind": "icons",
+              "name": "Fire DMG",
+              "fileStem": "stat-firedmg",
+              "path": "Prydwen/hsr/assets/icons/fire-dmg-83d3d255b767.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        }
+      ]
+    },
+    "recommended-endgame-stats": {
+      "label": "Recommended endgame stats",
+      "sections": [
+        {
+          "heading": "Recommended endgame stats",
+          "text": "HP: 3500+\n\n DEF: 700 - 800+\n\n ATK: 2400 - 2800+\n\n CRIT RATE: 60% - 70%+\n\n CRIT DMG: 120% - 140%+\n\n SPD: Base Speed (H yperspeed Sparkle/Bronya) / 134 (Recommended) / 143",
+          "assets": []
+        }
+      ]
+    },
+    "traces-priority": {
+      "label": "Traces priority",
+      "sections": [
+        {
+          "heading": "Traces priority",
+          "text": "Skills priority: Skill > Ultimate > Talent > Basic\n\n Major Traces priority: Playing With Fire (A6) > Innocence (A2) > Naivete (A4)",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Tingyun - Hook’s main damage comes from getting quick enough Ultimates to be able to use her Enhanced Skill, with her Ultimate also advancing her next turn by 20%. Hook’s skill also turns a Single Target ability into a Blast Attack, hitting multiple enemies while also triggering her Talent for extra damage and a 5% heal with her Innocence Trace.",
+          "assets": [
+            {
+              "id": "4f2eb19b0697",
+              "sourceHash": "4f2eb19b0697",
+              "kind": "characters",
+              "name": "Tingyun",
+              "fileStem": "tingyun-icon",
+              "path": "Prydwen/hsr/assets/characters/tingyun-4f2eb19b0697.webp",
+              "width": 45,
+              "height": 45
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Hook Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Hook\n Hook Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Hook from HSR (Honkai: Star Rail). Hook is a 4 ★ character from the Fire element who follows the Path of Destruction .\n Who am I? Heh, I'm the boss around here, you can call me... Pitch-Dark Hook the Great! Don't underestimate her, she's the boss of The Moles adventure squad! If you stand out on your adventure, maybe Pitch-Dark Hook the Great will invite you to join The Moles. You'll have to find out for yourself what kind of experience that would be~\n\n To learn more about Hook check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n This character has no video guide yet.\n\n Update tracker\n Last review update\n Patch 3.0\n\n Last major build/calcs update\n Patch 3.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Hook check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Hehe! Don't Get Burned!\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Fire DMG equal to #1[i]% of Hook's ATK to a single enemy.\n\n Skill\n Hey! Remember Hook?\n Single Target\n\n Lv. 1\n\n Energy gain: 30\n Break: 20\n\n Deals Fire DMG equal to #1[i]% of Hook's ATK to a single enemy. In addition, there is a #2[i]% base chance to inflict Burn for #3[i] turn(s).\nWhen afflicted with Burn, enemies will take Fire DoT equal to #4[i]% of Hook's ATK at the beginning of each turn.\n Skill (Enhanced)\n Hey! Remember Hook?\n Blast\n\n Lv. 1\n\n Energy gain: 30\n Break: 20 + 10 adjacent\n\n Deals Fire DMG equal to #1[i]% of Hook's ATK to a single enemy, with a #2[i]% base chance to Burn them for #3[i] turn(s). Additionally, deals Fire DMG equal to #5[i]% of Hook's ATK to enemies adjacent to it.\nWhen afflicted with Burn, enemies will take Fire DoT equal to #4[i]% of Hook's ATK at the beginning of each turn.\n\n Ultimate\n Boom! Here Comes the Fire!\n Single Target | 120 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 30\n\n Deals Fire DMG equal to #1[i]% of Hook's ATK to a single enemy.\nAfter using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it.\n\n Talent\n Ha! Oil to the Flames!\n Enhance\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n When attacking a target afflicted with Burn, deals Additional Fire DMG equal to #1[i]% of Hook's ATK and regenerates #2[i] extra Energy.\n\n Technique\n Ack! Look at This Mess!\n\n Energy gain: 0\n Break: 20\n\n Immediately attacks the enemy. Upon entering battle, Hook deals Fire DMG equal to #4[i]% of her ATK to a random enemy. In addition, there is a #1[i]% base chance to inflict Burn on every enemy for #3[i] turn(s).\nWhen afflicted with Burn, enemies will take Fire DoT equal to #2[i]% of Hook's ATK at the beginning of each turn.\n\n Major Traces\n A2 Major trace\n Innocence\n\n Hook restores HP equal to 5% of her Max HP whenever her Talent is triggered.\n\n A4 Major trace\n Naivete\n\n The chance to resist Crowd Control Debuffs increases by 35% .\n\n A6 Major trace\n Playing With Fire\n\n When using her Ultimate, Hook has her action Advanced Forward by 20% and Hook additionally regenerates 5 Energy.\n\n Minor Traces (total)\n ATK\n + 28%\n\n HP\n + 18%\n\n CRIT DMG\n + 13.3%\n\n Eidolons\n E 1\n Early to Bed. Early to Rise\n Eidolon 1\n\n Enhanced Skill deals 20% increased DMG.\n\n E 2\n Happy Tummy. Happy Body\n Eidolon 2\n\n Extends the duration of Burn caused by Skill by 1 turn(s).\n\n E 3\n Don’t Be Picky. Nothing’s Icky\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15 . Basic ATK Lv. +1 . up to a maximum of Lv. 10 .\n\n E 4\n It's Okay to Not Know\n Eidolon 4\n\n When Talent is triggered, there is a 100% base chance to Burn enemies adjacent to the target enemy, equivalent to that of Skill.\n\n E 5\n Let the Moles' Deeds Be Known\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Always Ready to Punch and Kick\n Eidolon 6\n\n Hook deals 20% more DMG to enemies inflicted with Burn.\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1340\n\n ATK\n\n 617\n\n DEF\n\n 352\n\n Speed\n\n 94\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 246400\n\n Ancient Part\n\n x 12\n\n Ancient Spindle\n\n x 13\n\n Endotherm Chitin\n\n x 50\n\n Ancient Engine\n\n x 12\n\n CV\n ENG\n Felecia Angelle\n\n JPN\n Tokui Sora (徳井青空)\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Decent single-target damage output,\n\n Lots of free Energy from her kit,\n\n Faster than you may expect due to Action Advance from A6,\n\n High single-target Toughness damage.\n\n Cons\n Not really a Destruction unit in any way, more like a Hunt with occasional AoE,\n\n Reliant on Burn to land for maximum power,\n\n Can’t really be optimised beyond her apparent strength,\n\n More and better generalist characters exist.\n\n Review (By Sushou)\n Hook is a mostly single-target focused damage dealer with some occasional Blast AoE thrown in. She is focused on inflicting Burn on enemies and then dealing increased damage against them, while also recovering some HP for herself and even regenerating some extra Energy. Her infrequent AoE results in her being more of an honorary Hunt unit, rather than a fully fledged Destruction character.\n We’ve got characters like Qingque that are ‘Erudition’ in point size 50 inverted commas, and then we’ve got Hook who is ‘Destruction question mark?’ and doesn’t really seem to be doing Destruction things as well as she probably should do. Even still, she’s a decent damage dealer and a relatively accessible source of Fire DMG.\n Hook’s Skill deals up to 240% ATK to a single enemy and has a 100% base chance to Burn them for 2 turns, with the Burn dealing 65% ATK at the start of each turn. This Skill has an Enhanced version after using her Ultimate that deals up to 280% ATK to a single enemy and 80% ATK to adjacent foes, with the same Burn chance and damage.\n Her Ultimate deals up to 400% ATK to a single enemy and Enhances her next Skill. That’s it, that’s all it does. Would have been nice for it to be AoE but at least it has a good damage multiplier. It also has an average Energy cost of 120 meaning it’s up more than you’d think, especially when factoring in Hook’s Talent. Hook’s Talent will deal additional Fire DMG of up to 100% ATK when Hook attacks a target afflicted with Burn, and will also regenerate 5 extra Energy.\n With this, it’s plain to see that Hook is really not that complicated of a character, perhaps even to her detriment in some regards. What I mean by this is that there’s nothing to really optimise or play around with. Our collective galaxybrains are mostly useless here since Hook’s kit really is just this simple. Her upsides and downsides are as presented, and that’s a little unfortunate since it results in her potential being really quite low by comparison to other characters.\n There can be no new support character that is beneficial to Hook’s performance without also always being better for other damage dealers. She’s a competent dps, but with her being quote unquote ‘Destruction’ and more like a Hunt character, she naturally struggles in many of the scenarios we see in the endgame these days. If there’s ever a Fire-weak Boss that needs to be pounded into the ground, then Pitch Dark Hook the Great will undoubtedly have a good time against them — provided they don’t summon reinforcements all the time.\n Hook’s Bonus Ability Traces definitely help out quite a bit with her performance but are really equally as boring as the rest of her kit. A2 restores 5% Max HP to Hook whenever her Talent is triggered, A4 increases the chance to resist Crowd Control debuffs by 35%, and A6 will Action Advance Hook by 20% when using her Ultimate, and additionally restore an extra 5 Energy.\n It’s a lot of extra Energy coming Hook’s way for just playing the game as you normally would, and it definitely contributes a fair bit to even more frequent Ultimates, thus reducing the downtime on her only source of AoE in her Enhanced Skill. Especially if you include teammates like Tingyun or Huohuo with Hook, you can end up getting extraordinarily frequent Ultimates that are dealing 500% ATK with her Talent included. It’s definitely nothing to scoff at, and Hook’s base stats are also surprisingly good.\n With Eidolons, Hook’s performance actually goes up a fair bit. E1 grants a 20% DMG bonus to her Enhanced Skill, and E2 extends the duration of her Skill’s Burn by 1 turn. This leads to greatly increased consistency especially since you’re not likely to be building for Effect Hit Rate on purpose on Hook. E4 continues the trend by having a 100% base chance to burn adjacent enemies whenever her Talent is triggered, and finally E6 caps things off with a 20% DMG bonus against Burned enemies.\n She’s definitely one of the forgotten characters of this game, and it’s a bit unfortunate because she’s really not bad at all. It’s just that there are plenty of characters that are better . If you’re lacking a Fire option but are sitting by an unlevelled Hook with potentially even E6, I may even recommend using her until you get something better. You may even be pleasantly surprised by her performance.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Damage dealer\n Eidolon 0\n T5\n MoC\n\n T5\n PF\n\n T5\n AS\n\n Eidolon 6\n T5\n MoC\n\n T5\n PF\n\n T5\n AS\n\n Build and teams\n\n Best Light Cones\n\n 100%\n\n On the Fall of an Aeon (S 5 )\n\n 92.36%\n\n Woof! Walk Time! (S 5 )\n\n 87.62%\n\n A Secret Vow (S 5 )\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n Pioneer Diver of Dead Waters ( 4 -PC)\n\n 100% uptime | 3 Debuffs Required\n 95.87%\n\n Scholar Lost in Erudition ( 4 -PC)\n\n 92.10%\n\n Pioneer Diver of Dead Waters ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Firesmith of Lava-Forging\n\n Scholar Lost in Erudition\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n 90.31%\n\n Firesmith of Lava-Forging ( 4 -PC)\n\n Best Planetary Sets\n 100.20%\n\n Firmament Frontline: Glamoth ( 2 -PC)\n\n 100%\n\n Rutilant Arena ( 2 -PC)\n\n 98.21%\n\n Space Sealing Station ( 2 -PC)\n\n Best Stats\n\n Body\n CRIT Rate\n >= CRIT DMG\n\n Feet\n Speed\n >= ATK%\n\n Planar Sphere\n Fire DMG\n > ATK%\n\n Link Rope\n ATK%\n\n Substats: SPD (breakpoint) > CRIT RATE = CRIT DMG > ATK%\n\n This is your typical DPS build that focuses on the holy trifecta - ATK, Crit Rate, and Crit DMG. For every 1% of Crit try to have 2% of Crit DMG.\n\n Recommended endgame stats\n HP: 3500+\n\n DEF: 700 - 800+\n\n ATK: 2400 - 2800+\n\n CRIT RATE: 60% - 70%+\n\n CRIT DMG: 120% - 140%+\n\n SPD: Base Speed (H yperspeed Sparkle/Bronya) / 134 (Recommended) / 143\n\n Traces priority\n Skills priority: Skill > Ultimate > Talent > Basic\n\n Major Traces priority: Playing With Fire (A6) > Innocence (A2) > Naivete (A4)\n\n Synergy\n Tingyun - Hook’s main damage comes from getting quick enough Ultimates to be able to use her Enhanced Skill, with her Ultimate also advancing her next turn by 20%. Hook’s skill also turns a Single Target ability into a Blast Attack, hitting multiple enemies while also triggering her Talent for extra damage and a 5% heal with her Innocence Trace.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n No teams featuring this character with data for Memory of Chaos yet.\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

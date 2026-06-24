@@ -1,0 +1,2006 @@
+{
+  "id": "characters:gallagher",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "gallagher",
+  "name": "Gallagher",
+  "title": "Gallagher Best Build Guide",
+  "sourcePath": "/star-rail/characters/gallagher",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "31/May/2026",
+  "meta": {
+    "title": "Gallagher Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 4,
+    "element": "Fire",
+    "path": "Abundance"
+  },
+  "assets": [
+    {
+      "id": "53eb230701d1",
+      "sourceHash": "53eb230701d1",
+      "kind": "characters",
+      "name": "Gallagher",
+      "fileStem": "gallagher-card",
+      "path": "Prydwen/hsr/assets/characters/gallagher-53eb230701d1.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "9db79c7ddbf7",
+      "sourceHash": "9db79c7ddbf7",
+      "kind": "icons",
+      "name": "Effect RES",
+      "fileStem": "stat-effectres",
+      "path": "Prydwen/hsr/assets/icons/effect-res-9db79c7ddbf7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "6890417bdf8b",
+      "sourceHash": "6890417bdf8b",
+      "kind": "icons",
+      "name": "Break Effect",
+      "fileStem": "stat-break",
+      "path": "Prydwen/hsr/assets/icons/break-effect-6890417bdf8b.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "96654253a4f7",
+      "sourceHash": "96654253a4f7",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "dc6aec4a7776",
+      "sourceHash": "dc6aec4a7776",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "a6be649090ba",
+      "sourceHash": "a6be649090ba",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "087f2dec68b6",
+      "sourceHash": "087f2dec68b6",
+      "kind": "icons",
+      "name": "Speed",
+      "fileStem": "stat-speed",
+      "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "50d0e755383a",
+      "sourceHash": "50d0e755383a",
+      "kind": "items",
+      "name": "Credit",
+      "fileStem": "credit",
+      "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "0f7390c5d41c",
+      "sourceHash": "0f7390c5d41c",
+      "kind": "items",
+      "name": "Dream Collection Component",
+      "fileStem": "dream-collection-component",
+      "path": "Prydwen/hsr/assets/items/dream-collection-component-0f7390c5d41c.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "3a0c98a62874",
+      "sourceHash": "3a0c98a62874",
+      "kind": "items",
+      "name": "Dream Flow Valve",
+      "fileStem": "dream-flow-valve",
+      "path": "Prydwen/hsr/assets/items/dream-flow-valve-3a0c98a62874.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "e7254e3bb516",
+      "sourceHash": "e7254e3bb516",
+      "kind": "items",
+      "name": "Raging Heart",
+      "fileStem": "raging-heart",
+      "path": "Prydwen/hsr/assets/items/raging-heart-e7254e3bb516.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "6309ff93a99f",
+      "sourceHash": "6309ff93a99f",
+      "kind": "items",
+      "name": "Dream Making Engine",
+      "fileStem": "dream-making-engine",
+      "path": "Prydwen/hsr/assets/items/dream-making-engine-6309ff93a99f.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "3b2d2ab7dcb6",
+      "sourceHash": "3b2d2ab7dcb6",
+      "kind": "characters",
+      "name": "Gallagher",
+      "fileStem": "gallagher-full",
+      "path": "Prydwen/hsr/assets/characters/gallagher-3b2d2ab7dcb6.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "dc189643e767",
+      "sourceHash": "dc189643e767",
+      "kind": "light-cones",
+      "name": "Scent Alone Stays True",
+      "fileStem": "scent-alone-stays-true",
+      "path": "Prydwen/hsr/assets/light-cones/scent-alone-stays-true-dc189643e767.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "21f2b82cdad1",
+      "sourceHash": "21f2b82cdad1",
+      "kind": "light-cones",
+      "name": "Quid Pro Quo",
+      "fileStem": "quid-pro-quo",
+      "path": "Prydwen/hsr/assets/light-cones/quid-pro-quo-21f2b82cdad1.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "86bde0d4e434",
+      "sourceHash": "86bde0d4e434",
+      "kind": "light-cones",
+      "name": "Post-Op Conversation",
+      "fileStem": "post-op-conversation",
+      "path": "Prydwen/hsr/assets/light-cones/post-op-conversation-86bde0d4e434.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "eb11d2d576b1",
+      "sourceHash": "eb11d2d576b1",
+      "kind": "light-cones",
+      "name": "What Is Real?",
+      "fileStem": "what-is-real",
+      "path": "Prydwen/hsr/assets/light-cones/what-is-real-eb11d2d576b1.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "071412ff0c9e",
+      "sourceHash": "071412ff0c9e",
+      "kind": "light-cones",
+      "name": "Unto Tomorrow's Morrow",
+      "fileStem": "unto-tomorrows-morrow",
+      "path": "Prydwen/hsr/assets/light-cones/unto-tomorrows-morrow-071412ff0c9e.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "9fccc1e67375",
+      "sourceHash": "9fccc1e67375",
+      "kind": "light-cones",
+      "name": "Shared Feeling",
+      "fileStem": "shared-feeling",
+      "path": "Prydwen/hsr/assets/light-cones/shared-feeling-9fccc1e67375.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "7ed3484c9e2f",
+      "sourceHash": "7ed3484c9e2f",
+      "kind": "light-cones",
+      "name": "Warmth Shortens Cold Nights",
+      "fileStem": "warmth-shortens-cold-nights",
+      "path": "Prydwen/hsr/assets/light-cones/warmth-shortens-cold-nights-7ed3484c9e2f.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "005f8b638303",
+      "sourceHash": "005f8b638303",
+      "kind": "light-cones",
+      "name": "Multiplication",
+      "fileStem": "multiplication",
+      "path": "Prydwen/hsr/assets/light-cones/multiplication-005f8b638303.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "2f8ec1684b6b",
+      "sourceHash": "2f8ec1684b6b",
+      "kind": "relics",
+      "name": "Warrior Goddess of Sun and Thunder",
+      "fileStem": "warrior-goddess-of-sun-and-thunder",
+      "path": "Prydwen/hsr/assets/relics/warrior-goddess-of-sun-and-thunder-2f8ec1684b6b.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "4cb8065ad660",
+      "sourceHash": "4cb8065ad660",
+      "kind": "relics",
+      "name": "Messenger Traversing Hackerspace",
+      "fileStem": "messenger-traversing-hackerspace",
+      "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5cb190fcc346",
+      "sourceHash": "5cb190fcc346",
+      "kind": "relics",
+      "name": "Sacerdos' Relived Ordeal",
+      "fileStem": "sacerdos-relived-ordeal",
+      "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "706574c241bc",
+      "sourceHash": "706574c241bc",
+      "kind": "relics",
+      "name": "Watchmaker, Master of Dream Machinations",
+      "fileStem": "watchmaker-master-of-dream-machinations",
+      "path": "Prydwen/hsr/assets/relics/watchmaker-master-of-dream-machinations-706574c241bc.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "2fc8ce1ab137",
+      "sourceHash": "2fc8ce1ab137",
+      "kind": "relics",
+      "name": "Iron Cavalry Against the Scourge",
+      "fileStem": "iron-cavalry-against-the-scourge",
+      "path": "Prydwen/hsr/assets/relics/iron-cavalry-against-the-scourge-2fc8ce1ab137.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "bd16ed7ff036",
+      "sourceHash": "bd16ed7ff036",
+      "kind": "relics",
+      "name": "Thief of Shooting Meteor",
+      "fileStem": "thief-of-shooting-meteor",
+      "path": "Prydwen/hsr/assets/relics/thief-of-shooting-meteor-bd16ed7ff036.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "4ed6c0c0e2b5",
+      "sourceHash": "4ed6c0c0e2b5",
+      "kind": "relics",
+      "name": "Passerby of Wandering Cloud",
+      "fileStem": "passerby-of-wandering-cloud",
+      "path": "Prydwen/hsr/assets/relics/passerby-of-wandering-cloud-4ed6c0c0e2b5.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "19b06ffee878",
+      "sourceHash": "19b06ffee878",
+      "kind": "relics",
+      "name": "Diviner of Distant Reach",
+      "fileStem": "diviner-of-distant-reach",
+      "path": "Prydwen/hsr/assets/relics/diviner-of-distant-reach-19b06ffee878.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "f08c8ab4a73a",
+      "sourceHash": "f08c8ab4a73a",
+      "kind": "relics",
+      "name": "Forge of the Kalpagni Lantern",
+      "fileStem": "forge-of-the-kalpagni-lantern",
+      "path": "Prydwen/hsr/assets/relics/forge-of-the-kalpagni-lantern-f08c8ab4a73a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "a8ea2dfcb1ee",
+      "sourceHash": "a8ea2dfcb1ee",
+      "kind": "relics",
+      "name": "Talia: Kingdom of Banditry",
+      "fileStem": "talia-kingdom-of-banditry",
+      "path": "Prydwen/hsr/assets/relics/talia-kingdom-of-banditry-a8ea2dfcb1ee.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5b886a96e17a",
+      "sourceHash": "5b886a96e17a",
+      "kind": "relics",
+      "name": "Fleet of the Ageless",
+      "fileStem": "fleet-of-the-ageless",
+      "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "3306e6f6288f",
+      "sourceHash": "3306e6f6288f",
+      "kind": "relics",
+      "name": "Broken Keel",
+      "fileStem": "broken-keel",
+      "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d6cdb5f16b16",
+      "sourceHash": "d6cdb5f16b16",
+      "kind": "relics",
+      "name": "Penacony, Land of the Dreams",
+      "fileStem": "penacony-land-of-the-dreams",
+      "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d6aae5028c5a",
+      "sourceHash": "d6aae5028c5a",
+      "kind": "relics",
+      "name": "Lushaka, the Sunken Seas",
+      "fileStem": "lushaka-the-sunken-seas",
+      "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "c13bc696f36c",
+      "sourceHash": "c13bc696f36c",
+      "kind": "relics",
+      "name": "Giant Tree of Rapt Brooding",
+      "fileStem": "giant-tree-of-rapt-brooding",
+      "path": "Prydwen/hsr/assets/relics/giant-tree-of-rapt-brooding-c13bc696f36c.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "96d628c840c8",
+      "sourceHash": "96d628c840c8",
+      "kind": "icons",
+      "name": "Outgoing Healing",
+      "fileStem": "stat-healing",
+      "path": "Prydwen/hsr/assets/icons/outgoing-healing-96d628c840c8.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "106ddd8eff32",
+      "sourceHash": "106ddd8eff32",
+      "kind": "icons",
+      "name": "Energy Regen",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "fd3d60695240",
+      "sourceHash": "fd3d60695240",
+      "kind": "characters",
+      "name": "Castorice",
+      "fileStem": "castorice-icon",
+      "path": "Prydwen/hsr/assets/characters/castorice-fd3d60695240.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "941e5d329286",
+      "sourceHash": "941e5d329286",
+      "kind": "characters",
+      "name": "Mydei",
+      "fileStem": "mydei-icon",
+      "path": "Prydwen/hsr/assets/characters/mydei-941e5d329286.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "de41e1704266",
+      "sourceHash": "de41e1704266",
+      "kind": "characters",
+      "name": "Trailblazer • Harmony",
+      "fileStem": "trailblazer-harmony-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-harmony-de41e1704266.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "b77207bce6c8",
+      "sourceHash": "b77207bce6c8",
+      "kind": "characters",
+      "name": "Ruan Mei",
+      "fileStem": "ruan-mei-icon",
+      "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "fbcfe4133d08",
+      "sourceHash": "fbcfe4133d08",
+      "kind": "characters",
+      "name": "Acheron",
+      "fileStem": "acheron-icon",
+      "path": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "4c12f1ecf12f",
+      "sourceHash": "4c12f1ecf12f",
+      "kind": "characters",
+      "name": "Firefly",
+      "fileStem": "firefly-icon",
+      "path": "Prydwen/hsr/assets/characters/firefly-4c12f1ecf12f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "92feb26d8f0e",
+      "sourceHash": "92feb26d8f0e",
+      "kind": "icons",
+      "name": "Fire",
+      "fileStem": "ele-fire",
+      "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "444d6f5749b7",
+      "sourceHash": "444d6f5749b7",
+      "kind": "characters",
+      "name": "Tingyun • Fugue",
+      "fileStem": "tingyun-fugue-icon",
+      "path": "Prydwen/hsr/assets/characters/tingyun-fugue-444d6f5749b7.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "cec6f11ca61e",
+      "sourceHash": "cec6f11ca61e",
+      "kind": "characters",
+      "name": "The Dahlia",
+      "fileStem": "the-dahlia-icon",
+      "path": "Prydwen/hsr/assets/characters/the-dahlia-cec6f11ca61e.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "30d074a1060a",
+      "sourceHash": "30d074a1060a",
+      "kind": "characters",
+      "name": "Gallagher",
+      "fileStem": "gallagher-icon",
+      "path": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "913ff64407f2",
+      "sourceHash": "913ff64407f2",
+      "kind": "icons",
+      "name": "Imaginary",
+      "fileStem": "ele-imaginary",
+      "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "7d36eb39792a",
+      "sourceHash": "7d36eb39792a",
+      "kind": "icons",
+      "name": "Ice",
+      "fileStem": "ele-ice",
+      "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "bc2d64a2cd5f",
+      "sourceHash": "bc2d64a2cd5f",
+      "kind": "characters",
+      "name": "Hysilens",
+      "fileStem": "hysilens-icon",
+      "path": "Prydwen/hsr/assets/characters/hysilens-bc2d64a2cd5f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e0db16ed6c66",
+      "sourceHash": "e0db16ed6c66",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "ele-physical",
+      "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "e01f880a2668",
+      "sourceHash": "e01f880a2668",
+      "kind": "characters",
+      "name": "Black Swan",
+      "fileStem": "black-swan-icon",
+      "path": "Prydwen/hsr/assets/characters/black-swan-e01f880a2668.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ee11bd390c9a",
+      "sourceHash": "ee11bd390c9a",
+      "kind": "icons",
+      "name": "Wind",
+      "fileStem": "ele-wind",
+      "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "a137ba3e51ff",
+      "sourceHash": "a137ba3e51ff",
+      "kind": "characters",
+      "name": "Kafka",
+      "fileStem": "kafka-icon",
+      "path": "Prydwen/hsr/assets/characters/kafka-a137ba3e51ff.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d197456869a0",
+      "sourceHash": "d197456869a0",
+      "kind": "icons",
+      "name": "Lightning",
+      "fileStem": "ele-lightning",
+      "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "f380b4ccce3e",
+      "sourceHash": "f380b4ccce3e",
+      "kind": "characters",
+      "name": "Ashveil",
+      "fileStem": "ashveil-icon",
+      "path": "Prydwen/hsr/assets/characters/ashveil-f380b4ccce3e.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "99361e4717fa",
+      "sourceHash": "99361e4717fa",
+      "kind": "characters",
+      "name": "Mortenax Blade",
+      "fileStem": "blade-mortenax-icon",
+      "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "2cde7699adbf",
+      "sourceHash": "2cde7699adbf",
+      "kind": "characters",
+      "name": "Tribbie",
+      "fileStem": "tribbie-icon",
+      "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "565914d1a436",
+      "sourceHash": "565914d1a436",
+      "kind": "icons",
+      "name": "Quantum",
+      "fileStem": "ele-quantum",
+      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "f8ad01025a66",
+      "sourceHash": "f8ad01025a66",
+      "kind": "characters",
+      "name": "Rappa",
+      "fileStem": "rappa-icon",
+      "path": "Prydwen/hsr/assets/characters/rappa-f8ad01025a66.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "f54da6170f38",
+      "sourceHash": "f54da6170f38",
+      "kind": "characters",
+      "name": "Silver Wolf • Lv. 999",
+      "fileStem": "silver-wolf-lv-999-icon",
+      "path": "Prydwen/hsr/assets/characters/silver-wolf-lv-999-f54da6170f38.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "7fc1b269fb6f",
+      "sourceHash": "7fc1b269fb6f",
+      "kind": "characters",
+      "name": "Sparxie",
+      "fileStem": "sparxie-icon",
+      "path": "Prydwen/hsr/assets/characters/sparxie-7fc1b269fb6f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "965df81b835a",
+      "sourceHash": "965df81b835a",
+      "kind": "characters",
+      "name": "Yao Guang",
+      "fileStem": "yao-guang-icon",
+      "path": "Prydwen/hsr/assets/characters/yao-guang-965df81b835a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "fd57eb6e6eb9",
+      "sourceHash": "fd57eb6e6eb9",
+      "kind": "characters",
+      "name": "Boothill",
+      "fileStem": "boothill-icon",
+      "path": "Prydwen/hsr/assets/characters/boothill-fd57eb6e6eb9.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "c721ded1f2e0",
+      "sourceHash": "c721ded1f2e0",
+      "kind": "characters",
+      "name": "Trailblazer • Elation",
+      "fileStem": "trailblazer-elation-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-elation-c721ded1f2e0.webp",
+      "width": 60,
+      "height": 60
+    }
+  ],
+  "sections": [
+    {
+      "id": "gallagher-best-build-guide-0",
+      "level": 1,
+      "heading": "Gallagher Best Build Guide",
+      "text": "Last updated: 31/May/2026",
+      "assets": [
+        {
+          "id": "53eb230701d1",
+          "sourceHash": "53eb230701d1",
+          "kind": "characters",
+          "name": "Gallagher",
+          "fileStem": "gallagher-card",
+          "path": "Prydwen/hsr/assets/characters/gallagher-53eb230701d1.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Gallagher from HSR (Honkai: Star Rail). Gallagher is a 4 ★ character from the Fire element who follows the Path of Abundance .\n A security officer of the Bloodhound Family at Penacony. He is also a slovenly and indolent mixologist. Though unorganized in apparel and casual in how he makes his drinks, he is always courteous toward guests but keeps his vigilance about him. He seems to be a character with a complicated past, yet never actively mentions any details.\n\n To learn more about Gallagher check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Gallagher has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 3.2\n\n Last major build/calcs update\n Patch 3.4\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Gallagher check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic ATK\n Corkage Fee\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Fire DMG equal to #1[i]% of Gallagher's ATK to a single target enemy.\n Basic ATK (Enhanced)\n Nectar Blitz\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 30\n\n Deals Fire DMG equal to #1[i]% of Gallagher's ATK to a single target enemy. And reduces the target's ATK by #2[i]%, lasting for 2 turns.\n\n Skill\n Special Brew\n Restore\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Immediately heals a target ally for #1[i] HP.\n\n Ultimate\n Champagne Etiquette\n AoE | 110 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Inflicts Besotted on all enemies, lasting for 2 turns. At the same time, deals Fire DMG equal to #1[i]% of Gallagher's ATK to all enemies, and enhances this unit's next Basic ATK to Nectar Blitz.\n\n Talent\n Tipsy Tussle\n Enhance\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n The Besotted state increases the Break DMG that targets receive by #1[i]%. Every time a Besotted target is attacked by an ally, the attacker's HP gets restored by #2[i].\n\n Technique\n Artisan Elixir\n\n Energy gain: 0\n Break: 20\n\n Immediately attacks the enemy. Upon entering battle, inflicts Besotted on all enemies, lasting for 2 turns. And deals Fire DMG equal to #1[i]% of Gallagher's ATK to all enemies.",
+      "assets": []
+    },
+    {
+      "id": "major-traces-10",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "A2 Major trace\n Novel Concoction\n\n Increases this unit's Outgoing Healing by an amount equal to 50% of Break Effect, up to a maximum Outgoing Healing increase of 75% .\n\n A4 Major trace\n Organic Yeast\n\n After using the Ultimate, immediately Advances Forward this unit's Action by 100% .\n\n A6 Major trace\n Bottoms Up\n\n When Gallagher uses Nectar Blitz to attack Besotted enemies, the HP Restore effect of his Talent will also apply to other allies for this time.",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-11",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "Effect RES\n + 28%\n\n Break Effect\n + 13.3%\n\n HP\n + 18%",
+      "assets": [
+        {
+          "id": "9db79c7ddbf7",
+          "sourceHash": "9db79c7ddbf7",
+          "kind": "icons",
+          "name": "Effect RES",
+          "fileStem": "stat-effectres",
+          "path": "Prydwen/hsr/assets/icons/effect-res-9db79c7ddbf7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "6890417bdf8b",
+          "sourceHash": "6890417bdf8b",
+          "kind": "icons",
+          "name": "Break Effect",
+          "fileStem": "stat-break",
+          "path": "Prydwen/hsr/assets/icons/break-effect-6890417bdf8b.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "eidolons-12",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "E 1\n Salty Dog\n Eidolon 1\n\n When Gallagher enters the battle, regenerates 20 Energy and increases Effect RES by 50% .\n\n E 2\n Lion's Tail\n Eidolon 2\n\n When using the Skill, removes 1 debuff(s) from a target ally. At the same time, increases their Effect RES by 30% , lasting for 2 turn(s).\n\n E 3\n Corpse Reviver\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Last Word\n Eidolon 4\n\n Extends the duration of the Besotted state inflicted by Gallagher's Ultimate by 1 turn(s).\n\n E 5\n Death in the Afternoon\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Blood and Sand\n Eidolon 6\n\n Increases Gallagher's Break Effect by 20% and Weakness Break Efficiency by 20% .",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-13",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Enable Ascension",
+      "assets": []
+    },
+    {
+      "id": "level-80-stats-14",
+      "level": 5,
+      "heading": "Level 80 stats",
+      "text": "HP\n\n 1305\n\n ATK\n\n 529\n\n DEF\n\n 441\n\n Speed\n\n 98",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "level-1-80-ascension-materials-15",
+      "level": 5,
+      "heading": "Level 1 → 80 Ascension Materials",
+      "text": "Credit\n\n x 246400\n\n Dream Collection Component\n\n x 12\n\n Dream Flow Valve\n\n x 13\n\n Raging Heart\n\n x 50\n\n Dream Making Engine\n\n x 12",
+      "assets": [
+        {
+          "id": "50d0e755383a",
+          "sourceHash": "50d0e755383a",
+          "kind": "items",
+          "name": "Credit",
+          "fileStem": "credit",
+          "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "0f7390c5d41c",
+          "sourceHash": "0f7390c5d41c",
+          "kind": "items",
+          "name": "Dream Collection Component",
+          "fileStem": "dream-collection-component",
+          "path": "Prydwen/hsr/assets/items/dream-collection-component-0f7390c5d41c.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "3a0c98a62874",
+          "sourceHash": "3a0c98a62874",
+          "kind": "items",
+          "name": "Dream Flow Valve",
+          "fileStem": "dream-flow-valve",
+          "path": "Prydwen/hsr/assets/items/dream-flow-valve-3a0c98a62874.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "e7254e3bb516",
+          "sourceHash": "e7254e3bb516",
+          "kind": "items",
+          "name": "Raging Heart",
+          "fileStem": "raging-heart",
+          "path": "Prydwen/hsr/assets/items/raging-heart-e7254e3bb516.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "6309ff93a99f",
+          "sourceHash": "6309ff93a99f",
+          "kind": "items",
+          "name": "Dream Making Engine",
+          "fileStem": "dream-making-engine",
+          "path": "Prydwen/hsr/assets/items/dream-making-engine-6309ff93a99f.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "cv-16",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n Erik Braa\n\n JPN\n 三上哲 (Mikami Satohshi)\n\n CN\n 马语非 (Ma Yufei)\n\n KR\n 박상훈 (Park Sang-Hoon)",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "3b2d2ab7dcb6",
+          "sourceHash": "3b2d2ab7dcb6",
+          "kind": "characters",
+          "name": "Gallagher",
+          "fileStem": "gallagher-full",
+          "path": "Prydwen/hsr/assets/characters/gallagher-3b2d2ab7dcb6.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Best 4-star Healer in the game,\n\n Competitive and consistent healing output,\n\n Contributes absurd levels of Toughness damage,\n\n Enhances team’s Break DMG,\n\n Deceptively fast due to A4 leading to easier uptime on his Ultimate,\n\n Provides up to 2 debuffs for allies to make use of,\n\n Very SP-Positive,\n\n Scales very well with Eidolons.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Passive healing is tied to a debuff that fast-acting enemies may shake off quickly.",
+      "assets": []
+    },
+    {
+      "id": "review-by-sushou-21",
+      "level": 2,
+      "heading": "Review (By Sushou)",
+      "text": "Gallagher is a unique offensive healer, applying a debuff to enemies through his Ultimate that allows allies to heal by attacking them. He's also the strongest 4-star in the game who fits perfectly into two team archetypes - Super Break and HP% - but he's universal enough to be used in any team.\n Gallagher's healing output trades stat scaling for very high base values, giving him far more build freedom and variety. He also increases the Break DMG that enemies receive and will receive bonuses to his Outgoing Healing by building Break Effect. He is the first sustain unit to be able to apply debuffs to enemies naturally, and has great debuff synergy.\n Definitely not traumatised security man Gallagher is here to offer you a cold soda. Should you choose to accept, you’re gonna have a pretty solid healer on your hands who doubles as a fairly good breaker. He’s got some intriguing mechanics similar to what Luocha provides, and is actually quite likely to fly under the radar as an unexpectedly competent character.\n Gallagher’s main thing is that all of his healing is purely flat; there is no scaling component present, meaning any healing listed in his abilities is what you get, though it will still be affected by Outgoing Healing Boosts. This may initially seem like a heavy downside to have for a character designed primarily for healing, but he has ways of circumventing the lack of explicit scaling, and the far more interesting benefit of this is that Gallagher gets to build pretty much however he wants to and his healing will not suffer as a result.\n His Skill targets a single ally and heals them for up to 1600 HP. Yep, that’s it. But hey, 1600 HP is not a small amount, it’s pretty frequently around 50% Max HP for DPS characters, and keep in mind that this is before any bonuses to Outgoing Healing, so this actually becomes a very potent heal once you’ve got some even lacklustre relics. The downside is that it doesn’t do anything else, meaning you won’t get any additional healing over time or a cleanse.\n Gallagher’s Ultimate hits all enemies on the field, inflicting the Besotted debuff on them and dealing up to 150% ATK to enemies hit. This debuff is not tied to Effect Hit Rate and will always be applied, making it very consistent. This Ultimate will also Enhance Gallagher’s next Basic ATK to Nectar Blitz.\n Both the Enhanced Basic and the Besotted state are tied to his Talent. The Besotted state will increase the Break DMG that afflicted enemies will receive by up to 12% , and any time a Besotted enemy is attacked by an ally, the attacker will have their HP restored by up to 640 HP. The Enhanced Basic Nectar Blitz will deal up to 250% ATK to a single enemy and reduces their ATK by up to 15% for 2 turns, scaling with Basic ATK Trace level.\n You can see how Besotted is very similar in function to what Luocha’s Abyss Flower provides, healing allies for simply attacking foes. It’s a little less forgiving than Luocha , since Luocha has virtually no effort maintaining his Abyss Flower field due to the emergency healing passive on his Skill, and Gallagher actually has a slightly higher Energy cost on his Ultimate of 110. Additionally, since this healing is tied to a debuff, it puts the onus on Gallagher to be fast enough to keep up with enemies’ SPD, as overly fast enemies will shed the Besotted state quite quickly.\n The tradeoff for this is that Besotted also has the offensive component of the increased Break DMG received. This is the first of its kind in Star Rail (for a Sustain), as Break is notorious for being unaffected by anything besides the Break Effect stat. For the setups that excel in Break, this can turn already obscene Break damage into actual nuclear detonations — Firefly and Boothil absolutely send their regards. Beyond the obvious synergies with Break characters, this also serves as a strong situational boost to the team’s damage at no extra cost or effort.\n It’s important to note as well that Nectar Blitz deals a whopping 90 Toughness damage by default, equivalent to most single-target Ultimates . Combining with the AoE 60 Toughness damage from his Ultimate, Gallagher can very quickly deal 150 Toughness to a single enemy, which is just unheard of for a sustain unit to be doing. Oh and the ATK reduction debuff Nectar Blitz applies is also exempt from the Effect Hit Rate checks, so it’s also guaranteed, and a 15% reduction is nothing to scoff at, as it can very significantly reduce the overall incoming damage to the team in certain scenarios.\n The ironic downside of this is that if you Break the enemy with Gallagher’s Ultimate as a means of delaying their Action, they’ll end up recovering quicker than you’d like and you’ll get less time to take advantage of the Besotted state; to counteract this, if you’re going to be using Gallagher’s Ultimate to Break a powerful enemy and stop their Action, make sure to do it after their turn has already started so that you do not lose as much uptime on his Besotted state. You may have to take a hit first but it’s the far better option than being stuck without Besotted for some turns.\n Gallagher’s Bonus Traces are quite important for him to gain access to, as their effects are highly potent. His A2 will increase his own Outgoing Healing Boost by an amount equal to 50% of his Break Effect, up to a maximum bonus of 75% Outgoing Healing. This means he’ll max this out at 150% Break Effect. Since his healing is completely flat, you can almost consider this to be the scaling component being re-added. Since calculating Outgoing Healing is really easy when there are only flat additional values in play, this is an as-listed multiplier to his healing.\n This ends up making his otherwise slightly uncomfortable healing over time from Besotted actually quite powerful and competitive ; if you have the maximum bonus from his A2 and you also have an Outgoing Healing Boost chest piece equipped, Gallagher’s healing is more than doubled, and he can reach values criminally close to Luocha’s Abyss Flower. The downside remains that Besotted will only heal the attacker and doesn’t have an AoE healing component like Abyss Flower.\n Of course, as mentioned before, Gallagher deals an astounding amount of Toughness damage all by himself, and the Besotted state with his A2 is now more than enough to sustain the team almost on its own, meaning Gallagher will also be using Basic ATK often to add onto the Toughness damage. Incentivising building Break Effect on him will have the additional result of making the Break he gets dealing a huge chunk of upfront damage — Fire is not the most amazing Break in the game as its ensuing Burn Damage over Time is not as impressive as other Breaks, but its immediate damage is among the highest, being joint first place with Physical Bleed’s initial proc.\n Gallagher’s A4 makes it so that he gets a 100% Action Advance upon using his Ultimate, meaning it is now his turn again. This is a ridiculously powerful tool to have available for the sustain unit in a team, since it means he can eke out extra actions where his SPD would simply not allow for ordinarily. When used carefully, this will also greatly alleviate the SPD needs of Gallagher and will allow him to keep up with foes much more easily, thus reducing the potential downtime of the now potent Besotted state. Since his Ultimate also grants him Nectar Blitz, this can allow for a very fast near on-demand 150 Toughness damage, making it quite good as a means to quickly Break a foe before a dangerous move.\n Do keep in mind, however, that Gallagher still requires a lot of SPD stats , as his Ultimate’s cost is 110 and both forms of his Basic ATK only restore 20 Energy, meaning you will not be able to keep up with enemies in the endgame if your Gallagher is relying exclusively on this Bonus Trace to meet SPD thresholds.\n Finally, Gallagher’s A6 will allow the Nectar Blitz he uses against Besotted enemies to apply the healing effect of his Talent to all allies for this attack, meaning he now has a potent AoE heal that he gets to use quite literally immediately after using his Ultimate to inflict the Besotted state on enemies. Coupled with his A4’s 100% Action Advance, Gallagher now has a pretty good party-wide emergency heal available to him.\n As a 4-star character, it is likely to get Gallagher’s Eidolons over time. They are not at all required for him to excel, but they do provide very notable benefits to what he was already doing well. E1 will immediately regenerate 20 Energy upon entering combat and will additionally increase Gallagher’s Effect RES by a very impressive 50%. E2 will allow his Skill to cleanse a debuff from the targeted ally and will also increase their Effect RES by 30% for 2 turns. E4 extends the duration of the Besotted state by 1 turn, for a new maximum duration of 3 turns, and finally, E6 will increase Gallagher’s Break Effect and Break Efficiency by 20% each.\n Gallagher is currently the best 4-star Sustain and he's competing - and even beating - a lot of limited characters in this category. To be providing as much healing as he can do while still having great offensive utility is currently quite rare, especially so for a 4-star character. He was the primary choice for any Break-related teams (Firefly, Boothill, or Rappa) until Lingsha appeared who is a big sister to him with improved performance. But this doesn't make Gallagher obsolete as he's just behind her when it comes to the Break-Sustain role and you also need two teams for the endgame content anyway. She's also a Limited character while he's a 4-star and that's a very important distinction.\n On top of the Super Break, Gallagher is also great in HP% sacrifice team, especially when you pair him with Castorice . The Cute Reaper requires often and strong healing to charge her Ultimate and Gallagher healing output is unmatched, making him the best Healer to be paired with Castorice - currently. Due to how Gallagher’s debuff works, allies can trigger his healing debuff multiple times when attacking multiple enemies affected by the debuff. For this reason he boasts some of the highest healing output provided that his Ultimate debuff can be maintained on multiple enemies.\n Furthermore, due to his debuffing capabilities, Gallagher also makes for a fantastic pairing with characters who rely on having enemies affected by them, such as Dr. Ratio and Acheron, and he even helps offset the requirement for a Relic set like Pioneer Diver of Dead Waters.\n Also, compared to Lingsha, Gallagher can use the Quid Pro Quo Light Cone without sacrificing other parts of his kit - QPQ provides additional energy to the team, helping with Ultimate downtime.\n Man really showed up and said, ‘I’m a healer, but…’",
+      "assets": []
+    },
+    {
+      "id": "ratings-22",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.",
+      "assets": []
+    },
+    {
+      "id": "eidolon-0-24",
+      "level": 5,
+      "heading": "Eidolon 0",
+      "text": "T1.5\n MoC\n\n T1.5\n PF\n\n T1\n AS",
+      "assets": []
+    },
+    {
+      "id": "eidolon-6-25",
+      "level": 5,
+      "heading": "Eidolon 6",
+      "text": "T1\n MoC\n\n T1\n PF\n\n T0.5\n AS\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "best-light-cones-27",
+      "level": 2,
+      "heading": "Best Light Cones",
+      "text": "1\n\n Scent Alone Stays True (S 1 )\n\n An offensive option for Gallagher, enabling him to apply an 18% Vulnerability debuff, while still maintaining strong healing output thanks to Gallagher’s Break Effect to Outgoing Healing conversion Trace.\n Usage: 1.97 %\n MoC: -\n PF: 0\n AS: 3245\n\n 2\n\n Quid Pro Quo (S 1 )\n\n Utility option to regenerate Energy for other allies, notably Gallagher with his Ultimate Action Advance can trigger the effect more often.\n Usage: 45.28 %\n MoC: -\n PF: 40000\n AS: 3373\n\n 3\n\n Post-Op Conversation (S 5 )\n\n While the Outgoing Healing Bonus does not work for other allies, the increased Energy Regeneration Rate can enable faster access to Gallagher’s powerful Ultimate to maintain the debuff uptime.\n Usage: 4.43 %\n MoC: -\n PF: 0\n AS: 0\n\n 4\n\n What Is Real? (S 5 )\n\n An option for his Super Break DMG, and can also be used in HP fluctuation teams for healing output, thanks to his Traces converting Break Effect into Outgoing Healing.\n Usage: 21.28 %\n MoC: 10 cyc.\n PF: 0\n AS: 3291\n\n 5\n\n Unto Tomorrow's Morrow (S 5 )\n\n Provides allies with some DMG boost. Not suitable for Break-oriented compositions.",
+      "assets": [
+        {
+          "id": "dc189643e767",
+          "sourceHash": "dc189643e767",
+          "kind": "light-cones",
+          "name": "Scent Alone Stays True",
+          "fileStem": "scent-alone-stays-true",
+          "path": "Prydwen/hsr/assets/light-cones/scent-alone-stays-true-dc189643e767.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "21f2b82cdad1",
+          "sourceHash": "21f2b82cdad1",
+          "kind": "light-cones",
+          "name": "Quid Pro Quo",
+          "fileStem": "quid-pro-quo",
+          "path": "Prydwen/hsr/assets/light-cones/quid-pro-quo-21f2b82cdad1.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "86bde0d4e434",
+          "sourceHash": "86bde0d4e434",
+          "kind": "light-cones",
+          "name": "Post-Op Conversation",
+          "fileStem": "post-op-conversation",
+          "path": "Prydwen/hsr/assets/light-cones/post-op-conversation-86bde0d4e434.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "eb11d2d576b1",
+          "sourceHash": "eb11d2d576b1",
+          "kind": "light-cones",
+          "name": "What Is Real?",
+          "fileStem": "what-is-real",
+          "path": "Prydwen/hsr/assets/light-cones/what-is-real-eb11d2d576b1.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "071412ff0c9e",
+          "sourceHash": "071412ff0c9e",
+          "kind": "light-cones",
+          "name": "Unto Tomorrow's Morrow",
+          "fileStem": "unto-tomorrows-morrow",
+          "path": "Prydwen/hsr/assets/light-cones/unto-tomorrows-morrow-071412ff0c9e.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "specialist-light-cones-28",
+      "level": 3,
+      "heading": "Specialist Light Cones",
+      "text": "1\n\n Shared Feeling (S 5 )\n\n In teams where Gallagher can afford to spam his Skill, Shared Feeling is an excellent option to boost his healing output while also regenerating Energy for the entire team.\n Usage: 1.89 %\n MoC: -\n PF: 0\n AS: 0\n\n 2\n\n Warmth Shortens Cold Nights (S 5 )\n\n When paired with Castorice, this Light Cone allows Gallagher to additionally generate some “Newbud” points every turn.\n\n 3\n\n Multiplication (S 5 )\n\n When survivability is less of a concern, Multiplication can be useful on Gallgher to generate as much Skill Points as possible.\n Usage: 7.8 %\n MoC: 6 cyc.\n PF: 0\n AS: 3363",
+      "assets": [
+        {
+          "id": "9fccc1e67375",
+          "sourceHash": "9fccc1e67375",
+          "kind": "light-cones",
+          "name": "Shared Feeling",
+          "fileStem": "shared-feeling",
+          "path": "Prydwen/hsr/assets/light-cones/shared-feeling-9fccc1e67375.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "7ed3484c9e2f",
+          "sourceHash": "7ed3484c9e2f",
+          "kind": "light-cones",
+          "name": "Warmth Shortens Cold Nights",
+          "fileStem": "warmth-shortens-cold-nights",
+          "path": "Prydwen/hsr/assets/light-cones/warmth-shortens-cold-nights-7ed3484c9e2f.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "005f8b638303",
+          "sourceHash": "005f8b638303",
+          "kind": "light-cones",
+          "name": "Multiplication",
+          "fileStem": "multiplication",
+          "path": "Prydwen/hsr/assets/light-cones/multiplication-005f8b638303.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-relic-sets-30",
+      "level": 2,
+      "heading": "Best Relic Sets",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Warrior Goddess of Sun and Thunder ( 4 -PC)\n\n Best in slot for CRIT teams for the 15% team-wide CRIT DMG boost. Can also be used in Break teams just for the 12% SPD increase.\n Usage: 14.97 %\n MoC: -\n PF: 0\n AS: 3637\n\n 2\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n Outside of a pure focus on Break-damage Gallagher has no dedicated 4P Relic set that is ideal for him.\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Watchmaker, Master of Dream Machinations\n\n Iron Cavalry Against the Scourge\n\n Thief of Shooting Meteor\n\n Passerby of Wandering Cloud\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder",
+      "assets": [
+        {
+          "id": "2f8ec1684b6b",
+          "sourceHash": "2f8ec1684b6b",
+          "kind": "relics",
+          "name": "Warrior Goddess of Sun and Thunder",
+          "fileStem": "warrior-goddess-of-sun-and-thunder",
+          "path": "Prydwen/hsr/assets/relics/warrior-goddess-of-sun-and-thunder-2f8ec1684b6b.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "4cb8065ad660",
+          "sourceHash": "4cb8065ad660",
+          "kind": "relics",
+          "name": "Messenger Traversing Hackerspace",
+          "fileStem": "messenger-traversing-hackerspace",
+          "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "5cb190fcc346",
+          "sourceHash": "5cb190fcc346",
+          "kind": "relics",
+          "name": "Sacerdos' Relived Ordeal",
+          "fileStem": "sacerdos-relived-ordeal",
+          "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "706574c241bc",
+          "sourceHash": "706574c241bc",
+          "kind": "relics",
+          "name": "Watchmaker, Master of Dream Machinations",
+          "fileStem": "watchmaker-master-of-dream-machinations",
+          "path": "Prydwen/hsr/assets/relics/watchmaker-master-of-dream-machinations-706574c241bc.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "2fc8ce1ab137",
+          "sourceHash": "2fc8ce1ab137",
+          "kind": "relics",
+          "name": "Iron Cavalry Against the Scourge",
+          "fileStem": "iron-cavalry-against-the-scourge",
+          "path": "Prydwen/hsr/assets/relics/iron-cavalry-against-the-scourge-2fc8ce1ab137.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "bd16ed7ff036",
+          "sourceHash": "bd16ed7ff036",
+          "kind": "relics",
+          "name": "Thief of Shooting Meteor",
+          "fileStem": "thief-of-shooting-meteor",
+          "path": "Prydwen/hsr/assets/relics/thief-of-shooting-meteor-bd16ed7ff036.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "4ed6c0c0e2b5",
+          "sourceHash": "4ed6c0c0e2b5",
+          "kind": "relics",
+          "name": "Passerby of Wandering Cloud",
+          "fileStem": "passerby-of-wandering-cloud",
+          "path": "Prydwen/hsr/assets/relics/passerby-of-wandering-cloud-4ed6c0c0e2b5.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "19b06ffee878",
+          "sourceHash": "19b06ffee878",
+          "kind": "relics",
+          "name": "Diviner of Distant Reach",
+          "fileStem": "diviner-of-distant-reach",
+          "path": "Prydwen/hsr/assets/relics/diviner-of-distant-reach-19b06ffee878.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-specialist-relic-sets-31",
+      "level": 6,
+      "heading": "Best Specialist Relic Sets",
+      "text": "1\n\n Iron Cavalry Against the Scourge ( 4 -PC)\n\n Top damage-focused option for characters that play within teams that leverage Super Break or deal predominantly Break/Super Break damage themselves. Becomes even stronger with additional sources of DEF% reduction. When playing Gallagher in teams with a source of team-wide Super Break, this option boosts his personal damage considerably. Without a source of Super Break this option is not nearly as useful.\n Usage: 7.43 %\n MoC: -\n PF: 0\n AS: 3258\n\n 2\n\n Thief of Shooting Meteor ( 4 -PC)\n\n Good option for Break-scaling characters especially those who can benefit from the additional energy gain granted when the wearer Breaks enemies. Especially potent for and recommended for AoE capable characters in modes with many enemies to break like Pure Fiction.\n Usage: 15.53 %\n MoC: -\n PF: 25680\n AS: 2959",
+      "assets": [
+        {
+          "id": "2fc8ce1ab137",
+          "sourceHash": "2fc8ce1ab137",
+          "kind": "relics",
+          "name": "Iron Cavalry Against the Scourge",
+          "fileStem": "iron-cavalry-against-the-scourge",
+          "path": "Prydwen/hsr/assets/relics/iron-cavalry-against-the-scourge-2fc8ce1ab137.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "bd16ed7ff036",
+          "sourceHash": "bd16ed7ff036",
+          "kind": "relics",
+          "name": "Thief of Shooting Meteor",
+          "fileStem": "thief-of-shooting-meteor",
+          "path": "Prydwen/hsr/assets/relics/thief-of-shooting-meteor-bd16ed7ff036.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-planetary-sets-32",
+      "level": 6,
+      "heading": "Best Planetary Sets",
+      "text": "1\n\n Forge of the Kalpagni Lantern ( 2 -PC)\n\n Powerful Break-focused set, primarily for Fire characters. Useful both for Break characters and Break scaling Supports and Sustains thanks to its massive Break Effect% buff and permanent 6% Speed boost.\n Usage: 31.32 %\n MoC: 10 cyc.\n PF: 0\n AS: 3294\n\n 2\n\n Talia: Kingdom of Banditry ( 2 -PC)\n\n Strong Break-focused planar set suitable for all Break scaling characters without the conditional requirements of Forge of Kalpagni - assuming the wearer can reach the 145 Speed requirement.\n Usage: 11.8 %\n MoC: -\n PF: 28520\n AS: 3256",
+      "assets": [
+        {
+          "id": "f08c8ab4a73a",
+          "sourceHash": "f08c8ab4a73a",
+          "kind": "relics",
+          "name": "Forge of the Kalpagni Lantern",
+          "fileStem": "forge-of-the-kalpagni-lantern",
+          "path": "Prydwen/hsr/assets/relics/forge-of-the-kalpagni-lantern-f08c8ab4a73a.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "a8ea2dfcb1ee",
+          "sourceHash": "a8ea2dfcb1ee",
+          "kind": "relics",
+          "name": "Talia: Kingdom of Banditry",
+          "fileStem": "talia-kingdom-of-banditry",
+          "path": "Prydwen/hsr/assets/relics/talia-kingdom-of-banditry-a8ea2dfcb1ee.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-specialist-planetary-sets-33",
+      "level": 6,
+      "heading": "Best Specialist Planetary Sets",
+      "text": "1\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 2\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n Usage: 14.3 %\n MoC: -\n PF: 25680\n AS: 3495\n\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n Usage: 12.54 %\n MoC: 6 cyc.\n PF: 0\n AS: 3547\n\n 5\n\n Giant Tree of Rapt Brooding ( 2 -PC)\n\n Powerful set focusing on achieving higher SPD and healing output. In Break teams, the extra healing output from this set might not be needed.\n Usage: 15.61 %\n MoC: -\n PF: 0\n AS: 3275",
+      "assets": [
+        {
+          "id": "5b886a96e17a",
+          "sourceHash": "5b886a96e17a",
+          "kind": "relics",
+          "name": "Fleet of the Ageless",
+          "fileStem": "fleet-of-the-ageless",
+          "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "3306e6f6288f",
+          "sourceHash": "3306e6f6288f",
+          "kind": "relics",
+          "name": "Broken Keel",
+          "fileStem": "broken-keel",
+          "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "d6cdb5f16b16",
+          "sourceHash": "d6cdb5f16b16",
+          "kind": "relics",
+          "name": "Penacony, Land of the Dreams",
+          "fileStem": "penacony-land-of-the-dreams",
+          "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "d6aae5028c5a",
+          "sourceHash": "d6aae5028c5a",
+          "kind": "relics",
+          "name": "Lushaka, the Sunken Seas",
+          "fileStem": "lushaka-the-sunken-seas",
+          "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "c13bc696f36c",
+          "sourceHash": "c13bc696f36c",
+          "kind": "relics",
+          "name": "Giant Tree of Rapt Brooding",
+          "fileStem": "giant-tree-of-rapt-brooding",
+          "path": "Prydwen/hsr/assets/relics/giant-tree-of-rapt-brooding-c13bc696f36c.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-stats-35",
+      "level": 2,
+      "heading": "Best Stats",
+      "text": "Body\n Outgoing Healing\n\n Feet\n Speed\n\n Planar Sphere\n HP%\n >= DEF%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (as much as possible) > Break Effect % (up to 150%) > Effect RES% > HP% = DEF%\n\n Executing Gallagher's rotation faster will yield higher uptime of his Besotted state debuff on enemies fueling his main healing source his talent. Gaining as much Speed as possible is essential but after that Break Effect is Gallagher's only other way to scale his kit thanks to his bonus ability that converts it into Healing Output%. After gaining max Speed and as much Break Effect% as possible invest into defenses.",
+      "assets": [
+        {
+          "id": "96d628c840c8",
+          "sourceHash": "96d628c840c8",
+          "kind": "icons",
+          "name": "Outgoing Healing",
+          "fileStem": "stat-healing",
+          "path": "Prydwen/hsr/assets/icons/outgoing-healing-96d628c840c8.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "106ddd8eff32",
+          "sourceHash": "106ddd8eff32",
+          "kind": "icons",
+          "name": "Energy Regen",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "recommended-endgame-stats-36",
+      "level": 2,
+      "heading": "Recommended endgame stats",
+      "text": "HP: 4300 - 4700+\n\n DEF: 800+\n\n SPD: 134 (Recommended) / 143 / 160\n\n Break Effect%: 60% (no more than 150%)",
+      "assets": []
+    },
+    {
+      "id": "traces-priority-37",
+      "level": 2,
+      "heading": "Traces priority",
+      "text": "Skills priority: Talent > Skill > Basic > Ultimate\n\n Major Traces priority: Novel Concoction (A2) > Bottoms Up (A6) > Organic Yeast (A4)",
+      "assets": []
+    },
+    {
+      "id": "synergy-38",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Castorice Mydei - Due to how Gallagher’s debuff works, allies can trigger his healing debuff multiple times when attacking multiple enemies affected by the debuff. For this reason he boasts some of the highest healing output provided that his Ultimate debuff can be maintained on multiple enemies.\n Trailblazer • Harmony - Trailblazer • Harmony allows Gallagher to achieve some ridiculous Super Break numbers with his Besotted state from his Ultimate, increasing all Break damage on enemies, while also contributing as the Sustain, making him the perfect Sustain for any Break-centric teams currently.\n Ruan Mei - Ruan Mei gives Gallagher an insane boost in content weak against Fire for Breaking, and in Super Break teams makes him nearly as strong as Harmony Trailblazer itself at E6 in terms of Super Break damage.\n Acheron - Providing debuffs is one of the main things Acheron looks for in teammates, and Gallagher just so happens to provide 2 debuffs very quickly in short succession; 1 on Ultimate, and 1 on his Enhanced Basic, giving Acheron the much-needed debuffs she wants for quicker Ultimates.",
+      "assets": [
+        {
+          "id": "fd3d60695240",
+          "sourceHash": "fd3d60695240",
+          "kind": "characters",
+          "name": "Castorice",
+          "fileStem": "castorice-icon",
+          "path": "Prydwen/hsr/assets/characters/castorice-fd3d60695240.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "941e5d329286",
+          "sourceHash": "941e5d329286",
+          "kind": "characters",
+          "name": "Mydei",
+          "fileStem": "mydei-icon",
+          "path": "Prydwen/hsr/assets/characters/mydei-941e5d329286.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "de41e1704266",
+          "sourceHash": "de41e1704266",
+          "kind": "characters",
+          "name": "Trailblazer • Harmony",
+          "fileStem": "trailblazer-harmony-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-harmony-de41e1704266.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "b77207bce6c8",
+          "sourceHash": "b77207bce6c8",
+          "kind": "characters",
+          "name": "Ruan Mei",
+          "fileStem": "ruan-mei-icon",
+          "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "fbcfe4133d08",
+          "sourceHash": "fbcfe4133d08",
+          "kind": "characters",
+          "name": "Acheron",
+          "fileStem": "acheron-icon",
+          "path": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp",
+          "width": 45,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "id": "anomaly-arbitration-43",
+      "level": 6,
+      "heading": "Anomaly Arbitration",
+      "text": "Rank 12\n App. rate: 3.58 %\n Avg. cycles : 8.48\n Avg. cycles (E1+): 6.48\n\n Rank 29\n App. rate: 0.93 %\n Avg. cycles : 8.43\n Avg. cycles (E1+): 7.04\n\n Rank 45\n App. rate: 0.48 %\n Avg. cycles : 9\n Avg. cycles (E1+): 7.74\n\n Rank 115\n App. rate: 0.14 %\n Avg. cycles : 10\n Avg. cycles (E1+): 4.86\n\n Rank 138\n App. rate: 0.1 %\n Avg. cycles : 8.75\n Avg. cycles (E1+): 5.14\n\n New\n\n Rank 160\n App. rate: 0.09 %\n Avg. cycles : 9\n Avg. cycles (E1+): 5.31\n\n New\n\n Rank 160\n App. rate: 0.09 %\n Avg. cycles : -\n Avg. cycles (E1+): 8.57\n\n Rank 167\n App. rate: 0.08 %\n Avg. cycles : 7.5\n Avg. cycles (E1+): 4.1\n\n Rank 185\n App. rate: 0.07 %\n Avg. cycles : -\n Avg. cycles (E1+): 8.86\n\n Rank 202\n App. rate: 0.06 %\n Avg. cycles : 9\n Avg. cycles (E1+): 4.11",
+      "assets": [
+        {
+          "id": "4c12f1ecf12f",
+          "sourceHash": "4c12f1ecf12f",
+          "kind": "characters",
+          "name": "Firefly",
+          "fileStem": "firefly-icon",
+          "path": "Prydwen/hsr/assets/characters/firefly-4c12f1ecf12f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "92feb26d8f0e",
+          "sourceHash": "92feb26d8f0e",
+          "kind": "icons",
+          "name": "Fire",
+          "fileStem": "ele-fire",
+          "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "444d6f5749b7",
+          "sourceHash": "444d6f5749b7",
+          "kind": "characters",
+          "name": "Tingyun • Fugue",
+          "fileStem": "tingyun-fugue-icon",
+          "path": "Prydwen/hsr/assets/characters/tingyun-fugue-444d6f5749b7.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "cec6f11ca61e",
+          "sourceHash": "cec6f11ca61e",
+          "kind": "characters",
+          "name": "The Dahlia",
+          "fileStem": "the-dahlia-icon",
+          "path": "Prydwen/hsr/assets/characters/the-dahlia-cec6f11ca61e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "30d074a1060a",
+          "sourceHash": "30d074a1060a",
+          "kind": "characters",
+          "name": "Gallagher",
+          "fileStem": "gallagher-icon",
+          "path": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "de41e1704266",
+          "sourceHash": "de41e1704266",
+          "kind": "characters",
+          "name": "Trailblazer • Harmony",
+          "fileStem": "trailblazer-harmony-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-harmony-de41e1704266.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "913ff64407f2",
+          "sourceHash": "913ff64407f2",
+          "kind": "icons",
+          "name": "Imaginary",
+          "fileStem": "ele-imaginary",
+          "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "b77207bce6c8",
+          "sourceHash": "b77207bce6c8",
+          "kind": "characters",
+          "name": "Ruan Mei",
+          "fileStem": "ruan-mei-icon",
+          "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7d36eb39792a",
+          "sourceHash": "7d36eb39792a",
+          "kind": "icons",
+          "name": "Ice",
+          "fileStem": "ele-ice",
+          "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "bc2d64a2cd5f",
+          "sourceHash": "bc2d64a2cd5f",
+          "kind": "characters",
+          "name": "Hysilens",
+          "fileStem": "hysilens-icon",
+          "path": "Prydwen/hsr/assets/characters/hysilens-bc2d64a2cd5f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0db16ed6c66",
+          "sourceHash": "e0db16ed6c66",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "ele-physical",
+          "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "e01f880a2668",
+          "sourceHash": "e01f880a2668",
+          "kind": "characters",
+          "name": "Black Swan",
+          "fileStem": "black-swan-icon",
+          "path": "Prydwen/hsr/assets/characters/black-swan-e01f880a2668.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ee11bd390c9a",
+          "sourceHash": "ee11bd390c9a",
+          "kind": "icons",
+          "name": "Wind",
+          "fileStem": "ele-wind",
+          "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "a137ba3e51ff",
+          "sourceHash": "a137ba3e51ff",
+          "kind": "characters",
+          "name": "Kafka",
+          "fileStem": "kafka-icon",
+          "path": "Prydwen/hsr/assets/characters/kafka-a137ba3e51ff.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d197456869a0",
+          "sourceHash": "d197456869a0",
+          "kind": "icons",
+          "name": "Lightning",
+          "fileStem": "ele-lightning",
+          "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "f380b4ccce3e",
+          "sourceHash": "f380b4ccce3e",
+          "kind": "characters",
+          "name": "Ashveil",
+          "fileStem": "ashveil-icon",
+          "path": "Prydwen/hsr/assets/characters/ashveil-f380b4ccce3e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "99361e4717fa",
+          "sourceHash": "99361e4717fa",
+          "kind": "characters",
+          "name": "Mortenax Blade",
+          "fileStem": "blade-mortenax-icon",
+          "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "2cde7699adbf",
+          "sourceHash": "2cde7699adbf",
+          "kind": "characters",
+          "name": "Tribbie",
+          "fileStem": "tribbie-icon",
+          "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "565914d1a436",
+          "sourceHash": "565914d1a436",
+          "kind": "icons",
+          "name": "Quantum",
+          "fileStem": "ele-quantum",
+          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "fbcfe4133d08",
+          "sourceHash": "fbcfe4133d08",
+          "kind": "characters",
+          "name": "Acheron",
+          "fileStem": "acheron-icon",
+          "path": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f8ad01025a66",
+          "sourceHash": "f8ad01025a66",
+          "kind": "characters",
+          "name": "Rappa",
+          "fileStem": "rappa-icon",
+          "path": "Prydwen/hsr/assets/characters/rappa-f8ad01025a66.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f54da6170f38",
+          "sourceHash": "f54da6170f38",
+          "kind": "characters",
+          "name": "Silver Wolf • Lv. 999",
+          "fileStem": "silver-wolf-lv-999-icon",
+          "path": "Prydwen/hsr/assets/characters/silver-wolf-lv-999-f54da6170f38.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7fc1b269fb6f",
+          "sourceHash": "7fc1b269fb6f",
+          "kind": "characters",
+          "name": "Sparxie",
+          "fileStem": "sparxie-icon",
+          "path": "Prydwen/hsr/assets/characters/sparxie-7fc1b269fb6f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "965df81b835a",
+          "sourceHash": "965df81b835a",
+          "kind": "characters",
+          "name": "Yao Guang",
+          "fileStem": "yao-guang-icon",
+          "path": "Prydwen/hsr/assets/characters/yao-guang-965df81b835a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "fd57eb6e6eb9",
+          "sourceHash": "fd57eb6e6eb9",
+          "kind": "characters",
+          "name": "Boothill",
+          "fileStem": "boothill-icon",
+          "path": "Prydwen/hsr/assets/characters/boothill-fd57eb6e6eb9.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "c721ded1f2e0",
+          "sourceHash": "c721ded1f2e0",
+          "kind": "characters",
+          "name": "Trailblazer • Elation",
+          "fileStem": "trailblazer-elation-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-elation-c721ded1f2e0.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "video-guides-44",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "MoC/PF/AS Statistics",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-light-cones": {
+      "label": "Best Light Cones",
+      "sections": [
+        {
+          "heading": "Best Light Cones",
+          "text": "1\n\n Scent Alone Stays True (S 1 )\n\n An offensive option for Gallagher, enabling him to apply an 18% Vulnerability debuff, while still maintaining strong healing output thanks to Gallagher’s Break Effect to Outgoing Healing conversion Trace.\n Usage: 1.97 %\n MoC: -\n PF: 0\n AS: 3245\n\n 2\n\n Quid Pro Quo (S 1 )\n\n Utility option to regenerate Energy for other allies, notably Gallagher with his Ultimate Action Advance can trigger the effect more often.\n Usage: 45.28 %\n MoC: -\n PF: 40000\n AS: 3373\n\n 3\n\n Post-Op Conversation (S 5 )\n\n While the Outgoing Healing Bonus does not work for other allies, the increased Energy Regeneration Rate can enable faster access to Gallagher’s powerful Ultimate to maintain the debuff uptime.\n Usage: 4.43 %\n MoC: -\n PF: 0\n AS: 0\n\n 4\n\n What Is Real? (S 5 )\n\n An option for his Super Break DMG, and can also be used in HP fluctuation teams for healing output, thanks to his Traces converting Break Effect into Outgoing Healing.\n Usage: 21.28 %\n MoC: 10 cyc.\n PF: 0\n AS: 3291\n\n 5\n\n Unto Tomorrow's Morrow (S 5 )\n\n Provides allies with some DMG boost. Not suitable for Break-oriented compositions.",
+          "assets": [
+            {
+              "id": "dc189643e767",
+              "sourceHash": "dc189643e767",
+              "kind": "light-cones",
+              "name": "Scent Alone Stays True",
+              "fileStem": "scent-alone-stays-true",
+              "path": "Prydwen/hsr/assets/light-cones/scent-alone-stays-true-dc189643e767.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "21f2b82cdad1",
+              "sourceHash": "21f2b82cdad1",
+              "kind": "light-cones",
+              "name": "Quid Pro Quo",
+              "fileStem": "quid-pro-quo",
+              "path": "Prydwen/hsr/assets/light-cones/quid-pro-quo-21f2b82cdad1.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "86bde0d4e434",
+              "sourceHash": "86bde0d4e434",
+              "kind": "light-cones",
+              "name": "Post-Op Conversation",
+              "fileStem": "post-op-conversation",
+              "path": "Prydwen/hsr/assets/light-cones/post-op-conversation-86bde0d4e434.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "eb11d2d576b1",
+              "sourceHash": "eb11d2d576b1",
+              "kind": "light-cones",
+              "name": "What Is Real?",
+              "fileStem": "what-is-real",
+              "path": "Prydwen/hsr/assets/light-cones/what-is-real-eb11d2d576b1.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "071412ff0c9e",
+              "sourceHash": "071412ff0c9e",
+              "kind": "light-cones",
+              "name": "Unto Tomorrow's Morrow",
+              "fileStem": "unto-tomorrows-morrow",
+              "path": "Prydwen/hsr/assets/light-cones/unto-tomorrows-morrow-071412ff0c9e.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-relic-sets": {
+      "label": "Best Relic Sets",
+      "sections": [
+        {
+          "heading": "Best Relic Sets",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Warrior Goddess of Sun and Thunder ( 4 -PC)\n\n Best in slot for CRIT teams for the 15% team-wide CRIT DMG boost. Can also be used in Break teams just for the 12% SPD increase.\n Usage: 14.97 %\n MoC: -\n PF: 0\n AS: 3637\n\n 2\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n Outside of a pure focus on Break-damage Gallagher has no dedicated 4P Relic set that is ideal for him.\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Watchmaker, Master of Dream Machinations\n\n Iron Cavalry Against the Scourge\n\n Thief of Shooting Meteor\n\n Passerby of Wandering Cloud\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder",
+          "assets": [
+            {
+              "id": "2f8ec1684b6b",
+              "sourceHash": "2f8ec1684b6b",
+              "kind": "relics",
+              "name": "Warrior Goddess of Sun and Thunder",
+              "fileStem": "warrior-goddess-of-sun-and-thunder",
+              "path": "Prydwen/hsr/assets/relics/warrior-goddess-of-sun-and-thunder-2f8ec1684b6b.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "4cb8065ad660",
+              "sourceHash": "4cb8065ad660",
+              "kind": "relics",
+              "name": "Messenger Traversing Hackerspace",
+              "fileStem": "messenger-traversing-hackerspace",
+              "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "5cb190fcc346",
+              "sourceHash": "5cb190fcc346",
+              "kind": "relics",
+              "name": "Sacerdos' Relived Ordeal",
+              "fileStem": "sacerdos-relived-ordeal",
+              "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "706574c241bc",
+              "sourceHash": "706574c241bc",
+              "kind": "relics",
+              "name": "Watchmaker, Master of Dream Machinations",
+              "fileStem": "watchmaker-master-of-dream-machinations",
+              "path": "Prydwen/hsr/assets/relics/watchmaker-master-of-dream-machinations-706574c241bc.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "2fc8ce1ab137",
+              "sourceHash": "2fc8ce1ab137",
+              "kind": "relics",
+              "name": "Iron Cavalry Against the Scourge",
+              "fileStem": "iron-cavalry-against-the-scourge",
+              "path": "Prydwen/hsr/assets/relics/iron-cavalry-against-the-scourge-2fc8ce1ab137.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "bd16ed7ff036",
+              "sourceHash": "bd16ed7ff036",
+              "kind": "relics",
+              "name": "Thief of Shooting Meteor",
+              "fileStem": "thief-of-shooting-meteor",
+              "path": "Prydwen/hsr/assets/relics/thief-of-shooting-meteor-bd16ed7ff036.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "4ed6c0c0e2b5",
+              "sourceHash": "4ed6c0c0e2b5",
+              "kind": "relics",
+              "name": "Passerby of Wandering Cloud",
+              "fileStem": "passerby-of-wandering-cloud",
+              "path": "Prydwen/hsr/assets/relics/passerby-of-wandering-cloud-4ed6c0c0e2b5.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "19b06ffee878",
+              "sourceHash": "19b06ffee878",
+              "kind": "relics",
+              "name": "Diviner of Distant Reach",
+              "fileStem": "diviner-of-distant-reach",
+              "path": "Prydwen/hsr/assets/relics/diviner-of-distant-reach-19b06ffee878.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-planetary-sets": {
+      "label": "Best Planetary Sets",
+      "sections": [
+        {
+          "heading": "Best Planetary Sets",
+          "text": "1\n\n Forge of the Kalpagni Lantern ( 2 -PC)\n\n Powerful Break-focused set, primarily for Fire characters. Useful both for Break characters and Break scaling Supports and Sustains thanks to its massive Break Effect% buff and permanent 6% Speed boost.\n Usage: 31.32 %\n MoC: 10 cyc.\n PF: 0\n AS: 3294\n\n 2\n\n Talia: Kingdom of Banditry ( 2 -PC)\n\n Strong Break-focused planar set suitable for all Break scaling characters without the conditional requirements of Forge of Kalpagni - assuming the wearer can reach the 145 Speed requirement.\n Usage: 11.8 %\n MoC: -\n PF: 28520\n AS: 3256",
+          "assets": [
+            {
+              "id": "f08c8ab4a73a",
+              "sourceHash": "f08c8ab4a73a",
+              "kind": "relics",
+              "name": "Forge of the Kalpagni Lantern",
+              "fileStem": "forge-of-the-kalpagni-lantern",
+              "path": "Prydwen/hsr/assets/relics/forge-of-the-kalpagni-lantern-f08c8ab4a73a.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "a8ea2dfcb1ee",
+              "sourceHash": "a8ea2dfcb1ee",
+              "kind": "relics",
+              "name": "Talia: Kingdom of Banditry",
+              "fileStem": "talia-kingdom-of-banditry",
+              "path": "Prydwen/hsr/assets/relics/talia-kingdom-of-banditry-a8ea2dfcb1ee.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-stats": {
+      "label": "Best Stats",
+      "sections": [
+        {
+          "heading": "Best Stats",
+          "text": "Body\n Outgoing Healing\n\n Feet\n Speed\n\n Planar Sphere\n HP%\n >= DEF%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (as much as possible) > Break Effect % (up to 150%) > Effect RES% > HP% = DEF%\n\n Executing Gallagher's rotation faster will yield higher uptime of his Besotted state debuff on enemies fueling his main healing source his talent. Gaining as much Speed as possible is essential but after that Break Effect is Gallagher's only other way to scale his kit thanks to his bonus ability that converts it into Healing Output%. After gaining max Speed and as much Break Effect% as possible invest into defenses.",
+          "assets": [
+            {
+              "id": "96d628c840c8",
+              "sourceHash": "96d628c840c8",
+              "kind": "icons",
+              "name": "Outgoing Healing",
+              "fileStem": "stat-healing",
+              "path": "Prydwen/hsr/assets/icons/outgoing-healing-96d628c840c8.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "087f2dec68b6",
+              "sourceHash": "087f2dec68b6",
+              "kind": "icons",
+              "name": "Speed",
+              "fileStem": "stat-speed",
+              "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "96654253a4f7",
+              "sourceHash": "96654253a4f7",
+              "kind": "icons",
+              "name": "HP",
+              "fileStem": "stat-hp",
+              "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "a6be649090ba",
+              "sourceHash": "a6be649090ba",
+              "kind": "icons",
+              "name": "DEF",
+              "fileStem": "stat-def",
+              "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "106ddd8eff32",
+              "sourceHash": "106ddd8eff32",
+              "kind": "icons",
+              "name": "Energy Regen",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        }
+      ]
+    },
+    "recommended-endgame-stats": {
+      "label": "Recommended endgame stats",
+      "sections": [
+        {
+          "heading": "Recommended endgame stats",
+          "text": "HP: 4300 - 4700+\n\n DEF: 800+\n\n SPD: 134 (Recommended) / 143 / 160\n\n Break Effect%: 60% (no more than 150%)",
+          "assets": []
+        }
+      ]
+    },
+    "traces-priority": {
+      "label": "Traces priority",
+      "sections": [
+        {
+          "heading": "Traces priority",
+          "text": "Skills priority: Talent > Skill > Basic > Ultimate\n\n Major Traces priority: Novel Concoction (A2) > Bottoms Up (A6) > Organic Yeast (A4)",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Castorice Mydei - Due to how Gallagher’s debuff works, allies can trigger his healing debuff multiple times when attacking multiple enemies affected by the debuff. For this reason he boasts some of the highest healing output provided that his Ultimate debuff can be maintained on multiple enemies.\n Trailblazer • Harmony - Trailblazer • Harmony allows Gallagher to achieve some ridiculous Super Break numbers with his Besotted state from his Ultimate, increasing all Break damage on enemies, while also contributing as the Sustain, making him the perfect Sustain for any Break-centric teams currently.\n Ruan Mei - Ruan Mei gives Gallagher an insane boost in content weak against Fire for Breaking, and in Super Break teams makes him nearly as strong as Harmony Trailblazer itself at E6 in terms of Super Break damage.\n Acheron - Providing debuffs is one of the main things Acheron looks for in teammates, and Gallagher just so happens to provide 2 debuffs very quickly in short succession; 1 on Ultimate, and 1 on his Enhanced Basic, giving Acheron the much-needed debuffs she wants for quicker Ultimates.",
+          "assets": [
+            {
+              "id": "fd3d60695240",
+              "sourceHash": "fd3d60695240",
+              "kind": "characters",
+              "name": "Castorice",
+              "fileStem": "castorice-icon",
+              "path": "Prydwen/hsr/assets/characters/castorice-fd3d60695240.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "941e5d329286",
+              "sourceHash": "941e5d329286",
+              "kind": "characters",
+              "name": "Mydei",
+              "fileStem": "mydei-icon",
+              "path": "Prydwen/hsr/assets/characters/mydei-941e5d329286.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "de41e1704266",
+              "sourceHash": "de41e1704266",
+              "kind": "characters",
+              "name": "Trailblazer • Harmony",
+              "fileStem": "trailblazer-harmony-icon",
+              "path": "Prydwen/hsr/assets/characters/trailblazer-harmony-de41e1704266.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "b77207bce6c8",
+              "sourceHash": "b77207bce6c8",
+              "kind": "characters",
+              "name": "Ruan Mei",
+              "fileStem": "ruan-mei-icon",
+              "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "fbcfe4133d08",
+              "sourceHash": "fbcfe4133d08",
+              "kind": "characters",
+              "name": "Acheron",
+              "fileStem": "acheron-icon",
+              "path": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp",
+              "width": 45,
+              "height": 45
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Gallagher Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Gallagher\n Gallagher Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Gallagher from HSR (Honkai: Star Rail). Gallagher is a 4 ★ character from the Fire element who follows the Path of Abundance .\n A security officer of the Bloodhound Family at Penacony. He is also a slovenly and indolent mixologist. Though unorganized in apparel and casual in how he makes his drinks, he is always courteous toward guests but keeps his vigilance about him. He seems to be a character with a complicated past, yet never actively mentions any details.\n\n To learn more about Gallagher check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Gallagher has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 3.2\n\n Last major build/calcs update\n Patch 3.4\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Gallagher check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Corkage Fee\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Fire DMG equal to #1[i]% of Gallagher's ATK to a single target enemy.\n Basic ATK (Enhanced)\n Nectar Blitz\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 30\n\n Deals Fire DMG equal to #1[i]% of Gallagher's ATK to a single target enemy. And reduces the target's ATK by #2[i]%, lasting for 2 turns.\n\n Skill\n Special Brew\n Restore\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Immediately heals a target ally for #1[i] HP.\n\n Ultimate\n Champagne Etiquette\n AoE | 110 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Inflicts Besotted on all enemies, lasting for 2 turns. At the same time, deals Fire DMG equal to #1[i]% of Gallagher's ATK to all enemies, and enhances this unit's next Basic ATK to Nectar Blitz.\n\n Talent\n Tipsy Tussle\n Enhance\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n The Besotted state increases the Break DMG that targets receive by #1[i]%. Every time a Besotted target is attacked by an ally, the attacker's HP gets restored by #2[i].\n\n Technique\n Artisan Elixir\n\n Energy gain: 0\n Break: 20\n\n Immediately attacks the enemy. Upon entering battle, inflicts Besotted on all enemies, lasting for 2 turns. And deals Fire DMG equal to #1[i]% of Gallagher's ATK to all enemies.\n\n Major Traces\n A2 Major trace\n Novel Concoction\n\n Increases this unit's Outgoing Healing by an amount equal to 50% of Break Effect, up to a maximum Outgoing Healing increase of 75% .\n\n A4 Major trace\n Organic Yeast\n\n After using the Ultimate, immediately Advances Forward this unit's Action by 100% .\n\n A6 Major trace\n Bottoms Up\n\n When Gallagher uses Nectar Blitz to attack Besotted enemies, the HP Restore effect of his Talent will also apply to other allies for this time.\n\n Minor Traces (total)\n Effect RES\n + 28%\n\n Break Effect\n + 13.3%\n\n HP\n + 18%\n\n Eidolons\n E 1\n Salty Dog\n Eidolon 1\n\n When Gallagher enters the battle, regenerates 20 Energy and increases Effect RES by 50% .\n\n E 2\n Lion's Tail\n Eidolon 2\n\n When using the Skill, removes 1 debuff(s) from a target ally. At the same time, increases their Effect RES by 30% , lasting for 2 turn(s).\n\n E 3\n Corpse Reviver\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Last Word\n Eidolon 4\n\n Extends the duration of the Besotted state inflicted by Gallagher's Ultimate by 1 turn(s).\n\n E 5\n Death in the Afternoon\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Blood and Sand\n Eidolon 6\n\n Increases Gallagher's Break Effect by 20% and Weakness Break Efficiency by 20% .\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1305\n\n ATK\n\n 529\n\n DEF\n\n 441\n\n Speed\n\n 98\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 246400\n\n Dream Collection Component\n\n x 12\n\n Dream Flow Valve\n\n x 13\n\n Raging Heart\n\n x 50\n\n Dream Making Engine\n\n x 12\n\n CV\n ENG\n Erik Braa\n\n JPN\n 三上哲 (Mikami Satohshi)\n\n CN\n 马语非 (Ma Yufei)\n\n KR\n 박상훈 (Park Sang-Hoon)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Best 4-star Healer in the game,\n\n Competitive and consistent healing output,\n\n Contributes absurd levels of Toughness damage,\n\n Enhances team’s Break DMG,\n\n Deceptively fast due to A4 leading to easier uptime on his Ultimate,\n\n Provides up to 2 debuffs for allies to make use of,\n\n Very SP-Positive,\n\n Scales very well with Eidolons.\n\n Cons\n Passive healing is tied to a debuff that fast-acting enemies may shake off quickly.\n\n Review (By Sushou)\n Gallagher is a unique offensive healer, applying a debuff to enemies through his Ultimate that allows allies to heal by attacking them. He's also the strongest 4-star in the game who fits perfectly into two team archetypes - Super Break and HP% - but he's universal enough to be used in any team.\n Gallagher's healing output trades stat scaling for very high base values, giving him far more build freedom and variety. He also increases the Break DMG that enemies receive and will receive bonuses to his Outgoing Healing by building Break Effect. He is the first sustain unit to be able to apply debuffs to enemies naturally, and has great debuff synergy.\n Definitely not traumatised security man Gallagher is here to offer you a cold soda. Should you choose to accept, you’re gonna have a pretty solid healer on your hands who doubles as a fairly good breaker. He’s got some intriguing mechanics similar to what Luocha provides, and is actually quite likely to fly under the radar as an unexpectedly competent character.\n Gallagher’s main thing is that all of his healing is purely flat; there is no scaling component present, meaning any healing listed in his abilities is what you get, though it will still be affected by Outgoing Healing Boosts. This may initially seem like a heavy downside to have for a character designed primarily for healing, but he has ways of circumventing the lack of explicit scaling, and the far more interesting benefit of this is that Gallagher gets to build pretty much however he wants to and his healing will not suffer as a result.\n His Skill targets a single ally and heals them for up to 1600 HP. Yep, that’s it. But hey, 1600 HP is not a small amount, it’s pretty frequently around 50% Max HP for DPS characters, and keep in mind that this is before any bonuses to Outgoing Healing, so this actually becomes a very potent heal once you’ve got some even lacklustre relics. The downside is that it doesn’t do anything else, meaning you won’t get any additional healing over time or a cleanse.\n Gallagher’s Ultimate hits all enemies on the field, inflicting the Besotted debuff on them and dealing up to 150% ATK to enemies hit. This debuff is not tied to Effect Hit Rate and will always be applied, making it very consistent. This Ultimate will also Enhance Gallagher’s next Basic ATK to Nectar Blitz.\n Both the Enhanced Basic and the Besotted state are tied to his Talent. The Besotted state will increase the Break DMG that afflicted enemies will receive by up to 12% , and any time a Besotted enemy is attacked by an ally, the attacker will have their HP restored by up to 640 HP. The Enhanced Basic Nectar Blitz will deal up to 250% ATK to a single enemy and reduces their ATK by up to 15% for 2 turns, scaling with Basic ATK Trace level.\n You can see how Besotted is very similar in function to what Luocha’s Abyss Flower provides, healing allies for simply attacking foes. It’s a little less forgiving than Luocha , since Luocha has virtually no effort maintaining his Abyss Flower field due to the emergency healing passive on his Skill, and Gallagher actually has a slightly higher Energy cost on his Ultimate of 110. Additionally, since this healing is tied to a debuff, it puts the onus on Gallagher to be fast enough to keep up with enemies’ SPD, as overly fast enemies will shed the Besotted state quite quickly.\n The tradeoff for this is that Besotted also has the offensive component of the increased Break DMG received. This is the first of its kind in Star Rail (for a Sustain), as Break is notorious for being unaffected by anything besides the Break Effect stat. For the setups that excel in Break, this can turn already obscene Break damage into actual nuclear detonations — Firefly and Boothil absolutely send their regards. Beyond the obvious synergies with Break characters, this also serves as a strong situational boost to the team’s damage at no extra cost or effort.\n It’s important to note as well that Nectar Blitz deals a whopping 90 Toughness damage by default, equivalent to most single-target Ultimates . Combining with the AoE 60 Toughness damage from his Ultimate, Gallagher can very quickly deal 150 Toughness to a single enemy, which is just unheard of for a sustain unit to be doing. Oh and the ATK reduction debuff Nectar Blitz applies is also exempt from the Effect Hit Rate checks, so it’s also guaranteed, and a 15% reduction is nothing to scoff at, as it can very significantly reduce the overall incoming damage to the team in certain scenarios.\n The ironic downside of this is that if you Break the enemy with Gallagher’s Ultimate as a means of delaying their Action, they’ll end up recovering quicker than you’d like and you’ll get less time to take advantage of the Besotted state; to counteract this, if you’re going to be using Gallagher’s Ultimate to Break a powerful enemy and stop their Action, make sure to do it after their turn has already started so that you do not lose as much uptime on his Besotted state. You may have to take a hit first but it’s the far better option than being stuck without Besotted for some turns.\n Gallagher’s Bonus Traces are quite important for him to gain access to, as their effects are highly potent. His A2 will increase his own Outgoing Healing Boost by an amount equal to 50% of his Break Effect, up to a maximum bonus of 75% Outgoing Healing. This means he’ll max this out at 150% Break Effect. Since his healing is completely flat, you can almost consider this to be the scaling component being re-added. Since calculating Outgoing Healing is really easy when there are only flat additional values in play, this is an as-listed multiplier to his healing.\n This ends up making his otherwise slightly uncomfortable healing over time from Besotted actually quite powerful and competitive ; if you have the maximum bonus from his A2 and you also have an Outgoing Healing Boost chest piece equipped, Gallagher’s healing is more than doubled, and he can reach values criminally close to Luocha’s Abyss Flower. The downside remains that Besotted will only heal the attacker and doesn’t have an AoE healing component like Abyss Flower.\n Of course, as mentioned before, Gallagher deals an astounding amount of Toughness damage all by himself, and the Besotted state with his A2 is now more than enough to sustain the team almost on its own, meaning Gallagher will also be using Basic ATK often to add onto the Toughness damage. Incentivising building Break Effect on him will have the additional result of making the Break he gets dealing a huge chunk of upfront damage — Fire is not the most amazing Break in the game as its ensuing Burn Damage over Time is not as impressive as other Breaks, but its immediate damage is among the highest, being joint first place with Physical Bleed’s initial proc.\n Gallagher’s A4 makes it so that he gets a 100% Action Advance upon using his Ultimate, meaning it is now his turn again. This is a ridiculously powerful tool to have available for the sustain unit in a team, since it means he can eke out extra actions where his SPD would simply not allow for ordinarily. When used carefully, this will also greatly alleviate the SPD needs of Gallagher and will allow him to keep up with foes much more easily, thus reducing the potential downtime of the now potent Besotted state. Since his Ultimate also grants him Nectar Blitz, this can allow for a very fast near on-demand 150 Toughness damage, making it quite good as a means to quickly Break a foe before a dangerous move.\n Do keep in mind, however, that Gallagher still requires a lot of SPD stats , as his Ultimate’s cost is 110 and both forms of his Basic ATK only restore 20 Energy, meaning you will not be able to keep up with enemies in the endgame if your Gallagher is relying exclusively on this Bonus Trace to meet SPD thresholds.\n Finally, Gallagher’s A6 will allow the Nectar Blitz he uses against Besotted enemies to apply the healing effect of his Talent to all allies for this attack, meaning he now has a potent AoE heal that he gets to use quite literally immediately after using his Ultimate to inflict the Besotted state on enemies. Coupled with his A4’s 100% Action Advance, Gallagher now has a pretty good party-wide emergency heal available to him.\n As a 4-star character, it is likely to get Gallagher’s Eidolons over time. They are not at all required for him to excel, but they do provide very notable benefits to what he was already doing well. E1 will immediately regenerate 20 Energy upon entering combat and will additionally increase Gallagher’s Effect RES by a very impressive 50%. E2 will allow his Skill to cleanse a debuff from the targeted ally and will also increase their Effect RES by 30% for 2 turns. E4 extends the duration of the Besotted state by 1 turn, for a new maximum duration of 3 turns, and finally, E6 will increase Gallagher’s Break Effect and Break Efficiency by 20% each.\n Gallagher is currently the best 4-star Sustain and he's competing - and even beating - a lot of limited characters in this category. To be providing as much healing as he can do while still having great offensive utility is currently quite rare, especially so for a 4-star character. He was the primary choice for any Break-related teams (Firefly, Boothill, or Rappa) until Lingsha appeared who is a big sister to him with improved performance. But this doesn't make Gallagher obsolete as he's just behind her when it comes to the Break-Sustain role and you also need two teams for the endgame content anyway. She's also a Limited character while he's a 4-star and that's a very important distinction.\n On top of the Super Break, Gallagher is also great in HP% sacrifice team, especially when you pair him with Castorice . The Cute Reaper requires often and strong healing to charge her Ultimate and Gallagher healing output is unmatched, making him the best Healer to be paired with Castorice - currently. Due to how Gallagher’s debuff works, allies can trigger his healing debuff multiple times when attacking multiple enemies affected by the debuff. For this reason he boasts some of the highest healing output provided that his Ultimate debuff can be maintained on multiple enemies.\n Furthermore, due to his debuffing capabilities, Gallagher also makes for a fantastic pairing with characters who rely on having enemies affected by them, such as Dr. Ratio and Acheron, and he even helps offset the requirement for a Relic set like Pioneer Diver of Dead Waters.\n Also, compared to Lingsha, Gallagher can use the Quid Pro Quo Light Cone without sacrificing other parts of his kit - QPQ provides additional energy to the team, helping with Ultimate downtime.\n Man really showed up and said, ‘I’m a healer, but…’\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Sustain\n Eidolon 0\n T1.5\n MoC\n\n T1.5\n PF\n\n T1\n AS\n\n Eidolon 6\n T1\n MoC\n\n T1\n PF\n\n T0.5\n AS\n\n Build and teams\n\n Best Light Cones\n\n 1\n\n Scent Alone Stays True (S 1 )\n\n An offensive option for Gallagher, enabling him to apply an 18% Vulnerability debuff, while still maintaining strong healing output thanks to Gallagher’s Break Effect to Outgoing Healing conversion Trace.\n Usage: 1.97 %\n MoC: -\n PF: 0\n AS: 3245\n\n 2\n\n Quid Pro Quo (S 1 )\n\n Utility option to regenerate Energy for other allies, notably Gallagher with his Ultimate Action Advance can trigger the effect more often.\n Usage: 45.28 %\n MoC: -\n PF: 40000\n AS: 3373\n\n 3\n\n Post-Op Conversation (S 5 )\n\n While the Outgoing Healing Bonus does not work for other allies, the increased Energy Regeneration Rate can enable faster access to Gallagher’s powerful Ultimate to maintain the debuff uptime.\n Usage: 4.43 %\n MoC: -\n PF: 0\n AS: 0\n\n 4\n\n What Is Real? (S 5 )\n\n An option for his Super Break DMG, and can also be used in HP fluctuation teams for healing output, thanks to his Traces converting Break Effect into Outgoing Healing.\n Usage: 21.28 %\n MoC: 10 cyc.\n PF: 0\n AS: 3291\n\n 5\n\n Unto Tomorrow's Morrow (S 5 )\n\n Provides allies with some DMG boost. Not suitable for Break-oriented compositions.\n\n Specialist Light Cones\n 1\n\n Shared Feeling (S 5 )\n\n In teams where Gallagher can afford to spam his Skill, Shared Feeling is an excellent option to boost his healing output while also regenerating Energy for the entire team.\n Usage: 1.89 %\n MoC: -\n PF: 0\n AS: 0\n\n 2\n\n Warmth Shortens Cold Nights (S 5 )\n\n When paired with Castorice, this Light Cone allows Gallagher to additionally generate some “Newbud” points every turn.\n\n 3\n\n Multiplication (S 5 )\n\n When survivability is less of a concern, Multiplication can be useful on Gallgher to generate as much Skill Points as possible.\n Usage: 7.8 %\n MoC: 6 cyc.\n PF: 0\n AS: 3363\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Warrior Goddess of Sun and Thunder ( 4 -PC)\n\n Best in slot for CRIT teams for the 15% team-wide CRIT DMG boost. Can also be used in Break teams just for the 12% SPD increase.\n Usage: 14.97 %\n MoC: -\n PF: 0\n AS: 3637\n\n 2\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n Outside of a pure focus on Break-damage Gallagher has no dedicated 4P Relic set that is ideal for him.\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Watchmaker, Master of Dream Machinations\n\n Iron Cavalry Against the Scourge\n\n Thief of Shooting Meteor\n\n Passerby of Wandering Cloud\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Best Specialist Relic Sets\n 1\n\n Iron Cavalry Against the Scourge ( 4 -PC)\n\n Top damage-focused option for characters that play within teams that leverage Super Break or deal predominantly Break/Super Break damage themselves. Becomes even stronger with additional sources of DEF% reduction. When playing Gallagher in teams with a source of team-wide Super Break, this option boosts his personal damage considerably. Without a source of Super Break this option is not nearly as useful.\n Usage: 7.43 %\n MoC: -\n PF: 0\n AS: 3258\n\n 2\n\n Thief of Shooting Meteor ( 4 -PC)\n\n Good option for Break-scaling characters especially those who can benefit from the additional energy gain granted when the wearer Breaks enemies. Especially potent for and recommended for AoE capable characters in modes with many enemies to break like Pure Fiction.\n Usage: 15.53 %\n MoC: -\n PF: 25680\n AS: 2959\n\n Best Planetary Sets\n 1\n\n Forge of the Kalpagni Lantern ( 2 -PC)\n\n Powerful Break-focused set, primarily for Fire characters. Useful both for Break characters and Break scaling Supports and Sustains thanks to its massive Break Effect% buff and permanent 6% Speed boost.\n Usage: 31.32 %\n MoC: 10 cyc.\n PF: 0\n AS: 3294\n\n 2\n\n Talia: Kingdom of Banditry ( 2 -PC)\n\n Strong Break-focused planar set suitable for all Break scaling characters without the conditional requirements of Forge of Kalpagni - assuming the wearer can reach the 145 Speed requirement.\n Usage: 11.8 %\n MoC: -\n PF: 28520\n AS: 3256\n\n Best Specialist Planetary Sets\n 1\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 2\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n Usage: 14.3 %\n MoC: -\n PF: 25680\n AS: 3495\n\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n Usage: 12.54 %\n MoC: 6 cyc.\n PF: 0\n AS: 3547\n\n 5\n\n Giant Tree of Rapt Brooding ( 2 -PC)\n\n Powerful set focusing on achieving higher SPD and healing output. In Break teams, the extra healing output from this set might not be needed.\n Usage: 15.61 %\n MoC: -\n PF: 0\n AS: 3275\n\n Best Stats\n\n Body\n Outgoing Healing\n\n Feet\n Speed\n\n Planar Sphere\n HP%\n >= DEF%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (as much as possible) > Break Effect % (up to 150%) > Effect RES% > HP% = DEF%\n\n Executing Gallagher's rotation faster will yield higher uptime of his Besotted state debuff on enemies fueling his main healing source his talent. Gaining as much Speed as possible is essential but after that Break Effect is Gallagher's only other way to scale his kit thanks to his bonus ability that converts it into Healing Output%. After gaining max Speed and as much Break Effect% as possible invest into defenses.\n\n Recommended endgame stats\n HP: 4300 - 4700+\n\n DEF: 800+\n\n SPD: 134 (Recommended) / 143 / 160\n\n Break Effect%: 60% (no more than 150%)\n\n Traces priority\n Skills priority: Talent > Skill > Basic > Ultimate\n\n Major Traces priority: Novel Concoction (A2) > Bottoms Up (A6) > Organic Yeast (A4)\n\n Synergy\n Castorice Mydei - Due to how Gallagher’s debuff works, allies can trigger his healing debuff multiple times when attacking multiple enemies affected by the debuff. For this reason he boasts some of the highest healing output provided that his Ultimate debuff can be maintained on multiple enemies.\n Trailblazer • Harmony - Trailblazer • Harmony allows Gallagher to achieve some ridiculous Super Break numbers with his Besotted state from his Ultimate, increasing all Break damage on enemies, while also contributing as the Sustain, making him the perfect Sustain for any Break-centric teams currently.\n Ruan Mei - Ruan Mei gives Gallagher an insane boost in content weak against Fire for Breaking, and in Super Break teams makes him nearly as strong as Harmony Trailblazer itself at E6 in terms of Super Break damage.\n Acheron - Providing debuffs is one of the main things Acheron looks for in teammates, and Gallagher just so happens to provide 2 debuffs very quickly in short succession; 1 on Ultimate, and 1 on his Enhanced Basic, giving Acheron the much-needed debuffs she wants for quicker Ultimates.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 12\n App. rate: 3.58 %\n Avg. cycles : 8.48\n Avg. cycles (E1+): 6.48\n\n Rank 29\n App. rate: 0.93 %\n Avg. cycles : 8.43\n Avg. cycles (E1+): 7.04\n\n Rank 45\n App. rate: 0.48 %\n Avg. cycles : 9\n Avg. cycles (E1+): 7.74\n\n Rank 115\n App. rate: 0.14 %\n Avg. cycles : 10\n Avg. cycles (E1+): 4.86\n\n Rank 138\n App. rate: 0.1 %\n Avg. cycles : 8.75\n Avg. cycles (E1+): 5.14\n\n New\n\n Rank 160\n App. rate: 0.09 %\n Avg. cycles : 9\n Avg. cycles (E1+): 5.31\n\n New\n\n Rank 160\n App. rate: 0.09 %\n Avg. cycles : -\n Avg. cycles (E1+): 8.57\n\n Rank 167\n App. rate: 0.08 %\n Avg. cycles : 7.5\n Avg. cycles (E1+): 4.1\n\n Rank 185\n App. rate: 0.07 %\n Avg. cycles : -\n Avg. cycles (E1+): 8.86\n\n Rank 202\n App. rate: 0.06 %\n Avg. cycles : 9\n Avg. cycles (E1+): 4.11\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

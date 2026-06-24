@@ -13,6 +13,1013 @@
   "changedCount": 15,
   "roster": [
     {
+      "id": "hsr-yao-guang",
+      "n": "Yao Guang",
+      "title": "Gleam of a Thousand Plumes",
+      "slug": "yao-guang",
+      "updated": 1781474400000,
+      "sourceOrder": 0,
+      "icon": "../../Database/Nanoka/hsr/assets/characters/round/1502.webp",
+      "art": "../../Database/Prydwen/hsr/assets/characters/yao-guang-116e442805a2.webp",
+      "card": "../../Database/Prydwen/hsr/assets/characters/yao-guang-84b9f69c7269.webp",
+      "holidayArtPool": [
+        "../../Database/HsrWiki/holiday-art/yaoguang/01-Chinese New Year 2026.png",
+        "../../Database/HsrWiki/holiday-art/yaoguang/02-Chinese New Year 2026 Yao Guang.png",
+        "../../Database/HsrWiki/holiday-art/yaoguang/03-Chinese New Year 2026 2.png"
+      ],
+      "signatureLightCone": {
+        "id": "23054",
+        "name": "When She Decided to See",
+        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/23054.webp",
+        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/23054.webp",
+        "path": "Elation"
+      },
+      "signatureWeapon": {
+        "id": "23054",
+        "name": "When She Decided to See",
+        "path": "Elation",
+        "educated": false
+      },
+      "signatureWeaponId": "23054",
+      "signatureWeaponName": "When She Decided to See",
+      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/23054.webp",
+      "overviewArtPool": [
+        "../../Database/Nanoka/hsr/assets/lightcones/full/23054.webp"
+      ],
+      "status": "live",
+      "labels": [],
+      "r": 5,
+      "el": "Physical",
+      "path": "Elation",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1502_Passive.webp"
+      ],
+      "req": {
+        "ascension": [
+          {
+            "id": "110431",
+            "name": "Invasive Clot",
+            "qty": 65,
+            "rar": 5,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110431.webp"
+          },
+          {
+            "id": "116001",
+            "name": "Whimsy Wax",
+            "qty": 15,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+          },
+          {
+            "id": "116002",
+            "name": "Dreamweave Steel",
+            "qty": 15,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+          },
+          {
+            "id": "116003",
+            "name": "Lucid Awl",
+            "qty": 15,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+          }
+        ],
+        "talents": [
+          {
+            "id": "116001",
+            "name": "Whimsy Wax",
+            "qty": 41,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+          },
+          {
+            "id": "116002",
+            "name": "Dreamweave Steel",
+            "qty": 56,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+          },
+          {
+            "id": "116003",
+            "name": "Lucid Awl",
+            "qty": 58,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 8,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110261",
+            "name": "The Fluffy Hand-drawn Storyboards",
+            "qty": 18,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+          },
+          {
+            "id": "110262",
+            "name": "The Fluffy Serialization Memorial Issue",
+            "qty": 69,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+          },
+          {
+            "id": "110263",
+            "name": "The Fluffy Collector's Edition",
+            "qty": 139,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+          },
+          {
+            "id": "110508",
+            "name": "...",
+            "qty": 12,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 16000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 5,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 15000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 24000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 65000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 6,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                }
+              ]
+            },
+            {
+              "cost": 250000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 12,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 15000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 24000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 65000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 6,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                }
+              ]
+            },
+            {
+              "cost": 250000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 12,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "116001",
+                  "name": "Whimsy Wax",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 15000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 24000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "116002",
+                  "name": "Dreamweave Steel",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 65000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                },
+                {
+                  "id": "116003",
+                  "name": "Lucid Awl",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 6,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                }
+              ]
+            },
+            {
+              "cost": 250000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 12,
+                  "rar": 5,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110508",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+                }
+              ]
+            }
+          ]
+        ],
+        "talentBase": [
+          {
+            "id": "116001",
+            "name": "Whimsy Wax",
+            "qty": 15,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+          },
+          {
+            "id": "116002",
+            "name": "Dreamweave Steel",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+          },
+          {
+            "id": "116003",
+            "name": "Lucid Awl",
+            "qty": 36,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 2,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110261",
+            "name": "The Fluffy Hand-drawn Storyboards",
+            "qty": 7,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+          },
+          {
+            "id": "110262",
+            "name": "The Fluffy Serialization Memorial Issue",
+            "qty": 28,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+          },
+          {
+            "id": "110263",
+            "name": "The Fluffy Collector's Edition",
+            "qty": 59,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+          },
+          {
+            "id": "110508",
+            "name": "...",
+            "qty": 3,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
+          }
+        ],
+        "talentBaseCost": 1260000,
+        "ascCost": 308000,
+        "talentCost": 3000000,
+        "currency": 3693000,
+        "weapon": {
+          "name": "When She Decided to See",
+          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/23054.webp",
+          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/23054.webp",
+          "path": "Elation",
+          "items": [
+            {
+              "id": "116001",
+              "name": "Whimsy Wax",
+              "qty": 20,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
+            },
+            {
+              "id": "116002",
+              "name": "Dreamweave Steel",
+              "qty": 20,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
+            },
+            {
+              "id": "116003",
+              "name": "Lucid Awl",
+              "qty": 14,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
+            },
+            {
+              "id": "110261",
+              "name": "The Fluffy Hand-drawn Storyboards",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
+            },
+            {
+              "id": "110262",
+              "name": "The Fluffy Serialization Memorial Issue",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
+            },
+            {
+              "id": "110263",
+              "name": "The Fluffy Collector's Edition",
+              "qty": 15,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
+            }
+          ],
+          "cost": 385000
+        }
+      },
+      "recent": 1,
+      "betaStatus": "changed"
+    },
+    {
       "id": "hsr-evanescia",
       "n": "Evanescia",
       "title": "The Demoiselle in Charge",
@@ -46,6 +1053,12 @@
       "r": 5,
       "el": "Physical",
       "path": "Elation",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1505_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -1048,6 +2061,12 @@
       "r": 5,
       "el": "Fire",
       "path": "Nihility",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1507_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -2026,6 +3045,12 @@
       "r": 5,
       "el": "Lightning",
       "path": "Destruction",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1509_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1509_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1509_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1509_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -2947,6 +3972,12 @@
       "r": 5,
       "el": "Fire",
       "path": "Erudition",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1510_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1510_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1510_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1510_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -3849,7 +4880,6 @@
         "talentCost": 3000000,
         "currency": 3308000
       },
-      "recent": 1,
       "betaStatus": "changed"
     },
     {
@@ -3886,6 +4916,12 @@
       "r": 5,
       "el": "Wind",
       "path": "Harmony",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1412_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -4857,6 +5893,10 @@
       "icon": "../../Database/Nanoka/hsr/assets/characters/round/1504.webp",
       "art": "../../Database/Prydwen/hsr/assets/characters/ashveil-b9f510eb9e49.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/ashveil-052ce1666926.webp",
+      "holidayArtPool": [
+        "../../Database/HsrWiki/holiday-art/ashveil/01-Chinese New Year 2026 Ashveil Welt.png",
+        "../../Database/HsrWiki/holiday-art/ashveil/02-Chinese New Year 2026 2.png"
+      ],
       "signatureLightCone": {
         "id": "23056",
         "name": "The Finale of a Lie",
@@ -4881,6 +5921,12 @@
       "r": 5,
       "el": "Lightning",
       "path": "Hunt",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1504_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -5879,6 +6925,12 @@
       "r": 5,
       "el": "Quantum",
       "path": "Nihility",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1406_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -6878,6 +7930,12 @@
       "r": 5,
       "el": "Ice",
       "path": "Remembrance",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1415_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -7883,6 +8941,12 @@
       "r": 5,
       "el": "Physical",
       "path": "Preservation",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1414_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -8878,6 +9942,12 @@
       "r": 5,
       "el": "Physical",
       "path": "Nihility",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1410_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -9877,6 +10947,12 @@
       "r": 5,
       "el": "Physical",
       "path": "Destruction",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1408_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -10854,6 +11930,12 @@
       "r": 5,
       "el": "Quantum",
       "path": "Erudition",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1508_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1508_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1508_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1508_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -11792,6 +12874,12 @@
       "r": 5,
       "el": "Fire",
       "path": "Elation",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1501_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -12790,6 +13878,12 @@
       "r": 5,
       "el": "Fire",
       "path": "Nihility",
+      "skillIcons": [
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_Normal.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_BP.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_Ultra.webp",
+        "../../Database/Nanoka/hsr/assets/skills/SkillIcon_1321_Passive.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -13744,1006 +14838,6 @@
               "rar": 5,
               "kind": "book",
               "icon": "../../Database/Nanoka/hsr/assets/items/110223.webp"
-            }
-          ],
-          "cost": 385000
-        }
-      },
-      "betaStatus": "changed"
-    },
-    {
-      "id": "hsr-yao-guang",
-      "n": "Yao Guang",
-      "title": "Gleam of a Thousand Plumes",
-      "slug": "yao-guang",
-      "updated": 1780178400000,
-      "sourceOrder": 0,
-      "icon": "../../Database/Nanoka/hsr/assets/characters/round/1502.webp",
-      "art": "../../Database/Prydwen/hsr/assets/characters/yao-guang-116e442805a2.webp",
-      "card": "../../Database/Prydwen/hsr/assets/characters/yao-guang-84b9f69c7269.webp",
-      "holidayArtPool": [
-        "../../Database/HsrWiki/holiday-art/yaoguang/01-Chinese New Year 2026.png",
-        "../../Database/HsrWiki/holiday-art/yaoguang/02-Chinese New Year 2026 Yao Guang.png",
-        "../../Database/HsrWiki/holiday-art/yaoguang/03-Chinese New Year 2026 2.png"
-      ],
-      "signatureLightCone": {
-        "id": "23054",
-        "name": "When She Decided to See",
-        "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/23054.webp",
-        "art": "../../Database/Nanoka/hsr/assets/lightcones/full/23054.webp",
-        "path": "Elation"
-      },
-      "signatureWeapon": {
-        "id": "23054",
-        "name": "When She Decided to See",
-        "path": "Elation",
-        "educated": false
-      },
-      "signatureWeaponId": "23054",
-      "signatureWeaponName": "When She Decided to See",
-      "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/23054.webp",
-      "overviewArtPool": [
-        "../../Database/Nanoka/hsr/assets/lightcones/full/23054.webp"
-      ],
-      "status": "live",
-      "labels": [],
-      "r": 5,
-      "el": "Physical",
-      "path": "Elation",
-      "req": {
-        "ascension": [
-          {
-            "id": "110431",
-            "name": "Invasive Clot",
-            "qty": 65,
-            "rar": 5,
-            "kind": "boss",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110431.webp"
-          },
-          {
-            "id": "116001",
-            "name": "Whimsy Wax",
-            "qty": 15,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-          },
-          {
-            "id": "116002",
-            "name": "Dreamweave Steel",
-            "qty": 15,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-          },
-          {
-            "id": "116003",
-            "name": "Lucid Awl",
-            "qty": 15,
-            "rar": 5,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-          }
-        ],
-        "talents": [
-          {
-            "id": "116001",
-            "name": "Whimsy Wax",
-            "qty": 41,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-          },
-          {
-            "id": "116002",
-            "name": "Dreamweave Steel",
-            "qty": 56,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-          },
-          {
-            "id": "116003",
-            "name": "Lucid Awl",
-            "qty": 58,
-            "rar": 5,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-          },
-          {
-            "id": "241",
-            "name": "Tracks of Destiny",
-            "qty": 8,
-            "rar": 4,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
-          },
-          {
-            "id": "110261",
-            "name": "The Fluffy Hand-drawn Storyboards",
-            "qty": 18,
-            "rar": 2,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
-          },
-          {
-            "id": "110262",
-            "name": "The Fluffy Serialization Memorial Issue",
-            "qty": 69,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-          },
-          {
-            "id": "110263",
-            "name": "The Fluffy Collector's Edition",
-            "qty": 139,
-            "rar": 5,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-          },
-          {
-            "id": "110508",
-            "name": "...",
-            "qty": 12,
-            "rar": 5,
-            "kind": "weekly",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-          }
-        ],
-        "talentStages": [
-          [
-            {
-              "cost": 4000,
-              "items": [
-                {
-                  "id": "110261",
-                  "name": "The Fluffy Hand-drawn Storyboards",
-                  "qty": 2,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
-                },
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 5,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 8000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 16000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 32000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 3,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 120000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 5,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 2,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 4000,
-              "items": [
-                {
-                  "id": "110261",
-                  "name": "The Fluffy Hand-drawn Storyboards",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
-                },
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 5,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 8000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 15000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 24000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 32000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 65000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 120000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 6,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                }
-              ]
-            },
-            {
-              "cost": 250000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 12,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 2,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 4000,
-              "items": [
-                {
-                  "id": "110261",
-                  "name": "The Fluffy Hand-drawn Storyboards",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
-                },
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 5,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 8000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 15000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 24000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 32000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 65000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 120000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 6,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                }
-              ]
-            },
-            {
-              "cost": 250000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 12,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 2,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 4000,
-              "items": [
-                {
-                  "id": "110261",
-                  "name": "The Fluffy Hand-drawn Storyboards",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
-                },
-                {
-                  "id": "116001",
-                  "name": "Whimsy Wax",
-                  "qty": 5,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 8000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 15000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 24000,
-              "items": [
-                {
-                  "id": "110262",
-                  "name": "The Fluffy Serialization Memorial Issue",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-                },
-                {
-                  "id": "116002",
-                  "name": "Dreamweave Steel",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 32000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 65000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                },
-                {
-                  "id": "116003",
-                  "name": "Lucid Awl",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 120000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 6,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                }
-              ]
-            },
-            {
-              "cost": 250000,
-              "items": [
-                {
-                  "id": "110263",
-                  "name": "The Fluffy Collector's Edition",
-                  "qty": 12,
-                  "rar": 5,
-                  "kind": "book",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110508",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-                }
-              ]
-            }
-          ]
-        ],
-        "talentBase": [
-          {
-            "id": "116001",
-            "name": "Whimsy Wax",
-            "qty": 15,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-          },
-          {
-            "id": "116002",
-            "name": "Dreamweave Steel",
-            "qty": 18,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-          },
-          {
-            "id": "116003",
-            "name": "Lucid Awl",
-            "qty": 36,
-            "rar": 5,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-          },
-          {
-            "id": "241",
-            "name": "Tracks of Destiny",
-            "qty": 2,
-            "rar": 4,
-            "kind": "mob",
-            "icon": "../../Database/Nanoka/hsr/assets/items/241.webp"
-          },
-          {
-            "id": "110261",
-            "name": "The Fluffy Hand-drawn Storyboards",
-            "qty": 7,
-            "rar": 2,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
-          },
-          {
-            "id": "110262",
-            "name": "The Fluffy Serialization Memorial Issue",
-            "qty": 28,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-          },
-          {
-            "id": "110263",
-            "name": "The Fluffy Collector's Edition",
-            "qty": 59,
-            "rar": 5,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
-          },
-          {
-            "id": "110508",
-            "name": "...",
-            "qty": 3,
-            "rar": 5,
-            "kind": "weekly",
-            "icon": "../../Database/Nanoka/hsr/assets/items/110508.webp"
-          }
-        ],
-        "talentBaseCost": 1260000,
-        "ascCost": 308000,
-        "talentCost": 3000000,
-        "currency": 3693000,
-        "weapon": {
-          "name": "When She Decided to See",
-          "icon": "../../Database/Nanoka/hsr/assets/lightcones/medium/23054.webp",
-          "art": "../../Database/Nanoka/hsr/assets/lightcones/full/23054.webp",
-          "path": "Elation",
-          "items": [
-            {
-              "id": "116001",
-              "name": "Whimsy Wax",
-              "qty": 20,
-              "rar": 2,
-              "kind": "mob",
-              "icon": "../../Database/Nanoka/hsr/assets/items/116001.webp"
-            },
-            {
-              "id": "116002",
-              "name": "Dreamweave Steel",
-              "qty": 20,
-              "rar": 3,
-              "kind": "mob",
-              "icon": "../../Database/Nanoka/hsr/assets/items/116002.webp"
-            },
-            {
-              "id": "116003",
-              "name": "Lucid Awl",
-              "qty": 14,
-              "rar": 5,
-              "kind": "mob",
-              "icon": "../../Database/Nanoka/hsr/assets/items/116003.webp"
-            },
-            {
-              "id": "110261",
-              "name": "The Fluffy Hand-drawn Storyboards",
-              "qty": 4,
-              "rar": 2,
-              "kind": "book",
-              "icon": "../../Database/Nanoka/hsr/assets/items/110261.webp"
-            },
-            {
-              "id": "110262",
-              "name": "The Fluffy Serialization Memorial Issue",
-              "qty": 12,
-              "rar": 3,
-              "kind": "book",
-              "icon": "../../Database/Nanoka/hsr/assets/items/110262.webp"
-            },
-            {
-              "id": "110263",
-              "name": "The Fluffy Collector's Edition",
-              "qty": 15,
-              "rar": 5,
-              "kind": "book",
-              "icon": "../../Database/Nanoka/hsr/assets/items/110263.webp"
             }
           ],
           "cost": 385000

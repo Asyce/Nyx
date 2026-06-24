@@ -75019,7 +75019,9 @@
     "description": "Stay tuned",
     "attack": 588,
     "subStat": "Crit. Rate",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020096_UI.webp"
+    },
     "stats": {
       "0": {
         "1": [
@@ -76604,7 +76606,7 @@
       ]
     },
     "liveComparison": {
-      "currentHash": "da0e7c57452db4f7266b5a011f11243d1bd3a07bbfbba0ec7ce975c898dde5a2"
+      "currentHash": "11b1cc55250965fda7acaa01c2330246a7308eca14927fc2204441d74cc597aa"
     }
   },
   {
@@ -188265,7 +188267,9 @@
     "description": "Stay tuned",
     "attack": 412,
     "subStat": "Energy Regen",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050096_UI.webp"
+    },
     "stats": {
       "0": {
         "1": [
@@ -189843,7 +189847,7 @@
       ]
     },
     "liveComparison": {
-      "currentHash": "5544fd83cb9f16f0b3e624b7235b3efa2456c1a5bf0d79ca5ef00ce4286e9a73"
+      "currentHash": "a6eb791049eee5f3309c297ef9007f2e6a7ba6b8d264e75cfd186693df2bded9"
     }
   },
   {

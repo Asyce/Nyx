@@ -1,0 +1,101 @@
+{
+  "startedAt": "2026-06-22T21:05:29.448Z",
+  "generatedAt": "2026-06-22T21:06:37.049Z",
+  "total": 90,
+  "withHolidayArt": 72,
+  "fallbackToSplash": [
+    {
+      "name": "Archer",
+      "status": "fallback",
+      "page": "Archer/Media"
+    },
+    {
+      "name": "Arlan",
+      "status": "fallback",
+      "page": "Arlan/Media"
+    },
+    {
+      "name": "Cerydra",
+      "status": "fallback",
+      "page": "Cerydra/Media"
+    },
+    {
+      "name": "Evanescia",
+      "status": "fallback",
+      "page": "Evanescia/Media"
+    },
+    {
+      "name": "Gallagher",
+      "status": "fallback",
+      "page": "Gallagher/Media"
+    },
+    {
+      "name": "Gilgamesh",
+      "status": "fallback",
+      "page": "Gilgamesh/Media"
+    },
+    {
+      "name": "Guinaifen",
+      "status": "fallback",
+      "page": "Guinaifen/Media"
+    },
+    {
+      "name": "Hanya",
+      "status": "fallback",
+      "page": "Hanya/Media"
+    },
+    {
+      "name": "Herta",
+      "status": "fallback",
+      "page": "Herta/Media"
+    },
+    {
+      "name": "Himeko Nova",
+      "status": "error",
+      "page": "Himeko Nova/Media",
+      "error": "Himeko Nova/Media: missingtitle"
+    },
+    {
+      "name": "Hysilens",
+      "status": "fallback",
+      "page": "Hysilens/Media"
+    },
+    {
+      "name": "Rin Tohsaka",
+      "status": "fallback",
+      "page": "Rin Tohsaka/Media"
+    },
+    {
+      "name": "Saber",
+      "status": "fallback",
+      "page": "Saber/Media"
+    },
+    {
+      "name": "Silver Wolf • Lv. 999",
+      "status": "error",
+      "page": "Silver Wolf • Lv. 999/Media",
+      "error": "Silver Wolf • Lv. 999/Media: missingtitle"
+    },
+    {
+      "name": "Sparxie",
+      "status": "fallback",
+      "page": "Sparxie/Media"
+    },
+    {
+      "name": "Tingyun",
+      "status": "fallback",
+      "page": "Tingyun/Media"
+    },
+    {
+      "name": "Tingyun • Fugue",
+      "status": "error",
+      "page": "Tingyun • Fugue/Media",
+      "error": "Tingyun • Fugue/Media: missingtitle"
+    },
+    {
+      "name": "Xueyi",
+      "status": "fallback",
+      "page": "Xueyi/Media"
+    }
+  ]
+}

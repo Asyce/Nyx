@@ -1,9 +1,16 @@
 {
-  "updated": "2026-06-13T20:18:16.462Z",
+  "checkedAt": "2026-06-22T20:55:50.876Z",
+  "updated": "2026-06-22T20:55:50.876Z",
   "games": [
     {
       "id": "hsr",
       "name": "Honkai: Star Rail",
+      "freshness": {
+        "status": "fresh",
+        "checkedAt": "2026-06-22T20:55:50.876Z",
+        "lastSuccessfulFetch": "2026-06-22T20:55:50.876Z",
+        "source": "game8"
+      },
       "current": {
         "phase": "4.3",
         "characters": [
@@ -54,6 +61,12 @@
     {
       "id": "genshin",
       "name": "Genshin Impact",
+      "freshness": {
+        "status": "fresh",
+        "checkedAt": "2026-06-22T20:55:50.876Z",
+        "lastSuccessfulFetch": "2026-06-22T20:55:50.876Z",
+        "source": "game8"
+      },
       "current": {
         "phase": "6.6 Phase 2",
         "characters": [
@@ -74,17 +87,49 @@
         "source": "game8"
       },
       "next": {
-        "phase": "6.7",
-        "characters": [],
-        "start": null,
-        "end": null,
+        "phase": "6.7 Phase 1",
+        "characters": [
+          {
+            "name": "Sandrone",
+            "image": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_MarionetteNew_Circle.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_MarionetteNew.webp",
+            "imageFallbackZoom": true
+          },
+          {
+            "name": "Citlali",
+            "image": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Citlali_Circle.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Citlali.webp",
+            "imageFallbackZoom": true
+          }
+        ],
+        "start": "2026-07-01T10:00:00.000Z",
+        "end": "2026-07-21T10:00:00.000Z",
         "source": "game8"
       },
-      "upcoming": []
+      "upcoming": [
+        {
+          "characters": [
+            {
+              "name": "Columbina",
+              "image": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Columbina_Circle.webp",
+              "imageFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Columbina.webp",
+              "imageFallbackZoom": true
+            }
+          ],
+          "start": "2026-07-21T10:00:00.000Z",
+          "end": "2026-08-11T10:00:00.000Z"
+        }
+      ]
     },
     {
       "id": "wuwa",
       "name": "Wuthering Waves",
+      "freshness": {
+        "status": "fresh",
+        "checkedAt": "2026-06-22T20:55:50.876Z",
+        "lastSuccessfulFetch": "2026-06-22T20:55:50.876Z",
+        "source": "game8"
+      },
       "current": {
         "phase": null,
         "characters": [
@@ -106,12 +151,7 @@
       },
       "next": {
         "phase": null,
-        "characters": [
-          {
-            "name": "Cartethyia",
-            "image": "https://static.nanoka.cc/assets/ww/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_40_UI.webp"
-          }
-        ],
+        "characters": [],
         "start": "2026-06-18T10:00:00.000Z",
         "end": "2026-07-09T10:00:00.000Z",
         "source": "game8"
@@ -121,20 +161,13 @@
     {
       "id": "zzz",
       "name": "Zenless Zone Zero",
-      "current": {
-        "phase": null,
-        "characters": [
-          {
-            "name": "Starlight Billy",
-            "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle62.webp",
-            "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect62.webp",
-            "imageFallbackZoom": true
-          }
-        ],
-        "end": "2026-06-16T10:00:00.000Z",
+      "freshness": {
+        "status": "fresh",
+        "checkedAt": "2026-06-22T20:55:50.876Z",
+        "lastSuccessfulFetch": "2026-06-22T20:55:50.876Z",
         "source": "game8"
       },
-      "next": {
+      "current": {
         "phase": null,
         "characters": [
           {
@@ -142,37 +175,32 @@
             "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle64.webp",
             "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect64.webp",
             "imageFallbackZoom": true
+          },
+          {
+            "name": "Ye Shunguang",
+            "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle55.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect55.webp",
+            "imageFallbackZoom": true
           }
         ],
-        "start": "2026-06-17T10:00:00.000Z",
         "end": "2026-07-08T10:00:00.000Z",
         "source": "game8"
       },
+      "next": {
+        "phase": null,
+        "characters": [
+          {
+            "name": "Norma",
+            "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle65.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect65.webp",
+            "imageFallbackZoom": true
+          }
+        ],
+        "start": "2026-07-08T10:00:00.000Z",
+        "end": "2026-07-28T10:00:00.000Z",
+        "source": "game8"
+      },
       "upcoming": [
-        {
-          "characters": [
-            {
-              "name": "Ye Shunguang",
-              "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle55.webp",
-              "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect55.webp",
-              "imageFallbackZoom": true
-            }
-          ],
-          "start": "2026-06-17T10:00:00.000Z",
-          "end": "2026-07-08T10:00:00.000Z"
-        },
-        {
-          "characters": [
-            {
-              "name": "Norma",
-              "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle65.webp",
-              "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect65.webp",
-              "imageFallbackZoom": true
-            }
-          ],
-          "start": "2026-07-08T10:00:00.000Z",
-          "end": "2026-07-28T10:00:00.000Z"
-        },
         {
           "characters": [
             {
@@ -190,6 +218,12 @@
     {
       "id": "endfield",
       "name": "Arknights: Endfield",
+      "freshness": {
+        "status": "fresh",
+        "checkedAt": "2026-06-22T20:55:50.876Z",
+        "lastSuccessfulFetch": "2026-06-22T20:55:50.876Z",
+        "source": "game8"
+      },
       "current": {
         "phase": "1.3 Phase 1",
         "characters": [],

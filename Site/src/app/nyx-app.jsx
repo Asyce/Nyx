@@ -196,18 +196,22 @@ function copyText(txt){
   fallback();
 }
 
-function rewardParts(text){
+function rewardParts(text, max = 6){
+  // Split rewards on item separators (\u00B7, +, comma) but NOT on a comma used as a
+  // thousands separator, e.g. "20,000 Shell Credit" must stay one part instead
+  // of splitting into "20" and "000 Shell Credit".
   return String(text || 'Rewards')
-    .split(/\s*(?:\u00B7|,|\+)\s*/g)
+    .split(/\s*(?:\u00B7|\+|,(?!\d))\s*/g)
     .map((part) => part.trim())
     .filter(Boolean)
-    .slice(0, 6);
+    .slice(0, max);
 }
 
-function RewardChips({ reward, limit = 2 }){
-  const parts = rewardParts(reward);
-  const visible = parts.slice(0, limit);
-  const hidden = parts.slice(limit);
+// `full` (used by the hover popout, G4): show EVERY reward, no "..." truncation.
+function RewardChips({ reward, limit = 2, full = false }){
+  const parts = rewardParts(reward, full ? 99 : 6);
+  const visible = full ? parts : parts.slice(0, limit);
+  const hidden = full ? [] : parts.slice(limit);
   return (
     <div className="reward-chips">
       {visible.map((part, i) => <span key={part + '-' + i}>{part}</span>)}
@@ -317,7 +321,8 @@ function dbGame(key){
 }
 
 function dbCodes(key, fallback){
-  const rows = ((window.NYX_DB && window.NYX_DB.codes && window.NYX_DB.codes.games && window.NYX_DB.codes.games[key]) || dbGame(key)?.codes || [])
+  const codesDb = window.NYX_DB && window.NYX_DB.codes;
+  const rows = ((codesDb && codesDb.games && codesDb.games[key]) || dbGame(key)?.codes || [])
     .filter(c => c && c.code)
     .map(c => {
       const reward = c.reward || c.rewards || 'Rewards';
@@ -331,11 +336,40 @@ function dbCodes(key, fallback){
         premiumCurrency:c.premiumCurrency || meta,
       };
     });
-  return rows.length ? rows : fallback;
+  if (rows.length) return rows;
+  // The real codes source is loaded but this game has none right now → show the
+  // empty state rather than fabricated sample codes. Only fall back to the
+  // built-in samples when there's no codes data at all (e.g. local dev).
+  return codesDb ? [] : (fallback || []);
 }
 
 function dbBannerGroup(key){
   return (window.NYX_DB && window.NYX_DB.banners && window.NYX_DB.banners.games && window.NYX_DB.banners.games[key]) || dbGame(key)?.banners || null;
+}
+
+function bannerFreshness(key){
+  const group = dbBannerGroup(key);
+  return (group && group.freshness) || null;
+}
+
+const BANNER_FRESH_LABEL = {
+  stale:       'Banner data may be out of date',
+  invalid:     'Current banner unconfirmed — refreshing',
+  unavailable: 'Banner data unavailable — refreshing',
+};
+
+// Visible stale/incomplete warning. Renders nothing while data is fresh.
+function BannerFreshnessNote({ fresh }){
+  if (!fresh || !fresh.status || fresh.status === 'fresh') return null;
+  const label = BANNER_FRESH_LABEL[fresh.status] || 'Banner data updating';
+  const checked = fresh.checkedAt ? formatUpdated(fresh.checkedAt) : null;
+  return (
+    <div className={'gp-banner-fresh st-' + fresh.status} role="status">
+      <span className="dot" aria-hidden="true"></span>
+      <span className="lbl">{label}</span>
+      {checked && <span className="chk">Last checked {checked}</span>}
+    </div>
+  );
 }
 
 function shortDuration(ms){
@@ -348,13 +382,15 @@ function shortDuration(ms){
   return Math.max(0, m) + 'm';
 }
 
-function phaseTimeLabel(phase){
+function phaseTimeLabel(phase, opts){
   const end = phase && phase.end ? new Date(phase.end).getTime() : NaN;
   const start = phase && phase.start ? new Date(phase.start).getTime() : NaN;
   const now = Date.now();
-  if (Number.isFinite(end)) return (end >= now ? 'Ends in ' : 'Ended ') + shortDuration(end - now);
-  if (Number.isFinite(start)) return (start >= now ? 'Starts in ' : 'Started ') + shortDuration(start - now);
-  return null;
+  const endLabel = Number.isFinite(end) ? (end >= now ? 'Ends in ' : 'Ended ') + shortDuration(end - now) : null;
+  const startLabel = Number.isFinite(start) ? (start >= now ? 'Starts in ' : 'Started ') + shortDuration(start - now) : null;
+  // Banners that aren't up yet show their START time; live banners show the end.
+  if (opts && opts.preferStart) return startLabel || endLabel;
+  return endLabel || startLabel;
 }
 
 function phasePct(phase, fallback){
@@ -386,28 +422,32 @@ function bannerPhaseCards(cfg){
   const group = dbBannerGroup(cfg.key);
   if (!group) return [];
   const cards = [];
-  const add = (phase, status) => {
+  const is5 = (ch) => { const r = ch && ch.rarity; return r === 5 || r === '5' || r === 'S'; };
+  const add = (phase, status, splitFives) => {
     const chars = phase?.characters || [];
     if (!chars.length) return;
-    const first = chars[0];
-    cards.push({
-      title:phase.phase || cfg.banner?.title || status,
-      status,
-      five:(first.rarity || 5) + '\u2605 ' + first.name,
-      fiveIcon:first.icon || null,
-      chips:chars.slice(1).map((ch, i) => ({
-        key:(ch.name || 'char') + '-' + i,
-        text:(ch.rarity || '') + (ch.rarity ? '\u2605 ' : '') + ch.name,
-        icon:ch.icon || null,
-      })),
-      time:phaseTimeLabel(phase) || 'Date pending',
-      pct:phasePct(phase, cfg.banner?.pct || 42),
-      art:first.art || first.icon || cfg.art,
+    const fives = chars.filter(is5);
+    const fours = chars.filter((ch) => !is5(ch));
+    const fourChips = fours.map((ch, i) => ({ key:(ch.name || 'char') + '-' + i, text:ch.name, icon:ch.icon || null }));
+    // G32: every featured 5\u2605 gets its OWN card (e.g. Lohen AND Mavuika); 4\u2605s are shared chips.
+    const leads = (splitFives && fives.length > 1) ? fives : [fives[0] || chars[0]];
+    leads.forEach((first) => {
+      cards.push({
+        title:phase.phase || cfg.banner?.title || status,
+        status,
+        next:status !== 'Ongoing',
+        five:(first.rarity || 5) + '\u2605 ' + first.name,
+        fiveIcon:first.icon || null,
+        chips:fourChips,
+        time:phaseTimeLabel(phase, { preferStart:status !== 'Ongoing' }) || 'Date pending',
+        pct:phasePct(phase, cfg.banner?.pct || 42),
+        art:first.namecard || first.art || first.icon || cfg.art, // G31: GI prefers namecard, else splash
+      });
     });
   };
-  add(group.current, 'Ongoing');
-  add(group.next, 'Next');
-  (group.upcoming || []).slice(0, 2).forEach((phase) => add(phase, 'Upcoming'));
+  add(group.current, 'Ongoing', true);
+  add(group.next, 'Next', false);
+  (group.upcoming || []).slice(0, 2).forEach((phase) => add(phase, 'Upcoming', false));
   return cards;
 }
 
@@ -458,11 +498,19 @@ NYX_META.banner = Object.assign({}, NYX_META.banner, {
 const buildTrack = (cfg) => Object.assign({ pull:'Wish', pulls:'Wishes', currency:'Primogems', cost:160, fives:[], fours:[] }, cfg.track || {}, { key:cfg.key });
 
 /* ---------------- pinned favourites ---------------- */
-function FavCardI({ ch, idx, w, hgt, dt, faded, h, art }){
+function FavCardI({ ch, idx, w, hgt, dt, faded, h, art, manage, count }){
   const cardArt = overviewCardArt({ art }, ch, idx);
   const artStyle = {
     backgroundImage:bgUrl(cardArt || ch.art || art),
     ...(ch.overviewArtZoom ? { backgroundSize:Math.round(Number(ch.overviewArtZoom || 1) * 100) + '% auto' } : {}),
+  };
+  // When not managing, the card itself is the button that opens details (keyboard
+  // operable). In manage mode the nested controls are the interactive elements,
+  // so the card drops its button role to avoid nested-interactive markup.
+  const openProps = manage ? {} : {
+    role:'button', tabIndex:0,
+    'aria-label':ch.name + (ch.tag ? ' — ' + ch.tag : ''),
+    onKeyDown:navKeyDown(() => h.open(ch)),
   };
   return (
     <div className={'gp-fav bpf grab' + (dt ? ' dt' : '') + (faded ? ' faded' : '')}
@@ -473,16 +521,24 @@ function FavCardI({ ch, idx, w, hgt, dt, faded, h, art }){
          onDragOver={(e) => { e.preventDefault(); h.over('card', idx); }}
          onDragLeave={() => h.leave('card', idx)}
          onDrop={(e) => { e.preventDefault(); h.drop('card', idx); }}
-      onDragEnd={h.end}>
+      onDragEnd={h.end} {...openProps}>
       <div className="artwrap">
         <div className="art" style={artStyle}></div>
         <div className="scrim"></div>
       </div>
       <div className="frame"></div>
-      <div className="ctl">
-        <button type="button" className="tr" title="Unpin favourite"
-                onClick={(e) => { e.stopPropagation(); h.remove(idx); }}>Unpin</button>
-      </div>
+      {manage && (
+        <div className="ctl">
+          <button type="button" className="th" title="Move left" aria-label={'Move ' + ch.name + ' left'}
+                  disabled={idx === 0}
+                  onClick={(e) => { e.stopPropagation(); h.move && h.move(idx, idx - 1); }}>{'‹'}</button>
+          <button type="button" className="tr" title="Unpin favourite" aria-label={'Unpin ' + ch.name}
+                  onClick={(e) => { e.stopPropagation(); h.remove(idx); }}>Unpin</button>
+          <button type="button" className="th" title="Move right" aria-label={'Move ' + ch.name + ' right'}
+                  disabled={count != null && idx >= count - 1}
+                  onClick={(e) => { e.stopPropagation(); h.move && h.move(idx, idx + 1); }}>{'›'}</button>
+        </div>
+      )}
       <div className="nm">{ch.name}{ch.tag ? <span className="sub"> {ch.tag}</span> : null}</div>
     </div>
   );
@@ -490,16 +546,17 @@ function FavCardI({ ch, idx, w, hgt, dt, faded, h, art }){
 
 function AddSlot({ hgt, dt, h }){
   return (
-    <div className={'gp-add' + (dt ? ' dt' : '')}
+    <button type="button" className={'gp-add' + (dt ? ' dt' : '')}
          style={{ width:'72px', height:hgt + 'px' }}
          title="Pin a favourite \u2014 click, or drag an icon here"
+         aria-label="Pin a favourite"
          onClick={h.add}
          onDragOver={(e) => { e.preventDefault(); h.over('add', 0); }}
          onDragLeave={() => h.leave('add', 0)}
          onDrop={(e) => { e.preventDefault(); h.drop('add', 0); }}>
       <span className="fr"></span>
       <span className="plus">+</span>
-    </div>
+    </button>
   );
 }
 
@@ -604,6 +661,11 @@ function Favourites({ cfg, onOpenMaterial }){
         commitCards(cs => { const a = [...cs]; const [m] = a.splice(d.idx, 1); a.splice(idx, 0, m); return a; });
       }
     },
+    // keyboard reorder (no dragging required)
+    move: (from, to) => commitCards((cs) => {
+      if (to < 0 || to >= cs.length || from === to) return cs;
+      const a = [...cs]; const [m] = a.splice(from, 1); a.splice(to, 0, m); return a;
+    }),
   };
 
   const isDt = (zone, idx) => hov && hov.zone === zone && hov.idx === idx;
@@ -632,7 +694,7 @@ function Favourites({ cfg, onOpenMaterial }){
       <div className={'gp-cardrow' + (scroll ? ' scroll' : '')}
            style={{ justifyContent: scroll ? 'flex-start' : 'center' }}>
         {cards.map((c, i) => (
-          <FavCardI key={c.id} ch={c} idx={i} w={cardW} hgt={cardH} dt={isDt('card', i)} faded={!match(c)} h={h} art={cfg.art} />
+          <FavCardI key={c.id} ch={c} idx={i} w={cardW} hgt={cardH} dt={isDt('card', i)} faded={!match(c)} h={h} art={cfg.art} manage={manage} count={cards.length} />
         ))}
         {hasAdd && <AddSlot hgt={cardH} dt={isDt('add', 0)} h={h} />}
       </div>
@@ -696,10 +758,10 @@ function CodeCardRow({ row, currency, onCopy, onToggleRedeemed }){
           : <span className="cur-glyph"></span>)}
         {r.premium && amount && <b>{amount}</b>}
         {!r.premium && <span className="reward-text">{rewardParts(r.reward)[0] || 'Reward'}</span>}
-        <span className="cc-reward-pop" role="tooltip"><RewardChips reward={r.reward} /></span>
+        <span className="cc-reward-pop" role="tooltip"><RewardChips reward={r.reward} full /></span>
       </span>
-      <button type="button" className={'cc-copy' + (r.st === 'copied' ? ' ok' : '')}
-              title="Copy code" aria-label={'Copy ' + r.code} onClick={() => onCopy(r.code)}>
+      <button type="button" className="cc-copy"
+              title="Copy" aria-label={'Copy ' + r.code} onClick={() => onCopy(r.code)}>
         <span className="i-copy"></span>
       </button>
     </div>
@@ -738,7 +800,23 @@ function CodesPanel({ codes, gameKey = 'nyx' }){
   };
   const premiumRows = rows.filter(r => r.premium).sort(sortRedeemedLast);
   const plainRows = rows.filter(r => !r.premium).sort(sortRedeemedLast);
-  const moreCount = Math.max(0, rows.length - 3);
+  // G5: the "N more below" hint reflects how many code rows are still below the
+  // scroll fold, recomputed live on scroll/resize (not a static count).
+  const scrollRef = React.useRef(null);
+  const [belowCount, setBelowCount] = React.useState(0);
+  const recountBelow = React.useCallback(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+    const fold = el.getBoundingClientRect().bottom;
+    let n = 0;
+    el.querySelectorAll('.gp-code-row').forEach((r) => { if (r.getBoundingClientRect().top > fold - 6) n += 1; });
+    setBelowCount(n);
+  }, []);
+  React.useEffect(() => {
+    recountBelow();
+    window.addEventListener('resize', recountBelow);
+    return () => window.removeEventListener('resize', recountBelow);
+  }, [recountBelow, rows.length]);
 
   const renderGroup = (kind, list) => (
     list.length === 0 ? null : (
@@ -748,7 +826,6 @@ function CodesPanel({ codes, gameKey = 'nyx' }){
             ? <img src={currency.icon} alt="" draggable="false" />
             : <span className="cur-glyph"></span>)}
           <span className="gl">{kind === 'premium' ? currency.name : 'Other rewards'}</span>
-          <span className="gn">{list.length}</span>
           <span className="rule"></span>
         </div>
         <div className="gp-codes-table overview-codes">
@@ -762,14 +839,14 @@ function CodesPanel({ codes, gameKey = 'nyx' }){
 
   return (
     <React.Fragment>
-      <div className="overview-codes-scroll">
+      <div className="overview-codes-scroll" ref={scrollRef} onScroll={recountBelow}>
         {renderGroup('premium', premiumRows)}
         {renderGroup('other', plainRows)}
         {rows.length === 0 && <div className="code-empty">No redemption codes found.</div>}
       </div>
-      {moreCount > 0 && (
+      {belowCount > 0 && (
         <div className="codes-more-hint" aria-hidden="true">
-          <span className="chev">{'⌄'}</span>{moreCount} more below
+          <span className="chev">{'⌄'}</span>{belowCount} more below
         </div>
       )}
     </React.Fragment>
@@ -780,19 +857,30 @@ function CodesPanel({ codes, gameKey = 'nyx' }){
 function OverviewAside({ cfg }){
   const b = cfg.banner;
   const phaseCards = bannerPhaseCards(cfg);
+  const ongoing = phaseCards.filter((c) => c.status === 'Ongoing');
+  const upcoming = phaseCards.filter((c) => c.status !== 'Ongoing');
   return (
     <aside style={{ display:'flex', flexDirection:'column', gap:'12px', minWidth:0, minHeight:0 }}>
       <GPSec title="Redemption Codes" />
       <CodesPanel codes={cfg.codes} gameKey={cfg.key} />
-      <GPSec title="Ongoing Banners" />
-      {phaseCards.length > 0 ? phaseCards.map((card, i) => (
-        <GPBanner key={card.status + '-' + i} compact h={i === 0 ? 158 : 136}
+      <BannerFreshnessNote fresh={bannerFreshness(cfg.key)} />
+      {ongoing.length > 0 ? ongoing.map((card, i) => (
+        <GPBanner key={'on-' + card.five + '-' + i} compact h={150}
           art={card.art || cfg.art} title={card.title} status={card.status}
           five={card.five} fiveIcon={card.fiveIcon} chips={card.chips} time={card.time} pct={card.pct} />
       )) : (
         <GPBanner compact h={158} art={b.art || cfg.art} title={b.title}
           status="Database fallback" five={'5\u2605 ' + b.five}
           chips={(b.fours || []).map((name) => ({ key:name, text:name }))} time={b.time} pct={b.pct} />
+      )}
+      {upcoming.length > 0 && (
+        <React.Fragment>
+          {upcoming.map((card, i) => (
+            <GPBanner key={'up-' + card.five + '-' + i} compact next h={84}
+              art={card.art || cfg.art} title={card.title} status={card.status}
+              five={card.five} fiveIcon={card.fiveIcon} chips={card.chips} time={card.time} pct={card.pct} />
+          ))}
+        </React.Fragment>
       )}
     </aside>
   );
@@ -1086,20 +1174,33 @@ function CollectionCard({ item }){
 }
 
 /* ================= content panels ================= */
+// Keyboard activation for role="button" nav rows (Enter / Space).
+function navKeyDown(fn){
+  return (e) => { if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') { e.preventDefault(); fn(); } };
+}
+
 function GameContent({ cfg, tab, setTab, onOpenMaterial }){
   const fns = cfg.fns || ['Character Materials','Artifact Sorter','Wish Tracker'];
+  // G13: the section list the Character-Materials header icon-dropdown switches between.
+  const sectionKey = (f) => /tracker$/i.test(f) ? 'tracker' : /^character materials$/i.test(f) ? 'mats' : 'library';
+  const sections = [{ key:'overview', label:'Overview' }, ...fns.map((f) => ({ key:sectionKey(f), label:f }))];
   return (
     <div className={'gp-layout' + (tab === 'overview' ? ' has-aside' : '')}>
-      <nav className="gp-side-nav">
-        <div className={'gp-fn-row click' + (tab === 'overview' ? ' on' : '')} onClick={() => setTab('overview')}><span>Overview</span></div>
+      <nav className="gp-side-nav" aria-label="Tools">
+        <div className={'gp-fn-row click' + (tab === 'overview' ? ' on' : '')}
+             role="button" tabIndex={0} aria-current={tab === 'overview' ? 'page' : undefined}
+             onClick={() => setTab('overview')} onKeyDown={navKeyDown(() => setTab('overview'))}>
+          <span className="dia" aria-hidden="true"></span><span>Overview</span>
+        </div>
         {fns.map(f => {
           const isTracker = /tracker$/i.test(f);
           const isMats = /^character materials$/i.test(f);
           const key = isTracker ? 'tracker' : isMats ? 'mats' : 'library';
           return (
             <div key={f} className={'gp-fn-row click' + (tab === key ? ' on' : '')}
-                 onClick={() => setTab(key)}>
-              <span>{f}</span><span className="go">{'\u203A'}</span>
+                 role="button" tabIndex={0} aria-current={tab === key ? 'page' : undefined}
+                 onClick={() => setTab(key)} onKeyDown={navKeyDown(() => setTab(key))}>
+              <span className="dia" aria-hidden="true"></span><span>{f}</span><span className="go">{'\u203A'}</span>
             </div>
           );
         })}
@@ -1112,7 +1213,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial }){
       )}
       {tab === 'mats' && (
         <main className="gp-main-pane fill">
-          <CharMaterials inline game={cfg.key} />
+          <CharMaterials inline game={cfg.key} pageTab={tab} onPageTab={setTab} sections={sections} />
         </main>
       )}
       {tab === 'tracker' && (
@@ -1140,9 +1241,11 @@ function SimContent({ tab, setTab, onOpenMaterial }){
   ];
   return (
     <div className={'gp-layout' + (tab === 'overview' ? ' has-aside' : '')}>
-      <nav className="gp-side-nav">
+      <nav className="gp-side-nav" aria-label="Sections">
         {NAV.map(n => (
-          <div key={n.key} className={'gp-fn-row click' + (tab === n.key ? ' on' : '')} onClick={() => setTab(n.key)}>
+          <div key={n.key} className={'gp-fn-row click' + (tab === n.key ? ' on' : '')}
+               role="button" tabIndex={0} aria-current={tab === n.key ? 'page' : undefined}
+               onClick={() => setTab(n.key)} onKeyDown={navKeyDown(() => setTab(n.key))}>
             <span>{n.label}</span><span className="go">{'\u203A'}</span>
           </div>
         ))}
@@ -1194,10 +1297,14 @@ function NyxChannelToggle({ gameKey }){
     cmSaveChannel(gameKey, ch);
     try { window.dispatchEvent(new CustomEvent('nyx:cm-channel-changed', { detail:{ key:gameKey, channel:ch } })); } catch (e) {}
   };
+  const isBeta = channel === 'beta';
   return (
-    <div className={'cm-chan' + (channel === 'beta' ? ' beta' : '')} role="group" aria-label="Data channel">
-      <button type="button" className={channel === 'live' ? 'on' : ''} aria-pressed={channel === 'live'} onClick={() => pick('live')} title="Released, live-server data">Live</button>
-      <button type="button" className={channel === 'beta' ? 'on' : ''} aria-pressed={channel === 'beta'} onClick={() => pick('beta')} title="Beta (latest) data — upcoming, subject to change">Beta</button>
+    <div className="cm-chan-text" role="group" aria-label="Data channel: Live or Beta">
+      <button type="button" className={'cm-chan-word' + (!isBeta ? ' on' : '')} aria-pressed={!isBeta}
+              title="Released, live-server data" onClick={() => pick('live')}>Live</button>
+      <span className="cm-chan-slash" aria-hidden="true">/</span>
+      <button type="button" className={'cm-chan-word' + (isBeta ? ' on' : '')} aria-pressed={isBeta}
+              title="Beta (latest) data — upcoming, subject to change" onClick={() => pick('beta')}>Beta</button>
     </div>
   );
 }
@@ -1284,7 +1391,7 @@ function NyxApp(){
   return (
     <div style={{ position:'absolute', inset:0, display:'flex', flexDirection:'column' }} data-screen-label={cfg.name + ' page'}>
       <header className="gp-topbar" data-screen-label="Top bar">
-        <a className="tb-brand" href="index.html" title="Back to Worlds" aria-label="Back to the worlds index">
+        <a className="tb-brand" href="/" title="Back to Worlds" aria-label="Back to the worlds index">
           <span className="plate" aria-hidden="true"></span>
           <span className="brand-mark">
             <span className="wm">Nyx</span>
@@ -1302,7 +1409,7 @@ function NyxApp(){
 
       <div className="gp-corner">
         {!isNyx && <NyxChannelToggle gameKey={activeKey} />}
-        <a className="tb-pengo corner" href="index.html" title="Back to Worlds" aria-label="Home">
+        <a className="tb-pengo corner" href="/" title="Back to Worlds" aria-label="Home">
           <img src="../assets/icon/pengo.png" alt="" draggable="false" />
         </a>
       </div>

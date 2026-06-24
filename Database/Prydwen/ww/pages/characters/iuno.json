@@ -1,0 +1,2231 @@
+{
+  "id": "characters:iuno",
+  "provider": "Prydwen",
+  "game": "ww",
+  "gameName": "Wuthering Waves",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "iuno",
+  "name": "Iuno",
+  "title": "Iuno Best Build Guide",
+  "sourcePath": "/wuthering-waves/characters/iuno",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "09/June/2026",
+  "meta": {
+    "title": "Iuno Best Build Guide | Wuthering Waves (WuWa)",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Aero",
+    "weapon": "Gauntlets"
+  },
+  "assets": [
+    {
+      "id": "565fb00e415b",
+      "sourceHash": "565fb00e415b",
+      "kind": "characters",
+      "name": "Iuno",
+      "fileStem": "iuno-card",
+      "path": "Prydwen/ww/assets/characters/iuno-565fb00e415b.webp",
+      "width": 210,
+      "height": 280
+    },
+    {
+      "id": "ace758a61ce1",
+      "sourceHash": "ace758a61ce1",
+      "kind": "icons",
+      "name": "Aero",
+      "fileStem": "element-aero",
+      "path": "Prydwen/ww/assets/icons/aero-ace758a61ce1.webp",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "39094c227806",
+      "sourceHash": "39094c227806",
+      "kind": "icons",
+      "name": "CRIT Rate",
+      "fileStem": "stat-crit",
+      "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "1e70b3adc860",
+      "sourceHash": "1e70b3adc860",
+      "kind": "icons",
+      "name": "ATK%",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "c26c1d310e90",
+      "sourceHash": "c26c1d310e90",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "aa019d34202f",
+      "sourceHash": "aa019d34202f",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "5a0b154cd3d8",
+      "sourceHash": "5a0b154cd3d8",
+      "kind": "icons",
+      "name": "Max Energy",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "7e2bcd0760ca",
+      "sourceHash": "7e2bcd0760ca",
+      "kind": "icons",
+      "name": "CRIT DMG",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "94236abd3fdc",
+      "sourceHash": "94236abd3fdc",
+      "kind": "icons",
+      "name": "Healing",
+      "fileStem": "stat-heal",
+      "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "2133af4a37e3",
+      "sourceHash": "2133af4a37e3",
+      "kind": "icons",
+      "name": "Aero",
+      "fileStem": "stat-wind",
+      "path": "Prydwen/ww/assets/icons/aero-2133af4a37e3.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "f48ff62c89aa",
+      "sourceHash": "f48ff62c89aa",
+      "kind": "categories",
+      "name": "Interactive Map",
+      "fileStem": "category-map",
+      "path": "Prydwen/ww/assets/categories/interactive-map-f48ff62c89aa.webp",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "id": "b7578fecf82e",
+      "sourceHash": "b7578fecf82e",
+      "kind": "characters",
+      "name": "Iuno",
+      "fileStem": "iuno-full",
+      "path": "Prydwen/ww/assets/characters/iuno-b7578fecf82e.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "d909de4aecde",
+      "sourceHash": "d909de4aecde",
+      "kind": "characters",
+      "name": "The Shorekeeper",
+      "fileStem": "the-shorekeeper-icon",
+      "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "9116b6b3061f",
+      "sourceHash": "9116b6b3061f",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-7",
+      "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "963f47d9c985",
+      "sourceHash": "963f47d9c985",
+      "kind": "misc",
+      "name": "Fallacy of No Return",
+      "fileStem": "6000060",
+      "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "e366b96f341c",
+      "sourceHash": "e366b96f341c",
+      "kind": "characters",
+      "name": "Lynae",
+      "fileStem": "lynae-icon",
+      "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "9def9d81ed3a",
+      "sourceHash": "9def9d81ed3a",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-24",
+      "path": "Prydwen/ww/assets/icons/set-24-9def9d81ed3a.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "a204c02c6e12",
+      "sourceHash": "a204c02c6e12",
+      "kind": "misc",
+      "name": "Hyvatia",
+      "fileStem": "6000189",
+      "path": "Prydwen/ww/assets/misc/hyvatia-a204c02c6e12.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "ba56fbcc8eb4",
+      "sourceHash": "ba56fbcc8eb4",
+      "kind": "characters",
+      "name": "Ciaccona",
+      "fileStem": "ciaccona-icon",
+      "path": "Prydwen/ww/assets/characters/ciaccona-ba56fbcc8eb4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "8f23f048132b",
+      "sourceHash": "8f23f048132b",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-15",
+      "path": "Prydwen/ww/assets/icons/set-15-8f23f048132b.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "eb3e824f153b",
+      "sourceHash": "eb3e824f153b",
+      "kind": "misc",
+      "name": "Nightmare: Kelpie",
+      "fileStem": "6000113",
+      "path": "Prydwen/ww/assets/misc/nightmare-kelpie-eb3e824f153b.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "b07450491f2f",
+      "sourceHash": "b07450491f2f",
+      "kind": "weapons",
+      "name": "Moongazer's Sigil",
+      "fileStem": "21040046",
+      "path": "Prydwen/ww/assets/weapons/moongazers-sigil-b07450491f2f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ea93f302fdf1",
+      "sourceHash": "ea93f302fdf1",
+      "kind": "weapons",
+      "name": "Verity's Handle",
+      "fileStem": "21040016",
+      "path": "Prydwen/ww/assets/weapons/veritys-handle-ea93f302fdf1.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "007d18a5154b",
+      "sourceHash": "007d18a5154b",
+      "kind": "weapons",
+      "name": "Blazing Justice",
+      "fileStem": "21040036",
+      "path": "Prydwen/ww/assets/weapons/blazing-justice-007d18a5154b.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1d9fc851e8c3",
+      "sourceHash": "1d9fc851e8c3",
+      "kind": "weapons",
+      "name": "Tragicomedy",
+      "fileStem": "21040026",
+      "path": "Prydwen/ww/assets/weapons/tragicomedy-1d9fc851e8c3.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "a329648e74b3",
+      "sourceHash": "a329648e74b3",
+      "kind": "weapons",
+      "name": "Pulsation Bracer",
+      "fileStem": "21040045",
+      "path": "Prydwen/ww/assets/weapons/pulsation-bracer-a329648e74b3.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "4e021e35e328",
+      "sourceHash": "4e021e35e328",
+      "kind": "weapons",
+      "name": "Abyss Surges",
+      "fileStem": "21040015",
+      "path": "Prydwen/ww/assets/weapons/abyss-surges-4e021e35e328.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "be4f9e86be91",
+      "sourceHash": "be4f9e86be91",
+      "kind": "weapons",
+      "name": "Aether Strike",
+      "fileStem": "21040104",
+      "path": "Prydwen/ww/assets/weapons/aether-strike-be4f9e86be91.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "9bf05a62f031",
+      "sourceHash": "9bf05a62f031",
+      "kind": "weapons",
+      "name": "Stonard",
+      "fileStem": "21040074",
+      "path": "Prydwen/ww/assets/weapons/stonard-9bf05a62f031.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d16f2ad97469",
+      "sourceHash": "d16f2ad97469",
+      "kind": "weapons",
+      "name": "Celestial Spiral",
+      "fileStem": "21040084",
+      "path": "Prydwen/ww/assets/weapons/celestial-spiral-d16f2ad97469.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "149a7a79da9a",
+      "sourceHash": "149a7a79da9a",
+      "kind": "weapons",
+      "name": "Hollow Mirage",
+      "fileStem": "21040064",
+      "path": "Prydwen/ww/assets/weapons/hollow-mirage-149a7a79da9a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "5275e972617b",
+      "sourceHash": "5275e972617b",
+      "kind": "weapons",
+      "name": "Legend of Drunken Hero",
+      "fileStem": "21040094",
+      "path": "Prydwen/ww/assets/weapons/legend-of-drunken-hero-5275e972617b.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e9b4be1a962a",
+      "sourceHash": "e9b4be1a962a",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-19",
+      "path": "Prydwen/ww/assets/icons/set-19-e9b4be1a962a.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "380124f06e75",
+      "sourceHash": "380124f06e75",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-4",
+      "path": "Prydwen/ww/assets/icons/set-4-380124f06e75.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "be99542697f0",
+      "sourceHash": "be99542697f0",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-17",
+      "path": "Prydwen/ww/assets/icons/set-17-be99542697f0.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "0b61a0550d75",
+      "sourceHash": "0b61a0550d75",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-28",
+      "path": "Prydwen/ww/assets/icons/set-28-0b61a0550d75.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "423ea0547985",
+      "sourceHash": "423ea0547985",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-9",
+      "path": "Prydwen/ww/assets/icons/set-9-423ea0547985.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "789f50e907c6",
+      "sourceHash": "789f50e907c6",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-29",
+      "path": "Prydwen/ww/assets/icons/set-29-789f50e907c6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "358387a78181",
+      "sourceHash": "358387a78181",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-8",
+      "path": "Prydwen/ww/assets/icons/set-8-358387a78181.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "26730b805365",
+      "sourceHash": "26730b805365",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-13",
+      "path": "Prydwen/ww/assets/icons/set-13-26730b805365.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "b314b4a5977f",
+      "sourceHash": "b314b4a5977f",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-14",
+      "path": "Prydwen/ww/assets/icons/set-14-b314b4a5977f.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "9cc1c0d4021f",
+      "sourceHash": "9cc1c0d4021f",
+      "kind": "misc",
+      "name": "Lady of the Sea",
+      "fileStem": "6000160",
+      "path": "Prydwen/ww/assets/misc/lady-of-the-sea-9cc1c0d4021f.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "969a4ca96158",
+      "sourceHash": "969a4ca96158",
+      "kind": "misc",
+      "name": "Impermanence Heron",
+      "fileStem": "330000030",
+      "path": "Prydwen/ww/assets/misc/impermanence-heron-969a4ca96158.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "d9b47f532b06",
+      "sourceHash": "d9b47f532b06",
+      "kind": "characters",
+      "name": "Augusta",
+      "fileStem": "augusta-icon",
+      "path": "Prydwen/ww/assets/characters/augusta-d9b47f532b06.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "7c6c3a3bc3ce",
+      "sourceHash": "7c6c3a3bc3ce",
+      "kind": "characters",
+      "name": "Jiyan",
+      "fileStem": "jiyan-icon",
+      "path": "Prydwen/ww/assets/characters/jiyan-7c6c3a3bc3ce.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "f569a8378909",
+      "sourceHash": "f569a8378909",
+      "kind": "characters",
+      "name": "Yinlin",
+      "fileStem": "yinlin-icon",
+      "path": "Prydwen/ww/assets/characters/yinlin-f569a8378909.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "3f68e864215a",
+      "sourceHash": "3f68e864215a",
+      "kind": "characters",
+      "name": "Jianxin",
+      "fileStem": "jianxin-icon",
+      "path": "Prydwen/ww/assets/characters/jianxin-3f68e864215a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "552f65617cbb",
+      "sourceHash": "552f65617cbb",
+      "kind": "characters",
+      "name": "Phoebe",
+      "fileStem": "phoebe-icon",
+      "path": "Prydwen/ww/assets/characters/phoebe-552f65617cbb.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "3a3005a58dc2",
+      "sourceHash": "3a3005a58dc2",
+      "kind": "characters",
+      "name": "Zani",
+      "fileStem": "zani-icon",
+      "path": "Prydwen/ww/assets/characters/zani-3a3005a58dc2.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "bfb1691bcfa3",
+      "sourceHash": "bfb1691bcfa3",
+      "kind": "characters",
+      "name": "Galbrena",
+      "fileStem": "galbrena-icon",
+      "path": "Prydwen/ww/assets/characters/galbrena-bfb1691bcfa3.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "40d7023b51fa",
+      "sourceHash": "40d7023b51fa",
+      "kind": "characters",
+      "name": "Mornye",
+      "fileStem": "mornye-icon",
+      "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1b2a8f336e3d",
+      "sourceHash": "1b2a8f336e3d",
+      "kind": "characters",
+      "name": "Verina",
+      "fileStem": "verina-icon",
+      "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "df8c0bc8d49a",
+      "sourceHash": "df8c0bc8d49a",
+      "kind": "characters",
+      "name": "Rover (Aero)",
+      "fileStem": "rover-aero-icon",
+      "path": "Prydwen/ww/assets/characters/rover-aero-df8c0bc8d49a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e6913cb7353a",
+      "sourceHash": "e6913cb7353a",
+      "kind": "characters",
+      "name": "Iuno",
+      "fileStem": "iuno-icon",
+      "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "id": "514d72023ab5",
+      "sourceHash": "514d72023ab5",
+      "kind": "characters",
+      "name": "Rover (Spectro)",
+      "fileStem": "rover-spectro-icon",
+      "path": "Prydwen/ww/assets/characters/rover-spectro-514d72023ab5.webp",
+      "width": 120,
+      "height": 120
+    }
+  ],
+  "sections": [
+    {
+      "id": "iuno-best-build-guide-0",
+      "level": 1,
+      "heading": "Iuno Best Build Guide",
+      "text": "Last updated: 09/June/2026",
+      "assets": [
+        {
+          "id": "565fb00e415b",
+          "sourceHash": "565fb00e415b",
+          "kind": "characters",
+          "name": "Iuno",
+          "fileStem": "iuno-card",
+          "path": "Prydwen/ww/assets/characters/iuno-565fb00e415b.webp",
+          "width": 210,
+          "height": 280
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Iuno from WW (Wuthering Waves). Iuno is a 5 ★ rarity character from the Aero element who uses the Gauntlets type weapon.\n\n To learn more about Iuno check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": [
+        {
+          "id": "ace758a61ce1",
+          "sourceHash": "ace758a61ce1",
+          "kind": "icons",
+          "name": "Aero",
+          "fileStem": "element-aero",
+          "path": "Prydwen/ww/assets/icons/aero-ace758a61ce1.webp",
+          "width": 20,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Iuno has at least one video guide available:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 2.6\n\n Last major build/calcs update\n Patch 3.0\n\n Last profile update*\n 09/June/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Iuno check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Moon Steps\n\n Moonring - Basic Attack\n Perform up to 3 consecutive attacks with the Moonring, dealing Aero DMG .\n Mid-air Attack\n Consume STA to perform a Plunging Attack, dealing Aero DMG .\n Moonring - Dodge Counter\n Press Normal Attack shortly after a successful Dodge to attack the target with Moonring, dealing Aero DMG . Press Normal Attack again shortly after performing this skill to cast Moonring - Basic Attack Stage 3.\n Moonbow - Basic Attack\n Enter Lunar Cycle - New Moon by casting Heavy Attack - Flux: Moonring. When in this state, Iuno will attack with Moonbow.\n\n Perform up to 3 consecutive attacks with the Moonbow, dealing Aero DMG , considered as Resonance Liberation DMG.\n\n Can be cast in mid-air.\n\n Moonbow - Dodge Counter\n When in Lunar Cycle - New Moon, press Normal Attack shortly after a successful Dodge to attack the target with Moonbow, dealing Aero DMG , considered as Resonance Liberation DMG.\n\n When in Lunar Cycle - New Moon, press Normal Attack again shortly after performing this skill to cast Moonbow - Basic Attack Stage 3.\n\n Can be cast in mid-air.\n\n Multipliers\n\n Resonance Skill\n Foresight Fugue\n\n Pulse of Origins\n Dash forward, dealing Aero DMG .\n Closing Refrain\n When not in Lunar Cycle, casting Moonring - Basic Attack Stage 3, Intro Skill, or Pulse of Origins replaces Iuno's Resonance Skill with Closing Refrain for 5s .\n Casting Closing Refrain unleashes a flurry of strikes, dealing Aero DMG , and activates Lunar Cycle.\n Unfinished Refrain\n When in Lunar Cycle - Half Moon, Iuno's Resonance Skill is replaced with Unfinished Refrain.\nCasting Unfinished Refrain unleashes a flurry of strikes, dealing Aero DMG .\n Unfinished Refrain shares the same Cooldown as Closing Refrain.\n Arc Beyond the Edge\n When Iuno is in Lunar Cycle - New Moon, her Resonance Skill is replaced with Arc Beyond the Edge, which has 2 initial charges.\n\n Casting Arc Beyond the Edge causes Iuno to shift position and deal Aero DMG , considered as Resonance Liberation DMG.\n\n Directional input can be used to extend the travel distance. If Iuno is hit or launched into mid-air, casting Arc Beyond the Edge immediately makes her recover from the attack.\nCan be cast in mid-air.\n\n Multipliers\n\n Resonance Liberation\n Beneath Lunar Tides\n\n Deal Aero DMG and activate the Lunar Cycle state.\n Can be cast in mid-air.\n\n Multipliers\n\n Forte Circuit\n Ebb and Flow\n\n Lunar Cycle\n Iuno can activate Lunar Cycle by casting Resonance Skill - Closing Refrain or Resonance Liberation.\nLunar Cycle has two states: Half Moon and New Moon. By default, Iuno enters the Half Moon state when activating Lunar Cycle and can switch between the two states by casting Heavy Attack - Flux.\n When in Lunar Cycle:\n Iuno's Jump is replaced with Heavy Attack - Flux. STA won't recover when Iuno is in mid-air.\n\n Iuno's movement becomes Meandering, which consumes STA continuously in mid-air to move in a unique manner.\n\n Performing environmental interactions, using Utilities, or holding Jump will end Lunar Cycle.\n\n Lunar Cycle - Half Moon\n Iuno attacks using the Moonring, restoring Sentience on hit.\n She can use Heavy Attack - Flux: Moonbow to deal Aero DMG (considered as Resonance Liberation DMG) and switch to Lunar Cycle - New Moon.\n Heavy Attack - Flux: Moonbow can be cast in mid-air.\n Lunar Cycle - New Moon\n Iuno attacks using the Moonbow. While in this state, casting Moonbow - Basic Attack, Resonance Skill - Arc Beyond the Edge, or Moonbow - Dodge Counter consumes Sentience to increase the skill's DMG Multiplier, restore additional Concerto Energy, and heal nearby Resonators in the team.\n Iuno can use Heavy Attack - Flux: Moonring to deal Aero DMG (considered as Resonance Liberation DMG) and switch to Lunar Cycle - Half Moon.\n Heavy Attack - Flux: Moonring can be cast in mid-air.\n Heavy Attack - Absolute Fullness\n When Iuno's Concerto Energy is full, her Heavy Attack is replaced with Absolute Fullness.\n Casting Absolute Fullness ends Lunar Cycle, provides healing for nearby Resonators in the team, deals Aero DMG to nearby targets (considered as Resonance Liberation DMG), and conjures a Full Moon domain at her location. This effect can be triggered once every 25s .\n Can be cast in mid-air.\n Full Moon Domain\n Resonators inside the domain periodically restore HP and STA.\n Gaining a Shield inside the domain grants 1 stack of Blessing of the Wan Light. This effect can be triggered once every 0.5s .\n Blessing of the Wan Light\n The receiving Resonator gains 4% all DMG Amplification for 10s , stacking up to 10 times. Gaining new stacks resets the duration. This effect ends early if the receiving Resonator is switched off the field.\n Sentience\n Iuno can hold up to 100 points of Sentience.\n\n Casting Intro Skill restores 40 points of Sentience.\n\n Casting Resonance Liberation restores 60 points of Sentience.\n\n Casting Closing Refrain or Unfinished Refrain restores 25 points of Sentience.\n\n When Iuno is in Lunar Cycle, Moonring - Basic Attack, Moonring - Dodge Counter, and Mid-air Attack restore Sentience on hit.\n\n Multipliers\n\n Inherent Skill\n Waxing Ascent\n\n Every time Iuno casts Basic Attack, Heavy Attack, Dodge Counter, Resonance Skill, Resonance Liberation, or Intro Skill, she gains 1 Shield equal to 32% of her ATK for 15s . This Shield will not be passed on to the incoming Resonator.\n\n Inherent Skill\n Derivation\n\n When Iuno casts Intro Skill or Resonance Liberation, she immediately gains 5 stacks of Blessing of the Wan Light.\n\n Intro Skill\n Illuminated Manifestation\n\n Deal Aero DMG .\n\n Multipliers\n\n Outro Skill\n From Gloom to Gleam\n\n Attack the target to deal 100% Aero DMG. The incoming Resonator gains 50% Heavy Attack DMG Amplification for 14s . This effect ends early if they are switched off the field.\n Casting Outro Skill won't interrupt Heavy Attack - Absolute Fullness, and the Outro Skill effect still applies.",
+      "assets": []
+    },
+    {
+      "id": "resonance-chain-dupes-10",
+      "level": 2,
+      "heading": "Resonance Chain (Dupes)",
+      "text": "S 1\n Sequence Node 1\n\n When Iuno is in Lunar Cycle, her ATK is increased by 40% .\n When Iuno is inside the Full Moon Domain, she additionally restores 1 point of Resonance Energy per second.\n Resonance Skill - Arc Beyond the Edge and Heavy Attack - Absolute Fullness become immune to interruption.\n\n S 2\n Sequence Node 2\n\n Resonators in the team with 10 stacks of Blessing of the Wan Light gain an additional 40% all DMG Amplification.\n\n S 3\n Sequence Node 3\n\n When Iuno is in Lunar Cycle, DMG dealt by Moonbow - Basic Attack, Resonance Skill - Arc Beyond the Edge, and Moonbow - Dodge Counter is Amplified by 65% .\n Within a certain period after performing Moonbow - Basic Attack or Moonbow - Dodge Counter, casting Resonance Skill - Arc Beyond the Edge does not reset the cycle of Moonbow - Basic Attack.\n\n S 4\n Sequence Node 4\n\n Casting Heavy Attack - Absolute Fullness grants a Shield equal to 160% of Iuno's ATK to all Resonators in the team for 30s , which cannot be passed on to the incoming Resonator.\n\n S 5\n Sequence Node 5\n\n Iuno gains 20% Resonance Liberation DMG Bonus.\n\n S 6\n Sequence Node 6\n\n The DMG Multiplier of Heavy Attack - Absolute Fullness is increased by 1600% . Upon casting this skill, Iuno re-enters Lunar Cycle - New Moon, gains 100 points of Sentience, and resets all the cooldown of Resonance Skill - Arc Beyond the Edge.",
+      "assets": []
+    },
+    {
+      "id": "minor-fortes-total-11",
+      "level": 2,
+      "heading": "Minor Fortes (Total)",
+      "text": "CRIT Rate\n + 8 %\n\n ATK%\n + 12 %",
+      "assets": [
+        {
+          "id": "39094c227806",
+          "sourceHash": "39094c227806",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "1e70b3adc860",
+          "sourceHash": "1e70b3adc860",
+          "kind": "icons",
+          "name": "ATK%",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "stats-12",
+      "level": 2,
+      "heading": "Stats",
+      "text": "Include minor fortes\n\n Lv. 90\n\n HP\n 10525\n\n ATK\n 450\n\n DEF\n 1124\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Aero DMG\n 0 %",
+      "assets": [
+        {
+          "id": "c26c1d310e90",
+          "sourceHash": "c26c1d310e90",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "1e70b3adc860",
+          "sourceHash": "1e70b3adc860",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "aa019d34202f",
+          "sourceHash": "aa019d34202f",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "5a0b154cd3d8",
+          "sourceHash": "5a0b154cd3d8",
+          "kind": "icons",
+          "name": "Max Energy",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "39094c227806",
+          "sourceHash": "39094c227806",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "7e2bcd0760ca",
+          "sourceHash": "7e2bcd0760ca",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "94236abd3fdc",
+          "sourceHash": "94236abd3fdc",
+          "kind": "icons",
+          "name": "Healing",
+          "fileStem": "stat-heal",
+          "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "2133af4a37e3",
+          "sourceHash": "2133af4a37e3",
+          "kind": "icons",
+          "name": "Aero",
+          "fileStem": "stat-wind",
+          "path": "Prydwen/ww/assets/icons/aero-2133af4a37e3.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "character-ascension-total-14",
+      "level": 5,
+      "heading": "Character Ascension (total)",
+      "text": "4 x LF Polygon Core\n 12 x MF Polygon Core\n 12 x HF Polygon Core\n 4 x FF Polygon Core\n 46 x Abyssal Husk\n 60 x Sliverglow Bloom\n 170 000 Shell Credits",
+      "assets": []
+    },
+    {
+      "id": "skill-upgrades-total-15",
+      "level": 5,
+      "heading": "Skill Upgrades (total)",
+      "text": "25 x LF Polygon Core\n 28 x MF Polygon Core\n 40 x HF Polygon Core\n 57 x FF Polygon Core\n 25 x Cadence Seed\n 28 x Cadence Bud\n 55 x Cadence Leaf\n 67 x Cadence Blossom\n 26 x The Netherworld's Stare\n 2 030 000 Shell Credits\n\n While the source of the materials can be quickly found in the game, when it comes Sliverglow Bloom you will have to gather them from the map. Check our Interactive map to find them quickly:\n\n Interactive Map",
+      "assets": [
+        {
+          "id": "f48ff62c89aa",
+          "sourceHash": "f48ff62c89aa",
+          "kind": "categories",
+          "name": "Interactive Map",
+          "fileStem": "category-map",
+          "path": "Prydwen/ww/assets/categories/interactive-map-f48ff62c89aa.webp",
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "voice-actors-16",
+      "level": 2,
+      "heading": "Voice Actors",
+      "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "b7578fecf82e",
+          "sourceHash": "b7578fecf82e",
+          "kind": "characters",
+          "name": "Iuno",
+          "fileStem": "iuno-full",
+          "path": "Prydwen/ww/assets/characters/iuno-b7578fecf82e.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "ratings-18",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.",
+      "assets": []
+    },
+    {
+      "id": "dps-19",
+      "level": 5,
+      "heading": "DPS",
+      "text": "T0.5\n Tower of Adversity\n\n T4\n Whimpering Wastes",
+      "assets": []
+    },
+    {
+      "id": "hybrid-20",
+      "level": 5,
+      "heading": "Hybrid",
+      "text": "T1\n Tower of Adversity\n\n T1.5\n Whimpering Wastes",
+      "assets": []
+    },
+    {
+      "id": "dps-22",
+      "level": 5,
+      "heading": "DPS",
+      "text": "T1.5\n Tower of Adversity (Value)\n\n T4\n Whimpering Wastes (Value)",
+      "assets": []
+    },
+    {
+      "id": "hybrid-23",
+      "level": 5,
+      "heading": "Hybrid",
+      "text": "T1.5\n Tower of Adversity (Value)\n\n T1.5\n Whimpering Wastes (Value)",
+      "assets": []
+    },
+    {
+      "id": "pros-25",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Jack of all trades, master of all. Main DPS, Sub-DPS, buffing, healing, stamina restoration — Iuno does everything;\n\n Gives shields to herself while constantly healing on most of her attacks, difficult to die from consecutive small hits;\n\n Very flexible team-wise thanks to her ability to fill many roles, extend or shorten her rotation to whatever’s necessary, and sheds some light on less-used characters who will find a purpose with her on the team;\n\n Wait… Kuro ACTUALLY provided a proper shortened description feature this time?!\n\n One of her Ultimate voicelines (“Answer my call”) kind of sounds like an angry mother, and honestly, that’s really funny.",
+      "assets": []
+    },
+    {
+      "id": "cons-26",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Damage-focused character, implying she really wants a properly strong weapon equipped to justify her presence on the team over already established options (most importantly Mortefi);\n\n Gives up DMG Amplification effects to herself when swapping out, not just the incoming character — hence she is quite quickswap-unfriendly;\n\n Prone to interruption mid-air, which can slow down her rotations a lot — watch out for enemy attacks and make sure to dodge;\n\n That Ultimate animation will be a pro to some of you. Not to the ones who wrote this, sorry not sorry.",
+      "assets": []
+    },
+    {
+      "id": "review-28",
+      "level": 5,
+      "heading": "Review",
+      "text": "Iuno is a 5-star Aero Gauntlets character who can accomplish a wide array of goals on the team. She functions as an effective mix of support and damage, as she is able to heal the team, provide shields to herself, but also deal a ton of damage by herself and even buff the incoming character’s Heavy Attack damage. Iuno is a character of many facets, so let’s quickly explain her kit before going into the intricacies of her position in the meta.",
+      "assets": []
+    },
+    {
+      "id": "key-mechanics-29",
+      "level": 5,
+      "heading": "Key Mechanics",
+      "text": "Iuno’s main mechanic is called Lunar Cycle. She will primarily enter it via casting a Skill after her Intro (called Closing Refrain) or by casting her Ultimate. It has 2 phases: Half Moon and Full Moon. Half Moon is entered by default and will be ignored throughout all of her rotations, as the Full Moon form deals the majority of her damage and is tied to her Forte gauge, which she consumes to enhance her attacks in that stance. That Forte gauge is called Sentience and replenishes up to 100 points, gained from the following actions:\n Intro Skill provides 40 Sentience;\n\n Closing Refrain provides 25 Sentience;\n\n Ultimate provides 60 Sentience.\n\n Additionally, her Unfinished Refrain and Moonring Basic Attacks (in Half Moon stance) all restore Sentience but this will be unused in her rotations.\n\n Her Sentience bar stores up to 100 points and will be consumed by the following actions:\n Moonbow Basic Attacks (50 points for the whole 3-chain);\n\n Moonbow Skills, called Arc Beyond The Edge (25 points per skill, 2 charges).\n\n Every enhanced attack gives lots of extra Concerto Energy and also deal higher damage, making them a key component of her rotations.\n As you can see, we already can tell a full Basic Attack string and 2 skills consuming the full Sentience bar — that’s right, that’s basically what Iuno’s rotation is all about.\n It is however worth noting that her attacks will be enhanced so long as any amount of Sentience is available — the attack gets enhanced all the same whether there’s 1 or 25 Sentience available per skill, for example. It only consumes up to that maximum. We abuse this in her Main DPS rotation to take her damage to new heights.\n But before we get too detailed here — how do we access the Full Moon stance? We first need to enter Lunar Cycle (as detailed prior) then cast a jump attack, called Flux. This makes Iuno enter Full Moon Stance and she’s ready to begin the main part of her rotation at that point.",
+      "assets": []
+    },
+    {
+      "id": "basic-attacks-30",
+      "level": 5,
+      "heading": "Basic Attacks",
+      "text": "Iuno’s standard Basic Attacks and Moonring Basic Attacks are all unused in her rotations. So they’re actually pretty skippable. However, her Moonbow Basic Attacks are used plenty, particularly in her Main DPS rotations. They deal a lot of damage, generate a lot of Concerto Energy and consume a lot of Sentience. The third Moonbow Basic Attack is a particularly lengthy 2-parter and makes for a great Swap Cancel window.\n Do note that Iuno’s Moonbow Basic 3 deals much more damage than the first two, so it’s heavily recommended to go for the full chain. On the instance that an incoming attack has to be dodged though, worry not as Iuno’s Moonbow Dodge Counter packs just as much of a punch.",
+      "assets": []
+    },
+    {
+      "id": "skill-ultimate-31",
+      "level": 5,
+      "heading": "Skill & Ultimate",
+      "text": "Iuno has a lot of skills, but she only really ever wants to use two.\n The first of which is Closing Refrain: It is accessed after her Intro, plain and simple. It deals a lot of damage but is not necessary to her Concerto rotation — nonetheless, it’s great to use as an extension to her rotation if it’s necessary for her to take up more field time to align with your team’s cooldowns, and it’s also completely worth using as a Main DPS thanks to the Sentience generation it provides.\n It can also be mandatory to use as a means to activate certain weapon effects; keep this in mind depending on your build!\n The second skill is Arc Beyond The Edge: This is her Moonbow stance Skill and it has up to 2 charges, which we always use in her rotation. They can be animation-cancelled by her Ultimate, similarly to Ciaccona’s Forte Heavy Attack (where we use the Ultimate right after the projectiles have been shot). It also makes for a good rotation finisher due to its Concerto Energy being instantly generated, and the animation being fully Swap Cancellable.\n Lastly, Iuno’s Ultimate makes her enter Lunar Cycle, and can instantly cancel any ability that is used before it. It also generates a ton of Sentience and is one of the 2 contributors to stacking up a big chunk of DMG Amplification via one of her Inherent Skills. And of course, it deals a ton of damage on hit.",
+      "assets": []
+    },
+    {
+      "id": "buffs-sustain-how-to-access-them-32",
+      "level": 5,
+      "heading": "Buffs, Sustain & How to Access Them",
+      "text": "Iuno has buffs that she gives herself and buffs that she provides to the whole team. Let’s detail the buffs she gives herself first:\n Blessing of the Wan Light (Inherent Skill): Iuno gets 4% DMG Amplification per stack of Blessing for 10s, up to 10 times. She gains 5 stacks by using an Intro, and 5 by using her Ultimate. This effect ends if she is switched off the field.\n\n Waxing Ascent (Inherent Skill): Whenever Iuno casts any skill at all, she grants 1 very small Shield to herself (this only serves as a means to trigger the Crown of Valor Echo set and her dedicated Signature weapon effect, the Shield itself will not protect you from any attack except a flick of a finger).\n\n Now for the buffs she gives to the team:\n Outro: Grants 50% Heavy Attack DMG to the next character switched in for 14s, expires on swap. Super strong, generically applicable buff. Also deals a small hit of damage.\n\n Full Moon Domain: Accessed via a special Heavy Attack which can only be cast at full Concerto Energy and deals a small amount of damage, Iuno can generate this domain which can grant stacks of Blessing (the same ones she gives herself) in the same manner, being if the incoming character can apply Shields to themselves multiple times. This is only usable by Augusta and will ideally only be used if Augusta is in the team.\n\n Healing: It is worth noting the Full Moon domain mentioned earlier, as well as the special Heavy Attack, both generate great amounts of healing, the domain granting healing as well as Stamina restoration over time. Additionally, all of Iuno’s Sentience-Enhanced attacks all give a small amount of healing to the team. If healing is particularly desired by the player, casting the Full Moon Domain can be considered.",
+      "assets": []
+    },
+    {
+      "id": "meta-position-conclusion-33",
+      "level": 5,
+      "heading": "Meta Position & Conclusion",
+      "text": "Iuno is strong. Quite strong, but don’t be fooled as she is not quite as meta-defining as a Shorekeeper, a Cartethyia, or even an Augusta. The truth of the matter is, while Iuno fulfills many roles and is excellent at all of them, the characters she wants to buff work completely fine on their own with the F2P-accessible teammate Mortefi. Mortefi gives Heavy Attack DMG Bonus, can provide lots of buffs via the Moonlit Clouds or Empyrean Anthem sets and the Static Mist weapon buff being a pistol user. Additionally, his rotation is shorter than Iuno’s and he still holds a good chunk of personal damage in his own right.\n However, we’ll repeat ourselves here — in the meta, Iuno is REALLY strong and competes with some of the best Main DPS in the game even though she’s intended as a buffer, which is a really good surprise and it adds to her solo pull value a lot. With that being said, as a Support who also wants to deal damage, getting a limited weapon becomes all the more important for her to really separate herself from Mortefi, and while she is a step above him in any situation, Iuno could be a redundant pull for many. In fact, Augusta and Jiyan don’t need Iuno.\n But that’s not saying everything — while Augusta and Jiyan don’t need Iuno, Iuno doesn’t need neither Jiyan nor Augusta all the same. In fact, playing alongside Ciaccona, or even Jianxin, as well as Aero Rover, she’ll be able to take down bosses all on her own; even though she was intended as a buffing character. She truly is a force to be reckoned with, particularly considering she gets extra team utility in the form of healing and stamina restoration — if the player desires more of it on their team, that is.\n In conclusion, Iuno is a great character who definitely separates herself from Mortefi by dealing higher personal damage, and having a higher buffing potential; but please keep in mind the characters she wants to buff can work completely fine without her on the team — their ceiling only gets raised even higher, but they retain a good floor nonetheless. On the other hand, Iuno herself is a great single-value pull by virtue of her Main DPS potential, and we completely think you should pull Iuno if you like her. She slots in a lot of teams, using different playstyles, and she’s effective at all of them!",
+      "assets": []
+    },
+    {
+      "id": "video-guides-34",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "Build",
+      "assets": []
+    },
+    {
+      "id": "best-weapons-35",
+      "level": 2,
+      "heading": "Best Weapons",
+      "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Iuno calculations were done using added buffs from the following teammates:",
+      "assets": []
+    },
+    {
+      "id": "dps-36",
+      "level": 5,
+      "heading": "DPS",
+      "text": "The Shorekeeper + Variation +\n Rejuvenating Glow\n\n +\n Fallacy of No Return",
+      "assets": [
+        {
+          "id": "d909de4aecde",
+          "sourceHash": "d909de4aecde",
+          "kind": "characters",
+          "name": "The Shorekeeper",
+          "fileStem": "the-shorekeeper-icon",
+          "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9116b6b3061f",
+          "sourceHash": "9116b6b3061f",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-7",
+          "path": "Prydwen/ww/assets/icons/set-7-9116b6b3061f.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "963f47d9c985",
+          "sourceHash": "963f47d9c985",
+          "kind": "misc",
+          "name": "Fallacy of No Return",
+          "fileStem": "6000060",
+          "path": "Prydwen/ww/assets/misc/fallacy-of-no-return-963f47d9c985.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "hybrid-37",
+      "level": 5,
+      "heading": "Hybrid",
+      "text": "Lynae + Spectrum Blaster +\n Pact of Neonlight Leap\n\n +\n Hyvatia\n\n Ciaccona + Woodland Aria +\n Gusts of Welkin\n\n +\n Nightmare: Kelpie\n\n Iuno weapons performance varies depending on whether you play her as DPS or Hybrid. That’s why we have prepared two sets of calculations - the top number ( light green ) shows the performance as DPS and the bottom number ( dark green ) as Hybrid.\n\n 100.00%\n 100.00%\n\n Moongazer's Sigil (R 1 )\n\n On all fronts, Iuno's Signature is her best weapon. Gives a massive 36% DEF Ignore on Resonance Liberation DMG stacked instantly after an Intro and easily maintained by Iuno's ability to apply several Shields to herself, all the while unconditionally giving 20% Resonance Liberation DMG Bonus and a massive CRIT Rate boost while retaining good Base ATK.\n 84.10%\n 93.50%\n\n Verity's Handle (R 1 )\n\n Has lower value for Main DPS Iuno due to a delayed Ultimate cast. Xiangli Yao's Signature Weapon is a perfectly acceptable alternative to Iuno — similarly to Jiyan's Signature on Augusta, it's an amazing second option thanks to the easily accessed 48% Resonance Liberation DMG Bonus that this weapon's effect provides on top of its high Base ATK and CRIT Rate stats.\n 80.40%\n 79.00%\n\n Blazing Justice (R 1 )\n\n The best generalist Gauntlets option, providing an easily maintained 8% DEF Ignore, high Base ATK and CRIT DMG as well as ATK%. Unfortunately for anyone but Zani, the Spectro Frazzle DMG Amplify effect on this weapon is wasted, making it rank lower for Iuno than the above options.\n 77.90%\n 77.10%\n\n Tragicomedy (R 1 )\n\n Simple ATK and CRIT Rate stat-stick for Iuno, who does not benefit from this weapon's Heavy Attack DMG-focused effect.\n 77.90%\n 77.10%\n\n Pulsation Bracer (R 1 )\n\n Strongest permanently available option for Iuno that acts as a simple ATK and CRIT Rate stat-stick.\n 72.00%\n 73.00%\n\n Abyss Surges (R 1 )\n\n This permanent banner 5-star provides some Basic and Skill DMG increases that are completely wasted on Iuno — but fret not as its massive Base ATK and ATK% stats make it rank above the majority of 4-star weapons.\n 69.40%\n 76.70%\n\n Aether Strike (R 5 )\n\n Has significantly lower value for Main DPS Iuno due to a delayed Ultimate cast. Significantly worse than Abyss Surges at R1. This Battle Pass exclusive offers a big boost to ATK and Resonance Liberation DMG when casting Ultimate, all the while having a nice CRIT DMG secondary stat, making it one of the best options for Iuno in spite of the low Base ATK.\n 66.40%\n 71.20%\n\n Stonard (R 5 )\n\n Significantly worse than Abyss Surges at R1. Calculations assume Closing Refrain is used. This Battle Pass exclusive provides CRIT Rate and a Resonance Liberation DMG increase. In spite of its low Base ATK (like all 4-stars), Stonard is a fantastic weapon to equip on Iuno, rivaling some of the lower-ranked 5-star choices.\n -\n 62.60%\n\n Celestial Spiral (R 5 )\n\n Calculations assume Closing Refrain is used. Provides some extra Energy and ATK when casting a Skill, negating any Energy requirements on Iuno. Overall one of the better 4-star options that doesn't require the Battle Pass, but ranks below every 5-star due to low base stats.\n -\n 62.30%\n\n Hollow Mirage (R 5 )\n\n Provides some extra ATK increase over Legend of Drunken Hero which is dependent on not getting hit to upkeep. Even in the best conditions for this weapon, it's only slightly higher than the craftable, making it not recommended if better options are available.\n 66.40%\n 59.50%\n\n Legend of Drunken Hero (R 5 )\n\n Significantly stronger in a Main DPS team featuring Ciaccona, ranking above all non-BP & 5-star options. Best 4-star choice that doesn't require a single pull to acquire — simply requires weekly boss materials to craft and increases ATK by a good amount, especially when attacking enemies with Negative Statuses inflicted on them for an even higher ATK boost. Falls behind any above options due to not giving good stats (just ATK%).",
+      "assets": [
+        {
+          "id": "e366b96f341c",
+          "sourceHash": "e366b96f341c",
+          "kind": "characters",
+          "name": "Lynae",
+          "fileStem": "lynae-icon",
+          "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9def9d81ed3a",
+          "sourceHash": "9def9d81ed3a",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-24",
+          "path": "Prydwen/ww/assets/icons/set-24-9def9d81ed3a.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a204c02c6e12",
+          "sourceHash": "a204c02c6e12",
+          "kind": "misc",
+          "name": "Hyvatia",
+          "fileStem": "6000189",
+          "path": "Prydwen/ww/assets/misc/hyvatia-a204c02c6e12.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "ba56fbcc8eb4",
+          "sourceHash": "ba56fbcc8eb4",
+          "kind": "characters",
+          "name": "Ciaccona",
+          "fileStem": "ciaccona-icon",
+          "path": "Prydwen/ww/assets/characters/ciaccona-ba56fbcc8eb4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "8f23f048132b",
+          "sourceHash": "8f23f048132b",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-15",
+          "path": "Prydwen/ww/assets/icons/set-15-8f23f048132b.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "eb3e824f153b",
+          "sourceHash": "eb3e824f153b",
+          "kind": "misc",
+          "name": "Nightmare: Kelpie",
+          "fileStem": "6000113",
+          "path": "Prydwen/ww/assets/misc/nightmare-kelpie-eb3e824f153b.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "b07450491f2f",
+          "sourceHash": "b07450491f2f",
+          "kind": "weapons",
+          "name": "Moongazer's Sigil",
+          "fileStem": "21040046",
+          "path": "Prydwen/ww/assets/weapons/moongazers-sigil-b07450491f2f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ea93f302fdf1",
+          "sourceHash": "ea93f302fdf1",
+          "kind": "weapons",
+          "name": "Verity's Handle",
+          "fileStem": "21040016",
+          "path": "Prydwen/ww/assets/weapons/veritys-handle-ea93f302fdf1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "007d18a5154b",
+          "sourceHash": "007d18a5154b",
+          "kind": "weapons",
+          "name": "Blazing Justice",
+          "fileStem": "21040036",
+          "path": "Prydwen/ww/assets/weapons/blazing-justice-007d18a5154b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1d9fc851e8c3",
+          "sourceHash": "1d9fc851e8c3",
+          "kind": "weapons",
+          "name": "Tragicomedy",
+          "fileStem": "21040026",
+          "path": "Prydwen/ww/assets/weapons/tragicomedy-1d9fc851e8c3.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "a329648e74b3",
+          "sourceHash": "a329648e74b3",
+          "kind": "weapons",
+          "name": "Pulsation Bracer",
+          "fileStem": "21040045",
+          "path": "Prydwen/ww/assets/weapons/pulsation-bracer-a329648e74b3.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "4e021e35e328",
+          "sourceHash": "4e021e35e328",
+          "kind": "weapons",
+          "name": "Abyss Surges",
+          "fileStem": "21040015",
+          "path": "Prydwen/ww/assets/weapons/abyss-surges-4e021e35e328.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "be4f9e86be91",
+          "sourceHash": "be4f9e86be91",
+          "kind": "weapons",
+          "name": "Aether Strike",
+          "fileStem": "21040104",
+          "path": "Prydwen/ww/assets/weapons/aether-strike-be4f9e86be91.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9bf05a62f031",
+          "sourceHash": "9bf05a62f031",
+          "kind": "weapons",
+          "name": "Stonard",
+          "fileStem": "21040074",
+          "path": "Prydwen/ww/assets/weapons/stonard-9bf05a62f031.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d16f2ad97469",
+          "sourceHash": "d16f2ad97469",
+          "kind": "weapons",
+          "name": "Celestial Spiral",
+          "fileStem": "21040084",
+          "path": "Prydwen/ww/assets/weapons/celestial-spiral-d16f2ad97469.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "149a7a79da9a",
+          "sourceHash": "149a7a79da9a",
+          "kind": "weapons",
+          "name": "Hollow Mirage",
+          "fileStem": "21040064",
+          "path": "Prydwen/ww/assets/weapons/hollow-mirage-149a7a79da9a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5275e972617b",
+          "sourceHash": "5275e972617b",
+          "kind": "weapons",
+          "name": "Legend of Drunken Hero",
+          "fileStem": "21040094",
+          "path": "Prydwen/ww/assets/weapons/legend-of-drunken-hero-5275e972617b.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "best-echo-sets-39",
+      "level": 6,
+      "heading": "Best Echo Sets",
+      "text": "1\n\nCrown of Valor\n\n Iuno and Augusta's best set. The only set that should be ran on Main DPS Iuno. Increases ATK and CRIT DMG by 6% and 4% for 4s respectively when a Shield is applied to the equipped character, stacking up to 5 times every 0.5s. This totals to 30% ATK and 20% CRIT DMG, which is the best set for Iuno and Augusta in specific as they are the only characters in the game who are able to fully stack up this effect.\n Best combined with your choice of:\n 2P\n Sierra Gale\n\n Gusts of Welkin\n\n Windward Pilgrimage\n\n Sound of True Name\n\n (Recommended)\n 2P\n Endless Resonance\n\n Reel of Spliced Memories\n\n 2P\n Moonlit Clouds\n\n Empyrean Anthem\n\n Tidebreaking Courage\n\n Below you can find Main Echo options:\n\n Lady of the Sea\n\n - Simple summon Echo that gives 12% Liberation and 12% Aero DMG Bonus when equipped in the main slot. No restrictions on the cast and free damage for Iuno, making it the best choice.\n\n 2\n\nMoonlit Clouds\n\n Only consider this set on a Sub DPS Iuno. Near-equal in team damage to Crown of Valor in the best SubDPS Iuno teams. Offers 10% unconditional Energy Regen which makes reaching Energy requirements easy. Most importantly however, upon using Outro, grants the next character switching in a 22.5% ATK boost boosting their damage by a good amount.\n Below you can find Main Echo options:\n\n Impermanence Heron\n\n - The best and only real option Moonlit Clouds has, as it grants an extra 12% DMG Bonus on top of the 22.5% ATK boost to the next character that Moonlit Clouds would usually give. Additionally restores a lot of Energy to the caster when it deals damage. However, on Iuno, it is best to cast this Echo at the start of her rotation and cancelling it via a dash (after her Closing Refrain skill) or via her Ultimate (after Intro).",
+      "assets": [
+        {
+          "id": "e9b4be1a962a",
+          "sourceHash": "e9b4be1a962a",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-19",
+          "path": "Prydwen/ww/assets/icons/set-19-e9b4be1a962a.webp",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "380124f06e75",
+          "sourceHash": "380124f06e75",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-4",
+          "path": "Prydwen/ww/assets/icons/set-4-380124f06e75.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "8f23f048132b",
+          "sourceHash": "8f23f048132b",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-15",
+          "path": "Prydwen/ww/assets/icons/set-15-8f23f048132b.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "be99542697f0",
+          "sourceHash": "be99542697f0",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-17",
+          "path": "Prydwen/ww/assets/icons/set-17-be99542697f0.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "0b61a0550d75",
+          "sourceHash": "0b61a0550d75",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-28",
+          "path": "Prydwen/ww/assets/icons/set-28-0b61a0550d75.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "423ea0547985",
+          "sourceHash": "423ea0547985",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-9",
+          "path": "Prydwen/ww/assets/icons/set-9-423ea0547985.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "789f50e907c6",
+          "sourceHash": "789f50e907c6",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-29",
+          "path": "Prydwen/ww/assets/icons/set-29-789f50e907c6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "358387a78181",
+          "sourceHash": "358387a78181",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-8",
+          "path": "Prydwen/ww/assets/icons/set-8-358387a78181.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "26730b805365",
+          "sourceHash": "26730b805365",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-13",
+          "path": "Prydwen/ww/assets/icons/set-13-26730b805365.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "b314b4a5977f",
+          "sourceHash": "b314b4a5977f",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-14",
+          "path": "Prydwen/ww/assets/icons/set-14-b314b4a5977f.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "9cc1c0d4021f",
+          "sourceHash": "9cc1c0d4021f",
+          "kind": "misc",
+          "name": "Lady of the Sea",
+          "fileStem": "6000160",
+          "path": "Prydwen/ww/assets/misc/lady-of-the-sea-9cc1c0d4021f.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "969a4ca96158",
+          "sourceHash": "969a4ca96158",
+          "kind": "misc",
+          "name": "Impermanence Heron",
+          "fileStem": "330000030",
+          "path": "Prydwen/ww/assets/misc/impermanence-heron-969a4ca96158.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "best-echo-stats-40",
+      "level": 2,
+      "heading": "Best Echo Stats",
+      "text": "4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Aero DMG\n\n 3 cost\n Aero DMG > ATK%\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > Resonance Liberation DMG% ≥ ATK% > ATK",
+      "assets": []
+    },
+    {
+      "id": "best-endgame-stats-level-90-41",
+      "level": 2,
+      "heading": "Best Endgame Stats (Level 90)",
+      "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 15000+\n\n DEF: 1100+\n\n ATK: 1800-2400+\n\n CRIT Rate: 65-80%+\n\n CRIT DMG: 215-260%\n\n Energy Regen: 120-130%+ (Hybrid) OR 100% (DPS)\n Hybrid was estimated in a team with Augusta, DPS was estimated in a team with Lynae+Shorekeeper.\n\n Aero DMG Bonus: 40-70%+",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-42",
+      "level": 2,
+      "heading": "Skill Priority",
+      "text": "Below you can find the order of leveling the abilities for Iuno .",
+      "assets": []
+    },
+    {
+      "id": "main-dps-43",
+      "level": 5,
+      "heading": "Main DPS",
+      "text": "Forte Circuit\n\n Res. Liberation\n\n Basic Attack\n\n Res. Skill\n\n Intro Skill\n\n Skill and Intro can be skipped when levelling to save on resources at a minimal damage loss.",
+      "assets": []
+    },
+    {
+      "id": "hybrid-44",
+      "level": 5,
+      "heading": "Hybrid",
+      "text": "Forte Circuit\n\n Res. Liberation\n\n Intro Skill\n\n Res. Skill\n\n Basic Attack\n\n Skill, Intro and Basic can be skipped when levelling to save on resources at a minimal damage loss.\n\n Gameplay and teams",
+      "assets": []
+    },
+    {
+      "id": "gameplay-section-46",
+      "level": 6,
+      "heading": "Gameplay Section",
+      "text": "Iuno is a character of many facets and many rotations. Depending on the team the player slots her in, she can operate completely differently from her playstyle in her best team with Augusta and Shorekeeper. Being a highly flexible character, Iuno has many different rotations, which we will detail completely below.Echo Timing: If using Moonlit Clouds with Impermanence Heron as the main Echo, then it should be cast and cancelled by her Ultimate (after an Intro skill) or if using the extended version, after her Closing Refrain skill (and it should be cancelled via a Dash). However, if using Crown of Valor, no need to worry — just cast her Echo skill at any point!",
+      "assets": []
+    },
+    {
+      "id": "standard-sub-dps-rotation-47",
+      "level": 6,
+      "heading": "Standard Sub DPS Rotation",
+      "text": "This is Iuno’s baseline rotation that should be learnt by the majority of players. It provides the highest amount of healing, buffs Augusta the most by casting the Full Moon Domain, and lets the Main DPS of the team take the spotlight all the while dealing solid amounts of damage. Using Augusta and Iuno together, this is the best rotation to execute.\n Intro\n\n Ultimate\n\n Jump Attack: Flux - Moonbow\n\n Enhanced Moonbow Basic P1\n\n Enhanced Moonbow Basic P2\n\n Enhanced Moonbow Basic P3\n\n Enhanced Skill: Arc Beyond The Edge\n\n Enhanced Skill: Arc Beyond The Edge\n\n Forte: Heavy Attack: Absolute Fullness (Swap)\n\n Outro",
+      "assets": []
+    },
+    {
+      "id": "standard-sub-dps-rotation-without-augusta-48",
+      "level": 6,
+      "heading": "Standard Sub DPS Rotation — without Augusta",
+      "text": "Without Augusta on the team, Iuno only provides extra healing by casting her Full Moon Domain via Absolute Fullness, since the extra DMG Amplification can only be stacked by Augusta herself (and Iuno, but she doesn’t need to cast her Domain in order to stack the buff). As a result, we can skip out on it as follows:\n Intro\n\n Ultimate\n\n Jump Attack: Flux - Moonbow\n\n Enhanced Moonbow Basic P1\n\n Enhanced Moonbow Basic P2\n\n Enhanced Moonbow Basic P3\n\n Enhanced Skill: Arc Beyond The Edge\n\n Enhanced Skill: Arc Beyond The Edge (Swap)\n\n Outro\n\n The rotation above saves a lot of time while not forfeiting much damage since Absolute Fullness is rather weak — always use this if the extra heals aren’t needed and Augusta isn’t on the team!",
+      "assets": []
+    },
+    {
+      "id": "extended-sub-dps-rotation-49",
+      "level": 6,
+      "heading": "Extended Sub DPS Rotation",
+      "text": "Iuno can additionally extend her rotation without giving up much DPS because her Closing Refrain skill deals good damage. This is also the optimal rotation with certain weapons that activate when using a Skill, such as Stonard, and we can even exploit a cool Animation Cancel trick, as follows:\n Intro\n\n Skill: Closing Refrain\n\n Jump Attack: Flux - Moonbow\n\n Enhanced Skill: Arc Beyond The Edge (cancel this attack using Ultimate once Iuno shot her projectiles)\n\n Ultimate\n\n Enhanced Moonbow Basic P1\n\n Enhanced Moonbow Basic P2\n\n Enhanced Moonbow Basic P3\n\n Enhanced Skill: Arc Beyond The Edge (Swap here if not casting Absolute Fullness)\n\n (OPTIONAL) Heavy Attack: Absolute Fullness (Swap)\n\n Outro\n\n Using this animation cancel between Iuno’s Skill and Ultimate saves on a bit of time as the damage comes out in the middle of Iuno’s Ultimate animation, during which time is paused. Don’t worry though — you get the full damage and Concerto Energy generated regardless. As usual, only cast Absolute Fullness if you really want the extra healing or if Augusta is on the team.",
+      "assets": []
+    },
+    {
+      "id": "main-dps-rotation-50",
+      "level": 6,
+      "heading": "Main DPS Rotation",
+      "text": "This is the best rotation to execute in all scenarios if Iuno is the Main DPS of your team; it’s a really fun and strong playstyle that we recommend, but be careful not to cancel any Basic Attacks too early — make sure to wait until they hit first, and time the cancel of the Skill with her Ultimate properly as well!\n Intro\n\n Skill: Closing Refrain\n\n Jump Attack: Flux - Moonbow\n\n Enhanced Moonbow Basic P1\n\n Enhanced Moonbow Basic P2\n\n Enhanced Moonbow Basic P3\n\n Enhanced Skill: Arc Beyond The Edge (cancel this attack using Ultimate once Iuno shot her projectiles)\n\n Ultimate\n\n Enhanced Moonbow Basic P1\n\n Enhanced Moonbow Basic P2\n\n Enhanced Moonbow Basic P3\n\n Enhanced Skill: Arc Beyond The Edge\n\n Moonbow Basic P1\n\n Moonbow Basic P2\n\n Moonbow Basic P3 (Swap)\n\n Outro\n\n Note that Iuno’s Moonbow Basic P3 is in 2 parts and Iuno can be swapped out earlier than you might initially think.",
+      "assets": []
+    },
+    {
+      "id": "s6-only-main-dps-rotation-51",
+      "level": 6,
+      "heading": "S6-Only Main DPS Rotation",
+      "text": "If Iuno is S6, her rotation drastically changes due to Absolute Fullness’s mechanics being changed (and buffed) hard. Hence her rotation will look like this:\n Intro\n\n Skill: Closing Refrain\n\n Jump Attack: Flux - Moonbow\n\n Enhanced Skill: Arc Beyond The Edge (cancel this attack using Ultimate once Iuno shot her projectiles)\n\n Ultimate\n\n Enhanced Moonbow Basic P1\n\n Enhanced Moonbow Basic P2\n\n Enhanced Moonbow Basic P3\n\n Enhanced Skill: Arc Beyond The Edge\n\n Heavy Attack: Absolute Fullness\n\n Enhanced Moonbow Basic P1\n\n Enhanced Moonbow Basic P2\n\n Enhanced Moonbow Basic P3\n\n Enhanced Skill: Arc Beyond The Edge\n\n Enhanced Skill: Arc Beyond The Edge (Swap)\n\n Outro",
+      "assets": []
+    },
+    {
+      "id": "synergies-52",
+      "level": 2,
+      "heading": "Synergies",
+      "text": "Augusta Jiyan - As the best teammates for Hybrid Iuno, it's no surprise the Sun & Moon duo is one of the best teams in the game because Iuno is able to provide a whopping 90% total DMG Amplification to Augusta thanks to her taking advantage of her Full Moon Domain. Jiyan isn't a bad choice at all though, since he can also use Iuno's Outro for 50% Heavy DMG Amplification while being able to pair with Ciaccona to form a very strong Mono Aero team.\n Lynae Ciaccona Yinlin Jianxin - These three are the best buffers for Main DPS Iuno. Lynae is generally the best one by far as her generalist buffs are unparalleled and she provides a total of 40% DMG Amplification to Iuno via her Outro; while Ciaccona has no Outro buff dedicated to Iuno, she does provide solid personal damage, a super fast rotation and a lot of Aero DMG increases in the form of DMG Bonus and RES Shred with her Signature. Yinlin has lower DMG Amplification than Jianxin via their Outros (25% vs 38%), but Yinlin remains better thanks to having good Energy generation, solid personal damage and a rather quick rotation. Jianxin is a perfectly viable F2P-accessible choice though, particularly with higher Sequences, making all three good choices overall.\n Phoebe Zani Galbrena - These Heavy Attack damage dealers can all be recipients of Iuno's Outro buff, however in those teams Iuno's Outro buff pales in comparison to their dedicated teammates: Phoebe is best used when buffing Zani, Qiuyuan is best to buff Galbrena, and even to buff Phoebe she already has enough DMG Amplification in her own kit which makes a secondary source of damage like Phrolova stronger than Iuno. Nevertheless, Iuno is easily capable of buffing their damage and she brings her own personal damage and sustain to the table if desired.\n Mornye The Shorekeeper Verina Rover (Aero) - Iuno's array of Support choices that are all very strong. Mornye has a special synergy with Lynae since Lynae can apply Tune Rupture/Strain for Mornye to respond to them and provide her full array of buffs, making her the best choice generally if Lynae is in use. While Aero Rover only sees use over Shorekeeper in Main DPS Iuno teams for general Aero Buffs, Shorekeeper and Verina are your best generalist bets thanks to their general DMG Amplification Outro, high ATK buffs and even CRIT buffs in the case of Shorekeeper, making for great pairings overall.",
+      "assets": [
+        {
+          "id": "d9b47f532b06",
+          "sourceHash": "d9b47f532b06",
+          "kind": "characters",
+          "name": "Augusta",
+          "fileStem": "augusta-icon",
+          "path": "Prydwen/ww/assets/characters/augusta-d9b47f532b06.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7c6c3a3bc3ce",
+          "sourceHash": "7c6c3a3bc3ce",
+          "kind": "characters",
+          "name": "Jiyan",
+          "fileStem": "jiyan-icon",
+          "path": "Prydwen/ww/assets/characters/jiyan-7c6c3a3bc3ce.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e366b96f341c",
+          "sourceHash": "e366b96f341c",
+          "kind": "characters",
+          "name": "Lynae",
+          "fileStem": "lynae-icon",
+          "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ba56fbcc8eb4",
+          "sourceHash": "ba56fbcc8eb4",
+          "kind": "characters",
+          "name": "Ciaccona",
+          "fileStem": "ciaccona-icon",
+          "path": "Prydwen/ww/assets/characters/ciaccona-ba56fbcc8eb4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f569a8378909",
+          "sourceHash": "f569a8378909",
+          "kind": "characters",
+          "name": "Yinlin",
+          "fileStem": "yinlin-icon",
+          "path": "Prydwen/ww/assets/characters/yinlin-f569a8378909.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3f68e864215a",
+          "sourceHash": "3f68e864215a",
+          "kind": "characters",
+          "name": "Jianxin",
+          "fileStem": "jianxin-icon",
+          "path": "Prydwen/ww/assets/characters/jianxin-3f68e864215a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "552f65617cbb",
+          "sourceHash": "552f65617cbb",
+          "kind": "characters",
+          "name": "Phoebe",
+          "fileStem": "phoebe-icon",
+          "path": "Prydwen/ww/assets/characters/phoebe-552f65617cbb.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3a3005a58dc2",
+          "sourceHash": "3a3005a58dc2",
+          "kind": "characters",
+          "name": "Zani",
+          "fileStem": "zani-icon",
+          "path": "Prydwen/ww/assets/characters/zani-3a3005a58dc2.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "bfb1691bcfa3",
+          "sourceHash": "bfb1691bcfa3",
+          "kind": "characters",
+          "name": "Galbrena",
+          "fileStem": "galbrena-icon",
+          "path": "Prydwen/ww/assets/characters/galbrena-bfb1691bcfa3.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "40d7023b51fa",
+          "sourceHash": "40d7023b51fa",
+          "kind": "characters",
+          "name": "Mornye",
+          "fileStem": "mornye-icon",
+          "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d909de4aecde",
+          "sourceHash": "d909de4aecde",
+          "kind": "characters",
+          "name": "The Shorekeeper",
+          "fileStem": "the-shorekeeper-icon",
+          "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1b2a8f336e3d",
+          "sourceHash": "1b2a8f336e3d",
+          "kind": "characters",
+          "name": "Verina",
+          "fileStem": "verina-icon",
+          "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "df8c0bc8d49a",
+          "sourceHash": "df8c0bc8d49a",
+          "kind": "characters",
+          "name": "Rover (Aero)",
+          "fileStem": "rover-aero-icon",
+          "path": "Prydwen/ww/assets/characters/rover-aero-df8c0bc8d49a.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "example-teams-53",
+      "level": 2,
+      "heading": "Example Teams",
+      "text": "Team #1: Best Team\n\n Team #2: Main DPS Iuno\n\n Mornye is only best with Lynae on the team. Only use Aero Rover over Shorekeeper with Ciaccona as your second slot partner. Use Shorekeeper in other scenarios (using Ciaccona in the third slot with Lynae is also amazing).\n\n Team #3: Jiyan Team\n\n Team #4: Galbrena Team\n\n Team #5: Frazzle Teams\n\n Calculations",
+      "assets": [
+        {
+          "id": "d9b47f532b06",
+          "sourceHash": "d9b47f532b06",
+          "kind": "characters",
+          "name": "Augusta",
+          "fileStem": "augusta-icon",
+          "path": "Prydwen/ww/assets/characters/augusta-d9b47f532b06.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "e6913cb7353a",
+          "sourceHash": "e6913cb7353a",
+          "kind": "characters",
+          "name": "Iuno",
+          "fileStem": "iuno-icon",
+          "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "d909de4aecde",
+          "sourceHash": "d909de4aecde",
+          "kind": "characters",
+          "name": "The Shorekeeper",
+          "fileStem": "the-shorekeeper-icon",
+          "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "1b2a8f336e3d",
+          "sourceHash": "1b2a8f336e3d",
+          "kind": "characters",
+          "name": "Verina",
+          "fileStem": "verina-icon",
+          "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "e366b96f341c",
+          "sourceHash": "e366b96f341c",
+          "kind": "characters",
+          "name": "Lynae",
+          "fileStem": "lynae-icon",
+          "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "ba56fbcc8eb4",
+          "sourceHash": "ba56fbcc8eb4",
+          "kind": "characters",
+          "name": "Ciaccona",
+          "fileStem": "ciaccona-icon",
+          "path": "Prydwen/ww/assets/characters/ciaccona-ba56fbcc8eb4.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "f569a8378909",
+          "sourceHash": "f569a8378909",
+          "kind": "characters",
+          "name": "Yinlin",
+          "fileStem": "yinlin-icon",
+          "path": "Prydwen/ww/assets/characters/yinlin-f569a8378909.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "3f68e864215a",
+          "sourceHash": "3f68e864215a",
+          "kind": "characters",
+          "name": "Jianxin",
+          "fileStem": "jianxin-icon",
+          "path": "Prydwen/ww/assets/characters/jianxin-3f68e864215a.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "40d7023b51fa",
+          "sourceHash": "40d7023b51fa",
+          "kind": "characters",
+          "name": "Mornye",
+          "fileStem": "mornye-icon",
+          "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "7c6c3a3bc3ce",
+          "sourceHash": "7c6c3a3bc3ce",
+          "kind": "characters",
+          "name": "Jiyan",
+          "fileStem": "jiyan-icon",
+          "path": "Prydwen/ww/assets/characters/jiyan-7c6c3a3bc3ce.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "df8c0bc8d49a",
+          "sourceHash": "df8c0bc8d49a",
+          "kind": "characters",
+          "name": "Rover (Aero)",
+          "fileStem": "rover-aero-icon",
+          "path": "Prydwen/ww/assets/characters/rover-aero-df8c0bc8d49a.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "bfb1691bcfa3",
+          "sourceHash": "bfb1691bcfa3",
+          "kind": "characters",
+          "name": "Galbrena",
+          "fileStem": "galbrena-icon",
+          "path": "Prydwen/ww/assets/characters/galbrena-bfb1691bcfa3.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "3a3005a58dc2",
+          "sourceHash": "3a3005a58dc2",
+          "kind": "characters",
+          "name": "Zani",
+          "fileStem": "zani-icon",
+          "path": "Prydwen/ww/assets/characters/zani-3a3005a58dc2.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "552f65617cbb",
+          "sourceHash": "552f65617cbb",
+          "kind": "characters",
+          "name": "Phoebe",
+          "fileStem": "phoebe-icon",
+          "path": "Prydwen/ww/assets/characters/phoebe-552f65617cbb.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "514d72023ab5",
+          "sourceHash": "514d72023ab5",
+          "kind": "characters",
+          "name": "Rover (Spectro)",
+          "fileStem": "rover-spectro-icon",
+          "path": "Prydwen/ww/assets/characters/rover-spectro-514d72023ab5.webp",
+          "width": 120,
+          "height": 120
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "best-echo-stats": {
+      "label": "Best Echo Stats",
+      "sections": [
+        {
+          "heading": "Stats",
+          "text": "Include minor fortes\n\n Lv. 90\n\n HP\n 10525\n\n ATK\n 450\n\n DEF\n 1124\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Aero DMG\n 0 %",
+          "assets": [
+            {
+              "id": "c26c1d310e90",
+              "sourceHash": "c26c1d310e90",
+              "kind": "icons",
+              "name": "HP",
+              "fileStem": "stat-hp",
+              "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "1e70b3adc860",
+              "sourceHash": "1e70b3adc860",
+              "kind": "icons",
+              "name": "ATK",
+              "fileStem": "stat-atk",
+              "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "aa019d34202f",
+              "sourceHash": "aa019d34202f",
+              "kind": "icons",
+              "name": "DEF",
+              "fileStem": "stat-def",
+              "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "5a0b154cd3d8",
+              "sourceHash": "5a0b154cd3d8",
+              "kind": "icons",
+              "name": "Max Energy",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "39094c227806",
+              "sourceHash": "39094c227806",
+              "kind": "icons",
+              "name": "CRIT Rate",
+              "fileStem": "stat-crit",
+              "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "7e2bcd0760ca",
+              "sourceHash": "7e2bcd0760ca",
+              "kind": "icons",
+              "name": "CRIT DMG",
+              "fileStem": "stat-critdmg",
+              "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "94236abd3fdc",
+              "sourceHash": "94236abd3fdc",
+              "kind": "icons",
+              "name": "Healing",
+              "fileStem": "stat-heal",
+              "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "2133af4a37e3",
+              "sourceHash": "2133af4a37e3",
+              "kind": "icons",
+              "name": "Aero",
+              "fileStem": "stat-wind",
+              "path": "Prydwen/ww/assets/icons/aero-2133af4a37e3.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        },
+        {
+          "heading": "Best Echo Stats",
+          "text": "4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Aero DMG\n\n 3 cost\n Aero DMG > ATK%\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > Resonance Liberation DMG% ≥ ATK% > ATK",
+          "assets": []
+        }
+      ]
+    },
+    "best-weapons": {
+      "label": "Best Weapons",
+      "sections": [
+        {
+          "heading": "Best Weapons",
+          "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Iuno calculations were done using added buffs from the following teammates:",
+          "assets": []
+        }
+      ]
+    },
+    "best-echo-sets": {
+      "label": "Best Echo Sets",
+      "sections": [
+        {
+          "heading": "Best Echo Sets",
+          "text": "1\n\nCrown of Valor\n\n Iuno and Augusta's best set. The only set that should be ran on Main DPS Iuno. Increases ATK and CRIT DMG by 6% and 4% for 4s respectively when a Shield is applied to the equipped character, stacking up to 5 times every 0.5s. This totals to 30% ATK and 20% CRIT DMG, which is the best set for Iuno and Augusta in specific as they are the only characters in the game who are able to fully stack up this effect.\n Best combined with your choice of:\n 2P\n Sierra Gale\n\n Gusts of Welkin\n\n Windward Pilgrimage\n\n Sound of True Name\n\n (Recommended)\n 2P\n Endless Resonance\n\n Reel of Spliced Memories\n\n 2P\n Moonlit Clouds\n\n Empyrean Anthem\n\n Tidebreaking Courage\n\n Below you can find Main Echo options:\n\n Lady of the Sea\n\n - Simple summon Echo that gives 12% Liberation and 12% Aero DMG Bonus when equipped in the main slot. No restrictions on the cast and free damage for Iuno, making it the best choice.\n\n 2\n\nMoonlit Clouds\n\n Only consider this set on a Sub DPS Iuno. Near-equal in team damage to Crown of Valor in the best SubDPS Iuno teams. Offers 10% unconditional Energy Regen which makes reaching Energy requirements easy. Most importantly however, upon using Outro, grants the next character switching in a 22.5% ATK boost boosting their damage by a good amount.\n Below you can find Main Echo options:\n\n Impermanence Heron\n\n - The best and only real option Moonlit Clouds has, as it grants an extra 12% DMG Bonus on top of the 22.5% ATK boost to the next character that Moonlit Clouds would usually give. Additionally restores a lot of Energy to the caster when it deals damage. However, on Iuno, it is best to cast this Echo at the start of her rotation and cancelling it via a dash (after her Closing Refrain skill) or via her Ultimate (after Intro).",
+          "assets": [
+            {
+              "id": "e9b4be1a962a",
+              "sourceHash": "e9b4be1a962a",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-19",
+              "path": "Prydwen/ww/assets/icons/set-19-e9b4be1a962a.webp",
+              "width": 50,
+              "height": 50
+            },
+            {
+              "id": "380124f06e75",
+              "sourceHash": "380124f06e75",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-4",
+              "path": "Prydwen/ww/assets/icons/set-4-380124f06e75.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "8f23f048132b",
+              "sourceHash": "8f23f048132b",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-15",
+              "path": "Prydwen/ww/assets/icons/set-15-8f23f048132b.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "be99542697f0",
+              "sourceHash": "be99542697f0",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-17",
+              "path": "Prydwen/ww/assets/icons/set-17-be99542697f0.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "0b61a0550d75",
+              "sourceHash": "0b61a0550d75",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-28",
+              "path": "Prydwen/ww/assets/icons/set-28-0b61a0550d75.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "423ea0547985",
+              "sourceHash": "423ea0547985",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-9",
+              "path": "Prydwen/ww/assets/icons/set-9-423ea0547985.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "789f50e907c6",
+              "sourceHash": "789f50e907c6",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-29",
+              "path": "Prydwen/ww/assets/icons/set-29-789f50e907c6.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "358387a78181",
+              "sourceHash": "358387a78181",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-8",
+              "path": "Prydwen/ww/assets/icons/set-8-358387a78181.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "26730b805365",
+              "sourceHash": "26730b805365",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-13",
+              "path": "Prydwen/ww/assets/icons/set-13-26730b805365.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "b314b4a5977f",
+              "sourceHash": "b314b4a5977f",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-14",
+              "path": "Prydwen/ww/assets/icons/set-14-b314b4a5977f.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "9cc1c0d4021f",
+              "sourceHash": "9cc1c0d4021f",
+              "kind": "misc",
+              "name": "Lady of the Sea",
+              "fileStem": "6000160",
+              "path": "Prydwen/ww/assets/misc/lady-of-the-sea-9cc1c0d4021f.webp",
+              "width": 35,
+              "height": 35
+            },
+            {
+              "id": "969a4ca96158",
+              "sourceHash": "969a4ca96158",
+              "kind": "misc",
+              "name": "Impermanence Heron",
+              "fileStem": "330000030",
+              "path": "Prydwen/ww/assets/misc/impermanence-heron-969a4ca96158.webp",
+              "width": 35,
+              "height": 35
+            }
+          ]
+        }
+      ]
+    },
+    "best-endgame-stats": {
+      "label": "Best Endgame Stats",
+      "sections": [
+        {
+          "heading": "Best Endgame Stats (Level 90)",
+          "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 15000+\n\n DEF: 1100+\n\n ATK: 1800-2400+\n\n CRIT Rate: 65-80%+\n\n CRIT DMG: 215-260%\n\n Energy Regen: 120-130%+ (Hybrid) OR 100% (DPS)\n Hybrid was estimated in a team with Augusta, DPS was estimated in a team with Lynae+Shorekeeper.\n\n Aero DMG Bonus: 40-70%+",
+          "assets": []
+        }
+      ]
+    },
+    "skill-priority": {
+      "label": "Skill Priority",
+      "sections": [
+        {
+          "heading": "Skill Priority",
+          "text": "Below you can find the order of leveling the abilities for Iuno .",
+          "assets": []
+        }
+      ]
+    },
+    "rotation": {
+      "label": "Rotation",
+      "sections": [
+        {
+          "heading": "Standard Sub DPS Rotation",
+          "text": "This is Iuno’s baseline rotation that should be learnt by the majority of players. It provides the highest amount of healing, buffs Augusta the most by casting the Full Moon Domain, and lets the Main DPS of the team take the spotlight all the while dealing solid amounts of damage. Using Augusta and Iuno together, this is the best rotation to execute.\n Intro\n\n Ultimate\n\n Jump Attack: Flux - Moonbow\n\n Enhanced Moonbow Basic P1\n\n Enhanced Moonbow Basic P2\n\n Enhanced Moonbow Basic P3\n\n Enhanced Skill: Arc Beyond The Edge\n\n Enhanced Skill: Arc Beyond The Edge\n\n Forte: Heavy Attack: Absolute Fullness (Swap)\n\n Outro",
+          "assets": []
+        },
+        {
+          "heading": "Standard Sub DPS Rotation — without Augusta",
+          "text": "Without Augusta on the team, Iuno only provides extra healing by casting her Full Moon Domain via Absolute Fullness, since the extra DMG Amplification can only be stacked by Augusta herself (and Iuno, but she doesn’t need to cast her Domain in order to stack the buff). As a result, we can skip out on it as follows:\n Intro\n\n Ultimate\n\n Jump Attack: Flux - Moonbow\n\n Enhanced Moonbow Basic P1\n\n Enhanced Moonbow Basic P2\n\n Enhanced Moonbow Basic P3\n\n Enhanced Skill: Arc Beyond The Edge\n\n Enhanced Skill: Arc Beyond The Edge (Swap)\n\n Outro\n\n The rotation above saves a lot of time while not forfeiting much damage since Absolute Fullness is rather weak — always use this if the extra heals aren’t needed and Augusta isn’t on the team!",
+          "assets": []
+        },
+        {
+          "heading": "Extended Sub DPS Rotation",
+          "text": "Iuno can additionally extend her rotation without giving up much DPS because her Closing Refrain skill deals good damage. This is also the optimal rotation with certain weapons that activate when using a Skill, such as Stonard, and we can even exploit a cool Animation Cancel trick, as follows:\n Intro\n\n Skill: Closing Refrain\n\n Jump Attack: Flux - Moonbow\n\n Enhanced Skill: Arc Beyond The Edge (cancel this attack using Ultimate once Iuno shot her projectiles)\n\n Ultimate\n\n Enhanced Moonbow Basic P1\n\n Enhanced Moonbow Basic P2\n\n Enhanced Moonbow Basic P3\n\n Enhanced Skill: Arc Beyond The Edge (Swap here if not casting Absolute Fullness)\n\n (OPTIONAL) Heavy Attack: Absolute Fullness (Swap)\n\n Outro\n\n Using this animation cancel between Iuno’s Skill and Ultimate saves on a bit of time as the damage comes out in the middle of Iuno’s Ultimate animation, during which time is paused. Don’t worry though — you get the full damage and Concerto Energy generated regardless. As usual, only cast Absolute Fullness if you really want the extra healing or if Augusta is on the team.",
+          "assets": []
+        },
+        {
+          "heading": "Main DPS Rotation",
+          "text": "This is the best rotation to execute in all scenarios if Iuno is the Main DPS of your team; it’s a really fun and strong playstyle that we recommend, but be careful not to cancel any Basic Attacks too early — make sure to wait until they hit first, and time the cancel of the Skill with her Ultimate properly as well!\n Intro\n\n Skill: Closing Refrain\n\n Jump Attack: Flux - Moonbow\n\n Enhanced Moonbow Basic P1\n\n Enhanced Moonbow Basic P2\n\n Enhanced Moonbow Basic P3\n\n Enhanced Skill: Arc Beyond The Edge (cancel this attack using Ultimate once Iuno shot her projectiles)\n\n Ultimate\n\n Enhanced Moonbow Basic P1\n\n Enhanced Moonbow Basic P2\n\n Enhanced Moonbow Basic P3\n\n Enhanced Skill: Arc Beyond The Edge\n\n Moonbow Basic P1\n\n Moonbow Basic P2\n\n Moonbow Basic P3 (Swap)\n\n Outro\n\n Note that Iuno’s Moonbow Basic P3 is in 2 parts and Iuno can be swapped out earlier than you might initially think.",
+          "assets": []
+        },
+        {
+          "heading": "S6-Only Main DPS Rotation",
+          "text": "If Iuno is S6, her rotation drastically changes due to Absolute Fullness’s mechanics being changed (and buffed) hard. Hence her rotation will look like this:\n Intro\n\n Skill: Closing Refrain\n\n Jump Attack: Flux - Moonbow\n\n Enhanced Skill: Arc Beyond The Edge (cancel this attack using Ultimate once Iuno shot her projectiles)\n\n Ultimate\n\n Enhanced Moonbow Basic P1\n\n Enhanced Moonbow Basic P2\n\n Enhanced Moonbow Basic P3\n\n Enhanced Skill: Arc Beyond The Edge\n\n Heavy Attack: Absolute Fullness\n\n Enhanced Moonbow Basic P1\n\n Enhanced Moonbow Basic P2\n\n Enhanced Moonbow Basic P3\n\n Enhanced Skill: Arc Beyond The Edge\n\n Enhanced Skill: Arc Beyond The Edge (Swap)\n\n Outro",
+          "assets": []
+        }
+      ]
+    },
+    "synergies": {
+      "label": "Synergies",
+      "sections": [
+        {
+          "heading": "Synergies",
+          "text": "Augusta Jiyan - As the best teammates for Hybrid Iuno, it's no surprise the Sun & Moon duo is one of the best teams in the game because Iuno is able to provide a whopping 90% total DMG Amplification to Augusta thanks to her taking advantage of her Full Moon Domain. Jiyan isn't a bad choice at all though, since he can also use Iuno's Outro for 50% Heavy DMG Amplification while being able to pair with Ciaccona to form a very strong Mono Aero team.\n Lynae Ciaccona Yinlin Jianxin - These three are the best buffers for Main DPS Iuno. Lynae is generally the best one by far as her generalist buffs are unparalleled and she provides a total of 40% DMG Amplification to Iuno via her Outro; while Ciaccona has no Outro buff dedicated to Iuno, she does provide solid personal damage, a super fast rotation and a lot of Aero DMG increases in the form of DMG Bonus and RES Shred with her Signature. Yinlin has lower DMG Amplification than Jianxin via their Outros (25% vs 38%), but Yinlin remains better thanks to having good Energy generation, solid personal damage and a rather quick rotation. Jianxin is a perfectly viable F2P-accessible choice though, particularly with higher Sequences, making all three good choices overall.\n Phoebe Zani Galbrena - These Heavy Attack damage dealers can all be recipients of Iuno's Outro buff, however in those teams Iuno's Outro buff pales in comparison to their dedicated teammates: Phoebe is best used when buffing Zani, Qiuyuan is best to buff Galbrena, and even to buff Phoebe she already has enough DMG Amplification in her own kit which makes a secondary source of damage like Phrolova stronger than Iuno. Nevertheless, Iuno is easily capable of buffing their damage and she brings her own personal damage and sustain to the table if desired.\n Mornye The Shorekeeper Verina Rover (Aero) - Iuno's array of Support choices that are all very strong. Mornye has a special synergy with Lynae since Lynae can apply Tune Rupture/Strain for Mornye to respond to them and provide her full array of buffs, making her the best choice generally if Lynae is in use. While Aero Rover only sees use over Shorekeeper in Main DPS Iuno teams for general Aero Buffs, Shorekeeper and Verina are your best generalist bets thanks to their general DMG Amplification Outro, high ATK buffs and even CRIT buffs in the case of Shorekeeper, making for great pairings overall.",
+          "assets": [
+            {
+              "id": "d9b47f532b06",
+              "sourceHash": "d9b47f532b06",
+              "kind": "characters",
+              "name": "Augusta",
+              "fileStem": "augusta-icon",
+              "path": "Prydwen/ww/assets/characters/augusta-d9b47f532b06.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "7c6c3a3bc3ce",
+              "sourceHash": "7c6c3a3bc3ce",
+              "kind": "characters",
+              "name": "Jiyan",
+              "fileStem": "jiyan-icon",
+              "path": "Prydwen/ww/assets/characters/jiyan-7c6c3a3bc3ce.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "e366b96f341c",
+              "sourceHash": "e366b96f341c",
+              "kind": "characters",
+              "name": "Lynae",
+              "fileStem": "lynae-icon",
+              "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "ba56fbcc8eb4",
+              "sourceHash": "ba56fbcc8eb4",
+              "kind": "characters",
+              "name": "Ciaccona",
+              "fileStem": "ciaccona-icon",
+              "path": "Prydwen/ww/assets/characters/ciaccona-ba56fbcc8eb4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "f569a8378909",
+              "sourceHash": "f569a8378909",
+              "kind": "characters",
+              "name": "Yinlin",
+              "fileStem": "yinlin-icon",
+              "path": "Prydwen/ww/assets/characters/yinlin-f569a8378909.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "3f68e864215a",
+              "sourceHash": "3f68e864215a",
+              "kind": "characters",
+              "name": "Jianxin",
+              "fileStem": "jianxin-icon",
+              "path": "Prydwen/ww/assets/characters/jianxin-3f68e864215a.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "552f65617cbb",
+              "sourceHash": "552f65617cbb",
+              "kind": "characters",
+              "name": "Phoebe",
+              "fileStem": "phoebe-icon",
+              "path": "Prydwen/ww/assets/characters/phoebe-552f65617cbb.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "3a3005a58dc2",
+              "sourceHash": "3a3005a58dc2",
+              "kind": "characters",
+              "name": "Zani",
+              "fileStem": "zani-icon",
+              "path": "Prydwen/ww/assets/characters/zani-3a3005a58dc2.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "bfb1691bcfa3",
+              "sourceHash": "bfb1691bcfa3",
+              "kind": "characters",
+              "name": "Galbrena",
+              "fileStem": "galbrena-icon",
+              "path": "Prydwen/ww/assets/characters/galbrena-bfb1691bcfa3.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "40d7023b51fa",
+              "sourceHash": "40d7023b51fa",
+              "kind": "characters",
+              "name": "Mornye",
+              "fileStem": "mornye-icon",
+              "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d909de4aecde",
+              "sourceHash": "d909de4aecde",
+              "kind": "characters",
+              "name": "The Shorekeeper",
+              "fileStem": "the-shorekeeper-icon",
+              "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1b2a8f336e3d",
+              "sourceHash": "1b2a8f336e3d",
+              "kind": "characters",
+              "name": "Verina",
+              "fileStem": "verina-icon",
+              "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "df8c0bc8d49a",
+              "sourceHash": "df8c0bc8d49a",
+              "kind": "characters",
+              "name": "Rover (Aero)",
+              "fileStem": "rover-aero-icon",
+              "path": "Prydwen/ww/assets/characters/rover-aero-df8c0bc8d49a.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "example-teams": {
+      "label": "Example Teams",
+      "sections": [
+        {
+          "heading": "Example Teams",
+          "text": "Team #1: Best Team\n\n Team #2: Main DPS Iuno\n\n Mornye is only best with Lynae on the team. Only use Aero Rover over Shorekeeper with Ciaccona as your second slot partner. Use Shorekeeper in other scenarios (using Ciaccona in the third slot with Lynae is also amazing).\n\n Team #3: Jiyan Team\n\n Team #4: Galbrena Team\n\n Team #5: Frazzle Teams\n\n Calculations",
+          "assets": [
+            {
+              "id": "d9b47f532b06",
+              "sourceHash": "d9b47f532b06",
+              "kind": "characters",
+              "name": "Augusta",
+              "fileStem": "augusta-icon",
+              "path": "Prydwen/ww/assets/characters/augusta-d9b47f532b06.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "e6913cb7353a",
+              "sourceHash": "e6913cb7353a",
+              "kind": "characters",
+              "name": "Iuno",
+              "fileStem": "iuno-icon",
+              "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "d909de4aecde",
+              "sourceHash": "d909de4aecde",
+              "kind": "characters",
+              "name": "The Shorekeeper",
+              "fileStem": "the-shorekeeper-icon",
+              "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "1b2a8f336e3d",
+              "sourceHash": "1b2a8f336e3d",
+              "kind": "characters",
+              "name": "Verina",
+              "fileStem": "verina-icon",
+              "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "e366b96f341c",
+              "sourceHash": "e366b96f341c",
+              "kind": "characters",
+              "name": "Lynae",
+              "fileStem": "lynae-icon",
+              "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "ba56fbcc8eb4",
+              "sourceHash": "ba56fbcc8eb4",
+              "kind": "characters",
+              "name": "Ciaccona",
+              "fileStem": "ciaccona-icon",
+              "path": "Prydwen/ww/assets/characters/ciaccona-ba56fbcc8eb4.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "f569a8378909",
+              "sourceHash": "f569a8378909",
+              "kind": "characters",
+              "name": "Yinlin",
+              "fileStem": "yinlin-icon",
+              "path": "Prydwen/ww/assets/characters/yinlin-f569a8378909.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "3f68e864215a",
+              "sourceHash": "3f68e864215a",
+              "kind": "characters",
+              "name": "Jianxin",
+              "fileStem": "jianxin-icon",
+              "path": "Prydwen/ww/assets/characters/jianxin-3f68e864215a.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "40d7023b51fa",
+              "sourceHash": "40d7023b51fa",
+              "kind": "characters",
+              "name": "Mornye",
+              "fileStem": "mornye-icon",
+              "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "7c6c3a3bc3ce",
+              "sourceHash": "7c6c3a3bc3ce",
+              "kind": "characters",
+              "name": "Jiyan",
+              "fileStem": "jiyan-icon",
+              "path": "Prydwen/ww/assets/characters/jiyan-7c6c3a3bc3ce.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "df8c0bc8d49a",
+              "sourceHash": "df8c0bc8d49a",
+              "kind": "characters",
+              "name": "Rover (Aero)",
+              "fileStem": "rover-aero-icon",
+              "path": "Prydwen/ww/assets/characters/rover-aero-df8c0bc8d49a.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "bfb1691bcfa3",
+              "sourceHash": "bfb1691bcfa3",
+              "kind": "characters",
+              "name": "Galbrena",
+              "fileStem": "galbrena-icon",
+              "path": "Prydwen/ww/assets/characters/galbrena-bfb1691bcfa3.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "3a3005a58dc2",
+              "sourceHash": "3a3005a58dc2",
+              "kind": "characters",
+              "name": "Zani",
+              "fileStem": "zani-icon",
+              "path": "Prydwen/ww/assets/characters/zani-3a3005a58dc2.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "552f65617cbb",
+              "sourceHash": "552f65617cbb",
+              "kind": "characters",
+              "name": "Phoebe",
+              "fileStem": "phoebe-icon",
+              "path": "Prydwen/ww/assets/characters/phoebe-552f65617cbb.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "514d72023ab5",
+              "sourceHash": "514d72023ab5",
+              "kind": "characters",
+              "name": "Rover (Spectro)",
+              "fileStem": "rover-spectro-icon",
+              "path": "Prydwen/ww/assets/characters/rover-spectro-514d72023ab5.webp",
+              "width": 120,
+              "height": 120
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Iuno Best Build Guide | Wuthering Waves (WuWa)\n \n\n Wuthering Waves\n Home Database Characters Weapons Echoes Banners\n Tier Lists Tier List Team Tier List Value Tier List\n Guides Guides\n Resources Map News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Wuthering Waves\n /\n Characters\n /\n Iuno\n Iuno Best Build Guide\n Last updated: 09/June/2026\n\n Introduction\n Best guide and build for Iuno from WW (Wuthering Waves). Iuno is a 5 ★ rarity character from the Aero element who uses the Gauntlets type weapon.\n\n To learn more about Iuno check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Iuno has at least one video guide available:\n\n Update tracker\n Last review update\n Patch 2.6\n\n Last major build/calcs update\n Patch 3.0\n\n Last profile update*\n 09/June/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Iuno check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Kit\n\n Review\n\n Build\n\n Gameplay and teams\n\n Calculations\n\n Profile\n\n Skills\n Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Moon Steps\n\n Moonring - Basic Attack\n Perform up to 3 consecutive attacks with the Moonring, dealing Aero DMG .\n Mid-air Attack\n Consume STA to perform a Plunging Attack, dealing Aero DMG .\n Moonring - Dodge Counter\n Press Normal Attack shortly after a successful Dodge to attack the target with Moonring, dealing Aero DMG . Press Normal Attack again shortly after performing this skill to cast Moonring - Basic Attack Stage 3.\n Moonbow - Basic Attack\n Enter Lunar Cycle - New Moon by casting Heavy Attack - Flux: Moonring. When in this state, Iuno will attack with Moonbow.\n\n Perform up to 3 consecutive attacks with the Moonbow, dealing Aero DMG , considered as Resonance Liberation DMG.\n\n Can be cast in mid-air.\n\n Moonbow - Dodge Counter\n When in Lunar Cycle - New Moon, press Normal Attack shortly after a successful Dodge to attack the target with Moonbow, dealing Aero DMG , considered as Resonance Liberation DMG.\n\n When in Lunar Cycle - New Moon, press Normal Attack again shortly after performing this skill to cast Moonbow - Basic Attack Stage 3.\n\n Can be cast in mid-air.\n\n Multipliers\n\n Resonance Skill\n Foresight Fugue\n\n Pulse of Origins\n Dash forward, dealing Aero DMG .\n Closing Refrain\n When not in Lunar Cycle, casting Moonring - Basic Attack Stage 3, Intro Skill, or Pulse of Origins replaces Iuno's Resonance Skill with Closing Refrain for 5s .\n Casting Closing Refrain unleashes a flurry of strikes, dealing Aero DMG , and activates Lunar Cycle.\n Unfinished Refrain\n When in Lunar Cycle - Half Moon, Iuno's Resonance Skill is replaced with Unfinished Refrain.\nCasting Unfinished Refrain unleashes a flurry of strikes, dealing Aero DMG .\n Unfinished Refrain shares the same Cooldown as Closing Refrain.\n Arc Beyond the Edge\n When Iuno is in Lunar Cycle - New Moon, her Resonance Skill is replaced with Arc Beyond the Edge, which has 2 initial charges.\n\n Casting Arc Beyond the Edge causes Iuno to shift position and deal Aero DMG , considered as Resonance Liberation DMG.\n\n Directional input can be used to extend the travel distance. If Iuno is hit or launched into mid-air, casting Arc Beyond the Edge immediately makes her recover from the attack.\nCan be cast in mid-air.\n\n Multipliers\n\n Resonance Liberation\n Beneath Lunar Tides\n\n Deal Aero DMG and activate the Lunar Cycle state.\n Can be cast in mid-air.\n\n Multipliers\n\n Forte Circuit\n Ebb and Flow\n\n Lunar Cycle\n Iuno can activate Lunar Cycle by casting Resonance Skill - Closing Refrain or Resonance Liberation.\nLunar Cycle has two states: Half Moon and New Moon. By default, Iuno enters the Half Moon state when activating Lunar Cycle and can switch between the two states by casting Heavy Attack - Flux.\n When in Lunar Cycle:\n Iuno's Jump is replaced with Heavy Attack - Flux. STA won't recover when Iuno is in mid-air.\n\n Iuno's movement becomes Meandering, which consumes STA continuously in mid-air to move in a unique manner.\n\n Performing environmental interactions, using Utilities, or holding Jump will end Lunar Cycle.\n\n Lunar Cycle - Half Moon\n Iuno attacks using the Moonring, restoring Sentience on hit.\n She can use Heavy Attack - Flux: Moonbow to deal Aero DMG (considered as Resonance Liberation DMG) and switch to Lunar Cycle - New Moon.\n Heavy Attack - Flux: Moonbow can be cast in mid-air.\n Lunar Cycle - New Moon\n Iuno attacks using the Moonbow. While in this state, casting Moonbow - Basic Attack, Resonance Skill - Arc Beyond the Edge, or Moonbow - Dodge Counter consumes Sentience to increase the skill's DMG Multiplier, restore additional Concerto Energy, and heal nearby Resonators in the team.\n Iuno can use Heavy Attack - Flux: Moonring to deal Aero DMG (considered as Resonance Liberation DMG) and switch to Lunar Cycle - Half Moon.\n Heavy Attack - Flux: Moonring can be cast in mid-air.\n Heavy Attack - Absolute Fullness\n When Iuno's Concerto Energy is full, her Heavy Attack is replaced with Absolute Fullness.\n Casting Absolute Fullness ends Lunar Cycle, provides healing for nearby Resonators in the team, deals Aero DMG to nearby targets (considered as Resonance Liberation DMG), and conjures a Full Moon domain at her location. This effect can be triggered once every 25s .\n Can be cast in mid-air.\n Full Moon Domain\n Resonators inside the domain periodically restore HP and STA.\n Gaining a Shield inside the domain grants 1 stack of Blessing of the Wan Light. This effect can be triggered once every 0.5s .\n Blessing of the Wan Light\n The receiving Resonator gains 4% all DMG Amplification for 10s , stacking up to 10 times. Gaining new stacks resets the duration. This effect ends early if the receiving Resonator is switched off the field.\n Sentience\n Iuno can hold up to 100 points of Sentience.\n\n Casting Intro Skill restores 40 points of Sentience.\n\n Casting Resonance Liberation restores 60 points of Sentience.\n\n Casting Closing Refrain or Unfinished Refrain restores 25 points of Sentience.\n\n When Iuno is in Lunar Cycle, Moonring - Basic Attack, Moonring - Dodge Counter, and Mid-air Attack restore Sentience on hit.\n\n Multipliers\n\n Inherent Skill\n Waxing Ascent\n\n Every time Iuno casts Basic Attack, Heavy Attack, Dodge Counter, Resonance Skill, Resonance Liberation, or Intro Skill, she gains 1 Shield equal to 32% of her ATK for 15s . This Shield will not be passed on to the incoming Resonator.\n\n Inherent Skill\n Derivation\n\n When Iuno casts Intro Skill or Resonance Liberation, she immediately gains 5 stacks of Blessing of the Wan Light.\n\n Intro Skill\n Illuminated Manifestation\n\n Deal Aero DMG .\n\n Multipliers\n\n Outro Skill\n From Gloom to Gleam\n\n Attack the target to deal 100% Aero DMG. The incoming Resonator gains 50% Heavy Attack DMG Amplification for 14s . This effect ends early if they are switched off the field.\n Casting Outro Skill won't interrupt Heavy Attack - Absolute Fullness, and the Outro Skill effect still applies.\n\n Resonance Chain (Dupes)\n S 1\n Sequence Node 1\n\n When Iuno is in Lunar Cycle, her ATK is increased by 40% .\n When Iuno is inside the Full Moon Domain, she additionally restores 1 point of Resonance Energy per second.\n Resonance Skill - Arc Beyond the Edge and Heavy Attack - Absolute Fullness become immune to interruption.\n\n S 2\n Sequence Node 2\n\n Resonators in the team with 10 stacks of Blessing of the Wan Light gain an additional 40% all DMG Amplification.\n\n S 3\n Sequence Node 3\n\n When Iuno is in Lunar Cycle, DMG dealt by Moonbow - Basic Attack, Resonance Skill - Arc Beyond the Edge, and Moonbow - Dodge Counter is Amplified by 65% .\n Within a certain period after performing Moonbow - Basic Attack or Moonbow - Dodge Counter, casting Resonance Skill - Arc Beyond the Edge does not reset the cycle of Moonbow - Basic Attack.\n\n S 4\n Sequence Node 4\n\n Casting Heavy Attack - Absolute Fullness grants a Shield equal to 160% of Iuno's ATK to all Resonators in the team for 30s , which cannot be passed on to the incoming Resonator.\n\n S 5\n Sequence Node 5\n\n Iuno gains 20% Resonance Liberation DMG Bonus.\n\n S 6\n Sequence Node 6\n\n The DMG Multiplier of Heavy Attack - Absolute Fullness is increased by 1600% . Upon casting this skill, Iuno re-enters Lunar Cycle - New Moon, gains 100 points of Sentience, and resets all the cooldown of Resonance Skill - Arc Beyond the Edge.\n\n Minor Fortes (Total)\n CRIT Rate\n + 8 %\n\n ATK%\n + 12 %\n\n Stats\n\nInclude minor fortes\n\n Lv. 90\n\n HP\n 10525\n\n ATK\n 450\n\n DEF\n 1124\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Aero DMG\n 0 %\n\n Upgrade Materials\n Character Ascension (total)\n 4 x LF Polygon Core\n 12 x MF Polygon Core\n 12 x HF Polygon Core\n 4 x FF Polygon Core\n 46 x Abyssal Husk\n 60 x Sliverglow Bloom\n 170 000 Shell Credits\n\n Skill Upgrades (total)\n 25 x LF Polygon Core\n 28 x MF Polygon Core\n 40 x HF Polygon Core\n 57 x FF Polygon Core\n 25 x Cadence Seed\n 28 x Cadence Bud\n 55 x Cadence Leaf\n 67 x Cadence Blossom\n 26 x The Netherworld's Stare\n 2 030 000 Shell Credits\n\n While the source of the materials can be quickly found in the game, when it comes Sliverglow Bloom you will have to gather them from the map. Check our Interactive map to find them quickly:\n\n Interactive Map\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n DPS\n T0.5\n Tower of Adversity\n\n T4\n Whimpering Wastes\n\n Hybrid\n T1\n Tower of Adversity\n\n T1.5\n Whimpering Wastes\n\n Value Tier List\n DPS\n T1.5\n Tower of Adversity (Value)\n\n T4\n Whimpering Wastes (Value)\n\n Hybrid\n T1.5\n Tower of Adversity (Value)\n\n T1.5\n Whimpering Wastes (Value)\n\n Pros & Cons\n Pros\n Jack of all trades, master of all. Main DPS, Sub-DPS, buffing, healing, stamina restoration — Iuno does everything;\n\n Gives shields to herself while constantly healing on most of her attacks, difficult to die from consecutive small hits;\n\n Very flexible team-wise thanks to her ability to fill many roles, extend or shorten her rotation to whatever’s necessary, and sheds some light on less-used characters who will find a purpose with her on the team;\n\n Wait… Kuro ACTUALLY provided a proper shortened description feature this time?!\n\n One of her Ultimate voicelines (“Answer my call”) kind of sounds like an angry mother, and honestly, that’s really funny.\n\n Cons\n Damage-focused character, implying she really wants a properly strong weapon equipped to justify her presence on the team over already established options (most importantly Mortefi);\n\n Gives up DMG Amplification effects to herself when swapping out, not just the incoming character — hence she is quite quickswap-unfriendly;\n\n Prone to interruption mid-air, which can slow down her rotations a lot — watch out for enemy attacks and make sure to dodge;\n\n That Ultimate animation will be a pro to some of you. Not to the ones who wrote this, sorry not sorry.\n\n Review\n Review\n Iuno is a 5-star Aero Gauntlets character who can accomplish a wide array of goals on the team. She functions as an effective mix of support and damage, as she is able to heal the team, provide shields to herself, but also deal a ton of damage by herself and even buff the incoming character’s Heavy Attack damage. Iuno is a character of many facets, so let’s quickly explain her kit before going into the intricacies of her position in the meta.\n Key Mechanics\n Iuno’s main mechanic is called Lunar Cycle. She will primarily enter it via casting a Skill after her Intro (called Closing Refrain) or by casting her Ultimate. It has 2 phases: Half Moon and Full Moon. Half Moon is entered by default and will be ignored throughout all of her rotations, as the Full Moon form deals the majority of her damage and is tied to her Forte gauge, which she consumes to enhance her attacks in that stance. That Forte gauge is called Sentience and replenishes up to 100 points, gained from the following actions:\n Intro Skill provides 40 Sentience;\n\n Closing Refrain provides 25 Sentience;\n\n Ultimate provides 60 Sentience.\n\n Additionally, her Unfinished Refrain and Moonring Basic Attacks (in Half Moon stance) all restore Sentience but this will be unused in her rotations.\n\n Her Sentience bar stores up to 100 points and will be consumed by the following actions:\n Moonbow Basic Attacks (50 points for the whole 3-chain);\n\n Moonbow Skills, called Arc Beyond The Edge (25 points per skill, 2 charges).\n\n Every enhanced attack gives lots of extra Concerto Energy and also deal higher damage, making them a key component of her rotations.\n As you can see, we already can tell a full Basic Attack string and 2 skills consuming the full Sentience bar — that’s right, that’s basically what Iuno’s rotation is all about.\n It is however worth noting that her attacks will be enhanced so long as any amount of Sentience is available — the attack gets enhanced all the same whether there’s 1 or 25 Sentience available per skill, for example. It only consumes up to that maximum. We abuse this in her Main DPS rotation to take her damage to new heights.\n But before we get too detailed here — how do we access the Full Moon stance? We first need to enter Lunar Cycle (as detailed prior) then cast a jump attack, called Flux. This makes Iuno enter Full Moon Stance and she’s ready to begin the main part of her rotation at that point.\n Basic Attacks\n Iuno’s standard Basic Attacks and Moonring Basic Attacks are all unused in her rotations. So they’re actually pretty skippable. However, her Moonbow Basic Attacks are used plenty, particularly in her Main DPS rotations. They deal a lot of damage, generate a lot of Concerto Energy and consume a lot of Sentience. The third Moonbow Basic Attack is a particularly lengthy 2-parter and makes for a great Swap Cancel window.\n Do note that Iuno’s Moonbow Basic 3 deals much more damage than the first two, so it’s heavily recommended to go for the full chain. On the instance that an incoming attack has to be dodged though, worry not as Iuno’s Moonbow Dodge Counter packs just as much of a punch.\n Skill & Ultimate\n Iuno has a lot of skills, but she only really ever wants to use two.\n The first of which is Closing Refrain: It is accessed after her Intro, plain and simple. It deals a lot of damage but is not necessary to her Concerto rotation — nonetheless, it’s great to use as an extension to her rotation if it’s necessary for her to take up more field time to align with your team’s cooldowns, and it’s also completely worth using as a Main DPS thanks to the Sentience generation it provides.\n It can also be mandatory to use as a means to activate certain weapon effects; keep this in mind depending on your build!\n The second skill is Arc Beyond The Edge: This is her Moonbow stance Skill and it has up to 2 charges, which we always use in her rotation. They can be animation-cancelled by her Ultimate, similarly to Ciaccona’s Forte Heavy Attack (where we use the Ultimate right after the projectiles have been shot). It also makes for a good rotation finisher due to its Concerto Energy being instantly generated, and the animation being fully Swap Cancellable.\n Lastly, Iuno’s Ultimate makes her enter Lunar Cycle, and can instantly cancel any ability that is used before it. It also generates a ton of Sentience and is one of the 2 contributors to stacking up a big chunk of DMG Amplification via one of her Inherent Skills. And of course, it deals a ton of damage on hit.\n Buffs, Sustain & How to Access Them\n Iuno has buffs that she gives herself and buffs that she provides to the whole team. Let’s detail the buffs she gives herself first:\n Blessing of the Wan Light (Inherent Skill): Iuno gets 4% DMG Amplification per stack of Blessing for 10s, up to 10 times. She gains 5 stacks by using an Intro, and 5 by using her Ultimate. This effect ends if she is switched off the field.\n\n Waxing Ascent (Inherent Skill): Whenever Iuno casts any skill at all, she grants 1 very small Shield to herself (this only serves as a means to trigger the Crown of Valor Echo set and her dedicated Signature weapon effect, the Shield itself will not protect you from any attack except a flick of a finger).\n\n Now for the buffs she gives to the team:\n Outro: Grants 50% Heavy Attack DMG to the next character switched in for 14s, expires on swap. Super strong, generically applicable buff. Also deals a small hit of damage.\n\n Full Moon Domain: Accessed via a special Heavy Attack which can only be cast at full Concerto Energy and deals a small amount of damage, Iuno can generate this domain which can grant stacks of Blessing (the same ones she gives herself) in the same manner, being if the incoming character can apply Shields to themselves multiple times. This is only usable by Augusta and will ideally only be used if Augusta is in the team.\n\n Healing: It is worth noting the Full Moon domain mentioned earlier, as well as the special Heavy Attack, both generate great amounts of healing, the domain granting healing as well as Stamina restoration over time. Additionally, all of Iuno’s Sentience-Enhanced attacks all give a small amount of healing to the team. If healing is particularly desired by the player, casting the Full Moon Domain can be considered.\n\n Meta Position & Conclusion\n Iuno is strong. Quite strong, but don’t be fooled as she is not quite as meta-defining as a Shorekeeper, a Cartethyia, or even an Augusta. The truth of the matter is, while Iuno fulfills many roles and is excellent at all of them, the characters she wants to buff work completely fine on their own with the F2P-accessible teammate Mortefi. Mortefi gives Heavy Attack DMG Bonus, can provide lots of buffs via the Moonlit Clouds or Empyrean Anthem sets and the Static Mist weapon buff being a pistol user. Additionally, his rotation is shorter than Iuno’s and he still holds a good chunk of personal damage in his own right.\n However, we’ll repeat ourselves here — in the meta, Iuno is REALLY strong and competes with some of the best Main DPS in the game even though she’s intended as a buffer, which is a really good surprise and it adds to her solo pull value a lot. With that being said, as a Support who also wants to deal damage, getting a limited weapon becomes all the more important for her to really separate herself from Mortefi, and while she is a step above him in any situation, Iuno could be a redundant pull for many. In fact, Augusta and Jiyan don’t need Iuno.\n But that’s not saying everything — while Augusta and Jiyan don’t need Iuno, Iuno doesn’t need neither Jiyan nor Augusta all the same. In fact, playing alongside Ciaccona, or even Jianxin, as well as Aero Rover, she’ll be able to take down bosses all on her own; even though she was intended as a buffing character. She truly is a force to be reckoned with, particularly considering she gets extra team utility in the form of healing and stamina restoration — if the player desires more of it on their team, that is.\n In conclusion, Iuno is a great character who definitely separates herself from Mortefi by dealing higher personal damage, and having a higher buffing potential; but please keep in mind the characters she wants to buff can work completely fine without her on the team — their ceiling only gets raised even higher, but they retain a good floor nonetheless. On the other hand, Iuno herself is a great single-value pull by virtue of her Main DPS potential, and we completely think you should pull Iuno if you like her. She slots in a lot of teams, using different playstyles, and she’s effective at all of them!\n\n Video guides\n\n Build\n\n Best Weapons\n The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Iuno calculations were done using added buffs from the following teammates:\n DPS\n The Shorekeeper + Variation +\n Rejuvenating Glow\n\n +\n Fallacy of No Return\n\n Hybrid\n Lynae + Spectrum Blaster +\n Pact of Neonlight Leap\n\n +\n Hyvatia\n\n Ciaccona + Woodland Aria +\n Gusts of Welkin\n\n +\n Nightmare: Kelpie\n\n Iuno weapons performance varies depending on whether you play her as DPS or Hybrid. That’s why we have prepared two sets of calculations - the top number ( light green ) shows the performance as DPS and the bottom number ( dark green ) as Hybrid.\n\n 100.00%\n 100.00%\n\n Moongazer's Sigil (R 1 )\n\n On all fronts, Iuno's Signature is her best weapon. Gives a massive 36% DEF Ignore on Resonance Liberation DMG stacked instantly after an Intro and easily maintained by Iuno's ability to apply several Shields to herself, all the while unconditionally giving 20% Resonance Liberation DMG Bonus and a massive CRIT Rate boost while retaining good Base ATK.\n 84.10%\n 93.50%\n\n Verity's Handle (R 1 )\n\n Has lower value for Main DPS Iuno due to a delayed Ultimate cast. Xiangli Yao's Signature Weapon is a perfectly acceptable alternative to Iuno — similarly to Jiyan's Signature on Augusta, it's an amazing second option thanks to the easily accessed 48% Resonance Liberation DMG Bonus that this weapon's effect provides on top of its high Base ATK and CRIT Rate stats.\n 80.40%\n 79.00%\n\n Blazing Justice (R 1 )\n\n The best generalist Gauntlets option, providing an easily maintained 8% DEF Ignore, high Base ATK and CRIT DMG as well as ATK%. Unfortunately for anyone but Zani, the Spectro Frazzle DMG Amplify effect on this weapon is wasted, making it rank lower for Iuno than the above options.\n 77.90%\n 77.10%\n\n Tragicomedy (R 1 )\n\n Simple ATK and CRIT Rate stat-stick for Iuno, who does not benefit from this weapon's Heavy Attack DMG-focused effect.\n 77.90%\n 77.10%\n\n Pulsation Bracer (R 1 )\n\n Strongest permanently available option for Iuno that acts as a simple ATK and CRIT Rate stat-stick.\n 72.00%\n 73.00%\n\n Abyss Surges (R 1 )\n\n This permanent banner 5-star provides some Basic and Skill DMG increases that are completely wasted on Iuno — but fret not as its massive Base ATK and ATK% stats make it rank above the majority of 4-star weapons.\n 69.40%\n 76.70%\n\n Aether Strike (R 5 )\n\n Has significantly lower value for Main DPS Iuno due to a delayed Ultimate cast. Significantly worse than Abyss Surges at R1. This Battle Pass exclusive offers a big boost to ATK and Resonance Liberation DMG when casting Ultimate, all the while having a nice CRIT DMG secondary stat, making it one of the best options for Iuno in spite of the low Base ATK.\n 66.40%\n 71.20%\n\n Stonard (R 5 )\n\n Significantly worse than Abyss Surges at R1. Calculations assume Closing Refrain is used. This Battle Pass exclusive provides CRIT Rate and a Resonance Liberation DMG increase. In spite of its low Base ATK (like all 4-stars), Stonard is a fantastic weapon to equip on Iuno, rivaling some of the lower-ranked 5-star choices.\n -\n 62.60%\n\n Celestial Spiral (R 5 )\n\n Calculations assume Closing Refrain is used. Provides some extra Energy and ATK when casting a Skill, negating any Energy requirements on Iuno. Overall one of the better 4-star options that doesn't require the Battle Pass, but ranks below every 5-star due to low base stats.\n -\n 62.30%\n\n Hollow Mirage (R 5 )\n\n Provides some extra ATK increase over Legend of Drunken Hero which is dependent on not getting hit to upkeep. Even in the best conditions for this weapon, it's only slightly higher than the craftable, making it not recommended if better options are available.\n 66.40%\n 59.50%\n\n Legend of Drunken Hero (R 5 )\n\n Significantly stronger in a Main DPS team featuring Ciaccona, ranking above all non-BP & 5-star options. Best 4-star choice that doesn't require a single pull to acquire — simply requires weekly boss materials to craft and increases ATK by a good amount, especially when attacking enemies with Negative Statuses inflicted on them for an even higher ATK boost. Falls behind any above options due to not giving good stats (just ATK%).\n\n Best Echo Sets\n Best Echo Sets\n 1\n\nCrown of Valor\n\n Iuno and Augusta's best set. The only set that should be ran on Main DPS Iuno. Increases ATK and CRIT DMG by 6% and 4% for 4s respectively when a Shield is applied to the equipped character, stacking up to 5 times every 0.5s. This totals to 30% ATK and 20% CRIT DMG, which is the best set for Iuno and Augusta in specific as they are the only characters in the game who are able to fully stack up this effect.\n Best combined with your choice of:\n 2P\n Sierra Gale\n\n Gusts of Welkin\n\n Windward Pilgrimage\n\n Sound of True Name\n\n (Recommended)\n 2P\n Endless Resonance\n\n Reel of Spliced Memories\n\n 2P\n Moonlit Clouds\n\n Empyrean Anthem\n\n Tidebreaking Courage\n\n Below you can find Main Echo options:\n\n Lady of the Sea\n\n - Simple summon Echo that gives 12% Liberation and 12% Aero DMG Bonus when equipped in the main slot. No restrictions on the cast and free damage for Iuno, making it the best choice.\n\n 2\n\nMoonlit Clouds\n\n Only consider this set on a Sub DPS Iuno. Near-equal in team damage to Crown of Valor in the best SubDPS Iuno teams. Offers 10% unconditional Energy Regen which makes reaching Energy requirements easy. Most importantly however, upon using Outro, grants the next character switching in a 22.5% ATK boost boosting their damage by a good amount.\n Below you can find Main Echo options:\n\n Impermanence Heron\n\n - The best and only real option Moonlit Clouds has, as it grants an extra 12% DMG Bonus on top of the 22.5% ATK boost to the next character that Moonlit Clouds would usually give. Additionally restores a lot of Energy to the caster when it deals damage. However, on Iuno, it is best to cast this Echo at the start of her rotation and cancelling it via a dash (after her Closing Refrain skill) or via her Ultimate (after Intro).\n\n Best Echo Stats\n 4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Aero DMG\n\n 3 cost\n Aero DMG > ATK%\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > Resonance Liberation DMG% ≥ ATK% > ATK\n\n Best Endgame Stats (Level 90)\n All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 15000+\n\n DEF: 1100+\n\n ATK: 1800-2400+\n\n CRIT Rate: 65-80%+\n\n CRIT DMG: 215-260%\n\n Energy Regen: 120-130%+ (Hybrid) OR 100% (DPS)\n Hybrid was estimated in a team with Augusta, DPS was estimated in a team with Lynae+Shorekeeper.\n\n Aero DMG Bonus: 40-70%+\n\n Skill Priority\n Below you can find the order of leveling the abilities for Iuno .\n Main DPS\n Forte Circuit\n\n Res. Liberation\n\n Basic Attack\n\n Res. Skill\n\n Intro Skill\n\n Skill and Intro can be skipped when levelling to save on resources at a minimal damage loss.\n Hybrid\n Forte Circuit\n\n Res. Liberation\n\n Intro Skill\n\n Res. Skill\n\n Basic Attack\n\n Skill, Intro and Basic can be skipped when levelling to save on resources at a minimal damage loss.\n\n Gameplay and teams\n\n Rotation\n Gameplay Section\n Iuno is a character of many facets and many rotations. Depending on the team the player slots her in, she can operate completely differently from her playstyle in her best team with Augusta and Shorekeeper. Being a highly flexible character, Iuno has many different rotations, which we will detail completely below.Echo Timing: If using Moonlit Clouds with Impermanence Heron as the main Echo, then it should be cast and cancelled by her Ultimate (after an Intro skill) or if using the extended version, after her Closing Refrain skill (and it should be cancelled via a Dash). However, if using Crown of Valor, no need to worry — just cast her Echo skill at any point!\n Standard Sub DPS Rotation\n This is Iuno’s baseline rotation that should be learnt by the majority of players. It provides the highest amount of healing, buffs Augusta the most by casting the Full Moon Domain, and lets the Main DPS of the team take the spotlight all the while dealing solid amounts of damage. Using Augusta and Iuno together, this is the best rotation to execute.\n Intro\n\n Ultimate\n\n Jump Attack: Flux - Moonbow\n\n Enhanced Moonbow Basic P1\n\n Enhanced Moonbow Basic P2\n\n Enhanced Moonbow Basic P3\n\n Enhanced Skill: Arc Beyond The Edge\n\n Enhanced Skill: Arc Beyond The Edge\n\n Forte: Heavy Attack: Absolute Fullness (Swap)\n\n Outro\n\n Standard Sub DPS Rotation — without Augusta\n Without Augusta on the team, Iuno only provides extra healing by casting her Full Moon Domain via Absolute Fullness, since the extra DMG Amplification can only be stacked by Augusta herself (and Iuno, but she doesn’t need to cast her Domain in order to stack the buff). As a result, we can skip out on it as follows:\n Intro\n\n Ultimate\n\n Jump Attack: Flux - Moonbow\n\n Enhanced Moonbow Basic P1\n\n Enhanced Moonbow Basic P2\n\n Enhanced Moonbow Basic P3\n\n Enhanced Skill: Arc Beyond The Edge\n\n Enhanced Skill: Arc Beyond The Edge (Swap)\n\n Outro\n\n The rotation above saves a lot of time while not forfeiting much damage since Absolute Fullness is rather weak — always use this if the extra heals aren’t needed and Augusta isn’t on the team!\n Extended Sub DPS Rotation\n Iuno can additionally extend her rotation without giving up much DPS because her Closing Refrain skill deals good damage. This is also the optimal rotation with certain weapons that activate when using a Skill, such as Stonard, and we can even exploit a cool Animation Cancel trick, as follows:\n Intro\n\n Skill: Closing Refrain\n\n Jump Attack: Flux - Moonbow\n\n Enhanced Skill: Arc Beyond The Edge (cancel this attack using Ultimate once Iuno shot her projectiles)\n\n Ultimate\n\n Enhanced Moonbow Basic P1\n\n Enhanced Moonbow Basic P2\n\n Enhanced Moonbow Basic P3\n\n Enhanced Skill: Arc Beyond The Edge (Swap here if not casting Absolute Fullness)\n\n (OPTIONAL) Heavy Attack: Absolute Fullness (Swap)\n\n Outro\n\n Using this animation cancel between Iuno’s Skill and Ultimate saves on a bit of time as the damage comes out in the middle of Iuno’s Ultimate animation, during which time is paused. Don’t worry though — you get the full damage and Concerto Energy generated regardless. As usual, only cast Absolute Fullness if you really want the extra healing or if Augusta is on the team.\n Main DPS Rotation\n This is the best rotation to execute in all scenarios if Iuno is the Main DPS of your team; it’s a really fun and strong playstyle that we recommend, but be careful not to cancel any Basic Attacks too early — make sure to wait until they hit first, and time the cancel of the Skill with her Ultimate properly as well!\n Intro\n\n Skill: Closing Refrain\n\n Jump Attack: Flux - Moonbow\n\n Enhanced Moonbow Basic P1\n\n Enhanced Moonbow Basic P2\n\n Enhanced Moonbow Basic P3\n\n Enhanced Skill: Arc Beyond The Edge (cancel this attack using Ultimate once Iuno shot her projectiles)\n\n Ultimate\n\n Enhanced Moonbow Basic P1\n\n Enhanced Moonbow Basic P2\n\n Enhanced Moonbow Basic P3\n\n Enhanced Skill: Arc Beyond The Edge\n\n Moonbow Basic P1\n\n Moonbow Basic P2\n\n Moonbow Basic P3 (Swap)\n\n Outro\n\n Note that Iuno’s Moonbow Basic P3 is in 2 parts and Iuno can be swapped out earlier than you might initially think.\n S6-Only Main DPS Rotation\n If Iuno is S6, her rotation drastically changes due to Absolute Fullness’s mechanics being changed (and buffed) hard. Hence her rotation will look like this:\n Intro\n\n Skill: Closing Refrain\n\n Jump Attack: Flux - Moonbow\n\n Enhanced Skill: Arc Beyond The Edge (cancel this attack using Ultimate once Iuno shot her projectiles)\n\n Ultimate\n\n Enhanced Moonbow Basic P1\n\n Enhanced Moonbow Basic P2\n\n Enhanced Moonbow Basic P3\n\n Enhanced Skill: Arc Beyond The Edge\n\n Heavy Attack: Absolute Fullness\n\n Enhanced Moonbow Basic P1\n\n Enhanced Moonbow Basic P2\n\n Enhanced Moonbow Basic P3\n\n Enhanced Skill: Arc Beyond The Edge\n\n Enhanced Skill: Arc Beyond The Edge (Swap)\n\n Outro\n\n Synergies\n Augusta Jiyan - As the best teammates for Hybrid Iuno, it's no surprise the Sun & Moon duo is one of the best teams in the game because Iuno is able to provide a whopping 90% total DMG Amplification to Augusta thanks to her taking advantage of her Full Moon Domain. Jiyan isn't a bad choice at all though, since he can also use Iuno's Outro for 50% Heavy DMG Amplification while being able to pair with Ciaccona to form a very strong Mono Aero team.\n Lynae Ciaccona Yinlin Jianxin - These three are the best buffers for Main DPS Iuno. Lynae is generally the best one by far as her generalist buffs are unparalleled and she provides a total of 40% DMG Amplification to Iuno via her Outro; while Ciaccona has no Outro buff dedicated to Iuno, she does provide solid personal damage, a super fast rotation and a lot of Aero DMG increases in the form of DMG Bonus and RES Shred with her Signature. Yinlin has lower DMG Amplification than Jianxin via their Outros (25% vs 38%), but Yinlin remains better thanks to having good Energy generation, solid personal damage and a rather quick rotation. Jianxin is a perfectly viable F2P-accessible choice though, particularly with higher Sequences, making all three good choices overall.\n Phoebe Zani Galbrena - These Heavy Attack damage dealers can all be recipients of Iuno's Outro buff, however in those teams Iuno's Outro buff pales in comparison to their dedicated teammates: Phoebe is best used when buffing Zani, Qiuyuan is best to buff Galbrena, and even to buff Phoebe she already has enough DMG Amplification in her own kit which makes a secondary source of damage like Phrolova stronger than Iuno. Nevertheless, Iuno is easily capable of buffing their damage and she brings her own personal damage and sustain to the table if desired.\n Mornye The Shorekeeper Verina Rover (Aero) - Iuno's array of Support choices that are all very strong. Mornye has a special synergy with Lynae since Lynae can apply Tune Rupture/Strain for Mornye to respond to them and provide her full array of buffs, making her the best choice generally if Lynae is in use. While Aero Rover only sees use over Shorekeeper in Main DPS Iuno teams for general Aero Buffs, Shorekeeper and Verina are your best generalist bets thanks to their general DMG Amplification Outro, high ATK buffs and even CRIT buffs in the case of Shorekeeper, making for great pairings overall.\n Example Teams\n Team #1: Best Team\n\n Team #2: Main DPS Iuno\n\n Mornye is only best with Lynae on the team. Only use Aero Rover over Shorekeeper with Ciaccona as your second slot partner. Use Shorekeeper in other scenarios (using Ciaccona in the third slot with Lynae is also amazing).\n\n Team #3: Jiyan Team\n\n Team #4: Galbrena Team\n\n Team #5: Frazzle Teams\n\n Calculations"
+}

@@ -34,7 +34,6 @@
         "Ice",
         "Electric",
         "Ether",
-        "Unknown",
         "Wind"
       ]
     },
@@ -47,8 +46,7 @@
         "Anomaly",
         "Support",
         "Rupture",
-        "Defence",
-        "Unknown"
+        "Defence"
       ]
     },
     {
@@ -68,32 +66,37 @@
   ],
   "roster": [
     {
-      "id": "zzz-norma",
-      "n": "Norma",
-      "slug": "norma",
-      "updated": 1780783200000,
+      "id": "zzz-orphie-and-magus",
+      "n": "Orphie & Magus",
+      "title": "Peach-Flavored Flash Suppressor",
+      "slug": "orphie-and-magus",
+      "updated": 1781647200000,
       "sourceOrder": 0,
-      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle65.webp",
-      "iconZoom": 1.24,
-      "art": "../../Database/Prydwen/zzz/assets/characters/norma-37b562dcffd6.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/norma-37b562dcffd6.webp",
-      "status": "beta",
-      "labels": [
-        "3.0"
-      ],
+      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle49.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/orphie-magus-e44aeea91ef9.webp",
+      "card": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole49.webp",
+      "status": "live",
+      "labels": [],
       "r": "S",
       "el": "Fire",
-      "spec": "Stun",
-      "tag": "External Strategy Department",
+      "spec": "Attack",
+      "tag": "OBOLS Squad",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
-            "id": "100212",
-            "name": "Basic Stun Certification Seal",
+            "id": "100211",
+            "name": "Basic Attack Certification Seal",
             "qty": 4,
             "rar": 1,
             "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankStun01.webp",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage01.webp",
             "source": "Combat Simulation - Agent Promotion",
             "sourceDetails": [
               {
@@ -102,12 +105,12 @@
             ]
           },
           {
-            "id": "100222",
-            "name": "Advanced Stun Certification Seal",
+            "id": "100221",
+            "name": "Advanced Attack Certification Seal",
             "qty": 32,
             "rar": 2,
             "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankStun02.webp",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage02.webp",
             "source": "Combat Simulation - Agent Promotion",
             "sourceDetails": [
               {
@@ -116,12 +119,12 @@
             ]
           },
           {
-            "id": "100232",
-            "name": "Buster Certification Seal",
+            "id": "100231",
+            "name": "Pioneer's Certification Seal",
             "qty": 30,
             "rar": 3,
             "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankStun03.webp",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage03.webp",
             "source": "Combat Simulation - Agent Promotion",
             "sourceDetails": [
               {
@@ -188,6 +191,174 @@
             ]
           },
           {
+            "id": "110004",
+            "name": "Scarlet Engine",
+            "qty": 9,
+            "rar": 4,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss004.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss004.webp",
+            "source": "Corrupted Overlord - Pompey",
+            "sourceDetails": [
+              {
+                "name": "Corrupted Overlord - Pompey",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_TyrantPompey.webp"
+              }
+            ]
+          },
+          {
+            "id": "110510",
+            "name": "Higher Dimensional Data: Miasmic Elytron",
+            "qty": 60,
+            "rar": 3,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss010.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss010.webp",
+            "source": "Avarus / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "Metamorphosed - Avarus",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_WingedAvarus.webp"
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 3705000
+      },
+      "recent": 1
+    },
+    {
+      "id": "zzz-pyrois",
+      "n": "Pyrois",
+      "slug": "pyrois",
+      "updated": 1781647200000,
+      "sourceOrder": 0,
+      "icon": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole63.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/pyrois-4c5bdf76ba79.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/pyrois-4b8909998042.webp",
+      "status": "live",
+      "labels": [
+        "New"
+      ],
+      "r": "S",
+      "el": "Ether",
+      "spec": "Attack",
+      "tag": "Unknown",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
+      "req": {
+        "ascension": [
+          {
+            "id": "100211",
+            "name": "Basic Attack Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100221",
+            "name": "Advanced Attack Certification Seal",
+            "qty": 32,
+            "rar": 2,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100231",
+            "name": "Pioneer's Certification Seal",
+            "qty": 30,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "100115",
+            "name": "Basic Ether Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100125",
+            "name": "Advanced Ether Chip",
+            "qty": 75,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100135",
+            "name": "Specialized Ether Chip",
+            "qty": 250,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 4,
+            "kind": "crown",
+            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
             "id": "110010",
             "name": "Timeworn Husk",
             "qty": 9,
@@ -232,21 +403,29 @@
     {
       "id": "zzz-velina",
       "n": "Velina",
+      "title": "Beyond Etiquette",
       "slug": "velina",
-      "updated": 1780783200000,
+      "updated": 1781647200000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle64.webp",
       "iconZoom": 1.24,
-      "art": "../../Database/Prydwen/zzz/assets/characters/velina-4d32c038d75f.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/velina-542b0a87d52a.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/velina-4d32c038d75f.webp",
-      "status": "beta",
+      "status": "live",
       "labels": [
-        "3.0"
+        "New"
       ],
       "r": "S",
       "el": "Wind",
       "spec": "Anomaly",
       "tag": "External Strategy Department",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -392,30 +571,37 @@
       "recent": 1
     },
     {
-      "id": "zzz-promeia",
-      "n": "Promeia",
-      "title": "The Only Option",
-      "slug": "promeia",
-      "updated": 1780092000000,
+      "id": "zzz-ye-shunguang",
+      "n": "Ye Shunguang",
+      "title": "Another Self",
+      "slug": "ye-shunguang",
+      "updated": 1781647200000,
       "sourceOrder": 0,
-      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle61.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/promeia-a03c6cd391d2.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/promeia-a03c6cd391d2.webp",
+      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle55.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/ye-shunguang-bdd0b5faf96c.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/ye-shunguang-df29444e0ab2.webp",
       "status": "live",
       "labels": [],
       "r": "S",
-      "el": "Ice",
-      "spec": "Anomaly",
-      "tag": "Krampus Compliance Authority",
+      "el": "Physical",
+      "spec": "Attack",
+      "tag": "Yunkui Summit",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
-            "id": "100213",
-            "name": "Basic Anomaly Certification Seal",
+            "id": "100211",
+            "name": "Basic Attack Certification Seal",
             "qty": 4,
             "rar": 1,
             "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff01.webp",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage01.webp",
             "source": "Combat Simulation - Agent Promotion",
             "sourceDetails": [
               {
@@ -424,12 +610,12 @@
             ]
           },
           {
-            "id": "100223",
-            "name": "Advanced Anomaly Certification Seal",
+            "id": "100221",
+            "name": "Advanced Attack Certification Seal",
             "qty": 32,
             "rar": 2,
             "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff02.webp",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage02.webp",
             "source": "Combat Simulation - Agent Promotion",
             "sourceDetails": [
               {
@@ -438,12 +624,12 @@
             ]
           },
           {
-            "id": "100233",
-            "name": "Controller Certification Seal",
+            "id": "100231",
+            "name": "Pioneer's Certification Seal",
             "qty": 30,
             "rar": 3,
             "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff03.webp",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage03.webp",
             "source": "Combat Simulation - Agent Promotion",
             "sourceDetails": [
               {
@@ -454,12 +640,12 @@
         ],
         "talents": [
           {
-            "id": "100112",
-            "name": "Basic Freeze Chip",
+            "id": "100110",
+            "name": "Basic Physical Chip",
             "qty": 25,
             "rar": 1,
             "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce01.webp",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys01.webp",
             "source": "Combat Simulation - Agent Skills",
             "sourceDetails": [
               {
@@ -468,12 +654,12 @@
             ]
           },
           {
-            "id": "100122",
-            "name": "Advanced Freeze Chip",
+            "id": "100120",
+            "name": "Advanced Physical Chip",
             "qty": 75,
             "rar": 2,
             "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce02.webp",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys02.webp",
             "source": "Combat Simulation - Agent Skills",
             "sourceDetails": [
               {
@@ -482,12 +668,12 @@
             ]
           },
           {
-            "id": "100132",
-            "name": "Specialized Freeze Chip",
+            "id": "100130",
+            "name": "Specialized Physical Chip",
             "qty": 250,
             "rar": 3,
             "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
+            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
             "source": "Combat Simulation - Agent Skills",
             "sourceDetails": [
               {
@@ -510,34 +696,33 @@
             ]
           },
           {
-            "id": "110009",
-            "name": "Marrow-Draining Thorn",
+            "id": "110008",
+            "name": "Clouded Crystalline Substance",
             "qty": 9,
             "rar": 4,
             "kind": "weekly",
-            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss009.webp",
-            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss009.webp",
-            "source": "Sanguine Sweeper",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss008.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss008.webp",
+            "source": "giant beast \"Sobek\" controlled by The Thrall",
             "sourceDetails": [
               {
-                "name": "Sanguine Sweeper",
-                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_GraymaneCenturion.webp"
+                "name": "giant beast \"Sobek\" controlled by The Thrall"
               }
             ]
           },
           {
-            "id": "110511",
-            "name": "Higher Dimensional Data: Toxic Edge",
+            "id": "110513",
+            "name": "Higher Dimensional Data: Spiked Corruption Core",
             "qty": 60,
             "rar": 3,
             "kind": "boss",
-            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss011.webp",
-            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss011.webp",
-            "source": "Sacrifice - Heretic Jester / Expert Challenge",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss013.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss013.webp",
+            "source": "Miasma Walker - Scorpse / Expert Challenge",
             "sourceDetails": [
               {
-                "name": "Sacrifice - Heretic Jester",
-                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_HereticHunter.webp"
+                "name": "Miasma Walker - Scorpse",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Chelonethid.webp"
               },
               {
                 "name": "Expert Challenge"
@@ -556,10 +741,10 @@
       "n": "Alice",
       "title": "Within Her Heterochromatic Gaze",
       "slug": "alice",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle46.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/alice-3068331af0bc.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/alice-a3e05b9a7470.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/alice-3068331af0bc.webp",
       "status": "live",
       "labels": [],
@@ -567,6 +752,13 @@
       "el": "Physical",
       "spec": "Anomaly",
       "tag": "Spook Shack",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -715,10 +907,10 @@
       "n": "Aria",
       "title": "Kingdom of Delusion",
       "slug": "aria",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle57.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/aria-85e6eab1e21b.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/aria-746e633109ad.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/aria-85e6eab1e21b.webp",
       "status": "live",
       "labels": [],
@@ -726,6 +918,13 @@
       "el": "Ether",
       "spec": "Anomaly",
       "tag": "Angels of Delusion",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -873,10 +1072,10 @@
       "n": "Astra Yao",
       "title": "Firelight Palm",
       "slug": "astra-yao",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle36.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/astra-yao-9e47eb946906.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/astra-yao-524011997577.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/astra-yao-9e47eb946906.webp",
       "status": "live",
       "labels": [],
@@ -884,6 +1083,13 @@
       "el": "Ether",
       "spec": "Support",
       "tag": "Stars of Lyra",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -1032,10 +1238,10 @@
       "n": "Banyue",
       "title": "No Way Back",
       "slug": "banyue",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle53.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/banyue-0c1cb4ce5ba5.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/banyue-f74ed4cfb61e.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/banyue-0c1cb4ce5ba5.webp",
       "status": "live",
       "labels": [],
@@ -1043,6 +1249,13 @@
       "el": "Fire",
       "spec": "Rupture",
       "tag": "Krampus Compliance Authority",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -1191,10 +1404,10 @@
       "n": "Burnice",
       "title": "An Invitation or Provocation?",
       "slug": "burnice",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle32.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/burnice-293c8567a0e0.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/burnice-00756e804618.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/burnice-293c8567a0e0.webp",
       "status": "live",
       "labels": [],
@@ -1202,6 +1415,13 @@
       "el": "Fire",
       "spec": "Anomaly",
       "tag": "Sons of Calydon",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -1350,10 +1570,10 @@
       "n": "Caesar",
       "title": "After the Battle",
       "slug": "caesar",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle25.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/caesar-1391fa604454.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/caesar-b1d63aed5ee9.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/caesar-1391fa604454.webp",
       "status": "live",
       "labels": [],
@@ -1361,6 +1581,13 @@
       "el": "Physical",
       "spec": "Defence",
       "tag": "Sons of Calydon",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -1509,10 +1736,10 @@
       "n": "Cissia",
       "title": "Couch Royalty",
       "slug": "cissia",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle60.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/cissia-2e12f3602dee.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/cissia-5a04d57305a5.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/cissia-2e12f3602dee.webp",
       "status": "live",
       "labels": [],
@@ -1520,6 +1747,13 @@
       "el": "Electric",
       "spec": "Attack",
       "tag": "Metropolitan Order Division",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -1668,10 +1902,10 @@
       "n": "Dialyn",
       "title": "Meet With Me",
       "slug": "dialyn",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle54.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/dialyn-0237631c9941.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/dialyn-ff43f11449fb.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/dialyn-0237631c9941.webp",
       "status": "live",
       "labels": [],
@@ -1679,6 +1913,13 @@
       "el": "Physical",
       "spec": "Stun",
       "tag": "Krampus Compliance Authority",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -1827,10 +2068,10 @@
       "n": "Ellen",
       "title": "I'll Take Care of It",
       "slug": "ellen",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle21.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/ellen-3b3592fe3c69.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/ellen-aaf7bba6a047.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/ellen-3b3592fe3c69.webp",
       "status": "live",
       "labels": [],
@@ -1838,6 +2079,13 @@
       "el": "Ice",
       "spec": "Attack",
       "tag": "Victoria Housekeeping Co.",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -1986,10 +2234,10 @@
       "n": "Evelyn",
       "title": "Impromptu Combat Practice",
       "slug": "evelyn",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle37.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/evelyn-a426018184c5.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/evelyn-40cacb3ba05c.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/evelyn-a426018184c5.webp",
       "status": "live",
       "labels": [],
@@ -1997,6 +2245,13 @@
       "el": "Fire",
       "spec": "Attack",
       "tag": "Stars of Lyra",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -2145,10 +2400,10 @@
       "n": "Grace",
       "title": "A Promise Unbroken",
       "slug": "grace-howard",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle20.webp",
-      "art": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole20.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/grace-818f41423b37.webp",
       "card": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole20.webp",
       "status": "live",
       "labels": [],
@@ -2156,6 +2411,13 @@
       "el": "Electric",
       "spec": "Anomaly",
       "tag": "Belobog Heavy Industries",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -2304,10 +2566,10 @@
       "n": "Harumasa",
       "title": "Feathered Blade Approaching",
       "slug": "harumasa",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle35.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/harumasa-0942d53bcdf0.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/harumasa-afd749153d1a.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/harumasa-0942d53bcdf0.webp",
       "status": "live",
       "labels": [],
@@ -2315,6 +2577,13 @@
       "el": "Electric",
       "spec": "Attack",
       "tag": "Section 6",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -2463,10 +2732,10 @@
       "n": "Hugo",
       "title": "Conspirator",
       "slug": "hugo",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle42.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/hugo-fde01c1b39cb.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/hugo-d2392f8cd65f.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/hugo-fde01c1b39cb.webp",
       "status": "live",
       "labels": [],
@@ -2474,6 +2743,13 @@
       "el": "Ice",
       "spec": "Attack",
       "tag": "Mockingbird",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -2622,10 +2898,10 @@
       "n": "Ju Fufu",
       "title": "Super Scary Big Tiger",
       "slug": "ju-fufu",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle43.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/ju-fufu-ed2fd934b5c6.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/ju-fufu-083ada970294.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/ju-fufu-ed2fd934b5c6.webp",
       "status": "live",
       "labels": [],
@@ -2633,6 +2909,13 @@
       "el": "Fire",
       "spec": "Stun",
       "tag": "Yunkui Summit",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -2781,10 +3064,10 @@
       "n": "Koleda",
       "title": "Pink Bear",
       "slug": "koleda",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle14.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/koleda-e10522f3c747.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/koleda-b9f1d4fb1aad.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/koleda-e10522f3c747.webp",
       "status": "live",
       "labels": [],
@@ -2792,6 +3075,13 @@
       "el": "Fire",
       "spec": "Stun",
       "tag": "Belobog Heavy Industries",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -2940,10 +3230,10 @@
       "n": "Lighter",
       "title": "Black Boxing Gloves",
       "slug": "lighter",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle26.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/lighter-f660ea594d47.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/lighter-dc3a9a94a8f3.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/lighter-f660ea594d47.webp",
       "status": "live",
       "labels": [],
@@ -2951,6 +3241,13 @@
       "el": "Fire",
       "spec": "Stun",
       "tag": "Sons of Calydon",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -3099,10 +3396,10 @@
       "n": "Lucia",
       "title": "The Story Continues",
       "slug": "lucia",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle50.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/lucia-a0197eabc9aa.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/lucia-b3f7c6c00e60.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/lucia-a0197eabc9aa.webp",
       "status": "live",
       "labels": [],
@@ -3110,6 +3407,13 @@
       "el": "Ether",
       "spec": "Support",
       "tag": "Spook Shack",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -3258,10 +3562,10 @@
       "n": "Lycaon",
       "title": "Thank You For Requesting Me",
       "slug": "lycaon",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle18.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/lycaon-e706e87c67e0.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/lycaon-81640864dfb8.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/lycaon-e706e87c67e0.webp",
       "status": "live",
       "labels": [],
@@ -3269,6 +3573,13 @@
       "el": "Ice",
       "spec": "Stun",
       "tag": "Victoria Housekeeping Co.",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -3417,10 +3728,10 @@
       "n": "Miyabi",
       "title": "Today's Training",
       "slug": "miyabi",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle13.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/miyabi-6ec442dcf805.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/miyabi-77dced7400d3.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/miyabi-6ec442dcf805.webp",
       "status": "live",
       "labels": [],
@@ -3428,6 +3739,13 @@
       "el": "Ice",
       "spec": "Anomaly",
       "tag": "Section 6",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -3576,10 +3894,10 @@
       "n": "Nangong Yu",
       "title": "Tear Gland Insurance",
       "slug": "nangong-yu",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle59.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/nangong-yu-f9e4f44692a6.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/nangong-yu-27f17dc0ec46.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/nangong-yu-f9e4f44692a6.webp",
       "status": "live",
       "labels": [],
@@ -3587,6 +3905,13 @@
       "el": "Ether",
       "spec": "Stun",
       "tag": "Angels of Delusion",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -3735,10 +4060,10 @@
       "n": "Nekomata",
       "title": "Patience of a Cat",
       "slug": "nekomata",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle11.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/nekomata-b9bdae637f03.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/nekomata-c03741fa6151.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/nekomata-b9bdae637f03.webp",
       "status": "live",
       "labels": [],
@@ -3746,6 +4071,13 @@
       "el": "Physical",
       "spec": "Attack",
       "tag": "Cunning Hares",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -3890,30 +4222,37 @@
       }
     },
     {
-      "id": "zzz-orphie-and-magus",
-      "n": "Orphie & Magus",
-      "title": "Peach-Flavored Flash Suppressor",
-      "slug": "orphie-and-magus",
-      "updated": 1779832800000,
+      "id": "zzz-promeia",
+      "n": "Promeia",
+      "title": "The Only Option",
+      "slug": "promeia",
+      "updated": 1781388000000,
       "sourceOrder": 0,
-      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle49.webp",
-      "art": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole49.webp",
-      "card": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole49.webp",
+      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle61.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/promeia-1aa59734d9f7.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/promeia-a03c6cd391d2.webp",
       "status": "live",
       "labels": [],
       "r": "S",
-      "el": "Fire",
-      "spec": "Attack",
-      "tag": "OBOLS Squad",
+      "el": "Ice",
+      "spec": "Anomaly",
+      "tag": "Krampus Compliance Authority",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
-            "id": "100211",
-            "name": "Basic Attack Certification Seal",
+            "id": "100213",
+            "name": "Basic Anomaly Certification Seal",
             "qty": 4,
             "rar": 1,
             "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage01.webp",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff01.webp",
             "source": "Combat Simulation - Agent Promotion",
             "sourceDetails": [
               {
@@ -3922,12 +4261,12 @@
             ]
           },
           {
-            "id": "100221",
-            "name": "Advanced Attack Certification Seal",
+            "id": "100223",
+            "name": "Advanced Anomaly Certification Seal",
             "qty": 32,
             "rar": 2,
             "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage02.webp",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff02.webp",
             "source": "Combat Simulation - Agent Promotion",
             "sourceDetails": [
               {
@@ -3936,12 +4275,12 @@
             ]
           },
           {
-            "id": "100231",
-            "name": "Pioneer's Certification Seal",
+            "id": "100233",
+            "name": "Controller Certification Seal",
             "qty": 30,
             "rar": 3,
             "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage03.webp",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff03.webp",
             "source": "Combat Simulation - Agent Promotion",
             "sourceDetails": [
               {
@@ -3952,12 +4291,12 @@
         ],
         "talents": [
           {
-            "id": "100111",
-            "name": "Basic Burn Chip",
+            "id": "100112",
+            "name": "Basic Freeze Chip",
             "qty": 25,
             "rar": 1,
             "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce01.webp",
             "source": "Combat Simulation - Agent Skills",
             "sourceDetails": [
               {
@@ -3966,12 +4305,12 @@
             ]
           },
           {
-            "id": "100121",
-            "name": "Advanced Burn Chip",
+            "id": "100122",
+            "name": "Advanced Freeze Chip",
             "qty": 75,
             "rar": 2,
             "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillIce02.webp",
             "source": "Combat Simulation - Agent Skills",
             "sourceDetails": [
               {
@@ -3980,12 +4319,12 @@
             ]
           },
           {
-            "id": "100131",
-            "name": "Specialized Burn Chip",
+            "id": "100132",
+            "name": "Specialized Freeze Chip",
             "qty": 250,
             "rar": 3,
             "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpIce01.webp",
             "source": "Combat Simulation - Agent Skills",
             "sourceDetails": [
               {
@@ -4008,34 +4347,34 @@
             ]
           },
           {
-            "id": "110004",
-            "name": "Scarlet Engine",
+            "id": "110009",
+            "name": "Marrow-Draining Thorn",
             "qty": 9,
             "rar": 4,
             "kind": "weekly",
-            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss004.webp",
-            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss004.webp",
-            "source": "Corrupted Overlord - Pompey",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss009.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss009.webp",
+            "source": "Sanguine Sweeper",
             "sourceDetails": [
               {
-                "name": "Corrupted Overlord - Pompey",
-                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_TyrantPompey.webp"
+                "name": "Sanguine Sweeper",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_GraymaneCenturion.webp"
               }
             ]
           },
           {
-            "id": "110510",
-            "name": "Higher Dimensional Data: Miasmic Elytron",
+            "id": "110511",
+            "name": "Higher Dimensional Data: Toxic Edge",
             "qty": 60,
             "rar": 3,
             "kind": "boss",
-            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss010.webp",
-            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss010.webp",
-            "source": "Avarus / Expert Challenge",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss011.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss011.webp",
+            "source": "Sacrifice - Heretic Jester / Expert Challenge",
             "sourceDetails": [
               {
-                "name": "Metamorphosed - Avarus",
-                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_WingedAvarus.webp"
+                "name": "Sacrifice - Heretic Jester",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_HereticHunter.webp"
               },
               {
                 "name": "Expert Challenge"
@@ -4053,10 +4392,10 @@
       "n": "Qingyi",
       "title": "Drink Hot Water",
       "slug": "qingyi",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle29.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/qingyi-d4428a1ed5b7.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/qingyi-41754ae2151b.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/qingyi-d4428a1ed5b7.webp",
       "status": "live",
       "labels": [],
@@ -4064,6 +4403,13 @@
       "el": "Electric",
       "spec": "Stun",
       "tag": "N.E.P.S.",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -4212,10 +4558,10 @@
       "n": "Rina",
       "title": "The Truth",
       "slug": "rina",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle22.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/rina-c1e5e69afdcd.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/rina-e34c2ce33c6c.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/rina-c1e5e69afdcd.webp",
       "status": "live",
       "labels": [],
@@ -4223,6 +4569,13 @@
       "el": "Electric",
       "spec": "Support",
       "tag": "Victoria Housekeeping Co.",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -4371,10 +4724,10 @@
       "n": "Seed",
       "title": "Pale Blue Flower of Sorrow",
       "slug": "seed",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle48.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/seed-77ec54cdcb4f.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/seed-03f6455f3ab6.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/seed-77ec54cdcb4f.webp",
       "status": "live",
       "labels": [],
@@ -4382,6 +4735,13 @@
       "el": "Electric",
       "spec": "Attack",
       "tag": "OBOLS Squad",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -4530,10 +4890,10 @@
       "n": "Soldier 11",
       "title": "Trust Your Life",
       "slug": "soldier-11",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle05.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/soldier-11-e38c6c583d4e.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/soldier-11-c75f3e4f2c7c.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/soldier-11-e38c6c583d4e.webp",
       "status": "live",
       "labels": [],
@@ -4541,6 +4901,13 @@
       "el": "Fire",
       "spec": "Attack",
       "tag": "OBOLS Squad",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -4689,10 +5056,10 @@
       "n": "Sunna",
       "title": "Teardrop Necklace",
       "slug": "sunna",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle58.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/sunna-f8d4ae5bce0c.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/sunna-48eb55c7efc5.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/sunna-f8d4ae5bce0c.webp",
       "status": "live",
       "labels": [],
@@ -4700,6 +5067,13 @@
       "el": "Physical",
       "spec": "Support",
       "tag": "Angels of Delusion",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -4847,10 +5221,10 @@
       "n": "Trigger",
       "title": "The Bloom of Asphodels",
       "slug": "trigger",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle39.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/trigger-d5bdbb4a5e1f.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/trigger-516b78c67182.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/trigger-d5bdbb4a5e1f.webp",
       "status": "live",
       "labels": [],
@@ -4858,6 +5232,13 @@
       "el": "Electric",
       "spec": "Stun",
       "tag": "OBOLS Squad",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -5006,10 +5387,10 @@
       "n": "Vivian",
       "title": "Love Like a Bouquet",
       "slug": "vivian",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle41.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/vivian-482bcf62de00.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/vivian-68e896e0a867.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/vivian-482bcf62de00.webp",
       "status": "live",
       "labels": [],
@@ -5017,6 +5398,13 @@
       "el": "Ether",
       "spec": "Anomaly",
       "tag": "Mockingbird",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -5165,10 +5553,10 @@
       "n": "Yanagi",
       "title": "Final Emergency Plan",
       "slug": "yanagi",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle31.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/yanagi-177b4ce659ce.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/yanagi-aef45a0459b1.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/yanagi-177b4ce659ce.webp",
       "status": "live",
       "labels": [],
@@ -5176,6 +5564,13 @@
       "el": "Electric",
       "spec": "Anomaly",
       "tag": "Section 6",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -5320,172 +5715,14 @@
       }
     },
     {
-      "id": "zzz-ye-shunguang",
-      "n": "Ye Shunguang",
-      "title": "Another Self",
-      "slug": "ye-shunguang",
-      "updated": 1779832800000,
-      "sourceOrder": 0,
-      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle55.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/ye-shunguang-df29444e0ab2.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/ye-shunguang-df29444e0ab2.webp",
-      "status": "live",
-      "labels": [],
-      "r": "S",
-      "el": "Physical",
-      "spec": "Attack",
-      "tag": "Yunkui Summit",
-      "req": {
-        "ascension": [
-          {
-            "id": "100211",
-            "name": "Basic Attack Certification Seal",
-            "qty": 4,
-            "rar": 1,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage01.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100221",
-            "name": "Advanced Attack Certification Seal",
-            "qty": 32,
-            "rar": 2,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage02.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100231",
-            "name": "Pioneer's Certification Seal",
-            "qty": 30,
-            "rar": 3,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage03.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          }
-        ],
-        "talents": [
-          {
-            "id": "100110",
-            "name": "Basic Physical Chip",
-            "qty": 25,
-            "rar": 1,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100120",
-            "name": "Advanced Physical Chip",
-            "qty": 75,
-            "rar": 2,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillPhys02.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100130",
-            "name": "Specialized Physical Chip",
-            "qty": 250,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100941",
-            "name": "Hamster Cage Pass",
-            "qty": 5,
-            "rar": 4,
-            "kind": "crown",
-            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
-            "source": "Event / New Eridu City Fund",
-            "sourceDetails": [
-              {
-                "name": "Event / New Eridu City Fund"
-              }
-            ]
-          },
-          {
-            "id": "110008",
-            "name": "Clouded Crystalline Substance",
-            "qty": 9,
-            "rar": 4,
-            "kind": "weekly",
-            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss008.webp",
-            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss008.webp",
-            "source": "giant beast \"Sobek\" controlled by The Thrall",
-            "sourceDetails": [
-              {
-                "name": "giant beast \"Sobek\" controlled by The Thrall"
-              }
-            ]
-          },
-          {
-            "id": "110513",
-            "name": "Higher Dimensional Data: Spiked Corruption Core",
-            "qty": 60,
-            "rar": 3,
-            "kind": "boss",
-            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss013.webp",
-            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss013.webp",
-            "source": "Miasma Walker - Scorpse / Expert Challenge",
-            "sourceDetails": [
-              {
-                "name": "Miasma Walker - Scorpse",
-                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Chelonethid.webp"
-              },
-              {
-                "name": "Expert Challenge"
-              }
-            ]
-          }
-        ],
-        "ascCost": 800000,
-        "talentCost": 2905000,
-        "currency": 3705000
-      }
-    },
-    {
       "id": "zzz-yidhari",
       "n": "Yidhari",
       "title": "One of a Kind",
       "slug": "yidhari",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle52.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/yidhari-c82ab9906959.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/yidhari-59c8d8a979e1.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/yidhari-c82ab9906959.webp",
       "status": "live",
       "labels": [],
@@ -5493,6 +5730,13 @@
       "el": "Ice",
       "spec": "Rupture",
       "tag": "Spook Shack",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -5641,10 +5885,10 @@
       "n": "Yixuan",
       "title": "Clarity of Mind",
       "slug": "yixuan",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle44.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/yixuan-ad55b88ea3b6.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/yixuan-b71d7689bc1d.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/yixuan-ad55b88ea3b6.webp",
       "status": "live",
       "labels": [],
@@ -5652,6 +5896,13 @@
       "el": "Ether",
       "spec": "Rupture",
       "tag": "Yunkui Summit",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -5800,10 +6051,10 @@
       "n": "Yuzuha",
       "title": "Proof of Companionship",
       "slug": "ukinami-yuzuha",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle47.webp",
-      "art": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole47.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/yuzuha-46be4cd37d33.webp",
       "card": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole47.webp",
       "status": "live",
       "labels": [],
@@ -5811,6 +6062,13 @@
       "el": "Physical",
       "spec": "Support",
       "tag": "Spook Shack",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -5959,10 +6217,10 @@
       "n": "Zhao",
       "title": "Non-Business Card",
       "slug": "zhao",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle56.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/zhao-f906d81225cd.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/zhao-7c786d3090b7.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/zhao-f906d81225cd.webp",
       "status": "live",
       "labels": [],
@@ -5970,6 +6228,13 @@
       "el": "Ice",
       "spec": "Defence",
       "tag": "Krampus Compliance Authority",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -6117,10 +6382,10 @@
       "n": "Zhu Yuan",
       "title": "Justice and Order",
       "slug": "zhu-yuan",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle23.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/zhu-yuan-1a293fc449ae.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/zhu-yuan-1eeccac3020e.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/zhu-yuan-1a293fc449ae.webp",
       "status": "live",
       "labels": [],
@@ -6128,6 +6393,13 @@
       "el": "Ether",
       "spec": "Attack",
       "tag": "N.E.P.S.",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -6276,10 +6548,10 @@
       "n": "Anby",
       "title": "Ending Theme",
       "slug": "anby-demara",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle01.webp",
-      "art": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole01.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/anby-9f2294728151.webp",
       "card": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole01.webp",
       "status": "live",
       "labels": [],
@@ -6287,6 +6559,13 @@
       "el": "Electric",
       "spec": "Stun",
       "tag": "Cunning Hares",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -6435,10 +6714,10 @@
       "n": "Anton",
       "title": "Everyone Get Fired Up!",
       "slug": "anton",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle15.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/anton-e474583d3963.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/anton-4e5e8d4cf8c5.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/anton-e474583d3963.webp",
       "status": "live",
       "labels": [],
@@ -6446,6 +6725,13 @@
       "el": "Electric",
       "spec": "Attack",
       "tag": "Belobog Heavy Industries",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -6594,10 +6880,10 @@
       "n": "Ben",
       "title": "Careful Contemplation",
       "slug": "ben",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle16.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/ben-46b1afc0f1e3.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/ben-453d193f0424.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/ben-46b1afc0f1e3.webp",
       "status": "live",
       "labels": [],
@@ -6605,6 +6891,13 @@
       "el": "Fire",
       "spec": "Defence",
       "tag": "Belobog Heavy Industries",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -6753,10 +7046,10 @@
       "n": "Billy",
       "title": "Perfect Pose",
       "slug": "billy-kid",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle10.webp",
-      "art": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole10.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/billy-142f00f4ec7a.webp",
       "card": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole10.webp",
       "status": "live",
       "labels": [],
@@ -6764,6 +7057,13 @@
       "el": "Physical",
       "spec": "Attack",
       "tag": "Cunning Hares",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -6912,10 +7212,10 @@
       "n": "Corin",
       "title": "Good Friends",
       "slug": "corin",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle09.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/corin-61bc3852fb48.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/corin-04cc14dacf63.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/corin-61bc3852fb48.webp",
       "status": "live",
       "labels": [],
@@ -6923,6 +7223,13 @@
       "el": "Physical",
       "spec": "Attack",
       "tag": "Victoria Housekeeping Co.",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -7071,10 +7378,10 @@
       "n": "Lucy",
       "title": "Little Boars, Coming Right Up",
       "slug": "lucy",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle27.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/lucy-d81b3141fde3.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/lucy-8522160730d1.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/lucy-d81b3141fde3.webp",
       "status": "live",
       "labels": [],
@@ -7082,6 +7389,13 @@
       "el": "Fire",
       "spec": "Support",
       "tag": "Sons of Calydon",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -7230,10 +7544,10 @@
       "n": "Manato",
       "title": "The First Safehouse",
       "slug": "manato",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle51.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/manato-8bec1392bd95.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/manato-7f4b75e1c466.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/manato-8bec1392bd95.webp",
       "status": "live",
       "labels": [],
@@ -7241,6 +7555,13 @@
       "el": "Fire",
       "spec": "Rupture",
       "tag": "Spook Shack",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -7389,10 +7710,10 @@
       "n": "Nicole",
       "title": "Precise Focus",
       "slug": "nicole-demara",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle12.webp",
-      "art": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole12.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/nicole-373bd7d328b4.webp",
       "card": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole12.webp",
       "status": "live",
       "labels": [],
@@ -7400,6 +7721,13 @@
       "el": "Ether",
       "spec": "Support",
       "tag": "Cunning Hares",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -7548,10 +7876,10 @@
       "n": "Pan Yinhu",
       "title": "Greater Hermit of the City",
       "slug": "pan-yinhu",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle45.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/pan-yinhu-51234ed58c65.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/pan-yinhu-68a0ebf14907.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/pan-yinhu-51234ed58c65.webp",
       "status": "live",
       "labels": [],
@@ -7559,6 +7887,13 @@
       "el": "Physical",
       "spec": "Defence",
       "tag": "Yunkui Summit",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -7707,10 +8042,10 @@
       "n": "Piper",
       "title": "Taste in Shows",
       "slug": "piper",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle28.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/piper-65240c1c1fef.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/piper-647be76ff554.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/piper-65240c1c1fef.webp",
       "status": "live",
       "labels": [],
@@ -7718,6 +8053,13 @@
       "el": "Physical",
       "spec": "Anomaly",
       "tag": "Sons of Calydon",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -7866,10 +8208,10 @@
       "n": "Pulchra",
       "title": "Moment of Vulnerability",
       "slug": "pulchra",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle38.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/pulchra-dc3c088abe6b.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/pulchra-cb6f22fc2a37.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/pulchra-dc3c088abe6b.webp",
       "status": "live",
       "labels": [],
@@ -7877,6 +8219,13 @@
       "el": "Physical",
       "spec": "Stun",
       "tag": "Sons of Calydon",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -8025,10 +8374,10 @@
       "n": "Seth",
       "title": "Leave It To Me",
       "slug": "seth",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle30.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/seth-e376b296a914.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/seth-953351a4c1cf.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/seth-e376b296a914.webp",
       "status": "live",
       "labels": [],
@@ -8036,6 +8385,13 @@
       "el": "Electric",
       "spec": "Defence",
       "tag": "N.E.P.S.",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -8184,10 +8540,10 @@
       "n": "Soukaku",
       "title": "Take a Break",
       "slug": "soukaku",
-      "updated": 1779832800000,
+      "updated": 1781388000000,
       "sourceOrder": 0,
       "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle17.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/soukaku-023ed4ea14e8.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/soukaku-b11bd2e95ae9.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/soukaku-023ed4ea14e8.webp",
       "status": "live",
       "labels": [],
@@ -8195,6 +8551,13 @@
       "el": "Ice",
       "spec": "Support",
       "tag": "Section 6",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
@@ -8339,30 +8702,39 @@
       }
     },
     {
-      "id": "zzz-pyrois",
-      "n": "Pyrois",
-      "slug": "pyrois",
-      "updated": 1778536800000,
+      "id": "zzz-norma",
+      "n": "Norma",
+      "slug": "norma",
+      "updated": 1780783200000,
       "sourceOrder": 0,
-      "icon": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole63.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/pyrois-4b8909998042.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/pyrois-4b8909998042.webp",
+      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle65.webp",
+      "iconZoom": 1.24,
+      "art": "../../Database/Prydwen/zzz/assets/characters/norma-f4dbe2ca9e48.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/norma-37b562dcffd6.webp",
       "status": "beta",
       "labels": [
-        "3.x"
+        "3.0"
       ],
-      "el": "Unknown",
-      "spec": "Unknown",
-      "tag": "Unknown",
+      "r": "S",
+      "el": "Fire",
+      "spec": "Stun",
+      "tag": "External Strategy Department",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "req": {
         "ascension": [
           {
-            "id": "100211",
-            "name": "Basic Attack Certification Seal",
+            "id": "100212",
+            "name": "Basic Stun Certification Seal",
             "qty": 4,
             "rar": 1,
             "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage01.webp",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankStun01.webp",
             "source": "Combat Simulation - Agent Promotion",
             "sourceDetails": [
               {
@@ -8371,12 +8743,12 @@
             ]
           },
           {
-            "id": "100221",
-            "name": "Advanced Attack Certification Seal",
+            "id": "100222",
+            "name": "Advanced Stun Certification Seal",
             "qty": 32,
             "rar": 2,
             "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage02.webp",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankStun02.webp",
             "source": "Combat Simulation - Agent Promotion",
             "sourceDetails": [
               {
@@ -8385,12 +8757,12 @@
             ]
           },
           {
-            "id": "100231",
-            "name": "Pioneer's Certification Seal",
+            "id": "100232",
+            "name": "Buster Certification Seal",
             "qty": 30,
             "rar": 3,
             "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage03.webp",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankStun03.webp",
             "source": "Combat Simulation - Agent Promotion",
             "sourceDetails": [
               {
@@ -8401,12 +8773,12 @@
         ],
         "talents": [
           {
-            "id": "100115",
-            "name": "Basic Ether Chip",
+            "id": "100111",
+            "name": "Basic Burn Chip",
             "qty": 25,
             "rar": 1,
             "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
             "source": "Combat Simulation - Agent Skills",
             "sourceDetails": [
               {
@@ -8415,12 +8787,12 @@
             ]
           },
           {
-            "id": "100125",
-            "name": "Advanced Ether Chip",
+            "id": "100121",
+            "name": "Advanced Burn Chip",
             "qty": 75,
             "rar": 2,
             "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
             "source": "Combat Simulation - Agent Skills",
             "sourceDetails": [
               {
@@ -8429,12 +8801,12 @@
             ]
           },
           {
-            "id": "100135",
-            "name": "Specialized Ether Chip",
+            "id": "100131",
+            "name": "Specialized Burn Chip",
             "qty": 250,
             "rar": 3,
             "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
             "source": "Combat Simulation - Agent Skills",
             "sourceDetails": [
               {

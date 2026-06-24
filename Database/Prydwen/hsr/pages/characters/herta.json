@@ -1,0 +1,1582 @@
+{
+  "id": "characters:herta",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "herta",
+  "name": "Herta",
+  "title": "Herta Best Build Guide",
+  "sourcePath": "/star-rail/characters/herta",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "31/May/2026",
+  "meta": {
+    "title": "Herta Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 4,
+    "element": "Ice",
+    "path": "Erudition"
+  },
+  "assets": [
+    {
+      "id": "d93a5aec8214",
+      "sourceHash": "d93a5aec8214",
+      "kind": "characters",
+      "name": "Herta",
+      "fileStem": "herta-card",
+      "path": "Prydwen/hsr/assets/characters/herta-d93a5aec8214.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "5a409c0b426e",
+      "sourceHash": "5a409c0b426e",
+      "kind": "icons",
+      "name": "Ice DMG",
+      "fileStem": "stat-icedmg",
+      "path": "Prydwen/hsr/assets/icons/ice-dmg-5a409c0b426e.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "a6be649090ba",
+      "sourceHash": "a6be649090ba",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "af5b8acc8f63",
+      "sourceHash": "af5b8acc8f63",
+      "kind": "icons",
+      "name": "CRIT Rate",
+      "fileStem": "stat-critrate",
+      "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "96654253a4f7",
+      "sourceHash": "96654253a4f7",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "dc6aec4a7776",
+      "sourceHash": "dc6aec4a7776",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "087f2dec68b6",
+      "sourceHash": "087f2dec68b6",
+      "kind": "icons",
+      "name": "Speed",
+      "fileStem": "stat-speed",
+      "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "50d0e755383a",
+      "sourceHash": "50d0e755383a",
+      "kind": "items",
+      "name": "Credit",
+      "fileStem": "credit",
+      "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "a0a02b1fa209",
+      "sourceHash": "a0a02b1fa209",
+      "kind": "items",
+      "name": "Extinguished Core",
+      "fileStem": "extinguished-core",
+      "path": "Prydwen/hsr/assets/items/extinguished-core-a0a02b1fa209.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "bd1804d706c1",
+      "sourceHash": "bd1804d706c1",
+      "kind": "items",
+      "name": "Glimmering Core",
+      "fileStem": "glimmering-core",
+      "path": "Prydwen/hsr/assets/items/glimmering-core-bd1804d706c1.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "529eb343d12c",
+      "sourceHash": "529eb343d12c",
+      "kind": "items",
+      "name": "Horn of Snow",
+      "fileStem": "horn-of-snow",
+      "path": "Prydwen/hsr/assets/items/horn-of-snow-529eb343d12c.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "8b1cae9c0357",
+      "sourceHash": "8b1cae9c0357",
+      "kind": "items",
+      "name": "Squirming Core",
+      "fileStem": "squirming-core",
+      "path": "Prydwen/hsr/assets/items/squirming-core-8b1cae9c0357.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "5eb921b823ca",
+      "sourceHash": "5eb921b823ca",
+      "kind": "characters",
+      "name": "Herta",
+      "fileStem": "herta-full",
+      "path": "Prydwen/hsr/assets/characters/herta-5eb921b823ca.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "efdffaadc6e8",
+      "sourceHash": "efdffaadc6e8",
+      "kind": "light-cones",
+      "name": "Before Dawn",
+      "fileStem": "before-dawn",
+      "path": "Prydwen/hsr/assets/light-cones/before-dawn-efdffaadc6e8.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "9c79bc4da5e8",
+      "sourceHash": "9c79bc4da5e8",
+      "kind": "light-cones",
+      "name": "Night on the Milky Way",
+      "fileStem": "night-on-the-milky-way",
+      "path": "Prydwen/hsr/assets/light-cones/night-on-the-milky-way-9c79bc4da5e8.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "91e57edd022e",
+      "sourceHash": "91e57edd022e",
+      "kind": "light-cones",
+      "name": "Geniuses' Repose",
+      "fileStem": "geniuses-repose",
+      "path": "Prydwen/hsr/assets/light-cones/geniuses-repose-91e57edd022e.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "12fd19dd3045",
+      "sourceHash": "12fd19dd3045",
+      "kind": "light-cones",
+      "name": "Eternal Calculus",
+      "fileStem": "eternal-calculus",
+      "path": "Prydwen/hsr/assets/light-cones/eternal-calculus-12fd19dd3045.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "1975a2492785",
+      "sourceHash": "1975a2492785",
+      "kind": "light-cones",
+      "name": "Today Is Another Peaceful Day",
+      "fileStem": "today-is-another-peaceful-day",
+      "path": "Prydwen/hsr/assets/light-cones/today-is-another-peaceful-day-1975a2492785.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "ab251a923606",
+      "sourceHash": "ab251a923606",
+      "kind": "light-cones",
+      "name": "The Seriousness of Breakfast",
+      "fileStem": "the-seriousness-of-breakfast",
+      "path": "Prydwen/hsr/assets/light-cones/the-seriousness-of-breakfast-ab251a923606.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "7a4718b6b70e",
+      "sourceHash": "7a4718b6b70e",
+      "kind": "light-cones",
+      "name": "The Birth of the Self",
+      "fileStem": "the-birth-of-the-self",
+      "path": "Prydwen/hsr/assets/light-cones/the-birth-of-the-self-7a4718b6b70e.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "0edbfbfc2eca",
+      "sourceHash": "0edbfbfc2eca",
+      "kind": "relics",
+      "name": "The Ashblazing Grand Duke",
+      "fileStem": "the-ashblazing-grand-duke",
+      "path": "Prydwen/hsr/assets/relics/the-ashblazing-grand-duke-0edbfbfc2eca.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "f521b7a2ee25",
+      "sourceHash": "f521b7a2ee25",
+      "kind": "relics",
+      "name": "Scholar Lost in Erudition",
+      "fileStem": "scholar-lost-in-erudition",
+      "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "0c7e5b9d3ab7",
+      "sourceHash": "0c7e5b9d3ab7",
+      "kind": "relics",
+      "name": "Hunter of Glacial Forest",
+      "fileStem": "hunter-of-glacial-forest",
+      "path": "Prydwen/hsr/assets/relics/hunter-of-glacial-forest-0c7e5b9d3ab7.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "deeeca721276",
+      "sourceHash": "deeeca721276",
+      "kind": "relics",
+      "name": "Musketeer of Wild Wheat",
+      "fileStem": "musketeer-of-wild-wheat",
+      "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "507bb2127c32",
+      "sourceHash": "507bb2127c32",
+      "kind": "relics",
+      "name": "Prisoner in Deep Confinement",
+      "fileStem": "prisoner-in-deep-confinement",
+      "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "2d90f2919c5d",
+      "sourceHash": "2d90f2919c5d",
+      "kind": "relics",
+      "name": "The Wind-Soaring Valorous",
+      "fileStem": "the-wind-soaring-valorous",
+      "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "6e205de52037",
+      "sourceHash": "6e205de52037",
+      "kind": "relics",
+      "name": "Pioneer Diver of Dead Waters",
+      "fileStem": "pioneer-diver-of-dead-waters",
+      "path": "Prydwen/hsr/assets/relics/pioneer-diver-of-dead-waters-6e205de52037.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "3e3ff5ebf5d2",
+      "sourceHash": "3e3ff5ebf5d2",
+      "kind": "relics",
+      "name": "Sigonia, the Unclaimed Desolation",
+      "fileStem": "sigonia-the-unclaimed-desolation",
+      "path": "Prydwen/hsr/assets/relics/sigonia-the-unclaimed-desolation-3e3ff5ebf5d2.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5c3fed1223b5",
+      "sourceHash": "5c3fed1223b5",
+      "kind": "relics",
+      "name": "Duran, Dynasty of Running Wolves",
+      "fileStem": "duran-dynasty-of-running-wolves",
+      "path": "Prydwen/hsr/assets/relics/duran-dynasty-of-running-wolves-5c3fed1223b5.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d3afe42bdcff",
+      "sourceHash": "d3afe42bdcff",
+      "kind": "relics",
+      "name": "Inert Salsotto",
+      "fileStem": "inert-salsotto",
+      "path": "Prydwen/hsr/assets/relics/inert-salsotto-d3afe42bdcff.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "0ad357f87585",
+      "sourceHash": "0ad357f87585",
+      "kind": "relics",
+      "name": "Rutilant Arena",
+      "fileStem": "rutilant-arena",
+      "path": "Prydwen/hsr/assets/relics/rutilant-arena-0ad357f87585.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "44c437b21b3a",
+      "sourceHash": "44c437b21b3a",
+      "kind": "icons",
+      "name": "CRIT DMG",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "fecc96b9e5e6",
+      "sourceHash": "fecc96b9e5e6",
+      "kind": "characters",
+      "name": "The Herta",
+      "fileStem": "the-herta-icon",
+      "path": "Prydwen/hsr/assets/characters/the-herta-fecc96b9e5e6.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "e985c6a49a99",
+      "sourceHash": "e985c6a49a99",
+      "kind": "characters",
+      "name": "Robin",
+      "fileStem": "robin-icon",
+      "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "589a6cfaa6d4",
+      "sourceHash": "589a6cfaa6d4",
+      "kind": "characters",
+      "name": "Himeko",
+      "fileStem": "himeko-icon",
+      "path": "Prydwen/hsr/assets/characters/himeko-589a6cfaa6d4.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "7d36eb39792a",
+      "sourceHash": "7d36eb39792a",
+      "kind": "icons",
+      "name": "Ice",
+      "fileStem": "ele-ice",
+      "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "3c36b1a09c1c",
+      "sourceHash": "3c36b1a09c1c",
+      "kind": "characters",
+      "name": "Herta",
+      "fileStem": "herta-icon",
+      "path": "Prydwen/hsr/assets/characters/herta-3c36b1a09c1c.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "2cde7699adbf",
+      "sourceHash": "2cde7699adbf",
+      "kind": "characters",
+      "name": "Tribbie",
+      "fileStem": "tribbie-icon",
+      "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "565914d1a436",
+      "sourceHash": "565914d1a436",
+      "kind": "icons",
+      "name": "Quantum",
+      "fileStem": "ele-quantum",
+      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "714348f14d48",
+      "sourceHash": "714348f14d48",
+      "kind": "characters",
+      "name": "Dan Heng • Permansor Terrae",
+      "fileStem": "dan-heng-permansor-terrae-icon",
+      "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e0db16ed6c66",
+      "sourceHash": "e0db16ed6c66",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "ele-physical",
+      "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "99361e4717fa",
+      "sourceHash": "99361e4717fa",
+      "kind": "characters",
+      "name": "Mortenax Blade",
+      "fileStem": "blade-mortenax-icon",
+      "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "92feb26d8f0e",
+      "sourceHash": "92feb26d8f0e",
+      "kind": "icons",
+      "name": "Fire",
+      "fileStem": "ele-fire",
+      "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "1d90270b2b4b",
+      "sourceHash": "1d90270b2b4b",
+      "kind": "characters",
+      "name": "Hyacine",
+      "fileStem": "hyacine-icon",
+      "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ee11bd390c9a",
+      "sourceHash": "ee11bd390c9a",
+      "kind": "icons",
+      "name": "Wind",
+      "fileStem": "ele-wind",
+      "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "da99d2d9a505",
+      "sourceHash": "da99d2d9a505",
+      "kind": "characters",
+      "name": "Sparkle",
+      "fileStem": "sparkle-icon",
+      "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "c4a9c00e98ef",
+      "sourceHash": "c4a9c00e98ef",
+      "kind": "characters",
+      "name": "Huohuo",
+      "fileStem": "huohuo-icon",
+      "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
+      "width": 60,
+      "height": 60
+    }
+  ],
+  "sections": [
+    {
+      "id": "herta-best-build-guide-0",
+      "level": 1,
+      "heading": "Herta Best Build Guide",
+      "text": "Last updated: 31/May/2026",
+      "assets": [
+        {
+          "id": "d93a5aec8214",
+          "sourceHash": "d93a5aec8214",
+          "kind": "characters",
+          "name": "Herta",
+          "fileStem": "herta-card",
+          "path": "Prydwen/hsr/assets/characters/herta-d93a5aec8214.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Herta from HSR (Honkai: Star Rail). Herta is a 4 ★ character from the Ice element who follows the Path of Erudition .\n Herta Space Station's true master. As the human with the highest IQ in The Blue, she only does what she's interested in, dropping whatever project immediately the moment she loses interest — the best example being the space station.\n She typically appears in the form of a ranged puppet. \"It's about seventy percent similar to how I looked as a child.\" — Herta\n\n To learn more about Herta check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Herta has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 3.0\n\n Last major build/calcs update\n Patch 4.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Herta check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic ATK\n What Are You Looking At?\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Ice DMG equal to #1[i]% of Herta's ATK to a single enemy.\n\n Skill\n One-Time Offer\n AoE\n\n Lv. 1\n\n Energy gain: 30\n Break: 10\n\n Deals Ice DMG equal to #1[i]% of Herta's ATK to all enemies. If the enemy's HP percentage is #2[i]% or higher, DMG dealt to this target increases by #3[i]%.\n\n Ultimate\n It's Magic, I Added Some Magic\n AoE | 110 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Deals Ice DMG equal to #1[i]% of Herta's ATK to all enemies.\n\n Talent\n Fine, I'll Do It Myself\n AoE\n\n Lv. 1\n\n Energy gain: 5\n Break: 5\n\n When an ally's attack causes an enemy's HP percentage to fall to #1[i]% or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to #2[i]% of Herta's ATK to all enemies.\n\n Technique\n It Can Still Be Optimized\n Enhance\n\n Energy gain: 0\n Break: -\n\n After using her Technique, Herta's ATK increases by #1[i]% for #2[i] turn(s) at the beginning of the next battle.",
+      "assets": []
+    },
+    {
+      "id": "major-traces-10",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "A2 Major trace\n Efficiency\n\n When Skill is used, the DMG Boost effect on target enemies increases by an extra 25% .\n\n A4 Major trace\n Puppet\n\n The chance to resist Crowd Control Debuffs increases by 35% .\n\n A6 Major trace\n Icing\n\n When Ultimate is used, deals 20% more DMG to Frozen enemies.",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-11",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "Ice DMG\n + 22.4%\n\n DEF\n + 22.5%\n\n CRIT Rate\n + 6.7%",
+      "assets": [
+        {
+          "id": "5a409c0b426e",
+          "sourceHash": "5a409c0b426e",
+          "kind": "icons",
+          "name": "Ice DMG",
+          "fileStem": "stat-icedmg",
+          "path": "Prydwen/hsr/assets/icons/ice-dmg-5a409c0b426e.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "af5b8acc8f63",
+          "sourceHash": "af5b8acc8f63",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-critrate",
+          "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "eidolons-12",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "E 1\n Kick You When You're Down\n Eidolon 1\n\n If the enemy's HP percentage is at 50% or less, Herta's Basic ATK deals Additional Ice DMG equal to 40% of Herta's ATK.\n\n E 2\n Keep the Ball Rolling\n Eidolon 2\n\n Every time Talent is triggered, this character's CRIT Rate increases by 3% . This effect can stack up to 5 time(s).\n\n E 3\n That's the Kind of Girl I Am\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15 . Basic ATK Lv. + 1 , up to a maximum of Lv. 10 .\n\n E 4\n Hit Where it Hurts\n Eidolon 4\n\n When Talent is triggered, DMG increases by 10% .\n\n E 5\n Cuss Big or Cuss Nothing\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15 . Talent Lv. +2 , up to a maximum of Lv. 15 .\n\n E 6\n No One Can Betray Me\n Eidolon 6\n\n After using Ultimate, this character's ATK increases by 25% for 1 turn(s).",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-13",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Enable Ascension",
+      "assets": []
+    },
+    {
+      "id": "level-80-stats-14",
+      "level": 5,
+      "heading": "Level 80 stats",
+      "text": "HP\n\n 952\n\n ATK\n\n 582\n\n DEF\n\n 396\n\n Speed\n\n 100",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "level-1-80-ascension-materials-15",
+      "level": 5,
+      "heading": "Level 1 → 80 Ascension Materials",
+      "text": "Credit\n\n x 246400\n\n Extinguished Core\n\n x 12\n\n Glimmering Core\n\n x 13\n\n Horn of Snow\n\n x 50\n\n Squirming Core\n\n x 12",
+      "assets": [
+        {
+          "id": "50d0e755383a",
+          "sourceHash": "50d0e755383a",
+          "kind": "items",
+          "name": "Credit",
+          "fileStem": "credit",
+          "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "a0a02b1fa209",
+          "sourceHash": "a0a02b1fa209",
+          "kind": "items",
+          "name": "Extinguished Core",
+          "fileStem": "extinguished-core",
+          "path": "Prydwen/hsr/assets/items/extinguished-core-a0a02b1fa209.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "bd1804d706c1",
+          "sourceHash": "bd1804d706c1",
+          "kind": "items",
+          "name": "Glimmering Core",
+          "fileStem": "glimmering-core",
+          "path": "Prydwen/hsr/assets/items/glimmering-core-bd1804d706c1.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "529eb343d12c",
+          "sourceHash": "529eb343d12c",
+          "kind": "items",
+          "name": "Horn of Snow",
+          "fileStem": "horn-of-snow",
+          "path": "Prydwen/hsr/assets/items/horn-of-snow-529eb343d12c.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "8b1cae9c0357",
+          "sourceHash": "8b1cae9c0357",
+          "kind": "items",
+          "name": "Squirming Core",
+          "fileStem": "squirming-core",
+          "path": "Prydwen/hsr/assets/items/squirming-core-8b1cae9c0357.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "cv-16",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n PJ Mattson\n\n JPN\n Yamazaki Haruka (山崎はるか)\n\n CN\n Hou Xiaofei (侯小菲)\n\n KR\n Kim Seo-yeong (김서영)",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "5eb921b823ca",
+          "sourceHash": "5eb921b823ca",
+          "kind": "characters",
+          "name": "Herta",
+          "fileStem": "herta-full",
+          "path": "Prydwen/hsr/assets/characters/herta-5eb921b823ca.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Destroys in AoE content, having a good time even if there’s only 2-3 enemies,\n\n Large amounts of Toughness damage,\n\n Good in dual carry setups thanks to her Talent follow-ups,\n\n Gets Eidolons for free.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Dismal in true single-target scenarios,\n\n Low Toughness damage without enemies to get spins from,\n\n Low Base stats,\n\n Very late bloomer with uneven progression.",
+      "assets": []
+    },
+    {
+      "id": "review-by-sushou-21",
+      "level": 2,
+      "heading": "Review (By Sushou)",
+      "text": "Herta is an AoE specialist character capable of dishing out surprisingly high damage against multiple combatants consistently . She has a low-cost Ultimate and can very quickly regain Energy thanks to her Talent’s follow-up attacks. She struggles significantly when there is only one enemy on the field, but can pivot to being SP-positive in dual-carry setups when that happens. Many of her Eidolons are also freely available courtesy of the rewards from the Simulated Universe.\n Well, well, well, how the turns table. Herta may still be scorned by many for being underwhelming in single-target scenarios, but she’s certainly started making a compelling case for using her in the now numerous multi-target combat encounters we’ve been getting steadily more accustomed to - especially in Pure Fiction where she's one of the best characters in the game.\n Herta’s Skill hits all enemies on the field for up to 100% of her ATK. If the enemies’ HP is 50% or higher, this attack also deals 20% increased DMG to said targets. A simple Skill but one that is quite efficient in those multi-target situations. The increased DMG% is also appreciated and helps to get enemies down to the necessary HP thresholds to activate Herta’s Talent.\n Her Talent will cause Herta to do her signature follow-up spin attack whenever an ally’s attack reduces an enemy’s HP to 50% or below. She’ll deal up to 40% ATK to all enemies. A paltry amount initially, but this is per spin , and if multiple enemies’ HP falls below 50%, Herta will do an equivalent amount of spins. This is even dynamically updated, so if the first follow-up attack reduces a second enemy’s HP to below 50%, Herta will automatically perform a second spin within the same follow-up. Herta will also get these spins even if the target dies beforehand.\n This means that it’s possible for Herta to get 5 consecutive spins off in a single follow-up attack if 5 enemies fall below 50% either before the first spin or within the follow-up attack window. If this happens, Herta is doing 40% ATK damage to 5 enemies, meaning it’s essentially a 200% ATK total… 5 times. It’s weird to think that Herta’s follow-up can deal an equivalent 1000% ATK damage to 5 targets, but it really is that much, and it can be very visible if your Herta is actually well invested.\n Important to note as well that each individual spin will also give Herta back 5 Energy, meaning multiple spins can very easily give a huge amount of Energy back for her Ultimate. Each spin will also deal its own instance of Toughness damage, meaning that a fully spun Herta will deal 75 Toughness damage to all enemies on the field, potentially.\n Herta’s Ultimate deals 200% ATK to all enemies. It deals increased Toughness damage as well, and has a below average Energy cost of 110. Since it is quite likely that Herta will be killing off smaller enemies with her wide ranging attacks, she’ll be getting plenty of Energy from the kills as well as plenty more from her Talent’s follow-up attacks.\n Herta is an archetypal Erudition unit in this game. She is perfectly tailored to AoE combat and does a really good job at it. Unfortunately, when it comes to single-target combat, the differences are extremely stark. Without the potential to combo into her Talent, her damage will suffer tremendously. Worse still is that while her Talent has the potential to deal a huge chunk of damage, it’s a one-time deal; once an enemy is below 50% HP, it’s extremely rare for them to be able to recover that lost health unless they’re a boss type enemy.\n It’s complicated. In the event that a strong Elite or Boss is facing you by themselves, Herta will offer virtually nothing in that encounter. If she’s your only damage dealer in that fight, then she will quite literally be near useless. However this starts to get flipped if said Elite or Boss is capable of summoning reinforcements. Now , if there are plenty of smaller foes for Herta to decimate and proc her Talent off of, the incidental damage from her follow-up spins can end up making up a large portion of the damage she would otherwise be missing, and then contributing to higher Ultimate uptime in the process.\n From this you should be able to see that Herta is quite a feast-or-famine type of unit. If the conditions are met for her to excel, she will do so handily, but otherwise can fall to the wayside. Now that there is a much higher prevalence of enemies that can summon reinforcements repeatedly, Herta can actually be brought into fights that she has absolutely no business being in usually, such as against the IPC Team Leader Elite, or better yet, the True Sting. Yeah, she has a very good time against those damned bugs if you’ve invested in her.\n The pervasive question then is ‘should you invest in Herta’ and that can seem tricky to answer initially. I say ‘initially’ because a great many people seem to claim they do not have an Ice damage dealer, which is odd since Herta most definitely exists and is given to everyone unconditionally. Returns on investment may not appear as obviously as for other flashier characters, especially 5-stars, but they most definitely do come about - she will carry one side for you in every Pure Fiction phase from not till forever (or until they drastically change what the mode is about).\n Herta’s A2 increases the DMG boost of her Skill by an extra 25% when used against high HP targets, for a new total of 45%. This is a very noticeable bump to damage, especially as it can contribute to pushing enemies below 50% HP for her Talent follow-up or sometimes just outright killing smaller foes. A4 provides a 35% chance to resist Crowd Control, a small but welcome addition to ensure that Herta is more frequently ready to perform a follow-up after an ally’s attack, though this usually comes into play more in dual carry setups. A6 will allow her Ultimate to deal 20% increased DMG to Frozen enemies, something that actually comes up a fair bit if there are enough enemies for a lot of follow-ups due to the increased Toughness damage output.\n Herta is not only a freely accessible character but one who also gains Eidolons for free as well. Everyone is able to get Herta and her dupes from completing worlds in the Simulated Universe. As such, she’s evaluated with this in mind.\n E1 gives extra functionality to her Basic ATK. When attacking enemies below 50% HP, she will deal an extra 40% ATK as damage, for a new total of 140%. This is a pretty big deal in terms of Basic ATKs as it deals increased damage while still recovering a Skill Point, though this is usually not as big of a deal outside of dual carry setups, and is not enough to offset her weaknesses in single-target combat. E2 provides a permanent CRIT Rate boost of 3% every time her Talent is triggered up to a max of 5 stacks. 15% free CRIT Rate for just doing what you were going to be doing is a very impressive bonus for anyone, especially for Herta in those multi-target encounters where it’s easy to stack up.\n E4 increases the Talent follow-up DMG by 10%, and E6 will increase Herta’s ATK by 25% for 1 turn after using her Ultimate. E3 and E5 are actually significant to her as they increase ability levels and can have a very noticeable impact due to her AoE-heavy nature; her Skill goes to 110% ATK per enemy, and her Talent goes to 43% per enemy.\n Really, the other big downside of Herta besides her fumbling in single-target combat is that her Base stats are really low. Her Base ATK is on the lower end when it comes to damage dealers, and her DEF and HP are much the same, making her quite a frail unit.\n Even still, she is capable of decimating swathes of enemies if put in the right spot and if the player actually invests in her. I’ve said that multiple times because it’s absolutely true. It’s a very uneven progression, I will admit. It’ll seem like nothing’s improving until suddenly ‘oh hey, my Herta is doing damage now’. Please trust me that that point does definitely exist. You can look up videos of Herta wrecking Pure Fiction if you need more proof.\n With the release of The Herta, the smaller Herta gained another team-building option that now allows her to shine outside of Pure Fiction and somehow be even STRONGER in that mode. With the way The Herta works, you want to pair her with a second Erudition unit that attacks frequently and Herta fills the criteria. So nothing stops you from playing both Hertas in the same team to easily clear all content.\n I’ve been using Herta since the beginning and I’ve not done her justice, especially in the first iteration of this review. Especially after my initial lapses concerning Qingque, I’m making it a point to do due diligence, and I can safely say that Herta is worth your while, especially if you’re lacking another Ice damage dealer.",
+      "assets": []
+    },
+    {
+      "id": "ratings-22",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.",
+      "assets": []
+    },
+    {
+      "id": "eidolon-0-24",
+      "level": 5,
+      "heading": "Eidolon 0",
+      "text": "T3\n MoC\n\n T0.5\n PF\n\n T2\n AS",
+      "assets": []
+    },
+    {
+      "id": "eidolon-6-25",
+      "level": 5,
+      "heading": "Eidolon 6",
+      "text": "T3\n MoC\n\n T0.5\n PF\n\n T2\n AS\n\n Build and teams\n\n Herta Relic and Light Cone calculations are based on fighting against 3 targets.",
+      "assets": []
+    },
+    {
+      "id": "best-light-cones-27",
+      "level": 2,
+      "heading": "Best Light Cones",
+      "text": "107.38%\n\n Before Dawn (S 1 )\n\n Usage: 16.74 %\n MoC: -\n PF: 31640\n AS: 0\n\n 108.52%\n\n Night on the Milky Way (S 1 )\n\n For Pure Fiction only.\n Usage: 22.89 %\n MoC: -\n PF: 0\n AS: 0\n\n 100%\n\n Geniuses' Repose (S 5 )\n\n 97.88%\n\n Eternal Calculus (S 5 )\n\n For Pure Fiction only.\n Usage: 12.1 %\n MoC: -\n PF: 31640\n AS: 0\n\n 95.20%\n\n Today Is Another Peaceful Day (S 5 )\n\n 92.38%\n\n The Seriousness of Breakfast (S 5 )\n\n Usage: 2.01 %\n MoC: -\n PF: 0\n AS: 0\n\n 83.55%\n\n The Birth of the Self (S 5 )\n\n Usage: 25.51 %\n MoC: -\n PF: 24120\n AS: 0\n\n Herta Relic and Light Cone calculations are based on fighting against 3 targets.",
+      "assets": [
+        {
+          "id": "efdffaadc6e8",
+          "sourceHash": "efdffaadc6e8",
+          "kind": "light-cones",
+          "name": "Before Dawn",
+          "fileStem": "before-dawn",
+          "path": "Prydwen/hsr/assets/light-cones/before-dawn-efdffaadc6e8.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "9c79bc4da5e8",
+          "sourceHash": "9c79bc4da5e8",
+          "kind": "light-cones",
+          "name": "Night on the Milky Way",
+          "fileStem": "night-on-the-milky-way",
+          "path": "Prydwen/hsr/assets/light-cones/night-on-the-milky-way-9c79bc4da5e8.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "91e57edd022e",
+          "sourceHash": "91e57edd022e",
+          "kind": "light-cones",
+          "name": "Geniuses' Repose",
+          "fileStem": "geniuses-repose",
+          "path": "Prydwen/hsr/assets/light-cones/geniuses-repose-91e57edd022e.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "12fd19dd3045",
+          "sourceHash": "12fd19dd3045",
+          "kind": "light-cones",
+          "name": "Eternal Calculus",
+          "fileStem": "eternal-calculus",
+          "path": "Prydwen/hsr/assets/light-cones/eternal-calculus-12fd19dd3045.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "1975a2492785",
+          "sourceHash": "1975a2492785",
+          "kind": "light-cones",
+          "name": "Today Is Another Peaceful Day",
+          "fileStem": "today-is-another-peaceful-day",
+          "path": "Prydwen/hsr/assets/light-cones/today-is-another-peaceful-day-1975a2492785.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "ab251a923606",
+          "sourceHash": "ab251a923606",
+          "kind": "light-cones",
+          "name": "The Seriousness of Breakfast",
+          "fileStem": "the-seriousness-of-breakfast",
+          "path": "Prydwen/hsr/assets/light-cones/the-seriousness-of-breakfast-ab251a923606.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "7a4718b6b70e",
+          "sourceHash": "7a4718b6b70e",
+          "kind": "light-cones",
+          "name": "The Birth of the Self",
+          "fileStem": "the-birth-of-the-self",
+          "path": "Prydwen/hsr/assets/light-cones/the-birth-of-the-self-7a4718b6b70e.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-relic-sets-29",
+      "level": 2,
+      "heading": "Best Relic Sets",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 106.06%\n\n The Ashblazing Grand Duke ( 4 -PC)\n\n Best set for Pure Fiction.\n Usage: 36.35 %\n MoC: -\n PF: 0\n AS: 0\n\n 102.14%\n\n Scholar Lost in Erudition ( 4 -PC)\n\n Usage: 9.43 %\n MoC: -\n PF: 0\n AS: 0\n\n 100%\n\n Hunter of Glacial Forest ( 4 -PC)\n\n Usage: 16.87 %\n MoC: -\n PF: 27880\n AS: 0\n\n 97.96%\n\n Hunter of Glacial Forest ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Scholar Lost in Erudition\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n Pioneer Diver of Dead Waters",
+      "assets": [
+        {
+          "id": "0edbfbfc2eca",
+          "sourceHash": "0edbfbfc2eca",
+          "kind": "relics",
+          "name": "The Ashblazing Grand Duke",
+          "fileStem": "the-ashblazing-grand-duke",
+          "path": "Prydwen/hsr/assets/relics/the-ashblazing-grand-duke-0edbfbfc2eca.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "f521b7a2ee25",
+          "sourceHash": "f521b7a2ee25",
+          "kind": "relics",
+          "name": "Scholar Lost in Erudition",
+          "fileStem": "scholar-lost-in-erudition",
+          "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "0c7e5b9d3ab7",
+          "sourceHash": "0c7e5b9d3ab7",
+          "kind": "relics",
+          "name": "Hunter of Glacial Forest",
+          "fileStem": "hunter-of-glacial-forest",
+          "path": "Prydwen/hsr/assets/relics/hunter-of-glacial-forest-0c7e5b9d3ab7.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "deeeca721276",
+          "sourceHash": "deeeca721276",
+          "kind": "relics",
+          "name": "Musketeer of Wild Wheat",
+          "fileStem": "musketeer-of-wild-wheat",
+          "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "507bb2127c32",
+          "sourceHash": "507bb2127c32",
+          "kind": "relics",
+          "name": "Prisoner in Deep Confinement",
+          "fileStem": "prisoner-in-deep-confinement",
+          "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "2d90f2919c5d",
+          "sourceHash": "2d90f2919c5d",
+          "kind": "relics",
+          "name": "The Wind-Soaring Valorous",
+          "fileStem": "the-wind-soaring-valorous",
+          "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "6e205de52037",
+          "sourceHash": "6e205de52037",
+          "kind": "relics",
+          "name": "Pioneer Diver of Dead Waters",
+          "fileStem": "pioneer-diver-of-dead-waters",
+          "path": "Prydwen/hsr/assets/relics/pioneer-diver-of-dead-waters-6e205de52037.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-planetary-sets-30",
+      "level": 6,
+      "heading": "Best Planetary Sets",
+      "text": "105.25%\n\n Sigonia, the Unclaimed Desolation ( 2 -PC)\n\n Assumes the effect is fully stacked.\n Usage: 20.1 %\n MoC: -\n PF: 31640\n AS: 0\n\n 102.08%\n\n Duran, Dynasty of Running Wolves ( 2 -PC)\n\n Assumes you can quickly gather all stacks.\n Usage: 10.1 %\n MoC: -\n PF: 0\n AS: 0\n\n 100%\n\n Inert Salsotto ( 2 -PC)\n\n The most universal and safest choice as you don't rely on teammates or mode to activate its effect.\n Usage: 31.54 %\n MoC: -\n PF: 27880\n AS: 0\n\n 99.50%\n\n Rutilant Arena ( 2 -PC)",
+      "assets": [
+        {
+          "id": "3e3ff5ebf5d2",
+          "sourceHash": "3e3ff5ebf5d2",
+          "kind": "relics",
+          "name": "Sigonia, the Unclaimed Desolation",
+          "fileStem": "sigonia-the-unclaimed-desolation",
+          "path": "Prydwen/hsr/assets/relics/sigonia-the-unclaimed-desolation-3e3ff5ebf5d2.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "5c3fed1223b5",
+          "sourceHash": "5c3fed1223b5",
+          "kind": "relics",
+          "name": "Duran, Dynasty of Running Wolves",
+          "fileStem": "duran-dynasty-of-running-wolves",
+          "path": "Prydwen/hsr/assets/relics/duran-dynasty-of-running-wolves-5c3fed1223b5.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "d3afe42bdcff",
+          "sourceHash": "d3afe42bdcff",
+          "kind": "relics",
+          "name": "Inert Salsotto",
+          "fileStem": "inert-salsotto",
+          "path": "Prydwen/hsr/assets/relics/inert-salsotto-d3afe42bdcff.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "0ad357f87585",
+          "sourceHash": "0ad357f87585",
+          "kind": "relics",
+          "name": "Rutilant Arena",
+          "fileStem": "rutilant-arena",
+          "path": "Prydwen/hsr/assets/relics/rutilant-arena-0ad357f87585.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-stats-32",
+      "level": 2,
+      "heading": "Best Stats",
+      "text": "Body\n CRIT Rate\n >= CRIT DMG\n\n Feet\n ATK%\n > Speed\n\n Planar Sphere\n Ice DMG\n > ATK%\n\n Link Rope\n ATK%\n\n Substats: SPD (breakpoint) = CRIT RATE = CRIT DMG > ATK%\n\n This is your typical DPS build that focuses on the holy trifecta - ATK, Crit Rate, and Crit DMG. For every 1% of Crit try to have 2% of Crit DMG.",
+      "assets": [
+        {
+          "id": "af5b8acc8f63",
+          "sourceHash": "af5b8acc8f63",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-critrate",
+          "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "44c437b21b3a",
+          "sourceHash": "44c437b21b3a",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "5a409c0b426e",
+          "sourceHash": "5a409c0b426e",
+          "kind": "icons",
+          "name": "Ice DMG",
+          "fileStem": "stat-icedmg",
+          "path": "Prydwen/hsr/assets/icons/ice-dmg-5a409c0b426e.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "recommended-endgame-stats-33",
+      "level": 2,
+      "heading": "Recommended endgame stats",
+      "text": "HP: 2800 - 3000+\n\n DEF: 900 - 1100+\n\n ATK: 2000 - 2400+\n\n CRIT RATE: 65% - 70%+\n\n CRIT DMG: 130% - 150%+\n\n SPD: Base Speed (pure FUA build) / 134+",
+      "assets": []
+    },
+    {
+      "id": "traces-priority-34",
+      "level": 2,
+      "heading": "Traces priority",
+      "text": "Skills priority: Skill = Talent > Ultimate > Basic\n\n Major Traces priority: Efficiency (A2) > Icing (A6) > Puppet (A4)",
+      "assets": []
+    },
+    {
+      "id": "synergy-35",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "The Herta - Mini Herta\" is a reasonable alternative to Jade for The Herta in modes that feature weak and or respawnable enemies for her to trigger her Follow-Up talent against such as Pure Fiction. Unfortunately Mini Herta's follow-up's only count once for the purpose of The Herta's stacks and Energy generation no matter how many times she spins back to back, making her mostly suitable for Pure Fiction or for those without other erudition options.\n Robin - Herta’s Follow-Up Attacks are very consistent with lots of enemies, however not having a secondary DPS in the party can make them hard to trigger. Robin alleviates this problem by giving a bunch of extra damage whenever anyone attacks, even your Supporters will now be able to trigger Herta’s Follow-Up Attack and allow her to chain them.\n Himeko - Solely for Pure Fiction or AoE based content in general, Himeko is able to chain her own Follow-Up Attacks into triggering Herta’s Follow-Up Attacks, who may retrigger Himeko’s in turn, resulting into an endless loop of Follow-Up Attacks.",
+      "assets": [
+        {
+          "id": "fecc96b9e5e6",
+          "sourceHash": "fecc96b9e5e6",
+          "kind": "characters",
+          "name": "The Herta",
+          "fileStem": "the-herta-icon",
+          "path": "Prydwen/hsr/assets/characters/the-herta-fecc96b9e5e6.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "e985c6a49a99",
+          "sourceHash": "e985c6a49a99",
+          "kind": "characters",
+          "name": "Robin",
+          "fileStem": "robin-icon",
+          "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "589a6cfaa6d4",
+          "sourceHash": "589a6cfaa6d4",
+          "kind": "characters",
+          "name": "Himeko",
+          "fileStem": "himeko-icon",
+          "path": "Prydwen/hsr/assets/characters/himeko-589a6cfaa6d4.webp",
+          "width": 45,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "id": "anomaly-arbitration-40",
+      "level": 6,
+      "heading": "Anomaly Arbitration",
+      "text": "Rank 400\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 6.67\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 9\n\n New\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 10\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 10",
+      "assets": [
+        {
+          "id": "fecc96b9e5e6",
+          "sourceHash": "fecc96b9e5e6",
+          "kind": "characters",
+          "name": "The Herta",
+          "fileStem": "the-herta-icon",
+          "path": "Prydwen/hsr/assets/characters/the-herta-fecc96b9e5e6.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7d36eb39792a",
+          "sourceHash": "7d36eb39792a",
+          "kind": "icons",
+          "name": "Ice",
+          "fileStem": "ele-ice",
+          "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "3c36b1a09c1c",
+          "sourceHash": "3c36b1a09c1c",
+          "kind": "characters",
+          "name": "Herta",
+          "fileStem": "herta-icon",
+          "path": "Prydwen/hsr/assets/characters/herta-3c36b1a09c1c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "2cde7699adbf",
+          "sourceHash": "2cde7699adbf",
+          "kind": "characters",
+          "name": "Tribbie",
+          "fileStem": "tribbie-icon",
+          "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "565914d1a436",
+          "sourceHash": "565914d1a436",
+          "kind": "icons",
+          "name": "Quantum",
+          "fileStem": "ele-quantum",
+          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "714348f14d48",
+          "sourceHash": "714348f14d48",
+          "kind": "characters",
+          "name": "Dan Heng • Permansor Terrae",
+          "fileStem": "dan-heng-permansor-terrae-icon",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0db16ed6c66",
+          "sourceHash": "e0db16ed6c66",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "ele-physical",
+          "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "99361e4717fa",
+          "sourceHash": "99361e4717fa",
+          "kind": "characters",
+          "name": "Mortenax Blade",
+          "fileStem": "blade-mortenax-icon",
+          "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "92feb26d8f0e",
+          "sourceHash": "92feb26d8f0e",
+          "kind": "icons",
+          "name": "Fire",
+          "fileStem": "ele-fire",
+          "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "1d90270b2b4b",
+          "sourceHash": "1d90270b2b4b",
+          "kind": "characters",
+          "name": "Hyacine",
+          "fileStem": "hyacine-icon",
+          "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ee11bd390c9a",
+          "sourceHash": "ee11bd390c9a",
+          "kind": "icons",
+          "name": "Wind",
+          "fileStem": "ele-wind",
+          "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "da99d2d9a505",
+          "sourceHash": "da99d2d9a505",
+          "kind": "characters",
+          "name": "Sparkle",
+          "fileStem": "sparkle-icon",
+          "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "c4a9c00e98ef",
+          "sourceHash": "c4a9c00e98ef",
+          "kind": "characters",
+          "name": "Huohuo",
+          "fileStem": "huohuo-icon",
+          "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "video-guides-41",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "MoC/PF/AS Statistics",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-light-cones": {
+      "label": "Best Light Cones",
+      "sections": [
+        {
+          "heading": "Best Light Cones",
+          "text": "107.38%\n\n Before Dawn (S 1 )\n\n Usage: 16.74 %\n MoC: -\n PF: 31640\n AS: 0\n\n 108.52%\n\n Night on the Milky Way (S 1 )\n\n For Pure Fiction only.\n Usage: 22.89 %\n MoC: -\n PF: 0\n AS: 0\n\n 100%\n\n Geniuses' Repose (S 5 )\n\n 97.88%\n\n Eternal Calculus (S 5 )\n\n For Pure Fiction only.\n Usage: 12.1 %\n MoC: -\n PF: 31640\n AS: 0\n\n 95.20%\n\n Today Is Another Peaceful Day (S 5 )\n\n 92.38%\n\n The Seriousness of Breakfast (S 5 )\n\n Usage: 2.01 %\n MoC: -\n PF: 0\n AS: 0\n\n 83.55%\n\n The Birth of the Self (S 5 )\n\n Usage: 25.51 %\n MoC: -\n PF: 24120\n AS: 0\n\n Herta Relic and Light Cone calculations are based on fighting against 3 targets.",
+          "assets": [
+            {
+              "id": "efdffaadc6e8",
+              "sourceHash": "efdffaadc6e8",
+              "kind": "light-cones",
+              "name": "Before Dawn",
+              "fileStem": "before-dawn",
+              "path": "Prydwen/hsr/assets/light-cones/before-dawn-efdffaadc6e8.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "9c79bc4da5e8",
+              "sourceHash": "9c79bc4da5e8",
+              "kind": "light-cones",
+              "name": "Night on the Milky Way",
+              "fileStem": "night-on-the-milky-way",
+              "path": "Prydwen/hsr/assets/light-cones/night-on-the-milky-way-9c79bc4da5e8.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "91e57edd022e",
+              "sourceHash": "91e57edd022e",
+              "kind": "light-cones",
+              "name": "Geniuses' Repose",
+              "fileStem": "geniuses-repose",
+              "path": "Prydwen/hsr/assets/light-cones/geniuses-repose-91e57edd022e.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "12fd19dd3045",
+              "sourceHash": "12fd19dd3045",
+              "kind": "light-cones",
+              "name": "Eternal Calculus",
+              "fileStem": "eternal-calculus",
+              "path": "Prydwen/hsr/assets/light-cones/eternal-calculus-12fd19dd3045.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "1975a2492785",
+              "sourceHash": "1975a2492785",
+              "kind": "light-cones",
+              "name": "Today Is Another Peaceful Day",
+              "fileStem": "today-is-another-peaceful-day",
+              "path": "Prydwen/hsr/assets/light-cones/today-is-another-peaceful-day-1975a2492785.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "ab251a923606",
+              "sourceHash": "ab251a923606",
+              "kind": "light-cones",
+              "name": "The Seriousness of Breakfast",
+              "fileStem": "the-seriousness-of-breakfast",
+              "path": "Prydwen/hsr/assets/light-cones/the-seriousness-of-breakfast-ab251a923606.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "7a4718b6b70e",
+              "sourceHash": "7a4718b6b70e",
+              "kind": "light-cones",
+              "name": "The Birth of the Self",
+              "fileStem": "the-birth-of-the-self",
+              "path": "Prydwen/hsr/assets/light-cones/the-birth-of-the-self-7a4718b6b70e.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-relic-sets": {
+      "label": "Best Relic Sets",
+      "sections": [
+        {
+          "heading": "Best Relic Sets",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 106.06%\n\n The Ashblazing Grand Duke ( 4 -PC)\n\n Best set for Pure Fiction.\n Usage: 36.35 %\n MoC: -\n PF: 0\n AS: 0\n\n 102.14%\n\n Scholar Lost in Erudition ( 4 -PC)\n\n Usage: 9.43 %\n MoC: -\n PF: 0\n AS: 0\n\n 100%\n\n Hunter of Glacial Forest ( 4 -PC)\n\n Usage: 16.87 %\n MoC: -\n PF: 27880\n AS: 0\n\n 97.96%\n\n Hunter of Glacial Forest ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Scholar Lost in Erudition\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n Pioneer Diver of Dead Waters",
+          "assets": [
+            {
+              "id": "0edbfbfc2eca",
+              "sourceHash": "0edbfbfc2eca",
+              "kind": "relics",
+              "name": "The Ashblazing Grand Duke",
+              "fileStem": "the-ashblazing-grand-duke",
+              "path": "Prydwen/hsr/assets/relics/the-ashblazing-grand-duke-0edbfbfc2eca.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "f521b7a2ee25",
+              "sourceHash": "f521b7a2ee25",
+              "kind": "relics",
+              "name": "Scholar Lost in Erudition",
+              "fileStem": "scholar-lost-in-erudition",
+              "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "0c7e5b9d3ab7",
+              "sourceHash": "0c7e5b9d3ab7",
+              "kind": "relics",
+              "name": "Hunter of Glacial Forest",
+              "fileStem": "hunter-of-glacial-forest",
+              "path": "Prydwen/hsr/assets/relics/hunter-of-glacial-forest-0c7e5b9d3ab7.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "deeeca721276",
+              "sourceHash": "deeeca721276",
+              "kind": "relics",
+              "name": "Musketeer of Wild Wheat",
+              "fileStem": "musketeer-of-wild-wheat",
+              "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "507bb2127c32",
+              "sourceHash": "507bb2127c32",
+              "kind": "relics",
+              "name": "Prisoner in Deep Confinement",
+              "fileStem": "prisoner-in-deep-confinement",
+              "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "2d90f2919c5d",
+              "sourceHash": "2d90f2919c5d",
+              "kind": "relics",
+              "name": "The Wind-Soaring Valorous",
+              "fileStem": "the-wind-soaring-valorous",
+              "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "6e205de52037",
+              "sourceHash": "6e205de52037",
+              "kind": "relics",
+              "name": "Pioneer Diver of Dead Waters",
+              "fileStem": "pioneer-diver-of-dead-waters",
+              "path": "Prydwen/hsr/assets/relics/pioneer-diver-of-dead-waters-6e205de52037.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-planetary-sets": {
+      "label": "Best Planetary Sets",
+      "sections": [
+        {
+          "heading": "Best Planetary Sets",
+          "text": "105.25%\n\n Sigonia, the Unclaimed Desolation ( 2 -PC)\n\n Assumes the effect is fully stacked.\n Usage: 20.1 %\n MoC: -\n PF: 31640\n AS: 0\n\n 102.08%\n\n Duran, Dynasty of Running Wolves ( 2 -PC)\n\n Assumes you can quickly gather all stacks.\n Usage: 10.1 %\n MoC: -\n PF: 0\n AS: 0\n\n 100%\n\n Inert Salsotto ( 2 -PC)\n\n The most universal and safest choice as you don't rely on teammates or mode to activate its effect.\n Usage: 31.54 %\n MoC: -\n PF: 27880\n AS: 0\n\n 99.50%\n\n Rutilant Arena ( 2 -PC)",
+          "assets": [
+            {
+              "id": "3e3ff5ebf5d2",
+              "sourceHash": "3e3ff5ebf5d2",
+              "kind": "relics",
+              "name": "Sigonia, the Unclaimed Desolation",
+              "fileStem": "sigonia-the-unclaimed-desolation",
+              "path": "Prydwen/hsr/assets/relics/sigonia-the-unclaimed-desolation-3e3ff5ebf5d2.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "5c3fed1223b5",
+              "sourceHash": "5c3fed1223b5",
+              "kind": "relics",
+              "name": "Duran, Dynasty of Running Wolves",
+              "fileStem": "duran-dynasty-of-running-wolves",
+              "path": "Prydwen/hsr/assets/relics/duran-dynasty-of-running-wolves-5c3fed1223b5.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "d3afe42bdcff",
+              "sourceHash": "d3afe42bdcff",
+              "kind": "relics",
+              "name": "Inert Salsotto",
+              "fileStem": "inert-salsotto",
+              "path": "Prydwen/hsr/assets/relics/inert-salsotto-d3afe42bdcff.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "0ad357f87585",
+              "sourceHash": "0ad357f87585",
+              "kind": "relics",
+              "name": "Rutilant Arena",
+              "fileStem": "rutilant-arena",
+              "path": "Prydwen/hsr/assets/relics/rutilant-arena-0ad357f87585.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-stats": {
+      "label": "Best Stats",
+      "sections": [
+        {
+          "heading": "Best Stats",
+          "text": "Body\n CRIT Rate\n >= CRIT DMG\n\n Feet\n ATK%\n > Speed\n\n Planar Sphere\n Ice DMG\n > ATK%\n\n Link Rope\n ATK%\n\n Substats: SPD (breakpoint) = CRIT RATE = CRIT DMG > ATK%\n\n This is your typical DPS build that focuses on the holy trifecta - ATK, Crit Rate, and Crit DMG. For every 1% of Crit try to have 2% of Crit DMG.",
+          "assets": [
+            {
+              "id": "af5b8acc8f63",
+              "sourceHash": "af5b8acc8f63",
+              "kind": "icons",
+              "name": "CRIT Rate",
+              "fileStem": "stat-critrate",
+              "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "44c437b21b3a",
+              "sourceHash": "44c437b21b3a",
+              "kind": "icons",
+              "name": "CRIT DMG",
+              "fileStem": "stat-critdmg",
+              "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "dc6aec4a7776",
+              "sourceHash": "dc6aec4a7776",
+              "kind": "icons",
+              "name": "ATK",
+              "fileStem": "stat-atk",
+              "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "087f2dec68b6",
+              "sourceHash": "087f2dec68b6",
+              "kind": "icons",
+              "name": "Speed",
+              "fileStem": "stat-speed",
+              "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "5a409c0b426e",
+              "sourceHash": "5a409c0b426e",
+              "kind": "icons",
+              "name": "Ice DMG",
+              "fileStem": "stat-icedmg",
+              "path": "Prydwen/hsr/assets/icons/ice-dmg-5a409c0b426e.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        }
+      ]
+    },
+    "recommended-endgame-stats": {
+      "label": "Recommended endgame stats",
+      "sections": [
+        {
+          "heading": "Recommended endgame stats",
+          "text": "HP: 2800 - 3000+\n\n DEF: 900 - 1100+\n\n ATK: 2000 - 2400+\n\n CRIT RATE: 65% - 70%+\n\n CRIT DMG: 130% - 150%+\n\n SPD: Base Speed (pure FUA build) / 134+",
+          "assets": []
+        }
+      ]
+    },
+    "traces-priority": {
+      "label": "Traces priority",
+      "sections": [
+        {
+          "heading": "Traces priority",
+          "text": "Skills priority: Skill = Talent > Ultimate > Basic\n\n Major Traces priority: Efficiency (A2) > Icing (A6) > Puppet (A4)",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "The Herta - Mini Herta\" is a reasonable alternative to Jade for The Herta in modes that feature weak and or respawnable enemies for her to trigger her Follow-Up talent against such as Pure Fiction. Unfortunately Mini Herta's follow-up's only count once for the purpose of The Herta's stacks and Energy generation no matter how many times she spins back to back, making her mostly suitable for Pure Fiction or for those without other erudition options.\n Robin - Herta’s Follow-Up Attacks are very consistent with lots of enemies, however not having a secondary DPS in the party can make them hard to trigger. Robin alleviates this problem by giving a bunch of extra damage whenever anyone attacks, even your Supporters will now be able to trigger Herta’s Follow-Up Attack and allow her to chain them.\n Himeko - Solely for Pure Fiction or AoE based content in general, Himeko is able to chain her own Follow-Up Attacks into triggering Herta’s Follow-Up Attacks, who may retrigger Himeko’s in turn, resulting into an endless loop of Follow-Up Attacks.",
+          "assets": [
+            {
+              "id": "fecc96b9e5e6",
+              "sourceHash": "fecc96b9e5e6",
+              "kind": "characters",
+              "name": "The Herta",
+              "fileStem": "the-herta-icon",
+              "path": "Prydwen/hsr/assets/characters/the-herta-fecc96b9e5e6.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "e985c6a49a99",
+              "sourceHash": "e985c6a49a99",
+              "kind": "characters",
+              "name": "Robin",
+              "fileStem": "robin-icon",
+              "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "589a6cfaa6d4",
+              "sourceHash": "589a6cfaa6d4",
+              "kind": "characters",
+              "name": "Himeko",
+              "fileStem": "himeko-icon",
+              "path": "Prydwen/hsr/assets/characters/himeko-589a6cfaa6d4.webp",
+              "width": 45,
+              "height": 45
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Herta Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Herta\n Herta Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Herta from HSR (Honkai: Star Rail). Herta is a 4 ★ character from the Ice element who follows the Path of Erudition .\n Herta Space Station's true master. As the human with the highest IQ in The Blue, she only does what she's interested in, dropping whatever project immediately the moment she loses interest — the best example being the space station.\n She typically appears in the form of a ranged puppet. \"It's about seventy percent similar to how I looked as a child.\" — Herta\n\n To learn more about Herta check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Herta has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 3.0\n\n Last major build/calcs update\n Patch 4.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Herta check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n What Are You Looking At?\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Ice DMG equal to #1[i]% of Herta's ATK to a single enemy.\n\n Skill\n One-Time Offer\n AoE\n\n Lv. 1\n\n Energy gain: 30\n Break: 10\n\n Deals Ice DMG equal to #1[i]% of Herta's ATK to all enemies. If the enemy's HP percentage is #2[i]% or higher, DMG dealt to this target increases by #3[i]%.\n\n Ultimate\n It's Magic, I Added Some Magic\n AoE | 110 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Deals Ice DMG equal to #1[i]% of Herta's ATK to all enemies.\n\n Talent\n Fine, I'll Do It Myself\n AoE\n\n Lv. 1\n\n Energy gain: 5\n Break: 5\n\n When an ally's attack causes an enemy's HP percentage to fall to #1[i]% or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to #2[i]% of Herta's ATK to all enemies.\n\n Technique\n It Can Still Be Optimized\n Enhance\n\n Energy gain: 0\n Break: -\n\n After using her Technique, Herta's ATK increases by #1[i]% for #2[i] turn(s) at the beginning of the next battle.\n\n Major Traces\n A2 Major trace\n Efficiency\n\n When Skill is used, the DMG Boost effect on target enemies increases by an extra 25% .\n\n A4 Major trace\n Puppet\n\n The chance to resist Crowd Control Debuffs increases by 35% .\n\n A6 Major trace\n Icing\n\n When Ultimate is used, deals 20% more DMG to Frozen enemies.\n\n Minor Traces (total)\n Ice DMG\n + 22.4%\n\n DEF\n + 22.5%\n\n CRIT Rate\n + 6.7%\n\n Eidolons\n E 1\n Kick You When You're Down\n Eidolon 1\n\n If the enemy's HP percentage is at 50% or less, Herta's Basic ATK deals Additional Ice DMG equal to 40% of Herta's ATK.\n\n E 2\n Keep the Ball Rolling\n Eidolon 2\n\n Every time Talent is triggered, this character's CRIT Rate increases by 3% . This effect can stack up to 5 time(s).\n\n E 3\n That's the Kind of Girl I Am\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15 . Basic ATK Lv. + 1 , up to a maximum of Lv. 10 .\n\n E 4\n Hit Where it Hurts\n Eidolon 4\n\n When Talent is triggered, DMG increases by 10% .\n\n E 5\n Cuss Big or Cuss Nothing\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15 . Talent Lv. +2 , up to a maximum of Lv. 15 .\n\n E 6\n No One Can Betray Me\n Eidolon 6\n\n After using Ultimate, this character's ATK increases by 25% for 1 turn(s).\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 952\n\n ATK\n\n 582\n\n DEF\n\n 396\n\n Speed\n\n 100\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 246400\n\n Extinguished Core\n\n x 12\n\n Glimmering Core\n\n x 13\n\n Horn of Snow\n\n x 50\n\n Squirming Core\n\n x 12\n\n CV\n ENG\n PJ Mattson\n\n JPN\n Yamazaki Haruka (山崎はるか)\n\n CN\n Hou Xiaofei (侯小菲)\n\n KR\n Kim Seo-yeong (김서영)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Destroys in AoE content, having a good time even if there’s only 2-3 enemies,\n\n Large amounts of Toughness damage,\n\n Good in dual carry setups thanks to her Talent follow-ups,\n\n Gets Eidolons for free.\n\n Cons\n Dismal in true single-target scenarios,\n\n Low Toughness damage without enemies to get spins from,\n\n Low Base stats,\n\n Very late bloomer with uneven progression.\n\n Review (By Sushou)\n Herta is an AoE specialist character capable of dishing out surprisingly high damage against multiple combatants consistently . She has a low-cost Ultimate and can very quickly regain Energy thanks to her Talent’s follow-up attacks. She struggles significantly when there is only one enemy on the field, but can pivot to being SP-positive in dual-carry setups when that happens. Many of her Eidolons are also freely available courtesy of the rewards from the Simulated Universe.\n Well, well, well, how the turns table. Herta may still be scorned by many for being underwhelming in single-target scenarios, but she’s certainly started making a compelling case for using her in the now numerous multi-target combat encounters we’ve been getting steadily more accustomed to - especially in Pure Fiction where she's one of the best characters in the game.\n Herta’s Skill hits all enemies on the field for up to 100% of her ATK. If the enemies’ HP is 50% or higher, this attack also deals 20% increased DMG to said targets. A simple Skill but one that is quite efficient in those multi-target situations. The increased DMG% is also appreciated and helps to get enemies down to the necessary HP thresholds to activate Herta’s Talent.\n Her Talent will cause Herta to do her signature follow-up spin attack whenever an ally’s attack reduces an enemy’s HP to 50% or below. She’ll deal up to 40% ATK to all enemies. A paltry amount initially, but this is per spin , and if multiple enemies’ HP falls below 50%, Herta will do an equivalent amount of spins. This is even dynamically updated, so if the first follow-up attack reduces a second enemy’s HP to below 50%, Herta will automatically perform a second spin within the same follow-up. Herta will also get these spins even if the target dies beforehand.\n This means that it’s possible for Herta to get 5 consecutive spins off in a single follow-up attack if 5 enemies fall below 50% either before the first spin or within the follow-up attack window. If this happens, Herta is doing 40% ATK damage to 5 enemies, meaning it’s essentially a 200% ATK total… 5 times. It’s weird to think that Herta’s follow-up can deal an equivalent 1000% ATK damage to 5 targets, but it really is that much, and it can be very visible if your Herta is actually well invested.\n Important to note as well that each individual spin will also give Herta back 5 Energy, meaning multiple spins can very easily give a huge amount of Energy back for her Ultimate. Each spin will also deal its own instance of Toughness damage, meaning that a fully spun Herta will deal 75 Toughness damage to all enemies on the field, potentially.\n Herta’s Ultimate deals 200% ATK to all enemies. It deals increased Toughness damage as well, and has a below average Energy cost of 110. Since it is quite likely that Herta will be killing off smaller enemies with her wide ranging attacks, she’ll be getting plenty of Energy from the kills as well as plenty more from her Talent’s follow-up attacks.\n Herta is an archetypal Erudition unit in this game. She is perfectly tailored to AoE combat and does a really good job at it. Unfortunately, when it comes to single-target combat, the differences are extremely stark. Without the potential to combo into her Talent, her damage will suffer tremendously. Worse still is that while her Talent has the potential to deal a huge chunk of damage, it’s a one-time deal; once an enemy is below 50% HP, it’s extremely rare for them to be able to recover that lost health unless they’re a boss type enemy.\n It’s complicated. In the event that a strong Elite or Boss is facing you by themselves, Herta will offer virtually nothing in that encounter. If she’s your only damage dealer in that fight, then she will quite literally be near useless. However this starts to get flipped if said Elite or Boss is capable of summoning reinforcements. Now , if there are plenty of smaller foes for Herta to decimate and proc her Talent off of, the incidental damage from her follow-up spins can end up making up a large portion of the damage she would otherwise be missing, and then contributing to higher Ultimate uptime in the process.\n From this you should be able to see that Herta is quite a feast-or-famine type of unit. If the conditions are met for her to excel, she will do so handily, but otherwise can fall to the wayside. Now that there is a much higher prevalence of enemies that can summon reinforcements repeatedly, Herta can actually be brought into fights that she has absolutely no business being in usually, such as against the IPC Team Leader Elite, or better yet, the True Sting. Yeah, she has a very good time against those damned bugs if you’ve invested in her.\n The pervasive question then is ‘should you invest in Herta’ and that can seem tricky to answer initially. I say ‘initially’ because a great many people seem to claim they do not have an Ice damage dealer, which is odd since Herta most definitely exists and is given to everyone unconditionally. Returns on investment may not appear as obviously as for other flashier characters, especially 5-stars, but they most definitely do come about - she will carry one side for you in every Pure Fiction phase from not till forever (or until they drastically change what the mode is about).\n Herta’s A2 increases the DMG boost of her Skill by an extra 25% when used against high HP targets, for a new total of 45%. This is a very noticeable bump to damage, especially as it can contribute to pushing enemies below 50% HP for her Talent follow-up or sometimes just outright killing smaller foes. A4 provides a 35% chance to resist Crowd Control, a small but welcome addition to ensure that Herta is more frequently ready to perform a follow-up after an ally’s attack, though this usually comes into play more in dual carry setups. A6 will allow her Ultimate to deal 20% increased DMG to Frozen enemies, something that actually comes up a fair bit if there are enough enemies for a lot of follow-ups due to the increased Toughness damage output.\n Herta is not only a freely accessible character but one who also gains Eidolons for free as well. Everyone is able to get Herta and her dupes from completing worlds in the Simulated Universe. As such, she’s evaluated with this in mind.\n E1 gives extra functionality to her Basic ATK. When attacking enemies below 50% HP, she will deal an extra 40% ATK as damage, for a new total of 140%. This is a pretty big deal in terms of Basic ATKs as it deals increased damage while still recovering a Skill Point, though this is usually not as big of a deal outside of dual carry setups, and is not enough to offset her weaknesses in single-target combat. E2 provides a permanent CRIT Rate boost of 3% every time her Talent is triggered up to a max of 5 stacks. 15% free CRIT Rate for just doing what you were going to be doing is a very impressive bonus for anyone, especially for Herta in those multi-target encounters where it’s easy to stack up.\n E4 increases the Talent follow-up DMG by 10%, and E6 will increase Herta’s ATK by 25% for 1 turn after using her Ultimate. E3 and E5 are actually significant to her as they increase ability levels and can have a very noticeable impact due to her AoE-heavy nature; her Skill goes to 110% ATK per enemy, and her Talent goes to 43% per enemy.\n Really, the other big downside of Herta besides her fumbling in single-target combat is that her Base stats are really low. Her Base ATK is on the lower end when it comes to damage dealers, and her DEF and HP are much the same, making her quite a frail unit.\n Even still, she is capable of decimating swathes of enemies if put in the right spot and if the player actually invests in her. I’ve said that multiple times because it’s absolutely true. It’s a very uneven progression, I will admit. It’ll seem like nothing’s improving until suddenly ‘oh hey, my Herta is doing damage now’. Please trust me that that point does definitely exist. You can look up videos of Herta wrecking Pure Fiction if you need more proof.\n With the release of The Herta, the smaller Herta gained another team-building option that now allows her to shine outside of Pure Fiction and somehow be even STRONGER in that mode. With the way The Herta works, you want to pair her with a second Erudition unit that attacks frequently and Herta fills the criteria. So nothing stops you from playing both Hertas in the same team to easily clear all content.\n I’ve been using Herta since the beginning and I’ve not done her justice, especially in the first iteration of this review. Especially after my initial lapses concerning Qingque, I’m making it a point to do due diligence, and I can safely say that Herta is worth your while, especially if you’re lacking another Ice damage dealer.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Support DPS\n Eidolon 0\n T3\n MoC\n\n T0.5\n PF\n\n T2\n AS\n\n Eidolon 6\n T3\n MoC\n\n T0.5\n PF\n\n T2\n AS\n\n Build and teams\n\n Herta Relic and Light Cone calculations are based on fighting against 3 targets.\n\n Best Light Cones\n\n 107.38%\n\n Before Dawn (S 1 )\n\n Usage: 16.74 %\n MoC: -\n PF: 31640\n AS: 0\n\n 108.52%\n\n Night on the Milky Way (S 1 )\n\n For Pure Fiction only.\n Usage: 22.89 %\n MoC: -\n PF: 0\n AS: 0\n\n 100%\n\n Geniuses' Repose (S 5 )\n\n 97.88%\n\n Eternal Calculus (S 5 )\n\n For Pure Fiction only.\n Usage: 12.1 %\n MoC: -\n PF: 31640\n AS: 0\n\n 95.20%\n\n Today Is Another Peaceful Day (S 5 )\n\n 92.38%\n\n The Seriousness of Breakfast (S 5 )\n\n Usage: 2.01 %\n MoC: -\n PF: 0\n AS: 0\n\n 83.55%\n\n The Birth of the Self (S 5 )\n\n Usage: 25.51 %\n MoC: -\n PF: 24120\n AS: 0\n\n Herta Relic and Light Cone calculations are based on fighting against 3 targets.\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 106.06%\n\n The Ashblazing Grand Duke ( 4 -PC)\n\n Best set for Pure Fiction.\n Usage: 36.35 %\n MoC: -\n PF: 0\n AS: 0\n\n 102.14%\n\n Scholar Lost in Erudition ( 4 -PC)\n\n Usage: 9.43 %\n MoC: -\n PF: 0\n AS: 0\n\n 100%\n\n Hunter of Glacial Forest ( 4 -PC)\n\n Usage: 16.87 %\n MoC: -\n PF: 27880\n AS: 0\n\n 97.96%\n\n Hunter of Glacial Forest ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Scholar Lost in Erudition\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n Pioneer Diver of Dead Waters\n\n Best Planetary Sets\n 105.25%\n\n Sigonia, the Unclaimed Desolation ( 2 -PC)\n\n Assumes the effect is fully stacked.\n Usage: 20.1 %\n MoC: -\n PF: 31640\n AS: 0\n\n 102.08%\n\n Duran, Dynasty of Running Wolves ( 2 -PC)\n\n Assumes you can quickly gather all stacks.\n Usage: 10.1 %\n MoC: -\n PF: 0\n AS: 0\n\n 100%\n\n Inert Salsotto ( 2 -PC)\n\n The most universal and safest choice as you don't rely on teammates or mode to activate its effect.\n Usage: 31.54 %\n MoC: -\n PF: 27880\n AS: 0\n\n 99.50%\n\n Rutilant Arena ( 2 -PC)\n\n Best Stats\n\n Body\n CRIT Rate\n >= CRIT DMG\n\n Feet\n ATK%\n > Speed\n\n Planar Sphere\n Ice DMG\n > ATK%\n\n Link Rope\n ATK%\n\n Substats: SPD (breakpoint) = CRIT RATE = CRIT DMG > ATK%\n\n This is your typical DPS build that focuses on the holy trifecta - ATK, Crit Rate, and Crit DMG. For every 1% of Crit try to have 2% of Crit DMG.\n\n Recommended endgame stats\n HP: 2800 - 3000+\n\n DEF: 900 - 1100+\n\n ATK: 2000 - 2400+\n\n CRIT RATE: 65% - 70%+\n\n CRIT DMG: 130% - 150%+\n\n SPD: Base Speed (pure FUA build) / 134+\n\n Traces priority\n Skills priority: Skill = Talent > Ultimate > Basic\n\n Major Traces priority: Efficiency (A2) > Icing (A6) > Puppet (A4)\n\n Synergy\n The Herta - Mini Herta\" is a reasonable alternative to Jade for The Herta in modes that feature weak and or respawnable enemies for her to trigger her Follow-Up talent against such as Pure Fiction. Unfortunately Mini Herta's follow-up's only count once for the purpose of The Herta's stacks and Energy generation no matter how many times she spins back to back, making her mostly suitable for Pure Fiction or for those without other erudition options.\n Robin - Herta’s Follow-Up Attacks are very consistent with lots of enemies, however not having a secondary DPS in the party can make them hard to trigger. Robin alleviates this problem by giving a bunch of extra damage whenever anyone attacks, even your Supporters will now be able to trigger Herta’s Follow-Up Attack and allow her to chain them.\n Himeko - Solely for Pure Fiction or AoE based content in general, Himeko is able to chain her own Follow-Up Attacks into triggering Herta’s Follow-Up Attacks, who may retrigger Himeko’s in turn, resulting into an endless loop of Follow-Up Attacks.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 400\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 6.67\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 9\n\n New\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 10\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 10\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

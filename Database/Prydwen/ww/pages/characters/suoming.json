@@ -1,0 +1,250 @@
+{
+  "id": "characters:suoming",
+  "provider": "Prydwen",
+  "game": "ww",
+  "gameName": "Wuthering Waves",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "suoming",
+  "name": "Suoming",
+  "title": "Suoming Best Build Guide",
+  "sourcePath": "/wuthering-waves/characters/suoming",
+  "contentStatus": "beta",
+  "statusLabels": [
+    "3.x"
+  ],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "15/June/2026",
+  "meta": {
+    "title": "Suoming Best Build Guide | Wuthering Waves (WuWa)",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Unknown",
+    "weapon": "Unknown"
+  },
+  "assets": [
+    {
+      "id": "21bccf295a95",
+      "sourceHash": "21bccf295a95",
+      "kind": "characters",
+      "name": "Suoming",
+      "fileStem": "suoming-card",
+      "path": "Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
+      "width": 210,
+      "height": 280
+    },
+    {
+      "id": "bb9eb3850344",
+      "sourceHash": "bb9eb3850344",
+      "kind": "characters",
+      "name": "Suoming",
+      "fileStem": "suoming-full",
+      "path": "Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp",
+      "width": 600,
+      "height": 750
+    }
+  ],
+  "sections": [
+    {
+      "id": "suoming-best-build-guide-0",
+      "level": 1,
+      "heading": "Suoming Best Build Guide",
+      "text": "Last updated: 15/June/2026",
+      "assets": [
+        {
+          "id": "21bccf295a95",
+          "sourceHash": "21bccf295a95",
+          "kind": "characters",
+          "name": "Suoming",
+          "fileStem": "suoming-card",
+          "path": "Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
+          "width": 210,
+          "height": 280
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Suoming from WW (Wuthering Waves). Suoming is a 5 ★ rarity character from the Unknown element who uses the Unknown type weapon.\n\n To learn more about Suoming check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "This character has no video guide yet.\n\n To learn more about Suoming check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": []
+    },
+    {
+      "id": "calculations-7",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-8",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Suoming skills aren't available yet. They will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "resonance-chain-dupes-9",
+      "level": 2,
+      "heading": "Resonance Chain (Dupes)",
+      "text": "Suoming dupes information aren't available yet. They will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "minor-fortes-total-10",
+      "level": 2,
+      "heading": "Minor Fortes (Total)",
+      "text": "Suoming Minor Fortes information aren't available yet.",
+      "assets": []
+    },
+    {
+      "id": "stats-11",
+      "level": 2,
+      "heading": "Stats",
+      "text": "Suoming stats aren't available yet.",
+      "assets": []
+    },
+    {
+      "id": "upgrade-materials-12",
+      "level": 2,
+      "heading": "Upgrade Materials",
+      "text": "Suoming upgrade material information aren't available yet.",
+      "assets": []
+    },
+    {
+      "id": "voice-actors-13",
+      "level": 2,
+      "heading": "Voice Actors",
+      "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-14",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "bb9eb3850344",
+          "sourceHash": "bb9eb3850344",
+          "kind": "characters",
+          "name": "Suoming",
+          "fileStem": "suoming-full",
+          "path": "Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "ratings-15",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Suoming ratings aren't available yet.",
+      "assets": []
+    },
+    {
+      "id": "pros-cons-16",
+      "level": 2,
+      "heading": "Pros & Cons",
+      "text": "Suoming pros & cons aren't available yet.",
+      "assets": []
+    },
+    {
+      "id": "review-17",
+      "level": 2,
+      "heading": "Review",
+      "text": "Suoming mini-review isn't available yet.",
+      "assets": []
+    },
+    {
+      "id": "video-guides-18",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "Suoming guide videos aren't available yet.\n\n Build",
+      "assets": []
+    },
+    {
+      "id": "best-build-19",
+      "level": 2,
+      "heading": "Best build",
+      "text": "Suoming build information aren't available yet.\n\n Gameplay and teams",
+      "assets": []
+    },
+    {
+      "id": "rotation-20",
+      "level": 2,
+      "heading": "Rotation",
+      "text": "Suoming rotation information aren't available yet.",
+      "assets": []
+    },
+    {
+      "id": "synergies-21",
+      "level": 2,
+      "heading": "Synergies",
+      "text": "Suoming synergies are currently missing.",
+      "assets": []
+    },
+    {
+      "id": "example-teams-22",
+      "level": 2,
+      "heading": "Example Teams",
+      "text": "Suoming teams are currently missing.\n\n Calculations",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-echo-stats": {
+      "label": "Best Echo Stats",
+      "sections": [
+        {
+          "heading": "Stats",
+          "text": "Suoming stats aren't available yet.",
+          "assets": []
+        }
+      ]
+    },
+    "rotation": {
+      "label": "Rotation",
+      "sections": [
+        {
+          "heading": "Rotation",
+          "text": "Suoming rotation information aren't available yet.",
+          "assets": []
+        }
+      ]
+    },
+    "synergies": {
+      "label": "Synergies",
+      "sections": [
+        {
+          "heading": "Synergies",
+          "text": "Suoming synergies are currently missing.",
+          "assets": []
+        }
+      ]
+    },
+    "example-teams": {
+      "label": "Example Teams",
+      "sections": [
+        {
+          "heading": "Example Teams",
+          "text": "Suoming teams are currently missing.\n\n Calculations",
+          "assets": []
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Suoming Best Build Guide | Wuthering Waves (WuWa)\n \n\n Wuthering Waves\n Home Database Characters Weapons Echoes Banners\n Tier Lists Tier List Team Tier List Value Tier List\n Guides Guides\n Resources Map News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Wuthering Waves\n /\n Characters\n /\n Suoming\n Suoming Best Build Guide\n Last updated: 15/June/2026\n\n Introduction\n Best guide and build for Suoming from WW (Wuthering Waves). Suoming is a 5 ★ rarity character from the Unknown element who uses the Unknown type weapon.\n\n To learn more about Suoming check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n This character has no video guide yet.\n\n To learn more about Suoming check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Kit\n\n Review\n\n Build\n\n Gameplay and teams\n\n Calculations\n\n Profile\n\n Skills\n Suoming skills aren't available yet. They will be added soon!\n\n Resonance Chain (Dupes)\n Suoming dupes information aren't available yet. They will be added soon!\n\n Minor Fortes (Total)\n Suoming Minor Fortes information aren't available yet.\n\n Stats\n Suoming stats aren't available yet.\n\n Upgrade Materials\n Suoming upgrade material information aren't available yet.\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Suoming ratings aren't available yet.\n\n Pros & Cons\n Suoming pros & cons aren't available yet.\n\n Review\n Suoming mini-review isn't available yet.\n\n Video guides\n Suoming guide videos aren't available yet.\n\n Build\n\n Best build\n Suoming build information aren't available yet.\n\n Gameplay and teams\n\n Rotation\n Suoming rotation information aren't available yet.\n\n Synergies\n Suoming synergies are currently missing.\n\n Example Teams\n Suoming teams are currently missing.\n\n Calculations"
+}

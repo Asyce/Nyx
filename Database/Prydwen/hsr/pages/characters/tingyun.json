@@ -1,0 +1,1678 @@
+{
+  "id": "characters:tingyun",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "tingyun",
+  "name": "Tingyun",
+  "title": "Tingyun Best Build Guide",
+  "sourcePath": "/star-rail/characters/tingyun",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "31/May/2026",
+  "meta": {
+    "title": "Tingyun Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 4,
+    "element": "Lightning",
+    "path": "Harmony"
+  },
+  "assets": [
+    {
+      "id": "1a50dd52f9a7",
+      "sourceHash": "1a50dd52f9a7",
+      "kind": "characters",
+      "name": "Tingyun",
+      "fileStem": "tingyun-card",
+      "path": "Prydwen/hsr/assets/characters/tingyun-1a50dd52f9a7.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "dc6aec4a7776",
+      "sourceHash": "dc6aec4a7776",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "a6be649090ba",
+      "sourceHash": "a6be649090ba",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "4ef2b2a9e30c",
+      "sourceHash": "4ef2b2a9e30c",
+      "kind": "icons",
+      "name": "Lightning DMG",
+      "fileStem": "stat-lightningdmg",
+      "path": "Prydwen/hsr/assets/icons/lightning-dmg-4ef2b2a9e30c.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "96654253a4f7",
+      "sourceHash": "96654253a4f7",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "087f2dec68b6",
+      "sourceHash": "087f2dec68b6",
+      "kind": "icons",
+      "name": "Speed",
+      "fileStem": "stat-speed",
+      "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "50d0e755383a",
+      "sourceHash": "50d0e755383a",
+      "kind": "items",
+      "name": "Credit",
+      "fileStem": "credit",
+      "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "9ab235265d65",
+      "sourceHash": "9ab235265d65",
+      "kind": "items",
+      "name": "Immortal Scionette",
+      "fileStem": "immortal-scionette",
+      "path": "Prydwen/hsr/assets/items/immortal-scionette-9ab235265d65.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "f09bb9ca1d6d",
+      "sourceHash": "f09bb9ca1d6d",
+      "kind": "items",
+      "name": "Immortal Aeroblossom",
+      "fileStem": "immortal-aeroblossom",
+      "path": "Prydwen/hsr/assets/items/immortal-aeroblossom-f09bb9ca1d6d.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "69dae171175c",
+      "sourceHash": "69dae171175c",
+      "kind": "items",
+      "name": "Lightning Crown of the Past Shadow",
+      "fileStem": "lightning-crown-of-the-past-shadow",
+      "path": "Prydwen/hsr/assets/items/lightning-crown-of-the-past-shadow-69dae171175c.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "f2f182d18e1a",
+      "sourceHash": "f2f182d18e1a",
+      "kind": "items",
+      "name": "Immortal Lumintwig",
+      "fileStem": "immortal-lumintwig",
+      "path": "Prydwen/hsr/assets/items/immortal-lumintwig-f2f182d18e1a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "6b93ecc4e161",
+      "sourceHash": "6b93ecc4e161",
+      "kind": "characters",
+      "name": "Tingyun",
+      "fileStem": "tingyun-full",
+      "path": "Prydwen/hsr/assets/characters/tingyun-6b93ecc4e161.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "e88861d2cf9f",
+      "sourceHash": "e88861d2cf9f",
+      "kind": "light-cones",
+      "name": "A Grounded Ascent",
+      "fileStem": "a-grounded-ascent",
+      "path": "Prydwen/hsr/assets/light-cones/a-grounded-ascent-e88861d2cf9f.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "51329378b0cb",
+      "sourceHash": "51329378b0cb",
+      "kind": "light-cones",
+      "name": "Dance! Dance! Dance!",
+      "fileStem": "dance-dance-dance",
+      "path": "Prydwen/hsr/assets/light-cones/dance-dance-dance-51329378b0cb.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "77f4a1bc7d02",
+      "sourceHash": "77f4a1bc7d02",
+      "kind": "light-cones",
+      "name": "Meshing Cogs",
+      "fileStem": "meshing-cogs",
+      "path": "Prydwen/hsr/assets/light-cones/meshing-cogs-77f4a1bc7d02.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "5524dabe1c9b",
+      "sourceHash": "5524dabe1c9b",
+      "kind": "light-cones",
+      "name": "But the Battle Isn't Over",
+      "fileStem": "but-the-battle-isnt-over",
+      "path": "Prydwen/hsr/assets/light-cones/but-the-battle-isnt-over-5524dabe1c9b.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "7683c18e708c",
+      "sourceHash": "7683c18e708c",
+      "kind": "light-cones",
+      "name": "Planetary Rendezvous",
+      "fileStem": "planetary-rendezvous",
+      "path": "Prydwen/hsr/assets/light-cones/planetary-rendezvous-7683c18e708c.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "5cb190fcc346",
+      "sourceHash": "5cb190fcc346",
+      "kind": "relics",
+      "name": "Sacerdos' Relived Ordeal",
+      "fileStem": "sacerdos-relived-ordeal",
+      "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "4cb8065ad660",
+      "sourceHash": "4cb8065ad660",
+      "kind": "relics",
+      "name": "Messenger Traversing Hackerspace",
+      "fileStem": "messenger-traversing-hackerspace",
+      "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "deeeca721276",
+      "sourceHash": "deeeca721276",
+      "kind": "relics",
+      "name": "Musketeer of Wild Wheat",
+      "fileStem": "musketeer-of-wild-wheat",
+      "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "507bb2127c32",
+      "sourceHash": "507bb2127c32",
+      "kind": "relics",
+      "name": "Prisoner in Deep Confinement",
+      "fileStem": "prisoner-in-deep-confinement",
+      "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "2d90f2919c5d",
+      "sourceHash": "2d90f2919c5d",
+      "kind": "relics",
+      "name": "The Wind-Soaring Valorous",
+      "fileStem": "the-wind-soaring-valorous",
+      "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "36af28ceb2d3",
+      "sourceHash": "36af28ceb2d3",
+      "kind": "relics",
+      "name": "Eagle of Twilight Line",
+      "fileStem": "eagle-of-twilight-line",
+      "path": "Prydwen/hsr/assets/relics/eagle-of-twilight-line-36af28ceb2d3.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "bb6d718b4cb3",
+      "sourceHash": "bb6d718b4cb3",
+      "kind": "relics",
+      "name": "Sprightly Vonwacq",
+      "fileStem": "sprightly-vonwacq",
+      "path": "Prydwen/hsr/assets/relics/sprightly-vonwacq-bb6d718b4cb3.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5b886a96e17a",
+      "sourceHash": "5b886a96e17a",
+      "kind": "relics",
+      "name": "Fleet of the Ageless",
+      "fileStem": "fleet-of-the-ageless",
+      "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "3306e6f6288f",
+      "sourceHash": "3306e6f6288f",
+      "kind": "relics",
+      "name": "Broken Keel",
+      "fileStem": "broken-keel",
+      "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d6cdb5f16b16",
+      "sourceHash": "d6cdb5f16b16",
+      "kind": "relics",
+      "name": "Penacony, Land of the Dreams",
+      "fileStem": "penacony-land-of-the-dreams",
+      "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d6aae5028c5a",
+      "sourceHash": "d6aae5028c5a",
+      "kind": "relics",
+      "name": "Lushaka, the Sunken Seas",
+      "fileStem": "lushaka-the-sunken-seas",
+      "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "106ddd8eff32",
+      "sourceHash": "106ddd8eff32",
+      "kind": "icons",
+      "name": "Energy Regen",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "571b2626140d",
+      "sourceHash": "571b2626140d",
+      "kind": "characters",
+      "name": "Argenti",
+      "fileStem": "argenti-icon",
+      "path": "Prydwen/hsr/assets/characters/argenti-571b2626140d.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "941ae6e65f60",
+      "sourceHash": "941ae6e65f60",
+      "kind": "characters",
+      "name": "Yunli",
+      "fileStem": "yunli-icon",
+      "path": "Prydwen/hsr/assets/characters/yunli-941ae6e65f60.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "469e0f88e35b",
+      "sourceHash": "469e0f88e35b",
+      "kind": "characters",
+      "name": "Clara",
+      "fileStem": "clara-icon",
+      "path": "Prydwen/hsr/assets/characters/clara-469e0f88e35b.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "abea49c1784d",
+      "sourceHash": "abea49c1784d",
+      "kind": "characters",
+      "name": "Evanescia",
+      "fileStem": "evanescia-icon",
+      "path": "Prydwen/hsr/assets/characters/evanescia-abea49c1784d.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e0db16ed6c66",
+      "sourceHash": "e0db16ed6c66",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "ele-physical",
+      "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "c721ded1f2e0",
+      "sourceHash": "c721ded1f2e0",
+      "kind": "characters",
+      "name": "Trailblazer • Elation",
+      "fileStem": "trailblazer-elation-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-elation-c721ded1f2e0.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d197456869a0",
+      "sourceHash": "d197456869a0",
+      "kind": "icons",
+      "name": "Lightning",
+      "fileStem": "ele-lightning",
+      "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "4f2eb19b0697",
+      "sourceHash": "4f2eb19b0697",
+      "kind": "characters",
+      "name": "Tingyun",
+      "fileStem": "tingyun-icon",
+      "path": "Prydwen/hsr/assets/characters/tingyun-4f2eb19b0697.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "c4a9c00e98ef",
+      "sourceHash": "c4a9c00e98ef",
+      "kind": "characters",
+      "name": "Huohuo",
+      "fileStem": "huohuo-icon",
+      "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ee11bd390c9a",
+      "sourceHash": "ee11bd390c9a",
+      "kind": "icons",
+      "name": "Wind",
+      "fileStem": "ele-wind",
+      "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "bdd27122e011",
+      "sourceHash": "bdd27122e011",
+      "kind": "characters",
+      "name": "Phainon",
+      "fileStem": "phainon-icon",
+      "path": "Prydwen/hsr/assets/characters/phainon-bdd27122e011.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "da99d2d9a505",
+      "sourceHash": "da99d2d9a505",
+      "kind": "characters",
+      "name": "Sparkle",
+      "fileStem": "sparkle-icon",
+      "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "565914d1a436",
+      "sourceHash": "565914d1a436",
+      "kind": "icons",
+      "name": "Quantum",
+      "fileStem": "ele-quantum",
+      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "f380b4ccce3e",
+      "sourceHash": "f380b4ccce3e",
+      "kind": "characters",
+      "name": "Ashveil",
+      "fileStem": "ashveil-icon",
+      "path": "Prydwen/hsr/assets/characters/ashveil-f380b4ccce3e.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "99361e4717fa",
+      "sourceHash": "99361e4717fa",
+      "kind": "characters",
+      "name": "Mortenax Blade",
+      "fileStem": "blade-mortenax-icon",
+      "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "92feb26d8f0e",
+      "sourceHash": "92feb26d8f0e",
+      "kind": "icons",
+      "name": "Fire",
+      "fileStem": "ele-fire",
+      "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "1d90270b2b4b",
+      "sourceHash": "1d90270b2b4b",
+      "kind": "characters",
+      "name": "Hyacine",
+      "fileStem": "hyacine-icon",
+      "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d3e344772d55",
+      "sourceHash": "d3e344772d55",
+      "kind": "characters",
+      "name": "Trailblazer • Remembrance",
+      "fileStem": "trailblazer-remembrance-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "7d36eb39792a",
+      "sourceHash": "7d36eb39792a",
+      "kind": "icons",
+      "name": "Ice",
+      "fileStem": "ele-ice",
+      "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "60cd0853b302",
+      "sourceHash": "60cd0853b302",
+      "kind": "characters",
+      "name": "Welt",
+      "fileStem": "welt-icon",
+      "path": "Prydwen/hsr/assets/characters/welt-60cd0853b302.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "913ff64407f2",
+      "sourceHash": "913ff64407f2",
+      "kind": "icons",
+      "name": "Imaginary",
+      "fileStem": "ele-imaginary",
+      "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "965df81b835a",
+      "sourceHash": "965df81b835a",
+      "kind": "characters",
+      "name": "Yao Guang",
+      "fileStem": "yao-guang-icon",
+      "path": "Prydwen/hsr/assets/characters/yao-guang-965df81b835a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "2cde7699adbf",
+      "sourceHash": "2cde7699adbf",
+      "kind": "characters",
+      "name": "Tribbie",
+      "fileStem": "tribbie-icon",
+      "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "714348f14d48",
+      "sourceHash": "714348f14d48",
+      "kind": "characters",
+      "name": "Dan Heng • Permansor Terrae",
+      "fileStem": "dan-heng-permansor-terrae-icon",
+      "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "a7cbdc174382",
+      "sourceHash": "a7cbdc174382",
+      "kind": "characters",
+      "name": "Seele",
+      "fileStem": "seele-icon",
+      "path": "Prydwen/hsr/assets/characters/seele-a7cbdc174382.webp",
+      "width": 60,
+      "height": 60
+    }
+  ],
+  "sections": [
+    {
+      "id": "tingyun-best-build-guide-0",
+      "level": 1,
+      "heading": "Tingyun Best Build Guide",
+      "text": "Last updated: 31/May/2026",
+      "assets": [
+        {
+          "id": "1a50dd52f9a7",
+          "sourceHash": "1a50dd52f9a7",
+          "kind": "characters",
+          "name": "Tingyun",
+          "fileStem": "tingyun-card",
+          "path": "Prydwen/hsr/assets/characters/tingyun-1a50dd52f9a7.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Tingyun from HSR (Honkai: Star Rail). Tingyun is a 4 ★ character from the Lightning element who follows the Path of Harmony .\n A silver-tongued Foxian girl, Tingyun is the Head Representative of the Whistling Flames, a merchant guild officially approved by the Sky-Faring Commission. She has such a way with words that often leaves her audience eagerly waiting for more of her captivating tales. As a result of her supervision, the Xianzhou trade fairs are now known throughout the galaxy.\n \"Try one's best to avoid conflict when possible, and persuade those who can be persuaded\" — that's Tingyun's motto.\n\n To learn more about Tingyun check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Tingyun has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 2.6\n\n Last major build/calcs update\n Patch 3.4\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Tingyun check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic ATK\n Dislodged\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Tingyun deals Lightning DMG equal to #1[i]% of her ATK to a single enemy.\n\n Skill\n Soothing Melody\n Support\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Grants a single ally with Benediction to increase their ATK by #2[i]%, up to #4[i]% of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal Additional Lightning DMG equal to #1[i]% of that ally's ATK for 1 time.\nBenediction lasts for #3[i] turn(s) and is only effective on the most recent receiver of Tingyun's Skill.\n\n Ultimate\n Amidst the Rejoicing Clouds\n Support | 130 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: -\n\n Regenerates #1[i] Energy for a single ally and increases the target's DMG by #3[i]% for #2[i] turn(s).\n\n Talent\n Violet Sparknado\n Enhance\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Additional Lightning DMG equal to #1[i]% of that ally's ATK to the same enemy.\n\n Technique\n Gentle Breeze\n Support\n\n Energy gain: 0\n Break: -\n\n Tingyun immediately regenerates #1[i] Energy upon using her Technique.",
+      "assets": []
+    },
+    {
+      "id": "major-traces-10",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "A2 Major trace\n Nourished Joviality\n\n Tingyun's SPD increases by 20% for 1 turn after using Skill.\n\n A4 Major trace\n Knell Subdual\n\n Basic ATK DMG increases by 40% .\n\n A6 Major trace\n Jubilant Passage\n\n Tingyun immediately regenerates 5 Energy at the start of her turn.",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-11",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "ATK\n + 28%\n\n DEF\n + 22.5%\n\n Lightning DMG\n + 8%",
+      "assets": [
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "4ef2b2a9e30c",
+          "sourceHash": "4ef2b2a9e30c",
+          "kind": "icons",
+          "name": "Lightning DMG",
+          "fileStem": "stat-lightningdmg",
+          "path": "Prydwen/hsr/assets/icons/lightning-dmg-4ef2b2a9e30c.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "eidolons-12",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "E 1\n Windfall of Lucky Springs\n Eidolon 1\n\n After using their Ultimate, the ally with Benediction gains a 20% increase in SPD for 1 turn.\n\n E 2\n Gainfully Gives, Givingly Gains\n Eidolon 2\n\n The ally with Benediction regenerates 5 Energy after defeating an enemy. This effect can only be triggered once per turn.\n\n E 3\n Halcyon Bequest\n Eidolon 3\n\n Ultimate Lv. + 2 , up to a maximum of Lv. 15 . Basic ATK Lv. + 1 , up to a maximum of Lv. 10 .\n\n E 4\n Jovial Versatility\n Eidolon 4\n\n The DMG multiplier provided by Benediction increases by 20% .\n\n E 5\n Sauntering Coquette\n Eidolon 5\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Peace Brings Wealth to All\n Eidolon 6\n\n Ultimate regenerates 10 more Energy for the target ally.",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-13",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Enable Ascension",
+      "assets": []
+    },
+    {
+      "id": "level-80-stats-14",
+      "level": 5,
+      "heading": "Level 80 stats",
+      "text": "HP\n\n 846\n\n ATK\n\n 529\n\n DEF\n\n 396\n\n Speed\n\n 112",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "level-1-80-ascension-materials-15",
+      "level": 5,
+      "heading": "Level 1 → 80 Ascension Materials",
+      "text": "Credit\n\n x 246400\n\n Immortal Scionette\n\n x 12\n\n Immortal Aeroblossom\n\n x 13\n\n Lightning Crown of the Past Shadow\n\n x 50\n\n Immortal Lumintwig\n\n x 12",
+      "assets": [
+        {
+          "id": "50d0e755383a",
+          "sourceHash": "50d0e755383a",
+          "kind": "items",
+          "name": "Credit",
+          "fileStem": "credit",
+          "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "9ab235265d65",
+          "sourceHash": "9ab235265d65",
+          "kind": "items",
+          "name": "Immortal Scionette",
+          "fileStem": "immortal-scionette",
+          "path": "Prydwen/hsr/assets/items/immortal-scionette-9ab235265d65.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "f09bb9ca1d6d",
+          "sourceHash": "f09bb9ca1d6d",
+          "kind": "items",
+          "name": "Immortal Aeroblossom",
+          "fileStem": "immortal-aeroblossom",
+          "path": "Prydwen/hsr/assets/items/immortal-aeroblossom-f09bb9ca1d6d.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "69dae171175c",
+          "sourceHash": "69dae171175c",
+          "kind": "items",
+          "name": "Lightning Crown of the Past Shadow",
+          "fileStem": "lightning-crown-of-the-past-shadow",
+          "path": "Prydwen/hsr/assets/items/lightning-crown-of-the-past-shadow-69dae171175c.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "f2f182d18e1a",
+          "sourceHash": "f2f182d18e1a",
+          "kind": "items",
+          "name": "Immortal Lumintwig",
+          "fileStem": "immortal-lumintwig",
+          "path": "Prydwen/hsr/assets/items/immortal-lumintwig-f2f182d18e1a.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "cv-16",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n Laci Morgan\n\n JPN\n 高田 憂希 (Yūki Takada)\n\n CN\n 蒋丽 (Li Jiang)\n\n KR\n 이명호 (Lee Myeong-ho)",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "6b93ecc4e161",
+          "sourceHash": "6b93ecc4e161",
+          "kind": "characters",
+          "name": "Tingyun",
+          "fileStem": "tingyun-full",
+          "path": "Prydwen/hsr/assets/characters/tingyun-6b93ecc4e161.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Incredibly powerful buffs to ATK, DMG, and even raw multipliers,\n\n Can be played very SP positive,\n\n Invaluable Energy restoration Ultimate,\n\n Scales very well with Eidolons.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Works best in a hypercarry setup as all her buffs are single-target only.",
+      "assets": []
+    },
+    {
+      "id": "review-by-sushou-21",
+      "level": 2,
+      "heading": "Review (By Sushou)",
+      "text": "Tingyun is arguably the best 4-star support character in the game. She is able to boost a single ally’s ATK and DMG significantly while also providing a large influx of Energy to said ally with her Ultimate. She is able to elevate damage dealers in hypercarry comps to impressive levels while remaining largely SP-positive. She is a staple support character and it is highly recommended that every player pursue her acquisition.\n This honestly might be the shortest review of the bunch because Tingyun is really rather cut and dry; she’s just that good. If you don’t have her, get her. If you have her and you’re not using her, what are you doing??\n Tingyun’s Skill selects a single ally to buff with Benediction, increasing their ATK by up to 50%. This ATK increase cannot be more than 25% of Tingyun’s own ATK, so she does want some of that stat to better buff allies. Benediction is also unique in that it allows the buffed ally to deal additional Lightning DMG equal to 40% of the buffed ally’s ATK. Benediction lasts for 3 turns.\n What this additional Lightning damage essentially does is provide a raw DMG multiplier increase to the buffed ally. I often say how rare certain damage boosts are, be it RES PEN or DEF Shred, but this one thing is actually the rarest. Raw increases to DMG multipliers is the single biggest increase to damage you can get because it’s completely undiluted — in fact it makes any other boosts you get better . Tingyun being able to provide a boost of this calibre with a push of a button and have it last for 3 turns is immaculate. Not only this, but because it’s tied to turn count rather than action count, anything that counts as an Extra Action will not deplete Benediction in any way, making things like Seele’s Resurgence, ally follow-up attacks, or even just any Ultimates highly efficient.\n Tingyun’s Ultimate restores 50 Energy for a target ally and increases their DMG by up to 50% for 2 turns. While it has a steeper than average Energy cost of 130, the ability to grant any ally you choose 50 flat Energy is exceptional. For many characters who rely on their Ultimates, Tingyun is an invaluable addition that allows them to have higher uptime on their big hitting setups. Even for characters who do not rely on their Ultimates, 50 Energy is 50 Energy; it’s always appreciated.\n Tingyun’s Talent also interacts with Benediction, causing an additional instance of DMG equal to 60% of the buffed ally’s ATK whenever Tingyun uses her Basic ATK. This means Tingyun can also contribute some non-negligible damage in between reapplying her Skill’s Benediction. It’s not likely to be making a huge difference, but it can assist in defeating trash adds.\n Her Bonus Ability Traces are incredibly important to her gameplay. A2 increases her SPD by 20% for 1 turn after using her Skill, A4 increases Basic ATK DMG by 40%, and A6 will regenerate 5 Energy immediately at the start of each of her turns.\n Because of Tingyun’s kit, the single most important stat to maximising her effectiveness is SPD. All the SPD in the world, because the faster Tingyun is, the faster she gets Energy back, and thus the faster she can give Energy back to your damage dealer. A 20% SPD boost for free after using Skill is very much appreciated, especially due to Tingyun’s extraordinarily high base SPD of 112. Taking more turns before your damage dealers also means more opportunities to take advantage of the free Energy being given from A6. It is easily the most important stat for her.\n Eidolons are not a necessity for Tingyun, but there is a strong argument to be made for obtaining them at your convenience. They are all largely self-explanatory and as powerful as they say. E6 in particular is incredibly useful as it causes her Ultimate’s Energy restore to go from 50 to 60. It may initially seem like a meagre increase, but you would be stunned at how big of a difference this makes in practice.\n For as long as damage dealers need Energy for their Ultimates, Tingyun will continue to be a dominant support character.",
+      "assets": []
+    },
+    {
+      "id": "ratings-22",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.",
+      "assets": []
+    },
+    {
+      "id": "eidolon-0-23",
+      "level": 5,
+      "heading": "Eidolon 0",
+      "text": "T4\n MoC\n\n T3\n PF\n\n T3\n AS",
+      "assets": []
+    },
+    {
+      "id": "eidolon-6-24",
+      "level": 5,
+      "heading": "Eidolon 6",
+      "text": "T3\n MoC\n\n T2\n PF\n\n T2\n AS\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "best-light-cones-26",
+      "level": 2,
+      "heading": "Best Light Cones",
+      "text": "1\n\n A Grounded Ascent (S 1 )\n\n Very strong option for Tingyun, granting her the much needed Energy for faster Ultimate cycling, and a Skill Point refund every 2 Skills or Ultimates. As a bonus, it can provide a ramping DMG buff for one ally, although the stacks can reset if Tingyun does use any Skills/Ultimates for 2 turns.\n\n 2\n\n Dance! Dance! Dance! (S 5 )\n\n Allows characters with high Speed and/or an accessible Ultimate to grant substantial action boosts to themselves and the team allowing for higher Speed (and cycle) breakpoints. Strongest on characters who can access their Ultimate at least once every 3 (but ideally 2) actions. Specifically strong when combined with other additional action advances or energy generation.\n Usage: 47 %\n MoC: -\n PF: 0\n AS: 3346\n\n 3\n\n Meshing Cogs (S 5 )\n\n Regenerates 8 Energy everytime Tingyun gets attacked or uses Basic ATK, allowing for faster Ultimate rotations.\n\n 4\n\n But the Battle Isn't Over (S 1 )\n\n Usable on Tingyun even if the main DMG boost effect is not utilized. The extra Energy Regeneration Rate and SP restoration effect is useful for her, and as a small bonus the higher base stats improves her survivability.\n Usage: 33 %\n MoC: -\n PF: 0\n AS: 0",
+      "assets": [
+        {
+          "id": "e88861d2cf9f",
+          "sourceHash": "e88861d2cf9f",
+          "kind": "light-cones",
+          "name": "A Grounded Ascent",
+          "fileStem": "a-grounded-ascent",
+          "path": "Prydwen/hsr/assets/light-cones/a-grounded-ascent-e88861d2cf9f.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "51329378b0cb",
+          "sourceHash": "51329378b0cb",
+          "kind": "light-cones",
+          "name": "Dance! Dance! Dance!",
+          "fileStem": "dance-dance-dance",
+          "path": "Prydwen/hsr/assets/light-cones/dance-dance-dance-51329378b0cb.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "77f4a1bc7d02",
+          "sourceHash": "77f4a1bc7d02",
+          "kind": "light-cones",
+          "name": "Meshing Cogs",
+          "fileStem": "meshing-cogs",
+          "path": "Prydwen/hsr/assets/light-cones/meshing-cogs-77f4a1bc7d02.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "5524dabe1c9b",
+          "sourceHash": "5524dabe1c9b",
+          "kind": "light-cones",
+          "name": "But the Battle Isn't Over",
+          "fileStem": "but-the-battle-isnt-over",
+          "path": "Prydwen/hsr/assets/light-cones/but-the-battle-isnt-over-5524dabe1c9b.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "specialist-light-cones-27",
+      "level": 3,
+      "heading": "Specialist Light Cones",
+      "text": "1\n\n Planetary Rendezvous (S 5 )\n\n Decent team buffing Cone, but with the restriction of only granting its boost to allies of the same Element as the wearer.",
+      "assets": [
+        {
+          "id": "7683c18e708c",
+          "sourceHash": "7683c18e708c",
+          "kind": "light-cones",
+          "name": "Planetary Rendezvous",
+          "fileStem": "planetary-rendezvous",
+          "path": "Prydwen/hsr/assets/light-cones/planetary-rendezvous-7683c18e708c.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-relic-sets-29",
+      "level": 2,
+      "heading": "Best Relic Sets",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Sacerdos' Relived Ordeal ( 4 -PC)\n\n Incredibly powerful set for characters with Ultimates and or Skills which target a single ally and who work well in teams with a sole damage dealer who can benefit from CRIT DMG.\n Usage: 46.5 %\n MoC: -\n PF: 0\n AS: 0\n\n 2\n\n Messenger Traversing Hackerspace ( 4 -PC)\n\n Good team wide supportive option for characters with Ultimates which target allies. With this set equipped Ultimates are best timed carefully to ensure the Speed buff is active on key members for as long as possible.\n 3\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n Usage: 13.5 %\n MoC: -\n PF: 0\n AS: 0\n\n 4\n\n Musketeer of Wild Wheat ( 4 -PC)\n\n Accessible alternative to using 2P SPD + 2P ATK, assuming it has strong sub-stats.\n Usage: 6.5 %\n MoC: -\n PF: 0\n AS: 0",
+      "assets": [
+        {
+          "id": "5cb190fcc346",
+          "sourceHash": "5cb190fcc346",
+          "kind": "relics",
+          "name": "Sacerdos' Relived Ordeal",
+          "fileStem": "sacerdos-relived-ordeal",
+          "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "4cb8065ad660",
+          "sourceHash": "4cb8065ad660",
+          "kind": "relics",
+          "name": "Messenger Traversing Hackerspace",
+          "fileStem": "messenger-traversing-hackerspace",
+          "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "deeeca721276",
+          "sourceHash": "deeeca721276",
+          "kind": "relics",
+          "name": "Musketeer of Wild Wheat",
+          "fileStem": "musketeer-of-wild-wheat",
+          "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "507bb2127c32",
+          "sourceHash": "507bb2127c32",
+          "kind": "relics",
+          "name": "Prisoner in Deep Confinement",
+          "fileStem": "prisoner-in-deep-confinement",
+          "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "2d90f2919c5d",
+          "sourceHash": "2d90f2919c5d",
+          "kind": "relics",
+          "name": "The Wind-Soaring Valorous",
+          "fileStem": "the-wind-soaring-valorous",
+          "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-specialist-relic-sets-30",
+      "level": 6,
+      "heading": "Best Specialist Relic Sets",
+      "text": "1\n\n Eagle of Twilight Line ( 4 -PC)\n\n Allows characters with accessible Ultimates to reach higher Speed (and cycle) breakpoints compared to just stacking Speed. Strongest on characters with powerful ultimate related effects or who can access their ultimate at least once every 3 (but ideally 2) actions. Particularly strong when combined with other action advancement effects.\n Usage: 20 %\n MoC: -\n PF: 0\n AS: 3346",
+      "assets": [
+        {
+          "id": "36af28ceb2d3",
+          "sourceHash": "36af28ceb2d3",
+          "kind": "relics",
+          "name": "Eagle of Twilight Line",
+          "fileStem": "eagle-of-twilight-line",
+          "path": "Prydwen/hsr/assets/relics/eagle-of-twilight-line-36af28ceb2d3.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-planetary-sets-31",
+      "level": 6,
+      "heading": "Best Planetary Sets",
+      "text": "1\n\n Sprightly Vonwacq ( 2 -PC)\n\n Incredibly potent option for buff/debuff based characters. The advance from this set allows the wearer to apply their buffs/debuffs before the rest of the team acts, accelerate rotations, allows access to ultimates closer to the start of the fight and also grants Energy Regen - a valuable stat for many supports.\n Usage: 20 %\n MoC: -\n PF: 0\n AS: 0\n\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n Usage: 13.5 %\n MoC: -\n PF: 0\n AS: 0\n\n 4\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 5\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n Usage: 53 %\n MoC: -\n PF: 0\n AS: 3346",
+      "assets": [
+        {
+          "id": "bb6d718b4cb3",
+          "sourceHash": "bb6d718b4cb3",
+          "kind": "relics",
+          "name": "Sprightly Vonwacq",
+          "fileStem": "sprightly-vonwacq",
+          "path": "Prydwen/hsr/assets/relics/sprightly-vonwacq-bb6d718b4cb3.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "5b886a96e17a",
+          "sourceHash": "5b886a96e17a",
+          "kind": "relics",
+          "name": "Fleet of the Ageless",
+          "fileStem": "fleet-of-the-ageless",
+          "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "3306e6f6288f",
+          "sourceHash": "3306e6f6288f",
+          "kind": "relics",
+          "name": "Broken Keel",
+          "fileStem": "broken-keel",
+          "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "d6cdb5f16b16",
+          "sourceHash": "d6cdb5f16b16",
+          "kind": "relics",
+          "name": "Penacony, Land of the Dreams",
+          "fileStem": "penacony-land-of-the-dreams",
+          "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "d6aae5028c5a",
+          "sourceHash": "d6aae5028c5a",
+          "kind": "relics",
+          "name": "Lushaka, the Sunken Seas",
+          "fileStem": "lushaka-the-sunken-seas",
+          "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-stats-33",
+      "level": 2,
+      "heading": "Best Stats",
+      "text": "Body\n ATK%\n > HP%\n\n Feet\n Speed\n\n Planar Sphere\n ATK%\n > HP%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (Until Breakpoint) = ATK% (Until Recommended) > HP = DEF > EFF RES% (30% if using Broken Keel)\n\n Focusing on Speed is very important as you want Tingyun to generate SP as often as possible. Defensive stats should be preferred on a lower level Tingyun to ensure her survivability.",
+      "assets": [
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "106ddd8eff32",
+          "sourceHash": "106ddd8eff32",
+          "kind": "icons",
+          "name": "Energy Regen",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "recommended-endgame-stats-34",
+      "level": 2,
+      "heading": "Recommended endgame stats",
+      "text": "HP: 3000 - 3500+\n\n DEF: 900 - 1100+\n\n ATK : 2400 - 2600+\n\n SPD: 134 / 143 (Recommended) / 160+\n\n ENERGY REGEN : 19.44%+",
+      "assets": []
+    },
+    {
+      "id": "traces-priority-35",
+      "level": 2,
+      "heading": "Traces priority",
+      "text": "Skills priority: Skill > Ultimate > Talent > Basic\n\n Major Traces priority: Jubilant Passage (A6) > Nourished Joviality (A2) > Knell Subdual (A4)",
+      "assets": []
+    },
+    {
+      "id": "synergy-36",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Argenti - Having a very expensive Ultimate cos, Argenti loves Tingyun’s Energy Battery and damage% buff Ultimate along with attack% buff from her Skill, leading to short windows of burst damage - which Argenti’s Ultimate is all about.\n Yunli Clara - Yunli & Clara are two more DPS that are very Energy reliant, making Tingyun a great choice for them.",
+      "assets": [
+        {
+          "id": "571b2626140d",
+          "sourceHash": "571b2626140d",
+          "kind": "characters",
+          "name": "Argenti",
+          "fileStem": "argenti-icon",
+          "path": "Prydwen/hsr/assets/characters/argenti-571b2626140d.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "941ae6e65f60",
+          "sourceHash": "941ae6e65f60",
+          "kind": "characters",
+          "name": "Yunli",
+          "fileStem": "yunli-icon",
+          "path": "Prydwen/hsr/assets/characters/yunli-941ae6e65f60.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "469e0f88e35b",
+          "sourceHash": "469e0f88e35b",
+          "kind": "characters",
+          "name": "Clara",
+          "fileStem": "clara-icon",
+          "path": "Prydwen/hsr/assets/characters/clara-469e0f88e35b.webp",
+          "width": 45,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "id": "anomaly-arbitration-41",
+      "level": 6,
+      "heading": "Anomaly Arbitration",
+      "text": "Rank 400\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 7\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 7\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 3\n\n New\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 0\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 0\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 6\n\n New\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 2\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 0\n\n New\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 10\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 5",
+      "assets": [
+        {
+          "id": "abea49c1784d",
+          "sourceHash": "abea49c1784d",
+          "kind": "characters",
+          "name": "Evanescia",
+          "fileStem": "evanescia-icon",
+          "path": "Prydwen/hsr/assets/characters/evanescia-abea49c1784d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0db16ed6c66",
+          "sourceHash": "e0db16ed6c66",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "ele-physical",
+          "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "c721ded1f2e0",
+          "sourceHash": "c721ded1f2e0",
+          "kind": "characters",
+          "name": "Trailblazer • Elation",
+          "fileStem": "trailblazer-elation-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-elation-c721ded1f2e0.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d197456869a0",
+          "sourceHash": "d197456869a0",
+          "kind": "icons",
+          "name": "Lightning",
+          "fileStem": "ele-lightning",
+          "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "4f2eb19b0697",
+          "sourceHash": "4f2eb19b0697",
+          "kind": "characters",
+          "name": "Tingyun",
+          "fileStem": "tingyun-icon",
+          "path": "Prydwen/hsr/assets/characters/tingyun-4f2eb19b0697.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "c4a9c00e98ef",
+          "sourceHash": "c4a9c00e98ef",
+          "kind": "characters",
+          "name": "Huohuo",
+          "fileStem": "huohuo-icon",
+          "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ee11bd390c9a",
+          "sourceHash": "ee11bd390c9a",
+          "kind": "icons",
+          "name": "Wind",
+          "fileStem": "ele-wind",
+          "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "bdd27122e011",
+          "sourceHash": "bdd27122e011",
+          "kind": "characters",
+          "name": "Phainon",
+          "fileStem": "phainon-icon",
+          "path": "Prydwen/hsr/assets/characters/phainon-bdd27122e011.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "da99d2d9a505",
+          "sourceHash": "da99d2d9a505",
+          "kind": "characters",
+          "name": "Sparkle",
+          "fileStem": "sparkle-icon",
+          "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "565914d1a436",
+          "sourceHash": "565914d1a436",
+          "kind": "icons",
+          "name": "Quantum",
+          "fileStem": "ele-quantum",
+          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "f380b4ccce3e",
+          "sourceHash": "f380b4ccce3e",
+          "kind": "characters",
+          "name": "Ashveil",
+          "fileStem": "ashveil-icon",
+          "path": "Prydwen/hsr/assets/characters/ashveil-f380b4ccce3e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "99361e4717fa",
+          "sourceHash": "99361e4717fa",
+          "kind": "characters",
+          "name": "Mortenax Blade",
+          "fileStem": "blade-mortenax-icon",
+          "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "92feb26d8f0e",
+          "sourceHash": "92feb26d8f0e",
+          "kind": "icons",
+          "name": "Fire",
+          "fileStem": "ele-fire",
+          "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "1d90270b2b4b",
+          "sourceHash": "1d90270b2b4b",
+          "kind": "characters",
+          "name": "Hyacine",
+          "fileStem": "hyacine-icon",
+          "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d3e344772d55",
+          "sourceHash": "d3e344772d55",
+          "kind": "characters",
+          "name": "Trailblazer • Remembrance",
+          "fileStem": "trailblazer-remembrance-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7d36eb39792a",
+          "sourceHash": "7d36eb39792a",
+          "kind": "icons",
+          "name": "Ice",
+          "fileStem": "ele-ice",
+          "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "60cd0853b302",
+          "sourceHash": "60cd0853b302",
+          "kind": "characters",
+          "name": "Welt",
+          "fileStem": "welt-icon",
+          "path": "Prydwen/hsr/assets/characters/welt-60cd0853b302.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "913ff64407f2",
+          "sourceHash": "913ff64407f2",
+          "kind": "icons",
+          "name": "Imaginary",
+          "fileStem": "ele-imaginary",
+          "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "965df81b835a",
+          "sourceHash": "965df81b835a",
+          "kind": "characters",
+          "name": "Yao Guang",
+          "fileStem": "yao-guang-icon",
+          "path": "Prydwen/hsr/assets/characters/yao-guang-965df81b835a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "2cde7699adbf",
+          "sourceHash": "2cde7699adbf",
+          "kind": "characters",
+          "name": "Tribbie",
+          "fileStem": "tribbie-icon",
+          "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "714348f14d48",
+          "sourceHash": "714348f14d48",
+          "kind": "characters",
+          "name": "Dan Heng • Permansor Terrae",
+          "fileStem": "dan-heng-permansor-terrae-icon",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "a7cbdc174382",
+          "sourceHash": "a7cbdc174382",
+          "kind": "characters",
+          "name": "Seele",
+          "fileStem": "seele-icon",
+          "path": "Prydwen/hsr/assets/characters/seele-a7cbdc174382.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "video-guides-42",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "MoC/PF/AS Statistics",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-light-cones": {
+      "label": "Best Light Cones",
+      "sections": [
+        {
+          "heading": "Best Light Cones",
+          "text": "1\n\n A Grounded Ascent (S 1 )\n\n Very strong option for Tingyun, granting her the much needed Energy for faster Ultimate cycling, and a Skill Point refund every 2 Skills or Ultimates. As a bonus, it can provide a ramping DMG buff for one ally, although the stacks can reset if Tingyun does use any Skills/Ultimates for 2 turns.\n\n 2\n\n Dance! Dance! Dance! (S 5 )\n\n Allows characters with high Speed and/or an accessible Ultimate to grant substantial action boosts to themselves and the team allowing for higher Speed (and cycle) breakpoints. Strongest on characters who can access their Ultimate at least once every 3 (but ideally 2) actions. Specifically strong when combined with other additional action advances or energy generation.\n Usage: 47 %\n MoC: -\n PF: 0\n AS: 3346\n\n 3\n\n Meshing Cogs (S 5 )\n\n Regenerates 8 Energy everytime Tingyun gets attacked or uses Basic ATK, allowing for faster Ultimate rotations.\n\n 4\n\n But the Battle Isn't Over (S 1 )\n\n Usable on Tingyun even if the main DMG boost effect is not utilized. The extra Energy Regeneration Rate and SP restoration effect is useful for her, and as a small bonus the higher base stats improves her survivability.\n Usage: 33 %\n MoC: -\n PF: 0\n AS: 0",
+          "assets": [
+            {
+              "id": "e88861d2cf9f",
+              "sourceHash": "e88861d2cf9f",
+              "kind": "light-cones",
+              "name": "A Grounded Ascent",
+              "fileStem": "a-grounded-ascent",
+              "path": "Prydwen/hsr/assets/light-cones/a-grounded-ascent-e88861d2cf9f.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "51329378b0cb",
+              "sourceHash": "51329378b0cb",
+              "kind": "light-cones",
+              "name": "Dance! Dance! Dance!",
+              "fileStem": "dance-dance-dance",
+              "path": "Prydwen/hsr/assets/light-cones/dance-dance-dance-51329378b0cb.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "77f4a1bc7d02",
+              "sourceHash": "77f4a1bc7d02",
+              "kind": "light-cones",
+              "name": "Meshing Cogs",
+              "fileStem": "meshing-cogs",
+              "path": "Prydwen/hsr/assets/light-cones/meshing-cogs-77f4a1bc7d02.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "5524dabe1c9b",
+              "sourceHash": "5524dabe1c9b",
+              "kind": "light-cones",
+              "name": "But the Battle Isn't Over",
+              "fileStem": "but-the-battle-isnt-over",
+              "path": "Prydwen/hsr/assets/light-cones/but-the-battle-isnt-over-5524dabe1c9b.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-relic-sets": {
+      "label": "Best Relic Sets",
+      "sections": [
+        {
+          "heading": "Best Relic Sets",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Sacerdos' Relived Ordeal ( 4 -PC)\n\n Incredibly powerful set for characters with Ultimates and or Skills which target a single ally and who work well in teams with a sole damage dealer who can benefit from CRIT DMG.\n Usage: 46.5 %\n MoC: -\n PF: 0\n AS: 0\n\n 2\n\n Messenger Traversing Hackerspace ( 4 -PC)\n\n Good team wide supportive option for characters with Ultimates which target allies. With this set equipped Ultimates are best timed carefully to ensure the Speed buff is active on key members for as long as possible.\n 3\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n Usage: 13.5 %\n MoC: -\n PF: 0\n AS: 0\n\n 4\n\n Musketeer of Wild Wheat ( 4 -PC)\n\n Accessible alternative to using 2P SPD + 2P ATK, assuming it has strong sub-stats.\n Usage: 6.5 %\n MoC: -\n PF: 0\n AS: 0",
+          "assets": [
+            {
+              "id": "5cb190fcc346",
+              "sourceHash": "5cb190fcc346",
+              "kind": "relics",
+              "name": "Sacerdos' Relived Ordeal",
+              "fileStem": "sacerdos-relived-ordeal",
+              "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "4cb8065ad660",
+              "sourceHash": "4cb8065ad660",
+              "kind": "relics",
+              "name": "Messenger Traversing Hackerspace",
+              "fileStem": "messenger-traversing-hackerspace",
+              "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "deeeca721276",
+              "sourceHash": "deeeca721276",
+              "kind": "relics",
+              "name": "Musketeer of Wild Wheat",
+              "fileStem": "musketeer-of-wild-wheat",
+              "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "507bb2127c32",
+              "sourceHash": "507bb2127c32",
+              "kind": "relics",
+              "name": "Prisoner in Deep Confinement",
+              "fileStem": "prisoner-in-deep-confinement",
+              "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "2d90f2919c5d",
+              "sourceHash": "2d90f2919c5d",
+              "kind": "relics",
+              "name": "The Wind-Soaring Valorous",
+              "fileStem": "the-wind-soaring-valorous",
+              "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-planetary-sets": {
+      "label": "Best Planetary Sets",
+      "sections": [
+        {
+          "heading": "Best Planetary Sets",
+          "text": "1\n\n Sprightly Vonwacq ( 2 -PC)\n\n Incredibly potent option for buff/debuff based characters. The advance from this set allows the wearer to apply their buffs/debuffs before the rest of the team acts, accelerate rotations, allows access to ultimates closer to the start of the fight and also grants Energy Regen - a valuable stat for many supports.\n Usage: 20 %\n MoC: -\n PF: 0\n AS: 0\n\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n Usage: 13.5 %\n MoC: -\n PF: 0\n AS: 0\n\n 4\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 5\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n Usage: 53 %\n MoC: -\n PF: 0\n AS: 3346",
+          "assets": [
+            {
+              "id": "bb6d718b4cb3",
+              "sourceHash": "bb6d718b4cb3",
+              "kind": "relics",
+              "name": "Sprightly Vonwacq",
+              "fileStem": "sprightly-vonwacq",
+              "path": "Prydwen/hsr/assets/relics/sprightly-vonwacq-bb6d718b4cb3.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "5b886a96e17a",
+              "sourceHash": "5b886a96e17a",
+              "kind": "relics",
+              "name": "Fleet of the Ageless",
+              "fileStem": "fleet-of-the-ageless",
+              "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "3306e6f6288f",
+              "sourceHash": "3306e6f6288f",
+              "kind": "relics",
+              "name": "Broken Keel",
+              "fileStem": "broken-keel",
+              "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "d6cdb5f16b16",
+              "sourceHash": "d6cdb5f16b16",
+              "kind": "relics",
+              "name": "Penacony, Land of the Dreams",
+              "fileStem": "penacony-land-of-the-dreams",
+              "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "d6aae5028c5a",
+              "sourceHash": "d6aae5028c5a",
+              "kind": "relics",
+              "name": "Lushaka, the Sunken Seas",
+              "fileStem": "lushaka-the-sunken-seas",
+              "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-stats": {
+      "label": "Best Stats",
+      "sections": [
+        {
+          "heading": "Best Stats",
+          "text": "Body\n ATK%\n > HP%\n\n Feet\n Speed\n\n Planar Sphere\n ATK%\n > HP%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (Until Breakpoint) = ATK% (Until Recommended) > HP = DEF > EFF RES% (30% if using Broken Keel)\n\n Focusing on Speed is very important as you want Tingyun to generate SP as often as possible. Defensive stats should be preferred on a lower level Tingyun to ensure her survivability.",
+          "assets": [
+            {
+              "id": "dc6aec4a7776",
+              "sourceHash": "dc6aec4a7776",
+              "kind": "icons",
+              "name": "ATK",
+              "fileStem": "stat-atk",
+              "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "96654253a4f7",
+              "sourceHash": "96654253a4f7",
+              "kind": "icons",
+              "name": "HP",
+              "fileStem": "stat-hp",
+              "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "087f2dec68b6",
+              "sourceHash": "087f2dec68b6",
+              "kind": "icons",
+              "name": "Speed",
+              "fileStem": "stat-speed",
+              "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "106ddd8eff32",
+              "sourceHash": "106ddd8eff32",
+              "kind": "icons",
+              "name": "Energy Regen",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        }
+      ]
+    },
+    "recommended-endgame-stats": {
+      "label": "Recommended endgame stats",
+      "sections": [
+        {
+          "heading": "Recommended endgame stats",
+          "text": "HP: 3000 - 3500+\n\n DEF: 900 - 1100+\n\n ATK : 2400 - 2600+\n\n SPD: 134 / 143 (Recommended) / 160+\n\n ENERGY REGEN : 19.44%+",
+          "assets": []
+        }
+      ]
+    },
+    "traces-priority": {
+      "label": "Traces priority",
+      "sections": [
+        {
+          "heading": "Traces priority",
+          "text": "Skills priority: Skill > Ultimate > Talent > Basic\n\n Major Traces priority: Jubilant Passage (A6) > Nourished Joviality (A2) > Knell Subdual (A4)",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Argenti - Having a very expensive Ultimate cos, Argenti loves Tingyun’s Energy Battery and damage% buff Ultimate along with attack% buff from her Skill, leading to short windows of burst damage - which Argenti’s Ultimate is all about.\n Yunli Clara - Yunli & Clara are two more DPS that are very Energy reliant, making Tingyun a great choice for them.",
+          "assets": [
+            {
+              "id": "571b2626140d",
+              "sourceHash": "571b2626140d",
+              "kind": "characters",
+              "name": "Argenti",
+              "fileStem": "argenti-icon",
+              "path": "Prydwen/hsr/assets/characters/argenti-571b2626140d.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "941ae6e65f60",
+              "sourceHash": "941ae6e65f60",
+              "kind": "characters",
+              "name": "Yunli",
+              "fileStem": "yunli-icon",
+              "path": "Prydwen/hsr/assets/characters/yunli-941ae6e65f60.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "469e0f88e35b",
+              "sourceHash": "469e0f88e35b",
+              "kind": "characters",
+              "name": "Clara",
+              "fileStem": "clara-icon",
+              "path": "Prydwen/hsr/assets/characters/clara-469e0f88e35b.webp",
+              "width": 45,
+              "height": 45
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Tingyun Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Tingyun\n Tingyun Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Tingyun from HSR (Honkai: Star Rail). Tingyun is a 4 ★ character from the Lightning element who follows the Path of Harmony .\n A silver-tongued Foxian girl, Tingyun is the Head Representative of the Whistling Flames, a merchant guild officially approved by the Sky-Faring Commission. She has such a way with words that often leaves her audience eagerly waiting for more of her captivating tales. As a result of her supervision, the Xianzhou trade fairs are now known throughout the galaxy.\n \"Try one's best to avoid conflict when possible, and persuade those who can be persuaded\" — that's Tingyun's motto.\n\n To learn more about Tingyun check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Tingyun has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.6\n\n Last major build/calcs update\n Patch 3.4\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Tingyun check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Dislodged\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Tingyun deals Lightning DMG equal to #1[i]% of her ATK to a single enemy.\n\n Skill\n Soothing Melody\n Support\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Grants a single ally with Benediction to increase their ATK by #2[i]%, up to #4[i]% of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal Additional Lightning DMG equal to #1[i]% of that ally's ATK for 1 time.\nBenediction lasts for #3[i] turn(s) and is only effective on the most recent receiver of Tingyun's Skill.\n\n Ultimate\n Amidst the Rejoicing Clouds\n Support | 130 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: -\n\n Regenerates #1[i] Energy for a single ally and increases the target's DMG by #3[i]% for #2[i] turn(s).\n\n Talent\n Violet Sparknado\n Enhance\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Additional Lightning DMG equal to #1[i]% of that ally's ATK to the same enemy.\n\n Technique\n Gentle Breeze\n Support\n\n Energy gain: 0\n Break: -\n\n Tingyun immediately regenerates #1[i] Energy upon using her Technique.\n\n Major Traces\n A2 Major trace\n Nourished Joviality\n\n Tingyun's SPD increases by 20% for 1 turn after using Skill.\n\n A4 Major trace\n Knell Subdual\n\n Basic ATK DMG increases by 40% .\n\n A6 Major trace\n Jubilant Passage\n\n Tingyun immediately regenerates 5 Energy at the start of her turn.\n\n Minor Traces (total)\n ATK\n + 28%\n\n DEF\n + 22.5%\n\n Lightning DMG\n + 8%\n\n Eidolons\n E 1\n Windfall of Lucky Springs\n Eidolon 1\n\n After using their Ultimate, the ally with Benediction gains a 20% increase in SPD for 1 turn.\n\n E 2\n Gainfully Gives, Givingly Gains\n Eidolon 2\n\n The ally with Benediction regenerates 5 Energy after defeating an enemy. This effect can only be triggered once per turn.\n\n E 3\n Halcyon Bequest\n Eidolon 3\n\n Ultimate Lv. + 2 , up to a maximum of Lv. 15 . Basic ATK Lv. + 1 , up to a maximum of Lv. 10 .\n\n E 4\n Jovial Versatility\n Eidolon 4\n\n The DMG multiplier provided by Benediction increases by 20% .\n\n E 5\n Sauntering Coquette\n Eidolon 5\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n Peace Brings Wealth to All\n Eidolon 6\n\n Ultimate regenerates 10 more Energy for the target ally.\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 846\n\n ATK\n\n 529\n\n DEF\n\n 396\n\n Speed\n\n 112\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 246400\n\n Immortal Scionette\n\n x 12\n\n Immortal Aeroblossom\n\n x 13\n\n Lightning Crown of the Past Shadow\n\n x 50\n\n Immortal Lumintwig\n\n x 12\n\n CV\n ENG\n Laci Morgan\n\n JPN\n 高田 憂希 (Yūki Takada)\n\n CN\n 蒋丽 (Li Jiang)\n\n KR\n 이명호 (Lee Myeong-ho)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Incredibly powerful buffs to ATK, DMG, and even raw multipliers,\n\n Can be played very SP positive,\n\n Invaluable Energy restoration Ultimate,\n\n Scales very well with Eidolons.\n\n Cons\n Works best in a hypercarry setup as all her buffs are single-target only.\n\n Review (By Sushou)\n Tingyun is arguably the best 4-star support character in the game. She is able to boost a single ally’s ATK and DMG significantly while also providing a large influx of Energy to said ally with her Ultimate. She is able to elevate damage dealers in hypercarry comps to impressive levels while remaining largely SP-positive. She is a staple support character and it is highly recommended that every player pursue her acquisition.\n This honestly might be the shortest review of the bunch because Tingyun is really rather cut and dry; she’s just that good. If you don’t have her, get her. If you have her and you’re not using her, what are you doing??\n Tingyun’s Skill selects a single ally to buff with Benediction, increasing their ATK by up to 50%. This ATK increase cannot be more than 25% of Tingyun’s own ATK, so she does want some of that stat to better buff allies. Benediction is also unique in that it allows the buffed ally to deal additional Lightning DMG equal to 40% of the buffed ally’s ATK. Benediction lasts for 3 turns.\n What this additional Lightning damage essentially does is provide a raw DMG multiplier increase to the buffed ally. I often say how rare certain damage boosts are, be it RES PEN or DEF Shred, but this one thing is actually the rarest. Raw increases to DMG multipliers is the single biggest increase to damage you can get because it’s completely undiluted — in fact it makes any other boosts you get better . Tingyun being able to provide a boost of this calibre with a push of a button and have it last for 3 turns is immaculate. Not only this, but because it’s tied to turn count rather than action count, anything that counts as an Extra Action will not deplete Benediction in any way, making things like Seele’s Resurgence, ally follow-up attacks, or even just any Ultimates highly efficient.\n Tingyun’s Ultimate restores 50 Energy for a target ally and increases their DMG by up to 50% for 2 turns. While it has a steeper than average Energy cost of 130, the ability to grant any ally you choose 50 flat Energy is exceptional. For many characters who rely on their Ultimates, Tingyun is an invaluable addition that allows them to have higher uptime on their big hitting setups. Even for characters who do not rely on their Ultimates, 50 Energy is 50 Energy; it’s always appreciated.\n Tingyun’s Talent also interacts with Benediction, causing an additional instance of DMG equal to 60% of the buffed ally’s ATK whenever Tingyun uses her Basic ATK. This means Tingyun can also contribute some non-negligible damage in between reapplying her Skill’s Benediction. It’s not likely to be making a huge difference, but it can assist in defeating trash adds.\n Her Bonus Ability Traces are incredibly important to her gameplay. A2 increases her SPD by 20% for 1 turn after using her Skill, A4 increases Basic ATK DMG by 40%, and A6 will regenerate 5 Energy immediately at the start of each of her turns.\n Because of Tingyun’s kit, the single most important stat to maximising her effectiveness is SPD. All the SPD in the world, because the faster Tingyun is, the faster she gets Energy back, and thus the faster she can give Energy back to your damage dealer. A 20% SPD boost for free after using Skill is very much appreciated, especially due to Tingyun’s extraordinarily high base SPD of 112. Taking more turns before your damage dealers also means more opportunities to take advantage of the free Energy being given from A6. It is easily the most important stat for her.\n Eidolons are not a necessity for Tingyun, but there is a strong argument to be made for obtaining them at your convenience. They are all largely self-explanatory and as powerful as they say. E6 in particular is incredibly useful as it causes her Ultimate’s Energy restore to go from 50 to 60. It may initially seem like a meagre increase, but you would be stunned at how big of a difference this makes in practice.\n For as long as damage dealers need Energy for their Ultimates, Tingyun will continue to be a dominant support character.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Eidolon 0\n T4\n MoC\n\n T3\n PF\n\n T3\n AS\n\n Eidolon 6\n T3\n MoC\n\n T2\n PF\n\n T2\n AS\n\n Build and teams\n\n Best Light Cones\n\n 1\n\n A Grounded Ascent (S 1 )\n\n Very strong option for Tingyun, granting her the much needed Energy for faster Ultimate cycling, and a Skill Point refund every 2 Skills or Ultimates. As a bonus, it can provide a ramping DMG buff for one ally, although the stacks can reset if Tingyun does use any Skills/Ultimates for 2 turns.\n\n 2\n\n Dance! Dance! Dance! (S 5 )\n\n Allows characters with high Speed and/or an accessible Ultimate to grant substantial action boosts to themselves and the team allowing for higher Speed (and cycle) breakpoints. Strongest on characters who can access their Ultimate at least once every 3 (but ideally 2) actions. Specifically strong when combined with other additional action advances or energy generation.\n Usage: 47 %\n MoC: -\n PF: 0\n AS: 3346\n\n 3\n\n Meshing Cogs (S 5 )\n\n Regenerates 8 Energy everytime Tingyun gets attacked or uses Basic ATK, allowing for faster Ultimate rotations.\n\n 4\n\n But the Battle Isn't Over (S 1 )\n\n Usable on Tingyun even if the main DMG boost effect is not utilized. The extra Energy Regeneration Rate and SP restoration effect is useful for her, and as a small bonus the higher base stats improves her survivability.\n Usage: 33 %\n MoC: -\n PF: 0\n AS: 0\n\n Specialist Light Cones\n 1\n\n Planetary Rendezvous (S 5 )\n\n Decent team buffing Cone, but with the restriction of only granting its boost to allies of the same Element as the wearer.\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Sacerdos' Relived Ordeal ( 4 -PC)\n\n Incredibly powerful set for characters with Ultimates and or Skills which target a single ally and who work well in teams with a sole damage dealer who can benefit from CRIT DMG.\n Usage: 46.5 %\n MoC: -\n PF: 0\n AS: 0\n\n 2\n\n Messenger Traversing Hackerspace ( 4 -PC)\n\n Good team wide supportive option for characters with Ultimates which target allies. With this set equipped Ultimates are best timed carefully to ensure the Speed buff is active on key members for as long as possible.\n 3\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n Usage: 13.5 %\n MoC: -\n PF: 0\n AS: 0\n\n 4\n\n Musketeer of Wild Wheat ( 4 -PC)\n\n Accessible alternative to using 2P SPD + 2P ATK, assuming it has strong sub-stats.\n Usage: 6.5 %\n MoC: -\n PF: 0\n AS: 0\n\n Best Specialist Relic Sets\n 1\n\n Eagle of Twilight Line ( 4 -PC)\n\n Allows characters with accessible Ultimates to reach higher Speed (and cycle) breakpoints compared to just stacking Speed. Strongest on characters with powerful ultimate related effects or who can access their ultimate at least once every 3 (but ideally 2) actions. Particularly strong when combined with other action advancement effects.\n Usage: 20 %\n MoC: -\n PF: 0\n AS: 3346\n\n Best Planetary Sets\n 1\n\n Sprightly Vonwacq ( 2 -PC)\n\n Incredibly potent option for buff/debuff based characters. The advance from this set allows the wearer to apply their buffs/debuffs before the rest of the team acts, accelerate rotations, allows access to ultimates closer to the start of the fight and also grants Energy Regen - a valuable stat for many supports.\n Usage: 20 %\n MoC: -\n PF: 0\n AS: 0\n\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n Usage: 13.5 %\n MoC: -\n PF: 0\n AS: 0\n\n 4\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 5\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n Usage: 53 %\n MoC: -\n PF: 0\n AS: 3346\n\n Best Stats\n\n Body\n ATK%\n > HP%\n\n Feet\n Speed\n\n Planar Sphere\n ATK%\n > HP%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (Until Breakpoint) = ATK% (Until Recommended) > HP = DEF > EFF RES% (30% if using Broken Keel)\n\n Focusing on Speed is very important as you want Tingyun to generate SP as often as possible. Defensive stats should be preferred on a lower level Tingyun to ensure her survivability.\n\n Recommended endgame stats\n HP: 3000 - 3500+\n\n DEF: 900 - 1100+\n\n ATK : 2400 - 2600+\n\n SPD: 134 / 143 (Recommended) / 160+\n\n ENERGY REGEN : 19.44%+\n\n Traces priority\n Skills priority: Skill > Ultimate > Talent > Basic\n\n Major Traces priority: Jubilant Passage (A6) > Nourished Joviality (A2) > Knell Subdual (A4)\n\n Synergy\n Argenti - Having a very expensive Ultimate cos, Argenti loves Tingyun’s Energy Battery and damage% buff Ultimate along with attack% buff from her Skill, leading to short windows of burst damage - which Argenti’s Ultimate is all about.\n Yunli Clara - Yunli & Clara are two more DPS that are very Energy reliant, making Tingyun a great choice for them.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 400\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 7\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 7\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 3\n\n New\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 0\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 0\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 6\n\n New\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 2\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 0\n\n New\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 10\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 5\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "characters",
+    "label": "Characters",
+    "sourcePath": "/star-rail/characters",
+    "file": "Prydwen/hsr/collections/characters.json",
+    "detailPagesTotal": 90,
+    "detailPagesScraped": 90,
+    "staleDetailPagesRemoved": 0,
+    "entries": 90,
+    "assets": 107
+  },
+  {
+    "id": "light-cones",
+    "label": "Light Cones",
+    "sourcePath": "/star-rail/light-cones",
+    "file": "Prydwen/hsr/collections/light-cones.json",
+    "detailPagesTotal": 0,
+    "detailPagesScraped": 0,
+    "staleDetailPagesRemoved": 0,
+    "entries": 164,
+    "assets": 175
+  },
+  {
+    "id": "relic-sets",
+    "label": "Relic Sets",
+    "sourcePath": "/star-rail/guides/relic-sets",
+    "file": "Prydwen/hsr/collections/relic-sets.json",
+    "detailPagesTotal": 0,
+    "detailPagesScraped": 0,
+    "staleDetailPagesRemoved": 0,
+    "entries": 58,
+    "assets": 59
+  }
+]

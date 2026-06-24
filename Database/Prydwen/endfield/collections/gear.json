@@ -11,7 +11,7 @@
   "sourcePath": "/arknights-endfield/gear",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-06-10T22:44:44.684Z",
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
   "updatedText": "05/June/2026",
   "meta": {
     "title": "Gear | Arknights: Endfield",
@@ -7583,5 +7583,6 @@
     }
   ],
   "detailPagesScraped": 0,
-  "detailPagesTotal": 0
+  "detailPagesTotal": 0,
+  "staleDetailPagesRemoved": 0
 }

@@ -1,0 +1,546 @@
+{
+  "provider": "Prydwen",
+  "game": "zzz",
+  "collection": "characters",
+  "sourcePath": "/zenless/characters",
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "detailPagesTotal": 64,
+  "detailPagesScraped": 64,
+  "staleDetailPagesRemoved": 0,
+  "items": [
+    {
+      "id": "alice",
+      "slug": "alice",
+      "name": "Alice",
+      "sourcePath": "/zenless/characters/alice",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "anby-demara",
+      "slug": "anby-demara",
+      "name": "Anby",
+      "sourcePath": "/zenless/characters/anby-demara",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "anby-demara-soldier-0",
+      "slug": "anby-demara-soldier-0",
+      "name": "Anby: Soldier 0",
+      "sourcePath": "/zenless/characters/anby-demara-soldier-0",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "anton",
+      "slug": "anton",
+      "name": "Anton",
+      "sourcePath": "/zenless/characters/anton",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "aria",
+      "slug": "aria",
+      "name": "Aria",
+      "sourcePath": "/zenless/characters/aria",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "astra-yao",
+      "slug": "astra-yao",
+      "name": "Astra Yao",
+      "sourcePath": "/zenless/characters/astra-yao",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "banyue",
+      "slug": "banyue",
+      "name": "Banyue",
+      "sourcePath": "/zenless/characters/banyue",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "ben",
+      "slug": "ben",
+      "name": "Ben",
+      "sourcePath": "/zenless/characters/ben",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "billy-kid",
+      "slug": "billy-kid",
+      "name": "Billy",
+      "sourcePath": "/zenless/characters/billy-kid",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "billy-starlight",
+      "slug": "billy-starlight",
+      "name": "Billy - Starlight",
+      "sourcePath": "/zenless/characters/billy-starlight",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "burnice",
+      "slug": "burnice",
+      "name": "Burnice",
+      "sourcePath": "/zenless/characters/burnice",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "caesar",
+      "slug": "caesar",
+      "name": "Caesar",
+      "sourcePath": "/zenless/characters/caesar",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "cissia",
+      "slug": "cissia",
+      "name": "Cissia",
+      "sourcePath": "/zenless/characters/cissia",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "claret",
+      "slug": "claret",
+      "name": "Claret 3.x",
+      "sourcePath": "/zenless/characters/claret",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.x"
+      ]
+    },
+    {
+      "id": "corin",
+      "slug": "corin",
+      "name": "Corin",
+      "sourcePath": "/zenless/characters/corin",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "dialyn",
+      "slug": "dialyn",
+      "name": "Dialyn",
+      "sourcePath": "/zenless/characters/dialyn",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "ellen",
+      "slug": "ellen",
+      "name": "Ellen",
+      "sourcePath": "/zenless/characters/ellen",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "evelyn",
+      "slug": "evelyn",
+      "name": "Evelyn",
+      "sourcePath": "/zenless/characters/evelyn",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "grace-howard",
+      "slug": "grace-howard",
+      "name": "Grace",
+      "sourcePath": "/zenless/characters/grace-howard",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "harumasa",
+      "slug": "harumasa",
+      "name": "Harumasa",
+      "sourcePath": "/zenless/characters/harumasa",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "hugo",
+      "slug": "hugo",
+      "name": "Hugo",
+      "sourcePath": "/zenless/characters/hugo",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "jane-doe",
+      "slug": "jane-doe",
+      "name": "Jane Doe",
+      "sourcePath": "/zenless/characters/jane-doe",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "ju-fufu",
+      "slug": "ju-fufu",
+      "name": "Ju Fufu",
+      "sourcePath": "/zenless/characters/ju-fufu",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "koleda",
+      "slug": "koleda",
+      "name": "Koleda",
+      "sourcePath": "/zenless/characters/koleda",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "lighter",
+      "slug": "lighter",
+      "name": "Lighter",
+      "sourcePath": "/zenless/characters/lighter",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "lucia",
+      "slug": "lucia",
+      "name": "Lucia",
+      "sourcePath": "/zenless/characters/lucia",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "lucy",
+      "slug": "lucy",
+      "name": "Lucy",
+      "sourcePath": "/zenless/characters/lucy",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "lycaon",
+      "slug": "lycaon",
+      "name": "Lycaon",
+      "sourcePath": "/zenless/characters/lycaon",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "manato",
+      "slug": "manato",
+      "name": "Manato",
+      "sourcePath": "/zenless/characters/manato",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "miyabi",
+      "slug": "miyabi",
+      "name": "Miyabi",
+      "sourcePath": "/zenless/characters/miyabi",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "nangong-yu",
+      "slug": "nangong-yu",
+      "name": "Nangong Yu",
+      "sourcePath": "/zenless/characters/nangong-yu",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "nekomata",
+      "slug": "nekomata",
+      "name": "Nekomata",
+      "sourcePath": "/zenless/characters/nekomata",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "nicole-demara",
+      "slug": "nicole-demara",
+      "name": "Nicole",
+      "sourcePath": "/zenless/characters/nicole-demara",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "norma",
+      "slug": "norma",
+      "name": "Norma 3.0",
+      "sourcePath": "/zenless/characters/norma",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.0"
+      ]
+    },
+    {
+      "id": "orphie-and-magus",
+      "slug": "orphie-and-magus",
+      "name": "Orphie & Magus",
+      "sourcePath": "/zenless/characters/orphie-and-magus",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "pan-yinhu",
+      "slug": "pan-yinhu",
+      "name": "Pan Yinhu",
+      "sourcePath": "/zenless/characters/pan-yinhu",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "phoenix",
+      "slug": "phoenix",
+      "name": "Phoenix 3.x",
+      "sourcePath": "/zenless/characters/phoenix",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.x"
+      ]
+    },
+    {
+      "id": "piper",
+      "slug": "piper",
+      "name": "Piper",
+      "sourcePath": "/zenless/characters/piper",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "promeia",
+      "slug": "promeia",
+      "name": "Promeia",
+      "sourcePath": "/zenless/characters/promeia",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "pulchra",
+      "slug": "pulchra",
+      "name": "Pulchra",
+      "sourcePath": "/zenless/characters/pulchra",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "pyrois",
+      "slug": "pyrois",
+      "name": "Pyrois New",
+      "sourcePath": "/zenless/characters/pyrois",
+      "contentStatus": "live",
+      "statusLabels": [
+        "New"
+      ]
+    },
+    {
+      "id": "qingyi",
+      "slug": "qingyi",
+      "name": "Qingyi",
+      "sourcePath": "/zenless/characters/qingyi",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "remielle",
+      "slug": "remielle",
+      "name": "Remielle 3.x",
+      "sourcePath": "/zenless/characters/remielle",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.x"
+      ]
+    },
+    {
+      "id": "rina",
+      "slug": "rina",
+      "name": "Rina",
+      "sourcePath": "/zenless/characters/rina",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "roxy",
+      "slug": "roxy",
+      "name": "Roxy 3.x",
+      "sourcePath": "/zenless/characters/roxy",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.x"
+      ]
+    },
+    {
+      "id": "seed",
+      "slug": "seed",
+      "name": "Seed",
+      "sourcePath": "/zenless/characters/seed",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "seth",
+      "slug": "seth",
+      "name": "Seth",
+      "sourcePath": "/zenless/characters/seth",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "severian",
+      "slug": "severian",
+      "name": "Severian 3.x",
+      "sourcePath": "/zenless/characters/severian",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.x"
+      ]
+    },
+    {
+      "id": "sigrid",
+      "slug": "sigrid",
+      "name": "Sigrid 3.1",
+      "sourcePath": "/zenless/characters/sigrid",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.1"
+      ]
+    },
+    {
+      "id": "soldier-11",
+      "slug": "soldier-11",
+      "name": "Soldier 11",
+      "sourcePath": "/zenless/characters/soldier-11",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "soukaku",
+      "slug": "soukaku",
+      "name": "Soukaku",
+      "sourcePath": "/zenless/characters/soukaku",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "sunbringer",
+      "slug": "sunbringer",
+      "name": "Sunbringer 3.x",
+      "sourcePath": "/zenless/characters/sunbringer",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.x"
+      ]
+    },
+    {
+      "id": "sunna",
+      "slug": "sunna",
+      "name": "Sunna",
+      "sourcePath": "/zenless/characters/sunna",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "the-storyteller",
+      "slug": "the-storyteller",
+      "name": "The Storyteller 3.x",
+      "sourcePath": "/zenless/characters/the-storyteller",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.x"
+      ]
+    },
+    {
+      "id": "trigger",
+      "slug": "trigger",
+      "name": "Trigger",
+      "sourcePath": "/zenless/characters/trigger",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "velina",
+      "slug": "velina",
+      "name": "Velina New",
+      "sourcePath": "/zenless/characters/velina",
+      "contentStatus": "live",
+      "statusLabels": [
+        "New"
+      ]
+    },
+    {
+      "id": "vivian",
+      "slug": "vivian",
+      "name": "Vivian",
+      "sourcePath": "/zenless/characters/vivian",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "yanagi",
+      "slug": "yanagi",
+      "name": "Yanagi",
+      "sourcePath": "/zenless/characters/yanagi",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "ye-shunguang",
+      "slug": "ye-shunguang",
+      "name": "Ye Shunguang",
+      "sourcePath": "/zenless/characters/ye-shunguang",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "yidhari",
+      "slug": "yidhari",
+      "name": "Yidhari",
+      "sourcePath": "/zenless/characters/yidhari",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "yixuan",
+      "slug": "yixuan",
+      "name": "Yixuan",
+      "sourcePath": "/zenless/characters/yixuan",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "ukinami-yuzuha",
+      "slug": "ukinami-yuzuha",
+      "name": "Yuzuha",
+      "sourcePath": "/zenless/characters/ukinami-yuzuha",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "zhao",
+      "slug": "zhao",
+      "name": "Zhao",
+      "sourcePath": "/zenless/characters/zhao",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "zhu-yuan",
+      "slug": "zhu-yuan",
+      "name": "Zhu Yuan",
+      "sourcePath": "/zenless/characters/zhu-yuan",
+      "contentStatus": "live",
+      "statusLabels": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "sample": null,
+  "source": {
+    "site": "prydwen.gg",
+    "basePath": "/star-rail"
+  },
+  "counts": {
+    "collections": 3,
+    "records": 93,
+    "characters": 90,
+    "assetsPlanned": 714,
+    "errors": 0
+  },
+  "files": {
+    "collections": "Prydwen/hsr/collections.json",
+    "characters": "Prydwen/hsr/characters.json",
+    "collectionPages": "Prydwen/hsr/collections",
+    "detailPages": "Prydwen/hsr/pages",
+    "assets": "Prydwen/hsr/assets",
+    "missingAssets": "Prydwen/hsr/missing-assets.json"
+  },
+  "assets": {
+    "requested": 714,
+    "downloaded": 307,
+    "cached": 407,
+    "missing": 0
+  },
+  "errors": [],
+  "notes": [
+    "Prydwen does not expose Nanoka-style game version switching; preview/beta status is inferred from index labels such as Soon or future-version badges.",
+    "Normalized JSON stores local database-relative asset paths and source paths only, not remote URLs."
+  ],
+  "changeReport": "Prydwen/changes/hsr-latest.json"
+}

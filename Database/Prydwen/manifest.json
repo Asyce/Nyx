@@ -1,6 +1,6 @@
 {
   "provider": "Prydwen",
-  "generatedAt": "2026-06-10T22:44:44.684Z",
+  "generatedAt": "2026-06-22T21:01:58.312Z",
   "games": {
     "hsr": {
       "game": "hsr",
@@ -9,21 +9,21 @@
         "collections": 3,
         "records": 93,
         "characters": 90,
-        "assetsPlanned": 713,
+        "assetsPlanned": 714,
         "errors": 0
       },
       "assets": {
-        "requested": 713,
-        "downloaded": 0,
-        "cached": 713,
+        "requested": 714,
+        "downloaded": 307,
+        "cached": 407,
         "missing": 0
       },
       "changes": {
         "records": {
-          "added": 91,
+          "added": 93,
           "removed": 0,
           "changed": 0,
-          "unchanged": 2
+          "unchanged": 0
         }
       }
     },
@@ -32,23 +32,23 @@
       "gameName": "Wuthering Waves",
       "counts": {
         "collections": 3,
-        "records": 56,
-        "characters": 53,
-        "assetsPlanned": 495,
+        "records": 62,
+        "characters": 59,
+        "assetsPlanned": 508,
         "errors": 0
       },
       "assets": {
-        "requested": 495,
-        "downloaded": 0,
-        "cached": 495,
+        "requested": 508,
+        "downloaded": 299,
+        "cached": 209,
         "missing": 0
       },
       "changes": {
         "records": {
-          "added": 54,
+          "added": 62,
           "removed": 0,
           "changed": 0,
-          "unchanged": 2
+          "unchanged": 0
         }
       }
     },
@@ -59,21 +59,21 @@
         "collections": 4,
         "records": 68,
         "characters": 64,
-        "assetsPlanned": 321,
+        "assetsPlanned": 385,
         "errors": 0
       },
       "assets": {
-        "requested": 321,
-        "downloaded": 0,
-        "cached": 320,
+        "requested": 385,
+        "downloaded": 210,
+        "cached": 174,
         "missing": 1
       },
       "changes": {
         "records": {
-          "added": 65,
+          "added": 68,
           "removed": 0,
           "changed": 0,
-          "unchanged": 3
+          "unchanged": 0
         }
       }
     },
@@ -89,16 +89,16 @@
       },
       "assets": {
         "requested": 286,
-        "downloaded": 0,
-        "cached": 286,
+        "downloaded": 106,
+        "cached": 180,
         "missing": 0
       },
       "changes": {
         "records": {
-          "added": 29,
+          "added": 31,
           "removed": 0,
           "changed": 0,
-          "unchanged": 2
+          "unchanged": 0
         }
       }
     }

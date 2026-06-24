@@ -1,0 +1,952 @@
+{
+  "generatedAt": "2026-06-22T21:07:27.269Z",
+  "source": "Honkai: Star Rail Wiki / Fandom MediaWiki API",
+  "sourceExample": "https://honkai-star-rail.fandom.com/wiki/Patience_Is_All_You_Need",
+  "minRarity": 5,
+  "startedAt": "2026-06-22T21:06:38.335Z",
+  "lightCones": [
+    {
+      "id": "23034",
+      "name": "A Grounded Ascent",
+      "key": "agroundedascent",
+      "rarity": 5,
+      "path": "Shaman",
+      "status": "ok",
+      "characters": [
+        "Sunday"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23034.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23034.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/A_Grounded_Ascent"
+    },
+    {
+      "id": "23045",
+      "name": "A Thankless Coronation",
+      "key": "athanklesscoronation",
+      "rarity": 5,
+      "path": "Warrior",
+      "status": "ok",
+      "characters": [
+        "Saber"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23045.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23045.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/A_Thankless_Coronation"
+    },
+    {
+      "id": "23024",
+      "name": "Along the Passing Shore",
+      "key": "alongthepassingshore",
+      "rarity": 5,
+      "path": "Warlock",
+      "status": "ok",
+      "characters": [
+        "Acheron"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23024.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23024.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Along_the_Passing_Shore"
+    },
+    {
+      "id": "23018",
+      "name": "An Instant Before A Gaze",
+      "key": "aninstantbeforeagaze",
+      "rarity": 5,
+      "path": "Mage",
+      "status": "ok",
+      "characters": [
+        "Argenti",
+        "Idrila"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23018.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23018.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/An_Instant_Before_A_Gaze"
+    },
+    {
+      "id": "23020",
+      "name": "Baptism of Pure Thought",
+      "key": "baptismofpurethought",
+      "rarity": 5,
+      "path": "Rogue",
+      "status": "ok",
+      "characters": [
+        "Dr. Ratio"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23020.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23020.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Baptism_of_Pure_Thought"
+    },
+    {
+      "id": "23010",
+      "name": "Before Dawn",
+      "key": "beforedawn",
+      "rarity": 5,
+      "path": "Mage",
+      "status": "ok",
+      "characters": [
+        "Jing Yuan"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23010.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23010.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Before_Dawn"
+    },
+    {
+      "id": "23015",
+      "name": "Brighter Than the Sun",
+      "key": "brighterthanthesun",
+      "rarity": 5,
+      "path": "Warrior",
+      "status": "ok",
+      "characters": [
+        "Dan Heng • Imbibitor Lunae"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23015.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23015.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Brighter_Than_the_Sun"
+    },
+    {
+      "id": "23003",
+      "name": "But the Battle Isn't Over",
+      "key": "butthebattleisntover",
+      "rarity": 5,
+      "path": "Shaman",
+      "status": "ok",
+      "characters": [
+        "Bronya",
+        "Silvermane Lieutenant"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23003.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23003.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/But_the_Battle_Isn't_Over"
+    },
+    {
+      "id": "24001",
+      "name": "Cruising in the Stellar Sea",
+      "key": "cruisinginthestellarsea",
+      "rarity": 5,
+      "path": "Rogue",
+      "status": "no-featured-character",
+      "characters": [],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/24001.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/24001.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Cruising_in_the_Stellar_Sea"
+    },
+    {
+      "id": "23030",
+      "name": "Dance at Sunset",
+      "key": "danceatsunset",
+      "rarity": 5,
+      "path": "Warrior",
+      "status": "ok",
+      "characters": [
+        "Yunli"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23030.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23030.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Dance_at_Sunset"
+    },
+    {
+      "id": "23053",
+      "name": "Dazzled by a Flowery World",
+      "key": "dazzledbyafloweryworld",
+      "rarity": 5,
+      "path": "Elation",
+      "status": "ok",
+      "characters": [
+        "Sparxie"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23053.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23053.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Dazzled_by_a_Flowery_World"
+    },
+    {
+      "id": "23021",
+      "name": "Earthly Escapade",
+      "key": "earthlyescapade",
+      "rarity": 5,
+      "path": "Shaman",
+      "status": "ok",
+      "characters": [
+        "Sparkle"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23021.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23021.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Earthly_Escapade"
+    },
+    {
+      "id": "23008",
+      "name": "Echoes of the Coffin",
+      "key": "echoesofthecoffin",
+      "rarity": 5,
+      "path": "Priest",
+      "status": "ok",
+      "characters": [
+        "Luocha"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23008.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23008.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Echoes_of_the_Coffin"
+    },
+    {
+      "id": "24006",
+      "name": "Elation Brimming With Blessings",
+      "key": "elationbrimmingwithblessings",
+      "rarity": 5,
+      "path": "Elation",
+      "status": "ok",
+      "characters": [
+        "Aha",
+        "Ruan Mei",
+        "Screwllum",
+        "The Herta"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/24006.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/24006.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Elation_Brimming_With_Blessings"
+    },
+    {
+      "id": "23048",
+      "name": "Epoch Etched in Golden Blood",
+      "key": "epochetchedingoldenblood",
+      "rarity": 5,
+      "path": "Shaman",
+      "status": "ok",
+      "characters": [
+        "Cerydra"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23048.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23048.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Epoch_Etched_in_Golden_Blood"
+    },
+    {
+      "id": "24004",
+      "name": "Eternal Calculus",
+      "key": "eternalcalculus",
+      "rarity": 5,
+      "path": "Mage",
+      "status": "ok",
+      "characters": [
+        "Nous"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/24004.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/24004.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Eternal_Calculus"
+    },
+    {
+      "id": "23039",
+      "name": "Flame of Blood, Blaze My Path",
+      "key": "flameofbloodblazemypath",
+      "rarity": 5,
+      "path": "Warrior",
+      "status": "ok",
+      "characters": [
+        "Mydei"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23039.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23039.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Flame_of_Blood%2C_Blaze_My_Path"
+    },
+    {
+      "id": "23026",
+      "name": "Flowing Nightglow",
+      "key": "flowingnightglow",
+      "rarity": 5,
+      "path": "Shaman",
+      "status": "ok",
+      "characters": [
+        "Robin"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23026.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23026.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Flowing_Nightglow"
+    },
+    {
+      "id": "23014",
+      "name": "I Shall Be My Own Sword",
+      "key": "ishallbemyownsword",
+      "rarity": 5,
+      "path": "Warrior",
+      "status": "ok",
+      "characters": [
+        "Jingliu",
+        "Shard Sword (Weapon)"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23014.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23014.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/I_Shall_Be_My_Own_Sword"
+    },
+    {
+      "id": "23031",
+      "name": "I Venture Forth to Hunt",
+      "key": "iventureforthtohunt",
+      "rarity": 5,
+      "path": "Rogue",
+      "status": "ok",
+      "characters": [
+        "Feixiao"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23031.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23031.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/I_Venture_Forth_to_Hunt"
+    },
+    {
+      "id": "23038",
+      "name": "If Time Were a Flower",
+      "key": "iftimewereaflower",
+      "rarity": 5,
+      "path": "Shaman",
+      "status": "ok",
+      "characters": [
+        "Trianne",
+        "Tribbie",
+        "Trinnon"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23038.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23038.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/If_Time_Were_a_Flower"
+    },
+    {
+      "id": "23004",
+      "name": "In the Name of the World",
+      "key": "inthenameoftheworld",
+      "rarity": 5,
+      "path": "Warlock",
+      "status": "ok",
+      "characters": [
+        "Welt"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23004.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23004.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/In_the_Name_of_the_World"
+    },
+    {
+      "id": "23001",
+      "name": "In the Night",
+      "key": "inthenight",
+      "rarity": 5,
+      "path": "Rogue",
+      "status": "ok",
+      "characters": [
+        "Seele"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23001.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23001.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/In_the_Night"
+    },
+    {
+      "id": "23007",
+      "name": "Incessant Rain",
+      "key": "incessantrain",
+      "rarity": 5,
+      "path": "Warlock",
+      "status": "ok",
+      "characters": [
+        "Silver Wolf"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23007.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23007.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Incessant_Rain"
+    },
+    {
+      "id": "23023",
+      "name": "Inherently Unjust Destiny",
+      "key": "inherentlyunjustdestiny",
+      "rarity": 5,
+      "path": "Knight",
+      "status": "ok",
+      "characters": [
+        "Aventurine"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23023.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23023.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Inherently_Unjust_Destiny"
+    },
+    {
+      "id": "23037",
+      "name": "Into the Unreachable Veil",
+      "key": "intotheunreachableveil",
+      "rarity": 5,
+      "path": "Mage",
+      "status": "ok",
+      "characters": [
+        "The Herta"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23037.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23037.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Into_the_Unreachable_Veil"
+    },
+    {
+      "id": "23043",
+      "name": "Lies Dance on the Breeze",
+      "key": "liesdanceonthebreeze",
+      "rarity": 5,
+      "path": "Warlock",
+      "status": "ok",
+      "characters": [
+        "Cipher"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23043.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23043.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Lies_Dance_on_the_Breeze"
+    },
+    {
+      "id": "23041",
+      "name": "Life Should Be Cast to Flames",
+      "key": "lifeshouldbecasttoflames",
+      "rarity": 5,
+      "path": "Mage",
+      "status": "ok",
+      "characters": [
+        "Anaxa"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23041.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23041.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Life_Should_Be_Cast_to_Flames"
+    },
+    {
+      "id": "23042",
+      "name": "Long May Rainbows Adorn the Sky",
+      "key": "longmayrainbowsadornthesky",
+      "rarity": 5,
+      "path": "Memory",
+      "status": "ok",
+      "characters": [
+        "Hyacine",
+        "Little Ica"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23042.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23042.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Long_May_Rainbows_Adorn_the_Sky"
+    },
+    {
+      "id": "23035",
+      "name": "Long Road Leads Home",
+      "key": "longroadleadshome",
+      "rarity": 5,
+      "path": "Warlock",
+      "status": "ok",
+      "characters": [
+        "Fugue"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23035.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23035.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Long_Road_Leads_Home"
+    },
+    {
+      "id": "23040",
+      "name": "Make Farewells More Beautiful",
+      "key": "makefarewellsmorebeautiful",
+      "rarity": 5,
+      "path": "Memory",
+      "status": "ok",
+      "characters": [
+        "Castorice"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23040.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23040.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Make_Farewells_More_Beautiful"
+    },
+    {
+      "id": "24005",
+      "name": "Memory's Curtain Never Falls",
+      "key": "memoryscurtainneverfalls",
+      "rarity": 5,
+      "path": "Memory",
+      "status": "no-featured-character",
+      "characters": [],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/24005.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/24005.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Memory's_Curtain_Never_Falls"
+    },
+    {
+      "id": "23005",
+      "name": "Moment of Victory",
+      "key": "momentofvictory",
+      "rarity": 5,
+      "path": "Knight",
+      "status": "ok",
+      "characters": [
+        "Gepard"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23005.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23005.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Moment_of_Victory"
+    },
+    {
+      "id": "23050",
+      "name": "Never Forget Her Flame",
+      "key": "neverforgetherflame",
+      "rarity": 5,
+      "path": "Warlock",
+      "status": "ok",
+      "characters": [
+        "The Dahlia"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23050.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23050.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Never_Forget_Her_Flame"
+    },
+    {
+      "id": "23017",
+      "name": "Night of Fright",
+      "key": "nightoffright",
+      "rarity": 5,
+      "path": "Priest",
+      "status": "ok",
+      "characters": [
+        "Huohuo",
+        "Tail"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23017.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23017.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Night_of_Fright"
+    },
+    {
+      "id": "23000",
+      "name": "Night on the Milky Way",
+      "key": "nightonthemilkyway",
+      "rarity": 5,
+      "path": "Mage",
+      "status": "ok",
+      "characters": [
+        "Himeko"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23000.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23000.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Night_on_the_Milky_Way"
+    },
+    {
+      "id": "23033",
+      "name": "Ninjutsu Inscription: Dazzling Evilbreaker",
+      "key": "ninjutsuinscriptiondazzlingevilbreaker",
+      "rarity": 5,
+      "path": "Mage",
+      "status": "ok",
+      "characters": [
+        "Rappa"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23033.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23033.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Ninjutsu_Inscription%3A_Dazzling_Evilbreaker"
+    },
+    {
+      "id": "24000",
+      "name": "On the Fall of an Aeon",
+      "key": "onthefallofanaeon",
+      "rarity": 5,
+      "path": "Warrior",
+      "status": "ok",
+      "characters": [
+        "Tayzzyronth",
+        "The Swarm"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/24000.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/24000.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/On_the_Fall_of_an_Aeon"
+    },
+    {
+      "id": "23019",
+      "name": "Past Self in Mirror",
+      "key": "pastselfinmirror",
+      "rarity": 5,
+      "path": "Shaman",
+      "status": "ok",
+      "characters": [
+        "Ruan Mei"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23019.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23019.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Past_Self_in_Mirror"
+    },
+    {
+      "id": "23006",
+      "name": "Patience Is All You Need",
+      "key": "patienceisallyouneed",
+      "rarity": 5,
+      "path": "Warlock",
+      "status": "ok",
+      "characters": [
+        "Kafka"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23006.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23006.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Patience_Is_All_You_Need"
+    },
+    {
+      "id": "23059",
+      "name": "Reforged in Hellfire",
+      "key": "reforgedinhellfire",
+      "rarity": 5,
+      "path": "Warlock",
+      "status": "ok",
+      "characters": [
+        "Mortenax Blade"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23059.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23059.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Reforged_in_Hellfire"
+    },
+    {
+      "id": "23022",
+      "name": "Reforged Remembrance",
+      "key": "reforgedremembrance",
+      "rarity": 5,
+      "path": "Warlock",
+      "status": "ok",
+      "characters": [
+        "Black Swan"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23022.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23022.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Reforged_Remembrance"
+    },
+    {
+      "id": "23027",
+      "name": "Sailing Towards a Second Life",
+      "key": "sailingtowardsasecondlife",
+      "rarity": 5,
+      "path": "Rogue",
+      "status": "ok",
+      "characters": [
+        "Boothill"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23027.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23027.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Sailing_Towards_a_Second_Life"
+    },
+    {
+      "id": "23032",
+      "name": "Scent Alone Stays True",
+      "key": "scentalonestaystrue",
+      "rarity": 5,
+      "path": "Priest",
+      "status": "ok",
+      "characters": [
+        "Lingsha"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23032.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23032.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Scent_Alone_Stays_True"
+    },
+    {
+      "id": "23011",
+      "name": "She Already Shut Her Eyes",
+      "key": "shealreadyshuthereyes",
+      "rarity": 5,
+      "path": "Knight",
+      "status": "ok",
+      "characters": [
+        "Fu Xuan"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23011.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23011.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/She_Already_Shut_Her_Eyes"
+    },
+    {
+      "id": "23012",
+      "name": "Sleep Like the Dead",
+      "key": "sleeplikethedead",
+      "rarity": 5,
+      "path": "Rogue",
+      "status": "ok",
+      "characters": [
+        "Jing Yuan",
+        "Yanqing"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23012.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23012.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Sleep_Like_the_Dead"
+    },
+    {
+      "id": "24003",
+      "name": "Solitary Healing",
+      "key": "solitaryhealing",
+      "rarity": 5,
+      "path": "Warlock",
+      "status": "no-featured-character",
+      "characters": [],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/24003.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/24003.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Solitary_Healing"
+    },
+    {
+      "id": "23002",
+      "name": "Something Irreplaceable",
+      "key": "somethingirreplaceable",
+      "rarity": 5,
+      "path": "Warrior",
+      "status": "ok",
+      "characters": [
+        "Clara",
+        "Svarog"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23002.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23002.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Something_Irreplaceable"
+    },
+    {
+      "id": "24002",
+      "name": "Texture of Memories",
+      "key": "textureofmemories",
+      "rarity": 5,
+      "path": "Knight",
+      "status": "no-featured-character",
+      "characters": [],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/24002.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/24002.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Texture_of_Memories"
+    },
+    {
+      "id": "23056",
+      "name": "The Finale of a Lie",
+      "key": "thefinaleofalie",
+      "rarity": 5,
+      "path": "Rogue",
+      "status": "ok",
+      "characters": [
+        "Ashveil"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23056.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23056.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/The_Finale_of_a_Lie"
+    },
+    {
+      "id": "23046",
+      "name": "The Hell Where Ideals Burn",
+      "key": "thehellwhereidealsburn",
+      "rarity": 5,
+      "path": "Rogue",
+      "status": "ok",
+      "characters": [
+        "Archer"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23046.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23046.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/The_Hell_Where_Ideals_Burn"
+    },
+    {
+      "id": "23009",
+      "name": "The Unreachable Side",
+      "key": "theunreachableside",
+      "rarity": 5,
+      "path": "Warrior",
+      "status": "ok",
+      "characters": [
+        "Blade"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23009.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23009.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/The_Unreachable_Side"
+    },
+    {
+      "id": "23052",
+      "name": "This Love, Forever",
+      "key": "thisloveforever",
+      "rarity": 5,
+      "path": "Memory",
+      "status": "ok",
+      "characters": [
+        "Cyrene"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23052.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23052.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/This_Love%2C_Forever"
+    },
+    {
+      "id": "23029",
+      "name": "Those Many Springs",
+      "key": "thosemanysprings",
+      "rarity": 5,
+      "path": "Warlock",
+      "status": "ok",
+      "characters": [
+        "Jiaoqiu"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23029.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23029.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Those_Many_Springs"
+    },
+    {
+      "id": "23051",
+      "name": "Though Worlds Apart",
+      "key": "thoughworldsapart",
+      "rarity": 5,
+      "path": "Knight",
+      "status": "ok",
+      "characters": [
+        "Dan Feng",
+        "Dan Heng • Permansor Terrae"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23051.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23051.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Though_Worlds_Apart"
+    },
+    {
+      "id": "23044",
+      "name": "Thus Burns the Dawn",
+      "key": "thusburnsthedawn",
+      "rarity": 5,
+      "path": "Warrior",
+      "status": "ok",
+      "characters": [
+        "Phainon"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23044.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23044.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Thus_Burns_the_Dawn"
+    },
+    {
+      "id": "23013",
+      "name": "Time Waits for No One",
+      "key": "timewaitsfornoone",
+      "rarity": 5,
+      "path": "Priest",
+      "status": "ok",
+      "characters": [
+        "Bailu"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23013.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23013.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Time_Waits_for_No_One"
+    },
+    {
+      "id": "23036",
+      "name": "Time Woven Into Gold",
+      "key": "timewovenintogold",
+      "rarity": 5,
+      "path": "Memory",
+      "status": "ok",
+      "characters": [
+        "Aglaea",
+        "Garmentmaker"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23036.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23036.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Time_Woven_Into_Gold"
+    },
+    {
+      "id": "23049",
+      "name": "To Evernight's Stars",
+      "key": "toevernightsstars",
+      "rarity": 5,
+      "path": "Memory",
+      "status": "ok",
+      "characters": [
+        "Evernight",
+        "March 7th"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23049.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23049.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/To_Evernight's_Stars"
+    },
+    {
+      "id": "23058",
+      "name": "Until the Flowers Bloom Again",
+      "key": "untiltheflowersbloomagain",
+      "rarity": 5,
+      "path": "Elation",
+      "status": "ok",
+      "characters": [
+        "Evanescia"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23058.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23058.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Until_the_Flowers_Bloom_Again"
+    },
+    {
+      "id": "23057",
+      "name": "Welcome to the Cosmic City",
+      "key": "welcometothecosmiccity",
+      "rarity": 5,
+      "path": "Elation",
+      "status": "ok",
+      "characters": [
+        "Silver Wolf LV.999"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23057.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23057.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Welcome_to_the_Cosmic_City"
+    },
+    {
+      "id": "23054",
+      "name": "When She Decided to See",
+      "key": "whenshedecidedtosee",
+      "rarity": 5,
+      "path": "Elation",
+      "status": "ok",
+      "characters": [
+        "Yao Guang"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23054.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23054.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/When_She_Decided_to_See"
+    },
+    {
+      "id": "23025",
+      "name": "Whereabouts Should Dreams Rest",
+      "key": "whereaboutsshoulddreamsrest",
+      "rarity": 5,
+      "path": "Warrior",
+      "status": "ok",
+      "characters": [
+        "Firefly"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23025.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23025.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Whereabouts_Should_Dreams_Rest"
+    },
+    {
+      "id": "23047",
+      "name": "Why Does the Ocean Sing",
+      "key": "whydoestheoceansing",
+      "rarity": 5,
+      "path": "Warlock",
+      "status": "ok",
+      "characters": [
+        "Hysilens"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23047.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23047.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Why_Does_the_Ocean_Sing"
+    },
+    {
+      "id": "23016",
+      "name": "Worrisome, Blissful",
+      "key": "worrisomeblissful",
+      "rarity": 5,
+      "path": "Rogue",
+      "status": "ok",
+      "characters": [
+        "Topaz & Numby"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23016.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23016.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Worrisome%2C_Blissful"
+    },
+    {
+      "id": "23028",
+      "name": "Yet Hope Is Priceless",
+      "key": "yethopeispriceless",
+      "rarity": 5,
+      "path": "Mage",
+      "status": "ok",
+      "characters": [
+        "Jade"
+      ],
+      "localAsset": "Nanoka/hsr/assets/lightcones/full/23028.webp",
+      "localIcon": "Nanoka/hsr/assets/lightcones/medium/23028.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Yet_Hope_Is_Priceless"
+    }
+  ],
+  "summary": {
+    "total": 66,
+    "withFeaturedCharacters": 62,
+    "noFeaturedCharacters": [
+      "Cruising in the Stellar Sea",
+      "Memory's Curtain Never Falls",
+      "Solitary Healing",
+      "Texture of Memories"
+    ],
+    "errors": []
+  }
+}

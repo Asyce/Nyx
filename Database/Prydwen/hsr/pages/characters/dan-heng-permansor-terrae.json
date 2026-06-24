@@ -1,0 +1,1950 @@
+{
+  "id": "characters:dan-heng-permansor-terrae",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "dan-heng-permansor-terrae",
+  "name": "Dan Heng • Permansor Terrae",
+  "title": "Dan Heng • Permansor Terrae Best Build Guide",
+  "sourcePath": "/star-rail/characters/dan-heng-permansor-terrae",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "31/May/2026",
+  "meta": {
+    "title": "Dan Heng • Permansor Terrae Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Physical",
+    "path": "Preservation"
+  },
+  "assets": [
+    {
+      "id": "5a8994b046b4",
+      "sourceHash": "5a8994b046b4",
+      "kind": "characters",
+      "name": "Dan Heng • Permansor Terrae",
+      "fileStem": "dan-heng-permansor-terrae-card",
+      "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-5a8994b046b4.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "dc6aec4a7776",
+      "sourceHash": "dc6aec4a7776",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "087f2dec68b6",
+      "sourceHash": "087f2dec68b6",
+      "kind": "icons",
+      "name": "Speed",
+      "fileStem": "stat-speed",
+      "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "a6be649090ba",
+      "sourceHash": "a6be649090ba",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "96654253a4f7",
+      "sourceHash": "96654253a4f7",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "50d0e755383a",
+      "sourceHash": "50d0e755383a",
+      "kind": "items",
+      "name": "Credit",
+      "fileStem": "credit",
+      "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "2649302b2177",
+      "sourceHash": "2649302b2177",
+      "kind": "items",
+      "name": "Fear-Stomped Flesh",
+      "fileStem": "fear-stomped-flesh",
+      "path": "Prydwen/hsr/assets/items/fear-stomped-flesh-2649302b2177.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "bd0c01055352",
+      "sourceHash": "bd0c01055352",
+      "kind": "items",
+      "name": "Courage-Torn Chest",
+      "fileStem": "courage-torn-chest",
+      "path": "Prydwen/hsr/assets/items/courage-torn-chest-bd0c01055352.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "b44caf6c0187",
+      "sourceHash": "b44caf6c0187",
+      "kind": "items",
+      "name": "Invasive Clot",
+      "fileStem": "invasive-clot",
+      "path": "Prydwen/hsr/assets/items/invasive-clot-b44caf6c0187.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "8b0d54e34ba4",
+      "sourceHash": "8b0d54e34ba4",
+      "kind": "items",
+      "name": "Glory-Aspersed Torso",
+      "fileStem": "glory-aspersed-torso",
+      "path": "Prydwen/hsr/assets/items/glory-aspersed-torso-8b0d54e34ba4.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "5d790d1ba159",
+      "sourceHash": "5d790d1ba159",
+      "kind": "characters",
+      "name": "Dan Heng • Permansor Terrae",
+      "fileStem": "dan-heng-permansor-terrae-full",
+      "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-5d790d1ba159.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "2041c8585818",
+      "sourceHash": "2041c8585818",
+      "kind": "light-cones",
+      "name": "Though Worlds Apart",
+      "fileStem": "though-worlds-apart",
+      "path": "Prydwen/hsr/assets/light-cones/though-worlds-apart-2041c8585818.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "963c878b9eab",
+      "sourceHash": "963c878b9eab",
+      "kind": "light-cones",
+      "name": "Journey, Forever Peaceful",
+      "fileStem": "journey-forever-peaceful",
+      "path": "Prydwen/hsr/assets/light-cones/journey-forever-peaceful-963c878b9eab.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "40af809ee965",
+      "sourceHash": "40af809ee965",
+      "kind": "light-cones",
+      "name": "Thus Burns the Dawn",
+      "fileStem": "thus-burns-the-dawn",
+      "path": "Prydwen/hsr/assets/light-cones/thus-burns-the-dawn-40af809ee965.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "efced2539770",
+      "sourceHash": "efced2539770",
+      "kind": "light-cones",
+      "name": "Day One of My New Life",
+      "fileStem": "day-one-of-my-new-life",
+      "path": "Prydwen/hsr/assets/light-cones/day-one-of-my-new-life-efced2539770.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "d4e3fea9be5f",
+      "sourceHash": "d4e3fea9be5f",
+      "kind": "light-cones",
+      "name": "Trend of the Universal Market",
+      "fileStem": "trend-of-the-universal-market",
+      "path": "Prydwen/hsr/assets/light-cones/trend-of-the-universal-market-d4e3fea9be5f.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "201a8d2bf253",
+      "sourceHash": "201a8d2bf253",
+      "kind": "relics",
+      "name": "Self-Enshrouded Recluse",
+      "fileStem": "self-enshrouded-recluse",
+      "path": "Prydwen/hsr/assets/relics/self-enshrouded-recluse-201a8d2bf253.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "2f8ec1684b6b",
+      "sourceHash": "2f8ec1684b6b",
+      "kind": "relics",
+      "name": "Warrior Goddess of Sun and Thunder",
+      "fileStem": "warrior-goddess-of-sun-and-thunder",
+      "path": "Prydwen/hsr/assets/relics/warrior-goddess-of-sun-and-thunder-2f8ec1684b6b.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5cb190fcc346",
+      "sourceHash": "5cb190fcc346",
+      "kind": "relics",
+      "name": "Sacerdos' Relived Ordeal",
+      "fileStem": "sacerdos-relived-ordeal",
+      "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "4cb8065ad660",
+      "sourceHash": "4cb8065ad660",
+      "kind": "relics",
+      "name": "Messenger Traversing Hackerspace",
+      "fileStem": "messenger-traversing-hackerspace",
+      "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "deeeca721276",
+      "sourceHash": "deeeca721276",
+      "kind": "relics",
+      "name": "Musketeer of Wild Wheat",
+      "fileStem": "musketeer-of-wild-wheat",
+      "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "f71c3d91b222",
+      "sourceHash": "f71c3d91b222",
+      "kind": "relics",
+      "name": "Hero of Triumphant Song",
+      "fileStem": "hero-of-triumphant-song",
+      "path": "Prydwen/hsr/assets/relics/hero-of-triumphant-song-f71c3d91b222.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "507bb2127c32",
+      "sourceHash": "507bb2127c32",
+      "kind": "relics",
+      "name": "Prisoner in Deep Confinement",
+      "fileStem": "prisoner-in-deep-confinement",
+      "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "2d90f2919c5d",
+      "sourceHash": "2d90f2919c5d",
+      "kind": "relics",
+      "name": "The Wind-Soaring Valorous",
+      "fileStem": "the-wind-soaring-valorous",
+      "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d6aae5028c5a",
+      "sourceHash": "d6aae5028c5a",
+      "kind": "relics",
+      "name": "Lushaka, the Sunken Seas",
+      "fileStem": "lushaka-the-sunken-seas",
+      "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "ce4ff214e47e",
+      "sourceHash": "ce4ff214e47e",
+      "kind": "relics",
+      "name": "City of Converging Stars",
+      "fileStem": "city-of-converging-stars",
+      "path": "Prydwen/hsr/assets/relics/city-of-converging-stars-ce4ff214e47e.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d6cdb5f16b16",
+      "sourceHash": "d6cdb5f16b16",
+      "kind": "relics",
+      "name": "Penacony, Land of the Dreams",
+      "fileStem": "penacony-land-of-the-dreams",
+      "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "3306e6f6288f",
+      "sourceHash": "3306e6f6288f",
+      "kind": "relics",
+      "name": "Broken Keel",
+      "fileStem": "broken-keel",
+      "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5b886a96e17a",
+      "sourceHash": "5b886a96e17a",
+      "kind": "relics",
+      "name": "Fleet of the Ageless",
+      "fileStem": "fleet-of-the-ageless",
+      "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "106ddd8eff32",
+      "sourceHash": "106ddd8eff32",
+      "kind": "icons",
+      "name": "Energy Regen",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "3d568cb7f29d",
+      "sourceHash": "3d568cb7f29d",
+      "kind": "characters",
+      "name": "Sunday",
+      "fileStem": "sunday-icon",
+      "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "bdd27122e011",
+      "sourceHash": "bdd27122e011",
+      "kind": "characters",
+      "name": "Phainon",
+      "fileStem": "phainon-icon",
+      "path": "Prydwen/hsr/assets/characters/phainon-bdd27122e011.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "55d5418dfd9c",
+      "sourceHash": "55d5418dfd9c",
+      "kind": "characters",
+      "name": "Feixiao",
+      "fileStem": "feixiao-icon",
+      "path": "Prydwen/hsr/assets/characters/feixiao-55d5418dfd9c.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "e985c6a49a99",
+      "sourceHash": "e985c6a49a99",
+      "kind": "characters",
+      "name": "Robin",
+      "fileStem": "robin-icon",
+      "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "0ed3dbce2c95",
+      "sourceHash": "0ed3dbce2c95",
+      "kind": "characters",
+      "name": "Dan Heng • Imbibitor Lunae",
+      "fileStem": "imbibitor-lunae-icon",
+      "path": "Prydwen/hsr/assets/characters/dan-heng-imbibitor-lunae-0ed3dbce2c95.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "5ff31ffb6345",
+      "sourceHash": "5ff31ffb6345",
+      "kind": "characters",
+      "name": "Archer",
+      "fileStem": "archer-icon",
+      "path": "Prydwen/hsr/assets/characters/archer-5ff31ffb6345.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "0276b7882389",
+      "sourceHash": "0276b7882389",
+      "kind": "characters",
+      "name": "Qingque",
+      "fileStem": "qingque-icon",
+      "path": "Prydwen/hsr/assets/characters/qingque-0276b7882389.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "005597837585",
+      "sourceHash": "005597837585",
+      "kind": "characters",
+      "name": "Cyrene",
+      "fileStem": "cyrene-icon",
+      "path": "Prydwen/hsr/assets/characters/cyrene-005597837585.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "f380b4ccce3e",
+      "sourceHash": "f380b4ccce3e",
+      "kind": "characters",
+      "name": "Ashveil",
+      "fileStem": "ashveil-icon",
+      "path": "Prydwen/hsr/assets/characters/ashveil-f380b4ccce3e.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "bc2d64a2cd5f",
+      "sourceHash": "bc2d64a2cd5f",
+      "kind": "characters",
+      "name": "Hysilens",
+      "fileStem": "hysilens-icon",
+      "path": "Prydwen/hsr/assets/characters/hysilens-bc2d64a2cd5f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e0db16ed6c66",
+      "sourceHash": "e0db16ed6c66",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "ele-physical",
+      "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "e01f880a2668",
+      "sourceHash": "e01f880a2668",
+      "kind": "characters",
+      "name": "Black Swan",
+      "fileStem": "black-swan-icon",
+      "path": "Prydwen/hsr/assets/characters/black-swan-e01f880a2668.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ee11bd390c9a",
+      "sourceHash": "ee11bd390c9a",
+      "kind": "icons",
+      "name": "Wind",
+      "fileStem": "ele-wind",
+      "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "a137ba3e51ff",
+      "sourceHash": "a137ba3e51ff",
+      "kind": "characters",
+      "name": "Kafka",
+      "fileStem": "kafka-icon",
+      "path": "Prydwen/hsr/assets/characters/kafka-a137ba3e51ff.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d197456869a0",
+      "sourceHash": "d197456869a0",
+      "kind": "icons",
+      "name": "Lightning",
+      "fileStem": "ele-lightning",
+      "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "714348f14d48",
+      "sourceHash": "714348f14d48",
+      "kind": "characters",
+      "name": "Dan Heng • Permansor Terrae",
+      "fileStem": "dan-heng-permansor-terrae-icon",
+      "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "f54da6170f38",
+      "sourceHash": "f54da6170f38",
+      "kind": "characters",
+      "name": "Silver Wolf • Lv. 999",
+      "fileStem": "silver-wolf-lv-999-icon",
+      "path": "Prydwen/hsr/assets/characters/silver-wolf-lv-999-f54da6170f38.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "913ff64407f2",
+      "sourceHash": "913ff64407f2",
+      "kind": "icons",
+      "name": "Imaginary",
+      "fileStem": "ele-imaginary",
+      "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "7fc1b269fb6f",
+      "sourceHash": "7fc1b269fb6f",
+      "kind": "characters",
+      "name": "Sparxie",
+      "fileStem": "sparxie-icon",
+      "path": "Prydwen/hsr/assets/characters/sparxie-7fc1b269fb6f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "92feb26d8f0e",
+      "sourceHash": "92feb26d8f0e",
+      "kind": "icons",
+      "name": "Fire",
+      "fileStem": "ele-fire",
+      "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "965df81b835a",
+      "sourceHash": "965df81b835a",
+      "kind": "characters",
+      "name": "Yao Guang",
+      "fileStem": "yao-guang-icon",
+      "path": "Prydwen/hsr/assets/characters/yao-guang-965df81b835a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1b219ef71829",
+      "sourceHash": "1b219ef71829",
+      "kind": "characters",
+      "name": "Cerydra",
+      "fileStem": "cerydra-icon",
+      "path": "Prydwen/hsr/assets/characters/cerydra-1b219ef71829.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "c721ded1f2e0",
+      "sourceHash": "c721ded1f2e0",
+      "kind": "characters",
+      "name": "Trailblazer • Elation",
+      "fileStem": "trailblazer-elation-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-elation-c721ded1f2e0.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "7d36eb39792a",
+      "sourceHash": "7d36eb39792a",
+      "kind": "icons",
+      "name": "Ice",
+      "fileStem": "ele-ice",
+      "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "2cde7699adbf",
+      "sourceHash": "2cde7699adbf",
+      "kind": "characters",
+      "name": "Tribbie",
+      "fileStem": "tribbie-icon",
+      "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "565914d1a436",
+      "sourceHash": "565914d1a436",
+      "kind": "icons",
+      "name": "Quantum",
+      "fileStem": "ele-quantum",
+      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "da99d2d9a505",
+      "sourceHash": "da99d2d9a505",
+      "kind": "characters",
+      "name": "Sparkle",
+      "fileStem": "sparkle-icon",
+      "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "abea49c1784d",
+      "sourceHash": "abea49c1784d",
+      "kind": "characters",
+      "name": "Evanescia",
+      "fileStem": "evanescia-icon",
+      "path": "Prydwen/hsr/assets/characters/evanescia-abea49c1784d.webp",
+      "width": 60,
+      "height": 60
+    }
+  ],
+  "sections": [
+    {
+      "id": "dan-heng-permansor-terrae-best-build-guide-0",
+      "level": 1,
+      "heading": "Dan Heng • Permansor Terrae Best Build Guide",
+      "text": "Last updated: 31/May/2026",
+      "assets": [
+        {
+          "id": "5a8994b046b4",
+          "sourceHash": "5a8994b046b4",
+          "kind": "characters",
+          "name": "Dan Heng • Permansor Terrae",
+          "fileStem": "dan-heng-permansor-terrae-card",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-5a8994b046b4.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Dan Heng • Permansor Terrae from HSR (Honkai: Star Rail). Dan Heng • Permansor Terrae is a 5 ★ character from the Physical element who follows the Path of Preservation .\n The chest of Georios and the body of walking dragon shoulder the shattered earth, enduring a thousand years of suffering. Nameless Dan Heng, Chrysos Heir who guards the Earth's Coreflame, you must steady the world as it falls, and guide all life across the land to a new home beyond.\n\n To learn more about Dan Heng • Permansor Terrae check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Dan Heng • Permansor Terrae has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 3.6\n\n Last major build/calcs update\n Patch 3.6\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Dan Heng • Permansor Terrae check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic ATK\n Aegis Vitae\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Physical DMG equal to #1[i]% of Dan Heng • Permansor Terrae's ATK to one designated enemy.\n\n Skill\n Terra Omnibus\n Defense\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Designates one ally character as the \"Bondmate\" and provides all allies with a Shield that can offset DMG equal to #1[i]% of Dan Heng • Permansor Terrae's ATK plus #2[i] for #3[i] turn(s). When repeatedly receiving Dan Heng • Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed #4[i]% of the current Shield provided by Skill.\n\"Bondmate\" only applies to the most recent target of Dan Heng • Permansor Terrae's Skill.\n\n Ultimate\n A Dragon's Zenith Knows No Rue\n AoE | 135 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Deals Physical DMG equal to #1[i]% of Dan Heng • Permansor Terrae's ATK to all enemies, and provides a Shield to all allies that can offset DMG equal to #4[i]% of Dan Heng • Permansor Terrae's ATK plus #5[i], lasting for #6[i] turn(s). When repeatedly receiving Dan Heng • Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed #7[i]% of the current Shield provided by Skill.\n\"Souldragon\" becomes enhanced. When \"Souldragon\" takes action, launches Follow-up ATK, dealing Physical DMG to all enemies equal to #2[i]% of Dan Heng • Permansor Terrae's ATK and Additional DMG of the Bondmate's Type to all enemies equal to #8[i]% of the Bondmate's ATK. The enhancement lasts for #3[i] \"Souldragon\" action(s).\n\n Talent\n Of Virtue, Forms Unfold\n Defense\n\n Lv. 1\n\n Energy gain: 0\n Break: 20\n\n When an ally character becomes the \"Bondmate,\" Dan Heng • Permansor Terrae summons \"Souldragon\" for them, which has an initial SPD of #5[i].\nWhen \"Souldragon\" takes action, dispels #6[i] debuff(s) from all allies and provides a Shield that can offset DMG equal to #1[i]% of Dan Heng • Permansor Terrae's ATK plus #2[i] for #3[i] turn(s). The Shield Effect provided by Dan Heng • Permansor Terrae and \"Souldragon\" can be stacked, but it will not exceed #4[i]% of the Shield provided by Dan Heng • Permansor Terrae's Skill.\nWhen Dan Heng • Permansor Terrae or the \"Bondmate\" is knocked down, \"Souldragon\" disappears.\n\n Technique\n Earthrend\n Impair\n\n Energy gain: 0\n Break: -\n\n After using Technique, gains \"Bondmate\" and inflict Daze on enemies within a certain area for #1[i] second(s). Dazed enemies will not actively attack ally targets.\nWhen switching the active character, \"Bondmate\" transfers to the current active character. At the start of the next battle, automatically uses Skill 1 time on the character with \"Bondmate\" without consuming any Skill Points.",
+      "assets": []
+    },
+    {
+      "id": "major-traces-10",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "A2 Major trace\n Empyreanity\n\n When using Skill, increases ATK for the target who has become 'Bondmate' by an amount equal to 15% of Dan Heng • Permansor Terrae's ATK.\n\n A4 Major trace\n Sylvanity\n\n When combat starts, Dan Heng • Permansor Terrae advances action by 40% . When the 'Bondmate' uses an attack, Dan Heng • Permansor Terrae regenerates 6 Energy and 'Souldragon' advances action by 15% .\n\n A6 Major trace\n Sublimity\n\n When 'Souldragon' takes action, additionally provides a Shield that can offset DMG equal to 5% of Dan Heng • Permansor Terrae's ATK plus 100 to the ally target whose current Shield Effect is the lowest. When repeatedly receiving Dan Heng • Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill. When the enhanced 'Souldragon' takes action, additionally deals 1 instance of Additional DMG of the Bondmate's Type to the one enemy target whose current HP is the highest, equal to 40% of the Bondmate's ATK.",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-11",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "ATK\n + 28%\n\n Speed\n + 5\n\n DEF\n + 22.5%",
+      "assets": [
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "eidolons-12",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "E 1\n Shed Scales of Old\n Eidolon 1\n\n When Dan Heng • Permansor Terrae uses Ultimate, recovers 1 Skill Point(s) and increases the \"Bondmate's\" All-Type RES PEN by 18% , lasting for 3 turn(s).\n\n E 2\n Watch Trails to Blaze\n Eidolon 2\n\n Additionally increases the number of actions for the enhanced Souldragon from Ultimate by 2 . After Dan Heng • Permansor Terrae uses Ultimate, Souldragon advances action by 100% . When the enhanced \"Souldragon\" takes action, the Additional DMG dealt by the \"Bondmate\" becomes 200% of its original DMG, and the Shield Effect provided in this instance becomes 200% of its original Shield Effect.\n\n E 3\n Bear Weight of Worlds\n Eidolon 3\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n By Oath, This Vessel Is I\n Eidolon 4\n\n Reduces the DMG taken by the \"Bondmate\" by 20% .\n\n E 5\n The Path of Permanence Sweeps Far\n Eidolon 5\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n One Dream to Enfold All Wilds\n Eidolon 6\n\n When the \"Bondmate\" is on the field, increases the DMG taken by all enemies by 20% . When the \"Bondmate\" deals DMG, ignores 12% of the enemy targets' DEF. When Dan Heng • Permansor Terrae uses Ultimate, the \"Bondmate\" will deal Additional DMG of the Bondmate's Type to all enemies, equal to 330% of the Bondmate's ATK.",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-13",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Enable Ascension",
+      "assets": []
+    },
+    {
+      "id": "level-80-stats-14",
+      "level": 5,
+      "heading": "Level 80 stats",
+      "text": "HP\n\n 1047\n\n ATK\n\n 582\n\n DEF\n\n 776\n\n Speed\n\n 97",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "level-1-80-ascension-materials-15",
+      "level": 5,
+      "heading": "Level 1 → 80 Ascension Materials",
+      "text": "Credit\n\n x 308000\n\n Fear-Stomped Flesh\n\n x 15\n\n Courage-Torn Chest\n\n x 15\n\n Invasive Clot\n\n x 65\n\n Glory-Aspersed Torso\n\n x 15",
+      "assets": [
+        {
+          "id": "50d0e755383a",
+          "sourceHash": "50d0e755383a",
+          "kind": "items",
+          "name": "Credit",
+          "fileStem": "credit",
+          "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "2649302b2177",
+          "sourceHash": "2649302b2177",
+          "kind": "items",
+          "name": "Fear-Stomped Flesh",
+          "fileStem": "fear-stomped-flesh",
+          "path": "Prydwen/hsr/assets/items/fear-stomped-flesh-2649302b2177.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "bd0c01055352",
+          "sourceHash": "bd0c01055352",
+          "kind": "items",
+          "name": "Courage-Torn Chest",
+          "fileStem": "courage-torn-chest",
+          "path": "Prydwen/hsr/assets/items/courage-torn-chest-bd0c01055352.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "b44caf6c0187",
+          "sourceHash": "b44caf6c0187",
+          "kind": "items",
+          "name": "Invasive Clot",
+          "fileStem": "invasive-clot",
+          "path": "Prydwen/hsr/assets/items/invasive-clot-b44caf6c0187.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "8b0d54e34ba4",
+          "sourceHash": "8b0d54e34ba4",
+          "kind": "items",
+          "name": "Glory-Aspersed Torso",
+          "fileStem": "glory-aspersed-torso",
+          "path": "Prydwen/hsr/assets/items/glory-aspersed-torso-8b0d54e34ba4.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "cv-16",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n Nicholas Leung\n\n JPN\n Kento Itō (伊東健人)\n\n CN\n Yú Dòng (魚凍)\n\n KR\n Kim Hye-sung (김혜성)",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "5d790d1ba159",
+          "sourceHash": "5d790d1ba159",
+          "kind": "characters",
+          "name": "Dan Heng • Permansor Terrae",
+          "fileStem": "dan-heng-permansor-terrae-full",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-5d790d1ba159.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Excellent shielding sustain,\n\n Passively maintains strong shields,\n\n Provides strong buffs for ATK scalers,\n\n Provides a rare damage multiplier increase for Bondmate,\n\n Can provide an ally synergy with summon-based effects thanks to Bondmate,\n\n Great Energy and SP economy,\n\n Completely free at launch,\n\n Good vertical investment,\n\n Makes Sunday an even stronger support.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Light Cone options are lacking due to ATK scaling,\n\n Doesn't provide much value for non ATK based DPS,\n\n Can't provide as much offensive value outside of hypercarry comps,\n\n No longer fun-sized :(",
+      "assets": []
+    },
+    {
+      "id": "review-by-sushou-21",
+      "level": 2,
+      "heading": "Review (By Sushou)",
+      "text": "Dan Heng Permansor Terrae is a fantastic shielding sustain that scales off of ATK. He provides strong shields for the entire party and is able to stack the shielding effect on top of itself for larger combined totals. He has a summoned unit, Souldragon, whom he can attach to an ally with his Skill. Souldragon acts independently and also provides teamwide shields on its turn, as well as cleansing allies. Souldragon can also be enhanced to deal damage to all enemies. The chosen ally will also have their ATK buffed, and when Souldragon is enhanced, the ally will get bonus DMG multipliers from the Souldragon attacks. Effortlessly powerful.",
+      "assets": []
+    },
+    {
+      "id": "intro-22",
+      "level": 6,
+      "heading": "[Intro]",
+      "text": "Dan Heng, the Third, has risen to the stage. No longer content with just being 'the cooler Daniel', he has aspired to the illustrious position of 'The cooler Cooler Daniel'. It's too soon to say 'coolest', but he gets damn close.\n It's been an age since Star Rail has received an actual proper shielding unit, made more amusing by the fact that the completely new Path of Remembrance that showed up actually overtook the Preservation for total number of units with Evernight. Dan Heng III once again equalises the number, but damn we really do not have many shielders right now.\n Then again, with how absurd this new form of Dan Heng is, we may never need another one (this is hyperbole, don't come back in a years' time and hit me with the 'but you said—'). At least for right now, Permansor Terrae is an absolute godsend for all players; sustaining is becoming more challenging for the casual player, and the teams not struggling to do so casually either have every HP scaler under the sun, or are banished to the other side of the monitor while mister 'Let Me Solo Them' takes centre stage.\n This is probably felt the most by people who skipped Hyacine, and she and her signature have been getting a lot of use and value. Huohuo has also remained quite the staple, but more so for her Energy recharging capabilities than her actual (rapidly faltering) healing values. Not only is Dan Heng coming at an opportune time, he's also being given out for free as of the time of writing. As we'll see in a bit, the man is tearing it up with his kit, and he's got a colossal amount going for him. As the Remembrance Trailblazer initially showed us, and as Evernight confirmed it, 'Main Trio Privilege' is absolutely real.\n Seriously, do not miss your opportunity to get him for free.",
+      "assets": []
+    },
+    {
+      "id": "abilities-23",
+      "level": 6,
+      "heading": "[Abilities]",
+      "text": "The long winding road begins with the abilities. Just like with Evernight, once you're past all the proper terms and disambiguation, the kit itself is actually very simple.\n Dan Heng's Skill will shield all allies for 20% of his ATK plus 400 for 3 turns. Using this Skill repeatedly will compound the shield value up to 300% of the current base value. When Dan Heng uses this Skill, it has a primary target. The primary target will receive the status Bondmate, and this lasts until Dan Heng designates a new ally as such with another targeted Skill use.\n A 3 turn duration for shields is great because some particularly speedy characters are known for blitzing through shorter shield durations without much effort. In addition, having a compounding effect in the same vein as Aventurine is invaluable for creating a massive HP buffer for allies, and to prevent the 'wasting' of shield value.\n Dan Heng's Talent is that he has a summoned entity called Souldragon. Souldragon is summoned upon using his Skill or Technique, and attaches itself to the Bondmate. Souldragon has an initial SPD of 165, and when it acts, it will remove 1 debuff from all allies and provide a shield worth 10% ATK plus 200 for 3 turns, effectively half of the value of the Skill's shield.\n This can compound in the exact same way as the shield from the Skill, and similarly has the same maximum value of 300% of the Skill's base value. Souldragon acting independently means that there is a constant influx of shields for the whole party, but more than that, it's a consistent and reliable way to get shields without needing to spend SP. Souldragon follows the Bondmate, and if either Dan Heng or the chosen Bondmate are downed, Souldragon will disappear.\n Dan Heng's Ultimate costs 135 Energy. It deals 300% ATK to all enemies on the field, and provides a shield to allies, with the same values as his Skill, as well as the same compounding conditions and benefits.\n At the same time, Souldragon will become enhanced, and this enhancement lasts for 2 Souldragon actions. During this enhancement, whenever Souldragon's turn comes around, it will now launch a Follow-up ATK, dealing Physical damage to all enemies on the field equal to 80% of Dan Heng's ATK. This attack will also deal Additional DMG on top, equal to 80% of the Bondmate's ATK. Important to note that this is Additional DMG and is not considered an actual attack. This Follow-up ATK is in addition to its usual passive AoE shielding.\n That's it. That's the whole character. He basically plays himself while also providing remarkably high strength shields. This is also the first shielder who is capable of cleansing allies of their debuffs, and fairly consistently too.\n It's a very impressive kit and we've not even talked about the Bonus Traces yet.",
+      "assets": []
+    },
+    {
+      "id": "bonus-traces-24",
+      "level": 6,
+      "heading": "[Bonus Traces]",
+      "text": "Yet more proof that this is just a support character who happens to provide shields instead of an actual dedicated sustain, though there is some welcome help towards that part as well.\n His A2 will grant an ATK increase for the ally Dan Heng designates as the Bondmate with his Skill. This increase is equal to 15% of Dan Heng's ATK stat. Given that Dan Heng wants to be stacking as much ATK as possible for his own benefit, this results in a huge amount of free ATK for the Bondmate. It's not going to be quite as much as, say, Cerydra would give with her equivalent effect, but again, this benefit is coming from the sustain slot, and will actually stack with the aforementioned increase if you have both him and Cerydra in the same team.\n The A4 will grant Dan Heng a 40% action advance at the start of combat, making it easier to be the first one to act. Additionally, whenever the Bondmate uses an attack, Dan Heng will regenerate 6 Energy, and Souldragon's action is advanced by 15%. We just keep winning, don't we. A free combat start action advance equivalent to Vonwacq is already great value, but to then also have built-in Energy recharge from just having the Bondmate attack is phenomenal. Advancing Souldragon's action is just the icing on top, and it makes the already incredible shielding of this character reach the illustrious 'effortless' rating.\n Lastly, the A6 will allow Souldragon to provide an additional smaller shield to the ally with the current lowest shield effect, equal to 5% ATK plus 100. This, naturally, also compounds with the same rules as before. Additionally, when the enhanced Souldragon attacks, it will deal another instance of Additional DMG of the Bondmate's Type to one enemy with the highest current HP, and this is equal to 40% of the Bondmate's ATK.\n Ridiculous; fantastic. This addresses the issue that comes up where if allies are hit unevenly then the shield value may not keep up for certain high-aggro characters, like Foxians, and coupled with the A4 is something that's going to make damn sure that all members of your team are adequately protected.\n Minor Traces are also pretty good for the most part. 28% ATK and 5 SPD is excellent, and the 22.5% DEF is good for his own personal survivability (not that he'll have an issue with that since his base DEF is literally top 1).\n Akivili must have personally blessed these Bonus Traces, I swear.",
+      "assets": []
+    },
+    {
+      "id": "eidolons-25",
+      "level": 6,
+      "heading": "[Eidolons]",
+      "text": "You already know the drill.\n Dan Heng's E1 will recover 1 Skill Point for the team after he uses his Ultimate. In addition to this, the Bondmate's All-Type RES PEN will increase by 18% for 3 turns. This is very nice to have because — and say it with me, now — it's from the sustain slot of the team, yes, very good. It's a nice boost to have, especially in hypercarry setups, but is by no means a make-or-break Eidolon.\n His E2 increases the number of attacks the enhanced Souldragon may take by 2, for a new total of 4 per Ultimate. After Dan Heng uses his Ultimate, Souldragon is advanced by 100%, and the Additional DMG dealt by the Bondmate becomes 200% of its original DMG. The shield effect provided in this attack is also 200% of its original amount. Now this is the real juice, offering a substantial damage and uptime increase. This is particularly great for characters who can attack often enough that Dan Heng can get a large amount of Energy back. It's pretty great, honestly, but again is somewhat below the level of more recent DPS focused Eidolons.\n This is more of a testament to how great Dan Heng Permansor Terrae is at base, as there's really not that big of a need to pull for these unless you really like him and want to ensure his relevance.",
+      "assets": []
+    },
+    {
+      "id": "the-rest-26",
+      "level": 6,
+      "heading": "[The Rest]",
+      "text": "Souldragon does have some quirks to it. The most important one to note is that when Souldragon is attached to its Bondmate, it counts as the Bondmate's summon. This has some very significant ramifications for certain effects that care whether or not the targeted ally has a summon — I hope you like Sunday, because pairing him with Permansor Terrae can guarantee Sunday's full 80% DMG buff, usually reserved only for summons and memosprites, for any character you choose.\n This also means that whenever Sunday uses his Skill to action advance the Bondmate, Souldragon will also get brought up in the turn order as well, meaning even more shields for the whole party. It's a ridiculously potent combination, and yet another win for the Astral Express crew. Any future 'summon character exclusive' effects should theoretically also be easily accessible thanks to this Bondmate interaction.\n In addition to this, the Additional DMG that the enhanced Souldragon's Follow-up ATK deals scales fully off of the Bondmate's stats, meaning a significant chunk of the damage isn't even Dan Heng's. This means you have no real reason to focus on building damage stats on Permansor Terrae and can simply focus on pumping the ATK stat as high as it can go.\n This essentially acts as a multiplier buff for the Bondmate, an effect that's extremely rare to find at all, let alone on a sustain unit. Even though this enhanced Souldragon state is not going to be up all the time, it's still an excellent effect to be giving out for absolutely free. 80% ATK, especially in AoE situations, is most assuredly not negligible, and this can help out quite a bit in encounters where there are plenty of adds since, again, it's at no additional cost to the Bondmate.\n Also worth noting is that this Souldragon attack actually deals some fairly impressive Toughness damage, which is really not something I was expecting at all. It's not going to be the absolute most important thing to factor in all the time, but it's certainly worthy enough to mention it.\n The increased effectiveness with Sunday means that the pair pretty much works for any kind of hypercarry team and can skyrocket its power. Giving out an extra 50% DMG simply thanks to the Souldragon interaction is excellent, and that's before even considering the actual buff that Dan Heng himself provides.\n Outside of that, since Dan Heng is a sustain, he can go pretty much anywhere he's needed, and he'll have a good time. The only place he may struggle at absolute base investment is Anomaly Arbitration, but that's just...\n If you want to make sure he has no issues whatsoever, even in the most egregious circumstances, then going for his signature Light Cone is well-advised. It's really good for him and his team, especially since maybe around half of the Preservation cones kinda don't work on him or are just laughably bad. The signature isn't on the level of Hyacine's signature (thank heavens), but it's good enough that it's worth considering. It should be made very clear, in the rare event that you've made it this far and haven't realised, that Permansor Terrae is designed with ATK scaling hypercarries in mind. He works excellently as a pure sustain for those precious few weirdo hypercarries who don't scale with ATK, but you will be missing out on a large portion of why he's as strong as he is.\n To that end... Anaxagoras and Phainon. These two don't really need the help, but Dan Heng is giving it to them. Very much a 'my lobster is too buttery' situation.\n For Anaxa, his attack frequency works very well with Dan Heng's kit, and Anaxa very much appreciates the ATK buff he'll be getting. As he's someone who's played alongside Sunday, this naturally also provides an extra 50% DMG just for having Permansor Terrae in the party to give Anaxa the Souldragon.\n For Phainon, it kinda depends. Right now, the best damage you'll get with Phainon is to run him without a sustain, as 'intended'. Problem with that is that things are becoming so damn tanky that ending a whole encounter with only one or two Ultimates can be somewhat challenging without meticulous planning beforehand.\n In those cases where you're going to have to work towards a third Ultimate, your team may be looking a bit pale by that point, and dying is simply not an option, so you have to bring a sustain after all. Up until now, that's pretty much been the role of Huohuo as she was the previous big shot of providing enough damage from the sustain slot that it's not a complete wash (but still felt pretty bad)\n Now you can substitute her out for Dan Heng who'll have no issues with sustaining the team overall, and due to his Technique starting the fight with a free Skill use, Phainon actually gets more Coreflames than you may expect. This coupled with the damage increase he gives by being paired with Sunday (again) as well as Phainon's own personal DMG increase whenever he receives healing or shielding from a teammate means that the damage loss from not having a third dedicated support is actually somewhat mitigated, surprisingly so in fact. Obviously it's still going to be less damage, but it's useless if you had no chance of living long enough to make use of it. Especially for harder fights that last longer, this is the go-to sustain option for Phainon teams as well.\n Funnily enough, both of these DPS can guarantee that enemies will have their corresponding Weakness, meaning Souldragon's Toughness DMG is actually always relevant. 'My steak is too juicy, too'.\n Other frequent attackers like The Herta and Aglaea can make excellent use of Dan Heng's buffs for the same reasons, with The Herta in particular getting to pop off even more in Pure Fiction than she already can, as it's even more Energy getting funnelled to her from the extra AoE attacks.",
+      "assets": []
+    },
+    {
+      "id": "wrap-up-27",
+      "level": 6,
+      "heading": "[Wrap up]",
+      "text": "My Sunday buff can't be this cute...\n He's great. I have no notes, really. Fits pretty much everywhere, has good options for teams and builds, and best of all is that he's completely free, so everyone's got a banging sustain option now. Bless this man for his countless years of patience, clearly he was refining his skills to the perfect point to greet us again in the final cycle.\n The trio is assembled once again, and the final steps are ahead. Let's all welcome the coming finale, safe in the knowledge that Akivili most assuredly has favourite children, and it's the Express Crew, and by a lot.",
+      "assets": []
+    },
+    {
+      "id": "ratings-28",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.",
+      "assets": []
+    },
+    {
+      "id": "sustain-29",
+      "level": 5,
+      "heading": "Sustain",
+      "text": "T0\n MoC\n\n T0.5\n PF\n\n T0\n AS\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "best-light-cones-31",
+      "level": 2,
+      "heading": "Best Light Cones",
+      "text": "1\n\n Though Worlds Apart (S 1 )\n\n Grants a substantial ATK increase to bolster DHPT's Shields and increase his ATK buff. On Ults also provides Heals during rough sustaining periods and a DMG buff for all allies, stronger if they have a summon which can also be through his Souldragon. With the exception of this Light Cone's unique healing effect, it is not overwhelming ahead of S5 Journey, Forever Peaceful (although it is still better), but is more immediately acquirable.\n Usage: 28.82 %\n MoC: 8.11 cyc.\n PF: 32068\n AS: 3451\n\n 2\n\n Journey, Forever Peaceful (S 1 )\n\n The Battle Pass Light Cone - while the Base ATK is low, it offers additional Shield Effect and a teamwide DMG buff to make up for both the weaker base shields and a weaker ATK buff. A strong alternative if purchasing the Battle Pass even at S1.\n Usage: 14.23 %\n MoC: 7.87 cyc.\n PF: 32953\n AS: 3449\n\n 3\n\n Thus Burns the Dawn (S 1 )\n\n Most Preservation Light Cones only provide DEF bonuses and have low Base ATK to work with traditional Shielders, making them suboptimal for DHPT. As such, running an off-Path Light Cone with high Base ATK can be a valid option for his Shield and ATK buff. Aim for Light Cones with atleast 582 Base ATK but ideally 635 or 687.\n\n 4\n\n Day One of My New Life (S 5 )\n\n If unable to use a high Base ATK off-Path Light Cone, Day One of my New Life is a final alternative, with teamwide All-Type RES to help alleviate sustain issues with its low base ATK.\n Usage: 4.42 %\n MoC: 8.08 cyc.\n PF: 31868\n AS: 3452",
+      "assets": [
+        {
+          "id": "2041c8585818",
+          "sourceHash": "2041c8585818",
+          "kind": "light-cones",
+          "name": "Though Worlds Apart",
+          "fileStem": "though-worlds-apart",
+          "path": "Prydwen/hsr/assets/light-cones/though-worlds-apart-2041c8585818.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "963c878b9eab",
+          "sourceHash": "963c878b9eab",
+          "kind": "light-cones",
+          "name": "Journey, Forever Peaceful",
+          "fileStem": "journey-forever-peaceful",
+          "path": "Prydwen/hsr/assets/light-cones/journey-forever-peaceful-963c878b9eab.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "40af809ee965",
+          "sourceHash": "40af809ee965",
+          "kind": "light-cones",
+          "name": "Thus Burns the Dawn",
+          "fileStem": "thus-burns-the-dawn",
+          "path": "Prydwen/hsr/assets/light-cones/thus-burns-the-dawn-40af809ee965.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "efced2539770",
+          "sourceHash": "efced2539770",
+          "kind": "light-cones",
+          "name": "Day One of My New Life",
+          "fileStem": "day-one-of-my-new-life",
+          "path": "Prydwen/hsr/assets/light-cones/day-one-of-my-new-life-efced2539770.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "specialist-light-cones-32",
+      "level": 3,
+      "heading": "Specialist Light Cones",
+      "text": "Trend of the Universal Market (S 5 )\n\n Has a low base ATK but in many fights can supercharge Acheron's Ultimate if not using Jiaoqiu. Can doubly be used in Hysilens' teams for an additional DoT effect but with a low and unreliable uptime on the whole field.",
+      "assets": [
+        {
+          "id": "d4e3fea9be5f",
+          "sourceHash": "d4e3fea9be5f",
+          "kind": "light-cones",
+          "name": "Trend of the Universal Market",
+          "fileStem": "trend-of-the-universal-market",
+          "path": "Prydwen/hsr/assets/light-cones/trend-of-the-universal-market-d4e3fea9be5f.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-relic-sets-34",
+      "level": 2,
+      "heading": "Best Relic Sets",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Self-Enshrouded Recluse ( 4 -PC)\n\n Dedicated Shielder set, offering stronger Shields and an easily maintainable 15% CRIT DMG buff for the entire team.\n Usage: 95.46 %\n MoC: 8.07 cyc.\n PF: 32047\n AS: 3449\n\n 2\n\n Self-Enshrouded Recluse ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Warrior Goddess of Sun and Thunder\n\n Sacerdos' Relived Ordeal\n\n Messenger Traversing Hackerspace\n\n Musketeer of Wild Wheat\n\n Hero of Triumphant Song\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous",
+      "assets": [
+        {
+          "id": "201a8d2bf253",
+          "sourceHash": "201a8d2bf253",
+          "kind": "relics",
+          "name": "Self-Enshrouded Recluse",
+          "fileStem": "self-enshrouded-recluse",
+          "path": "Prydwen/hsr/assets/relics/self-enshrouded-recluse-201a8d2bf253.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "2f8ec1684b6b",
+          "sourceHash": "2f8ec1684b6b",
+          "kind": "relics",
+          "name": "Warrior Goddess of Sun and Thunder",
+          "fileStem": "warrior-goddess-of-sun-and-thunder",
+          "path": "Prydwen/hsr/assets/relics/warrior-goddess-of-sun-and-thunder-2f8ec1684b6b.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "5cb190fcc346",
+          "sourceHash": "5cb190fcc346",
+          "kind": "relics",
+          "name": "Sacerdos' Relived Ordeal",
+          "fileStem": "sacerdos-relived-ordeal",
+          "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "4cb8065ad660",
+          "sourceHash": "4cb8065ad660",
+          "kind": "relics",
+          "name": "Messenger Traversing Hackerspace",
+          "fileStem": "messenger-traversing-hackerspace",
+          "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "deeeca721276",
+          "sourceHash": "deeeca721276",
+          "kind": "relics",
+          "name": "Musketeer of Wild Wheat",
+          "fileStem": "musketeer-of-wild-wheat",
+          "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "f71c3d91b222",
+          "sourceHash": "f71c3d91b222",
+          "kind": "relics",
+          "name": "Hero of Triumphant Song",
+          "fileStem": "hero-of-triumphant-song",
+          "path": "Prydwen/hsr/assets/relics/hero-of-triumphant-song-f71c3d91b222.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "507bb2127c32",
+          "sourceHash": "507bb2127c32",
+          "kind": "relics",
+          "name": "Prisoner in Deep Confinement",
+          "fileStem": "prisoner-in-deep-confinement",
+          "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "2d90f2919c5d",
+          "sourceHash": "2d90f2919c5d",
+          "kind": "relics",
+          "name": "The Wind-Soaring Valorous",
+          "fileStem": "the-wind-soaring-valorous",
+          "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-specialist-relic-sets-35",
+      "level": 6,
+      "heading": "Best Specialist Relic Sets",
+      "text": "1\n\n Warrior Goddess of Sun and Thunder ( 4 -PC)\n\n An alternative to Self-Enshrouded Recluse but only if using Dan Heng Permansor Terrae's signature Light Cone which grants heal on ultimates. Trades Shield Effect for SPD and needs consistent ult generation.\n Usage: 0.24 %\n MoC: 8 cyc.\n PF: 33800\n AS: 3443\n\n 2\n\n Sacerdos' Relived Ordeal ( 4 -PC)\n\n Recommended option but only with Phainon, as his Skill and Technique can quickly stack the buff twice on him at the start of the fight. Phainon does not have to worry about losing the buff even if the Shield is broken, and the CRIT DMG buff is higher.\n Usage: 1.15 %\n MoC: 8.5 cyc.\n PF: 31962\n AS: 3426",
+      "assets": [
+        {
+          "id": "2f8ec1684b6b",
+          "sourceHash": "2f8ec1684b6b",
+          "kind": "relics",
+          "name": "Warrior Goddess of Sun and Thunder",
+          "fileStem": "warrior-goddess-of-sun-and-thunder",
+          "path": "Prydwen/hsr/assets/relics/warrior-goddess-of-sun-and-thunder-2f8ec1684b6b.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "5cb190fcc346",
+          "sourceHash": "5cb190fcc346",
+          "kind": "relics",
+          "name": "Sacerdos' Relived Ordeal",
+          "fileStem": "sacerdos-relived-ordeal",
+          "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-planetary-sets-36",
+      "level": 6,
+      "heading": "Best Planetary Sets",
+      "text": "1\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Dan Heng PT would prefer Lushaka over other options thanks to his hypercarry synergistic buffs and need for Energy. He can also use Penacony when supporting physical carries like Phainon, and Broken Keel and Fleet are OK alternatives if you have neither of the former though.\n Usage: 93.56 %\n MoC: 8.08 cyc.\n PF: 32061\n AS: 3449\n\n 2\n\n City of Converging Stars ( 2 -PC)\n\n Dan Heng PT can launch Follow-up ATKs through Souldragon - even if Bondmate is assigned to other ally DHPT will always be the one launching the attack. Increases his ATK by 24%, and teammates' CRIT DMG by 12%; most of the time this is easily achievable except certain single encounter Apocalyptic Shadow fights.\n Usage: 0.29 %\n MoC: -\n PF: 0\n AS: 3535\n\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Usage: 1.14 %\n MoC: 8.25 cyc.\n PF: 30132\n AS: 3368\n\n 4\n\n Broken Keel ( 2 -PC)\n\n Usage: 1.22 %\n MoC: 9 cyc.\n PF: 32693\n AS: 3459\n\n 5\n\n Fleet of the Ageless ( 2 -PC)",
+      "assets": [
+        {
+          "id": "d6aae5028c5a",
+          "sourceHash": "d6aae5028c5a",
+          "kind": "relics",
+          "name": "Lushaka, the Sunken Seas",
+          "fileStem": "lushaka-the-sunken-seas",
+          "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "ce4ff214e47e",
+          "sourceHash": "ce4ff214e47e",
+          "kind": "relics",
+          "name": "City of Converging Stars",
+          "fileStem": "city-of-converging-stars",
+          "path": "Prydwen/hsr/assets/relics/city-of-converging-stars-ce4ff214e47e.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "d6cdb5f16b16",
+          "sourceHash": "d6cdb5f16b16",
+          "kind": "relics",
+          "name": "Penacony, Land of the Dreams",
+          "fileStem": "penacony-land-of-the-dreams",
+          "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "3306e6f6288f",
+          "sourceHash": "3306e6f6288f",
+          "kind": "relics",
+          "name": "Broken Keel",
+          "fileStem": "broken-keel",
+          "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "5b886a96e17a",
+          "sourceHash": "5b886a96e17a",
+          "kind": "relics",
+          "name": "Fleet of the Ageless",
+          "fileStem": "fleet-of-the-ageless",
+          "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-stats-38",
+      "level": 2,
+      "heading": "Best Stats",
+      "text": "Body\n ATK%\n\n Feet\n Speed\n >= ATK%\n\n Planar Sphere\n ATK%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (until desired breakpoint) > ATK% > ATK > Effect RES",
+      "assets": [
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "106ddd8eff32",
+          "sourceHash": "106ddd8eff32",
+          "kind": "icons",
+          "name": "Energy Regen",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "recommended-endgame-stats-39",
+      "level": 2,
+      "heading": "Recommended endgame stats",
+      "text": "HP: 3000+\n\n DEF: 1300+\n\n ATK: 3000 - 4000+\n\n SPD: 134+ / 160\n Being around the team's SPD is goal number one; going faster is optional—no specific breakpoint, really.",
+      "assets": []
+    },
+    {
+      "id": "traces-priority-40",
+      "level": 2,
+      "heading": "Traces priority",
+      "text": "Skills priority: Skill = Ult = Talent >>> Basic\n\n Major Traces priority: Sylvanity (A4) > Sublimity (A6) > Empyreanity (A2)",
+      "assets": []
+    },
+    {
+      "id": "eidolon-information-42",
+      "level": 2,
+      "heading": "Eidolon Information",
+      "text": "Eidolon 1: Offers 1 Skill Point refund when using Ultimate and a 18% RES PEN buff for the Bondmate. Overall a strong generic Eidolon to enable the main DPS to deal more damage, and can be especially useful in Skill Point intensive teams. Although the buff can wear out when the target receives constant Action Advances. E1 isn't his strongest supportive Eidolon but offers incredible quality of life.\n Eidolon 2: Empowers his Souldragon defensively but most importantly offensively, increasing the Souldragon Enhancement stacks from 2 to 4 and giving it an immediate turn on Ults, while also doubling both the DMG dealt by the Follow-up ATK (which uses his Bondmate's stats), and the Shield Effect provided. This Eidolon is Dan Heng PT's largest invesment breakpoint boosting his offensive and defensive capabilities considerably.\n Eidolon 4: Reduces DMG Taken by the single Bondmate, which is largely meaningless. Only get this if going for Eidolon 6.\n Eidolon 6: Offers potent offensive buffs, applying 20% Vulnerability to all enemies, granting 12% DEF Ignore to the Bondmate, and causing his Ultimate to deal Additional DMG that scales on the Bondmate's stats. The overall DMG amplification effect is strong but you will need to get through some less powerful Eidolons to reach here.",
+      "assets": []
+    },
+    {
+      "id": "synergy-43",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Dan Heng • Permansor Terrae is a versatile Shielder that can support any ATK-scaling team. Just make sure to not use him in teams with HP loss mechanics such as Blade, Mydei, Castorice - as his Shields will intefere with their functionality and his ATK based benefits do not synergize with them. Please note while the synergies below are some of his best, Dan Heng PT can work with a large majority of the characters in the game.\n\n Sunday - Permansor Terrae can attach a Summon to his \"Bondmate\" target, allowing them to receive the full 80% DMG Bonus from Sunday's Skill even if they do not have their own Summon. His Souldragon will also be advanced alongside the target to repeatedly refresh Shields on the team, and the Additional DMG dealt by Souldragon scales on the target's stats, fully benefitting from Sunday's buffs.\n Phainon - Once Souldragon is attached to Phainon, it will not be removed by Phainon's Ultimate and thus can continue to provide Shields and launch Follow-up ATKs that scales on his stats during it. While the DMG amplification may be weaker than other dedicated amplifiers, Permansor Terrae's own amplification is quite similar if paired with Sunday and when considering the 45% DMG Boost from Phainon's Traces. He can also keep the team safe during Phainon's downtime, making him an ideal teammate for Phainon in longer/high-pressure encounters.\n Feixiao Robin - Permansor Terrae is also an excellect support in Follow-up ATK teams thanks to his ATK buffs and his ability to launch Follow-up ATKs himself via Souldragon. As a nice bonus, Robin's massive teamwide ATK buff will also greatly improve the durability of Shields provided by him.\n Dan Heng • Imbibitor Lunae Archer Qingque - Skill Point intensive DMG dealers scaling on ATK will also appreciate Permansor Terrae's Skill Point generation, as he can rely on Souldragon's 160 SPD to refresh the Shields on the team while only using Basic ATKs. This synergy is further amplified by Permansor Terrae's Eidolon 1, as it can offer an additional Skill Point refund when he uses his Ultimate.\n Cyrene - With Cyrene on the team, Permansor Terrae does not need to be actively targeted by Cyrene's Memosprite Skill, and will additionally increase the Bondmate's DMG dealt by 24% whilst also providing even more Bondmate based DMG multipliers. Can also use Cyrene's Memosprite Skill on Permansor Terrae to trigger an emergency Follow-up ATK and Shield.\n Ashveil - Permansor Terrae is the current best Sustain for Ashveil thanks to his ATK buffs, Additional DMG on Souldragon that scales on Ashveil's stats and with it launching Follow-up ATKs can help consume Ashveil's Charges and regenerate Energy for him.",
+      "assets": [
+        {
+          "id": "3d568cb7f29d",
+          "sourceHash": "3d568cb7f29d",
+          "kind": "characters",
+          "name": "Sunday",
+          "fileStem": "sunday-icon",
+          "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "bdd27122e011",
+          "sourceHash": "bdd27122e011",
+          "kind": "characters",
+          "name": "Phainon",
+          "fileStem": "phainon-icon",
+          "path": "Prydwen/hsr/assets/characters/phainon-bdd27122e011.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "55d5418dfd9c",
+          "sourceHash": "55d5418dfd9c",
+          "kind": "characters",
+          "name": "Feixiao",
+          "fileStem": "feixiao-icon",
+          "path": "Prydwen/hsr/assets/characters/feixiao-55d5418dfd9c.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "e985c6a49a99",
+          "sourceHash": "e985c6a49a99",
+          "kind": "characters",
+          "name": "Robin",
+          "fileStem": "robin-icon",
+          "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "0ed3dbce2c95",
+          "sourceHash": "0ed3dbce2c95",
+          "kind": "characters",
+          "name": "Dan Heng • Imbibitor Lunae",
+          "fileStem": "imbibitor-lunae-icon",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-imbibitor-lunae-0ed3dbce2c95.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "5ff31ffb6345",
+          "sourceHash": "5ff31ffb6345",
+          "kind": "characters",
+          "name": "Archer",
+          "fileStem": "archer-icon",
+          "path": "Prydwen/hsr/assets/characters/archer-5ff31ffb6345.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "0276b7882389",
+          "sourceHash": "0276b7882389",
+          "kind": "characters",
+          "name": "Qingque",
+          "fileStem": "qingque-icon",
+          "path": "Prydwen/hsr/assets/characters/qingque-0276b7882389.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "005597837585",
+          "sourceHash": "005597837585",
+          "kind": "characters",
+          "name": "Cyrene",
+          "fileStem": "cyrene-icon",
+          "path": "Prydwen/hsr/assets/characters/cyrene-005597837585.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "f380b4ccce3e",
+          "sourceHash": "f380b4ccce3e",
+          "kind": "characters",
+          "name": "Ashveil",
+          "fileStem": "ashveil-icon",
+          "path": "Prydwen/hsr/assets/characters/ashveil-f380b4ccce3e.webp",
+          "width": 45,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "id": "anomaly-arbitration-48",
+      "level": 6,
+      "heading": "Anomaly Arbitration",
+      "text": "Rank 3\n App. rate: 12.01 %\n Avg. cycles : 8.1\n Avg. cycles (E1+): 5.44\n\n Rank 7\n App. rate: 7.19 %\n Avg. cycles : 7.51\n Avg. cycles (E1+): 4.73\n\n Rank 11\n App. rate: 3.77 %\n Avg. cycles : 9.46\n Avg. cycles (E1+): 5.43\n\n Rank 16\n App. rate: 1.96 %\n Avg. cycles : 8.58\n Avg. cycles (E1+): 6.17\n\n Rank 19\n App. rate: 1.63 %\n Avg. cycles : 8.62\n Avg. cycles (E1+): 4.32\n\n Rank 23\n App. rate: 1.19 %\n Avg. cycles : 8.53\n Avg. cycles (E1+): 5.97\n\n Rank 26\n App. rate: 0.98 %\n Avg. cycles : 10\n Avg. cycles (E1+): 6.05\n\n Rank 31\n App. rate: 0.89 %\n Avg. cycles : 8.58\n Avg. cycles (E1+): 5.52\n\n Rank 32\n App. rate: 0.88 %\n Avg. cycles : 9.23\n Avg. cycles (E1+): 5.81\n\n Rank 34\n App. rate: 0.72 %\n Avg. cycles : 8.77\n Avg. cycles (E1+): 6.47",
+      "assets": [
+        {
+          "id": "bc2d64a2cd5f",
+          "sourceHash": "bc2d64a2cd5f",
+          "kind": "characters",
+          "name": "Hysilens",
+          "fileStem": "hysilens-icon",
+          "path": "Prydwen/hsr/assets/characters/hysilens-bc2d64a2cd5f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0db16ed6c66",
+          "sourceHash": "e0db16ed6c66",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "ele-physical",
+          "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "e01f880a2668",
+          "sourceHash": "e01f880a2668",
+          "kind": "characters",
+          "name": "Black Swan",
+          "fileStem": "black-swan-icon",
+          "path": "Prydwen/hsr/assets/characters/black-swan-e01f880a2668.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ee11bd390c9a",
+          "sourceHash": "ee11bd390c9a",
+          "kind": "icons",
+          "name": "Wind",
+          "fileStem": "ele-wind",
+          "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "a137ba3e51ff",
+          "sourceHash": "a137ba3e51ff",
+          "kind": "characters",
+          "name": "Kafka",
+          "fileStem": "kafka-icon",
+          "path": "Prydwen/hsr/assets/characters/kafka-a137ba3e51ff.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d197456869a0",
+          "sourceHash": "d197456869a0",
+          "kind": "icons",
+          "name": "Lightning",
+          "fileStem": "ele-lightning",
+          "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "714348f14d48",
+          "sourceHash": "714348f14d48",
+          "kind": "characters",
+          "name": "Dan Heng • Permansor Terrae",
+          "fileStem": "dan-heng-permansor-terrae-icon",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f54da6170f38",
+          "sourceHash": "f54da6170f38",
+          "kind": "characters",
+          "name": "Silver Wolf • Lv. 999",
+          "fileStem": "silver-wolf-lv-999-icon",
+          "path": "Prydwen/hsr/assets/characters/silver-wolf-lv-999-f54da6170f38.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "913ff64407f2",
+          "sourceHash": "913ff64407f2",
+          "kind": "icons",
+          "name": "Imaginary",
+          "fileStem": "ele-imaginary",
+          "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "7fc1b269fb6f",
+          "sourceHash": "7fc1b269fb6f",
+          "kind": "characters",
+          "name": "Sparxie",
+          "fileStem": "sparxie-icon",
+          "path": "Prydwen/hsr/assets/characters/sparxie-7fc1b269fb6f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "92feb26d8f0e",
+          "sourceHash": "92feb26d8f0e",
+          "kind": "icons",
+          "name": "Fire",
+          "fileStem": "ele-fire",
+          "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "965df81b835a",
+          "sourceHash": "965df81b835a",
+          "kind": "characters",
+          "name": "Yao Guang",
+          "fileStem": "yao-guang-icon",
+          "path": "Prydwen/hsr/assets/characters/yao-guang-965df81b835a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "bdd27122e011",
+          "sourceHash": "bdd27122e011",
+          "kind": "characters",
+          "name": "Phainon",
+          "fileStem": "phainon-icon",
+          "path": "Prydwen/hsr/assets/characters/phainon-bdd27122e011.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1b219ef71829",
+          "sourceHash": "1b219ef71829",
+          "kind": "characters",
+          "name": "Cerydra",
+          "fileStem": "cerydra-icon",
+          "path": "Prydwen/hsr/assets/characters/cerydra-1b219ef71829.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3d568cb7f29d",
+          "sourceHash": "3d568cb7f29d",
+          "kind": "characters",
+          "name": "Sunday",
+          "fileStem": "sunday-icon",
+          "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "c721ded1f2e0",
+          "sourceHash": "c721ded1f2e0",
+          "kind": "characters",
+          "name": "Trailblazer • Elation",
+          "fileStem": "trailblazer-elation-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-elation-c721ded1f2e0.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "005597837585",
+          "sourceHash": "005597837585",
+          "kind": "characters",
+          "name": "Cyrene",
+          "fileStem": "cyrene-icon",
+          "path": "Prydwen/hsr/assets/characters/cyrene-005597837585.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7d36eb39792a",
+          "sourceHash": "7d36eb39792a",
+          "kind": "icons",
+          "name": "Ice",
+          "fileStem": "ele-ice",
+          "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "f380b4ccce3e",
+          "sourceHash": "f380b4ccce3e",
+          "kind": "characters",
+          "name": "Ashveil",
+          "fileStem": "ashveil-icon",
+          "path": "Prydwen/hsr/assets/characters/ashveil-f380b4ccce3e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "2cde7699adbf",
+          "sourceHash": "2cde7699adbf",
+          "kind": "characters",
+          "name": "Tribbie",
+          "fileStem": "tribbie-icon",
+          "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "565914d1a436",
+          "sourceHash": "565914d1a436",
+          "kind": "icons",
+          "name": "Quantum",
+          "fileStem": "ele-quantum",
+          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "5ff31ffb6345",
+          "sourceHash": "5ff31ffb6345",
+          "kind": "characters",
+          "name": "Archer",
+          "fileStem": "archer-icon",
+          "path": "Prydwen/hsr/assets/characters/archer-5ff31ffb6345.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "da99d2d9a505",
+          "sourceHash": "da99d2d9a505",
+          "kind": "characters",
+          "name": "Sparkle",
+          "fileStem": "sparkle-icon",
+          "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "abea49c1784d",
+          "sourceHash": "abea49c1784d",
+          "kind": "characters",
+          "name": "Evanescia",
+          "fileStem": "evanescia-icon",
+          "path": "Prydwen/hsr/assets/characters/evanescia-abea49c1784d.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "video-guides-49",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "MoC/PF/AS Statistics",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-light-cones": {
+      "label": "Best Light Cones",
+      "sections": [
+        {
+          "heading": "Best Light Cones",
+          "text": "1\n\n Though Worlds Apart (S 1 )\n\n Grants a substantial ATK increase to bolster DHPT's Shields and increase his ATK buff. On Ults also provides Heals during rough sustaining periods and a DMG buff for all allies, stronger if they have a summon which can also be through his Souldragon. With the exception of this Light Cone's unique healing effect, it is not overwhelming ahead of S5 Journey, Forever Peaceful (although it is still better), but is more immediately acquirable.\n Usage: 28.82 %\n MoC: 8.11 cyc.\n PF: 32068\n AS: 3451\n\n 2\n\n Journey, Forever Peaceful (S 1 )\n\n The Battle Pass Light Cone - while the Base ATK is low, it offers additional Shield Effect and a teamwide DMG buff to make up for both the weaker base shields and a weaker ATK buff. A strong alternative if purchasing the Battle Pass even at S1.\n Usage: 14.23 %\n MoC: 7.87 cyc.\n PF: 32953\n AS: 3449\n\n 3\n\n Thus Burns the Dawn (S 1 )\n\n Most Preservation Light Cones only provide DEF bonuses and have low Base ATK to work with traditional Shielders, making them suboptimal for DHPT. As such, running an off-Path Light Cone with high Base ATK can be a valid option for his Shield and ATK buff. Aim for Light Cones with atleast 582 Base ATK but ideally 635 or 687.\n\n 4\n\n Day One of My New Life (S 5 )\n\n If unable to use a high Base ATK off-Path Light Cone, Day One of my New Life is a final alternative, with teamwide All-Type RES to help alleviate sustain issues with its low base ATK.\n Usage: 4.42 %\n MoC: 8.08 cyc.\n PF: 31868\n AS: 3452",
+          "assets": [
+            {
+              "id": "2041c8585818",
+              "sourceHash": "2041c8585818",
+              "kind": "light-cones",
+              "name": "Though Worlds Apart",
+              "fileStem": "though-worlds-apart",
+              "path": "Prydwen/hsr/assets/light-cones/though-worlds-apart-2041c8585818.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "963c878b9eab",
+              "sourceHash": "963c878b9eab",
+              "kind": "light-cones",
+              "name": "Journey, Forever Peaceful",
+              "fileStem": "journey-forever-peaceful",
+              "path": "Prydwen/hsr/assets/light-cones/journey-forever-peaceful-963c878b9eab.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "40af809ee965",
+              "sourceHash": "40af809ee965",
+              "kind": "light-cones",
+              "name": "Thus Burns the Dawn",
+              "fileStem": "thus-burns-the-dawn",
+              "path": "Prydwen/hsr/assets/light-cones/thus-burns-the-dawn-40af809ee965.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "efced2539770",
+              "sourceHash": "efced2539770",
+              "kind": "light-cones",
+              "name": "Day One of My New Life",
+              "fileStem": "day-one-of-my-new-life",
+              "path": "Prydwen/hsr/assets/light-cones/day-one-of-my-new-life-efced2539770.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-relic-sets": {
+      "label": "Best Relic Sets",
+      "sections": [
+        {
+          "heading": "Best Relic Sets",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Self-Enshrouded Recluse ( 4 -PC)\n\n Dedicated Shielder set, offering stronger Shields and an easily maintainable 15% CRIT DMG buff for the entire team.\n Usage: 95.46 %\n MoC: 8.07 cyc.\n PF: 32047\n AS: 3449\n\n 2\n\n Self-Enshrouded Recluse ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Warrior Goddess of Sun and Thunder\n\n Sacerdos' Relived Ordeal\n\n Messenger Traversing Hackerspace\n\n Musketeer of Wild Wheat\n\n Hero of Triumphant Song\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous",
+          "assets": [
+            {
+              "id": "201a8d2bf253",
+              "sourceHash": "201a8d2bf253",
+              "kind": "relics",
+              "name": "Self-Enshrouded Recluse",
+              "fileStem": "self-enshrouded-recluse",
+              "path": "Prydwen/hsr/assets/relics/self-enshrouded-recluse-201a8d2bf253.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "2f8ec1684b6b",
+              "sourceHash": "2f8ec1684b6b",
+              "kind": "relics",
+              "name": "Warrior Goddess of Sun and Thunder",
+              "fileStem": "warrior-goddess-of-sun-and-thunder",
+              "path": "Prydwen/hsr/assets/relics/warrior-goddess-of-sun-and-thunder-2f8ec1684b6b.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "5cb190fcc346",
+              "sourceHash": "5cb190fcc346",
+              "kind": "relics",
+              "name": "Sacerdos' Relived Ordeal",
+              "fileStem": "sacerdos-relived-ordeal",
+              "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "4cb8065ad660",
+              "sourceHash": "4cb8065ad660",
+              "kind": "relics",
+              "name": "Messenger Traversing Hackerspace",
+              "fileStem": "messenger-traversing-hackerspace",
+              "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "deeeca721276",
+              "sourceHash": "deeeca721276",
+              "kind": "relics",
+              "name": "Musketeer of Wild Wheat",
+              "fileStem": "musketeer-of-wild-wheat",
+              "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "f71c3d91b222",
+              "sourceHash": "f71c3d91b222",
+              "kind": "relics",
+              "name": "Hero of Triumphant Song",
+              "fileStem": "hero-of-triumphant-song",
+              "path": "Prydwen/hsr/assets/relics/hero-of-triumphant-song-f71c3d91b222.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "507bb2127c32",
+              "sourceHash": "507bb2127c32",
+              "kind": "relics",
+              "name": "Prisoner in Deep Confinement",
+              "fileStem": "prisoner-in-deep-confinement",
+              "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "2d90f2919c5d",
+              "sourceHash": "2d90f2919c5d",
+              "kind": "relics",
+              "name": "The Wind-Soaring Valorous",
+              "fileStem": "the-wind-soaring-valorous",
+              "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-planetary-sets": {
+      "label": "Best Planetary Sets",
+      "sections": [
+        {
+          "heading": "Best Planetary Sets",
+          "text": "1\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Dan Heng PT would prefer Lushaka over other options thanks to his hypercarry synergistic buffs and need for Energy. He can also use Penacony when supporting physical carries like Phainon, and Broken Keel and Fleet are OK alternatives if you have neither of the former though.\n Usage: 93.56 %\n MoC: 8.08 cyc.\n PF: 32061\n AS: 3449\n\n 2\n\n City of Converging Stars ( 2 -PC)\n\n Dan Heng PT can launch Follow-up ATKs through Souldragon - even if Bondmate is assigned to other ally DHPT will always be the one launching the attack. Increases his ATK by 24%, and teammates' CRIT DMG by 12%; most of the time this is easily achievable except certain single encounter Apocalyptic Shadow fights.\n Usage: 0.29 %\n MoC: -\n PF: 0\n AS: 3535\n\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Usage: 1.14 %\n MoC: 8.25 cyc.\n PF: 30132\n AS: 3368\n\n 4\n\n Broken Keel ( 2 -PC)\n\n Usage: 1.22 %\n MoC: 9 cyc.\n PF: 32693\n AS: 3459\n\n 5\n\n Fleet of the Ageless ( 2 -PC)",
+          "assets": [
+            {
+              "id": "d6aae5028c5a",
+              "sourceHash": "d6aae5028c5a",
+              "kind": "relics",
+              "name": "Lushaka, the Sunken Seas",
+              "fileStem": "lushaka-the-sunken-seas",
+              "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "ce4ff214e47e",
+              "sourceHash": "ce4ff214e47e",
+              "kind": "relics",
+              "name": "City of Converging Stars",
+              "fileStem": "city-of-converging-stars",
+              "path": "Prydwen/hsr/assets/relics/city-of-converging-stars-ce4ff214e47e.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "d6cdb5f16b16",
+              "sourceHash": "d6cdb5f16b16",
+              "kind": "relics",
+              "name": "Penacony, Land of the Dreams",
+              "fileStem": "penacony-land-of-the-dreams",
+              "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "3306e6f6288f",
+              "sourceHash": "3306e6f6288f",
+              "kind": "relics",
+              "name": "Broken Keel",
+              "fileStem": "broken-keel",
+              "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "5b886a96e17a",
+              "sourceHash": "5b886a96e17a",
+              "kind": "relics",
+              "name": "Fleet of the Ageless",
+              "fileStem": "fleet-of-the-ageless",
+              "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-stats": {
+      "label": "Best Stats",
+      "sections": [
+        {
+          "heading": "Best Stats",
+          "text": "Body\n ATK%\n\n Feet\n Speed\n >= ATK%\n\n Planar Sphere\n ATK%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (until desired breakpoint) > ATK% > ATK > Effect RES",
+          "assets": [
+            {
+              "id": "dc6aec4a7776",
+              "sourceHash": "dc6aec4a7776",
+              "kind": "icons",
+              "name": "ATK",
+              "fileStem": "stat-atk",
+              "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "087f2dec68b6",
+              "sourceHash": "087f2dec68b6",
+              "kind": "icons",
+              "name": "Speed",
+              "fileStem": "stat-speed",
+              "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "106ddd8eff32",
+              "sourceHash": "106ddd8eff32",
+              "kind": "icons",
+              "name": "Energy Regen",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        }
+      ]
+    },
+    "recommended-endgame-stats": {
+      "label": "Recommended endgame stats",
+      "sections": [
+        {
+          "heading": "Recommended endgame stats",
+          "text": "HP: 3000+\n\n DEF: 1300+\n\n ATK: 3000 - 4000+\n\n SPD: 134+ / 160\n Being around the team's SPD is goal number one; going faster is optional—no specific breakpoint, really.",
+          "assets": []
+        }
+      ]
+    },
+    "traces-priority": {
+      "label": "Traces priority",
+      "sections": [
+        {
+          "heading": "Traces priority",
+          "text": "Skills priority: Skill = Ult = Talent >>> Basic\n\n Major Traces priority: Sylvanity (A4) > Sublimity (A6) > Empyreanity (A2)",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Dan Heng • Permansor Terrae is a versatile Shielder that can support any ATK-scaling team. Just make sure to not use him in teams with HP loss mechanics such as Blade, Mydei, Castorice - as his Shields will intefere with their functionality and his ATK based benefits do not synergize with them. Please note while the synergies below are some of his best, Dan Heng PT can work with a large majority of the characters in the game.\n\n Sunday - Permansor Terrae can attach a Summon to his \"Bondmate\" target, allowing them to receive the full 80% DMG Bonus from Sunday's Skill even if they do not have their own Summon. His Souldragon will also be advanced alongside the target to repeatedly refresh Shields on the team, and the Additional DMG dealt by Souldragon scales on the target's stats, fully benefitting from Sunday's buffs.\n Phainon - Once Souldragon is attached to Phainon, it will not be removed by Phainon's Ultimate and thus can continue to provide Shields and launch Follow-up ATKs that scales on his stats during it. While the DMG amplification may be weaker than other dedicated amplifiers, Permansor Terrae's own amplification is quite similar if paired with Sunday and when considering the 45% DMG Boost from Phainon's Traces. He can also keep the team safe during Phainon's downtime, making him an ideal teammate for Phainon in longer/high-pressure encounters.\n Feixiao Robin - Permansor Terrae is also an excellect support in Follow-up ATK teams thanks to his ATK buffs and his ability to launch Follow-up ATKs himself via Souldragon. As a nice bonus, Robin's massive teamwide ATK buff will also greatly improve the durability of Shields provided by him.\n Dan Heng • Imbibitor Lunae Archer Qingque - Skill Point intensive DMG dealers scaling on ATK will also appreciate Permansor Terrae's Skill Point generation, as he can rely on Souldragon's 160 SPD to refresh the Shields on the team while only using Basic ATKs. This synergy is further amplified by Permansor Terrae's Eidolon 1, as it can offer an additional Skill Point refund when he uses his Ultimate.\n Cyrene - With Cyrene on the team, Permansor Terrae does not need to be actively targeted by Cyrene's Memosprite Skill, and will additionally increase the Bondmate's DMG dealt by 24% whilst also providing even more Bondmate based DMG multipliers. Can also use Cyrene's Memosprite Skill on Permansor Terrae to trigger an emergency Follow-up ATK and Shield.\n Ashveil - Permansor Terrae is the current best Sustain for Ashveil thanks to his ATK buffs, Additional DMG on Souldragon that scales on Ashveil's stats and with it launching Follow-up ATKs can help consume Ashveil's Charges and regenerate Energy for him.",
+          "assets": [
+            {
+              "id": "3d568cb7f29d",
+              "sourceHash": "3d568cb7f29d",
+              "kind": "characters",
+              "name": "Sunday",
+              "fileStem": "sunday-icon",
+              "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "bdd27122e011",
+              "sourceHash": "bdd27122e011",
+              "kind": "characters",
+              "name": "Phainon",
+              "fileStem": "phainon-icon",
+              "path": "Prydwen/hsr/assets/characters/phainon-bdd27122e011.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "55d5418dfd9c",
+              "sourceHash": "55d5418dfd9c",
+              "kind": "characters",
+              "name": "Feixiao",
+              "fileStem": "feixiao-icon",
+              "path": "Prydwen/hsr/assets/characters/feixiao-55d5418dfd9c.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "e985c6a49a99",
+              "sourceHash": "e985c6a49a99",
+              "kind": "characters",
+              "name": "Robin",
+              "fileStem": "robin-icon",
+              "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "0ed3dbce2c95",
+              "sourceHash": "0ed3dbce2c95",
+              "kind": "characters",
+              "name": "Dan Heng • Imbibitor Lunae",
+              "fileStem": "imbibitor-lunae-icon",
+              "path": "Prydwen/hsr/assets/characters/dan-heng-imbibitor-lunae-0ed3dbce2c95.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "5ff31ffb6345",
+              "sourceHash": "5ff31ffb6345",
+              "kind": "characters",
+              "name": "Archer",
+              "fileStem": "archer-icon",
+              "path": "Prydwen/hsr/assets/characters/archer-5ff31ffb6345.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "0276b7882389",
+              "sourceHash": "0276b7882389",
+              "kind": "characters",
+              "name": "Qingque",
+              "fileStem": "qingque-icon",
+              "path": "Prydwen/hsr/assets/characters/qingque-0276b7882389.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "005597837585",
+              "sourceHash": "005597837585",
+              "kind": "characters",
+              "name": "Cyrene",
+              "fileStem": "cyrene-icon",
+              "path": "Prydwen/hsr/assets/characters/cyrene-005597837585.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "f380b4ccce3e",
+              "sourceHash": "f380b4ccce3e",
+              "kind": "characters",
+              "name": "Ashveil",
+              "fileStem": "ashveil-icon",
+              "path": "Prydwen/hsr/assets/characters/ashveil-f380b4ccce3e.webp",
+              "width": 45,
+              "height": 45
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Dan Heng • Permansor Terrae Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Dan Heng • Permansor Terrae\n Dan Heng • Permansor Terrae Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Dan Heng • Permansor Terrae from HSR (Honkai: Star Rail). Dan Heng • Permansor Terrae is a 5 ★ character from the Physical element who follows the Path of Preservation .\n The chest of Georios and the body of walking dragon shoulder the shattered earth, enduring a thousand years of suffering. Nameless Dan Heng, Chrysos Heir who guards the Earth's Coreflame, you must steady the world as it falls, and guide all life across the land to a new home beyond.\n\n To learn more about Dan Heng • Permansor Terrae check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Dan Heng • Permansor Terrae has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 3.6\n\n Last major build/calcs update\n Patch 3.6\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Dan Heng • Permansor Terrae check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Aegis Vitae\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Physical DMG equal to #1[i]% of Dan Heng • Permansor Terrae's ATK to one designated enemy.\n\n Skill\n Terra Omnibus\n Defense\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Designates one ally character as the \"Bondmate\" and provides all allies with a Shield that can offset DMG equal to #1[i]% of Dan Heng • Permansor Terrae's ATK plus #2[i] for #3[i] turn(s). When repeatedly receiving Dan Heng • Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed #4[i]% of the current Shield provided by Skill.\n\"Bondmate\" only applies to the most recent target of Dan Heng • Permansor Terrae's Skill.\n\n Ultimate\n A Dragon's Zenith Knows No Rue\n AoE | 135 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Deals Physical DMG equal to #1[i]% of Dan Heng • Permansor Terrae's ATK to all enemies, and provides a Shield to all allies that can offset DMG equal to #4[i]% of Dan Heng • Permansor Terrae's ATK plus #5[i], lasting for #6[i] turn(s). When repeatedly receiving Dan Heng • Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed #7[i]% of the current Shield provided by Skill.\n\"Souldragon\" becomes enhanced. When \"Souldragon\" takes action, launches Follow-up ATK, dealing Physical DMG to all enemies equal to #2[i]% of Dan Heng • Permansor Terrae's ATK and Additional DMG of the Bondmate's Type to all enemies equal to #8[i]% of the Bondmate's ATK. The enhancement lasts for #3[i] \"Souldragon\" action(s).\n\n Talent\n Of Virtue, Forms Unfold\n Defense\n\n Lv. 1\n\n Energy gain: 0\n Break: 20\n\n When an ally character becomes the \"Bondmate,\" Dan Heng • Permansor Terrae summons \"Souldragon\" for them, which has an initial SPD of #5[i].\nWhen \"Souldragon\" takes action, dispels #6[i] debuff(s) from all allies and provides a Shield that can offset DMG equal to #1[i]% of Dan Heng • Permansor Terrae's ATK plus #2[i] for #3[i] turn(s). The Shield Effect provided by Dan Heng • Permansor Terrae and \"Souldragon\" can be stacked, but it will not exceed #4[i]% of the Shield provided by Dan Heng • Permansor Terrae's Skill.\nWhen Dan Heng • Permansor Terrae or the \"Bondmate\" is knocked down, \"Souldragon\" disappears.\n\n Technique\n Earthrend\n Impair\n\n Energy gain: 0\n Break: -\n\n After using Technique, gains \"Bondmate\" and inflict Daze on enemies within a certain area for #1[i] second(s). Dazed enemies will not actively attack ally targets.\nWhen switching the active character, \"Bondmate\" transfers to the current active character. At the start of the next battle, automatically uses Skill 1 time on the character with \"Bondmate\" without consuming any Skill Points.\n\n Major Traces\n A2 Major trace\n Empyreanity\n\n When using Skill, increases ATK for the target who has become 'Bondmate' by an amount equal to 15% of Dan Heng • Permansor Terrae's ATK.\n\n A4 Major trace\n Sylvanity\n\n When combat starts, Dan Heng • Permansor Terrae advances action by 40% . When the 'Bondmate' uses an attack, Dan Heng • Permansor Terrae regenerates 6 Energy and 'Souldragon' advances action by 15% .\n\n A6 Major trace\n Sublimity\n\n When 'Souldragon' takes action, additionally provides a Shield that can offset DMG equal to 5% of Dan Heng • Permansor Terrae's ATK plus 100 to the ally target whose current Shield Effect is the lowest. When repeatedly receiving Dan Heng • Permansor Terrae's Shield, can stack the Shield Effect, but it will not exceed 300% of the current Shield provided by Skill. When the enhanced 'Souldragon' takes action, additionally deals 1 instance of Additional DMG of the Bondmate's Type to the one enemy target whose current HP is the highest, equal to 40% of the Bondmate's ATK.\n\n Minor Traces (total)\n ATK\n + 28%\n\n Speed\n + 5\n\n DEF\n + 22.5%\n\n Eidolons\n E 1\n Shed Scales of Old\n Eidolon 1\n\n When Dan Heng • Permansor Terrae uses Ultimate, recovers 1 Skill Point(s) and increases the \"Bondmate's\" All-Type RES PEN by 18% , lasting for 3 turn(s).\n\n E 2\n Watch Trails to Blaze\n Eidolon 2\n\n Additionally increases the number of actions for the enhanced Souldragon from Ultimate by 2 . After Dan Heng • Permansor Terrae uses Ultimate, Souldragon advances action by 100% . When the enhanced \"Souldragon\" takes action, the Additional DMG dealt by the \"Bondmate\" becomes 200% of its original DMG, and the Shield Effect provided in this instance becomes 200% of its original Shield Effect.\n\n E 3\n Bear Weight of Worlds\n Eidolon 3\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n By Oath, This Vessel Is I\n Eidolon 4\n\n Reduces the DMG taken by the \"Bondmate\" by 20% .\n\n E 5\n The Path of Permanence Sweeps Far\n Eidolon 5\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n One Dream to Enfold All Wilds\n Eidolon 6\n\n When the \"Bondmate\" is on the field, increases the DMG taken by all enemies by 20% . When the \"Bondmate\" deals DMG, ignores 12% of the enemy targets' DEF. When Dan Heng • Permansor Terrae uses Ultimate, the \"Bondmate\" will deal Additional DMG of the Bondmate's Type to all enemies, equal to 330% of the Bondmate's ATK.\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1047\n\n ATK\n\n 582\n\n DEF\n\n 776\n\n Speed\n\n 97\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 308000\n\n Fear-Stomped Flesh\n\n x 15\n\n Courage-Torn Chest\n\n x 15\n\n Invasive Clot\n\n x 65\n\n Glory-Aspersed Torso\n\n x 15\n\n CV\n ENG\n Nicholas Leung\n\n JPN\n Kento Itō (伊東健人)\n\n CN\n Yú Dòng (魚凍)\n\n KR\n Kim Hye-sung (김혜성)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Excellent shielding sustain,\n\n Passively maintains strong shields,\n\n Provides strong buffs for ATK scalers,\n\n Provides a rare damage multiplier increase for Bondmate,\n\n Can provide an ally synergy with summon-based effects thanks to Bondmate,\n\n Great Energy and SP economy,\n\n Completely free at launch,\n\n Good vertical investment,\n\n Makes Sunday an even stronger support.\n\n Cons\n Light Cone options are lacking due to ATK scaling,\n\n Doesn't provide much value for non ATK based DPS,\n\n Can't provide as much offensive value outside of hypercarry comps,\n\n No longer fun-sized :(\n\n Review (By Sushou)\n Dan Heng Permansor Terrae is a fantastic shielding sustain that scales off of ATK. He provides strong shields for the entire party and is able to stack the shielding effect on top of itself for larger combined totals. He has a summoned unit, Souldragon, whom he can attach to an ally with his Skill. Souldragon acts independently and also provides teamwide shields on its turn, as well as cleansing allies. Souldragon can also be enhanced to deal damage to all enemies. The chosen ally will also have their ATK buffed, and when Souldragon is enhanced, the ally will get bonus DMG multipliers from the Souldragon attacks. Effortlessly powerful.\n [Intro]\n Dan Heng, the Third, has risen to the stage. No longer content with just being 'the cooler Daniel', he has aspired to the illustrious position of 'The cooler Cooler Daniel'. It's too soon to say 'coolest', but he gets damn close.\n It's been an age since Star Rail has received an actual proper shielding unit, made more amusing by the fact that the completely new Path of Remembrance that showed up actually overtook the Preservation for total number of units with Evernight. Dan Heng III once again equalises the number, but damn we really do not have many shielders right now.\n Then again, with how absurd this new form of Dan Heng is, we may never need another one (this is hyperbole, don't come back in a years' time and hit me with the 'but you said—'). At least for right now, Permansor Terrae is an absolute godsend for all players; sustaining is becoming more challenging for the casual player, and the teams not struggling to do so casually either have every HP scaler under the sun, or are banished to the other side of the monitor while mister 'Let Me Solo Them' takes centre stage.\n This is probably felt the most by people who skipped Hyacine, and she and her signature have been getting a lot of use and value. Huohuo has also remained quite the staple, but more so for her Energy recharging capabilities than her actual (rapidly faltering) healing values. Not only is Dan Heng coming at an opportune time, he's also being given out for free as of the time of writing. As we'll see in a bit, the man is tearing it up with his kit, and he's got a colossal amount going for him. As the Remembrance Trailblazer initially showed us, and as Evernight confirmed it, 'Main Trio Privilege' is absolutely real.\n Seriously, do not miss your opportunity to get him for free.\n [Abilities]\n The long winding road begins with the abilities. Just like with Evernight, once you're past all the proper terms and disambiguation, the kit itself is actually very simple.\n Dan Heng's Skill will shield all allies for 20% of his ATK plus 400 for 3 turns. Using this Skill repeatedly will compound the shield value up to 300% of the current base value. When Dan Heng uses this Skill, it has a primary target. The primary target will receive the status Bondmate, and this lasts until Dan Heng designates a new ally as such with another targeted Skill use.\n A 3 turn duration for shields is great because some particularly speedy characters are known for blitzing through shorter shield durations without much effort. In addition, having a compounding effect in the same vein as Aventurine is invaluable for creating a massive HP buffer for allies, and to prevent the 'wasting' of shield value.\n Dan Heng's Talent is that he has a summoned entity called Souldragon. Souldragon is summoned upon using his Skill or Technique, and attaches itself to the Bondmate. Souldragon has an initial SPD of 165, and when it acts, it will remove 1 debuff from all allies and provide a shield worth 10% ATK plus 200 for 3 turns, effectively half of the value of the Skill's shield.\n This can compound in the exact same way as the shield from the Skill, and similarly has the same maximum value of 300% of the Skill's base value. Souldragon acting independently means that there is a constant influx of shields for the whole party, but more than that, it's a consistent and reliable way to get shields without needing to spend SP. Souldragon follows the Bondmate, and if either Dan Heng or the chosen Bondmate are downed, Souldragon will disappear.\n Dan Heng's Ultimate costs 135 Energy. It deals 300% ATK to all enemies on the field, and provides a shield to allies, with the same values as his Skill, as well as the same compounding conditions and benefits.\n At the same time, Souldragon will become enhanced, and this enhancement lasts for 2 Souldragon actions. During this enhancement, whenever Souldragon's turn comes around, it will now launch a Follow-up ATK, dealing Physical damage to all enemies on the field equal to 80% of Dan Heng's ATK. This attack will also deal Additional DMG on top, equal to 80% of the Bondmate's ATK. Important to note that this is Additional DMG and is not considered an actual attack. This Follow-up ATK is in addition to its usual passive AoE shielding.\n That's it. That's the whole character. He basically plays himself while also providing remarkably high strength shields. This is also the first shielder who is capable of cleansing allies of their debuffs, and fairly consistently too.\n It's a very impressive kit and we've not even talked about the Bonus Traces yet.\n [Bonus Traces]\n Yet more proof that this is just a support character who happens to provide shields instead of an actual dedicated sustain, though there is some welcome help towards that part as well.\n His A2 will grant an ATK increase for the ally Dan Heng designates as the Bondmate with his Skill. This increase is equal to 15% of Dan Heng's ATK stat. Given that Dan Heng wants to be stacking as much ATK as possible for his own benefit, this results in a huge amount of free ATK for the Bondmate. It's not going to be quite as much as, say, Cerydra would give with her equivalent effect, but again, this benefit is coming from the sustain slot, and will actually stack with the aforementioned increase if you have both him and Cerydra in the same team.\n The A4 will grant Dan Heng a 40% action advance at the start of combat, making it easier to be the first one to act. Additionally, whenever the Bondmate uses an attack, Dan Heng will regenerate 6 Energy, and Souldragon's action is advanced by 15%. We just keep winning, don't we. A free combat start action advance equivalent to Vonwacq is already great value, but to then also have built-in Energy recharge from just having the Bondmate attack is phenomenal. Advancing Souldragon's action is just the icing on top, and it makes the already incredible shielding of this character reach the illustrious 'effortless' rating.\n Lastly, the A6 will allow Souldragon to provide an additional smaller shield to the ally with the current lowest shield effect, equal to 5% ATK plus 100. This, naturally, also compounds with the same rules as before. Additionally, when the enhanced Souldragon attacks, it will deal another instance of Additional DMG of the Bondmate's Type to one enemy with the highest current HP, and this is equal to 40% of the Bondmate's ATK.\n Ridiculous; fantastic. This addresses the issue that comes up where if allies are hit unevenly then the shield value may not keep up for certain high-aggro characters, like Foxians, and coupled with the A4 is something that's going to make damn sure that all members of your team are adequately protected.\n Minor Traces are also pretty good for the most part. 28% ATK and 5 SPD is excellent, and the 22.5% DEF is good for his own personal survivability (not that he'll have an issue with that since his base DEF is literally top 1).\n Akivili must have personally blessed these Bonus Traces, I swear.\n [Eidolons]\n You already know the drill.\n Dan Heng's E1 will recover 1 Skill Point for the team after he uses his Ultimate. In addition to this, the Bondmate's All-Type RES PEN will increase by 18% for 3 turns. This is very nice to have because — and say it with me, now — it's from the sustain slot of the team, yes, very good. It's a nice boost to have, especially in hypercarry setups, but is by no means a make-or-break Eidolon.\n His E2 increases the number of attacks the enhanced Souldragon may take by 2, for a new total of 4 per Ultimate. After Dan Heng uses his Ultimate, Souldragon is advanced by 100%, and the Additional DMG dealt by the Bondmate becomes 200% of its original DMG. The shield effect provided in this attack is also 200% of its original amount. Now this is the real juice, offering a substantial damage and uptime increase. This is particularly great for characters who can attack often enough that Dan Heng can get a large amount of Energy back. It's pretty great, honestly, but again is somewhat below the level of more recent DPS focused Eidolons.\n This is more of a testament to how great Dan Heng Permansor Terrae is at base, as there's really not that big of a need to pull for these unless you really like him and want to ensure his relevance.\n [The Rest]\n Souldragon does have some quirks to it. The most important one to note is that when Souldragon is attached to its Bondmate, it counts as the Bondmate's summon. This has some very significant ramifications for certain effects that care whether or not the targeted ally has a summon — I hope you like Sunday, because pairing him with Permansor Terrae can guarantee Sunday's full 80% DMG buff, usually reserved only for summons and memosprites, for any character you choose.\n This also means that whenever Sunday uses his Skill to action advance the Bondmate, Souldragon will also get brought up in the turn order as well, meaning even more shields for the whole party. It's a ridiculously potent combination, and yet another win for the Astral Express crew. Any future 'summon character exclusive' effects should theoretically also be easily accessible thanks to this Bondmate interaction.\n In addition to this, the Additional DMG that the enhanced Souldragon's Follow-up ATK deals scales fully off of the Bondmate's stats, meaning a significant chunk of the damage isn't even Dan Heng's. This means you have no real reason to focus on building damage stats on Permansor Terrae and can simply focus on pumping the ATK stat as high as it can go.\n This essentially acts as a multiplier buff for the Bondmate, an effect that's extremely rare to find at all, let alone on a sustain unit. Even though this enhanced Souldragon state is not going to be up all the time, it's still an excellent effect to be giving out for absolutely free. 80% ATK, especially in AoE situations, is most assuredly not negligible, and this can help out quite a bit in encounters where there are plenty of adds since, again, it's at no additional cost to the Bondmate.\n Also worth noting is that this Souldragon attack actually deals some fairly impressive Toughness damage, which is really not something I was expecting at all. It's not going to be the absolute most important thing to factor in all the time, but it's certainly worthy enough to mention it.\n The increased effectiveness with Sunday means that the pair pretty much works for any kind of hypercarry team and can skyrocket its power. Giving out an extra 50% DMG simply thanks to the Souldragon interaction is excellent, and that's before even considering the actual buff that Dan Heng himself provides.\n Outside of that, since Dan Heng is a sustain, he can go pretty much anywhere he's needed, and he'll have a good time. The only place he may struggle at absolute base investment is Anomaly Arbitration, but that's just...\n If you want to make sure he has no issues whatsoever, even in the most egregious circumstances, then going for his signature Light Cone is well-advised. It's really good for him and his team, especially since maybe around half of the Preservation cones kinda don't work on him or are just laughably bad. The signature isn't on the level of Hyacine's signature (thank heavens), but it's good enough that it's worth considering. It should be made very clear, in the rare event that you've made it this far and haven't realised, that Permansor Terrae is designed with ATK scaling hypercarries in mind. He works excellently as a pure sustain for those precious few weirdo hypercarries who don't scale with ATK, but you will be missing out on a large portion of why he's as strong as he is.\n To that end... Anaxagoras and Phainon. These two don't really need the help, but Dan Heng is giving it to them. Very much a 'my lobster is too buttery' situation.\n For Anaxa, his attack frequency works very well with Dan Heng's kit, and Anaxa very much appreciates the ATK buff he'll be getting. As he's someone who's played alongside Sunday, this naturally also provides an extra 50% DMG just for having Permansor Terrae in the party to give Anaxa the Souldragon.\n For Phainon, it kinda depends. Right now, the best damage you'll get with Phainon is to run him without a sustain, as 'intended'. Problem with that is that things are becoming so damn tanky that ending a whole encounter with only one or two Ultimates can be somewhat challenging without meticulous planning beforehand.\n In those cases where you're going to have to work towards a third Ultimate, your team may be looking a bit pale by that point, and dying is simply not an option, so you have to bring a sustain after all. Up until now, that's pretty much been the role of Huohuo as she was the previous big shot of providing enough damage from the sustain slot that it's not a complete wash (but still felt pretty bad)\n Now you can substitute her out for Dan Heng who'll have no issues with sustaining the team overall, and due to his Technique starting the fight with a free Skill use, Phainon actually gets more Coreflames than you may expect. This coupled with the damage increase he gives by being paired with Sunday (again) as well as Phainon's own personal DMG increase whenever he receives healing or shielding from a teammate means that the damage loss from not having a third dedicated support is actually somewhat mitigated, surprisingly so in fact. Obviously it's still going to be less damage, but it's useless if you had no chance of living long enough to make use of it. Especially for harder fights that last longer, this is the go-to sustain option for Phainon teams as well.\n Funnily enough, both of these DPS can guarantee that enemies will have their corresponding Weakness, meaning Souldragon's Toughness DMG is actually always relevant. 'My steak is too juicy, too'.\n Other frequent attackers like The Herta and Aglaea can make excellent use of Dan Heng's buffs for the same reasons, with The Herta in particular getting to pop off even more in Pure Fiction than she already can, as it's even more Energy getting funnelled to her from the extra AoE attacks.\n [Wrap up]\n My Sunday buff can't be this cute...\n He's great. I have no notes, really. Fits pretty much everywhere, has good options for teams and builds, and best of all is that he's completely free, so everyone's got a banging sustain option now. Bless this man for his countless years of patience, clearly he was refining his skills to the perfect point to greet us again in the final cycle.\n The trio is assembled once again, and the final steps are ahead. Let's all welcome the coming finale, safe in the knowledge that Akivili most assuredly has favourite children, and it's the Express Crew, and by a lot.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Sustain\n T0\n MoC\n\n T0.5\n PF\n\n T0\n AS\n\n Build and teams\n\n Best Light Cones\n\n 1\n\n Though Worlds Apart (S 1 )\n\n Grants a substantial ATK increase to bolster DHPT's Shields and increase his ATK buff. On Ults also provides Heals during rough sustaining periods and a DMG buff for all allies, stronger if they have a summon which can also be through his Souldragon. With the exception of this Light Cone's unique healing effect, it is not overwhelming ahead of S5 Journey, Forever Peaceful (although it is still better), but is more immediately acquirable.\n Usage: 28.82 %\n MoC: 8.11 cyc.\n PF: 32068\n AS: 3451\n\n 2\n\n Journey, Forever Peaceful (S 1 )\n\n The Battle Pass Light Cone - while the Base ATK is low, it offers additional Shield Effect and a teamwide DMG buff to make up for both the weaker base shields and a weaker ATK buff. A strong alternative if purchasing the Battle Pass even at S1.\n Usage: 14.23 %\n MoC: 7.87 cyc.\n PF: 32953\n AS: 3449\n\n 3\n\n Thus Burns the Dawn (S 1 )\n\n Most Preservation Light Cones only provide DEF bonuses and have low Base ATK to work with traditional Shielders, making them suboptimal for DHPT. As such, running an off-Path Light Cone with high Base ATK can be a valid option for his Shield and ATK buff. Aim for Light Cones with atleast 582 Base ATK but ideally 635 or 687.\n\n 4\n\n Day One of My New Life (S 5 )\n\n If unable to use a high Base ATK off-Path Light Cone, Day One of my New Life is a final alternative, with teamwide All-Type RES to help alleviate sustain issues with its low base ATK.\n Usage: 4.42 %\n MoC: 8.08 cyc.\n PF: 31868\n AS: 3452\n\n Specialist Light Cones\n\n Trend of the Universal Market (S 5 )\n\n Has a low base ATK but in many fights can supercharge Acheron's Ultimate if not using Jiaoqiu. Can doubly be used in Hysilens' teams for an additional DoT effect but with a low and unreliable uptime on the whole field.\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Self-Enshrouded Recluse ( 4 -PC)\n\n Dedicated Shielder set, offering stronger Shields and an easily maintainable 15% CRIT DMG buff for the entire team.\n Usage: 95.46 %\n MoC: 8.07 cyc.\n PF: 32047\n AS: 3449\n\n 2\n\n Self-Enshrouded Recluse ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Warrior Goddess of Sun and Thunder\n\n Sacerdos' Relived Ordeal\n\n Messenger Traversing Hackerspace\n\n Musketeer of Wild Wheat\n\n Hero of Triumphant Song\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n Best Specialist Relic Sets\n 1\n\n Warrior Goddess of Sun and Thunder ( 4 -PC)\n\n An alternative to Self-Enshrouded Recluse but only if using Dan Heng Permansor Terrae's signature Light Cone which grants heal on ultimates. Trades Shield Effect for SPD and needs consistent ult generation.\n Usage: 0.24 %\n MoC: 8 cyc.\n PF: 33800\n AS: 3443\n\n 2\n\n Sacerdos' Relived Ordeal ( 4 -PC)\n\n Recommended option but only with Phainon, as his Skill and Technique can quickly stack the buff twice on him at the start of the fight. Phainon does not have to worry about losing the buff even if the Shield is broken, and the CRIT DMG buff is higher.\n Usage: 1.15 %\n MoC: 8.5 cyc.\n PF: 31962\n AS: 3426\n\n Best Planetary Sets\n 1\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Dan Heng PT would prefer Lushaka over other options thanks to his hypercarry synergistic buffs and need for Energy. He can also use Penacony when supporting physical carries like Phainon, and Broken Keel and Fleet are OK alternatives if you have neither of the former though.\n Usage: 93.56 %\n MoC: 8.08 cyc.\n PF: 32061\n AS: 3449\n\n 2\n\n City of Converging Stars ( 2 -PC)\n\n Dan Heng PT can launch Follow-up ATKs through Souldragon - even if Bondmate is assigned to other ally DHPT will always be the one launching the attack. Increases his ATK by 24%, and teammates' CRIT DMG by 12%; most of the time this is easily achievable except certain single encounter Apocalyptic Shadow fights.\n Usage: 0.29 %\n MoC: -\n PF: 0\n AS: 3535\n\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Usage: 1.14 %\n MoC: 8.25 cyc.\n PF: 30132\n AS: 3368\n\n 4\n\n Broken Keel ( 2 -PC)\n\n Usage: 1.22 %\n MoC: 9 cyc.\n PF: 32693\n AS: 3459\n\n 5\n\n Fleet of the Ageless ( 2 -PC)\n\n Best Stats\n\n Body\n ATK%\n\n Feet\n Speed\n >= ATK%\n\n Planar Sphere\n ATK%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (until desired breakpoint) > ATK% > ATK > Effect RES\n\n Recommended endgame stats\n HP: 3000+\n\n DEF: 1300+\n\n ATK: 3000 - 4000+\n\n SPD: 134+ / 160\n Being around the team's SPD is goal number one; going faster is optional—no specific breakpoint, really.\n\n Traces priority\n Skills priority: Skill = Ult = Talent >>> Basic\n\n Major Traces priority: Sylvanity (A4) > Sublimity (A6) > Empyreanity (A2)\n\n Eidolon Information\n\n Eidolon 1: Offers 1 Skill Point refund when using Ultimate and a 18% RES PEN buff for the Bondmate. Overall a strong generic Eidolon to enable the main DPS to deal more damage, and can be especially useful in Skill Point intensive teams. Although the buff can wear out when the target receives constant Action Advances. E1 isn't his strongest supportive Eidolon but offers incredible quality of life.\n Eidolon 2: Empowers his Souldragon defensively but most importantly offensively, increasing the Souldragon Enhancement stacks from 2 to 4 and giving it an immediate turn on Ults, while also doubling both the DMG dealt by the Follow-up ATK (which uses his Bondmate's stats), and the Shield Effect provided. This Eidolon is Dan Heng PT's largest invesment breakpoint boosting his offensive and defensive capabilities considerably.\n Eidolon 4: Reduces DMG Taken by the single Bondmate, which is largely meaningless. Only get this if going for Eidolon 6.\n Eidolon 6: Offers potent offensive buffs, applying 20% Vulnerability to all enemies, granting 12% DEF Ignore to the Bondmate, and causing his Ultimate to deal Additional DMG that scales on the Bondmate's stats. The overall DMG amplification effect is strong but you will need to get through some less powerful Eidolons to reach here.\n\n Synergy\n Dan Heng • Permansor Terrae is a versatile Shielder that can support any ATK-scaling team. Just make sure to not use him in teams with HP loss mechanics such as Blade, Mydei, Castorice - as his Shields will intefere with their functionality and his ATK based benefits do not synergize with them. Please note while the synergies below are some of his best, Dan Heng PT can work with a large majority of the characters in the game.\n\n Sunday - Permansor Terrae can attach a Summon to his \"Bondmate\" target, allowing them to receive the full 80% DMG Bonus from Sunday's Skill even if they do not have their own Summon. His Souldragon will also be advanced alongside the target to repeatedly refresh Shields on the team, and the Additional DMG dealt by Souldragon scales on the target's stats, fully benefitting from Sunday's buffs.\n Phainon - Once Souldragon is attached to Phainon, it will not be removed by Phainon's Ultimate and thus can continue to provide Shields and launch Follow-up ATKs that scales on his stats during it. While the DMG amplification may be weaker than other dedicated amplifiers, Permansor Terrae's own amplification is quite similar if paired with Sunday and when considering the 45% DMG Boost from Phainon's Traces. He can also keep the team safe during Phainon's downtime, making him an ideal teammate for Phainon in longer/high-pressure encounters.\n Feixiao Robin - Permansor Terrae is also an excellect support in Follow-up ATK teams thanks to his ATK buffs and his ability to launch Follow-up ATKs himself via Souldragon. As a nice bonus, Robin's massive teamwide ATK buff will also greatly improve the durability of Shields provided by him.\n Dan Heng • Imbibitor Lunae Archer Qingque - Skill Point intensive DMG dealers scaling on ATK will also appreciate Permansor Terrae's Skill Point generation, as he can rely on Souldragon's 160 SPD to refresh the Shields on the team while only using Basic ATKs. This synergy is further amplified by Permansor Terrae's Eidolon 1, as it can offer an additional Skill Point refund when he uses his Ultimate.\n Cyrene - With Cyrene on the team, Permansor Terrae does not need to be actively targeted by Cyrene's Memosprite Skill, and will additionally increase the Bondmate's DMG dealt by 24% whilst also providing even more Bondmate based DMG multipliers. Can also use Cyrene's Memosprite Skill on Permansor Terrae to trigger an emergency Follow-up ATK and Shield.\n Ashveil - Permansor Terrae is the current best Sustain for Ashveil thanks to his ATK buffs, Additional DMG on Souldragon that scales on Ashveil's stats and with it launching Follow-up ATKs can help consume Ashveil's Charges and regenerate Energy for him.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 3\n App. rate: 12.01 %\n Avg. cycles : 8.1\n Avg. cycles (E1+): 5.44\n\n Rank 7\n App. rate: 7.19 %\n Avg. cycles : 7.51\n Avg. cycles (E1+): 4.73\n\n Rank 11\n App. rate: 3.77 %\n Avg. cycles : 9.46\n Avg. cycles (E1+): 5.43\n\n Rank 16\n App. rate: 1.96 %\n Avg. cycles : 8.58\n Avg. cycles (E1+): 6.17\n\n Rank 19\n App. rate: 1.63 %\n Avg. cycles : 8.62\n Avg. cycles (E1+): 4.32\n\n Rank 23\n App. rate: 1.19 %\n Avg. cycles : 8.53\n Avg. cycles (E1+): 5.97\n\n Rank 26\n App. rate: 0.98 %\n Avg. cycles : 10\n Avg. cycles (E1+): 6.05\n\n Rank 31\n App. rate: 0.89 %\n Avg. cycles : 8.58\n Avg. cycles (E1+): 5.52\n\n Rank 32\n App. rate: 0.88 %\n Avg. cycles : 9.23\n Avg. cycles (E1+): 5.81\n\n Rank 34\n App. rate: 0.72 %\n Avg. cycles : 8.77\n Avg. cycles (E1+): 6.47\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

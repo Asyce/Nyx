@@ -1,0 +1,46 @@
+[
+  {
+    "id": "characters",
+    "label": "Agents",
+    "sourcePath": "/zenless/characters",
+    "file": "Prydwen/zzz/collections/characters.json",
+    "detailPagesTotal": 64,
+    "detailPagesScraped": 64,
+    "staleDetailPagesRemoved": 0,
+    "entries": 64,
+    "assets": 82
+  },
+  {
+    "id": "w-engines",
+    "label": "W-Engines",
+    "sourcePath": "/zenless/w-engines",
+    "file": "Prydwen/zzz/collections/w-engines.json",
+    "detailPagesTotal": 0,
+    "detailPagesScraped": 0,
+    "staleDetailPagesRemoved": 0,
+    "entries": 93,
+    "assets": 103
+  },
+  {
+    "id": "bangboo",
+    "label": "Bangboo",
+    "sourcePath": "/zenless/bangboo",
+    "file": "Prydwen/zzz/collections/bangboo.json",
+    "detailPagesTotal": 0,
+    "detailPagesScraped": 0,
+    "staleDetailPagesRemoved": 0,
+    "entries": 40,
+    "assets": 43
+  },
+  {
+    "id": "disk-drives",
+    "label": "Disk Drives",
+    "sourcePath": "/zenless/disk-drives",
+    "file": "Prydwen/zzz/collections/disk-drives.json",
+    "detailPagesTotal": 0,
+    "detailPagesScraped": 0,
+    "staleDetailPagesRemoved": 0,
+    "entries": 28,
+    "assets": 31
+  }
+]

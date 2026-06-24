@@ -1,0 +1,37 @@
+{
+  "provider": "Prydwen",
+  "game": "zzz",
+  "gameName": "Zenless Zone Zero",
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "sample": null,
+  "source": {
+    "site": "prydwen.gg",
+    "basePath": "/zenless"
+  },
+  "counts": {
+    "collections": 4,
+    "records": 68,
+    "characters": 64,
+    "assetsPlanned": 385,
+    "errors": 0
+  },
+  "files": {
+    "collections": "Prydwen/zzz/collections.json",
+    "characters": "Prydwen/zzz/characters.json",
+    "collectionPages": "Prydwen/zzz/collections",
+    "detailPages": "Prydwen/zzz/pages",
+    "assets": "Prydwen/zzz/assets",
+    "missingAssets": "Prydwen/zzz/missing-assets.json"
+  },
+  "assets": {
+    "requested": 385,
+    "downloaded": 210,
+    "cached": 174,
+    "missing": 1
+  },
+  "errors": [],
+  "notes": [
+    "Prydwen does not expose Nanoka-style game version switching; preview/beta status is inferred from index labels such as Soon or future-version badges.",
+    "Normalized JSON stores local database-relative asset paths and source paths only, not remote URLs."
+  ]
+}

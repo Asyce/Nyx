@@ -540,6 +540,14 @@ window.NyxPulls = (function () {
   ];
   function buildWuwaBannerViews(pulls) { return buildViewsFor('wuwa', pulls, WW_VIEW_BANNERS, WW_STANDARD_5); }
 
+  // Safer alternative to the `iex (irm ...)` one-liner: a single versioned,
+  // inspectable script hosted on pengo.gg with a published checksum. Download +
+  // run are separate user actions. One file, parameterised by -Game.
+  const PULLS_SCRIPT = {
+    url: '/scripts/pengo-pulls.ps1',
+    sha256: '750d63534196c05db3e3af4ec3a9c52ca005c36d69a5701653857a98af4bbc18',
+  };
+
   // ---- adapter registry (Nyx game-key → adapter) ----------------
   // Nyx uses 'wuwa'/'ae'; the underlying data model uses 'ww'/
   // 'endfield'. Map at the boundary so storage stays canonical.
@@ -548,6 +556,7 @@ window.NyxPulls = (function () {
       game: 'gi',
       label: 'Genshin Impact',
       helperCommand: "iex (irm 'https://asyce.com/asivepulled/scripts/genshin.ps1')",
+      safeScript: PULLS_SCRIPT,
       parseAuth: parseGiAuth,
       runImport: importGenshin,
       buildView: buildGenshinView,
@@ -558,6 +567,7 @@ window.NyxPulls = (function () {
       game: 'hsr',
       label: 'Honkai: Star Rail',
       helperCommand: "iex (irm 'https://asyce.com/asivepulled/scripts/hsr.ps1')",
+      safeScript: PULLS_SCRIPT,
       parseAuth: parseGiAuth,
       runImport: importHsr,
       buildView: function (p) { return buildHsrBannerViews(p)[0]; },
@@ -568,6 +578,7 @@ window.NyxPulls = (function () {
       game: 'zzz',
       label: 'Zenless Zone Zero',
       helperCommand: "iex (irm 'https://asyce.com/asivepulled/scripts/zzz.ps1')",
+      safeScript: PULLS_SCRIPT,
       parseAuth: parseGiAuth,
       runImport: importZzz,
       buildView: function (p) { return buildZzzBannerViews(p)[0]; },
@@ -578,6 +589,7 @@ window.NyxPulls = (function () {
       game: 'wuwa',
       label: 'Wuthering Waves',
       helperCommand: "iex (irm 'https://asyce.com/asivepulled/scripts/wuwa.ps1')",
+      safeScript: PULLS_SCRIPT,
       parseAuth: parseWuwaAuth,
       runImport: importWuwa,
       buildView: function (p) { return buildWuwaBannerViews(p)[0]; },

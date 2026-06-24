@@ -1,0 +1,164 @@
+{
+  "ardelia": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Orbiter.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Ardelia.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Ardelia.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Ardelia.png"
+  ],
+  "ember": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Greatsword.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Ember.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Ember.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Ember.png"
+  ],
+  "endministrator": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Sword.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Endmin.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Endmin.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Endmin.png"
+  ],
+  "gilberta": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Orbiter.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Gilberta.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Gilberta.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Gilberta.png"
+  ],
+  "laevatain": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Sword.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Laevatain.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Laevatain.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Laevatain.png"
+  ],
+  "lastrite": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Greatsword.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Lastrite.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Lastrite.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Lastrite.png"
+  ],
+  "lifeng": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Polearm.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Lifeng.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Lifeng.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Lifeng.png"
+  ],
+  "mifu": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Greatsword.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Mifu.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Mifu.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Mifu.png"
+  ],
+  "pogranichnik": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Sword.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Pogranichnik.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Pogranichnik.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Pogranichnik.png"
+  ],
+  "rossi": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Sword.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Rossi.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Rossi.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Rossi.png"
+  ],
+  "tangtang": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Guns.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Tangtang.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Tangtang.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Tangtang.png"
+  ],
+  "yvonne": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Guns.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Yvonne.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Yvonne.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Yvonne.png"
+  ],
+  "zhuangfangyi": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Orbiter.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Zhuangfangyi.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Zhuangfangyi.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Zhuangfangyi.png"
+  ],
+  "alesh": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Sword.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Alesh.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Alesh.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Alesh.png"
+  ],
+  "arclight": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Sword.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Arclight.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Arclight.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Arclight.png"
+  ],
+  "avywenna": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Polearm.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Avywenna.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Avywenna.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Avywenna.png"
+  ],
+  "chenqianyu": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Sword.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Chen.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Chen.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Chen.png"
+  ],
+  "dapan": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Greatsword.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Dapan.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Dapan.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Dapan.png"
+  ],
+  "perlica": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Orbiter.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Perlica.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Perlica.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Perlica.png"
+  ],
+  "snowshine": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Greatsword.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Snowshine.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Snowshine.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Snowshine.png"
+  ],
+  "wulfgard": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Guns.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Wulfgard.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Wulfgard.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Wulfgard.png"
+  ],
+  "xaihi": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Orbiter.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Xaihi.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Xaihi.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Xaihi.png"
+  ],
+  "akekuri": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Sword.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Akekuri.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Akekuri.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Akekuri.png"
+  ],
+  "antal": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Orbiter.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Antal.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Antal.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Antal.png"
+  ],
+  "catcher": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Greatsword.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Catcher.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Catcher.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Catcher.png"
+  ],
+  "estella": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Polearm.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Estella.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Estella.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Estella.png"
+  ],
+  "fluorite": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Guns.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Fluorite.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Fluorite.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Fluorite.png"
+  ]
+}

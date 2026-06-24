@@ -1,0 +1,584 @@
+{
+  "provider": "Prydwen",
+  "game": "hsr",
+  "generatedAt": "2026-06-22T21:01:58.312Z",
+  "summary": {
+    "records": {
+      "added": 93,
+      "removed": 0,
+      "changed": 0,
+      "unchanged": 0
+    }
+  },
+  "sections": {
+    "records": {
+      "added": [
+        {
+          "id": "characters:acheron",
+          "name": "Acheron",
+          "previousHash": null,
+          "currentHash": "132fa6e6614abb00ad546b7f1111831b45b3e1104641b85e163cd3ca9723bfc1"
+        },
+        {
+          "id": "characters:aglaea",
+          "name": "Aglaea",
+          "previousHash": null,
+          "currentHash": "abb38dfb4d40ff3b89bc761ab269024f218a3526217879f9a222f7f94bbc3e64"
+        },
+        {
+          "id": "characters:anaxa",
+          "name": "Anaxa",
+          "previousHash": null,
+          "currentHash": "bc28a482a2852ba15c7d6a9981bbe33d843520e58a33fcd645b7c6244a2f9f4c"
+        },
+        {
+          "id": "characters:archer",
+          "name": "Archer",
+          "previousHash": null,
+          "currentHash": "5cc02be07a22a8d9bfb879d62470b16beca823194262353079e1fe4e1f8a1483"
+        },
+        {
+          "id": "characters:argenti",
+          "name": "Argenti",
+          "previousHash": null,
+          "currentHash": "3f8c95b8ede533891cf54c6efeb154608c8caff41eac4c481a2a39f082113c09"
+        },
+        {
+          "id": "characters:arlan",
+          "name": "Arlan",
+          "previousHash": null,
+          "currentHash": "3f036cb938658a8587abbfd00db49b30086295b791e41f8b9df2ec1e379bdb48"
+        },
+        {
+          "id": "characters:ashveil",
+          "name": "Ashveil",
+          "previousHash": null,
+          "currentHash": "274581e278a6c82e5cc71bd2c6de66dcb5d3455bf510c4ed1905972466030f8e"
+        },
+        {
+          "id": "characters:asta",
+          "name": "Asta",
+          "previousHash": null,
+          "currentHash": "b92d903fa97171edc53dbb1d85d4e9d59a67e0a1c5a996563006a94c93af0429"
+        },
+        {
+          "id": "characters:aventurine",
+          "name": "Aventurine",
+          "previousHash": null,
+          "currentHash": "c105489052947ea371a332d5911461c553de1636b748bdbbd0e0a44a10274b6c"
+        },
+        {
+          "id": "characters:bailu",
+          "name": "Bailu",
+          "previousHash": null,
+          "currentHash": "b6f10aff1ee1eff88ef89cb5ec11598daadef6360f510259865dcfa89b28f445"
+        },
+        {
+          "id": "characters:black-swan",
+          "name": "Black Swan",
+          "previousHash": null,
+          "currentHash": "af8f3fac6017742ee00466035fed0c092acf8775e7e3e0fd632718cd0c14dfc8"
+        },
+        {
+          "id": "characters:blade",
+          "name": "Blade",
+          "previousHash": null,
+          "currentHash": "57d7cf98f789fcd2bd5a277d042f5d30c5f1742164439a439992b63698778d43"
+        },
+        {
+          "id": "characters:blade-mortenax",
+          "name": "Mortenax Blade",
+          "previousHash": null,
+          "currentHash": "0d2ed7d1712ecdd80a43a5b394dac128965e7fce04f370b2f048cd102bcf423a"
+        },
+        {
+          "id": "characters:boothill",
+          "name": "Boothill",
+          "previousHash": null,
+          "currentHash": "05db0fa3f311bdf3aa3d22b673f51f187bf6cc2c1a3d05792939f11c1be794e1"
+        },
+        {
+          "id": "characters:bronya",
+          "name": "Bronya",
+          "previousHash": null,
+          "currentHash": "7d0e428025875e8511bcb806b8d4f8b7a2a4689cd4823084b1cd1ab55ebea6dc"
+        },
+        {
+          "id": "characters:castorice",
+          "name": "Castorice",
+          "previousHash": null,
+          "currentHash": "bddfd7c4e406a0f6bd9350bf1b85d6e369a6a9f3c29c73a3ea361bc452ed8616"
+        },
+        {
+          "id": "characters:cerydra",
+          "name": "Cerydra",
+          "previousHash": null,
+          "currentHash": "1a8a5cfdc362956d3d87d71222a25f08e21ae0b0598336c7af7de24448953dc7"
+        },
+        {
+          "id": "characters:cipher",
+          "name": "Cipher",
+          "previousHash": null,
+          "currentHash": "5139c7f9f8e17728f875b73e0ddfccce77b060b93daf029d2e7b11e3115dac82"
+        },
+        {
+          "id": "characters:clara",
+          "name": "Clara",
+          "previousHash": null,
+          "currentHash": "6c0479b183af001b026fc0d004ad98388c2dd1d39cfe8bbec0c8e245e48dbd65"
+        },
+        {
+          "id": "characters:cyrene",
+          "name": "Cyrene",
+          "previousHash": null,
+          "currentHash": "11468d7a0d4d828d03a3f752640ed0316bbcd33bdfc27e83952caee97d20de0b"
+        },
+        {
+          "id": "characters:dan-heng",
+          "name": "Dan Heng",
+          "previousHash": null,
+          "currentHash": "91293dcbe1b56b30271e3ea0c15efb147706cc0bb8dba0476fd81ecfb8ba6d80"
+        },
+        {
+          "id": "characters:dan-heng-permansor-terrae",
+          "name": "Dan Heng • Permansor Terrae",
+          "previousHash": null,
+          "currentHash": "ec15bd3a75966526d0e87fc63945a08afe3b4ee7d1dab83e02d31d8c1afa6433"
+        },
+        {
+          "id": "characters:dr-ratio",
+          "name": "Dr. Ratio",
+          "previousHash": null,
+          "currentHash": "e807a6fade2c6fc29e8a1c50471abead4bc2b39592bd65aa6a61a8a8f02d2414"
+        },
+        {
+          "id": "characters:evanescia",
+          "name": "Evanescia",
+          "previousHash": null,
+          "currentHash": "db6c0afbdecfcf3a329a0e676f8e34bbbdb9ac5c5892ab2c68462c362f30fb58"
+        },
+        {
+          "id": "characters:feixiao",
+          "name": "Feixiao",
+          "previousHash": null,
+          "currentHash": "b1276aab08028f338d2d2db8136e2cb5b140bed02e38c53d96d826cdef18f101"
+        },
+        {
+          "id": "characters:firefly",
+          "name": "Firefly",
+          "previousHash": null,
+          "currentHash": "f1620478e9f8351a2405d6566860b0f1a0687babc19953312ac633957b9cc737"
+        },
+        {
+          "id": "characters:fu-xuan",
+          "name": "Fu Xuan",
+          "previousHash": null,
+          "currentHash": "89ae11ca7ec2f4448c771b15da1a760e2360ea3fc8642c14f1880af9f1d59535"
+        },
+        {
+          "id": "characters:gallagher",
+          "name": "Gallagher",
+          "previousHash": null,
+          "currentHash": "207ec5d11cea2c48201a258cfaec706c5fa5768726afab64d29bdf4a33790ef8"
+        },
+        {
+          "id": "characters:gepard",
+          "name": "Gepard",
+          "previousHash": null,
+          "currentHash": "6ef5f1484724a804f4bdedadfe7b048d2f18e0b151aa0e321900a194c5a38011"
+        },
+        {
+          "id": "characters:gilgamesh",
+          "name": "Gilgamesh",
+          "previousHash": null,
+          "currentHash": "256e51eba63d993916e016300968fa181095145132d6b27807cfe2dc1dcf48c4"
+        },
+        {
+          "id": "characters:guinaifen",
+          "name": "Guinaifen",
+          "previousHash": null,
+          "currentHash": "22867f20b1fa1abf618778b93175c43f107b1c53f06b2d7aa237754f26c33382"
+        },
+        {
+          "id": "characters:hanya",
+          "name": "Hanya",
+          "previousHash": null,
+          "currentHash": "afa37fb5deb332dfec2ea17b0297795e7813d07fba38d515c1cd6d9778fc6d86"
+        },
+        {
+          "id": "characters:herta",
+          "name": "Herta",
+          "previousHash": null,
+          "currentHash": "b50b7119ca475cebea46c36c752c5dad0f92102f3ed5a9847d73e2256016978f"
+        },
+        {
+          "id": "characters:himeko",
+          "name": "Himeko",
+          "previousHash": null,
+          "currentHash": "52a21a65ce4d29fb68b93795ef1bfa9dacd7009a6da0c4c7551b331fd7546015"
+        },
+        {
+          "id": "characters:himeko-nova",
+          "name": "Himeko Nova",
+          "previousHash": null,
+          "currentHash": "c405d913bead62c769157b1a6592341172ae21ca60920c0ed933e436908b6ef0"
+        },
+        {
+          "id": "characters:hook",
+          "name": "Hook",
+          "previousHash": null,
+          "currentHash": "d51a0beaa83a4621e57a65d567644ea894f1bb816ccb782a34c0548064a63e62"
+        },
+        {
+          "id": "characters:huohuo",
+          "name": "Huohuo",
+          "previousHash": null,
+          "currentHash": "f03f4590928d4eef739015866146765e042834d57691a7a856a3bdba0463c0b3"
+        },
+        {
+          "id": "characters:hyacine",
+          "name": "Hyacine",
+          "previousHash": null,
+          "currentHash": "09b3ce6c4088e3b39a3e70560d2f99bce9a998bc5c42a6e93e87bc96e3a3134d"
+        },
+        {
+          "id": "characters:hysilens",
+          "name": "Hysilens",
+          "previousHash": null,
+          "currentHash": "0cf0a189811ebf891bf0ffff83654a90567df22c9fc77ec843af2ae5ebfcd75f"
+        },
+        {
+          "id": "characters:imbibitor-lunae",
+          "name": "Dan Heng • Imbibitor Lunae",
+          "previousHash": null,
+          "currentHash": "99fa38f1529c071ed01b0f604cacd202d28aa1d4dbaa7e79c44d73c8cc23c900"
+        },
+        {
+          "id": "characters:jade",
+          "name": "Jade",
+          "previousHash": null,
+          "currentHash": "19641cd9e36e3e37352608f0826a652b71290c9fc9904a25b05236c365957659"
+        },
+        {
+          "id": "characters:jiaoqiu",
+          "name": "Jiaoqiu",
+          "previousHash": null,
+          "currentHash": "741371e438b2fb6fe9ced7bd551b91006178cbe87f61ffc241ad4e39e561b4f4"
+        },
+        {
+          "id": "characters:jing-yuan",
+          "name": "Jing Yuan",
+          "previousHash": null,
+          "currentHash": "36662edda30a22e90745c5e6354c32e0f2867156b8b0890e60ebc8773d148184"
+        },
+        {
+          "id": "characters:jingliu",
+          "name": "Jingliu",
+          "previousHash": null,
+          "currentHash": "5161d0a333a52c99089dab21fcb6d6681108776961c83924dafb82f049945884"
+        },
+        {
+          "id": "characters:kafka",
+          "name": "Kafka",
+          "previousHash": null,
+          "currentHash": "5607296296088b2b94bd234a305c7c21784a63dbe3c65c6147ddc71b37e5b8a3"
+        },
+        {
+          "id": "characters:lingsha",
+          "name": "Lingsha",
+          "previousHash": null,
+          "currentHash": "21d47208d29af961420fa59d8822cd48ca1dfe3292442ef0585b75c7492fcb91"
+        },
+        {
+          "id": "characters:luka",
+          "name": "Luka",
+          "previousHash": null,
+          "currentHash": "9e03fd526e315ebc0031b05f7a7961502c0ec777eb73e999f600153e25cd5df6"
+        },
+        {
+          "id": "characters:luocha",
+          "name": "Luocha",
+          "previousHash": null,
+          "currentHash": "9ab97456c259849f649548c5ce8a9994dd0a7cecb06694bd870730ca2e85b510"
+        },
+        {
+          "id": "characters:lynx",
+          "name": "Lynx",
+          "previousHash": null,
+          "currentHash": "be401daf6b4e4d1bab5b64692fe69e1c2d0cbe3bd36226e2d99335552afb2e3e"
+        },
+        {
+          "id": "characters:march-7th",
+          "name": "March 7th",
+          "previousHash": null,
+          "currentHash": "ecf66dc1afbdc31ccf425689d35afc55facf7a2c6d534642d1c8147c549028e5"
+        },
+        {
+          "id": "characters:march-7th-evernight",
+          "name": "March 7th • Evernight",
+          "previousHash": null,
+          "currentHash": "ec0740646037a2b6965b521f10a974821adfc30317b2cd17719a9e7be7244029"
+        },
+        {
+          "id": "characters:march-7th-swordmaster",
+          "name": "March 7th • The Hunt",
+          "previousHash": null,
+          "currentHash": "95eecd1aa176fb97b865b92aac713a4f271b375939ff5af73889200b8c630ca8"
+        },
+        {
+          "id": "characters:misha",
+          "name": "Misha",
+          "previousHash": null,
+          "currentHash": "a3cb1480b444f0fca5e9e01f34fae04ad5770e09c4c4c52b52f86b90572020b0"
+        },
+        {
+          "id": "characters:moze",
+          "name": "Moze",
+          "previousHash": null,
+          "currentHash": "e80127314bc6d4a3c8f907fb8e60a506f53b254fe0d3cb1c0bf4f544cdd5db1d"
+        },
+        {
+          "id": "characters:mydei",
+          "name": "Mydei",
+          "previousHash": null,
+          "currentHash": "c5c31bb0726bb8e16482358d0677070fbb78b3203614709d9b75a44a2dc7abb3"
+        },
+        {
+          "id": "characters:natasha",
+          "name": "Natasha",
+          "previousHash": null,
+          "currentHash": "61bae93445b8014ed2e528eaaa2e443069b39ec76285d055901c9bbaa0bbbbec"
+        },
+        {
+          "id": "characters:pela",
+          "name": "Pela",
+          "previousHash": null,
+          "currentHash": "a50bfc1d3a1a1d185e57ae3944714016a849336a994e0223b50141502c4c1df4"
+        },
+        {
+          "id": "characters:phainon",
+          "name": "Phainon",
+          "previousHash": null,
+          "currentHash": "0aeb6ac3a9b22cd36416458841f9318e1350fb6c5f0a19d62325e58e2718658a"
+        },
+        {
+          "id": "characters:qingque",
+          "name": "Qingque",
+          "previousHash": null,
+          "currentHash": "a94a884bc02f8a33f8b5d286bacc028f796d24d4b3b213347239cc20a850167e"
+        },
+        {
+          "id": "characters:rappa",
+          "name": "Rappa",
+          "previousHash": null,
+          "currentHash": "98a243eca4e39fbf2f44d7cf8e53427ae0536bf137d1eb335eec858ab9609620"
+        },
+        {
+          "id": "characters:rin-tohsaka",
+          "name": "Rin Tohsaka",
+          "previousHash": null,
+          "currentHash": "08e4a50893f19116b5ab805207630f16a865c0fd4d6e2e79d421d1b01c43f000"
+        },
+        {
+          "id": "characters:robin",
+          "name": "Robin",
+          "previousHash": null,
+          "currentHash": "164bd1e3b41f6078acad1ec13b533ed0b2f3213e198cd0c01b249871f474d100"
+        },
+        {
+          "id": "characters:ruan-mei",
+          "name": "Ruan Mei",
+          "previousHash": null,
+          "currentHash": "78739e7a78a9c30505fba7266986d68e0d8522f27097eb54707a461237ffa75d"
+        },
+        {
+          "id": "characters:saber",
+          "name": "Saber",
+          "previousHash": null,
+          "currentHash": "95a820d750d6b6938c13aa2c6ae4cfed7d848e7057b6f459f2a4faa8cd4a2105"
+        },
+        {
+          "id": "characters:sampo",
+          "name": "Sampo",
+          "previousHash": null,
+          "currentHash": "c21834dde4a1d5efd483aacb7182d61e0b6fefdcd038a7c37c6f7487edb90cc4"
+        },
+        {
+          "id": "characters:seele",
+          "name": "Seele",
+          "previousHash": null,
+          "currentHash": "5b7b1127646c4f479ca52e549b5c05314699bab9ebdebe6cf4d5725fb430b165"
+        },
+        {
+          "id": "characters:serval",
+          "name": "Serval",
+          "previousHash": null,
+          "currentHash": "0bd7fefa146312d05dbbb3b88d401a883de8e1223ade99d81a2a75a6eab797e9"
+        },
+        {
+          "id": "characters:silver-wolf",
+          "name": "Silver Wolf",
+          "previousHash": null,
+          "currentHash": "16d6d0b6fcddb60c6ad84fdcaf7101fa2c048b8b300404d209839cf0ff428050"
+        },
+        {
+          "id": "characters:silver-wolf-lv-999",
+          "name": "Silver Wolf • Lv. 999",
+          "previousHash": null,
+          "currentHash": "c0d4eb4edb7aec39ba4e17ac6c833050ec49732673f17999dbc30c36ddab7c91"
+        },
+        {
+          "id": "characters:sparkle",
+          "name": "Sparkle",
+          "previousHash": null,
+          "currentHash": "e2c96f2bcf4a3070ae8e897300cd6315efe2f2444b184398e2211782bec54a11"
+        },
+        {
+          "id": "characters:sparxie",
+          "name": "Sparxie",
+          "previousHash": null,
+          "currentHash": "bbb6159810df7b143d61f5b6d358af665649e032b54cd9c6383edf3a45048655"
+        },
+        {
+          "id": "characters:sunday",
+          "name": "Sunday",
+          "previousHash": null,
+          "currentHash": "a87df6ee88e062c45c68ccbeba83eefca7c2b41ef756192bd9840596c778f3d0"
+        },
+        {
+          "id": "characters:sushang",
+          "name": "Sushang",
+          "previousHash": null,
+          "currentHash": "8eb91bc88eb7282b0ccca984f115e10940be32a0a9ac20dd8e946aec0593d7e5"
+        },
+        {
+          "id": "characters:the-dahlia",
+          "name": "The Dahlia",
+          "previousHash": null,
+          "currentHash": "6477c1299a5f6f7ff4921aee2a16ae5add9756087f50ccccd4f48cd96bc142c9"
+        },
+        {
+          "id": "characters:the-herta",
+          "name": "The Herta",
+          "previousHash": null,
+          "currentHash": "4abd91060c8c2f3971195bdb65d031d8ac615ebb9cc421187f801282ad2b1651"
+        },
+        {
+          "id": "characters:tingyun",
+          "name": "Tingyun",
+          "previousHash": null,
+          "currentHash": "505158aee4902bf6ab4653d89a03b2340b0e5942b314b82cb4c641ad99916e24"
+        },
+        {
+          "id": "characters:tingyun-fugue",
+          "name": "Tingyun • Fugue",
+          "previousHash": null,
+          "currentHash": "754f38e66ef79f964b6c77430b20fd953282c7f8106c18f47ae20d3175b6a02d"
+        },
+        {
+          "id": "characters:topaz",
+          "name": "Topaz & Numby",
+          "previousHash": null,
+          "currentHash": "f873f980f7d607b953492698604bf2941a9701d401c475792b454c36ed11d3b9"
+        },
+        {
+          "id": "characters:trailblazer-destruction",
+          "name": "Trailblazer • Destruction",
+          "previousHash": null,
+          "currentHash": "8dd7ba75d4b41c1c8afb6e1b55e767a0f06378458ceb0bbfbaea3b26b5ce2c8c"
+        },
+        {
+          "id": "characters:trailblazer-elation",
+          "name": "Trailblazer • Elation",
+          "previousHash": null,
+          "currentHash": "6c439618c4345d0370d37c029ecbd2797445e52c07efe2c766e7b806742343f9"
+        },
+        {
+          "id": "characters:trailblazer-harmony",
+          "name": "Trailblazer • Harmony",
+          "previousHash": null,
+          "currentHash": "3d3af423e7a19c989a98c03ab7ef47ad10fb9e3acb6bc64a4cbfa7993ed3c4bd"
+        },
+        {
+          "id": "characters:trailblazer-preservation",
+          "name": "Trailblazer • Preservation",
+          "previousHash": null,
+          "currentHash": "62379a7fd4210f25661722981e78667e049cf2a6d23ef39a3137debd7681ce1a"
+        },
+        {
+          "id": "characters:trailblazer-remembrance",
+          "name": "Trailblazer • Remembrance",
+          "previousHash": null,
+          "currentHash": "4e2e497633c7396a6c733144ae4e019a105818dfaae9dd47e60acd2c64a98854"
+        },
+        {
+          "id": "characters:tribbie",
+          "name": "Tribbie",
+          "previousHash": null,
+          "currentHash": "b5dcbbabc38dda6d4b382d9aa5272cc3853d737dc54a9e90a04db15d09eed5d1"
+        },
+        {
+          "id": "characters:welt",
+          "name": "Welt",
+          "previousHash": null,
+          "currentHash": "52254e6416048215c32b0151c54be0755dea0d922d5117a4171fa3be32616161"
+        },
+        {
+          "id": "characters:xueyi",
+          "name": "Xueyi",
+          "previousHash": null,
+          "currentHash": "900c83593ba5b16e4a0d990d44e5976cbd7ccbe57fe00d36800ead127182096b"
+        },
+        {
+          "id": "characters:yanqing",
+          "name": "Yanqing",
+          "previousHash": null,
+          "currentHash": "b3f95ec1365fdf592e790f21d252dcfbe903740d4481876dbbbed547e4c347e6"
+        },
+        {
+          "id": "characters:yao-guang",
+          "name": "Yao Guang",
+          "previousHash": null,
+          "currentHash": "d00483ab085490f97535ffb6e90c2a650bcea2abffc5fc759634e47568f1e6e2"
+        },
+        {
+          "id": "characters:yukong",
+          "name": "Yukong",
+          "previousHash": null,
+          "currentHash": "87478d7a97186c30e0ae23ffc5e142a2f57cfc8d2814970bb0ed68bda390f183"
+        },
+        {
+          "id": "characters:yunli",
+          "name": "Yunli",
+          "previousHash": null,
+          "currentHash": "a9b7b3a5a690bf147a597ff32ea4b99a61451c03a6d4dd46e7e033dc7ce2c58a"
+        },
+        {
+          "id": "collection:characters",
+          "name": "Honkai Star Rail Characters & Build Guides",
+          "previousHash": null,
+          "currentHash": "e288cabbaee211783000f4151b3b8abdd223a521e85d64841d85875f29da6a26"
+        },
+        {
+          "id": "collection:light-cones",
+          "name": "Honkai: Star Rail Light Cones",
+          "previousHash": null,
+          "currentHash": "6f4adf233e2dedc90ca90ebacb88fde1b5182a4bec9c4ab4bd49f11a288fd1f5"
+        },
+        {
+          "id": "collection:relic-sets",
+          "name": "Honkai: Star Rail Relic Sets",
+          "previousHash": null,
+          "currentHash": "7ff8ace343b00cceee355f6654c3476c6810fc6e2843ea35183cbd4d68627f25"
+        }
+      ],
+      "removed": [],
+      "changed": [],
+      "unchanged": 0,
+      "totals": {
+        "previous": 0,
+        "current": 93
+      }
+    }
+  }
+}

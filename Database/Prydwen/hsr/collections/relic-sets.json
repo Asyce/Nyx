@@ -11,7 +11,7 @@
   "sourcePath": "/star-rail/guides/relic-sets",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-06-10T22:44:44.684Z",
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
   "updatedText": "04/06/2026",
   "meta": {
     "title": "Relic Sets | Honkai: Star Rail",
@@ -2651,5 +2651,6 @@
     }
   ],
   "detailPagesScraped": 0,
-  "detailPagesTotal": 0
+  "detailPagesTotal": 0,
+  "staleDetailPagesRemoved": 0
 }

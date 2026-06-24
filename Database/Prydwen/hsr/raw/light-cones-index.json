@@ -1,0 +1,2302 @@
+{
+  "provider": "Prydwen",
+  "game": "hsr",
+  "collection": "light-cones",
+  "sourcePath": "/star-rail/light-cones",
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "detailPagesTotal": 0,
+  "detailPagesScraped": 0,
+  "staleDetailPagesRemoved": 0,
+  "items": [
+    {
+      "id": "a-dream-scented-in-wheat",
+      "name": "A Dream Scented in Wheat",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/a-dream-scented-in-wheat-e6e38ffd5062.webp",
+      "assetId": "e6e38ffd5062",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Erudition"
+      },
+      "text": "A Dream Scented in Wheat\nRarity: 4 ★\nPath: Erudition\nIncreases the wearer's CRIT Rate by 12/14/16/18/20% . The Ultimate DMG and Follow-up ATK DMG dealt by the wearer increase by 24/28/32/36/40% .\nHP\n+ 953\nATK\n+ 529\nDEF\n+ 397"
+    },
+    {
+      "id": "a-grounded-ascent",
+      "name": "A Grounded Ascent",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/a-grounded-ascent-6018ca5d9c5c.webp",
+      "assetId": "6018ca5d9c5c",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Harmony"
+      },
+      "text": "A Grounded Ascent\nRarity: 5 ★\nPath: Harmony\nAfter the wearer uses Skill or Ultimate on one ally character, the wearer regenerates 6 / 6.5 / 7 / 7.5 / 8 Energy and the ability's target receives 1 stack of \"Hymn\" for 3 turn(s), stacking up to 3 time(s). Each stack of \"Hymn\" increases its holder's DMG dealt by 15 / 17.25 / 19.5 / 21.75 / 24% . After every 2 instance(s) of Skill or Ultimate the wearer uses on one ally character, recovers 1 Skill Point.\nHP\n+ 1164\nATK\n+ 476\nDEF\n+ 529"
+    },
+    {
+      "id": "a-secret-vow",
+      "name": "A Secret Vow",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/a-secret-vow-3a02f5a49f33.webp",
+      "assetId": "3a02f5a49f33",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Destruction"
+      },
+      "text": "A Secret Vow\nRarity: 4 ★\nPath: Destruction\nIncreases DMG dealt by the wearer by 20/25/30/35/40% . The wearer also deals an extra 20/25/30/35/40% of DMG to enemies whose current HP percentage is equal to or higher than the wearer's current HP percentage.\nHP\n+ 1058\nATK\n+ 476\nDEF\n+ 264"
+    },
+    {
+      "id": "a-thankless-coronation",
+      "name": "A Thankless Coronation",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/a-thankless-coronation-b77b76ad26ac.webp",
+      "assetId": "b77b76ad26ac",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Destruction"
+      },
+      "text": "A Thankless Coronation\nRarity: 5 ★\nPath: Destruction\nIncreases the wearer's CRIT DMG by 36/45/54/63/72% . When using Ultimate, increases the wearer's ATK by 40/50/60/70/80% , and if the wearer's Max Energy is greater than or equal to 300, regenerates a fixed amount of Energy equal to 10% of the wearer's Max Energy and once again increases the wearer's ATK by 40/50/60/70/80% , lasting for 2 turns.\nHP\n+ 953\nATK\n+ 582\nDEF\n+ 529"
+    },
+    {
+      "id": "a-trail-of-bygone-blood",
+      "name": "A Trail of Bygone Blood",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/a-trail-of-bygone-blood-959777ab5878.webp",
+      "assetId": "959777ab5878",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Destruction"
+      },
+      "text": "A Trail of Bygone Blood\nRarity: 4 ★\nPath: Destruction\nIncreases the wearer's CRIT Rate by 12/14/16/18/20% . The Skill DMG and Ultimate DMG dealt by the wearer increase by 24/28/32/36/40% .\nHP\n+ 1058\nATK\n+ 529\nDEF\n+ 331"
+    },
+    {
+      "id": "adversarial",
+      "name": "Adversarial",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/adversarial-336eb0911d15.webp",
+      "assetId": "336eb0911d15",
+      "fields": {
+        "rarity": "3 ★",
+        "path": "Hunt"
+      },
+      "text": "Adversarial\nRarity: 3 ★\nPath: Hunt\nWhen the wearer defeats an enemy, increases SPD by 10 /12/14/16/18 % for 2 turn(s)\nHP\n+ 740\nATK\n+ 370\nDEF\n+ 264"
+    },
+    {
+      "id": "after-the-charmony-fall",
+      "name": "After the Charmony Fall",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/after-the-charmony-fall-5ff8a0ce4dac.webp",
+      "assetId": "5ff8a0ce4dac",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Erudition"
+      },
+      "text": "After the Charmony Fall\nRarity: 4 ★\nPath: Erudition\nIncreases the wearer's Break Effect by 28/35/42/49/56% . After the wearer uses Ultimate, increases SPD by 8/10/12/14/16 , lasting for 2 turn(s).\nHP\n+ 847\nATK\n+ 476\nDEF\n+ 397"
+    },
+    {
+      "id": "along-the-passing-shore",
+      "name": "Along the Passing Shore",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/along-the-passing-shore-3f28dc3660c4.webp",
+      "assetId": "3f28dc3660c4",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Nihility"
+      },
+      "text": "Along the Passing Shore\nRarity: 5 ★\nPath: Nihility\nIncreases the wearer's CRIT DMG by 36/42/48/54/60% . When the wearer hits an enemy target, inflicts Mirage Fizzle on the enemy, lasting for 1 turn. Each time the wearer attacks, this effect can only trigger 1 time on each target. The wearer deals 24/28/32/36/40% increased DMG to targets afflicted with Mirage Fizzle, and the DMG dealt by the wearer's Ultimate additionally increases by 24/28/32/36/40% .\nHP\n+ 1058\nATK\n+ 635\nDEF\n+ 396"
+    },
+    {
+      "id": "amber",
+      "name": "Amber",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/amber-d7da401ed097.webp",
+      "assetId": "d7da401ed097",
+      "fields": {
+        "rarity": "3 ★",
+        "path": "Preservation"
+      },
+      "text": "Amber\nRarity: 3 ★\nPath: Preservation\nIncreases the wearer's DEF by 16 /20/24/28/32 % . If the wearer's current HP is lower than 50% , increases their DEF by a further 16 /20/24/28/32 % .\nHP\n+ 846\nATK\n+ 264\nDEF\n+ 330"
+    },
+    {
+      "id": "an-instant-before-a-gaze",
+      "name": "An Instant Before A Gaze",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/an-instant-before-a-gaze-2be72ce2cfa6.webp",
+      "assetId": "2be72ce2cfa6",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Erudition"
+      },
+      "text": "An Instant Before A Gaze\nRarity: 5 ★\nPath: Erudition\nIncreases the wearer's CRIT DMG by 36/42/48/54/60% . When the wearer uses their Ultimate, the wearer's Ultimate DMG increases based on their Max Energy; Ultimate DMG increases by 0.36/0.42/0.48/0.54/0.6% per point of Energy, up to 180 Energy.\nHP\n+ 1058\nATK\n+ 582\nDEF\n+ 463"
+    },
+    {
+      "id": "arrows",
+      "name": "Arrows",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/arrows-d960b53d27c2.webp",
+      "assetId": "d960b53d27c2",
+      "fields": {
+        "rarity": "3 ★",
+        "path": "Hunt"
+      },
+      "text": "Arrows\nRarity: 3 ★\nPath: Hunt\nAt the beginning of the battle, increases the wearer's CRIT Rate by 12/15/18/21/24% for 3 turn(s).\nHP\n+ 846\nATK\n+ 317\nDEF\n+ 264"
+    },
+    {
+      "id": "baptism-of-pure-thought",
+      "name": "Baptism of Pure Thought",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/baptism-of-pure-thought-80db74d0dc8b.webp",
+      "assetId": "80db74d0dc8b",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Hunt"
+      },
+      "text": "Baptism of Pure Thought\nRarity: 5 ★\nPath: Hunt\nIncreases the wearer's CRIT DMG by 20/23/26/29/32% . For every debuff on the enemy target, the wearer's CRIT DMG dealt against this target increases by 8/9/10/11/12% , stacking up to 3 times. When using Ultimate to attack the enemy target, the wearer receives the Disputation effect, which increases DMG dealt by 36/42/48/54/60% and enables their follow-up attacks to ignore 24/28/32/36/40% of the target's DEF. This effect lasts for 2 turns.\nHP\n+ 952\nATK\n+ 582\nDEF\n+ 529"
+    },
+    {
+      "id": "before-dawn",
+      "name": "Before Dawn",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/before-dawn-284e4f7b3131.webp",
+      "assetId": "284e4f7b3131",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Erudition"
+      },
+      "text": "Before Dawn\nRarity: 5 ★\nPath: Erudition\nIncreases the wearer's CRIT DMG by 36/42/48/54/60% . Increases the wearer's Skill and Ultimate DMG by 18/21/24/27/30% . After the wearer uses their Skill or Ultimate, they gain Somnus Corpus. Upon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by 48/56/64/72/80% .\nHP\n+ 1058\nATK\n+ 582\nDEF\n+ 463"
+    },
+    {
+      "id": "before-the-tutorial-mission-starts",
+      "name": "Before the Tutorial Mission Starts",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/before-the-tutorial-mission-starts-8a09e8641c76.webp",
+      "assetId": "8a09e8641c76",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Nihility"
+      },
+      "text": "Before the Tutorial Mission Starts\nRarity: 4 ★\nPath: Nihility\nIncreases the wearer's Effect Hit Rate by 20 /25/30/35/40 %. When the wearer attacks enemies that have reduced DEF, regenerates 4 /5/6/7/8 Energy.\nHP\n+ 952\nATK\n+ 476\nDEF\n+ 330"
+    },
+    {
+      "id": "boundless-choreo",
+      "name": "Boundless Choreo",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/boundless-choreo-8563355e25d7.webp",
+      "assetId": "8563355e25d7",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Nihility"
+      },
+      "text": "Boundless Choreo\nRarity: 4 ★\nPath: Nihility\nIncrease the wearer's CRIT Rate by 8/10/12/14/16% . The wearer deals 24/30/36/42/48% more CRIT DMG to enemies that are currently DEF reduced or Slowed.\nHP\n+ 953\nATK\n+ 476\nDEF\n+ 331"
+    },
+    {
+      "id": "brighter-than-the-sun",
+      "name": "Brighter Than the Sun",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/brighter-than-the-sun-8baf8dc952e7.webp",
+      "assetId": "8baf8dc952e7",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Destruction"
+      },
+      "text": "Brighter Than the Sun\nRarity: 5 ★\nPath: Destruction\nIncreases the wearer's CRIT Rate by 18 /21/24/27/30 % . When the wearer uses their Basic ATK, they will gain 1 stack of Dragon's Call for 2 turns. Each stack of Dragon's Call increases the wearer's ATK by 18 /21/24/27/30 % and Energy Regeneration Rate by 6 /7/8/9/10 % . Dragon's Call can be stacked up to 2 times.\nHP\n+ 1058\nATK\n+ 635\nDEF\n+ 396"
+    },
+    {
+      "id": "but-the-battle-isnt-over",
+      "name": "But the Battle Isn't Over",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/but-the-battle-isnt-over-19cd7e8c68af.webp",
+      "assetId": "19cd7e8c68af",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Harmony"
+      },
+      "text": "But the Battle Isn't Over\nRarity: 5 ★\nPath: Harmony\nIncreases the wearer's Energy Regeneration Rate by 10 /12/14/16/18 % and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 30 /35/40/45/50 % more DMG for 1 turn(s).\nHP\n+ 1164\nATK\n+ 529\nDEF\n+ 463"
+    },
+    {
+      "id": "carve-the-moon-weave-the-clouds",
+      "name": "Carve the Moon, Weave the Clouds",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/carve-the-moon-weave-the-clouds-931ecee0c273.webp",
+      "assetId": "931ecee0c273",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Harmony"
+      },
+      "text": "Carve the Moon, Weave the Clouds\nRarity: 4 ★\nPath: Harmony\nAt the start of the battle and whenever the wearer's turn begins, one of the following effects is applied randomly: All allies' ATK increases by 10 /12.5/15/17.5/20 % , all allies' CRIT DMG increases by 12 /15/18/21/24 % , or all allies' Energy Regeneration Rate increases by 6 /7.5/9/10.5/12 % . The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.\nHP\n+ 952\nATK\n+ 476\nDEF\n+ 330"
+    },
+    {
+      "id": "chorus",
+      "name": "Chorus",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/chorus-47af4f27c328.webp",
+      "assetId": "47af4f27c328",
+      "fields": {
+        "rarity": "3 ★",
+        "path": "Harmony"
+      },
+      "text": "Chorus\nRarity: 3 ★\nPath: Harmony\nAfter entering battle, increases the ATK of all allies by 8 /9/10/11/12 % . Effects of the same type cannot stack.\nHP\n+ 846\nATK\n+ 317\nDEF\n+ 264"
+    },
+    {
+      "id": "collapsing-sky",
+      "name": "Collapsing Sky",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/collapsing-sky-303920706395.webp",
+      "assetId": "303920706395",
+      "fields": {
+        "rarity": "3 ★",
+        "path": "Destruction"
+      },
+      "text": "Collapsing Sky\nRarity: 3 ★\nPath: Destruction\nIncreases the wearer's Basic ATK and Skill DMG by 20/25/30/35/40% .\nHP\n+ 846\nATK\n+ 370\nDEF\n+ 198"
+    },
+    {
+      "id": "concert-for-two",
+      "name": "Concert for Two",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/concert-for-two-e6e31aa61df0.webp",
+      "assetId": "e6e31aa61df0",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Preservation"
+      },
+      "text": "Concert for Two\nRarity: 4 ★\nPath: Preservation\nIncreases the wearer's DEF by 16/20/24/28/32% . For every on-field character that has a Shield, the DMG dealt by the wearer increases by 4/5/6/7/8%.\nHP\n+ 952\nATK\n+ 370\nDEF\n+ 463"
+    },
+    {
+      "id": "cornucopia",
+      "name": "Cornucopia",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/cornucopia-a722636c3152.webp",
+      "assetId": "a722636c3152",
+      "fields": {
+        "rarity": "3 ★",
+        "path": "Abundance"
+      },
+      "text": "Cornucopia\nRarity: 3 ★\nPath: Abundance\nWhen the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 12 /15/18/21/24 % .\nHP\n+ 952\nATK\n+ 264\nDEF\n+ 264"
+    },
+    {
+      "id": "cruising-in-the-stellar-sea",
+      "name": "Cruising in the Stellar Sea",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/cruising-in-the-stellar-sea-44874d6c0588.webp",
+      "assetId": "44874d6c0588",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Hunt"
+      },
+      "text": "Cruising in the Stellar Sea\nRarity: 5 ★\nPath: Hunt\nIncreases the wearer's CRIT rate by 8 /10/12/14/16 % , and increases their CRIT rate against enemies with HP less than or equal to 50% by an extra 8 /10/12/14/16 % . When the wearer defeats an enemy, their ATK is increased by 20 /25/30/35/40 % for 2 turn(s).\nHP\n+ 952\nATK\n+ 529\nDEF\n+ 463"
+    },
+    {
+      "id": "dance-at-sunset",
+      "name": "Dance at Sunset",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/dance-at-sunset-66c8ad00b412.webp",
+      "assetId": "66c8ad00b412",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Destruction"
+      },
+      "text": "Dance at Sunset\nRarity: 5 ★\nPath: Destruction\nGreatly increases the odds that the wearer will be attacked and increases the wearer's CRIT DMG by 36/42/48/54/60% . After the wearer uses their Ultimate, they receive 1 stack of Firedance, lasting for 2 turns and up to 2 stacks. Each stack of Firedance increases the DMG dealt by the wearer's follow-up attack by 36/42/48/54/60%.\nHP\n+ 1058\nATK\n+ 582\nDEF\n+ 463"
+    },
+    {
+      "id": "dance-dance-dance",
+      "name": "Dance! Dance! Dance!",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/dance-dance-dance-efcee8370bab.webp",
+      "assetId": "efcee8370bab",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Harmony"
+      },
+      "text": "Dance! Dance! Dance!\nRarity: 4 ★\nPath: Harmony\nWhen the wearer uses their Ultimate, all allies' actions are Advanced Forward by 16/18/20/22/24%\nHP\n+ 952\nATK\n+ 423\nDEF\n+ 396"
+    },
+    {
+      "id": "darting-arrow",
+      "name": "Darting Arrow",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/darting-arrow-f9478d9c5ec2.webp",
+      "assetId": "f9478d9c5ec2",
+      "fields": {
+        "rarity": "3 ★",
+        "path": "Hunt"
+      },
+      "text": "Darting Arrow\nRarity: 3 ★\nPath: Hunt\nWhen the wearer defeats an enemy, increase ATK by 24/30/36/42/48% for 3 turn(s).\nHP\n+ 740\nATK\n+ 370\nDEF\n+ 264"
+    },
+    {
+      "id": "data-bank",
+      "name": "Data Bank",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/data-bank-a5f1ab271813.webp",
+      "assetId": "a5f1ab271813",
+      "fields": {
+        "rarity": "3 ★",
+        "path": "Erudition"
+      },
+      "text": "Data Bank\nRarity: 3 ★\nPath: Erudition\nIncreases the wearer's Ultimate DMG by 28/35/42/49/56%.\nHP\n+ 740\nATK\n+ 370\nDEF\n+ 264"
+    },
+    {
+      "id": "day-one-of-my-new-life",
+      "name": "Day One of My New Life",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [
+        "New"
+      ],
+      "art": "Prydwen/hsr/assets/light-cones/day-one-of-my-new-life-9c529e228941.webp",
+      "assetId": "9c529e228941",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Preservation"
+      },
+      "text": "Day One of My New Life\nRarity: 4 ★\nPath: Preservation\nIncreases the wearer's DEF by 16 /18/20/22/24 % . After entering battle, increases DMG RES of all allies by 8 /9/10/11/12 % . Effects of the same type cannot stack.\nHP\n+ 952\nATK\n+ 370\nDEF\n+ 463"
+    },
+    {
+      "id": "dazzled-by-a-flowery-world",
+      "name": "Dazzled by a Flowery World",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/dazzled-by-a-flowery-world-2ebc66019a04.webp",
+      "assetId": "2ebc66019a04",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Elation"
+      },
+      "text": "Dazzled by a Flowery World\nRarity: 5 ★\nPath: Elation\nIncreases the wearer's CRIT DMG by 48/56/64/72/80% . While the wearer is on the field, for every 1 Elation character in the team, increases the Skill Point upper limit by 1 , up to a max increase of 3 . For every 1 Skill Point the wearer consumes, enables the Elation DMG dealt by this unit to ignore 5/6/7/8/9% of enemy targets' DEF, stacking up to 4 times. If 4 or more Skill Points are consumed in the same turn, the wearer gains \"Stream Promo,\" which increases all allies' Elation by 20/24/28/32/36% . Light Cone effects of the same type cannot stack.\nHP\n+ 1058\nATK\n+ 582\nDEF\n+ 463"
+    },
+    {
+      "id": "defense",
+      "name": "Defense",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/defense-81e5c7a87990.webp",
+      "assetId": "81e5c7a87990",
+      "fields": {
+        "rarity": "3 ★",
+        "path": "Preservation"
+      },
+      "text": "Defense\nRarity: 3 ★\nPath: Preservation\nWhen the wearer unleashes their Ultimate, they restore HP by 18/21/24/27/30% of their Max HP.\nHP\n+ 952\nATK\n+ 264\nDEF\n+ 264"
+    },
+    {
+      "id": "destinys-threads-forewoven",
+      "name": "Destiny's Threads Forewoven",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/destinys-threads-forewoven-120ea173f01e.webp",
+      "assetId": "120ea173f01e",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Preservation"
+      },
+      "text": "Destiny's Threads Forewoven\nRarity: 4 ★\nPath: Preservation\nIncreases the wearer's Effect RES by 12/14/16/18/20% . For every 100 of DEF the wearer has, increases the DMG dealt by 0.8/0.9/1/1.1/1.2% to a max increase of 32/36/40/44/48% .\nHP\n+ 952\nATK\n+ 370\nDEF\n+ 463"
+    },
+    {
+      "id": "dreams-montage",
+      "name": "Dream's Montage",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/dreams-montage-99a530026ab7.webp",
+      "assetId": "99a530026ab7",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Abundance"
+      },
+      "text": "Dream's Montage\nRarity: 4 ★\nPath: Abundance\nIncreases the wearer's SPD by 8/9/10/11/12% . After attacking enemy targets that are Weakness Broken, regenerates 3/3.5/4/4.5/5 Energy. This effect can trigger up to 2 time(s) per turn.\nHP\n+ 953\nATK\n+ 423\nDEF\n+ 397"
+    },
+    {
+      "id": "dreamville-adventure",
+      "name": "Dreamville Adventure",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/dreamville-adventure-2a5cdfe29354.webp",
+      "assetId": "2a5cdfe29354",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Harmony"
+      },
+      "text": "Dreamville Adventure\nRarity: 4 ★\nPath: Harmony\nAfter the wearer uses a Basic ATK, Skill, or Ultimate, all allies gain Childishness, which increases the DMG dealt by the corresponding ability they used by 12/14/16/18/20% . Childishness only takes effect with the most recent ability used by the wearer and cannot be stacked.\nHP\n+ 953\nATK\n+ 423\nDEF\n+ 397"
+    },
+    {
+      "id": "earthly-escapade",
+      "name": "Earthly Escapade",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/earthly-escapade-e9b43f3ec883.webp",
+      "assetId": "e9b43f3ec883",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Harmony"
+      },
+      "text": "Earthly Escapade\nRarity: 5 ★\nPath: Harmony\nIncreases the wearer's CRIT DMG by 32/39/46/52/60% . At the start of the battle, the wearer gains Mask, lasting for 3 turn(s). While the wearer has Mask, the wearer's allies have their CRIT Rate increased by 10/11/12/13/14% and their CRIT DMG increased by 28/35/42/49/56% . For every 1 Skill Point the wearer recovers (including Skill Points that exceed the limit), they gain 1 stack of Radiant Flame. And when the wearer has 4 stacks of Radiant Flame, all the stacks are removed, and they gain Mask, lasting for 4 turn(s).\nHP\n+ 1164\nATK\n+ 529\nDEF\n+ 463"
+    },
+    {
+      "id": "echoes-of-the-coffin",
+      "name": "Echoes of the Coffin",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/echoes-of-the-coffin-adaede113432.webp",
+      "assetId": "adaede113432",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Abundance"
+      },
+      "text": "Echoes of the Coffin\nRarity: 5 ★\nPath: Abundance\nIncreases the wearer's ATK by 24 /28/32/36/40 % . After the wearer uses an attack, for each different enemy target the wearer hits, regenerates 3 /3.5/4/4.5/5 Energy. Each attack can regenerate Energy up to 3 time(s) this way. After the wearer uses their Ultimate, all allies gain 12 /14/16/18/20 SPD for 1 turn.\nHP\n+ 1164\nATK\n+ 582\nDEF\n+ 396"
+    },
+    {
+      "id": "elation-brimming-with-blessings",
+      "name": "Elation Brimming With Blessings",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/elation-brimming-with-blessings-bc0db5852adb.webp",
+      "assetId": "bc0db5852adb",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Elation"
+      },
+      "text": "Elation Brimming With Blessings\nRarity: 5 ★\nPath: Elation\nIncreases the wearer's ATK by 20/25/30/35/40% . After the wearer uses Skill or Ultimate on one ally character, increases the target's Elation stat by 12/15/18/21/24% for 2 turn(s).\nHP\n+ 953\nATK\n+ 529\nDEF\n+ 463"
+    },
+    {
+      "id": "epoch-etched-in-golden-blood",
+      "name": "Epoch Etched in Golden Blood",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/epoch-etched-in-golden-blood-351ff6af8f18.webp",
+      "assetId": "351ff6af8f18",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Harmony"
+      },
+      "text": "Epoch Etched in Golden Blood\nRarity: 5 ★\nPath: Harmony\nIncreases the wearer's ATK by 64/80/96/112/128% . After using Ultimate to attack, recovers 1 Skill Point(s). After the wearer uses their Skill on one ally character, increases the Skill DMG dealt by the target by 54/67.5/81/94.5/108% for 3 turn(s).\nHP\n+ 953\nATK\n+ 635\nDEF\n+ 463"
+    },
+    {
+      "id": "eternal-calculus",
+      "name": "Eternal Calculus",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/eternal-calculus-a0d94abca87d.webp",
+      "assetId": "a0d94abca87d",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Erudition"
+      },
+      "text": "Eternal Calculus\nRarity: 5 ★\nPath: Erudition\nIncreases the wearer's ATK by 8/9/10/11/12% . After using an attack, for each enemy target hit, additionally increases ATK by 4/5/6/7/8% . This effect can stack 5 times and lasts until the next attack. If there are 3 or more enemy targets hit, this unit's SPD increases by 8/10/12/14/16% , lasting for 1 turn(s).\nHP\n+ 1058\nATK\n+ 529\nDEF\n+ 396"
+    },
+    {
+      "id": "eyes-of-the-prey",
+      "name": "Eyes of the Prey",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/eyes-of-the-prey-30a1cfc9c67e.webp",
+      "assetId": "30a1cfc9c67e",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Nihility"
+      },
+      "text": "Eyes of the Prey\nRarity: 4 ★\nPath: Nihility\nIncreases Effect Hit Rate of its wearer by 20 /25/30/35/40 % and increases DoT by 24 /30/36/42/48 % .\nHP\n+ 952\nATK\n+ 476\nDEF\n+ 330"
+    },
+    {
+      "id": "fermata",
+      "name": "Fermata",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/fermata-cc2dbedea853.webp",
+      "assetId": "cc2dbedea853",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Nihility"
+      },
+      "text": "Fermata\nRarity: 4 ★\nPath: Nihility\nIncreases the wearer's Break Effect by 16/20/24/28/32% , and increases their DMG to enemies afflicted with Shock or Wind Shear by 16/20/24/28/32% . This also applies to DoT.\nHP\n+ 952\nATK\n+ 476\nDEF\n+ 330"
+    },
+    {
+      "id": "final-victor",
+      "name": "Final Victor",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/final-victor-7d8e5cbf41be.webp",
+      "assetId": "7d8e5cbf41be",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Hunt"
+      },
+      "text": "Final Victor\nRarity: 4 ★\nPath: Hunt\nIncreases the wearer's ATK by 12/14/16/18/20% . When the wearer lands a CRIT hit on enemies, they will gain a stack of Good Fortune. This effect can be stacked 4 time(s). Every stack of Good Fortune the wearer has will increase their CRIT DMG by 8/9/10/11/12% . Good Fortune will be removed at the end of the wearer's turn.\nHP\n+ 952\nATK\n+ 476\nDEF\n+ 330"
+    },
+    {
+      "id": "fine-fruit",
+      "name": "Fine Fruit",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/fine-fruit-818b3419efb7.webp",
+      "assetId": "818b3419efb7",
+      "fields": {
+        "rarity": "3 ★",
+        "path": "Abundance"
+      },
+      "text": "Fine Fruit\nRarity: 3 ★\nPath: Abundance\nAt the beginning of battle, immediately regenerates 6/8/9/11/12 Energy for all allies.\nHP\n+ 952\nATK\n+ 317\nDEF\n+ 198"
+    },
+    {
+      "id": "flame-of-blood-blaze-my-path",
+      "name": "Flame of Blood, Blaze My Path",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/flame-of-blood-blaze-my-path-51b20dba8c9d.webp",
+      "assetId": "51b20dba8c9d",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Destruction"
+      },
+      "text": "Flame of Blood, Blaze My Path\nRarity: 5 ★\nPath: Destruction\nIncreases the wearer's Max HP by 18/21/24/27/30% and Incoming Healing by 20/25/30/35/40% . When using Skill or Ultimate, consumes HP equal to 6/6.5/7/7.5/8% of the wearer's Max HP and increases the DMG dealt by this attack by 30/35/40/45/50% . If this effect's consumed HP is greater than 500, the DMG additionally increases by 30/35/40/45/50% .\nIf the current HP is not sufficient, this effect reduces the wearer's current HP down to 1.\nHP\n+ 1375\nATK\n+ 476\nDEF\n+ 396"
+    },
+    {
+      "id": "flames-afar",
+      "name": "Flames Afar",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/flames-afar-11d0ad3b8056.webp",
+      "assetId": "11d0ad3b8056",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Destruction"
+      },
+      "text": "Flames Afar\nRarity: 4 ★\nPath: Destruction\nWhen the HP lost by the wearer during a single attack exceeds 25% of their Max HP, or if the HP they consume is greater than 25% of their Max HP, then immediately heals them for 15% of their Max HP while also increasing the DMG they deal by 25/31/38/44/50% for 2 turn(s). This effect can only be triggered once every 3 turn(s).\nHP\n+ 1058\nATK\n+ 476\nDEF\n+ 265"
+    },
+    {
+      "id": "flowing-nightglow",
+      "name": "Flowing Nightglow",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/flowing-nightglow-34d39d621dd0.webp",
+      "assetId": "34d39d621dd0",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Harmony"
+      },
+      "text": "Flowing Nightglow\nRarity: 5 ★\nPath: Harmony\nEvery time any ally attacks, the wearer gains 1 stack of Cantillation. Each stack of Cantillation increases the wearer's Energy Regeneration Rate by 3/3.5/4/4.5/5% , stacking up to 5 times. When the wearer uses their Ultimate, removes Cantillation and gains Cadenza. Cadenza increases the Wearer's ATK by 48/60/72/84/96% and all allies' DMG dealt by 24/28/32/36/40% , lasting for 1 turn(s).\nHP\n+ 953\nATK\n+ 635\nDEF\n+ 463"
+    },
+    {
+      "id": "fly-into-a-pink-tomorrow",
+      "name": "Fly Into a Pink Tomorrow",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/fly-into-a-pink-tomorrow-6e6472187871.webp",
+      "assetId": "6e6472187871",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Remembrance"
+      },
+      "text": "Fly Into a Pink Tomorrow\nRarity: 4 ★\nPath: Remembrance\nIncreases the wearer's CRIT DMG by 12/15/18/21/24% . When equipped by Trailblazer (Remembrance), increases all ally targets' DMG dealt by 8/10/12/14/16% and DMG dealt by Enhanced Basic ATK \"Together, We Script Tomorrow!\" by 60/70/80/90/100% .\nHP\n+ 847\nATK\n+ 476\nDEF\n+ 397"
+    },
+    {
+      "id": "for-tomorrows-journey",
+      "name": "For Tomorrow's Journey",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/for-tomorrows-journey-3d05738adb5d.webp",
+      "assetId": "3d05738adb5d",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Harmony"
+      },
+      "text": "For Tomorrow's Journey\nRarity: 4 ★\nPath: Harmony\nIncreases the wearer's ATK by 16/20/24/28/32% . After the wearer uses their Ultimate, increases their DMG dealt by 18/21/24/27/30% , lasting for 1 turn.\nHP\n+ 953\nATK\n+ 476\nDEF\n+ 331"
+    },
+    {
+      "id": "geniuses-greetings",
+      "name": "Geniuses' Greetings",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/geniuses-greetings-57036970ac6b.webp",
+      "assetId": "57036970ac6b",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Remembrance"
+      },
+      "text": "Geniuses' Greetings\nRarity: 4 ★\nPath: Remembrance\nIncreases the wearer's ATK by 16/20/24/28/32% . After the wearer uses their Ultimate, additionally increases the wearer and their memosprite's Basic ATK DMG dealt by 20/25/30/35/40% for 3 turn(s).\nHP\n+ 952\nATK\n+ 476\nDEF\n+ 330"
+    },
+    {
+      "id": "geniuses-repose",
+      "name": "Geniuses' Repose",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/geniuses-repose-290bd90ff1d7.webp",
+      "assetId": "290bd90ff1d7",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Erudition"
+      },
+      "text": "Geniuses' Repose\nRarity: 4 ★\nPath: Erudition\nIncreases the wearer's ATK by 16 /20/24/28/32 % . When the wearer defeats an enemy, the wearer's CRIT DMG increases by 24 /30/36/42/48 % for 3 turn(s).\nHP\n+ 846\nATK\n+ 476\nDEF\n+ 396"
+    },
+    {
+      "id": "good-night-and-sleep-well",
+      "name": "Good Night and Sleep Well",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/good-night-and-sleep-well-e001d7027508.webp",
+      "assetId": "e001d7027508",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Nihility"
+      },
+      "text": "Good Night and Sleep Well\nRarity: 4 ★\nPath: Nihility\nFor every debuff the target enemy has, the DMG dealt by the wearer increases by 12 /15/18/21/24 % , stacking up to 3 time(s). This effect also applies to DoT.\nHP\n+ 952\nATK\n+ 476\nDEF\n+ 330"
+    },
+    {
+      "id": "hey-over-here",
+      "name": "Hey, Over Here",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/hey-over-here-af25b52587c0.webp",
+      "assetId": "af25b52587c0",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Abundance"
+      },
+      "text": "Hey, Over Here\nRarity: 4 ★\nPath: Abundance\nIncreases the wearer's Max HP by 8/9/10/11/12% . When the wearer uses Skill, increases Outgoing Healing by 16/19/22/25/28% , lasting for 2 turn(s).\nHP\n+ 952\nATK\n+ 423\nDEF\n+ 396"
+    },
+    {
+      "id": "hidden-shadow",
+      "name": "Hidden Shadow",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/hidden-shadow-480aa1b9f393.webp",
+      "assetId": "480aa1b9f393",
+      "fields": {
+        "rarity": "3 ★",
+        "path": "Nihility"
+      },
+      "text": "Hidden Shadow\nRarity: 3 ★\nPath: Nihility\nAfter using Skill, the wearer's next Basic ATK deals Additional DMG equal to 60 / 75 /90/105/120 % of ATK to the target enemy.\nHP\n+ 846\nATK\n+ 317\nDEF\n+ 264"
+    },
+    {
+      "id": "holiday-thermae-escapade",
+      "name": "Holiday Thermae Escapade",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/holiday-thermae-escapade-56f38e40e74c.webp",
+      "assetId": "56f38e40e74c",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Nihility"
+      },
+      "text": "Holiday Thermae Escapade\nRarity: 4 ★\nPath: Nihility\nIncreases the wearer's DMG dealt by 16/20/24/28/32% . After the wearer attacks, there is a 100% base chance that the attacked target is inflicted with Vulnerability, increasing the DMG they receive by 10/11/13/14/16% for 2 turn(s). The same effect type cannot be stacked.\nHP\n+ 1058\nATK\n+ 529\nDEF\n+ 331"
+    },
+    {
+      "id": "i-shall-be-my-own-sword",
+      "name": "I Shall Be My Own Sword",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/i-shall-be-my-own-sword-2dce4d0b7d0c.webp",
+      "assetId": "2dce4d0b7d0c",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Destruction"
+      },
+      "text": "I Shall Be My Own Sword\nRarity: 5 ★\nPath: Destruction\nIncreases the wearer's CRIT DMG by 20/23/26/29/32% . When an ally gets attacked or loses HP, the wearer gains 1 stack of Eclipse, up to a max of 3 stack(s). Each stack of Eclipse increases the DMG of the wearer's next attack by 14/16.5/19/21.5/24% . When 3 stack(s) are reached, additionally enables the attack to ignore 12/14/16/18/20% of the enemy's DEF. This effect will be removed after the wearer uses an attack.\nHP\n+ 1164\nATK\n+ 582\nDEF\n+ 396"
+    },
+    {
+      "id": "i-venture-forth-to-hunt",
+      "name": "I Venture Forth to Hunt",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/i-venture-forth-to-hunt-30625e30b0d3.webp",
+      "assetId": "30625e30b0d3",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Hunt"
+      },
+      "text": "I Venture Forth to Hunt\nRarity: 5 ★\nPath: Hunt\nIncreases the wearer's CRIT Rate by 15/17.5/20 / 22.5 / 25% . When the wearer launches a follow-up attack, gains 1 stack of \"Luminflux,\" to a max of 2 stacks. Each stack of \"Luminflux\" enables the Ultimate DMG dealt by the wearer to ignore 27 / 30 / 33 / 36 / 39% of the target's DEF. When the wearer's turn ends, removes 1 stack of \"Luminflux.\"\nHP\n+ 952\nATK\n+ 635\nDEF\n+ 463"
+    },
+    {
+      "id": "if-time-were-a-flower",
+      "name": "If Time Were a Flower",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/if-time-were-a-flower-96e612675411.webp",
+      "assetId": "96e612675411",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Harmony"
+      },
+      "text": "If Time Were a Flower\nRarity: 5 ★\nPath: Harmony\nIncreases the wearer's CRIT DMG by 36/42/48/54/60% . After the wearer launches a Follow-up ATK, additionally regenerates 12 Energy and gains \"Presage,\" lasting for 2 turn(s). While the wearer has \"Presage,\" all ally targets' CRIT DMG increases by 48/60/72/84/96% . When entering battle, the wearer regenerates 21 Energy and gains \"Presage,\" lasting for 2 turn(s).\nHP\n+ 1270\nATK\n+ 529\nDEF\n+ 397"
+    },
+    {
+      "id": "in-pursuit-of-the-wind",
+      "name": "In Pursuit of the Wind",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/in-pursuit-of-the-wind-d2dc213fe4b9.webp",
+      "assetId": "d2dc213fe4b9",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Harmony"
+      },
+      "text": "In Pursuit of the Wind\nRarity: 4 ★\nPath: Harmony\nAfter entering battle, increases all allies' Break DMG dealt by 16/18/20/22/24% . Abilities of the same type cannot stack.\nHP\n+ 1058\nATK\n+ 476\nDEF\n+ 397"
+    },
+    {
+      "id": "in-the-name-of-the-world",
+      "name": "In the Name of the World",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/in-the-name-of-the-world-97fb415f0a57.webp",
+      "assetId": "97fb415f0a57",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Nihility"
+      },
+      "text": "In the Name of the World\nRarity: 5 ★\nPath: Nihility\nIncreases the wearer's DMG to debuffed enemies by 24/28/32/36/40% . When the wearer uses their Skill, the Effect Hit Rate for this attack increases by 18/21/24 /27/30 % , and ATK increases by 24/28/32/36/40% .\nHP\n+ 1058\nATK\n+ 582\nDEF\n+ 463"
+    },
+    {
+      "id": "in-the-night",
+      "name": "In the Night",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/in-the-night-1ad32b840bc7.webp",
+      "assetId": "1ad32b840bc7",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Hunt"
+      },
+      "text": "In the Night\nRarity: 5 ★\nPath: Hunt\nIncreases the wearer's CRIT Rate by 18 /21/24/27/30 % . While the wearer is in battle, for every 10 SPD that exceeds 100, the DMG of the wearer's Basic ATK and Skill is increased by 6 /7/8/9/10 % and the CRIT DMG of their Ultimate is increased by 12 /14/16/18/20 % . This effect can stack up to 6 time(s).\nHP\n+ 1058\nATK\n+ 582\nDEF\n+ 463"
+    },
+    {
+      "id": "incessant-rain",
+      "name": "Incessant Rain",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/incessant-rain-a38aae5ed53b.webp",
+      "assetId": "a38aae5ed53b",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Nihility"
+      },
+      "text": "Incessant Rain\nRarity: 5 ★\nPath: Nihility\nIncreases the wearer's Effect Hit Rate by 24/28/32/36/40% . When the wearer deals DMG to an enemy with 3 or more debuffs, increases CRIT Rate by 12/14/16/18/20% . After the wearer uses their Basic ATK, Skill, or Ultimate, there is a 100% base chance to implant Aether Code on a random hit target that does not have it yet. Targets with Aether Code receive 12/14/16/18/20% increased DMG for 1 turn.\nHP\n+ 1058\nATK\n+ 582\nDEF\n+ 463"
+    },
+    {
+      "id": "indelible-promise",
+      "name": "Indelible Promise",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/indelible-promise-b484069fbd5f.webp",
+      "assetId": "b484069fbd5f",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Destruction"
+      },
+      "text": "Indelible Promise\nRarity: 4 ★\nPath: Destruction\nIncreases the wearer's Break Effect by 28/35/42/49/56% . When the wearer uses their Ultimate, increases CRIT Rate by 15/18.75/22.5/26.25/30% , lasting for 2 turns.\nHP\n+ 953\nATK\n+ 476\nDEF\n+ 331"
+    },
+    {
+      "id": "inherently-unjust-destiny",
+      "name": "Inherently Unjust Destiny",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/inherently-unjust-destiny-1fc6777fc1e7.webp",
+      "assetId": "1fc6777fc1e7",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Preservation"
+      },
+      "text": "Inherently Unjust Destiny\nRarity: 5 ★\nPath: Preservation\nIncreases the wearer's DEF by 40/46/52/58/64% . When the wearer provides a Shield to an ally, the wearer's CRIT DMG increases by 40/46/52/58/64% , lasting for 2 turn(s). When the wearer's follow-up attack hits an enemy target, there is a 100/115/130/145/160% base chance to increase the DMG taken by the attacked enemy target by 10/11.5/13/14.5/16% , lasting for 2 turn(s).\nHP\n+ 1058\nATK\n+ 423\nDEF\n+ 661"
+    },
+    {
+      "id": "into-the-unreachable-veil",
+      "name": "Into the Unreachable Veil",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/into-the-unreachable-veil-2b1bfea2ed5c.webp",
+      "assetId": "2b1bfea2ed5c",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Erudition"
+      },
+      "text": "Into the Unreachable Veil\nRarity: 5 ★\nPath: Erudition\nIncreases the wearer's CRIT Rate by 12/14/16/18/20% . When the wearer uses their Ultimate, increases DMG dealt by the wearer's Skill and Ultimate by 60/70/80/90/100% , lasting for 3 turn(s). After the wearer uses their Ultimate, if this Ultimate consumed 140 or more Energy, recovers 1 Skill Point.\nHP\n+ 953\nATK\n+ 635\nDEF\n+ 463"
+    },
+    {
+      "id": "its-showtime",
+      "name": "It's Showtime",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/its-showtime-13b47325f534.webp",
+      "assetId": "13b47325f534",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Nihility"
+      },
+      "text": "It's Showtime\nRarity: 4 ★\nPath: Nihility\nWhen the wearer inflicts a debuff on an enemy, they gain a stack of Trick. Every stack of Trick increases the wearer's DMG dealt by 6/7/8/9/10% for a max of 3 stack(s). This effect lasts for 1 turn(s). When the wearer's Effect Hit Rate is greater than or equal to 80%, increases ATK by 20/24/28/32/36% .\nHP\n+ 1058\nATK\n+ 476\nDEF\n+ 265"
+    },
+    {
+      "id": "journey-forever-peaceful",
+      "name": "Journey, Forever Peaceful",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/journey-forever-peaceful-9ca0f6f98ca3.webp",
+      "assetId": "9ca0f6f98ca3",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Preservation"
+      },
+      "text": "Journey, Forever Peaceful\nRarity: 4 ★\nPath: Preservation\nIncreases the wearer's provided Shield Effect by 12/15/18/21/24% . When an ally target has a Shield, the DMG dealt increases by 12/14/16/18/20% .\nHP\n+ 1058\nATK\n+ 370\nDEF\n+ 529"
+    },
+    {
+      "id": "landaus-choice",
+      "name": "Landau's Choice",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/landaus-choice-22c3b8b532e2.webp",
+      "assetId": "22c3b8b532e2",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Preservation"
+      },
+      "text": "Landau's Choice\nRarity: 4 ★\nPath: Preservation\nThe wearer is more likely to be attacked, but DMG taken is reduced by 16 /18/20/22/24 % .\nHP\n+ 952\nATK\n+ 423\nDEF\n+ 396"
+    },
+    {
+      "id": "lies-dance-on-the-breeze",
+      "name": "Lies Dance on the Breeze",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/lies-dance-on-the-breeze-904dd05f0b06.webp",
+      "assetId": "904dd05f0b06",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Nihility"
+      },
+      "text": "Lies Dance on the Breeze\nRarity: 5 ★\nPath: Nihility\nIncreases the wearer's SPD by 18/21/24/27/30% . After the wearer uses an attack, there is a 120% base chance to inflict the \"Bamboozle\" state on every enemy target. While under the \"Bamboozle\" state, enemy targets have their DEF decreased by 16/18/20/22/24% for 2 turn(s). If the wearer's SPD is higher than or equal to 170 , there is a 120% base chance to inflict the \"Theft\" state on every enemy target. While under the \"Theft\" state, enemy targets have their DEF decreased by 8/9/10/11/12% for 2 turn(s). When \"Bamboozle\" or \"Theft\" is repeatedly inflicted, only the most recently inflicted instance takes effect.\nHP\n+ 953\nATK\n+ 582\nDEF\n+ 529"
+    },
+    {
+      "id": "life-should-be-cast-to-flames",
+      "name": "Life Should Be Cast to Flames",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/life-should-be-cast-to-flames-78d239d8a626.webp",
+      "assetId": "78d239d8a626",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Erudition"
+      },
+      "text": "Life Should Be Cast to Flames\nRarity: 5 ★\nPath: Erudition\nWhen the wearer's turn starts, regenerates 10 Energy. If the enemy target has a Weakness implanted by the wearer, increases the wearer's DMG dealt to it by 60/70/80/90/100% .\nWhen an enemy target gets attacked by the wearer, the wearer decreases the target's DEF by 12/15/18/21/24% , lasting for 2 turn(s). The same types of effects cannot stack.\nHP\n+ 953\nATK\n+ 582\nDEF\n+ 529"
+    },
+    {
+      "id": "lingering-tear",
+      "name": "Lingering Tear",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/lingering-tear-fe9de7795ac3.webp",
+      "assetId": "fe9de7795ac3",
+      "fields": {
+        "rarity": "3 ★",
+        "path": "Elation"
+      },
+      "text": "Lingering Tear\nRarity: 3 ★\nPath: Elation\nWhen Punchline is 10 or more, the wearer's CRIT DMG increases by 20/25/30/35/40% .\nHP\n+ 847\nATK\n+ 318\nDEF\n+ 265"
+    },
+    {
+      "id": "long-may-rainbows-adorn-the-sky",
+      "name": "Long May Rainbows Adorn the Sky",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/long-may-rainbows-adorn-the-sky-d6c42913e5a8.webp",
+      "assetId": "d6c42913e5a8",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Remembrance"
+      },
+      "text": "Long May Rainbows Adorn the Sky\nRarity: 5 ★\nPath: Remembrance\nIncreases the wearer's SPD by 18/21/24/27/30% . When the wearer uses Basic ATK, Skill, or Ultimate, consumes all allies' HP equal to 1/1.3/1.5/1.7/2.0% of their current HP and additionally deals 1 instance of Additional DMG of the wearer's memosprite Type equal to 250/312.5/375/437.5/500% of the total consumed HP to the attacked target after the next attack launched by the wearer's memosprite. The total HP consumed is then reset. When the wearer's memosprite uses Memosprite Skill, increases the DMG taken by all enemies by 18/22.5/27/31.5/36% for 2 turn(s). The same types of effects cannot stack.\nHP\n+ 1164\nATK\n+ 476\nDEF\n+ 529"
+    },
+    {
+      "id": "long-road-leads-home",
+      "name": "Long Road Leads Home",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/long-road-leads-home-aeed033c3fd4.webp",
+      "assetId": "aeed033c3fd4",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Nihility"
+      },
+      "text": "Long Road Leads Home\nRarity: 5 ★\nPath: Nihility\nIncreases the wearer's Break Effect by 60/70/80/90/100% . When an enemy target's Weakness gets broken, there is a 100% base chance to inflict the \"Charring\" state on it, which increases its Break DMG taken by 18/21/24/27/30% , lasting for 2 turn(s). This effect can stack 2 time(s).\nHP\n+ 952\nATK\n+ 476\nDEF\n+ 661"
+    },
+    {
+      "id": "loop",
+      "name": "Loop",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/loop-11a5b6baf188.webp",
+      "assetId": "11a5b6baf188",
+      "fields": {
+        "rarity": "3 ★",
+        "path": "Nihility"
+      },
+      "text": "Loop\nRarity: 3 ★\nPath: Nihility\nIncreases DMG dealt from its wearer to Slowed enemies by 24 /30/36/42/48 %\nHP\n+ 846\nATK\n+ 317\nDEF\n+ 264"
+    },
+    {
+      "id": "make-farewells-more-beautiful",
+      "name": "Make Farewells More Beautiful",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/make-farewells-more-beautiful-c7cfe34a3cab.webp",
+      "assetId": "c7cfe34a3cab",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Remembrance"
+      },
+      "text": "Make Farewells More Beautiful\nRarity: 5 ★\nPath: Remembrance\nIncreases the wearer's Max HP by 30/38/45/53/60% . When the wearer or their memosprite loses HP during their own turn, the wearer gains \"Death Flower,\" which allows the wearer and their memosprite to ignore 30/35/40/45/50% of the target's DEF when dealing DMG, lasting for 2 turn(s).\nWhen the wearer's memosprite disappears, advances the wearer's action by 12/15/18/21/24% . This effect can only trigger up to 1 time, and the trigger count resets every time the wearer uses Ultimate.\nHP\n+ 1270\nATK\n+ 529\nDEF\n+ 397"
+    },
+    {
+      "id": "make-the-world-clamor",
+      "name": "Make the World Clamor",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/make-the-world-clamor-68fa930ea18d.webp",
+      "assetId": "68fa930ea18d",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Erudition"
+      },
+      "text": "Make the World Clamor\nRarity: 4 ★\nPath: Erudition\nThe wearer regenerates 20/23/26/29/32 Energy immediately upon entering battle, and increases Ultimate DMG by 32/40/48/56/64% .\nHP\n+ 846\nATK\n+ 476\nDEF\n+ 396"
+    },
+    {
+      "id": "mediation",
+      "name": "Mediation",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/mediation-1e04c2b8193d.webp",
+      "assetId": "1e04c2b8193d",
+      "fields": {
+        "rarity": "3 ★",
+        "path": "Harmony"
+      },
+      "text": "Mediation\nRarity: 3 ★\nPath: Harmony\nUpon battle entry, all allies receive 12 /14/16/18/20 increased SPD for 1 turn(s).\nHP\n+ 846\nATK\n+ 317\nDEF\n+ 264"
+    },
+    {
+      "id": "memories-of-the-past",
+      "name": "Memories of the Past",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/memories-of-the-past-3ea5d89358dc.webp",
+      "assetId": "3ea5d89358dc",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Harmony"
+      },
+      "text": "Memories of the Past\nRarity: 4 ★\nPath: Harmony\nIncreases the wearer's Break Effect by 28/35/42/49/56% . When the wearer attacks, additionally regenerates 4/5/6/7/8 Energy. This effect can only be triggered 1 time per turn.\nHP\n+ 952\nATK\n+ 423\nDEF\n+ 396"
+    },
+    {
+      "id": "memorys-curtain-never-falls",
+      "name": "Memory's Curtain Never Falls",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/memorys-curtain-never-falls-3646134e7ce6.webp",
+      "assetId": "3646134e7ce6",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Remembrance"
+      },
+      "text": "Memory's Curtain Never Falls\nRarity: 5 ★\nPath: Remembrance\nIncreases the wearer's SPD by 6/7.5/9/10.5/12% . After the wearer uses Skill, increases the DMG dealt by all allies by 8/10/12/14/16% , lasting for 3 turn(s).\nHP\n+ 1058\nATK\n+ 529\nDEF\n+ 397"
+    },
+    {
+      "id": "meshing-cogs",
+      "name": "Meshing Cogs",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/meshing-cogs-763ed26a76ed.webp",
+      "assetId": "763ed26a76ed",
+      "fields": {
+        "rarity": "3 ★",
+        "path": "Harmony"
+      },
+      "text": "Meshing Cogs\nRarity: 3 ★\nPath: Harmony\nAfter the wearer uses attacks or gets hit, additionally regenerates 4/5/6/7/8 Energy. This effect can only be triggered 1 time per turn.\nHP\n+ 846\nATK\n+ 317\nDEF\n+ 264"
+    },
+    {
+      "id": "moment-of-victory",
+      "name": "Moment of Victory",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/moment-of-victory-45c4bb0f41c6.webp",
+      "assetId": "45c4bb0f41c6",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Preservation"
+      },
+      "text": "Moment of Victory\nRarity: 5 ★\nPath: Preservation\nIncreases the wearer's DEF by 24/28/32/36/40% and Effect Hit Rate by 24/28/32/36/40% . Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an additional 24/28/32/36/40% until the end of the wearer's turn.\nHP\n+ 1058\nATK\n+ 476\nDEF\n+ 595"
+    },
+    {
+      "id": "multiplication",
+      "name": "Multiplication",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/multiplication-0037c77f4a92.webp",
+      "assetId": "0037c77f4a92",
+      "fields": {
+        "rarity": "3 ★",
+        "path": "Abundance"
+      },
+      "text": "Multiplication\nRarity: 3 ★\nPath: Abundance\nAfter the wearer uses their Basic ATK, their next action will be Advanced Forward by 12 /14/16/18/20 % .\nHP\n+ 952\nATK\n+ 317\nDEF\n+ 198"
+    },
+    {
+      "id": "mushy-shroomys-adventures",
+      "name": "Mushy Shroomy's Adventures",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/mushy-shroomys-adventures-345209944883.webp",
+      "assetId": "345209944883",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Elation"
+      },
+      "text": "Mushy Shroomy's Adventures\nRarity: 4 ★\nPath: Elation\nIncreases the wearer's Elation by 12/14/16/18/20% . When the wearer uses an Elation Skill, increases Elation DMG taken by all enemies by 6/7/8/9/10% for 2 turn(s).\nHP\n+ 847\nATK\n+ 476\nDEF\n+ 397"
+    },
+    {
+      "id": "mutual-demise",
+      "name": "Mutual Demise",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/mutual-demise-a8d5dfca107b.webp",
+      "assetId": "a8d5dfca107b",
+      "fields": {
+        "rarity": "3 ★",
+        "path": "Destruction"
+      },
+      "text": "Mutual Demise\nRarity: 3 ★\nPath: Destruction\nIf the wearer's current HP is lower than 80% , CRIT Rate increases by 12/15 /18/21/24 % .\nHP\n+ 846\nATK\n+ 370\nDEF\n+ 198"
+    },
+    {
+      "id": "never-forget-her-flame",
+      "name": "Never Forget Her Flame",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/never-forget-her-flame-dfbc5788c8a6.webp",
+      "assetId": "dfbc5788c8a6",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Nihility"
+      },
+      "text": "Never Forget Her Flame\nRarity: 5 ★\nPath: Nihility\nIncreases the wearer's Break Effect by 60/75/90/105/120% . When entering combat, increases Break DMG dealt by the wearer and another teammate who triggered combat by 32/42/52/62/72% . If there is no teammate who triggered combat, applies this effect to the wearer and the teammate with the highest Break Effect. Effects of the same type cannot be stacked. When the wearer applies Weakness to an enemy target, recovers 1 Skill Point. This effect can only trigger once, and trigger count resets when using Ultimate.\nHP\n+ 1164\nATK\n+ 529\nDEF\n+ 463"
+    },
+    {
+      "id": "night-of-fright",
+      "name": "Night of Fright",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/night-of-fright-50c53b62003b.webp",
+      "assetId": "50c53b62003b",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Abundance"
+      },
+      "text": "Night of Fright\nRarity: 5 ★\nPath: Abundance\nIncreases the wearer's Energy Regeneration Rate by 12/14/16/18/20% . When any ally uses their Ultimate, the wearer restores HP for the ally currently with the lowest HP percentage by an amount equal to 10/11/12/13/14% of the healed ally's Max HP. When the wearer provides healing for an ally, increases the healed ally's ATK by 2.4/2.8/3.2/3.6/4% . This effect can stack up to 5 times and lasts for 2 turn(s).\nHP\n+ 1164\nATK\n+ 476\nDEF\n+ 529"
+    },
+    {
+      "id": "night-on-the-milky-way",
+      "name": "Night on the Milky Way",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/night-on-the-milky-way-57d53890af49.webp",
+      "assetId": "57d53890af49",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Erudition"
+      },
+      "text": "Night on the Milky Way\nRarity: 5 ★\nPath: Erudition\nFor every enemy on the field, increases the wearer's ATK by 9 /10.5/12/13.5/15 % , up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by 30 /35/40/45/50 % for 1 turn.\nHP\n+ 1164\nATK\n+ 582\nDEF\n+ 396"
+    },
+    {
+      "id": "ninja-record-sound-hunt",
+      "name": "Ninja Record: Sound Hunt",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/ninja-record-sound-hunt-9a8601970bbf.webp",
+      "assetId": "9a8601970bbf",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Destruction"
+      },
+      "text": "Ninja Record: Sound Hunt\nRarity: 4 ★\nPath: Destruction\nIncreases the wearer's Max HP by 12/15/18/21/24% . When losing or restoring this unit's HP, increases CRIT DMG by 18/22.5/27/31.5/36% , lasting for 2 turn(s). This effect can only trigger once per turn.\nHP\n+ 1058\nATK\n+ 476\nDEF\n+ 265"
+    },
+    {
+      "id": "ninjutsu-inscription-dazzling-evilbreaker",
+      "name": "Ninjutsu Inscription: Dazzling Evilbreaker",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/ninjutsu-inscription-dazzling-evilbreaker-abd56e7c0811.webp",
+      "assetId": "abd56e7c0811",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Erudition"
+      },
+      "text": "Ninjutsu Inscription: Dazzling Evilbreaker\nRarity: 5 ★\nPath: Erudition\nIncreases the wearer's Break Effect by 60/70/80/90/100% . When entering battle, immediately regenerates 30/32.5/35/37.5/40 Energy. After the wearer uses Ultimate, obtains \"Raiton.\" After using 2 Basic ATKs, advances the wearer's action by 50/55/60/65/70% and removes \"Raiton.\" After the wearer uses Ultimate, resets \"Raiton.\"\nHP\n+ 953\nATK\n+ 582\nDEF\n+ 529"
+    },
+    {
+      "id": "nowhere-to-run",
+      "name": "Nowhere to Run",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/nowhere-to-run-00af9de40d49.webp",
+      "assetId": "00af9de40d49",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Destruction"
+      },
+      "text": "Nowhere to Run\nRarity: 4 ★\nPath: Destruction\nIncreases the wearer's ATK by 24 /30/36/42/48 % . Whenever the wearer defeats an enemy, they restore HP equal to 12/15/18/21/24% of their ATK.\nHP\n+ 952\nATK\n+ 529\nDEF\n+ 264"
+    },
+    {
+      "id": "on-the-fall-of-an-aeon",
+      "name": "On the Fall of an Aeon",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/on-the-fall-of-an-aeon-880bb4de67a2.webp",
+      "assetId": "880bb4de67a2",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Destruction"
+      },
+      "text": "On the Fall of an Aeon\nRarity: 5 ★\nPath: Destruction\nWhenever the wearer attacks, their ATK is increased by 8 /10/12/14/16 % in this battle, up to 4 time(s). When the wearer inflicts Weakness Break on enemies, the wearer's DMG increases by 12 /15/18/21/24 % for 2 turn(s).\nHP\n+ 1058\nATK\n+ 529\nDEF\n+ 396"
+    },
+    {
+      "id": "only-silence-remains",
+      "name": "Only Silence Remains",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/only-silence-remains-665fbcb5b208.webp",
+      "assetId": "665fbcb5b208",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Hunt"
+      },
+      "text": "Only Silence Remains\nRarity: 4 ★\nPath: Hunt\nIncreases ATK of its wearer by 16 /20/24/28/32 % . If there are 2 or fewer enemies on the field, increases wearer's CRIT Rate by 12 /15/18/21/24 % .\nHP\n+ 952\nATK\n+ 476\nDEF\n+ 330"
+    },
+    {
+      "id": "passkey",
+      "name": "Passkey",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/passkey-004e2ff765fb.webp",
+      "assetId": "004e2ff765fb",
+      "fields": {
+        "rarity": "3 ★",
+        "path": "Erudition"
+      },
+      "text": "Passkey\nRarity: 3 ★\nPath: Erudition\nAfter the wearer uses their Skill, additionally regenerates 8/9 /10/11/12 Energy. This effect can only be triggered 1 time per turn.\nHP\n+ 740\nATK\n+ 370\nDEF\n+ 264"
+    },
+    {
+      "id": "past-and-future",
+      "name": "Past and Future",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/past-and-future-12b22be604b5.webp",
+      "assetId": "12b22be604b5",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Harmony"
+      },
+      "text": "Past and Future\nRarity: 4 ★\nPath: Harmony\nWhen the wearer uses their Skill, then the next ally taking action (except the wearer) deals 16 /20/24/28/32 % increased DMG for 1 turn(s).\nHP\n+ 952\nATK\n+ 423\nDEF\n+ 396"
+    },
+    {
+      "id": "past-self-in-mirror",
+      "name": "Past Self in Mirror",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/past-self-in-mirror-63e8232a09a8.webp",
+      "assetId": "63e8232a09a8",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Harmony"
+      },
+      "text": "Past Self in Mirror\nRarity: 5 ★\nPath: Harmony\nIncreases the wearer's Break Effect by 60/70/80/90/100% . After the wearer uses their Ultimate, increases all allies' DMG by 24/28/32/36/40% , lasting for 3 turns. Should the wearer's Break Effect exceed or equal 150%, 1 Skill Point will be recovered. At the start of each wave, immediately regenerates 10/12.5/15/17.5/20 Energy for all allies. Effects of the same type cannot stack.\nHP\n+ 1058\nATK\n+ 529\nDEF\n+ 529"
+    },
+    {
+      "id": "patience-is-all-you-need",
+      "name": "Patience Is All You Need",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/patience-is-all-you-need-36c0f1e56db1.webp",
+      "assetId": "36c0f1e56db1",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Nihility"
+      },
+      "text": "Patience Is All You Need\nRarity: 5 ★\nPath: Nihility\nIncreases DMG dealt by the wearer by 24 /28/32/36/40 % . After every attack launched by wearer, their SPD increases by 4.8 /5.6/6.4/7.2/8 % , stacking up to 3 times. If the wearer hits an enemy target that is not afflicted by Erode, there is a 100% base chance to inflict Erode to the target. Enemies afflicted with Erode are also considered to be Shocked and will receive Lightning DoT at the start of each turn equal to 60 /70/80/90/100 % of the wearer's ATK, lasting for 1 turn(s).\nHP\n+ 1058\nATK\n+ 582\nDEF\n+ 463"
+    },
+    {
+      "id": "perfect-timing",
+      "name": "Perfect Timing",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/perfect-timing-da9f33ad3419.webp",
+      "assetId": "da9f33ad3419",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Abundance"
+      },
+      "text": "Perfect Timing\nRarity: 4 ★\nPath: Abundance\nIncreases the wearer's Effect RES by 16/20/24/28/32% and increases Outgoing Healing by an amount that is equal to 33/36/39/42/45% of Effect RES. Outgoing Healing can be increased this way by up to 15/18/21/24 /27 % .\nHP\n+ 952\nATK\n+ 423\nDEF\n+ 396"
+    },
+    {
+      "id": "pioneering",
+      "name": "Pioneering",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/pioneering-e36f73eb18cd.webp",
+      "assetId": "e36f73eb18cd",
+      "fields": {
+        "rarity": "3 ★",
+        "path": "Preservation"
+      },
+      "text": "Pioneering\nRarity: 3 ★\nPath: Preservation\nWhen the wearer Breaks an enemy's Weakness, the wearer restores HP by 12 /14/16/18/20 % of their Max HP.\nHP\n+ 952\nATK\n+ 264\nDEF\n+ 264"
+    },
+    {
+      "id": "planetary-rendezvous",
+      "name": "Planetary Rendezvous",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/planetary-rendezvous-8242cf40331e.webp",
+      "assetId": "8242cf40331e",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Harmony"
+      },
+      "text": "Planetary Rendezvous\nRarity: 4 ★\nPath: Harmony\nUpon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by 12 / 15 /18/21/ 24%.\nHP\n+ 1058\nATK\n+ 423\nDEF\n+ 330"
+    },
+    {
+      "id": "poised-to-bloom",
+      "name": "Poised to Bloom",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/poised-to-bloom-bcc1c2abb5d8.webp",
+      "assetId": "bcc1c2abb5d8",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Harmony"
+      },
+      "text": "Poised to Bloom\nRarity: 4 ★\nPath: Harmony\nIncreases the wearer's ATK by 16/20/24/28/32% . Upon entering battle, if two or more characters follow the same Path, then these characters' CRIT DMG increases by 16/20/24/28/32% . Abilities of the same type cannot stack.\nHP\n+ 952\nATK\n+ 423\nDEF\n+ 396"
+    },
+    {
+      "id": "post-op-conversation",
+      "name": "Post-Op Conversation",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/post-op-conversation-48b7a105e195.webp",
+      "assetId": "48b7a105e195",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Abundance"
+      },
+      "text": "Post-Op Conversation\nRarity: 4 ★\nPath: Abundance\nIncreases Energy Regeneration Rate of its wearer by 8 /10/12/14/16 % and increases Outgoing Healing when they use their Ultimate by 12 /15/18/21/24 % .\nHP\n+ 1058\nATK\n+ 423\nDEF\n+ 330"
+    },
+    {
+      "id": "quid-pro-quo",
+      "name": "Quid Pro Quo",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/quid-pro-quo-f982e39bd4e1.webp",
+      "assetId": "f982e39bd4e1",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Abundance"
+      },
+      "text": "Quid Pro Quo\nRarity: 4 ★\nPath: Abundance\nAt the start of the wearer's turn, regenerates 8/10/12/14 /16 Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50% .\nHP\n+ 952\nATK\n+ 423\nDEF\n+ 396"
+    },
+    {
+      "id": "reforged-in-hellfire",
+      "name": "Reforged in Hellfire",
+      "kind": "light-cones",
+      "art": "Prydwen/hsr/assets/light-cones/reforged-in-hellfire-be2b886adf4b.webp",
+      "assetId": "be2b886adf4b",
+      "contentStatus": "live"
+    },
+    {
+      "id": "reforged-in-hellfire-new",
+      "name": "Reforged in Hellfire New",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [
+        "New"
+      ],
+      "art": "Prydwen/hsr/assets/light-cones/reforged-in-hellfire-be2b886adf4b.webp",
+      "assetId": "be2b886adf4b",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Nihility"
+      },
+      "text": "Reforged in Hellfire New\nRarity: 5 ★\nPath: Nihility\nIncreases the wearer's Max HP by 30/38/45/53/60% . At the start of the wearer's turn, regenerates a fixed amount of 20 Energy. This effect can trigger 1 time each wave. After the wearer uses Skill to attack, inflicts the target with the \"Purgatory\" state, lasting for 2 turn(s). While in the \"Purgatory\" state, the target receives 30/38/45/53/60% increased CRIT DMG and 30/38/45/53/60% additionally increased CRIT DMG from the wearer.\nHP\n+ 1376\nATK\n+ 423\nDEF\n+ 463"
+    },
+    {
+      "id": "reforged-remembrance",
+      "name": "Reforged Remembrance",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/reforged-remembrance-b220e82bf9b5.webp",
+      "assetId": "b220e82bf9b5",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Nihility"
+      },
+      "text": "Reforged Remembrance\nRarity: 5 ★\nPath: Nihility\nIncreases wearer's Effect Hit Rate by 40/45/50/55/60% . When the wearer deals DMG to an enemy inflicted with Wind Shear, Burn, Shock, or Bleed, they will individually gain 1 stack of Prophet. This effect can stack up to 4 times. In a single battle, each type of DoT can only generate 1 stack of Prophet. Every stack of Prophet increases wearer's ATK by 5/6/7/8/9% and the DoT dealt will ignore 7.2/7.9/8.6/9.3/10% of the target's DEF.\nHP\n+ 1058\nATK\n+ 582\nDEF\n+ 463"
+    },
+    {
+      "id": "reminiscence",
+      "name": "Reminiscence",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/reminiscence-8a8802032714.webp",
+      "assetId": "8a8802032714",
+      "fields": {
+        "rarity": "3 ★",
+        "path": "Remembrance"
+      },
+      "text": "Reminiscence\nRarity: 3 ★\nPath: Remembrance\nWhen memosprite's turn starts, the wearer and the memosprite each gain 1 stack of \"Commemoration.\" Each stack increases DMG dealt by 8/9/10/11/12% , stacking up to 4 time(s). \"Commemoration\" is removed from the wearer and the memosprite when the memosprite disappears.\nHP\n+ 635\nATK\n+ 423\nDEF\n+ 265"
+    },
+    {
+      "id": "resolution-shines-as-pearls-of-sweat",
+      "name": "Resolution Shines As Pearls of Sweat",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/resolution-shines-as-pearls-of-sweat-e8d659295ff4.webp",
+      "assetId": "e8d659295ff4",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Nihility"
+      },
+      "text": "Resolution Shines As Pearls of Sweat\nRarity: 4 ★\nPath: Nihility\nWhen the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a 60 /70/80/90/100 % base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by 12 /13/14/15/16 % for 1 turn(s).\nHP\n+ 952\nATK\n+ 476\nDEF\n+ 330"
+    },
+    {
+      "id": "return-to-darkness",
+      "name": "Return to Darkness",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/return-to-darkness-4d5092524766.webp",
+      "assetId": "4d5092524766",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Hunt"
+      },
+      "text": "Return to Darkness\nRarity: 4 ★\nPath: Hunt\nIncreases the wearer's CRIT Rate by 12/15/18/21/24% . After a CRIT Hit, there is a 16 /20/24/28/32 % fixed chance to dispel 1 buff on the target enemy. This effect can only trigger once per attack.\nHP\n+ 846\nATK\n+ 529\nDEF\n+ 330"
+    },
+    {
+      "id": "river-flows-in-spring",
+      "name": "River Flows in Spring",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/river-flows-in-spring-c1f935e763e4.webp",
+      "assetId": "c1f935e763e4",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Hunt"
+      },
+      "text": "River Flows in Spring\nRarity: 4 ★\nPath: Hunt\nAfter entering battle, increases the wearer's SPD by 8 /9/10/11/12 % and DMG by 12 /15/18/21/24 % . When the wearer takes DMG, this effect will disappear. This effect will resume after the end of the wearer's next turn.\nHP\n+ 846\nATK\n+ 476\nDEF\n+ 396"
+    },
+    {
+      "id": "sagacity",
+      "name": "Sagacity",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/sagacity-b8c4d0de0123.webp",
+      "assetId": "b8c4d0de0123",
+      "fields": {
+        "rarity": "3 ★",
+        "path": "Erudition"
+      },
+      "text": "Sagacity\nRarity: 3 ★\nPath: Erudition\nWhen the wearer uses their Ultimate, increases ATK by 24 /30/36/42/48 % for 2 turn(s).\nHP\n+ 740\nATK\n+ 370\nDEF\n+ 264"
+    },
+    {
+      "id": "sailing-towards-a-second-life",
+      "name": "Sailing Towards A Second Life",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/sailing-towards-a-second-life-973318f86eb7.webp",
+      "assetId": "973318f86eb7",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Hunt"
+      },
+      "text": "Sailing Towards A Second Life\nRarity: 5 ★\nPath: Hunt\nIncreases the wearer's Break Effect by 60/70/80/90/100% . The Break DMG dealt by the wearer ignores 20/23/26/29/32% of the target's DEF. When the wearer's Break Effect in battle is at 150% or greater, increases their SPD by 12/14/16/18/20% .\nHP\n+ 1058\nATK\n+ 582\nDEF\n+ 463"
+    },
+    {
+      "id": "scent-alone-stays-true",
+      "name": "Scent Alone Stays True",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/scent-alone-stays-true-315ea0de3b71.webp",
+      "assetId": "315ea0de3b71",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Abundance"
+      },
+      "text": "Scent Alone Stays True\nRarity: 5 ★\nPath: Abundance\nIncreases the wearer's Break Effect by 60/70/80/90/100% . After the wearer uses Ultimate to attack enemy targets, inflicts the targets with the \"Woefree\" state, lasting for 2 turn(s). While in \"Woefree,\" enemy targets take 10/12/14/16/18% increased DMG. The effect of increasing DMG taken is additionally boosted by 8/10/12/14/16% if the wearer's current Break Effect is 150% or higher.\nHP\n+ 1058\nATK\n+ 529\nDEF\n+ 529"
+    },
+    {
+      "id": "see-you-at-the-end",
+      "name": "See You at the End",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/see-you-at-the-end-71e10458fb40.webp",
+      "assetId": "71e10458fb40",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Hunt"
+      },
+      "text": "See You at the End\nRarity: 4 ★\nPath: Hunt\nIncreases the wearer's CRIT DMG by 24/28/32/36/40% . The Skill DMG and Follow-up ATK DMG dealt by the wearer increase by 24/28/32/36/40% .\nHP\n+ 953\nATK\n+ 529\nDEF\n+ 397"
+    },
+    {
+      "id": "shadowburn",
+      "name": "Shadowburn",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/shadowburn-1b976b78f1aa.webp",
+      "assetId": "1b976b78f1aa",
+      "fields": {
+        "rarity": "3 ★",
+        "path": "Remembrance"
+      },
+      "text": "Shadowburn\nRarity: 3 ★\nPath: Remembrance\nWhen the wearer summons memosprite for the first time in battle, recovers 1 Skill Point(s) and regenerates 12/14/16/18/20 Energy for this unit.\nHP\n+ 847\nATK\n+ 318\nDEF\n+ 265"
+    },
+    {
+      "id": "shadowed-by-night",
+      "name": "Shadowed By Night",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/shadowed-by-night-b0684f6507d7.webp",
+      "assetId": "b0684f6507d7",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Hunt"
+      },
+      "text": "Shadowed By Night\nRarity: 4 ★\nPath: Hunt\nIncreases the wearer's Break Effect by 28/35/42/49/56% . When entering battle or after dealing Break DMG, increases SPD by 8/9/10/11/12% , lasting for 2 turn(s). This effect can only trigger once per turn.\nHP\n+ 846\nATK\n+ 476\nDEF\n+ 396"
+    },
+    {
+      "id": "shared-feeling",
+      "name": "Shared Feeling",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/shared-feeling-20af78c29324.webp",
+      "assetId": "20af78c29324",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Abundance"
+      },
+      "text": "Shared Feeling\nRarity: 4 ★\nPath: Abundance\nIncreases the wearer's Outgoing Healing by 10/12.5/15/17.5/20% . When using Skill, regenerates 2/2/3/3/4 Energy for all allies.\nHP\n+ 952\nATK\n+ 423\nDEF\n+ 396"
+    },
+    {
+      "id": "shattered-home",
+      "name": "Shattered Home",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/shattered-home-965e322176d2.webp",
+      "assetId": "965e322176d2",
+      "fields": {
+        "rarity": "3 ★",
+        "path": "Destruction"
+      },
+      "text": "Shattered Home\nRarity: 3 ★\nPath: Destruction\nDeals 20 /25/30/35/40 % increased DMG to any enemies whose HP is above 50% .\nHP\n+ 846\nATK\n+ 370\nDEF\n+ 198"
+    },
+    {
+      "id": "she-already-shut-her-eyes",
+      "name": "She Already Shut Her Eyes",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/she-already-shut-her-eyes-2249ae848ba8.webp",
+      "assetId": "2249ae848ba8",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Preservation"
+      },
+      "text": "She Already Shut Her Eyes\nRarity: 5 ★\nPath: Preservation\nIncreases the wearer's Max HP by 24/28/32/36/40% and Energy Regeneration Rate by 12/14/16/18/20% . When the wearer's HP is decreased, increases the DMG of all allies by 9/10.5/12/13.5/15% for 2 turns. At the beginning of each wave, restores HP equal to 80/85/90/95/100% of HP already lost by the character themselves for team.\nHP\n+ 1270\nATK\n+ 423\nDEF\n+ 529"
+    },
+    {
+      "id": "sleep-like-the-dead",
+      "name": "Sleep Like the Dead",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/sleep-like-the-dead-c627772d1728.webp",
+      "assetId": "c627772d1728",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Hunt"
+      },
+      "text": "Sleep Like the Dead\nRarity: 5 ★\nPath: Hunt\nIncreases the wearer's CRIT DMG by 30 /35/40/45/50 % . When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by 36 /42/48/54/60 % for 1 turn(s). This effect can only trigger once every 3 turn(s).\nHP\n+ 1058\nATK\n+ 582\nDEF\n+ 463"
+    },
+    {
+      "id": "sneering",
+      "name": "Sneering",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/sneering-8c4b5823547d.webp",
+      "assetId": "8c4b5823547d",
+      "fields": {
+        "rarity": "3 ★",
+        "path": "Elation"
+      },
+      "text": "Sneering\nRarity: 3 ★\nPath: Elation\nWhen Aha Instant is activated, the wearer's Elation increases by 16/20/24/28/32% , lasting until Aha Instant ends.\nHP\n+ 741\nATK\n+ 370\nDEF\n+ 265"
+    },
+    {
+      "id": "solitary-healing",
+      "name": "Solitary Healing",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/solitary-healing-0f4a7d49e6b4.webp",
+      "assetId": "0f4a7d49e6b4",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Nihility"
+      },
+      "text": "Solitary Healing\nRarity: 5 ★\nPath: Nihility\nIncreases the wearer's Break Effect by 20/25/30/35/40% . When the wearer unleashes their Ultimate, increases DoT dealt by the wearer by 24/30/36/42/48% for 2 turn(s). Defeating the target suffering from the wearer's DoT allows the wearer to regenerate 4/4.5/5/5.5/6 Energy.\nHP\n+ 1058\nATK\n+ 529\nDEF\n+ 396"
+    },
+    {
+      "id": "something-irreplaceable",
+      "name": "Something Irreplaceable",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/something-irreplaceable-078b1109588f.webp",
+      "assetId": "078b1109588f",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Destruction"
+      },
+      "text": "Something Irreplaceable\nRarity: 5 ★\nPath: Destruction\nIncreases the wearer's ATK by 24 /28/32/36/40 % . When the wearer defeats an enemy or is hit, immediately restores HP equal to 8 /9/10/11/12 % of the wearer's ATK. At the same time, the wearer's DMG is increased by 24 /28/32/36/40 % until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.\nHP\n+ 1164\nATK\n+ 582\nDEF\n+ 396"
+    },
+    {
+      "id": "subscribe-for-more",
+      "name": "Subscribe for More!",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/subscribe-for-more-5f38293d261f.webp",
+      "assetId": "5f38293d261f",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Hunt"
+      },
+      "text": "Subscribe for More!\nRarity: 4 ★\nPath: Hunt\nIncreases the DMG of the wearer's Basic ATK and Skill by 24 /30/36/42/48 % . This effect increases by an extra 24 /30/36/42/48 % when the wearer's current Energy reaches its max level.\nHP\n+ 952\nATK\n+ 476\nDEF\n+ 330"
+    },
+    {
+      "id": "sweat-now-cry-less",
+      "name": "Sweat Now, Cry Less",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/sweat-now-cry-less-abe1addc2d29.webp",
+      "assetId": "abe1addc2d29",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Remembrance"
+      },
+      "text": "Sweat Now, Cry Less\nRarity: 4 ★\nPath: Remembrance\nIncreases the wearer's CRIT Rate by 12/14/16/18/20% . When the wearer's memosprite is on the field, increases the wearer and their memosprite's DMG dealt by 24/27/30/33/36% .\nHP\n+ 1058\nATK\n+ 529\nDEF\n+ 198"
+    },
+    {
+      "id": "swordplay",
+      "name": "Swordplay",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/swordplay-f9b56af68096.webp",
+      "assetId": "f9b56af68096",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Hunt"
+      },
+      "text": "Swordplay\nRarity: 4 ★\nPath: Hunt\nFor each time the wearer hits the same target, DMG dealt increases by 8/10/12/14/16% , stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.\nHP\n+ 952\nATK\n+ 476\nDEF\n+ 330"
+    },
+    {
+      "id": "texture-of-memories",
+      "name": "Texture of Memories",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/texture-of-memories-a5c006b1364b.webp",
+      "assetId": "a5c006b1364b",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Preservation"
+      },
+      "text": "Texture of Memories\nRarity: 5 ★\nPath: Preservation\nIncreases the wearer's Effect RES by 8/10/12/14/16% . If the wearer is attacked and has no Shield, they gain a Shield equal to 16/20/24 /28/32 % of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by 12 /15/18/21/24 % .\nHP\n+ 1058\nATK\n+ 423\nDEF\n+ 529"
+    },
+    {
+      "id": "the-birth-of-the-self",
+      "name": "The Birth of the Self",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/the-birth-of-the-self-a04e448dc40c.webp",
+      "assetId": "a04e448dc40c",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Erudition"
+      },
+      "text": "The Birth of the Self\nRarity: 4 ★\nPath: Erudition\nIncreases DMG dealt by the wearer's follow-up attacks by 24/30/36/42/48% . If the current HP of the target enemy is below 50% of their Max HP, increases DMG dealt by follow-up attacks by an extra 24/30/36/42/48% .\nHP\n+ 952\nATK\n+ 476\nDEF\n+ 330"
+    },
+    {
+      "id": "the-day-the-cosmos-fell",
+      "name": "The Day The Cosmos Fell",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/the-day-the-cosmos-fell-0a977b7a34bd.webp",
+      "assetId": "0a977b7a34bd",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Erudition"
+      },
+      "text": "The Day The Cosmos Fell\nRarity: 4 ★\nPath: Erudition\nIncreases the wearer's ATK by 16/18/20/22/24% . When the wearer uses an attack and affects no fewer than 2 attacked enemies with a corresponding Weakness, the wearer's CRIT DMG increases by 20/25/30/35/40% for 2 turn(s).\nHP\n+ 953\nATK\n+ 476\nDEF\n+ 331"
+    },
+    {
+      "id": "the-finale-of-a-lie",
+      "name": "The Finale of a Lie",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/the-finale-of-a-lie-f10cb0cf8da3.webp",
+      "assetId": "f10cb0cf8da3",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Hunt"
+      },
+      "text": "The Finale of a Lie\nRarity: 5 ★\nPath: Hunt\nIncreases the wearer's CRIT Rate by 18/21/24/27/30% . At the start of battle or for every 4 instance(s) of Follow-Up ATK the wearer uses, the wearer gains \"Umbra Devourer,\" lasting for 3 turn(s). While the wearer holds \"Umbra Devourer,\" increases ATK by 40/50/60/70/80% and increases the DMG taken by all enemies by 20/22/25/27/30% . Effects of the same type cannot stack.\nHP\n+ 846\nATK\n+ 635\nDEF\n+ 529"
+    },
+    {
+      "id": "the-flower-remembers",
+      "name": "The Flower Remembers",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/the-flower-remembers-b5e156c1af0b.webp",
+      "assetId": "b5e156c1af0b",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Remembrance"
+      },
+      "text": "The Flower Remembers\nRarity: 4 ★\nPath: Remembrance\nIncreases the wearer's CRIT DMG by 24/28/32/36/40% . The CRIT DMG dealt by the wearer's memosprite increases by 24/28/32/36/40% .\nHP\n+ 1058\nATK\n+ 529\nDEF\n+ 331"
+    },
+    {
+      "id": "the-forever-victual",
+      "name": "The Forever Victual",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/the-forever-victual-48a825d9ed5a.webp",
+      "assetId": "48a825d9ed5a",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Harmony"
+      },
+      "text": "The Forever Victual\nRarity: 4 ★\nPath: Harmony\nIncreases the wearer's ATK by 16/20/24/28/32% . After the wearer uses Skill, increases ATK by 8/10/12/14/16% , stacking up to 3 times.\nHP\n+ 953\nATK\n+ 476\nDEF\n+ 331"
+    },
+    {
+      "id": "the-great-cosmic-enterprise",
+      "name": "The Great Cosmic Enterprise",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/the-great-cosmic-enterprise-1ac7244fcc53.webp",
+      "assetId": "1ac7244fcc53",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Erudition"
+      },
+      "text": "The Great Cosmic Enterprise\nRarity: 4 ★\nPath: Erudition\nIncreases the wearer's ATK by 8/10/12/14/16% . For every different Weakness Type an enemy target has, increases the DMG dealt by the wearer by 4/5/6/7/8% , up to a max of 7 Weakness Types.\nHP\n+ 953\nATK\n+ 476\nDEF\n+ 331"
+    },
+    {
+      "id": "the-hell-where-ideals-burn",
+      "name": "The Hell Where Ideals Burn",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/the-hell-where-ideals-burn-2627029bab47.webp",
+      "assetId": "2627029bab47",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Hunt"
+      },
+      "text": "The Hell Where Ideals Burn\nRarity: 5 ★\nPath: Hunt\nIncreases the wearer's CRIT Rate by 16/20/24/28/32% . When entering battle and if the allies' Skill Points max limit is 6 or higher, increases the wearer's ATK by 40/50/60/70/80% . After the wearer uses a Skill, increases their ATK by 10/12/15/17/20% , stacking up to 4 time(s).\nHP\n+ 953\nATK\n+ 582\nDEF\n+ 529"
+    },
+    {
+      "id": "the-moles-welcome-you",
+      "name": "The Moles Welcome You",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/the-moles-welcome-you-237be3c5b943.webp",
+      "assetId": "237be3c5b943",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Destruction"
+      },
+      "text": "The Moles Welcome You\nRarity: 4 ★\nPath: Destruction\nWhen the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by 12/15/18/21/24% .\nHP\n+ 1058\nATK\n+ 476\nDEF\n+ 264"
+    },
+    {
+      "id": "the-seriousness-of-breakfast",
+      "name": "The Seriousness of Breakfast",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/the-seriousness-of-breakfast-183aad5d03b3.webp",
+      "assetId": "183aad5d03b3",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Erudition"
+      },
+      "text": "The Seriousness of Breakfast\nRarity: 4 ★\nPath: Erudition\nIncreases the wearer's DMG by 12/15/18/21/24% . For every defeated enemy, the wearer's ATK increases by 4/5/6/7/8% , stacking up to 3 time(s).\nHP\n+ 846\nATK\n+ 476\nDEF\n+ 396"
+    },
+    {
+      "id": "the-storys-next-page",
+      "name": "The Story's Next Page",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/the-storys-next-page-7bf10971d055.webp",
+      "assetId": "7bf10971d055",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Remembrance"
+      },
+      "text": "The Story's Next Page\nRarity: 4 ★\nPath: Remembrance\nIncreases the wearer's Max HP by 16/20/24/28/32% . After the wearer's memosprite attacks, the Outgoing Healing of the wearer and their memosprite increases by 12/15/18/21/24% , lasting for 1 turn(s).\nHP\n+ 1058\nATK\n+ 370\nDEF\n+ 397"
+    },
+    {
+      "id": "the-unreachable-side",
+      "name": "The Unreachable Side",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/the-unreachable-side-a64efe47f115.webp",
+      "assetId": "a64efe47f115",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Destruction"
+      },
+      "text": "The Unreachable Side\nRarity: 5 ★\nPath: Destruction\nIncreases the wearer's CRIT rate by 18/21 /24/27/ 30% and increases their Max HP by 18/21 /24/27/ 30% . When the wearer is attacked or consumes their own HP, their DMG increases by 24/28 /32/36/ 40% . This effect is removed after the wearer uses an attack.\nHP\n+ 1270\nATK\n+ 582\nDEF\n+ 330"
+    },
+    {
+      "id": "this-is-me",
+      "name": "This Is Me!",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/this-is-me-233888fd5ec7.webp",
+      "assetId": "233888fd5ec7",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Preservation"
+      },
+      "text": "This Is Me!\nRarity: 4 ★\nPath: Preservation\nIncreases the wearer's DEF by 16 /20/24/28/32 % . Increases the DMG of the wearer when they use their Ultimate by 60 /75/90/105/120 % of the wearer's DEF. This effect only apply 1 time per enemy target.\nHP\n+ 846\nATK\n+ 370\nDEF\n+ 529"
+    },
+    {
+      "id": "this-love-forever",
+      "name": "This Love, Forever",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/this-love-forever-64f05a031276.webp",
+      "assetId": "64f05a031276",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Remembrance"
+      },
+      "text": "This Love, Forever\nRarity: 5 ★\nPath: Remembrance\nIncreases the wearer's SPD by 18/21/24/27/30% . When the wearer's memosprite uses a Memosprite Skill on an ally, gains \"Blank,\" which increases DMG taken by all enemies by 10/12/14/16/18% . When the wearer's memosprite uses a Memosprite Skill on an enemy, gains \"Verse,\" which increases CRIT DMG of all allies by 16/19/22/25/28% . When the wearer's memosprite has both \"Blank\" and \"Verse,\" increases the effects of \"Blank\" and \"Verse\" by 60/65/70/75/80% .\nHP\n+ 1270\nATK\n+ 476\nDEF\n+ 463"
+    },
+    {
+      "id": "those-many-springs",
+      "name": "Those Many Springs",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/those-many-springs-8cf430c30198.webp",
+      "assetId": "8cf430c30198",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Nihility"
+      },
+      "text": "Those Many Springs\nRarity: 5 ★\nPath: Nihility\nIncreases the wearer's Effect Hit Rate by 60/70/80/90/100% . After the wearer uses Basic ATK, Skill, or Ultimate to attack an enemy target, there is a 60% base chance to inflict \"Unarmored\" on the target. While in the Unarmored state, the enemy target receives 10/12/14/16/18% increased DMG, lasting for 2 turn(s). If the target is under a DoT state inflicted by the wearer, there is a 60% base chance to upgrade the \"Unarmored\" state inflicted by the wearer to the \"Cornered\" state, which additionally increases the DMG the target enemy receives by 14/16/18/20/22% , lasting for 2 turn(s). During this period, the wearer cannot inflict \"Unarmored\" on the target.\nHP\n+ 952\nATK\n+ 582\nDEF\n+ 529"
+    },
+    {
+      "id": "though-worlds-apart",
+      "name": "Though Worlds Apart",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/though-worlds-apart-e9e433a10a37.webp",
+      "assetId": "e9e433a10a37",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Preservation"
+      },
+      "text": "Though Worlds Apart\nRarity: 5 ★\nPath: Preservation\nIncreases the wearer's ATK by 64/80/96/112/128% . When the wearer uses Ultimate, restores HP equal to 10/13/15/18/20% of the wearer's ATK for all allies, and additionally restores HP equal to 10/13/15/18/20% of the wearer's ATK for the character with the lowest current HP, and grants \"Redoubt\" to all allies for 3 turn(s). Targets with \"Redoubt\" deal 24/30/36/42/48% increased DMG, which further increases by 12/15/18/21/24% if the targets have summons.\nHP\n+ 1058\nATK\n+ 582\nDEF\n+ 463"
+    },
+    {
+      "id": "thus-burns-the-dawn",
+      "name": "Thus Burns the Dawn",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/thus-burns-the-dawn-b685c1bb134f.webp",
+      "assetId": "b685c1bb134f",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Destruction"
+      },
+      "text": "Thus Burns the Dawn\nRarity: 5 ★\nPath: Destruction\nThe wearer's base SPD increases by 12/14/16/18/20 . When the wearer deals DMG, ignores 18/22/27/31/36% of the target's DEF. After the wearer uses Ultimate, obtains \"Blazing Sun,\" which is removed at the start of their turn. While \"Blazing Sun\" is in possession, increases the wearer's DMG dealt by 60/78/96/114/132% .\nHP\n+ 953\nATK\n+ 687\nDEF\n+ 397"
+    },
+    {
+      "id": "time-waits-for-no-one",
+      "name": "Time Waits for No One",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/time-waits-for-no-one-659ec2e0310d.webp",
+      "assetId": "659ec2e0310d",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Abundance"
+      },
+      "text": "Time Waits for No One\nRarity: 5 ★\nPath: Abundance\nIncreases the wearer's Max HP by 18 /21/24/27/30 % and Outgoing Healing by 12 /14/16/18/20 % . When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to 36 /42/48/54/60 % of the recorded Outgoing Healing value. This Additional DMG is of the same Type as the wearer's, is not affected by other buffs, and can only occur 1 time per turn\nHP\n+ 1270\nATK\n+ 476\nDEF\n+ 463"
+    },
+    {
+      "id": "time-woven-into-gold",
+      "name": "Time Woven Into Gold",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/time-woven-into-gold-2d72347bfd7c.webp",
+      "assetId": "2d72347bfd7c",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Remembrance"
+      },
+      "text": "Time Woven Into Gold\nRarity: 5 ★\nPath: Remembrance\nIncreases the wearer's base SPD by 12/14/16/18/20 . After the wearer and the wearer's memosprite attacks, the wearer gains 1 stack of \"Brocade.\" Each stack of \"Brocade\" increases the wearer's and their memosprite's CRIT DMG by 9/10.5/12/13.5/15% , stacking up to 6 time(s). When reaching maximum stacks, each \"Brocade\" stack additionally increases Basic ATK DMG dealt by 9/10.5/12/13.5/15% .\nHP\n+ 1058\nATK\n+ 635\nDEF\n+ 397"
+    },
+    {
+      "id": "to-evernights-stars",
+      "name": "To Evernight's Stars",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/to-evernights-stars-ff3d4e975f34.webp",
+      "assetId": "ff3d4e975f34",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Remembrance"
+      },
+      "text": "To Evernight's Stars\nRarity: 5 ★\nPath: Remembrance\nIncreases the wearer's Max HP by 30/38/45/53/60% . When the wearer's memosprite uses an ability, the wearer gains \"Noctis.\" While the wearer has \"Noctis,\" all allies' memosprites ignore 20/22/25/27/30% of the target's DEF when dealing DMG. Increases the DMG dealt by the wearer and their memosprite by 30/38/45/53/60% . When the wearer's memosprite disappears, the wearer recovers 8/10/12/14/16 Energy. Similar effects cannot stack.\nHP\n+ 1164\nATK\n+ 529\nDEF\n+ 463"
+    },
+    {
+      "id": "today-is-another-peaceful-day",
+      "name": "Today Is Another Peaceful Day",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/today-is-another-peaceful-day-4f8f8acf98de.webp",
+      "assetId": "4f8f8acf98de",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Erudition"
+      },
+      "text": "Today Is Another Peaceful Day\nRarity: 4 ★\nPath: Erudition\nAfter entering battle, increases the wearer's DMG based on their Max Energy. DMG increases by 0.2 /0.25/0.3/0.35/0.4 % per point of Energy, up to 160 Energy.\nHP\n+ 846\nATK\n+ 529\nDEF\n+ 330"
+    },
+    {
+      "id": "todays-good-luck",
+      "name": "Today's Good Luck",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/todays-good-luck-24234781155d.webp",
+      "assetId": "24234781155d",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Elation"
+      },
+      "text": "Today's Good Luck\nRarity: 4 ★\nPath: Elation\nIncreases the wearer's CRIT Rate by 12/14/16/18/20% . When the wearer uses an Elation Skill, increases Elation by 12/14/16/18/20% , stacking up to 2 times.\nHP\n+ 953\nATK\n+ 529\nDEF\n+ 397"
+    },
+    {
+      "id": "tomorrow-together",
+      "name": "Tomorrow, Together",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/tomorrow-together-a70f53b5b366.webp",
+      "assetId": "a70f53b5b366",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Elation"
+      },
+      "text": "Tomorrow, Together\nRarity: 4 ★\nPath: Elation\nIncreases the wearer's CRIT DMG by 12/15/18/21/24% . After the wearer uses their Ultimate, increases the Elation of all allies by 8/9/10/11/12% , lasting for 1 turn(s).\nHP\n+ 953\nATK\n+ 476\nDEF\n+ 331"
+    },
+    {
+      "id": "trend-of-the-universal-market",
+      "name": "Trend of the Universal Market",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/trend-of-the-universal-market-d857491aead9.webp",
+      "assetId": "d857491aead9",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Preservation"
+      },
+      "text": "Trend of the Universal Market\nRarity: 4 ★\nPath: Preservation\nIncreases the wearer's DEF by 16 /20/24/28/32 % . When the wearer is attacked, there is a 100 /105/110/115/120 % base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to 40 /50/60/70/80 % of the wearer's DEF for 2 turn(s).\nHP\n+ 1058\nATK\n+ 370\nDEF\n+ 396"
+    },
+    {
+      "id": "under-the-blue-sky",
+      "name": "Under the Blue Sky",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/under-the-blue-sky-462766781fd2.webp",
+      "assetId": "462766781fd2",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Destruction"
+      },
+      "text": "Under the Blue Sky\nRarity: 4 ★\nPath: Destruction\nIncreases the wearer's ATK by 16 /20/24/28/32 % . When the wearer defeats an enemy, the wearer's CRIT Rate increases by 12 /15/18/21/24 % for 3 turn(s).\nHP\n+ 952\nATK\n+ 476\nDEF\n+ 330"
+    },
+    {
+      "id": "until-the-flowers-bloom-again",
+      "name": "Until the Flowers Bloom Again",
+      "kind": "light-cones",
+      "art": "Prydwen/hsr/assets/light-cones/until-the-flowers-bloom-again-116d7ae9c484.webp",
+      "assetId": "116d7ae9c484",
+      "contentStatus": "live"
+    },
+    {
+      "id": "until-the-flowers-bloom-again-new",
+      "name": "Until the Flowers Bloom Again New",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [
+        "New"
+      ],
+      "art": "Prydwen/hsr/assets/light-cones/until-the-flowers-bloom-again-116d7ae9c484.webp",
+      "assetId": "116d7ae9c484",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Elation"
+      },
+      "text": "Until the Flowers Bloom Again New\nRarity: 5 ★\nPath: Elation\nIncreases the wearer's CRIT DMG by 60/75/90/105/120% and Energy Regeneration Rate by 10/11.5/13/14.5/16% . When the wearer's Max Energy is greater than 120 , for every 10 points of Max Energy that exceeds this amount, further increases Energy Regeneration Rate by 0.3% . Up to a maximum of 360 points of excess Max Energy can be taken into account. When the wearer uses Elation Skill, increases the DMG received by all enemies by 15/18.8/22.5/26.3/30% for 2 turn(s). Effects of the same type cannot stack.\nHP\n+ 953\nATK\n+ 635\nDEF\n+ 463"
+    },
+    {
+      "id": "unto-tomorrows-morrow",
+      "name": "Unto Tomorrow's Morrow",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/unto-tomorrows-morrow-ae04fce5a793.webp",
+      "assetId": "ae04fce5a793",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Abundance"
+      },
+      "text": "Unto Tomorrow's Morrow\nRarity: 4 ★\nPath: Abundance\nIncreases the wearer's Outgoing Healing by 12/15/18/21/24% . When an ally target's current HP percentage is greater than or equal to 50% , increases the DMG dealt by 12/14/16/18/20% .\nHP\n+ 1058\nATK\n+ 476\nDEF\n+ 397"
+    },
+    {
+      "id": "victory-in-a-blink",
+      "name": "Victory In a Blink",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/victory-in-a-blink-2b8ed196c029.webp",
+      "assetId": "2b8ed196c029",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Remembrance"
+      },
+      "text": "Victory In a Blink\nRarity: 4 ★\nPath: Remembrance\nIncreases the wearer's CRIT DMG by 12/15/18/21/24% . When the wearer's memosprite uses an ability on any ally target, increases all ally targets' DMG dealt by 8/10/12/14/16% , lasting for 3 turn(s).\nHP\n+ 847\nATK\n+ 476\nDEF\n+ 397"
+    },
+    {
+      "id": "void",
+      "name": "Void",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/void-4a82877a9f86.webp",
+      "assetId": "4a82877a9f86",
+      "fields": {
+        "rarity": "3 ★",
+        "path": "Nihility"
+      },
+      "text": "Void\nRarity: 3 ★\nPath: Nihility\nAt the start of battle, increases the wearer's Effect Hit Rate by 20/25/30/35/40% for 3 turn(s).\nHP\n+ 846\nATK\n+ 317\nDEF\n+ 264"
+    },
+    {
+      "id": "warmth-shortens-cold-nights",
+      "name": "Warmth Shortens Cold Nights",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/warmth-shortens-cold-nights-0ed6021aec4d.webp",
+      "assetId": "0ed6021aec4d",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Abundance"
+      },
+      "text": "Warmth Shortens Cold Nights\nRarity: 4 ★\nPath: Abundance\nIncreases the wearer's Max HP by 16 /20/24/28/32 % . When using Basic ATK or Skill, restores all allies' HP by an amount equal to 2 /2.5/3/3.5/4 % of their respective Max HP.\nHP\n+ 1058\nATK\n+ 370\nDEF\n+ 396"
+    },
+    {
+      "id": "we-are-wildfire",
+      "name": "We Are Wildfire",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/we-are-wildfire-d6302eaf783e.webp",
+      "assetId": "d6302eaf783e",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Preservation"
+      },
+      "text": "We Are Wildfire\nRarity: 4 ★\nPath: Preservation\nAt the start of the battle, the DMG dealt to all allies decreases by 8 /10/12/14/16 % for 5 turn(s). At the same time, immediately restores HP to all allies equal to 30 /35/40/45/50 % of the respective HP difference between the characters' Max HP and current HP.\nHP\n+ 740\nATK\n+ 476\nDEF\n+ 463"
+    },
+    {
+      "id": "we-will-meet-again",
+      "name": "We Will Meet Again",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/we-will-meet-again-d5fb23b7b9db.webp",
+      "assetId": "d5fb23b7b9db",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Nihility"
+      },
+      "text": "We Will Meet Again\nRarity: 4 ★\nPath: Nihility\nAfter the wearer uses Basic ATK or Skill, the wearer deals 48 /60/72/84/96 % of ATK as additional DMG to a random enemy that is attacked by abilities.\nHP\n+ 846\nATK\n+ 529\nDEF\n+ 330"
+    },
+    {
+      "id": "welcome-to-the-cosmic-city",
+      "name": "Welcome to the Cosmic City",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/welcome-to-the-cosmic-city-fa5c8bca3701.webp",
+      "assetId": "fa5c8bca3701",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Elation"
+      },
+      "text": "Welcome to the Cosmic City\nRarity: 5 ★\nPath: Elation\nIncreases the wearer's SPD by 18/21/24/27/30% , and the Elation DMG dealt ignores 20/24/2/32/36% of the target's DEF. When the wearer uses Ultimate on themselves, gains 20/25/30/35/40 \"Punchline.\" This effect can be triggered up to 1 time, and will be reset after using Basic ATK 3 time(s).\nHP\n+ 1164\nATK\n+ 476\nDEF\n+ 529"
+    },
+    {
+      "id": "what-is-real",
+      "name": "What Is Real?",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/what-is-real-2ebfa86a17b8.webp",
+      "assetId": "2ebfa86a17b8",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Abundance"
+      },
+      "text": "What Is Real?\nRarity: 4 ★\nPath: Abundance\nIncreases the wearer's Break Effect by 24/30/36/42/48% . Wearer's Basic ATKs restore an amount equal to 2/2.5/3/3.5/4% of Max HP plus 800 for themselves.\nHP\n+ 1058\nATK\n+ 423\nDEF\n+ 331"
+    },
+    {
+      "id": "when-she-decided-to-see",
+      "name": "When She Decided to See",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/when-she-decided-to-see-3f99e8f49f85.webp",
+      "assetId": "3f99e8f49f85",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Elation"
+      },
+      "text": "When She Decided to See\nRarity: 5 ★\nPath: Elation\nIncreases the wearer's SPD by 18/21/24/27/30% . When the wearer enters combat or uses Ultimate on an ally target, the wearer gains \"Great Fortune\" for 3 turn(s). While the wearer holds \"Great Fortune,\" all allies' CRIT Rate increases by 10/11/12/13/14% , CRIT DMG increases by 30/38/45/53/60% , and the wearer's Energy Regeneration Rate increases by 12/14/16/18/20% .\nAt the start of each wave, the wearer regenerates a fixed amount of 15 Energy.\nHP\n+ 1058\nATK\n+ 529\nDEF\n+ 529"
+    },
+    {
+      "id": "whereabouts-should-dreams-rest",
+      "name": "Whereabouts Should Dreams Rest",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/whereabouts-should-dreams-rest-08006baea020.webp",
+      "assetId": "08006baea020",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Destruction"
+      },
+      "text": "Whereabouts Should Dreams Rest\nRarity: 5 ★\nPath: Destruction\nIncreases the wearer's Break Effect by 60/70/80/90/100% . When the wearer deals Break DMG to an enemy target, inflicts Routed on the enemy, lasting for 2 turn(s). Targets afflicted with Routed receive 24/28/32/36/40% increased Break DMG from the wearer, and their SPD is lowered by 20% . Effects of the similar type cannot be stacked.\nHP\n+ 1164\nATK\n+ 476\nDEF\n+ 529"
+    },
+    {
+      "id": "why-does-the-ocean-sing",
+      "name": "Why Does the Ocean Sing",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/why-does-the-ocean-sing-b6ee64bee974.webp",
+      "assetId": "b6ee64bee974",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Nihility"
+      },
+      "text": "Why Does the Ocean Sing\nRarity: 5 ★\nPath: Nihility\nIncreases the wearer's Effect Hit Rate by 40/45/50/55/60% . When an enemy target gets inflicted with a debuff by the wearer, there is a 80% base chance for them to enter \"Enthrallment,\" lasting for 3 turn(s). Effects of the same type cannot stack. While the target is in \"Enthrallment,\" for every 1 debuff applied by the wearer on the target, increases the target's received DoT by 5/6.3/7.5/8.7/10% , stacking up to 6 time(s). When the target gets attacked by an ally, increases the attacker's SPD by 10/12.5/15/17.5/20% for 3 turn(s). When the wearer gets knocked down, removes all \"Enthrallment.\"\nHP\n+ 953\nATK\n+ 635\nDEF\n+ 463"
+    },
+    {
+      "id": "woof-walk-time",
+      "name": "Woof! Walk Time!",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/woof-walk-time-94c8e41f2e14.webp",
+      "assetId": "94c8e41f2e14",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Destruction"
+      },
+      "text": "Woof! Walk Time!\nRarity: 4 ★\nPath: Destruction\nIncreases the wearer's ATK by 10/12.5/15/17.5/20% , and increases their DMG to enemies afflicted with Burn or Bleed by 16 /20/24/28/32 % . This also applies to DoT.\nHP\n+ 952\nATK\n+ 476\nDEF\n+ 330"
+    },
+    {
+      "id": "worrisome-blissful",
+      "name": "Worrisome, Blissful",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/worrisome-blissful-f305759477bb.webp",
+      "assetId": "f305759477bb",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Hunt"
+      },
+      "text": "Worrisome, Blissful\nRarity: 5 ★\nPath: Hunt\nIncrease the wearer's CRIT Rate by 18/21/24/27/30% and their follow-up attacks' DMG by 30/35/40/45/50% . After the wearer uses a follow-up attack, apply the Tame state to the target, stacking up to 2 stacks. When allies hit enemy targets under the Tame state, every Tame stack increases the CRIT DMG dealt by 12/14/16/18/20% .\nHP\n+ 1058\nATK\n+ 582\nDEF\n+ 463"
+    },
+    {
+      "id": "yet-hope-is-priceless",
+      "name": "Yet Hope Is Priceless",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/yet-hope-is-priceless-542ad72d72e3.webp",
+      "assetId": "542ad72d72e3",
+      "fields": {
+        "rarity": "5 ★",
+        "path": "Erudition"
+      },
+      "text": "Yet Hope Is Priceless\nRarity: 5 ★\nPath: Erudition\nIncreases the wearer's CRIT Rate by 16/19/22/25/28% . While the wearer is in battle, for every 20% CRIT DMG that exceeds 120%, the DMG dealt by follow-up attack increases by 12/14/16/18/20% . This effect can stack up to 4 time(s). When the battle starts or after the wearer uses their Basic ATK, enables Ultimate or the DMG dealt by follow-up attack to ignore 20/24/28/32/36% of the target's DEF, lasting for 2 turn(s).\nHP\n+ 952\nATK\n+ 582\nDEF\n+ 529"
+    }
+  ]
+}

@@ -1,0 +1,2906 @@
+{
+  "id": "collection:characters",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "collection",
+  "slug": "characters",
+  "name": "Honkai Star Rail Characters & Build Guides",
+  "title": "Honkai Star Rail Characters & Build Guides",
+  "sourcePath": "/star-rail/characters",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "15/June/2026",
+  "meta": {
+    "title": "Honkai Star Rail Characters - Builds, Relics & Teams",
+    "description": ""
+  },
+  "facts": {},
+  "assets": [
+    {
+      "id": "f3a5779306b5",
+      "sourceHash": "f3a5779306b5",
+      "kind": "categories",
+      "name": "Characters",
+      "fileStem": "category-characters",
+      "path": "Prydwen/hsr/assets/categories/characters-f3a5779306b5.webp",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "id": "e0db16ed6c66",
+      "sourceHash": "e0db16ed6c66",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "ele-physical",
+      "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "92feb26d8f0e",
+      "sourceHash": "92feb26d8f0e",
+      "kind": "icons",
+      "name": "Fire",
+      "fileStem": "ele-fire",
+      "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "7d36eb39792a",
+      "sourceHash": "7d36eb39792a",
+      "kind": "icons",
+      "name": "Ice",
+      "fileStem": "ele-ice",
+      "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "d197456869a0",
+      "sourceHash": "d197456869a0",
+      "kind": "icons",
+      "name": "Lightning",
+      "fileStem": "ele-lightning",
+      "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "ee11bd390c9a",
+      "sourceHash": "ee11bd390c9a",
+      "kind": "icons",
+      "name": "Wind",
+      "fileStem": "ele-wind",
+      "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "565914d1a436",
+      "sourceHash": "565914d1a436",
+      "kind": "icons",
+      "name": "Quantum",
+      "fileStem": "ele-quantum",
+      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "913ff64407f2",
+      "sourceHash": "913ff64407f2",
+      "kind": "icons",
+      "name": "Imaginary",
+      "fileStem": "ele-imaginary",
+      "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "3f169d402dcb",
+      "sourceHash": "3f169d402dcb",
+      "kind": "icons",
+      "name": "Abundance",
+      "fileStem": "path-abundance",
+      "path": "Prydwen/hsr/assets/icons/abundance-3f169d402dcb.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "0728e56cdb36",
+      "sourceHash": "0728e56cdb36",
+      "kind": "icons",
+      "name": "Destruction",
+      "fileStem": "path-destruction",
+      "path": "Prydwen/hsr/assets/icons/destruction-0728e56cdb36.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "9caeff88915b",
+      "sourceHash": "9caeff88915b",
+      "kind": "icons",
+      "name": "Elation",
+      "fileStem": "path-elation",
+      "path": "Prydwen/hsr/assets/icons/elation-9caeff88915b.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "528cb959d4e1",
+      "sourceHash": "528cb959d4e1",
+      "kind": "icons",
+      "name": "Erudition",
+      "fileStem": "path-erudition",
+      "path": "Prydwen/hsr/assets/icons/erudition-528cb959d4e1.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "79f817e0fce3",
+      "sourceHash": "79f817e0fce3",
+      "kind": "icons",
+      "name": "Harmony",
+      "fileStem": "path-harmony",
+      "path": "Prydwen/hsr/assets/icons/harmony-79f817e0fce3.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "7f1ca62c812b",
+      "sourceHash": "7f1ca62c812b",
+      "kind": "icons",
+      "name": "Hunt",
+      "fileStem": "path-hunt",
+      "path": "Prydwen/hsr/assets/icons/hunt-7f1ca62c812b.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "3458b42370fd",
+      "sourceHash": "3458b42370fd",
+      "kind": "icons",
+      "name": "Nihility",
+      "fileStem": "path-nihility",
+      "path": "Prydwen/hsr/assets/icons/nihility-3458b42370fd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "d89ed4892eeb",
+      "sourceHash": "d89ed4892eeb",
+      "kind": "icons",
+      "name": "Preservation",
+      "fileStem": "path-preservation",
+      "path": "Prydwen/hsr/assets/icons/preservation-d89ed4892eeb.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "12ffb97462c9",
+      "sourceHash": "12ffb97462c9",
+      "kind": "icons",
+      "name": "Remembrance",
+      "fileStem": "path-remem",
+      "path": "Prydwen/hsr/assets/icons/remembrance-12ffb97462c9.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "7af70ebb6120",
+      "sourceHash": "7af70ebb6120",
+      "kind": "characters",
+      "name": "Acheron",
+      "fileStem": "acheron-card",
+      "path": "Prydwen/hsr/assets/characters/acheron-7af70ebb6120.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "775754cfb8c5",
+      "sourceHash": "775754cfb8c5",
+      "kind": "characters",
+      "name": "Aglaea",
+      "fileStem": "aglaea-card",
+      "path": "Prydwen/hsr/assets/characters/aglaea-775754cfb8c5.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "5979b0746f3c",
+      "sourceHash": "5979b0746f3c",
+      "kind": "characters",
+      "name": "Anaxa",
+      "fileStem": "anaxa-card",
+      "path": "Prydwen/hsr/assets/characters/anaxa-5979b0746f3c.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "cbcfd61516cc",
+      "sourceHash": "cbcfd61516cc",
+      "kind": "characters",
+      "name": "Archer",
+      "fileStem": "archer-card",
+      "path": "Prydwen/hsr/assets/characters/archer-cbcfd61516cc.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "e0158ba5931d",
+      "sourceHash": "e0158ba5931d",
+      "kind": "characters",
+      "name": "Argenti",
+      "fileStem": "argenti-card",
+      "path": "Prydwen/hsr/assets/characters/argenti-e0158ba5931d.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "6570c752e7cc",
+      "sourceHash": "6570c752e7cc",
+      "kind": "characters",
+      "name": "Arlan",
+      "fileStem": "arlan-card",
+      "path": "Prydwen/hsr/assets/characters/arlan-6570c752e7cc.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "052ce1666926",
+      "sourceHash": "052ce1666926",
+      "kind": "characters",
+      "name": "Ashveil",
+      "fileStem": "ashveil-card",
+      "path": "Prydwen/hsr/assets/characters/ashveil-052ce1666926.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "00298d219ef3",
+      "sourceHash": "00298d219ef3",
+      "kind": "characters",
+      "name": "Asta",
+      "fileStem": "asta-card",
+      "path": "Prydwen/hsr/assets/characters/asta-00298d219ef3.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "ec37a043dccd",
+      "sourceHash": "ec37a043dccd",
+      "kind": "characters",
+      "name": "Aventurine",
+      "fileStem": "aventurine-card",
+      "path": "Prydwen/hsr/assets/characters/aventurine-ec37a043dccd.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "c44b2e3eb5c3",
+      "sourceHash": "c44b2e3eb5c3",
+      "kind": "characters",
+      "name": "Bailu",
+      "fileStem": "bailu-card",
+      "path": "Prydwen/hsr/assets/characters/bailu-c44b2e3eb5c3.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "270afa85f18e",
+      "sourceHash": "270afa85f18e",
+      "kind": "characters",
+      "name": "Black Swan",
+      "fileStem": "black-swan-card",
+      "path": "Prydwen/hsr/assets/characters/black-swan-270afa85f18e.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "8cfa3daebfe6",
+      "sourceHash": "8cfa3daebfe6",
+      "kind": "characters",
+      "name": "Blade",
+      "fileStem": "blade-card",
+      "path": "Prydwen/hsr/assets/characters/blade-8cfa3daebfe6.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "89426c95cc56",
+      "sourceHash": "89426c95cc56",
+      "kind": "characters",
+      "name": "Boothill",
+      "fileStem": "boothill-card",
+      "path": "Prydwen/hsr/assets/characters/boothill-89426c95cc56.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "8b9a40705315",
+      "sourceHash": "8b9a40705315",
+      "kind": "characters",
+      "name": "Bronya",
+      "fileStem": "bronya-card",
+      "path": "Prydwen/hsr/assets/characters/bronya-8b9a40705315.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "e57e4aaef3ff",
+      "sourceHash": "e57e4aaef3ff",
+      "kind": "characters",
+      "name": "Castorice",
+      "fileStem": "castorice-card",
+      "path": "Prydwen/hsr/assets/characters/castorice-e57e4aaef3ff.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "a700141d7887",
+      "sourceHash": "a700141d7887",
+      "kind": "characters",
+      "name": "Cerydra",
+      "fileStem": "cerydra-card",
+      "path": "Prydwen/hsr/assets/characters/cerydra-a700141d7887.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "c7debfb39bc2",
+      "sourceHash": "c7debfb39bc2",
+      "kind": "characters",
+      "name": "Cipher",
+      "fileStem": "cipher-card",
+      "path": "Prydwen/hsr/assets/characters/cipher-c7debfb39bc2.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "b30f96eb6551",
+      "sourceHash": "b30f96eb6551",
+      "kind": "characters",
+      "name": "Clara",
+      "fileStem": "clara-card",
+      "path": "Prydwen/hsr/assets/characters/clara-b30f96eb6551.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "6d443544111a",
+      "sourceHash": "6d443544111a",
+      "kind": "characters",
+      "name": "Cyrene",
+      "fileStem": "cyrene-card",
+      "path": "Prydwen/hsr/assets/characters/cyrene-6d443544111a.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "68aee0a99f24",
+      "sourceHash": "68aee0a99f24",
+      "kind": "characters",
+      "name": "Dan Heng",
+      "fileStem": "dan-heng-card",
+      "path": "Prydwen/hsr/assets/characters/dan-heng-68aee0a99f24.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "84f0773bc3d5",
+      "sourceHash": "84f0773bc3d5",
+      "kind": "characters",
+      "name": "Dan Heng • Imbibitor Lunae",
+      "fileStem": "imbibitor-lunae-card",
+      "path": "Prydwen/hsr/assets/characters/dan-heng-imbibitor-lunae-84f0773bc3d5.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "5a8994b046b4",
+      "sourceHash": "5a8994b046b4",
+      "kind": "characters",
+      "name": "Dan Heng • Permansor Terrae",
+      "fileStem": "dan-heng-permansor-terrae-card",
+      "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-5a8994b046b4.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "b21115efaa74",
+      "sourceHash": "b21115efaa74",
+      "kind": "characters",
+      "name": "Dr. Ratio",
+      "fileStem": "dr-ratio-card",
+      "path": "Prydwen/hsr/assets/characters/dr-ratio-b21115efaa74.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "7567d1297c5d",
+      "sourceHash": "7567d1297c5d",
+      "kind": "characters",
+      "name": "Evanescia",
+      "fileStem": "evanescia-card",
+      "path": "Prydwen/hsr/assets/characters/evanescia-7567d1297c5d.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "51f92b37ea6d",
+      "sourceHash": "51f92b37ea6d",
+      "kind": "characters",
+      "name": "Feixiao",
+      "fileStem": "feixiao-card",
+      "path": "Prydwen/hsr/assets/characters/feixiao-51f92b37ea6d.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "623b0891aedd",
+      "sourceHash": "623b0891aedd",
+      "kind": "characters",
+      "name": "Firefly",
+      "fileStem": "firefly-card",
+      "path": "Prydwen/hsr/assets/characters/firefly-623b0891aedd.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "41b77b8d96c0",
+      "sourceHash": "41b77b8d96c0",
+      "kind": "characters",
+      "name": "Fu Xuan",
+      "fileStem": "fu-xuan-card",
+      "path": "Prydwen/hsr/assets/characters/fu-xuan-41b77b8d96c0.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "53eb230701d1",
+      "sourceHash": "53eb230701d1",
+      "kind": "characters",
+      "name": "Gallagher",
+      "fileStem": "gallagher-card",
+      "path": "Prydwen/hsr/assets/characters/gallagher-53eb230701d1.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "c0e7cf4bb1f9",
+      "sourceHash": "c0e7cf4bb1f9",
+      "kind": "characters",
+      "name": "Gepard",
+      "fileStem": "gepard-card",
+      "path": "Prydwen/hsr/assets/characters/gepard-c0e7cf4bb1f9.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "8b85b84d2d9d",
+      "sourceHash": "8b85b84d2d9d",
+      "kind": "characters",
+      "name": "Gilgamesh",
+      "fileStem": "gilgamesh-card",
+      "path": "Prydwen/hsr/assets/characters/gilgamesh-8b85b84d2d9d.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "e7c32f758256",
+      "sourceHash": "e7c32f758256",
+      "kind": "characters",
+      "name": "Guinaifen",
+      "fileStem": "guinaifen-card",
+      "path": "Prydwen/hsr/assets/characters/guinaifen-e7c32f758256.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "e05f75e0ed4b",
+      "sourceHash": "e05f75e0ed4b",
+      "kind": "characters",
+      "name": "Hanya",
+      "fileStem": "hanya-card",
+      "path": "Prydwen/hsr/assets/characters/hanya-e05f75e0ed4b.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "d93a5aec8214",
+      "sourceHash": "d93a5aec8214",
+      "kind": "characters",
+      "name": "Herta",
+      "fileStem": "herta-card",
+      "path": "Prydwen/hsr/assets/characters/herta-d93a5aec8214.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "986dab5cee76",
+      "sourceHash": "986dab5cee76",
+      "kind": "characters",
+      "name": "Himeko",
+      "fileStem": "himeko-card",
+      "path": "Prydwen/hsr/assets/characters/himeko-986dab5cee76.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "2a8de327b90f",
+      "sourceHash": "2a8de327b90f",
+      "kind": "characters",
+      "name": "Himeko Nova",
+      "fileStem": "himeko-nova-card",
+      "path": "Prydwen/hsr/assets/characters/himeko-nova-2a8de327b90f.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "04178d3d46d9",
+      "sourceHash": "04178d3d46d9",
+      "kind": "characters",
+      "name": "Hook",
+      "fileStem": "hook-card",
+      "path": "Prydwen/hsr/assets/characters/hook-04178d3d46d9.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "2eb0ec6b3ec0",
+      "sourceHash": "2eb0ec6b3ec0",
+      "kind": "characters",
+      "name": "Huohuo",
+      "fileStem": "huohuo-card",
+      "path": "Prydwen/hsr/assets/characters/huohuo-2eb0ec6b3ec0.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "1e9a0fafaf7c",
+      "sourceHash": "1e9a0fafaf7c",
+      "kind": "characters",
+      "name": "Hyacine",
+      "fileStem": "hyacine-card",
+      "path": "Prydwen/hsr/assets/characters/hyacine-1e9a0fafaf7c.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "cb2fae560eae",
+      "sourceHash": "cb2fae560eae",
+      "kind": "characters",
+      "name": "Hysilens",
+      "fileStem": "hysilens-card",
+      "path": "Prydwen/hsr/assets/characters/hysilens-cb2fae560eae.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "5a27f10fb7e1",
+      "sourceHash": "5a27f10fb7e1",
+      "kind": "characters",
+      "name": "Jade",
+      "fileStem": "jade-card",
+      "path": "Prydwen/hsr/assets/characters/jade-5a27f10fb7e1.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "29056a8915e0",
+      "sourceHash": "29056a8915e0",
+      "kind": "characters",
+      "name": "Jiaoqiu",
+      "fileStem": "jiaoqiu-card",
+      "path": "Prydwen/hsr/assets/characters/jiaoqiu-29056a8915e0.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "87407975cfe5",
+      "sourceHash": "87407975cfe5",
+      "kind": "characters",
+      "name": "Jing Yuan",
+      "fileStem": "jing-yuan-card",
+      "path": "Prydwen/hsr/assets/characters/jing-yuan-87407975cfe5.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "b899a44529f0",
+      "sourceHash": "b899a44529f0",
+      "kind": "characters",
+      "name": "Jingliu",
+      "fileStem": "jingliu-card",
+      "path": "Prydwen/hsr/assets/characters/jingliu-b899a44529f0.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "400047d61892",
+      "sourceHash": "400047d61892",
+      "kind": "characters",
+      "name": "Kafka",
+      "fileStem": "kafka-card",
+      "path": "Prydwen/hsr/assets/characters/kafka-400047d61892.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "d9effded33c0",
+      "sourceHash": "d9effded33c0",
+      "kind": "characters",
+      "name": "Lingsha",
+      "fileStem": "lingsha-card",
+      "path": "Prydwen/hsr/assets/characters/lingsha-d9effded33c0.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "1589f6fedf05",
+      "sourceHash": "1589f6fedf05",
+      "kind": "characters",
+      "name": "Luka",
+      "fileStem": "luka-card",
+      "path": "Prydwen/hsr/assets/characters/luka-1589f6fedf05.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "50ed93457dad",
+      "sourceHash": "50ed93457dad",
+      "kind": "characters",
+      "name": "Luocha",
+      "fileStem": "luocha-card",
+      "path": "Prydwen/hsr/assets/characters/luocha-50ed93457dad.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "caf7bd0fec96",
+      "sourceHash": "caf7bd0fec96",
+      "kind": "characters",
+      "name": "Lynx",
+      "fileStem": "lynx-card",
+      "path": "Prydwen/hsr/assets/characters/lynx-caf7bd0fec96.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "c5b60a50f43d",
+      "sourceHash": "c5b60a50f43d",
+      "kind": "characters",
+      "name": "March 7th",
+      "fileStem": "march-7th-card",
+      "path": "Prydwen/hsr/assets/characters/march-7th-c5b60a50f43d.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "787da7cf2b25",
+      "sourceHash": "787da7cf2b25",
+      "kind": "characters",
+      "name": "March 7th • Evernight",
+      "fileStem": "march-7th-evernight-card",
+      "path": "Prydwen/hsr/assets/characters/march-7th-evernight-787da7cf2b25.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "d2e792400da2",
+      "sourceHash": "d2e792400da2",
+      "kind": "characters",
+      "name": "March 7th • The Hunt",
+      "fileStem": "march-7th-swordmaster-card",
+      "path": "Prydwen/hsr/assets/characters/march-7th-the-hunt-d2e792400da2.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "a59a3e8a73a9",
+      "sourceHash": "a59a3e8a73a9",
+      "kind": "characters",
+      "name": "Misha",
+      "fileStem": "misha-card",
+      "path": "Prydwen/hsr/assets/characters/misha-a59a3e8a73a9.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "95aef83c18a0",
+      "sourceHash": "95aef83c18a0",
+      "kind": "characters",
+      "name": "Mortenax Blade",
+      "fileStem": "blade-mortenax-card",
+      "path": "Prydwen/hsr/assets/characters/mortenax-blade-95aef83c18a0.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "11cb976ee484",
+      "sourceHash": "11cb976ee484",
+      "kind": "characters",
+      "name": "Moze",
+      "fileStem": "moze-card",
+      "path": "Prydwen/hsr/assets/characters/moze-11cb976ee484.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "a2ca53d1474f",
+      "sourceHash": "a2ca53d1474f",
+      "kind": "characters",
+      "name": "Mydei",
+      "fileStem": "mydei-card",
+      "path": "Prydwen/hsr/assets/characters/mydei-a2ca53d1474f.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "092e3b8edc77",
+      "sourceHash": "092e3b8edc77",
+      "kind": "characters",
+      "name": "Natasha",
+      "fileStem": "natasha-card",
+      "path": "Prydwen/hsr/assets/characters/natasha-092e3b8edc77.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "4023dca6dfde",
+      "sourceHash": "4023dca6dfde",
+      "kind": "characters",
+      "name": "Pela",
+      "fileStem": "pela-card",
+      "path": "Prydwen/hsr/assets/characters/pela-4023dca6dfde.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "3341050db154",
+      "sourceHash": "3341050db154",
+      "kind": "characters",
+      "name": "Phainon",
+      "fileStem": "phainon-card",
+      "path": "Prydwen/hsr/assets/characters/phainon-3341050db154.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "42fec9840aca",
+      "sourceHash": "42fec9840aca",
+      "kind": "characters",
+      "name": "Qingque",
+      "fileStem": "qingque-card",
+      "path": "Prydwen/hsr/assets/characters/qingque-42fec9840aca.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "c857d370ad35",
+      "sourceHash": "c857d370ad35",
+      "kind": "characters",
+      "name": "Rappa",
+      "fileStem": "rappa-card",
+      "path": "Prydwen/hsr/assets/characters/rappa-c857d370ad35.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "0ac7ee84c320",
+      "sourceHash": "0ac7ee84c320",
+      "kind": "characters",
+      "name": "Rin Tohsaka",
+      "fileStem": "rin-tohsaka-card",
+      "path": "Prydwen/hsr/assets/characters/rin-tohsaka-0ac7ee84c320.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "69c7301903f4",
+      "sourceHash": "69c7301903f4",
+      "kind": "characters",
+      "name": "Robin",
+      "fileStem": "robin-card",
+      "path": "Prydwen/hsr/assets/characters/robin-69c7301903f4.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "8506b75184e5",
+      "sourceHash": "8506b75184e5",
+      "kind": "characters",
+      "name": "Ruan Mei",
+      "fileStem": "ruan-mei-card",
+      "path": "Prydwen/hsr/assets/characters/ruan-mei-8506b75184e5.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "dae0995059e4",
+      "sourceHash": "dae0995059e4",
+      "kind": "characters",
+      "name": "Saber",
+      "fileStem": "saber-card",
+      "path": "Prydwen/hsr/assets/characters/saber-dae0995059e4.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "ed86ec39afab",
+      "sourceHash": "ed86ec39afab",
+      "kind": "characters",
+      "name": "Sampo",
+      "fileStem": "sampo-card",
+      "path": "Prydwen/hsr/assets/characters/sampo-ed86ec39afab.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "d60eff70f81c",
+      "sourceHash": "d60eff70f81c",
+      "kind": "characters",
+      "name": "Seele",
+      "fileStem": "seele-card",
+      "path": "Prydwen/hsr/assets/characters/seele-d60eff70f81c.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "3c247d3771b8",
+      "sourceHash": "3c247d3771b8",
+      "kind": "characters",
+      "name": "Serval",
+      "fileStem": "serval-card",
+      "path": "Prydwen/hsr/assets/characters/serval-3c247d3771b8.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "a86ff142fa92",
+      "sourceHash": "a86ff142fa92",
+      "kind": "characters",
+      "name": "Silver Wolf",
+      "fileStem": "silver-wolf-card",
+      "path": "Prydwen/hsr/assets/characters/silver-wolf-a86ff142fa92.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "525c30d127a5",
+      "sourceHash": "525c30d127a5",
+      "kind": "characters",
+      "name": "Silver Wolf • Lv. 999",
+      "fileStem": "silver-wolf-lv-999-card",
+      "path": "Prydwen/hsr/assets/characters/silver-wolf-lv-999-525c30d127a5.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "c948ac5a51ee",
+      "sourceHash": "c948ac5a51ee",
+      "kind": "characters",
+      "name": "Sparkle",
+      "fileStem": "sparkle-card",
+      "path": "Prydwen/hsr/assets/characters/sparkle-c948ac5a51ee.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "67b870bc5ac4",
+      "sourceHash": "67b870bc5ac4",
+      "kind": "characters",
+      "name": "Sparxie",
+      "fileStem": "sparxie-card",
+      "path": "Prydwen/hsr/assets/characters/sparxie-67b870bc5ac4.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "6aab96cad79c",
+      "sourceHash": "6aab96cad79c",
+      "kind": "characters",
+      "name": "Sunday",
+      "fileStem": "sunday-card",
+      "path": "Prydwen/hsr/assets/characters/sunday-6aab96cad79c.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "257b48f16066",
+      "sourceHash": "257b48f16066",
+      "kind": "characters",
+      "name": "Sushang",
+      "fileStem": "sushang-card",
+      "path": "Prydwen/hsr/assets/characters/sushang-257b48f16066.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "de1d9d08efeb",
+      "sourceHash": "de1d9d08efeb",
+      "kind": "characters",
+      "name": "The Dahlia",
+      "fileStem": "the-dahlia-card",
+      "path": "Prydwen/hsr/assets/characters/the-dahlia-de1d9d08efeb.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "f728fd35660c",
+      "sourceHash": "f728fd35660c",
+      "kind": "characters",
+      "name": "The Herta",
+      "fileStem": "the-herta-card",
+      "path": "Prydwen/hsr/assets/characters/the-herta-f728fd35660c.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "1a50dd52f9a7",
+      "sourceHash": "1a50dd52f9a7",
+      "kind": "characters",
+      "name": "Tingyun",
+      "fileStem": "tingyun-card",
+      "path": "Prydwen/hsr/assets/characters/tingyun-1a50dd52f9a7.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "3f875158793e",
+      "sourceHash": "3f875158793e",
+      "kind": "characters",
+      "name": "Tingyun • Fugue",
+      "fileStem": "tingyun-fugue-card",
+      "path": "Prydwen/hsr/assets/characters/tingyun-fugue-3f875158793e.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "e48ef824c5e0",
+      "sourceHash": "e48ef824c5e0",
+      "kind": "characters",
+      "name": "Topaz & Numby",
+      "fileStem": "topaz-card",
+      "path": "Prydwen/hsr/assets/characters/topaz-numby-e48ef824c5e0.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "533411d696bf",
+      "sourceHash": "533411d696bf",
+      "kind": "characters",
+      "name": "Trailblazer • Destruction",
+      "fileStem": "trailblazer-destruction-card",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-destruction-533411d696bf.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "b7e8d644ade6",
+      "sourceHash": "b7e8d644ade6",
+      "kind": "characters",
+      "name": "Trailblazer • Elation",
+      "fileStem": "trailblazer-elation-card",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-elation-b7e8d644ade6.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "3804679c33dd",
+      "sourceHash": "3804679c33dd",
+      "kind": "characters",
+      "name": "Trailblazer • Harmony",
+      "fileStem": "trailblazer-harmony-card",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-harmony-3804679c33dd.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "81565a7917de",
+      "sourceHash": "81565a7917de",
+      "kind": "characters",
+      "name": "Trailblazer • Preservation",
+      "fileStem": "trailblazer-preservation-card",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-preservation-81565a7917de.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "eb61b9ef8eaa",
+      "sourceHash": "eb61b9ef8eaa",
+      "kind": "characters",
+      "name": "Trailblazer • Remembrance",
+      "fileStem": "trailblazer-remembrance-card",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-eb61b9ef8eaa.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "fc0b40ff638a",
+      "sourceHash": "fc0b40ff638a",
+      "kind": "characters",
+      "name": "Tribbie",
+      "fileStem": "tribbie-card",
+      "path": "Prydwen/hsr/assets/characters/tribbie-fc0b40ff638a.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "6c0cefc442eb",
+      "sourceHash": "6c0cefc442eb",
+      "kind": "characters",
+      "name": "Welt",
+      "fileStem": "welt-card",
+      "path": "Prydwen/hsr/assets/characters/welt-6c0cefc442eb.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "89798f7f7acd",
+      "sourceHash": "89798f7f7acd",
+      "kind": "characters",
+      "name": "Xueyi",
+      "fileStem": "xueyi-card",
+      "path": "Prydwen/hsr/assets/characters/xueyi-89798f7f7acd.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "2cb713068815",
+      "sourceHash": "2cb713068815",
+      "kind": "characters",
+      "name": "Yanqing",
+      "fileStem": "yanqing-card",
+      "path": "Prydwen/hsr/assets/characters/yanqing-2cb713068815.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "84b9f69c7269",
+      "sourceHash": "84b9f69c7269",
+      "kind": "characters",
+      "name": "Yao Guang",
+      "fileStem": "yao-guang-card",
+      "path": "Prydwen/hsr/assets/characters/yao-guang-84b9f69c7269.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "ec992fb513db",
+      "sourceHash": "ec992fb513db",
+      "kind": "characters",
+      "name": "Yukong",
+      "fileStem": "yukong-card",
+      "path": "Prydwen/hsr/assets/characters/yukong-ec992fb513db.webp",
+      "width": 280,
+      "height": 400
+    },
+    {
+      "id": "0ec74736d83e",
+      "sourceHash": "0ec74736d83e",
+      "kind": "characters",
+      "name": "Yunli",
+      "fileStem": "yunli-card",
+      "path": "Prydwen/hsr/assets/characters/yunli-0ec74736d83e.webp",
+      "width": 280,
+      "height": 400
+    }
+  ],
+  "sections": [
+    {
+      "id": "honkai-star-rail-characters-build-guides-0",
+      "level": 1,
+      "heading": "Honkai Star Rail Characters & Build Guides",
+      "text": "Browse all Honkai Star Rail characters with build guides, Relics, Light Cones, teams, Eidolons, elements, Paths, and Trace priority.\n Last updated: 15/June/2026",
+      "assets": []
+    },
+    {
+      "id": "all-honkai-star-rail-characters-1",
+      "level": 2,
+      "heading": "All Honkai Star Rail Characters",
+      "text": "Showing 90 Characters\n ×\n 4 ★ 5 ★\n\n Reset\n\n Acheron\n\n Aglaea\n\n Anaxa\n\n Archer\n\n Argenti\n\n Arlan\n\n Ashveil\n\n Asta\n\n Aventurine\n\n Bailu\n\n Black Swan\n\n Blade\n\n Boothill\n\n Bronya\n\n Castorice\n\n Cerydra\n\n Cipher\n\n Clara\n\n Cyrene\n\n Dan Heng\n\n Dan Heng • Imbibitor Lunae\n\n Dan Heng • Permansor Terrae\n\n Dr. Ratio\n\n Evanescia\n\n Feixiao\n\n Firefly\n\n Fu Xuan\n\n Gallagher\n\n Gepard\n\n Gilgamesh 4.4\n\n Guinaifen\n\n Hanya\n\n Herta\n\n Himeko\n\n Himeko Nova 4.4\n\n Hook\n\n Huohuo\n\n Hyacine\n\n Hysilens\n\n Jade\n\n Jiaoqiu\n\n Jing Yuan\n\n Jingliu\n\n Kafka\n\n Lingsha\n\n Luka\n\n Luocha\n\n Lynx\n\n March 7th\n\n March 7th • Evernight\n\n March 7th • The Hunt\n\n Misha\n\n Mortenax Blade New\n\n Moze\n\n Mydei\n\n Natasha\n\n Pela\n\n Phainon\n\n Qingque\n\n Rappa\n\n Rin Tohsaka 4.4\n\n Robin\n\n Ruan Mei\n\n Saber\n\n Sampo\n\n Seele\n\n Serval\n\n Silver Wolf\n\n Silver Wolf • Lv. 999\n\n Sparkle\n\n Sparxie\n\n Sunday\n\n Sushang\n\n The Dahlia\n\n The Herta\n\n Tingyun\n\n Tingyun • Fugue\n\n Topaz & Numby\n\n Trailblazer • Destruction\n\n Trailblazer • Elation\n\n Trailblazer • Harmony\n\n Trailblazer • Preservation\n\n Trailblazer • Remembrance\n\n Tribbie\n\n Welt\n\n Xueyi\n\n Yanqing\n\n Yao Guang\n\n Yukong\n\n Yunli",
+      "assets": [
+        {
+          "id": "e0db16ed6c66",
+          "sourceHash": "e0db16ed6c66",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "ele-physical",
+          "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "92feb26d8f0e",
+          "sourceHash": "92feb26d8f0e",
+          "kind": "icons",
+          "name": "Fire",
+          "fileStem": "ele-fire",
+          "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "7d36eb39792a",
+          "sourceHash": "7d36eb39792a",
+          "kind": "icons",
+          "name": "Ice",
+          "fileStem": "ele-ice",
+          "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "d197456869a0",
+          "sourceHash": "d197456869a0",
+          "kind": "icons",
+          "name": "Lightning",
+          "fileStem": "ele-lightning",
+          "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "ee11bd390c9a",
+          "sourceHash": "ee11bd390c9a",
+          "kind": "icons",
+          "name": "Wind",
+          "fileStem": "ele-wind",
+          "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "565914d1a436",
+          "sourceHash": "565914d1a436",
+          "kind": "icons",
+          "name": "Quantum",
+          "fileStem": "ele-quantum",
+          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "913ff64407f2",
+          "sourceHash": "913ff64407f2",
+          "kind": "icons",
+          "name": "Imaginary",
+          "fileStem": "ele-imaginary",
+          "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "3f169d402dcb",
+          "sourceHash": "3f169d402dcb",
+          "kind": "icons",
+          "name": "Abundance",
+          "fileStem": "path-abundance",
+          "path": "Prydwen/hsr/assets/icons/abundance-3f169d402dcb.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "0728e56cdb36",
+          "sourceHash": "0728e56cdb36",
+          "kind": "icons",
+          "name": "Destruction",
+          "fileStem": "path-destruction",
+          "path": "Prydwen/hsr/assets/icons/destruction-0728e56cdb36.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "9caeff88915b",
+          "sourceHash": "9caeff88915b",
+          "kind": "icons",
+          "name": "Elation",
+          "fileStem": "path-elation",
+          "path": "Prydwen/hsr/assets/icons/elation-9caeff88915b.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "528cb959d4e1",
+          "sourceHash": "528cb959d4e1",
+          "kind": "icons",
+          "name": "Erudition",
+          "fileStem": "path-erudition",
+          "path": "Prydwen/hsr/assets/icons/erudition-528cb959d4e1.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "79f817e0fce3",
+          "sourceHash": "79f817e0fce3",
+          "kind": "icons",
+          "name": "Harmony",
+          "fileStem": "path-harmony",
+          "path": "Prydwen/hsr/assets/icons/harmony-79f817e0fce3.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "7f1ca62c812b",
+          "sourceHash": "7f1ca62c812b",
+          "kind": "icons",
+          "name": "Hunt",
+          "fileStem": "path-hunt",
+          "path": "Prydwen/hsr/assets/icons/hunt-7f1ca62c812b.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "3458b42370fd",
+          "sourceHash": "3458b42370fd",
+          "kind": "icons",
+          "name": "Nihility",
+          "fileStem": "path-nihility",
+          "path": "Prydwen/hsr/assets/icons/nihility-3458b42370fd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "d89ed4892eeb",
+          "sourceHash": "d89ed4892eeb",
+          "kind": "icons",
+          "name": "Preservation",
+          "fileStem": "path-preservation",
+          "path": "Prydwen/hsr/assets/icons/preservation-d89ed4892eeb.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12ffb97462c9",
+          "sourceHash": "12ffb97462c9",
+          "kind": "icons",
+          "name": "Remembrance",
+          "fileStem": "path-remem",
+          "path": "Prydwen/hsr/assets/icons/remembrance-12ffb97462c9.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "7af70ebb6120",
+          "sourceHash": "7af70ebb6120",
+          "kind": "characters",
+          "name": "Acheron",
+          "fileStem": "acheron-card",
+          "path": "Prydwen/hsr/assets/characters/acheron-7af70ebb6120.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "775754cfb8c5",
+          "sourceHash": "775754cfb8c5",
+          "kind": "characters",
+          "name": "Aglaea",
+          "fileStem": "aglaea-card",
+          "path": "Prydwen/hsr/assets/characters/aglaea-775754cfb8c5.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "5979b0746f3c",
+          "sourceHash": "5979b0746f3c",
+          "kind": "characters",
+          "name": "Anaxa",
+          "fileStem": "anaxa-card",
+          "path": "Prydwen/hsr/assets/characters/anaxa-5979b0746f3c.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "cbcfd61516cc",
+          "sourceHash": "cbcfd61516cc",
+          "kind": "characters",
+          "name": "Archer",
+          "fileStem": "archer-card",
+          "path": "Prydwen/hsr/assets/characters/archer-cbcfd61516cc.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "e0158ba5931d",
+          "sourceHash": "e0158ba5931d",
+          "kind": "characters",
+          "name": "Argenti",
+          "fileStem": "argenti-card",
+          "path": "Prydwen/hsr/assets/characters/argenti-e0158ba5931d.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "6570c752e7cc",
+          "sourceHash": "6570c752e7cc",
+          "kind": "characters",
+          "name": "Arlan",
+          "fileStem": "arlan-card",
+          "path": "Prydwen/hsr/assets/characters/arlan-6570c752e7cc.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "052ce1666926",
+          "sourceHash": "052ce1666926",
+          "kind": "characters",
+          "name": "Ashveil",
+          "fileStem": "ashveil-card",
+          "path": "Prydwen/hsr/assets/characters/ashveil-052ce1666926.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "00298d219ef3",
+          "sourceHash": "00298d219ef3",
+          "kind": "characters",
+          "name": "Asta",
+          "fileStem": "asta-card",
+          "path": "Prydwen/hsr/assets/characters/asta-00298d219ef3.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "ec37a043dccd",
+          "sourceHash": "ec37a043dccd",
+          "kind": "characters",
+          "name": "Aventurine",
+          "fileStem": "aventurine-card",
+          "path": "Prydwen/hsr/assets/characters/aventurine-ec37a043dccd.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "c44b2e3eb5c3",
+          "sourceHash": "c44b2e3eb5c3",
+          "kind": "characters",
+          "name": "Bailu",
+          "fileStem": "bailu-card",
+          "path": "Prydwen/hsr/assets/characters/bailu-c44b2e3eb5c3.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "270afa85f18e",
+          "sourceHash": "270afa85f18e",
+          "kind": "characters",
+          "name": "Black Swan",
+          "fileStem": "black-swan-card",
+          "path": "Prydwen/hsr/assets/characters/black-swan-270afa85f18e.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "8cfa3daebfe6",
+          "sourceHash": "8cfa3daebfe6",
+          "kind": "characters",
+          "name": "Blade",
+          "fileStem": "blade-card",
+          "path": "Prydwen/hsr/assets/characters/blade-8cfa3daebfe6.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "89426c95cc56",
+          "sourceHash": "89426c95cc56",
+          "kind": "characters",
+          "name": "Boothill",
+          "fileStem": "boothill-card",
+          "path": "Prydwen/hsr/assets/characters/boothill-89426c95cc56.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "8b9a40705315",
+          "sourceHash": "8b9a40705315",
+          "kind": "characters",
+          "name": "Bronya",
+          "fileStem": "bronya-card",
+          "path": "Prydwen/hsr/assets/characters/bronya-8b9a40705315.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "e57e4aaef3ff",
+          "sourceHash": "e57e4aaef3ff",
+          "kind": "characters",
+          "name": "Castorice",
+          "fileStem": "castorice-card",
+          "path": "Prydwen/hsr/assets/characters/castorice-e57e4aaef3ff.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "a700141d7887",
+          "sourceHash": "a700141d7887",
+          "kind": "characters",
+          "name": "Cerydra",
+          "fileStem": "cerydra-card",
+          "path": "Prydwen/hsr/assets/characters/cerydra-a700141d7887.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "c7debfb39bc2",
+          "sourceHash": "c7debfb39bc2",
+          "kind": "characters",
+          "name": "Cipher",
+          "fileStem": "cipher-card",
+          "path": "Prydwen/hsr/assets/characters/cipher-c7debfb39bc2.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "b30f96eb6551",
+          "sourceHash": "b30f96eb6551",
+          "kind": "characters",
+          "name": "Clara",
+          "fileStem": "clara-card",
+          "path": "Prydwen/hsr/assets/characters/clara-b30f96eb6551.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "6d443544111a",
+          "sourceHash": "6d443544111a",
+          "kind": "characters",
+          "name": "Cyrene",
+          "fileStem": "cyrene-card",
+          "path": "Prydwen/hsr/assets/characters/cyrene-6d443544111a.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "68aee0a99f24",
+          "sourceHash": "68aee0a99f24",
+          "kind": "characters",
+          "name": "Dan Heng",
+          "fileStem": "dan-heng-card",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-68aee0a99f24.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "84f0773bc3d5",
+          "sourceHash": "84f0773bc3d5",
+          "kind": "characters",
+          "name": "Dan Heng • Imbibitor Lunae",
+          "fileStem": "imbibitor-lunae-card",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-imbibitor-lunae-84f0773bc3d5.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "5a8994b046b4",
+          "sourceHash": "5a8994b046b4",
+          "kind": "characters",
+          "name": "Dan Heng • Permansor Terrae",
+          "fileStem": "dan-heng-permansor-terrae-card",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-5a8994b046b4.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "b21115efaa74",
+          "sourceHash": "b21115efaa74",
+          "kind": "characters",
+          "name": "Dr. Ratio",
+          "fileStem": "dr-ratio-card",
+          "path": "Prydwen/hsr/assets/characters/dr-ratio-b21115efaa74.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "7567d1297c5d",
+          "sourceHash": "7567d1297c5d",
+          "kind": "characters",
+          "name": "Evanescia",
+          "fileStem": "evanescia-card",
+          "path": "Prydwen/hsr/assets/characters/evanescia-7567d1297c5d.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "51f92b37ea6d",
+          "sourceHash": "51f92b37ea6d",
+          "kind": "characters",
+          "name": "Feixiao",
+          "fileStem": "feixiao-card",
+          "path": "Prydwen/hsr/assets/characters/feixiao-51f92b37ea6d.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "623b0891aedd",
+          "sourceHash": "623b0891aedd",
+          "kind": "characters",
+          "name": "Firefly",
+          "fileStem": "firefly-card",
+          "path": "Prydwen/hsr/assets/characters/firefly-623b0891aedd.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "41b77b8d96c0",
+          "sourceHash": "41b77b8d96c0",
+          "kind": "characters",
+          "name": "Fu Xuan",
+          "fileStem": "fu-xuan-card",
+          "path": "Prydwen/hsr/assets/characters/fu-xuan-41b77b8d96c0.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "53eb230701d1",
+          "sourceHash": "53eb230701d1",
+          "kind": "characters",
+          "name": "Gallagher",
+          "fileStem": "gallagher-card",
+          "path": "Prydwen/hsr/assets/characters/gallagher-53eb230701d1.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "c0e7cf4bb1f9",
+          "sourceHash": "c0e7cf4bb1f9",
+          "kind": "characters",
+          "name": "Gepard",
+          "fileStem": "gepard-card",
+          "path": "Prydwen/hsr/assets/characters/gepard-c0e7cf4bb1f9.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "8b85b84d2d9d",
+          "sourceHash": "8b85b84d2d9d",
+          "kind": "characters",
+          "name": "Gilgamesh",
+          "fileStem": "gilgamesh-card",
+          "path": "Prydwen/hsr/assets/characters/gilgamesh-8b85b84d2d9d.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "e7c32f758256",
+          "sourceHash": "e7c32f758256",
+          "kind": "characters",
+          "name": "Guinaifen",
+          "fileStem": "guinaifen-card",
+          "path": "Prydwen/hsr/assets/characters/guinaifen-e7c32f758256.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "e05f75e0ed4b",
+          "sourceHash": "e05f75e0ed4b",
+          "kind": "characters",
+          "name": "Hanya",
+          "fileStem": "hanya-card",
+          "path": "Prydwen/hsr/assets/characters/hanya-e05f75e0ed4b.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "d93a5aec8214",
+          "sourceHash": "d93a5aec8214",
+          "kind": "characters",
+          "name": "Herta",
+          "fileStem": "herta-card",
+          "path": "Prydwen/hsr/assets/characters/herta-d93a5aec8214.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "986dab5cee76",
+          "sourceHash": "986dab5cee76",
+          "kind": "characters",
+          "name": "Himeko",
+          "fileStem": "himeko-card",
+          "path": "Prydwen/hsr/assets/characters/himeko-986dab5cee76.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "2a8de327b90f",
+          "sourceHash": "2a8de327b90f",
+          "kind": "characters",
+          "name": "Himeko Nova",
+          "fileStem": "himeko-nova-card",
+          "path": "Prydwen/hsr/assets/characters/himeko-nova-2a8de327b90f.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "04178d3d46d9",
+          "sourceHash": "04178d3d46d9",
+          "kind": "characters",
+          "name": "Hook",
+          "fileStem": "hook-card",
+          "path": "Prydwen/hsr/assets/characters/hook-04178d3d46d9.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "2eb0ec6b3ec0",
+          "sourceHash": "2eb0ec6b3ec0",
+          "kind": "characters",
+          "name": "Huohuo",
+          "fileStem": "huohuo-card",
+          "path": "Prydwen/hsr/assets/characters/huohuo-2eb0ec6b3ec0.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "1e9a0fafaf7c",
+          "sourceHash": "1e9a0fafaf7c",
+          "kind": "characters",
+          "name": "Hyacine",
+          "fileStem": "hyacine-card",
+          "path": "Prydwen/hsr/assets/characters/hyacine-1e9a0fafaf7c.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "cb2fae560eae",
+          "sourceHash": "cb2fae560eae",
+          "kind": "characters",
+          "name": "Hysilens",
+          "fileStem": "hysilens-card",
+          "path": "Prydwen/hsr/assets/characters/hysilens-cb2fae560eae.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "5a27f10fb7e1",
+          "sourceHash": "5a27f10fb7e1",
+          "kind": "characters",
+          "name": "Jade",
+          "fileStem": "jade-card",
+          "path": "Prydwen/hsr/assets/characters/jade-5a27f10fb7e1.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "29056a8915e0",
+          "sourceHash": "29056a8915e0",
+          "kind": "characters",
+          "name": "Jiaoqiu",
+          "fileStem": "jiaoqiu-card",
+          "path": "Prydwen/hsr/assets/characters/jiaoqiu-29056a8915e0.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "87407975cfe5",
+          "sourceHash": "87407975cfe5",
+          "kind": "characters",
+          "name": "Jing Yuan",
+          "fileStem": "jing-yuan-card",
+          "path": "Prydwen/hsr/assets/characters/jing-yuan-87407975cfe5.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "b899a44529f0",
+          "sourceHash": "b899a44529f0",
+          "kind": "characters",
+          "name": "Jingliu",
+          "fileStem": "jingliu-card",
+          "path": "Prydwen/hsr/assets/characters/jingliu-b899a44529f0.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "400047d61892",
+          "sourceHash": "400047d61892",
+          "kind": "characters",
+          "name": "Kafka",
+          "fileStem": "kafka-card",
+          "path": "Prydwen/hsr/assets/characters/kafka-400047d61892.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "d9effded33c0",
+          "sourceHash": "d9effded33c0",
+          "kind": "characters",
+          "name": "Lingsha",
+          "fileStem": "lingsha-card",
+          "path": "Prydwen/hsr/assets/characters/lingsha-d9effded33c0.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "1589f6fedf05",
+          "sourceHash": "1589f6fedf05",
+          "kind": "characters",
+          "name": "Luka",
+          "fileStem": "luka-card",
+          "path": "Prydwen/hsr/assets/characters/luka-1589f6fedf05.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "50ed93457dad",
+          "sourceHash": "50ed93457dad",
+          "kind": "characters",
+          "name": "Luocha",
+          "fileStem": "luocha-card",
+          "path": "Prydwen/hsr/assets/characters/luocha-50ed93457dad.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "caf7bd0fec96",
+          "sourceHash": "caf7bd0fec96",
+          "kind": "characters",
+          "name": "Lynx",
+          "fileStem": "lynx-card",
+          "path": "Prydwen/hsr/assets/characters/lynx-caf7bd0fec96.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "c5b60a50f43d",
+          "sourceHash": "c5b60a50f43d",
+          "kind": "characters",
+          "name": "March 7th",
+          "fileStem": "march-7th-card",
+          "path": "Prydwen/hsr/assets/characters/march-7th-c5b60a50f43d.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "787da7cf2b25",
+          "sourceHash": "787da7cf2b25",
+          "kind": "characters",
+          "name": "March 7th • Evernight",
+          "fileStem": "march-7th-evernight-card",
+          "path": "Prydwen/hsr/assets/characters/march-7th-evernight-787da7cf2b25.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "d2e792400da2",
+          "sourceHash": "d2e792400da2",
+          "kind": "characters",
+          "name": "March 7th • The Hunt",
+          "fileStem": "march-7th-swordmaster-card",
+          "path": "Prydwen/hsr/assets/characters/march-7th-the-hunt-d2e792400da2.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "a59a3e8a73a9",
+          "sourceHash": "a59a3e8a73a9",
+          "kind": "characters",
+          "name": "Misha",
+          "fileStem": "misha-card",
+          "path": "Prydwen/hsr/assets/characters/misha-a59a3e8a73a9.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "95aef83c18a0",
+          "sourceHash": "95aef83c18a0",
+          "kind": "characters",
+          "name": "Mortenax Blade",
+          "fileStem": "blade-mortenax-card",
+          "path": "Prydwen/hsr/assets/characters/mortenax-blade-95aef83c18a0.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "11cb976ee484",
+          "sourceHash": "11cb976ee484",
+          "kind": "characters",
+          "name": "Moze",
+          "fileStem": "moze-card",
+          "path": "Prydwen/hsr/assets/characters/moze-11cb976ee484.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "a2ca53d1474f",
+          "sourceHash": "a2ca53d1474f",
+          "kind": "characters",
+          "name": "Mydei",
+          "fileStem": "mydei-card",
+          "path": "Prydwen/hsr/assets/characters/mydei-a2ca53d1474f.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "092e3b8edc77",
+          "sourceHash": "092e3b8edc77",
+          "kind": "characters",
+          "name": "Natasha",
+          "fileStem": "natasha-card",
+          "path": "Prydwen/hsr/assets/characters/natasha-092e3b8edc77.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "4023dca6dfde",
+          "sourceHash": "4023dca6dfde",
+          "kind": "characters",
+          "name": "Pela",
+          "fileStem": "pela-card",
+          "path": "Prydwen/hsr/assets/characters/pela-4023dca6dfde.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "3341050db154",
+          "sourceHash": "3341050db154",
+          "kind": "characters",
+          "name": "Phainon",
+          "fileStem": "phainon-card",
+          "path": "Prydwen/hsr/assets/characters/phainon-3341050db154.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "42fec9840aca",
+          "sourceHash": "42fec9840aca",
+          "kind": "characters",
+          "name": "Qingque",
+          "fileStem": "qingque-card",
+          "path": "Prydwen/hsr/assets/characters/qingque-42fec9840aca.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "c857d370ad35",
+          "sourceHash": "c857d370ad35",
+          "kind": "characters",
+          "name": "Rappa",
+          "fileStem": "rappa-card",
+          "path": "Prydwen/hsr/assets/characters/rappa-c857d370ad35.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "0ac7ee84c320",
+          "sourceHash": "0ac7ee84c320",
+          "kind": "characters",
+          "name": "Rin Tohsaka",
+          "fileStem": "rin-tohsaka-card",
+          "path": "Prydwen/hsr/assets/characters/rin-tohsaka-0ac7ee84c320.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "69c7301903f4",
+          "sourceHash": "69c7301903f4",
+          "kind": "characters",
+          "name": "Robin",
+          "fileStem": "robin-card",
+          "path": "Prydwen/hsr/assets/characters/robin-69c7301903f4.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "8506b75184e5",
+          "sourceHash": "8506b75184e5",
+          "kind": "characters",
+          "name": "Ruan Mei",
+          "fileStem": "ruan-mei-card",
+          "path": "Prydwen/hsr/assets/characters/ruan-mei-8506b75184e5.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "dae0995059e4",
+          "sourceHash": "dae0995059e4",
+          "kind": "characters",
+          "name": "Saber",
+          "fileStem": "saber-card",
+          "path": "Prydwen/hsr/assets/characters/saber-dae0995059e4.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "ed86ec39afab",
+          "sourceHash": "ed86ec39afab",
+          "kind": "characters",
+          "name": "Sampo",
+          "fileStem": "sampo-card",
+          "path": "Prydwen/hsr/assets/characters/sampo-ed86ec39afab.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "d60eff70f81c",
+          "sourceHash": "d60eff70f81c",
+          "kind": "characters",
+          "name": "Seele",
+          "fileStem": "seele-card",
+          "path": "Prydwen/hsr/assets/characters/seele-d60eff70f81c.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "3c247d3771b8",
+          "sourceHash": "3c247d3771b8",
+          "kind": "characters",
+          "name": "Serval",
+          "fileStem": "serval-card",
+          "path": "Prydwen/hsr/assets/characters/serval-3c247d3771b8.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "a86ff142fa92",
+          "sourceHash": "a86ff142fa92",
+          "kind": "characters",
+          "name": "Silver Wolf",
+          "fileStem": "silver-wolf-card",
+          "path": "Prydwen/hsr/assets/characters/silver-wolf-a86ff142fa92.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "525c30d127a5",
+          "sourceHash": "525c30d127a5",
+          "kind": "characters",
+          "name": "Silver Wolf • Lv. 999",
+          "fileStem": "silver-wolf-lv-999-card",
+          "path": "Prydwen/hsr/assets/characters/silver-wolf-lv-999-525c30d127a5.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "c948ac5a51ee",
+          "sourceHash": "c948ac5a51ee",
+          "kind": "characters",
+          "name": "Sparkle",
+          "fileStem": "sparkle-card",
+          "path": "Prydwen/hsr/assets/characters/sparkle-c948ac5a51ee.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "67b870bc5ac4",
+          "sourceHash": "67b870bc5ac4",
+          "kind": "characters",
+          "name": "Sparxie",
+          "fileStem": "sparxie-card",
+          "path": "Prydwen/hsr/assets/characters/sparxie-67b870bc5ac4.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "6aab96cad79c",
+          "sourceHash": "6aab96cad79c",
+          "kind": "characters",
+          "name": "Sunday",
+          "fileStem": "sunday-card",
+          "path": "Prydwen/hsr/assets/characters/sunday-6aab96cad79c.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "257b48f16066",
+          "sourceHash": "257b48f16066",
+          "kind": "characters",
+          "name": "Sushang",
+          "fileStem": "sushang-card",
+          "path": "Prydwen/hsr/assets/characters/sushang-257b48f16066.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "de1d9d08efeb",
+          "sourceHash": "de1d9d08efeb",
+          "kind": "characters",
+          "name": "The Dahlia",
+          "fileStem": "the-dahlia-card",
+          "path": "Prydwen/hsr/assets/characters/the-dahlia-de1d9d08efeb.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "f728fd35660c",
+          "sourceHash": "f728fd35660c",
+          "kind": "characters",
+          "name": "The Herta",
+          "fileStem": "the-herta-card",
+          "path": "Prydwen/hsr/assets/characters/the-herta-f728fd35660c.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "1a50dd52f9a7",
+          "sourceHash": "1a50dd52f9a7",
+          "kind": "characters",
+          "name": "Tingyun",
+          "fileStem": "tingyun-card",
+          "path": "Prydwen/hsr/assets/characters/tingyun-1a50dd52f9a7.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "3f875158793e",
+          "sourceHash": "3f875158793e",
+          "kind": "characters",
+          "name": "Tingyun • Fugue",
+          "fileStem": "tingyun-fugue-card",
+          "path": "Prydwen/hsr/assets/characters/tingyun-fugue-3f875158793e.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "e48ef824c5e0",
+          "sourceHash": "e48ef824c5e0",
+          "kind": "characters",
+          "name": "Topaz & Numby",
+          "fileStem": "topaz-card",
+          "path": "Prydwen/hsr/assets/characters/topaz-numby-e48ef824c5e0.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "533411d696bf",
+          "sourceHash": "533411d696bf",
+          "kind": "characters",
+          "name": "Trailblazer • Destruction",
+          "fileStem": "trailblazer-destruction-card",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-destruction-533411d696bf.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "b7e8d644ade6",
+          "sourceHash": "b7e8d644ade6",
+          "kind": "characters",
+          "name": "Trailblazer • Elation",
+          "fileStem": "trailblazer-elation-card",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-elation-b7e8d644ade6.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "3804679c33dd",
+          "sourceHash": "3804679c33dd",
+          "kind": "characters",
+          "name": "Trailblazer • Harmony",
+          "fileStem": "trailblazer-harmony-card",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-harmony-3804679c33dd.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "81565a7917de",
+          "sourceHash": "81565a7917de",
+          "kind": "characters",
+          "name": "Trailblazer • Preservation",
+          "fileStem": "trailblazer-preservation-card",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-preservation-81565a7917de.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "eb61b9ef8eaa",
+          "sourceHash": "eb61b9ef8eaa",
+          "kind": "characters",
+          "name": "Trailblazer • Remembrance",
+          "fileStem": "trailblazer-remembrance-card",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-eb61b9ef8eaa.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "fc0b40ff638a",
+          "sourceHash": "fc0b40ff638a",
+          "kind": "characters",
+          "name": "Tribbie",
+          "fileStem": "tribbie-card",
+          "path": "Prydwen/hsr/assets/characters/tribbie-fc0b40ff638a.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "6c0cefc442eb",
+          "sourceHash": "6c0cefc442eb",
+          "kind": "characters",
+          "name": "Welt",
+          "fileStem": "welt-card",
+          "path": "Prydwen/hsr/assets/characters/welt-6c0cefc442eb.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "89798f7f7acd",
+          "sourceHash": "89798f7f7acd",
+          "kind": "characters",
+          "name": "Xueyi",
+          "fileStem": "xueyi-card",
+          "path": "Prydwen/hsr/assets/characters/xueyi-89798f7f7acd.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "2cb713068815",
+          "sourceHash": "2cb713068815",
+          "kind": "characters",
+          "name": "Yanqing",
+          "fileStem": "yanqing-card",
+          "path": "Prydwen/hsr/assets/characters/yanqing-2cb713068815.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "84b9f69c7269",
+          "sourceHash": "84b9f69c7269",
+          "kind": "characters",
+          "name": "Yao Guang",
+          "fileStem": "yao-guang-card",
+          "path": "Prydwen/hsr/assets/characters/yao-guang-84b9f69c7269.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "ec992fb513db",
+          "sourceHash": "ec992fb513db",
+          "kind": "characters",
+          "name": "Yukong",
+          "fileStem": "yukong-card",
+          "path": "Prydwen/hsr/assets/characters/yukong-ec992fb513db.webp",
+          "width": 280,
+          "height": 400
+        },
+        {
+          "id": "0ec74736d83e",
+          "sourceHash": "0ec74736d83e",
+          "kind": "characters",
+          "name": "Yunli",
+          "fileStem": "yunli-card",
+          "path": "Prydwen/hsr/assets/characters/yunli-0ec74736d83e.webp",
+          "width": 280,
+          "height": 400
+        }
+      ]
+    }
+  ],
+  "recommendations": {},
+  "tables": [],
+  "text": "Honkai Star Rail Characters - Builds, Relics & Teams\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai Star Rail\n /\n Characters List\n\n Honkai Star Rail Characters & Build Guides\n Browse all Honkai Star Rail characters with build guides, Relics, Light Cones, teams, Eidolons, elements, Paths, and Trace priority.\n Last updated: 15/June/2026\n\n All Honkai Star Rail Characters\n Showing 90 Characters\n ×\n 4 ★ 5 ★\n\n Reset\n\n Acheron\n\n Aglaea\n\n Anaxa\n\n Archer\n\n Argenti\n\n Arlan\n\n Ashveil\n\n Asta\n\n Aventurine\n\n Bailu\n\n Black Swan\n\n Blade\n\n Boothill\n\n Bronya\n\n Castorice\n\n Cerydra\n\n Cipher\n\n Clara\n\n Cyrene\n\n Dan Heng\n\n Dan Heng • Imbibitor Lunae\n\n Dan Heng • Permansor Terrae\n\n Dr. Ratio\n\n Evanescia\n\n Feixiao\n\n Firefly\n\n Fu Xuan\n\n Gallagher\n\n Gepard\n\n Gilgamesh 4.4\n\n Guinaifen\n\n Hanya\n\n Herta\n\n Himeko\n\n Himeko Nova 4.4\n\n Hook\n\n Huohuo\n\n Hyacine\n\n Hysilens\n\n Jade\n\n Jiaoqiu\n\n Jing Yuan\n\n Jingliu\n\n Kafka\n\n Lingsha\n\n Luka\n\n Luocha\n\n Lynx\n\n March 7th\n\n March 7th • Evernight\n\n March 7th • The Hunt\n\n Misha\n\n Mortenax Blade New\n\n Moze\n\n Mydei\n\n Natasha\n\n Pela\n\n Phainon\n\n Qingque\n\n Rappa\n\n Rin Tohsaka 4.4\n\n Robin\n\n Ruan Mei\n\n Saber\n\n Sampo\n\n Seele\n\n Serval\n\n Silver Wolf\n\n Silver Wolf • Lv. 999\n\n Sparkle\n\n Sparxie\n\n Sunday\n\n Sushang\n\n The Dahlia\n\n The Herta\n\n Tingyun\n\n Tingyun • Fugue\n\n Topaz & Numby\n\n Trailblazer • Destruction\n\n Trailblazer • Elation\n\n Trailblazer • Harmony\n\n Trailblazer • Preservation\n\n Trailblazer • Remembrance\n\n Tribbie\n\n Welt\n\n Xueyi\n\n Yanqing\n\n Yao Guang\n\n Yukong\n\n Yunli",
+  "entries": [
+    {
+      "id": "acheron",
+      "slug": "acheron",
+      "name": "Acheron",
+      "sourcePath": "/star-rail/characters/acheron",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "aglaea",
+      "slug": "aglaea",
+      "name": "Aglaea",
+      "sourcePath": "/star-rail/characters/aglaea",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "anaxa",
+      "slug": "anaxa",
+      "name": "Anaxa",
+      "sourcePath": "/star-rail/characters/anaxa",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "archer",
+      "slug": "archer",
+      "name": "Archer",
+      "sourcePath": "/star-rail/characters/archer",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "argenti",
+      "slug": "argenti",
+      "name": "Argenti",
+      "sourcePath": "/star-rail/characters/argenti",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "arlan",
+      "slug": "arlan",
+      "name": "Arlan",
+      "sourcePath": "/star-rail/characters/arlan",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "ashveil",
+      "slug": "ashveil",
+      "name": "Ashveil",
+      "sourcePath": "/star-rail/characters/ashveil",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "asta",
+      "slug": "asta",
+      "name": "Asta",
+      "sourcePath": "/star-rail/characters/asta",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "aventurine",
+      "slug": "aventurine",
+      "name": "Aventurine",
+      "sourcePath": "/star-rail/characters/aventurine",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "bailu",
+      "slug": "bailu",
+      "name": "Bailu",
+      "sourcePath": "/star-rail/characters/bailu",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "black-swan",
+      "slug": "black-swan",
+      "name": "Black Swan",
+      "sourcePath": "/star-rail/characters/black-swan",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "blade",
+      "slug": "blade",
+      "name": "Blade",
+      "sourcePath": "/star-rail/characters/blade",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "boothill",
+      "slug": "boothill",
+      "name": "Boothill",
+      "sourcePath": "/star-rail/characters/boothill",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "bronya",
+      "slug": "bronya",
+      "name": "Bronya",
+      "sourcePath": "/star-rail/characters/bronya",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "castorice",
+      "slug": "castorice",
+      "name": "Castorice",
+      "sourcePath": "/star-rail/characters/castorice",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "cerydra",
+      "slug": "cerydra",
+      "name": "Cerydra",
+      "sourcePath": "/star-rail/characters/cerydra",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "cipher",
+      "slug": "cipher",
+      "name": "Cipher",
+      "sourcePath": "/star-rail/characters/cipher",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "clara",
+      "slug": "clara",
+      "name": "Clara",
+      "sourcePath": "/star-rail/characters/clara",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "cyrene",
+      "slug": "cyrene",
+      "name": "Cyrene",
+      "sourcePath": "/star-rail/characters/cyrene",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "dan-heng",
+      "slug": "dan-heng",
+      "name": "Dan Heng",
+      "sourcePath": "/star-rail/characters/dan-heng",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "imbibitor-lunae",
+      "slug": "imbibitor-lunae",
+      "name": "Dan Heng • Imbibitor Lunae",
+      "sourcePath": "/star-rail/characters/imbibitor-lunae",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "dan-heng-permansor-terrae",
+      "slug": "dan-heng-permansor-terrae",
+      "name": "Dan Heng • Permansor Terrae",
+      "sourcePath": "/star-rail/characters/dan-heng-permansor-terrae",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "dr-ratio",
+      "slug": "dr-ratio",
+      "name": "Dr. Ratio",
+      "sourcePath": "/star-rail/characters/dr-ratio",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "evanescia",
+      "slug": "evanescia",
+      "name": "Evanescia",
+      "sourcePath": "/star-rail/characters/evanescia",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "feixiao",
+      "slug": "feixiao",
+      "name": "Feixiao",
+      "sourcePath": "/star-rail/characters/feixiao",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "firefly",
+      "slug": "firefly",
+      "name": "Firefly",
+      "sourcePath": "/star-rail/characters/firefly",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "fu-xuan",
+      "slug": "fu-xuan",
+      "name": "Fu Xuan",
+      "sourcePath": "/star-rail/characters/fu-xuan",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "gallagher",
+      "slug": "gallagher",
+      "name": "Gallagher",
+      "sourcePath": "/star-rail/characters/gallagher",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "gepard",
+      "slug": "gepard",
+      "name": "Gepard",
+      "sourcePath": "/star-rail/characters/gepard",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "gilgamesh",
+      "slug": "gilgamesh",
+      "name": "Gilgamesh 4.4",
+      "sourcePath": "/star-rail/characters/gilgamesh",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "4.4"
+      ]
+    },
+    {
+      "id": "guinaifen",
+      "slug": "guinaifen",
+      "name": "Guinaifen",
+      "sourcePath": "/star-rail/characters/guinaifen",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "hanya",
+      "slug": "hanya",
+      "name": "Hanya",
+      "sourcePath": "/star-rail/characters/hanya",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "herta",
+      "slug": "herta",
+      "name": "Herta",
+      "sourcePath": "/star-rail/characters/herta",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "himeko",
+      "slug": "himeko",
+      "name": "Himeko",
+      "sourcePath": "/star-rail/characters/himeko",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "himeko-nova",
+      "slug": "himeko-nova",
+      "name": "Himeko Nova 4.4",
+      "sourcePath": "/star-rail/characters/himeko-nova",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "4.4"
+      ]
+    },
+    {
+      "id": "hook",
+      "slug": "hook",
+      "name": "Hook",
+      "sourcePath": "/star-rail/characters/hook",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "huohuo",
+      "slug": "huohuo",
+      "name": "Huohuo",
+      "sourcePath": "/star-rail/characters/huohuo",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "hyacine",
+      "slug": "hyacine",
+      "name": "Hyacine",
+      "sourcePath": "/star-rail/characters/hyacine",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "hysilens",
+      "slug": "hysilens",
+      "name": "Hysilens",
+      "sourcePath": "/star-rail/characters/hysilens",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "jade",
+      "slug": "jade",
+      "name": "Jade",
+      "sourcePath": "/star-rail/characters/jade",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "jiaoqiu",
+      "slug": "jiaoqiu",
+      "name": "Jiaoqiu",
+      "sourcePath": "/star-rail/characters/jiaoqiu",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "jing-yuan",
+      "slug": "jing-yuan",
+      "name": "Jing Yuan",
+      "sourcePath": "/star-rail/characters/jing-yuan",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "jingliu",
+      "slug": "jingliu",
+      "name": "Jingliu",
+      "sourcePath": "/star-rail/characters/jingliu",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "kafka",
+      "slug": "kafka",
+      "name": "Kafka",
+      "sourcePath": "/star-rail/characters/kafka",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "lingsha",
+      "slug": "lingsha",
+      "name": "Lingsha",
+      "sourcePath": "/star-rail/characters/lingsha",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "luka",
+      "slug": "luka",
+      "name": "Luka",
+      "sourcePath": "/star-rail/characters/luka",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "luocha",
+      "slug": "luocha",
+      "name": "Luocha",
+      "sourcePath": "/star-rail/characters/luocha",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "lynx",
+      "slug": "lynx",
+      "name": "Lynx",
+      "sourcePath": "/star-rail/characters/lynx",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "march-7th",
+      "slug": "march-7th",
+      "name": "March 7th",
+      "sourcePath": "/star-rail/characters/march-7th",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "march-7th-evernight",
+      "slug": "march-7th-evernight",
+      "name": "March 7th • Evernight",
+      "sourcePath": "/star-rail/characters/march-7th-evernight",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "march-7th-swordmaster",
+      "slug": "march-7th-swordmaster",
+      "name": "March 7th • The Hunt",
+      "sourcePath": "/star-rail/characters/march-7th-swordmaster",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "misha",
+      "slug": "misha",
+      "name": "Misha",
+      "sourcePath": "/star-rail/characters/misha",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "blade-mortenax",
+      "slug": "blade-mortenax",
+      "name": "Mortenax Blade New",
+      "sourcePath": "/star-rail/characters/blade-mortenax",
+      "contentStatus": "live",
+      "statusLabels": [
+        "New"
+      ]
+    },
+    {
+      "id": "moze",
+      "slug": "moze",
+      "name": "Moze",
+      "sourcePath": "/star-rail/characters/moze",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "mydei",
+      "slug": "mydei",
+      "name": "Mydei",
+      "sourcePath": "/star-rail/characters/mydei",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "natasha",
+      "slug": "natasha",
+      "name": "Natasha",
+      "sourcePath": "/star-rail/characters/natasha",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "pela",
+      "slug": "pela",
+      "name": "Pela",
+      "sourcePath": "/star-rail/characters/pela",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "phainon",
+      "slug": "phainon",
+      "name": "Phainon",
+      "sourcePath": "/star-rail/characters/phainon",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "qingque",
+      "slug": "qingque",
+      "name": "Qingque",
+      "sourcePath": "/star-rail/characters/qingque",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "rappa",
+      "slug": "rappa",
+      "name": "Rappa",
+      "sourcePath": "/star-rail/characters/rappa",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "rin-tohsaka",
+      "slug": "rin-tohsaka",
+      "name": "Rin Tohsaka 4.4",
+      "sourcePath": "/star-rail/characters/rin-tohsaka",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "4.4"
+      ]
+    },
+    {
+      "id": "robin",
+      "slug": "robin",
+      "name": "Robin",
+      "sourcePath": "/star-rail/characters/robin",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "ruan-mei",
+      "slug": "ruan-mei",
+      "name": "Ruan Mei",
+      "sourcePath": "/star-rail/characters/ruan-mei",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "saber",
+      "slug": "saber",
+      "name": "Saber",
+      "sourcePath": "/star-rail/characters/saber",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "sampo",
+      "slug": "sampo",
+      "name": "Sampo",
+      "sourcePath": "/star-rail/characters/sampo",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "seele",
+      "slug": "seele",
+      "name": "Seele",
+      "sourcePath": "/star-rail/characters/seele",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "serval",
+      "slug": "serval",
+      "name": "Serval",
+      "sourcePath": "/star-rail/characters/serval",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "silver-wolf",
+      "slug": "silver-wolf",
+      "name": "Silver Wolf",
+      "sourcePath": "/star-rail/characters/silver-wolf",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "silver-wolf-lv-999",
+      "slug": "silver-wolf-lv-999",
+      "name": "Silver Wolf • Lv. 999",
+      "sourcePath": "/star-rail/characters/silver-wolf-lv-999",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "sparkle",
+      "slug": "sparkle",
+      "name": "Sparkle",
+      "sourcePath": "/star-rail/characters/sparkle",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "sparxie",
+      "slug": "sparxie",
+      "name": "Sparxie",
+      "sourcePath": "/star-rail/characters/sparxie",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "sunday",
+      "slug": "sunday",
+      "name": "Sunday",
+      "sourcePath": "/star-rail/characters/sunday",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "sushang",
+      "slug": "sushang",
+      "name": "Sushang",
+      "sourcePath": "/star-rail/characters/sushang",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "the-dahlia",
+      "slug": "the-dahlia",
+      "name": "The Dahlia",
+      "sourcePath": "/star-rail/characters/the-dahlia",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "the-herta",
+      "slug": "the-herta",
+      "name": "The Herta",
+      "sourcePath": "/star-rail/characters/the-herta",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "tingyun",
+      "slug": "tingyun",
+      "name": "Tingyun",
+      "sourcePath": "/star-rail/characters/tingyun",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "tingyun-fugue",
+      "slug": "tingyun-fugue",
+      "name": "Tingyun • Fugue",
+      "sourcePath": "/star-rail/characters/tingyun-fugue",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "topaz",
+      "slug": "topaz",
+      "name": "Topaz & Numby",
+      "sourcePath": "/star-rail/characters/topaz",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "trailblazer-destruction",
+      "slug": "trailblazer-destruction",
+      "name": "Trailblazer • Destruction",
+      "sourcePath": "/star-rail/characters/trailblazer-destruction",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "trailblazer-elation",
+      "slug": "trailblazer-elation",
+      "name": "Trailblazer • Elation",
+      "sourcePath": "/star-rail/characters/trailblazer-elation",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "trailblazer-harmony",
+      "slug": "trailblazer-harmony",
+      "name": "Trailblazer • Harmony",
+      "sourcePath": "/star-rail/characters/trailblazer-harmony",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "trailblazer-preservation",
+      "slug": "trailblazer-preservation",
+      "name": "Trailblazer • Preservation",
+      "sourcePath": "/star-rail/characters/trailblazer-preservation",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "trailblazer-remembrance",
+      "slug": "trailblazer-remembrance",
+      "name": "Trailblazer • Remembrance",
+      "sourcePath": "/star-rail/characters/trailblazer-remembrance",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "tribbie",
+      "slug": "tribbie",
+      "name": "Tribbie",
+      "sourcePath": "/star-rail/characters/tribbie",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "welt",
+      "slug": "welt",
+      "name": "Welt",
+      "sourcePath": "/star-rail/characters/welt",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "xueyi",
+      "slug": "xueyi",
+      "name": "Xueyi",
+      "sourcePath": "/star-rail/characters/xueyi",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "yanqing",
+      "slug": "yanqing",
+      "name": "Yanqing",
+      "sourcePath": "/star-rail/characters/yanqing",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "yao-guang",
+      "slug": "yao-guang",
+      "name": "Yao Guang",
+      "sourcePath": "/star-rail/characters/yao-guang",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "yukong",
+      "slug": "yukong",
+      "name": "Yukong",
+      "sourcePath": "/star-rail/characters/yukong",
+      "contentStatus": "live",
+      "statusLabels": []
+    },
+    {
+      "id": "yunli",
+      "slug": "yunli",
+      "name": "Yunli",
+      "sourcePath": "/star-rail/characters/yunli",
+      "contentStatus": "live",
+      "statusLabels": []
+    }
+  ],
+  "detailPagesScraped": 90,
+  "detailPagesTotal": 90,
+  "staleDetailPagesRemoved": 0
+}

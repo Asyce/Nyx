@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T18:29:04.189Z",
+  "generatedAt": "2026-06-24T02:52:29.337Z",
   "note": "Generic shops, crafting, exchanges, and event rewards are intentionally filtered. Rows here need scraper/wiki-specific source data.",
   "count": 188,
   "missing": [
@@ -712,7 +712,7 @@
     },
     {
       "game": "hsr",
-      "context": "Evanescia ascension",
+      "context": "Yao Guang ascension",
       "id": "116002",
       "name": "Dreamweave Steel",
       "kind": "mob"
@@ -922,7 +922,7 @@
     },
     {
       "game": "hsr",
-      "context": "Evanescia ascension",
+      "context": "Yao Guang ascension",
       "id": "110431",
       "name": "Invasive Clot",
       "kind": "boss"
@@ -985,7 +985,7 @@
     },
     {
       "game": "hsr",
-      "context": "Evanescia ascension",
+      "context": "Yao Guang ascension",
       "id": "116003",
       "name": "Lucid Awl",
       "kind": "mob"
@@ -1237,21 +1237,21 @@
     },
     {
       "game": "hsr",
-      "context": "Evanescia talents",
+      "context": "Yao Guang talents",
       "id": "110263",
       "name": "The Fluffy Collector's Edition",
       "kind": "book"
     },
     {
       "game": "hsr",
-      "context": "Evanescia talents",
+      "context": "Yao Guang talents",
       "id": "110261",
       "name": "The Fluffy Hand-drawn Storyboards",
       "kind": "book"
     },
     {
       "game": "hsr",
-      "context": "Evanescia talents",
+      "context": "Yao Guang talents",
       "id": "110262",
       "name": "The Fluffy Serialization Memorial Issue",
       "kind": "book"
@@ -1272,7 +1272,7 @@
     },
     {
       "game": "hsr",
-      "context": "Evanescia talents",
+      "context": "Yao Guang talents",
       "id": "241",
       "name": "Tracks of Destiny",
       "kind": "mob"
@@ -1286,7 +1286,7 @@
     },
     {
       "game": "hsr",
-      "context": "Evanescia talents",
+      "context": "Yao Guang talents",
       "id": "110508",
       "name": "Vanquished Flow's Reticence",
       "kind": "weekly"
@@ -1300,7 +1300,7 @@
     },
     {
       "game": "hsr",
-      "context": "Evanescia ascension",
+      "context": "Yao Guang ascension",
       "id": "116001",
       "name": "Whimsy Wax",
       "kind": "mob"

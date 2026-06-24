@@ -1,0 +1,1598 @@
+{
+  "id": "characters:serval",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "serval",
+  "name": "Serval",
+  "title": "Serval Best Build Guide",
+  "sourcePath": "/star-rail/characters/serval",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "31/May/2026",
+  "meta": {
+    "title": "Serval Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 4,
+    "element": "Lightning",
+    "path": "Erudition"
+  },
+  "assets": [
+    {
+      "id": "3c247d3771b8",
+      "sourceHash": "3c247d3771b8",
+      "kind": "characters",
+      "name": "Serval",
+      "fileStem": "serval-card",
+      "path": "Prydwen/hsr/assets/characters/serval-3c247d3771b8.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "fd6c20a21941",
+      "sourceHash": "fd6c20a21941",
+      "kind": "icons",
+      "name": "Effect HIT Rate",
+      "fileStem": "stat-effecthit",
+      "path": "Prydwen/hsr/assets/icons/effect-hit-rate-fd6c20a21941.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "af5b8acc8f63",
+      "sourceHash": "af5b8acc8f63",
+      "kind": "icons",
+      "name": "CRIT Rate",
+      "fileStem": "stat-critrate",
+      "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "9db79c7ddbf7",
+      "sourceHash": "9db79c7ddbf7",
+      "kind": "icons",
+      "name": "Effect RES",
+      "fileStem": "stat-effectres",
+      "path": "Prydwen/hsr/assets/icons/effect-res-9db79c7ddbf7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "96654253a4f7",
+      "sourceHash": "96654253a4f7",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "dc6aec4a7776",
+      "sourceHash": "dc6aec4a7776",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "a6be649090ba",
+      "sourceHash": "a6be649090ba",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "087f2dec68b6",
+      "sourceHash": "087f2dec68b6",
+      "kind": "icons",
+      "name": "Speed",
+      "fileStem": "stat-speed",
+      "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "50d0e755383a",
+      "sourceHash": "50d0e755383a",
+      "kind": "items",
+      "name": "Credit",
+      "fileStem": "credit",
+      "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "5920dfdbdd98",
+      "sourceHash": "5920dfdbdd98",
+      "kind": "items",
+      "name": "Silvermane Badge",
+      "fileStem": "silvermane-badge",
+      "path": "Prydwen/hsr/assets/items/silvermane-badge-5920dfdbdd98.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "c5270ddf85ba",
+      "sourceHash": "c5270ddf85ba",
+      "kind": "items",
+      "name": "Silvermane Insignia",
+      "fileStem": "silvermane-insignia",
+      "path": "Prydwen/hsr/assets/items/silvermane-insignia-c5270ddf85ba.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "69dae171175c",
+      "sourceHash": "69dae171175c",
+      "kind": "items",
+      "name": "Lightning Crown of the Past Shadow",
+      "fileStem": "lightning-crown-of-the-past-shadow",
+      "path": "Prydwen/hsr/assets/items/lightning-crown-of-the-past-shadow-69dae171175c.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "edfa40097b84",
+      "sourceHash": "edfa40097b84",
+      "kind": "items",
+      "name": "Silvermane Medal",
+      "fileStem": "silvermane-medal",
+      "path": "Prydwen/hsr/assets/items/silvermane-medal-edfa40097b84.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "e59543413d0c",
+      "sourceHash": "e59543413d0c",
+      "kind": "characters",
+      "name": "Serval",
+      "fileStem": "serval-full",
+      "path": "Prydwen/hsr/assets/characters/serval-e59543413d0c.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "9c79bc4da5e8",
+      "sourceHash": "9c79bc4da5e8",
+      "kind": "light-cones",
+      "name": "Night on the Milky Way",
+      "fileStem": "night-on-the-milky-way",
+      "path": "Prydwen/hsr/assets/light-cones/night-on-the-milky-way-9c79bc4da5e8.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "12fd19dd3045",
+      "sourceHash": "12fd19dd3045",
+      "kind": "light-cones",
+      "name": "Eternal Calculus",
+      "fileStem": "eternal-calculus",
+      "path": "Prydwen/hsr/assets/light-cones/eternal-calculus-12fd19dd3045.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "91e57edd022e",
+      "sourceHash": "91e57edd022e",
+      "kind": "light-cones",
+      "name": "Geniuses' Repose",
+      "fileStem": "geniuses-repose",
+      "path": "Prydwen/hsr/assets/light-cones/geniuses-repose-91e57edd022e.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "efdffaadc6e8",
+      "sourceHash": "efdffaadc6e8",
+      "kind": "light-cones",
+      "name": "Before Dawn",
+      "fileStem": "before-dawn",
+      "path": "Prydwen/hsr/assets/light-cones/before-dawn-efdffaadc6e8.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "1975a2492785",
+      "sourceHash": "1975a2492785",
+      "kind": "light-cones",
+      "name": "Today Is Another Peaceful Day",
+      "fileStem": "today-is-another-peaceful-day",
+      "path": "Prydwen/hsr/assets/light-cones/today-is-another-peaceful-day-1975a2492785.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "ab251a923606",
+      "sourceHash": "ab251a923606",
+      "kind": "light-cones",
+      "name": "The Seriousness of Breakfast",
+      "fileStem": "the-seriousness-of-breakfast",
+      "path": "Prydwen/hsr/assets/light-cones/the-seriousness-of-breakfast-ab251a923606.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "865fecca3f47",
+      "sourceHash": "865fecca3f47",
+      "kind": "light-cones",
+      "name": "Passkey",
+      "fileStem": "passkey",
+      "path": "Prydwen/hsr/assets/light-cones/passkey-865fecca3f47.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "6e205de52037",
+      "sourceHash": "6e205de52037",
+      "kind": "relics",
+      "name": "Pioneer Diver of Dead Waters",
+      "fileStem": "pioneer-diver-of-dead-waters",
+      "path": "Prydwen/hsr/assets/relics/pioneer-diver-of-dead-waters-6e205de52037.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "a587afe51aae",
+      "sourceHash": "a587afe51aae",
+      "kind": "relics",
+      "name": "Band of Sizzling Thunder",
+      "fileStem": "band-of-sizzling-thunder",
+      "path": "Prydwen/hsr/assets/relics/band-of-sizzling-thunder-a587afe51aae.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "f521b7a2ee25",
+      "sourceHash": "f521b7a2ee25",
+      "kind": "relics",
+      "name": "Scholar Lost in Erudition",
+      "fileStem": "scholar-lost-in-erudition",
+      "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "deeeca721276",
+      "sourceHash": "deeeca721276",
+      "kind": "relics",
+      "name": "Musketeer of Wild Wheat",
+      "fileStem": "musketeer-of-wild-wheat",
+      "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "507bb2127c32",
+      "sourceHash": "507bb2127c32",
+      "kind": "relics",
+      "name": "Prisoner in Deep Confinement",
+      "fileStem": "prisoner-in-deep-confinement",
+      "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "2d90f2919c5d",
+      "sourceHash": "2d90f2919c5d",
+      "kind": "relics",
+      "name": "The Wind-Soaring Valorous",
+      "fileStem": "the-wind-soaring-valorous",
+      "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "36af28ceb2d3",
+      "sourceHash": "36af28ceb2d3",
+      "kind": "relics",
+      "name": "Eagle of Twilight Line",
+      "fileStem": "eagle-of-twilight-line",
+      "path": "Prydwen/hsr/assets/relics/eagle-of-twilight-line-36af28ceb2d3.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "83a4c570a0a2",
+      "sourceHash": "83a4c570a0a2",
+      "kind": "relics",
+      "name": "Firmament Frontline: Glamoth",
+      "fileStem": "firmament-frontline-glamoth",
+      "path": "Prydwen/hsr/assets/relics/firmament-frontline-glamoth-83a4c570a0a2.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "3d18a5aaec4a",
+      "sourceHash": "3d18a5aaec4a",
+      "kind": "relics",
+      "name": "Space Sealing Station",
+      "fileStem": "space-sealing-station",
+      "path": "Prydwen/hsr/assets/relics/space-sealing-station-3d18a5aaec4a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "0ad357f87585",
+      "sourceHash": "0ad357f87585",
+      "kind": "relics",
+      "name": "Rutilant Arena",
+      "fileStem": "rutilant-arena",
+      "path": "Prydwen/hsr/assets/relics/rutilant-arena-0ad357f87585.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d3afe42bdcff",
+      "sourceHash": "d3afe42bdcff",
+      "kind": "relics",
+      "name": "Inert Salsotto",
+      "fileStem": "inert-salsotto",
+      "path": "Prydwen/hsr/assets/relics/inert-salsotto-d3afe42bdcff.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "44c437b21b3a",
+      "sourceHash": "44c437b21b3a",
+      "kind": "icons",
+      "name": "CRIT DMG",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "4ef2b2a9e30c",
+      "sourceHash": "4ef2b2a9e30c",
+      "kind": "icons",
+      "name": "Lightning DMG",
+      "fileStem": "stat-lightningdmg",
+      "path": "Prydwen/hsr/assets/icons/lightning-dmg-4ef2b2a9e30c.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "fecc96b9e5e6",
+      "sourceHash": "fecc96b9e5e6",
+      "kind": "characters",
+      "name": "The Herta",
+      "fileStem": "the-herta-icon",
+      "path": "Prydwen/hsr/assets/characters/the-herta-fecc96b9e5e6.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "3d568cb7f29d",
+      "sourceHash": "3d568cb7f29d",
+      "kind": "characters",
+      "name": "Sunday",
+      "fileStem": "sunday-icon",
+      "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "da99d2d9a505",
+      "sourceHash": "da99d2d9a505",
+      "kind": "characters",
+      "name": "Sparkle",
+      "fileStem": "sparkle-icon",
+      "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "239e290d80b6",
+      "sourceHash": "239e290d80b6",
+      "kind": "characters",
+      "name": "Bronya",
+      "fileStem": "bronya-icon",
+      "path": "Prydwen/hsr/assets/characters/bronya-239e290d80b6.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "de41e1704266",
+      "sourceHash": "de41e1704266",
+      "kind": "characters",
+      "name": "Trailblazer • Harmony",
+      "fileStem": "trailblazer-harmony-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-harmony-de41e1704266.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "7d36eb39792a",
+      "sourceHash": "7d36eb39792a",
+      "kind": "icons",
+      "name": "Ice",
+      "fileStem": "ele-ice",
+      "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "dfbf98df5368",
+      "sourceHash": "dfbf98df5368",
+      "kind": "characters",
+      "name": "Serval",
+      "fileStem": "serval-icon",
+      "path": "Prydwen/hsr/assets/characters/serval-dfbf98df5368.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d197456869a0",
+      "sourceHash": "d197456869a0",
+      "kind": "icons",
+      "name": "Lightning",
+      "fileStem": "ele-lightning",
+      "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "2cde7699adbf",
+      "sourceHash": "2cde7699adbf",
+      "kind": "characters",
+      "name": "Tribbie",
+      "fileStem": "tribbie-icon",
+      "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "565914d1a436",
+      "sourceHash": "565914d1a436",
+      "kind": "icons",
+      "name": "Quantum",
+      "fileStem": "ele-quantum",
+      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "ab0724067e0c",
+      "sourceHash": "ab0724067e0c",
+      "kind": "characters",
+      "name": "Lingsha",
+      "fileStem": "lingsha-icon",
+      "path": "Prydwen/hsr/assets/characters/lingsha-ab0724067e0c.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "92feb26d8f0e",
+      "sourceHash": "92feb26d8f0e",
+      "kind": "icons",
+      "name": "Fire",
+      "fileStem": "ele-fire",
+      "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "714348f14d48",
+      "sourceHash": "714348f14d48",
+      "kind": "characters",
+      "name": "Dan Heng • Permansor Terrae",
+      "fileStem": "dan-heng-permansor-terrae-icon",
+      "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e0db16ed6c66",
+      "sourceHash": "e0db16ed6c66",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "ele-physical",
+      "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+      "width": 22,
+      "height": 22
+    }
+  ],
+  "sections": [
+    {
+      "id": "serval-best-build-guide-0",
+      "level": 1,
+      "heading": "Serval Best Build Guide",
+      "text": "Last updated: 31/May/2026",
+      "assets": [
+        {
+          "id": "3c247d3771b8",
+          "sourceHash": "3c247d3771b8",
+          "kind": "characters",
+          "name": "Serval",
+          "fileStem": "serval-card",
+          "path": "Prydwen/hsr/assets/characters/serval-3c247d3771b8.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Serval from HSR (Honkai: Star Rail). Serval is a 4 ★ character from the Lightning element who follows the Path of Erudition .\n The free and rebellious eldest daughter of the Landau family, once a close friend of Cocolia, her interests has now led her to become a mechanic. In the perpetually winter-stricken Belobog, she opened a workshop called \"Neverwinter\" that puts business on hold from time to time for rock 'n' roll performances. And should anyone ask her about the workshop's profitability...\n \"This is just a hobby, dear. I'm not short of money.\"\n\n To learn more about Serval check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Serval has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 2.6\n\n Last major build/calcs update\n Patch 4.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Serval check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic ATK\n Roaring Thunderclap\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Lightning DMG equal to #1[i]% of Serval's ATK to a single enemy.\n\n Skill\n Lightning Flash\n Blast\n\n Lv. 1\n\n Energy gain: 30\n Break: 20 + 10 adjacent\n\n Deals Lightning DMG equal to #1[i]% of Serval's ATK to a single enemy and Lightning DMG equal to #2[i]% of Serval's ATK to enemies adjacent to it, with a #3[i]% base chance for enemies hit to become Shocked for #4[i] turn(s).\nWhile Shocked, enemies take Lightning DoT equal to #5[i]% of Serval's ATK at the beginning of each turn.\n\n Ultimate\n Here Comes the Mechanical Fever\n AoE | 100 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Deals Lightning DMG equal to #1[i]% of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by #2[i] turn(s).\n\n Talent\n Galvanic Chords\n Enhance\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n After Serval attacks, deals Additional Lightning DMG equal to #1[i]% of Serval's ATK to all Shocked enemies.\n\n Technique\n Good Night, Belobog\n\n Energy gain: 0\n Break: 20\n\n Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to #4[i]% of Serval's ATK to a random enemy, with a #1[i]% base chance for all enemies to become Shocked for #3[i] turn(s).\nWhile Shocked, enemies will take Lightning DoT equal to #2[i]% of Serval's ATK at the beginning of each turn.",
+      "assets": []
+    },
+    {
+      "id": "major-traces-10",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "A2 Major trace\n Rock 'n' Roll\n\n Skill has a 20% increased base chance to Shock enemies.\n\n A4 Major trace\n String Vibration\n\n At the start of the battle, immediately regenerates 15 Energy.\n\n A6 Major trace\n Mania\n\n Upon defeating an enemy, ATK increases by 20% for 2 turn(s).",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-11",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "Effect HIT Rate\n + 18%\n\n CRIT Rate\n + 18.7%\n\n Effect RES\n + 10%",
+      "assets": [
+        {
+          "id": "fd6c20a21941",
+          "sourceHash": "fd6c20a21941",
+          "kind": "icons",
+          "name": "Effect HIT Rate",
+          "fileStem": "stat-effecthit",
+          "path": "Prydwen/hsr/assets/icons/effect-hit-rate-fd6c20a21941.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "af5b8acc8f63",
+          "sourceHash": "af5b8acc8f63",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-critrate",
+          "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "9db79c7ddbf7",
+          "sourceHash": "9db79c7ddbf7",
+          "kind": "icons",
+          "name": "Effect RES",
+          "fileStem": "stat-effectres",
+          "path": "Prydwen/hsr/assets/icons/effect-res-9db79c7ddbf7.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "eidolons-12",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "E 1\n Echo Chamber\n Eidolon 1\n\n Basic ATK deals Lightning DMG equal to 60% of the Basic ATK's DMG to a random enemy adjacent to the target of the Basic ATK.\n\n E 2\n Encore!\n Eidolon 2\n\n Every time Serval's Talent is triggered to deal Additional DMG, she regenerates 4 Energy.\n\n E 3\n Listen, the Heartbeat of the Gears\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15 . Basic ATK Lv. +1 . up to a maximum of Lv. 10 .\n\n E 4\n Make Some Noise!\n Eidolon 4\n\n Ultimate has a 100% base chance to apply Shock to any enemies not currently Shocked. This Shock has the same effects as the one applied by Skill.\n\n E 5\n Belobog’s Loudest Roar!\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n This Song Rocks to Heaven!\n Eidolon 6\n\n Serval deals 30% more DMG to Shocked enemies.",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-13",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Enable Ascension",
+      "assets": []
+    },
+    {
+      "id": "level-80-stats-14",
+      "level": 5,
+      "heading": "Level 80 stats",
+      "text": "HP\n\n 917\n\n ATK\n\n 652\n\n DEF\n\n 374\n\n Speed\n\n 104",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "level-1-80-ascension-materials-15",
+      "level": 5,
+      "heading": "Level 1 → 80 Ascension Materials",
+      "text": "Credit\n\n x 246400\n\n Silvermane Badge\n\n x 12\n\n Silvermane Insignia\n\n x 13\n\n Lightning Crown of the Past Shadow\n\n x 50\n\n Silvermane Medal\n\n x 12",
+      "assets": [
+        {
+          "id": "50d0e755383a",
+          "sourceHash": "50d0e755383a",
+          "kind": "items",
+          "name": "Credit",
+          "fileStem": "credit",
+          "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "5920dfdbdd98",
+          "sourceHash": "5920dfdbdd98",
+          "kind": "items",
+          "name": "Silvermane Badge",
+          "fileStem": "silvermane-badge",
+          "path": "Prydwen/hsr/assets/items/silvermane-badge-5920dfdbdd98.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "c5270ddf85ba",
+          "sourceHash": "c5270ddf85ba",
+          "kind": "items",
+          "name": "Silvermane Insignia",
+          "fileStem": "silvermane-insignia",
+          "path": "Prydwen/hsr/assets/items/silvermane-insignia-c5270ddf85ba.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "69dae171175c",
+          "sourceHash": "69dae171175c",
+          "kind": "items",
+          "name": "Lightning Crown of the Past Shadow",
+          "fileStem": "lightning-crown-of-the-past-shadow",
+          "path": "Prydwen/hsr/assets/items/lightning-crown-of-the-past-shadow-69dae171175c.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "edfa40097b84",
+          "sourceHash": "edfa40097b84",
+          "kind": "items",
+          "name": "Silvermane Medal",
+          "fileStem": "silvermane-medal",
+          "path": "Prydwen/hsr/assets/items/silvermane-medal-edfa40097b84.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "cv-16",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n Natalie Van Sistine\n\n JPN\n Aimi\n\n CN\n 穆雪婷\n\n KR\n 민아",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "e59543413d0c",
+          "sourceHash": "e59543413d0c",
+          "kind": "characters",
+          "name": "Serval",
+          "fileStem": "serval-full",
+          "path": "Prydwen/hsr/assets/characters/serval-e59543413d0c.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Reliable damage due to Talent and DoT,\n\n Increased single-target Toughness damage thanks to her Skill’s Blast AoE,\n\n Can keep enemies Shocked indefinitely,\n\n Spammable Ultimate due to low Energy cost.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Lows are really low,\n\n Despite having a DoT she still cares about CRIT stats for optimal performance,\n\n Ironically struggles to apply Shock to all enemies in 4-5 target scenarios,\n\n Eidolon-reliant for quality of life.",
+      "assets": []
+    },
+    {
+      "id": "review-by-sushou-21",
+      "level": 2,
+      "heading": "Review (By Sushou)",
+      "text": "Serval is a freely available 4-star Erudition unit thanks to the pre-registration milestones. She is a competent early damage dealer who remains decent throughout with sufficient investment. Serval revolves around applying Shock to enemies and dealing additional damage to all Shocked foes. Because of this, there is some ramp-up to her damage, but is generally reasonable to maintain after passing this initial stage. Despite having a DoT effect, she is more akin to a traditional damage dealer, preferring CRIT stats over raw ATK.\n The much-loved Belobog mechanic and hard rocker, Serval is an accessible Lightning damage dealer that will see a lot of use especially early on. It is highly advisable to invest in this character at least a little bit so that you’re not left struggling against the many Lightning-weak foes the game throws your way in Belobog.\n Serval’s main goal is to apply Shock to as many enemies as she can and keep the debuff going as long as possible, and this is because of her Talent’s effects. When Serval attacks, she will deal an additional instance of Lightning DMG to all Shocked enemies, up to 72% ATK.\n Interestingly, this will proc even on enemies that you do not directly hit with your attack, so for example if you Basic ATK one enemy, but all five enemies are Shocked, this additional Lightning DMG will trigger on all five foes. Do pay attention to the term ‘additional’ because it is essentially adding a separate hit to Serval’s attacks. This extra hit is also eligible for CRIT hits.\n Serval’s Skill is a Blast AoE dealing up to 140% ATK to the main target and 60% to adjacent enemies. This Skill has an 80% base chance to Shock enemies hit for 2 turns, with the Shock dealing up to 104% ATK at the start of the enemies’ turn. This is the only way for Serval to inflict Shock on enemies without Eidolons. Serval’s Ultimate deals up to 180% ATK to all enemies on the field, and any enemies that already have the Shock debuff on them will have the debuff extended by 2 turns. This extension applies to all instances of Shock, not just her own personal one.\n Considering a significant portion of Serval’s damage comes from her Talent, having an 80% base chance to apply Shock with her Skill is somewhat pathetic, actually. This is so low that you’ll be missing the Shock application on the pitiful level 40 Automaton Beetles from the story, so you can imagine how frustrating it can be to try and land this Shock on endgame opponents. Additionally, because of her Skill’s targeting method, Serval can struggle to apply Shock to more than 3 enemies at a time, and because of the aforementioned low base chance to Shock in the first place, this can compound into an incredibly unfavorable repeating instance of failing to apply and extend Shock.\n However, it is also possible to get the Shock applied quickly and then extending it is relatively simple; the very first Shock application of the fight is the hardest. As long as Serval is able to get frequent Ultimates, it will be challenging to drop Shock from that point on. Especially since Serval’s Ultimate has a very low Energy cost of 100, this should be fairly achievable even with lower investment thanks to the wonders of the Passkey Light Cone or by pairing her with the likes of Tingyun or Huohuo.\n Serval’s A2 is the most important of her Bonus Ability Traces as it increases the base chance for her Skill to inflict Shock by 20%, for a new total of 100% base chance. This now matches the typical base chance for most debuffs to be applied, and reduces the required Effect Hit Rate for a guaranteed application to be about 67%. A4 grants 15 Energy at the start of battle, and A6 grants a 20% ATK boost for 2 turns after defeating an enemy.\n Serval’s design is honestly a little bit confusing. She’s an Erudition unit who plays more like an odd mix of Nihility and Destruction, but unlike some of the other Path outliers like Qingque, Serval does not manage to run away with it. Honestly the Destruction-esque targeting of her Skill is not the biggest offender, it’s her reliance on DoT whilst still being shackled to CRIT.\n The fact that her Talent has the ability to CRIT but requires enemies to be Shocked first is such a peculiar choice because it raises the floor on Serval’s necessary stats to an entirely unreasonable level because you have to choose between a guaranteed Shock application or good CRIT stats. Y ou would need god-tier level Relics to be able to get both and I’d honestly rather have that luck for other far stronger characters who can do more with that level of crazy investment like Qingque or Xueyi.\n Usually, by this point, I’d have already mentioned Eidolons but I’ve left it for last for Serval because she may be the only character I would say is heavily reliant on Eidolons to perform up to par with other characters — most characters don’t need Eidolons to be competitive, and there’s a select few characters for whom Eidolons do not bump them into ‘viability’, but for Serval the difference between E0 and E6 is incomparable.\n E2 and E4 in particular completely change the way you go about executing Serval’s gameplan; E2 grants 4 Energy each time her Talent deals damage, and E4 will allow her Ultimate to have a 100% base chance to apply the same Shock as her Skill to any enemies not yet Shocked. This immediately reduces the stat requirements to a far more reasonable level while also increasing Serval’s overall damage output, and most importantly of all, reducing the possible causes of frustration when attempting to play her.\n Personally, I would not even try to use Serval at endgame without at least E4, but if you’re prepared to suffer for your queen, you go right ahead. She’s pretty decent either way and you’re likely to have her at least somewhat invested due to her being a free character.",
+      "assets": []
+    },
+    {
+      "id": "ratings-22",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.",
+      "assets": []
+    },
+    {
+      "id": "eidolon-0-24",
+      "level": 5,
+      "heading": "Eidolon 0",
+      "text": "T5\n MoC\n\n T4\n PF\n\n T5\n AS",
+      "assets": []
+    },
+    {
+      "id": "eidolon-6-25",
+      "level": 5,
+      "heading": "Eidolon 6",
+      "text": "T4\n MoC\n\n T3\n PF\n\n T4\n AS\n\n Build and teams\n\n Serval Relic and Light Cone calculations are based on fighting against 3 targets.",
+      "assets": []
+    },
+    {
+      "id": "best-light-cones-27",
+      "level": 2,
+      "heading": "Best Light Cones",
+      "text": "109.40%\n\n Night on the Milky Way (S 1 )\n\n For Pure Fiction only.\n\n 106.85%\n\n Eternal Calculus (S 5 )\n\n For Pure Fiction only.\n\n 106.16%\n\n Geniuses' Repose (S 5 )\n\n 102.47%\n\n Before Dawn (S 1 )\n\n 101.06%\n\n Today Is Another Peaceful Day (S 5 )\n\n 100%\n\n The Seriousness of Breakfast (S 5 )",
+      "assets": [
+        {
+          "id": "9c79bc4da5e8",
+          "sourceHash": "9c79bc4da5e8",
+          "kind": "light-cones",
+          "name": "Night on the Milky Way",
+          "fileStem": "night-on-the-milky-way",
+          "path": "Prydwen/hsr/assets/light-cones/night-on-the-milky-way-9c79bc4da5e8.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "12fd19dd3045",
+          "sourceHash": "12fd19dd3045",
+          "kind": "light-cones",
+          "name": "Eternal Calculus",
+          "fileStem": "eternal-calculus",
+          "path": "Prydwen/hsr/assets/light-cones/eternal-calculus-12fd19dd3045.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "91e57edd022e",
+          "sourceHash": "91e57edd022e",
+          "kind": "light-cones",
+          "name": "Geniuses' Repose",
+          "fileStem": "geniuses-repose",
+          "path": "Prydwen/hsr/assets/light-cones/geniuses-repose-91e57edd022e.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "efdffaadc6e8",
+          "sourceHash": "efdffaadc6e8",
+          "kind": "light-cones",
+          "name": "Before Dawn",
+          "fileStem": "before-dawn",
+          "path": "Prydwen/hsr/assets/light-cones/before-dawn-efdffaadc6e8.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "1975a2492785",
+          "sourceHash": "1975a2492785",
+          "kind": "light-cones",
+          "name": "Today Is Another Peaceful Day",
+          "fileStem": "today-is-another-peaceful-day",
+          "path": "Prydwen/hsr/assets/light-cones/today-is-another-peaceful-day-1975a2492785.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "ab251a923606",
+          "sourceHash": "ab251a923606",
+          "kind": "light-cones",
+          "name": "The Seriousness of Breakfast",
+          "fileStem": "the-seriousness-of-breakfast",
+          "path": "Prydwen/hsr/assets/light-cones/the-seriousness-of-breakfast-ab251a923606.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "specialist-light-cones-28",
+      "level": 3,
+      "heading": "Specialist Light Cones",
+      "text": "1\n\n Passkey (S 5 )\n\n A specialized Light Cone that you use in situations where you focus on getting the Ultimate as fast as possible. Used mostly when you play Serval with The Herta where she fill the role of stack generator for her.\n Usage: 100 %\n MoC: -\n PF: 0\n AS: 0\n\n Serval Relic and Light Cone calculations are based on fighting against 3 targets.",
+      "assets": [
+        {
+          "id": "865fecca3f47",
+          "sourceHash": "865fecca3f47",
+          "kind": "light-cones",
+          "name": "Passkey",
+          "fileStem": "passkey",
+          "path": "Prydwen/hsr/assets/light-cones/passkey-865fecca3f47.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-relic-sets-30",
+      "level": 2,
+      "heading": "Best Relic Sets",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 105.21%\n\n Pioneer Diver of Dead Waters ( 4 -PC)\n\n 100% uptime | 3 Debuffs Required\n 100%\n\n Band of Sizzling Thunder ( 4 -PC)\n\n 97.90%\n\n Scholar Lost in Erudition ( 4 -PC)\n\n Usage: 100 %\n MoC: -\n PF: 0\n AS: 0\n\n 97.84%\n\n Pioneer Diver of Dead Waters ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Scholar Lost in Erudition\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n Band of Sizzling Thunder",
+      "assets": [
+        {
+          "id": "6e205de52037",
+          "sourceHash": "6e205de52037",
+          "kind": "relics",
+          "name": "Pioneer Diver of Dead Waters",
+          "fileStem": "pioneer-diver-of-dead-waters",
+          "path": "Prydwen/hsr/assets/relics/pioneer-diver-of-dead-waters-6e205de52037.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "a587afe51aae",
+          "sourceHash": "a587afe51aae",
+          "kind": "relics",
+          "name": "Band of Sizzling Thunder",
+          "fileStem": "band-of-sizzling-thunder",
+          "path": "Prydwen/hsr/assets/relics/band-of-sizzling-thunder-a587afe51aae.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "f521b7a2ee25",
+          "sourceHash": "f521b7a2ee25",
+          "kind": "relics",
+          "name": "Scholar Lost in Erudition",
+          "fileStem": "scholar-lost-in-erudition",
+          "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "deeeca721276",
+          "sourceHash": "deeeca721276",
+          "kind": "relics",
+          "name": "Musketeer of Wild Wheat",
+          "fileStem": "musketeer-of-wild-wheat",
+          "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "507bb2127c32",
+          "sourceHash": "507bb2127c32",
+          "kind": "relics",
+          "name": "Prisoner in Deep Confinement",
+          "fileStem": "prisoner-in-deep-confinement",
+          "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "2d90f2919c5d",
+          "sourceHash": "2d90f2919c5d",
+          "kind": "relics",
+          "name": "The Wind-Soaring Valorous",
+          "fileStem": "the-wind-soaring-valorous",
+          "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-specialist-relic-sets-31",
+      "level": 6,
+      "heading": "Best Specialist Relic Sets",
+      "text": "-\n\n Eagle of Twilight Line ( 4 -PC)\n\n Only used when you play Serval with The Herta where she acts as stack generator for her - it sacrifices her own damage to boost The Herta's damage output.",
+      "assets": [
+        {
+          "id": "36af28ceb2d3",
+          "sourceHash": "36af28ceb2d3",
+          "kind": "relics",
+          "name": "Eagle of Twilight Line",
+          "fileStem": "eagle-of-twilight-line",
+          "path": "Prydwen/hsr/assets/relics/eagle-of-twilight-line-36af28ceb2d3.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-planetary-sets-32",
+      "level": 6,
+      "heading": "Best Planetary Sets",
+      "text": "100%\n\n Firmament Frontline: Glamoth ( 2 -PC)\n\n Usage: 100 %\n MoC: -\n PF: 0\n AS: 0\n\n 98.75%\n\n Space Sealing Station ( 2 -PC)\n\n 96.26%\n\n Rutilant Arena ( 2 -PC)\n\n 95.69%\n\n Inert Salsotto ( 2 -PC)",
+      "assets": [
+        {
+          "id": "83a4c570a0a2",
+          "sourceHash": "83a4c570a0a2",
+          "kind": "relics",
+          "name": "Firmament Frontline: Glamoth",
+          "fileStem": "firmament-frontline-glamoth",
+          "path": "Prydwen/hsr/assets/relics/firmament-frontline-glamoth-83a4c570a0a2.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "3d18a5aaec4a",
+          "sourceHash": "3d18a5aaec4a",
+          "kind": "relics",
+          "name": "Space Sealing Station",
+          "fileStem": "space-sealing-station",
+          "path": "Prydwen/hsr/assets/relics/space-sealing-station-3d18a5aaec4a.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "0ad357f87585",
+          "sourceHash": "0ad357f87585",
+          "kind": "relics",
+          "name": "Rutilant Arena",
+          "fileStem": "rutilant-arena",
+          "path": "Prydwen/hsr/assets/relics/rutilant-arena-0ad357f87585.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "d3afe42bdcff",
+          "sourceHash": "d3afe42bdcff",
+          "kind": "relics",
+          "name": "Inert Salsotto",
+          "fileStem": "inert-salsotto",
+          "path": "Prydwen/hsr/assets/relics/inert-salsotto-d3afe42bdcff.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-stats-34",
+      "level": 2,
+      "heading": "Best Stats",
+      "text": "Body\n CRIT Rate\n >= CRIT DMG\n\n Feet\n Speed\n >= ATK%\n\n Planar Sphere\n Lightning DMG\n >= ATK%\n\n Link Rope\n ATK%\n\n Substats: SPD (breakpoint) > CRIT RATE = CRIT DMG > ATK%\n\n Serval now is built more like a generic DPS character that can also apply DoT, so focus on CRIT Rate, CRIT DMG and ATK%.",
+      "assets": [
+        {
+          "id": "af5b8acc8f63",
+          "sourceHash": "af5b8acc8f63",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-critrate",
+          "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "44c437b21b3a",
+          "sourceHash": "44c437b21b3a",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "4ef2b2a9e30c",
+          "sourceHash": "4ef2b2a9e30c",
+          "kind": "icons",
+          "name": "Lightning DMG",
+          "fileStem": "stat-lightningdmg",
+          "path": "Prydwen/hsr/assets/icons/lightning-dmg-4ef2b2a9e30c.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "recommended-endgame-stats-35",
+      "level": 2,
+      "heading": "Recommended endgame stats",
+      "text": "HP: 2800 - 3000+\n\n DEF: 800+\n\n ATK: 2200 - 2600+\n\n CRIT RATE: 65% - 75%+\n\n CRIT DMG: 130% - 150%+\n\n SPD: 134+ / 160+ (Eagle + Passkey The Herta team)",
+      "assets": []
+    },
+    {
+      "id": "traces-priority-36",
+      "level": 2,
+      "heading": "Traces priority",
+      "text": "Skills priority: Skill > Talent > Ultimate > Basic\n\n Major Traces priority: Rock 'n' Roll (A2) > Mania (A6) > String Vibration (A4)",
+      "assets": []
+    },
+    {
+      "id": "synergy-37",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "The Herta - Serval can be played standard or alternatively built as a dedicated Stack and Energy generator for The Herta by using the Passkey Light Cone and the Eagle of Twilight Line set. This build allows Serval to move quickly and spam her Ultimate but at the cost of most of her damage potential.\n Sunday Sparkle Bronya - All provide Serval with buffs and additional actions, allowing her to perform better.\n Trailblazer • Harmony - Owing to her low cost Ultimate, Serval is able to deal a significant amount of Toughness Break very quickly by chaining them. Some Light Cones can further increase the amount of Ultimates she can output which makes her very solid in Super Break teams.",
+      "assets": [
+        {
+          "id": "fecc96b9e5e6",
+          "sourceHash": "fecc96b9e5e6",
+          "kind": "characters",
+          "name": "The Herta",
+          "fileStem": "the-herta-icon",
+          "path": "Prydwen/hsr/assets/characters/the-herta-fecc96b9e5e6.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "3d568cb7f29d",
+          "sourceHash": "3d568cb7f29d",
+          "kind": "characters",
+          "name": "Sunday",
+          "fileStem": "sunday-icon",
+          "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "da99d2d9a505",
+          "sourceHash": "da99d2d9a505",
+          "kind": "characters",
+          "name": "Sparkle",
+          "fileStem": "sparkle-icon",
+          "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "239e290d80b6",
+          "sourceHash": "239e290d80b6",
+          "kind": "characters",
+          "name": "Bronya",
+          "fileStem": "bronya-icon",
+          "path": "Prydwen/hsr/assets/characters/bronya-239e290d80b6.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "de41e1704266",
+          "sourceHash": "de41e1704266",
+          "kind": "characters",
+          "name": "Trailblazer • Harmony",
+          "fileStem": "trailblazer-harmony-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-harmony-de41e1704266.webp",
+          "width": 45,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "id": "anomaly-arbitration-42",
+      "level": 6,
+      "heading": "Anomaly Arbitration",
+      "text": "Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 9\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 6",
+      "assets": [
+        {
+          "id": "fecc96b9e5e6",
+          "sourceHash": "fecc96b9e5e6",
+          "kind": "characters",
+          "name": "The Herta",
+          "fileStem": "the-herta-icon",
+          "path": "Prydwen/hsr/assets/characters/the-herta-fecc96b9e5e6.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7d36eb39792a",
+          "sourceHash": "7d36eb39792a",
+          "kind": "icons",
+          "name": "Ice",
+          "fileStem": "ele-ice",
+          "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "dfbf98df5368",
+          "sourceHash": "dfbf98df5368",
+          "kind": "characters",
+          "name": "Serval",
+          "fileStem": "serval-icon",
+          "path": "Prydwen/hsr/assets/characters/serval-dfbf98df5368.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d197456869a0",
+          "sourceHash": "d197456869a0",
+          "kind": "icons",
+          "name": "Lightning",
+          "fileStem": "ele-lightning",
+          "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "2cde7699adbf",
+          "sourceHash": "2cde7699adbf",
+          "kind": "characters",
+          "name": "Tribbie",
+          "fileStem": "tribbie-icon",
+          "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "565914d1a436",
+          "sourceHash": "565914d1a436",
+          "kind": "icons",
+          "name": "Quantum",
+          "fileStem": "ele-quantum",
+          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "ab0724067e0c",
+          "sourceHash": "ab0724067e0c",
+          "kind": "characters",
+          "name": "Lingsha",
+          "fileStem": "lingsha-icon",
+          "path": "Prydwen/hsr/assets/characters/lingsha-ab0724067e0c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "92feb26d8f0e",
+          "sourceHash": "92feb26d8f0e",
+          "kind": "icons",
+          "name": "Fire",
+          "fileStem": "ele-fire",
+          "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "714348f14d48",
+          "sourceHash": "714348f14d48",
+          "kind": "characters",
+          "name": "Dan Heng • Permansor Terrae",
+          "fileStem": "dan-heng-permansor-terrae-icon",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0db16ed6c66",
+          "sourceHash": "e0db16ed6c66",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "ele-physical",
+          "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+          "width": 22,
+          "height": 22
+        }
+      ]
+    },
+    {
+      "id": "video-guides-43",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "MoC/PF/AS Statistics",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-light-cones": {
+      "label": "Best Light Cones",
+      "sections": [
+        {
+          "heading": "Best Light Cones",
+          "text": "109.40%\n\n Night on the Milky Way (S 1 )\n\n For Pure Fiction only.\n\n 106.85%\n\n Eternal Calculus (S 5 )\n\n For Pure Fiction only.\n\n 106.16%\n\n Geniuses' Repose (S 5 )\n\n 102.47%\n\n Before Dawn (S 1 )\n\n 101.06%\n\n Today Is Another Peaceful Day (S 5 )\n\n 100%\n\n The Seriousness of Breakfast (S 5 )",
+          "assets": [
+            {
+              "id": "9c79bc4da5e8",
+              "sourceHash": "9c79bc4da5e8",
+              "kind": "light-cones",
+              "name": "Night on the Milky Way",
+              "fileStem": "night-on-the-milky-way",
+              "path": "Prydwen/hsr/assets/light-cones/night-on-the-milky-way-9c79bc4da5e8.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "12fd19dd3045",
+              "sourceHash": "12fd19dd3045",
+              "kind": "light-cones",
+              "name": "Eternal Calculus",
+              "fileStem": "eternal-calculus",
+              "path": "Prydwen/hsr/assets/light-cones/eternal-calculus-12fd19dd3045.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "91e57edd022e",
+              "sourceHash": "91e57edd022e",
+              "kind": "light-cones",
+              "name": "Geniuses' Repose",
+              "fileStem": "geniuses-repose",
+              "path": "Prydwen/hsr/assets/light-cones/geniuses-repose-91e57edd022e.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "efdffaadc6e8",
+              "sourceHash": "efdffaadc6e8",
+              "kind": "light-cones",
+              "name": "Before Dawn",
+              "fileStem": "before-dawn",
+              "path": "Prydwen/hsr/assets/light-cones/before-dawn-efdffaadc6e8.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "1975a2492785",
+              "sourceHash": "1975a2492785",
+              "kind": "light-cones",
+              "name": "Today Is Another Peaceful Day",
+              "fileStem": "today-is-another-peaceful-day",
+              "path": "Prydwen/hsr/assets/light-cones/today-is-another-peaceful-day-1975a2492785.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "ab251a923606",
+              "sourceHash": "ab251a923606",
+              "kind": "light-cones",
+              "name": "The Seriousness of Breakfast",
+              "fileStem": "the-seriousness-of-breakfast",
+              "path": "Prydwen/hsr/assets/light-cones/the-seriousness-of-breakfast-ab251a923606.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-relic-sets": {
+      "label": "Best Relic Sets",
+      "sections": [
+        {
+          "heading": "Best Relic Sets",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 105.21%\n\n Pioneer Diver of Dead Waters ( 4 -PC)\n\n 100% uptime | 3 Debuffs Required\n 100%\n\n Band of Sizzling Thunder ( 4 -PC)\n\n 97.90%\n\n Scholar Lost in Erudition ( 4 -PC)\n\n Usage: 100 %\n MoC: -\n PF: 0\n AS: 0\n\n 97.84%\n\n Pioneer Diver of Dead Waters ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Scholar Lost in Erudition\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n Band of Sizzling Thunder",
+          "assets": [
+            {
+              "id": "6e205de52037",
+              "sourceHash": "6e205de52037",
+              "kind": "relics",
+              "name": "Pioneer Diver of Dead Waters",
+              "fileStem": "pioneer-diver-of-dead-waters",
+              "path": "Prydwen/hsr/assets/relics/pioneer-diver-of-dead-waters-6e205de52037.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "a587afe51aae",
+              "sourceHash": "a587afe51aae",
+              "kind": "relics",
+              "name": "Band of Sizzling Thunder",
+              "fileStem": "band-of-sizzling-thunder",
+              "path": "Prydwen/hsr/assets/relics/band-of-sizzling-thunder-a587afe51aae.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "f521b7a2ee25",
+              "sourceHash": "f521b7a2ee25",
+              "kind": "relics",
+              "name": "Scholar Lost in Erudition",
+              "fileStem": "scholar-lost-in-erudition",
+              "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "deeeca721276",
+              "sourceHash": "deeeca721276",
+              "kind": "relics",
+              "name": "Musketeer of Wild Wheat",
+              "fileStem": "musketeer-of-wild-wheat",
+              "path": "Prydwen/hsr/assets/relics/musketeer-of-wild-wheat-deeeca721276.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "507bb2127c32",
+              "sourceHash": "507bb2127c32",
+              "kind": "relics",
+              "name": "Prisoner in Deep Confinement",
+              "fileStem": "prisoner-in-deep-confinement",
+              "path": "Prydwen/hsr/assets/relics/prisoner-in-deep-confinement-507bb2127c32.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "2d90f2919c5d",
+              "sourceHash": "2d90f2919c5d",
+              "kind": "relics",
+              "name": "The Wind-Soaring Valorous",
+              "fileStem": "the-wind-soaring-valorous",
+              "path": "Prydwen/hsr/assets/relics/the-wind-soaring-valorous-2d90f2919c5d.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-planetary-sets": {
+      "label": "Best Planetary Sets",
+      "sections": [
+        {
+          "heading": "Best Planetary Sets",
+          "text": "100%\n\n Firmament Frontline: Glamoth ( 2 -PC)\n\n Usage: 100 %\n MoC: -\n PF: 0\n AS: 0\n\n 98.75%\n\n Space Sealing Station ( 2 -PC)\n\n 96.26%\n\n Rutilant Arena ( 2 -PC)\n\n 95.69%\n\n Inert Salsotto ( 2 -PC)",
+          "assets": [
+            {
+              "id": "83a4c570a0a2",
+              "sourceHash": "83a4c570a0a2",
+              "kind": "relics",
+              "name": "Firmament Frontline: Glamoth",
+              "fileStem": "firmament-frontline-glamoth",
+              "path": "Prydwen/hsr/assets/relics/firmament-frontline-glamoth-83a4c570a0a2.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "3d18a5aaec4a",
+              "sourceHash": "3d18a5aaec4a",
+              "kind": "relics",
+              "name": "Space Sealing Station",
+              "fileStem": "space-sealing-station",
+              "path": "Prydwen/hsr/assets/relics/space-sealing-station-3d18a5aaec4a.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "0ad357f87585",
+              "sourceHash": "0ad357f87585",
+              "kind": "relics",
+              "name": "Rutilant Arena",
+              "fileStem": "rutilant-arena",
+              "path": "Prydwen/hsr/assets/relics/rutilant-arena-0ad357f87585.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "d3afe42bdcff",
+              "sourceHash": "d3afe42bdcff",
+              "kind": "relics",
+              "name": "Inert Salsotto",
+              "fileStem": "inert-salsotto",
+              "path": "Prydwen/hsr/assets/relics/inert-salsotto-d3afe42bdcff.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-stats": {
+      "label": "Best Stats",
+      "sections": [
+        {
+          "heading": "Best Stats",
+          "text": "Body\n CRIT Rate\n >= CRIT DMG\n\n Feet\n Speed\n >= ATK%\n\n Planar Sphere\n Lightning DMG\n >= ATK%\n\n Link Rope\n ATK%\n\n Substats: SPD (breakpoint) > CRIT RATE = CRIT DMG > ATK%\n\n Serval now is built more like a generic DPS character that can also apply DoT, so focus on CRIT Rate, CRIT DMG and ATK%.",
+          "assets": [
+            {
+              "id": "af5b8acc8f63",
+              "sourceHash": "af5b8acc8f63",
+              "kind": "icons",
+              "name": "CRIT Rate",
+              "fileStem": "stat-critrate",
+              "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "44c437b21b3a",
+              "sourceHash": "44c437b21b3a",
+              "kind": "icons",
+              "name": "CRIT DMG",
+              "fileStem": "stat-critdmg",
+              "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "087f2dec68b6",
+              "sourceHash": "087f2dec68b6",
+              "kind": "icons",
+              "name": "Speed",
+              "fileStem": "stat-speed",
+              "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "dc6aec4a7776",
+              "sourceHash": "dc6aec4a7776",
+              "kind": "icons",
+              "name": "ATK",
+              "fileStem": "stat-atk",
+              "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "4ef2b2a9e30c",
+              "sourceHash": "4ef2b2a9e30c",
+              "kind": "icons",
+              "name": "Lightning DMG",
+              "fileStem": "stat-lightningdmg",
+              "path": "Prydwen/hsr/assets/icons/lightning-dmg-4ef2b2a9e30c.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        }
+      ]
+    },
+    "recommended-endgame-stats": {
+      "label": "Recommended endgame stats",
+      "sections": [
+        {
+          "heading": "Recommended endgame stats",
+          "text": "HP: 2800 - 3000+\n\n DEF: 800+\n\n ATK: 2200 - 2600+\n\n CRIT RATE: 65% - 75%+\n\n CRIT DMG: 130% - 150%+\n\n SPD: 134+ / 160+ (Eagle + Passkey The Herta team)",
+          "assets": []
+        }
+      ]
+    },
+    "traces-priority": {
+      "label": "Traces priority",
+      "sections": [
+        {
+          "heading": "Traces priority",
+          "text": "Skills priority: Skill > Talent > Ultimate > Basic\n\n Major Traces priority: Rock 'n' Roll (A2) > Mania (A6) > String Vibration (A4)",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "The Herta - Serval can be played standard or alternatively built as a dedicated Stack and Energy generator for The Herta by using the Passkey Light Cone and the Eagle of Twilight Line set. This build allows Serval to move quickly and spam her Ultimate but at the cost of most of her damage potential.\n Sunday Sparkle Bronya - All provide Serval with buffs and additional actions, allowing her to perform better.\n Trailblazer • Harmony - Owing to her low cost Ultimate, Serval is able to deal a significant amount of Toughness Break very quickly by chaining them. Some Light Cones can further increase the amount of Ultimates she can output which makes her very solid in Super Break teams.",
+          "assets": [
+            {
+              "id": "fecc96b9e5e6",
+              "sourceHash": "fecc96b9e5e6",
+              "kind": "characters",
+              "name": "The Herta",
+              "fileStem": "the-herta-icon",
+              "path": "Prydwen/hsr/assets/characters/the-herta-fecc96b9e5e6.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "3d568cb7f29d",
+              "sourceHash": "3d568cb7f29d",
+              "kind": "characters",
+              "name": "Sunday",
+              "fileStem": "sunday-icon",
+              "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "da99d2d9a505",
+              "sourceHash": "da99d2d9a505",
+              "kind": "characters",
+              "name": "Sparkle",
+              "fileStem": "sparkle-icon",
+              "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "239e290d80b6",
+              "sourceHash": "239e290d80b6",
+              "kind": "characters",
+              "name": "Bronya",
+              "fileStem": "bronya-icon",
+              "path": "Prydwen/hsr/assets/characters/bronya-239e290d80b6.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "de41e1704266",
+              "sourceHash": "de41e1704266",
+              "kind": "characters",
+              "name": "Trailblazer • Harmony",
+              "fileStem": "trailblazer-harmony-icon",
+              "path": "Prydwen/hsr/assets/characters/trailblazer-harmony-de41e1704266.webp",
+              "width": 45,
+              "height": 45
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Serval Best Build Guide | Honkai: Star Rail \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Serval\n Serval Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Serval from HSR (Honkai: Star Rail). Serval is a 4 ★ character from the Lightning element who follows the Path of Erudition .\n The free and rebellious eldest daughter of the Landau family, once a close friend of Cocolia, her interests has now led her to become a mechanic. In the perpetually winter-stricken Belobog, she opened a workshop called \"Neverwinter\" that puts business on hold from time to time for rock 'n' roll performances. And should anyone ask her about the workshop's profitability...\n \"This is just a hobby, dear. I'm not short of money.\"\n\n To learn more about Serval check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Serval has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.6\n\n Last major build/calcs update\n Patch 4.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Serval check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Roaring Thunderclap\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Lightning DMG equal to #1[i]% of Serval's ATK to a single enemy.\n\n Skill\n Lightning Flash\n Blast\n\n Lv. 1\n\n Energy gain: 30\n Break: 20 + 10 adjacent\n\n Deals Lightning DMG equal to #1[i]% of Serval's ATK to a single enemy and Lightning DMG equal to #2[i]% of Serval's ATK to enemies adjacent to it, with a #3[i]% base chance for enemies hit to become Shocked for #4[i] turn(s).\nWhile Shocked, enemies take Lightning DoT equal to #5[i]% of Serval's ATK at the beginning of each turn.\n\n Ultimate\n Here Comes the Mechanical Fever\n AoE | 100 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Deals Lightning DMG equal to #1[i]% of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by #2[i] turn(s).\n\n Talent\n Galvanic Chords\n Enhance\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n After Serval attacks, deals Additional Lightning DMG equal to #1[i]% of Serval's ATK to all Shocked enemies.\n\n Technique\n Good Night, Belobog\n\n Energy gain: 0\n Break: 20\n\n Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to #4[i]% of Serval's ATK to a random enemy, with a #1[i]% base chance for all enemies to become Shocked for #3[i] turn(s).\nWhile Shocked, enemies will take Lightning DoT equal to #2[i]% of Serval's ATK at the beginning of each turn.\n\n Major Traces\n A2 Major trace\n Rock 'n' Roll\n\n Skill has a 20% increased base chance to Shock enemies.\n\n A4 Major trace\n String Vibration\n\n At the start of the battle, immediately regenerates 15 Energy.\n\n A6 Major trace\n Mania\n\n Upon defeating an enemy, ATK increases by 20% for 2 turn(s).\n\n Minor Traces (total)\n Effect HIT Rate\n + 18%\n\n CRIT Rate\n + 18.7%\n\n Effect RES\n + 10%\n\n Eidolons\n E 1\n Echo Chamber\n Eidolon 1\n\n Basic ATK deals Lightning DMG equal to 60% of the Basic ATK's DMG to a random enemy adjacent to the target of the Basic ATK.\n\n E 2\n Encore!\n Eidolon 2\n\n Every time Serval's Talent is triggered to deal Additional DMG, she regenerates 4 Energy.\n\n E 3\n Listen, the Heartbeat of the Gears\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15 . Basic ATK Lv. +1 . up to a maximum of Lv. 10 .\n\n E 4\n Make Some Noise!\n Eidolon 4\n\n Ultimate has a 100% base chance to apply Shock to any enemies not currently Shocked. This Shock has the same effects as the one applied by Skill.\n\n E 5\n Belobog’s Loudest Roar!\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 6\n This Song Rocks to Heaven!\n Eidolon 6\n\n Serval deals 30% more DMG to Shocked enemies.\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 917\n\n ATK\n\n 652\n\n DEF\n\n 374\n\n Speed\n\n 104\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 246400\n\n Silvermane Badge\n\n x 12\n\n Silvermane Insignia\n\n x 13\n\n Lightning Crown of the Past Shadow\n\n x 50\n\n Silvermane Medal\n\n x 12\n\n CV\n ENG\n Natalie Van Sistine\n\n JPN\n Aimi\n\n CN\n 穆雪婷\n\n KR\n 민아\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Reliable damage due to Talent and DoT,\n\n Increased single-target Toughness damage thanks to her Skill’s Blast AoE,\n\n Can keep enemies Shocked indefinitely,\n\n Spammable Ultimate due to low Energy cost.\n\n Cons\n Lows are really low,\n\n Despite having a DoT she still cares about CRIT stats for optimal performance,\n\n Ironically struggles to apply Shock to all enemies in 4-5 target scenarios,\n\n Eidolon-reliant for quality of life.\n\n Review (By Sushou)\n Serval is a freely available 4-star Erudition unit thanks to the pre-registration milestones. She is a competent early damage dealer who remains decent throughout with sufficient investment. Serval revolves around applying Shock to enemies and dealing additional damage to all Shocked foes. Because of this, there is some ramp-up to her damage, but is generally reasonable to maintain after passing this initial stage. Despite having a DoT effect, she is more akin to a traditional damage dealer, preferring CRIT stats over raw ATK.\n The much-loved Belobog mechanic and hard rocker, Serval is an accessible Lightning damage dealer that will see a lot of use especially early on. It is highly advisable to invest in this character at least a little bit so that you’re not left struggling against the many Lightning-weak foes the game throws your way in Belobog.\n Serval’s main goal is to apply Shock to as many enemies as she can and keep the debuff going as long as possible, and this is because of her Talent’s effects. When Serval attacks, she will deal an additional instance of Lightning DMG to all Shocked enemies, up to 72% ATK.\n Interestingly, this will proc even on enemies that you do not directly hit with your attack, so for example if you Basic ATK one enemy, but all five enemies are Shocked, this additional Lightning DMG will trigger on all five foes. Do pay attention to the term ‘additional’ because it is essentially adding a separate hit to Serval’s attacks. This extra hit is also eligible for CRIT hits.\n Serval’s Skill is a Blast AoE dealing up to 140% ATK to the main target and 60% to adjacent enemies. This Skill has an 80% base chance to Shock enemies hit for 2 turns, with the Shock dealing up to 104% ATK at the start of the enemies’ turn. This is the only way for Serval to inflict Shock on enemies without Eidolons. Serval’s Ultimate deals up to 180% ATK to all enemies on the field, and any enemies that already have the Shock debuff on them will have the debuff extended by 2 turns. This extension applies to all instances of Shock, not just her own personal one.\n Considering a significant portion of Serval’s damage comes from her Talent, having an 80% base chance to apply Shock with her Skill is somewhat pathetic, actually. This is so low that you’ll be missing the Shock application on the pitiful level 40 Automaton Beetles from the story, so you can imagine how frustrating it can be to try and land this Shock on endgame opponents. Additionally, because of her Skill’s targeting method, Serval can struggle to apply Shock to more than 3 enemies at a time, and because of the aforementioned low base chance to Shock in the first place, this can compound into an incredibly unfavorable repeating instance of failing to apply and extend Shock.\n However, it is also possible to get the Shock applied quickly and then extending it is relatively simple; the very first Shock application of the fight is the hardest. As long as Serval is able to get frequent Ultimates, it will be challenging to drop Shock from that point on. Especially since Serval’s Ultimate has a very low Energy cost of 100, this should be fairly achievable even with lower investment thanks to the wonders of the Passkey Light Cone or by pairing her with the likes of Tingyun or Huohuo.\n Serval’s A2 is the most important of her Bonus Ability Traces as it increases the base chance for her Skill to inflict Shock by 20%, for a new total of 100% base chance. This now matches the typical base chance for most debuffs to be applied, and reduces the required Effect Hit Rate for a guaranteed application to be about 67%. A4 grants 15 Energy at the start of battle, and A6 grants a 20% ATK boost for 2 turns after defeating an enemy.\n Serval’s design is honestly a little bit confusing. She’s an Erudition unit who plays more like an odd mix of Nihility and Destruction, but unlike some of the other Path outliers like Qingque, Serval does not manage to run away with it. Honestly the Destruction-esque targeting of her Skill is not the biggest offender, it’s her reliance on DoT whilst still being shackled to CRIT.\n The fact that her Talent has the ability to CRIT but requires enemies to be Shocked first is such a peculiar choice because it raises the floor on Serval’s necessary stats to an entirely unreasonable level because you have to choose between a guaranteed Shock application or good CRIT stats. Y ou would need god-tier level Relics to be able to get both and I’d honestly rather have that luck for other far stronger characters who can do more with that level of crazy investment like Qingque or Xueyi.\n Usually, by this point, I’d have already mentioned Eidolons but I’ve left it for last for Serval because she may be the only character I would say is heavily reliant on Eidolons to perform up to par with other characters — most characters don’t need Eidolons to be competitive, and there’s a select few characters for whom Eidolons do not bump them into ‘viability’, but for Serval the difference between E0 and E6 is incomparable.\n E2 and E4 in particular completely change the way you go about executing Serval’s gameplan; E2 grants 4 Energy each time her Talent deals damage, and E4 will allow her Ultimate to have a 100% base chance to apply the same Shock as her Skill to any enemies not yet Shocked. This immediately reduces the stat requirements to a far more reasonable level while also increasing Serval’s overall damage output, and most importantly of all, reducing the possible causes of frustration when attempting to play her.\n Personally, I would not even try to use Serval at endgame without at least E4, but if you’re prepared to suffer for your queen, you go right ahead. She’s pretty decent either way and you’re likely to have her at least somewhat invested due to her being a free character.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Support DPS\n Eidolon 0\n T5\n MoC\n\n T4\n PF\n\n T5\n AS\n\n Eidolon 6\n T4\n MoC\n\n T3\n PF\n\n T4\n AS\n\n Build and teams\n\n Serval Relic and Light Cone calculations are based on fighting against 3 targets.\n\n Best Light Cones\n\n 109.40%\n\n Night on the Milky Way (S 1 )\n\n For Pure Fiction only.\n\n 106.85%\n\n Eternal Calculus (S 5 )\n\n For Pure Fiction only.\n\n 106.16%\n\n Geniuses' Repose (S 5 )\n\n 102.47%\n\n Before Dawn (S 1 )\n\n 101.06%\n\n Today Is Another Peaceful Day (S 5 )\n\n 100%\n\n The Seriousness of Breakfast (S 5 )\n\n Specialist Light Cones\n 1\n\n Passkey (S 5 )\n\n A specialized Light Cone that you use in situations where you focus on getting the Ultimate as fast as possible. Used mostly when you play Serval with The Herta where she fill the role of stack generator for her.\n Usage: 100 %\n MoC: -\n PF: 0\n AS: 0\n\n Serval Relic and Light Cone calculations are based on fighting against 3 targets.\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 105.21%\n\n Pioneer Diver of Dead Waters ( 4 -PC)\n\n 100% uptime | 3 Debuffs Required\n 100%\n\n Band of Sizzling Thunder ( 4 -PC)\n\n 97.90%\n\n Scholar Lost in Erudition ( 4 -PC)\n\n Usage: 100 %\n MoC: -\n PF: 0\n AS: 0\n\n 97.84%\n\n Pioneer Diver of Dead Waters ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Scholar Lost in Erudition\n\n Musketeer of Wild Wheat\n\n Prisoner in Deep Confinement\n\n The Wind-Soaring Valorous\n\n Band of Sizzling Thunder\n\n Best Specialist Relic Sets\n -\n\n Eagle of Twilight Line ( 4 -PC)\n\n Only used when you play Serval with The Herta where she acts as stack generator for her - it sacrifices her own damage to boost The Herta's damage output.\n\n Best Planetary Sets\n 100%\n\n Firmament Frontline: Glamoth ( 2 -PC)\n\n Usage: 100 %\n MoC: -\n PF: 0\n AS: 0\n\n 98.75%\n\n Space Sealing Station ( 2 -PC)\n\n 96.26%\n\n Rutilant Arena ( 2 -PC)\n\n 95.69%\n\n Inert Salsotto ( 2 -PC)\n\n Best Stats\n\n Body\n CRIT Rate\n >= CRIT DMG\n\n Feet\n Speed\n >= ATK%\n\n Planar Sphere\n Lightning DMG\n >= ATK%\n\n Link Rope\n ATK%\n\n Substats: SPD (breakpoint) > CRIT RATE = CRIT DMG > ATK%\n\n Serval now is built more like a generic DPS character that can also apply DoT, so focus on CRIT Rate, CRIT DMG and ATK%.\n\n Recommended endgame stats\n HP: 2800 - 3000+\n\n DEF: 800+\n\n ATK: 2200 - 2600+\n\n CRIT RATE: 65% - 75%+\n\n CRIT DMG: 130% - 150%+\n\n SPD: 134+ / 160+ (Eagle + Passkey The Herta team)\n\n Traces priority\n Skills priority: Skill > Talent > Ultimate > Basic\n\n Major Traces priority: Rock 'n' Roll (A2) > Mania (A6) > String Vibration (A4)\n\n Synergy\n The Herta - Serval can be played standard or alternatively built as a dedicated Stack and Energy generator for The Herta by using the Passkey Light Cone and the Eagle of Twilight Line set. This build allows Serval to move quickly and spam her Ultimate but at the cost of most of her damage potential.\n Sunday Sparkle Bronya - All provide Serval with buffs and additional actions, allowing her to perform better.\n Trailblazer • Harmony - Owing to her low cost Ultimate, Serval is able to deal a significant amount of Toughness Break very quickly by chaining them. Some Light Cones can further increase the amount of Ultimates she can output which makes her very solid in Super Break teams.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 9\n\n Rank 488\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 6\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

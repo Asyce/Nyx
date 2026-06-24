@@ -1,0 +1,1900 @@
+{
+  "id": "characters:jiyan",
+  "provider": "Prydwen",
+  "game": "ww",
+  "gameName": "Wuthering Waves",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "jiyan",
+  "name": "Jiyan",
+  "title": "Jiyan Best Build Guide",
+  "sourcePath": "/wuthering-waves/characters/jiyan",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "09/June/2026",
+  "meta": {
+    "title": "Jiyan Best Build Guide | Wuthering Waves (WuWa)",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Aero",
+    "weapon": "Broadblade"
+  },
+  "assets": [
+    {
+      "id": "526f427140dc",
+      "sourceHash": "526f427140dc",
+      "kind": "characters",
+      "name": "Jiyan",
+      "fileStem": "jiyan-card",
+      "path": "Prydwen/ww/assets/characters/jiyan-526f427140dc.webp",
+      "width": 210,
+      "height": 280
+    },
+    {
+      "id": "ace758a61ce1",
+      "sourceHash": "ace758a61ce1",
+      "kind": "icons",
+      "name": "Aero",
+      "fileStem": "element-aero",
+      "path": "Prydwen/ww/assets/icons/aero-ace758a61ce1.webp",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "id": "39094c227806",
+      "sourceHash": "39094c227806",
+      "kind": "icons",
+      "name": "CRIT Rate",
+      "fileStem": "stat-crit",
+      "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "1e70b3adc860",
+      "sourceHash": "1e70b3adc860",
+      "kind": "icons",
+      "name": "ATK%",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "c26c1d310e90",
+      "sourceHash": "c26c1d310e90",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "aa019d34202f",
+      "sourceHash": "aa019d34202f",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "5a0b154cd3d8",
+      "sourceHash": "5a0b154cd3d8",
+      "kind": "icons",
+      "name": "Max Energy",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "7e2bcd0760ca",
+      "sourceHash": "7e2bcd0760ca",
+      "kind": "icons",
+      "name": "CRIT DMG",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "94236abd3fdc",
+      "sourceHash": "94236abd3fdc",
+      "kind": "icons",
+      "name": "Healing",
+      "fileStem": "stat-heal",
+      "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "2133af4a37e3",
+      "sourceHash": "2133af4a37e3",
+      "kind": "icons",
+      "name": "Aero",
+      "fileStem": "stat-wind",
+      "path": "Prydwen/ww/assets/icons/aero-2133af4a37e3.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "f48ff62c89aa",
+      "sourceHash": "f48ff62c89aa",
+      "kind": "categories",
+      "name": "Interactive Map",
+      "fileStem": "category-map",
+      "path": "Prydwen/ww/assets/categories/interactive-map-f48ff62c89aa.webp",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "id": "f77f8a07880e",
+      "sourceHash": "f77f8a07880e",
+      "kind": "characters",
+      "name": "Jiyan",
+      "fileStem": "jiyan-full",
+      "path": "Prydwen/ww/assets/characters/jiyan-f77f8a07880e.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "e6913cb7353a",
+      "sourceHash": "e6913cb7353a",
+      "kind": "characters",
+      "name": "Iuno",
+      "fileStem": "iuno-icon",
+      "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e9b4be1a962a",
+      "sourceHash": "e9b4be1a962a",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-19",
+      "path": "Prydwen/ww/assets/icons/set-19-e9b4be1a962a.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "380124f06e75",
+      "sourceHash": "380124f06e75",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-4",
+      "path": "Prydwen/ww/assets/icons/set-4-380124f06e75.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "9cc1c0d4021f",
+      "sourceHash": "9cc1c0d4021f",
+      "kind": "misc",
+      "name": "Lady of the Sea",
+      "fileStem": "6000160",
+      "path": "Prydwen/ww/assets/misc/lady-of-the-sea-9cc1c0d4021f.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "ba56fbcc8eb4",
+      "sourceHash": "ba56fbcc8eb4",
+      "kind": "characters",
+      "name": "Ciaccona",
+      "fileStem": "ciaccona-icon",
+      "path": "Prydwen/ww/assets/characters/ciaccona-ba56fbcc8eb4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "8f23f048132b",
+      "sourceHash": "8f23f048132b",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-15",
+      "path": "Prydwen/ww/assets/icons/set-15-8f23f048132b.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "eb3e824f153b",
+      "sourceHash": "eb3e824f153b",
+      "kind": "misc",
+      "name": "Nightmare: Kelpie",
+      "fileStem": "6000113",
+      "path": "Prydwen/ww/assets/misc/nightmare-kelpie-eb3e824f153b.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "9fafb9f1aada",
+      "sourceHash": "9fafb9f1aada",
+      "kind": "weapons",
+      "name": "Verdant Summit",
+      "fileStem": "21010016",
+      "path": "Prydwen/ww/assets/weapons/verdant-summit-9fafb9f1aada.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "3c42590d0e49",
+      "sourceHash": "3c42590d0e49",
+      "kind": "weapons",
+      "name": "Thunderflare Dominion",
+      "fileStem": "21010046",
+      "path": "Prydwen/ww/assets/weapons/thunderflare-dominion-3c42590d0e49.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "f970567b2315",
+      "sourceHash": "f970567b2315",
+      "kind": "weapons",
+      "name": "Ages of Harvest",
+      "fileStem": "21010026",
+      "path": "Prydwen/ww/assets/weapons/ages-of-harvest-f970567b2315.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "6d5753910c9f",
+      "sourceHash": "6d5753910c9f",
+      "kind": "weapons",
+      "name": "Kumokiri",
+      "fileStem": "21010056",
+      "path": "Prydwen/ww/assets/weapons/kumokiri-6d5753910c9f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "04979eb3f560",
+      "sourceHash": "04979eb3f560",
+      "kind": "weapons",
+      "name": "Wildfire Mark",
+      "fileStem": "21010036",
+      "path": "Prydwen/ww/assets/weapons/wildfire-mark-04979eb3f560.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "137f7d39e41f",
+      "sourceHash": "137f7d39e41f",
+      "kind": "weapons",
+      "name": "Radiance Cleaver",
+      "fileStem": "21010045",
+      "path": "Prydwen/ww/assets/weapons/radiance-cleaver-137f7d39e41f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "6cc4b4799694",
+      "sourceHash": "6cc4b4799694",
+      "kind": "weapons",
+      "name": "Aureate Zenith",
+      "fileStem": "21010104",
+      "path": "Prydwen/ww/assets/weapons/aureate-zenith-6cc4b4799694.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "c562aa36c2f7",
+      "sourceHash": "c562aa36c2f7",
+      "kind": "weapons",
+      "name": "Lustrous Razor",
+      "fileStem": "21010015",
+      "path": "Prydwen/ww/assets/weapons/lustrous-razor-c562aa36c2f7.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1b276f8aa3db",
+      "sourceHash": "1b276f8aa3db",
+      "kind": "weapons",
+      "name": "Autumntrace",
+      "fileStem": "21010074",
+      "path": "Prydwen/ww/assets/weapons/autumntrace-1b276f8aa3db.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "10623a091d93",
+      "sourceHash": "10623a091d93",
+      "kind": "weapons",
+      "name": "Meditations on Mercy",
+      "fileStem": "21010094",
+      "path": "Prydwen/ww/assets/weapons/meditations-on-mercy-10623a091d93.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "be99542697f0",
+      "sourceHash": "be99542697f0",
+      "kind": "icons",
+      "name": "Set",
+      "fileStem": "set-17",
+      "path": "Prydwen/ww/assets/icons/set-17-be99542697f0.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "a1c7d06c019c",
+      "sourceHash": "a1c7d06c019c",
+      "kind": "misc",
+      "name": "Nightmare: Feilian Beringal",
+      "fileStem": "330000140",
+      "path": "Prydwen/ww/assets/misc/nightmare-feilian-beringal-a1c7d06c019c.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "458efc6c0f3e",
+      "sourceHash": "458efc6c0f3e",
+      "kind": "misc",
+      "name": "Feilian Beringal",
+      "fileStem": "330000050",
+      "path": "Prydwen/ww/assets/misc/feilian-beringal-458efc6c0f3e.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "8367f1df0e13",
+      "sourceHash": "8367f1df0e13",
+      "kind": "characters",
+      "name": "Phrolova",
+      "fileStem": "phrolova-icon",
+      "path": "Prydwen/ww/assets/characters/phrolova-8367f1df0e13.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "59d02501284b",
+      "sourceHash": "59d02501284b",
+      "kind": "characters",
+      "name": "Rebecca",
+      "fileStem": "rebecca-icon",
+      "path": "Prydwen/ww/assets/characters/rebecca-59d02501284b.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "4910396b5955",
+      "sourceHash": "4910396b5955",
+      "kind": "characters",
+      "name": "Mortefi",
+      "fileStem": "mortefi-icon",
+      "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e366b96f341c",
+      "sourceHash": "e366b96f341c",
+      "kind": "characters",
+      "name": "Lynae",
+      "fileStem": "lynae-icon",
+      "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d909de4aecde",
+      "sourceHash": "d909de4aecde",
+      "kind": "characters",
+      "name": "The Shorekeeper",
+      "fileStem": "the-shorekeeper-icon",
+      "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1b2a8f336e3d",
+      "sourceHash": "1b2a8f336e3d",
+      "kind": "characters",
+      "name": "Verina",
+      "fileStem": "verina-icon",
+      "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "40d7023b51fa",
+      "sourceHash": "40d7023b51fa",
+      "kind": "characters",
+      "name": "Mornye",
+      "fileStem": "mornye-icon",
+      "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "df8c0bc8d49a",
+      "sourceHash": "df8c0bc8d49a",
+      "kind": "characters",
+      "name": "Rover (Aero)",
+      "fileStem": "rover-aero-icon",
+      "path": "Prydwen/ww/assets/characters/rover-aero-df8c0bc8d49a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "7c6c3a3bc3ce",
+      "sourceHash": "7c6c3a3bc3ce",
+      "kind": "characters",
+      "name": "Jiyan",
+      "fileStem": "jiyan-icon",
+      "path": "Prydwen/ww/assets/characters/jiyan-7c6c3a3bc3ce.webp",
+      "width": 120,
+      "height": 120
+    }
+  ],
+  "sections": [
+    {
+      "id": "jiyan-best-build-guide-0",
+      "level": 1,
+      "heading": "Jiyan Best Build Guide",
+      "text": "Last updated: 09/June/2026",
+      "assets": [
+        {
+          "id": "526f427140dc",
+          "sourceHash": "526f427140dc",
+          "kind": "characters",
+          "name": "Jiyan",
+          "fileStem": "jiyan-card",
+          "path": "Prydwen/ww/assets/characters/jiyan-526f427140dc.webp",
+          "width": 210,
+          "height": 280
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Jiyan from WW (Wuthering Waves). Jiyan is a 5 ★ rarity character from the Aero element who uses the Broadblade type weapon.\n Jiyan, leader of the Midnight Rangers, acts with swift and resolute righteousness. He possesses the formidable ability to conjure a powerful Qingloong from the winds, making him invincible on the battlefield.\n\n To learn more about Jiyan check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": [
+        {
+          "id": "ace758a61ce1",
+          "sourceHash": "ace758a61ce1",
+          "kind": "icons",
+          "name": "Aero",
+          "fileStem": "element-aero",
+          "path": "Prydwen/ww/assets/icons/aero-ace758a61ce1.webp",
+          "width": 20,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "This character has no video guide yet.",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 3.2\n\n Last major build/calcs update\n Patch 3.2\n\n Last profile update*\n 09/June/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Jiyan check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Lone Lance",
+      "assets": []
+    },
+    {
+      "id": "basic-attack-10",
+      "level": 5,
+      "heading": "Basic Attack",
+      "text": "Perform up to 5 consecutive attacks, dealing Aero DMG.",
+      "assets": []
+    },
+    {
+      "id": "heavy-attack-11",
+      "level": 5,
+      "heading": "Heavy Attack",
+      "text": "Consume Stamina to perform a thrust attack, dealing Aero DMG.",
+      "assets": []
+    },
+    {
+      "id": "heavy-attack-windborne-strike-12",
+      "level": 5,
+      "heading": "Heavy Attack: Windborne Strike",
+      "text": "Hold the Basic Attack during Heavy Attack to cast Windborne Strike after the Heavy Attack ends, dealing Aero DMG.",
+      "assets": []
+    },
+    {
+      "id": "heavy-attack-abyssal-slash-13",
+      "level": 5,
+      "heading": "Heavy Attack: Abyssal Slash",
+      "text": "Release the Basic Attack during the Heavy Attack to cast Abyssal Slash after the Heavy Attack ends, dealing Aero DMG.",
+      "assets": []
+    },
+    {
+      "id": "mid-air-attack-14",
+      "level": 5,
+      "heading": "Mid-air Attack",
+      "text": "Consume Stamina to perform a Mid-Air Plunging Attack, dealing Aero DMG. After the Plunging Attack, use Basic Attack to perform a following attack, dealing Aero DMG.",
+      "assets": []
+    },
+    {
+      "id": "mid-air-attack-banner-of-triumph-15",
+      "level": 5,
+      "heading": "Mid-air Attack: Banner of Triumph",
+      "text": "After casting the Heavy Attack Windborne Strike or the Resonance Skill Windqueller in the air, Jiyan can perform an aerial attack, dealing Aero DMG.",
+      "assets": []
+    },
+    {
+      "id": "dodge-counter-16",
+      "level": 5,
+      "heading": "Dodge Counter",
+      "text": "Use a Basic Attack after a successful Dodge to attack the target with, dealing Aero DMG.\n\n Multipliers\n\n Resonance Skill\n Windqueller\n\n Dash forward a certain distance, dealing Aero DMG . Can be cast in the air.\n\n Multipliers\n\n Resonance Liberation\n Emerald Storm: Prelude\n\n After releasing Emerald Storm: Prelude, Jiyan enters Qingloong Mode.",
+      "assets": []
+    },
+    {
+      "id": "qingloong-mode-17",
+      "level": 5,
+      "heading": "Qingloong Mode",
+      "text": "Jiyan has increased Anti-interruption; Basic Attack, Heavy Attack and Dodge Counter are replaced with Heavy Attack Lance of Qingloong.",
+      "assets": []
+    },
+    {
+      "id": "heavy-attack-lance-of-qingloong-18",
+      "level": 5,
+      "heading": "Heavy Attack: Lance of Qingloong",
+      "text": "Perform up to 3 continuous attacks, dealing Aero DMG , considered as Heavy Attack damage.\n\n Multipliers\n\n Forte Circuit\n Qingloong at War\n\n When casting Resonance Skill Windqueller, if Jiyan has 30 or more \"Resolve\", he consumes 30 \"Resolve\" to increase the damage of this Resonance Skill Windqueller by 20%. When Jiyan is in Qingloong Mode, DMG of Resonance Skill Windqueller is increased by 20% and no longer consumes \"Resolve\".",
+      "assets": []
+    },
+    {
+      "id": "resonance-liberation-emerald-storm-finale-19",
+      "level": 5,
+      "heading": "Resonance Liberation: Emerald Storm: Finale",
+      "text": "When casting Resonance Liberation Emerald Storm: Prelude, if Jiyan has 30 \"Resolve\" or more, he will consume 30 \"Resolve\" to cast Emerald Storm: Finale, dealing Aero DMG , considered as Heavy Attack damage.\nEmerald Storm: Finale can be cast in mid-air at low altitude.",
+      "assets": []
+    },
+    {
+      "id": "resolve-20",
+      "level": 5,
+      "heading": "Resolve",
+      "text": "Jiyan can hold up to 60 Resolve. Jiyan gains \"Resolve\" when his Normal Attack Lone Lance hits the target. Jiyan gains \"Resolve\" when the Intro Skill Tactical Strike hits the target. If Jiyan does not hit a target within 15 seconds, his \"Resolve\" will gradually decrease.\n\n Multipliers\n\n Inherent Skill\n Heavenly Balance\n\n After casting the Intro Skill Tactical Strike, Jiyan's ATK is increased by 10% for 15s .\n\n Inherent Skill\n Tempest Taming\n\n When attacks hit a target, Jiyan's Crit. DMG is increased by 12% for 8s .\n\n Intro Skill\n Tactical Strike\n\n Jiyan stabs the target from the air, dealing Aero DMG .\n\n Multipliers\n\n Outro Skill\n Discipline\n\n When the next Character's (or other Characters on a nearby team that activates an Outro Skill) Heavy Attack hits the target, Jiyan will summon Qingloong to launch a Coordinated Attack, dealing Aero DMG equal to 313.40% of Jiyan's ATK. This attack lasts for 8s , and can be triggered once every 1s , up to 2 times.",
+      "assets": []
+    },
+    {
+      "id": "resonance-chain-dupes-21",
+      "level": 2,
+      "heading": "Resonance Chain (Dupes)",
+      "text": "S 1\n Sequence Node 1\n\n Resonance Skill Windqueller can be used 1 more time. When casting Resonance Skill Windqueller, the \"Resolve\" cost is decreased by 15 .\n\n S 2\n Sequence Node 2\n\n After casting Intro Skill Tactical Strike, Jiyan gains 30 \"Resolve\" and his ATK is increased by 28% for 15s . This can be triggered once every 15 seconds.\n\n S 3\n Sequence Node 3\n\n When casting Resonance Skill Windqueller, Resonance Liberation Emerald Storm: Prelude, Resonance Skill Emerald Storm: Finale or Intro Skill Tactical Strike, Jiyan's Crit. Rate is increased by 16% and Crit. DMG is increased by 32% for 8s .\n\n S 4\n Sequence Node 4\n\n When casting Resonance Liberation Emerald Storm: Prelude or Resonance Liberation Emerald Storm: Finale, the Heavy Attack DMG Bonus of all team members is increased by 25% for 30s .\n\n S 5\n Sequence Node 5\n\n The DMG multiplier of Outro Skill Discipline is increased by 120%. When Jiyan's attacks hit a target, his ATK is increased by 3% for 8s , stacking up to 15 times; this effect is immediately maxed after he casts Intro Skill Tactical Strike.\n\n S 6\n Sequence Node 6\n\n Every time Heavy Attack, Intro Skill Tactical Strike or Resonance Skill Windqueller is used, Jiyan gains 1 stack(s) of \"Momentum\", stacking up to 2 times.\n Resonance Liberation Emerald Storm: Finale will consume all \"Momentum\", and each stack consumed increases the DMG multiplier of Resonance Liberation Emerald Storm: Finale by 120%.",
+      "assets": []
+    },
+    {
+      "id": "minor-fortes-total-22",
+      "level": 2,
+      "heading": "Minor Fortes (Total)",
+      "text": "CRIT Rate\n + 8 %\n\n ATK%\n + 12 %",
+      "assets": [
+        {
+          "id": "39094c227806",
+          "sourceHash": "39094c227806",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "1e70b3adc860",
+          "sourceHash": "1e70b3adc860",
+          "kind": "icons",
+          "name": "ATK%",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "stats-23",
+      "level": 2,
+      "heading": "Stats",
+      "text": "Include minor fortes\n\n Lv. 90\n\n HP\n 10488\n\n ATK\n 438\n\n DEF\n 1186\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Aero DMG\n 0 %",
+      "assets": [
+        {
+          "id": "c26c1d310e90",
+          "sourceHash": "c26c1d310e90",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "1e70b3adc860",
+          "sourceHash": "1e70b3adc860",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "aa019d34202f",
+          "sourceHash": "aa019d34202f",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "5a0b154cd3d8",
+          "sourceHash": "5a0b154cd3d8",
+          "kind": "icons",
+          "name": "Max Energy",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "39094c227806",
+          "sourceHash": "39094c227806",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "7e2bcd0760ca",
+          "sourceHash": "7e2bcd0760ca",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "94236abd3fdc",
+          "sourceHash": "94236abd3fdc",
+          "kind": "icons",
+          "name": "Healing",
+          "fileStem": "stat-heal",
+          "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "2133af4a37e3",
+          "sourceHash": "2133af4a37e3",
+          "kind": "icons",
+          "name": "Aero",
+          "fileStem": "stat-wind",
+          "path": "Prydwen/ww/assets/icons/aero-2133af4a37e3.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "character-ascension-total-25",
+      "level": 5,
+      "heading": "Character Ascension (total)",
+      "text": "4 x LF Howler Core\n 12 x MF Howler Core\n 12 x HF Howler Core\n 4 x FF Howler Core\n 46 x Roaring Rock Fist\n 60 x Pecok Flower\n 170 000 Shell Credits",
+      "assets": []
+    },
+    {
+      "id": "skill-upgrades-total-26",
+      "level": 5,
+      "heading": "Skill Upgrades (total)",
+      "text": "25 x LF Howler Core\n 28 x MF Howler Core\n 40 x HF Howler Core\n 57 x FF Howler Core\n 25 x Waveworn Residue 210\n 28 x Waveworn Residue 226\n 55 x Waveworn Residue 235\n 67 x Waveworn Residue 239\n 26 x Monument Bell\n 2 030 000 Shell Credits\n\n While the source of the materials can be quickly found in the game, when it comes Pecok Flower you will have to gather them from the map. Check our Interactive map to find them quickly:\n\n Interactive Map",
+      "assets": [
+        {
+          "id": "f48ff62c89aa",
+          "sourceHash": "f48ff62c89aa",
+          "kind": "categories",
+          "name": "Interactive Map",
+          "fileStem": "category-map",
+          "path": "Prydwen/ww/assets/categories/interactive-map-f48ff62c89aa.webp",
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "voice-actors-27",
+      "level": 2,
+      "heading": "Voice Actors",
+      "text": "ENG\n Alex Jordan\n\n JPN\n Ono Yuki\n\n CN\n Sun Ye\n\n KR\n Nam Doh Hyeong",
+      "assets": []
+    },
+    {
+      "id": "gallery-28",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "f77f8a07880e",
+          "sourceHash": "f77f8a07880e",
+          "kind": "characters",
+          "name": "Jiyan",
+          "fileStem": "jiyan-full",
+          "path": "Prydwen/ww/assets/characters/jiyan-f77f8a07880e.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "ratings-29",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.",
+      "assets": []
+    },
+    {
+      "id": "dps-30",
+      "level": 5,
+      "heading": "DPS",
+      "text": "T1.5\n Tower of Adversity\n\n T1.5\n Whimpering Wastes",
+      "assets": []
+    },
+    {
+      "id": "dps-32",
+      "level": 5,
+      "heading": "DPS",
+      "text": "T2\n Tower of Adversity (Value)\n\n T3\n Whimpering Wastes (Value)",
+      "assets": []
+    },
+    {
+      "id": "pros-34",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Incredible Burst Damage during Ultimate\n\n One of the best AoE DPS characters in the game\n\n Can gather and crowd control enemies constantly during ultimate\n\n Can constantly parry most elite and boss enemies during main combo\n\n Easy and straightforward to play\n\n Scales insanely well with sequences if you want to invest more into him",
+      "assets": []
+    },
+    {
+      "id": "cons-35",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Completely Ultimate reliant with all his meaningful damage occurring during his ultimate window\n\n Without correct cooldown management and energy regeneration will feel clunky to play as Ultimate will not be ready in time.",
+      "assets": []
+    },
+    {
+      "id": "review-36",
+      "level": 2,
+      "heading": "Review",
+      "text": "Jiyan is a 5-star Aero Broadblade wielding DPS that excels at AoE damage and is best suited for Hyper Carry teams as the majority of his damage potential is tied to his Ultimate burst window. Buffing this Ultimate window up as much as possible is incredibly potent and should be your focus when playing Jiyan. Jiyan doesn’t have much to benefit from swap canceling any of his abilities especially during his ultimate burst window. Such tactics often result in a damage loss for Jiyan during said ultimate, as such Quick-Swap teams have little to offer him.\n Jiyan recharges his Forte Gauge with his Basic Attacks and Intro Skill accumulating Resolve. You can use 30 points (half bar) of Resolve to enhance either his Resonance Skill increasing its damage dealt by 20% or enhance his Ultimate by incorporating a massive draconic strike to it upon its activation. It is advised strongly to keep Resolve to execute this empowered Ultimate instead compared to enhancing his Resonance Skill, which gives a mediocre result.\n His Resonance Skill is a simple spear thrust combining a forward dash with a good amount of Aero Damage and generating decent Concerto Energy and Resonance Energy.\n Jiyan’s Ultimate Skill makes him enter Qingloong mode, which enhances his standard Basic Attack combo, Heavy Attacks as well as Dodge Counter into a 3 part Heavy Attack Combo named Lance of Qingloong. This summons a gigantic dragon with each executed attack that revolves around Jiyan dealing damage 8 times per attack, as well as sweeping all enemies (excluding most elites, all boss monsters and rooted enemies) into air making them move with the summoned dragon. While in this mode, he is less likely to be stunned or launched owing to increased anti-interruption; thanks to this combined with its massive range and immobilization abilities, his Ultimate Skill is incredibly strong offensively as well as defensively.\n Jiyan spends the entire duration of his Ultimate Skill on field in order to maximize his DPS, after which he can leave, allowing other characters to step in. However you will still want to switch him in often to cast his low CD Resonance skill to generate enough Resonance Energy to recast his Ultimate in a timely manner. Due to this field time requirement, he needs to be used in Hyper Carry compositions. In return, he brings enormous AoE as well as ST damage to battles during his Ultimate Skill burst rotation while simultaneously inflicting crowd control on most of his enemies and parrying those he can’t, making him a force to be reckoned with.\n Considering all he brings to the table, he is extremely easy to play. To attain his incredible DPS output during his burst window, all you need to ensure is that he has all the buffs he requires prior to its casting and that he is generating enough Resonance Energy to recast it as required.\n As is appropriate for his Main DPS build, Jiyan aims to maximize his DPS by utilizing damage-focused Echo and set combo.\n Overall, Jiyan is currently one of the best DPS for Tower of Adversary and is extremely unlikely to phase out of meta anytime soon, owing to his very strong niche of combined ST and AoE DPS skills complete with crowd control abilities.",
+      "assets": []
+    },
+    {
+      "id": "video-guides-37",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "Jiyan guide videos aren't available yet.\n\n Build",
+      "assets": []
+    },
+    {
+      "id": "best-weapons-38",
+      "level": 2,
+      "heading": "Best Weapons",
+      "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Jiyan calculations were done using added buffs from the following teammates:\n Iuno + Moongazer's Sigil +\n Crown of Valor\n\n Sierra Gale\n\n +\n Lady of the Sea\n\n Ciaccona + Woodland Aria +\n Gusts of Welkin\n\n +\n Nightmare: Kelpie\n\n 100.00%\n\n Verdant Summit (R 1 )\n\n Jiyan's Signature is naturally his best weapon, as it grants him high Base ATK, alongside a lot of DMG Bonus to his main damage type being Heavy Attacks, and a CRIT DMG secondary stat to boot. A good blend of stats for a big damage increase compared to other weapons.\n 90.30%\n\n Thunderflare Dominion (R 1 )\n\n Augusta's Signature provides Jiyan with a massive Base ATK, a small CRIT Rate boost and some Heavy DMG. Not quite as good as his own Signature but still a very nice weapon to use on him.\n 88.30%\n\n Ages of Harvest (R 1 )\n\n Some general DMG Bonus with an emphasis on Skill DMG, alongside solid ATK and CRIT Rate stats make this weapon a solid choice on Jiyan.\n 86.90%\n\n Kumokiri (R 1 )\n\n Simple ATK and CRIT Rate stat-stick for Jiyan, who does not benefit from this weapon's Liberation DMG-focused effects.\n 86.30%\n\n Wildfire Mark (R 1 )\n\n Simple ATK and CRIT DMG stat-stick for Jiyan, who does not benefit from this weapon's Liberation DMG-focused effects - but funnily enough, it can buff Mortefi's damage if he's in Jiyan's team (it does not change this weapon's level of strength though).\n 86.30%\n\n Radiance Cleaver (R 1 )\n\n Best permanently available option for Jiyan, which acts as a simple ATK and CRIT DMG stat-stick for him.\n 83.20%\n\n Aureate Zenith (R 5 )\n\n Best 4-star choice Jiyan has, this Battle Pass exclusive grants him a super easy-to-activate ATK and Heavy DMG passive effect alongside nice ATK and CRIT DMG stats, but its lower Base ATK makes it pale in comparison to most 5-stars.\n 82.30%\n\n Lustrous Razor (R 1 )\n\n Weakest 5-star choice that doesn't grant CRIT from its stats but instead focuses on higher ATK and some Energy Regen. Still viable for Jiyan, but not favoured over above options.\n 77.60%\n\n Autumntrace (R 5 )\n\n This Battle Pass exclusive grants Jiyan some scaling ATK and some CRIT Rate, which is acceptable but not recommended over 5-star choices due to its weak Base ATK.\n 73.10%\n\n Meditations on Mercy (R 5 )\n\n Strongest no-gacha weapon for most Broadblade characters, granting a lot of ATK particularly if Negative Statuses are present on the enemy, but not recommended over 5-star choices.",
+      "assets": [
+        {
+          "id": "e6913cb7353a",
+          "sourceHash": "e6913cb7353a",
+          "kind": "characters",
+          "name": "Iuno",
+          "fileStem": "iuno-icon",
+          "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e9b4be1a962a",
+          "sourceHash": "e9b4be1a962a",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-19",
+          "path": "Prydwen/ww/assets/icons/set-19-e9b4be1a962a.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "380124f06e75",
+          "sourceHash": "380124f06e75",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-4",
+          "path": "Prydwen/ww/assets/icons/set-4-380124f06e75.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "9cc1c0d4021f",
+          "sourceHash": "9cc1c0d4021f",
+          "kind": "misc",
+          "name": "Lady of the Sea",
+          "fileStem": "6000160",
+          "path": "Prydwen/ww/assets/misc/lady-of-the-sea-9cc1c0d4021f.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "ba56fbcc8eb4",
+          "sourceHash": "ba56fbcc8eb4",
+          "kind": "characters",
+          "name": "Ciaccona",
+          "fileStem": "ciaccona-icon",
+          "path": "Prydwen/ww/assets/characters/ciaccona-ba56fbcc8eb4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "8f23f048132b",
+          "sourceHash": "8f23f048132b",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-15",
+          "path": "Prydwen/ww/assets/icons/set-15-8f23f048132b.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "eb3e824f153b",
+          "sourceHash": "eb3e824f153b",
+          "kind": "misc",
+          "name": "Nightmare: Kelpie",
+          "fileStem": "6000113",
+          "path": "Prydwen/ww/assets/misc/nightmare-kelpie-eb3e824f153b.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "9fafb9f1aada",
+          "sourceHash": "9fafb9f1aada",
+          "kind": "weapons",
+          "name": "Verdant Summit",
+          "fileStem": "21010016",
+          "path": "Prydwen/ww/assets/weapons/verdant-summit-9fafb9f1aada.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3c42590d0e49",
+          "sourceHash": "3c42590d0e49",
+          "kind": "weapons",
+          "name": "Thunderflare Dominion",
+          "fileStem": "21010046",
+          "path": "Prydwen/ww/assets/weapons/thunderflare-dominion-3c42590d0e49.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f970567b2315",
+          "sourceHash": "f970567b2315",
+          "kind": "weapons",
+          "name": "Ages of Harvest",
+          "fileStem": "21010026",
+          "path": "Prydwen/ww/assets/weapons/ages-of-harvest-f970567b2315.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "6d5753910c9f",
+          "sourceHash": "6d5753910c9f",
+          "kind": "weapons",
+          "name": "Kumokiri",
+          "fileStem": "21010056",
+          "path": "Prydwen/ww/assets/weapons/kumokiri-6d5753910c9f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "04979eb3f560",
+          "sourceHash": "04979eb3f560",
+          "kind": "weapons",
+          "name": "Wildfire Mark",
+          "fileStem": "21010036",
+          "path": "Prydwen/ww/assets/weapons/wildfire-mark-04979eb3f560.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "137f7d39e41f",
+          "sourceHash": "137f7d39e41f",
+          "kind": "weapons",
+          "name": "Radiance Cleaver",
+          "fileStem": "21010045",
+          "path": "Prydwen/ww/assets/weapons/radiance-cleaver-137f7d39e41f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "6cc4b4799694",
+          "sourceHash": "6cc4b4799694",
+          "kind": "weapons",
+          "name": "Aureate Zenith",
+          "fileStem": "21010104",
+          "path": "Prydwen/ww/assets/weapons/aureate-zenith-6cc4b4799694.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "c562aa36c2f7",
+          "sourceHash": "c562aa36c2f7",
+          "kind": "weapons",
+          "name": "Lustrous Razor",
+          "fileStem": "21010015",
+          "path": "Prydwen/ww/assets/weapons/lustrous-razor-c562aa36c2f7.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1b276f8aa3db",
+          "sourceHash": "1b276f8aa3db",
+          "kind": "weapons",
+          "name": "Autumntrace",
+          "fileStem": "21010074",
+          "path": "Prydwen/ww/assets/weapons/autumntrace-1b276f8aa3db.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "10623a091d93",
+          "sourceHash": "10623a091d93",
+          "kind": "weapons",
+          "name": "Meditations on Mercy",
+          "fileStem": "21010094",
+          "path": "Prydwen/ww/assets/weapons/meditations-on-mercy-10623a091d93.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "best-echo-sets-40",
+      "level": 6,
+      "heading": "Best Echo Sets",
+      "text": "100.00%\n\nWindward Pilgrimage\n\n Best set for Aero Main DPS characters who can apply Aero Erosion or have an Aero Erosion applier on the team. Grants 10% Aero DMG Bonus and an extra 30% Aero DMG Bonus as well as 10% CRIT Rate for 10s when attacking targets inflicted with Aero Erosion. Offers an extra 10% CRIT Rate over the other Aero sets such as Gusts of Welkin or Sierra Gale, providing extra overall damage so long as Aero Erosion is present on the enemy. In teams without Aero Erosion appliers however, this set is useless comparatively to Sierra Gale.\n Below you can find Main Echo options:\n\n Nightmare: Kelpie\n\n - This Echo provides a free decent amount of Aero DMG when casting Outro Skill in all situations, provides 12% Aero DMG Bonus to Jiyan and while its Transform Active Skill is not used in Jiyan's rotations, it is the best Main Echo he has, albeit by a very small difference when compared to Reminiscence: Fleurdelys (pick what has the best substats overall!)\n\n 94.30%\n\nSierra Gale\n\n Offers a 10% unconditional Aero DMG% boost and an additional 30% Aero DMG% after using the intro lasting 15 seconds for a grand total of 40% additional Aero damage for Jiyan's damage window.\n Below you can find Main Echo options:\n\n Nightmare: Feilian Beringal\n\n - Offers an unconditional 12% Aero DMG and Heavy ATK boost when used as the Main Echo, and additionally is a Summon-type echo making it easy to use in any character's rotation, which often makes it the best option for any character using the set.\n\n Feilian Beringal\n\n - Gives the same buffs as its Nightmare variant, but only after being transformed into, for a duration of 15 seconds. This Echo compensates by dealing close to double the damage of the Nightmare and giving more Energy to the character using it, but it's more difficult to incorporate into rotations, as it needs to be Swap Cancelled after the first hit to be used smoothly while making sure your character gets its buffs.",
+      "assets": [
+        {
+          "id": "be99542697f0",
+          "sourceHash": "be99542697f0",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-17",
+          "path": "Prydwen/ww/assets/icons/set-17-be99542697f0.webp",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "eb3e824f153b",
+          "sourceHash": "eb3e824f153b",
+          "kind": "misc",
+          "name": "Nightmare: Kelpie",
+          "fileStem": "6000113",
+          "path": "Prydwen/ww/assets/misc/nightmare-kelpie-eb3e824f153b.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "380124f06e75",
+          "sourceHash": "380124f06e75",
+          "kind": "icons",
+          "name": "Set",
+          "fileStem": "set-4",
+          "path": "Prydwen/ww/assets/icons/set-4-380124f06e75.webp",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "a1c7d06c019c",
+          "sourceHash": "a1c7d06c019c",
+          "kind": "misc",
+          "name": "Nightmare: Feilian Beringal",
+          "fileStem": "330000140",
+          "path": "Prydwen/ww/assets/misc/nightmare-feilian-beringal-a1c7d06c019c.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "458efc6c0f3e",
+          "sourceHash": "458efc6c0f3e",
+          "kind": "misc",
+          "name": "Feilian Beringal",
+          "fileStem": "330000050",
+          "path": "Prydwen/ww/assets/misc/feilian-beringal-458efc6c0f3e.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "best-echo-stats-41",
+      "level": 2,
+      "heading": "Best Echo Stats",
+      "text": "4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Aero DMG\n\n 3 cost\n ATK% ≥ Aero DMG\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK = Heavy DMG%\n\n Always privilege Aero/ATK in compositions with Ciaccona, otherwise Aero/Aero can be equal to it.",
+      "assets": []
+    },
+    {
+      "id": "best-endgame-stats-level-90-42",
+      "level": 2,
+      "heading": "Best Endgame Stats (Level 90)",
+      "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 15000+\n\n DEF: 1150+\n\n ATK: 1900-2700+\n\n CRIT Rate: 65-80%+\n\n CRIT DMG: 215-260%+\n\n Energy Regen: 115-125%+\n A Iuno+Ciaccona team requires around 117% Energy Regen, but in Shorekeeper/Verina teams more Energy Regen will be required.\n\n Aero DMG Bonus: 20-80%+\n Aero ATK is technically optimal, but Aero Aero still works as a 3 cost option which may cause this stat to vary significantly.",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-43",
+      "level": 2,
+      "heading": "Skill Priority",
+      "text": "Below you can find the order of leveling the abilities for Jiyan .\n Res. Liberation\n\n Forte Circuit\n\n Res. Skill\n\n Intro Skill\n\n Basic Attack\n\n Intro and Basic can be skipped when levelling to save on resources at a minimal damage loss.\n\n Gameplay and teams",
+      "assets": []
+    },
+    {
+      "id": "warm-up-45",
+      "level": 6,
+      "heading": "WARM UP",
+      "text": "While waiting for cooldowns to reset, building energy for Jiyan and cycling through your team for Concerto generation, aim to execute the following warm-up moves:\n Keep Jiyan’s Resonance Skill on cooldown always outside your burst window, as it generates massive Resonance Energy.\n\n Jiyan’s Echo should be used in the warm-up phase but right before his Ultimate usage, so you get Echo buff without reducing time in his Ultimate burst window.",
+      "assets": []
+    },
+    {
+      "id": "burst-combo-46",
+      "level": 6,
+      "heading": "BURST COMBO",
+      "text": "Jiyan’s enhanced Basic Attack, Lance of Qinglong only deals damage, when Jiyan is executing the animation associated, afterwards despite animation continuing on its own, it deals no damage. As such, Dash-Canceling Lance or interrupting it with another skill, allows you to exit the animation state, securing any damage done so far while forgoing any further damage. His Ultimate duration allows for either 6 Lance’s + Skill or 7 Lance’s before being left with little duration, to maximize gain from this duration, we start and cancel another Lance of Qinglong, gaining a bit of damage at cost of minimum rotation time. It can be seen as executing 6 Lance’s, a skill and small portion of 7th Lance of Qinglong with this trick, however it can be ignored if desired, for it is minimal damage gain.\n Echo (Use Jiyan's Echo right before entering the burst combo so the Echo buff is active. Refer to the Echo guide on whether you'll need to Swap-Cancel it.)\n\n Intro\n\n Forte: Emerald Storm\n\n Heavy ATK: Lance of Qinqlong P1 (Interrupt as fast as possible using Resonance Skill)\n\n Resonance Skill\n\n Heavy Attack: Lance of Qinqlong P1\n\n Heavy Attack: Lance of Qinqlong P2\n\n Heavy Attack: Lance of Qinqlong P3\n\n Heavy Attack: Lance of Qinqlong P1\n\n Heavy Attack: Lance of Qinqlong P2\n\n Heavy Attack: Lance of Qinqlong P3\n\n Resonance Skill\n\n Outro",
+      "assets": []
+    },
+    {
+      "id": "double-dragon-combo-47",
+      "level": 6,
+      "heading": "DOUBLE DRAGON COMBO",
+      "text": "If you're a fan of pushing your characters to the limit and want to get more out of your Jiyan, you can go for the Double Dragon Combo instead. This combo is harder to pull off, takes good timing and coordination but when executed correctly deals more damage in a shorter time. As the name suggests executing this combo will allow Jiyan to have two Lance of Qinglong Dragons active and hitting the enemy at the same time.\n This can be achieved by alternating between using the first part of Lance of Qinglong and then at a specific moment interrupting the animation with a dodge cancel. Doing this results in Jiyan executing his Lance of Qinglong faster - enough so that he can start the next one while the hit box of the previous is still on the field. The downside of this combo is that if you don't time your dodge cancels just right, you can end up cutting Lance of Qinglong short, losing a portion of the 8 hits it usually delivers. You'll need to practice and time your cancels to ensure each attack fully executes without any loss. Here is how the rotation is played:\n Intro\n\n Forte: Emerald Storm\n\n Heavy ATK: Lance of Qinqlong P1 (Interrupt as fast as possible using Resonance Skill)\n\n Resonance Skill\n\n Heavy ATK: Lance of Qinqlong P1 (Dodge Cancel)\n\n Heavy ATK: Lance of Qinqlong P1 (Dodge Cancel)\n\n Heavy ATK: Lance of Qinqlong P1 (Dodge Cancel)\n\n Heavy ATK: Lance of Qinqlong P1 (Dodge Cancel)\n\n Heavy ATK: Lance of Qinqlong P1 (Dodge Cancel)\n\n Heavy ATK: Lance of Qinqlong P1 (Dodge Cancel)\n\n Heavy ATK: Lance of Qinqlong P1 (Dodge Cancel)\n\n Resonance Skill\n\n Outro\n\n Due to the faster execution time of the Double Dragon Combo it's possible to execute an 8th lance of Qinglong with perfect play (this is quite difficult though).",
+      "assets": []
+    },
+    {
+      "id": "synergies-48",
+      "level": 2,
+      "heading": "Synergies",
+      "text": "Iuno Phrolova Rebecca Mortefi - As a Heavy Attack Main DMG dealer, Jiyan can function with a variety of Heavy Attack DMG buffers to increase his damage, Iuno being the best overall as she provides the best mix of buffs and personal damage as well as an Aero element synergy. Phrolova is an excellent Dual DPS option who also mixes in some Heavy DMG buffing, while Rebecca and Mortefi are the more accessible Heavy DMG buffing options accessible for free.\n Ciaccona Lynae - These two are more unconventional buffer choices for Jiyan. Ciaccona can either work as an insanely strong secondary in Quickswap Jiyan compositions as none of her buffs expire upon swapping, which means Jiyan can switch in the middle of his Heavy Attacks for Ciaccona to do several complete attack combos while Jiyan is rotating. However, for more casual players, Ciaconna is also undeniably the best third slot teammate for Jiyan alongside Iuno, making for a strong Mono Aero team composition. Lynae is also a possible option alongside Mornye as the duo's generalist buffing potential is enough to outdo any F2P team choices, but will see rarer use as that duo is often better used elsewhere.\n The Shorekeeper Verina Mornye Rover (Aero) - Jiyan works with all kinds of universal Support options. Shorekeeper and Verina are the most obvious picks as they offer a wide variety of generalist, non-specialized buffs that can increase the entire team's damage regardless of who they are. Mornye and Aero Rover are more niche, as Mornye will only see use alongside Rebecca and Lynae for Hack and Tune Rupture synergies respectively, while Aero Rover may be considered alongside Ciaccona outside of Quickswap compositions for an Aero Erosion synergy.",
+      "assets": [
+        {
+          "id": "e6913cb7353a",
+          "sourceHash": "e6913cb7353a",
+          "kind": "characters",
+          "name": "Iuno",
+          "fileStem": "iuno-icon",
+          "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "8367f1df0e13",
+          "sourceHash": "8367f1df0e13",
+          "kind": "characters",
+          "name": "Phrolova",
+          "fileStem": "phrolova-icon",
+          "path": "Prydwen/ww/assets/characters/phrolova-8367f1df0e13.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "59d02501284b",
+          "sourceHash": "59d02501284b",
+          "kind": "characters",
+          "name": "Rebecca",
+          "fileStem": "rebecca-icon",
+          "path": "Prydwen/ww/assets/characters/rebecca-59d02501284b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "4910396b5955",
+          "sourceHash": "4910396b5955",
+          "kind": "characters",
+          "name": "Mortefi",
+          "fileStem": "mortefi-icon",
+          "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ba56fbcc8eb4",
+          "sourceHash": "ba56fbcc8eb4",
+          "kind": "characters",
+          "name": "Ciaccona",
+          "fileStem": "ciaccona-icon",
+          "path": "Prydwen/ww/assets/characters/ciaccona-ba56fbcc8eb4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e366b96f341c",
+          "sourceHash": "e366b96f341c",
+          "kind": "characters",
+          "name": "Lynae",
+          "fileStem": "lynae-icon",
+          "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d909de4aecde",
+          "sourceHash": "d909de4aecde",
+          "kind": "characters",
+          "name": "The Shorekeeper",
+          "fileStem": "the-shorekeeper-icon",
+          "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1b2a8f336e3d",
+          "sourceHash": "1b2a8f336e3d",
+          "kind": "characters",
+          "name": "Verina",
+          "fileStem": "verina-icon",
+          "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "40d7023b51fa",
+          "sourceHash": "40d7023b51fa",
+          "kind": "characters",
+          "name": "Mornye",
+          "fileStem": "mornye-icon",
+          "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "df8c0bc8d49a",
+          "sourceHash": "df8c0bc8d49a",
+          "kind": "characters",
+          "name": "Rover (Aero)",
+          "fileStem": "rover-aero-icon",
+          "path": "Prydwen/ww/assets/characters/rover-aero-df8c0bc8d49a.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "example-teams-49",
+      "level": 2,
+      "heading": "Example Teams",
+      "text": "Best Team\n\n Only consider Ciaccona in the third slot with Jiyan on Windward Pilgrimage, Iuno in the team, and Ciaccona on her Signature Weapon.\n\n Erosion team\n\n Very strong in quickswap with Shorekeeper, can be equal to Jiyan's strongest team; Aero Rover is recommended for more casual players.\n\n Lynae Team\n\n Only consider this team if Lynae and Mornye can't go anywhere else and Iuno isn't available - otherwise it may be a waste to spend such a strong universal buffing duo on Jiyan who has access to strong, free and permanent teammates.\n\n Calculations",
+      "assets": [
+        {
+          "id": "7c6c3a3bc3ce",
+          "sourceHash": "7c6c3a3bc3ce",
+          "kind": "characters",
+          "name": "Jiyan",
+          "fileStem": "jiyan-icon",
+          "path": "Prydwen/ww/assets/characters/jiyan-7c6c3a3bc3ce.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "e6913cb7353a",
+          "sourceHash": "e6913cb7353a",
+          "kind": "characters",
+          "name": "Iuno",
+          "fileStem": "iuno-icon",
+          "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "8367f1df0e13",
+          "sourceHash": "8367f1df0e13",
+          "kind": "characters",
+          "name": "Phrolova",
+          "fileStem": "phrolova-icon",
+          "path": "Prydwen/ww/assets/characters/phrolova-8367f1df0e13.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "59d02501284b",
+          "sourceHash": "59d02501284b",
+          "kind": "characters",
+          "name": "Rebecca",
+          "fileStem": "rebecca-icon",
+          "path": "Prydwen/ww/assets/characters/rebecca-59d02501284b.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "4910396b5955",
+          "sourceHash": "4910396b5955",
+          "kind": "characters",
+          "name": "Mortefi",
+          "fileStem": "mortefi-icon",
+          "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "d909de4aecde",
+          "sourceHash": "d909de4aecde",
+          "kind": "characters",
+          "name": "The Shorekeeper",
+          "fileStem": "the-shorekeeper-icon",
+          "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "ba56fbcc8eb4",
+          "sourceHash": "ba56fbcc8eb4",
+          "kind": "characters",
+          "name": "Ciaccona",
+          "fileStem": "ciaccona-icon",
+          "path": "Prydwen/ww/assets/characters/ciaccona-ba56fbcc8eb4.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "1b2a8f336e3d",
+          "sourceHash": "1b2a8f336e3d",
+          "kind": "characters",
+          "name": "Verina",
+          "fileStem": "verina-icon",
+          "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "df8c0bc8d49a",
+          "sourceHash": "df8c0bc8d49a",
+          "kind": "characters",
+          "name": "Rover (Aero)",
+          "fileStem": "rover-aero-icon",
+          "path": "Prydwen/ww/assets/characters/rover-aero-df8c0bc8d49a.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "e366b96f341c",
+          "sourceHash": "e366b96f341c",
+          "kind": "characters",
+          "name": "Lynae",
+          "fileStem": "lynae-icon",
+          "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+          "width": 120,
+          "height": 120
+        },
+        {
+          "id": "40d7023b51fa",
+          "sourceHash": "40d7023b51fa",
+          "kind": "characters",
+          "name": "Mornye",
+          "fileStem": "mornye-icon",
+          "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+          "width": 120,
+          "height": 120
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "best-echo-stats": {
+      "label": "Best Echo Stats",
+      "sections": [
+        {
+          "heading": "Stats",
+          "text": "Include minor fortes\n\n Lv. 90\n\n HP\n 10488\n\n ATK\n 438\n\n DEF\n 1186\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Aero DMG\n 0 %",
+          "assets": [
+            {
+              "id": "c26c1d310e90",
+              "sourceHash": "c26c1d310e90",
+              "kind": "icons",
+              "name": "HP",
+              "fileStem": "stat-hp",
+              "path": "Prydwen/ww/assets/icons/hp-c26c1d310e90.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "1e70b3adc860",
+              "sourceHash": "1e70b3adc860",
+              "kind": "icons",
+              "name": "ATK",
+              "fileStem": "stat-atk",
+              "path": "Prydwen/ww/assets/icons/atk-1e70b3adc860.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "aa019d34202f",
+              "sourceHash": "aa019d34202f",
+              "kind": "icons",
+              "name": "DEF",
+              "fileStem": "stat-def",
+              "path": "Prydwen/ww/assets/icons/def-aa019d34202f.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "5a0b154cd3d8",
+              "sourceHash": "5a0b154cd3d8",
+              "kind": "icons",
+              "name": "Max Energy",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/ww/assets/icons/max-energy-5a0b154cd3d8.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "39094c227806",
+              "sourceHash": "39094c227806",
+              "kind": "icons",
+              "name": "CRIT Rate",
+              "fileStem": "stat-crit",
+              "path": "Prydwen/ww/assets/icons/crit-rate-39094c227806.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "7e2bcd0760ca",
+              "sourceHash": "7e2bcd0760ca",
+              "kind": "icons",
+              "name": "CRIT DMG",
+              "fileStem": "stat-critdmg",
+              "path": "Prydwen/ww/assets/icons/crit-dmg-7e2bcd0760ca.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "94236abd3fdc",
+              "sourceHash": "94236abd3fdc",
+              "kind": "icons",
+              "name": "Healing",
+              "fileStem": "stat-heal",
+              "path": "Prydwen/ww/assets/icons/healing-94236abd3fdc.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "2133af4a37e3",
+              "sourceHash": "2133af4a37e3",
+              "kind": "icons",
+              "name": "Aero",
+              "fileStem": "stat-wind",
+              "path": "Prydwen/ww/assets/icons/aero-2133af4a37e3.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        },
+        {
+          "heading": "Best Echo Stats",
+          "text": "4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Aero DMG\n\n 3 cost\n ATK% ≥ Aero DMG\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK = Heavy DMG%\n\n Always privilege Aero/ATK in compositions with Ciaccona, otherwise Aero/Aero can be equal to it.",
+          "assets": []
+        }
+      ]
+    },
+    "best-weapons": {
+      "label": "Best Weapons",
+      "sections": [
+        {
+          "heading": "Best Weapons",
+          "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Jiyan calculations were done using added buffs from the following teammates:\n Iuno + Moongazer's Sigil +\n Crown of Valor\n\n Sierra Gale\n\n +\n Lady of the Sea\n\n Ciaccona + Woodland Aria +\n Gusts of Welkin\n\n +\n Nightmare: Kelpie\n\n 100.00%\n\n Verdant Summit (R 1 )\n\n Jiyan's Signature is naturally his best weapon, as it grants him high Base ATK, alongside a lot of DMG Bonus to his main damage type being Heavy Attacks, and a CRIT DMG secondary stat to boot. A good blend of stats for a big damage increase compared to other weapons.\n 90.30%\n\n Thunderflare Dominion (R 1 )\n\n Augusta's Signature provides Jiyan with a massive Base ATK, a small CRIT Rate boost and some Heavy DMG. Not quite as good as his own Signature but still a very nice weapon to use on him.\n 88.30%\n\n Ages of Harvest (R 1 )\n\n Some general DMG Bonus with an emphasis on Skill DMG, alongside solid ATK and CRIT Rate stats make this weapon a solid choice on Jiyan.\n 86.90%\n\n Kumokiri (R 1 )\n\n Simple ATK and CRIT Rate stat-stick for Jiyan, who does not benefit from this weapon's Liberation DMG-focused effects.\n 86.30%\n\n Wildfire Mark (R 1 )\n\n Simple ATK and CRIT DMG stat-stick for Jiyan, who does not benefit from this weapon's Liberation DMG-focused effects - but funnily enough, it can buff Mortefi's damage if he's in Jiyan's team (it does not change this weapon's level of strength though).\n 86.30%\n\n Radiance Cleaver (R 1 )\n\n Best permanently available option for Jiyan, which acts as a simple ATK and CRIT DMG stat-stick for him.\n 83.20%\n\n Aureate Zenith (R 5 )\n\n Best 4-star choice Jiyan has, this Battle Pass exclusive grants him a super easy-to-activate ATK and Heavy DMG passive effect alongside nice ATK and CRIT DMG stats, but its lower Base ATK makes it pale in comparison to most 5-stars.\n 82.30%\n\n Lustrous Razor (R 1 )\n\n Weakest 5-star choice that doesn't grant CRIT from its stats but instead focuses on higher ATK and some Energy Regen. Still viable for Jiyan, but not favoured over above options.\n 77.60%\n\n Autumntrace (R 5 )\n\n This Battle Pass exclusive grants Jiyan some scaling ATK and some CRIT Rate, which is acceptable but not recommended over 5-star choices due to its weak Base ATK.\n 73.10%\n\n Meditations on Mercy (R 5 )\n\n Strongest no-gacha weapon for most Broadblade characters, granting a lot of ATK particularly if Negative Statuses are present on the enemy, but not recommended over 5-star choices.",
+          "assets": [
+            {
+              "id": "e6913cb7353a",
+              "sourceHash": "e6913cb7353a",
+              "kind": "characters",
+              "name": "Iuno",
+              "fileStem": "iuno-icon",
+              "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "e9b4be1a962a",
+              "sourceHash": "e9b4be1a962a",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-19",
+              "path": "Prydwen/ww/assets/icons/set-19-e9b4be1a962a.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "380124f06e75",
+              "sourceHash": "380124f06e75",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-4",
+              "path": "Prydwen/ww/assets/icons/set-4-380124f06e75.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "9cc1c0d4021f",
+              "sourceHash": "9cc1c0d4021f",
+              "kind": "misc",
+              "name": "Lady of the Sea",
+              "fileStem": "6000160",
+              "path": "Prydwen/ww/assets/misc/lady-of-the-sea-9cc1c0d4021f.webp",
+              "width": 35,
+              "height": 35
+            },
+            {
+              "id": "ba56fbcc8eb4",
+              "sourceHash": "ba56fbcc8eb4",
+              "kind": "characters",
+              "name": "Ciaccona",
+              "fileStem": "ciaccona-icon",
+              "path": "Prydwen/ww/assets/characters/ciaccona-ba56fbcc8eb4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "8f23f048132b",
+              "sourceHash": "8f23f048132b",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-15",
+              "path": "Prydwen/ww/assets/icons/set-15-8f23f048132b.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "eb3e824f153b",
+              "sourceHash": "eb3e824f153b",
+              "kind": "misc",
+              "name": "Nightmare: Kelpie",
+              "fileStem": "6000113",
+              "path": "Prydwen/ww/assets/misc/nightmare-kelpie-eb3e824f153b.webp",
+              "width": 35,
+              "height": 35
+            },
+            {
+              "id": "9fafb9f1aada",
+              "sourceHash": "9fafb9f1aada",
+              "kind": "weapons",
+              "name": "Verdant Summit",
+              "fileStem": "21010016",
+              "path": "Prydwen/ww/assets/weapons/verdant-summit-9fafb9f1aada.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "3c42590d0e49",
+              "sourceHash": "3c42590d0e49",
+              "kind": "weapons",
+              "name": "Thunderflare Dominion",
+              "fileStem": "21010046",
+              "path": "Prydwen/ww/assets/weapons/thunderflare-dominion-3c42590d0e49.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "f970567b2315",
+              "sourceHash": "f970567b2315",
+              "kind": "weapons",
+              "name": "Ages of Harvest",
+              "fileStem": "21010026",
+              "path": "Prydwen/ww/assets/weapons/ages-of-harvest-f970567b2315.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "6d5753910c9f",
+              "sourceHash": "6d5753910c9f",
+              "kind": "weapons",
+              "name": "Kumokiri",
+              "fileStem": "21010056",
+              "path": "Prydwen/ww/assets/weapons/kumokiri-6d5753910c9f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "04979eb3f560",
+              "sourceHash": "04979eb3f560",
+              "kind": "weapons",
+              "name": "Wildfire Mark",
+              "fileStem": "21010036",
+              "path": "Prydwen/ww/assets/weapons/wildfire-mark-04979eb3f560.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "137f7d39e41f",
+              "sourceHash": "137f7d39e41f",
+              "kind": "weapons",
+              "name": "Radiance Cleaver",
+              "fileStem": "21010045",
+              "path": "Prydwen/ww/assets/weapons/radiance-cleaver-137f7d39e41f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "6cc4b4799694",
+              "sourceHash": "6cc4b4799694",
+              "kind": "weapons",
+              "name": "Aureate Zenith",
+              "fileStem": "21010104",
+              "path": "Prydwen/ww/assets/weapons/aureate-zenith-6cc4b4799694.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "c562aa36c2f7",
+              "sourceHash": "c562aa36c2f7",
+              "kind": "weapons",
+              "name": "Lustrous Razor",
+              "fileStem": "21010015",
+              "path": "Prydwen/ww/assets/weapons/lustrous-razor-c562aa36c2f7.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1b276f8aa3db",
+              "sourceHash": "1b276f8aa3db",
+              "kind": "weapons",
+              "name": "Autumntrace",
+              "fileStem": "21010074",
+              "path": "Prydwen/ww/assets/weapons/autumntrace-1b276f8aa3db.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "10623a091d93",
+              "sourceHash": "10623a091d93",
+              "kind": "weapons",
+              "name": "Meditations on Mercy",
+              "fileStem": "21010094",
+              "path": "Prydwen/ww/assets/weapons/meditations-on-mercy-10623a091d93.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "best-echo-sets": {
+      "label": "Best Echo Sets",
+      "sections": [
+        {
+          "heading": "Best Echo Sets",
+          "text": "100.00%\n\nWindward Pilgrimage\n\n Best set for Aero Main DPS characters who can apply Aero Erosion or have an Aero Erosion applier on the team. Grants 10% Aero DMG Bonus and an extra 30% Aero DMG Bonus as well as 10% CRIT Rate for 10s when attacking targets inflicted with Aero Erosion. Offers an extra 10% CRIT Rate over the other Aero sets such as Gusts of Welkin or Sierra Gale, providing extra overall damage so long as Aero Erosion is present on the enemy. In teams without Aero Erosion appliers however, this set is useless comparatively to Sierra Gale.\n Below you can find Main Echo options:\n\n Nightmare: Kelpie\n\n - This Echo provides a free decent amount of Aero DMG when casting Outro Skill in all situations, provides 12% Aero DMG Bonus to Jiyan and while its Transform Active Skill is not used in Jiyan's rotations, it is the best Main Echo he has, albeit by a very small difference when compared to Reminiscence: Fleurdelys (pick what has the best substats overall!)\n\n 94.30%\n\nSierra Gale\n\n Offers a 10% unconditional Aero DMG% boost and an additional 30% Aero DMG% after using the intro lasting 15 seconds for a grand total of 40% additional Aero damage for Jiyan's damage window.\n Below you can find Main Echo options:\n\n Nightmare: Feilian Beringal\n\n - Offers an unconditional 12% Aero DMG and Heavy ATK boost when used as the Main Echo, and additionally is a Summon-type echo making it easy to use in any character's rotation, which often makes it the best option for any character using the set.\n\n Feilian Beringal\n\n - Gives the same buffs as its Nightmare variant, but only after being transformed into, for a duration of 15 seconds. This Echo compensates by dealing close to double the damage of the Nightmare and giving more Energy to the character using it, but it's more difficult to incorporate into rotations, as it needs to be Swap Cancelled after the first hit to be used smoothly while making sure your character gets its buffs.",
+          "assets": [
+            {
+              "id": "be99542697f0",
+              "sourceHash": "be99542697f0",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-17",
+              "path": "Prydwen/ww/assets/icons/set-17-be99542697f0.webp",
+              "width": 50,
+              "height": 50
+            },
+            {
+              "id": "eb3e824f153b",
+              "sourceHash": "eb3e824f153b",
+              "kind": "misc",
+              "name": "Nightmare: Kelpie",
+              "fileStem": "6000113",
+              "path": "Prydwen/ww/assets/misc/nightmare-kelpie-eb3e824f153b.webp",
+              "width": 35,
+              "height": 35
+            },
+            {
+              "id": "380124f06e75",
+              "sourceHash": "380124f06e75",
+              "kind": "icons",
+              "name": "Set",
+              "fileStem": "set-4",
+              "path": "Prydwen/ww/assets/icons/set-4-380124f06e75.webp",
+              "width": 50,
+              "height": 50
+            },
+            {
+              "id": "a1c7d06c019c",
+              "sourceHash": "a1c7d06c019c",
+              "kind": "misc",
+              "name": "Nightmare: Feilian Beringal",
+              "fileStem": "330000140",
+              "path": "Prydwen/ww/assets/misc/nightmare-feilian-beringal-a1c7d06c019c.webp",
+              "width": 35,
+              "height": 35
+            },
+            {
+              "id": "458efc6c0f3e",
+              "sourceHash": "458efc6c0f3e",
+              "kind": "misc",
+              "name": "Feilian Beringal",
+              "fileStem": "330000050",
+              "path": "Prydwen/ww/assets/misc/feilian-beringal-458efc6c0f3e.webp",
+              "width": 35,
+              "height": 35
+            }
+          ]
+        }
+      ]
+    },
+    "best-endgame-stats": {
+      "label": "Best Endgame Stats",
+      "sections": [
+        {
+          "heading": "Best Endgame Stats (Level 90)",
+          "text": "All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 15000+\n\n DEF: 1150+\n\n ATK: 1900-2700+\n\n CRIT Rate: 65-80%+\n\n CRIT DMG: 215-260%+\n\n Energy Regen: 115-125%+\n A Iuno+Ciaccona team requires around 117% Energy Regen, but in Shorekeeper/Verina teams more Energy Regen will be required.\n\n Aero DMG Bonus: 20-80%+\n Aero ATK is technically optimal, but Aero Aero still works as a 3 cost option which may cause this stat to vary significantly.",
+          "assets": []
+        }
+      ]
+    },
+    "skill-priority": {
+      "label": "Skill Priority",
+      "sections": [
+        {
+          "heading": "Skill Priority",
+          "text": "Below you can find the order of leveling the abilities for Jiyan .\n Res. Liberation\n\n Forte Circuit\n\n Res. Skill\n\n Intro Skill\n\n Basic Attack\n\n Intro and Basic can be skipped when levelling to save on resources at a minimal damage loss.\n\n Gameplay and teams",
+          "assets": []
+        }
+      ]
+    },
+    "synergies": {
+      "label": "Synergies",
+      "sections": [
+        {
+          "heading": "Synergies",
+          "text": "Iuno Phrolova Rebecca Mortefi - As a Heavy Attack Main DMG dealer, Jiyan can function with a variety of Heavy Attack DMG buffers to increase his damage, Iuno being the best overall as she provides the best mix of buffs and personal damage as well as an Aero element synergy. Phrolova is an excellent Dual DPS option who also mixes in some Heavy DMG buffing, while Rebecca and Mortefi are the more accessible Heavy DMG buffing options accessible for free.\n Ciaccona Lynae - These two are more unconventional buffer choices for Jiyan. Ciaccona can either work as an insanely strong secondary in Quickswap Jiyan compositions as none of her buffs expire upon swapping, which means Jiyan can switch in the middle of his Heavy Attacks for Ciaccona to do several complete attack combos while Jiyan is rotating. However, for more casual players, Ciaconna is also undeniably the best third slot teammate for Jiyan alongside Iuno, making for a strong Mono Aero team composition. Lynae is also a possible option alongside Mornye as the duo's generalist buffing potential is enough to outdo any F2P team choices, but will see rarer use as that duo is often better used elsewhere.\n The Shorekeeper Verina Mornye Rover (Aero) - Jiyan works with all kinds of universal Support options. Shorekeeper and Verina are the most obvious picks as they offer a wide variety of generalist, non-specialized buffs that can increase the entire team's damage regardless of who they are. Mornye and Aero Rover are more niche, as Mornye will only see use alongside Rebecca and Lynae for Hack and Tune Rupture synergies respectively, while Aero Rover may be considered alongside Ciaccona outside of Quickswap compositions for an Aero Erosion synergy.",
+          "assets": [
+            {
+              "id": "e6913cb7353a",
+              "sourceHash": "e6913cb7353a",
+              "kind": "characters",
+              "name": "Iuno",
+              "fileStem": "iuno-icon",
+              "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "8367f1df0e13",
+              "sourceHash": "8367f1df0e13",
+              "kind": "characters",
+              "name": "Phrolova",
+              "fileStem": "phrolova-icon",
+              "path": "Prydwen/ww/assets/characters/phrolova-8367f1df0e13.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "59d02501284b",
+              "sourceHash": "59d02501284b",
+              "kind": "characters",
+              "name": "Rebecca",
+              "fileStem": "rebecca-icon",
+              "path": "Prydwen/ww/assets/characters/rebecca-59d02501284b.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "4910396b5955",
+              "sourceHash": "4910396b5955",
+              "kind": "characters",
+              "name": "Mortefi",
+              "fileStem": "mortefi-icon",
+              "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "ba56fbcc8eb4",
+              "sourceHash": "ba56fbcc8eb4",
+              "kind": "characters",
+              "name": "Ciaccona",
+              "fileStem": "ciaccona-icon",
+              "path": "Prydwen/ww/assets/characters/ciaccona-ba56fbcc8eb4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "e366b96f341c",
+              "sourceHash": "e366b96f341c",
+              "kind": "characters",
+              "name": "Lynae",
+              "fileStem": "lynae-icon",
+              "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d909de4aecde",
+              "sourceHash": "d909de4aecde",
+              "kind": "characters",
+              "name": "The Shorekeeper",
+              "fileStem": "the-shorekeeper-icon",
+              "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1b2a8f336e3d",
+              "sourceHash": "1b2a8f336e3d",
+              "kind": "characters",
+              "name": "Verina",
+              "fileStem": "verina-icon",
+              "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "40d7023b51fa",
+              "sourceHash": "40d7023b51fa",
+              "kind": "characters",
+              "name": "Mornye",
+              "fileStem": "mornye-icon",
+              "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "df8c0bc8d49a",
+              "sourceHash": "df8c0bc8d49a",
+              "kind": "characters",
+              "name": "Rover (Aero)",
+              "fileStem": "rover-aero-icon",
+              "path": "Prydwen/ww/assets/characters/rover-aero-df8c0bc8d49a.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "example-teams": {
+      "label": "Example Teams",
+      "sections": [
+        {
+          "heading": "Example Teams",
+          "text": "Best Team\n\n Only consider Ciaccona in the third slot with Jiyan on Windward Pilgrimage, Iuno in the team, and Ciaccona on her Signature Weapon.\n\n Erosion team\n\n Very strong in quickswap with Shorekeeper, can be equal to Jiyan's strongest team; Aero Rover is recommended for more casual players.\n\n Lynae Team\n\n Only consider this team if Lynae and Mornye can't go anywhere else and Iuno isn't available - otherwise it may be a waste to spend such a strong universal buffing duo on Jiyan who has access to strong, free and permanent teammates.\n\n Calculations",
+          "assets": [
+            {
+              "id": "7c6c3a3bc3ce",
+              "sourceHash": "7c6c3a3bc3ce",
+              "kind": "characters",
+              "name": "Jiyan",
+              "fileStem": "jiyan-icon",
+              "path": "Prydwen/ww/assets/characters/jiyan-7c6c3a3bc3ce.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "e6913cb7353a",
+              "sourceHash": "e6913cb7353a",
+              "kind": "characters",
+              "name": "Iuno",
+              "fileStem": "iuno-icon",
+              "path": "Prydwen/ww/assets/characters/iuno-e6913cb7353a.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "8367f1df0e13",
+              "sourceHash": "8367f1df0e13",
+              "kind": "characters",
+              "name": "Phrolova",
+              "fileStem": "phrolova-icon",
+              "path": "Prydwen/ww/assets/characters/phrolova-8367f1df0e13.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "59d02501284b",
+              "sourceHash": "59d02501284b",
+              "kind": "characters",
+              "name": "Rebecca",
+              "fileStem": "rebecca-icon",
+              "path": "Prydwen/ww/assets/characters/rebecca-59d02501284b.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "4910396b5955",
+              "sourceHash": "4910396b5955",
+              "kind": "characters",
+              "name": "Mortefi",
+              "fileStem": "mortefi-icon",
+              "path": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "d909de4aecde",
+              "sourceHash": "d909de4aecde",
+              "kind": "characters",
+              "name": "The Shorekeeper",
+              "fileStem": "the-shorekeeper-icon",
+              "path": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "ba56fbcc8eb4",
+              "sourceHash": "ba56fbcc8eb4",
+              "kind": "characters",
+              "name": "Ciaccona",
+              "fileStem": "ciaccona-icon",
+              "path": "Prydwen/ww/assets/characters/ciaccona-ba56fbcc8eb4.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "1b2a8f336e3d",
+              "sourceHash": "1b2a8f336e3d",
+              "kind": "characters",
+              "name": "Verina",
+              "fileStem": "verina-icon",
+              "path": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "df8c0bc8d49a",
+              "sourceHash": "df8c0bc8d49a",
+              "kind": "characters",
+              "name": "Rover (Aero)",
+              "fileStem": "rover-aero-icon",
+              "path": "Prydwen/ww/assets/characters/rover-aero-df8c0bc8d49a.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "e366b96f341c",
+              "sourceHash": "e366b96f341c",
+              "kind": "characters",
+              "name": "Lynae",
+              "fileStem": "lynae-icon",
+              "path": "Prydwen/ww/assets/characters/lynae-e366b96f341c.webp",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "id": "40d7023b51fa",
+              "sourceHash": "40d7023b51fa",
+              "kind": "characters",
+              "name": "Mornye",
+              "fileStem": "mornye-icon",
+              "path": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp",
+              "width": 120,
+              "height": 120
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Jiyan Best Build Guide | Wuthering Waves (WuWa)\n \n\n Wuthering Waves\n Home Database Characters Weapons Echoes Banners\n Tier Lists Tier List Team Tier List Value Tier List\n Guides Guides\n Resources Map News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Wuthering Waves\n /\n Characters\n /\n Jiyan\n Jiyan Best Build Guide\n Last updated: 09/June/2026\n\n Introduction\n Best guide and build for Jiyan from WW (Wuthering Waves). Jiyan is a 5 ★ rarity character from the Aero element who uses the Broadblade type weapon.\n Jiyan, leader of the Midnight Rangers, acts with swift and resolute righteousness. He possesses the formidable ability to conjure a powerful Qingloong from the winds, making him invincible on the battlefield.\n\n To learn more about Jiyan check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n This character has no video guide yet.\n\n Update tracker\n Last review update\n Patch 3.2\n\n Last major build/calcs update\n Patch 3.2\n\n Last profile update*\n 09/June/2026\n\n *Profile update means smaller edits to echoes, stats, synergies or teams that don't require new calculations.\n To learn more about Jiyan check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Kit\n\n Review\n\n Build\n\n Gameplay and teams\n\n Calculations\n\n Profile\n\n Skills\n Active skills\n Passive skills\n Concerto skills\n\n Basic Attack\n Lone Lance\n\n Basic Attack\n Perform up to 5 consecutive attacks, dealing Aero DMG.\n Heavy Attack\n Consume Stamina to perform a thrust attack, dealing Aero DMG.\n Heavy Attack: Windborne Strike\n Hold the Basic Attack during Heavy Attack to cast Windborne Strike after the Heavy Attack ends, dealing Aero DMG.\n Heavy Attack: Abyssal Slash\n Release the Basic Attack during the Heavy Attack to cast Abyssal Slash after the Heavy Attack ends, dealing Aero DMG.\n Mid-air Attack\n Consume Stamina to perform a Mid-Air Plunging Attack, dealing Aero DMG. After the Plunging Attack, use Basic Attack to perform a following attack, dealing Aero DMG.\n Mid-air Attack: Banner of Triumph\n After casting the Heavy Attack Windborne Strike or the Resonance Skill Windqueller in the air, Jiyan can perform an aerial attack, dealing Aero DMG.\n Dodge Counter\n Use a Basic Attack after a successful Dodge to attack the target with, dealing Aero DMG.\n\n Multipliers\n\n Resonance Skill\n Windqueller\n\n Dash forward a certain distance, dealing Aero DMG . Can be cast in the air.\n\n Multipliers\n\n Resonance Liberation\n Emerald Storm: Prelude\n\n After releasing Emerald Storm: Prelude, Jiyan enters Qingloong Mode.\n Qingloong Mode\n Jiyan has increased Anti-interruption; Basic Attack, Heavy Attack and Dodge Counter are replaced with Heavy Attack Lance of Qingloong.\n Heavy Attack: Lance of Qingloong\n Perform up to 3 continuous attacks, dealing Aero DMG , considered as Heavy Attack damage.\n\n Multipliers\n\n Forte Circuit\n Qingloong at War\n\n When casting Resonance Skill Windqueller, if Jiyan has 30 or more \"Resolve\", he consumes 30 \"Resolve\" to increase the damage of this Resonance Skill Windqueller by 20%. When Jiyan is in Qingloong Mode, DMG of Resonance Skill Windqueller is increased by 20% and no longer consumes \"Resolve\".\n Resonance Liberation: Emerald Storm: Finale\n When casting Resonance Liberation Emerald Storm: Prelude, if Jiyan has 30 \"Resolve\" or more, he will consume 30 \"Resolve\" to cast Emerald Storm: Finale, dealing Aero DMG , considered as Heavy Attack damage.\nEmerald Storm: Finale can be cast in mid-air at low altitude.\n Resolve\n Jiyan can hold up to 60 Resolve. Jiyan gains \"Resolve\" when his Normal Attack Lone Lance hits the target. Jiyan gains \"Resolve\" when the Intro Skill Tactical Strike hits the target. If Jiyan does not hit a target within 15 seconds, his \"Resolve\" will gradually decrease.\n\n Multipliers\n\n Inherent Skill\n Heavenly Balance\n\n After casting the Intro Skill Tactical Strike, Jiyan's ATK is increased by 10% for 15s .\n\n Inherent Skill\n Tempest Taming\n\n When attacks hit a target, Jiyan's Crit. DMG is increased by 12% for 8s .\n\n Intro Skill\n Tactical Strike\n\n Jiyan stabs the target from the air, dealing Aero DMG .\n\n Multipliers\n\n Outro Skill\n Discipline\n\n When the next Character's (or other Characters on a nearby team that activates an Outro Skill) Heavy Attack hits the target, Jiyan will summon Qingloong to launch a Coordinated Attack, dealing Aero DMG equal to 313.40% of Jiyan's ATK. This attack lasts for 8s , and can be triggered once every 1s , up to 2 times.\n\n Resonance Chain (Dupes)\n S 1\n Sequence Node 1\n\n Resonance Skill Windqueller can be used 1 more time. When casting Resonance Skill Windqueller, the \"Resolve\" cost is decreased by 15 .\n\n S 2\n Sequence Node 2\n\n After casting Intro Skill Tactical Strike, Jiyan gains 30 \"Resolve\" and his ATK is increased by 28% for 15s . This can be triggered once every 15 seconds.\n\n S 3\n Sequence Node 3\n\n When casting Resonance Skill Windqueller, Resonance Liberation Emerald Storm: Prelude, Resonance Skill Emerald Storm: Finale or Intro Skill Tactical Strike, Jiyan's Crit. Rate is increased by 16% and Crit. DMG is increased by 32% for 8s .\n\n S 4\n Sequence Node 4\n\n When casting Resonance Liberation Emerald Storm: Prelude or Resonance Liberation Emerald Storm: Finale, the Heavy Attack DMG Bonus of all team members is increased by 25% for 30s .\n\n S 5\n Sequence Node 5\n\n The DMG multiplier of Outro Skill Discipline is increased by 120%. When Jiyan's attacks hit a target, his ATK is increased by 3% for 8s , stacking up to 15 times; this effect is immediately maxed after he casts Intro Skill Tactical Strike.\n\n S 6\n Sequence Node 6\n\n Every time Heavy Attack, Intro Skill Tactical Strike or Resonance Skill Windqueller is used, Jiyan gains 1 stack(s) of \"Momentum\", stacking up to 2 times.\n Resonance Liberation Emerald Storm: Finale will consume all \"Momentum\", and each stack consumed increases the DMG multiplier of Resonance Liberation Emerald Storm: Finale by 120%.\n\n Minor Fortes (Total)\n CRIT Rate\n + 8 %\n\n ATK%\n + 12 %\n\n Stats\n\nInclude minor fortes\n\n Lv. 90\n\n HP\n 10488\n\n ATK\n 438\n\n DEF\n 1186\n\n Max Energy\n 125\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 150 %\n\n Healing Bonus\n 0 %\n\n Aero DMG\n 0 %\n\n Upgrade Materials\n Character Ascension (total)\n 4 x LF Howler Core\n 12 x MF Howler Core\n 12 x HF Howler Core\n 4 x FF Howler Core\n 46 x Roaring Rock Fist\n 60 x Pecok Flower\n 170 000 Shell Credits\n\n Skill Upgrades (total)\n 25 x LF Howler Core\n 28 x MF Howler Core\n 40 x HF Howler Core\n 57 x FF Howler Core\n 25 x Waveworn Residue 210\n 28 x Waveworn Residue 226\n 55 x Waveworn Residue 235\n 67 x Waveworn Residue 239\n 26 x Monument Bell\n 2 030 000 Shell Credits\n\n While the source of the materials can be quickly found in the game, when it comes Pecok Flower you will have to gather them from the map. Check our Interactive map to find them quickly:\n\n Interactive Map\n\n Voice Actors\n ENG\n Alex Jordan\n\n JPN\n Ono Yuki\n\n CN\n Sun Ye\n\n KR\n Nam Doh Hyeong\n\n Gallery\n\n Review\n\n Ratings\n Please keep in mind Wuthering Waves is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Wuthering Waves is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n DPS\n T1.5\n Tower of Adversity\n\n T1.5\n Whimpering Wastes\n\n Value Tier List\n DPS\n T2\n Tower of Adversity (Value)\n\n T3\n Whimpering Wastes (Value)\n\n Pros & Cons\n Pros\n Incredible Burst Damage during Ultimate\n\n One of the best AoE DPS characters in the game\n\n Can gather and crowd control enemies constantly during ultimate\n\n Can constantly parry most elite and boss enemies during main combo\n\n Easy and straightforward to play\n\n Scales insanely well with sequences if you want to invest more into him\n\n Cons\n Completely Ultimate reliant with all his meaningful damage occurring during his ultimate window\n\n Without correct cooldown management and energy regeneration will feel clunky to play as Ultimate will not be ready in time.\n\n Review\n Jiyan is a 5-star Aero Broadblade wielding DPS that excels at AoE damage and is best suited for Hyper Carry teams as the majority of his damage potential is tied to his Ultimate burst window. Buffing this Ultimate window up as much as possible is incredibly potent and should be your focus when playing Jiyan. Jiyan doesn’t have much to benefit from swap canceling any of his abilities especially during his ultimate burst window. Such tactics often result in a damage loss for Jiyan during said ultimate, as such Quick-Swap teams have little to offer him.\n Jiyan recharges his Forte Gauge with his Basic Attacks and Intro Skill accumulating Resolve. You can use 30 points (half bar) of Resolve to enhance either his Resonance Skill increasing its damage dealt by 20% or enhance his Ultimate by incorporating a massive draconic strike to it upon its activation. It is advised strongly to keep Resolve to execute this empowered Ultimate instead compared to enhancing his Resonance Skill, which gives a mediocre result.\n His Resonance Skill is a simple spear thrust combining a forward dash with a good amount of Aero Damage and generating decent Concerto Energy and Resonance Energy.\n Jiyan’s Ultimate Skill makes him enter Qingloong mode, which enhances his standard Basic Attack combo, Heavy Attacks as well as Dodge Counter into a 3 part Heavy Attack Combo named Lance of Qingloong. This summons a gigantic dragon with each executed attack that revolves around Jiyan dealing damage 8 times per attack, as well as sweeping all enemies (excluding most elites, all boss monsters and rooted enemies) into air making them move with the summoned dragon. While in this mode, he is less likely to be stunned or launched owing to increased anti-interruption; thanks to this combined with its massive range and immobilization abilities, his Ultimate Skill is incredibly strong offensively as well as defensively.\n Jiyan spends the entire duration of his Ultimate Skill on field in order to maximize his DPS, after which he can leave, allowing other characters to step in. However you will still want to switch him in often to cast his low CD Resonance skill to generate enough Resonance Energy to recast his Ultimate in a timely manner. Due to this field time requirement, he needs to be used in Hyper Carry compositions. In return, he brings enormous AoE as well as ST damage to battles during his Ultimate Skill burst rotation while simultaneously inflicting crowd control on most of his enemies and parrying those he can’t, making him a force to be reckoned with.\n Considering all he brings to the table, he is extremely easy to play. To attain his incredible DPS output during his burst window, all you need to ensure is that he has all the buffs he requires prior to its casting and that he is generating enough Resonance Energy to recast it as required.\n As is appropriate for his Main DPS build, Jiyan aims to maximize his DPS by utilizing damage-focused Echo and set combo.\n Overall, Jiyan is currently one of the best DPS for Tower of Adversary and is extremely unlikely to phase out of meta anytime soon, owing to his very strong niche of combined ST and AoE DPS skills complete with crowd control abilities.\n\n Video guides\n Jiyan guide videos aren't available yet.\n\n Build\n\n Best Weapons\n The percentages show the performance of the weapon based on calculations , but in some cases, some weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n\n Jiyan calculations were done using added buffs from the following teammates:\n Iuno + Moongazer's Sigil +\n Crown of Valor\n\n Sierra Gale\n\n +\n Lady of the Sea\n\n Ciaccona + Woodland Aria +\n Gusts of Welkin\n\n +\n Nightmare: Kelpie\n\n 100.00%\n\n Verdant Summit (R 1 )\n\n Jiyan's Signature is naturally his best weapon, as it grants him high Base ATK, alongside a lot of DMG Bonus to his main damage type being Heavy Attacks, and a CRIT DMG secondary stat to boot. A good blend of stats for a big damage increase compared to other weapons.\n 90.30%\n\n Thunderflare Dominion (R 1 )\n\n Augusta's Signature provides Jiyan with a massive Base ATK, a small CRIT Rate boost and some Heavy DMG. Not quite as good as his own Signature but still a very nice weapon to use on him.\n 88.30%\n\n Ages of Harvest (R 1 )\n\n Some general DMG Bonus with an emphasis on Skill DMG, alongside solid ATK and CRIT Rate stats make this weapon a solid choice on Jiyan.\n 86.90%\n\n Kumokiri (R 1 )\n\n Simple ATK and CRIT Rate stat-stick for Jiyan, who does not benefit from this weapon's Liberation DMG-focused effects.\n 86.30%\n\n Wildfire Mark (R 1 )\n\n Simple ATK and CRIT DMG stat-stick for Jiyan, who does not benefit from this weapon's Liberation DMG-focused effects - but funnily enough, it can buff Mortefi's damage if he's in Jiyan's team (it does not change this weapon's level of strength though).\n 86.30%\n\n Radiance Cleaver (R 1 )\n\n Best permanently available option for Jiyan, which acts as a simple ATK and CRIT DMG stat-stick for him.\n 83.20%\n\n Aureate Zenith (R 5 )\n\n Best 4-star choice Jiyan has, this Battle Pass exclusive grants him a super easy-to-activate ATK and Heavy DMG passive effect alongside nice ATK and CRIT DMG stats, but its lower Base ATK makes it pale in comparison to most 5-stars.\n 82.30%\n\n Lustrous Razor (R 1 )\n\n Weakest 5-star choice that doesn't grant CRIT from its stats but instead focuses on higher ATK and some Energy Regen. Still viable for Jiyan, but not favoured over above options.\n 77.60%\n\n Autumntrace (R 5 )\n\n This Battle Pass exclusive grants Jiyan some scaling ATK and some CRIT Rate, which is acceptable but not recommended over 5-star choices due to its weak Base ATK.\n 73.10%\n\n Meditations on Mercy (R 5 )\n\n Strongest no-gacha weapon for most Broadblade characters, granting a lot of ATK particularly if Negative Statuses are present on the enemy, but not recommended over 5-star choices.\n\n Best Echo Sets\n Best Echo Sets\n 100.00%\n\nWindward Pilgrimage\n\n Best set for Aero Main DPS characters who can apply Aero Erosion or have an Aero Erosion applier on the team. Grants 10% Aero DMG Bonus and an extra 30% Aero DMG Bonus as well as 10% CRIT Rate for 10s when attacking targets inflicted with Aero Erosion. Offers an extra 10% CRIT Rate over the other Aero sets such as Gusts of Welkin or Sierra Gale, providing extra overall damage so long as Aero Erosion is present on the enemy. In teams without Aero Erosion appliers however, this set is useless comparatively to Sierra Gale.\n Below you can find Main Echo options:\n\n Nightmare: Kelpie\n\n - This Echo provides a free decent amount of Aero DMG when casting Outro Skill in all situations, provides 12% Aero DMG Bonus to Jiyan and while its Transform Active Skill is not used in Jiyan's rotations, it is the best Main Echo he has, albeit by a very small difference when compared to Reminiscence: Fleurdelys (pick what has the best substats overall!)\n\n 94.30%\n\nSierra Gale\n\n Offers a 10% unconditional Aero DMG% boost and an additional 30% Aero DMG% after using the intro lasting 15 seconds for a grand total of 40% additional Aero damage for Jiyan's damage window.\n Below you can find Main Echo options:\n\n Nightmare: Feilian Beringal\n\n - Offers an unconditional 12% Aero DMG and Heavy ATK boost when used as the Main Echo, and additionally is a Summon-type echo making it easy to use in any character's rotation, which often makes it the best option for any character using the set.\n\n Feilian Beringal\n\n - Gives the same buffs as its Nightmare variant, but only after being transformed into, for a duration of 15 seconds. This Echo compensates by dealing close to double the damage of the Nightmare and giving more Energy to the character using it, but it's more difficult to incorporate into rotations, as it needs to be Swap Cancelled after the first hit to be used smoothly while making sure your character gets its buffs.\n\n Best Echo Stats\n 4 cost\n CRIT Rate / CRIT DMG\n\n 3 cost\n Aero DMG\n\n 3 cost\n ATK% ≥ Aero DMG\n\n 1 cost\n ATK%\n\n 1 cost\n ATK%\n\n Substats: Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK = Heavy DMG%\n\n Always privilege Aero/ATK in compositions with Ciaccona, otherwise Aero/Aero can be equal to it.\n\n Best Endgame Stats (Level 90)\n All recommended endgame stats portray a fairly good quality endgame build as a goal to aim for on most characters. However, don’t treat this as an end-all-be-all, and more of a suggestion.\n All stat recommendations are given at S0 for 5-stars, S6 for 4-stars, and free characters (unless specified otherwise), based on total stats in the in-game stat-screen with the character out of combat but also active in the party (and hence some buffs may or may not apply). Any other precision may be directly specified. If not specified, Energy Regen requirements are estimated in the character’s best team.\n HP: 15000+\n\n DEF: 1150+\n\n ATK: 1900-2700+\n\n CRIT Rate: 65-80%+\n\n CRIT DMG: 215-260%+\n\n Energy Regen: 115-125%+\n A Iuno+Ciaccona team requires around 117% Energy Regen, but in Shorekeeper/Verina teams more Energy Regen will be required.\n\n Aero DMG Bonus: 20-80%+\n Aero ATK is technically optimal, but Aero Aero still works as a 3 cost option which may cause this stat to vary significantly.\n\n Skill Priority\n Below you can find the order of leveling the abilities for Jiyan .\n Res. Liberation\n\n Forte Circuit\n\n Res. Skill\n\n Intro Skill\n\n Basic Attack\n\n Intro and Basic can be skipped when levelling to save on resources at a minimal damage loss.\n\n Gameplay and teams\n\n Rotation\n WARM UP\n While waiting for cooldowns to reset, building energy for Jiyan and cycling through your team for Concerto generation, aim to execute the following warm-up moves:\n Keep Jiyan’s Resonance Skill on cooldown always outside your burst window, as it generates massive Resonance Energy.\n\n Jiyan’s Echo should be used in the warm-up phase but right before his Ultimate usage, so you get Echo buff without reducing time in his Ultimate burst window.\n\n BURST COMBO\n Jiyan’s enhanced Basic Attack, Lance of Qinglong only deals damage, when Jiyan is executing the animation associated, afterwards despite animation continuing on its own, it deals no damage. As such, Dash-Canceling Lance or interrupting it with another skill, allows you to exit the animation state, securing any damage done so far while forgoing any further damage. His Ultimate duration allows for either 6 Lance’s + Skill or 7 Lance’s before being left with little duration, to maximize gain from this duration, we start and cancel another Lance of Qinglong, gaining a bit of damage at cost of minimum rotation time. It can be seen as executing 6 Lance’s, a skill and small portion of 7th Lance of Qinglong with this trick, however it can be ignored if desired, for it is minimal damage gain.\n Echo (Use Jiyan's Echo right before entering the burst combo so the Echo buff is active. Refer to the Echo guide on whether you'll need to Swap-Cancel it.)\n\n Intro\n\n Forte: Emerald Storm\n\n Heavy ATK: Lance of Qinqlong P1 (Interrupt as fast as possible using Resonance Skill)\n\n Resonance Skill\n\n Heavy Attack: Lance of Qinqlong P1\n\n Heavy Attack: Lance of Qinqlong P2\n\n Heavy Attack: Lance of Qinqlong P3\n\n Heavy Attack: Lance of Qinqlong P1\n\n Heavy Attack: Lance of Qinqlong P2\n\n Heavy Attack: Lance of Qinqlong P3\n\n Resonance Skill\n\n Outro\n\n DOUBLE DRAGON COMBO\n If you're a fan of pushing your characters to the limit and want to get more out of your Jiyan, you can go for the Double Dragon Combo instead. This combo is harder to pull off, takes good timing and coordination but when executed correctly deals more damage in a shorter time. As the name suggests executing this combo will allow Jiyan to have two Lance of Qinglong Dragons active and hitting the enemy at the same time.\n This can be achieved by alternating between using the first part of Lance of Qinglong and then at a specific moment interrupting the animation with a dodge cancel. Doing this results in Jiyan executing his Lance of Qinglong faster - enough so that he can start the next one while the hit box of the previous is still on the field. The downside of this combo is that if you don't time your dodge cancels just right, you can end up cutting Lance of Qinglong short, losing a portion of the 8 hits it usually delivers. You'll need to practice and time your cancels to ensure each attack fully executes without any loss. Here is how the rotation is played:\n Intro\n\n Forte: Emerald Storm\n\n Heavy ATK: Lance of Qinqlong P1 (Interrupt as fast as possible using Resonance Skill)\n\n Resonance Skill\n\n Heavy ATK: Lance of Qinqlong P1 (Dodge Cancel)\n\n Heavy ATK: Lance of Qinqlong P1 (Dodge Cancel)\n\n Heavy ATK: Lance of Qinqlong P1 (Dodge Cancel)\n\n Heavy ATK: Lance of Qinqlong P1 (Dodge Cancel)\n\n Heavy ATK: Lance of Qinqlong P1 (Dodge Cancel)\n\n Heavy ATK: Lance of Qinqlong P1 (Dodge Cancel)\n\n Heavy ATK: Lance of Qinqlong P1 (Dodge Cancel)\n\n Resonance Skill\n\n Outro\n\n Due to the faster execution time of the Double Dragon Combo it's possible to execute an 8th lance of Qinglong with perfect play (this is quite difficult though).\n\n Synergies\n Iuno Phrolova Rebecca Mortefi - As a Heavy Attack Main DMG dealer, Jiyan can function with a variety of Heavy Attack DMG buffers to increase his damage, Iuno being the best overall as she provides the best mix of buffs and personal damage as well as an Aero element synergy. Phrolova is an excellent Dual DPS option who also mixes in some Heavy DMG buffing, while Rebecca and Mortefi are the more accessible Heavy DMG buffing options accessible for free.\n Ciaccona Lynae - These two are more unconventional buffer choices for Jiyan. Ciaccona can either work as an insanely strong secondary in Quickswap Jiyan compositions as none of her buffs expire upon swapping, which means Jiyan can switch in the middle of his Heavy Attacks for Ciaccona to do several complete attack combos while Jiyan is rotating. However, for more casual players, Ciaconna is also undeniably the best third slot teammate for Jiyan alongside Iuno, making for a strong Mono Aero team composition. Lynae is also a possible option alongside Mornye as the duo's generalist buffing potential is enough to outdo any F2P team choices, but will see rarer use as that duo is often better used elsewhere.\n The Shorekeeper Verina Mornye Rover (Aero) - Jiyan works with all kinds of universal Support options. Shorekeeper and Verina are the most obvious picks as they offer a wide variety of generalist, non-specialized buffs that can increase the entire team's damage regardless of who they are. Mornye and Aero Rover are more niche, as Mornye will only see use alongside Rebecca and Lynae for Hack and Tune Rupture synergies respectively, while Aero Rover may be considered alongside Ciaccona outside of Quickswap compositions for an Aero Erosion synergy.\n Example Teams\n Best Team\n\n Only consider Ciaccona in the third slot with Jiyan on Windward Pilgrimage, Iuno in the team, and Ciaccona on her Signature Weapon.\n\n Erosion team\n\n Very strong in quickswap with Shorekeeper, can be equal to Jiyan's strongest team; Aero Rover is recommended for more casual players.\n\n Lynae Team\n\n Only consider this team if Lynae and Mornye can't go anywhere else and Iuno isn't available - otherwise it may be a waste to spend such a strong universal buffing duo on Jiyan who has access to strong, free and permanent teammates.\n\n Calculations"
+}

@@ -1,0 +1,1476 @@
+{
+  "id": "characters:march-7th-evernight",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "march-7th-evernight",
+  "name": "March 7th • Evernight",
+  "title": "March 7th • Evernight Best Build Guide",
+  "sourcePath": "/star-rail/characters/march-7th-evernight",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "31/May/2026",
+  "meta": {
+    "title": "March 7th • Evernight Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Ice",
+    "path": "Remembrance"
+  },
+  "assets": [
+    {
+      "id": "787da7cf2b25",
+      "sourceHash": "787da7cf2b25",
+      "kind": "characters",
+      "name": "March 7th • Evernight",
+      "fileStem": "march-7th-evernight-card",
+      "path": "Prydwen/hsr/assets/characters/march-7th-evernight-787da7cf2b25.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "af5b8acc8f63",
+      "sourceHash": "af5b8acc8f63",
+      "kind": "icons",
+      "name": "CRIT Rate",
+      "fileStem": "stat-critrate",
+      "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "44c437b21b3a",
+      "sourceHash": "44c437b21b3a",
+      "kind": "icons",
+      "name": "CRIT DMG",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "96654253a4f7",
+      "sourceHash": "96654253a4f7",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "dc6aec4a7776",
+      "sourceHash": "dc6aec4a7776",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "a6be649090ba",
+      "sourceHash": "a6be649090ba",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "087f2dec68b6",
+      "sourceHash": "087f2dec68b6",
+      "kind": "icons",
+      "name": "Speed",
+      "fileStem": "stat-speed",
+      "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "50d0e755383a",
+      "sourceHash": "50d0e755383a",
+      "kind": "items",
+      "name": "Credit",
+      "fileStem": "credit",
+      "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "a677c0eac85e",
+      "sourceHash": "a677c0eac85e",
+      "kind": "items",
+      "name": "Ethereal Omen",
+      "fileStem": "ethereal-omen",
+      "path": "Prydwen/hsr/assets/items/ethereal-omen-a677c0eac85e.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "dec5a804803d",
+      "sourceHash": "dec5a804803d",
+      "kind": "echoes",
+      "name": "Echoing Wail",
+      "fileStem": "echoing-wail",
+      "path": "Prydwen/hsr/assets/echoes/echoing-wail-dec5a804803d.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "e8c4b532685c",
+      "sourceHash": "e8c4b532685c",
+      "kind": "items",
+      "name": "Sea Siren's Torn Fin",
+      "fileStem": "sea-sirens-torn-fin",
+      "path": "Prydwen/hsr/assets/items/sea-sirens-torn-fin-e8c4b532685c.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "c910987cea6e",
+      "sourceHash": "c910987cea6e",
+      "kind": "items",
+      "name": "Eternal Lament",
+      "fileStem": "eternal-lament",
+      "path": "Prydwen/hsr/assets/items/eternal-lament-c910987cea6e.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "95ed5616b882",
+      "sourceHash": "95ed5616b882",
+      "kind": "characters",
+      "name": "March 7th • Evernight",
+      "fileStem": "march-7th-evernight-full",
+      "path": "Prydwen/hsr/assets/characters/march-7th-evernight-95ed5616b882.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "85dbd94ed500",
+      "sourceHash": "85dbd94ed500",
+      "kind": "light-cones",
+      "name": "To Evernight's Stars",
+      "fileStem": "to-evernights-stars",
+      "path": "Prydwen/hsr/assets/light-cones/to-evernights-stars-85dbd94ed500.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "b1b035879f08",
+      "sourceHash": "b1b035879f08",
+      "kind": "light-cones",
+      "name": "Make Farewells More Beautiful",
+      "fileStem": "make-farewells-more-beautiful",
+      "path": "Prydwen/hsr/assets/light-cones/make-farewells-more-beautiful-b1b035879f08.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "948dcf65a447",
+      "sourceHash": "948dcf65a447",
+      "kind": "light-cones",
+      "name": "Sweat Now, Cry Less",
+      "fileStem": "sweat-now-cry-less",
+      "path": "Prydwen/hsr/assets/light-cones/sweat-now-cry-less-948dcf65a447.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "66b0d588409b",
+      "sourceHash": "66b0d588409b",
+      "kind": "light-cones",
+      "name": "The Flower Remembers",
+      "fileStem": "the-flower-remembers",
+      "path": "Prydwen/hsr/assets/light-cones/the-flower-remembers-66b0d588409b.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "b6cb0c99005d",
+      "sourceHash": "b6cb0c99005d",
+      "kind": "light-cones",
+      "name": "The Story's Next Page",
+      "fileStem": "the-storys-next-page",
+      "path": "Prydwen/hsr/assets/light-cones/the-storys-next-page-b6cb0c99005d.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "58c2a044512d",
+      "sourceHash": "58c2a044512d",
+      "kind": "light-cones",
+      "name": "Time Waits for No One",
+      "fileStem": "time-waits-for-no-one",
+      "path": "Prydwen/hsr/assets/light-cones/time-waits-for-no-one-58c2a044512d.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "de9d54f233b5",
+      "sourceHash": "de9d54f233b5",
+      "kind": "light-cones",
+      "name": "Memory's Curtain Never Falls",
+      "fileStem": "memorys-curtain-never-falls",
+      "path": "Prydwen/hsr/assets/light-cones/memorys-curtain-never-falls-de9d54f233b5.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "4e4defeee5d3",
+      "sourceHash": "4e4defeee5d3",
+      "kind": "relics",
+      "name": "World-Remaking Deliverer",
+      "fileStem": "world-remaking-deliverer",
+      "path": "Prydwen/hsr/assets/relics/world-remaking-deliverer-4e4defeee5d3.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "f521b7a2ee25",
+      "sourceHash": "f521b7a2ee25",
+      "kind": "relics",
+      "name": "Scholar Lost in Erudition",
+      "fileStem": "scholar-lost-in-erudition",
+      "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "58e79f548454",
+      "sourceHash": "58e79f548454",
+      "kind": "relics",
+      "name": "Longevous Disciple",
+      "fileStem": "longevous-disciple",
+      "path": "Prydwen/hsr/assets/relics/longevous-disciple-58e79f548454.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "0c7e5b9d3ab7",
+      "sourceHash": "0c7e5b9d3ab7",
+      "kind": "relics",
+      "name": "Hunter of Glacial Forest",
+      "fileStem": "hunter-of-glacial-forest",
+      "path": "Prydwen/hsr/assets/relics/hunter-of-glacial-forest-0c7e5b9d3ab7.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "6206930710f0",
+      "sourceHash": "6206930710f0",
+      "kind": "relics",
+      "name": "Bone Collection's Serene Demesne",
+      "fileStem": "bone-collections-serene-demesne",
+      "path": "Prydwen/hsr/assets/relics/bone-collections-serene-demesne-6206930710f0.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "19f596f01746",
+      "sourceHash": "19f596f01746",
+      "kind": "relics",
+      "name": "Arcadia of Woven Dreams",
+      "fileStem": "arcadia-of-woven-dreams",
+      "path": "Prydwen/hsr/assets/relics/arcadia-of-woven-dreams-19f596f01746.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5a409c0b426e",
+      "sourceHash": "5a409c0b426e",
+      "kind": "icons",
+      "name": "Ice DMG",
+      "fileStem": "stat-icedmg",
+      "path": "Prydwen/hsr/assets/icons/ice-dmg-5a409c0b426e.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "106ddd8eff32",
+      "sourceHash": "106ddd8eff32",
+      "kind": "icons",
+      "name": "Energy Regen",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "fd3d60695240",
+      "sourceHash": "fd3d60695240",
+      "kind": "characters",
+      "name": "Castorice",
+      "fileStem": "castorice-icon",
+      "path": "Prydwen/hsr/assets/characters/castorice-fd3d60695240.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "005597837585",
+      "sourceHash": "005597837585",
+      "kind": "characters",
+      "name": "Cyrene",
+      "fileStem": "cyrene-icon",
+      "path": "Prydwen/hsr/assets/characters/cyrene-005597837585.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "1d90270b2b4b",
+      "sourceHash": "1d90270b2b4b",
+      "kind": "characters",
+      "name": "Hyacine",
+      "fileStem": "hyacine-icon",
+      "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "d3e344772d55",
+      "sourceHash": "d3e344772d55",
+      "kind": "characters",
+      "name": "Trailblazer • Remembrance",
+      "fileStem": "trailblazer-remembrance-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "565914d1a436",
+      "sourceHash": "565914d1a436",
+      "kind": "icons",
+      "name": "Quantum",
+      "fileStem": "ele-quantum",
+      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "e6a5c98adfc4",
+      "sourceHash": "e6a5c98adfc4",
+      "kind": "characters",
+      "name": "March 7th • Evernight",
+      "fileStem": "march-7th-evernight-icon",
+      "path": "Prydwen/hsr/assets/characters/march-7th-evernight-e6a5c98adfc4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "7d36eb39792a",
+      "sourceHash": "7d36eb39792a",
+      "kind": "icons",
+      "name": "Ice",
+      "fileStem": "ele-ice",
+      "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "ee11bd390c9a",
+      "sourceHash": "ee11bd390c9a",
+      "kind": "icons",
+      "name": "Wind",
+      "fileStem": "ele-wind",
+      "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "2cde7699adbf",
+      "sourceHash": "2cde7699adbf",
+      "kind": "characters",
+      "name": "Tribbie",
+      "fileStem": "tribbie-icon",
+      "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "b77207bce6c8",
+      "sourceHash": "b77207bce6c8",
+      "kind": "characters",
+      "name": "Ruan Mei",
+      "fileStem": "ruan-mei-icon",
+      "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "99361e4717fa",
+      "sourceHash": "99361e4717fa",
+      "kind": "characters",
+      "name": "Mortenax Blade",
+      "fileStem": "blade-mortenax-icon",
+      "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "92feb26d8f0e",
+      "sourceHash": "92feb26d8f0e",
+      "kind": "icons",
+      "name": "Fire",
+      "fileStem": "ele-fire",
+      "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+      "width": 22,
+      "height": 22
+    }
+  ],
+  "sections": [
+    {
+      "id": "march-7th-evernight-best-build-guide-0",
+      "level": 1,
+      "heading": "March 7th • Evernight Best Build Guide",
+      "text": "Last updated: 31/May/2026",
+      "assets": [
+        {
+          "id": "787da7cf2b25",
+          "sourceHash": "787da7cf2b25",
+          "kind": "characters",
+          "name": "March 7th • Evernight",
+          "fileStem": "march-7th-evernight-card",
+          "path": "Prydwen/hsr/assets/characters/march-7th-evernight-787da7cf2b25.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for March 7th • Evernight from HSR (Honkai: Star Rail). March 7th • Evernight is a 5 ★ character from the Ice element who follows the Path of Remembrance .\n In the secluded Memory Zone, candlelight casts echoes of the past, softly fading away in the mist. Evernight, child of Remembrance born from the shadow, Chrysos Heir who conceals the Coreflame of Time, you shall stir the tide of Oblivion, guarding the wish of the mirrored soul.\n\n To learn more about March 7th • Evernight check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "March 7th • Evernight has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 3.6\n\n Last major build/calcs update\n Patch 3.6\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about March 7th • Evernight check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic ATK\n Time Thence Blurs\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Ice DMG equal to #1[i]% of Evernight's Max HP to one designated enemy.\n\n Skill\n Day Gently Slips\n Summon\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to #1[i]% of Evernight's CRIT DMG for 2 turn(s). Duration decreases by 1 at the start of each of Evernight's turns. If Evey is already on the field, restores 50% of its Max HP. When used, gains 2 \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional \"Memoria.\"\n\n Ultimate\n O Wakeful World, Goodnight\n AoE | 240 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 30\n\n Summons memosprite Evey, then memosprite Evey deals Ice DMG equal to #1[i]% of Evey's Max HP to all enemies, and causes Evernight to enter the \"Darkest Riddle\" state. During this state, the DMG received by all enemies increases by #2[i]%, the DMG dealt by Evernight and memosprite Evey increases by #3[i]%, and both Evernight and memosprite Evey are immune to Crowd Control debuffs. Gains 2 \"Darkest Riddle\" Charge(s). Memosprite Evey consumes 1 Charge after using \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charges remain, exits the \"Darkest Riddle\" state.\n\n Talent\n With Me, This Night\n Enhance\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n When entering combat, summons memosprite Evey. Memosprite Evey has 160 SPD by default, and its Max HP is 50% of Evernight's Max HP. Each time Evernight or memosprite Evey loses HP, increases CRIT DMG for both this unit and memosprite Evey by #1[i]% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target per attack. When Evernight has 16 or more \"Memoria,\" dispels and becomes immune to Crowd Control debuffs. If memosprite Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after memosprite Evey uses \"Dream, Dissolving, as Dew.\"\n\n Technique\n Let it Rain Cold On Thee\n\n Energy gain: 0\n Break: -\n\n After using Technique, at the start of the next battle, gains an effect identical to the Skill which increases all allies' memosprite CRIT DMG, and gains 1 point(s) of \"Memoria.\"",
+      "assets": []
+    },
+    {
+      "id": "memosprite-skills-10",
+      "level": 2,
+      "heading": "Memosprite Skills",
+      "text": "Memosprite Skill\n Remembrance, Whirling, Like Rain\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n This ability automatically selects a target, prioritizing the enemy target that Evernight last attacked. Deals Ice DMG equal to #1[i]% of Evey's Max HP to one enemy. For every 4 point(s) of \"Memoria\" Evernight currently has, further deals Ice DMG equal to #2[i]% of Evey's Max HP. After use, Evernight gains 1 point(s) of \"Memoria.\"\n Memosprite Skill\n Dream, Dissolving, as Dew\n AoE\n\n Lv. 1\n\n Energy gain: 10\n Break: 30 + 20 adjacent\n\n When Evernight's \"Memoria\" is greater than or equal to 16 points, and Evernight is not under a Crowd Control state, this ability can be used. For each point of \"Memoria\" currently in possession, deals Ice DMG equal to #1[i]% of Evey's Max HP to the primary target, and Ice DMG equal to #2[i]% of Evey's Max HP to other enemy targets. After use, consumes all \"Memoria\" and HP, and Evey disappears.\n\n Memosprite Talent\n Solitude, Drifting, In Murk\n Support\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n Evey is immune to Crowd Control debuffs but has increased chance of being targeted. While Evernight is on the field, increases DMG dealt by Evernight and Evey by #1[i]%.\n Memosprite Talent\n Night, Trailing, In Step\n Support\n\n Energy gain: 0\n Break: -\n\n When summoned, this unit immediately takes action.\n Memosprite Talent\n You, Parting, Beyond Reach\n Enhance\n\n Energy gain: 0\n Break: -\n\n Upon disappearing, increases Evernight's SPD by 10%. If the disappearance is due to using \"Dream, Dissolving, as Dew,\" for each point of \"Memoria\" used in this attack, additionally increases Evernight's SPD by 1%, counting up to 40 point(s) of \"Memoria.\" The SPD Boost effect cannot stack, and is removed at the start of Evernight's next turn.",
+      "assets": []
+    },
+    {
+      "id": "major-traces-11",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "A2 Major trace\n Dark the Night, Still the Moon\n\n Increases Evernight and the memosprite Evey's CRIT Rate by 35% . When using abilities, consumes 5% of this unit's current HP to increase both their CRIT DMG by 15% for 2 turn(s). After memosprite Evey uses \"Dream, Dissolving, as Dew,\" recovers 1 Skill Point for allies.\n\n A4 Major trace\n Rouse the Flame, Lull the Light\n\n At the start of combat, Evernight regenerates 70 Energy and gains 1 \"Memoria.\" When Evernight or an ally memosprite uses an ability, Evernight regenerates 5 Energy and gains 1 \"Memoria.\"\n\n A6 Major trace\n Kindle the Morn, Drop the Rain\n\n When there are 1/2/3/4 or more Remembrance characters in the team, while Evernight's Skill persists, additionally increases all memosprites' CRIT DMG by 5%/15%/50%/65% .",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-12",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "CRIT Rate\n + 18.7%\n\n CRIT DMG\n + 13.3%\n\n HP\n + 18%",
+      "assets": [
+        {
+          "id": "af5b8acc8f63",
+          "sourceHash": "af5b8acc8f63",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-critrate",
+          "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "44c437b21b3a",
+          "sourceHash": "44c437b21b3a",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "eidolons-13",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "E 1\n Sleep Tight, the Night Dreams Long\n Eidolon 1\n\n When Evernight is on the field and when there are 4 or more/3/2/1 enemy targets on the field, ally memosprites deal 120%/125%/130%/150% of their original DMG respectively.\n\n E 2\n Listen Up, the Slumber Speaks Soft\n Eidolon 2\n\n Increases Evernight's and memosprite Evey's CRIT DMG by 40% . Each time Evernight gains \"Memoria,\" increases the gained \"Memoria\" by 2 point(s). When using Ultimate, additionally gains 2 \"Darkest Riddle\" state Charge(s).\n\n E 3\n Fear Not, the Nightmare Lies Past\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10. Memosprite Talent Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Wake Up, the Tomorrow is Yours\n Eidolon 4\n\n While Evernight is on the field, ally memosprites' Weakness Break Efficiency increases by 25% , and memosprite Evey gains an additional 25% Weakness Break Efficiency.\n\n E 5\n Let Go, the \"Me\" in Memories\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15. Memosprite Skill Lv. +1 , up to a maximum of Lv. 10.\n\n E 6\n Like This, Always\n Eidolon 6\n\n While Evernight is on the field, all allies' All-Type RES PEN increases by 20% . After memosprite Evey uses \"Dream, Dissolving, as Dew,\" Evernight gains 30% of the consumed \"Memoria\" in this attack.",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-14",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Enable Ascension",
+      "assets": []
+    },
+    {
+      "id": "level-80-stats-15",
+      "level": 5,
+      "heading": "Level 80 stats",
+      "text": "HP\n\n 1323\n\n ATK\n\n 543\n\n DEF\n\n 582\n\n Speed\n\n 99",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "level-1-80-ascension-materials-16",
+      "level": 5,
+      "heading": "Level 1 → 80 Ascension Materials",
+      "text": "Credit\n\n x 308000\n\n Ethereal Omen\n\n x 15\n\n Echoing Wail\n\n x 15\n\n Sea Siren's Torn Fin\n\n x 65\n\n Eternal Lament\n\n x 15",
+      "assets": [
+        {
+          "id": "50d0e755383a",
+          "sourceHash": "50d0e755383a",
+          "kind": "items",
+          "name": "Credit",
+          "fileStem": "credit",
+          "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "a677c0eac85e",
+          "sourceHash": "a677c0eac85e",
+          "kind": "items",
+          "name": "Ethereal Omen",
+          "fileStem": "ethereal-omen",
+          "path": "Prydwen/hsr/assets/items/ethereal-omen-a677c0eac85e.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "dec5a804803d",
+          "sourceHash": "dec5a804803d",
+          "kind": "echoes",
+          "name": "Echoing Wail",
+          "fileStem": "echoing-wail",
+          "path": "Prydwen/hsr/assets/echoes/echoing-wail-dec5a804803d.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "e8c4b532685c",
+          "sourceHash": "e8c4b532685c",
+          "kind": "items",
+          "name": "Sea Siren's Torn Fin",
+          "fileStem": "sea-sirens-torn-fin",
+          "path": "Prydwen/hsr/assets/items/sea-sirens-torn-fin-e8c4b532685c.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "c910987cea6e",
+          "sourceHash": "c910987cea6e",
+          "kind": "items",
+          "name": "Eternal Lament",
+          "fileStem": "eternal-lament",
+          "path": "Prydwen/hsr/assets/items/eternal-lament-c910987cea6e.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "cv-17",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n Skyler Davenport\n\n JPN\n Yui Ogura (小倉唯)\n\n CN\n Nuò Yǎ (诺亚)\n\n KR\n Jung Hye-Won (정혜원)",
+      "assets": []
+    },
+    {
+      "id": "gallery-18",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "95ed5616b882",
+          "sourceHash": "95ed5616b882",
+          "kind": "characters",
+          "name": "March 7th • Evernight",
+          "fileStem": "march-7th-evernight-full",
+          "path": "Prydwen/hsr/assets/characters/march-7th-evernight-95ed5616b882.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "pros-20",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Phenomenal damage output in all content,\n\n Huge HP and HP scaling,\n\n Excellent damage buffs for herself and all ally memosprites,\n\n Provides Vulnerability with her Ultimate,\n\n Excellent as a main DPS or as a sub DPS for Remembrance teams,\n\n Surprisingly SP positive,\n\n Great performance floor,\n\n Very impressive scalability,\n\n Rewarding mastery curve,\n\n Umbrella (massive aura gains).",
+      "assets": []
+    },
+    {
+      "id": "cons-21",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Poor F2P Light Cone options,\n\n Can be challenging to play to her fullest,\n\n Buffs are almost exclusively for memosprites,\n\n Fails a selfie (massive aura loss).",
+      "assets": []
+    },
+    {
+      "id": "overview-23",
+      "level": 6,
+      "heading": "[Overview]",
+      "text": "Evernight is an exceptional Remembrance DPS character, scaling her damage off of HP. She follows a similar playstyle to Castorice, summoning a memosprite to have it nuke the field and make a dramatic exit. Evernight has a plethora of team buffs and self buffs for memosprite-based damage dealers, making her a fantastic DPS to use in a dual DPS setup with existing and future Remembrance characters, and an extraordinarily competitive solo DPS to boot, all while being SP positive. The price for this power is that Evernight is highly challenging to play compared to existing characters.",
+      "assets": []
+    },
+    {
+      "id": "intro-24",
+      "level": 6,
+      "heading": "[Intro]",
+      "text": "The edgier March 7th, Evernight, has at last graced us with her presence, hopefully to answer a few lingering questions we have. If I had a nickel for every time a Remembrance DPS sent their memosprite to gloriously explode, I'd have two nickels, which isn't a lot, but it's weird that it's happened twice.\n Evernight is designed in a similar vein to Anaxa; meant to supplement an existing DPS character while still being viable on their own two feet. Evernight's 'intended' partner (at least right now) is Castorice, and she makes that team incredibly powerful, not that it needed the help. The question then is 'Does Evernight follow in Anaxa's footsteps fully?', and the answer to that is a bit complicated, but essentially 'Yes'. I'll get to it later.\n Evernight is so damn strong, but she is really quite challenging to play to her fullest. You really need to know what she's about so that you can adjust and adapt as combat goes on; Evernight's performance floor is already very high so you don't need to worry about her losing a lot of strength if you mess up, but her performance ceiling is... honestly rather frightening.",
+      "assets": []
+    },
+    {
+      "id": "abilities-25",
+      "level": 6,
+      "heading": "[Abilities]",
+      "text": "This is going to be a long section. As is often the case with Remembrance characters, their memosprite abilities also require mention, but unlike other Remembrance characters, Evernight's got so many Proper Terms™ that it makes it hard to follow along. I'll do my best to break things down into a logical format.\n Evernight's memosprite is called Evey. Evey is forever immune to Crowd Control and has an increased chance of being targeted by enemies. Evey has 160 SPD by default, and its Max HP is equal to 50% of Evernight's Max HP. While Evernight is on the field, the DMG dealt by both Evernight and Evey is increased by 50%.\n Evernight has a stacking mechanic called Memoria, which gets used to empower Evernight's attacks. This comes up pretty much everywhere, so it's worth a mention all on its own. Important to note that Evey does NOT need to be summoned in order for Evernight to be able to gain Memoria (this has potential ramifications for optimisation).\n For her Talent, Evernight automatically summons Evey upon entering combat. Every time that Evernight or Evey lose HP, they both gain 60% increased CRIT DMG for 2 turns. The HP loss will also grant 2 Memoria. These effects can only trigger once per target per attack. When Evernight gets to at least 16 stacks of Memoria, she will immediately dispel all Crowd Control effects, and then becomes immune to further Crowd Control. At the same time, Evey will immediately take action.\n Ordinarily, Evey will act automatically on its turn, shooting a water jet dealing 50% of Evey's Max HP to the last enemy Evernight damaged. This is increased by 10% of Evey's Max HP for every 4 Memoria. After this attack, Evernight gets 1 Memoria. However, when at least 16 Memoria has been gained, Evey's attack will be empowered, becoming Dream, Dissolving, as Dew. We're gonna call this Explosion from now on, because it's shorter and more accurate to the damage it can deal.\n This explosive attack hits all enemies on the field, but selects a primary target that takes extra damage. For every point of Memoria, this attack will deal 12% Evey Max HP to the primary target, and 6% Evey Max HP to the remaining enemies. This attack deals a staggering 30 Toughness to its main target, and 20 Toughness to the rest. This attack will consume all stacks of Memoria, and all of Evey's HP, and Evey will then disappear.\n When Evey disappears from the field, Evernight's SPD increases by 10%. If the disappearance was due to Evey Exploding, for each point of Memoria used in this attack, Evernight's SPD is additionally increased by 1%, counting up to 40 points of Memoria, for a total potential boost of 50%. This SPD boost cannot stack, and is removed at the start of Evernight's next turn.\n Evernight's Skill will consume 10% of her current HP to summon Evey to the field. At the same time, she will increase the CRIT DMG of all ally memosprites by an amount equal to 24% of Evernight's CRIT DMG for 2 turns. This ticks down at the start of Evernight's turns. If Evey is already summoned, it restores 50% Max HP to it. Using her Skill will also grant 2 stacks of Memoria. This Skill does not consume SP.\n Evernight's Ultimate costs a rather large 240 Energy. Using it will summon Evey if it's not present, and then deal Ice DMG equal to 200% of Evey's Max HP to all enemies on the field. This will also put Evernight into the Darkest Riddle state.\n During Darkest Riddle, all enemies are afflicted with a 30% Vulnerability, the DMG dealt by Evernight and Evey is increased by 60%, and both Evernight and Evey become immune to Crowd Control effects. Using the Ultimate grants 2 charges of Darkest Riddle, with 1 charge being consumed when Evey uses its Explosion. When there are no charges left at the start of Evernight's turn, she will exit the Darkest Riddle state. Most importantly, during Darkest Riddle, the Skill will restore an additional 12 Memoria, for a total of 14 per Skill use. This is how you turbo-charge your Memoria gain, and what leads to highly impressive damage.\n This is mostly it, and it's a lot, I know, but hopefully it makes some amount of sense.\n Evernight stacks up Memoria to empower Evey once at least 16 stacks are reached. Evey uses its empowered Explosion to deal heavy damage to all enemies and disappears from the field. Evernight's Ultimate lets her deal vastly increased damage and lets her stack a huge amount of Memoria easily, leading to even stronger Explosions from Evey. Use the massive SPD boost from Evey's explosive departure to start the cycle anew.\n The amount of damage that starts coming out from Evey is honestly staggering, and quite consistently accessed too. Memoria can be stacked through a huge number of ways, including just taking damage or consuming HP, so it goes up pretty quickly.\n Memoria itself doesn't appear to have a cap (or at least not one's that is reachable), and can get to some hilarious values. Seeing these red jellyfish accost the battlefield and violently detonate for damage in the millions is as amusing as it is jaw-dropping. The numbers in the kit by themselves don't seem like much, but I assure you, the base kit descriptions do a poor job of selling just how powerful this synergistic kit is.",
+      "assets": []
+    },
+    {
+      "id": "bonus-traces-26",
+      "level": 6,
+      "heading": "[Bonus Traces]",
+      "text": "These add to Evernight's already quite impressive kit, making her even more self-synergistic and less reliant on outside influences to achieve her gameplan.\n Her A2 will increase Evernight's and Evey's CRIT Rate by 35%, permanently. When using abilities, consumes 5% of the respective unit's current HP to increase both units' CRIT DMG by 15% for 2 turns. When Evey uses its Memoria-empowered Explosion, 1 Skill Point will be recovered for allies.\n This is incredible. This creates even more opportunities to generate Memoria for Evernight, since every single ability that either she or Evey uses will grant an extra 2 Memoria from the HP drain from her Talent. The extra 35% CRIT Rate makes it even easier to focus on CRIT DMG and HP stacking, and can much more easily guarantee a 100% CRIT Rate in combat. The cherry on top is that now when Evey violently departs the field, this absurdly powerful attack now also restores a Skill Point, meaning that Evernight is achieving this damage while being completely SP positive, a first of its kind.\n Evernight's A4 addresses the extremely high Energy cost of her Ultimate. At the start of combat, Evernight regenerates 70 Energy and gains 1 Memoria. When Evernight, or any ally memosprite uses an ability, Evernight regenerates 5 Energy and gains 1 Memoria.\n Aside from the stellar kickstart to fights, this also helps to provide a steady influx of Energy from just doing what you'd already be doing. Evernight herself provides enough benefits for more consistent Ultimates, so that's already very strong, but pairing her with fellow Remembrance characters, some of whom are already likely to be in the party, just means even more Energy and Memoria.\n Lastly, Evernight's A6 will grant benefits based on the number of Remembrance characters in the team. When there are 1/2/3/4 or more Remembrance characters, and while Evernight's Skill effects persist, additionally increase all memosprites' CRIT DMG by 5%/15%/50%/65%. Four Remembrance characters is a bit steep at the moment because a couple of them are quite heavily contested supports (ignore the vaguely Elysia-shaped object in the distance, we're not there yet), but three Remembrance characters is very doable, which is where the biggest increase lies. 50% increased CRIT DMG for memosprites just for building the team you were probably going to be building anyway is extremely potent, especially since it'll also be applying the benefits to the memosprites of the other allies.\n As far as Bonus Traces go, these are exceptionally good, with not one dud on the list. Even the Minor Traces are all fantastic with CRIT Rate, CRIT DMG, and HP%. Remarkable, really.",
+      "assets": []
+    },
+    {
+      "id": "eidolons-27",
+      "level": 6,
+      "heading": "[Eidolons]",
+      "text": "Oh boy.\n Evernight's E1 will make it so that ally memosprites deal increased damage based on the number of enemies on the field: 4 or more/3/2/1 enemy targets will increase memosprite damage to 120%/125%/130%/150% of the original damage, respectively. This is a final damage multiplier so it's incredibly powerful, and its conditions are literally always met in some capacity. This is an absurd E1, not just for herself but for any other Remembrance characters on the team. The only question is what are you going to do with all that overkill damage.\n And of course, the E2. This increases Evernight's and Evey's CRIT DMG by 40%, and makes it so that every time Evernight gains stacks of Memoria, she will gain an additional 2 stacks. Plus, when using her Ultimate, she will gain an additional 2 charges of Darkest Riddle.\n Already, boosting all Memoria sources by a flat +2 is stupid, because there are a lot of ways of gaining small values of Memoria, and it can skyrocket the number of Memoria you have when it's time for Evy to Explode, resulting in Very Funny Numbers™. On top of that, getting 4 total charges of Darkest Riddle pretty much means that if things are going really well, you'll have very low downtime between Ultimate empowerments, able to be in Darkest Riddle pretty much permanently.\n This honestly may be one of the most ridiculous E2s in the entire game, and that's really saying something. Completely and unequivocally unnecessary, but very, very amusing.",
+      "assets": []
+    },
+    {
+      "id": "the-rest-28",
+      "level": 6,
+      "heading": "[The Rest]",
+      "text": "Well, there's not much else to say really. Despite the absolute wall of text that each and every single ability in Evernight's kit has, the kit itself is not too too difficult to understand in practice; bit of fiddling around in game and you should be able to intuit most of what's going on.\n Because the kit is like this, and as mentioned earlier, the performance floor is already very high; there's not really many ways for you to completely screw yourself over unless you're literally only ever using her Basic ATK and never using Ultimate. But seeking to get the maximum output from Evernight is where the true challenge lies, and this is particularly difficult, because a fair bit of it isn't really directly up to you.\n Evey gets advanced whenever Evernight reaches or passes 16 Memoria, and this can end up happening during enemy actions, since losing HP will grant Memoria. Ally memosprites' actions may push you just over the Memoria threshold and now you're also out of alignment, perhaps even just before Evernight's turn. You may even deliberately opt not to resummon Evey on your turn to try and get more Memoria stacked, or to delay the burst to a better moment, or even to prolong the Darkest Riddle state on Evernight. There are very many possibilities.\n As such, there are quite a few ways that you can miss out on 'optimal damage' because of these idiosyncrasies. Even just the constantly fluctuating SPD boost that Evernight gets after Evey Explodes is far too unpredictable to consistently play around.\n This is why I alluded to intuition. It really is up to the player to circumvent or play around these unique circumstances as and when they come up, and this is maybe not so difficult once you're comfortable with the character, but can most assuredly be a source of frustration until you are. Even still, getting even some of the way into the challenging spectrum sees Evernight returning damage numbers that are frankly disgusting, and with little effort too. She is much like a good knife: if you keep the edge honed and sharpened, it will never fail you when you need it most.\n Pseudo-profound statements aside, let's talk teams. Or rather, Team, parentheses, singular. Yeah, as a HP based Remembrance character, it's entirely unsurprising that the number one teammate is Hyacine. I know, I know, please everyone act surprised. Hyacine's prowess at buffing Max HP and healing effortlessly pair very well with Evernight's kit, especially since it's so easy to set up. This is of course without even mentioning Little Ica, the memosprite who most certainly can and will destroy the foes in front of you. With Evernight gaining benefits from having other Remembrance characters, as well as the benefits she can share with other memosprites, it's a match made in heaven, and it's undoubtedly the best option (especially if you have Hyacine's Light Cone).\n The Remembrance Trailblazer also does not get any rest days and is the next on the list of immaculate supports for Evernight. As a HP based Remembrance... Hey wait a second...\n Nobody should be surprised, please do not act surprised, everyone and their mums knows what the Remembrance Trailblazer does and why it's good — only it's even better for Evernight because of her absolutely absurd Max Energy, meaning she gets the full whopping 50% True DMG bonus from the Mem's Support buff, and boy does she take it all the way to the bank, not to mention the insane battery effect that Evernight has for Mem's Ult gauge due to the constant Energy gains.\n Even more amusing is that you can use Mem's Support to advance Evernight ahead of Evey during the Darkest Riddle state, letting you get an extra 14 Memoria Skill use off before Evey Explodes. This lets you stack Memoria up higher, and also get more Memoria total than you would otherwise be able to, since Darkest Riddle charges are only consumed by Evey Exploding.\n And there you go, with just those two, you've also fulfilled the criteria for Evernight's A6 to reach its big breakpoint, granting every memosprite a further 50% CRIT DMG, making Little Ica hit harder, and Mem buff even more.\n To address the Netherwing in the room, you may have noticed that this seems an awful lot like the Castorice team, in which case I must applaud your keen skills of discernment. Yes, indeed, the Hyacine + Remembrance Trailblazer combo is notoriously potent on a number of teams, but it's been especially powerful for Castorice, and now for Evernight as well. With the direction that Evernight's kit has, it is very easy to come to the conclusion that 'Evernight was designed to be paired with Castorice'.\n While a somewhat shallow analysis, it's not entirely wrong. Castorice benefits immensely from what Evernight can offer her, boasting not only extreme personal damage output, but the ability to buff the other memosprite that enjoys blowing itself to smithereens, and take it to even more absurd heights.\n The two of them together on one team is absolutely frightening, and they play off of each other magnificently, especially since now there's potentially 4 memosprites in total, meaning Castorice has 8 targets she can siphon HP from to charge her Ultimate, so not only is Netherwing much stronger, but can come back so quickly that the dust from their previous dramatic exit hasn't settled yet.\n Using Evernight in this team lets you free up either the Remembrance Trailblazer, or Tribbie to be used in other teams. Given that these are two of the absolute most contested supports in the game right now by a colossal margin, this is already absolutely invaluable, because it's on top of all the other benefits.\n Now we boomerang back to the question posed at the start: 'is she like Anaxa in the other way too'. The 'other way' of course referencing the fact that Anaxa is oftentimes stronger than the DPS he was designed to supplement.\n Evernight is so strong on her own, that if you take Castorice's current best team, and put Evernight in place of Castorice, you would be achieving very similar performance. If you then are capable of overcoming the challenges that Evernight throws your way in combat, you can possibly even exceed that performance, getting close to what you'll see by having both Castorice and Evernight together. This is to say, that if you have Castorice already, Evernight is a great upgrade to the team, but that Evernight most assuredly does not need Castorice to be at her best, and the vertical investment options presented with Evernight genuinely left me speechless the first time I looked at them.\n Evernight is... truly something else.\n Of course, this is quite literally the only team you've got right now, at least as far as optimal setups go, as there are no substitutes that come close to what Hyacine, Tribbie, and the Remembrance Trailblazer can offer you. Perhaps this will change with Cyrene, but at least for now, your options outside of that are more limited. Naturally, there are similar units that can get most of the way there if you're in a pinch. The other two thirds of the Quantum Supersupports, Cipher and Silver Wolf, are also always going to be good, for all the myriad reasons those two are good everywhere else. It just works™.\n Ruan Mei is in much the same boat, but can be a potentially useful substitute, especially in places like Apocalyptic Shadow, where Toughness Damage is king, and Evernight already does more than a bit of that by default, so buffing it further, plus the All-Type RES PEN, makes for a good show as well.\n Other stranger things can work too, especially since Evernight is actually SP positive (which I'm still reeling over by the way), but try not to go too crazy, since Evernight still wants a minimum number of Remembrance characters on the team to make as much of her A6 as possible. If a character hasn't been mentioned up until now, that's probably for a reason (though turbo free-to-plays can still use Gallagher because he's the GOAT, and that's a fact).\n Lastly, she is a limited Remembrance character, and that means that her signature Light Cone is quite significantly ahead of alternatives. This is just how it is, there are very few variations that exist, and pretty much all of them are considerably inferior to Evernight's signature.\n Having said that, due to Evernight's current strength, as well as the extremely high likelihood that she will continue to be useful for the HP Remembrance archetype moving forward, it would not be a short-sighted thing to seek to acquire said Light Cone.",
+      "assets": []
+    },
+    {
+      "id": "wrap-up-29",
+      "level": 6,
+      "heading": "[Wrap up]",
+      "text": "So there you have it. If you've made it this far, you know how impressed I am by Evernight, and all the good reasons for it, too. Her overall options may be a fair bit more limited than other DPS characters, but her kit is so good that it doesn't matter, and if in future there are more characters that work with her, she'll be able to make it shine no matter what. I must stress again, so that it's abundantly clear, Evernight can be tricky to pilot. Do not let this discourage you, and do not use it to insinuate her lack of strength. She is well deserving of the praise and accolades.\n And after all, she is Best Girl, let's not forget. What, you think that edgy exterior and artisanal brolly suddenly change who she is? No, no, no. That's March 7th, and all it takes is one look in the mirror.\n 'Despite everything, it's still you.'",
+      "assets": []
+    },
+    {
+      "id": "ratings-30",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.",
+      "assets": []
+    },
+    {
+      "id": "damage-dealer-31",
+      "level": 5,
+      "heading": "Damage dealer",
+      "text": "T0.5\n MoC\n\n T0\n PF\n\n T0.5\n AS",
+      "assets": []
+    },
+    {
+      "id": "support-dps-32",
+      "level": 5,
+      "heading": "Support DPS",
+      "text": "T0\n MoC\n\n T0\n PF\n\n T0\n AS\n\n Build and teams\n\n Due to the nature of March 7th • Evernight kit, we've simulated her performance alongside other Remembrance units as well as including the Memoria stacks she's expected to get from her team and via taking damage. Because of this, while her Light Cone, Relic and Eidolon calculations are more accurate, her damage numbers cannot be compared 1 to 1 with other characters on the site.",
+      "assets": []
+    },
+    {
+      "id": "best-light-cones-34",
+      "level": 2,
+      "heading": "Best Light Cones",
+      "text": "124.32%\n\n To Evernight's Stars (S 1 )\n\n Clear best option for Sub-DPS Evernight. The Energy refund helps offset her high 240 Energy cost Ultimate, and offers a teamwide 20% DEF Ignore for all memosprites. Still a top choice for Main DPS.\n Usage: 67.33 %\n MoC: 6.87 cyc.\n PF: 40000\n AS: 3560\n\n 122.65%\n\n Make Farewells More Beautiful (S 1 )\n\n Competitive option for Main DPS Evernight, thanks to it providing higher Base HP, a stronger DEF Ignore effect, and an Action Advance that can let her reach new SPD breakpoints. Whether this is worth the trade off of energy regen and a damage increase is situational though. Much less competitive with her signature when playing Sub-DPS Evernight as the sig grants bonuses to the whole team.\n Usage: 1.8 %\n MoC: 7.29 cyc.\n PF: 39562\n AS: 3472\n\n 107.69%\n\n Sweat Now, Cry Less (S 5 )\n\n A solid pure damage Evernight target, thanks to its high HP and bonus stats, but can result in Evernight overcapping on CRIT RATE when played alongside CRIT RATE buffing supports like Rememberance Trailblazer. Offers nothing in the way of support for Sub DPS Evernight. Will perform worse than listed when overcapping on CRIT RATE.\n Usage: 7.31 %\n MoC: 8.25 cyc.\n PF: 38598\n AS: 3434\n\n 102.63%\n\n The Flower Remembers (S 1 )\n\n Provides CRIT DMG to both Evernight and Evey, allowing Evey to \"double dip\" on the buff thanks to Evernight CRIT DMG sharing. Has a lower ceiling compared to Sweat Now, Cry Less, but doesn't have the same CRIT RATE overcapping issues. A reasonable target for both Evernight playstyles while offering Sub-DPS Evernight some extra benefit thanks to CRIT DMG sharing.\n Usage: 6.01 %\n MoC: 8.38 cyc.\n PF: 38830\n AS: 3417\n\n 100%\n\n Sweat Now, Cry Less (S 1 )\n\n Weaker than S5 but runs into less CRIT RATE overcapping issues - a solid choice for those that invest into the Battle Pass.\n Usage: 7.31 %\n MoC: 8.25 cyc.\n PF: 38598\n AS: 3434\n\n 95.94%\n\n The Story's Next Page (S 5 )\n\n A pure HP stat stick for Evernight which falls behind more offensively-oriented alternatives, but is fine if there if you have nothing else.\n Usage: 4.45 %\n MoC: 8.09 cyc.\n PF: 37983\n AS: 3422\n\n 93.20%\n\n Time Waits for No One (S 1 )\n\n As an alternative to The Story's Next Page (and in similar deperate situations) any Cone from any Path with high base HP can also be ran on Evernight. Aim for Light Cones with at least 1270 HP if possible.\n Usage: 1.44 %\n MoC: 8.16 cyc.\n PF: 37409\n AS: 3415",
+      "assets": [
+        {
+          "id": "85dbd94ed500",
+          "sourceHash": "85dbd94ed500",
+          "kind": "light-cones",
+          "name": "To Evernight's Stars",
+          "fileStem": "to-evernights-stars",
+          "path": "Prydwen/hsr/assets/light-cones/to-evernights-stars-85dbd94ed500.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "b1b035879f08",
+          "sourceHash": "b1b035879f08",
+          "kind": "light-cones",
+          "name": "Make Farewells More Beautiful",
+          "fileStem": "make-farewells-more-beautiful",
+          "path": "Prydwen/hsr/assets/light-cones/make-farewells-more-beautiful-b1b035879f08.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "948dcf65a447",
+          "sourceHash": "948dcf65a447",
+          "kind": "light-cones",
+          "name": "Sweat Now, Cry Less",
+          "fileStem": "sweat-now-cry-less",
+          "path": "Prydwen/hsr/assets/light-cones/sweat-now-cry-less-948dcf65a447.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "66b0d588409b",
+          "sourceHash": "66b0d588409b",
+          "kind": "light-cones",
+          "name": "The Flower Remembers",
+          "fileStem": "the-flower-remembers",
+          "path": "Prydwen/hsr/assets/light-cones/the-flower-remembers-66b0d588409b.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "b6cb0c99005d",
+          "sourceHash": "b6cb0c99005d",
+          "kind": "light-cones",
+          "name": "The Story's Next Page",
+          "fileStem": "the-storys-next-page",
+          "path": "Prydwen/hsr/assets/light-cones/the-storys-next-page-b6cb0c99005d.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "58c2a044512d",
+          "sourceHash": "58c2a044512d",
+          "kind": "light-cones",
+          "name": "Time Waits for No One",
+          "fileStem": "time-waits-for-no-one",
+          "path": "Prydwen/hsr/assets/light-cones/time-waits-for-no-one-58c2a044512d.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "specialist-light-cones-35",
+      "level": 3,
+      "heading": "Specialist Light Cones",
+      "text": "Memory's Curtain Never Falls (S 5 )\n\n A purely supportive option for Sub-DPS Evernight's that want to buff her team at the cost of her own damage (and that don't have access to her signature). Underwhelming for Evernight's personal damage due to its low Base HP but recovers its viability through its buff for Sub-DPS only.\n Usage: 5.82 %\n MoC: 8 cyc.\n PF: 38947\n AS: 3456",
+      "assets": [
+        {
+          "id": "de9d54f233b5",
+          "sourceHash": "de9d54f233b5",
+          "kind": "light-cones",
+          "name": "Memory's Curtain Never Falls",
+          "fileStem": "memorys-curtain-never-falls",
+          "path": "Prydwen/hsr/assets/light-cones/memorys-curtain-never-falls-de9d54f233b5.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-relic-sets-37",
+      "level": 2,
+      "heading": "Best Relic Sets",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n World-Remaking Deliverer ( 4 -PC)\n\n Set designed specifically for Evernight and her clear best choice for both the Sub DPS and Main DPS playstyle. The combination of 2P CRIT Rate, great uptime on the 24% HP increase and self/team buffing capabilities pull it significantly ahead other options.\n Usage: 99.14 %\n MoC: 7.43 cyc.\n PF: 39513\n AS: 3488\n\n 91.11%\n\n World-Remaking Deliverer ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Scholar Lost in Erudition\n\n Longevous Disciple\n\n Hunter of Glacial Forest",
+      "assets": [
+        {
+          "id": "4e4defeee5d3",
+          "sourceHash": "4e4defeee5d3",
+          "kind": "relics",
+          "name": "World-Remaking Deliverer",
+          "fileStem": "world-remaking-deliverer",
+          "path": "Prydwen/hsr/assets/relics/world-remaking-deliverer-4e4defeee5d3.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "f521b7a2ee25",
+          "sourceHash": "f521b7a2ee25",
+          "kind": "relics",
+          "name": "Scholar Lost in Erudition",
+          "fileStem": "scholar-lost-in-erudition",
+          "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "58e79f548454",
+          "sourceHash": "58e79f548454",
+          "kind": "relics",
+          "name": "Longevous Disciple",
+          "fileStem": "longevous-disciple",
+          "path": "Prydwen/hsr/assets/relics/longevous-disciple-58e79f548454.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "0c7e5b9d3ab7",
+          "sourceHash": "0c7e5b9d3ab7",
+          "kind": "relics",
+          "name": "Hunter of Glacial Forest",
+          "fileStem": "hunter-of-glacial-forest",
+          "path": "Prydwen/hsr/assets/relics/hunter-of-glacial-forest-0c7e5b9d3ab7.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-planetary-sets-38",
+      "level": 6,
+      "heading": "Best Planetary Sets",
+      "text": "100%\n\n Bone Collection's Serene Demesne ( 2 -PC)\n\n Recommended option for all Evernight playstyles. This Planar's HP and CRIT DMG improve both her personal damage and supportive capabilities.\n Usage: 96.49 %\n MoC: 7.44 cyc.\n PF: 39500\n AS: 3488\n\n 98.70%\n\n Arcadia of Woven Dreams ( 2 -PC)\n\n An alternative for Main DPS Evernight which becomes stronger the more Remembrance characters you run alongside her. Provides up to 36% DMG Bonus if there are 8 ally targets on the field. Not recommended for Sub-DPS Evernight, especially alongside Castorice as Netherwing is often not present when Evey attacks. Calculated with 3 memosprites (3 additional) - performance improves compared to calculations when using 4.\n Usage: 3 %\n MoC: 6.86 cyc.\n PF: 39681\n AS: 3492",
+      "assets": [
+        {
+          "id": "6206930710f0",
+          "sourceHash": "6206930710f0",
+          "kind": "relics",
+          "name": "Bone Collection's Serene Demesne",
+          "fileStem": "bone-collections-serene-demesne",
+          "path": "Prydwen/hsr/assets/relics/bone-collections-serene-demesne-6206930710f0.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "19f596f01746",
+          "sourceHash": "19f596f01746",
+          "kind": "relics",
+          "name": "Arcadia of Woven Dreams",
+          "fileStem": "arcadia-of-woven-dreams",
+          "path": "Prydwen/hsr/assets/relics/arcadia-of-woven-dreams-19f596f01746.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-stats-40",
+      "level": 2,
+      "heading": "Best Stats",
+      "text": "Body\n CRIT DMG\n\n Feet\n HP%\n > Speed\n\n Planar Sphere\n Ice DMG\n = HP%\n\n Link Rope\n HP%\n > Energy Regen Rate\n\n Substats: CRIT Rate (Until cap) = CRIT DMG > HP% > SPD",
+      "assets": [
+        {
+          "id": "44c437b21b3a",
+          "sourceHash": "44c437b21b3a",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "5a409c0b426e",
+          "sourceHash": "5a409c0b426e",
+          "kind": "icons",
+          "name": "Ice DMG",
+          "fileStem": "stat-icedmg",
+          "path": "Prydwen/hsr/assets/icons/ice-dmg-5a409c0b426e.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "106ddd8eff32",
+          "sourceHash": "106ddd8eff32",
+          "kind": "icons",
+          "name": "Energy Regen",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "recommended-endgame-stats-41",
+      "level": 2,
+      "heading": "Recommended endgame stats",
+      "text": "HP: 7000 - 8000\n\n CRIT RATE: 65% before Evernight passive (100% with Evernight passive)\n\n CRIT DMG: 160 - 180%+ (Before Trace Buff)\n\n SPD: 99+ (Base SPD or a little higher is acceptable thanks to her SPD Buff)",
+      "assets": []
+    },
+    {
+      "id": "traces-priority-42",
+      "level": 2,
+      "heading": "Traces priority",
+      "text": "Skills priority: Ultimate = Memo Skill = Skill > Talent = Memo Talent > Basic\n\n Major Traces priority: Dark the Night, Still the Moon (A2) > Rouse the Flame, Lull the Light (A4) > Kindle the Morn, Drop the Rain (A6)",
+      "assets": []
+    },
+    {
+      "id": "eidolon-information-44",
+      "level": 2,
+      "heading": "Eidolon Information",
+      "text": "Eidolon 1: Extremely powerful Eidolon that doubles as tremendous damage increase for both Evernight and any Rememberance teammates she's fighting alongside. Is a true amplifier that scales based on enemies remaining, granting the biggest boost against solo enemies - the target type Evernight and her most common teammates usually have the most trouble with.\n Eidolon 2: Another transformative Eidolon - one so strong it joins the ranks of all time most potent Eidolons in the game. Guarantees Evernight's Ultimate state persists permanently throughout combat, ensuring her Ultimate DMG Taken debuff is always active. Also, massively improves her Memoria generation, boosting her personal damage output while also maximising her stack-based effects in the rest of her kit. Lastly grants Evernight 40% CRIT DMG, boosting her CRIT DMG sharing trace potency as well as personal damage.\n Eidolon 4: Increases all ally memosprites' Weakness Break Efficiency, which can be very useful in Apocalyptic Shadows.\n Eidolon 6: Further amplifies Evernight's supportive and damage capabilities by tacking on a 20% RES PEN for all teammates to her kit as well as allowing her to retain 30% of her Memoria each time Evey vanishes. This retain effect effectively allows Evernight to infinitely ramp over a fight making this Eidolon stronger the longer the fight drags on. Note it will also be weaker the shorter the fight is.",
+      "assets": []
+    },
+    {
+      "id": "synergy-45",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Castorice - Evernight can greatly accelerate Castorice's Ultimate rotation via her memosprite Evey, which she can summon it every turn and consume all of its HP instantly to be converted to Ultimate Charges. She offers a large CRIT DMG buff to all allied memosprites based on the number of Remembrance characters in the party and based on her own CRIT DMG, and her Ultimate can increase the DMG taken by all enemies.\n Cyrene - Cyrene has a permanent buff on Evernight that improves her CRIT DMG scaling by an additional 12%, increases her Memoria generation and Memosprite Skill DMG. The mono-Remembrance team members all deal considerable damage, and boosting Evernight's own amplification effect is a great buff to further reinforce this.\n Hyacine - Evernight's Skills, as well as her Memosprite Skills, all consume HP, which triggers Little Ica's healing while also boosting its CRIT DMG, allowing Little Ica to deal significantly more DMG. Little Ica's fast actions also provides a decent amount of Memoria stacks for Evernight. Hyacine's Ultimate can boost Evernight's HP, and her signature Light Cone can also drain HP from Evernight for additional Memoria stacks.\n Trailblazer • Remembrance - Trailblazer • Remembrance: For Main DPS Evernight: The Remembrance Trailblazer has a persistent True DMG buff which will be extended to Evey once it is summoned - for a massive 50% extra True DMG since her Max Energy is high enough to max out the buff. Additionally provides Evernight with CRIT buffs, occasional Action Advances, contributes to the Remembrance tally for her CRIT DMG buff. With Evernight consuming no Skill Points and actually generating them via her Talent, the Remembrance Trailblazer can use their Skill every turn for more frequent Action Advances.\nFor Sub-DPS Evernight: Competetive option with other Amplifiers (such as Tribbie). The Remembrance Trailblazer remains an excellent support for the Castorice + Evernight duo, thanks to the teamwide CRIT DMG buffs, and strong single-target buffs. Which, if planned carefully, can be active on both Castorice and Evernight at the same time - thanks to the ability to use Skill more often.",
+      "assets": [
+        {
+          "id": "fd3d60695240",
+          "sourceHash": "fd3d60695240",
+          "kind": "characters",
+          "name": "Castorice",
+          "fileStem": "castorice-icon",
+          "path": "Prydwen/hsr/assets/characters/castorice-fd3d60695240.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "005597837585",
+          "sourceHash": "005597837585",
+          "kind": "characters",
+          "name": "Cyrene",
+          "fileStem": "cyrene-icon",
+          "path": "Prydwen/hsr/assets/characters/cyrene-005597837585.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "1d90270b2b4b",
+          "sourceHash": "1d90270b2b4b",
+          "kind": "characters",
+          "name": "Hyacine",
+          "fileStem": "hyacine-icon",
+          "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "d3e344772d55",
+          "sourceHash": "d3e344772d55",
+          "kind": "characters",
+          "name": "Trailblazer • Remembrance",
+          "fileStem": "trailblazer-remembrance-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+          "width": 45,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "id": "anomaly-arbitration-50",
+      "level": 6,
+      "heading": "Anomaly Arbitration",
+      "text": "Rank 2\n App. rate: 23.72 %\n Avg. cycles : 7.24\n Avg. cycles (E1+): 3.81\n\n Rank 9\n App. rate: 4.29 %\n Avg. cycles : 8.35\n Avg. cycles (E1+): 4.82\n\n Rank 22\n App. rate: 1.23 %\n Avg. cycles : 8.41\n Avg. cycles (E1+): 6.47\n\n Rank 25\n App. rate: 1 %\n Avg. cycles : 9.12\n Avg. cycles (E1+): 3.26\n\n Rank 53\n App. rate: 0.39 %\n Avg. cycles : 8.5\n Avg. cycles (E1+): 3.65\n\n Rank 79\n App. rate: 0.25 %\n Avg. cycles : 10\n Avg. cycles (E1+): 5.21\n\n Rank 95\n App. rate: 0.18 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.67\n\n Rank 138\n App. rate: 0.1 %\n Avg. cycles : -\n Avg. cycles (E1+): 0.44\n\n Rank 202\n App. rate: 0.06 %\n Avg. cycles : -\n Avg. cycles (E1+): 5.67\n\n Rank 202\n App. rate: 0.06 %\n Avg. cycles : 10\n Avg. cycles (E1+): 3.89\n\n New",
+      "assets": [
+        {
+          "id": "fd3d60695240",
+          "sourceHash": "fd3d60695240",
+          "kind": "characters",
+          "name": "Castorice",
+          "fileStem": "castorice-icon",
+          "path": "Prydwen/hsr/assets/characters/castorice-fd3d60695240.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "565914d1a436",
+          "sourceHash": "565914d1a436",
+          "kind": "icons",
+          "name": "Quantum",
+          "fileStem": "ele-quantum",
+          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "e6a5c98adfc4",
+          "sourceHash": "e6a5c98adfc4",
+          "kind": "characters",
+          "name": "March 7th • Evernight",
+          "fileStem": "march-7th-evernight-icon",
+          "path": "Prydwen/hsr/assets/characters/march-7th-evernight-e6a5c98adfc4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7d36eb39792a",
+          "sourceHash": "7d36eb39792a",
+          "kind": "icons",
+          "name": "Ice",
+          "fileStem": "ele-ice",
+          "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "005597837585",
+          "sourceHash": "005597837585",
+          "kind": "characters",
+          "name": "Cyrene",
+          "fileStem": "cyrene-icon",
+          "path": "Prydwen/hsr/assets/characters/cyrene-005597837585.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1d90270b2b4b",
+          "sourceHash": "1d90270b2b4b",
+          "kind": "characters",
+          "name": "Hyacine",
+          "fileStem": "hyacine-icon",
+          "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ee11bd390c9a",
+          "sourceHash": "ee11bd390c9a",
+          "kind": "icons",
+          "name": "Wind",
+          "fileStem": "ele-wind",
+          "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "2cde7699adbf",
+          "sourceHash": "2cde7699adbf",
+          "kind": "characters",
+          "name": "Tribbie",
+          "fileStem": "tribbie-icon",
+          "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d3e344772d55",
+          "sourceHash": "d3e344772d55",
+          "kind": "characters",
+          "name": "Trailblazer • Remembrance",
+          "fileStem": "trailblazer-remembrance-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b77207bce6c8",
+          "sourceHash": "b77207bce6c8",
+          "kind": "characters",
+          "name": "Ruan Mei",
+          "fileStem": "ruan-mei-icon",
+          "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "99361e4717fa",
+          "sourceHash": "99361e4717fa",
+          "kind": "characters",
+          "name": "Mortenax Blade",
+          "fileStem": "blade-mortenax-icon",
+          "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "92feb26d8f0e",
+          "sourceHash": "92feb26d8f0e",
+          "kind": "icons",
+          "name": "Fire",
+          "fileStem": "ele-fire",
+          "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+          "width": 22,
+          "height": 22
+        }
+      ]
+    },
+    {
+      "id": "video-guides-51",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "MoC/PF/AS Statistics",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-light-cones": {
+      "label": "Best Light Cones",
+      "sections": [
+        {
+          "heading": "Best Light Cones",
+          "text": "124.32%\n\n To Evernight's Stars (S 1 )\n\n Clear best option for Sub-DPS Evernight. The Energy refund helps offset her high 240 Energy cost Ultimate, and offers a teamwide 20% DEF Ignore for all memosprites. Still a top choice for Main DPS.\n Usage: 67.33 %\n MoC: 6.87 cyc.\n PF: 40000\n AS: 3560\n\n 122.65%\n\n Make Farewells More Beautiful (S 1 )\n\n Competitive option for Main DPS Evernight, thanks to it providing higher Base HP, a stronger DEF Ignore effect, and an Action Advance that can let her reach new SPD breakpoints. Whether this is worth the trade off of energy regen and a damage increase is situational though. Much less competitive with her signature when playing Sub-DPS Evernight as the sig grants bonuses to the whole team.\n Usage: 1.8 %\n MoC: 7.29 cyc.\n PF: 39562\n AS: 3472\n\n 107.69%\n\n Sweat Now, Cry Less (S 5 )\n\n A solid pure damage Evernight target, thanks to its high HP and bonus stats, but can result in Evernight overcapping on CRIT RATE when played alongside CRIT RATE buffing supports like Rememberance Trailblazer. Offers nothing in the way of support for Sub DPS Evernight. Will perform worse than listed when overcapping on CRIT RATE.\n Usage: 7.31 %\n MoC: 8.25 cyc.\n PF: 38598\n AS: 3434\n\n 102.63%\n\n The Flower Remembers (S 1 )\n\n Provides CRIT DMG to both Evernight and Evey, allowing Evey to \"double dip\" on the buff thanks to Evernight CRIT DMG sharing. Has a lower ceiling compared to Sweat Now, Cry Less, but doesn't have the same CRIT RATE overcapping issues. A reasonable target for both Evernight playstyles while offering Sub-DPS Evernight some extra benefit thanks to CRIT DMG sharing.\n Usage: 6.01 %\n MoC: 8.38 cyc.\n PF: 38830\n AS: 3417\n\n 100%\n\n Sweat Now, Cry Less (S 1 )\n\n Weaker than S5 but runs into less CRIT RATE overcapping issues - a solid choice for those that invest into the Battle Pass.\n Usage: 7.31 %\n MoC: 8.25 cyc.\n PF: 38598\n AS: 3434\n\n 95.94%\n\n The Story's Next Page (S 5 )\n\n A pure HP stat stick for Evernight which falls behind more offensively-oriented alternatives, but is fine if there if you have nothing else.\n Usage: 4.45 %\n MoC: 8.09 cyc.\n PF: 37983\n AS: 3422\n\n 93.20%\n\n Time Waits for No One (S 1 )\n\n As an alternative to The Story's Next Page (and in similar deperate situations) any Cone from any Path with high base HP can also be ran on Evernight. Aim for Light Cones with at least 1270 HP if possible.\n Usage: 1.44 %\n MoC: 8.16 cyc.\n PF: 37409\n AS: 3415",
+          "assets": [
+            {
+              "id": "85dbd94ed500",
+              "sourceHash": "85dbd94ed500",
+              "kind": "light-cones",
+              "name": "To Evernight's Stars",
+              "fileStem": "to-evernights-stars",
+              "path": "Prydwen/hsr/assets/light-cones/to-evernights-stars-85dbd94ed500.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "b1b035879f08",
+              "sourceHash": "b1b035879f08",
+              "kind": "light-cones",
+              "name": "Make Farewells More Beautiful",
+              "fileStem": "make-farewells-more-beautiful",
+              "path": "Prydwen/hsr/assets/light-cones/make-farewells-more-beautiful-b1b035879f08.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "948dcf65a447",
+              "sourceHash": "948dcf65a447",
+              "kind": "light-cones",
+              "name": "Sweat Now, Cry Less",
+              "fileStem": "sweat-now-cry-less",
+              "path": "Prydwen/hsr/assets/light-cones/sweat-now-cry-less-948dcf65a447.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "66b0d588409b",
+              "sourceHash": "66b0d588409b",
+              "kind": "light-cones",
+              "name": "The Flower Remembers",
+              "fileStem": "the-flower-remembers",
+              "path": "Prydwen/hsr/assets/light-cones/the-flower-remembers-66b0d588409b.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "b6cb0c99005d",
+              "sourceHash": "b6cb0c99005d",
+              "kind": "light-cones",
+              "name": "The Story's Next Page",
+              "fileStem": "the-storys-next-page",
+              "path": "Prydwen/hsr/assets/light-cones/the-storys-next-page-b6cb0c99005d.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "58c2a044512d",
+              "sourceHash": "58c2a044512d",
+              "kind": "light-cones",
+              "name": "Time Waits for No One",
+              "fileStem": "time-waits-for-no-one",
+              "path": "Prydwen/hsr/assets/light-cones/time-waits-for-no-one-58c2a044512d.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-relic-sets": {
+      "label": "Best Relic Sets",
+      "sections": [
+        {
+          "heading": "Best Relic Sets",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n World-Remaking Deliverer ( 4 -PC)\n\n Set designed specifically for Evernight and her clear best choice for both the Sub DPS and Main DPS playstyle. The combination of 2P CRIT Rate, great uptime on the 24% HP increase and self/team buffing capabilities pull it significantly ahead other options.\n Usage: 99.14 %\n MoC: 7.43 cyc.\n PF: 39513\n AS: 3488\n\n 91.11%\n\n World-Remaking Deliverer ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Scholar Lost in Erudition\n\n Longevous Disciple\n\n Hunter of Glacial Forest",
+          "assets": [
+            {
+              "id": "4e4defeee5d3",
+              "sourceHash": "4e4defeee5d3",
+              "kind": "relics",
+              "name": "World-Remaking Deliverer",
+              "fileStem": "world-remaking-deliverer",
+              "path": "Prydwen/hsr/assets/relics/world-remaking-deliverer-4e4defeee5d3.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "f521b7a2ee25",
+              "sourceHash": "f521b7a2ee25",
+              "kind": "relics",
+              "name": "Scholar Lost in Erudition",
+              "fileStem": "scholar-lost-in-erudition",
+              "path": "Prydwen/hsr/assets/relics/scholar-lost-in-erudition-f521b7a2ee25.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "58e79f548454",
+              "sourceHash": "58e79f548454",
+              "kind": "relics",
+              "name": "Longevous Disciple",
+              "fileStem": "longevous-disciple",
+              "path": "Prydwen/hsr/assets/relics/longevous-disciple-58e79f548454.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "0c7e5b9d3ab7",
+              "sourceHash": "0c7e5b9d3ab7",
+              "kind": "relics",
+              "name": "Hunter of Glacial Forest",
+              "fileStem": "hunter-of-glacial-forest",
+              "path": "Prydwen/hsr/assets/relics/hunter-of-glacial-forest-0c7e5b9d3ab7.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-planetary-sets": {
+      "label": "Best Planetary Sets",
+      "sections": [
+        {
+          "heading": "Best Planetary Sets",
+          "text": "100%\n\n Bone Collection's Serene Demesne ( 2 -PC)\n\n Recommended option for all Evernight playstyles. This Planar's HP and CRIT DMG improve both her personal damage and supportive capabilities.\n Usage: 96.49 %\n MoC: 7.44 cyc.\n PF: 39500\n AS: 3488\n\n 98.70%\n\n Arcadia of Woven Dreams ( 2 -PC)\n\n An alternative for Main DPS Evernight which becomes stronger the more Remembrance characters you run alongside her. Provides up to 36% DMG Bonus if there are 8 ally targets on the field. Not recommended for Sub-DPS Evernight, especially alongside Castorice as Netherwing is often not present when Evey attacks. Calculated with 3 memosprites (3 additional) - performance improves compared to calculations when using 4.\n Usage: 3 %\n MoC: 6.86 cyc.\n PF: 39681\n AS: 3492",
+          "assets": [
+            {
+              "id": "6206930710f0",
+              "sourceHash": "6206930710f0",
+              "kind": "relics",
+              "name": "Bone Collection's Serene Demesne",
+              "fileStem": "bone-collections-serene-demesne",
+              "path": "Prydwen/hsr/assets/relics/bone-collections-serene-demesne-6206930710f0.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "19f596f01746",
+              "sourceHash": "19f596f01746",
+              "kind": "relics",
+              "name": "Arcadia of Woven Dreams",
+              "fileStem": "arcadia-of-woven-dreams",
+              "path": "Prydwen/hsr/assets/relics/arcadia-of-woven-dreams-19f596f01746.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-stats": {
+      "label": "Best Stats",
+      "sections": [
+        {
+          "heading": "Best Stats",
+          "text": "Body\n CRIT DMG\n\n Feet\n HP%\n > Speed\n\n Planar Sphere\n Ice DMG\n = HP%\n\n Link Rope\n HP%\n > Energy Regen Rate\n\n Substats: CRIT Rate (Until cap) = CRIT DMG > HP% > SPD",
+          "assets": [
+            {
+              "id": "44c437b21b3a",
+              "sourceHash": "44c437b21b3a",
+              "kind": "icons",
+              "name": "CRIT DMG",
+              "fileStem": "stat-critdmg",
+              "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "96654253a4f7",
+              "sourceHash": "96654253a4f7",
+              "kind": "icons",
+              "name": "HP",
+              "fileStem": "stat-hp",
+              "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "087f2dec68b6",
+              "sourceHash": "087f2dec68b6",
+              "kind": "icons",
+              "name": "Speed",
+              "fileStem": "stat-speed",
+              "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "5a409c0b426e",
+              "sourceHash": "5a409c0b426e",
+              "kind": "icons",
+              "name": "Ice DMG",
+              "fileStem": "stat-icedmg",
+              "path": "Prydwen/hsr/assets/icons/ice-dmg-5a409c0b426e.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "106ddd8eff32",
+              "sourceHash": "106ddd8eff32",
+              "kind": "icons",
+              "name": "Energy Regen",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        }
+      ]
+    },
+    "recommended-endgame-stats": {
+      "label": "Recommended endgame stats",
+      "sections": [
+        {
+          "heading": "Recommended endgame stats",
+          "text": "HP: 7000 - 8000\n\n CRIT RATE: 65% before Evernight passive (100% with Evernight passive)\n\n CRIT DMG: 160 - 180%+ (Before Trace Buff)\n\n SPD: 99+ (Base SPD or a little higher is acceptable thanks to her SPD Buff)",
+          "assets": []
+        }
+      ]
+    },
+    "traces-priority": {
+      "label": "Traces priority",
+      "sections": [
+        {
+          "heading": "Traces priority",
+          "text": "Skills priority: Ultimate = Memo Skill = Skill > Talent = Memo Talent > Basic\n\n Major Traces priority: Dark the Night, Still the Moon (A2) > Rouse the Flame, Lull the Light (A4) > Kindle the Morn, Drop the Rain (A6)",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Castorice - Evernight can greatly accelerate Castorice's Ultimate rotation via her memosprite Evey, which she can summon it every turn and consume all of its HP instantly to be converted to Ultimate Charges. She offers a large CRIT DMG buff to all allied memosprites based on the number of Remembrance characters in the party and based on her own CRIT DMG, and her Ultimate can increase the DMG taken by all enemies.\n Cyrene - Cyrene has a permanent buff on Evernight that improves her CRIT DMG scaling by an additional 12%, increases her Memoria generation and Memosprite Skill DMG. The mono-Remembrance team members all deal considerable damage, and boosting Evernight's own amplification effect is a great buff to further reinforce this.\n Hyacine - Evernight's Skills, as well as her Memosprite Skills, all consume HP, which triggers Little Ica's healing while also boosting its CRIT DMG, allowing Little Ica to deal significantly more DMG. Little Ica's fast actions also provides a decent amount of Memoria stacks for Evernight. Hyacine's Ultimate can boost Evernight's HP, and her signature Light Cone can also drain HP from Evernight for additional Memoria stacks.\n Trailblazer • Remembrance - Trailblazer • Remembrance: For Main DPS Evernight: The Remembrance Trailblazer has a persistent True DMG buff which will be extended to Evey once it is summoned - for a massive 50% extra True DMG since her Max Energy is high enough to max out the buff. Additionally provides Evernight with CRIT buffs, occasional Action Advances, contributes to the Remembrance tally for her CRIT DMG buff. With Evernight consuming no Skill Points and actually generating them via her Talent, the Remembrance Trailblazer can use their Skill every turn for more frequent Action Advances.\nFor Sub-DPS Evernight: Competetive option with other Amplifiers (such as Tribbie). The Remembrance Trailblazer remains an excellent support for the Castorice + Evernight duo, thanks to the teamwide CRIT DMG buffs, and strong single-target buffs. Which, if planned carefully, can be active on both Castorice and Evernight at the same time - thanks to the ability to use Skill more often.",
+          "assets": [
+            {
+              "id": "fd3d60695240",
+              "sourceHash": "fd3d60695240",
+              "kind": "characters",
+              "name": "Castorice",
+              "fileStem": "castorice-icon",
+              "path": "Prydwen/hsr/assets/characters/castorice-fd3d60695240.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "005597837585",
+              "sourceHash": "005597837585",
+              "kind": "characters",
+              "name": "Cyrene",
+              "fileStem": "cyrene-icon",
+              "path": "Prydwen/hsr/assets/characters/cyrene-005597837585.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "1d90270b2b4b",
+              "sourceHash": "1d90270b2b4b",
+              "kind": "characters",
+              "name": "Hyacine",
+              "fileStem": "hyacine-icon",
+              "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "d3e344772d55",
+              "sourceHash": "d3e344772d55",
+              "kind": "characters",
+              "name": "Trailblazer • Remembrance",
+              "fileStem": "trailblazer-remembrance-icon",
+              "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+              "width": 45,
+              "height": 45
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "March 7th • Evernight Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n March 7th • Evernight\n March 7th • Evernight Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for March 7th • Evernight from HSR (Honkai: Star Rail). March 7th • Evernight is a 5 ★ character from the Ice element who follows the Path of Remembrance .\n In the secluded Memory Zone, candlelight casts echoes of the past, softly fading away in the mist. Evernight, child of Remembrance born from the shadow, Chrysos Heir who conceals the Coreflame of Time, you shall stir the tide of Oblivion, guarding the wish of the mirrored soul.\n\n To learn more about March 7th • Evernight check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n March 7th • Evernight has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 3.6\n\n Last major build/calcs update\n Patch 3.6\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about March 7th • Evernight check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Time Thence Blurs\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Ice DMG equal to #1[i]% of Evernight's Max HP to one designated enemy.\n\n Skill\n Day Gently Slips\n Summon\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Consumes 10% of Evernight's current HP to summon memosprite Evey and increases CRIT DMG of all ally memosprites by an amount equal to #1[i]% of Evernight's CRIT DMG for 2 turn(s). Duration decreases by 1 at the start of each of Evernight's turns. If Evey is already on the field, restores 50% of its Max HP. When used, gains 2 \"Memoria.\" If in the \"Darkest Riddle\" state, gains 12 additional \"Memoria.\"\n\n Ultimate\n O Wakeful World, Goodnight\n AoE | 240 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 30\n\n Summons memosprite Evey, then memosprite Evey deals Ice DMG equal to #1[i]% of Evey's Max HP to all enemies, and causes Evernight to enter the \"Darkest Riddle\" state. During this state, the DMG received by all enemies increases by #2[i]%, the DMG dealt by Evernight and memosprite Evey increases by #3[i]%, and both Evernight and memosprite Evey are immune to Crowd Control debuffs. Gains 2 \"Darkest Riddle\" Charge(s). Memosprite Evey consumes 1 Charge after using \"Dream, Dissolving, as Dew.\" At the start of Evernight's turn, if no Charges remain, exits the \"Darkest Riddle\" state.\n\n Talent\n With Me, This Night\n Enhance\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n When entering combat, summons memosprite Evey. Memosprite Evey has 160 SPD by default, and its Max HP is 50% of Evernight's Max HP. Each time Evernight or memosprite Evey loses HP, increases CRIT DMG for both this unit and memosprite Evey by #1[i]% for 2 turn(s), and gains 2 \"Memoria.\" This effect can trigger only once per target per attack. When Evernight has 16 or more \"Memoria,\" dispels and becomes immune to Crowd Control debuffs. If memosprite Evey is on the field, it immediately takes action. The immediate action effect can only trigger again after memosprite Evey uses \"Dream, Dissolving, as Dew.\"\n\n Technique\n Let it Rain Cold On Thee\n\n Energy gain: 0\n Break: -\n\n After using Technique, at the start of the next battle, gains an effect identical to the Skill which increases all allies' memosprite CRIT DMG, and gains 1 point(s) of \"Memoria.\"\n\n Memosprite Skills\n Memosprite Skill\n Remembrance, Whirling, Like Rain\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n This ability automatically selects a target, prioritizing the enemy target that Evernight last attacked. Deals Ice DMG equal to #1[i]% of Evey's Max HP to one enemy. For every 4 point(s) of \"Memoria\" Evernight currently has, further deals Ice DMG equal to #2[i]% of Evey's Max HP. After use, Evernight gains 1 point(s) of \"Memoria.\"\n Memosprite Skill\n Dream, Dissolving, as Dew\n AoE\n\n Lv. 1\n\n Energy gain: 10\n Break: 30 + 20 adjacent\n\n When Evernight's \"Memoria\" is greater than or equal to 16 points, and Evernight is not under a Crowd Control state, this ability can be used. For each point of \"Memoria\" currently in possession, deals Ice DMG equal to #1[i]% of Evey's Max HP to the primary target, and Ice DMG equal to #2[i]% of Evey's Max HP to other enemy targets. After use, consumes all \"Memoria\" and HP, and Evey disappears.\n\n Memosprite Talent\n Solitude, Drifting, In Murk\n Support\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n Evey is immune to Crowd Control debuffs but has increased chance of being targeted. While Evernight is on the field, increases DMG dealt by Evernight and Evey by #1[i]%.\n Memosprite Talent\n Night, Trailing, In Step\n Support\n\n Energy gain: 0\n Break: -\n\n When summoned, this unit immediately takes action.\n Memosprite Talent\n You, Parting, Beyond Reach\n Enhance\n\n Energy gain: 0\n Break: -\n\n Upon disappearing, increases Evernight's SPD by 10%. If the disappearance is due to using \"Dream, Dissolving, as Dew,\" for each point of \"Memoria\" used in this attack, additionally increases Evernight's SPD by 1%, counting up to 40 point(s) of \"Memoria.\" The SPD Boost effect cannot stack, and is removed at the start of Evernight's next turn.\n\n Major Traces\n A2 Major trace\n Dark the Night, Still the Moon\n\n Increases Evernight and the memosprite Evey's CRIT Rate by 35% . When using abilities, consumes 5% of this unit's current HP to increase both their CRIT DMG by 15% for 2 turn(s). After memosprite Evey uses \"Dream, Dissolving, as Dew,\" recovers 1 Skill Point for allies.\n\n A4 Major trace\n Rouse the Flame, Lull the Light\n\n At the start of combat, Evernight regenerates 70 Energy and gains 1 \"Memoria.\" When Evernight or an ally memosprite uses an ability, Evernight regenerates 5 Energy and gains 1 \"Memoria.\"\n\n A6 Major trace\n Kindle the Morn, Drop the Rain\n\n When there are 1/2/3/4 or more Remembrance characters in the team, while Evernight's Skill persists, additionally increases all memosprites' CRIT DMG by 5%/15%/50%/65% .\n\n Minor Traces (total)\n CRIT Rate\n + 18.7%\n\n CRIT DMG\n + 13.3%\n\n HP\n + 18%\n\n Eidolons\n E 1\n Sleep Tight, the Night Dreams Long\n Eidolon 1\n\n When Evernight is on the field and when there are 4 or more/3/2/1 enemy targets on the field, ally memosprites deal 120%/125%/130%/150% of their original DMG respectively.\n\n E 2\n Listen Up, the Slumber Speaks Soft\n Eidolon 2\n\n Increases Evernight's and memosprite Evey's CRIT DMG by 40% . Each time Evernight gains \"Memoria,\" increases the gained \"Memoria\" by 2 point(s). When using Ultimate, additionally gains 2 \"Darkest Riddle\" state Charge(s).\n\n E 3\n Fear Not, the Nightmare Lies Past\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10. Memosprite Talent Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Wake Up, the Tomorrow is Yours\n Eidolon 4\n\n While Evernight is on the field, ally memosprites' Weakness Break Efficiency increases by 25% , and memosprite Evey gains an additional 25% Weakness Break Efficiency.\n\n E 5\n Let Go, the \"Me\" in Memories\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15. Memosprite Skill Lv. +1 , up to a maximum of Lv. 10.\n\n E 6\n Like This, Always\n Eidolon 6\n\n While Evernight is on the field, all allies' All-Type RES PEN increases by 20% . After memosprite Evey uses \"Dream, Dissolving, as Dew,\" Evernight gains 30% of the consumed \"Memoria\" in this attack.\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1323\n\n ATK\n\n 543\n\n DEF\n\n 582\n\n Speed\n\n 99\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 308000\n\n Ethereal Omen\n\n x 15\n\n Echoing Wail\n\n x 15\n\n Sea Siren's Torn Fin\n\n x 65\n\n Eternal Lament\n\n x 15\n\n CV\n ENG\n Skyler Davenport\n\n JPN\n Yui Ogura (小倉唯)\n\n CN\n Nuò Yǎ (诺亚)\n\n KR\n Jung Hye-Won (정혜원)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Phenomenal damage output in all content,\n\n Huge HP and HP scaling,\n\n Excellent damage buffs for herself and all ally memosprites,\n\n Provides Vulnerability with her Ultimate,\n\n Excellent as a main DPS or as a sub DPS for Remembrance teams,\n\n Surprisingly SP positive,\n\n Great performance floor,\n\n Very impressive scalability,\n\n Rewarding mastery curve,\n\n Umbrella (massive aura gains).\n\n Cons\n Poor F2P Light Cone options,\n\n Can be challenging to play to her fullest,\n\n Buffs are almost exclusively for memosprites,\n\n Fails a selfie (massive aura loss).\n\n Review (By Sushou)\n [Overview]\n Evernight is an exceptional Remembrance DPS character, scaling her damage off of HP. She follows a similar playstyle to Castorice, summoning a memosprite to have it nuke the field and make a dramatic exit. Evernight has a plethora of team buffs and self buffs for memosprite-based damage dealers, making her a fantastic DPS to use in a dual DPS setup with existing and future Remembrance characters, and an extraordinarily competitive solo DPS to boot, all while being SP positive. The price for this power is that Evernight is highly challenging to play compared to existing characters.\n [Intro]\n The edgier March 7th, Evernight, has at last graced us with her presence, hopefully to answer a few lingering questions we have. If I had a nickel for every time a Remembrance DPS sent their memosprite to gloriously explode, I'd have two nickels, which isn't a lot, but it's weird that it's happened twice.\n Evernight is designed in a similar vein to Anaxa; meant to supplement an existing DPS character while still being viable on their own two feet. Evernight's 'intended' partner (at least right now) is Castorice, and she makes that team incredibly powerful, not that it needed the help. The question then is 'Does Evernight follow in Anaxa's footsteps fully?', and the answer to that is a bit complicated, but essentially 'Yes'. I'll get to it later.\n Evernight is so damn strong, but she is really quite challenging to play to her fullest. You really need to know what she's about so that you can adjust and adapt as combat goes on; Evernight's performance floor is already very high so you don't need to worry about her losing a lot of strength if you mess up, but her performance ceiling is... honestly rather frightening.\n [Abilities]\n This is going to be a long section. As is often the case with Remembrance characters, their memosprite abilities also require mention, but unlike other Remembrance characters, Evernight's got so many Proper Terms™ that it makes it hard to follow along. I'll do my best to break things down into a logical format.\n Evernight's memosprite is called Evey. Evey is forever immune to Crowd Control and has an increased chance of being targeted by enemies. Evey has 160 SPD by default, and its Max HP is equal to 50% of Evernight's Max HP. While Evernight is on the field, the DMG dealt by both Evernight and Evey is increased by 50%.\n Evernight has a stacking mechanic called Memoria, which gets used to empower Evernight's attacks. This comes up pretty much everywhere, so it's worth a mention all on its own. Important to note that Evey does NOT need to be summoned in order for Evernight to be able to gain Memoria (this has potential ramifications for optimisation).\n For her Talent, Evernight automatically summons Evey upon entering combat. Every time that Evernight or Evey lose HP, they both gain 60% increased CRIT DMG for 2 turns. The HP loss will also grant 2 Memoria. These effects can only trigger once per target per attack. When Evernight gets to at least 16 stacks of Memoria, she will immediately dispel all Crowd Control effects, and then becomes immune to further Crowd Control. At the same time, Evey will immediately take action.\n Ordinarily, Evey will act automatically on its turn, shooting a water jet dealing 50% of Evey's Max HP to the last enemy Evernight damaged. This is increased by 10% of Evey's Max HP for every 4 Memoria. After this attack, Evernight gets 1 Memoria. However, when at least 16 Memoria has been gained, Evey's attack will be empowered, becoming Dream, Dissolving, as Dew. We're gonna call this Explosion from now on, because it's shorter and more accurate to the damage it can deal.\n This explosive attack hits all enemies on the field, but selects a primary target that takes extra damage. For every point of Memoria, this attack will deal 12% Evey Max HP to the primary target, and 6% Evey Max HP to the remaining enemies. This attack deals a staggering 30 Toughness to its main target, and 20 Toughness to the rest. This attack will consume all stacks of Memoria, and all of Evey's HP, and Evey will then disappear.\n When Evey disappears from the field, Evernight's SPD increases by 10%. If the disappearance was due to Evey Exploding, for each point of Memoria used in this attack, Evernight's SPD is additionally increased by 1%, counting up to 40 points of Memoria, for a total potential boost of 50%. This SPD boost cannot stack, and is removed at the start of Evernight's next turn.\n Evernight's Skill will consume 10% of her current HP to summon Evey to the field. At the same time, she will increase the CRIT DMG of all ally memosprites by an amount equal to 24% of Evernight's CRIT DMG for 2 turns. This ticks down at the start of Evernight's turns. If Evey is already summoned, it restores 50% Max HP to it. Using her Skill will also grant 2 stacks of Memoria. This Skill does not consume SP.\n Evernight's Ultimate costs a rather large 240 Energy. Using it will summon Evey if it's not present, and then deal Ice DMG equal to 200% of Evey's Max HP to all enemies on the field. This will also put Evernight into the Darkest Riddle state.\n During Darkest Riddle, all enemies are afflicted with a 30% Vulnerability, the DMG dealt by Evernight and Evey is increased by 60%, and both Evernight and Evey become immune to Crowd Control effects. Using the Ultimate grants 2 charges of Darkest Riddle, with 1 charge being consumed when Evey uses its Explosion. When there are no charges left at the start of Evernight's turn, she will exit the Darkest Riddle state. Most importantly, during Darkest Riddle, the Skill will restore an additional 12 Memoria, for a total of 14 per Skill use. This is how you turbo-charge your Memoria gain, and what leads to highly impressive damage.\n This is mostly it, and it's a lot, I know, but hopefully it makes some amount of sense.\n Evernight stacks up Memoria to empower Evey once at least 16 stacks are reached. Evey uses its empowered Explosion to deal heavy damage to all enemies and disappears from the field. Evernight's Ultimate lets her deal vastly increased damage and lets her stack a huge amount of Memoria easily, leading to even stronger Explosions from Evey. Use the massive SPD boost from Evey's explosive departure to start the cycle anew.\n The amount of damage that starts coming out from Evey is honestly staggering, and quite consistently accessed too. Memoria can be stacked through a huge number of ways, including just taking damage or consuming HP, so it goes up pretty quickly.\n Memoria itself doesn't appear to have a cap (or at least not one's that is reachable), and can get to some hilarious values. Seeing these red jellyfish accost the battlefield and violently detonate for damage in the millions is as amusing as it is jaw-dropping. The numbers in the kit by themselves don't seem like much, but I assure you, the base kit descriptions do a poor job of selling just how powerful this synergistic kit is.\n [Bonus Traces]\n These add to Evernight's already quite impressive kit, making her even more self-synergistic and less reliant on outside influences to achieve her gameplan.\n Her A2 will increase Evernight's and Evey's CRIT Rate by 35%, permanently. When using abilities, consumes 5% of the respective unit's current HP to increase both units' CRIT DMG by 15% for 2 turns. When Evey uses its Memoria-empowered Explosion, 1 Skill Point will be recovered for allies.\n This is incredible. This creates even more opportunities to generate Memoria for Evernight, since every single ability that either she or Evey uses will grant an extra 2 Memoria from the HP drain from her Talent. The extra 35% CRIT Rate makes it even easier to focus on CRIT DMG and HP stacking, and can much more easily guarantee a 100% CRIT Rate in combat. The cherry on top is that now when Evey violently departs the field, this absurdly powerful attack now also restores a Skill Point, meaning that Evernight is achieving this damage while being completely SP positive, a first of its kind.\n Evernight's A4 addresses the extremely high Energy cost of her Ultimate. At the start of combat, Evernight regenerates 70 Energy and gains 1 Memoria. When Evernight, or any ally memosprite uses an ability, Evernight regenerates 5 Energy and gains 1 Memoria.\n Aside from the stellar kickstart to fights, this also helps to provide a steady influx of Energy from just doing what you'd already be doing. Evernight herself provides enough benefits for more consistent Ultimates, so that's already very strong, but pairing her with fellow Remembrance characters, some of whom are already likely to be in the party, just means even more Energy and Memoria.\n Lastly, Evernight's A6 will grant benefits based on the number of Remembrance characters in the team. When there are 1/2/3/4 or more Remembrance characters, and while Evernight's Skill effects persist, additionally increase all memosprites' CRIT DMG by 5%/15%/50%/65%. Four Remembrance characters is a bit steep at the moment because a couple of them are quite heavily contested supports (ignore the vaguely Elysia-shaped object in the distance, we're not there yet), but three Remembrance characters is very doable, which is where the biggest increase lies. 50% increased CRIT DMG for memosprites just for building the team you were probably going to be building anyway is extremely potent, especially since it'll also be applying the benefits to the memosprites of the other allies.\n As far as Bonus Traces go, these are exceptionally good, with not one dud on the list. Even the Minor Traces are all fantastic with CRIT Rate, CRIT DMG, and HP%. Remarkable, really.\n [Eidolons]\n Oh boy.\n Evernight's E1 will make it so that ally memosprites deal increased damage based on the number of enemies on the field: 4 or more/3/2/1 enemy targets will increase memosprite damage to 120%/125%/130%/150% of the original damage, respectively. This is a final damage multiplier so it's incredibly powerful, and its conditions are literally always met in some capacity. This is an absurd E1, not just for herself but for any other Remembrance characters on the team. The only question is what are you going to do with all that overkill damage.\n And of course, the E2. This increases Evernight's and Evey's CRIT DMG by 40%, and makes it so that every time Evernight gains stacks of Memoria, she will gain an additional 2 stacks. Plus, when using her Ultimate, she will gain an additional 2 charges of Darkest Riddle.\n Already, boosting all Memoria sources by a flat +2 is stupid, because there are a lot of ways of gaining small values of Memoria, and it can skyrocket the number of Memoria you have when it's time for Evy to Explode, resulting in Very Funny Numbers™. On top of that, getting 4 total charges of Darkest Riddle pretty much means that if things are going really well, you'll have very low downtime between Ultimate empowerments, able to be in Darkest Riddle pretty much permanently.\n This honestly may be one of the most ridiculous E2s in the entire game, and that's really saying something. Completely and unequivocally unnecessary, but very, very amusing.\n [The Rest]\n Well, there's not much else to say really. Despite the absolute wall of text that each and every single ability in Evernight's kit has, the kit itself is not too too difficult to understand in practice; bit of fiddling around in game and you should be able to intuit most of what's going on.\n Because the kit is like this, and as mentioned earlier, the performance floor is already very high; there's not really many ways for you to completely screw yourself over unless you're literally only ever using her Basic ATK and never using Ultimate. But seeking to get the maximum output from Evernight is where the true challenge lies, and this is particularly difficult, because a fair bit of it isn't really directly up to you.\n Evey gets advanced whenever Evernight reaches or passes 16 Memoria, and this can end up happening during enemy actions, since losing HP will grant Memoria. Ally memosprites' actions may push you just over the Memoria threshold and now you're also out of alignment, perhaps even just before Evernight's turn. You may even deliberately opt not to resummon Evey on your turn to try and get more Memoria stacked, or to delay the burst to a better moment, or even to prolong the Darkest Riddle state on Evernight. There are very many possibilities.\n As such, there are quite a few ways that you can miss out on 'optimal damage' because of these idiosyncrasies. Even just the constantly fluctuating SPD boost that Evernight gets after Evey Explodes is far too unpredictable to consistently play around.\n This is why I alluded to intuition. It really is up to the player to circumvent or play around these unique circumstances as and when they come up, and this is maybe not so difficult once you're comfortable with the character, but can most assuredly be a source of frustration until you are. Even still, getting even some of the way into the challenging spectrum sees Evernight returning damage numbers that are frankly disgusting, and with little effort too. She is much like a good knife: if you keep the edge honed and sharpened, it will never fail you when you need it most.\n Pseudo-profound statements aside, let's talk teams. Or rather, Team, parentheses, singular. Yeah, as a HP based Remembrance character, it's entirely unsurprising that the number one teammate is Hyacine. I know, I know, please everyone act surprised. Hyacine's prowess at buffing Max HP and healing effortlessly pair very well with Evernight's kit, especially since it's so easy to set up. This is of course without even mentioning Little Ica, the memosprite who most certainly can and will destroy the foes in front of you. With Evernight gaining benefits from having other Remembrance characters, as well as the benefits she can share with other memosprites, it's a match made in heaven, and it's undoubtedly the best option (especially if you have Hyacine's Light Cone).\n The Remembrance Trailblazer also does not get any rest days and is the next on the list of immaculate supports for Evernight. As a HP based Remembrance... Hey wait a second...\n Nobody should be surprised, please do not act surprised, everyone and their mums knows what the Remembrance Trailblazer does and why it's good — only it's even better for Evernight because of her absolutely absurd Max Energy, meaning she gets the full whopping 50% True DMG bonus from the Mem's Support buff, and boy does she take it all the way to the bank, not to mention the insane battery effect that Evernight has for Mem's Ult gauge due to the constant Energy gains.\n Even more amusing is that you can use Mem's Support to advance Evernight ahead of Evey during the Darkest Riddle state, letting you get an extra 14 Memoria Skill use off before Evey Explodes. This lets you stack Memoria up higher, and also get more Memoria total than you would otherwise be able to, since Darkest Riddle charges are only consumed by Evey Exploding.\n And there you go, with just those two, you've also fulfilled the criteria for Evernight's A6 to reach its big breakpoint, granting every memosprite a further 50% CRIT DMG, making Little Ica hit harder, and Mem buff even more.\n To address the Netherwing in the room, you may have noticed that this seems an awful lot like the Castorice team, in which case I must applaud your keen skills of discernment. Yes, indeed, the Hyacine + Remembrance Trailblazer combo is notoriously potent on a number of teams, but it's been especially powerful for Castorice, and now for Evernight as well. With the direction that Evernight's kit has, it is very easy to come to the conclusion that 'Evernight was designed to be paired with Castorice'.\n While a somewhat shallow analysis, it's not entirely wrong. Castorice benefits immensely from what Evernight can offer her, boasting not only extreme personal damage output, but the ability to buff the other memosprite that enjoys blowing itself to smithereens, and take it to even more absurd heights.\n The two of them together on one team is absolutely frightening, and they play off of each other magnificently, especially since now there's potentially 4 memosprites in total, meaning Castorice has 8 targets she can siphon HP from to charge her Ultimate, so not only is Netherwing much stronger, but can come back so quickly that the dust from their previous dramatic exit hasn't settled yet.\n Using Evernight in this team lets you free up either the Remembrance Trailblazer, or Tribbie to be used in other teams. Given that these are two of the absolute most contested supports in the game right now by a colossal margin, this is already absolutely invaluable, because it's on top of all the other benefits.\n Now we boomerang back to the question posed at the start: 'is she like Anaxa in the other way too'. The 'other way' of course referencing the fact that Anaxa is oftentimes stronger than the DPS he was designed to supplement.\n Evernight is so strong on her own, that if you take Castorice's current best team, and put Evernight in place of Castorice, you would be achieving very similar performance. If you then are capable of overcoming the challenges that Evernight throws your way in combat, you can possibly even exceed that performance, getting close to what you'll see by having both Castorice and Evernight together. This is to say, that if you have Castorice already, Evernight is a great upgrade to the team, but that Evernight most assuredly does not need Castorice to be at her best, and the vertical investment options presented with Evernight genuinely left me speechless the first time I looked at them.\n Evernight is... truly something else.\n Of course, this is quite literally the only team you've got right now, at least as far as optimal setups go, as there are no substitutes that come close to what Hyacine, Tribbie, and the Remembrance Trailblazer can offer you. Perhaps this will change with Cyrene, but at least for now, your options outside of that are more limited. Naturally, there are similar units that can get most of the way there if you're in a pinch. The other two thirds of the Quantum Supersupports, Cipher and Silver Wolf, are also always going to be good, for all the myriad reasons those two are good everywhere else. It just works™.\n Ruan Mei is in much the same boat, but can be a potentially useful substitute, especially in places like Apocalyptic Shadow, where Toughness Damage is king, and Evernight already does more than a bit of that by default, so buffing it further, plus the All-Type RES PEN, makes for a good show as well.\n Other stranger things can work too, especially since Evernight is actually SP positive (which I'm still reeling over by the way), but try not to go too crazy, since Evernight still wants a minimum number of Remembrance characters on the team to make as much of her A6 as possible. If a character hasn't been mentioned up until now, that's probably for a reason (though turbo free-to-plays can still use Gallagher because he's the GOAT, and that's a fact).\n Lastly, she is a limited Remembrance character, and that means that her signature Light Cone is quite significantly ahead of alternatives. This is just how it is, there are very few variations that exist, and pretty much all of them are considerably inferior to Evernight's signature.\n Having said that, due to Evernight's current strength, as well as the extremely high likelihood that she will continue to be useful for the HP Remembrance archetype moving forward, it would not be a short-sighted thing to seek to acquire said Light Cone.\n [Wrap up]\n So there you have it. If you've made it this far, you know how impressed I am by Evernight, and all the good reasons for it, too. Her overall options may be a fair bit more limited than other DPS characters, but her kit is so good that it doesn't matter, and if in future there are more characters that work with her, she'll be able to make it shine no matter what. I must stress again, so that it's abundantly clear, Evernight can be tricky to pilot. Do not let this discourage you, and do not use it to insinuate her lack of strength. She is well deserving of the praise and accolades.\n And after all, she is Best Girl, let's not forget. What, you think that edgy exterior and artisanal brolly suddenly change who she is? No, no, no. That's March 7th, and all it takes is one look in the mirror.\n 'Despite everything, it's still you.'\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Damage dealer\n T0.5\n MoC\n\n T0\n PF\n\n T0.5\n AS\n\n Support DPS\n T0\n MoC\n\n T0\n PF\n\n T0\n AS\n\n Build and teams\n\n Due to the nature of March 7th • Evernight kit, we've simulated her performance alongside other Remembrance units as well as including the Memoria stacks she's expected to get from her team and via taking damage. Because of this, while her Light Cone, Relic and Eidolon calculations are more accurate, her damage numbers cannot be compared 1 to 1 with other characters on the site.\n\n Best Light Cones\n\n 124.32%\n\n To Evernight's Stars (S 1 )\n\n Clear best option for Sub-DPS Evernight. The Energy refund helps offset her high 240 Energy cost Ultimate, and offers a teamwide 20% DEF Ignore for all memosprites. Still a top choice for Main DPS.\n Usage: 67.33 %\n MoC: 6.87 cyc.\n PF: 40000\n AS: 3560\n\n 122.65%\n\n Make Farewells More Beautiful (S 1 )\n\n Competitive option for Main DPS Evernight, thanks to it providing higher Base HP, a stronger DEF Ignore effect, and an Action Advance that can let her reach new SPD breakpoints. Whether this is worth the trade off of energy regen and a damage increase is situational though. Much less competitive with her signature when playing Sub-DPS Evernight as the sig grants bonuses to the whole team.\n Usage: 1.8 %\n MoC: 7.29 cyc.\n PF: 39562\n AS: 3472\n\n 107.69%\n\n Sweat Now, Cry Less (S 5 )\n\n A solid pure damage Evernight target, thanks to its high HP and bonus stats, but can result in Evernight overcapping on CRIT RATE when played alongside CRIT RATE buffing supports like Rememberance Trailblazer. Offers nothing in the way of support for Sub DPS Evernight. Will perform worse than listed when overcapping on CRIT RATE.\n Usage: 7.31 %\n MoC: 8.25 cyc.\n PF: 38598\n AS: 3434\n\n 102.63%\n\n The Flower Remembers (S 1 )\n\n Provides CRIT DMG to both Evernight and Evey, allowing Evey to \"double dip\" on the buff thanks to Evernight CRIT DMG sharing. Has a lower ceiling compared to Sweat Now, Cry Less, but doesn't have the same CRIT RATE overcapping issues. A reasonable target for both Evernight playstyles while offering Sub-DPS Evernight some extra benefit thanks to CRIT DMG sharing.\n Usage: 6.01 %\n MoC: 8.38 cyc.\n PF: 38830\n AS: 3417\n\n 100%\n\n Sweat Now, Cry Less (S 1 )\n\n Weaker than S5 but runs into less CRIT RATE overcapping issues - a solid choice for those that invest into the Battle Pass.\n Usage: 7.31 %\n MoC: 8.25 cyc.\n PF: 38598\n AS: 3434\n\n 95.94%\n\n The Story's Next Page (S 5 )\n\n A pure HP stat stick for Evernight which falls behind more offensively-oriented alternatives, but is fine if there if you have nothing else.\n Usage: 4.45 %\n MoC: 8.09 cyc.\n PF: 37983\n AS: 3422\n\n 93.20%\n\n Time Waits for No One (S 1 )\n\n As an alternative to The Story's Next Page (and in similar deperate situations) any Cone from any Path with high base HP can also be ran on Evernight. Aim for Light Cones with at least 1270 HP if possible.\n Usage: 1.44 %\n MoC: 8.16 cyc.\n PF: 37409\n AS: 3415\n\n Specialist Light Cones\n\n Memory's Curtain Never Falls (S 5 )\n\n A purely supportive option for Sub-DPS Evernight's that want to buff her team at the cost of her own damage (and that don't have access to her signature). Underwhelming for Evernight's personal damage due to its low Base HP but recovers its viability through its buff for Sub-DPS only.\n Usage: 5.82 %\n MoC: 8 cyc.\n PF: 38947\n AS: 3456\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 100%\n\n World-Remaking Deliverer ( 4 -PC)\n\n Set designed specifically for Evernight and her clear best choice for both the Sub DPS and Main DPS playstyle. The combination of 2P CRIT Rate, great uptime on the 24% HP increase and self/team buffing capabilities pull it significantly ahead other options.\n Usage: 99.14 %\n MoC: 7.43 cyc.\n PF: 39513\n AS: 3488\n\n 91.11%\n\n World-Remaking Deliverer ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Scholar Lost in Erudition\n\n Longevous Disciple\n\n Hunter of Glacial Forest\n\n Best Planetary Sets\n 100%\n\n Bone Collection's Serene Demesne ( 2 -PC)\n\n Recommended option for all Evernight playstyles. This Planar's HP and CRIT DMG improve both her personal damage and supportive capabilities.\n Usage: 96.49 %\n MoC: 7.44 cyc.\n PF: 39500\n AS: 3488\n\n 98.70%\n\n Arcadia of Woven Dreams ( 2 -PC)\n\n An alternative for Main DPS Evernight which becomes stronger the more Remembrance characters you run alongside her. Provides up to 36% DMG Bonus if there are 8 ally targets on the field. Not recommended for Sub-DPS Evernight, especially alongside Castorice as Netherwing is often not present when Evey attacks. Calculated with 3 memosprites (3 additional) - performance improves compared to calculations when using 4.\n Usage: 3 %\n MoC: 6.86 cyc.\n PF: 39681\n AS: 3492\n\n Best Stats\n\n Body\n CRIT DMG\n\n Feet\n HP%\n > Speed\n\n Planar Sphere\n Ice DMG\n = HP%\n\n Link Rope\n HP%\n > Energy Regen Rate\n\n Substats: CRIT Rate (Until cap) = CRIT DMG > HP% > SPD\n\n Recommended endgame stats\n HP: 7000 - 8000\n\n CRIT RATE: 65% before Evernight passive (100% with Evernight passive)\n\n CRIT DMG: 160 - 180%+ (Before Trace Buff)\n\n SPD: 99+ (Base SPD or a little higher is acceptable thanks to her SPD Buff)\n\n Traces priority\n Skills priority: Ultimate = Memo Skill = Skill > Talent = Memo Talent > Basic\n\n Major Traces priority: Dark the Night, Still the Moon (A2) > Rouse the Flame, Lull the Light (A4) > Kindle the Morn, Drop the Rain (A6)\n\n Eidolon Information\n\n Eidolon 1: Extremely powerful Eidolon that doubles as tremendous damage increase for both Evernight and any Rememberance teammates she's fighting alongside. Is a true amplifier that scales based on enemies remaining, granting the biggest boost against solo enemies - the target type Evernight and her most common teammates usually have the most trouble with.\n Eidolon 2: Another transformative Eidolon - one so strong it joins the ranks of all time most potent Eidolons in the game. Guarantees Evernight's Ultimate state persists permanently throughout combat, ensuring her Ultimate DMG Taken debuff is always active. Also, massively improves her Memoria generation, boosting her personal damage output while also maximising her stack-based effects in the rest of her kit. Lastly grants Evernight 40% CRIT DMG, boosting her CRIT DMG sharing trace potency as well as personal damage.\n Eidolon 4: Increases all ally memosprites' Weakness Break Efficiency, which can be very useful in Apocalyptic Shadows.\n Eidolon 6: Further amplifies Evernight's supportive and damage capabilities by tacking on a 20% RES PEN for all teammates to her kit as well as allowing her to retain 30% of her Memoria each time Evey vanishes. This retain effect effectively allows Evernight to infinitely ramp over a fight making this Eidolon stronger the longer the fight drags on. Note it will also be weaker the shorter the fight is.\n\n Synergy\n Castorice - Evernight can greatly accelerate Castorice's Ultimate rotation via her memosprite Evey, which she can summon it every turn and consume all of its HP instantly to be converted to Ultimate Charges. She offers a large CRIT DMG buff to all allied memosprites based on the number of Remembrance characters in the party and based on her own CRIT DMG, and her Ultimate can increase the DMG taken by all enemies.\n Cyrene - Cyrene has a permanent buff on Evernight that improves her CRIT DMG scaling by an additional 12%, increases her Memoria generation and Memosprite Skill DMG. The mono-Remembrance team members all deal considerable damage, and boosting Evernight's own amplification effect is a great buff to further reinforce this.\n Hyacine - Evernight's Skills, as well as her Memosprite Skills, all consume HP, which triggers Little Ica's healing while also boosting its CRIT DMG, allowing Little Ica to deal significantly more DMG. Little Ica's fast actions also provides a decent amount of Memoria stacks for Evernight. Hyacine's Ultimate can boost Evernight's HP, and her signature Light Cone can also drain HP from Evernight for additional Memoria stacks.\n Trailblazer • Remembrance - Trailblazer • Remembrance: For Main DPS Evernight: The Remembrance Trailblazer has a persistent True DMG buff which will be extended to Evey once it is summoned - for a massive 50% extra True DMG since her Max Energy is high enough to max out the buff. Additionally provides Evernight with CRIT buffs, occasional Action Advances, contributes to the Remembrance tally for her CRIT DMG buff. With Evernight consuming no Skill Points and actually generating them via her Talent, the Remembrance Trailblazer can use their Skill every turn for more frequent Action Advances.\nFor Sub-DPS Evernight: Competetive option with other Amplifiers (such as Tribbie). The Remembrance Trailblazer remains an excellent support for the Castorice + Evernight duo, thanks to the teamwide CRIT DMG buffs, and strong single-target buffs. Which, if planned carefully, can be active on both Castorice and Evernight at the same time - thanks to the ability to use Skill more often.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 2\n App. rate: 23.72 %\n Avg. cycles : 7.24\n Avg. cycles (E1+): 3.81\n\n Rank 9\n App. rate: 4.29 %\n Avg. cycles : 8.35\n Avg. cycles (E1+): 4.82\n\n Rank 22\n App. rate: 1.23 %\n Avg. cycles : 8.41\n Avg. cycles (E1+): 6.47\n\n Rank 25\n App. rate: 1 %\n Avg. cycles : 9.12\n Avg. cycles (E1+): 3.26\n\n Rank 53\n App. rate: 0.39 %\n Avg. cycles : 8.5\n Avg. cycles (E1+): 3.65\n\n Rank 79\n App. rate: 0.25 %\n Avg. cycles : 10\n Avg. cycles (E1+): 5.21\n\n Rank 95\n App. rate: 0.18 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.67\n\n Rank 138\n App. rate: 0.1 %\n Avg. cycles : -\n Avg. cycles (E1+): 0.44\n\n Rank 202\n App. rate: 0.06 %\n Avg. cycles : -\n Avg. cycles (E1+): 5.67\n\n Rank 202\n App. rate: 0.06 %\n Avg. cycles : 10\n Avg. cycles (E1+): 3.89\n\n New\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

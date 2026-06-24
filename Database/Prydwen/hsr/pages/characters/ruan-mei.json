@@ -1,0 +1,1744 @@
+{
+  "id": "characters:ruan-mei",
+  "provider": "Prydwen",
+  "game": "hsr",
+  "gameName": "Honkai: Star Rail",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "ruan-mei",
+  "name": "Ruan Mei",
+  "title": "Ruan Mei Best Build Guide",
+  "sourcePath": "/star-rail/characters/ruan-mei",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "31/May/2026",
+  "meta": {
+    "title": "Ruan Mei Best Build Guide | Honkai: Star Rail",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 5,
+    "element": "Ice",
+    "path": "Harmony"
+  },
+  "assets": [
+    {
+      "id": "8506b75184e5",
+      "sourceHash": "8506b75184e5",
+      "kind": "characters",
+      "name": "Ruan Mei",
+      "fileStem": "ruan-mei-card",
+      "path": "Prydwen/hsr/assets/characters/ruan-mei-8506b75184e5.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "a6be649090ba",
+      "sourceHash": "a6be649090ba",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "087f2dec68b6",
+      "sourceHash": "087f2dec68b6",
+      "kind": "icons",
+      "name": "Speed",
+      "fileStem": "stat-speed",
+      "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "6890417bdf8b",
+      "sourceHash": "6890417bdf8b",
+      "kind": "icons",
+      "name": "Break Effect",
+      "fileStem": "stat-break",
+      "path": "Prydwen/hsr/assets/icons/break-effect-6890417bdf8b.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "96654253a4f7",
+      "sourceHash": "96654253a4f7",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "dc6aec4a7776",
+      "sourceHash": "dc6aec4a7776",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "50d0e755383a",
+      "sourceHash": "50d0e755383a",
+      "kind": "items",
+      "name": "Credit",
+      "fileStem": "credit",
+      "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "9ab235265d65",
+      "sourceHash": "9ab235265d65",
+      "kind": "items",
+      "name": "Immortal Scionette",
+      "fileStem": "immortal-scionette",
+      "path": "Prydwen/hsr/assets/items/immortal-scionette-9ab235265d65.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "f09bb9ca1d6d",
+      "sourceHash": "f09bb9ca1d6d",
+      "kind": "items",
+      "name": "Immortal Aeroblossom",
+      "fileStem": "immortal-aeroblossom",
+      "path": "Prydwen/hsr/assets/items/immortal-aeroblossom-f09bb9ca1d6d.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "4f30b2b8a101",
+      "sourceHash": "4f30b2b8a101",
+      "kind": "items",
+      "name": "Gelid Chitin",
+      "fileStem": "gelid-chitin",
+      "path": "Prydwen/hsr/assets/items/gelid-chitin-4f30b2b8a101.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "f2f182d18e1a",
+      "sourceHash": "f2f182d18e1a",
+      "kind": "items",
+      "name": "Immortal Lumintwig",
+      "fileStem": "immortal-lumintwig",
+      "path": "Prydwen/hsr/assets/items/immortal-lumintwig-f2f182d18e1a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "b4f3614106cf",
+      "sourceHash": "b4f3614106cf",
+      "kind": "characters",
+      "name": "Ruan Mei",
+      "fileStem": "ruan-mei-full",
+      "path": "Prydwen/hsr/assets/characters/ruan-mei-b4f3614106cf.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "d7566fa4ce22",
+      "sourceHash": "d7566fa4ce22",
+      "kind": "light-cones",
+      "name": "Past Self in Mirror",
+      "fileStem": "past-self-in-mirror",
+      "path": "Prydwen/hsr/assets/light-cones/past-self-in-mirror-d7566fa4ce22.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "697406017955",
+      "sourceHash": "697406017955",
+      "kind": "light-cones",
+      "name": "In Pursuit of the Wind",
+      "fileStem": "in-pursuit-of-the-wind",
+      "path": "Prydwen/hsr/assets/light-cones/in-pursuit-of-the-wind-697406017955.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "ac6e923184c0",
+      "sourceHash": "ac6e923184c0",
+      "kind": "light-cones",
+      "name": "Memories of the Past",
+      "fileStem": "memories-of-the-past",
+      "path": "Prydwen/hsr/assets/light-cones/memories-of-the-past-ac6e923184c0.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "77f4a1bc7d02",
+      "sourceHash": "77f4a1bc7d02",
+      "kind": "light-cones",
+      "name": "Meshing Cogs",
+      "fileStem": "meshing-cogs",
+      "path": "Prydwen/hsr/assets/light-cones/meshing-cogs-77f4a1bc7d02.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "51329378b0cb",
+      "sourceHash": "51329378b0cb",
+      "kind": "light-cones",
+      "name": "Dance! Dance! Dance!",
+      "fileStem": "dance-dance-dance",
+      "path": "Prydwen/hsr/assets/light-cones/dance-dance-dance-51329378b0cb.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "706574c241bc",
+      "sourceHash": "706574c241bc",
+      "kind": "relics",
+      "name": "Watchmaker, Master of Dream Machinations",
+      "fileStem": "watchmaker-master-of-dream-machinations",
+      "path": "Prydwen/hsr/assets/relics/watchmaker-master-of-dream-machinations-706574c241bc.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "4cb8065ad660",
+      "sourceHash": "4cb8065ad660",
+      "kind": "relics",
+      "name": "Messenger Traversing Hackerspace",
+      "fileStem": "messenger-traversing-hackerspace",
+      "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "bd16ed7ff036",
+      "sourceHash": "bd16ed7ff036",
+      "kind": "relics",
+      "name": "Thief of Shooting Meteor",
+      "fileStem": "thief-of-shooting-meteor",
+      "path": "Prydwen/hsr/assets/relics/thief-of-shooting-meteor-bd16ed7ff036.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "2fc8ce1ab137",
+      "sourceHash": "2fc8ce1ab137",
+      "kind": "relics",
+      "name": "Iron Cavalry Against the Scourge",
+      "fileStem": "iron-cavalry-against-the-scourge",
+      "path": "Prydwen/hsr/assets/relics/iron-cavalry-against-the-scourge-2fc8ce1ab137.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5cb190fcc346",
+      "sourceHash": "5cb190fcc346",
+      "kind": "relics",
+      "name": "Sacerdos' Relived Ordeal",
+      "fileStem": "sacerdos-relived-ordeal",
+      "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "bb6d718b4cb3",
+      "sourceHash": "bb6d718b4cb3",
+      "kind": "relics",
+      "name": "Sprightly Vonwacq",
+      "fileStem": "sprightly-vonwacq",
+      "path": "Prydwen/hsr/assets/relics/sprightly-vonwacq-bb6d718b4cb3.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "3306e6f6288f",
+      "sourceHash": "3306e6f6288f",
+      "kind": "relics",
+      "name": "Broken Keel",
+      "fileStem": "broken-keel",
+      "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5b886a96e17a",
+      "sourceHash": "5b886a96e17a",
+      "kind": "relics",
+      "name": "Fleet of the Ageless",
+      "fileStem": "fleet-of-the-ageless",
+      "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d6cdb5f16b16",
+      "sourceHash": "d6cdb5f16b16",
+      "kind": "relics",
+      "name": "Penacony, Land of the Dreams",
+      "fileStem": "penacony-land-of-the-dreams",
+      "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d6aae5028c5a",
+      "sourceHash": "d6aae5028c5a",
+      "kind": "relics",
+      "name": "Lushaka, the Sunken Seas",
+      "fileStem": "lushaka-the-sunken-seas",
+      "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "a8ea2dfcb1ee",
+      "sourceHash": "a8ea2dfcb1ee",
+      "kind": "relics",
+      "name": "Talia: Kingdom of Banditry",
+      "fileStem": "talia-kingdom-of-banditry",
+      "path": "Prydwen/hsr/assets/relics/talia-kingdom-of-banditry-a8ea2dfcb1ee.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "106ddd8eff32",
+      "sourceHash": "106ddd8eff32",
+      "kind": "icons",
+      "name": "Energy Regen",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "4c12f1ecf12f",
+      "sourceHash": "4c12f1ecf12f",
+      "kind": "characters",
+      "name": "Firefly",
+      "fileStem": "firefly-icon",
+      "path": "Prydwen/hsr/assets/characters/firefly-4c12f1ecf12f.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "fd57eb6e6eb9",
+      "sourceHash": "fd57eb6e6eb9",
+      "kind": "characters",
+      "name": "Boothill",
+      "fileStem": "boothill-icon",
+      "path": "Prydwen/hsr/assets/characters/boothill-fd57eb6e6eb9.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "f8ad01025a66",
+      "sourceHash": "f8ad01025a66",
+      "kind": "characters",
+      "name": "Rappa",
+      "fileStem": "rappa-icon",
+      "path": "Prydwen/hsr/assets/characters/rappa-f8ad01025a66.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "de41e1704266",
+      "sourceHash": "de41e1704266",
+      "kind": "characters",
+      "name": "Trailblazer • Harmony",
+      "fileStem": "trailblazer-harmony-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-harmony-de41e1704266.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "92feb26d8f0e",
+      "sourceHash": "92feb26d8f0e",
+      "kind": "icons",
+      "name": "Fire",
+      "fileStem": "ele-fire",
+      "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "444d6f5749b7",
+      "sourceHash": "444d6f5749b7",
+      "kind": "characters",
+      "name": "Tingyun • Fugue",
+      "fileStem": "tingyun-fugue-icon",
+      "path": "Prydwen/hsr/assets/characters/tingyun-fugue-444d6f5749b7.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "b77207bce6c8",
+      "sourceHash": "b77207bce6c8",
+      "kind": "characters",
+      "name": "Ruan Mei",
+      "fileStem": "ruan-mei-icon",
+      "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "7d36eb39792a",
+      "sourceHash": "7d36eb39792a",
+      "kind": "icons",
+      "name": "Ice",
+      "fileStem": "ele-ice",
+      "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "cec6f11ca61e",
+      "sourceHash": "cec6f11ca61e",
+      "kind": "characters",
+      "name": "The Dahlia",
+      "fileStem": "the-dahlia-icon",
+      "path": "Prydwen/hsr/assets/characters/the-dahlia-cec6f11ca61e.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "913ff64407f2",
+      "sourceHash": "913ff64407f2",
+      "kind": "icons",
+      "name": "Imaginary",
+      "fileStem": "ele-imaginary",
+      "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "ab0724067e0c",
+      "sourceHash": "ab0724067e0c",
+      "kind": "characters",
+      "name": "Lingsha",
+      "fileStem": "lingsha-icon",
+      "path": "Prydwen/hsr/assets/characters/lingsha-ab0724067e0c.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "30d074a1060a",
+      "sourceHash": "30d074a1060a",
+      "kind": "characters",
+      "name": "Gallagher",
+      "fileStem": "gallagher-icon",
+      "path": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "bc2d64a2cd5f",
+      "sourceHash": "bc2d64a2cd5f",
+      "kind": "characters",
+      "name": "Hysilens",
+      "fileStem": "hysilens-icon",
+      "path": "Prydwen/hsr/assets/characters/hysilens-bc2d64a2cd5f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e0db16ed6c66",
+      "sourceHash": "e0db16ed6c66",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "ele-physical",
+      "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "e01f880a2668",
+      "sourceHash": "e01f880a2668",
+      "kind": "characters",
+      "name": "Black Swan",
+      "fileStem": "black-swan-icon",
+      "path": "Prydwen/hsr/assets/characters/black-swan-e01f880a2668.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ee11bd390c9a",
+      "sourceHash": "ee11bd390c9a",
+      "kind": "icons",
+      "name": "Wind",
+      "fileStem": "ele-wind",
+      "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "a137ba3e51ff",
+      "sourceHash": "a137ba3e51ff",
+      "kind": "characters",
+      "name": "Kafka",
+      "fileStem": "kafka-icon",
+      "path": "Prydwen/hsr/assets/characters/kafka-a137ba3e51ff.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d197456869a0",
+      "sourceHash": "d197456869a0",
+      "kind": "icons",
+      "name": "Lightning",
+      "fileStem": "ele-lightning",
+      "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "fd3d60695240",
+      "sourceHash": "fd3d60695240",
+      "kind": "characters",
+      "name": "Castorice",
+      "fileStem": "castorice-icon",
+      "path": "Prydwen/hsr/assets/characters/castorice-fd3d60695240.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "565914d1a436",
+      "sourceHash": "565914d1a436",
+      "kind": "icons",
+      "name": "Quantum",
+      "fileStem": "ele-quantum",
+      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "e6a5c98adfc4",
+      "sourceHash": "e6a5c98adfc4",
+      "kind": "characters",
+      "name": "March 7th • Evernight",
+      "fileStem": "march-7th-evernight-icon",
+      "path": "Prydwen/hsr/assets/characters/march-7th-evernight-e6a5c98adfc4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1d90270b2b4b",
+      "sourceHash": "1d90270b2b4b",
+      "kind": "characters",
+      "name": "Hyacine",
+      "fileStem": "hyacine-icon",
+      "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "714348f14d48",
+      "sourceHash": "714348f14d48",
+      "kind": "characters",
+      "name": "Dan Heng • Permansor Terrae",
+      "fileStem": "dan-heng-permansor-terrae-icon",
+      "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "bdd27122e011",
+      "sourceHash": "bdd27122e011",
+      "kind": "characters",
+      "name": "Phainon",
+      "fileStem": "phainon-icon",
+      "path": "Prydwen/hsr/assets/characters/phainon-bdd27122e011.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1b219ef71829",
+      "sourceHash": "1b219ef71829",
+      "kind": "characters",
+      "name": "Cerydra",
+      "fileStem": "cerydra-icon",
+      "path": "Prydwen/hsr/assets/characters/cerydra-1b219ef71829.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "3d568cb7f29d",
+      "sourceHash": "3d568cb7f29d",
+      "kind": "characters",
+      "name": "Sunday",
+      "fileStem": "sunday-icon",
+      "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+      "width": 60,
+      "height": 60
+    }
+  ],
+  "sections": [
+    {
+      "id": "ruan-mei-best-build-guide-0",
+      "level": 1,
+      "heading": "Ruan Mei Best Build Guide",
+      "text": "Last updated: 31/May/2026",
+      "assets": [
+        {
+          "id": "8506b75184e5",
+          "sourceHash": "8506b75184e5",
+          "kind": "characters",
+          "name": "Ruan Mei",
+          "fileStem": "ruan-mei-card",
+          "path": "Prydwen/hsr/assets/characters/ruan-mei-8506b75184e5.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Ruan Mei from HSR (Honkai: Star Rail). Ruan Mei is a 5 ★ character from the Ice element who follows the Path of Harmony .\n A sweet-tempered and elegant scholar. Member #81 of the Genius Society. An expert in the biological sciences. She earned Nous' attention with her talent and terrifying perseverance, and began her research on the origin of life in a secret corner of the universe. For that, she was invited by Herta to collaborate with Screwllum and Stephen to develop the Simulated Universe. Secretly, she greatly enjoys traditional theater and desserts, and she is also very interested in embroidery.\n\n To learn more about Ruan Mei check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Ruan Mei has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 3.2\n\n Last major build/calcs update\n Patch 3.4\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Ruan Mei check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "skills-9",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic ATK\n Threading Fragrance\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Ice DMG equal to #1[i]% of Ruan Mei's ATK to a single target enemy.\n\n Skill\n String Sings Slow Swirls\n Support\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n After using her Skill, Ruan Mei gains Overtone, lasting for #3[i] turn(s). This duration decreases by 1 at the start of Ruan Mei's turn. When Ruan Mei has Overtone, all allies' DMG increases by #1[i]% and Weakness Break Efficiency increases by #2[i]%.\n\n Ultimate\n Petals to Stream, Repose in Dream\n Support | 130 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: -\n\n Ruan Mei deploys a field that lasts for #2[i] turns. The field's duration decreases by 1 at the start of her turn.\nWhile inside the field, all allies' All-Type RES PEN increases by #1[i]% and their attacks apply Thanatoplum Rebloom to the enemies hit.\nWhen these enemies attempt to recover from Weakness Break, Thanatoplum Rebloom is triggered, extending the duration of their Weakness Break, delaying their action by an amount equal to #3[i]% of Ruan Mei's Break Effect plus #4[i]%, and dealing Break DMG equal to #5[i]% of Ruan Mei's Ice Break DMG.\nEnemy targets cannot have Thanatoplum Rebloom re-applied to them until they recover from Weakness Break.\n\n Talent\n Somatotypical Helix\n Support\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n Increases SPD by #1[i]% for the team (excluding this character). When allies Break an enemy target's Weakness, Ruan Mei deals to this enemy target Break DMG equal to #2[i]% of her Ice Break DMG.\n\n Technique\n Silken Serenade\n Enhance\n\n Energy gain: 0\n Break: -\n\n After using the Technique, gains Silken Serenade. At the start of the next battle, automatically triggers the Skill for #1[i] time(s) without consuming Skill Points.\nIn Simulated Universe, when Ruan Mei has Silken Serenade, the team actively attacking enemies will always be regarded as attacking their Weakness to enter battle, and this attack can reduce all enemies' Toughness regardless of Weakness types. When breaking Weakness, triggers Weakness Break Effect corresponding to the attacker's Type. For every Blessing in possession up to #4[i] Blessing(s), additionally increases the Toughness-Reducing DMG of this attack by #2[i]%. After breaking an enemy target's Weakness, additionally deals to the enemy target Break DMG equal to #3[i]% of Ruan Mei's Ice Break DMG.",
+      "assets": []
+    },
+    {
+      "id": "major-traces-10",
+      "level": 2,
+      "heading": "Major Traces",
+      "text": "A2 Major trace\n Inert Respiration\n\n Increases Break Effect by 20% for all allies.\n\n A4 Major trace\n Days Wane, Thoughts Wax\n\n Ruan Mei regenerates 5 Energy at the start of her turn.\n\n A6 Major trace\n Candle Lights on Still Waters\n\n In battle, for every 10% of Ruan Mei's Break Effect that exceeds 120%, her Skill additionally increases allies' DMG by 6% , up to a maximum of 36% .",
+      "assets": []
+    },
+    {
+      "id": "minor-traces-total-11",
+      "level": 2,
+      "heading": "Minor Traces (total)",
+      "text": "DEF\n + 22.5%\n\n Speed\n + 5\n\n Break Effect\n + 37.3%",
+      "assets": [
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "6890417bdf8b",
+          "sourceHash": "6890417bdf8b",
+          "kind": "icons",
+          "name": "Break Effect",
+          "fileStem": "stat-break",
+          "path": "Prydwen/hsr/assets/icons/break-effect-6890417bdf8b.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "eidolons-12",
+      "level": 2,
+      "heading": "Eidolons",
+      "text": "E 1\n Neuronic Embroidery\n Eidolon 1\n\n While the Ultimate's field is deployed, the DMG dealt by all allies ignores 20% of the target's DEF.\n\n E 2\n Reedside Promenade\n Eidolon 2\n\n With Ruan Mei on the field, all allies increase their ATK by 40% when dealing DMG to enemies with Weakness Break.\n\n E 3\n Viridescent Pirouette\n Eidolon 3\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 4\n Chatoyant Éclat\n Eidolon 4\n\n When an enemy target's Weakness is Broken, Ruan Mei's Break Effect increases by 100% for 3 turn(s).\n\n E 5\n Languid Barrette\n Eidolon 5\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 6\n Sash Cascade\n Eidolon 6\n\n Extends the duration of the Ultimate's field by 1 turn(s). The Talent's Break DMG multiplier additionally increases by 200% .",
+      "assets": []
+    },
+    {
+      "id": "stats-and-materials-13",
+      "level": 2,
+      "heading": "Stats and materials",
+      "text": "Enable Ascension",
+      "assets": []
+    },
+    {
+      "id": "level-80-stats-14",
+      "level": 5,
+      "heading": "Level 80 stats",
+      "text": "HP\n\n 1086\n\n ATK\n\n 659\n\n DEF\n\n 485\n\n Speed\n\n 104",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "level-1-80-ascension-materials-15",
+      "level": 5,
+      "heading": "Level 1 → 80 Ascension Materials",
+      "text": "Credit\n\n x 308000\n\n Immortal Scionette\n\n x 15\n\n Immortal Aeroblossom\n\n x 15\n\n Gelid Chitin\n\n x 65\n\n Immortal Lumintwig\n\n x 15",
+      "assets": [
+        {
+          "id": "50d0e755383a",
+          "sourceHash": "50d0e755383a",
+          "kind": "items",
+          "name": "Credit",
+          "fileStem": "credit",
+          "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "9ab235265d65",
+          "sourceHash": "9ab235265d65",
+          "kind": "items",
+          "name": "Immortal Scionette",
+          "fileStem": "immortal-scionette",
+          "path": "Prydwen/hsr/assets/items/immortal-scionette-9ab235265d65.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "f09bb9ca1d6d",
+          "sourceHash": "f09bb9ca1d6d",
+          "kind": "items",
+          "name": "Immortal Aeroblossom",
+          "fileStem": "immortal-aeroblossom",
+          "path": "Prydwen/hsr/assets/items/immortal-aeroblossom-f09bb9ca1d6d.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "4f30b2b8a101",
+          "sourceHash": "4f30b2b8a101",
+          "kind": "items",
+          "name": "Gelid Chitin",
+          "fileStem": "gelid-chitin",
+          "path": "Prydwen/hsr/assets/items/gelid-chitin-4f30b2b8a101.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "f2f182d18e1a",
+          "sourceHash": "f2f182d18e1a",
+          "kind": "items",
+          "name": "Immortal Lumintwig",
+          "fileStem": "immortal-lumintwig",
+          "path": "Prydwen/hsr/assets/items/immortal-lumintwig-f2f182d18e1a.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "cv-16",
+      "level": 2,
+      "heading": "CV",
+      "text": "ENG\n Emi Lo\n\n JPN\n 大西沙织 (Onishi Saori)\n\n CN\n 张文钰 (Zhang Wenyu)\n\n KR\n 윤여진 (Yoon Yeo-jin)",
+      "assets": []
+    },
+    {
+      "id": "gallery-17",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "b4f3614106cf",
+          "sourceHash": "b4f3614106cf",
+          "kind": "characters",
+          "name": "Ruan Mei",
+          "fileStem": "ruan-mei-full",
+          "path": "Prydwen/hsr/assets/characters/ruan-mei-b4f3614106cf.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Provides the first-ever instance of Break Efficiency,\n\n Rare RES PEN buff for the whole team,\n\n Permanent teamwide SPD buff,\n\n Universally applicable buffs,\n\n The core member of Super Break teams,\n\n Still great in other team archetypes, even if she's not the 1st pick there anymore,\n\n Strong defensive utility with increased Breaking.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Extremely steep investment requirement to reach her full potential,\n\n The Break Damage can 'kill steal' which isn't that great for damage dealers that rely on last-hitting enemies.",
+      "assets": []
+    },
+    {
+      "id": "review-by-sushou-21",
+      "level": 2,
+      "heading": "Review (By Sushou)",
+      "text": "Ruan Mei is an exceptional support character who is the core member of Super Break teams, but her buffs are universal enough that she can be used with other archetypes too. She is able to effortlessly buff the whole team’s DMG and increase everyone’s Break Efficiency with her Skill. Her Ultimate increases all allies’ RES PEN and is able to delay the enemies again once their Weakness Break ends. She’s even got free bonus Break damage from her Talent that activates whenever allies Break an enemy, and the Talent itself provides a small but permanent SPD boost to all other characters in the party.\n The definitely sane, definitely not megalomaniacal Genius Society member, Ruan Mei, is a fairly ridiculous character in the game . She is our very first support character to increase the Weakness Break Efficiency of characters; you know that one Nihility blessing in the Simulated Universe? Night Beyond Pyre, the one that increases Break Efficiency by 30%? Yeah, well, Ruan Mei can increase that by 50% and also have it permanently active.\n Ruan Mei’s Skill gives her a buff called Overtone, lasting for 3 turns. This ticks down at the start of her turn. While she has Overtone, all allies’ DMG increases by 32% and Weakness Break Efficiency increases by 50%. This is kind of absurd already given that the application of this buff is entirely effortless, and having it last for 3 turns means that Ruan Mei has plenty of time to recover the SP she spent setting it up and then some. Weakness Break Efficiency is exceedingly powerful. Enemies take slightly reduced damage from all sources while they are not Broken, and this gets removed once they do get Broken, so if you’ve ever wondered why a Broken enemy seems to be taking so much more damage, this is why.\n Usually, there is not a large window of opportunity to take advantage of this state, and it may be preferable to hold off on using big hitting abilities until after the enemy has recovered from Break so as to resume dealing Toughness damage. With this Skill’s effects active, you not only get enemies into that state faster, but it’s easier to repeatedly get them to that state even with weaker hitting attacks, meaning you’re more able to land those huge hits during the enemies’ most vulnerable period.\n Ruan Mei’s Ultimate deploys a field for 2 turns, and this also ticks down at the start of her turn. While the field is active, all allies get 25% All-Type RES PEN. If you’ve been around for a while, or if you’re an avid user of Seele, you should understand how rare and powerful Resistance Penetration is by now. 25% is ridiculous, and with a 2-turn duration based on Ruan Mei’s turns, it’s extraordinarily easy to abuse this to the player’s benefit with faster characters or with turn manipulation.\n In addition to this, ally attacks within the field apply a debuff to enemies called Thanatoplum Rebloom to enemies they hit. This effect triggers when an enemy attempts to recover from Weakness Break, extending their Weakness Break and delaying their action by 20% of Ruan Mei’s Break Effect plus 10%. This re-Break will also deal 50% of Ruan Mei’s Ice Break DMG. This works in tandem with her Skill to just bully enemies; you Break them faster with the Break Efficiency and then get to keep them Broken for longer, all while benefiting from the DMG bonuses and RES PEN. Important to note that Thanatoplum Rebloom can only trigger again after the enemy has fully recovered from Weakness Break.\n The buffs she provides are already highly impressive even without considering the bonus provided by the Break extension, but with her Talent she provides even more benefits, and she can even contribute some damage of her own. She permanently increases all other teammates’ SPD by 10% , and whenever an ally Breaks an enemy, Ruan Mei will instantly deal damage equal to 120% of her Ice Break DMG. This is not a follow-up attack, this damage is inflicted alongside the Break damage of the ally inflicting Break.\n A 10% SPD boost is just about enough to be significant and to meet specific SPD thresholds for characters. However, being able to contribute Break damage without even needing to be the one to Break enemies is ridiculously good, especially as it’s actually a higher multiplier if you let other allies do it for you; this solves the biggest problem with building for Break Effect which is that if you’re not the one to Break enemies, that stat is functionally useless for you. For Ruan Mei, this is most assuredly not the case, so don’t be surprised to be seeing light blue damage numbers in the five-digit range showing up alongside Breaks later on.\n It’s clear by now that Ruan Mei benefits the Break playstyle significantly and also benefits from Break Effect% herself as she has so many ways to utilise it. With her Bonus Ability Traces, Ruan Mei reaches a new height that makes her supportive capabilities begin to approach the omnipresent power of Bronya. A2 increases all allies’ Break Effect by 20%, and A4 will regenerate 5 Energy for Ruan Mei at the start of her turn.\n A6 is where the big money is; in combat, for every 10% Break Effect that Ruan Mei has that exceeds 120%, her Skill’s DMG bonus increases by an additional 6%, up to a maximum of 36% extra . That means that if you can reach at least 180% Break Effect, Ruan Mei’s Skill is now providing a ridiculous 68% DMG bonus to all allies in addition to its already powerful 50% Break Efficiency. While it is no small feat to achieve such a high Break Effect stat, the mere fact that it’s possible to do so puts Ruan Mei’s supportive capabilities right at top for any Super Break team.\n Eidolon-wise, it’s complete overkill in all cases. E1 is great value because it also gives allies a 20% DEF ignore during the Ultimate, but again, it’s opulence to excess. As for her E2, don't get baited into it if you only play Ruan Mei in Super Break teams, as the ATK boost is useless - E1 is a great stopping point for Ruan Mei.\n Where Ruan Mei shines are the Super Break teams - pair her with the Harmony Trailblazer or Fugue and you get yourself the core of the Super Break/Break team. While Firefly and Rappa are the two premium Super Break damage dealers often paired with the Ruan/HMC or Fugue core, you can play any other DPS in the role but Himeko shines the most there and she's a great replacement for those who don't have Firefly and need to tackle Fire-weak content. While Super Break isn't as powerful as it was back in the day (mainly due to the content being tailored to newer archetypes), Firefly, Rappa and Boothill still work well and allow you to clear any content - and Ruan Mei is a key member of their teams. And who knows, maybe one day another Super Break DPS will be released, and the content will favor that archetype again.\n Usually, I talk about support characters’ damage contribution as ‘non-negligible’ meaning it’s a nice addition to have. Just by being in the team and being well-invested, Breaking of smaller enemies will cause them to simply explode into confetti, again by simply being in the party. The defensive benefits of Breaking enemies quickly and keeping them Broken for longer also cannot be understated, and she can end up greatly assisting lower investment sustain options to keep up by uhh, lemme check my notes here… ‘Murdering things before they can murder you.’ Yeah that sounds about right.\n The one truly big downside of Ruan Mei is the obscene investment she demands to reach her peak. As stated earlier, reaching 180% Break Effect is extremely challenging, even with sacrificing your Link Rope. Even if you do reach that amount or close to it, you’ll likely be sacrificing a fair few defensive substats as well, so this is something you need to account for, even if it is partially solved by the increase in Break frequency she provides. Outside of her signature, her Light Cone options are also fairly dismal all things considered, so this should also be taken into account.\n Also, stop it, you can’t fix her. Stop it.",
+      "assets": []
+    },
+    {
+      "id": "ratings-22",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n T1\n MoC\n\n T1\n PF\n\n T0.5\n AS\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "best-light-cones-24",
+      "level": 2,
+      "heading": "Best Light Cones",
+      "text": "1\n\n Past Self in Mirror (S 1 )\n\n Provides a 24% DMG bonus when using Ultimate, which is largely useless in Break teams, but decent in other teams. The teamwide Energy each wave, and 1 Skill Point every Ultimate can be clutch in any team.\n Usage: 47.15 %\n MoC: 7 cyc.\n PF: 27766\n AS: 3380\n\n 2\n\n In Pursuit of the Wind (S 5 )\n\n Top option for Break teams, offering an unconditional teamwide 16% Break DMG Boost - this also works for Super Break DMG.\n Usage: 9.6 %\n MoC: 4 cyc.\n PF: 0\n AS: 0\n\n 3\n\n Memories of the Past (S 5 )\n\n At high superimposition, this Light Cone can enable reliable 3-turn Ultimate rotations, while also providing a significant Break Effect stat to reach the 160% threshold, or to boost Break DMG.\n Usage: 24.18 %\n MoC: 8.67 cyc.\n PF: 24370\n AS: 3384\n\n 4\n\n Meshing Cogs (S 5 )\n\n One of the strongest energy generating Cone in the game - especially in encounters where the wearer is getting hit many times as each hit grants 8 energy. Will help a lot with Energy issues, but at the cost of all other supportive effects and base stats.\n Usage: 1.77 %\n MoC: -\n PF: 0\n AS: 3092",
+      "assets": [
+        {
+          "id": "d7566fa4ce22",
+          "sourceHash": "d7566fa4ce22",
+          "kind": "light-cones",
+          "name": "Past Self in Mirror",
+          "fileStem": "past-self-in-mirror",
+          "path": "Prydwen/hsr/assets/light-cones/past-self-in-mirror-d7566fa4ce22.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "697406017955",
+          "sourceHash": "697406017955",
+          "kind": "light-cones",
+          "name": "In Pursuit of the Wind",
+          "fileStem": "in-pursuit-of-the-wind",
+          "path": "Prydwen/hsr/assets/light-cones/in-pursuit-of-the-wind-697406017955.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "ac6e923184c0",
+          "sourceHash": "ac6e923184c0",
+          "kind": "light-cones",
+          "name": "Memories of the Past",
+          "fileStem": "memories-of-the-past",
+          "path": "Prydwen/hsr/assets/light-cones/memories-of-the-past-ac6e923184c0.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "77f4a1bc7d02",
+          "sourceHash": "77f4a1bc7d02",
+          "kind": "light-cones",
+          "name": "Meshing Cogs",
+          "fileStem": "meshing-cogs",
+          "path": "Prydwen/hsr/assets/light-cones/meshing-cogs-77f4a1bc7d02.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "specialist-light-cones-25",
+      "level": 3,
+      "heading": "Specialist Light Cones",
+      "text": "1\n\n Dance! Dance! Dance! (S 5 )\n\n Allows characters with high Speed and/or an accessible Ultimate to grant substantial action boosts to themselves and the team allowing for higher Speed (and cycle) breakpoints. Strongest on characters who can access their Ultimate at least once every 3 (but ideally 2) actions. Specifically strong when combined with other additional action advances or energy generation.\n Usage: 15.1 %\n MoC: -\n PF: 27800\n AS: 3648",
+      "assets": [
+        {
+          "id": "51329378b0cb",
+          "sourceHash": "51329378b0cb",
+          "kind": "light-cones",
+          "name": "Dance! Dance! Dance!",
+          "fileStem": "dance-dance-dance",
+          "path": "Prydwen/hsr/assets/light-cones/dance-dance-dance-51329378b0cb.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-relic-sets-27",
+      "level": 2,
+      "heading": "Best Relic Sets",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Watchmaker, Master of Dream Machinations ( 4 -PC)\n\n Incredible team-wide supportive set for Break-focused teams. Most optimally played on the character in the team with the most frequent access to an Ultimate which buffs allies to ensure strong uptime. In teams with particularly fast Break-focused damage dealers, equipping this to multiple Supports for better uptime may be advised.\n Usage: 52.01 %\n MoC: 9 cyc.\n PF: 27753\n AS: 3449\n\n 2\n\n Messenger Traversing Hackerspace ( 4 -PC)\n\n Good team-wide supportive option for characters with Ultimates that target allies. With this set equipped, Ultimates are best timed carefully to ensure the Speed buff is active on key members for as long as possible.\n Usage: 10.41 %\n MoC: 7 cyc.\n PF: 26240\n AS: 3315\n\n 3\n\n Thief of Shooting Meteor ( 4 -PC)\n\n Good option for Break-scaling characters, especially those who can benefit from the additional Energy gain granted when the wearer Breaks enemies.\n Usage: 10.93 %\n MoC: 6.5 cyc.\n PF: 23387\n AS: 3668\n\n 4\n\n Thief of Shooting Meteor ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Iron Cavalry Against the Scourge\n\n Watchmaker, Master of Dream Machinations\n\n Sacerdos' Relived Ordeal\n\n Messenger Traversing Hackerspace\n\n Usage: 0.69 %\n MoC: -\n PF: 0\n AS: 3674",
+      "assets": [
+        {
+          "id": "706574c241bc",
+          "sourceHash": "706574c241bc",
+          "kind": "relics",
+          "name": "Watchmaker, Master of Dream Machinations",
+          "fileStem": "watchmaker-master-of-dream-machinations",
+          "path": "Prydwen/hsr/assets/relics/watchmaker-master-of-dream-machinations-706574c241bc.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "4cb8065ad660",
+          "sourceHash": "4cb8065ad660",
+          "kind": "relics",
+          "name": "Messenger Traversing Hackerspace",
+          "fileStem": "messenger-traversing-hackerspace",
+          "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "bd16ed7ff036",
+          "sourceHash": "bd16ed7ff036",
+          "kind": "relics",
+          "name": "Thief of Shooting Meteor",
+          "fileStem": "thief-of-shooting-meteor",
+          "path": "Prydwen/hsr/assets/relics/thief-of-shooting-meteor-bd16ed7ff036.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "2fc8ce1ab137",
+          "sourceHash": "2fc8ce1ab137",
+          "kind": "relics",
+          "name": "Iron Cavalry Against the Scourge",
+          "fileStem": "iron-cavalry-against-the-scourge",
+          "path": "Prydwen/hsr/assets/relics/iron-cavalry-against-the-scourge-2fc8ce1ab137.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "5cb190fcc346",
+          "sourceHash": "5cb190fcc346",
+          "kind": "relics",
+          "name": "Sacerdos' Relived Ordeal",
+          "fileStem": "sacerdos-relived-ordeal",
+          "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-planetary-sets-28",
+      "level": 6,
+      "heading": "Best Planetary Sets",
+      "text": "1\n\n Sprightly Vonwacq ( 2 -PC)\n\n Incredibly potent option for buff/debuff based characters. The advance from this set allows the wearer to apply their buffs/debuffs before the rest of the team acts, accelerate rotations, allows access to ultimates closer to the start of the fight and also grants Energy Regen - a valuable stat for many supports.\n Usage: 59.53 %\n MoC: 7.33 cyc.\n PF: 28870\n AS: 3423\n\n 2\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n Usage: 4.7 %\n MoC: -\n PF: 23400\n AS: 3668\n\n 3\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n Usage: 2.08 %\n MoC: -\n PF: 0\n AS: 0\n\n 4\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 5\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n Usage: 9.61 %\n MoC: -\n PF: 26240\n AS: 3422",
+      "assets": [
+        {
+          "id": "bb6d718b4cb3",
+          "sourceHash": "bb6d718b4cb3",
+          "kind": "relics",
+          "name": "Sprightly Vonwacq",
+          "fileStem": "sprightly-vonwacq",
+          "path": "Prydwen/hsr/assets/relics/sprightly-vonwacq-bb6d718b4cb3.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "3306e6f6288f",
+          "sourceHash": "3306e6f6288f",
+          "kind": "relics",
+          "name": "Broken Keel",
+          "fileStem": "broken-keel",
+          "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "5b886a96e17a",
+          "sourceHash": "5b886a96e17a",
+          "kind": "relics",
+          "name": "Fleet of the Ageless",
+          "fileStem": "fleet-of-the-ageless",
+          "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "d6cdb5f16b16",
+          "sourceHash": "d6cdb5f16b16",
+          "kind": "relics",
+          "name": "Penacony, Land of the Dreams",
+          "fileStem": "penacony-land-of-the-dreams",
+          "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "d6aae5028c5a",
+          "sourceHash": "d6aae5028c5a",
+          "kind": "relics",
+          "name": "Lushaka, the Sunken Seas",
+          "fileStem": "lushaka-the-sunken-seas",
+          "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-specialist-planetary-sets-29",
+      "level": 6,
+      "heading": "Best Specialist Planetary Sets",
+      "text": "1\n\n Talia: Kingdom of Banditry ( 2 -PC)\n\n Strong Break-focused planar set suitable for all Break-scaling characters without the conditional requirements of Forge of Kalpagni, assuming the wearer can reach the 145 Speed requirement. Unless you need the Break Effect% from this Planar to satisfy Ruan's thresholds, other Planars may outperform it.\n Usage: 10.73 %\n MoC: 8.5 cyc.\n PF: 25940\n AS: 3283",
+      "assets": [
+        {
+          "id": "a8ea2dfcb1ee",
+          "sourceHash": "a8ea2dfcb1ee",
+          "kind": "relics",
+          "name": "Talia: Kingdom of Banditry",
+          "fileStem": "talia-kingdom-of-banditry",
+          "path": "Prydwen/hsr/assets/relics/talia-kingdom-of-banditry-a8ea2dfcb1ee.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-stats-31",
+      "level": 2,
+      "heading": "Best Stats",
+      "text": "Body\n HP%\n > DEF%\n\n Feet\n Speed\n\n Planar Sphere\n HP%\n > DEF%\n\n Link Rope\n Energy Regen Rate\n > Break Effect\n\n Substats: Break Effect (Until 180%) > SPD (Until Breakpoint) > HP% = DEF% > Effect RES (30% if using Broken Keel)\n\n Stack Break Effect until 180%. Aim for a desirable Speed breakpoint next (134 minimum recommended). After achieving these goals, stack more Break Effect to improve Ruan's burst damage or invest in more Speed or DEF% and HP% to make her more durable.",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "106ddd8eff32",
+          "sourceHash": "106ddd8eff32",
+          "kind": "icons",
+          "name": "Energy Regen",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "6890417bdf8b",
+          "sourceHash": "6890417bdf8b",
+          "kind": "icons",
+          "name": "Break Effect",
+          "fileStem": "stat-break",
+          "path": "Prydwen/hsr/assets/icons/break-effect-6890417bdf8b.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "recommended-endgame-stats-32",
+      "level": 2,
+      "heading": "Recommended endgame stats",
+      "text": "HP: 3700 - 5000 +\n\n DEF: 1000 - 1100+\n\n SPD: 109 / 121 / 134 (Recommended)\n\n Energy Regeneration Rate : 119.44%+\n\n Break Effect: 180%+ (with A2 active)",
+      "assets": []
+    },
+    {
+      "id": "traces-priority-33",
+      "level": 2,
+      "heading": "Traces priority",
+      "text": "Skills priority: Ultimate = Talent = Skill > Basic\n\n Major Traces priority: Candle Lights on Still Waters (A6) > Inert Respiration (A2) > Days Wane, Thoughts Wax (A4)",
+      "assets": []
+    },
+    {
+      "id": "synergy-34",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Firefly Boothill Rappa - Firefly & Boothill & Rappa all love Ruan Mei as she provides everything they needs to perform well - Break Efficiency, Speed and Break Delay.\n Trailblazer • Harmony - Trailblazer • Harmony is the second Break-Centric Support we currently have, and it abuses every aspect of Ruan Mei except the DMG% boosts, while also allowing Ruan Mei herself to even do some damage from Harmony Trailblazers Super Break mechanic.",
+      "assets": [
+        {
+          "id": "4c12f1ecf12f",
+          "sourceHash": "4c12f1ecf12f",
+          "kind": "characters",
+          "name": "Firefly",
+          "fileStem": "firefly-icon",
+          "path": "Prydwen/hsr/assets/characters/firefly-4c12f1ecf12f.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "fd57eb6e6eb9",
+          "sourceHash": "fd57eb6e6eb9",
+          "kind": "characters",
+          "name": "Boothill",
+          "fileStem": "boothill-icon",
+          "path": "Prydwen/hsr/assets/characters/boothill-fd57eb6e6eb9.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "f8ad01025a66",
+          "sourceHash": "f8ad01025a66",
+          "kind": "characters",
+          "name": "Rappa",
+          "fileStem": "rappa-icon",
+          "path": "Prydwen/hsr/assets/characters/rappa-f8ad01025a66.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "de41e1704266",
+          "sourceHash": "de41e1704266",
+          "kind": "characters",
+          "name": "Trailblazer • Harmony",
+          "fileStem": "trailblazer-harmony-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-harmony-de41e1704266.webp",
+          "width": 45,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "id": "anomaly-arbitration-39",
+      "level": 6,
+      "heading": "Anomaly Arbitration",
+      "text": "Rank 8\n App. rate: 5.74 %\n Avg. cycles : 6.58\n Avg. cycles (E1+): 3.32\n\n Rank 17\n App. rate: 1.7 %\n Avg. cycles : 6\n Avg. cycles (E1+): 4.21\n\n Rank 43\n App. rate: 0.51 %\n Avg. cycles : 8.4\n Avg. cycles (E1+): 7.11\n\n Rank 45\n App. rate: 0.48 %\n Avg. cycles : 9\n Avg. cycles (E1+): 7.74\n\n Rank 79\n App. rate: 0.25 %\n Avg. cycles : 6\n Avg. cycles (E1+): 0.7\n\n Rank 85\n App. rate: 0.22 %\n Avg. cycles : -\n Avg. cycles (E1+): 3.24\n\n Rank 94\n App. rate: 0.19 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.19\n\n Rank 95\n App. rate: 0.18 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.67\n\n Rank 119\n App. rate: 0.13 %\n Avg. cycles : -\n Avg. cycles (E1+): 6.75\n\n Rank 126\n App. rate: 0.12 %\n Avg. cycles : -\n Avg. cycles (E1+): 4.32",
+      "assets": [
+        {
+          "id": "4c12f1ecf12f",
+          "sourceHash": "4c12f1ecf12f",
+          "kind": "characters",
+          "name": "Firefly",
+          "fileStem": "firefly-icon",
+          "path": "Prydwen/hsr/assets/characters/firefly-4c12f1ecf12f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "92feb26d8f0e",
+          "sourceHash": "92feb26d8f0e",
+          "kind": "icons",
+          "name": "Fire",
+          "fileStem": "ele-fire",
+          "path": "Prydwen/hsr/assets/icons/fire-92feb26d8f0e.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "444d6f5749b7",
+          "sourceHash": "444d6f5749b7",
+          "kind": "characters",
+          "name": "Tingyun • Fugue",
+          "fileStem": "tingyun-fugue-icon",
+          "path": "Prydwen/hsr/assets/characters/tingyun-fugue-444d6f5749b7.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b77207bce6c8",
+          "sourceHash": "b77207bce6c8",
+          "kind": "characters",
+          "name": "Ruan Mei",
+          "fileStem": "ruan-mei-icon",
+          "path": "Prydwen/hsr/assets/characters/ruan-mei-b77207bce6c8.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7d36eb39792a",
+          "sourceHash": "7d36eb39792a",
+          "kind": "icons",
+          "name": "Ice",
+          "fileStem": "ele-ice",
+          "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "cec6f11ca61e",
+          "sourceHash": "cec6f11ca61e",
+          "kind": "characters",
+          "name": "The Dahlia",
+          "fileStem": "the-dahlia-icon",
+          "path": "Prydwen/hsr/assets/characters/the-dahlia-cec6f11ca61e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "de41e1704266",
+          "sourceHash": "de41e1704266",
+          "kind": "characters",
+          "name": "Trailblazer • Harmony",
+          "fileStem": "trailblazer-harmony-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-harmony-de41e1704266.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "913ff64407f2",
+          "sourceHash": "913ff64407f2",
+          "kind": "icons",
+          "name": "Imaginary",
+          "fileStem": "ele-imaginary",
+          "path": "Prydwen/hsr/assets/icons/imaginary-913ff64407f2.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "ab0724067e0c",
+          "sourceHash": "ab0724067e0c",
+          "kind": "characters",
+          "name": "Lingsha",
+          "fileStem": "lingsha-icon",
+          "path": "Prydwen/hsr/assets/characters/lingsha-ab0724067e0c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "30d074a1060a",
+          "sourceHash": "30d074a1060a",
+          "kind": "characters",
+          "name": "Gallagher",
+          "fileStem": "gallagher-icon",
+          "path": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "bc2d64a2cd5f",
+          "sourceHash": "bc2d64a2cd5f",
+          "kind": "characters",
+          "name": "Hysilens",
+          "fileStem": "hysilens-icon",
+          "path": "Prydwen/hsr/assets/characters/hysilens-bc2d64a2cd5f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0db16ed6c66",
+          "sourceHash": "e0db16ed6c66",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "ele-physical",
+          "path": "Prydwen/hsr/assets/icons/physical-e0db16ed6c66.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "e01f880a2668",
+          "sourceHash": "e01f880a2668",
+          "kind": "characters",
+          "name": "Black Swan",
+          "fileStem": "black-swan-icon",
+          "path": "Prydwen/hsr/assets/characters/black-swan-e01f880a2668.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ee11bd390c9a",
+          "sourceHash": "ee11bd390c9a",
+          "kind": "icons",
+          "name": "Wind",
+          "fileStem": "ele-wind",
+          "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "a137ba3e51ff",
+          "sourceHash": "a137ba3e51ff",
+          "kind": "characters",
+          "name": "Kafka",
+          "fileStem": "kafka-icon",
+          "path": "Prydwen/hsr/assets/characters/kafka-a137ba3e51ff.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d197456869a0",
+          "sourceHash": "d197456869a0",
+          "kind": "icons",
+          "name": "Lightning",
+          "fileStem": "ele-lightning",
+          "path": "Prydwen/hsr/assets/icons/lightning-d197456869a0.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "fd57eb6e6eb9",
+          "sourceHash": "fd57eb6e6eb9",
+          "kind": "characters",
+          "name": "Boothill",
+          "fileStem": "boothill-icon",
+          "path": "Prydwen/hsr/assets/characters/boothill-fd57eb6e6eb9.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "fd3d60695240",
+          "sourceHash": "fd3d60695240",
+          "kind": "characters",
+          "name": "Castorice",
+          "fileStem": "castorice-icon",
+          "path": "Prydwen/hsr/assets/characters/castorice-fd3d60695240.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "565914d1a436",
+          "sourceHash": "565914d1a436",
+          "kind": "icons",
+          "name": "Quantum",
+          "fileStem": "ele-quantum",
+          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "e6a5c98adfc4",
+          "sourceHash": "e6a5c98adfc4",
+          "kind": "characters",
+          "name": "March 7th • Evernight",
+          "fileStem": "march-7th-evernight-icon",
+          "path": "Prydwen/hsr/assets/characters/march-7th-evernight-e6a5c98adfc4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1d90270b2b4b",
+          "sourceHash": "1d90270b2b4b",
+          "kind": "characters",
+          "name": "Hyacine",
+          "fileStem": "hyacine-icon",
+          "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "714348f14d48",
+          "sourceHash": "714348f14d48",
+          "kind": "characters",
+          "name": "Dan Heng • Permansor Terrae",
+          "fileStem": "dan-heng-permansor-terrae-icon",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "bdd27122e011",
+          "sourceHash": "bdd27122e011",
+          "kind": "characters",
+          "name": "Phainon",
+          "fileStem": "phainon-icon",
+          "path": "Prydwen/hsr/assets/characters/phainon-bdd27122e011.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1b219ef71829",
+          "sourceHash": "1b219ef71829",
+          "kind": "characters",
+          "name": "Cerydra",
+          "fileStem": "cerydra-icon",
+          "path": "Prydwen/hsr/assets/characters/cerydra-1b219ef71829.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3d568cb7f29d",
+          "sourceHash": "3d568cb7f29d",
+          "kind": "characters",
+          "name": "Sunday",
+          "fileStem": "sunday-icon",
+          "path": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "video-guides-40",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "MoC/PF/AS Statistics",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-light-cones": {
+      "label": "Best Light Cones",
+      "sections": [
+        {
+          "heading": "Best Light Cones",
+          "text": "1\n\n Past Self in Mirror (S 1 )\n\n Provides a 24% DMG bonus when using Ultimate, which is largely useless in Break teams, but decent in other teams. The teamwide Energy each wave, and 1 Skill Point every Ultimate can be clutch in any team.\n Usage: 47.15 %\n MoC: 7 cyc.\n PF: 27766\n AS: 3380\n\n 2\n\n In Pursuit of the Wind (S 5 )\n\n Top option for Break teams, offering an unconditional teamwide 16% Break DMG Boost - this also works for Super Break DMG.\n Usage: 9.6 %\n MoC: 4 cyc.\n PF: 0\n AS: 0\n\n 3\n\n Memories of the Past (S 5 )\n\n At high superimposition, this Light Cone can enable reliable 3-turn Ultimate rotations, while also providing a significant Break Effect stat to reach the 160% threshold, or to boost Break DMG.\n Usage: 24.18 %\n MoC: 8.67 cyc.\n PF: 24370\n AS: 3384\n\n 4\n\n Meshing Cogs (S 5 )\n\n One of the strongest energy generating Cone in the game - especially in encounters where the wearer is getting hit many times as each hit grants 8 energy. Will help a lot with Energy issues, but at the cost of all other supportive effects and base stats.\n Usage: 1.77 %\n MoC: -\n PF: 0\n AS: 3092",
+          "assets": [
+            {
+              "id": "d7566fa4ce22",
+              "sourceHash": "d7566fa4ce22",
+              "kind": "light-cones",
+              "name": "Past Self in Mirror",
+              "fileStem": "past-self-in-mirror",
+              "path": "Prydwen/hsr/assets/light-cones/past-self-in-mirror-d7566fa4ce22.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "697406017955",
+              "sourceHash": "697406017955",
+              "kind": "light-cones",
+              "name": "In Pursuit of the Wind",
+              "fileStem": "in-pursuit-of-the-wind",
+              "path": "Prydwen/hsr/assets/light-cones/in-pursuit-of-the-wind-697406017955.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "ac6e923184c0",
+              "sourceHash": "ac6e923184c0",
+              "kind": "light-cones",
+              "name": "Memories of the Past",
+              "fileStem": "memories-of-the-past",
+              "path": "Prydwen/hsr/assets/light-cones/memories-of-the-past-ac6e923184c0.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "77f4a1bc7d02",
+              "sourceHash": "77f4a1bc7d02",
+              "kind": "light-cones",
+              "name": "Meshing Cogs",
+              "fileStem": "meshing-cogs",
+              "path": "Prydwen/hsr/assets/light-cones/meshing-cogs-77f4a1bc7d02.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-relic-sets": {
+      "label": "Best Relic Sets",
+      "sections": [
+        {
+          "heading": "Best Relic Sets",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Watchmaker, Master of Dream Machinations ( 4 -PC)\n\n Incredible team-wide supportive set for Break-focused teams. Most optimally played on the character in the team with the most frequent access to an Ultimate which buffs allies to ensure strong uptime. In teams with particularly fast Break-focused damage dealers, equipping this to multiple Supports for better uptime may be advised.\n Usage: 52.01 %\n MoC: 9 cyc.\n PF: 27753\n AS: 3449\n\n 2\n\n Messenger Traversing Hackerspace ( 4 -PC)\n\n Good team-wide supportive option for characters with Ultimates that target allies. With this set equipped, Ultimates are best timed carefully to ensure the Speed buff is active on key members for as long as possible.\n Usage: 10.41 %\n MoC: 7 cyc.\n PF: 26240\n AS: 3315\n\n 3\n\n Thief of Shooting Meteor ( 4 -PC)\n\n Good option for Break-scaling characters, especially those who can benefit from the additional Energy gain granted when the wearer Breaks enemies.\n Usage: 10.93 %\n MoC: 6.5 cyc.\n PF: 23387\n AS: 3668\n\n 4\n\n Thief of Shooting Meteor ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Iron Cavalry Against the Scourge\n\n Watchmaker, Master of Dream Machinations\n\n Sacerdos' Relived Ordeal\n\n Messenger Traversing Hackerspace\n\n Usage: 0.69 %\n MoC: -\n PF: 0\n AS: 3674",
+          "assets": [
+            {
+              "id": "706574c241bc",
+              "sourceHash": "706574c241bc",
+              "kind": "relics",
+              "name": "Watchmaker, Master of Dream Machinations",
+              "fileStem": "watchmaker-master-of-dream-machinations",
+              "path": "Prydwen/hsr/assets/relics/watchmaker-master-of-dream-machinations-706574c241bc.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "4cb8065ad660",
+              "sourceHash": "4cb8065ad660",
+              "kind": "relics",
+              "name": "Messenger Traversing Hackerspace",
+              "fileStem": "messenger-traversing-hackerspace",
+              "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "bd16ed7ff036",
+              "sourceHash": "bd16ed7ff036",
+              "kind": "relics",
+              "name": "Thief of Shooting Meteor",
+              "fileStem": "thief-of-shooting-meteor",
+              "path": "Prydwen/hsr/assets/relics/thief-of-shooting-meteor-bd16ed7ff036.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "2fc8ce1ab137",
+              "sourceHash": "2fc8ce1ab137",
+              "kind": "relics",
+              "name": "Iron Cavalry Against the Scourge",
+              "fileStem": "iron-cavalry-against-the-scourge",
+              "path": "Prydwen/hsr/assets/relics/iron-cavalry-against-the-scourge-2fc8ce1ab137.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "5cb190fcc346",
+              "sourceHash": "5cb190fcc346",
+              "kind": "relics",
+              "name": "Sacerdos' Relived Ordeal",
+              "fileStem": "sacerdos-relived-ordeal",
+              "path": "Prydwen/hsr/assets/relics/sacerdos-relived-ordeal-5cb190fcc346.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-planetary-sets": {
+      "label": "Best Planetary Sets",
+      "sections": [
+        {
+          "heading": "Best Planetary Sets",
+          "text": "1\n\n Sprightly Vonwacq ( 2 -PC)\n\n Incredibly potent option for buff/debuff based characters. The advance from this set allows the wearer to apply their buffs/debuffs before the rest of the team acts, accelerate rotations, allows access to ultimates closer to the start of the fight and also grants Energy Regen - a valuable stat for many supports.\n Usage: 59.53 %\n MoC: 7.33 cyc.\n PF: 28870\n AS: 3423\n\n 2\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n Usage: 4.7 %\n MoC: -\n PF: 23400\n AS: 3668\n\n 3\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n Usage: 2.08 %\n MoC: -\n PF: 0\n AS: 0\n\n 4\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 5\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n Usage: 9.61 %\n MoC: -\n PF: 26240\n AS: 3422",
+          "assets": [
+            {
+              "id": "bb6d718b4cb3",
+              "sourceHash": "bb6d718b4cb3",
+              "kind": "relics",
+              "name": "Sprightly Vonwacq",
+              "fileStem": "sprightly-vonwacq",
+              "path": "Prydwen/hsr/assets/relics/sprightly-vonwacq-bb6d718b4cb3.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "3306e6f6288f",
+              "sourceHash": "3306e6f6288f",
+              "kind": "relics",
+              "name": "Broken Keel",
+              "fileStem": "broken-keel",
+              "path": "Prydwen/hsr/assets/relics/broken-keel-3306e6f6288f.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "5b886a96e17a",
+              "sourceHash": "5b886a96e17a",
+              "kind": "relics",
+              "name": "Fleet of the Ageless",
+              "fileStem": "fleet-of-the-ageless",
+              "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "d6cdb5f16b16",
+              "sourceHash": "d6cdb5f16b16",
+              "kind": "relics",
+              "name": "Penacony, Land of the Dreams",
+              "fileStem": "penacony-land-of-the-dreams",
+              "path": "Prydwen/hsr/assets/relics/penacony-land-of-the-dreams-d6cdb5f16b16.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "d6aae5028c5a",
+              "sourceHash": "d6aae5028c5a",
+              "kind": "relics",
+              "name": "Lushaka, the Sunken Seas",
+              "fileStem": "lushaka-the-sunken-seas",
+              "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-stats": {
+      "label": "Best Stats",
+      "sections": [
+        {
+          "heading": "Best Stats",
+          "text": "Body\n HP%\n > DEF%\n\n Feet\n Speed\n\n Planar Sphere\n HP%\n > DEF%\n\n Link Rope\n Energy Regen Rate\n > Break Effect\n\n Substats: Break Effect (Until 180%) > SPD (Until Breakpoint) > HP% = DEF% > Effect RES (30% if using Broken Keel)\n\n Stack Break Effect until 180%. Aim for a desirable Speed breakpoint next (134 minimum recommended). After achieving these goals, stack more Break Effect to improve Ruan's burst damage or invest in more Speed or DEF% and HP% to make her more durable.",
+          "assets": [
+            {
+              "id": "96654253a4f7",
+              "sourceHash": "96654253a4f7",
+              "kind": "icons",
+              "name": "HP",
+              "fileStem": "stat-hp",
+              "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "a6be649090ba",
+              "sourceHash": "a6be649090ba",
+              "kind": "icons",
+              "name": "DEF",
+              "fileStem": "stat-def",
+              "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "087f2dec68b6",
+              "sourceHash": "087f2dec68b6",
+              "kind": "icons",
+              "name": "Speed",
+              "fileStem": "stat-speed",
+              "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "106ddd8eff32",
+              "sourceHash": "106ddd8eff32",
+              "kind": "icons",
+              "name": "Energy Regen",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "6890417bdf8b",
+              "sourceHash": "6890417bdf8b",
+              "kind": "icons",
+              "name": "Break Effect",
+              "fileStem": "stat-break",
+              "path": "Prydwen/hsr/assets/icons/break-effect-6890417bdf8b.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        }
+      ]
+    },
+    "recommended-endgame-stats": {
+      "label": "Recommended endgame stats",
+      "sections": [
+        {
+          "heading": "Recommended endgame stats",
+          "text": "HP: 3700 - 5000 +\n\n DEF: 1000 - 1100+\n\n SPD: 109 / 121 / 134 (Recommended)\n\n Energy Regeneration Rate : 119.44%+\n\n Break Effect: 180%+ (with A2 active)",
+          "assets": []
+        }
+      ]
+    },
+    "traces-priority": {
+      "label": "Traces priority",
+      "sections": [
+        {
+          "heading": "Traces priority",
+          "text": "Skills priority: Ultimate = Talent = Skill > Basic\n\n Major Traces priority: Candle Lights on Still Waters (A6) > Inert Respiration (A2) > Days Wane, Thoughts Wax (A4)",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Firefly Boothill Rappa - Firefly & Boothill & Rappa all love Ruan Mei as she provides everything they needs to perform well - Break Efficiency, Speed and Break Delay.\n Trailblazer • Harmony - Trailblazer • Harmony is the second Break-Centric Support we currently have, and it abuses every aspect of Ruan Mei except the DMG% boosts, while also allowing Ruan Mei herself to even do some damage from Harmony Trailblazers Super Break mechanic.",
+          "assets": [
+            {
+              "id": "4c12f1ecf12f",
+              "sourceHash": "4c12f1ecf12f",
+              "kind": "characters",
+              "name": "Firefly",
+              "fileStem": "firefly-icon",
+              "path": "Prydwen/hsr/assets/characters/firefly-4c12f1ecf12f.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "fd57eb6e6eb9",
+              "sourceHash": "fd57eb6e6eb9",
+              "kind": "characters",
+              "name": "Boothill",
+              "fileStem": "boothill-icon",
+              "path": "Prydwen/hsr/assets/characters/boothill-fd57eb6e6eb9.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "f8ad01025a66",
+              "sourceHash": "f8ad01025a66",
+              "kind": "characters",
+              "name": "Rappa",
+              "fileStem": "rappa-icon",
+              "path": "Prydwen/hsr/assets/characters/rappa-f8ad01025a66.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "de41e1704266",
+              "sourceHash": "de41e1704266",
+              "kind": "characters",
+              "name": "Trailblazer • Harmony",
+              "fileStem": "trailblazer-harmony-icon",
+              "path": "Prydwen/hsr/assets/characters/trailblazer-harmony-de41e1704266.webp",
+              "width": 45,
+              "height": 45
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Ruan Mei Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Ruan Mei\n Ruan Mei Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Ruan Mei from HSR (Honkai: Star Rail). Ruan Mei is a 5 ★ character from the Ice element who follows the Path of Harmony .\n A sweet-tempered and elegant scholar. Member #81 of the Genius Society. An expert in the biological sciences. She earned Nous' attention with her talent and terrifying perseverance, and began her research on the origin of life in a secret corner of the universe. For that, she was invited by Herta to collaborate with Screwllum and Stephen to develop the Simulated Universe. Secretly, she greatly enjoys traditional theater and desserts, and she is also very interested in embroidery.\n\n To learn more about Ruan Mei check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Ruan Mei has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 3.2\n\n Last major build/calcs update\n Patch 3.4\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Ruan Mei check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Threading Fragrance\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Ice DMG equal to #1[i]% of Ruan Mei's ATK to a single target enemy.\n\n Skill\n String Sings Slow Swirls\n Support\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n After using her Skill, Ruan Mei gains Overtone, lasting for #3[i] turn(s). This duration decreases by 1 at the start of Ruan Mei's turn. When Ruan Mei has Overtone, all allies' DMG increases by #1[i]% and Weakness Break Efficiency increases by #2[i]%.\n\n Ultimate\n Petals to Stream, Repose in Dream\n Support | 130 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: -\n\n Ruan Mei deploys a field that lasts for #2[i] turns. The field's duration decreases by 1 at the start of her turn.\nWhile inside the field, all allies' All-Type RES PEN increases by #1[i]% and their attacks apply Thanatoplum Rebloom to the enemies hit.\nWhen these enemies attempt to recover from Weakness Break, Thanatoplum Rebloom is triggered, extending the duration of their Weakness Break, delaying their action by an amount equal to #3[i]% of Ruan Mei's Break Effect plus #4[i]%, and dealing Break DMG equal to #5[i]% of Ruan Mei's Ice Break DMG.\nEnemy targets cannot have Thanatoplum Rebloom re-applied to them until they recover from Weakness Break.\n\n Talent\n Somatotypical Helix\n Support\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n Increases SPD by #1[i]% for the team (excluding this character). When allies Break an enemy target's Weakness, Ruan Mei deals to this enemy target Break DMG equal to #2[i]% of her Ice Break DMG.\n\n Technique\n Silken Serenade\n Enhance\n\n Energy gain: 0\n Break: -\n\n After using the Technique, gains Silken Serenade. At the start of the next battle, automatically triggers the Skill for #1[i] time(s) without consuming Skill Points.\nIn Simulated Universe, when Ruan Mei has Silken Serenade, the team actively attacking enemies will always be regarded as attacking their Weakness to enter battle, and this attack can reduce all enemies' Toughness regardless of Weakness types. When breaking Weakness, triggers Weakness Break Effect corresponding to the attacker's Type. For every Blessing in possession up to #4[i] Blessing(s), additionally increases the Toughness-Reducing DMG of this attack by #2[i]%. After breaking an enemy target's Weakness, additionally deals to the enemy target Break DMG equal to #3[i]% of Ruan Mei's Ice Break DMG.\n\n Major Traces\n A2 Major trace\n Inert Respiration\n\n Increases Break Effect by 20% for all allies.\n\n A4 Major trace\n Days Wane, Thoughts Wax\n\n Ruan Mei regenerates 5 Energy at the start of her turn.\n\n A6 Major trace\n Candle Lights on Still Waters\n\n In battle, for every 10% of Ruan Mei's Break Effect that exceeds 120%, her Skill additionally increases allies' DMG by 6% , up to a maximum of 36% .\n\n Minor Traces (total)\n DEF\n + 22.5%\n\n Speed\n + 5\n\n Break Effect\n + 37.3%\n\n Eidolons\n E 1\n Neuronic Embroidery\n Eidolon 1\n\n While the Ultimate's field is deployed, the DMG dealt by all allies ignores 20% of the target's DEF.\n\n E 2\n Reedside Promenade\n Eidolon 2\n\n With Ruan Mei on the field, all allies increase their ATK by 40% when dealing DMG to enemies with Weakness Break.\n\n E 3\n Viridescent Pirouette\n Eidolon 3\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 4\n Chatoyant Éclat\n Eidolon 4\n\n When an enemy target's Weakness is Broken, Ruan Mei's Break Effect increases by 100% for 3 turn(s).\n\n E 5\n Languid Barrette\n Eidolon 5\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 6\n Sash Cascade\n Eidolon 6\n\n Extends the duration of the Ultimate's field by 1 turn(s). The Talent's Break DMG multiplier additionally increases by 200% .\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1086\n\n ATK\n\n 659\n\n DEF\n\n 485\n\n Speed\n\n 104\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 308000\n\n Immortal Scionette\n\n x 15\n\n Immortal Aeroblossom\n\n x 15\n\n Gelid Chitin\n\n x 65\n\n Immortal Lumintwig\n\n x 15\n\n CV\n ENG\n Emi Lo\n\n JPN\n 大西沙织 (Onishi Saori)\n\n CN\n 张文钰 (Zhang Wenyu)\n\n KR\n 윤여진 (Yoon Yeo-jin)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Provides the first-ever instance of Break Efficiency,\n\n Rare RES PEN buff for the whole team,\n\n Permanent teamwide SPD buff,\n\n Universally applicable buffs,\n\n The core member of Super Break teams,\n\n Still great in other team archetypes, even if she's not the 1st pick there anymore,\n\n Strong defensive utility with increased Breaking.\n\n Cons\n Extremely steep investment requirement to reach her full potential,\n\n The Break Damage can 'kill steal' which isn't that great for damage dealers that rely on last-hitting enemies.\n\n Review (By Sushou)\n Ruan Mei is an exceptional support character who is the core member of Super Break teams, but her buffs are universal enough that she can be used with other archetypes too. She is able to effortlessly buff the whole team’s DMG and increase everyone’s Break Efficiency with her Skill. Her Ultimate increases all allies’ RES PEN and is able to delay the enemies again once their Weakness Break ends. She’s even got free bonus Break damage from her Talent that activates whenever allies Break an enemy, and the Talent itself provides a small but permanent SPD boost to all other characters in the party.\n The definitely sane, definitely not megalomaniacal Genius Society member, Ruan Mei, is a fairly ridiculous character in the game . She is our very first support character to increase the Weakness Break Efficiency of characters; you know that one Nihility blessing in the Simulated Universe? Night Beyond Pyre, the one that increases Break Efficiency by 30%? Yeah, well, Ruan Mei can increase that by 50% and also have it permanently active.\n Ruan Mei’s Skill gives her a buff called Overtone, lasting for 3 turns. This ticks down at the start of her turn. While she has Overtone, all allies’ DMG increases by 32% and Weakness Break Efficiency increases by 50%. This is kind of absurd already given that the application of this buff is entirely effortless, and having it last for 3 turns means that Ruan Mei has plenty of time to recover the SP she spent setting it up and then some. Weakness Break Efficiency is exceedingly powerful. Enemies take slightly reduced damage from all sources while they are not Broken, and this gets removed once they do get Broken, so if you’ve ever wondered why a Broken enemy seems to be taking so much more damage, this is why.\n Usually, there is not a large window of opportunity to take advantage of this state, and it may be preferable to hold off on using big hitting abilities until after the enemy has recovered from Break so as to resume dealing Toughness damage. With this Skill’s effects active, you not only get enemies into that state faster, but it’s easier to repeatedly get them to that state even with weaker hitting attacks, meaning you’re more able to land those huge hits during the enemies’ most vulnerable period.\n Ruan Mei’s Ultimate deploys a field for 2 turns, and this also ticks down at the start of her turn. While the field is active, all allies get 25% All-Type RES PEN. If you’ve been around for a while, or if you’re an avid user of Seele, you should understand how rare and powerful Resistance Penetration is by now. 25% is ridiculous, and with a 2-turn duration based on Ruan Mei’s turns, it’s extraordinarily easy to abuse this to the player’s benefit with faster characters or with turn manipulation.\n In addition to this, ally attacks within the field apply a debuff to enemies called Thanatoplum Rebloom to enemies they hit. This effect triggers when an enemy attempts to recover from Weakness Break, extending their Weakness Break and delaying their action by 20% of Ruan Mei’s Break Effect plus 10%. This re-Break will also deal 50% of Ruan Mei’s Ice Break DMG. This works in tandem with her Skill to just bully enemies; you Break them faster with the Break Efficiency and then get to keep them Broken for longer, all while benefiting from the DMG bonuses and RES PEN. Important to note that Thanatoplum Rebloom can only trigger again after the enemy has fully recovered from Weakness Break.\n The buffs she provides are already highly impressive even without considering the bonus provided by the Break extension, but with her Talent she provides even more benefits, and she can even contribute some damage of her own. She permanently increases all other teammates’ SPD by 10% , and whenever an ally Breaks an enemy, Ruan Mei will instantly deal damage equal to 120% of her Ice Break DMG. This is not a follow-up attack, this damage is inflicted alongside the Break damage of the ally inflicting Break.\n A 10% SPD boost is just about enough to be significant and to meet specific SPD thresholds for characters. However, being able to contribute Break damage without even needing to be the one to Break enemies is ridiculously good, especially as it’s actually a higher multiplier if you let other allies do it for you; this solves the biggest problem with building for Break Effect which is that if you’re not the one to Break enemies, that stat is functionally useless for you. For Ruan Mei, this is most assuredly not the case, so don’t be surprised to be seeing light blue damage numbers in the five-digit range showing up alongside Breaks later on.\n It’s clear by now that Ruan Mei benefits the Break playstyle significantly and also benefits from Break Effect% herself as she has so many ways to utilise it. With her Bonus Ability Traces, Ruan Mei reaches a new height that makes her supportive capabilities begin to approach the omnipresent power of Bronya. A2 increases all allies’ Break Effect by 20%, and A4 will regenerate 5 Energy for Ruan Mei at the start of her turn.\n A6 is where the big money is; in combat, for every 10% Break Effect that Ruan Mei has that exceeds 120%, her Skill’s DMG bonus increases by an additional 6%, up to a maximum of 36% extra . That means that if you can reach at least 180% Break Effect, Ruan Mei’s Skill is now providing a ridiculous 68% DMG bonus to all allies in addition to its already powerful 50% Break Efficiency. While it is no small feat to achieve such a high Break Effect stat, the mere fact that it’s possible to do so puts Ruan Mei’s supportive capabilities right at top for any Super Break team.\n Eidolon-wise, it’s complete overkill in all cases. E1 is great value because it also gives allies a 20% DEF ignore during the Ultimate, but again, it’s opulence to excess. As for her E2, don't get baited into it if you only play Ruan Mei in Super Break teams, as the ATK boost is useless - E1 is a great stopping point for Ruan Mei.\n Where Ruan Mei shines are the Super Break teams - pair her with the Harmony Trailblazer or Fugue and you get yourself the core of the Super Break/Break team. While Firefly and Rappa are the two premium Super Break damage dealers often paired with the Ruan/HMC or Fugue core, you can play any other DPS in the role but Himeko shines the most there and she's a great replacement for those who don't have Firefly and need to tackle Fire-weak content. While Super Break isn't as powerful as it was back in the day (mainly due to the content being tailored to newer archetypes), Firefly, Rappa and Boothill still work well and allow you to clear any content - and Ruan Mei is a key member of their teams. And who knows, maybe one day another Super Break DPS will be released, and the content will favor that archetype again.\n Usually, I talk about support characters’ damage contribution as ‘non-negligible’ meaning it’s a nice addition to have. Just by being in the team and being well-invested, Breaking of smaller enemies will cause them to simply explode into confetti, again by simply being in the party. The defensive benefits of Breaking enemies quickly and keeping them Broken for longer also cannot be understated, and she can end up greatly assisting lower investment sustain options to keep up by uhh, lemme check my notes here… ‘Murdering things before they can murder you.’ Yeah that sounds about right.\n The one truly big downside of Ruan Mei is the obscene investment she demands to reach her peak. As stated earlier, reaching 180% Break Effect is extremely challenging, even with sacrificing your Link Rope. Even if you do reach that amount or close to it, you’ll likely be sacrificing a fair few defensive substats as well, so this is something you need to account for, even if it is partially solved by the increase in Break frequency she provides. Outside of her signature, her Light Cone options are also fairly dismal all things considered, so this should also be taken into account.\n Also, stop it, you can’t fix her. Stop it.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n T1\n MoC\n\n T1\n PF\n\n T0.5\n AS\n\n Build and teams\n\n Best Light Cones\n\n 1\n\n Past Self in Mirror (S 1 )\n\n Provides a 24% DMG bonus when using Ultimate, which is largely useless in Break teams, but decent in other teams. The teamwide Energy each wave, and 1 Skill Point every Ultimate can be clutch in any team.\n Usage: 47.15 %\n MoC: 7 cyc.\n PF: 27766\n AS: 3380\n\n 2\n\n In Pursuit of the Wind (S 5 )\n\n Top option for Break teams, offering an unconditional teamwide 16% Break DMG Boost - this also works for Super Break DMG.\n Usage: 9.6 %\n MoC: 4 cyc.\n PF: 0\n AS: 0\n\n 3\n\n Memories of the Past (S 5 )\n\n At high superimposition, this Light Cone can enable reliable 3-turn Ultimate rotations, while also providing a significant Break Effect stat to reach the 160% threshold, or to boost Break DMG.\n Usage: 24.18 %\n MoC: 8.67 cyc.\n PF: 24370\n AS: 3384\n\n 4\n\n Meshing Cogs (S 5 )\n\n One of the strongest energy generating Cone in the game - especially in encounters where the wearer is getting hit many times as each hit grants 8 energy. Will help a lot with Energy issues, but at the cost of all other supportive effects and base stats.\n Usage: 1.77 %\n MoC: -\n PF: 0\n AS: 3092\n\n Specialist Light Cones\n 1\n\n Dance! Dance! Dance! (S 5 )\n\n Allows characters with high Speed and/or an accessible Ultimate to grant substantial action boosts to themselves and the team allowing for higher Speed (and cycle) breakpoints. Strongest on characters who can access their Ultimate at least once every 3 (but ideally 2) actions. Specifically strong when combined with other additional action advances or energy generation.\n Usage: 15.1 %\n MoC: -\n PF: 27800\n AS: 3648\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Watchmaker, Master of Dream Machinations ( 4 -PC)\n\n Incredible team-wide supportive set for Break-focused teams. Most optimally played on the character in the team with the most frequent access to an Ultimate which buffs allies to ensure strong uptime. In teams with particularly fast Break-focused damage dealers, equipping this to multiple Supports for better uptime may be advised.\n Usage: 52.01 %\n MoC: 9 cyc.\n PF: 27753\n AS: 3449\n\n 2\n\n Messenger Traversing Hackerspace ( 4 -PC)\n\n Good team-wide supportive option for characters with Ultimates that target allies. With this set equipped, Ultimates are best timed carefully to ensure the Speed buff is active on key members for as long as possible.\n Usage: 10.41 %\n MoC: 7 cyc.\n PF: 26240\n AS: 3315\n\n 3\n\n Thief of Shooting Meteor ( 4 -PC)\n\n Good option for Break-scaling characters, especially those who can benefit from the additional Energy gain granted when the wearer Breaks enemies.\n Usage: 10.93 %\n MoC: 6.5 cyc.\n PF: 23387\n AS: 3668\n\n 4\n\n Thief of Shooting Meteor ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Iron Cavalry Against the Scourge\n\n Watchmaker, Master of Dream Machinations\n\n Sacerdos' Relived Ordeal\n\n Messenger Traversing Hackerspace\n\n Usage: 0.69 %\n MoC: -\n PF: 0\n AS: 3674\n\n Best Planetary Sets\n 1\n\n Sprightly Vonwacq ( 2 -PC)\n\n Incredibly potent option for buff/debuff based characters. The advance from this set allows the wearer to apply their buffs/debuffs before the rest of the team acts, accelerate rotations, allows access to ultimates closer to the start of the fight and also grants Energy Regen - a valuable stat for many supports.\n Usage: 59.53 %\n MoC: 7.33 cyc.\n PF: 28870\n AS: 3423\n\n 2\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n Usage: 4.7 %\n MoC: -\n PF: 23400\n AS: 3668\n\n 3\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n Usage: 2.08 %\n MoC: -\n PF: 0\n AS: 0\n\n 4\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 5\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n Usage: 9.61 %\n MoC: -\n PF: 26240\n AS: 3422\n\n Best Specialist Planetary Sets\n 1\n\n Talia: Kingdom of Banditry ( 2 -PC)\n\n Strong Break-focused planar set suitable for all Break-scaling characters without the conditional requirements of Forge of Kalpagni, assuming the wearer can reach the 145 Speed requirement. Unless you need the Break Effect% from this Planar to satisfy Ruan's thresholds, other Planars may outperform it.\n Usage: 10.73 %\n MoC: 8.5 cyc.\n PF: 25940\n AS: 3283\n\n Best Stats\n\n Body\n HP%\n > DEF%\n\n Feet\n Speed\n\n Planar Sphere\n HP%\n > DEF%\n\n Link Rope\n Energy Regen Rate\n > Break Effect\n\n Substats: Break Effect (Until 180%) > SPD (Until Breakpoint) > HP% = DEF% > Effect RES (30% if using Broken Keel)\n\n Stack Break Effect until 180%. Aim for a desirable Speed breakpoint next (134 minimum recommended). After achieving these goals, stack more Break Effect to improve Ruan's burst damage or invest in more Speed or DEF% and HP% to make her more durable.\n\n Recommended endgame stats\n HP: 3700 - 5000 +\n\n DEF: 1000 - 1100+\n\n SPD: 109 / 121 / 134 (Recommended)\n\n Energy Regeneration Rate : 119.44%+\n\n Break Effect: 180%+ (with A2 active)\n\n Traces priority\n Skills priority: Ultimate = Talent = Skill > Basic\n\n Major Traces priority: Candle Lights on Still Waters (A6) > Inert Respiration (A2) > Days Wane, Thoughts Wax (A4)\n\n Synergy\n Firefly Boothill Rappa - Firefly & Boothill & Rappa all love Ruan Mei as she provides everything they needs to perform well - Break Efficiency, Speed and Break Delay.\n Trailblazer • Harmony - Trailblazer • Harmony is the second Break-Centric Support we currently have, and it abuses every aspect of Ruan Mei except the DMG% boosts, while also allowing Ruan Mei herself to even do some damage from Harmony Trailblazers Super Break mechanic.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 8\n App. rate: 5.74 %\n Avg. cycles : 6.58\n Avg. cycles (E1+): 3.32\n\n Rank 17\n App. rate: 1.7 %\n Avg. cycles : 6\n Avg. cycles (E1+): 4.21\n\n Rank 43\n App. rate: 0.51 %\n Avg. cycles : 8.4\n Avg. cycles (E1+): 7.11\n\n Rank 45\n App. rate: 0.48 %\n Avg. cycles : 9\n Avg. cycles (E1+): 7.74\n\n Rank 79\n App. rate: 0.25 %\n Avg. cycles : 6\n Avg. cycles (E1+): 0.7\n\n Rank 85\n App. rate: 0.22 %\n Avg. cycles : -\n Avg. cycles (E1+): 3.24\n\n Rank 94\n App. rate: 0.19 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.19\n\n Rank 95\n App. rate: 0.18 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.67\n\n Rank 119\n App. rate: 0.13 %\n Avg. cycles : -\n Avg. cycles (E1+): 6.75\n\n Rank 126\n App. rate: 0.12 %\n Avg. cycles : -\n Avg. cycles (E1+): 4.32\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+}

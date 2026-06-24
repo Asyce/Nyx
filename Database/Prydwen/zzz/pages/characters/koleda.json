@@ -1,0 +1,1619 @@
+{
+  "id": "characters:koleda",
+  "provider": "Prydwen",
+  "game": "zzz",
+  "gameName": "Zenless Zone Zero",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "koleda",
+  "name": "Koleda",
+  "title": "Koleda Best Build Guide",
+  "sourcePath": "/zenless/characters/koleda",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "updatedText": "14/June/2026",
+  "meta": {
+    "title": "Koleda Best Build Guide | Zenless Zone Zero",
+    "description": ""
+  },
+  "facts": {
+    "attribute": "Fire",
+    "specialty": "Stun",
+    "faction": "Belobog Heavy Industries",
+    "rarity": "S"
+  },
+  "assets": [
+    {
+      "id": "e10522f3c747",
+      "sourceHash": "e10522f3c747",
+      "kind": "characters",
+      "name": "Character",
+      "fileStem": "koleda-card",
+      "path": "Prydwen/zzz/assets/characters/koleda-card-e10522f3c747.webp",
+      "width": 370,
+      "height": 512
+    },
+    {
+      "id": "59d53db87dea",
+      "sourceHash": "59d53db87dea",
+      "kind": "icons",
+      "name": "S",
+      "fileStem": "rarity-s",
+      "path": "Prydwen/zzz/assets/icons/s-59d53db87dea.webp",
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "b6f384983a36",
+      "sourceHash": "b6f384983a36",
+      "kind": "icons",
+      "name": "Stun",
+      "fileStem": "style-stun",
+      "path": "Prydwen/zzz/assets/icons/stun-b6f384983a36.webp",
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "469d56d7d4cd",
+      "sourceHash": "469d56d7d4cd",
+      "kind": "factions",
+      "name": "Belobog Heavy Industries",
+      "fileStem": "faction-belobog",
+      "path": "Prydwen/zzz/assets/factions/belobog-heavy-industries-469d56d7d4cd.webp",
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "880f190c8aa9",
+      "sourceHash": "880f190c8aa9",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-core",
+      "path": "Prydwen/zzz/assets/icons/core-880f190c8aa9.webp",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "13fff798e82d",
+      "sourceHash": "13fff798e82d",
+      "kind": "icons",
+      "name": "Basic",
+      "fileStem": "icon-basic",
+      "path": "Prydwen/zzz/assets/icons/basic-13fff798e82d.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "f3bbacf4beb6",
+      "sourceHash": "f3bbacf4beb6",
+      "kind": "icons",
+      "name": "Dodge",
+      "fileStem": "icon-dodge",
+      "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "de0f0cad1e72",
+      "sourceHash": "de0f0cad1e72",
+      "kind": "icons",
+      "name": "Assist",
+      "fileStem": "icon-assist-m",
+      "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "954b8d0b61b7",
+      "sourceHash": "954b8d0b61b7",
+      "kind": "icons",
+      "name": "Special",
+      "fileStem": "icon-special-full",
+      "path": "Prydwen/zzz/assets/icons/special-954b8d0b61b7.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "803b765175bc",
+      "sourceHash": "803b765175bc",
+      "kind": "icons",
+      "name": "qte",
+      "fileStem": "icon-ulti-full",
+      "path": "Prydwen/zzz/assets/icons/qte-803b765175bc.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "9f68a61db8c5",
+      "sourceHash": "9f68a61db8c5",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-special",
+      "path": "Prydwen/zzz/assets/icons/core-9f68a61db8c5.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "d3cae9ba5d45",
+      "sourceHash": "d3cae9ba5d45",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-ulti",
+      "path": "Prydwen/zzz/assets/icons/core-d3cae9ba5d45.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "94a5940d48d5",
+      "sourceHash": "94a5940d48d5",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-assist",
+      "path": "Prydwen/zzz/assets/icons/core-94a5940d48d5.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "bcc36adf7778",
+      "sourceHash": "bcc36adf7778",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/zzz/assets/icons/stat-hp-bcc36adf7778.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "6bde3e3d95d5",
+      "sourceHash": "6bde3e3d95d5",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-def",
+      "path": "Prydwen/zzz/assets/icons/stat-def-6bde3e3d95d5.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "3be631f5fe8b",
+      "sourceHash": "3be631f5fe8b",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/zzz/assets/icons/stat-atk-3be631f5fe8b.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "7e808fde7ecd",
+      "sourceHash": "7e808fde7ecd",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-crit",
+      "path": "Prydwen/zzz/assets/icons/stat-crit-7e808fde7ecd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "a5d74846670e",
+      "sourceHash": "a5d74846670e",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/zzz/assets/icons/stat-critdmg-a5d74846670e.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "96960682bbd8",
+      "sourceHash": "96960682bbd8",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-pen",
+      "path": "Prydwen/zzz/assets/icons/stat-pen-96960682bbd8.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "55a4b1c5a82a",
+      "sourceHash": "55a4b1c5a82a",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-impact",
+      "path": "Prydwen/zzz/assets/icons/stat-impact-55a4b1c5a82a.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "078045904ece",
+      "sourceHash": "078045904ece",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-mastery",
+      "path": "Prydwen/zzz/assets/icons/stat-mastery-078045904ece.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "09b14c497e98",
+      "sourceHash": "09b14c497e98",
+      "kind": "icons",
+      "name": "Stat",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/zzz/assets/icons/stat-energy-09b14c497e98.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "b9f1d4fb1aad",
+      "sourceHash": "b9f1d4fb1aad",
+      "kind": "characters",
+      "name": "Koleda",
+      "fileStem": "koleda-full",
+      "path": "Prydwen/zzz/assets/characters/koleda-b9f1d4fb1aad.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "8271342a7fd4",
+      "sourceHash": "8271342a7fd4",
+      "kind": "w-engines",
+      "name": "Hellfire Gears",
+      "fileStem": "hellfire-gears-image",
+      "path": "Prydwen/zzz/assets/w-engines/hellfire-gears-8271342a7fd4.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "dc5e4d8d56b9",
+      "sourceHash": "dc5e4d8d56b9",
+      "kind": "w-engines",
+      "name": "Precious Fossilized Core",
+      "fileStem": "precious-fossilized-core-image",
+      "path": "Prydwen/zzz/assets/w-engines/precious-fossilized-core-dc5e4d8d56b9.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "ba65f478c8b6",
+      "sourceHash": "ba65f478c8b6",
+      "kind": "w-engines",
+      "name": "The Restrained",
+      "fileStem": "the-restrained-image",
+      "path": "Prydwen/zzz/assets/w-engines/the-restrained-ba65f478c8b6.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "9cafa8e105ae",
+      "sourceHash": "9cafa8e105ae",
+      "kind": "drive-discs",
+      "name": "King of the Summit",
+      "fileStem": "set-king",
+      "path": "Prydwen/zzz/assets/drive-discs/king-of-the-summit-9cafa8e105ae.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "1d32dd29b6a7",
+      "sourceHash": "1d32dd29b6a7",
+      "kind": "drive-discs",
+      "name": "Shockstar Disco",
+      "fileStem": "set-shockstar",
+      "path": "Prydwen/zzz/assets/drive-discs/shockstar-disco-1d32dd29b6a7.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "7e8e49d34387",
+      "sourceHash": "7e8e49d34387",
+      "kind": "drive-discs",
+      "name": "Swing Jazz",
+      "fileStem": "set-swing",
+      "path": "Prydwen/zzz/assets/drive-discs/swing-jazz-7e8e49d34387.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "47b453ad83b8",
+      "sourceHash": "47b453ad83b8",
+      "kind": "drive-discs",
+      "name": "Astral Voice",
+      "fileStem": "set-astral",
+      "path": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "1c4453ce92f8",
+      "sourceHash": "1c4453ce92f8",
+      "kind": "drive-discs",
+      "name": "Proto Punk",
+      "fileStem": "set-proto",
+      "path": "Prydwen/zzz/assets/drive-discs/proto-punk-1c4453ce92f8.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "6dcc7426ba11",
+      "sourceHash": "6dcc7426ba11",
+      "kind": "characters",
+      "name": "Evelyn",
+      "fileStem": "evelyn",
+      "path": "Prydwen/zzz/assets/characters/evelyn-6dcc7426ba11.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ca536e1965fd",
+      "sourceHash": "ca536e1965fd",
+      "kind": "characters",
+      "name": "Soldier 11",
+      "fileStem": "soldier-11",
+      "path": "Prydwen/zzz/assets/characters/soldier-11-ca536e1965fd.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "53300a2a5c70",
+      "sourceHash": "53300a2a5c70",
+      "kind": "characters",
+      "name": "Yixuan",
+      "fileStem": "yixuan",
+      "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "98d8d659c143",
+      "sourceHash": "98d8d659c143",
+      "kind": "characters",
+      "name": "Astra Yao",
+      "fileStem": "astra-yao",
+      "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d2c1c9b40367",
+      "sourceHash": "d2c1c9b40367",
+      "kind": "characters",
+      "name": "Yuzuha",
+      "fileStem": "ukinami-yuzuha",
+      "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ad063e072375",
+      "sourceHash": "ad063e072375",
+      "kind": "characters",
+      "name": "Nicole",
+      "fileStem": "nicole-demara",
+      "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "a0147df28355",
+      "sourceHash": "a0147df28355",
+      "kind": "characters",
+      "name": "Lucy",
+      "fileStem": "lucy",
+      "path": "Prydwen/zzz/assets/characters/lucy-a0147df28355.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "6e337e3697b9",
+      "sourceHash": "6e337e3697b9",
+      "kind": "characters",
+      "name": "Manato",
+      "fileStem": "manato",
+      "path": "Prydwen/zzz/assets/characters/manato-6e337e3697b9.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "3f97af69c631",
+      "sourceHash": "3f97af69c631",
+      "kind": "characters",
+      "name": "Yidhari",
+      "fileStem": "yidhari",
+      "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "0d7d337e47cb",
+      "sourceHash": "0d7d337e47cb",
+      "kind": "characters",
+      "name": "Koleda",
+      "fileStem": "koleda",
+      "path": "Prydwen/zzz/assets/characters/koleda-0d7d337e47cb.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "7557c8060dc2",
+      "sourceHash": "7557c8060dc2",
+      "kind": "characters",
+      "name": "Lucia",
+      "fileStem": "lucia",
+      "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "7b812101932f",
+      "sourceHash": "7b812101932f",
+      "kind": "characters",
+      "name": "Banyue",
+      "fileStem": "banyue",
+      "path": "Prydwen/zzz/assets/characters/banyue-7b812101932f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "f34fb0a851f4",
+      "sourceHash": "f34fb0a851f4",
+      "kind": "characters",
+      "name": "Pan Yinhu",
+      "fileStem": "pan-yinhu",
+      "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
+      "width": 60,
+      "height": 60
+    }
+  ],
+  "sections": [
+    {
+      "id": "koleda-best-build-guide-0",
+      "level": 1,
+      "heading": "Koleda Best Build Guide",
+      "text": "Last updated: 14/June/2026",
+      "assets": [
+        {
+          "id": "e10522f3c747",
+          "sourceHash": "e10522f3c747",
+          "kind": "characters",
+          "name": "Character",
+          "fileStem": "koleda-card",
+          "path": "Prydwen/zzz/assets/characters/koleda-card-e10522f3c747.webp",
+          "width": 370,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Best guide and build for Koleda from ZZZ (Zenless Zone Zero). Koleda is an rank character with the Fire attribute who belongs to the Stun Specialty and who is part of the Belobog Heavy Industries faction.\n Small & Cute, With Some Fierce Combat Power. She may be small, but can certainly wield that huge hammer. A Fierce Young Girl Who's Also a President. The young leader at the helm of Belobog Industries. A President Who Leads by Example. She prefers to work out in the field, rather than being stuck at a desk. Leads by Example While Maintaining Her Cute Nature.\nHer maturity sometimes gives way to occasional childishness. She's a leader who sometimes needs to be taken care of by her followers.\n\n To learn more about Koleda check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.",
+      "assets": [
+        {
+          "id": "59d53db87dea",
+          "sourceHash": "59d53db87dea",
+          "kind": "icons",
+          "name": "S",
+          "fileStem": "rarity-s",
+          "path": "Prydwen/zzz/assets/icons/s-59d53db87dea.webp",
+          "width": 30,
+          "height": 30
+        },
+        {
+          "id": "b6f384983a36",
+          "sourceHash": "b6f384983a36",
+          "kind": "icons",
+          "name": "Stun",
+          "fileStem": "style-stun",
+          "path": "Prydwen/zzz/assets/icons/stun-b6f384983a36.webp",
+          "width": 30,
+          "height": 30
+        },
+        {
+          "id": "469d56d7d4cd",
+          "sourceHash": "469d56d7d4cd",
+          "kind": "factions",
+          "name": "Belobog Heavy Industries",
+          "fileStem": "faction-belobog",
+          "path": "Prydwen/zzz/assets/factions/belobog-heavy-industries-469d56d7d4cd.webp",
+          "width": 30,
+          "height": 30
+        }
+      ]
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Koleda has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 1.5\n\n Last build update\n Patch 2.0\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 14/June/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.",
+      "assets": []
+    },
+    {
+      "id": "calculations-9",
+      "level": 2,
+      "heading": "Calculations",
+      "text": "To learn more about Koleda check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile",
+      "assets": []
+    },
+    {
+      "id": "core-skills-10",
+      "level": 2,
+      "heading": "Core skills",
+      "text": "Core Passive Demolition Hammer\n\n Lv. 1\n\n When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 30% .\n\n Impact 0\n BASE ATK: 0\n\n Additional Ability Belobog Management\n\n When another character in your squad shares the same Attribute or Faction or is a Rupture character:\n When the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, all squad members' Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+      "assets": [
+        {
+          "id": "880f190c8aa9",
+          "sourceHash": "880f190c8aa9",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-core",
+          "path": "Prydwen/zzz/assets/icons/core-880f190c8aa9.webp",
+          "width": 32,
+          "height": 32
+        }
+      ]
+    },
+    {
+      "id": "skills-11",
+      "level": 2,
+      "heading": "Skills",
+      "text": "Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Smash 'n' Bash\n\n Press to activate.\nUnleashes up to 4 strikes, dealing Physical DMG.\nWhen Koleda has Furnace Fire, she can launch an enhanced Basic Attack after the 2nd hit, consuming the Furnace Fire effect and dealing massive Fire DMG.\nKoleda and Ben can team up when fighting together to launch a coordinated attack, further increasing the power of the attack.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Dodge: Wait 'n' See\n\n Press to dodge.\nA rapid dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Tremble!\n\n Press during a dodge to activate.\nStrikes enemies in front, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Don't Look Down on Me\n\n Press during a Perfect Dodge to activate.\nStrikes enemies in front and creates an explosion, dealing Fire DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Hammer Time\n\n Press to activate:\nStrikes enemies in front and triggers an explosion, dealing Fire DMG.\nThis skill launches faster and triggers an explosion when used after 2nd or 4th hit of Koelda's Basic Attack or enhanced Basic Attack.\nWhen Koleda and Ben are both in your squad, and this skill is activated after an enhanced Basic Attack, they team up to launch a coordinated attack, further increasing the power of the skill.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n EX Special Attack: Boiling Furnace\n\n With enough energy, press to activate:\nStrikes enemies in front and triggers a powerful explosion, dealing massive Fire DMG. Koleda also gains the Furnace Fire effect.\nThis skill activates faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's Basic Attack or enhanced Basic Attack.\nWhen Koleda and Ben are both in your squad and this skill is activated after an enhanced Basic Attack, they team up to launch a coordinated attack, further increasing the power of the skill.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Natural Disaster\n\n When a Chain Attack is triggered, select the character to activate.\nUnleashes a powerful explosion on enemies in a large area, dealing massive Fire DMG while also obtaining the Furnace Fire effect.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Hammerquake\n\n When Decibel Rating is at Maximum, press to activate.\nUnleashes a powerful explosion on enemies in a large area in front, dealing massive Fire DMG while also obtaining the Furnace Fire effect.\nKoleda and Ben can team up when fighting together to launch a coordinated attack, further increasing the power of the attack.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Hammer Bell\n\n Press after a Defensive Assist to activate.\nKoleda charges and strikes enemies in front, dealing Fire DMG and obtaining Furnace Fire effect.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Protective Hammer\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Coming Thru!\n\n When the on-field character is launched, press to activate.\nStrikes enemies in front, dealing Fire DMG.\nCharacter is invulnerable during the attack.\n Multipliers",
+      "assets": [
+        {
+          "id": "13fff798e82d",
+          "sourceHash": "13fff798e82d",
+          "kind": "icons",
+          "name": "Basic",
+          "fileStem": "icon-basic",
+          "path": "Prydwen/zzz/assets/icons/basic-13fff798e82d.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "f3bbacf4beb6",
+          "sourceHash": "f3bbacf4beb6",
+          "kind": "icons",
+          "name": "Dodge",
+          "fileStem": "icon-dodge",
+          "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "de0f0cad1e72",
+          "sourceHash": "de0f0cad1e72",
+          "kind": "icons",
+          "name": "Assist",
+          "fileStem": "icon-assist-m",
+          "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "954b8d0b61b7",
+          "sourceHash": "954b8d0b61b7",
+          "kind": "icons",
+          "name": "Special",
+          "fileStem": "icon-special-full",
+          "path": "Prydwen/zzz/assets/icons/special-954b8d0b61b7.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "803b765175bc",
+          "sourceHash": "803b765175bc",
+          "kind": "icons",
+          "name": "qte",
+          "fileStem": "icon-ulti-full",
+          "path": "Prydwen/zzz/assets/icons/qte-803b765175bc.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "9f68a61db8c5",
+          "sourceHash": "9f68a61db8c5",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-special",
+          "path": "Prydwen/zzz/assets/icons/core-9f68a61db8c5.webp",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "id": "d3cae9ba5d45",
+          "sourceHash": "d3cae9ba5d45",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-ulti",
+          "path": "Prydwen/zzz/assets/icons/core-d3cae9ba5d45.webp",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "id": "94a5940d48d5",
+          "sourceHash": "94a5940d48d5",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-assist",
+          "path": "Prydwen/zzz/assets/icons/core-94a5940d48d5.webp",
+          "width": 40,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "id": "mindscapes-12",
+      "level": 2,
+      "heading": "Mindscapes",
+      "text": "M1\n Beat of the Hammer\n Mindscape 1\n\n After the 2nd or 4th hit of Koleda's Basic Attack or her enhanced Basic Attack, quickly use a Special Attack or EX Special Attack to increase the Daze dealt by 15% .\n\n M2\n Kinetic Recovery\n Mindscape 2\n\n When Koleda's EX Special Attack hits an enemy, she recovers 60 Energy. Can trigger once every 45s .\n\n M3\n Don’t Mess With Me!\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Furnace’s Glow\n Mindscape 4\n\n Koleda gains one stack of Charge (max 2 stacks) when consuming Furnace Fire to use her Enhanced Basic Attack. When her Chain Attack or Ultimate hits an enemy, she consumes all stacks of Charge to increase the attack's DMG by 18% per stack.\n\n M5\n You Dare Underestimate Me?\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Saturated Blast\n Mindscape 6\n\n When EX Special Attack, Chain Attack, or Ultimate triggers an explosion that hits an enemy, it deals additional DMG equal to 360% of Koleda's ATK.",
+      "assets": []
+    },
+    {
+      "id": "stats-level-60-13",
+      "level": 2,
+      "heading": "Stats (Level 60)",
+      "text": "Koleda Stats at level 60 (including Core passive bonuses).\n\n HP\n 8127\n\n DEF\n 594\n\n ATK\n 735\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 134\n\n Anomaly Mastery\n 97\n\n Anomaly Proficiency\n 96\n\n Energy Regen\n 1.2",
+      "assets": [
+        {
+          "id": "bcc36adf7778",
+          "sourceHash": "bcc36adf7778",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/zzz/assets/icons/stat-hp-bcc36adf7778.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "6bde3e3d95d5",
+          "sourceHash": "6bde3e3d95d5",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-def",
+          "path": "Prydwen/zzz/assets/icons/stat-def-6bde3e3d95d5.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "3be631f5fe8b",
+          "sourceHash": "3be631f5fe8b",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/zzz/assets/icons/stat-atk-3be631f5fe8b.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "7e808fde7ecd",
+          "sourceHash": "7e808fde7ecd",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-crit",
+          "path": "Prydwen/zzz/assets/icons/stat-crit-7e808fde7ecd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "a5d74846670e",
+          "sourceHash": "a5d74846670e",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/zzz/assets/icons/stat-critdmg-a5d74846670e.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "96960682bbd8",
+          "sourceHash": "96960682bbd8",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-pen",
+          "path": "Prydwen/zzz/assets/icons/stat-pen-96960682bbd8.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "55a4b1c5a82a",
+          "sourceHash": "55a4b1c5a82a",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-impact",
+          "path": "Prydwen/zzz/assets/icons/stat-impact-55a4b1c5a82a.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "078045904ece",
+          "sourceHash": "078045904ece",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-mastery",
+          "path": "Prydwen/zzz/assets/icons/stat-mastery-078045904ece.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "09b14c497e98",
+          "sourceHash": "09b14c497e98",
+          "kind": "icons",
+          "name": "Stat",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/zzz/assets/icons/stat-energy-09b14c497e98.webp",
+          "width": 24,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "id": "voice-actors-14",
+      "level": 2,
+      "heading": "Voice Actors",
+      "text": "ENG\n -\n\n JPN\n Iguchi Yuka (井口 裕香)\n\n CN\n Mù Xuětíng (穆雪婷)\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-15",
+      "level": 2,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "b9f1d4fb1aad",
+          "sourceHash": "b9f1d4fb1aad",
+          "kind": "characters",
+          "name": "Koleda",
+          "fileStem": "koleda-full",
+          "path": "Prydwen/zzz/assets/characters/koleda-b9f1d4fb1aad.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
+    },
+    {
+      "id": "ratings-16",
+      "level": 2,
+      "heading": "Ratings",
+      "text": "This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.",
+      "assets": []
+    },
+    {
+      "id": "support-17",
+      "level": 5,
+      "heading": "Support",
+      "text": "T2\n Endgame Modes",
+      "assets": []
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Gains temporary invincibility during the enhanced portions of her basic attack sequence allowing Koleda to ignore hits and finish her combo instead of dodging.\n\n Combining Koleda’s EX with an enhanced basic attack sequence delivers devastating amounts of daze.\n\n Gain’s empowered abilities when in a party with Ben changing and improving some of her kit.\n\n Additional ability (gained by having a Belobog or Fire teammate) is nice but not a dealbreaker to lose making Koleda feel fine to splash into team archetypes she doesn’t have direct synergy in (she can be used in every team without you feeling bad for losing something).\n\n Very easy to play to her full potential.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Has attack animations on the slower side with some attacks that lock her into completing them, sometimes causing Koleda to end up out of position unless you perform a character swap during them.\n\n Non-enhanced basic attacks feel lackluster compared to her EX-enhanced basic combo making her feel somewhat EX-reliant outside of parrying and dodge countering.",
+      "assets": []
+    },
+    {
+      "id": "review-21",
+      "level": 2,
+      "heading": "Review",
+      "text": "Koleda review isn't available yet. It will be added soon!\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "collaboration-disclaimer-22",
+      "level": 2,
+      "heading": "Collaboration Disclaimer",
+      "text": "For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.",
+      "assets": []
+    },
+    {
+      "id": "best-w-engines-23",
+      "level": 2,
+      "heading": "Best W-Engines",
+      "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n The top number shows the performance of the W-Engine when applying Daze while the bottom number when dealing Damage .\n 100.00%\n 100.00%\n\n Hellfire Gears (S 1 )\n\n Koleda's Signature W-Engine is an incredible option for all Stun Agents that use their EX Special Attack at least somewhat regularly. Maintaining at least 1 stack of its buff consistently is expected, but its value only increases further at 2 stacks. Energy Regen, strong base stats and a great combat buff make this Engine a safe option on most Agents.\n Usage: 70.46 %\n Shiyu Defense: 28375\n Deadly Assault: 25547\n\n 97.18%\n 94.77%\n\n Precious Fossilized Core (S 5 )\n\n Amazing option for all Stun Agents, particularly in Deadly Assault due to its massive buffs to Daze that it gives against higher HP enemies which is exploited to its full potential in the gamemode, in a lot of cases even outperforming S-rank W-Engines despite being an F2P craftable. Unfortunately not as powerful in other endgame contents, but still a perfectly viable choice.\n Usage: 8.29 %\n Shiyu Defense: 28604\n Deadly Assault: 27390\n\n 91.96%\n 102.25%\n\n The Restrained (S 1 )\n\n Lycaon's Signature W-Engine is particularly interesting not only thanks to its high Basic Attack Daze increasing effect, but also due to its ability to increase Basic Attack damage at the same time. This leads to typically slightly lower Daze output while giving high damage as a trade-off. The more personal damage your Stun Agent deals, the higher the value of this W-Engine, but it is typically not preferred on most Stun Agents as they mostly want to deal Daze and this W-Engine is less specialized to do so than others.\n Usage: 1.58 %\n Shiyu Defense: 26233\n Deadly Assault: 27245",
+      "assets": [
+        {
+          "id": "8271342a7fd4",
+          "sourceHash": "8271342a7fd4",
+          "kind": "w-engines",
+          "name": "Hellfire Gears",
+          "fileStem": "hellfire-gears-image",
+          "path": "Prydwen/zzz/assets/w-engines/hellfire-gears-8271342a7fd4.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "dc5e4d8d56b9",
+          "sourceHash": "dc5e4d8d56b9",
+          "kind": "w-engines",
+          "name": "Precious Fossilized Core",
+          "fileStem": "precious-fossilized-core-image",
+          "path": "Prydwen/zzz/assets/w-engines/precious-fossilized-core-dc5e4d8d56b9.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "ba65f478c8b6",
+          "sourceHash": "ba65f478c8b6",
+          "kind": "w-engines",
+          "name": "The Restrained",
+          "fileStem": "the-restrained-image",
+          "path": "Prydwen/zzz/assets/w-engines/the-restrained-ba65f478c8b6.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-disk-drives-sets-24",
+      "level": 2,
+      "heading": "Best Disk Drives Sets",
+      "text": "1\n\n King of the Summit ( 4 -PC)\n\n New best Stun set, to be used on any Stun character in almost any team with very few exceptions. Gives 6% increased Daze on the 2-piece and up to 30% CRIT DMG for the entire squad for 15s when casting EX Specials and Chain Attacks on the condition that the equipper has 50% CRIT Rate or higher, a requirement which is easy to meet but must be ensured. Uptime on this buff is almost always easily maintained permanently, however be mindful this set will not be effective if you aren’t building the rest of your team on CRIT, in which case alternatives will be preferred, and that you cannot run this set multiple times on the same team.\n Best combined with your choice of 2-PC Set:\n 2P\n Shockstar Disco\n\n (Recommended)\n 2P\n Swing Jazz\n\n 2\n\n Astral Voice ( 4 -PC)\n\n Best generalist Support set, providing a useful 10% ATK on the 2-piece but most importantly buffing DMG dealt by characters entering the field via Quick Assists by upwards of 24%, the biggest buff provided by Disc Drives in the game. Generally a must-have set on any team, but be mindful of ensuring uptime on the buff.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Swing Jazz\n\n 3\n\n Proto Punk ( 4 -PC)\n\n Niche supportive set used for teams that are in the position of triggering Perfect Assists often. Grants the entire party 15% increased DMG for 10s when triggering a Perfect Assist. Typically used if an Astral Voice wielder is already on the team and the equipped Agent is in a position to trigger lots of Perfect Assists. This set's value is significantly diminished if the player isn't comfortable with timing Perfect Assists, in which case other sets will be favoured such as 4P Swing Jazz.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Swing Jazz\n\n 4\n\n Shockstar Disco ( 4 -PC)\n\n Provides the highest Daze output of any Disk Drive set in the game. However, the difference between the 4-piece effect increase in Daze is marginal compared to simply using the 2-piece effect, meaning it almost always yields better results to use a supportive set like King of the Summit or Astral Voice to buff your team further, instead of the extra Daze which only gives extra Stun windows against bosses in very specific situations. If an extra Stun window is enabled by using this set it will perform the best, however this only very rarely happens, causing it to be left behind in favour of other sets.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Swing Jazz",
+      "assets": [
+        {
+          "id": "9cafa8e105ae",
+          "sourceHash": "9cafa8e105ae",
+          "kind": "drive-discs",
+          "name": "King of the Summit",
+          "fileStem": "set-king",
+          "path": "Prydwen/zzz/assets/drive-discs/king-of-the-summit-9cafa8e105ae.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "1d32dd29b6a7",
+          "sourceHash": "1d32dd29b6a7",
+          "kind": "drive-discs",
+          "name": "Shockstar Disco",
+          "fileStem": "set-shockstar",
+          "path": "Prydwen/zzz/assets/drive-discs/shockstar-disco-1d32dd29b6a7.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "7e8e49d34387",
+          "sourceHash": "7e8e49d34387",
+          "kind": "drive-discs",
+          "name": "Swing Jazz",
+          "fileStem": "set-swing",
+          "path": "Prydwen/zzz/assets/drive-discs/swing-jazz-7e8e49d34387.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "47b453ad83b8",
+          "sourceHash": "47b453ad83b8",
+          "kind": "drive-discs",
+          "name": "Astral Voice",
+          "fileStem": "set-astral",
+          "path": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "1c4453ce92f8",
+          "sourceHash": "1c4453ce92f8",
+          "kind": "drive-discs",
+          "name": "Proto Punk",
+          "fileStem": "set-proto",
+          "path": "Prydwen/zzz/assets/drive-discs/proto-punk-1c4453ce92f8.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-disk-drives-stats-25",
+      "level": 2,
+      "heading": "Best Disk Drives Stats",
+      "text": "Disk 4\n CRIT Rate% >= CRIT DMG%\n\n Disk 5\n Fire DMG% > ATK%\n\n Disk 6\n Impact\n\n Substats: CRIT RATE > CRIT DMG > ATK% > PEN = ATK",
+      "assets": []
+    },
+    {
+      "id": "best-endgame-stats-level-60-26",
+      "level": 2,
+      "heading": "Best Endgame Stats (Level 60)",
+      "text": "Impact: 166 - 190+\n\n ATK: 1700 - 2000+ (Optional)\n\n HP: 10000+\n\n DEF: 800+\n\n CRIT RATE: 50%+ (Needed for King of the Summit)\n\n CRIT DMG: 100% - 120%+ (Optional)",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-27",
+      "level": 2,
+      "heading": "Skill priority",
+      "text": "Special Attack\n\n Chain Attack\n\n Assist\n\n Basic Attack\n\n Dodge",
+      "assets": [
+        {
+          "id": "954b8d0b61b7",
+          "sourceHash": "954b8d0b61b7",
+          "kind": "icons",
+          "name": "Special Attack",
+          "fileStem": "icon-special-full",
+          "path": "Prydwen/zzz/assets/icons/special-attack-954b8d0b61b7.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "803b765175bc",
+          "sourceHash": "803b765175bc",
+          "kind": "icons",
+          "name": "Chain Attack",
+          "fileStem": "icon-ulti-full",
+          "path": "Prydwen/zzz/assets/icons/chain-attack-803b765175bc.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "de0f0cad1e72",
+          "sourceHash": "de0f0cad1e72",
+          "kind": "icons",
+          "name": "Assist",
+          "fileStem": "icon-assist-m",
+          "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "13fff798e82d",
+          "sourceHash": "13fff798e82d",
+          "kind": "icons",
+          "name": "Basic Attack",
+          "fileStem": "icon-basic",
+          "path": "Prydwen/zzz/assets/icons/basic-attack-13fff798e82d.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "f3bbacf4beb6",
+          "sourceHash": "f3bbacf4beb6",
+          "kind": "icons",
+          "name": "Dodge",
+          "fileStem": "icon-dodge",
+          "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+          "width": 24,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "id": "video-guides-28",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "Teams & Synergy",
+      "assets": []
+    },
+    {
+      "id": "synergy-29",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Below we list only the most important synergies for Koleda . The character can work with others if you know what to do and how to use them.\n\n Evelyn Soldier 11 - Koleda does a few things for both Soldier 11 and Evelyn. All characters activate each others' Additional Abilities which allows Koleda to boost Chain Attack DMG (especially relevant on Evelyn, but also exploitable on Soldier 11), and allows both units to deal extra damage. In addition, Koleda applies a lot of Daze very quickly, allowing for many Stun windows for the DPS units to exploit throughout battle. This makes Koleda a strong F2P choice for both Agents.\n Yixuan - Koleda buffs Yixuan's Chain Attacks via her Additional Ability and provides significant amounts of Daze, making her one of the best F2P options. Koleda unfortunately doesn't do much else for Yixuan, and since Chain Attacks only represent a minor part of Yixuan's damage, Koleda ends up outclassed by several premium options, however she remains a perfectly viable choice.\n Astra Yao Yuzuha Nicole Lucy - These 4 generalist units are capable of acting as Support for any team in the game. Astra Yao provides Quick Assists, extra Chain Attacks, healing, super low field time, ATK, DMG and CRIT DMG buffs which makes her the overall best choice in almost all cases. Yuzuha is the ultimate Anomaly buffer who also has awesome ATK and DMG% buffs applicable to any Agent as well, giving her strong general use potential; Nicole provides the sought-after DEF Shred and CRIT Rate at M6 which makes her competitive, and Lucy has long-lasting ATK buffs which makes her a very practical choice. All in all, these four can work with anyone.\n Manato - As one of the few Stunners whose Additional Ability works with Rupture Agents, Koleda is a decent pick, and they synergise surprisingly well. A significant portion of Manato’s damage comes from Chain Attacks, so Koleda’s buffs help him plenty, and her high Daze contribution means more frequent burst opportunities over the course of a fight.\n Yidhari - Yidhari likes to on-field, and Koleda’s strong EX Special, Assist Follow-Up and Dodge Counter daze build-up (all the while only consuming 1 Assist Point on parries) means she can have a quick-swap playstyle that affords Yidhari the time she needs to deal damage and build resources. At M2 and above, her daze build is so strong that it can enable different routing in certain fights, being a sub-optimal but comfortable teammate option.",
+      "assets": [
+        {
+          "id": "6dcc7426ba11",
+          "sourceHash": "6dcc7426ba11",
+          "kind": "characters",
+          "name": "Evelyn",
+          "fileStem": "evelyn",
+          "path": "Prydwen/zzz/assets/characters/evelyn-6dcc7426ba11.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ca536e1965fd",
+          "sourceHash": "ca536e1965fd",
+          "kind": "characters",
+          "name": "Soldier 11",
+          "fileStem": "soldier-11",
+          "path": "Prydwen/zzz/assets/characters/soldier-11-ca536e1965fd.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "53300a2a5c70",
+          "sourceHash": "53300a2a5c70",
+          "kind": "characters",
+          "name": "Yixuan",
+          "fileStem": "yixuan",
+          "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "98d8d659c143",
+          "sourceHash": "98d8d659c143",
+          "kind": "characters",
+          "name": "Astra Yao",
+          "fileStem": "astra-yao",
+          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d2c1c9b40367",
+          "sourceHash": "d2c1c9b40367",
+          "kind": "characters",
+          "name": "Yuzuha",
+          "fileStem": "ukinami-yuzuha",
+          "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ad063e072375",
+          "sourceHash": "ad063e072375",
+          "kind": "characters",
+          "name": "Nicole",
+          "fileStem": "nicole-demara",
+          "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "a0147df28355",
+          "sourceHash": "a0147df28355",
+          "kind": "characters",
+          "name": "Lucy",
+          "fileStem": "lucy",
+          "path": "Prydwen/zzz/assets/characters/lucy-a0147df28355.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "6e337e3697b9",
+          "sourceHash": "6e337e3697b9",
+          "kind": "characters",
+          "name": "Manato",
+          "fileStem": "manato",
+          "path": "Prydwen/zzz/assets/characters/manato-6e337e3697b9.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3f97af69c631",
+          "sourceHash": "3f97af69c631",
+          "kind": "characters",
+          "name": "Yidhari",
+          "fileStem": "yidhari",
+          "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-shiyu-defense-30",
+      "level": 2,
+      "heading": "Teams (Shiyu Defense)",
+      "text": "This section lists most popular teams featuring Koleda in the current phase of Shiyu Defense.\n Rank 77\n App. rate: 0.24 %\n Avg. time: 26736\n\n Rank 87\n App. rate: 0.18 %\n Avg. time: 26210\n\n Rank 203\n App. rate: 0.03 %\n Avg. time: 28379\n\n Rank 305\n App. rate: 0.01 %\n Avg. time: 0",
+      "assets": [
+        {
+          "id": "53300a2a5c70",
+          "sourceHash": "53300a2a5c70",
+          "kind": "characters",
+          "name": "Yixuan",
+          "fileStem": "yixuan",
+          "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "0d7d337e47cb",
+          "sourceHash": "0d7d337e47cb",
+          "kind": "characters",
+          "name": "Koleda",
+          "fileStem": "koleda",
+          "path": "Prydwen/zzz/assets/characters/koleda-0d7d337e47cb.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7557c8060dc2",
+          "sourceHash": "7557c8060dc2",
+          "kind": "characters",
+          "name": "Lucia",
+          "fileStem": "lucia",
+          "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "6dcc7426ba11",
+          "sourceHash": "6dcc7426ba11",
+          "kind": "characters",
+          "name": "Evelyn",
+          "fileStem": "evelyn",
+          "path": "Prydwen/zzz/assets/characters/evelyn-6dcc7426ba11.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "98d8d659c143",
+          "sourceHash": "98d8d659c143",
+          "kind": "characters",
+          "name": "Astra Yao",
+          "fileStem": "astra-yao",
+          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7b812101932f",
+          "sourceHash": "7b812101932f",
+          "kind": "characters",
+          "name": "Banyue",
+          "fileStem": "banyue",
+          "path": "Prydwen/zzz/assets/characters/banyue-7b812101932f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f34fb0a851f4",
+          "sourceHash": "f34fb0a851f4",
+          "kind": "characters",
+          "name": "Pan Yinhu",
+          "fileStem": "pan-yinhu",
+          "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-deadly-assault-31",
+      "level": 2,
+      "heading": "Teams (Deadly Assault)",
+      "text": "This section lists most popular teams featuring Koleda in the current phase of Deadly Assault.\n Rank 68\n App. rate: 0.34 %\n Avg. score: 25020",
+      "assets": [
+        {
+          "id": "53300a2a5c70",
+          "sourceHash": "53300a2a5c70",
+          "kind": "characters",
+          "name": "Yixuan",
+          "fileStem": "yixuan",
+          "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "0d7d337e47cb",
+          "sourceHash": "0d7d337e47cb",
+          "kind": "characters",
+          "name": "Koleda",
+          "fileStem": "koleda",
+          "path": "Prydwen/zzz/assets/characters/koleda-0d7d337e47cb.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7557c8060dc2",
+          "sourceHash": "7557c8060dc2",
+          "kind": "characters",
+          "name": "Lucia",
+          "fileStem": "lucia",
+          "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "best-w-engines": {
+      "label": "Best W-Engines",
+      "sections": [
+        {
+          "heading": "Best W-Engines",
+          "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n The top number shows the performance of the W-Engine when applying Daze while the bottom number when dealing Damage .\n 100.00%\n 100.00%\n\n Hellfire Gears (S 1 )\n\n Koleda's Signature W-Engine is an incredible option for all Stun Agents that use their EX Special Attack at least somewhat regularly. Maintaining at least 1 stack of its buff consistently is expected, but its value only increases further at 2 stacks. Energy Regen, strong base stats and a great combat buff make this Engine a safe option on most Agents.\n Usage: 70.46 %\n Shiyu Defense: 28375\n Deadly Assault: 25547\n\n 97.18%\n 94.77%\n\n Precious Fossilized Core (S 5 )\n\n Amazing option for all Stun Agents, particularly in Deadly Assault due to its massive buffs to Daze that it gives against higher HP enemies which is exploited to its full potential in the gamemode, in a lot of cases even outperforming S-rank W-Engines despite being an F2P craftable. Unfortunately not as powerful in other endgame contents, but still a perfectly viable choice.\n Usage: 8.29 %\n Shiyu Defense: 28604\n Deadly Assault: 27390\n\n 91.96%\n 102.25%\n\n The Restrained (S 1 )\n\n Lycaon's Signature W-Engine is particularly interesting not only thanks to its high Basic Attack Daze increasing effect, but also due to its ability to increase Basic Attack damage at the same time. This leads to typically slightly lower Daze output while giving high damage as a trade-off. The more personal damage your Stun Agent deals, the higher the value of this W-Engine, but it is typically not preferred on most Stun Agents as they mostly want to deal Daze and this W-Engine is less specialized to do so than others.\n Usage: 1.58 %\n Shiyu Defense: 26233\n Deadly Assault: 27245",
+          "assets": [
+            {
+              "id": "8271342a7fd4",
+              "sourceHash": "8271342a7fd4",
+              "kind": "w-engines",
+              "name": "Hellfire Gears",
+              "fileStem": "hellfire-gears-image",
+              "path": "Prydwen/zzz/assets/w-engines/hellfire-gears-8271342a7fd4.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "dc5e4d8d56b9",
+              "sourceHash": "dc5e4d8d56b9",
+              "kind": "w-engines",
+              "name": "Precious Fossilized Core",
+              "fileStem": "precious-fossilized-core-image",
+              "path": "Prydwen/zzz/assets/w-engines/precious-fossilized-core-dc5e4d8d56b9.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "ba65f478c8b6",
+              "sourceHash": "ba65f478c8b6",
+              "kind": "w-engines",
+              "name": "The Restrained",
+              "fileStem": "the-restrained-image",
+              "path": "Prydwen/zzz/assets/w-engines/the-restrained-ba65f478c8b6.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-disk-drives-sets": {
+      "label": "Best Disk Drives Sets",
+      "sections": [
+        {
+          "heading": "Best Disk Drives Sets",
+          "text": "1\n\n King of the Summit ( 4 -PC)\n\n New best Stun set, to be used on any Stun character in almost any team with very few exceptions. Gives 6% increased Daze on the 2-piece and up to 30% CRIT DMG for the entire squad for 15s when casting EX Specials and Chain Attacks on the condition that the equipper has 50% CRIT Rate or higher, a requirement which is easy to meet but must be ensured. Uptime on this buff is almost always easily maintained permanently, however be mindful this set will not be effective if you aren’t building the rest of your team on CRIT, in which case alternatives will be preferred, and that you cannot run this set multiple times on the same team.\n Best combined with your choice of 2-PC Set:\n 2P\n Shockstar Disco\n\n (Recommended)\n 2P\n Swing Jazz\n\n 2\n\n Astral Voice ( 4 -PC)\n\n Best generalist Support set, providing a useful 10% ATK on the 2-piece but most importantly buffing DMG dealt by characters entering the field via Quick Assists by upwards of 24%, the biggest buff provided by Disc Drives in the game. Generally a must-have set on any team, but be mindful of ensuring uptime on the buff.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Swing Jazz\n\n 3\n\n Proto Punk ( 4 -PC)\n\n Niche supportive set used for teams that are in the position of triggering Perfect Assists often. Grants the entire party 15% increased DMG for 10s when triggering a Perfect Assist. Typically used if an Astral Voice wielder is already on the team and the equipped Agent is in a position to trigger lots of Perfect Assists. This set's value is significantly diminished if the player isn't comfortable with timing Perfect Assists, in which case other sets will be favoured such as 4P Swing Jazz.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Swing Jazz\n\n 4\n\n Shockstar Disco ( 4 -PC)\n\n Provides the highest Daze output of any Disk Drive set in the game. However, the difference between the 4-piece effect increase in Daze is marginal compared to simply using the 2-piece effect, meaning it almost always yields better results to use a supportive set like King of the Summit or Astral Voice to buff your team further, instead of the extra Daze which only gives extra Stun windows against bosses in very specific situations. If an extra Stun window is enabled by using this set it will perform the best, however this only very rarely happens, causing it to be left behind in favour of other sets.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Swing Jazz",
+          "assets": [
+            {
+              "id": "9cafa8e105ae",
+              "sourceHash": "9cafa8e105ae",
+              "kind": "drive-discs",
+              "name": "King of the Summit",
+              "fileStem": "set-king",
+              "path": "Prydwen/zzz/assets/drive-discs/king-of-the-summit-9cafa8e105ae.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "1d32dd29b6a7",
+              "sourceHash": "1d32dd29b6a7",
+              "kind": "drive-discs",
+              "name": "Shockstar Disco",
+              "fileStem": "set-shockstar",
+              "path": "Prydwen/zzz/assets/drive-discs/shockstar-disco-1d32dd29b6a7.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "7e8e49d34387",
+              "sourceHash": "7e8e49d34387",
+              "kind": "drive-discs",
+              "name": "Swing Jazz",
+              "fileStem": "set-swing",
+              "path": "Prydwen/zzz/assets/drive-discs/swing-jazz-7e8e49d34387.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "47b453ad83b8",
+              "sourceHash": "47b453ad83b8",
+              "kind": "drive-discs",
+              "name": "Astral Voice",
+              "fileStem": "set-astral",
+              "path": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "1c4453ce92f8",
+              "sourceHash": "1c4453ce92f8",
+              "kind": "drive-discs",
+              "name": "Proto Punk",
+              "fileStem": "set-proto",
+              "path": "Prydwen/zzz/assets/drive-discs/proto-punk-1c4453ce92f8.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-disk-drives-stats": {
+      "label": "Best Disk Drives Stats",
+      "sections": [
+        {
+          "heading": "Best Disk Drives Stats",
+          "text": "Disk 4\n CRIT Rate% >= CRIT DMG%\n\n Disk 5\n Fire DMG% > ATK%\n\n Disk 6\n Impact\n\n Substats: CRIT RATE > CRIT DMG > ATK% > PEN = ATK",
+          "assets": []
+        }
+      ]
+    },
+    "best-endgame-stats": {
+      "label": "Best Endgame Stats",
+      "sections": [
+        {
+          "heading": "Best Endgame Stats (Level 60)",
+          "text": "Impact: 166 - 190+\n\n ATK: 1700 - 2000+ (Optional)\n\n HP: 10000+\n\n DEF: 800+\n\n CRIT RATE: 50%+ (Needed for King of the Summit)\n\n CRIT DMG: 100% - 120%+ (Optional)",
+          "assets": []
+        }
+      ]
+    },
+    "skill-priority": {
+      "label": "Skill priority",
+      "sections": [
+        {
+          "heading": "Skill priority",
+          "text": "Special Attack\n\n Chain Attack\n\n Assist\n\n Basic Attack\n\n Dodge",
+          "assets": [
+            {
+              "id": "954b8d0b61b7",
+              "sourceHash": "954b8d0b61b7",
+              "kind": "icons",
+              "name": "Special Attack",
+              "fileStem": "icon-special-full",
+              "path": "Prydwen/zzz/assets/icons/special-attack-954b8d0b61b7.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "803b765175bc",
+              "sourceHash": "803b765175bc",
+              "kind": "icons",
+              "name": "Chain Attack",
+              "fileStem": "icon-ulti-full",
+              "path": "Prydwen/zzz/assets/icons/chain-attack-803b765175bc.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "de0f0cad1e72",
+              "sourceHash": "de0f0cad1e72",
+              "kind": "icons",
+              "name": "Assist",
+              "fileStem": "icon-assist-m",
+              "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "13fff798e82d",
+              "sourceHash": "13fff798e82d",
+              "kind": "icons",
+              "name": "Basic Attack",
+              "fileStem": "icon-basic",
+              "path": "Prydwen/zzz/assets/icons/basic-attack-13fff798e82d.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "f3bbacf4beb6",
+              "sourceHash": "f3bbacf4beb6",
+              "kind": "icons",
+              "name": "Dodge",
+              "fileStem": "icon-dodge",
+              "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+              "width": 24,
+              "height": 24
+            }
+          ]
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Below we list only the most important synergies for Koleda . The character can work with others if you know what to do and how to use them.\n\n Evelyn Soldier 11 - Koleda does a few things for both Soldier 11 and Evelyn. All characters activate each others' Additional Abilities which allows Koleda to boost Chain Attack DMG (especially relevant on Evelyn, but also exploitable on Soldier 11), and allows both units to deal extra damage. In addition, Koleda applies a lot of Daze very quickly, allowing for many Stun windows for the DPS units to exploit throughout battle. This makes Koleda a strong F2P choice for both Agents.\n Yixuan - Koleda buffs Yixuan's Chain Attacks via her Additional Ability and provides significant amounts of Daze, making her one of the best F2P options. Koleda unfortunately doesn't do much else for Yixuan, and since Chain Attacks only represent a minor part of Yixuan's damage, Koleda ends up outclassed by several premium options, however she remains a perfectly viable choice.\n Astra Yao Yuzuha Nicole Lucy - These 4 generalist units are capable of acting as Support for any team in the game. Astra Yao provides Quick Assists, extra Chain Attacks, healing, super low field time, ATK, DMG and CRIT DMG buffs which makes her the overall best choice in almost all cases. Yuzuha is the ultimate Anomaly buffer who also has awesome ATK and DMG% buffs applicable to any Agent as well, giving her strong general use potential; Nicole provides the sought-after DEF Shred and CRIT Rate at M6 which makes her competitive, and Lucy has long-lasting ATK buffs which makes her a very practical choice. All in all, these four can work with anyone.\n Manato - As one of the few Stunners whose Additional Ability works with Rupture Agents, Koleda is a decent pick, and they synergise surprisingly well. A significant portion of Manato’s damage comes from Chain Attacks, so Koleda’s buffs help him plenty, and her high Daze contribution means more frequent burst opportunities over the course of a fight.\n Yidhari - Yidhari likes to on-field, and Koleda’s strong EX Special, Assist Follow-Up and Dodge Counter daze build-up (all the while only consuming 1 Assist Point on parries) means she can have a quick-swap playstyle that affords Yidhari the time she needs to deal damage and build resources. At M2 and above, her daze build is so strong that it can enable different routing in certain fights, being a sub-optimal but comfortable teammate option.",
+          "assets": [
+            {
+              "id": "6dcc7426ba11",
+              "sourceHash": "6dcc7426ba11",
+              "kind": "characters",
+              "name": "Evelyn",
+              "fileStem": "evelyn",
+              "path": "Prydwen/zzz/assets/characters/evelyn-6dcc7426ba11.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "ca536e1965fd",
+              "sourceHash": "ca536e1965fd",
+              "kind": "characters",
+              "name": "Soldier 11",
+              "fileStem": "soldier-11",
+              "path": "Prydwen/zzz/assets/characters/soldier-11-ca536e1965fd.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "53300a2a5c70",
+              "sourceHash": "53300a2a5c70",
+              "kind": "characters",
+              "name": "Yixuan",
+              "fileStem": "yixuan",
+              "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "98d8d659c143",
+              "sourceHash": "98d8d659c143",
+              "kind": "characters",
+              "name": "Astra Yao",
+              "fileStem": "astra-yao",
+              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d2c1c9b40367",
+              "sourceHash": "d2c1c9b40367",
+              "kind": "characters",
+              "name": "Yuzuha",
+              "fileStem": "ukinami-yuzuha",
+              "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "ad063e072375",
+              "sourceHash": "ad063e072375",
+              "kind": "characters",
+              "name": "Nicole",
+              "fileStem": "nicole-demara",
+              "path": "Prydwen/zzz/assets/characters/nicole-ad063e072375.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "a0147df28355",
+              "sourceHash": "a0147df28355",
+              "kind": "characters",
+              "name": "Lucy",
+              "fileStem": "lucy",
+              "path": "Prydwen/zzz/assets/characters/lucy-a0147df28355.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "6e337e3697b9",
+              "sourceHash": "6e337e3697b9",
+              "kind": "characters",
+              "name": "Manato",
+              "fileStem": "manato",
+              "path": "Prydwen/zzz/assets/characters/manato-6e337e3697b9.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "3f97af69c631",
+              "sourceHash": "3f97af69c631",
+              "kind": "characters",
+              "name": "Yidhari",
+              "fileStem": "yidhari",
+              "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    "teams": {
+      "label": "Teams",
+      "sections": [
+        {
+          "heading": "Teams (Shiyu Defense)",
+          "text": "This section lists most popular teams featuring Koleda in the current phase of Shiyu Defense.\n Rank 77\n App. rate: 0.24 %\n Avg. time: 26736\n\n Rank 87\n App. rate: 0.18 %\n Avg. time: 26210\n\n Rank 203\n App. rate: 0.03 %\n Avg. time: 28379\n\n Rank 305\n App. rate: 0.01 %\n Avg. time: 0",
+          "assets": [
+            {
+              "id": "53300a2a5c70",
+              "sourceHash": "53300a2a5c70",
+              "kind": "characters",
+              "name": "Yixuan",
+              "fileStem": "yixuan",
+              "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "0d7d337e47cb",
+              "sourceHash": "0d7d337e47cb",
+              "kind": "characters",
+              "name": "Koleda",
+              "fileStem": "koleda",
+              "path": "Prydwen/zzz/assets/characters/koleda-0d7d337e47cb.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "7557c8060dc2",
+              "sourceHash": "7557c8060dc2",
+              "kind": "characters",
+              "name": "Lucia",
+              "fileStem": "lucia",
+              "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "6dcc7426ba11",
+              "sourceHash": "6dcc7426ba11",
+              "kind": "characters",
+              "name": "Evelyn",
+              "fileStem": "evelyn",
+              "path": "Prydwen/zzz/assets/characters/evelyn-6dcc7426ba11.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "98d8d659c143",
+              "sourceHash": "98d8d659c143",
+              "kind": "characters",
+              "name": "Astra Yao",
+              "fileStem": "astra-yao",
+              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "7b812101932f",
+              "sourceHash": "7b812101932f",
+              "kind": "characters",
+              "name": "Banyue",
+              "fileStem": "banyue",
+              "path": "Prydwen/zzz/assets/characters/banyue-7b812101932f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "f34fb0a851f4",
+              "sourceHash": "f34fb0a851f4",
+              "kind": "characters",
+              "name": "Pan Yinhu",
+              "fileStem": "pan-yinhu",
+              "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        },
+        {
+          "heading": "Teams (Deadly Assault)",
+          "text": "This section lists most popular teams featuring Koleda in the current phase of Deadly Assault.\n Rank 68\n App. rate: 0.34 %\n Avg. score: 25020",
+          "assets": [
+            {
+              "id": "53300a2a5c70",
+              "sourceHash": "53300a2a5c70",
+              "kind": "characters",
+              "name": "Yixuan",
+              "fileStem": "yixuan",
+              "path": "Prydwen/zzz/assets/characters/yixuan-53300a2a5c70.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "0d7d337e47cb",
+              "sourceHash": "0d7d337e47cb",
+              "kind": "characters",
+              "name": "Koleda",
+              "fileStem": "koleda",
+              "path": "Prydwen/zzz/assets/characters/koleda-0d7d337e47cb.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "7557c8060dc2",
+              "sourceHash": "7557c8060dc2",
+              "kind": "characters",
+              "name": "Lucia",
+              "fileStem": "lucia",
+              "path": "Prydwen/zzz/assets/characters/lucia-7557c8060dc2.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Koleda Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Koleda\n Koleda Best Build Guide\n Last updated: 14/June/2026\n\n Introduction\n Best guide and build for Koleda from ZZZ (Zenless Zone Zero). Koleda is an rank character with the Fire attribute who belongs to the Stun Specialty and who is part of the Belobog Heavy Industries faction.\n Small & Cute, With Some Fierce Combat Power. She may be small, but can certainly wield that huge hammer. A Fierce Young Girl Who's Also a President. The young leader at the helm of Belobog Industries. A President Who Leads by Example. She prefers to work out in the field, rather than being stuck at a desk. Leads by Example While Maintaining Her Cute Nature.\nHer maturity sometimes gives way to occasional childishness. She's a leader who sometimes needs to be taken care of by her followers.\n\n To learn more about Koleda check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Koleda has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 1.5\n\n Last build update\n Patch 2.0\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 14/June/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Koleda check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Demolition Hammer\n\n Lv. 1\n\n When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 30% .\n\n Impact 0\n BASE ATK: 0\n\n Additional Ability Belobog Management\n\n When another character in your squad shares the same Attribute or Faction or is a Rupture character:\n When the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, all squad members' Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Smash 'n' Bash\n\n Press to activate.\nUnleashes up to 4 strikes, dealing Physical DMG.\nWhen Koleda has Furnace Fire, she can launch an enhanced Basic Attack after the 2nd hit, consuming the Furnace Fire effect and dealing massive Fire DMG.\nKoleda and Ben can team up when fighting together to launch a coordinated attack, further increasing the power of the attack.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Dodge: Wait 'n' See\n\n Press to dodge.\nA rapid dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Tremble!\n\n Press during a dodge to activate.\nStrikes enemies in front, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Don't Look Down on Me\n\n Press during a Perfect Dodge to activate.\nStrikes enemies in front and creates an explosion, dealing Fire DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Hammer Time\n\n Press to activate:\nStrikes enemies in front and triggers an explosion, dealing Fire DMG.\nThis skill launches faster and triggers an explosion when used after 2nd or 4th hit of Koelda's Basic Attack or enhanced Basic Attack.\nWhen Koleda and Ben are both in your squad, and this skill is activated after an enhanced Basic Attack, they team up to launch a coordinated attack, further increasing the power of the skill.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n EX Special Attack: Boiling Furnace\n\n With enough energy, press to activate:\nStrikes enemies in front and triggers a powerful explosion, dealing massive Fire DMG. Koleda also gains the Furnace Fire effect.\nThis skill activates faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's Basic Attack or enhanced Basic Attack.\nWhen Koleda and Ben are both in your squad and this skill is activated after an enhanced Basic Attack, they team up to launch a coordinated attack, further increasing the power of the skill.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Natural Disaster\n\n When a Chain Attack is triggered, select the character to activate.\nUnleashes a powerful explosion on enemies in a large area, dealing massive Fire DMG while also obtaining the Furnace Fire effect.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Hammerquake\n\n When Decibel Rating is at Maximum, press to activate.\nUnleashes a powerful explosion on enemies in a large area in front, dealing massive Fire DMG while also obtaining the Furnace Fire effect.\nKoleda and Ben can team up when fighting together to launch a coordinated attack, further increasing the power of the attack.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Hammer Bell\n\n Press after a Defensive Assist to activate.\nKoleda charges and strikes enemies in front, dealing Fire DMG and obtaining Furnace Fire effect.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Protective Hammer\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Coming Thru!\n\n When the on-field character is launched, press to activate.\nStrikes enemies in front, dealing Fire DMG.\nCharacter is invulnerable during the attack.\n Multipliers\n\n Mindscapes\n M1\n Beat of the Hammer\n Mindscape 1\n\n After the 2nd or 4th hit of Koleda's Basic Attack or her enhanced Basic Attack, quickly use a Special Attack or EX Special Attack to increase the Daze dealt by 15% .\n\n M2\n Kinetic Recovery\n Mindscape 2\n\n When Koleda's EX Special Attack hits an enemy, she recovers 60 Energy. Can trigger once every 45s .\n\n M3\n Don’t Mess With Me!\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Furnace’s Glow\n Mindscape 4\n\n Koleda gains one stack of Charge (max 2 stacks) when consuming Furnace Fire to use her Enhanced Basic Attack. When her Chain Attack or Ultimate hits an enemy, she consumes all stacks of Charge to increase the attack's DMG by 18% per stack.\n\n M5\n You Dare Underestimate Me?\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Saturated Blast\n Mindscape 6\n\n When EX Special Attack, Chain Attack, or Ultimate triggers an explosion that hits an enemy, it deals additional DMG equal to 360% of Koleda's ATK.\n\n Stats (Level 60)\n Koleda Stats at level 60 (including Core passive bonuses).\n\n HP\n 8127\n\n DEF\n 594\n\n ATK\n 735\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 134\n\n Anomaly Mastery\n 97\n\n Anomaly Proficiency\n 96\n\n Energy Regen\n 1.2\n\n Voice Actors\n ENG\n -\n\n JPN\n Iguchi Yuka (井口 裕香)\n\n CN\n Mù Xuětíng (穆雪婷)\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Support\n T2\n Endgame Modes\n\n Pros & Cons\n Pros\n Gains temporary invincibility during the enhanced portions of her basic attack sequence allowing Koleda to ignore hits and finish her combo instead of dodging.\n\n Combining Koleda’s EX with an enhanced basic attack sequence delivers devastating amounts of daze.\n\n Gain’s empowered abilities when in a party with Ben changing and improving some of her kit.\n\n Additional ability (gained by having a Belobog or Fire teammate) is nice but not a dealbreaker to lose making Koleda feel fine to splash into team archetypes she doesn’t have direct synergy in (she can be used in every team without you feeling bad for losing something).\n\n Very easy to play to her full potential.\n\n Cons\n Has attack animations on the slower side with some attacks that lock her into completing them, sometimes causing Koleda to end up out of position unless you perform a character swap during them.\n\n Non-enhanced basic attacks feel lackluster compared to her EX-enhanced basic combo making her feel somewhat EX-reliant outside of parrying and dodge countering.\n\n Review\n Koleda review isn't available yet. It will be added soon!\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n The top number shows the performance of the W-Engine when applying Daze while the bottom number when dealing Damage .\n 100.00%\n 100.00%\n\n Hellfire Gears (S 1 )\n\n Koleda's Signature W-Engine is an incredible option for all Stun Agents that use their EX Special Attack at least somewhat regularly. Maintaining at least 1 stack of its buff consistently is expected, but its value only increases further at 2 stacks. Energy Regen, strong base stats and a great combat buff make this Engine a safe option on most Agents.\n Usage: 70.46 %\n Shiyu Defense: 28375\n Deadly Assault: 25547\n\n 97.18%\n 94.77%\n\n Precious Fossilized Core (S 5 )\n\n Amazing option for all Stun Agents, particularly in Deadly Assault due to its massive buffs to Daze that it gives against higher HP enemies which is exploited to its full potential in the gamemode, in a lot of cases even outperforming S-rank W-Engines despite being an F2P craftable. Unfortunately not as powerful in other endgame contents, but still a perfectly viable choice.\n Usage: 8.29 %\n Shiyu Defense: 28604\n Deadly Assault: 27390\n\n 91.96%\n 102.25%\n\n The Restrained (S 1 )\n\n Lycaon's Signature W-Engine is particularly interesting not only thanks to its high Basic Attack Daze increasing effect, but also due to its ability to increase Basic Attack damage at the same time. This leads to typically slightly lower Daze output while giving high damage as a trade-off. The more personal damage your Stun Agent deals, the higher the value of this W-Engine, but it is typically not preferred on most Stun Agents as they mostly want to deal Daze and this W-Engine is less specialized to do so than others.\n Usage: 1.58 %\n Shiyu Defense: 26233\n Deadly Assault: 27245\n\n Best Disk Drives Sets\n 1\n\n King of the Summit ( 4 -PC)\n\n New best Stun set, to be used on any Stun character in almost any team with very few exceptions. Gives 6% increased Daze on the 2-piece and up to 30% CRIT DMG for the entire squad for 15s when casting EX Specials and Chain Attacks on the condition that the equipper has 50% CRIT Rate or higher, a requirement which is easy to meet but must be ensured. Uptime on this buff is almost always easily maintained permanently, however be mindful this set will not be effective if you aren’t building the rest of your team on CRIT, in which case alternatives will be preferred, and that you cannot run this set multiple times on the same team.\n Best combined with your choice of 2-PC Set:\n 2P\n Shockstar Disco\n\n (Recommended)\n 2P\n Swing Jazz\n\n 2\n\n Astral Voice ( 4 -PC)\n\n Best generalist Support set, providing a useful 10% ATK on the 2-piece but most importantly buffing DMG dealt by characters entering the field via Quick Assists by upwards of 24%, the biggest buff provided by Disc Drives in the game. Generally a must-have set on any team, but be mindful of ensuring uptime on the buff.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Swing Jazz\n\n 3\n\n Proto Punk ( 4 -PC)\n\n Niche supportive set used for teams that are in the position of triggering Perfect Assists often. Grants the entire party 15% increased DMG for 10s when triggering a Perfect Assist. Typically used if an Astral Voice wielder is already on the team and the equipped Agent is in a position to trigger lots of Perfect Assists. This set's value is significantly diminished if the player isn't comfortable with timing Perfect Assists, in which case other sets will be favoured such as 4P Swing Jazz.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Shockstar Disco\n\n 2P\n Swing Jazz\n\n 4\n\n Shockstar Disco ( 4 -PC)\n\n Provides the highest Daze output of any Disk Drive set in the game. However, the difference between the 4-piece effect increase in Daze is marginal compared to simply using the 2-piece effect, meaning it almost always yields better results to use a supportive set like King of the Summit or Astral Voice to buff your team further, instead of the extra Daze which only gives extra Stun windows against bosses in very specific situations. If an extra Stun window is enabled by using this set it will perform the best, however this only very rarely happens, causing it to be left behind in favour of other sets.\n Best combined with your choice of 2-PC Set:\n 2P\n King of the Summit\n\n (Recommended)\n 2P\n Swing Jazz\n\n Best Disk Drives Stats\n Disk 4\n CRIT Rate% >= CRIT DMG%\n\n Disk 5\n Fire DMG% > ATK%\n\n Disk 6\n Impact\n\n Substats: CRIT RATE > CRIT DMG > ATK% > PEN = ATK\n\n Best Endgame Stats (Level 60)\n Impact: 166 - 190+\n\n ATK: 1700 - 2000+ (Optional)\n\n HP: 10000+\n\n DEF: 800+\n\n CRIT RATE: 50%+ (Needed for King of the Summit)\n\n CRIT DMG: 100% - 120%+ (Optional)\n\n Skill priority\n Special Attack\n\n Chain Attack\n\n Assist\n\n Basic Attack\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Koleda . The character can work with others if you know what to do and how to use them.\n\n Evelyn Soldier 11 - Koleda does a few things for both Soldier 11 and Evelyn. All characters activate each others' Additional Abilities which allows Koleda to boost Chain Attack DMG (especially relevant on Evelyn, but also exploitable on Soldier 11), and allows both units to deal extra damage. In addition, Koleda applies a lot of Daze very quickly, allowing for many Stun windows for the DPS units to exploit throughout battle. This makes Koleda a strong F2P choice for both Agents.\n Yixuan - Koleda buffs Yixuan's Chain Attacks via her Additional Ability and provides significant amounts of Daze, making her one of the best F2P options. Koleda unfortunately doesn't do much else for Yixuan, and since Chain Attacks only represent a minor part of Yixuan's damage, Koleda ends up outclassed by several premium options, however she remains a perfectly viable choice.\n Astra Yao Yuzuha Nicole Lucy - These 4 generalist units are capable of acting as Support for any team in the game. Astra Yao provides Quick Assists, extra Chain Attacks, healing, super low field time, ATK, DMG and CRIT DMG buffs which makes her the overall best choice in almost all cases. Yuzuha is the ultimate Anomaly buffer who also has awesome ATK and DMG% buffs applicable to any Agent as well, giving her strong general use potential; Nicole provides the sought-after DEF Shred and CRIT Rate at M6 which makes her competitive, and Lucy has long-lasting ATK buffs which makes her a very practical choice. All in all, these four can work with anyone.\n Manato - As one of the few Stunners whose Additional Ability works with Rupture Agents, Koleda is a decent pick, and they synergise surprisingly well. A significant portion of Manato’s damage comes from Chain Attacks, so Koleda’s buffs help him plenty, and her high Daze contribution means more frequent burst opportunities over the course of a fight.\n Yidhari - Yidhari likes to on-field, and Koleda’s strong EX Special, Assist Follow-Up and Dodge Counter daze build-up (all the while only consuming 1 Assist Point on parries) means she can have a quick-swap playstyle that affords Yidhari the time she needs to deal damage and build resources. At M2 and above, her daze build is so strong that it can enable different routing in certain fights, being a sub-optimal but comfortable teammate option.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Koleda in the current phase of Shiyu Defense.\n Rank 77\n App. rate: 0.24 %\n Avg. time: 26736\n\n Rank 87\n App. rate: 0.18 %\n Avg. time: 26210\n\n Rank 203\n App. rate: 0.03 %\n Avg. time: 28379\n\n Rank 305\n App. rate: 0.01 %\n Avg. time: 0\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Koleda in the current phase of Deadly Assault.\n Rank 68\n App. rate: 0.34 %\n Avg. score: 25020"
+}

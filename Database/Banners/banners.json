@@ -1,28 +1,28 @@
 {
-  "checkedAt": "2026-06-22T20:55:50.876Z",
-  "updated": "2026-06-22T20:55:50.876Z",
+  "checkedAt": "2026-06-24T06:11:35.293Z",
+  "updated": "2026-06-24T06:11:35.293Z",
   "games": [
     {
       "id": "hsr",
       "name": "Honkai: Star Rail",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-06-22T20:55:50.876Z",
-        "lastSuccessfulFetch": "2026-06-22T20:55:50.876Z",
+        "checkedAt": "2026-06-24T06:11:35.293Z",
+        "lastSuccessfulFetch": "2026-06-24T06:11:35.293Z",
         "source": "game8"
       },
       "current": {
         "phase": "4.3",
         "characters": [
           {
-            "name": "Mortenax Blade",
-            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1507.webp",
-            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1507.webp"
+            "name": "Cyrene",
+            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1415.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1415.webp"
           },
           {
-            "name": "Yao Guang",
-            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1502.webp",
-            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1502.webp"
+            "name": "Phainon",
+            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1408.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1408.webp"
           },
           {
             "name": "Gilgamesh",
@@ -35,25 +35,14 @@
             "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1508.webp"
           }
         ],
-        "end": "2026-06-24T16:00:00.000Z",
+        "end": "2026-07-14T16:00:00.000Z",
         "source": "game8"
       },
       "next": {
-        "phase": "4.3 Phase 2",
-        "characters": [
-          {
-            "name": "Cyrene",
-            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1415.webp",
-            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1415.webp"
-          },
-          {
-            "name": "Phainon",
-            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1408.webp",
-            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1408.webp"
-          }
-        ],
-        "start": "2026-06-24T16:00:00.000Z",
-        "end": "2026-07-14T16:00:00.000Z",
+        "phase": "4.4 Phase 1",
+        "characters": [],
+        "start": "2026-07-14T16:00:00.000Z",
+        "end": "2026-08-05T16:00:00.000Z",
         "source": "game8"
       },
       "upcoming": []
@@ -63,8 +52,8 @@
       "name": "Genshin Impact",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-06-22T20:55:50.876Z",
-        "lastSuccessfulFetch": "2026-06-22T20:55:50.876Z",
+        "checkedAt": "2026-06-24T06:11:35.293Z",
+        "lastSuccessfulFetch": "2026-06-24T06:11:35.293Z",
         "source": "game8"
       },
       "current": {
@@ -125,9 +114,9 @@
       "id": "wuwa",
       "name": "Wuthering Waves",
       "freshness": {
-        "status": "fresh",
-        "checkedAt": "2026-06-22T20:55:50.876Z",
-        "lastSuccessfulFetch": "2026-06-22T20:55:50.876Z",
+        "status": "unavailable",
+        "checkedAt": "2026-06-24T06:11:35.293Z",
+        "lastSuccessfulFetch": "2026-06-24T06:11:35.293Z",
         "source": "game8"
       },
       "current": {
@@ -163,8 +152,8 @@
       "name": "Zenless Zone Zero",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-06-22T20:55:50.876Z",
-        "lastSuccessfulFetch": "2026-06-22T20:55:50.876Z",
+        "checkedAt": "2026-06-24T06:11:35.293Z",
+        "lastSuccessfulFetch": "2026-06-24T06:11:35.293Z",
         "source": "game8"
       },
       "current": {
@@ -219,9 +208,9 @@
       "id": "endfield",
       "name": "Arknights: Endfield",
       "freshness": {
-        "status": "fresh",
-        "checkedAt": "2026-06-22T20:55:50.876Z",
-        "lastSuccessfulFetch": "2026-06-22T20:55:50.876Z",
+        "status": "unavailable",
+        "checkedAt": "2026-06-24T06:11:35.293Z",
+        "lastSuccessfulFetch": "2026-06-24T06:11:35.293Z",
         "source": "game8"
       },
       "current": {

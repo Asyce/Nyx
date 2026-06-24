@@ -27,6 +27,23 @@ jobs:
         with:
           lfs: true # Database/Nanoka/*/live/characters.json are LFS-tracked
 
+      # actions/checkout's LFS smudge intermittently leaves pointer files behind
+      # (a transient GitHub LFS hiccup). That makes the site build crash later on
+      # JSON.parse of a "version https://git-lfs..." pointer, half-deploying. Re-pull
+      # and verify the LFS-tracked rosters up front so a flaky checkout fails fast
+      # here (preserving the live last-known-good) instead of mid-build.
+      - name: Ensure LFS objects resolved
+        run: |
+          for i in 1 2 3; do
+            git lfs pull && break
+            echo "git lfs pull attempt $i failed; retrying" && sleep 5
+          done
+          for f in Database/Nanoka/hsr/live/characters.json Database/Nanoka/gi/live/characters.json; do
+            if head -c 40 "$f" | grep -q 'git-lfs'; then
+              echo "::error::$f is still an LFS pointer after git lfs pull"; exit 1
+            fi
+          done
+
       - uses: actions/setup-node@v4
         with:
           node-version: '20'

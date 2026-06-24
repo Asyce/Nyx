@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T08:43:13.491Z",
+  "generatedAt": "2026-06-24T09:51:15.618Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-06-24T08:43:13.491Z",
+      "lastSuccessfulFetch": "2026-06-24T09:51:15.618Z",
       "codes": [
         {
           "code": "MAGENICOLESPUZZLE",
@@ -85,7 +85,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-06-24T08:43:07.833Z",
+      "lastSuccessfulFetch": "2026-06-24T09:51:02.943Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -194,7 +194,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-06-24T08:43:04.633Z",
+      "lastSuccessfulFetch": "2026-06-24T09:51:06.893Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -250,7 +250,7 @@
       ],
       "review": {
         "reason": "1 Zenless Zone Zero code(s) held for review: held from an earlier run. Confirm legit ones in REVIEWED_CODES to publish.",
-        "detectedAt": "2026-06-24T08:43:04.633Z",
+        "detectedAt": "2026-06-24T09:51:06.893Z",
         "codes": [
           {
             "code": "BEYONDTHECLOUDS",
@@ -272,7 +272,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-06-24T08:43:06.227Z",
+      "lastSuccessfulFetch": "2026-06-24T09:51:08.493Z",
       "codes": []
     }
   ]

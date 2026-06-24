@@ -3,7 +3,7 @@
   "game": "hsr",
   "collection": "relic-sets",
   "sourcePath": "/star-rail/guides/relic-sets",
-  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "scrapedAt": "2026-06-24T08:40:50.596Z",
   "detailPagesTotal": 0,
   "detailPagesScraped": 0,
   "staleDetailPagesRemoved": 0,
@@ -166,20 +166,27 @@
       "fields": {
         "type": "PLANETARY ORNAMENT SET",
         "bonuses": [
-          "(2) When the wearer uses Follow-Up ATK, increases ATK by 24% for 2 turn(s). When an enemy target gets defeated, increases CRIT DMG for all allies by 12% in the current battle. This effect cannot stack.",
-          "(2) Increases Max HP by 12% .",
-          "(4) Increases the wearer's CRIT DMG dealt to enemy targets in the DEF reduction state by 28% . After the wearer inflicts the DEF reduction state on an enemy target, all allies gain \"Comburent\" for 2 turn(s). This effect cannot be stacked. The DMG dealt by ally targets with \"Comburent\" increases by 15% . This effect can be triggered again after the wearer uses an attack."
+          "(2) When the wearer uses Follow-Up ATK, increases ATK by 24% for 2 turn(s). When an enemy target gets defeated, increases CRIT DMG for all allies by 12% in the current battle. This effect cannot stack."
         ]
       },
-      "text": "City of Converging Stars\nType: PLANETARY ORNAMENT SET\n(2) When the wearer uses Follow-Up ATK, increases ATK by 24% for 2 turn(s). When an enemy target gets defeated, increases CRIT DMG for all allies by 12% in the current battle. This effect cannot stack.\nDivine-Querying Master Smith\n(2) Increases Max HP by 12% .\n(4) Increases the wearer's CRIT DMG dealt to enemy targets in the DEF reduction state by 28% . After the wearer inflicts the DEF reduction state on an enemy target, all allies gain \"Comburent\" for 2 turn(s). This effect cannot be stacked. The DMG dealt by ally targets with \"Comburent\" increases by 15% . This effect can be triggered again after the wearer uses an attack."
+      "text": "City of Converging Stars\nType: PLANETARY ORNAMENT SET\n(2) When the wearer uses Follow-Up ATK, increases ATK by 24% for 2 turn(s). When an enemy target gets defeated, increases CRIT DMG for all allies by 12% in the current battle. This effect cannot stack."
     },
     {
       "id": "divine-querying-master-smith",
       "name": "Divine-Querying Master Smith",
       "kind": "relics",
+      "contentStatus": "live",
+      "statusLabels": [],
       "art": "Prydwen/hsr/assets/relics/divine-querying-master-smith-441039825aff.webp",
       "assetId": "441039825aff",
-      "contentStatus": "live"
+      "fields": {
+        "type": "RELIC SET",
+        "bonuses": [
+          "(2) Increases Max HP by 12% .",
+          "(4) Increases the wearer's CRIT DMG dealt to enemy targets in the DEF reduction state by 28% . After the wearer inflicts the DEF reduction state on an enemy target, all allies gain \"Comburent\" for 2 turn(s). This effect cannot be stacked. The DMG dealt by ally targets with \"Comburent\" increases by 15% . This effect can be triggered again after the wearer uses an attack."
+        ]
+      },
+      "text": "Divine-Querying Master Smith\nType: RELIC SET\n(2) Increases Max HP by 12% .\n(4) Increases the wearer's CRIT DMG dealt to enemy targets in the DEF reduction state by 28% . After the wearer inflicts the DEF reduction state on an enemy target, all allies gain \"Comburent\" for 2 turn(s). This effect cannot be stacked. The DMG dealt by ally targets with \"Comburent\" increases by 15% . This effect can be triggered again after the wearer uses an attack."
     },
     {
       "id": "diviner-of-distant-reach",

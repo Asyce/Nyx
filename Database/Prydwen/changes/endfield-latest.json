@@ -1,210 +1,42 @@
 {
   "provider": "Prydwen",
   "game": "endfield",
-  "generatedAt": "2026-06-22T21:01:58.312Z",
+  "generatedAt": "2026-06-24T08:40:50.596Z",
   "summary": {
     "records": {
-      "added": 31,
+      "added": 0,
       "removed": 0,
-      "changed": 0,
-      "unchanged": 0
+      "changed": 3,
+      "unchanged": 28
     }
   },
   "sections": {
     "records": {
-      "added": [
-        {
-          "id": "characters:akekuri",
-          "name": "Akekuri",
-          "previousHash": null,
-          "currentHash": "d1b3f1ae8765949a6a9c52b452d7b27b2513c1ed35339d523d2b48f47df17570"
-        },
-        {
-          "id": "characters:alesh",
-          "name": "Alesh",
-          "previousHash": null,
-          "currentHash": "66f9bb764d93da5ed65bdf3ad641d90051becb691ecc48070d01399882fe48a0"
-        },
-        {
-          "id": "characters:antal",
-          "name": "Antal",
-          "previousHash": null,
-          "currentHash": "adbe0c859da619289e2562b807de9d6427cef784dd5f218e79826eeb40c95d43"
-        },
-        {
-          "id": "characters:arclight",
-          "name": "Arclight",
-          "previousHash": null,
-          "currentHash": "a8381e581b09b38a9c421ec737d040bf4e2fda1833dac71b4b5095d99592d691"
-        },
-        {
-          "id": "characters:ardelia",
-          "name": "Ardelia",
-          "previousHash": null,
-          "currentHash": "b29bf94e21342c9b3aeb06a30c6a91774260e167c8bedcdfff3b136f267fd1a0"
-        },
-        {
-          "id": "characters:avywenna",
-          "name": "Avywenna",
-          "previousHash": null,
-          "currentHash": "88c46d145bed6dc0f3024e19f5b59bc51cfc7f2ea4c5bc34bbbad8bbc819b6b4"
-        },
+      "added": [],
+      "removed": [],
+      "changed": [
         {
           "id": "characters:camille",
           "name": "Camille",
-          "previousHash": null,
-          "currentHash": "1f4aec35ce7781978435468cda038f4fd7f8970c561b8e3bef1b01681e596ac3"
-        },
-        {
-          "id": "characters:catcher",
-          "name": "Catcher",
-          "previousHash": null,
-          "currentHash": "c492426c625a35cb5a2e62b7c76e5550e1fb2a7b42e7f62e325b82672901f51f"
-        },
-        {
-          "id": "characters:chen-qianyu",
-          "name": "Chen Qianyu",
-          "previousHash": null,
-          "currentHash": "d650519ee11173bb6d5edc9032c1421a272a9f14123d62369dbdf8dc21958f95"
-        },
-        {
-          "id": "characters:da-pan",
-          "name": "Da Pan",
-          "previousHash": null,
-          "currentHash": "22d6dd4979f776b21d719f583e33d776ce38adf1915722ffda6e43a474f1d63d"
+          "previousHash": "1f4aec35ce7781978435468cda038f4fd7f8970c561b8e3bef1b01681e596ac3",
+          "currentHash": "5a99d1f73b795ea35658e65f5daceaecb3b45bdd4bba2f4151af8316f9f5ba08"
         },
         {
           "id": "characters:ember",
           "name": "Ember",
-          "previousHash": null,
-          "currentHash": "4506f333f4600909a5f771dd552ce120b339e10fd161fe856bb569a741c6d5c3"
-        },
-        {
-          "id": "characters:endministrator",
-          "name": "Endministrator",
-          "previousHash": null,
-          "currentHash": "cd06e5f8c9c2ab72c291b7463bef57111757c8e27a10fe05d16331416867b643"
-        },
-        {
-          "id": "characters:estella",
-          "name": "Estella",
-          "previousHash": null,
-          "currentHash": "989c884cdbd8ea0eae7e83db766e5c874214768c4fe5b0956a4b7f81e549c4a5"
-        },
-        {
-          "id": "characters:fluorite",
-          "name": "Fluorite",
-          "previousHash": null,
-          "currentHash": "3b11bf5d7a14f469dfae7fad75346aceadcbb06e8c9f3952635a3e822fd9e632"
-        },
-        {
-          "id": "characters:gilberta",
-          "name": "Gilberta",
-          "previousHash": null,
-          "currentHash": "55b22b6c5cc9c95b634c12450e4d43a8a547190b14a50f4af68934dc16c388e0"
-        },
-        {
-          "id": "characters:laevatain",
-          "name": "Laevatain",
-          "previousHash": null,
-          "currentHash": "52ec008b0f74f7279026cd6f1edae0719d9afd0e7ff6b03a76f28db92297758a"
+          "previousHash": "4506f333f4600909a5f771dd552ce120b339e10fd161fe856bb569a741c6d5c3",
+          "currentHash": "cc67fa676ef1a92bf0274c7c59bf002fa090bf9163c7cad501f172f726d100c3"
         },
         {
           "id": "characters:last-rite",
           "name": "Last Rite",
-          "previousHash": null,
-          "currentHash": "89efdde61cd83b9ca8557cb7eb8a70f4553307d164d0fbc97e4dbeb170730a10"
-        },
-        {
-          "id": "characters:lifeng",
-          "name": "Lifeng",
-          "previousHash": null,
-          "currentHash": "9862e55b9959fab9f7502b6799aa301b72fafd55a6548fc616325fb4fc531497"
-        },
-        {
-          "id": "characters:mi-fu",
-          "name": "Mi Fu",
-          "previousHash": null,
-          "currentHash": "a336dcb4324ec398de1cdd1c9a257c22b4b55511ddb166ca262d84c33aa475c2"
-        },
-        {
-          "id": "characters:perlica",
-          "name": "Perlica",
-          "previousHash": null,
-          "currentHash": "3f6e9548f5be8f2ae921cf31caa10b5e368339c7fd034ce83acd7ce0a028b1d6"
-        },
-        {
-          "id": "characters:pogranichnik",
-          "name": "Pogranichnik",
-          "previousHash": null,
-          "currentHash": "429bfde77e0bd308e927163681da62331ae2f207124e84aa57a86afaff2bd1a5"
-        },
-        {
-          "id": "characters:rossi",
-          "name": "Rossi",
-          "previousHash": null,
-          "currentHash": "e59268098077856128aa8d994768c52370169aff4b62fffd09a78d0a80f2857c"
-        },
-        {
-          "id": "characters:snowshine",
-          "name": "Snowshine",
-          "previousHash": null,
-          "currentHash": "4d334020f057a6af9d14f9acb5d0ab33d595c78e0d9b5c99644c59d76321068e"
-        },
-        {
-          "id": "characters:tangtang",
-          "name": "Tangtang",
-          "previousHash": null,
-          "currentHash": "2e6c936f47fe205d93b206ff5b4a962f32198a0d9d74d25b10eca0d9311d7cab"
-        },
-        {
-          "id": "characters:wulfgard",
-          "name": "Wulfgard",
-          "previousHash": null,
-          "currentHash": "b9b874ba4054353dd2307c7a379702433dab3f457eff5a024ef9981ec3557034"
-        },
-        {
-          "id": "characters:xaihi",
-          "name": "Xaihi",
-          "previousHash": null,
-          "currentHash": "445eb8bda5df227481578eb2c0981ac579099d877d8cfdc0078ce71a89a04dc1"
-        },
-        {
-          "id": "characters:yvonne",
-          "name": "Yvonne",
-          "previousHash": null,
-          "currentHash": "4d606aaaecefe57638634848252960b7c587df245aef351e7f914064a3cedbe9"
-        },
-        {
-          "id": "characters:zhuang-fangyi",
-          "name": "Zhuang Fangyi",
-          "previousHash": null,
-          "currentHash": "ebeaae706fa08b82fe07ab1b01041b6cd51c5502686173231155df45305f56d5"
-        },
-        {
-          "id": "collection:characters",
-          "name": "Arknights: Endfield Characters Build Guides",
-          "previousHash": null,
-          "currentHash": "57e809281cccc783edb96f77d6b6ab5d7a968e0240d86805856d0e333da3b8f9"
-        },
-        {
-          "id": "collection:gear",
-          "name": "Arknights: Endfield Gear List",
-          "previousHash": null,
-          "currentHash": "491b0dfa11dd9d9f4441c64a67a7218d6bc63157ec2efb4272a198d4e262d008"
-        },
-        {
-          "id": "collection:weapons",
-          "name": "Arknights: Endfield Weapons List",
-          "previousHash": null,
-          "currentHash": "8a6282885e6e823c085721ebefd74f71a6362f54b0561a9a4e3113f546eec512"
+          "previousHash": "89efdde61cd83b9ca8557cb7eb8a70f4553307d164d0fbc97e4dbeb170730a10",
+          "currentHash": "9de6ea72bbfca1c99a98345e05eb73919b92997b1ae9c99a4be98268925fe9d9"
         }
       ],
-      "removed": [],
-      "changed": [],
-      "unchanged": 0,
+      "unchanged": 28,
       "totals": {
-        "previous": 0,
+        "previous": 31,
         "current": 31
       }
     }

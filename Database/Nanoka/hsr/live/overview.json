@@ -5,14 +5,15 @@
   "channel": "live",
   "version": "4.3",
   "liveVersion": "4.3",
-  "betaVersion": "4.3.53",
+  "betaVersion": "4.3.54",
   "availableVersions": [
     "4.3",
     "4.3.51",
     "4.3.52",
-    "4.3.53"
+    "4.3.53",
+    "4.3.54"
   ],
-  "scrapedAt": "2026-06-22T20:59:09.732Z",
+  "scrapedAt": "2026-06-24T08:39:21.027Z",
   "counts": {
     "characters": 92,
     "lightcones": 162,

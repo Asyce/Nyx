@@ -2,7 +2,7 @@
   "provider": "Prydwen",
   "game": "endfield",
   "gameName": "Arknights: Endfield",
-  "scrapedAt": "2026-06-22T21:01:58.312Z",
+  "scrapedAt": "2026-06-24T08:40:50.596Z",
   "sample": null,
   "source": {
     "site": "prydwen.gg",
@@ -25,8 +25,8 @@
   },
   "assets": {
     "requested": 286,
-    "downloaded": 106,
-    "cached": 180,
+    "downloaded": 0,
+    "cached": 286,
     "missing": 0
   },
   "errors": [],

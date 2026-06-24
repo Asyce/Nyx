@@ -1401,7 +1401,7 @@
     "atk": 635,
     "ko": "별이 밤하늘을 밝힐 때",
     "zh": "当一颗星照亮夜空",
-    "ja": "{RUBY_B#よ}夜{RUBY_E#}を{RUBY_B#て}照{RUBY_E#}らす{RUBY_B#みちび}導{RUBY_E#}きの{RUBY_B#ほし}星{RUBY_E#}"
+    "ja": "{RUBY_B#よる}夜{RUBY_E#}を{RUBY_B#て}照{RUBY_E#}らす{RUBY_B#みちび}導{RUBY_E#}きの{RUBY_B#ほし}星{RUBY_E#}"
   },
   "23061": {
     "rank": "CombatPowerLightconeRarity5",

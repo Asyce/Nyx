@@ -3,16 +3,17 @@
   "game": "hsr",
   "gameName": "Honkai: Star Rail",
   "channel": "beta",
-  "version": "4.3.53",
+  "version": "4.3.54",
   "liveVersion": "4.3",
-  "betaVersion": "4.3.53",
+  "betaVersion": "4.3.54",
   "availableVersions": [
     "4.3",
     "4.3.51",
     "4.3.52",
-    "4.3.53"
+    "4.3.53",
+    "4.3.54"
   ],
-  "scrapedAt": "2026-06-22T20:59:22.635Z",
+  "scrapedAt": "2026-06-24T08:39:28.158Z",
   "counts": {
     "characters": 95,
     "lightcones": 165,

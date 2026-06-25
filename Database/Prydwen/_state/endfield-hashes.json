@@ -1,6 +1,6 @@
 {
   "game": "endfield",
-  "updatedAt": "2026-06-24T08:40:50.596Z",
+  "updatedAt": "2026-06-25T08:37:00.342Z",
   "hashes": {
     "records": {
       "characters:akekuri": "d1b3f1ae8765949a6a9c52b452d7b27b2513c1ed35339d523d2b48f47df17570",
@@ -9,7 +9,7 @@
       "characters:arclight": "a8381e581b09b38a9c421ec737d040bf4e2fda1833dac71b4b5095d99592d691",
       "characters:ardelia": "b29bf94e21342c9b3aeb06a30c6a91774260e167c8bedcdfff3b136f267fd1a0",
       "characters:avywenna": "88c46d145bed6dc0f3024e19f5b59bc51cfc7f2ea4c5bc34bbbad8bbc819b6b4",
-      "characters:camille": "5a99d1f73b795ea35658e65f5daceaecb3b45bdd4bba2f4151af8316f9f5ba08",
+      "characters:camille": "1f4aec35ce7781978435468cda038f4fd7f8970c561b8e3bef1b01681e596ac3",
       "characters:catcher": "c492426c625a35cb5a2e62b7c76e5550e1fb2a7b42e7f62e325b82672901f51f",
       "characters:chen-qianyu": "d650519ee11173bb6d5edc9032c1421a272a9f14123d62369dbdf8dc21958f95",
       "characters:da-pan": "22d6dd4979f776b21d719f583e33d776ce38adf1915722ffda6e43a474f1d63d",
@@ -19,7 +19,7 @@
       "characters:fluorite": "3b11bf5d7a14f469dfae7fad75346aceadcbb06e8c9f3952635a3e822fd9e632",
       "characters:gilberta": "55b22b6c5cc9c95b634c12450e4d43a8a547190b14a50f4af68934dc16c388e0",
       "characters:laevatain": "52ec008b0f74f7279026cd6f1edae0719d9afd0e7ff6b03a76f28db92297758a",
-      "characters:last-rite": "9de6ea72bbfca1c99a98345e05eb73919b92997b1ae9c99a4be98268925fe9d9",
+      "characters:last-rite": "89efdde61cd83b9ca8557cb7eb8a70f4553307d164d0fbc97e4dbeb170730a10",
       "characters:lifeng": "9862e55b9959fab9f7502b6799aa301b72fafd55a6548fc616325fb4fc531497",
       "characters:mi-fu": "a336dcb4324ec398de1cdd1c9a257c22b4b55511ddb166ca262d84c33aa475c2",
       "characters:perlica": "3f6e9548f5be8f2ae921cf31caa10b5e368339c7fd034ce83acd7ce0a028b1d6",

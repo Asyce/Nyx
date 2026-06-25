@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "hsr",
-  "generatedAt": "2026-06-24T08:40:50.596Z",
+  "generatedAt": "2026-06-25T08:37:00.342Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 9,
-      "unchanged": 84
+      "changed": 5,
+      "unchanged": 88
     }
   },
   "sections": {
@@ -16,61 +16,37 @@
       "removed": [],
       "changed": [
         {
-          "id": "characters:argenti",
-          "name": "Argenti",
-          "previousHash": "3f8c95b8ede533891cf54c6efeb154608c8caff41eac4c481a2a39f082113c09",
-          "currentHash": "c50f655f6c8afd2e6a1313f16b333b4356416c7864f06496d2dab957b1d60e7a"
+          "id": "characters:dan-heng",
+          "name": "Dan Heng",
+          "previousHash": "91293dcbe1b56b30271e3ea0c15efb147706cc0bb8dba0476fd81ecfb8ba6d80",
+          "currentHash": "c8e1f52d3d675db12c7f92301b37596da5ec73482301f5d6ad2d911f837265c1"
         },
         {
-          "id": "characters:himeko-nova",
-          "name": "Himeko Nova",
-          "previousHash": "c405d913bead62c769157b1a6592341172ae21ca60920c0ed933e436908b6ef0",
-          "currentHash": "eb0e2ef3bf6d1d781566043f8dc1c69f94a30ee824df13a6aebe4c658087bdb1"
-        },
-        {
-          "id": "characters:kafka",
-          "name": "Kafka",
-          "previousHash": "5607296296088b2b94bd234a305c7c21784a63dbe3c65c6147ddc71b37e5b8a3",
-          "currentHash": "549f9d5826e4b07fb4a69d0e3b10b38dcc871c9d62bbf07f1444dc92debe3472"
+          "id": "characters:evanescia",
+          "name": "Evanescia",
+          "previousHash": "db6c0afbdecfcf3a329a0e676f8e34bbbdb9ac5c5892ab2c68462c362f30fb58",
+          "currentHash": "39f470d4475a1413c2a47a0e22008d40dbc0063bc25162bfae8aa70e794415fa"
         },
         {
           "id": "characters:moze",
           "name": "Moze",
-          "previousHash": "e80127314bc6d4a3c8f907fb8e60a506f53b254fe0d3cb1c0bf4f544cdd5db1d",
-          "currentHash": "11c59d6cc4e0e182e1f9c78a62537092864ec08d75e8c31bfb1bb12d6b29a048"
+          "previousHash": "11c59d6cc4e0e182e1f9c78a62537092864ec08d75e8c31bfb1bb12d6b29a048",
+          "currentHash": "e80127314bc6d4a3c8f907fb8e60a506f53b254fe0d3cb1c0bf4f544cdd5db1d"
         },
         {
           "id": "characters:pela",
           "name": "Pela",
-          "previousHash": "a50bfc1d3a1a1d185e57ae3944714016a849336a994e0223b50141502c4c1df4",
-          "currentHash": "ed891978d06c51faf3e4fdf934e6dc6a2da66ea74dfa64ffa3a00c978c3804e6"
-        },
-        {
-          "id": "characters:serval",
-          "name": "Serval",
-          "previousHash": "0bd7fefa146312d05dbbb3b88d401a883de8e1223ade99d81a2a75a6eab797e9",
-          "currentHash": "a8729bcf5987d043505749947ce6b9157009a348ba3ff2ac915c8e8077b4ba85"
+          "previousHash": "ed891978d06c51faf3e4fdf934e6dc6a2da66ea74dfa64ffa3a00c978c3804e6",
+          "currentHash": "a50bfc1d3a1a1d185e57ae3944714016a849336a994e0223b50141502c4c1df4"
         },
         {
           "id": "characters:tingyun",
           "name": "Tingyun",
-          "previousHash": "505158aee4902bf6ab4653d89a03b2340b0e5942b314b82cb4c641ad99916e24",
-          "currentHash": "f5f9d44ee9c3db20bd7934a2ab019738cc6a654467a0c1602506c9b3fecbfa31"
-        },
-        {
-          "id": "collection:characters",
-          "name": "Honkai Star Rail Characters & Build Guides",
-          "previousHash": "e288cabbaee211783000f4151b3b8abdd223a521e85d64841d85875f29da6a26",
-          "currentHash": "7bb6ab93aac88ec8984056549efc3e1166e210f2f3fc4d6e51d5cd2a335660ec"
-        },
-        {
-          "id": "collection:relic-sets",
-          "name": "Honkai: Star Rail Relic Sets",
-          "previousHash": "7ff8ace343b00cceee355f6654c3476c6810fc6e2843ea35183cbd4d68627f25",
-          "currentHash": "330b404cd6f29c988f7a50c1612611b599c2b28af4b4f3aa0ac98f772a583dae"
+          "previousHash": "f5f9d44ee9c3db20bd7934a2ab019738cc6a654467a0c1602506c9b3fecbfa31",
+          "currentHash": "505158aee4902bf6ab4653d89a03b2340b0e5942b314b82cb4c641ad99916e24"
         }
       ],
-      "unchanged": 84,
+      "unchanged": 88,
       "totals": {
         "previous": 93,
         "current": 93

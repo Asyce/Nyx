@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "endfield",
-  "generatedAt": "2026-06-24T08:40:50.596Z",
+  "generatedAt": "2026-06-25T08:37:00.342Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 3,
-      "unchanged": 28
+      "changed": 2,
+      "unchanged": 29
     }
   },
   "sections": {
@@ -18,23 +18,17 @@
         {
           "id": "characters:camille",
           "name": "Camille",
-          "previousHash": "1f4aec35ce7781978435468cda038f4fd7f8970c561b8e3bef1b01681e596ac3",
-          "currentHash": "5a99d1f73b795ea35658e65f5daceaecb3b45bdd4bba2f4151af8316f9f5ba08"
-        },
-        {
-          "id": "characters:ember",
-          "name": "Ember",
-          "previousHash": "4506f333f4600909a5f771dd552ce120b339e10fd161fe856bb569a741c6d5c3",
-          "currentHash": "cc67fa676ef1a92bf0274c7c59bf002fa090bf9163c7cad501f172f726d100c3"
+          "previousHash": "5a99d1f73b795ea35658e65f5daceaecb3b45bdd4bba2f4151af8316f9f5ba08",
+          "currentHash": "1f4aec35ce7781978435468cda038f4fd7f8970c561b8e3bef1b01681e596ac3"
         },
         {
           "id": "characters:last-rite",
           "name": "Last Rite",
-          "previousHash": "89efdde61cd83b9ca8557cb7eb8a70f4553307d164d0fbc97e4dbeb170730a10",
-          "currentHash": "9de6ea72bbfca1c99a98345e05eb73919b92997b1ae9c99a4be98268925fe9d9"
+          "previousHash": "9de6ea72bbfca1c99a98345e05eb73919b92997b1ae9c99a4be98268925fe9d9",
+          "currentHash": "89efdde61cd83b9ca8557cb7eb8a70f4553307d164d0fbc97e4dbeb170730a10"
         }
       ],
-      "unchanged": 28,
+      "unchanged": 29,
       "totals": {
         "previous": 31,
         "current": 31

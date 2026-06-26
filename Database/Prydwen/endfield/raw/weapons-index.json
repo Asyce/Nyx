@@ -3,7 +3,7 @@
   "game": "endfield",
   "collection": "weapons",
   "sourcePath": "/arknights-endfield/weapons",
-  "scrapedAt": "2026-06-25T08:37:00.342Z",
+  "scrapedAt": "2026-06-26T08:40:51.613Z",
   "detailPagesTotal": 0,
   "detailPagesScraped": 0,
   "staleDetailPagesRemoved": 0,
@@ -109,10 +109,10 @@
         "type": "Polearm",
         "baseAtk": "485",
         "agility": "+ 156",
-        "ultimateGainEff": "+ 46%",
+        "ultimateGainEff": "+ 46.40%",
         "heatDmgBonus": "+ 11.20%"
       },
-      "text": "Beacon of Duty\nRarity: 6 ✦\nType: Polearm\nBase ATK: 485\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nUltimate Gain Eff. : + 46%\nPassive Boost - 4/9\nHeat DMG Bonus : + 11.20%\nWhen the wielder's skill applies Heat Infliction , the wielder gains Physical and Heat DMG Dealt +12.8% for 20s . When the wielder's skill applies Heat Susceptibility , the entire team gains Physical and Heat DMG Dealt +11.2% for 30s .\nShow Effects"
+      "text": "Beacon of Duty\nRarity: 6 ✦\nType: Polearm\nBase ATK: 485\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nUltimate Gain Eff. : + 46.40%\nPassive Boost - 4/9\nHeat DMG Bonus : + 11.20%\nWhen the wielder's skill applies Heat Infliction , the wielder gains Physical and Heat DMG Dealt +12.8% for 20s . When the wielder's skill applies Heat Susceptibility , the entire team gains Physical and Heat DMG Dealt +6.4% for 30s .\nShow Effects"
     },
     {
       "id": "blessing-of-lustrous-carmine",
@@ -125,9 +125,12 @@
       "fields": {
         "rarity": "6 ✦",
         "type": "Polearm",
-        "baseAtk": "0"
+        "baseAtk": "500",
+        "agility": "+ 156",
+        "heatDmgBonus": "+ 43.30%",
+        "ultimateGainEff": "+ 28.80%"
       },
-      "text": "Blessing of Lustrous Carmine\nRarity: 6 ✦\nType: Polearm\nBase ATK: 0\nStat 1 Boost - 9/9\n: +\nPassive Boost - 4/9"
+      "text": "Blessing of Lustrous Carmine\nRarity: 6 ✦\nType: Polearm\nBase ATK: 500\nStat 1 Boost - 9/9\nAgility : + 156\nStat 2 Boost - 9/9\nHeat DMG Bonus : + 43.30%\nPassive Boost - 4/9\nUltimate Gain Eff. : + 28.80%\nWhen the wielder’s skill recovers SP, the entire team gains ATK +9.6% for 20s . When the wielder’s skill applies Heat Infliction , the entire team gains Heat DMG Dealt +9.6% for 20s .\nThe two effects apply separately and do not stack with themselves."
     },
     {
       "id": "brigands-calling",

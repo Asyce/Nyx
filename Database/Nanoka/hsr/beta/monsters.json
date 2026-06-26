@@ -4185,12 +4185,12 @@
   },
   {
     "id": "4062010",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Ichor Memosprite: Pheasant",
-    "description": "A distorted monster formed from the Garden of Recollection's memetic lifeform by the Destruction using golden ichor. It has begun to take the shape of a bird.\\nIt is both raucous and always moves in cohesive groups, showing that even with humanity evaporated, its instinct of following the Destruction manifests in this manner.",
+    "description": "A distorted monster born from the fusing of a memetic lifeform from the Garden of Recollection and the golden ichor of \"Destruction.\" It has begun to take the shape of a bird.\\nIt is both raucous and always moves in cohesive groups, showing that even with humanity evaporated, its instinct of following the Destruction manifests in this manner.",
     "liveComparison": {
       "liveHash": "1b925eaed740ab04d8601d95b48a240402e46f1f8a99d2328530e1651d2bd075",
-      "currentHash": "1b925eaed740ab04d8601d95b48a240402e46f1f8a99d2328530e1651d2bd075"
+      "currentHash": "85ac1a81ac4d619c0729dca13f55756967d59f2f9138a7ba45bc55b5a6313e7f"
     }
   },
   {
@@ -4207,9 +4207,9 @@
     "id": "4062021",
     "contentStatus": "beta",
     "name": "Avenger Squad: Canine",
-    "description": "A distorted monster formed from the Garden of Recollection's memetic lifeform by the Destruction using golden ichor. It has begun to take the shape of a dog.\\nIt is aggressive, showing that even with humanity evaporated, its instinct of following the Destruction manifests in this manner.",
+    "description": "A distorted monster born from the fusing of a memetic lifeform from the Garden of Recollection and the golden ichor of \"Destruction.\" It has begun to take the shape of a dog.\\nIt is aggressive, showing that even with humanity evaporated, its instinct of following the Destruction manifests in this manner.",
     "liveComparison": {
-      "currentHash": "ff72fc37a925f4a536ba4a57f24008ae7d311b93290adc470c8b0663622b80e8"
+      "currentHash": "e4e3d501955a7b98c80cdd0cf7fac6c4eb066228257946e1573ceefe8352e8d9"
     }
   },
   {
@@ -4224,21 +4224,21 @@
   },
   {
     "id": "4063011",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Ichor Memosprite: Winged Serpent (Bug)",
-    "description": "A false projection produced by compromised codes. The referenced entity is Ichor Memosprite: Winged Serpent, a distorted monster formed from the Garden of Recollection's memetic lifeform by the Destruction using golden ichor. It is in the rudimentary form of a flying snake, enough to intimidate its assailants.\\nIts twisted rationality went completely mad in the black tide, and that intense self-defense impulse imperceptibly took on a fantastical hue.",
+    "description": "A false projection produced by compromised codes. The referenced entity is Ichor Memosprite: Winged Serpent, a distorted monster born from the fusing of a memetic lifeform from the Garden of Recollection and the golden ichor of \"Destruction.\" It is in the rudimentary form of a flying snake, enough to intimidate its assailants.\\nIts twisted rationality went completely mad in the black tide, and that intense self-defense impulse imperceptibly took on a fantastical hue.",
     "liveComparison": {
       "liveHash": "3ff810524a485679cd109237a274698dbc2a4558fbd0a330286493604f5c4adc",
-      "currentHash": "3ff810524a485679cd109237a274698dbc2a4558fbd0a330286493604f5c4adc"
+      "currentHash": "61eafc9d61a7b391b701f78bac42a1681edd647681df9aadfb5064fb4185018b"
     }
   },
   {
     "id": "4063012",
     "contentStatus": "beta",
     "name": "Avenger Squad: Winged Serpent",
-    "description": "A distorted monster formed from the Garden of Recollection's memetic lifeform by the Destruction using golden ichor. It is in the rudimentary form of a flying snake, enough to intimidate its assailants.\\nIts twisted rationality went completely mad in the black tide, and that intense self-defense impulse imperceptibly took on a fantastical hue.",
+    "description": "A distorted monster born from the fusing of a memetic lifeform from the Garden of Recollection and the golden ichor of \"Destruction.\" It is in the rudimentary form of a flying snake, enough to intimidate its assailants.\\nIts twisted rationality went completely mad in the black tide, and that intense self-defense impulse imperceptibly took on a fantastical hue.",
     "liveComparison": {
-      "currentHash": "d71e5d8d938407a8e94f53a7913cb25f8510e4de3af74aa6d1ffc7f629cfb5ec"
+      "currentHash": "6e2cd3f48a6df13125adf0ebb09a24d06db4fbf5e8ce24a40a6eb35535c5aa22"
     }
   },
   {

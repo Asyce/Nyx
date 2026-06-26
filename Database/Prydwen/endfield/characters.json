@@ -170,11 +170,11 @@
     "name": "Camille",
     "slug": "camille",
     "sourcePath": "/arknights-endfield/characters/camille",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "statusLabels": [
-      "Soon"
+      "New"
     ],
-    "updatedText": "20/June/2026",
+    "updatedText": "26/June/2026",
     "facts": {
       "rarity": 6,
       "weapon": "Polearm",
@@ -515,10 +515,8 @@
     "slug": "mi-fu",
     "sourcePath": "/arknights-endfield/characters/mi-fu",
     "contentStatus": "live",
-    "statusLabels": [
-      "New"
-    ],
-    "updatedText": "05/June/2026",
+    "statusLabels": [],
+    "updatedText": "26/June/2026",
     "facts": {
       "rarity": 6,
       "weapon": "Greatsword",

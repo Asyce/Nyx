@@ -4593,7 +4593,7 @@
     "desc": "An artist playing the role of the prisoner in the Sweet Dreams Troupe. It should be performing in the Charmony Festival, but it is now bound by Order and keeps performing scenes of the \"Past.\" The past is an immortal chain, its tranquil flame igniting within a cage, beckoning the jailer's authority with mere candlelight.",
     "ko": "벌크 영웅왕",
     "zh": "散装英雄王",
-    "ja": "エセ英雄王"
+    "ja": "偽物の英雄王"
   },
   "3003040": {
     "rank": "Elite",
@@ -4689,7 +4689,7 @@
     "desc": "A musician responsible for playing the harmonious tune in the Sweet Dreams Troupe. It should be playing in the Charmony Festival, but it is now bound by Order and keeps performing scenes of the \"Future.\" The future is an eternal ballad, a vision of happiness strung together, calling to the composing sovereign with the melody of a harp.",
     "ko": "벌크 영웅왕",
     "zh": "散装英雄王",
-    "ja": "エセ英雄王"
+    "ja": "偽物の英雄王"
   },
   "3003050": {
     "rank": "Elite",
@@ -4793,7 +4793,7 @@
     "desc": "A waiter responsible for entertaining the guests in the Sweet Dreams Troupe. It should be serving in the Charmony Festival, but it is now bound by Order and keeps performing scenes of the \"Present.\" The present is a feast lasting through the night, desire for joy rippling in each cup, offering fine brews to the host who sets the banquet.",
     "ko": "벌크 영웅왕",
     "zh": "散装英雄王",
-    "ja": "エセ英雄王"
+    "ja": "偽物の英雄王"
   },
   "3004010": {
     "rank": "LittleBoss",
@@ -8479,7 +8479,7 @@
       "Fire"
     ],
     "en": "Ichor Memosprite: Pheasant",
-    "desc": "A distorted monster formed from the Garden of Recollection's memetic lifeform by the Destruction using golden ichor. It has begun to take the shape of a bird.\\nIt is both raucous and always moves in cohesive groups, showing that even with humanity evaporated, its instinct of following the Destruction manifests in this manner.",
+    "desc": "A distorted monster born from the fusing of a memetic lifeform from the Garden of Recollection and the golden ichor of \"Destruction.\" It has begun to take the shape of a bird.\\nIt is both raucous and always moves in cohesive groups, showing that even with humanity evaporated, its instinct of following the Destruction manifests in this manner.",
     "ko": "황금 피 기억 정령•꿩 형태",
     "zh": "金血忆灵•雉形",
     "ja": "{RUBY_B#おうごん}黄金{RUBY_E#}の{RUBY_B#ち}血{RUBY_E#}の{RUBY_B#きおく}記憶{RUBY_E#}の{RUBY_B#せいれい}精霊{RUBY_E#}・パーシアーノス"
@@ -8518,7 +8518,7 @@
       "Imaginary"
     ],
     "en": "Avenger Squad: Canine",
-    "desc": "A distorted monster formed from the Garden of Recollection's memetic lifeform by the Destruction using golden ichor. It has begun to take the shape of a dog.\\nIt is aggressive, showing that even with humanity evaporated, its instinct of following the Destruction manifests in this manner.",
+    "desc": "A distorted monster born from the fusing of a memetic lifeform from the Garden of Recollection and the golden ichor of \"Destruction.\" It has begun to take the shape of a dog.\\nIt is aggressive, showing that even with humanity evaporated, its instinct of following the Destruction manifests in this manner.",
     "ko": "리벤저 전대•개 형태",
     "zh": "复仇者战队•犬形",
     "ja": "リベンジャーズ・キュオーン"
@@ -8560,7 +8560,7 @@
       "Ice"
     ],
     "en": "Ichor Memosprite: Winged Serpent (Bug)",
-    "desc": "A false projection produced by compromised codes. The referenced entity is Ichor Memosprite: Winged Serpent, a distorted monster formed from the Garden of Recollection's memetic lifeform by the Destruction using golden ichor. It is in the rudimentary form of a flying snake, enough to intimidate its assailants.\\nIts twisted rationality went completely mad in the black tide, and that intense self-defense impulse imperceptibly took on a fantastical hue.",
+    "desc": "A false projection produced by compromised codes. The referenced entity is Ichor Memosprite: Winged Serpent, a distorted monster born from the fusing of a memetic lifeform from the Garden of Recollection and the golden ichor of \"Destruction.\" It is in the rudimentary form of a flying snake, enough to intimidate its assailants.\\nIts twisted rationality went completely mad in the black tide, and that intense self-defense impulse imperceptibly took on a fantastical hue.",
     "ko": "황금 피 기억 정령•날개 뱀 형태(오류)",
     "zh": "金血忆灵•翼蛇形（错误）",
     "ja": "黄金の血の記憶の精霊・オフィス（バグ）"
@@ -8578,7 +8578,7 @@
       "Ice"
     ],
     "en": "Avenger Squad: Winged Serpent",
-    "desc": "A distorted monster formed from the Garden of Recollection's memetic lifeform by the Destruction using golden ichor. It is in the rudimentary form of a flying snake, enough to intimidate its assailants.\\nIts twisted rationality went completely mad in the black tide, and that intense self-defense impulse imperceptibly took on a fantastical hue.",
+    "desc": "A distorted monster born from the fusing of a memetic lifeform from the Garden of Recollection and the golden ichor of \"Destruction.\" It is in the rudimentary form of a flying snake, enough to intimidate its assailants.\\nIts twisted rationality went completely mad in the black tide, and that intense self-defense impulse imperceptibly took on a fantastical hue.",
     "ko": "리벤저 전대•날개 뱀 형태",
     "zh": "复仇者战队•翼蛇形",
     "ja": "リベンジャーズ・オフィス"

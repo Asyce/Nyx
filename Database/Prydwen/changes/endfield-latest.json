@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "endfield",
-  "generatedAt": "2026-06-25T08:37:00.342Z",
+  "generatedAt": "2026-06-26T08:40:51.613Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 2,
-      "unchanged": 29
+      "changed": 4,
+      "unchanged": 27
     }
   },
   "sections": {
@@ -18,17 +18,29 @@
         {
           "id": "characters:camille",
           "name": "Camille",
-          "previousHash": "5a99d1f73b795ea35658e65f5daceaecb3b45bdd4bba2f4151af8316f9f5ba08",
-          "currentHash": "1f4aec35ce7781978435468cda038f4fd7f8970c561b8e3bef1b01681e596ac3"
+          "previousHash": "1f4aec35ce7781978435468cda038f4fd7f8970c561b8e3bef1b01681e596ac3",
+          "currentHash": "e9fef506b4e3de8bbd84dd975f364cbb7090d7185db823990a2035fe333651d6"
         },
         {
-          "id": "characters:last-rite",
-          "name": "Last Rite",
-          "previousHash": "9de6ea72bbfca1c99a98345e05eb73919b92997b1ae9c99a4be98268925fe9d9",
-          "currentHash": "89efdde61cd83b9ca8557cb7eb8a70f4553307d164d0fbc97e4dbeb170730a10"
+          "id": "characters:mi-fu",
+          "name": "Mi Fu",
+          "previousHash": "a336dcb4324ec398de1cdd1c9a257c22b4b55511ddb166ca262d84c33aa475c2",
+          "currentHash": "c0d8c44ebe02b6c5f7d7cd22a4b62798bb9617f49902333cc80a8e80bfe32c00"
+        },
+        {
+          "id": "collection:characters",
+          "name": "Arknights: Endfield Characters Build Guides",
+          "previousHash": "57e809281cccc783edb96f77d6b6ab5d7a968e0240d86805856d0e333da3b8f9",
+          "currentHash": "fd6a8bb539ec40a9c5b1444cac1acacba29241a465f18d02b556cab2a2eee25d"
+        },
+        {
+          "id": "collection:weapons",
+          "name": "Arknights: Endfield Weapons List",
+          "previousHash": "8a6282885e6e823c085721ebefd74f71a6362f54b0561a9a4e3113f546eec512",
+          "currentHash": "3abeddced8870afe5eab3026e3fe90560f63b154fb0fa76df11c0c82a426d7c7"
         }
       ],
-      "unchanged": 29,
+      "unchanged": 27,
       "totals": {
         "previous": 31,
         "current": 31

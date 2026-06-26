@@ -852,7 +852,7 @@
     "150809": {
       "id": 150809,
       "name": "Second Magic Experiment",
-      "desc": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Rin Tohsaka's ATK to all enemies. Then, consumes <unbreak>#2[i]</unbreak> point(s) of \"Gem Energy\" to deal additional Quantum DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than <unbreak>#2[i]</unbreak> or there are no enemy targets with current HP greater than 0, up to a maximum of <unbreak>#6[i]</unbreak> time(s). When used, if current Skill Points are greater than <unbreak>#4[i]</unbreak>, consumes Skill Points until <unbreak>#4[i]</unbreak> left, immediately gaining <unbreak>#5[i]</unbreak> point(s) of \"Gem Energy\" for every 1 Skill Point consumed.",
+      "desc": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Rin Tohsaka's ATK to all enemies. Then, consumes <unbreak>#2[i]</unbreak> point(s) of \"Gem Energy\" to deal additional Quantum DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than <unbreak>#2[i]</unbreak> or there are no enemy targets with current HP greater than 0, up to a maximum of <unbreak>#6[i]</unbreak> time(s). When used, if current Skill Points are greater than <unbreak>#4[i]</unbreak>, consumes Skill Points until there are <unbreak>#4[i]</unbreak> point(s) left, immediately gaining <unbreak>#5[i]</unbreak> point(s) of \"Gem Energy\" for every 1 Skill Point consumed.",
       "simple_desc": "Deals minor Quantum DMG to all enemies, then <color=#f29e38ff>consumes \"Gem Energy\"</color> to additionally deal minor Quantum DMG to one random enemy target a certain number of times. When using this ability, if current Skill Points are greater than <color=#f29e38ff><unbreak>#4[i]</unbreak></color>, consumes Skill Points until <color=#f29e38ff><unbreak>#4[i]</unbreak></color> point(s) remain, and immediately <color=#f29e38ff>gains</color> <color=#f29e38ff><unbreak>#5[i]</unbreak></color> <color=#f29e38ff>point(s) of \"Gem Energy\"</color> for each Skill Point consumed.",
       "type": "BPSkill",
       "type_name": "Skill",
@@ -2330,7 +2330,7 @@
         ],
         "point_id": 1508101,
         "point_name": "Elegant Conduct",
-        "point_desc": "When Rin Tohsaka is on the field, additionally increases the max number of Skill Points by <unbreak>#1[i]</unbreak>. When entering combat, Rin Tohsaka's ATK increases by <unbreak>#2[i]%</unbreak>, and All-Type <u>RES PEN</u> increases by <unbreak>#3[i]%</unbreak>. If <unbreak>Archer</unbreak> is in the team, <unbreak>Archer</unbreak> also gains this effect.",
+        "point_desc": "When Rin Tohsaka is on the field, additionally increases the max number of Skill Points by <unbreak>#1[i]</unbreak>. When entering combat, Rin Tohsaka's ATK increases by <unbreak>#2[i]%</unbreak>, and Quantum <u>RES PEN</u> increases by <unbreak>#3[i]%</unbreak>. If <unbreak>Archer</unbreak> is in the team, <unbreak>Archer</unbreak> also gains this effect.",
         "point_trigger_key": 6,
         "point_type": 3,
         "pre_point": [],

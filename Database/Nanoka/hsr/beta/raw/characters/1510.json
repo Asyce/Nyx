@@ -37,7 +37,7 @@
       "desc": "Max uses of Himeko • Nova's <u>Assist Skill</u> increase to 2, and DMG dealt by Ultimate and <u>Assist Skill</u> becomes <unbreak>#1[i]%</unbreak> of their original DMG. At the start of each turn in the \"Navigator's Semaphore\" state, immediately recovers 1 extra <u>Assist Skill</u> use. Trace \"Hark! The Express's Pulse Roars\" effect: When characters other than <u>Trailblaze Companions</u> use <u>Assist Skill</u>, they also gain 1 <u>extra turn</u>.",
       "icon": "SkillIcon_1510_Rank2.png",
       "param_list": [
-        1.24
+        1.3
       ],
       "extra": {
         "10000031": {
@@ -92,7 +92,7 @@
       "param_list": [
         0.2,
         6,
-        0.6,
+        0.75,
         6,
         1.6
       ],
@@ -575,7 +575,7 @@
       "id": 151004,
       "name": "Of Fire and Far Faring",
       "desc": "While Himeko • Nova is on the field, immediately deploys the <u>Territory</u> \"Starblazer Visioscape,\" causing a \"Starblazer\" to appear on the field and granting all ally characters 1 <u>Assist Skill</u> usage. Ally characters can use the <u>Assist Skill</u> to command the \"Starblazer\" to attack enemies.\\nUsing the <u>Assist Skill</u> is considered as Himeko • Nova using her Skill. Himeko • Nova's All-Type <u>RES PEN</u> increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> and CRIT DMG increases by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Attacks can ignore Weakness Types to reduce enemy Toughness. When Weakness is Broken, triggers the Fire Weakness Break effect.\\nWhen an ally character other than Himeko • Nova uses the <u>Assist Skill</u>, they regenerate <unbreak>#3[i]</unbreak> Energy.",
-      "simple_desc": "When Himeko • Nova is on the field, she deploys a <u>Territory</u>, granting all ally characters <u>Assist Skill</u>. When an ally character uses <u>Assist Skill</u>, Himeko • Nova's gains All-Type <u>RES PEN</u> boost and CRIT DMG boost, and her attacks ignore Weakness Types to reduce Toughness.\\nWhen ally characters aside from Himeko • Nova use <u>Assist Skill</u>, she regenerates Energy.",
+      "simple_desc": "When Himeko • Nova is on the field, she deploys a <u>Territory</u>, granting all ally characters <u>Assist Skill</u>. When an ally character uses <u>Assist Skill</u>, Himeko • Nova gains All-Type <u>RES PEN</u> boost and CRIT DMG boost, and her attacks ignore Weakness Types to reduce Toughness.\\nWhen ally characters aside from Himeko • Nova use <u>Assist Skill</u>, she regenerates Energy.",
       "type_name": "Talent",
       "tag": "Enhance",
       "bp_need": -1,
@@ -915,8 +915,8 @@
     "151009": {
       "id": 151009,
       "name": "Orbital Annihilation Pulse",
-      "desc": "Consumes 1 point of <u>\"Source Energy\"</u> to deal Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Himeko • Nova's ATK to all enemies. When current <u>\"Source Energy\"</u> is 1 point or more, for every <unbreak>#2[i]</unbreak> point(s) of <u>\"Source Energy\"</u> consumed, additionally deals 1 instance of Fire DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Himeko • Nova's ATK to one random enemy.",
-      "simple_desc": "Consumes 1 point of <u>\"Source Energy\"</u> to deal minor Fire DMG to all enemies. When current <u>\"Source Energy\"</u> is 1 point or more, for every <color=#f29e38ff><unbreak>#2[i]</unbreak></color> point(s) of <u>\"Source Energy\"</u> consumed, deals minor Fire DMG 1 time to one random enemy.",
+      "desc": "Consumes 1 point of <u>\"Source Energy\"</u> to deal Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Himeko • Nova's ATK to all enemies. When current <u>\"Source Energy\"</u> is more than 1 point, for every <unbreak>#2[i]</unbreak> point(s) of <u>\"Source Energy\"</u> consumed, additionally deals 1 instance of Fire DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Himeko • Nova's ATK to one random enemy.",
+      "simple_desc": "Consumes 1 point of <u>\"Source Energy\"</u> to deal minor Fire DMG to all enemies. When current <u>\"Source Energy\"</u> is more than 1 point, for every <color=#f29e38ff><unbreak>#2[i]</unbreak></color> point(s) of <u>\"Source Energy\"</u> consumed, deals minor Fire DMG 1 time to one random enemy.",
       "type": "Ultra",
       "type_name": "Ultimate",
       "tag": "AoEAttack",
@@ -1407,7 +1407,7 @@
       "id": 151025,
       "name": "Companion Protocol: Verdict",
       "desc": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko • Nova by <color=#f29e38ff><unbreak>#8[i]%</unbreak></color>, and additionally increases her Ultimate DMG dealt by <color=#f29e38ff><unbreak>#10[i]%</unbreak></color>. After Himeko • Nova's teammates actively use their Ultimate <unbreak>#9[i]</unbreak> time(s), Himeko • Nova immediately launches 1 <u>Assist Skill</u> against the enemy at no cost.",
-      "simple_desc": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko • Nova, and additionally increases DMG dealt by her Ultimate. After Himeko • Nova's teammates actively use their Ultimate <color=#f29e38ff><unbreak>#9[i]</unbreak></color> time(s), Himeko • Nova immediately launches 1 <u>Assist Skill</u> against the enemy.",
+      "simple_desc": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko • Nova, and additionally increases her Ultimate DMG dealt. After Himeko • Nova's teammates actively use their Ultimate <color=#f29e38ff><unbreak>#9[i]</unbreak></color> time(s), Himeko • Nova immediately launches 1 <u>Assist Skill</u> against the enemy.",
       "type": "Assist",
       "type_name": "Assist Skill",
       "tag": "AoEAttack",

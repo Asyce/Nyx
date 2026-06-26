@@ -359088,7 +359088,7 @@
         "key": "150809",
         "id": "150809",
         "name": "Second Magic Experiment",
-        "description": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Rin Tohsaka's ATK to all enemies. Then, consumes <unbreak>#2[i]</unbreak> point(s) of \"Gem Energy\" to deal additional Quantum DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than <unbreak>#2[i]</unbreak> or there are no enemy targets with current HP greater than 0, up to a maximum of <unbreak>#6[i]</unbreak> time(s). When used, if current Skill Points are greater than <unbreak>#4[i]</unbreak>, consumes Skill Points until <unbreak>#4[i]</unbreak> left, immediately gaining <unbreak>#5[i]</unbreak> point(s) of \"Gem Energy\" for every 1 Skill Point consumed.",
+        "description": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Rin Tohsaka's ATK to all enemies. Then, consumes <unbreak>#2[i]</unbreak> point(s) of \"Gem Energy\" to deal additional Quantum DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than <unbreak>#2[i]</unbreak> or there are no enemy targets with current HP greater than 0, up to a maximum of <unbreak>#6[i]</unbreak> time(s). When used, if current Skill Points are greater than <unbreak>#4[i]</unbreak>, consumes Skill Points until there are <unbreak>#4[i]</unbreak> point(s) left, immediately gaining <unbreak>#5[i]</unbreak> point(s) of \"Gem Energy\" for every 1 Skill Point consumed.",
         "simpleDescription": "Deals minor Quantum DMG to all enemies, then <color=#f29e38ff>consumes \"Gem Energy\"</color> to additionally deal minor Quantum DMG to one random enemy target a certain number of times. When using this ability, if current Skill Points are greater than <color=#f29e38ff><unbreak>#4[i]</unbreak></color>, consumes Skill Points until <color=#f29e38ff><unbreak>#4[i]</unbreak></color> point(s) remain, and immediately <color=#f29e38ff>gains</color> <color=#f29e38ff><unbreak>#5[i]</unbreak></color> <color=#f29e38ff>point(s) of \"Gem Energy\"</color> for each Skill Point consumed.",
         "type": "BPSkill",
         "typeName": "Skill",
@@ -361411,7 +361411,7 @@
             "anchor": "Point06",
             "pointId": "1508101",
             "pointName": "Elegant Conduct",
-            "pointDescription": "When Rin Tohsaka is on the field, additionally increases the max number of Skill Points by <unbreak>#1[i]</unbreak>. When entering combat, Rin Tohsaka's ATK increases by <unbreak>#2[i]%</unbreak>, and All-Type <u>RES PEN</u> increases by <unbreak>#3[i]%</unbreak>. If <unbreak>Archer</unbreak> is in the team, <unbreak>Archer</unbreak> also gains this effect.",
+            "pointDescription": "When Rin Tohsaka is on the field, additionally increases the max number of Skill Points by <unbreak>#1[i]</unbreak>. When entering combat, Rin Tohsaka's ATK increases by <unbreak>#2[i]%</unbreak>, and Quantum <u>RES PEN</u> increases by <unbreak>#3[i]%</unbreak>. If <unbreak>Archer</unbreak> is in the team, <unbreak>Archer</unbreak> also gains this effect.",
             "pointType": 3,
             "triggerKey": 6,
             "defaultUnlock": false,
@@ -362781,7 +362781,7 @@
       "spNeed": 160
     },
     "liveComparison": {
-      "currentHash": "801e5908ab15ffd99f7dc19df3ab8ef0dcc82fccd65cd46ba88b35100c36921f"
+      "currentHash": "4e8e6333ea10507b9ab865e14ede12243a67a9974b04782e89ffa9f50b0258fd"
     }
   },
   {
@@ -362883,9 +362883,9 @@
       {
         "key": "150902",
         "id": "150902",
-        "name": "King's Treasure",
+        "name": "Gate of Babylon",
         "description": "Obtains \"King's Acknowledgement,\" allowing this unit to ignore <color=#f29e38ff><unbreak>#5[i]%</unbreak></color> of the target's DEF when dealing DMG, lasting for <unbreak>#6[i]</unbreak> turn(s).\\nDeals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Gilgamesh's ATK to adjacent targets.",
-        "simpleDescription": "Gains \"King's Acknowledgement,\" enabling this unit to ignore the target's DEF when dealing DMG. Deals Lightning DMG to one enemy and minor Lightning DMG to adjacent targets.",
+        "simpleDescription": "Gains \"King's Acknowledgement,\" enabling this unit to ignore the target's DEF when dealing DMG. Deals Lightning DMG to one enemy and Lightning DMG to adjacent targets.",
         "type": "BPSkill",
         "typeName": "Skill",
         "tag": "Blast",
@@ -363360,8 +363360,8 @@
         "key": "150905",
         "id": "150905",
         "name": "\"I Grant You Permission To Strike\"",
-        "description": "When Gilgamesh or <unbreak>Saber</unbreak> attacks, they accumulate 1 attack tally. After any unit attacks, if the accumulated attack tally reaches <unbreak>#5[i]</unbreak>, Gilgamesh and <unbreak>Saber</unbreak> launch a <u>Joint Follow-Up ATK</u>, dealing Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Gilgamesh's ATK and Wind DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Saber's ATK to all enemies. Then, Gilgamesh gains <unbreak>#3[i]</unbreak> point(s) of \"Interest,\" and <unbreak>Saber</unbreak> regenerates <unbreak>#4[i]</unbreak> Energy and the DMG dealt when she next uses her Ultimate becomes <color=#f29e38ff><unbreak>#6[i]%</unbreak></color> of the original DMG.\\nThe accumulated attack tally is reset after using the <u>Joint Follow-Up ATK</u>.",
-        "simpleDescription": "When Gilgamesh or <unbreak>Saber</unbreak> attacks, they accumulate attack tally. If the accumulated attack tally reaches <color=#f29e38ff><unbreak>#5[i]</unbreak></color> after any unit attacks, Gilgamesh and <unbreak>Saber</unbreak> launch a <u>Joint Follow-Up ATK</u>, dealing massive Lightning DMG and massive Wind DMG to all enemies. Gilgamesh <color=#f29e38ff>gains <color=#f29e38ff><unbreak>#3[i]</unbreak></color> point(s) of \"Interest\"</color>, and <unbreak>Saber</unbreak> regenerates Energy and additionally increases the DMG of her next Ultimate.",
+        "description": "When Gilgamesh or <unbreak>Saber</unbreak> attacks, they accumulate 1 attack tally. After either unit attacks, if the accumulated attack tally reaches <unbreak>#5[i]</unbreak>, Gilgamesh and <unbreak>Saber</unbreak> launch a <u>Joint Follow-Up ATK</u>, dealing Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Gilgamesh's ATK and Wind DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Saber's ATK to all enemies. Then, Gilgamesh gains <unbreak>#3[i]</unbreak> point(s) of \"Interest,\" and <unbreak>Saber</unbreak> regenerates <unbreak>#4[i]</unbreak> Energy and the DMG dealt when she next uses her Ultimate becomes <color=#f29e38ff><unbreak>#6[i]%</unbreak></color> of the original DMG.\\nThe accumulated attack tally is reset after using the <u>Joint Follow-Up ATK</u>.",
+        "simpleDescription": "When Gilgamesh or <unbreak>Saber</unbreak> attacks, they accumulate attack tally. If the accumulated attack tally reaches <color=#f29e38ff><unbreak>#5[i]</unbreak></color> after either unit attacks, Gilgamesh and <unbreak>Saber</unbreak> launch a <u>Joint Follow-Up ATK</u>, dealing massive Lightning DMG and massive Wind DMG to all enemies. Gilgamesh <color=#f29e38ff>gains <color=#f29e38ff><unbreak>#3[i]</unbreak></color> point(s) of \"Interest\"</color>, and <unbreak>Saber</unbreak> regenerates Energy and additionally increases the DMG of her next Ultimate.",
         "typeName": "Talent",
         "tag": "AoEAttack",
         "spBase": 10,
@@ -363370,8 +363370,8 @@
           {
             "level": 1,
             "params": [
-              1.5,
               2,
+              3,
               3,
               120,
               8,
@@ -363381,8 +363381,8 @@
           {
             "level": 2,
             "params": [
-              1.65,
               2.2,
+              3.3,
               3,
               120,
               8,
@@ -363392,8 +363392,8 @@
           {
             "level": 3,
             "params": [
-              1.8,
               2.4,
+              3.6,
               3,
               120,
               8,
@@ -363403,8 +363403,8 @@
           {
             "level": 4,
             "params": [
-              1.95,
               2.6,
+              3.9,
               3,
               120,
               8,
@@ -363414,8 +363414,8 @@
           {
             "level": 5,
             "params": [
-              2.1,
               2.8,
+              4.2,
               3,
               120,
               8,
@@ -363425,8 +363425,8 @@
           {
             "level": 6,
             "params": [
-              2.25,
               3,
+              4.5,
               3,
               120,
               8,
@@ -363436,8 +363436,8 @@
           {
             "level": 7,
             "params": [
-              2.4375,
               3.25,
+              4.875,
               3,
               120,
               8,
@@ -363447,8 +363447,8 @@
           {
             "level": 8,
             "params": [
-              2.625,
               3.5,
+              5.25,
               3,
               120,
               8,
@@ -363458,8 +363458,8 @@
           {
             "level": 9,
             "params": [
-              2.8125,
               3.75,
+              5.625,
               3,
               120,
               8,
@@ -363469,8 +363469,8 @@
           {
             "level": 10,
             "params": [
-              3,
               4,
+              6,
               3,
               120,
               8,
@@ -363480,8 +363480,8 @@
           {
             "level": 11,
             "params": [
-              3.15,
               4.2,
+              6.3,
               3,
               120,
               8,
@@ -363491,8 +363491,8 @@
           {
             "level": 12,
             "params": [
-              3.3,
               4.4,
+              6.6,
               3,
               120,
               8,
@@ -363502,8 +363502,8 @@
           {
             "level": 13,
             "params": [
-              3.45,
               4.6,
+              6.9,
               3,
               120,
               8,
@@ -363513,8 +363513,8 @@
           {
             "level": 14,
             "params": [
-              3.6,
               4.8,
+              7.2,
               3,
               120,
               8,
@@ -363524,8 +363524,8 @@
           {
             "level": 15,
             "params": [
-              3.75,
               5,
+              7.5,
               3,
               120,
               8,
@@ -367143,7 +367143,7 @@
       "spNeed": 360
     },
     "liveComparison": {
-      "currentHash": "3c466a65d2c84b103a00868b551c8024c95eaf02bd2571458997ff9eb5c24450"
+      "currentHash": "2030fbea79d6fd0c9c6e01df532c99e4dea2cd313c1a35fe49fe97494acd66af"
     }
   },
   {
@@ -367619,7 +367619,7 @@
         "id": "151004",
         "name": "Of Fire and Far Faring",
         "description": "While Himeko • Nova is on the field, immediately deploys the <u>Territory</u> \"Starblazer Visioscape,\" causing a \"Starblazer\" to appear on the field and granting all ally characters 1 <u>Assist Skill</u> usage. Ally characters can use the <u>Assist Skill</u> to command the \"Starblazer\" to attack enemies.\\nUsing the <u>Assist Skill</u> is considered as Himeko • Nova using her Skill. Himeko • Nova's All-Type <u>RES PEN</u> increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> and CRIT DMG increases by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Attacks can ignore Weakness Types to reduce enemy Toughness. When Weakness is Broken, triggers the Fire Weakness Break effect.\\nWhen an ally character other than Himeko • Nova uses the <u>Assist Skill</u>, they regenerate <unbreak>#3[i]</unbreak> Energy.",
-        "simpleDescription": "When Himeko • Nova is on the field, she deploys a <u>Territory</u>, granting all ally characters <u>Assist Skill</u>. When an ally character uses <u>Assist Skill</u>, Himeko • Nova's gains All-Type <u>RES PEN</u> boost and CRIT DMG boost, and her attacks ignore Weakness Types to reduce Toughness.\\nWhen ally characters aside from Himeko • Nova use <u>Assist Skill</u>, she regenerates Energy.",
+        "simpleDescription": "When Himeko • Nova is on the field, she deploys a <u>Territory</u>, granting all ally characters <u>Assist Skill</u>. When an ally character uses <u>Assist Skill</u>, Himeko • Nova gains All-Type <u>RES PEN</u> boost and CRIT DMG boost, and her attacks ignore Weakness Types to reduce Toughness.\\nWhen ally characters aside from Himeko • Nova use <u>Assist Skill</u>, she regenerates Energy.",
         "typeName": "Talent",
         "tag": "Enhance",
         "bpNeed": -1,
@@ -367941,8 +367941,8 @@
         "key": "151009",
         "id": "151009",
         "name": "Orbital Annihilation Pulse",
-        "description": "Consumes 1 point of <u>\"Source Energy\"</u> to deal Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Himeko • Nova's ATK to all enemies. When current <u>\"Source Energy\"</u> is 1 point or more, for every <unbreak>#2[i]</unbreak> point(s) of <u>\"Source Energy\"</u> consumed, additionally deals 1 instance of Fire DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Himeko • Nova's ATK to one random enemy.",
-        "simpleDescription": "Consumes 1 point of <u>\"Source Energy\"</u> to deal minor Fire DMG to all enemies. When current <u>\"Source Energy\"</u> is 1 point or more, for every <color=#f29e38ff><unbreak>#2[i]</unbreak></color> point(s) of <u>\"Source Energy\"</u> consumed, deals minor Fire DMG 1 time to one random enemy.",
+        "description": "Consumes 1 point of <u>\"Source Energy\"</u> to deal Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Himeko • Nova's ATK to all enemies. When current <u>\"Source Energy\"</u> is more than 1 point, for every <unbreak>#2[i]</unbreak> point(s) of <u>\"Source Energy\"</u> consumed, additionally deals 1 instance of Fire DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Himeko • Nova's ATK to one random enemy.",
+        "simpleDescription": "Consumes 1 point of <u>\"Source Energy\"</u> to deal minor Fire DMG to all enemies. When current <u>\"Source Energy\"</u> is more than 1 point, for every <color=#f29e38ff><unbreak>#2[i]</unbreak></color> point(s) of <u>\"Source Energy\"</u> consumed, deals minor Fire DMG 1 time to one random enemy.",
         "type": "Ultra",
         "typeName": "Ultimate",
         "tag": "AoEAttack",
@@ -368420,7 +368420,7 @@
         "id": "151025",
         "name": "Companion Protocol: Verdict",
         "description": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko • Nova by <color=#f29e38ff><unbreak>#8[i]%</unbreak></color>, and additionally increases her Ultimate DMG dealt by <color=#f29e38ff><unbreak>#10[i]%</unbreak></color>. After Himeko • Nova's teammates actively use their Ultimate <unbreak>#9[i]</unbreak> time(s), Himeko • Nova immediately launches 1 <u>Assist Skill</u> against the enemy at no cost.",
-        "simpleDescription": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko • Nova, and additionally increases DMG dealt by her Ultimate. After Himeko • Nova's teammates actively use their Ultimate <color=#f29e38ff><unbreak>#9[i]</unbreak></color> time(s), Himeko • Nova immediately launches 1 <u>Assist Skill</u> against the enemy.",
+        "simpleDescription": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko • Nova, and additionally increases her Ultimate DMG dealt. After Himeko • Nova's teammates actively use their Ultimate <color=#f29e38ff><unbreak>#9[i]</unbreak></color> time(s), Himeko • Nova immediately launches 1 <u>Assist Skill</u> against the enemy.",
         "type": "Assist",
         "typeName": "Assist Skill",
         "tag": "AoEAttack",
@@ -368930,7 +368930,7 @@
         "name": "The Colors We Never Strike",
         "description": "Max uses of Himeko • Nova's <u>Assist Skill</u> increase to 2, and DMG dealt by Ultimate and <u>Assist Skill</u> becomes <unbreak>#1[i]%</unbreak> of their original DMG. At the start of each turn in the \"Navigator's Semaphore\" state, immediately recovers 1 extra <u>Assist Skill</u> use. Trace \"Hark! The Express's Pulse Roars\" effect: When characters other than <u>Trailblaze Companions</u> use <u>Assist Skill</u>, they also gain 1 <u>extra turn</u>.",
         "params": [
-          1.24
+          1.3
         ],
         "assets": {
           "icon": "Nanoka/hsr/assets/skills/SkillIcon_1510_Rank2.webp"
@@ -368976,7 +368976,7 @@
         "params": [
           0.2,
           6,
-          0.6,
+          0.75,
           6,
           1.6
         ],
@@ -372430,7 +372430,7 @@
       "spNeed": 150
     },
     "liveComparison": {
-      "currentHash": "a38a8afda5f0ddae97a40068788883242d9324897b5a03896c7682fc5904794b"
+      "currentHash": "ec525c0fd1c7947862124d97a1494fe4dbec3e5e584cd66ab945f36895347e30"
     }
   },
   {

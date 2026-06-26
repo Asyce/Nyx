@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "hsr",
-  "generatedAt": "2026-06-25T08:37:00.342Z",
+  "generatedAt": "2026-06-26T08:40:51.613Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 5,
-      "unchanged": 88
+      "changed": 2,
+      "unchanged": 91
     }
   },
   "sections": {
@@ -18,35 +18,17 @@
         {
           "id": "characters:dan-heng",
           "name": "Dan Heng",
-          "previousHash": "91293dcbe1b56b30271e3ea0c15efb147706cc0bb8dba0476fd81ecfb8ba6d80",
-          "currentHash": "c8e1f52d3d675db12c7f92301b37596da5ec73482301f5d6ad2d911f837265c1"
+          "previousHash": "c8e1f52d3d675db12c7f92301b37596da5ec73482301f5d6ad2d911f837265c1",
+          "currentHash": "91293dcbe1b56b30271e3ea0c15efb147706cc0bb8dba0476fd81ecfb8ba6d80"
         },
         {
-          "id": "characters:evanescia",
-          "name": "Evanescia",
-          "previousHash": "db6c0afbdecfcf3a329a0e676f8e34bbbdb9ac5c5892ab2c68462c362f30fb58",
-          "currentHash": "39f470d4475a1413c2a47a0e22008d40dbc0063bc25162bfae8aa70e794415fa"
-        },
-        {
-          "id": "characters:moze",
-          "name": "Moze",
-          "previousHash": "11c59d6cc4e0e182e1f9c78a62537092864ec08d75e8c31bfb1bb12d6b29a048",
-          "currentHash": "e80127314bc6d4a3c8f907fb8e60a506f53b254fe0d3cb1c0bf4f544cdd5db1d"
-        },
-        {
-          "id": "characters:pela",
-          "name": "Pela",
-          "previousHash": "ed891978d06c51faf3e4fdf934e6dc6a2da66ea74dfa64ffa3a00c978c3804e6",
-          "currentHash": "a50bfc1d3a1a1d185e57ae3944714016a849336a994e0223b50141502c4c1df4"
-        },
-        {
-          "id": "characters:tingyun",
-          "name": "Tingyun",
-          "previousHash": "f5f9d44ee9c3db20bd7934a2ab019738cc6a654467a0c1602506c9b3fecbfa31",
-          "currentHash": "505158aee4902bf6ab4653d89a03b2340b0e5942b314b82cb4c641ad99916e24"
+          "id": "characters:imbibitor-lunae",
+          "name": "Dan Heng • Imbibitor Lunae",
+          "previousHash": "99fa38f1529c071ed01b0f604cacd202d28aa1d4dbaa7e79c44d73c8cc23c900",
+          "currentHash": "79833d6566b0d2c4204aa3adaa00c4b52419c929b9f83e195be234119deec1d2"
         }
       ],
-      "unchanged": 88,
+      "unchanged": 91,
       "totals": {
         "previous": 93,
         "current": 93

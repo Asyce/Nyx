@@ -11,8 +11,8 @@
   "sourcePath": "/arknights-endfield/characters",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-06-25T08:37:00.342Z",
-  "updatedText": "20/June/2026",
+  "scrapedAt": "2026-06-26T08:40:51.613Z",
+  "updatedText": "26/June/2026",
   "meta": {
     "title": "Arknights: Endfield Characters - All Operators & Build Guides",
     "description": ""
@@ -475,14 +475,14 @@
       "id": "arknights-endfield-characters-build-guides-0",
       "level": 1,
       "heading": "Arknights: Endfield Characters Build Guides",
-      "text": "All characters available in Arknights: Endfield. Use our character database to see every character and operator sorted by element, rarity, and class, plus build guides.\n Last updated: 20/June/2026",
+      "text": "All characters available in Arknights: Endfield. Use our character database to see every character and operator sorted by element, rarity, and class, plus build guides.\n Last updated: 26/June/2026",
       "assets": []
     },
     {
       "id": "all-arknights-endfield-characters-1",
       "level": 2,
       "heading": "All Arknights: Endfield Characters",
-      "text": "Showing 28 Characters\n ×\n 4✦ 5✦ 6✦\n\n Reset\n\n Akekuri\n\n Alesh\n\n Antal\n\n Arclight\n\n Ardelia\n\n Avywenna\n\n Camille Soon\n\n Catcher\n\n Chen Qianyu\n\n Da Pan\n\n Ember\n\n Endministrator\n\n Estella\n\n Fluorite\n\n Gilberta\n\n Laevatain\n\n Last Rite\n\n Lifeng\n\n Mi Fu New\n\n Perlica\n\n Pogranichnik\n\n Rossi\n\n Snowshine\n\n Tangtang\n\n Wulfgard\n\n Xaihi\n\n Yvonne\n\n Zhuang Fangyi",
+      "text": "Showing 28 Characters\n ×\n 4✦ 5✦ 6✦\n\n Reset\n\n Akekuri\n\n Alesh\n\n Antal\n\n Arclight\n\n Ardelia\n\n Avywenna\n\n Camille New\n\n Catcher\n\n Chen Qianyu\n\n Da Pan\n\n Ember\n\n Endministrator\n\n Estella\n\n Fluorite\n\n Gilberta\n\n Laevatain\n\n Last Rite\n\n Lifeng\n\n Mi Fu\n\n Perlica\n\n Pogranichnik\n\n Rossi\n\n Snowshine\n\n Tangtang\n\n Wulfgard\n\n Xaihi\n\n Yvonne\n\n Zhuang Fangyi",
       "assets": [
         {
           "id": "1c9bfc6b9d91",
@@ -929,7 +929,7 @@
   ],
   "recommendations": {},
   "tables": [],
-  "text": "Arknights: Endfield Characters - All Operators & Build Guides\n \n\n Arknights: Endfield\n Home Database Characters Gear Weapons\n Tier Lists Tier List Team Tier List\n Guides Guides\n Tools Team Builder Adv. Team Builder Rotation Builder Gacha Simulator Material Planner Character Comparison Patch Timeline\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Arknights: Endfield\n /\n Characters Build Guides\n\n Arknights: Endfield Characters Build Guides\n All characters available in Arknights: Endfield. Use our character database to see every character and operator sorted by element, rarity, and class, plus build guides.\n Last updated: 20/June/2026\n\n All Arknights: Endfield Characters\n Showing 28 Characters\n ×\n 4✦ 5✦ 6✦\n\n Reset\n\n Akekuri\n\n Alesh\n\n Antal\n\n Arclight\n\n Ardelia\n\n Avywenna\n\n Camille Soon\n\n Catcher\n\n Chen Qianyu\n\n Da Pan\n\n Ember\n\n Endministrator\n\n Estella\n\n Fluorite\n\n Gilberta\n\n Laevatain\n\n Last Rite\n\n Lifeng\n\n Mi Fu New\n\n Perlica\n\n Pogranichnik\n\n Rossi\n\n Snowshine\n\n Tangtang\n\n Wulfgard\n\n Xaihi\n\n Yvonne\n\n Zhuang Fangyi",
+  "text": "Arknights: Endfield Characters - All Operators & Build Guides\n \n\n Arknights: Endfield\n Home Database Characters Gear Weapons\n Tier Lists Tier List Team Tier List\n Guides Guides\n Tools Team Builder Adv. Team Builder Rotation Builder Gacha Simulator Material Planner Character Comparison Patch Timeline\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Arknights: Endfield\n /\n Characters Build Guides\n\n Arknights: Endfield Characters Build Guides\n All characters available in Arknights: Endfield. Use our character database to see every character and operator sorted by element, rarity, and class, plus build guides.\n Last updated: 26/June/2026\n\n All Arknights: Endfield Characters\n Showing 28 Characters\n ×\n 4✦ 5✦ 6✦\n\n Reset\n\n Akekuri\n\n Alesh\n\n Antal\n\n Arclight\n\n Ardelia\n\n Avywenna\n\n Camille New\n\n Catcher\n\n Chen Qianyu\n\n Da Pan\n\n Ember\n\n Endministrator\n\n Estella\n\n Fluorite\n\n Gilberta\n\n Laevatain\n\n Last Rite\n\n Lifeng\n\n Mi Fu\n\n Perlica\n\n Pogranichnik\n\n Rossi\n\n Snowshine\n\n Tangtang\n\n Wulfgard\n\n Xaihi\n\n Yvonne\n\n Zhuang Fangyi",
   "entries": [
     {
       "id": "akekuri",
@@ -982,11 +982,11 @@
     {
       "id": "camille",
       "slug": "camille",
-      "name": "Camille Soon",
+      "name": "Camille New",
       "sourcePath": "/arknights-endfield/characters/camille",
-      "contentStatus": "beta",
+      "contentStatus": "live",
       "statusLabels": [
-        "Soon"
+        "New"
       ]
     },
     {
@@ -1080,12 +1080,10 @@
     {
       "id": "mi-fu",
       "slug": "mi-fu",
-      "name": "Mi Fu New",
+      "name": "Mi Fu",
       "sourcePath": "/arknights-endfield/characters/mi-fu",
       "contentStatus": "live",
-      "statusLabels": [
-        "New"
-      ]
+      "statusLabels": []
     },
     {
       "id": "perlica",

@@ -3,7 +3,7 @@
   "game": "endfield",
   "collection": "characters",
   "sourcePath": "/arknights-endfield/characters",
-  "scrapedAt": "2026-06-25T08:37:00.342Z",
+  "scrapedAt": "2026-06-26T08:40:51.613Z",
   "detailPagesTotal": 28,
   "detailPagesScraped": 28,
   "staleDetailPagesRemoved": 0,
@@ -59,11 +59,11 @@
     {
       "id": "camille",
       "slug": "camille",
-      "name": "Camille Soon",
+      "name": "Camille New",
       "sourcePath": "/arknights-endfield/characters/camille",
-      "contentStatus": "beta",
+      "contentStatus": "live",
       "statusLabels": [
-        "Soon"
+        "New"
       ]
     },
     {
@@ -157,12 +157,10 @@
     {
       "id": "mi-fu",
       "slug": "mi-fu",
-      "name": "Mi Fu New",
+      "name": "Mi Fu",
       "sourcePath": "/arknights-endfield/characters/mi-fu",
       "contentStatus": "live",
-      "statusLabels": [
-        "New"
-      ]
+      "statusLabels": []
     },
     {
       "id": "perlica",

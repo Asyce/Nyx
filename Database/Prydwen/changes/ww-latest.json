@@ -1,21 +1,28 @@
 {
   "provider": "Prydwen",
   "game": "ww",
-  "generatedAt": "2026-06-25T08:37:00.342Z",
+  "generatedAt": "2026-06-26T08:40:51.613Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 0,
-      "unchanged": 62
+      "changed": 1,
+      "unchanged": 61
     }
   },
   "sections": {
     "records": {
       "added": [],
       "removed": [],
-      "changed": [],
-      "unchanged": 62,
+      "changed": [
+        {
+          "id": "characters:sanhua",
+          "name": "Sanhua",
+          "previousHash": "0887ae656b2e5009e33564a7bab01c5d1227df7f17b3668766f9ec1121313806",
+          "currentHash": "154291427f0ade1514f75ae60241f98e8dceb2db9721939473c1ff904acd5af4"
+        }
+      ],
+      "unchanged": 61,
       "totals": {
         "previous": 62,
         "current": 62

@@ -60905,7 +60905,7 @@
     },
     "effect": {
       "name": "At Will",
-      "description": "Increases the wearer's ATK by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> and Energy Regeneration Rate by <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>. When the wearer uses their Ultimate, increases the Ultimate DMG dealt this time by <color=#f29e38ff><unbreak>#3[f3]%</unbreak></color> for every 1 Energy consumed, up to <color=#f29e38ff><unbreak>#6[i]%</unbreak></color>. When the wearer enters combat or uses their Ultimate, the wearer gains \"King's Entertainment,\" lasting for <unbreak>#4[i]</unbreak> turn(s). While the wearer has \"King's Entertainment,\" increases all allies' CRIT DMG by <color=#f29e38ff><unbreak>#5[i]%</unbreak></color>. Effects of the same type cannot stack.",
+      "description": "Increases the wearer's ATK by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> and Energy Regeneration Rate by <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>. When the wearer uses their Ultimate, increases the Ultimate DMG dealt this time by <color=#f29e38ff><unbreak>#3[f2]%</unbreak></color> for every 1 Energy consumed, up to <color=#f29e38ff><unbreak>#6[i]%</unbreak></color>. When the wearer enters combat or uses their Ultimate, the wearer gains \"King's Entertainment,\" lasting for <unbreak>#4[i]</unbreak> turn(s). While the wearer has \"King's Entertainment,\" increases all allies' CRIT DMG by <color=#f29e38ff><unbreak>#5[i]%</unbreak></color>. Effects of the same type cannot stack.",
       "levels": [
         {
           "level": 1,
@@ -61289,7 +61289,7 @@
       }
     ],
     "liveComparison": {
-      "currentHash": "98c2d464f532430a3ea1f17459e694a5aa500e67c6f6dd2f738876b0b6549c5d"
+      "currentHash": "53f72ac61059b17047af6fbf52a417f43ab8c5e16fd29310c8febddd322bd43b"
     }
   },
   {

@@ -27317,12 +27317,12 @@
   },
   {
     "id": "408643",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Sea Monster's Touch",
     "rarity": "Rare",
     "type": "Usable",
     "subType": "Food",
-    "description": "Upon use, immediately causes all allies to lose HP equal to 5% of their Max HP, and increases their DEF by <unbreak>40%</unbreak> for the next battle.",
+    "description": "Upon use, immediately causes all allies to lose HP equal to 5% of their Max HP, and increases their ATK by <unbreak>40%</unbreak> for the next battle.",
     "backgroundDescription": "A best-selling snack brand from Planarcadia. Every bite contains a memory of an \"ocean adventure.\"\\n\\n<i>\"This product is not a substitute for medical treatment, real life experiences, or swimming lessons.\"</i>",
     "purposeType": 10,
     "assets": {
@@ -27330,7 +27330,7 @@
     },
     "liveComparison": {
       "liveHash": "439aa4ba1ed203e5aecef5d21084d3bfdd9b3e9385607bfbe4236ad74f1bf2fa",
-      "currentHash": "439aa4ba1ed203e5aecef5d21084d3bfdd9b3e9385607bfbe4236ad74f1bf2fa"
+      "currentHash": "95dea5b59aad75fba607d7f0c092338262bbeffe98ac537ae6ce923eed8a7871"
     }
   },
   {

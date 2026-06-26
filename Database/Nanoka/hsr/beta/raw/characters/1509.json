@@ -171,9 +171,9 @@
     },
     "150902": {
       "id": 150902,
-      "name": "King's Treasure",
+      "name": "Gate of Babylon",
       "desc": "Obtains \"King's Acknowledgement,\" allowing this unit to ignore <color=#f29e38ff><unbreak>#5[i]%</unbreak></color> of the target's DEF when dealing DMG, lasting for <unbreak>#6[i]</unbreak> turn(s).\\nDeals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Gilgamesh's ATK to adjacent targets.",
-      "simple_desc": "Gains \"King's Acknowledgement,\" enabling this unit to ignore the target's DEF when dealing DMG. Deals Lightning DMG to one enemy and minor Lightning DMG to adjacent targets.",
+      "simple_desc": "Gains \"King's Acknowledgement,\" enabling this unit to ignore the target's DEF when dealing DMG. Deals Lightning DMG to one enemy and Lightning DMG to adjacent targets.",
       "type": "BPSkill",
       "type_name": "Skill",
       "tag": "Blast",
@@ -663,8 +663,8 @@
     "150905": {
       "id": 150905,
       "name": "\"I Grant You Permission To Strike\"",
-      "desc": "When Gilgamesh or <unbreak>Saber</unbreak> attacks, they accumulate 1 attack tally. After any unit attacks, if the accumulated attack tally reaches <unbreak>#5[i]</unbreak>, Gilgamesh and <unbreak>Saber</unbreak> launch a <u>Joint Follow-Up ATK</u>, dealing Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Gilgamesh's ATK and Wind DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Saber's ATK to all enemies. Then, Gilgamesh gains <unbreak>#3[i]</unbreak> point(s) of \"Interest,\" and <unbreak>Saber</unbreak> regenerates <unbreak>#4[i]</unbreak> Energy and the DMG dealt when she next uses her Ultimate becomes <color=#f29e38ff><unbreak>#6[i]%</unbreak></color> of the original DMG.\\nThe accumulated attack tally is reset after using the <u>Joint Follow-Up ATK</u>.",
-      "simple_desc": "When Gilgamesh or <unbreak>Saber</unbreak> attacks, they accumulate attack tally. If the accumulated attack tally reaches <color=#f29e38ff><unbreak>#5[i]</unbreak></color> after any unit attacks, Gilgamesh and <unbreak>Saber</unbreak> launch a <u>Joint Follow-Up ATK</u>, dealing massive Lightning DMG and massive Wind DMG to all enemies. Gilgamesh <color=#f29e38ff>gains <color=#f29e38ff><unbreak>#3[i]</unbreak></color> point(s) of \"Interest\"</color>, and <unbreak>Saber</unbreak> regenerates Energy and additionally increases the DMG of her next Ultimate.",
+      "desc": "When Gilgamesh or <unbreak>Saber</unbreak> attacks, they accumulate 1 attack tally. After either unit attacks, if the accumulated attack tally reaches <unbreak>#5[i]</unbreak>, Gilgamesh and <unbreak>Saber</unbreak> launch a <u>Joint Follow-Up ATK</u>, dealing Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Gilgamesh's ATK and Wind DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Saber's ATK to all enemies. Then, Gilgamesh gains <unbreak>#3[i]</unbreak> point(s) of \"Interest,\" and <unbreak>Saber</unbreak> regenerates <unbreak>#4[i]</unbreak> Energy and the DMG dealt when she next uses her Ultimate becomes <color=#f29e38ff><unbreak>#6[i]%</unbreak></color> of the original DMG.\\nThe accumulated attack tally is reset after using the <u>Joint Follow-Up ATK</u>.",
+      "simple_desc": "When Gilgamesh or <unbreak>Saber</unbreak> attacks, they accumulate attack tally. If the accumulated attack tally reaches <color=#f29e38ff><unbreak>#5[i]</unbreak></color> after either unit attacks, Gilgamesh and <unbreak>Saber</unbreak> launch a <u>Joint Follow-Up ATK</u>, dealing massive Lightning DMG and massive Wind DMG to all enemies. Gilgamesh <color=#f29e38ff>gains <color=#f29e38ff><unbreak>#3[i]</unbreak></color> point(s) of \"Interest\"</color>, and <unbreak>Saber</unbreak> regenerates Energy and additionally increases the DMG of her next Ultimate.",
       "type_name": "Talent",
       "tag": "AoEAttack",
       "sp_base": 10,
@@ -690,8 +690,8 @@
         "1": {
           "level": 1,
           "param_list": [
-            1.5,
             2,
+            3,
             3,
             120,
             8,
@@ -701,8 +701,8 @@
         "2": {
           "level": 2,
           "param_list": [
-            1.65,
             2.2,
+            3.3,
             3,
             120,
             8,
@@ -712,8 +712,8 @@
         "3": {
           "level": 3,
           "param_list": [
-            1.8,
             2.4,
+            3.6,
             3,
             120,
             8,
@@ -723,8 +723,8 @@
         "4": {
           "level": 4,
           "param_list": [
-            1.95,
             2.6,
+            3.9,
             3,
             120,
             8,
@@ -734,8 +734,8 @@
         "5": {
           "level": 5,
           "param_list": [
-            2.1,
             2.8,
+            4.2,
             3,
             120,
             8,
@@ -745,8 +745,8 @@
         "6": {
           "level": 6,
           "param_list": [
-            2.25,
             3,
+            4.5,
             3,
             120,
             8,
@@ -756,8 +756,8 @@
         "7": {
           "level": 7,
           "param_list": [
-            2.4375,
             3.25,
+            4.875,
             3,
             120,
             8,
@@ -767,8 +767,8 @@
         "8": {
           "level": 8,
           "param_list": [
-            2.625,
             3.5,
+            5.25,
             3,
             120,
             8,
@@ -778,8 +778,8 @@
         "9": {
           "level": 9,
           "param_list": [
-            2.8125,
             3.75,
+            5.625,
             3,
             120,
             8,
@@ -789,8 +789,8 @@
         "10": {
           "level": 10,
           "param_list": [
-            3,
             4,
+            6,
             3,
             120,
             8,
@@ -800,8 +800,8 @@
         "11": {
           "level": 11,
           "param_list": [
-            3.15,
             4.2,
+            6.3,
             3,
             120,
             8,
@@ -811,8 +811,8 @@
         "12": {
           "level": 12,
           "param_list": [
-            3.3,
             4.4,
+            6.6,
             3,
             120,
             8,
@@ -822,8 +822,8 @@
         "13": {
           "level": 13,
           "param_list": [
-            3.45,
             4.6,
+            6.9,
             3,
             120,
             8,
@@ -833,8 +833,8 @@
         "14": {
           "level": 14,
           "param_list": [
-            3.6,
             4.8,
+            7.2,
             3,
             120,
             8,
@@ -844,8 +844,8 @@
         "15": {
           "level": 15,
           "param_list": [
-            3.75,
             5,
+            7.5,
             3,
             120,
             8,

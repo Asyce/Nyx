@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T14:58:17.786Z",
+  "generatedAt": "2026-06-26T17:30:46.197Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-06-26T14:58:17.786Z",
+      "lastSuccessfulFetch": "2026-06-26T17:30:46.197Z",
       "codes": [
         {
           "code": "MAGENICOLESPUZZLE",
@@ -82,7 +82,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-06-26T14:58:12.449Z",
+      "lastSuccessfulFetch": "2026-06-26T17:30:34.319Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -191,7 +191,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-06-26T14:58:09.254Z",
+      "lastSuccessfulFetch": "2026-06-26T17:30:37.482Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -263,39 +263,8 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-06-26T14:58:10.843Z",
-      "codes": [
-        {
-          "code": "INTOTHEFOG",
-          "rewards": "100 Astrite, 2 Forgery Premium Supply, 20,000 Shell Credits",
-          "added": "2026-06-26",
-          "sourceUrl": "https://game8.co/games/Wuthering-Waves/archives/453149",
-          "premium": true,
-          "premium100": true,
-          "cwSeen": false,
-          "firstSeen": "2026-06-26T14:58:10.843Z"
-        },
-        {
-          "code": "MECHANISMCITY",
-          "rewards": "100 Astrite, 4 Premium Resonance Potion, 5 Advanced Energy Core",
-          "added": "2026-06-26",
-          "sourceUrl": "https://game8.co/games/Wuthering-Waves/archives/453149",
-          "premium": true,
-          "premium100": true,
-          "cwSeen": false,
-          "firstSeen": "2026-06-26T14:58:10.843Z"
-        },
-        {
-          "code": "REUNION",
-          "rewards": "100 Astrite, 20 Premium Tuners, 5 Advanced Sealed Tubes",
-          "added": "2026-06-26",
-          "sourceUrl": "https://game8.co/games/Wuthering-Waves/archives/453149",
-          "premium": true,
-          "premium100": true,
-          "cwSeen": false,
-          "firstSeen": "2026-06-26T14:58:10.843Z"
-        }
-      ]
+      "lastSuccessfulFetch": "2026-06-26T17:30:39.065Z",
+      "codes": []
     }
   ]
 }

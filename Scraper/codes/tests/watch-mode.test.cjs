@@ -3,6 +3,7 @@ const assert = require("node:assert/strict");
 
 const { diffSemanticCodes } = require("../semantic-diff.cjs");
 const { decideWatchMode } = require("../watch-mode.cjs");
+const { parseCliOptions } = require("../scrape.cjs");
 
 function baseCodes() {
   return {
@@ -85,4 +86,16 @@ test("watch mode enables deep checks during livestream windows", () => {
   assert.equal(mode.shouldRun, true);
   assert.equal(mode.deep, true);
   assert.equal(mode.npmScript, "codes:watch:deep");
+});
+
+test("active-only scraper mode preserves prior codes and skips destructive sweeps", () => {
+  const normal = parseCliOptions(["--active-only", "--change-gated"]);
+  assert.equal(normal.skipExpired, true);
+  assert.equal(normal.skipReddit, true);
+  assert.equal(normal.preserveMissing, true);
+
+  const deep = parseCliOptions(["--active-only", "--deep", "--change-gated"]);
+  assert.equal(deep.skipExpired, true);
+  assert.equal(deep.skipReddit, false);
+  assert.equal(deep.preserveMissing, true);
 });

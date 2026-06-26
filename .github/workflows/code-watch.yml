@@ -8,6 +8,12 @@ name: Code Watch Deploy
 
 on:
   workflow_dispatch:
+    inputs:
+      force_deploy:
+        description: "Build and deploy even when the semantic codes diff is empty."
+        required: false
+        default: false
+        type: boolean
   schedule:
     - cron: "7 * * * *"
     - cron: "37 * * * *"
@@ -55,8 +61,13 @@ jobs:
         id: changes
         run: |
           if git diff --quiet -- Database/Codes/codes.json; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "No semantic code changes."
+            if [ "${{ inputs.force_deploy || false }}" = "true" ]; then
+              echo "changed=true" >> "$GITHUB_OUTPUT"
+              echo "No semantic code changes, but force_deploy=true; continuing to build/deploy."
+            else
+              echo "changed=false" >> "$GITHUB_OUTPUT"
+              echo "No semantic code changes."
+            fi
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
             git diff --stat -- Database/Codes/codes.json

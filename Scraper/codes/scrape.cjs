@@ -38,6 +38,7 @@ function parseCliOptions(argv = process.argv.slice(2)) {
     changeGated: flags.has("--change-gated"),
     skipExpired: activeOnly,
     skipReddit: flags.has("--skip-reddit") || (activeOnly && !deep),
+    preserveMissing: activeOnly,
   };
 }
 
@@ -1166,6 +1167,11 @@ async function processGame(game, prevGame, options = {}) {
   // Reddit last so authoritative sources win the dedupe (date + rewards).
   // Reddit-only codes still survive — they just lose the metadata race.
   consume(reddit);
+  // Active-only watch mode is intentionally non-destructive. It catches new
+  // codes and metadata corrections quickly, while removals are left to the full
+  // refresh that also checks expired-source tables and is less vulnerable to a
+  // single active source returning an empty/stale edge cache.
+  if (options.preserveMissing) consume(prevGame?.codes);
 
   // Apply crimsonwitch authority prune: if we've seen this code on cw before
   // (or this run picked it up there) and the current cw fetch doesn't list

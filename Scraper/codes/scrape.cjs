@@ -3,6 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const cheerio = require("cheerio");
 const { isUsefulReward } = require("./reward-vocab.cjs");
+const { diffSemanticCodes } = require("./semantic-diff.cjs");
 
 // Codes redeem case-insensitively, so identity for dedupe/corroboration/expiry
 // matching is the upper-cased form. Display casing is preserved on the record;
@@ -26,6 +27,21 @@ const BURST_THRESHOLD = 5;
 const BURST_WINDOW_MS = 24 * 60 * 60 * 1000;
 
 const OUTPUT = path.join(__dirname, "..", "..", "Database", "Codes", "codes.json");
+
+function parseCliOptions(argv = process.argv.slice(2)) {
+  const flags = new Set(argv);
+  const activeOnly = flags.has("--active-only");
+  const deep = flags.has("--deep");
+  return {
+    activeOnly,
+    deep,
+    changeGated: flags.has("--change-gated"),
+    skipExpired: activeOnly,
+    skipReddit: flags.has("--skip-reddit") || (activeOnly && !deep),
+  };
+}
+
+const CLI_OPTIONS = parseCliOptions();
 
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36";
 const HTML_HEADERS = {
@@ -1027,15 +1043,15 @@ async function fetchExpiredAll(slug) {
 
 // ---- per-game pipeline ------------------------------------------------------
 
-async function processGame(game, prevGame) {
+async function processGame(game, prevGame, options = {}) {
   // All sources for a game run concurrently. Reddit returns null only when
   // both subreddit fetches fail; otherwise it returns its candidate list
   // (which goes through the same expired-prune + dedupe as everything else).
   const tasks = [
     fetchNexusActive(game),               // null on failure
-    fetchCrimsonwitchActive(game.slug),   // null on failure
-    fetchExpiredAll(game.slug),
-    fetchRedditActive(game),              // null on failure, [] on no codes
+    game.slug === "wuwa" ? Promise.resolve(null) : fetchCrimsonwitchActive(game.slug), // null on failure / disabled source
+    options.skipExpired ? Promise.resolve(new Set()) : fetchExpiredAll(game.slug),
+    options.skipReddit ? Promise.resolve([]) : fetchRedditActive(game), // null on failure, [] on no codes
     fetchHoyoCodes(game),                 // null on failure, [] when game not covered
   ];
   if (game.slug === "wuwa") tasks.push(fetchGame8WuwaActive());
@@ -1257,8 +1273,13 @@ async function processGame(game, prevGame) {
 
 // ---- main -------------------------------------------------------------------
 
-async function main() {
+async function main(options = CLI_OPTIONS) {
   console.log(`Cutoff: codes added in the last ${MAX_AGE_DAYS} days (livestream/100-premium: 72h)`);
+  if (options.activeOnly) {
+    const reddit = options.skipReddit ? "skipped" : "enabled";
+    console.log(`Mode: active-only (expired-table sweeps skipped, Reddit ${reddit})`);
+  }
+  if (options.changeGated) console.log("Mode: change-gated (timestamp-only changes will not rewrite codes.json)");
 
   // Load existing JSON up front so processGame can read prev cwSeen flags.
   let existing = null;
@@ -1268,7 +1289,7 @@ async function main() {
     : {};
 
   const games = await Promise.all(
-    SOURCES.map((s) => processGame(s, prevBySlug[s.slug]))
+    SOURCES.map((s) => processGame(s, prevBySlug[s.slug], options))
   );
   for (const g of games) {
     const status = g.lastSuccessfulFetch ? "ok" : "primary-failed";
@@ -1292,6 +1313,17 @@ async function main() {
     maxAgeDays: MAX_AGE_DAYS,
     games,
   };
+
+  if (options.changeGated && existing) {
+    const diff = diffSemanticCodes(existing, payload);
+    if (!diff.changed) {
+      console.log("No semantic code changes; leaving Database/Codes/codes.json unchanged.");
+      return;
+    }
+    console.log("Semantic code changes detected:");
+    for (const line of diff.summary) console.log(`  ${line}`);
+  }
+
   fs.mkdirSync(path.dirname(OUTPUT), { recursive: true });
   fs.writeFileSync(OUTPUT, JSON.stringify(payload, null, 2));
   console.log(`Saved ${OUTPUT}`);
@@ -1314,6 +1346,7 @@ module.exports = {
   isAuthoritativeSource,
   isInviteShapedCode,
   classifyPremium,
+  parseCliOptions,
   codeKey,
   CN_CONTEXT_RE,
   REDDIT_SUBS,

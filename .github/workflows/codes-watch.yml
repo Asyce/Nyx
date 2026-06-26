@@ -1,0 +1,110 @@
+name: Codes watch & deploy
+
+# Lightweight redemption-code watcher.
+# Normal cadence: hourly at :07.
+# Livestream window cadence: also runs at :37, using deep mode.
+# Build/deploy/commit happen only when Database/Codes/codes.json has a semantic
+# code diff; timestamp-only checks leave the file untouched and exit cleanly.
+
+on:
+  schedule:
+    - cron: '7 * * * *'
+    - cron: '37 * * * *'
+  workflow_dispatch: {}
+
+concurrency:
+  group: pengo-deploy
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    env:
+      CF_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Decide watch mode
+        id: mode
+        working-directory: Scraper
+        run: node ./codes/watch-mode.cjs
+
+      - name: Skip inactive half-hour check
+        if: ${{ steps.mode.outputs.should_run != 'true' }}
+        run: echo "Skipping codes watch: ${{ steps.mode.outputs.reason }}"
+
+      - name: Install scraper deps
+        if: ${{ steps.mode.outputs.should_run == 'true' }}
+        working-directory: Scraper
+        run: npm install --no-audit --no-fund
+
+      - name: Scrape codes
+        if: ${{ steps.mode.outputs.should_run == 'true' }}
+        working-directory: Scraper
+        run: npm run "${{ steps.mode.outputs.npm_script }}"
+
+      - name: Detect semantic code changes
+        if: ${{ steps.mode.outputs.should_run == 'true' }}
+        id: changes
+        run: |
+          if git diff --quiet -- Database/Codes/codes.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No semantic code changes."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git diff --stat -- Database/Codes/codes.json
+          fi
+
+      - name: Validate scraped data
+        if: ${{ steps.changes.outputs.changed == 'true' }}
+        working-directory: Scraper
+        run: npm run validate
+
+      - name: Ensure LFS objects resolved
+        if: ${{ steps.changes.outputs.changed == 'true' }}
+        run: |
+          for i in 1 2 3; do
+            git lfs pull && break
+            echo "git lfs pull attempt $i failed; retrying" && sleep 5
+          done
+          for f in Database/Nanoka/hsr/live/characters.json Database/Nanoka/gi/live/characters.json; do
+            if head -c 40 "$f" | grep -q 'git-lfs'; then
+              echo "::error::$f is still an LFS pointer after git lfs pull"; exit 1
+            fi
+          done
+
+      - name: Install site deps
+        if: ${{ steps.changes.outputs.changed == 'true' }}
+        working-directory: Site
+        run: npm install --no-audit --no-fund
+
+      - name: Build site
+        if: ${{ steps.changes.outputs.changed == 'true' }}
+        working-directory: Site
+        run: npm run build:deploy
+
+      - name: Deploy to Cloudflare
+        if: ${{ steps.changes.outputs.changed == 'true' && env.CF_API_TOKEN != '' }}
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: npx --yes wrangler deploy
+
+      - name: Commit refreshed codes
+        if: ${{ steps.changes.outputs.changed == 'true' }}
+        run: |
+          git config user.name "pengo-bot"
+          git config user.email "bot@pengo.gg"
+          git add Database/Codes/codes.json
+          if git diff --cached --quiet; then
+            echo "No code changes to commit."
+          else
+            git commit -m "chore(data): codes watch refresh [skip ci]"
+            git push
+          fi

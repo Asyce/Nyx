@@ -10,7 +10,7 @@ Three scheduled jobs keep pengo.gg fresh and deploy automatically.
 
 Before any deploy:
 - `data-refresh.yml` runs `Scraper` unit tests (`npm test`) and the structural data gate (`npm run validate`).
-- `roster-sync.yml` and `codes-watch.yml` run the structural data gate (`npm run validate`).
+- `roster-sync.yml` and `code-watch.yml` run the structural data gate (`npm run validate`).
 - A failure stops the run, so the already-live last-known-good is preserved.
 - The deploy step is skipped automatically when no Cloudflare token is configured.
 

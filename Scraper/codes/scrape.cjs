@@ -28,8 +28,16 @@ const BURST_WINDOW_MS = 24 * 60 * 60 * 1000;
 
 const OUTPUT = path.join(__dirname, "..", "..", "Database", "Codes", "codes.json");
 
-function parseCliOptions(argv = process.argv.slice(2)) {
+function parseGameList(value = "") {
+  return String(value || "")
+    .split(/[\s,]+/)
+    .map((s) => s.trim().toLowerCase())
+    .filter(Boolean);
+}
+
+function parseCliOptions(argv = process.argv.slice(2), env = process.env) {
   const flags = new Set(argv);
+  const redditGamesArg = argv.find((arg) => arg.startsWith("--reddit-games="));
   const activeOnly = flags.has("--active-only");
   const deep = flags.has("--deep");
   return {
@@ -38,6 +46,7 @@ function parseCliOptions(argv = process.argv.slice(2)) {
     changeGated: flags.has("--change-gated"),
     skipExpired: activeOnly,
     skipReddit: flags.has("--skip-reddit") || (activeOnly && !deep),
+    redditGames: parseGameList(redditGamesArg ? redditGamesArg.slice("--reddit-games=".length) : env.CODES_REDDIT_GAMES),
     preserveMissing: activeOnly,
   };
 }
@@ -530,6 +539,10 @@ const REDDIT_STOPWORDS = new Set([
 const REDDIT_TIMEOUT_MS = 12_000;
 const REDDIT_LISTING_LIMIT = 25;       // entries pulled per search/new RSS feed
 const REDDIT_NEW_POST_MAX_AGE_HOURS = 36;
+// /new.rss is much more prone to 429s from datacenter IPs than search.rss.
+// Keep it as an explicit local/debug fallback, but make CI's normal deep pass
+// lean on the endpoint that still returns 200 consistently.
+const REDDIT_INCLUDE_NEW = /^(1|true|yes)$/i.test(process.env.REDDIT_INCLUDE_NEW || "");
 // Cap on comment-fetches per game (1 fetch per target post). With the
 // global REDDIT_MIN_GAP_MS gate below, 8 per game × 4 games × ~11 calls
 // each = ~35s of serialized fetches per hourly run — comfortable.
@@ -889,19 +902,22 @@ async function fetchRedditActive(game) {
   if (!subs || !subs.length) return [];
   const tag = `reddit-${game.slug}`;
 
-  // Discover across every configured sub. Two surfaces per sub:
-  //   1. Subreddit search (last month) for code-drop keywords — catches
-  //      "[Code] X.Y Livestream", "Active Codes Compilation", etc.
-  //   2. /new — catches very recent posts the search index may not have
-  //      picked up yet (Reddit search lags ~10–30 min behind submission).
+  // Discover across every configured sub. `search.rss` is the default surface:
+  // it catches "[Code] X.Y Livestream", "Active Codes Compilation", etc. and is
+  // currently much less rate-limited than /new.rss. /new can be enabled locally
+  // with REDDIT_INCLUDE_NEW=1 when debugging fresh submissions.
   const feedJobs = [];
   for (const sub of subs) {
     const searchPath = `/r/${sub}/search.rss?q=${encodeURIComponent("code OR redeem OR livestream")}&restrict_sr=on&sort=new&t=month&limit=${REDDIT_LISTING_LIMIT}`;
-    const newPath = `/r/${sub}/new.rss?limit=${REDDIT_LISTING_LIMIT}`;
     feedJobs.push(
       fetchRedditRss(searchPath, `${tag}-${sub}-search`).then((xml) => ({ sub, xml, requireKeyword: false, applyAgeCutoff: false })),
-      fetchRedditRss(newPath, `${tag}-${sub}-new`).then((xml) => ({ sub, xml, requireKeyword: true, applyAgeCutoff: true })),
     );
+    if (REDDIT_INCLUDE_NEW) {
+      const newPath = `/r/${sub}/new.rss?limit=${REDDIT_LISTING_LIMIT}`;
+      feedJobs.push(
+        fetchRedditRss(newPath, `${tag}-${sub}-new`).then((xml) => ({ sub, xml, requireKeyword: true, applyAgeCutoff: true })),
+      );
+    }
   }
   const feeds = await Promise.all(feedJobs);
   if (feeds.every((f) => !f.xml)) return null;
@@ -940,11 +956,15 @@ async function fetchRedditActive(game) {
     const permalink = post.link || `https://www.reddit.com/r/${post.sub}/comments/${post.id}/`;
     const postedAt = post.date ?? new Date();
     // Scan the post body (self-text). Link posts have no body — harmless.
+    const bodyCandidateCount = byCode.size;
     harvestRedditCodes(post.body, postedAt, permalink, byCode);
+    const foundInBody = byCode.size > bodyCandidateCount;
 
     // Only dig into comments when the title looks code-related — most code
-    // drops live in a pinned comment under a "Livestream"/"Codes" post.
-    if (!REDDIT_COMMENT_KEYWORD_RE.test(post.title)) continue;
+    // drops live in a pinned comment under a "Livestream"/"Codes" post. If the
+    // listing body already carried candidates, skip comments; comment RSS is the
+    // next most common 429 source and usually adds no value for body code posts.
+    if (foundInBody || !REDDIT_COMMENT_KEYWORD_RE.test(post.title)) continue;
     let commentPath;
     try {
       commentPath = new URL(permalink).pathname.replace(/\/$/, "");
@@ -1045,6 +1065,8 @@ async function fetchExpiredAll(slug) {
 // ---- per-game pipeline ------------------------------------------------------
 
 async function processGame(game, prevGame, options = {}) {
+  const redditTargets = new Set(options.redditGames || []);
+  const skipRedditForGame = options.skipReddit || (redditTargets.size > 0 && !redditTargets.has(game.slug));
   // All sources for a game run concurrently. Reddit returns null only when
   // both subreddit fetches fail; otherwise it returns its candidate list
   // (which goes through the same expired-prune + dedupe as everything else).
@@ -1052,7 +1074,7 @@ async function processGame(game, prevGame, options = {}) {
     fetchNexusActive(game),               // null on failure
     game.slug === "wuwa" ? Promise.resolve(null) : fetchCrimsonwitchActive(game.slug), // null on failure / disabled source
     options.skipExpired ? Promise.resolve(new Set()) : fetchExpiredAll(game.slug),
-    options.skipReddit ? Promise.resolve([]) : fetchRedditActive(game), // null on failure, [] on no codes
+    skipRedditForGame ? Promise.resolve([]) : fetchRedditActive(game), // null on failure, [] on no codes
     fetchHoyoCodes(game),                 // null on failure, [] when game not covered
   ];
   if (game.slug === "wuwa") tasks.push(fetchGame8WuwaActive());
@@ -1282,7 +1304,11 @@ async function processGame(game, prevGame, options = {}) {
 async function main(options = CLI_OPTIONS) {
   console.log(`Cutoff: codes added in the last ${MAX_AGE_DAYS} days (livestream/100-premium: 72h)`);
   if (options.activeOnly) {
-    const reddit = options.skipReddit ? "skipped" : "enabled";
+    const reddit = options.skipReddit
+      ? "skipped"
+      : options.redditGames?.length
+        ? `enabled for ${options.redditGames.join(",")}`
+        : "enabled";
     console.log(`Mode: active-only (expired-table sweeps skipped, Reddit ${reddit})`);
   }
   if (options.changeGated) console.log("Mode: change-gated (timestamp-only changes will not rewrite codes.json)");
@@ -1353,6 +1379,7 @@ module.exports = {
   isInviteShapedCode,
   classifyPremium,
   parseCliOptions,
+  parseGameList,
   codeKey,
   CN_CONTEXT_RE,
   REDDIT_SUBS,

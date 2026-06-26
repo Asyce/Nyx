@@ -57,6 +57,7 @@ jobs:
         env:
           REDDIT_PROXY_BASE: ${{ secrets.REDDIT_PROXY_BASE }}
           REDDIT_PROXY_SECRET: ${{ secrets.REDDIT_PROXY_SECRET }}
+          CODES_REDDIT_GAMES: ${{ steps.mode.outputs.reddit_games }}
         run: npm run "${{ steps.mode.outputs.npm_script }}"
 
       - name: Detect semantic code changes

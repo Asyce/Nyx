@@ -3,7 +3,7 @@ const assert = require("node:assert/strict");
 
 const { diffSemanticCodes } = require("../semantic-diff.cjs");
 const { decideWatchMode } = require("../watch-mode.cjs");
-const { parseCliOptions } = require("../scrape.cjs");
+const { parseCliOptions, parseGameList } = require("../scrape.cjs");
 
 function baseCodes() {
   return {
@@ -86,6 +86,7 @@ test("watch mode enables deep checks during livestream windows", () => {
   assert.equal(mode.shouldRun, true);
   assert.equal(mode.deep, true);
   assert.equal(mode.npmScript, "codes:watch:deep");
+  assert.deepEqual(mode.redditGames, ["wuwa"]);
 });
 
 test("active-only scraper mode preserves prior codes and skips destructive sweeps", () => {
@@ -94,8 +95,13 @@ test("active-only scraper mode preserves prior codes and skips destructive sweep
   assert.equal(normal.skipReddit, true);
   assert.equal(normal.preserveMissing, true);
 
-  const deep = parseCliOptions(["--active-only", "--deep", "--change-gated"]);
+  const deep = parseCliOptions(["--active-only", "--deep", "--change-gated"], { CODES_REDDIT_GAMES: "wuwa,zzz" });
   assert.equal(deep.skipExpired, true);
   assert.equal(deep.skipReddit, false);
+  assert.deepEqual(deep.redditGames, ["wuwa", "zzz"]);
   assert.equal(deep.preserveMissing, true);
+});
+
+test("reddit game list normalizes comma and whitespace separated values", () => {
+  assert.deepEqual(parseGameList(" WUWA, zzz hsr "), ["wuwa", "zzz", "hsr"]);
 });

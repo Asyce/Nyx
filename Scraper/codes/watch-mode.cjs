@@ -24,9 +24,16 @@ function activeWindows(windows, now) {
   });
 }
 
+function windowGames(windows) {
+  return [...new Set(windows
+    .map((w) => String(w.game || '').trim().toLowerCase())
+    .filter(Boolean))];
+}
+
 function decideWatchMode({ now = new Date(), eventName = '', schedule = '', windows = [] } = {}) {
   const active = activeWindows(windows, now);
   const deep = active.some((w) => String(w.mode || '').toLowerCase() === 'deep');
+  const redditGames = deep ? windowGames(active) : [];
   const isExtraHalfHour = /^37\s/.test(schedule || '');
   const isSchedule = eventName === 'schedule';
   const shouldRun = !isSchedule || deep || !isExtraHalfHour;
@@ -38,6 +45,7 @@ function decideWatchMode({ now = new Date(), eventName = '', schedule = '', wind
     shouldRun,
     deep,
     npmScript: deep ? 'codes:watch:deep' : 'codes:watch',
+    redditGames,
     reason,
   };
 }
@@ -73,6 +81,7 @@ function main() {
     should_run: mode.shouldRun ? 'true' : 'false',
     deep: mode.deep ? 'true' : 'false',
     npm_script: mode.npmScript,
+    reddit_games: mode.redditGames.join(','),
     reason: mode.reason,
   });
 }
@@ -83,4 +92,5 @@ module.exports = {
   activeWindows,
   decideWatchMode,
   loadWindows,
+  windowGames,
 };

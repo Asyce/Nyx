@@ -54,6 +54,9 @@ jobs:
       - name: Scrape codes
         if: ${{ steps.mode.outputs.should_run == 'true' }}
         working-directory: Scraper
+        env:
+          REDDIT_PROXY_BASE: ${{ secrets.REDDIT_PROXY_BASE }}
+          REDDIT_PROXY_SECRET: ${{ secrets.REDDIT_PROXY_SECRET }}
         run: npm run "${{ steps.mode.outputs.npm_script }}"
 
       - name: Detect semantic code changes

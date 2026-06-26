@@ -1,4 +1,4 @@
-name: Codes watch & deploy
+name: "Codes watch and deploy"
 
 # Lightweight redemption-code watcher.
 # Normal cadence: hourly at :07.
@@ -6,11 +6,11 @@ name: Codes watch & deploy
 # Build/deploy/commit happen only when Database/Codes/codes.json has a semantic
 # code diff; timestamp-only checks leave the file untouched and exit cleanly.
 
-on:
+"on":
   schedule:
     - cron: '7 * * * *'
     - cron: '37 * * * *'
-  workflow_dispatch: {}
+  workflow_dispatch:
 
 concurrency:
   group: pengo-deploy

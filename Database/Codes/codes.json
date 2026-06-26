@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T19:22:20.119Z",
+  "generatedAt": "2026-06-26T20:01:26.736Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-06-26T19:22:08.889Z",
+      "lastSuccessfulFetch": "2026-06-26T20:01:15.048Z",
       "codes": [
         {
           "code": "MAGENICOLESPUZZLE",
@@ -82,7 +82,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-06-26T19:22:08.843Z",
+      "lastSuccessfulFetch": "2026-06-26T20:01:15.041Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -191,7 +191,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-06-26T19:22:08.873Z",
+      "lastSuccessfulFetch": "2026-06-26T20:01:15.056Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -263,40 +263,46 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-06-26T19:22:20.119Z",
+      "lastSuccessfulFetch": "2026-06-26T20:01:26.736Z",
       "codes": [],
       "review": {
-        "reason": "3 Wuthering Waves code(s) held for review: held from an earlier run. Confirm legit ones in REVIEWED_CODES to publish.",
-        "detectedAt": "2026-06-26T19:22:20.119Z",
+        "reason": "3 Wuthering Waves code(s) held for review: 3 unconfirmed Reddit-only code(s). Confirm legit ones in REVIEWED_CODES to publish.",
+        "detectedAt": "2026-06-26T20:01:26.736Z",
         "codes": [
           {
             "code": "INTOTHEFOG",
-            "rewards": "100 Astrite, 2 Forgery Premium Supply II, 20,000 Shell Credits",
+            "rewards": "Codes",
             "added": "2026-06-26",
-            "sourceUrl": "https://game8.co/games/Wuthering-Waves/archives/453149",
-            "premium": true,
-            "premium100": true,
+            "sourceUrl": "https://www.reddit.com/r/WutheringWaves/comments/1ug5thl/35_livestream_summary/",
+            "mentions": 1,
+            "premium": false,
+            "premium100": false,
             "cwSeen": false,
+            "reviewReason": "unconfirmed Reddit-only code (no real reward; single mention)",
             "firstSeen": "2026-06-26T17:34:25.968Z"
           },
           {
             "code": "MECHANISMCITY",
-            "rewards": "100 Astrite, 4 Premium Resonance Potion, 5 Advanced Energy Core",
+            "rewards": "Codes",
             "added": "2026-06-26",
-            "sourceUrl": "https://game8.co/games/Wuthering-Waves/archives/453149",
-            "premium": true,
-            "premium100": true,
+            "sourceUrl": "https://www.reddit.com/r/WutheringWaves/comments/1ug5thl/35_livestream_summary/",
+            "mentions": 1,
+            "premium": false,
+            "premium100": false,
             "cwSeen": false,
+            "reviewReason": "unconfirmed Reddit-only code (no real reward; single mention)",
             "firstSeen": "2026-06-26T17:34:25.968Z"
           },
           {
             "code": "REUNION",
-            "rewards": "100 Astrite, 20 Premium Tuners, 5 Advanced Sealed Tubes",
+            "rewards": "Codes",
             "added": "2026-06-26",
-            "sourceUrl": "https://game8.co/games/Wuthering-Waves/archives/453149",
-            "premium": true,
-            "premium100": true,
+            "sourceUrl": "https://www.reddit.com/r/WutheringWaves/comments/1ug5thl/35_livestream_summary/",
+            "mentions": 1,
+            "premium": false,
+            "premium100": false,
             "cwSeen": false,
+            "reviewReason": "unconfirmed Reddit-only code (no real reward; single mention)",
             "firstSeen": "2026-06-26T17:34:25.968Z"
           }
         ]

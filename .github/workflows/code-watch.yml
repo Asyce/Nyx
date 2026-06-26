@@ -1,4 +1,4 @@
-name: "Codes watch and deploy"
+name: Code Watch Deploy
 
 # Lightweight redemption-code watcher.
 # Normal cadence: hourly at :07.
@@ -6,11 +6,11 @@ name: "Codes watch and deploy"
 # Build/deploy/commit happen only when Database/Codes/codes.json has a semantic
 # code diff; timestamp-only checks leave the file untouched and exit cleanly.
 
-"on":
-  schedule:
-    - cron: '7 * * * *'
-    - cron: '37 * * * *'
+on:
   workflow_dispatch:
+  schedule:
+    - cron: "7 * * * *"
+    - cron: "37 * * * *"
 
 concurrency:
   group: pengo-deploy
@@ -29,7 +29,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Decide watch mode
         id: mode
@@ -38,7 +38,7 @@ jobs:
 
       - name: Skip inactive half-hour check
         if: ${{ steps.mode.outputs.should_run != 'true' }}
-        run: echo "Skipping codes watch: ${{ steps.mode.outputs.reason }}"
+        run: echo "Skipping codes watch - ${{ steps.mode.outputs.reason }}"
 
       - name: Install scraper deps
         if: ${{ steps.mode.outputs.should_run == 'true' }}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T20:22:14.045Z",
+  "generatedAt": "2026-06-26T04:39:13.931Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,22 +9,12 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-06-25T20:22:14.044Z",
+      "lastSuccessfulFetch": "2026-06-26T04:39:13.931Z",
       "codes": [
-        {
-          "code": "LEGEDILJKSGM",
-          "rewards": "60 Primogems and Five Adventurer S Experience",
-          "added": "2026-06-25",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
-          "premium": true,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-06-22T20:55:49.647Z"
-        },
         {
           "code": "MAGENICOLESPUZZLE",
           "rewards": "Primogem x 60, Midsommar Torte x 1, Fruit Tandem Turnovers x 1, Chenyu Adeptea x 5",
-          "added": "2026-06-25",
+          "added": "2026-06-26",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MAGENICOLESPUZZLE",
           "hoyoVerified": true,
           "premium": true,
@@ -35,13 +25,23 @@
         {
           "code": "PFY1S40I88T9",
           "rewards": "Primogem x 60, Adventurer's Experience x 5",
-          "added": "2026-06-25",
+          "added": "2026-06-26",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9",
           "hoyoVerified": true,
           "premium": true,
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-06-20T23:42:46.446Z"
+        },
+        {
+          "code": "LEGEDILJKSGM",
+          "rewards": "60 Primogems and Five Adventurer S Experience",
+          "added": "2026-06-25",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
+          "premium": true,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-06-22T20:55:49.647Z"
         },
         {
           "code": "LCXGEA5SX65L",
@@ -82,12 +82,12 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-06-25T20:22:02.338Z",
+      "lastSuccessfulFetch": "2026-06-26T04:39:11.541Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
           "rewards": "30 stellar jade, three traveler's guides, five condensed aether, four lost gold fragments, and 20k credits",
-          "added": "2026-06-25",
+          "added": "2026-06-26",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "hoyoVerified": true,
           "premium": true,
@@ -98,7 +98,7 @@
         {
           "code": "5S6ZHRWTDNJB",
           "rewards": "60 stellar jade",
-          "added": "2026-06-25",
+          "added": "2026-06-26",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "hoyoVerified": true,
           "premium": true,
@@ -109,7 +109,7 @@
         {
           "code": "CREATIONNYMPH",
           "rewards": "60 stellar jade and one fuel",
-          "added": "2026-06-25",
+          "added": "2026-06-26",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "hoyoVerified": true,
           "premium": true,
@@ -120,7 +120,7 @@
         {
           "code": "CTK5DRQVT48F",
           "rewards": "",
-          "added": "2026-06-25",
+          "added": "2026-06-26",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CTK5DRQVT48F",
           "hoyoVerified": true,
           "premium": false,
@@ -131,7 +131,7 @@
         {
           "code": "FAREWELL",
           "rewards": "60 stellar jade and one fuel",
-          "added": "2026-06-25",
+          "added": "2026-06-26",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "hoyoVerified": true,
           "premium": true,
@@ -142,7 +142,7 @@
         {
           "code": "IFYOUAREREADINGTHIS",
           "rewards": "60 stellar jade and one fuel",
-          "added": "2026-06-25",
+          "added": "2026-06-26",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "hoyoVerified": true,
           "premium": true,
@@ -153,7 +153,7 @@
         {
           "code": "OMEGA",
           "rewards": "60 stellar jade and one fuel",
-          "added": "2026-06-25",
+          "added": "2026-06-26",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "hoyoVerified": true,
           "premium": true,
@@ -164,7 +164,7 @@
         {
           "code": "STARRAILGIFT",
           "rewards": "50 stellar jade, 10k credits, two traveler's guides, and five bottled soda",
-          "added": "2026-06-25",
+          "added": "2026-06-26",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "hoyoVerified": true,
           "premium": true,
@@ -191,12 +191,12 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-06-25T20:22:08.709Z",
+      "lastSuccessfulFetch": "2026-06-26T04:39:08.366Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
           "rewards": "50 polychrome, two official investigator logs, three w-engine power supplies, and one bangboo algorithm module",
-          "added": "2026-06-25",
+          "added": "2026-06-26",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "hoyoVerified": true,
           "premium": true,
@@ -263,7 +263,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-06-25T20:22:07.211Z",
+      "lastSuccessfulFetch": "2026-06-26T04:39:09.941Z",
       "codes": []
     }
   ]

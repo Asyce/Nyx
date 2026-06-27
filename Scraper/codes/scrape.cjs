@@ -1186,14 +1186,17 @@ async function processGame(game, prevGame, options = {}) {
   // Reddit code it also lists wins the dedupe with a non-reddit sourceUrl and is
   // thereby corroborated (no longer "Reddit-only").
   consume(hoyo);
+  // Active-only watch mode is intentionally non-destructive. Preserve previous
+  // live records before Reddit so an already-published authoritative record
+  // (for example Game8-backed WuWa livestream codes) cannot be downgraded to a
+  // Reddit-only review item when the active source misses a run.
+  if (options.preserveMissing) consume(prevGame?.codes);
   // Reddit last so authoritative sources win the dedupe (date + rewards).
   // Reddit-only codes still survive — they just lose the metadata race.
   consume(reddit);
-  // Active-only watch mode is intentionally non-destructive. It catches new
-  // codes and metadata corrections quickly, while removals are left to the full
-  // refresh that also checks expired-source tables and is less vulnerable to a
-  // single active source returning an empty/stale edge cache.
-  if (options.preserveMissing) consume(prevGame?.codes);
+  // Active-only removals are left to the full refresh that also checks expired
+  // source tables and is less vulnerable to a single active source returning an
+  // empty/stale edge cache.
 
   // Apply crimsonwitch authority prune: if we've seen this code on cw before
   // (or this run picked it up there) and the current cw fetch doesn't list
@@ -1260,9 +1263,13 @@ async function processGame(game, prevGame, options = {}) {
   for (const c of kept) {
     const key = codeKey(c.code);
     // Verified-redeemable codes are never burst-held, and a previously-held code
-    // that hoyo now verifies is released.
+    // that hoyo now verifies is released. Likewise, a previously-held Reddit
+    // candidate is released once a non-Reddit source corroborates it with useful
+    // metadata; otherwise one weak Reddit pass can quarantine a real code
+    // forever even after Game8/Nexus catches up.
+    const stillHeldFromEarlier = prevHeld.has(key) && !isAuthoritativeSource(c.sourceUrl);
     const hold = !REVIEWED_CODES.has(c.code) && !hoyoVerifiedKeys.has(key) &&
-      (prevHeld.has(key) ||        // quarantined on a previous run
+      (stillHeldFromEarlier ||     // quarantined on a previous run and still Reddit-only
         gateHeldKeys.has(key) ||   // failed the Reddit-only confidence gate
         (burst && isRecentFirstSeen(c)));   // caught in a sudden flood
     (hold ? heldCodes : liveCodes).push(c);

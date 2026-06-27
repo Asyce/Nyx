@@ -2636,13 +2636,14 @@ const premiumCurrencyMeta = {
   hsr: { name: 'Stellar Jade', needle: 'stellar jade', icon: dbAsset('Nanoka/hsr/assets/items/900001.webp') },
   zzz: { name: 'Polychrome', needle: 'polychrome', icon: dbAsset('Nanoka/zzz/assets/items/IconCurrency.webp') },
   wuwa: { name: 'Astrite', needle: 'astrite', icon: dbAsset('Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zcpq_UI.webp') },
-  ae: { name: 'Originium', needle: 'originium', icon: null },
+  ae: { name: 'Oroberyl', needle: 'oroberyl', aliases: ['originium'], icon: null },
 };
 
 function codeHasPremiumCurrency(key, reward) {
-  const needle = premiumCurrencyMeta[key]?.needle;
-  if (!needle) return false;
-  return String(reward || '').toLowerCase().includes(needle);
+  const meta = premiumCurrencyMeta[key];
+  if (!meta?.needle) return false;
+  const text = String(reward || '').toLowerCase();
+  return [meta.needle, ...(meta.aliases || [])].some((needle) => text.includes(String(needle).toLowerCase()));
 }
 
 // Delegates to the shared reward vocabulary so the site filter and the scraper's

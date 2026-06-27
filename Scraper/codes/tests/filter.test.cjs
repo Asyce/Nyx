@@ -13,6 +13,9 @@ const {
   harvestRedditCodes,
   isCnContext,
   isAuthoritativeSource,
+  classifyPremium,
+  collectGame8ExpiredCodes,
+  parseGame8EndfieldActive,
   codeKey,
 } = require("../scrape.cjs");
 const { isUsefulReward } = require("../reward-vocab.cjs");
@@ -78,6 +81,53 @@ test("isUsefulReward rejects merch junk and accepts real rewards (slug or key)",
   // authoritative hoyoverse gift link passes even without a keyword
   assert.equal(isUsefulReward("genshin", "Rewards", "https://genshin.hoyoverse.com/en/gift?code=X"), false, "literal 'Rewards' is rejected");
   assert.equal(isUsefulReward("genshin", "some thing", "https://genshin.hoyoverse.com/en/gift?code=X"), true);
+  assert.equal(isUsefulReward("endfield", "Oroberyl x150, T-Creds x10000", "https://nexus-codes.app/copy/?code=X"), true);
+  assert.equal(isUsefulReward("ae", "Advanced Combat Record x2, Arms INSP Kit x2", "https://game8.co/x"), true);
+});
+
+test("Endfield premium rewards are classified", () => {
+  assert.deepEqual(classifyPremium("Oroberyl x150 and T-Creds x10000"), { premium: true, premium100: false });
+  assert.deepEqual(classifyPremium("100 Originium"), { premium: true, premium100: true });
+});
+
+test("Game8 expired parser handles nested Endfield expired sections", () => {
+  const html = `
+    <h2>Arknights: Endfield Expired Codes</h2>
+    <h3>All Expired Codes</h3>
+    <table>
+      <tr><th>Redeem Codes</th><th>Reward</th></tr>
+      <tr><td>ALLFIELD Expired 1/29/2026</td><td>Oroberyl x1500</td></tr>
+      <tr><td>RETURNOFALL Expired 1/29/2026</td><td>Oroberyl x500</td></tr>
+    </table>
+    <h2>How to Redeem Codes</h2>
+  `;
+  assert.deepEqual([...collectGame8ExpiredCodes(html, { mode: "table" })].sort(), ["ALLFIELD", "RETURNOFALL"]);
+});
+
+test("Game8 active parser extracts Endfield clipboard codes and rewards", () => {
+  const html = `
+    <h2>Arknights: Endfield Active Codes</h2>
+    <table>
+      <tr><th>Redeem Codes</th><th>Reward</th></tr>
+      <tr>
+        <td><input class="a-clipboard__textInput" value="ENDFIELDGIFT" /></td>
+        <td><div>Oroberyl x150</div><div>T-Creds x10,000</div></td>
+      </tr>
+    </table>
+    <h2>Arknights: Endfield Expired Codes</h2>
+    <table>
+      <tr><td><input class="a-clipboard__textInput" value="ALLFIELD" /></td><td>Oroberyl x1500</td></tr>
+    </table>
+  `;
+  assert.deepEqual(parseGame8EndfieldActive(html, { today: new Date("2026-06-27T00:00:00Z"), sourceUrl: "https://game8.test/endfield" }), [
+    {
+      code: "ENDFIELDGIFT",
+      rewards: "Oroberyl x150 T-Creds x10,000",
+      added: "2026-06-27",
+      sourceUrl: "https://game8.test/endfield",
+      keepWhileActive: true,
+    },
+  ]);
 });
 
 // --- region / expiry parsing -----------------------------------------------

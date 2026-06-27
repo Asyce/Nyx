@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T01:32:11.800Z",
+  "generatedAt": "2026-06-27T02:38:03.135Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-06-27T01:31:57.211Z",
+      "lastSuccessfulFetch": "2026-06-27T02:38:02.919Z",
       "codes": [
         {
           "code": "MAGENICOLESPUZZLE",
@@ -73,7 +73,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-06-27T01:31:56.716Z",
+      "lastSuccessfulFetch": "2026-06-27T02:38:02.914Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -182,7 +182,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-06-27T01:31:57.154Z",
+      "lastSuccessfulFetch": "2026-06-27T02:38:02.923Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -254,7 +254,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-06-27T01:32:11.800Z",
+      "lastSuccessfulFetch": "2026-06-27T02:38:03.099Z",
       "codes": [
         {
           "code": "INTOTHEFOG",
@@ -285,6 +285,47 @@
           "premium100": true,
           "cwSeen": false,
           "firstSeen": "2026-06-26T17:34:25.968Z"
+        }
+      ]
+    },
+    {
+      "slug": "endfield",
+      "name": "Arknights: Endfield",
+      "icon": "AE",
+      "redeemBase": "",
+      "note": "Redeem ingame via Settings > Account > Exchange Code",
+      "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
+      "lastSuccessfulFetch": "2026-06-27T02:38:03.135Z",
+      "codes": [
+        {
+          "code": "ZAU2SYXHWX5L4ZH",
+          "rewards": "T-Creds x5000 Arms INSP Kit x10,000",
+          "added": "2026-05-05",
+          "sourceUrl": "https://game8.co/games/Arknights-Endfield/archives/571509",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-06-27T02:37:15.585Z"
+        },
+        {
+          "code": "ENDFIELD4PC",
+          "rewards": "T-Creds x13,000 Advanced Combat Record x2 Arms INSP Kit x2",
+          "added": "2026-05-03",
+          "sourceUrl": "https://game8.co/games/Arknights-Endfield/archives/571509",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-06-27T02:37:15.585Z"
+        },
+        {
+          "code": "ENDFIELDGIFT",
+          "rewards": "Oroberyl x150 T-Creds x10,000 Intermediate Combat Record x20 Arms INSP Kit x20",
+          "added": "2026-05-03",
+          "sourceUrl": "https://game8.co/games/Arknights-Endfield/archives/571509",
+          "premium": true,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-06-27T02:37:15.585Z"
         }
       ]
     }

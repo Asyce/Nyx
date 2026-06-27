@@ -15,7 +15,7 @@ Before any deploy:
 - The deploy step is skipped automatically when no Cloudflare token is configured.
 
 `code-watch.yml` is intentionally lighter than the full refresh:
-- Before deciding its mode, it runs `npm run codes:livestreams`, which scans official YouTube feeds for version livestreams across Genshin, HSR, ZZZ, and WuWa, then updates `Scraper/codes/livestream-windows.json` only when the effective windows changed.
+- Before deciding its mode, it runs `npm run codes:livestreams`, which scans official YouTube feeds for version livestreams across Genshin, HSR, ZZZ, WuWa, and Arknights: Endfield, then updates `Scraper/codes/livestream-windows.json` only when the effective windows changed.
 - Normal mode runs `npm run codes:watch`, which skips expired-table sweeps and Reddit.
 - During active windows listed in `Scraper/codes/livestream-windows.json`, it runs `npm run codes:watch:deep`, which adds Reddit back for the detected game(s) and also enables the half-hour schedule.
 - `--change-gated` ignores timestamp-only changes (`generatedAt`, `lastSuccessfulFetch`, existing `firstSeen`) and leaves `Database/Codes/codes.json` untouched when the actual code set did not change.

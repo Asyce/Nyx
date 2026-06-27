@@ -12,7 +12,7 @@ const codeRewardKeywords = {
   hsr: ['stellar jade', 'credit', 'traveler', 'condensed aether', 'lost gold', 'quantum ghost'],
   zzz: ['polychrome', 'denny', 'investigator', 'w-engine', 'boopon'],
   wuwa: ['astrite', 'shell credit', 'resonance', 'potion', 'waveplate'],
-  ae: ['originium', 'industrial currency', 'skill summary'],
+  ae: ['oroberyl', 'originium', 't-creds', 't creds', 'combat record', 'arms insp', 'arms inspector', 'protoprism', 'protodisk', 'industrial currency', 'skill summary'],
 };
 
 // Junk-reward markers (merch/discount/affiliate language that shows up when a

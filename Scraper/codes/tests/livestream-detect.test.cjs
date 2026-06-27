@@ -2,6 +2,7 @@ const test = require("node:test");
 const assert = require("node:assert/strict");
 
 const {
+  SOURCES,
   activeWindowGames,
   isLivestreamEntry,
   mergeWindows,
@@ -44,9 +45,14 @@ test("livestream title filter accepts official programs and rejects ordinary pre
   assert.equal(isLivestreamEntry({ title: "Genshin Impact Version 6.0 Special Program" }), true);
   assert.equal(isLivestreamEntry({ title: "Zenless Zone Zero Version 3.0 Special Program" }), true);
   assert.equal(isLivestreamEntry({ title: "Wuthering Waves Version 3.5 Preview Special Broadcast" }), true);
+  assert.equal(isLivestreamEntry({ title: "Arknights: Endfield Special Program" }), true);
   assert.equal(isLivestreamEntry({ title: "Bangboo In the Clouds | Roscaelifer Special Livestream" }), false);
   assert.equal(isLivestreamEntry({ title: "Wuthering Waves Version 3.5 Geographic Preview" }), false);
   assert.equal(isLivestreamEntry({ title: "Version 3.5 Trailer | Cool New Area" }), false);
+});
+
+test("detector covers every code-capable Nyx game", () => {
+  assert.deepEqual(SOURCES.map((s) => s.game).sort(), ["endfield", "genshin", "hsr", "wuwa", "zzz"]);
 });
 
 test("windowFromEntry builds a buffered deep window from the program publish time", () => {

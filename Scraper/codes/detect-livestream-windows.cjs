@@ -40,6 +40,11 @@ const SOURCES = [
     name: 'Wuthering Waves',
     channelId: 'UC0Bi5KMcECRVYis5Gb_ZYZQ',
   },
+  {
+    game: 'endfield',
+    name: 'Arknights: Endfield',
+    channelId: 'UCowPaVRBzg8CE6K4CB6LJfw',
+  },
 ];
 
 function iso(date) {

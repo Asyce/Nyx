@@ -82,6 +82,10 @@ const SOURCES = [
     redeemBase: "",
     note: "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
     nexusUrl: "https://nexus-codes.app/games/WUWA/codes/" },
+  { slug: "endfield", name: "Arknights: Endfield", icon: "AE",
+    redeemBase: "",
+    note: "Redeem ingame via Settings > Account > Exchange Code",
+    nexusUrl: "https://nexus-codes.app/games/ARKEN/codes/" },
 ];
 
 // crimsonwitch.com is a Next.js SSR app; code data is embedded in
@@ -120,11 +124,15 @@ const EXPIRED_CONFIG = {
               page: "Redemption_Code", mode: "class-on-last-td", className: "bg-old" },
     game8: { url: "https://game8.co/games/Wuthering-Waves/archives/453149", mode: "strong" },
   },
+  endfield: {
+    fandom: null,
+    game8: { url: "https://game8.co/games/Arknights-Endfield/archives/571509", mode: "table" },
+  },
 };
 
-const PREMIUM_KEYS = ["Polychrome", "Astrite", "Stellar Jade", "Primogem"];
+const PREMIUM_KEYS = ["Polychrome", "Astrite", "Stellar Jade", "Primogem", "Oroberyl", "Originium"];
 // Loose match: "100 Primogems", "100x Primogem", "100 x Stellar Jade", etc.
-const PREMIUM100_RE = /\b100\s*x?\s*(?:Polychromes?|Astrites?|Stellar\s+Jades?|Primogems?)\b/i;
+const PREMIUM100_RE = /\b100\s*x?\s*(?:Polychromes?|Astrites?|Stellar\s+Jades?|Primogems?|Oroberyls?|Originiums?)\b/i;
 
 // Codes manually blacklisted (e.g. perma-active filler that nexus keeps surfacing).
 const IGNORED_CODES = new Set(["WUTHERINGGIFT"]);
@@ -424,6 +432,50 @@ async function fetchGame8WuwaActive() {
   return entries;
 }
 
+const GAME8_ENDFIELD_CODES_URL = "https://game8.co/games/Arknights-Endfield/archives/571509";
+
+function parseGame8EndfieldActive(html, { today = new Date(), sourceUrl = GAME8_ENDFIELD_CODES_URL } = {}) {
+  const $ = cheerio.load(html);
+  $("script, style").remove();
+
+  const expiredHeading = $("h2, h3, h4").filter((_, el) => /expired/i.test($(el).text())).first();
+  const entries = [];
+  const seen = new Set();
+
+  $("table").each((_, table) => {
+    if (expiredHeading.length && $(table).prevAll().filter((__, el) => el === expiredHeading[0]).length) return;
+
+    $(table).find("tr").each((__, tr) => {
+      const cells = $(tr).find("td");
+      if (cells.length < 2) return;
+      const code = normalizeText($(tr).find("input.a-clipboard__textInput").first().attr("value") || "");
+      if (!code || !/^[A-Za-z0-9]{4,20}$/.test(code) || seen.has(code)) return;
+      const rewardCell = cells.eq(1).clone();
+      rewardCell.find("br").replaceWith(" ");
+      rewardCell.find("div, p, li").append(" ");
+      const reward = normalizeText(rewardCell.text());
+      if (!reward) return;
+      seen.add(code);
+      entries.push({
+        code,
+        rewards: reward,
+        added: toIsoDate(today),
+        sourceUrl,
+        keepWhileActive: true,
+      });
+    });
+  });
+
+  return entries;
+}
+
+async function fetchGame8EndfieldActive() {
+  const tag = "endfield-game8-active";
+  const r = await fetchWithRetry(GAME8_ENDFIELD_CODES_URL, { tag });
+  if (!r.ok) { console.warn(`[${tag}] ${r.error}`); return []; }
+  return parseGame8EndfieldActive(r.text);
+}
+
 // ---- hoyo-codes (active, redemption-verified) ------------------------------
 //
 // hoyo-codes.seria.moe re-checks each code by actually attempting redemption
@@ -502,6 +554,7 @@ const REDDIT_SUBS = {
   hsr:     ["HonkaiStarRail", "StarRailStation"],
   zzz:     ["ZZZ_Official", "ZenlessZoneZero"],
   wuwa:    ["WutheringWaves"],
+  endfield: ["Endfield", "ArknightsEndfield"],
 };
 
 // Code-candidate regex. Accepts mixed case (e.g. "snezhnaya20260812") and
@@ -512,13 +565,14 @@ const REDDIT_CODE_RE = /\b[A-Za-z][A-Za-z0-9]{5,19}\b/g;
 
 // Title keywords that mark a post as worth scanning. Daily-questions and
 // general-discussion megathreads are excluded by absence of these.
-const REDDIT_TITLE_KEYWORD_RE = /\b(code|livestream|redeem|primogem|gift|special\s+(?:program|broadcast))/i;
+const REDDIT_TITLE_KEYWORD_RE = /\b(code|livestream|redeem|primogem|oroberyl|gift|special\s+(?:program|broadcast))/i;
 
 // Anything matching the regex but clearly not a code. Lowercased on lookup.
 const REDDIT_STOPWORDS = new Set([
   "genshin","genshinimpact","honkai","starrail","hsr","zenless","zonezero","wuthering",
-  "wutheringwaves","wuwa","mihoyo","hoyoverse","kuro","kurogames",
-  "primogems","stellarjades","polychromes","astrites","mora","credits",
+  "wutheringwaves","wuwa","arknights","endfield","arknightsendfield",
+  "mihoyo","hoyoverse","kuro","kurogames","gryphline","hypergryph",
+  "primogems","stellarjades","polychromes","astrites","oroberyls","originiums","mora","credits",
   "redeem","redemption","code","codes","gift","giftcode","livestream",
   "twitter","reddit","youtube","official","update","patch","version","season",
   "edited","deleted","removed","banned","spoilers","megathread",
@@ -526,7 +580,8 @@ const REDDIT_STOPWORDS = new Set([
   "europe","america","asia","global","server",
   // Singular reward-noun forms (the regex requires len ≥ 6, so these slip past
   // the plural entries above).
-  "primogem","polychrome","astrite","stellar","jades","oneiric","denny","dennies",
+  "primogem","polychrome","astrite","oroberyl","originium","stellar","jades","oneiric","denny","dennies",
+  "tcreds","combat","record","records","arms","insp","inspector","protoprism","protodisk",
   // All-caps PR/event vocabulary that sits next to "Redeem codes for…" banners
   // now that letter-only ALLCAPS tokens are accepted as candidates.
   "broadcast","preview","program","special","trailer","banner","anniversary",
@@ -547,13 +602,13 @@ const REDDIT_INCLUDE_NEW = /^(1|true|yes)$/i.test(process.env.REDDIT_INCLUDE_NEW
 // global REDDIT_MIN_GAP_MS gate below, 8 per game × 4 games × ~11 calls
 // each = ~35s of serialized fetches per hourly run — comfortable.
 const REDDIT_MAX_TARGETS_PER_GAME = 8;
-const REDDIT_COMMENT_KEYWORD_RE = /\b(code|livestream|redeem|gift|primogem|astrite|stellar\s*jade|polychrome)/i;
+const REDDIT_COMMENT_KEYWORD_RE = /\b(code|livestream|redeem|gift|primogem|astrite|stellar\s*jade|polychrome|oroberyl|originium|t-?creds?)/i;
 
 // Reward-context keyword. A regex-matched candidate is only emitted when
 // its line also contains one of these — that's the bright-line filter that
 // suppresses YouTube IDs, imgur slugs, Reddit usernames, etc., which never
 // appear next to reward terminology.
-const REDDIT_REWARD_CONTEXT_RE = /\b(primogem|stellar\s*jade|polychrome|astrite|mora|credit|reward|gift|redeem|codes?|exp|materials?|tickets?|fates?)\b/i;
+const REDDIT_REWARD_CONTEXT_RE = /\b(primogem|stellar\s*jade|polychrome|astrite|oroberyl|originium|t-?creds?|combat\s+records?|arms\s+insp|protoprism|protodisk|mora|credit|reward|gift|redeem|codes?|exp|materials?|tickets?|fates?)\b/i;
 
 // Negative context: "invite friends back" / returning-player events (e.g. ZZZ's
 // "Version 3.0 Return Event") hand every active player a *personal referral
@@ -1022,34 +1077,49 @@ async function fetchExpiredFromGame8(slug) {
   const tag = `${slug}-game8`;
   const r = await fetchWithRetry(cfg.url, { tag });
   if (!r.ok) { console.warn(`[${tag}] ${r.error}`); return new Set(); }
-  const html = r.text;
+  const expired = collectGame8ExpiredCodes(r.text, cfg);
+  console.log(`[${tag}] ${expired.size} expired codes`);
+  return expired;
+}
+
+function headingLevel(el) {
+  const tag = String(el?.tagName || "").toLowerCase();
+  const n = Number(tag.replace(/^h/, ""));
+  return Number.isFinite(n) ? n : 99;
+}
+
+function collectGame8ExpiredCodes(html, cfg = {}) {
   const $ = cheerio.load(html);
   const expired = new Set();
 
-  const expiredHeading = $("h2, h3, h4").filter((_, el) => /expired/i.test($(el).text())).first();
-  if (!expiredHeading.length) {
-    console.warn(`[${tag}] no Expired heading found`);
+  const expiredHeadings = $("h2, h3, h4").filter((_, el) => /expired/i.test($(el).text())).toArray();
+  if (!expiredHeadings.length) {
     return expired;
   }
-  let el = expiredHeading.next();
-  while (el.length && !el.is("h2, h3, h4")) {
-    if (cfg.mode === "table") {
-      const table = el.is("table") ? el : el.find("table").first();
-      if (table.length) {
-        table.find("tr").each((_, tr) => {
-          const code = normalizeText($(tr).find("td").first().text());
+
+  for (const headingEl of expiredHeadings) {
+    const sectionLevel = headingLevel(headingEl);
+    let el = $(headingEl).next();
+    while (el.length) {
+      if (el.is("h2, h3, h4") && headingLevel(el[0]) <= sectionLevel) break;
+      if (cfg.mode === "table") {
+        const table = el.is("table") ? el : el.find("table").first();
+        if (table.length) {
+          table.find("tr").each((_, tr) => {
+            const text = normalizeText($(tr).find("td").first().text());
+            const code = text.match(/^([A-Za-z0-9]{4,20})\b/)?.[1] || "";
+            if (code) expired.add(code);
+          });
+        }
+      } else if (cfg.mode === "strong") {
+        el.find("strong").addBack("strong").each((_, strong) => {
+          const code = normalizeText($(strong).text());
           if (code && /^[A-Za-z0-9]{4,20}$/.test(code)) expired.add(code);
         });
       }
-    } else if (cfg.mode === "strong") {
-      el.find("strong").addBack("strong").each((_, strong) => {
-        const code = normalizeText($(strong).text());
-        if (code && /^[A-Za-z0-9]{4,20}$/.test(code)) expired.add(code);
-      });
+      el = el.next();
     }
-    el = el.next();
   }
-  console.log(`[${tag}] ${expired.size} expired codes`);
   return expired;
 }
 
@@ -1067,6 +1137,11 @@ async function fetchExpiredAll(slug) {
 async function processGame(game, prevGame, options = {}) {
   const redditTargets = new Set(options.redditGames || []);
   const skipRedditForGame = options.skipReddit || (redditTargets.size > 0 && !redditTargets.has(game.slug));
+  const game8ActiveTask = game.slug === "wuwa"
+    ? fetchGame8WuwaActive()
+    : game.slug === "endfield"
+      ? fetchGame8EndfieldActive()
+      : Promise.resolve([]);
   // All sources for a game run concurrently. Reddit returns null only when
   // both subreddit fetches fail; otherwise it returns its candidate list
   // (which goes through the same expired-prune + dedupe as everything else).
@@ -1076,10 +1151,17 @@ async function processGame(game, prevGame, options = {}) {
     options.skipExpired ? Promise.resolve(new Set()) : fetchExpiredAll(game.slug),
     skipRedditForGame ? Promise.resolve([]) : fetchRedditActive(game), // null on failure, [] on no codes
     fetchHoyoCodes(game),                 // null on failure, [] when game not covered
+    game8ActiveTask,
   ];
-  if (game.slug === "wuwa") tasks.push(fetchGame8WuwaActive());
 
-  const [nexus, cw, expired, redditRaw, hoyo, game8Wuwa = []] = await Promise.all(tasks);
+  const [nexus, cw, expired, redditRaw, hoyo, game8Active = []] = await Promise.all(tasks);
+  if (game8Active.length && Array.isArray(nexus)) {
+    const nexusAdded = new Map(nexus.map((e) => [codeKey(e.code), e.added]).filter(([key, added]) => key && added));
+    for (const e of game8Active) {
+      const added = nexusAdded.get(codeKey(e.code));
+      if (added) e.added = added;
+    }
+  }
 
   // Reddit carry-forward: GitHub Actions runners are 403'd by Reddit's
   // unauth API, so the hourly CI run can't refresh Reddit-sourced codes.
@@ -1169,19 +1251,23 @@ async function processGame(game, prevGame, options = {}) {
       if (cwExp && new Date(cwExp).getTime() < now) continue;
       const { premium, premium100 } = classifyPremium(e.rewards);
       // Livestream-style codes get a stricter 72h cutoff; everything else 28d.
-      if (premium100) {
+      if (e.keepWhileActive) {
+        // An authoritative active table still lists the code. Keep it even when
+        // the source-added date is older than the generic freshness window.
+      } else if (premium100) {
         if (now - added.getTime() > PREMIUM100_TTL_MS) continue;
       } else if (!isRecent(added)) continue;
       if (expiredKeys.has(key)) continue;
       if (seen.has(key)) continue;
       seen.add(key);
       const cwSeen = cwCurrent.has(key) || cwHistorical.has(key);
-      merged.push({ ...e, premium, premium100, cwSeen });
+      const { keepWhileActive, ...record } = e;
+      merged.push({ ...record, premium, premium100, cwSeen });
     }
   };
   consume(nexus);
   consume(cwArr);
-  consume(game8Wuwa);
+  consume(game8Active);
   // hoyo-codes before Reddit: it's authoritative (redemption-verified), so a
   // Reddit code it also lists wins the dedupe with a non-reddit sourceUrl and is
   // thereby corroborated (no longer "Reddit-only").
@@ -1382,6 +1468,8 @@ module.exports = {
   isAuthoritativeSource,
   isInviteShapedCode,
   classifyPremium,
+  collectGame8ExpiredCodes,
+  parseGame8EndfieldActive,
   parseCliOptions,
   parseGameList,
   codeKey,

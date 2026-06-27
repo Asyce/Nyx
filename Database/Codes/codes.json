@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T21:09:24.621Z",
+  "generatedAt": "2026-06-27T00:18:25.342Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,13 +9,24 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-06-26T21:09:12.294Z",
+      "lastSuccessfulFetch": "2026-06-27T00:18:06.726Z",
       "codes": [
         {
           "code": "MAGENICOLESPUZZLE",
           "rewards": "Primogem x 60, Midsommar Torte x 1, Fruit Tandem Turnovers x 1, Chenyu Adeptea x 5",
-          "added": "2026-06-26",
+          "added": "2026-06-27",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MAGENICOLESPUZZLE",
+          "hoyoVerified": true,
+          "premium": true,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-06-13T20:18:32.371Z"
+        },
+        {
+          "code": "NMI20MAJGIBP",
+          "rewards": "Primogem x 20, Geode of Replication x 160",
+          "added": "2026-06-27",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=NMI20MAJGIBP",
           "hoyoVerified": true,
           "premium": true,
           "premium100": false,
@@ -25,7 +36,7 @@
         {
           "code": "PFY1S40I88T9",
           "rewards": "Primogem x 60, Adventurer's Experience x 5",
-          "added": "2026-06-26",
+          "added": "2026-06-27",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9",
           "hoyoVerified": true,
           "premium": true,
@@ -52,26 +63,6 @@
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-06-13T20:18:32.371Z"
-        },
-        {
-          "code": "NMI20MAJGIBP",
-          "rewards": "20 Primogems and 160 Geodes Of Replication",
-          "added": "2026-05-29",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=NMI20MAJGIBP",
-          "premium": true,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-06-13T20:18:32.371Z"
-        },
-        {
-          "code": "YMYD76U85Z1U",
-          "rewards": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
-          "added": "2026-05-29",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=YMYD76U85Z1U",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-06-25T15:11:45.641Z"
         }
       ]
     },
@@ -82,12 +73,12 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-06-26T21:09:12.629Z",
+      "lastSuccessfulFetch": "2026-06-27T00:18:06.732Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
           "rewards": "30 stellar jade, three traveler's guides, five condensed aether, four lost gold fragments, and 20k credits",
-          "added": "2026-06-26",
+          "added": "2026-06-27",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
           "hoyoVerified": true,
           "premium": true,
@@ -98,7 +89,7 @@
         {
           "code": "5S6ZHRWTDNJB",
           "rewards": "60 stellar jade",
-          "added": "2026-06-26",
+          "added": "2026-06-27",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "hoyoVerified": true,
           "premium": true,
@@ -109,7 +100,7 @@
         {
           "code": "CREATIONNYMPH",
           "rewards": "60 stellar jade and one fuel",
-          "added": "2026-06-26",
+          "added": "2026-06-27",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "hoyoVerified": true,
           "premium": true,
@@ -120,7 +111,7 @@
         {
           "code": "CTK5DRQVT48F",
           "rewards": "",
-          "added": "2026-06-26",
+          "added": "2026-06-27",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CTK5DRQVT48F",
           "hoyoVerified": true,
           "premium": false,
@@ -131,7 +122,7 @@
         {
           "code": "FAREWELL",
           "rewards": "60 stellar jade and one fuel",
-          "added": "2026-06-26",
+          "added": "2026-06-27",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "hoyoVerified": true,
           "premium": true,
@@ -142,7 +133,7 @@
         {
           "code": "IFYOUAREREADINGTHIS",
           "rewards": "60 stellar jade and one fuel",
-          "added": "2026-06-26",
+          "added": "2026-06-27",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "hoyoVerified": true,
           "premium": true,
@@ -153,7 +144,7 @@
         {
           "code": "OMEGA",
           "rewards": "60 stellar jade and one fuel",
-          "added": "2026-06-26",
+          "added": "2026-06-27",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "hoyoVerified": true,
           "premium": true,
@@ -164,7 +155,7 @@
         {
           "code": "STARRAILGIFT",
           "rewards": "50 stellar jade, 10k credits, two traveler's guides, and five bottled soda",
-          "added": "2026-06-26",
+          "added": "2026-06-27",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "hoyoVerified": true,
           "premium": true,
@@ -191,12 +182,12 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-06-26T21:09:12.301Z",
+      "lastSuccessfulFetch": "2026-06-27T00:18:06.741Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
           "rewards": "50 polychrome, two official investigator logs, three w-engine power supplies, and one bangboo algorithm module",
-          "added": "2026-06-26",
+          "added": "2026-06-27",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "hoyoVerified": true,
           "premium": true,
@@ -263,11 +254,11 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-06-26T21:09:24.621Z",
+      "lastSuccessfulFetch": "2026-06-27T00:18:25.342Z",
       "codes": [],
       "review": {
         "reason": "3 Wuthering Waves code(s) held for review: 3 unconfirmed Reddit-only code(s). Confirm legit ones in REVIEWED_CODES to publish.",
-        "detectedAt": "2026-06-26T21:09:24.620Z",
+        "detectedAt": "2026-06-27T00:18:25.342Z",
         "codes": [
           {
             "code": "INTOTHEFOG",

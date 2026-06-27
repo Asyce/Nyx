@@ -85,7 +85,8 @@ const SOURCES = [
   { slug: "endfield", name: "Arknights: Endfield", icon: "AE",
     redeemBase: "",
     note: "Redeem ingame via Settings > Account > Exchange Code",
-    nexusUrl: "https://nexus-codes.app/games/ARKEN/codes/" },
+    nexusUrl: "https://nexus-codes.app/games/ARKEN/codes/",
+    keepNexusWhileListed: true },
 ];
 
 // crimsonwitch.com is a Next.js SSR app; code data is embedded in
@@ -1155,6 +1156,9 @@ async function processGame(game, prevGame, options = {}) {
   ];
 
   const [nexus, cw, expired, redditRaw, hoyo, game8Active = []] = await Promise.all(tasks);
+  if (game.keepNexusWhileListed && Array.isArray(nexus)) {
+    for (const e of nexus) e.keepWhileActive = true;
+  }
   if (game8Active.length && Array.isArray(nexus)) {
     const nexusAdded = new Map(nexus.map((e) => [codeKey(e.code), e.added]).filter(([key, added]) => key && added));
     for (const e of game8Active) {

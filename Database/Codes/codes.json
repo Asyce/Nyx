@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T02:42:29.733Z",
+  "generatedAt": "2026-06-27T02:44:42.981Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-06-27T02:42:10.118Z",
+      "lastSuccessfulFetch": "2026-06-27T02:44:42.274Z",
       "codes": [
         {
           "code": "MAGENICOLESPUZZLE",
@@ -73,7 +73,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-06-27T02:42:10.123Z",
+      "lastSuccessfulFetch": "2026-06-27T02:44:42.317Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -182,7 +182,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-06-27T02:42:10.651Z",
+      "lastSuccessfulFetch": "2026-06-27T02:44:42.328Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -254,7 +254,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-06-27T02:42:29.733Z",
+      "lastSuccessfulFetch": "2026-06-27T02:44:42.980Z",
       "codes": [
         {
           "code": "INTOTHEFOG",
@@ -295,8 +295,39 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-06-27T02:42:10.097Z",
-      "codes": []
+      "lastSuccessfulFetch": "2026-06-27T02:44:42.442Z",
+      "codes": [
+        {
+          "code": "ZAU2SYXHWX5L4ZH",
+          "rewards": "5k T Creds and Ten Arms Insp Kits",
+          "added": "2026-05-05",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ZAU2SYXHWX5L4ZH",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-06-27T02:44:42.442Z"
+        },
+        {
+          "code": "ENDFIELD4PC",
+          "rewards": "Two Advanced Combat Records, Two Arms Insp Kits, and 13k T Creds Pc Only",
+          "added": "2026-05-03",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELD4PC",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-06-27T02:44:42.442Z"
+        },
+        {
+          "code": "ENDFIELDGIFT",
+          "rewards": "150 Oroberyl, 20 Intermediate Combat Records, 20 Arms Insp Kits, and 10k T Creds",
+          "added": "2026-05-03",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELDGIFT",
+          "premium": true,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-06-27T02:44:42.442Z"
+        }
+      ]
     }
   ]
 }

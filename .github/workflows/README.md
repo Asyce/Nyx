@@ -4,7 +4,7 @@ Three scheduled jobs keep pengo.gg fresh and deploy automatically.
 
 | Workflow | Cadence | What it does |
 |---|---|---|
-| `code-watch.yml` | hourly, plus half-hour checks during configured livestream windows | active-code-only scrape -> semantic diff -> validate/build/deploy/commit only when codes changed |
+| `code-watch.yml` | hourly, plus half-hour checks during detected livestream windows | detect official livestream windows -> active-code-only scrape -> semantic diff -> validate/build/deploy/commit only when codes changed |
 | `data-refresh.yml` | every 6h | scrape banners + codes -> unit tests -> validate -> build -> deploy -> commit `Database/` |
 | `roster-sync.yml` | daily | scrape rosters/materials/titles (`--skip-assets`) + banners + codes -> build -> deploy -> commit `Database/` |
 
@@ -15,8 +15,9 @@ Before any deploy:
 - The deploy step is skipped automatically when no Cloudflare token is configured.
 
 `code-watch.yml` is intentionally lighter than the full refresh:
+- Before deciding its mode, it runs `npm run codes:livestreams`, which scans official YouTube feeds for version livestreams across Genshin, HSR, ZZZ, and WuWa, then updates `Scraper/codes/livestream-windows.json` only when the effective windows changed.
 - Normal mode runs `npm run codes:watch`, which skips expired-table sweeps and Reddit.
-- During windows listed in `Scraper/codes/livestream-windows.json`, it runs `npm run codes:watch:deep`, which adds Reddit back and also enables the half-hour schedule.
+- During active windows listed in `Scraper/codes/livestream-windows.json`, it runs `npm run codes:watch:deep`, which adds Reddit back for the detected game(s) and also enables the half-hour schedule.
 - `--change-gated` ignores timestamp-only changes (`generatedAt`, `lastSuccessfulFetch`, existing `firstSeen`) and leaves `Database/Codes/codes.json` untouched when the actual code set did not change.
 
 ## Required repository secrets

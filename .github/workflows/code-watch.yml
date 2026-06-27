@@ -3,6 +3,7 @@ name: Code Watch Deploy
 # Lightweight redemption-code watcher.
 # Normal cadence: hourly at :07.
 # Livestream window cadence: also runs at :37, using deep mode.
+# Windows are refreshed from official YouTube feeds before each mode decision.
 # Build/deploy/commit happen only when Database/Codes/codes.json has a semantic
 # code diff; timestamp-only checks leave the file untouched and exit cleanly.
 
@@ -36,6 +37,25 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
+
+      - name: Detect livestream windows
+        id: livestream
+        working-directory: Scraper
+        run: node ./codes/detect-livestream-windows.cjs
+
+      - name: Commit livestream windows
+        if: ${{ steps.livestream.outputs.changed == 'true' }}
+        run: |
+          git config user.name "pengo-bot"
+          git config user.email "bot@pengo.gg"
+          git add Scraper/codes/livestream-windows.json
+          if git diff --cached --quiet; then
+            echo "No livestream window changes to commit."
+          else
+            git commit -m "chore(codes): update livestream windows [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
 
       - name: Decide watch mode
         id: mode

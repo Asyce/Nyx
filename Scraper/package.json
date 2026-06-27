@@ -6,6 +6,7 @@
     "banners": "node ./banners/scrape.cjs",
     "banners:test": "node --test banners/tests/",
     "codes": "node ./codes/scrape.cjs",
+    "codes:livestreams": "node ./codes/detect-livestream-windows.cjs",
     "codes:watch": "node ./codes/scrape.cjs --active-only --change-gated",
     "codes:watch:deep": "node ./codes/scrape.cjs --active-only --deep --change-gated",
     "codes:diff": "node ./codes/semantic-diff.cjs",

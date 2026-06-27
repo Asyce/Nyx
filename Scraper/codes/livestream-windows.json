@@ -2,10 +2,12 @@
   "windows": [
     {
       "game": "wuwa",
-      "startsAt": "2026-06-26T10:00:00Z",
-      "endsAt": "2026-06-29T12:00:00Z",
+      "startsAt": "2026-06-26T06:27:31Z",
+      "endsAt": "2026-06-29T18:27:31Z",
       "mode": "deep",
-      "note": "Wuthering Waves Version 3.5 livestream code window"
+      "note": "Wuthering Waves Version 3.5 Preview Special Broadcast",
+      "source": "manual+youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=7gAo7lCGi00"
     }
   ]
 }

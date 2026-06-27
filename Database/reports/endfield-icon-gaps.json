@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-06-27T04:15:55.248Z",
+  "generatedAt": "2026-06-27T08:14:21.490Z",
   "note": "Endfield character upgrade material tables are not fully available in the local scrape yet. These rows are recommendation/material records that still lack a local icon.",
-  "count": 2,
-  "missing": [
-    {
-      "field": "aeSkillItems",
-      "name": "Wuling Swordmancers' Choice",
-      "kind": "weapon"
-    },
-    {
-      "field": "aePreferredItems",
-      "name": "Wuling Swordmancers' Choice",
-      "kind": "weapon"
-    }
-  ]
+  "count": 0,
+  "missing": []
 }

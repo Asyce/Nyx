@@ -16088,8 +16088,8 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
     },
     "skill": {
-      "desc": "",
-      "simple_desc": "",
+      "desc": "Use Echo Skill to summon a Smiter to jab at enemies, dealing 7 instances of {0} Spectro DMG, and finish with an uppercut, dealing {1} Spectro DMG.\n\nCD: {2}s",
+      "simple_desc": "Summon Smiter to deal Spectro DMG.",
       "param": [
         [
           "10.70%",
@@ -16157,7 +16157,7 @@
     },
     "monsterInfo": 310000900,
     "liveComparison": {
-      "currentHash": "b07ddea54ad48179e160d79a6b42a88b1b81654d59a933699250cea68ae310f9"
+      "currentHash": "cd4d82380e7aeb0a5a103e074dd4e4ef24431eef0ac70fe1d16ff07b693eb162"
     }
   },
   {
@@ -16202,8 +16202,8 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
     },
     "skill": {
-      "desc": "",
-      "simple_desc": "",
+      "desc": "Use Echo Skill to summon a Porcelain Picket to slash forward, dealing 2 instances of {0} Aero DMG and 7 instances of {1} Aero DMG to enemies along the path.\n\nCD: {2}s",
+      "simple_desc": "Summon Porcelain Picket to deal Aero DMG.",
       "param": [
         [
           "10.80%",
@@ -16271,7 +16271,7 @@
     },
     "monsterInfo": 310000910,
     "liveComparison": {
-      "currentHash": "779248c4deb0d120b8ab3134c87b500de4d1b2dfe24f5dd20d613adf0f970c64"
+      "currentHash": "5ae5c3e1099dc8d159f543f518f8ae603459b83d13d8e8befccb06aab15c2c64"
     }
   },
   {
@@ -16316,8 +16316,8 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
     },
     "skill": {
-      "desc": "",
-      "simple_desc": "",
+      "desc": "Use Echo Skill to summon a Stone Picket, dealing {0} Aero DMG.\n\nCD: {1}s",
+      "simple_desc": "Summon Stone Picket to deal Aero DMG.",
       "param": [
         [
           "72.00%",
@@ -16363,7 +16363,7 @@
     },
     "monsterInfo": 310000920,
     "liveComparison": {
-      "currentHash": "5257bb2b6bd319f4c03d96c895feb467d912254f260412eb5ddcb72cef2fecfa"
+      "currentHash": "9fe931f408a590d138c5bda3d9c48ff1676beaf0497087cd44b48927e752a821"
     }
   },
   {
@@ -16406,8 +16406,8 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
     },
     "skill": {
-      "desc": "",
-      "simple_desc": "",
+      "desc": "Use Echo Skill to transform into an Aureate Picket, immediately recover {1} HP times plus an additional instance of {2} points of HP, then bash into enemies and deal {0} Aero DMG.\n\nCD: {3}s",
+      "simple_desc": "Transform into an Aureate Picket, immediately recover HP, then deal Aero DMG.",
       "param": [
         [
           "85.50%",
@@ -16480,7 +16480,7 @@
     },
     "monsterInfo": 310000930,
     "liveComparison": {
-      "currentHash": "948cdf881cf80fdb596b58ab89d500938156a1231a4504d06e511f2d61c3890d"
+      "currentHash": "086ee7af5bea425c834091b5d706691ab71ebac008cf0080423bc558ddedca07"
     }
   },
   {
@@ -16527,8 +16527,8 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
     },
     "skill": {
-      "desc": "",
-      "simple_desc": "",
+      "desc": "Use Echo Skill to summon Kernel Puppet: Joy to attack enemies, dealing {0} Physical DMG.\n\nCD: {1}s",
+      "simple_desc": "Summon Kernel Puppet: Joy to attack enemies, dealing Physical DMG.",
       "param": [
         [
           "72.00%",
@@ -16574,7 +16574,7 @@
     },
     "monsterInfo": 310000940,
     "liveComparison": {
-      "currentHash": "fada2103b11a74da39031de3fadf72e79002d6e2289b8dcad7d41909770ac3a9"
+      "currentHash": "3dd29b20739df2b049fc2fe87ab8f0d6741fe250562aafdf3300f68cc61ed5a2"
     }
   },
   {
@@ -16617,8 +16617,8 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
     },
     "skill": {
-      "desc": "",
-      "simple_desc": "",
+      "desc": "Use Echo Skill to summon Kernel Puppet: Worry to attack enemies, dealing {0} Fusion DMG.\n\nCD: {1}s",
+      "simple_desc": "Summon Kernel Puppet: Anger to attack enemies, dealing Fusion DMG.",
       "param": [
         [
           "72.00%",
@@ -16664,7 +16664,7 @@
     },
     "monsterInfo": 310000950,
     "liveComparison": {
-      "currentHash": "4457a0687457c941479ff7bd04e835358d7d22b148bb235fad59fa7632df5ab4"
+      "currentHash": "a6d4f8dd2c1a94e4517b6e036122253092ca8c58e7ab6a9006e5b97b2e5e16ba"
     }
   },
   {
@@ -16707,8 +16707,8 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
     },
     "skill": {
-      "desc": "",
-      "simple_desc": "",
+      "desc": "Use Echo Skill to summon Kernel Puppet: Worry to attack enemies, dealing {0} Glacio DMG.\n\nCD: {1}s",
+      "simple_desc": "Summon Kernel Puppet: Worry to attack enemies, dealing Glacio DMG.",
       "param": [
         [
           "36.00%",
@@ -16771,7 +16771,7 @@
     },
     "monsterInfo": 310000960,
     "liveComparison": {
-      "currentHash": "0e58a3c304e9f9f36f69248cca8934459852592f9c9041f3c68081d2d25fb385"
+      "currentHash": "60ae5dd7611e51395e9514f29858f66c76297d46c5e810da3fe1b99d7957a7e1"
     }
   },
   {
@@ -16814,8 +16814,8 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
     },
     "skill": {
-      "desc": "",
-      "simple_desc": "",
+      "desc": "Use Echo Skill to summon Kernel Puppet: Reflection to attack enemies, dealing {0} Electro DMG.\n\nCD: {1}s",
+      "simple_desc": "Summon Kernel Puppet: Reflection to attack enemies, dealing Electro DMG.",
       "param": [
         [
           "72.00%",
@@ -16861,7 +16861,7 @@
     },
     "monsterInfo": 310000970,
     "liveComparison": {
-      "currentHash": "156f5af578ca59417a564b74a4e4412e211d1109f21e6b0958a0d625238c536a"
+      "currentHash": "2491b14b3caffc6ba8e72232701036967f3b35efb7b258e19c014124ba409bd6"
     }
   },
   {
@@ -16906,8 +16906,8 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
     },
     "skill": {
-      "desc": "",
-      "simple_desc": "",
+      "desc": "Use Echo Skill to summon Kernel Puppet: Grief to attack enemies, dealing {0} Spectro DMG.\n\nCD: {1}s",
+      "simple_desc": "Summon Kernel Puppet: Grief to attack enemies, dealing Spectro DMG.",
       "param": [
         [
           "72.00%",
@@ -16953,7 +16953,7 @@
     },
     "monsterInfo": 310000980,
     "liveComparison": {
-      "currentHash": "b78dc2d293d146c166b49e78ca7fdf8f07e63f8dd86890efc14fc6ee712a192f"
+      "currentHash": "537d06af74a3f70dd6be38a14aab439569f17cdf3f2347dd837fc07a04d651a8"
     }
   },
   {
@@ -16998,8 +16998,8 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
     },
     "skill": {
-      "desc": "",
-      "simple_desc": "",
+      "desc": "Use Echo Skill to summon Kernel Puppet: Fright to attack enemies, dealing an instance of {0} Havoc DMG and an instance of {1} Havoc DMG.\n\nCD: {2}s",
+      "simple_desc": "Summon Kernel Puppet: Fright to attack enemies, dealing Havoc DMG.",
       "param": [
         [
           "28.80%",
@@ -17067,7 +17067,7 @@
     },
     "monsterInfo": 310000990,
     "liveComparison": {
-      "currentHash": "febde88b77e1231af72b9d645729a370fa396cd41f7a5be9f3b9b730e97b420e"
+      "currentHash": "05df748b9d1a349bd27c7d8d4e6b1e22989735f33decec3e93681e4fe558cb1c"
     }
   },
   {
@@ -17114,8 +17114,8 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
     },
     "skill": {
-      "desc": "",
-      "simple_desc": "",
+      "desc": "Use Echo Skill to summon Fog Lionarch: Body to ram into enemies, dealing {0} Fusion DMG.\n\nCD: {1}s",
+      "simple_desc": "Summon Fog Lionarch: Body to attack enemies, dealing Fusion DMG.",
       "param": [
         [
           "107.00%",
@@ -17161,7 +17161,7 @@
     },
     "monsterInfo": 310001000,
     "liveComparison": {
-      "currentHash": "d4a81d3c56bd2dcbd29aa2ea5c0a46a115756f7f481bbaa2004df322bd15aa7c"
+      "currentHash": "4dce55f2ac2d8500b86792dbeeb7155dfcb80e29562a78d4fcac5920a3795d58"
     }
   },
   {
@@ -17208,8 +17208,8 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
     },
     "skill": {
-      "desc": "",
-      "simple_desc": "",
+      "desc": "Use Echo Skill to summon Fog Lionarch: Head to dart toward enemies, dealing {0} Fusion DMG.\n\nCD: {1}s",
+      "simple_desc": "Summon Fog Lionarch: Head to attack enemies, dealing Fusion DMG.",
       "param": [
         [
           "72.00%",
@@ -17255,7 +17255,7 @@
     },
     "monsterInfo": 310001010,
     "liveComparison": {
-      "currentHash": "1596cf8bc98c0ac2aa2f9f0055d81a9414fd78caede4207dc2b994721831fad2"
+      "currentHash": "6c2dacc852be8f8a8178bd7c2959afa8770c78e2a51bf81580560ee563c5953e"
     }
   },
   {
@@ -17302,8 +17302,8 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
     },
     "skill": {
-      "desc": "",
-      "simple_desc": "",
+      "desc": "Use Echo Skill to summon Smolder to hurl fireballs toward enemies, dealing {0} Fusion DMG.\n\nCD: {1}s",
+      "simple_desc": "Summon Smolder to attack enemies, dealing Fusion DMG.",
       "param": [
         [
           "107.00%",
@@ -17349,7 +17349,7 @@
     },
     "monsterInfo": 310001020,
     "liveComparison": {
-      "currentHash": "9ec3fffd9992c1580d0c47473078878c94a44fff29ee48bf89580a5fc8afd956"
+      "currentHash": "28ce9fdef60ee9cb0eb8fa3b51d03a920a76250236cb2167ffaa4948c04408d1"
     }
   },
   {
@@ -17443,8 +17443,8 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
     },
     "skill": {
-      "desc": "",
-      "simple_desc": "",
+      "desc": "Use Echo Skill to summon Fog Lionarch to spit fire toward enemies, dealing 7 stages of {0} Fusion DMG.\n\nCD: {1}s",
+      "simple_desc": "Summon Fog Lionarch to attack enemies, dealing Fusion DMG.",
       "param": [
         [
           "18.85%",
@@ -17490,7 +17490,7 @@
     },
     "monsterInfo": 320000670,
     "liveComparison": {
-      "currentHash": "f3ac1127dfdc5bdbe62d279246e9c9b01b90c64c2b42c3699e3f2d1094114abb"
+      "currentHash": "f1b60f050c688f28524e58719a5c8864fccd092a030ccccffa5fb6ee8875d733"
     }
   },
   {
@@ -17584,8 +17584,8 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
     },
     "skill": {
-      "desc": "",
-      "simple_desc": "",
+      "desc": "Use Echo Skill to summon Forbidden Bastion to bash over enemies, dealing {0} Glacio DMG.\n\nResonators with this Echo equipped in the main slot gain {2} Healing Bonus.\n\nCD: {1}s",
+      "simple_desc": "Summon Forbidden Bastion to attack enemies, dealing Glacio DMG.\nResonators with this Echo equipped in the main slot gain Healing Bonus.",
       "param": [
         [
           "132.00%",
@@ -17636,7 +17636,7 @@
     },
     "monsterInfo": 320000680,
     "liveComparison": {
-      "currentHash": "0e8e3e006e748edf81f66688c0dbc54c44fd9be63562c32857d50104b27f81d5"
+      "currentHash": "d06fc88e7b966a77ba829436bd3b756a73a02ee54a93b1f184d00b0e9d447390"
     }
   },
   {
@@ -17704,8 +17704,8 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
     },
     "skill": {
-      "desc": "",
-      "simple_desc": "",
+      "desc": "Use Echo Skill to summon Myriad Snare: Rustfire Chassis, dealing up to 3 stages of Fusion DMG equal to {0} of the Resonator's Max HP.\n\nResonators with this Echo equipped in the main slot gain {1} Fusion DMG Bonus and {2} Heavy Attack DMG Bonus.\n\nCD: {3}s",
+      "simple_desc": "Summon Myriad Snare: Rustfire Chassis to attack enemies, dealing Fusion DMG.\nResonators with this Echo equipped in the main slot deal higher Fusion and Heavy Attack DMG.",
       "param": [
         [
           "2.30%",
@@ -17761,7 +17761,7 @@
     },
     "monsterInfo": 340000300,
     "liveComparison": {
-      "currentHash": "344e4a166698eebc649911730d1943e67fb436c74a19a9acf63cb90a15dc2374"
+      "currentHash": "ea159343992ee3aad3c373c6a3124696f01019907497b33287a952fb29c31b72"
     }
   },
   {
@@ -17809,8 +17809,8 @@
       "skill": "Nanoka/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
     },
     "skill": {
-      "desc": "",
-      "simple_desc": "",
+      "desc": "Use Echo Skill to attack nearby enemies, dealing {1} Havoc DMG and summoning 4 Blades of Thousand Memories that last {5}s.\n\nWhile Blades of Thousand Memories last, when the Resonator inflicts Havoc Bane, consume 1 Blade of Thousand Memories to deal {0} Havoc DMG once to the target. This effect can be triggered once every {6}s.\n\nResonators with this Echo equipped in the main slot gain {2} Havoc DMG and {3} Heavy Attack DMG.\n\nCD: {4}s",
+      "simple_desc": "Deal Havoc DMG to nearby targets and summon Blades of Thousand Memories. When inflicting Havoc Bane, consume a Blade of Thousand Memories to deal Havoc DMG.",
       "param": [
         [
           "22.80%",
@@ -17898,7 +17898,7 @@
     },
     "monsterInfo": 340000310,
     "liveComparison": {
-      "currentHash": "946006ecd03b42bbdbc530d5cfce5e5fc856aec4cd2de139e7bf47ca70e6bd91"
+      "currentHash": "6751c9d8dea1c589a8387eeed51f162282909ebb0171380105cd23da2a773fe3"
     }
   },
   {

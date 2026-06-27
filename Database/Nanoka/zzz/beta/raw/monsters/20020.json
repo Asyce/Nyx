@@ -1000,7 +1000,8 @@
         "Ether",
         "Large",
         "NonBossFightMultipleHP",
-        "GirReborn_P1"
+        "GirReborn_P1",
+        "MainStoryBoss"
       ],
       "type": "Monster",
       "element": {
@@ -1494,7 +1495,8 @@
         "Ether",
         "Large",
         "Boss",
-        "GirReborn_P2"
+        "GirReborn_P2",
+        "MainStoryBoss"
       ],
       "type": "Monster",
       "element": {
@@ -1989,7 +1991,8 @@
         "Large",
         "NonBossFightMultipleHP",
         "HighCorruptiveBarrier",
-        "GirReborn_P1"
+        "GirReborn_P1",
+        "MainStoryBoss"
       ],
       "type": "Monster",
       "element": {
@@ -2484,7 +2487,8 @@
         "Large",
         "Boss",
         "HighCorruptiveBarrier",
-        "GirReborn_P2"
+        "GirReborn_P2",
+        "MainStoryBoss"
       ],
       "type": "Monster",
       "element": {

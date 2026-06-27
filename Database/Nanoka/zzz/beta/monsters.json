@@ -78646,7 +78646,8 @@
           "Ether",
           "Large",
           "NonBossFightMultipleHP",
-          "GirReborn_P1"
+          "GirReborn_P1",
+          "MainStoryBoss"
         ],
         "type": "Monster",
         "element": {
@@ -79140,7 +79141,8 @@
           "Ether",
           "Large",
           "Boss",
-          "GirReborn_P2"
+          "GirReborn_P2",
+          "MainStoryBoss"
         ],
         "type": "Monster",
         "element": {
@@ -79635,7 +79637,8 @@
           "Large",
           "NonBossFightMultipleHP",
           "HighCorruptiveBarrier",
-          "GirReborn_P1"
+          "GirReborn_P1",
+          "MainStoryBoss"
         ],
         "type": "Monster",
         "element": {
@@ -80130,7 +80133,8 @@
           "Large",
           "Boss",
           "HighCorruptiveBarrier",
-          "GirReborn_P2"
+          "GirReborn_P2",
+          "MainStoryBoss"
         ],
         "type": "Monster",
         "element": {
@@ -81151,7 +81155,7 @@
     },
     "liveComparison": {
       "liveHash": "462a02d83824f64a2eb470197a7069eb5e1b73ffcd456769a7a784e027831b0a",
-      "currentHash": "a0f0546c9d4288645cbf7e5144cec808c2233600921c2a7ea471795f32275134"
+      "currentHash": "a61d7a13f7263ef5700b3b29a3fdd2fdf2fd58efd3fb569d60f6e3e876e30182"
     }
   },
   {
@@ -82154,6 +82158,500 @@
           }
         }
       },
+      "11563": {
+        "id": 11563,
+        "code_name": "Monster_EvolvedBee",
+        "icon": "",
+        "tag": [
+          "Ether",
+          "Demote",
+          "Small",
+          "LittleMonster"
+        ],
+        "type": "Monster",
+        "element": {
+          "ice": 0,
+          "fire": 0,
+          "electric": 0,
+          "ether": 0,
+          "physical": 0,
+          "wind": 0
+        },
+        "stats": {
+          "hp": 1123,
+          "attack": 60,
+          "defence": 43,
+          "crit": 0,
+          "crit_damage": 5000,
+          "crit_res": 0,
+          "crit_dmg_res": 0,
+          "pen_rate": 0,
+          "pen_delta": 0,
+          "stun": 600,
+          "is_stun": true,
+          "break_stun": 0,
+          "auto_recover_rate": 0,
+          "auto_recover_cd": 0,
+          "stun_value_full_recover_cd": 0,
+          "can_interrupt_stun_recover": true,
+          "destroy_recover_rate": 1538,
+          "destroy_recover_cd": 1000,
+          "stun_damage_taken_ratio": 5000,
+          "stun_reset_count": 1,
+          "stun_reset_recover_cd": 1000,
+          "resist_break_level": 1,
+          "resist_break_level_correction_factor": 10000,
+          "resist_break_level_probability": 0,
+          "frozen_time_res": 0,
+          "fire_damage_res": 0,
+          "ice_damage_res": 0,
+          "electric_damage_res": 0,
+          "wind_damage_res": 0,
+          "ether_damage_res": 0,
+          "physical_damage_res": 0,
+          "ice_buildup_curve": 10001,
+          "fire_buildup_curve": 10002,
+          "electric_buildup_curve": 10003,
+          "physical_buildup_curve": 10004,
+          "ether_buildup_curve": 10005,
+          "wind_buildup_curve": 10006,
+          "ice_buildup_res": 0,
+          "fire_buildup_res": 0,
+          "electric_buildup_res": 0,
+          "physical_buildup_res": 0,
+          "ether_buildup_res": 0,
+          "wind_buildup_res": 0,
+          "ice_stun_res": 0,
+          "fire_stun_res": 0,
+          "electric_stun_res": 0,
+          "ether_stun_res": 0,
+          "physical_stun_res": 0,
+          "wind_stun_res": 0,
+          "base_buildup_ratio": 0
+        },
+        "curves": {
+          "hp": {
+            "curve": [
+              100,
+              116,
+              136,
+              159,
+              183,
+              200,
+              219,
+              240,
+              263,
+              303,
+              326,
+              352,
+              379,
+              409,
+              471,
+              485,
+              499,
+              514,
+              530,
+              610,
+              685,
+              770,
+              865,
+              973,
+              1119,
+              1132,
+              1146,
+              1160,
+              1174,
+              1351,
+              1411,
+              1475,
+              1541,
+              1611,
+              1853,
+              1858,
+              1864,
+              1870,
+              1876,
+              2158,
+              2228,
+              2302,
+              2377,
+              2455,
+              2824,
+              2847,
+              2872,
+              2896,
+              2920,
+              3213,
+              3293,
+              3376,
+              3460,
+              3547,
+              4080,
+              4106,
+              4132,
+              4158,
+              4185,
+              4604,
+              4637,
+              4671,
+              4705,
+              4739,
+              4774,
+              4809,
+              4844,
+              4879,
+              4915,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406,
+              5406
+            ],
+            "ratio": 100
+          },
+          "attack": {
+            "curve": [
+              100,
+              116,
+              133,
+              150,
+              167,
+              183,
+              199,
+              213,
+              227,
+              242,
+              265,
+              289,
+              312,
+              336,
+              359,
+              383,
+              406,
+              430,
+              453,
+              477,
+              496,
+              515,
+              534,
+              553,
+              573,
+              592,
+              611,
+              630,
+              649,
+              669,
+              685,
+              701,
+              717,
+              734,
+              750,
+              766,
+              783,
+              799,
+              815,
+              832,
+              846,
+              860,
+              875,
+              889,
+              904,
+              918,
+              932,
+              947,
+              961,
+              976,
+              982,
+              989,
+              995,
+              1002,
+              1009,
+              1015,
+              1022,
+              1029,
+              1035,
+              1042,
+              1049,
+              1055,
+              1062,
+              1069,
+              1075,
+              1082,
+              1089,
+              1095,
+              1102,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109,
+              1109
+            ],
+            "ratio": 120
+          },
+          "defence": {
+            "curve": [
+              100,
+              108,
+              116,
+              124,
+              132,
+              142,
+              152,
+              164,
+              176,
+              188,
+              200,
+              214,
+              228,
+              242,
+              258,
+              274,
+              290,
+              306,
+              324,
+              344,
+              362,
+              382,
+              402,
+              422,
+              444,
+              466,
+              490,
+              512,
+              536,
+              562,
+              586,
+              612,
+              638,
+              666,
+              694,
+              722,
+              750,
+              780,
+              810,
+              842,
+              872,
+              904,
+              938,
+              970,
+              1004,
+              1038,
+              1074,
+              1110,
+              1146,
+              1184,
+              1220,
+              1258,
+              1298,
+              1338,
+              1378,
+              1418,
+              1460,
+              1502,
+              1544,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588,
+              1588
+            ],
+            "ratio": 100
+          },
+          "stun": {
+            "curve": [
+              100,
+              100,
+              100,
+              100,
+              103,
+              103,
+              103,
+              103,
+              103,
+              103,
+              103,
+              104,
+              104,
+              105,
+              106,
+              106,
+              107,
+              107,
+              108,
+              109,
+              110,
+              111,
+              113,
+              114,
+              116,
+              117,
+              118,
+              120,
+              121,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128,
+              129,
+              130,
+              131,
+              132,
+              134,
+              135,
+              136,
+              137,
+              139,
+              140,
+              141,
+              143,
+              144,
+              145,
+              147,
+              148,
+              149,
+              150,
+              151,
+              152,
+              153,
+              154,
+              155,
+              156,
+              157,
+              158,
+              159,
+              160,
+              161,
+              162,
+              163,
+              164,
+              165,
+              166,
+              167,
+              167,
+              167,
+              167,
+              167,
+              167,
+              167,
+              167,
+              167,
+              167,
+              167,
+              167,
+              167,
+              167,
+              167,
+              167,
+              167,
+              167,
+              167,
+              167,
+              167,
+              167,
+              167,
+              167,
+              167,
+              167,
+              167,
+              167,
+              167,
+              167,
+              167
+            ],
+            "ratio": 100
+          }
+        }
+      },
       "31682": {
         "id": 31682,
         "code_name": "Monster_NinevehBee_AirCombat",
@@ -82688,7 +83186,7 @@
     },
     "liveComparison": {
       "liveHash": "1161d045b59ee2c7851bdf123fd6990ee409610a3cd6753ba497e76ad58a2bd9",
-      "currentHash": "2b854f34bbf0f71d4d826bd558aba6c8669114653ae4aa0360d9fbdf45970369"
+      "currentHash": "2c4f80e241eabf36e8c3528f4f529da46f60c23a6f061081fbe130e2fc165d74"
     }
   },
   {
@@ -108861,7 +109359,7 @@
           "wind": 0
         },
         "stats": {
-          "hp": 87350,
+          "hp": 52410,
           "attack": 130,
           "defence": 60,
           "crit": 0,
@@ -109870,7 +110368,7 @@
     },
     "liveComparison": {
       "liveHash": "ec2b8b51ad048bfd136eeb99cd89d8d784ff1d6b5b4a8300e99585c96f76c1ac",
-      "currentHash": "c98be35ae02fcc04e5a69767729bb00bc8cc04db09e8cbc0a04a52a515b099fa"
+      "currentHash": "ab56497846aed0d59c6c58bf6c0fb56a17a0029b7a881d66fbf6dd4340944629"
     }
   },
   {
@@ -114636,7 +115134,7 @@
           "wind": 0
         },
         "stats": {
-          "hp": 500000,
+          "hp": 1500000,
           "attack": 120,
           "defence": 60,
           "crit": 0,
@@ -114645,7 +115143,7 @@
           "crit_dmg_res": 0,
           "pen_rate": 0,
           "pen_delta": 0,
-          "stun": 6100,
+          "stun": 7482,
           "is_stun": true,
           "break_stun": 0,
           "auto_recover_rate": 0,
@@ -114685,7 +115183,7 @@
           "ether_stun_res": 0,
           "physical_stun_res": 0,
           "wind_stun_res": 0,
-          "base_buildup_ratio": 2000
+          "base_buildup_ratio": 2500
         },
         "curves": {
           "hp": {
@@ -115150,7 +115648,7 @@
     },
     "liveComparison": {
       "liveHash": "4bd5ea6e95f6883ff213b10ffb4dee1a266bc0f2feca935b5e53b26a163e2382",
-      "currentHash": "544c10b71f4216cdd29f8b22a9aa49e73a388cf5221659cad02f3b1c10a0b05c"
+      "currentHash": "623c645c8e8a0fe7bb0c8ca9c2d912a1f0a3efda9f81db92d7b53e750c0eafaa"
     }
   },
   {
@@ -118250,7 +118748,6 @@
         "tag": [
           "Ether",
           "Middle",
-          "MainStoryBoss",
           ""
         ],
         "type": "Monster",
@@ -119239,7 +119736,6 @@
         "tag": [
           "Ether",
           "Middle",
-          "MainStoryBoss",
           ""
         ],
         "type": "Monster",
@@ -119766,12 +120262,12 @@
     },
     "liveComparison": {
       "liveHash": "c4470ccf9b8292533b388bf48b36cd547219f210ed08716ef3ae5add73ec0419",
-      "currentHash": "dfeb175264b159893567a5afc0ddf65f088f47b4fcf663fbe95807bc737768ea"
+      "currentHash": "73565ed36e98bdc9a57d9bfe1f08fd52803d7f481a6679d5c88db54699819262"
     }
   },
   {
     "id": "30011",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "monsterId": 11431,
     "name": "Gray Veil Marionette",
     "rarity": 3,
@@ -119788,7 +120284,6 @@
         "tag": [
           "Ether",
           "Middle",
-          "MainStoryBoss",
           ""
         ],
         "type": "Monster",
@@ -120808,7 +121303,7 @@
     },
     "liveComparison": {
       "liveHash": "86b8688b75c1b861ba60c6615630704de29e5956fad14c9013698a3aaefe7ccc",
-      "currentHash": "86b8688b75c1b861ba60c6615630704de29e5956fad14c9013698a3aaefe7ccc"
+      "currentHash": "ab9d803ab4beb6f4124e471156c2522dafface18796d6a1a22a1f82e3ff1085d"
     }
   },
   {
@@ -174510,7 +175005,7 @@
   },
   {
     "id": "30042",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "monsterId": 31351,
     "name": "Ye Shiyuan the Thrall",
     "rarity": 4,
@@ -174531,7 +175026,7 @@
           "NoRBLBuff",
           "EtherBarrierBoss",
           "Miasma",
-          ""
+          "MainStoryBoss"
         ],
         "type": "Monster",
         "element": {
@@ -175029,7 +175524,7 @@
           "EtherBarrierBoss",
           "Miasma",
           "HighEtherBarrier",
-          ""
+          "MainStoryBoss"
         ],
         "type": "Monster",
         "element": {
@@ -175555,7 +176050,7 @@
     },
     "liveComparison": {
       "liveHash": "465f5e16d78c36a4348187064d53f58c1333c485a068019acf48efb52181a528",
-      "currentHash": "465f5e16d78c36a4348187064d53f58c1333c485a068019acf48efb52181a528"
+      "currentHash": "224d4b180e40dc91487db35eaac3ff2144f0816aa1c2bca5682fa4c3bda128bb"
     }
   },
   {
@@ -182975,7 +183470,7 @@
           "wind": 0
         },
         "stats": {
-          "hp": 34431,
+          "hp": 20309,
           "attack": 144,
           "defence": 60,
           "crit": 0,
@@ -183488,7 +183983,7 @@
       "30015": 3000
     },
     "liveComparison": {
-      "currentHash": "539e30cb5f10e9c83360918e65feab334a47dcb6320a61b127b98b3a297e3953"
+      "currentHash": "7d3eaae1e3c1eb507d522ad71338f1777dc586ccca3468517a470a0e165a1c61"
     }
   },
   {
@@ -183524,7 +184019,7 @@
           "wind": 0
         },
         "stats": {
-          "hp": 87350,
+          "hp": 52410,
           "attack": 130,
           "defence": 60,
           "crit": 0,
@@ -184037,7 +184532,7 @@
       "30015": 3000
     },
     "liveComparison": {
-      "currentHash": "3764b8dbbcb4f8de758db1dfffc7aeba802b308a36f505c4cdbe9d8846ff78ec"
+      "currentHash": "1967f2521a46c4db0be80104755f4af57e4439a1069fbe30abc9482bbeaaa7e4"
     }
   },
   {
@@ -186186,7 +186681,7 @@
   },
   {
     "id": "40001",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "monsterId": 31451,
     "name": "Discordant Solo - Vesper",
     "rarity": 4,
@@ -186204,7 +186699,7 @@
           "Ether",
           "Large",
           "Boss",
-          ""
+          "MainStoryBoss"
         ],
         "type": "Monster",
         "element": {
@@ -186730,7 +187225,7 @@
     },
     "liveComparison": {
       "liveHash": "a6940d12268d6a6b3ab5332322c2cc502b658a4b2088028af4129c8faef0ec27",
-      "currentHash": "a6940d12268d6a6b3ab5332322c2cc502b658a4b2088028af4129c8faef0ec27"
+      "currentHash": "80daf3fb7f98931fa8a17a8ed741a815d1671559259a27509e5f7fb72f355623"
     }
   },
   {
@@ -190936,7 +191431,7 @@
           "Ether",
           "Large",
           "Boss",
-          ""
+          "MainStoryBoss"
         ],
         "type": "Monster",
         "element": {
@@ -191430,7 +191925,8 @@
           "Ether",
           "Large",
           "Boss",
-          "HardCore"
+          "GirtabluPro",
+          "MainStoryBoss"
         ],
         "type": "Monster",
         "element": {
@@ -191956,7 +192452,7 @@
     },
     "liveComparison": {
       "liveHash": "17a4104dcf85c6b07327ab427432db5dcf5a47ae8aed520786bb42b4e5a61cfa",
-      "currentHash": "0cfecf3ea4c142458bcbb67127d47a7270085008df047b983d85db986842dd97"
+      "currentHash": "c17561bdabf694d6d112491c82c21c7bba18ea7162bcba7e6a0f3e751856441c"
     }
   },
   {
@@ -193028,7 +193524,8 @@
           "Ether",
           "Large",
           "NonBossFightMultipleHP",
-          "GirReborn_P1"
+          "GirReborn_P1",
+          "MainStoryBoss"
         ],
         "type": "Monster",
         "element": {
@@ -193553,7 +194050,7 @@
       "30015": 3000
     },
     "liveComparison": {
-      "currentHash": "6fa372806674db8270471e3e8aa113d0a2390f249f12d51c16f882280eb7fe3b"
+      "currentHash": "28a519cb34189eeec780ec338a14cbaade2bf755d94685ff88487e56a13b9e58"
     }
   },
   {
@@ -193576,7 +194073,8 @@
           "Ether",
           "Large",
           "Boss",
-          "HardCore"
+          "GirtabluPro",
+          "MainStoryBoss"
         ],
         "type": "Monster",
         "element": {
@@ -194101,7 +194599,7 @@
       "30015": 3000
     },
     "liveComparison": {
-      "currentHash": "49fa5db135a323de9590140351e63238bc7b619d7bfb78f110fbad020f418da8"
+      "currentHash": "f74290a8402eb602b2820c133bf5a1065426b114e5d94a779b1cc03e5fa9f122"
     }
   },
   {
@@ -282468,7 +282966,7 @@
           "wind": 0
         },
         "stats": {
-          "hp": 34431,
+          "hp": 20309,
           "attack": 144,
           "defence": 60,
           "crit": 0,
@@ -282963,7 +283461,7 @@
           "wind": 0
         },
         "stats": {
-          "hp": 41810,
+          "hp": 41317,
           "attack": 144,
           "defence": 60,
           "crit": 0,
@@ -282972,7 +283470,7 @@
           "crit_dmg_res": 0,
           "pen_rate": 0,
           "pen_delta": 0,
-          "stun": 12351,
+          "stun": 9660,
           "is_stun": true,
           "break_stun": 0,
           "auto_recover_rate": 0,
@@ -283477,7 +283975,7 @@
     },
     "liveComparison": {
       "liveHash": "9bc80546ea14ad93fd21f9b11c8bdb2789d60b21947b3fb938939a6f5bdbe3f4",
-      "currentHash": "707cf5b3909a8f2caf2ae6c382b2bd23507e0a912a404e4a35d3d969275906f3"
+      "currentHash": "423bb014e7058ae33d9481fbe1e308753eaff93ad4b8ff3149d00a526c908cfc"
     }
   },
   {

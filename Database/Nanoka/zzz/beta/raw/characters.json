@@ -1413,7 +1413,7 @@
     },
     "desc": "Partner_ProfileDesc_1581",
     "ko": "Avatar_Female_Size02_Remielle",
-    "zh": "(Test1)蕾米埃尔",
+    "zh": "蕾米埃尔",
     "ja": "Avatar_Female_Size02_Remielle"
   },
   "1591": {
@@ -1431,6 +1431,11 @@
         "name": "AvatarSkin_Sigrid_Name_000",
         "desc": "AvatarSkin_Sigrid_Desc_000",
         "image": "IconRole66"
+      },
+      "3115911": {
+        "name": "AvatarSkin_Sigrid_Name_001",
+        "desc": "AvatarSkin_Sigrid_Desc_001",
+        "image": "IconRole66_01"
       }
     },
     "desc": "Partner_ProfileDesc_1591",

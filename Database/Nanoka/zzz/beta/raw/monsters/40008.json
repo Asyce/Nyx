@@ -10,7 +10,8 @@
         "Ether",
         "Large",
         "NonBossFightMultipleHP",
-        "GirReborn_P1"
+        "GirReborn_P1",
+        "MainStoryBoss"
       ],
       "type": "Monster",
       "element": {

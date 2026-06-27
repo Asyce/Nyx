@@ -3000,7 +3000,7 @@
         "wind": 0
       },
       "stats": {
-        "hp": 34431,
+        "hp": 20309,
         "attack": 144,
         "defence": 60,
         "crit": 0,
@@ -3495,7 +3495,7 @@
         "wind": 0
       },
       "stats": {
-        "hp": 41810,
+        "hp": 41317,
         "attack": 144,
         "defence": 60,
         "crit": 0,
@@ -3504,7 +3504,7 @@
         "crit_dmg_res": 0,
         "pen_rate": 0,
         "pen_delta": 0,
-        "stun": 12351,
+        "stun": 9660,
         "is_stun": true,
         "break_stun": 0,
         "auto_recover_rate": 0,

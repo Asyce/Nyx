@@ -1,6 +1,6 @@
 {
   "provider": "Prydwen",
-  "generatedAt": "2026-06-26T08:40:51.613Z",
+  "generatedAt": "2026-06-27T08:12:03.413Z",
   "games": {
     "hsr": {
       "game": "hsr",
@@ -32,23 +32,23 @@
       "gameName": "Wuthering Waves",
       "counts": {
         "collections": 3,
-        "records": 62,
-        "characters": 59,
-        "assetsPlanned": 508,
+        "records": 63,
+        "characters": 60,
+        "assetsPlanned": 510,
         "errors": 0
       },
       "assets": {
-        "requested": 508,
-        "downloaded": 0,
+        "requested": 510,
+        "downloaded": 2,
         "cached": 508,
         "missing": 0
       },
       "changes": {
         "records": {
-          "added": 0,
+          "added": 1,
           "removed": 0,
-          "changed": 1,
-          "unchanged": 61
+          "changed": 3,
+          "unchanged": 59
         }
       }
     },
@@ -72,8 +72,8 @@
         "records": {
           "added": 0,
           "removed": 0,
-          "changed": 0,
-          "unchanged": 68
+          "changed": 2,
+          "unchanged": 66
         }
       }
     },
@@ -84,12 +84,12 @@
         "collections": 3,
         "records": 31,
         "characters": 28,
-        "assetsPlanned": 286,
+        "assetsPlanned": 287,
         "errors": 0
       },
       "assets": {
-        "requested": 286,
-        "downloaded": 0,
+        "requested": 287,
+        "downloaded": 1,
         "cached": 286,
         "missing": 0
       },
@@ -97,8 +97,8 @@
         "records": {
           "added": 0,
           "removed": 0,
-          "changed": 4,
-          "unchanged": 27
+          "changed": 9,
+          "unchanged": 22
         }
       }
     }

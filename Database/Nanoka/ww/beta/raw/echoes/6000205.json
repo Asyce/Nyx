@@ -7,8 +7,8 @@
   "place": "",
   "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31093_UI.T_IconMonsterHead_31093_UI",
   "skill": {
-    "desc": "",
-    "simple_desc": "",
+    "desc": "Use Echo Skill to transform into an Aureate Picket, immediately recover {1} HP times plus an additional instance of {2} points of HP, then bash into enemies and deal {0} Aero DMG.\n\nCD: {3}s",
+    "simple_desc": "Transform into an Aureate Picket, immediately recover HP, then deal Aero DMG.",
     "param": [
       [
         "85.50%",

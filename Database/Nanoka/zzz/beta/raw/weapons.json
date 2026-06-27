@@ -1123,7 +1123,7 @@
     "atk": 743,
     "desc": "Remiel Test Engine Short Description",
     "sub": "ATK",
-    "ko": "Item_Weapon_S_1581_Name",
+    "ko": "빈 깃털의 귀환시",
     "zh": "空羽复归之诗",
     "ja": "空舞う翼、帰還の詩"
   },
@@ -1135,8 +1135,8 @@
     "atk": 713,
     "desc": "Item_Weapon_S_1591_ShortDesc",
     "sub": "CRIT DMG",
-    "ko": "Item_Weapon_S_1591_Name",
+    "ko": "...",
     "zh": "...",
-    "ja": "Item_Weapon_S_1591_Name"
+    "ja": "..."
   }
 }

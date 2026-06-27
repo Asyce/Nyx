@@ -7,8 +7,8 @@
   "place": "",
   "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31101_UI.T_IconMonsterHead_31101_UI",
   "skill": {
-    "desc": "",
-    "simple_desc": "",
+    "desc": "Use Echo Skill to summon Fog Lionarch: Head to dart toward enemies, dealing {0} Fusion DMG.\n\nCD: {1}s",
+    "simple_desc": "Summon Fog Lionarch: Head to attack enemies, dealing Fusion DMG.",
     "param": [
       [
         "72.00%",

@@ -7,8 +7,8 @@
   "place": "",
   "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32068_UI.T_IconMonsterHead_32068_UI",
   "skill": {
-    "desc": "",
-    "simple_desc": "",
+    "desc": "Use Echo Skill to summon Forbidden Bastion to bash over enemies, dealing {0} Glacio DMG.\n\nResonators with this Echo equipped in the main slot gain {2} Healing Bonus.\n\nCD: {1}s",
+    "simple_desc": "Summon Forbidden Bastion to attack enemies, dealing Glacio DMG.\nResonators with this Echo equipped in the main slot gain Healing Bonus.",
     "param": [
       [
         "132.00%",

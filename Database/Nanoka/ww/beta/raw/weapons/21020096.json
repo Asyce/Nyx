@@ -2,7 +2,7 @@
   "id": 21020096,
   "rarity": 5,
   "type": 2,
-  "name": "Azure of Heaven",
+  "name": "Azure Oath",
   "desc": "Stay tuned",
   "icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21020096_UI.T_IconWeapon21020096_UI",
   "model": "/Game/Aki/Character/Weapon/Sword/R5Sword509/R5Sword509Md20001/Model/R5Sword509Md20001.R5Sword509Md20001",
@@ -1366,7 +1366,7 @@
       ]
     }
   },
-  "effect": "Grants {0} All-Attribute DMG Bonus. When Havoc Bane is applied, Heavy Attack DMG is Amplified by {1}, and Heavy Attack DMG ignores {2} of the target's DEF, for {3}s.",
+  "effect": "Grants {0} All-Attribute DMG Bonus. Upon inflicting Havoc Bane, the wielder gains {1} Heavy Attack DMG Amplification and their Heavy Attack DMG ignores {2} of the target's DEF, lasting for {3}s.",
   "effect_name": "Unbending",
   "param": [
     [

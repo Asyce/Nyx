@@ -7,8 +7,8 @@
   "place": "",
   "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31091_UI.T_IconMonsterHead_31091_UI",
   "skill": {
-    "desc": "",
-    "simple_desc": "",
+    "desc": "Use Echo Skill to summon a Porcelain Picket to slash forward, dealing 2 instances of {0} Aero DMG and 7 instances of {1} Aero DMG to enemies along the path.\n\nCD: {2}s",
+    "simple_desc": "Summon Porcelain Picket to deal Aero DMG.",
     "param": [
       [
         "10.80%",

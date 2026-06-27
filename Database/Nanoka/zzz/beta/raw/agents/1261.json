@@ -361,7 +361,7 @@
         },
         {
           "name": "Basic Attack: Salchow Jump",
-          "desc": "Entering the <color=#FFFFFF>Passion</color> state grants Jane one use of <color=#FFFFFF>Basic Attack: Salchow Jump</color>.\nWhen available, hold <IconMap:Icon_Normal> to activate:\nLaunch rapid consecutive attacks forward, followed by a Finishing Move, dealing <color=#F0D12B>Physical DMG</color>.\nHold the button during the consecutive attacks to greatly extend the skill duration. Release <IconMap:Icon_Normal> to trigger the Finishing Move early.\nAnti-Interrupt level is increased during the consecutive attacks, and Jane takes 40% reduced DMG. Jane is Invulnerable during the Finishing Move and can trigger a Perfect Dodge.\nIf a Perfect Dodge is triggered, the <color=#FFFFFF>Passion Stream</color> restored by the Finishing Move is increased.\nUsing and damaging an enemy with <color=#FFFFFF>Basic Attack: Salchow Jump</color> while in the <color=#FFFFFF>Passion</color> state generates <color=#FFFFFF>Passion Stream</color>.",
+          "desc": "Entering the <color=#FFFFFF>Passion</color> state grants Jane one use of <color=#FFFFFF>Basic Attack: Salchow Jump</color>.\nWhen available, hold <IconMap:Icon_Normal> to activate:\nLaunch rapid consecutive attacks forward, followed by a Finishing Move, dealing <color=#F0D12B>Physical DMG</color>.\nHold the button during the consecutive attacks to greatly extend the skill duration. Release <IconMap:Icon_Normal> to trigger the Finishing Move early.\nAnti-Interrupt level is increased during the consecutive attacks, and Jane takes 40% reduced DMG. Jane is Invulnerable during the Finishing Move and can trigger Perfect Dodge.\nIf Perfect Dodge is triggered, the amount of <color=#FFFFFF>Passion Stream</color> restored when the Finishing Move hits an enemy is increased.\nUsing and damaging an enemy with <color=#FFFFFF>Basic Attack: Salchow Jump</color> while in the <color=#FFFFFF>Passion</color> state generates <color=#FFFFFF>Passion Stream</color>.",
           "potential": [
             126100,
             126101,
@@ -2634,7 +2634,7 @@
     "126101": {
       "id": 126101,
       "name": "Potential Awakening: Deadly Dance Steps",
-      "desc": "While in <color=#FFFFFF>[Passion]</color> state, gain 12 Anomaly Proficiency.",
+      "desc": "While in <color=#FFFFFF>[Passion]</color> state, gain 6 Anomaly Proficiency.",
       "image": "Jane",
       "level_show_name": "Heart-Stealing Tango II",
       "level": 2,
@@ -2652,7 +2652,7 @@
     "126102": {
       "id": 126102,
       "name": "Potential Awakening: Deadly Dance Steps",
-      "desc": "While in <color=#FFFFFF>[Passion]</color> state, gain 18 Anomaly Proficiency.",
+      "desc": "While in <color=#FFFFFF>[Passion]</color> state, gain 9 Anomaly Proficiency.",
       "image": "Jane",
       "level_show_name": "Heart-Stealing Tango III",
       "level": 3,
@@ -2670,7 +2670,7 @@
     "126103": {
       "id": 126103,
       "name": "Potential Awakening: Deadly Dance Steps",
-      "desc": "While in <color=#FFFFFF>[Passion]</color> state, gain 24 Anomaly Proficiency.",
+      "desc": "While in <color=#FFFFFF>[Passion]</color> state, gain 12 Anomaly Proficiency.",
       "image": "Jane",
       "level_show_name": "Heart-Stealing Tango IV",
       "level": 4,
@@ -2688,7 +2688,7 @@
     "126104": {
       "id": 126104,
       "name": "Potential Awakening: Deadly Dance Steps",
-      "desc": "While in <color=#FFFFFF>[Passion]</color> state, gain 30 Anomaly Proficiency.",
+      "desc": "While in <color=#FFFFFF>[Passion]</color> state, gain 15 Anomaly Proficiency.",
       "image": "Jane",
       "level_show_name": "Heart-Stealing Tango V",
       "level": 5,
@@ -2706,7 +2706,7 @@
     "126105": {
       "id": 126105,
       "name": "Potential Awakening: Deadly Dance Steps",
-      "desc": "While in <color=#FFFFFF>[Passion]</color> state, gain 36 Anomaly Proficiency.",
+      "desc": "While in <color=#FFFFFF>[Passion]</color> state, gain 18 Anomaly Proficiency.",
       "image": "Jane",
       "level_show_name": "Heart-Stealing Tango VI",
       "level": 6,

@@ -1995,13 +1995,13 @@
   },
   "fairy_recommend": {
     "slot4": 33900,
-    "slot2": 33000,
+    "slot2": 31600,
     "slot_sub": 31300,
     "part4": {
-      "prop": 31402,
-      "name": "Anomaly Mastery",
+      "prop": 30502,
+      "name": "Energy Regen",
       "format": "{0:0.#%}",
-      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconElementAbnormalPower.png"
+      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconSpRecover.png"
     },
     "part5": {
       "prop": 31203,

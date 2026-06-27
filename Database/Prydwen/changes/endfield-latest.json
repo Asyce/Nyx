@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "endfield",
-  "generatedAt": "2026-06-26T08:40:51.613Z",
+  "generatedAt": "2026-06-27T08:12:03.413Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 4,
-      "unchanged": 27
+      "changed": 9,
+      "unchanged": 22
     }
   },
   "sections": {
@@ -16,31 +16,61 @@
       "removed": [],
       "changed": [
         {
+          "id": "characters:avywenna",
+          "name": "Avywenna",
+          "previousHash": "88c46d145bed6dc0f3024e19f5b59bc51cfc7f2ea4c5bc34bbbad8bbc819b6b4",
+          "currentHash": "ef396f0e7ebcc06f8bdeca13b6f55faff3776c9fb320d9bd62f65df2778b7c66"
+        },
+        {
           "id": "characters:camille",
           "name": "Camille",
-          "previousHash": "1f4aec35ce7781978435468cda038f4fd7f8970c561b8e3bef1b01681e596ac3",
-          "currentHash": "e9fef506b4e3de8bbd84dd975f364cbb7090d7185db823990a2035fe333651d6"
+          "previousHash": "e9fef506b4e3de8bbd84dd975f364cbb7090d7185db823990a2035fe333651d6",
+          "currentHash": "aa81be6fea16ec0132f1ca8569004733cc1d149d32ec2be8f980af9c81ebfd48"
+        },
+        {
+          "id": "characters:laevatain",
+          "name": "Laevatain",
+          "previousHash": "52ec008b0f74f7279026cd6f1edae0719d9afd0e7ff6b03a76f28db92297758a",
+          "currentHash": "a09a97f7a3d5e21b4f557009506e9bb34ecf3c33b5fab083491a7f5bbb2c20eb"
         },
         {
           "id": "characters:mi-fu",
           "name": "Mi Fu",
-          "previousHash": "a336dcb4324ec398de1cdd1c9a257c22b4b55511ddb166ca262d84c33aa475c2",
-          "currentHash": "c0d8c44ebe02b6c5f7d7cd22a4b62798bb9617f49902333cc80a8e80bfe32c00"
+          "previousHash": "c0d8c44ebe02b6c5f7d7cd22a4b62798bb9617f49902333cc80a8e80bfe32c00",
+          "currentHash": "b0d4b9ba827428c5540e538b5eb4ea156d939a1d78f69e5f95db7852147e1682"
+        },
+        {
+          "id": "characters:pogranichnik",
+          "name": "Pogranichnik",
+          "previousHash": "429bfde77e0bd308e927163681da62331ae2f207124e84aa57a86afaff2bd1a5",
+          "currentHash": "2abff6755d05b77b718ad8df0017653e28cf8b00a08d5e57c775c905a00c9c28"
+        },
+        {
+          "id": "characters:tangtang",
+          "name": "Tangtang",
+          "previousHash": "2e6c936f47fe205d93b206ff5b4a962f32198a0d9d74d25b10eca0d9311d7cab",
+          "currentHash": "00af77c8d6c4eadeb5dbca163dd04e7bbd63a94138fba4ba9f448ba6b71aa2af"
+        },
+        {
+          "id": "characters:wulfgard",
+          "name": "Wulfgard",
+          "previousHash": "b9b874ba4054353dd2307c7a379702433dab3f457eff5a024ef9981ec3557034",
+          "currentHash": "dfd3861cad28455184121ed276bfec315acb5248ed8212823eae6be9fd000ba9"
+        },
+        {
+          "id": "characters:zhuang-fangyi",
+          "name": "Zhuang Fangyi",
+          "previousHash": "ebeaae706fa08b82fe07ab1b01041b6cd51c5502686173231155df45305f56d5",
+          "currentHash": "03cd864dbecdf55369f0a4bc575ae025380a08eb7bb8615bb3c389da8550cf2d"
         },
         {
           "id": "collection:characters",
           "name": "Arknights: Endfield Characters Build Guides",
-          "previousHash": "57e809281cccc783edb96f77d6b6ab5d7a968e0240d86805856d0e333da3b8f9",
-          "currentHash": "fd6a8bb539ec40a9c5b1444cac1acacba29241a465f18d02b556cab2a2eee25d"
-        },
-        {
-          "id": "collection:weapons",
-          "name": "Arknights: Endfield Weapons List",
-          "previousHash": "8a6282885e6e823c085721ebefd74f71a6362f54b0561a9a4e3113f546eec512",
-          "currentHash": "3abeddced8870afe5eab3026e3fe90560f63b154fb0fa76df11c0c82a426d7c7"
+          "previousHash": "fd6a8bb539ec40a9c5b1444cac1acacba29241a465f18d02b556cab2a2eee25d",
+          "currentHash": "48b3f6e3b0b6ff50e201ce381693bf59bab89c81ffe2574b588b6c6ee8d785af"
         }
       ],
-      "unchanged": 27,
+      "unchanged": 22,
       "totals": {
         "previous": 31,
         "current": 31

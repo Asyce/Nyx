@@ -1,21 +1,34 @@
 {
   "provider": "Prydwen",
   "game": "zzz",
-  "generatedAt": "2026-06-26T08:40:51.613Z",
+  "generatedAt": "2026-06-27T08:12:03.413Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 0,
-      "unchanged": 68
+      "changed": 2,
+      "unchanged": 66
     }
   },
   "sections": {
     "records": {
       "added": [],
       "removed": [],
-      "changed": [],
-      "unchanged": 68,
+      "changed": [
+        {
+          "id": "characters:lucy",
+          "name": "Lucy",
+          "previousHash": "c9395c91dc0f17c450d7aeec4cf38b1bed4646125749ca8426648f937eb1349d",
+          "currentHash": "a8170bb931abdbd677130ba5b4ed3a6682828c0470c4c5dbb139533e802889bd"
+        },
+        {
+          "id": "characters:seth",
+          "name": "Seth",
+          "previousHash": "cba5bbf4af56edfd949a5175cc2266c02227c2ff1feb838ecbd7f7f554af3dea",
+          "currentHash": "ffcbc96b4afdb3596c58119a9667f88875c4b134c936b663d0ca29be23768ec9"
+        }
+      ],
+      "unchanged": 66,
       "totals": {
         "previous": 68,
         "current": 68

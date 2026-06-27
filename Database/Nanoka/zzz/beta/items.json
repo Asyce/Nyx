@@ -738,10 +738,10 @@
     },
     "description": "Item_Desc_217",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/SocialForumExp.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_Currency_Experience.webp"
     },
     "liveComparison": {
-      "currentHash": "49a9e30cc19c52beb6a7d703309adc9d5b62e08ce66416bcdb8ef76934755d1c"
+      "currentHash": "5be5959a429a3a89c99a6a78fcd4bdfe355ef359a0e8e011ea6e0fd844195d2f"
     }
   },
   {
@@ -1787,7 +1787,7 @@
   {
     "id": "459",
     "contentStatus": "beta",
-    "name": "Item_Summer_TideTreasure_Name",
+    "name": "Decor Shop Revenue",
     "rarity": 3,
     "type": {
       "1": "CURRENCY"
@@ -1795,10 +1795,10 @@
     "description": "Item_Summer_TideTreasure_Desc",
     "secondaryDescription": "Item_Summer_TideTreasure_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/Popularity.webp"
+      "icon": "Nanoka/zzz/assets/items/Activity_SummerTideTreasure_SalesIcon.webp"
     },
     "liveComparison": {
-      "currentHash": "c9fb557bf47870335f224bbf203246d0e12eb64d12e5a3fd671f55a9dec5f289"
+      "currentHash": "09028f6dc1fcabb01dcf9506673dad366c4f4e52a2a120fa1dee93f0a0cbeb3c"
     }
   },
   {
@@ -1816,6 +1816,23 @@
     },
     "liveComparison": {
       "currentHash": "abbe6b4a38aed64b5c73b9363952d505db466ebb1ff2e72a2e6c91ca63f0e3d1"
+    }
+  },
+  {
+    "id": "461",
+    "contentStatus": "beta",
+    "name": "Item_BMW_BottleBangbooZone",
+    "rarity": 3,
+    "type": {
+      "1": "CURRENCY"
+    },
+    "description": "Item_BMW_BottleBangbooZone_Desc",
+    "secondaryDescription": "Item_BMW_BottleBangbooZone_Story",
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/RoarinStoreCap.webp"
+    },
+    "liveComparison": {
+      "currentHash": "51895af18be931f5ec20af7cc6ed557f726fad51391e3af0fde08ac0401b3c8d"
     }
   },
   {
@@ -4278,10 +4295,10 @@
     "description": "Used to unlock Agent's Mindscape Cinema",
     "secondaryDescription": "...",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/IconRolePiece50.webp"
+      "icon": "Nanoka/zzz/assets/items/IconRolePiece66.webp"
     },
     "liveComparison": {
-      "currentHash": "050c33153389abc18e492616e528afaa75252013d4909e7125f2c065b61aeeef"
+      "currentHash": "d61cc3b70a4532718cf59a2d4c71e627f44349525a732d6dfd7dd9aac969727d"
     }
   },
   {
@@ -16578,12 +16595,12 @@
       "8": "BANGBOO"
     },
     "description": "Obtain this Bangboo model or authorization to perform the Bangboo's core update.",
-    "secondaryDescription": "The true essence of martial arts is the lightness and purity of heart.",
+    "secondaryDescription": "Never walk alone in the land of None.",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/IconBangbooPiece33.webp"
+      "icon": "Nanoka/zzz/assets/items/IconBangbooPiece43.webp"
     },
     "liveComparison": {
-      "currentHash": "da910b69f8efef7bf4e6323047e1c02f6521886e581f03bf01c99e1570597074"
+      "currentHash": "90c541cca1f081856010f3e31c412ffaa6f69ff86f8c16e646b71108d62f07d4"
     }
   },
   {
@@ -18970,6 +18987,38 @@
     },
     "liveComparison": {
       "currentHash": "408c35182c475dcd2f810c7b5e38187b930965c82f4e31a96c372326fd54c21b"
+    }
+  },
+  {
+    "id": "201310",
+    "contentStatus": "beta",
+    "name": "Item_SummerTideTreasure_02_name",
+    "rarity": 1,
+    "type": {
+      "11": "BATTLE RESOURCE"
+    },
+    "description": "Item_SummerTideTreasure_01_des",
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/Recovery.webp"
+    },
+    "liveComparison": {
+      "currentHash": "eceb439fbcb6601cb8a5350efafca259b98bbecfda3d40a79dffd94294d143f8"
+    }
+  },
+  {
+    "id": "201311",
+    "contentStatus": "beta",
+    "name": "Item_SummerTideTreasure_03_name",
+    "rarity": 1,
+    "type": {
+      "11": "BATTLE RESOURCE"
+    },
+    "description": "Item_SummerTideTreasure_01_des",
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/Recovery.webp"
+    },
+    "liveComparison": {
+      "currentHash": "ae6239aaeeff35f59253c6dd154ab0a3054382340e4bb1ad34725eb532cd0850"
     }
   },
   {
@@ -24171,18 +24220,18 @@
   {
     "id": "307007",
     "contentStatus": "beta",
-    "name": "Item_WeaponStar_S_Common_04_name",
+    "name": "Dusk Afterimage",
     "rarity": 3,
     "type": {
       "23": "SPECIAL W-ENGINE CORE"
     },
-    "description": "Item_WeaponStar_S_Common_04_des",
-    "secondaryDescription": "Item_WeaponStar_S_Common_04_story",
+    "description": "Can be used to upgrade the W-Engine \"Sol Exuvia\".",
+    "secondaryDescription": "...",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponStar_S_Common_04.webp"
     },
     "liveComparison": {
-      "currentHash": "899f66ccc2e2b462f2a1a7e7c2e07977989c285bb491911f596937be2a026094"
+      "currentHash": "ebe72b6b8fcf57eedcdddd77489f9e1f3b5eb6603e61352aff9e64f12ee5ed2d"
     }
   },
   {
@@ -27068,12 +27117,12 @@
       "9": "BANGBOO CORE"
     },
     "description": "Obtain this Bangboo model or authorization to perform the Bangboo's core update.",
-    "secondaryDescription": "The true essence of martial arts is the lightness and purity of heart.",
+    "secondaryDescription": "Never walk alone in the land of None.",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/IconBangbooPiece33.webp"
+      "icon": "Nanoka/zzz/assets/items/IconBangbooPiece43.webp"
     },
     "liveComparison": {
-      "currentHash": "c36264442022838af96d0266024a0fd2e5d2a687a6238a9fafc85d5d0022fc45"
+      "currentHash": "5fe8e7f5fd60a4e7c22734f39d15b9ac2254ab428f9d545c8134342fbb773676"
     }
   },
   {
@@ -50423,32 +50472,32 @@
   },
   {
     "id": "1341073",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Choice_1341073_name",
     "rarity": 4,
     "type": {},
     "description": "Choice_1341073_des",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardDailyUse1601.webp"
+      "icon": "Nanoka/zzz/assets/items/CardDailyUse1581.webp"
     },
     "liveComparison": {
       "liveHash": "553334e8600e1083b849b7356d097b0b0cbec6c7f53db559d81cdd6ef7b1912b",
-      "currentHash": "553334e8600e1083b849b7356d097b0b0cbec6c7f53db559d81cdd6ef7b1912b"
+      "currentHash": "a177a3b5afcc55075dc2c8d0fac2d8246aa1ce74064370528d4bc000d48990e1"
     }
   },
   {
     "id": "1341074",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Choice_1341074_name",
     "rarity": 4,
     "type": {},
     "description": "Choice_1341074_des",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardDailyUse1611.webp"
+      "icon": "Nanoka/zzz/assets/items/CardDailyUse1591.webp"
     },
     "liveComparison": {
       "liveHash": "3e82be27265fd9c42682052dd57cc6e921bb7c4be14e78cfde7d8ffd7cb940e4",
-      "currentHash": "3e82be27265fd9c42682052dd57cc6e921bb7c4be14e78cfde7d8ffd7cb940e4"
+      "currentHash": "4ce480ff48e5d89583b109467218cccda2fb4bf53fd98a0a6d5f4db4f644d382"
     }
   },
   {
@@ -61500,9 +61549,11 @@
     },
     "description": "Skin_3111511_des",
     "secondaryDescription": "Skin_3111511_story",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/Skin_LucyPrincessHoliday.webp"
+    },
     "liveComparison": {
-      "currentHash": "145de22641f257d4b793bfdace9ac23ac64c496d2968b8ddb42a43d5a81bde56"
+      "currentHash": "770f70a6469f50203e819db7435821855806b6ba9d051763afb57559bc437d0f"
     }
   },
   {
@@ -62486,10 +62537,12 @@
     },
     "description": "Skin_3115811_des",
     "secondaryDescription": "Skin_3115811_story",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/Skin_RemielleMoonlightWhispers.webp"
+    },
     "liveComparison": {
       "liveHash": "6ecfa98aa88b58fc17e2ce97679b5e9fc7040b67e44f28728429a52ff1471b27",
-      "currentHash": "0d57c40dd3b581a78c989cc2d8e4def5066bb84ee75a989855d83b6ce2c48e4d"
+      "currentHash": "ece6e792633aee6c3aec2be238d63969366cb4fbbd72d67959a16b5883306a80"
     }
   },
   {
@@ -62505,6 +62558,23 @@
     "assets": {},
     "liveComparison": {
       "currentHash": "57faae4a0b051981f59ee7b56fe99bf3983a49b5c99d5f87c0b3a9a3b55d1642"
+    }
+  },
+  {
+    "id": "3115911",
+    "contentStatus": "beta",
+    "name": "Skin_3115911_name",
+    "rarity": 4,
+    "type": {
+      "63": "DRESS"
+    },
+    "description": "Skin_3115911_des",
+    "secondaryDescription": "Skin_3115911_story",
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/Skin_SigridTraversing.webp"
+    },
+    "liveComparison": {
+      "currentHash": "1f3bdaedebb737b95de3c85eddf6fe70df274000d657556d31617bc5f3213a67"
     }
   },
   {
@@ -63431,11 +63501,9 @@
     },
     "description": "Automatically obtained upon achieving 3 Ranks on the current Precinct's Hard stages. Valid for 14 days.",
     "secondaryDescription": "test",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/BabelTowerS4_Legend.webp"
-    },
+    "assets": {},
     "liveComparison": {
-      "currentHash": "2a3aad27fd429076716af939760930f2b454d7058215f025b381d4f12a2455ad"
+      "currentHash": "69dca2fa9f096278afe11df39af7c78ff6573842d67bf42e8643f50183f3329a"
     }
   },
   {
@@ -64461,6 +64529,36 @@
     }
   },
   {
+    "id": "3231581",
+    "contentStatus": "beta",
+    "name": "Profile_3231581_name",
+    "rarity": 4,
+    "type": {
+      "64": "PROFILE"
+    },
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/ItemProfileGeneral.webp"
+    },
+    "liveComparison": {
+      "currentHash": "c7162ca408b1d103e6f24fa448709641d0a6bfaa70f38e0feae3f6fff8689808"
+    }
+  },
+  {
+    "id": "3231591",
+    "contentStatus": "beta",
+    "name": "Profile_3231591_name",
+    "rarity": 4,
+    "type": {
+      "64": "PROFILE"
+    },
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/ItemProfileGeneral.webp"
+    },
+    "liveComparison": {
+      "currentHash": "9ddba854f5d7f6c485516f85592d41427a32cd77d5af8d2d9611b2d35a2b045f"
+    }
+  },
+  {
     "id": "3300001",
     "contentStatus": "live",
     "name": "Honorary Citizen",
@@ -65249,6 +65347,23 @@
     }
   },
   {
+    "id": "3301028",
+    "contentStatus": "beta",
+    "name": "CallingCard_3301028_name",
+    "rarity": 3,
+    "type": {
+      "65": "CALLING CARD"
+    },
+    "description": "CallingCard_3301028_des",
+    "secondaryDescription": "CallingCard_3301028_story",
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/Callingcard49.webp"
+    },
+    "liveComparison": {
+      "currentHash": "b5980efb864ecda29e7266cf84900b4e882deb8daa1768a307a975027e9381bf"
+    }
+  },
+  {
     "id": "3302001",
     "contentStatus": "live",
     "name": "Winding Roses",
@@ -65403,10 +65518,10 @@
     "description": "Automatically obtained upon earning 2 Ranks in the Hard stages of this Precinct. Valid for 14 days.",
     "secondaryDescription": "test",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/Callingcard29.webp"
+      "icon": "Nanoka/zzz/assets/items/Callingcard50.webp"
     },
     "liveComparison": {
-      "currentHash": "deacf160369764e6a9f0920b888b09a01030f5ad9153dcfa95c2c3b7521ffa46"
+      "currentHash": "563a22193ffb2d556010a3f427fe559baf4a69b9e1f5d2fb27c118fe44d9cae8"
     }
   },
   {
@@ -66290,6 +66405,36 @@
     }
   },
   {
+    "id": "3311581",
+    "contentStatus": "beta",
+    "name": "CallingCard_3311581_name",
+    "rarity": 3,
+    "type": {
+      "65": "CALLING CARD"
+    },
+    "description": "CallingCard_3311581_des",
+    "secondaryDescription": "CallingCard_3311581_story",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "0d9830161ab3b849a486c1f70a3c04b47ee26becc7777dc4d2d9f1b3d6a8a80f"
+    }
+  },
+  {
+    "id": "3311591",
+    "contentStatus": "beta",
+    "name": "CallingCard_3311591_name",
+    "rarity": 3,
+    "type": {
+      "65": "CALLING CARD"
+    },
+    "description": "CallingCard_3311591_des",
+    "secondaryDescription": "CallingCard_3311591_story",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "52cd478d1994c560e305b60ea448ca16fdfc3ab66bcabda5b9ef1b026422b440"
+    }
+  },
+  {
     "id": "3321011",
     "contentStatus": "live",
     "name": "\"Ending Theme\"",
@@ -67167,6 +67312,36 @@
     "liveComparison": {
       "liveHash": "438cae78ce42a5d0c06c384721d292953780e7fdf2151800ca99b0d2f39450ac",
       "currentHash": "438cae78ce42a5d0c06c384721d292953780e7fdf2151800ca99b0d2f39450ac"
+    }
+  },
+  {
+    "id": "3321581",
+    "contentStatus": "beta",
+    "name": "CallingCard_3321581_name",
+    "rarity": 3,
+    "type": {
+      "65": "CALLING CARD"
+    },
+    "description": "CallingCard_3321581_des",
+    "secondaryDescription": "CallingCard_3321581_story",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "5ed0efea50c3c2ed7ef13673ff876e32968d46e9bf4f53affc0230b0f908c762"
+    }
+  },
+  {
+    "id": "3321591",
+    "contentStatus": "beta",
+    "name": "CallingCard_3321591_name",
+    "rarity": 3,
+    "type": {
+      "65": "CALLING CARD"
+    },
+    "description": "CallingCard_3321591_des",
+    "secondaryDescription": "CallingCard_3321591_story",
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "64ac67eccf8db3dfd7f76d22b082a821fcb67a7ed91a615fda18c80eb309d193"
     }
   },
   {
@@ -68839,6 +69014,23 @@
     "liveComparison": {
       "liveHash": "236b273ea709b1813e7625dd536421df8a816d710929471228ee8d62c73f910e",
       "currentHash": "236b273ea709b1813e7625dd536421df8a816d710929471228ee8d62c73f910e"
+    }
+  },
+  {
+    "id": "3651013",
+    "contentStatus": "beta",
+    "name": "PhotoName_3651013",
+    "rarity": 4,
+    "type": {
+      "68": "PHOTOWALL ITEM"
+    },
+    "description": "A special souvenir that can be displayed on the Memory Board.",
+    "secondaryDescription": "PhotoDesc_3651013",
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/PhotowallDecoration5.webp"
+    },
+    "liveComparison": {
+      "currentHash": "43022b7f60f67982683d1e634cfcf2762a575a14bf02fbbc64a41b0706bbb9c8"
     }
   },
   {
@@ -82168,6 +82360,21 @@
     }
   },
   {
+    "id": "4300099",
+    "contentStatus": "beta",
+    "name": "Ether Dewdrops",
+    "rarity": 3,
+    "type": {},
+    "description": "<color=#2BAD00>Revives and restores a certain amount of HP</color> of an incapacitated Agent after use.",
+    "secondaryDescription": "Mildly concentrated Ether energy... It looks inviting and exquisite, at least before it causes corruption.",
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/ActivePropsSkill40.webp"
+    },
+    "liveComparison": {
+      "currentHash": "aa9cc75cf03a69af40926b2d899c555ba7dc461c026c98cc3f6dcf1049ada899"
+    }
+  },
+  {
     "id": "4300101",
     "contentStatus": "beta",
     "name": "ZKItem_4300101_Name",
@@ -82191,10 +82398,10 @@
     "description": "ZKItem_4300111_Desc",
     "secondaryDescription": "BKItem_4300111_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/Zenkov_Material_003.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_Material_002.webp"
     },
     "liveComparison": {
-      "currentHash": "f362ded8a753a8b17f4e1032516ea78dee97f61305721fd68909642c708fa1cb"
+      "currentHash": "0604c4d7b698d9cb7e7f4bd493d7d84e8d18726a88f5c79553267b6648cceeda"
     }
   },
   {
@@ -82206,10 +82413,10 @@
     "description": "ZKItem_4300112_Desc",
     "secondaryDescription": "BKItem_4300112_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/Zenkov_Material_004.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_Material_003.webp"
     },
     "liveComparison": {
-      "currentHash": "468dae92fb41f8fa1a3628ed83c8c8e2ca51644b30fd4196383fece313823cfb"
+      "currentHash": "d110fe4737824f8d5e83aa35baa9285874b0a40859581359b1ba69f4d0ae8d74"
     }
   },
   {
@@ -82221,10 +82428,10 @@
     "description": "ZKItem_4300121_Desc",
     "secondaryDescription": "BKItem_4300121_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/Zenkov_Material_005.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_Material_004.webp"
     },
     "liveComparison": {
-      "currentHash": "c6f2194c5b57cfc083e0b44facbd0748dc212de61194799561cb42494f486003"
+      "currentHash": "989be2b6b2e3ade2b451d0832b7ffb5fac5b25f9b401f1941d28aa98021637f2"
     }
   },
   {
@@ -82236,10 +82443,10 @@
     "description": "ZKItem_4300122_Desc",
     "secondaryDescription": "BKItem_4300122_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/Zenkov_Material_006.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_Material_005.webp"
     },
     "liveComparison": {
-      "currentHash": "df548c66b222dca8932cf5699f69e5e476325232ff6406f89e736ebf024ba26d"
+      "currentHash": "40047c80d57d47d9210a8e1f39bb3861a7686e2e937c5b9a6243cc71cd3a5c72"
     }
   },
   {
@@ -82251,10 +82458,10 @@
     "description": "ZKItem_4300151_Desc",
     "secondaryDescription": "BKItem_4300151_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/Zenkov_Material_007.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_Material_006.webp"
     },
     "liveComparison": {
-      "currentHash": "a349d82b33e5ec0c6e2981026eb28acba0cdefe636f470e032dccbf240feec88"
+      "currentHash": "661f81b2b517967e2e685d24b46f17edcdf36065ed608cf230b07fb6b20862c3"
     }
   },
   {
@@ -82266,10 +82473,10 @@
     "description": "ZKItem_4300152_Desc",
     "secondaryDescription": "BKItem_4300152_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/Item_Collectible_02.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_Material_007.webp"
     },
     "liveComparison": {
-      "currentHash": "a191d33d90157668876a56c1956fea2d54353a4b541982387b3a48fca525d1ca"
+      "currentHash": "19f9de51e9925b914a964be78a5e0392ef37f22854ec8f07969e8d1566b060b7"
     }
   },
   {
@@ -82370,11 +82577,9 @@
     "type": {},
     "description": "ZKItem_4300224_Desc",
     "secondaryDescription": "BKItem_4300224_Story",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/SuibianAttireMaterial04.webp"
-    },
+    "assets": {},
     "liveComparison": {
-      "currentHash": "ad94b9b20e343538c2479ba9d8c83a79b05b0ea03a6651f1644c7747f3af5ac2"
+      "currentHash": "8dc43e0ff762498a8ca2c893c0f472b5ad4360b7cec96b4efe639e737e8d1aeb"
     }
   },
   {
@@ -82535,11 +82740,9 @@
     "type": {},
     "description": "ZKItem_4300324_Desc",
     "secondaryDescription": "BKItem_4300324_Story",
-    "assets": {
-      "icon": "Nanoka/zzz/assets/items/SuibianBooUpgradePlugin.webp"
-    },
+    "assets": {},
     "liveComparison": {
-      "currentHash": "5ab0cebe7d702e0318a5c6e88af011343f0470d2ea3ebeef1184806a994aaeb1"
+      "currentHash": "d79c8d29f383da2665d5bc9e034306db8e2895adcb2a3b6d7d1e5f55b5fcff15"
     }
   },
   {
@@ -82671,10 +82874,10 @@
     "description": "ZKItem_4300405_Desc",
     "secondaryDescription": "BKItem_4300405_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/SuibianFestivalMaterial03.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_Material_040.webp"
     },
     "liveComparison": {
-      "currentHash": "b2814d2cab16ebb5c151ad4739b5485bb98a3f747ff721a688cf2ba72ac97ffb"
+      "currentHash": "65c0a48cb5cf6cd28649ffda2d6d727597d57b00131943df3226d09f67c47865"
     }
   },
   {
@@ -82761,10 +82964,10 @@
     "description": "ZKItem_4300425_Desc",
     "secondaryDescription": "BKItem_4300425_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/SuibianFestivalMaterial03.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_Material_041.webp"
     },
     "liveComparison": {
-      "currentHash": "3b8a0af9b9ed4b203234c1ca194f8a6fcfa6db21215e7d44a7e4cfdeb879b585"
+      "currentHash": "4ee8d5c84c6e47a813f9a1362a4dbda89fd77de06577a0ebc371126874601136"
     }
   },
   {
@@ -82851,10 +83054,10 @@
     "description": "ZKItem_4300455_Desc",
     "secondaryDescription": "BKItem_4300455_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/SuibianFestivalMaterial03.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_Material_042.webp"
     },
     "liveComparison": {
-      "currentHash": "47be8ea4b38bcb923f2ca5d4e5c0ea58d5ac9134d4ba986e562cca59810b3d1f"
+      "currentHash": "1289b420ea23fc2ea2c6e12d61dcdbdb78fc70b38acececbdae84db6e0b82992"
     }
   },
   {
@@ -82911,10 +83114,10 @@
     "description": "ZKItem_4301303_Desc",
     "secondaryDescription": "BKItem_4301303_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/EtherBattery.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_Material_Monster_7.webp"
     },
     "liveComparison": {
-      "currentHash": "ac82402b617bcc449375df7056cd7573f6bc567df234bfcb55433e7e8ac7f8b4"
+      "currentHash": "ed6e941936aea517683c6ee97b68904a80396a778dc591defe074dee429308f6"
     }
   },
   {
@@ -82956,10 +83159,10 @@
     "description": "ZKItem_4301313_Desc",
     "secondaryDescription": "BKItem_4301313_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/EtherBattery.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_Material_Monster_8.webp"
     },
     "liveComparison": {
-      "currentHash": "c55a7ac810709fe8ce63bea1df8c0fe77e1123f9114b336d33020d37af782918"
+      "currentHash": "94fc677da88575a287c2f34e5b1c03bd2d6f075bc3f291573f7382f3413d7c9c"
     }
   },
   {
@@ -83001,10 +83204,10 @@
     "description": "ZKItem_4301323_Desc",
     "secondaryDescription": "BKItem_4301323_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/141WasteBattery.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_Material_Monster_9.webp"
     },
     "liveComparison": {
-      "currentHash": "2d85d3993a9c74d2a17a5aa737436eb8fab8ee5a7cf74c14f85f2ff182d016e3"
+      "currentHash": "cfb8854abecca2c2b3cdef7af9245fec2aae166ab92f8480409f483f7642933d"
     }
   },
   {
@@ -83076,10 +83279,10 @@
     "description": "After use, restores <color=#2BAD00>300</color> HP to the current Agent within <color=#2BAD00>20</color>s. Effect is interrupted upon taking an attack.",
     "secondaryDescription": "BKItem_4311000_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/IconHPRecover.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_Consumables_001.webp"
     },
     "liveComparison": {
-      "currentHash": "b1b128aa983ff3fda86db2b946c42dea7c8f8cf3191982eee4c592aec437a573"
+      "currentHash": "77e7b2fc84151883f9a58fd8b83a1fdd7a7d0ac9b0e4f8b977d711ab4feb748c"
     }
   },
   {
@@ -83091,10 +83294,10 @@
     "description": "After use, restores <color=#2BAD00>1,000</color> HP to the current Agent over <color=#2BAD00>15</color> seconds. Effect is interrupted upon taking an attack.",
     "secondaryDescription": "BKItem_4311001_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/IconHPRecover.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_Consumables_002.webp"
     },
     "liveComparison": {
-      "currentHash": "b457645c611aa65b97a9591608e83dfca7bf579931b7a8601973c9a5d267a1ce"
+      "currentHash": "5210e38a12e9097de98ca65895ad3e51bded0f5d0a8a7b477b2fc02d16f9bdda"
     }
   },
   {
@@ -83106,10 +83309,10 @@
     "description": "After use, restores <color=#2BAD00>30%</color> Max HP to the current Agent over <color=#2BAD00>10</color>s, interrupted if the Agent takes an attack; simultaneously grants Immunity to 1 instance of DMG for <color=#2BAD00>30</color>s.",
     "secondaryDescription": "BKItem_4311002_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/IconHPRecover.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_Consumables_003.webp"
     },
     "liveComparison": {
-      "currentHash": "cc5dbf1f2f5ce1c5f1ebf10a8e086f74ab57ab212c7557a891cd98d8ad464eeb"
+      "currentHash": "740fd90032ad4cf872ba0e27b3e3baaa2221273cbba5d64d521bf47bbc212910"
     }
   },
   {
@@ -83121,10 +83324,10 @@
     "description": "After use, restores <color=#2BAD00>50%</color> Max HP to the current Agent over <color=#2BAD00>3</color>s. The effect is interrupted upon taking an attack; also grants Immunity to 1 instance of DMG for <color=#2BAD00>60</color>s.",
     "secondaryDescription": "BKItem_4311003_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/IconHPRecover.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_Consumables_004.webp"
     },
     "liveComparison": {
-      "currentHash": "f9952b876f63e79eac252cd5fc83422a757af085b95504d7004b48ebbf68e417"
+      "currentHash": "acf425117b8d77cd76bcfac3c47aa3852e3569cfcc4c9a6dfaad2acc419eb25c"
     }
   },
   {
@@ -83136,10 +83339,10 @@
     "description": "After use, restores <color=#2BAD00>5%</color> of lost Max HP to the whole squad within <color=#2BAD00>20</color> seconds. Effect is interrupted upon taking damage.",
     "secondaryDescription": "BKItem_4311010_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/IconTranquilizer.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_Consumables_005.webp"
     },
     "liveComparison": {
-      "currentHash": "e6f40eb2439084111249a68c5fdc3e86d05ef413d1c8bc59e9f3e107c90faef2"
+      "currentHash": "257f5fd00c59917fba24bc1485bd0504a60d0fabb11e68b6c910d8610125571a"
     }
   },
   {
@@ -83151,10 +83354,10 @@
     "description": "After use, restores <color=#2BAD00>10%</color> of lost Max HP to the whole squad within <color=#2BAD00>10</color> seconds. Effect is interrupted upon taking damage.",
     "secondaryDescription": "BKItem_4311011_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/IconTranquilizer.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_Consumables_006.webp"
     },
     "liveComparison": {
-      "currentHash": "e0a516830f85cc4586cd9cdf449688b7e8e1283c584c35c135732bbf2a00a10c"
+      "currentHash": "dbdd83fbb9a2c6c5806291e23181defe00717832ceba7c4d6ad2728f8ceb2315"
     }
   },
   {
@@ -83166,10 +83369,10 @@
     "description": "After use, restores <color=#2BAD00>15%</color> of lost Max HP to the whole squad within <color=#2BAD00>5</color> seconds. The effect is interrupted upon taking an attack; simultaneously grants immunity to Erosion Level growth once within <color=#2BAD00>30</color> seconds.",
     "secondaryDescription": "BKItem_4311012_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/IconTranquilizer.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_Consumables_007.webp"
     },
     "liveComparison": {
-      "currentHash": "0dc005850cbc81f8b903e8a5def471abb747c84872b2ff1265d0a83aa5dfbf8a"
+      "currentHash": "ea0a106fe2dfdea510d5ad16785b0b657b26f52106d19e4edbb599cb398d9cec"
     }
   },
   {
@@ -83181,10 +83384,10 @@
     "description": "After use, restores <color=#2BAD00>20%</color> of lost Max HP to the whole squad within <color=#2BAD00>1</color> seconds. The effect is interrupted upon taking an attack; simultaneously grants immunity to Erosion Level growth once within <color=#2BAD00>60</color> seconds.",
     "secondaryDescription": "BKItem_4311013_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/IconTranquilizer.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_Consumables_008.webp"
     },
     "liveComparison": {
-      "currentHash": "a81e795f7e4bb33474035f005c771236da6c1a5a513ccedaaa0ee472e82f2cbc"
+      "currentHash": "57a21540d8ad40010610ecd1504e51fa0b8b555786dcdfb08dd3b5c229c8ccdc"
     }
   },
   {
@@ -83196,10 +83399,10 @@
     "description": "ZKItem_4311021_Desc",
     "secondaryDescription": "BKItem_4311021_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/Recovery.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_Consumables_010.webp"
     },
     "liveComparison": {
-      "currentHash": "d4db589dcb9501c9e14d49ea12216b62ca8a78f8d6e3b8c11b77ecf4c573fd8f"
+      "currentHash": "da3ba08edfe41f8cbb61b917ba7b051860e9ff5fda176b178a68f550510c52fd"
     }
   },
   {
@@ -83211,10 +83414,10 @@
     "description": "ZKItem_4311022_Desc",
     "secondaryDescription": "BKItem_4311022_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/Recovery.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_Consumables_011.webp"
     },
     "liveComparison": {
-      "currentHash": "bd307644369d9d0c018c68490eb7f4d6d52de3c2c796d4bb852891515e83edd6"
+      "currentHash": "8a03f61406a8bfdb83ca48e280931464d0735f9daead43a51d11920ebf10c711"
     }
   },
   {
@@ -83226,10 +83429,10 @@
     "description": "ZKItem_4311033_Desc",
     "secondaryDescription": "BKItem_4311033_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/Recovery.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_Consumables_009.webp"
     },
     "liveComparison": {
-      "currentHash": "5097294e9df21a3d53d295cd755270c0527895cd3b4b64fde25bc65a8de0589e"
+      "currentHash": "21a5614495975f26fb7a9731e317f7961ee9f940c9eb4f5ca6168e21ce0f1779"
     }
   },
   {
@@ -83241,10 +83444,10 @@
     "description": "ZKItem_4311043_Desc",
     "secondaryDescription": "BKItem_4311043_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/Recovery.webp"
+      "icon": "Nanoka/zzz/assets/items/Choice002.webp"
     },
     "liveComparison": {
-      "currentHash": "e460e4e5199a7296a92b3030f553465f536f7b793b2ae76ba57325be3d798394"
+      "currentHash": "317e67b1e5e27e0bb748034e5d8193dd7accf9eb65842886aa74526facda445b"
     }
   },
   {
@@ -83493,13 +83696,13 @@
     "name": "ZKItem_4320121_Name",
     "rarity": 3,
     "type": {},
-    "description": "ZKItem_4320121_Desc",
+    "description": "30600201_ZKDescription",
     "secondaryDescription": "BKItem_4320121_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "0cfb7cf089ab515f99ca5a28dabb36350227c98132c74d48c6de0abcee6e25f2"
+      "currentHash": "de716dc09c7e24c9cdc883263fb099df5f120fc7b47a4be9efc48a1003945a40"
     }
   },
   {
@@ -83508,13 +83711,13 @@
     "name": "ZKItem_4320122_Name",
     "rarity": 3,
     "type": {},
-    "description": "ZKItem_4320122_Desc",
+    "description": "30600202_ZKDescription",
     "secondaryDescription": "BKItem_4320122_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankStun03.webp"
     },
     "liveComparison": {
-      "currentHash": "23edad2202e1ddcc3106c5f223e4468b4787fe3d2af4c23bc1a36e250f90f895"
+      "currentHash": "af4f7a40151a64322a1199445345ecc03ed77c7a0789c1c32aa6dacdb96a941b"
     }
   },
   {
@@ -83523,13 +83726,13 @@
     "name": "ZKItem_4320123_Name",
     "rarity": 3,
     "type": {},
-    "description": "ZKItem_4320123_Desc",
+    "description": "30600203_ZKDescription",
     "secondaryDescription": "BKItem_4320123_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
     },
     "liveComparison": {
-      "currentHash": "a9754d916df467a3e7c521abf574a8c02363d3f7e6aa023d934c044bdf179452"
+      "currentHash": "24462a75ea488084c2fb1fdce263b1d3d9f88e207cbba305582e7fc4146c9af0"
     }
   },
   {
@@ -83538,13 +83741,13 @@
     "name": "ZKItem_4320124_Name",
     "rarity": 3,
     "type": {},
-    "description": "ZKItem_4320124_Desc",
+    "description": "30600204_ZKDescription",
     "secondaryDescription": "BKItem_4320124_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
     },
     "liveComparison": {
-      "currentHash": "6e35a1d1cc961ba151a2b4d7b568b93bb9bb114f498d77266a5f958734eaecbf"
+      "currentHash": "3731460ea90ff344b7c96afc73fdc5eadc21d3dee1f50919004d8b23269e624c"
     }
   },
   {
@@ -83553,13 +83756,13 @@
     "name": "ZKItem_4320125_Name",
     "rarity": 3,
     "type": {},
-    "description": "ZKItem_4320125_Desc",
+    "description": "30600205_ZKDescription",
     "secondaryDescription": "BKItem_4320125_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
     },
     "liveComparison": {
-      "currentHash": "a688fba8f2fe33acfc66fea214c2c82cb280a98db5bd500fa87e3f8be5fc132c"
+      "currentHash": "fcaf56582a8bf3efcf0e034da864e802cbc9b0a2282bf71e3085facc99394281"
     }
   },
   {
@@ -83568,13 +83771,13 @@
     "name": "ZKItem_4320126_Name",
     "rarity": 3,
     "type": {},
-    "description": "ZKItem_4320126_Desc",
+    "description": "30600206_ZKDescription",
     "secondaryDescription": "BKItem_4320126_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankShield03.webp"
     },
     "liveComparison": {
-      "currentHash": "d8e580fb595318b64c73650edbb2d64da8410dbe8bc89e1be4a9265a2cf890b3"
+      "currentHash": "a41562fec37f3423ed48d4d63948759d88a7078476d655596446e551afb68c90"
     }
   },
   {
@@ -83625,136 +83828,136 @@
   {
     "id": "4320131",
     "contentStatus": "beta",
-    "name": "ZKItem_4320131_Name",
+    "name": "Gear-AssaultA-1",
     "rarity": 3,
     "type": {},
-    "description": "ZKItem_4320131_Desc",
+    "description": "30600201_ZKDescription",
     "secondaryDescription": "BKItem_4320131_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "90ad942e8ac930e860b3eb9741b3a9c2175b8fe0dca8e69e424b748816bab38a"
+      "currentHash": "6e4b0f9a010f1d8b976f6ee6c0ff4eae55c4975417bde9a665d834e8c126e7c7"
     }
   },
   {
     "id": "4320132",
     "contentStatus": "beta",
-    "name": "ZKItem_4320132_Name",
+    "name": "Gear-BreakA-1",
     "rarity": 3,
     "type": {},
-    "description": "ZKItem_4320132_Desc",
+    "description": "30600202_ZKDescription",
     "secondaryDescription": "BKItem_4320132_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankStun03.webp"
     },
     "liveComparison": {
-      "currentHash": "645826a445482946bfb604daf758e1db7a7feccb064e416dba19a40e9e7a64c7"
+      "currentHash": "6b1a3e932b3db86f4f225a6cd1c54164c11abe9ccf7abdaf9136a1cb94bb2e08"
     }
   },
   {
     "id": "4320133",
     "contentStatus": "beta",
-    "name": "ZKItem_4320133_Name",
+    "name": "Gear-AnomalyA-1",
     "rarity": 3,
     "type": {},
-    "description": "ZKItem_4320133_Desc",
+    "description": "30600203_ZKDescription",
     "secondaryDescription": "BKItem_4320133_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
     },
     "liveComparison": {
-      "currentHash": "043534606aca480d069f911c2137a050dbafb1391992064593b0123c37b175a7"
+      "currentHash": "5767f71b028cc9b2bc5c31b6a4c132c222e17075d82a81a29c9b1669bde5d8e4"
     }
   },
   {
     "id": "4320134",
     "contentStatus": "beta",
-    "name": "ZKItem_4320134_Name",
+    "name": "Gear-SupportA-1",
     "rarity": 3,
     "type": {},
-    "description": "ZKItem_4320134_Desc",
+    "description": "30600204_ZKDescription",
     "secondaryDescription": "BKItem_4320134_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
     },
     "liveComparison": {
-      "currentHash": "8b5b97afc8c5c2e3405dd1e57ad23c8111bed12497bc06ac6646da3fe35625e6"
+      "currentHash": "667de949765bc2bfae33e316b89f9c4220bfed03dc466333b1973a66c5adeafc"
     }
   },
   {
     "id": "4320135",
     "contentStatus": "beta",
-    "name": "ZKItem_4320135_Name",
+    "name": "Gear-RuptureA-1",
     "rarity": 3,
     "type": {},
-    "description": "ZKItem_4320135_Desc",
+    "description": "30600205_ZKDescription",
     "secondaryDescription": "BKItem_4320135_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
     },
     "liveComparison": {
-      "currentHash": "b3b8e06627884e5345b793f753e3c8be345254cbc1647ad7f06a430b75b36ee4"
+      "currentHash": "ea638337529d3d37a26625fcd12d36519771b63453b7e3e575330da595959b5a"
     }
   },
   {
     "id": "4320136",
     "contentStatus": "beta",
-    "name": "ZKItem_4320136_Name",
+    "name": "Gear-DefenseA-1",
     "rarity": 3,
     "type": {},
-    "description": "ZKItem_4320136_Desc",
+    "description": "30600206_ZKDescription",
     "secondaryDescription": "BKItem_4320136_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankShield03.webp"
     },
     "liveComparison": {
-      "currentHash": "e28b7410fb876f9b803c4a1efab680037d8d95e5d4e4820a6595f42a3482b7e1"
+      "currentHash": "d006902af5d0c3ce77996268b5fc80bfd739a8ad3dcd22f247732acb3432b150"
     }
   },
   {
     "id": "4320137",
     "contentStatus": "beta",
-    "name": "ZKItem_4320137_Name",
+    "name": "Gear-AssaultA-2",
     "rarity": 3,
     "type": {},
-    "description": "ZKItem_4320137_Desc",
+    "description": "<color=#FFAF2C>Gear-AssaultA-2</color> is an upgraded version of the Assault-type Expertise equipment. Building on its predecessor, it further raises the upper limit of attack attributes.",
     "secondaryDescription": "BKItem_4320137_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "d148a92b87d668c2cbbdf21aa624516beddc4118b2681dc1b58b4c7b7533c521"
+      "currentHash": "eb3ff605b62b2a648e105cbe7a882cb7f6fc545a29e5505f3600166b363359f2"
     }
   },
   {
     "id": "4320138",
     "contentStatus": "beta",
-    "name": "ZKItem_4320138_Name",
+    "name": "Gear-AnomalyA-2",
     "rarity": 3,
     "type": {},
-    "description": "ZKItem_4320138_Desc",
+    "description": "<color=#FFAF2C>Gear-AnomalyA-2</color> is an upgraded model of Anomaly-type Expertise equipment. Further enhances the ability to inflict Anomaly effects.",
     "secondaryDescription": "BKItem_4320138_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
     },
     "liveComparison": {
-      "currentHash": "3eded2e1f6638c07fadd236d8795d44c1d1b9791052614f347d9771fea3ffc78"
+      "currentHash": "590ec11e772f9ea89ec98cfd5557247cbcdd513cea93fe439f8d3fb0a2a9cf77"
     }
   },
   {
     "id": "4320139",
     "contentStatus": "beta",
-    "name": "ZKItem_4320139_Name",
+    "name": "Gear-SupportA-2",
     "rarity": 3,
     "type": {},
-    "description": "ZKItem_4320139_Desc",
+    "description": "<color=#FFAF2C>Gear-SupportA-2</color> is an upgraded model of the Expertise Support Equipment. Further enhances the coverage and effectiveness of Support skills.",
     "secondaryDescription": "BKItem_4320201_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
     },
     "liveComparison": {
-      "currentHash": "770f4efc4e10dd6cf39eff8fe42fb45a12085c3c4f9be9b0e5aa68006e94e578"
+      "currentHash": "c00319a6a5fbc081c45a19f1d9919209c679612d297f3fb397ee123c45b3a3db"
     }
   },
   {
@@ -83778,13 +83981,13 @@
     "name": "ZKItem_4320151_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320151_Desc",
+    "description": "30600101_ZKDescription",
     "secondaryDescription": "BKItem_4320151_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "c4cdbc38bf4c8916c84c0981a82c1f6e8e66e99c4747956e07a6f29d875494eb"
+      "currentHash": "0518e9378dca699d984becce466e3eef700029f1e04974645db8479d6eb50cd2"
     }
   },
   {
@@ -83793,13 +83996,13 @@
     "name": "ZKItem_4320152_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320152_Desc",
+    "description": "30600102_ZKDescription",
     "secondaryDescription": "BKItem_4320152_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankStun03.webp"
     },
     "liveComparison": {
-      "currentHash": "971b720d76271a566b98e339f2a26a0607a2d9374eedbae736c6f7821230dec0"
+      "currentHash": "dd4282112d7453ca446394c496e76d96392ecbff42935fe63f666746f42592e0"
     }
   },
   {
@@ -83808,13 +84011,13 @@
     "name": "ZKItem_4320153_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320153_Desc",
+    "description": "30600103_ZKDescription",
     "secondaryDescription": "BKItem_4320153_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
     },
     "liveComparison": {
-      "currentHash": "037c46a8b3d6b47616ae15ed4da438e02e94f64ec5dd7d0b75a76f15ec270d59"
+      "currentHash": "a609ac76e7b22a75c3ff2d5844c2dd2299c7d27747aa81ee3bbafcdcbffe0ed4"
     }
   },
   {
@@ -83823,13 +84026,13 @@
     "name": "ZKItem_4320154_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320154_Desc",
+    "description": "30600104_ZKDescription",
     "secondaryDescription": "BKItem_4320154_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
     },
     "liveComparison": {
-      "currentHash": "ac90607d04c8e81c1db06cb1291547b98ef3d6179da214fcc579688a0a292554"
+      "currentHash": "2245f61af593da0e879259b7ba9705781c2f384684f25c3a931930c5992eddc4"
     }
   },
   {
@@ -83838,13 +84041,13 @@
     "name": "ZKItem_4320155_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320155_Desc",
+    "description": "30600105_ZKDescription",
     "secondaryDescription": "BKItem_4320155_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
     },
     "liveComparison": {
-      "currentHash": "183a6135e35edb830f2b4c669962611c570b0a5335621324be6d68ed0feda583"
+      "currentHash": "1035716cd4124bef7b3107d98c2fedacb9b79aeb4ac8b8cf588e14fc9289f919"
     }
   },
   {
@@ -83853,13 +84056,13 @@
     "name": "ZKItem_4320156_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320156_Desc",
+    "description": "30600106_ZKDescription",
     "secondaryDescription": "BKItem_4320156_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankShield03.webp"
     },
     "liveComparison": {
-      "currentHash": "b5c7934f8fcfc2641986913a8bd1a05cbfd4fe4724d3da3c4253bcdc16b4d45b"
+      "currentHash": "558b70595cbb4b2520ab19861f38b482c4f435b7d68faa8d759800c9b1811fb3"
     }
   },
   {
@@ -83868,13 +84071,13 @@
     "name": "ZKItem_4320157_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320157_Desc",
+    "description": "30600108_ZKDescription",
     "secondaryDescription": "BKItem_4320157_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "156bef837dc2000a7b0e7c78cf64e0c26750f030879fb9e91550105842187e65"
+      "currentHash": "d24e95167904d128f9c237a2c51ae716dd8985b8821744e64b5b4cfc43ab7b4b"
     }
   },
   {
@@ -83883,13 +84086,13 @@
     "name": "ZKItem_4320158_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320158_Desc",
+    "description": "30600107_ZKDescription",
     "secondaryDescription": "BKItem_4320158_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
     },
     "liveComparison": {
-      "currentHash": "c2d109f5e9ced89c6b603f6326a790018ff7d794b6d644ea8c307f56c92d14b4"
+      "currentHash": "333c2234a66f3af535fc441754c14012a836ed08c795832d71fe2e031478490c"
     }
   },
   {
@@ -83898,148 +84101,148 @@
     "name": "ZKItem_4320159_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320159_Desc",
+    "description": "30600109_ZKDescription",
     "secondaryDescription": "BKItem_4320159_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
     },
     "liveComparison": {
-      "currentHash": "063e0cb7df7e47eb12ad3e8a93ee9172361faac4cebf22a7435ad72205660f32"
+      "currentHash": "ef8d780607d84a52f5b33131287b6b1dad57c407227a0f0d7d59e54a9cc80101"
     }
   },
   {
     "id": "4320171",
     "contentStatus": "beta",
-    "name": "ZKItem_4320171_Name",
+    "name": "Gear-AssaultS-1",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320171_Desc",
+    "description": "30600101_ZKDescription",
     "secondaryDescription": "BKItem_4320301_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "92b2ac8c2cd3c021f7552e442735c4fac3b43a99d3d0ea6eec586f8cf6f3791b"
+      "currentHash": "91b2f12d374c5dd87e6293219c599e178a69b4f725a33d629a01cc939b856b32"
     }
   },
   {
     "id": "4320172",
     "contentStatus": "beta",
-    "name": "ZKItem_4320172_Name",
+    "name": "Gear-Stun S-1",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320172_Desc",
+    "description": "30600102_ZKDescription",
     "secondaryDescription": "BKItem_4320172_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankStun03.webp"
     },
     "liveComparison": {
-      "currentHash": "d6d6df4a00bfc14e85e62ddbf849c37c82c0193373ee1c536af3a37459037557"
+      "currentHash": "282bf91759a947319de8ace15b153261fca3d1ace1690a7a45dadce106342b10"
     }
   },
   {
     "id": "4320173",
     "contentStatus": "beta",
-    "name": "ZKItem_4320173_Name",
+    "name": "Gear-AnomalyS-1",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320173_Desc",
+    "description": "30600103_ZKDescription",
     "secondaryDescription": "BKItem_4320173_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
     },
     "liveComparison": {
-      "currentHash": "66f8663f18590a1bed18d0e89845ba1d1695f6ade5c633e9339584557ea925d6"
+      "currentHash": "e51ca4b265178fd6d08dc3713802143ee69dea9f1c01ac95340ebf1804c698fd"
     }
   },
   {
     "id": "4320174",
     "contentStatus": "beta",
-    "name": "ZKItem_4320174_Name",
+    "name": "Gear-Support S-1",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320174_Desc",
+    "description": "30600104_ZKDescription",
     "secondaryDescription": "BKItem_4320174_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
     },
     "liveComparison": {
-      "currentHash": "d1032123dd18a6493fea841123c57beaf406298ea084d4aa0ad04edf497dfb3e"
+      "currentHash": "ae6f51dd94ebf2c254fd36061627337f5ae80a9de72af3f72e6023051fbabd67"
     }
   },
   {
     "id": "4320175",
     "contentStatus": "beta",
-    "name": "ZKItem_4320175_Name",
+    "name": "Gear-RuptureS-1",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320175_Desc",
+    "description": "30600105_ZKDescription",
     "secondaryDescription": "BKItem_4320175_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
     },
     "liveComparison": {
-      "currentHash": "307a355d223ebb0c58114aed22de9eff49fc89e82d4ded55e6753b065532c649"
+      "currentHash": "daacb0ee39c8ec6fbb2f27f911795f03c274801a313841051f7eda00e533245c"
     }
   },
   {
     "id": "4320176",
     "contentStatus": "beta",
-    "name": "ZKItem_4320176_Name",
+    "name": "Gear-Defense S-1",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320176_Desc",
+    "description": "30600106_ZKDescription",
     "secondaryDescription": "BKItem_4320176_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankShield03.webp"
     },
     "liveComparison": {
-      "currentHash": "e1e6ecc70df6e5577c2d763a6a9dd5e35f5c65dcbd0824c7f39fcdc30689a0d1"
+      "currentHash": "3c19bc098d830cb60a3666d56e38926b1a918103c3f1d675cb953f7daf64f30d"
     }
   },
   {
     "id": "4320177",
     "contentStatus": "beta",
-    "name": "ZKItem_4320177_Name",
+    "name": "Gear-Assault S-2",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320177_Desc",
+    "description": "30600108_ZKDescription",
     "secondaryDescription": "BKItem_4320177_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "32397c8cf2c49444d6b411466fefe706631bc80b159c3282d0a28c66f450fbc0"
+      "currentHash": "17b45a2754c0fe6fd7cc6ada883b945a9bf8af0e1cba301c13864055d01eb5e2"
     }
   },
   {
     "id": "4320178",
     "contentStatus": "beta",
-    "name": "ZKItem_4320178_Name",
+    "name": "Gear-AnomalyS-2",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320178_Desc",
+    "description": "30600107_ZKDescription",
     "secondaryDescription": "BKItem_4320178_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
     },
     "liveComparison": {
-      "currentHash": "b47bcd60cf901b1cfc9f6a4a7546f86683b4a1da5ff99e934652c12d5863f019"
+      "currentHash": "100094a5c3678cbb30108093b1998b42fabd060412b556b6d93a07ebfc4e0dc9"
     }
   },
   {
     "id": "4320179",
     "contentStatus": "beta",
-    "name": "ZKItem_4320179_Name",
+    "name": "Gear-Support S-2",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320179_Desc",
+    "description": "30600109_ZKDescription",
     "secondaryDescription": "BKItem_4320179_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
     },
     "liveComparison": {
-      "currentHash": "06ae403ff63a221e8ee2e999610710cf1914da9782b1a25df428a78f3468a3ec"
+      "currentHash": "09109553534d7c2d6d0520e77a77aeffabda1c5287700c897f228c68b0aa3648"
     }
   },
   {
@@ -84048,13 +84251,13 @@
     "name": "ZKItem_4320251_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320251_Desc",
+    "description": "30600001_ZKDescription",
     "secondaryDescription": "BKItem_4320301_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "1793e47f6db43288bbabcf251ebf8da925f16e2c24c6099c42d44fed0eb5107a"
+      "currentHash": "59e9de47856d1822d13943067bf6988566ac4994495f11d8b5044194a84eb0cd"
     }
   },
   {
@@ -84063,13 +84266,13 @@
     "name": "ZKItem_4320252_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320252_Desc",
+    "description": "30600002_ZKDescription",
     "secondaryDescription": "BKItem_4320252_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankStun03.webp"
     },
     "liveComparison": {
-      "currentHash": "44d35ad490e42903ffb856ebac53aee08a6206efc7c2e31e4b9e45ca9db5b95d"
+      "currentHash": "2ed6128f3cdb413b74de0f79557e624dec41daf88c3100bc64016f7a13d65cc3"
     }
   },
   {
@@ -84078,13 +84281,13 @@
     "name": "ZKItem_4320253_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320253_Desc",
+    "description": "30600003_ZKDescription",
     "secondaryDescription": "BKItem_4320253_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
     },
     "liveComparison": {
-      "currentHash": "e917067eb6e9e3de792b9b5f7f5783673bae20b92e959e81dee2fbc313c9aa5e"
+      "currentHash": "fb503400dd2ce7fd713f77f3d09a7e42ed11b2dfdfa09f110661140b92841678"
     }
   },
   {
@@ -84093,13 +84296,13 @@
     "name": "ZKItem_4320254_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320254_Desc",
+    "description": "30600004_ZKDescription",
     "secondaryDescription": "BKItem_4320254_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
     },
     "liveComparison": {
-      "currentHash": "7e9c5ed4fa008f5dd630f710b6d0ac069b10694d5aec924654743864af27c412"
+      "currentHash": "6516be4ea18f07326c7049ae1cffa17026f7a6dbe6e4909679cecbff2fc348a1"
     }
   },
   {
@@ -84108,13 +84311,13 @@
     "name": "ZKItem_4320255_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320255_Desc",
+    "description": "30600005_ZKDescription",
     "secondaryDescription": "BKItem_4320255_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
     },
     "liveComparison": {
-      "currentHash": "ba66b891d7b895da3374f34f535f669688ab3bc60bef3184735b212f2acf8cb9"
+      "currentHash": "6a62eafb86dea9f050ffc5a14875885136d23fac82f3bc11f54098fcb451cfd1"
     }
   },
   {
@@ -84123,13 +84326,13 @@
     "name": "ZKItem_4320256_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320256_Desc",
+    "description": "30600006_ZKDescription",
     "secondaryDescription": "BKItem_4320256_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankShield03.webp"
     },
     "liveComparison": {
-      "currentHash": "b3f393706ad2526deeb55bc773d43c2ad52be84d84fd74b5d236c52200d2b856"
+      "currentHash": "42f7027e1fbd6c8b9fde1af77c5f2d0462a286080f77cf53195c3565e5a987e3"
     }
   },
   {
@@ -84138,13 +84341,13 @@
     "name": "ZKItem_4320257_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320257_Desc",
+    "description": "30600008_ZKDescription",
     "secondaryDescription": "BKItem_4320257_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "6991167c517ff8d60b098f98513021a69cb08bea2e4067ab69ad7e7d6c423c07"
+      "currentHash": "d0b44a0a6a4da7582e43d97e47709c5703805b547e808199a0d0c97f74ba779b"
     }
   },
   {
@@ -84153,13 +84356,13 @@
     "name": "ZKItem_4320258_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320258_Desc",
+    "description": "30600007_ZKDescription",
     "secondaryDescription": "BKItem_4320258_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
     },
     "liveComparison": {
-      "currentHash": "d8837a4da6fcc4b49295094011ec8cc7b89dfc7bdcbb47169d7fd967013ba3f1"
+      "currentHash": "548ba0df6c9ec038e85ff80ddee344a442864d6a55caf5e48621d8049701df91"
     }
   },
   {
@@ -84168,148 +84371,148 @@
     "name": "ZKItem_4320259_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4320259_Desc",
+    "description": "30600009_ZKDescription",
     "secondaryDescription": "BKItem_4320259_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
     },
     "liveComparison": {
-      "currentHash": "d9d9e202f812f6db577361fb6345ba3909e854560e2cc7b606f28f8bfca462af"
+      "currentHash": "2e11fc313e8867a50288554fb8d3a1f1c40453571991ced28836340b23c87494"
     }
   },
   {
     "id": "4320271",
     "contentStatus": "beta",
-    "name": "ZKItem_4320271_Name",
+    "name": "Gear-AssaultS+ 1",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4320271_Desc",
+    "description": "30600001_ZKDescription",
     "secondaryDescription": "BKItem_4320301_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "7df2525c8af72d32ed85006b2fd76df15aa6f3ac51da7e15510948b16fa4104e"
+      "currentHash": "5b01a384255da6cc75762d6b500a3d5532790cf143ed99def289806a428bff16"
     }
   },
   {
     "id": "4320272",
     "contentStatus": "beta",
-    "name": "ZKItem_4320272_Name",
+    "name": "Gear-Stun S+ 1",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4320272_Desc",
+    "description": "30600002_ZKDescription",
     "secondaryDescription": "BKItem_4320272_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankStun03.webp"
     },
     "liveComparison": {
-      "currentHash": "a7971053e71210092cadd7b96e44de4b3d3a77b58ab3c9290a76d25f0e04ba96"
+      "currentHash": "8abec31a33db565300d7517ee4dd45a80cf9a3a524dcba9e5580382bac750354"
     }
   },
   {
     "id": "4320273",
     "contentStatus": "beta",
-    "name": "ZKItem_4320273_Name",
+    "name": "Gear-Anomaly S+ 1",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4320273_Desc",
+    "description": "30600003_ZKDescription",
     "secondaryDescription": "BKItem_4320273_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
     },
     "liveComparison": {
-      "currentHash": "fe7ae1b0911fe4538f46ec73c0ce9d4a926840cadfe158064671d9c64e5e81a5"
+      "currentHash": "bbef9a6b0d12fd153801b37559f8ff5fb5048abf078a3c3ae051f5fdafe699f3"
     }
   },
   {
     "id": "4320274",
     "contentStatus": "beta",
-    "name": "ZKItem_4320274_Name",
+    "name": "Gear-Support S+ 1",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4320274_Desc",
+    "description": "30600004_ZKDescription",
     "secondaryDescription": "BKItem_4320274_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
     },
     "liveComparison": {
-      "currentHash": "95dd5e5c58ae1797d697f09cc57f9290256be82a70c4dff324cfff9b6b4a0445"
+      "currentHash": "7b7da0c104ae7d230d7a7b0ceadd8c6257c9185185d547ad182df9ecb22b76c8"
     }
   },
   {
     "id": "4320275",
     "contentStatus": "beta",
-    "name": "ZKItem_4320275_Name",
+    "name": "Gear-Rupture S+ 1",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4320275_Desc",
+    "description": "30600005_ZKDescription",
     "secondaryDescription": "BKItem_4320275_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
     },
     "liveComparison": {
-      "currentHash": "71a3515bb094b4d3e19600e77ea2000788c4d1f57c1a5906944b7cb166984a88"
+      "currentHash": "6377bfba7bcb9548b1a0fb2a77745b0073d26c9a8c687edbc7dd785378180f0a"
     }
   },
   {
     "id": "4320276",
     "contentStatus": "beta",
-    "name": "ZKItem_4320276_Name",
+    "name": "Gear-Defense S+ 1",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4320276_Desc",
+    "description": "30600006_ZKDescription",
     "secondaryDescription": "BKItem_4320276_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankShield03.webp"
     },
     "liveComparison": {
-      "currentHash": "00a7fb810bce3579d4b370344a0e33fcf24a8a9fbdb6884adee43aff5b5d0973"
+      "currentHash": "e431e582f4177ef272614b5e3d580d905661ed2b18ec94eb471e56cb8ca51adb"
     }
   },
   {
     "id": "4320277",
     "contentStatus": "beta",
-    "name": "ZKItem_4320277_Name",
+    "name": "Gear-Attack S+ 2",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4320277_Desc",
+    "description": "30600008_ZKDescription",
     "secondaryDescription": "BKItem_4320277_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "de647f823767c07e587804d33a8102ebebcf35b721cdb6612dfb6149db622606"
+      "currentHash": "68ca004e4bd9d0d457a60b81975c1872143208f81557218d5980e035e5eaf09b"
     }
   },
   {
     "id": "4320278",
     "contentStatus": "beta",
-    "name": "ZKItem_4320278_Name",
+    "name": "Gear-Anomaly S+ 2",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4320278_Desc",
+    "description": "30600007_ZKDescription",
     "secondaryDescription": "BKItem_4320278_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
     },
     "liveComparison": {
-      "currentHash": "6faadeeceb99be882923cfb520de9680c457955a917374d64b978d052950b589"
+      "currentHash": "2d64adc75ffe07288e44b5a20a6eeec9ff77118d55b53f7b4d03b2e88cbe2326"
     }
   },
   {
     "id": "4320279",
     "contentStatus": "beta",
-    "name": "ZKItem_4320279_Name",
+    "name": "Gear-Support S+ 2",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4320279_Desc",
+    "description": "30600009_ZKDescription",
     "secondaryDescription": "BKItem_4320279_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
     },
     "liveComparison": {
-      "currentHash": "58afe2f51ff6a078866918c37e52f113337bd9fbb85685117be3d3c33b1b45ae"
+      "currentHash": "456a776e546cc951ff234b9074c3ee9d84d25a7de49f4b9436f692cc3cc4b94f"
     }
   },
   {
@@ -84318,13 +84521,13 @@
     "name": "ZKItem_4321001_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4321001_Desc",
+    "description": "ZKRelic_13701110_des",
     "secondaryDescription": "BKItem_4321001_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic063.webp"
     },
     "liveComparison": {
-      "currentHash": "faa3a8a91cbf680b947a24b1afa72f09e37eaffdc7b8f5903699a13becb5a527"
+      "currentHash": "86abee07c77dc039d849f1197f2c59f1f0b4de77bec0107f31f95266d65e7a99"
     }
   },
   {
@@ -84333,13 +84536,13 @@
     "name": "ZKItem_4321002_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4321002_Desc",
+    "description": "ZKRelic_13700310_des",
     "secondaryDescription": "BKItem_4321002_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic014.webp"
     },
     "liveComparison": {
-      "currentHash": "11cd20e1ce381295c188a595a09a3f6a33290601cfb593e3a8e76614530c921c"
+      "currentHash": "f99456fd82a2e9bd2af9847df4c0ae48b76788cf93f15e32c00583c0d7b1948c"
     }
   },
   {
@@ -84348,13 +84551,13 @@
     "name": "ZKItem_4321003_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4321003_Desc",
+    "description": "ZKRelic_13700710_des",
     "secondaryDescription": "BKItem_4321003_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic035.webp"
     },
     "liveComparison": {
-      "currentHash": "84e18c7c5e16cc58bd855a8412b678b786e7bac7fc8ed4ad052780827e324d32"
+      "currentHash": "e166dbdc413e2b4ea7dbd210bfe95c19cd1bbbeef3e48d4d71978611c8fb7066"
     }
   },
   {
@@ -84363,13 +84566,13 @@
     "name": "ZKItem_4321004_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4321004_Desc",
+    "description": "ZKRelic_13701510_des",
     "secondaryDescription": "BKItem_4321004_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic083.webp"
     },
     "liveComparison": {
-      "currentHash": "56168c42bbd63e25e7f8c7091c96c4c550e83e26457a7991e4d811a9cd667075"
+      "currentHash": "04097cecbb9436de8d34bdc5f47890d6bad3aec4858b95741d030aaa5ba2aee3"
     }
   },
   {
@@ -84378,13 +84581,13 @@
     "name": "ZKItem_4321005_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4321005_Desc",
+    "description": "ZKRelic_13701010_des",
     "secondaryDescription": "BKItem_4321005_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic056.webp"
     },
     "liveComparison": {
-      "currentHash": "ad00990f8f481a73df63be788534812e4de75be53698a1cdc65f20126cc82e79"
+      "currentHash": "a7262f61f87e37de10f0376ad85671d3cd8e5b83554e434e2a7487b9075dae87"
     }
   },
   {
@@ -84393,13 +84596,13 @@
     "name": "ZKItem_4321006_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4321006_Desc",
+    "description": "ZKRelic_13700910_des",
     "secondaryDescription": "BKItem_4321006_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic047.webp"
     },
     "liveComparison": {
-      "currentHash": "214f3df03749b96ebcc50b0196e14a168e393b351055556e2fd93bb6a73c2b18"
+      "currentHash": "86e0d8fe9408e9d34fe725ae72f82704ccdbeb5b3b9306fcbc61940f9e562c9d"
     }
   },
   {
@@ -84408,13 +84611,13 @@
     "name": "ZKItem_4321007_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4321007_Desc",
+    "description": "ZKRelic_13701310_des",
     "secondaryDescription": "BKItem_4321007_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic063.webp"
     },
     "liveComparison": {
-      "currentHash": "13285f06742dacde545d069538d9b79ff62308faf0c241777385b670dc210842"
+      "currentHash": "cc3970673501886a71aa8c67c61a5259d4204847d36e3bb459a3cf99061c86e2"
     }
   },
   {
@@ -84423,13 +84626,13 @@
     "name": "ZKItem_4321008_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4321008_Desc",
+    "description": "ZKRelic_13700510_des",
     "secondaryDescription": "BKItem_4321008_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic014.webp"
     },
     "liveComparison": {
-      "currentHash": "ee62ca9236e067825c070cba2fced7bd991cf34bd186b9d6c76b62394bf78f22"
+      "currentHash": "042d006b2387a771f4a9cd30922610fa86d9ed68da1b9745310c86803774beed"
     }
   },
   {
@@ -84438,13 +84641,13 @@
     "name": "ZKItem_4321009_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4321009_Desc",
+    "description": "ZKRelic_13701910_des",
     "secondaryDescription": "BKItem_4321009_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic035.webp"
     },
     "liveComparison": {
-      "currentHash": "2537eaae59a26abf093a3a877753c8797769f81fb5a100572fd24592ec577f4b"
+      "currentHash": "31988afd29cb4ef8fb5e4fd864f6cd9196e0bd819274632eefb2c833b8ceb0d8"
     }
   },
   {
@@ -84483,13 +84686,13 @@
     "name": "ZKItem_4321012_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4321012_Desc",
+    "description": "ZKRelic_13701810_des",
     "secondaryDescription": "BKItem_4321012_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic094.webp"
     },
     "liveComparison": {
-      "currentHash": "f13616d78dcbc4a94c344e54795c960572dcf4b496d327404b996e4c22094eb1"
+      "currentHash": "a583f439548bac3abf100e96aa7ebbda49fc985f3f868c03807817c474a8664e"
     }
   },
   {
@@ -84498,13 +84701,13 @@
     "name": "ZKItem_4321013_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4321013_Desc",
+    "description": "ZKRelic_13701710_des",
     "secondaryDescription": "BKItem_4321013_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic095.webp"
     },
     "liveComparison": {
-      "currentHash": "2f4971143793f1a75b5c829781ffff8459c8cd74bb664513d5cf8e4186b9baf0"
+      "currentHash": "81e1b636bef18fd288f02f234df2bc95ba697f8b76705a490c4a4b85248b779d"
     }
   },
   {
@@ -84513,13 +84716,13 @@
     "name": "ZKItem_4321014_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4321014_Desc",
+    "description": "ZKRelic_13701610_des",
     "secondaryDescription": "BKItem_4321014_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic086.webp"
     },
     "liveComparison": {
-      "currentHash": "0a0dc3ca3762a2ba4f9418ee57dfdcbed76df4f6d803b1e86b057e7ea0dbfa21"
+      "currentHash": "683e39bdd3773550af044e0b9223ce97085737b95a2b34f98f649b6686fd5379"
     }
   },
   {
@@ -84528,13 +84731,13 @@
     "name": "ZKItem_4321015_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4321015_Desc",
+    "description": "ZKRelic_13701410_des",
     "secondaryDescription": "BKItem_4321015_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic082.webp"
     },
     "liveComparison": {
-      "currentHash": "7667e9f22e44acd166e17692ad8de76a4eb1e52743f3ef53c9638c0d655fd3a6"
+      "currentHash": "ad52710bb953900ef3e4b2ee8b8948052914c056c8083f26a8d0a309dd4368d4"
     }
   },
   {
@@ -84543,13 +84746,13 @@
     "name": "ZKItem_4321016_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4321016_Desc",
+    "description": "ZKRelic_13701210_des",
     "secondaryDescription": "BKItem_4321016_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic076.webp"
     },
     "liveComparison": {
-      "currentHash": "b484f0baf546d326735ee40efb146caf0e16c60f896bef466bb83ec1d5548e81"
+      "currentHash": "f0c2ec803a7f7d7591a798504d9b1976a36ea4a2902a9a27b383c318263453e4"
     }
   },
   {
@@ -84558,13 +84761,13 @@
     "name": "ZKItem_4321017_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4321017_Desc",
+    "description": "ZKRelic_13700810_des",
     "secondaryDescription": "BKItem_4321017_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic067.webp"
     },
     "liveComparison": {
-      "currentHash": "13d5519ade10661fe903871e7c6474f7b410b0d0263975eb1cb4fb91c2b8e226"
+      "currentHash": "03c049f18f7ca3852471dccaf1a59a0adb76960eb59477988879c3e5777c9ec7"
     }
   },
   {
@@ -84573,13 +84776,13 @@
     "name": "ZKItem_4321018_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4321018_Desc",
+    "description": "ZKRelic_13700610_des",
     "secondaryDescription": "BKItem_4321018_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic038.webp"
     },
     "liveComparison": {
-      "currentHash": "1821e3b9a26f4943bb9658d01e116b69d0cfd7b7daa08780a41b7b4d1637fdb5"
+      "currentHash": "29d5f010f39d4656fea3a09840cca20988702dcabe73f2d8e709e8130fc15aca"
     }
   },
   {
@@ -84588,13 +84791,13 @@
     "name": "ZKItem_4321019_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4321019_Desc",
+    "description": "ZKRelic_13700410_des",
     "secondaryDescription": "BKItem_4321019_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic025.webp"
     },
     "liveComparison": {
-      "currentHash": "9a39106e13a9bd7c8243d7e6ec1cd775eece5b8f0feae6ee2e543e511407b307"
+      "currentHash": "a8354b498bb37ccd3a6a687fd1fdee5be03fb42d3a78ba45115bc0535578072a"
     }
   },
   {
@@ -84603,13 +84806,13 @@
     "name": "ZKItem_4321020_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4321020_Desc",
+    "description": "ZKRelic_13700210_des",
     "secondaryDescription": "BKItem_4321020_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic028.webp"
     },
     "liveComparison": {
-      "currentHash": "930fefac9c365b83ec9056ba5b8a813d6821899077d6920e898abf268e2387b8"
+      "currentHash": "ad75c4f4e10dab7dc7c10cec53cb1366ac889db154d71b529d703cc2b9824c25"
     }
   },
   {
@@ -84618,13 +84821,13 @@
     "name": "ZKItem_4321021_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4321021_Desc",
+    "description": "ZKRelic_13700110_des",
     "secondaryDescription": "BKItem_4321021_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic001.webp"
     },
     "liveComparison": {
-      "currentHash": "04787a4668a7939192e0014c07c1a35facae1866f47e04bb807585d5f6f75c99"
+      "currentHash": "86792ab0c9ef88047002e36e76f435167bf64b486cd23e716b97554131915abc"
     }
   },
   {
@@ -84633,13 +84836,13 @@
     "name": "ZKItem_4322001_Name",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4322001_Desc",
+    "description": "ZKRelic_13701110_des",
     "secondaryDescription": "BKItem_4322001_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic083.webp"
     },
     "liveComparison": {
-      "currentHash": "07b3057d407e934a92c8d7d41af760af16e9a2002290362fb54af1afbabfe888"
+      "currentHash": "771491d5d8ef4afeaf052334ee7507d74aeef88e95b343d330984250314b6945"
     }
   },
   {
@@ -84648,13 +84851,13 @@
     "name": "ZKItem_4322002_Name",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4322002_Desc",
+    "description": "ZKRelic_13700310_des",
     "secondaryDescription": "BKItem_4322002_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic056.webp"
     },
     "liveComparison": {
-      "currentHash": "98f5decc1228860a2208c5390abdf1e29559bdddb0e6132f2bb16fa719f938a2"
+      "currentHash": "62e5568fbd580627d14de4df534b746072f7295a9599dcaa267659bb814bf33b"
     }
   },
   {
@@ -84663,13 +84866,13 @@
     "name": "ZKItem_4322003_Name",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4322003_Desc",
+    "description": "ZKRelic_13700710_des",
     "secondaryDescription": "BKItem_4322003_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic047.webp"
     },
     "liveComparison": {
-      "currentHash": "f64bb646fa64b6d7b0e452db69a225988cf3360d12b3050ec1be5f8fe2978ec0"
+      "currentHash": "54c42dd26faa6e175208563e2086d6a8d66da5990046cce099859e800f390b55"
     }
   },
   {
@@ -84678,13 +84881,13 @@
     "name": "ZKItem_4322004_Name",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4322004_Desc",
+    "description": "ZKRelic_13701510_des",
     "secondaryDescription": "BKItem_4322004_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic083.webp"
     },
     "liveComparison": {
-      "currentHash": "b200df61aab15551b43ffd546c7988dc730338d059f5ccf2d9a87f503bbfe470"
+      "currentHash": "8d48ff3c785cb8be045eca3660ff7d82c9474f635ae6f21cc15445dde349fac8"
     }
   },
   {
@@ -84693,13 +84896,13 @@
     "name": "ZKItem_4322005_Name",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4322005_Desc",
+    "description": "ZKRelic_13701010_des",
     "secondaryDescription": "BKItem_4322005_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic056.webp"
     },
     "liveComparison": {
-      "currentHash": "cbb1c4071fcf01f0b42eb7caa548403745bd4304be0509a6c741c5a369b4e20b"
+      "currentHash": "2c1c0b03a832f68fee5156a9daf8dae90388551f29fd9aad2d2a1ddef81c0188"
     }
   },
   {
@@ -84708,13 +84911,13 @@
     "name": "ZKItem_4322006_Name",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4322006_Desc",
+    "description": "ZKRelic_13700910_des",
     "secondaryDescription": "BKItem_4322006_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic047.webp"
     },
     "liveComparison": {
-      "currentHash": "0b0d49cb7c30d778a88ce8d13588ecf11e244b75d4f7a565545667dbe455321f"
+      "currentHash": "3b9467ae47b0f443f6c8016b2c97d2e205ee450b6d86c9f4321b96273acd954e"
     }
   },
   {
@@ -84723,13 +84926,13 @@
     "name": "ZKItem_4322007_Name",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4322007_Desc",
+    "description": "ZKRelic_13701310_des",
     "secondaryDescription": "BKItem_4322007_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic083.webp"
     },
     "liveComparison": {
-      "currentHash": "11041f46f77a7555a62b811360d926c9aa8f1c42daf94bf2fe53915e95221a8f"
+      "currentHash": "7e66a2f3cc517241b8388de68c4b3faf7bec2f4cf66e9c32bc80f95fd75dcce0"
     }
   },
   {
@@ -84738,13 +84941,13 @@
     "name": "ZKItem_4322008_Name",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4322008_Desc",
+    "description": "ZKRelic_13700510_des",
     "secondaryDescription": "BKItem_4322008_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic056.webp"
     },
     "liveComparison": {
-      "currentHash": "d1ec9877dfbcc470d9e9c13817da5dcd14e5c441c65dc433c5e72ccd10afcadd"
+      "currentHash": "44f5c3574b12acf111b01a3194792f9e72ce4d4abc25fca089b7546eff9f30e6"
     }
   },
   {
@@ -84753,13 +84956,13 @@
     "name": "ZKItem_4322009_Name",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4322009_Desc",
+    "description": "ZKRelic_13701910_des",
     "secondaryDescription": "BKItem_4322009_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic047.webp"
     },
     "liveComparison": {
-      "currentHash": "ef83d8efd85d855b9202def2cd7afadd5bf52a460e33cfdb0f1f3bbb4551d7a6"
+      "currentHash": "dd60854c4bc66aac14c3fcb97147183532d1e6310cee5508fbb0198a2b78acd7"
     }
   },
   {
@@ -84798,13 +85001,13 @@
     "name": "ZKItem_4322012_Name",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4322012_Desc",
+    "description": "ZKRelic_13701810_des",
     "secondaryDescription": "BKItem_4322012_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic094.webp"
     },
     "liveComparison": {
-      "currentHash": "6def0d0ebc513162803df4be8b92f6a1e40b188b47a90e0199d08f917f8c273c"
+      "currentHash": "c197ffaf539fd566a92e8e2073cfec1ba4ea53127e09c509573dbddfd7cf7a7c"
     }
   },
   {
@@ -84813,13 +85016,13 @@
     "name": "ZKItem_4322013_Name",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4322013_Desc",
+    "description": "ZKRelic_13701710_des",
     "secondaryDescription": "BKItem_4322013_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic095.webp"
     },
     "liveComparison": {
-      "currentHash": "b4c5499a3a5788853ec443b6c26ba91202d7870d1d63617276df4fd396f80893"
+      "currentHash": "deedcad3fb3665a203b0c115cb76578feb8c4340286345fcbc4f19b93d97c7a5"
     }
   },
   {
@@ -84828,13 +85031,13 @@
     "name": "ZKItem_4322014_Name",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4322014_Desc",
+    "description": "ZKRelic_13701610_des",
     "secondaryDescription": "BKItem_4322014_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic086.webp"
     },
     "liveComparison": {
-      "currentHash": "3320fb4cc5171090b0e4d3642a1c063d720b8e59fe37c5520f605d51f31c4705"
+      "currentHash": "8116f89524ca903d6acfd64af1aa2cf2a196b7d2889970abf9cbf8652e299df7"
     }
   },
   {
@@ -84843,13 +85046,13 @@
     "name": "ZKItem_4322015_Name",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4322015_Desc",
+    "description": "ZKRelic_13701410_des",
     "secondaryDescription": "BKItem_4322015_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic082.webp"
     },
     "liveComparison": {
-      "currentHash": "4b59ea08fb5d3a32962b60c65295bd2b3dbeedf78d23f26c1df5948ff7d4a9b2"
+      "currentHash": "329e94c0eb2dd2cabcbbdded9c8d9d42affe561ea8731434db7475af755467d2"
     }
   },
   {
@@ -84858,13 +85061,13 @@
     "name": "ZKItem_4322016_Name",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4322016_Desc",
+    "description": "ZKRelic_13701210_des",
     "secondaryDescription": "BKItem_4322016_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic076.webp"
     },
     "liveComparison": {
-      "currentHash": "938d6903dd85c4f53cf4a7e3e9dd82cdf26e898cc72b6471ba4746013bf5d2d8"
+      "currentHash": "f22951506479b89bab04359b7b17ae5a6b3322bb67f32dab6b3b8ed64669bc46"
     }
   },
   {
@@ -84873,13 +85076,13 @@
     "name": "ZKItem_4322017_Name",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4322017_Desc",
+    "description": "ZKRelic_13700810_des",
     "secondaryDescription": "BKItem_4322017_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic067.webp"
     },
     "liveComparison": {
-      "currentHash": "a9dc777ab478d228cf54bfbe1785a9c07033f35eef5f81c5b4f3fa1da0065bed"
+      "currentHash": "415913703d01f1062eb3f356c100bd7b0f24b547b6e1388fae796e56fab1f6c9"
     }
   },
   {
@@ -84888,13 +85091,13 @@
     "name": "ZKItem_4322018_Name",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4322018_Desc",
+    "description": "ZKRelic_13700610_des",
     "secondaryDescription": "BKItem_4322018_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic038.webp"
     },
     "liveComparison": {
-      "currentHash": "747d99cc9360d045de37ac26957fbd812bbd1ee108733d2de16fe742b5b449f1"
+      "currentHash": "22ebbb28ef76a93ac098f9d8cfcfc3c9be03edcfe15808d330f0745e8b1767bd"
     }
   },
   {
@@ -84903,13 +85106,13 @@
     "name": "ZKItem_4322019_Name",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4322019_Desc",
+    "description": "ZKRelic_13700410_des",
     "secondaryDescription": "BKItem_4322019_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic025.webp"
     },
     "liveComparison": {
-      "currentHash": "7b6e9cd1ddaad507b75b6798dfcda85c23f4e2fabd9a7ece7cf556b4d70591d0"
+      "currentHash": "7b33debd9e224f6d8ccd1a779b48f8bc44cd7eb46e2107d6061b6d6f877fa997"
     }
   },
   {
@@ -84918,13 +85121,13 @@
     "name": "ZKItem_4322020_Name",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4322020_Desc",
+    "description": "ZKRelic_13700210_des",
     "secondaryDescription": "BKItem_4322020_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic028.webp"
     },
     "liveComparison": {
-      "currentHash": "0e36419ef7c0fe3baf28c1ae658761fdfb33a0fca9167bdd19c271a95526bb38"
+      "currentHash": "bc7f4a36654c9fd23f8fa85675a2d4460728b0702f7e475f3c79ff7f9724dc30"
     }
   },
   {
@@ -84933,13 +85136,13 @@
     "name": "ZKItem_4322021_Name",
     "rarity": 5,
     "type": {},
-    "description": "ZKItem_4322021_Desc",
+    "description": "ZKRelic_13700110_des",
     "secondaryDescription": "BKItem_4322021_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/Relic001.webp"
     },
     "liveComparison": {
-      "currentHash": "e371283a2eb4e090b22b92f3c5a545b3cbd2635f4377ec4bff3cdf3821d6c506"
+      "currentHash": "614e78a62e44311d64af0bab7e35e2ee744893edc7ed00338c45f06b85da6acd"
     }
   },
   {
@@ -85068,13 +85271,13 @@
     "name": "ZKItem_4323121_Name",
     "rarity": 3,
     "type": {},
-    "description": "ZKItem_4323121_Desc",
+    "description": "30600201_ZKDescription",
     "secondaryDescription": "BKItem_4323121_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "7140021b762741d8c0c7074e5ff3da289ec659d667452fb31e412181f705f548"
+      "currentHash": "3b97b35f6ede78ffd8680864e3b71dfc02926f393491e1d6fa12b9279aedff57"
     }
   },
   {
@@ -85083,13 +85286,13 @@
     "name": "ZKItem_4323122_Name",
     "rarity": 3,
     "type": {},
-    "description": "ZKItem_4323122_Desc",
+    "description": "30600202_ZKDescription",
     "secondaryDescription": "BKItem_4323122_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankStun03.webp"
     },
     "liveComparison": {
-      "currentHash": "56ed458ff710f5122b72910503be4fb3db5d9dd2f0f214bd90b9edfaac98fc9d"
+      "currentHash": "d6455920e5b0f2e749a3abcc6d92991c9e6bfd37bda78a685a9e2ed5ae95036b"
     }
   },
   {
@@ -85098,13 +85301,13 @@
     "name": "ZKItem_4323123_Name",
     "rarity": 3,
     "type": {},
-    "description": "ZKItem_4323123_Desc",
+    "description": "30600203_ZKDescription",
     "secondaryDescription": "BKItem_4323123_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
     },
     "liveComparison": {
-      "currentHash": "319fc0a9bd1dc1c5671d2d9d4f0ac3743ca34167528c69875e88c2875a776736"
+      "currentHash": "20c4cdb0a644c16f7ad3d61a734c3632f7b8c2f97dac5744a2ff2bc406ec535a"
     }
   },
   {
@@ -85113,13 +85316,13 @@
     "name": "ZKItem_4323124_Name",
     "rarity": 3,
     "type": {},
-    "description": "ZKItem_4323124_Desc",
+    "description": "30600204_ZKDescription",
     "secondaryDescription": "BKItem_4323124_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
     },
     "liveComparison": {
-      "currentHash": "e7ec0a1c63d16507e95ee2ce75bd588a25359b5b0b37f3e31cd12b030e473bd7"
+      "currentHash": "2b5ecac23bd00d26f4dc36528ac7ab5a483e081f748debfcec56f72ed91957c8"
     }
   },
   {
@@ -85128,13 +85331,13 @@
     "name": "ZKItem_4323125_Name",
     "rarity": 3,
     "type": {},
-    "description": "ZKItem_4323125_Desc",
+    "description": "30600205_ZKDescription",
     "secondaryDescription": "BKItem_4323125_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
     },
     "liveComparison": {
-      "currentHash": "c3e268b644db9a722c0ab9490a5720ba809555e1f112899e086f358be56465eb"
+      "currentHash": "c1662b614187bd121996b6b251d81634e081d182c5ea107dee843ab485ba341c"
     }
   },
   {
@@ -85143,13 +85346,13 @@
     "name": "ZKItem_4323126_Name",
     "rarity": 3,
     "type": {},
-    "description": "ZKItem_4323126_Desc",
+    "description": "30600206_ZKDescription",
     "secondaryDescription": "BKItem_4323126_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankShield03.webp"
     },
     "liveComparison": {
-      "currentHash": "9afc910a331379fc35c1513194076a0e9b4148305d2e732134f7e4e7e31520a3"
+      "currentHash": "944b61d030ba9600eb31c6b86c5f3b2191a31f47cf0ee2f3637e030aaccae9be"
     }
   },
   {
@@ -85158,13 +85361,13 @@
     "name": "ZKItem_4323151_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4323151_Desc",
+    "description": "30600101_ZKDescription",
     "secondaryDescription": "BKItem_4320301_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "b64887e85f813ce3ff02d0450a9ebf332b392fa0d6f436b89c6416847e6082f4"
+      "currentHash": "9ab8280bded3b57b60b56016b04757991de5b36e1b5736e839a228eeb00b95c2"
     }
   },
   {
@@ -85173,13 +85376,13 @@
     "name": "ZKItem_4323152_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4323152_Desc",
+    "description": "30600102_ZKDescription",
     "secondaryDescription": "BKItem_4323152_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankStun03.webp"
     },
     "liveComparison": {
-      "currentHash": "36fb8283ebbffd264a4beabc0fa3f3da8c93f677b9857828d46c154a38d32df7"
+      "currentHash": "b550277b966cddba5aed84537044ddcb69976a8eac45b0e08f521ec3cdf3664a"
     }
   },
   {
@@ -85188,13 +85391,13 @@
     "name": "ZKItem_4323153_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4323153_Desc",
+    "description": "30600103_ZKDescription",
     "secondaryDescription": "BKItem_4323153_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
     },
     "liveComparison": {
-      "currentHash": "34015f272c343c70d3773e8df8e12af3d9a60e2c09cb9da258eebf5f3cb19dd2"
+      "currentHash": "ec83eb3ac10e76bb45deda16975edf8e29033e4b1a230699a5c56518a2a54819"
     }
   },
   {
@@ -85203,13 +85406,13 @@
     "name": "ZKItem_4323154_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4323154_Desc",
+    "description": "30600104_ZKDescription",
     "secondaryDescription": "BKItem_4323154_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
     },
     "liveComparison": {
-      "currentHash": "65c589377cae606b593365c26328ba7eacba320443daa4aed0b1693c067013e6"
+      "currentHash": "42dd3b6a99877af894b793a1c56188970bba61c056c5f7b4d143590316d92eb6"
     }
   },
   {
@@ -85218,13 +85421,13 @@
     "name": "ZKItem_4323155_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4323155_Desc",
+    "description": "30600105_ZKDescription",
     "secondaryDescription": "BKItem_4323155_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
     },
     "liveComparison": {
-      "currentHash": "4bc7ce6acfd56ad0b7767732b206629c2dc8b68bbeac46a11c3c7fba40324f80"
+      "currentHash": "a76eb459a4f03aac6a8f204ba346f4c46f3040dc441dc01fa8fb194e7a51f9cf"
     }
   },
   {
@@ -85233,13 +85436,13 @@
     "name": "ZKItem_4323156_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4323156_Desc",
+    "description": "30600106_ZKDescription",
     "secondaryDescription": "BKItem_4323156_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankShield03.webp"
     },
     "liveComparison": {
-      "currentHash": "87432eeacba6632685972e4f98c3cdda523d483842dbea67092d3b4cab98e518"
+      "currentHash": "2cd93f251032ccfa7bf732cfd66637ba1d306062674b50f9ea62e66d1318ab02"
     }
   },
   {
@@ -85248,13 +85451,13 @@
     "name": "ZKItem_4323157_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4323157_Desc",
+    "description": "30600108_ZKDescription",
     "secondaryDescription": "BKItem_4323157_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "5d5a1f311b92e386f926931accf421d3c4fb314949f7864539191308602371a0"
+      "currentHash": "6819a19929e8ddc9f111ca6327ff56b9bea489ee7024e91ea15e0f806ef60fa4"
     }
   },
   {
@@ -85263,13 +85466,13 @@
     "name": "ZKItem_4323158_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4323158_Desc",
+    "description": "30600107_ZKDescription",
     "secondaryDescription": "BKItem_4323158_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
     },
     "liveComparison": {
-      "currentHash": "0ce4141d379d842346bdf1698511cb6cddd7d9d6c8f85288bd6a34083f053436"
+      "currentHash": "042d86c61223a35c731c3957e423f42aa0dfa1de1ef4fedfafda7315f5892458"
     }
   },
   {
@@ -85278,13 +85481,13 @@
     "name": "ZKItem_4323159_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4323159_Desc",
+    "description": "30600109_ZKDescription",
     "secondaryDescription": "BKItem_4323159_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
     },
     "liveComparison": {
-      "currentHash": "287b2e9f47b17a25547acfc634dd3bf70c341251d6d6235378cc06140c057196"
+      "currentHash": "cccd73275cf6ed5f507a8fe6334c371abe18535de4a955a5abc7667658f738c6"
     }
   },
   {
@@ -85609,10 +85812,10 @@
     "description": "ZKItem_4334101_Desc",
     "secondaryDescription": "BKItem_4334101_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardAnomalyS202.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_003_B.webp"
     },
     "liveComparison": {
-      "currentHash": "7c291e56e6240bee988a1b815d68db0c0590d504712415c638d7ec72b1e24258"
+      "currentHash": "b2064aef1113877a78d4e2fd50b82c483056b66a41ed8ae6a6d7e08f0d17ddae"
     }
   },
   {
@@ -85624,10 +85827,10 @@
     "description": "ZKItem_4334102_Desc",
     "secondaryDescription": "BKItem_4334102_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardAnomalyS204.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_004_B.webp"
     },
     "liveComparison": {
-      "currentHash": "4d6d15305eb78820481e9e1edb474027d081c187d2bcedddd101f5000bbf6601"
+      "currentHash": "b964b83758e29000319a1c88530e871dc32d15dcd1597ccd6f9c025f5dec3070"
     }
   },
   {
@@ -85639,10 +85842,10 @@
     "description": "ZKItem_4334103_Desc",
     "secondaryDescription": "BKItem_4334103_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardAttackS204.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_010_B.webp"
     },
     "liveComparison": {
-      "currentHash": "053fdba56a307d9ffbfc73a05a8dd4c51ea3a964d1156beea2a7682fcedb2f66"
+      "currentHash": "56b6b9f3836c1cb9f173f389c541a3434e069cd56e5ebb779789a0747742521f"
     }
   },
   {
@@ -85654,10 +85857,10 @@
     "description": "ZKItem_4334104_Desc",
     "secondaryDescription": "BKItem_4334104_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardDefenseS201.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_012_B.webp"
     },
     "liveComparison": {
-      "currentHash": "be214c85d574f84996b859091faa7e2399cfa630066a3aa48b7cd3936bf23d9f"
+      "currentHash": "87f299139ff2f1e7ea9087539b0b24272aea298de4744a6d2d30cc3fc8bef1a4"
     }
   },
   {
@@ -85669,10 +85872,10 @@
     "description": "ZKItem_4334105_Desc",
     "secondaryDescription": "BKItem_4334105_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardChessboard29.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_013_B.webp"
     },
     "liveComparison": {
-      "currentHash": "aa2a9dca028c7005ce2f96b0c4f07d61acf754775c3959c5aec5b9e77423164a"
+      "currentHash": "b198edd2dfe585a70247edc30cc072118dd5bfd0bf1612bbfe9f7a5ecb4117ba"
     }
   },
   {
@@ -85684,10 +85887,10 @@
     "description": "ZKItem_4334106_Desc",
     "secondaryDescription": "BKItem_4334106_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardRuptureS203.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_011_B.webp"
     },
     "liveComparison": {
-      "currentHash": "bd164e5072f39eb591ef37a71908d67e9e777d7ce7120a25b603648d4118f8f9"
+      "currentHash": "7ab6f112433fd04ed182cad2589191b072dde433b4a1a59b0a711c343c2573f4"
     }
   },
   {
@@ -85696,13 +85899,13 @@
     "name": "ZKItem_4334201_Name",
     "rarity": 3,
     "type": {},
-    "description": "ZKItem_4334201_Desc",
+    "description": "When used, transform into <color=#FFAF2C>Haytor</color> to deal DMG to enemies in range, with bonus DMG against organic enemies and Doppelgangers.",
     "secondaryDescription": "BKItem_4334201_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardAttackS206.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_006_A.webp"
     },
     "liveComparison": {
-      "currentHash": "938f0b5f138cf4a1d56c7ef6954d2bc665d43120f2e8af884fd1bf2802930f89"
+      "currentHash": "54acf9bdd48be005341ff87efc54cb3ea26b3db30394568952566191745eb257"
     }
   },
   {
@@ -85714,10 +85917,10 @@
     "description": "ZKItem_4334202_Desc",
     "secondaryDescription": "BKItem_4334202_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardAnomalyS202.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_003_A.webp"
     },
     "liveComparison": {
-      "currentHash": "1f568ba4d7b8e50b3cfd4b311b976fe462cf6b3034201dce3a7bcd6d89bc557e"
+      "currentHash": "6676ba434467dd17267c6b602189427ea678b27a62003f81926dd824c3b43ad2"
     }
   },
   {
@@ -85729,10 +85932,10 @@
     "description": "ZKItem_4334203_Desc",
     "secondaryDescription": "BKItem_4334203_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardAnomalyS204.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_004_A.webp"
     },
     "liveComparison": {
-      "currentHash": "308fff81e0651abba456ee8a0f17b69a65c837d0f8d03ad6da94505c3de928ad"
+      "currentHash": "6ad8ce27a92e4f82464a3c09dc50072f5673f0b679fc868a74b06657c3c66ac1"
     }
   },
   {
@@ -85744,10 +85947,10 @@
     "description": "ZKItem_4334204_Desc",
     "secondaryDescription": "BKItem_4334204_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardDefenseS201.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_012_A.webp"
     },
     "liveComparison": {
-      "currentHash": "6381e3994bbef4114e8bee46cd46e213ad4970ff6914f62112631e53373de23d"
+      "currentHash": "ac2ed3b62593e927f20f989217d277bd4eb3bd9ae9d2e6bb7cff270796e6cf1b"
     }
   },
   {
@@ -85759,10 +85962,10 @@
     "description": "ZKItem_4334205_Desc",
     "secondaryDescription": "BKItem_4334205_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardAnomalyS203.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_009_A.webp"
     },
     "liveComparison": {
-      "currentHash": "be6bde46a82db48e45d743d0359a352fd5865a5f397c86b6bbafd7e18d7b4e2f"
+      "currentHash": "bc3939acd6820e1c4543207f24d7ef52cafb163d9cb853754a0a38b6243c7d7a"
     }
   },
   {
@@ -85774,10 +85977,10 @@
     "description": "ZKItem_4334206_Desc",
     "secondaryDescription": "BKItem_4334206_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardChessboard29.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_013_A.webp"
     },
     "liveComparison": {
-      "currentHash": "3c842aef544d333269791cfdbb136fcd0446425154b155aa0844270455568f42"
+      "currentHash": "28861c902ceabdfe426032c9350c08138b7c14a233d8e8c6460c18f4d961a2c8"
     }
   },
   {
@@ -85789,10 +85992,10 @@
     "description": "ZKItem_4334207_Desc",
     "secondaryDescription": "BKItem_4334207_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardAttackS204.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_010_A.webp"
     },
     "liveComparison": {
-      "currentHash": "758e28c993c101b08ea8e7e51b4ed008467c5bfe2504b6cbeae826926ec58f9c"
+      "currentHash": "fb8cfbbe963b573ea79f87838a085b2a4ac55d6a3675f505ad069f69a63c9616"
     }
   },
   {
@@ -85804,10 +86007,10 @@
     "description": "ZKItem_4334208_Desc",
     "secondaryDescription": "BKItem_4334208_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardRuptureS203.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_011_A.webp"
     },
     "liveComparison": {
-      "currentHash": "37f1fb6f9020711762b4cf7b1aa3f10f87415288eb49f5eb4d9ae52108eceadf"
+      "currentHash": "b6681add47b21abe4fd29f7e5d4083ab04d04331d1b5ee8fbcbc12281bb3671c"
     }
   },
   {
@@ -85819,10 +86022,10 @@
     "description": "ZKItem_4334301_Desc",
     "secondaryDescription": "BKItem_4334301_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardGeppetto05.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_002_S.webp"
     },
     "liveComparison": {
-      "currentHash": "064ab8179ffadc9df6d4c81fe905c5058e1e4049759291345ada027814ca4f6f"
+      "currentHash": "1f3bf8668547fbe8f695138a5ac07b5926828021e34cdc2f395955451974e643"
     }
   },
   {
@@ -85834,10 +86037,10 @@
     "description": "ZKItem_4334302_Desc",
     "secondaryDescription": "BKItem_4334302_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardAnomalyS202.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_003_S.webp"
     },
     "liveComparison": {
-      "currentHash": "1f9e41865f2b03beb619c0a0f64be774b177c900a9c4aaf86432293aebcca3fd"
+      "currentHash": "a2692f4fa63379b52b4c318981fe6b3839739e83f92952b397237bb1fa761f82"
     }
   },
   {
@@ -85849,10 +86052,10 @@
     "description": "ZKItem_4334303_Desc",
     "secondaryDescription": "BKItem_4334303_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardAnomalyS204.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_004_S.webp"
     },
     "liveComparison": {
-      "currentHash": "ea70bfaf7a3c213bf0446040711b2e3d0ef57a30dbfdc828180bb9d9f8dee262"
+      "currentHash": "3858ea3e3dae9fa0aec068a4bb3ec8d735948609b00a7c19d83b65dd5b4e92c7"
     }
   },
   {
@@ -85864,10 +86067,10 @@
     "description": "ZKItem_4334304_Desc",
     "secondaryDescription": "BKItem_4334304_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardDefenseS201.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_012_S.webp"
     },
     "liveComparison": {
-      "currentHash": "aa1b0b01f03de7ca081f54dd9e46295354bdd6d29255ed61d96ca8bc88e32e26"
+      "currentHash": "c2b822e183cdadbda8bd1d604bb79d766028f694143763ac4c5c38ff7df15499"
     }
   },
   {
@@ -85879,10 +86082,10 @@
     "description": "ZKItem_4334305_Desc",
     "secondaryDescription": "BKItem_4334305_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardChessboard13.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_001_S.webp"
     },
     "liveComparison": {
-      "currentHash": "f3570b22a8269846f49d7fd762d339af1fa5d2462afdd5a6e26a2d4707db7c5d"
+      "currentHash": "3fdbd601ac7ad63285559334588fc1acddb5961530324c95bb4de41d6c6f67e2"
     }
   },
   {
@@ -85894,10 +86097,10 @@
     "description": "ZKItem_4334306_Desc",
     "secondaryDescription": "BKItem_4334306_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardChessboard29.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_013_S.webp"
     },
     "liveComparison": {
-      "currentHash": "439b0ca0c2c32ef690ce22104871342ec45d2c606d4e709eccf4f9aaf1efdc66"
+      "currentHash": "f8d44a2ee120d59bbd1e1985c66531d8b55cec463fe78409fdc66bc0b1c59eaa"
     }
   },
   {
@@ -85906,13 +86109,13 @@
     "name": "ZKItem_4334307_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4334307_Desc",
+    "description": "When activated, transform into a <color=#FFAF2C>Mutant Energy Construct</color>, rapidly building up <color=#2BAD00>100%</color> Daze on enemies.",
     "secondaryDescription": "BKItem_4334307_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardGeppetto04.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_007_S.webp"
     },
     "liveComparison": {
-      "currentHash": "2e0dc28d5d0919a8babeb6b044501ada785c5fbe14a6324d0b02df97346a3c09"
+      "currentHash": "95b31cb0bc74dc6fffe710b5c0cc1ced466b18f3a0a77a45bc8caa12a3106234"
     }
   },
   {
@@ -85924,10 +86127,10 @@
     "description": "When used, summons <color=#FFAF2C>Sobek</color> to create a Wind field that pulls nearby enemies and deals DMG. Simultaneously applies a Shield equal to <color=#2BAD00>50%</color> of Max HP to all Agents on the squad, lasting <color=#2BAD00>20</color>s. While the Shield is active, Anti-Interrupt level is increased.",
     "secondaryDescription": "BKItem_4334308_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardGeppetto02.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_005_S.webp"
     },
     "liveComparison": {
-      "currentHash": "39749303037902e48dfc386bba90f3083cfa55b584aff4009b54a6de9c5de8b6"
+      "currentHash": "eb5ad0e7116da99c2c74db94f62ea1550f08534f443964f4acef1993206edcb8"
     }
   },
   {
@@ -85936,13 +86139,13 @@
     "name": "ZKItem_4334309_Name",
     "rarity": 4,
     "type": {},
-    "description": "ZKItem_4334309_Desc",
+    "description": "When used, transform into <color=#FFAF2C>Haytor</color> to deal DMG to enemies in range, with bonus DMG against organic enemies and Doppelgangers.",
     "secondaryDescription": "BKItem_4334309_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardAttackS206.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_006_S.webp"
     },
     "liveComparison": {
-      "currentHash": "835e6aeb46526f3d598e62cf11eb4b97bb51a932561df09725bd40e3f934cf5d"
+      "currentHash": "601706b4831983fecb217a1b4709abc6e0544c8cf1ec53cccee7951c9a3eca9e"
     }
   },
   {
@@ -85954,10 +86157,10 @@
     "description": "ZKItem_4334310_Desc",
     "secondaryDescription": "BKItem_4334310_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardGeppetto03.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_008_S.webp"
     },
     "liveComparison": {
-      "currentHash": "e4f4f2261e32296e122114eef013b3f47133c80408cbf65298dea6ae9b229d8f"
+      "currentHash": "a6d72b2337f6515b66ded2d18a5ac1f83bf5e5c130b19c4f162eb0c2f035281e"
     }
   },
   {
@@ -85969,10 +86172,10 @@
     "description": "ZKItem_4334311_Desc",
     "secondaryDescription": "BKItem_4334311_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardAnomalyS203.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_009_S.webp"
     },
     "liveComparison": {
-      "currentHash": "f587c1348ee258b71437c46cbd87cfb45bff2e4352542e81aa5b611dc137a4c1"
+      "currentHash": "505698496f76ae92dca56687d13f4af11d8a8f45ac7350a029830b6a4b008f13"
     }
   },
   {
@@ -85984,10 +86187,10 @@
     "description": "ZKItem_4334312_Desc",
     "secondaryDescription": "BKItem_4334312_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardAttackS204.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_010_S.webp"
     },
     "liveComparison": {
-      "currentHash": "cb180ab4a01a59d9249dd18057e81ed78de5b10a97bdbd00c11d05d9439f7e83"
+      "currentHash": "8de1f02fbfd7380ef69d1956f7594c10c189a42084eb808d6441a6c88a86ffff"
     }
   },
   {
@@ -85999,10 +86202,10 @@
     "description": "ZKItem_4334313_Desc",
     "secondaryDescription": "BKItem_4334313_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardRuptureS203.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_011_S.webp"
     },
     "liveComparison": {
-      "currentHash": "cc81513b52b289f4aa119f2e4253beb0898e1b1faeb22e57edd2aefa958dbb9c"
+      "currentHash": "7e4f2db59d67f40f31287a8d2a3de4dddc91d24925d66c72d6bcbdf80a6c364f"
     }
   },
   {
@@ -86014,10 +86217,10 @@
     "description": "ZKItem_4334401_Desc",
     "secondaryDescription": "BKItem_4334401_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardGeppetto05.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_002_Z.webp"
     },
     "liveComparison": {
-      "currentHash": "ca3656131db556e825151a8a8091080bd98d0989da70c7b19670500281de9743"
+      "currentHash": "ff98770d1c952f0192f53477f3b3041ca2e0852da316ecdb2f014039d8ecede4"
     }
   },
   {
@@ -86029,10 +86232,10 @@
     "description": "When used, summons <color=#FFAF2C>Sobek</color> to create a Wind field that pulls nearby enemies and deals DMG. Simultaneously applies a Shield equal to <color=#2BAD00>100%</color> of Max HP to all Agents on the squad, lasting <color=#2BAD00>20</color>s. While the Shield is active, Anti-Interrupt level is increased.",
     "secondaryDescription": "BKItem_4334402_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardGeppetto02.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_005_Z.webp"
     },
     "liveComparison": {
-      "currentHash": "0eb4fa79a1e6d2abe8f18e339fbe7ca55d942fa95a2e637e44c241373bc1875b"
+      "currentHash": "4d93f6a5b48771df2899a5dae1a4a7342742f493c4d4172aefff63c501a4a954"
     }
   },
   {
@@ -86044,10 +86247,10 @@
     "description": "ZKItem_4334403_Desc",
     "secondaryDescription": "BKItem_4334403_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardGeppetto04.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_007_Z.webp"
     },
     "liveComparison": {
-      "currentHash": "75a2d9efdd0c0987bac5bd377674ccf372692100c45b5716b5e06c5e024da2dd"
+      "currentHash": "2c38698c8047edd26ded65d82b524751a293da135bc51314d468fa69ea60f226"
     }
   },
   {
@@ -86059,10 +86262,10 @@
     "description": "ZKItem_4334404_Desc",
     "secondaryDescription": "BKItem_4334404_Story",
     "assets": {
-      "icon": "Nanoka/zzz/assets/items/CardGeppetto03.webp"
+      "icon": "Nanoka/zzz/assets/items/Zenkov_MonsterSkill_008_Z.webp"
     },
     "liveComparison": {
-      "currentHash": "cf5f1d5be9721e4b37d56c14205ee447a084894d87a2637fae4f2e5125e30d29"
+      "currentHash": "322a9d8a2209e50cd5eb6733d58648087be536cd7631cd3de23cb08d5341171c"
     }
   },
   {
@@ -86128,7 +86331,7 @@
   {
     "id": "4340104",
     "contentStatus": "beta",
-    "name": "ZKItem_4340104_Name",
+    "name": "Sixth Street - Storage 1F Side Door",
     "rarity": 3,
     "type": {},
     "description": "ZKItem_4340104_Desc",
@@ -86137,7 +86340,7 @@
       "icon": "Nanoka/zzz/assets/items/Zenkov_Key_004.webp"
     },
     "liveComparison": {
-      "currentHash": "0dc1f7f2bb138489eb3e981115f642443a531d0a064fc3002d308a3b8625416c"
+      "currentHash": "a74f5032d6ba839aaeafc7ba66ee8f2cb7a7fce6897fca62b4a365e2dfcb88c7"
     }
   },
   {
@@ -86573,6 +86776,36 @@
     },
     "liveComparison": {
       "currentHash": "63fcb58a31f13451224fab82e5c22d1831fa66185a2741bf60e4bee5ddcf9660"
+    }
+  },
+  {
+    "id": "4350014",
+    "contentStatus": "beta",
+    "name": "ZKItem_4350014_Name",
+    "rarity": 2,
+    "type": {},
+    "description": "ZKItem_4350014_Desc",
+    "secondaryDescription": "BKItem_4350014_Story",
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/Card02.webp"
+    },
+    "liveComparison": {
+      "currentHash": "8946966e341bc0d56e5184f754349ab0dcd499ee7bde243e64b347be65b61cb3"
+    }
+  },
+  {
+    "id": "4350015",
+    "contentStatus": "beta",
+    "name": "ZKItem_4350015_Name",
+    "rarity": 2,
+    "type": {},
+    "description": "ZKItem_4350015_Desc",
+    "secondaryDescription": "BKItem_4350015_Story",
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/Card02.webp"
+    },
+    "liveComparison": {
+      "currentHash": "28ef8fe84b8cf1826bfa0138b195680532cd7574d89dfad8c222296eab10df51"
     }
   },
   {
@@ -87013,7 +87246,7 @@
   {
     "id": "4350130",
     "contentStatus": "beta",
-    "name": "ZKItem_4350130_Name",
+    "name": "Blueprint - Mutated Energy Entity - Ether Resonance - S+",
     "rarity": 5,
     "type": {},
     "description": "ZKItem_4350130_Desc",
@@ -87022,13 +87255,13 @@
       "icon": "Nanoka/zzz/assets/items/Card02.webp"
     },
     "liveComparison": {
-      "currentHash": "bcc431d46e5fa587fbe24f8927fa8efa92287c401e32e840911d4206315ac3a6"
+      "currentHash": "8c53f07a39650b85980763f7d8c2b7073f3cf3594bc4bca945beb0b612546a53"
     }
   },
   {
     "id": "4350131",
     "contentStatus": "beta",
-    "name": "ZKItem_4350131_Name",
+    "name": "Blueprint-Primordial Nightmare - Ether Resonance - S+",
     "rarity": 5,
     "type": {},
     "description": "ZKItem_4350131_Desc",
@@ -87037,7 +87270,97 @@
       "icon": "Nanoka/zzz/assets/items/Card02.webp"
     },
     "liveComparison": {
-      "currentHash": "c46ce3c2def919ddad8d3720af3d7c497f21be3086ee866621b0d9842eb8a214"
+      "currentHash": "50f9ad7794ca88f4aed4695e7f2ee29a8f8c64ed9e2165ea013053f7b0b6bdd1"
+    }
+  },
+  {
+    "id": "4350181",
+    "contentStatus": "beta",
+    "name": "ZKItem_4350181_Name",
+    "rarity": 2,
+    "type": {},
+    "description": "ZKItem_4350181_Desc",
+    "secondaryDescription": "BKItem_4350181_Story",
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/Card02.webp"
+    },
+    "liveComparison": {
+      "currentHash": "aad20c7634fea8f8ae34f7c7da81b7d9c7742ff4ecea7b7e00dde0a5c755da01"
+    }
+  },
+  {
+    "id": "4350182",
+    "contentStatus": "beta",
+    "name": "ZKItem_4350182_Name",
+    "rarity": 2,
+    "type": {},
+    "description": "ZKItem_4350182_Desc",
+    "secondaryDescription": "BKItem_4350182_Story",
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/Card02.webp"
+    },
+    "liveComparison": {
+      "currentHash": "37f7cbc81295dbe2d035f425da77243af596e085435c0599be299a4b5aad8f30"
+    }
+  },
+  {
+    "id": "4350183",
+    "contentStatus": "beta",
+    "name": "ZKItem_4350183_Name",
+    "rarity": 2,
+    "type": {},
+    "description": "ZKItem_4350183_Desc",
+    "secondaryDescription": "BKItem_4350183_Story",
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/Card02.webp"
+    },
+    "liveComparison": {
+      "currentHash": "ca58f7398c47bd7f2c2b3f836b71fa33791c73f1b75c56a33a85957240465c4b"
+    }
+  },
+  {
+    "id": "4350184",
+    "contentStatus": "beta",
+    "name": "ZKItem_4350184_Name",
+    "rarity": 2,
+    "type": {},
+    "description": "ZKItem_4350184_Desc",
+    "secondaryDescription": "BKItem_4350184_Story",
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/Card02.webp"
+    },
+    "liveComparison": {
+      "currentHash": "19d32d24e94561e95d556f5190158bdc5518c1b14e3eb38d95234f4e0af3c5e3"
+    }
+  },
+  {
+    "id": "4350185",
+    "contentStatus": "beta",
+    "name": "ZKItem_4350185_Name",
+    "rarity": 2,
+    "type": {},
+    "description": "ZKItem_4350185_Desc",
+    "secondaryDescription": "BKItem_4350185_Story",
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/Card02.webp"
+    },
+    "liveComparison": {
+      "currentHash": "9327ab149b3834cd0215826dbbf22fafaf8a183a828fe6090707768f84da9e36"
+    }
+  },
+  {
+    "id": "4350186",
+    "contentStatus": "beta",
+    "name": "ZKItem_4350186_Name",
+    "rarity": 2,
+    "type": {},
+    "description": "ZKItem_4350186_Desc",
+    "secondaryDescription": "BKItem_4350186_Story",
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/Card02.webp"
+    },
+    "liveComparison": {
+      "currentHash": "a966472f6bc6d78f9f38a72df7711affc8621e15e6a14e425177bb2cce600a66"
     }
   },
   {
@@ -88784,13 +89107,13 @@
     "name": "Small Crab",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370001_Desc",
+    "description": "Small Crab Description Text",
     "secondaryDescription": "BKItem_4370001_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_03.webp"
     },
     "liveComparison": {
-      "currentHash": "fe84084c6b07e8d37a6598967c013455296a55ff5fe0882b228975c2b3ae9fd9"
+      "currentHash": "6a4cdb431d1dc2ce4b124ab0913f36a4b7841f389b9d06d0a17e1d1692ec1af9"
     }
   },
   {
@@ -88799,13 +89122,13 @@
     "name": "Small Crab",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370002_Desc",
+    "description": "Small Crab Description Text",
     "secondaryDescription": "BKItem_4370002_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_03.webp"
     },
     "liveComparison": {
-      "currentHash": "ebb72d5a20d5ffd0d4d0f252d644f43966ee70d572a576d11eac09757d2cd269"
+      "currentHash": "998ef2c1708a85d3881ecd9c55cf2d795949915c7085f92243fcfc5367428063"
     }
   },
   {
@@ -88814,13 +89137,13 @@
     "name": "Small Crab",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370003_Desc",
+    "description": "Small Crab Description Text",
     "secondaryDescription": "BKItem_4370003_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_03.webp"
     },
     "liveComparison": {
-      "currentHash": "6304c816712f26d619681c31bb460ebf5f0db547a4b12da9da1c8b36a1315a17"
+      "currentHash": "1e7b2d83eb5e4319d5cd9d9e2e37237d503bdad69c17a39fba5f7ebff709f1b6"
     }
   },
   {
@@ -88829,13 +89152,13 @@
     "name": "Small Crab",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370004_Desc",
+    "description": "Small Crab Description Text",
     "secondaryDescription": "BKItem_4370004_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_03.webp"
     },
     "liveComparison": {
-      "currentHash": "42f64b8ab6a4ae811d93c9a3b1f1f31167970ef34716e5dd38337f62db3f2ccb"
+      "currentHash": "de1275a3cd3c86524e352b210d2f773ca2a4e3083e15daa820c8c6a2afd6089c"
     }
   },
   {
@@ -88844,13 +89167,13 @@
     "name": "Small Crab",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370005_Desc",
+    "description": "Small Crab Description Text",
     "secondaryDescription": "BKItem_4370005_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_03.webp"
     },
     "liveComparison": {
-      "currentHash": "d03fec19aa4f367fbdcb8942f91d001016a0efda60cd26904b35f8945bb04eea"
+      "currentHash": "4ce529a262d11b078f85aae05a45b690366cb08180049b61fde5e9ccb8c490bd"
     }
   },
   {
@@ -88859,13 +89182,13 @@
     "name": "Hermit Crab",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370011_Desc",
+    "description": "Hermit Crab Description Text",
     "secondaryDescription": "BKItem_4370011_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_01.webp"
     },
     "liveComparison": {
-      "currentHash": "c1e9b3f40d833c0fb84415bc5c05fae714bbf67c1dc6bb9f0457d24a722487be"
+      "currentHash": "5a04b8892b450ff52d3726e9256f26e5f4bb0400bc76177f5d222fb8d895d5b3"
     }
   },
   {
@@ -88874,13 +89197,13 @@
     "name": "Hermit Crab",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370012_Desc",
+    "description": "Hermit Crab Description Text",
     "secondaryDescription": "BKItem_4370012_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_01.webp"
     },
     "liveComparison": {
-      "currentHash": "726c2fc20711f89ce492008718b30fb2c64be20fe5e8aaf8226bcd80ea245f90"
+      "currentHash": "e11dfc37b2445fd8123e23b8b71ca25b1baa631373b38ebf6e1cc07a12d9a53d"
     }
   },
   {
@@ -88889,13 +89212,13 @@
     "name": "Hermit Crab",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370013_Desc",
+    "description": "Hermit Crab Description Text",
     "secondaryDescription": "BKItem_4370013_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_01.webp"
     },
     "liveComparison": {
-      "currentHash": "17d31a3b78118ea2424eda21207778389b12ace834275290f0dfedcceaf7ff2b"
+      "currentHash": "aa6fbd1e8c3f2afd74cbe721a3e250030956c7248ec21e661437cd1ab364e53a"
     }
   },
   {
@@ -88904,13 +89227,13 @@
     "name": "Hermit Crab",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370014_Desc",
+    "description": "Hermit Crab Description Text",
     "secondaryDescription": "BKItem_4370014_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_01.webp"
     },
     "liveComparison": {
-      "currentHash": "265666886519cdd28d32055bed9922a405192df777b9b0e5b91550bd06255b31"
+      "currentHash": "578998669b598e94ce234b5abc84977a2441c832ffdfe2b546baa6e8fc2b016b"
     }
   },
   {
@@ -88919,13 +89242,13 @@
     "name": "Hermit Crab",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370015_Desc",
+    "description": "Hermit Crab Description Text",
     "secondaryDescription": "BKItem_4370015_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_01.webp"
     },
     "liveComparison": {
-      "currentHash": "c288b96400dc197063daff5ef3817464f516748485d0a8354452f527d3158199"
+      "currentHash": "9fa87a6a927dac65ecc1fe63fda40f1575f9c41312099b8ce78fef82139d7925"
     }
   },
   {
@@ -88934,13 +89257,13 @@
     "name": "Scallop",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370021_Desc",
+    "description": "Scallop Description Text",
     "secondaryDescription": "BKItem_4370021_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_04.webp"
     },
     "liveComparison": {
-      "currentHash": "99efc129f2b4c8b859e17ef18e978db1548ddc190021b3a02851a379fff99584"
+      "currentHash": "de0788964ca50e84fac9940f2895bf71529902f9d309c58fc3b62f75f9ba783e"
     }
   },
   {
@@ -88949,13 +89272,13 @@
     "name": "Scallop",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370022_Desc",
+    "description": "Scallop Description Text",
     "secondaryDescription": "BKItem_4370022_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_04.webp"
     },
     "liveComparison": {
-      "currentHash": "4a4b0718047c002345aa0ced76c612870f78c0f40d1c5c5925f06993cb5e567b"
+      "currentHash": "799650d6c9328c2129025ae8a22430af04936bc579b9669b96936cbf23db728f"
     }
   },
   {
@@ -88964,13 +89287,13 @@
     "name": "Scallop",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370023_Desc",
+    "description": "Scallop Description Text",
     "secondaryDescription": "BKItem_4370023_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_04.webp"
     },
     "liveComparison": {
-      "currentHash": "46cde8db3bded9efc08566efa37d8a3200f4a663e1966bbefc9567f1b032ae67"
+      "currentHash": "6ca2e3317c3c4791e679caecda9540a18c0778eec2c523f73c87252abd3da6ee"
     }
   },
   {
@@ -88979,13 +89302,13 @@
     "name": "Scallop",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370024_Desc",
+    "description": "Scallop Description Text",
     "secondaryDescription": "BKItem_4370024_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_04.webp"
     },
     "liveComparison": {
-      "currentHash": "046c17d5a28b2868c38a5de144bcd3bedf278e414e660d513e95440b246654ca"
+      "currentHash": "f63e92e272f5afa274013e664206c0ba9680ded6b852e2e6a1660a189aa1db84"
     }
   },
   {
@@ -88994,13 +89317,13 @@
     "name": "Scallop",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370025_Desc",
+    "description": "Scallop Description Text",
     "secondaryDescription": "BKItem_4370025_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_04.webp"
     },
     "liveComparison": {
-      "currentHash": "931b550f7639f45d62a422c024131eeaf45fc42d0c28578348ecc1dd73da25d6"
+      "currentHash": "1555697bc0f32307630ab64cc3cf85b273713c159f459a8c576185566f5dd192"
     }
   },
   {
@@ -89009,13 +89332,13 @@
     "name": "Conch",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370031_Desc",
+    "description": "Conch Description Text",
     "secondaryDescription": "BKItem_4370031_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_05.webp"
     },
     "liveComparison": {
-      "currentHash": "65034c5efb6c0e6ce91b206cc0b0e234d6380b8b7eac3446ba41563de04ff366"
+      "currentHash": "80ef87809a10307af536e6ae2dc918187c25018f4c318f3a814150ebb8e0667a"
     }
   },
   {
@@ -89024,13 +89347,13 @@
     "name": "Conch",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370032_Desc",
+    "description": "Conch Description Text",
     "secondaryDescription": "BKItem_4370032_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_05.webp"
     },
     "liveComparison": {
-      "currentHash": "0c5b63d389aa8a763f4e0b7e54b4bedb5db2e895fc8e7c290e722a5f618f16e6"
+      "currentHash": "dc58eff22b3e2c27244979fc7825d29729802dc9d43020178a3135b11f3813ac"
     }
   },
   {
@@ -89039,13 +89362,13 @@
     "name": "Conch",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370033_Desc",
+    "description": "Conch Description Text",
     "secondaryDescription": "BKItem_4370033_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_05.webp"
     },
     "liveComparison": {
-      "currentHash": "45792972db11ff9a0cadb0302c4c26f9cab3acbc2cf9c733fb729db46748b84c"
+      "currentHash": "3a235f9e82e0384283fbb3532fa79618fbda52ee2ccb4ab621a9bcdb5edb3136"
     }
   },
   {
@@ -89054,13 +89377,13 @@
     "name": "Conch",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370034_Desc",
+    "description": "Conch Description Text",
     "secondaryDescription": "BKItem_4370034_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_05.webp"
     },
     "liveComparison": {
-      "currentHash": "474be7dc491c216be7b6c9296e5dc7898dd83951ab8621803ae1df6795bf6f59"
+      "currentHash": "cc8575c2ff8c6ab2cf4242ca15faf662b5606c532a552a4a634dabb401413a16"
     }
   },
   {
@@ -89069,13 +89392,13 @@
     "name": "Conch",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370035_Desc",
+    "description": "Conch Description Text",
     "secondaryDescription": "BKItem_4370035_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_05.webp"
     },
     "liveComparison": {
-      "currentHash": "6d4de5b166410ce1eeeec4203b36bce32d40d5fbedffb7c22ad1fefb3f977580"
+      "currentHash": "d4029e9a22b09ee1cf9a5f0dfd509d2e23d1d80616dd6cb437bea37bef6ac7a8"
     }
   },
   {
@@ -89084,13 +89407,13 @@
     "name": "Message Bottle",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370041_Desc",
+    "description": "Message Bottle Description Text",
     "secondaryDescription": "BKItem_4370041_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_11.webp"
     },
     "liveComparison": {
-      "currentHash": "219878eea86b5c1121f29e8d1b1ca7d1e5e7000ea09c06bcf365e8ad9cc0e4f0"
+      "currentHash": "010ee362c73c0773d3bd95c58c6ed03594aede6605d4b97bd280268fc72d3dd3"
     }
   },
   {
@@ -89099,13 +89422,13 @@
     "name": "Message Bottle",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370042_Desc",
+    "description": "Message Bottle Description Text",
     "secondaryDescription": "BKItem_4370042_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_11.webp"
     },
     "liveComparison": {
-      "currentHash": "f5ec3fc46dda78b5f9a8e3204528c438fb2320fd221dd4d3f71ec59deff98b1b"
+      "currentHash": "b76bf5f6d5b040060ba772492ed39e4d455f989c37b51b83bfb19e4c58711795"
     }
   },
   {
@@ -89114,13 +89437,13 @@
     "name": "Message Bottle",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370043_Desc",
+    "description": "Message Bottle Description Text",
     "secondaryDescription": "BKItem_4370043_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_11.webp"
     },
     "liveComparison": {
-      "currentHash": "f058a0b69269d49286e40ea0c957697349c435a0f91d93eb9b69158eec85c80b"
+      "currentHash": "11af5fa08ec6f549e6e6653da0df730fc6a6b106b30a58232527f44e555dc42c"
     }
   },
   {
@@ -89129,13 +89452,13 @@
     "name": "Message Bottle",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370044_Desc",
+    "description": "Message Bottle Description Text",
     "secondaryDescription": "BKItem_4370044_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_11.webp"
     },
     "liveComparison": {
-      "currentHash": "c2b1ab9a8f33ba3f3c0b2d119f0013380339435afade0ca4a8f7c5e40855f8a8"
+      "currentHash": "646aba28f1faabcf5d12ad41a701578b8f1094d8595dcf471782d0666a542ad8"
     }
   },
   {
@@ -89144,13 +89467,13 @@
     "name": "Message Bottle",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370045_Desc",
+    "description": "Message Bottle Description Text",
     "secondaryDescription": "BKItem_4370045_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_11.webp"
     },
     "liveComparison": {
-      "currentHash": "e50506fc1be8aa96e4743ccee010b22c547f59eaafbaf4b6a67fcbec47fa5155"
+      "currentHash": "94835cb1ac6bfe83d4d4dbb338c05af2f442479ba574f181b756bc7eb1dda772"
     }
   },
   {
@@ -89159,13 +89482,13 @@
     "name": "Razor Clam",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370051_Desc",
+    "description": "Razor Clam Description Text",
     "secondaryDescription": "BKItem_4370051_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_08.webp"
     },
     "liveComparison": {
-      "currentHash": "65c4409a0a98376117dbb464fbf04e0fd8c14834208aaef3c2593fba2fcb6c29"
+      "currentHash": "ce84f63955b747058f0736eb4dc462e2f7db5a246fdabb5e7ff3587b6109393f"
     }
   },
   {
@@ -89174,13 +89497,13 @@
     "name": "Razor Clam",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370052_Desc",
+    "description": "Razor Clam Description Text",
     "secondaryDescription": "BKItem_4370052_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_08.webp"
     },
     "liveComparison": {
-      "currentHash": "e510094ed5838f4c0f99af225dfe58deccbf08c19aec40929dd3df70518b988b"
+      "currentHash": "acf9fe3e58164a5c698b3d0c0c3e6ce38a02666f089574d16cb9bc04ea829dfb"
     }
   },
   {
@@ -89189,13 +89512,13 @@
     "name": "Razor Clam",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370053_Desc",
+    "description": "Razor Clam Description Text",
     "secondaryDescription": "BKItem_4370053_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_08.webp"
     },
     "liveComparison": {
-      "currentHash": "426bb388c8e7dd51545f4fc5f075d8218276c297c245bf999baa1948119e0df9"
+      "currentHash": "6d8dbbac3d981ed93d5aecc6b31166e44764cc35cb6a5ff955b736f7d12973a3"
     }
   },
   {
@@ -89204,13 +89527,13 @@
     "name": "Razor Clam",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370054_Desc",
+    "description": "Razor Clam Description Text",
     "secondaryDescription": "BKItem_4370054_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_08.webp"
     },
     "liveComparison": {
-      "currentHash": "668ce8c931b68ecb91a73c5c059362b3488bc93bd8650aa32022dc846a425fbc"
+      "currentHash": "c2aef3c95b3981ebf6bddb1fb30675b9e6fbd8f8f032de6f9a17df0ae54b00a3"
     }
   },
   {
@@ -89219,13 +89542,13 @@
     "name": "Razor Clam",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370055_Desc",
+    "description": "Razor Clam Description Text",
     "secondaryDescription": "BKItem_4370055_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_08.webp"
     },
     "liveComparison": {
-      "currentHash": "6cb5310b803e7a1387389938f5a1a3727dd115aae43c14a227b5af1dcb3c02cb"
+      "currentHash": "b514c247c80b27eee47f173c92c47abc04ebbce16974101d782ae7b56d48ab20"
     }
   },
   {
@@ -89234,13 +89557,13 @@
     "name": "Pebble",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370061_Desc",
+    "description": "Pebble Description Text",
     "secondaryDescription": "BKItem_4370061_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_13.webp"
     },
     "liveComparison": {
-      "currentHash": "c71d7fdaa0ca50a05300094251a8b0337fc3b8045042524147d7b37a2cc43596"
+      "currentHash": "a1143acad4eb141c09a7cfe9cbf56af9f51efa5537c594b8ccdcf054fb0d53e4"
     }
   },
   {
@@ -89249,13 +89572,13 @@
     "name": "Pebble",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370062_Desc",
+    "description": "Pebble Description Text",
     "secondaryDescription": "BKItem_4370062_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_13.webp"
     },
     "liveComparison": {
-      "currentHash": "37a34e0648b4e98ec00a765a5f44bdcb4bfd14f91e75c700c0ec357ee7b10219"
+      "currentHash": "dfd2f8d748190d2c337a319ab080ec1c00808f12142f8999d4e30a5d5b61b399"
     }
   },
   {
@@ -89264,13 +89587,13 @@
     "name": "Pebble",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370063_Desc",
+    "description": "Pebble Description Text",
     "secondaryDescription": "BKItem_4370063_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_13.webp"
     },
     "liveComparison": {
-      "currentHash": "7d32e98fd92c18ec8c281db5113ab09d9926fbb33db34eb02f92b8d0415a390c"
+      "currentHash": "9aef07d131fb71ccb2a61966b8ec33dcf9402b52d51e93e6d6b19242d05a7151"
     }
   },
   {
@@ -89279,13 +89602,13 @@
     "name": "Pebble",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370064_Desc",
+    "description": "Pebble Description Text",
     "secondaryDescription": "BKItem_4370064_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_13.webp"
     },
     "liveComparison": {
-      "currentHash": "2953e23c621a207fcb6663fb36ee6a40995dddf537dc424d11255b488fa1f684"
+      "currentHash": "0ed958434f04040270dbb07d30f2aec222ce5b5821d5ca1686c7aec35557f88b"
     }
   },
   {
@@ -89294,13 +89617,13 @@
     "name": "Pebble",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370065_Desc",
+    "description": "Pebble Description Text",
     "secondaryDescription": "BKItem_4370065_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_13.webp"
     },
     "liveComparison": {
-      "currentHash": "63b0a187de23cbe0f4564311f88a4b95d22f701a3615f477160bb82a68f3c045"
+      "currentHash": "3762e487690017476c65cd01995f3b6079b6468899d9405b9e7cc35f975233d6"
     }
   },
   {
@@ -89309,13 +89632,13 @@
     "name": "Starfish",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370071_Desc",
+    "description": "Starfish Description Text",
     "secondaryDescription": "BKItem_4370071_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_06.webp"
     },
     "liveComparison": {
-      "currentHash": "c549c8b0a3c7d114dfbaf0976e6364be05e1ac642ba4b690f809d6d9243e482d"
+      "currentHash": "81594134c40b0889eca6b553b41d448c68a9e5b32a7242fd5db1ffa79dad2fd3"
     }
   },
   {
@@ -89324,13 +89647,13 @@
     "name": "Starfish",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370072_Desc",
+    "description": "Starfish Description Text",
     "secondaryDescription": "BKItem_4370072_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_06.webp"
     },
     "liveComparison": {
-      "currentHash": "fbdc21c07b104ff55542d548ad73bdda34d456f28371505ec8f48fb1fcf75220"
+      "currentHash": "1b892f34877d5ad99269034f1f4b4620b91e78a572080e92b24ee9381ffb3ff1"
     }
   },
   {
@@ -89339,13 +89662,13 @@
     "name": "Starfish",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370073_Desc",
+    "description": "Starfish Description Text",
     "secondaryDescription": "BKItem_4370073_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_06.webp"
     },
     "liveComparison": {
-      "currentHash": "876728801b9d131e7a9f2679ba5c1790b8d9856dfcd4d00464100d3fddaf1430"
+      "currentHash": "5a87c87994f1d9b1f9973678aac006452634481223a83185caa63034101628c2"
     }
   },
   {
@@ -89354,13 +89677,13 @@
     "name": "Starfish",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370074_Desc",
+    "description": "Starfish Description Text",
     "secondaryDescription": "BKItem_4370074_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_06.webp"
     },
     "liveComparison": {
-      "currentHash": "36d14172b22412ec5769cf1066b72d1837b2d82393d4a1a2d089bcf9ca9357b2"
+      "currentHash": "4d9817e4ec641eb9aba1acbc84b657a1dd22baa1aadd3d68eadad31f058f807e"
     }
   },
   {
@@ -89369,13 +89692,13 @@
     "name": "Starfish",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370075_Desc",
+    "description": "Starfish Description Text",
     "secondaryDescription": "BKItem_4370075_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_06.webp"
     },
     "liveComparison": {
-      "currentHash": "09b5828e60a6b0f0521f7f3108dad63a0289d5e1a525ec19a912c6d965f61a5d"
+      "currentHash": "e58dbdda0e5f8cd85172723f0eb735ddf8708720407d28db5491ac6f47ef0c6b"
     }
   },
   {
@@ -89384,13 +89707,13 @@
     "name": "Large Crab",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370081_Desc",
+    "description": "Large Crab Description Text",
     "secondaryDescription": "BKItem_4370081_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_02.webp"
     },
     "liveComparison": {
-      "currentHash": "fe555aa85e18886432829d691b262623bd5c0e97f9bdb47405e2325420689a8c"
+      "currentHash": "298d649e00bca53a775a58ad573330718ef4cfcb17ba43c9f7050c94590cb40a"
     }
   },
   {
@@ -89399,13 +89722,13 @@
     "name": "Large Crab",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370082_Desc",
+    "description": "Large Crab Description Text",
     "secondaryDescription": "BKItem_4370082_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_02.webp"
     },
     "liveComparison": {
-      "currentHash": "32b085f2cfea21665ee1f81e1c500c6bf4accd70f925cd567983a1f2132bf460"
+      "currentHash": "9be9ed2036622c9f034cf0371e065bcf67e866e5e17f8aedd7dea48db10c28b0"
     }
   },
   {
@@ -89414,13 +89737,13 @@
     "name": "Large Crab",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370083_Desc",
+    "description": "Large Crab Description Text",
     "secondaryDescription": "BKItem_4370083_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_02.webp"
     },
     "liveComparison": {
-      "currentHash": "f206037664e3ad8efa9581fc2e530162bc9de6e9b7ee03b376469e5a49980a26"
+      "currentHash": "ab0190514ecd97d987f9daa030dad4e7979c20d8bcce25aaa530c60854ba901f"
     }
   },
   {
@@ -89429,13 +89752,13 @@
     "name": "Large Crab",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370084_Desc",
+    "description": "Large Crab Description Text",
     "secondaryDescription": "BKItem_4370084_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_02.webp"
     },
     "liveComparison": {
-      "currentHash": "eec72c19dea50356babf63c1e9acff7791b6f1f5fe98abb678e253af4557faf4"
+      "currentHash": "f12ddeb3503fa5006d3b546bf1a4610dd7855c3ee7cd612605aec3d05c94ae0c"
     }
   },
   {
@@ -89444,13 +89767,13 @@
     "name": "Large Crab",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370085_Desc",
+    "description": "Large Crab Description Text",
     "secondaryDescription": "BKItem_4370085_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_02.webp"
     },
     "liveComparison": {
-      "currentHash": "388e73f17e711c243ca00efca69eec8ec5aee92d4bfc093b2c46ffb176ff2741"
+      "currentHash": "139bdee1006251b66ff8a262fbd3e9624e4983707fd4a5369135e60b77ff0088"
     }
   },
   {
@@ -89459,13 +89782,13 @@
     "name": "Octopus",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370091_Desc",
+    "description": "Slipper Description Text",
     "secondaryDescription": "BKItem_4370091_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_09.webp"
     },
     "liveComparison": {
-      "currentHash": "e2c61d5f15d39782a2f048e2f92f651f03d754a63559df3186296e7b6f5a9ab4"
+      "currentHash": "39cb0279539a55e3236ab5f72f8d287488f4176367f0a54861bdf47c46101d9f"
     }
   },
   {
@@ -89474,13 +89797,13 @@
     "name": "Octopus",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370092_Desc",
+    "description": "Slipper Description Text",
     "secondaryDescription": "BKItem_4370092_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_09.webp"
     },
     "liveComparison": {
-      "currentHash": "c076d8284c033bd02d8471c919a8d1d61f616461b2e7892940fe005117a5e3ad"
+      "currentHash": "77b6d42bd119e63b26bc3fd2126cb98a5d8c386d0854c7770d25a38f183eecae"
     }
   },
   {
@@ -89489,13 +89812,13 @@
     "name": "Octopus",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370093_Desc",
+    "description": "Slipper Description Text",
     "secondaryDescription": "BKItem_4370093_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_09.webp"
     },
     "liveComparison": {
-      "currentHash": "92bb364ed22e40cb1a396ce8fd2deeba9feedb705e7ad7342a48105e703f2173"
+      "currentHash": "f5f6327bfa13598522055df53ad19dfdaa15ece57da627a2895552260a605300"
     }
   },
   {
@@ -89504,13 +89827,13 @@
     "name": "Octopus",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370094_Desc",
+    "description": "Slipper Description Text",
     "secondaryDescription": "BKItem_4370094_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_09.webp"
     },
     "liveComparison": {
-      "currentHash": "4eb73aa61abf19dcab4f395115a3267f8819ff1fea962b4a3188ebc49ca2bb01"
+      "currentHash": "326956f396b650578e974edc26298cdaa2d014ee7add38961a374c8d77505e09"
     }
   },
   {
@@ -89519,13 +89842,13 @@
     "name": "Octopus",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370095_Desc",
+    "description": "Slipper Description Text",
     "secondaryDescription": "BKItem_4370095_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_09.webp"
     },
     "liveComparison": {
-      "currentHash": "d4a3ecf620b5fc51552d18d4e8b9655d3dc8d9f1f125aa50c70938a38a2c2dc0"
+      "currentHash": "0b524d6e70e864e23a2c7c815b9c7a5eeb2af7857712edba61b03b7c7f10b4c5"
     }
   },
   {
@@ -89534,13 +89857,13 @@
     "name": "Sakaban Turtle",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370101_Desc",
+    "description": "Sacabambaspis Description Text",
     "secondaryDescription": "BKItem_4370101_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_12.webp"
     },
     "liveComparison": {
-      "currentHash": "b5fb305cdbcbb96a8ccaa02e175328aa83fe4e4266c8aba1c81bc1de3a7b7b17"
+      "currentHash": "cf49d1e37cf6e2129df50947d056792a1eb089d6c8c9c248437a7f71fb824dd2"
     }
   },
   {
@@ -89549,13 +89872,13 @@
     "name": "Sakaban Turtle",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370102_Desc",
+    "description": "Sacabambaspis Description Text",
     "secondaryDescription": "BKItem_4370102_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_12.webp"
     },
     "liveComparison": {
-      "currentHash": "dc6f45de29484a34cce957f76b8d787d602dc4c4ef777ef8f20e1848b85827d7"
+      "currentHash": "e6b86447d2a34ff48283c9d54cae5625d322945abee152b446b17bbe558d903a"
     }
   },
   {
@@ -89564,13 +89887,13 @@
     "name": "Sakaban Turtle",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370103_Desc",
+    "description": "Sacabambaspis Description Text",
     "secondaryDescription": "BKItem_4370103_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_12.webp"
     },
     "liveComparison": {
-      "currentHash": "36d5ae2cf682b37bee15d3f4ea477242614cd06a20cd370d38fccc45df4b3c2d"
+      "currentHash": "1064317d4b0a31b0b776f7f76921288b030ae1b75ed98aadbfa894b8e55fdb4a"
     }
   },
   {
@@ -89579,13 +89902,13 @@
     "name": "Sakaban Turtle",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370104_Desc",
+    "description": "Sacabambaspis Description Text",
     "secondaryDescription": "BKItem_4370104_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_12.webp"
     },
     "liveComparison": {
-      "currentHash": "6c5a5f9b3655e1bd663b25addf7292cd632d5fb98d52bb655bbcca4df86231fd"
+      "currentHash": "c3a8c78c092973b7b4167818c8c50647339b8076498217ef07f33ce959420620"
     }
   },
   {
@@ -89594,13 +89917,13 @@
     "name": "Sakaban Turtle",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370105_Desc",
+    "description": "Sacabambaspis Description Text",
     "secondaryDescription": "BKItem_4370105_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_12.webp"
     },
     "liveComparison": {
-      "currentHash": "e09e8629ed54be979e017701c56a77d78b9253e860c85490902c7cdc89599b49"
+      "currentHash": "71e0b75b2b75a94b144128778b4e693cedd89599278f162105d74928b0800e35"
     }
   },
   {
@@ -89609,13 +89932,13 @@
     "name": "Porcupinefish",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370111_Desc",
+    "description": "Sea Urchin Description Text",
     "secondaryDescription": "BKItem_4370111_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_10.webp"
     },
     "liveComparison": {
-      "currentHash": "dce44daeb9f8d86203d182a52ff7ccb2bf04dd8bfeea52ee878faeb2cf053a96"
+      "currentHash": "dd0f75daa307cd6c92a6e7a37f0432b0732d00f98560dd52be65c5f15776927d"
     }
   },
   {
@@ -89624,13 +89947,13 @@
     "name": "Porcupinefish",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370112_Desc",
+    "description": "Sea Urchin Description Text",
     "secondaryDescription": "BKItem_4370112_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_10.webp"
     },
     "liveComparison": {
-      "currentHash": "117a374422837f8c85ec8aee020dcaddb3ea1fc4ce65a84513bfd89ef46fe31e"
+      "currentHash": "1b5848e9b8a15c9e32f5b217fe636f984b0e67628740fdda212d1b1818641347"
     }
   },
   {
@@ -89639,13 +89962,13 @@
     "name": "Porcupinefish",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370113_Desc",
+    "description": "Sea Urchin Description Text",
     "secondaryDescription": "BKItem_4370113_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_10.webp"
     },
     "liveComparison": {
-      "currentHash": "166bdb7aec9599a2cb1bb23a4a33d596fae84d1f786e5cd769611f6549bea052"
+      "currentHash": "c3e60c2643e67154f468fa8b00eae1b46782436aaa556e8089dd3fde12d2973e"
     }
   },
   {
@@ -89654,13 +89977,13 @@
     "name": "Porcupinefish",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370114_Desc",
+    "description": "Sea Urchin Description Text",
     "secondaryDescription": "BKItem_4370114_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_10.webp"
     },
     "liveComparison": {
-      "currentHash": "7167213955e2ce8f9fb3a51bc2bdd5609775065cde19f26ea03a9a5c86c39ff1"
+      "currentHash": "2dcf528b6e37242d39cf9196e25e24587961e9c9055af49f859b48292128ffb8"
     }
   },
   {
@@ -89669,13 +89992,13 @@
     "name": "Porcupinefish",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370115_Desc",
+    "description": "Sea Urchin Description Text",
     "secondaryDescription": "BKItem_4370115_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_10.webp"
     },
     "liveComparison": {
-      "currentHash": "d03bf4d665feabfc03c5aa2c9b3bb85479ccba155f6955614ff3dddbbd0fa17a"
+      "currentHash": "72461cdb7bd86a21d656548389386cd71c9cc80d64d0580c398428f9bece4345"
     }
   },
   {
@@ -89684,13 +90007,13 @@
     "name": "Mudskipper",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370121_Desc",
+    "description": "Mudskipper Description Text",
     "secondaryDescription": "BKItem_4370121_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_07.webp"
     },
     "liveComparison": {
-      "currentHash": "ff9f08ab7d57401de56cccbe8a7ae1a7308c7f4d5e44190d17b2ed4841d4c32f"
+      "currentHash": "6f01627427b2abd3b49b7de41d04d4794f0e2cd6ea8b98484a917e3bf6f0a977"
     }
   },
   {
@@ -89699,13 +90022,13 @@
     "name": "Mudskipper",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370122_Desc",
+    "description": "Mudskipper Description Text",
     "secondaryDescription": "BKItem_4370122_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_07.webp"
     },
     "liveComparison": {
-      "currentHash": "702f4a64ef78a98cce19f7c1da38411137774ab201b7a8b814efba475f625268"
+      "currentHash": "e8e50728e879fa30829187b0ce66a2c7e8e561e38370e435a89b945944019352"
     }
   },
   {
@@ -89714,13 +90037,13 @@
     "name": "Mudskipper",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370123_Desc",
+    "description": "Mudskipper Description Text",
     "secondaryDescription": "BKItem_4370123_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_07.webp"
     },
     "liveComparison": {
-      "currentHash": "2ba1c5214300dc24bd447b2ed1fb3d06d12a03f79c455aa44362c6a2f2e13dc2"
+      "currentHash": "fd4a15ceacc443b779b5c6929fa6d5fbfc52c4a25baae2c0d792ad5970a2d5fa"
     }
   },
   {
@@ -89729,13 +90052,13 @@
     "name": "Mudskipper",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370124_Desc",
+    "description": "Mudskipper Description Text",
     "secondaryDescription": "BKItem_4370124_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_07.webp"
     },
     "liveComparison": {
-      "currentHash": "853d9f71cd524e7dd81752bae64fc4df86cd0900fed2d12fc44aa2049149fd54"
+      "currentHash": "501776d86ca2f56dd5b7ad303bbef22f28aa119b627f39442d0a38a81b8135b4"
     }
   },
   {
@@ -89744,13 +90067,58 @@
     "name": "Mudskipper",
     "rarity": 4,
     "type": {},
-    "description": "BKItem_4370125_Desc",
+    "description": "Mudskipper Description Text",
     "secondaryDescription": "BKItem_4370125_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_07.webp"
     },
     "liveComparison": {
-      "currentHash": "738651abd2efb3d9f3c3b06f443a977c6014589051e5c0790a6ee48672dcc707"
+      "currentHash": "555cf675d29e1ce4e4b6f0a8cb4a04e9e774c3809101a9349e6ba5d9a916e479"
+    }
+  },
+  {
+    "id": "4370126",
+    "contentStatus": "beta",
+    "name": "Item_SummerTideTreasure_014",
+    "rarity": 4,
+    "type": {},
+    "description": "Special Message Bottle 1 Description Text",
+    "secondaryDescription": "BKItem_4370126_Story",
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_11.webp"
+    },
+    "liveComparison": {
+      "currentHash": "79edeb7be6e92e5ab06e236578ef2c353f4268a7fdbdccf8ae5a9c86890dc859"
+    }
+  },
+  {
+    "id": "4370127",
+    "contentStatus": "beta",
+    "name": "Item_SummerTideTreasure_015",
+    "rarity": 4,
+    "type": {},
+    "description": "Special Message Bottle 2 Description Text",
+    "secondaryDescription": "BKItem_4370127_Story",
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_11.webp"
+    },
+    "liveComparison": {
+      "currentHash": "d00a601c8e30940c6f9cba20cac3238e59430d51739437cebba5bc42b588383a"
+    }
+  },
+  {
+    "id": "4370128",
+    "contentStatus": "beta",
+    "name": "Item_SummerTideTreasure_016",
+    "rarity": 4,
+    "type": {},
+    "description": "Special Message Bottle 3 Description Text",
+    "secondaryDescription": "BKItem_4370128_Story",
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/SummerTideTreasure_DroopItemIcon_11.webp"
+    },
+    "liveComparison": {
+      "currentHash": "3771ce273111875da06d43879c02782c54890ef0129b58f3da48576c733a3c13"
     }
   },
   {
@@ -90580,6 +90948,102 @@
     },
     "liveComparison": {
       "currentHash": "0e9c101076b22b778ce62024efc2f8b000639a7e96271eb66bef8c04e5b487ea"
+    }
+  },
+  {
+    "id": "311151107",
+    "contentStatus": "beta",
+    "name": "Skyline Style",
+    "rarity": 3,
+    "type": {
+      "95": "OUTFIT ACCESSORIES"
+    },
+    "description": "A Proxy accessory that can be worn with some of Belle's Proxy outfits.",
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/icon_Belle_Back_Pendant_Default.webp"
+    },
+    "liveComparison": {
+      "currentHash": "3d7d1240da75ecf265846a3d04de4b551d284fe5f1cacffcf4ad3488faa8f781"
+    }
+  },
+  {
+    "id": "311151108",
+    "contentStatus": "beta",
+    "name": "Skyline Style",
+    "rarity": 3,
+    "type": {
+      "95": "OUTFIT ACCESSORIES"
+    },
+    "description": "A Proxy accessory that can be worn with some of Belle's Proxy outfits.",
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/icon_Belle_Back_Pendant_Default.webp"
+    },
+    "liveComparison": {
+      "currentHash": "74c98e791834e6c13cda36975a97e23eb78bb614c557a71f53398bf7c6d19226"
+    }
+  },
+  {
+    "id": "311151109",
+    "contentStatus": "beta",
+    "name": "Skyline Style",
+    "rarity": 3,
+    "type": {
+      "95": "OUTFIT ACCESSORIES"
+    },
+    "description": "A Proxy accessory that can be worn with some of Belle's Proxy outfits.",
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/icon_Belle_Back_Pendant_Default.webp"
+    },
+    "liveComparison": {
+      "currentHash": "94c80efd80cd1dfd121c74a9c84e6c1990f7661321689a97a3015fc3eb722067"
+    }
+  },
+  {
+    "id": "311151110",
+    "contentStatus": "beta",
+    "name": "Skyline Style",
+    "rarity": 3,
+    "type": {
+      "95": "OUTFIT ACCESSORIES"
+    },
+    "description": "A Proxy accessory that can be worn with some of Belle's Proxy outfits.",
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/icon_Belle_Back_Pendant_Default.webp"
+    },
+    "liveComparison": {
+      "currentHash": "a187ef44a3b9a8cec79d0db3574192d6e40387f0ae33f9b444b786785f6086f2"
+    }
+  },
+  {
+    "id": "311151111",
+    "contentStatus": "beta",
+    "name": "Skyline Style",
+    "rarity": 3,
+    "type": {
+      "95": "OUTFIT ACCESSORIES"
+    },
+    "description": "A Proxy accessory that can be worn with some of Belle's Proxy outfits.",
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/icon_Belle_Back_Pendant_Default.webp"
+    },
+    "liveComparison": {
+      "currentHash": "d3cb178c4dc8dc1886d5256800aabe7e78d5fe51004bfdbb5aaab38f6fcea017"
+    }
+  },
+  {
+    "id": "311151112",
+    "contentStatus": "beta",
+    "name": "Skyline Style",
+    "rarity": 3,
+    "type": {
+      "95": "OUTFIT ACCESSORIES"
+    },
+    "description": "A Proxy accessory that can be worn with some of Belle's Proxy outfits.",
+    "assets": {
+      "icon": "Nanoka/zzz/assets/items/icon_Belle_Back_Pendant_Default.webp"
+    },
+    "liveComparison": {
+      "currentHash": "6dbefa083e4f49b77726a2c43d906f44f8c005e5f62ff959df559fd0055a4eba"
     }
   },
   {

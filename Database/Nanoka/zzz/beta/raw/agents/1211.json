@@ -335,7 +335,7 @@
         },
         {
           "name": "Morning Cleanup",
-          "desc": "After Rina uses her <color=#FFFFFF>[EX Special Attack]</color>, within 13s, Drusilla & Anastella attacks enemies once every 2.5s, dealing <color=#2EB6FF>Electric DMG</color> and gaining 1 <color=#FFFFFF>[Fright]</color>, up to 6 <color=#FFFFFF>[Fright]</color> max. After using this skill, Drusilla & Anastella's exit countdown resets.",
+          "desc": "After Rina uses her <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, or <color=#FFFFFF>[Ultimate]</color>, within 13s, Drusilla & Anastella attacks enemies once every 2.5s, dealing <color=#2EB6FF>Electric DMG</color> and gaining 1 <color=#FFFFFF>[Fright]</color>, up to 6 <color=#FFFFFF>[Fright]</color> max. After using this skill, Drusilla & Anastella's exit countdown resets.",
           "potential": [
             121100,
             121101,

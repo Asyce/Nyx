@@ -405,7 +405,7 @@
     "group": 201,
     "en": "Metamorphosed - Skull Wasp",
     "desc": "CardDesc_10040",
-    "ko": "BriefName_Monster_EvolvedBee",
+    "ko": "탈피·벌",
     "zh": "蜕生·骸蜂",
     "ja": "蛻生・骸蜂"
   },
@@ -1305,7 +1305,7 @@
     "group": 201,
     "en": "Infernal Revenant",
     "desc": "CardDesc_30052",
-    "ko": "BriefName_Monster_SymbioticEtherealSinner",
+    "ko": "연옥을 누비는 자",
     "zh": "熔狱行赭",
     "ja": "熔獄の赭行"
   },
@@ -1315,7 +1315,7 @@
     "group": 201,
     "en": "Ulydim",
     "desc": "A notorious Ethereal prowling the depths of the Papago Hollow's \"Divine Maze.\"\nIf the Papago Hollow's \"Hallucinatory Soundfield\" is the trap that lures prey into the maze, then Ulydim is the Hound that hunts down those who fall into it.\nUlydim's special ability — and what makes it so terrifying — is its power to materialize from any location or object within the Hollow's illusion, whether from a shadowed corner of the labyrinth or a cherished memento tied to a victim's fondest memories. This allows it to deliver a devastating Strike to both the body and mind, earning it the name \"Olden Hound.\" At its core, this ability stems from Ulydim's unique power to ignore the illusions shaped by the Hallucinatory Soundfield and move freely through the Hollow's structure.\nDue to its terrifying nature and appearance, Ulydim stands as one of the most common yet most dreaded threats encountered during Papago Hollow Exploration Missions. The mere mention of its name is enough to send every Bangboo at the Papago outpost into a panic — and among them, chilling legends of Ulydim have taken on a life of their own.\nMultiple Ulydims exist within the Hollow, each assigned to patrol fixed areas and routes, maintaining the stability of the Hallucinatory Soundwaves throughout Papago Hollow. Should any intruder be detected interfering with the Hollow's steady expansion, Ulydim will pursue and eliminate the threat without hesitation.\n\"Perhaps in that endless maze with no way out, being devoured by the terrifying Hound is a mercy all its own.\"",
-    "ko": "BriefName_Monster_Stalker",
+    "ko": "우리딤무",
     "zh": "乌利迪姆",
     "ja": "ウリディム"
   },
@@ -1425,7 +1425,7 @@
     "group": 201,
     "en": "Kitabulu, Stagnant Aberrant Beast",
     "desc": "CardDesc_40008",
-    "ko": "BriefName_Monster_GirReborn",
+    "ko": "기르타블리르·퇴행 변종",
     "zh": "基塔布鲁·滞变畸兽",
     "ja": "キタブル・滞変畸獣"
   },
@@ -1435,7 +1435,7 @@
     "group": 201,
     "en": "Integrated Girtablullu",
     "desc": "CardDesc_40009",
-    "ko": "BriefName_Monster_Girtablu_HC",
+    "ko": "융합·기르타블리르",
     "zh": "异构·基塔布鲁",
     "ja": "異構・キタブル"
   },

@@ -45,6 +45,11 @@
       "name": "AvatarSkin_Sigrid_Name_000",
       "desc": "AvatarSkin_Sigrid_Desc_000",
       "image": "IconRole66"
+    },
+    "3115911": {
+      "name": "AvatarSkin_Sigrid_Name_001",
+      "desc": "AvatarSkin_Sigrid_Desc_001",
+      "image": "IconRole66_01"
     }
   },
   "stats": {
@@ -324,17 +329,17 @@
     "basic": {
       "description": [
         {
-          "name": "Basic Attack",
-          "desc": "Press <IconMap:Icon_Normal> to activate:\nLaunch up to 4 Slashes forward, dealing <color=#98EFF0>Ice DMG</color>;\n<color=#FFFFFF>[Basic Attack]</color> 4th hit is considered a <color=#FFFFFF>[Knight Skill]</color>;",
+          "name": "Basic Attack: Glacial Spearpoint",
+          "desc": "Press <IconMap:Icon_Normal> to activate:\nLaunch up to 4 Slashes forward, dealing <color=#98EFF0>Ice DMG</color>;\n<color=#FFFFFF>[Basic Attack]</color> Stage 4 is considered a <color=#FFFFFF>[Drawn Stance]</color>;",
           "potential": []
         },
         {
-          "name": "Alt Attack",
-          "desc": "While in <color=#FFFFFF>[Knight's Focus]</color> state with available <color=#FFFFFF>[Alt Attack]</color> counts, hold <IconMap:Icon_Normal> to activate:\nActivates the corresponding Alt Attack based on the current stage, dealing <color=#98EFF0>Ice DMG</color>;\n<color=#FFFFFF>[Alt Attack]</color> has 3 stages in total, and each use increases the stage count;\nUsing Alt Attack after a Basic Attack retains the Basic Attack stage count;\nCharacter is invulnerable while using this skill.",
+          "name": "Suppressed Stance",
+          "desc": "While in <color=#FFFFFF>[Roaming Stance]</color> with available <color=#FFFFFF>[Gun Retraction]</color> counts, hold <IconMap:Icon_Normal> to activate:\nActivates the corresponding <color=#FFFFFF>[Gun Retraction]</color> based on the current segment, dealing <color=#98EFF0>Ice DMG</color>;\n<color=#FFFFFF>[Gun Retraction]</color> has 3 segments in total, and each use advances the segment count;\nUsing Gun Retraction after a Basic Attack preserves the Basic Attack segment count;\nDMG taken is reduced by -40% during this skill;\nAnti-Interrupt level is increased while using this skill.",
           "potential": []
         },
         {
-          "name": "Basic Attack",
+          "name": "Basic Attack: Glacial Spearpoint",
           "param": [
             {
               "name": "1st-Hit DMG Multiplier",
@@ -384,32 +389,6 @@
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
                   "ether_purify": 7784
-                }
-              },
-              "potential": []
-            },
-            {
-              "name": "Sigrid_Skill_Normal_02_Enhance_Desc_DamageRatio",
-              "desc": "{Skill:1591003, Prop:1001}",
-              "param": {
-                "1591003": {
-                  "main": 13860,
-                  "growth": 1260,
-                  "format": "%",
-                  "damage_percentage": 13860,
-                  "damage_percentage_growth": 1260,
-                  "stun_ratio": 2040,
-                  "stun_ratio_growth": 100,
-                  "sp_recovery": 23400,
-                  "sp_recovery_growth": 0,
-                  "fever_recovery": 178750,
-                  "fever_recovery_growth": 0,
-                  "attribute_infliction": 6499,
-                  "sp_consume": 0,
-                  "attack_data": [],
-                  "rp_recovery": 0,
-                  "rp_recovery_growth": 0,
-                  "ether_purify": 6225
                 }
               },
               "potential": []
@@ -519,32 +498,6 @@
               "potential": []
             },
             {
-              "name": "Sigrid_Skill_Normal_02_Enhance_Desc_BreakStunRatio",
-              "desc": "{Skill:1591003, Prop:1002}",
-              "param": {
-                "1591003": {
-                  "main": 2040,
-                  "growth": 100,
-                  "format": "%",
-                  "damage_percentage": 13860,
-                  "damage_percentage_growth": 1260,
-                  "stun_ratio": 2040,
-                  "stun_ratio_growth": 100,
-                  "sp_recovery": 23400,
-                  "sp_recovery_growth": 0,
-                  "fever_recovery": 178750,
-                  "fever_recovery_growth": 0,
-                  "attribute_infliction": 6499,
-                  "sp_consume": 0,
-                  "attack_data": [],
-                  "rp_recovery": 0,
-                  "rp_recovery_growth": 0,
-                  "ether_purify": 6225
-                }
-              },
-              "potential": []
-            },
-            {
               "name": "3rd-Hit Daze Multiplier",
               "desc": "{Skill:1591004, Prop:1002}",
               "param": {
@@ -600,7 +553,7 @@
           "potential": []
         },
         {
-          "name": "Alt Attack: Stage 1",
+          "name": "Concealed Firearm Stance Phase 1",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -658,7 +611,7 @@
           "potential": []
         },
         {
-          "name": "Alt Attack Stage 2",
+          "name": "Concealed Shot Phase 2",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -716,7 +669,7 @@
           "potential": []
         },
         {
-          "name": "Alt Attack Stage 3",
+          "name": "Gun Retraction Form - Stage 3",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -826,22 +779,22 @@
     "dodge": {
       "description": [
         {
-          "name": "Dodge",
+          "name": "Dodge: Cloud Step",
           "desc": "Press <IconMap:Icon_Evade> to activate:\nA quick dash dodge;\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Dash Attack",
+          "name": "Dash Attack: Wind Chase",
           "desc": "Press <IconMap:Icon_Normal> during a dodge to activate:\nPerform a forward slash, dealing <color=#F0D12B>Physical DMG</color>.",
           "potential": []
         },
         {
-          "name": "Dodge Counter",
-          "desc": "Press <IconMap:Icon_Normal> during a <color=#FFFFFF>Perfect Dodge</color> to activate:\nCondenses ice at the gun barrel to deliver a powerful counter against enemies ahead, dealing <color=#98EFF0>Ice DMG</color>;\nTriggering a <color=#FFFFFF>Perfect Dodge</color> and performing a Dodge Counter during a Basic Attack preserves the current Basic Attack combo count;\nThis skill is considered a <color=#FFFFFF>Knight Skill</color>;\nCharacter is invulnerable while using this skill.",
+          "name": "Dodge Counter: Parting Shot",
+          "desc": "Press <IconMap:Icon_Normal> during a <color=#FFFFFF>Perfect Dodge</color> to activate:\nCondenses ice at the gun's tip to deliver a powerful counter against enemies ahead, dealing <color=#98EFF0>Ice DMG</color>;\nTriggering a <color=#FFFFFF>Perfect Dodge</color> and launching a Dodge Counter during a Basic Attack preserves the current Basic Attack chain;\nThis skill is considered a <color=#FFFFFF>Draw Stance</color>;\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Dash Attack",
+          "name": "Dash Attack: Wind Chase",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -899,7 +852,7 @@
           "potential": []
         },
         {
-          "name": "Dodge Counter",
+          "name": "Dodge Counter: Parting Shot",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1009,22 +962,22 @@
     "special": {
       "description": [
         {
-          "name": "Special Attack",
+          "name": "Special Attack: Chaotic Jade",
           "desc": "Press <IconMap:Icon_Special> to activate:\nLunge forward with three consecutive thrusts, dealing <color=#98EFF0>Ice DMG</color>.\nAnti-Interrupt level is increased while using this skill.",
           "potential": []
         },
         {
-          "name": "EX Special Attack: Stage 1",
-          "desc": "When Energy is sufficient and not in <color=#FFFFFF>[Knight's Focus]</color> state, press <IconMap:Icon_SpecialReady> to activate:\nLaunch a powerful rapid thrust forward, dealing massive <color=#98EFF0>Ice DMG</color>.\nThis skill is considered a <color=#FFFFFF>[Knight Skill]</color>;\nCharacter is invulnerable while using this skill.",
+          "name": "Enhance Special: Jade Shatter Technique Phase 1",
+          "desc": "When Energy is sufficient and not in the <color=#FFFFFF>[Patrol Gunform]</color> state, press <IconMap:Icon_SpecialReady> to activate:\nLaunch a powerful rapid thrust attack forward, dealing massive <color=#98EFF0>Ice DMG</color>.\nThis skill is considered a <color=#FFFFFF>[Draw Stance]</color>;\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "EX Special Attack: Phase 2",
-          "desc": "When Energy is sufficient and in <color=#FFFFFF>[Knight's Focus]</color> state, press <IconMap:Icon_SpecialReady> to activate:\nLaunch a powerful series of charging thrusts forward, dealing massive <color=#98EFF0>Ice DMG</color>.\nThis skill is considered a <color=#FFFFFF>[Knight Skill]</color>;\nCharacter is invulnerable while using this skill.",
+          "name": "Enhance Special: Jade Shatter Strike Phase 2",
+          "desc": "When Energy is sufficient and in the <color=#FFFFFF>[Sky-Piercing Stance]</color> state, press <IconMap:Icon_SpecialReady> to activate:\nLaunch a powerful series of lunging thrusts forward, dealing massive <color=#98EFF0>Ice DMG</color>.\nThis skill is considered a <color=#FFFFFF>[Draw Stance]</color>;\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Special Attack",
+          "name": "Special Attack: Chaotic Jade",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1082,7 +1035,7 @@
           "potential": []
         },
         {
-          "name": "EX Special Attack: Stage 1",
+          "name": "Enhance Special: Jade Shatter Technique Phase 1",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1145,7 +1098,7 @@
           "potential": []
         },
         {
-          "name": "EX Special Attack: Phase 2",
+          "name": "Enhance Special: Jade Shatter Strike Phase 2",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1260,17 +1213,17 @@
     "chain": {
       "description": [
         {
-          "name": "Chain Attack",
-          "desc": "When a <color=#FFFFFF>[Chain Attack]</color> is triggered, select the character to activate:\nLaunch a powerful Pierce against enemies ahead, dealing massive <color=#98EFF0>Ice DMG</color>;\nGain 1 stack of <color=#FFFFFF>[Chain Buff]</color>. Each stack of <color=#FFFFFF>[Chain Buff]</color> increases DMG dealt by subsequent Alt Attacks by 15%, stacking up to 2 times. After the 3rd stage Alt Attack ends, remove <color=#FFFFFF>[All-Out Assault State]</color> and <color=#FFFFFF>[Chain Buff]</color>;\nWhen this skill hits a Dazed Elite or Boss-Rank enemy for the first time, it records the current <color=#FFFFFF>[Alt Attack]</color> stage and enters <color=#FFFFFF>[All-Out Assault State]</color>. This effect can trigger at most once per Daze;\nWhile in <color=#FFFFFF>[All-Out Assault State]</color>, <color=#FFFFFF>[Knight's Focus]</color> duration does not decrease, and holding <IconMap:Icon_Normal> allows continuous use of Alt Attack stages 1 through 3;\nAfter executing <color=#FFFFFF>[Alt Attack]</color> Stage 3, exit <color=#FFFFFF>[All-Out Assault State]</color> and restore the <color=#FFFFFF>[Alt Attack]</color> stage count;\nThis skill is considered a <color=#FFFFFF>[Knight Skill]</color>;\nCharacter is invulnerable while using this skill.",
+          "name": "Chain Attack: Frost Ground Roll",
+          "desc": "When a <color=#FFFFFF>Chain Attack</color> is triggered, select the character to activate:\nLaunch a powerful Pierce against enemies ahead, dealing massive <color=#98EFF0>Ice DMG</color>;\nGain 1 stack of <color=#FFFFFF>[Temper]</color>. Each stack of <color=#FFFFFF>[Temper]</color> increases the DMG dealt by subsequent Retract Stance by 15%, stacking up to 2 times. <color=#FFFFFF>[Formation Break]</color> and <color=#FFFFFF>[Temper]</color> are removed after the 3rd Retract Stance ends;\nWhen this skill hits an elite or Boss-Rank enemy in Daze for the first time, the current <color=#FFFFFF>[Retract Stance]</color> stage is recorded and <color=#FFFFFF>[Formation Break]</color> is activated. This effect can trigger at most once per Daze;\nWhile in <color=#FFFFFF>[Formation Break]</color>, <color=#FFFFFF>[Aerial Gunstance]</color> duration does not decrease, and holding <IconMap:Icon_Normal> allows continuous use of Retract Stance from Stage 1 through Stage 3;\nAfter activating the 3rd stage of <color=#FFFFFF>[Retract Stance]</color>, <color=#FFFFFF>[Formation Break]</color> ends and the <color=#FFFFFF>[Retract Stance]</color> stage is restored;\nThis skill is considered a <color=#FFFFFF>[Draw Stance]</color>;\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Ultimate",
-          "desc": "When Decibel Rating is at <color=#FFFFFF>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nChannels the power of extreme cold to unleash a devastating series of charges forward, dealing massive <color=#98EFF0>Ice DMG</color>;\nThis skill is considered a <color=#FFFFFF>Knight Skill</color>;\nCharacter is invulnerable while using this skill.",
+          "name": "Ultimate: Frost Sky",
+          "desc": "When Decibel Rating is at <color=#FFFFFF>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nChannels the power of extreme cold to unleash a devastating series of dashes forward, dealing massive <color=#98EFF0>Ice DMG</color>;\nThis skill is considered a <color=#FFFFFF>Draw</color>;\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Chain Attack",
+          "name": "Chain Attack: Frost Ground Roll",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1328,7 +1281,7 @@
           "potential": []
         },
         {
-          "name": "Ultimate",
+          "name": "Ultimate: Frost Sky",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1438,22 +1391,22 @@
     "assist": {
       "description": [
         {
-          "name": "Quick Assist",
+          "name": "Quick Assist: Guardian",
           "desc": "When the active character is launched, press <IconMap:Icon_Switch> to activate:\nDash forward with freezing force, dealing <color=#98EFF0>Ice DMG</color>.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Defensive Assist",
+          "name": "Defensive Assist: Unyielding Frost",
           "desc": "When the on-field character is about to be attacked, press <IconMap:Icon_Switch> to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Assist Follow-Up",
+          "name": "Assist Follow-Up: Ice Glutton",
           "desc": "Press <IconMap:Icon_Normal> after a <color=#FFFFFF>Defensive Assist</color> to activate:\nSwing the spear upward and follow up with a heavy downward smash, dealing massive <color=#98EFF0>Ice DMG</color>.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Quick Assist",
+          "name": "Quick Assist: Guardian",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1511,7 +1464,7 @@
           "potential": []
         },
         {
-          "name": "Defensive Assist",
+          "name": "Defensive Assist: Unyielding Frost",
           "param": [
             {
               "name": "Light Defensive Daze Multiplier",
@@ -1595,7 +1548,7 @@
           "potential": []
         },
         {
-          "name": "Assist Follow-Up",
+          "name": "Assist Follow-Up: Ice Glutton",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1712,8 +1665,8 @@
       "potential": []
     },
     "1591002": {
-      "name": "Basic Attack: Branching",
-      "desc": "<IconMap:Icon_Normal>([Points Owned]) (Hold)",
+      "name": "Basic Attack: Alt Attack",
+      "desc": "<IconMap:Icon_Normal>(On Entering or Refreshing [Knight's Focus]) (Hold)",
       "element_type": 202,
       "hit_type": 103,
       "potential": []
@@ -1726,7 +1679,7 @@
       "potential": []
     },
     "1591004": {
-      "name": "EX Special Attack:",
+      "name": "EX Special Attack: Extreme Chisel",
       "desc": "<IconMap:Icon_SpecialReady>",
       "element_type": 202,
       "hit_type": 103,
@@ -1761,8 +1714,8 @@
       "potential": []
     },
     "1591009": {
-      "name": "Sigrid_SkillList_9_Title",
-      "desc": "Sigrid_SkillList_9_Content",
+      "name": "Quick Assist:",
+      "desc": "<IconMap:Icon_Switch> (When Triggering Quick Assist)",
       "element_type": 202,
       "hit_type": 103,
       "potential": []
@@ -1795,12 +1748,12 @@
         "level": 1,
         "id": 1591501,
         "name": [
-          "Core Passive",
-          "Additional Ability"
+          "Core Passive: Sky Knight",
+          "Additional Ability: Sky Alliance"
         ],
         "desc": [
-          "<color=#FFFFFF>[Basic Attack]</color> Stage 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Knight Skills]</color>;\nWhen Sigrid hits an enemy with any <color=#FFFFFF>[Knight Skill]</color>, if she is not currently in <color=#FFFFFF>[Knight's Focus]</color>, she enters <color=#FFFFFF>[Knight's Focus]</color>, and the <color=#FFFFFF>[Knight Skill]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status. She also gains 1 <color=#FFFFFF>[Alt Attack]</color> charge, which can be stored up to 1 time;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, if Sigrid uses any <color=#FFFFFF>[Knight Skill]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Knight's Focus]</color> and gain 1 <color=#FFFFFF>[Alt Attack]</color> charge, which can be stored up to 1 time; Upon refreshing <color=#FFFFFF>[Knight's Focus]</color>, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly used <color=#FFFFFF>[Knight Skill]</color>;\nWhen an <color=#FFFFFF>[Alt Attack]</color> hits an enemy, the <color=#FFFFFF>[Inactive]</color> status is removed, and the next <color=#FFFFFF>[Alt Attack]</color>'s stage increases by 1, up to a maximum of Stage 3; After using the Stage 3 <color=#FFFFFF>[Alt Attack]</color>, the <color=#FFFFFF>[Alt Attack]</color> stage immediately resets to Stage 1, and <color=#FFFFFF>[Knight's Focus]</color> ends;\nThe duration of <color=#FFFFFF>[Knight's Focus]</color> decreases as the <color=#FFFFFF>[Alt Attack]</color> stage increases: at Stage 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Knight's Focus]</color> ends, the <color=#FFFFFF>[Alt Attack]</color> stage decreases by 1, down to a minimum of Stage 1;\nWhen activating or refreshing <color=#FFFFFF>[Knight's Focus]</color>, Sigrid's CRIT Rate increases by <color=#2BAD00>25%</color> for <color=#FFFFFF>8</color>s; Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
-          "Triggers when your squad has a <color=#FFFFFF>[Support]</color> or <color=#FFFFFF>[Stun]</color> Character:\nUpon triggering, your DMG dealt increases by 40%;\nWhen a teammate triggers a Fire Anomaly, or you trigger Wind Contamination, gain 1 stack of <color=#FFFFFF>[Chain Buff]</color>;"
+          "<color=#FFFFFF>[Basic Attack]</color> 4th hit, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw Stance]</color>;\nWhen Sigrid hits an enemy with any <color=#FFFFFF>[Draw Stance]</color>, if not currently in <color=#FFFFFF>[Sky Patrol Gunform]</color>, she enters <color=#FFFFFF>[Sky Patrol Gunform]</color> and the <color=#FFFFFF>[Draw Stance]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status, while gaining 1 <color=#FFFFFF>[Holster Stance]</color> activation opportunity, up to a maximum of 1;\nWhile in <color=#FFFFFF>[Sky Patrol Gunform]</color>, when Sigrid uses any <color=#FFFFFF>[Draw Stance]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Sky Patrol Gunform]</color> and gain 1 <color=#FFFFFF>[Holster Stance]</color> activation opportunity, up to a maximum of 1; When <color=#FFFFFF>[Sky Patrol Gunform]</color> is refreshed, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly triggered <color=#FFFFFF>[Draw Stance]</color>;\nWhen <color=#FFFFFF>[Holster Stance]</color> hits an enemy, <color=#FFFFFF>[Inactive]</color> status is removed and the next <color=#FFFFFF>[Holster Stance]</color> advances by 1 stage, up to a maximum of 3 stages; After triggering the 3rd stage <color=#FFFFFF>[Holster Stance]</color>, <color=#FFFFFF>[Holster Stance]</color> stage is immediately reset to stage 1 and <color=#FFFFFF>[Sky Patrol Gunform]</color> ends;\nThe duration of <color=#FFFFFF>[Sky Patrol Gunform]</color> decreases as <color=#FFFFFF>[Holster Stance]</color> stage increases: at stages 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Gunform]</color> ends, <color=#FFFFFF>[Holster Stance]</color> stage decreases by 1, down to a minimum of stage 1;\nWhen <color=#FFFFFF>[Sky Patrol Gunform]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>36%</color> for <color=#FFFFFF>8</color>s; repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Sky Patrol Gunform]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
+          "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 40%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>20%</color>"
         ],
         "extra_property": {},
         "potential": []
@@ -1809,12 +1762,12 @@
         "level": 2,
         "id": 1591502,
         "name": [
-          "Core Passive",
-          "Additional Ability"
+          "Core Passive: Sky Knight",
+          "Additional Ability: Sky Alliance"
         ],
         "desc": [
-          "<color=#FFFFFF>[Basic Attack]</color> Stage 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Knight Skills]</color>;\nWhen Sigrid hits an enemy with any <color=#FFFFFF>[Knight Skill]</color>, if she is not currently in <color=#FFFFFF>[Knight's Focus]</color>, she enters <color=#FFFFFF>[Knight's Focus]</color>, and the <color=#FFFFFF>[Knight Skill]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status. She also gains 1 <color=#FFFFFF>[Alt Attack]</color> charge, which can be stored up to 1 time;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, if Sigrid uses any <color=#FFFFFF>[Knight Skill]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Knight's Focus]</color> and gain 1 <color=#FFFFFF>[Alt Attack]</color> charge, which can be stored up to 1 time; Upon refreshing <color=#FFFFFF>[Knight's Focus]</color>, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly used <color=#FFFFFF>[Knight Skill]</color>;\nWhen an <color=#FFFFFF>[Alt Attack]</color> hits an enemy, the <color=#FFFFFF>[Inactive]</color> status is removed, and the next <color=#FFFFFF>[Alt Attack]</color>'s stage increases by 1, up to a maximum of Stage 3; After using the Stage 3 <color=#FFFFFF>[Alt Attack]</color>, the <color=#FFFFFF>[Alt Attack]</color> stage immediately resets to Stage 1, and <color=#FFFFFF>[Knight's Focus]</color> ends;\nThe duration of <color=#FFFFFF>[Knight's Focus]</color> decreases as the <color=#FFFFFF>[Alt Attack]</color> stage increases: at Stage 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Knight's Focus]</color> ends, the <color=#FFFFFF>[Alt Attack]</color> stage decreases by 1, down to a minimum of Stage 1;\nWhen activating or refreshing <color=#FFFFFF>[Knight's Focus]</color>, Sigrid's CRIT Rate increases by <color=#2BAD00>29%</color> for <color=#FFFFFF>8</color>s; Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
-          "Triggers when your squad has a <color=#FFFFFF>[Support]</color> or <color=#FFFFFF>[Stun]</color> Character:\nUpon triggering, your DMG dealt increases by 40%;\nWhen a teammate triggers a Fire Anomaly, or you trigger Wind Contamination, gain 1 stack of <color=#FFFFFF>[Chain Buff]</color>;"
+          "<color=#FFFFFF>[Basic Attack]</color> 4th hit, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw Shot]</color>;\nWhen Sigrid lands a hit with any <color=#FFFFFF>[Draw Shot]</color>, if not already in <color=#FFFFFF>[Sky Patrol Stance]</color>, she enters <color=#FFFFFF>[Sky Patrol Stance]</color>. The <color=#FFFFFF>[Draw Shot]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status, and she gains 1 <color=#FFFFFF>[Holster Shot]</color> activation opportunity, up to a maximum of 1;\nWhile in <color=#FFFFFF>[Sky Patrol Stance]</color>, if Sigrid uses any <color=#FFFFFF>[Draw Shot]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Sky Patrol Stance]</color> and gain 1 <color=#FFFFFF>[Holster Shot]</color> activation opportunity, up to a maximum of 1; Upon refreshing <color=#FFFFFF>[Sky Patrol Stance]</color>, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly used <color=#FFFFFF>[Draw Shot]</color>;\nWhen <color=#FFFFFF>[Holster Shot]</color> lands a hit on an enemy, <color=#FFFFFF>[Inactive]</color> status is removed and the next <color=#FFFFFF>[Holster Shot]</color>'s hit count increases by 1, up to a maximum of 3 hits; After using the 3rd <color=#FFFFFF>[Holster Shot]</color>, its hit count immediately resets to 1 and <color=#FFFFFF>[Sky Patrol Stance]</color> ends;\nThe duration of <color=#FFFFFF>[Sky Patrol Stance]</color> decreases as <color=#FFFFFF>[Holster Shot]</color>'s hit count increases: at 1/2/3 hits, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> ends, <color=#FFFFFF>[Holster Shot]</color>'s hit count decreases by 1, down to a minimum of 1;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>42%</color> for <color=#FFFFFF>8</color>s; repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Sky Patrol Stance]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
+          "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 40%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>20%</color>"
         ],
         "extra_property": {},
         "potential": []
@@ -1823,12 +1776,12 @@
         "level": 3,
         "id": 1591503,
         "name": [
-          "Core Passive",
-          "Additional Ability"
+          "Core Passive: Sky Knight",
+          "Additional Ability: Sky Alliance"
         ],
         "desc": [
-          "The 4th hit of <color=#FFFFFF>[Basic Attack]</color>, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Knight Skills]</color>;\nWhen Sigrid hits an enemy with any <color=#FFFFFF>[Knight Skill]</color>, if not currently in <color=#FFFFFF>[Knight's Focus]</color>, she enters <color=#FFFFFF>[Knight's Focus]</color>, and the <color=#FFFFFF>[Knight Skill]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status. She also gains 1 <color=#FFFFFF>[Alt Attack]</color> charge, up to a maximum of 1;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, when Sigrid uses any <color=#FFFFFF>[Knight Skill]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Knight's Focus]</color> and gain 1 <color=#FFFFFF>[Alt Attack]</color> charge, up to a maximum of 1. Upon refreshing <color=#FFFFFF>[Knight's Focus]</color>, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly used <color=#FFFFFF>[Knight Skill]</color>;\nWhen an <color=#FFFFFF>[Alt Attack]</color> hits an enemy, the <color=#FFFFFF>[Inactive]</color> status is removed, and the next <color=#FFFFFF>[Alt Attack]</color>'s tier increases by 1, up to a maximum of 3. After the 3rd-tier <color=#FFFFFF>[Alt Attack]</color>, the <color=#FFFFFF>[Alt Attack]</color> tier immediately resets to 1 and <color=#FFFFFF>[Knight's Focus]</color> ends;\nThe duration of <color=#FFFFFF>[Knight's Focus]</color> decreases as the <color=#FFFFFF>[Alt Attack]</color> tier increases: at tiers 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Knight's Focus]</color> ends, the <color=#FFFFFF>[Alt Attack]</color> tier decreases by 1, down to a minimum of 1;\nWhen <color=#FFFFFF>[Knight's Focus]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>33%</color> for <color=#FFFFFF>8</color>s. Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
-          "Triggers when your squad has a <color=#FFFFFF>[Support]</color> or <color=#FFFFFF>[Stun]</color> Character:\nUpon triggering, your DMG dealt increases by 40%;\nWhen a teammate triggers a Fire Anomaly, or you trigger Wind Contamination, gain 1 stack of <color=#FFFFFF>[Chain Buff]</color>;"
+          "<color=#FFFFFF>[Basic Attack]</color> 4th hit, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw Shot]</color>;\nWhen Sigrid hits an enemy with any <color=#FFFFFF>[Draw Shot]</color>, if not currently in <color=#FFFFFF>[Aerial Gunstance]</color>, she enters <color=#FFFFFF>[Aerial Gunstance]</color> and the <color=#FFFFFF>[Draw Shot]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status, while gaining 1 <color=#FFFFFF>[Holster Shot]</color> activation opportunity, up to a maximum of 1;\nWhile in <color=#FFFFFF>[Aerial Gunstance]</color>, if Sigrid activates any <color=#FFFFFF>[Draw Shot]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Aerial Gunstance]</color> and gain 1 <color=#FFFFFF>[Holster Shot]</color> activation opportunity, up to a maximum of 1; After <color=#FFFFFF>[Aerial Gunstance]</color> is refreshed, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly activated <color=#FFFFFF>[Draw Shot]</color>;\nWhen <color=#FFFFFF>[Holster Shot]</color> hits an enemy, it removes <color=#FFFFFF>[Inactive]</color> status and increases the next <color=#FFFFFF>[Holster Shot]</color>'s hit count by 1 stage, up to a maximum of 3 stages; After the 3rd stage <color=#FFFFFF>[Holster Shot]</color> is activated, <color=#FFFFFF>[Holster Shot]</color> stage count immediately resets to stage 1 and <color=#FFFFFF>[Aerial Gunstance]</color> ends;\nThe duration of <color=#FFFFFF>[Aerial Gunstance]</color> decreases as <color=#FFFFFF>[Holster Shot]</color> stage increases: at stages 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Aerial Gunstance]</color> ends, <color=#FFFFFF>[Holster Shot]</color> stage decreases by 1, down to a minimum of stage 1;\nWhen <color=#FFFFFF>[Aerial Gunstance]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>48%</color> for <color=#FFFFFF>8</color>s; repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Aerial Gunstance]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
+          "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 40%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>20%</color>"
         ],
         "extra_property": {},
         "potential": []
@@ -1837,12 +1790,12 @@
         "level": 4,
         "id": 1591504,
         "name": [
-          "Core Passive",
-          "Additional Ability"
+          "Core Passive: Sky Knight",
+          "Additional Ability: Sky Alliance"
         ],
         "desc": [
-          "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Knight Skills]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Knight Skill]</color> to hit an enemy, if not currently in <color=#FFFFFF>[Knight's Focus]</color>, she enters <color=#FFFFFF>[Knight's Focus]</color>, and the <color=#FFFFFF>[Knight Skill]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status. She also gains 1 <color=#FFFFFF>[Alt Attack]</color> charge, up to a maximum of 1;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, when Sigrid uses any <color=#FFFFFF>[Knight Skill]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Knight's Focus]</color> and gain 1 <color=#FFFFFF>[Alt Attack]</color> charge, up to a maximum of 1. Upon refreshing <color=#FFFFFF>[Knight's Focus]</color>, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly used <color=#FFFFFF>[Knight Skill]</color>;\nWhen an <color=#FFFFFF>[Alt Attack]</color> hits an enemy, the <color=#FFFFFF>[Inactive]</color> status is removed, and the next <color=#FFFFFF>[Alt Attack]</color>'s phase count increases by 1, up to a maximum of Phase 3. After triggering Phase 3 <color=#FFFFFF>[Alt Attack]</color>, the <color=#FFFFFF>[Alt Attack]</color> phase count is immediately reset to Phase 1 and <color=#FFFFFF>[Knight's Focus]</color> ends;\nThe duration of <color=#FFFFFF>[Knight's Focus]</color> decreases as the <color=#FFFFFF>[Alt Attack]</color> phase count increases: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Knight's Focus]</color> ends, the <color=#FFFFFF>[Alt Attack]</color> phase count decreases by 1, down to a minimum of Phase 1;\nWhen <color=#FFFFFF>[Knight's Focus]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>38%</color> for <color=#FFFFFF>8</color>s. Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
-          "Triggers when your squad has a <color=#FFFFFF>[Support]</color> or <color=#FFFFFF>[Stun]</color> Character:\nUpon triggering, your DMG dealt increases by 40%;\nWhen a teammate triggers a Fire Anomaly, or you trigger Wind Contamination, gain 1 stack of <color=#FFFFFF>[Chain Buff]</color>;"
+          "<color=#FFFFFF>[Basic Attack]</color> 4th hit, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw Shot]</color>;\nWhen Sigrid lands a hit with any <color=#FFFFFF>[Draw Shot]</color>, if not already in <color=#FFFFFF>[Sky Patrol Stance]</color>, she enters <color=#FFFFFF>[Sky Patrol Stance]</color>. The <color=#FFFFFF>[Draw Shot]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status, and she gains 1 <color=#FFFFFF>[Holster Shot]</color> activation opportunity, up to a maximum of 1;\nWhile in <color=#FFFFFF>[Sky Patrol Stance]</color>, if Sigrid uses any <color=#FFFFFF>[Draw Shot]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Sky Patrol Stance]</color> and gain 1 <color=#FFFFFF>[Holster Shot]</color> activation opportunity, up to a maximum of 1; Upon refreshing <color=#FFFFFF>[Sky Patrol Stance]</color>, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly used <color=#FFFFFF>[Draw Shot]</color>;\nWhen <color=#FFFFFF>[Holster Shot]</color> lands a hit on an enemy, <color=#FFFFFF>[Inactive]</color> status is removed and the next <color=#FFFFFF>[Holster Shot]</color>'s hit count increases by 1, up to a maximum of 3 hits; After using the 3rd <color=#FFFFFF>[Holster Shot]</color>, its hit count immediately resets to 1 and <color=#FFFFFF>[Sky Patrol Stance]</color> ends;\nThe duration of <color=#FFFFFF>[Sky Patrol Stance]</color> decreases as <color=#FFFFFF>[Holster Shot]</color>'s hit count increases: at 1/2/3 hits, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> ends, <color=#FFFFFF>[Holster Shot]</color>'s hit count decreases by 1, down to a minimum of 1;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>54%</color> for <color=#FFFFFF>8</color>s; repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Sky Patrol Stance]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
+          "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 40%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>20%</color>"
         ],
         "extra_property": {},
         "potential": []
@@ -1851,12 +1804,12 @@
         "level": 5,
         "id": 1591505,
         "name": [
-          "Core Passive",
-          "Additional Ability"
+          "Core Passive: Sky Knight",
+          "Additional Ability: Sky Alliance"
         ],
         "desc": [
-          "<color=#FFFFFF>[Basic Attack]</color> Stage 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Knight Skills]</color>;\nWhen Sigrid hits an enemy with any <color=#FFFFFF>[Knight Skill]</color>, if she is not currently in <color=#FFFFFF>[Knight's Focus]</color>, she enters <color=#FFFFFF>[Knight's Focus]</color>, and the <color=#FFFFFF>[Knight Skill]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status. She also gains 1 <color=#FFFFFF>[Alt Attack]</color> charge, which can be stored up to 1 time;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, if Sigrid uses any <color=#FFFFFF>[Knight Skill]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Knight's Focus]</color> and gain 1 <color=#FFFFFF>[Alt Attack]</color> charge, which can be stored up to 1 time; Upon refreshing <color=#FFFFFF>[Knight's Focus]</color>, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly used <color=#FFFFFF>[Knight Skill]</color>;\nWhen an <color=#FFFFFF>[Alt Attack]</color> hits an enemy, the <color=#FFFFFF>[Inactive]</color> status is removed, and the next <color=#FFFFFF>[Alt Attack]</color>'s stage increases by 1, up to a maximum of Stage 3; After using the Stage 3 <color=#FFFFFF>[Alt Attack]</color>, the <color=#FFFFFF>[Alt Attack]</color> stage immediately resets to Stage 1, and <color=#FFFFFF>[Knight's Focus]</color> ends;\nThe duration of <color=#FFFFFF>[Knight's Focus]</color> decreases as the <color=#FFFFFF>[Alt Attack]</color> stage increases: at Stage 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Knight's Focus]</color> ends, the <color=#FFFFFF>[Alt Attack]</color> stage decreases by 1, down to a minimum of Stage 1;\nWhen activating or refreshing <color=#FFFFFF>[Knight's Focus]</color>, Sigrid's CRIT Rate increases by <color=#2BAD00>42%</color> for <color=#FFFFFF>8</color>s; Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
-          "Triggers when your squad has a <color=#FFFFFF>[Support]</color> or <color=#FFFFFF>[Stun]</color> Character:\nUpon triggering, your DMG dealt increases by 40%;\nWhen a teammate triggers a Fire Anomaly, or you trigger Wind Contamination, gain 1 stack of <color=#FFFFFF>[Chain Buff]</color>;"
+          "<color=#FFFFFF>[Basic Attack]</color> 4th hit, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw]</color>;\nWhen Sigrid lands a hit with any <color=#FFFFFF>[Draw]</color>, if she is not already in the <color=#FFFFFF>[Aerial Patrol Stance]</color>, she enters <color=#FFFFFF>[Aerial Patrol Stance]</color>, and the <color=#FFFFFF>[Draw]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status. She also gains 1 <color=#FFFFFF>[Holster]</color> trigger opportunity, storable up to 1;\nWhile in <color=#FFFFFF>[Aerial Patrol Stance]</color>, if Sigrid triggers any <color=#FFFFFF>[Draw]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Aerial Patrol Stance]</color> and gain 1 <color=#FFFFFF>[Holster]</color> trigger opportunity, storable up to 1. Upon refreshing <color=#FFFFFF>[Aerial Patrol Stance]</color>, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly triggered <color=#FFFFFF>[Draw]</color>;\nWhen <color=#FFFFFF>[Holster]</color> lands a hit on an enemy, <color=#FFFFFF>[Inactive]</color> status is removed, and the next <color=#FFFFFF>[Holster]</color>'s hit count is increased by 1 stage, up to a maximum of 3 stages. After triggering the 3rd stage <color=#FFFFFF>[Holster]</color>, <color=#FFFFFF>[Holster]</color> stage count is immediately reset to 1 and <color=#FFFFFF>[Aerial Patrol Stance]</color> ends;\nThe duration of <color=#FFFFFF>[Aerial Patrol Stance]</color> decreases as <color=#FFFFFF>[Holster]</color> stage increases: at stages 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Aerial Patrol Stance]</color> ends, <color=#FFFFFF>[Holster]</color> stage decreases by 1, down to a minimum of 1;\nWhen <color=#FFFFFF>[Aerial Patrol Stance]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>60%</color> for <color=#FFFFFF>8</color>s. Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Aerial Patrol Stance]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
+          "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 40%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>20%</color>"
         ],
         "extra_property": {},
         "potential": []
@@ -1865,12 +1818,12 @@
         "level": 6,
         "id": 1591506,
         "name": [
-          "Core Passive",
-          "Additional Ability"
+          "Core Passive: Sky Knight",
+          "Additional Ability: Sky Alliance"
         ],
         "desc": [
-          "The 4th hit of <color=#FFFFFF>[Basic Attack]</color>, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Knight Skills]</color>;\nWhen Sigrid hits an enemy with any <color=#FFFFFF>[Knight Skill]</color>, if not currently in <color=#FFFFFF>[Knight's Focus]</color>, she enters <color=#FFFFFF>[Knight's Focus]</color>, and the <color=#FFFFFF>[Knight Skill]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status. She also gains 1 <color=#FFFFFF>[Alt Attack]</color> charge, up to a maximum of 1;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, when Sigrid uses any <color=#FFFFFF>[Knight Skill]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Knight's Focus]</color> and gain 1 <color=#FFFFFF>[Alt Attack]</color> charge, up to a maximum of 1. Upon refreshing <color=#FFFFFF>[Knight's Focus]</color>, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly used <color=#FFFFFF>[Knight Skill]</color>;\nWhen an <color=#FFFFFF>[Alt Attack]</color> hits an enemy, the <color=#FFFFFF>[Inactive]</color> status is removed, and the next <color=#FFFFFF>[Alt Attack]</color>'s tier increases by 1, up to a maximum of 3. After the 3rd-tier <color=#FFFFFF>[Alt Attack]</color>, the <color=#FFFFFF>[Alt Attack]</color> tier immediately resets to 1 and <color=#FFFFFF>[Knight's Focus]</color> ends;\nThe duration of <color=#FFFFFF>[Knight's Focus]</color> decreases as the <color=#FFFFFF>[Alt Attack]</color> tier increases: at tiers 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Knight's Focus]</color> ends, the <color=#FFFFFF>[Alt Attack]</color> tier decreases by 1, down to a minimum of 1;\nWhen <color=#FFFFFF>[Knight's Focus]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>46%</color> for <color=#FFFFFF>8</color>s. Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
-          "Triggers when your squad has a <color=#FFFFFF>[Support]</color> or <color=#FFFFFF>[Stun]</color> Character:\nUpon triggering, your DMG dealt increases by 40%;\nWhen a teammate triggers a Fire Anomaly, or you trigger Wind Contamination, gain 1 stack of <color=#FFFFFF>[Chain Buff]</color>;"
+          "<color=#FFFFFF>[Basic Attack]</color> 4th hit, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw Shot]</color>;\nWhen Sigrid's <color=#FFFFFF>[Draw Shot]</color> hits an enemy, if she is not in the <color=#FFFFFF>[Aerial Gunstance]</color> state, she enters <color=#FFFFFF>[Aerial Gunstance]</color>, and the <color=#FFFFFF>[Draw Shot]</color> that landed the hit enters the <color=#FFFFFF>[Inactive]</color> state. She also gains 1 <color=#FFFFFF>[Holster Shot]</color> activation opportunity, with a maximum of 1 stored;\nWhile in <color=#FFFFFF>[Aerial Gunstance]</color>, if Sigrid activates any <color=#FFFFFF>[Draw Shot]</color> that is not in the <color=#FFFFFF>[Inactive]</color> state, she can refresh <color=#FFFFFF>[Aerial Gunstance]</color> and gain 1 <color=#FFFFFF>[Holster Shot]</color> activation opportunity, with a maximum of 1 stored; upon refreshing <color=#FFFFFF>[Aerial Gunstance]</color>, the <color=#FFFFFF>[Inactive]</color> state transfers to the newly activated <color=#FFFFFF>[Draw Shot]</color>;\nWhen <color=#FFFFFF>[Holster Shot]</color> hits an enemy, the <color=#FFFFFF>[Inactive]</color> state is removed, and the next <color=#FFFFFF>[Holster Shot]</color>'s stage increases by 1, up to a maximum of Stage 3; after activating <color=#FFFFFF>[Holster Shot]</color> Stage 3, <color=#FFFFFF>[Holster Shot]</color>'s stage is immediately reset to Stage 1, and <color=#FFFFFF>[Aerial Gunstance]</color> ends;\nThe duration of <color=#FFFFFF>[Aerial Gunstance]</color> decreases as <color=#FFFFFF>[Holster Shot]</color>'s stage increases: at Stage 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Aerial Gunstance]</color> ends, <color=#FFFFFF>[Holster Shot]</color>'s stage decreases by 1, down to a minimum of Stage 1;\nWhen <color=#FFFFFF>[Aerial Gunstance]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>66%</color> for <color=#FFFFFF>8</color>s; repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Aerial Gunstance]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
+          "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 40%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>20%</color>"
         ],
         "extra_property": {},
         "potential": []
@@ -1879,12 +1832,12 @@
         "level": 7,
         "id": 1591507,
         "name": [
-          "Core Passive",
-          "Additional Ability"
+          "Core Passive: Sky Knight",
+          "Additional Ability: Sky Alliance"
         ],
         "desc": [
-          "<color=#FFFFFF>[Basic Attack]</color> Stage 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Knight Skills]</color>;\nWhen Sigrid hits an enemy with any <color=#FFFFFF>[Knight Skill]</color>, if she is not currently in <color=#FFFFFF>[Knight's Focus]</color>, she enters <color=#FFFFFF>[Knight's Focus]</color>, and the <color=#FFFFFF>[Knight Skill]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status. She also gains 1 <color=#FFFFFF>[Alt Attack]</color> charge, which can be stored up to 1 time;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, if Sigrid uses any <color=#FFFFFF>[Knight Skill]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Knight's Focus]</color> and gain 1 <color=#FFFFFF>[Alt Attack]</color> charge, which can be stored up to 1 time; Upon refreshing <color=#FFFFFF>[Knight's Focus]</color>, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly used <color=#FFFFFF>[Knight Skill]</color>;\nWhen an <color=#FFFFFF>[Alt Attack]</color> hits an enemy, the <color=#FFFFFF>[Inactive]</color> status is removed, and the next <color=#FFFFFF>[Alt Attack]</color>'s stage increases by 1, up to a maximum of Stage 3; After using the Stage 3 <color=#FFFFFF>[Alt Attack]</color>, the <color=#FFFFFF>[Alt Attack]</color> stage immediately resets to Stage 1, and <color=#FFFFFF>[Knight's Focus]</color> ends;\nThe duration of <color=#FFFFFF>[Knight's Focus]</color> decreases as the <color=#FFFFFF>[Alt Attack]</color> stage increases: at Stage 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Knight's Focus]</color> ends, the <color=#FFFFFF>[Alt Attack]</color> stage decreases by 1, down to a minimum of Stage 1;\nWhen activating or refreshing <color=#FFFFFF>[Knight's Focus]</color>, Sigrid's CRIT Rate increases by <color=#2BAD00>50%</color> for <color=#FFFFFF>8</color>s; Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
-          "Triggers when your squad has a <color=#FFFFFF>[Support]</color> or <color=#FFFFFF>[Stun]</color> Character:\nUpon triggering, your DMG dealt increases by 40%;\nWhen a teammate triggers a Fire Anomaly, or you trigger Wind Contamination, gain 1 stack of <color=#FFFFFF>[Chain Buff]</color>;"
+          "<color=#FFFFFF>[Basic Attack]</color> 4th hit, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw]</color>;\nWhen Sigrid lands any <color=#FFFFFF>[Draw]</color> on an enemy, if not currently in <color=#FFFFFF>[Aerial Patrol Stance]</color>, she enters <color=#FFFFFF>[Aerial Patrol Stance]</color>, and the <color=#FFFFFF>[Draw]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status. She also gains 1 <color=#FFFFFF>[Holster]</color> trigger opportunity, with a maximum of 1 stored;\nWhile in <color=#FFFFFF>[Aerial Patrol Stance]</color>, if Sigrid uses any <color=#FFFFFF>[Draw]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Aerial Patrol Stance]</color> and gain 1 <color=#FFFFFF>[Holster]</color> trigger opportunity, with a maximum of 1 stored; Upon refreshing <color=#FFFFFF>[Aerial Patrol Stance]</color>, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly triggered <color=#FFFFFF>[Draw]</color>;\nWhen <color=#FFFFFF>[Holster]</color> hits an enemy, the <color=#FFFFFF>[Inactive]</color> status is removed, and the next <color=#FFFFFF>[Holster]</color>'s hit count increases by 1, up to a maximum of 3 hits; After triggering the 3rd hit of <color=#FFFFFF>[Holster]</color>, the <color=#FFFFFF>[Holster]</color> hit count is immediately reset to 1 and <color=#FFFFFF>[Aerial Patrol Stance]</color> ends;\nThe duration of <color=#FFFFFF>[Aerial Patrol Stance]</color> decreases as <color=#FFFFFF>[Holster]</color> hit count increases: at hit 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Aerial Patrol Stance]</color> ends, the <color=#FFFFFF>[Holster]</color> hit count decreases by 1, down to a minimum of 1;\nWhen <color=#FFFFFF>[Aerial Patrol Stance]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>72%</color> for <color=#FFFFFF>8</color>s; Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Aerial Patrol Stance]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
+          "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 40%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>20%</color>"
         ],
         "extra_property": {},
         "potential": []
@@ -1922,39 +1875,39 @@
   "talent": {
     "1": {
       "level": 1,
-      "name": "Mindscape Cinema I",
-      "desc": "After the 3rd hit of <color=#FFFFFF>[Alt Attack]</color>, enter <color=#FFFFFF>[Knight's Focus]</color>; while in <color=#FFFFFF>[Knight's Focus]</color>, using <color=#FFFFFF>[EX Special Attack]</color> or <color=#FFFFFF>[Alt Attack]</color> then pressing <IconMap:Icon_Normal> allows you to follow up with an enhanced version of <color=#FFFFFF>[Basic Attack]</color> 2nd hit; DMG dealt by the character is increased by <color=#FFFFFF>40%</color>.",
-      "desc2": ""
+      "name": "A long, long time ago,",
+      "desc": "After triggering the 3rd hit of <color=#FFFFFF>[Weapon Retraction Stance]</color>, enters <color=#FFFFFF>[Aerial Patrol Gunstance]</color>; grants a <color=#FFFFFF>25%</color> ATK bonus.",
+      "desc2": "Long, long ago, the great Sunbringer scooped up the very first handful of earth on the sky islands…\nHold on, hold on — the kids have heard the story of Lady Sunbringer building the first island of Roscaelifer so many times their ears have grown calluses.\nWhat we're here to talk about today is the story of the warrior who stood at Lady Sunbringer's side — clad in silver-white armor as radiant as a moonlit night, just like a Knight of old from a fairy tale…"
     },
     "2": {
       "level": 2,
-      "name": "Mindscape Cinema II",
-      "desc": "<color=#FFFFFF>[Knight Skill]</color> deals <color=#98EFF0>Ice DMG</color> that ignores <color=#FFFFFF>24%</color> of the target's DEF; the duration of <color=#FFFFFF>[Knight Skill]</color> effects is extended; <color=#FFFFFF>[Assist Attack]</color> is treated as a <color=#FFFFFF>[Knight Skill]</color>.",
-      "desc2": ""
+      "name": "Act One of the Legendary",
+      "desc": "<color=#FFFFFF>[Draw Mode]</color> and <color=#FFFFFF>[Sheathe Mode]</color> deal <color=#98EFF0>Ice DMG</color> that ignores <color=#FFFFFF>24%</color> of the target's DEF; the duration of <color=#FFFFFF>[Draw Mode]</color> effects is extended; <color=#FFFFFF>[Assist Follow-Up]</color> is considered <color=#FFFFFF>[Draw Mode]</color>.",
+      "desc2": "She was Roscaelifer's first Soldier, its first spear — standing at the first line of defense against the Hollow, leading the first charge.\nShe was the first wing to follow Lady Sunbringer, and with her own hands raised the first walls of Roscaelifer.\nShe was the first blade of Roscaelifer to be broken. Her name was de L'Azur.\nHer children, like her legend, burn eternal in the night sky over Roscaelifer."
     },
     "3": {
       "level": 3,
-      "name": "Mindscape Cinema III",
+      "name": "Miracle Guardian",
       "desc": "<color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Dodge</color>, <color=#FFFFFF>Assist</color>, <color=#FFFFFF>Special Attack</color>, and <color=#FFFFFF>Chain Attack</color> Lv. +2",
-      "desc2": ""
+      "desc2": "Sigrid_Talent_03_Desc_02"
     },
     "4": {
       "level": 4,
-      "name": "Mindscape Cinema IV",
-      "desc": "Each time <color=#FFFFFF>[Knight's Focus]</color> is refreshed, gain a <color=#FFFFFF>20%</color> ATK bonus for <color=#FFFFFF>8</color>s. Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s.",
-      "desc2": ""
+      "name": "Hero Upgrading",
+      "desc": "Each time <color=#FFFFFF>[Sky Patrol Gunstance]</color> refreshes, your DMG dealt increases by <color=#FFFFFF>30%</color> for <color=#FFFFFF>8</color>s. Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s.",
+      "desc2": "Sigrid_Talent_04_Desc_02"
     },
     "5": {
       "level": 5,
-      "name": "Mindscape Cinema V",
+      "name": "Azure Sky Oath",
       "desc": "<color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Dodge</color>, <color=#FFFFFF>Assist</color>, <color=#FFFFFF>Special Attack</color>, and <color=#FFFFFF>Chain Attack</color> Lv. +2",
-      "desc2": ""
+      "desc2": "Sigrid_Talent_05_Desc_02"
     },
     "6": {
       "level": 6,
-      "name": "Mindscape Cinema VI",
-      "desc": "While in <color=#FFFFFF>[All-Out Assault State]</color>, holding <IconMap:Icon_Normal> directly triggers the 3rd Segment of <color=#FFFFFF>[Alt Attack]</color>; when the 3rd Segment of <color=#FFFFFF>[Alt Attack]</color> hits an enemy, it deals an additional <color=#FFFFFF>2,000%</color> DMG.",
-      "desc2": ""
+      "name": "Knight of the Skies",
+      "desc": "<color=#FFFFFF>[Holster Stance]</color> 1st/2nd/3rd hit on an enemy deals an additional <color=#FFFFFF>400%</color>/<color=#FFFFFF>500%</color>/<color=#FFFFFF>600%</color> DMG.",
+      "desc2": "Sigrid_Talent_06_Desc_02"
     }
   },
   "fairy_recommend": {

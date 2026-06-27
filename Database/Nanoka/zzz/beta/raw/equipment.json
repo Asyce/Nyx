@@ -652,8 +652,8 @@
     },
     "ko": {
       "name": "EquipmentSuit_34100_name",
-      "desc2": "EquipmentSuit_34100_2_des",
-      "desc4": "EquipmentSuit_34100_4_des"
+      "desc2": "공격력+10%",
+      "desc4": "착용자가 전장에 진입하거나, 현재 조작 중인 캐릭터로 교체 시, 버프 효과를 획득한다: 이상 마스터리 50pt 증가, 착용자가 <color=#FFA9DD>유명 속성</color>일 경우, 주는 속성 이상 피해 15% 증가, 15초 지속. 착용자가 조작 중인 캐릭터가 아닐 때, 해당 버프 효과를 항시 보유한다."
     },
     "zh": {
       "name": "谶羽之誓",
@@ -675,7 +675,7 @@
     },
     "ko": {
       "name": "EquipmentSuit_34200_name",
-      "desc2": "EquipmentSuit_34200_2_des",
+      "desc2": "...",
       "desc4": "EquipmentSuit_34200_4_des"
     },
     "zh": {

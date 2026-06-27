@@ -51,7 +51,7 @@
     "armor": 0,
     "armor_growth": 0,
     "attack": 124,
-    "attack_growth": 74992,
+    "attack_growth": 68214,
     "avatar_piece_id": 5581,
     "break_stun": 83,
     "crit": 500,
@@ -335,12 +335,12 @@
         },
         {
           "name": "Maximum Firepower",
-          "desc": "When the Character has stored <color=#FFFFFF>[Anomaly Rounds]</color>, hold <IconMap:Icon_Normal> to activate:\nLaunch a powerful large area attack forward, dealing <color=#FFA9DD>Lumiflux Attribute DMG</color>;\nIf the attack hits a target, the Character recovers a large amount of <color=#FFFFFF>[Flight Energy]</color> after the skill ends;\nAll stored <color=#FFFFFF>[Anomaly Rounds]</color> are consumed upon activation.",
+          "desc": "When the Character has <color=#FFFFFF>[Anomaly Round]</color> stored, hold <IconMap:Icon_Normal> to activate:\nLaunch a powerful large area attack forward, dealing <color=#FFA9DD>Lumiflux Attribute DMG</color>;\nIf the attack hits a target, recover a large amount of <color=#FFFFFF>[Flight Energy]</color> after the skill ends;\nIf the attack hits a target, trigger the <color=#FFFFFF>[Luminize]</color> effect after the skill ends, with a multiplier of <color=#2BAD00>{CAL:8+AvatarSkillLevel(0)*16,1,2}%</color>;\nAll stored <color=#FFFFFF>[Anomaly Rounds]</color> will be cleared upon activation.",
           "potential": []
         },
         {
           "name": "True: Maximum Firepower",
-          "desc": "When the Character has stored <color=#FFFFFF>[Anomaly Rounds]</color> and is in the <color=#FFFFFF>[Rank Up]</color> state, hold <IconMap:Icon_Normal> to activate:\nLaunch a powerful large area attack forward, dealing <color=#FFA9DD>Lumiflux Attribute DMG</color>;\nIf the attack hits a target, the Character recovers a large amount of <color=#FFFFFF>[Flight Energy]</color> after the skill ends;\nActivating this skill will consume all stored <color=#FFFFFF>[Anomaly Rounds]</color>.",
+          "desc": "When the Character has stored <color=#FFFFFF>[Anomaly Rounds]</color> and is in the <color=#FFFFFF>[Rank Up]</color> state, hold <IconMap:Icon_Normal> to activate:\nLaunch a powerful large area attack forward, dealing <color=#FFA9DD>Lumiflux Attribute DMG</color>;\nIf the attack hits a target, the Character recovers a large amount of <color=#FFFFFF>[Flight Energy]</color> after the skill ends;\nIf the attack hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends, with a multiplier of <color=#2BAD00>{CAL:10+AvatarSkillLevel(0)*20,1,2}%</color>;\nAll stored <color=#FFFFFF>[Anomaly Rounds]</color> will be cleared upon activation.",
           "potential": []
         },
         {
@@ -356,8 +356,8 @@
                   "format": "%",
                   "damage_percentage": 3120,
                   "damage_percentage_growth": 290,
-                  "stun_ratio": 2130,
-                  "stun_ratio_growth": 100,
+                  "stun_ratio": 1220,
+                  "stun_ratio_growth": 60,
                   "sp_recovery": 6980,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 53350,
@@ -382,8 +382,8 @@
                   "format": "%",
                   "damage_percentage": 5450,
                   "damage_percentage_growth": 500,
-                  "stun_ratio": 3330,
-                  "stun_ratio_growth": 160,
+                  "stun_ratio": 2820,
+                  "stun_ratio_growth": 130,
                   "sp_recovery": 10880,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 83325,
@@ -408,8 +408,8 @@
                   "format": "%",
                   "damage_percentage": 8430,
                   "damage_percentage_growth": 770,
-                  "stun_ratio": 4830,
-                  "stun_ratio_growth": 220,
+                  "stun_ratio": 4930,
+                  "stun_ratio_growth": 230,
                   "sp_recovery": 15780,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 120725,
@@ -434,8 +434,8 @@
                   "format": "%",
                   "damage_percentage": 25080,
                   "damage_percentage_growth": 2280,
-                  "stun_ratio": 13010,
-                  "stun_ratio_growth": 600,
+                  "stun_ratio": 12660,
+                  "stun_ratio_growth": 580,
                   "sp_recovery": 42580,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 325325,
@@ -455,13 +455,13 @@
               "desc": "{Skill:1581002, Prop:1002}",
               "param": {
                 "1581002": {
-                  "main": 2130,
-                  "growth": 100,
+                  "main": 1220,
+                  "growth": 60,
                   "format": "%",
                   "damage_percentage": 3120,
                   "damage_percentage_growth": 290,
-                  "stun_ratio": 2130,
-                  "stun_ratio_growth": 100,
+                  "stun_ratio": 1220,
+                  "stun_ratio_growth": 60,
                   "sp_recovery": 6980,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 53350,
@@ -481,13 +481,13 @@
               "desc": "{Skill:1581003, Prop:1002}",
               "param": {
                 "1581003": {
-                  "main": 3330,
-                  "growth": 160,
+                  "main": 2820,
+                  "growth": 130,
                   "format": "%",
                   "damage_percentage": 5450,
                   "damage_percentage_growth": 500,
-                  "stun_ratio": 3330,
-                  "stun_ratio_growth": 160,
+                  "stun_ratio": 2820,
+                  "stun_ratio_growth": 130,
                   "sp_recovery": 10880,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 83325,
@@ -507,13 +507,13 @@
               "desc": "{Skill:1581004, Prop:1002}",
               "param": {
                 "1581004": {
-                  "main": 4830,
-                  "growth": 220,
+                  "main": 4930,
+                  "growth": 230,
                   "format": "%",
                   "damage_percentage": 8430,
                   "damage_percentage_growth": 770,
-                  "stun_ratio": 4830,
-                  "stun_ratio_growth": 220,
+                  "stun_ratio": 4930,
+                  "stun_ratio_growth": 230,
                   "sp_recovery": 15780,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 120725,
@@ -533,13 +533,13 @@
               "desc": "{Skill:1581005, Prop:1002}",
               "param": {
                 "1581005": {
-                  "main": 13010,
-                  "growth": 600,
+                  "main": 12660,
+                  "growth": 580,
                   "format": "%",
                   "damage_percentage": 25080,
                   "damage_percentage_growth": 2280,
-                  "stun_ratio": 13010,
-                  "stun_ratio_growth": 600,
+                  "stun_ratio": 12660,
+                  "stun_ratio_growth": 580,
                   "sp_recovery": 42580,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 325325,
@@ -711,23 +711,23 @@
               "desc": "{Skill:1581008, Prop:1001}",
               "param": {
                 "1581008": {
-                  "main": 58870,
-                  "growth": 5360,
+                  "main": 59720,
+                  "growth": 5430,
                   "format": "%",
-                  "damage_percentage": 58870,
-                  "damage_percentage_growth": 5360,
-                  "stun_ratio": 38320,
-                  "stun_ratio_growth": 1750,
-                  "sp_recovery": 125400,
+                  "damage_percentage": 59720,
+                  "damage_percentage_growth": 5430,
+                  "stun_ratio": 38870,
+                  "stun_ratio_growth": 1770,
+                  "sp_recovery": 127200,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 479050,
+                  "fever_recovery": 971850,
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 0,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 34834
+                  "ether_purify": 35334
                 }
               },
               "potential": []
@@ -737,23 +737,23 @@
               "desc": "{Skill:1581008, Prop:1002}",
               "param": {
                 "1581008": {
-                  "main": 38320,
-                  "growth": 1750,
+                  "main": 38870,
+                  "growth": 1770,
                   "format": "%",
-                  "damage_percentage": 58870,
-                  "damage_percentage_growth": 5360,
-                  "stun_ratio": 38320,
-                  "stun_ratio_growth": 1750,
-                  "sp_recovery": 125400,
+                  "damage_percentage": 59720,
+                  "damage_percentage_growth": 5430,
+                  "stun_ratio": 38870,
+                  "stun_ratio_growth": 1770,
+                  "sp_recovery": 127200,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 479050,
+                  "fever_recovery": 971850,
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 0,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 34834
+                  "ether_purify": 35334
                 }
               },
               "potential": []
@@ -1008,12 +1008,12 @@
         },
         {
           "name": "EX Special Attack:",
-          "desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nLaunch a large area attack forward, dealing <color=#FFA9DD>Lumen Attribute DMG</color>;\nAfter the skill ends, apply 2 <color=#FFA9DD>[Lumen Buildup Points]</color> to hit enemies;\nCharacter is invulnerable while using this skill.",
+          "desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nUpon entering the battlefield, if the user's Energy is below 60, restore it to 60. In Investigation Zone mode, this effect can trigger at most once every 180 seconds;\nLaunch a large area attack forward, dealing <color=#FFA9DD>Lumen Attribute DMG</color>;\nAfter the skill ends, apply 2 <color=#FFA9DD>[Lumen Buildup Points]</color> to hit enemies;\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
           "name": "Flight Stance",
-          "desc": "Hold <IconMap:Icon_Special> to activate:\nEnter <color=#FFFFFF>[Shift Stance]</color> after a <color=#FFFFFF>[Special Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color>. While in <color=#FFFFFF>[Shift Stance]</color>, switching to a Character whose <color=#FFFFFF>[Flight Energy]</color> has reached its maximum of 120 will allow them to enter <color=#FFFFFF>[Flight Stance]</color>:\nWhile in <color=#FFFFFF>[Flight Stance]</color>, the Character acts autonomously to assist in combat, consuming <color=#FFFFFF>[Flight Energy]</color> over time. When <color=#FFFFFF>[Flight Energy]</color> is fully consumed, the Character exits <color=#FFFFFF>[Flight Stance]</color>. Before exiting <color=#FFFFFF>[Flight Stance]</color>, the Character cannot be switched in by any means other than a <color=#FFFFFF>[Chain Attack]</color>;\nIf the Character triggers 3 <color=#FFA9DD>Lumen Attribute</color> <color=#FFFFFF>[Mutation]</color> reactions while in <color=#FFFFFF>[Flight Stance]</color>, the Character activates their <color=#FFFFFF>[Entrance Ultimate]</color>. Once activated, Normal Switch-In is unlocked, and the Character will automatically use <color=#FFFFFF>[Ultimate: Entrance]</color> upon their next Normal Switch-In;\nUpon entering <color=#FFFFFF>[Flight Stance]</color>, the Character grants all squad members a DMG Bonus of 30% for 60s; repeated triggers reset the duration;\nIf no Character switch is made after entering <color=#FFFFFF>[Shift Stance]</color>, the Character performs a downward attack to return to the ground.",
+          "desc": "Hold <IconMap:Icon_Special> to activate:\nEnter <color=#FFFFFF>[Shift Stance]</color> after a <color=#FFFFFF>[Special Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color>. While in <color=#FFFFFF>[Shift Stance]</color>, switching characters with <color=#FFFFFF>[Flight Energy]</color> at the maximum of 120 points allows entry into <color=#FFFFFF>[Flight Stance]</color>:\nIn <color=#FFFFFF>[Flight Stance]</color>, the character acts autonomously to assist in combat. Some attacks can also apply <color=#FFA9DD>[Lumen Buildup Points]</color> to targets. <color=#FFFFFF>[Flight Energy]</color> is consumed over time in <color=#FFFFFF>[Flight Stance]</color>, and when <color=#FFFFFF>[Flight Energy]</color> is fully consumed, the character exits <color=#FFFFFF>[Flight Stance]</color>. Before exiting <color=#FFFFFF>[Flight Stance]</color>, the character can only be switched in via <color=#FFFFFF>[Chain Attack]</color>;\nIf the character triggers 3 <color=#FFA9DD>Lumen Attribute</color> <color=#FFFFFF>[Mutation]</color> reactions while in <color=#FFFFFF>[Flight Stance]</color>, the character activates the <color=#FFFFFF>[Entrance Ultimate]</color>. Upon activation, Normal Switch-In is unlocked, and the character will automatically use <color=#FFFFFF>[Ultimate: Entrance]</color> on the next Normal Switch-In;\nUpon entering <color=#FFFFFF>[Flight Stance]</color>, the character grants all squad members a DMG increase of {CAL:0+AvatarSkillLevel(1)*1.5,1,2}% for 60s; repeated triggers reset the duration;\nIf the character's <color=#FFFFFF>[Flight Energy]</color> reaches the maximum of 120 points and a <color=#FFFFFF>[Special Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color> hits a Stunned enemy, switching characters during the <color=#FFFFFF>[Special Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color> can also trigger entry into <color=#FFFFFF>[Flight Stance]</color>;\nIf no character switch is made after entering <color=#FFFFFF>[Shift Stance]</color>, the character performs a downward attack to return to the ground.",
           "potential": []
         },
         {
@@ -1145,11 +1145,11 @@
                   "format": "%",
                   "damage_percentage": 72150,
                   "damage_percentage_growth": 6560,
-                  "stun_ratio": 50140,
-                  "stun_ratio_growth": 2280,
+                  "stun_ratio": 28330,
+                  "stun_ratio_growth": 1290,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 899525,
+                  "fever_recovery": 1799050,
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 0,
                   "sp_consume": 0,
@@ -1166,16 +1166,16 @@
               "desc": "{Skill:1581011, Prop:1002}",
               "param": {
                 "1581011": {
-                  "main": 50140,
-                  "growth": 2280,
+                  "main": 28330,
+                  "growth": 1290,
                   "format": "%",
                   "damage_percentage": 72150,
                   "damage_percentage_growth": 6560,
-                  "stun_ratio": 50140,
-                  "stun_ratio_growth": 2280,
+                  "stun_ratio": 28330,
+                  "stun_ratio_growth": 1290,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 899525,
+                  "fever_recovery": 1799050,
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 0,
                   "sp_consume": 0,
@@ -1254,12 +1254,12 @@
         },
         {
           "name": "Ultimate: Entrance",
-          "desc": "Enter and unleash a large area bombardment, dealing <color=#FFA9DD>Lumen Attribute DMG</color>;\nConsumes 40 <color=#FFFFFF>[Flight Energy]</color> upon activation. If the remaining <color=#FFFFFF>[Flight Energy]</color> is below 90 when activated, this Entry Skill will no longer consume <color=#FFFFFF>[Flight Energy]</color>, and the character enters <color=#FFFFFF>[Rank Up]</color> status — the next <color=#FFFFFF>[Maximum Firepower]</color> will be upgraded to <color=#FFFFFF>[True: Full-Barrage Launch]</color>;\nCharacter is invulnerable while using this skill.",
+          "desc": "Enter the field and unleash a large area bombardment, dealing <color=#FFA9DD>Lumen Attribute DMG</color>;\nConsumes 40 <color=#FFFFFF>[Flight Energy]</color> on activation. If remaining <color=#FFFFFF>[Flight Energy]</color> is below 90 when activated, this Entry Skill will not consume <color=#FFFFFF>[Flight Energy]</color>, and the character enters <color=#FFFFFF>[Rank Up]</color> state — the next use of <color=#FFFFFF>[Maximum Firepower]</color> will be upgraded to <color=#FFFFFF>[True: Full-Barrage Launch]</color>;\nWhen the skill hits an enemy in a Stunned state, the enemy's Stun duration is extended by 3 seconds. Each enemy can receive this effect only once per Stun;\nIf the skill hits a target, <color=#FFFFFF>[Luminize]</color> can be triggered after the skill ends, with a multiplier of <color=#2BAD00>{CAL:10+AvatarSkillLevel(3)*20,1,2}%</color>;\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
           "name": "Ultimate: Finale",
-          "desc": "When Decibel Rating is at <color=#FFFFFF>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nUnleashes multiple attacks ahead, dealing <color=#FFA9DD>Lumen DMG</color>;\nCharacter is invulnerable while using this skill.",
+          "desc": "When Decibel Rating is at <color=#FFFFFF>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nPerform a multi-hit attack forward, dealing <color=#FFA9DD>Lumen Attribute DMG</color>;\nIf the attack hits a target, trigger the <color=#FFFFFF>Luminize</color> effect after the skill ends, with a multiplier of <color=#2BAD00>{CAL:11+AvatarSkillLevel(3)*22,1,2}%</color>;\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
@@ -1270,23 +1270,23 @@
               "desc": "{Skill:1581014, Prop:1001}",
               "param": {
                 "1581014": {
-                  "main": 82850,
-                  "growth": 7540,
+                  "main": 78520,
+                  "growth": 7140,
                   "format": "%",
-                  "damage_percentage": 82850,
-                  "damage_percentage_growth": 7540,
-                  "stun_ratio": 26220,
-                  "stun_ratio_growth": 1200,
+                  "damage_percentage": 78520,
+                  "damage_percentage_growth": 7140,
+                  "stun_ratio": 22550,
+                  "stun_ratio_growth": 1030,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 2484075,
+                  "fever_recovery": 2392500,
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 0,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 23830
+                  "ether_purify": 20500
                 }
               },
               "potential": []
@@ -1296,23 +1296,23 @@
               "desc": "{Skill:1581014, Prop:1002}",
               "param": {
                 "1581014": {
-                  "main": 26220,
-                  "growth": 1200,
+                  "main": 22550,
+                  "growth": 1030,
                   "format": "%",
-                  "damage_percentage": 82850,
-                  "damage_percentage_growth": 7540,
-                  "stun_ratio": 26220,
-                  "stun_ratio_growth": 1200,
+                  "damage_percentage": 78520,
+                  "damage_percentage_growth": 7140,
+                  "stun_ratio": 22550,
+                  "stun_ratio_growth": 1030,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 2484075,
+                  "fever_recovery": 2392500,
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 0,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 23830
+                  "ether_purify": 20500
                 }
               },
               "potential": []
@@ -1328,23 +1328,23 @@
               "desc": "{Skill:1581015, Prop:1001}",
               "param": {
                 "1581015": {
-                  "main": 40010,
-                  "growth": 3640,
+                  "main": 45350,
+                  "growth": 4130,
                   "format": "%",
-                  "damage_percentage": 40010,
-                  "damage_percentage_growth": 3640,
-                  "stun_ratio": 26040,
-                  "stun_ratio_growth": 1190,
+                  "damage_percentage": 45350,
+                  "damage_percentage_growth": 4130,
+                  "stun_ratio": 29520,
+                  "stun_ratio_growth": 1350,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 325600,
+                  "fever_recovery": 737825,
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 0,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 23671
+                  "ether_purify": 26830
                 }
               },
               "potential": []
@@ -1354,23 +1354,23 @@
               "desc": "{Skill:1581015, Prop:1002}",
               "param": {
                 "1581015": {
-                  "main": 26040,
-                  "growth": 1190,
+                  "main": 29520,
+                  "growth": 1350,
                   "format": "%",
-                  "damage_percentage": 40010,
-                  "damage_percentage_growth": 3640,
-                  "stun_ratio": 26040,
-                  "stun_ratio_growth": 1190,
+                  "damage_percentage": 45350,
+                  "damage_percentage_growth": 4130,
+                  "stun_ratio": 29520,
+                  "stun_ratio_growth": 1350,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 325600,
+                  "fever_recovery": 737825,
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 0,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 23671
+                  "ether_purify": 26830
                 }
               },
               "potential": []
@@ -1391,13 +1391,13 @@
               "desc": "{Skill:1581016, Prop:1001}",
               "param": {
                 "1581016": {
-                  "main": 206100,
-                  "growth": 18740,
+                  "main": 200970,
+                  "growth": 18270,
                   "format": "%",
-                  "damage_percentage": 206100,
-                  "damage_percentage_growth": 18740,
-                  "stun_ratio": 29520,
-                  "stun_ratio_growth": 1350,
+                  "damage_percentage": 200970,
+                  "damage_percentage_growth": 18270,
+                  "stun_ratio": 26040,
+                  "stun_ratio_growth": 1190,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 0,
@@ -1407,7 +1407,7 @@
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 76830
+                  "ether_purify": 73671
                 }
               },
               "potential": []
@@ -1417,13 +1417,13 @@
               "desc": "{Skill:1581016, Prop:1002}",
               "param": {
                 "1581016": {
-                  "main": 29520,
-                  "growth": 1350,
+                  "main": 26040,
+                  "growth": 1190,
                   "format": "%",
-                  "damage_percentage": 206100,
-                  "damage_percentage_growth": 18740,
-                  "stun_ratio": 29520,
-                  "stun_ratio_growth": 1350,
+                  "damage_percentage": 200970,
+                  "damage_percentage_growth": 18270,
+                  "stun_ratio": 26040,
+                  "stun_ratio_growth": 1190,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
                   "fever_recovery": 0,
@@ -1433,7 +1433,7 @@
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 76830
+                  "ether_purify": 73671
                 }
               },
               "potential": []
@@ -1658,23 +1658,23 @@
               "desc": "{Skill:1581021, Prop:1001}",
               "param": {
                 "1581021": {
-                  "main": 39330,
-                  "growth": 3580,
+                  "main": 38110,
+                  "growth": 3470,
                   "format": "%",
-                  "damage_percentage": 39330,
-                  "damage_percentage_growth": 3580,
-                  "stun_ratio": 28720,
-                  "stun_ratio_growth": 1310,
+                  "damage_percentage": 38110,
+                  "damage_percentage_growth": 3470,
+                  "stun_ratio": 27760,
+                  "stun_ratio_growth": 1270,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 473000,
+                  "fever_recovery": 459250,
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 0,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 13671
+                  "ether_purify": 13001
                 }
               },
               "potential": []
@@ -1684,23 +1684,23 @@
               "desc": "{Skill:1581021, Prop:1002}",
               "param": {
                 "1581021": {
-                  "main": 28720,
-                  "growth": 1310,
+                  "main": 27760,
+                  "growth": 1270,
                   "format": "%",
-                  "damage_percentage": 39330,
-                  "damage_percentage_growth": 3580,
-                  "stun_ratio": 28720,
-                  "stun_ratio_growth": 1310,
+                  "damage_percentage": 38110,
+                  "damage_percentage_growth": 3470,
+                  "stun_ratio": 27760,
+                  "stun_ratio_growth": 1270,
                   "sp_recovery": 0,
                   "sp_recovery_growth": 0,
-                  "fever_recovery": 473000,
+                  "fever_recovery": 459250,
                   "fever_recovery_growth": 0,
                   "attribute_infliction": 0,
                   "sp_consume": 0,
                   "attack_data": [],
                   "rp_recovery": 0,
                   "rp_recovery_growth": 0,
-                  "ether_purify": 13671
+                  "ether_purify": 13001
                 }
               },
               "potential": []
@@ -1770,8 +1770,8 @@
           "Additional Ability:"
         ],
         "desc": [
-          "Remie's <color=#FFFFFF>[Mutation Coefficient]</color> is <color=#2BAD00>0.06%</color> of her own Anomaly Proficiency;\nWhen a teammate triggers the character's <color=#FFA9DD>Lumen Attribute</color> <color=#FFFFFF>[Mutation]</color> reaction, the character can store the Anomaly Pool after <color=#FFFFFF>[Mutation]</color> as <color=#FFFFFF>[Anomaly Rounds]</color>, storing up to 3 Anomaly Pools from the most recently triggered Anomaly States;\nActivating <color=#FFFFFF>[Ultimate: Entrance]</color>/<color=#FFFFFF>[Ultimate: Finale]</color>/<color=#FFFFFF>[Maximum Firepower]</color>/<color=#FFFFFF>[True: Full-Barrage Launch]</color> triggers the <color=#FFFFFF>[Luminize]</color> effect:\nDeals 50%/150%/20%/100% Attribute Anomaly DMG of all stored <color=#FFFFFF>[Anomaly Rounds]</color>, and increases this DMG Multiplier based on <color=#2BAD00>0.6%</color> of own Anomaly Proficiency;\nWhen the character enters <color=#FFFFFF>[Flight Stance]</color> or after activating <color=#FFFFFF>[Maximum Firepower]</color> or <color=#FFFFFF>[True: Full-Barrage Launch]</color>, all stored <color=#FFFFFF>[Anomaly Rounds]</color> are cleared.\n(Note: <color=#FFFFFF>[Mutation]</color> is a <color=#FFA9DD>Lumen Attribute</color> reaction. If the enemy has <color=#FFA9DD>[Lumen Buildup Points]</color>, When the Enemy Is About to Enter an Attribute Anomaly State, Then This Anomaly State will be <color=#FFFFFF>[Mutated]</color>. The Anomaly Pool of that Anomaly State will be amplified based on the <color=#FFFFFF>[Mutation Coefficient]</color> of the <color=#FFA9DD>[Lumen Buildup Point]</color> provider, increasing the total DMG this Anomaly State can deal.)",
-          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character is in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield boosts all squad members' ATK by 40% of their initial ATK, with a cap of 300/600/1,600;\nAdditionally, when the Character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, it simultaneously inflicts the <color=#FFFFFF>[Fade]</color> effect on them: while under the <color=#FFFFFF>[Fade]</color> effect, Anomaly Buildup dealt to enemies by Attribute Anomaly DMG is increased by 15%. The <color=#FFFFFF>[Fade]</color> effect is removed when the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>."
+          "Remie's <color=#FFFFFF>[Mutation Coefficient]</color> is <color=#2BAD00>0.04%</color> of her own Anomaly Proficiency;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFFFFF>[Mutation]</color> reaction for the Character, the Character can store the Anomaly Pool after <color=#FFFFFF>[Mutation]</color> as <color=#FFFFFF>[Anomaly Rounds]</color>, storing up to the Anomaly Pools of the 3 most recently triggered Anomaly States;\nIf <color=#FFFFFF>[Ultimate: Entrance]</color>/<color=#FFFFFF>[Ultimate: Finale]</color>/<color=#FFFFFF>[Maximum Firepower]</color>/<color=#FFFFFF>[True: Full-Barrage Launch]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nDeal Attribute Anomaly DMG of all stored <color=#FFFFFF>[Anomaly Rounds]</color> at the skill's corresponding multiplier to enemies, and increase this DMG Multiplier based on <color=#2BAD00>0.2%</color> of her own Anomaly Proficiency;\nWhen the Character enters <color=#FFFFFF>[Flight Stance]</color> or after triggering <color=#FFFFFF>[Maximum Firepower]</color> or <color=#FFFFFF>[True: Full-Barrage Launch]</color>, all stored <color=#FFFFFF>[Anomaly Rounds]</color> will be cleared.\n(Note: <color=#FFFFFF>[Mutation]</color> is a <color=#FFA9DD>Lumen Attribute</color> reaction. If an enemy has <color=#FFA9DD>[Lumen Buildup Points]</color>, when the enemy is about to enter an Attribute Anomaly State, then this Anomaly State will be <color=#FFFFFF>[Mutated]</color>. The Anomaly Pool of this Anomaly State will be amplified based on the <color=#FFFFFF>[Mutation Coefficient]</color> of the provider of <color=#FFA9DD>[Lumen Buildup Points]</color>, and the total DMG this Anomaly State can deal will increase accordingly.)",
+          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character exists in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield boosts ATK for all squad members by 40% of Remie's initial ATK, with a cap of 300/600/1,600, and Daze dealt by this character in <color=#FFFFFF>[Flight Stance]</color> is increased by 7.5%/15%/35%;\nAdditionally, when this character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, it also inflicts the <color=#FFFFFF>[Fade]</color> effect on the enemy: while under the <color=#FFFFFF>[Fade]</color> effect, when the enemy takes Attribute Anomaly DMG, Anomaly Buildup is increased by 15%. When the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>, the <color=#FFFFFF>[Fade]</color> effect expires."
         ],
         "extra_property": {},
         "potential": []
@@ -1784,8 +1784,8 @@
           "Additional Ability:"
         ],
         "desc": [
-          "Remie's <color=#FFFFFF>[Mutation Coefficient]</color> is <color=#2BAD00>0.06%</color> of her own Anomaly Proficiency;\nWhen a teammate triggers the character's <color=#FFA9DD>Lumen Attribute</color> <color=#FFFFFF>[Mutation]</color> reaction, the character can store the Anomaly Pool after <color=#FFFFFF>[Mutation]</color> as <color=#FFFFFF>[Anomaly Rounds]</color>, storing up to 3 Anomaly Pools from the most recently triggered Anomaly States;\nActivating <color=#FFFFFF>[Ultimate: Entrance]</color>/<color=#FFFFFF>[Ultimate: Finale]</color>/<color=#FFFFFF>[Maximum Firepower]</color>/<color=#FFFFFF>[True: Full-Barrage Launch]</color> triggers the <color=#FFFFFF>[Luminize]</color> effect:\nDeals 50%/150%/20%/100% Attribute Anomaly DMG of all stored <color=#FFFFFF>[Anomaly Rounds]</color>, and increases this DMG Multiplier based on <color=#2BAD00>0.6%</color> of own Anomaly Proficiency;\nWhen the character enters <color=#FFFFFF>[Flight Stance]</color> or after activating <color=#FFFFFF>[Maximum Firepower]</color> or <color=#FFFFFF>[True: Full-Barrage Launch]</color>, all stored <color=#FFFFFF>[Anomaly Rounds]</color> are cleared.\n(Note: <color=#FFFFFF>[Mutation]</color> is a <color=#FFA9DD>Lumen Attribute</color> reaction. If the enemy has <color=#FFA9DD>[Lumen Buildup Points]</color>, When the Enemy Is About to Enter an Attribute Anomaly State, Then This Anomaly State will be <color=#FFFFFF>[Mutated]</color>. The Anomaly Pool of that Anomaly State will be amplified based on the <color=#FFFFFF>[Mutation Coefficient]</color> of the <color=#FFA9DD>[Lumen Buildup Point]</color> provider, increasing the total DMG this Anomaly State can deal.)",
-          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character is in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield boosts all squad members' ATK by 40% of their initial ATK, with a cap of 300/600/1,600;\nAdditionally, when the Character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, it simultaneously inflicts the <color=#FFFFFF>[Fade]</color> effect on them: while under the <color=#FFFFFF>[Fade]</color> effect, Anomaly Buildup dealt to enemies by Attribute Anomaly DMG is increased by 15%. The <color=#FFFFFF>[Fade]</color> effect is removed when the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>."
+          "Remie's <color=#FFFFFF>[Mutation Coefficient]</color> is <color=#2BAD00>0.04%</color> of her own Anomaly Proficiency;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFFFFF>[Mutation]</color> reaction for the Character, the Character can store the Anomaly Pool after <color=#FFFFFF>[Mutation]</color> as <color=#FFFFFF>[Anomaly Rounds]</color>, storing up to the Anomaly Pools of the 3 most recently triggered Anomaly States;\nIf <color=#FFFFFF>[Ultimate: Entrance]</color>/<color=#FFFFFF>[Ultimate: Finale]</color>/<color=#FFFFFF>[Maximum Firepower]</color>/<color=#FFFFFF>[True: Full-Barrage Launch]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nDeal Attribute Anomaly DMG of all stored <color=#FFFFFF>[Anomaly Rounds]</color> at the skill's corresponding multiplier, and increase this DMG Multiplier based on <color=#2BAD00>0.2%</color> of own Anomaly Proficiency;\nAll stored <color=#FFFFFF>[Anomaly Rounds]</color> are cleared when the Character enters <color=#FFFFFF>[Flight Stance]</color> or after activating <color=#FFFFFF>[Maximum Firepower]</color> or <color=#FFFFFF>[True: Full-Barrage Launch]</color>.\n(Note: <color=#FFFFFF>[Mutation]</color> is a <color=#FFA9DD>Lumen Attribute</color> reaction. If the enemy has <color=#FFA9DD>[Lumen Buildup Points]</color>, when the enemy is about to enter an Attribute Anomaly State, then this Anomaly State will be <color=#FFFFFF>[Mutated]</color>. The Anomaly Pool of this Anomaly State will be amplified based on the <color=#FFFFFF>[Mutation Coefficient]</color> of the provider of <color=#FFA9DD>[Lumen Buildup Points]</color>, increasing the total DMG this Anomaly State can deal accordingly.)",
+          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character exists in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield boosts ATK for all squad members by 40% of Remie's initial ATK, with a cap of 300/600/1,600, and Daze dealt by this character in <color=#FFFFFF>[Flight Stance]</color> is increased by 7.5%/15%/35%;\nAdditionally, when this character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, it also inflicts the <color=#FFFFFF>[Fade]</color> effect on the enemy: while under the <color=#FFFFFF>[Fade]</color> effect, when the enemy takes Attribute Anomaly DMG, Anomaly Buildup is increased by 15%. When the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>, the <color=#FFFFFF>[Fade]</color> effect expires."
         ],
         "extra_property": {},
         "potential": []
@@ -1798,8 +1798,8 @@
           "Additional Ability:"
         ],
         "desc": [
-          "Remie's <color=#FFFFFF>[Mutation Coefficient]</color> is <color=#2BAD00>0.06%</color> of her own Anomaly Proficiency;\nWhen a teammate triggers the character's <color=#FFA9DD>Lumen Attribute</color> <color=#FFFFFF>[Mutation]</color> reaction, the character can store the Anomaly Pool after <color=#FFFFFF>[Mutation]</color> as <color=#FFFFFF>[Anomaly Rounds]</color>, storing up to 3 Anomaly Pools from the most recently triggered Anomaly States;\nActivating <color=#FFFFFF>[Ultimate: Entrance]</color>/<color=#FFFFFF>[Ultimate: Finale]</color>/<color=#FFFFFF>[Maximum Firepower]</color>/<color=#FFFFFF>[True: Full-Barrage Launch]</color> triggers the <color=#FFFFFF>[Luminize]</color> effect:\nDeals 50%/150%/20%/100% Attribute Anomaly DMG of all stored <color=#FFFFFF>[Anomaly Rounds]</color>, and increases this DMG Multiplier based on <color=#2BAD00>0.6%</color> of own Anomaly Proficiency;\nWhen the character enters <color=#FFFFFF>[Flight Stance]</color> or after activating <color=#FFFFFF>[Maximum Firepower]</color> or <color=#FFFFFF>[True: Full-Barrage Launch]</color>, all stored <color=#FFFFFF>[Anomaly Rounds]</color> are cleared.\n(Note: <color=#FFFFFF>[Mutation]</color> is a <color=#FFA9DD>Lumen Attribute</color> reaction. If the enemy has <color=#FFA9DD>[Lumen Buildup Points]</color>, When the Enemy Is About to Enter an Attribute Anomaly State, Then This Anomaly State will be <color=#FFFFFF>[Mutated]</color>. The Anomaly Pool of that Anomaly State will be amplified based on the <color=#FFFFFF>[Mutation Coefficient]</color> of the <color=#FFA9DD>[Lumen Buildup Point]</color> provider, increasing the total DMG this Anomaly State can deal.)",
-          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character is in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield boosts all squad members' ATK by 40% of their initial ATK, with a cap of 300/600/1,600;\nAdditionally, when the Character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, it simultaneously inflicts the <color=#FFFFFF>[Fade]</color> effect on them: while under the <color=#FFFFFF>[Fade]</color> effect, Anomaly Buildup dealt to enemies by Attribute Anomaly DMG is increased by 15%. The <color=#FFFFFF>[Fade]</color> effect is removed when the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>."
+          "Remie's <color=#FFFFFF>[Mutation Coefficient]</color> is <color=#2BAD00>0.04%</color> of her own Anomaly Proficiency;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFFFFF>[Mutation]</color> reaction for the Character, the Character can store the Anomaly Pool after <color=#FFFFFF>[Mutation]</color> as <color=#FFFFFF>[Anomaly Rounds]</color>, storing up to the Anomaly Pools of the 3 most recently triggered Anomaly States;\nIf <color=#FFFFFF>[Ultimate: Entrance]</color>/<color=#FFFFFF>[Ultimate: Finale]</color>/<color=#FFFFFF>[Maximum Firepower]</color>/<color=#FFFFFF>[True: Full-Barrage Launch]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nDeal Attribute Anomaly DMG of all stored <color=#FFFFFF>[Anomaly Rounds]</color> at the skill's corresponding multiplier to enemies, and increase this DMG Multiplier based on <color=#2BAD00>0.2%</color> of her own Anomaly Proficiency;\nWhen the Character enters <color=#FFFFFF>[Flight Stance]</color> or after triggering <color=#FFFFFF>[Maximum Firepower]</color> or <color=#FFFFFF>[True: Full-Barrage Launch]</color>, all stored <color=#FFFFFF>[Anomaly Rounds]</color> will be cleared.\n(Note: <color=#FFFFFF>[Mutation]</color> is a <color=#FFA9DD>Lumen Attribute</color> reaction. If an enemy has <color=#FFA9DD>[Lumen Buildup Points]</color>, when the enemy is about to enter an Attribute Anomaly State, then this Anomaly State will be <color=#FFFFFF>[Mutated]</color>. The Anomaly Pool of this Anomaly State will be amplified based on the <color=#FFFFFF>[Mutation Coefficient]</color> of the provider of <color=#FFA9DD>[Lumen Buildup Points]</color>, and the total DMG this Anomaly State can deal will increase accordingly.)",
+          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character exists in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield boosts ATK for all squad members by 40% of Remie's initial ATK, with a cap of 300/600/1,600, and Daze dealt by this character in <color=#FFFFFF>[Flight Stance]</color> is increased by 7.5%/15%/35%;\nAdditionally, when this character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, it also inflicts the <color=#FFFFFF>[Fade]</color> effect on the enemy: while under the <color=#FFFFFF>[Fade]</color> effect, when the enemy takes Attribute Anomaly DMG, Anomaly Buildup is increased by 15%. When the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>, the <color=#FFFFFF>[Fade]</color> effect expires."
         ],
         "extra_property": {},
         "potential": []
@@ -1812,8 +1812,8 @@
           "Additional Ability:"
         ],
         "desc": [
-          "Remie's <color=#FFFFFF>[Mutation Coefficient]</color> is <color=#2BAD00>0.06%</color> of her own Anomaly Proficiency;\nWhen a teammate triggers the character's <color=#FFA9DD>Lumen Attribute</color> <color=#FFFFFF>[Mutation]</color> reaction, the character can store the Anomaly Pool after <color=#FFFFFF>[Mutation]</color> as <color=#FFFFFF>[Anomaly Rounds]</color>, storing up to 3 Anomaly Pools from the most recently triggered Anomaly States;\nActivating <color=#FFFFFF>[Ultimate: Entrance]</color>/<color=#FFFFFF>[Ultimate: Finale]</color>/<color=#FFFFFF>[Maximum Firepower]</color>/<color=#FFFFFF>[True: Full-Barrage Launch]</color> triggers the <color=#FFFFFF>[Luminize]</color> effect:\nDeals 50%/150%/20%/100% Attribute Anomaly DMG of all stored <color=#FFFFFF>[Anomaly Rounds]</color>, and increases this DMG Multiplier based on <color=#2BAD00>0.6%</color> of own Anomaly Proficiency;\nWhen the character enters <color=#FFFFFF>[Flight Stance]</color> or after activating <color=#FFFFFF>[Maximum Firepower]</color> or <color=#FFFFFF>[True: Full-Barrage Launch]</color>, all stored <color=#FFFFFF>[Anomaly Rounds]</color> are cleared.\n(Note: <color=#FFFFFF>[Mutation]</color> is a <color=#FFA9DD>Lumen Attribute</color> reaction. If the enemy has <color=#FFA9DD>[Lumen Buildup Points]</color>, When the Enemy Is About to Enter an Attribute Anomaly State, Then This Anomaly State will be <color=#FFFFFF>[Mutated]</color>. The Anomaly Pool of that Anomaly State will be amplified based on the <color=#FFFFFF>[Mutation Coefficient]</color> of the <color=#FFA9DD>[Lumen Buildup Point]</color> provider, increasing the total DMG this Anomaly State can deal.)",
-          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character is in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield boosts all squad members' ATK by 40% of their initial ATK, with a cap of 300/600/1,600;\nAdditionally, when the Character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, it simultaneously inflicts the <color=#FFFFFF>[Fade]</color> effect on them: while under the <color=#FFFFFF>[Fade]</color> effect, Anomaly Buildup dealt to enemies by Attribute Anomaly DMG is increased by 15%. The <color=#FFFFFF>[Fade]</color> effect is removed when the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>."
+          "Remie's <color=#FFFFFF>[Mutation Coefficient]</color> is <color=#2BAD00>0.04%</color> of her own Anomaly Proficiency;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFFFFF>[Mutation]</color> reaction for the Character, the Character can store the Anomaly Pool after <color=#FFFFFF>[Mutation]</color> as <color=#FFFFFF>[Anomaly Rounds]</color>, storing up to the Anomaly Pools of the 3 most recently triggered Anomaly States;\nIf <color=#FFFFFF>[Ultimate: Entrance]</color>/<color=#FFFFFF>[Ultimate: Finale]</color>/<color=#FFFFFF>[Maximum Firepower]</color>/<color=#FFFFFF>[True: Full-Barrage Launch]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nDeals Attribute Anomaly DMG of all stored <color=#FFFFFF>[Anomaly Rounds]</color> at the skill's corresponding multiplier, and increases this DMG Multiplier based on <color=#2BAD00>0.2%</color> of her own Anomaly Proficiency;\nAll stored <color=#FFFFFF>[Anomaly Rounds]</color> are cleared when the Character enters <color=#FFFFFF>[Flight Stance]</color> or after activating <color=#FFFFFF>[Maximum Firepower]</color> or <color=#FFFFFF>[True: Full-Barrage Launch]</color>.\n(Note: <color=#FFFFFF>[Mutation]</color> is a <color=#FFA9DD>Lumen Attribute</color> reaction. If an enemy has <color=#FFA9DD>[Lumen Buildup Points]</color>, when the enemy is about to enter an Attribute Anomaly State, that Anomaly State will be <color=#FFFFFF>[Mutated]</color>. The Anomaly Pool of that Anomaly State will be amplified based on the <color=#FFFFFF>[Mutation Coefficient]</color> of the <color=#FFA9DD>[Lumen Buildup Point]</color> provider, increasing the total DMG this Anomaly State can deal.)",
+          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character exists in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield boosts ATK for all squad members by 40% of Remie's initial ATK, with a cap of 300/600/1,600, and Daze dealt by this character in <color=#FFFFFF>[Flight Stance]</color> is increased by 7.5%/15%/35%;\nAdditionally, when this character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, it also inflicts the <color=#FFFFFF>[Fade]</color> effect on the enemy: while under the <color=#FFFFFF>[Fade]</color> effect, when the enemy takes Attribute Anomaly DMG, Anomaly Buildup is increased by 15%. When the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>, the <color=#FFFFFF>[Fade]</color> effect expires."
         ],
         "extra_property": {},
         "potential": []
@@ -1826,8 +1826,8 @@
           "Additional Ability:"
         ],
         "desc": [
-          "Remie's <color=#FFFFFF>[Mutation Coefficient]</color> is <color=#2BAD00>0.06%</color> of her own Anomaly Proficiency;\nWhen a teammate triggers the character's <color=#FFA9DD>Lumen Attribute</color> <color=#FFFFFF>[Mutation]</color> reaction, the character can store the Anomaly Pool after <color=#FFFFFF>[Mutation]</color> as <color=#FFFFFF>[Anomaly Rounds]</color>, storing up to 3 Anomaly Pools from the most recently triggered Anomaly States;\nActivating <color=#FFFFFF>[Ultimate: Entrance]</color>/<color=#FFFFFF>[Ultimate: Finale]</color>/<color=#FFFFFF>[Maximum Firepower]</color>/<color=#FFFFFF>[True: Full-Barrage Launch]</color> triggers the <color=#FFFFFF>[Luminize]</color> effect:\nDeals 50%/150%/20%/100% Attribute Anomaly DMG of all stored <color=#FFFFFF>[Anomaly Rounds]</color>, and increases this DMG Multiplier based on <color=#2BAD00>0.6%</color> of own Anomaly Proficiency;\nWhen the character enters <color=#FFFFFF>[Flight Stance]</color> or after activating <color=#FFFFFF>[Maximum Firepower]</color> or <color=#FFFFFF>[True: Full-Barrage Launch]</color>, all stored <color=#FFFFFF>[Anomaly Rounds]</color> are cleared.\n(Note: <color=#FFFFFF>[Mutation]</color> is a <color=#FFA9DD>Lumen Attribute</color> reaction. If the enemy has <color=#FFA9DD>[Lumen Buildup Points]</color>, When the Enemy Is About to Enter an Attribute Anomaly State, Then This Anomaly State will be <color=#FFFFFF>[Mutated]</color>. The Anomaly Pool of that Anomaly State will be amplified based on the <color=#FFFFFF>[Mutation Coefficient]</color> of the <color=#FFA9DD>[Lumen Buildup Point]</color> provider, increasing the total DMG this Anomaly State can deal.)",
-          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character is in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield boosts all squad members' ATK by 40% of their initial ATK, with a cap of 300/600/1,600;\nAdditionally, when the Character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, it simultaneously inflicts the <color=#FFFFFF>[Fade]</color> effect on them: while under the <color=#FFFFFF>[Fade]</color> effect, Anomaly Buildup dealt to enemies by Attribute Anomaly DMG is increased by 15%. The <color=#FFFFFF>[Fade]</color> effect is removed when the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>."
+          "Remie's <color=#FFFFFF>[Mutation Coefficient]</color> is <color=#2BAD00>0.04%</color> of her own Anomaly Proficiency;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFFFFF>[Mutation]</color> reaction for this Character, the Character can store the Anomaly Pool after <color=#FFFFFF>[Mutation]</color> as <color=#FFFFFF>[Anomaly Rounds]</color>, storing up to the Anomaly Pools of the 3 most recently triggered Anomaly States;\nIf <color=#FFFFFF>[Ultimate: Entrance]</color>/<color=#FFFFFF>[Ultimate: Finale]</color>/<color=#FFFFFF>[Maximum Firepower]</color>/<color=#FFFFFF>[True: Full-Barrage Launch]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nDeals Attribute Anomaly DMG of all stored <color=#FFFFFF>[Anomaly Rounds]</color> at the skill's corresponding multiplier, and increases this DMG Multiplier based on <color=#2BAD00>0.2%</color> of own Anomaly Proficiency;\nAll stored <color=#FFFFFF>[Anomaly Rounds]</color> are cleared when the Character enters <color=#FFFFFF>[Flight Stance]</color> or after using <color=#FFFFFF>[Maximum Firepower]</color> or <color=#FFFFFF>[True: Full-Barrage Launch]</color>.\n(Note: <color=#FFFFFF>[Mutation]</color> is a <color=#FFA9DD>Lumen Attribute</color> reaction. If an enemy has <color=#FFA9DD>[Lumen Buildup Points]</color>, when the enemy is about to enter an Attribute Anomaly State, that Anomaly State will be <color=#FFFFFF>[Mutated]</color>. The Anomaly Pool of that Anomaly State will be amplified based on the <color=#FFFFFF>[Mutation Coefficient]</color> of the provider of <color=#FFA9DD>[Lumen Buildup Points]</color>, increasing the total DMG that Anomaly State can deal.)",
+          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character exists in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield boosts ATK for all squad members by 40% of Remie's initial ATK, with a cap of 300/600/1,600, and Daze dealt by this character in <color=#FFFFFF>[Flight Stance]</color> is increased by 7.5%/15%/35%;\nAdditionally, when this character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, it also inflicts the <color=#FFFFFF>[Fade]</color> effect on the enemy: while under the <color=#FFFFFF>[Fade]</color> effect, when the enemy takes Attribute Anomaly DMG, Anomaly Buildup is increased by 15%. When the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>, the <color=#FFFFFF>[Fade]</color> effect expires."
         ],
         "extra_property": {},
         "potential": []
@@ -1840,8 +1840,8 @@
           "Additional Ability:"
         ],
         "desc": [
-          "Remie's <color=#FFFFFF>[Mutation Coefficient]</color> is <color=#2BAD00>0.06%</color> of her own Anomaly Proficiency;\nWhen a teammate triggers the character's <color=#FFA9DD>Lumen Attribute</color> <color=#FFFFFF>[Mutation]</color> reaction, the character can store the Anomaly Pool after <color=#FFFFFF>[Mutation]</color> as <color=#FFFFFF>[Anomaly Rounds]</color>, storing up to 3 Anomaly Pools from the most recently triggered Anomaly States;\nActivating <color=#FFFFFF>[Ultimate: Entrance]</color>/<color=#FFFFFF>[Ultimate: Finale]</color>/<color=#FFFFFF>[Maximum Firepower]</color>/<color=#FFFFFF>[True: Full-Barrage Launch]</color> triggers the <color=#FFFFFF>[Luminize]</color> effect:\nDeals 50%/150%/20%/100% Attribute Anomaly DMG of all stored <color=#FFFFFF>[Anomaly Rounds]</color>, and increases this DMG Multiplier based on <color=#2BAD00>0.6%</color> of own Anomaly Proficiency;\nWhen the character enters <color=#FFFFFF>[Flight Stance]</color> or after activating <color=#FFFFFF>[Maximum Firepower]</color> or <color=#FFFFFF>[True: Full-Barrage Launch]</color>, all stored <color=#FFFFFF>[Anomaly Rounds]</color> are cleared.\n(Note: <color=#FFFFFF>[Mutation]</color> is a <color=#FFA9DD>Lumen Attribute</color> reaction. If the enemy has <color=#FFA9DD>[Lumen Buildup Points]</color>, When the Enemy Is About to Enter an Attribute Anomaly State, Then This Anomaly State will be <color=#FFFFFF>[Mutated]</color>. The Anomaly Pool of that Anomaly State will be amplified based on the <color=#FFFFFF>[Mutation Coefficient]</color> of the <color=#FFA9DD>[Lumen Buildup Point]</color> provider, increasing the total DMG this Anomaly State can deal.)",
-          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character is in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield boosts all squad members' ATK by 40% of their initial ATK, with a cap of 300/600/1,600;\nAdditionally, when the Character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, it simultaneously inflicts the <color=#FFFFFF>[Fade]</color> effect on them: while under the <color=#FFFFFF>[Fade]</color> effect, Anomaly Buildup dealt to enemies by Attribute Anomaly DMG is increased by 15%. The <color=#FFFFFF>[Fade]</color> effect is removed when the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>."
+          "Remie's <color=#FFFFFF>[Mutation Coefficient]</color> is <color=#2BAD00>0.04%</color> of her own Anomaly Proficiency;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFFFFF>[Mutation]</color> reaction for the Character, the Character can store the Anomaly Pool after <color=#FFFFFF>[Mutation]</color> as <color=#FFFFFF>[Anomaly Rounds]</color>, storing up to the Anomaly Pools of the 3 most recently triggered Anomaly States;\nIf <color=#FFFFFF>[Ultimate: Entrance]</color>/<color=#FFFFFF>[Ultimate: Finale]</color>/<color=#FFFFFF>[Maximum Firepower]</color>/<color=#FFFFFF>[True: Full-Barrage Launch]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nDeal Attribute Anomaly DMG of all stored <color=#FFFFFF>[Anomaly Rounds]</color> at the skill's corresponding multiplier, and increase this DMG Multiplier based on <color=#2BAD00>0.2%</color> of own Anomaly Proficiency;\nAll stored <color=#FFFFFF>[Anomaly Rounds]</color> are cleared when the Character enters <color=#FFFFFF>[Flight Stance]</color> or after activating <color=#FFFFFF>[Maximum Firepower]</color> or <color=#FFFFFF>[True: Full-Barrage Launch]</color>.\n(Note: <color=#FFFFFF>[Mutation]</color> is a <color=#FFA9DD>Lumen Attribute</color> reaction. If the enemy has <color=#FFA9DD>[Lumen Buildup Points]</color>, when the enemy is about to enter an Attribute Anomaly State, then this Anomaly State will be <color=#FFFFFF>[Mutated]</color>. The Anomaly Pool of this Anomaly State will be amplified based on the <color=#FFFFFF>[Mutation Coefficient]</color> of the provider of <color=#FFA9DD>[Lumen Buildup Points]</color>, increasing the total DMG this Anomaly State can deal accordingly.)",
+          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character exists in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield boosts ATK for all squad members by 40% of Remie's initial ATK, with a cap of 300/600/1,600, and Daze dealt by this character in <color=#FFFFFF>[Flight Stance]</color> is increased by 7.5%/15%/35%;\nAdditionally, when this character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, it also inflicts the <color=#FFFFFF>[Fade]</color> effect on the enemy: while under the <color=#FFFFFF>[Fade]</color> effect, when the enemy takes Attribute Anomaly DMG, Anomaly Buildup is increased by 15%. When the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>, the <color=#FFFFFF>[Fade]</color> effect expires."
         ],
         "extra_property": {},
         "potential": []
@@ -1854,8 +1854,8 @@
           "Additional Ability:"
         ],
         "desc": [
-          "Remie's <color=#FFFFFF>[Mutation Coefficient]</color> is <color=#2BAD00>0.06%</color> of her own Anomaly Proficiency;\nWhen a teammate triggers the character's <color=#FFA9DD>Lumen Attribute</color> <color=#FFFFFF>[Mutation]</color> reaction, the character can store the Anomaly Pool after <color=#FFFFFF>[Mutation]</color> as <color=#FFFFFF>[Anomaly Rounds]</color>, storing up to 3 Anomaly Pools from the most recently triggered Anomaly States;\nActivating <color=#FFFFFF>[Ultimate: Entrance]</color>/<color=#FFFFFF>[Ultimate: Finale]</color>/<color=#FFFFFF>[Maximum Firepower]</color>/<color=#FFFFFF>[True: Full-Barrage Launch]</color> triggers the <color=#FFFFFF>[Luminize]</color> effect:\nDeals 50%/150%/20%/100% Attribute Anomaly DMG of all stored <color=#FFFFFF>[Anomaly Rounds]</color>, and increases this DMG Multiplier based on <color=#2BAD00>0.6%</color> of own Anomaly Proficiency;\nWhen the character enters <color=#FFFFFF>[Flight Stance]</color> or after activating <color=#FFFFFF>[Maximum Firepower]</color> or <color=#FFFFFF>[True: Full-Barrage Launch]</color>, all stored <color=#FFFFFF>[Anomaly Rounds]</color> are cleared.\n(Note: <color=#FFFFFF>[Mutation]</color> is a <color=#FFA9DD>Lumen Attribute</color> reaction. If the enemy has <color=#FFA9DD>[Lumen Buildup Points]</color>, When the Enemy Is About to Enter an Attribute Anomaly State, Then This Anomaly State will be <color=#FFFFFF>[Mutated]</color>. The Anomaly Pool of that Anomaly State will be amplified based on the <color=#FFFFFF>[Mutation Coefficient]</color> of the <color=#FFA9DD>[Lumen Buildup Point]</color> provider, increasing the total DMG this Anomaly State can deal.)",
-          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character is in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield boosts all squad members' ATK by 40% of their initial ATK, with a cap of 300/600/1,600;\nAdditionally, when the Character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, it simultaneously inflicts the <color=#FFFFFF>[Fade]</color> effect on them: while under the <color=#FFFFFF>[Fade]</color> effect, Anomaly Buildup dealt to enemies by Attribute Anomaly DMG is increased by 15%. The <color=#FFFFFF>[Fade]</color> effect is removed when the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>."
+          "Remie's <color=#FFFFFF>[Mutation Coefficient]</color> is <color=#2BAD00>0.04%</color> of her own Anomaly Proficiency;\nWhen a teammate triggers a <color=#FFA9DD>Lumen Attribute</color> <color=#FFFFFF>[Mutation]</color> reaction for the Character, the Character can store the Anomaly Pool after <color=#FFFFFF>[Mutation]</color> as <color=#FFFFFF>[Anomaly Rounds]</color>, storing up to the Anomaly Pools of the 3 most recently triggered Anomaly States;\nIf <color=#FFFFFF>[Ultimate: Entrance]</color>/<color=#FFFFFF>[Ultimate: Finale]</color>/<color=#FFFFFF>[Maximum Firepower]</color>/<color=#FFFFFF>[True: Full-Barrage Launch]</color> hits a target, the <color=#FFFFFF>[Luminize]</color> effect can be triggered after the skill ends:\nDeal Attribute Anomaly DMG of all stored <color=#FFFFFF>[Anomaly Rounds]</color> at the skill's corresponding multiplier, and increase this DMG Multiplier based on <color=#2BAD00>0.2%</color> of own Anomaly Proficiency;\nAll stored <color=#FFFFFF>[Anomaly Rounds]</color> are cleared when the Character enters <color=#FFFFFF>[Flight Stance]</color> or after activating <color=#FFFFFF>[Maximum Firepower]</color> or <color=#FFFFFF>[True: Full-Barrage Launch]</color>.\n(Note: <color=#FFFFFF>[Mutation]</color> is a <color=#FFA9DD>Lumen Attribute</color> reaction. If the enemy has <color=#FFA9DD>[Lumen Buildup Points]</color>, when the enemy is about to enter an Attribute Anomaly State, then this Anomaly State will be <color=#FFFFFF>[Mutated]</color>. The Anomaly Pool of this Anomaly State will be amplified based on the <color=#FFFFFF>[Mutation Coefficient]</color> of the provider of <color=#FFA9DD>[Lumen Buildup Points]</color>, increasing the total DMG this Anomaly State can deal accordingly.)",
+          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character exists in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield boosts ATK for all squad members by 40% of Remie's initial ATK, with a cap of 300/600/1,600, and Daze dealt by this character in <color=#FFFFFF>[Flight Stance]</color> is increased by 7.5%/15%/35%;\nAdditionally, when this character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, it also inflicts the <color=#FFFFFF>[Fade]</color> effect on the enemy: while under the <color=#FFFFFF>[Fade]</color> effect, when the enemy takes Attribute Anomaly DMG, Anomaly Buildup is increased by 15%. When the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>, the <color=#FFFFFF>[Fade]</color> effect expires."
         ],
         "extra_property": {},
         "potential": []
@@ -1893,39 +1893,39 @@
   "talent": {
     "1": {
       "level": 1,
-      "name": "Mindscape 1",
-      "desc": "Upon entering the battlefield, if the user's Energy is below 60, restore it to 60; when a Character triggers the <color=#FFFFFF>[Luminize]</color> effect, ignore 25% of the target's DEF.",
-      "desc2": "Remielle_Talent_01_Desc_02"
+      "name": "Frivolous Oath",
+      "desc": "When Remie enters the battlefield, she gains the maximum number of <color=#FFFFFF>[Pseudo Anomaly Rounds]</color> based on her own attributes. In Investigation Zone mode, this effect can trigger at most once every 180 seconds. When a Character triggers the <color=#FFFFFF>[Luminize]</color> effect, ignore the target's 40% All-Attribute RES. When activating <color=#FFFFFF>[Ultimate: Entrance]</color>, gain 200 Decibels. This effect can trigger at most once every 18 seconds.",
+      "desc2": "..."
     },
     "2": {
       "level": 2,
-      "name": "Mindscape 02",
+      "name": "Cascading Clamor",
       "desc": "The maximum number of <color=#FFFFFF>[Anomaly Rounds]</color> Remie can store is increased to 4, and <color=#FFFFFF>[Mutation]</color> Degree is increased to 2. When triggering a <color=#FFFFFF>[Mutation]</color> reaction, up to 2 <color=#FFFFFF>[Lumen Buildup Points]</color> will be consumed. When 2 <color=#FFFFFF>[Lumen Buildup Points]</color> are consumed, the <color=#FFFFFF>[Mutation Coefficient]</color> of this <color=#FFFFFF>[Mutation]</color> is increased by 25%;\nAt the same time, the frequency at which the character auto-activates Support Skills to apply <color=#FFFFFF>[Lumen Buildup Points]</color> to enemies while in <color=#FFFFFF>[Flight Stance]</color> is increased, and the number of <color=#FFFFFF>[Lumen Buildup Points]</color> applied per single skill use is also increased from 1 to 2.",
-      "desc2": "Remielle_Talent_02_Desc_02"
+      "desc2": "..."
     },
     "3": {
       "level": 3,
-      "name": "Mindscape 03",
+      "name": "Garden of Diverging Time",
       "desc": "<color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Dodge</color>, <color=#FFFFFF>Assist</color>, <color=#FFFFFF>Special Attack</color>, and <color=#FFFFFF>Chain Attack</color> Lv. +2",
-      "desc2": "Remielle_Talent_03_Desc_02"
+      "desc2": "..."
     },
     "4": {
       "level": 4,
-      "name": "Mindscape 04",
-      "desc": "Enemies in the <color=#FFFFFF>[Fade]</color> state take Attribute Anomaly DMG with Anomaly Buildup Received increased to 35%.",
-      "desc2": "Remielle_Talent_04_Desc_02"
+      "name": "The Long Goodbye",
+      "desc": "When Remie triggers the <color=#FFFFFF>[Luminize]</color> effect, DMG Multiplier is additionally increased by 20%.",
+      "desc2": "..."
     },
     "5": {
       "level": 5,
-      "name": "Mindscape 05",
+      "name": "The Wayfarer Drinks Deep of Oblivion",
       "desc": "<color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Dodge</color>, <color=#FFFFFF>Assist</color>, <color=#FFFFFF>Special Attack</color>, and <color=#FFFFFF>Chain Attack</color> Lv. +2",
-      "desc2": "Remielle_Talent_05_Desc_02"
+      "desc2": "..."
     },
     "6": {
       "level": 6,
-      "name": "Mindscape 06",
-      "desc": "When Remie uses <color=#FFFFFF>[Maximum Firepower]</color> and <color=#FFFFFF>[True: Full-Barrage Launch]</color>, she triggers the <color=#FFFFFF>[Luminize]</color> effect 2 times. Additionally, when a Character uses an <color=#FFFFFF>[Entrance Ultimate]</color> to hit a Stunned enemy, the enemy's Stun duration is extended by 3s.",
-      "desc2": "Remielle_Talent_06_Desc_02"
+      "name": "Prophetic Feathers of a Thousand Wingbeats",
+      "desc": "When Remie uses <color=#FFFFFF>[Maximum Firepower]</color> and <color=#FFFFFF>[True: Full-Barrage Launch]</color>, she triggers the <color=#FFFFFF>[Luminize]</color> effect 2 times; if the 4th hit of her <color=#FFFFFF>[Basic Attack]</color> lands on a target, Remie gains 2 <color=#FFFFFF>[Pseudo Anomaly Rounds]</color> after the skill ends. <color=#FFFFFF>[Pseudo Anomaly Rounds]</color> obtained this way deal 20% of their original DMG; In <color=#FFFFFF>[Additional Ability]</color>, the number of <color=#FFFFFF>[Anomaly]</color> Characters required is reduced by 1.",
+      "desc2": "..."
     }
   },
   "fairy_recommend": {},

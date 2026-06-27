@@ -681,18 +681,18 @@
       ],
       "skill": {
         "name": "Succor and Smite",
-        "desc": "<size=40><color=Title>Basic Attack - Azure Sword Stance</color></size>\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> repeatedly or hold it to consume <color=Highlight>Melody</color> and perform up to 4 consecutive attacks, dealing <color=Dark>Havoc DMG</color>. While <color=Highlight>Melody</color> is not depleted, the Energy Regen of <color=Highlight>Basic Attack - Azure Sword Stance</color> is increased by {0}.\nWhen <color=Highlight>Basic Attack - Azure Sword Stance Stage 4</color> hits a target, it applies 1 stack of <color=Highlight><te href=850012>Havoc Bane</te></color> to the target.\n<size=10></size>\n<size=40><color=Title>Basic Attack - Feather Sword Stance</color></size>\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> repeatedly or hold it to consume <color=Highlight>Melody</color> and perform up to 4 consecutive attacks, dealing <color=Dark>Havoc DMG</color>. While <color=Highlight>Melody</color> is not depleted, the Energy Regen of <color=Highlight>Basic Attack - Feather Sword Stance</color> is increased by {1}.\nWhen <color=Highlight>Basic Attack - Feather Sword Stance Stage 4</color> hits a target, it applies 1 stack of <color=Highlight><te href=850012>Havoc Bane</te></color> to the target.\n<size=10></size>\n<size=40><color=Title>Mid-air Attack - Azure Sword Stance</color></size>\nWhile airborne, hold <color=Highlight>Normal Attack</color> to consume STA and perform a Plunging Attack, consuming <color=Highlight>Melody</color> and dealing <color=Dark>Havoc DMG</color>.\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} <color=Highlight>Normal Attack</color> within a short time after casting this skill performs <color=Highlight>Basic Attack - Azure Sword Stance Stage 2</color>.\n<size=10></size>\n<size=40><color=Title>Mid-air Attack - Feather Sword Stance</color></size>\nWhile airborne, hold <color=Highlight>Normal Attack</color> to consume STA and perform a Plunging Attack, consuming <color=Highlight>Melody</color> and dealing <color=Dark>Havoc DMG</color>.\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} <color=Highlight>Normal Attack</color> within a short time after casting this skill performs <color=Highlight>Basic Attack - Feather Sword Stance Stage 2</color>.\n<size=10></size>\n<size=40><color=Title>Dodge Counter - Azure Sword Stance</color></size>\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} <color=Highlight>Normal Attack</color> within a short time after a successful Dodge consumes <color=Highlight>Melody</color> to attack the target, dealing <color=Dark>Havoc DMG</color>.\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} <color=Highlight>Normal Attack</color> within a short time after casting this skill performs <color=Highlight>Basic Attack - Azure Sword Stance Stage 3</color>.\nCasting <color=Highlight>Dodge Counter - Azure Sword Stance</color> counts as casting <color=Highlight>Basic Attack - Azure Sword Stance Stage 2</color>.\n<size=10></size>\n<size=40><color=Title>Dodge Counter - Feather Sword Stance</color></size>\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} <color=Highlight>Normal Attack</color> within a short time after a successful Dodge consumes <color=Highlight>Melody</color> to attack the target, dealing <color=Dark>Havoc DMG</color>.\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} <color=Highlight>Normal Attack</color> within a short time after casting this skill performs <color=Highlight>Basic Attack - Feather Sword Stance Stage 3</color>.\nCasting <color=Highlight>Dodge Counter - Feather Sword Stance</color> counts as casting <color=Highlight>Basic Attack - Feather Sword Stance Stage 2</color>.",
+        "desc": "<size=40><color=Title>Basic Attack - Azure Sword Stance</color></size>\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> repeatedly or hold it down to consume <color=Highlight>Melody</color> and perform up to 4 consecutive attacks, dealing <color=Dark>Havoc DMG</color>. While <color=Highlight>Melody</color> is not depleted, the Energy Regen of <color=Highlight>Basic Attack - Azure Sword Stance</color> is increased by {0}.\n<color=Highlight>Basic Attack - Azure Sword Stance Stage 4</color> applies 1 stack of <color=Highlight><te href=850012>Havoc Bane</te></color> to the targets hit.\n<size=10></size>\n<size=40><color=Title>Basic Attack - Feather Sword Stance</color></size>\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> repeatedly or hold it down to consume <color=Highlight>Melody</color> and perform up to 4 consecutive attacks, dealing <color=Dark>Havoc DMG</color>. While <color=Highlight>Melody</color> is not depleted, the Energy Regen of <color=Highlight>Basic Attack - Feather Sword Stance</color> is increased by {1}.\n<color=Highlight>Basic Attack - Feather Sword Stance Stage 4</color> applies 1 stack of <color=Highlight><te href=850012>Havoc Bane</te></color> to the targets hit.\n<size=10></size>\n<size=40><color=Title>Mid-air Attack - Azure Sword Stance</color></size>\nConsume STA to perform a Plunging Attack, consuming <color=Highlight>Melody</color> and dealing <color=Dark>Havoc DMG</color>.\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} <color=Highlight>Normal Attack</color> within a short time after casting this skill triggers <color=Highlight>Basic Attack - Azure Sword Stance Stage 2</color>.\n<size=10></size>\n<size=40><color=Title>Mid-air Attack - Feather Sword Stance</color></size>\nConsume STA to perform a Plunging Attack, consuming <color=Highlight>Melody</color> and dealing <color=Dark>Havoc DMG</color>.\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} <color=Highlight>Normal Attack</color> within a short time after casting this skill triggers <color=Highlight>Basic Attack - Feather Sword Stance Stage 2</color>.\n<size=10></size>\n<size=40><color=Title>Dodge Counter - Azure Sword Stance</color></size>\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} <color=Highlight>Normal Attack</color> within a short time after a successful Dodge consumes <color=Highlight>Melody</color> to attack the target, dealing <color=Dark>Havoc DMG</color>.\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} <color=Highlight>Normal Attack</color> within a short time after casting this skill triggers <color=Highlight>Basic Attack - Azure Sword Stance Stage 3</color>.\nCasting <color=Highlight>Dodge Counter - Azure Sword Stance</color> counts as casting <color=Highlight>Basic Attack - Azure Sword Stance Stage 2</color>.\n<size=10></size>\n<size=40><color=Title>Dodge Counter - Feather Sword Stance</color></size>\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} <color=Highlight>Normal Attack</color> within a short time after a successful Dodge consumes <color=Highlight>Melody</color> to attack the target, dealing <color=Dark>Havoc DMG</color>.\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} <color=Highlight>Normal Attack</color> within a short time after casting this skill triggers <color=Highlight>Basic Attack - Feather Sword Stance Stage 3</color>.\nCasting <color=Highlight>Dodge Counter - Feather Sword Stance</color> counts as casting <color=Highlight>Basic Attack - Feather Sword Stance Stage 2</color>.",
         "param": [
           "20%",
           "20%"
         ],
-        "simple_desc": "<size=40><color=Title>Basic Attack - Azure Sword Stance</color></size>\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> repeatedly or hold it to consume <color=Highlight>Melody</color> and perform up to 4 consecutive attacks, dealing <color=Dark>Havoc DMG</color>. While <color=Highlight>Melody</color> is not depleted, the Energy Regen of <color=Highlight>Basic Attack - Azure Sword Stance</color> is increased by {0}.\nWhen <color=Highlight>Basic Attack - Azure Sword Stance Stage 4</color> hits a target, it applies 1 stack of <color=Highlight><te href=850012>Havoc Bane</te></color> to the target.\n<size=10></size>\n<size=40><color=Title>Basic Attack - Feather Sword Stance</color></size>\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> repeatedly or hold it to consume <color=Highlight>Melody</color> and perform up to 4 consecutive attacks, dealing <color=Dark>Havoc DMG</color>. While <color=Highlight>Melody</color> is not depleted, the Energy Regen of <color=Highlight>Basic Attack - Feather Sword Stance</color> is increased by {1}.\nWhen <color=Highlight>Basic Attack - Feather Sword Stance Stage 4</color> hits a target, it applies 1 stack of <color=Highlight><te href=850012>Havoc Bane</te></color> to the target.\n<size=10></size>\n<size=40><color=Title>Mid-air Attack - Azure Sword Stance</color></size>\nWhile airborne, hold <color=Highlight>Normal Attack</color> to consume STA and perform a Plunging Attack, consuming <color=Highlight>Melody</color> and dealing <color=Dark>Havoc DMG</color>.\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} <color=Highlight>Normal Attack</color> within a short time after casting this skill performs <color=Highlight>Basic Attack - Azure Sword Stance Stage 2</color>.\n<size=10></size>\n<size=40><color=Title>Mid-air Attack - Feather Sword Stance</color></size>\nWhile airborne, hold <color=Highlight>Normal Attack</color> to consume STA and perform a Plunging Attack, consuming <color=Highlight>Melody</color> and dealing <color=Dark>Havoc DMG</color>.\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} <color=Highlight>Normal Attack</color> within a short time after casting this skill performs <color=Highlight>Basic Attack - Feather Sword Stance Stage 2</color>.\n<size=10></size>\n<size=40><color=Title>Dodge Counter - Azure Sword Stance</color></size>\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} <color=Highlight>Normal Attack</color> within a short time after a successful Dodge consumes <color=Highlight>Melody</color> to attack the target, dealing <color=Dark>Havoc DMG</color>.\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} <color=Highlight>Normal Attack</color> within a short time after casting this skill performs <color=Highlight>Basic Attack - Azure Sword Stance Stage 3</color>.\nCasting <color=Highlight>Dodge Counter - Azure Sword Stance</color> counts as casting <color=Highlight>Basic Attack - Azure Sword Stance Stage 2</color>.\n<size=10></size>\n<size=40><color=Title>Dodge Counter - Feather Sword Stance</color></size>\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} <color=Highlight>Normal Attack</color> within a short time after a successful Dodge consumes <color=Highlight>Melody</color> to attack the target, dealing <color=Dark>Havoc DMG</color>.\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} <color=Highlight>Normal Attack</color> within a short time after casting this skill performs <color=Highlight>Basic Attack - Feather Sword Stance Stage 3</color>.\nCasting <color=Highlight>Dodge Counter - Feather Sword Stance</color> counts as casting <color=Highlight>Basic Attack - Feather Sword Stance Stage 2</color>.",
+        "simple_desc": "<size=40><color=Title>Basic Attack - Azure Sword Stance</color></size>\nDeal <color=Dark>Havoc DMG</color> and inflict <color=Highlight><te href=850012>Havoc Bane</te></color>.\n<size=10></size>\n<size=40><color=Title>Basic Attack - Feather Sword Stance</color></size>\nDeal <color=Dark>Havoc DMG</color>. While <color=Highlight>Melody</color> and inflict <color=Highlight><te href=850012>Havoc Bane</te></color>.",
         "simple_param": [],
         "icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.SP_IconNorKnife",
         "type": "Normal Attack",
         "level": {
           "1": {
-            "name": "Azure Sword Stance Stage 1",
+            "name": "Basic Attack - Azure Sword Stance Stage 1 DMG",
             "param": [
               [
                 "24.00%",
@@ -719,7 +719,7 @@
             ]
           },
           "2": {
-            "name": "Azure Sword Stance Stage 2",
+            "name": "Basic Attack - Azure Sword Stance Stage 2 DMG",
             "param": [
               [
                 "10.13%+10.13%+30.39%",
@@ -746,7 +746,7 @@
             ]
           },
           "3": {
-            "name": "Azure Sword Stance Stage 3",
+            "name": "Basic Attack - Azure Sword Stance Stage 3 DMG",
             "param": [
               [
                 "15.20%+35.45%",
@@ -773,7 +773,7 @@
             ]
           },
           "4": {
-            "name": "Azure Sword Stance Stage 4",
+            "name": "Basic Attack - Azure Sword Stance Stage 4 DMG",
             "param": [
               [
                 "9.34%+9.34%+74.69%",
@@ -800,7 +800,7 @@
             ]
           },
           "5": {
-            "name": "Feather Sword Stance Stage 1",
+            "name": "Basic Attack - Feather Sword Stance Stage 1 DMG",
             "param": [
               [
                 "20.00%+20.00%",
@@ -827,7 +827,7 @@
             ]
           },
           "6": {
-            "name": "Feather Sword Stance Stage 2",
+            "name": "Basic Attack - Feather Sword Stance Stage 2 DMG",
             "param": [
               [
                 "16.88%*3",
@@ -854,7 +854,7 @@
             ]
           },
           "7": {
-            "name": "Feather Sword Stance Stage 3",
+            "name": "Basic Attack - Feather Sword Stance Stage 3 DMG",
             "param": [
               [
                 "7.48%+3.74%*3+18.68%",
@@ -881,7 +881,7 @@
             ]
           },
           "8": {
-            "name": "Feather Sword Stance Stage 4",
+            "name": "Basic Attack - Feather Sword Stance Stage 4 DMG",
             "param": [
               [
                 "36.00%+36.00%+48.00%",
@@ -908,34 +908,34 @@
             ]
           },
           "9": {
-            "name": "Feather Sword Stance - Plunging Attack",
+            "name": "Mid-air Attack - Feather Sword Stance DMG",
             "param": [
               [
-                "120.00%",
-                "129.84%",
-                "139.68%",
-                "153.46%",
-                "163.30%",
-                "174.62%",
-                "190.36%",
-                "206.10%",
-                "221.85%",
-                "238.58%",
-                "258.26%",
-                "277.94%",
-                "297.62%",
-                "317.30%",
-                "336.98%",
-                "356.66%",
-                "376.34%",
-                "396.02%",
-                "415.70%",
-                "435.38%"
+                "49.60%",
+                "53.67%",
+                "57.74%",
+                "63.43%",
+                "67.50%",
+                "72.18%",
+                "78.69%",
+                "85.19%",
+                "91.70%",
+                "98.61%",
+                "106.75%",
+                "114.88%",
+                "123.02%",
+                "131.15%",
+                "139.29%",
+                "147.42%",
+                "155.56%",
+                "163.69%",
+                "171.82%",
+                "179.96%"
               ]
             ]
           },
           "10": {
-            "name": "Dodge Counter - Azure Sword Stance",
+            "name": "Dodge Counter - Azure Sword Stance DMG",
             "param": [
               [
                 "19.73%+19.73%+59.19%",
@@ -962,7 +962,7 @@
             ]
           },
           "11": {
-            "name": "Dodge Counter - Feather Sword Stance",
+            "name": "Dodge Counter - Feather Sword Stance DMG",
             "param": [
               [
                 "32.88%*3",
@@ -989,7 +989,7 @@
             ]
           },
           "12": {
-            "name": "Feather Sword Stance - Plunging Attack STA Cost",
+            "name": "Mid-air Attack - Feather Sword Stance STA Cost",
             "param": [
               [
                 "30",
@@ -1583,32 +1583,32 @@
             "related_property": "ATK",
             "type": 0,
             "rate_lv": [
-              12000,
-              12984,
-              13968,
-              15346,
-              16330,
-              17462,
-              19036,
-              20610,
-              22185,
-              23858,
-              25826,
-              27794,
-              29762,
-              31730,
-              33698,
-              35666,
-              37634,
-              39602,
-              41570,
-              43538
+              4960,
+              5367,
+              5774,
+              6343,
+              6750,
+              7218,
+              7869,
+              8519,
+              9170,
+              9861,
+              10675,
+              11488,
+              12302,
+              13115,
+              13929,
+              14742,
+              15556,
+              16369,
+              17182,
+              17996
             ],
-            "energy": 375,
-            "element_power": 750,
+            "energy": 155,
+            "element_power": 310,
             "hardness_lv": 10000,
-            "tough_lv": 15000,
-            "weakness_lvl": 12000
+            "tough_lv": 6200,
+            "weakness_lvl": 4960
           },
           "1610101010": {
             "element": 6,
@@ -1903,32 +1903,32 @@
             "related_property": "ATK",
             "type": 0,
             "rate_lv": [
-              12000,
-              12984,
-              13968,
-              15346,
-              16330,
-              17462,
-              19036,
-              20610,
-              22185,
-              23858,
-              25826,
-              27794,
-              29762,
-              31730,
-              33698,
-              35666,
-              37634,
-              39602,
-              41570,
-              43538
+              4960,
+              5367,
+              5774,
+              6343,
+              6750,
+              7218,
+              7869,
+              8519,
+              9170,
+              9861,
+              10675,
+              11488,
+              12302,
+              13115,
+              13929,
+              14742,
+              15556,
+              16369,
+              17182,
+              17996
             ],
-            "energy": 375,
-            "element_power": 750,
+            "energy": 155,
+            "element_power": 310,
             "hardness_lv": 10000,
-            "tough_lv": 15000,
-            "weakness_lvl": 12000
+            "tough_lv": 6200,
+            "weakness_lvl": 4960
           }
         }
       }
@@ -1955,7 +1955,7 @@
       ],
       "skill": {
         "name": "Feather's Edge",
-        "desc": "<size=40><color=Title>Sword Stance Switch</color></size>\nWhile in <color=Highlight>Azure Sword Stance</color>, {Cus:Ipt,Touch=tap PC=press Gamepad=press} <color=Highlight>Resonance Skill</color> to switch to <color=Highlight>Feather Sword Stance</color> and perform <color=Highlight>Basic Attack - Feather Sword Stance Stage 1</color>, dealing <color=Dark>Havoc DMG</color>.\n<size=10></size>\nWhile in <color=Highlight>Feather Sword Stance</color>, {Cus:Ipt,Touch=tap PC=press Gamepad=press} <color=Highlight>Resonance Skill</color> to switch to <color=Highlight>Azure Sword Stance</color> and perform <color=Highlight>Basic Attack - Azure Sword Stance Stage 1</color>, dealing <color=Dark>Havoc DMG</color>.\n<size=10></size>\n<size=40><color=Title>Sword Stance Switch: Azure</color></size>\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} <color=Highlight>Resonance Skill</color> within a short time after casting <color=Highlight>Basic Attack - Feather Sword Stance</color> casts <color=Highlight>Sword Stance Switch: Azure</color> to attack the target, dealing <color=Dark>Havoc DMG</color>. This DMG is considered <color=Highlight>Heavy Attack DMG</color>.\nWithin a short time after casting this skill, a successful Dodge can be triggered. Each successful Dodge consumes {0} <color=Highlight>Melody</color>.\nAfter casting this skill, the Basic Attack combo will not reset for a short time.\n<size=10></size>\n<size=40><color=Title>Sword Stance Switch: Feather</color></size>\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} <color=Highlight>Resonance Skill</color> within a short time after casting <color=Highlight>Basic Attack - Azure Sword Stance</color> casts <color=Highlight>Sword Stance Switch: Feather</color> to attack the target, dealing <color=Dark>Havoc DMG</color>. This DMG is considered <color=Highlight>Heavy Attack DMG</color>.\nWithin a short time after casting this skill, a successful Dodge can be triggered. Each successful Dodge consumes {1} <color=Highlight>Melody</color>.\nAfter casting this skill, the Basic Attack combo will not reset for a short time.",
+        "desc": "<size=40><color=Title>Sword Stance Switch</color></size>\nWhile in <color=Highlight>Azure Sword Stance</color>, {Cus:Ipt,Touch=tap PC=press Gamepad=press} <color=Highlight>Resonance Skill</color> to switch to <color=Highlight>Feather Sword Stance</color> and perform <color=Highlight>Basic Attack - Feather Sword Stance Stage 1</color>, dealing <color=Dark>Havoc DMG</color>.\n<size=10></size>\nWhile in <color=Highlight>Feather Sword Stance</color>, {Cus:Ipt,Touch=tap PC=press Gamepad=press} <color=Highlight>Resonance Skill</color> to switch to <color=Highlight>Azure Sword Stance</color> and perform <color=Highlight>Basic Attack - Azure Sword Stance Stage 1</color>, dealing <color=Dark>Havoc DMG</color>.\n<size=10></size>\n<size=40><color=Title>Sword Stance Switch: Azure</color></size>\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} <color=Highlight>Resonance Skill</color> within a short time after casting <color=Highlight>Basic Attack - Feather Sword Stance</color> triggers <color=Highlight>Sword Stance Switch: Azure</color>, dealing <color=Dark>Havoc DMG</color>, considered <color=Highlight>Heavy Attack DMG</color>.\nA successful Dodge can be triggered within a short time into the action of this skill, which consumes {0} <color=Highlight>Melody</color>.\nAfter casting this skill, the Basic Attack cycle will not reset for a short time.\n<size=10></size>\n<size=40><color=Title>Sword Stance Switch: Feather</color></size>\n{Cus:Ipt,Touch=Tapping PC=Pressing Gamepad=Pressing} <color=Highlight>Resonance Skill</color> within a short time after casting <color=Highlight>Basic Attack - Azure Sword Stance</color> triggers <color=Highlight>Sword Stance Switch: Feather</color>, dealing <color=Dark>Havoc DMG</color>, considered <color=Highlight>Heavy Attack DMG</color>.\nA successful Dodge can be triggered within a short time into the action of this skill, which consumes {1} <color=Highlight>Melody</color>.\nAfter casting this skill, the Basic Attack cycle will not reset for a short time.",
         "param": [
           "50",
           "50"
@@ -1966,7 +1966,7 @@
         "type": "Resonance Skill",
         "level": {
           "13": {
-            "name": "Sword Stance Switch: Azure",
+            "name": "Sword Stance Switch: Azure DMG",
             "param": [
               [
                 "35.19%+7.82%*3",
@@ -1993,7 +1993,7 @@
             ]
           },
           "14": {
-            "name": "Sword Stance Switch: Feather",
+            "name": "Sword Stance Switch: Feather DMG",
             "param": [
               [
                 "16.88%*3",
@@ -2287,7 +2287,7 @@
       ],
       "skill": {
         "name": "Hush of a Thousand Voices",
-        "desc": "<size=40><color=Title>Hush of a Thousand Voices</color></size>\nConsume all <color=Highlight>Melody</color> to deal <color=Dark>Havoc DMG</color> and restore {0} <color=Highlight>Azure Plume</color>. This DMG is considered <color=Highlight>Heavy Attack DMG</color>.\n<size=10></size>\nUpon casting this skill, gain the <color=Highlight>Voice upon Voice</color> state. When casting <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color> or <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color>, summon <color=Highlight>Shadow of Xuanling</color> to attack the target, dealing <color=Dark>Havoc DMG</color>. This DMG is considered <color=Highlight>Heavy Attack DMG</color>.\n<color=Highlight>Voice upon Voice</color> cannot stack. Once <color=Highlight>Shadow of Xuanling</color> is successfully summoned, the <color=Highlight>Voice upon Voice</color> state is removed.",
+        "desc": "<size=40><color=Title>Hush of a Thousand Voices</color></size>\nConsume all <color=Highlight>Melody</color> to deal <color=Dark>Havoc DMG</color> and restore {0} <color=Highlight>Azure Plume</color>. This DMG is considered <color=Highlight>Heavy Attack DMG</color>.\n<size=10></size>\nUpon casting this skill, obtain <color=Highlight>Voice upon Voice</color>. When casting <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color> or <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color>, summon <color=Highlight>Shadow of Xuanling</color> to attack the target, dealing <color=Dark>Havoc DMG</color>, considered <color=Highlight>Heavy Attack DMG</color>.\n<color=Highlight>Voice upon Voice</color> cannot stack. Once <color=Highlight>Shadow of Xuanling</color> is successfully summoned, the <color=Highlight>Voice upon Voice</color> state is removed.",
         "param": [
           "1",
           "25"
@@ -2298,7 +2298,7 @@
         "type": "Resonance Liberation",
         "level": {
           "29": {
-            "name": "Hush of a Thousand Voices",
+            "name": "Hush of a Thousand Voices DMG",
             "param": [
               [
                 "1000.00%",
@@ -2325,7 +2325,7 @@
             ]
           },
           "30": {
-            "name": "Shadow of Xuanling",
+            "name": "Shadow of Xuanling DMG",
             "param": [
               [
                 "170.00%",
@@ -2671,12 +2671,14 @@
       ],
       "skill": {
         "name": "Unbroken Vow",
-        "desc": "When a target has 1 to 3 stacks of <color=Highlight><te href=850012>Havoc Bane</te></color>, each stack of <color=Highlight><te href=850012>Havoc Bane</te></color> Amplifies the DMG Yangyang: Xuanling deals to it by {0}.\n<size=10></size>\nWhen a target has 4 to 6 stacks of <color=Highlight><te href=850012>Havoc Bane</te></color>, each stack of <color=Highlight><te href=850012>Havoc Bane</te></color> Amplifies the DMG Yangyang: Xuanling deals to it by {1}.",
+        "desc": "When a target has 1 to 3 stacks of <color=Highlight><te href=850012>Havoc Bane</te></color>, each stack of <color=Highlight><te href=850012>Havoc Bane</te></color> Amplifies the DMG from Yangyang: Xuanling by {0}, up to {1}.\n<size=10></size>\nWhen a target has 4 to 6 stacks of <color=Highlight><te href=850012>Havoc Bane</te></color>, each stack of <color=Highlight><te href=850012>Havoc Bane</te></color> Amplifies the DMG from Yangyang: Xuanling by {2}, up to {3}.",
         "param": [
           "10%",
-          "12%"
+          "30%",
+          "12%",
+          "36%"
         ],
-        "simple_desc": "When a target has 1 to 3 stacks of <color=Highlight><te href=850012>Havoc Bane</te></color>, each stack of <color=Highlight><te href=850012>Havoc Bane</te></color> Amplifies the DMG Yangyang: Xuanling deals to it by {0}.\n<size=10></size>\nWhen a target has 4 to 6 stacks of <color=Highlight><te href=850012>Havoc Bane</te></color>, each stack of <color=Highlight><te href=850012>Havoc Bane</te></color> Amplifies the DMG Yangyang: Xuanling deals to it by {1}.",
+        "simple_desc": "Each stack of <color=Highlight><te href=850012>Havoc Bane</te></color> on the target Amplifies the from DMG Yangyang: Xuanling.",
         "simple_param": [],
         "icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLing1D1.SP_IconXuanLing1D1",
         "type": "Inherent Skill",
@@ -2728,14 +2730,13 @@
       ],
       "skill": {
         "name": "One Life, One Blade",
-        "desc": "When Yangyang: Xuanling casts Resonance Liberation <color=Highlight>Hush of a Thousand Voices</color>, it applies <color=Highlight><te href=850012>Havoc Bane</te></color> to the targets it hits, up to the maximum stacks.\n<size=10></size>\nWhen Resonators in the team apply <color=Highlight><te href=850012>Havoc Bane</te></color> to a target, Xuanling gains 1 stack of <color=Highlight>Windbound</color>. <color=Highlight>Windbound</color> can be gained once every 1s, stacking up to {0} times.\n<size=10></size>\nWhen <color=Highlight>Windbound</color> reaches {1} stacks, Yangyang: Xuanling removes all <color=Highlight>Windbound</color> and gains <color=Highlight>One with the Wind</color>.\nWhile <color=Highlight>One with the Wind</color> is active, when Xuanling casts <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color> or <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color>, she summons <color=Highlight>Feather Release: Xuanling</color> to attack the target, applying {2} stacks of <color=Highlight><te href=850012>Havoc Bane</te></color> to the target. <color=Highlight>Feather Release: Xuanling</color> can trigger once every {3}s.\n<size=10></size>\nOnce <color=Highlight>Feather Release: Xuanling</color> is successfully summoned, the <color=Highlight>One with the Wind</color> state is removed.",
+        "desc": "Resonance Liberation <color=Highlight>Hush of a Thousand Voices</color> raises <color=Highlight><te href=850012>Havoc Bane</te></color>stacks on the targets it hits to the maximum.\n<size=10></size>\nWhen Resonators in the team inflict <color=Highlight><te href=850012>Havoc Bane</te></color>, Yangyang: Xuanling gains 1 stack of <color=Highlight>Windbound</color>. <color=Highlight>Windbound</color> can be gained once every 1s, stacking up to {0} times.\n<size=10></size>\nWhen <color=Highlight>Windbound</color> reaches {1} stacks, Yangyang: Xuanling removes all <color=Highlight>Windbound</color> and gains <color=Highlight>One with the Wind</color>.\nWhile <color=Highlight>One with the Wind</color> lasts, when Yangyang: Xuanling casts <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color> or <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color>, she summons <color=Highlight>Feather Release: Xuanling</color> to attack the target, applying <SapTag=2>{2}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=2} of <color=Highlight><te href=850012>Havoc Bane</te></color> to the target. \n<size=10></size>\nOnce <color=Highlight>Feather Release: Xuanling</color> is summoned, the <color=Highlight>One with the Wind</color> state is removed.",
         "param": [
           "6",
           "6",
-          "6",
-          "5"
+          "6"
         ],
-        "simple_desc": "Resonance Liberation applies <color=Highlight><te href=850012>Havoc Bane</te></color> to the targets it hits, up to the maximum stacks.\n<size=10></size>\nGain a <color=Highlight>special state</color> and apply 6 stacks of <color=Highlight><te href=850012>Havoc Bane</te></color> to the target.",
+        "simple_desc": "Resonance Liberation raises the <color=Highlight><te href=850012>Havoc Bane</te></color> stacks on the targets it hits to the maximum.\n<size=10></size>\nGain a <color=Highlight>special state</color> and apply 6 stacks of <color=Highlight><te href=850012>Havoc Bane</te></color> to the target.",
         "simple_param": [],
         "icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLing2D2.SP_IconXuanLing2D2",
         "type": "Inherent Skill",
@@ -2785,18 +2786,18 @@
       ],
       "skill": {
         "name": "Skybound Feather",
-        "desc": "<size=40><color=Title>Intro Skill - Skytouch</color></size>\nWhile in <color=Highlight>Feather Sword Stance</color>, cast this skill to switch to <color=Highlight>Azure Sword Stance</color>, dealing <color=Dark>Havoc DMG</color> and restoring {0} <color=Highlight>Azure Plume</color>.\nWhen <color=Highlight>Intro Skill - Skytouch</color> hits a target, it applies 1 stack of <color=Highlight><te href=850012>Havoc Bane</te></color> to the target.\n<size=10></size>\n<size=40><color=Title>Intro Skill - Aria of the Feather</color></size>\nWhile in <color=Highlight>Azure Sword Stance</color>, cast this skill to switch to <color=Highlight>Feather Sword Stance</color>, dealing <color=Dark>Havoc DMG</color> and restoring {1} <color=Highlight>Azure Plume</color>.\nWhen <color=Highlight>Intro Skill - Aria of the Feather</color> hits a target, it applies 1 stack of <color=Highlight><te href=850012>Havoc Bane</te></color> to the target.",
+        "desc": "Deal <color=Dark>Havoc DMG</color> and restore <SapTag=0>{0}</SapTag> {Cus:Sap,S=point P=points SapTag=0} of <color=Highlight>Azure Plume</color>.\nWhen <color=Highlight>Intro Skill - Skybound Feather</color> deals damage, it applies 1 stack of <color=Highlight><te href=850012>Havoc Bane</te></color> on the target.",
         "param": [
           "1",
           "1"
         ],
-        "simple_desc": "<size=40><color=Title>Intro Skill - Skytouch</color></size>\nWhile in <color=Highlight>Feather Sword Stance</color>, cast this skill to switch to <color=Highlight>Azure Sword Stance</color>, dealing <color=Dark>Havoc DMG</color> and restoring {0} <color=Highlight>Azure Plume</color>.\nWhen <color=Highlight>Intro Skill - Skytouch</color> hits a target, it applies 1 stack of <color=Highlight><te href=850012>Havoc Bane</te></color> to the target.\n<size=10></size>\n<size=40><color=Title>Intro Skill - Aria of the Feather</color></size>\nWhile in <color=Highlight>Azure Sword Stance</color>, cast this skill to switch to <color=Highlight>Feather Sword Stance</color>, dealing <color=Dark>Havoc DMG</color> and restoring {1} <color=Highlight>Azure Plume</color>.\nWhen <color=Highlight>Intro Skill - Aria of the Feather</color> hits a target, it applies 1 stack of <color=Highlight><te href=850012>Havoc Bane</te></color> to the target.",
+        "simple_desc": "Deal <color=Dark>Havoc DMG</color> and inflict <color=Highlight><te href=850012>Havoc Bane</te></color>.",
         "simple_param": [],
         "icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLingQTE.SP_IconXuanLingQTE",
         "type": "Intro Skill",
         "level": {
           "34": {
-            "name": "Intro Skill - Skybound Feather",
+            "name": "Skybound Feather DMG",
             "param": [
               [
                 "58.64%",
@@ -2823,7 +2824,7 @@
             ]
           },
           "35": {
-            "name": "Intro Skill - Skybound Feather Concerto Regen",
+            "name": "Skybound Feather Concerto Regen",
             "param": [
               [
                 "10",
@@ -3085,64 +3086,71 @@
       ],
       "skill": {
         "name": "The Way of Ten Thousand Voices",
-        "desc": "<size=40><color=Title>Resonance Skill - Sword Stance Flow: Azure</color></size>\nWhen <color=Highlight>Melody</color> is depleted while in <color=Highlight>Feather Sword Stance</color>, <color=Highlight>Resonance Skill - Feather's Edge</color> is replaced by <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color>.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Resonance Skill</color> to cast <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color>, dealing <color=Dark>Havoc DMG</color> and restoring {0} <color=Highlight>Melody</color> and {1} <color=Highlight>Azure Plume</color>. This DMG is considered <color=Highlight>Heavy Attack DMG</color>.\nWhen casting <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color>, gain <color=Highlight>Bated Breath</color>, which lasts {4}s. While Yangyang: Xuanling is on the field, the next <color=Highlight>Heavy Attack - Azure Sword Stance</color> has its Crit. DMG increased by {2}; <color=Highlight>Bated Breath</color> is removed when <color=Highlight>Heavy Attack - Azure Sword Stance</color> ends. <color=Highlight>Bated Breath</color> can only be gained once every {3}s.\nWhen <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color> hits a target, it consumes 1 stack of <color=Highlight><te href=850012>Havoc Bane</te></color> from the target.\nAfter casting <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color>, the combo will not reset for a short time. If <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color> interrupts the <color=Highlight>Basic Attack - Feather Sword Stance</color> combo, <color=Highlight>Wraith of Sound</color> is summoned to complete the current attack, dealing <color=Dark>Havoc DMG</color>. This DMG is considered <color=Highlight>Basic Attack DMG</color>, is not affected by DMG Bonus, and cannot apply <color=Highlight><te href=850012>Havoc Bane</te></color> to the target.\nTaking a hit within a short time after casting this skill can trigger a successful Dodge. Each successful Dodge consumes {5} <color=Highlight>Melody</color>.\n<size=10></size>\n<size=40><color=Title>Resonance Skill - Sword Stance Flow: Feather</color></size>\nWhen <color=Highlight>Melody</color> is depleted while in <color=Highlight>Azure Sword Stance</color>, <color=Highlight>Resonance Skill - Feather's Edge</color> is replaced by <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color>.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Resonance Skill</color> to cast <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color>, switching to <color=Highlight>Feather Sword Stance</color> and dealing <color=Dark>Havoc DMG</color>, restoring {6} <color=Highlight>Melody</color> and {7} <color=Highlight>Azure Plume</color>. This DMG is considered <color=Highlight>Heavy Attack DMG</color>.\nWhen casting <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color>, gain <color=Highlight>Drifting Mist</color>, which lasts {10}s. While Yangyang: Xuanling is on the field, the next <color=Highlight>Heavy Attack - Feather Sword Stance</color>, <color=Highlight>Mid-air Attack - Feather Fall</color>, <color=Highlight>Basic Attack - Havoc in Bloom</color>, or <color=Highlight>Dodge Counter - Havoc in Bloom</color> has its Crit. DMG increased by {8}; <color=Highlight>Drifting Mist</color> is removed when <color=Highlight>Basic Attack - Havoc in Bloom</color> Stage 3 or <color=Highlight>Dodge Counter - Havoc in Bloom</color> Stage 3 ends. <color=Highlight>Drifting Mist</color> can only be gained once every {9}s.\nWhen <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color> hits a target, it consumes 1 stack of <color=Highlight><te href=850012>Havoc Bane</te></color> from the target.\nAfter casting <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color>, the combo will not reset for a short time. If <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color> interrupts the <color=Highlight>Basic Attack - Azure Sword Stance</color> combo, <color=Highlight>Wraith of Sound</color> is summoned to complete the current attack, dealing <color=Dark>Havoc DMG</color>. This DMG is considered <color=Highlight>Basic Attack DMG</color>, is not affected by DMG Bonus, and cannot apply <color=Highlight><te href=850012>Havoc Bane</te></color> to the target.\nTaking a hit within a short time after casting this skill can trigger a successful Dodge. Each successful Dodge consumes {11} <color=Highlight>Melody</color>.\n<size=10></size>\n<size=40><color=Title>Heavy Attack - Azure Sword Stance</color></size>\nWhen <color=Highlight>Azure Plume</color> is restored to its maximum while in <color=Highlight>Azure Sword Stance</color>, hold Normal Attack to consume all <color=Highlight>Azure Plume</color> and STA to cast <color=Highlight>Heavy Attack - Azure Sword Stance</color>, generating a massive cyclone that strikes the area in front, dealing <color=Dark>Havoc DMG</color>. This DMG is considered <color=Highlight>Heavy Attack DMG</color>.\n<color=Highlight>Heavy Attack - Azure Sword Stance</color> applies {12} stacks of <color=Highlight><te href=850012>Havoc Bane</te></color> to the targets it hits.\n<size=10></size>\n<size=40><color=Title>Heavy Attack - Feather Sword Stance</color></size>\nWhen <color=Highlight>Azure Plume</color> is restored to its maximum while in <color=Highlight>Feather Sword Stance</color> and on the ground, hold Normal Attack to consume STA and cast <color=Highlight>Heavy Attack - Feather Sword Stance</color>, dealing <color=Dark>Havoc DMG</color>. After it hits a target, <color=Highlight>Mid-air Attack - Feather Fall</color> is automatically cast.\n<color=Highlight>Heavy Attack - Feather Sword Stance</color> applies 2 stacks of <color=Highlight><te href=850012>Havoc Bane</te></color> to the targets it hits.\n<size=10></size>\n<size=40><color=Title>Mid-air Attack - Feather Fall</color></size>\nWhen <color=Highlight>Azure Plume</color> is restored to its maximum while in <color=Highlight>Feather Sword Stance</color> and airborne, <color=Highlight>Mid-air Attack - Feather Sword Stance</color> is replaced by <color=Highlight>Mid-air Attack - Feather Fall</color>.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} or hold Normal Attack to consume all <color=Highlight>Azure Plume</color> and STA to cast <color=Highlight>Mid-air Attack - Feather Fall</color>, dealing <color=Dark>Havoc DMG</color>. Casting <color=Highlight>Mid-air Attack - Feather Fall</color> enters <color=Highlight>Hark the Wind</color> for {13}s.\n<size=10></size>\n<size=40><color=Title>Hark the Wind</color></size>\nWhile in <color=Highlight>Feather Sword Stance</color>, <color=Highlight>Basic Attack - Feather Sword Stance</color> is replaced by <color=Highlight>Basic Attack - Havoc in Bloom</color>, consuming STA to perform up to 3 stages of attacks, dealing <color=Dark>Havoc DMG</color>. This DMG is considered <color=Highlight>Heavy Attack DMG</color>.\n<color=Highlight>Basic Attack - Havoc in Bloom</color> Stage 2 and Stage 3 can be cast in mid-air close to the ground. Casting Stage 3 exits <color=Highlight>Basic Attack - Havoc in Bloom</color>. The stage count of this combo will not be reset.\nDuring <color=Highlight>Hark the Wind</color>, casting a Dodge Counter counts as casting the <color=Highlight>Basic Attack - Havoc in Bloom</color> combo.\n<size=10></size>\n<size=40><color=Title>Feathered Oath</color></size>\nWhen Resonators in the team apply <color=Highlight><te href=850012>Havoc Bane</te></color> to a target, Xuanling gains 1 stack of <color=Highlight>Feathered Oath</color> for {20}s. <color=Highlight>Feathered Oath</color> can be gained once every 1s, stacking up to 6 times. While Yangyang: Xuanling is on the field, each stack increases the Crit. DMG of <color=Highlight>Heavy Attack - Azure Sword Stance</color>, <color=Highlight>Heavy Attack - Feather Sword Stance</color>, <color=Highlight>Mid-air Attack - Feather Fall</color>, and <color=Highlight>Basic Attack - Havoc in Bloom</color> by {15}, up to a maximum of {16}.\n<size=10></size>\n<size=40><color=Title>Refrain</color></size>\nBefore Yangyang: Xuanling's <color=Highlight>Basic Attack - Azure Sword Stance Stage 4</color>, <color=Highlight>Basic Attack - Feather Sword Stance Stage 4</color>, <color=Highlight>Heavy Attack - Azure Sword Stance</color>, or <color=Highlight>Heavy Attack - Feather Sword Stance</color> hits a target, record the highest stacks of <color=Highlight><te href=850012>Havoc Bane</te></color> applied to targets within a certain range, and copy it to all targets within range.\n<size=10></size>\n<size=40><color=Title>Gaining Melody</color></size>\n<color=Highlight>Melody</color> has a maximum of 100.\nCasting <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color> or <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color> restores {17} <color=Highlight>Melody</color>.\nCasting Resonance Liberation <color=Highlight>Hush of a Thousand Voices</color> consumes all <color=Highlight>Melody</color>.\nCasting <color=Highlight>Basic Attack - Azure Sword Stance</color>, <color=Highlight>Dodge Counter - Azure Sword Stance</color>, <color=Highlight>Basic Attack - Feather Sword Stance</color>, or <color=Highlight>Dodge Counter - Feather Sword Stance</color> consumes <color=Highlight>Melody</color>.\n<size=10></size>\n<size=40><color=Title>Gaining Azure Plume</color></size>\n<color=Highlight>Azure Plume</color> has a maximum of 2.\nCasting <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color> or <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color> restores {18} <color=Highlight>Azure Plume</color>.\nCasting <color=Highlight>Intro Skill - Skybound Feather</color> restores {19} <color=Highlight>Azure Plume</color>.\nCasting <color=Highlight>Heavy Attack - Azure Sword Stance</color> or <color=Highlight>Heavy Attack - Feather Sword Stance</color> consumes all <color=Highlight>Azure Plume</color>.",
+        "desc": "<size=40><color=Title>Resonance Skill - Sword Stance Flow: Azure</color></size>\nYangyang: Xuanling is in <color=Highlight>Azure Sword Stance</color>. When <color=Highlight>Melody</color> is depleted while in <color=Highlight>Feather Sword Stance</color>, <color=Highlight>Resonance Skill - Feather's Edge</color> is replaced by <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color>.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Resonance Skill</color> to cast <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color>, dealing <color=Dark>Havoc DMG</color> and restoring <SapTag=0>{0}</SapTag> {Cus:Sap,S=point P=points SapTag=0} of <color=Highlight>Melody</color> and <SapTag=1>{1}</SapTag> {Cus:Sap,S=point P=points SapTag=1} of <color=Highlight>Azure Plume</color>. This DMG is considered <color=Highlight>Heavy Attack DMG</color>.\nWhen <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color> hits the target, consume <SapTag=2>{2}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=2} of <color=Highlight><te href=850012>Havoc Bane</te></color> on the target.\nThe <color=Highlight>Basic Attack - Feather Sword Stance</color> cycle is not reset within a short time after casting <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color>. If casting <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color> resets the cycle, summon a <color=Highlight>Wraith of Sound</color> to finish the current attack and deal a fixed instance of <color=Dark>Havoc DMG</color>, considered <color=Highlight>Basic Attack DMG</color>, which is not affected by any DMG Bonus effects and does not inflict <color=Highlight><te href=850012>Havoc Bane</te></color>.\nSuccessful Dodge can be triggered within a short time into the action of this skill, which consumes <SapTag=3>{3}</SapTag> {Cus:Sap,S=point P=points SapTag=3} of <color=Highlight>Melody</color>.\n<size=10></size>\n<size=40><color=Title>Resonance Skill - Sword Stance Flow: Feather</color></size>\nWhen <color=Highlight>Melody</color> is depleted while in <color=Highlight>Azure Sword Stance</color>, <color=Highlight>Resonance Skill - Feather's Edge</color> is replaced by <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color>.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Resonance Skill</color> to cast <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color>, switching to <color=Highlight>Feather Sword Stance</color> and dealing <color=Dark>Havoc DMG</color>, restoring <SapTag=4>{4}</SapTag> {Cus:Sap,S=point P=points SapTag=4} of <color=Highlight>Melody</color> and <SapTag=5>{5}</SapTag> {Cus:Sap,S=point P=points SapTag=5} of <color=Highlight>Azure Plume</color>. This instance of DMG is considered <color=Highlight>Heavy Attack DMG</color>.\nWhen <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color> hits, consume <SapTag=6>{6}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=6} of <color=Highlight><te href=850012>Havoc Bane</te></color> on the target.\nThe <color=Highlight>Basic Attack - Feather Sword Stance</color> cycle is not reset within a short time after casting <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color>. If casting <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color> resets the cycle, summon a <color=Highlight>Wraith of Sound</color> to finish the current attack and deal a fixed instance of <color=Dark>Havoc DMG</color>, considered <color=Highlight>Basic Attack DMG</color>, which is not affected by any DMG Bonus effects and does not inflict <color=Highlight><te href=850012>Havoc Bane</te></color>.\nSuccessful Dodge can be triggered within a short time into the action of this skill, which consumes <SapTag=7>{7}</SapTag> {Cus:Sap,S=point P=points SapTag=7} of <color=Highlight>Melody</color>.\n<size=10></size>\n<size=40><color=Title>Heavy Attack - Azure Sword Stance</color></size>\nWhen <color=Highlight>Azure Plume</color> is restored to its maximum while in <color=Highlight>Azure Sword Stance</color>, hold Normal Attack to consume STA and all <color=Highlight>Azure Plume</color> to cast <color=Highlight>Heavy Attack - Azure Sword Stance</color>, generating a massive cyclone that strikes the area in front, dealing <color=Dark>Havoc DMG</color>, considered <color=Highlight>Heavy Attack DMG</color>.\nWhen casting <color=Highlight>Heavy Attack - Azure Sword Stance</color>, gain <color=Highlight>Bated Breath</color>: If Yangyang: Xuanling is the active Resonator in the field, the Crit. DMG of this <color=Highlight>Heavy Attack - Azure Sword Stance</color> increases by {9}. When <color=Highlight>Heavy Attack - Azure Sword Stance</color> ends, <color=Highlight>Bated Breath</color> is removed. <color=Highlight>Bated Breath</color> can be gained up to once every {10}s.\n<color=Highlight>Heavy Attack - Azure Sword Stance</color> applies {11} stacks of <color=Highlight><te href=850012>Havoc Bane</te></color> to the targets it hits.\n<size=10></size>\n<size=40><color=Title>Heavy Attack - Feather Sword Stance</color></size>\nWhen <color=Highlight>Azure Plume</color> is restored to its maximum while in <color=Highlight>Feather Sword Stance</color>, if Yangyang: Xuanling is on the ground and not in a  not in a <color=Highlight>Basic Attack - Havoc in Bloom</color> cycle, hold Normal Attack to consume STA and cast <color=Highlight>Heavy Attack - Feather Sword Stance</color>, dealing <color=Dark>Havoc DMG</color>. After it hits a target, <color=Highlight>Mid-air Attack - Feather Fall</color> is automatically cast.\nWhen casting <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color>, gain <color=Highlight>Drifting Mist</color>, which lasts {12}s. While Yangyang: Xuanling is the active Resonator in the team, the Crit. DMG of the next <color=Highlight>Heavy Attack - Feather Sword Stance</color>, <color=Highlight>Mid-air Attack - Feather Fall</color>, <color=Highlight>Basic Attack - Havoc in Bloom</color>, or <color=Highlight>Dodge Counter - Havoc in Bloom</color> is increased by {13}. <color=Highlight>Drifting Mist</color> is removed when <color=Highlight>Basic Attack - Havoc in Bloom</color> Stage 3 or <color=Highlight>Dodge Counter - Havoc in Bloom</color> Stage 3 ends. <color=Highlight>Drifting Mist</color> can be gained up to once every {14}s.\n<color=Highlight>Heavy Attack - Feather Sword Stance</color> applies <SapTag=A>{15}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=A} stacks of <color=Highlight><te href=850012>Havoc Bane</te></color> to the targets it hits.\n<size=10></size>\n<size=40><color=Title>Mid-air Attack - Feather Fall</color></size>\nWhen <color=Highlight>Azure Plume</color> is restored to its maximum while in <color=Highlight>Feather Sword Stance</color> and airborne,  <color=Highlight>Mid-air Attack - Feather Sword Stance</color> is replaced by <color=Highlight>Mid-air Attack - Feather Fall</color>. Switching to another Resonator automatically casts <color=Highlight>Mid-air Attack - Feather Fall</color>.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} or hold Normal Attack to consume STA and all <color=Highlight>Azure Plume</color> to cast <color=Highlight>Mid-air Attack - Feather Fall</color>, dealing <color=Dark>Havoc DMG</color>. Casting <color=Highlight>Mid-air Attack - Feather Fall</color> enters <color=Highlight>Hark the Wind</color> for {16}s.\n<size=10></size>\n<size=40><color=Title>Hark the Wind</color></size>\nWhile in <color=Highlight>Feather Sword Stance</color>, <color=Highlight>Basic Attack - Feather Sword Stance</color> is replaced by <color=Highlight>Basic Attack - Havoc in Bloom</color>, consuming STA to perform up to 3 stages of attacks, dealing <color=Dark>Havoc DMG</color>,  considered <color=Highlight>Heavy Attack DMG</color>.\n<color=Highlight>Basic Attack - Havoc in Bloom</color> Stage 2 and Stage 3 can be cast in mid-air close to the ground. Casting Stage 3 ends <color=Highlight>Basic Attack - Havoc in Bloom</color>. This attack cycle cannot be reset.\nDuring <color=Highlight>Hark the Wind</color>, a Dodge Counter counts towards the <color=Highlight>Basic Attack - Havoc in Bloom</color> cycle.\n<size=10></size>\n<size=40><color=Title>Feathered Oath</color></size>\nWhen Resonators in the team apply <color=Highlight><te href=850012>Havoc Bane</te></color> to a target, Yangyang: Xuanling gains 1 stack of <color=Highlight>Feathered Oath</color> for {17}s. <color=Highlight>Feathered Oath</color> can be gained once every {18}s, stacking up to {19} times. While Yangyang: Xuanling is the active Resonator in the team, each stack increases the Crit. DMG of <color=Highlight>Heavy Attack - Azure Sword Stance</color>, <color=Highlight>Heavy Attack - Feather Sword Stance</color>, <color=Highlight>Mid-air Attack - Feather Fall</color>, <color=Highlight>Basic Attack - Havoc in Bloom</color>, and <color=Highlight>Dodge Counter - Havoc in Bloom</color> by {20}, up to {21}.\n<size=10></size>\n<size=40><color=Title>Refrain</color></size>\nBefore Yangyang: Xuanling's <color=Highlight>Basic Attack - Azure Sword Stance Stage 4</color>, <color=Highlight>Basic Attack - Feather Sword Stance Stage 4</color>, <color=Highlight>Heavy Attack - Azure Sword Stance</color>, or <color=Highlight>Heavy Attack - Feather Sword Stance</color> hits a target, record and propagate the highest stack count of <color=Highlight><te href=850012>Havoc Bane</te></color> on targets within a certain range to all targets within range.\n<size=10></size>\n<size=40><color=Title>Melody</color></size>\n<color=Highlight>Melody</color> has a maximum of {22} points.\nCasting <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color> or <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color> restores {23} <color=Highlight>Melody</color>.\nCasting Resonance Liberation <color=Highlight>Hush of a Thousand Voices</color> consumes all <color=Highlight>Melody</color>.\n<color=Highlight>Normal Attacks</color> consumes <color=Highlight>Melody</color> upon dealing damage.\n<size=10></size>\n<size=40><color=Title>Azure Plume</color></size>\n<color=Highlight>Azure Plume</color> has a maximum of {24} points.\nCasting <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color>,  <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color>, <color=Highlight>Intro Skill - Skybound Feather</color> restores <SapTag=B>{25}</SapTag> {Cus:Sap,S=point P=points SapTag=B} of <color=Highlight>Azure Plume</color>.\nCasting <color=Highlight>Heavy Attack - Azure Sword Stance</color> or <color=Highlight>Heavy Attack - Feather Sword Stance</color> consumes all <color=Highlight>Azure Plume</color>.",
         "param": [
           "100",
           "1",
-          "125%",
-          "25",
-          "15",
+          "1",
           "50",
           "100",
           "1",
-          "125%",
-          "25",
-          "15",
+          "1",
           "50",
+          "15",
+          "160%",
+          "25",
+          "2",
+          "15",
+          "160%",
+          "25",
           "2",
           "12",
-          "2",
-          "30%",
-          "180%",
+          "4",
+          "1",
+          "6",
+          "25%",
+          "150%",
           "100",
+          "100",
+          "50",
+          "2",
           "1",
-          "1",
-          "8"
+          "1"
         ],
-        "simple_desc": "<size=40><color=Title>Sword Stance Flow: Azure</color></size>\nSwitch to <color=Highlight>Azure Sword Stance</color>, gain <color=Highlight>Heavy Attack - Azure Sword Stance</color> Crit. DMG Bonus, deal <color=Dark>Havoc DMG</color>, and consume <color=Highlight><te href=850012>Havoc Bane</te></color> from the target.\n<size=10></size>\n<size=40><color=Title>Sword Stance Flow: Feather</color></size>\nSwitch to <color=Highlight>Feather Sword Stance</color>, gain <color=Highlight>Heavy Attack - Feather Sword Stance</color> and <color=Highlight>Enhanced Mid-air Attack - Feather Sword Stance</color> Crit. DMG Bonus, deal <color=Dark>Havoc DMG</color>, and consume <color=Highlight><te href=850012>Havoc Bane</te></color> from the target.\n<size=10></size>\n<size=40><color=Title>Heavy Attack - Azure Sword Stance</color></size>\nDeal <color=Dark>Havoc DMG</color> and apply <color=Highlight><te href=850012>Havoc Bane</te></color> to the target.\n<size=10></size>\n<size=40><color=Title>Heavy Attack - Feather Sword Stance</color></size>\nDeal <color=Dark>Havoc DMG</color> and apply <color=Highlight><te href=850012>Havoc Bane</te></color> to the target.\n<size=10></size>\n<size=40><color=Title>Enhanced Mid-air Attack - Feather Sword Stance</color></size>\nDeal <color=Dark>Havoc DMG</color>.",
+        "simple_desc": "<size=40><color=Title>Sword Stance Flow: Azure</color></size>\nSwitch to <color=Highlight>Azure Sword Stance</color>, gain Crit. DMG Bonus for <color=Highlight>Heavy Attack - Azure Sword Stance</color>, deal <color=Dark>Havoc DMG</color>, and consume <color=Highlight><te href=850012>Havoc Bane</te></color> on the target.\n<size=10></size>\n<size=40><color=Title>Sword Stance Flow: Feather</color></size>\nSwitch to <color=Highlight>Feather Sword Stance</color>, gain Crit. DMG Bonus for <color=Highlight>Heavy Attack - Feather Sword Stance</color> and <color=Highlight>Enhanced Mid-air Attack - Feather Sword Stance</color>, deal <color=Dark>Havoc DMG</color>, and consume <color=Highlight><te href=850012>Havoc Bane</te></color> from the target.\n<size=10></size>\n<size=40><color=Title>Heavy Attack - Azure Sword Stance</color></size>\nDeal <color=Dark>Havoc DMG</color> and apply <color=Highlight><te href=850012>Havoc Bane</te></color> to the target.\n<size=10></size>\n<size=40><color=Title>Heavy Attack - Feather Sword Stance</color></size>\nDeal <color=Dark>Havoc DMG</color> and apply <color=Highlight><te href=850012>Havoc Bane</te></color> to the target.\n<size=10></size>\n<size=40><color=Title>Enhanced Mid-air Attack - Feather Sword Stance</color></size>\nDeal <color=Dark>Havoc DMG</color>.",
         "simple_param": [],
         "icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLingY.SP_IconXuanLingY",
         "type": "Forte Circuit",
         "level": {
           "15": {
-            "name": "Sword Stance Flow: Azure",
+            "name": "Resonance Skill - Sword Stance Flow: Azure DMG",
             "param": [
               [
-                "58.64%",
-                "63.45%",
-                "68.26%",
-                "74.99%",
-                "79.80%",
-                "85.33%",
-                "93.03%",
-                "100.72%",
-                "108.41%",
-                "116.59%",
-                "126.20%",
-                "135.82%",
-                "145.44%",
-                "155.06%",
-                "164.67%",
-                "174.29%",
-                "183.91%",
-                "193.52%",
-                "203.14%",
-                "212.76%"
+                "35.19%+7.82%*3",
+                "38.07%+8.46%*3",
+                "40.96%+9.11%*3",
+                "45.00%+10.00%*3",
+                "47.88%+10.64%*3",
+                "51.20%+11.38%*3",
+                "55.82%+12.41%*3",
+                "60.43%+13.43%*3",
+                "65.05%+14.46%*3",
+                "69.95%+15.55%*3",
+                "75.72%+16.83%*3",
+                "81.49%+18.11%*3",
+                "87.26%+19.40%*3",
+                "93.04%+20.68%*3",
+                "98.81%+21.96%*3",
+                "104.58%+23.24%*3",
+                "110.35%+24.53%*3",
+                "116.12%+25.81%*3",
+                "121.89%+27.09%*3",
+                "127.66%+28.37%*3"
               ]
             ]
           },
           "16": {
-            "name": "Sword Stance Flow: Feather",
+            "name": "Resonance Skill - Sword Stance Flow: Feather DMG",
             "param": [
               [
                 "16.88%*3",
@@ -3169,7 +3177,7 @@
             ]
           },
           "17": {
-            "name": "Heavy Attack - Azure Sword Stance",
+            "name": "Heavy Attack - Azure Sword Stance DMG",
             "param": [
               [
                 "67.99%+67.99%+90.65%",
@@ -3196,61 +3204,61 @@
             ]
           },
           "18": {
-            "name": "Heavy Attack - Feather Sword Stance",
+            "name": "Heavy Attack - Feather Sword Stance DMG",
             "param": [
               [
-                "8.40%+75.58%",
-                "9.09%+81.77%",
-                "9.78%+87.97%",
-                "10.74%+96.65%",
-                "11.43%+102.84%",
-                "12.22%+109.97%",
-                "13.33%+119.89%",
-                "14.43%+129.80%",
-                "15.53%+139.72%",
-                "16.70%+150.25%",
-                "18.08%+162.65%",
-                "19.45%+175.04%",
-                "20.83%+187.43%",
-                "22.21%+199.83%",
-                "23.58%+212.22%",
-                "24.96%+224.62%",
-                "26.34%+237.01%",
-                "27.72%+249.40%",
-                "29.09%+261.80%",
-                "30.47%+274.19%"
+                "10.92%+98.26%",
+                "11.82%+106.31%",
+                "12.71%+114.37%",
+                "13.97%+125.65%",
+                "14.86%+133.71%",
+                "15.89%+142.97%",
+                "17.32%+155.86%",
+                "18.75%+168.75%",
+                "20.19%+181.65%",
+                "21.71%+195.34%",
+                "23.50%+211.46%",
+                "25.29%+227.57%",
+                "27.08%+243.68%",
+                "28.87%+259.80%",
+                "30.66%+275.91%",
+                "32.45%+292.02%",
+                "34.24%+308.14%",
+                "36.03%+324.25%",
+                "37.82%+340.36%",
+                "39.61%+356.48%"
               ]
             ]
           },
           "19": {
-            "name": "Feather Sword Stance - Enhanced Plunging Attack",
+            "name": "Mid-air Attack - Feather Sword Stance: Feather Fall DMG",
             "param": [
               [
-                "10.80%*3+48.60%",
-                "11.69%*3+52.59%",
-                "12.58%*3+56.58%",
-                "13.82%*3+62.15%",
-                "14.70%*3+66.14%",
-                "15.72%*3+70.72%",
-                "17.14%*3+77.10%",
-                "18.55%*3+83.48%",
-                "19.97%*3+89.85%",
-                "21.48%*3+96.63%",
-                "23.25%*3+104.60%",
-                "25.02%*3+112.57%",
-                "26.79%*3+120.54%",
-                "28.56%*3+128.51%",
-                "30.33%*3+136.48%",
-                "32.10%*3+144.45%",
-                "33.87%*3+152.42%",
-                "35.65%*3+160.39%",
-                "37.42%*3+168.36%",
-                "39.19%*3+176.33%"
+                "7.44%*3+33.48%",
+                "8.06%*3+36.23%",
+                "8.67%*3+38.98%",
+                "9.52%*3+42.82%",
+                "10.13%*3+45.56%",
+                "10.83%*3+48.72%",
+                "11.81%*3+53.11%",
+                "12.78%*3+57.51%",
+                "13.76%*3+61.90%",
+                "14.80%*3+66.57%",
+                "16.02%*3+72.06%",
+                "17.24%*3+77.55%",
+                "18.46%*3+83.04%",
+                "19.68%*3+88.53%",
+                "20.90%*3+94.02%",
+                "22.12%*3+99.51%",
+                "23.34%*3+105.00%",
+                "24.56%*3+110.49%",
+                "25.78%*3+115.98%",
+                "27.00%*3+121.47%"
               ]
             ]
           },
           "20": {
-            "name": "Havoc in Bloom Stage 1",
+            "name": "Basic Attack - Havoc in Bloom Stage 1 DMG",
             "param": [
               [
                 "20.01%*3",
@@ -3277,7 +3285,7 @@
             ]
           },
           "21": {
-            "name": "Havoc in Bloom Stage 2",
+            "name": "Basic Attack - Havoc in Bloom Stage 2 DMG",
             "param": [
               [
                 "44.90%+33.67%+33.67%",
@@ -3304,7 +3312,7 @@
             ]
           },
           "22": {
-            "name": "Havoc in Bloom Stage 3",
+            "name": "Basic Attack - Havoc in Bloom Stage 3 DMG",
             "param": [
               [
                 "12.06%*5+140.68%",
@@ -3331,7 +3339,7 @@
             ]
           },
           "23": {
-            "name": "Dodge Counter - Havoc in Bloom Stage 1",
+            "name": "Dodge Counter - Havoc in Bloom Stage 1 DMG",
             "param": [
               [
                 "20.01%*3",
@@ -3358,7 +3366,7 @@
             ]
           },
           "24": {
-            "name": "Dodge Counter - Havoc in Bloom Stage 2",
+            "name": "Dodge Counter - Havoc in Bloom Stage 2 DMG",
             "param": [
               [
                 "44.90%+33.67%+33.67%",
@@ -3385,7 +3393,7 @@
             ]
           },
           "25": {
-            "name": "Dodge Counter - Havoc in Bloom Stage 3",
+            "name": "Dodge Counter - Havoc in Bloom Stage 3 DMG",
             "param": [
               [
                 "12.06%*5+140.68%",
@@ -3466,7 +3474,7 @@
             ]
           },
           "28": {
-            "name": "Feather Sword Stance - Enhanced Plunging Attack STA Cost",
+            "name": "Mid-air Attack - Feather Sword Stance: Feather Fall STA Cost",
             "param": [
               [
                 "20",
@@ -3489,6 +3497,33 @@
                 "20",
                 "20",
                 "20"
+              ]
+            ]
+          },
+          "26_2": {
+            "name": "Wraith of Sound DMG",
+            "param": [
+              [
+                "523",
+                "523",
+                "523",
+                "523",
+                "523",
+                "523",
+                "523",
+                "523",
+                "523",
+                "523",
+                "523",
+                "523",
+                "523",
+                "523",
+                "523",
+                "523",
+                "523",
+                "523",
+                "523",
+                "523"
               ]
             ]
           }
@@ -3666,7 +3701,7 @@
               24665
             ],
             "energy": 280,
-            "element_power": 200,
+            "element_power": 260,
             "hardness_lv": 10000,
             "tough_lv": 3999,
             "weakness_lvl": 3200
@@ -3698,7 +3733,7 @@
               24665
             ],
             "energy": 280,
-            "element_power": 200,
+            "element_power": 260,
             "hardness_lv": 10000,
             "tough_lv": 3999,
             "weakness_lvl": 3200
@@ -3730,7 +3765,7 @@
               32887
             ],
             "energy": 374,
-            "element_power": 267,
+            "element_power": 347,
             "hardness_lv": 10000,
             "tough_lv": 5332,
             "weakness_lvl": 4266
@@ -3772,28 +3807,28 @@
             "related_property": "ATK",
             "type": 1,
             "rate_lv": [
-              840,
-              909,
-              978,
-              1074,
-              1143,
-              1222,
-              1333,
-              1443,
-              1553,
-              1670,
-              1808,
-              1945,
-              2083,
-              2221,
-              2358,
-              2496,
-              2634,
-              2772,
-              2909,
-              3047
+              1092,
+              1182,
+              1271,
+              1397,
+              1486,
+              1589,
+              1732,
+              1875,
+              2019,
+              2171,
+              2350,
+              2529,
+              2708,
+              2887,
+              3066,
+              3245,
+              3424,
+              3603,
+              3782,
+              3961
             ],
-            "energy": 17,
+            "energy": 19,
             "element_power": 47,
             "hardness_lv": 10000,
             "tough_lv": 933,
@@ -3804,28 +3839,28 @@
             "related_property": "ATK",
             "type": 1,
             "rate_lv": [
-              7558,
-              8177,
-              8797,
-              9665,
-              10284,
-              10997,
-              11989,
-              12980,
-              13972,
-              15025,
-              16265,
-              17504,
-              18743,
-              19983,
-              21222,
-              22462,
-              23701,
-              24940,
-              26180,
-              27419
+              9826,
+              10631,
+              11437,
+              12565,
+              13371,
+              14297,
+              15586,
+              16875,
+              18165,
+              19534,
+              21146,
+              22757,
+              24368,
+              25980,
+              27591,
+              29202,
+              30814,
+              32425,
+              34036,
+              35648
             ],
-            "energy": 152,
+            "energy": 168,
             "element_power": 420,
             "hardness_lv": 10000,
             "tough_lv": 8397,
@@ -3836,64 +3871,64 @@
             "related_property": "ATK",
             "type": 1,
             "rate_lv": [
-              1080,
-              1169,
-              1258,
-              1382,
-              1470,
-              1572,
-              1714,
-              1855,
-              1997,
-              2148,
-              2325,
-              2502,
-              2679,
-              2856,
-              3033,
-              3210,
-              3387,
-              3565,
-              3742,
-              3919
+              744,
+              806,
+              867,
+              952,
+              1013,
+              1083,
+              1181,
+              1278,
+              1376,
+              1480,
+              1602,
+              1724,
+              1846,
+              1968,
+              2090,
+              2212,
+              2334,
+              2456,
+              2578,
+              2700
             ],
-            "energy": 22,
-            "element_power": 60,
+            "energy": 17,
+            "element_power": 42,
             "hardness_lv": 10000,
-            "tough_lv": 1200,
-            "weakness_lvl": 960
+            "tough_lv": 827,
+            "weakness_lvl": 662
           },
           "161013202": {
             "element": 6,
             "related_property": "ATK",
             "type": 1,
             "rate_lv": [
-              4860,
-              5259,
-              5658,
-              6215,
-              6614,
-              7072,
-              7710,
-              8348,
-              8985,
-              9663,
-              10460,
-              11257,
-              12054,
-              12851,
-              13648,
-              14445,
-              15242,
-              16039,
-              16836,
-              17633
+              3348,
+              3623,
+              3898,
+              4282,
+              4556,
+              4872,
+              5311,
+              5751,
+              6190,
+              6657,
+              7206,
+              7755,
+              8304,
+              8853,
+              9402,
+              9951,
+              10500,
+              11049,
+              11598,
+              12147
             ],
-            "energy": 98,
-            "element_power": 270,
+            "energy": 75,
+            "element_power": 186,
             "hardness_lv": 10000,
-            "tough_lv": 5400,
-            "weakness_lvl": 4320
+            "tough_lv": 3720,
+            "weakness_lvl": 2976
           },
           "161013301": {
             "element": 6,
@@ -3921,7 +3956,7 @@
               6932,
               7260
             ],
-            "energy": 41,
+            "energy": 45,
             "element_power": 112,
             "hardness_lv": 10000,
             "tough_lv": 4000,
@@ -3953,7 +3988,7 @@
               15552,
               16288
             ],
-            "energy": 90,
+            "energy": 100,
             "element_power": 250,
             "hardness_lv": 10000,
             "tough_lv": 4988,
@@ -3985,7 +4020,7 @@
               11664,
               12216
             ],
-            "energy": 68,
+            "energy": 75,
             "element_power": 188,
             "hardness_lv": 10000,
             "tough_lv": 3741,
@@ -4017,7 +4052,7 @@
               11664,
               12216
             ],
-            "energy": 68,
+            "energy": 75,
             "element_power": 188,
             "hardness_lv": 10000,
             "tough_lv": 3741,
@@ -4049,11 +4084,11 @@
               4178,
               4375
             ],
-            "energy": 25,
-            "element_power": 67,
+            "energy": 16,
+            "element_power": 52,
             "hardness_lv": 10000,
-            "tough_lv": 1340,
-            "weakness_lvl": 1072
+            "tough_lv": 800,
+            "weakness_lvl": 640
           },
           "161013502": {
             "element": 6,
@@ -4081,11 +4116,11 @@
               48733,
               51040
             ],
-            "energy": 282,
-            "element_power": 782,
+            "energy": 187,
+            "element_power": 607,
             "hardness_lv": 10000,
-            "tough_lv": 15631,
-            "weakness_lvl": 12505
+            "tough_lv": 9331,
+            "weakness_lvl": 7465
           },
           "161014201": {
             "element": 6,
@@ -4113,7 +4148,7 @@
               6932,
               7260
             ],
-            "energy": 41,
+            "energy": 45,
             "element_power": 112,
             "hardness_lv": 10000,
             "tough_lv": 4000,
@@ -4145,7 +4180,7 @@
               15552,
               16288
             ],
-            "energy": 90,
+            "energy": 100,
             "element_power": 250,
             "hardness_lv": 10000,
             "tough_lv": 4988,
@@ -4177,7 +4212,7 @@
               11664,
               12216
             ],
-            "energy": 68,
+            "energy": 75,
             "element_power": 188,
             "hardness_lv": 10000,
             "tough_lv": 3741,
@@ -4209,7 +4244,7 @@
               11664,
               12216
             ],
-            "energy": 68,
+            "energy": 75,
             "element_power": 188,
             "hardness_lv": 10000,
             "tough_lv": 3741,
@@ -4241,11 +4276,11 @@
               4178,
               4375
             ],
-            "energy": 25,
-            "element_power": 67,
+            "energy": 16,
+            "element_power": 52,
             "hardness_lv": 10000,
-            "tough_lv": 1340,
-            "weakness_lvl": 1072
+            "tough_lv": 800,
+            "weakness_lvl": 640
           },
           "161014402": {
             "element": 6,
@@ -4273,43 +4308,43 @@
               48733,
               51040
             ],
-            "energy": 282,
-            "element_power": 782,
+            "energy": 187,
+            "element_power": 607,
             "hardness_lv": 10000,
-            "tough_lv": 15631,
-            "weakness_lvl": 12505
+            "tough_lv": 9331,
+            "weakness_lvl": 7465
           },
           "161015201": {
             "element": 6,
             "related_property": "ATK",
             "type": 1,
             "rate_lv": [
-              5864,
-              6345,
-              6826,
-              7499,
-              7980,
-              8533,
-              9303,
-              10072,
-              10841,
-              11659,
-              12620,
-              13582,
-              14544,
-              15506,
-              16467,
-              17429,
-              18391,
-              19352,
-              20314,
-              21276
+              3519,
+              3807,
+              4096,
+              4500,
+              4788,
+              5120,
+              5582,
+              6043,
+              6505,
+              6995,
+              7572,
+              8149,
+              8726,
+              9304,
+              9881,
+              10458,
+              11035,
+              11612,
+              12189,
+              12766
             ],
-            "energy": 1160,
-            "element_power": 1500,
+            "energy": 696,
+            "element_power": 900,
             "hardness_lv": 10000,
-            "tough_lv": 7330,
-            "weakness_lvl": 5864
+            "tough_lv": 4398,
+            "weakness_lvl": 3519
           }
         }
       }
@@ -4336,12 +4371,14 @@
       ],
       "skill": {
         "name": "As the Wind Wills",
-        "desc": "Attacks the target, dealing <color=Dark>Havoc DMG</color>.\nWhen a Resonator in the team other than Yangyang: Xuanling applies <color=Highlight><te href=850012>Havoc Bane</te></color> to a target, that Resonator's Havoc DMG is Amplified by {0} for {1}s.",
+        "desc": "Attacks the target, dealing <color=Dark>Havoc DMG</color> equal to {3} of Yangyang: Xuanling's ATK.\nWhen a Resonator in the team other than Yangyang: Xuanling inflicts <color=Highlight><te href=850012>Havoc Bane</te></color> within {2}s of this skill, that Resonator's Havoc DMG is Amplified by {0} for {1}s.",
         "param": [
           "20%",
-          "20"
+          "20",
+          "20",
+          "300%"
         ],
-        "simple_desc": "Attacks the target, dealing <color=Dark>Havoc DMG</color>.\nWhen a Resonator in the team other than Yangyang: Xuanling applies <color=Highlight><te href=850012>Havoc Bane</te></color> to a target, that Resonator's Havoc DMG is Amplified by {0} for {1}s.",
+        "simple_desc": "Deal <color=Dark>Havoc DMG</color>.\nWhen a Resonator in the team other than Yangyang: Xuanling inflicts <color=Highlight><te href=850012>Havoc Bane</te></color>, that Resonator's Havoc DMG is Amplified.",
         "simple_param": [],
         "icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLingT.SP_IconXuanLingT",
         "type": "Outro Skill",
@@ -4655,9 +4692,9 @@
       ],
       "skill": {
         "name": "Tune Break - Sword",
-        "desc": "When the target's <color=Highlight>Off-Tune Level</color> is full, you can cast <color=Highlight><te href=100001>Tune Break</te></color> on it.",
+        "desc": "When the target's <color=Highlight>Off-Tune Level</color> is full, the Resonator may cast <color=Highlight><te href=100001>Tune Break</te></color> on the target.",
         "param": [],
-        "simple_desc": "When the target's <color=Highlight>Off-Tune Level</color> is full, you can cast <color=Highlight><te href=100001>Tune Break</te></color> on it.",
+        "simple_desc": "When the target's <color=Highlight>Off-Tune Level</color> is full, the Resonator may cast <color=Highlight><te href=100001>Tune Break</te></color> on the target.",
         "simple_param": [],
         "icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakKnife.SP_IconWeakPointBreakKnife",
         "type": "Tune Break",
@@ -4673,7 +4710,7 @@
   "chains": {
     "1": {
       "name": "At the wind's breath, the blossoms wake",
-      "desc": "After <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color> or <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color> hits a target, surrounding enemies are Stagnated, and <color=Highlight>Shadow of Xuanling: Unfaltering</color> is summoned to attack the target, dealing <color=Dark>Havoc DMG</color> equal to {0} of Yangyang: Xuanling's ATK. This DMG is considered <color=Highlight>Heavy Attack DMG</color>.\n<size=10></size>\n<color=Highlight>Heavy Attack - Azure Sword Stance</color> and <color=Highlight>Basic Attack - Havoc in Bloom</color> are immune to interruption.",
+      "desc": "After <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color> or <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color> hits a target, surrounding enemies are Stagnated, and <color=Highlight>Shadow of Xuanling: Unfaltering</color> is summoned to attack the target, dealing <color=Dark>Havoc DMG</color> equal to {0} of Yangyang: Xuanling's ATK. This DMG is considered <color=Highlight>Heavy Attack DMG</color>.\n<size=10></size>\nNearby enemies are Stagnated when <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color> and <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color> are cast.\n<size=10></size>\n<color=Highlight>Heavy Attack - Azure Sword Stance</color>, <color=Highlight>Basic Attack - Havoc in Bloom</color> and <color=Highlight>Dodge Counter - Havoc in Bloom</color> are immune to interruption.",
       "param": [
         "337.98%",
         "30"
@@ -4682,7 +4719,7 @@
     },
     "2": {
       "name": "River carries her song away",
-      "desc": "The DMG dealt by <color=Highlight>Heavy Attack - Azure Sword Stance</color>, <color=Highlight>Heavy Attack - Feather Sword Stance</color>, <color=Highlight>Mid-air Attack - Feather Fall</color>, and <color=Highlight>Basic Attack - Havoc in Bloom</color> is increased by {0}.\n<size=10></size>\nWhen Yangyang: Xuanling remains out of combat for more than 4s, gain the following effects:\n- Gain <color=Highlight>Strung Notes</color>, up to 1 stack. When <color=Highlight>Basic Attack - Azure Sword Stance</color> or <color=Highlight>Basic Attack - Feather Sword Stance</color> hits a target, summon <color=Highlight>Shadow of Xuanling: Strung Notes</color> to attack the target, dealing <color=Dark>Havoc DMG</color> equal to {1} of Yangyang: Xuanling's ATK. This DMG is considered <color=Highlight>Heavy Attack DMG</color>. <color=Highlight>Strung Notes</color> is removed after <color=Highlight>Shadow of Xuanling: Strung Notes</color> is summoned.\n- Restore 2 <color=Highlight>Azure Plume</color>.\n- Reset the Cooldown of gaining <color=Highlight>Bated Breath</color> and <color=Highlight>Drifting Mist</color>.",
+      "desc": "The DMG dealt by <color=Highlight>Heavy Attack - Azure Sword Stance</color>, <color=Highlight>Heavy Attack - Feather Sword Stance</color>, <color=Highlight>Mid-air Attack - Feather Fall</color>,  <color=Highlight>Basic Attack - Havoc in Bloom</color>, and <color=Highlight>Dodge Counterk - Havoc in Bloom</color> is increased by {0}.\n<size=10></size>\nEvery time when Yangyang: Xuanling remains out of combat for more than 4s after she leaves the combat state or regains consciousness, she gains the following effects once:\n- Gain <color=Highlight>Strung Notes</color>, up to 1 stack. Casting <color=Highlight>Basic Attack - Azure Sword Stance</color> or <color=Highlight>Basic Attack - Feather Sword Stance</color> summons <color=Highlight>Shadow of Xuanling: Strung Notes</color> to attack the target, dealing <color=Dark>Havoc DMG</color> equal to {1} of Yangyang: Xuanling's ATK, considered <color=Highlight>Heavy Attack DMG</color>. <color=Highlight>Strung Notes</color> is removed after <color=Highlight>Shadow of Xuanling: Strung Notes</color> is summoned.\n- Restore 2 <color=Highlight>Azure Plume</color>.\n- Reset the Cooldown of gaining <color=Highlight>Bated Breath</color> and <color=Highlight>Drifting Mist</color>.",
       "param": [
         "100%",
         "337.98%"
@@ -4691,25 +4728,26 @@
     },
     "3": {
       "name": "My grief follows you into the clouds",
-      "desc": "The DMG of Resonance Liberation <color=Highlight>Hush of a Thousand Voices</color> is Amplified by {0}.\n<size=10></size>\nAfter casting <color=Highlight>Intro Skill - Skybound Feather</color>, <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color>, or <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color>, increase the maximum <color=Highlight><te href=850012>Havoc Bane</te></color> stacks of targets within a certain range by {1}.\n<size=10></size>\n<color=Highlight>Basic Attack - Azure Sword Stance Stage 4</color>, <color=Highlight>Basic Attack - Feather Sword Stance Stage 4</color>, <color=Highlight>Heavy Attack - Azure Sword Stance</color>, and <color=Highlight>Heavy Attack - Feather Sword Stance</color> apply 1 additional stack of <color=Highlight><te href=850012>Havoc Bane</te></color> to the target.",
+      "desc": "The DMG dealt via Resonance Liberation <color=Highlight>Hush of a Thousand Voices</color> is Amplified by {0}.\n<size=10></size>\nAfter casting <color=Highlight>Intro Skill - Skybound Feather</color>, <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color>, or <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color>, increase the maximum <color=Highlight><te href=850012>Havoc Bane</te></color> stacks of targets within a certain range by {1}, lasting {2}s.\n<size=10></size>\n<color=Highlight>Basic Attack - Azure Sword Stance Stage 4</color>, <color=Highlight>Basic Attack - Feather Sword Stance Stage 4</color>, <color=Highlight>Heavy Attack - Azure Sword Stance</color>, and <color=Highlight>Heavy Attack - Feather Sword Stance</color> apply 1 additional stack of <color=Highlight><te href=850012>Havoc Bane</te></color> to the target.",
       "param": [
         "175%",
-        "3"
+        "3",
+        "20"
       ],
       "icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_XuanLingM3_UI.T_IconDevice_XuanLingM3_UI"
     },
     "4": {
       "name": "Across the miles, a letter and my longing",
-      "desc": "When casting <color=Highlight>Intro Skill - Skybound Feather</color>, <color=Highlight>Sword Stance Switch: Azure</color>, <color=Highlight>Sword Stance Switch: Feather</color>, <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color>, or <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color>, the ATK of Resonators in the team is increased by {0} for {1}s.",
+      "desc": "When casting <color=Highlight>Intro Skill - Skybound Feather</color>, <color=Highlight>Resonance Skill - Sword Stance Switch: Azure</color>, <color=Highlight>Resonance Skill - Sword Stance Switch: Feather</color>, <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color>, or <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color>, the ATK of Resonators in the team is increased by {0} for {1}s.",
       "param": [
         "20%",
-        "30"
+        "20"
       ],
       "icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_XuanLingM4_UI.T_IconDevice_XuanLingM4_UI"
     },
     "5": {
       "name": "Take wing. Take wing.",
-      "desc": "When Yangyang: Xuanling takes fatal DMG, she will not be downed by the DMG, but instead recover HP equal to {0} of her Max HP while becoming immune to DMG and interruption for {1}s. This effect can be triggered once every {2} min.",
+      "desc": "When Yangyang: Xuanling takes a fatal blow, she will not be downed, but instead recover HP equal to {0} of her Max HP while becoming immune to DMG and interruption for {1}s. This effect can be triggered once every {2} min.",
       "param": [
         "50%",
         "3",
@@ -4719,11 +4757,10 @@
     },
     "6": {
       "name": "Let the azure keep its light",
-      "desc": "When Yangyang: Xuanling applies <color=Highlight><te href=850012>Havoc Bane</te></color> to a target, gain <color=Highlight>Voice Flux</color> for {0}s. While <color=Highlight>Voice Flux</color> is active, the Heavy Attack DMG Yangyang: Xuanling deals to the target is increased by {1}. <color=Highlight>Voice Flux</color> has a Cooldown of {2}s.\n<size=10></size>\nAfter casting <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color> or <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color>, gain <color=Highlight>Still as Withered Wood</color> for {3}s. While <color=Highlight>Still as Withered Wood</color> is active, if Yangyang: Xuanling is on the field, then when Resonators in the team apply <color=Highlight><te href=850010>Glacio Chafe</te></color>, <color=Highlight><te href=850011>Fusion Burst</te></color>, <color=Highlight><te href=850013>Electro Flare</te></color>, <color=Highlight><te href=850009>Aero Erosion</te></color>, <color=Highlight><te href=850008>Spectro Frazzle</te></color>, or <color=Highlight><te href=850012>Havoc Bane</te></color> to a target, Yangyang: Xuanling summons <color=Highlight>Shadow of Xuanling: Still as Withered Wood</color> to attack the target, dealing <color=Dark>Havoc DMG</color> equal to {4} of Yangyang: Xuanling's ATK. The DMG of <color=Highlight>Shadow of Xuanling: Still as Withered Wood</color> is considered <color=Highlight>Heavy Attack DMG</color> and is guaranteed to Crit.\n<size=10></size>\n<color=Highlight>Shadow of Xuanling: Still as Withered Wood</color> can trigger once every {5}s and is removed after triggering {6} times. <color=Highlight>Shadow of Xuanling: Still as Withered Wood</color> has a Cooldown of {7}s.",
+      "desc": "When Yangyang: Xuanling applies <color=Highlight><te href=850012>Havoc Bane</te></color> to a target, gain <color=Highlight>Voice Flux</color> for {0}s. While <color=Highlight>Voice Flux</color> is active, the Heavy Attack DMG from Yangyang: Xuanling is increased by {1}.\n<size=10></size>\nAfter casting <color=Highlight>Resonance Skill - Sword Stance Flow: Azure</color> or <color=Highlight>Resonance Skill - Sword Stance Flow: Feather</color>, gain <color=Highlight>Still as Withered Wood</color> for {2}s. While <color=Highlight>Still as Withered Wood</color> is active, if Yangyang: Xuanling is on the field, then when nearby Resonators in the team inflict <color=Highlight><te href=850010>Glacio Chafe</te></color>, <color=Highlight><te href=850011>Fusion Burst</te></color>, <color=Highlight><te href=850013>Electro Flare</te></color>, <color=Highlight><te href=850009>Aero Erosion</te></color>, <color=Highlight><te href=850008>Spectro Frazzle</te></color>, or <color=Highlight><te href=850012>Havoc Bane</te></color>, Yangyang: Xuanling summons <color=Highlight>Shadow of Xuanling: Still as Withered Wood</color> to attack the target, dealing <color=Dark>Havoc DMG</color> equal to {3} of Yangyang: Xuanling's ATK. The DMG of <color=Highlight>Shadow of Xuanling: Still as Withered Wood</color> is considered <color=Highlight>Heavy Attack DMG</color> and is guranteed to be a critical hit.\n<size=10></size>\n<color=Highlight>Shadow of Xuanling: Still as Withered Wood</color> can trigger once every {4}s and is removed after triggering {5} times. <color=Highlight>Still as Withered Wood</color> has a Cooldown of {6}s.",
       "param": [
         "30",
         "40%",
-        "25",
         "30",
         "337.98%",
         "1",
@@ -4860,7 +4897,7 @@
     "features": [
       "Deals powerful Heavy Attack DMG.",
       "Can convert <color=Highlight>Havoc Bane</color> into buffs for herself.",
-      "With 2 <color=Highlight>Azure Plume</color>, the <color=Highlight>Heavy Attack</color> of the corresponding Sword Stance is unlocked, pulling in nearby targets and dealing DMG."
+      "With 2 points of <color=Highlight>Azure Plume</color>, the <color=Highlight>Heavy Attack</color> of the corresponding Sword Stance is unlocked, pulling in nearby targets and dealing DMG."
     ],
     "instructions": {
       "161001": {
@@ -4874,14 +4911,14 @@
             ]
           },
           "161008": {
-            "desc": "After <color=Highlight>Melody</color> is depleted, the Forte Gauge is covered by feathers, and <color=Highlight>Sword Stance Flow</color> is unlocked.\nUsing <color=Highlight>Sword Stance Flow</color> switches to the other Sword Stance, restoring all <color=Highlight>Melody</color> and granting 1 <color=Highlight>Azure Plume</color>.",
+            "desc": "After <color=Highlight>Melody</color> is depleted, the Forte Gauge is covered by feathers, and <color=Highlight>Sword Stance Flow</color> is unlocked.\nUsing <color=Highlight>Sword Stance Flow</color> switches to the other Sword Stance, restoring all <color=Highlight>Melody</color> and granting 1 point of <color=Highlight>Azure Plume</color>.",
             "input_list": [],
             "image_list": [
               "/Game/Aki/UI/UIResources/UiRole/Image/T_RoleSkillTreeXuanling2.T_RoleSkillTreeXuanling2"
             ]
           },
           "161009": {
-            "desc": "With 2 <color=Highlight>Azure Plume</color>, <color=Highlight>Heavy Attack</color> is unlocked; different <color=Highlight>Heavy Attacks</color> can be cast depending on the current Sword Stance.",
+            "desc": "With 2 points of <color=Highlight>Azure Plume</color>, <color=Highlight>Heavy Attack</color> is unlocked. Different <color=Highlight>Heavy Attacks</color> can be cast depending on the current Sword Stance.",
             "input_list": [],
             "image_list": [
               "/Game/Aki/UI/UIResources/UiRole/Image/T_RoleSkillTreeXuanling3.T_RoleSkillTreeXuanling3"
@@ -4929,7 +4966,7 @@
             "image_list": []
           },
           "161006": {
-            "desc": "Heavy Attack - Feather Sword Stance: When <color=Highlight>Azure Plume</color> is restored to its maximum, hold {0} continuously.",
+            "desc": "Heavy Attack - Feather Sword Stance: When <color=Highlight>Azure Plume</color> is restored to its maximum, hold {0}.",
             "input_list": [
               "攻击"
             ],

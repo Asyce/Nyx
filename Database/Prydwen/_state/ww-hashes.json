@@ -1,6 +1,6 @@
 {
   "game": "ww",
-  "updatedAt": "2026-06-26T08:40:51.613Z",
+  "updatedAt": "2026-06-27T08:12:03.413Z",
   "hashes": {
     "records": {
       "characters:aalto": "7f8907f7c103473121c21bc558625fb4b95d478f9e560ffa747c1005b228fa9b",
@@ -45,9 +45,10 @@
       "characters:rebecca": "412d18d9b5d7b3108ec4b2fa0e36a8d6b127cb758ee5b94c9d8a356d8af50340",
       "characters:roccia": "86c73e5a47d3e19f2e029b426c3e6b96a7980c11ce5df541df39b347a703b9c1",
       "characters:rover-aero": "199953d3d21d2d2f53b67983b561fde50c5c1120c056a27ee27d6f79ef8c5a02",
+      "characters:rover-electro": "8d1f0070f5429fee82afa3688af01cb470c910afaeaba1a87395779430ed43e9",
       "characters:rover-havoc": "9d09c443139ea4598b3f83046a00d21fde28d0fccbd4a36701253671e74acaa6",
       "characters:rover-spectro": "745dacb1823d4bb590b81ac98fe261d31e4f4f5c4e63f7c45615738fe0e8257c",
-      "characters:sanhua": "154291427f0ade1514f75ae60241f98e8dceb2db9721939473c1ff904acd5af4",
+      "characters:sanhua": "0887ae656b2e5009e33564a7bab01c5d1227df7f17b3668766f9ec1121313806",
       "characters:sigrika": "ef5e161d607b7f388078d56c13b0838f08d62f2a826a884309aa535eb2730bd5",
       "characters:suisui": "688bf49b54bb13ecae9c4064c6c719ec85f20e9ba9d27f08df400911f62554f6",
       "characters:suoming": "d38c2e4c682ded03db5ccf20ab0135c21532d999cf9e8f593ab6737d81a0ad70",
@@ -62,9 +63,9 @@
       "characters:yuanwu": "db4020c37b398f79738a84884162ded42ebce86dcfda6df00698ba42c18868b0",
       "characters:zani": "ce713a55d56f4cff55b303d52ed6b487305e1cac6c6027676ddbd606a855fa42",
       "characters:zhezhi": "85ff5c328fe26edb6fa5e78850e06f3591f92b272bbc5971091156fdc4650486",
-      "collection:characters": "2b61b8cd62325ea5b4cb47457d2584530fa4654fb68f99faa9a53bf433eda6e4",
+      "collection:characters": "76a90dc38b939f973ea6893da08b38ad34181e6eaf3cf074a2d0983ed0bac8b4",
       "collection:echoes": "a19b72baa70c6c60df0c6864ac2fbaca01de15f931a473fe260575296b0d0816",
-      "collection:weapons": "fa1ed40133d3193c75391ce15de7b9b2d2c1fd9e61325794935773adf86e1c82"
+      "collection:weapons": "b7b080872ffb7e6f1be138307139b127dddadd0df5a636dd59f5f95159130adb"
     }
   }
 }

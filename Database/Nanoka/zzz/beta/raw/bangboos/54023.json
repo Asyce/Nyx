@@ -2,9 +2,9 @@
   "id": 54023,
   "code_name": "Ariel",
   "name": "Ariel",
-  "desc": "Bangboo_Desc_54023",
+  "desc": "Never walk alone in the land of None.",
   "rarity": 4,
-  "icon": "",
+  "icon": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole48.png",
   "stats": {
     "endurance": 180,
     "hp_max": 396,
@@ -172,96 +172,176 @@
     "a": {
       "level": {
         "1": {
-          "name": "Bangboo_ActiveSkill_Title_54023",
-          "desc": "Bangboo_ActiveSkill_Des_54023",
-          "property": [],
-          "param": ""
+          "name": "Flashflare",
+          "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, soar into the air and dash near the target, attacking a large area of targets and pulling them in. After a short time, generate an [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, randomly gain 1/2/3 of the following Buffs based on the number of enemies pulled:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+          "property": [
+            "Bangboo_ActiveSkill_Property_Val_5402301",
+            "Bangboo_ActiveSkill_Property_Val_5402302",
+            "Bangboo_ActiveSkill_Property_Val_5402303",
+            "DMG Multiplier",
+            "Daze Multiplier",
+            "Cooldown",
+            "Daze Multiplier"
+          ],
+          "param": "6.6% HP|2.75 Energy|16.5%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
         },
         "2": {
-          "name": "Bangboo_ActiveSkill_Title_54023",
-          "desc": "Bangboo_ActiveSkill_Des_54023",
-          "property": [],
-          "param": ""
+          "name": "Flashflare",
+          "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, soar into the air and dash near the target, attacking a large area of targets and pulling them in. After a short time, generate an [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, randomly gain 1/2/3 of the following Buffs based on the number of enemies pulled:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+          "property": [
+            "Bangboo_ActiveSkill_Property_Val_5402301",
+            "Bangboo_ActiveSkill_Property_Val_5402302",
+            "Bangboo_ActiveSkill_Property_Val_5402303",
+            "DMG Multiplier",
+            "Daze Multiplier",
+            "Cooldown",
+            "Daze Multiplier"
+          ],
+          "param": "7.2% HP|3 Energy|18%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
         },
         "3": {
-          "name": "Bangboo_ActiveSkill_Title_54023",
-          "desc": "Bangboo_ActiveSkill_Des_54023",
-          "property": [],
-          "param": ""
+          "name": "Flashflare",
+          "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, soar into the air and dash near the target, attacking a large area of targets and pulling them in. After a short time, generate an [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, randomly gain 1/2/3 of the following Buffs based on the number of enemies pulled:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+          "property": [
+            "Bangboo_ActiveSkill_Property_Val_5402301",
+            "Bangboo_ActiveSkill_Property_Val_5402302",
+            "Bangboo_ActiveSkill_Property_Val_5402303",
+            "DMG Multiplier",
+            "Daze Multiplier",
+            "Cooldown",
+            "Daze Multiplier"
+          ],
+          "param": "7.8% HP|3.25 Energy|19.5%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
         },
         "4": {
-          "name": "Bangboo_ActiveSkill_Title_54023",
-          "desc": "Bangboo_ActiveSkill_Des_54023",
-          "property": [],
-          "param": ""
+          "name": "Flashflare",
+          "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, soar into the air and dash near the target, attacking a large area of targets and pulling them in. After a short time, generate an [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, randomly gain 1/2/3 of the following Buffs based on the number of enemies pulled:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+          "property": [
+            "Bangboo_ActiveSkill_Property_Val_5402301",
+            "Bangboo_ActiveSkill_Property_Val_5402302",
+            "Bangboo_ActiveSkill_Property_Val_5402303",
+            "DMG Multiplier",
+            "Daze Multiplier",
+            "Cooldown",
+            "Daze Multiplier"
+          ],
+          "param": "8.4% HP|3.5 Energy|21%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
         },
         "5": {
-          "name": "Bangboo_ActiveSkill_Title_54023",
-          "desc": "Bangboo_ActiveSkill_Des_54023",
-          "property": [],
-          "param": ""
+          "name": "Flashflare",
+          "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, soar into the air and dash near the target, attacking a large area of targets and pulling them in. After a short time, generate an [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, randomly gain 1/2/3 of the following Buffs based on the number of enemies pulled:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+          "property": [
+            "Bangboo_ActiveSkill_Property_Val_5402301",
+            "Bangboo_ActiveSkill_Property_Val_5402302",
+            "Bangboo_ActiveSkill_Property_Val_5402303",
+            "DMG Multiplier",
+            "Daze Multiplier",
+            "Cooldown",
+            "Daze Multiplier"
+          ],
+          "param": "9% HP|3.75 Energy|22.5%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
         },
         "6": {
-          "name": "Bangboo_ActiveSkill_Title_54023",
-          "desc": "Bangboo_ActiveSkill_Des_54023",
-          "property": [],
-          "param": ""
+          "name": "Flashflare",
+          "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, soar into the air and dash near the target, attacking a large area of targets and pulling them in. After a short time, generate an [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, randomly gain 1/2/3 of the following Buffs based on the number of enemies pulled:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+          "property": [
+            "Bangboo_ActiveSkill_Property_Val_5402301",
+            "Bangboo_ActiveSkill_Property_Val_5402302",
+            "Bangboo_ActiveSkill_Property_Val_5402303",
+            "DMG Multiplier",
+            "Daze Multiplier",
+            "Cooldown",
+            "Daze Multiplier"
+          ],
+          "param": "9.6% HP|4 Energy|24%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
         },
         "7": {
-          "name": "Bangboo_ActiveSkill_Title_54023",
-          "desc": "Bangboo_ActiveSkill_Des_54023",
-          "property": [],
-          "param": ""
+          "name": "Flashflare",
+          "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, soar into the air and dash near the target, attacking a large area of targets and pulling them in. After a short time, generate an [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, randomly gain 1/2/3 of the following Buffs based on the number of enemies pulled:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+          "property": [
+            "Bangboo_ActiveSkill_Property_Val_5402301",
+            "Bangboo_ActiveSkill_Property_Val_5402302",
+            "Bangboo_ActiveSkill_Property_Val_5402303",
+            "DMG Multiplier",
+            "Daze Multiplier",
+            "Cooldown",
+            "Daze Multiplier"
+          ],
+          "param": "10.2% HP|4.25 Energy|25.5%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
         },
         "8": {
-          "name": "Bangboo_ActiveSkill_Title_54023",
-          "desc": "Bangboo_ActiveSkill_Des_54023",
-          "property": [],
-          "param": ""
+          "name": "Flashflare",
+          "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, soar into the air and dash near the target, attacking a large area of targets and pulling them in. After a short time, generate an [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, randomly gain 1/2/3 of the following Buffs based on the number of enemies pulled:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+          "property": [
+            "Bangboo_ActiveSkill_Property_Val_5402301",
+            "Bangboo_ActiveSkill_Property_Val_5402302",
+            "Bangboo_ActiveSkill_Property_Val_5402303",
+            "DMG Multiplier",
+            "Daze Multiplier",
+            "Cooldown",
+            "Daze Multiplier"
+          ],
+          "param": "10.8% HP|4.5 Energy|27%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
         },
         "9": {
-          "name": "Bangboo_ActiveSkill_Title_54023",
-          "desc": "Bangboo_ActiveSkill_Des_54023",
-          "property": [],
-          "param": ""
+          "name": "Flashflare",
+          "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, soar into the air and dash near the target, attacking a large area of targets and pulling them in. After a short time, generate an [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, randomly gain 1/2/3 of the following Buffs based on the number of enemies pulled:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+          "property": [
+            "Bangboo_ActiveSkill_Property_Val_5402301",
+            "Bangboo_ActiveSkill_Property_Val_5402302",
+            "Bangboo_ActiveSkill_Property_Val_5402303",
+            "DMG Multiplier",
+            "Daze Multiplier",
+            "Cooldown",
+            "Daze Multiplier"
+          ],
+          "param": "11.4% HP|4.75 Energy|28.5%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
         },
         "10": {
-          "name": "Bangboo_ActiveSkill_Title_54023",
-          "desc": "Bangboo_ActiveSkill_Des_54023",
-          "property": [],
-          "param": ""
+          "name": "Flashflare",
+          "desc": "<color=#FFFFFF>[Active Skill]</color>\nUpon activating this skill, soar into the air and dash near the target, attacking a large area of targets and pulling them in. After a short time, generate an [Iridescent Cross] to deal <color=#FE437E>Ether DMG</color>. After the pull ends, randomly gain 1/2/3 of the following Buffs based on the number of enemies pulled:\nBuff 1: Restore Agent HP;\nBuff 2: Restore Agent Energy;\nBuff 3: Increases DMG dealt by [Iridescent Cross].",
+          "property": [
+            "Bangboo_ActiveSkill_Property_Val_5402301",
+            "Bangboo_ActiveSkill_Property_Val_5402302",
+            "Bangboo_ActiveSkill_Property_Val_5402303",
+            "DMG Multiplier",
+            "Daze Multiplier",
+            "Cooldown",
+            "Daze Multiplier"
+          ],
+          "param": "12% HP|5 Energy|30%|{Skill:5402301, Prop:1001}|{Skill:5402301, Prop:1002}|28s"
         }
       }
     },
     "b": {
       "level": {
         "1": {
-          "name": "Bangboo_TalentSkill_Title_54023",
-          "desc": "Bangboo_TalentSkill_Des_54023_00",
+          "name": "Angel's Grace",
+          "desc": "<color=#FFFFFF>[Additional Ability]</color>\nTriggered when <color=#FFFFFF>[Remielle]</color> is in your squad: When using an <color=#FFFFFF>[Active Skill]</color>, you are guaranteed to gain all buff effects.",
           "property": [],
           "param": ""
         },
         "2": {
-          "name": "Bangboo_TalentSkill_Title_54023",
-          "desc": "Bangboo_TalentSkill_Des_54023_01",
+          "name": "Angel's Grace",
+          "desc": "<color=#FFFFFF>[Additional Ability]</color>\nTriggered when <color=#FFFFFF>[Remielle]</color> is in your squad: When using an <color=#FFFFFF>[Active Skill]</color>, you are guaranteed to gain all buff effects.",
           "property": [],
           "param": ""
         },
         "3": {
-          "name": "Bangboo_TalentSkill_Title_54023",
-          "desc": "Bangboo_TalentSkill_Des_54023_02",
+          "name": "Angel's Grace",
+          "desc": "<color=#FFFFFF>[Additional Ability]</color>\nTriggered when <color=#FFFFFF>[Remielle]</color> is in your squad: When using an <color=#FFFFFF>[Active Skill]</color>, you are guaranteed to gain all buff effects.",
           "property": [],
           "param": ""
         },
         "4": {
-          "name": "Bangboo_TalentSkill_Title_54023",
-          "desc": "Bangboo_TalentSkill_Des_54023_03",
+          "name": "Angel's Grace",
+          "desc": "<color=#FFFFFF>[Additional Ability]</color>\nTriggered when <color=#FFFFFF>[Remielle]</color> is in your squad: When using an <color=#FFFFFF>[Active Skill]</color>, you are guaranteed to gain all buff effects.",
           "property": [],
           "param": ""
         },
         "5": {
-          "name": "Bangboo_TalentSkill_Title_54023",
-          "desc": "Bangboo_TalentSkill_Des_54023_04",
+          "name": "Angel's Grace",
+          "desc": "<color=#FFFFFF>[Additional Ability]</color>\nTriggered when <color=#FFFFFF>[Remielle]</color> is in your squad: When using an <color=#FFFFFF>[Active Skill]</color>, you are guaranteed to gain all buff effects.",
           "property": [],
           "param": ""
         }
@@ -270,64 +350,94 @@
     "c": {
       "level": {
         "1": {
-          "name": "Bangboo_QTE_Title_54023",
-          "desc": "Bangboo_QTE_Des_54023",
-          "property": [],
-          "param": ""
+          "name": "Radiant Gleam",
+          "desc": "<color=#FFFFFF>[Bangboo Chain Attack]</color>\nGlide through the air and hurl the <b>Prismatic Starwhorl</b> at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
+          "property": [
+            "DMG Multiplier",
+            "Daze Multiplier"
+          ],
+          "param": "{Skill:5402302, Prop:1001}|{Skill:5402302, Prop:1002}"
         },
         "2": {
-          "name": "Bangboo_QTE_Title_54023",
-          "desc": "Bangboo_QTE_Des_54023",
-          "property": [],
-          "param": ""
+          "name": "Radiant Gleam",
+          "desc": "<color=#FFFFFF>[Bangboo Chain Attack]</color>\nGlide through the air and hurl the <b>Prismatic Starwhorl</b> at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
+          "property": [
+            "DMG Multiplier",
+            "Daze Multiplier"
+          ],
+          "param": "{Skill:5402302, Prop:1001}|{Skill:5402302, Prop:1002}"
         },
         "3": {
-          "name": "Bangboo_QTE_Title_54023",
-          "desc": "Bangboo_QTE_Des_54023",
-          "property": [],
-          "param": ""
+          "name": "Radiant Gleam",
+          "desc": "<color=#FFFFFF>[Bangboo Chain Attack]</color>\nGlide through the air and hurl the <b>Prismatic Starwhorl</b> at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
+          "property": [
+            "DMG Multiplier",
+            "Daze Multiplier"
+          ],
+          "param": "{Skill:5402302, Prop:1001}|{Skill:5402302, Prop:1002}"
         },
         "4": {
-          "name": "Bangboo_QTE_Title_54023",
-          "desc": "Bangboo_QTE_Des_54023",
-          "property": [],
-          "param": ""
+          "name": "Radiant Gleam",
+          "desc": "<color=#FFFFFF>[Bangboo Chain Attack]</color>\nGlide through the air and hurl the <b>Prismatic Starwhorl</b> at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
+          "property": [
+            "DMG Multiplier",
+            "Daze Multiplier"
+          ],
+          "param": "{Skill:5402302, Prop:1001}|{Skill:5402302, Prop:1002}"
         },
         "5": {
-          "name": "Bangboo_QTE_Title_54023",
-          "desc": "Bangboo_QTE_Des_54023",
-          "property": [],
-          "param": ""
+          "name": "Radiant Gleam",
+          "desc": "<color=#FFFFFF>[Bangboo Chain Attack]</color>\nGlide through the air and hurl the <b>Prismatic Starwhorl</b> at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
+          "property": [
+            "DMG Multiplier",
+            "Daze Multiplier"
+          ],
+          "param": "{Skill:5402302, Prop:1001}|{Skill:5402302, Prop:1002}"
         },
         "6": {
-          "name": "Bangboo_QTE_Title_54023",
-          "desc": "Bangboo_QTE_Des_54023",
-          "property": [],
-          "param": ""
+          "name": "Radiant Gleam",
+          "desc": "<color=#FFFFFF>[Bangboo Chain Attack]</color>\nGlide through the air and hurl the <b>Prismatic Starwhorl</b> at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
+          "property": [
+            "DMG Multiplier",
+            "Daze Multiplier"
+          ],
+          "param": "{Skill:5402302, Prop:1001}|{Skill:5402302, Prop:1002}"
         },
         "7": {
-          "name": "Bangboo_QTE_Title_54023",
-          "desc": "Bangboo_QTE_Des_54023",
-          "property": [],
-          "param": ""
+          "name": "Radiant Gleam",
+          "desc": "<color=#FFFFFF>[Bangboo Chain Attack]</color>\nGlide through the air and hurl the <b>Prismatic Starwhorl</b> at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
+          "property": [
+            "DMG Multiplier",
+            "Daze Multiplier"
+          ],
+          "param": "{Skill:5402302, Prop:1001}|{Skill:5402302, Prop:1002}"
         },
         "8": {
-          "name": "Bangboo_QTE_Title_54023",
-          "desc": "Bangboo_QTE_Des_54023",
-          "property": [],
-          "param": ""
+          "name": "Radiant Gleam",
+          "desc": "<color=#FFFFFF>[Bangboo Chain Attack]</color>\nGlide through the air and hurl the <b>Prismatic Starwhorl</b> at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
+          "property": [
+            "DMG Multiplier",
+            "Daze Multiplier"
+          ],
+          "param": "{Skill:5402302, Prop:1001}|{Skill:5402302, Prop:1002}"
         },
         "9": {
-          "name": "Bangboo_QTE_Title_54023",
-          "desc": "Bangboo_QTE_Des_54023",
-          "property": [],
-          "param": ""
+          "name": "Radiant Gleam",
+          "desc": "<color=#FFFFFF>[Bangboo Chain Attack]</color>\nGlide through the air and hurl the <b>Prismatic Starwhorl</b> at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
+          "property": [
+            "DMG Multiplier",
+            "Daze Multiplier"
+          ],
+          "param": "{Skill:5402302, Prop:1001}|{Skill:5402302, Prop:1002}"
         },
         "10": {
-          "name": "Bangboo_QTE_Title_54023",
-          "desc": "Bangboo_QTE_Des_54023",
-          "property": [],
-          "param": ""
+          "name": "Radiant Gleam",
+          "desc": "<color=#FFFFFF>[Bangboo Chain Attack]</color>\nGlide through the air and hurl the <b>Prismatic Starwhorl</b> at the target, dealing massive <color=#FE437E>Ether DMG</color>.",
+          "property": [
+            "DMG Multiplier",
+            "Daze Multiplier"
+          ],
+          "param": "{Skill:5402302, Prop:1001}|{Skill:5402302, Prop:1002}"
         }
       }
     }
@@ -335,29 +445,29 @@
   "skill_prop": {
     "5402301": {
       "1001": {
-        "main": 66600,
-        "growth": 6660,
+        "main": 89600,
+        "growth": 8960,
         "format": "%"
       },
       "1002": {
-        "main": 21300,
-        "growth": 2130,
+        "main": 32800,
+        "growth": 3280,
         "format": "%"
       },
-      "element_accumulation_value": 41200
+      "element_accumulation_value": 42000
     },
     "5402302": {
       "1001": {
-        "main": 66600,
-        "growth": 6660,
+        "main": 82800,
+        "growth": 8280,
         "format": "%"
       },
       "1002": {
-        "main": 21300,
-        "growth": 2130,
+        "main": 11800,
+        "growth": 1180,
         "format": "%"
       },
-      "element_accumulation_value": 41200
+      "element_accumulation_value": 35500
     }
   }
 }

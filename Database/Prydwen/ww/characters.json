@@ -1369,6 +1369,35 @@
     "assetCount": 25
   },
   {
+    "id": "rover-electro",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Rover (Electro)",
+    "slug": "rover-electro",
+    "sourcePath": "/wuthering-waves/characters/rover-electro",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "3.5"
+    ],
+    "updatedText": "27/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Electro",
+      "weapon": "Sword"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/rover-electro-578c4299a93d.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/rover-electro.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 2
+  },
+  {
     "id": "rover-havoc",
     "provider": "Prydwen",
     "game": "ww",

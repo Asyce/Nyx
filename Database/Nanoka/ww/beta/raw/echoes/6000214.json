@@ -7,8 +7,8 @@
   "place": "",
   "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31102_UI.T_IconMonsterHead_31102_UI",
   "skill": {
-    "desc": "",
-    "simple_desc": "",
+    "desc": "Use Echo Skill to summon Smolder to hurl fireballs toward enemies, dealing {0} Fusion DMG.\n\nCD: {1}s",
+    "simple_desc": "Summon Smolder to attack enemies, dealing Fusion DMG.",
     "param": [
       [
         "107.00%",

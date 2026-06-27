@@ -3,9 +3,9 @@
   "game": "ww",
   "collection": "characters",
   "sourcePath": "/wuthering-waves/characters",
-  "scrapedAt": "2026-06-26T08:40:51.613Z",
-  "detailPagesTotal": 59,
-  "detailPagesScraped": 59,
+  "scrapedAt": "2026-06-27T08:12:03.413Z",
+  "detailPagesTotal": 60,
+  "detailPagesScraped": 60,
   "staleDetailPagesRemoved": 0,
   "items": [
     {
@@ -355,6 +355,16 @@
       "sourcePath": "/wuthering-waves/characters/rover-aero",
       "contentStatus": "live",
       "statusLabels": []
+    },
+    {
+      "id": "rover-electro",
+      "slug": "rover-electro",
+      "name": "Rover (Electro) 3.5",
+      "sourcePath": "/wuthering-waves/characters/rover-electro",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "3.5"
+      ]
     },
     {
       "id": "rover-havoc",

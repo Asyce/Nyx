@@ -1,31 +1,50 @@
 {
   "provider": "Prydwen",
   "game": "ww",
-  "generatedAt": "2026-06-26T08:40:51.613Z",
+  "generatedAt": "2026-06-27T08:12:03.413Z",
   "summary": {
     "records": {
-      "added": 0,
+      "added": 1,
       "removed": 0,
-      "changed": 1,
-      "unchanged": 61
+      "changed": 3,
+      "unchanged": 59
     }
   },
   "sections": {
     "records": {
-      "added": [],
+      "added": [
+        {
+          "id": "characters:rover-electro",
+          "name": "Rover (Electro)",
+          "previousHash": null,
+          "currentHash": "8d1f0070f5429fee82afa3688af01cb470c910afaeaba1a87395779430ed43e9"
+        }
+      ],
       "removed": [],
       "changed": [
         {
           "id": "characters:sanhua",
           "name": "Sanhua",
-          "previousHash": "0887ae656b2e5009e33564a7bab01c5d1227df7f17b3668766f9ec1121313806",
-          "currentHash": "154291427f0ade1514f75ae60241f98e8dceb2db9721939473c1ff904acd5af4"
+          "previousHash": "154291427f0ade1514f75ae60241f98e8dceb2db9721939473c1ff904acd5af4",
+          "currentHash": "0887ae656b2e5009e33564a7bab01c5d1227df7f17b3668766f9ec1121313806"
+        },
+        {
+          "id": "collection:characters",
+          "name": "Wuthering Waves Characters Build Guides",
+          "previousHash": "2b61b8cd62325ea5b4cb47457d2584530fa4654fb68f99faa9a53bf433eda6e4",
+          "currentHash": "76a90dc38b939f973ea6893da08b38ad34181e6eaf3cf074a2d0983ed0bac8b4"
+        },
+        {
+          "id": "collection:weapons",
+          "name": "Wuthering Waves Weapons",
+          "previousHash": "fa1ed40133d3193c75391ce15de7b9b2d2c1fd9e61325794935773adf86e1c82",
+          "currentHash": "b7b080872ffb7e6f1be138307139b127dddadd0df5a636dd59f5f95159130adb"
         }
       ],
-      "unchanged": 61,
+      "unchanged": 59,
       "totals": {
         "previous": 62,
-        "current": 62
+        "current": 63
       }
     }
   }

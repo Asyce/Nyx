@@ -10,7 +10,7 @@
         "Ether",
         "Large",
         "Boss",
-        ""
+        "MainStoryBoss"
       ],
       "type": "Monster",
       "element": {
@@ -504,7 +504,8 @@
         "Ether",
         "Large",
         "Boss",
-        "HardCore"
+        "GirtabluPro",
+        "MainStoryBoss"
       ],
       "type": "Monster",
       "element": {

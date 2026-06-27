@@ -4,10 +4,10 @@
     "label": "Characters",
     "sourcePath": "/wuthering-waves/characters",
     "file": "Prydwen/ww/collections/characters.json",
-    "detailPagesTotal": 59,
-    "detailPagesScraped": 59,
+    "detailPagesTotal": 60,
+    "detailPagesScraped": 60,
     "staleDetailPagesRemoved": 0,
-    "entries": 59,
+    "entries": 60,
     "assets": 69
   },
   {
@@ -18,8 +18,8 @@
     "detailPagesTotal": 0,
     "detailPagesScraped": 0,
     "staleDetailPagesRemoved": 0,
-    "entries": 118,
-    "assets": 119
+    "entries": 120,
+    "assets": 121
   },
   {
     "id": "echoes",

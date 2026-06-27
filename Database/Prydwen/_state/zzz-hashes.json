@@ -1,6 +1,6 @@
 {
   "game": "zzz",
-  "updatedAt": "2026-06-26T08:40:51.613Z",
+  "updatedAt": "2026-06-27T08:12:03.413Z",
   "hashes": {
     "records": {
       "characters:alice": "3d720b1029728a2e2d3444deac587764794dff04fa13ec09042a3190c987d87c",
@@ -29,7 +29,7 @@
       "characters:koleda": "f00c5618203366e9519ef5385048ce46a7c9440de73f4b8615da767ea62d9a7e",
       "characters:lighter": "63ee33f66d55049402aad3d8f59b1e308a253d0888229ac5ab2346c6e176ae8f",
       "characters:lucia": "672d703e8ce621cb4e383848a6f386d92ebb51d6426e0292011dfe3ceabc4ba3",
-      "characters:lucy": "c9395c91dc0f17c450d7aeec4cf38b1bed4646125749ca8426648f937eb1349d",
+      "characters:lucy": "a8170bb931abdbd677130ba5b4ed3a6682828c0470c4c5dbb139533e802889bd",
       "characters:lycaon": "1d380c2ae3fa931fe0a1352f0b3a7a7fdd8bbdc041ac09eba87fcc09c313ef5b",
       "characters:manato": "216a0130d8ccf48eb9b3e058c2ec66dd898700b58de0983c9d6dae60fc79704e",
       "characters:miyabi": "0f191df80761456d66b13cf9f3cfffab1a69785f1c79ec6cc6d5c3fb0ba03a58",
@@ -49,7 +49,7 @@
       "characters:rina": "13687b689af788b53a0ec5edd6b2374428b63e04dc7e99199f62c5217bac5361",
       "characters:roxy": "dea248d76ee4dccbc1aa2ea4830a9fe135d54ffda4b104023c01838766ee900f",
       "characters:seed": "1f642da96a62b342c75bd3d10a04f436611a35f0ae74ed590af9e56327a98bee",
-      "characters:seth": "cba5bbf4af56edfd949a5175cc2266c02227c2ff1feb838ecbd7f7f554af3dea",
+      "characters:seth": "ffcbc96b4afdb3596c58119a9667f88875c4b134c936b663d0ca29be23768ec9",
       "characters:severian": "b11be6a5b25910b7250e7563c2865fef8e5342fd01f7a2f67349f85f39932541",
       "characters:sigrid": "719b74c7f7f7690b794e2b62263ed0f7c2e57daa5b51d63844fe00110ebec5c0",
       "characters:soldier-11": "4f6eb87590d7bba5c52f67a2b621c7e9a36ea16f48c6e213d80e78abc6b661d7",

@@ -13,7 +13,7 @@
         "NoRBLBuff",
         "EtherBarrierBoss",
         "Miasma",
-        ""
+        "MainStoryBoss"
       ],
       "type": "Monster",
       "element": {
@@ -511,7 +511,7 @@
         "EtherBarrierBoss",
         "Miasma",
         "HighEtherBarrier",
-        ""
+        "MainStoryBoss"
       ],
       "type": "Monster",
       "element": {

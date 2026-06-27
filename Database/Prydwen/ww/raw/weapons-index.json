@@ -3,7 +3,7 @@
   "game": "ww",
   "collection": "weapons",
   "sourcePath": "/wuthering-waves/weapons",
-  "scrapedAt": "2026-06-26T08:40:51.613Z",
+  "scrapedAt": "2026-06-27T08:12:03.413Z",
   "detailPagesTotal": 0,
   "detailPagesScraped": 0,
   "staleDetailPagesRemoved": 0,
@@ -118,6 +118,22 @@
         "critRateLv90": "20.2 %"
       },
       "text": "Autumntrace\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nCRIT Rate (Lv.90): 20.2 %"
+    },
+    {
+      "id": "azure-oath",
+      "name": "Azure Oath",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/azure-oath-029aca9cad8c.webp",
+      "assetId": "029aca9cad8c",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "0",
+        "lv90": "0 %"
+      },
+      "text": "Azure Oath\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 0\n(Lv.90): 0 %"
     },
     {
       "id": "beguiling-melody",
@@ -495,6 +511,22 @@
         "critRateLv90": "20.3 %"
       },
       "text": "Feather Edge\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 412\nCRIT Rate (Lv.90): 20.3 %"
+    },
+    {
+      "id": "firstlights-herald",
+      "name": "Firstlight's Herald",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/firstlights-herald-10285822b594.webp",
+      "assetId": "10285822b594",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atkLv90": "0",
+        "lv90": "0 %"
+      },
+      "text": "Firstlight's Herald\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 0\n(Lv.90): 0 %"
     },
     {
       "id": "forged-dwarf-star",

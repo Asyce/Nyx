@@ -3,9 +3,9 @@
   "game": "ww",
   "gameName": "Wuthering Waves",
   "channel": "beta",
-  "version": "3.5.3",
+  "version": "3.5.4",
   "liveVersion": "3.4",
-  "betaVersion": "3.5.3",
+  "betaVersion": "3.5.4",
   "availableVersions": [
     "3.3",
     "3.4",
@@ -15,9 +15,10 @@
     "3.5.0",
     "3.5.1",
     "3.5.2",
-    "3.5.3"
+    "3.5.3",
+    "3.5.4"
   ],
-  "scrapedAt": "2026-06-26T08:40:27.538Z",
+  "scrapedAt": "2026-06-27T08:11:36.839Z",
   "counts": {
     "characters": 60,
     "weapons": 128,

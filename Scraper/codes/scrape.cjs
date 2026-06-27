@@ -1342,11 +1342,8 @@ async function main(options = CLI_OPTIONS) {
     }
   }
 
-  // Always write — generatedAt should reflect the actual hourly check, not
-  // just the last code change. The workflow's `git diff --staged --quiet`
-  // still skips commits when the file content is byte-identical (which won't
-  // happen in practice now that generatedAt is fresh, so the workflow will
-  // commit hourly).
+  // Normal/full runs write the fresh generatedAt timestamp. Watch mode uses the
+  // semantic diff below to avoid rewriting the file for timestamp-only churn.
   const payload = {
     generatedAt: new Date().toISOString(),
     maxAgeDays: MAX_AGE_DAYS,

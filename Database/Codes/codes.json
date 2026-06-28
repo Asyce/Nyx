@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T00:58:14.595Z",
+  "generatedAt": "2026-06-28T04:49:06.001Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-06-28T00:58:14.595Z",
+      "lastSuccessfulFetch": "2026-06-28T04:49:05.341Z",
       "codes": [
         {
           "code": "MAGENICOLESPUZZLE",
@@ -73,7 +73,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-06-28T00:58:09.805Z",
+      "lastSuccessfulFetch": "2026-06-28T04:49:06.001Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -85,6 +85,17 @@
           "premium100": false,
           "cwSeen": false,
           "firstSeen": "2026-06-13T20:18:18.521Z"
+        },
+        {
+          "code": "5S6ZHRWTDNJB",
+          "rewards": "60 stellar jade",
+          "added": "2026-06-28",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
+          "hoyoVerified": true,
+          "premium": true,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-06-28T04:49:06.001Z"
         },
         {
           "code": "CREATIONNYMPH",
@@ -171,7 +182,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-06-28T00:58:11.395Z",
+      "lastSuccessfulFetch": "2026-06-28T04:49:02.013Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -243,7 +254,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-06-28T00:58:12.281Z",
+      "lastSuccessfulFetch": "2026-06-28T04:49:02.803Z",
       "codes": [
         {
           "code": "INTOTHEFOG",
@@ -284,7 +295,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-06-28T00:58:13.809Z",
+      "lastSuccessfulFetch": "2026-06-28T04:49:04.542Z",
       "codes": [
         {
           "code": "ZAU2SYXHWX5L4ZH",

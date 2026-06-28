@@ -164,6 +164,77 @@ function shuffleOnce(list){
   return out;
 }
 
+const NYX_AMBIENT_GAME_KEYS = ['gi', 'hsr', 'zzz', 'wuwa', 'ae'];
+
+function nyxAmbientName(ch){
+  return String((ch && (ch.name || ch.n || ch.rawName)) || '').trim();
+}
+
+function collectNyxAmbientNames(){
+  const seen = new Set();
+  const names = [];
+  const add = (value) => {
+    const name = String(value || '').trim();
+    if (!name) return;
+    const key = name.toLowerCase();
+    if (seen.has(key)) return;
+    seen.add(key);
+    names.push(name);
+  };
+  const dbGames = (window.NYX_DB && window.NYX_DB.games) || {};
+  NYX_AMBIENT_GAME_KEYS.forEach((key) => {
+    ((dbGames[key] && dbGames[key].roster) || []).forEach((ch) => add(nyxAmbientName(ch)));
+  });
+  NYX_AMBIENT_GAME_KEYS.forEach((key) => {
+    const cfg = (window.CM_CFG && window.CM_CFG[key]) || null;
+    ((cfg && (cfg.roster || cfg.chars)) || []).forEach((ch) => add(nyxAmbientName(ch)));
+  });
+  return names;
+}
+
+function mountNyxAmbientText(){
+  const field = document.querySelector('.nyx-rune-field');
+  if (!field) return () => {};
+  const names = collectNyxAmbientNames();
+  if (!names.length) return () => {};
+  const reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const width = window.innerWidth || 1600;
+  const count = Math.max(5, Math.min(12, Math.round(width / 190)));
+  let bag = [];
+  const nextName = () => {
+    if (!bag.length) bag = shuffleOnce(names);
+    return bag.pop() || names[0] || '';
+  };
+  field.textContent = '';
+  field.dataset.count = String(names.length);
+  const cleanup = [];
+  for (let i = 0; i < count; i += 1){
+    const line = document.createElement('span');
+    line.className = 'nyx-rune-line';
+    const dur = randomRange(26, 48);
+    const reset = (initial) => {
+      line.textContent = nextName();
+      line.style.setProperty('--x', randomRange(5, 95).toFixed(2) + 'vw');
+      line.style.setProperty('--dur', dur.toFixed(2) + 's');
+      line.style.setProperty('--delay', initial ? (-randomRange(0, dur)).toFixed(2) + 's' : '0s');
+      line.style.setProperty('--alpha', randomRange(.13, .32).toFixed(2));
+      line.style.setProperty('--size', randomRange(17, 29).toFixed(2) + 'px');
+      line.style.setProperty('--static-y', randomRange(5, 86).toFixed(2) + 'vh');
+    };
+    reset(true);
+    if (!reduced) {
+      const onIter = () => reset(false);
+      line.addEventListener('animationiteration', onIter);
+      cleanup.push(() => line.removeEventListener('animationiteration', onIter));
+    }
+    field.appendChild(line);
+  }
+  return () => {
+    cleanup.forEach((fn) => fn());
+    field.textContent = '';
+  };
+}
+
 function rarityValue(r){
   if (r === 'S') return 5;
   if (r === 'A') return 4;
@@ -1299,11 +1370,10 @@ function NyxChannelToggle({ gameKey }){
   };
   const isBeta = channel === 'beta';
   return (
-    <div className="cm-chan-text" role="group" aria-label="Data channel: Live or Beta">
-      <button type="button" className={'cm-chan-word' + (!isBeta ? ' on' : '')} aria-pressed={!isBeta}
+    <div className={'cm-chan-switch' + (isBeta ? ' beta' : ' live')} role="group" aria-label="Data channel: Live or Beta">
+      <button type="button" className={'cm-chan-option' + (!isBeta ? ' on' : '')} aria-pressed={!isBeta}
               title="Released, live-server data" onClick={() => pick('live')}>Live</button>
-      <span className="cm-chan-slash" aria-hidden="true">/</span>
-      <button type="button" className={'cm-chan-word' + (isBeta ? ' on' : '')} aria-pressed={isBeta}
+      <button type="button" className={'cm-chan-option' + (isBeta ? ' on' : '')} aria-pressed={isBeta}
               title="Beta (latest) data — upcoming, subject to change" onClick={() => pick('beta')}>Beta</button>
     </div>
   );
@@ -1343,6 +1413,8 @@ function NyxApp(){
     })();
     return () => clearTimeout(tm);
   }, []);
+
+  React.useEffect(() => mountNyxAmbientText(), []);
 
   // background art crossfade between games (two viewport-level layers)
   const bgToggle = React.useRef(0);
@@ -1436,7 +1508,7 @@ function NyxApp(){
   const base = document.querySelector('.page-bg');
   const wrap = document.createElement('div');
   wrap.className = 'nyx-bgwrap';
-  wrap.innerHTML = '<div class="nyx-bgart"></div><div class="nyx-bgart"></div><div class="nyx-bgscrim"></div>';
+  wrap.innerHTML = '<div class="nyx-bgart"></div><div class="nyx-bgart"></div><div class="nyx-bgscrim"></div><div class="nyx-rune-field" aria-hidden="true"></div>';
   if (base && base.parentNode) base.parentNode.insertBefore(wrap, base.nextSibling);
   else document.body.insertBefore(wrap, document.body.firstChild);
 })();

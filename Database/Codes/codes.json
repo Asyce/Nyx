@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T19:45:19.063Z",
+  "generatedAt": "2026-06-28T22:41:12.589Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-06-28T19:45:06.021Z",
+      "lastSuccessfulFetch": "2026-06-28T22:40:45.955Z",
       "codes": [
         {
           "code": "MAGENICOLESPUZZLE",
@@ -73,7 +73,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-06-28T19:45:01.230Z",
+      "lastSuccessfulFetch": "2026-06-28T22:40:45.423Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -182,7 +182,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-06-28T19:45:02.821Z",
+      "lastSuccessfulFetch": "2026-06-28T22:40:45.915Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -254,7 +254,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-06-28T19:45:19.063Z",
+      "lastSuccessfulFetch": "2026-06-28T22:41:12.589Z",
       "codes": [
         {
           "code": "INTOTHEFOG",
@@ -295,8 +295,28 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-06-28T19:45:05.226Z",
+      "lastSuccessfulFetch": "2026-06-28T22:40:45.392Z",
       "codes": [
+        {
+          "code": "ALLFIELD",
+          "rewards": "",
+          "added": "2026-06-28",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ALLFIELD",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-06-28T22:40:45.392Z"
+        },
+        {
+          "code": "RETURNOFALL",
+          "rewards": "",
+          "added": "2026-06-28",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=RETURNOFALL",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-06-28T22:40:45.392Z"
+        },
         {
           "code": "ZAU2SYXHWX5L4ZH",
           "rewards": "5k T Creds and Ten Arms Insp Kits",

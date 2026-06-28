@@ -3009,7 +3009,7 @@
         "crit_dmg_res": 0,
         "pen_rate": 0,
         "pen_delta": 0,
-        "stun": 9660,
+        "stun": 8694,
         "is_stun": true,
         "break_stun": 0,
         "auto_recover_rate": 0,
@@ -3049,7 +3049,7 @@
         "ether_stun_res": 0,
         "physical_stun_res": 0,
         "wind_stun_res": 0,
-        "base_buildup_ratio": 3000
+        "base_buildup_ratio": 2500
       },
       "curves": {
         "hp": {
@@ -3504,7 +3504,7 @@
         "crit_dmg_res": 0,
         "pen_rate": 0,
         "pen_delta": 0,
-        "stun": 9660,
+        "stun": 8694,
         "is_stun": true,
         "break_stun": 0,
         "auto_recover_rate": 0,
@@ -3544,7 +3544,7 @@
         "ether_stun_res": 0,
         "physical_stun_res": 0,
         "wind_stun_res": 0,
-        "base_buildup_ratio": 3000
+        "base_buildup_ratio": 2500
       },
       "curves": {
         "hp": {

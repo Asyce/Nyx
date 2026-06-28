@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "zzz",
-  "generatedAt": "2026-06-27T08:12:03.413Z",
+  "generatedAt": "2026-06-28T08:33:51.270Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 2,
-      "unchanged": 66
+      "changed": 3,
+      "unchanged": 65
     }
   },
   "sections": {
@@ -16,19 +16,25 @@
       "removed": [],
       "changed": [
         {
+          "id": "characters:lighter",
+          "name": "Lighter",
+          "previousHash": "63ee33f66d55049402aad3d8f59b1e308a253d0888229ac5ab2346c6e176ae8f",
+          "currentHash": "189d7d4af625a84ab6b07d9cd0e6ef0ba968c4e5cf258cba2023312d2abe02b2"
+        },
+        {
           "id": "characters:lucy",
           "name": "Lucy",
-          "previousHash": "c9395c91dc0f17c450d7aeec4cf38b1bed4646125749ca8426648f937eb1349d",
-          "currentHash": "a8170bb931abdbd677130ba5b4ed3a6682828c0470c4c5dbb139533e802889bd"
+          "previousHash": "a8170bb931abdbd677130ba5b4ed3a6682828c0470c4c5dbb139533e802889bd",
+          "currentHash": "c9395c91dc0f17c450d7aeec4cf38b1bed4646125749ca8426648f937eb1349d"
         },
         {
           "id": "characters:seth",
           "name": "Seth",
-          "previousHash": "cba5bbf4af56edfd949a5175cc2266c02227c2ff1feb838ecbd7f7f554af3dea",
-          "currentHash": "ffcbc96b4afdb3596c58119a9667f88875c4b134c936b663d0ca29be23768ec9"
+          "previousHash": "ffcbc96b4afdb3596c58119a9667f88875c4b134c936b663d0ca29be23768ec9",
+          "currentHash": "cba5bbf4af56edfd949a5175cc2266c02227c2ff1feb838ecbd7f7f554af3dea"
         }
       ],
-      "unchanged": 66,
+      "unchanged": 65,
       "totals": {
         "previous": 68,
         "current": 68

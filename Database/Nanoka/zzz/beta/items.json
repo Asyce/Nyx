@@ -83453,7 +83453,7 @@
   {
     "id": "4320101",
     "contentStatus": "beta",
-    "name": "ZKItem_4320101_Name",
+    "name": "Gear-General C-LV5",
     "rarity": 1,
     "type": {},
     "description": "ZKItem_4320101_Desc",
@@ -83462,13 +83462,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "c153f87626c6ff7e876ec4d9622e81e02c38af0e9faf33087f7eeebe9f24a892"
+      "currentHash": "e852e69fd1fd3f0a6dc49773478ef1e8c3c853a9971dc274ef943749d21ca2ba"
     }
   },
   {
     "id": "4320102",
     "contentStatus": "beta",
-    "name": "ZKItem_4320102_Name",
+    "name": "Gear-General C-LV10",
     "rarity": 1,
     "type": {},
     "description": "ZKItem_4320102_Desc",
@@ -83477,13 +83477,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankStun03.webp"
     },
     "liveComparison": {
-      "currentHash": "bb005ca00d8fb41900258fe8cd0ceeaa5ab555c4a4ee0960c4da19b904113b39"
+      "currentHash": "9cffcef69cd1a914bd08fa5833258cbea1f89c251322b00a9c18e586798e897d"
     }
   },
   {
     "id": "4320103",
     "contentStatus": "beta",
-    "name": "Gear-GeneralB-1",
+    "name": "Gear-General C-LV20",
     "rarity": 1,
     "type": {},
     "description": "ZKItem_4320103_Desc",
@@ -83492,13 +83492,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "759a72278a15ea0954d46c621774c6ca8bea141e4dc69141c0f6e633eda71ceb"
+      "currentHash": "727d9cbc04238ab4faf38d9f0d97b63018a17fe1f21eb59aa9fc097f90d2cf5d"
     }
   },
   {
     "id": "4320104",
     "contentStatus": "beta",
-    "name": "Gear-GeneralB-2",
+    "name": "Gear-AssaultB-LV20",
     "rarity": 2,
     "type": {},
     "description": "ZKItem_4320104_Desc",
@@ -83507,13 +83507,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "4968b8507d6f7bd38f1a8e4dc65fcf7f0fe3538cff57dfc8cf75e2ccfb55ba0c"
+      "currentHash": "351ed0a0470fb55d245a01976f017a4c561ae62a7e70f2a2083b5246995af62b"
     }
   },
   {
     "id": "4320105",
     "contentStatus": "beta",
-    "name": "Gear-AssaultA-1",
+    "name": "Gear-Stun B-LV20",
     "rarity": 2,
     "type": {},
     "description": "ZKItem_4320105_Desc",
@@ -83522,13 +83522,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankStun03.webp"
     },
     "liveComparison": {
-      "currentHash": "27a54214417d94c157893e71a28e28835ed12a4fb48e3713fc094d323f231555"
+      "currentHash": "b60fc53480940524ef9269c3c3feb3bd86243805c8c65d467969da73faf2678a"
     }
   },
   {
     "id": "4320106",
     "contentStatus": "beta",
-    "name": "Gear-BreakA-1",
+    "name": "Gear-AnomalyB-LV20",
     "rarity": 2,
     "type": {},
     "description": "ZKItem_4320106_Desc",
@@ -83537,13 +83537,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
     },
     "liveComparison": {
-      "currentHash": "dc00e9d5f9219631e71b1e54f9725215a8d39c79be13f0921e720065a6347657"
+      "currentHash": "ca9bc6af674fc9c7f1a5f08c23a82b48c977c6f309b5c4f23e4b96dbf855f046"
     }
   },
   {
     "id": "4320107",
     "contentStatus": "beta",
-    "name": "Gear-AnomalyA-1",
+    "name": "Gear-SupportB-LV20",
     "rarity": 2,
     "type": {},
     "description": "ZKItem_4320107_Desc",
@@ -83552,13 +83552,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
     },
     "liveComparison": {
-      "currentHash": "30419820a195f7348648a4519281747a829db7bc97de4deec668464b92c76602"
+      "currentHash": "892940a7a3e26b6c3672e6133e55fe23bf8c7198d68ece5c636e1d11cb5a7923"
     }
   },
   {
     "id": "4320108",
     "contentStatus": "beta",
-    "name": "Gear-SupportA-1",
+    "name": "Gear-RuptureB-LV20",
     "rarity": 2,
     "type": {},
     "description": "ZKItem_4320108_Desc",
@@ -83567,13 +83567,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
     },
     "liveComparison": {
-      "currentHash": "2b2f5004a7b5f2a0bae09042635058e07f33217343554152cde308eecd7462ec"
+      "currentHash": "78f87bd9737fb3b51dad13af1f735c6460b131af242657e1ef31e9123dda12c4"
     }
   },
   {
     "id": "4320109",
     "contentStatus": "beta",
-    "name": "Gear-RuptureA-1",
+    "name": "Gear-DefenseB-LV20",
     "rarity": 2,
     "type": {},
     "description": "ZKItem_4320109_Desc",
@@ -83582,13 +83582,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankShield03.webp"
     },
     "liveComparison": {
-      "currentHash": "b865af727c8cc74813d211d3cda5c3452317bc518ccfebc31a0d86c278eab938"
+      "currentHash": "f2710e90cd32ff313a1351dfe640a388e048329fd509a721ff97f029270d5777"
     }
   },
   {
     "id": "4320111",
     "contentStatus": "beta",
-    "name": "ZKItem_4320111_Name",
+    "name": "Gear-AssaultB-LV30",
     "rarity": 2,
     "type": {},
     "description": "ZKItem_4320111_Desc",
@@ -83597,13 +83597,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "b022a16e48c669390e6898ee50235fbaa1ec71544cf7d0d6e4f12efe90eaacb0"
+      "currentHash": "5881f01626e069c8eaf1dad86591e7cb7377e21ebaa0bbb7a510baced1a07fbb"
     }
   },
   {
     "id": "4320112",
     "contentStatus": "beta",
-    "name": "ZKItem_4320112_Name",
+    "name": "Gear-Stun B-LV30",
     "rarity": 2,
     "type": {},
     "description": "ZKItem_4320112_Desc",
@@ -83612,13 +83612,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankStun03.webp"
     },
     "liveComparison": {
-      "currentHash": "648a9f656483063bd59e1a2540d8bd8837b3e5ba7a50e98adbc916f9120b53e8"
+      "currentHash": "d4ff8e6683d550e512f7bb49ff3186c65de64d728cb841769f0e39d256c6b088"
     }
   },
   {
     "id": "4320113",
     "contentStatus": "beta",
-    "name": "ZKItem_4320113_Name",
+    "name": "Gear-AnomalyB-LV30",
     "rarity": 2,
     "type": {},
     "description": "ZKItem_4320113_Desc",
@@ -83627,13 +83627,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
     },
     "liveComparison": {
-      "currentHash": "46a98523bdb3615990aa4c96beb667b64613a5fc6cfa251e27c10a772feda340"
+      "currentHash": "36038d0ddd7bd3b4be217ad21bd943751eee59fa8e6b728c18d51f71f7380cea"
     }
   },
   {
     "id": "4320114",
     "contentStatus": "beta",
-    "name": "ZKItem_4320114_Name",
+    "name": "Gear-SupportB-LV30",
     "rarity": 2,
     "type": {},
     "description": "ZKItem_4320114_Desc",
@@ -83642,13 +83642,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
     },
     "liveComparison": {
-      "currentHash": "436ab9d45f1a3096bda005779276580cffb66500e2bb5be59e96b8f677159be1"
+      "currentHash": "c5733f80b090e79060461735fd8893512b281d54be34813828e29195e3d3c596"
     }
   },
   {
     "id": "4320115",
     "contentStatus": "beta",
-    "name": "ZKItem_4320115_Name",
+    "name": "Gear-RuptureB-LV30",
     "rarity": 2,
     "type": {},
     "description": "ZKItem_4320115_Desc",
@@ -83657,13 +83657,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
     },
     "liveComparison": {
-      "currentHash": "1ee0557c9dee0295fad942d93e38906d45fa33ac1c6b227fede8e0e66c1736dc"
+      "currentHash": "a569332c83290f761a6722c1b807e2448290c366678436f1a9243c7422d9d9c4"
     }
   },
   {
     "id": "4320116",
     "contentStatus": "beta",
-    "name": "ZKItem_4320116_Name",
+    "name": "Gear-DefenseB-LV30",
     "rarity": 2,
     "type": {},
     "description": "ZKItem_4320116_Desc",
@@ -83672,7 +83672,7 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankShield03.webp"
     },
     "liveComparison": {
-      "currentHash": "c040e8a15336de30c73afff65397dc4bfab9979c9f6a8c9ae2ca8f7e10f36b0e"
+      "currentHash": "5e7129bc4c29c2da1a28b41eb3e966859fc72de062c4ea5f05d65b3ab41bb325"
     }
   },
   {
@@ -83693,7 +83693,7 @@
   {
     "id": "4320121",
     "contentStatus": "beta",
-    "name": "ZKItem_4320121_Name",
+    "name": "Gear-AssaultA-LV30",
     "rarity": 3,
     "type": {},
     "description": "30600201_ZKDescription",
@@ -83702,13 +83702,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "de716dc09c7e24c9cdc883263fb099df5f120fc7b47a4be9efc48a1003945a40"
+      "currentHash": "c157aaa75858008b285c308c43ebe62951d36052b28a9729a1bd149419f2002c"
     }
   },
   {
     "id": "4320122",
     "contentStatus": "beta",
-    "name": "ZKItem_4320122_Name",
+    "name": "Gear-Stun A-LV30",
     "rarity": 3,
     "type": {},
     "description": "30600202_ZKDescription",
@@ -83717,13 +83717,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankStun03.webp"
     },
     "liveComparison": {
-      "currentHash": "af4f7a40151a64322a1199445345ecc03ed77c7a0789c1c32aa6dacdb96a941b"
+      "currentHash": "4ac271f71012cdc4eb563fc83afda904b15b7b5331686a97804d20b680e4e637"
     }
   },
   {
     "id": "4320123",
     "contentStatus": "beta",
-    "name": "ZKItem_4320123_Name",
+    "name": "Gear-AnomalyA-LV30",
     "rarity": 3,
     "type": {},
     "description": "30600203_ZKDescription",
@@ -83732,13 +83732,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
     },
     "liveComparison": {
-      "currentHash": "24462a75ea488084c2fb1fdce263b1d3d9f88e207cbba305582e7fc4146c9af0"
+      "currentHash": "9a58c2bf6331bdc5d19c70c23b5455c5774e0d538dc5bc3d43ad1a8b4b4c6386"
     }
   },
   {
     "id": "4320124",
     "contentStatus": "beta",
-    "name": "ZKItem_4320124_Name",
+    "name": "Gear-Support A-LV30",
     "rarity": 3,
     "type": {},
     "description": "30600204_ZKDescription",
@@ -83747,13 +83747,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
     },
     "liveComparison": {
-      "currentHash": "3731460ea90ff344b7c96afc73fdc5eadc21d3dee1f50919004d8b23269e624c"
+      "currentHash": "727665f651aede4031e8471def3eb08d3bdea5f3deed419ef50dddb6b0cbea4f"
     }
   },
   {
     "id": "4320125",
     "contentStatus": "beta",
-    "name": "ZKItem_4320125_Name",
+    "name": "Gear-RuptureA-LV30",
     "rarity": 3,
     "type": {},
     "description": "30600205_ZKDescription",
@@ -83762,13 +83762,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
     },
     "liveComparison": {
-      "currentHash": "fcaf56582a8bf3efcf0e034da864e802cbc9b0a2282bf71e3085facc99394281"
+      "currentHash": "bfbf8de6496ea4d7800e5d82036a6c11c3cc5a1364b1f53f11585f9a32e8f901"
     }
   },
   {
     "id": "4320126",
     "contentStatus": "beta",
-    "name": "ZKItem_4320126_Name",
+    "name": "Gear-DefenseA-LV30",
     "rarity": 3,
     "type": {},
     "description": "30600206_ZKDescription",
@@ -83777,7 +83777,7 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankShield03.webp"
     },
     "liveComparison": {
-      "currentHash": "a41562fec37f3423ed48d4d63948759d88a7078476d655596446e551afb68c90"
+      "currentHash": "1d5eea2ae24328708e1aee5174b38d518c0e2faae24ce9f1b5f6af47a0bfd3e6"
     }
   },
   {
@@ -83828,7 +83828,7 @@
   {
     "id": "4320131",
     "contentStatus": "beta",
-    "name": "Gear-AssaultA-1",
+    "name": "Gear-AssaultA-LV40",
     "rarity": 3,
     "type": {},
     "description": "30600201_ZKDescription",
@@ -83837,13 +83837,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "6e4b0f9a010f1d8b976f6ee6c0ff4eae55c4975417bde9a665d834e8c126e7c7"
+      "currentHash": "bb806b572d79fa340e76b38b0f0bab6204862d81585e87401d9ef58ca39bb41e"
     }
   },
   {
     "id": "4320132",
     "contentStatus": "beta",
-    "name": "Gear-BreakA-1",
+    "name": "Gear-Stun A-LV40",
     "rarity": 3,
     "type": {},
     "description": "30600202_ZKDescription",
@@ -83852,13 +83852,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankStun03.webp"
     },
     "liveComparison": {
-      "currentHash": "6b1a3e932b3db86f4f225a6cd1c54164c11abe9ccf7abdaf9136a1cb94bb2e08"
+      "currentHash": "7b3d4efa03fde428a1b605dee75bf3a73b7e857e3d982da28e7554ae46d7ef04"
     }
   },
   {
     "id": "4320133",
     "contentStatus": "beta",
-    "name": "Gear-AnomalyA-1",
+    "name": "Gear-Anomaly A-LV40",
     "rarity": 3,
     "type": {},
     "description": "30600203_ZKDescription",
@@ -83867,13 +83867,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
     },
     "liveComparison": {
-      "currentHash": "5767f71b028cc9b2bc5c31b6a4c132c222e17075d82a81a29c9b1669bde5d8e4"
+      "currentHash": "e002b35d628866ba2e0223a5089f1dd129b231a1557dd660e89f4ab7029597c3"
     }
   },
   {
     "id": "4320134",
     "contentStatus": "beta",
-    "name": "Gear-SupportA-1",
+    "name": "Gear-Support A-LV40",
     "rarity": 3,
     "type": {},
     "description": "30600204_ZKDescription",
@@ -83882,13 +83882,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
     },
     "liveComparison": {
-      "currentHash": "667de949765bc2bfae33e316b89f9c4220bfed03dc466333b1973a66c5adeafc"
+      "currentHash": "b0c00e1832f75f4d9d07c9692694e0e65bff4b9c1e339713df6425072b899ed0"
     }
   },
   {
     "id": "4320135",
     "contentStatus": "beta",
-    "name": "Gear-RuptureA-1",
+    "name": "Gear-RuptureA-LV40",
     "rarity": 3,
     "type": {},
     "description": "30600205_ZKDescription",
@@ -83897,13 +83897,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
     },
     "liveComparison": {
-      "currentHash": "ea638337529d3d37a26625fcd12d36519771b63453b7e3e575330da595959b5a"
+      "currentHash": "9df8070d36c29d88356d9983a9b66678f36f2d3d75ccd94fb9e3b98167ccb43b"
     }
   },
   {
     "id": "4320136",
     "contentStatus": "beta",
-    "name": "Gear-DefenseA-1",
+    "name": "Gear-DefenseA-LV40",
     "rarity": 3,
     "type": {},
     "description": "30600206_ZKDescription",
@@ -83912,13 +83912,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankShield03.webp"
     },
     "liveComparison": {
-      "currentHash": "d006902af5d0c3ce77996268b5fc80bfd739a8ad3dcd22f247732acb3432b150"
+      "currentHash": "973ffdbfb84babdfed42aed9f49dba1210b290fe43235aabbc2d8c1558cda43e"
     }
   },
   {
     "id": "4320137",
     "contentStatus": "beta",
-    "name": "Gear-AssaultA-2",
+    "name": "Gear-AssaultA-2-LV40",
     "rarity": 3,
     "type": {},
     "description": "<color=#FFAF2C>Gear-AssaultA-2</color> is an upgraded version of the Assault-type Expertise equipment. Building on its predecessor, it further raises the upper limit of attack attributes.",
@@ -83927,13 +83927,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "eb3ff605b62b2a648e105cbe7a882cb7f6fc545a29e5505f3600166b363359f2"
+      "currentHash": "24499f5a67402b82f8b902152b6638629421249afcf08c3410e157e5aa8e3bcf"
     }
   },
   {
     "id": "4320138",
     "contentStatus": "beta",
-    "name": "Gear-AnomalyA-2",
+    "name": "Gear-AnomalyA-2-LV40",
     "rarity": 3,
     "type": {},
     "description": "<color=#FFAF2C>Gear-AnomalyA-2</color> is an upgraded model of Anomaly-type Expertise equipment. Further enhances the ability to inflict Anomaly effects.",
@@ -83942,13 +83942,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
     },
     "liveComparison": {
-      "currentHash": "590ec11e772f9ea89ec98cfd5557247cbcdd513cea93fe439f8d3fb0a2a9cf77"
+      "currentHash": "891de0686de9f6c3ae146889f0bef6837aad9847d7ce68429e4274b4134b586d"
     }
   },
   {
     "id": "4320139",
     "contentStatus": "beta",
-    "name": "Gear-SupportA-2",
+    "name": "Gear-SupportA-2-LV40",
     "rarity": 3,
     "type": {},
     "description": "<color=#FFAF2C>Gear-SupportA-2</color> is an upgraded model of the Expertise Support Equipment. Further enhances the coverage and effectiveness of Support skills.",
@@ -83957,7 +83957,7 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
     },
     "liveComparison": {
-      "currentHash": "c00319a6a5fbc081c45a19f1d9919209c679612d297f3fb397ee123c45b3a3db"
+      "currentHash": "4eeb771abdea9fac86482abdc2e606409167a4c1489ef4744dbcf05af512d193"
     }
   },
   {
@@ -83978,7 +83978,7 @@
   {
     "id": "4320151",
     "contentStatus": "beta",
-    "name": "ZKItem_4320151_Name",
+    "name": "Gear-Assault S-LV40",
     "rarity": 4,
     "type": {},
     "description": "30600101_ZKDescription",
@@ -83987,13 +83987,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "0518e9378dca699d984becce466e3eef700029f1e04974645db8479d6eb50cd2"
+      "currentHash": "44657565cebca0ff4a7a280aff2982957930f1ed30e8cae6ba03554376ae3ba0"
     }
   },
   {
     "id": "4320152",
     "contentStatus": "beta",
-    "name": "ZKItem_4320152_Name",
+    "name": "Gear-Stun S-LV40",
     "rarity": 4,
     "type": {},
     "description": "30600102_ZKDescription",
@@ -84002,13 +84002,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankStun03.webp"
     },
     "liveComparison": {
-      "currentHash": "dd4282112d7453ca446394c496e76d96392ecbff42935fe63f666746f42592e0"
+      "currentHash": "c2e44460e25348fd6fe7d7b1e976d88a45452a00c58e681ed1481e19e4e1e7d4"
     }
   },
   {
     "id": "4320153",
     "contentStatus": "beta",
-    "name": "ZKItem_4320153_Name",
+    "name": "Gear-AnomalyS-LV40",
     "rarity": 4,
     "type": {},
     "description": "30600103_ZKDescription",
@@ -84017,13 +84017,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
     },
     "liveComparison": {
-      "currentHash": "a609ac76e7b22a75c3ff2d5844c2dd2299c7d27747aa81ee3bbafcdcbffe0ed4"
+      "currentHash": "144824ca42ba89fa4c5384d9a1184a7e165b82182da9d38204211b05eefbc8ef"
     }
   },
   {
     "id": "4320154",
     "contentStatus": "beta",
-    "name": "ZKItem_4320154_Name",
+    "name": "Gear-Support S-LV40",
     "rarity": 4,
     "type": {},
     "description": "30600104_ZKDescription",
@@ -84032,13 +84032,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
     },
     "liveComparison": {
-      "currentHash": "2245f61af593da0e879259b7ba9705781c2f384684f25c3a931930c5992eddc4"
+      "currentHash": "9c357874af2aae685d76e84ca19115e65448bd3df00f7bfd499d52d0c5fce33d"
     }
   },
   {
     "id": "4320155",
     "contentStatus": "beta",
-    "name": "ZKItem_4320155_Name",
+    "name": "Gear-RuptureS-LV40",
     "rarity": 4,
     "type": {},
     "description": "30600105_ZKDescription",
@@ -84047,13 +84047,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
     },
     "liveComparison": {
-      "currentHash": "1035716cd4124bef7b3107d98c2fedacb9b79aeb4ac8b8cf588e14fc9289f919"
+      "currentHash": "7e21678e4d1618d9441ce0272f8b8367a14852313303aae58038ab81c7159496"
     }
   },
   {
     "id": "4320156",
     "contentStatus": "beta",
-    "name": "ZKItem_4320156_Name",
+    "name": "Gear-Defense S-LV40",
     "rarity": 4,
     "type": {},
     "description": "30600106_ZKDescription",
@@ -84062,13 +84062,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankShield03.webp"
     },
     "liveComparison": {
-      "currentHash": "558b70595cbb4b2520ab19861f38b482c4f435b7d68faa8d759800c9b1811fb3"
+      "currentHash": "8ec6d57246fb3d2ff02f6bc3f1c15f8ddd29f752a84d535ec2a30e13a3e39b2a"
     }
   },
   {
     "id": "4320157",
     "contentStatus": "beta",
-    "name": "ZKItem_4320157_Name",
+    "name": "Gear-AssaultS-2-LV40",
     "rarity": 4,
     "type": {},
     "description": "30600108_ZKDescription",
@@ -84077,13 +84077,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "d24e95167904d128f9c237a2c51ae716dd8985b8821744e64b5b4cfc43ab7b4b"
+      "currentHash": "f6d2309018eede23d701e4c0e3e8995a4628cb8751a6a4d0205a32c1cc1324ca"
     }
   },
   {
     "id": "4320158",
     "contentStatus": "beta",
-    "name": "ZKItem_4320158_Name",
+    "name": "Gear-AnomalyS-2-LV40",
     "rarity": 4,
     "type": {},
     "description": "30600107_ZKDescription",
@@ -84092,13 +84092,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
     },
     "liveComparison": {
-      "currentHash": "333c2234a66f3af535fc441754c14012a836ed08c795832d71fe2e031478490c"
+      "currentHash": "cda2483174efd13ec27c950b5228f185e89add68b112ab61b3d876042502c00f"
     }
   },
   {
     "id": "4320159",
     "contentStatus": "beta",
-    "name": "ZKItem_4320159_Name",
+    "name": "Gear-Support S-2-LV40",
     "rarity": 4,
     "type": {},
     "description": "30600109_ZKDescription",
@@ -84107,13 +84107,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
     },
     "liveComparison": {
-      "currentHash": "ef8d780607d84a52f5b33131287b6b1dad57c407227a0f0d7d59e54a9cc80101"
+      "currentHash": "de33ec085c734d74aed61a57459be495039ea7bb81fc722c40c381c2cf0dc3d9"
     }
   },
   {
     "id": "4320171",
     "contentStatus": "beta",
-    "name": "Gear-AssaultS-1",
+    "name": "Gear-Assault S-LV50",
     "rarity": 4,
     "type": {},
     "description": "30600101_ZKDescription",
@@ -84122,13 +84122,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "91b2f12d374c5dd87e6293219c599e178a69b4f725a33d629a01cc939b856b32"
+      "currentHash": "624a29489ddd7454175c3f38591b6a7a831f21705013647ff54e182209e7dfd3"
     }
   },
   {
     "id": "4320172",
     "contentStatus": "beta",
-    "name": "Gear-Stun S-1",
+    "name": "Gear-Stun S-LV50",
     "rarity": 4,
     "type": {},
     "description": "30600102_ZKDescription",
@@ -84137,13 +84137,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankStun03.webp"
     },
     "liveComparison": {
-      "currentHash": "282bf91759a947319de8ace15b153261fca3d1ace1690a7a45dadce106342b10"
+      "currentHash": "d12badde939b24ea822f7ba12110187cf2750ea96200f4c499f395949bbab085"
     }
   },
   {
     "id": "4320173",
     "contentStatus": "beta",
-    "name": "Gear-AnomalyS-1",
+    "name": "Gear-AnomalyS-LV50",
     "rarity": 4,
     "type": {},
     "description": "30600103_ZKDescription",
@@ -84152,13 +84152,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
     },
     "liveComparison": {
-      "currentHash": "e51ca4b265178fd6d08dc3713802143ee69dea9f1c01ac95340ebf1804c698fd"
+      "currentHash": "3bca0c31b31933969f4531842e9da126f600e3ed1c6ca06294293193243437e4"
     }
   },
   {
     "id": "4320174",
     "contentStatus": "beta",
-    "name": "Gear-Support S-1",
+    "name": "Gear-Support S-LV50",
     "rarity": 4,
     "type": {},
     "description": "30600104_ZKDescription",
@@ -84167,13 +84167,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
     },
     "liveComparison": {
-      "currentHash": "ae6f51dd94ebf2c254fd36061627337f5ae80a9de72af3f72e6023051fbabd67"
+      "currentHash": "5872de0456eb76c0f82041a4df396bd753dac6a983dc93e6a9d526dab9a4dae1"
     }
   },
   {
     "id": "4320175",
     "contentStatus": "beta",
-    "name": "Gear-RuptureS-1",
+    "name": "Gear-RuptureS-LV50",
     "rarity": 4,
     "type": {},
     "description": "30600105_ZKDescription",
@@ -84182,13 +84182,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
     },
     "liveComparison": {
-      "currentHash": "daacb0ee39c8ec6fbb2f27f911795f03c274801a313841051f7eda00e533245c"
+      "currentHash": "f127fa3c273b6bf08c31291f8b266140dbd7c45e8a19792044005a5a2f0079c7"
     }
   },
   {
     "id": "4320176",
     "contentStatus": "beta",
-    "name": "Gear-Defense S-1",
+    "name": "Gear-Defense S-LV50",
     "rarity": 4,
     "type": {},
     "description": "30600106_ZKDescription",
@@ -84197,13 +84197,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankShield03.webp"
     },
     "liveComparison": {
-      "currentHash": "3c19bc098d830cb60a3666d56e38926b1a918103c3f1d675cb953f7daf64f30d"
+      "currentHash": "93b140c828d594bfdba2d15f9c3695947c38b0cd3a1c78c0c0d4f75d12cc6e1d"
     }
   },
   {
     "id": "4320177",
     "contentStatus": "beta",
-    "name": "Gear-Assault S-2",
+    "name": "Gear-Assault S-2-LV50",
     "rarity": 4,
     "type": {},
     "description": "30600108_ZKDescription",
@@ -84212,13 +84212,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "17b45a2754c0fe6fd7cc6ada883b945a9bf8af0e1cba301c13864055d01eb5e2"
+      "currentHash": "3d75d77c759143ce399117828bdaaee56c20254c67ec688fc7bb77d9c9133210"
     }
   },
   {
     "id": "4320178",
     "contentStatus": "beta",
-    "name": "Gear-AnomalyS-2",
+    "name": "Gear-AnomalyS-2-LV50",
     "rarity": 4,
     "type": {},
     "description": "30600107_ZKDescription",
@@ -84227,13 +84227,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
     },
     "liveComparison": {
-      "currentHash": "100094a5c3678cbb30108093b1998b42fabd060412b556b6d93a07ebfc4e0dc9"
+      "currentHash": "768771786a9ddca6e7097b8795ae76d2499b326e2903069dfb3ca8f4fbd7161c"
     }
   },
   {
     "id": "4320179",
     "contentStatus": "beta",
-    "name": "Gear-Support S-2",
+    "name": "Gear-Support S-2-LV50",
     "rarity": 4,
     "type": {},
     "description": "30600109_ZKDescription",
@@ -84242,7 +84242,7 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
     },
     "liveComparison": {
-      "currentHash": "09109553534d7c2d6d0520e77a77aeffabda1c5287700c897f228c68b0aa3648"
+      "currentHash": "31d0fcf216c988d87a5826015a426a7f21208d41882f57339e2b4b92fd0262a1"
     }
   },
   {
@@ -84383,7 +84383,7 @@
   {
     "id": "4320271",
     "contentStatus": "beta",
-    "name": "Gear-AssaultS+ 1",
+    "name": "Gear-Attack S+ LV60",
     "rarity": 5,
     "type": {},
     "description": "30600001_ZKDescription",
@@ -84392,13 +84392,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "5b01a384255da6cc75762d6b500a3d5532790cf143ed99def289806a428bff16"
+      "currentHash": "becb64bb719d7eabe25691c06aabbc51c9ac9057d117efb72cd409baa4b46aca"
     }
   },
   {
     "id": "4320272",
     "contentStatus": "beta",
-    "name": "Gear-Stun S+ 1",
+    "name": "Gear-Stun S+ LV60",
     "rarity": 5,
     "type": {},
     "description": "30600002_ZKDescription",
@@ -84407,13 +84407,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankStun03.webp"
     },
     "liveComparison": {
-      "currentHash": "8abec31a33db565300d7517ee4dd45a80cf9a3a524dcba9e5580382bac750354"
+      "currentHash": "fe06f56a002e3707a02fa43df46dbc29024e258c6de73e021829900039a8b06b"
     }
   },
   {
     "id": "4320273",
     "contentStatus": "beta",
-    "name": "Gear-Anomaly S+ 1",
+    "name": "Gear-Anomaly S+ LV60",
     "rarity": 5,
     "type": {},
     "description": "30600003_ZKDescription",
@@ -84422,13 +84422,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
     },
     "liveComparison": {
-      "currentHash": "bbef9a6b0d12fd153801b37559f8ff5fb5048abf078a3c3ae051f5fdafe699f3"
+      "currentHash": "b1ba2763d22ec19abe83226e6aa8a89f8c5c64653c5f55557a7f76a2b985d166"
     }
   },
   {
     "id": "4320274",
     "contentStatus": "beta",
-    "name": "Gear-Support S+ 1",
+    "name": "Gear-Support S+ LV60",
     "rarity": 5,
     "type": {},
     "description": "30600004_ZKDescription",
@@ -84437,13 +84437,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
     },
     "liveComparison": {
-      "currentHash": "7b7da0c104ae7d230d7a7b0ceadd8c6257c9185185d547ad182df9ecb22b76c8"
+      "currentHash": "c7106c209d503a09a84708652474ca570cdffe6c56995d06727a8ff84805bfad"
     }
   },
   {
     "id": "4320275",
     "contentStatus": "beta",
-    "name": "Gear-Rupture S+ 1",
+    "name": "Gear-Rupture S+ LV60",
     "rarity": 5,
     "type": {},
     "description": "30600005_ZKDescription",
@@ -84452,13 +84452,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankRuin03.webp"
     },
     "liveComparison": {
-      "currentHash": "6377bfba7bcb9548b1a0fb2a77745b0073d26c9a8c687edbc7dd785378180f0a"
+      "currentHash": "0660f70ddad95eb850277c586d82a25a8dc62884512e7e44be5439576149b4b2"
     }
   },
   {
     "id": "4320276",
     "contentStatus": "beta",
-    "name": "Gear-Defense S+ 1",
+    "name": "Gear-Defense S+ LV60",
     "rarity": 5,
     "type": {},
     "description": "30600006_ZKDescription",
@@ -84467,13 +84467,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankShield03.webp"
     },
     "liveComparison": {
-      "currentHash": "e431e582f4177ef272614b5e3d580d905661ed2b18ec94eb471e56cb8ca51adb"
+      "currentHash": "faa1e682b236ef94727d613ad1c7f8fecb662dc46e0e5dff9ec2096288919e99"
     }
   },
   {
     "id": "4320277",
     "contentStatus": "beta",
-    "name": "Gear-Attack S+ 2",
+    "name": "Gear-AssaultS+ 2-LV60",
     "rarity": 5,
     "type": {},
     "description": "30600008_ZKDescription",
@@ -84482,13 +84482,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankDamage03.webp"
     },
     "liveComparison": {
-      "currentHash": "68ca004e4bd9d0d457a60b81975c1872143208f81557218d5980e035e5eaf09b"
+      "currentHash": "12460d724e7b91b1305b8ae809a147aaa0da4699844c0f554408f09cf63df717"
     }
   },
   {
     "id": "4320278",
     "contentStatus": "beta",
-    "name": "Gear-Anomaly S+ 2",
+    "name": "Gear-Anomaly S+ 2-LV60",
     "rarity": 5,
     "type": {},
     "description": "30600007_ZKDescription",
@@ -84497,13 +84497,13 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankBuff03.webp"
     },
     "liveComparison": {
-      "currentHash": "2d64adc75ffe07288e44b5a20a6eeec9ff77118d55b53f7b4d03b2e88cbe2326"
+      "currentHash": "c388603b8575300ea5d829c29a6fe943dcb3d10fa82c933669ff4dc25ad86a82"
     }
   },
   {
     "id": "4320279",
     "contentStatus": "beta",
-    "name": "Gear-Support S+ 2",
+    "name": "Gear-Support S+ 2-LV60",
     "rarity": 5,
     "type": {},
     "description": "30600009_ZKDescription",
@@ -84512,7 +84512,7 @@
       "icon": "Nanoka/zzz/assets/items/WeaponRankSupport03.webp"
     },
     "liveComparison": {
-      "currentHash": "456a776e546cc951ff234b9074c3ee9d84d25a7de49f4b9436f692cc3cc4b94f"
+      "currentHash": "3df3fe959f809db9f8ea49685940c70b4ad4716fcdde04064b4c42ff55449def"
     }
   },
   {
@@ -85644,13 +85644,13 @@
     "name": "Block Protagonist Gear-B",
     "rarity": 2,
     "type": {},
-    "description": "When equipped, triggers [Perfect Block] at the right moment.\nUpon triggering, reduces enemy green shields (Minion <color=#2BAD00>100%</color>, Elite <color=#2BAD00>50%</color>, Mini-Boss <color=#2BAD00>30%</color>, Boss <color=#2BAD00>20%</color>) and accumulates Daze (Minion <color=#2BAD00>100%</color>, Elite <color=#2BAD00>70%</color>, Mini-Boss <color=#2BAD00>30%</color>, Boss <color=#2BAD00>25%</color>);\nTriggering [Perfect Block] against Elites and Minions allows for an immediate Execution; triggering [Perfect Block] <color=#2BAD00>3</color> times against a Boss grants an additional Execution opportunity.",
+    "description": "When equipped, grants three Protagonist Skills: [Perfect Block], [Grappling Hook], and [Execution]. 〈Block Enhance〉 Triggering Execution additionally reduces the whole squad's Erosion Level and restores the whole squad's HP. Perfect Block triggers a dodge effect even if unsuccessful. Charges 10 times per Precinct.",
     "secondaryDescription": "BKItem_4333012_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/BooSword1.webp"
     },
     "liveComparison": {
-      "currentHash": "d4d073ad52ea957c734fe9dd0a5ba4d3cab80af2157cc8a09dc4cb8b27606017"
+      "currentHash": "9333cb38e497a8f578a794a283c8b1488236f81f4c72854ffdcc6bfe0292f3cf"
     }
   },
   {
@@ -85659,13 +85659,13 @@
     "name": "Block Protagonist Gear-A",
     "rarity": 3,
     "type": {},
-    "description": "When equipped, triggers [Perfect Block] at the right opportunity.\nUpon triggering, reduces the enemy's Decaying Shield and accumulates Daze; instantly executes Elites and normal enemies upon triggering, and grants an additional Execution opportunity against Bosses for every <color=#2BAD00>3</color> triggers.\nThe efficiency of the Agent's Normal Block in reducing Decaying Shield is increased by <color=#2BAD00>30%</color>; the reduction in Erosion Level during Execution is also increased.",
+    "description": "When equipped, grants three Protagonist Skills: [Perfect Block], [Grappling Hook], and [Execution]. 〈Block Enhance〉 Triggering Execution additionally reduces the whole squad's Erosion Level and restores the whole squad's HP. Perfect Block triggers a dodge effect even on failure. Charges up to 10 per Precinct.",
     "secondaryDescription": "BKItem_4333013_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/BooSword1.webp"
     },
     "liveComparison": {
-      "currentHash": "2f91eba154a11997ea4215fe864214ab82002f2aacbb2b3f3727dc3b2185afff"
+      "currentHash": "6aa987af2fbc006d42d80249d416741c1082b61062248b30aa3cc773eff4276b"
     }
   },
   {
@@ -85674,13 +85674,13 @@
     "name": "Block Protagonist Gear-S",
     "rarity": 4,
     "type": {},
-    "description": "When equipped, trigger [Perfect Block] at the right opportunity.\nUpon triggering, reduces enemy green shields and accumulates Daze; triggering against elites and normal enemies can directly execute them, while triggering against a Boss <color=#2BAD00>3</color> times grants an additional Execution opportunity.\nThe efficiency of green shield reduction from an Agent's Normal Block is increased by <color=#2BAD00>50%</color>; Erosion Level reduction during Execution is also increased.\nAfter triggering [Perfect Block], the whole squad gains <color=#2BAD00>1</color> stack of [DMG Boost]; after an Execution, the whole squad gains <color=#2BAD00>2</color> stacks of [DMG Boost]. [DMG Boost] increases DMG dealt by <color=#2BAD00>10%</color>, lasting <color=#2BAD00>30</color>s, stacking up to <color=#2BAD00>5</color> times, and repeated triggers reset the duration.",
+    "description": "When equipped, grants three Protagonist Skills: [Perfect Block], [Grappling Hook], and [Execution]. 〈Block Enhance〉 Triggering Execution additionally reduces the whole squad's Erosion Level and restores the whole squad's HP. Perfect Block triggers a dodge effect even on failure. Charges up to 10 per Precinct.",
     "secondaryDescription": "BKItem_4333014_Story",
     "assets": {
       "icon": "Nanoka/zzz/assets/items/BooSword1.webp"
     },
     "liveComparison": {
-      "currentHash": "d584ccf624f12e3a1a938948c453139431ef161d15f8788b85f33ffe3cab0d30"
+      "currentHash": "d68df957747a96f80ca84e5d14861e818f47d88b08379d0229ee4a10387de52c"
     }
   },
   {
@@ -87366,7 +87366,7 @@
   {
     "id": "4350201",
     "contentStatus": "beta",
-    "name": "ZKItem_4350201_Name",
+    "name": "Blueprint-LV40 Gear-AssaultA1",
     "rarity": 3,
     "type": {},
     "description": "ZKItem_4350201_Desc",
@@ -87375,13 +87375,13 @@
       "icon": "Nanoka/zzz/assets/items/Card02.webp"
     },
     "liveComparison": {
-      "currentHash": "f4ac0725853944ce5ad89ff70b3fd9586100c949d6ece7597bc42cefe53be3ce"
+      "currentHash": "1806c61d6beef73a9c636665934ccbb83e00e70dd3165ccfa45de90273aea47b"
     }
   },
   {
     "id": "4350202",
     "contentStatus": "beta",
-    "name": "ZKItem_4350202_Name",
+    "name": "Blueprint-LV40 Gear-StunA1",
     "rarity": 3,
     "type": {},
     "description": "ZKItem_4350202_Desc",
@@ -87390,13 +87390,13 @@
       "icon": "Nanoka/zzz/assets/items/Card02.webp"
     },
     "liveComparison": {
-      "currentHash": "2a74d78194c9b85bff7ba51bd281df4614c91b37dc18a991353df7acd92eaca6"
+      "currentHash": "e07c94b4f612a118dd16bc99f02c135a6d121c6abd3c6d5b2d962f9cbbb7eeec"
     }
   },
   {
     "id": "4350203",
     "contentStatus": "beta",
-    "name": "ZKItem_4350203_Name",
+    "name": "Blueprint-LV40 Gear-AnomalyA1",
     "rarity": 3,
     "type": {},
     "description": "ZKItem_4350203_Desc",
@@ -87405,13 +87405,13 @@
       "icon": "Nanoka/zzz/assets/items/Card02.webp"
     },
     "liveComparison": {
-      "currentHash": "f40df07cee9c8fc12845ec323ccb17535e632f47e98cab1046774de6c8b7a4c3"
+      "currentHash": "fd7f688a5d889662bb4e7a35fb574b17d59a58c8fbdfa35d4e3054ada05a3c67"
     }
   },
   {
     "id": "4350204",
     "contentStatus": "beta",
-    "name": "ZKItem_4350204_Name",
+    "name": "Blueprint-LV40 Gear-SupportA1",
     "rarity": 3,
     "type": {},
     "description": "ZKItem_4350204_Desc",
@@ -87420,13 +87420,13 @@
       "icon": "Nanoka/zzz/assets/items/Card02.webp"
     },
     "liveComparison": {
-      "currentHash": "1b537a11ce329c6883d61b586aa78368475db80fcd64856569b32c14a999412b"
+      "currentHash": "5dce3615b6dfbddeb970c604590b4f18693922590c5ee320edb9feeec9daab3b"
     }
   },
   {
     "id": "4350205",
     "contentStatus": "beta",
-    "name": "ZKItem_4350205_Name",
+    "name": "Blueprint-LV40 Gear-RuptureA1",
     "rarity": 3,
     "type": {},
     "description": "ZKItem_4350205_Desc",
@@ -87435,13 +87435,13 @@
       "icon": "Nanoka/zzz/assets/items/Card02.webp"
     },
     "liveComparison": {
-      "currentHash": "9e5c2b5f443f00fea747c5343f21703a7e65a9a4d71403e44f6cb92f847e7a21"
+      "currentHash": "d60598f7861c65dd1300dbdfcdbe098bda44223f278e04e807b81f379348ab28"
     }
   },
   {
     "id": "4350206",
     "contentStatus": "beta",
-    "name": "ZKItem_4350206_Name",
+    "name": "Blueprint-LV40 Gear-DefenseA1",
     "rarity": 3,
     "type": {},
     "description": "ZKItem_4350206_Desc",
@@ -87450,13 +87450,13 @@
       "icon": "Nanoka/zzz/assets/items/Card02.webp"
     },
     "liveComparison": {
-      "currentHash": "1f275088add67081f3f95aa255e23aec7ae94afe5773e52cc9e812768f2f7acc"
+      "currentHash": "e637734f4918d30ec03695c616e92db51c184cd3178295e291edc4a8da8f5c58"
     }
   },
   {
     "id": "4350211",
     "contentStatus": "beta",
-    "name": "ZKItem_4350211_Name",
+    "name": "Blueprint-LV50Gear-AssaultS1",
     "rarity": 4,
     "type": {},
     "description": "ZKItem_4350211_Desc",
@@ -87465,13 +87465,13 @@
       "icon": "Nanoka/zzz/assets/items/Card02.webp"
     },
     "liveComparison": {
-      "currentHash": "6cc1d7f6eef4af95cac8a0ac3b948a972b9494800884d72354b41a0624adbbce"
+      "currentHash": "99a0e9a65162e5c5107547f601895ea539f41754173819edf6c0e0755b052a74"
     }
   },
   {
     "id": "4350212",
     "contentStatus": "beta",
-    "name": "ZKItem_4350212_Name",
+    "name": "Blueprint-LV50 Gear-StunS1",
     "rarity": 4,
     "type": {},
     "description": "ZKItem_4350212_Desc",
@@ -87480,13 +87480,13 @@
       "icon": "Nanoka/zzz/assets/items/Card02.webp"
     },
     "liveComparison": {
-      "currentHash": "734939338047b765b3657c053702fafecd1b91f735bfed5219e0957e24004ecf"
+      "currentHash": "564b9b2242524da0668565e0c138286f7f24925dd76f21029e699fdc14bf3a9f"
     }
   },
   {
     "id": "4350213",
     "contentStatus": "beta",
-    "name": "ZKItem_4350213_Name",
+    "name": "Blueprint-LV50 Gear-AnomalyS1",
     "rarity": 4,
     "type": {},
     "description": "ZKItem_4350213_Desc",
@@ -87495,13 +87495,13 @@
       "icon": "Nanoka/zzz/assets/items/Card02.webp"
     },
     "liveComparison": {
-      "currentHash": "2e98fb132aa0e3c0c4b4a561465d662732059c62bd70c7c13f5d7847b4dd959a"
+      "currentHash": "7024d278e0da50f210c69a2e29789acc32d40bda2c2b38f12e896ab38b42b583"
     }
   },
   {
     "id": "4350214",
     "contentStatus": "beta",
-    "name": "ZKItem_4350214_Name",
+    "name": "Blueprint-LV50 Gear-SupportS1",
     "rarity": 4,
     "type": {},
     "description": "ZKItem_4350214_Desc",
@@ -87510,13 +87510,13 @@
       "icon": "Nanoka/zzz/assets/items/Card02.webp"
     },
     "liveComparison": {
-      "currentHash": "9555904f6bfae089d2cc25f6487309bc60a711baff3befb45da8c5078869a897"
+      "currentHash": "31d201d9c3a4ff46620a596a77eab53e2b0b3d253826de96d46c262a7ef8bf91"
     }
   },
   {
     "id": "4350215",
     "contentStatus": "beta",
-    "name": "ZKItem_4350215_Name",
+    "name": "Blueprint-LV50 Gear-RuptureS1",
     "rarity": 4,
     "type": {},
     "description": "ZKItem_4350215_Desc",
@@ -87525,13 +87525,13 @@
       "icon": "Nanoka/zzz/assets/items/Card02.webp"
     },
     "liveComparison": {
-      "currentHash": "e1c9178cb2f20bb73346ccefa0546f966972a119526463ce79cf6eeebfcad4dd"
+      "currentHash": "c6a3850a5a375c6297d7d459c11566448ec3822ebe045b89095da7af54c934b4"
     }
   },
   {
     "id": "4350216",
     "contentStatus": "beta",
-    "name": "ZKItem_4350216_Name",
+    "name": "Blueprint-LV50 Gear-DefenseS1",
     "rarity": 4,
     "type": {},
     "description": "ZKItem_4350216_Desc",
@@ -87540,13 +87540,13 @@
       "icon": "Nanoka/zzz/assets/items/Card02.webp"
     },
     "liveComparison": {
-      "currentHash": "18dbe6bfc9e1c13febfb27e4ee1a15ce5d30075b5edae2066941cee43505d7a5"
+      "currentHash": "3e7c5985a1dbd1c568d4b9fec78371dc869e17ee15b701ffb2cdcdc0eee6a6aa"
     }
   },
   {
     "id": "4350217",
     "contentStatus": "beta",
-    "name": "ZKItem_4350217_Name",
+    "name": "Blueprint-LV50 Gear-AssaultS2",
     "rarity": 4,
     "type": {},
     "description": "ZKItem_4350217_Desc",
@@ -87555,13 +87555,13 @@
       "icon": "Nanoka/zzz/assets/items/Card02.webp"
     },
     "liveComparison": {
-      "currentHash": "afdc6a48ca66e32ac16fc52c23e1bce9483400b057c038fd9afad35cbae904f2"
+      "currentHash": "91fac26dd24fbe3e67ff7d41cf922eb9261afa0c901d274ba5e5b45a065e3a6b"
     }
   },
   {
     "id": "4350218",
     "contentStatus": "beta",
-    "name": "ZKItem_4350218_Name",
+    "name": "Blueprint-LV50Gear-AnomalyS2",
     "rarity": 4,
     "type": {},
     "description": "ZKItem_4350218_Desc",
@@ -87570,13 +87570,13 @@
       "icon": "Nanoka/zzz/assets/items/Card02.webp"
     },
     "liveComparison": {
-      "currentHash": "01722d5f15ec141d93c360399992f51625a39a6ac67528e01dade4a0f300da39"
+      "currentHash": "3afdba1bdf560cd5e03bf36aab52857a26af731d47183a15b82b85f3fc63a469"
     }
   },
   {
     "id": "4350219",
     "contentStatus": "beta",
-    "name": "ZKItem_4350219_Name",
+    "name": "Blueprint-LV50 Gear-SupportS2",
     "rarity": 4,
     "type": {},
     "description": "ZKItem_4350219_Desc",
@@ -87585,13 +87585,13 @@
       "icon": "Nanoka/zzz/assets/items/Card02.webp"
     },
     "liveComparison": {
-      "currentHash": "03439742075058f48a783c355dcafe2054cb4cd22ddcf9d8ce4fdf58646a12c7"
+      "currentHash": "c5b38e1b5ea8921c377d3e908bd48f38d406da28e31192c6d2a8829c76c64e4d"
     }
   },
   {
     "id": "4350231",
     "contentStatus": "beta",
-    "name": "ZKItem_4350231_Name",
+    "name": "Blueprint-LV60 Gear-AttackS+1",
     "rarity": 5,
     "type": {},
     "description": "ZKItem_4350231_Desc",
@@ -87600,13 +87600,13 @@
       "icon": "Nanoka/zzz/assets/items/Card02.webp"
     },
     "liveComparison": {
-      "currentHash": "07d143c3ea1c84e6ae845a967a6454e936209967154a7922ab0a4113d66ece22"
+      "currentHash": "64335e077da468288c77dd754752c3a4c6855b506f547c22ef4a75f96783cf95"
     }
   },
   {
     "id": "4350232",
     "contentStatus": "beta",
-    "name": "ZKItem_4350232_Name",
+    "name": "Blueprint-LV60 Gear-StunS+1",
     "rarity": 5,
     "type": {},
     "description": "ZKItem_4350232_Desc",
@@ -87615,13 +87615,13 @@
       "icon": "Nanoka/zzz/assets/items/Card02.webp"
     },
     "liveComparison": {
-      "currentHash": "07a42826032674c11ed6c71242d6bc02421a81e659b7b1d6ec4685005c1741be"
+      "currentHash": "5d5c33ff0cc6707582dd197ddfac3e3ead59a90c128e4c43f1a55cac6cabbc2d"
     }
   },
   {
     "id": "4350233",
     "contentStatus": "beta",
-    "name": "ZKItem_4350233_Name",
+    "name": "Blueprint-LV60 Gear-AnomalyS+1",
     "rarity": 5,
     "type": {},
     "description": "ZKItem_4350233_Desc",
@@ -87630,13 +87630,13 @@
       "icon": "Nanoka/zzz/assets/items/Card02.webp"
     },
     "liveComparison": {
-      "currentHash": "4c9ae1062ed0c1d70bc1378b858dba59ff1e79e452e69f80664b34f4d33c4dce"
+      "currentHash": "00feef8cae44df301c52e159adc53530a5764bed69c7e6e2b84d7ad32d665809"
     }
   },
   {
     "id": "4350234",
     "contentStatus": "beta",
-    "name": "ZKItem_4350234_Name",
+    "name": "Blueprint-LV60 Gear-Support S+1",
     "rarity": 5,
     "type": {},
     "description": "ZKItem_4350234_Desc",
@@ -87645,13 +87645,13 @@
       "icon": "Nanoka/zzz/assets/items/Card02.webp"
     },
     "liveComparison": {
-      "currentHash": "2c83e720f7269be97da91b8a3857fd25285b49a3b306ceab9dd3c82700ce9ce3"
+      "currentHash": "de79f5aadbbf1663b0967e23a946f21c9edf72083349f38d9adb6ad5747f8821"
     }
   },
   {
     "id": "4350235",
     "contentStatus": "beta",
-    "name": "ZKItem_4350235_Name",
+    "name": "Blueprint-LV60 Gear-RuptureS+1",
     "rarity": 5,
     "type": {},
     "description": "ZKItem_4350235_Desc",
@@ -87660,13 +87660,13 @@
       "icon": "Nanoka/zzz/assets/items/Card02.webp"
     },
     "liveComparison": {
-      "currentHash": "ebdb85e42477eb02178a92e2a87b642b696f212dda9cb3a807b9ce9d055e5377"
+      "currentHash": "d97c28eb1b1d05c82855e093d5ef49419a58e507fecc942effbd9d213db04e1e"
     }
   },
   {
     "id": "4350236",
     "contentStatus": "beta",
-    "name": "ZKItem_4350236_Name",
+    "name": "Blueprint-LV60 Gear-DefenseS+1",
     "rarity": 5,
     "type": {},
     "description": "ZKItem_4350236_Desc",
@@ -87675,13 +87675,13 @@
       "icon": "Nanoka/zzz/assets/items/Card02.webp"
     },
     "liveComparison": {
-      "currentHash": "97626e44af7f087feb4aa760ab8573c20aeadcb8535ea6c2ff3bf1ef527ac3c1"
+      "currentHash": "096b99a8142f5d98a57a2faa9d6526b3087993a49986d2636e4e39b844e2b834"
     }
   },
   {
     "id": "4350237",
     "contentStatus": "beta",
-    "name": "ZKItem_4350237_Name",
+    "name": "Blueprint-LV60 Gear-AttackS+2",
     "rarity": 5,
     "type": {},
     "description": "ZKItem_4350237_Desc",
@@ -87690,13 +87690,13 @@
       "icon": "Nanoka/zzz/assets/items/Card02.webp"
     },
     "liveComparison": {
-      "currentHash": "da4ac498d34bf4d7c6660166a9078c82e50cbc8035bceea484f3c270bfa8d7dd"
+      "currentHash": "88e3b9eca2b29742e21820339957c8660f85a8320df85f04fbc2b6f26c3f313e"
     }
   },
   {
     "id": "4350238",
     "contentStatus": "beta",
-    "name": "ZKItem_4350238_Name",
+    "name": "Blueprint-LV60 Gear-AnomalyS+2",
     "rarity": 5,
     "type": {},
     "description": "ZKItem_4350238_Desc",
@@ -87705,13 +87705,13 @@
       "icon": "Nanoka/zzz/assets/items/Card02.webp"
     },
     "liveComparison": {
-      "currentHash": "b5e71d8b3588de62cd5ba44affa9b34bcb5771c7dd7971b83520219552f92eca"
+      "currentHash": "f2784ff5e412d2d0f2de6492eb5298df7485e9d552c6606eb3e9f13ed461885a"
     }
   },
   {
     "id": "4350239",
     "contentStatus": "beta",
-    "name": "ZKItem_4350239_Name",
+    "name": "Blueprint-LV60 Gear-Support S+2",
     "rarity": 5,
     "type": {},
     "description": "ZKItem_4350239_Desc",
@@ -87720,7 +87720,7 @@
       "icon": "Nanoka/zzz/assets/items/Card02.webp"
     },
     "liveComparison": {
-      "currentHash": "553f738e8f26701ba01a832155ef13afea2220b68a2b373496a85743dfc72ef5"
+      "currentHash": "bb8f38b5f9880a0e81558b08e4db190affd5e3e9940cd185735b327f738f7bf1"
     }
   },
   {

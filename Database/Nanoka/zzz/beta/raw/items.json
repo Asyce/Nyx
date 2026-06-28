@@ -29170,91 +29170,91 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
     "rank": 1,
     "class": 132,
-    "name": "ZKItem_4320101_Name"
+    "name": "Gear-General C-LV5"
   },
   "4320102": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankStun03.png",
     "rank": 1,
     "class": 132,
-    "name": "ZKItem_4320102_Name"
+    "name": "Gear-General C-LV10"
   },
   "4320103": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
     "rank": 1,
     "class": 132,
-    "name": "Gear-GeneralB-1"
+    "name": "Gear-General C-LV20"
   },
   "4320104": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
     "rank": 2,
     "class": 132,
-    "name": "Gear-GeneralB-2"
+    "name": "Gear-AssaultB-LV20"
   },
   "4320105": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankStun03.png",
     "rank": 2,
     "class": 132,
-    "name": "Gear-AssaultA-1"
+    "name": "Gear-Stun B-LV20"
   },
   "4320106": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
     "rank": 2,
     "class": 132,
-    "name": "Gear-BreakA-1"
+    "name": "Gear-AnomalyB-LV20"
   },
   "4320107": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
     "rank": 2,
     "class": 132,
-    "name": "Gear-AnomalyA-1"
+    "name": "Gear-SupportB-LV20"
   },
   "4320108": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankRuin03.png",
     "rank": 2,
     "class": 132,
-    "name": "Gear-SupportA-1"
+    "name": "Gear-RuptureB-LV20"
   },
   "4320109": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankShield03.png",
     "rank": 2,
     "class": 132,
-    "name": "Gear-RuptureA-1"
+    "name": "Gear-DefenseB-LV20"
   },
   "4320111": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
     "rank": 2,
     "class": 132,
-    "name": "ZKItem_4320111_Name"
+    "name": "Gear-AssaultB-LV30"
   },
   "4320112": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankStun03.png",
     "rank": 2,
     "class": 132,
-    "name": "ZKItem_4320112_Name"
+    "name": "Gear-Stun B-LV30"
   },
   "4320113": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
     "rank": 2,
     "class": 132,
-    "name": "ZKItem_4320113_Name"
+    "name": "Gear-AnomalyB-LV30"
   },
   "4320114": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
     "rank": 2,
     "class": 132,
-    "name": "ZKItem_4320114_Name"
+    "name": "Gear-SupportB-LV30"
   },
   "4320115": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankRuin03.png",
     "rank": 2,
     "class": 132,
-    "name": "ZKItem_4320115_Name"
+    "name": "Gear-RuptureB-LV30"
   },
   "4320116": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankShield03.png",
     "rank": 2,
     "class": 132,
-    "name": "ZKItem_4320116_Name"
+    "name": "Gear-DefenseB-LV30"
   },
   "4320120": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
@@ -29266,37 +29266,37 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
     "rank": 3,
     "class": 132,
-    "name": "ZKItem_4320121_Name"
+    "name": "Gear-AssaultA-LV30"
   },
   "4320122": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankStun03.png",
     "rank": 3,
     "class": 132,
-    "name": "ZKItem_4320122_Name"
+    "name": "Gear-Stun A-LV30"
   },
   "4320123": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
     "rank": 3,
     "class": 132,
-    "name": "ZKItem_4320123_Name"
+    "name": "Gear-AnomalyA-LV30"
   },
   "4320124": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
     "rank": 3,
     "class": 132,
-    "name": "ZKItem_4320124_Name"
+    "name": "Gear-Support A-LV30"
   },
   "4320125": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankRuin03.png",
     "rank": 3,
     "class": 132,
-    "name": "ZKItem_4320125_Name"
+    "name": "Gear-RuptureA-LV30"
   },
   "4320126": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankShield03.png",
     "rank": 3,
     "class": 132,
-    "name": "ZKItem_4320126_Name"
+    "name": "Gear-DefenseA-LV30"
   },
   "4320127": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
@@ -29320,55 +29320,55 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
     "rank": 3,
     "class": 132,
-    "name": "Gear-AssaultA-1"
+    "name": "Gear-AssaultA-LV40"
   },
   "4320132": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankStun03.png",
     "rank": 3,
     "class": 132,
-    "name": "Gear-BreakA-1"
+    "name": "Gear-Stun A-LV40"
   },
   "4320133": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
     "rank": 3,
     "class": 132,
-    "name": "Gear-AnomalyA-1"
+    "name": "Gear-Anomaly A-LV40"
   },
   "4320134": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
     "rank": 3,
     "class": 132,
-    "name": "Gear-SupportA-1"
+    "name": "Gear-Support A-LV40"
   },
   "4320135": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankRuin03.png",
     "rank": 3,
     "class": 132,
-    "name": "Gear-RuptureA-1"
+    "name": "Gear-RuptureA-LV40"
   },
   "4320136": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankShield03.png",
     "rank": 3,
     "class": 132,
-    "name": "Gear-DefenseA-1"
+    "name": "Gear-DefenseA-LV40"
   },
   "4320137": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
     "rank": 3,
     "class": 132,
-    "name": "Gear-AssaultA-2"
+    "name": "Gear-AssaultA-2-LV40"
   },
   "4320138": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
     "rank": 3,
     "class": 132,
-    "name": "Gear-AnomalyA-2"
+    "name": "Gear-AnomalyA-2-LV40"
   },
   "4320139": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
     "rank": 3,
     "class": 132,
-    "name": "Gear-SupportA-2"
+    "name": "Gear-SupportA-2-LV40"
   },
   "4320150": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
@@ -29380,109 +29380,109 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4320151_Name"
+    "name": "Gear-Assault S-LV40"
   },
   "4320152": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankStun03.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4320152_Name"
+    "name": "Gear-Stun S-LV40"
   },
   "4320153": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4320153_Name"
+    "name": "Gear-AnomalyS-LV40"
   },
   "4320154": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4320154_Name"
+    "name": "Gear-Support S-LV40"
   },
   "4320155": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankRuin03.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4320155_Name"
+    "name": "Gear-RuptureS-LV40"
   },
   "4320156": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankShield03.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4320156_Name"
+    "name": "Gear-Defense S-LV40"
   },
   "4320157": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4320157_Name"
+    "name": "Gear-AssaultS-2-LV40"
   },
   "4320158": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4320158_Name"
+    "name": "Gear-AnomalyS-2-LV40"
   },
   "4320159": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4320159_Name"
+    "name": "Gear-Support S-2-LV40"
   },
   "4320171": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
     "rank": 4,
     "class": 132,
-    "name": "Gear-AssaultS-1"
+    "name": "Gear-Assault S-LV50"
   },
   "4320172": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankStun03.png",
     "rank": 4,
     "class": 132,
-    "name": "Gear-Stun S-1"
+    "name": "Gear-Stun S-LV50"
   },
   "4320173": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
     "rank": 4,
     "class": 132,
-    "name": "Gear-AnomalyS-1"
+    "name": "Gear-AnomalyS-LV50"
   },
   "4320174": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
     "rank": 4,
     "class": 132,
-    "name": "Gear-Support S-1"
+    "name": "Gear-Support S-LV50"
   },
   "4320175": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankRuin03.png",
     "rank": 4,
     "class": 132,
-    "name": "Gear-RuptureS-1"
+    "name": "Gear-RuptureS-LV50"
   },
   "4320176": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankShield03.png",
     "rank": 4,
     "class": 132,
-    "name": "Gear-Defense S-1"
+    "name": "Gear-Defense S-LV50"
   },
   "4320177": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
     "rank": 4,
     "class": 132,
-    "name": "Gear-Assault S-2"
+    "name": "Gear-Assault S-2-LV50"
   },
   "4320178": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
     "rank": 4,
     "class": 132,
-    "name": "Gear-AnomalyS-2"
+    "name": "Gear-AnomalyS-2-LV50"
   },
   "4320179": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
     "rank": 4,
     "class": 132,
-    "name": "Gear-Support S-2"
+    "name": "Gear-Support S-2-LV50"
   },
   "4320251": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
@@ -29542,55 +29542,55 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
     "rank": 5,
     "class": 132,
-    "name": "Gear-AssaultS+ 1"
+    "name": "Gear-Attack S+ LV60"
   },
   "4320272": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankStun03.png",
     "rank": 5,
     "class": 132,
-    "name": "Gear-Stun S+ 1"
+    "name": "Gear-Stun S+ LV60"
   },
   "4320273": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
     "rank": 5,
     "class": 132,
-    "name": "Gear-Anomaly S+ 1"
+    "name": "Gear-Anomaly S+ LV60"
   },
   "4320274": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
     "rank": 5,
     "class": 132,
-    "name": "Gear-Support S+ 1"
+    "name": "Gear-Support S+ LV60"
   },
   "4320275": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankRuin03.png",
     "rank": 5,
     "class": 132,
-    "name": "Gear-Rupture S+ 1"
+    "name": "Gear-Rupture S+ LV60"
   },
   "4320276": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankShield03.png",
     "rank": 5,
     "class": 132,
-    "name": "Gear-Defense S+ 1"
+    "name": "Gear-Defense S+ LV60"
   },
   "4320277": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
     "rank": 5,
     "class": 132,
-    "name": "Gear-Attack S+ 2"
+    "name": "Gear-AssaultS+ 2-LV60"
   },
   "4320278": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankBuff03.png",
     "rank": 5,
     "class": 132,
-    "name": "Gear-Anomaly S+ 2"
+    "name": "Gear-Anomaly S+ 2-LV60"
   },
   "4320279": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankSupport03.png",
     "rank": 5,
     "class": 132,
-    "name": "Gear-Support S+ 2"
+    "name": "Gear-Support S+ 2-LV60"
   },
   "4321001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic063.png",
@@ -30736,145 +30736,145 @@
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4350201_Name"
+    "name": "Blueprint-LV40 Gear-AssaultA1"
   },
   "4350202": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4350202_Name"
+    "name": "Blueprint-LV40 Gear-StunA1"
   },
   "4350203": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4350203_Name"
+    "name": "Blueprint-LV40 Gear-AnomalyA1"
   },
   "4350204": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4350204_Name"
+    "name": "Blueprint-LV40 Gear-SupportA1"
   },
   "4350205": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4350205_Name"
+    "name": "Blueprint-LV40 Gear-RuptureA1"
   },
   "4350206": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 3,
     "class": 130,
-    "name": "ZKItem_4350206_Name"
+    "name": "Blueprint-LV40 Gear-DefenseA1"
   },
   "4350211": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350211_Name"
+    "name": "Blueprint-LV50Gear-AssaultS1"
   },
   "4350212": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350212_Name"
+    "name": "Blueprint-LV50 Gear-StunS1"
   },
   "4350213": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350213_Name"
+    "name": "Blueprint-LV50 Gear-AnomalyS1"
   },
   "4350214": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350214_Name"
+    "name": "Blueprint-LV50 Gear-SupportS1"
   },
   "4350215": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350215_Name"
+    "name": "Blueprint-LV50 Gear-RuptureS1"
   },
   "4350216": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350216_Name"
+    "name": "Blueprint-LV50 Gear-DefenseS1"
   },
   "4350217": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350217_Name"
+    "name": "Blueprint-LV50 Gear-AssaultS2"
   },
   "4350218": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350218_Name"
+    "name": "Blueprint-LV50Gear-AnomalyS2"
   },
   "4350219": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350219_Name"
+    "name": "Blueprint-LV50 Gear-SupportS2"
   },
   "4350231": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350231_Name"
+    "name": "Blueprint-LV60 Gear-AttackS+1"
   },
   "4350232": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350232_Name"
+    "name": "Blueprint-LV60 Gear-StunS+1"
   },
   "4350233": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350233_Name"
+    "name": "Blueprint-LV60 Gear-AnomalyS+1"
   },
   "4350234": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350234_Name"
+    "name": "Blueprint-LV60 Gear-Support S+1"
   },
   "4350235": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350235_Name"
+    "name": "Blueprint-LV60 Gear-RuptureS+1"
   },
   "4350236": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350236_Name"
+    "name": "Blueprint-LV60 Gear-DefenseS+1"
   },
   "4350237": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350237_Name"
+    "name": "Blueprint-LV60 Gear-AttackS+2"
   },
   "4350238": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350238_Name"
+    "name": "Blueprint-LV60 Gear-AnomalyS+2"
   },
   "4350239": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350239_Name"
+    "name": "Blueprint-LV60 Gear-Support S+2"
   },
   "4350301": {
     "icon": "Assets/NapResources/UI/Sprite/Activity/Ver2_2/MessageBottleLogin/UnPacker/Card02.png",

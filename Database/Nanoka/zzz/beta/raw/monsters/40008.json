@@ -32,7 +32,7 @@
         "crit_dmg_res": 0,
         "pen_rate": 0,
         "pen_delta": 0,
-        "stun": 8315,
+        "stun": 7483,
         "is_stun": false,
         "break_stun": 0,
         "auto_recover_rate": 0,
@@ -72,7 +72,7 @@
         "ether_stun_res": 0,
         "physical_stun_res": 0,
         "wind_stun_res": 0,
-        "base_buildup_ratio": -900
+        "base_buildup_ratio": -1250
       },
       "curves": {
         "hp": {

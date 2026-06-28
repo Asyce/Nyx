@@ -78668,7 +78668,7 @@
           "crit_dmg_res": 0,
           "pen_rate": 0,
           "pen_delta": 0,
-          "stun": 8315,
+          "stun": 7483,
           "is_stun": false,
           "break_stun": 0,
           "auto_recover_rate": 0,
@@ -78708,7 +78708,7 @@
           "ether_stun_res": 0,
           "physical_stun_res": 0,
           "wind_stun_res": 0,
-          "base_buildup_ratio": -900
+          "base_buildup_ratio": -1250
         },
         "curves": {
           "hp": {
@@ -79163,7 +79163,7 @@
           "crit_dmg_res": 0,
           "pen_rate": 0,
           "pen_delta": 0,
-          "stun": 11006,
+          "stun": 9905,
           "is_stun": true,
           "break_stun": 0,
           "auto_recover_rate": 0,
@@ -79203,7 +79203,7 @@
           "ether_stun_res": 0,
           "physical_stun_res": 0,
           "wind_stun_res": 0,
-          "base_buildup_ratio": 1700
+          "base_buildup_ratio": 1250
         },
         "curves": {
           "hp": {
@@ -79659,7 +79659,7 @@
           "crit_dmg_res": 0,
           "pen_rate": 0,
           "pen_delta": 0,
-          "stun": 8315,
+          "stun": 7483,
           "is_stun": false,
           "break_stun": 0,
           "auto_recover_rate": 0,
@@ -79699,7 +79699,7 @@
           "ether_stun_res": 0,
           "physical_stun_res": 0,
           "wind_stun_res": 0,
-          "base_buildup_ratio": -900
+          "base_buildup_ratio": -1250
         },
         "curves": {
           "hp": {
@@ -80155,7 +80155,7 @@
           "crit_dmg_res": 0,
           "pen_rate": 0,
           "pen_delta": 0,
-          "stun": 11006,
+          "stun": 9905,
           "is_stun": true,
           "break_stun": 0,
           "auto_recover_rate": 0,
@@ -80195,7 +80195,7 @@
           "ether_stun_res": 0,
           "physical_stun_res": 0,
           "wind_stun_res": 0,
-          "base_buildup_ratio": 1700
+          "base_buildup_ratio": 1250
         },
         "curves": {
           "hp": {
@@ -81155,7 +81155,7 @@
     },
     "liveComparison": {
       "liveHash": "462a02d83824f64a2eb470197a7069eb5e1b73ffcd456769a7a784e027831b0a",
-      "currentHash": "a61d7a13f7263ef5700b3b29a3fdd2fdf2fd58efd3fb569d60f6e3e876e30182"
+      "currentHash": "af3f813255886a841b3f33fc1709e0c2074c7954835057908bea0d277432086d"
     }
   },
   {
@@ -104252,7 +104252,7 @@
           "crit_dmg_res": 0,
           "pen_rate": 0,
           "pen_delta": 0,
-          "stun": 8315,
+          "stun": 7483,
           "is_stun": true,
           "break_stun": 0,
           "auto_recover_rate": 0,
@@ -104292,7 +104292,7 @@
           "ether_stun_res": -2000,
           "physical_stun_res": 2000,
           "wind_stun_res": -2000,
-          "base_buildup_ratio": 3000
+          "base_buildup_ratio": 2500
         },
         "curves": {
           "hp": {
@@ -104757,7 +104757,7 @@
     },
     "liveComparison": {
       "liveHash": "ebd2cdacaa3a9d0ca506f76f9b80adfe05b789bf955ba452e62f39296eac3c61",
-      "currentHash": "ffb1c5151841c06f1fa753f8c12a646af1c083f3877b1ba5aa16ffcb47881476"
+      "currentHash": "b19494124f3b87f4cd5d6f6bb5dfabfd5816f513a3d9f58110ce0ab0f7981785"
     }
   },
   {
@@ -109368,7 +109368,7 @@
           "crit_dmg_res": 0,
           "pen_rate": 0,
           "pen_delta": 0,
-          "stun": 8315,
+          "stun": 7483,
           "is_stun": true,
           "break_stun": 0,
           "auto_recover_rate": 0,
@@ -109408,7 +109408,7 @@
           "ether_stun_res": 0,
           "physical_stun_res": 0,
           "wind_stun_res": 0,
-          "base_buildup_ratio": 3000
+          "base_buildup_ratio": 2500
         },
         "curves": {
           "hp": {
@@ -109863,7 +109863,7 @@
           "crit_dmg_res": 0,
           "pen_rate": 0,
           "pen_delta": 0,
-          "stun": 2363,
+          "stun": 2126,
           "is_stun": true,
           "break_stun": 0,
           "auto_recover_rate": 0,
@@ -109903,7 +109903,7 @@
           "ether_stun_res": 0,
           "physical_stun_res": 0,
           "wind_stun_res": 0,
-          "base_buildup_ratio": 3000
+          "base_buildup_ratio": 2500
         },
         "curves": {
           "hp": {
@@ -110368,7 +110368,7 @@
     },
     "liveComparison": {
       "liveHash": "ec2b8b51ad048bfd136eeb99cd89d8d784ff1d6b5b4a8300e99585c96f76c1ac",
-      "currentHash": "ab56497846aed0d59c6c58bf6c0fb56a17a0029b7a881d66fbf6dd4340944629"
+      "currentHash": "b095d884dba0ca4181ff632ed10d7089951f355e53043f28b1b4fd0dc8ee40b6"
     }
   },
   {
@@ -119748,7 +119748,7 @@
           "wind": 0
         },
         "stats": {
-          "hp": 21500,
+          "hp": 17918,
           "attack": 120,
           "defence": 60,
           "crit": 0,
@@ -120262,7 +120262,7 @@
     },
     "liveComparison": {
       "liveHash": "c4470ccf9b8292533b388bf48b36cd547219f210ed08716ef3ae5add73ec0419",
-      "currentHash": "73565ed36e98bdc9a57d9bfe1f08fd52803d7f481a6679d5c88db54699819262"
+      "currentHash": "8ec022c0c09d631f07dae3dc4f5ef31522720b6429335d8b79bb9a01e1432a8b"
     }
   },
   {
@@ -183479,7 +183479,7 @@
           "crit_dmg_res": 0,
           "pen_rate": 0,
           "pen_delta": 0,
-          "stun": 9660,
+          "stun": 8694,
           "is_stun": true,
           "break_stun": 0,
           "auto_recover_rate": 0,
@@ -183519,7 +183519,7 @@
           "ether_stun_res": 0,
           "physical_stun_res": 0,
           "wind_stun_res": 0,
-          "base_buildup_ratio": 3000
+          "base_buildup_ratio": 2500
         },
         "curves": {
           "hp": {
@@ -183983,7 +183983,7 @@
       "30015": 3000
     },
     "liveComparison": {
-      "currentHash": "7d3eaae1e3c1eb507d522ad71338f1777dc586ccca3468517a470a0e165a1c61"
+      "currentHash": "ec5fe5729593a5782398649c3dfd62a00eff2ec81fc4676de308c30b44b52c7b"
     }
   },
   {
@@ -184028,7 +184028,7 @@
           "crit_dmg_res": 0,
           "pen_rate": 0,
           "pen_delta": 0,
-          "stun": 8315,
+          "stun": 7483,
           "is_stun": true,
           "break_stun": 0,
           "auto_recover_rate": 0,
@@ -184068,7 +184068,7 @@
           "ether_stun_res": 0,
           "physical_stun_res": 0,
           "wind_stun_res": 0,
-          "base_buildup_ratio": 3000
+          "base_buildup_ratio": 2500
         },
         "curves": {
           "hp": {
@@ -184532,7 +184532,7 @@
       "30015": 3000
     },
     "liveComparison": {
-      "currentHash": "1967f2521a46c4db0be80104755f4af57e4439a1069fbe30abc9482bbeaaa7e4"
+      "currentHash": "7e7486ec65f362794b0d61f42d12103bfd6331bdb1ff22db0bb77f91eb8fa86b"
     }
   },
   {
@@ -191947,7 +191947,7 @@
           "crit_dmg_res": 0,
           "pen_rate": 0,
           "pen_delta": 0,
-          "stun": 8952,
+          "stun": 8057,
           "is_stun": true,
           "break_stun": 0,
           "auto_recover_rate": 0,
@@ -191987,7 +191987,7 @@
           "ether_stun_res": 0,
           "physical_stun_res": 0,
           "wind_stun_res": 0,
-          "base_buildup_ratio": 3000
+          "base_buildup_ratio": 2500
         },
         "curves": {
           "hp": {
@@ -192452,7 +192452,7 @@
     },
     "liveComparison": {
       "liveHash": "17a4104dcf85c6b07327ab427432db5dcf5a47ae8aed520786bb42b4e5a61cfa",
-      "currentHash": "c17561bdabf694d6d112491c82c21c7bba18ea7162bcba7e6a0f3e751856441c"
+      "currentHash": "ee6db8ee589df68a04bfe14737952b52eb78deac6d2a4c19353c6254c055ebae"
     }
   },
   {
@@ -193546,7 +193546,7 @@
           "crit_dmg_res": 0,
           "pen_rate": 0,
           "pen_delta": 0,
-          "stun": 8315,
+          "stun": 7483,
           "is_stun": false,
           "break_stun": 0,
           "auto_recover_rate": 0,
@@ -193586,7 +193586,7 @@
           "ether_stun_res": 0,
           "physical_stun_res": 0,
           "wind_stun_res": 0,
-          "base_buildup_ratio": -900
+          "base_buildup_ratio": -1250
         },
         "curves": {
           "hp": {
@@ -194050,7 +194050,7 @@
       "30015": 3000
     },
     "liveComparison": {
-      "currentHash": "28a519cb34189eeec780ec338a14cbaade2bf755d94685ff88487e56a13b9e58"
+      "currentHash": "4c7dd149b671501a689c9505132234f902a269646afbb39a27d619baba675cb9"
     }
   },
   {
@@ -194095,7 +194095,7 @@
           "crit_dmg_res": 0,
           "pen_rate": 0,
           "pen_delta": 0,
-          "stun": 8952,
+          "stun": 8057,
           "is_stun": true,
           "break_stun": 0,
           "auto_recover_rate": 0,
@@ -194135,7 +194135,7 @@
           "ether_stun_res": 0,
           "physical_stun_res": 0,
           "wind_stun_res": 0,
-          "base_buildup_ratio": 3000
+          "base_buildup_ratio": 2500
         },
         "curves": {
           "hp": {
@@ -194599,7 +194599,7 @@
       "30015": 3000
     },
     "liveComparison": {
-      "currentHash": "f74290a8402eb602b2820c133bf5a1065426b114e5d94a779b1cc03e5fa9f122"
+      "currentHash": "13deefcf3bd292744427ef173525bc300ba806de2afc9c5751aabcbeb20704f8"
     }
   },
   {
@@ -282975,7 +282975,7 @@
           "crit_dmg_res": 0,
           "pen_rate": 0,
           "pen_delta": 0,
-          "stun": 9660,
+          "stun": 8694,
           "is_stun": true,
           "break_stun": 0,
           "auto_recover_rate": 0,
@@ -283015,7 +283015,7 @@
           "ether_stun_res": 0,
           "physical_stun_res": 0,
           "wind_stun_res": 0,
-          "base_buildup_ratio": 3000
+          "base_buildup_ratio": 2500
         },
         "curves": {
           "hp": {
@@ -283470,7 +283470,7 @@
           "crit_dmg_res": 0,
           "pen_rate": 0,
           "pen_delta": 0,
-          "stun": 9660,
+          "stun": 8694,
           "is_stun": true,
           "break_stun": 0,
           "auto_recover_rate": 0,
@@ -283510,7 +283510,7 @@
           "ether_stun_res": 0,
           "physical_stun_res": 0,
           "wind_stun_res": 0,
-          "base_buildup_ratio": 3000
+          "base_buildup_ratio": 2500
         },
         "curves": {
           "hp": {
@@ -283975,7 +283975,7 @@
     },
     "liveComparison": {
       "liveHash": "9bc80546ea14ad93fd21f9b11c8bdb2789d60b21947b3fb938939a6f5bdbe3f4",
-      "currentHash": "423bb014e7058ae33d9481fbe1e308753eaff93ad4b8ff3149d00a526c908cfc"
+      "currentHash": "c3b1c37defeb2479b6b3ed5ced2a5730c6c07915d8669412cdf67502f28e4ac1"
     }
   },
   {

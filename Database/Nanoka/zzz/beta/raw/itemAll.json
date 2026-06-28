@@ -52189,7 +52189,7 @@
   },
   "4320101": {
     "id": 4320101,
-    "name": "ZKItem_4320101_Name",
+    "name": "Gear-General C-LV5",
     "desc": "ZKItem_4320101_Desc",
     "desc2": "BKItem_4320101_Story",
     "class": {},
@@ -52198,7 +52198,7 @@
   },
   "4320102": {
     "id": 4320102,
-    "name": "ZKItem_4320102_Name",
+    "name": "Gear-General C-LV10",
     "desc": "ZKItem_4320102_Desc",
     "desc2": "BKItem_4320102_Story",
     "class": {},
@@ -52207,7 +52207,7 @@
   },
   "4320103": {
     "id": 4320103,
-    "name": "Gear-GeneralB-1",
+    "name": "Gear-General C-LV20",
     "desc": "ZKItem_4320103_Desc",
     "desc2": "BKItem_4320103_Story",
     "class": {},
@@ -52216,7 +52216,7 @@
   },
   "4320104": {
     "id": 4320104,
-    "name": "Gear-GeneralB-2",
+    "name": "Gear-AssaultB-LV20",
     "desc": "ZKItem_4320104_Desc",
     "desc2": "BKItem_4320104_Story",
     "class": {},
@@ -52225,7 +52225,7 @@
   },
   "4320105": {
     "id": 4320105,
-    "name": "Gear-AssaultA-1",
+    "name": "Gear-Stun B-LV20",
     "desc": "ZKItem_4320105_Desc",
     "desc2": "BKItem_4320105_Story",
     "class": {},
@@ -52234,7 +52234,7 @@
   },
   "4320106": {
     "id": 4320106,
-    "name": "Gear-BreakA-1",
+    "name": "Gear-AnomalyB-LV20",
     "desc": "ZKItem_4320106_Desc",
     "desc2": "BKItem_4320106_Story",
     "class": {},
@@ -52243,7 +52243,7 @@
   },
   "4320107": {
     "id": 4320107,
-    "name": "Gear-AnomalyA-1",
+    "name": "Gear-SupportB-LV20",
     "desc": "ZKItem_4320107_Desc",
     "desc2": "BKItem_4320107_Story",
     "class": {},
@@ -52252,7 +52252,7 @@
   },
   "4320108": {
     "id": 4320108,
-    "name": "Gear-SupportA-1",
+    "name": "Gear-RuptureB-LV20",
     "desc": "ZKItem_4320108_Desc",
     "desc2": "BKItem_4320108_Story",
     "class": {},
@@ -52261,7 +52261,7 @@
   },
   "4320109": {
     "id": 4320109,
-    "name": "Gear-RuptureA-1",
+    "name": "Gear-DefenseB-LV20",
     "desc": "ZKItem_4320109_Desc",
     "desc2": "BKItem_4320109_Story",
     "class": {},
@@ -52270,7 +52270,7 @@
   },
   "4320111": {
     "id": 4320111,
-    "name": "ZKItem_4320111_Name",
+    "name": "Gear-AssaultB-LV30",
     "desc": "ZKItem_4320111_Desc",
     "desc2": "BKItem_4320111_Story",
     "class": {},
@@ -52279,7 +52279,7 @@
   },
   "4320112": {
     "id": 4320112,
-    "name": "ZKItem_4320112_Name",
+    "name": "Gear-Stun B-LV30",
     "desc": "ZKItem_4320112_Desc",
     "desc2": "BKItem_4320112_Story",
     "class": {},
@@ -52288,7 +52288,7 @@
   },
   "4320113": {
     "id": 4320113,
-    "name": "ZKItem_4320113_Name",
+    "name": "Gear-AnomalyB-LV30",
     "desc": "ZKItem_4320113_Desc",
     "desc2": "BKItem_4320113_Story",
     "class": {},
@@ -52297,7 +52297,7 @@
   },
   "4320114": {
     "id": 4320114,
-    "name": "ZKItem_4320114_Name",
+    "name": "Gear-SupportB-LV30",
     "desc": "ZKItem_4320114_Desc",
     "desc2": "BKItem_4320114_Story",
     "class": {},
@@ -52306,7 +52306,7 @@
   },
   "4320115": {
     "id": 4320115,
-    "name": "ZKItem_4320115_Name",
+    "name": "Gear-RuptureB-LV30",
     "desc": "ZKItem_4320115_Desc",
     "desc2": "BKItem_4320115_Story",
     "class": {},
@@ -52315,7 +52315,7 @@
   },
   "4320116": {
     "id": 4320116,
-    "name": "ZKItem_4320116_Name",
+    "name": "Gear-DefenseB-LV30",
     "desc": "ZKItem_4320116_Desc",
     "desc2": "BKItem_4320116_Story",
     "class": {},
@@ -52333,7 +52333,7 @@
   },
   "4320121": {
     "id": 4320121,
-    "name": "ZKItem_4320121_Name",
+    "name": "Gear-AssaultA-LV30",
     "desc": "30600201_ZKDescription",
     "desc2": "BKItem_4320121_Story",
     "class": {},
@@ -52342,7 +52342,7 @@
   },
   "4320122": {
     "id": 4320122,
-    "name": "ZKItem_4320122_Name",
+    "name": "Gear-Stun A-LV30",
     "desc": "30600202_ZKDescription",
     "desc2": "BKItem_4320122_Story",
     "class": {},
@@ -52351,7 +52351,7 @@
   },
   "4320123": {
     "id": 4320123,
-    "name": "ZKItem_4320123_Name",
+    "name": "Gear-AnomalyA-LV30",
     "desc": "30600203_ZKDescription",
     "desc2": "BKItem_4320123_Story",
     "class": {},
@@ -52360,7 +52360,7 @@
   },
   "4320124": {
     "id": 4320124,
-    "name": "ZKItem_4320124_Name",
+    "name": "Gear-Support A-LV30",
     "desc": "30600204_ZKDescription",
     "desc2": "BKItem_4320124_Story",
     "class": {},
@@ -52369,7 +52369,7 @@
   },
   "4320125": {
     "id": 4320125,
-    "name": "ZKItem_4320125_Name",
+    "name": "Gear-RuptureA-LV30",
     "desc": "30600205_ZKDescription",
     "desc2": "BKItem_4320125_Story",
     "class": {},
@@ -52378,7 +52378,7 @@
   },
   "4320126": {
     "id": 4320126,
-    "name": "ZKItem_4320126_Name",
+    "name": "Gear-DefenseA-LV30",
     "desc": "30600206_ZKDescription",
     "desc2": "BKItem_4320126_Story",
     "class": {},
@@ -52414,7 +52414,7 @@
   },
   "4320131": {
     "id": 4320131,
-    "name": "Gear-AssaultA-1",
+    "name": "Gear-AssaultA-LV40",
     "desc": "30600201_ZKDescription",
     "desc2": "BKItem_4320131_Story",
     "class": {},
@@ -52423,7 +52423,7 @@
   },
   "4320132": {
     "id": 4320132,
-    "name": "Gear-BreakA-1",
+    "name": "Gear-Stun A-LV40",
     "desc": "30600202_ZKDescription",
     "desc2": "BKItem_4320132_Story",
     "class": {},
@@ -52432,7 +52432,7 @@
   },
   "4320133": {
     "id": 4320133,
-    "name": "Gear-AnomalyA-1",
+    "name": "Gear-Anomaly A-LV40",
     "desc": "30600203_ZKDescription",
     "desc2": "BKItem_4320133_Story",
     "class": {},
@@ -52441,7 +52441,7 @@
   },
   "4320134": {
     "id": 4320134,
-    "name": "Gear-SupportA-1",
+    "name": "Gear-Support A-LV40",
     "desc": "30600204_ZKDescription",
     "desc2": "BKItem_4320134_Story",
     "class": {},
@@ -52450,7 +52450,7 @@
   },
   "4320135": {
     "id": 4320135,
-    "name": "Gear-RuptureA-1",
+    "name": "Gear-RuptureA-LV40",
     "desc": "30600205_ZKDescription",
     "desc2": "BKItem_4320135_Story",
     "class": {},
@@ -52459,7 +52459,7 @@
   },
   "4320136": {
     "id": 4320136,
-    "name": "Gear-DefenseA-1",
+    "name": "Gear-DefenseA-LV40",
     "desc": "30600206_ZKDescription",
     "desc2": "BKItem_4320136_Story",
     "class": {},
@@ -52468,7 +52468,7 @@
   },
   "4320137": {
     "id": 4320137,
-    "name": "Gear-AssaultA-2",
+    "name": "Gear-AssaultA-2-LV40",
     "desc": "<color=#FFAF2C>Gear-AssaultA-2</color> is an upgraded version of the Assault-type Expertise equipment. Building on its predecessor, it further raises the upper limit of attack attributes.",
     "desc2": "BKItem_4320137_Story",
     "class": {},
@@ -52477,7 +52477,7 @@
   },
   "4320138": {
     "id": 4320138,
-    "name": "Gear-AnomalyA-2",
+    "name": "Gear-AnomalyA-2-LV40",
     "desc": "<color=#FFAF2C>Gear-AnomalyA-2</color> is an upgraded model of Anomaly-type Expertise equipment. Further enhances the ability to inflict Anomaly effects.",
     "desc2": "BKItem_4320138_Story",
     "class": {},
@@ -52486,7 +52486,7 @@
   },
   "4320139": {
     "id": 4320139,
-    "name": "Gear-SupportA-2",
+    "name": "Gear-SupportA-2-LV40",
     "desc": "<color=#FFAF2C>Gear-SupportA-2</color> is an upgraded model of the Expertise Support Equipment. Further enhances the coverage and effectiveness of Support skills.",
     "desc2": "BKItem_4320201_Story",
     "class": {},
@@ -52504,7 +52504,7 @@
   },
   "4320151": {
     "id": 4320151,
-    "name": "ZKItem_4320151_Name",
+    "name": "Gear-Assault S-LV40",
     "desc": "30600101_ZKDescription",
     "desc2": "BKItem_4320151_Story",
     "class": {},
@@ -52513,7 +52513,7 @@
   },
   "4320152": {
     "id": 4320152,
-    "name": "ZKItem_4320152_Name",
+    "name": "Gear-Stun S-LV40",
     "desc": "30600102_ZKDescription",
     "desc2": "BKItem_4320152_Story",
     "class": {},
@@ -52522,7 +52522,7 @@
   },
   "4320153": {
     "id": 4320153,
-    "name": "ZKItem_4320153_Name",
+    "name": "Gear-AnomalyS-LV40",
     "desc": "30600103_ZKDescription",
     "desc2": "BKItem_4320153_Story",
     "class": {},
@@ -52531,7 +52531,7 @@
   },
   "4320154": {
     "id": 4320154,
-    "name": "ZKItem_4320154_Name",
+    "name": "Gear-Support S-LV40",
     "desc": "30600104_ZKDescription",
     "desc2": "BKItem_4320154_Story",
     "class": {},
@@ -52540,7 +52540,7 @@
   },
   "4320155": {
     "id": 4320155,
-    "name": "ZKItem_4320155_Name",
+    "name": "Gear-RuptureS-LV40",
     "desc": "30600105_ZKDescription",
     "desc2": "BKItem_4320155_Story",
     "class": {},
@@ -52549,7 +52549,7 @@
   },
   "4320156": {
     "id": 4320156,
-    "name": "ZKItem_4320156_Name",
+    "name": "Gear-Defense S-LV40",
     "desc": "30600106_ZKDescription",
     "desc2": "BKItem_4320156_Story",
     "class": {},
@@ -52558,7 +52558,7 @@
   },
   "4320157": {
     "id": 4320157,
-    "name": "ZKItem_4320157_Name",
+    "name": "Gear-AssaultS-2-LV40",
     "desc": "30600108_ZKDescription",
     "desc2": "BKItem_4320157_Story",
     "class": {},
@@ -52567,7 +52567,7 @@
   },
   "4320158": {
     "id": 4320158,
-    "name": "ZKItem_4320158_Name",
+    "name": "Gear-AnomalyS-2-LV40",
     "desc": "30600107_ZKDescription",
     "desc2": "BKItem_4320158_Story",
     "class": {},
@@ -52576,7 +52576,7 @@
   },
   "4320159": {
     "id": 4320159,
-    "name": "ZKItem_4320159_Name",
+    "name": "Gear-Support S-2-LV40",
     "desc": "30600109_ZKDescription",
     "desc2": "BKItem_4320159_Story",
     "class": {},
@@ -52585,7 +52585,7 @@
   },
   "4320171": {
     "id": 4320171,
-    "name": "Gear-AssaultS-1",
+    "name": "Gear-Assault S-LV50",
     "desc": "30600101_ZKDescription",
     "desc2": "BKItem_4320301_Story",
     "class": {},
@@ -52594,7 +52594,7 @@
   },
   "4320172": {
     "id": 4320172,
-    "name": "Gear-Stun S-1",
+    "name": "Gear-Stun S-LV50",
     "desc": "30600102_ZKDescription",
     "desc2": "BKItem_4320172_Story",
     "class": {},
@@ -52603,7 +52603,7 @@
   },
   "4320173": {
     "id": 4320173,
-    "name": "Gear-AnomalyS-1",
+    "name": "Gear-AnomalyS-LV50",
     "desc": "30600103_ZKDescription",
     "desc2": "BKItem_4320173_Story",
     "class": {},
@@ -52612,7 +52612,7 @@
   },
   "4320174": {
     "id": 4320174,
-    "name": "Gear-Support S-1",
+    "name": "Gear-Support S-LV50",
     "desc": "30600104_ZKDescription",
     "desc2": "BKItem_4320174_Story",
     "class": {},
@@ -52621,7 +52621,7 @@
   },
   "4320175": {
     "id": 4320175,
-    "name": "Gear-RuptureS-1",
+    "name": "Gear-RuptureS-LV50",
     "desc": "30600105_ZKDescription",
     "desc2": "BKItem_4320175_Story",
     "class": {},
@@ -52630,7 +52630,7 @@
   },
   "4320176": {
     "id": 4320176,
-    "name": "Gear-Defense S-1",
+    "name": "Gear-Defense S-LV50",
     "desc": "30600106_ZKDescription",
     "desc2": "BKItem_4320176_Story",
     "class": {},
@@ -52639,7 +52639,7 @@
   },
   "4320177": {
     "id": 4320177,
-    "name": "Gear-Assault S-2",
+    "name": "Gear-Assault S-2-LV50",
     "desc": "30600108_ZKDescription",
     "desc2": "BKItem_4320177_Story",
     "class": {},
@@ -52648,7 +52648,7 @@
   },
   "4320178": {
     "id": 4320178,
-    "name": "Gear-AnomalyS-2",
+    "name": "Gear-AnomalyS-2-LV50",
     "desc": "30600107_ZKDescription",
     "desc2": "BKItem_4320178_Story",
     "class": {},
@@ -52657,7 +52657,7 @@
   },
   "4320179": {
     "id": 4320179,
-    "name": "Gear-Support S-2",
+    "name": "Gear-Support S-2-LV50",
     "desc": "30600109_ZKDescription",
     "desc2": "BKItem_4320179_Story",
     "class": {},
@@ -52747,7 +52747,7 @@
   },
   "4320271": {
     "id": 4320271,
-    "name": "Gear-AssaultS+ 1",
+    "name": "Gear-Attack S+ LV60",
     "desc": "30600001_ZKDescription",
     "desc2": "BKItem_4320301_Story",
     "class": {},
@@ -52756,7 +52756,7 @@
   },
   "4320272": {
     "id": 4320272,
-    "name": "Gear-Stun S+ 1",
+    "name": "Gear-Stun S+ LV60",
     "desc": "30600002_ZKDescription",
     "desc2": "BKItem_4320272_Story",
     "class": {},
@@ -52765,7 +52765,7 @@
   },
   "4320273": {
     "id": 4320273,
-    "name": "Gear-Anomaly S+ 1",
+    "name": "Gear-Anomaly S+ LV60",
     "desc": "30600003_ZKDescription",
     "desc2": "BKItem_4320273_Story",
     "class": {},
@@ -52774,7 +52774,7 @@
   },
   "4320274": {
     "id": 4320274,
-    "name": "Gear-Support S+ 1",
+    "name": "Gear-Support S+ LV60",
     "desc": "30600004_ZKDescription",
     "desc2": "BKItem_4320274_Story",
     "class": {},
@@ -52783,7 +52783,7 @@
   },
   "4320275": {
     "id": 4320275,
-    "name": "Gear-Rupture S+ 1",
+    "name": "Gear-Rupture S+ LV60",
     "desc": "30600005_ZKDescription",
     "desc2": "BKItem_4320275_Story",
     "class": {},
@@ -52792,7 +52792,7 @@
   },
   "4320276": {
     "id": 4320276,
-    "name": "Gear-Defense S+ 1",
+    "name": "Gear-Defense S+ LV60",
     "desc": "30600006_ZKDescription",
     "desc2": "BKItem_4320276_Story",
     "class": {},
@@ -52801,7 +52801,7 @@
   },
   "4320277": {
     "id": 4320277,
-    "name": "Gear-Attack S+ 2",
+    "name": "Gear-AssaultS+ 2-LV60",
     "desc": "30600008_ZKDescription",
     "desc2": "BKItem_4320277_Story",
     "class": {},
@@ -52810,7 +52810,7 @@
   },
   "4320278": {
     "id": 4320278,
-    "name": "Gear-Anomaly S+ 2",
+    "name": "Gear-Anomaly S+ 2-LV60",
     "desc": "30600007_ZKDescription",
     "desc2": "BKItem_4320278_Story",
     "class": {},
@@ -52819,7 +52819,7 @@
   },
   "4320279": {
     "id": 4320279,
-    "name": "Gear-Support S+ 2",
+    "name": "Gear-Support S+ 2-LV60",
     "desc": "30600009_ZKDescription",
     "desc2": "BKItem_4320279_Story",
     "class": {},
@@ -53504,7 +53504,7 @@
   "4333012": {
     "id": 4333012,
     "name": "Block Protagonist Gear-B",
-    "desc": "When equipped, triggers [Perfect Block] at the right moment.\nUpon triggering, reduces enemy green shields (Minion <color=#2BAD00>100%</color>, Elite <color=#2BAD00>50%</color>, Mini-Boss <color=#2BAD00>30%</color>, Boss <color=#2BAD00>20%</color>) and accumulates Daze (Minion <color=#2BAD00>100%</color>, Elite <color=#2BAD00>70%</color>, Mini-Boss <color=#2BAD00>30%</color>, Boss <color=#2BAD00>25%</color>);\nTriggering [Perfect Block] against Elites and Minions allows for an immediate Execution; triggering [Perfect Block] <color=#2BAD00>3</color> times against a Boss grants an additional Execution opportunity.",
+    "desc": "When equipped, grants three Protagonist Skills: [Perfect Block], [Grappling Hook], and [Execution]. 〈Block Enhance〉 Triggering Execution additionally reduces the whole squad's Erosion Level and restores the whole squad's HP. Perfect Block triggers a dodge effect even if unsuccessful. Charges 10 times per Precinct.",
     "desc2": "BKItem_4333012_Story",
     "class": {},
     "rarity": 2,
@@ -53513,7 +53513,7 @@
   "4333013": {
     "id": 4333013,
     "name": "Block Protagonist Gear-A",
-    "desc": "When equipped, triggers [Perfect Block] at the right opportunity.\nUpon triggering, reduces the enemy's Decaying Shield and accumulates Daze; instantly executes Elites and normal enemies upon triggering, and grants an additional Execution opportunity against Bosses for every <color=#2BAD00>3</color> triggers.\nThe efficiency of the Agent's Normal Block in reducing Decaying Shield is increased by <color=#2BAD00>30%</color>; the reduction in Erosion Level during Execution is also increased.",
+    "desc": "When equipped, grants three Protagonist Skills: [Perfect Block], [Grappling Hook], and [Execution]. 〈Block Enhance〉 Triggering Execution additionally reduces the whole squad's Erosion Level and restores the whole squad's HP. Perfect Block triggers a dodge effect even on failure. Charges up to 10 per Precinct.",
     "desc2": "BKItem_4333013_Story",
     "class": {},
     "rarity": 3,
@@ -53522,7 +53522,7 @@
   "4333014": {
     "id": 4333014,
     "name": "Block Protagonist Gear-S",
-    "desc": "When equipped, trigger [Perfect Block] at the right opportunity.\nUpon triggering, reduces enemy green shields and accumulates Daze; triggering against elites and normal enemies can directly execute them, while triggering against a Boss <color=#2BAD00>3</color> times grants an additional Execution opportunity.\nThe efficiency of green shield reduction from an Agent's Normal Block is increased by <color=#2BAD00>50%</color>; Erosion Level reduction during Execution is also increased.\nAfter triggering [Perfect Block], the whole squad gains <color=#2BAD00>1</color> stack of [DMG Boost]; after an Execution, the whole squad gains <color=#2BAD00>2</color> stacks of [DMG Boost]. [DMG Boost] increases DMG dealt by <color=#2BAD00>10%</color>, lasting <color=#2BAD00>30</color>s, stacking up to <color=#2BAD00>5</color> times, and repeated triggers reset the duration.",
+    "desc": "When equipped, grants three Protagonist Skills: [Perfect Block], [Grappling Hook], and [Execution]. 〈Block Enhance〉 Triggering Execution additionally reduces the whole squad's Erosion Level and restores the whole squad's HP. Perfect Block triggers a dodge effect even on failure. Charges up to 10 per Precinct.",
     "desc2": "BKItem_4333014_Story",
     "class": {},
     "rarity": 4,
@@ -54538,7 +54538,7 @@
   },
   "4350201": {
     "id": 4350201,
-    "name": "ZKItem_4350201_Name",
+    "name": "Blueprint-LV40 Gear-AssaultA1",
     "desc": "ZKItem_4350201_Desc",
     "desc2": "BKItem_4350201_Story",
     "class": {},
@@ -54547,7 +54547,7 @@
   },
   "4350202": {
     "id": 4350202,
-    "name": "ZKItem_4350202_Name",
+    "name": "Blueprint-LV40 Gear-StunA1",
     "desc": "ZKItem_4350202_Desc",
     "desc2": "BKItem_4350202_Story",
     "class": {},
@@ -54556,7 +54556,7 @@
   },
   "4350203": {
     "id": 4350203,
-    "name": "ZKItem_4350203_Name",
+    "name": "Blueprint-LV40 Gear-AnomalyA1",
     "desc": "ZKItem_4350203_Desc",
     "desc2": "BKItem_4350203_Story",
     "class": {},
@@ -54565,7 +54565,7 @@
   },
   "4350204": {
     "id": 4350204,
-    "name": "ZKItem_4350204_Name",
+    "name": "Blueprint-LV40 Gear-SupportA1",
     "desc": "ZKItem_4350204_Desc",
     "desc2": "BKItem_4350204_Story",
     "class": {},
@@ -54574,7 +54574,7 @@
   },
   "4350205": {
     "id": 4350205,
-    "name": "ZKItem_4350205_Name",
+    "name": "Blueprint-LV40 Gear-RuptureA1",
     "desc": "ZKItem_4350205_Desc",
     "desc2": "BKItem_4350205_Story",
     "class": {},
@@ -54583,7 +54583,7 @@
   },
   "4350206": {
     "id": 4350206,
-    "name": "ZKItem_4350206_Name",
+    "name": "Blueprint-LV40 Gear-DefenseA1",
     "desc": "ZKItem_4350206_Desc",
     "desc2": "BKItem_4350206_Story",
     "class": {},
@@ -54592,7 +54592,7 @@
   },
   "4350211": {
     "id": 4350211,
-    "name": "ZKItem_4350211_Name",
+    "name": "Blueprint-LV50Gear-AssaultS1",
     "desc": "ZKItem_4350211_Desc",
     "desc2": "BKItem_4350211_Story",
     "class": {},
@@ -54601,7 +54601,7 @@
   },
   "4350212": {
     "id": 4350212,
-    "name": "ZKItem_4350212_Name",
+    "name": "Blueprint-LV50 Gear-StunS1",
     "desc": "ZKItem_4350212_Desc",
     "desc2": "BKItem_4350212_Story",
     "class": {},
@@ -54610,7 +54610,7 @@
   },
   "4350213": {
     "id": 4350213,
-    "name": "ZKItem_4350213_Name",
+    "name": "Blueprint-LV50 Gear-AnomalyS1",
     "desc": "ZKItem_4350213_Desc",
     "desc2": "BKItem_4350213_Story",
     "class": {},
@@ -54619,7 +54619,7 @@
   },
   "4350214": {
     "id": 4350214,
-    "name": "ZKItem_4350214_Name",
+    "name": "Blueprint-LV50 Gear-SupportS1",
     "desc": "ZKItem_4350214_Desc",
     "desc2": "BKItem_4350214_Story",
     "class": {},
@@ -54628,7 +54628,7 @@
   },
   "4350215": {
     "id": 4350215,
-    "name": "ZKItem_4350215_Name",
+    "name": "Blueprint-LV50 Gear-RuptureS1",
     "desc": "ZKItem_4350215_Desc",
     "desc2": "BKItem_4350215_Story",
     "class": {},
@@ -54637,7 +54637,7 @@
   },
   "4350216": {
     "id": 4350216,
-    "name": "ZKItem_4350216_Name",
+    "name": "Blueprint-LV50 Gear-DefenseS1",
     "desc": "ZKItem_4350216_Desc",
     "desc2": "BKItem_4350216_Story",
     "class": {},
@@ -54646,7 +54646,7 @@
   },
   "4350217": {
     "id": 4350217,
-    "name": "ZKItem_4350217_Name",
+    "name": "Blueprint-LV50 Gear-AssaultS2",
     "desc": "ZKItem_4350217_Desc",
     "desc2": "BKItem_4350217_Story",
     "class": {},
@@ -54655,7 +54655,7 @@
   },
   "4350218": {
     "id": 4350218,
-    "name": "ZKItem_4350218_Name",
+    "name": "Blueprint-LV50Gear-AnomalyS2",
     "desc": "ZKItem_4350218_Desc",
     "desc2": "BKItem_4350218_Story",
     "class": {},
@@ -54664,7 +54664,7 @@
   },
   "4350219": {
     "id": 4350219,
-    "name": "ZKItem_4350219_Name",
+    "name": "Blueprint-LV50 Gear-SupportS2",
     "desc": "ZKItem_4350219_Desc",
     "desc2": "BKItem_4350219_Story",
     "class": {},
@@ -54673,7 +54673,7 @@
   },
   "4350231": {
     "id": 4350231,
-    "name": "ZKItem_4350231_Name",
+    "name": "Blueprint-LV60 Gear-AttackS+1",
     "desc": "ZKItem_4350231_Desc",
     "desc2": "BKItem_4350231_Story",
     "class": {},
@@ -54682,7 +54682,7 @@
   },
   "4350232": {
     "id": 4350232,
-    "name": "ZKItem_4350232_Name",
+    "name": "Blueprint-LV60 Gear-StunS+1",
     "desc": "ZKItem_4350232_Desc",
     "desc2": "BKItem_4350232_Story",
     "class": {},
@@ -54691,7 +54691,7 @@
   },
   "4350233": {
     "id": 4350233,
-    "name": "ZKItem_4350233_Name",
+    "name": "Blueprint-LV60 Gear-AnomalyS+1",
     "desc": "ZKItem_4350233_Desc",
     "desc2": "BKItem_4350233_Story",
     "class": {},
@@ -54700,7 +54700,7 @@
   },
   "4350234": {
     "id": 4350234,
-    "name": "ZKItem_4350234_Name",
+    "name": "Blueprint-LV60 Gear-Support S+1",
     "desc": "ZKItem_4350234_Desc",
     "desc2": "BKItem_4350234_Story",
     "class": {},
@@ -54709,7 +54709,7 @@
   },
   "4350235": {
     "id": 4350235,
-    "name": "ZKItem_4350235_Name",
+    "name": "Blueprint-LV60 Gear-RuptureS+1",
     "desc": "ZKItem_4350235_Desc",
     "desc2": "BKItem_4350235_Story",
     "class": {},
@@ -54718,7 +54718,7 @@
   },
   "4350236": {
     "id": 4350236,
-    "name": "ZKItem_4350236_Name",
+    "name": "Blueprint-LV60 Gear-DefenseS+1",
     "desc": "ZKItem_4350236_Desc",
     "desc2": "BKItem_4350236_Story",
     "class": {},
@@ -54727,7 +54727,7 @@
   },
   "4350237": {
     "id": 4350237,
-    "name": "ZKItem_4350237_Name",
+    "name": "Blueprint-LV60 Gear-AttackS+2",
     "desc": "ZKItem_4350237_Desc",
     "desc2": "BKItem_4350237_Story",
     "class": {},
@@ -54736,7 +54736,7 @@
   },
   "4350238": {
     "id": 4350238,
-    "name": "ZKItem_4350238_Name",
+    "name": "Blueprint-LV60 Gear-AnomalyS+2",
     "desc": "ZKItem_4350238_Desc",
     "desc2": "BKItem_4350238_Story",
     "class": {},
@@ -54745,7 +54745,7 @@
   },
   "4350239": {
     "id": 4350239,
-    "name": "ZKItem_4350239_Name",
+    "name": "Blueprint-LV60 Gear-Support S+2",
     "desc": "ZKItem_4350239_Desc",
     "desc2": "BKItem_4350239_Story",
     "class": {},

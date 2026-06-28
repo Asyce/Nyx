@@ -54005,7 +54005,7 @@
         "126101": {
           "id": 126101,
           "name": "Potential Awakening: Deadly Dance Steps",
-          "desc": "While in <color=#FFFFFF>[Passion]</color> state, gain 6 Anomaly Proficiency.",
+          "desc": "<color=#FFFFFF>[Passion]</color> increases Anomaly Proficiency by 6 and boosts the Physical Anomaly Buildup of <color=#FFFFFF>[Dodge Counter: Swift Shadow Dance]</color> by 5%.",
           "image": "Jane",
           "level_show_name": "Heart-Stealing Tango II",
           "level": 2,
@@ -54023,7 +54023,7 @@
         "126102": {
           "id": 126102,
           "name": "Potential Awakening: Deadly Dance Steps",
-          "desc": "While in <color=#FFFFFF>[Passion]</color> state, gain 9 Anomaly Proficiency.",
+          "desc": "<color=#FFFFFF>[Passion]</color> increases Anomaly Proficiency by 9 and boosts the Physical Anomaly Buildup of <color=#FFFFFF>[Dodge Counter: Swift Shadow Dance]</color> by 7.5%.",
           "image": "Jane",
           "level_show_name": "Heart-Stealing Tango III",
           "level": 3,
@@ -54041,7 +54041,7 @@
         "126103": {
           "id": 126103,
           "name": "Potential Awakening: Deadly Dance Steps",
-          "desc": "While in <color=#FFFFFF>[Passion]</color> state, gain 12 Anomaly Proficiency.",
+          "desc": "<color=#FFFFFF>[Passion]</color> increases Anomaly Proficiency by 12 and boosts the Physical Anomaly Buildup of <color=#FFFFFF>[Dodge Counter: Swift Shadow Dance]</color> by 10%.",
           "image": "Jane",
           "level_show_name": "Heart-Stealing Tango IV",
           "level": 4,
@@ -54059,7 +54059,7 @@
         "126104": {
           "id": 126104,
           "name": "Potential Awakening: Deadly Dance Steps",
-          "desc": "While in <color=#FFFFFF>[Passion]</color> state, gain 15 Anomaly Proficiency.",
+          "desc": "<color=#FFFFFF>[Passion]</color> increases Anomaly Proficiency by 15 and boosts the Physical Anomaly Buildup of <color=#FFFFFF>[Dodge Counter: Swift Shadow Dance]</color> by 12.5%.",
           "image": "Jane",
           "level_show_name": "Heart-Stealing Tango V",
           "level": 5,
@@ -54077,7 +54077,7 @@
         "126105": {
           "id": 126105,
           "name": "Potential Awakening: Deadly Dance Steps",
-          "desc": "While in <color=#FFFFFF>[Passion]</color> state, gain 18 Anomaly Proficiency.",
+          "desc": "<color=#FFFFFF>[Passion]</color> state increases Anomaly Proficiency by 18 and boosts Physical Anomaly Buildup from [Dodge Counter: Swift Shadow Dance] by 15%.",
           "image": "Jane",
           "level_show_name": "Heart-Stealing Tango VI",
           "level": 6,
@@ -54096,7 +54096,7 @@
     },
     "liveComparison": {
       "liveHash": "d22f8ead08a5779479fd162648d9743645cebb4b9a5827ad2c7c51fa682d77d8",
-      "currentHash": "92da5feb56ea0276a62b51d13c7fc2d91a9c8f9c1f8c4c0f11496ec0ee7114c4"
+      "currentHash": "c4ed6c1620d699ed046cf62d5ed08fc9110b1eaa7b7f50cdc890eb0d26bd57ce"
     }
   },
   {
@@ -117949,7 +117949,7 @@
                     "damage_percentage_growth": 880,
                     "stun_ratio": 8160,
                     "stun_ratio_growth": 380,
-                    "sp_recovery": 26710,
+                    "sp_recovery": 13360,
                     "sp_recovery_growth": 0,
                     "fever_recovery": 102025,
                     "fever_recovery_growth": 0,
@@ -117975,7 +117975,7 @@
                     "damage_percentage_growth": 880,
                     "stun_ratio": 8160,
                     "stun_ratio_growth": 380,
-                    "sp_recovery": 26710,
+                    "sp_recovery": 13360,
                     "sp_recovery_growth": 0,
                     "fever_recovery": 102025,
                     "fever_recovery_growth": 0,
@@ -118012,7 +118012,7 @@
                     "damage_percentage_growth": 1780,
                     "stun_ratio": 16500,
                     "stun_ratio_growth": 750,
-                    "sp_recovery": 53990,
+                    "sp_recovery": 27000,
                     "sp_recovery_growth": 0,
                     "fever_recovery": 206250,
                     "fever_recovery_growth": 0,
@@ -118038,7 +118038,7 @@
                     "damage_percentage_growth": 1780,
                     "stun_ratio": 16500,
                     "stun_ratio_growth": 750,
-                    "sp_recovery": 53990,
+                    "sp_recovery": 27000,
                     "sp_recovery_growth": 0,
                     "fever_recovery": 206250,
                     "fever_recovery_growth": 0,
@@ -118075,7 +118075,7 @@
                     "damage_percentage_growth": 5430,
                     "stun_ratio": 38870,
                     "stun_ratio_growth": 1770,
-                    "sp_recovery": 127200,
+                    "sp_recovery": 63600,
                     "sp_recovery_growth": 0,
                     "fever_recovery": 971850,
                     "fever_recovery_growth": 0,
@@ -118101,7 +118101,7 @@
                     "damage_percentage_growth": 5430,
                     "stun_ratio": 38870,
                     "stun_ratio_growth": 1770,
-                    "sp_recovery": 127200,
+                    "sp_recovery": 63600,
                     "sp_recovery_growth": 0,
                     "fever_recovery": 971850,
                     "fever_recovery_growth": 0,
@@ -119060,7 +119060,7 @@
     },
     "liveComparison": {
       "liveHash": "d6061c4aefd7cacb7ea8fd772591aa6d670961d9da57ac2b53ebe2d54cf613dd",
-      "currentHash": "d32253f4ba5064d1e7a4feffda45c26a682d7db7cfe9d169b38f17a3c20bbc98"
+      "currentHash": "f749828369839fff2bb70ed28e56e45e7f033fc50efdf7c351dec1291e5aa84b"
     }
   },
   {
@@ -119522,7 +119522,7 @@
           },
           {
             "name": "Suppressed Stance",
-            "desc": "While in <color=#FFFFFF>[Roaming Stance]</color> with available <color=#FFFFFF>[Gun Retraction]</color> counts, hold <IconMap:Icon_Normal> to activate:\nActivates the corresponding <color=#FFFFFF>[Gun Retraction]</color> based on the current segment, dealing <color=#98EFF0>Ice DMG</color>;\n<color=#FFFFFF>[Gun Retraction]</color> has 3 segments in total, and each use advances the segment count;\nUsing Gun Retraction after a Basic Attack preserves the Basic Attack segment count;\nDMG taken is reduced by -40% during this skill;\nAnti-Interrupt level is increased while using this skill.",
+            "desc": "While in <color=#FFFFFF>[Roaming Stance]</color> with available <color=#FFFFFF>[Gun Retraction]</color> counts, hold <IconMap:Icon_Normal> to activate:\nActivates the corresponding <color=#FFFFFF>[Gun Retraction]</color> based on the current segment, dealing <color=#98EFF0>Ice DMG</color>;\n<color=#FFFFFF>[Gun Retraction]</color> has 3 segments in total, and each use advances the segment count;\nUsing Gun Retraction after a Basic Attack preserves the Basic Attack segment count;\nDMG taken is reduced by 40% during this skill;\nAnti-Interrupt level is increased while using this skill.",
             "potential": []
           },
           {
@@ -119747,23 +119747,23 @@
                 "desc": "{Skill:1591007, Prop:1001}",
                 "param": {
                   "1591007": {
-                    "main": 32220,
-                    "growth": 2930,
+                    "main": 38300,
+                    "growth": 3490,
                     "format": "%",
-                    "damage_percentage": 32220,
-                    "damage_percentage_growth": 2930,
-                    "stun_ratio": 6780,
-                    "stun_ratio_growth": 310,
-                    "sp_recovery": 22190,
+                    "damage_percentage": 38300,
+                    "damage_percentage_growth": 3490,
+                    "stun_ratio": 10460,
+                    "stun_ratio_growth": 480,
+                    "sp_recovery": 34220,
                     "sp_recovery_growth": 0,
-                    "fever_recovery": 169675,
+                    "fever_recovery": 261525,
                     "fever_recovery_growth": 0,
-                    "attribute_infliction": 6163,
+                    "attribute_infliction": 9503,
                     "sp_consume": 0,
                     "attack_data": [],
                     "rp_recovery": 0,
                     "rp_recovery_growth": 0,
-                    "ether_purify": 6164
+                    "ether_purify": 9504
                   }
                 },
                 "potential": []
@@ -119773,23 +119773,23 @@
                 "desc": "{Skill:1591007, Prop:1002}",
                 "param": {
                   "1591007": {
-                    "main": 6780,
-                    "growth": 310,
+                    "main": 10460,
+                    "growth": 480,
                     "format": "%",
-                    "damage_percentage": 32220,
-                    "damage_percentage_growth": 2930,
-                    "stun_ratio": 6780,
-                    "stun_ratio_growth": 310,
-                    "sp_recovery": 22190,
+                    "damage_percentage": 38300,
+                    "damage_percentage_growth": 3490,
+                    "stun_ratio": 10460,
+                    "stun_ratio_growth": 480,
+                    "sp_recovery": 34220,
                     "sp_recovery_growth": 0,
-                    "fever_recovery": 169675,
+                    "fever_recovery": 261525,
                     "fever_recovery_growth": 0,
-                    "attribute_infliction": 6163,
+                    "attribute_infliction": 9503,
                     "sp_consume": 0,
                     "attack_data": [],
                     "rp_recovery": 0,
                     "rp_recovery_growth": 0,
-                    "ether_purify": 6164
+                    "ether_purify": 9504
                   }
                 },
                 "potential": []
@@ -119805,23 +119805,23 @@
                 "desc": "{Skill:1591008, Prop:1001}",
                 "param": {
                   "1591008": {
-                    "main": 50620,
-                    "growth": 4610,
+                    "main": 57900,
+                    "growth": 5270,
                     "format": "%",
-                    "damage_percentage": 50620,
-                    "damage_percentage_growth": 4610,
-                    "stun_ratio": 11560,
-                    "stun_ratio_growth": 530,
-                    "sp_recovery": 37820,
+                    "damage_percentage": 57900,
+                    "damage_percentage_growth": 5270,
+                    "stun_ratio": 15960,
+                    "stun_ratio_growth": 730,
+                    "sp_recovery": 52220,
                     "sp_recovery_growth": 0,
-                    "fever_recovery": 289025,
+                    "fever_recovery": 399025,
                     "fever_recovery_growth": 0,
-                    "attribute_infliction": 10503,
+                    "attribute_infliction": 14503,
                     "sp_consume": 0,
                     "attack_data": [],
                     "rp_recovery": 0,
                     "rp_recovery_growth": 0,
-                    "ether_purify": 10504
+                    "ether_purify": 14504
                   }
                 },
                 "potential": []
@@ -119831,23 +119831,23 @@
                 "desc": "{Skill:1591008, Prop:1002}",
                 "param": {
                   "1591008": {
-                    "main": 11560,
-                    "growth": 530,
+                    "main": 15960,
+                    "growth": 730,
                     "format": "%",
-                    "damage_percentage": 50620,
-                    "damage_percentage_growth": 4610,
-                    "stun_ratio": 11560,
-                    "stun_ratio_growth": 530,
-                    "sp_recovery": 37820,
+                    "damage_percentage": 57900,
+                    "damage_percentage_growth": 5270,
+                    "stun_ratio": 15960,
+                    "stun_ratio_growth": 730,
+                    "sp_recovery": 52220,
                     "sp_recovery_growth": 0,
-                    "fever_recovery": 289025,
+                    "fever_recovery": 399025,
                     "fever_recovery_growth": 0,
-                    "attribute_infliction": 10503,
+                    "attribute_infliction": 14503,
                     "sp_consume": 0,
                     "attack_data": [],
                     "rp_recovery": 0,
                     "rp_recovery_growth": 0,
-                    "ether_purify": 10504
+                    "ether_purify": 14504
                   }
                 },
                 "potential": []
@@ -119863,23 +119863,23 @@
                 "desc": "{Skill:1591022, Prop:1001}",
                 "param": {
                   "1591022": {
-                    "main": 84060,
-                    "growth": 7650,
+                    "main": 84960,
+                    "growth": 7730,
                     "format": "%",
-                    "damage_percentage": 84060,
-                    "damage_percentage_growth": 7650,
-                    "stun_ratio": 19080,
-                    "stun_ratio_growth": 870,
-                    "sp_recovery": 0,
+                    "damage_percentage": 84960,
+                    "damage_percentage_growth": 7730,
+                    "stun_ratio": 19620,
+                    "stun_ratio_growth": 900,
+                    "sp_recovery": 64210,
                     "sp_recovery_growth": 0,
-                    "fever_recovery": 476850,
+                    "fever_recovery": 490600,
                     "fever_recovery_growth": 0,
-                    "attribute_infliction": 17336,
+                    "attribute_infliction": 17833,
                     "sp_consume": 0,
                     "attack_data": [],
                     "rp_recovery": 0,
                     "rp_recovery_growth": 0,
-                    "ether_purify": 17337
+                    "ether_purify": 17834
                   }
                 },
                 "potential": []
@@ -119889,23 +119889,23 @@
                 "desc": "{Skill:1591022, Prop:1002}",
                 "param": {
                   "1591022": {
-                    "main": 19080,
-                    "growth": 870,
+                    "main": 19620,
+                    "growth": 900,
                     "format": "%",
-                    "damage_percentage": 84060,
-                    "damage_percentage_growth": 7650,
-                    "stun_ratio": 19080,
-                    "stun_ratio_growth": 870,
-                    "sp_recovery": 0,
+                    "damage_percentage": 84960,
+                    "damage_percentage_growth": 7730,
+                    "stun_ratio": 19620,
+                    "stun_ratio_growth": 900,
+                    "sp_recovery": 64210,
                     "sp_recovery_growth": 0,
-                    "fever_recovery": 476850,
+                    "fever_recovery": 490600,
                     "fever_recovery_growth": 0,
-                    "attribute_infliction": 17336,
+                    "attribute_infliction": 17833,
                     "sp_consume": 0,
                     "attack_data": [],
                     "rp_recovery": 0,
                     "rp_recovery_growth": 0,
-                    "ether_purify": 17337
+                    "ether_purify": 17834
                   }
                 },
                 "potential": []
@@ -120334,23 +120334,23 @@
                 "desc": "{Skill:1591016, Prop:1001}",
                 "param": {
                   "1591016": {
-                    "main": 266120,
-                    "growth": 24200,
+                    "main": 253380,
+                    "growth": 23040,
                     "format": "%",
-                    "damage_percentage": 266120,
-                    "damage_percentage_growth": 24200,
-                    "stun_ratio": 33920,
-                    "stun_ratio_growth": 1550,
+                    "damage_percentage": 253380,
+                    "damage_percentage_growth": 23040,
+                    "stun_ratio": 26220,
+                    "stun_ratio_growth": 1200,
                     "sp_recovery": 0,
                     "sp_recovery_growth": 0,
                     "fever_recovery": 0,
                     "fever_recovery_growth": 0,
-                    "attribute_infliction": 30833,
+                    "attribute_infliction": 23833,
                     "sp_consume": 0,
                     "attack_data": [],
                     "rp_recovery": 0,
                     "rp_recovery_growth": 0,
-                    "ether_purify": 80834
+                    "ether_purify": 73834
                   }
                 },
                 "potential": []
@@ -120360,23 +120360,23 @@
                 "desc": "{Skill:1591016, Prop:1002}",
                 "param": {
                   "1591016": {
-                    "main": 33920,
-                    "growth": 1550,
+                    "main": 26220,
+                    "growth": 1200,
                     "format": "%",
-                    "damage_percentage": 266120,
-                    "damage_percentage_growth": 24200,
-                    "stun_ratio": 33920,
-                    "stun_ratio_growth": 1550,
+                    "damage_percentage": 253380,
+                    "damage_percentage_growth": 23040,
+                    "stun_ratio": 26220,
+                    "stun_ratio_growth": 1200,
                     "sp_recovery": 0,
                     "sp_recovery_growth": 0,
                     "fever_recovery": 0,
                     "fever_recovery_growth": 0,
-                    "attribute_infliction": 30833,
+                    "attribute_infliction": 23833,
                     "sp_consume": 0,
                     "attack_data": [],
                     "rp_recovery": 0,
                     "rp_recovery_growth": 0,
-                    "ether_purify": 80834
+                    "ether_purify": 73834
                   }
                 },
                 "potential": []
@@ -120704,7 +120704,7 @@
           ],
           "desc": [
             "<color=#FFFFFF>[Basic Attack]</color> 4th hit, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw Stance]</color>;\nWhen Sigrid hits an enemy with any <color=#FFFFFF>[Draw Stance]</color>, if not currently in <color=#FFFFFF>[Sky Patrol Gunform]</color>, she enters <color=#FFFFFF>[Sky Patrol Gunform]</color> and the <color=#FFFFFF>[Draw Stance]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status, while gaining 1 <color=#FFFFFF>[Holster Stance]</color> activation opportunity, up to a maximum of 1;\nWhile in <color=#FFFFFF>[Sky Patrol Gunform]</color>, when Sigrid uses any <color=#FFFFFF>[Draw Stance]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Sky Patrol Gunform]</color> and gain 1 <color=#FFFFFF>[Holster Stance]</color> activation opportunity, up to a maximum of 1; When <color=#FFFFFF>[Sky Patrol Gunform]</color> is refreshed, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly triggered <color=#FFFFFF>[Draw Stance]</color>;\nWhen <color=#FFFFFF>[Holster Stance]</color> hits an enemy, <color=#FFFFFF>[Inactive]</color> status is removed and the next <color=#FFFFFF>[Holster Stance]</color> advances by 1 stage, up to a maximum of 3 stages; After triggering the 3rd stage <color=#FFFFFF>[Holster Stance]</color>, <color=#FFFFFF>[Holster Stance]</color> stage is immediately reset to stage 1 and <color=#FFFFFF>[Sky Patrol Gunform]</color> ends;\nThe duration of <color=#FFFFFF>[Sky Patrol Gunform]</color> decreases as <color=#FFFFFF>[Holster Stance]</color> stage increases: at stages 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Gunform]</color> ends, <color=#FFFFFF>[Holster Stance]</color> stage decreases by 1, down to a minimum of stage 1;\nWhen <color=#FFFFFF>[Sky Patrol Gunform]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>36%</color> for <color=#FFFFFF>8</color>s; repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Sky Patrol Gunform]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
-            "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 40%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>20%</color>"
+            "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 45%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>15%</color>"
           ],
           "extra_property": {},
           "potential": []
@@ -120718,7 +120718,7 @@
           ],
           "desc": [
             "<color=#FFFFFF>[Basic Attack]</color> 4th hit, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw Shot]</color>;\nWhen Sigrid lands a hit with any <color=#FFFFFF>[Draw Shot]</color>, if not already in <color=#FFFFFF>[Sky Patrol Stance]</color>, she enters <color=#FFFFFF>[Sky Patrol Stance]</color>. The <color=#FFFFFF>[Draw Shot]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status, and she gains 1 <color=#FFFFFF>[Holster Shot]</color> activation opportunity, up to a maximum of 1;\nWhile in <color=#FFFFFF>[Sky Patrol Stance]</color>, if Sigrid uses any <color=#FFFFFF>[Draw Shot]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Sky Patrol Stance]</color> and gain 1 <color=#FFFFFF>[Holster Shot]</color> activation opportunity, up to a maximum of 1; Upon refreshing <color=#FFFFFF>[Sky Patrol Stance]</color>, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly used <color=#FFFFFF>[Draw Shot]</color>;\nWhen <color=#FFFFFF>[Holster Shot]</color> lands a hit on an enemy, <color=#FFFFFF>[Inactive]</color> status is removed and the next <color=#FFFFFF>[Holster Shot]</color>'s hit count increases by 1, up to a maximum of 3 hits; After using the 3rd <color=#FFFFFF>[Holster Shot]</color>, its hit count immediately resets to 1 and <color=#FFFFFF>[Sky Patrol Stance]</color> ends;\nThe duration of <color=#FFFFFF>[Sky Patrol Stance]</color> decreases as <color=#FFFFFF>[Holster Shot]</color>'s hit count increases: at 1/2/3 hits, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> ends, <color=#FFFFFF>[Holster Shot]</color>'s hit count decreases by 1, down to a minimum of 1;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>42%</color> for <color=#FFFFFF>8</color>s; repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Sky Patrol Stance]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
-            "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 40%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>20%</color>"
+            "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 45%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>15%</color>"
           ],
           "extra_property": {},
           "potential": []
@@ -120732,7 +120732,7 @@
           ],
           "desc": [
             "<color=#FFFFFF>[Basic Attack]</color> 4th hit, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw Shot]</color>;\nWhen Sigrid hits an enemy with any <color=#FFFFFF>[Draw Shot]</color>, if not currently in <color=#FFFFFF>[Aerial Gunstance]</color>, she enters <color=#FFFFFF>[Aerial Gunstance]</color> and the <color=#FFFFFF>[Draw Shot]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status, while gaining 1 <color=#FFFFFF>[Holster Shot]</color> activation opportunity, up to a maximum of 1;\nWhile in <color=#FFFFFF>[Aerial Gunstance]</color>, if Sigrid activates any <color=#FFFFFF>[Draw Shot]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Aerial Gunstance]</color> and gain 1 <color=#FFFFFF>[Holster Shot]</color> activation opportunity, up to a maximum of 1; After <color=#FFFFFF>[Aerial Gunstance]</color> is refreshed, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly activated <color=#FFFFFF>[Draw Shot]</color>;\nWhen <color=#FFFFFF>[Holster Shot]</color> hits an enemy, it removes <color=#FFFFFF>[Inactive]</color> status and increases the next <color=#FFFFFF>[Holster Shot]</color>'s hit count by 1 stage, up to a maximum of 3 stages; After the 3rd stage <color=#FFFFFF>[Holster Shot]</color> is activated, <color=#FFFFFF>[Holster Shot]</color> stage count immediately resets to stage 1 and <color=#FFFFFF>[Aerial Gunstance]</color> ends;\nThe duration of <color=#FFFFFF>[Aerial Gunstance]</color> decreases as <color=#FFFFFF>[Holster Shot]</color> stage increases: at stages 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Aerial Gunstance]</color> ends, <color=#FFFFFF>[Holster Shot]</color> stage decreases by 1, down to a minimum of stage 1;\nWhen <color=#FFFFFF>[Aerial Gunstance]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>48%</color> for <color=#FFFFFF>8</color>s; repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Aerial Gunstance]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
-            "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 40%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>20%</color>"
+            "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 45%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>15%</color>"
           ],
           "extra_property": {},
           "potential": []
@@ -120746,7 +120746,7 @@
           ],
           "desc": [
             "<color=#FFFFFF>[Basic Attack]</color> 4th hit, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw Shot]</color>;\nWhen Sigrid lands a hit with any <color=#FFFFFF>[Draw Shot]</color>, if not already in <color=#FFFFFF>[Sky Patrol Stance]</color>, she enters <color=#FFFFFF>[Sky Patrol Stance]</color>. The <color=#FFFFFF>[Draw Shot]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status, and she gains 1 <color=#FFFFFF>[Holster Shot]</color> activation opportunity, up to a maximum of 1;\nWhile in <color=#FFFFFF>[Sky Patrol Stance]</color>, if Sigrid uses any <color=#FFFFFF>[Draw Shot]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Sky Patrol Stance]</color> and gain 1 <color=#FFFFFF>[Holster Shot]</color> activation opportunity, up to a maximum of 1; Upon refreshing <color=#FFFFFF>[Sky Patrol Stance]</color>, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly used <color=#FFFFFF>[Draw Shot]</color>;\nWhen <color=#FFFFFF>[Holster Shot]</color> lands a hit on an enemy, <color=#FFFFFF>[Inactive]</color> status is removed and the next <color=#FFFFFF>[Holster Shot]</color>'s hit count increases by 1, up to a maximum of 3 hits; After using the 3rd <color=#FFFFFF>[Holster Shot]</color>, its hit count immediately resets to 1 and <color=#FFFFFF>[Sky Patrol Stance]</color> ends;\nThe duration of <color=#FFFFFF>[Sky Patrol Stance]</color> decreases as <color=#FFFFFF>[Holster Shot]</color>'s hit count increases: at 1/2/3 hits, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> ends, <color=#FFFFFF>[Holster Shot]</color>'s hit count decreases by 1, down to a minimum of 1;\nWhen <color=#FFFFFF>[Sky Patrol Stance]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>54%</color> for <color=#FFFFFF>8</color>s; repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Sky Patrol Stance]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
-            "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 40%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>20%</color>"
+            "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 45%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>15%</color>"
           ],
           "extra_property": {},
           "potential": []
@@ -120760,7 +120760,7 @@
           ],
           "desc": [
             "<color=#FFFFFF>[Basic Attack]</color> 4th hit, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw]</color>;\nWhen Sigrid lands a hit with any <color=#FFFFFF>[Draw]</color>, if she is not already in the <color=#FFFFFF>[Aerial Patrol Stance]</color>, she enters <color=#FFFFFF>[Aerial Patrol Stance]</color>, and the <color=#FFFFFF>[Draw]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status. She also gains 1 <color=#FFFFFF>[Holster]</color> trigger opportunity, storable up to 1;\nWhile in <color=#FFFFFF>[Aerial Patrol Stance]</color>, if Sigrid triggers any <color=#FFFFFF>[Draw]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Aerial Patrol Stance]</color> and gain 1 <color=#FFFFFF>[Holster]</color> trigger opportunity, storable up to 1. Upon refreshing <color=#FFFFFF>[Aerial Patrol Stance]</color>, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly triggered <color=#FFFFFF>[Draw]</color>;\nWhen <color=#FFFFFF>[Holster]</color> lands a hit on an enemy, <color=#FFFFFF>[Inactive]</color> status is removed, and the next <color=#FFFFFF>[Holster]</color>'s hit count is increased by 1 stage, up to a maximum of 3 stages. After triggering the 3rd stage <color=#FFFFFF>[Holster]</color>, <color=#FFFFFF>[Holster]</color> stage count is immediately reset to 1 and <color=#FFFFFF>[Aerial Patrol Stance]</color> ends;\nThe duration of <color=#FFFFFF>[Aerial Patrol Stance]</color> decreases as <color=#FFFFFF>[Holster]</color> stage increases: at stages 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Aerial Patrol Stance]</color> ends, <color=#FFFFFF>[Holster]</color> stage decreases by 1, down to a minimum of 1;\nWhen <color=#FFFFFF>[Aerial Patrol Stance]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>60%</color> for <color=#FFFFFF>8</color>s. Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Aerial Patrol Stance]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
-            "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 40%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>20%</color>"
+            "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 45%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>15%</color>"
           ],
           "extra_property": {},
           "potential": []
@@ -120774,7 +120774,7 @@
           ],
           "desc": [
             "<color=#FFFFFF>[Basic Attack]</color> 4th hit, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw Shot]</color>;\nWhen Sigrid's <color=#FFFFFF>[Draw Shot]</color> hits an enemy, if she is not in the <color=#FFFFFF>[Aerial Gunstance]</color> state, she enters <color=#FFFFFF>[Aerial Gunstance]</color>, and the <color=#FFFFFF>[Draw Shot]</color> that landed the hit enters the <color=#FFFFFF>[Inactive]</color> state. She also gains 1 <color=#FFFFFF>[Holster Shot]</color> activation opportunity, with a maximum of 1 stored;\nWhile in <color=#FFFFFF>[Aerial Gunstance]</color>, if Sigrid activates any <color=#FFFFFF>[Draw Shot]</color> that is not in the <color=#FFFFFF>[Inactive]</color> state, she can refresh <color=#FFFFFF>[Aerial Gunstance]</color> and gain 1 <color=#FFFFFF>[Holster Shot]</color> activation opportunity, with a maximum of 1 stored; upon refreshing <color=#FFFFFF>[Aerial Gunstance]</color>, the <color=#FFFFFF>[Inactive]</color> state transfers to the newly activated <color=#FFFFFF>[Draw Shot]</color>;\nWhen <color=#FFFFFF>[Holster Shot]</color> hits an enemy, the <color=#FFFFFF>[Inactive]</color> state is removed, and the next <color=#FFFFFF>[Holster Shot]</color>'s stage increases by 1, up to a maximum of Stage 3; after activating <color=#FFFFFF>[Holster Shot]</color> Stage 3, <color=#FFFFFF>[Holster Shot]</color>'s stage is immediately reset to Stage 1, and <color=#FFFFFF>[Aerial Gunstance]</color> ends;\nThe duration of <color=#FFFFFF>[Aerial Gunstance]</color> decreases as <color=#FFFFFF>[Holster Shot]</color>'s stage increases: at Stage 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Aerial Gunstance]</color> ends, <color=#FFFFFF>[Holster Shot]</color>'s stage decreases by 1, down to a minimum of Stage 1;\nWhen <color=#FFFFFF>[Aerial Gunstance]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>66%</color> for <color=#FFFFFF>8</color>s; repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Aerial Gunstance]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
-            "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 40%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>20%</color>"
+            "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 45%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>15%</color>"
           ],
           "extra_property": {},
           "potential": []
@@ -120788,7 +120788,7 @@
           ],
           "desc": [
             "<color=#FFFFFF>[Basic Attack]</color> 4th hit, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Draw]</color>;\nWhen Sigrid lands any <color=#FFFFFF>[Draw]</color> on an enemy, if not currently in <color=#FFFFFF>[Aerial Patrol Stance]</color>, she enters <color=#FFFFFF>[Aerial Patrol Stance]</color>, and the <color=#FFFFFF>[Draw]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status. She also gains 1 <color=#FFFFFF>[Holster]</color> trigger opportunity, with a maximum of 1 stored;\nWhile in <color=#FFFFFF>[Aerial Patrol Stance]</color>, if Sigrid uses any <color=#FFFFFF>[Draw]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Aerial Patrol Stance]</color> and gain 1 <color=#FFFFFF>[Holster]</color> trigger opportunity, with a maximum of 1 stored; Upon refreshing <color=#FFFFFF>[Aerial Patrol Stance]</color>, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly triggered <color=#FFFFFF>[Draw]</color>;\nWhen <color=#FFFFFF>[Holster]</color> hits an enemy, the <color=#FFFFFF>[Inactive]</color> status is removed, and the next <color=#FFFFFF>[Holster]</color>'s hit count increases by 1, up to a maximum of 3 hits; After triggering the 3rd hit of <color=#FFFFFF>[Holster]</color>, the <color=#FFFFFF>[Holster]</color> hit count is immediately reset to 1 and <color=#FFFFFF>[Aerial Patrol Stance]</color> ends;\nThe duration of <color=#FFFFFF>[Aerial Patrol Stance]</color> decreases as <color=#FFFFFF>[Holster]</color> hit count increases: at hit 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Aerial Patrol Stance]</color> ends, the <color=#FFFFFF>[Holster]</color> hit count decreases by 1, down to a minimum of 1;\nWhen <color=#FFFFFF>[Aerial Patrol Stance]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>72%</color> for <color=#FFFFFF>8</color>s; Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Aerial Patrol Stance]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
-            "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 40%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>20%</color>"
+            "Triggers when your squad has a <color=#FFFFFF>[Assist]</color> or <color=#FFFFFF>[Stun]</color> character:\nUpon triggering, DMG dealt by this character increases by 45%;\nWhen an attack hits an enemy afflicted with Wind Contamination, DMG dealt by this character increases by <color=#FFFFFF>15%</color>"
           ],
           "extra_property": {},
           "potential": []
@@ -120839,7 +120839,7 @@
       "2": {
         "level": 2,
         "name": "Act One of the Legendary",
-        "desc": "<color=#FFFFFF>[Draw Mode]</color> and <color=#FFFFFF>[Sheathe Mode]</color> deal <color=#98EFF0>Ice DMG</color> that ignores <color=#FFFFFF>24%</color> of the target's DEF; the duration of <color=#FFFFFF>[Draw Mode]</color> effects is extended; <color=#FFFFFF>[Assist Follow-Up]</color> is considered <color=#FFFFFF>[Draw Mode]</color>.",
+        "desc": "<color=#FFFFFF>[Draw Shot]</color> and <color=#FFFFFF>[Holster Shot]</color> deal <color=#98EFF0>Ice DMG</color> that ignores <color=#FFFFFF>24%</color> of the target's DEF; the duration of the <color=#FFFFFF>[Sky Patrol Stance]</color> effect is extended;",
         "desc2": "She was Roscaelifer's first Soldier, its first spear — standing at the first line of defense against the Hollow, leading the first charge.\nShe was the first wing to follow Lady Sunbringer, and with her own hands raised the first walls of Roscaelifer.\nShe was the first blade of Roscaelifer to be broken. Her name was de L'Azur.\nHer children, like her legend, burn eternal in the night sky over Roscaelifer."
       },
       "3": {
@@ -120869,7 +120869,7 @@
     },
     "recommendations": {
       "slot4": 33300,
-      "slot2": 31000,
+      "slot2": 32500,
       "slot_sub": 31400,
       "part4": {
         "prop": 21103,
@@ -120901,7 +120901,7 @@
       "detail": {}
     },
     "liveComparison": {
-      "currentHash": "ec9c87ca9eb31b9b5ddee436d47d358ae22e55e694e24a4617ca48036ccf96dc"
+      "currentHash": "21abb55fae1340c9e75db69d1236e32cccca562b4fd2376537db700db9d23f18"
     }
   }
 ]

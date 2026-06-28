@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-06-28T08:35:39.007Z",
+  "checkedAt": "2026-06-28T09:31:51.946Z",
   "updated": "2026-06-28T00:58:02.265Z",
   "games": [
     {
@@ -7,7 +7,7 @@
       "name": "Honkai: Star Rail",
       "freshness": {
         "status": "stale",
-        "checkedAt": "2026-06-28T08:35:39.007Z",
+        "checkedAt": "2026-06-28T09:31:51.946Z",
         "lastSuccessfulFetch": "2026-06-28T00:58:02.265Z",
         "message": "This game failed to scrape during the latest banner check; preserved previous data."
       },
@@ -52,7 +52,7 @@
       "name": "Genshin Impact",
       "freshness": {
         "status": "stale",
-        "checkedAt": "2026-06-28T08:35:39.007Z",
+        "checkedAt": "2026-06-28T09:31:51.946Z",
         "lastSuccessfulFetch": "2026-06-28T00:58:02.265Z",
         "message": "This game failed to scrape during the latest banner check; preserved previous data."
       },
@@ -115,7 +115,7 @@
       "name": "Wuthering Waves",
       "freshness": {
         "status": "invalid",
-        "checkedAt": "2026-06-28T08:35:39.007Z",
+        "checkedAt": "2026-06-28T09:31:51.946Z",
         "lastSuccessfulFetch": "2026-06-28T00:58:02.265Z",
         "message": "This game failed to scrape during the latest banner check; preserved previous data."
       },
@@ -206,7 +206,7 @@
       "name": "Zenless Zone Zero",
       "freshness": {
         "status": "stale",
-        "checkedAt": "2026-06-28T08:35:39.007Z",
+        "checkedAt": "2026-06-28T09:31:51.946Z",
         "lastSuccessfulFetch": "2026-06-28T00:58:02.265Z",
         "message": "This game failed to scrape during the latest banner check; preserved previous data."
       },
@@ -263,7 +263,7 @@
       "name": "Arknights: Endfield",
       "freshness": {
         "status": "unavailable",
-        "checkedAt": "2026-06-28T08:35:39.007Z",
+        "checkedAt": "2026-06-28T09:31:51.946Z",
         "lastSuccessfulFetch": "2026-06-28T00:58:02.265Z",
         "message": "This game failed to scrape during the latest banner check; preserved previous data."
       },

@@ -2094,6 +2094,30 @@
           "formKey": "aero:any",
           "formLabel": "Aero",
           "gender": null
+        },
+        {
+          "id": "ww-rover-electro",
+          "n": "Rover",
+          "title": "Veil of Shadows",
+          "slug": "rover-electro",
+          "updated": 1782511200000,
+          "sourceOrder": 0,
+          "icon": null,
+          "status": "beta",
+          "labels": [
+            "3.5"
+          ],
+          "r": 5,
+          "el": "Electro",
+          "w": "Sword",
+          "recent": 1,
+          "rawName": "Rover (Electro)",
+          "baseName": "Rover",
+          "variantValue": "Electro",
+          "variantKey": "electro",
+          "formKey": "electro:any",
+          "formLabel": "Electro",
+          "gender": null
         }
       ]
     },
@@ -15034,6 +15058,7 @@
     {
       "id": "ww-suisui",
       "n": "Suisui",
+      "title": "Host of Harmony",
       "slug": "suisui",
       "updated": 1781733600000,
       "sourceOrder": 0,
@@ -15047,8 +15072,7 @@
       ],
       "r": 5,
       "el": "Glacio",
-      "w": "Rectifier",
-      "recent": 1
+      "w": "Rectifier"
     },
     {
       "id": "ww-suoming",
@@ -15088,7 +15112,7 @@
     {
       "id": "ww-yangyang-xuanling",
       "n": "Yangyang Xuanling",
-      "title": "Yangyang: Xuanling",
+      "title": "Voices of Azure Plume",
       "slug": "yangyang-xuanling",
       "updated": 1781733600000,
       "sourceOrder": 0,
@@ -15102,8 +15126,7 @@
       ],
       "r": 5,
       "el": "Havoc",
-      "w": "Sword",
-      "recent": 1
+      "w": "Sword"
     }
   ],
   "midGroups": [

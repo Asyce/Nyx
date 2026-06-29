@@ -56,19 +56,19 @@ const CM_BETA_META = {
     "changedCount": 0
   },
   "hsr": {
-    "version": "4.3.53",
+    "version": "4.3.55",
     "liveVersion": "4.3",
     "newCount": 0,
     "changedCount": 15
   },
   "zzz": {
-    "version": "3.1.2+16857772",
+    "version": "3.1.3+17042499",
     "liveVersion": "3.0",
     "newCount": 1,
     "changedCount": 0
   },
   "wuwa": {
-    "version": "3.5.3",
+    "version": "3.5.4",
     "liveVersion": "3.4",
     "newCount": 0,
     "changedCount": 10

@@ -10,6 +10,7 @@ function gtSimulate(cfg){
   const fivePool = (cfg.fives && cfg.fives.length) ? cfg.fives : ['Featured'];
   const fourPool = (cfg.fours && cfg.fours.length) ? cfg.fours : ['Four Star'];
   const total = 170 + Math.floor(Math.random() * 200);
+  const now = Date.now();
   let pity5 = 0, pity4 = 0, guaranteed = false;
   const fives = [], stream = [];
   let fourCount = 0, threeCount = 0;
@@ -26,7 +27,7 @@ function gtSimulate(cfg){
       const name = won
         ? fivePool[0]
         : (fivePool.length > 1 ? fivePool[1 + Math.floor(Math.random() * (fivePool.length - 1))] : fivePool[0]);
-      fives.push({ idx:i, pity:pity5, won, ff, name });
+      fives.push({ idx:i, pity:pity5, pity5:pity5, rank:5, won, ff, name, time:now - (total - i) * 90000 });
       stream.push(5); pity5 = 0; pity4 = 0;
     } else if (pity4 >= 10 || Math.random() < 0.051){
       fourCount++; stream.push(4); pity4 = 0;
@@ -36,6 +37,579 @@ function gtSimulate(cfg){
   }
   return { total, fives, fourCount, threeCount, currentPity:pity5, guaranteed,
            stream, ts:Date.now() };
+}
+
+function gtNormName(s){
+  return String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+}
+
+function gtTitleName(s){
+  return String(s || '').replace(/_/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+function gtFmtDate(ms){
+  if (!ms) return 'Unknown time';
+  try {
+    return new Date(ms).toLocaleDateString('en-US', { month:'short', day:'numeric', year:'numeric' });
+  } catch (e) {
+    return 'Unknown time';
+  }
+}
+
+function gtBg(src){
+  if (!src) return undefined;
+  return { backgroundImage:'url("' + String(src).replace(/"/g, '%22') + '")' };
+}
+
+function gtRosterMeta(gameKey, name){
+  const key = gtNormName(name);
+  if (!key) return null;
+  try {
+    if (window.NyxPulls && window.NyxPulls.itemIndex) {
+      const ix = window.NyxPulls.itemIndex(gameKey);
+      if (ix && ix.byName && ix.byName[key]) return ix.byName[key];
+    }
+  } catch (e) {}
+  const cfg = (window.CM_CFG && window.CM_CFG[gameKey]) || null;
+  const dbGame = window.NYX_DB && window.NYX_DB.games && window.NYX_DB.games[gameKey];
+  const lists = [
+    cfg && cfg.roster,
+    cfg && cfg.chars,
+    dbGame && dbGame.roster,
+  ];
+  for (const list of lists) {
+    for (const ch of (list || [])) {
+      const nm = ch.n || ch.name || ch.rawName;
+      if (gtNormName(nm) === key) {
+        return {
+          name: nm,
+          rarity: ch.r || ch.rarity,
+          element: ch.el || ch.element,
+          weaponType: ch.w || ch.weaponType,
+          icon: ch.icon,
+          art: ch.art || ch.overviewArt || ch.icon,
+        };
+      }
+    }
+  }
+  return null;
+}
+
+function gtBannerType(key){
+  return key === 'weapon' || key === 'lightcone' || key === 'wengine' || key === 'standard_wpn' ? 'weapon' : 'character';
+}
+
+function gtCurrentBannerPeriod(gameKey, bannerKey){
+  const hist = (window.NYX_BANNERS && window.NYX_BANNERS[gameKey]) || [];
+  if (!hist.length) return null;
+  const type = gtBannerType(bannerKey);
+  const periods = hist.filter((b) => b.type === type && Array.isArray(b.featured5) && b.featured5.length)
+    .sort((a, b) => a.start - b.start);
+  if (!periods.length) return null;
+  const now = Date.now();
+  const current = periods.filter((b) => now >= b.start && now <= b.end);
+  if (current.length) return current[current.length - 1];
+  const next = periods.find((b) => b.start > now);
+  return next || periods[periods.length - 1];
+}
+
+function gtFeatureList(gameKey, bannerKey, fallbackFives){
+  const period = gtCurrentBannerPeriod(gameKey, bannerKey);
+  const names = period && period.featured5 && period.featured5.length
+    ? period.featured5
+    : (fallbackFives || []).slice().reverse().slice(0, 2).map((f) => f.name);
+  return names.slice(0, 2).map((name) => {
+    const meta = gtRosterMeta(gameKey, name) || {};
+    return {
+      name: meta.name || gtTitleName(name),
+      icon: meta.icon || '',
+      art: meta.art || meta.icon || '',
+      element: meta.element || '',
+      version: period && period.version,
+      start: period && period.start,
+      end: period && period.end,
+      fourStars: period && period.featured4 ? period.featured4.map((n) => {
+        const four = gtRosterMeta(gameKey, n) || {};
+        return four.name || gtTitleName(n);
+      }) : [],
+    };
+  });
+}
+
+function gtBannerPeriodForTime(gameKey, type, timeMs){
+  const hist = (window.NYX_BANNERS && window.NYX_BANNERS[gameKey]) || [];
+  if (!hist.length || !timeMs) return null;
+  return hist.find((b) => b.type === type && timeMs >= b.start && timeMs <= b.end) || null;
+}
+
+function gtBannerPeriodLabel(gameKey, period){
+  if (!period) return '';
+  const featured = (period.featured5 || []).map((name) => {
+    const meta = gtRosterMeta(gameKey, name) || {};
+    return meta.name || gtTitleName(name);
+  }).filter(Boolean);
+  return featured.length ? featured.join(' / ') : (period.name || 'Limited banner');
+}
+
+function gtBannerTimelineType(key){
+  if (key === 'character' || key === 'character2') return 'character';
+  if (key === 'chronicled') return 'chronicled';
+  if (key === 'weapon' || key === 'lightcone' || key === 'wengine' || key === 'standard_wpn') return 'weapon';
+  return key || 'standard';
+}
+
+function gtPeriodForBannerKey(gameKey, key, timeMs){
+  const type = gtBannerTimelineType(key);
+  const direct = gtBannerPeriodForTime(gameKey, type, timeMs);
+  if (direct) return direct;
+  if (type === 'weapon') return gtBannerPeriodForTime(gameKey, 'character', timeMs);
+  return null;
+}
+
+function gtCurrentLimitedFeatures(gameKey, fallbackFives){
+  const hist = (window.NYX_BANNERS && window.NYX_BANNERS[gameKey]) || [];
+  const now = Date.now();
+  let periods = hist.filter((b) => b.type === 'character' && Array.isArray(b.featured5) && b.featured5.length && now >= b.start && now <= b.end);
+  if (!periods.length) {
+    const next = hist.find((b) => b.type === 'character' && Array.isArray(b.featured5) && b.featured5.length && b.start > now);
+    if (next) periods = [next];
+    else periods = hist.filter((b) => b.type === 'character' && Array.isArray(b.featured5) && b.featured5.length).slice(-1);
+  }
+  const cards = [];
+  periods.slice(-1).forEach((period) => {
+    (period.featured5 || []).slice(0, 2).forEach((name) => {
+      const meta = gtRosterMeta(gameKey, name) || {};
+      cards.push({
+        name: meta.name || gtTitleName(name),
+        icon: meta.icon || '',
+        art: meta.art || meta.icon || '',
+        version: period.version || '',
+        start: period.start,
+        end: period.end,
+        fourStars: (period.featured4 || []).map((n) => {
+          const four = gtRosterMeta(gameKey, n) || {};
+          return { name: four.name || gtTitleName(n), icon: four.icon || '', art: four.art || four.icon || '' };
+        }),
+      });
+    });
+  });
+  if (!cards.length) {
+    (fallbackFives || []).slice(0, 2).forEach((f) => cards.push({
+      name:f.name, icon:f.icon || '', art:f.art || f.icon || '', version:'', start:f.time || 0, end:f.time || 0, fourStars:[],
+    }));
+  }
+  return cards.slice(0, 2);
+}
+
+function gtBannerKindLabel(key, label){
+  if (key === 'weapon' || key === 'lightcone' || key === 'wengine' || key === 'standard_wpn') return 'Weapon';
+  if (key === 'standard') return 'Standard';
+  if (key === 'chronicled') return 'Chronicled';
+  if (key === 'beginner') return 'Beginner';
+  return label || 'Character';
+}
+
+function gtAllSourceGroups(banners, gameKey){
+  return (banners || []).flatMap((banner) => {
+    const fiveById = {};
+    (banner.fives || []).forEach((five) => {
+      const key = String(five.id || '') || (gtNormName(five.name) + ':' + (five.time || 0) + ':' + (five.pity || 0));
+      fiveById[key] = five;
+    });
+    const periodGroups = {};
+    (banner.items || []).forEach((item) => {
+      const period = gtPeriodForBannerKey(gameKey, banner.key, item.time || 0);
+      const source = String(item.sourceBanner || '').trim();
+      const groupKey = period
+        ? (banner.key + ':period:' + (period.start || 0) + ':' + (period.end || 0))
+        : (banner.key + ':source:' + gtNormName(source || banner.label) + ':' + String(item.part || ''));
+      const label = period ? gtBannerPeriodLabel(gameKey, period) : (source || banner.label);
+      const rec = periodGroups[groupKey] || {
+        key: groupKey,
+        label: label,
+        part: item.part || '',
+        displayName: label + (period && period.version ? ' v' + period.version : ''),
+        total: 0,
+        fiveCount: 0,
+        fourCount: 0,
+        lastTime: 0,
+        periodStart: period && period.start,
+        periodEnd: period && period.end,
+        periodVersion: period && period.version,
+        periodName: period && period.name,
+        items: [],
+      };
+      const fiveKey = String(item.id || '') || (gtNormName(item.name) + ':' + (item.time || 0) + ':' + (item.pity || item.pity5 || 0));
+      const enriched = item.rank === 5 && fiveById[fiveKey] ? Object.assign({}, item, fiveById[fiveKey]) : item;
+      rec.total += 1;
+      if (item.rank === 5) rec.fiveCount += 1;
+      if (item.rank === 4) rec.fourCount += 1;
+      rec.lastTime = Math.max(rec.lastTime || 0, item.time || 0);
+      rec.items.push(enriched);
+      periodGroups[groupKey] = rec;
+    });
+    let groups = Object.values(periodGroups).map((rec) => {
+      const newest = rec.items.slice().sort((a, b) => (b.time || 0) - (a.time || 0) || (b.idx || 0) - (a.idx || 0));
+      return Object.assign({}, rec, {
+        recent: newest.slice(0, 8),
+        highlights: newest.filter((it) => it.rank >= 4).slice(0, 8),
+      });
+    });
+    if (!groups.length) {
+      groups = banner.sourceGroups && banner.sourceGroups.length
+        ? banner.sourceGroups
+        : [{ key:'fallback', label:banner.label, displayName:banner.label, total:banner.total || 0, fiveCount:(banner.fives || []).length, fourCount:banner.fourCount || 0, lastTime:(banner.history && banner.history[0] && banner.history[0].time) || 0, recent:(banner.history || []).slice(0, 8), highlights:(banner.history || []).filter((it) => it.rank >= 4).slice(0, 8), items:banner.items || [] }];
+    }
+    return groups.map((group) => Object.assign({}, group, {
+      bannerKey: banner.key,
+      bannerLabel: banner.label,
+      bannerKind: gtBannerKindLabel(banner.key, banner.label),
+      fives: (group.items || []).filter((it) => it.rank === 5),
+    }));
+  }).sort((a, b) => (b.lastTime || 0) - (a.lastTime || 0) || (b.total || 0) - (a.total || 0));
+}
+
+function gtPairSourceGroups(gameKey, banners){
+  const all = gtAllSourceGroups(banners, gameKey);
+  const weapons = all.filter((g) => g.bannerKey === 'weapon' || g.bannerKey === 'lightcone' || g.bannerKey === 'wengine' || g.bannerKey === 'standard_wpn');
+  const primary = all.filter((g) => !weapons.includes(g));
+  const used = new Set();
+  const rows = primary.map((group) => {
+    const canPair = group.bannerKey === 'character' || group.bannerKey === 'chronicled';
+    const pairedWeapons = weapons.filter((wg) => {
+      if (!canPair) return false;
+      if (used.has(wg.key)) return false;
+      if (group.periodStart && wg.periodStart && group.periodStart === wg.periodStart) return true;
+      if (group.periodStart && wg.lastTime && wg.lastTime >= group.periodStart && wg.lastTime <= (group.periodEnd || group.periodStart)) return true;
+      return Math.abs((wg.lastTime || 0) - (group.lastTime || 0)) < 24 * 24 * 3600000;
+    });
+    pairedWeapons.forEach((wg) => used.add(wg.key));
+    return Object.assign({}, group, { pairedWeapons });
+  });
+  weapons.filter((wg) => !used.has(wg.key)).forEach((wg) => rows.push(Object.assign({}, wg, { pairedWeapons:[] })));
+  return rows.sort((a, b) => (b.lastTime || 0) - (a.lastTime || 0) || (b.total || 0) - (a.total || 0));
+}
+
+function gtMergeArchive(banners, kind){
+  const merged = {};
+  (banners || []).forEach((banner) => {
+    (banner.archive || []).forEach((rec) => {
+      if (kind && rec.kind !== kind) return;
+      const key = rec.kind + ':' + gtNormName(rec.name || rec.itemId || rec.key);
+      const out = merged[key] || Object.assign({}, rec, { copies:0, lastTime:0 });
+      out.copies += rec.copies || 0;
+      out.rank = Math.max(out.rank || 0, rec.rank || 0);
+      out.rarity = Math.max(out.rarity || 0, rec.rarity || rec.rank || 0);
+      out.lastTime = Math.max(out.lastTime || 0, rec.lastTime || 0);
+      out.icon = out.icon || rec.icon || rec.art || '';
+      out.art = out.art || rec.art || rec.icon || '';
+      merged[key] = out;
+    });
+  });
+  return Object.values(merged);
+}
+
+function gtCopyMark(rec){
+  const copies = rec.copies || 0;
+  if (rec.kind === 'weapon') {
+    if (copies <= 5) return 'R' + Math.max(1, copies);
+    return 'R5 +' + (copies - 5);
+  }
+  const c = Math.max(0, copies - 1);
+  if (c <= 6) return 'C' + c;
+  return 'C6 +' + (c - 6);
+}
+
+function gtSortArchive(list, sort){
+  return list.slice().sort((a, b) => {
+    if (sort === 'recent') return (b.lastTime || 0) - (a.lastTime || 0) || (b.copies || 0) - (a.copies || 0);
+    if (sort === 'rarity') return (b.rank || 0) - (a.rank || 0) || (b.copies || 0) - (a.copies || 0) || String(a.name).localeCompare(String(b.name));
+    if (sort === 'name') return String(a.name).localeCompare(String(b.name));
+    return (b.copies || 0) - (a.copies || 0) || (b.rank || 0) - (a.rank || 0) || String(a.name).localeCompare(String(b.name));
+  });
+}
+
+function gtPityBands(fives, soft, hard){
+  const bands = [
+    { key:'early', label:'Before soft pity', range:'1-' + Math.max(1, soft - 1), test:(p) => p < soft },
+    { key:'soft', label:'At / beyond soft pity', range:String(soft) + '-' + hard, test:(p) => p >= soft },
+  ];
+  return bands.map((band) => Object.assign({}, band, { count:(fives || []).filter((f) => band.test(f.pity || 0)).length }));
+}
+
+function gtPullOutcome(five, banner){
+  if (banner && banner.ff) {
+    if (five.ff) return five.won ? '50:50 win' : '50:50 loss';
+    return 'Guaranteed';
+  }
+  return 'Fixed pool';
+}
+
+function gtPullOutcomeClass(five, banner){
+  if (banner && banner.ff) {
+    if (!five.ff) return 'guaranteed';
+    return five.won ? 'fifty win' : 'fifty loss';
+  }
+  return 'fixed';
+}
+
+function gtPityFilterMatch(five, banner, filter){
+  const soft = (banner && banner.soft) || 74;
+  if (filter === 'guaranteed') return banner && banner.ff && !five.ff;
+  if (filter === 'fifty') return banner && banner.ff && !!five.ff;
+  if (filter === 'early') return (five.pity || five.pity5 || 0) < soft;
+  if (filter === 'soft') return (five.pity || five.pity5 || 0) >= soft;
+  return true;
+}
+
+function gtPityDotClass(five, banner){
+  const soft = (banner && banner.soft) || 74;
+  const parts = ['gt-pity-dot2'];
+  if ((five.pity || five.pity5 || 0) < soft) parts.push('early');
+  else parts.push('soft');
+  parts.push(gtPullOutcomeClass(five, banner).replace(/\s+/g, '-'));
+  return parts.join(' ');
+}
+
+function gtHistoryRows(active, filter){
+  const rows = (active.history && active.history.length
+    ? active.history
+    : (active.fives || []).slice().reverse().map((f) => Object.assign({ rank:5, pity5:f.pity, time:f.time || 0 }, f))
+  ).slice();
+  return rows.filter((row) => {
+    if (filter === '5') return row.rank === 5;
+    if (filter === '4') return row.rank === 4;
+    if (filter === 'weapon') return row.isWeapon;
+    return true;
+  });
+}
+
+function gtRenderResultsView(ctx){
+  const {
+    banners, gameKey, bannerByKey, characterView, allFives, totalAll, eventFives, eventWins, eventLosses,
+    avgPity, currentState, currentLimited, bannerGroups, pityBanners, archiveRows, characterArchive,
+    weaponArchive, archiveSort, archiveFilter, viewMode, expandedSource, pityFilter, setArchiveSort,
+    setArchiveFilter, setViewMode, setExpandedSource, setPityFilter, reset, fmt, PULLS, CUR, COST, uid, data,
+  } = ctx;
+  return (
+    <div className="gt-results">
+      <div className="gt-results-top">
+        <button type="button" className="gt-import-tab" onClick={reset}>Import</button>
+        <div className="gt-mode-tabs" role="tablist" aria-label="Wish tracker views">
+          <button type="button" className={viewMode === 'overview' ? 'on' : ''} onClick={() => setViewMode('overview')}>Overview</button>
+          <button type="button" className={viewMode === 'archive' ? 'on' : ''} onClick={() => setViewMode('archive')}>Archive</button>
+        </div>
+        <div className="gt-uid">{uid || data.uid ? 'UID ' + (uid || data.uid) : 'Local history'}</div>
+      </div>
+
+      <div className="gt-stat-strip compact">
+        <div><b>{fmt(totalAll)}</b><span>Total {PULLS}</span></div>
+        <div><b>{fmt((characterView && characterView.total) || 0)}</b><span>Character {PULLS}</span></div>
+        <div><b>{characterView ? characterView.currentPity : '--'}</b><span>Current pity</span></div>
+        <div><b>{currentState}</b><span>Event state</span></div>
+        <div><b>{eventWins}/{eventLosses}</b><span>50:50 W / L</span></div>
+        <div><b>{avgPity || '--'}</b><span>Avg 5{'\u2605'} pity</span></div>
+      </div>
+
+      {viewMode === 'overview' ? (
+        <div className="gt-overview-grid">
+          <section className="gt-panel-box gt-ledger-card">
+            <div className="gt-box-head"><b>Chase Ledger</b><span>{fmt(totalAll * COST)} {CUR}</span></div>
+            <div className="gt-ledger-line">
+              <div><span>Event wins</span><b>{eventWins}</b></div>
+              <div><span>Event losses</span><b>{eventLosses}</b></div>
+              <div><span>5{'\u2605'} total</span><b>{allFives.length}</b></div>
+            </div>
+            <div className="gt-ledger-current">
+              <span>{characterView && characterView.ff ? (characterView.guaranteed ? 'Next event 5-star is guaranteed' : 'Next event 5-star is a 50:50') : 'No event guarantee state'}</span>
+              <i>{characterView ? Math.max(0, ((characterView.hard || 90) - (characterView.currentPity || 0))) : 0} pulls to hard pity</i>
+            </div>
+          </section>
+
+          <section className="gt-panel-box gt-current-limited">
+            <div className="gt-box-head"><b>Current limited banners</b><span>{currentLimited.length || 0} active</span></div>
+            <div className="gt-limited-grid">
+              {currentLimited.map((card) => (
+                <article key={card.name} className="gt-limited-card" style={(card.art || card.icon) ? gtBg(card.art || card.icon) : undefined}>
+                  <div className="gt-limited-fade"></div>
+                  <div className="gt-limited-copy">
+                    <b>{card.name}</b>
+                    <span>{card.version ? 'Version ' + card.version : gtFmtDate(card.start)}</span>
+                  </div>
+                  <div className="gt-limited-rateups">
+                    {(card.fourStars || []).slice(0, 3).map((four) => <i key={four.name}>{four.name}</i>)}
+                  </div>
+                </article>
+              ))}
+              {currentLimited.length === 0 && <div className="gt-empty-row">No current limited banner metadata found.</div>}
+            </div>
+          </section>
+
+          <section className="gt-panel-box gt-recent-pulls">
+            <div className="gt-box-head"><b>Recent Pulls</b><span>All 5{'\u2605'} banners</span></div>
+            <div className="gt-recent-five-list">
+              {allFives.map((row) => {
+                const b = bannerByKey[row.bannerKey] || { label:row.bannerLabel, soft:row.bannerSoft, hard:row.bannerHard, ff:row.bannerFf };
+                const period = gtPeriodForBannerKey(gameKey, row.bannerKey, row.time || 0);
+                const bannerName = gtBannerPeriodLabel(gameKey, period) || row.sourceBanner || row.bannerLabel;
+                return (
+                  <div key={(row.id || row.idx) + ':' + row.bannerKey + ':' + row.name} className="gt-recent-five-row">
+                    {(row.icon || row.art) ? <img src={row.icon || row.art} alt="" loading="lazy" /> : <span className="gt-img-fallback"></span>}
+                    <div>
+                      <b>{row.name}</b>
+                      <span>{row.isWeapon ? 'Weapon' : 'Character'} / {bannerName} / {gtFmtDate(row.time)}</span>
+                    </div>
+                    <em className={gtPullOutcomeClass(row, b).replace(/\s+/g, '-')}>{gtPullOutcome(row, b)}</em>
+                    <i>Pity {row.pity || row.pity5 || '-'}</i>
+                  </div>
+                );
+              })}
+              {allFives.length === 0 && <div className="gt-empty-row">No 5-star pulls recorded yet.</div>}
+            </div>
+          </section>
+
+          <section className="gt-panel-box gt-banner-history">
+            <div className="gt-box-head"><b>Banner history</b><span>Click to expand</span></div>
+            <div className="gt-banner-history-list">
+              {bannerGroups.map((group) => {
+                const openGroup = expandedSource === group.key;
+                const groupBanner = bannerByKey[group.bannerKey] || { label:group.bannerLabel, ff:false };
+                const paired = group.pairedWeapons || [];
+                const detailFives = (group.fives || []).map((f) => Object.assign({ _banner:groupBanner, _source:group }, f))
+                  .concat(paired.flatMap((wg) => (wg.fives || []).map((f) => Object.assign({ _banner:bannerByKey[wg.bannerKey] || { label:wg.bannerLabel, ff:false }, _source:wg }, f))))
+                  .sort((a, b) => (b.time || 0) - (a.time || 0) || (b.idx || 0) - (a.idx || 0));
+                return (
+                  <article key={group.key} className={'gt-banner-history-row' + (openGroup ? ' open' : '')}>
+                    <button type="button" onClick={() => setExpandedSource(openGroup ? '' : group.key)}>
+                      <div className="gt-banner-history-main">
+                        <b>{group.displayName || group.label}</b>
+                        <span>{gtBannerKindLabel(group.bannerKey, group.bannerLabel)} / {gtFmtDate(group.lastTime)}</span>
+                      </div>
+                      <div className="gt-banner-history-meta">
+                        <span>{fmt(group.total || 0)} {PULLS}</span>
+                        <span>{group.fiveCount || 0}x 5{'\u2605'}</span>
+                        <span>{group.fourCount || 0}x 4{'\u2605'}</span>
+                      </div>
+                    </button>
+                    {paired.length > 0 && (
+                      <div className="gt-paired-weapon">
+                        {paired.map((wg) => <span key={wg.key}>Weapon pair: {wg.displayName || wg.label} ({fmt(wg.total || 0)} {PULLS})</span>)}
+                      </div>
+                    )}
+                    {openGroup && (
+                      <div className="gt-banner-history-detail">
+                        {detailFives.map((five) => (
+                          <div key={(five.id || five.idx) + ':' + five._source.key + ':' + five.name}>
+                            {(five.icon || five.art) ? <img src={five.icon || five.art} alt="" loading="lazy" /> : <span className="gt-img-fallback"></span>}
+                            <b>{five.name}</b>
+                            <span>{five.isWeapon ? 'Weapon' : 'Character'} / {five._source.bannerKind}</span>
+                            <em className={gtPullOutcomeClass(five, five._banner).replace(/\s+/g, '-')}>{gtPullOutcome(five, five._banner)}</em>
+                            <i>Pity {five.pity || five.pity5 || '-'}</i>
+                          </div>
+                        ))}
+                        {detailFives.length === 0 && <div className="gt-empty-row">No 5-star pulls on this banner.</div>}
+                      </div>
+                    )}
+                  </article>
+                );
+              })}
+              {bannerGroups.length === 0 && <div className="gt-empty-row">No banner history rows yet.</div>}
+            </div>
+          </section>
+
+          <section className="gt-panel-box gt-pity-observatory">
+            <div className="gt-box-head"><b>Pity observatory</b><span>Character / Weapon / Standard / Chronicled</span></div>
+            <div className="gt-pity-filters" role="group" aria-label="Pity filters">
+              {[
+                ['all', 'All'],
+                ['guaranteed', 'Guaranteed'],
+                ['fifty', '50:50'],
+                ['early', 'Early'],
+                ['soft', 'Soft+'],
+              ].map((pair) => <button key={pair[0]} type="button" className={pityFilter === pair[0] ? 'on' : ''} onClick={() => setPityFilter(pair[0])}>{pair[1]}</button>)}
+            </div>
+            <div className="gt-pity-lanes">
+              {pityBanners.map((banner) => {
+                const laneFives = (banner.fives || []).filter((five) => gtPityFilterMatch(five, banner, pityFilter));
+                const hard = banner.hard || 90;
+                const soft = banner.soft || 74;
+                return (
+                  <div key={banner.key} className="gt-pity-lane">
+                    <div className="gt-pity-lane-label">
+                      <b>{banner.label}</b>
+                      <span>{laneFives.length}/{(banner.fives || []).length}</span>
+                    </div>
+                    <div className="gt-pity-track">
+                      <mark style={{ left:Math.min(100, (soft / hard) * 100) + '%' }}></mark>
+                      {laneFives.map((five, idx) => (
+                        <i key={(five.id || idx) + ':' + five.name}
+                           className={gtPityDotClass(five, banner)}
+                           style={{ left:Math.max(2, Math.min(98, (((five.pity || five.pity5 || 0) / hard) * 100))) + '%' }}
+                           title={five.name + ' / ' + gtPullOutcome(five, banner) + ' / pity ' + (five.pity || five.pity5 || '-')}></i>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+            <div className="gt-pity-legend">
+              <span className="early">Early</span>
+              <span className="soft">Soft+</span>
+              <span className="guaranteed">Guaranteed</span>
+              <span className="fifty">50:50</span>
+            </div>
+          </section>
+        </div>
+      ) : (
+        <div className="gt-archive-view">
+          <section className="gt-panel-box gt-archive-console">
+            <div className="gt-box-head"><b>Archive console</b><span>{archiveRows.length} entries</span></div>
+            <div className="gt-archive-tools">
+              <select value={archiveSort} onChange={(e) => setArchiveSort(e.target.value)} aria-label="Sort archive">
+                <option value="copies">Most copies</option>
+                <option value="recent">Most recent</option>
+                <option value="rarity">Rarity</option>
+                <option value="name">Name</option>
+              </select>
+              <div className="gt-filter-pills" role="group" aria-label="Archive filter">
+                {[
+                  ['all', 'All'],
+                  ['c6', 'C6/R5+'],
+                  ['5', '5\u2605'],
+                  ['4', '4\u2605'],
+                ].map((pair) => <button key={pair[0]} type="button" className={archiveFilter === pair[0] ? 'on' : ''} onClick={() => setArchiveFilter(pair[0])}>{pair[1]}</button>)}
+              </div>
+            </div>
+            <div className="gt-archive-grid expanded">
+              {archiveRows.map((rec) => (
+                <article key={rec.key} className={'gt-archive-card r' + rec.rank}>
+                  {(rec.icon || rec.art) ? <img src={rec.icon || rec.art} alt="" loading="lazy" /> : <span className="gt-img-fallback"></span>}
+                  <b>{rec.name}</b>
+                  <i>{gtCopyMark(rec)}</i>
+                  <em>{rec.copies} copies</em>
+                </article>
+              ))}
+              {archiveRows.length === 0 && <div className="gt-empty-row">No archive entries for this filter.</div>}
+            </div>
+          </section>
+          <section className="gt-panel-box gt-archive-side">
+            <div className="gt-box-head"><b>Copy overview</b><span>Characters / weapons</span></div>
+            <div className="gt-total-strip archive">
+              {characterArchive.concat(weaponArchive).map((rec) => (
+                <div key={rec.key} className="gt-total-unit">
+                  {(rec.icon || rec.art) ? <img src={rec.icon || rec.art} alt="" loading="lazy" /> : <span className="gt-img-fallback"></span>}
+                  <b>{rec.name}</b>
+                  <i>{gtCopyMark(rec)}</i>
+                  <em>{rec.copies}</em>
+                </div>
+              ))}
+              {characterArchive.length + weaponArchive.length === 0 && <div className="gt-empty-row">No copy totals yet.</div>}
+            </div>
+          </section>
+        </div>
+      )}
+    </div>
+  );
 }
 
 function GachaTracker({ open, onClose, cfg, inline }){
@@ -59,6 +633,12 @@ function GachaTracker({ open, onClose, cfg, inline }){
   const [progress, setProgress] = React.useState(null);
   const [uid, setUid] = React.useState('');
   const [bannerIdx, setBannerIdx] = React.useState(0);
+  const [archiveSort, setArchiveSort] = React.useState('copies');
+  const [archiveFilter, setArchiveFilter] = React.useState('all');
+  const [historyFilter, setHistoryFilter] = React.useState('all');
+  const [viewMode, setViewMode] = React.useState('overview');
+  const [expandedSource, setExpandedSource] = React.useState('');
+  const [pityFilter, setPityFilter] = React.useState('all');
   const fileRef = React.useRef(null);
 
   // Wrap a single (sample/legacy) view into the multi-banner shape the
@@ -123,11 +703,18 @@ function GachaTracker({ open, onClose, cfg, inline }){
 
   // Import an existing UIGF file (Paimon.moe / Snap Hutao / stardb / …).
   const runImportFile = async (file) => {
-    if (!file || !ADAPT || !STORE || !ADAPT.importFile) return;
+    if (!file || !ADAPT || !STORE || (!ADAPT.importFile && !ADAPT.importExcel)) return;
     setError(''); setProgress(null); setPhase('loading');
     try {
-      const json = JSON.parse(await file.text());
-      const res = ADAPT.importFile(json);
+      const isExcel = /\.xlsx$/i.test(file.name || '') || /spreadsheetml/i.test(file.type || '');
+      let res;
+      if (isExcel) {
+        if (!ADAPT.importExcel) throw new Error('Excel import is not available for this game yet.');
+        res = await ADAPT.importExcel(await file.arrayBuffer());
+      } else {
+        if (!ADAPT.importFile) throw new Error('JSON import is not available for this game yet.');
+        res = ADAPT.importFile(JSON.parse(await file.text()));
+      }
       if (!res || res.error) throw new Error((res && res.error) || 'Could not read that file.');
       if (!res.pulls || !res.pulls.length) throw new Error('No ' + (C.pulls || 'pulls').toLowerCase() + ' for this game in that file.');
       const id = res.uid || 'imported';
@@ -227,13 +814,13 @@ function GachaTracker({ open, onClose, cfg, inline }){
             <button type="button" className="gt-sample" onClick={runSample} disabled={phase === 'loading'}>
               or load sample data {'\u2192'}
             </button>
-            {ADAPT && ADAPT.importFile && (
+            {ADAPT && (ADAPT.importFile || ADAPT.importExcel) && (
               <span>
-                <input ref={fileRef} type="file" accept=".json,application/json" style={{ display:'none' }}
+                <input ref={fileRef} type="file" accept=".json,application/json,.xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" style={{ display:'none' }}
                        onChange={(e) => { const f = e.target.files && e.target.files[0]; e.target.value = ''; runImportFile(f); }} />
                 <button type="button" className="gt-sample" disabled={phase === 'loading'}
                         onClick={() => { if (fileRef.current) fileRef.current.click(); }}>
-                  or import a UIGF file (Paimon.moe, Snap Hutao\u2026) {'\u2192'}
+                  or import JSON / Paimon.moe Excel {'\u2192'}
                 </button>
               </span>
             )}
@@ -242,110 +829,49 @@ function GachaTracker({ open, onClose, cfg, inline }){
 
         {phase === 'results' && data && data.banners && data.banners.length > 0 && (() => {
           const banners = data.banners;
-          const bi = Math.min(bannerIdx, banners.length - 1);
-          const active = banners[bi];
-          const fives = active.fives || [];
-          const ffEvents = fives.filter(f => f.ff);
-          const won = ffEvents.filter(f => f.won).length;
-          const winRate = ffEvents.length ? Math.round((won / ffEvents.length) * 100) : 0;
-          const avgPity = fives.length ? Math.round(fives.reduce((a, f) => a + f.pity, 0) / fives.length) : 0;
-          const spent = active.total * COST;
-          const stream = (active.stream || []).slice(-70);
-          const pct = (k) => active.total ? Math.round((k / active.total) * 100) : 0;
-          const soft = active.soft || 74, hard = active.hard || 90;
-          return (
-            <div className="gt-results">
-              {banners.length > 1 && (
-                <div className="gt-bannertabs">
-                  {banners.map((b, i) => (
-                    <button key={b.key} type="button" className={i === bi ? 'on' : ''} onClick={() => setBannerIdx(i)}>
-                      {b.label}<span>{fmt(b.total)}</span>
-                    </button>
-                  ))}
-                </div>
-              )}
-              <div className="gt-pity">
-                <div className="lbl"><span>Current pity</span><b>{active.currentPity}<i> / {hard}</i></b>
-                  {active.ff && active.guaranteed && <span className="gtag">Guaranteed next</span>}</div>
-                <div className="bar">
-                  <i style={{ width:Math.min(100, (active.currentPity / hard) * 100) + '%' }}></i>
-                  <span className="soft" style={{ left:(soft / hard) * 100 + '%' }} title="Soft pity"></span>
-                </div>
-              </div>
-
-              <div className="gt-stats">
-                <div className="st"><div className="v">{fmt(active.total)}</div><div className="k">Total {PULLS}</div></div>
-                <div className="st"><div className="v">{fmt(spent)}</div><div className="k">{CUR} spent</div></div>
-                <div className="st five"><div className="v">{fives.length}</div><div className="k">5{'\u2605'} pulled</div></div>
-                <div className="st four"><div className="v">{active.fourCount}</div><div className="k">4{'\u2605'} pulled</div></div>
-                <div className="st"><div className="v">{avgPity}</div><div className="k">Avg 5{'\u2605'} pity</div></div>
-                {active.ff
-                  ? <div className="st"><div className="v">{winRate}<i>%</i></div><div className="k">Won 50:50</div></div>
-                  : <div className="st"><div className="v">{pct(fives.length)}<i>%</i></div><div className="k">5{'\u2605'} rate</div></div>}
-              </div>
-
-              <div className="gt-dist">
-                <div className="seg s5" style={{ flex:Math.max(2, fives.length) }}><span>5{'\u2605'} {pct(fives.length)}%</span></div>
-                <div className="seg s4" style={{ flex:Math.max(2, active.fourCount) }}><span>4{'\u2605'} {pct(active.fourCount)}%</span></div>
-                <div className="seg s3" style={{ flex:Math.max(2, active.threeCount) }}><span>3{'\u2605'} {pct(active.threeCount)}%</span></div>
-              </div>
-
-              <div style={{ background:'rgba(13,10,30,.5)', borderRadius:12, padding:'11px 14px', boxShadow:'inset 0 0 0 1px rgba(183,170,255,.14)' }}>
-                <div style={{ fontFamily:"'HSR',sans-serif", fontSize:12, color:'#b3a9e0', letterSpacing:'.04em', marginBottom:8, display:'flex', justifyContent:'space-between' }}>
-                  <span>Pity timeline</span><span style={{ opacity:.55 }}>soft {soft} {'\u00b7 '} hard {hard}</span>
-                </div>
-                {fives.length > 0
-                  ? (() => {
-                      const W = 100, H = 40, n = fives.length, bw = W / n;
-                      const sy = H - (Math.min(soft, hard) / hard) * H;
-                      return (
-                        <svg viewBox={'0 0 ' + W + ' ' + H} preserveAspectRatio="none" style={{ width:'100%', height:66, display:'block' }}>
-                          <line x1="0" y1={sy} x2={W} y2={sy} stroke="rgba(255,205,120,.5)" strokeWidth="0.35" strokeDasharray="1.4 1.1" />
-                          {fives.map((f, i) => {
-                            const h = Math.max(1.2, (Math.min(f.pity, hard) / hard) * H);
-                            const col = !active.ff ? '#9a89ea' : (!f.ff ? '#caa14a' : (f.won ? '#5ad19a' : '#e0607a'));
-                            return <rect key={i} x={i * bw + bw * 0.14} y={H - h} width={bw * 0.72} height={h} rx={Math.min(1, bw * 0.12)} fill={col}><title>{f.name + ' \u2014 pity ' + f.pity}</title></rect>;
-                          })}
-                        </svg>
-                      );
-                    })()
-                  : <div style={{ opacity:.5, fontSize:12, fontFamily:"'HSR',sans-serif" }}>No 5{'\u2605'} yet.</div>}
-              </div>
-
-              <div className="gt-cols">
-                <div className="gt-fives">
-                  <div className="hd">5{'\u2605'} history <span>{fives.length}</span></div>
-                  <div className="lst">
-                    {fives.slice().reverse().map((f, i) => (
-                      <div key={i} className="row">
-                        {(f.icon || f.art)
-                          ? <img src={f.icon || f.art} alt="" loading="lazy"
-                                 style={{ width:30, height:30, borderRadius:'50%', objectFit:'cover', flex:'0 0 auto', background:'rgba(255,255,255,.06)' }} />
-                          : <span aria-hidden="true"
-                                  style={{ width:30, height:30, borderRadius:'50%', flex:'0 0 auto',
-                                           background: f.isWeapon ? 'linear-gradient(135deg,#b98a3e,#6c4f1c)' : 'linear-gradient(135deg,#caa14a,#7a5c1e)' }}></span>}
-                        <span className="nm">{f.name}{f.el ? <i style={{ opacity:.55, marginLeft:6, fontStyle:'normal' }}>{'\u00b7 ' + f.el}</i> : null}</span>
-                        <span className={'fz ' + (f.pity >= soft ? 'hi' : f.pity <= 35 ? 'lo' : '')}>Pity {f.pity}</span>
-                        {active.ff
-                          ? (f.ff
-                              ? <span className={'res ' + (f.won ? 'win' : 'lose')}>{f.won ? 'Won 50:50' : 'Lost 50:50'}</span>
-                              : <span className="res gtd">Guaranteed</span>)
-                          : null}
-                      </div>
-                    ))}
-                    {fives.length === 0 && <div className="row" style={{ opacity:.55 }}>No 5{'\u2605'} on this banner yet.</div>}
-                  </div>
-                </div>
-                <div className="gt-stream">
-                  <div className="hd">Recent {PULLS.toLowerCase()} <span>last {stream.length}</span></div>
-                  <div className="pips">
-                    {stream.map((r, i) => <span key={i} className={'pip r' + r} title={r + '\u2605'}></span>)}
-                  </div>
-                  <button type="button" className="gt-reset" onClick={reset}>Re-import history</button>
-                </div>
-              </div>
-            </div>
-          );
+          const gameKey = C.key || 'gi';
+          const bannerByKey = {};
+          banners.forEach((b) => { bannerByKey[b.key] = b; });
+          const characterView = banners.find((b) => b.key === 'character') || banners[0];
+          const weaponView = banners.find((b) => b.key === 'weapon' || b.key === 'lightcone' || b.key === 'wengine' || b.key === 'standard_wpn')
+            || { key:'weapon', label:'Weapon', soft:63, hard:80, ff:false, total:0, fives:[] };
+          const standardView = banners.find((b) => b.key === 'standard')
+            || { key:'standard', label:'Standard', soft:74, hard:90, ff:false, total:0, fives:[] };
+          const chronicledView = banners.find((b) => b.key === 'chronicled')
+            || { key:'chronicled', label:'Chronicled', soft:74, hard:90, ff:true, total:0, fives:[] };
+          const totalAll = banners.reduce((sum, b) => sum + (b.total || 0), 0);
+          const allFives = banners.flatMap((b) => (b.fives || []).map((f) => Object.assign({}, f, {
+            bannerKey:b.key,
+            bannerLabel:b.label,
+            bannerSoft:b.soft,
+            bannerHard:b.hard,
+            bannerFf:b.ff,
+          })))
+            .sort((a, b) => (b.time || 0) - (a.time || 0) || (b.idx || 0) - (a.idx || 0));
+          const eventFives = (characterView && characterView.fives) || [];
+          const fiftyEvents = eventFives.filter((f) => f.ff);
+          const eventWins = fiftyEvents.filter((f) => f.won).length;
+          const eventLosses = fiftyEvents.filter((f) => !f.won).length;
+          const avgPity = allFives.length ? Math.round(allFives.reduce((sum, f) => sum + (f.pity || f.pity5 || 0), 0) / allFives.length) : 0;
+          const currentState = characterView && characterView.ff ? (characterView.guaranteed ? 'Guaranteed' : '50:50') : 'Fixed pool';
+          const currentLimited = gtCurrentLimitedFeatures(gameKey, eventFives.slice().reverse());
+          const bannerGroups = gtPairSourceGroups(gameKey, banners);
+          const pityBanners = [characterView, weaponView, standardView, chronicledView].filter(Boolean);
+          const archiveBase = gtMergeArchive(banners);
+          const archiveRows = gtSortArchive(archiveBase.filter((rec) => {
+            if (archiveFilter === '5') return rec.rank === 5;
+            if (archiveFilter === '4') return rec.rank === 4;
+            if (archiveFilter === 'c6') return rec.kind === 'weapon' ? (rec.copies || 0) >= 5 : (rec.copies || 0) >= 7;
+            return true;
+          }), archiveSort);
+          const characterArchive = gtSortArchive(gtMergeArchive(banners, 'character'), 'copies').slice(0, 10);
+          const weaponArchive = gtSortArchive(gtMergeArchive(banners, 'weapon'), 'copies').slice(0, 8);
+          return gtRenderResultsView({
+            banners, gameKey, bannerByKey, characterView, allFives, totalAll, eventFives, eventWins, eventLosses,
+            avgPity, currentState, currentLimited, bannerGroups, pityBanners, archiveRows, characterArchive,
+            weaponArchive, archiveSort, archiveFilter, viewMode, expandedSource, pityFilter, setArchiveSort,
+            setArchiveFilter, setViewMode, setExpandedSource, setPityFilter, reset, fmt, PULLS, CUR, COST, uid, data,
+          });
         })()}
       </div>
     </div>

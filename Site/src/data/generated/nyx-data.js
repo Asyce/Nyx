@@ -4,19 +4,19 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-06-24T02:52:29.413Z",
+  "generatedAt": "2026-06-29T12:14:20.678Z",
   "providers": {
-    "Prydwen": "2026-06-22T21:01:58.312Z",
+    "Prydwen": "2026-06-27T08:12:03.413Z",
     "Nanoka": {
       "gi": "6.6",
       "hsr": "4.3",
       "ww": "3.4",
       "zzz": "3.0"
     },
-    "EndfieldWiki": "2026-06-22T21:03:44.232Z"
+    "EndfieldWiki": "2026-06-27T08:13:55.725Z"
   },
   "codes": {
-    "updated": "2026-06-22T20:55:49.647Z",
+    "updated": "2026-06-28T04:49:06.001Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -29,10 +29,24 @@ var NYX_DB = {
             "needle": "primogem",
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-06-22",
+          "added": "2026-06-28",
           "firstSeen": "2026-06-13T20:18:32.371Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MAGENICOLESPUZZLE",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MAGENICOLESPUZZLE"
+        },
+        {
+          "code": "NMI20MAJGIBP",
+          "reward": "Primogem x 20, Geode of Replication x 160",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-06-28",
+          "firstSeen": "2026-06-13T20:18:32.371Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=NMI20MAJGIBP",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=NMI20MAJGIBP"
         },
         {
           "code": "PFY1S40I88T9",
@@ -43,23 +57,23 @@ var NYX_DB = {
             "needle": "primogem",
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-06-22",
+          "added": "2026-06-28",
           "firstSeen": "2026-06-20T23:42:46.446Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9"
         },
         {
           "code": "LEGEDILJKSGM",
-          "reward": "60 Primogem, 5 Adventurer's Experience",
+          "reward": "60 Primogems and Five Adventurer S Experience",
           "premium": true,
           "premiumCurrency": {
             "name": "Primogems",
             "needle": "primogem",
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-06-21",
+          "added": "2026-06-25",
           "firstSeen": "2026-06-22T20:55:49.647Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM"
         },
         {
@@ -75,37 +89,37 @@ var NYX_DB = {
           "firstSeen": "2026-06-13T20:18:32.371Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L"
-        },
-        {
-          "code": "NMI20MAJGIBP",
-          "reward": "20 Primogems and 160 Geodes Of Replication",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-05-29",
-          "firstSeen": "2026-06-13T20:18:32.371Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=NMI20MAJGIBP",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=NMI20MAJGIBP"
-        },
-        {
-          "code": "YMYD76U85Z1U",
-          "reward": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-05-29",
-          "firstSeen": "2026-06-13T20:18:32.371Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=YMYD76U85Z1U",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=YMYD76U85Z1U"
         }
       ],
       "hsr": [
+        {
+          "code": "4TKSX77Y58QK",
+          "reward": "30 stellar jade, three traveler's guides, five condensed aether, four lost gold fragments, and 20k credits",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-06-28",
+          "firstSeen": "2026-06-13T20:18:18.521Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
+        },
+        {
+          "code": "5S6ZHRWTDNJB",
+          "reward": "60 stellar jade",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-06-28",
+          "firstSeen": "2026-06-28T04:49:06.001Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
+        },
         {
           "code": "CREATIONNYMPH",
           "reward": "60 stellar jade and one fuel",
@@ -115,7 +129,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-06-22",
+          "added": "2026-06-28",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH"
@@ -129,7 +143,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-06-22",
+          "added": "2026-06-28",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL"
@@ -143,7 +157,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-06-22",
+          "added": "2026-06-28",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS"
@@ -157,7 +171,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-06-22",
+          "added": "2026-06-28",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
@@ -171,7 +185,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-06-22",
+          "added": "2026-06-28",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
@@ -189,34 +203,6 @@ var NYX_DB = {
           "firstSeen": "2026-06-13T20:18:18.521Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=BladeFitCheck",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=BladeFitCheck"
-        },
-        {
-          "code": "4TKSX77Y58QK",
-          "reward": "30 Stellar Jade, Three Traveler S Guides, Five Condensed Aether, Four Lost Gold Fragments, and 20k Credits",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-05-26",
-          "firstSeen": "2026-06-13T20:18:18.521Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
-        },
-        {
-          "code": "5S6ZHRWTDNJB",
-          "reward": "60 Stellar Jade",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-05-26",
-          "firstSeen": "2026-06-13T20:18:18.521Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
         }
       ],
       "zzz": [
@@ -229,7 +215,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-06-22",
+          "added": "2026-06-28",
           "firstSeen": "2026-06-20T23:42:44.037Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
@@ -289,44 +275,154 @@ var NYX_DB = {
           "firstSeen": "2026-06-13T20:18:20.166Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
+        },
+        {
+          "code": "BEYONDTHECLOUDS",
+          "reward": "300 Polychromes, 30k Dennies, Two Senior Investigation Logs, and Three W Engine Energy Modules",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-06-06",
+          "firstSeen": "2026-06-25T15:11:40.186Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=BEYONDTHECLOUDS",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=BEYONDTHECLOUDS"
         }
       ],
-      "wuwa": []
+      "wuwa": [
+        {
+          "code": "INTOTHEFOG",
+          "reward": "100 Astrite, 2 Forgery Premium Supply, and 20000 Shell Credit",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Astrite",
+            "needle": "astrite",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zcpq_UI.webp"
+          },
+          "added": "2026-06-26",
+          "firstSeen": "2026-06-26T17:34:25.968Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=INTOTHEFOG",
+          "redeemUrl": null
+        },
+        {
+          "code": "MECHANISMCITY",
+          "reward": "100 Astrite, Four Resonance Potion, and Five Advanced Energy Core",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Astrite",
+            "needle": "astrite",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zcpq_UI.webp"
+          },
+          "added": "2026-06-26",
+          "firstSeen": "2026-06-26T17:34:25.968Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=MECHANISMCITY",
+          "redeemUrl": null
+        },
+        {
+          "code": "REUNION",
+          "reward": "100 Astrite, 20 Premium Tuners, and Five Advanced Sealed Tubes",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Astrite",
+            "needle": "astrite",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zcpq_UI.webp"
+          },
+          "added": "2026-06-26",
+          "firstSeen": "2026-06-26T17:34:25.968Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=REUNION",
+          "redeemUrl": null
+        }
+      ],
+      "ae": [
+        {
+          "code": "ZAU2SYXHWX5L4ZH",
+          "reward": "5k T Creds and Ten Arms Insp Kits",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Oroberyl",
+            "needle": "oroberyl",
+            "aliases": [
+              "originium"
+            ],
+            "icon": null
+          },
+          "added": "2026-05-05",
+          "firstSeen": "2026-06-27T02:44:42.442Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ZAU2SYXHWX5L4ZH",
+          "redeemUrl": null
+        },
+        {
+          "code": "ENDFIELD4PC",
+          "reward": "Two Advanced Combat Records, Two Arms Insp Kits, and 13k T Creds Pc Only",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Oroberyl",
+            "needle": "oroberyl",
+            "aliases": [
+              "originium"
+            ],
+            "icon": null
+          },
+          "added": "2026-05-03",
+          "firstSeen": "2026-06-27T02:44:42.442Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELD4PC",
+          "redeemUrl": null
+        },
+        {
+          "code": "ENDFIELDGIFT",
+          "reward": "150 Oroberyl, 20 Intermediate Combat Records, 20 Arms Insp Kits, and 10k T Creds",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Oroberyl",
+            "needle": "oroberyl",
+            "aliases": [
+              "originium"
+            ],
+            "icon": null
+          },
+          "added": "2026-05-03",
+          "firstSeen": "2026-06-27T02:44:42.442Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELDGIFT",
+          "redeemUrl": null
+        }
+      ]
     }
   },
   "banners": {
-    "updated": "2026-06-22T20:55:50.876Z",
-    "checkedAt": "2026-06-22T20:55:50.876Z",
+    "updated": "2026-06-28T00:58:02.265Z",
+    "checkedAt": "2026-06-28T04:48:55.144Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-06-22T20:55:50.876Z",
-          "lastSuccessfulFetch": "2026-06-22T20:55:50.876Z",
-          "lastValidUpdate": "2026-06-22T20:55:50.876Z",
-          "source": "game8"
+          "status": "stale",
+          "checkedAt": "2026-06-28T04:48:55.144Z",
+          "lastSuccessfulFetch": "2026-06-28T00:58:02.265Z",
+          "lastValidUpdate": "2026-06-28T00:58:02.265Z",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "4.3",
           "start": null,
-          "end": "2026-06-24T16:00:00.000Z",
+          "end": "2026-07-14T16:00:00.000Z",
           "characters": [
             {
-              "name": "Mortenax Blade",
-              "icon": "../../Database/Nanoka/hsr/assets/characters/round/1507.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1507.webp",
+              "name": "Cyrene",
+              "icon": "../../Database/Nanoka/hsr/assets/characters/round/1415.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1415.webp",
               "iconZoom": false,
-              "art": "../../Database/Prydwen/hsr/assets/characters/mortenax-blade-def9f0bdd69e.webp",
+              "art": "../../Database/Prydwen/hsr/assets/characters/cyrene-c68f58cf71c5.webp",
               "namecard": null,
               "rarity": 5
             },
             {
-              "name": "Yao Guang",
-              "icon": "../../Database/Nanoka/hsr/assets/characters/round/1502.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1502.webp",
+              "name": "Phainon",
+              "icon": "../../Database/Nanoka/hsr/assets/characters/round/1408.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1408.webp",
               "iconZoom": false,
-              "art": "../../Database/Prydwen/hsr/assets/characters/yao-guang-116e442805a2.webp",
+              "art": "../../Database/Prydwen/hsr/assets/characters/phainon-99688b617211.webp",
               "namecard": null,
               "rarity": 5
             },
@@ -351,42 +447,17 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
-        "next": {
-          "phase": "4.3 Phase 2",
-          "start": "2026-06-24T16:00:00.000Z",
-          "end": "2026-07-14T16:00:00.000Z",
-          "characters": [
-            {
-              "name": "Cyrene",
-              "icon": "../../Database/Nanoka/hsr/assets/characters/round/1415.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1415.webp",
-              "iconZoom": false,
-              "art": "../../Database/Prydwen/hsr/assets/characters/cyrene-c68f58cf71c5.webp",
-              "namecard": null,
-              "rarity": 5
-            },
-            {
-              "name": "Phainon",
-              "icon": "../../Database/Nanoka/hsr/assets/characters/round/1408.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1408.webp",
-              "iconZoom": false,
-              "art": "../../Database/Prydwen/hsr/assets/characters/phainon-99688b617211.webp",
-              "namecard": null,
-              "rarity": 5
-            }
-          ],
-          "subBanners": []
-        },
+        "next": null,
         "upcoming": []
       },
       "gi": {
         "name": "Genshin Impact",
         "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-06-22T20:55:50.876Z",
-          "lastSuccessfulFetch": "2026-06-22T20:55:50.876Z",
-          "lastValidUpdate": "2026-06-22T20:55:50.876Z",
-          "source": "game8"
+          "status": "stale",
+          "checkedAt": "2026-06-28T04:48:55.144Z",
+          "lastSuccessfulFetch": "2026-06-28T00:58:02.265Z",
+          "lastValidUpdate": "2026-06-28T00:58:02.265Z",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "6.6 Phase 2",
@@ -463,24 +534,138 @@ var NYX_DB = {
       "wuwa": {
         "name": "Wuthering Waves",
         "freshness": {
-          "status": "unavailable",
-          "checkedAt": "2026-06-22T20:55:50.876Z",
-          "lastSuccessfulFetch": "2026-06-22T20:55:50.876Z",
+          "status": "invalid",
+          "checkedAt": "2026-06-28T04:48:55.144Z",
+          "lastSuccessfulFetch": "2026-06-28T00:58:02.265Z",
           "lastValidUpdate": null,
-          "source": "game8"
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": null,
-        "next": null,
-        "upcoming": []
+        "next": {
+          "phase": null,
+          "start": "2026-07-10T10:00:00.000Z",
+          "end": "2026-07-31T10:00:00.000Z",
+          "characters": [
+            {
+              "name": "Lynae",
+              "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_60_UI.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/Prydwen/ww/assets/characters/lynae-2900407f5a79.webp",
+              "namecard": null,
+              "rarity": 5
+            },
+            {
+              "name": "Luuk Herssen",
+              "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_54_UI.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/Prydwen/ww/assets/characters/luuk-herssen-5652dfe8996d.webp",
+              "namecard": null,
+              "rarity": 5
+            },
+            {
+              "name": "Danjin",
+              "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_10_UI.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/Prydwen/ww/assets/characters/danjin-f5c38f132cf5.webp",
+              "namecard": null,
+              "rarity": 4
+            }
+          ],
+          "subBanners": []
+        },
+        "upcoming": [
+          {
+            "phase": null,
+            "start": "2026-07-10T10:00:00.000Z",
+            "end": "2026-08-20T10:00:00.000Z",
+            "characters": [
+              {
+                "name": "Jiyan",
+                "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_11_UI.webp",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/Prydwen/ww/assets/characters/jiyan-f77f8a07880e.webp",
+                "namecard": null,
+                "rarity": 5
+              },
+              {
+                "name": "Yinlin",
+                "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_17_UI.webp",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/Prydwen/ww/assets/characters/yinlin-c9f7f0f5bff7.webp",
+                "namecard": null,
+                "rarity": 5
+              },
+              {
+                "name": "Jinhsi",
+                "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_24_UI.webp",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/Prydwen/ww/assets/characters/jinhsi-5b27fbfe30f2.webp",
+                "namecard": null,
+                "rarity": 5
+              },
+              {
+                "name": "Changli",
+                "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_26_UI.webp",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/Prydwen/ww/assets/characters/changli-dc0ce1974c67.webp",
+                "namecard": null,
+                "rarity": 5
+              },
+              {
+                "name": "Zhezhi",
+                "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_27_UI.webp",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/Prydwen/ww/assets/characters/zhezhi-1c6bb925a9a4.webp",
+                "namecard": null,
+                "rarity": 5
+              },
+              {
+                "name": "Xiangli Yao",
+                "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_25_UI.webp",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/Prydwen/ww/assets/characters/xiangli-yao-de2311c30de7.webp",
+                "namecard": null,
+                "rarity": 5
+              }
+            ],
+            "subBanners": []
+          },
+          {
+            "phase": null,
+            "start": "2026-07-31T10:00:00.000Z",
+            "end": "2026-08-20T10:00:00.000Z",
+            "characters": [
+              {
+                "name": "Aemeath",
+                "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_53_UI.webp",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/Prydwen/ww/assets/characters/aemeath-c3afbd3131bd.webp",
+                "namecard": null,
+                "rarity": 5
+              }
+            ],
+            "subBanners": []
+          }
+        ]
       },
       "zzz": {
         "name": "Zenless Zone Zero",
         "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-06-22T20:55:50.876Z",
-          "lastSuccessfulFetch": "2026-06-22T20:55:50.876Z",
-          "lastValidUpdate": "2026-06-22T20:55:50.876Z",
-          "source": "game8"
+          "status": "stale",
+          "checkedAt": "2026-06-28T04:48:55.144Z",
+          "lastSuccessfulFetch": "2026-06-28T00:58:02.265Z",
+          "lastValidUpdate": "2026-06-28T00:58:02.265Z",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": null,
@@ -540,10 +725,10 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "unavailable",
-          "checkedAt": "2026-06-22T20:55:50.876Z",
-          "lastSuccessfulFetch": "2026-06-22T20:55:50.876Z",
+          "checkedAt": "2026-06-28T04:48:55.144Z",
+          "lastSuccessfulFetch": "2026-06-28T00:58:02.265Z",
           "lastValidUpdate": null,
-          "source": "game8"
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": null,
         "next": null,
@@ -4216,10 +4401,24 @@ var NYX_DB = {
             "needle": "primogem",
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-06-22",
+          "added": "2026-06-28",
           "firstSeen": "2026-06-13T20:18:32.371Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MAGENICOLESPUZZLE",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MAGENICOLESPUZZLE"
+        },
+        {
+          "code": "NMI20MAJGIBP",
+          "reward": "Primogem x 20, Geode of Replication x 160",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-06-28",
+          "firstSeen": "2026-06-13T20:18:32.371Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=NMI20MAJGIBP",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=NMI20MAJGIBP"
         },
         {
           "code": "PFY1S40I88T9",
@@ -4230,23 +4429,23 @@ var NYX_DB = {
             "needle": "primogem",
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-06-22",
+          "added": "2026-06-28",
           "firstSeen": "2026-06-20T23:42:46.446Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9"
         },
         {
           "code": "LEGEDILJKSGM",
-          "reward": "60 Primogem, 5 Adventurer's Experience",
+          "reward": "60 Primogems and Five Adventurer S Experience",
           "premium": true,
           "premiumCurrency": {
             "name": "Primogems",
             "needle": "primogem",
             "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
           },
-          "added": "2026-06-21",
+          "added": "2026-06-25",
           "firstSeen": "2026-06-22T20:55:49.647Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM"
         },
         {
@@ -4262,44 +4461,16 @@ var NYX_DB = {
           "firstSeen": "2026-06-13T20:18:32.371Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L"
-        },
-        {
-          "code": "NMI20MAJGIBP",
-          "reward": "20 Primogems and 160 Geodes Of Replication",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-05-29",
-          "firstSeen": "2026-06-13T20:18:32.371Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=NMI20MAJGIBP",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=NMI20MAJGIBP"
-        },
-        {
-          "code": "YMYD76U85Z1U",
-          "reward": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-05-29",
-          "firstSeen": "2026-06-13T20:18:32.371Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=YMYD76U85Z1U",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=YMYD76U85Z1U"
         }
       ],
       "banners": {
         "name": "Genshin Impact",
         "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-06-22T20:55:50.876Z",
-          "lastSuccessfulFetch": "2026-06-22T20:55:50.876Z",
-          "lastValidUpdate": "2026-06-22T20:55:50.876Z",
-          "source": "game8"
+          "status": "stale",
+          "checkedAt": "2026-06-28T04:48:55.144Z",
+          "lastSuccessfulFetch": "2026-06-28T00:58:02.265Z",
+          "lastValidUpdate": "2026-06-28T00:58:02.265Z",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "6.6 Phase 2",
@@ -8505,7 +8676,7 @@ var NYX_DB = {
         {
           "key": "relic-sets",
           "title": "Relic Sets",
-          "updatedText": "04/06/2026",
+          "updatedText": "23/06/2026",
           "source": "Prydwen",
           "count": 58,
           "items": [
@@ -8655,12 +8826,10 @@ var NYX_DB = {
               "fields": {
                 "type": "PLANETARY ORNAMENT SET",
                 "bonuses": [
-                  "(2) When the wearer uses Follow-Up ATK, increases ATK by 24% for 2 turn(s). When an enemy target gets defeated, increases CRIT DMG for all allies by 12% in the current battle. This effect cannot stack.",
-                  "(2) Increases Max HP by 12% .",
-                  "(4) Increases the wearer's CRIT DMG dealt to enemy targets in the DEF reduction state by 28% . After the wearer inflicts the DEF reduction state on an enemy target, all allies gain \"Comburent\" for 2 turn(s). This effect cannot be stacked. The DMG dealt by ally targets with \"Comburent\" increases by 15% . This effect can be triggered again after the wearer uses an attack."
+                  "(2) When the wearer uses Follow-Up ATK, increases ATK by 24% for 2 turn(s). When an enemy target gets defeated, increases CRIT DMG for all allies by 12% in the current battle. This effect cannot stack."
                 ]
               },
-              "text": "City of Converging Stars Type: PLANETARY ORNAMENT SET (2) When the wearer uses Follow-Up ATK, increases ATK by 24% for 2 turn(s). When an enemy target gets defeated, increases CRIT DMG for all allies by 12% in the current battle. This effect cannot stack. Divi",
+              "text": "City of Converging Stars Type: PLANETARY ORNAMENT SET (2) When the wearer uses Follow-Up ATK, increases ATK by 24% for 2 turn(s). When an enemy target gets defeated, increases CRIT DMG for all allies by 12% in the current battle. This effect cannot stack.",
               "status": "live",
               "labels": []
             },
@@ -8669,8 +8838,14 @@ var NYX_DB = {
               "name": "Divine-Querying Master Smith",
               "kind": "relics",
               "art": "../../Database/Prydwen/hsr/assets/relics/divine-querying-master-smith-441039825aff.webp",
-              "fields": {},
-              "text": "",
+              "fields": {
+                "type": "RELIC SET",
+                "bonuses": [
+                  "(2) Increases Max HP by 12% .",
+                  "(4) Increases the wearer's CRIT DMG dealt to enemy targets in the DEF reduction state by 28% . After the wearer inflicts the DEF reduction state on an enemy target, all allies gain \"Comburent\" for 2 turn(s). This effect cannot be stacked. The DMG dealt by ally targets with \"Comburent\" increases by 15% . This effect can be triggered again after the wearer uses an attack."
+                ]
+              },
+              "text": "Divine-Querying Master Smith Type: RELIC SET (2) Increases Max HP by 12% . (4) Increases the wearer's CRIT DMG dealt to enemy targets in the DEF reduction state by 28% . After the wearer inflicts the DEF reduction state on an enemy target, all allies gain \"Com",
               "status": "live",
               "labels": []
             },
@@ -9412,6 +9587,34 @@ var NYX_DB = {
       ],
       "codes": [
         {
+          "code": "4TKSX77Y58QK",
+          "reward": "30 stellar jade, three traveler's guides, five condensed aether, four lost gold fragments, and 20k credits",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-06-28",
+          "firstSeen": "2026-06-13T20:18:18.521Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
+        },
+        {
+          "code": "5S6ZHRWTDNJB",
+          "reward": "60 stellar jade",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-06-28",
+          "firstSeen": "2026-06-28T04:49:06.001Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
+        },
+        {
           "code": "CREATIONNYMPH",
           "reward": "60 stellar jade and one fuel",
           "premium": true,
@@ -9420,7 +9623,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-06-22",
+          "added": "2026-06-28",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH"
@@ -9434,7 +9637,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-06-22",
+          "added": "2026-06-28",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL"
@@ -9448,7 +9651,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-06-22",
+          "added": "2026-06-28",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS"
@@ -9462,7 +9665,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-06-22",
+          "added": "2026-06-28",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
@@ -9476,7 +9679,7 @@ var NYX_DB = {
             "needle": "stellar jade",
             "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
           },
-          "added": "2026-06-22",
+          "added": "2026-06-28",
           "firstSeen": "2026-06-20T23:42:40.844Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
@@ -9494,65 +9697,37 @@ var NYX_DB = {
           "firstSeen": "2026-06-13T20:18:18.521Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=BladeFitCheck",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=BladeFitCheck"
-        },
-        {
-          "code": "4TKSX77Y58QK",
-          "reward": "30 Stellar Jade, Three Traveler S Guides, Five Condensed Aether, Four Lost Gold Fragments, and 20k Credits",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-05-26",
-          "firstSeen": "2026-06-13T20:18:18.521Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK"
-        },
-        {
-          "code": "5S6ZHRWTDNJB",
-          "reward": "60 Stellar Jade",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-05-26",
-          "firstSeen": "2026-06-13T20:18:18.521Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
         }
       ],
       "banners": {
         "name": "Honkai: Star Rail",
         "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-06-22T20:55:50.876Z",
-          "lastSuccessfulFetch": "2026-06-22T20:55:50.876Z",
-          "lastValidUpdate": "2026-06-22T20:55:50.876Z",
-          "source": "game8"
+          "status": "stale",
+          "checkedAt": "2026-06-28T04:48:55.144Z",
+          "lastSuccessfulFetch": "2026-06-28T00:58:02.265Z",
+          "lastValidUpdate": "2026-06-28T00:58:02.265Z",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": "4.3",
           "start": null,
-          "end": "2026-06-24T16:00:00.000Z",
+          "end": "2026-07-14T16:00:00.000Z",
           "characters": [
             {
-              "name": "Mortenax Blade",
-              "icon": "../../Database/Nanoka/hsr/assets/characters/round/1507.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1507.webp",
+              "name": "Cyrene",
+              "icon": "../../Database/Nanoka/hsr/assets/characters/round/1415.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1415.webp",
               "iconZoom": false,
-              "art": "../../Database/Prydwen/hsr/assets/characters/mortenax-blade-def9f0bdd69e.webp",
+              "art": "../../Database/Prydwen/hsr/assets/characters/cyrene-c68f58cf71c5.webp",
               "namecard": null,
               "rarity": 5
             },
             {
-              "name": "Yao Guang",
-              "icon": "../../Database/Nanoka/hsr/assets/characters/round/1502.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1502.webp",
+              "name": "Phainon",
+              "icon": "../../Database/Nanoka/hsr/assets/characters/round/1408.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1408.webp",
               "iconZoom": false,
-              "art": "../../Database/Prydwen/hsr/assets/characters/yao-guang-116e442805a2.webp",
+              "art": "../../Database/Prydwen/hsr/assets/characters/phainon-99688b617211.webp",
               "namecard": null,
               "rarity": 5
             },
@@ -9577,51 +9752,10 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
-        "next": {
-          "phase": "4.3 Phase 2",
-          "start": "2026-06-24T16:00:00.000Z",
-          "end": "2026-07-14T16:00:00.000Z",
-          "characters": [
-            {
-              "name": "Cyrene",
-              "icon": "../../Database/Nanoka/hsr/assets/characters/round/1415.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1415.webp",
-              "iconZoom": false,
-              "art": "../../Database/Prydwen/hsr/assets/characters/cyrene-c68f58cf71c5.webp",
-              "namecard": null,
-              "rarity": 5
-            },
-            {
-              "name": "Phainon",
-              "icon": "../../Database/Nanoka/hsr/assets/characters/round/1408.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1408.webp",
-              "iconZoom": false,
-              "art": "../../Database/Prydwen/hsr/assets/characters/phainon-99688b617211.webp",
-              "namecard": null,
-              "rarity": 5
-            }
-          ],
-          "subBanners": []
-        },
+        "next": null,
         "upcoming": []
       },
       "roster": [
-        {
-          "id": "hsr-yao-guang",
-          "name": "Yao Guang",
-          "aliases": [],
-          "title": "Gleam of a Thousand Plumes",
-          "rarity": 5,
-          "element": "Physical",
-          "role": "Elation",
-          "icon": "../../Database/Nanoka/hsr/assets/characters/round/1502.webp",
-          "art": "../../Database/Prydwen/hsr/assets/characters/yao-guang-116e442805a2.webp",
-          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/23054.webp",
-          "overviewArtPool": [
-            "../../Database/Nanoka/hsr/assets/lightcones/full/23054.webp"
-          ],
-          "forms": []
-        },
         {
           "id": "hsr-evanescia",
           "name": "Evanescia",
@@ -9635,6 +9769,33 @@ var NYX_DB = {
           "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/23058.webp",
           "overviewArtPool": [
             "../../Database/Nanoka/hsr/assets/lightcones/full/23058.webp"
+          ],
+          "forms": []
+        },
+        {
+          "id": "hsr-himeko-nova",
+          "name": "Himeko Nova",
+          "aliases": [],
+          "rarity": 5,
+          "element": "Fire",
+          "role": "Erudition",
+          "icon": "../../Database/Prydwen/hsr/assets/characters/himeko-nova-2a8de327b90f.webp",
+          "art": "../../Database/Prydwen/hsr/assets/characters/himeko-nova-4191fdac6ee2.webp",
+          "forms": []
+        },
+        {
+          "id": "hsr-yao-guang",
+          "name": "Yao Guang",
+          "aliases": [],
+          "title": "Gleam of a Thousand Plumes",
+          "rarity": 5,
+          "element": "Physical",
+          "role": "Elation",
+          "icon": "../../Database/Nanoka/hsr/assets/characters/round/1502.webp",
+          "art": "../../Database/Prydwen/hsr/assets/characters/yao-guang-116e442805a2.webp",
+          "overviewArt": "../../Database/Nanoka/hsr/assets/lightcones/full/23054.webp",
+          "overviewArtPool": [
+            "../../Database/Nanoka/hsr/assets/lightcones/full/23054.webp"
           ],
           "forms": []
         },
@@ -9663,17 +9824,6 @@ var NYX_DB = {
           "role": "Destruction",
           "icon": "../../Database/Prydwen/hsr/assets/characters/gilgamesh-8b85b84d2d9d.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/gilgamesh-7eb51f1144e6.webp",
-          "forms": []
-        },
-        {
-          "id": "hsr-himeko-nova",
-          "name": "Himeko Nova",
-          "aliases": [],
-          "rarity": 5,
-          "element": "Fire",
-          "role": "Erudition",
-          "icon": "../../Database/Prydwen/hsr/assets/characters/himeko-nova-2a8de327b90f.webp",
-          "art": "../../Database/Prydwen/hsr/assets/characters/himeko-nova-4191fdac6ee2.webp",
           "forms": []
         },
         {
@@ -13114,7 +13264,7 @@ var NYX_DB = {
             "needle": "polychrome",
             "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
           },
-          "added": "2026-06-22",
+          "added": "2026-06-28",
           "firstSeen": "2026-06-20T23:42:44.037Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
@@ -13174,16 +13324,30 @@ var NYX_DB = {
           "firstSeen": "2026-06-13T20:18:20.166Z",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
+        },
+        {
+          "code": "BEYONDTHECLOUDS",
+          "reward": "300 Polychromes, 30k Dennies, Two Senior Investigation Logs, and Three W Engine Energy Modules",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-06-06",
+          "firstSeen": "2026-06-25T15:11:40.186Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=BEYONDTHECLOUDS",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=BEYONDTHECLOUDS"
         }
       ],
       "banners": {
         "name": "Zenless Zone Zero",
         "freshness": {
-          "status": "fresh",
-          "checkedAt": "2026-06-22T20:55:50.876Z",
-          "lastSuccessfulFetch": "2026-06-22T20:55:50.876Z",
-          "lastValidUpdate": "2026-06-22T20:55:50.876Z",
-          "source": "game8"
+          "status": "stale",
+          "checkedAt": "2026-06-28T04:48:55.144Z",
+          "lastSuccessfulFetch": "2026-06-28T00:58:02.265Z",
+          "lastValidUpdate": "2026-06-28T00:58:02.265Z",
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
           "phase": null,
@@ -13240,6 +13404,66 @@ var NYX_DB = {
         "upcoming": []
       },
       "roster": [
+        {
+          "id": "zzz-aria",
+          "name": "Aria",
+          "aliases": [],
+          "title": "Kingdom of Delusion",
+          "rarity": "S",
+          "element": "Ether",
+          "role": "Anomaly",
+          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle57.webp",
+          "art": "../../Database/Prydwen/zzz/assets/characters/aria-746e633109ad.webp",
+          "forms": []
+        },
+        {
+          "id": "zzz-burnice",
+          "name": "Burnice",
+          "aliases": [],
+          "title": "An Invitation or Provocation?",
+          "rarity": "S",
+          "element": "Fire",
+          "role": "Anomaly",
+          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle32.webp",
+          "art": "../../Database/Prydwen/zzz/assets/characters/burnice-00756e804618.webp",
+          "forms": []
+        },
+        {
+          "id": "zzz-grace-howard",
+          "name": "Grace",
+          "aliases": [],
+          "title": "A Promise Unbroken",
+          "rarity": "S",
+          "element": "Electric",
+          "role": "Anomaly",
+          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle20.webp",
+          "art": "../../Database/Prydwen/zzz/assets/characters/grace-818f41423b37.webp",
+          "forms": []
+        },
+        {
+          "id": "zzz-nangong-yu",
+          "name": "Nangong Yu",
+          "aliases": [],
+          "title": "Tear Gland Insurance",
+          "rarity": "S",
+          "element": "Ether",
+          "role": "Stun",
+          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle59.webp",
+          "art": "../../Database/Prydwen/zzz/assets/characters/nangong-yu-27f17dc0ec46.webp",
+          "forms": []
+        },
+        {
+          "id": "zzz-vivian",
+          "name": "Vivian",
+          "aliases": [],
+          "title": "Love Like a Bouquet",
+          "rarity": "S",
+          "element": "Ether",
+          "role": "Anomaly",
+          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle41.webp",
+          "art": "../../Database/Prydwen/zzz/assets/characters/vivian-68e896e0a867.webp",
+          "forms": []
+        },
         {
           "id": "zzz-orphie-and-magus",
           "name": "Orphie & Magus",
@@ -13300,18 +13524,6 @@ var NYX_DB = {
           "forms": []
         },
         {
-          "id": "zzz-aria",
-          "name": "Aria",
-          "aliases": [],
-          "title": "Kingdom of Delusion",
-          "rarity": "S",
-          "element": "Ether",
-          "role": "Anomaly",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle57.webp",
-          "art": "../../Database/Prydwen/zzz/assets/characters/aria-746e633109ad.webp",
-          "forms": []
-        },
-        {
           "id": "zzz-astra-yao",
           "name": "Astra Yao",
           "aliases": [],
@@ -13333,18 +13545,6 @@ var NYX_DB = {
           "role": "Rupture",
           "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle53.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/banyue-f74ed4cfb61e.webp",
-          "forms": []
-        },
-        {
-          "id": "zzz-burnice",
-          "name": "Burnice",
-          "aliases": [],
-          "title": "An Invitation or Provocation?",
-          "rarity": "S",
-          "element": "Fire",
-          "role": "Anomaly",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle32.webp",
-          "art": "../../Database/Prydwen/zzz/assets/characters/burnice-00756e804618.webp",
           "forms": []
         },
         {
@@ -13405,18 +13605,6 @@ var NYX_DB = {
           "role": "Attack",
           "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle37.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/evelyn-40cacb3ba05c.webp",
-          "forms": []
-        },
-        {
-          "id": "zzz-grace-howard",
-          "name": "Grace",
-          "aliases": [],
-          "title": "A Promise Unbroken",
-          "rarity": "S",
-          "element": "Electric",
-          "role": "Anomaly",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle20.webp",
-          "art": "../../Database/Prydwen/zzz/assets/characters/grace-818f41423b37.webp",
           "forms": []
         },
         {
@@ -13516,18 +13704,6 @@ var NYX_DB = {
           "forms": []
         },
         {
-          "id": "zzz-nangong-yu",
-          "name": "Nangong Yu",
-          "aliases": [],
-          "title": "Tear Gland Insurance",
-          "rarity": "S",
-          "element": "Ether",
-          "role": "Stun",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle59.webp",
-          "art": "../../Database/Prydwen/zzz/assets/characters/nangong-yu-27f17dc0ec46.webp",
-          "forms": []
-        },
-        {
           "id": "zzz-nekomata",
           "name": "Nekomata",
           "aliases": [],
@@ -13621,18 +13797,6 @@ var NYX_DB = {
           "role": "Stun",
           "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle39.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/trigger-516b78c67182.webp",
-          "forms": []
-        },
-        {
-          "id": "zzz-vivian",
-          "name": "Vivian",
-          "aliases": [],
-          "title": "Love Like a Bouquet",
-          "rarity": "S",
-          "element": "Ether",
-          "role": "Anomaly",
-          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle41.webp",
-          "art": "../../Database/Prydwen/zzz/assets/characters/vivian-68e896e0a867.webp",
           "forms": []
         },
         {
@@ -13884,9 +14048,9 @@ var NYX_DB = {
         {
           "key": "weapons",
           "title": "Weapons",
-          "updatedText": "18/June/2026",
+          "updatedText": "26/June/2026",
           "source": "Prydwen",
-          "count": 118,
+          "count": 120,
           "items": [
             {
               "id": "abyss-surges",
@@ -13989,6 +14153,21 @@ var NYX_DB = {
                 "critRateLv90": "20.2 %"
               },
               "text": "Autumntrace Rarity: 4 \u2605 Type: Broadblade ATK (Lv.90): 412 CRIT Rate (Lv.90): 20.2 %",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "azure-oath",
+              "name": "Azure Oath",
+              "kind": "weapons",
+              "art": "../../Database/Prydwen/ww/assets/weapons/azure-oath-029aca9cad8c.webp",
+              "fields": {
+                "rarity": "5 \u2605",
+                "type": "Sword",
+                "atkLv90": "0",
+                "lv90": "0 %"
+              },
+              "text": "Azure Oath Rarity: 5 \u2605 Type: Sword ATK (Lv.90): 0 (Lv.90): 0 %",
               "status": "live",
               "labels": []
             },
@@ -14342,6 +14521,21 @@ var NYX_DB = {
                 "critRateLv90": "20.3 %"
               },
               "text": "Feather Edge Rarity: 4 \u2605 Type: Sword ATK (Lv.90): 412 CRIT Rate (Lv.90): 20.3 %",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "firstlights-herald",
+              "name": "Firstlight's Herald",
+              "kind": "weapons",
+              "art": "../../Database/Prydwen/ww/assets/weapons/firstlights-herald-10285822b594.webp",
+              "fields": {
+                "rarity": "5 \u2605",
+                "type": "Rectifier",
+                "atkLv90": "0",
+                "lv90": "0 %"
+              },
+              "text": "Firstlight's Herald Rarity: 5 \u2605 Type: Rectifier ATK (Lv.90): 0 (Lv.90): 0 %",
               "status": "live",
               "labels": []
             },
@@ -17416,19 +17610,176 @@ var NYX_DB = {
           ]
         }
       ],
-      "codes": [],
+      "codes": [
+        {
+          "code": "INTOTHEFOG",
+          "reward": "100 Astrite, 2 Forgery Premium Supply, and 20000 Shell Credit",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Astrite",
+            "needle": "astrite",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zcpq_UI.webp"
+          },
+          "added": "2026-06-26",
+          "firstSeen": "2026-06-26T17:34:25.968Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=INTOTHEFOG",
+          "redeemUrl": null
+        },
+        {
+          "code": "MECHANISMCITY",
+          "reward": "100 Astrite, Four Resonance Potion, and Five Advanced Energy Core",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Astrite",
+            "needle": "astrite",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zcpq_UI.webp"
+          },
+          "added": "2026-06-26",
+          "firstSeen": "2026-06-26T17:34:25.968Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=MECHANISMCITY",
+          "redeemUrl": null
+        },
+        {
+          "code": "REUNION",
+          "reward": "100 Astrite, 20 Premium Tuners, and Five Advanced Sealed Tubes",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Astrite",
+            "needle": "astrite",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zcpq_UI.webp"
+          },
+          "added": "2026-06-26",
+          "firstSeen": "2026-06-26T17:34:25.968Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=REUNION",
+          "redeemUrl": null
+        }
+      ],
       "banners": {
         "name": "Wuthering Waves",
         "freshness": {
-          "status": "unavailable",
-          "checkedAt": "2026-06-22T20:55:50.876Z",
-          "lastSuccessfulFetch": "2026-06-22T20:55:50.876Z",
+          "status": "invalid",
+          "checkedAt": "2026-06-28T04:48:55.144Z",
+          "lastSuccessfulFetch": "2026-06-28T00:58:02.265Z",
           "lastValidUpdate": null,
-          "source": "game8"
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": null,
-        "next": null,
-        "upcoming": []
+        "next": {
+          "phase": null,
+          "start": "2026-07-10T10:00:00.000Z",
+          "end": "2026-07-31T10:00:00.000Z",
+          "characters": [
+            {
+              "name": "Lynae",
+              "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_60_UI.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/Prydwen/ww/assets/characters/lynae-2900407f5a79.webp",
+              "namecard": null,
+              "rarity": 5
+            },
+            {
+              "name": "Luuk Herssen",
+              "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_54_UI.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/Prydwen/ww/assets/characters/luuk-herssen-5652dfe8996d.webp",
+              "namecard": null,
+              "rarity": 5
+            },
+            {
+              "name": "Danjin",
+              "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_10_UI.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/Prydwen/ww/assets/characters/danjin-f5c38f132cf5.webp",
+              "namecard": null,
+              "rarity": 4
+            }
+          ],
+          "subBanners": []
+        },
+        "upcoming": [
+          {
+            "phase": null,
+            "start": "2026-07-10T10:00:00.000Z",
+            "end": "2026-08-20T10:00:00.000Z",
+            "characters": [
+              {
+                "name": "Jiyan",
+                "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_11_UI.webp",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/Prydwen/ww/assets/characters/jiyan-f77f8a07880e.webp",
+                "namecard": null,
+                "rarity": 5
+              },
+              {
+                "name": "Yinlin",
+                "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_17_UI.webp",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/Prydwen/ww/assets/characters/yinlin-c9f7f0f5bff7.webp",
+                "namecard": null,
+                "rarity": 5
+              },
+              {
+                "name": "Jinhsi",
+                "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_24_UI.webp",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/Prydwen/ww/assets/characters/jinhsi-5b27fbfe30f2.webp",
+                "namecard": null,
+                "rarity": 5
+              },
+              {
+                "name": "Changli",
+                "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_26_UI.webp",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/Prydwen/ww/assets/characters/changli-dc0ce1974c67.webp",
+                "namecard": null,
+                "rarity": 5
+              },
+              {
+                "name": "Zhezhi",
+                "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_27_UI.webp",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/Prydwen/ww/assets/characters/zhezhi-1c6bb925a9a4.webp",
+                "namecard": null,
+                "rarity": 5
+              },
+              {
+                "name": "Xiangli Yao",
+                "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_25_UI.webp",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/Prydwen/ww/assets/characters/xiangli-yao-de2311c30de7.webp",
+                "namecard": null,
+                "rarity": 5
+              }
+            ],
+            "subBanners": []
+          },
+          {
+            "phase": null,
+            "start": "2026-07-31T10:00:00.000Z",
+            "end": "2026-08-20T10:00:00.000Z",
+            "characters": [
+              {
+                "name": "Aemeath",
+                "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_53_UI.webp",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/Prydwen/ww/assets/characters/aemeath-c3afbd3131bd.webp",
+                "namecard": null,
+                "rarity": 5
+              }
+            ],
+            "subBanners": []
+          }
+        ]
       },
       "roster": [
         {
@@ -17506,6 +17857,15 @@ var NYX_DB = {
               "role": "Sword",
               "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_5_UI.webp",
               "art": "../../Database/Prydwen/ww/assets/characters/rover-aero-e18045d46d04.webp"
+            },
+            {
+              "name": "Rover (Electro)",
+              "label": "Electro",
+              "variant": "Electro",
+              "gender": null,
+              "element": "Electro",
+              "role": "Sword",
+              "icon": null
             }
           ]
         },
@@ -18099,6 +18459,7 @@ var NYX_DB = {
           "id": "ww-suisui",
           "name": "Suisui",
           "aliases": [],
+          "title": "Host of Harmony",
           "rarity": 5,
           "element": "Glacio",
           "role": "Rectifier",
@@ -18133,7 +18494,7 @@ var NYX_DB = {
           "id": "ww-yangyang-xuanling",
           "name": "Yangyang Xuanling",
           "aliases": [],
-          "title": "Yangyang: Xuanling",
+          "title": "Voices of Azure Plume",
           "rarity": 5,
           "element": "Havoc",
           "role": "Sword",
@@ -18151,7 +18512,7 @@ var NYX_DB = {
         {
           "key": "weapons",
           "title": "Weapons",
-          "updatedText": "06/June/2026",
+          "updatedText": "26/June/2026",
           "source": "Prydwen",
           "count": 72,
           "items": [
@@ -18248,10 +18609,10 @@ var NYX_DB = {
                 "type": "Polearm",
                 "baseAtk": "485",
                 "agility": "+ 156",
-                "ultimateGainEff": "+ 46%",
+                "ultimateGainEff": "+ 46.40%",
                 "heatDmgBonus": "+ 11.20%"
               },
-              "text": "Beacon of Duty Rarity: 6 \u2726 Type: Polearm Base ATK: 485 Stat 1 Boost - 9/9 Agility : + 156 Stat 2 Boost - 9/9 Ultimate Gain Eff. : + 46% Passive Boost - 4/9 Heat DMG Bonus : + 11.20% When the wielder's skill applies Heat Infliction , the wielder gains Physical ",
+              "text": "Beacon of Duty Rarity: 6 \u2726 Type: Polearm Base ATK: 485 Stat 1 Boost - 9/9 Agility : + 156 Stat 2 Boost - 9/9 Ultimate Gain Eff. : + 46.40% Passive Boost - 4/9 Heat DMG Bonus : + 11.20% When the wielder's skill applies Heat Infliction , the wielder gains Physic",
               "status": "live",
               "labels": []
             },
@@ -18263,9 +18624,12 @@ var NYX_DB = {
               "fields": {
                 "rarity": "6 \u2726",
                 "type": "Polearm",
-                "baseAtk": "0"
+                "baseAtk": "500",
+                "agility": "+ 156",
+                "heatDmgBonus": "+ 43.30%",
+                "ultimateGainEff": "+ 28.80%"
               },
-              "text": "Blessing of Lustrous Carmine Rarity: 6 \u2726 Type: Polearm Base ATK: 0 Stat 1 Boost - 9/9 : + Passive Boost - 4/9",
+              "text": "Blessing of Lustrous Carmine Rarity: 6 \u2726 Type: Polearm Base ATK: 500 Stat 1 Boost - 9/9 Agility : + 156 Stat 2 Boost - 9/9 Heat DMG Bonus : + 43.30% Passive Boost - 4/9 Ultimate Gain Eff. : + 28.80% When the wielder\u2019s skill recovers SP, the entire team gains A",
               "status": "live",
               "labels": []
             },
@@ -21565,15 +21929,67 @@ var NYX_DB = {
           ]
         }
       ],
-      "codes": [],
+      "codes": [
+        {
+          "code": "ZAU2SYXHWX5L4ZH",
+          "reward": "5k T Creds and Ten Arms Insp Kits",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Oroberyl",
+            "needle": "oroberyl",
+            "aliases": [
+              "originium"
+            ],
+            "icon": null
+          },
+          "added": "2026-05-05",
+          "firstSeen": "2026-06-27T02:44:42.442Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ZAU2SYXHWX5L4ZH",
+          "redeemUrl": null
+        },
+        {
+          "code": "ENDFIELD4PC",
+          "reward": "Two Advanced Combat Records, Two Arms Insp Kits, and 13k T Creds Pc Only",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Oroberyl",
+            "needle": "oroberyl",
+            "aliases": [
+              "originium"
+            ],
+            "icon": null
+          },
+          "added": "2026-05-03",
+          "firstSeen": "2026-06-27T02:44:42.442Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELD4PC",
+          "redeemUrl": null
+        },
+        {
+          "code": "ENDFIELDGIFT",
+          "reward": "150 Oroberyl, 20 Intermediate Combat Records, 20 Arms Insp Kits, and 10k T Creds",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Oroberyl",
+            "needle": "oroberyl",
+            "aliases": [
+              "originium"
+            ],
+            "icon": null
+          },
+          "added": "2026-05-03",
+          "firstSeen": "2026-06-27T02:44:42.442Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELDGIFT",
+          "redeemUrl": null
+        }
+      ],
       "banners": {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "unavailable",
-          "checkedAt": "2026-06-22T20:55:50.876Z",
-          "lastSuccessfulFetch": "2026-06-22T20:55:50.876Z",
+          "checkedAt": "2026-06-28T04:48:55.144Z",
+          "lastSuccessfulFetch": "2026-06-28T00:58:02.265Z",
           "lastValidUpdate": null,
-          "source": "game8"
+          "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": null,
         "next": null,

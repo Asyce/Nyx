@@ -164,72 +164,72 @@ function shuffleOnce(list){
   return out;
 }
 
-const NYX_AMBIENT_GAME_KEYS = ['gi', 'hsr', 'zzz', 'wuwa', 'ae'];
+let NYX_WHISPER_WORDS_PROMISE = null;
 
-function nyxAmbientName(ch){
-  return String((ch && (ch.name || ch.n || ch.rawName)) || '').trim();
-}
-
-function collectNyxAmbientNames(){
-  const seen = new Set();
-  const names = [];
-  const add = (value) => {
-    const name = String(value || '').trim();
-    if (!name) return;
-    const key = name.toLowerCase();
-    if (seen.has(key)) return;
-    seen.add(key);
-    names.push(name);
-  };
-  const dbGames = (window.NYX_DB && window.NYX_DB.games) || {};
-  NYX_AMBIENT_GAME_KEYS.forEach((key) => {
-    ((dbGames[key] && dbGames[key].roster) || []).forEach((ch) => add(nyxAmbientName(ch)));
-  });
-  NYX_AMBIENT_GAME_KEYS.forEach((key) => {
-    const cfg = (window.CM_CFG && window.CM_CFG[key]) || null;
-    ((cfg && (cfg.roster || cfg.chars)) || []).forEach((ch) => add(nyxAmbientName(ch)));
-  });
-  return names;
+function fetchNyxWhisperWords(){
+  if (!NYX_WHISPER_WORDS_PROMISE) {
+    NYX_WHISPER_WORDS_PROMISE = fetch('../assets/data/nyx-whispers.txt', { cache:'force-cache' })
+      .then((res) => res.ok ? res.text() : '')
+      .then((text) => {
+        const seen = new Set();
+        return String(text || '')
+          .split(/\r?\n/g)
+          .map((line) => line.trim())
+          .filter(Boolean)
+          .filter((line) => {
+            const key = line.toLowerCase();
+            if (seen.has(key)) return false;
+            seen.add(key);
+            return true;
+          });
+      })
+      .catch(() => []);
+  }
+  return NYX_WHISPER_WORDS_PROMISE;
 }
 
 function mountNyxAmbientText(){
   const field = document.querySelector('.nyx-rune-field');
   if (!field) return () => {};
-  const names = collectNyxAmbientNames();
-  if (!names.length) return () => {};
   const reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const width = window.innerWidth || 1600;
-  const count = Math.max(5, Math.min(12, Math.round(width / 190)));
-  let bag = [];
-  const nextName = () => {
-    if (!bag.length) bag = shuffleOnce(names);
-    return bag.pop() || names[0] || '';
-  };
-  field.textContent = '';
-  field.dataset.count = String(names.length);
   const cleanup = [];
-  for (let i = 0; i < count; i += 1){
-    const line = document.createElement('span');
-    line.className = 'nyx-rune-line';
-    const dur = randomRange(26, 48);
-    const reset = (initial) => {
-      line.textContent = nextName();
-      line.style.setProperty('--x', randomRange(5, 95).toFixed(2) + 'vw');
-      line.style.setProperty('--dur', dur.toFixed(2) + 's');
-      line.style.setProperty('--delay', initial ? (-randomRange(0, dur)).toFixed(2) + 's' : '0s');
-      line.style.setProperty('--alpha', randomRange(.13, .32).toFixed(2));
-      line.style.setProperty('--size', randomRange(17, 29).toFixed(2) + 'px');
-      line.style.setProperty('--static-y', randomRange(5, 86).toFixed(2) + 'vh');
+  let disposed = false;
+  fetchNyxWhisperWords().then((words) => {
+    if (disposed || !words.length) return;
+    const count = Math.max(4, Math.min(8, Math.round(1600 / 285)));
+    const laneStep = 82 / Math.max(1, count - 1);
+    const lanes = Array.from({ length:count }, (_, i) => 9 + (laneStep * i));
+    let bag = [];
+    const nextWord = () => {
+      if (!bag.length) bag = shuffleOnce(words);
+      return bag.pop() || words[0] || '';
     };
-    reset(true);
-    if (!reduced) {
-      const onIter = () => reset(false);
-      line.addEventListener('animationiteration', onIter);
-      cleanup.push(() => line.removeEventListener('animationiteration', onIter));
+    field.textContent = '';
+    field.dataset.count = String(words.length);
+    for (let i = 0; i < count; i += 1){
+      const line = document.createElement('span');
+      line.className = 'nyx-rune-line';
+      const dur = randomRange(62, 98);
+      const reset = (initial) => {
+        line.textContent = nextWord().toUpperCase().replace(/\s+/g, '');
+        line.style.setProperty('--x', lanes[i].toFixed(2) + '%');
+        line.style.setProperty('--dur', dur.toFixed(2) + 's');
+        line.style.setProperty('--delay', initial ? (-randomRange(0, dur)).toFixed(2) + 's' : '0s');
+        line.style.setProperty('--alpha', randomRange(.12, .28).toFixed(2));
+        line.style.setProperty('--size', randomRange(30, 48).toFixed(2) + 'px');
+        line.style.setProperty('--static-y', randomRange(60, 780).toFixed(2) + 'px');
+      };
+      reset(true);
+      if (!reduced) {
+        const onIter = () => reset(false);
+        line.addEventListener('animationiteration', onIter);
+        cleanup.push(() => line.removeEventListener('animationiteration', onIter));
+      }
+      field.appendChild(line);
     }
-    field.appendChild(line);
-  }
+  });
   return () => {
+    disposed = true;
     cleanup.forEach((fn) => fn());
     field.textContent = '';
   };
@@ -1359,6 +1359,128 @@ const DEFAULT_TAB = () => 'overview';
 // Owns nothing but the per-game channel in localStorage; the materials panel
 // (CharMaterials) listens for 'nyx:cm-channel-changed' and re-renders to match.
 // Shares cmHasBeta/cmLoadChannel/cmSaveChannel from char-materials.jsx (same bundle).
+const NYX_PENGO_SETTINGS_KEY = 'nyx-pengo-settings';
+const NYX_PENGO_DISPLAY_DEFAULTS = { gi:true, hsr:true, zzz:true, wuwa:true, ae:true };
+const NYX_PENGO_DEFAULTS = {
+  whispers: true,
+  animation: 'play',
+  khaenriah: false,
+  displayGames: NYX_PENGO_DISPLAY_DEFAULTS,
+  lapis: false,
+  energy: 35,
+  spawn: 1,
+  sacrifice: 1,
+};
+
+function clampPengoNumber(value, min, max){
+  const n = parseInt(value, 10);
+  if (!isFinite(n)) return min;
+  return Math.max(min, Math.min(max, n));
+}
+
+function loadPengoSettings(){
+  try {
+    const raw = JSON.parse(localStorage.getItem(NYX_PENGO_SETTINGS_KEY) || '{}');
+    return Object.assign({}, NYX_PENGO_DEFAULTS, raw, {
+      animation: ['play', 'pause', 'stop'].includes(raw.animation) ? raw.animation : NYX_PENGO_DEFAULTS.animation,
+      displayGames: Object.assign({}, NYX_PENGO_DISPLAY_DEFAULTS, raw.displayGames || {}),
+      energy: clampPengoNumber(raw.energy ?? NYX_PENGO_DEFAULTS.energy, 1, 69),
+      spawn: clampPengoNumber(raw.spawn ?? NYX_PENGO_DEFAULTS.spawn, 0, 9999),
+      sacrifice: clampPengoNumber(raw.sacrifice ?? NYX_PENGO_DEFAULTS.sacrifice, 0, 9999),
+    });
+  } catch (e) {
+    return Object.assign({}, NYX_PENGO_DEFAULTS);
+  }
+}
+
+function PengoMenu({ settings, setSettings }){
+  const update = (patch) => setSettings((prev) => Object.assign({}, prev, patch));
+  const opusCount = clampPengoNumber(settings.spawn ?? settings.sacrifice ?? NYX_PENGO_DEFAULTS.spawn, 0, 9999);
+  const setOpusCount = (value) => {
+    const next = clampPengoNumber(value, 0, 9999);
+    update({ spawn:next, sacrifice:next });
+  };
+  const bumpOpusCount = (delta) => setOpusCount(opusCount + delta);
+  const toggleDisplayGame = (key) => update({
+    displayGames: Object.assign({}, NYX_PENGO_DISPLAY_DEFAULTS, settings.displayGames || {}, {
+      [key]: !((settings.displayGames || {})[key] !== false),
+    }),
+  });
+  const resetInterface = () => update({
+    whispers: NYX_PENGO_DEFAULTS.whispers,
+    animation: NYX_PENGO_DEFAULTS.animation,
+    khaenriah: NYX_PENGO_DEFAULTS.khaenriah,
+    displayGames: Object.assign({}, NYX_PENGO_DISPLAY_DEFAULTS),
+  });
+  const resetOpus = () => update({
+    lapis: NYX_PENGO_DEFAULTS.lapis,
+    energy: NYX_PENGO_DEFAULTS.energy,
+    spawn: NYX_PENGO_DEFAULTS.spawn,
+    sacrifice: NYX_PENGO_DEFAULTS.sacrifice,
+  });
+  const nextAnim = settings.animation === 'play' ? 'pause' : (settings.animation === 'pause' ? 'stop' : 'play');
+  const animIcon = settings.animation === 'play' ? '\u25b6' : (settings.animation === 'pause' ? '\u23f8' : '\u25a0');
+  return (
+    <div className="nyx-pengo-menu" role="dialog" aria-label="Pengo settings" onClick={(e) => e.stopPropagation()}>
+      <section>
+        <h3>Interface</h3>
+        <button type="button" className={'pm-row media ' + settings.animation}
+                data-tip="Turns On/Freezes/Off the rotating background"
+                onClick={() => update({ animation:nextAnim })}>
+          <span>Background Animation</span><b className="pm-state">{animIcon}</b>
+        </button>
+        <button type="button" className="pm-row" data-tip="Turns floating background on/off"
+                onClick={() => update({ whispers:!settings.whispers })}>
+          <span>Nyx Whispers</span><b className="pm-state">{settings.whispers ? 'On' : 'Off'}</b>
+        </button>
+        <button type="button" className="pm-row" data-tip="Change all fonts to the Ancient(Khaenri'ahn) Script"
+                onClick={() => update({ khaenriah:!settings.khaenriah })}>
+          <span>Welcome to Khaenri'ah</span><b className="pm-state">{settings.khaenriah ? 'On' : 'Off'}</b>
+        </button>
+        <div className="pm-display-games">
+          <span>Display Games</span>
+          <div className="pm-game-icons" aria-label="Display games">
+            {SIM_GAMES.map((game) => {
+              const on = (settings.displayGames || {})[game.key] !== false;
+              return (
+                <button key={game.key} type="button" className={on ? 'on' : ''} title={game.name}
+                        aria-label={'Display ' + game.name} aria-pressed={on}
+                        onClick={() => toggleDisplayGame(game.key)}>
+                  <img src={game.icon} alt="" draggable="false" />
+                </button>
+              );
+            })}
+          </div>
+        </div>
+        <button type="button" className="pm-reset" data-tip="Reset the interface to default" onClick={resetInterface}>Reset</button>
+      </section>
+      <section>
+        <h3>Magnum Opus Pengonis</h3>
+        <button type="button" className="pm-row" data-tip="Power assistant Pengo On/Off"
+                onClick={() => update({ lapis:!settings.lapis })}>
+          <span>Lapis Philosophorum</span><b className="pm-state">{settings.lapis ? 'On' : 'Off'}</b>
+        </button>
+        <label className="pm-slider" data-tip="Change how much energy is being poured into Pengo. Size change.">
+          <span>Energy</span>
+          <input type="range" min="1" max="69" value={settings.energy}
+                 onChange={(e) => update({ energy:clampPengoNumber(e.target.value, 1, 69) })} />
+        </label>
+        <div className="pm-opus-actions">
+          <button type="button" className="pm-action" data-tip="Summon more Pengo assistants to keep you company!">Summon</button>
+          <button type="button" className="pm-action" data-tip="Every Pengo returns to the Void. There, they await your inevitable arrival, ready to serve once more.">Sacrifice</button>
+          <div className="pm-stepper" aria-label="Pengo count">
+            <button type="button" aria-label="Decrease Pengo count" onClick={() => bumpOpusCount(-1)}>-</button>
+            <input type="text" inputMode="numeric" pattern="[0-9]*" value={opusCount}
+                   aria-label="Pengo count" onChange={(e) => setOpusCount(e.target.value)} />
+            <button type="button" aria-label="Increase Pengo count" onClick={() => bumpOpusCount(1)}>+</button>
+          </div>
+        </div>
+        <button type="button" className="pm-reset" data-tip="Reset the Magnum Opus Pengonis to default" onClick={resetOpus}>Reset</button>
+      </section>
+    </div>
+  );
+}
+
 function NyxChannelToggle({ gameKey }){
   const [channel, setChannel] = React.useState(() => cmLoadChannel(gameKey));
   React.useEffect(() => { setChannel(cmLoadChannel(gameKey)); }, [gameKey]);
@@ -1369,12 +1491,16 @@ function NyxChannelToggle({ gameKey }){
     try { window.dispatchEvent(new CustomEvent('nyx:cm-channel-changed', { detail:{ key:gameKey, channel:ch } })); } catch (e) {}
   };
   const isBeta = channel === 'beta';
+  const toggle = () => pick(isBeta ? 'live' : 'beta');
   return (
-    <div className={'cm-chan-switch' + (isBeta ? ' beta' : ' live')} role="group" aria-label="Data channel: Live or Beta">
-      <button type="button" className={'cm-chan-option' + (!isBeta ? ' on' : '')} aria-pressed={!isBeta}
-              title="Released, live-server data" onClick={() => pick('live')}>Live</button>
-      <button type="button" className={'cm-chan-option' + (isBeta ? ' on' : '')} aria-pressed={isBeta}
-              title="Beta (latest) data — upcoming, subject to change" onClick={() => pick('beta')}>Beta</button>
+    <div className={'cm-chan-switch' + (isBeta ? ' beta' : ' live')} role="group" aria-label="Data channel: Live or Beta" onClick={toggle}>
+      <button type="button" className={'cm-chan-option live-option' + (!isBeta ? ' on' : '')} aria-pressed={!isBeta}
+              title="Released, live-server data">Live</button>
+      <span className="cm-chan-medallion" aria-hidden="true">
+        <img src="../assets/icon/pengoemote.png" alt="" draggable="false" />
+      </span>
+      <button type="button" className={'cm-chan-option beta-option' + (isBeta ? ' on' : '')} aria-pressed={isBeta}
+              title="Beta (latest) data — upcoming, subject to change">Beta</button>
     </div>
   );
 }
@@ -1384,7 +1510,35 @@ function NyxApp(){
   const [activeKey, setActiveKey] = React.useState(initialKey);
   const [tab, setTab] = React.useState(DEFAULT_TAB(initialKey));
   const [materialModal, setMaterialModal] = React.useState(null);
+  const [pengoMenuOpen, setPengoMenuOpen] = React.useState(false);
+  const [pengoSettings, setPengoSettings] = React.useState(loadPengoSettings);
+  const cornerRef = React.useRef(null);
   useCmGameVersion(activeKey);
+
+  React.useEffect(() => {
+    try { localStorage.setItem(NYX_PENGO_SETTINGS_KEY, JSON.stringify(pengoSettings)); } catch (e) {}
+    const root = document.documentElement;
+    root.classList.toggle('nyx-whispers-off', !pengoSettings.whispers);
+    root.classList.toggle('nyx-pattern-paused', pengoSettings.animation === 'pause');
+    root.classList.toggle('nyx-pattern-off', pengoSettings.animation === 'stop');
+    root.classList.toggle('nyx-khaenriah', !!pengoSettings.khaenriah);
+  }, [pengoSettings]);
+
+  React.useEffect(() => {
+    if (!pengoMenuOpen) return;
+    const onPointer = (event) => {
+      if (cornerRef.current && !cornerRef.current.contains(event.target)) setPengoMenuOpen(false);
+    };
+    const onKey = (event) => {
+      if (event.key === 'Escape') setPengoMenuOpen(false);
+    };
+    window.addEventListener('pointerdown', onPointer);
+    window.addEventListener('keydown', onKey);
+    return () => {
+      window.removeEventListener('pointerdown', onPointer);
+      window.removeEventListener('keydown', onKey);
+    };
+  }, [pengoMenuOpen]);
 
   // reveal the page once the app has actually mounted. The page-level
   // background paints the instant the HTML is parsed (well before this bundle
@@ -1475,15 +1629,23 @@ function NyxApp(){
           </span>
         </a>
         <div className="tb-center">
-          <GPGameRail active={activeKey} onSwitch={switchGame} />
+          <GPGameRail active={activeKey} onSwitch={switchGame} displayGames={pengoSettings.displayGames} />
         </div>
       </header>
 
-      <div className="gp-corner">
+      <div className="gp-corner" ref={cornerRef}>
+        <div className="gp-corner-actions">
+          <a className="gp-kofi" href="https://ko-fi.com/asyce" target="_blank" rel="noopener noreferrer" title="Ko-fi" aria-label="Ko-fi">
+            <img src="../assets/icon/kofi-logo.png" alt="" draggable="false" />
+          </a>
+          <button type="button" className={'tb-pengo corner menu-trigger' + (pengoMenuOpen ? ' on' : '')}
+                  title="Pengo menu" aria-label="Pengo menu" aria-expanded={pengoMenuOpen}
+                  onClick={() => setPengoMenuOpen((open) => !open)}>
+            <img src="../assets/icon/pengo.png" alt="" draggable="false" />
+          </button>
+        </div>
+        {pengoMenuOpen && <PengoMenu settings={pengoSettings} setSettings={setPengoSettings} />}
         {!isNyx && <NyxChannelToggle gameKey={activeKey} />}
-        <a className="tb-pengo corner" href="/" title="Back to Worlds" aria-label="Home">
-          <img src="../assets/icon/pengo.png" alt="" draggable="false" />
-        </a>
       </div>
 
       {isNyx
@@ -1508,9 +1670,20 @@ function NyxApp(){
   const base = document.querySelector('.page-bg');
   const wrap = document.createElement('div');
   wrap.className = 'nyx-bgwrap';
-  wrap.innerHTML = '<div class="nyx-bgart"></div><div class="nyx-bgart"></div><div class="nyx-bgscrim"></div><div class="nyx-rune-field" aria-hidden="true"></div>';
+  wrap.innerHTML = '<div class="nyx-bgart"></div><div class="nyx-bgart"></div><div class="nyx-bgscrim"></div>';
   if (base && base.parentNode) base.parentNode.insertBefore(wrap, base.nextSibling);
   else document.body.insertBefore(wrap, document.body.firstChild);
+  if (!document.querySelector('.nyx-rune-field')) {
+    const runes = document.createElement('div');
+    runes.className = 'nyx-rune-field';
+    runes.setAttribute('aria-hidden', 'true');
+    const stage = document.querySelector('.stage');
+    const app = document.getElementById('app');
+    const pattern = document.querySelector('.page-pattern');
+    if (stage) stage.insertBefore(runes, app || stage.firstChild);
+    else if (pattern && pattern.parentNode) pattern.parentNode.insertBefore(runes, pattern.nextSibling);
+    else if (wrap.parentNode) wrap.parentNode.insertBefore(runes, wrap.nextSibling);
+  }
 })();
 
 ReactDOM.createRoot(document.getElementById('app')).render(<NyxApp />);

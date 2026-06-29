@@ -118,6 +118,7 @@ window.NyxPulls = (function () {
           collected.push({
             id: raw.id,
             banner: banner.key,
+            sourceBanner: banner.label,
             name: raw.name,
             itemId: raw.item_id || '',
             itemType: (raw.item_type === 'Weapon' || raw.item_type === '武器') ? 'weapon' : 'character',
@@ -191,6 +192,100 @@ window.NyxPulls = (function () {
     return null;
   }
 
+  function enrichPull(gameKey, pull, pity5, pity4, idx) {
+    const meta = resolveItem(gameKey, pull) || {};
+    const itemType = pull.itemType || meta.kind || '';
+    const isWeapon = itemType === 'weapon' || itemType === 'light_cone' || itemType === 'w_engine' || itemType === 'bangboo';
+    return {
+      idx: idx,
+      id: pull.id,
+      banner: pull.banner,
+      sourceBanner: pull.sourceBanner || '',
+      part: pull.part || '',
+      name: pull.name || meta.name || 'Unknown',
+      itemId: pull.itemId || '',
+      itemType: itemType,
+      isWeapon: isWeapon,
+      rank: pull.rank,
+      rarity: meta.rarity || pull.rank,
+      time: pull.time || 0,
+      pity: pity5,
+      pity5: pity5,
+      pity4: pity4,
+      icon: meta.icon || meta.art || '',
+      art: meta.art || meta.icon || '',
+      el: meta.element || null,
+      wtype: meta.weaponType || null,
+    };
+  }
+
+  function archiveFromItems(items) {
+    const byKey = {};
+    for (const item of items) {
+      if (!item || item.rank < 4) continue;
+      const kind = item.isWeapon ? 'weapon' : 'character';
+      const key = kind + ':' + (normName(item.name) || item.itemId || item.id || item.idx);
+      const rec = byKey[key] || {
+        key: key,
+        kind: kind,
+        name: item.name,
+        itemId: item.itemId || '',
+        rank: item.rank,
+        rarity: item.rarity || item.rank,
+        copies: 0,
+        lastTime: 0,
+        icon: item.icon || '',
+        art: item.art || item.icon || '',
+        el: item.el || null,
+        wtype: item.wtype || null,
+      };
+      rec.copies += 1;
+      rec.rank = Math.max(rec.rank || 0, item.rank || 0);
+      rec.rarity = Math.max(rec.rarity || 0, item.rarity || item.rank || 0);
+      rec.lastTime = Math.max(rec.lastTime || 0, item.time || 0);
+      rec.icon = rec.icon || item.icon || item.art || '';
+      rec.art = rec.art || item.art || item.icon || '';
+      rec.el = rec.el || item.el || null;
+      rec.wtype = rec.wtype || item.wtype || null;
+      byKey[key] = rec;
+    }
+    return Object.values(byKey);
+  }
+
+  function sourceGroupsFromItems(items, fallbackLabel) {
+    const groups = {};
+    for (const item of (items || [])) {
+      const source = String(item.sourceBanner || '').trim();
+      const part = String(item.part || '').trim();
+      const label = source || fallbackLabel || 'Imported banner';
+      const key = normName(label) + ':' + part;
+      const rec = groups[key] || {
+        key: key,
+        label: label,
+        part: part,
+        displayName: label + (part ? ' · ' + part : ''),
+        total: 0,
+        fiveCount: 0,
+        fourCount: 0,
+        lastTime: 0,
+        items: [],
+      };
+      rec.total += 1;
+      if (item.rank === 5) rec.fiveCount += 1;
+      if (item.rank === 4) rec.fourCount += 1;
+      rec.lastTime = Math.max(rec.lastTime || 0, item.time || 0);
+      rec.items.push(item);
+      groups[key] = rec;
+    }
+    return Object.values(groups).map((rec) => {
+      const newest = rec.items.slice().sort((a, b) => (b.time || 0) - (a.time || 0) || (b.idx || 0) - (a.idx || 0));
+      return Object.assign({}, rec, {
+        recent: newest.slice(0, 6),
+        highlights: newest.filter((it) => it.rank >= 4).slice(0, 6),
+      });
+    }).sort((a, b) => (b.lastTime || 0) - (a.lastTime || 0) || (b.total || 0) - (a.total || 0));
+  }
+
   // ---- view builder: imported pulls → GachaTracker render shape -------
   // Emits exactly the object the existing results UI consumes (same
   // shape as the old simulator), computed on the *character* banner so
@@ -239,11 +334,14 @@ window.NyxPulls = (function () {
   }
 
   function computeBannerView(gameKey, banner, cfg, stdPool, featuredAt) {
-    const fives = [], stream = [];
-    let fourCount = 0, threeCount = 0, sinceFive = 0, guaranteedNext = false;
+    const fives = [], stream = [], items = [];
+    let fourCount = 0, threeCount = 0, sinceFive = 0, sinceFour = 0, guaranteedNext = false;
     banner.forEach((p) => {
       sinceFive++;
+      sinceFour++;
       stream.push(p.rank);
+      const item = enrichPull(gameKey, p, sinceFive, sinceFour, stream.length);
+      items.push(item);
       if (p.rank === 4) fourCount++;
       else if (p.rank === 3) threeCount++;
       else if (p.rank === 5) {
@@ -259,18 +357,18 @@ window.NyxPulls = (function () {
             if (!won) guaranteedNext = true;
           }
         }
-        fives.push({ idx: stream.length, pity: pity, won: won, ff: ff, exact: exact, name: p.name, itemId: p.itemId, isWeapon: p.itemType === 'weapon' || p.itemType === 'light_cone' || p.itemType === 'w_engine' || p.itemType === 'bangboo' });
+        fives.push(Object.assign({}, item, { pity: pity, pity5: pity, won: won, ff: ff, exact: exact }));
         sinceFive = 0;
       }
+      if (p.rank >= 4) sinceFour = 0;
     });
-    for (const f of fives) {
-      const m = resolveItem(gameKey, f);
-      if (m) { f.icon = m.icon; f.art = m.art; f.el = m.element; f.wtype = m.weaponType; if (!f.name && m.name) f.name = m.name; }
-    }
+    const archive = archiveFromItems(items);
+    const sourceGroups = sourceGroupsFromItems(items, cfg.label);
     return {
       key: cfg.key, label: cfg.label, soft: cfg.soft, hard: cfg.hard, ff: cfg.ff,
       total: banner.length, fives: fives, fourCount: fourCount, threeCount: threeCount,
-      currentPity: sinceFive, guaranteed: cfg.ff ? guaranteedNext : false, stream: stream,
+      currentPity: sinceFive, currentFourPity: sinceFour, guaranteed: cfg.ff ? guaranteedNext : false,
+      stream: stream, items: items, history: items.slice().reverse(), archive: archive, sourceGroups: sourceGroups,
     };
   }
 
@@ -338,6 +436,7 @@ window.NyxPulls = (function () {
       pulls.push({
         id: String(it.id),
         banner: key,
+        sourceBanner: it.banner || it.banner_name || it.name_banners || '',
         name: it.name || '',
         itemId: String(it.item_id || ''),
         itemType: inferGiItemType(it.item_id, it.item_type === 'Weapon' || it.item_type === '武器' ? 'weapon' : (it.item_type ? 'character' : null)),
@@ -346,6 +445,214 @@ window.NyxPulls = (function () {
       });
     }
     return { uid: String(acc.uid || ''), pulls: pulls };
+  }
+
+  // Paimon.moe Excel exports are .xlsx files with one worksheet per
+  // Genshin banner family. The site bundle is a browser global, so this
+  // is a tiny OOXML reader instead of a Node/package dependency.
+  function u8FromBuffer(buffer) {
+    if (buffer instanceof Uint8Array) return buffer;
+    if (ArrayBuffer.isView(buffer)) return new Uint8Array(buffer.buffer, buffer.byteOffset, buffer.byteLength);
+    return new Uint8Array(buffer || []);
+  }
+
+  function findZipEocd(view) {
+    for (let i = view.byteLength - 22; i >= Math.max(0, view.byteLength - 65558); i -= 1) {
+      if (view.getUint32(i, true) === 0x06054b50) return i;
+    }
+    return -1;
+  }
+
+  async function inflateZipBytes(bytes, method) {
+    if (method === 0) return bytes;
+    if (method !== 8) throw new Error('Unsupported .xlsx compression method: ' + method);
+    if (typeof DecompressionStream === 'undefined') {
+      throw new Error('This browser cannot unpack .xlsx files. Export JSON/UIGF instead.');
+    }
+    async function run(format) {
+      const stream = new Blob([bytes]).stream().pipeThrough(new DecompressionStream(format));
+      return new Uint8Array(await new Response(stream).arrayBuffer());
+    }
+    try { return await run('deflate-raw'); }
+    catch (e) { return await run('deflate'); }
+  }
+
+  function openXlsxZip(buffer) {
+    const bytes = u8FromBuffer(buffer);
+    const view = new DataView(bytes.buffer, bytes.byteOffset, bytes.byteLength);
+    const eocd = findZipEocd(view);
+    if (eocd < 0) throw new Error('That does not look like an .xlsx file.');
+    const count = view.getUint16(eocd + 10, true);
+    let ptr = view.getUint32(eocd + 16, true);
+    const entries = {};
+    const decoder = new TextDecoder('utf-8');
+    for (let i = 0; i < count; i += 1) {
+      if (view.getUint32(ptr, true) !== 0x02014b50) break;
+      const method = view.getUint16(ptr + 10, true);
+      const compressedSize = view.getUint32(ptr + 20, true);
+      const nameLen = view.getUint16(ptr + 28, true);
+      const extraLen = view.getUint16(ptr + 30, true);
+      const commentLen = view.getUint16(ptr + 32, true);
+      const localOffset = view.getUint32(ptr + 42, true);
+      const name = decoder.decode(bytes.subarray(ptr + 46, ptr + 46 + nameLen));
+      entries[name] = { name: name, method: method, compressedSize: compressedSize, localOffset: localOffset };
+      ptr += 46 + nameLen + extraLen + commentLen;
+    }
+    return {
+      async text(path) {
+        const entry = entries[path];
+        if (!entry) return '';
+        const lp = entry.localOffset;
+        if (view.getUint32(lp, true) !== 0x04034b50) throw new Error('Invalid .xlsx local file header.');
+        const nameLen = view.getUint16(lp + 26, true);
+        const extraLen = view.getUint16(lp + 28, true);
+        const start = lp + 30 + nameLen + extraLen;
+        const raw = bytes.subarray(start, start + entry.compressedSize);
+        const inflated = await inflateZipBytes(raw, entry.method);
+        return decoder.decode(inflated);
+      },
+    };
+  }
+
+  function parseXml(text) {
+    const doc = new DOMParser().parseFromString(text || '', 'application/xml');
+    const err = doc.getElementsByTagName('parsererror')[0];
+    if (err) throw new Error('Could not read the .xlsx XML.');
+    return doc;
+  }
+
+  function xmlText(node) {
+    return node ? (node.textContent || '') : '';
+  }
+
+  function sharedStringsFromXml(xml) {
+    if (!xml) return [];
+    const doc = parseXml(xml);
+    return Array.from(doc.getElementsByTagName('si')).map((si) => {
+      return Array.from(si.getElementsByTagName('t')).map(xmlText).join('');
+    });
+  }
+
+  function colIndex(ref) {
+    const letters = String(ref || '').match(/^[A-Z]+/i);
+    if (!letters) return -1;
+    let out = 0;
+    const s = letters[0].toUpperCase();
+    for (let i = 0; i < s.length; i += 1) out = out * 26 + (s.charCodeAt(i) - 64);
+    return out - 1;
+  }
+
+  function sheetRowsFromXml(xml, shared) {
+    const doc = parseXml(xml);
+    return Array.from(doc.getElementsByTagName('row')).map((row) => {
+      const out = [];
+      let next = 0;
+      Array.from(row.getElementsByTagName('c')).forEach((cell) => {
+        const idx = Math.max(0, colIndex(cell.getAttribute('r')) >= 0 ? colIndex(cell.getAttribute('r')) : next);
+        const type = cell.getAttribute('t') || '';
+        let value = '';
+        if (type === 'inlineStr') value = xmlText(cell.getElementsByTagName('t')[0]);
+        else {
+          const raw = xmlText(cell.getElementsByTagName('v')[0]);
+          value = type === 's' ? (shared[parseInt(raw, 10)] || '') : raw;
+        }
+        out[idx] = value;
+        next = idx + 1;
+      });
+      return out;
+    });
+  }
+
+  function workbookSheets(workbookXml, relsXml) {
+    const wb = parseXml(workbookXml);
+    const rels = parseXml(relsXml);
+    const relMap = {};
+    Array.from(rels.getElementsByTagName('Relationship')).forEach((rel) => {
+      const id = rel.getAttribute('Id');
+      const target = rel.getAttribute('Target') || '';
+      if (id) relMap[id] = target.indexOf('xl/') === 0 ? target : ('xl/' + target.replace(/^\/+/, ''));
+    });
+    return Array.from(wb.getElementsByTagName('sheet')).map((sheet) => {
+      const rid = sheet.getAttribute('r:id') || sheet.getAttribute('id') || '';
+      return { name: sheet.getAttribute('name') || '', path: relMap[rid] || '' };
+    });
+  }
+
+  function headerIndex(headers, test) {
+    for (let i = 0; i < headers.length; i += 1) {
+      if (test(String(headers[i] || '').trim())) return i;
+    }
+    return -1;
+  }
+
+  function parsePaimonTime(value) {
+    const s = String(value || '').trim();
+    const serial = Number(s);
+    if (isFinite(serial) && serial > 20000) return Math.round((serial - 25569) * 86400000);
+    const m = s.match(/^(\d{4})-(\d{2})-(\d{2})[ T](\d{2}):(\d{2}):(\d{2})$/);
+    if (m) return Date.UTC(+m[1], +m[2] - 1, +m[3], +m[4], +m[5], +m[6]);
+    return Date.parse(s) || 0;
+  }
+
+  function paimonItemType(type, bannerKey) {
+    if (/weapon/i.test(type || '')) return 'weapon';
+    if (/character/i.test(type || '')) return 'character';
+    return bannerKey === 'weapon' ? 'weapon' : 'character';
+  }
+
+  async function importPaimonXlsx(buffer) {
+    const zip = openXlsxZip(buffer);
+    const shared = sharedStringsFromXml(await zip.text('xl/sharedStrings.xml'));
+    const sheets = workbookSheets(
+      await zip.text('xl/workbook.xml'),
+      await zip.text('xl/_rels/workbook.xml.rels')
+    );
+    const sheetMap = {
+      'character event': { banner: 'character', fallback: 'Character Event Wish' },
+      'weapon event': { banner: 'weapon', fallback: 'Weapon Event Wish' },
+      'standard': { banner: 'standard', fallback: 'Standard Wish' },
+      "beginners' wish": { banner: 'beginner', fallback: "Beginner's Wish" },
+      'beginner wish': { banner: 'beginner', fallback: "Beginner's Wish" },
+    };
+    const pulls = [];
+    for (const sheet of sheets) {
+      const cfg = sheetMap[String(sheet.name || '').trim().toLowerCase()];
+      if (!cfg || !sheet.path) continue;
+      const rows = sheetRowsFromXml(await zip.text(sheet.path), shared);
+      if (rows.length < 2) continue;
+      const headers = rows[0] || [];
+      const typeIdx = headerIndex(headers, (h) => h.toLowerCase() === 'type');
+      const nameIdx = headerIndex(headers, (h) => h.toLowerCase() === 'name');
+      const timeIdx = headerIndex(headers, (h) => h.toLowerCase() === 'time');
+      const rankIdx = headerIndex(headers, (h) => h.indexOf('\u2b50') >= 0 || /rank|rarity|star/i.test(h));
+      const rollIdx = headerIndex(headers, (h) => h.toLowerCase() === '#roll' || h.toLowerCase() === 'roll');
+      const bannerIdx = headerIndex(headers, (h) => h.toLowerCase() === 'banner');
+      const partIdx = headerIndex(headers, (h) => h.toLowerCase() === 'part');
+      if (nameIdx < 0 || rankIdx < 0) continue;
+      for (let i = 1; i < rows.length; i += 1) {
+        const row = rows[i] || [];
+        const name = String(row[nameIdx] || '').trim();
+        if (!name) continue;
+        const time = parsePaimonTime(row[timeIdx]);
+        const rank = parseInt(row[rankIdx], 10) || 0;
+        const sourceBanner = String(row[bannerIdx] || cfg.fallback).trim() || cfg.fallback;
+        const part = String(row[partIdx] || '').trim();
+        const roll = String(row[rollIdx] || i).trim();
+        pulls.push({
+          id: ['paimon', cfg.banner, roll, time || i, name, sourceBanner, part].map((v) => String(v).replace(/:/g, '')).join(':'),
+          banner: cfg.banner,
+          sourceBanner: sourceBanner,
+          part: part,
+          name: name,
+          itemId: '',
+          itemType: paimonItemType(row[typeIdx], cfg.banner),
+          rank: rank,
+          time: time,
+        });
+      }
+    }
+    pulls.sort(sortPulls);
+    return { uid: 'paimon-moe-xlsx', pulls: pulls };
   }
 
   // ---- HSR / ZZZ live import (shared Hoyo getGachaLog pipeline) ------
@@ -562,6 +869,7 @@ window.NyxPulls = (function () {
       buildView: buildGenshinView,
       buildViews: buildGenshinBannerViews,
       importFile: importUIGFGenshin,
+      importExcel: importPaimonXlsx,
     },
     hsr: {
       game: 'hsr',

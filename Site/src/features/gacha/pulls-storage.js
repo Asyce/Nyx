@@ -69,7 +69,7 @@ window.NyxPullStore = (function () {
           const cursor = req.result;
           if (cursor) {
             const v = cursor.value;
-            out.push({ id: v.id, banner: v.banner, name: v.name, itemId: v.itemId || '', itemType: v.itemType, rank: v.rank, time: v.time });
+            out.push({ id: v.id, banner: v.banner, name: v.name, itemId: v.itemId || '', itemType: v.itemType, rank: v.rank, time: v.time, sourceBanner: v.sourceBanner || '', part: v.part || '' });
             cursor.continue();
           } else { resolve(out); }
         };
@@ -86,7 +86,7 @@ window.NyxPullStore = (function () {
     let added = 0, skipped = 0;
     for (const p of pulls) {
       await new Promise((resolve) => {
-        const rec = { game: game, uid: uid, id: p.id, banner: p.banner, name: p.name, itemId: p.itemId || '', itemType: p.itemType, rank: p.rank, time: p.time };
+        const rec = { game: game, uid: uid, id: p.id, banner: p.banner, name: p.name, itemId: p.itemId || '', itemType: p.itemType, rank: p.rank, time: p.time, sourceBanner: p.sourceBanner || '', part: p.part || '' };
         const r = store.add(rec);
         r.onsuccess = () => { added++; resolve(); };
         r.onerror = (e) => { skipped++; e.preventDefault(); resolve(); };

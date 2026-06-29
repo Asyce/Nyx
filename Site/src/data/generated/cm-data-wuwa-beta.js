@@ -7,7 +7,7 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["wuwa"] = {
-  "version": "3.5.3",
+  "version": "3.5.4",
   "liveVersion": "3.4",
   "newCount": 0,
   "changedCount": 10,

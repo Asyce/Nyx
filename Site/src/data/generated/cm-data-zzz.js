@@ -66,6 +66,840 @@
   ],
   "roster": [
     {
+      "id": "zzz-aria",
+      "n": "Aria",
+      "title": "Kingdom of Delusion",
+      "slug": "aria",
+      "updated": 1782165600000,
+      "sourceOrder": 0,
+      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle57.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/aria-746e633109ad.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/aria-85e6eab1e21b.webp",
+      "status": "live",
+      "labels": [],
+      "r": "S",
+      "el": "Ether",
+      "spec": "Anomaly",
+      "tag": "Angels of Delusion",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
+      "req": {
+        "ascension": [
+          {
+            "id": "100213",
+            "name": "Basic Anomaly Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100223",
+            "name": "Advanced Anomaly Certification Seal",
+            "qty": 32,
+            "rar": 2,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100233",
+            "name": "Controller Certification Seal",
+            "qty": 30,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "100115",
+            "name": "Basic Ether Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100125",
+            "name": "Advanced Ether Chip",
+            "qty": 75,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100135",
+            "name": "Specialized Ether Chip",
+            "qty": 250,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 4,
+            "kind": "crown",
+            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
+            "id": "110008",
+            "name": "Clouded Crystalline Substance",
+            "qty": 9,
+            "rar": 4,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss008.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss008.webp",
+            "source": "giant beast \"Sobek\" controlled by The Thrall",
+            "sourceDetails": [
+              {
+                "name": "giant beast \"Sobek\" controlled by The Thrall"
+              }
+            ]
+          },
+          {
+            "id": "110506",
+            "name": "Higher Dimensional Data: Falling Fist",
+            "qty": 60,
+            "rar": 3,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss006.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss006.webp",
+            "source": "Hollow Thug - Rampant Brute / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "Rampant Brute",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_DubiousHero.webp"
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 3705000
+      },
+      "recent": 1
+    },
+    {
+      "id": "zzz-burnice",
+      "n": "Burnice",
+      "title": "An Invitation or Provocation?",
+      "slug": "burnice",
+      "updated": 1782165600000,
+      "sourceOrder": 0,
+      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle32.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/burnice-00756e804618.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/burnice-293c8567a0e0.webp",
+      "status": "live",
+      "labels": [],
+      "r": "S",
+      "el": "Fire",
+      "spec": "Anomaly",
+      "tag": "Sons of Calydon",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
+      "req": {
+        "ascension": [
+          {
+            "id": "100213",
+            "name": "Basic Anomaly Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100223",
+            "name": "Advanced Anomaly Certification Seal",
+            "qty": 32,
+            "rar": 2,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100233",
+            "name": "Controller Certification Seal",
+            "qty": 30,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "100111",
+            "name": "Basic Burn Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100121",
+            "name": "Advanced Burn Chip",
+            "qty": 75,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100131",
+            "name": "Specialized Burn Chip",
+            "qty": 250,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 4,
+            "kind": "crown",
+            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
+            "id": "110004",
+            "name": "Scarlet Engine",
+            "qty": 9,
+            "rar": 4,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss004.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss004.webp",
+            "source": "Corrupted Overlord - Pompey",
+            "sourceDetails": [
+              {
+                "name": "Corrupted Overlord - Pompey",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_TyrantPompey.webp"
+              }
+            ]
+          },
+          {
+            "id": "110507",
+            "name": "Higher Dimensional Data: Stealth Phantom",
+            "qty": 60,
+            "rar": 3,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss007.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss007.webp",
+            "source": "Doppelganger - Jane / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "Doppelganger - Jane",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_JaneBoss.webp"
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 3705000
+      },
+      "recent": 1
+    },
+    {
+      "id": "zzz-grace-howard",
+      "n": "Grace",
+      "title": "A Promise Unbroken",
+      "slug": "grace-howard",
+      "updated": 1782165600000,
+      "sourceOrder": 0,
+      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle20.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/grace-818f41423b37.webp",
+      "card": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole20.webp",
+      "status": "live",
+      "labels": [],
+      "r": "S",
+      "el": "Electric",
+      "spec": "Anomaly",
+      "tag": "Belobog Heavy Industries",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
+      "req": {
+        "ascension": [
+          {
+            "id": "100213",
+            "name": "Basic Anomaly Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100223",
+            "name": "Advanced Anomaly Certification Seal",
+            "qty": 32,
+            "rar": 2,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100233",
+            "name": "Controller Certification Seal",
+            "qty": 30,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "100113",
+            "name": "Basic Shock Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100123",
+            "name": "Advanced Shock Chip",
+            "qty": 75,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder02.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100133",
+            "name": "Specialized Shock Chip",
+            "qty": 250,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 4,
+            "kind": "crown",
+            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
+            "id": "110002",
+            "name": "Living Drive",
+            "qty": 9,
+            "rar": 4,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss002.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss002.webp",
+            "source": "Unknown Corruption Complex",
+            "sourceDetails": [
+              {
+                "name": "Unknown Corruption Complex",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_ComplexCorrupted.webp"
+              }
+            ]
+          },
+          {
+            "id": "110505",
+            "name": "Higher Dimensional Data: Destructive Advance",
+            "qty": 60,
+            "rar": 3,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss005.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss005.webp",
+            "source": "Typhon Slugger / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "Typhon Slugger",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_MetalGorillaPro.webp"
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 3705000
+      },
+      "recent": 1
+    },
+    {
+      "id": "zzz-nangong-yu",
+      "n": "Nangong Yu",
+      "title": "Tear Gland Insurance",
+      "slug": "nangong-yu",
+      "updated": 1782165600000,
+      "sourceOrder": 0,
+      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle59.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/nangong-yu-27f17dc0ec46.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/nangong-yu-f9e4f44692a6.webp",
+      "status": "live",
+      "labels": [],
+      "r": "S",
+      "el": "Ether",
+      "spec": "Stun",
+      "tag": "Angels of Delusion",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
+      "req": {
+        "ascension": [
+          {
+            "id": "100212",
+            "name": "Basic Stun Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankStun01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100222",
+            "name": "Advanced Stun Certification Seal",
+            "qty": 32,
+            "rar": 2,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankStun02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100232",
+            "name": "Buster Certification Seal",
+            "qty": 30,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankStun03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "100115",
+            "name": "Basic Ether Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100125",
+            "name": "Advanced Ether Chip",
+            "qty": 75,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100135",
+            "name": "Specialized Ether Chip",
+            "qty": 250,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 4,
+            "kind": "crown",
+            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
+            "id": "110009",
+            "name": "Marrow-Draining Thorn",
+            "qty": 9,
+            "rar": 4,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss009.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss009.webp",
+            "source": "Sanguine Sweeper",
+            "sourceDetails": [
+              {
+                "name": "Sanguine Sweeper",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_GraymaneCenturion.webp"
+              }
+            ]
+          },
+          {
+            "id": "110513",
+            "name": "Higher Dimensional Data: Spiked Corruption Core",
+            "qty": 60,
+            "rar": 3,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss013.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss013.webp",
+            "source": "Miasma Walker - Scorpse / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "Miasma Walker - Scorpse",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Chelonethid.webp"
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 3705000
+      },
+      "recent": 1
+    },
+    {
+      "id": "zzz-vivian",
+      "n": "Vivian",
+      "title": "Love Like a Bouquet",
+      "slug": "vivian",
+      "updated": 1782165600000,
+      "sourceOrder": 0,
+      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle41.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/vivian-68e896e0a867.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/vivian-482bcf62de00.webp",
+      "status": "live",
+      "labels": [],
+      "r": "S",
+      "el": "Ether",
+      "spec": "Anomaly",
+      "tag": "Mockingbird",
+      "skillIcons": [
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
+      "req": {
+        "ascension": [
+          {
+            "id": "100213",
+            "name": "Basic Anomaly Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100223",
+            "name": "Advanced Anomaly Certification Seal",
+            "qty": 32,
+            "rar": 2,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100233",
+            "name": "Controller Certification Seal",
+            "qty": 30,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "100115",
+            "name": "Basic Ether Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100125",
+            "name": "Advanced Ether Chip",
+            "qty": 75,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100135",
+            "name": "Specialized Ether Chip",
+            "qty": 250,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 4,
+            "kind": "crown",
+            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
+            "id": "110005",
+            "name": "Sycophant's Refinement",
+            "qty": 9,
+            "rar": 4,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss005.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss005.webp",
+            "source": "Sacrifice",
+            "sourceDetails": [
+              {
+                "name": "Sacrifice - Covenant Guardian",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_CovenantGuardian.webp"
+              }
+            ]
+          },
+          {
+            "id": "110508",
+            "name": "Higher Dimensional Data: Thunderous Dragon",
+            "qty": 60,
+            "rar": 3,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss008.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss008.webp",
+            "source": "Thracian / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "Thracian",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Thracian.webp"
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 3705000
+      },
+      "recent": 1
+    },
+    {
       "id": "zzz-orphie-and-magus",
       "n": "Orphie & Magus",
       "title": "Peach-Flavored Flash Suppressor",
@@ -903,171 +1737,6 @@
       }
     },
     {
-      "id": "zzz-aria",
-      "n": "Aria",
-      "title": "Kingdom of Delusion",
-      "slug": "aria",
-      "updated": 1781388000000,
-      "sourceOrder": 0,
-      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle57.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/aria-746e633109ad.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/aria-85e6eab1e21b.webp",
-      "status": "live",
-      "labels": [],
-      "r": "S",
-      "el": "Ether",
-      "spec": "Anomaly",
-      "tag": "Angels of Delusion",
-      "skillIcons": [
-        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
-        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
-        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
-        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
-        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
-      ],
-      "req": {
-        "ascension": [
-          {
-            "id": "100213",
-            "name": "Basic Anomaly Certification Seal",
-            "qty": 4,
-            "rar": 1,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff01.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100223",
-            "name": "Advanced Anomaly Certification Seal",
-            "qty": 32,
-            "rar": 2,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff02.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100233",
-            "name": "Controller Certification Seal",
-            "qty": 30,
-            "rar": 3,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff03.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          }
-        ],
-        "talents": [
-          {
-            "id": "100115",
-            "name": "Basic Ether Chip",
-            "qty": 25,
-            "rar": 1,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100125",
-            "name": "Advanced Ether Chip",
-            "qty": 75,
-            "rar": 2,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100135",
-            "name": "Specialized Ether Chip",
-            "qty": 250,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100941",
-            "name": "Hamster Cage Pass",
-            "qty": 5,
-            "rar": 4,
-            "kind": "crown",
-            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
-            "source": "Event / New Eridu City Fund",
-            "sourceDetails": [
-              {
-                "name": "Event / New Eridu City Fund"
-              }
-            ]
-          },
-          {
-            "id": "110008",
-            "name": "Clouded Crystalline Substance",
-            "qty": 9,
-            "rar": 4,
-            "kind": "weekly",
-            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss008.webp",
-            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss008.webp",
-            "source": "giant beast \"Sobek\" controlled by The Thrall",
-            "sourceDetails": [
-              {
-                "name": "giant beast \"Sobek\" controlled by The Thrall"
-              }
-            ]
-          },
-          {
-            "id": "110506",
-            "name": "Higher Dimensional Data: Falling Fist",
-            "qty": 60,
-            "rar": 3,
-            "kind": "boss",
-            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss006.webp",
-            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss006.webp",
-            "source": "Hollow Thug - Rampant Brute / Expert Challenge",
-            "sourceDetails": [
-              {
-                "name": "Rampant Brute",
-                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_DubiousHero.webp"
-              },
-              {
-                "name": "Expert Challenge"
-              }
-            ]
-          }
-        ],
-        "ascCost": 800000,
-        "talentCost": 2905000,
-        "currency": 3705000
-      }
-    },
-    {
       "id": "zzz-astra-yao",
       "n": "Astra Yao",
       "title": "Firelight Palm",
@@ -1387,172 +2056,6 @@
               {
                 "name": "Metamorphosed - Avarus",
                 "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_WingedAvarus.webp"
-              },
-              {
-                "name": "Expert Challenge"
-              }
-            ]
-          }
-        ],
-        "ascCost": 800000,
-        "talentCost": 2905000,
-        "currency": 3705000
-      }
-    },
-    {
-      "id": "zzz-burnice",
-      "n": "Burnice",
-      "title": "An Invitation or Provocation?",
-      "slug": "burnice",
-      "updated": 1781388000000,
-      "sourceOrder": 0,
-      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle32.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/burnice-00756e804618.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/burnice-293c8567a0e0.webp",
-      "status": "live",
-      "labels": [],
-      "r": "S",
-      "el": "Fire",
-      "spec": "Anomaly",
-      "tag": "Sons of Calydon",
-      "skillIcons": [
-        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
-        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
-        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
-        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
-        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
-      ],
-      "req": {
-        "ascension": [
-          {
-            "id": "100213",
-            "name": "Basic Anomaly Certification Seal",
-            "qty": 4,
-            "rar": 1,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff01.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100223",
-            "name": "Advanced Anomaly Certification Seal",
-            "qty": 32,
-            "rar": 2,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff02.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100233",
-            "name": "Controller Certification Seal",
-            "qty": 30,
-            "rar": 3,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff03.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          }
-        ],
-        "talents": [
-          {
-            "id": "100111",
-            "name": "Basic Burn Chip",
-            "qty": 25,
-            "rar": 1,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100121",
-            "name": "Advanced Burn Chip",
-            "qty": 75,
-            "rar": 2,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100131",
-            "name": "Specialized Burn Chip",
-            "qty": 250,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100941",
-            "name": "Hamster Cage Pass",
-            "qty": 5,
-            "rar": 4,
-            "kind": "crown",
-            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
-            "source": "Event / New Eridu City Fund",
-            "sourceDetails": [
-              {
-                "name": "Event / New Eridu City Fund"
-              }
-            ]
-          },
-          {
-            "id": "110004",
-            "name": "Scarlet Engine",
-            "qty": 9,
-            "rar": 4,
-            "kind": "weekly",
-            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss004.webp",
-            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss004.webp",
-            "source": "Corrupted Overlord - Pompey",
-            "sourceDetails": [
-              {
-                "name": "Corrupted Overlord - Pompey",
-                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_TyrantPompey.webp"
-              }
-            ]
-          },
-          {
-            "id": "110507",
-            "name": "Higher Dimensional Data: Stealth Phantom",
-            "qty": 60,
-            "rar": 3,
-            "kind": "boss",
-            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss007.webp",
-            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss007.webp",
-            "source": "Doppelganger - Jane / Expert Challenge",
-            "sourceDetails": [
-              {
-                "name": "Doppelganger - Jane",
-                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_JaneBoss.webp"
               },
               {
                 "name": "Expert Challenge"
@@ -2383,172 +2886,6 @@
               {
                 "name": "Hans - Energized",
                 "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_MaterialHandlerRed.webp"
-              },
-              {
-                "name": "Expert Challenge"
-              }
-            ]
-          }
-        ],
-        "ascCost": 800000,
-        "talentCost": 2905000,
-        "currency": 3705000
-      }
-    },
-    {
-      "id": "zzz-grace-howard",
-      "n": "Grace",
-      "title": "A Promise Unbroken",
-      "slug": "grace-howard",
-      "updated": 1781388000000,
-      "sourceOrder": 0,
-      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle20.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/grace-818f41423b37.webp",
-      "card": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole20.webp",
-      "status": "live",
-      "labels": [],
-      "r": "S",
-      "el": "Electric",
-      "spec": "Anomaly",
-      "tag": "Belobog Heavy Industries",
-      "skillIcons": [
-        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
-        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
-        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
-        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
-        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
-      ],
-      "req": {
-        "ascension": [
-          {
-            "id": "100213",
-            "name": "Basic Anomaly Certification Seal",
-            "qty": 4,
-            "rar": 1,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff01.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100223",
-            "name": "Advanced Anomaly Certification Seal",
-            "qty": 32,
-            "rar": 2,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff02.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100233",
-            "name": "Controller Certification Seal",
-            "qty": 30,
-            "rar": 3,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff03.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          }
-        ],
-        "talents": [
-          {
-            "id": "100113",
-            "name": "Basic Shock Chip",
-            "qty": 25,
-            "rar": 1,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100123",
-            "name": "Advanced Shock Chip",
-            "qty": 75,
-            "rar": 2,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillThunder02.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100133",
-            "name": "Specialized Shock Chip",
-            "qty": 250,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpThunder01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100941",
-            "name": "Hamster Cage Pass",
-            "qty": 5,
-            "rar": 4,
-            "kind": "crown",
-            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
-            "source": "Event / New Eridu City Fund",
-            "sourceDetails": [
-              {
-                "name": "Event / New Eridu City Fund"
-              }
-            ]
-          },
-          {
-            "id": "110002",
-            "name": "Living Drive",
-            "qty": 9,
-            "rar": 4,
-            "kind": "weekly",
-            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss002.webp",
-            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss002.webp",
-            "source": "Unknown Corruption Complex",
-            "sourceDetails": [
-              {
-                "name": "Unknown Corruption Complex",
-                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_ComplexCorrupted.webp"
-              }
-            ]
-          },
-          {
-            "id": "110505",
-            "name": "Higher Dimensional Data: Destructive Advance",
-            "qty": 60,
-            "rar": 3,
-            "kind": "boss",
-            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss005.webp",
-            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss005.webp",
-            "source": "Typhon Slugger / Expert Challenge",
-            "sourceDetails": [
-              {
-                "name": "Typhon Slugger",
-                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_MetalGorillaPro.webp"
               },
               {
                 "name": "Expert Challenge"
@@ -3890,172 +4227,6 @@
       }
     },
     {
-      "id": "zzz-nangong-yu",
-      "n": "Nangong Yu",
-      "title": "Tear Gland Insurance",
-      "slug": "nangong-yu",
-      "updated": 1781388000000,
-      "sourceOrder": 0,
-      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle59.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/nangong-yu-27f17dc0ec46.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/nangong-yu-f9e4f44692a6.webp",
-      "status": "live",
-      "labels": [],
-      "r": "S",
-      "el": "Ether",
-      "spec": "Stun",
-      "tag": "Angels of Delusion",
-      "skillIcons": [
-        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
-        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
-        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
-        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
-        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
-      ],
-      "req": {
-        "ascension": [
-          {
-            "id": "100212",
-            "name": "Basic Stun Certification Seal",
-            "qty": 4,
-            "rar": 1,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankStun01.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100222",
-            "name": "Advanced Stun Certification Seal",
-            "qty": 32,
-            "rar": 2,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankStun02.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100232",
-            "name": "Buster Certification Seal",
-            "qty": 30,
-            "rar": 3,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankStun03.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          }
-        ],
-        "talents": [
-          {
-            "id": "100115",
-            "name": "Basic Ether Chip",
-            "qty": 25,
-            "rar": 1,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100125",
-            "name": "Advanced Ether Chip",
-            "qty": 75,
-            "rar": 2,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100135",
-            "name": "Specialized Ether Chip",
-            "qty": 250,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100941",
-            "name": "Hamster Cage Pass",
-            "qty": 5,
-            "rar": 4,
-            "kind": "crown",
-            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
-            "source": "Event / New Eridu City Fund",
-            "sourceDetails": [
-              {
-                "name": "Event / New Eridu City Fund"
-              }
-            ]
-          },
-          {
-            "id": "110009",
-            "name": "Marrow-Draining Thorn",
-            "qty": 9,
-            "rar": 4,
-            "kind": "weekly",
-            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss009.webp",
-            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss009.webp",
-            "source": "Sanguine Sweeper",
-            "sourceDetails": [
-              {
-                "name": "Sanguine Sweeper",
-                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_GraymaneCenturion.webp"
-              }
-            ]
-          },
-          {
-            "id": "110513",
-            "name": "Higher Dimensional Data: Spiked Corruption Core",
-            "qty": 60,
-            "rar": 3,
-            "kind": "boss",
-            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss013.webp",
-            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss013.webp",
-            "source": "Miasma Walker - Scorpse / Expert Challenge",
-            "sourceDetails": [
-              {
-                "name": "Miasma Walker - Scorpse",
-                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Chelonethid.webp"
-              },
-              {
-                "name": "Expert Challenge"
-              }
-            ]
-          }
-        ],
-        "ascCost": 800000,
-        "talentCost": 2905000,
-        "currency": 3705000
-      }
-    },
-    {
       "id": "zzz-nekomata",
       "n": "Nekomata",
       "title": "Patience of a Cat",
@@ -5370,172 +5541,6 @@
               {
                 "name": "Lumberjack",
                 "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Harvester.webp"
-              },
-              {
-                "name": "Expert Challenge"
-              }
-            ]
-          }
-        ],
-        "ascCost": 800000,
-        "talentCost": 2905000,
-        "currency": 3705000
-      }
-    },
-    {
-      "id": "zzz-vivian",
-      "n": "Vivian",
-      "title": "Love Like a Bouquet",
-      "slug": "vivian",
-      "updated": 1781388000000,
-      "sourceOrder": 0,
-      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle41.webp",
-      "art": "../../Database/Prydwen/zzz/assets/characters/vivian-68e896e0a867.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/vivian-482bcf62de00.webp",
-      "status": "live",
-      "labels": [],
-      "r": "S",
-      "el": "Ether",
-      "spec": "Anomaly",
-      "tag": "Mockingbird",
-      "skillIcons": [
-        "../../Database/Nanoka/zzz/assets/skills/Icon_Normal.webp",
-        "../../Database/Nanoka/zzz/assets/skills/Icon_Evade.webp",
-        "../../Database/Nanoka/zzz/assets/skills/Icon_Switch.webp",
-        "../../Database/Nanoka/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
-        "../../Database/Nanoka/zzz/assets/skills/Icon_UltimateReady.webp"
-      ],
-      "req": {
-        "ascension": [
-          {
-            "id": "100213",
-            "name": "Basic Anomaly Certification Seal",
-            "qty": 4,
-            "rar": 1,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff01.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100223",
-            "name": "Advanced Anomaly Certification Seal",
-            "qty": 32,
-            "rar": 2,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff02.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100233",
-            "name": "Controller Certification Seal",
-            "qty": 30,
-            "rar": 3,
-            "kind": "gem",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff03.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          }
-        ],
-        "talents": [
-          {
-            "id": "100115",
-            "name": "Basic Ether Chip",
-            "qty": 25,
-            "rar": 1,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100125",
-            "name": "Advanced Ether Chip",
-            "qty": 75,
-            "rar": 2,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100135",
-            "name": "Specialized Ether Chip",
-            "qty": 250,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100941",
-            "name": "Hamster Cage Pass",
-            "qty": 5,
-            "rar": 4,
-            "kind": "crown",
-            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
-            "source": "Event / New Eridu City Fund",
-            "sourceDetails": [
-              {
-                "name": "Event / New Eridu City Fund"
-              }
-            ]
-          },
-          {
-            "id": "110005",
-            "name": "Sycophant's Refinement",
-            "qty": 9,
-            "rar": 4,
-            "kind": "weekly",
-            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss005.webp",
-            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss005.webp",
-            "source": "Sacrifice",
-            "sourceDetails": [
-              {
-                "name": "Sacrifice - Covenant Guardian",
-                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_CovenantGuardian.webp"
-              }
-            ]
-          },
-          {
-            "id": "110508",
-            "name": "Higher Dimensional Data: Thunderous Dragon",
-            "qty": 60,
-            "rar": 3,
-            "kind": "boss",
-            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss008.webp",
-            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss008.webp",
-            "source": "Thracian / Expert Challenge",
-            "sourceDetails": [
-              {
-                "name": "Thracian",
-                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Thracian.webp"
               },
               {
                 "name": "Expert Challenge"

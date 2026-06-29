@@ -150,9 +150,44 @@
       "tag": "Se\u0161'qa",
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/camille/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/camille/splash.png",
-      "card": "../../Database/EndfieldWiki/endfield/assets/operators/camille/splash.png",
-      "aePreferredItems": [],
-      "aeSkillItems": [],
+      "card": "../../Database/EndfieldWiki/endfield/assets/operators/camille/banner.png",
+      "aePreferredItems": [
+        {
+          "id": "weapon:blessing-of-lustrous-carmine",
+          "name": "Blessing of Lustrous Carmine",
+          "n": "Blessing of Lustrous Carmine",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-70-9283863046e5.webp",
+          "assetId": "9283863046e5",
+          "type": "Polearm",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:beacon-of-duty",
+          "name": "Beacon of Duty",
+          "n": "Beacon of Duty",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-72-7257409e7ffd.webp",
+          "assetId": "7257409e7ffd",
+          "type": "Polearm",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "aeSkillItems": [
+        {
+          "id": "gear:eternal-xiranite-gloves-t1",
+          "name": "Eternal Xiranite Gloves T1",
+          "n": "Eternal Xiranite Gloves T1",
+          "kind": "gear",
+          "rar": 4,
+          "icon": "../../Database/Prydwen/endfield/assets/gear/gear-26-ae5d588d4460.webp",
+          "assetId": "ae5d588d4460",
+          "type": "Gloves",
+          "source": "Prydwen recommendation"
+        }
+      ],
       "aeStatItems": [],
       "recent": 1,
       "recentFallback": 1
@@ -2643,7 +2678,8 @@
         }
       ],
       "chars": [
-        "Alesh"
+        "Alesh",
+        "Camille"
       ]
     },
     {
@@ -3722,6 +3758,46 @@
       "chars": [
         "Avywenna",
         "Estella"
+      ]
+    },
+    {
+      "region": "Polearm",
+      "title": "Beacon of Duty",
+      "mats": [
+        {
+          "id": "weapon:beacon-of-duty",
+          "name": "Beacon of Duty",
+          "n": "Beacon of Duty",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-72-7257409e7ffd.webp",
+          "assetId": "7257409e7ffd",
+          "type": "Polearm",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Camille"
+      ]
+    },
+    {
+      "region": "Polearm",
+      "title": "Blessing of Lustrous Carmine",
+      "mats": [
+        {
+          "id": "weapon:blessing-of-lustrous-carmine",
+          "name": "Blessing of Lustrous Carmine",
+          "n": "Blessing of Lustrous Carmine",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-70-9283863046e5.webp",
+          "assetId": "9283863046e5",
+          "type": "Polearm",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Camille"
       ]
     },
     {

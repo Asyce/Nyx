@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T16:09:22.390Z",
+  "generatedAt": "2026-06-29T20:15:40.086Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,24 +9,13 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-06-29T16:09:22.390Z",
+      "lastSuccessfulFetch": "2026-06-29T20:15:40.085Z",
       "codes": [
         {
           "code": "MAGENICOLESPUZZLE",
           "rewards": "Primogem x 60, Midsommar Torte x 1, Fruit Tandem Turnovers x 1, Chenyu Adeptea x 5",
           "added": "2026-06-29",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MAGENICOLESPUZZLE",
-          "hoyoVerified": true,
-          "premium": true,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-06-13T20:18:32.371Z"
-        },
-        {
-          "code": "NMI20MAJGIBP",
-          "rewards": "Primogem x 20, Geode of Replication x 160",
-          "added": "2026-06-29",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=NMI20MAJGIBP",
           "hoyoVerified": true,
           "premium": true,
           "premium100": false,
@@ -73,7 +62,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-06-29T16:09:17.595Z",
+      "lastSuccessfulFetch": "2026-06-29T20:15:35.295Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -182,7 +171,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-06-29T16:09:19.186Z",
+      "lastSuccessfulFetch": "2026-06-29T20:15:36.896Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -254,7 +243,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-06-29T16:09:20.031Z",
+      "lastSuccessfulFetch": "2026-06-29T20:15:37.688Z",
       "codes": []
     },
     {
@@ -264,7 +253,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-06-29T16:09:21.585Z",
+      "lastSuccessfulFetch": "2026-06-29T20:15:39.285Z",
       "codes": [
         {
           "code": "ALLFIELD",

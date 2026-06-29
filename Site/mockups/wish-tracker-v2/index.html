@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en" class="nyx-app-ready">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nyx Wish Tracker Mockups V2</title>
+  <link rel="icon" type="image/png" href="../../assets/icon/nyx_logo.png">
+  <link rel="stylesheet" href="../../src/styles/game-page-shared.css?v=local-mockup">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="page-bg" aria-hidden="true"></div>
+  <div class="page-pattern" aria-hidden="true"></div>
+  <div class="page-vignette" aria-hidden="true"></div>
+
+  <div class="stage-wrap">
+    <div class="stage" id="stage">
+      <div class="gp bare">
+        <header class="gp-topbar" data-screen-label="Top bar">
+          <a class="tb-brand" href="../../pages/genshin.html" title="Back to Genshin" aria-label="Back to Genshin">
+            <span class="plate" aria-hidden="true"></span>
+            <span class="brand-mark">
+              <span class="wm">Nyx</span>
+              <span class="tb-eye" aria-hidden="true">
+                <span class="elayer ball"></span>
+                <span class="elayer lid"></span>
+                <span class="elayer drips"></span>
+              </span>
+            </span>
+          </a>
+
+          <div class="tb-center wt2-worlds" aria-label="Worlds">
+            <button class="gp-med sz-sm on" type="button" title="Genshin Impact"><img src="../../assets/icon/giicon.png" alt=""></button>
+            <button class="gp-med sz-sm" type="button" title="Honkai: Star Rail"><img src="../../assets/icon/hsricon.png" alt=""></button>
+            <button class="gp-med sz-sm" type="button" title="Zenless Zone Zero"><img src="../../assets/icon/zzzicon.png" alt=""></button>
+            <button class="gp-med sz-sm" type="button" title="Wuthering Waves"><img src="../../assets/icon/wuwaicon.png" alt=""></button>
+            <button class="gp-med sz-sm" type="button" title="Arknights: Endfield"><img src="../../assets/icon/aeicon.png" alt=""></button>
+          </div>
+        </header>
+
+        <div class="gp-corner" aria-hidden="true">
+          <div class="gp-corner-actions">
+            <a class="gp-kofi" href="https://ko-fi.com/asyce" tabindex="-1"><img src="../../assets/icon/kofi-logo.png" alt=""></a>
+            <button type="button" class="tb-pengo corner" tabindex="-1"><img src="../../assets/icon/pengo.png" alt=""></button>
+          </div>
+        </div>
+
+        <div class="gp-layout wt2-layout">
+          <nav class="gp-side-nav" aria-label="Tools">
+            <div class="gp-fn-row click" role="button" tabindex="0"><span class="dia" aria-hidden="true"></span><span>Overview</span></div>
+            <div class="gp-fn-row click" role="button" tabindex="0"><span class="dia" aria-hidden="true"></span><span>Character Materials</span><span class="go">›</span></div>
+            <div class="gp-fn-row click" role="button" tabindex="0"><span class="dia" aria-hidden="true"></span><span>Artifact Sorter</span><span class="go">›</span></div>
+            <div class="gp-fn-row click on" role="button" tabindex="0" aria-current="page"><span class="dia" aria-hidden="true"></span><span>Wish Tracker</span><span class="go">›</span></div>
+          </nav>
+
+          <main class="gp-main-pane fill wt2-main" aria-live="polite">
+            <div class="wt2-head">
+              <div class="gp-sec">
+                <span class="dia" aria-hidden="true"></span>
+                <span class="t">Wish Tracker</span>
+                <span class="rule"></span>
+              </div>
+              <div class="wt2-tabs" role="tablist" aria-label="Mockup concepts">
+                <button type="button" class="on" data-concept-button="ledger">01 Ledger</button>
+                <button type="button" data-concept-button="observatory">02 Observatory</button>
+                <button type="button" data-concept-button="archive">03 Archive</button>
+              </div>
+            </div>
+
+            <section class="wt2-view on" data-concept="ledger"></section>
+            <section class="wt2-view" data-concept="observatory"></section>
+            <section class="wt2-view" data-concept="archive"></section>
+          </main>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function(){
+      var stage = document.getElementById('stage');
+      function fit(){
+        var vw = window.innerWidth || document.documentElement.clientWidth;
+        var vh = window.innerHeight || document.documentElement.clientHeight;
+        if(!vw || !vh){ requestAnimationFrame(fit); return; }
+        if (vw <= 760) {
+          stage.classList.add('is-compact-stage');
+          document.documentElement.classList.add('nyx-compact-layout');
+          stage.style.width = vw + 'px';
+          stage.style.height = vh + 'px';
+          stage.style.transform = 'none';
+          return;
+        }
+        stage.classList.remove('is-compact-stage');
+        document.documentElement.classList.remove('nyx-compact-layout');
+        var aspect = vw / vh;
+        var sw = Math.max(1600, Math.min(2150, Math.round(900 * aspect)));
+        var scale = Math.min(vw / sw, vh / 900);
+        stage.style.width = sw + 'px';
+        stage.style.height = '900px';
+        stage.style.transform = 'scale(' + scale + ')';
+      }
+      window.addEventListener('resize', fit);
+      fit();
+    })();
+  </script>
+  <script src="./mockups.js"></script>
+</body>
+</html>

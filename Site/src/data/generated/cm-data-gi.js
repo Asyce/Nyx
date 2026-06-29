@@ -64,6 +64,7 @@
         "NODKRAI",
         "NODKRAI ZIBAI",
         "OMNI SCOURGE",
+        "SNEZHNAYA STAR",
         "SUMERU"
       ]
     },
@@ -7061,6 +7062,218 @@
           "sourceDetails": [
             {
               "name": "Delirious Sacred Lord - Natlan - Ancient Watchtower"
+            }
+          ]
+        }
+      ],
+      "cost": 225000
+    },
+    {
+      "id": "12516",
+      "name": "A Teaspoon of Transcendence",
+      "rarity": 5,
+      "weaponType": "Claymore",
+      "type": "Claymore",
+      "icon": "../../Database/Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Claymore_CrystallineSword.webp",
+      "art": "../../Database/Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Claymore_CrystallineSword.webp",
+      "items": [
+        {
+          "id": "112125",
+          "name": "Tattered Warrant",
+          "qty": 15,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112125.webp",
+          "sourceDetails": [
+            {
+              "name": "Oprichniki Line Trooper",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_NodKrai_Oprichnik_Male.webp"
+            },
+            {
+              "name": "Oprichniki Support Trooper",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_NodKrai_Oprichnik_MuscleMan.webp"
+            },
+            {
+              "name": "Oprichniki Grenadier",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_NodKrai_Oprichnik_Female.webp"
+            },
+            {
+              "name": "Oprichniki Vanguard",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_NodKrai_Oprichnik_Male.webp"
+            },
+            {
+              "name": "Oprichniki Medic",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_NodKrai_Oprichnik_Male.webp"
+            },
+            {
+              "name": "Oprichniki Bombardier",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_NodKrai_Oprichnik_Male.webp"
+            }
+          ]
+        },
+        {
+          "id": "112126",
+          "name": "Immaculate Warrant",
+          "qty": 23,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112126.webp",
+          "sourceDetails": [
+            {
+              "name": "Oprichniki Line Trooper",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_NodKrai_Oprichnik_Male.webp"
+            },
+            {
+              "name": "Oprichniki Support Trooper",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_NodKrai_Oprichnik_MuscleMan.webp"
+            },
+            {
+              "name": "Oprichniki Grenadier",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_NodKrai_Oprichnik_Female.webp"
+            },
+            {
+              "name": "Oprichniki Vanguard",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_NodKrai_Oprichnik_Male.webp"
+            },
+            {
+              "name": "Oprichniki Medic",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_NodKrai_Oprichnik_Male.webp"
+            },
+            {
+              "name": "Oprichniki Bombardier",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_NodKrai_Oprichnik_Male.webp"
+            }
+          ]
+        },
+        {
+          "id": "112127",
+          "name": "Frost-Etched Warrant",
+          "qty": 27,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112127.webp",
+          "sourceDetails": [
+            {
+              "name": "Oprichniki Line Trooper",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_NodKrai_Oprichnik_Male.webp"
+            },
+            {
+              "name": "Oprichniki Support Trooper",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_NodKrai_Oprichnik_MuscleMan.webp"
+            },
+            {
+              "name": "Oprichniki Grenadier",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_NodKrai_Oprichnik_Female.webp"
+            },
+            {
+              "name": "Oprichniki Vanguard",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_NodKrai_Oprichnik_Male.webp"
+            },
+            {
+              "name": "Oprichniki Medic",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_NodKrai_Oprichnik_Male.webp"
+            },
+            {
+              "name": "Oprichniki Bombardier",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_NodKrai_Oprichnik_Male.webp"
+            }
+          ]
+        },
+        {
+          "id": "112143",
+          "name": "Fractured Lunar Iron",
+          "qty": 23,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112143.webp",
+          "sourceDetails": [
+            {
+              "name": "Precursor's Secret Source Matrix of Overseer Network",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Monitor_01.webp"
+            }
+          ]
+        },
+        {
+          "id": "112144",
+          "name": "Depleted Lunar Iron",
+          "qty": 27,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112144.webp",
+          "sourceDetails": [
+            {
+              "name": "Precursor's Secret Source Matrix of Overseer Network",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Monitor_01.webp"
+            }
+          ]
+        },
+        {
+          "id": "112145",
+          "name": "Unblemished Lunar Iron",
+          "qty": 41,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112145.webp",
+          "sourceDetails": [
+            {
+              "name": "Precursor's Secret Source Matrix of Overseer Network",
+              "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Monitor_01.webp"
+            }
+          ]
+        },
+        {
+          "id": "114081",
+          "name": "Sundered Glory of the Far-North Scions",
+          "qty": 5,
+          "rar": 2,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114081.webp",
+          "source": "Far-North Scions - Nod-Krai - Lost Mooncourt",
+          "sourceDetails": [
+            {
+              "name": "Far-North Scions - Nod-Krai - Lost Mooncourt"
+            }
+          ]
+        },
+        {
+          "id": "114082",
+          "name": "Unyielding Delusion of the Far-North Scions",
+          "qty": 14,
+          "rar": 3,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114082.webp",
+          "source": "Far-North Scions - Nod-Krai - Lost Mooncourt",
+          "sourceDetails": [
+            {
+              "name": "Far-North Scions - Nod-Krai - Lost Mooncourt"
+            }
+          ]
+        },
+        {
+          "id": "114083",
+          "name": "Oblation of the Far-North Scions",
+          "qty": 14,
+          "rar": 4,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114083.webp",
+          "source": "Far-North Scions - Nod-Krai - Lost Mooncourt",
+          "sourceDetails": [
+            {
+              "name": "Far-North Scions - Nod-Krai - Lost Mooncourt"
+            }
+          ]
+        },
+        {
+          "id": "114084",
+          "name": "Aureate Radiance of the Far-North Scions",
+          "qty": 6,
+          "rar": 5,
+          "kind": "weapon",
+          "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_114084.webp",
+          "source": "Far-North Scions - Nod-Krai - Lost Mooncourt",
+          "sourceDetails": [
+            {
+              "name": "Far-North Scions - Nod-Krai - Lost Mooncourt"
             }
           ]
         }
@@ -49995,6 +50208,2112 @@
   ],
   "roster": [
     {
+      "id": "gi-10000133",
+      "n": "Sandrone",
+      "title": "Mirrored Analysis",
+      "r": 5,
+      "el": "Cryo",
+      "w": "Claymore",
+      "tag": "SNEZHNAYA STAR",
+      "release": 1782770400000,
+      "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MarionetteNew_Circle.webp",
+      "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MarionetteNew.webp",
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_MarionetteNew_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_MarionetteNew_01.webp"
+      ],
+      "book": "Vagrancy",
+      "signatureWeapon": {
+        "id": "12516",
+        "name": "A Teaspoon of Transcendence",
+        "educated": true
+      },
+      "signatureWeaponId": "12516",
+      "signatureWeaponName": "A Teaspoon of Transcendence",
+      "signatureWeaponEducated": true,
+      "req": {
+        "ascension": [
+          {
+            "id": "104161",
+            "name": "Shivada Jade Sliver",
+            "qty": 1,
+            "rar": 2,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104161.webp",
+            "sourceDetails": [
+              {
+                "name": "Cryo Hypostasis",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Effigy_Ice.webp"
+              },
+              {
+                "name": "Frostnight Herra",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_HerraFrost.webp"
+              },
+              {
+                "name": "Super-Heavy Landrover: Mechanized Fortress",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_AMP.webp"
+              },
+              {
+                "name": "Perpetual Mechanical Array",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Apparatus_Perpetual.webp"
+              },
+              {
+                "name": "Aeonblight Drake",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Gargoyle_Fafnir.webp"
+              },
+              {
+                "name": "Maguu Kenki",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Samurai_Ningyo.webp"
+              }
+            ]
+          },
+          {
+            "id": "104162",
+            "name": "Shivada Jade Fragment",
+            "qty": 9,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104162.webp",
+            "sourceDetails": [
+              {
+                "name": "Cryo Hypostasis",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Effigy_Ice.webp"
+              },
+              {
+                "name": "Frostnight Herra",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_HerraFrost.webp"
+              },
+              {
+                "name": "Super-Heavy Landrover: Mechanized Fortress",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_AMP.webp"
+              },
+              {
+                "name": "Perpetual Mechanical Array",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Apparatus_Perpetual.webp"
+              },
+              {
+                "name": "Aeonblight Drake",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Gargoyle_Fafnir.webp"
+              },
+              {
+                "name": "Maguu Kenki",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Samurai_Ningyo.webp"
+              }
+            ]
+          },
+          {
+            "id": "104163",
+            "name": "Shivada Jade Chunk",
+            "qty": 9,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104163.webp",
+            "sourceDetails": [
+              {
+                "name": "Cryo Hypostasis",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Effigy_Ice.webp"
+              },
+              {
+                "name": "Frostnight Herra",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_HerraFrost.webp"
+              },
+              {
+                "name": "Super-Heavy Landrover: Mechanized Fortress",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_AMP.webp"
+              },
+              {
+                "name": "Perpetual Mechanical Array",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Apparatus_Perpetual.webp"
+              },
+              {
+                "name": "Aeonblight Drake",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Gargoyle_Fafnir.webp"
+              },
+              {
+                "name": "Maguu Kenki",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Samurai_Ningyo.webp"
+              }
+            ]
+          },
+          {
+            "id": "104164",
+            "name": "Shivada Jade Gemstone",
+            "qty": 6,
+            "rar": 5,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104164.webp",
+            "sourceDetails": [
+              {
+                "name": "Cryo Hypostasis",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Effigy_Ice.webp"
+              },
+              {
+                "name": "Frostnight Herra",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_HerraFrost.webp"
+              },
+              {
+                "name": "Super-Heavy Landrover: Mechanized Fortress",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_AMP.webp"
+              },
+              {
+                "name": "Perpetual Mechanical Array",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Apparatus_Perpetual.webp"
+              },
+              {
+                "name": "Aeonblight Drake",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Gargoyle_Fafnir.webp"
+              },
+              {
+                "name": "Maguu Kenki",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Samurai_Ningyo.webp"
+              }
+            ]
+          },
+          {
+            "id": "101239",
+            "name": "Subdetection Unit",
+            "qty": 168,
+            "rar": 1,
+            "kind": "specialty",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_101239.webp"
+          },
+          {
+            "id": "112122",
+            "name": "Broken Drive Shaft",
+            "qty": 18,
+            "rar": 1,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112122.webp",
+            "sourceDetails": [
+              {
+                "name": "Close Combat Scout Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+              },
+              {
+                "name": "Force Recon Storm Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+              },
+              {
+                "name": "Force Recon Scout Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+              },
+              {
+                "name": "Force Recon Ground Effect Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+              },
+              {
+                "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+              },
+              {
+                "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+              }
+            ]
+          },
+          {
+            "id": "113086",
+            "name": "Plume of the Fallen Watcher",
+            "qty": 46,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_113086.webp",
+            "sourceDetails": [
+              {
+                "name": "Watcher: Fallen Vigil",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Watcher_Primo_01.webp"
+              }
+            ]
+          },
+          {
+            "id": "112123",
+            "name": "Reinforced Drive Shaft",
+            "qty": 30,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112123.webp",
+            "sourceDetails": [
+              {
+                "name": "Close Combat Scout Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+              },
+              {
+                "name": "Force Recon Storm Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+              },
+              {
+                "name": "Force Recon Scout Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+              },
+              {
+                "name": "Force Recon Ground Effect Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+              },
+              {
+                "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+              },
+              {
+                "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+              }
+            ]
+          },
+          {
+            "id": "112124",
+            "name": "Precision Drive Shaft",
+            "qty": 36,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112124.webp",
+            "sourceDetails": [
+              {
+                "name": "Close Combat Scout Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+              },
+              {
+                "name": "Force Recon Storm Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+              },
+              {
+                "name": "Force Recon Scout Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+              },
+              {
+                "name": "Force Recon Ground Effect Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+              },
+              {
+                "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+              },
+              {
+                "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "112122",
+            "name": "Broken Drive Shaft",
+            "qty": 18,
+            "rar": 1,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112122.webp",
+            "sourceDetails": [
+              {
+                "name": "Close Combat Scout Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+              },
+              {
+                "name": "Force Recon Storm Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+              },
+              {
+                "name": "Force Recon Scout Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+              },
+              {
+                "name": "Force Recon Ground Effect Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+              },
+              {
+                "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+              },
+              {
+                "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+              }
+            ]
+          },
+          {
+            "id": "112123",
+            "name": "Reinforced Drive Shaft",
+            "qty": 66,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112123.webp",
+            "sourceDetails": [
+              {
+                "name": "Close Combat Scout Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+              },
+              {
+                "name": "Force Recon Storm Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+              },
+              {
+                "name": "Force Recon Scout Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+              },
+              {
+                "name": "Force Recon Ground Effect Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+              },
+              {
+                "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+              },
+              {
+                "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+              }
+            ]
+          },
+          {
+            "id": "112124",
+            "name": "Precision Drive Shaft",
+            "qty": 93,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112124.webp",
+            "sourceDetails": [
+              {
+                "name": "Close Combat Scout Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+              },
+              {
+                "name": "Force Recon Storm Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+              },
+              {
+                "name": "Force Recon Scout Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+              },
+              {
+                "name": "Force Recon Ground Effect Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+              },
+              {
+                "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+              },
+              {
+                "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+              }
+            ]
+          },
+          {
+            "id": "104362",
+            "name": "Teachings of Vagrancy",
+            "qty": 9,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104362.webp",
+            "source": "Vagrancy - Nod-Krai - Lightless Capital",
+            "sourceDetails": [
+              {
+                "name": "Vagrancy - Nod-Krai - Lightless Capital"
+              }
+            ]
+          },
+          {
+            "id": "104363",
+            "name": "Guide to Vagrancy",
+            "qty": 63,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104363.webp",
+            "source": "Vagrancy - Nod-Krai - Lightless Capital",
+            "sourceDetails": [
+              {
+                "name": "Vagrancy - Nod-Krai - Lightless Capital"
+              }
+            ]
+          },
+          {
+            "id": "104364",
+            "name": "Philosophies of Vagrancy",
+            "qty": 114,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104364.webp",
+            "source": "Vagrancy - Nod-Krai - Lightless Capital",
+            "sourceDetails": [
+              {
+                "name": "Vagrancy - Nod-Krai - Lightless Capital"
+              }
+            ]
+          },
+          {
+            "id": "113082",
+            "name": "Madman's Restraint",
+            "qty": 18,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_113082.webp",
+            "source": "The Doctor",
+            "sourceDetails": [
+              {
+                "name": "The Doctor",
+                "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Dotorre_Moon.webp"
+              }
+            ]
+          },
+          {
+            "id": "104319",
+            "name": "Crown of Insight",
+            "qty": 3,
+            "rar": 5,
+            "kind": "crown",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104319.webp"
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "items": [
+                {
+                  "id": "112122",
+                  "name": "Broken Drive Shaft",
+                  "qty": 6,
+                  "rar": 1,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112122.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104362",
+                  "name": "Teachings of Vagrancy",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104362.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                }
+              ],
+              "cost": 12500
+            },
+            {
+              "items": [
+                {
+                  "id": "112123",
+                  "name": "Reinforced Drive Shaft",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112123.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104363",
+                  "name": "Guide to Vagrancy",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104363.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                }
+              ],
+              "cost": 17500
+            },
+            {
+              "items": [
+                {
+                  "id": "112123",
+                  "name": "Reinforced Drive Shaft",
+                  "qty": 4,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112123.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104363",
+                  "name": "Guide to Vagrancy",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104363.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                }
+              ],
+              "cost": 25000
+            },
+            {
+              "items": [
+                {
+                  "id": "112123",
+                  "name": "Reinforced Drive Shaft",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112123.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104363",
+                  "name": "Guide to Vagrancy",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104363.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                }
+              ],
+              "cost": 30000
+            },
+            {
+              "items": [
+                {
+                  "id": "112123",
+                  "name": "Reinforced Drive Shaft",
+                  "qty": 9,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112123.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104363",
+                  "name": "Guide to Vagrancy",
+                  "qty": 9,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104363.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                }
+              ],
+              "cost": 37500
+            },
+            {
+              "items": [
+                {
+                  "id": "112124",
+                  "name": "Precision Drive Shaft",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112124.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104364",
+                  "name": "Philosophies of Vagrancy",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104364.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                },
+                {
+                  "id": "113082",
+                  "name": "Madman's Restraint",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_113082.webp",
+                  "source": "The Doctor",
+                  "sourceDetails": [
+                    {
+                      "name": "The Doctor",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Dotorre_Moon.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 120000
+            },
+            {
+              "items": [
+                {
+                  "id": "112124",
+                  "name": "Precision Drive Shaft",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112124.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104364",
+                  "name": "Philosophies of Vagrancy",
+                  "qty": 6,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104364.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                },
+                {
+                  "id": "113082",
+                  "name": "Madman's Restraint",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_113082.webp",
+                  "source": "The Doctor",
+                  "sourceDetails": [
+                    {
+                      "name": "The Doctor",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Dotorre_Moon.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 260000
+            },
+            {
+              "items": [
+                {
+                  "id": "112124",
+                  "name": "Precision Drive Shaft",
+                  "qty": 9,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112124.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104364",
+                  "name": "Philosophies of Vagrancy",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104364.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                },
+                {
+                  "id": "113082",
+                  "name": "Madman's Restraint",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_113082.webp",
+                  "source": "The Doctor",
+                  "sourceDetails": [
+                    {
+                      "name": "The Doctor",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Dotorre_Moon.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 450000
+            },
+            {
+              "items": [
+                {
+                  "id": "112124",
+                  "name": "Precision Drive Shaft",
+                  "qty": 12,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112124.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104364",
+                  "name": "Philosophies of Vagrancy",
+                  "qty": 16,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104364.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                },
+                {
+                  "id": "113082",
+                  "name": "Madman's Restraint",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_113082.webp",
+                  "source": "The Doctor",
+                  "sourceDetails": [
+                    {
+                      "name": "The Doctor",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Dotorre_Moon.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104319",
+                  "name": "Crown of Insight",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104319.webp"
+                }
+              ],
+              "cost": 700000
+            }
+          ],
+          [
+            {
+              "items": [
+                {
+                  "id": "112122",
+                  "name": "Broken Drive Shaft",
+                  "qty": 6,
+                  "rar": 1,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112122.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104362",
+                  "name": "Teachings of Vagrancy",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104362.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                }
+              ],
+              "cost": 12500
+            },
+            {
+              "items": [
+                {
+                  "id": "112123",
+                  "name": "Reinforced Drive Shaft",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112123.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104363",
+                  "name": "Guide to Vagrancy",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104363.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                }
+              ],
+              "cost": 17500
+            },
+            {
+              "items": [
+                {
+                  "id": "112123",
+                  "name": "Reinforced Drive Shaft",
+                  "qty": 4,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112123.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104363",
+                  "name": "Guide to Vagrancy",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104363.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                }
+              ],
+              "cost": 25000
+            },
+            {
+              "items": [
+                {
+                  "id": "112123",
+                  "name": "Reinforced Drive Shaft",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112123.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104363",
+                  "name": "Guide to Vagrancy",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104363.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                }
+              ],
+              "cost": 30000
+            },
+            {
+              "items": [
+                {
+                  "id": "112123",
+                  "name": "Reinforced Drive Shaft",
+                  "qty": 9,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112123.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104363",
+                  "name": "Guide to Vagrancy",
+                  "qty": 9,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104363.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                }
+              ],
+              "cost": 37500
+            },
+            {
+              "items": [
+                {
+                  "id": "112124",
+                  "name": "Precision Drive Shaft",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112124.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104364",
+                  "name": "Philosophies of Vagrancy",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104364.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                },
+                {
+                  "id": "113082",
+                  "name": "Madman's Restraint",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_113082.webp",
+                  "source": "The Doctor",
+                  "sourceDetails": [
+                    {
+                      "name": "The Doctor",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Dotorre_Moon.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 120000
+            },
+            {
+              "items": [
+                {
+                  "id": "112124",
+                  "name": "Precision Drive Shaft",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112124.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104364",
+                  "name": "Philosophies of Vagrancy",
+                  "qty": 6,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104364.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                },
+                {
+                  "id": "113082",
+                  "name": "Madman's Restraint",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_113082.webp",
+                  "source": "The Doctor",
+                  "sourceDetails": [
+                    {
+                      "name": "The Doctor",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Dotorre_Moon.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 260000
+            },
+            {
+              "items": [
+                {
+                  "id": "112124",
+                  "name": "Precision Drive Shaft",
+                  "qty": 9,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112124.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104364",
+                  "name": "Philosophies of Vagrancy",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104364.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                },
+                {
+                  "id": "113082",
+                  "name": "Madman's Restraint",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_113082.webp",
+                  "source": "The Doctor",
+                  "sourceDetails": [
+                    {
+                      "name": "The Doctor",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Dotorre_Moon.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 450000
+            },
+            {
+              "items": [
+                {
+                  "id": "112124",
+                  "name": "Precision Drive Shaft",
+                  "qty": 12,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112124.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104364",
+                  "name": "Philosophies of Vagrancy",
+                  "qty": 16,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104364.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                },
+                {
+                  "id": "113082",
+                  "name": "Madman's Restraint",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_113082.webp",
+                  "source": "The Doctor",
+                  "sourceDetails": [
+                    {
+                      "name": "The Doctor",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Dotorre_Moon.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104319",
+                  "name": "Crown of Insight",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104319.webp"
+                }
+              ],
+              "cost": 700000
+            }
+          ],
+          [
+            {
+              "items": [
+                {
+                  "id": "112122",
+                  "name": "Broken Drive Shaft",
+                  "qty": 6,
+                  "rar": 1,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112122.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104362",
+                  "name": "Teachings of Vagrancy",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104362.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                }
+              ],
+              "cost": 12500
+            },
+            {
+              "items": [
+                {
+                  "id": "112123",
+                  "name": "Reinforced Drive Shaft",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112123.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104363",
+                  "name": "Guide to Vagrancy",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104363.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                }
+              ],
+              "cost": 17500
+            },
+            {
+              "items": [
+                {
+                  "id": "112123",
+                  "name": "Reinforced Drive Shaft",
+                  "qty": 4,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112123.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104363",
+                  "name": "Guide to Vagrancy",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104363.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                }
+              ],
+              "cost": 25000
+            },
+            {
+              "items": [
+                {
+                  "id": "112123",
+                  "name": "Reinforced Drive Shaft",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112123.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104363",
+                  "name": "Guide to Vagrancy",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104363.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                }
+              ],
+              "cost": 30000
+            },
+            {
+              "items": [
+                {
+                  "id": "112123",
+                  "name": "Reinforced Drive Shaft",
+                  "qty": 9,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112123.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104363",
+                  "name": "Guide to Vagrancy",
+                  "qty": 9,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104363.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                }
+              ],
+              "cost": 37500
+            },
+            {
+              "items": [
+                {
+                  "id": "112124",
+                  "name": "Precision Drive Shaft",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112124.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104364",
+                  "name": "Philosophies of Vagrancy",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104364.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                },
+                {
+                  "id": "113082",
+                  "name": "Madman's Restraint",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_113082.webp",
+                  "source": "The Doctor",
+                  "sourceDetails": [
+                    {
+                      "name": "The Doctor",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Dotorre_Moon.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 120000
+            },
+            {
+              "items": [
+                {
+                  "id": "112124",
+                  "name": "Precision Drive Shaft",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112124.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104364",
+                  "name": "Philosophies of Vagrancy",
+                  "qty": 6,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104364.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                },
+                {
+                  "id": "113082",
+                  "name": "Madman's Restraint",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_113082.webp",
+                  "source": "The Doctor",
+                  "sourceDetails": [
+                    {
+                      "name": "The Doctor",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Dotorre_Moon.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 260000
+            },
+            {
+              "items": [
+                {
+                  "id": "112124",
+                  "name": "Precision Drive Shaft",
+                  "qty": 9,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112124.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104364",
+                  "name": "Philosophies of Vagrancy",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104364.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                },
+                {
+                  "id": "113082",
+                  "name": "Madman's Restraint",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_113082.webp",
+                  "source": "The Doctor",
+                  "sourceDetails": [
+                    {
+                      "name": "The Doctor",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Dotorre_Moon.webp"
+                    }
+                  ]
+                }
+              ],
+              "cost": 450000
+            },
+            {
+              "items": [
+                {
+                  "id": "112124",
+                  "name": "Precision Drive Shaft",
+                  "qty": 12,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_112124.webp",
+                  "sourceDetails": [
+                    {
+                      "name": "Close Combat Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreA_MoveA_AttackC_Water.webp"
+                    },
+                    {
+                      "name": "Force Recon Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveB_AttackB_Grass.webp"
+                    },
+                    {
+                      "name": "Force Recon Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveA_AttackB_Ice.webp"
+                    },
+                    {
+                      "name": "Force Recon Ground Effect Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreB_MoveE_AttackB_Wind.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Storm Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveD_AttackA_AttackC_AttackB_Electric.webp"
+                    },
+                    {
+                      "name": "Cutting Edge All-Purpose Scout Landcruiser",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104364",
+                  "name": "Philosophies of Vagrancy",
+                  "qty": 16,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104364.webp",
+                  "source": "Vagrancy - Nod-Krai - Lightless Capital",
+                  "sourceDetails": [
+                    {
+                      "name": "Vagrancy - Nod-Krai - Lightless Capital"
+                    }
+                  ]
+                },
+                {
+                  "id": "113082",
+                  "name": "Madman's Restraint",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_113082.webp",
+                  "source": "The Doctor",
+                  "sourceDetails": [
+                    {
+                      "name": "The Doctor",
+                      "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Dotorre_Moon.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "104319",
+                  "name": "Crown of Insight",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_104319.webp"
+                }
+              ],
+              "cost": 700000
+            }
+          ]
+        ],
+        "ascCost": 420000,
+        "talentCost": 4957500,
+        "currency": 5377500
+      },
+      "recent": 1
+    },
+    {
       "id": "gi-10000129",
       "n": "Lohen",
       "title": "Sharpened Arrowhead",
@@ -58145,8 +60464,7 @@
         "ascCost": 420000,
         "talentCost": 4957500,
         "currency": 5377500
-      },
-      "recent": 1
+      }
     },
     {
       "id": "gi-10000128",
@@ -304630,6 +306948,7 @@
         }
       ],
       "chars": [
+        "Sandrone",
         "Linnea",
         "Jahoda",
         "Flins"
@@ -305311,7 +307630,8 @@
           "chars": [
             "Flins",
             "Jahoda",
-            "Linnea"
+            "Linnea",
+            "Sandrone"
           ]
         }
       ]
@@ -305319,7 +307639,7 @@
   ],
   "boss": {
     "title": "Trounce Domain",
-    "count": 115
+    "count": 116
   },
   "bossGroups": [
     {
@@ -305560,6 +307880,15 @@
         "Chiori",
         "Navia",
         "Charlotte"
+      ]
+    },
+    {
+      "title": "Madman's Restraint",
+      "mats": [
+        "Madman's Restraint"
+      ],
+      "chars": [
+        "Sandrone"
       ]
     },
     {
@@ -305839,7 +308168,9 @@
               "icon": "../../Database/Nanoka/gi/assets/monsters/UI_MonsterIcon_Dotorre_Moon.webp"
             }
           ],
-          "chars": []
+          "chars": [
+            "Sandrone"
+          ]
         },
         {
           "id": "113083",

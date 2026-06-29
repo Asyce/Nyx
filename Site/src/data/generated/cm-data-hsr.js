@@ -76615,7 +76615,7 @@
       "slug": "march-7th-swordmaster",
       "updated": 1780178400000,
       "sourceOrder": 0,
-      "icon": "../../Database/Prydwen/hsr/assets/characters/feixiao-55d5418dfd9c.webp",
+      "icon": "../../Database/Prydwen/hsr/assets/characters/aventurine-0658046ea612.webp",
       "iconZoom": 1.18,
       "art": "../../Database/Prydwen/hsr/assets/characters/march-7th-the-hunt-f54d5c1be4e8.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/march-7th-the-hunt-d2e792400da2.webp",

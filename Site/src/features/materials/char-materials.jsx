@@ -24,6 +24,70 @@ const CM_TALENT_CFG = {
   gi:  { labels:CM_GI_TALENT_LABELS, short:CM_GI_TALENT_SHORT, max:[10, 10, 10] },
   hsr: { labels:['Basic ATK', 'Skill', 'Ultimate', 'Talent'], short:['Basic', 'Skill', 'Ult', 'Talent'], max:[6, 10, 10, 10] },
 };
+const CM_IDENTITY_SETTINGS_KEY = 'nyx-pengo-settings';
+const CM_IDENTITY_DEFAULTS = { twin:'aether', receptacle:'caelus', sibling:'wise', rover:'male', endmin:'male' };
+const CM_IDENTITY_ALLOWED = {
+  twin:['aether', 'lumine', 'paimon', 'little_one', 'arama'],
+  receptacle:['caelus', 'stelle', 'pom_pom', 'gepard', 'trash'],
+  sibling:['wise', 'belle', 'eous', 'fairy', 'phaethon'],
+  rover:['male', 'female', 'abby'],
+  endmin:['male', 'female', 'penguin'],
+};
+const CM_IDENTITY_ASSETS = {
+  gi:{
+    paimon:{ label:'Paimon', icon:'../assets/icon/paimon-moments.jpg', iconZoom:1.08, iconPosition:'50% 48%' },
+    little_one:{ label:'Little One', icon:'../assets/icon/little-one.png', iconZoom:1.05, iconPosition:'50% 50%' },
+    arama:{ label:'Arama', icon:'../assets/icon/arama.png', iconZoom:1.05, iconPosition:'50% 50%' },
+  },
+  hsr:{
+    caelus:{ label:'Caelus', iconZoom:1.42, iconPosition:'28% 26%' },
+    stelle:{ label:'Stelle', iconZoom:1.42, iconPosition:'73% 26%' },
+    pom_pom:{ label:'Pom-Pom', icon:'../assets/icon/pom-pom.png', iconZoom:1.08, iconPosition:'50% 50%' },
+    gepard:{ label:'Gepard?', icon:'../assets/icon/gepard-question.png', iconZoom:1.08, iconPosition:'50% 50%' },
+    trash:{ label:'I am Trash', icon:'../assets/icon/i-am-trash.png', iconZoom:1.08, iconPosition:'50% 50%' },
+  },
+  zzz:{
+    wise:{ label:'Wise', icon:'../assets/icon/wise-proxy.png', iconZoom:2.18, iconPosition:'50% 12%' },
+    belle:{ label:'Belle', icon:'../assets/icon/belle-proxy.png', iconZoom:2.05, iconPosition:'50% 12%' },
+    eous:{ label:'Eous', icon:'../assets/icon/eous.png', iconZoom:1.82, iconPosition:'50% 16%' },
+    fairy:{ label:'Fairy', icon:'../assets/icon/fairy.png', iconZoom:1.03, iconPosition:'50% 50%' },
+    phaethon:{ label:'Phaethon', icon:'../assets/icon/phaethon-emblem.png', iconZoom:1.05, iconPosition:'50% 50%' },
+  },
+  wuwa:{
+    male:{ label:'Male Rover', icon:'../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_RoverSkinMale.webp', iconZoom:1.08, iconPosition:'50% 35%' },
+    female:{ label:'Female Rover', icon:'../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_RoverSkinFemale.webp', iconZoom:1.08, iconPosition:'50% 35%' },
+    abby:{ label:'Abby', icon:'../assets/icon/abby-rover.png', iconZoom:1.03, iconPosition:'50% 24%' },
+  },
+  ae:{
+    penguin:{ label:'Penguin', icon:'../assets/icon/endminguin.png', iconZoom:1.68, iconPosition:'50% 12%' },
+  },
+};
+
+function cmSanitizeIdentityPrefs(raw){
+  const src = (raw && typeof raw === 'object') ? raw : {};
+  const next = Object.assign({}, CM_IDENTITY_DEFAULTS);
+  Object.keys(CM_IDENTITY_ALLOWED).forEach((key) => {
+    if (CM_IDENTITY_ALLOWED[key].includes(src[key])) next[key] = src[key];
+  });
+  return next;
+}
+
+function cmIdentityPrefsKey(prefs){
+  const safe = cmSanitizeIdentityPrefs(prefs);
+  return ['twin', 'receptacle', 'sibling', 'rover', 'endmin'].map((key) => safe[key]).join('|');
+}
+
+function cmLoadIdentityPrefs(){
+  try {
+    if (typeof window !== 'undefined' && window.NYX_IDENTITY_PREFS) {
+      return cmSanitizeIdentityPrefs(window.NYX_IDENTITY_PREFS);
+    }
+    const raw = JSON.parse(localStorage.getItem(CM_IDENTITY_SETTINGS_KEY) || '{}');
+    return cmSanitizeIdentityPrefs(raw.identity);
+  } catch (e) {
+    return Object.assign({}, CM_IDENTITY_DEFAULTS);
+  }
+}
 
 // Genshin ascension is 6 phases unlocked at Lv 20/40/50/60/70/80, each capping
 // the level at 40/50/60/70/80/90. The material quantities per phase are
@@ -342,6 +406,9 @@ function CMAvatar({ ch, big }){
   const pal = { a:'#9a89ea', b:'#372464', ring:'#cdb3ff', glow:'rgba(150,120,255,.55)' };
   const el = CM_ELEM[ch.el] || '#b7aaff';
   const real = ch.icon || ch.circle || (ch.n === 'Skirk' ? '../assets/char/skirk_circle.png' : null);
+  const imgStyle = {};
+  if (ch.iconZoom) imgStyle['--iconZoom'] = ch.iconZoom;
+  if (ch.iconPosition) imgStyle.objectPosition = ch.iconPosition;
   // Beta characters often ship before their artwork. Show a named, labelled
   // "art pending" fallback instead of silently rendering bare initials.
   const artPending = !real && ch.__beta;
@@ -352,7 +419,7 @@ function CMAvatar({ ch, big }){
       <div className="disc">
         {real ? <img
           className={ch.iconZoom ? 'zoom' : ''}
-          style={ch.iconZoom ? { '--iconZoom':ch.iconZoom } : undefined}
+          style={Object.keys(imgStyle).length ? imgStyle : undefined}
           src={real}
           alt={ch.n}
           draggable="false"
@@ -819,6 +886,169 @@ function cmActiveForm(ch, variantKey, genderKey){
     || ch;
 }
 
+function cmIdentityAliases(ch, names){
+  const seen = new Set();
+  return [...(ch?.aliases || []), ...(names || [])]
+    .filter(Boolean)
+    .filter((name) => {
+      const key = String(name).toLowerCase();
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+}
+
+function cmWithIdentityDisplay(ch, label, opts = {}){
+  const icon = opts.icon !== undefined ? opts.icon : ch.icon;
+  const circle = opts.circle !== undefined ? opts.circle : ch.circle;
+  const iconZoom = opts.iconZoom !== undefined ? opts.iconZoom : ch.iconZoom;
+  const iconPosition = opts.iconPosition !== undefined ? opts.iconPosition : ch.iconPosition;
+  const forms = opts.forms !== undefined ? opts.forms : ch.forms;
+  const nextForms = Array.isArray(forms) ? forms.map((form) => ({
+    ...form,
+    n: label,
+    icon: opts.formIcon !== undefined ? opts.formIcon : form.icon,
+    circle: opts.formCircle !== undefined ? opts.formCircle : form.circle,
+    iconZoom: opts.formIconZoom !== undefined ? opts.formIconZoom : form.iconZoom,
+    iconPosition: opts.formIconPosition !== undefined ? opts.formIconPosition : form.iconPosition,
+  })) : forms;
+  return {
+    ...ch,
+    n: label,
+    rawName: label,
+    baseName: opts.baseName || ch.baseName || ch.n,
+    aliases: cmIdentityAliases(ch, opts.aliases),
+    icon,
+    circle,
+    iconZoom,
+    iconPosition,
+    forms: nextForms,
+  };
+}
+
+function cmFormsForGender(ch, gender){
+  const forms = Array.isArray(ch?.forms) ? ch.forms : [];
+  const filtered = forms.filter((form) => form.gender === gender);
+  return filtered.length ? filtered : forms;
+}
+
+function cmApplyIdentityDisplay(gameKey, ch, prefs){
+  if (!ch) return ch;
+  const id = String(ch.id || '').toLowerCase();
+  const name = String(ch.n || ch.rawName || '').toLowerCase();
+  if (gameKey === 'gi' && (id === 'gi-traveler' || name === 'traveler')) {
+    const custom = CM_IDENTITY_ASSETS.gi[prefs.twin];
+    if (custom) {
+      return cmWithIdentityDisplay(ch, custom.label, {
+        icon:custom.icon,
+        circle:custom.icon,
+        iconZoom:custom.iconZoom,
+        iconPosition:custom.iconPosition,
+        formIcon:custom.icon,
+        formCircle:custom.icon,
+        formIconZoom:custom.iconZoom,
+        formIconPosition:custom.iconPosition,
+        aliases:['Traveler', 'Aether', 'Lumine', 'Paimon', 'Little One', 'Arama'],
+      });
+    }
+    const choice = prefs.twin === 'lumine' ? 'lumine' : 'aether';
+    const label = choice === 'lumine' ? 'Lumine' : 'Aether';
+    const gender = choice === 'lumine' ? 'female' : 'male';
+    const forms = cmFormsForGender(ch, gender);
+    const first = forms[0] || {};
+    return cmWithIdentityDisplay(ch, label, {
+      forms,
+      icon:first.icon || ch.icon,
+      circle:first.circle || ch.circle,
+      iconZoom:first.iconZoom || ch.iconZoom,
+      aliases:['Traveler', 'Aether', 'Lumine'],
+    });
+  }
+  if (gameKey === 'hsr' && (id === 'hsr-trailblazer' || name === 'trailblazer')) {
+    const choice = CM_IDENTITY_ASSETS.hsr[prefs.receptacle] ? prefs.receptacle : 'caelus';
+    const asset = CM_IDENTITY_ASSETS.hsr[choice];
+    const opts = {
+      icon:asset.icon,
+      circle:asset.icon,
+      iconZoom:asset.iconZoom,
+      iconPosition:asset.iconPosition,
+      formIcon:asset.icon,
+      formCircle:asset.icon,
+      formIconZoom:asset.iconZoom,
+      formIconPosition:asset.iconPosition,
+      aliases:['Trailblazer', 'Caelus', 'Stelle', 'Pom-Pom', 'Gepard?', 'I am Trash'],
+    };
+    if (!asset.icon) {
+      delete opts.icon;
+      delete opts.circle;
+      delete opts.formIcon;
+      delete opts.formCircle;
+    }
+    return cmWithIdentityDisplay(ch, asset.label, opts);
+  }
+  if (gameKey === 'zzz' && (id === 'zzz-pyrois' || name === 'pyrois')) {
+    const choice = CM_IDENTITY_ASSETS.zzz[prefs.sibling] ? prefs.sibling : 'wise';
+    const asset = CM_IDENTITY_ASSETS.zzz[choice];
+    return cmWithIdentityDisplay(ch, asset.label, {
+      icon:asset.icon,
+      circle:asset.icon,
+      iconZoom:asset.iconZoom,
+      iconPosition:asset.iconPosition,
+      formIcon:asset.icon,
+      formCircle:asset.icon,
+      formIconZoom:asset.iconZoom,
+      formIconPosition:asset.iconPosition,
+      aliases:['Pyrois', 'Lord Phaethon', 'Phaethon', 'Wise', 'Belle', 'Eous', 'Fairy'],
+    });
+  }
+  if (gameKey === 'wuwa' && (id === 'wuwa-rover' || name === 'rover')) {
+    const choice = CM_IDENTITY_ASSETS.wuwa[prefs.rover] ? prefs.rover : 'male';
+    const asset = CM_IDENTITY_ASSETS.wuwa[choice];
+    return cmWithIdentityDisplay(ch, asset.label, {
+      icon:asset.icon,
+      circle:asset.icon,
+      iconZoom:asset.iconZoom,
+      iconPosition:asset.iconPosition,
+      formIcon:asset.icon,
+      formCircle:asset.icon,
+      formIconZoom:asset.iconZoom,
+      formIconPosition:asset.iconPosition,
+      aliases:['Rover', 'Male Rover', 'Female Rover', 'Abby'],
+    });
+  }
+  if (gameKey === 'ae' && (id === 'ae-endministrator' || name === 'endministrator')) {
+    const choice = prefs.endmin || 'male';
+    if (choice === 'penguin') {
+      const asset = CM_IDENTITY_ASSETS.ae.penguin;
+      const forms = (Array.isArray(ch.forms) && ch.forms.length ? [ch.forms[0]] : ch.forms);
+      return cmWithIdentityDisplay(ch, asset.label, {
+        forms,
+        icon:asset.icon,
+        circle:asset.icon,
+        iconZoom:asset.iconZoom,
+        iconPosition:asset.iconPosition,
+        formIcon:asset.icon,
+        formCircle:asset.icon,
+        formIconZoom:asset.iconZoom,
+        formIconPosition:asset.iconPosition,
+        aliases:['Endministrator', 'Endmin', 'Penguin'],
+      });
+    }
+    const gender = choice === 'female' ? 'female' : 'male';
+    const forms = cmFormsForGender(ch, gender);
+    const first = forms[0] || {};
+    const label = gender === 'female' ? 'Female Endministrator' : 'Male Endministrator';
+    return cmWithIdentityDisplay(ch, label, {
+      forms,
+      icon:first.icon || ch.icon,
+      circle:first.circle || ch.circle,
+      iconZoom:first.iconZoom || ch.iconZoom,
+      aliases:['Endministrator', 'Endmin', 'Male Endministrator', 'Female Endministrator', 'Male Endmin', 'Female Endmin'],
+    });
+  }
+  return ch;
+}
+
 function cmSearchExtra(ch){
   const forms = Array.isArray(ch?.forms) ? ch.forms : [];
   return [
@@ -915,6 +1145,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
   const [weaponPickerOpen, setWeaponPickerOpen] = React.useState(false);
   const [weaponSearch, setWeaponSearch] = React.useState('');
   const [totalIncludeByChar, setTotalIncludeByChar] = React.useState(cmLoadTotalIncludePrefs);
+  const [identityPrefs, setIdentityPrefs] = React.useState(cmLoadIdentityPrefs);
 
   const betaAvailable = cmHasBeta(gk);
   const liveCfg = CM_CFG[gk] || null;
@@ -939,6 +1170,17 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
       setArtCycle((prev) => ({ ...prev, [key]: (idx + 1) % pool.length }));
     }
   }, [artCycle, gk]);
+
+  React.useEffect(() => {
+    const onIdentity = (event) => {
+      const next = cmSanitizeIdentityPrefs(event.detail || cmLoadIdentityPrefs());
+      setIdentityPrefs((prev) => (cmIdentityPrefsKey(prev) === cmIdentityPrefsKey(next) ? prev : next));
+    };
+    window.addEventListener('nyx:identity-changed', onIdentity);
+    return () => window.removeEventListener('nyx:identity-changed', onIdentity);
+  }, []);
+
+  React.useEffect(() => { setSel(null); }, [identityPrefs, gk]);
 
   React.useEffect(() => {
     let live = true;
@@ -1006,9 +1248,11 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
   }, [tab]);
   React.useEffect(() => {
     if (!selectedName) return;
-    const nextCfg = CM_CFG[game || gk] || cfg || { roster:[] };
+    const activeGame = game || gk;
+    const nextCfg = CM_CFG[activeGame] || cfg || { roster:[] };
+    const nextRoster = (nextCfg.roster || []).map((ch) => cmApplyIdentityDisplay(activeGame, ch, identityPrefs));
     const wanted = String(selectedName).toLowerCase();
-    const found = (nextCfg.roster || []).find((ch) => (
+    const found = nextRoster.find((ch) => (
       String(ch.n || '').toLowerCase() === wanted
       || (ch.forms || []).some((form) => String(form.rawName || form.n || '').toLowerCase() === wanted)
     ));
@@ -1020,7 +1264,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
         setActiveGender(form.gender || null);
       }
     }
-  }, [selectedName, game, gk, dataTick]);
+  }, [selectedName, game, gk, dataTick, identityPrefs]);
   React.useEffect(() => {
     setWeaponPickerOpen(false);
     setWeaponSearch('');
@@ -1078,8 +1322,13 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
   }
 
   const gMeta = cfg;
+  const displayRoster = (cfg.roster || []).map((ch) => cmApplyIdentityDisplay(gk, ch, identityPrefs));
   const byName = {};
-  cfg.roster.forEach(ch => { if (!byName[ch.n]) byName[ch.n] = ch; });
+  displayRoster.forEach(ch => {
+    [ch.n, ch.rawName, ch.baseName, ...(ch.aliases || [])].filter(Boolean).forEach((key) => {
+      if (!byName[key]) byName[key] = ch;
+    });
+  });
   const resolve = (name) => byName[name] || { n:name, r:cfg.rarities[0], el:cfg.filters[0].opts[0] };
 
   const qq = q.trim().toLowerCase();
@@ -1151,10 +1400,10 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
   );
 
   // ----- roster tab data -----
-  const roster = cfg.roster.filter(show);
+  const roster = displayRoster.filter(show);
   // G14: beta-new units lead the Recent strip. G24: Recent is an ADDITIONAL
   // quick-access row — units still appear under their 5★/4★ rarity group too.
-  const recent = cfg.roster.filter((ch) => ch.recent).filter(show)
+  const recent = displayRoster.filter((ch) => ch.recent).filter(show)
     .sort((a, b) => (a.__betaNew ? 0 : 1) - (b.__betaNew ? 0 : 1));
   const rarityGroups = cfg.rarities.map(r => ({ r, label:cfg.rarityLabel[r], list:roster.filter(c => c.r === r) }));
 
@@ -1538,7 +1787,8 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                   <div className="cm-ledger-title">
                     <div className="cm-pop-name-row">
                       <span className="cm-pop-name-wrap">
-                        {(view.icon || view.circle) && <img className="cm-name-circle" src={view.icon || view.circle} alt="" draggable="false" />}
+                        {(view.icon || view.circle) && <img className="cm-name-circle" src={view.icon || view.circle} alt="" draggable="false"
+                          style={view.iconPosition ? { objectPosition:view.iconPosition } : undefined} />}
                         <span className="cm-pop-name">{sel.n}</span>
                         {sel.__betaNew && <span className="cm-beta-tag pop" title="Beta (latest) data — upcoming and subject to change">Beta</span>}
                       </span>

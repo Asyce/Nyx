@@ -43,18 +43,11 @@ const CM_GAME_LABELS = {
   "ae": "Arknights: Endfield"
 };
 const CM_BETA_FILES = {
-  "gi": "../dist/cm-data-gi-beta.js",
   "hsr": "../dist/cm-data-hsr-beta.js",
   "zzz": "../dist/cm-data-zzz-beta.js",
   "wuwa": "../dist/cm-data-wuwa-beta.js"
 };
 const CM_BETA_META = {
-  "gi": {
-    "version": "6.6.54+45738258",
-    "liveVersion": "6.6",
-    "newCount": 1,
-    "changedCount": 0
-  },
   "hsr": {
     "version": "4.3.55",
     "liveVersion": "4.3",
@@ -62,16 +55,16 @@ const CM_BETA_META = {
     "changedCount": 15
   },
   "zzz": {
-    "version": "3.1.3+17042499",
+    "version": "3.1.3+17077339",
     "liveVersion": "3.0",
     "newCount": 1,
     "changedCount": 0
   },
   "wuwa": {
-    "version": "3.5.4",
+    "version": "3.5.5",
     "liveVersion": "3.4",
     "newCount": 0,
-    "changedCount": 10
+    "changedCount": 12
   }
 };
 const CM_LOADS = window.__NYX_CM_LOADS || {};

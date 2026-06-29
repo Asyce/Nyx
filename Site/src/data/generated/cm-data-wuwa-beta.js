@@ -7,11 +7,290 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["wuwa"] = {
-  "version": "3.5.4",
+  "version": "3.5.5",
   "liveVersion": "3.4",
   "newCount": 0,
-  "changedCount": 10,
+  "changedCount": 12,
   "roster": [
+    {
+      "id": "ww-yangyang-xuanling",
+      "n": "Yangyang Xuanling",
+      "title": "Voices of Azure Plume",
+      "slug": "yangyang-xuanling",
+      "updated": 1781733600000,
+      "sourceOrder": 1610,
+      "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_70_UI.webp",
+      "art": "../../Database/Prydwen/ww/assets/characters/yangyang-xuanling-47cdc9f48f22.webp",
+      "card": "../../Database/Prydwen/ww/assets/characters/yangyang-xuanling-184e6fda4c3c.webp",
+      "status": "beta",
+      "labels": [
+        "3.5"
+      ],
+      "r": 5,
+      "el": "Havoc",
+      "w": "Sword",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLingB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLingC1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLingY.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXuanLing/SP_IconXuanLingQTE.webp"
+      ],
+      "req": {
+        "ascension": [
+          {
+            "id": "41100091",
+            "name": "41100091",
+            "qty": 4,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
+            "source": "AccessPath_611001_Description / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "AccessPath_611001_Description"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100092",
+            "name": "41100092",
+            "qty": 12,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+            "source": "AccessPath_611001_Description / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "AccessPath_611001_Description"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100093",
+            "name": "41100093",
+            "qty": 12,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+            "source": "AccessPath_611001_Description",
+            "sourceDetails": [
+              {
+                "name": "AccessPath_611001_Description"
+              }
+            ]
+          },
+          {
+            "id": "41100094",
+            "name": "41100094",
+            "qty": 4,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
+            "source": "AccessPath_611001_Description",
+            "sourceDetails": [
+              {
+                "name": "AccessPath_611001_Description"
+              }
+            ]
+          },
+          {
+            "id": "41400334",
+            "name": "Solidarity's Loneflame",
+            "qty": 46,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_027_UI.webp",
+            "source": "AccessPath_236000_Description / AccessPath_236001_Description",
+            "sourceDetails": [
+              {
+                "name": "AccessPath_236000_Description"
+              },
+              {
+                "name": "AccessPath_236001_Description"
+              }
+            ]
+          },
+          {
+            "id": "42601600",
+            "name": "42601600",
+            "qty": 60,
+            "rar": 1,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_075_UI.webp",
+            "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+            "sourceDetails": [
+              {
+                "name": "Collection Spots"
+              },
+              {
+                "name": "Overworld Collection"
+              },
+              {
+                "name": "Resonator Nursing Unit"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "41100091",
+            "name": "41100091",
+            "qty": 25,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
+            "source": "AccessPath_611001_Description / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "AccessPath_611001_Description"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100092",
+            "name": "41100092",
+            "qty": 28,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+            "source": "AccessPath_611001_Description / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "AccessPath_611001_Description"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100093",
+            "name": "41100093",
+            "qty": 40,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+            "source": "AccessPath_611001_Description",
+            "sourceDetails": [
+              {
+                "name": "AccessPath_611001_Description"
+              }
+            ]
+          },
+          {
+            "id": "41100094",
+            "name": "41100094",
+            "qty": 57,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
+            "source": "AccessPath_611001_Description",
+            "sourceDetails": [
+              {
+                "name": "AccessPath_611001_Description"
+              }
+            ]
+          },
+          {
+            "id": "41400304",
+            "name": "We Who Question",
+            "qty": 26,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_026_UI.webp",
+            "source": "Denia / Denia - Early Access",
+            "sourceDetails": [
+              {
+                "name": "Denia",
+                "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34028_UI.webp"
+              }
+            ]
+          },
+          {
+            "id": "43021011",
+            "name": "Broken Wing Polarizer",
+            "qty": 25,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
+            "source": "Stay tuned / Forgery Challenge: Forsaken Remnants",
+            "sourceDetails": [
+              {
+                "name": "Stay tuned"
+              },
+              {
+                "name": "Forgery Challenge: Forsaken Remnants"
+              }
+            ]
+          },
+          {
+            "id": "43021012",
+            "name": "Monowing Polarizer",
+            "qty": 28,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
+            "source": "Stay tuned / Forgery Challenge: Forsaken Remnants",
+            "sourceDetails": [
+              {
+                "name": "Stay tuned"
+              },
+              {
+                "name": "Forgery Challenge: Forsaken Remnants"
+              }
+            ]
+          },
+          {
+            "id": "43021013",
+            "name": "Polywing Polarizer",
+            "qty": 55,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
+            "source": "Stay tuned / Forgery Challenge: Forsaken Remnants",
+            "sourceDetails": [
+              {
+                "name": "Stay tuned"
+              },
+              {
+                "name": "Forgery Challenge: Forsaken Remnants"
+              }
+            ]
+          },
+          {
+            "id": "43021014",
+            "name": "Layered Wing Polarizer",
+            "qty": 67,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
+            "source": "Stay tuned / Forgery Challenge: Forsaken Remnants",
+            "sourceDetails": [
+              {
+                "name": "Stay tuned"
+              },
+              {
+                "name": "Forgery Challenge: Forsaken Remnants"
+              }
+            ]
+          }
+        ],
+        "ascCost": 170000,
+        "talentCost": 2030000,
+        "currency": 2200000
+      },
+      "betaStatus": "changed"
+    },
     {
       "id": "ww-lucy",
       "n": "Lucy",
@@ -2222,6 +2501,287 @@
         "currency": 2200000
       },
       "recent": 1,
+      "betaStatus": "changed"
+    },
+    {
+      "id": "ww-suisui",
+      "n": "Suisui",
+      "title": "Host of Harmony",
+      "slug": "suisui",
+      "updated": 1781733600000,
+      "sourceOrder": 1110,
+      "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_71_UI.webp",
+      "art": "../../Database/Prydwen/ww/assets/characters/suisui-d7e1ee5a66d1.webp",
+      "card": "../../Database/Prydwen/ww/assets/characters/suisui-6c2f0381f367.webp",
+      "status": "beta",
+      "labels": [
+        "3.5"
+      ],
+      "r": 5,
+      "el": "Glacio",
+      "w": "Rectifier",
+      "skillIcons": [
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiB1.webp",
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiC1.webp",
+        null,
+        "../../Database/Nanoka/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiQTE.webp"
+      ],
+      "req": {
+        "ascension": [
+          {
+            "id": "41100091",
+            "name": "41100091",
+            "qty": 4,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
+            "source": "AccessPath_611001_Description / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "AccessPath_611001_Description"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100092",
+            "name": "41100092",
+            "qty": 12,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+            "source": "AccessPath_611001_Description / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "AccessPath_611001_Description"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100093",
+            "name": "41100093",
+            "qty": 12,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+            "source": "AccessPath_611001_Description",
+            "sourceDetails": [
+              {
+                "name": "AccessPath_611001_Description"
+              }
+            ]
+          },
+          {
+            "id": "41100094",
+            "name": "41100094",
+            "qty": 4,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
+            "source": "AccessPath_611001_Description",
+            "sourceDetails": [
+              {
+                "name": "AccessPath_611001_Description"
+              }
+            ]
+          },
+          {
+            "id": "41400334",
+            "name": "Solidarity's Loneflame",
+            "qty": 46,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_027_UI.webp",
+            "source": "AccessPath_236000_Description / AccessPath_236001_Description",
+            "sourceDetails": [
+              {
+                "name": "AccessPath_236000_Description"
+              },
+              {
+                "name": "AccessPath_236001_Description"
+              }
+            ]
+          },
+          {
+            "id": "42601610",
+            "name": "42601610",
+            "qty": 60,
+            "rar": 1,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_075_UI.webp",
+            "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
+            "sourceDetails": [
+              {
+                "name": "Collection Spots"
+              },
+              {
+                "name": "Overworld Collection"
+              },
+              {
+                "name": "Resonator Nursing Unit"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "41100091",
+            "name": "41100091",
+            "qty": 25,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
+            "source": "AccessPath_611001_Description / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "AccessPath_611001_Description"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100092",
+            "name": "41100092",
+            "qty": 28,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+            "source": "AccessPath_611001_Description / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "AccessPath_611001_Description"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100093",
+            "name": "41100093",
+            "qty": 40,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+            "source": "AccessPath_611001_Description",
+            "sourceDetails": [
+              {
+                "name": "AccessPath_611001_Description"
+              }
+            ]
+          },
+          {
+            "id": "41100094",
+            "name": "41100094",
+            "qty": 57,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
+            "source": "AccessPath_611001_Description",
+            "sourceDetails": [
+              {
+                "name": "AccessPath_611001_Description"
+              }
+            ]
+          },
+          {
+            "id": "41400324",
+            "name": "Skyward Glazed Heart",
+            "qty": 26,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_026_UI.webp",
+            "source": "AccessPath_237000_Description / AccessPath_237001_Description",
+            "sourceDetails": [
+              {
+                "name": "AccessPath_237000_Description"
+              },
+              {
+                "name": "AccessPath_237001_Description"
+              }
+            ]
+          },
+          {
+            "id": "43021031",
+            "name": "Spliced String",
+            "qty": 25,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_1_UI.webp",
+            "source": "Stay tuned / Forgery Challenge: Lesson in Sunset",
+            "sourceDetails": [
+              {
+                "name": "Stay tuned"
+              },
+              {
+                "name": "Forgery Challenge: Lesson in Sunset"
+              }
+            ]
+          },
+          {
+            "id": "43021032",
+            "name": "Broken String",
+            "qty": 28,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_2_UI.webp",
+            "source": "Stay tuned / Forgery Challenge: Lesson in Sunset",
+            "sourceDetails": [
+              {
+                "name": "Stay tuned"
+              },
+              {
+                "name": "Forgery Challenge: Lesson in Sunset"
+              }
+            ]
+          },
+          {
+            "id": "43021033",
+            "name": "Solidified String",
+            "qty": 55,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_3_UI.webp",
+            "source": "Stay tuned / Forgery Challenge: Lesson in Sunset",
+            "sourceDetails": [
+              {
+                "name": "Stay tuned"
+              },
+              {
+                "name": "Forgery Challenge: Lesson in Sunset"
+              }
+            ]
+          },
+          {
+            "id": "43021034",
+            "name": "Melodic String",
+            "qty": 67,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_4_UI.webp",
+            "source": "Stay tuned / Forgery Challenge: Lesson in Sunset",
+            "sourceDetails": [
+              {
+                "name": "Stay tuned"
+              },
+              {
+                "name": "Forgery Challenge: Lesson in Sunset"
+              }
+            ]
+          }
+        ],
+        "ascCost": 170000,
+        "talentCost": 2030000,
+        "currency": 2200000
+      },
       "betaStatus": "changed"
     },
     {

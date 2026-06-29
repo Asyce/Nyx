@@ -1361,11 +1361,20 @@ const DEFAULT_TAB = () => 'overview';
 // Shares cmHasBeta/cmLoadChannel/cmSaveChannel from char-materials.jsx (same bundle).
 const NYX_PENGO_SETTINGS_KEY = 'nyx-pengo-settings';
 const NYX_PENGO_DISPLAY_DEFAULTS = { gi:true, hsr:true, zzz:true, wuwa:true, ae:true };
+const NYX_IDENTITY_DEFAULTS = { twin:'aether', receptacle:'caelus', sibling:'wise', rover:'male', endmin:'male' };
+const NYX_IDENTITY_GROUPS = [
+  { key:'twin', label:'Traveler', tip:'Who went with Columbina to the moon?', options:[['aether', 'Aether'], ['lumine', 'Lumine'], ['paimon', 'Paimon'], ['little_one', 'Little One'], ['arama', 'Arama']] },
+  { key:'receptacle', label:'Trailblazer', tip:'Who is digging into the Trashcan?', options:[['caelus', 'Caelus'], ['stelle', 'Stelle'], ['pom_pom', 'Pom-Pom'], ['gepard', 'Gepard?'], ['trash', 'I am Trash']] },
+  { key:'sibling', label:'Lord Phaethon', tip:"Don't worry, Vivian loves both Lord Phaethons equally", options:[['wise', 'Wise'], ['belle', 'Belle'], ['eous', 'Eous'], ['fairy', 'Fairy'], ['phaethon', 'Phaethon']] },
+  { key:'rover', label:'Rover', tip:"Abby doesn't ask questions when you change gender", options:[['male', 'Male'], ['female', 'Female'], ['abby', 'Abby']] },
+  { key:'endmin', label:'Endministrator', tip:'Who is your Originium Penguin?', options:[['male', 'Male'], ['female', 'Female'], ['penguin', 'Penguin']] },
+];
 const NYX_PENGO_DEFAULTS = {
   whispers: true,
   animation: 'play',
   khaenriah: false,
   displayGames: NYX_PENGO_DISPLAY_DEFAULTS,
+  identity: NYX_IDENTITY_DEFAULTS,
   lapis: false,
   energy: 35,
   spawn: 1,
@@ -1378,12 +1387,23 @@ function clampPengoNumber(value, min, max){
   return Math.max(min, Math.min(max, n));
 }
 
+function sanitizeNyxIdentity(raw){
+  const src = (raw && typeof raw === 'object') ? raw : {};
+  const next = Object.assign({}, NYX_IDENTITY_DEFAULTS);
+  NYX_IDENTITY_GROUPS.forEach((group) => {
+    const allowed = group.options.map(([key]) => key);
+    if (allowed.includes(src[group.key])) next[group.key] = src[group.key];
+  });
+  return next;
+}
+
 function loadPengoSettings(){
   try {
     const raw = JSON.parse(localStorage.getItem(NYX_PENGO_SETTINGS_KEY) || '{}');
     return Object.assign({}, NYX_PENGO_DEFAULTS, raw, {
       animation: ['play', 'pause', 'stop'].includes(raw.animation) ? raw.animation : NYX_PENGO_DEFAULTS.animation,
       displayGames: Object.assign({}, NYX_PENGO_DISPLAY_DEFAULTS, raw.displayGames || {}),
+      identity: sanitizeNyxIdentity(raw.identity),
       energy: clampPengoNumber(raw.energy ?? NYX_PENGO_DEFAULTS.energy, 1, 69),
       spawn: clampPengoNumber(raw.spawn ?? NYX_PENGO_DEFAULTS.spawn, 0, 9999),
       sacrifice: clampPengoNumber(raw.sacrifice ?? NYX_PENGO_DEFAULTS.sacrifice, 0, 9999),
@@ -1395,6 +1415,8 @@ function loadPengoSettings(){
 
 function PengoMenu({ settings, setSettings }){
   const update = (patch) => setSettings((prev) => Object.assign({}, prev, patch));
+  const identity = sanitizeNyxIdentity(settings.identity);
+  const setIdentity = (group, value) => update({ identity:Object.assign({}, identity, { [group]:value }) });
   const opusCount = clampPengoNumber(settings.spawn ?? settings.sacrifice ?? NYX_PENGO_DEFAULTS.spawn, 0, 9999);
   const setOpusCount = (value) => {
     const next = clampPengoNumber(value, 0, 9999);
@@ -1422,6 +1444,29 @@ function PengoMenu({ settings, setSettings }){
   const animIcon = settings.animation === 'play' ? '\u25b6' : (settings.animation === 'pause' ? '\u23f8' : '\u25a0');
   return (
     <div className="nyx-pengo-menu" role="dialog" aria-label="Pengo settings" onClick={(e) => e.stopPropagation()}>
+      <section>
+        <h3>Magnum Opus Pengonis</h3>
+        <button type="button" className="pm-row" data-tip="Power assistant Pengo On/Off"
+                onClick={() => update({ lapis:!settings.lapis })}>
+          <span>Lapis Philosophorum</span><b className="pm-state">{settings.lapis ? 'On' : 'Off'}</b>
+        </button>
+        <label className="pm-slider" data-tip="Change how much energy is being poured into Pengo. Size change.">
+          <span>Energy</span>
+          <input type="range" min="1" max="69" value={settings.energy}
+                 onChange={(e) => update({ energy:clampPengoNumber(e.target.value, 1, 69) })} />
+        </label>
+        <div className="pm-opus-actions">
+          <button type="button" className="pm-action" data-tip="Summon more Pengo assistants to keep you company!">Summon</button>
+          <button type="button" className="pm-action" data-tip="Every Pengo returns to the Void. There, they await your inevitable arrival, ready to serve once more.">Sacrifice</button>
+          <div className="pm-stepper" aria-label="Pengo count">
+            <button type="button" aria-label="Decrease Pengo count" onClick={() => bumpOpusCount(-1)}>-</button>
+            <input type="text" inputMode="numeric" pattern="[0-9]*" value={opusCount}
+                   aria-label="Pengo count" onChange={(e) => setOpusCount(e.target.value)} />
+            <button type="button" aria-label="Increase Pengo count" onClick={() => bumpOpusCount(1)}>+</button>
+          </div>
+        </div>
+        <button type="button" className="pm-reset" data-tip="Reset the Magnum Opus Pengonis to default" onClick={resetOpus}>Reset</button>
+      </section>
       <section>
         <h3>Interface</h3>
         <button type="button" className={'pm-row media ' + settings.animation}
@@ -1455,27 +1500,23 @@ function PengoMenu({ settings, setSettings }){
         <button type="button" className="pm-reset" data-tip="Reset the interface to default" onClick={resetInterface}>Reset</button>
       </section>
       <section>
-        <h3>Magnum Opus Pengonis</h3>
-        <button type="button" className="pm-row" data-tip="Power assistant Pengo On/Off"
-                onClick={() => update({ lapis:!settings.lapis })}>
-          <span>Lapis Philosophorum</span><b className="pm-state">{settings.lapis ? 'On' : 'Off'}</b>
-        </button>
-        <label className="pm-slider" data-tip="Change how much energy is being poured into Pengo. Size change.">
-          <span>Energy</span>
-          <input type="range" min="1" max="69" value={settings.energy}
-                 onChange={(e) => update({ energy:clampPengoNumber(e.target.value, 1, 69) })} />
-        </label>
-        <div className="pm-opus-actions">
-          <button type="button" className="pm-action" data-tip="Summon more Pengo assistants to keep you company!">Summon</button>
-          <button type="button" className="pm-action" data-tip="Every Pengo returns to the Void. There, they await your inevitable arrival, ready to serve once more.">Sacrifice</button>
-          <div className="pm-stepper" aria-label="Pengo count">
-            <button type="button" aria-label="Decrease Pengo count" onClick={() => bumpOpusCount(-1)}>-</button>
-            <input type="text" inputMode="numeric" pattern="[0-9]*" value={opusCount}
-                   aria-label="Pengo count" onChange={(e) => setOpusCount(e.target.value)} />
-            <button type="button" aria-label="Increase Pengo count" onClick={() => bumpOpusCount(1)}>+</button>
-          </div>
+        <h3>Who are you?</h3>
+        <div className="pm-identity-list">
+          {NYX_IDENTITY_GROUPS.map((group) => (
+            <div key={group.key} className="pm-identity-row" data-tip={group.tip}>
+              <span>{group.label}</span>
+              <div className="pm-choice-set" role="group" aria-label={group.label}>
+                {group.options.map(([key, label]) => (
+                  <button key={key} type="button" className={identity[group.key] === key ? 'on' : ''}
+                          aria-pressed={identity[group.key] === key}
+                          onClick={() => setIdentity(group.key, key)}>
+                    {label}
+                  </button>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
-        <button type="button" className="pm-reset" data-tip="Reset the Magnum Opus Pengonis to default" onClick={resetOpus}>Reset</button>
       </section>
     </div>
   );
@@ -1484,23 +1525,27 @@ function PengoMenu({ settings, setSettings }){
 function NyxChannelToggle({ gameKey }){
   const [channel, setChannel] = React.useState(() => cmLoadChannel(gameKey));
   React.useEffect(() => { setChannel(cmLoadChannel(gameKey)); }, [gameKey]);
-  if (!cmHasBeta(gameKey)) return null;
+  const betaAvailable = cmHasBeta(gameKey);
   const pick = (ch) => {
-    setChannel(ch);
-    cmSaveChannel(gameKey, ch);
-    try { window.dispatchEvent(new CustomEvent('nyx:cm-channel-changed', { detail:{ key:gameKey, channel:ch } })); } catch (e) {}
+    const next = ch === 'beta' && !betaAvailable ? 'live' : ch;
+    setChannel(next);
+    cmSaveChannel(gameKey, next);
+    try { window.dispatchEvent(new CustomEvent('nyx:cm-channel-changed', { detail:{ key:gameKey, channel:next } })); } catch (e) {}
   };
-  const isBeta = channel === 'beta';
+  const isBeta = betaAvailable && channel === 'beta';
   const toggle = () => pick(isBeta ? 'live' : 'beta');
   return (
-    <div className={'cm-chan-switch' + (isBeta ? ' beta' : ' live')} role="group" aria-label="Data channel: Live or Beta" onClick={toggle}>
+    <div className={'cm-chan-switch' + (isBeta ? ' beta' : ' live') + (betaAvailable ? '' : ' no-beta')}
+         role="group" aria-label="Data channel: Live or Beta" onClick={toggle}
+         title={betaAvailable ? undefined : 'Beta data is not available for this game yet'}>
       <button type="button" className={'cm-chan-option live-option' + (!isBeta ? ' on' : '')} aria-pressed={!isBeta}
-              title="Released, live-server data">Live</button>
+              title="Released, live-server data" onClick={(e) => { e.stopPropagation(); pick('live'); }}>Live</button>
       <span className="cm-chan-medallion" aria-hidden="true">
         <img src="../assets/icon/pengoemote.png" alt="" draggable="false" />
       </span>
       <button type="button" className={'cm-chan-option beta-option' + (isBeta ? ' on' : '')} aria-pressed={isBeta}
-              title="Beta (latest) data — upcoming, subject to change">Beta</button>
+              aria-disabled={!betaAvailable} onClick={(e) => { e.stopPropagation(); pick('beta'); }}
+              title={betaAvailable ? 'Beta (latest) data - upcoming, subject to change' : 'No beta data available yet'}>Beta</button>
     </div>
   );
 }
@@ -1517,6 +1562,9 @@ function NyxApp(){
 
   React.useEffect(() => {
     try { localStorage.setItem(NYX_PENGO_SETTINGS_KEY, JSON.stringify(pengoSettings)); } catch (e) {}
+    const identity = sanitizeNyxIdentity(pengoSettings.identity);
+    window.NYX_IDENTITY_PREFS = identity;
+    try { window.dispatchEvent(new CustomEvent('nyx:identity-changed', { detail:identity })); } catch (e) {}
     const root = document.documentElement;
     root.classList.toggle('nyx-whispers-off', !pengoSettings.whispers);
     root.classList.toggle('nyx-pattern-paused', pengoSettings.animation === 'pause');

@@ -78,7 +78,7 @@ window.NyxPullStore = (function () {
     });
   }
 
-  async function savePulls(game, uid, pulls) {
+  async function savePulls(game, uid, pulls, meta) {
     if (!pulls || pulls.length === 0) return { added: 0, skipped: 0 };
     const db = await openDb();
     const tx = db.transaction([PULLS, META], 'readwrite');
@@ -95,7 +95,14 @@ window.NyxPullStore = (function () {
     const all = await readPulls(game, uid, tx);
     const byBanner = {};
     for (const p of all) byBanner[p.banner] = (byBanner[p.banner] || 0) + 1;
-    tx.objectStore(META).put({ game: game, uid: uid, importedAt: Date.now(), totalPulls: all.length, byBanner: byBanner });
+    tx.objectStore(META).put({
+      game: game,
+      uid: uid,
+      importedAt: Date.now(),
+      totalPulls: all.length,
+      byBanner: byBanner,
+      accountName: meta && meta.accountName ? String(meta.accountName) : '',
+    });
     await txDone(tx);
     return { added: added, skipped: skipped };
   }

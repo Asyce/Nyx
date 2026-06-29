@@ -337,12 +337,16 @@ function gtPityBands(fives, soft, hard){
   return bands.map((band) => Object.assign({}, band, { count:(fives || []).filter((f) => band.test(f.pity || 0)).length }));
 }
 
-function gtPullOutcome(five, banner){
+function gtPullOutcome(five, banner, gameKey){
   if (banner && banner.ff) {
     if (five.ff) return five.won ? '50:50 win' : '50:50 loss';
     return 'Guaranteed';
   }
-  return 'Fixed pool';
+  const key = (banner && banner.key) || five.bannerKey || five.banner || '';
+  const type = gtBannerTimelineType(key);
+  if (type === 'weapon') return gameKey === 'gi' ? 'Weapon banner' : 'Weapon pool';
+  if (type === 'standard' || key === 'beginner') return 'Standard pool';
+  return 'Limited pool';
 }
 
 function gtPullOutcomeClass(five, banner){
@@ -350,7 +354,7 @@ function gtPullOutcomeClass(five, banner){
     if (!five.ff) return 'guaranteed';
     return five.won ? 'fifty win' : 'fifty loss';
   }
-  return 'fixed';
+  return 'pool';
 }
 
 function gtPityFilterMatch(five, banner, filter){
@@ -384,45 +388,132 @@ function gtHistoryRows(active, filter){
   });
 }
 
+function gtRealUid(value){
+  const s = String(value || '').trim();
+  return /^\d{6,}$/.test(s) ? s : '';
+}
+
+function gtAccountLabel(data, uid, adapterLabel, fallbackName){
+  const id = gtRealUid(uid || (data && data.uid));
+  const rawName = String(
+    (data && (data.accountName || data.nickname || data.name || data.profileName)) ||
+    ''
+  ).trim();
+  let name = rawName;
+  if (!name) {
+    const stored = String((data && data.uid) || uid || '').trim();
+    if (/paimon/i.test(stored)) name = 'Paimon.moe import';
+    else if (/^imported$/i.test(stored)) name = 'Imported history';
+    else name = adapterLabel ? (adapterLabel + ' account') : (fallbackName || 'Local history');
+  }
+  return id ? (name + ' · UID ' + id) : name;
+}
+
+function gtSourceBannerLabel(gameKey, row){
+  const sourceKey = row.banner || row.bannerKey || '';
+  const sourceType = gtBannerTimelineType(sourceKey);
+  const source = String(row.sourceBanner || '').trim();
+  if (sourceType === 'weapon') return source || row.bannerLabel || 'Weapon banner';
+  if (sourceType === 'standard' || sourceKey === 'beginner') return source || row.bannerLabel || gtBannerKindLabel(sourceKey, row.bannerLabel);
+
+  const period = gtPeriodForBannerKey(gameKey, sourceKey, row.time || 0);
+  if (period && Array.isArray(period.featured5) && period.featured5.length) {
+    const pulledName = gtNormName(row.name);
+    const featured = period.featured5 || [];
+    const pulledFeatured = featured.find((name) => gtNormName(name) === pulledName);
+    if (pulledFeatured) {
+      const meta = gtRosterMeta(gameKey, pulledFeatured) || {};
+      return meta.name || gtTitleName(pulledFeatured);
+    }
+    if (sourceKey === 'character' || sourceKey === 'character2') {
+      const raw = featured[sourceKey === 'character2' ? 1 : 0] || featured[0];
+      const meta = gtRosterMeta(gameKey, raw) || {};
+      return meta.name || gtTitleName(raw);
+    }
+    return period.name || gtBannerPeriodLabel(gameKey, period);
+  }
+  return source || row.bannerLabel || gtBannerKindLabel(sourceKey, row.bannerLabel);
+}
+
+function gtRenderPityPanel({ gameKey, pityBanners, pityFilter, setPityFilter, standalone }){
+  return (
+    <section className={'gt-panel-box gt-pity-observatory' + (standalone ? ' gt-pity-wide' : '')}>
+      <div className="gt-box-head"><b>Pity observatory</b><span>Character / Weapon / Standard / Chronicled</span></div>
+      <div className="gt-pity-filters" role="group" aria-label="Pity filters">
+        {[
+          ['all', 'All'],
+          ['guaranteed', 'Guaranteed'],
+          ['fifty', '50:50'],
+          ['early', 'Early'],
+          ['soft', 'Soft+'],
+        ].map((pair) => <button key={pair[0]} type="button" className={pityFilter === pair[0] ? 'on' : ''} onClick={() => setPityFilter(pair[0])}>{pair[1]}</button>)}
+      </div>
+      <div className="gt-pity-lanes">
+        {pityBanners.map((banner) => {
+          const laneFives = (banner.fives || []).filter((five) => gtPityFilterMatch(five, banner, pityFilter));
+          const hard = banner.hard || 90;
+          const soft = banner.soft || 74;
+          return (
+            <div key={banner.key} className="gt-pity-lane">
+              <div className="gt-pity-lane-label">
+                <b>{banner.label}</b>
+                <span>{laneFives.length}/{(banner.fives || []).length} shown</span>
+              </div>
+              <div className="gt-pity-track">
+                <mark style={{ left:Math.min(100, (soft / hard) * 100) + '%' }}></mark>
+                {laneFives.map((five, idx) => (
+                  <i key={(five.id || idx) + ':' + five.name}
+                     className={gtPityDotClass(five, banner)}
+                     style={{ left:Math.max(2, Math.min(98, (((five.pity || five.pity5 || 0) / hard) * 100))) + '%' }}
+                     title={five.name + ' / ' + gtPullOutcome(five, banner, gameKey) + ' / pity ' + (five.pity || five.pity5 || '-')}></i>
+                ))}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+      <div className="gt-pity-legend">
+        <span className="early">Early</span>
+        <span className="soft">Soft+</span>
+        <span className="guaranteed">Guaranteed</span>
+        <span className="fifty">50:50</span>
+      </div>
+    </section>
+  );
+}
+
 function gtRenderResultsView(ctx){
   const {
     banners, gameKey, bannerByKey, characterView, allFives, totalAll, eventFives, eventWins, eventLosses,
-    avgPity, currentState, currentLimited, bannerGroups, pityBanners, archiveRows, characterArchive,
+    avgPity, currentState, weaponView, currentLimited, bannerGroups, pityBanners, archiveRows, characterArchive,
     weaponArchive, archiveSort, archiveFilter, viewMode, expandedSource, pityFilter, setArchiveSort,
-    setArchiveFilter, setViewMode, setExpandedSource, setPityFilter, reset, fmt, PULLS, CUR, COST, uid, data,
+    setArchiveFilter, setViewMode, setExpandedSource, setPityFilter, fmt, PULLS, CUR, COST, accountLabel,
   } = ctx;
+  const nextState = currentState === 'Guaranteed' ? 'Next: Guaranteed' : (currentState === '50:50' ? 'Next: 50:50' : 'Next: ' + currentState);
+  const sinceLastFive = characterView ? (characterView.currentPity || 0) : 0;
   return (
     <div className="gt-results">
       <div className="gt-results-top">
-        <button type="button" className="gt-import-tab" onClick={reset}>Import</button>
         <div className="gt-mode-tabs" role="tablist" aria-label="Wish tracker views">
           <button type="button" className={viewMode === 'overview' ? 'on' : ''} onClick={() => setViewMode('overview')}>Overview</button>
+          <button type="button" className={viewMode === 'pity' ? 'on' : ''} onClick={() => setViewMode('pity')}>Pity Observatory</button>
           <button type="button" className={viewMode === 'archive' ? 'on' : ''} onClick={() => setViewMode('archive')}>Archive</button>
         </div>
-        <div className="gt-uid">{uid || data.uid ? 'UID ' + (uid || data.uid) : 'Local history'}</div>
-      </div>
-
-      <div className="gt-stat-strip compact">
-        <div><b>{fmt(totalAll)}</b><span>Total {PULLS}</span></div>
-        <div><b>{fmt((characterView && characterView.total) || 0)}</b><span>Character {PULLS}</span></div>
-        <div><b>{characterView ? characterView.currentPity : '--'}</b><span>Current pity</span></div>
-        <div><b>{currentState}</b><span>Event state</span></div>
-        <div><b>{eventWins}/{eventLosses}</b><span>50:50 W / L</span></div>
-        <div><b>{avgPity || '--'}</b><span>Avg 5{'\u2605'} pity</span></div>
+        <div className="gt-tab-status"><b>{nextState}</b><span>{fmt(sinceLastFive)} since last 5{'\u2605'}</span></div>
+        <div className="gt-account">{accountLabel}</div>
       </div>
 
       {viewMode === 'overview' ? (
         <div className="gt-overview-grid">
-          <section className="gt-panel-box gt-ledger-card">
-            <div className="gt-box-head"><b>Chase Ledger</b><span>{fmt(totalAll * COST)} {CUR}</span></div>
-            <div className="gt-ledger-line">
-              <div><span>Event wins</span><b>{eventWins}</b></div>
-              <div><span>Event losses</span><b>{eventLosses}</b></div>
-              <div><span>5{'\u2605'} total</span><b>{allFives.length}</b></div>
-            </div>
-            <div className="gt-ledger-current">
-              <span>{characterView && characterView.ff ? (characterView.guaranteed ? 'Next event 5-star is guaranteed' : 'Next event 5-star is a 50:50') : 'No event guarantee state'}</span>
-              <i>{characterView ? Math.max(0, ((characterView.hard || 90) - (characterView.currentPity || 0))) : 0} pulls to hard pity</i>
+          <section className="gt-panel-box gt-summary-card">
+            <div className="gt-box-head"><b>Account summary</b><span>{fmt(allFives.length)} total 5{'\u2605'}</span></div>
+            <div className="gt-summary-grid">
+              <div><b>{fmt(totalAll)}</b><span>Total {PULLS}</span></div>
+              <div><b>{fmt((characterView && characterView.total) || 0)}</b><span>Character {PULLS}</span></div>
+              <div><b>{fmt((weaponView && weaponView.total) || 0)}</b><span>Weapon {PULLS}</span></div>
+              <div><b>{fmt(totalAll * COST)}</b><span>{CUR} spent</span></div>
+              <div><b>{eventWins}/{eventLosses}</b><span>50:50 W / L</span></div>
+              <div><b>{avgPity || '--'}</b><span>Avg pity</span></div>
             </div>
           </section>
 
@@ -446,20 +537,19 @@ function gtRenderResultsView(ctx){
           </section>
 
           <section className="gt-panel-box gt-recent-pulls">
-            <div className="gt-box-head"><b>Recent Pulls</b><span>All 5{'\u2605'} banners</span></div>
+            <div className="gt-box-head"><b>5-Star pulls</b><span>All banners</span></div>
             <div className="gt-recent-five-list">
               {allFives.map((row) => {
-                const b = bannerByKey[row.bannerKey] || { label:row.bannerLabel, soft:row.bannerSoft, hard:row.bannerHard, ff:row.bannerFf };
-                const period = gtPeriodForBannerKey(gameKey, row.bannerKey, row.time || 0);
-                const bannerName = gtBannerPeriodLabel(gameKey, period) || row.sourceBanner || row.bannerLabel;
+                const b = bannerByKey[row.bannerKey] || { key:row.bannerKey, label:row.bannerLabel, soft:row.bannerSoft, hard:row.bannerHard, ff:row.bannerFf };
+                const bannerName = gtSourceBannerLabel(gameKey, row);
                 return (
                   <div key={(row.id || row.idx) + ':' + row.bannerKey + ':' + row.name} className="gt-recent-five-row">
                     {(row.icon || row.art) ? <img src={row.icon || row.art} alt="" loading="lazy" /> : <span className="gt-img-fallback"></span>}
                     <div>
                       <b>{row.name}</b>
-                      <span>{row.isWeapon ? 'Weapon' : 'Character'} / {bannerName} / {gtFmtDate(row.time)}</span>
+                      <span>Banner: {bannerName} · {gtFmtDate(row.time)}</span>
                     </div>
-                    <em className={gtPullOutcomeClass(row, b).replace(/\s+/g, '-')}>{gtPullOutcome(row, b)}</em>
+                    <em className={gtPullOutcomeClass(row, b).replace(/\s+/g, '-')}>{gtPullOutcome(row, b, gameKey)}</em>
                     <i>Pity {row.pity || row.pity5 || '-'}</i>
                   </div>
                 );
@@ -503,7 +593,7 @@ function gtRenderResultsView(ctx){
                             {(five.icon || five.art) ? <img src={five.icon || five.art} alt="" loading="lazy" /> : <span className="gt-img-fallback"></span>}
                             <b>{five.name}</b>
                             <span>{five.isWeapon ? 'Weapon' : 'Character'} / {five._source.bannerKind}</span>
-                            <em className={gtPullOutcomeClass(five, five._banner).replace(/\s+/g, '-')}>{gtPullOutcome(five, five._banner)}</em>
+                            <em className={gtPullOutcomeClass(five, five._banner).replace(/\s+/g, '-')}>{gtPullOutcome(five, five._banner, gameKey)}</em>
                             <i>Pity {five.pity || five.pity5 || '-'}</i>
                           </div>
                         ))}
@@ -516,49 +606,10 @@ function gtRenderResultsView(ctx){
               {bannerGroups.length === 0 && <div className="gt-empty-row">No banner history rows yet.</div>}
             </div>
           </section>
-
-          <section className="gt-panel-box gt-pity-observatory">
-            <div className="gt-box-head"><b>Pity observatory</b><span>Character / Weapon / Standard / Chronicled</span></div>
-            <div className="gt-pity-filters" role="group" aria-label="Pity filters">
-              {[
-                ['all', 'All'],
-                ['guaranteed', 'Guaranteed'],
-                ['fifty', '50:50'],
-                ['early', 'Early'],
-                ['soft', 'Soft+'],
-              ].map((pair) => <button key={pair[0]} type="button" className={pityFilter === pair[0] ? 'on' : ''} onClick={() => setPityFilter(pair[0])}>{pair[1]}</button>)}
-            </div>
-            <div className="gt-pity-lanes">
-              {pityBanners.map((banner) => {
-                const laneFives = (banner.fives || []).filter((five) => gtPityFilterMatch(five, banner, pityFilter));
-                const hard = banner.hard || 90;
-                const soft = banner.soft || 74;
-                return (
-                  <div key={banner.key} className="gt-pity-lane">
-                    <div className="gt-pity-lane-label">
-                      <b>{banner.label}</b>
-                      <span>{laneFives.length}/{(banner.fives || []).length}</span>
-                    </div>
-                    <div className="gt-pity-track">
-                      <mark style={{ left:Math.min(100, (soft / hard) * 100) + '%' }}></mark>
-                      {laneFives.map((five, idx) => (
-                        <i key={(five.id || idx) + ':' + five.name}
-                           className={gtPityDotClass(five, banner)}
-                           style={{ left:Math.max(2, Math.min(98, (((five.pity || five.pity5 || 0) / hard) * 100))) + '%' }}
-                           title={five.name + ' / ' + gtPullOutcome(five, banner) + ' / pity ' + (five.pity || five.pity5 || '-')}></i>
-                      ))}
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-            <div className="gt-pity-legend">
-              <span className="early">Early</span>
-              <span className="soft">Soft+</span>
-              <span className="guaranteed">Guaranteed</span>
-              <span className="fifty">50:50</span>
-            </div>
-          </section>
+        </div>
+      ) : viewMode === 'pity' ? (
+        <div className="gt-pity-view">
+          {gtRenderPityPanel({ gameKey, pityBanners, pityFilter, setPityFilter, standalone:true })}
         </div>
       ) : (
         <div className="gt-archive-view">
@@ -656,7 +707,9 @@ function GachaTracker({ open, onClose, cfg, inline }){
           if (uids && uids.length) {
             const all = await STORE.loadPulls(ADAPT.game, uids[0]);
             if (!cancelled && all && all.length) {
-              setData({ banners: ADAPT.buildViews(all, { cost: COST }), uid: uids[0] });
+              let summary = null;
+              try { summary = STORE.loadSummary ? await STORE.loadSummary(ADAPT.game, uids[0]) : null; } catch (e) {}
+              setData({ banners: ADAPT.buildViews(all, { cost: COST }), uid: uids[0], accountName:(summary && summary.accountName) || '' });
               setBannerIdx(0); setUid(uids[0]); setPhase('results'); return;
             }
           }
@@ -690,10 +743,11 @@ function GachaTracker({ open, onClose, cfg, inline }){
     setError(''); setProgress(null); setPhase('loading');
     try {
       const res = await ADAPT.runImport(auth, (p) => setProgress(p));
-      await STORE.savePulls(ADAPT.game, res.uid, res.pulls);
+      const accountName = res.accountName || res.nickname || res.name || '';
+      await STORE.savePulls(ADAPT.game, res.uid, res.pulls, { accountName });
       const all = await STORE.loadPulls(ADAPT.game, res.uid);
       try { localStorage.removeItem(LSKEY); } catch (e) {}
-      setData({ banners: ADAPT.buildViews(all, { cost: COST }), uid: res.uid });
+      setData({ banners: ADAPT.buildViews(all, { cost: COST }), uid: res.uid, accountName });
       setBannerIdx(0); setUid(res.uid); setProgress(null); setPhase('results');
     } catch (e) {
       setError(String((e && e.message) || e || 'Import failed.'));
@@ -718,10 +772,11 @@ function GachaTracker({ open, onClose, cfg, inline }){
       if (!res || res.error) throw new Error((res && res.error) || 'Could not read that file.');
       if (!res.pulls || !res.pulls.length) throw new Error('No ' + (C.pulls || 'pulls').toLowerCase() + ' for this game in that file.');
       const id = res.uid || 'imported';
-      await STORE.savePulls(ADAPT.game, id, res.pulls);
+      const accountName = res.accountName || res.nickname || res.name || (/paimon/i.test(id) ? 'Paimon.moe import' : 'Imported history');
+      await STORE.savePulls(ADAPT.game, id, res.pulls, { accountName });
       const all = await STORE.loadPulls(ADAPT.game, id);
       try { localStorage.removeItem(LSKEY); } catch (e) {}
-      setData({ banners: ADAPT.buildViews(all, { cost: COST }), uid: id });
+      setData({ banners: ADAPT.buildViews(all, { cost: COST }), uid: id, accountName });
       setBannerIdx(0); setUid(id); setPhase('results');
     } catch (e) {
       setError('Import failed: ' + String((e && e.message) || e)); setPhase('import');
@@ -732,6 +787,13 @@ function GachaTracker({ open, onClose, cfg, inline }){
     try { localStorage.removeItem(LSKEY); } catch (e) {}
     try { if (ADAPT && STORE && uid) await STORE.clearImport(ADAPT.game, uid); } catch (e) {}
     setData(null); setUrl(''); setUid(''); setError(''); setProgress(null); setBannerIdx(0); setPhase('import');
+  };
+
+  const showImport = () => {
+    setUrl('');
+    setError('');
+    setProgress(null);
+    setPhase('import');
   };
 
   if (!inline && !open) return null;
@@ -745,8 +807,9 @@ function GachaTracker({ open, onClose, cfg, inline }){
         <div className="gt-head">
           <span className="gt-dia"></span>
           <div className="gt-ttl">
-          <div className="t">{TITLE}</div>
-            <div className="s">{phase === 'results' ? 'Your pull history' : 'Import your ' + PULL.toLowerCase() + ' history'}</div>
+            {phase === 'results'
+              ? <button type="button" className="gt-title-import" onClick={showImport}>Import</button>
+              : <div className="t">Import</div>}
           </div>
           <button type="button" className="gt-x" title="Close" onClick={onClose} style={{ display:inline ? 'none' : undefined }}>{'\u2715'}</button>
         </div>
@@ -855,6 +918,7 @@ function GachaTracker({ open, onClose, cfg, inline }){
           const avgPity = allFives.length ? Math.round(allFives.reduce((sum, f) => sum + (f.pity || f.pity5 || 0), 0) / allFives.length) : 0;
           const currentState = characterView && characterView.ff ? (characterView.guaranteed ? 'Guaranteed' : '50:50') : 'Fixed pool';
           const currentLimited = gtCurrentLimitedFeatures(gameKey, eventFives.slice().reverse());
+          const accountLabel = gtAccountLabel(data, uid, ADAPT && ADAPT.label, TITLE);
           const bannerGroups = gtPairSourceGroups(gameKey, banners);
           const pityBanners = [characterView, weaponView, standardView, chronicledView].filter(Boolean);
           const archiveBase = gtMergeArchive(banners);
@@ -868,9 +932,9 @@ function GachaTracker({ open, onClose, cfg, inline }){
           const weaponArchive = gtSortArchive(gtMergeArchive(banners, 'weapon'), 'copies').slice(0, 8);
           return gtRenderResultsView({
             banners, gameKey, bannerByKey, characterView, allFives, totalAll, eventFives, eventWins, eventLosses,
-            avgPity, currentState, currentLimited, bannerGroups, pityBanners, archiveRows, characterArchive,
+            avgPity, currentState, weaponView, currentLimited, bannerGroups, pityBanners, archiveRows, characterArchive,
             weaponArchive, archiveSort, archiveFilter, viewMode, expandedSource, pityFilter, setArchiveSort,
-            setArchiveFilter, setViewMode, setExpandedSource, setPityFilter, reset, fmt, PULLS, CUR, COST, uid, data,
+            setArchiveFilter, setViewMode, setExpandedSource, setPityFilter, fmt, PULLS, CUR, COST, accountLabel,
           });
         })()}
       </div>

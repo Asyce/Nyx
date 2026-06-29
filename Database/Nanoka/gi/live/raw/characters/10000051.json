@@ -1041,6 +1041,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1081,6 +1085,10 @@
             "Max Duration|{param9:F1}s",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1129,6 +1137,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1169,6 +1181,10 @@
             "Max Duration|{param9:F1}s",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1217,6 +1233,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1257,6 +1277,10 @@
             "Max Duration|{param9:F1}s",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1305,6 +1329,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1345,6 +1373,10 @@
             "Max Duration|{param9:F1}s",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1393,6 +1425,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1433,6 +1469,10 @@
             "Max Duration|{param9:F1}s",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1481,6 +1521,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1521,6 +1565,10 @@
             "Max Duration|{param9:F1}s",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1569,6 +1617,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1613,6 +1665,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1653,6 +1709,10 @@
             "Max Duration|{param9:F1}s",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1708,6 +1768,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1747,6 +1811,10 @@
             "RES Decrease Duration|{param6:F1}s",
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
             "Hold CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1796,6 +1864,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1835,6 +1907,10 @@
             "RES Decrease Duration|{param6:F1}s",
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
             "Hold CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1884,6 +1960,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1923,6 +2003,10 @@
             "RES Decrease Duration|{param6:F1}s",
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
             "Hold CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1972,6 +2056,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2011,6 +2099,10 @@
             "RES Decrease Duration|{param6:F1}s",
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
             "Hold CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2060,6 +2152,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2099,6 +2195,10 @@
             "RES Decrease Duration|{param6:F1}s",
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
             "Hold CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2148,6 +2248,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2187,6 +2291,10 @@
             "RES Decrease Duration|{param6:F1}s",
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
             "Hold CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2236,6 +2344,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2280,6 +2392,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2319,6 +2435,10 @@
             "RES Decrease Duration|{param6:F1}s",
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
             "Hold CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2375,6 +2495,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2410,6 +2534,10 @@
             "Maximum Stacks|{param4:I}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2463,6 +2591,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2498,6 +2630,10 @@
             "Maximum Stacks|{param4:I}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2551,6 +2687,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2586,6 +2726,10 @@
             "Maximum Stacks|{param4:I}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2639,6 +2783,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2674,6 +2822,10 @@
             "Maximum Stacks|{param4:I}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2727,6 +2879,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2762,6 +2918,10 @@
             "Maximum Stacks|{param4:I}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2815,6 +2975,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2850,6 +3014,10 @@
             "Maximum Stacks|{param4:I}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2903,6 +3071,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2947,6 +3119,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2982,6 +3158,10 @@
             "Maximum Stacks|{param4:I}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3934,5 +4114,291 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ElementalArt_ExtraAttack_1",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 50
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_Extra_Damage"
+    },
+    {
+      "name": "ElementalArt_ExtraAttack_1",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 50
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_Extra_Damage"
+    },
+    {
+      "name": "ElementalArt_ExtraAttack_2",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 50
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_Extra_Damage"
+    },
+    {
+      "name": "ElementalArt_ExtraAttack_2",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 50
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_Extra_Damage"
+    },
+    {
+      "name": "ElementalArt_ExtraAttack_2",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV3",
+        "value": 180
+      },
+      "element": "None",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": [
+        "Elemental_Burst_Judgment_BaseDamage",
+        "PermanentSkill_1_Judgment_Ratio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_ExtraAttack_2",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV3",
+        "value": 180
+      },
+      "element": "None",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": [
+        "Elemental_Burst_Judgment_BaseDamage",
+        "PermanentSkill_1_Judgment_Ratio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Click",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 120
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "ElementalArt_Click_Damage"
+    },
+    {
+      "name": "ElementalArt_Burst",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 150
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "ElementalArt_Burst_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV3",
+        "value": 400
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt"
+    },
+    {
+      "name": "ElementalBurst_Attack",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV6"
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "Elemental_Burst_Damage"
+    },
+    {
+      "name": "ElementalBurst_Judgment",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV6",
+        "value": 400
+      },
+      "element": "None",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": [
+        "Elemental_Burst_Judgment_BaseDamage",
+        "Elemental_Burst_Judgment_Ratio",
+        "Elemental_Burst_Judgment_Damage_Factor",
+        "MUL",
+        "ADD"
+      ]
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 200
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementalArt_Click_DropBall",
+      "skill": "ElementalArt_Click",
+      "kind": "ElementalArt",
+      "element": "Cryo",
+      "per_drop": 2,
+      "lifetime": 3,
+      "chance": 50,
+      "cd": 0.3,
+      "applications": 1,
+      "drop_id": 2022
+    },
+    {
+      "name": "ElementalArt_Click_DropBall",
+      "skill": "ElementalArt_Click",
+      "kind": "ElementalArt",
+      "element": "Cryo",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 50,
+      "cd": 0.3,
+      "applications": 1,
+      "drop_id": 2022
+    },
+    {
+      "name": "ElementalArt_Burst_DropBall",
+      "skill": "ElementalArt_Burst",
+      "kind": "ElementalBurst",
+      "element": "Cryo",
+      "per_drop": 3,
+      "lifetime": 3,
+      "chance": 50,
+      "cd": 0.5,
+      "applications": 1,
+      "drop_id": 2022
+    },
+    {
+      "name": "ElementalArt_Burst_DropBall",
+      "skill": "ElementalArt_Burst",
+      "kind": "ElementalBurst",
+      "element": "Cryo",
+      "per_drop": 2,
+      "lifetime": 3,
+      "chance": 50,
+      "cd": 0.5,
+      "applications": 1,
+      "drop_id": 2022
+    }
+  ]
 }

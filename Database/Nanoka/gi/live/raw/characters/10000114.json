@@ -998,6 +998,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1036,6 +1040,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1086,6 +1094,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1124,6 +1136,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1174,6 +1190,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1212,6 +1232,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1262,6 +1286,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1300,6 +1328,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1350,6 +1382,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1388,6 +1424,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1438,6 +1478,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1476,6 +1520,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1526,6 +1574,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1570,6 +1622,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1608,6 +1664,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1665,6 +1725,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1706,6 +1770,10 @@
             "Seven-Phase Flash Mode Duration|{param13:F1}s",
             "Max Serpent's Subtlety|{param14:F1}",
             "CD|{param15:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1753,6 +1821,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1794,6 +1866,10 @@
             "Seven-Phase Flash Mode Duration|{param13:F1}s",
             "Max Serpent's Subtlety|{param14:F1}",
             "CD|{param15:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1841,6 +1917,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1882,6 +1962,10 @@
             "Seven-Phase Flash Mode Duration|{param13:F1}s",
             "Max Serpent's Subtlety|{param14:F1}",
             "CD|{param15:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1929,6 +2013,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1970,6 +2058,10 @@
             "Seven-Phase Flash Mode Duration|{param13:F1}s",
             "Max Serpent's Subtlety|{param14:F1}",
             "CD|{param15:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2017,6 +2109,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2058,6 +2154,10 @@
             "Seven-Phase Flash Mode Duration|{param13:F1}s",
             "Max Serpent's Subtlety|{param14:F1}",
             "CD|{param15:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2105,6 +2205,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2146,6 +2250,10 @@
             "Seven-Phase Flash Mode Duration|{param13:F1}s",
             "Max Serpent's Subtlety|{param14:F1}",
             "CD|{param15:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2193,6 +2301,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2237,6 +2349,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2278,6 +2394,10 @@
             "Seven-Phase Flash Mode Duration|{param13:F1}s",
             "Max Serpent's Subtlety|{param14:F1}",
             "CD|{param15:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2332,6 +2452,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2366,6 +2490,10 @@
             "Serpent's Subtlety Bonus|{param3:F2P} ATK Per Point",
             "0/1/2/3 Void Rift Absorption DMG Bonus|{param4:F1P}/{param5:F1P}/{param6:F1P}/{param7:F1P}",
             "CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2420,6 +2548,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2454,6 +2586,10 @@
             "Serpent's Subtlety Bonus|{param3:F2P} ATK Per Point",
             "0/1/2/3 Void Rift Absorption DMG Bonus|{param4:F1P}/{param5:F1P}/{param6:F1P}/{param7:F1P}",
             "CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2508,6 +2644,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2542,6 +2682,10 @@
             "Serpent's Subtlety Bonus|{param3:F2P} ATK Per Point",
             "0/1/2/3 Void Rift Absorption DMG Bonus|{param4:F1P}/{param5:F1P}/{param6:F1P}/{param7:F1P}",
             "CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2596,6 +2740,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2630,6 +2778,10 @@
             "Serpent's Subtlety Bonus|{param3:F2P} ATK Per Point",
             "0/1/2/3 Void Rift Absorption DMG Bonus|{param4:F1P}/{param5:F1P}/{param6:F1P}/{param7:F1P}",
             "CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2684,6 +2836,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2718,6 +2874,10 @@
             "Serpent's Subtlety Bonus|{param3:F2P} ATK Per Point",
             "0/1/2/3 Void Rift Absorption DMG Bonus|{param4:F1P}/{param5:F1P}/{param6:F1P}/{param7:F1P}",
             "CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2772,6 +2932,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2806,6 +2970,10 @@
             "Serpent's Subtlety Bonus|{param3:F2P} ATK Per Point",
             "0/1/2/3 Void Rift Absorption DMG Bonus|{param4:F1P}/{param5:F1P}/{param6:F1P}/{param7:F1P}",
             "CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2860,6 +3028,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2894,6 +3066,10 @@
             "Serpent's Subtlety Bonus|{param3:F2P} ATK Per Point",
             "0/1/2/3 Void Rift Absorption DMG Bonus|{param4:F1P}/{param5:F1P}/{param6:F1P}/{param7:F1P}",
             "CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2948,6 +3124,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2980,7 +3160,7 @@
     {
       "id": 1142101,
       "name": "Reason Beyond Reason",
-      "desc": "When nearby party members trigger Frozen, Superconduct, Cryo Swirl, or Cryo Crystallize reactions against opponents, a Void Rift will be created near this opponent. This effect can be triggered once every 2.5s. 3 Void Rifts created by Skirk herself can exist on the field at once.\\n\\nSkirk can use the following methods to absorb nearby Void Rifts:\\n· When she hits an opponent with a Charged Attack in her {LINK#N11130006}<color=#FFD780FF>Seven-Phase Flash</color>{/LINK} mode.\\n· When she uses the special Elemental Burst <color=#FFD780FF>Havoc: Extinction</color> while in Seven-Phase Flash mode.\\n· When she Holds her Elemental Skill <color=#FFD780FF>Havoc: Warp</color> to engage in rapid movement.\\n\\nEach Rift absorbed will grant her 8 {LINK#N11130005}<color=#FFD780FF>Serpent's Subtlety</color>{/LINK} points.",
+      "desc": "When nearby party members trigger Frozen, Superconduct, Stellar-Conduct, Cryo Swirl, or Cryo Crystallize reactions against opponents, a Void Rift will be created near this opponent. This effect can be triggered once every 2.5s. 3 Void Rifts created by Skirk herself can exist on the field at once.\\n\\nSkirk can use the following methods to absorb nearby Void Rifts:\\n· When she hits an opponent with a Charged Attack in her {LINK#N11130006}<color=#FFD780FF>Seven-Phase Flash</color>{/LINK} mode.\\n· When she uses the special Elemental Burst <color=#FFD780FF>Havoc: Extinction</color> while in Seven-Phase Flash mode.\\n· When she Holds her Elemental Skill <color=#FFD780FF>Havoc: Warp</color> to engage in rapid movement.\\n\\nEach Rift absorbed will grant her 8 {LINK#N11130005}<color=#FFD780FF>Serpent's Subtlety</color>{/LINK} points.",
       "icon": "UI_Talent_S_SkirkNew_05",
       "unlock": 1,
       "param_list": [
@@ -3891,5 +4071,733 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ExtraAttack_Bullet",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 60
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "SkirkNew_ExtraAttack_Damage"
+    },
+    {
+      "name": "ExtraAttack_Enhanced_Bullet",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 40
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "SkirkNew_ExtraAttack_ElementalArt_Damage"
+    },
+    {
+      "name": "ExtraAttack_Enhanced_Bullet",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 40
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "SkirkNew_ExtraAttack_ElementalArt_Damage"
+    },
+    {
+      "name": "ExtraAttack_Enhanced_Bullet",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 40
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "SkirkNew_ExtraAttack_ElementalArt_Damage"
+    },
+    {
+      "name": "NormalAttack",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 57
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "SkirkNew_NormalAttack_01_Damage"
+    },
+    {
+      "name": "NormalAttack",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 52.1
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "SkirkNew_NormalAttack_02_Damage"
+    },
+    {
+      "name": "NormalAttack",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 33.9
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "SkirkNew_NormalAttack_03_01_Damage"
+    },
+    {
+      "name": "NormalAttack",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 33.9
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "SkirkNew_NormalAttack_03_02_Damage"
+    },
+    {
+      "name": "NormalAttack",
+      "icd": {
+        "tag": "NormalAttack_04",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 63.6
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Spear",
+      "damage_param": "SkirkNew_NormalAttack_04_Damage"
+    },
+    {
+      "name": "NormalAttack",
+      "icd": {
+        "tag": "NormalAttack_05",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV6",
+        "value": 86.7
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "SkirkNew_NormalAttack_05_Damage"
+    },
+    {
+      "name": "NormalAttack",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 66.7
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": [
+        "SkirkNew_NormalAttack_ElementalArt_01_Damage",
+        "SkirkNew_NormalAttack_ElementalArt_01_Damage",
+        "SkirkNew_PermanentSkill_2_NormalAttack_BonusRatio",
+        "MUL",
+        "ADD"
+      ]
+    },
+    {
+      "name": "NormalAttack",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 60.2
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": [
+        "SkirkNew_NormalAttack_ElementalArt_02_Damage",
+        "SkirkNew_NormalAttack_ElementalArt_02_Damage",
+        "SkirkNew_PermanentSkill_2_NormalAttack_BonusRatio",
+        "MUL",
+        "ADD"
+      ]
+    },
+    {
+      "name": "NormalAttack",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 38.05
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": [
+        "SkirkNew_NormalAttack_ElementalArt_03_01_Damage",
+        "SkirkNew_NormalAttack_ElementalArt_03_01_Damage",
+        "SkirkNew_PermanentSkill_2_NormalAttack_BonusRatio",
+        "MUL",
+        "ADD"
+      ]
+    },
+    {
+      "name": "NormalAttack",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 38.05
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": [
+        "SkirkNew_NormalAttack_ElementalArt_03_02_Damage",
+        "SkirkNew_NormalAttack_ElementalArt_03_02_Damage",
+        "SkirkNew_PermanentSkill_2_NormalAttack_BonusRatio",
+        "MUL",
+        "ADD"
+      ]
+    },
+    {
+      "name": "NormalAttack",
+      "icd": {
+        "tag": "NormalAttack_04",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 40.45
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Spear",
+      "damage_param": [
+        "SkirkNew_NormalAttack_ElementalArt_04_01_Damage",
+        "SkirkNew_NormalAttack_ElementalArt_04_01_Damage",
+        "SkirkNew_PermanentSkill_2_NormalAttack_BonusRatio",
+        "MUL",
+        "ADD"
+      ]
+    },
+    {
+      "name": "NormalAttack",
+      "icd": {
+        "tag": "NormalAttack_04",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 40.45
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Spear",
+      "damage_param": [
+        "SkirkNew_NormalAttack_ElementalArt_04_02_Damage",
+        "SkirkNew_NormalAttack_ElementalArt_04_02_Damage",
+        "SkirkNew_PermanentSkill_2_NormalAttack_BonusRatio",
+        "MUL",
+        "ADD"
+      ]
+    },
+    {
+      "name": "NormalAttack",
+      "icd": {
+        "tag": "NormalAttack_05",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV6",
+        "value": 98.8
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": [
+        "SkirkNew_NormalAttack_ElementalArt_05_Damage",
+        "SkirkNew_NormalAttack_ElementalArt_05_Damage",
+        "SkirkNew_PermanentSkill_2_NormalAttack_BonusRatio",
+        "MUL",
+        "ADD"
+      ]
+    },
+    {
+      "name": "Pickable_Collidor",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 75
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "SkirkNew_Constellation_1_Damage"
+    },
+    {
+      "name": "ElementalBurst_Bullet",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 40
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "SkirkNew_ElementalBurst_Attack_Damage",
+        "SkirkNew_PermanentSkill_2_ElementalBurst_BonusRatio",
+        "MUL",
+        "SkirkNew_ElementalBurst_Ratio",
+        "SkirkNew_PermanentSkill_2_ElementalBurst_BonusRatio",
+        "MUL",
+        "ADD"
+      ]
+    },
+    {
+      "name": "ElementalBurst_Bullet",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 100
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "SkirkNew_ElementalBurst_LastAttack_Damage",
+        "SkirkNew_PermanentSkill_2_ElementalBurst_BonusRatio",
+        "MUL",
+        "SkirkNew_ElementalBurst_Ratio",
+        "SkirkNew_PermanentSkill_2_ElementalBurst_BonusRatio",
+        "MUL",
+        "ADD"
+      ]
+    },
+    {
+      "name": "ElementalBurst_Bullet",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 40
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "SkirkNew_Constellation_6_ElementalBurst_Damage",
+        "SkirkNew_PermanentSkill_2_ElementalBurst_BonusRatio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalBurst_Bullet",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 40
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "SkirkNew_Constellation_6_ElementalBurst_Damage",
+        "SkirkNew_PermanentSkill_2_ElementalBurst_BonusRatio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalBurst_Bullet",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 40
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "SkirkNew_Constellation_6_ElementalBurst_Damage",
+        "SkirkNew_PermanentSkill_2_ElementalBurst_BonusRatio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Constellation_6",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 40
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "SkirkNew_Constellation_6_BeingHit_Damage"
+    },
+    {
+      "name": "Constellation_6",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 40
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "SkirkNew_Constellation_6_BeingHit_Damage"
+    },
+    {
+      "name": "Constellation_6",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 40
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "SkirkNew_Constellation_6_BeingHit_Damage"
+    },
+    {
+      "name": "Constellation_6",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 40
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "SkirkNew_Constellation_6_NormalAttack_Damage",
+        "SkirkNew_Constellation_6_NormalAttack_Damage",
+        "SkirkNew_PermanentSkill_2_NormalAttack_BonusRatio",
+        "MUL",
+        "ADD"
+      ]
+    },
+    {
+      "name": "Constellation_6",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 40
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "SkirkNew_Constellation_6_NormalAttack_Damage",
+        "SkirkNew_Constellation_6_NormalAttack_Damage",
+        "SkirkNew_PermanentSkill_2_NormalAttack_BonusRatio",
+        "MUL",
+        "ADD"
+      ]
+    },
+    {
+      "name": "Constellation_6",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 40
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "SkirkNew_Constellation_6_NormalAttack_Damage",
+        "SkirkNew_Constellation_6_NormalAttack_Damage",
+        "SkirkNew_PermanentSkill_2_NormalAttack_BonusRatio",
+        "MUL",
+        "ADD"
+      ]
+    },
+    {
+      "name": "Constellation_6",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 40
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "SkirkNew_Constellation_6_NormalAttack_Damage",
+        "SkirkNew_Constellation_6_NormalAttack_Damage",
+        "SkirkNew_PermanentSkill_2_NormalAttack_BonusRatio",
+        "MUL",
+        "ADD"
+      ]
+    },
+    {
+      "name": "Constellation_6",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 40
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "SkirkNew_Constellation_6_NormalAttack_Damage",
+        "SkirkNew_Constellation_6_NormalAttack_Damage",
+        "SkirkNew_PermanentSkill_2_NormalAttack_BonusRatio",
+        "MUL",
+        "ADD"
+      ]
+    },
+    {
+      "name": "Constellation_6",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 40
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "SkirkNew_Constellation_6_NormalAttack_Damage",
+        "SkirkNew_Constellation_6_NormalAttack_Damage",
+        "SkirkNew_PermanentSkill_2_NormalAttack_BonusRatio",
+        "MUL",
+        "ADD"
+      ]
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage_ElementalArt"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage_ElementalArt"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage_ElementalArt"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementalBall_GenerateEnergy",
+      "skill": "ElementalArt_HoverAir",
+      "kind": "ElementalArt",
+      "element": "Cryo",
+      "per_drop": 1,
+      "lifetime": 12,
+      "chance": 100,
+      "cd": 15,
+      "applications": 1,
+      "drop_id": 2022
+    }
+  ]
 }

@@ -976,6 +976,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1012,6 +1016,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1064,6 +1072,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1100,6 +1112,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1152,6 +1168,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1188,6 +1208,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1240,6 +1264,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1276,6 +1304,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1328,6 +1360,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1364,6 +1400,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1416,6 +1456,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1452,6 +1496,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1504,6 +1552,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1548,6 +1600,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1584,6 +1640,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1643,6 +1703,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1680,6 +1744,10 @@
             "Lunar Prayer Duration|{param10:F1}s",
             "Tranquility Aura Duration|{param8:F1}s",
             "CD|{param9:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1731,6 +1799,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1768,6 +1840,10 @@
             "Lunar Prayer Duration|{param10:F1}s",
             "Tranquility Aura Duration|{param8:F1}s",
             "CD|{param9:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1819,6 +1895,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1856,6 +1936,10 @@
             "Lunar Prayer Duration|{param10:F1}s",
             "Tranquility Aura Duration|{param8:F1}s",
             "CD|{param9:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1907,6 +1991,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1944,6 +2032,10 @@
             "Lunar Prayer Duration|{param10:F1}s",
             "Tranquility Aura Duration|{param8:F1}s",
             "CD|{param9:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1995,6 +2087,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2032,6 +2128,10 @@
             "Lunar Prayer Duration|{param10:F1}s",
             "Tranquility Aura Duration|{param8:F1}s",
             "CD|{param9:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2083,6 +2183,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2120,6 +2224,10 @@
             "Lunar Prayer Duration|{param10:F1}s",
             "Tranquility Aura Duration|{param8:F1}s",
             "CD|{param9:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2171,6 +2279,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2215,6 +2327,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2252,6 +2368,10 @@
             "Lunar Prayer Duration|{param10:F1}s",
             "Tranquility Aura Duration|{param8:F1}s",
             "CD|{param9:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2310,6 +2430,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2343,6 +2467,10 @@
             "Lingering Aeon DMG|{param2:F1P} Max HP",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2398,6 +2526,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2431,6 +2563,10 @@
             "Lingering Aeon DMG|{param2:F1P} Max HP",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2486,6 +2622,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2519,6 +2659,10 @@
             "Lingering Aeon DMG|{param2:F1P} Max HP",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2574,6 +2718,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2607,6 +2755,10 @@
             "Lingering Aeon DMG|{param2:F1P} Max HP",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2662,6 +2814,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2695,6 +2851,10 @@
             "Lingering Aeon DMG|{param2:F1P} Max HP",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2750,6 +2910,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2783,6 +2947,10 @@
             "Lingering Aeon DMG|{param2:F1P} Max HP",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2838,6 +3006,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2882,6 +3054,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2915,6 +3091,10 @@
             "Lingering Aeon DMG|{param2:F1P} Max HP",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3869,5 +4049,234 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "Attack_01_Spec",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 52.64
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Slash"
+    },
+    {
+      "name": "Attack_02_Spec",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 47.55
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Slash"
+    },
+    {
+      "name": "ElementalDance",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 55.64
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalDanceFake",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 55.64
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Default"
+    },
+    {
+      "name": "Spec_E_2",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 54.64
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Slash"
+    },
+    {
+      "name": "Spec_E_3",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 66.43
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Slash"
+    },
+    {
+      "name": "Spec_EArt_Over",
+      "icd": {
+        "group": "Nilou_Sustained_Water"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Default"
+    },
+    {
+      "name": "Spec_EArt_Over",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 85
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Slash"
+    },
+    {
+      "name": "ElementalBurst_Camera",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "value": 400
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "Water_ElemBall_1",
+      "skill": "ElementalDance",
+      "kind": "Other",
+      "element": "Hydro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "cd": 0.1,
+      "applications": 1,
+      "drop_id": 2018
+    },
+    {
+      "name": "Water_ElemBall_1",
+      "skill": "ElementalDance",
+      "kind": "Other",
+      "element": "Hydro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 50,
+      "cd": 0.1,
+      "applications": 1,
+      "drop_id": 2018
+    },
+    {
+      "name": "Water_ElemBall_2",
+      "skill": "ElementalDance",
+      "kind": "Other",
+      "element": "Hydro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "cd": 0.1,
+      "applications": 1,
+      "drop_id": 2018
+    },
+    {
+      "name": "Bullet_Water_ElemBall",
+      "skill": "Water_Bubble_Bullet",
+      "kind": "Other",
+      "element": "Hydro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "applications": 1,
+      "drop_id": 2018
+    }
+  ]
 }

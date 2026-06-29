@@ -487,6 +487,13 @@
     },
     "costume": [
       {
+        "id": 208801,
+        "name": "Hurlock Variations",
+        "desc": "Charlotte's outfit. Once used as a filming costume for Great Detective Hurlock, this outfit was presented to Charlotte by the production crew as a keepsake after the shoot concluded.",
+        "icon": "UI_AvatarIcon_CharlotteCostumeDong",
+        "quality": 4
+      },
+      {
         "id": 208800,
         "name": "\"All Is Overt Through My Lens\"",
         "desc": "Charlotte's outfit. \"If your reporting isn't real enough, it's because you're not close enough.\" Charlotte often has this to say about journalism. Sometimes, however, she adds: \"But of course, maybe it's that the lens you're using just isn't that great.\"",
@@ -3344,7 +3351,7 @@
             "name": "Beryl Conch",
             "id": 101232,
             "count": 3,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Meshing Gear",
@@ -3373,7 +3380,7 @@
             "name": "Beryl Conch",
             "id": 101232,
             "count": 10,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Meshing Gear",
@@ -3402,7 +3409,7 @@
             "name": "Beryl Conch",
             "id": 101232,
             "count": 20,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Mechanical Spur Gear",
@@ -3431,7 +3438,7 @@
             "name": "Beryl Conch",
             "id": 101232,
             "count": 30,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Mechanical Spur Gear",
@@ -3460,7 +3467,7 @@
             "name": "Beryl Conch",
             "id": 101232,
             "count": 45,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Artificed Dynamic Gear",
@@ -3489,7 +3496,7 @@
             "name": "Beryl Conch",
             "id": 101232,
             "count": 60,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Artificed Dynamic Gear",

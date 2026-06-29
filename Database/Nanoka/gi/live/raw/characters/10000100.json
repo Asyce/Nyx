@@ -985,6 +985,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1022,6 +1026,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1073,6 +1081,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1110,6 +1122,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1161,6 +1177,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1198,6 +1218,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1249,6 +1273,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1286,6 +1314,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1337,6 +1369,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1374,6 +1410,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1425,6 +1465,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1462,6 +1506,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1513,6 +1561,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1557,6 +1609,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1594,6 +1650,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1652,6 +1712,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1685,6 +1749,10 @@
             "Turbo Twirly Independent DMG|{param2:F1P} DEF",
             "Nightsoul Point Limit|{param3:F1}",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1740,6 +1808,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1773,6 +1845,10 @@
             "Turbo Twirly Independent DMG|{param2:F1P} DEF",
             "Nightsoul Point Limit|{param3:F1}",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1828,6 +1904,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1861,6 +1941,10 @@
             "Turbo Twirly Independent DMG|{param2:F1P} DEF",
             "Nightsoul Point Limit|{param3:F1}",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1916,6 +2000,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1949,6 +2037,10 @@
             "Turbo Twirly Independent DMG|{param2:F1P} DEF",
             "Nightsoul Point Limit|{param3:F1}",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2004,6 +2096,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2037,6 +2133,10 @@
             "Turbo Twirly Independent DMG|{param2:F1P} DEF",
             "Nightsoul Point Limit|{param3:F1}",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2092,6 +2192,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2125,6 +2229,10 @@
             "Turbo Twirly Independent DMG|{param2:F1P} DEF",
             "Nightsoul Point Limit|{param3:F1}",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2180,6 +2288,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2224,6 +2336,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2257,6 +2373,10 @@
             "Turbo Twirly Independent DMG|{param2:F1P} DEF",
             "Nightsoul Point Limit|{param3:F1}",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2319,6 +2439,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2352,6 +2476,10 @@
             "Field Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2407,6 +2535,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2440,6 +2572,10 @@
             "Field Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2495,6 +2631,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2528,6 +2668,10 @@
             "Field Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2583,6 +2727,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2616,6 +2764,10 @@
             "Field Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2671,6 +2823,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2704,6 +2860,10 @@
             "Field Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2759,6 +2919,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2792,6 +2956,10 @@
             "Field Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2847,6 +3015,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2891,6 +3063,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2924,6 +3100,10 @@
             "Field Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3907,5 +4087,189 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ExtraAttack_Bullet",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Avatar_Pole_ExtraAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 120
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Spear",
+      "damage_param": "ExtraAttack_Ratio"
+    },
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 75
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt"
+    },
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 75
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt"
+    },
+    {
+      "name": "Gadget_Kachina_ElementalArt_Top",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt"
+    },
+    {
+      "name": "Gadget_Kachina_ElementalArt_Top",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 150
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Spear",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "Constellation_6",
+      "icd": {
+        "tag": "Kachina_Constellation_6",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 100
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementalArt_DropBall",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Geo",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 66.7,
+      "cd": 0.2,
+      "applications": 1,
+      "drop_id": 2023
+    }
+  ]
 }

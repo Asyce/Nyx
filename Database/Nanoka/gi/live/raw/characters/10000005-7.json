@@ -2148,6 +2148,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2186,6 +2190,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2236,6 +2244,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2274,6 +2286,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2324,6 +2340,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2362,6 +2382,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2412,6 +2436,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2450,6 +2478,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2500,6 +2532,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2538,6 +2574,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2588,6 +2628,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2626,6 +2670,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2676,6 +2724,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2720,6 +2772,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2758,6 +2814,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2815,6 +2875,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2850,6 +2914,10 @@
             "Duration|{param5:F1}s",
             "Abundance Amulet Duration|{param3:F1}s",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2903,6 +2971,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2938,6 +3010,10 @@
             "Duration|{param5:F1}s",
             "Abundance Amulet Duration|{param3:F1}s",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2991,6 +3067,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3026,6 +3106,10 @@
             "Duration|{param5:F1}s",
             "Abundance Amulet Duration|{param3:F1}s",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3079,6 +3163,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3114,6 +3202,10 @@
             "Duration|{param5:F1}s",
             "Abundance Amulet Duration|{param3:F1}s",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3167,6 +3259,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3202,6 +3298,10 @@
             "Duration|{param5:F1}s",
             "Abundance Amulet Duration|{param3:F1}s",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3255,6 +3355,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3290,6 +3394,10 @@
             "Duration|{param5:F1}s",
             "Abundance Amulet Duration|{param3:F1}s",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3343,6 +3451,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3387,6 +3499,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3422,6 +3538,10 @@
             "Duration|{param5:F1}s",
             "Abundance Amulet Duration|{param3:F1}s",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3482,6 +3602,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3517,6 +3641,10 @@
             "Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3570,6 +3698,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3605,6 +3737,10 @@
             "Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3658,6 +3794,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3693,6 +3833,10 @@
             "Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3746,6 +3890,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3781,6 +3929,10 @@
             "Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3834,6 +3986,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3869,6 +4025,10 @@
             "Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3922,6 +4082,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3957,6 +4121,10 @@
             "Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -4010,6 +4178,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -4054,6 +4226,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -4089,6 +4265,10 @@
             "Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -4982,5 +5162,198 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ElementalBurst_Initiate",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 150
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "ElementalBurst_InitiateDamage"
+    },
+    {
+      "name": "ElementalBurst_Bullet",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalBurst_ThunderAttack_Default_Damage"
+    },
+    {
+      "name": "ElementalBurst_Bullet",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "ElementalBurst_ThunderAttack_Enhanced_Damage_Percentage",
+        "ElementalBurst_ThunderAttack_Default_Damage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Player_Electric_ElementalArt_Bullet_1",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Electric",
+      "attack_type": "Range",
+      "strike_type": "Pierce",
+      "damage_param": "ElementalArt_Damage"
+    },
+    {
+      "name": "Player_Electric_ElementalArt_Bullet_2",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Electric",
+      "attack_type": "Range",
+      "strike_type": "Pierce",
+      "damage_param": "ElementalArt_Damage"
+    },
+    {
+      "name": "Player_Electric_ElementalArt_Bullet_3",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Electric",
+      "attack_type": "Range",
+      "strike_type": "Pierce",
+      "damage_param": "ElementalArt_Damage"
+    },
+    {
+      "name": "EnhancedExtraAttack",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50.6
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": [
+        "ExtraAttack_Enhanced_1_BaseDamagePercentage",
+        "ExtraAttack_Enhanced_ratio",
+        "ADD"
+      ]
+    },
+    {
+      "name": "EnhancedExtraAttack",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50.6
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": [
+        "ExtraAttack_Enhanced_2_BaseDamagePercentage",
+        "ExtraAttack_Enhanced_ratio",
+        "ADD"
+      ]
+    },
+    {
+      "name": "Gadget_Player_Electric_EnhancedExtraAttack_ThunderBoltField",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ExtraAttack_Enhanced_Field_DamageRatio"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementalArt_ElementBall_Handler",
+      "skill": "Player_Electric_ElementalArt_Bullet_1",
+      "kind": "ElementalArt",
+      "element": "Electro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "applications": 3,
+      "drop_id": 2020
+    },
+    {
+      "name": "ElementalArt_ElementBall_Handler",
+      "skill": "Player_Electric_ElementalArt_Bullet_2",
+      "kind": "ElementalArt",
+      "element": "Electro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "applications": 3,
+      "drop_id": 2020
+    },
+    {
+      "name": "ElementalArt_ElementBall_Handler",
+      "skill": "Player_Electric_ElementalArt_Bullet_3",
+      "kind": "ElementalArt",
+      "element": "Electro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "applications": 3,
+      "drop_id": 2020
+    }
+  ]
 }

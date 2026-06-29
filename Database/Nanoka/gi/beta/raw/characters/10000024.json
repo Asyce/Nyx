@@ -3264,7 +3264,7 @@
         0
       ],
       "unlock": [
-        39604
+        7469404
       ],
       "special": true,
       "special_passive": true,
@@ -3385,7 +3385,7 @@
             "name": "Noctilucous Jade",
             "id": 100028,
             "count": 3,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Treasure Hoarder Insignia",
@@ -3414,7 +3414,7 @@
             "name": "Noctilucous Jade",
             "id": 100028,
             "count": 10,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Treasure Hoarder Insignia",
@@ -3443,7 +3443,7 @@
             "name": "Noctilucous Jade",
             "id": 100028,
             "count": 20,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Silver Raven Insignia",
@@ -3472,7 +3472,7 @@
             "name": "Noctilucous Jade",
             "id": 100028,
             "count": 30,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Silver Raven Insignia",
@@ -3501,7 +3501,7 @@
             "name": "Noctilucous Jade",
             "id": 100028,
             "count": 45,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Golden Raven Insignia",
@@ -3530,7 +3530,7 @@
             "name": "Noctilucous Jade",
             "id": 100028,
             "count": 60,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Golden Raven Insignia",

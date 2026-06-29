@@ -534,6 +534,14 @@
         "title": "Joining Party: III",
         "text": "I will follow where you lead.",
         "unlocked": []
+      },
+      {
+        "title": "About Sandrone: Clockwork Nature III",
+        "text": "Sandrone has returned. I'm so happy. I noticed her wind-up key sometimes turns a bit faster now — it always seemed to turn at the same speed before. She said it's because she's embraced her inner feelings, and that she's different now. But whether she's changed her outfit or her key turns faster, I feel like Sandrone is still Sandrone, my best friend. Whether it's her past or present self, she has my complete admiration. I told her this, and her key turned faster. I don't know why, but it's really interesting.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Sunny Summer Fontinalia\""
+        ]
       }
     ],
     "special_food": {
@@ -3437,7 +3445,7 @@
             "name": "Winter Icelea",
             "id": 101268,
             "count": 3,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Slime Condensate",
@@ -3466,7 +3474,7 @@
             "name": "Winter Icelea",
             "id": 101268,
             "count": 10,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Slime Condensate",
@@ -3495,7 +3503,7 @@
             "name": "Winter Icelea",
             "id": 101268,
             "count": 20,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Slime Secretions",
@@ -3524,7 +3532,7 @@
             "name": "Winter Icelea",
             "id": 101268,
             "count": 30,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Slime Secretions",
@@ -3553,7 +3561,7 @@
             "name": "Winter Icelea",
             "id": 101268,
             "count": 45,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Slime Concentrate",
@@ -3582,7 +3590,7 @@
             "name": "Winter Icelea",
             "id": 101268,
             "count": 60,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Slime Concentrate",

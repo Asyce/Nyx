@@ -960,6 +960,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -999,6 +1003,10 @@
             "Max Duration|{param8:F1}s",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1048,6 +1056,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1087,6 +1099,10 @@
             "Max Duration|{param8:F1}s",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1136,6 +1152,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1175,6 +1195,10 @@
             "Max Duration|{param8:F1}s",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1224,6 +1248,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1263,6 +1291,10 @@
             "Max Duration|{param8:F1}s",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1312,6 +1344,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1351,6 +1387,10 @@
             "Max Duration|{param8:F1}s",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1400,6 +1440,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1439,6 +1483,10 @@
             "Max Duration|{param8:F1}s",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1488,6 +1536,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1532,6 +1584,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1571,6 +1627,10 @@
             "Max Duration|{param8:F1}s",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1627,6 +1687,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1663,6 +1727,10 @@
             "Electro Sigil duration|{param5:F1}s",
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
             "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1715,6 +1783,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1751,6 +1823,10 @@
             "Electro Sigil duration|{param5:F1}s",
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
             "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1803,6 +1879,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1839,6 +1919,10 @@
             "Electro Sigil duration|{param5:F1}s",
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
             "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1891,6 +1975,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1927,6 +2015,10 @@
             "Electro Sigil duration|{param5:F1}s",
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
             "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1979,6 +2071,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2015,6 +2111,10 @@
             "Electro Sigil duration|{param5:F1}s",
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
             "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2067,6 +2167,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2103,6 +2207,10 @@
             "Electro Sigil duration|{param5:F1}s",
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
             "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2155,6 +2263,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2199,6 +2311,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2235,6 +2351,10 @@
             "Electro Sigil duration|{param5:F1}s",
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
             "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2294,6 +2414,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2330,6 +2454,10 @@
             "Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2382,6 +2510,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2418,6 +2550,10 @@
             "Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2470,6 +2606,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2506,6 +2646,10 @@
             "Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2558,6 +2702,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2594,6 +2742,10 @@
             "Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2646,6 +2798,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2682,6 +2838,10 @@
             "Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2734,6 +2894,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2770,6 +2934,10 @@
             "Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2822,6 +2990,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2866,6 +3038,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2902,6 +3078,10 @@
             "Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3890,5 +4070,191 @@
       ]
     ]
   },
+  "attack": [
+    {
+      "name": "ClawMark_Click",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV3",
+        "value": 140
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "ClawMark_Damage"
+    },
+    {
+      "name": "ClawMark_Click",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV3",
+        "value": 140
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "ClawMark_Damage"
+    },
+    {
+      "name": "ClawMark_Burst",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV5",
+        "value": 300
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "ExplodeDamage"
+    },
+    {
+      "name": "ClawMark_Burst",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV3",
+        "value": 300
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "ExplodeDamage"
+    },
+    {
+      "name": "LycanMode",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV3",
+        "value": 51.75
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "LycanMode_BlastDamage"
+    },
+    {
+      "name": "Talent_ChargedBlade",
+      "icd": {
+        "tag": "ChargedBlade",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 69
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "ChargedBlade_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 200
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "HexenzirkelSkill",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ThunderfallDamage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ClawMark_Click_DropBall_Base",
+      "skill": "ClawMark_SetMark",
+      "kind": "Other",
+      "element": "Electro",
+      "per_drop": 1,
+      "lifetime": 9,
+      "chance": 100,
+      "cd": 1,
+      "applications": 1,
+      "drop_id": 2020
+    },
+    {
+      "name": "ClawMark_Burst_DropBall_Base",
+      "skill": "ClawMark_Burst",
+      "kind": "ElementalBurst",
+      "element": "Electro",
+      "per_drop": 1,
+      "lifetime": 12,
+      "chance": 100,
+      "cd": 1,
+      "applications": 1,
+      "drop_id": 2020
+    }
+  ],
   "special": true
 }

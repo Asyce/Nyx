@@ -973,6 +973,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1011,6 +1015,10 @@
             "Fully-Charged Aimed Shot|{param7:P}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1061,6 +1069,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1099,6 +1111,10 @@
             "Fully-Charged Aimed Shot|{param7:P}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1149,6 +1165,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1187,6 +1207,10 @@
             "Fully-Charged Aimed Shot|{param7:P}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1237,6 +1261,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1275,6 +1303,10 @@
             "Fully-Charged Aimed Shot|{param7:P}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1325,6 +1357,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1363,6 +1399,10 @@
             "Fully-Charged Aimed Shot|{param7:P}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1413,6 +1453,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1451,6 +1495,10 @@
             "Fully-Charged Aimed Shot|{param7:P}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1501,6 +1549,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1545,6 +1597,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1583,6 +1639,10 @@
             "Fully-Charged Aimed Shot|{param7:P}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1640,6 +1700,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1673,6 +1737,10 @@
             "Summoning DMG|{param2:P}",
             "Oz's Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1728,6 +1796,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1761,6 +1833,10 @@
             "Summoning DMG|{param2:P}",
             "Oz's Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1816,6 +1892,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1849,6 +1929,10 @@
             "Summoning DMG|{param2:P}",
             "Oz's Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1904,6 +1988,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1937,6 +2025,10 @@
             "Summoning DMG|{param2:P}",
             "Oz's Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1992,6 +2084,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2025,6 +2121,10 @@
             "Summoning DMG|{param2:P}",
             "Oz's Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2080,6 +2180,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2113,6 +2217,10 @@
             "Summoning DMG|{param2:P}",
             "Oz's Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2168,6 +2276,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2212,6 +2324,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2245,6 +2361,10 @@
             "Summoning DMG|{param2:P}",
             "Oz's Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2307,6 +2427,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2339,6 +2463,10 @@
             "Falling Thunder DMG|{param1:P}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2395,6 +2523,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2427,6 +2559,10 @@
             "Falling Thunder DMG|{param1:P}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2483,6 +2619,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2515,6 +2655,10 @@
             "Falling Thunder DMG|{param1:P}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2571,6 +2715,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2603,6 +2751,10 @@
             "Falling Thunder DMG|{param1:P}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2659,6 +2811,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2691,6 +2847,10 @@
             "Falling Thunder DMG|{param1:P}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2747,6 +2907,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2779,6 +2943,10 @@
             "Falling Thunder DMG|{param1:P}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2835,6 +3003,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2879,6 +3051,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2911,6 +3087,10 @@
             "Falling Thunder DMG|{param1:P}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3903,5 +4083,267 @@
       ]
     ]
   },
+  "attack": [
+    {
+      "name": "ExtraAttack_Element_Hit",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "Fischl_ProudSkill_31_P7_ChargeElementDamage_Percentage"
+    },
+    {
+      "name": "ExtraAttack_WithoutElement_Hit",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "Fischl_ProudSkill_31_P6_ExtraAttack_WithoutElement_Damage_Percentage"
+    },
+    {
+      "name": "Ability_Fischl_Skill_S_CrowSummon",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Fischl"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 80
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": [
+        "AS_Fischl_ProudSkill_32_P2_SummonAttack",
+        "AS_Fischl_Talent_332_Damage_AttackRatio",
+        "ADD"
+      ]
+    },
+    {
+      "name": "Ability_Fischl_Skill_S_CrowSummon",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Fischl"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 80
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "AS_Fischl_ProudSkill_32_P2_SummonAttack"
+    },
+    {
+      "name": "Talent_D_Crow_NormalAttack_01",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Fischl"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0",
+        "value": 10
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "AS_Fischl_Talent_336_AttackRatio_AssistAttack"
+    },
+    {
+      "name": "Talent_A_NormalAttack_Hit",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV0",
+        "value": 30
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "AS_Fischl_Talent_331_Damage_AttackRatio"
+    },
+    {
+      "name": "Talent_ExteaAttackThunder_Hit",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 40
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": [
+        "AS_Fischl_ProudSkill_21_AttackRatio_ExteaAttackThunder",
+        "Fischl_ProudSkill_31_P7_ChargeElementDamage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ProudSkill_ElementReactionAttackThunder",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Fischl"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 40
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "AS_Fischl_ProudSkill_22_ElementReactionAttack_AttackRatio"
+    },
+    {
+      "name": "Talent_ElementReactionAttackThunder_Hit",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Fischl"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 40
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "AS_Fischl_ProudSkill_22_ElementReactionAttack_AttackRatio"
+    },
+    {
+      "name": "Skill_S_Crow_AutoAttack_Hit_01",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Fischl"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 10
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "AS_Fischl_ProudSkill_32_Damage_AttackRatio"
+    },
+    {
+      "name": "Ability_Fischl_Skill_E_CrowQueen",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Fischl"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 150
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "AS_Fischl_ProudSkill_33_LoopDamage_AttackRatio"
+    },
+    {
+      "name": "Ability_Fischl_Skill_E_CrowQueen",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Fischl"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV2",
+        "value": 500
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "AS_Fischl_Talent_334_OnceDamage_AttackRatio"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "AttackElementBall",
+      "skill": "Skill_S_Crow_AutoAttack_Hit_01",
+      "kind": "Other",
+      "element": "Electro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 67,
+      "applications": 1,
+      "drop_id": 2020
+    }
+  ],
   "special": true
 }

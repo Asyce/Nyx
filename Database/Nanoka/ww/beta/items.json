@@ -342,21 +342,21 @@
   },
   {
     "id": "19",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Lollo Stamp",
     "rarity": 4,
     "tag": [
       "Consumable"
     ],
     "description": "The voucher used to redeem the Lollo Helper special delivery.",
-    "background": "Thank you for being a Lollo Helper!\nTo express our gratitude, we'd love to present you with a Lollo Stamp. You can use it to exchange for your Lollo Helper special delivery at the designated Lollo Logistics stations.",
+    "background": "Thank you for being a Lollo Helper!\nTo express our gratitude, we'd love to present you with a Lollo Stamp. You can use it to exchange for your Lollo Helper special delivery during all Lollo Campaign events.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_Act_01_UI.webp"
     },
     "liveComparison": {
       "liveHash": "1e24548d6677daee8505eae6d01a57c2461929d53c4e0943dfc54263e430d1fa",
-      "currentHash": "1e24548d6677daee8505eae6d01a57c2461929d53c4e0943dfc54263e430d1fa"
+      "currentHash": "e75903e70e8fd305e381b76b4da85177ff9e46e1d22e45aa9eec466e95a667e7"
     }
   },
   {
@@ -1583,7 +1583,7 @@
   {
     "id": "82",
     "contentStatus": "beta",
-    "name": "Demonstration Coin",
+    "name": "Sparring Coin",
     "rarity": 5,
     "tag": [
       "Special Token"
@@ -1594,7 +1594,7 @@
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_B5_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "e15a4aa9aac0dd0cd31a9cbded3cf579999a34e65a873baee7a6aed2774ca8df"
+      "currentHash": "68e6100a875debae7c0d0dba7a5666949266aa2641a7e48234cf6f818e49de96"
     }
   },
   {
@@ -2173,35 +2173,39 @@
   {
     "id": "10821",
     "contentStatus": "beta",
-    "name": "10821",
+    "name": "Casket Sonar Use Permit: Mengzhou",
     "rarity": 4,
     "type": 7,
     "tag": [
       "Consumable"
     ],
+    "description": "Grants the bearer of this permit the access to Casket Sonar in given regions.",
+    "background": "The use permit of the Casket Sonar in Mengzhou. To ensure frequency safety in Mengzhou, users are permitted to use the Casket Sonar only within authorized areas in compliance with this official permit.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_24_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "0a4b76bc6d481e262f080b9d1c9df981630f7ff89e2dee63b4824e05b0810b1b"
+      "currentHash": "5eeefac886abfef4a290788acf9e5f621bb769201b6004730477540fd7c84862"
     }
   },
   {
     "id": "10822",
     "contentStatus": "beta",
-    "name": "10822",
+    "name": "Lootmapper Use Permit: Mengzhou",
     "rarity": 4,
     "type": 7,
     "tag": [
       "Consumable"
     ],
+    "description": "Grants the bearer of this permit the access to the Lootmapper in given regions.",
+    "background": "The use permit of the Lootmapper in Mengzhou. To ensure frequency safety in Mengzhou, users are permitted to use the Lootmapper only within authorized areas in compliance with this official permit.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_25_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "a8478bf1f2d5b24328ef58148c09e27c6c2c18293e71b0ed3d15a5d877b8d156"
+      "currentHash": "a27d77ff2831111bcd43911d34d586698e0dec8fc84540b5b9674fc0f938c9fc"
     }
   },
   {
@@ -2644,7 +2648,7 @@
   {
     "id": "50023",
     "contentStatus": "beta",
-    "name": "50023",
+    "name": "Special Tide",
     "rarity": 5,
     "type": 7,
     "tag": [
@@ -2661,13 +2665,13 @@
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_jzmy_01_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "03a4dc6b4f62a22bd2b7cb242a7a213d4a85740cb48e1e1665a7ad7314caf871"
+      "currentHash": "e858c202be4c0d2627e6cc6faafbaad4b59c1104fb7aed7711229e5d3fa7d9d3"
     }
   },
   {
     "id": "50024",
     "contentStatus": "beta",
-    "name": "50024",
+    "name": "Exclusive Coral",
     "rarity": 5,
     "type": 7,
     "tag": [
@@ -2682,7 +2686,7 @@
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_ybsh_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "8b18b60e8703b5d55a6d55498d80fa7584ec7f2c972c8e0340dfd0d48b73413c"
+      "currentHash": "c75e289d7b59b9e24e1f04570e96fd268f1a164c34f2332a23a715da3d3d0cb9"
     }
   },
   {
@@ -2806,7 +2810,7 @@
   },
   {
     "id": "51006",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Magisterial Radiant Aid",
     "rarity": 5,
     "type": 7,
@@ -2814,18 +2818,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_12_UI.webp"
     },
     "liveComparison": {
       "liveHash": "2685f7be0a788c188e2a44ba052aaba36a827429eef12c25d3a0650564e69b68",
-      "currentHash": "2685f7be0a788c188e2a44ba052aaba36a827429eef12c25d3a0650564e69b68"
+      "currentHash": "65d57deff6ee1bead5c9e790548592c67b65052885176367f9df49696ab3d2fb"
     }
   },
   {
     "id": "51007",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Magisterial Forging Aid",
     "rarity": 5,
     "type": 7,
@@ -2833,18 +2838,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_13_UI.webp"
     },
     "liveComparison": {
       "liveHash": "35f7d719b7d509c020bc78c1a7b43bea0efad63dc0af3e536c740d59f67b1577",
-      "currentHash": "35f7d719b7d509c020bc78c1a7b43bea0efad63dc0af3e536c740d59f67b1577"
+      "currentHash": "55384acd40776f83fa91914c5243297534a272fe125719e691414be4759b658f"
     }
   },
   {
     "id": "51008",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Blake Bloom's Radiant Aid",
     "rarity": 5,
     "type": 7,
@@ -2852,18 +2858,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "61cb6409eac166e4e9de344e0b9d5e572dd8e234b77b848f27bceb548d8af9e6",
-      "currentHash": "61cb6409eac166e4e9de344e0b9d5e572dd8e234b77b848f27bceb548d8af9e6"
+      "currentHash": "602d5dde69227d26392db51ea2e378a9cfb5e57177d284495d0e468d4b1ddb68"
     }
   },
   {
     "id": "51009",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Blake Bloom's Forging Aid",
     "rarity": 5,
     "type": 7,
@@ -2871,18 +2878,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_18_UI.webp"
     },
     "liveComparison": {
       "liveHash": "dcec8aa3933b6ec019acc55a2d5a235de826d1c40d0cfbbff99fdc1c87001525",
-      "currentHash": "dcec8aa3933b6ec019acc55a2d5a235de826d1c40d0cfbbff99fdc1c87001525"
+      "currentHash": "72bf6d2a92e6f2772a46fea7014ec9cccad068137c2d4faf356736f4480a4c2d"
     }
   },
   {
     "id": "51010",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Champion's Radiant Collection I",
     "rarity": 5,
     "type": 7,
@@ -2890,18 +2898,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_27_UI.webp"
     },
     "liveComparison": {
       "liveHash": "b96b5276db2a9c1c7bd69b3f3b39645ff010dbe0043b91d2b334e1b2bc3ce938",
-      "currentHash": "b96b5276db2a9c1c7bd69b3f3b39645ff010dbe0043b91d2b334e1b2bc3ce938"
+      "currentHash": "80717bfdc658a3c70ed3d0c1cfda4cdc39927af600c7be9de61daa614272b947"
     }
   },
   {
     "id": "51011",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Champion's Forging Collection",
     "rarity": 5,
     "type": 7,
@@ -2909,18 +2918,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_28_UI.webp"
     },
     "liveComparison": {
       "liveHash": "61b8c5a638133068d4388f13b6b545897200dae2183e2e712c1ebeaa14ad26c9",
-      "currentHash": "61b8c5a638133068d4388f13b6b545897200dae2183e2e712c1ebeaa14ad26c9"
+      "currentHash": "1d6e858cb26a836fc800dd1270c5747462707c2ef202a842506d8ec81f9bdf80"
     }
   },
   {
     "id": "51012",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Traveler's Tube Aid",
     "rarity": 4,
     "type": 7,
@@ -2928,18 +2938,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_033_UI.webp"
     },
     "liveComparison": {
       "liveHash": "5df0525d14e63bb836fbac756e8ec2f9927f22128712dff7b1a6ec470dd4043f",
-      "currentHash": "5df0525d14e63bb836fbac756e8ec2f9927f22128712dff7b1a6ec470dd4043f"
+      "currentHash": "377496af4b9ab7ef77e17f7c5f8af30c0759a0c365c03f8b479dbfa7c40b0b6f"
     }
   },
   {
     "id": "51013",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Sage's Tube Support",
     "rarity": 5,
     "type": 7,
@@ -2947,18 +2958,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_035_UI.webp"
     },
     "liveComparison": {
       "liveHash": "58f8236cec036ae3ce6196e14d361504ab4625c8731acefdb873147699314c56",
-      "currentHash": "58f8236cec036ae3ce6196e14d361504ab4625c8731acefdb873147699314c56"
+      "currentHash": "c2377563c2642af6ae6a7cf699ef92253df48623bb305de6b37942813a9a9260"
     }
   },
   {
     "id": "51014",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Sage's Solvent Aid",
     "rarity": 4,
     "type": 7,
@@ -2966,18 +2978,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "6ed6f33d0662bec5fc495bcf667051b3dab974e18fcbeb20cb7e7388cc026702",
-      "currentHash": "6ed6f33d0662bec5fc495bcf667051b3dab974e18fcbeb20cb7e7388cc026702"
+      "currentHash": "2b91bc207e40cae5100bdcef87ac88208ab7cf5c91f1541b5352304d1e24285e"
     }
   },
   {
     "id": "51015",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Champion's Radiant Collection II",
     "rarity": 5,
     "type": 7,
@@ -2985,18 +2998,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "f78fe9771dab829dcbfb972b9bf5870f881ac6c7787f4bd22769dcc9eba2ca0c",
-      "currentHash": "f78fe9771dab829dcbfb972b9bf5870f881ac6c7787f4bd22769dcc9eba2ca0c"
+      "currentHash": "8ed72c596bd3a42be932717c7bc213e8048e278af27a42b62d5d9a577c31a2ec"
     }
   },
   {
     "id": "51016",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Vault's Radiant Collection III",
     "rarity": 5,
     "type": 7,
@@ -3004,18 +3018,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "3497d8480abb5d5f148dba49751438ab08aa21d123cd910f61522eb05e7d574e",
-      "currentHash": "3497d8480abb5d5f148dba49751438ab08aa21d123cd910f61522eb05e7d574e"
+      "currentHash": "b322b3d2197c11f58f84bee358cad9d2688420770b75bffd4424c1ba61e477cc"
     }
   },
   {
     "id": "51017",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Champion's Monthly Aid",
     "rarity": 5,
     "type": 7,
@@ -3023,18 +3038,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "6bb1cd502f0b4deeba068f83d7c74227381af45197b6b9633d975c90b1b0f766",
-      "currentHash": "6bb1cd502f0b4deeba068f83d7c74227381af45197b6b9633d975c90b1b0f766"
+      "currentHash": "f005299d58653c8beacaf3fbafddfa9aef18fb61dfe22187a0b07ea1bd87ff01"
     }
   },
   {
     "id": "51018",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Vault's Tide Collection",
     "rarity": 5,
     "type": 7,
@@ -3042,18 +3058,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "4ee7aed931d9b6200e5eeb0a7af696d98f5f89f06fd73296365486ec3a5a1416",
-      "currentHash": "4ee7aed931d9b6200e5eeb0a7af696d98f5f89f06fd73296365486ec3a5a1416"
+      "currentHash": "3a2e1c3c5a624bb94c43984cb1f30eb095161d5dd9fe658b585845adaf6ad17d"
     }
   },
   {
     "id": "51019",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Pioneer's Special Bounty I",
     "rarity": 4,
     "type": 7,
@@ -3061,18 +3078,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "46991c6c9522681b8304d53e6e3145d688339c19cad3cb8a069a9485fcb86262",
-      "currentHash": "46991c6c9522681b8304d53e6e3145d688339c19cad3cb8a069a9485fcb86262"
+      "currentHash": "c10592b2b774bcbc795e5718d073c382df3f30aaa0aee74c76e0e80172e101b9"
     }
   },
   {
     "id": "51020",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Pioneer's Special Bounty II",
     "rarity": 4,
     "type": 7,
@@ -3080,18 +3098,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "c9c585cf56ee87111e7365fbcc5fee5e51d4b8bbf7e8c9cb3542adefeecaa3ff",
-      "currentHash": "c9c585cf56ee87111e7365fbcc5fee5e51d4b8bbf7e8c9cb3542adefeecaa3ff"
+      "currentHash": "76807bd1466d32406b8dc4319a23faf341a949819e8523dc8f3ac6228ad11168"
     }
   },
   {
     "id": "51021",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Pioneer's Special Bounty III",
     "rarity": 4,
     "type": 7,
@@ -3099,18 +3118,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "bedb3ae0d69c8d14c68714c3a9a8d544e5d2c676fd9e6aad0cf740d73c996a22",
-      "currentHash": "bedb3ae0d69c8d14c68714c3a9a8d544e5d2c676fd9e6aad0cf740d73c996a22"
+      "currentHash": "65a18604b5a9d2bb09bd07c40e51c8b9626132c45266d9730ffdbf1c807b26e4"
     }
   },
   {
     "id": "51022",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Pioneer's Special Bounty IV",
     "rarity": 4,
     "type": 7,
@@ -3118,18 +3138,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "67d1c82e476f8a0d8f7d803a7ee05e54b06e845262b4b3dacd482096480fdeb0",
-      "currentHash": "67d1c82e476f8a0d8f7d803a7ee05e54b06e845262b4b3dacd482096480fdeb0"
+      "currentHash": "a5e11c1a547dfb97b5943e049ad457460ca4513f92833fff407e3e088f77c2eb"
     }
   },
   {
     "id": "51023",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Pioneer's Special Bounty V",
     "rarity": 4,
     "type": 7,
@@ -3137,18 +3158,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "2ff0c1b65f32c553c42d1430c3690100c1eb26e77dea827d6a6e4c2bc0935efc",
-      "currentHash": "2ff0c1b65f32c553c42d1430c3690100c1eb26e77dea827d6a6e4c2bc0935efc"
+      "currentHash": "eb9674f93f9ee7c3bab9af3639c429560f8ba4223e6239f76bf87de8bef48030"
     }
   },
   {
     "id": "51024",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Pioneer's Special Bounty VI",
     "rarity": 4,
     "type": 7,
@@ -3156,18 +3178,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "2c937f65d22ed2aaeda8896d77d8661a322999511929b29a48ba663bdae7f0ba",
-      "currentHash": "2c937f65d22ed2aaeda8896d77d8661a322999511929b29a48ba663bdae7f0ba"
+      "currentHash": "8993e9ad2286edde2af91f60447562929246566867e25927ddf732ff0f8af4de"
     }
   },
   {
     "id": "51025",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Pioneer's Special Bounty VII",
     "rarity": 4,
     "type": 7,
@@ -3175,18 +3198,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "da89c5212377d3cb7ba2231544459c0ce138a5fb98a61083971a42d3d330c5b3",
-      "currentHash": "da89c5212377d3cb7ba2231544459c0ce138a5fb98a61083971a42d3d330c5b3"
+      "currentHash": "5e44de43175b055153cf512b70a6409453e64becd389de550787913f17143383"
     }
   },
   {
     "id": "51026",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Reunion's Tidal Aid",
     "rarity": 5,
     "type": 7,
@@ -3194,18 +3218,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_052_UI.webp"
     },
     "liveComparison": {
       "liveHash": "7e517bc42469f8a937e8d97319e28a3b1940dc859cf248d3579c2bffe58ed0e1",
-      "currentHash": "7e517bc42469f8a937e8d97319e28a3b1940dc859cf248d3579c2bffe58ed0e1"
+      "currentHash": "ed3b902d2bd9fcaaf239af4b8ac45edf470f8b6e4a4048f207ac09c57364d4bc"
     }
   },
   {
     "id": "51027",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Reunion's Tidal Collection",
     "rarity": 5,
     "type": 7,
@@ -3213,18 +3238,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_053_UI.webp"
     },
     "liveComparison": {
       "liveHash": "6d1ca49409c3c0d32bcf1ede534c4419e4fc0473e3b1b37eda5af5edbe13591a",
-      "currentHash": "6d1ca49409c3c0d32bcf1ede534c4419e4fc0473e3b1b37eda5af5edbe13591a"
+      "currentHash": "5836b8bfaaec2dc90c2f30a445be656d2616df3ded0c30c2a44903ef07bcd64c"
     }
   },
   {
     "id": "51028",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Reunion's EXP Aid",
     "rarity": 5,
     "type": 7,
@@ -3232,18 +3258,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_054_UI.webp"
     },
     "liveComparison": {
       "liveHash": "630f6d5f33db8e3be5a25158ee7beff48102d73d43a08c72afd0c7752b0bcbbc",
-      "currentHash": "630f6d5f33db8e3be5a25158ee7beff48102d73d43a08c72afd0c7752b0bcbbc"
+      "currentHash": "79e2752a49762a07a1a868e4b212d56ef77ab87b4e60e811abf2e1375b2668d1"
     }
   },
   {
     "id": "51029",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Reunion's Forgery Aid",
     "rarity": 5,
     "type": 7,
@@ -3251,18 +3278,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_055_UI.webp"
     },
     "liveComparison": {
       "liveHash": "31864944f8b4144450324b10879c7c0686c19dba9b011348498fafe8ed24534d",
-      "currentHash": "31864944f8b4144450324b10879c7c0686c19dba9b011348498fafe8ed24534d"
+      "currentHash": "658429eba99ca26df17d3c12e492cc754ff0c85df9cebd6d1d35acc9bc38ab9f"
     }
   },
   {
     "id": "51030",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Reunion's Sealed Tube Aid",
     "rarity": 5,
     "type": 7,
@@ -3270,18 +3298,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_061_UI.webp"
     },
     "liveComparison": {
       "liveHash": "536f7071858c7d98cee828fbf013a30eb3253770d073457908ad2b61e5165dbd",
-      "currentHash": "536f7071858c7d98cee828fbf013a30eb3253770d073457908ad2b61e5165dbd"
+      "currentHash": "b1b684dd6af65c41252e6ae60b047b6f19d77912c66f82ba1af21195dbf5f7fa"
     }
   },
   {
     "id": "51031",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Reunion's Shell Credit Aid",
     "rarity": 5,
     "type": 7,
@@ -3289,18 +3318,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_051_UI.webp"
     },
     "liveComparison": {
       "liveHash": "d48c9cf0af1487f4ecaca349fed4674b2df8a64dc8e99c2a51c091034ef8995e",
-      "currentHash": "d48c9cf0af1487f4ecaca349fed4674b2df8a64dc8e99c2a51c091034ef8995e"
+      "currentHash": "de9ae3b858e5d79cf611197af5481975929aaf2349aa1db5cc1a85b6bdb2f624"
     }
   },
   {
     "id": "51032",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "New Voyage Radiant Lightpack",
     "rarity": 5,
     "type": 7,
@@ -3308,18 +3338,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "c83a3d3a582b38da99a27e7db1fe7b3e254d25c9fb36126e27e1b72c6a6ffab0",
-      "currentHash": "c83a3d3a582b38da99a27e7db1fe7b3e254d25c9fb36126e27e1b72c6a6ffab0"
+      "currentHash": "4490be968350ff644480173a43b926482ffc0ed91ec0e64d7add746c912c2935"
     }
   },
   {
     "id": "51033",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "New Voyage Radiant Heavypack",
     "rarity": 5,
     "type": 7,
@@ -3327,18 +3358,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "7df1bbc9423aedd439e31ea2d8ef750db7e4ce2d7b48549ac7715294dd2f5aa5",
-      "currentHash": "7df1bbc9423aedd439e31ea2d8ef750db7e4ce2d7b48549ac7715294dd2f5aa5"
+      "currentHash": "a3ebb5f605a2bd2ffc8560c6f9d18f7f6883bc71bb097c29d5155756090ff209"
     }
   },
   {
     "id": "51034",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Champion's Battlesong Collection",
     "rarity": 5,
     "type": 7,
@@ -3346,18 +3378,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "75cae7ecf93586fb2e931a288e992e40b4e224c1cef6bfe29ba664428d293d92",
-      "currentHash": "75cae7ecf93586fb2e931a288e992e40b4e224c1cef6bfe29ba664428d293d92"
+      "currentHash": "672e8d242d5ce39f875afca720241e6ef7507a7005948b3a741d16de12125e8f"
     }
   },
   {
     "id": "51036",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Truthseeker's Battlesong Collection",
     "rarity": 5,
     "type": 7,
@@ -3365,18 +3398,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "9bdfc1fe66d8695734d2969ca47328227a527b2e0a4ca6a6e64400b27a2c144d",
-      "currentHash": "9bdfc1fe66d8695734d2969ca47328227a527b2e0a4ca6a6e64400b27a2c144d"
+      "currentHash": "bf7d3ad752fbde8dd85c60193b6deee802509167b7ad1543e01cfc788718dbe4"
     }
   },
   {
     "id": "51037",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Truthseeker's Battlesong Collection II",
     "rarity": 5,
     "type": 7,
@@ -3384,18 +3418,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "f26154273136dcacdcd4b8d7650416cf0290c5a89f5a030d7ed52e78fed26f68",
-      "currentHash": "f26154273136dcacdcd4b8d7650416cf0290c5a89f5a030d7ed52e78fed26f68"
+      "currentHash": "e26dfb1f7edc0ee6df1359d2f8b52fa962366832c136a5e509cd9ffe14082f20"
     }
   },
   {
     "id": "51038",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Spacetrek Prep Protocol",
     "rarity": 5,
     "type": 7,
@@ -3403,18 +3438,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "769cb1968a7acf5ddd0fdc6976a49738bd285d156ecf6bca70f75087d7355b8a",
-      "currentHash": "769cb1968a7acf5ddd0fdc6976a49738bd285d156ecf6bca70f75087d7355b8a"
+      "currentHash": "7a1290f2f87b267d44a14295587744fb7d16a55e7ba746b02b483547b3121b6b"
     }
   },
   {
     "id": "51039",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Astro-Calibration Protocol",
     "rarity": 5,
     "type": 7,
@@ -3422,18 +3458,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "75ce35345be31983323aab8fa8737d3f757bfc85e859ca738b4ffc9959df3fec",
-      "currentHash": "75ce35345be31983323aab8fa8737d3f757bfc85e859ca738b4ffc9959df3fec"
+      "currentHash": "237a8fa5d1f1bf65f4d8eb261bede1fe75665201b308c111370b393304171281"
     }
   },
   {
     "id": "51040",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Truthseeker's Radiant Collection I",
     "rarity": 5,
     "type": 7,
@@ -3441,18 +3478,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "908cfac0d6725bebbd83d8b637715ef5a76564416d7ee4d65ea90b437f2fb8ad",
-      "currentHash": "908cfac0d6725bebbd83d8b637715ef5a76564416d7ee4d65ea90b437f2fb8ad"
+      "currentHash": "8db6fa333a250f41b73305f763bdbdac6111c4f3ab580fe341b968c81553bfe9"
     }
   },
   {
     "id": "51041",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Truthseeker's Radiant Collection II",
     "rarity": 5,
     "type": 7,
@@ -3460,18 +3498,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "f716c6670aaae3154a93c45a0ea0a356ec44046d488411fc856a2166b2a9538f",
-      "currentHash": "f716c6670aaae3154a93c45a0ea0a356ec44046d488411fc856a2166b2a9538f"
+      "currentHash": "0570506b1a0078463b1e487f967702601cb33d4b8f6243a5be234bf450126af8"
     }
   },
   {
     "id": "51042",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Truthseeker's Radiant Collection III",
     "rarity": 5,
     "type": 7,
@@ -3479,18 +3518,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "ad11762dc44c765710759f2a0e28c5ae7f2bf2b5a9d61142c8a4fded1bce5fc0",
-      "currentHash": "ad11762dc44c765710759f2a0e28c5ae7f2bf2b5a9d61142c8a4fded1bce5fc0"
+      "currentHash": "8c79645ea7b46a97b61cdc47fcbf3c03c839ec1b7e81f668115f67b29235824b"
     }
   },
   {
     "id": "51043",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Truthseeker's Forging Collection",
     "rarity": 5,
     "type": 7,
@@ -3498,18 +3538,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "7d0241eaf986b8484a589c3b5abed34090a68ffe3ba61ba5ab446ac40106d80a",
-      "currentHash": "7d0241eaf986b8484a589c3b5abed34090a68ffe3ba61ba5ab446ac40106d80a"
+      "currentHash": "fceff6f606e98648633f94f4c8f8b814abac08014b9666d3f72c57ecc0c4efc5"
     }
   },
   {
     "id": "51044",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Truthseeker's Tidal Collection",
     "rarity": 5,
     "type": 7,
@@ -3517,18 +3558,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "f22dd5f49611b02a81f8640f1548cffc240c7412bd15dfcea9d0e2c4d337bb50",
-      "currentHash": "f22dd5f49611b02a81f8640f1548cffc240c7412bd15dfcea9d0e2c4d337bb50"
+      "currentHash": "a2c59075271b939e6f288d262ded0a2df803bb06c62ac62242f4f9f9fec812a4"
     }
   },
   {
     "id": "51045",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "TARD-E's Monthly Aid",
     "rarity": 5,
     "type": 7,
@@ -3536,18 +3578,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "20661970a27d68f93df578b1d79b7f541d0b78d2333e47c6e50b03423c9a357d",
-      "currentHash": "20661970a27d68f93df578b1d79b7f541d0b78d2333e47c6e50b03423c9a357d"
+      "currentHash": "f46a96c646568b05bd82b7c530bf79e8fd32c718e7827c4ccfea9f12ab6835aa"
     }
   },
   {
     "id": "51048",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Truthseeker's Tuning Collection",
     "rarity": 5,
     "type": 7,
@@ -3555,18 +3598,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "ae9c2a0674148fbc0f8425cd503407c177eea4528fbe851a48b137525cbcba72",
-      "currentHash": "ae9c2a0674148fbc0f8425cd503407c177eea4528fbe851a48b137525cbcba72"
+      "currentHash": "7ea79992238ad01845d93943c74ca9bd8988f431a0ec6577455b362da23e8b60"
     }
   },
   {
     "id": "51049",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Renegade's Shadowforge Collection I",
     "rarity": 5,
     "type": 7,
@@ -3574,18 +3618,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "7ef08b15f3de2ae0f02706e77323da7e6b6e648472822741aa50099b77b0bd75",
-      "currentHash": "7ef08b15f3de2ae0f02706e77323da7e6b6e648472822741aa50099b77b0bd75"
+      "currentHash": "221559c9f603d687b0a0f8da1bea8ae07e90955e4cc954994509dcadfc24457f"
     }
   },
   {
     "id": "51050",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Renegade's Dreamcatcher Collection",
     "rarity": 5,
     "type": 7,
@@ -3593,18 +3638,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "ff2ce0fd8a54420f1a23973dc87d8dd2660ad73818f7e61610e5cf51e055f43d",
-      "currentHash": "ff2ce0fd8a54420f1a23973dc87d8dd2660ad73818f7e61610e5cf51e055f43d"
+      "currentHash": "68e95dfad42bf91c89f68847706d96a716d45c6e25b57af0a485cf060ed8356b"
     }
   },
   {
     "id": "51051",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Renegade's Shadowforge Collection II",
     "rarity": 5,
     "type": 7,
@@ -3612,13 +3658,14 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "464eca547f05e4e349724cc11a98888cce98c8f9ce20ddbb77e601d533da7f56",
-      "currentHash": "464eca547f05e4e349724cc11a98888cce98c8f9ce20ddbb77e601d533da7f56"
+      "currentHash": "2c91be1022ab90313a80b2114dca73d0b6414b77a1c8bb330149807f658c749a"
     }
   },
   {
@@ -3631,12 +3678,13 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "1ce0289710b78247ab2579d7ace37a7d08f9222f68d44d5293640e1fef4931f6"
+      "currentHash": "c9408fbae9dd18e31acafacbee52859fa819f8a0b06e147032073a5c1585c457"
     }
   },
   {
@@ -3649,12 +3697,13 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "80b0b5bbccc65bdb9155b3d1e9762c0a3d153651cd354089c8b69d23c8f57bb8"
+      "currentHash": "31e20b4fb4286d32c633d147241a57dfccb5b657ade6d463cb38ad880ee15af0"
     }
   },
   {
@@ -3667,12 +3716,13 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "2c93cc922ca83e4833daaa06b4de41c759f42584f1b192d9f01d63c8e23f7f95"
+      "currentHash": "538d06275205fd26c9b1dc17fd9be38c7e7e30838d032042762702af7031b950"
     }
   },
   {
@@ -3685,17 +3735,18 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "85857b8da5bec38fd405cd2aa16b1cf7fb241ee12fd2df6ed26ccbdf008d13ec"
+      "currentHash": "ff14184d3a99d834bdcd18ef0111fa38247feb47fd06cd8ec8105e4ef5a0ae67"
     }
   },
   {
     "id": "52001",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Awakening Bundle (For Pre-Sales)",
     "rarity": 5,
     "type": 7,
@@ -3703,18 +3754,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "b9c9f3f712d716668c0060be6464a825d6234f4f73eb902ad449e648fc4df0b8",
-      "currentHash": "b9c9f3f712d716668c0060be6464a825d6234f4f73eb902ad449e648fc4df0b8"
+      "currentHash": "0cc8c92797a4b0d5fab011b004978880befb808be1fd2a97707f535d9e336071"
     }
   },
   {
     "id": "52002",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Awakening Bundle",
     "rarity": 5,
     "type": 7,
@@ -3722,18 +3774,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "76eac03a9da272cbcb2613ccca9a90efc3e77f1df7998a5611d723735782e02a",
-      "currentHash": "76eac03a9da272cbcb2613ccca9a90efc3e77f1df7998a5611d723735782e02a"
+      "currentHash": "9c2b38a73002e324e207f3d7c6fa1db1c28032678e53f3417760d8f87f9e6390"
     }
   },
   {
     "id": "52003",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Adventurer's Starter Pack",
     "rarity": 5,
     "type": 7,
@@ -3741,18 +3794,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "92146880b263a113f1375efca44c04fa15b80af54569890214f764c85941709d",
-      "currentHash": "92146880b263a113f1375efca44c04fa15b80af54569890214f764c85941709d"
+      "currentHash": "bb60683529b6bc37d2edc22cbdbd6d22c22c95b9016b4d03ba7c072422517d47"
     }
   },
   {
     "id": "52004",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Quality Adventurer's Starter Pack",
     "rarity": 5,
     "type": 7,
@@ -3760,18 +3814,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "752b439b1b3c14f54887493c78e81e21fd2e4914977a147d8ac224d3e715032e",
-      "currentHash": "752b439b1b3c14f54887493c78e81e21fd2e4914977a147d8ac224d3e715032e"
+      "currentHash": "425e4be8f710598e9da2c10fee3f8044f89711991402a046c0ab908f8e33ec44"
     }
   },
   {
     "id": "52005",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Returnee's Radiant Aid",
     "rarity": 5,
     "type": 7,
@@ -3779,18 +3834,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_057_UI.webp"
     },
     "liveComparison": {
       "liveHash": "016c7b5e14dab058162ccc1b40b5bc5b583e70af105f15b7241aa76db741c12b",
-      "currentHash": "016c7b5e14dab058162ccc1b40b5bc5b583e70af105f15b7241aa76db741c12b"
+      "currentHash": "b9c4991db04c84dbf4a42ecf626bb82f770baa08034a991dca886351284200f9"
     }
   },
   {
     "id": "52006",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Returnee's Radiant Collection",
     "rarity": 5,
     "type": 7,
@@ -3798,18 +3854,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_058_UI.webp"
     },
     "liveComparison": {
       "liveHash": "f0b47b413001c1bbd7c6015682f7ca3c9a3a9c05dba4829cb18352840262fc92",
-      "currentHash": "f0b47b413001c1bbd7c6015682f7ca3c9a3a9c05dba4829cb18352840262fc92"
+      "currentHash": "5d481bd5ae04f9a2d8fc077b0e97aa435ee5b0abc2188a3c13e22f886a5687bc"
     }
   },
   {
     "id": "52007",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Returnee's Solvent Aid",
     "rarity": 4,
     "type": 7,
@@ -3817,18 +3874,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_057_UI.webp"
     },
     "liveComparison": {
       "liveHash": "60293d80cb76a1ffe8b243a4c9432e0e4c9d64373548ed422ab0c5c308765c2f",
-      "currentHash": "60293d80cb76a1ffe8b243a4c9432e0e4c9d64373548ed422ab0c5c308765c2f"
+      "currentHash": "7fbcef83f6bf755edea4d5e95c770f624f6e3ddfb835f0a917f9cf89a7800c56"
     }
   },
   {
     "id": "52008",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Returnee's Shell Credit Aid",
     "rarity": 4,
     "type": 7,
@@ -3836,18 +3894,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_056_UI.webp"
     },
     "liveComparison": {
       "liveHash": "b081053eea6dd3a37c426389d890f7958b801b2acf458e8b2d3ce6f8bfba6968",
-      "currentHash": "b081053eea6dd3a37c426389d890f7958b801b2acf458e8b2d3ce6f8bfba6968"
+      "currentHash": "3e62f5b91fcbfbab4ceebc2c4464ba3f62f58d1a7cf7bac316a23258795b4ef7"
     }
   },
   {
     "id": "52009",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Returnee's Forgery Aid",
     "rarity": 5,
     "type": 7,
@@ -3855,18 +3914,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_059_UI.webp"
     },
     "liveComparison": {
       "liveHash": "7a16899f98c65e4d9b4d2da67bb423d22d8519defc8f8c5722a47213b859d531",
-      "currentHash": "7a16899f98c65e4d9b4d2da67bb423d22d8519defc8f8c5722a47213b859d531"
+      "currentHash": "40884ca1bf388b82a97b68607063ddd58a95bc8c17f83a8edb5ba42cd2b087e1"
     }
   },
   {
     "id": "52010",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Returnee's Forgery Aid",
     "rarity": 5,
     "type": 7,
@@ -3874,18 +3934,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "8ec954d2bda8213e25895ade7d9ed28c1f7e8927d521fbec67a95ae5af3a3d32",
-      "currentHash": "8ec954d2bda8213e25895ade7d9ed28c1f7e8927d521fbec67a95ae5af3a3d32"
+      "currentHash": "7273b7d69486e5d79648e2bba72ddd95b227fbf579125d99684c5ac4142a95f5"
     }
   },
   {
     "id": "52011",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Returnee's Forgery Aid",
     "rarity": 5,
     "type": 7,
@@ -3893,18 +3954,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "39e67ac18d09fc75e09b5d0126205714e18358f9d6889e2d2cc671d172b9fa4a",
-      "currentHash": "39e67ac18d09fc75e09b5d0126205714e18358f9d6889e2d2cc671d172b9fa4a"
+      "currentHash": "362eff5f72ab1e0ab0630f5bc74c492883ce2de7155faa453a01e6e3b741fb54"
     }
   },
   {
     "id": "52012",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Adventurer's Starter Pack",
     "rarity": 5,
     "type": 7,
@@ -3912,18 +3974,19 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "97ab1e7571a9a1f880c09d81a185362bee468a77e0d99c7d1fd0361044108180",
-      "currentHash": "97ab1e7571a9a1f880c09d81a185362bee468a77e0d99c7d1fd0361044108180"
+      "currentHash": "76c46c5808d2ac6b333a2d89fb86bd94e9f9232a16dc105ce7ac01b070bb21cb"
     }
   },
   {
     "id": "52013",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Returnee's Forgery Aid",
     "rarity": 5,
     "type": 7,
@@ -3931,13 +3994,14 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
       "liveHash": "d186fa81c3ceaeb138c1bf3c42c971ccda0ca3ab889e18ef1b2c9316bbea415a",
-      "currentHash": "d186fa81c3ceaeb138c1bf3c42c971ccda0ca3ab889e18ef1b2c9316bbea415a"
+      "currentHash": "099c8cacd4d993710275eb5f5e39c16df2d21472bc0858c9ae402dcb0396a039"
     }
   },
   {
@@ -3950,12 +4014,13 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "d75bc28685d8cb0aa556ffade6d1f021c905a9612506dafe4e0d2c2a355d27d2"
+      "currentHash": "6b676d6f9fa9fc39a7bfe67eea15025ba412d141a56d33eac3fc47f307de0a6c"
     }
   },
   {
@@ -3968,12 +4033,13 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "4057e7a0c6709a90d92386f9272e05974a7715e4f336a8ce226838da6abe718f"
+      "currentHash": "82f593256ede79b9058e4187a55a2122124a0462215eed84f5e61d96ac5631a0"
     }
   },
   {
@@ -3986,12 +4052,13 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "f41d8b646e575953a52e9a5ef45c14d03783132e479344404430aa2b2610a8c5"
+      "currentHash": "43dc345fd8d4c25e54d6545ee89b9e1a155b138992a0d3d018f81c021f1c30e1"
     }
   },
   {
@@ -4004,12 +4071,13 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "d345767490b684ab4e763d501eeef607e4f940c04fa925637e2081e31e60e750"
+      "currentHash": "0278e13670883ad698361ad74d9c520d53ac727b5a69053278dea8c05cea06a8"
     }
   },
   {
@@ -4022,12 +4090,13 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "9181e9f5795b001fe1cee80e7fc7cf989b5668b4a552c0c0539c268e39ac6c0a"
+      "currentHash": "fc8036fad4528219334b2b6932801e8e4dd23b574ef20465aebefbf3a8fa3e66"
     }
   },
   {
@@ -4040,12 +4109,13 @@
       "Supply Chest"
     ],
     "description": "Obtain to receive the items inside.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "4cb07373091b8cb6d7e234b4c43908941cb0e86005ec1dc60a88b8407909b608"
+      "currentHash": "3092bd34d9b0f350b594fd743d198c07cd07f6121de915d72f0449a022891123"
     }
   },
   {
@@ -4235,13 +4305,13 @@
       "Supply Chest"
     ],
     "description": "Used to unlock a Resonator-specific outfit that grants the designated Resonator a new look.",
-    "background": "Endless sunshine, golden sand beaches, and vibrant hues bursting everywhere—summer's here! Lynae's favorite season, hands down! Hm? The heatwave sapped your energy? Why not pop open another ice-cold soda? (∩^o^)⊃━☆ﾟ.*･",
+    "background": "Endless sunshine, golden sand beaches, and vibrant hues bursting everywhere—summer's here! Lynae's favorite season, hands down! Hm? The heatwave sapped your energy? Why not pop open another ice-cold soda?\n(∩^o^)⊃━☆ﾟ.*･",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_61_Skin1_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "69865a819fa4fe837117d5868856725b30b79b864e43e8e5cd3896578528a907"
+      "currentHash": "299e58d2ce98bb6168265deb81759e004589d737f628beb8289568718b04eb5b"
     }
   },
   {
@@ -5776,14 +5846,14 @@
   },
   {
     "id": "31000014",
-    "contentStatus": "live",
-    "name": "test/Leaf",
+    "contentStatus": "beta_changed",
+    "name": "Stay tuned",
     "rarity": 3,
     "type": 6,
     "tag": [
       "Quest Item"
     ],
-    "description": "test/A Leaf",
+    "description": "Stay tuned",
     "background": "Leaf",
     "source": [],
     "assets": {
@@ -5791,7 +5861,7 @@
     },
     "liveComparison": {
       "liveHash": "c7bc56dc1c32ed30733aaf6d303b2ed5a9a23ebaeb087620a211493aa750b856",
-      "currentHash": "c7bc56dc1c32ed30733aaf6d303b2ed5a9a23ebaeb087620a211493aa750b856"
+      "currentHash": "3b059069bf8092bca12177a39909b5011003392b1829221c609f72fadcf900da"
     }
   },
   {
@@ -7206,6 +7276,7 @@
       "Weapon and Skill Material"
     ],
     "description": "A material used for Weapon & Resonator Ascension and Skill Upgrade.",
+    "background": "Stay tuned",
     "source": [
       "Supply Pack",
       "Synthesis - Purification",
@@ -7216,7 +7287,7 @@
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "55d79a12126582fc3b331c541a1263e65a6aaab72fc33c9b91501f095fdf25f5"
+      "currentHash": "9ff54d9580752145e7eb8a87017c1b11bdf57227646cee02556fd0e1f854ced7"
     }
   },
   {
@@ -8061,12 +8132,14 @@
   {
     "id": "41400324",
     "contentStatus": "beta",
-    "name": "41400324",
+    "name": "Skyward Glazed Heart",
     "rarity": 4,
     "type": 4,
     "tag": [
       "Skill Upgrade Material"
     ],
+    "description": "Thousand-Puppet Pavilion's drop, used for Skill Upgrade.",
+    "background": "He believes he exploited everything of this emotion, yet he never truly understands its essence.\n\nA foe’s burning hatred, a pining for home, a longing for the beloved, a wandering lost on the road ahead. The terror of death, the sheer tenacity for life.\n\nIt was never some incomprehensible impurity, nor the dawn of chaos.\n\nWhat the girl witnessed as she cast a glance back was voices fading softly into the drifting winds—hearts as clear as glass, carried away on feathers toward the far reaches of the sky.",
     "source": [
       "Supply Pack",
       "AccessPath_237000_Description",
@@ -8076,18 +8149,20 @@
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_026_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "910cf208f92c9fc696e77e04f6375764f78933445f2eac3e161cc7ad4d9bfe3a"
+      "currentHash": "1c33c290356c7ff2796bad526b0a198097259afa68f9b42fc8163de4b9704972"
     }
   },
   {
     "id": "41400334",
     "contentStatus": "beta",
-    "name": "41400334",
+    "name": "Solidarity's Loneflame",
     "rarity": 4,
     "type": 4,
     "tag": [
       "Resonator Ascension Material"
     ],
+    "description": "Myriad Snare: Rustfire Chassis's drop, used for Resonator Ascension.",
+    "background": "The forge fires have melted multiple modular parts into a singular mass. After a century of bitter warfare, only a lonely, unbending soul remains to drive this vessel, turning it into an unquenchable flame.\n\nThis obsession burns to this very day, fueled by the desire to repay that unwavering companionship that leaves no soul behind, and to fulfill a century-old vow to defend Xuanfang to the death. Within the flickering firelight, a fine line faintly comes into view: \"Son of Unyielding Virtue.\"",
     "source": [
       "AccessPath_236000_Description",
       "AccessPath_236001_Description"
@@ -8096,7 +8171,7 @@
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_027_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "52ac518fb5e08fd6cc7d44612d24006b5cdbc38a270453ecad5ceb83be8562e7"
+      "currentHash": "a87bb5b9d387c8528870d519887a6400b081f5fbd90aaa869841c01dcb9ae779"
     }
   },
   {
@@ -14250,14 +14325,14 @@
   },
   {
     "id": "44010027",
-    "contentStatus": "live",
-    "name": "test/Universal Echo",
+    "contentStatus": "beta_changed",
+    "name": "Stay tuned",
     "rarity": 4,
     "type": 4,
     "tag": [
       "Echo Development Material"
     ],
-    "description": "test/Universal Echoes can substitute any Echo consumed during Tuning.",
+    "description": "Stay tuned",
     "background": "Echo Details",
     "source": [
       "Exploring Solaris-3",
@@ -14268,19 +14343,19 @@
     },
     "liveComparison": {
       "liveHash": "ac1ec96cd4ee1fc5b26a0ddafa0f2a49fa90213943f9aff7513f86601f6273b5",
-      "currentHash": "ac1ec96cd4ee1fc5b26a0ddafa0f2a49fa90213943f9aff7513f86601f6273b5"
+      "currentHash": "eb74e57b5aa11793f7730678a958bbc06f6edec3a13c20e8d7b09ee288197f42"
     }
   },
   {
     "id": "44010028",
-    "contentStatus": "live",
-    "name": "test/Golden Universal Echo",
+    "contentStatus": "beta_changed",
+    "name": "Stay tuned",
     "rarity": 5,
     "type": 4,
     "tag": [
       "Echo Development Material"
     ],
-    "description": "test/Golden Universal Echoes can substitute any Echo consumed during Tuning.",
+    "description": "Stay tuned",
     "background": "Echo Details",
     "source": [
       "Exploring Solaris-3",
@@ -14291,12 +14366,12 @@
     },
     "liveComparison": {
       "liveHash": "731d9f73c12030e95bf1b19994b62cf0836637a9f047ca3aac26bc342b52aae7",
-      "currentHash": "731d9f73c12030e95bf1b19994b62cf0836637a9f047ca3aac26bc342b52aae7"
+      "currentHash": "4fd069c38f772ce46503817637fc68a4cbcad96269dbdc63cbc4f84c5f929d2e"
     }
   },
   {
     "id": "44010029",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Phantom: Impermanence Heron",
     "rarity": 5,
     "type": 4,
@@ -14304,6 +14379,7 @@
       "Phantom Appearance"
     ],
     "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "background": "Stay tuned",
     "source": [
       "Illusive Store"
     ],
@@ -14312,12 +14388,12 @@
     },
     "liveComparison": {
       "liveHash": "dfcac141d6512735e493831bccbe3d2a38e2b13d352264ad9e68b85642a44601",
-      "currentHash": "dfcac141d6512735e493831bccbe3d2a38e2b13d352264ad9e68b85642a44601"
+      "currentHash": "5a8bd6961e5a622a70add8d1a7671972b14c26599671bbd494d5288feec883f2"
     }
   },
   {
     "id": "44010030",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Phantom: Dreamless",
     "rarity": 5,
     "type": 4,
@@ -14325,6 +14401,7 @@
       "Phantom Appearance"
     ],
     "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "background": "Stay tuned",
     "source": [
       "Illusive Store"
     ],
@@ -14333,7 +14410,7 @@
     },
     "liveComparison": {
       "liveHash": "0f15435c2580cdb8b39d4cb0533614eb46c7609f0aba6f8de533dd1b3edaa017",
-      "currentHash": "0f15435c2580cdb8b39d4cb0533614eb46c7609f0aba6f8de533dd1b3edaa017"
+      "currentHash": "24f680af84e6bd50d1456b2ab66865d984c0d321e1fd52f4d788d3ce68e27e68"
     }
   },
   {
@@ -14360,7 +14437,7 @@
   },
   {
     "id": "44010032",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Phantom: Lorelei",
     "rarity": 5,
     "type": 4,
@@ -14368,6 +14445,7 @@
       "Phantom Appearance"
     ],
     "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "background": "Stay tuned",
     "source": [
       "Unavailable now"
     ],
@@ -14376,12 +14454,12 @@
     },
     "liveComparison": {
       "liveHash": "d64e56ef68d3bb367ff335470880b2ffe1822481d2d4ad17e74fda954c56fda8",
-      "currentHash": "d64e56ef68d3bb367ff335470880b2ffe1822481d2d4ad17e74fda954c56fda8"
+      "currentHash": "3ffa1e6b0e7a1dfc9884c1a4a1b8b4a48af8b72a99024ea86151d91a5f777a1f"
     }
   },
   {
     "id": "44010033",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Phantom: Nimbus Wraith",
     "rarity": 5,
     "type": 4,
@@ -14389,6 +14467,7 @@
       "Phantom Appearance"
     ],
     "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "background": "Stay tuned",
     "source": [
       "Trial Store"
     ],
@@ -14397,12 +14476,12 @@
     },
     "liveComparison": {
       "liveHash": "029569efc81d3920d32b5d8c6e9c05d4d9af1c3af2f8273f0e2bb7d5cd387e1d",
-      "currentHash": "029569efc81d3920d32b5d8c6e9c05d4d9af1c3af2f8273f0e2bb7d5cd387e1d"
+      "currentHash": "cca0fb66dd9526d725df39ccda3cd1be7cf1a2752e038bcd3485447764c72e18"
     }
   },
   {
     "id": "44010034",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Phantom: Crownless",
     "rarity": 5,
     "type": 4,
@@ -14410,6 +14489,7 @@
       "Phantom Appearance"
     ],
     "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "background": "Stay tuned",
     "source": [
       "\"Dreaming Deep\" Event"
     ],
@@ -14418,12 +14498,12 @@
     },
     "liveComparison": {
       "liveHash": "5e380ddad84e3f226b643bcf76daa2f6f55909c84bfd5840f9debdab5f18a222",
-      "currentHash": "5e380ddad84e3f226b643bcf76daa2f6f55909c84bfd5840f9debdab5f18a222"
+      "currentHash": "ada5086179ee1c4fe6d0bf4c19df44a6bd9cd026fb43ec83f6ba0361c433681f"
     }
   },
   {
     "id": "44010035",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Phantom: Nightmare Crownless",
     "rarity": 5,
     "type": 4,
@@ -14431,6 +14511,7 @@
       "Phantom Appearance"
     ],
     "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "background": "Stay tuned",
     "source": [
       "\"Dreaming Deep\" Event"
     ],
@@ -14439,12 +14520,12 @@
     },
     "liveComparison": {
       "liveHash": "9247cbdbd3c291ed945ca3c0070cd726db282e9b88fe38d548d545634bad42a2",
-      "currentHash": "9247cbdbd3c291ed945ca3c0070cd726db282e9b88fe38d548d545634bad42a2"
+      "currentHash": "35d39efa5bcad558df814ae5472d7356d83a7452fc77d93fbc19b6b5cbe357bd"
     }
   },
   {
     "id": "44010036",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Phantom: Chest Mimic",
     "rarity": 5,
     "type": 4,
@@ -14452,6 +14533,7 @@
       "Phantom Appearance"
     ],
     "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "background": "Stay tuned",
     "source": [
       "Unavailable now"
     ],
@@ -14460,12 +14542,12 @@
     },
     "liveComparison": {
       "liveHash": "612e542a81126c63c02219c6d78a732ddccd63682d2b100769137e37309297e6",
-      "currentHash": "612e542a81126c63c02219c6d78a732ddccd63682d2b100769137e37309297e6"
+      "currentHash": "43903bda3c3dc4022ddbb39fc17a98ffaa383caab40b64baede26755ab880185"
     }
   },
   {
     "id": "44010037",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Phantom: Fae Ignis",
     "rarity": 5,
     "type": 4,
@@ -14473,6 +14555,7 @@
       "Phantom Appearance"
     ],
     "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "background": "Stay tuned",
     "source": [
       "Banners Never Fall"
     ],
@@ -14481,12 +14564,12 @@
     },
     "liveComparison": {
       "liveHash": "d484a57e8d14da813ddde05df1cd589089e4b0bb62629e8f770c5a242c1de451",
-      "currentHash": "d484a57e8d14da813ddde05df1cd589089e4b0bb62629e8f770c5a242c1de451"
+      "currentHash": "7c54590514a1bcba2e9ae65359a7a4ac7259da91cf2b381ce73bffdc8a0bf57d"
     }
   },
   {
     "id": "44010038",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Phantom: Cuddle Wuddle",
     "rarity": 5,
     "type": 4,
@@ -14494,6 +14577,7 @@
       "Phantom Appearance"
     ],
     "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "background": "Stay tuned",
     "source": [
       "Unavailable now"
     ],
@@ -14502,12 +14586,12 @@
     },
     "liveComparison": {
       "liveHash": "219bee9eeee80f11b2178dc1b8acec845865a8620dfda2bbf2ba77c37699e395",
-      "currentHash": "219bee9eeee80f11b2178dc1b8acec845865a8620dfda2bbf2ba77c37699e395"
+      "currentHash": "57dd88348e0c4c27f42749a0c9106783dffcc722be9535d6f25c9dcfbdc4bef2"
     }
   },
   {
     "id": "44010039",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Phantom: Nightmare Inferno Rider",
     "rarity": 5,
     "type": 4,
@@ -14515,6 +14599,7 @@
       "Phantom Appearance"
     ],
     "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "background": "Stay tuned",
     "source": [
       "Unavailable now"
     ],
@@ -14523,7 +14608,7 @@
     },
     "liveComparison": {
       "liveHash": "1a1ebbeb71eb15123e08fd08dc7835227e6a9a63d98f51d6761b595cd8659640",
-      "currentHash": "1a1ebbeb71eb15123e08fd08dc7835227e6a9a63d98f51d6761b595cd8659640"
+      "currentHash": "36395d00570ee8501fd007d2cc14299cf0884267dad6c3e34ff97584b829bd31"
     }
   },
   {
@@ -14648,7 +14733,7 @@
   },
   {
     "id": "44010047",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Phantom: Fallacy of No Return",
     "rarity": 5,
     "type": 4,
@@ -14656,6 +14741,7 @@
       "Phantom Appearance"
     ],
     "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "background": "Stay tuned",
     "source": [
       "Unavailable now"
     ],
@@ -14664,12 +14750,12 @@
     },
     "liveComparison": {
       "liveHash": "469115f5aee963897f54561036008c445a1867e3a82996c991446746f4c5dda2",
-      "currentHash": "469115f5aee963897f54561036008c445a1867e3a82996c991446746f4c5dda2"
+      "currentHash": "83c16649e2485a31a264c9bd5225250b5a69a57c98a53bad4d37a848c22430af"
     }
   },
   {
     "id": "44010048",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Phantom: Kerasaur",
     "rarity": 5,
     "type": 4,
@@ -14677,6 +14763,7 @@
       "Phantom Appearance"
     ],
     "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "background": "Stay tuned",
     "source": [
       "Overworld Exploration"
     ],
@@ -14685,12 +14772,12 @@
     },
     "liveComparison": {
       "liveHash": "bc2d919e622f66ebbb206051926c594c9a0f29fbdbe4b3a5963d6abf9001c915",
-      "currentHash": "bc2d919e622f66ebbb206051926c594c9a0f29fbdbe4b3a5963d6abf9001c915"
+      "currentHash": "329b864854194b5e1fcea51a229c67edc3d1c3d5c115d935cedad4be0a184fbd"
     }
   },
   {
     "id": "44010050",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Phantom: Chop Chop",
     "rarity": 5,
     "type": 4,
@@ -14698,6 +14785,7 @@
       "Phantom Appearance"
     ],
     "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "background": "Stay tuned",
     "source": [
       "Peaks of Prestige: Rekindled Duel"
     ],
@@ -14706,12 +14794,12 @@
     },
     "liveComparison": {
       "liveHash": "889666965fb66b1316309774c3555440e2114ef62ad9990a69abc1a0424ec71c",
-      "currentHash": "889666965fb66b1316309774c3555440e2114ef62ad9990a69abc1a0424ec71c"
+      "currentHash": "abcf00b7419c8c56bc3f5287bdde63c61925ea47c53e7e9e244122d1f70cb58e"
     }
   },
   {
     "id": "44010051",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Phantom: The False Sovereign",
     "rarity": 5,
     "type": 4,
@@ -14719,6 +14807,7 @@
       "Phantom Appearance"
     ],
     "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "background": "Stay tuned",
     "source": [
       "Unavailable now"
     ],
@@ -14727,12 +14816,12 @@
     },
     "liveComparison": {
       "liveHash": "296159091f564f6ef493975388ef7afda91fee5950943d94c8dfe3efa16d768b",
-      "currentHash": "296159091f564f6ef493975388ef7afda91fee5950943d94c8dfe3efa16d768b"
+      "currentHash": "07153da49e354eb189a10f916b045f16e45af98d90f51e0529c1fe961d5f0700"
     }
   },
   {
     "id": "44010053",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Phantom: Zip Zap",
     "rarity": 5,
     "type": 4,
@@ -14740,6 +14829,7 @@
       "Phantom Appearance"
     ],
     "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "background": "Stay tuned",
     "source": [
       "Event"
     ],
@@ -14748,12 +14838,12 @@
     },
     "liveComparison": {
       "liveHash": "f9867495c85d8b46672c965293eb3316fc56f7fded504b0146e801b9b1ce084b",
-      "currentHash": "f9867495c85d8b46672c965293eb3316fc56f7fded504b0146e801b9b1ce084b"
+      "currentHash": "06b2025a15525d4760a0617000710fb959f41083dcd888bd4b426b7f4222587d"
     }
   },
   {
     "id": "44010054",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Phantom: Twin Nova - Nebulous Cannon",
     "rarity": 5,
     "type": 4,
@@ -14761,6 +14851,7 @@
       "Phantom Appearance"
     ],
     "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "background": "Stay tuned",
     "source": [
       "\"Operation: Frontier Renewal\" Event"
     ],
@@ -14769,12 +14860,12 @@
     },
     "liveComparison": {
       "liveHash": "f91dc0f94e75764cf69d522725cb3b4c48bc9e9a4e8b0cd9f0e022c6c04c413e",
-      "currentHash": "f91dc0f94e75764cf69d522725cb3b4c48bc9e9a4e8b0cd9f0e022c6c04c413e"
+      "currentHash": "c5a215200d52608ee45ce247016d8c7fba664c5b7196e4a5d21951860c43cf02"
     }
   },
   {
     "id": "44010055",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Phantom: Twin Nova - Collapsar Blade",
     "rarity": 5,
     "type": 4,
@@ -14782,6 +14873,7 @@
       "Phantom Appearance"
     ],
     "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "background": "Stay tuned",
     "source": [
       "\"Operation: Frontier Renewal\" Event"
     ],
@@ -14790,12 +14882,12 @@
     },
     "liveComparison": {
       "liveHash": "f0fa9539905d9a37379a96ee87cf10bedb67e8d43fc1aba72d27caa6c84fd925",
-      "currentHash": "f0fa9539905d9a37379a96ee87cf10bedb67e8d43fc1aba72d27caa6c84fd925"
+      "currentHash": "4e937609711e8169581a07f7188ae8056f5317e517d32f3e0f28af208bebd8a4"
     }
   },
   {
     "id": "44010056",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Phantom: Sigillum",
     "rarity": 5,
     "type": 4,
@@ -14803,6 +14895,7 @@
       "Phantom Appearance"
     ],
     "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "background": "Stay tuned",
     "source": [
       "\"Where Stars Cascade Down\" Event"
     ],
@@ -14811,12 +14904,12 @@
     },
     "liveComparison": {
       "liveHash": "36d5e1016e0e5826c3b68adf9440f823ade4a851311c1b0f4565b33dbe145806",
-      "currentHash": "36d5e1016e0e5826c3b68adf9440f823ade4a851311c1b0f4565b33dbe145806"
+      "currentHash": "41bdb427a1300d55c49e7436b4768f28ad5429d4c87b9cb7a01f9603ede6781a"
     }
   },
   {
     "id": "44010057",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Phantom: Iceglint Dancer",
     "rarity": 5,
     "type": 4,
@@ -14824,6 +14917,7 @@
       "Phantom Appearance"
     ],
     "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "background": "Stay tuned",
     "source": [
       "Overworld Exploration"
     ],
@@ -14832,12 +14926,12 @@
     },
     "liveComparison": {
       "liveHash": "f9ddee1b2ac763f5c24feb52d5601e65f2a3010c4036fb02d873b2f6f80702a1",
-      "currentHash": "f9ddee1b2ac763f5c24feb52d5601e65f2a3010c4036fb02d873b2f6f80702a1"
+      "currentHash": "053ec54e7be4ffb995cb3243fa544e7c7edad761e18ab761a5159a315a16f7f6"
     }
   },
   {
     "id": "44010058",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Phantom: Reactor Husk",
     "rarity": 5,
     "type": 4,
@@ -14845,6 +14939,7 @@
       "Phantom Appearance"
     ],
     "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "background": "Stay tuned",
     "source": [
       "Star Bouncing"
     ],
@@ -14853,12 +14948,12 @@
     },
     "liveComparison": {
       "liveHash": "80ae2077db9f5be5e58ffab5721a9e0bd52af4ececde1885bcd5e30b01bb40a7",
-      "currentHash": "80ae2077db9f5be5e58ffab5721a9e0bd52af4ececde1885bcd5e30b01bb40a7"
+      "currentHash": "102d56e80b830942e69464b1fb1c2c3dba56180b6cade3525b78b14937aa46e3"
     }
   },
   {
     "id": "44010059",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Phantom: Kronaclaw",
     "rarity": 5,
     "type": 4,
@@ -14866,6 +14961,7 @@
       "Phantom Appearance"
     ],
     "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "background": "Stay tuned",
     "source": [
       "Complete Exploration Quest \"A Perfect Day for Flying\""
     ],
@@ -14874,12 +14970,12 @@
     },
     "liveComparison": {
       "liveHash": "9184bb1f11380ec7255c90a60a115555e62c811d200d06c072d1c67258e056fc",
-      "currentHash": "9184bb1f11380ec7255c90a60a115555e62c811d200d06c072d1c67258e056fc"
+      "currentHash": "60b9405c749e6c671f7eac6c816d147f6f46245d2befe157d5daf28cd09bbb0f"
     }
   },
   {
     "id": "44010060",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Phantom: Glommoth",
     "rarity": 5,
     "type": 4,
@@ -14887,13 +14983,14 @@
       "Phantom Appearance"
     ],
     "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32061_UI.webp"
     },
     "liveComparison": {
       "liveHash": "ddef07791220d5ff4fd5f17a9c15f39c6b4fe4a92fbb62507df85edb443be5f6",
-      "currentHash": "ddef07791220d5ff4fd5f17a9c15f39c6b4fe4a92fbb62507df85edb443be5f6"
+      "currentHash": "f4922a294dc66c5908768d4ec5964c4b58fedeffb77c8d768b0aecab9a4f84ee"
     }
   },
   {
@@ -14906,12 +15003,13 @@
       "Phantom Appearance"
     ],
     "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32068_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "0758175beed9fd8290241783b07e02966519c1169f45c156ce9053d3533a9886"
+      "currentHash": "915310174bb0cf8bf0e74c068f78a6f1a7aee72ce513f032eaa98c84a7873f50"
     }
   },
   {
@@ -14924,12 +15022,13 @@
       "Phantom Appearance"
     ],
     "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31090_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "7f4a3c5ae1861520ebceb45c56c2b0bece5c24436b9780c3076bb5c4880fcb6d"
+      "currentHash": "a76327dfcf73d995f8db6542c0db52e395e56ce790039eb67385752ff562a55b"
     }
   },
   {
@@ -16866,7 +16965,7 @@
   },
   {
     "id": "50000178",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Basic Enclosure Tank",
     "rarity": 2,
     "type": 7,
@@ -16874,18 +16973,19 @@
       "Supply Chest"
     ],
     "description": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare2>Crude Ring*1</color>\n<color=Rare2>LF Whisperin Core*1</color>\n<color=Rare2>LF Howler Core*1</color>",
+    "background": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_023_UI.webp"
     },
     "liveComparison": {
       "liveHash": "ca96a8c7deb56c9fdb75b1760d2cf7fab23cf1dcc85d842ff083b0ae2d0e62ad",
-      "currentHash": "bd7a483a53c8cc9fcf4f86110fb3ecda17319a910263941a7e3b5205ae6b7b15"
+      "currentHash": "ca96a8c7deb56c9fdb75b1760d2cf7fab23cf1dcc85d842ff083b0ae2d0e62ad"
     }
   },
   {
     "id": "50000179",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Medium Enclosure Tank",
     "rarity": 3,
     "type": 7,
@@ -16893,18 +16993,19 @@
       "Supply Chest"
     ],
     "description": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare3>Basic Ring*1</color>\n<color=Rare3>MF Whisperin Core*1</color>\n<color=Rare3>MF Howler Core*1</color>",
+    "background": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_024_UI.webp"
     },
     "liveComparison": {
       "liveHash": "10b7d7f74c01119db5fadf9811f051668cdae8a868dc114d1ff1b0425313a116",
-      "currentHash": "c1758229ccb6ac347c01e12bc2becf0ca99aadd51e89236c0eee2c0cf770aa23"
+      "currentHash": "10b7d7f74c01119db5fadf9811f051668cdae8a868dc114d1ff1b0425313a116"
     }
   },
   {
     "id": "50000180",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Advanced Enclosure Tank",
     "rarity": 4,
     "type": 7,
@@ -16912,18 +17013,19 @@
       "Supply Chest"
     ],
     "description": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare4>Improved Ring*1</color>\n<color=Rare4>HF Whisperin Core*1</color>\n<color=Rare4>HF Howler Core*1</color>",
+    "background": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_025_UI.webp"
     },
     "liveComparison": {
       "liveHash": "2d91b7c1dec32127f91cfda9f00ad673957a49268db414926024cc2889e8771f",
-      "currentHash": "b7f6f73debc7a0cd7855a9f129da949b00ec2254eecde867685b7385dadb5cc2"
+      "currentHash": "2d91b7c1dec32127f91cfda9f00ad673957a49268db414926024cc2889e8771f"
     }
   },
   {
     "id": "50000181",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Premium Enclosure Tank",
     "rarity": 5,
     "type": 7,
@@ -16931,13 +17033,14 @@
       "Supply Chest"
     ],
     "description": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare5>Tailored Ring*1</color>\n<color=Rare5>FF Whisperin Core*1</color>\n<color=Rare5>FF Howler Core*1</color>",
+    "background": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_026_UI.webp"
     },
     "liveComparison": {
       "liveHash": "c7464a72963d46ea230a27c82488d88724e08381d96b5ced86fed8a9985bd9dc",
-      "currentHash": "8cc6f317d99ac6f02dd8b3d72d0ce4f4389fe948f4125369b1fd32a7b1c583f7"
+      "currentHash": "c7464a72963d46ea230a27c82488d88724e08381d96b5ced86fed8a9985bd9dc"
     }
   },
   {
@@ -17123,14 +17226,14 @@
   },
   {
     "id": "50000211",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Voyager's Ascension Supply",
     "rarity": 4,
     "type": 7,
     "tag": [
       "Supply Chest"
     ],
-    "description": "Open to claim one material for Resonator Ascension of your choice:\nDream of Stars x1\nRedbell x1\nForget-Me-Not x1\nMoss Amber x1\nEdelschnee x1\n...",
+    "description": "Open to claim one material for Resonator Ascension of your choice:\nCloudperch Seed x1\nFlowborne Dream x1\nBlade Blossom x1\nRedbell x1\nForget-Me-Not x1\n...",
     "background": "Bio samples collected by the Black Shores' Bloombearers during their fieldwork, which were later transplanted, preserved, and archived in the Bank of Life at Tethys' Deep. When necessary, specimens stored within may be used as supplies and freely accessed by personnel in need.",
     "source": [],
     "assets": {
@@ -17138,19 +17241,19 @@
     },
     "liveComparison": {
       "liveHash": "421d654e9bf8e0d5a762e60a51e975432db5418ba03414fe2ba9a5faabc28025",
-      "currentHash": "421d654e9bf8e0d5a762e60a51e975432db5418ba03414fe2ba9a5faabc28025"
+      "currentHash": "1d5366f27aa7a752358df4941e9f38dac2c024423d391efa8a6e592f93669295"
     }
   },
   {
     "id": "50000212",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Reprise Ascension Supply",
     "rarity": 4,
     "type": 7,
     "tag": [
       "Supply Chest"
     ],
-    "description": "Open to claim one material for Resonator Ascension of your choice:\nDream of Stars x1\nRedbell x1\nForget-Me-Not x1\nMoss Amber x1\nEdelschnee x1\n...",
+    "description": "Open to claim one material for Resonator Ascension of your choice:\nCloudperch Seed x1\nFlowborne Dream x1\nBlade Blossom x1\nRedbell x1\nForget-Me-Not x1\n...",
     "background": "Bio samples collected by the Black Shores' Bloombearers during their fieldwork, which were later transplanted, preserved, and archived in the Bank of Life at Tethys' Deep. When necessary, specimens stored within may be used as supplies and freely accessed by personnel in need.",
     "source": [],
     "assets": {
@@ -17158,7 +17261,7 @@
     },
     "liveComparison": {
       "liveHash": "f768a4892b163e3785cd9324c675007492e3117d7a78b86f63e5301d6001d417",
-      "currentHash": "f768a4892b163e3785cd9324c675007492e3117d7a78b86f63e5301d6001d417"
+      "currentHash": "fa13b5e7eeece2eb05ee6361fa5359253c4c3071cd60664559418644192b434f"
     }
   },
   {
@@ -17300,7 +17403,7 @@
   },
   {
     "id": "50000305",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Basic Enclosure Tank",
     "rarity": 2,
     "type": 7,
@@ -17308,18 +17411,19 @@
       "Supply Chest"
     ],
     "description": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare2>Crude Ring *1</color>\n<color=Rare2>LF Whisperin Core *1</color>\n<color=Rare2>LF Howler Core *1</color>\n<color=Rare2>LF Polygon Core *1</color>\n<color=Rare2>LF Tidal Residuum *1</color>",
+    "background": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_023_UI.webp"
     },
     "liveComparison": {
       "liveHash": "0220d3b04799243302a3f0ecbbee901a570e0bbf5282a26bfde4876368e34bb1",
-      "currentHash": "356fc5f5be4966be420fd9714bb94d5b7bf359adbe3b1b345acdf377381c6dbe"
+      "currentHash": "0220d3b04799243302a3f0ecbbee901a570e0bbf5282a26bfde4876368e34bb1"
     }
   },
   {
     "id": "50000306",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Medium Enclosure Tank",
     "rarity": 3,
     "type": 7,
@@ -17327,18 +17431,19 @@
       "Supply Chest"
     ],
     "description": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare3>Basic Ring *1</color>\n<color=Rare3>MF Whisperin Core *1</color>\n<color=Rare3>MF Howler Core *1</color>\n<color=Rare3>MF Polygon Core *1</color>\n<color=Rare3>MF Tidal Residuum *1</color>",
+    "background": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_024_UI.webp"
     },
     "liveComparison": {
       "liveHash": "92657ce70afce24cdc0591db3198b0222a19c902d2096910f6eae06b48383c54",
-      "currentHash": "1eecf0a1c0ac171c4f94114f2ae18164eac9786f877a912291b50abd22dd3747"
+      "currentHash": "92657ce70afce24cdc0591db3198b0222a19c902d2096910f6eae06b48383c54"
     }
   },
   {
     "id": "50000307",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Advanced Enclosure Tank",
     "rarity": 4,
     "type": 7,
@@ -17346,18 +17451,19 @@
       "Supply Chest"
     ],
     "description": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare4>Improved Ring *1</color>\n<color=Rare4>HF Whisperin Core *1</color>\n<color=Rare4>HF Howler Core *1</color>\n<color=Rare4>HF Polygon Core *1</color>\n<color=Rare4>HF Tidal Residuum *1</color>",
+    "background": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_025_UI.webp"
     },
     "liveComparison": {
       "liveHash": "5c966788b16ef367a5c5a471fe0b2ff0fb05c7838f6dd9bd4bcba5873760c473",
-      "currentHash": "af92b208cd2d3096645c83d10fd7013166a2eb6dbe254efc3ac81c9e1096c8b7"
+      "currentHash": "5c966788b16ef367a5c5a471fe0b2ff0fb05c7838f6dd9bd4bcba5873760c473"
     }
   },
   {
     "id": "50000308",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Premium Enclosure Tank",
     "rarity": 5,
     "type": 7,
@@ -17365,13 +17471,14 @@
       "Supply Chest"
     ],
     "description": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare5>Tailored Ring *1</color>\n<color=Rare5>FF Whisperin Core *1</color>\n<color=Rare5>FF Howler Core *1</color>\n<color=Rare5>FF Polygon Core *1</color>\n<color=Rare5>FF Tidal Residuum *1</color>",
+    "background": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_026_UI.webp"
     },
     "liveComparison": {
       "liveHash": "5526f834b9f7335bebd817c8e87184e49d1e210562618eb7b706a61847bfd1f5",
-      "currentHash": "4b375243c4a3067d8bdd502fcc0228fb3e03ea23b9846f4f3657b713ba6fe6dc"
+      "currentHash": "5526f834b9f7335bebd817c8e87184e49d1e210562618eb7b706a61847bfd1f5"
     }
   },
   {
@@ -17516,7 +17623,7 @@
   },
   {
     "id": "50000408",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Basic Enclosure Tank II",
     "rarity": 2,
     "type": 7,
@@ -17524,18 +17631,19 @@
       "Supply Chest"
     ],
     "description": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare2>LF Exoswarm Core *1</color> \n<color=Rare2>LF Mech Core *1</color> \n<color=Rare2>Fractured Exoswarm Pendant *1</color>\n<color=Rare2>Crude Ring *1</color>\n<color=Rare2>LF Whisperin Core *1</color>\n<color=Rare2>LF Howler Core *1</color>\n<color=Rare2>LF Polygon Core *1</color>\n<color=Rare2>LF Tidal Residuum *1</color>",
+    "background": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_023_UI.webp"
     },
     "liveComparison": {
       "liveHash": "bf78c7abe548bc99a906e438a5cebf2149673b7619064e4f1b3fdfb2d59e6ddc",
-      "currentHash": "db778535fbe259e5369471ca05a792c5b5b7c8f9ee9d33a6ac6a306dd23150a2"
+      "currentHash": "bf78c7abe548bc99a906e438a5cebf2149673b7619064e4f1b3fdfb2d59e6ddc"
     }
   },
   {
     "id": "50000409",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Medium Enclosure Tank II",
     "rarity": 3,
     "type": 7,
@@ -17543,18 +17651,19 @@
       "Supply Chest"
     ],
     "description": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice: \n<color=Rare3>MF Exoswarm Core *1</color> \n<color=Rare3>MF Mech Core *1</color> \n<color=Rare3>Worn Exoswarm Pendant *1</color>\n<color=Rare3>Basic Ring *1</color>\n<color=Rare3>MF Whisperin Core *1</color>\n<color=Rare3>MF Howler Core *1</color>\n<color=Rare3>MF Polygon Core *1</color>\n<color=Rare3>MF Tidal Residuum *1</color>",
+    "background": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_024_UI.webp"
     },
     "liveComparison": {
       "liveHash": "a4259d20fa8ba64e4efd83ed30dc93309aa5fc90984e988f61f3c1633d82a202",
-      "currentHash": "9325a7d58fa578533e2514c4562d768fd45f05c3d2fcb715d415b4eb0dab1e46"
+      "currentHash": "a4259d20fa8ba64e4efd83ed30dc93309aa5fc90984e988f61f3c1633d82a202"
     }
   },
   {
     "id": "50000410",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Advanced Enclosure Tank II",
     "rarity": 4,
     "type": 7,
@@ -17562,18 +17671,19 @@
       "Supply Chest"
     ],
     "description": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice: \n<color=Rare4>HF Exoswarm Core *1</color> \n<color=Rare4>HF Mech Core *1</color> \n<color=Rare4>Chipped Exoswarm Pendant *1</color>\n<color=Rare4>Improved Ring *1</color>\n<color=Rare4>HF Whisperin Core *1</color>\n<color=Rare4>HF Howler Core *1</color>\n<color=Rare4>HF Polygon Core *1</color>\n<color=Rare4>HF Tidal Residuum *1</color>",
+    "background": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_025_UI.webp"
     },
     "liveComparison": {
       "liveHash": "825ea74de116bcc521efe03e620b5cc3ea905dd86733bf85208137c089c29ad5",
-      "currentHash": "6e1e1d344f6d5bb6b3cdd76eb5d3ab37cef39f32bcb75f4db9eaf0c94974d664"
+      "currentHash": "825ea74de116bcc521efe03e620b5cc3ea905dd86733bf85208137c089c29ad5"
     }
   },
   {
     "id": "50000411",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Premium Enclosure Tank II",
     "rarity": 5,
     "type": 7,
@@ -17581,13 +17691,14 @@
       "Supply Chest"
     ],
     "description": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice: \n<color=Rare5>FF Exoswarm Core *1</color> \n<color=Rare5>FF Mech Core *1</color> \n<color=Rare5>Intact Exoswarm Pendant *1</color>\n<color=Rare5>Tailored Ring *1</color>\n<color=Rare5>FF Whisperin Core *1</color>\n<color=Rare5>FF Howler Core *1</color>\n<color=Rare5>FF Polygon Core *1</color>\n<color=Rare5>FF Tidal Residuum *1</color>",
+    "background": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_026_UI.webp"
     },
     "liveComparison": {
       "liveHash": "dbc4f0899dabdf1a93f20f97c0eb2720f776f4d7617fdb868f08721a72a79ecc",
-      "currentHash": "ff11875a4fc003dfeafe9c6c8dff616c684e7226b9ec78a4322b9b83b72ca3a1"
+      "currentHash": "dbc4f0899dabdf1a93f20f97c0eb2720f776f4d7617fdb868f08721a72a79ecc"
     }
   },
   {
@@ -17672,7 +17783,7 @@
   },
   {
     "id": "50000416",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Basic Enclosure Tank - Lahai-Roi",
     "rarity": 2,
     "type": 7,
@@ -17680,18 +17791,19 @@
       "Supply Chest"
     ],
     "description": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice: \n<color=Rare2>LF Exoswarm Core *1</color> \n<color=Rare2>LF Mech Core *1</color> \n<color=Rare2>Fractured Exoswarm Pendant *1</color>",
+    "background": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_cllb_01.webp"
     },
     "liveComparison": {
       "liveHash": "e6253f3eb8e9a203c8d3b531746e40124fdd9f189d73225235d852325e7dea8b",
-      "currentHash": "4d0057b1399992ac1da2cb8901334e4a8baa72e3139fc01a9f97a7be7cd4f5c1"
+      "currentHash": "e6253f3eb8e9a203c8d3b531746e40124fdd9f189d73225235d852325e7dea8b"
     }
   },
   {
     "id": "50000417",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Medium Enclosure Tank - Lahai-Roi",
     "rarity": 3,
     "type": 7,
@@ -17699,18 +17811,19 @@
       "Supply Chest"
     ],
     "description": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice: \n<color=Rare3>MF Exoswarm Core *1</color> \n<color=Rare3>MF Mech Core *1</color> \n<color=Rare3>Worn Exoswarm Pendant *1</color>",
+    "background": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_cllb_02.webp"
     },
     "liveComparison": {
       "liveHash": "191f65bdff4e1f62b9a3a5c0a9d40c6c4cb181b5bf2f6eb61e0eb387fcefe184",
-      "currentHash": "066ad7903f11e2a1aca6d8b88f413ae28fc24a044c4d3d301dfdb2697f122f4c"
+      "currentHash": "191f65bdff4e1f62b9a3a5c0a9d40c6c4cb181b5bf2f6eb61e0eb387fcefe184"
     }
   },
   {
     "id": "50000418",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Advanced Enclosure Tank - Lahai-Roi",
     "rarity": 4,
     "type": 7,
@@ -17718,18 +17831,19 @@
       "Supply Chest"
     ],
     "description": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice: \n<color=Rare4>HF Exoswarm Core *1</color> \n<color=Rare4>HF Mech Core *1</color> \n<color=Rare4>Chipped Exoswarm Pendant *1</color>",
+    "background": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_cllb_03.webp"
     },
     "liveComparison": {
       "liveHash": "b4f9e7bd794f40d1210354eee497526b829addca86499468d7e3e677020574e8",
-      "currentHash": "31b988f077e666f9f631bff8d95d3cdec96028309fa6ce52bca4e89e5ad2504d"
+      "currentHash": "b4f9e7bd794f40d1210354eee497526b829addca86499468d7e3e677020574e8"
     }
   },
   {
     "id": "50000419",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Premium Enclosure Tank - Lahai-Roi",
     "rarity": 5,
     "type": 7,
@@ -17737,13 +17851,14 @@
       "Supply Chest"
     ],
     "description": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice: \n<color=Rare5>FF Exoswarm Core *1</color> \n<color=Rare5>FF Mech Core *1</color> \n<color=Rare5>Intact Exoswarm Pendant *1</color>",
+    "background": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_cllb_04.webp"
     },
     "liveComparison": {
       "liveHash": "a71fdb9d57709d807736108166016018cd8c882cdc2a5406d5f6fa932d3ae1f3",
-      "currentHash": "ee402236236a6cd5dfc0c8ed4a59dfe468c95b83360f8ff94ebe262249aa3cf6"
+      "currentHash": "a71fdb9d57709d807736108166016018cd8c882cdc2a5406d5f6fa932d3ae1f3"
     }
   },
   {
@@ -17755,12 +17870,13 @@
     "tag": [
       "Supply Chest"
     ],
+    "background": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_cllb_01.webp"
     },
     "liveComparison": {
-      "currentHash": "419dafa3b4628d64ac0b4a8c2d61796b837df4509935daa673346cc261d21f6e"
+      "currentHash": "82bdcb4019617835fb514b81ecc3108735ce61961e0afcb7a4c292416a56eacb"
     }
   },
   {
@@ -17772,12 +17888,13 @@
     "tag": [
       "Supply Chest"
     ],
+    "background": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_cllb_02.webp"
     },
     "liveComparison": {
-      "currentHash": "c8aaab6fb993ec769960474eb16d8e9c5a0df8432288903b35bfe834b52929be"
+      "currentHash": "b19dd5645f719aa2df36a2234432cfc7c75c0ef2ea700ede64c9648ae3a84331"
     }
   },
   {
@@ -17789,12 +17906,13 @@
     "tag": [
       "Supply Chest"
     ],
+    "background": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_cllb_03.webp"
     },
     "liveComparison": {
-      "currentHash": "31ac88439212843c2e254c5c3e2ca7484b22e6db2214cbbb5d0eba6d29817bf7"
+      "currentHash": "582ed40a7ee4c0fa5788cefb2d4b40484df303e3bfe73d53e49221571be7acc0"
     }
   },
   {
@@ -17806,12 +17924,13 @@
     "tag": [
       "Supply Chest"
     ],
+    "background": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_cllb_04.webp"
     },
     "liveComparison": {
-      "currentHash": "bac0565b0bfe8e32ed41a45cb14870abe4875bb2ddc5efcf2e0ab4a98332cd7f"
+      "currentHash": "86ea8284e009c0a38f4dc74ba70022af70012f0785c12d9d2267cca5af8de18f"
     }
   },
   {
@@ -20824,115 +20943,121 @@
   {
     "id": "50032001",
     "contentStatus": "beta",
-    "name": "50032001",
+    "name": "Morphable Song of Feathered Trace",
     "rarity": 5,
     "type": 3,
     "tag": [
       "Random Echo Item",
       "Supply Chest"
     ],
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Song of Feathered Trace.\n \n2pcs Set: Energy Regen +10%.\n\n5pcs Set: Upon inflicting Havoc Bane, gain Xuanling's Feather, which grants a 20% increase in Crit. Rate and 35% increase in Heavy Attack DMG Bonus to the Resonator, lasting 15s.\nUpon inflicting Glacio Chafe, gain Chongming's Feather, which grants a 0.1% increase in ATK to Resonators in the team for every 1% of the Resonator's Energy Regen, up to 25%, lasting 10s.",
     "background": "The footprints in the rift will never fade...",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_36_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "11f1f16e669da9d838f8e8556c4afaff8fe42911b7872aa4d822d341be56d936"
+      "currentHash": "c23f8bb92160a047a241398d212949a679627ed64fe3cdcef06bfb2f83bdc14e"
     }
   },
   {
     "id": "50032002",
     "contentStatus": "beta",
-    "name": "50032002",
+    "name": "Morphable Heart of Evil's Purge",
     "rarity": 5,
     "type": 3,
     "tag": [
       "Random Echo Item",
       "Supply Chest"
     ],
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Heart of Evil's Purge\n \n2pcs Set: Aero DMG +10%.\n\n5pcs Set: Inflicting Tune Strain - Shifting inreases the Resonator's Crit. DMG by 20% and Aero DMG by 30%, lasting for 15s.",
     "background": "The footprints in the rift will never fade...",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_36_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "121cc648f72e78cfcb9bac1bcd96c16d3045260b1ac34aa2a151a51c4e814d4d"
+      "currentHash": "b71d44ed370fce833069d9ac967ee9141f454c1c0be2f2f0f279dd446ed3b061"
     }
   },
   {
     "id": "50032003",
     "contentStatus": "beta",
-    "name": "50032003",
+    "name": "Morphable Lamp of Nether Road",
     "rarity": 5,
     "type": 3,
     "tag": [
       "Random Echo Item",
       "Supply Chest"
     ],
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Lamp of Nether Road\n\n2pcs Set: HP +10%.\n\n5pcs Set: Obtaining Shield increases the Resonator's Crit. Rate by 5% for 5s, stacking up to 4 times. This effect is triggered once every 0.5s. Reaching max stacks increases the Resonator's Fusion DMG by 15%.",
     "background": "The footprints in the rift will never fade...",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_36_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "a2cb57e27f05f5629ba6fb8a4b0ac18b0f159ecb36ac10392777c2597ec6a916"
+      "currentHash": "6fe2f157e9176972943834b50166e3891c1fad122cc8dd55640b1d0152bc3a4c"
     }
   },
   {
     "id": "50033001",
     "contentStatus": "beta",
-    "name": "50033001",
+    "name": "Morphable Song of Feathered Trace",
     "rarity": 5,
     "type": 3,
     "tag": [
       "Random Echo Item",
       "Supply Chest"
     ],
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Song of Feathered Trace.\n \n2pcs Set: Energy Regen +10%.\n\n5pcs Set: Upon inflicting Havoc Bane, gain Xuanling's Feather, which grants a 20% increase in Crit. Rate and 35% increase in Heavy Attack DMG Bonus to the Resonator, lasting 15s.\nUpon inflicting Glacio Chafe, gain Chongming's Feather, which grants a 0.1% increase in ATK to Resonators in the team for every 1% of the Resonator's Energy Regen, up to 25%, lasting 10s.",
     "background": "The footprints in the rift will never fade...",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_38_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "7980956a61c6881112da7e54bba43edf0d92714b5673490f52b69c1b607fa2a5"
+      "currentHash": "a2b8bab20c5e8895a0b89333c78a067b3d89fe38b8b8f60a95417dce4ac810ff"
     }
   },
   {
     "id": "50033002",
     "contentStatus": "beta",
-    "name": "50033002",
+    "name": "Morphable Heart of Evil's Purge",
     "rarity": 5,
     "type": 3,
     "tag": [
       "Random Echo Item",
       "Supply Chest"
     ],
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Heart of Evil's Purge\n \n2pcs Set: Aero DMG +10%.\n\n5pcs Set: Inflicting Tune Strain - Shifting inreases the Resonator's Crit. DMG by 20% and Aero DMG by 30%, lasting for 15s.",
     "background": "The footprints in the rift will never fade...",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_40_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "b51b6d78a7018a7b2e93745ed5afcfdf7a1b5699971108bce821439260b2191e"
+      "currentHash": "5533cce84bbb1eb99c3f60f6ec077dd9850921f27c5e3a5556e17a3a77dec0ff"
     }
   },
   {
     "id": "50033003",
     "contentStatus": "beta",
-    "name": "50033003",
+    "name": "Morphable Lamp of Nether Road",
     "rarity": 5,
     "type": 3,
     "tag": [
       "Random Echo Item",
       "Supply Chest"
     ],
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Lamp of Nether Road\n\n2pcs Set: HP +10%.\n\n5pcs Set: Obtaining Shield increases the Resonator's Crit. Rate by 5% for 5s, stacking up to 4 times. This effect is triggered once every 0.5s. Reaching max stacks increases the Resonator's Fusion DMG by 15%.",
     "background": "The footprints in the rift will never fade...",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_39_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "b1d90f2ae98475a4fff15257cb2dd3a41fcb20b250a3ea8052e2643468607b52"
+      "currentHash": "79f7916fca9052ba3dbbbcf0699c11464bd0d90a063677a0b31374537fda6fc1"
     }
   },
   {
@@ -30508,7 +30633,7 @@
     "tag": [
       "Token"
     ],
-    "description": "Inflicting Tune Strain - Shifting increases Resonators' total DMG dealt by 40% for 30s.\nDealing Tune Break DMG increases All-Attribute DMG of all Resonators in the team by 30%, plus an additional 30% Aero DMG Bonus for 30s.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "description": "Inflicting Tune Strain - Shifting increases Resonators' total DMG dealt by 40% for 30s.\nDealing Tune Break DMG grants 30% All-Attribute DMG Bonus plus an additional 30% Aero DMG Bonus to all Resonators in the team for 30s.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
     "background": "The left plate blanketed in dust, and the right scabbed. Your Honor, please place your weight.",
     "source": [
       "Whimpering Wastes"
@@ -30517,7 +30642,7 @@
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconMowing/T_IconMowing_50.webp"
     },
     "liveComparison": {
-      "currentHash": "c779054554a6418e63422ce4cc935999661360719b2b94417782d6112f9fe463"
+      "currentHash": "ec7d640348d0f1e21c3750ff4d138fb26123264d641f38ae00306e261670a9f3"
     }
   },
   {
@@ -31941,19 +32066,21 @@
   },
   {
     "id": "72010043",
-    "contentStatus": "live",
-    "name": "72010043",
+    "contentStatus": "beta_changed",
+    "name": "Stay tuned",
     "rarity": 5,
     "tag": [
       "Special Token"
     ],
+    "description": "Stay tuned",
+    "background": "Stay tuned",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_72010042_UI.webp"
     },
     "liveComparison": {
       "liveHash": "f15d393d0ef6572c1b67e5cb8fbc672ac7bc3aa460ccd481c999cdc0855c6e3c",
-      "currentHash": "f15d393d0ef6572c1b67e5cb8fbc672ac7bc3aa460ccd481c999cdc0855c6e3c"
+      "currentHash": "c7a91488d8f7cc54813b6cf58c8b02434f8652275819fb4c37a0d3e0033b04f8"
     }
   },
   {
@@ -32384,7 +32511,7 @@
   },
   {
     "id": "80000009",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Shuyun Herbal Tea",
     "rarity": 4,
     "type": 1,
@@ -32392,7 +32519,7 @@
       "Dish"
     ],
     "description": "Increases ATK and Crit. Rate of all Resonators in the team by 12% and 10% respectively, lasting for 30m. Only effective on your own Resonators in Co-op Mode.",
-    "background": "Shuyun's ancestral secret herbal tea, most suitable for summer. But the taste is special, and the taste is polarized. The formula is never disclosed, and it is hard to buy. Usually, you can only ask Shuyun to make it.",
+    "background": "Stay tuned",
     "source": [
       "Cooking"
     ],
@@ -32401,7 +32528,7 @@
     },
     "liveComparison": {
       "liveHash": "b8525aa1bca79db7c8af1dd74c63e193d68e42b38857ffdb193b5d108c489149",
-      "currentHash": "b8525aa1bca79db7c8af1dd74c63e193d68e42b38857ffdb193b5d108c489149"
+      "currentHash": "2b8284c2ea0143b8891a3c77ab69dd80f2e4d2f90e72f2ffc0445553c09469c1"
     }
   },
   {
@@ -36183,8 +36310,8 @@
   },
   {
     "id": "80010033",
-    "contentStatus": "live",
-    "name": "Recipe: Lotus Pastry",
+    "contentStatus": "beta_changed",
+    "name": "Lotus Pastry Recipe",
     "rarity": 3,
     "type": 5,
     "tag": [
@@ -36198,13 +36325,13 @@
     },
     "liveComparison": {
       "liveHash": "cfdeab202396a1eaebba3dd9e8ae5301e3ac74dc786a5dc3d851f148d4728abd",
-      "currentHash": "cfdeab202396a1eaebba3dd9e8ae5301e3ac74dc786a5dc3d851f148d4728abd"
+      "currentHash": "3311ed3052800696d1309638a360015cd77419a3d04bdf03022987fddbb441f4"
     }
   },
   {
     "id": "80010034",
-    "contentStatus": "live",
-    "name": "Recipe: Spicy Meat with Pavo Plums",
+    "contentStatus": "beta_changed",
+    "name": "Spicy Meat with Pavo Plums Recipe",
     "rarity": 3,
     "type": 5,
     "tag": [
@@ -36218,7 +36345,7 @@
     },
     "liveComparison": {
       "liveHash": "cb54db87bf1159cb2bdbda4e33403f796043cd28a8da47326eb982d87bc210d5",
-      "currentHash": "cb54db87bf1159cb2bdbda4e33403f796043cd28a8da47326eb982d87bc210d5"
+      "currentHash": "59ae9650750854aa04ebdf1b8dd7e0b41340eb467ff33c8c26c918784c19e2a3"
     }
   },
   {
@@ -36894,13 +37021,15 @@
     "tag": [
       "Recipe"
     ],
+    "description": "Used to learn how to cook Jade Mushroom Soup.",
+    "background": "A recipe that details how to cook Jade Mushroom Soup.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_036_UI.webp"
     },
     "liveComparison": {
       "liveHash": "01faf839af95c124922f5633b966bccc585971f42557c6a9901c7cac58b2e2c8",
-      "currentHash": "9149ae1d2495042101ef132a27970fa466ff6bbe35e21011f1233353c5aad3a9"
+      "currentHash": "a41fd0cf64822d5fa525180bbe8c26c91de725c43f1d0aec2f29e7471a11e40d"
     }
   },
   {
@@ -36912,13 +37041,15 @@
     "tag": [
       "Recipe"
     ],
+    "description": "Used to learn how to cook Cloudward Stew.",
+    "background": "A recipe that details how to cook Cloudward Stew.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_036_UI.webp"
     },
     "liveComparison": {
       "liveHash": "870e9caadec4bc7f7c3d184913bc09645d64b3433ce1c6c6784bb51f6d5e2ada",
-      "currentHash": "672894c954fe0bab6b19b006cabbcfe8c1efff4df1838dfb5bf93b0a16aadd64"
+      "currentHash": "b57a4bebd9e5725859460d845023a97d3d7829e041f26cdfb3eb09f1689ba3b5"
     }
   },
   {
@@ -36930,13 +37061,15 @@
     "tag": [
       "Recipe"
     ],
+    "description": "Used to learn how to cook Sizzling Jade Stir-fry.",
+    "background": "A recipe that details how to cook Sizzling Jade Stir-fry.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_036_UI.webp"
     },
     "liveComparison": {
       "liveHash": "107bbe2ec1f7292bd5096550d0856dc0916a681ff1880b4124d1ff8a73e55426",
-      "currentHash": "e519ccffab92bda198f558e37302efd929985f3519593876125842fb5d576007"
+      "currentHash": "6eecd35b2849049a450248c209556d1b471ae50f2f143a82c7385609dce12b01"
     }
   },
   {
@@ -36948,13 +37081,15 @@
     "tag": [
       "Recipe"
     ],
+    "description": "Used to learn how to cook Crab Braised Fish.",
+    "background": "A recipe that details how to cook Crab Braised Fish.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_036_UI.webp"
     },
     "liveComparison": {
       "liveHash": "de438c99d4c79c96351840df7e1d68120aecb60cdddce8024db865bf2ff05599",
-      "currentHash": "0d83acc3e88e809a3e39197bfb5a6ae7a2e6b09453c5072ab757f30439471e97"
+      "currentHash": "fd087b0ce867544280922d77d75c59a07eff79edafb5f90fc047dc517025cb3a"
     }
   },
   {
@@ -36966,13 +37101,15 @@
     "tag": [
       "Recipe"
     ],
+    "description": "Used to learn how to cook Little Snowy Moons.",
+    "background": "A recipe that details how to cook Little Snowy Moons.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_036_UI.webp"
     },
     "liveComparison": {
       "liveHash": "04281cad9bf94b440a48a1d7c46e00f6271bc87a16e781ab6b62e617353b8cc6",
-      "currentHash": "fccacf092bfc3ae02c0cd45b5639f7055d6c03558c82d52554343c72bfd1ddd2"
+      "currentHash": "899d49743a66b89e20acf60a67ead89022a7b02379e0c930e322ef914282dd0f"
     }
   },
   {
@@ -36984,13 +37121,15 @@
     "tag": [
       "Recipe"
     ],
+    "description": "Used to learn how to cook Stir-Fried Trio.",
+    "background": "A recipe that details how to cook Stir-Fried Trio.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_036_UI.webp"
     },
     "liveComparison": {
       "liveHash": "126d20cf16b46c4895b70566cd2d82a212701e6d20083abfc8f4941295c85767",
-      "currentHash": "9c1062153e304be20e5e652a49b685155ab1d7463dd882c322a604e16746f81a"
+      "currentHash": "85736875afdbc9e1fa492cd8366c0b1d938c405e2d0c30b6faf21ca4810bd68d"
     }
   },
   {
@@ -37002,13 +37141,15 @@
     "tag": [
       "Recipe"
     ],
+    "description": "Used to learn how to cook Flavor Under Heaven.",
+    "background": "A recipe that details how to cook Flavor Under Heaven.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_036_UI.webp"
     },
     "liveComparison": {
       "liveHash": "0998fd8d014dd606df86ee8cf053e7b10dd9d7a50558994ef9f34d7caa6f6a06",
-      "currentHash": "a2646cb0614c1316cbeba66892cda0628dc39410a1eac30d9e83b77fe29e50ee"
+      "currentHash": "cf564cd5532fc06c6ecfa2aead54a634c830f401f5b4cdd9e4136fa34e495077"
     }
   },
   {
@@ -37020,13 +37161,15 @@
     "tag": [
       "Recipe"
     ],
+    "description": "Used to learn how to cook Brocade Pearl Meatballs.",
+    "background": "A recipe that details how to cook Brocade Pearl Meatballs.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_036_UI.webp"
     },
     "liveComparison": {
       "liveHash": "1c54b75f799e3d82b2e33256172025b8becb789b6f2b5aa52f78ea649478f05e",
-      "currentHash": "2ddf860e59011a76f8981fc64acc2462de62a3be18c1b9c3ad14af7ca1564f51"
+      "currentHash": "bfb9d8d9f42c5cd1c2f259a0a20220ddd93d18a95d613ee9dc919b14e541f3ac"
     }
   },
   {
@@ -37038,13 +37181,15 @@
     "tag": [
       "Recipe"
     ],
+    "description": "Used to learn how to cook Memories of Autumn.",
+    "background": "A recipe that details how to cook Memories of Autumn.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_036_UI.webp"
     },
     "liveComparison": {
       "liveHash": "ead454f67ca1aff8d2695ba77a08fb6f5b8fdfe06120d4131132e1e2be2bef51",
-      "currentHash": "9ac835a00b1f53839441f155121ceef1416f56fe7bc62ea8b02e1ac6a73d9a68"
+      "currentHash": "2dcbd37d32e290469cfe85d85881601533aaafdc2281ff0af813e5b4939473fa"
     }
   },
   {
@@ -37056,13 +37201,15 @@
     "tag": [
       "Recipe"
     ],
+    "description": "Used to learn how to cook Jade Broth Noodles.",
+    "background": "A recipe that details how to cook Jade Broth Noodles.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_036_UI.webp"
     },
     "liveComparison": {
       "liveHash": "8b523ba415b5bcd3a33ad9eeda354e52ddbfabd009701955d7fa1afc849f2ada",
-      "currentHash": "45ac3a4abe4311e68fef8cef361217bea1463cb62658edcb63a790f30f0d4a4e"
+      "currentHash": "26ea5f52ea751ab58336a619ab9d63bd051f045d922a94c24c505a71b13305c5"
     }
   },
   {
@@ -37074,13 +37221,15 @@
     "tag": [
       "Recipe"
     ],
+    "description": "Used to learn how to cook Classic Master Chef.",
+    "background": "A recipe that details how to cook Classic Master Chef.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_036_UI.webp"
     },
     "liveComparison": {
       "liveHash": "a4db517c08306aeb3956a8076fd267986981d92c80279ce3ddb0e86f2db3f488",
-      "currentHash": "6baa4ae13742f10bc8027931f90257b8a08f8adfbc74b4952f0065ee548aa841"
+      "currentHash": "e7c2ad774359d5b6cbe40b711a8f246309cd25f2144b25948bdb5fc6a3212262"
     }
   },
   {
@@ -37252,12 +37401,14 @@
     "tag": [
       "Recipe"
     ],
+    "description": "Used to learn how to cook Jade Mushroom Soup.",
+    "background": "A recipe that details how to cook Jade Mushroom Soup.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_036_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "ea70d46ff619ffa0e578fe6b213bc839c2cf984c25ab25d69af534116f5efa80"
+      "currentHash": "f2f86b771debc63bb51cc184424e4636f5181b4f88c29587c05f6d0a34d7b624"
     }
   },
   {
@@ -37269,12 +37420,14 @@
     "tag": [
       "Recipe"
     ],
+    "description": "Used to learn how to cook Cloudward Stew.",
+    "background": "A recipe that details how to cook Cloudward Stew.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_036_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "5c069434fa1a40d6250cfff9852d2b849f4906ec4add0d3baf6cf960c140b90f"
+      "currentHash": "6c93b0a8bf149c1505c6fdad418a680963e5cddd532a43149378c82d62abbfc9"
     }
   },
   {
@@ -37286,12 +37439,14 @@
     "tag": [
       "Recipe"
     ],
+    "description": "Used to learn how to cook Sizzling Jade Stir-fry.",
+    "background": "A recipe that details how to cook Sizzling Jade Stir-fry.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_036_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "a141422c9d2b55074e67fdf5cf8b81111b344294c4693a9a6192315592ed7a89"
+      "currentHash": "8e376db15607539dc54b9183d699debd71e3691ca305a15293e761b86c482f9d"
     }
   },
   {
@@ -37303,12 +37458,14 @@
     "tag": [
       "Recipe"
     ],
+    "description": "Used to learn how to cook Crab Braised Fish.",
+    "background": "A recipe that details how to cook Crab Braised Fish.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_036_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "bb0c9622a080770c54ae52ea5f1e23a408307362619a50f48717c39e5bbed164"
+      "currentHash": "7ca9034cae4067326b83d89fed3448641b2862fa337da4aed0cb2837c173b95c"
     }
   },
   {
@@ -37320,12 +37477,14 @@
     "tag": [
       "Recipe"
     ],
+    "description": "Used to learn how to cook Little Snowy Moons.",
+    "background": "A recipe that details how to cook Little Snowy Moons.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_036_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "04f52a56eb7f7abf0e43510af113824f39f04e2a53dfd5872d2b1678d4ee06b2"
+      "currentHash": "5acbd19d2b5e222dd34c4a3a652f34837e9582568cd7a530b8958d6dc68dbce7"
     }
   },
   {
@@ -37337,12 +37496,14 @@
     "tag": [
       "Recipe"
     ],
+    "description": "Used to learn how to cook Stir-Fried Trio.",
+    "background": "A recipe that details how to cook Stir-Fried Trio.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_036_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "9648126ccfcc6e5fff3577e05a8e22cb59c9ed4ffbc13828d100b81fe7d7c418"
+      "currentHash": "4e8e53d43ffab3d8c80d323786ed7fe609455e1f73a5931d65aed79f245395ee"
     }
   },
   {
@@ -37354,12 +37515,14 @@
     "tag": [
       "Recipe"
     ],
+    "description": "Used to learn how to cook Flavor Under Heaven.",
+    "background": "A recipe that details how to cook Flavor Under Heaven.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_036_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "dcef3d1bd5492965c9f20881f60a0966d949fe803bc629c2b9361f461edfe2e7"
+      "currentHash": "6286ea58fe67c226fb0b72f55da9b86671f079141e109a36c6adec6345ed129e"
     }
   },
   {
@@ -37371,12 +37534,14 @@
     "tag": [
       "Recipe"
     ],
+    "description": "Used to learn how to cook Brocade Pearl Meatballs.",
+    "background": "A recipe that details how to cook Brocade Pearl Meatballs.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_036_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "a8c859359ed180a60657bfaee0e935cb99ca1dc55f749f6a6359b3dde952dfbc"
+      "currentHash": "1df4007d6060a612bf918d5b6bc9dbc459c3e98d25d1496a93419194e04b2309"
     }
   },
   {
@@ -37388,12 +37553,14 @@
     "tag": [
       "Recipe"
     ],
+    "description": "Used to learn how to cook Memories of Autumn.",
+    "background": "A recipe that details how to cook Memories of Autumn.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_036_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "df2be3900d9077e2e4ce64f8229766ef9919a7ffb1bee0da329b2309b8340541"
+      "currentHash": "48e5ac94d08454003b0d7b4f1da069f6d490bd7189f2d14d0cc087ac245007b2"
     }
   },
   {
@@ -37405,12 +37572,14 @@
     "tag": [
       "Recipe"
     ],
+    "description": "Used to learn how to cook Jade Broth Noodles.",
+    "background": "A recipe that details how to cook Jade Broth Noodles.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_036_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "399955d7099c0f72769d64a814ebcfa2802807318590499c25ef51f41d57a499"
+      "currentHash": "fe5f83a2a3fd451b3521395f827fc76b52cf6d7d159425fe7340d03b5669486e"
     }
   },
   {
@@ -37422,12 +37591,14 @@
     "tag": [
       "Recipe"
     ],
+    "description": "Used to learn how to cook Classic Master Chef.",
+    "background": "A recipe that details how to cook Classic Master Chef.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_036_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "b0403be6980fd42ff54fdfeebf72e53689600834f2ceb6e3c76f9c6c1cb3a049"
+      "currentHash": "33f998f2c4ddd5bfa0d6425b2a08def9043b04edeacaedac37131a45fd633b06"
     }
   },
   {
@@ -43581,14 +43752,14 @@
     "tag": [
       "Consumable"
     ],
-    "description": "Virtual operation currency issued by the Black Shores. Used in various simulations.",
-    "background": "More comprehensive data from drills across a wider range of intensities will better equip us to deploy the right personnel for future Waveworn Phenomena.",
+    "description": "Virtual operation currency issued by the Black Shores to be used in various simulations.",
+    "background": "Simulation data collected across situations of varying criticality informs our future personnel assignment facing Waveworn Phenomena.",
     "source": [],
     "assets": {
       "icon": "Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_80400001_UI.webp"
     },
     "liveComparison": {
-      "currentHash": "b9d96a29660e7205b2ac90f52a74a275fffb60fc4bebc34a69d053d0932c7ea9"
+      "currentHash": "f9db485b94cde731cd0b60f25026e887cc7c997be73567a93c693b25a7282bac"
     }
   },
   {

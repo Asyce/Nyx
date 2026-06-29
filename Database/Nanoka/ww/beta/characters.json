@@ -25576,7 +25576,7 @@
   {
     "id": "1110",
     "contentStatus": "beta",
-    "name": "1110",
+    "name": "Suisui",
     "nickname": "Carlotta",
     "rarity": 5,
     "weapon": 5,
@@ -27107,7 +27107,7 @@
           }
         ],
         "skill": {
-          "name": "Rippling Gold",
+          "name": "Lambent Gold",
           "description": "<size=40><color=Title>Zephyr Stance</color></size>\nSuisui is in <color=Highlight><te href=111005>Zephyr Stance</te></color> by default. When in <color=Highlight><te href=111005>Zephyr Stance</te></color>, Suisui can obtain <color=Highlight><te href=111007>Cloud Breath</te></color> through certain skills.\n<size=10></size>\n<size=40><color=Title>Drizzle Stance</color></size>\nEntering <color=Highlight><te href=111006>Drizzle Stance</te></color> clears all <color=Highlight><te href=111008>Floral Epistle</te></color>.\nWhen in <color=Highlight><te href=111006>Drizzle Stance</te></color>, Suisui unlocks new moves, and her certain skills can restore <color=Highlight><te href=111008>Floral Epistle</te></color>.\nWhen in <color=Highlight><te href=111006>Drizzle Stance</te></color>, Suisui gains increased resistance to interruption.\nAfter entering <color=Highlight><te href=111006>Drizzle Stance</te></color> for 15s, Suisui ends <color=Highlight><te href=111006>Drizzle Stance</te></color> and clears all <color=Highlight><te href=111008>Floral Epistle</te></color> upon exiting the state.\n<size=10></size>\n<size=40><color=Title>Dodge - Parting Mist</color></size>\nWhile performing attacks on the ground, {Cus:Ipt,Touch=tap PC=press Gamepad=press} <color=Highlight>Dodge</color> to cast <color=Highlight>Dodge - Parting Mist</color> at the cost of STA.\nWhen in <color=Highlight><te href=111005>Zephyr Stance</te></color>, triggering a successful Dodge while casting <color=Highlight>Dodge - Parting Mist</color> restores <color=Highlight><te href=111007>Cloud Breath</te></color>. {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> shortly after triggering the Dodge to cast <color=Highlight>Dodge Counter - Zephyr Stance</color>.\n- When in <color=Highlight><te href=111006>Drizzle Stance</te></color>, triggering a successful Dodge while casting <color=Highlight>Dodge - Parting Mist</color> restores <color=Highlight><te href=111008>Floral Epistle</te></color>, and does not reset the cycle of <color=Highlight>Basic Attack - Drizzle Stance</color> within a certain period.\n<size=10></size>\n<size=40><color=Title>Basic Attack - Drizzle Stance</color></size>\nWhen in <color=Highlight><te href=111006>Drizzle Stance</te></color>, <color=Highlight>Basic Attack - Zephyr Stance</color> is replaced with <color=Highlight>Basic Attack - Drizzle Stance</color>.\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> repeatedly to perform up to 4 consequtive attacks, dealing <color=Ice>Glacio DMG</color> and restoring <color=Highlight><te href=111008>Floral Epistle</te></color> on hit.\nWhen casting <color=Highlight>Basic Attack - Drizzle Stance Stage 3</color>,  continuously pull in nearby targets.\n<color=Highlight>Basic Attack - Drizzle Stance Stage 4</color> inflicts <color=Highlight><te href=850010>Glacio Chafe</te></color> 1 time on the target on hit.\n<size=10></size>\n<size=40><color=Title>Heavy Attack - Drizzle Stance</color></size>\nConsume STA to attack the target, dealing <color=Ice>Glacio DMG</color>, and restoring <color=Highlight><te href=111008>Floral Epistle</te></color> on hit.\n<size=10></size>\n<size=40><color=Title>Illuminating Dew</color></size>\nWhen in <color=Highlight><te href=111006>Drizzle Stance</te></color>, {Cus:Ipt,Touch=tap PC=press Gamepad=press} <color=Highlight>Normal Attack</color> shortly after casting <color=Highlight>Heavy Attack - Drizzle Stance</color> to cast this skill.\nConsume STA to perform Plunging Attack, dealing <color=Ice>Glacio DMG</color>.\n<size=10></size>\n<size=40><color=Title>Swallow's Cut</color></size>\nWhen in <color=Highlight><te href=111006>Drizzle Stance</te></color>, cast this skill one of the following ways:\n- Release the <color=Highlight>Normal Attack</color> button while casting <color=Highlight>Heavy Attack - Drizzle Stance</color>.\n- {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> while Suisui is mid-air.\nConsume STA to perform Plunging Attack, dealing <color=Ice>Glacio DMG</color>.\n<size=10></size>\n<size=40><color=Title>Cloud Breath</color></size>\nMax {0} points.\nWhen in <color=Highlight><te href=111005>Zephyr Stance</te></color>: \n- <color=Highlight>Basic Attack - Zephyr Stance</color> and <color=Highlight>Dodge Counter - Zephyr Stance</color> restores <color=Highlight><te href=111007>Cloud Breath</te></color> on hit.\n- Casting <color=Highlight>Resonance Skill - Zephyr Stance</color> restores <SapTag=1>{1}</SapTag> {Cus:Sap,S=point P=points SapTag=1} of <color=Highlight><te href=111007>Cloud Breath</te></color> when Suisui is the active Resonator in the team.\n- Triggering a successful Dodge while casting <color=Highlight>Dodge - Parting Mist</color> restores <SapTag=2>{2}</SapTag> {Cus:Sap,S=point P=points SapTag=2} of <color=Highlight><te href=111007>Cloud Breath</te></color>.\n<size=10></size>\n<size=40><color=Title>Floral Epistle</color></size>\nMax {3} points.\nWhen in <color=Highlight><te href=111006>Drizzle Stance</te></color>:\n- <color=Highlight>Basic Attack - Drizzle Stance</color> and <color=Highlight>Heavy Attack - Drizzle Stance</color> restores  <color=Highlight><te href=111008>Floral Epistle</te></color> on hit.\n- Casting <color=Highlight>Resonance Skill - Drizzle Stance</color> restores <SapTag=4>{4}</SapTag> {Cus:Sap,S=point P=points SapTag=4} of <color=Highlight><te href=111008>Floral Epistle</te></color> when Suisui is the active Resonator in the team.\n- Triggering a successful Dodge while casting <color=Highlight>Dodge - Parting Mist</color> restores <SapTag=5>{5}</SapTag> {Cus:Sap,S=point P=points SapTag=5} of <color=Highlight><te href=111008>Floral Epistle</te></color>.",
           "simpleDescription": "<size=40><color=Title>Water Fan Form</color></size>\nSuisui is in the <color=Highlight>Water Fan Form</color> by default. When in the <color=Highlight>Water Fan Form</color>, Suisui can obtain <color=Highlight>Water Fan Form Energy</color> through certain skills.\n<size=10></size>\n<size=40><color=Title>Water Sleeves Form</color></size>\nWhen in the <color=Highlight>Water Sleeves Form</color>, Suisui unlocks new moves, and her certain skills can restore <color=Highlight>Water Sleeves Form Energy</color>.\nWhen in the <color=Highlight>Water Sleeves Form</color>, Suisui gains increased resistance to interruption.\n<size=10></size>\n<size=40><color=Title>Dodge - Parting Mist</color></size>\nWhile performing attacks on the ground, {Cus:Ipt,Touch=tap PC=press Gamepad=press} <color=Highlight>Dodge</color> to cast <color=Highlight>Dodge - Parting Mist</color> at the cost of STA.\n<size=10></size>\n<size=40><color=Title>Basic Attack - Water Sleeves Form</color></size>\nWhen in the <color=Highlight>Water Sleeves Form</color>, <color=Highlight>Basic Attack - Water Fan Form</color> is replaced with <color=Highlight>Basic Attack - Water Sleeves Form</color>.\nDeals <color=Ice>Glacio DMG</color>.\n<size=10></size>\n<size=40><color=Title>Heavy Attack - Water Sleeves Form</color></size>\nConsume STA to attack the target, dealing <color=Ice>Glacio DMG</color>.\n<size=10></size>\n<size=40><color=Title>Illuminating Dew</color></size>\nWhen in the <color=Highlight>Water Sleeves Form</color>, {Cus:Ipt,Touch=tap PC=press Gamepad=press} <color=Highlight>Normal Attack</color> shortly after casting <color=Highlight>Heavy Attack - Water Sleeves Form</color> to cast this skill.\nConsume STA to peform a Plunging Attack, dealing <color=Ice>Glacio DMG</color>.\n<size=10></size>\n<size=40><color=Title>Swallow's Cut</color></size>\nWhen in the <color=Highlight>Water Sleeves Form</color>, cast this skill in one of the following ways:\n- Release the <color=Highlight>Normal Attack</color> button while casting <color=Highlight>Heavy Attack - Water Sleeves Form</color>.\n- {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> while Suisui is mid-air.\nConsume STA to perform Plunging Attack, dealing <color=Ice>Glacio DMG</color>.\n<size=10></size>\n<size=40><color=Title>Water Fan Form Energy</color></size>\nWhen in <color=Highlight>Zephyr Stance</color>, Suisui restores <color=Highlight>Water Fan Form Energy</color> in the following ways:\n- Hitting a target with <color=Highlight>Basic Attack - Water Fan Form</color> and <color=Highlight>Dodge Counter - Water Fan Form</color>;\n- Casting <color=Highlight>Resonance Skill - Zephyr Stance</color> when Suisui is the active Resonator;\n- Triggering a successful Dodge while casting <color=Highlight>Dodge - Parting Mist</color>.\n<size=10></size>\n<size=40><color=Title>Water Sleeves Form Energy</color></size>\nWhen in <color=Highlight>Drizzle Stance</color>,  Suisui restores <color=Highlight>Water Sleeves Form Energy</color> in the following ways:\n- Hitting a target with <color=Highlight>Basic Attack - Water Sleeves Form</color> and <color=Highlight>Heavy Attack - Water Sleeves Form</color>;\n- Casting <color=Highlight>Resonance Skill - Drizzle Stance</color> when Suisui is the active Resonator;\n- Triggering a successful Dodge while casting <color=Highlight>Dodge - Parting Mist</color>.",
           "params": [
@@ -27702,6 +27702,7 @@
           {
             "itemId": "41400324",
             "quantity": 1,
+            "name": "Skyward Glazed Heart",
             "rarity": 4,
             "type": 4,
             "assets": {
@@ -27757,6 +27758,7 @@
           {
             "itemId": "41400324",
             "quantity": 1,
+            "name": "Skyward Glazed Heart",
             "rarity": 4,
             "type": 4,
             "assets": {
@@ -27812,6 +27814,7 @@
           {
             "itemId": "41400324",
             "quantity": 1,
+            "name": "Skyward Glazed Heart",
             "rarity": 4,
             "type": 4,
             "assets": {
@@ -27867,6 +27870,7 @@
           {
             "itemId": "41400324",
             "quantity": 1,
+            "name": "Skyward Glazed Heart",
             "rarity": 4,
             "type": 4,
             "assets": {
@@ -27947,7 +27951,7 @@
       {
         "key": "1",
         "name": "Mountains Washed Into Paintings",
-        "description": "The ATK bonus effect gained by consuming at least 600 points of <color=Highlight><te href=111008>Floral Epistle</te></color> while casting <color=Highlight>Outro Skill - Rippling Waters</color> can now also be triggered by inflicting <color=Highlight><te href=850180>Negative Status</te></color> or dealing <color=Highlight><te href=150811>Negative Status DMG</te></color>.\nThe duration of <color=Highlight><te href=111003>Ceaseless Landscape</te></color> is extended to {0}s, and the duration of <color=Highlight><te href=111009>Reflecting Shadows</te></color> obtained through the third <color=Highlight><te href=111010>Plume Step</te></color> is extended by {1}.\n<color=Highlight>Basic Attack - Drizzle Stance</color>, <color=Highlight>Heavy Attack - Drizzle Stance</color>, and <color=Highlight>Enhanced Plunging Attack- Enhanced State</color> are immune to interruption.",
+        "description": "The ATK bonus effect gained by consuming at least 600 points of <color=Highlight><te href=111008>Floral Epistle</te></color> while casting <color=Highlight>Outro Skill - Rippling Waters</color> can now also be triggered by inflicting <color=Highlight><te href=850180>Negative Status</te></color> or dealing <color=Highlight><te href=150811>Negative Status DMG</te></color>.\nThe duration of <color=Highlight><te href=111009>Reflecting Shadows</te></color> obtained through the third <color=Highlight><te href=111010>Plume Step</te></color> is extended by {1}.\n<color=Highlight>Basic Attack - Drizzle Stance</color>, <color=Highlight>Heavy Attack - Drizzle Stance</color>, and <color=Highlight>Enhanced Plunging Attack- Enhanced State</color> are immune to interruption.",
         "params": [
           "30",
           "100%"
@@ -28039,6 +28043,7 @@
         {
           "itemId": "41400334",
           "quantity": 3,
+          "name": "Solidarity's Loneflame",
           "rarity": 4,
           "type": 4,
           "assets": {
@@ -28077,6 +28082,7 @@
         {
           "itemId": "41400334",
           "quantity": 6,
+          "name": "Solidarity's Loneflame",
           "rarity": 4,
           "type": 4,
           "assets": {
@@ -28115,6 +28121,7 @@
         {
           "itemId": "41400334",
           "quantity": 9,
+          "name": "Solidarity's Loneflame",
           "rarity": 4,
           "type": 4,
           "assets": {
@@ -28153,6 +28160,7 @@
         {
           "itemId": "41400334",
           "quantity": 12,
+          "name": "Solidarity's Loneflame",
           "rarity": 4,
           "type": 4,
           "assets": {
@@ -28191,6 +28199,7 @@
         {
           "itemId": "41400334",
           "quantity": 16,
+          "name": "Solidarity's Loneflame",
           "rarity": 4,
           "type": 4,
           "assets": {
@@ -28233,23 +28242,23 @@
     },
     "forteNew": {
       "features": [
-        "Use <color=Highlight>Water Fan Dance</color> and <color=Highlight>Ribbon Dance </color> styles to fight enemies.",
-        "Resonators can convert <color=Highlight>Havoc Bane</color> into enhancement effects.",
-        "Having 2 <color=Highlight>Azure Plume</color> unlocks corresponding Heavy Attack, pulling enemies and dealing damage."
+        "Fight in two stances: <color=Highlight>Water Fan Dance</color> and <color=Highlight>Water Sleeves Dance</color>.",
+        "Casting Resonance Liberation grants the team bonus effects related to <color=Highlight>Negative Status</color>.",
+        "Outro Skill grants <color=Highlight>All DMG Amplification</color> to all Resonators in the team."
       ],
       "instructions": {
         "111001": {
           "name": "Forte Gauge",
           "desc": {
             "111001": {
-              "desc": "When in <color=Highlight>Cleansing</color>, Suisui can obtain <color=Highlight>Stillness</color> through certain skills. When at full <color=Highlight>Stillness</color>, cast <color=Highlight>Resonance Skill- Awakening Spring</color> to enter <color=Highlight>Cleansing Rain</color>.",
+              "desc": "When in <color=Highlight>Zephyr Stance</color>, Suisui can obtain <color=Highlight>Cloud Breath</color> through certain attacks. When at full <color=Highlight>Cloud Breath</color>, cast <color=Highlight>Resonance Skill- Awakening Spring</color> to enter <color=Highlight>Drizzle Stance</color>.",
               "input_list": [],
               "image_list": [
                 "/Game/Aki/UI/UIResources/UiRole/Image/T_RoleSkillTreeSuisui1.T_RoleSkillTreeSuisui1"
               ]
             },
             "111002": {
-              "desc": "When in  <color=Highlight>Cleansing Rain</color>, Suisui can obtain <color=Highlight>Floral Epistle</color> through certain skills. The amount of bonus effects granted by <color=Highlight>Outro Skill - </color> is proportional to the amount of <color=Highlight>Floral Epistle</color> consumed while casting <color=Highlight>Outro Skill</color>.",
+              "desc": "When in  <color=Highlight>Drizzle Stance</color>, Suisui can obtain <color=Highlight>Floral Epistle</color> through certain attacks. The amount of bonus effects granted by <color=Highlight>Outro Skill</color> is proportional to the amount of <color=Highlight>Floral Epistle</color> consumed while casting <color=Highlight>Outro Skill - Rippling Waters</color>.",
               "input_list": [],
               "image_list": [
                 "/Game/Aki/UI/UIResources/UiRole/Image/T_RoleSkillTreeSuisui2.T_RoleSkillTreeSuisui2"
@@ -28262,14 +28271,14 @@
           "name": "Instructions",
           "desc": {
             "111003": {
-              "desc": "Resonance Skill - Awakening Spring: When in <color=Highlight>Cleansing</color> and at full <color=Highlight>Stillness</color>, {Cus:Ipt,Touch=tap PC=press Gamepad=press} {0} to cast this skill. Casting this skill consumes all <color=Highlight>Stillness</color>, enters <color=Highlight>Cleansing Rain</color>, and continuously heals nearby Resonators.",
+              "desc": "Resonance Skill - Awakening Spring: When in <color=Highlight>Zephyr Stance</color> and at full <color=Highlight>Cloud Breath</color>, {Cus:Ipt,Touch=tap PC=press Gamepad=press} {0} to cast this skill. Casting this skill consumes all <color=Highlight>Cloud Breath</color> and sends Suisui into <color=Highlight>Drizzle Stance</color>, continuously healing nearby Resonators in the team.",
               "input_list": [
                 "技能1"
               ],
               "image_list": []
             },
             "111004": {
-              "desc": "Outro Skill - Rippling Waters: Casting this skill consumes all <color=Highlight>Floral Epistle</color>. If there is <color=Highlight>Ceaseless Landscape</color> left on the field, Suisui instead enters <color=Highlight>Heaven's Roam</color> and unlocks bonus effects based on the amount of<color=Highlight>Floral Epistle</color> consumed. Every 200 unlocks a new effect.",
+              "desc": "Outro Skill - Rippling Waters: Casting this skill consumes all <color=Highlight>Floral Epistle</color>. If <color=Highlight>Ceaseless Landscape</color> is active, Suisui instead enters <color=Highlight>Roaming Transcendent</color> and unlocks bonus effects based on the amount of <color=Highlight>Floral Epistle</color> consumed. Every 200 points unlocks a new set of effects.",
               "input_list": [
                 "0"
               ],
@@ -28285,10 +28294,10 @@
         "id": 81001110,
         "suit_weapon_skin_id": 0,
         "quality_id": 3,
-        "name": "",
-        "title_name": "",
-        "sub_dec_name": "",
-        "bg_description": "",
+        "name": "Suisui",
+        "title_name": "Halcyon Days of Harvest",
+        "sub_dec_name": "Suisui - Original Outfit",
+        "bg_description": "Suisui's go-to trading attire. A qipao tailored in striking gold and jade. With every step, its feather-like sleeves sway gracefully like shimmering ripples. In this dress, she has traversed rivers and mountains, charting the endless splendor of the peaceful world.",
         "background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Suisui_UI.T_IconRole_Pile_Suisui_UI",
         "portrait": "/Game/Aki/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleSuisui.T_ActivityRoleSuisui",
         "sort_index": 0,
@@ -28297,7 +28306,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "3677b15f561ff1ecfbd1e975d485eecaa3925d2e64058e06c6ec80fba2611616"
+      "currentHash": "c66f4b87d27fe5b5d2ea5147c3222ed59f0cb99203e41e65c4e15762398565e8"
     }
   },
   {
@@ -159092,7 +159101,7 @@
         "name": "Lynae",
         "title_name": "Peppermint",
         "sub_dec_name": "Lynae - Deluxe Outfit",
-        "bg_description": "Endless sunshine, golden sand beaches, and vibrant hues bursting everywhere—summer's here! Lynae's favorite season, hands down! Hm? The heatwave sapped your energy? Why not pop open another ice-cold soda? (∩^o^)⊃━☆ﾟ.*･",
+        "bg_description": "Endless sunshine, golden sand beaches, and vibrant hues bursting everywhere—summer's here! Lynae's favorite season, hands down! Hm? The heatwave sapped your energy? Why not pop open another ice-cold soda?\n(∩^o^)⊃━☆ﾟ.*･",
         "background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Linnai1_UI.T_IconRole_Pile_Linnai1_UI",
         "portrait": "/Game/Aki/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleLinnai.T_ActivityRoleLinnai",
         "sort_index": 10,
@@ -159113,7 +159122,7 @@
     },
     "liveComparison": {
       "liveHash": "766360f6ad6e244d40707710991c204703ca5c176ab53bda6454556fba8dbba3",
-      "currentHash": "ff4672291000afa20b3f0b58d8a4d1cf51c8fab607534c84631f8f156245dd9a"
+      "currentHash": "cb8a91d6e34a872df060e6f6be6ec54d351b0ebe99e2e501bd7b608f27324cca"
     }
   },
   {
@@ -191753,7 +191762,7 @@
   {
     "id": "1610",
     "contentStatus": "beta",
-    "name": "1610",
+    "name": "Yangyang: Xuanling",
     "nickname": "Breath of Winds",
     "rarity": 5,
     "weapon": 2,
@@ -194429,6 +194438,7 @@
         {
           "itemId": "41400334",
           "quantity": 3,
+          "name": "Solidarity's Loneflame",
           "rarity": 4,
           "type": 4,
           "assets": {
@@ -194467,6 +194477,7 @@
         {
           "itemId": "41400334",
           "quantity": 6,
+          "name": "Solidarity's Loneflame",
           "rarity": 4,
           "type": 4,
           "assets": {
@@ -194505,6 +194516,7 @@
         {
           "itemId": "41400334",
           "quantity": 9,
+          "name": "Solidarity's Loneflame",
           "rarity": 4,
           "type": 4,
           "assets": {
@@ -194543,6 +194555,7 @@
         {
           "itemId": "41400334",
           "quantity": 12,
+          "name": "Solidarity's Loneflame",
           "rarity": 4,
           "type": 4,
           "assets": {
@@ -194581,6 +194594,7 @@
         {
           "itemId": "41400334",
           "quantity": 16,
+          "name": "Solidarity's Loneflame",
           "rarity": 4,
           "type": 4,
           "assets": {
@@ -194710,10 +194724,10 @@
         "id": 81001610,
         "suit_weapon_skin_id": 0,
         "quality_id": 3,
-        "name": "",
-        "title_name": "",
-        "sub_dec_name": "",
-        "bg_description": "",
+        "name": "Yangyang: Xuanling",
+        "title_name": "Boundless Azure",
+        "sub_dec_name": "Yangyang: Xuanling - Original Outfit",
+        "bg_description": "Her attire as the \"Votary of the Voice,\" worn after deepening her bond with the Streams.\nThe bird has shed its down and rides the wind toward the heights. From here on, too, she will stride forward, toward everything she believes in.",
         "background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Xuanling_UI.T_IconRole_Pile_Xuanling_UI",
         "portrait": "/Game/Aki/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleXuanling.T_ActivityRoleXuanling",
         "sort_index": 0,
@@ -194722,7 +194736,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "5a1a6651750cba01beff8189a083aef87d1f9be0737282576ced3ed2790d90f6"
+      "currentHash": "24af1ad51f80bc22c8859e97f26026d63e893776a43c11460c92a70a8e8abbab"
     }
   }
 ]

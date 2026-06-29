@@ -966,6 +966,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1003,6 +1007,10 @@
             "Fully-Charged Aimed Shot|{param6:P}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1054,6 +1062,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1091,6 +1103,10 @@
             "Fully-Charged Aimed Shot|{param6:P}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1142,6 +1158,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1179,6 +1199,10 @@
             "Fully-Charged Aimed Shot|{param6:P}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1230,6 +1254,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1267,6 +1295,10 @@
             "Fully-Charged Aimed Shot|{param6:P}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1318,6 +1350,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1355,6 +1391,10 @@
             "Fully-Charged Aimed Shot|{param6:P}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1406,6 +1446,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1443,6 +1487,10 @@
             "Fully-Charged Aimed Shot|{param6:P}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1494,6 +1542,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1538,6 +1590,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1575,6 +1631,10 @@
             "Fully-Charged Aimed Shot|{param6:P}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1633,6 +1693,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1668,6 +1732,10 @@
             "Shining Shadowhunt Shell DMG|{param4:F1P}",
             "Nightsoul Point Limit|{param5:F1}",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1721,6 +1789,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1756,6 +1828,10 @@
             "Shining Shadowhunt Shell DMG|{param4:F1P}",
             "Nightsoul Point Limit|{param5:F1}",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1809,6 +1885,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1844,6 +1924,10 @@
             "Shining Shadowhunt Shell DMG|{param4:F1P}",
             "Nightsoul Point Limit|{param5:F1}",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1897,6 +1981,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1932,6 +2020,10 @@
             "Shining Shadowhunt Shell DMG|{param4:F1P}",
             "Nightsoul Point Limit|{param5:F1}",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1985,6 +2077,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2020,6 +2116,10 @@
             "Shining Shadowhunt Shell DMG|{param4:F1P}",
             "Nightsoul Point Limit|{param5:F1}",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2073,6 +2173,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2108,6 +2212,10 @@
             "Shining Shadowhunt Shell DMG|{param4:F1P}",
             "Nightsoul Point Limit|{param5:F1}",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2161,6 +2269,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2205,6 +2317,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2240,6 +2356,10 @@
             "Shining Shadowhunt Shell DMG|{param4:F1P}",
             "Nightsoul Point Limit|{param5:F1}",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2300,6 +2420,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2334,6 +2458,10 @@
             "Radiant Soulseeker Shell DMG|{param3:F1P}",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2388,6 +2516,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2422,6 +2554,10 @@
             "Radiant Soulseeker Shell DMG|{param3:F1P}",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2476,6 +2612,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2510,6 +2650,10 @@
             "Radiant Soulseeker Shell DMG|{param3:F1P}",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2564,6 +2708,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2598,6 +2746,10 @@
             "Radiant Soulseeker Shell DMG|{param3:F1P}",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2652,6 +2804,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2686,6 +2842,10 @@
             "Radiant Soulseeker Shell DMG|{param3:F1P}",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2740,6 +2900,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2774,6 +2938,10 @@
             "Radiant Soulseeker Shell DMG|{param3:F1P}",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2828,6 +2996,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2872,6 +3044,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2906,6 +3082,10 @@
             "Radiant Soulseeker Shell DMG|{param3:F1P}",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3888,5 +4068,351 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "Bullet_Chasca_ShootArrow_04",
+      "icd": {
+        "tag": "NormalAttack_04",
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV1",
+        "value": 8.9
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce"
+    },
+    {
+      "name": "Bullet_Chasca_ShootArrow_04",
+      "icd": {
+        "tag": "NormalAttack_04",
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV1",
+        "value": 8.9
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce"
+    },
+    {
+      "name": "Bullet_Chasca_ShootArrow_04",
+      "icd": {
+        "tag": "NormalAttack_04",
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV1",
+        "value": 8.9
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce"
+    },
+    {
+      "name": "ShootArrow_Enchanted_WithoutWind",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithoutWind"
+    },
+    {
+      "name": "Bullet_Chasca_ShootArrow_WithWind",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithWind"
+    },
+    {
+      "name": "ElementalArt_HoverAir",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Chasca_ElementalArt_StartDamage"
+    },
+    {
+      "name": "MultiAimAttack",
+      "icd": {
+        "tag": "NormalAttack_05",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Chasca_MultiAimAttack_FastShootDamage"
+    },
+    {
+      "name": "MultiAimAttack_Shoot",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Chasca_MultiAimAttack_FastShootDamage"
+    },
+    {
+      "name": "MultiAimAttack_Shoot_Enhanced",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Chasca_MultiAimAttack_FastShootDamage"
+    },
+    {
+      "name": "SkillObj_Chasca_MultiAimBullet_Wind",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Chasca_Constellation_2_Wind"
+    },
+    {
+      "name": "SkillObj_Chasca_MultiAimBullet_Fire",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Chasca_Constellation_2_Fire"
+    },
+    {
+      "name": "SkillObj_Chasca_MultiAimBullet_Elec",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Chasca_Constellation_2_Elec"
+    },
+    {
+      "name": "SkillObj_Chasca_MultiAimBullet_Water",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Chasca_Constellation_2_Water"
+    },
+    {
+      "name": "SkillObj_Chasca_MultiAimBullet_Ice",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Chasca_Constellation_2_Ice"
+    },
+    {
+      "name": "Bullet_Chasca_ElementalBurst_Bullet",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 100
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Chasca_ElementalBurst_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementalArt_ElementalBall",
+      "skill": "ElementalArt_HoverAir",
+      "kind": "ElementalArt",
+      "element": "Anemo",
+      "per_drop": 1,
+      "lifetime": 15,
+      "chance": 100,
+      "applications": 1,
+      "drop_id": 2021
+    }
+  ]
 }

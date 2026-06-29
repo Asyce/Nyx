@@ -1016,6 +1016,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1054,6 +1058,10 @@
             "Fully-Charged Aimed Shot|{param7:P}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1104,6 +1112,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1142,6 +1154,10 @@
             "Fully-Charged Aimed Shot|{param7:P}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1192,6 +1208,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1230,6 +1250,10 @@
             "Fully-Charged Aimed Shot|{param7:P}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1280,6 +1304,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1318,6 +1346,10 @@
             "Fully-Charged Aimed Shot|{param7:P}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1368,6 +1400,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1406,6 +1442,10 @@
             "Fully-Charged Aimed Shot|{param7:P}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1456,6 +1496,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1494,6 +1538,10 @@
             "Fully-Charged Aimed Shot|{param7:P}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1544,6 +1592,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1588,6 +1640,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1626,6 +1682,10 @@
             "Fully-Charged Aimed Shot|{param7:P}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1683,6 +1743,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1716,6 +1780,10 @@
             "ATK Bonus Ratio|{param2:P}",
             "ATK Bonus Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1771,6 +1839,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1804,6 +1876,10 @@
             "ATK Bonus Ratio|{param2:P}",
             "ATK Bonus Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1859,6 +1935,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1892,6 +1972,10 @@
             "ATK Bonus Ratio|{param2:P}",
             "ATK Bonus Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1947,6 +2031,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1980,6 +2068,10 @@
             "ATK Bonus Ratio|{param2:P}",
             "ATK Bonus Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2035,6 +2127,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2068,6 +2164,10 @@
             "ATK Bonus Ratio|{param2:P}",
             "ATK Bonus Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2123,6 +2223,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2156,6 +2260,10 @@
             "ATK Bonus Ratio|{param2:P}",
             "ATK Bonus Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2211,6 +2319,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2255,6 +2367,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2288,6 +2404,10 @@
             "ATK Bonus Ratio|{param2:P}",
             "ATK Bonus Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2350,6 +2470,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2383,6 +2507,10 @@
             "Tengu Juurai: Stormcluster DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2438,6 +2566,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2471,6 +2603,10 @@
             "Tengu Juurai: Stormcluster DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2526,6 +2662,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2559,6 +2699,10 @@
             "Tengu Juurai: Stormcluster DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2614,6 +2758,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2647,6 +2795,10 @@
             "Tengu Juurai: Stormcluster DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2702,6 +2854,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2735,6 +2891,10 @@
             "Tengu Juurai: Stormcluster DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2790,6 +2950,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2823,6 +2987,10 @@
             "Tengu Juurai: Stormcluster DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2878,6 +3046,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2922,6 +3094,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2955,6 +3131,10 @@
             "Tengu Juurai: Stormcluster DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3909,5 +4089,216 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "Bullet_Sara_ShootArrow_WithElectric",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithElectric"
+    },
+    {
+      "name": "Bullet_Sara_AimingArrow_WithoutElectric",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithoutElectric"
+    },
+    {
+      "name": "Aim_TrackBullet_Material",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "Damage"
+    },
+    {
+      "name": "KarasShoot_DelayAttack",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "KarasShoot_Thunderfall_Damage"
+    },
+    {
+      "name": "KarasShoot_DelayAttack",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 30
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "KarasShoot_Thunderfall_Damage",
+        "Constellation_2_Ratio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Elemental_Burst_AttackWave_Trigger",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 100
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Elemental_Burst_Thunderfall_Damage"
+    },
+    {
+      "name": "Elemental_Burst_AttackWave",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Elemental_Burst_AttackWave_Damage"
+    },
+    {
+      "name": "Elemental_Burst_AttackWave",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Elemental_Burst_AttackWave_Damage"
+    },
+    {
+      "name": "ElementalBurst_Bullet_Material",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV2",
+        "value": 150
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "ThunderFall_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementalArt_GenerateElemBall",
+      "skill": "KarasShoot_DelayAttack",
+      "kind": "ElementalArt",
+      "element": "Electro",
+      "per_drop": 1,
+      "lifetime": 9,
+      "chance": 100,
+      "cd": 0.1,
+      "applications": 1,
+      "drop_id": 2020
+    }
+  ]
 }

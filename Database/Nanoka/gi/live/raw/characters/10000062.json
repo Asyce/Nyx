@@ -883,6 +883,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -920,6 +924,10 @@
             "Fully-Charged Aimed Shot|{param7:P}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -971,6 +979,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1008,6 +1020,10 @@
             "Fully-Charged Aimed Shot|{param7:P}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1059,6 +1075,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1096,6 +1116,10 @@
             "Fully-Charged Aimed Shot|{param7:P}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1147,6 +1171,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1184,6 +1212,10 @@
             "Fully-Charged Aimed Shot|{param7:P}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1235,6 +1267,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1272,6 +1308,10 @@
             "Fully-Charged Aimed Shot|{param7:P}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1323,6 +1363,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1360,6 +1404,10 @@
             "Fully-Charged Aimed Shot|{param7:P}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1411,6 +1459,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1455,6 +1507,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1492,6 +1548,10 @@
             "Fully-Charged Aimed Shot|{param7:P}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1550,6 +1610,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1587,6 +1651,10 @@
             "Rushing Ice Normal Attack DMG Bonus|{param8:F1P}",
             "Rushing Ice Duration|{param9:F1}s",
             "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1638,6 +1706,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1675,6 +1747,10 @@
             "Rushing Ice Normal Attack DMG Bonus|{param8:F1P}",
             "Rushing Ice Duration|{param9:F1}s",
             "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1726,6 +1802,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1763,6 +1843,10 @@
             "Rushing Ice Normal Attack DMG Bonus|{param8:F1P}",
             "Rushing Ice Duration|{param9:F1}s",
             "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1814,6 +1898,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1851,6 +1939,10 @@
             "Rushing Ice Normal Attack DMG Bonus|{param8:F1P}",
             "Rushing Ice Duration|{param9:F1}s",
             "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1902,6 +1994,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1939,6 +2035,10 @@
             "Rushing Ice Normal Attack DMG Bonus|{param8:F1P}",
             "Rushing Ice Duration|{param9:F1}s",
             "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1990,6 +2090,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2027,6 +2131,10 @@
             "Rushing Ice Normal Attack DMG Bonus|{param8:F1P}",
             "Rushing Ice Duration|{param9:F1}s",
             "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2078,6 +2186,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2122,6 +2234,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2159,6 +2275,10 @@
             "Rushing Ice Normal Attack DMG Bonus|{param8:F1P}",
             "Rushing Ice Duration|{param9:F1}s",
             "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2217,6 +2337,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2249,6 +2373,10 @@
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2305,6 +2433,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2337,6 +2469,10 @@
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2393,6 +2529,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2425,6 +2565,10 @@
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2481,6 +2625,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2513,6 +2661,10 @@
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2569,6 +2721,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2601,6 +2757,10 @@
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2657,6 +2817,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2689,6 +2853,10 @@
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2745,6 +2913,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2789,6 +2961,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2821,6 +2997,10 @@
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3776,5 +3956,307 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ExtraAttack_WithoutIce",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithoutIce"
+    },
+    {
+      "name": "ExtraAttack_Ice",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithIce"
+    },
+    {
+      "name": "ElementalArt_Bullet",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 120
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_Damage1"
+    },
+    {
+      "name": "ElementalArt_Mine",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 30
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "ElementalArt_Damage2"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV3",
+        "value": 200
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalBurst_Damage"
+    },
+    {
+      "name": "NormalAttack_01_01_Damage",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 7.65
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "NormalAttack_01_01_DamagePercentage"
+    },
+    {
+      "name": "NormalAttack_01_01_Damage",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 7.65
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "NormalAttack_01_01_DamagePercentage"
+    },
+    {
+      "name": "NormalAttack_01_02_Damage",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 7.65
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "NormalAttack_01_02_DamagePercentage"
+    },
+    {
+      "name": "NormalAttack_01_02_Damage",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 7.65
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "NormalAttack_01_02_DamagePercentage"
+    },
+    {
+      "name": "NormalAttack_02_Damage",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 14.7
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "NormalAttack_02_DamagePercentage"
+    },
+    {
+      "name": "NormalAttack_02_Damage",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 14.7
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "NormalAttack_02_DamagePercentage"
+    },
+    {
+      "name": "NormalAttack_03_Damage",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 18
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "NormalAttack_03_DamagePercentage"
+    },
+    {
+      "name": "NormalAttack_03_Damage",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 18
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "NormalAttack_03_DamagePercentage"
+    },
+    {
+      "name": "NormalAttack_04_Damage",
+      "icd": {
+        "tag": "NormalAttack_04",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 22.38
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "NormalAttack_04_DamagePercentage"
+    },
+    {
+      "name": "NormalAttack_04_Damage",
+      "icd": {
+        "tag": "NormalAttack_04",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 22.38
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "NormalAttack_04_DamagePercentage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementBall_Handler",
+      "skill": "ElementalArt_Bullet",
+      "kind": "ElementalArt",
+      "element": "Cryo",
+      "per_drop": 1,
+      "lifetime": 15,
+      "chance": 100,
+      "applications": 1,
+      "drop_id": 2022
+    }
+  ]
 }

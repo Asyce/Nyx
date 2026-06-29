@@ -509,8 +509,7 @@
         "title": "About Prune",
         "text": "She gave me this big, thick book called \"An Introduction to Nutrition\" and told me that if I wanna grow taller, I also need to eat well — apparently, just sleeping all the time isn't enough. Kinda weird, though... Despite everything she knows, we're still pretty much the same height. I dunno, maybe she actually doesn't wanna grow taller?",
         "unlocked": [
-          "Unlocks at Friendship Lv. 4",
-          "Complete \"The Magic That Never Fails\""
+          "Unlocks at Friendship Lv. 4"
         ]
       }
     ],
@@ -1027,6 +1026,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1066,6 +1069,10 @@
             "Max Duration|{param9:F1}s",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1115,6 +1122,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1154,6 +1165,10 @@
             "Max Duration|{param9:F1}s",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1203,6 +1218,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1242,6 +1261,10 @@
             "Max Duration|{param9:F1}s",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1291,6 +1314,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1330,6 +1357,10 @@
             "Max Duration|{param9:F1}s",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1379,6 +1410,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1418,6 +1453,10 @@
             "Max Duration|{param9:F1}s",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1467,6 +1506,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1506,6 +1549,10 @@
             "Max Duration|{param9:F1}s",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1555,6 +1602,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1599,6 +1650,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1638,6 +1693,10 @@
             "Max Duration|{param9:F1}s",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1694,6 +1753,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1730,6 +1793,10 @@
             "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
             "Max Duration (Hold)|{param6:F1}s",
             "CD|{param7:F1} to {param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1782,6 +1849,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1818,6 +1889,10 @@
             "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
             "Max Duration (Hold)|{param6:F1}s",
             "CD|{param7:F1} to {param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1870,6 +1945,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1906,6 +1985,10 @@
             "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
             "Max Duration (Hold)|{param6:F1}s",
             "CD|{param7:F1} to {param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1958,6 +2041,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1994,6 +2081,10 @@
             "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
             "Max Duration (Hold)|{param6:F1}s",
             "CD|{param7:F1} to {param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2046,6 +2137,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2082,6 +2177,10 @@
             "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
             "Max Duration (Hold)|{param6:F1}s",
             "CD|{param7:F1} to {param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2134,6 +2233,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2170,6 +2273,10 @@
             "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
             "Max Duration (Hold)|{param6:F1}s",
             "CD|{param7:F1} to {param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2222,6 +2329,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2266,6 +2377,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2302,6 +2417,10 @@
             "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
             "Max Duration (Hold)|{param6:F1}s",
             "CD|{param7:F1} to {param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2361,6 +2480,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2397,6 +2520,10 @@
             "Duration|{param7:F1}s",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2449,6 +2576,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2485,6 +2616,10 @@
             "Duration|{param7:F1}s",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2537,6 +2672,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2573,6 +2712,10 @@
             "Duration|{param7:F1}s",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2625,6 +2768,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2661,6 +2808,10 @@
             "Duration|{param7:F1}s",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2713,6 +2864,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2749,6 +2904,10 @@
             "Duration|{param7:F1}s",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2801,6 +2960,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2837,6 +3000,10 @@
             "Duration|{param7:F1}s",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2889,6 +3056,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2933,6 +3104,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2969,6 +3144,10 @@
             "Duration|{param7:F1}s",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3920,5 +4099,278 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ElementalArt_Click",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 120
+      },
+      "element": "Wind",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "Click_StrikeDamage"
+    },
+    {
+      "name": "ElementalArt_Hold",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 200
+      },
+      "element": "Wind",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "Hold_StrikeDamage"
+    },
+    {
+      "name": "ElementalArt_Hold",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3"
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "Hold_Mix_StrikeDamage"
+    },
+    {
+      "name": "ElementalArt_Hold",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3"
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "Hold_Mix_StrikeDamage"
+    },
+    {
+      "name": "ElementalArt_Hold",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3"
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "Hold_Mix_StrikeDamage"
+    },
+    {
+      "name": "ElementalArt_Hold",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3"
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "Hold_Mix_StrikeDamage"
+    },
+    {
+      "name": "ElementalArt_Roll_Mix",
+      "icd": {
+        "tag": "Sayu_ElementalArt_Mix_Detect",
+        "group": "default"
+      },
+      "gauge": 0.04,
+      "element": "AntiFire",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
+      "name": "ElementalArt_Roll_Mix",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalArt_Roll_Mix",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalArt_Roll_Mix",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 200
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Damage_Ratio"
+    },
+    {
+      "name": "ElementalBurst_Phantom",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Damage_Ratio",
+        "Constellation_6_Damage",
+        "ADD"
+      ]
+    },
+    {
+      "name": "ElementalBurst_Phantom",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Damage_Ratio",
+        "Constellation_6_Damage",
+        "ADD"
+      ]
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 200
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "Strike_DropBall",
+      "skill": "ElementalArt_Check",
+      "kind": "ElementalArt",
+      "element": "Anemo",
+      "per_drop": 1,
+      "lifetime": 6,
+      "chance": 100,
+      "cd": 0.5,
+      "applications": 1,
+      "drop_id": 2021
+    },
+    {
+      "name": "Roll_DropBall",
+      "skill": "ElementalArt_Check",
+      "kind": "ElementalArt",
+      "element": "Anemo",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "cd": 3,
+      "applications": 1,
+      "drop_id": 2021
+    }
+  ]
 }

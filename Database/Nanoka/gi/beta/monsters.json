@@ -1,7 +1,7 @@
 [
   {
     "id": "20010101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Dendro Slime",
     "type": "ELEMENTAL",
     "title": "Dendro Slime",
@@ -122,7 +122,7 @@
       }
     },
     "liveComparison": {
-      "liveHash": "ec2fb5ce30a7c7a91935c62bcec8daf1e3a9cd9b1ae557dd07af611da4d2e333",
+      "liveHash": "c249f302b853677dbaeed032c8995d4952320428d7ba6712ff89d1912df5297c",
       "currentHash": "c249f302b853677dbaeed032c8995d4952320428d7ba6712ff89d1912df5297c"
     }
   },
@@ -261,7 +261,7 @@
   },
   {
     "id": "20010301",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Anemo Slime",
     "type": "ELEMENTAL",
     "title": "Anemo Slime",
@@ -344,6 +344,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -384,6 +385,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -550,13 +552,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "28a9e64e4958a753fcab3ec9811eb44b315de7641bea9675a03b387b291b935b",
-      "currentHash": "6ff96a66fcbc102118f1e04dfe36cedcd2efb70473373be32c2d642d25c3c5c0"
+      "liveHash": "be61aff5cdd1f006945d6f50663c3af5a3f7fac09dbf088a508ea3ea16745bcb",
+      "currentHash": "be61aff5cdd1f006945d6f50663c3af5a3f7fac09dbf088a508ea3ea16745bcb"
     }
   },
   {
     "id": "20010401",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Large Anemo Slime",
     "type": "ELEMENTAL",
     "title": "Large Anemo Slime",
@@ -642,6 +644,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -729,6 +732,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -769,6 +773,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_LITTLEMONSTER",
@@ -856,6 +861,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -891,12 +897,12 @@
     },
     "liveComparison": {
       "liveHash": "811c070fa43d2e0db6713eee589a6c07cd0387ce0efeb8aef497c856c1eb67fc",
-      "currentHash": "a381eeb60f054699abdba7611611906a5d42e4f5c01437a85b07f3ad9a4bdbb6"
+      "currentHash": "811c070fa43d2e0db6713eee589a6c07cd0387ce0efeb8aef497c856c1eb67fc"
     }
   },
   {
     "id": "20010501",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Electro Slime",
     "type": "ELEMENTAL",
     "title": "Electro Slime",
@@ -979,6 +985,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -1019,6 +1026,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -1059,6 +1067,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -1099,6 +1108,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -1139,6 +1149,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -1267,6 +1278,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -1307,6 +1319,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -1347,6 +1360,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -1381,13 +1395,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "ccc87a5f1398073d75a243122df29594224df9ed37e8a2223f3b5a883f790695",
-      "currentHash": "9eda7577b312bcc2ff0f9694b11df1734070397d5aaa472979bf95894b0e065d"
+      "liveHash": "264eaa782ee5a3763c37dd89c61d235ebd840bcc0ad2de5fd52c51c7af188d32",
+      "currentHash": "264eaa782ee5a3763c37dd89c61d235ebd840bcc0ad2de5fd52c51c7af188d32"
     }
   },
   {
     "id": "20010601",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Large Electro Slime",
     "type": "ELEMENTAL",
     "title": "Large Electro Slime",
@@ -1473,6 +1487,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -1513,6 +1528,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -1600,6 +1616,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -1640,6 +1657,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -1680,6 +1698,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -1814,6 +1833,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -1848,13 +1868,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "cb25fa0379a6de8ad6b592e768a4c44db94274aa349ec115f827956f8dd4b2c9",
-      "currentHash": "55eedcd5b69f44caf89c8d81ff3d70505777b54e8d6f2d6c0da20fe6f3eb0bdb"
+      "liveHash": "911d5bf8a44a4bcf3b8d32704fcae54b7609c2f5fac2dac2e889aae7ddd2181c",
+      "currentHash": "911d5bf8a44a4bcf3b8d32704fcae54b7609c2f5fac2dac2e889aae7ddd2181c"
     }
   },
   {
     "id": "20010701",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Mutant Electro Slime",
     "type": "ELEMENTAL",
     "title": "Mutant Electro Slime",
@@ -1987,6 +2007,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -2027,6 +2048,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -2067,6 +2089,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -2102,12 +2125,12 @@
     },
     "liveComparison": {
       "liveHash": "c9a377716e8d370a0cf52b96565abfa24fb627c3422a45a7ae1935036c8d7884",
-      "currentHash": "4f9b9649402acaa0f86e327393c6ab125b426bf3ec6d2c8c4a656d5546d8d2d3"
+      "currentHash": "c9a377716e8d370a0cf52b96565abfa24fb627c3422a45a7ae1935036c8d7884"
     }
   },
   {
     "id": "20010801",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Cryo Slime",
     "type": "ELEMENTAL",
     "title": "Cryo Slime",
@@ -2234,6 +2257,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -2274,6 +2298,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -2314,6 +2339,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -2354,6 +2380,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -2394,6 +2421,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -2434,6 +2462,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -2556,13 +2585,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "e55c599ad1df19019723cfcd9319ddccc937e7e2b35f1fdddc9a81a3d6c9e2f1",
-      "currentHash": "cdae38828a8b348bca95c47f27f167e2161e92882d00e5d072fe775632a0c221"
+      "liveHash": "4fd4586c63d10c244a2bfd5bc0ccfa53576986c6299fbcb7d2cfba63c0d3d9ca",
+      "currentHash": "4fd4586c63d10c244a2bfd5bc0ccfa53576986c6299fbcb7d2cfba63c0d3d9ca"
     }
   },
   {
     "id": "20010901",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Large Cryo Slime",
     "type": "ELEMENTAL",
     "title": "Large Cryo Slime",
@@ -2695,6 +2724,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -2782,6 +2812,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -2822,6 +2853,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -2862,6 +2894,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -2949,6 +2982,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -2989,6 +3023,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -3029,6 +3064,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -3064,12 +3100,12 @@
     },
     "liveComparison": {
       "liveHash": "559a7cddce98ff9628fc12f1fc862ffaba6a9df2f468d7ca20c2267af62ff398",
-      "currentHash": "ef1c8418a154dea2489335ed052fb217fe9807d7c16299c8d5af8e6b6799fcdd"
+      "currentHash": "559a7cddce98ff9628fc12f1fc862ffaba6a9df2f468d7ca20c2267af62ff398"
     }
   },
   {
     "id": "20011001",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Hydro Slime",
     "type": "ELEMENTAL",
     "title": "Hydro Slime",
@@ -3152,6 +3188,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -3192,6 +3229,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -3232,6 +3270,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -3360,6 +3399,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -3400,6 +3440,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -3434,13 +3475,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "14ca2fe3f9b8d691c417879df9ece3d1fad6637771ec063bef3290b626d3278c",
-      "currentHash": "c7f3eb0305226643dd4a490cae00705eacb68cebe6c05d79ee6327244ba93a9a"
+      "liveHash": "f6e8f053cc21efb957088e71c586d937ca65fb8b33b6bbc9d1a5a0f7b7af3273",
+      "currentHash": "f6e8f053cc21efb957088e71c586d937ca65fb8b33b6bbc9d1a5a0f7b7af3273"
     }
   },
   {
     "id": "20011101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Large Hydro Slime",
     "type": "ELEMENTAL",
     "title": "Large Hydro Slime",
@@ -3526,6 +3567,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -3613,6 +3655,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -3747,6 +3790,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -3787,6 +3831,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -3827,6 +3872,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -3867,6 +3913,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -3902,12 +3949,12 @@
     },
     "liveComparison": {
       "liveHash": "92876bb56b7df58ab28a920a33860fb46734b4bfaaf4627a7ccc3701908f63fa",
-      "currentHash": "3509185015bfe53b1359c2722e049b2963e9082b815d7070d000260745ab0bba"
+      "currentHash": "92876bb56b7df58ab28a920a33860fb46734b4bfaaf4627a7ccc3701908f63fa"
     }
   },
   {
     "id": "20011201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Pyro Slime",
     "type": "ELEMENTAL",
     "title": "Pyro Slime",
@@ -3990,6 +4037,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -4030,6 +4078,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -4070,6 +4119,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -4110,6 +4160,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -4150,6 +4201,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -4190,6 +4242,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -4362,6 +4415,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -4402,6 +4456,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -4442,6 +4497,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -4476,13 +4532,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "87f78e24f45dc415b3cae4f72c486335fa37724a646d99637d7d685318459885",
-      "currentHash": "e31ccf2168ca4137084973cebcfa1d4b1fe407be8f38798523bd6a0e6d973b79"
+      "liveHash": "0381d830a63aa5b748bfbfffb15e6d7f086e501fe60d6a09ea56ed6a1448de7a",
+      "currentHash": "0381d830a63aa5b748bfbfffb15e6d7f086e501fe60d6a09ea56ed6a1448de7a"
     }
   },
   {
     "id": "20011301",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Large Pyro Slime",
     "type": "ELEMENTAL",
     "title": "Large Pyro Slime",
@@ -4568,6 +4624,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -4655,6 +4712,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -4695,6 +4753,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -4735,6 +4794,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -4822,6 +4882,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -4862,6 +4923,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -4996,6 +5058,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -5036,6 +5099,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -5076,6 +5140,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -5111,12 +5176,12 @@
     },
     "liveComparison": {
       "liveHash": "c6fe793ab993bbcb11f921531fe96076853d838f9c58de12d2bce47f95282c85",
-      "currentHash": "80ee9119c6be9b7711161a037c12a88bb29dc9deae86d28b2974863e22bb6df3"
+      "currentHash": "c6fe793ab993bbcb11f921531fe96076853d838f9c58de12d2bce47f95282c85"
     }
   },
   {
     "id": "20011401",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Geo Slime",
     "type": "ELEMENTAL",
     "title": "Geo Slime",
@@ -5199,6 +5264,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -5239,6 +5305,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -5361,13 +5428,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "466e709b99573c831c4c293b501dc136f022eeb045ade3cabc377c6bb8edef5f",
-      "currentHash": "64f5d4c030e4db6faebeb2ee5b787cc55458011bf1ae0bdaa2c3a0fad4d7636b"
+      "liveHash": "1e27a36e310a0fcae4b4bdfb8bd296df4a14ebde441574e61ac5d81aed912d4e",
+      "currentHash": "1e27a36e310a0fcae4b4bdfb8bd296df4a14ebde441574e61ac5d81aed912d4e"
     }
   },
   {
     "id": "20011501",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Large Geo Slime",
     "type": "ELEMENTAL",
     "title": "Large Geo Slime",
@@ -5500,6 +5567,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -5540,6 +5608,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -5627,6 +5696,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -5667,6 +5737,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -5702,12 +5773,12 @@
     },
     "liveComparison": {
       "liveHash": "5f2b8f97eff3a94d5c780406197bfe1b5d3d844665de2e88ab0c59c06483c9a4",
-      "currentHash": "edc8fdd17895f46ba5b404b4b499a29e98756eda2c81eedbef5926d2c31268fc"
+      "currentHash": "5f2b8f97eff3a94d5c780406197bfe1b5d3d844665de2e88ab0c59c06483c9a4"
     }
   },
   {
     "id": "20020101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Eye of the Storm",
     "type": "ELEMENTAL",
     "title": "Eye of the Storm",
@@ -5772,6 +5843,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -5812,6 +5884,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -5847,7 +5920,7 @@
     },
     "liveComparison": {
       "liveHash": "446012bee46b101704b5b87b96dd742e9040a6005eb16524c28f4a28ba702f30",
-      "currentHash": "f43ecc0143798aa7eb3c27b5ac72a721636062bcdcbb7993315e6db36cc25d03"
+      "currentHash": "446012bee46b101704b5b87b96dd742e9040a6005eb16524c28f4a28ba702f30"
     }
   },
   {
@@ -7840,7 +7913,7 @@
   },
   {
     "id": "20051101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Tainted Water-Spouting Phantasm",
     "type": "ELEMENTAL",
     "title": "Tainted Water-Spouting Phantasm",
@@ -8061,6 +8134,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -8101,6 +8175,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -8136,12 +8211,12 @@
     },
     "liveComparison": {
       "liveHash": "14edf82081582b174acac893cc32586a0409361bddf6956a6c9313917c44e95a",
-      "currentHash": "b06d8a03d7e6f219e8466bdb812c410472bdc92957c9b8124262186b7dbadb72"
+      "currentHash": "14edf82081582b174acac893cc32586a0409361bddf6956a6c9313917c44e95a"
     }
   },
   {
     "id": "20051201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Hydro Tulpa",
     "type": "ELEMENTAL",
     "title": "Hydro Tulpa",
@@ -8531,7 +8606,7 @@
       }
     },
     "liveComparison": {
-      "liveHash": "43b75e297d46e9fc8f322ffbcf179a168f1489db19d812ea2dc7f40ecfa1daaf",
+      "liveHash": "e8390695d7a06fc38d1bd55a6a72de719d54ee16676fe642aeee3fc351da1276",
       "currentHash": "e8390695d7a06fc38d1bd55a6a72de719d54ee16676fe642aeee3fc351da1276"
     }
   },
@@ -8962,7 +9037,7 @@
   },
   {
     "id": "20060401",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Cryo Specter",
     "type": "ELEMENTAL",
     "title": "Cryo Specter",
@@ -9068,6 +9143,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -9108,6 +9184,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -9148,6 +9225,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -9183,12 +9261,12 @@
     },
     "liveComparison": {
       "liveHash": "dffa155d30e9d493b863b55152062c1d70d7d60952951400a155ebc7c0a27afc",
-      "currentHash": "2e1cd85e538edab042ef5b17b7758c19b10b94fb22cc2516c5db942e443ecc42"
+      "currentHash": "dffa155d30e9d493b863b55152062c1d70d7d60952951400a155ebc7c0a27afc"
     }
   },
   {
     "id": "20060501",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Electro Specter",
     "type": "ELEMENTAL",
     "title": "Electro Specter",
@@ -9250,6 +9328,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -9334,6 +9413,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -9374,6 +9454,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -9409,12 +9490,12 @@
     },
     "liveComparison": {
       "liveHash": "a7f1ce1aba5704204e6c34601d2d46d04f852e5e489d493d58436553de11ee41",
-      "currentHash": "2da932e3f0dc6e9a0b70190650bd076389aa0cc3fa7326df18879c94fa77f46d"
+      "currentHash": "a7f1ce1aba5704204e6c34601d2d46d04f852e5e489d493d58436553de11ee41"
     }
   },
   {
     "id": "20060601",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Pyro Specter",
     "type": "ELEMENTAL",
     "title": "Pyro Specter",
@@ -9520,6 +9601,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -9560,6 +9642,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -9600,6 +9683,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -9635,7 +9719,7 @@
     },
     "liveComparison": {
       "liveHash": "1e7d30d28401ff3ee56a54b21c0cf19c85cba0fafa57d4e4d56563e8b22ee127",
-      "currentHash": "009b01ed15b472087621de0c70a8049f64f1d4b2eb25af1b0e55e7db7d1efc86"
+      "currentHash": "1e7d30d28401ff3ee56a54b21c0cf19c85cba0fafa57d4e4d56563e8b22ee127"
     }
   },
   {
@@ -11323,7 +11407,7 @@
   },
   {
     "id": "21010101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Hilichurl",
     "type": "HILICHURL",
     "title": "Hilichurl",
@@ -11406,6 +11490,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -11490,6 +11575,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -11530,6 +11616,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -11570,6 +11657,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -11654,6 +11742,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -11694,6 +11783,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -11734,6 +11824,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -11774,6 +11865,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -11853,12 +11945,12 @@
     },
     "liveComparison": {
       "liveHash": "c4888eb5f422b0b323f165298817d0da04612fffe8ae34013dfbc277609bd51a",
-      "currentHash": "a058486474ab0cda461e24cc32594e1a5ad0893bf834b292bbef2fd36bfc3dad"
+      "currentHash": "c4888eb5f422b0b323f165298817d0da04612fffe8ae34013dfbc277609bd51a"
     }
   },
   {
     "id": "21010201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Hilichurl Fighter",
     "type": "HILICHURL",
     "title": "Hilichurl",
@@ -11941,6 +12033,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -11981,6 +12074,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -12021,6 +12115,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -12105,6 +12200,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -12145,6 +12241,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -12185,6 +12282,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -12225,6 +12323,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -12265,6 +12364,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -12305,6 +12405,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_LITTLEMONSTER",
@@ -12345,6 +12446,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -12380,12 +12482,12 @@
     },
     "liveComparison": {
       "liveHash": "145f6b492148b765fdd974c0115388d033449e19f3724aa0353fa27094d01413",
-      "currentHash": "918113b8e211feafdc128b64287c929f8ca8ea160d47226892546765653e42d4"
+      "currentHash": "145f6b492148b765fdd974c0115388d033449e19f3724aa0353fa27094d01413"
     }
   },
   {
     "id": "21010301",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Wooden Shield Hilichurl Guard",
     "type": "HILICHURL",
     "title": "Hilichurl",
@@ -12468,6 +12570,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -12508,6 +12611,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -12631,12 +12735,12 @@
     },
     "liveComparison": {
       "liveHash": "b794f47d624d4b7db9c2fb8ce6ba2545c4193b3538947bb08dfbc671649625bd",
-      "currentHash": "404cf12baaea6c8d75be37e036543d283f67550684161d0bc6101ca2b4867a48"
+      "currentHash": "b794f47d624d4b7db9c2fb8ce6ba2545c4193b3538947bb08dfbc671649625bd"
     }
   },
   {
     "id": "21010401",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Hilichurl Shooter",
     "type": "HILICHURL",
     "title": "Hilichurl Shooter",
@@ -12778,6 +12882,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -12818,6 +12923,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -12858,6 +12964,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -12981,12 +13088,12 @@
     },
     "liveComparison": {
       "liveHash": "1225ca1aa9c367769c8713de13525ad230123d48e2a1be526bfa0b9a10bf5ee5",
-      "currentHash": "f03f590b9c7a26819af4a3a5f367c71995ec044b5a8c589e7f827d0edc4deea8"
+      "currentHash": "1225ca1aa9c367769c8713de13525ad230123d48e2a1be526bfa0b9a10bf5ee5"
     }
   },
   {
     "id": "21010501",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Pyro Hilichurl Shooter",
     "type": "HILICHURL",
     "title": "Hilichurl Shooter",
@@ -13260,6 +13367,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -13300,6 +13408,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -13335,7 +13444,7 @@
     },
     "liveComparison": {
       "liveHash": "0028cccba183bd4572d6c88d81da49420924ed492e8e949eef4113c4d12f34dc",
-      "currentHash": "065831166b156d43b1e6679d990dcdf45c5b8d028aaec7eeaa0439258b8b1167"
+      "currentHash": "0028cccba183bd4572d6c88d81da49420924ed492e8e949eef4113c4d12f34dc"
     }
   },
   {
@@ -13511,7 +13620,7 @@
   },
   {
     "id": "21010701",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Hilichurl Berserker",
     "type": "HILICHURL",
     "title": "Hilichurl",
@@ -13594,6 +13703,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -13634,6 +13744,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -13674,6 +13785,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -13753,12 +13865,12 @@
     },
     "liveComparison": {
       "liveHash": "5bf1724c45148f36f474bd64420314d0bbacddf76be1e3153046d85d68d61fd3",
-      "currentHash": "a84068870b8cf6693370dd591482699b98731d8b9e9984b60361f89cb36a626b"
+      "currentHash": "5bf1724c45148f36f474bd64420314d0bbacddf76be1e3153046d85d68d61fd3"
     }
   },
   {
     "id": "21010901",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Cryo Hilichurl Shooter",
     "type": "HILICHURL",
     "title": "Hilichurl Shooter",
@@ -13988,6 +14100,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -14028,6 +14141,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -14068,6 +14182,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -14103,12 +14218,12 @@
     },
     "liveComparison": {
       "liveHash": "17a11d647ba69ad2162bb8740f06e8cb7659a58074a47a39491af4c070aac475",
-      "currentHash": "46473063396f009437c21d74378148fd875b0eadf3fe4629e127b780f87a9116"
+      "currentHash": "17a11d647ba69ad2162bb8740f06e8cb7659a58074a47a39491af4c070aac475"
     }
   },
   {
     "id": "21011001",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Electro Hilichurl Shooter",
     "type": "HILICHURL",
     "title": "Hilichurl Shooter",
@@ -14338,6 +14453,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -14378,6 +14494,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -14418,6 +14535,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -14453,12 +14571,12 @@
     },
     "liveComparison": {
       "liveHash": "e4a4acc5c5fcebe9f876ee476a5e5f669039d541bf7a69d433c28c8233e9963f",
-      "currentHash": "4a2d5617269d8961762ec7d72814123d75cf0629fa40575269421848a2394b48"
+      "currentHash": "e4a4acc5c5fcebe9f876ee476a5e5f669039d541bf7a69d433c28c8233e9963f"
     }
   },
   {
     "id": "21011201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Rock Shield Hilichurl Guard",
     "type": "HILICHURL",
     "title": "Hilichurl",
@@ -14541,6 +14659,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -14620,7 +14739,7 @@
     },
     "liveComparison": {
       "liveHash": "9740a7c6568b9b9e3eb5ec04e66cac58e3cf682e18bbcc2c226be91ef90135f0",
-      "currentHash": "3014463e9fda3fff5bca1be7901ccf3403acf7105258044289dd807f93471637"
+      "currentHash": "9740a7c6568b9b9e3eb5ec04e66cac58e3cf682e18bbcc2c226be91ef90135f0"
     }
   },
   {
@@ -14796,7 +14915,7 @@
   },
   {
     "id": "21011401",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Ice Shield Hilichurl Guard",
     "type": "HILICHURL",
     "title": "Hilichurl",
@@ -14879,6 +14998,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -15002,7 +15122,7 @@
     },
     "liveComparison": {
       "liveHash": "1b87f25e7dd2e1e68f56648c926f3f81d083492500f3e7afa864407337c58ea8",
-      "currentHash": "2836d44840871580ca8360d1473e6dd4d6080215f2a45bc1beda536cf2608bcb"
+      "currentHash": "1b87f25e7dd2e1e68f56648c926f3f81d083492500f3e7afa864407337c58ea8"
     }
   },
   {
@@ -15263,7 +15383,7 @@
   },
   {
     "id": "21020101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Wooden Shieldwall Mitachurl",
     "type": "HILICHURL",
     "title": "Mitachurl: Wooden Shieldwall",
@@ -15402,6 +15522,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -15442,6 +15563,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -15577,12 +15699,12 @@
     },
     "liveComparison": {
       "liveHash": "f094eed81fda52266a70c18d675864500f9348c432fc722539614750228ec66e",
-      "currentHash": "66f15704bad2137cf55700f747bfbdcfa7a3a2f0d7e0b34413c8fa26f7c642be"
+      "currentHash": "f094eed81fda52266a70c18d675864500f9348c432fc722539614750228ec66e"
     }
   },
   {
     "id": "21020201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Blazing Axe Mitachurl",
     "type": "HILICHURL",
     "title": "Mitachurl: Blazing Axe",
@@ -15771,6 +15893,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -15861,6 +15984,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -15951,6 +16075,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -16091,6 +16216,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -16131,6 +16257,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -16171,6 +16298,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -16211,6 +16339,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -16251,6 +16380,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -16291,6 +16421,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -16326,12 +16457,12 @@
     },
     "liveComparison": {
       "liveHash": "f0eba9f8ab275cac260aaed12bbb6e1291740e3ef52e03d5349b93cce3b06b43",
-      "currentHash": "4ac99f38d8d332e2f81dfe5a87feff6ac581f85bc8370bed58f7313fd52fdfe7"
+      "currentHash": "f0eba9f8ab275cac260aaed12bbb6e1291740e3ef52e03d5349b93cce3b06b43"
     }
   },
   {
     "id": "21020301",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Rock Shieldwall Mitachurl",
     "type": "HILICHURL",
     "title": "Mitachurl: Rock Shieldwall",
@@ -16470,6 +16601,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -16510,6 +16642,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -16645,12 +16778,12 @@
     },
     "liveComparison": {
       "liveHash": "dc3199415aee883b47f688993dfad5f5a6762dfdf339668d2af247c5c4fa7ed6",
-      "currentHash": "5afca7abcafce886599eb540f81c6cfba2f060fed4251fe13c1944288a7c3af6"
+      "currentHash": "dc3199415aee883b47f688993dfad5f5a6762dfdf339668d2af247c5c4fa7ed6"
     }
   },
   {
     "id": "21020401",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Frostarm Lawachurl",
     "type": "HILICHURL",
     "title": "Frostarm Lawachurl",
@@ -16789,6 +16922,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -16829,6 +16963,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -16969,6 +17104,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -17009,6 +17145,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -17049,6 +17186,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -17089,6 +17227,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -17129,6 +17268,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -17164,12 +17304,12 @@
     },
     "liveComparison": {
       "liveHash": "e1b2e2fcc14e8db58fb85c04a26256bd3e7bfb0fcc6b8da26ec0313c67208a18",
-      "currentHash": "00c1465229a2c14c25c9231fe4311352e9271210305795e7c11ad7760df9fdc9"
+      "currentHash": "e1b2e2fcc14e8db58fb85c04a26256bd3e7bfb0fcc6b8da26ec0313c67208a18"
     }
   },
   {
     "id": "21020501",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Stonehide Lawachurl",
     "type": "HILICHURL",
     "title": "Stonehide Lawachurl",
@@ -17308,6 +17448,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -17348,6 +17489,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -17438,6 +17580,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -17473,12 +17616,12 @@
     },
     "liveComparison": {
       "liveHash": "f01525e24d3dfb5f18de0dcce4057d167e899cf0c8cf0481d1d8c33369c1ac5d",
-      "currentHash": "3ff88774de3ceba4fb51a55797c52eea401cb2c414b8565c644769c2ed9f6145"
+      "currentHash": "f01525e24d3dfb5f18de0dcce4057d167e899cf0c8cf0481d1d8c33369c1ac5d"
     }
   },
   {
     "id": "21020601",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Ice Shieldwall Mitachurl",
     "type": "HILICHURL",
     "title": "Mitachurl: Ice Shieldwall",
@@ -17687,6 +17830,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -17772,12 +17916,12 @@
     },
     "liveComparison": {
       "liveHash": "ed36c9e33f1a3976d279367606a391f076e70536a3cc9e1d16d1086e7540fdd2",
-      "currentHash": "33c019b0b150fc44b4a169953702890a9e150a2eff6c3d1ff665d37b68259f44"
+      "currentHash": "ed36c9e33f1a3976d279367606a391f076e70536a3cc9e1d16d1086e7540fdd2"
     }
   },
   {
     "id": "21020701",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Crackling Axe Mitachurl",
     "type": "HILICHURL",
     "title": "Mitachurl: Cracking Axe",
@@ -17845,6 +17989,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -17935,6 +18080,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -17975,6 +18121,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -18165,6 +18312,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -18200,12 +18348,12 @@
     },
     "liveComparison": {
       "liveHash": "f9e28b59c034fb3ee731295099d011dbafd5dddce5f1cfa80d5302eece49e318",
-      "currentHash": "d91e69a85ac6e0dd3fa9abb6958bd5141f805c99ad3720e450f9a91a043e59b5"
+      "currentHash": "f9e28b59c034fb3ee731295099d011dbafd5dddce5f1cfa80d5302eece49e318"
     }
   },
   {
     "id": "21020801",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Thunderhelm Lawachurl",
     "type": "HILICHURL",
     "title": "Thunderhelm Lawachurl",
@@ -18273,6 +18421,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -18313,6 +18462,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -18453,6 +18603,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -18488,12 +18639,12 @@
     },
     "liveComparison": {
       "liveHash": "7e531243f389793fe70d2663591cbea0328470f79d5deb31adb430e98a56a6a1",
-      "currentHash": "922e72ea23f212457f3dc164ce3300899c466370bf5fc7e22332b852b0c91cb4"
+      "currentHash": "7e531243f389793fe70d2663591cbea0328470f79d5deb31adb430e98a56a6a1"
     }
   },
   {
     "id": "21030101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Hydro Samachurl",
     "type": "HILICHURL",
     "title": "Hydro Samachurl",
@@ -18591,6 +18742,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -18763,6 +18915,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -18803,6 +18956,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -18843,6 +18997,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -18883,6 +19038,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -18923,6 +19079,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -18958,12 +19115,12 @@
     },
     "liveComparison": {
       "liveHash": "e374fffd7f93a5a0848550e8fc1df5de5fec69208dabe0c45e692c9aacd06ebd",
-      "currentHash": "74153fdf5ebff808829333706b69b883d34dff005c102cbbc24e4d6c7c633da8"
+      "currentHash": "e374fffd7f93a5a0848550e8fc1df5de5fec69208dabe0c45e692c9aacd06ebd"
     }
   },
   {
     "id": "21030201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Dendro Samachurl",
     "type": "HILICHURL",
     "title": "Dendro Samachurl",
@@ -19061,6 +19218,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -19228,12 +19386,12 @@
     },
     "liveComparison": {
       "liveHash": "d24608ff08b8c0b30d753a8e7a7f9ec645d80b497c1ce0beb94652101ea5469a",
-      "currentHash": "91ff7cfb86dd702d654932405597fdb9aa65d8af546534be9d9276ed131f6a88"
+      "currentHash": "d24608ff08b8c0b30d753a8e7a7f9ec645d80b497c1ce0beb94652101ea5469a"
     }
   },
   {
     "id": "21030301",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Anemo Samachurl",
     "type": "HILICHURL",
     "title": "Anemo Samachurl",
@@ -19331,6 +19489,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -19591,6 +19750,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -19631,6 +19791,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -19666,12 +19827,12 @@
     },
     "liveComparison": {
       "liveHash": "ffef4a0544f7bee9c1bc9d7bf41b4b869a78d1d4d6259afc1029b411a83125ba",
-      "currentHash": "1eab45d8348e8eb7c02784db1e8e10d47f963fa1bd9f0788cb939a02811f740c"
+      "currentHash": "ffef4a0544f7bee9c1bc9d7bf41b4b869a78d1d4d6259afc1029b411a83125ba"
     }
   },
   {
     "id": "21030401",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Geo Samachurl",
     "type": "HILICHURL",
     "title": "Geo Samachurl",
@@ -19813,6 +19974,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -19980,12 +20142,12 @@
     },
     "liveComparison": {
       "liveHash": "701e1b4e254960619f3218598962e814fc734423f04996371363957e7987bc0c",
-      "currentHash": "03869d1b34dc132cb2049ab272fbef80ba35712037e37eeedc12c6565c207bb6"
+      "currentHash": "701e1b4e254960619f3218598962e814fc734423f04996371363957e7987bc0c"
     }
   },
   {
     "id": "21030501",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Cryo Samachurl",
     "type": "HILICHURL",
     "title": "Cryo Samachurl",
@@ -20083,6 +20245,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -20206,12 +20369,12 @@
     },
     "liveComparison": {
       "liveHash": "b745584e2c6646b132a77e4299ad9d713d8e8d7c4e8d99938911b64ea1be5b37",
-      "currentHash": "c1070b2d61db127c9bf240d675148dbe16a7d9c668456bd8747bbe9a2df4e10d"
+      "currentHash": "b745584e2c6646b132a77e4299ad9d713d8e8d7c4e8d99938911b64ea1be5b37"
     }
   },
   {
     "id": "21030601",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Electro Samachurl",
     "type": "HILICHURL",
     "title": "Electro Samachurl",
@@ -20309,6 +20472,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -20432,7 +20596,7 @@
     },
     "liveComparison": {
       "liveHash": "1b5fd2d94c245f17c6d4e748ef6b772b53ec9b38c8f6a8753de7e0bfe825b0c3",
-      "currentHash": "a4c6c4393cd6f20592951ad5e8a9d1fe20f72721d0e5bc718ace2a2bb9473558"
+      "currentHash": "1b5fd2d94c245f17c6d4e748ef6b772b53ec9b38c8f6a8753de7e0bfe825b0c3"
     }
   },
   {
@@ -20652,7 +20816,7 @@
   },
   {
     "id": "21040201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Hydro Hilichurl Rogue",
     "type": "HILICHURL",
     "title": "Hydro Hilichurl Rogue",
@@ -20867,6 +21031,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -20907,6 +21072,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -20942,12 +21108,12 @@
     },
     "liveComparison": {
       "liveHash": "82f2becc0c7b9db1e43c398dc1e7611abefbac94326dd301cffefaab6edfeab4",
-      "currentHash": "a0cda55162c3531b04ba850762b312613a05a0488f3e39f5af0563dc7301a59e"
+      "currentHash": "82f2becc0c7b9db1e43c398dc1e7611abefbac94326dd301cffefaab6edfeab4"
     }
   },
   {
     "id": "22010101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Pyro Abyss Mage",
     "type": "ABYSS",
     "title": "Pyrochanter",
@@ -21221,6 +21387,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -21261,6 +21428,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -21296,12 +21464,12 @@
     },
     "liveComparison": {
       "liveHash": "25b70f857c08bd94f881336007dadf599682b72fd049b75f535e7fb0a00487fc",
-      "currentHash": "29210861c2a516deb7254cc29952327eeed734f9f0a838226d0860bf44062ea5"
+      "currentHash": "25b70f857c08bd94f881336007dadf599682b72fd049b75f535e7fb0a00487fc"
     }
   },
   {
     "id": "22010201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Cryo Abyss Mage",
     "type": "ABYSS",
     "title": "Cryochanter",
@@ -21575,6 +21743,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -21615,6 +21784,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -21655,6 +21825,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -21745,6 +21916,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -21780,12 +21952,12 @@
     },
     "liveComparison": {
       "liveHash": "5afd1a7803f2ce9f47b65f180f2bc0a4458525404e7ea84ee90190387b0e6051",
-      "currentHash": "d79d20230c7cc0c4078ecbb2995bff6d395bb43fcd5e5bfe754ca5c5c885285c"
+      "currentHash": "5afd1a7803f2ce9f47b65f180f2bc0a4458525404e7ea84ee90190387b0e6051"
     }
   },
   {
     "id": "22010301",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Hydro Abyss Mage",
     "type": "ABYSS",
     "title": "Hydrochanter",
@@ -22059,6 +22231,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -22149,6 +22322,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -22184,12 +22358,12 @@
     },
     "liveComparison": {
       "liveHash": "67df55a2a4aa94ee939954de5cbf4f0efbdbb890db6be6a735682095d986f039",
-      "currentHash": "011e36e4430a595aa0081888090c0e074baedb7f816d22f5025015391e9d4f53"
+      "currentHash": "67df55a2a4aa94ee939954de5cbf4f0efbdbb890db6be6a735682095d986f039"
     }
   },
   {
     "id": "22010401",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Electro Abyss Mage",
     "type": "ABYSS",
     "title": "Electrochanter",
@@ -22257,6 +22431,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -22397,6 +22572,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -22432,7 +22608,7 @@
     },
     "liveComparison": {
       "liveHash": "a928bdc4c4d0ccbffd0070b2db816d3a4e0e8abb0b4ab7557ce03bfadf473bed",
-      "currentHash": "3c3dd1abcf77b5104c51e163298381cdd8629b87862b6f97c098a4150430765a"
+      "currentHash": "a928bdc4c4d0ccbffd0070b2db816d3a4e0e8abb0b4ab7557ce03bfadf473bed"
     }
   },
   {
@@ -22661,7 +22837,7 @@
   },
   {
     "id": "22030101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Abyss Lector: Violet Lightning",
     "type": "ABYSS",
     "title": "Evangelist of Striking Thunder",
@@ -22820,6 +22996,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -22855,7 +23032,7 @@
     },
     "liveComparison": {
       "liveHash": "b9c6960e4ae884eea463caf535b9832dfbcf3e39e99dbc9576376b79f89860c4",
-      "currentHash": "c0d26d8a6929c998b9bec16a3e2fd5494a786ce059238c891b7582de8928c961"
+      "currentHash": "b9c6960e4ae884eea463caf535b9832dfbcf3e39e99dbc9576376b79f89860c4"
     }
   },
   {
@@ -23178,7 +23355,7 @@
   },
   {
     "id": "22040201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Thundercraven Rifthound Whelp",
     "type": "ABYSS",
     "title": "Rifthound Whelp",
@@ -23384,6 +23561,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -23419,12 +23597,12 @@
     },
     "liveComparison": {
       "liveHash": "35b4b5e67be3b493fcf3953feaea41027fd7f531e3efa8e372c58e25ac3ed078",
-      "currentHash": "9a3501443d0c49e7fc349284d2db60aa10a79d58c305febe297e1bd91a39062e"
+      "currentHash": "35b4b5e67be3b493fcf3953feaea41027fd7f531e3efa8e372c58e25ac3ed078"
     }
   },
   {
     "id": "22050101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Rockfond Rifthound",
     "type": "ABYSS",
     "title": "Rifthound",
@@ -23592,6 +23770,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -23627,12 +23806,12 @@
     },
     "liveComparison": {
       "liveHash": "211e2777758af66c85b10fb4c5398bcaefaf4fdc9f7e7d8e8dfc0ffe67756519",
-      "currentHash": "57a6592107297841ff70e255dec131fcddfe648c594400b5e6f2f924d0b38af2"
+      "currentHash": "211e2777758af66c85b10fb4c5398bcaefaf4fdc9f7e7d8e8dfc0ffe67756519"
     }
   },
   {
     "id": "22050201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Thundercraven Rifthound",
     "type": "ABYSS",
     "title": "Rifthound",
@@ -23847,6 +24026,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -23926,12 +24106,12 @@
     },
     "liveComparison": {
       "liveHash": "6375eab1bea275a1edd49b0bf193ee4f5bc845ab56a7235051e8710557e873b3",
-      "currentHash": "4ddc20afdb92035f7c053b1d5b4de2569b0203daa92bbffe38426d4930a65f85"
+      "currentHash": "6375eab1bea275a1edd49b0bf193ee4f5bc845ab56a7235051e8710557e873b3"
     }
   },
   {
     "id": "22060101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Golden Wolflord",
     "type": "ABYSS",
     "title": "Golden Wolflord",
@@ -24085,6 +24265,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -24120,7 +24301,7 @@
     },
     "liveComparison": {
       "liveHash": "e0838bf060cbd697e8a453c3596aa5839598bbec7de371086625339f15681a39",
-      "currentHash": "bbaa36f4958d1150c4782fa3e0e11de47cdaab56aa1e93d80761e2df60f7ecd4"
+      "currentHash": "e0838bf060cbd697e8a453c3596aa5839598bbec7de371086625339f15681a39"
     }
   },
   {
@@ -24641,7 +24822,7 @@
   },
   {
     "id": "22080101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Black Serpent Knight: Windcutter",
     "type": "ABYSS",
     "title": "\"Once Upon a Gentle Wind...\"",
@@ -24706,6 +24887,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -24741,12 +24923,12 @@
     },
     "liveComparison": {
       "liveHash": "e370aec18f786f904eb81d3b484b2c9fd8d56978c0d2ecde41397580a268d468",
-      "currentHash": "5f5a511d636287d12345176f0a864764d03948eec5562d28317df7a9d81369a4"
+      "currentHash": "e370aec18f786f904eb81d3b484b2c9fd8d56978c0d2ecde41397580a268d468"
     }
   },
   {
     "id": "22080201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Black Serpent Knight: Rockbreaker Ax",
     "type": "ABYSS",
     "title": "\"Once Stood Against the Tide of Dark Waters Like Bedrock...\"",
@@ -24811,6 +24993,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -24846,7 +25029,7 @@
     },
     "liveComparison": {
       "liveHash": "0e6375f15ad89c1e055b82ca3d793066babc436a3592927cc7ca302d3a5d7754",
-      "currentHash": "445599e4dbb10c8c579164463f7028d3df62dea6ef814ae038fb02e6af38597e"
+      "currentHash": "0e6375f15ad89c1e055b82ca3d793066babc436a3592927cc7ca302d3a5d7754"
     }
   },
   {
@@ -26201,7 +26384,7 @@
   },
   {
     "id": "22131001",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Wilderness Hunter",
     "type": "ABYSS",
     "title": "Shadow of the Wild Hunt",
@@ -26416,6 +26599,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -26451,12 +26635,12 @@
     },
     "liveComparison": {
       "liveHash": "a28baf128ae118d344dab85fa1c6da108104d0616b77ac716a547dce3e6711b3",
-      "currentHash": "d94e2cbdb29276e41a20ca971292ec843a921fd5275f0883da94975314620868"
+      "currentHash": "a28baf128ae118d344dab85fa1c6da108104d0616b77ac716a547dce3e6711b3"
     }
   },
   {
     "id": "22140101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Fisher of Hidden Depths",
     "type": "ABYSS",
     "title": "Eyrie Beast of Another World",
@@ -26671,6 +26855,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -26711,6 +26896,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -26798,6 +26984,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -26838,6 +27025,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -26873,12 +27061,12 @@
     },
     "liveComparison": {
       "liveHash": "cde8e7702179710a8bc99ddf0e76c5d74e16ce41833c375d7badb54807dcfbe0",
-      "currentHash": "b4bfaf7d8d55d45ad9976177db79c3449391a3ecebf5a3230e5098a30eb80ef6"
+      "currentHash": "cde8e7702179710a8bc99ddf0e76c5d74e16ce41833c375d7badb54807dcfbe0"
     }
   },
   {
     "id": "22150101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Lord of the Hidden Depths: Whisperer of Nightmares",
     "type": "ABYSS",
     "title": "Faceless, Boundless Overlord",
@@ -27092,6 +27280,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -27277,12 +27466,12 @@
     },
     "liveComparison": {
       "liveHash": "8aad60c84f94dd8de09f764312d98704e78182520ae37aa10c72ec5a8a3a2b0e",
-      "currentHash": "97a2c4f61806939850de25c8a5ba78d5f73a062ae23bbd2517628e13eb7c2f26"
+      "currentHash": "8aad60c84f94dd8de09f764312d98704e78182520ae37aa10c72ec5a8a3a2b0e"
     }
   },
   {
     "id": "23010101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Fatui Skirmisher - Cryogunner Legionnaire",
     "type": "FATUI",
     "title": "Fatui Skirmisher - Cryogunner Legionnaire",
@@ -27368,6 +27557,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -27403,7 +27593,7 @@
     },
     "liveComparison": {
       "liveHash": "dbd56d137ea5bac17526c7173ff338b635f1c22faeb399ca968e9bb56ffa780f",
-      "currentHash": "176e775e1fc319e985df99c30652122a61561a374e2d0e085d20d60b18538086"
+      "currentHash": "dbd56d137ea5bac17526c7173ff338b635f1c22faeb399ca968e9bb56ffa780f"
     }
   },
   {
@@ -27666,7 +27856,7 @@
   },
   {
     "id": "23010501",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Fatui Skirmisher - Anemoboxer Vanguard",
     "type": "FATUI",
     "title": "Fatui Skirmisher - Anemoboxer Vanguard",
@@ -27752,6 +27942,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -27787,12 +27978,12 @@
     },
     "liveComparison": {
       "liveHash": "cabbbb59aec79d33becd161d4ae2ae084247898fe2f5c0100cd73f8d0a74ade4",
-      "currentHash": "62388dd0cdd020d71e3f57be31ec960f334c3c3ba880389b3b4f5ec3501a56f6"
+      "currentHash": "cabbbb59aec79d33becd161d4ae2ae084247898fe2f5c0100cd73f8d0a74ade4"
     }
   },
   {
     "id": "23010601",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Fatui Skirmisher - Pyroslinger Bracer",
     "type": "FATUI",
     "title": "Fatui Skirmisher - Pyroslinger Bracer",
@@ -27878,6 +28069,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -27960,7 +28152,7 @@
     },
     "liveComparison": {
       "liveHash": "75354d67c6a35b1b80eaddf0ccb2f636a730eabdbd58d80e9f05443ca5dc5a68",
-      "currentHash": "aceff5da3b3689ea5350f72b0d61cbd4109cd4822e5e6177d473bbdc791a8d10"
+      "currentHash": "75354d67c6a35b1b80eaddf0ccb2f636a730eabdbd58d80e9f05443ca5dc5a68"
     }
   },
   {
@@ -28883,7 +29075,7 @@
   },
   {
     "id": "23070101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Oprichniki Line Trooper",
     "type": "FATUI",
     "title": "Oprichniki",
@@ -29045,6 +29237,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -29167,6 +29360,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -29207,6 +29401,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -29242,12 +29437,12 @@
     },
     "liveComparison": {
       "liveHash": "6a6e843cdea2074e27ec48f213afaa801036a5b99c47442d9af3a226f7a8bb45",
-      "currentHash": "47c5da72c4e598a317544be743f84ac3794c758d4e50a0b2f481ed828117db62"
+      "currentHash": "6a6e843cdea2074e27ec48f213afaa801036a5b99c47442d9af3a226f7a8bb45"
     }
   },
   {
     "id": "23072101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Oprichniki Support Trooper",
     "type": "FATUI",
     "title": "Oprichniki",
@@ -29327,6 +29522,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -29362,7 +29558,7 @@
     },
     "liveComparison": {
       "liveHash": "4368488fb8b6af909d399d95a81ae71a18583a253f8e48ea296d7b5b60afb596",
-      "currentHash": "9fd13ee223ac7480359a91def10e832bce8af57d74d8cf0ddc4a29c2e04af421"
+      "currentHash": "4368488fb8b6af909d399d95a81ae71a18583a253f8e48ea296d7b5b60afb596"
     }
   },
   {
@@ -29609,7 +29805,7 @@
   },
   {
     "id": "23076101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Oprichniki Medic",
     "type": "FATUI",
     "title": "Oprichniki",
@@ -29730,6 +29926,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -29765,7 +29962,7 @@
     },
     "liveComparison": {
       "liveHash": "e14a85b4238822a137afa09ea57dd7b7bd060de6f9c49e2adfd9215ff3299223",
-      "currentHash": "2faf12446c9a648cb0093e3ba6099c2ba0c89e652092def671128ab4a830e314"
+      "currentHash": "e14a85b4238822a137afa09ea57dd7b7bd060de6f9c49e2adfd9215ff3299223"
     }
   },
   {
@@ -29891,7 +30088,7 @@
   },
   {
     "id": "23079101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Oprichniki Fireblade Shock Trooper",
     "type": "FATUI",
     "title": "Oprichniki Fireblade Shock Trooper",
@@ -30024,6 +30221,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -30064,6 +30262,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -30104,6 +30303,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -30139,12 +30339,12 @@
     },
     "liveComparison": {
       "liveHash": "7b9df09561b1acd34bb2f4358d19fc249f0fb3f534854c575a7092e2208eb1d0",
-      "currentHash": "5ec841c85abc6c74c018c1c285d955e329ed444db48c4844ed9d696f1284c8ed"
+      "currentHash": "7b9df09561b1acd34bb2f4358d19fc249f0fb3f534854c575a7092e2208eb1d0"
     }
   },
   {
     "id": "23079201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Oprichniki Hailstorm Cannoneer",
     "type": "FATUI",
     "title": "Oprichniki",
@@ -30277,6 +30477,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -30317,6 +30518,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -30352,12 +30554,12 @@
     },
     "liveComparison": {
       "liveHash": "863d5f628ef5704eed5fe908c557d4f513fa92b776c769baf13b0cea5fb8f332",
-      "currentHash": "5f8c8e155f963166fbec74d72d7cfcdc83b0fdb0b582523184317cbf778ead55"
+      "currentHash": "863d5f628ef5704eed5fe908c557d4f513fa92b776c769baf13b0cea5fb8f332"
     }
   },
   {
     "id": "23079301",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Oprichniki Thunderblitz Gvardiya",
     "type": "FATUI",
     "title": "Oprichniki",
@@ -30490,6 +30692,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -30530,6 +30733,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -30565,7 +30769,7 @@
     },
     "liveComparison": {
       "liveHash": "6af1f43f658b5cf2a4b12132996e5a35a4665a9377c37097d0d2cdb57b3fb2ea",
-      "currentHash": "533db0948dd9b9389c9442ecc8aefd7b314d52b82ff66f0911c015147d8f1413"
+      "currentHash": "6af1f43f658b5cf2a4b12132996e5a35a4665a9377c37097d0d2cdb57b3fb2ea"
     }
   },
   {
@@ -31318,7 +31522,7 @@
   },
   {
     "id": "23085301",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Cutting Edge Fire Support Ground Effect Landcruiser",
     "type": "FATUI",
     "title": "Landcruiser",
@@ -31451,6 +31655,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -31533,7 +31738,7 @@
     },
     "liveComparison": {
       "liveHash": "80d28bf9fd5e5ae7139b97606c681e2ae47a6582ce51e665b9309f112df2361d",
-      "currentHash": "306be9f4837f3239ad5aac1a046585b6b4679ba12fd812ab48e6513c04dbaa63"
+      "currentHash": "80d28bf9fd5e5ae7139b97606c681e2ae47a6582ce51e665b9309f112df2361d"
     }
   },
   {
@@ -31772,7 +31977,7 @@
   },
   {
     "id": "24010101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Ruin Guard",
     "type": "AUTOMATRON",
     "title": "Ruin Guard",
@@ -31896,6 +32101,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -31936,6 +32142,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -31976,6 +32183,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -32016,6 +32224,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -32056,6 +32265,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -32096,6 +32306,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -32136,6 +32347,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_LITTLEMONSTER",
@@ -32276,6 +32488,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -32316,6 +32529,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -32356,6 +32570,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -32396,6 +32611,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -32436,6 +32652,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -32471,12 +32688,12 @@
     },
     "liveComparison": {
       "liveHash": "b2c3cb813a7ace7829769af14deb34441900d1a7379599058f4e376596abd8f6",
-      "currentHash": "4a0f7fd8a676de63c5ca76fe032f964f425be6af41fbab060faf8c587c56af3e"
+      "currentHash": "b2c3cb813a7ace7829769af14deb34441900d1a7379599058f4e376596abd8f6"
     }
   },
   {
     "id": "24010201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Ruin Hunter",
     "type": "AUTOMATRON",
     "title": "Ruin Hunter",
@@ -32600,6 +32817,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -32640,6 +32858,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -32680,6 +32899,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -32765,12 +32985,12 @@
     },
     "liveComparison": {
       "liveHash": "3d1445c173fa844ef89352dd138b2add98f461e56dfaf0e2e2e47d983db84d3a",
-      "currentHash": "4ad591b75509944a6ed1f2599d84ca6908425aa21e568e562d66ceae668ca3ee"
+      "currentHash": "3d1445c173fa844ef89352dd138b2add98f461e56dfaf0e2e2e47d983db84d3a"
     }
   },
   {
     "id": "24010301",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Ruin Grader",
     "type": "AUTOMATRON",
     "title": "Ruin Grader",
@@ -32894,6 +33114,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -33084,6 +33305,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -33124,6 +33346,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -33164,6 +33387,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -33299,7 +33523,7 @@
     },
     "liveComparison": {
       "liveHash": "9b7ed11aa2211c9f926bc110d71ba13f75eebdeae53e789158b3555ba1be6ab5",
-      "currentHash": "99488852cbd5ecbdbae9a800282dfc474095c1ddfa3355221b9905b1b8e08f6e"
+      "currentHash": "9b7ed11aa2211c9f926bc110d71ba13f75eebdeae53e789158b3555ba1be6ab5"
     }
   },
   {
@@ -33979,7 +34203,7 @@
   },
   {
     "id": "24020301",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Ruin Defender",
     "type": "AUTOMATRON",
     "title": "Ruin Defender",
@@ -34241,6 +34465,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -34323,7 +34548,7 @@
     },
     "liveComparison": {
       "liveHash": "a68dd36359bc2b71b678f05eaa3d3101445cffad6c9a4ca3ac6d9b3a0a3fba95",
-      "currentHash": "e5335fe33b1fd94e8088d1b22799bf703530ce62a674770819fe6cdaecd7d481"
+      "currentHash": "a68dd36359bc2b71b678f05eaa3d3101445cffad6c9a4ca3ac6d9b3a0a3fba95"
     }
   },
   {
@@ -35033,7 +35258,7 @@
   },
   {
     "id": "24030201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Ruin Drake: Earthguard",
     "type": "AUTOMATRON",
     "title": "Ruin Drake: Earthguard",
@@ -35154,6 +35379,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -35236,7 +35462,7 @@
     },
     "liveComparison": {
       "liveHash": "38b2d1134a7dad83406cc982d7b6aa444e1d301996385532695a2910090be6de",
-      "currentHash": "5b78f727cdb6dce648d2e4ad44758aae90660f2de6b359541613a9690627aa05"
+      "currentHash": "38b2d1134a7dad83406cc982d7b6aa444e1d301996385532695a2910090be6de"
     }
   },
   {
@@ -36005,7 +36231,7 @@
   },
   {
     "id": "24040301",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Primal Construct: Prospector",
     "type": "AUTOMATRON",
     "title": "Primal Construct: Prospector",
@@ -36129,6 +36355,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -36214,7 +36441,7 @@
     },
     "liveComparison": {
       "liveHash": "8f890710fdee8ab2dd0f73b9d64446efde7b08baa69e74375b955c75f17fc623",
-      "currentHash": "9aa006bdb31af28f3ebc758b94a24058aed5dc87e5efea84f30363b8f14d9ad7"
+      "currentHash": "8f890710fdee8ab2dd0f73b9d64446efde7b08baa69e74375b955c75f17fc623"
     }
   },
   {
@@ -36698,7 +36925,7 @@
   },
   {
     "id": "24068301",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Underwater Survey Mek",
     "type": "AUTOMATRON",
     "title": "Underwater Survey Mek",
@@ -36716,6 +36943,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -36751,12 +36979,12 @@
     },
     "liveComparison": {
       "liveHash": "c0832bff0a0e3dcab77821cf9e98d62069d7e87dcfd530824621c69fa46d84a2",
-      "currentHash": "c56e163d286b8b750eb3f350a20e1dae76185c8110cf4a5c23c3ed4a77222c52"
+      "currentHash": "c0832bff0a0e3dcab77821cf9e98d62069d7e87dcfd530824621c69fa46d84a2"
     }
   },
   {
     "id": "24068501",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Underwater Patrol Mek",
     "type": "AUTOMATRON",
     "title": "Underwater Patrol Mek",
@@ -36774,6 +37002,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -36809,12 +37038,12 @@
     },
     "liveComparison": {
       "liveHash": "6f65cb0c54de414b0901d933ca683af0b017dbb8f4d39bfeb06ece727c7a4a23",
-      "currentHash": "70e3e3b49a844faee99cf31752353029edbb1c1d9e53df0c42ce493ab4c8323d"
+      "currentHash": "6f65cb0c54de414b0901d933ca683af0b017dbb8f4d39bfeb06ece727c7a4a23"
     }
   },
   {
     "id": "24068601",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Deepwater Assault Mek",
     "type": "AUTOMATRON",
     "title": "Deepwater Assault Mek",
@@ -36832,6 +37061,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -36867,7 +37097,7 @@
     },
     "liveComparison": {
       "liveHash": "0a3d7aba43e68f6f88c55d750ee5ce3c479dce12b86a41d0ba64b2109648b8ac",
-      "currentHash": "253d4abcb548a01aae2f3b0c431f5d53bcc77f3e837ea605a99d2c1cea39b992"
+      "currentHash": "0a3d7aba43e68f6f88c55d750ee5ce3c479dce12b86a41d0ba64b2109648b8ac"
     }
   },
   {
@@ -37843,7 +38073,7 @@
   },
   {
     "id": "24090201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Secret Source Automaton: Configuration Device",
     "type": "AUTOMATRON",
     "title": "Secret Source Automaton: Configuration Device",
@@ -38057,6 +38287,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -38241,8 +38472,8 @@
       }
     },
     "liveComparison": {
-      "liveHash": "99767bcb7c499503835f07fb69eab0425de9d5d5e9718b06c4bc1a32a432fcbc",
-      "currentHash": "af25071f8a1a79a8ba5e8f44d9a1a522f6dcf19e90eefc07376e244e92549d21"
+      "liveHash": "31b4e2da57579faf9e03c57429c5c7381dd58684f9a47174baf1b0c79582ce37",
+      "currentHash": "31b4e2da57579faf9e03c57429c5c7381dd58684f9a47174baf1b0c79582ce37"
     }
   },
   {
@@ -38561,7 +38792,7 @@
   },
   {
     "id": "24090601",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Precursor's Secret Source Matrix of Overseer Network",
     "type": "AUTOMATRON",
     "title": "The Solitary Bringer of Light",
@@ -38679,6 +38910,7 @@
       }
     },
     "liveComparison": {
+      "liveHash": "accebc8625d7c102696d25b6eb01354554fb562e1b6d3cdf7e9b4d7e50a3c735",
       "currentHash": "accebc8625d7c102696d25b6eb01354554fb562e1b6d3cdf7e9b4d7e50a3c735"
     }
   },
@@ -39775,7 +40007,7 @@
   },
   {
     "id": "25010201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Treasure Hoarders: Scout",
     "type": "HUMAN",
     "title": "Treasure Hoarders: Scout",
@@ -40942,6 +41174,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -41358,6 +41591,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -41398,6 +41632,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -41438,6 +41673,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -41473,12 +41709,12 @@
     },
     "liveComparison": {
       "liveHash": "0e5ed21308aa82c143e3c55c1b93d390232f5ee946c431f38af2938063e2767a",
-      "currentHash": "88f42f2bd2069147e69c4abdf108d4d57bfc0603c771ed7333617afa3ea0fa05"
+      "currentHash": "0e5ed21308aa82c143e3c55c1b93d390232f5ee946c431f38af2938063e2767a"
     }
   },
   {
     "id": "25010301",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Treasure Hoarders: Pyro Potioneer",
     "type": "HUMAN",
     "title": "Treasure Hoarders: Pyro Potioneer",
@@ -41799,6 +42035,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -41839,6 +42076,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -41879,6 +42117,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -41919,6 +42158,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -41954,7 +42194,7 @@
     },
     "liveComparison": {
       "liveHash": "7d751a36043b32db74067691c69e5210c8ed6f58d2a62010e834abeab57a4df2",
-      "currentHash": "c3f12456c40ffb9288a6ea86b8ed48fc5f4271bf97fcbe9891479a49ae42f93c"
+      "currentHash": "7d751a36043b32db74067691c69e5210c8ed6f58d2a62010e834abeab57a4df2"
     }
   },
   {
@@ -42327,7 +42567,7 @@
   },
   {
     "id": "25010501",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Treasure Hoarders: Electro Potioneer",
     "type": "HUMAN",
     "title": "Treasure Hoarders: Electro Potioneer",
@@ -42554,6 +42794,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -42636,7 +42877,7 @@
     },
     "liveComparison": {
       "liveHash": "e239bfb92e7c5c297799c2f054fba27f6fd48e9c4c3d2200fc8287153ae5dcee",
-      "currentHash": "b79d81d2e6fd9423809a53837b9fdb3d6a27c50a6bb528af6685ca9100dd4ea2"
+      "currentHash": "e239bfb92e7c5c297799c2f054fba27f6fd48e9c4c3d2200fc8287153ae5dcee"
     }
   },
   {
@@ -43009,7 +43250,7 @@
   },
   {
     "id": "25010701",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Treasure Hoarders: Handyman",
     "type": "HUMAN",
     "title": "Treasure Hoarders: Handyman",
@@ -43198,6 +43439,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -43238,6 +43480,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -43278,6 +43521,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -43313,7 +43557,7 @@
     },
     "liveComparison": {
       "liveHash": "eefb35b044cc12c640cc49d3dc35b3e94654573b8752733f20d225e2099744a7",
-      "currentHash": "ac66f384156281b3ed4c0774073aa35bee91b7ae79ef1438aaf72d4504dbe9da"
+      "currentHash": "eefb35b044cc12c640cc49d3dc35b3e94654573b8752733f20d225e2099744a7"
     }
   },
   {
@@ -45286,7 +45530,7 @@
   },
   {
     "id": "25060101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Treasure Hoarders: Pugilist",
     "type": "HUMAN",
     "title": "Treasure Hoarders: Pugilist",
@@ -45475,6 +45719,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -45965,6 +46210,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -46050,7 +46296,7 @@
     },
     "liveComparison": {
       "liveHash": "6b89934b99f627f1df6a1facb9dcc949bfc5c70dcf2695530bdf20e52d467c56",
-      "currentHash": "4564f43771c72f7ebe4d4d9fc2c195606d65a751012c8ce25d3d1bbfa6c508ba"
+      "currentHash": "6b89934b99f627f1df6a1facb9dcc949bfc5c70dcf2695530bdf20e52d467c56"
     }
   },
   {
@@ -46565,7 +46811,7 @@
   },
   {
     "id": "25080201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Nobushi: Hitsukeban",
     "type": "HUMAN",
     "title": "Nobushi: Hitsukeban",
@@ -46648,6 +46894,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -46771,12 +47018,12 @@
     },
     "liveComparison": {
       "liveHash": "1a4c72ac3758ae87438eb92574e02fb2baf2cd065a8b20298ac0928091262b1d",
-      "currentHash": "44750be8d05069b44f8484d119afea07b6ab35ec68a1afcd188a03ce742add2a"
+      "currentHash": "1a4c72ac3758ae87438eb92574e02fb2baf2cd065a8b20298ac0928091262b1d"
     }
   },
   {
     "id": "25080301",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Nobushi: Kikouban",
     "type": "HUMAN",
     "title": "Nobushi: Kikouban",
@@ -46947,6 +47194,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -46987,6 +47235,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -47027,6 +47276,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -47062,12 +47312,12 @@
     },
     "liveComparison": {
       "liveHash": "be4b22dcb5e54acbce90e70bec3e8c8fa4dd063bbdb1426e416b0dd9d1c5cc48",
-      "currentHash": "df2d6294e1c1c187a64ca215792cf447b30fdde05728f52447d28f7598f18b47"
+      "currentHash": "be4b22dcb5e54acbce90e70bec3e8c8fa4dd063bbdb1426e416b0dd9d1c5cc48"
     }
   },
   {
     "id": "25090101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Maguu Kenki",
     "type": "AUTOMATRON",
     "title": "Maguu Kenki",
@@ -47391,6 +47641,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -47431,6 +47682,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -47471,6 +47723,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -47506,12 +47759,12 @@
     },
     "liveComparison": {
       "liveHash": "85115404d4b898339b220e5788c929a5ce682d783d8db2b1311b48175bbc5dfa",
-      "currentHash": "f1566c9b2c060c9a511f6f5ef45634d0599a41cb8a4ddb0c75d1aab0fd5f1ffe"
+      "currentHash": "85115404d4b898339b220e5788c929a5ce682d783d8db2b1311b48175bbc5dfa"
     }
   },
   {
     "id": "25100101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Kairagi: Dancing Thunder",
     "type": "HUMAN",
     "title": "Kairagi: Dancing Thunder",
@@ -47600,6 +47853,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -47640,6 +47894,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -47830,6 +48085,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -47870,6 +48126,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -47910,6 +48167,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -47945,12 +48203,12 @@
     },
     "liveComparison": {
       "liveHash": "6c7607854974cd4b540d668089df1a34a8355158caf69cd60380296417e8d947",
-      "currentHash": "159a85304b95c81ce93c74d1a513f8151e46b687bcf84cb5db9c498efd8be170"
+      "currentHash": "6c7607854974cd4b540d668089df1a34a8355158caf69cd60380296417e8d947"
     }
   },
   {
     "id": "25100201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Kairagi: Fiery Might",
     "type": "HUMAN",
     "title": "Kairagi: Fiery Might",
@@ -48039,6 +48297,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -48079,6 +48338,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -48269,6 +48529,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -48309,6 +48570,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -48349,6 +48611,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -48389,6 +48652,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -48424,7 +48688,7 @@
     },
     "liveComparison": {
       "liveHash": "5ef93b6f2a2c32d917e7d6e2b48952f771f4c73f8513a0b563eb1f3788c6d27d",
-      "currentHash": "1918ce74760a8f08525019b7f4215a09cec41f68716e224a37652bcb143750ff"
+      "currentHash": "5ef93b6f2a2c32d917e7d6e2b48952f771f4c73f8513a0b563eb1f3788c6d27d"
     }
   },
   {
@@ -51088,7 +51352,7 @@
   },
   {
     "id": "25310101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Eremite Desert Clearwater",
     "type": "HUMAN",
     "title": "Eremite Desert Clearwater",
@@ -51324,6 +51588,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -51364,6 +51629,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -51404,6 +51670,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -51439,12 +51706,12 @@
     },
     "liveComparison": {
       "liveHash": "350a5532285eccb16d49027e10b67bd4d182fd86587335cdc526933faa670dd5",
-      "currentHash": "ff5561b6f1af891d9fefc5bc687cc5e959a0b57073e996c16289d5fe48278fab"
+      "currentHash": "350a5532285eccb16d49027e10b67bd4d182fd86587335cdc526933faa670dd5"
     }
   },
   {
     "id": "25310201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Eremite Sunfrost",
     "type": "HUMAN",
     "title": "Eremite Sunfrost",
@@ -51683,6 +51950,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -51723,6 +51991,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -51758,12 +52027,12 @@
     },
     "liveComparison": {
       "liveHash": "940bbf2823ca0a6146f519b2b5c4e5720e89ff263bb384080bc3d54bb007205a",
-      "currentHash": "e02838790a6212014acbd0a13ddf726c9cd893444e104f958b45f59490d3db9d"
+      "currentHash": "940bbf2823ca0a6146f519b2b5c4e5720e89ff263bb384080bc3d54bb007205a"
     }
   },
   {
     "id": "25310301",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Eremite Daythunder",
     "type": "HUMAN",
     "title": "Eremite Daythunder",
@@ -51952,6 +52221,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -51987,12 +52257,12 @@
     },
     "liveComparison": {
       "liveHash": "8a43d1181424a2a369a038dfc5145d3262ce455ebae43a02e534f19a9420920e",
-      "currentHash": "01fc88de38e7c4daa6697cd5fe55916c1304ec20d849273ca5421e1b8f0657c9"
+      "currentHash": "8a43d1181424a2a369a038dfc5145d3262ce455ebae43a02e534f19a9420920e"
     }
   },
   {
     "id": "25410101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Eremite Stone Enchanter",
     "type": "HUMAN",
     "title": "Eremite Galehunter",
@@ -52081,6 +52351,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -52216,12 +52487,12 @@
     },
     "liveComparison": {
       "liveHash": "79a618ea673566418a6fa8f0f62053e1df1ea3b6b5b5ba8f0b6dd1c1b0d3e048",
-      "currentHash": "d860ab020c8d987e5b02facf12c551c2e7fd6d40f26f5cae74bb0d6b7d19c7fd"
+      "currentHash": "79a618ea673566418a6fa8f0f62053e1df1ea3b6b5b5ba8f0b6dd1c1b0d3e048"
     }
   },
   {
     "id": "25410201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Eremite Galehunter",
     "type": "HUMAN",
     "title": "Eremite Stone Enchanter",
@@ -52439,6 +52710,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -52474,12 +52746,12 @@
     },
     "liveComparison": {
       "liveHash": "17676d0938cd8ceaa067f3605b664b6bb7bddb2f9953beb731ecc3ac1d329512",
-      "currentHash": "3ddf77595f9989ef8207ac4c5c3c88d8d167c189f842cedaaab3d0d37e024f07"
+      "currentHash": "17676d0938cd8ceaa067f3605b664b6bb7bddb2f9953beb731ecc3ac1d329512"
     }
   },
   {
     "id": "25410301",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Eremite Scorching Loremaster",
     "type": "HUMAN",
     "title": "Eremite Scorching Loremaster",
@@ -52550,6 +52822,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -52737,6 +53010,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -52777,6 +53051,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -52817,6 +53092,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -52852,7 +53128,7 @@
     },
     "liveComparison": {
       "liveHash": "1b327d378eef3eb674d0cbb35c6ad10c0c975226790cac09bc30bcded77fcfd6",
-      "currentHash": "9789181657525a2219c16422988ce54cf1ac67998374054de26d8b3df96e6ed4"
+      "currentHash": "1b327d378eef3eb674d0cbb35c6ad10c0c975226790cac09bc30bcded77fcfd6"
     }
   },
   {
@@ -55752,7 +56028,7 @@
   },
   {
     "id": "25510201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Tepetlisaurus Warrior: Rockbreaker Blade",
     "type": "HUMAN",
     "title": "Tepetlisaurus Warrior: Rockbreaker Blade",
@@ -55932,6 +56208,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -55967,7 +56244,7 @@
     },
     "liveComparison": {
       "liveHash": "9fbf871ac7b52dae1ec1b7d0c95cef4ce03ac63c1caebbfc1a026139e0257cc7",
-      "currentHash": "025bf85f473d3e64791fe1663c2e02599005c4843d1be550689212bfffd9b587"
+      "currentHash": "9fbf871ac7b52dae1ec1b7d0c95cef4ce03ac63c1caebbfc1a026139e0257cc7"
     }
   },
   {
@@ -56418,7 +56695,7 @@
   },
   {
     "id": "25510601",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Koholasaurus Warrior: Reefsplitter",
     "type": "HUMAN",
     "title": "Koholasaurus Warrior: Reefsplitter",
@@ -56551,6 +56828,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -56586,12 +56864,12 @@
     },
     "liveComparison": {
       "liveHash": "6df3426ea384e729884375e8bf61cf271fe38b0e54a9f11c16ce566f47169edc",
-      "currentHash": "41f4ac2dadd70fd56c2b85ec36f051ff2f4d82388c41645b311f0f1ee6bf8b58"
+      "currentHash": "6df3426ea384e729884375e8bf61cf271fe38b0e54a9f11c16ce566f47169edc"
     }
   },
   {
     "id": "25510701",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Qucusaurus Warrior: Heartstar Hammer",
     "type": "HUMAN",
     "title": "Qucusaurus Warrior: Heartstar Hammer",
@@ -56677,6 +56955,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -56712,12 +56991,12 @@
     },
     "liveComparison": {
       "liveHash": "223fc5a21a3e592944ccfcb6455c3397e57e53729f28beea2669377f4b7aa767",
-      "currentHash": "9639634fd9e99fc1a547e5c033ec416471b2914ba68b0d11295829e4f90f98f8"
+      "currentHash": "223fc5a21a3e592944ccfcb6455c3397e57e53729f28beea2669377f4b7aa767"
     }
   },
   {
     "id": "25510801",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Qucusaurus Warrior: Blazing Sky",
     "type": "HUMAN",
     "title": "Qucusaurus Warrior: Blazing Sky",
@@ -56829,6 +57108,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -56864,12 +57144,12 @@
     },
     "liveComparison": {
       "liveHash": "006ab4969db407e4b8ffb936c41ddcdeb9ce8e9e8471765a68338e199c07dfa5",
-      "currentHash": "a7b6c0616d0e8829811bb5bfbe99625bc60406fa85f2b7ce86dede8d54e79fc4"
+      "currentHash": "006ab4969db407e4b8ffb936c41ddcdeb9ce8e9e8471765a68338e199c07dfa5"
     }
   },
   {
     "id": "25510901",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Iktomisaurus Warrior: Icy Tidebearer",
     "type": "HUMAN",
     "title": "Iktomisaurus Warrior: Icy Tidebearer",
@@ -57002,6 +57282,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -57037,7 +57318,7 @@
     },
     "liveComparison": {
       "liveHash": "cac42e51743f063e0bf0802a4daf5b3fa5ffb7b690674a84156212ee384baa08",
-      "currentHash": "0782e004bbf5fe0c6ed395d610348e8d5e063c1d058f28f8beb845b7b43c8871"
+      "currentHash": "cac42e51743f063e0bf0802a4daf5b3fa5ffb7b690674a84156212ee384baa08"
     }
   },
   {
@@ -57175,7 +57456,7 @@
   },
   {
     "id": "25511101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Tatankasaurus Warrior: Skybreaker",
     "type": "HUMAN",
     "title": "Tatankasaurus Warrior: Skybreaker",
@@ -57240,6 +57521,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -57275,7 +57557,7 @@
     },
     "liveComparison": {
       "liveHash": "745824f3c7d934f4251b589cf47a35e7a8c1b0b78d55abb48040601712da5b02",
-      "currentHash": "e871ad69fdd9d8e1b7e9abe273291582a64646fd6412867fe34c8909cd6694fb"
+      "currentHash": "745824f3c7d934f4251b589cf47a35e7a8c1b0b78d55abb48040601712da5b02"
     }
   },
   {
@@ -57345,7 +57627,7 @@
   },
   {
     "id": "25520101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Wayward Hermetic Spiritspeaker",
     "type": "HUMAN",
     "title": "Wayward Hermetic Spiritspeaker",
@@ -57509,6 +57791,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -57544,12 +57827,12 @@
     },
     "liveComparison": {
       "liveHash": "1dd6a4af30e227255accd143e3cd699c152e2146d32911383134d76238242ff0",
-      "currentHash": "4ea1f7cb3fe9cabe01bfc82efae72e7234253bc15ea683551fea75653ffe5c77"
+      "currentHash": "1dd6a4af30e227255accd143e3cd699c152e2146d32911383134d76238242ff0"
     }
   },
   {
     "id": "26010101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Cryo Whopperflower",
     "type": "BEAST",
     "title": "Cryo Whopperflower",
@@ -57838,6 +58121,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -57873,7 +58157,7 @@
     },
     "liveComparison": {
       "liveHash": "18f20d624c4e67747f6fcaa519e41a29a9f3005129301781d4d000ddb54a3bf0",
-      "currentHash": "720acbc7e2c3dc546c063f6d933c8682e9266dc5aa35015d2978363a82e20812"
+      "currentHash": "18f20d624c4e67747f6fcaa519e41a29a9f3005129301781d4d000ddb54a3bf0"
     }
   },
   {
@@ -58848,7 +59132,7 @@
   },
   {
     "id": "26030101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Geovishap Hatchling",
     "type": "BEAST",
     "title": "Geovishap Hatchling",
@@ -59016,6 +59300,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -59056,6 +59341,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -59096,6 +59382,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -59131,12 +59418,12 @@
     },
     "liveComparison": {
       "liveHash": "757ccc30efbd72d2ebbe9126a3624ec19eeb7ec98a62788a08c5b629a37fecfe",
-      "currentHash": "86773e903b4acf6c6b45d957888b030894a64a98b24d8d1a2cb65b24ee398e6c"
+      "currentHash": "757ccc30efbd72d2ebbe9126a3624ec19eeb7ec98a62788a08c5b629a37fecfe"
     }
   },
   {
     "id": "26040101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Geovishap",
     "type": "BEAST",
     "title": "Geovishap",
@@ -59398,6 +59685,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -59809,7 +60097,7 @@
     },
     "liveComparison": {
       "liveHash": "1d0c6fbfa8c311298336ec79605e0caf36f6d6c6b4658ae36a78d6987d53b4f5",
-      "currentHash": "5bf47d0f25d4a9901ed05f8477662dcfd9eb1c51b16e8a793a4d447d6713bd37"
+      "currentHash": "1d0c6fbfa8c311298336ec79605e0caf36f6d6c6b4658ae36a78d6987d53b4f5"
     }
   },
   {
@@ -60070,7 +60358,7 @@
   },
   {
     "id": "26050601",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Primordial Bathysmal Vishap",
     "type": "BEAST",
     "title": "Primordial Bathysmal Vishap",
@@ -60194,6 +60482,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -60329,7 +60618,7 @@
     },
     "liveComparison": {
       "liveHash": "344b0f0e159eedef61a486d1cae8736720ac3bfc673df010d28562313cb70071",
-      "currentHash": "d35a9bad8146be5a6a553f9182180f594a5c2aece9d967d2597a52c26e427f3f"
+      "currentHash": "344b0f0e159eedef61a486d1cae8736720ac3bfc673df010d28562313cb70071"
     }
   },
   {
@@ -60874,7 +61163,7 @@
   },
   {
     "id": "26060101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Electro Cicin",
     "type": "BEAST",
     "title": "Electro Cicin",
@@ -60936,6 +61225,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -60976,6 +61266,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -61016,6 +61307,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -61051,12 +61343,12 @@
     },
     "liveComparison": {
       "liveHash": "de83f8682373932b5a662c37855edb521bd98fe0645ca3628ffe8ef8415cb705",
-      "currentHash": "e3faef0436f140a8665ef13dde2ee812e35b467959a5aba0a3d710735b082a53"
+      "currentHash": "de83f8682373932b5a662c37855edb521bd98fe0645ca3628ffe8ef8415cb705"
     }
   },
   {
     "id": "26060201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Hydro Cicin",
     "type": "BEAST",
     "title": "Hydro Cicin",
@@ -61118,6 +61410,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -61158,6 +61451,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -61198,6 +61492,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -61233,7 +61528,7 @@
     },
     "liveComparison": {
       "liveHash": "f49b9f763895ab294829ed2a19f3ea6777d6d99d928144e9f3354fdfd1ec50a3",
-      "currentHash": "6091b1018cefcd467edd1fdaca0d80d064620af003a24814936d3545cfa2061e"
+      "currentHash": "f49b9f763895ab294829ed2a19f3ea6777d6d99d928144e9f3354fdfd1ec50a3"
     }
   },
   {
@@ -61300,7 +61595,7 @@
   },
   {
     "id": "26090101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Floating Hydro Fungus",
     "type": "BEAST",
     "title": "Floating Hydro Fungus",
@@ -61436,6 +61731,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -61476,6 +61772,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -61516,6 +61813,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -61556,6 +61854,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -61596,6 +61895,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -61631,12 +61931,12 @@
     },
     "liveComparison": {
       "liveHash": "adbbc746e9689907d23d09db4c9986dff17ed2653b726991ab40f56745ac53b6",
-      "currentHash": "50902c5f3cc94b312a85b61832012157eadea65fec9a113033d733ee0cecbf6c"
+      "currentHash": "adbbc746e9689907d23d09db4c9986dff17ed2653b726991ab40f56745ac53b6"
     }
   },
   {
     "id": "26090201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Floating Dendro Fungus",
     "type": "BEAST",
     "title": "Floating Dendro Fungus",
@@ -61772,6 +62072,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -61853,6 +62154,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -61893,6 +62195,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -61928,12 +62231,12 @@
     },
     "liveComparison": {
       "liveHash": "e0b5dca8c8d2cc596dda92f9a129a6bbfc55df79aa8abd2acd0d17d6dafd925e",
-      "currentHash": "e2023ed905415f66e134b840268045cf5c7dcb3b255a4ca5ce8899ae0f795fc1"
+      "currentHash": "e0b5dca8c8d2cc596dda92f9a129a6bbfc55df79aa8abd2acd0d17d6dafd925e"
     }
   },
   {
     "id": "26090301",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Floating Anemo Fungus",
     "type": "BEAST",
     "title": "Floating Anemo Fungus",
@@ -62069,6 +62372,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -62109,6 +62413,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -62149,6 +62454,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -62189,6 +62495,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -62229,6 +62536,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -62269,6 +62577,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -62304,12 +62613,12 @@
     },
     "liveComparison": {
       "liveHash": "035a7a473fc6663beb695d96979938996dae2027b0c44d1673f87270649e997d",
-      "currentHash": "2980b0fe3149db134f676b08fc5553bcfbd174558b232f67933bc9200888d151"
+      "currentHash": "035a7a473fc6663beb695d96979938996dae2027b0c44d1673f87270649e997d"
     }
   },
   {
     "id": "26090401",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Whirling Electro Fungus",
     "type": "BEAST",
     "title": "Whirling Electro Fungus",
@@ -62445,6 +62754,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -62485,6 +62795,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -62525,6 +62836,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -62560,12 +62872,12 @@
     },
     "liveComparison": {
       "liveHash": "d190e518b200b073eb27a889bf9ae49a8b89c1ee781c5516b7a2df046784d1a5",
-      "currentHash": "f523b87b57b47e3bcc9ead70dd31e8b924c8f9e83b356c331b127b62949dbc81"
+      "currentHash": "d190e518b200b073eb27a889bf9ae49a8b89c1ee781c5516b7a2df046784d1a5"
     }
   },
   {
     "id": "26090501",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Whirling Cryo Fungus",
     "type": "BEAST",
     "title": "Whirling Cryo Fungus",
@@ -62701,6 +63013,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -62741,6 +63054,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -62781,6 +63095,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -62816,12 +63131,12 @@
     },
     "liveComparison": {
       "liveHash": "5bec012077a67931be2189ae411a5ef74491becebd7c158aacf95b806b00c7c7",
-      "currentHash": "a40769600ca402c774aa9debf03c7704f4aa517332fe3ff9478e86eb19dc6f30"
+      "currentHash": "5bec012077a67931be2189ae411a5ef74491becebd7c158aacf95b806b00c7c7"
     }
   },
   {
     "id": "26090601",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Whirling Pyro Fungus",
     "type": "BEAST",
     "title": "Whirling Pyro Fungus",
@@ -62957,6 +63272,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -62997,6 +63313,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -63037,6 +63354,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -63072,12 +63390,12 @@
     },
     "liveComparison": {
       "liveHash": "7a5665b9bcccc1a22a8a1c5306a56963af34a24cc3e1ee5f9e05be40c3cbffed",
-      "currentHash": "2c3a883704161046734ca657bdf091dbfece57d347f4aaa2975874ea413bf840"
+      "currentHash": "7a5665b9bcccc1a22a8a1c5306a56963af34a24cc3e1ee5f9e05be40c3cbffed"
     }
   },
   {
     "id": "26090701",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Stretchy Pyro Fungus",
     "type": "BEAST",
     "title": "Stretchy Pyro Fungus",
@@ -63213,6 +63531,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -63253,6 +63572,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -63288,12 +63608,12 @@
     },
     "liveComparison": {
       "liveHash": "9ab6694a059a4d368aa01ae797a5c6e1ca29514820e5e040d5a94e6c76db9585",
-      "currentHash": "52a9f4dcf36a58a0e64c697663a4cd51f458a061b4f321931e23a710fd8e6c8c"
+      "currentHash": "9ab6694a059a4d368aa01ae797a5c6e1ca29514820e5e040d5a94e6c76db9585"
     }
   },
   {
     "id": "26090801",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Stretchy Anemo Fungus",
     "type": "BEAST",
     "title": "Stretchy Anemo Fungus",
@@ -63429,6 +63749,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -63469,6 +63790,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -63504,12 +63826,12 @@
     },
     "liveComparison": {
       "liveHash": "6590488693ea75945f181bdab6bf528fa13d23aa77499f3e065bed56919263ea",
-      "currentHash": "574fb73ddc16c02dbe3a6a12d1f924974e0db4604e8798c29eee6218e641235e"
+      "currentHash": "6590488693ea75945f181bdab6bf528fa13d23aa77499f3e065bed56919263ea"
     }
   },
   {
     "id": "26090901",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Stretchy Geo Fungus",
     "type": "BEAST",
     "title": "Stretchy Geo Fungus",
@@ -63645,6 +63967,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -63685,6 +64008,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -63720,12 +64044,12 @@
     },
     "liveComparison": {
       "liveHash": "abb6228112dd175ed61d971b6907df1a3ae022f4cb8b7e663bb10b8878534381",
-      "currentHash": "74b72d7fe0471213591eb2276cc1873215c422ffa6f3abd6e468a8c47f681a93"
+      "currentHash": "abb6228112dd175ed61d971b6907df1a3ae022f4cb8b7e663bb10b8878534381"
     }
   },
   {
     "id": "26091001",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Stretchy Electro Fungus",
     "type": "BEAST",
     "title": "Stretchy Electro Fungus",
@@ -63825,6 +64149,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -63865,6 +64190,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -63900,12 +64226,12 @@
     },
     "liveComparison": {
       "liveHash": "f470f83a3f34a9987346c9e4afe2fa5e6568e81eb779662609a41bf9f8b6d697",
-      "currentHash": "a02ec62fc3e7010c4d89f2fa560d9e9bb7b142361d2264960a5c630afc99639e"
+      "currentHash": "f470f83a3f34a9987346c9e4afe2fa5e6568e81eb779662609a41bf9f8b6d697"
     }
   },
   {
     "id": "26100101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Consecrated Horned Crocodile",
     "type": "BEAST",
     "title": "Vast Current: Consecrated Horned Crocodile",
@@ -63970,6 +64296,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -64005,7 +64332,7 @@
     },
     "liveComparison": {
       "liveHash": "dcef4bcfaa8a62ecd21bb5633c59a5a2c80414589cc83953c0166d104efaefac",
-      "currentHash": "4cb30faab32ddbcf2c62fe6816e742cc938bb819e330692930ab6937a5b9928b"
+      "currentHash": "dcef4bcfaa8a62ecd21bb5633c59a5a2c80414589cc83953c0166d104efaefac"
     }
   },
   {
@@ -64075,7 +64402,7 @@
   },
   {
     "id": "26100301",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Consecrated Red Vulture",
     "type": "BEAST",
     "title": "Conflagration: Consecrated Red Vulture",
@@ -64196,6 +64523,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -64236,6 +64564,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -64271,12 +64600,12 @@
     },
     "liveComparison": {
       "liveHash": "af7d5c4649563b3a15b1c1f0472cd53bf02226407b9dc9cde9e0872dd0312ee9",
-      "currentHash": "9c5b11813eaab5d96e9cfc49ec883b0d574743f38b4e4405e3b7388edff08b4e"
+      "currentHash": "af7d5c4649563b3a15b1c1f0472cd53bf02226407b9dc9cde9e0872dd0312ee9"
     }
   },
   {
     "id": "26100401",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Consecrated Scorpion",
     "type": "BEAST",
     "title": "Tempest: Consecrated Scorpion",
@@ -64397,6 +64726,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -64437,6 +64767,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -64472,7 +64803,7 @@
     },
     "liveComparison": {
       "liveHash": "7f3b7ebea0d96064f242dddef0398299ecd0bef434af7569ea0856a93e23c4ef",
-      "currentHash": "6e39d64561f93cab3e34d36e5249fb1afca3c04574b616b286ce4551bdd30740"
+      "currentHash": "7f3b7ebea0d96064f242dddef0398299ecd0bef434af7569ea0856a93e23c4ef"
     }
   },
   {
@@ -64985,7 +65316,7 @@
   },
   {
     "id": "26120201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Winged Cryoshroom",
     "type": "BEAST",
     "title": "Winged Cryoshroom",
@@ -65127,6 +65458,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -65167,6 +65499,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -65202,7 +65535,7 @@
     },
     "liveComparison": {
       "liveHash": "7f3150895d9ce0970febee5caec74c30665286f80ea280d7705fd4b0ea5cd56a",
-      "currentHash": "796fee76c6beea55b19e3328581222eb7f459e1038b897a218cdaf4562eb98db"
+      "currentHash": "7f3150895d9ce0970febee5caec74c30665286f80ea280d7705fd4b0ea5cd56a"
     }
   },
   {
@@ -65733,7 +66066,7 @@
   },
   {
     "id": "26140101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Legatus Golem",
     "type": "BEAST",
     "title": "\"Statue of Marble and Brass\"",
@@ -65917,6 +66250,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -65957,6 +66291,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -65997,6 +66332,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -66082,7 +66418,7 @@
     },
     "liveComparison": {
       "liveHash": "e1ad0d5a747b382dae10fdc7fe0c1a63d4506499ab5fe04e0ab1106efde18813",
-      "currentHash": "82b5c41e2fcaf042ea4821b0ee6305d162d04d516d106ae0d0e84b2cd4b30d94"
+      "currentHash": "e1ad0d5a747b382dae10fdc7fe0c1a63d4506499ab5fe04e0ab1106efde18813"
     }
   },
   {
@@ -66211,7 +66547,7 @@
   },
   {
     "id": "26151001",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Hunter's Ray",
     "type": "BEAST",
     "title": "Hunter's Ray",
@@ -66250,6 +66586,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -66290,6 +66627,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -66330,6 +66668,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -66370,6 +66709,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -66404,13 +66744,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "01935cb71c752191c6c2add175ecea235a2dcb7378a7bced71accc639ae757d8",
-      "currentHash": "e8b6e5fc80135fb0370d342169e6954d84cccc298ef57206aa10ec9517c0ed7f"
+      "liveHash": "e3c8f04a9835907a8d5ba6544ba9410ef074359aa5f89e8298f0a09780feddcd",
+      "currentHash": "e3c8f04a9835907a8d5ba6544ba9410ef074359aa5f89e8298f0a09780feddcd"
     }
   },
   {
     "id": "26151101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Hunter's Ray",
     "type": "BEAST",
     "title": "Hunter's Ray",
@@ -66449,6 +66789,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -66489,6 +66830,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -66529,6 +66871,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -66569,6 +66912,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -66603,13 +66947,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "ab3f7dde369c1e2255809c5de516f45b68f175071536291cd02f7e1635589de1",
-      "currentHash": "3da4788c99396269ea6b41d0f3f758a76256abff061ff014a3cae0433aca70e1"
+      "liveHash": "f9a9b3a8cf5963b4a1644b5f22d03af8b24753a38042c694934d5fcdb3d9e88a",
+      "currentHash": "f9a9b3a8cf5963b4a1644b5f22d03af8b24753a38042c694934d5fcdb3d9e88a"
     }
   },
   {
     "id": "26152101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Armored Crab",
     "type": "BEAST",
     "title": "Armored Crab",
@@ -66648,6 +66992,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -66729,6 +67074,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -66763,13 +67109,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "38e4827f668521ce30acabb650d3f46e4da9bb03aebc9f29f6981cfde8501d57",
-      "currentHash": "ad15c65f354ce8d839b55cd63f5921ad7b8ecc25561e3638f1f252149447b4ec"
+      "liveHash": "3eb03c8ed9283e774d69b12538b57415caab9d57ff214efb9a2997ef285cdbc4",
+      "currentHash": "3eb03c8ed9283e774d69b12538b57415caab9d57ff214efb9a2997ef285cdbc4"
     }
   },
   {
     "id": "26152201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Armored Crab",
     "type": "BEAST",
     "title": "Armored Crab",
@@ -66808,6 +67154,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -66889,6 +67236,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -66923,13 +67271,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "fb0bcc0ae6a32bdc778ed3d923edec5ca88c393a72b3a863aed96ac5a5276540",
-      "currentHash": "b10d9288e16e16e90bb91929e4da9e7c6d335b4e1421e24e0aac596f2333afc9"
+      "liveHash": "9deeb14201485d3854de05699c65ba307af426967793c9095f53348bedba5318",
+      "currentHash": "9deeb14201485d3854de05699c65ba307af426967793c9095f53348bedba5318"
     }
   },
   {
     "id": "26153101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Blubberbeast",
     "type": "BEAST",
     "title": "Blubberbeast",
@@ -66968,6 +67316,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -67008,6 +67357,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -67130,6 +67480,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -67170,6 +67521,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -67204,13 +67556,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "b8bceafe001a7d0f7b05f43625ab77c7fefbd6c449d1ede8aab524158273b7c9",
-      "currentHash": "7901e8b1c4c04b85c8a4b40a81b384ffcada0f02924b10f20c8fdfa4e6a02b6d"
+      "liveHash": "c36203270e49e088da579e525064757d3f761e799c0a1ed3131a0684f1549f95",
+      "currentHash": "c36203270e49e088da579e525064757d3f761e799c0a1ed3131a0684f1549f95"
     }
   },
   {
     "id": "26154101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Hat Jellyfish",
     "type": "BEAST",
     "title": "Hat Jellyfish",
@@ -67249,6 +67601,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -67289,6 +67642,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -67329,6 +67683,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -67369,6 +67724,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -67403,13 +67759,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "4f230d52677ddfe4e365f8d682d780a907a112383eef7b35b73b9df7949e726f",
-      "currentHash": "49f71f33f0319778bb40cb0a0d43553f24da00e4072f90864b85c5f28266286c"
+      "liveHash": "50e16edce8988183c78b93d7e44741adf6c3b0f627af2eda1f114890287f0725",
+      "currentHash": "50e16edce8988183c78b93d7e44741adf6c3b0f627af2eda1f114890287f0725"
     }
   },
   {
     "id": "26154201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Hat Jellyfish",
     "type": "BEAST",
     "title": "Hat Jellyfish",
@@ -67448,6 +67804,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -67488,6 +67845,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -67528,6 +67886,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -67568,6 +67927,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -67602,13 +67962,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "f8237169bc5bc3ba05b36d1013b33477c68d25d2463c7336173da13d952109c0",
-      "currentHash": "688aebdd79e8632f718f701bbabebc85446b3d4f16c94df0fa45ffec492bf62f"
+      "liveHash": "3a5619c1bb285cf8d5397393dd59329ba3d204956ce2d19ed5c2a430538719a5",
+      "currentHash": "3a5619c1bb285cf8d5397393dd59329ba3d204956ce2d19ed5c2a430538719a5"
     }
   },
   {
     "id": "26155101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Bubbly Seahorse",
     "type": "BEAST",
     "title": "Bubbly Seahorse",
@@ -67647,6 +68007,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -67687,6 +68048,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -67721,13 +68083,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "585b34142e99fcb5e292e3545723e3c8441c8220405123c89bd59a84b71e2242",
-      "currentHash": "1d3b52a5101048c73a373873a905b58f482a436a5bdf5a8e2824f25236b23da2"
+      "liveHash": "fb4f6758c9d11d851f4ed2af4fa89d9021730732f7b1633d642e7cd0314ac340",
+      "currentHash": "fb4f6758c9d11d851f4ed2af4fa89d9021730732f7b1633d642e7cd0314ac340"
     }
   },
   {
     "id": "26155201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Bubbly Seahorse",
     "type": "BEAST",
     "title": "Bubbly Seahorse",
@@ -67766,6 +68128,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -67806,6 +68169,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -67840,13 +68204,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "7231d79ad4b7297df6a811f2d34e5ecc54a83879f059fdaa84d1d0b98864d9cf",
-      "currentHash": "52777ea81d69f463d59f4ba7016b7d3176b5c0889d20f4b4d5045cc3b6b6099f"
+      "liveHash": "2c17af57c937cade85032ce9f06acecc242731a33588707c6af1eede602ea5b1",
+      "currentHash": "2c17af57c937cade85032ce9f06acecc242731a33588707c6af1eede602ea5b1"
     }
   },
   {
     "id": "26155301",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Bubbly Seahorse",
     "type": "BEAST",
     "title": "Bubbly Seahorse",
@@ -67885,6 +68249,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -67925,6 +68290,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -67959,13 +68325,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "b3a9be87e3daa7d6a072d63d99ab2f5c09adb66da19470ff319097d514a098b2",
-      "currentHash": "f1b83427d3f8cbe997755561ec1ccefe65951f97837a771990fc283bd55005e0"
+      "liveHash": "e5f86469476163db2dd06835d670d7aa455dd56803e4ee95e763e2a02487d778",
+      "currentHash": "e5f86469476163db2dd06835d670d7aa455dd56803e4ee95e763e2a02487d778"
     }
   },
   {
     "id": "26156101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Ball Octopus",
     "type": "BEAST",
     "title": "Ball Octopus",
@@ -68004,6 +68370,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -68044,6 +68411,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -68078,13 +68446,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "7640bf61ebafd3480927cef936805d01a4973f115104ca69207951fbfcb0a478",
-      "currentHash": "5fbc3af174acfe0ae237d6d569d3c54414054e2b20446d6efc26468f530d17ff"
+      "liveHash": "b22856136540876f3b132495bd279a4a685b8367cb55a8e4bfd5a04002843b28",
+      "currentHash": "b22856136540876f3b132495bd279a4a685b8367cb55a8e4bfd5a04002843b28"
     }
   },
   {
     "id": "26156201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Ball Octopus",
     "type": "BEAST",
     "title": "Ball Octopus",
@@ -68123,6 +68491,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -68163,6 +68532,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -68197,13 +68567,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "d755b7bc3cc7b80731591d996fb0c1e0e393ca0038d4211dfad5ce960abf1fec",
-      "currentHash": "1299a5df3c86e44c9e6538b2424a0c0a43b6873e0f15ac5613ae0085c04dc6f2"
+      "liveHash": "29944487a09d56e0420211eb0e5d7fbf1cbba73c2e871d44c33276dfff1b20fc",
+      "currentHash": "29944487a09d56e0420211eb0e5d7fbf1cbba73c2e871d44c33276dfff1b20fc"
     }
   },
   {
     "id": "26157101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Angelic Sea Hare",
     "type": "BEAST",
     "title": "Angelic Sea Hare",
@@ -68242,6 +68612,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -68282,6 +68653,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -68316,13 +68688,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "8d78609c81ee66bee32c1c5ea052b7aad43a103215ed81b8ac67b26f248632ed",
-      "currentHash": "f95efbaaf4ac62a7ef108789e9122fbc97a8a9c7f52d23a516bfcf588cdfa9d5"
+      "liveHash": "7bb7a8d6628a76c12215ad633f6867c926a00d14766a47eddee1fbd190a52098",
+      "currentHash": "7bb7a8d6628a76c12215ad633f6867c926a00d14766a47eddee1fbd190a52098"
     }
   },
   {
     "id": "26157201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Angelic Sea Hare",
     "type": "BEAST",
     "title": "Angelic Sea Hare",
@@ -68361,6 +68733,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -68401,6 +68774,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -68435,13 +68809,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "54d6c6aca4e7be6081b5cf0c6481867dce2c7373dbcb3d0c92cf60105497da75",
-      "currentHash": "7df76e16e812e867d6ae532ee6f45b028aadeada4f12320bb92dca8ec5db57ff"
+      "liveHash": "ed9fb0a94e7ce541b18260e2b268dd138bb9b2fc97988b7a708827686877ff46",
+      "currentHash": "ed9fb0a94e7ce541b18260e2b268dd138bb9b2fc97988b7a708827686877ff46"
     }
   },
   {
     "id": "26160101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Sternshield Crab",
     "type": "BEAST",
     "title": "Sternshield Crab",
@@ -68480,6 +68854,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -68561,6 +68936,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -68601,6 +68977,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -68641,6 +69018,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -68681,6 +69059,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -68721,6 +69100,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -68761,6 +69141,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -68801,6 +69182,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -68835,13 +69217,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "b6d0fdee922b91ab377ca2a684bac66fc4adea8a6ca5791ded760b7c8991b06b",
-      "currentHash": "30afe3c15d6d921537ba973bf6cfabae5168ebc312d5b75f7e275ff83cc42f28"
+      "liveHash": "db64bfb324c7cc766392003da4c57051880ebaf3dbf48ade4dabedf3106d4529",
+      "currentHash": "db64bfb324c7cc766392003da4c57051880ebaf3dbf48ade4dabedf3106d4529"
     }
   },
   {
     "id": "26160201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Cherubic Sea Hare",
     "type": "BEAST",
     "title": "Cherubic Sea Hare",
@@ -68880,6 +69262,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -68961,6 +69344,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -69001,6 +69385,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -69035,13 +69420,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "17f471d5d9394c75250190f05c925926149c869791ff2ca4cdf3fa8edc89e71a",
-      "currentHash": "81b3c87a8ffa5606b9752a7efa753c06c49b7d93681d6ab68006285ecfdde088"
+      "liveHash": "54466f5a76947384b8559c448ccde34beb1c054d5e0434c5e6882932105dee32",
+      "currentHash": "54466f5a76947384b8559c448ccde34beb1c054d5e0434c5e6882932105dee32"
     }
   },
   {
     "id": "26160301",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Bubbler Seahorse",
     "type": "BEAST",
     "title": "Bubbler Seahorse",
@@ -69080,6 +69465,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -69161,6 +69547,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -69201,6 +69588,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -69241,6 +69629,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -69281,6 +69670,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -69321,6 +69711,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -69355,13 +69746,13 @@
       }
     },
     "liveComparison": {
-      "liveHash": "67f115fab133b40f398cecbc4bca40ec30594c4736c833cc2f48381d15d60182",
-      "currentHash": "40bdcb6b09a2dd294ca49c133662e870cd436d5cc69e8dfc3da4c68e518bbe3e"
+      "liveHash": "d93e55aa15ec1cf0d38dc999016378f82dbb86d49194f8f523d06252b120e620",
+      "currentHash": "d93e55aa15ec1cf0d38dc999016378f82dbb86d49194f8f523d06252b120e620"
     }
   },
   {
     "id": "26160302",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Emperor of Fire and Iron",
     "type": "BEAST",
     "title": "Emperor of Fire and Iron",
@@ -69400,6 +69791,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -69481,6 +69873,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -69521,6 +69914,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
@@ -69561,6 +69955,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -69601,6 +69996,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -69641,6 +70037,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -69675,8 +70072,8 @@
       }
     },
     "liveComparison": {
-      "liveHash": "acccb1f0f24d7e73122403cb1d08ee0acf06da2b4bba9424b20301d92cd0caa6",
-      "currentHash": "9d027bed119bba22d9fbb42e5b66a28a29b92e306749113f2e84bc222b78ce69"
+      "liveHash": "804c992329b76cbe00ef8ccc99343aa298b056edac68aaf463008a2fc265c738",
+      "currentHash": "804c992329b76cbe00ef8ccc99343aa298b056edac68aaf463008a2fc265c738"
     }
   },
   {
@@ -70373,7 +70770,7 @@
   },
   {
     "id": "26200201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Tepetlisaurus",
     "type": "BEAST",
     "title": "Tepetlisaurus",
@@ -70506,6 +70903,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -70541,7 +70939,7 @@
     },
     "liveComparison": {
       "liveHash": "440ff58656219e2e91ce11d1d489b08f1842d4e31b7c108953f845d52f9882ef",
-      "currentHash": "e1db55ec1253c39e35a677ff23ea40b74e08e4379b9c528686b880cfb4a07a73"
+      "currentHash": "440ff58656219e2e91ce11d1d489b08f1842d4e31b7c108953f845d52f9882ef"
     }
   },
   {
@@ -70626,7 +71024,7 @@
   },
   {
     "id": "26210201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Koholasaurus",
     "type": "BEAST",
     "title": "Koholasaurus",
@@ -70759,6 +71157,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -70794,7 +71193,7 @@
     },
     "liveComparison": {
       "liveHash": "49fd8a73baee63fda32d521ccc22f6b62d4f48f51df3cc8f8b242551fee82294",
-      "currentHash": "0c82cc01449ecf4947f8a93c41abc5445fb0d84bde4f3b99b7d6dd34a9f529d7"
+      "currentHash": "49fd8a73baee63fda32d521ccc22f6b62d4f48f51df3cc8f8b242551fee82294"
     }
   },
   {
@@ -71337,7 +71736,7 @@
   },
   {
     "id": "26230201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Qucusaurus",
     "type": "BEAST",
     "title": "Qucusaurus",
@@ -71517,6 +71916,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -71552,12 +71952,12 @@
     },
     "liveComparison": {
       "liveHash": "e2f9ec82977408c61406a6623fa6b5125569778c099c48148eefd8f4cb0f80a1",
-      "currentHash": "a6b53ee95aba08e1de9228bc6b755fd83796c67ec13ed1d536d41f73624192fa"
+      "currentHash": "e2f9ec82977408c61406a6623fa6b5125569778c099c48148eefd8f4cb0f80a1"
     }
   },
   {
     "id": "26230301",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Goldflame Qucusaur Tyrant",
     "type": "BEAST",
     "title": "Goldflame Qucusaur Tyrant",
@@ -71771,6 +72171,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -71811,6 +72212,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -71846,7 +72248,7 @@
     },
     "liveComparison": {
       "liveHash": "b4a4576adbcc6f7f19db48bbc4cb78b13a5d703a0a0ab39f94d869a34d063217",
-      "currentHash": "3da04709830085546831bf4669c860fbc57fb0abdf1c004af076b7c0d9ffeb1a"
+      "currentHash": "b4a4576adbcc6f7f19db48bbc4cb78b13a5d703a0a0ab39f94d869a34d063217"
     }
   },
   {
@@ -71972,7 +72374,7 @@
   },
   {
     "id": "26240201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Iktomisaurus",
     "type": "BEAST",
     "title": "Iktomisaurus",
@@ -72105,6 +72507,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -72140,7 +72543,7 @@
     },
     "liveComparison": {
       "liveHash": "4ace00b3f1635aeda8e7a2570fa7e314d28f62494b3c8bce8ac3325db4f3da3d",
-      "currentHash": "16764c00c9e4b9e6eb93484301537799505a273d167d4c1f2646b9ba0feacde8"
+      "currentHash": "4ace00b3f1635aeda8e7a2570fa7e314d28f62494b3c8bce8ac3325db4f3da3d"
     }
   },
   {
@@ -72204,7 +72607,7 @@
   },
   {
     "id": "26250201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Tatankasaurus",
     "type": "BEAST",
     "title": "Tatankasaurus",
@@ -72269,6 +72672,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
@@ -72304,7 +72708,7 @@
     },
     "liveComparison": {
       "liveHash": "cbdd77ab5d48de0ab28cca49975a52d4631fde99cf6692901de55fbbb1f90c7b",
-      "currentHash": "686b1a8639da952ba3802946389125a622408d9279951e52aa5f2cbcb6623b68"
+      "currentHash": "cbdd77ab5d48de0ab28cca49975a52d4631fde99cf6692901de55fbbb1f90c7b"
     }
   },
   {
@@ -72633,7 +73037,7 @@
   },
   {
     "id": "26260301",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Foliar-Swift Wayob Manifestation",
     "type": "BEAST",
     "title": "Foliar-Swift Wayob Manifestation",
@@ -72795,6 +73199,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -72830,12 +73235,12 @@
     },
     "liveComparison": {
       "liveHash": "a998d679ae6f4deacc6251e866ba3a4dcd2c4b34ab6824c55f87bb5e44ada3fc",
-      "currentHash": "e884b308127f4c57c628f36748ffc842e85f80e200d7d0c5859e71efce016f8a"
+      "currentHash": "a998d679ae6f4deacc6251e866ba3a4dcd2c4b34ab6824c55f87bb5e44ada3fc"
     }
   },
   {
     "id": "26260801",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Biting-Cold Wayob Manifestation",
     "type": "BEAST",
     "title": "Biting-Cold Wayob Manifestation",
@@ -72897,6 +73302,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -72976,7 +73382,7 @@
     },
     "liveComparison": {
       "liveHash": "bfb15abe2eafc6729655f6fd5f69e40cebc537c52d7e2915e2dc4717ef739635",
-      "currentHash": "c00937d1ae69fb83797d35c2760682a4bf82933545a076b15a4012b90532834d"
+      "currentHash": "bfb15abe2eafc6729655f6fd5f69e40cebc537c52d7e2915e2dc4717ef739635"
     }
   },
   {
@@ -73314,7 +73720,7 @@
   },
   {
     "id": "26270201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Eroding Avatar of Lava",
     "type": "BEAST",
     "title": "Eroding Avatar of Lava",
@@ -73482,6 +73888,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
@@ -73517,7 +73924,7 @@
     },
     "liveComparison": {
       "liveHash": "f51bd8e8547e2963fd1850a62b311bff5af377b8aee670c67b72756fa402f83a",
-      "currentHash": "99534bd0ed4fc669a6bcfdb02329624c9428d6becda65d00d7ee982470ed41ea"
+      "currentHash": "f51bd8e8547e2963fd1850a62b311bff5af377b8aee670c67b72756fa402f83a"
     }
   },
   {
@@ -77990,7 +78397,7 @@
   },
   {
     "id": "28041901",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Moonglow Jellyfish",
     "type": "CRITTER",
     "description": "A primitive animal with an exceedingly simple body structure.\\nIn the poetry of ancient Fontaine, jellyfish were often paired with butterflies as symbols of the soul. People of bygone times and Remurian philosophers alike embraced this idea: that the soul dwells within the body as a butterfly is born from a caterpillar; that the soul passes endlessly through all waters, or through melody itself, just as a jellyfish grants itself new life at the moment of its own death.\\nAs an aside, the followers of the Mistress of Many Waters, later known as the illustrious and noble Lochknights, denounced the Remurian philosophers' views with righteous fury, branding them heresy that had to be cast aside entirely. As for how those views differed from their own beliefs, that was apparently a much deeper matter of principle, and not one to be discussed lightly.",
@@ -77999,6 +78406,7 @@
     },
     "rewards": [],
     "liveComparison": {
+      "liveHash": "3f8f6bfee0795cf25d11f2e14c06b83dca7ecbb9b767fd6060f11ad9191042e1",
       "currentHash": "3f8f6bfee0795cf25d11f2e14c06b83dca7ecbb9b767fd6060f11ad9191042e1"
     }
   },
@@ -78409,21 +78817,22 @@
   },
   {
     "id": "28070801",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Moonglow Frostfin Whale",
     "type": "FISH",
-    "description": "A wondrous aquatic creature altered by the influence of kuuvahki.\\nAccording to the studies of the Snezhnayan biologist Hvilyolo Verkhratskyi five hundred years ago, the concentration of kuuvahki on the surface is generally considered too low to cause physical changes in creatures of such enormous size. Perhaps that is why these rare, differently colored individuals have taken on a more romantic meaning. In the folk tales of Nod-Krai, it is said that anyone who sees a pink Frostfin Whale will have their wish come true. Some versions of the tales of Reed Miller, the legendary thief, even tell of a so-called \"King of Whales\" who helped Reed and his merry companions resist the sirens' bewitching song — and, in turn, caused the siren queen herself to fall in love with him at first sight.\\nBut tall tales are still tall tales, and a pink whale, in the end, is still only a whale.",
+    "description": "A wondrous aquatic creature altered by the influence of kuuvahki.\\nAccording to the studies of the Snezhnayan biologist Hvylyolo Verkhratsky five hundred years ago, the concentration of kuuvahki on the surface is generally considered too low to cause physical changes in creatures of such enormous size. Perhaps that is why these rare, differently colored individuals have taken on a more romantic meaning. In the folk tales of Nod-Krai, it is said that anyone who sees a pink Frostfin Whale will have their wish come true. Some versions of the tales of Reed Miller, the legendary thief, even tell of a so-called \"King of Whales\" who helped Reed and his merry companions resist the sirens' bewitching song — and, in turn, caused the siren queen herself to fall in love with him at first sight.\\nBut tall tales are still tall tales, and a pink whale, in the end, is still only a whale.",
     "assets": {
       "icon": "Nanoka/gi/assets/monsters/UI_AnimalIcon_Orca_01_Alter.webp"
     },
     "rewards": [],
     "liveComparison": {
-      "currentHash": "d5a37ad570085f2e04a72567aa4e470fa2815113c79642c177b3b713766b9cb5"
+      "liveHash": "cf20eb5f60609ba00e12aa35b2edac10ed422ba422d31c3e5bf9fc1d0f6147e9",
+      "currentHash": "cf20eb5f60609ba00e12aa35b2edac10ed422ba422d31c3e5bf9fc1d0f6147e9"
     }
   },
   {
     "id": "29010101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Stormterror",
     "type": "BOSS",
     "title": "Howling Hurricane of Mondstadt",
@@ -78441,6 +78850,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_NONE",
@@ -78481,6 +78891,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -78521,6 +78932,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_NONE",
@@ -78561,6 +78973,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -78596,12 +79009,12 @@
     },
     "liveComparison": {
       "liveHash": "e23acfb3006909999ef223b6a925ba5d242e95f7e8f4842e85e109c3869be2ce",
-      "currentHash": "8d8d0233d16f4c684669358836cb0288c92bcb9cdacda02565ff8db67f9a0e48"
+      "currentHash": "e23acfb3006909999ef223b6a925ba5d242e95f7e8f4842e85e109c3869be2ce"
     }
   },
   {
     "id": "29020101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Lupus Boreas, Dominator of Wolves",
     "type": "BOSS",
     "title": "Great Wolf King of the North",
@@ -78619,6 +79032,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -78659,6 +79073,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -78694,12 +79109,12 @@
     },
     "liveComparison": {
       "liveHash": "cabb1d29ceb14a40389ef46b9014280c653fd1e2a1339e46623de57886324b25",
-      "currentHash": "c2ecd5b90f45b289ac8718fc7014e9da7df33fd94dde23d8caaaefd72425a21f"
+      "currentHash": "cabb1d29ceb14a40389ef46b9014280c653fd1e2a1339e46623de57886324b25"
     }
   },
   {
     "id": "29030101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Childe",
     "type": "BOSS",
     "title": "Eleventh of the Fatui Harbingers",
@@ -78717,6 +79132,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -78757,6 +79173,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -78797,6 +79214,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -78837,6 +79255,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -78877,6 +79296,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -78917,6 +79337,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -78952,12 +79373,12 @@
     },
     "liveComparison": {
       "liveHash": "46c91b8a773b26bd1acf8c1e8183437fed8e02a9cc3949764529d128e97da149",
-      "currentHash": "519198952709fbbe65f01a0fe5c7b1e6401bd8bb32fd52b14518c11262fc1c2e"
+      "currentHash": "46c91b8a773b26bd1acf8c1e8183437fed8e02a9cc3949764529d128e97da149"
     }
   },
   {
     "id": "29040101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Azhdaha",
     "type": "BOSS",
     "title": "Sealed Lord of Vishaps",
@@ -78975,6 +79396,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -79015,6 +79437,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -79055,6 +79478,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -79095,6 +79519,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -79135,6 +79560,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -79170,12 +79596,12 @@
     },
     "liveComparison": {
       "liveHash": "cc0c85e8a68456d4114459f7d71a4d846590e0af8314366e560d4820d2450022",
-      "currentHash": "78d02abce7c933dfb88c499b4df05ea7d3031fb88a6b917f2b25237968033966"
+      "currentHash": "cc0c85e8a68456d4114459f7d71a4d846590e0af8314366e560d4820d2450022"
     }
   },
   {
     "id": "29050101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "La Signora",
     "type": "BOSS",
     "title": "Eighth of the Fatui Harbingers",
@@ -79193,6 +79619,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -79233,6 +79660,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -79273,6 +79701,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -79313,6 +79742,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -79348,12 +79778,12 @@
     },
     "liveComparison": {
       "liveHash": "32aadd4c5daae537d6c825f57a20c35d2f38c06015b8bb4be26472e2e480bdaa",
-      "currentHash": "9dadeff264290108c3f1a2ee10ff9fb3186fd7ffa1f3fc2c7c75ac078c83b062"
+      "currentHash": "32aadd4c5daae537d6c825f57a20c35d2f38c06015b8bb4be26472e2e480bdaa"
     }
   },
   {
     "id": "29060201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Magatsu Mitake Narukami no Mikoto",
     "type": "BOSS",
     "title": "Magatsu Mitake Narukami no Mikoto",
@@ -79371,6 +79801,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -79411,6 +79842,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -79451,6 +79883,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -79486,12 +79919,12 @@
     },
     "liveComparison": {
       "liveHash": "ed6920b8d0a28a2e74c1f471d4e4a1a9b7c653f2403e035464acc42ac58f6eca",
-      "currentHash": "a83ddeac8eff5dd28c2101a00543a294f30d65c78200aa17e93c729c3c0b2b65"
+      "currentHash": "ed6920b8d0a28a2e74c1f471d4e4a1a9b7c653f2403e035464acc42ac58f6eca"
     }
   },
   {
     "id": "29070101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Shouki no Kami, the Prodigal",
     "type": "BOSS",
     "title": "Shouki no Kami, the Prodigal",
@@ -79509,6 +79942,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -79549,6 +79983,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -79589,6 +80024,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -79629,6 +80065,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -79669,6 +80106,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -79709,6 +80147,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -79744,12 +80183,12 @@
     },
     "liveComparison": {
       "liveHash": "c9fe7b9f7550c79073ac15f2b1c73263b95909416348a2bca28d388e4f11ad9b",
-      "currentHash": "1b89714b3b34257045f3092b5d2f5043acee3f65cbe4cec7c10781d407b96848"
+      "currentHash": "c9fe7b9f7550c79073ac15f2b1c73263b95909416348a2bca28d388e4f11ad9b"
     }
   },
   {
     "id": "29080101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Guardian of Apep's Oasis",
     "type": "BOSS",
     "title": "Warden of the Last Oasis",
@@ -79767,6 +80206,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -79807,6 +80247,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -79847,6 +80288,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -79887,6 +80329,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -79922,12 +80365,12 @@
     },
     "liveComparison": {
       "liveHash": "38407d90e8a211d01ad440c1c1ecf21d1c5986fdbe9b47bbfe3bb9f843f456ab",
-      "currentHash": "2636f4b02deddd22402b9ded1d8f6aecdf30d34fd8356043964226649fb42412"
+      "currentHash": "38407d90e8a211d01ad440c1c1ecf21d1c5986fdbe9b47bbfe3bb9f843f456ab"
     }
   },
   {
     "id": "29090101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "All-Devouring Narwhal",
     "type": "BOSS",
     "title": "All-Devouring Narwhal",
@@ -79945,6 +80388,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -79985,6 +80429,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -80020,12 +80465,12 @@
     },
     "liveComparison": {
       "liveHash": "fcb68019cc27c14f6806a9692fc942d345197b8efbcb4c897c39564ea18cd616",
-      "currentHash": "ae7afcee8e15eef4b930b438ee5ad14ee94d95dd875f51cf858d8567214c1e14"
+      "currentHash": "fcb68019cc27c14f6806a9692fc942d345197b8efbcb4c897c39564ea18cd616"
     }
   },
   {
     "id": "29100101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "The Knave",
     "type": "BOSS",
     "title": "The Knave",
@@ -80043,6 +80488,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -80083,6 +80529,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -80123,6 +80570,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -80163,6 +80611,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -80198,12 +80647,12 @@
     },
     "liveComparison": {
       "liveHash": "952d3a3777d133e7bba39536cf1cf8b14724a213a8fbd844db57ebf39bb00715",
-      "currentHash": "dfe284cc4cbed5352ec30d291e97a385dffbdd5cc0500d11f2387aa0c2a21447"
+      "currentHash": "952d3a3777d133e7bba39536cf1cf8b14724a213a8fbd844db57ebf39bb00715"
     }
   },
   {
     "id": "29110101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Lord of Eroded Primal Fire",
     "type": "BOSS",
     "title": "Lord of Eroded Primal Fire",
@@ -80221,6 +80670,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -80261,6 +80711,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -80296,12 +80747,12 @@
     },
     "liveComparison": {
       "liveHash": "b7d8521d3a28bbee3b27f3d4eef733fb96b29a2de7e66f1beafe5b0146ea28f9",
-      "currentHash": "ea6fcda8c42b4ade09b0f4c3882d1acccb45069aaace869f9593e9add3dd6c93"
+      "currentHash": "b7d8521d3a28bbee3b27f3d4eef733fb96b29a2de7e66f1beafe5b0146ea28f9"
     }
   },
   {
     "id": "29120101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "The Game Before the Gate",
     "type": "BOSS",
     "title": "Eighth of the Fatui Harbingers",
@@ -80319,6 +80770,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -80359,6 +80811,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -80394,12 +80847,12 @@
     },
     "liveComparison": {
       "liveHash": "664df4676bb1536cc20545dc5051e6474f9aabab7f4beb7fc80177300c4ca54a",
-      "currentHash": "7a7d7928aa0275ad55c694aa37bcbfe6d79155579f9e9e4a254435efaf6bc4fd"
+      "currentHash": "664df4676bb1536cc20545dc5051e6474f9aabab7f4beb7fc80177300c4ca54a"
     }
   },
   {
     "id": "29130101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "The Doctor",
     "type": "BOSS",
     "title": "Heretic of the False Moon",
@@ -80417,6 +80870,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -80452,12 +80906,12 @@
     },
     "liveComparison": {
       "liveHash": "c42cc17770aa2992e71c1d030d32017d4bdf86cbf8aac4ba8b2e163390ca6ab4",
-      "currentHash": "1076bd52ae5b1b5da567316acecad24cb773571a18c81be29467a02c63757456"
+      "currentHash": "c42cc17770aa2992e71c1d030d32017d4bdf86cbf8aac4ba8b2e163390ca6ab4"
     }
   },
   {
     "id": "29150101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Il Dottore",
     "type": "BOSS",
     "title": "Exalted Master of the Heretical Path",
@@ -80475,6 +80929,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -80515,6 +80970,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -80555,6 +81011,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -80595,6 +81052,7 @@
           {},
           {}
         ],
+        "kill_drop_id": 0,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP_2",
@@ -80630,7 +81088,7 @@
     },
     "liveComparison": {
       "liveHash": "89cb7dadf4c170484674b9485d725d1074cb3b71a5a801b510336d2b1018f265",
-      "currentHash": "74856a4c9611e9e6689c803247737c28363ac152fd5d9766d98957d33cb86167"
+      "currentHash": "89cb7dadf4c170484674b9485d725d1074cb3b71a5a801b510336d2b1018f265"
     }
   }
 ]

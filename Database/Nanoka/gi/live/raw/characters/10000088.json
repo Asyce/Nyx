@@ -487,6 +487,13 @@
     },
     "costume": [
       {
+        "id": 208801,
+        "name": "Hurlock Variations",
+        "desc": "Charlotte's outfit. Once used as a filming costume for Great Detective Hurlock, this outfit was presented to Charlotte by the production crew as a keepsake after the shoot concluded.",
+        "icon": "UI_AvatarIcon_CharlotteCostumeDong",
+        "quality": 4
+      },
+      {
         "id": 208800,
         "name": "\"All Is Overt Through My Lens\"",
         "desc": "Charlotte's outfit. \"If your reporting isn't real enough, it's because you're not close enough.\" Charlotte often has this to say about journalism. Sometimes, however, she adds: \"But of course, maybe it's that the lens you're using just isn't that great.\"",
@@ -985,6 +992,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1023,6 +1034,10 @@
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
             "Spiritbreath Thorn DMG|{param9:F1P}",
             "Spiritbreath Thorn DMG Interval|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1073,6 +1088,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1111,6 +1130,10 @@
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
             "Spiritbreath Thorn DMG|{param9:F1P}",
             "Spiritbreath Thorn DMG Interval|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1161,6 +1184,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1199,6 +1226,10 @@
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
             "Spiritbreath Thorn DMG|{param9:F1P}",
             "Spiritbreath Thorn DMG Interval|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1249,6 +1280,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1287,6 +1322,10 @@
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
             "Spiritbreath Thorn DMG|{param9:F1P}",
             "Spiritbreath Thorn DMG Interval|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1337,6 +1376,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1375,6 +1418,10 @@
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
             "Spiritbreath Thorn DMG|{param9:F1P}",
             "Spiritbreath Thorn DMG Interval|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1425,6 +1472,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1463,6 +1514,10 @@
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
             "Spiritbreath Thorn DMG|{param9:F1P}",
             "Spiritbreath Thorn DMG Interval|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1513,6 +1568,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1557,6 +1616,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1595,6 +1658,10 @@
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
             "Spiritbreath Thorn DMG|{param9:F1P}",
             "Spiritbreath Thorn DMG Interval|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1652,6 +1719,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1691,6 +1762,10 @@
             "\"Focused Impression\" Mark Duration|{param8:F1}s",
             "CD|{param9:F1}s",
             "Finisher Frame Cast CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1740,6 +1815,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1779,6 +1858,10 @@
             "\"Focused Impression\" Mark Duration|{param8:F1}s",
             "CD|{param9:F1}s",
             "Finisher Frame Cast CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1828,6 +1911,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1867,6 +1954,10 @@
             "\"Focused Impression\" Mark Duration|{param8:F1}s",
             "CD|{param9:F1}s",
             "Finisher Frame Cast CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1916,6 +2007,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1955,6 +2050,10 @@
             "\"Focused Impression\" Mark Duration|{param8:F1}s",
             "CD|{param9:F1}s",
             "Finisher Frame Cast CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2004,6 +2103,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2043,6 +2146,10 @@
             "\"Focused Impression\" Mark Duration|{param8:F1}s",
             "CD|{param9:F1}s",
             "Finisher Frame Cast CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2092,6 +2199,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2131,6 +2242,10 @@
             "\"Focused Impression\" Mark Duration|{param8:F1}s",
             "CD|{param9:F1}s",
             "Finisher Frame Cast CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2180,6 +2295,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2224,6 +2343,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2263,6 +2386,10 @@
             "\"Focused Impression\" Mark Duration|{param8:F1}s",
             "CD|{param9:F1}s",
             "Finisher Frame Cast CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2319,6 +2446,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2355,6 +2486,10 @@
             "Newsflash Field Duration|{param7:F1}s",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2407,6 +2542,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2443,6 +2582,10 @@
             "Newsflash Field Duration|{param7:F1}s",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2495,6 +2638,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2531,6 +2678,10 @@
             "Newsflash Field Duration|{param7:F1}s",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2583,6 +2734,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2619,6 +2774,10 @@
             "Newsflash Field Duration|{param7:F1}s",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2671,6 +2830,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2707,6 +2870,10 @@
             "Newsflash Field Duration|{param7:F1}s",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2759,6 +2926,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2795,6 +2966,10 @@
             "Newsflash Field Duration|{param7:F1}s",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2847,6 +3022,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2891,6 +3070,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2927,6 +3110,10 @@
             "Newsflash Field Duration|{param7:F1}s",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3878,5 +4065,299 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "Attack01",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 9.346
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_01_Damage"
+    },
+    {
+      "name": "Attack01",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 9.346
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_01_Damage"
+    },
+    {
+      "name": "Attack01",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 9.346
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_01_Damage"
+    },
+    {
+      "name": "Attack02",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 8.133
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_02_Damage"
+    },
+    {
+      "name": "Attack02",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 8.133
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_02_Damage"
+    },
+    {
+      "name": "Attack02",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 8.133
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_02_Damage"
+    },
+    {
+      "name": "SkillObj_Charlotte_NormalAttack_03",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 12.113
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_03_Damage"
+    },
+    {
+      "name": "ExtraAttack_Gadget",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 80
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "ExtraAttack_Damage"
+    },
+    {
+      "name": "ExtraAttack_Gadget",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV1",
+        "value": 20
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "ExtraAttack_Arkhe_Ratio"
+    },
+    {
+      "name": "ElementalArt_Click",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Click_Damage"
+    },
+    {
+      "name": "SkillObj_Charlotte_ElementalBurst_Stage",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV2",
+        "value": 200
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalBurst_DamOnceRatio"
+    },
+    {
+      "name": "SkillObj_Charlotte_ElementalBurst_Stage",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Charlotte_BurstCamera"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 25
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Stage_DamRatio"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "Constellation_ExtraCamera_Gadget",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 100
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Constellation_ExtraCameraDamage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "DropBall_Click",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Cryo",
+      "per_drop": 1,
+      "lifetime": 9,
+      "chance": 100,
+      "cd": 0.3,
+      "applications": 1,
+      "drop_id": 2022
+    },
+    {
+      "name": "DropBall_Hold",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Cryo",
+      "per_drop": 1,
+      "lifetime": 15,
+      "chance": 100,
+      "cd": 0.3,
+      "applications": 1,
+      "drop_id": 2022
+    },
+    {
+      "name": "DropBall_Hold",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Cryo",
+      "per_drop": 1,
+      "lifetime": 9,
+      "chance": 100,
+      "cd": 0.3,
+      "applications": 1,
+      "drop_id": 2022
+    }
+  ]
 }

@@ -978,6 +978,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1015,6 +1019,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1066,6 +1074,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1103,6 +1115,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1154,6 +1170,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1191,6 +1211,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1242,6 +1266,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1279,6 +1307,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1330,6 +1362,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1367,6 +1403,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1418,6 +1458,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1455,6 +1499,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1506,6 +1554,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1550,6 +1602,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1587,6 +1643,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1645,6 +1705,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1677,6 +1741,10 @@
             "DoT|{param1:F1P}",
             "Explosion DMG|{param2:P}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1733,6 +1801,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1765,6 +1837,10 @@
             "DoT|{param1:F1P}",
             "Explosion DMG|{param2:P}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1821,6 +1897,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1853,6 +1933,10 @@
             "DoT|{param1:F1P}",
             "Explosion DMG|{param2:P}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1909,6 +1993,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1941,6 +2029,10 @@
             "DoT|{param1:F1P}",
             "Explosion DMG|{param2:P}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1997,6 +2089,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2029,6 +2125,10 @@
             "DoT|{param1:F1P}",
             "Explosion DMG|{param2:P}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2085,6 +2185,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2117,6 +2221,10 @@
             "DoT|{param1:F1P}",
             "Explosion DMG|{param2:P}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2173,6 +2281,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2205,6 +2317,10 @@
             "DoT|{param1:F1P}",
             "Explosion DMG|{param2:P}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2261,6 +2377,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2299,6 +2419,10 @@
           "desc": [
             "Activation Stamina Consumption|{param1:F2}",
             "Stamina Drain|{param2:F2}/s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2363,6 +2487,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2398,6 +2526,10 @@
             "Omen Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2451,6 +2583,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2486,6 +2622,10 @@
             "Omen Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2539,6 +2679,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2574,6 +2718,10 @@
             "Omen Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2627,6 +2775,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2662,6 +2814,10 @@
             "Omen Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2715,6 +2871,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2750,6 +2910,10 @@
             "Omen Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2803,6 +2967,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2838,6 +3006,10 @@
             "Omen Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2891,6 +3063,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2935,6 +3111,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2970,6 +3150,10 @@
             "Omen Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3966,5 +4150,272 @@
       ]
     ]
   },
+  "attack": [
+    {
+      "name": "LiquidStrike",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2"
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
+      "name": "ExtraAttack_Damage",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 26.145
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "AS_Mona_ExtraAttack_Damge"
+    },
+    {
+      "name": "NormalAttack_01",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 7.65
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "AS_Mona_NormalAttack_01"
+    },
+    {
+      "name": "NormalAttack_02",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 7.35
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "AS_Mona_NormalAttack_02"
+    },
+    {
+      "name": "NormalAttack_03",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 9.15
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "AS_Mona_NormalAttack_03"
+    },
+    {
+      "name": "NormalAttack_04_Hit",
+      "icd": {
+        "tag": "NormalAttack_04",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 11.85
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "AS_Mona_NormalAttack_04"
+    },
+    {
+      "name": "Phantom",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 40
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "AS_Mona_Phantom_ThinkDamageRate"
+    },
+    {
+      "name": "PhantomLastAttack",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 150
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "AS_Mona_Phantom_LastDamageRate"
+    },
+    {
+      "name": "StarChart",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 50
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "StarChart",
+      "icd": {
+        "tag": "Elemental_Burst_Trigger",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "Talent_MonaGadgetSkill_LiquidPhantom",
+      "icd": {
+        "tag": "Elemental_Art_Extra",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 150
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "AS_Mona_Phantom_LastDamageRate",
+        "AS_Mona_Talent_LiquidStrike_LiquidPhantom_DamageRate",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Talent_AutoExtraAttack",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 26.145
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "AS_Mona_ExtraAttack_Damge",
+        "AS_Mona_Talent_AutoExtraAttack_DamageRate",
+        "MUL"
+      ]
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "Ball",
+      "skill": "PhantomLastAttack",
+      "kind": "Other",
+      "element": "Hydro",
+      "per_drop": 1,
+      "lifetime": 9,
+      "chance": 100,
+      "cd": 1,
+      "applications": 1,
+      "drop_id": 2018
+    },
+    {
+      "name": "Ball",
+      "skill": "PhantomLastAttack",
+      "kind": "Other",
+      "element": "Hydro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 33,
+      "cd": 1,
+      "applications": 1,
+      "drop_id": 2018
+    }
+  ],
   "special": true
 }

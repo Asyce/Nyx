@@ -1078,6 +1078,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1116,6 +1120,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1166,6 +1174,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1204,6 +1216,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1254,6 +1270,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1292,6 +1312,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1342,6 +1366,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1380,6 +1408,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1430,6 +1462,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1468,6 +1504,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1518,6 +1558,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1556,6 +1600,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1606,6 +1654,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1650,6 +1702,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1688,6 +1744,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1745,6 +1805,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1779,6 +1843,10 @@
             "Duration|{param3:F1}s",
             "Elemental Burst DMG Bonus|{param4:F2P} Per Energy",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1833,6 +1901,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1867,6 +1939,10 @@
             "Duration|{param3:F1}s",
             "Elemental Burst DMG Bonus|{param4:F2P} Per Energy",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1921,6 +1997,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1955,6 +2035,10 @@
             "Duration|{param3:F1}s",
             "Elemental Burst DMG Bonus|{param4:F2P} Per Energy",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2009,6 +2093,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2043,6 +2131,10 @@
             "Duration|{param3:F1}s",
             "Elemental Burst DMG Bonus|{param4:F2P} Per Energy",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2097,6 +2189,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2131,6 +2227,10 @@
             "Duration|{param3:F1}s",
             "Elemental Burst DMG Bonus|{param4:F2P} Per Energy",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2185,6 +2285,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2219,6 +2323,10 @@
             "Duration|{param3:F1}s",
             "Elemental Burst DMG Bonus|{param4:F2P} Per Energy",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2273,6 +2381,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2317,6 +2429,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2351,6 +2467,10 @@
             "Duration|{param3:F1}s",
             "Elemental Burst DMG Bonus|{param4:F2P} Per Energy",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2412,7 +2532,11 @@
             "Musou Isshin Energy Restoration|{param17:F1}",
             "Musou Isshin Duration|{param18:F1}s",
             "CD|{param19:F1}s",
-            "Energy Cost|{param20:I}"
+            "Energy Cost|{param20:I}",
+            "",
+            "",
+            "",
+            ""
           ],
           "param": [
             4.008,
@@ -2456,7 +2580,11 @@
             "Musou Isshin Energy Restoration|{param17:F1}",
             "Musou Isshin Duration|{param18:F1}s",
             "CD|{param19:F1}s",
-            "Energy Cost|{param20:I}"
+            "Energy Cost|{param20:I}",
+            "",
+            "",
+            "",
+            ""
           ],
           "param": [
             4.3086,
@@ -2500,7 +2628,11 @@
             "Musou Isshin Energy Restoration|{param17:F1}",
             "Musou Isshin Duration|{param18:F1}s",
             "CD|{param19:F1}s",
-            "Energy Cost|{param20:I}"
+            "Energy Cost|{param20:I}",
+            "",
+            "",
+            "",
+            ""
           ],
           "param": [
             4.6092,
@@ -2544,7 +2676,11 @@
             "Musou Isshin Energy Restoration|{param17:F1}",
             "Musou Isshin Duration|{param18:F1}s",
             "CD|{param19:F1}s",
-            "Energy Cost|{param20:I}"
+            "Energy Cost|{param20:I}",
+            "",
+            "",
+            "",
+            ""
           ],
           "param": [
             5.01,
@@ -2588,7 +2724,11 @@
             "Musou Isshin Energy Restoration|{param17:F1}",
             "Musou Isshin Duration|{param18:F1}s",
             "CD|{param19:F1}s",
-            "Energy Cost|{param20:I}"
+            "Energy Cost|{param20:I}",
+            "",
+            "",
+            "",
+            ""
           ],
           "param": [
             5.3106,
@@ -2632,7 +2772,11 @@
             "Musou Isshin Energy Restoration|{param17:F1}",
             "Musou Isshin Duration|{param18:F1}s",
             "CD|{param19:F1}s",
-            "Energy Cost|{param20:I}"
+            "Energy Cost|{param20:I}",
+            "",
+            "",
+            "",
+            ""
           ],
           "param": [
             5.6112,
@@ -2676,7 +2820,11 @@
             "Musou Isshin Energy Restoration|{param17:F1}",
             "Musou Isshin Duration|{param18:F1}s",
             "CD|{param19:F1}s",
-            "Energy Cost|{param20:I}"
+            "Energy Cost|{param20:I}",
+            "",
+            "",
+            "",
+            ""
           ],
           "param": [
             6.012,
@@ -2720,7 +2868,11 @@
             "Musou Isshin Energy Restoration|{param17:F1}",
             "Musou Isshin Duration|{param18:F1}s",
             "CD|{param19:F1}s",
-            "Energy Cost|{param20:I}"
+            "Energy Cost|{param20:I}",
+            "",
+            "",
+            "",
+            ""
           ],
           "param": [
             6.4128,
@@ -2764,7 +2916,11 @@
             "Musou Isshin Energy Restoration|{param17:F1}",
             "Musou Isshin Duration|{param18:F1}s",
             "CD|{param19:F1}s",
-            "Energy Cost|{param20:I}"
+            "Energy Cost|{param20:I}",
+            "",
+            "",
+            "",
+            ""
           ],
           "param": [
             6.8136,
@@ -2808,7 +2964,11 @@
             "Musou Isshin Energy Restoration|{param17:F1}",
             "Musou Isshin Duration|{param18:F1}s",
             "CD|{param19:F1}s",
-            "Energy Cost|{param20:I}"
+            "Energy Cost|{param20:I}",
+            "",
+            "",
+            "",
+            ""
           ],
           "param": [
             7.2144,
@@ -2852,7 +3012,11 @@
             "Musou Isshin Energy Restoration|{param17:F1}",
             "Musou Isshin Duration|{param18:F1}s",
             "CD|{param19:F1}s",
-            "Energy Cost|{param20:I}"
+            "Energy Cost|{param20:I}",
+            "",
+            "",
+            "",
+            ""
           ],
           "param": [
             7.6152,
@@ -2896,7 +3060,11 @@
             "Musou Isshin Energy Restoration|{param17:F1}",
             "Musou Isshin Duration|{param18:F1}s",
             "CD|{param19:F1}s",
-            "Energy Cost|{param20:I}"
+            "Energy Cost|{param20:I}",
+            "",
+            "",
+            "",
+            ""
           ],
           "param": [
             8.016,
@@ -2940,7 +3108,11 @@
             "Musou Isshin Energy Restoration|{param17:F1}",
             "Musou Isshin Duration|{param18:F1}s",
             "CD|{param19:F1}s",
-            "Energy Cost|{param20:I}"
+            "Energy Cost|{param20:I}",
+            "",
+            "",
+            "",
+            ""
           ],
           "param": [
             8.517,
@@ -2984,7 +3156,11 @@
             "Musou Isshin Energy Restoration|{param17:F1}",
             "Musou Isshin Duration|{param18:F1}s",
             "CD|{param19:F1}s",
-            "Energy Cost|{param20:I}"
+            "Energy Cost|{param20:I}",
+            "",
+            "",
+            "",
+            ""
           ],
           "param": [
             9.018,
@@ -3028,7 +3204,11 @@
             "Musou Isshin Energy Restoration|{param17:F1}",
             "Musou Isshin Duration|{param18:F1}s",
             "CD|{param19:F1}s",
-            "Energy Cost|{param20:I}"
+            "Energy Cost|{param20:I}",
+            "",
+            "",
+            "",
+            ""
           ],
           "param": [
             9.519,
@@ -4000,5 +4180,226 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "SkillObj_Shougun_ElementalArt_EyeBoom",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 80
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_Attack"
+    },
+    {
+      "name": "Elf",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "Elf_Attack"
+    },
+    {
+      "name": "Elf",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": [
+        "Elf_Attack",
+        "Elf_RemoteAttackRatio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "value": 400
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV2",
+        "value": 150
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": [
+        "ElementalBurst_BaseDamage",
+        "BurstDamageDelta",
+        "ADD"
+      ]
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": [
+        "FallingAnthem_Normal_Loop_Katana_Damage",
+        "KatanaDamageDelta",
+        "ADD"
+      ]
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": [
+        "FallingAnthem_Normal_Rank_1_Katana_Damage",
+        "KatanaDamageDelta",
+        "ADD"
+      ]
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": [
+        "FallingAnthem_Normal_Rank_2_Katana_Damage",
+        "KatanaDamageDelta",
+        "ADD"
+      ]
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "Elf_ElementalBall_Handler",
+      "skill": "Elf",
+      "kind": "Other",
+      "element": "Electro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 50,
+      "applications": 1,
+      "drop_id": 2020
+    }
+  ]
 }

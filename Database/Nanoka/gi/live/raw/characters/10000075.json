@@ -1098,6 +1098,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1134,6 +1138,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1186,6 +1194,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1222,6 +1234,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1274,6 +1290,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1310,6 +1330,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1362,6 +1386,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1398,6 +1426,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1450,6 +1482,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1486,6 +1522,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1538,6 +1578,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1574,6 +1618,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1626,6 +1674,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1670,6 +1722,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1706,6 +1762,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1765,6 +1825,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1799,6 +1863,10 @@
             "Kuugo: Toufukai DMG|{param3:F1P} Charged Attack DMG",
             "Initial Kuugoryoku Points|{param4:I}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1853,6 +1921,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1887,6 +1959,10 @@
             "Kuugo: Toufukai DMG|{param3:F1P} Charged Attack DMG",
             "Initial Kuugoryoku Points|{param4:I}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1941,6 +2017,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1975,6 +2055,10 @@
             "Kuugo: Toufukai DMG|{param3:F1P} Charged Attack DMG",
             "Initial Kuugoryoku Points|{param4:I}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2029,6 +2113,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2063,6 +2151,10 @@
             "Kuugo: Toufukai DMG|{param3:F1P} Charged Attack DMG",
             "Initial Kuugoryoku Points|{param4:I}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2117,6 +2209,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2151,6 +2247,10 @@
             "Kuugo: Toufukai DMG|{param3:F1P} Charged Attack DMG",
             "Initial Kuugoryoku Points|{param4:I}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2205,6 +2305,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2239,6 +2343,10 @@
             "Kuugo: Toufukai DMG|{param3:F1P} Charged Attack DMG",
             "Initial Kuugoryoku Points|{param4:I}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2293,6 +2401,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2337,6 +2449,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2371,6 +2487,10 @@
             "Kuugo: Toufukai DMG|{param3:F1P} Charged Attack DMG",
             "Initial Kuugoryoku Points|{param4:I}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2432,6 +2552,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2464,6 +2588,10 @@
             "Skill DMG|{param1:F1P}×5",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2520,6 +2648,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2552,6 +2684,10 @@
             "Skill DMG|{param1:F1P}×5",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2608,6 +2744,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2640,6 +2780,10 @@
             "Skill DMG|{param1:F1P}×5",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2696,6 +2840,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2728,6 +2876,10 @@
             "Skill DMG|{param1:F1P}×5",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2784,6 +2936,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2816,6 +2972,10 @@
             "Skill DMG|{param1:F1P}×5",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2872,6 +3032,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2904,6 +3068,10 @@
             "Skill DMG|{param1:F1P}×5",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2960,6 +3128,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3004,6 +3176,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3036,6 +3212,10 @@
             "Skill DMG|{param1:F1P}×5",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3991,5 +4171,399 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ExtraAttack_Initiate",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 100
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ExtraAttack_Damage"
+    },
+    {
+      "name": "ExtraAttack_Air_Initiate",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 100
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "ExtraAttack_Damage",
+        "ExtraAttack_ElementalArt_Ratio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "NormalAttack_Bullet_1",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 13.9164
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_01_Damage"
+    },
+    {
+      "name": "NormalAttack_Bullet_2",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 12.1365
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_02_Damage"
+    },
+    {
+      "name": "NormalAttack_Bullet_3",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 9.05
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_03_Damage"
+    },
+    {
+      "name": "NormalAttack_Bullet_4",
+      "icd": {
+        "tag": "NormalAttack_04",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 9.05
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_04_Damage"
+    },
+    {
+      "name": "ElementalArt_Launch",
+      "icd": {
+        "tag": "Elemental_Art_Detect",
+        "group": "default"
+      },
+      "gauge": 0.04,
+      "element": "AntiFire",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
+      "name": "ElementalArt_Launch",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_Damage"
+    },
+    {
+      "name": "ElementalArt_Bullet_1",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 13.9164
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "NormalAttack_01_Damage",
+        "NormalAttack_ElementalArt_Ratio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Bullet_2",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 12.1365
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "NormalAttack_02_Damage",
+        "NormalAttack_ElementalArt_Ratio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Bullet_3",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 9.05
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "NormalAttack_03_Damage",
+        "NormalAttack_ElementalArt_Ratio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Bullet_4",
+      "icd": {
+        "tag": "NormalAttack_04",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 9.05
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "NormalAttack_04_Damage",
+        "NormalAttack_ElementalArt_Ratio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Bullet_1_Extra",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "Wanderer_Constellation_6"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 15
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "NormalAttack_01_Damage",
+        "NormalAttack_ElementalArt_Ratio",
+        "MUL",
+        "NormalAttack_Constellation_6_Ratio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Bullet_2_Extra",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "Wanderer_Constellation_6"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 15
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "NormalAttack_02_Damage",
+        "NormalAttack_ElementalArt_Ratio",
+        "MUL",
+        "NormalAttack_Constellation_6_Ratio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Bullet_3_Extra",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "Wanderer_Constellation_6"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 15
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "NormalAttack_03_Damage",
+        "NormalAttack_ElementalArt_Ratio",
+        "MUL",
+        "NormalAttack_Constellation_6_Ratio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Bullet_4_Extra",
+      "icd": {
+        "tag": "NormalAttack_04",
+        "group": "Wanderer_Constellation_6"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 15
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "NormalAttack_04_Damage",
+        "NormalAttack_ElementalArt_Ratio",
+        "MUL",
+        "NormalAttack_Constellation_6_Ratio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalBurst_Bullet",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "ElementalBurst_Damage"
+    },
+    {
+      "name": "ElementalArt_Bullet_HoverDash",
+      "icd": {
+        "tag": "Wanderer_PermanentSkill_2",
+        "group": "Wanderer_PermanentSkill_2"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 15
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "PermanentSkill_2_Damage",
+        "Constellation_1_ExtraDamagePercentage",
+        "ADD"
+      ]
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Wanderer_FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Wanderer_FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Wanderer_FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementalArt_ElementalBall",
+      "skill": "ElementalArt_HoverAir",
+      "kind": "ElementalArt",
+      "element": "Anemo",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "cd": 2,
+      "applications": 1,
+      "drop_id": 2021
+    }
+  ]
 }

@@ -534,6 +534,14 @@
         "title": "Joining Party: III",
         "text": "I will follow where you lead.",
         "unlocked": []
+      },
+      {
+        "title": "About Sandrone: Clockwork Nature III",
+        "text": "Sandrone has returned. I'm so happy. I noticed her wind-up key sometimes turns a bit faster now — it always seemed to turn at the same speed before. She said it's because she's embraced her inner feelings, and that she's different now. But whether she's changed her outfit or her key turns faster, I feel like Sandrone is still Sandrone, my best friend. Whether it's her past or present self, she has my complete admiration. I told her this, and her key turned faster. I don't know why, but it's really interesting.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Sunny Summer Fontinalia\""
+        ]
       }
     ],
     "special_food": {
@@ -1049,6 +1057,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1086,6 +1098,10 @@
             "Moondew Cleanse DMG|{param6:F2P} Max HP ×3",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1137,6 +1153,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1174,6 +1194,10 @@
             "Moondew Cleanse DMG|{param6:F2P} Max HP ×3",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1225,6 +1249,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1262,6 +1290,10 @@
             "Moondew Cleanse DMG|{param6:F2P} Max HP ×3",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1313,6 +1345,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1350,6 +1386,10 @@
             "Moondew Cleanse DMG|{param6:F2P} Max HP ×3",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1401,6 +1441,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1438,6 +1482,10 @@
             "Moondew Cleanse DMG|{param6:F2P} Max HP ×3",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1489,6 +1537,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1526,6 +1578,10 @@
             "Moondew Cleanse DMG|{param6:F2P} Max HP ×3",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1577,6 +1633,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1621,6 +1681,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1658,6 +1722,10 @@
             "Moondew Cleanse DMG|{param6:F2P} Max HP ×3",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1716,6 +1784,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1753,6 +1825,10 @@
             "Gravity Limit|{param8:I}",
             "Gravity Ripple Duration|{param9:F1}s",
             "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1804,6 +1880,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1841,6 +1921,10 @@
             "Gravity Limit|{param8:I}",
             "Gravity Ripple Duration|{param9:F1}s",
             "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1892,6 +1976,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1929,6 +2017,10 @@
             "Gravity Limit|{param8:I}",
             "Gravity Ripple Duration|{param9:F1}s",
             "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1980,6 +2072,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2017,6 +2113,10 @@
             "Gravity Limit|{param8:I}",
             "Gravity Ripple Duration|{param9:F1}s",
             "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2068,6 +2168,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2105,6 +2209,10 @@
             "Gravity Limit|{param8:I}",
             "Gravity Ripple Duration|{param9:F1}s",
             "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2156,6 +2264,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2193,6 +2305,10 @@
             "Gravity Limit|{param8:I}",
             "Gravity Ripple Duration|{param9:F1}s",
             "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2244,6 +2360,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2288,6 +2408,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2325,6 +2449,10 @@
             "Gravity Limit|{param8:I}",
             "Gravity Ripple Duration|{param9:F1}s",
             "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2383,6 +2511,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2417,6 +2549,10 @@
             "Lunar Domain Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2471,6 +2607,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2505,6 +2645,10 @@
             "Lunar Domain Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2559,6 +2703,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2593,6 +2741,10 @@
             "Lunar Domain Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2647,6 +2799,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2681,6 +2837,10 @@
             "Lunar Domain Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2735,6 +2895,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2769,6 +2933,10 @@
             "Lunar Domain Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2823,6 +2991,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2857,6 +3029,10 @@
             "Lunar Domain Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2911,6 +3087,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2955,6 +3135,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2989,6 +3173,10 @@
             "Lunar Domain Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3118,7 +3306,7 @@
     {
       "id": 1252501,
       "name": "Lunar Vigil",
-      "desc": "If one of your party members is incapacitated while in the Nod-Krai region, Columbina will revive this character. The amount of HP the character will have upon revival is based on Columbina's Friendship Level. This effect can occur once every 100s. This effect does not trigger in Domains, Trounce Domains, or the Spiral Abyss.\\nAdditionally, Columbina appears to have a special affinity for certain animals who are influenced by kuuvahki...",
+      "desc": "If one of your party members is incapacitated while in the Nod-Krai or Frost Moon regions, Columbina will revive this character. The amount of HP the character will have upon revival is based on Columbina's Friendship Level. This effect can occur once every 100s. This effect does not trigger in Domains, Trounce Domains, or the Spiral Abyss.\\nAdditionally, Columbina appears to have a special affinity for certain animals who are influenced by kuuvahki...",
       "icon": "UI_Talent_S_Columbina_08",
       "unlock": 0,
       "param_list": [
@@ -3971,5 +4159,288 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ExtraAttack",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 8.8
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Atk01_Ratio"
+    },
+    {
+      "name": "ExtraAttack",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 6.9
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Atk02_Ratio"
+    },
+    {
+      "name": "ExtraAttack",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 11
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Atk03_Ratio"
+    },
+    {
+      "name": "ExtraAttack",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "ExtraAtk_Ratio"
+    },
+    {
+      "name": "Columbina_MoonExtraAttack",
+      "icd": {
+        "tag": "MoonOvergrowDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV3",
+        "value": 20
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default"
+    },
+    {
+      "name": "Columbina_MoonExtraAttack",
+      "icd": {
+        "tag": "MoonOvergrowDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV3",
+        "value": 20
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default"
+    },
+    {
+      "name": "Columbina_MoonExtraAttack",
+      "icd": {
+        "tag": "MoonOvergrowDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV3",
+        "value": 20
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Default"
+    },
+    {
+      "name": "Columbina_ElementalArt_AvatarGadget",
+      "icd": {
+        "tag": "MoonShockDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Electric",
+      "attack_type": "Range",
+      "strike_type": "Default"
+    },
+    {
+      "name": "Columbina_ElementalArt_AvatarGadget",
+      "icd": {
+        "tag": "MoonCrystallizeWaterDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalArt_Overgrow_BulletTrigger",
+      "icd": {
+        "tag": "MoonOvergrowDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Default"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "DropBall",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Hydro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 66.66667,
+      "cd": 4.5,
+      "applications": 2,
+      "drop_id": 2018
+    },
+    {
+      "name": "DropBall",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Hydro",
+      "per_drop": 1,
+      "lifetime": 6,
+      "chance": 33.333330000000004,
+      "cd": 4.5,
+      "applications": 2,
+      "drop_id": 2018
+    }
+  ]
 }

@@ -1029,6 +1029,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1068,6 +1072,10 @@
             "Max Duration|{param8:F1}s",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1117,6 +1125,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1156,6 +1168,10 @@
             "Max Duration|{param8:F1}s",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1205,6 +1221,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1244,6 +1264,10 @@
             "Max Duration|{param8:F1}s",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1293,6 +1317,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1332,6 +1360,10 @@
             "Max Duration|{param8:F1}s",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1381,6 +1413,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1420,6 +1456,10 @@
             "Max Duration|{param8:F1}s",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1469,6 +1509,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1508,6 +1552,10 @@
             "Max Duration|{param8:F1}s",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1557,6 +1605,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1601,6 +1653,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1640,6 +1696,10 @@
             "Max Duration|{param8:F1}s",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1696,6 +1756,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1730,6 +1794,10 @@
             "Surging Blade DMG|{param5:F1P}",
             "Surging Blade Interval|{param6:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1784,6 +1852,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1818,6 +1890,10 @@
             "Surging Blade DMG|{param5:F1P}",
             "Surging Blade Interval|{param6:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1872,6 +1948,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1906,6 +1986,10 @@
             "Surging Blade DMG|{param5:F1P}",
             "Surging Blade Interval|{param6:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1960,6 +2044,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1994,6 +2082,10 @@
             "Surging Blade DMG|{param5:F1P}",
             "Surging Blade Interval|{param6:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2048,6 +2140,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2082,6 +2178,10 @@
             "Surging Blade DMG|{param5:F1P}",
             "Surging Blade Interval|{param6:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2136,6 +2236,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2170,6 +2274,10 @@
             "Surging Blade DMG|{param5:F1P}",
             "Surging Blade Interval|{param6:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2224,6 +2332,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2268,6 +2380,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2302,6 +2418,10 @@
             "Surging Blade DMG|{param5:F1P}",
             "Surging Blade Interval|{param6:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2363,6 +2483,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2397,6 +2521,10 @@
             "Cannon Fire Support Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2451,6 +2579,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2485,6 +2617,10 @@
             "Cannon Fire Support Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2539,6 +2675,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2573,6 +2713,10 @@
             "Cannon Fire Support Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2627,6 +2771,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2661,6 +2809,10 @@
             "Cannon Fire Support Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2715,6 +2867,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2749,6 +2905,10 @@
             "Cannon Fire Support Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2803,6 +2963,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2837,6 +3001,10 @@
             "Cannon Fire Support Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2891,6 +3059,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2935,6 +3107,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2969,6 +3145,10 @@
             "Cannon Fire Support Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3922,5 +4102,398 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "Navia_NormalAttack_3_Claymore",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50.5
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": 0.2
+    },
+    {
+      "name": "Navia_NormalAttack_3_Claymore",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50.5
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": 0.2
+    },
+    {
+      "name": "Navia_NormalAttack_3_Claymore",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50.5
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": 0.2
+    },
+    {
+      "name": "Navia_NormalAttack_3_Claymore",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50.5
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": 0.2
+    },
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 150
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Ratio"
+    },
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 150
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Ratio"
+    },
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 150
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Ratio"
+    },
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 150
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Ratio"
+    },
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 150
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Ratio"
+    },
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 150
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Ratio"
+    },
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 150
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Ratio"
+    },
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 150
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Ratio"
+    },
+    {
+      "name": "ElementalArt_Pneuma",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "PneumaRatio"
+    },
+    {
+      "name": "ElementalArt_ShotGun_Bullet",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Ratio"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "First_Damge_Ratio"
+    },
+    {
+      "name": "Navia_Burst_Follow_Gadget",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Avatar_Navia_Burst"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 50
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Ratio"
+    },
+    {
+      "name": "Navia_Talent_2_Driver",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Avatar_Navia_Burst"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 50
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Ratio"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 150
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 200
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 200
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "Rock_ElemBall",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Geo",
+      "per_drop": 1,
+      "lifetime": 9,
+      "chance": 100,
+      "cd": 0.2,
+      "applications": 1,
+      "drop_id": 2023
+    },
+    {
+      "name": "Rock_ElemBall",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Geo",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 50,
+      "cd": 0.2,
+      "applications": 1,
+      "drop_id": 2023
+    }
+  ]
 }

@@ -2148,6 +2148,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2186,6 +2190,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2236,6 +2244,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2274,6 +2286,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2324,6 +2340,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2362,6 +2382,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2412,6 +2436,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2450,6 +2478,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2500,6 +2532,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2538,6 +2574,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2588,6 +2628,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2626,6 +2670,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2676,6 +2724,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2720,6 +2772,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2758,6 +2814,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2815,6 +2875,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2847,6 +2911,10 @@
             "Skill DMG|{param1:P}",
             "Meteorite Duration|{param2:F1}s",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2903,6 +2971,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2935,6 +3007,10 @@
             "Skill DMG|{param1:P}",
             "Meteorite Duration|{param2:F1}s",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2991,6 +3067,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3023,6 +3103,10 @@
             "Skill DMG|{param1:P}",
             "Meteorite Duration|{param2:F1}s",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3079,6 +3163,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3111,6 +3199,10 @@
             "Skill DMG|{param1:P}",
             "Meteorite Duration|{param2:F1}s",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3167,6 +3259,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3199,6 +3295,10 @@
             "Skill DMG|{param1:P}",
             "Meteorite Duration|{param2:F1}s",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3255,6 +3355,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3287,6 +3391,10 @@
             "Skill DMG|{param1:P}",
             "Meteorite Duration|{param2:F1}s",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3343,6 +3451,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3387,6 +3499,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3419,6 +3535,10 @@
             "Skill DMG|{param1:P}",
             "Meteorite Duration|{param2:F1}s",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3482,6 +3602,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3515,6 +3639,10 @@
             "Stonewall Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3570,6 +3698,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3603,6 +3735,10 @@
             "Stonewall Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3658,6 +3794,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3691,6 +3831,10 @@
             "Stonewall Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3746,6 +3890,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3779,6 +3927,10 @@
             "Stonewall Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3834,6 +3986,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3867,6 +4023,10 @@
             "Stonewall Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3922,6 +4082,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3955,6 +4119,10 @@
             "Stonewall Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -4010,6 +4178,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -4054,6 +4226,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -4087,6 +4263,10 @@
             "Stonewall Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -4982,5 +5162,168 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "Hogyoku_Barrier",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV5",
+        "value": 133.2
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Explode"
+    },
+    {
+      "name": "Hogyoku_Barrier",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 133.2
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Explode"
+    },
+    {
+      "name": "Hogyoku_Barrier_EndBoom",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 133.2
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Explode"
+    },
+    {
+      "name": "RockTide_AttackWave",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "AttackWaveDamage"
+    },
+    {
+      "name": "RockTide_Barrier",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 10.59
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": 0.1
+    },
+    {
+      "name": "Avalanche",
+      "icd": {
+        "tag": "NormalAttack_05",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 13.5
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "Avalanche_Damage"
+    },
+    {
+      "name": "EnhancedExtraAttack",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50.6
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": [
+        "ExtraAttack_Enhanced_1_BaseDamagePercentage",
+        "ExtraAttack_Enhanced_ratio",
+        "ADD"
+      ]
+    },
+    {
+      "name": "EnhancedExtraAttack",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50.6
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": [
+        "ExtraAttack_Enhanced_2_BaseDamagePercentage",
+        "ExtraAttack_Enhanced_ratio",
+        "ADD"
+      ]
+    }
+  ],
+  "energy": [
+    {
+      "name": "Hogyoku_AttackHandler",
+      "skill": "Hogyoku_Barrier",
+      "kind": "Other",
+      "element": "Geo",
+      "per_drop": 1,
+      "lifetime": 9,
+      "chance": 100,
+      "cd": 5,
+      "applications": 1,
+      "drop_id": 2023
+    },
+    {
+      "name": "Hogyoku_AttackHandler",
+      "skill": "Hogyoku_Barrier",
+      "kind": "Other",
+      "element": "Geo",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 33,
+      "cd": 5,
+      "applications": 1,
+      "drop_id": 2023
+    }
+  ]
 }

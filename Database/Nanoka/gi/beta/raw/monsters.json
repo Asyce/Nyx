@@ -112,7 +112,7 @@
     "icon": "UI_MonsterIcon_Slime_Fire_03",
     "en": "Large Pyro Slime",
     "desc": "A monster created by the sedimentation of Pyro dispersed throughout nature.\\nThough its intelligence has not increased with its size, it is very hot. During dry seasons, it can cause wildfires. It will spit forth blazing fireballs when angered, and will turn dark when it is feeling down. A most expressive slime, indeed.",
-    "ko": "거대 화염 슬라임",
+    "ko": "",
     "zh": "大型火史莱姆",
     "ja": "大型炎スライム"
   },
@@ -528,7 +528,7 @@
     "desc": "Muscular hilichurls who wield large two-handed axes.\\nAttacks with large strikes, and will use Pyro Slimes to infuse their axes with Pyro. They are very lethal.\\nUsually, repeatedly quenching a weapon the way a Blazing Axe Mitachurl does will decrease the hardness of the metal and cause the axe-head's edge to chip more easily. But such is the strength of the mitachurls that even should the edge disappear altogether, they can still use their axes as hammers.",
     "ko": "불도끼 츄츄 폭도",
     "zh": "火斧丘丘暴徒",
-    "ja": ""
+    "ja": "ヒルチャール暴徒·炎斧"
   },
   "21020301": {
     "codex": "HILICHURL",
@@ -931,7 +931,7 @@
     "icon": "UI_MonsterIcon_Skirmisher_Male_Fat_SprayGun_Water_01",
     "en": "Fatui Skirmisher - Hydrogunner Legionnaire",
     "desc": "A soldier encased within a Fatui war machine.\\nArmed with equipment that can control the elements to a certain extent, their guns are capable of firing jets of water.\\nThese skirmishers do not question if they shall live or die as they advance into nations far from home to complete reconnaissance missions and lay the groundwork for operations to come.",
-    "ko": "우인단 선발대·물총 중보병",
+    "ko": "",
     "zh": "愚人众先遣队·水铳重卫士",
     "ja": "ファデュイ先遣隊·重衛士·水銃"
   },
@@ -1084,7 +1084,7 @@
     "icon": "UI_MonsterIcon_Oprichnik_Male_Strong_LanceArquebus",
     "en": "Oprichniki Fireblade Shock Trooper",
     "desc": "An elite officer of the Fatui Oprichniki who specializes in close combat using a giant blade.\\nWhether it be in the war against the dark calamity or against those ignoramuses who dare stand against the Tsaritsa's ideals, those who breach at the tip of the spear suffer the greatest casualties. As such, those who survive multiple battles are naturally the elite of the elite. There will always be those willing to become the fire and sword of the empire, just as there will always be those who chafe against the injustice of fate and the inequity of the Old World.",
-    "ko": "우인단 특수부대·화염검 돌격대",
+    "ko": "",
     "zh": "愚人众特辖队·火刃突击队",
     "ja": "ファデュイ特務隊・突撃兵・ファイアーブレイド"
   },
@@ -1246,9 +1246,9 @@
     "icon": "UI_MonsterIcon_Apparatus_Enigma_BionicInsecta",
     "en": "Ruin Defender",
     "desc": "Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals.\\nLegend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common Ruin Guards, their design has greater value in the study of biomimesis. The insect-like limbs are more agile than those of humanoid machines. The shield formed by its various components can resist any frontal attack.",
-    "ko": "유적 방어자",
+    "ko": "",
     "zh": "遗迹防卫者",
-    "ja": "遺跡防衛者"
+    "ja": ""
   },
   "24020401": {
     "codex": "AUTOMATRON",
@@ -1363,7 +1363,7 @@
     "icon": "UI_MonsterIcon_MachinaIustitia_Recon",
     "en": "Underwater Survey Mek",
     "desc": "A clockwork meka designed for underwater surveying.\\nIn the absence of significant breakthroughs in dynamics research, kinematics research has had the most significant impact on clockwork meka design. For machines designed to perform specific tasks, biomimesis has sometimes provided the most convenient solutions.",
-    "ko": "장치·수중 탐측 타입",
+    "ko": "",
     "zh": "机关·水下勘测型",
     "ja": "マシナリー·水中観測型"
   },
@@ -1491,7 +1491,7 @@
     "desc": "An ancient machine trapped amongst the lunar ruins. Even the sturdiest and most reliable machines will be conquered by the passing of long years, losing the purpose bestowed upon them by their creators. Now, this entity only attacks and eliminates anything that dares set foot on the ground it defends.\\nIn the records of a long-lost ancient civilization, these out-of-control machines were once called \"Ur-Namrasit-Tilimtu-Babbar,\" or \"the one who brings light to the darkness.\" With a yearning for the boundless sea of stars, the leaders of the \"pioneers\" engraved their most earnest words in golden sigils, hoping that their successors, with the help of these assistants, would be able to keep the light that illuminates the universe shining bright.\\nAlas, the light did not arise for anyone, and the machine that was given the title of \"overseer\" did not manage to wait for the one it should have served. Now, stranded in these ruins, it is but the last, out-of-control remnant of a long-lost ideal.",
     "ko": "선구자의 비밀근원 관리체계",
     "zh": "先驱秘源统辖阵列",
-    "ja": "先駆秘源マスター陣形"
+    "ja": "先駆秘源コマンダー陣形"
   },
   "24100101": {
     "codex": "AUTOMATRON",
@@ -1588,7 +1588,7 @@
     "icon": "UI_MonsterIcon_Thoarder_Male_Crossbow_01",
     "en": "Treasure Hoarders: Raptor",
     "desc": "",
-    "ko": "보물 사냥단·「괴조」",
+    "ko": "",
     "zh": "盗宝团·「怪鸟」",
     "ja": "宝盗団·「怪鳥」"
   },
@@ -1788,7 +1788,7 @@
     "desc": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\\nA professional mercenary who cares about nothing outside of work and the mission at hand. To such people, their only game plan is to complete the mission, and their high asking prices on the market match that committment.\\nAn ominous, fragmented spirit is sealed within the weapon they use, awakening in moments of peril. Once it does, it can only be silenced by the cries of the vanquished — whether that be its wielder, or its wielder's foe.",
     "ko": "도금 여단·태양의 서리",
     "zh": "镀金旅团·炽阳凝冰",
-    "ja": ""
+    "ja": "エルマイト旅団·サンフロスト"
   },
   "25310301": {
     "codex": "HUMAN",
@@ -1824,7 +1824,7 @@
     "desc": "A person hailing from the loosely-organized mercenary bands of the desert. Even though they will work for anyone as long as the pay is good, they will never forget their roots in the Great Red Sand.\\nAfter the collapse of its civilizations, the stories of the desert were passed down generation after generation in oral tradition just like the sparks in the wind and the rain in the clouds. As time passed, some stories were lost while others survived, albeit with significant changes.\\n\"The Eremites\" is the umbrella term given to the tribes of the desert by those too ignorant or disdainful to learn the tribes' myriad differences. Within those referred to as the Eremites, many have also indeed already forgotten the tales of the desert. Fear not, however, for those who still remember will never betray the spirit of the sands yet flowing through their veins.",
     "ko": "도금 여단·모래의 이야기꾼",
     "zh": "镀金旅团·炽沙叙事人",
-    "ja": ""
+    "ja": "エルマイト旅団·サンドロアマスター"
   },
   "25410401": {
     "codex": "HUMAN",
@@ -2040,7 +2040,7 @@
     "desc": "A powerful warrior from the source of the springs, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\\nA warrior who can temporarily harness the power of the waves to shuttle back and forth. According to legend, the tribe's heroes can take advantage of exceptional speed to move across the waves with no need of any tool. Today, the tribe believes this to be a sophisticated, complex art used to drive the waves, with the way one moves being at its heart.",
     "ko": "어룡 무사·파도타기",
     "zh": "鳍游龙武士·穿浪之梭",
-    "ja": ""
+    "ja": "コホラ竜戦士·裂波のスロワー"
   },
   "25510601": {
     "codex": "HUMAN",
@@ -2121,7 +2121,7 @@
     "desc": "A mimetic plant monster that appears out of nowhere and uses Cryo in combat.\\nThese plants lurk under the surface and ambush unsuspecting prey. With the passage of years, sufficient nutrition, and the right environment, it could even take root somewhere and grow into a giant Cryo Regisvine...",
     "ko": "얼어붙은 구라구라꽃",
     "zh": "冰霜骗骗花",
-    "ja": ""
+    "ja": "トリックフラワー·氷"
   },
   "26010201": {
     "codex": "BEAST",
@@ -2272,7 +2272,7 @@
     "icon": "UI_MonsterIcon_Fungus_Un_Delta_Wind",
     "en": "Floating Anemo Fungus",
     "desc": "A spore organism of some intelligence. It possesses extreme adaptability.\\nThis mushroom may have a sizable cap, but the umbrella-shaped structure is in fact hollow, and thus does not make for a particularly good meal.",
-    "ko": "둥실 바람 버섯몬",
+    "ko": "",
     "zh": "浮游风蕈兽",
     "ja": "プカプカ風キノコン"
   },
@@ -2290,7 +2290,7 @@
     "icon": "UI_MonsterIcon_Fungus_Trois_Alpha_Ice",
     "en": "Whirling Cryo Fungus",
     "desc": "A spore organism of some intelligence. It possesses extreme adaptability.\\nPutting Fungi on ice does not make them taste any better, but it does at least help with relieving the heat.",
-    "ko": "빙글 얼음 버섯몬",
+    "ko": "",
     "zh": "旋转冰蕈兽",
     "ja": "グルグル氷キノコン"
   },
@@ -4791,7 +4791,7 @@
     "codex": "FISH",
     "icon": "UI_AnimalIcon_Orca_01_Alter",
     "en": "Moonglow Frostfin Whale",
-    "desc": "A wondrous aquatic creature altered by the influence of kuuvahki.\\nAccording to the studies of the Snezhnayan biologist Hvilyolo Verkhratskyi five hundred years ago, the concentration of kuuvahki on the surface is generally considered too low to cause physical changes in creatures of such enormous size. Perhaps that is why these rare, differently colored individuals have taken on a more romantic meaning. In the folk tales of Nod-Krai, it is said that anyone who sees a pink Frostfin Whale will have their wish come true. Some versions of the tales of Reed Miller, the legendary thief, even tell of a so-called \"King of Whales\" who helped Reed and his merry companions resist the sirens' bewitching song — and, in turn, caused the siren queen herself to fall in love with him at first sight.\\nBut tall tales are still tall tales, and a pink whale, in the end, is still only a whale.",
+    "desc": "A wondrous aquatic creature altered by the influence of kuuvahki.\\nAccording to the studies of the Snezhnayan biologist Hvylyolo Verkhratsky five hundred years ago, the concentration of kuuvahki on the surface is generally considered too low to cause physical changes in creatures of such enormous size. Perhaps that is why these rare, differently colored individuals have taken on a more romantic meaning. In the folk tales of Nod-Krai, it is said that anyone who sees a pink Frostfin Whale will have their wish come true. Some versions of the tales of Reed Miller, the legendary thief, even tell of a so-called \"King of Whales\" who helped Reed and his merry companions resist the sirens' bewitching song — and, in turn, caused the siren queen herself to fall in love with him at first sight.\\nBut tall tales are still tall tales, and a pink whale, in the end, is still only a whale.",
     "ko": "달빛 서리 범고래",
     "zh": "月芒霜鳍鲸",
     "ja": "月光フロストフィンイルカ"
@@ -4911,7 +4911,7 @@
     "desc": "Reviled far and wide as a heretic, The Doctor — Second of the Eleven Fatui Harbingers — has seized the authority of the three moons and now ascends the long steps toward the divine throne of the \"new world.\"\\nAll should have belonged to us.\\nBut reason cast out all that exceeded its limits, leaving humanity blind to its true nature.\\nLife and death bound us into mortal shells, shackling every spark of aspiration.\\nTime and space closed in last of all, fencing the mind into meek obedience, so no one would dare imagine breaking free.\\nFrom that point on, false gods governed the world, each one declaring their own truth as the sole, unassailable gospel — though none deserved the mantle they so loudly coveted.\\nThere is no inherent structure to life's flow — order was merely imposed upon it. Strip away every shackle laid across this world, and the essence of all things will at last come into view.\\nAnd that revelation... is the first light of the new world.\\n\"How much longer will you continue to suffer this stagnant, obsolescent world?\"",
     "ko": "「도토레」",
     "zh": "「博士」",
-    "ja": ""
+    "ja": "「博士」"
   },
   "29150101": {
     "codex": "BOSS",

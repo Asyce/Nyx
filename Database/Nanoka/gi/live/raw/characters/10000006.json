@@ -1026,6 +1026,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1063,6 +1067,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1114,6 +1122,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1151,6 +1163,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1202,6 +1218,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1239,6 +1259,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1290,6 +1314,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1327,6 +1355,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1378,6 +1410,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1415,6 +1451,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1466,6 +1506,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1503,6 +1547,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1554,6 +1602,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1598,6 +1650,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1635,6 +1691,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1693,6 +1753,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1729,6 +1793,10 @@
             "Stack 2 Conductive Hold DMG|{param3:P}",
             "Stack 3 Conductive Hold DMG|{param4:P}",
             "Holding CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1781,6 +1849,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1817,6 +1889,10 @@
             "Stack 2 Conductive Hold DMG|{param3:P}",
             "Stack 3 Conductive Hold DMG|{param4:P}",
             "Holding CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1869,6 +1945,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1905,6 +1985,10 @@
             "Stack 2 Conductive Hold DMG|{param3:P}",
             "Stack 3 Conductive Hold DMG|{param4:P}",
             "Holding CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1957,6 +2041,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1993,6 +2081,10 @@
             "Stack 2 Conductive Hold DMG|{param3:P}",
             "Stack 3 Conductive Hold DMG|{param4:P}",
             "Holding CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2045,6 +2137,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2081,6 +2177,10 @@
             "Stack 2 Conductive Hold DMG|{param3:P}",
             "Stack 3 Conductive Hold DMG|{param4:P}",
             "Holding CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2133,6 +2233,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2169,6 +2273,10 @@
             "Stack 2 Conductive Hold DMG|{param3:P}",
             "Stack 3 Conductive Hold DMG|{param4:P}",
             "Holding CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2221,6 +2329,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2265,6 +2377,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2301,6 +2417,10 @@
             "Stack 2 Conductive Hold DMG|{param3:P}",
             "Stack 3 Conductive Hold DMG|{param4:P}",
             "Holding CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2360,6 +2480,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2393,6 +2517,10 @@
             "Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2448,6 +2576,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2481,6 +2613,10 @@
             "Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2536,6 +2672,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2569,6 +2709,10 @@
             "Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2624,6 +2768,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2657,6 +2805,10 @@
             "Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2712,6 +2864,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2745,6 +2901,10 @@
             "Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2800,6 +2960,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2833,6 +2997,10 @@
             "Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2888,6 +3056,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2932,6 +3104,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2965,6 +3141,10 @@
             "Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3919,5 +4099,339 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ExtraAttack_Damage",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 15
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Lisa_ExtraAttack_Damage"
+    },
+    {
+      "name": "Attack01",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV3",
+        "value": 60
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
+      "name": "Attack01",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 6.75
+      },
+      "element": "Electric",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Damage01"
+    },
+    {
+      "name": "Attack02",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV3",
+        "value": 60
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
+      "name": "Attack02",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 6
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Damage02"
+    },
+    {
+      "name": "Attack03",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV3",
+        "value": 60
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
+      "name": "Attack03",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 7.35
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Damage03"
+    },
+    {
+      "name": "Attack04",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV3",
+        "value": 60
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
+      "name": "Attack04",
+      "icd": {
+        "tag": "NormalAttack_04",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 8.7
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Damage04"
+    },
+    {
+      "name": "FlickerWaveDamage",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 18
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Damage"
+    },
+    {
+      "name": "ThunderFall",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV2",
+        "value": 150
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Damage_0"
+    },
+    {
+      "name": "ThunderFall",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV2",
+        "value": 195
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Damage_1"
+    },
+    {
+      "name": "ThunderFall",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV2",
+        "value": 240
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Damage_2"
+    },
+    {
+      "name": "ThunderFall",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV2",
+        "value": 300
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Damage_3"
+    },
+    {
+      "name": "PierceLightning",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV4",
+        "value": 10
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": 0.1
+    },
+    {
+      "name": "PierceLightning_Ball_Attack",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "Ball",
+      "skill": "FlickerWaveDamage",
+      "kind": "Other",
+      "element": "Electro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 50,
+      "cd": 1,
+      "applications": 1,
+      "drop_id": 2020
+    },
+    {
+      "name": "ThunderFall_GenerateEelmentBall",
+      "skill": "ThunderFall",
+      "kind": "Other",
+      "element": "Electro",
+      "per_drop": 1,
+      "lifetime": 15,
+      "chance": 100,
+      "cd": 0.2,
+      "applications": 1,
+      "drop_id": 2020
+    },
+    {
+      "name": "ThunderFall_ElementBall_1",
+      "skill": "ThunderFall",
+      "kind": "Other",
+      "element": "Electro",
+      "per_drop": 1,
+      "lifetime": 15,
+      "chance": 100,
+      "cd": 1,
+      "applications": 1,
+      "drop_id": 2020
+    }
+  ]
 }

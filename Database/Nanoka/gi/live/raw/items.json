@@ -1095,6 +1095,12 @@
     "icon": "UI_ItemIcon_101269",
     "type": "Local Specialty (Nod-Krai)"
   },
+  "101270": {
+    "name": "Teardrop of the Moon",
+    "rank": 0,
+    "icon": "UI_ItemIcon_101270",
+    "type": "Local Specialty (Nod-Krai)"
+  },
   "101271": {
     "name": "Windrest Flower",
     "rank": 0,
@@ -2134,6 +2140,12 @@
     "name": "Borderland Shrine of Depths Key",
     "rank": 0,
     "icon": "UI_ItemIcon_107031",
+    "type": "Adventure Item"
+  },
+  "107032": {
+    "name": "Frost Moon Shrine of Depths Key",
+    "rank": 0,
+    "icon": "UI_ItemIcon_107032",
     "type": "Adventure Item"
   },
   "107033": {
@@ -8725,6 +8737,68 @@
     "icon": "UI_ItemIcon_108879",
     "type": "Food"
   },
+  "108976": {
+    "name": "Tea Party Polyphony",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108880",
+    "type": "Food"
+  },
+  "108977": {
+    "name": "Suspicious Birch-Steamed Pork Ribs",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108881",
+    "type": "Food",
+    "food": "FOOD_QUALITY_STRANGE"
+  },
+  "108978": {
+    "name": "Birch-Steamed Pork Ribs",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108881",
+    "type": "Food",
+    "food": "FOOD_QUALITY_ORDINARY"
+  },
+  "108979": {
+    "name": "Delicious Birch-Steamed Pork Ribs",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108881",
+    "type": "Food",
+    "food": "FOOD_QUALITY_DELICIOUS"
+  },
+  "108980": {
+    "name": "Suspicious Meat-Filled Rye Bun",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108882",
+    "type": "Food",
+    "food": "FOOD_QUALITY_STRANGE"
+  },
+  "108981": {
+    "name": "Meat-Filled Rye Bun",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108882",
+    "type": "Food",
+    "food": "FOOD_QUALITY_ORDINARY"
+  },
+  "108982": {
+    "name": "Delicious Meat-Filled Rye Bun",
+    "rank": 2,
+    "icon": "UI_ItemIcon_108882",
+    "type": "Food",
+    "food": "FOOD_QUALITY_DELICIOUS"
+  },
+  "108983": {
+    "name": "Tea Party Prelude: Herbal Tea",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108883",
+    "type": "Food",
+    "food": "FOOD_QUALITY_DELICIOUS"
+  },
+  "108984": {
+    "name": "Tea Party Prelude: Artful Latte",
+    "rank": 3,
+    "icon": "UI_ItemIcon_108884",
+    "type": "Food",
+    "food": "FOOD_QUALITY_DELICIOUS"
+  },
   "110001": {
     "name": "Flour",
     "rank": 0,
@@ -9833,6 +9907,24 @@
     "name": "Jeweled Flaming Hilt",
     "rank": 4,
     "icon": "UI_ItemIcon_112142",
+    "type": "Character and Weapon Enhancement Material"
+  },
+  "112143": {
+    "name": "Fractured Lunar Iron",
+    "rank": 2,
+    "icon": "UI_ItemIcon_112143",
+    "type": "Character and Weapon Enhancement Material"
+  },
+  "112144": {
+    "name": "Depleted Lunar Iron",
+    "rank": 3,
+    "icon": "UI_ItemIcon_112144",
+    "type": "Character and Weapon Enhancement Material"
+  },
+  "112145": {
+    "name": "Unblemished Lunar Iron",
+    "rank": 4,
+    "icon": "UI_ItemIcon_112145",
     "type": "Character and Weapon Enhancement Material"
   },
   "113001": {
@@ -11177,6 +11269,18 @@
     "name": "Segment-Domain Control Module: Zero Particle",
     "rank": 4,
     "icon": "UI_ItemIcon_121602",
+    "type": "Adventure Item"
+  },
+  "121603": {
+    "name": "Frost Moon Seal",
+    "rank": 4,
+    "icon": "UI_ItemIcon_121603",
+    "type": "Adventure Item"
+  },
+  "121604": {
+    "name": "Frost Moon Seal",
+    "rank": 4,
+    "icon": "UI_ItemIcon_121604",
     "type": "Adventure Item"
   },
   "130001": {
@@ -12647,6 +12751,18 @@
     "name": "Linnea's Naturalist Archive",
     "rank": 4,
     "icon": "UI_ItemIcon_220131",
+    "type": "Gadget"
+  },
+  "220132": {
+    "name": "Sandrone's Portable Tea Table",
+    "rank": 4,
+    "icon": "UI_ItemIcon_220132",
+    "type": "Gadget"
+  },
+  "220134": {
+    "name": "Witch's Revelation Case",
+    "rank": 5,
+    "icon": "UI_ItemIcon_220134",
     "type": "Gadget"
   }
 }

@@ -979,6 +979,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1015,6 +1019,10 @@
             "Fully-Charged Aimed Shot|{param5:P}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1067,6 +1075,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1103,6 +1115,10 @@
             "Fully-Charged Aimed Shot|{param5:P}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1155,6 +1171,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1191,6 +1211,10 @@
             "Fully-Charged Aimed Shot|{param5:P}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1243,6 +1267,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1279,6 +1307,10 @@
             "Fully-Charged Aimed Shot|{param5:P}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1331,6 +1363,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1367,6 +1403,10 @@
             "Fully-Charged Aimed Shot|{param5:P}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1419,6 +1459,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1455,6 +1499,10 @@
             "Fully-Charged Aimed Shot|{param5:P}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1507,6 +1555,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1551,6 +1603,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1587,6 +1643,10 @@
             "Fully-Charged Aimed Shot|{param5:P}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1646,6 +1706,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1677,6 +1741,10 @@
           "desc": [
             "Spirit Orb DMG|{param1:F1P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1734,6 +1802,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1765,6 +1837,10 @@
           "desc": [
             "Spirit Orb DMG|{param1:F1P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1822,6 +1898,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1853,6 +1933,10 @@
           "desc": [
             "Spirit Orb DMG|{param1:F1P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1910,6 +1994,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1941,6 +2029,10 @@
           "desc": [
             "Spirit Orb DMG|{param1:F1P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1998,6 +2090,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2029,6 +2125,10 @@
           "desc": [
             "Spirit Orb DMG|{param1:F1P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2086,6 +2186,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2117,6 +2221,10 @@
           "desc": [
             "Spirit Orb DMG|{param1:F1P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2174,6 +2282,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2218,6 +2330,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2249,6 +2365,10 @@
           "desc": [
             "Spirit Orb DMG|{param1:F1P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2313,6 +2433,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2347,6 +2471,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2401,6 +2529,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2435,6 +2567,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2489,6 +2625,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2523,6 +2663,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2577,6 +2721,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2611,6 +2759,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2665,6 +2817,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2699,6 +2855,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2753,6 +2913,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2787,6 +2951,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2841,6 +3009,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2885,6 +3057,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2919,6 +3095,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3901,5 +4081,168 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "Bullet_Olorun_ShootArrow_Enchanted_WithoutElec",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithoutElec"
+    },
+    {
+      "name": "Bullet_Olorun_ShootArrow_WithElec",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithElec"
+    },
+    {
+      "name": "Bullet_Olorun_ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 100
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalBurst_ReleaseDamage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "NyxState",
+      "icd": {
+        "tag": "Olorun_Thunder",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 15
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Damage_ExpendNyx"
+    },
+    {
+      "name": "Constellation_AttackUp",
+      "icd": {
+        "tag": "Olorun_Thunder",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 15
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Damage_Constellation6",
+        "Damage_ExpendNyx",
+        "MUL"
+      ]
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementalArt_DropBall",
+      "skill": "ElementalArt_DropBall",
+      "kind": "ElementalArt",
+      "element": "Electro",
+      "per_drop": 1,
+      "lifetime": 9,
+      "chance": 100,
+      "cd": 0.3,
+      "applications": 1,
+      "drop_id": 2020
+    }
+  ]
 }

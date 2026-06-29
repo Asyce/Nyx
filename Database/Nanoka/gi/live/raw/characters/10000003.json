@@ -1023,6 +1023,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1061,6 +1065,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1111,6 +1119,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1149,6 +1161,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1199,6 +1215,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1237,6 +1257,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1287,6 +1311,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1325,6 +1353,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1375,6 +1407,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1413,6 +1449,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1463,6 +1503,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1501,6 +1545,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1551,6 +1599,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1595,6 +1647,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1633,6 +1689,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1690,6 +1750,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1723,6 +1787,10 @@
             "Stamina Consumption|{param2:F1}/s",
             "Max Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1778,6 +1846,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1811,6 +1883,10 @@
             "Stamina Consumption|{param2:F1}/s",
             "Max Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1866,6 +1942,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1899,6 +1979,10 @@
             "Stamina Consumption|{param2:F1}/s",
             "Max Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1954,6 +2038,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1987,6 +2075,10 @@
             "Stamina Consumption|{param2:F1}/s",
             "Max Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2042,6 +2134,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2075,6 +2171,10 @@
             "Stamina Consumption|{param2:F1}/s",
             "Max Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2130,6 +2230,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2163,6 +2267,10 @@
             "Stamina Consumption|{param2:F1}/s",
             "Max Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2218,6 +2326,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2262,6 +2374,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2295,6 +2411,10 @@
             "Stamina Consumption|{param2:F1}/s",
             "Max Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2357,6 +2477,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2392,6 +2516,10 @@
             "Continuous Regeneration|{param5:F2P} ATK+{param6:I}/s",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2445,6 +2573,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2480,6 +2612,10 @@
             "Continuous Regeneration|{param5:F2P} ATK+{param6:I}/s",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2533,6 +2669,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2568,6 +2708,10 @@
             "Continuous Regeneration|{param5:F2P} ATK+{param6:I}/s",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2621,6 +2765,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2656,6 +2804,10 @@
             "Continuous Regeneration|{param5:F2P} ATK+{param6:I}/s",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2709,6 +2861,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2744,6 +2900,10 @@
             "Continuous Regeneration|{param5:F2P} ATK+{param6:I}/s",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2797,6 +2957,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2832,6 +2996,10 @@
             "Continuous Regeneration|{param5:F2P} ATK+{param6:I}/s",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2885,6 +3053,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2929,6 +3101,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2964,6 +3140,10 @@
             "Continuous Regeneration|{param5:F2P} ATK+{param6:I}/s",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3916,5 +4096,155 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "VortexSmash",
+      "icd": {
+        "tag": "VortexSmash_Detect",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
+      "name": "VortexSmash",
+      "icd": {
+        "tag": "VortexSmash_Detect_Short",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
+      "name": "VortexSmash",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV9",
+        "value": 250
+      },
+      "element": "Wind",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "Art_DMG"
+    },
+    {
+      "name": "VortexSmash",
+      "icd": {
+        "tag": "Qin_VortexSmash",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV9",
+        "value": 250
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Default"
+    },
+    {
+      "name": "DandelionWind_Push",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV4",
+        "value": 400
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Burst_DMG"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "Ball",
+      "skill": "VortexSmash",
+      "kind": "Other",
+      "element": "Anemo",
+      "per_drop": 1,
+      "lifetime": 6,
+      "chance": 100,
+      "cd": 0.3,
+      "applications": 1,
+      "drop_id": 2021
+    },
+    {
+      "name": "Ball_Extra",
+      "skill": "VortexSmash",
+      "kind": "Other",
+      "element": "Anemo",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 67,
+      "cd": 1,
+      "applications": 1,
+      "drop_id": 2021
+    }
+  ]
 }

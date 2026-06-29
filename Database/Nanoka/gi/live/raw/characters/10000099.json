@@ -980,6 +980,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1017,6 +1021,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1068,6 +1076,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1105,6 +1117,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1156,6 +1172,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1193,6 +1213,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1244,6 +1268,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1281,6 +1309,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1332,6 +1364,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1369,6 +1405,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1420,6 +1460,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1457,6 +1501,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1508,6 +1556,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1552,6 +1604,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1589,6 +1645,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1647,6 +1707,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1683,6 +1747,10 @@
             "Spiritbreath Thorn DMG|{param5:F1P}",
             "Spiritbreath Thorn Interval|{param6:F1}s",
             "Skill CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1735,6 +1803,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1771,6 +1843,10 @@
             "Spiritbreath Thorn DMG|{param5:F1P}",
             "Spiritbreath Thorn Interval|{param6:F1}s",
             "Skill CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1823,6 +1899,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1859,6 +1939,10 @@
             "Spiritbreath Thorn DMG|{param5:F1P}",
             "Spiritbreath Thorn Interval|{param6:F1}s",
             "Skill CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1911,6 +1995,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1947,6 +2035,10 @@
             "Spiritbreath Thorn DMG|{param5:F1P}",
             "Spiritbreath Thorn Interval|{param6:F1}s",
             "Skill CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1999,6 +2091,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2035,6 +2131,10 @@
             "Spiritbreath Thorn DMG|{param5:F1P}",
             "Spiritbreath Thorn Interval|{param6:F1}s",
             "Skill CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2087,6 +2187,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2123,6 +2227,10 @@
             "Spiritbreath Thorn DMG|{param5:F1P}",
             "Spiritbreath Thorn Interval|{param6:F1}s",
             "Skill CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2175,6 +2283,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2219,6 +2331,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2255,6 +2371,10 @@
             "Spiritbreath Thorn DMG|{param5:F1P}",
             "Spiritbreath Thorn Interval|{param6:F1}s",
             "Skill CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2314,6 +2434,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2347,6 +2471,10 @@
             "Level 3 Lumidouce Case Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2402,6 +2530,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2435,6 +2567,10 @@
             "Level 3 Lumidouce Case Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2490,6 +2626,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2523,6 +2663,10 @@
             "Level 3 Lumidouce Case Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2578,6 +2722,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2611,6 +2759,10 @@
             "Level 3 Lumidouce Case Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2666,6 +2818,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2699,6 +2855,10 @@
             "Level 3 Lumidouce Case Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2754,6 +2914,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2787,6 +2951,10 @@
             "Level 3 Lumidouce Case Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2842,6 +3010,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2886,6 +3058,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2919,6 +3095,10 @@
             "Level 3 Lumidouce Case Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3873,5 +4053,206 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "SkillObj_Emilie_ElementalArt_Ousia_Gadget",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV3",
+        "value": 20
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Arkhe_Damage"
+    },
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Art_Damage"
+    },
+    {
+      "name": "SkillObj_Emilie_ArtGadget",
+      "icd": {
+        "tag": "Emilie_PermanentSkill_1",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Damage4"
+    },
+    {
+      "name": "SkillObj_Emilie_BurstGadget",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 40
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Burst_Damage"
+    },
+    {
+      "name": "SkillObj_Emilie_BurstGadget",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 40
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Burst_Damage"
+    },
+    {
+      "name": "SkillObj_Emilie_ArtGadget_Bullet_Material",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Emilie_ElementalArt_Bullet"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 30
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Bullet_Damage1"
+    },
+    {
+      "name": "SkillObj_Emilie_ArtGadget_Bullet2_Material",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Emilie_ElementalArt_Bullet"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 30
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Bullet_Damage2"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV4",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "Ball",
+      "skill": "DropBall",
+      "kind": "Other",
+      "element": "Dendro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "cd": "CD",
+      "applications": 1,
+      "drop_id": 2019
+    },
+    {
+      "name": "Ball",
+      "skill": "DropBall",
+      "kind": "Other",
+      "element": "Dendro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "cd": "CD",
+      "applications": 1,
+      "drop_id": 2019
+    }
+  ]
 }

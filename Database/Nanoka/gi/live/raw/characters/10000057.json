@@ -1007,6 +1007,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1047,6 +1051,10 @@
             "Saichimonji Slash Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1095,6 +1103,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1135,6 +1147,10 @@
             "Saichimonji Slash Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1183,6 +1199,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1223,6 +1243,10 @@
             "Saichimonji Slash Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1271,6 +1295,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1311,6 +1339,10 @@
             "Saichimonji Slash Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1359,6 +1391,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1399,6 +1435,10 @@
             "Saichimonji Slash Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1447,6 +1487,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1487,6 +1531,10 @@
             "Saichimonji Slash Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1535,6 +1583,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1579,6 +1631,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1619,6 +1675,10 @@
             "Saichimonji Slash Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1674,6 +1734,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1707,6 +1771,10 @@
             "Inherited HP|{param2:P}",
             "Duration|{param3:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1762,6 +1830,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1795,6 +1867,10 @@
             "Inherited HP|{param2:P}",
             "Duration|{param3:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1850,6 +1926,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1883,6 +1963,10 @@
             "Inherited HP|{param2:P}",
             "Duration|{param3:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1938,6 +2022,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1971,6 +2059,10 @@
             "Inherited HP|{param2:P}",
             "Duration|{param3:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2026,6 +2118,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2059,6 +2155,10 @@
             "Inherited HP|{param2:P}",
             "Duration|{param3:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2114,6 +2214,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2147,6 +2251,10 @@
             "Inherited HP|{param2:P}",
             "Duration|{param3:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2202,6 +2310,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2246,6 +2358,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2279,6 +2395,10 @@
             "Inherited HP|{param2:P}",
             "Duration|{param3:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2341,6 +2461,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2375,6 +2499,10 @@
             "Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2429,6 +2557,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2463,6 +2595,10 @@
             "Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2517,6 +2653,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2551,6 +2691,10 @@
             "Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2605,6 +2749,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2639,6 +2787,10 @@
             "Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2693,6 +2845,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2727,6 +2883,10 @@
             "Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2781,6 +2941,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2815,6 +2979,10 @@
             "Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2869,6 +3037,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2913,6 +3085,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2947,6 +3123,10 @@
             "Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3900,5 +4080,239 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "SpecialExtra_Damage",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 143.4
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "ExtraAttack_Loop_DamagePercentage"
+    },
+    {
+      "name": "SpecialExtra_Damage",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 81.7
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "ExtraAttack_Loop_DamagePercentage"
+    },
+    {
+      "name": "SpecialExtra_Damage",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 81.7
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "ExtraAttack_Loop_DamagePercentage"
+    },
+    {
+      "name": "SpecialExtra_Damage_Ghost",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 143.4
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "ExtraAttack_Loop_DamagePercentage"
+    },
+    {
+      "name": "SpecialExtra_Damage_Ghost",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 81.7
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "ExtraAttack_Loop_DamagePercentage"
+    },
+    {
+      "name": "SpecialExtra_Damage_Ghost",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 81.7
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "ExtraAttack_Loop_DamagePercentage"
+    },
+    {
+      "name": "Gadget_OniBull",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 250
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Ratio"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 150
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 200
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 200
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementalArt_DropBall",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Geo",
+      "per_drop": 1,
+      "lifetime": 9,
+      "chance": 50,
+      "cd": 0.2,
+      "applications": 1,
+      "drop_id": 2023
+    },
+    {
+      "name": "ElementalArt_DropBall",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Geo",
+      "per_drop": 1,
+      "lifetime": 12,
+      "chance": 50,
+      "cd": 0.2,
+      "applications": 1,
+      "drop_id": 2023
+    }
+  ]
 }

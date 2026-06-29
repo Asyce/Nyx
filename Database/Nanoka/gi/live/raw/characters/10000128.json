@@ -1128,6 +1128,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1166,6 +1170,10 @@
             "Charged Attack Stamina Cost|{param12:F1}",
             "Plunge DMG|{param13:F1P}",
             "Low/High Plunge DMG|{param14:P}/{param15:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1216,6 +1224,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1254,6 +1266,10 @@
             "Charged Attack Stamina Cost|{param12:F1}",
             "Plunge DMG|{param13:F1P}",
             "Low/High Plunge DMG|{param14:P}/{param15:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1304,6 +1320,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1342,6 +1362,10 @@
             "Charged Attack Stamina Cost|{param12:F1}",
             "Plunge DMG|{param13:F1P}",
             "Low/High Plunge DMG|{param14:P}/{param15:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1392,6 +1416,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1430,6 +1458,10 @@
             "Charged Attack Stamina Cost|{param12:F1}",
             "Plunge DMG|{param13:F1P}",
             "Low/High Plunge DMG|{param14:P}/{param15:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1480,6 +1512,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1518,6 +1554,10 @@
             "Charged Attack Stamina Cost|{param12:F1}",
             "Plunge DMG|{param13:F1P}",
             "Low/High Plunge DMG|{param14:P}/{param15:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1568,6 +1608,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1606,6 +1650,10 @@
             "Charged Attack Stamina Cost|{param12:F1}",
             "Plunge DMG|{param13:F1P}",
             "Low/High Plunge DMG|{param14:P}/{param15:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1656,6 +1704,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1700,6 +1752,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1738,6 +1794,10 @@
             "Charged Attack Stamina Cost|{param12:F1}",
             "Plunge DMG|{param13:F1P}",
             "Low/High Plunge DMG|{param14:P}/{param15:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1795,6 +1855,10 @@
             "Four Winds' Ascension CD|{param18:F1}s",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1837,6 +1901,10 @@
             "Four Winds' Ascension DMG|{param14:F1P}+{param15:F1P}",
             "Azure Devour DMG|{param16:F1P}×2+{param17:F1P}×2",
             "Four Winds' Ascension CD|{param18:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -1883,6 +1951,10 @@
             "Four Winds' Ascension CD|{param18:F1}s",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1925,6 +1997,10 @@
             "Four Winds' Ascension DMG|{param14:F1P}+{param15:F1P}",
             "Azure Devour DMG|{param16:F1P}×2+{param17:F1P}×2",
             "Four Winds' Ascension CD|{param18:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -1971,6 +2047,10 @@
             "Four Winds' Ascension CD|{param18:F1}s",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2013,6 +2093,10 @@
             "Four Winds' Ascension DMG|{param14:F1P}+{param15:F1P}",
             "Azure Devour DMG|{param16:F1P}×2+{param17:F1P}×2",
             "Four Winds' Ascension CD|{param18:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -2059,6 +2143,10 @@
             "Four Winds' Ascension CD|{param18:F1}s",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2101,6 +2189,10 @@
             "Four Winds' Ascension DMG|{param14:F1P}+{param15:F1P}",
             "Azure Devour DMG|{param16:F1P}×2+{param17:F1P}×2",
             "Four Winds' Ascension CD|{param18:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -2147,6 +2239,10 @@
             "Four Winds' Ascension CD|{param18:F1}s",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2189,6 +2285,10 @@
             "Four Winds' Ascension DMG|{param14:F1P}+{param15:F1P}",
             "Azure Devour DMG|{param16:F1P}×2+{param17:F1P}×2",
             "Four Winds' Ascension CD|{param18:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -2235,6 +2335,10 @@
             "Four Winds' Ascension CD|{param18:F1}s",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2277,6 +2381,10 @@
             "Four Winds' Ascension DMG|{param14:F1P}+{param15:F1P}",
             "Azure Devour DMG|{param16:F1P}×2+{param17:F1P}×2",
             "Four Winds' Ascension CD|{param18:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -2323,6 +2431,10 @@
             "Four Winds' Ascension CD|{param18:F1}s",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2365,6 +2477,10 @@
             "Four Winds' Ascension DMG|{param14:F1P}+{param15:F1P}",
             "Azure Devour DMG|{param16:F1P}×2+{param17:F1P}×2",
             "Four Winds' Ascension CD|{param18:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -2411,6 +2527,10 @@
             "Four Winds' Ascension CD|{param18:F1}s",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2451,6 +2571,10 @@
             "Skill 2-Hit DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2506,6 +2630,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2539,6 +2667,10 @@
             "Skill 2-Hit DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2594,6 +2726,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2627,6 +2763,10 @@
             "Skill 2-Hit DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2682,6 +2822,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2715,6 +2859,10 @@
             "Skill 2-Hit DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2770,6 +2918,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2803,6 +2955,10 @@
             "Skill 2-Hit DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2858,6 +3014,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2891,6 +3051,10 @@
             "Skill 2-Hit DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2946,6 +3110,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2979,6 +3147,10 @@
             "Skill 2-Hit DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3034,6 +3206,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3067,6 +3243,10 @@
             "Skill 2-Hit DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -4056,5 +4236,264 @@
       ]
     ]
   },
+  "attack": [
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 100
+      },
+      "element": "Wind",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "ElementalArt_Damage"
+    },
+    {
+      "name": "Special_ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 65
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": [
+        "Special_ElementalArt_01",
+        "_ABILITY_Avatar_Varka_ArtDamageUp_GV",
+        "MUL",
+        "Talent1_Rate",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Special_ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 65
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": [
+        "Special_ElementalArt_01",
+        "_ABILITY_Avatar_Varka_ArtDamageUp_GV",
+        "MUL",
+        "Talent1_Rate",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Special_ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 65
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": [
+        "Special_ElementalArt_01",
+        "_ABILITY_Avatar_Varka_ArtDamageUp_GV",
+        "MUL",
+        "Talent1_Rate",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Special_ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 65
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": [
+        "Special_ElementalArt_01",
+        "_ABILITY_Avatar_Varka_ArtDamageUp_GV",
+        "MUL",
+        "Talent1_Rate",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Special_ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 35
+      },
+      "element": "Wind",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": [
+        "Special_ElementalArt_02",
+        "_ABILITY_Avatar_Varka_ArtDamageUp_GV",
+        "MUL",
+        "Talent1_Rate",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Special_ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "value": 35
+      },
+      "element": "Wind",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": [
+        "Special_ElementalArt_02",
+        "_ABILITY_Avatar_Varka_ArtDamageUp_GV",
+        "MUL",
+        "Talent1_Rate",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 130
+      },
+      "element": "Wind",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "ElementalBurst_Attack1"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 130
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "ElementalBurst_Attack1"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 130
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "ElementalBurst_Attack1"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 130
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "ElementalBurst_Attack1"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 130
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "ElementalBurst_Attack1"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 70
+      },
+      "element": "Wind",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "ElementalBurst_Attack2"
+    }
+  ],
+  "energy": [
+    {
+      "name": "Ball",
+      "skill": "DropBall",
+      "kind": "Other",
+      "element": "Anemo",
+      "per_drop": 1,
+      "lifetime": 18,
+      "chance": 100,
+      "cd": 0.3,
+      "applications": 1,
+      "drop_id": 2021
+    }
+  ],
   "special": true
 }

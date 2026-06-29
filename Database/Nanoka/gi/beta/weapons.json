@@ -1,7 +1,7 @@
 [
   {
     "id": "11101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Dull Blade",
     "rarity": 1,
     "type": "WEAPON_SWORD_ONE_HAND",
@@ -19,6 +19,7 @@
         "type": "GROW_CURVE_ATTACK_101"
       },
       {
+        "init_value": 0,
         "prop_type": "FIGHT_PROP_NONE",
         "type": "GROW_CURVE_CRITICAL_101"
       }
@@ -493,12 +494,12 @@
     },
     "liveComparison": {
       "liveHash": "309018b84994eb51c23f81878891878ccd269f13fc2b46d6dee0ca84afa4cf9c",
-      "currentHash": "93860d989bc7a767f253fde377612c7d220f0aae41bfb3fbebc7e2df01b73b29"
+      "currentHash": "309018b84994eb51c23f81878891878ccd269f13fc2b46d6dee0ca84afa4cf9c"
     }
   },
   {
     "id": "11201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Silver Sword",
     "rarity": 2,
     "type": "WEAPON_SWORD_ONE_HAND",
@@ -516,6 +517,7 @@
         "type": "GROW_CURVE_ATTACK_101"
       },
       {
+        "init_value": 0,
         "prop_type": "FIGHT_PROP_NONE",
         "type": "GROW_CURVE_CRITICAL_101"
       }
@@ -990,7 +992,7 @@
     },
     "liveComparison": {
       "liveHash": "b81775bda0ea1d82255fe25d7bd401b741b5a896f6b49fe4e5d6266253015365",
-      "currentHash": "f9c86d00ec6f2b20944125bb9bb5a5b9ca46ea148f8ce5c95d0b1fb548f53d0f"
+      "currentHash": "b81775bda0ea1d82255fe25d7bd401b741b5a896f6b49fe4e5d6266253015365"
     }
   },
   {
@@ -2933,7 +2935,7 @@
   },
   {
     "id": "11304",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Dark Iron Sword",
     "rarity": 3,
     "type": "WEAPON_SWORD_ONE_HAND",
@@ -3573,7 +3575,7 @@
       }
     },
     "liveComparison": {
-      "liveHash": "665307aed9ba8a8839f3bf3e0ab8c1b7c5dfc65bda5d2daaee2d8a775a87e668",
+      "liveHash": "2bda201cc3ec325cb03d4eafdc21e88053adc82fee6c7cc0421cdd234e734e39",
       "currentHash": "2bda201cc3ec325cb03d4eafdc21e88053adc82fee6c7cc0421cdd234e734e39"
     }
   },
@@ -33189,7 +33191,7 @@
   },
   {
     "id": "12101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Waster Greatsword",
     "rarity": 1,
     "type": "WEAPON_CLAYMORE",
@@ -33207,6 +33209,7 @@
         "type": "GROW_CURVE_ATTACK_101"
       },
       {
+        "init_value": 0,
         "prop_type": "FIGHT_PROP_NONE",
         "type": "GROW_CURVE_CRITICAL_101"
       }
@@ -33681,12 +33684,12 @@
     },
     "liveComparison": {
       "liveHash": "5028bd0959c298a14e383580d7a65da34295290be25979d8c659065e9ff7dff4",
-      "currentHash": "a682e30a741170db3cd3915faddfede0d36756a95e217e1d18ea602a910cb314"
+      "currentHash": "5028bd0959c298a14e383580d7a65da34295290be25979d8c659065e9ff7dff4"
     }
   },
   {
     "id": "12201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Old Merc's Pal",
     "rarity": 2,
     "type": "WEAPON_CLAYMORE",
@@ -33704,6 +33707,7 @@
         "type": "GROW_CURVE_ATTACK_101"
       },
       {
+        "init_value": 0,
         "prop_type": "FIGHT_PROP_NONE",
         "type": "GROW_CURVE_CRITICAL_101"
       }
@@ -34178,7 +34182,7 @@
     },
     "liveComparison": {
       "liveHash": "1d7334aa765658b1b738ddaf6b4167622817a01ae7c0d90ee21fbbedc7592629",
-      "currentHash": "ffab1d7b0530d8ff45cf6d8bde55cc92ab8d6885e29fc1bc968f5bb0a75b7e5c"
+      "currentHash": "1d7334aa765658b1b738ddaf6b4167622817a01ae7c0d90ee21fbbedc7592629"
     }
   },
   {
@@ -60023,7 +60027,7 @@
   },
   {
     "id": "12516",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "A Teaspoon of Transcendence",
     "rarity": 5,
     "type": "WEAPON_CLAYMORE",
@@ -60663,12 +60667,13 @@
       }
     },
     "liveComparison": {
+      "liveHash": "a9df07766df588e03946b4a234215a2e0dadebf63094f2a3dc4eb8393c624821",
       "currentHash": "a9df07766df588e03946b4a234215a2e0dadebf63094f2a3dc4eb8393c624821"
     }
   },
   {
     "id": "13101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Beginner's Protector",
     "rarity": 1,
     "type": "WEAPON_POLE",
@@ -60686,6 +60691,7 @@
         "type": "GROW_CURVE_ATTACK_101"
       },
       {
+        "init_value": 0,
         "prop_type": "FIGHT_PROP_NONE",
         "type": "GROW_CURVE_CRITICAL_101"
       }
@@ -61160,12 +61166,12 @@
     },
     "liveComparison": {
       "liveHash": "4eaca7d2c0b461de43a720aa544eba87a206eb5de36113ee4755dc17322c7cd2",
-      "currentHash": "571e11cf917c028cd5ea69f9d2ce268fddc16f57846991783afb0928d9dc8b82"
+      "currentHash": "4eaca7d2c0b461de43a720aa544eba87a206eb5de36113ee4755dc17322c7cd2"
     }
   },
   {
     "id": "13201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Iron Point",
     "rarity": 2,
     "type": "WEAPON_POLE",
@@ -61183,6 +61189,7 @@
         "type": "GROW_CURVE_ATTACK_101"
       },
       {
+        "init_value": 0,
         "prop_type": "FIGHT_PROP_NONE",
         "type": "GROW_CURVE_CRITICAL_101"
       }
@@ -61657,7 +61664,7 @@
     },
     "liveComparison": {
       "liveHash": "d5ed3e6622c09e77ef23962d01cbc56715e91114fe0e67cc9479c9893b805fb4",
-      "currentHash": "d7f96bac9ec4f8ab39b6933e711a5f57034993d14c5a280992842acfa0b6babf"
+      "currentHash": "d5ed3e6622c09e77ef23962d01cbc56715e91114fe0e67cc9479c9893b805fb4"
     }
   },
   {
@@ -86856,7 +86863,7 @@
   },
   {
     "id": "14101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Apprentice's Notes",
     "rarity": 1,
     "type": "WEAPON_CATALYST",
@@ -86874,6 +86881,7 @@
         "type": "GROW_CURVE_ATTACK_101"
       },
       {
+        "init_value": 0,
         "prop_type": "FIGHT_PROP_NONE",
         "type": "GROW_CURVE_CRITICAL_101"
       }
@@ -87348,12 +87356,12 @@
     },
     "liveComparison": {
       "liveHash": "ee7e73152ed7dd9e1d6374bf2d29575bcc3df08c3f55443eef49e7e39a7657e8",
-      "currentHash": "d5bf3c4b00ce45fd1b921a86146bc3651992cb339e15b4e1f02160fc72b9daa7"
+      "currentHash": "ee7e73152ed7dd9e1d6374bf2d29575bcc3df08c3f55443eef49e7e39a7657e8"
     }
   },
   {
     "id": "14201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Pocket Grimoire",
     "rarity": 2,
     "type": "WEAPON_CATALYST",
@@ -87371,6 +87379,7 @@
         "type": "GROW_CURVE_ATTACK_101"
       },
       {
+        "init_value": 0,
         "prop_type": "FIGHT_PROP_NONE",
         "type": "GROW_CURVE_CRITICAL_101"
       }
@@ -87845,7 +87854,7 @@
     },
     "liveComparison": {
       "liveHash": "5e9aecf7c7adb3e4dc484975855aedcb724e7968e16b5c72f73718e2c2cdad90",
-      "currentHash": "7711a41cdc1686c209f2fc5eeff044fdce3d50775c43bc2e33f4b7dca44df345"
+      "currentHash": "5e9aecf7c7adb3e4dc484975855aedcb724e7968e16b5c72f73718e2c2cdad90"
     }
   },
   {
@@ -110460,7 +110469,7 @@
   },
   {
     "id": "14509",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Kagura's Verity",
     "rarity": 5,
     "type": "WEAPON_CATALYST",
@@ -111100,7 +111109,7 @@
       }
     },
     "liveComparison": {
-      "liveHash": "c4d7288f496715567c171673530641e7ca35f46704aea2d11c9c8d2040036fac",
+      "liveHash": "1c2fe70a552abeed0bca8ebd4f4b09262a5dce4e7f1bda014309943e5ee7f5e9",
       "currentHash": "1c2fe70a552abeed0bca8ebd4f4b09262a5dce4e7f1bda014309943e5ee7f5e9"
     }
   },
@@ -112398,7 +112407,7 @@
   },
   {
     "id": "14513",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Cashflow Supervision",
     "rarity": 5,
     "type": "WEAPON_CATALYST",
@@ -112748,7 +112757,7 @@
     "refinements": {
       "1": {
         "name": "Golden Blood-Tide",
-        "desc": "ATK is increased by <color=#99FFFFFF>16%</color>. When current HP increases or decreases, Normal Attack DMG is increased by <color=#99FFFFFF>16%</color>, Charged Attack DMG is increased by <color=#99FFFFFF>14%</color>, and Stellar-Conduct DMG is increased by 14% for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>8%</color>.",
+        "desc": "ATK is increased by <color=#99FFFFFF>16%</color>. When current HP increases or decreases, Normal Attack DMG is increased by <color=#99FFFFFF>16%</color>, Charged Attack DMG is increased by <color=#99FFFFFF>14%</color>, and Stellar-Conduct DMG is increased by <color=#99FFFFFF>14%</color> for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>8%</color>.",
         "param_list": [
           4,
           0.3,
@@ -112762,7 +112771,7 @@
       },
       "2": {
         "name": "Golden Blood-Tide",
-        "desc": "ATK is increased by <color=#99FFFFFF>20%</color>. When current HP increases or decreases, Normal Attack DMG is increased by <color=#99FFFFFF>20%</color>, Charged Attack DMG is increased by <color=#99FFFFFF>17.5%</color>, and Stellar-Conduct DMG is increased by 17.5% for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>10%</color>.",
+        "desc": "ATK is increased by <color=#99FFFFFF>20%</color>. When current HP increases or decreases, Normal Attack DMG is increased by <color=#99FFFFFF>20%</color>, Charged Attack DMG is increased by <color=#99FFFFFF>17.5%</color>, and Stellar-Conduct DMG is increased by <color=#99FFFFFF>17.5%</color> for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>10%</color>.",
         "param_list": [
           4,
           0.3,
@@ -112776,7 +112785,7 @@
       },
       "3": {
         "name": "Golden Blood-Tide",
-        "desc": "ATK is increased by <color=#99FFFFFF>24%</color>. When current HP increases or decreases, Normal Attack DMG is increased by <color=#99FFFFFF>24%</color>, Charged Attack DMG is increased by <color=#99FFFFFF>21%</color>, and Stellar-Conduct DMG is increased by 21% for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>12%</color>.",
+        "desc": "ATK is increased by <color=#99FFFFFF>24%</color>. When current HP increases or decreases, Normal Attack DMG is increased by <color=#99FFFFFF>24%</color>, Charged Attack DMG is increased by <color=#99FFFFFF>21%</color>, and Stellar-Conduct DMG is increased by <color=#99FFFFFF>21%</color> for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>12%</color>.",
         "param_list": [
           4,
           0.3,
@@ -112790,7 +112799,7 @@
       },
       "4": {
         "name": "Golden Blood-Tide",
-        "desc": "ATK is increased by <color=#99FFFFFF>28%</color>. When current HP increases or decreases, Normal Attack DMG is increased by <color=#99FFFFFF>28%</color>, Charged Attack DMG is increased by <color=#99FFFFFF>24.5%</color>, and Stellar-Conduct DMG is increased by 24.5% for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>14%</color>.",
+        "desc": "ATK is increased by <color=#99FFFFFF>28%</color>. When current HP increases or decreases, Normal Attack DMG is increased by <color=#99FFFFFF>28%</color>, Charged Attack DMG is increased by <color=#99FFFFFF>24.5%</color>, and Stellar-Conduct DMG is increased by <color=#99FFFFFF>24.5%</color> for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>14%</color>.",
         "param_list": [
           4,
           0.3,
@@ -112804,7 +112813,7 @@
       },
       "5": {
         "name": "Golden Blood-Tide",
-        "desc": "ATK is increased by <color=#99FFFFFF>32%</color>. When current HP increases or decreases, Normal Attack DMG is increased by <color=#99FFFFFF>32%</color>, Charged Attack DMG is increased by <color=#99FFFFFF>28%</color>, and Stellar-Conduct DMG is increased by 28% for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>16%</color>.",
+        "desc": "ATK is increased by <color=#99FFFFFF>32%</color>. When current HP increases or decreases, Normal Attack DMG is increased by <color=#99FFFFFF>32%</color>, Charged Attack DMG is increased by <color=#99FFFFFF>28%</color>, and Stellar-Conduct DMG is increased by <color=#99FFFFFF>28%</color> for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>16%</color>.",
         "param_list": [
           4,
           0.3,
@@ -113038,8 +113047,8 @@
       }
     },
     "liveComparison": {
-      "liveHash": "470d92b956229890ccf1ed11736123ae8372bc6f48526b0b86196538477622f6",
-      "currentHash": "321c60625bcf90fa19f78c68af3c0f7656428637d3f816053ebbead57922dd1d"
+      "liveHash": "3b846de0853e5d7491185c91fced96afd8aae280665cec11e5a7b8f866a3df1d",
+      "currentHash": "3b846de0853e5d7491185c91fced96afd8aae280665cec11e5a7b8f866a3df1d"
     }
   },
   {
@@ -119504,7 +119513,7 @@
   },
   {
     "id": "15101",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Hunter's Bow",
     "rarity": 1,
     "type": "WEAPON_BOW",
@@ -119522,6 +119531,7 @@
         "type": "GROW_CURVE_ATTACK_101"
       },
       {
+        "init_value": 0,
         "prop_type": "FIGHT_PROP_NONE",
         "type": "GROW_CURVE_CRITICAL_101"
       }
@@ -119996,12 +120006,12 @@
     },
     "liveComparison": {
       "liveHash": "f1370ad1d28e85234b5d3b545ca4f04c5861cb00c80ae387a06319ec7393a67c",
-      "currentHash": "2880a53ec16546c5d0ae9048234a450e1e95b4fa6a723002f460b14598d1cb56"
+      "currentHash": "f1370ad1d28e85234b5d3b545ca4f04c5861cb00c80ae387a06319ec7393a67c"
     }
   },
   {
     "id": "15201",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Seasoned Hunter's Bow",
     "rarity": 2,
     "type": "WEAPON_BOW",
@@ -120019,6 +120029,7 @@
         "type": "GROW_CURVE_ATTACK_101"
       },
       {
+        "init_value": 0,
         "prop_type": "FIGHT_PROP_NONE",
         "type": "GROW_CURVE_CRITICAL_101"
       }
@@ -120493,7 +120504,7 @@
     },
     "liveComparison": {
       "liveHash": "a4a772224df8ff96b44695aba8fbfdc149411678a490b687c3e9d87f13d34464",
-      "currentHash": "dd02c2cd22dc2a794734b8925d5ec7e7319724b9f488d75c10e7dca603dbaeb6"
+      "currentHash": "a4a772224df8ff96b44695aba8fbfdc149411678a490b687c3e9d87f13d34464"
     }
   },
   {

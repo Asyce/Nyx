@@ -483,6 +483,13 @@
     },
     "costume": [
       {
+        "id": 210701,
+        "name": "Whispers of Stars and Smoke",
+        "desc": "Citlali's outfit. When at home, Citlali will sometimes change into attire brimming with girlish charm. At such times, anyone troubling her with official duties has promptly come under heavy attack. Thus, this outfit has become a baleful thing, a subject of fearful rumor that all give a wide berth.",
+        "icon": "UI_AvatarIcon_CitlaliCostumeXia",
+        "quality": 4
+      },
+      {
         "id": 210700,
         "name": "Dawnseer",
         "desc": "Citlali's outfit. Shamans are seers, diviners of forgotten past and untold future. In their world, the eye holds a special symbolic meaning. This is why Citlali's robe, worn half-draped around her waist, is adorned with the \"Eye of Revelation\" — a pattern that encapsulates both its bearer's identity and her aesthetic tastes.",
@@ -981,6 +988,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1017,6 +1028,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1069,6 +1084,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1105,6 +1124,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1157,6 +1180,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1193,6 +1220,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1245,6 +1276,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1281,6 +1316,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1333,6 +1372,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1369,6 +1412,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1421,6 +1468,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1457,6 +1508,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1509,6 +1564,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1553,6 +1612,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1589,6 +1652,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1648,6 +1715,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1685,6 +1756,10 @@
             "Frostfall Storm DMG|{param5:F1P}",
             "Nightsoul Point Limit|{param9:F1}",
             "CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1736,6 +1811,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1773,6 +1852,10 @@
             "Frostfall Storm DMG|{param5:F1P}",
             "Nightsoul Point Limit|{param9:F1}",
             "CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1824,6 +1907,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1861,6 +1948,10 @@
             "Frostfall Storm DMG|{param5:F1P}",
             "Nightsoul Point Limit|{param9:F1}",
             "CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1912,6 +2003,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1949,6 +2044,10 @@
             "Frostfall Storm DMG|{param5:F1P}",
             "Nightsoul Point Limit|{param9:F1}",
             "CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2000,6 +2099,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2037,6 +2140,10 @@
             "Frostfall Storm DMG|{param5:F1P}",
             "Nightsoul Point Limit|{param9:F1}",
             "CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2088,6 +2195,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2125,6 +2236,10 @@
             "Frostfall Storm DMG|{param5:F1P}",
             "Nightsoul Point Limit|{param9:F1}",
             "CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2176,6 +2291,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2220,6 +2339,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2257,6 +2380,10 @@
             "Frostfall Storm DMG|{param5:F1P}",
             "Nightsoul Point Limit|{param9:F1}",
             "CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2315,6 +2442,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2350,6 +2481,10 @@
             "Spiritvessel Skull Nightsoul Point Gain|{param4:F1}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2403,6 +2538,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2438,6 +2577,10 @@
             "Spiritvessel Skull Nightsoul Point Gain|{param4:F1}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2491,6 +2634,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2526,6 +2673,10 @@
             "Spiritvessel Skull Nightsoul Point Gain|{param4:F1}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2579,6 +2730,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2614,6 +2769,10 @@
             "Spiritvessel Skull Nightsoul Point Gain|{param4:F1}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2667,6 +2826,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2702,6 +2865,10 @@
             "Spiritvessel Skull Nightsoul Point Gain|{param4:F1}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2755,6 +2922,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2790,6 +2961,10 @@
             "Spiritvessel Skull Nightsoul Point Gain|{param4:F1}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2843,6 +3018,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2887,6 +3066,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2922,6 +3105,10 @@
             "Spiritvessel Skull Nightsoul Point Gain|{param4:F1}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3903,5 +4090,208 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 75
+      },
+      "element": "Ice",
+      "attack_type": "None",
+      "strike_type": "Default",
+      "damage_param": "Art_Damage"
+    },
+    {
+      "name": "ElementalArt_Handler",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Citlali_Storm"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 35
+      },
+      "element": "Ice",
+      "attack_type": "None",
+      "strike_type": "Default",
+      "damage_param": "Interval_Damage"
+    },
+    {
+      "name": "Skillobj_Citlali_ElementalBurst_Gadget1_Material",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV3",
+        "value": 200
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Burst_Damage1"
+    },
+    {
+      "name": "Skillobj_Citlali_ElementalBurst_Gadget2_Material",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Burst_Damage2"
+    },
+    {
+      "name": "Skillobj_Citlali_ElementalBurst_Gadget3_Material",
+      "icd": {
+        "tag": "Citlali_Talent4",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "Skillobj_Citlali_Bullet1_Material",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 8.2
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_01_Ratio"
+    },
+    {
+      "name": "Skillobj_Citlali_Bullet2_Material",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 7.3
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_02_Ratio"
+    },
+    {
+      "name": "Skillobj_Citlali_Bullet3_Material",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10.1
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_03_Ratio"
+    },
+    {
+      "name": "Skillobj_Citlali_ExtraAttack2_Material",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "Default"
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "Ball",
+      "skill": "DropBall",
+      "kind": "Other",
+      "element": "Cryo",
+      "per_drop": 1,
+      "lifetime": 15,
+      "chance": 100,
+      "cd": "CD",
+      "applications": 1,
+      "drop_id": 2022
+    }
+  ]
 }

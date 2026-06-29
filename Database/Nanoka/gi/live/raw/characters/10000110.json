@@ -974,6 +974,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1011,6 +1015,10 @@
             "Charged Attack & Swift Stormflight Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1062,6 +1070,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1099,6 +1111,10 @@
             "Charged Attack & Swift Stormflight Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1150,6 +1166,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1187,6 +1207,10 @@
             "Charged Attack & Swift Stormflight Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1238,6 +1262,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1275,6 +1303,10 @@
             "Charged Attack & Swift Stormflight Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1326,6 +1358,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1363,6 +1399,10 @@
             "Charged Attack & Swift Stormflight Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1414,6 +1454,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1451,6 +1495,10 @@
             "Charged Attack & Swift Stormflight Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1502,6 +1550,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1546,6 +1598,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1583,6 +1639,10 @@
             "Charged Attack & Swift Stormflight Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1641,6 +1701,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1673,6 +1737,10 @@
             "Skill DMG|{param1:F1P}",
             "Nightsoul Point Limit|{param2:F1}",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1729,6 +1797,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1761,6 +1833,10 @@
             "Skill DMG|{param1:F1P}",
             "Nightsoul Point Limit|{param2:F1}",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1817,6 +1893,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1849,6 +1929,10 @@
             "Skill DMG|{param1:F1P}",
             "Nightsoul Point Limit|{param2:F1}",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1905,6 +1989,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1937,6 +2025,10 @@
             "Skill DMG|{param1:F1P}",
             "Nightsoul Point Limit|{param2:F1}",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1993,6 +2085,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2025,6 +2121,10 @@
             "Skill DMG|{param1:F1P}",
             "Nightsoul Point Limit|{param2:F1}",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2081,6 +2181,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2113,6 +2217,10 @@
             "Skill DMG|{param1:F1P}",
             "Nightsoul Point Limit|{param2:F1}",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2169,6 +2277,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2213,6 +2325,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2245,6 +2361,10 @@
             "Skill DMG|{param1:F1P}",
             "Nightsoul Point Limit|{param2:F1}",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2308,6 +2428,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2345,6 +2469,10 @@
             "Non-Combat State Duration|{param5:F1}s",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2396,6 +2524,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2433,6 +2565,10 @@
             "Non-Combat State Duration|{param5:F1}s",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2484,6 +2620,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2521,6 +2661,10 @@
             "Non-Combat State Duration|{param5:F1}s",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2572,6 +2716,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2609,6 +2757,10 @@
             "Non-Combat State Duration|{param5:F1}s",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2660,6 +2812,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2697,6 +2853,10 @@
             "Non-Combat State Duration|{param5:F1}s",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2748,6 +2908,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2785,6 +2949,10 @@
             "Non-Combat State Duration|{param5:F1}s",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2836,6 +3004,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2880,6 +3052,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2917,6 +3093,10 @@
             "Non-Combat State Duration|{param5:F1}s",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3896,5 +4076,147 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ExtraAttack",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Avatar_Pole_ExtraAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 120
+      },
+      "element": "Electric",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "SpecialExtraAttack_DamageRatio"
+    },
+    {
+      "name": "ExtraAttack_Bullet",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Avatar_Pole_ExtraAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 120
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Spear",
+      "damage_param": "ExtraAttack_Ratio"
+    },
+    {
+      "name": "ElementalArt_Bullet",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Iansan_ElementalArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 120
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Spear",
+      "damage_param": "ElementalArt_Ratio"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 180
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Burst_DmgRatio"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Spear",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "Strike_DropBall",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Electro",
+      "per_drop": 1,
+      "lifetime": 12,
+      "chance": 100,
+      "cd": 3,
+      "applications": 2,
+      "drop_id": 2020
+    }
+  ]
 }

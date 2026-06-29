@@ -1025,6 +1025,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1062,6 +1066,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1113,6 +1121,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1150,6 +1162,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1201,6 +1217,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1238,6 +1258,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1289,6 +1313,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1326,6 +1354,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1377,6 +1409,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1414,6 +1450,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1465,6 +1505,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1502,6 +1546,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1553,6 +1601,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1597,6 +1649,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1634,6 +1690,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1692,6 +1752,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1725,6 +1789,10 @@
             "Scalespiker Cannon DMG|{param2:F1P}",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1780,6 +1848,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1813,6 +1885,10 @@
             "Scalespiker Cannon DMG|{param2:F1P}",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1868,6 +1944,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1901,6 +1981,10 @@
             "Scalespiker Cannon DMG|{param2:F1P}",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1956,6 +2040,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1989,6 +2077,10 @@
             "Scalespiker Cannon DMG|{param2:F1P}",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2044,6 +2136,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2077,6 +2173,10 @@
             "Scalespiker Cannon DMG|{param2:F1P}",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2132,6 +2232,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2165,6 +2269,10 @@
             "Scalespiker Cannon DMG|{param2:F1P}",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2220,6 +2328,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2264,6 +2376,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2297,6 +2413,10 @@
             "Scalespiker Cannon DMG|{param2:F1P}",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2359,6 +2479,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2393,6 +2517,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2447,6 +2575,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2481,6 +2613,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2535,6 +2671,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2569,6 +2709,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2623,6 +2767,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2657,6 +2805,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2711,6 +2863,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2745,6 +2901,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2799,6 +2959,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2833,6 +2997,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2887,6 +3055,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2931,6 +3103,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2965,6 +3141,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3947,5 +4127,228 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "HookMove_Attack",
+      "icd": {
+        "tag": "NormalAttack_04",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "HookMoveAttack"
+    },
+    {
+      "name": "EArt_Bullet_Normal",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Kinich_Eart_Normal_Bullet"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "EArtNormalAttack"
+    },
+    {
+      "name": "EArt_Bullet_Final",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Kinich_Eart_Final_Bullet"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "FinalAttackPercentage"
+    },
+    {
+      "name": "EArt_Bullet_Final",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Kinich_Eart_Final_Bullet"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "FinalAttackPercentage"
+    },
+    {
+      "name": "EArt_Bullet_Final",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Kinich_Eart_Final_Bullet"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "FinalAttackPercentageT6"
+    },
+    {
+      "name": "EArt_Bullet_Final",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Kinich_Eart_Final_Bullet"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "FinalAttackPercentage"
+    },
+    {
+      "name": "EArt_Bullet_Final",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Kinich_Eart_Final_Bullet"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "FinalAttackPercentage"
+    },
+    {
+      "name": "EArt_Bullet_Final",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Kinich_Eart_Final_Bullet"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "FinalAttackPercentageT6"
+    },
+    {
+      "name": "ElementalBurst_PixelDragon",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 35
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "BornAttackPercentage"
+    },
+    {
+      "name": "Kinich_ExtraAttack_Gadget",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 40
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "AttackRatio"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 200
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElemBall",
+      "skill": "Elemball",
+      "kind": "Other",
+      "element": "Dendro",
+      "per_drop": 1,
+      "lifetime": 15,
+      "chance": 100,
+      "cd": 0.4,
+      "applications": 1,
+      "drop_id": 2019
+    }
+  ]
 }

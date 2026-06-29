@@ -991,6 +991,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1028,6 +1032,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1079,6 +1087,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1116,6 +1128,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1167,6 +1183,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1204,6 +1224,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1255,6 +1279,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1292,6 +1320,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1343,6 +1375,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1380,6 +1416,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1431,6 +1471,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1468,6 +1512,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1519,6 +1567,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1563,6 +1615,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1600,6 +1656,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1658,6 +1718,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1695,6 +1759,10 @@
             "Surging Blade DMG|{param7:F1P}",
             "Surging Blade Interval|{param8:F1}s",
             "CD|{param9:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1746,6 +1814,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1783,6 +1855,10 @@
             "Surging Blade DMG|{param7:F1P}",
             "Surging Blade Interval|{param8:F1}s",
             "CD|{param9:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1834,6 +1910,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1871,6 +1951,10 @@
             "Surging Blade DMG|{param7:F1P}",
             "Surging Blade Interval|{param8:F1}s",
             "CD|{param9:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1922,6 +2006,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1959,6 +2047,10 @@
             "Surging Blade DMG|{param7:F1P}",
             "Surging Blade Interval|{param8:F1}s",
             "CD|{param9:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2010,6 +2102,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2047,6 +2143,10 @@
             "Surging Blade DMG|{param7:F1P}",
             "Surging Blade Interval|{param8:F1}s",
             "CD|{param9:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2098,6 +2198,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2135,6 +2239,10 @@
             "Surging Blade DMG|{param7:F1P}",
             "Surging Blade Interval|{param8:F1}s",
             "CD|{param9:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2186,6 +2294,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2230,6 +2342,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2267,6 +2383,10 @@
             "Surging Blade DMG|{param7:F1P}",
             "Surging Blade Interval|{param8:F1}s",
             "CD|{param9:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2325,6 +2445,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2358,6 +2482,10 @@
             "Secondary Explosive Shell DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2413,6 +2541,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2446,6 +2578,10 @@
             "Secondary Explosive Shell DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2501,6 +2637,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2534,6 +2674,10 @@
             "Secondary Explosive Shell DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2589,6 +2733,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2622,6 +2770,10 @@
             "Secondary Explosive Shell DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2677,6 +2829,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2710,6 +2866,10 @@
             "Secondary Explosive Shell DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2765,6 +2925,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2798,6 +2962,10 @@
             "Secondary Explosive Shell DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2853,6 +3021,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2897,6 +3069,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2930,6 +3106,10 @@
             "Secondary Explosive Shell DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3884,5 +4064,322 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ExtraAttack_Bullet",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Avatar_Pole_ExtraAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 120
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Spear",
+      "damage_param": "Chevreuse_ExtraAttack"
+    },
+    {
+      "name": "Skillobj_Chevreuse_ElementalArt_Bullet0_Material",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Fire",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Click_Damage"
+    },
+    {
+      "name": "Skillobj_Chevreuse_ElementalArt_Bullet1_Material",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 75
+      },
+      "element": "Fire",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Shoot_Damage"
+    },
+    {
+      "name": "Skillobj_Chevreuse_ElementalArt_Bullet2_Material",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 125
+      },
+      "element": "Fire",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "Explode_Damage"
+    },
+    {
+      "name": "Skillobj_Chevreuse_ElementalArt_Pneuma_Gadget",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Arkhe_Damage"
+    },
+    {
+      "name": "SkillObj_Chevreuse_ElementalBurst_Material",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Burst_Damage1"
+    },
+    {
+      "name": "Chevreuse_ElementalBurst_Gadget_Attack1",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Chevreuse_ElementalBurst"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 25
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Burst_Damage2"
+    },
+    {
+      "name": "Chevreuse_ElementalBurst_Gadget_Attack2",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Chevreuse_ElementalBurst"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 25
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Burst_Damage2"
+    },
+    {
+      "name": "Chevreuse_ElementalBurst_Gadget_Attack2",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Chevreuse_ElementalBurst"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 25
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Burst_Damage2"
+    },
+    {
+      "name": "Chevreuse_ElementalBurst_Gadget_Attack4",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Chevreuse_ElementalBurst"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 25
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Burst_Damage2"
+    },
+    {
+      "name": "Chevreuse_ElementalBurst_Gadget_Attack4",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Chevreuse_ElementalBurst"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 25
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Burst_Damage2"
+    },
+    {
+      "name": "Chevreuse_ElementalBurst_Gadget_Attack6",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Chevreuse_ElementalBurst"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 25
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Burst_Damage2"
+    },
+    {
+      "name": "Chevreuse_ElementalBurst_Gadget_Attack6",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Chevreuse_ElementalBurst"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 25
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Burst_Damage2"
+    },
+    {
+      "name": "Chevreuse_ElementalBurst_Gadget_Attack8",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Chevreuse_ElementalBurst"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 25
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Burst_Damage2"
+    },
+    {
+      "name": "SkillObj_Chevreuse_ExtraBomb_Material",
+      "icd": {
+        "tag": "Elemental_Art_Extra",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 25
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "BombDamage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV4",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "Ball",
+      "skill": "DropBall",
+      "kind": "Other",
+      "element": "Pyro",
+      "per_drop": 1,
+      "lifetime": 12,
+      "chance": 100,
+      "cd": 10,
+      "applications": 1,
+      "drop_id": 2017
+    }
+  ]
 }

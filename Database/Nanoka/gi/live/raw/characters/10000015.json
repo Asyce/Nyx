@@ -1031,6 +1031,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1069,6 +1073,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1119,6 +1127,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1157,6 +1169,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1207,6 +1223,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1245,6 +1265,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1295,6 +1319,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1333,6 +1361,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1383,6 +1415,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1421,6 +1457,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1471,6 +1511,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1509,6 +1553,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1559,6 +1607,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1603,6 +1655,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1641,6 +1697,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1698,6 +1758,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1729,6 +1793,10 @@
           "desc": [
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1786,6 +1854,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1817,6 +1889,10 @@
           "desc": [
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1874,6 +1950,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1905,6 +1985,10 @@
           "desc": [
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1962,6 +2046,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1993,6 +2081,10 @@
           "desc": [
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2050,6 +2142,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2081,6 +2177,10 @@
           "desc": [
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2138,6 +2238,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2169,6 +2273,10 @@
           "desc": [
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2226,6 +2334,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2270,6 +2382,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2301,6 +2417,10 @@
           "desc": [
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2365,6 +2485,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2398,6 +2522,10 @@
             "CD|{param2:F1}s",
             "Duration|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2453,6 +2581,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2486,6 +2618,10 @@
             "CD|{param2:F1}s",
             "Duration|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2541,6 +2677,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2574,6 +2714,10 @@
             "CD|{param2:F1}s",
             "Duration|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2629,6 +2773,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2662,6 +2810,10 @@
             "CD|{param2:F1}s",
             "Duration|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2717,6 +2869,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2750,6 +2906,10 @@
             "CD|{param2:F1}s",
             "Duration|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2805,6 +2965,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2838,6 +3002,10 @@
             "CD|{param2:F1}s",
             "Duration|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2893,6 +3061,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2937,6 +3109,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2970,6 +3146,10 @@
             "CD|{param2:F1}s",
             "Duration|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3924,5 +4104,208 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "IceShield_Impact",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV4",
+        "value": 140
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "damage"
+    },
+    {
+      "name": "IceShield_Impact",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "Default"
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Default"
+    },
+    {
+      "name": "IceShield_Impact",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "Default"
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Default"
+    },
+    {
+      "name": "FrozenTrap_BS",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV4",
+        "value": 400
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
+      "name": "FrozenTrap",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "Damage"
+    },
+    {
+      "name": "FrozenTrap",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "Damage"
+    },
+    {
+      "name": "FrozenTrap",
+      "icd": {
+        "tag": "FrozenTrap_IceReact",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "FrozenTrap",
+      "icd": {
+        "tag": "FrozenTrap_IceReact",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "FrozenStar_ElementBall",
+      "skill": "IceShield_Impact",
+      "kind": "Other",
+      "element": "Cryo",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "cd": 0.3,
+      "applications": 1,
+      "drop_id": 2022
+    },
+    {
+      "name": "IceShield_Impact_ElemBall",
+      "skill": "IceShield_Impact",
+      "kind": "Other",
+      "element": "Cryo",
+      "per_drop": 1,
+      "lifetime": 6,
+      "chance": 100,
+      "cd": 0.3,
+      "applications": 1,
+      "drop_id": 2022
+    },
+    {
+      "name": "IceShield_Impact_ElemBall",
+      "skill": "IceShield_Impact",
+      "kind": "Other",
+      "element": "Cryo",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 67,
+      "cd": 0.3,
+      "applications": 1,
+      "drop_id": 2022
+    }
+  ]
 }

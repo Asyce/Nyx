@@ -2148,6 +2148,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2186,6 +2190,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2236,6 +2244,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2274,6 +2286,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2324,6 +2340,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2362,6 +2382,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2412,6 +2436,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2450,6 +2478,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2500,6 +2532,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2538,6 +2574,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2588,6 +2628,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2626,6 +2670,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2676,6 +2724,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2720,6 +2772,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2758,6 +2814,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2815,6 +2875,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2846,6 +2910,10 @@
           "desc": [
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2903,6 +2971,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2934,6 +3006,10 @@
           "desc": [
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2991,6 +3067,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3022,6 +3102,10 @@
           "desc": [
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3079,6 +3163,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3110,6 +3198,10 @@
           "desc": [
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3167,6 +3259,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3198,6 +3294,10 @@
           "desc": [
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3255,6 +3355,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3286,6 +3390,10 @@
           "desc": [
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3343,6 +3451,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3387,6 +3499,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3418,6 +3534,10 @@
           "desc": [
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3482,6 +3602,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3516,6 +3640,10 @@
             "Lea Lotus Lamp Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3570,6 +3698,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3604,6 +3736,10 @@
             "Lea Lotus Lamp Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3658,6 +3794,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3692,6 +3832,10 @@
             "Lea Lotus Lamp Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3746,6 +3890,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3780,6 +3928,10 @@
             "Lea Lotus Lamp Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3834,6 +3986,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3868,6 +4024,10 @@
             "Lea Lotus Lamp Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3922,6 +4082,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3956,6 +4120,10 @@
             "Lea Lotus Lamp Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -4010,6 +4178,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -4054,6 +4226,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -4088,6 +4264,10 @@
             "Lea Lotus Lamp Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -4982,5 +5162,153 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ElementalArt_Grass",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 120
+      },
+      "element": "Grass",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "ElementArt_Damage"
+    },
+    {
+      "name": "Seed_Gadget",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV1",
+        "value": 200
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Grass_Seed_Fire_Boom_Ratio"
+    },
+    {
+      "name": "Seed_Gadget",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 30
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Grass_Seed_Damage_Ratio"
+    },
+    {
+      "name": "Seed_Gadget",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 50
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Grass_Seed_Damage_Ratio"
+    },
+    {
+      "name": "EnhancedExtraAttack",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50.6
+      },
+      "element": "Grass",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": [
+        "ExtraAttack_Enhanced_1_BaseDamagePercentage",
+        "ExtraAttack_Enhanced_ratio",
+        "ADD"
+      ]
+    },
+    {
+      "name": "EnhancedExtraAttack",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50.6
+      },
+      "element": "Grass",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": [
+        "ExtraAttack_Enhanced_2_BaseDamagePercentage",
+        "ExtraAttack_Enhanced_ratio",
+        "ADD"
+      ]
+    },
+    {
+      "name": "Gadget_Player_Grass_EnhancedExtraAttack_Field",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ExtraAttack_Enhanced_Field_DamageRatio"
+    }
+  ],
+  "energy": [
+    {
+      "name": "PlayerBoy_Grass_ElemBall",
+      "skill": "ElementalArt_Grass",
+      "kind": "ElementalArt",
+      "element": "Dendro",
+      "per_drop": 1,
+      "lifetime": 6,
+      "chance": 100,
+      "cd": 0.3,
+      "applications": 1,
+      "drop_id": 2019
+    },
+    {
+      "name": "PlayerBoy_Grass_ElemBall",
+      "skill": "ElementalArt_Grass",
+      "kind": "ElementalArt",
+      "element": "Dendro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 50,
+      "cd": 0.3,
+      "applications": 1,
+      "drop_id": 2019
+    }
+  ]
 }

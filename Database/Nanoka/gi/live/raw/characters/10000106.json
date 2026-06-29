@@ -1031,6 +1031,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1068,6 +1072,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1119,6 +1127,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1156,6 +1168,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1207,6 +1223,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1244,6 +1264,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1295,6 +1319,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1332,6 +1360,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1383,6 +1415,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1420,6 +1456,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1471,6 +1511,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1508,6 +1552,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1559,6 +1607,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1603,6 +1655,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1640,6 +1696,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1698,6 +1758,10 @@
             "Nightsoul Point Limit|{param13:I}",
             "CD|{param14:F1}s",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1741,6 +1805,10 @@
             "Flamestrider Plunge DMG|{param12:F1P}",
             "Nightsoul Point Limit|{param13:I}",
             "CD|{param14:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             ""
           ],
@@ -1786,6 +1854,10 @@
             "Nightsoul Point Limit|{param13:I}",
             "CD|{param14:F1}s",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1829,6 +1901,10 @@
             "Flamestrider Plunge DMG|{param12:F1P}",
             "Nightsoul Point Limit|{param13:I}",
             "CD|{param14:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             ""
           ],
@@ -1874,6 +1950,10 @@
             "Nightsoul Point Limit|{param13:I}",
             "CD|{param14:F1}s",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1917,6 +1997,10 @@
             "Flamestrider Plunge DMG|{param12:F1P}",
             "Nightsoul Point Limit|{param13:I}",
             "CD|{param14:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             ""
           ],
@@ -1962,6 +2046,10 @@
             "Nightsoul Point Limit|{param13:I}",
             "CD|{param14:F1}s",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2005,6 +2093,10 @@
             "Flamestrider Plunge DMG|{param12:F1P}",
             "Nightsoul Point Limit|{param13:I}",
             "CD|{param14:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             ""
           ],
@@ -2050,6 +2142,10 @@
             "Nightsoul Point Limit|{param13:I}",
             "CD|{param14:F1}s",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2093,6 +2189,10 @@
             "Flamestrider Plunge DMG|{param12:F1P}",
             "Nightsoul Point Limit|{param13:I}",
             "CD|{param14:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             ""
           ],
@@ -2138,6 +2238,10 @@
             "Nightsoul Point Limit|{param13:I}",
             "CD|{param14:F1}s",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2181,6 +2285,10 @@
             "Flamestrider Plunge DMG|{param12:F1P}",
             "Nightsoul Point Limit|{param13:I}",
             "CD|{param14:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             ""
           ],
@@ -2226,6 +2334,10 @@
             "Nightsoul Point Limit|{param13:I}",
             "CD|{param14:F1}s",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2270,6 +2382,10 @@
             "Nightsoul Point Limit|{param13:I}",
             "CD|{param14:F1}s",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2313,6 +2429,10 @@
             "Flamestrider Plunge DMG|{param12:F1P}",
             "Nightsoul Point Limit|{param13:I}",
             "CD|{param14:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             ""
           ],
@@ -2365,6 +2485,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2401,6 +2525,10 @@
             "Flamestrider Charged Attack DMG Bonus|{param5:F2P} ATK per Fighting Spirit",
             "CD|{param8:F1}s",
             "Fighting Spirit Limit|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2453,6 +2581,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2489,6 +2621,10 @@
             "Flamestrider Charged Attack DMG Bonus|{param5:F2P} ATK per Fighting Spirit",
             "CD|{param8:F1}s",
             "Fighting Spirit Limit|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2541,6 +2677,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2577,6 +2717,10 @@
             "Flamestrider Charged Attack DMG Bonus|{param5:F2P} ATK per Fighting Spirit",
             "CD|{param8:F1}s",
             "Fighting Spirit Limit|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2629,6 +2773,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2665,6 +2813,10 @@
             "Flamestrider Charged Attack DMG Bonus|{param5:F2P} ATK per Fighting Spirit",
             "CD|{param8:F1}s",
             "Fighting Spirit Limit|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2717,6 +2869,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2753,6 +2909,10 @@
             "Flamestrider Charged Attack DMG Bonus|{param5:F2P} ATK per Fighting Spirit",
             "CD|{param8:F1}s",
             "Fighting Spirit Limit|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2805,6 +2965,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2841,6 +3005,10 @@
             "Flamestrider Charged Attack DMG Bonus|{param5:F2P} ATK per Fighting Spirit",
             "CD|{param8:F1}s",
             "Fighting Spirit Limit|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2893,6 +3061,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2937,6 +3109,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2973,6 +3149,10 @@
             "Flamestrider Charged Attack DMG Bonus|{param5:F2P} ATK per Fighting Spirit",
             "CD|{param8:F1}s",
             "Fighting Spirit Limit|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3953,5 +4133,163 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "Motorcycle_ExtraAttack",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 120
+      },
+      "element": "Fire",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "MotorExtraAttack_Final_DamagePercentage"
+    },
+    {
+      "name": "Motorcycle_ExtraAttack",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 120
+      },
+      "element": "Fire",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "MotorExtraAttack_Final_DamagePercentage"
+    },
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 75
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Click_Start_DamagePercentage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 150
+      },
+      "element": "Fire",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "ElemenetalBurst_DamagePercentage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 200
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "Motor_FallingAttack_Damage"
+    },
+    {
+      "name": "Constellation_6",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV7",
+        "value": 75
+      },
+      "element": "Fire",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "WeaponState_DamageRatio"
+    }
+  ],
+  "energy": [
+    {
+      "name": "DropBall",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Pyro",
+      "per_drop": 1,
+      "lifetime": 15,
+      "chance": 100,
+      "cd": 0.3,
+      "applications": 1,
+      "drop_id": 2017
+    }
+  ]
 }

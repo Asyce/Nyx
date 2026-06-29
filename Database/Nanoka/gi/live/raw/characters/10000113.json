@@ -978,6 +978,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1014,6 +1018,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1066,6 +1074,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1102,6 +1114,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1154,6 +1170,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1190,6 +1210,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1242,6 +1266,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1278,6 +1306,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1330,6 +1362,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1366,6 +1402,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1418,6 +1458,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1454,6 +1498,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1506,6 +1554,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1550,6 +1602,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1586,6 +1642,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1645,6 +1705,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1678,6 +1742,10 @@
             "Tonicshot Healing On Hit|{param2:F1P} Elemental Mastery+{param3:F1}",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1733,6 +1801,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1766,6 +1838,10 @@
             "Tonicshot Healing On Hit|{param2:F1P} Elemental Mastery+{param3:F1}",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1821,6 +1897,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1854,6 +1934,10 @@
             "Tonicshot Healing On Hit|{param2:F1P} Elemental Mastery+{param3:F1}",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1909,6 +1993,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1942,6 +2030,10 @@
             "Tonicshot Healing On Hit|{param2:F1P} Elemental Mastery+{param3:F1}",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1997,6 +2089,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2030,6 +2126,10 @@
             "Tonicshot Healing On Hit|{param2:F1P} Elemental Mastery+{param3:F1}",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2085,6 +2185,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2118,6 +2222,10 @@
             "Tonicshot Healing On Hit|{param2:F1P} Elemental Mastery+{param3:F1}",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2173,6 +2281,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2217,6 +2329,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2250,6 +2366,10 @@
             "Tonicshot Healing On Hit|{param2:F1P} Elemental Mastery+{param3:F1}",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2312,6 +2432,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2345,6 +2469,10 @@
             "Sedation Mark DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2400,6 +2528,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2433,6 +2565,10 @@
             "Sedation Mark DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2488,6 +2624,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2521,6 +2661,10 @@
             "Sedation Mark DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2576,6 +2720,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2609,6 +2757,10 @@
             "Sedation Mark DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2664,6 +2816,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2697,6 +2853,10 @@
             "Sedation Mark DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2752,6 +2912,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2785,6 +2949,10 @@
             "Sedation Mark DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2840,6 +3008,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2884,6 +3056,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2917,6 +3093,10 @@
             "Sedation Mark DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3900,5 +4080,303 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "NormalAttack_Bullet_01",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10.1
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_01_Damage"
+    },
+    {
+      "name": "NormalAttack_Bullet_02",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 8.9
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_02_Damage"
+    },
+    {
+      "name": "NormalAttack_Bullet_03",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 14
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_03_Damage"
+    },
+    {
+      "name": "ExtraAttack_Bullet",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 80
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ExtraAttack_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "NyxState_FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "NyxState_FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "NyxState_FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "HoverAttack_Bullet_01",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "Ifa_Eart_Bullet"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 40
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_Bullet_Damage"
+    },
+    {
+      "name": "HoverAttack_Talent_6_Bullet_01",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "Ifa_Eart_Bullet"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 40
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_Talent_6_Bullet_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Ifa_Burst_ExtraHit"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 120
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalBurst_ExtraHit_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Ifa_Burst_ExtraHit"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 120
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalBurst_ExtraHit_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Ifa_Burst_ExtraHit"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 120
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalBurst_ExtraHit_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Ifa_Burst_ExtraHit"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 120
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalBurst_ExtraHit_Damage"
+    },
+    {
+      "name": "ElementalBurst_Bullet",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 120
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalBurst_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "DropBall",
+      "skill": "DropBall",
+      "kind": "Other",
+      "element": "Anemo",
+      "per_drop": 1,
+      "lifetime": 12,
+      "chance": 50,
+      "cd": 0.2,
+      "applications": 1,
+      "drop_id": 2021
+    },
+    {
+      "name": "DropBall",
+      "skill": "DropBall",
+      "kind": "Other",
+      "element": "Anemo",
+      "per_drop": 1,
+      "lifetime": 15,
+      "chance": 50,
+      "cd": 0.2,
+      "applications": 1,
+      "drop_id": 2021
+    }
+  ]
 }

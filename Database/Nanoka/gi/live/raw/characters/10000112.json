@@ -1006,6 +1006,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1042,6 +1046,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1094,6 +1102,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1130,6 +1142,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1182,6 +1198,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1218,6 +1238,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1270,6 +1294,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1306,6 +1334,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1358,6 +1390,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1394,6 +1430,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1446,6 +1486,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1482,6 +1526,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1534,6 +1582,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1578,6 +1630,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1614,6 +1670,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1673,6 +1733,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1709,6 +1773,10 @@
             "Surging Blade CD Interval|{param5:F1}s",
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
             "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1761,6 +1829,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1797,6 +1869,10 @@
             "Surging Blade CD Interval|{param5:F1}s",
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
             "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1849,6 +1925,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1885,6 +1965,10 @@
             "Surging Blade CD Interval|{param5:F1}s",
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
             "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1937,6 +2021,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1973,6 +2061,10 @@
             "Surging Blade CD Interval|{param5:F1}s",
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
             "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2025,6 +2117,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2061,6 +2157,10 @@
             "Surging Blade CD Interval|{param5:F1}s",
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
             "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2113,6 +2213,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2149,6 +2253,10 @@
             "Surging Blade CD Interval|{param5:F1}s",
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
             "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2201,6 +2309,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2245,6 +2357,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2281,6 +2397,10 @@
             "Surging Blade CD Interval|{param5:F1}s",
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
             "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2340,6 +2460,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2373,6 +2497,10 @@
             "Healing|{param2:F1P} ATK+{param3:I}",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2428,6 +2556,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2461,6 +2593,10 @@
             "Healing|{param2:F1P} ATK+{param3:I}",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2516,6 +2652,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2549,6 +2689,10 @@
             "Healing|{param2:F1P} ATK+{param3:I}",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2604,6 +2748,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2637,6 +2785,10 @@
             "Healing|{param2:F1P} ATK+{param3:I}",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2692,6 +2844,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2725,6 +2881,10 @@
             "Healing|{param2:F1P} ATK+{param3:I}",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2780,6 +2940,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2813,6 +2977,10 @@
             "Healing|{param2:F1P} ATK+{param3:I}",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2868,6 +3036,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2912,6 +3084,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2945,6 +3121,10 @@
             "Healing|{param2:F1P} ATK+{param3:I}",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3899,5 +4079,182 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Escoffier_ElementalArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 100
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_Create_Damage"
+    },
+    {
+      "name": "Bullet_Escoffier_ElementalArt_Attacker_01",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Escoffier_ElementalArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 30
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_Bullet_Damage"
+    },
+    {
+      "name": "Bullet_Escoffier_Constellation_Split",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Escoffier_ElementalArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 30
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "ElementalArt_Bullet_Split_Damage",
+        "ElementalArt_Bullet_Damage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Escoffier_ElementalArt_Attacker_02",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Escoffier_ElementalArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 30
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_BigBullet_Damage"
+    },
+    {
+      "name": "SkillObj_Escoffier_Pneuma_Attack",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV3",
+        "value": 20
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Arkhe_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV5",
+        "value": 150
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "ElementalBurst_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV4",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "GenerateBall",
+      "skill": "DropBall",
+      "kind": "Other",
+      "element": "Cryo",
+      "per_drop": 1,
+      "lifetime": 12,
+      "chance": 100,
+      "cd": 0.3,
+      "applications": 1,
+      "drop_id": 2022
+    }
+  ]
 }

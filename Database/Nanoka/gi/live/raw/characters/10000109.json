@@ -1004,6 +1004,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1040,6 +1044,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1092,6 +1100,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1128,6 +1140,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1180,6 +1196,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1216,6 +1236,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1268,6 +1292,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1304,6 +1332,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1356,6 +1388,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1392,6 +1428,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1444,6 +1484,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1480,6 +1524,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1532,6 +1580,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1576,6 +1628,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1612,6 +1668,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1671,6 +1731,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1705,6 +1769,10 @@
             "Dreamdrifter Duration|{param5:F1}s",
             "Elemental Mastery-Based Swirl DMG Increase|{param2:F2P} per Point",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1759,6 +1827,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1793,6 +1865,10 @@
             "Dreamdrifter Duration|{param5:F1}s",
             "Elemental Mastery-Based Swirl DMG Increase|{param2:F2P} per Point",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1847,6 +1923,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1881,6 +1961,10 @@
             "Dreamdrifter Duration|{param5:F1}s",
             "Elemental Mastery-Based Swirl DMG Increase|{param2:F2P} per Point",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1935,6 +2019,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1969,6 +2057,10 @@
             "Dreamdrifter Duration|{param5:F1}s",
             "Elemental Mastery-Based Swirl DMG Increase|{param2:F2P} per Point",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2023,6 +2115,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2057,6 +2153,10 @@
             "Dreamdrifter Duration|{param5:F1}s",
             "Elemental Mastery-Based Swirl DMG Increase|{param2:F2P} per Point",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2111,6 +2211,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2145,6 +2249,10 @@
             "Dreamdrifter Duration|{param5:F1}s",
             "Elemental Mastery-Based Swirl DMG Increase|{param2:F2P} per Point",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2199,6 +2307,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2243,6 +2355,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2277,6 +2393,10 @@
             "Dreamdrifter Duration|{param5:F1}s",
             "Elemental Mastery-Based Swirl DMG Increase|{param2:F2P} per Point",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2338,6 +2458,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2373,6 +2497,10 @@
             "Duration|{param6:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2426,6 +2554,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2461,6 +2593,10 @@
             "Duration|{param6:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2514,6 +2650,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2549,6 +2689,10 @@
             "Duration|{param6:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2602,6 +2746,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2637,6 +2785,10 @@
             "Duration|{param6:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2690,6 +2842,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2725,6 +2881,10 @@
             "Duration|{param6:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2778,6 +2938,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2813,6 +2977,10 @@
             "Duration|{param6:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2866,6 +3034,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2910,6 +3082,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2945,6 +3121,10 @@
             "Duration|{param6:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3069,6 +3249,40 @@
         0,
         0
       ]
+    },
+    {
+      "id": 1095101,
+      "name": "Vast Be the Dream",
+      "desc": "When Yumemizuki Mizuki triggers a Swirl reaction while in the Dreamdrifter state, the next instance of periodic <color=#80FFD7FF>AoE Anemo DMG</color> she deals to nearby enemies during that same state will be increased by 1,000% of her Elemental Mastery. The aforementioned effect can trigger once every 2.5s.\\nAdditionally, while Yumemizuki Mizuki is in the Dreamdrifter state, the Elemental Mastery of nearby party characters is increased by 10% of Yumemizuki Mizuki's Elemental Mastery.",
+      "icon": "UI_Talent_S_Mizuki_08",
+      "param_list": [
+        10,
+        2.5,
+        0.1,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unlock": [
+        7469704
+      ],
+      "special": true,
+      "special_passive": true,
+      "special_desc": ""
     }
   ],
   "constellations": [
@@ -3081,12 +3295,14 @@
         11,
         3,
         3.5,
-        0,
+        10,
         0,
         0,
         0,
         0
-      ]
+      ],
+      "special": true,
+      "special_desc": "When Yumemizuki Mizuki is in the Dreamdrifter state, she will continuously apply the \"Twenty-Three Nights' Awaiting\" effect to nearby opponents for 3s every 3.5s. When an opponent is affected by Anemo DMG-triggered Swirl reactions while the aforementioned effect is active, the effect will be canceled, and this Swirl instance has its DMG against this opponent increased by 1,100% of Mizuki's Elemental Mastery. She also launches an additional attack on the same opponent, dealing <color=#80FFD7FF>Anemo DMG</color> equal to 1,000% of Yumemizuki Mizuki's Elemental Mastery."
     },
     {
       "id": 1092,
@@ -3095,14 +3311,16 @@
       "icon": "UI_Talent_S_Mizuki_02",
       "param_list": [
         0.0004,
-        0,
+        0.2,
         0,
         0,
         0,
         0,
         0,
         0
-      ]
+      ],
+      "special": true,
+      "special_desc": "When Yumemizuki Mizuki enters the Dreamdrifter state, every Elemental Mastery point she has will increase all nearby party members' <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#99FFFFFF>Cryo</color>, and <color=#FFACFFFF>Electro</color> DMG Bonuses by 0.04% until the Dreamdrifter state ends.\\nAdditionally, while Yumemizuki Mizuki is in the Dreamdrifter state, the <color=#FF9999FF>Pyro RES</color>, <color=#80C0FFFF>Hydro RES</color>, <color=#99FFFFFF>Cryo RES</color>, <color=#FFACFFFF>Electro RES</color>, and <color=#80FFD7FF>Anemo RES</color> of nearby opponents are lowered by 20%."
     },
     {
       "id": 1093,
@@ -3127,14 +3345,16 @@
       "icon": "UI_Talent_S_Mizuki_03",
       "param_list": [
         5,
-        0,
+        2.66,
         0,
         0,
         0,
         0,
         0,
         0
-      ]
+      ],
+      "special": true,
+      "special_desc": "Picking up a <color=#FFD780FF>Yumemi Style Special Snack</color> from the Elemental Burst <color=#FFD780FF>Anraku Secret Spring Therapy</color> will both deal DMG and heal. It will also heal a nearby party member with lower HP for 266% of Yumemizuki Mizuki's Elemental Mastery, as well as regenerate 5 Energy for Yumemizuki Mizuki. Energy can be restored this way 4 times per <color=#FFD780FF>Anraku Secret Spring Therapy</color> duration."
     },
     {
       "id": 1095,
@@ -3159,14 +3379,16 @@
       "icon": "UI_Talent_S_Mizuki_04",
       "param_list": [
         0.3,
-        0,
-        0,
-        0,
-        0,
-        0,
+        500,
+        0.0004,
+        0.0016,
+        0.2,
+        0.8,
         0,
         0
-      ]
+      ],
+      "special": true,
+      "special_desc": "While Yumemizuki Mizuki is in the Dreamdrifter state, Swirl DMG dealt by nearby party members can score CRIT Hits, with CRIT Rate fixed at 30%, and CRIT DMG fixed at 100%.\\nEvery point of Elemental Mastery Yumemizuki Mizuki has in excess of 500 increases her CRIT Rate by 0.04% and her CRIT DMG by 0.16%. Yumemizuki Mizuki's CRIT Rate and CRIT DMG can be increased by up to 20% and 80% in this way, respectively."
     }
   ],
   "materials": {
@@ -3897,5 +4119,245 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ExtraAttack_Initiate",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 90
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ExtraAttack_Damage"
+    },
+    {
+      "name": "NormalAttack_Bullet_1_Damage",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 9.802
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_01_Damage"
+    },
+    {
+      "name": "NormalAttack_Bullet_2_Damage",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 8.796
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_02_Damage"
+    },
+    {
+      "name": "NormalAttack_Bullet_3_Damage",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 13.382
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_03_Damage"
+    },
+    {
+      "name": "Talent_1_Attacker",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "DamageRatio"
+    },
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "DamageRatio_First"
+    },
+    {
+      "name": "ElementalArt_WindAttack",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 13.9164
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": 3.5
+    },
+    {
+      "name": "ElementalArt_WindAttack_Attacker",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Mizuki_Eart_Attack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "DamageRatio"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV5",
+        "value": 100
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FirstAttackRatio"
+    },
+    {
+      "name": "ElementalBurst_DreamGadget_WindAttack",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "DamageRatioWeak"
+    },
+    {
+      "name": "ElementalBurst_DreamGadget_WindAttack",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "DamageRatioNormal"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElemBall",
+      "skill": "Elemball_Drop",
+      "kind": "Other",
+      "element": "Anemo",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "cd": 0.5,
+      "applications": 1,
+      "drop_id": 2021
+    }
+  ],
+  "special": true
 }

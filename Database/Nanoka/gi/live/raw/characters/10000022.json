@@ -1046,6 +1046,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1086,6 +1090,10 @@
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
             "Windsunder Arrow DMG|{param12:F1P} Normal Attack DMG",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1134,6 +1142,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1174,6 +1186,10 @@
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
             "Windsunder Arrow DMG|{param12:F1P} Normal Attack DMG",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1222,6 +1238,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1262,6 +1282,10 @@
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
             "Windsunder Arrow DMG|{param12:F1P} Normal Attack DMG",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1310,6 +1334,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1350,6 +1378,10 @@
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
             "Windsunder Arrow DMG|{param12:F1P} Normal Attack DMG",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1398,6 +1430,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1438,6 +1474,10 @@
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
             "Windsunder Arrow DMG|{param12:F1P} Normal Attack DMG",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1486,6 +1526,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1526,6 +1570,10 @@
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
             "Windsunder Arrow DMG|{param12:F1P} Normal Attack DMG",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1574,6 +1622,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1618,6 +1670,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1658,6 +1714,10 @@
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
             "Windsunder Arrow DMG|{param12:F1P} Normal Attack DMG",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1715,6 +1775,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1748,6 +1812,10 @@
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
             "Hold DMG|{param3:P}",
             "Hold CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1803,6 +1871,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1836,6 +1908,10 @@
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
             "Hold DMG|{param3:P}",
             "Hold CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1891,6 +1967,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1924,6 +2004,10 @@
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
             "Hold DMG|{param3:P}",
             "Hold CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1979,6 +2063,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2012,6 +2100,10 @@
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
             "Hold DMG|{param3:P}",
             "Hold CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2067,6 +2159,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2100,6 +2196,10 @@
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
             "Hold DMG|{param3:P}",
             "Hold CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2155,6 +2255,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2188,6 +2292,10 @@
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
             "Hold DMG|{param3:P}",
             "Hold CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2243,6 +2351,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2287,6 +2399,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2320,6 +2436,10 @@
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param2:F1}s",
             "Hold DMG|{param3:P}",
             "Hold CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2382,6 +2502,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2416,6 +2540,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2470,6 +2598,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2504,6 +2636,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2558,6 +2694,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2592,6 +2732,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2646,6 +2790,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2680,6 +2828,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2734,6 +2886,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2768,6 +2924,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2822,6 +2982,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2856,6 +3020,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2910,6 +3078,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2954,6 +3126,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2988,6 +3164,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3984,5 +4164,1133 @@
       ]
     ]
   },
+  "attack": [
+    {
+      "name": "ShootArrow_Enchanted_Wind",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Venti"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithWind"
+    },
+    {
+      "name": "ShootArrow_Enchanted_WithoutWind",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Venti"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithoutWind"
+    },
+    {
+      "name": "Venti_WindBlade_FX",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "WindBladeDamage"
+    },
+    {
+      "name": "Venti_WindBlade_FX_Land",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "WindBladeDamage_Land"
+    },
+    {
+      "name": "Venti_WindBlade_FX_Land",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": [
+        "WindBladeDamage_Land",
+        "Constellation_2_Ratio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Hurricane_FX",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Venti"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 4
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": [
+        "Elemental_Burst_Damage",
+        "Hexenzirkel_BurstBuffRatio_Temp",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Hurricane_FX",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Venti"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 4
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Elemental_Burst_Damage"
+    },
+    {
+      "name": "Hurricane_Mix",
+      "icd": {
+        "tag": "Hurricane_Mix_Detect",
+        "group": "default"
+      },
+      "gauge": 0.04,
+      "element": "AntiFire",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
+      "name": "Hurricane_Mix",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Venti"
+      },
+      "gauge": 1,
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": [
+        "Hurricane_Mix_Damage",
+        "Hexenzirkel_BurstBuffRatio_Temp",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Hurricane_Mix",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Venti"
+      },
+      "gauge": 1,
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Hurricane_Mix_Damage"
+    },
+    {
+      "name": "Hurricane_Mix",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Venti"
+      },
+      "gauge": 1,
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": [
+        "Hurricane_Mix_Damage",
+        "Hexenzirkel_BurstBuffRatio_Temp",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Hurricane_Mix",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Venti"
+      },
+      "gauge": 1,
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Hurricane_Mix_Damage"
+    },
+    {
+      "name": "Hurricane_Mix",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Venti"
+      },
+      "gauge": 1,
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": [
+        "Hurricane_Mix_Damage",
+        "Hexenzirkel_BurstBuffRatio_Temp",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Hurricane_Mix",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Venti"
+      },
+      "gauge": 1,
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Hurricane_Mix_Damage"
+    },
+    {
+      "name": "Hurricane_Mix",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Venti"
+      },
+      "gauge": 1,
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": [
+        "Hurricane_Mix_Damage",
+        "Hexenzirkel_BurstBuffRatio_Temp",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Hurricane_Mix",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Venti"
+      },
+      "gauge": 1,
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Hurricane_Mix_Damage"
+    },
+    {
+      "name": "Talnet_ShootArrow_Enchanted_Wind",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Venti"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 2
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": [
+        "Talent_DamageWithWind",
+        0.33,
+        "MUL"
+      ]
+    },
+    {
+      "name": "Talnet_ShootArrow_Enchanted_WithoutWind",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Venti"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV2",
+        "value": 1
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": [
+        "Talent_DamageWithoutWind",
+        0.33,
+        "MUL"
+      ]
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_01_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_02_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_03_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow",
+      "icd": {
+        "tag": "NormalAttack_04",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_04_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow",
+      "icd": {
+        "tag": "NormalAttack_05",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_05_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow",
+      "icd": {
+        "tag": "NormalAttack_06",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_06_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow_Fire",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_01_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow_Fire",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_02_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow_Fire",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_03_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow_Fire",
+      "icd": {
+        "tag": "NormalAttack_04",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_04_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow_Fire",
+      "icd": {
+        "tag": "NormalAttack_05",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_05_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow_Fire",
+      "icd": {
+        "tag": "NormalAttack_06",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_06_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow_Electric",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_01_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow_Electric",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_02_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow_Electric",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_03_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow_Electric",
+      "icd": {
+        "tag": "NormalAttack_04",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_04_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow_Electric",
+      "icd": {
+        "tag": "NormalAttack_05",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_05_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow_Electric",
+      "icd": {
+        "tag": "NormalAttack_06",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_06_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow_Water",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_01_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow_Water",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_02_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow_Water",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_03_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow_Water",
+      "icd": {
+        "tag": "NormalAttack_04",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_04_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow_Water",
+      "icd": {
+        "tag": "NormalAttack_05",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_05_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow_Water",
+      "icd": {
+        "tag": "NormalAttack_06",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_06_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow_Ice",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_01_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow_Ice",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_02_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow_Ice",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_03_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow_Ice",
+      "icd": {
+        "tag": "NormalAttack_04",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_04_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow_Ice",
+      "icd": {
+        "tag": "NormalAttack_05",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_05_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "Bullet_Venti_Constellation01_Arrow_Ice",
+      "icd": {
+        "tag": "NormalAttack_06",
+        "group": "Venti_Hexenzirkel_Constellation01"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Constellation01_Arrow_Damge",
+        "Hexenzirkel_NormalAttack_Ratio",
+        "MUL",
+        "NormalAttack_06_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "HexenzirkelSkill",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Venti"
+      },
+      "gauge": 1,
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": [
+        "Hurricane_Mix_Damage",
+        "Hexenzirkel_BurstBuffRatio_Temp",
+        "MUL"
+      ]
+    },
+    {
+      "name": "HexenzirkelSkill",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Venti"
+      },
+      "gauge": 1,
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Hurricane_Mix_Damage"
+    },
+    {
+      "name": "HexenzirkelSkill",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Venti"
+      },
+      "gauge": 1,
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": [
+        "Hurricane_Mix_Damage",
+        "Hexenzirkel_BurstBuffRatio_Temp",
+        "MUL"
+      ]
+    },
+    {
+      "name": "HexenzirkelSkill",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Venti"
+      },
+      "gauge": 1,
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Hurricane_Mix_Damage"
+    },
+    {
+      "name": "HexenzirkelSkill",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Venti"
+      },
+      "gauge": 1,
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": [
+        "Hurricane_Mix_Damage",
+        "Hexenzirkel_BurstBuffRatio_Temp",
+        "MUL"
+      ]
+    },
+    {
+      "name": "HexenzirkelSkill",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Venti"
+      },
+      "gauge": 1,
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Hurricane_Mix_Damage"
+    },
+    {
+      "name": "HexenzirkelSkill",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Venti"
+      },
+      "gauge": 1,
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": [
+        "Hurricane_Mix_Damage",
+        "Hexenzirkel_BurstBuffRatio_Temp",
+        "MUL"
+      ]
+    },
+    {
+      "name": "HexenzirkelSkill",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Venti"
+      },
+      "gauge": 1,
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Hurricane_Mix_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "WindBladeElementBall_Base",
+      "skill": "Venti_WindBlade_FX",
+      "kind": "Other",
+      "element": "Anemo",
+      "per_drop": 1,
+      "lifetime": 12,
+      "chance": 100,
+      "applications": 1,
+      "drop_id": 2021
+    },
+    {
+      "name": "WindBladeLand_ElementBall_Base",
+      "skill": "Venti_WindBlade_FX_Land",
+      "kind": "Other",
+      "element": "Anemo",
+      "per_drop": 1,
+      "lifetime": 9,
+      "chance": 100,
+      "applications": 1,
+      "drop_id": 2021
+    }
+  ],
   "special": true
 }

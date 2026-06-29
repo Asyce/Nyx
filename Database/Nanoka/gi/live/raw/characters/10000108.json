@@ -968,6 +968,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1005,6 +1009,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1056,6 +1064,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1093,6 +1105,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1144,6 +1160,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1181,6 +1201,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1232,6 +1256,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1269,6 +1297,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1320,6 +1352,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1357,6 +1393,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1408,6 +1448,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1445,6 +1489,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1496,6 +1544,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1540,6 +1592,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1577,6 +1633,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1635,6 +1695,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1668,6 +1732,10 @@
             "Shield DMG Absorption|{param2:F1P} ATK+{param3:I}",
             "Shield Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1723,6 +1791,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1756,6 +1828,10 @@
             "Shield DMG Absorption|{param2:F1P} ATK+{param3:I}",
             "Shield Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1811,6 +1887,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1844,6 +1924,10 @@
             "Shield DMG Absorption|{param2:F1P} ATK+{param3:I}",
             "Shield Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1899,6 +1983,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1932,6 +2020,10 @@
             "Shield DMG Absorption|{param2:F1P} ATK+{param3:I}",
             "Shield Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1987,6 +2079,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2020,6 +2116,10 @@
             "Shield DMG Absorption|{param2:F1P} ATK+{param3:I}",
             "Shield Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2075,6 +2175,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2108,6 +2212,10 @@
             "Shield DMG Absorption|{param2:F1P} ATK+{param3:I}",
             "Shield Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2163,6 +2271,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2207,6 +2319,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2240,6 +2356,10 @@
             "Shield DMG Absorption|{param2:F1P} ATK+{param3:I}",
             "Shield Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2302,6 +2422,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2334,6 +2458,10 @@
             "Skill DMG|{param1:F1P}×3",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2390,6 +2518,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2422,6 +2554,10 @@
             "Skill DMG|{param1:F1P}×3",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2478,6 +2614,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2510,6 +2650,10 @@
             "Skill DMG|{param1:F1P}×3",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2566,6 +2710,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2598,6 +2746,10 @@
             "Skill DMG|{param1:F1P}×3",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2654,6 +2806,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2686,6 +2842,10 @@
             "Skill DMG|{param1:F1P}×3",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2742,6 +2902,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2774,6 +2938,10 @@
             "Skill DMG|{param1:F1P}×3",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2830,6 +2998,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2874,6 +3046,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2906,6 +3082,10 @@
             "Skill DMG|{param1:F1P}×3",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3861,5 +4041,479 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ExtraAttack_Bullet_2",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 40
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ExtraAttack_DamagePercentage"
+    },
+    {
+      "name": "ExtraAttack_Bullet_2",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 40
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ExtraAttack_DamagePercentage"
+    },
+    {
+      "name": "ElementalArt_Bullet_Wind",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ElementalArt_Base_Damage"
+    },
+    {
+      "name": "ElementalArt_Bullet_Fire",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ElementalArt_Base_Damage"
+    },
+    {
+      "name": "ElementalArt_Bullet_Fire",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt_Mix"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Fire",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "Lanyan_ElementalArt_Base_Damage",
+        "Lanyan_ElementalArt_Ratio_Damage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Bullet_Fire_Extra",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ElementalArt_Base_Damage"
+    },
+    {
+      "name": "ElementalArt_Bullet_Fire_Extra",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt_Mix"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Fire",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "Lanyan_ElementalArt_Base_Damage",
+        "Lanyan_ElementalArt_Ratio_Damage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Bullet_Water",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ElementalArt_Base_Damage"
+    },
+    {
+      "name": "ElementalArt_Bullet_Water",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt_Mix"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "Lanyan_ElementalArt_Base_Damage",
+        "Lanyan_ElementalArt_Ratio_Damage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Bullet_Water_Extra",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ElementalArt_Base_Damage"
+    },
+    {
+      "name": "ElementalArt_Bullet_Water_Extra",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt_Mix"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "Lanyan_ElementalArt_Base_Damage",
+        "Lanyan_ElementalArt_Ratio_Damage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Bullet_Electric",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ElementalArt_Base_Damage"
+    },
+    {
+      "name": "ElementalArt_Bullet_Electric",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt_Mix"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Electric",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "Lanyan_ElementalArt_Base_Damage",
+        "Lanyan_ElementalArt_Ratio_Damage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Bullet_Electric_Extra",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ElementalArt_Base_Damage"
+    },
+    {
+      "name": "ElementalArt_Bullet_Electric_Extra",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt_Mix"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Electric",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "Lanyan_ElementalArt_Base_Damage",
+        "Lanyan_ElementalArt_Ratio_Damage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Bullet_Ice",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ElementalArt_Base_Damage"
+    },
+    {
+      "name": "ElementalArt_Bullet_Ice",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt_Mix"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "Lanyan_ElementalArt_Base_Damage",
+        "Lanyan_ElementalArt_Ratio_Damage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Bullet_Ice_Extra",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ElementalArt_Base_Damage"
+    },
+    {
+      "name": "ElementalArt_Bullet_Ice_Extra",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt_Mix"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "Lanyan_ElementalArt_Base_Damage",
+        "Lanyan_ElementalArt_Ratio_Damage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Jump",
+      "icd": {
+        "tag": "Elemental_Art_Detect",
+        "group": "default"
+      },
+      "gauge": 0.04,
+      "element": "AntiFire",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
+      "name": "ElementalBurst_Bullet_2",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV0",
+        "value": 70
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ElementalBurst_Base_Damage"
+    },
+    {
+      "name": "ElementalBurst_Bullet_2",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV0",
+        "value": 70
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ElementalBurst_Base_Damage"
+    },
+    {
+      "name": "ElementalBurst_Bullet_2",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV7",
+        "value": 70
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ElementalBurst_Base_Damage"
+    },
+    {
+      "name": "ElementalBurst_Bullet_2",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV7",
+        "value": 70
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ElementalBurst_Base_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementalArt_ElementalBall",
+      "skill": "ElementalArt_Attack",
+      "kind": "ElementalArt",
+      "element": "Anemo",
+      "per_drop": 1,
+      "lifetime": 9,
+      "chance": 100,
+      "cd": 0.2,
+      "applications": 1,
+      "drop_id": 2021
+    }
+  ]
 }

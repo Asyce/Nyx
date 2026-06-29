@@ -29,7 +29,7 @@
       "color": "dd77ff"
     }
   },
-  "name": "",
+  "name": "Yangyang: Xuanling",
   "nick_name": "Breath of Winds",
   "desc": "",
   "icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_70_UI.T_IconRoleHead256_70_UI",
@@ -4877,10 +4877,10 @@
       "id": 81001610,
       "suit_weapon_skin_id": 0,
       "quality_id": 3,
-      "name": "",
-      "title_name": "",
-      "sub_dec_name": "",
-      "bg_description": "",
+      "name": "Yangyang: Xuanling",
+      "title_name": "Boundless Azure",
+      "sub_dec_name": "Yangyang: Xuanling - Original Outfit",
+      "bg_description": "Her attire as the \"Votary of the Voice,\" worn after deepening her bond with the Streams.\nThe bird has shed its down and rides the wind toward the heights. From here on, too, she will stride forward, toward everything she believes in.",
       "background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Xuanling_UI.T_IconRole_Pile_Xuanling_UI",
       "portrait": "/Game/Aki/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleXuanling.T_ActivityRoleXuanling",
       "sort_index": 0,

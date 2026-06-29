@@ -3265,7 +3265,7 @@
     "refinements": {
       "1": {
         "name": "Overloaded",
-        "desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>20%</color> for 12s.",
+        "desc": "Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>20%</color> for 12s.",
         "param_list": [
           0.2,
           12,
@@ -3279,7 +3279,7 @@
       },
       "2": {
         "name": "Overloaded",
-        "desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>25%</color> for 12s.",
+        "desc": "Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>25%</color> for 12s.",
         "param_list": [
           0.25,
           12,
@@ -3293,7 +3293,7 @@
       },
       "3": {
         "name": "Overloaded",
-        "desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>30%</color> for 12s.",
+        "desc": "Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>30%</color> for 12s.",
         "param_list": [
           0.3,
           12,
@@ -3307,7 +3307,7 @@
       },
       "4": {
         "name": "Overloaded",
-        "desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>35%</color> for 12s.",
+        "desc": "Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>35%</color> for 12s.",
         "param_list": [
           0.35,
           12,
@@ -3321,7 +3321,7 @@
       },
       "5": {
         "name": "Overloaded",
-        "desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>40%</color> for 12s.",
+        "desc": "Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>40%</color> for 12s.",
         "param_list": [
           0.4,
           12,
@@ -59650,6 +59650,648 @@
     }
   },
   {
+    "id": "12516",
+    "contentStatus": "live",
+    "name": "A Teaspoon of Transcendence",
+    "rarity": 5,
+    "type": "WEAPON_CLAYMORE",
+    "description": "An object of fantasy with countless definitions amidst an endless sea of stories. On the grand scale of the universe or the realm of dreams, there is no real difference between the holy sword of the brave warrior and the princess's teaspoon, or between the ice-cold clockspring and the key that will unlock the gates of transcendence...",
+    "attack": 674,
+    "subStat": "FIGHT_PROP_CRITICAL_HURT",
+    "assets": {
+      "icon": "Nanoka/gi/assets/weapons/icons/UI_EquipIcon_Claymore_CrystallineSword.webp",
+      "gacha": "Nanoka/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Claymore_CrystallineSword.webp"
+    },
+    "properties": [
+      {
+        "init_value": 47.537,
+        "prop_type": "FIGHT_PROP_BASE_ATTACK",
+        "type": "GROW_CURVE_ATTACK_302"
+      },
+      {
+        "init_value": 0.096,
+        "prop_type": "FIGHT_PROP_CRITICAL_HURT",
+        "type": "GROW_CURVE_CRITICAL_301"
+      }
+    ],
+    "stats": {
+      "atk": {
+        "base": 47.537,
+        "levels": {
+          "1": 1,
+          "2": 1.091,
+          "3": 1.183,
+          "4": 1.275,
+          "5": 1.368,
+          "6": 1.461,
+          "7": 1.554,
+          "8": 1.648,
+          "9": 1.743,
+          "10": 1.837,
+          "11": 1.933,
+          "12": 2.028,
+          "13": 2.124,
+          "14": 2.22,
+          "15": 2.317,
+          "16": 2.414,
+          "17": 2.511,
+          "18": 2.608,
+          "19": 2.706,
+          "20": 2.804,
+          "21": 2.903,
+          "22": 3.002,
+          "23": 3.101,
+          "24": 3.2,
+          "25": 3.3,
+          "26": 3.4,
+          "27": 3.5,
+          "28": 3.601,
+          "29": 3.701,
+          "30": 3.803,
+          "31": 3.904,
+          "32": 4.005,
+          "33": 4.107,
+          "34": 4.209,
+          "35": 4.312,
+          "36": 4.414,
+          "37": 4.517,
+          "38": 4.62,
+          "39": 4.723,
+          "40": 4.827,
+          "41": 4.931,
+          "42": 5.035,
+          "43": 5.139,
+          "44": 5.243,
+          "45": 5.348,
+          "46": 5.453,
+          "47": 5.558,
+          "48": 5.663,
+          "49": 5.768,
+          "50": 5.874,
+          "51": 5.98,
+          "52": 6.086,
+          "53": 6.192,
+          "54": 6.299,
+          "55": 6.406,
+          "56": 6.513,
+          "57": 6.62,
+          "58": 6.727,
+          "59": 6.835,
+          "60": 6.942,
+          "61": 7.05,
+          "62": 7.158,
+          "63": 7.267,
+          "64": 7.375,
+          "65": 7.484,
+          "66": 7.592,
+          "67": 7.701,
+          "68": 7.811,
+          "69": 7.92,
+          "70": 8.03,
+          "71": 8.139,
+          "72": 8.249,
+          "73": 8.359,
+          "74": 8.47,
+          "75": 8.58,
+          "76": 8.691,
+          "77": 8.802,
+          "78": 8.913,
+          "79": 9.024,
+          "80": 9.135,
+          "81": 9.247,
+          "82": 9.358,
+          "83": 9.47,
+          "84": 9.582,
+          "85": 9.694,
+          "86": 9.807,
+          "87": 9.919,
+          "88": 10.032,
+          "89": 10.145,
+          "90": 10.258,
+          "91": 10.371,
+          "92": 10.485,
+          "93": 10.598,
+          "94": 10.712,
+          "95": 10.826,
+          "96": 10.94,
+          "97": 11.054,
+          "98": 11.168,
+          "99": 11.283,
+          "100": 11.397
+        }
+      },
+      "fight_prop_critical_hurt": {
+        "base": 0.096,
+        "levels": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1.162,
+          "6": 1.162,
+          "7": 1.162,
+          "8": 1.162,
+          "9": 1.162,
+          "10": 1.363,
+          "11": 1.363,
+          "12": 1.363,
+          "13": 1.363,
+          "14": 1.363,
+          "15": 1.565,
+          "16": 1.565,
+          "17": 1.565,
+          "18": 1.565,
+          "19": 1.565,
+          "20": 1.767,
+          "21": 1.767,
+          "22": 1.767,
+          "23": 1.767,
+          "24": 1.767,
+          "25": 1.969,
+          "26": 1.969,
+          "27": 1.969,
+          "28": 1.969,
+          "29": 1.969,
+          "30": 2.171,
+          "31": 2.171,
+          "32": 2.171,
+          "33": 2.171,
+          "34": 2.171,
+          "35": 2.373,
+          "36": 2.373,
+          "37": 2.373,
+          "38": 2.373,
+          "39": 2.373,
+          "40": 2.575,
+          "41": 2.575,
+          "42": 2.575,
+          "43": 2.575,
+          "44": 2.575,
+          "45": 2.777,
+          "46": 2.777,
+          "47": 2.777,
+          "48": 2.777,
+          "49": 2.777,
+          "50": 2.979,
+          "51": 2.979,
+          "52": 2.979,
+          "53": 2.979,
+          "54": 2.979,
+          "55": 3.181,
+          "56": 3.181,
+          "57": 3.181,
+          "58": 3.181,
+          "59": 3.181,
+          "60": 3.383,
+          "61": 3.383,
+          "62": 3.383,
+          "63": 3.383,
+          "64": 3.383,
+          "65": 3.585,
+          "66": 3.585,
+          "67": 3.585,
+          "68": 3.585,
+          "69": 3.585,
+          "70": 3.786,
+          "71": 3.786,
+          "72": 3.786,
+          "73": 3.786,
+          "74": 3.786,
+          "75": 3.988,
+          "76": 3.988,
+          "77": 3.988,
+          "78": 3.988,
+          "79": 3.988,
+          "80": 4.19,
+          "81": 4.19,
+          "82": 4.19,
+          "83": 4.19,
+          "84": 4.19,
+          "85": 4.392,
+          "86": 4.392,
+          "87": 4.392,
+          "88": 4.392,
+          "89": 4.392,
+          "90": 4.594,
+          "91": 4.594,
+          "92": 4.594,
+          "93": 4.594,
+          "94": 4.594,
+          "95": 4.796,
+          "96": 4.796,
+          "97": 4.796,
+          "98": 4.796,
+          "99": 4.796,
+          "100": 4.998
+        }
+      }
+    },
+    "xpRequirements": {
+      "1": 600,
+      "2": 950,
+      "3": 1350,
+      "4": 1800,
+      "5": 2325,
+      "6": 2925,
+      "7": 3525,
+      "8": 4200,
+      "9": 4950,
+      "10": 5700,
+      "11": 6525,
+      "12": 7400,
+      "13": 8300,
+      "14": 9225,
+      "15": 10200,
+      "16": 11250,
+      "17": 12300,
+      "18": 13425,
+      "19": 14600,
+      "20": 15750,
+      "21": 17850,
+      "22": 19175,
+      "23": 20550,
+      "24": 21975,
+      "25": 23450,
+      "26": 24950,
+      "27": 26475,
+      "28": 28050,
+      "29": 29675,
+      "30": 31350,
+      "31": 33050,
+      "32": 34800,
+      "33": 36575,
+      "34": 38400,
+      "35": 40250,
+      "36": 42150,
+      "37": 44100,
+      "38": 46100,
+      "39": 48125,
+      "40": 50150,
+      "41": 54875,
+      "42": 57125,
+      "43": 59400,
+      "44": 61725,
+      "45": 64100,
+      "46": 66500,
+      "47": 68925,
+      "48": 71400,
+      "49": 73950,
+      "50": 76500,
+      "51": 83075,
+      "52": 85850,
+      "53": 88650,
+      "54": 91550,
+      "55": 94425,
+      "56": 97400,
+      "57": 100350,
+      "58": 103400,
+      "59": 106475,
+      "60": 109575,
+      "61": 118350,
+      "62": 121700,
+      "63": 125100,
+      "64": 128550,
+      "65": 132050,
+      "66": 135575,
+      "67": 139125,
+      "68": 142725,
+      "69": 146375,
+      "70": 150075,
+      "71": 161525,
+      "72": 165500,
+      "73": 169500,
+      "74": 173550,
+      "75": 177650,
+      "76": 181800,
+      "77": 186000,
+      "78": 190250,
+      "79": 194525,
+      "80": 198875,
+      "81": 234725,
+      "82": 263825,
+      "83": 296400,
+      "84": 332975,
+      "85": 373950,
+      "86": 419925,
+      "87": 471375,
+      "88": 529050,
+      "89": 593675,
+      "90": 666050
+    },
+    "ascensions": {
+      "1": {
+        "fight_prop_base_attack": 31.1
+      },
+      "2": {
+        "fight_prop_base_attack": 62.2
+      },
+      "3": {
+        "fight_prop_base_attack": 93.4
+      },
+      "4": {
+        "fight_prop_base_attack": 124.5
+      },
+      "5": {
+        "fight_prop_base_attack": 155.6
+      },
+      "6": {
+        "fight_prop_base_attack": 186.7
+      }
+    },
+    "refinements": {
+      "1": {
+        "name": "White Fairy's Queening",
+        "desc": "ATK is increased by <color=#99FFFFFF>28%</color>.\\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct DMG is increased by <color=#99FFFFFF>16%</color> for 5s. This effect can stack once every 0.2s, max 3 stacks.",
+        "param_list": [
+          0.28,
+          0.16,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "2": {
+        "name": "White Fairy's Queening",
+        "desc": "ATK is increased by <color=#99FFFFFF>35%</color>.\\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct DMG is increased by <color=#99FFFFFF>20%</color> for 5s. This effect can stack once every 0.2s, max 3 stacks.",
+        "param_list": [
+          0.35,
+          0.2,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "3": {
+        "name": "White Fairy's Queening",
+        "desc": "ATK is increased by <color=#99FFFFFF>42%</color>.\\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct DMG is increased by <color=#99FFFFFF>24%</color> for 5s. This effect can stack once every 0.2s, max 3 stacks.",
+        "param_list": [
+          0.42,
+          0.24,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "4": {
+        "name": "White Fairy's Queening",
+        "desc": "ATK is increased by <color=#99FFFFFF>49%</color>.\\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct DMG is increased by <color=#99FFFFFF>28%</color> for 5s. This effect can stack once every 0.2s, max 3 stacks.",
+        "param_list": [
+          0.49,
+          0.28,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "5": {
+        "name": "White Fairy's Queening",
+        "desc": "ATK is increased by <color=#99FFFFFF>56%</color>.\\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct DMG is increased by <color=#99FFFFFF>32%</color> for 5s. This effect can stack once every 0.2s, max 3 stacks.",
+        "param_list": [
+          0.56,
+          0.32,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "materials": {
+      "1": {
+        "cost": 10000,
+        "materials": [
+          {
+            "itemId": "114081",
+            "quantity": 5,
+            "name": "Sundered Glory of the Far-North Scions",
+            "rarity": 2,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_114081.webp"
+            }
+          },
+          {
+            "itemId": "112143",
+            "quantity": 5,
+            "name": "Fractured Lunar Iron",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112143.webp"
+            }
+          },
+          {
+            "itemId": "112125",
+            "quantity": 3,
+            "name": "Tattered Warrant",
+            "rarity": 1,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112125.webp"
+            }
+          }
+        ]
+      },
+      "2": {
+        "cost": 20000,
+        "materials": [
+          {
+            "itemId": "114082",
+            "quantity": 5,
+            "name": "Unyielding Delusion of the Far-North Scions",
+            "rarity": 3,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_114082.webp"
+            }
+          },
+          {
+            "itemId": "112143",
+            "quantity": 18,
+            "name": "Fractured Lunar Iron",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112143.webp"
+            }
+          },
+          {
+            "itemId": "112125",
+            "quantity": 12,
+            "name": "Tattered Warrant",
+            "rarity": 1,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112125.webp"
+            }
+          }
+        ]
+      },
+      "3": {
+        "cost": 30000,
+        "materials": [
+          {
+            "itemId": "114082",
+            "quantity": 9,
+            "name": "Unyielding Delusion of the Far-North Scions",
+            "rarity": 3,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_114082.webp"
+            }
+          },
+          {
+            "itemId": "112144",
+            "quantity": 9,
+            "name": "Depleted Lunar Iron",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112144.webp"
+            }
+          },
+          {
+            "itemId": "112126",
+            "quantity": 9,
+            "name": "Immaculate Warrant",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112126.webp"
+            }
+          }
+        ]
+      },
+      "4": {
+        "cost": 45000,
+        "materials": [
+          {
+            "itemId": "114083",
+            "quantity": 5,
+            "name": "Oblation of the Far-North Scions",
+            "rarity": 4,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_114083.webp"
+            }
+          },
+          {
+            "itemId": "112144",
+            "quantity": 18,
+            "name": "Depleted Lunar Iron",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112144.webp"
+            }
+          },
+          {
+            "itemId": "112126",
+            "quantity": 14,
+            "name": "Immaculate Warrant",
+            "rarity": 2,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112126.webp"
+            }
+          }
+        ]
+      },
+      "5": {
+        "cost": 55000,
+        "materials": [
+          {
+            "itemId": "114083",
+            "quantity": 9,
+            "name": "Oblation of the Far-North Scions",
+            "rarity": 4,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_114083.webp"
+            }
+          },
+          {
+            "itemId": "112145",
+            "quantity": 14,
+            "name": "Unblemished Lunar Iron",
+            "rarity": 4,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112145.webp"
+            }
+          },
+          {
+            "itemId": "112127",
+            "quantity": 9,
+            "name": "Frost-Etched Warrant",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112127.webp"
+            }
+          }
+        ]
+      },
+      "6": {
+        "cost": 65000,
+        "materials": [
+          {
+            "itemId": "114084",
+            "quantity": 6,
+            "name": "Aureate Radiance of the Far-North Scions",
+            "rarity": 5,
+            "type": "Weapon Ascension Material",
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_114084.webp"
+            }
+          },
+          {
+            "itemId": "112145",
+            "quantity": 27,
+            "name": "Unblemished Lunar Iron",
+            "rarity": 4,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112145.webp"
+            }
+          },
+          {
+            "itemId": "112127",
+            "quantity": 18,
+            "name": "Frost-Etched Warrant",
+            "rarity": 3,
+            "type": "Character and Weapon Enhancement Material",
+            "assets": {
+              "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112127.webp"
+            }
+          }
+        ]
+      }
+    },
+    "story": {
+      "292516": {
+        "zh": "ART/UI/Readable/CHS/Weapon12516",
+        "en": "ART/UI/Readable/EN/Weapon12516_EN",
+        "ja": "ART/UI/Readable/JP/Weapon12516_JP",
+        "ko": "ART/UI/Readable/KR/Weapon12516_KR"
+      }
+    }
+  },
+  {
     "id": "13101",
     "contentStatus": "live",
     "name": "Beginner's Protector",
@@ -109485,12 +110127,12 @@
     "refinements": {
       "1": {
         "name": "Kagura Dance of the Sacred Sakura",
-        "desc": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by <color=#99FFFFFF>12%</color> for 16s. Max 3 stacks. This character will gain <color=#99FFFFFF>12%</color> All Elemental DMG Bonus when they possess 3 stacks.",
+        "desc": "Using an Elemental Skill grants the Kagura Dance effect, increasing the wielding character's Elemental Skill DMG by <color=#99FFFFFF>12%</color> as well as their Stellar-Conduct DMG by <color=#99FFFFFF>12%</color> for 24s. Max 3 stacks. This character will gain a <color=#99FFFFFF>12%</color> All Elemental DMG Bonus when they possess 3 stacks.",
         "param_list": [
           0.12,
-          16,
+          24,
           0.12,
-          0,
+          0.12,
           0,
           0,
           0,
@@ -109499,12 +110141,12 @@
       },
       "2": {
         "name": "Kagura Dance of the Sacred Sakura",
-        "desc": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by <color=#99FFFFFF>15%</color> for 16s. Max 3 stacks. This character will gain <color=#99FFFFFF>15%</color> All Elemental DMG Bonus when they possess 3 stacks.",
+        "desc": "Using an Elemental Skill grants the Kagura Dance effect, increasing the wielding character's Elemental Skill DMG by <color=#99FFFFFF>15%</color> as well as their Stellar-Conduct DMG by <color=#99FFFFFF>15%</color> for 24s. Max 3 stacks. This character will gain a <color=#99FFFFFF>15%</color> All Elemental DMG Bonus when they possess 3 stacks.",
         "param_list": [
           0.15,
-          16,
+          24,
           0.15,
-          0,
+          0.15,
           0,
           0,
           0,
@@ -109513,12 +110155,12 @@
       },
       "3": {
         "name": "Kagura Dance of the Sacred Sakura",
-        "desc": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by <color=#99FFFFFF>18%</color> for 16s. Max 3 stacks. This character will gain <color=#99FFFFFF>18%</color> All Elemental DMG Bonus when they possess 3 stacks.",
+        "desc": "Using an Elemental Skill grants the Kagura Dance effect, increasing the wielding character's Elemental Skill DMG by <color=#99FFFFFF>18%</color> as well as their Stellar-Conduct DMG by <color=#99FFFFFF>18%</color> for 24s. Max 3 stacks. This character will gain a <color=#99FFFFFF>18%</color> All Elemental DMG Bonus when they possess 3 stacks.",
         "param_list": [
           0.18,
-          16,
+          24,
           0.18,
-          0,
+          0.18,
           0,
           0,
           0,
@@ -109527,12 +110169,12 @@
       },
       "4": {
         "name": "Kagura Dance of the Sacred Sakura",
-        "desc": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by <color=#99FFFFFF>21%</color> for 16s. Max 3 stacks. This character will gain <color=#99FFFFFF>21%</color> All Elemental DMG Bonus when they possess 3 stacks.",
+        "desc": "Using an Elemental Skill grants the Kagura Dance effect, increasing the wielding character's Elemental Skill DMG by <color=#99FFFFFF>21%</color> as well as their Stellar-Conduct DMG by <color=#99FFFFFF>21%</color> for 24s. Max 3 stacks. This character will gain a <color=#99FFFFFF>21%</color> All Elemental DMG Bonus when they possess 3 stacks.",
         "param_list": [
           0.21,
-          16,
+          24,
           0.21,
-          0,
+          0.21,
           0,
           0,
           0,
@@ -109541,12 +110183,12 @@
       },
       "5": {
         "name": "Kagura Dance of the Sacred Sakura",
-        "desc": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by <color=#99FFFFFF>24%</color> for 16s. Max 3 stacks. This character will gain <color=#99FFFFFF>24%</color> All Elemental DMG Bonus when they possess 3 stacks.",
+        "desc": "Using an Elemental Skill grants the Kagura Dance effect, increasing the wielding character's Elemental Skill DMG by <color=#99FFFFFF>24%</color> as well as their Stellar-Conduct DMG by <color=#99FFFFFF>24%</color> for 24s. Max 3 stacks. This character will gain a <color=#99FFFFFF>24%</color> All Elemental DMG Bonus when they possess 3 stacks.",
         "param_list": [
           0.24,
-          16,
+          24,
           0.24,
-          0,
+          0.24,
           0,
           0,
           0,
@@ -111411,70 +112053,70 @@
     "refinements": {
       "1": {
         "name": "Golden Blood-Tide",
-        "desc": "ATK is increased by <color=#99FFFFFF>16%</color>. When current HP increases or decreases, Normal Attack DMG will be increased by <color=#99FFFFFF>16%</color> and Charged Attack DMG will be increased by <color=#99FFFFFF>14%</color> for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>8%</color>.",
+        "desc": "ATK is increased by <color=#99FFFFFF>16%</color>. When current HP increases or decreases, Normal Attack DMG is increased by <color=#99FFFFFF>16%</color>, Charged Attack DMG is increased by <color=#99FFFFFF>14%</color>, and Stellar-Conduct DMG is increased by <color=#99FFFFFF>14%</color> for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>8%</color>.",
         "param_list": [
           4,
           0.3,
           0.16,
           0.14,
           0.08,
-          0,
+          0.14,
           0,
           0
         ]
       },
       "2": {
         "name": "Golden Blood-Tide",
-        "desc": "ATK is increased by <color=#99FFFFFF>20%</color>. When current HP increases or decreases, Normal Attack DMG will be increased by <color=#99FFFFFF>20%</color> and Charged Attack DMG will be increased by <color=#99FFFFFF>17.5%</color> for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>10%</color>.",
+        "desc": "ATK is increased by <color=#99FFFFFF>20%</color>. When current HP increases or decreases, Normal Attack DMG is increased by <color=#99FFFFFF>20%</color>, Charged Attack DMG is increased by <color=#99FFFFFF>17.5%</color>, and Stellar-Conduct DMG is increased by <color=#99FFFFFF>17.5%</color> for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>10%</color>.",
         "param_list": [
           4,
           0.3,
           0.2,
           0.175,
           0.1,
-          0,
+          0.175,
           0,
           0
         ]
       },
       "3": {
         "name": "Golden Blood-Tide",
-        "desc": "ATK is increased by <color=#99FFFFFF>24%</color>. When current HP increases or decreases, Normal Attack DMG will be increased by <color=#99FFFFFF>24%</color> and Charged Attack DMG will be increased by <color=#99FFFFFF>21%</color> for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>12%</color>.",
+        "desc": "ATK is increased by <color=#99FFFFFF>24%</color>. When current HP increases or decreases, Normal Attack DMG is increased by <color=#99FFFFFF>24%</color>, Charged Attack DMG is increased by <color=#99FFFFFF>21%</color>, and Stellar-Conduct DMG is increased by <color=#99FFFFFF>21%</color> for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>12%</color>.",
         "param_list": [
           4,
           0.3,
           0.24,
           0.21,
           0.12,
-          0,
+          0.21,
           0,
           0
         ]
       },
       "4": {
         "name": "Golden Blood-Tide",
-        "desc": "ATK is increased by <color=#99FFFFFF>28%</color>. When current HP increases or decreases, Normal Attack DMG will be increased by <color=#99FFFFFF>28%</color> and Charged Attack DMG will be increased by <color=#99FFFFFF>24.5%</color> for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>14%</color>.",
+        "desc": "ATK is increased by <color=#99FFFFFF>28%</color>. When current HP increases or decreases, Normal Attack DMG is increased by <color=#99FFFFFF>28%</color>, Charged Attack DMG is increased by <color=#99FFFFFF>24.5%</color>, and Stellar-Conduct DMG is increased by <color=#99FFFFFF>24.5%</color> for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>14%</color>.",
         "param_list": [
           4,
           0.3,
           0.28,
           0.245,
           0.14,
-          0,
+          0.245,
           0,
           0
         ]
       },
       "5": {
         "name": "Golden Blood-Tide",
-        "desc": "ATK is increased by <color=#99FFFFFF>32%</color>. When current HP increases or decreases, Normal Attack DMG will be increased by <color=#99FFFFFF>32%</color> and Charged Attack DMG will be increased by <color=#99FFFFFF>28%</color> for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>16%</color>.",
+        "desc": "ATK is increased by <color=#99FFFFFF>32%</color>. When current HP increases or decreases, Normal Attack DMG is increased by <color=#99FFFFFF>32%</color>, Charged Attack DMG is increased by <color=#99FFFFFF>28%</color>, and Stellar-Conduct DMG is increased by <color=#99FFFFFF>28%</color> for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>16%</color>.",
         "param_list": [
           4,
           0.3,
           0.32,
           0.28,
           0.16,
-          0,
+          0.28,
           0,
           0
         ]

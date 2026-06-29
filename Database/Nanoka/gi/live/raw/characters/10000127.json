@@ -995,6 +995,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1032,6 +1036,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1083,6 +1091,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1120,6 +1132,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1171,6 +1187,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1208,6 +1228,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1259,6 +1283,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1296,6 +1324,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1347,6 +1379,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1384,6 +1420,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1435,6 +1475,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1472,6 +1516,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1523,6 +1571,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1567,6 +1619,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1604,6 +1660,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1662,6 +1722,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1694,6 +1758,10 @@
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P} Elemental Mastery+{param2:P} DEF",
             "Hold DMG|{param3:P} Elemental Mastery+{param4:P} DEF",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1750,6 +1818,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1782,6 +1854,10 @@
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P} Elemental Mastery+{param2:P} DEF",
             "Hold DMG|{param3:P} Elemental Mastery+{param4:P} DEF",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1838,6 +1914,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1870,6 +1950,10 @@
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P} Elemental Mastery+{param2:P} DEF",
             "Hold DMG|{param3:P} Elemental Mastery+{param4:P} DEF",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1926,6 +2010,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1958,6 +2046,10 @@
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P} Elemental Mastery+{param2:P} DEF",
             "Hold DMG|{param3:P} Elemental Mastery+{param4:P} DEF",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2014,6 +2106,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2046,6 +2142,10 @@
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P} Elemental Mastery+{param2:P} DEF",
             "Hold DMG|{param3:P} Elemental Mastery+{param4:P} DEF",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2102,6 +2202,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2134,6 +2238,10 @@
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P} Elemental Mastery+{param2:P} DEF",
             "Hold DMG|{param3:P} Elemental Mastery+{param4:P} DEF",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2190,6 +2298,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2234,6 +2346,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2266,6 +2382,10 @@
             "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:P} Elemental Mastery+{param2:P} DEF",
             "Hold DMG|{param3:P} Elemental Mastery+{param4:P} DEF",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2329,6 +2449,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2366,6 +2490,10 @@
             "Duration|{param7:F1}s",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2417,6 +2545,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2454,6 +2586,10 @@
             "Duration|{param7:F1}s",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2505,6 +2641,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2542,6 +2682,10 @@
             "Duration|{param7:F1}s",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2593,6 +2737,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2630,6 +2778,10 @@
             "Duration|{param7:F1}s",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2681,6 +2833,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2718,6 +2874,10 @@
             "Duration|{param7:F1}s",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2769,6 +2929,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2806,6 +2970,10 @@
             "Duration|{param7:F1}s",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2857,6 +3025,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2901,6 +3073,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2938,6 +3114,10 @@
             "Duration|{param7:F1}s",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3917,5 +4097,126 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ExtraAttack_Bullet",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Avatar_Pole_ExtraAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 120
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Spear",
+      "damage_param": "ExtraAttack_Normal"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 150
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV4",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementalArt_DropBall",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Geo",
+      "per_drop": 1,
+      "lifetime": 12,
+      "chance": 50,
+      "cd": 0.5,
+      "applications": 1,
+      "drop_id": 2023
+    },
+    {
+      "name": "ElementalArt_DropBall",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Geo",
+      "per_drop": 1,
+      "lifetime": 15,
+      "chance": 50,
+      "cd": 0.5,
+      "applications": 1,
+      "drop_id": 2023
+    }
+  ]
 }

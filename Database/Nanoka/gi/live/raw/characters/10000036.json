@@ -969,6 +969,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1008,6 +1012,10 @@
             "Max Duration|{param8:F1}s",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1057,6 +1065,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1096,6 +1108,10 @@
             "Max Duration|{param8:F1}s",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1145,6 +1161,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1184,6 +1204,10 @@
             "Max Duration|{param8:F1}s",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1233,6 +1257,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1272,6 +1300,10 @@
             "Max Duration|{param8:F1}s",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1321,6 +1353,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1360,6 +1396,10 @@
             "Max Duration|{param8:F1}s",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1409,6 +1449,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1448,6 +1492,10 @@
             "Max Duration|{param8:F1}s",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1497,6 +1545,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1541,6 +1593,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1580,6 +1636,10 @@
             "Max Duration|{param8:F1}s",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1636,6 +1696,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1669,6 +1733,10 @@
             "Infusion Duration|{param2:F1}s",
             "Field Duration|{param4:F1}s",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1724,6 +1792,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1757,6 +1829,10 @@
             "Infusion Duration|{param2:F1}s",
             "Field Duration|{param4:F1}s",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1812,6 +1888,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1845,6 +1925,10 @@
             "Infusion Duration|{param2:F1}s",
             "Field Duration|{param4:F1}s",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1900,6 +1984,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1933,6 +2021,10 @@
             "Infusion Duration|{param2:F1}s",
             "Field Duration|{param4:F1}s",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1988,6 +2080,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2021,6 +2117,10 @@
             "Infusion Duration|{param2:F1}s",
             "Field Duration|{param4:F1}s",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2076,6 +2176,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2109,6 +2213,10 @@
             "Infusion Duration|{param2:F1}s",
             "Field Duration|{param4:F1}s",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2164,6 +2272,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2208,6 +2320,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2241,6 +2357,10 @@
             "Infusion Duration|{param2:F1}s",
             "Field Duration|{param4:F1}s",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2303,6 +2423,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2335,6 +2459,10 @@
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2391,6 +2519,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2423,6 +2555,10 @@
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2479,6 +2615,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2511,6 +2651,10 @@
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2567,6 +2711,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2599,6 +2747,10 @@
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2655,6 +2807,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2687,6 +2843,10 @@
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2743,6 +2903,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2775,6 +2939,10 @@
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2831,6 +2999,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2875,6 +3047,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2907,6 +3083,10 @@
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3862,5 +4042,156 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ElementalArt_Damage",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "ElementalArt_Damage"
+    },
+    {
+      "name": "IceCrystal_Dummy",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 100
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": [
+        "ElementalArt_Damage",
+        "ElementalArt_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "IceCrystal_Dummy",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 100
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "ElementalArt_Damage",
+        "ElementalArt_Damage_Percentage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "SoulUnleash_Quadra_Damage",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 100
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "ElementalBurst_Damage"
+    },
+    {
+      "name": "SoulUnleash_Damage",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 100
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "ElementalBurst_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 200
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "Ball_Base",
+      "skill": "ElementalArt_Damage",
+      "kind": "ElementalArt",
+      "element": "Cryo",
+      "per_drop": 1,
+      "lifetime": 12,
+      "chance": 100,
+      "cd": 0.2,
+      "applications": 1,
+      "drop_id": 2022
+    }
+  ]
 }

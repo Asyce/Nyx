@@ -990,6 +990,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1030,6 +1034,10 @@
             "Max Duration|{param9:F1}s",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1078,6 +1086,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1118,6 +1130,10 @@
             "Max Duration|{param9:F1}s",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1166,6 +1182,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1206,6 +1226,10 @@
             "Max Duration|{param9:F1}s",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1254,6 +1278,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1294,6 +1322,10 @@
             "Max Duration|{param9:F1}s",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1342,6 +1374,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1382,6 +1418,10 @@
             "Max Duration|{param9:F1}s",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1430,6 +1470,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1470,6 +1514,10 @@
             "Max Duration|{param9:F1}s",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1518,6 +1566,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1562,6 +1614,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1602,6 +1658,10 @@
             "Max Duration|{param9:F1}s",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1657,6 +1717,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1690,6 +1754,10 @@
             "Base DMG|{param3:P}",
             "DMG Bonus on Hit Taken|{param4:P}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1745,6 +1813,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1778,6 +1850,10 @@
             "Base DMG|{param3:P}",
             "DMG Bonus on Hit Taken|{param4:P}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1833,6 +1909,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1866,6 +1946,10 @@
             "Base DMG|{param3:P}",
             "DMG Bonus on Hit Taken|{param4:P}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1921,6 +2005,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1954,6 +2042,10 @@
             "Base DMG|{param3:P}",
             "DMG Bonus on Hit Taken|{param4:P}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2009,6 +2101,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2042,6 +2138,10 @@
             "Base DMG|{param3:P}",
             "DMG Bonus on Hit Taken|{param4:P}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2097,6 +2197,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2130,6 +2234,10 @@
             "Base DMG|{param3:P}",
             "DMG Bonus on Hit Taken|{param4:P}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2185,6 +2293,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2229,6 +2341,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2262,6 +2378,10 @@
             "Base DMG|{param3:P}",
             "DMG Bonus on Hit Taken|{param4:P}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2324,6 +2444,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2359,6 +2483,10 @@
             "Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2412,6 +2540,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2447,6 +2579,10 @@
             "Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2500,6 +2636,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2535,6 +2675,10 @@
             "Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2588,6 +2732,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2623,6 +2771,10 @@
             "Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2676,6 +2828,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2711,6 +2867,10 @@
             "Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2764,6 +2924,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2799,6 +2963,10 @@
             "Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2852,6 +3020,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2896,6 +3068,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2931,6 +3107,10 @@
             "Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3055,6 +3235,40 @@
         0,
         0
       ]
+    },
+    {
+      "id": 242401,
+      "name": "Polaris",
+      "desc": "When holding down on the Elemental Skill <color=#FFD780FF>Tidecaller</color>, 1 stack of power will accumulate every 0.8s, even when not under attack. This increases the DMG dealt at the point of unleashing.\\nAdditionally, holding down to unleash <color=#FFD780FF>Tidecaller</color> and hitting the opponent also gives extra boosts based on the power accumulated: every stack active decreases Beidou's Elemental Skill CD by 4s, as well as regenerates 8 Elemental Energy for her. This effect can trigger once every 15s.\\nAdditionally, when inside a {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}, Beidou will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state.",
+      "icon": "UI_Talent_S_Beidou_08",
+      "param_list": [
+        4,
+        8,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unlock": [
+        7469404
+      ],
+      "special": true,
+      "special_passive": true,
+      "special_desc": ""
     }
   ],
   "constellations": [
@@ -3145,14 +3359,16 @@
       "icon": "UI_Talent_S_Beidou_04",
       "param_list": [
         0.15,
-        0,
-        0,
+        0.15,
+        200,
         0,
         0,
         0,
         0,
         0
-      ]
+      ],
+      "special": true,
+      "special_desc": "While <color=#FFD780FF>Stormbreaker</color> is active, nearby opponents' <color=#FFACFFFF>Electro RES</color> is reduced by 15%.\\n\\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: The <color=#99FFFFFF>Cryo RES</color> of nearby opponents is decreased by 15%, and the Elemental Mastery of the current active character is increased by 200, while Stormbreaker is active."
     }
   ],
   "materials": {
@@ -3883,5 +4099,167 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ThunderCounter_Strike",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Stage1"
+    },
+    {
+      "name": "ThunderCounter_Strike",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV4",
+        "value": 200
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": [
+        "Damage_Stage1",
+        "Damage_PerStage",
+        "ADD"
+      ]
+    },
+    {
+      "name": "ThunderCounter_Strike",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV6",
+        "value": 300
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": [
+        "Damage_PerStage",
+        2,
+        "MUL",
+        "Damage_Stage1",
+        "ADD"
+      ]
+    },
+    {
+      "name": "ThunderShield",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV4",
+        "value": 400
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "BurstDamage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 200
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "Ball",
+      "skill": "ThunderCounter_Handler",
+      "kind": "Other",
+      "element": "Electro",
+      "per_drop": 1,
+      "lifetime": 6,
+      "chance": 100,
+      "cd": 0.4,
+      "applications": 1,
+      "drop_id": 2020
+    },
+    {
+      "name": "Ball",
+      "skill": "ThunderCounter_Handler",
+      "kind": "Other",
+      "element": "Electro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "cd": 0.4,
+      "applications": 1,
+      "drop_id": 2020
+    },
+    {
+      "name": "Ball",
+      "skill": "ThunderCounter_Handler",
+      "kind": "Other",
+      "element": "Electro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "cd": 0.4,
+      "applications": 1,
+      "drop_id": 2020
+    }
+  ],
+  "special": true
 }

@@ -483,6 +483,13 @@
     },
     "costume": [
       {
+        "id": 210701,
+        "name": "Whispers of Stars and Smoke",
+        "desc": "Citlali's outfit. When at home, Citlali will sometimes change into attire brimming with girlish charm. At such times, anyone troubling her with official duties has promptly come under heavy attack. Thus, this outfit has become a baleful thing, a subject of fearful rumor that all give a wide berth.",
+        "icon": "UI_AvatarIcon_CitlaliCostumeXia",
+        "quality": 4
+      },
+      {
         "id": 210700,
         "name": "Dawnseer",
         "desc": "Citlali's outfit. Shamans are seers, diviners of forgotten past and untold future. In their world, the eye holds a special symbolic meaning. This is why Citlali's robe, worn half-draped around her waist, is adorned with the \"Eye of Revelation\" — a pattern that encapsulates both its bearer's identity and her aesthetic tastes.",
@@ -3369,7 +3376,7 @@
             "name": "Quenepa Berry",
             "id": 101249,
             "count": 3,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Juvenile Fang",
@@ -3398,7 +3405,7 @@
             "name": "Quenepa Berry",
             "id": 101249,
             "count": 10,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Juvenile Fang",
@@ -3427,7 +3434,7 @@
             "name": "Quenepa Berry",
             "id": 101249,
             "count": 20,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Seasoned Fang",
@@ -3456,7 +3463,7 @@
             "name": "Quenepa Berry",
             "id": 101249,
             "count": 30,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Seasoned Fang",
@@ -3485,7 +3492,7 @@
             "name": "Quenepa Berry",
             "id": 101249,
             "count": 45,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Tyrant's Fang",
@@ -3514,7 +3521,7 @@
             "name": "Quenepa Berry",
             "id": 101249,
             "count": 60,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Tyrant's Fang",

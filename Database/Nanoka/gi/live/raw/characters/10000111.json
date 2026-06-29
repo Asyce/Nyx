@@ -1028,6 +1028,10 @@
             "Fiery Passion Plunge DMG|{param14:F1P}",
             "Fiery Passion Low/High Plunge DMG|{param15:P}/{param16:P}",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1071,6 +1075,10 @@
             "Fiery Passion Charged Attack Stamina Cost|{param13:F1}",
             "Fiery Passion Plunge DMG|{param14:F1P}",
             "Fiery Passion Low/High Plunge DMG|{param15:P}/{param16:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             ""
           ],
@@ -1116,6 +1124,10 @@
             "Fiery Passion Plunge DMG|{param14:F1P}",
             "Fiery Passion Low/High Plunge DMG|{param15:P}/{param16:P}",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1159,6 +1171,10 @@
             "Fiery Passion Charged Attack Stamina Cost|{param13:F1}",
             "Fiery Passion Plunge DMG|{param14:F1P}",
             "Fiery Passion Low/High Plunge DMG|{param15:P}/{param16:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             ""
           ],
@@ -1204,6 +1220,10 @@
             "Fiery Passion Plunge DMG|{param14:F1P}",
             "Fiery Passion Low/High Plunge DMG|{param15:P}/{param16:P}",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1247,6 +1267,10 @@
             "Fiery Passion Charged Attack Stamina Cost|{param13:F1}",
             "Fiery Passion Plunge DMG|{param14:F1P}",
             "Fiery Passion Low/High Plunge DMG|{param15:P}/{param16:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             ""
           ],
@@ -1292,6 +1316,10 @@
             "Fiery Passion Plunge DMG|{param14:F1P}",
             "Fiery Passion Low/High Plunge DMG|{param15:P}/{param16:P}",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1335,6 +1363,10 @@
             "Fiery Passion Charged Attack Stamina Cost|{param13:F1}",
             "Fiery Passion Plunge DMG|{param14:F1P}",
             "Fiery Passion Low/High Plunge DMG|{param15:P}/{param16:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             ""
           ],
@@ -1380,6 +1412,10 @@
             "Fiery Passion Plunge DMG|{param14:F1P}",
             "Fiery Passion Low/High Plunge DMG|{param15:P}/{param16:P}",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1423,6 +1459,10 @@
             "Fiery Passion Charged Attack Stamina Cost|{param13:F1}",
             "Fiery Passion Plunge DMG|{param14:F1P}",
             "Fiery Passion Low/High Plunge DMG|{param15:P}/{param16:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             ""
           ],
@@ -1468,6 +1508,10 @@
             "Fiery Passion Plunge DMG|{param14:F1P}",
             "Fiery Passion Low/High Plunge DMG|{param15:P}/{param16:P}",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1511,6 +1555,10 @@
             "Fiery Passion Charged Attack Stamina Cost|{param13:F1}",
             "Fiery Passion Plunge DMG|{param14:F1P}",
             "Fiery Passion Low/High Plunge DMG|{param15:P}/{param16:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             ""
           ],
@@ -1556,6 +1604,10 @@
             "Fiery Passion Plunge DMG|{param14:F1P}",
             "Fiery Passion Low/High Plunge DMG|{param15:P}/{param16:P}",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1599,6 +1651,10 @@
             "Fiery Passion Charged Attack Stamina Cost|{param13:F1}",
             "Fiery Passion Plunge DMG|{param14:F1P}",
             "Fiery Passion Low/High Plunge DMG|{param15:P}/{param16:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             ""
           ],
@@ -1644,6 +1700,10 @@
             "Fiery Passion Plunge DMG|{param14:F1P}",
             "Fiery Passion Low/High Plunge DMG|{param15:P}/{param16:P}",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1685,6 +1745,10 @@
             "Follow-Up Strike Duration|{param3:F1}s",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1739,6 +1803,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1773,6 +1841,10 @@
             "Follow-Up Strike Duration|{param3:F1}s",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1827,6 +1899,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1861,6 +1937,10 @@
             "Follow-Up Strike Duration|{param3:F1}s",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1915,6 +1995,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1949,6 +2033,10 @@
             "Follow-Up Strike Duration|{param3:F1}s",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2003,6 +2091,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2037,6 +2129,10 @@
             "Follow-Up Strike Duration|{param3:F1}s",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2091,6 +2187,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2125,6 +2225,10 @@
             "Follow-Up Strike Duration|{param3:F1}s",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2179,6 +2283,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2213,6 +2321,10 @@
             "Follow-Up Strike Duration|{param3:F1}s",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2267,6 +2379,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2301,6 +2417,10 @@
             "Follow-Up Strike Duration|{param3:F1}s",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2362,6 +2482,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2397,6 +2521,10 @@
             "Energy Cost|{param4:I}",
             "Volcano Kablam DMG|{param5:F1P}",
             "Volcano Kablam Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2450,6 +2578,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2485,6 +2617,10 @@
             "Energy Cost|{param4:I}",
             "Volcano Kablam DMG|{param5:F1P}",
             "Volcano Kablam Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2538,6 +2674,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2573,6 +2713,10 @@
             "Energy Cost|{param4:I}",
             "Volcano Kablam DMG|{param5:F1P}",
             "Volcano Kablam Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2626,6 +2770,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2661,6 +2809,10 @@
             "Energy Cost|{param4:I}",
             "Volcano Kablam DMG|{param5:F1P}",
             "Volcano Kablam Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2714,6 +2866,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2749,6 +2905,10 @@
             "Energy Cost|{param4:I}",
             "Volcano Kablam DMG|{param5:F1P}",
             "Volcano Kablam Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2802,6 +2962,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2837,6 +3001,10 @@
             "Energy Cost|{param4:I}",
             "Volcano Kablam DMG|{param5:F1P}",
             "Volcano Kablam Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2890,6 +3058,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2934,6 +3106,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2969,6 +3145,10 @@
             "Energy Cost|{param4:I}",
             "Volcano Kablam DMG|{param5:F1P}",
             "Volcano Kablam Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3950,5 +4130,303 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "Combat_NormalAttack",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 8.8
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "Pretty_Attack_01"
+    },
+    {
+      "name": "Combat_NormalAttack",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 7.5
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "Pretty_Attack_02"
+    },
+    {
+      "name": "Combat_NormalAttack",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 10.6
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "Pretty_Attack_03"
+    },
+    {
+      "name": "Combat_NormalAttack",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 10.2
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "Berserker_Attack_01"
+    },
+    {
+      "name": "Combat_NormalAttack",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 9.8
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "Berserker_Attack_02"
+    },
+    {
+      "name": "Combat_NormalAttack",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 13.8
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "Berserker_Attack_03"
+    },
+    {
+      "name": "Combat_ExtraAttack",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 80
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "Pretty_ExtraAttack"
+    },
+    {
+      "name": "Combat_ExtraAttack",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 120
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "Berserker_ExtraAttack"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 100
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "Pretty_ElementalBurst"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "Berserker_ElementalBurst"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 75
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "LowEnergy_ElementalBurst"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "SpecialFallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 50
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 100
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 50
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "SpecialFallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 100
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "SpecialFallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementalArt_DropBall",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Electro",
+      "per_drop": 1,
+      "lifetime": 6,
+      "chance": 100,
+      "cd": 0.1,
+      "applications": 1,
+      "drop_id": 2020
+    },
+    {
+      "name": "ElementalArt_DropBall",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Electro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 50,
+      "cd": 0.1,
+      "applications": 1,
+      "drop_id": 2020
+    }
+  ]
 }

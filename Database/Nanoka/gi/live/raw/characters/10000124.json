@@ -955,6 +955,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -991,6 +995,10 @@
             "Fully-Charged Aimed Shot|{param5:P}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1043,6 +1051,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1079,6 +1091,10 @@
             "Fully-Charged Aimed Shot|{param5:P}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1131,6 +1147,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1167,6 +1187,10 @@
             "Fully-Charged Aimed Shot|{param5:P}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1219,6 +1243,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1255,6 +1283,10 @@
             "Fully-Charged Aimed Shot|{param5:P}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1307,6 +1339,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1343,6 +1379,10 @@
             "Fully-Charged Aimed Shot|{param5:P}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1395,6 +1435,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1431,6 +1475,10 @@
             "Fully-Charged Aimed Shot|{param5:P}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1483,6 +1531,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1527,6 +1579,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1563,6 +1619,10 @@
             "Fully-Charged Aimed Shot|{param5:P}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1622,6 +1682,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1657,6 +1721,10 @@
             "Treasure Flask Duration|{param4:F1}s",
             "Meowball DMG|{param5:F1P}",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1710,6 +1778,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1745,6 +1817,10 @@
             "Treasure Flask Duration|{param4:F1}s",
             "Meowball DMG|{param5:F1P}",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1798,6 +1874,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1833,6 +1913,10 @@
             "Treasure Flask Duration|{param4:F1}s",
             "Meowball DMG|{param5:F1P}",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1886,6 +1970,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1921,6 +2009,10 @@
             "Treasure Flask Duration|{param4:F1}s",
             "Meowball DMG|{param5:F1P}",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1974,6 +2066,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2009,6 +2105,10 @@
             "Treasure Flask Duration|{param4:F1}s",
             "Meowball DMG|{param5:F1P}",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2062,6 +2162,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2097,6 +2201,10 @@
             "Treasure Flask Duration|{param4:F1}s",
             "Meowball DMG|{param5:F1P}",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2150,6 +2258,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2194,6 +2306,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2229,6 +2345,10 @@
             "Treasure Flask Duration|{param4:F1}s",
             "Meowball DMG|{param5:F1P}",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2289,6 +2409,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2325,6 +2449,10 @@
             "Lowest HP Character Additional Healing|{param6:F1P} ATK+{param7:I}",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2377,6 +2505,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2413,6 +2545,10 @@
             "Lowest HP Character Additional Healing|{param6:F1P} ATK+{param7:I}",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2465,6 +2601,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2501,6 +2641,10 @@
             "Lowest HP Character Additional Healing|{param6:F1P} ATK+{param7:I}",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2553,6 +2697,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2589,6 +2737,10 @@
             "Lowest HP Character Additional Healing|{param6:F1P} ATK+{param7:I}",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2641,6 +2793,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2677,6 +2833,10 @@
             "Lowest HP Character Additional Healing|{param6:F1P} ATK+{param7:I}",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2729,6 +2889,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2765,6 +2929,10 @@
             "Lowest HP Character Additional Healing|{param6:F1P} ATK+{param7:I}",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2817,6 +2985,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2861,6 +3033,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2897,6 +3073,10 @@
             "Lowest HP Character Additional Healing|{param6:F1P} ATK+{param7:I}",
             "CD|{param8:F1}s",
             "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3877,5 +4057,292 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "Bullet_Jahoda_ShootArrow_Enchanted_WithoutWind",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithoutWind"
+    },
+    {
+      "name": "Bullet_Jahoda_ShootArrow_Enchanted_WithWind",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithWind"
+    },
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 80
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_SmokeAttack"
+    },
+    {
+      "name": "ElementalArt_Second_Attack",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 120
+      },
+      "element": "Wind",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_AvatarExplode"
+    },
+    {
+      "name": "ElementalArt_Second_Attack",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 80
+      },
+      "element": "Wind",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_AvatarExplode_Uncharged"
+    },
+    {
+      "name": "Bullet_Jahoda_ElementalArt_Attack",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Jahoda_Constellation_1"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Fire",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_BulletExplode"
+    },
+    {
+      "name": "Bullet_Jahoda_ElementalArt_Attack",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Jahoda_Constellation_1"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_BulletExplode"
+    },
+    {
+      "name": "Bullet_Jahoda_ElementalArt_Attack",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Jahoda_Constellation_1"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Electric",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_BulletExplode"
+    },
+    {
+      "name": "Bullet_Jahoda_ElementalArt_Attack",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Jahoda_Constellation_1"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_BulletExplode"
+    },
+    {
+      "name": "Bullet_Jahoda_ElementalArt_Attack",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "Fire",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_BulletExplode"
+    },
+    {
+      "name": "Bullet_Jahoda_ElementalArt_Attack",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_BulletExplode"
+    },
+    {
+      "name": "Bullet_Jahoda_ElementalArt_Attack",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "Electric",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_BulletExplode"
+    },
+    {
+      "name": "Bullet_Jahoda_ElementalArt_Attack",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_BulletExplode"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 120
+      },
+      "element": "Wind",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "ElementalBurst_AvatarExplode"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementalBall_GenerateEnergy",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Anemo",
+      "per_drop": 1,
+      "lifetime": 12,
+      "chance": 100,
+      "cd": 0.5,
+      "applications": 1,
+      "drop_id": 2021
+    }
+  ]
 }

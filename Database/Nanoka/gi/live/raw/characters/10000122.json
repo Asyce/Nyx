@@ -1018,6 +1018,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1057,6 +1061,10 @@
             "Shadow Dance Charged Attack Stamina Cost|{param11:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1106,6 +1114,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1145,6 +1157,10 @@
             "Shadow Dance Charged Attack Stamina Cost|{param11:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1194,6 +1210,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1233,6 +1253,10 @@
             "Shadow Dance Charged Attack Stamina Cost|{param11:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1282,6 +1306,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1321,6 +1349,10 @@
             "Shadow Dance Charged Attack Stamina Cost|{param11:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1370,6 +1402,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1409,6 +1445,10 @@
             "Shadow Dance Charged Attack Stamina Cost|{param11:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1458,6 +1498,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1497,6 +1541,10 @@
             "Shadow Dance Charged Attack Stamina Cost|{param11:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1546,6 +1594,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1590,6 +1642,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1629,6 +1685,10 @@
             "Shadow Dance Charged Attack Stamina Cost|{param11:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1685,6 +1745,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1723,6 +1787,10 @@
             "Phantasm Performance Charges|{param3:I}",
             "Shadow Dance Duration|{param4:F1}s",
             "CD|{param12:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1773,6 +1841,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1811,6 +1883,10 @@
             "Phantasm Performance Charges|{param3:I}",
             "Shadow Dance Duration|{param4:F1}s",
             "CD|{param12:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1861,6 +1937,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1899,6 +1979,10 @@
             "Phantasm Performance Charges|{param3:I}",
             "Shadow Dance Duration|{param4:F1}s",
             "CD|{param12:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1949,6 +2033,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1987,6 +2075,10 @@
             "Phantasm Performance Charges|{param3:I}",
             "Shadow Dance Duration|{param4:F1}s",
             "CD|{param12:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2037,6 +2129,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2075,6 +2171,10 @@
             "Phantasm Performance Charges|{param3:I}",
             "Shadow Dance Duration|{param4:F1}s",
             "CD|{param12:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2125,6 +2225,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2163,6 +2267,10 @@
             "Phantasm Performance Charges|{param3:I}",
             "Shadow Dance Duration|{param4:F1}s",
             "CD|{param12:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2213,6 +2321,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2257,6 +2369,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2295,6 +2411,10 @@
             "Phantasm Performance Charges|{param3:I}",
             "Shadow Dance Duration|{param4:F1}s",
             "CD|{param12:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2352,6 +2472,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2386,6 +2510,10 @@
             "DMG Bonus|{param5:F1P} Per Veil of Falsehood Stack",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2440,6 +2568,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2474,6 +2606,10 @@
             "DMG Bonus|{param5:F1P} Per Veil of Falsehood Stack",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2528,6 +2664,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2562,6 +2702,10 @@
             "DMG Bonus|{param5:F1P} Per Veil of Falsehood Stack",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2616,6 +2760,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2650,6 +2798,10 @@
             "DMG Bonus|{param5:F1P} Per Veil of Falsehood Stack",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2704,6 +2856,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2738,6 +2894,10 @@
             "DMG Bonus|{param5:F1P} Per Veil of Falsehood Stack",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2792,6 +2952,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2826,6 +2990,10 @@
             "DMG Bonus|{param5:F1P} Per Veil of Falsehood Stack",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2880,6 +3048,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2924,6 +3096,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2958,6 +3134,10 @@
             "DMG Bonus|{param5:F1P} Per Veil of Falsehood Stack",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3940,5 +4120,184 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ExtraAttack_MoonLight_Gadget",
+      "icd": {
+        "tag": "MoonOvergrowDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ExtraAttack_MoonLight_Gadget",
+      "icd": {
+        "tag": "MoonOvergrowDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ExtraAttack_MoonLight_Gadget",
+      "icd": {
+        "tag": "MoonOvergrowDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV3",
+        "value": 30
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Grass",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "DP"
+    },
+    {
+      "name": "SkillObj_Nefer_ElementalBurst_Attacker",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "BurstAtk_01_DP"
+    },
+    {
+      "name": "SkillObj_Nefer_ElementalBurst_Attacker",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 100
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "BurstAtk_End_DP"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "Constellation_6_Gadget",
+      "icd": {
+        "tag": "MoonOvergrowDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV3",
+        "value": 30
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementalArt_DropBall",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Dendro",
+      "per_drop": 1,
+      "lifetime": 9,
+      "chance": 66.67,
+      "cd": 0.2,
+      "applications": 1,
+      "drop_id": 2019
+    },
+    {
+      "name": "ElementalArt_DropBall",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Dendro",
+      "per_drop": 1,
+      "lifetime": 6,
+      "chance": 33.330000000000005,
+      "cd": 0.2,
+      "applications": 1,
+      "drop_id": 2019
+    }
+  ]
 }

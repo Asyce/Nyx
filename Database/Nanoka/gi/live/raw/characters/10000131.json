@@ -967,6 +967,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1003,6 +1007,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:F1P}/{param8:F1P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1055,6 +1063,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1091,6 +1103,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:F1P}/{param8:F1P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1143,6 +1159,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1179,6 +1199,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:F1P}/{param8:F1P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1231,6 +1255,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1267,6 +1295,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:F1P}/{param8:F1P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1319,6 +1351,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1355,6 +1391,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:F1P}/{param8:F1P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1407,6 +1447,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1443,6 +1487,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:F1P}/{param8:F1P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1495,6 +1543,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1539,6 +1591,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1575,6 +1631,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:F1P}/{param8:F1P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1634,6 +1694,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1670,6 +1734,10 @@
             "Grace of Kenosis Max ATK Bonus|{param6:F1}",
             "Grace of Kenosis Duration|{param7:F1}s",
             "CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1722,6 +1790,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1758,6 +1830,10 @@
             "Grace of Kenosis Max ATK Bonus|{param6:F1}",
             "Grace of Kenosis Duration|{param7:F1}s",
             "CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1810,6 +1886,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1846,6 +1926,10 @@
             "Grace of Kenosis Max ATK Bonus|{param6:F1}",
             "Grace of Kenosis Duration|{param7:F1}s",
             "CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1898,6 +1982,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1934,6 +2022,10 @@
             "Grace of Kenosis Max ATK Bonus|{param6:F1}",
             "Grace of Kenosis Duration|{param7:F1}s",
             "CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1986,6 +2078,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2022,6 +2118,10 @@
             "Grace of Kenosis Max ATK Bonus|{param6:F1}",
             "Grace of Kenosis Duration|{param7:F1}s",
             "CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2074,6 +2174,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2110,6 +2214,10 @@
             "Grace of Kenosis Max ATK Bonus|{param6:F1}",
             "Grace of Kenosis Duration|{param7:F1}s",
             "CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2162,6 +2270,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2206,6 +2318,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2242,6 +2358,10 @@
             "Grace of Kenosis Max ATK Bonus|{param6:F1}",
             "Grace of Kenosis Duration|{param7:F1}s",
             "CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2301,6 +2421,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2336,6 +2460,10 @@
             "Silent Contemplation Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2389,6 +2517,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2424,6 +2556,10 @@
             "Silent Contemplation Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2477,6 +2613,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2512,6 +2652,10 @@
             "Silent Contemplation Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2565,6 +2709,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2600,6 +2748,10 @@
             "Silent Contemplation Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2653,6 +2805,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2688,6 +2844,10 @@
             "Silent Contemplation Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2741,6 +2901,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2776,6 +2940,10 @@
             "Silent Contemplation Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2829,6 +2997,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2873,6 +3045,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2908,6 +3084,10 @@
             "Silent Contemplation Duration|{param4:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3895,5 +4075,539 @@
       ]
     ]
   },
+  "attack": [
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Art_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 100
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Burst_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Nicole_AngelAttack_Tag",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "AngelAttack_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Nicole_AngelAttack_Tag",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "AngelAttack_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Nicole_AngelAttack_Tag",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "AngelAttack_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Nicole_AngelAttack_Tag",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "AngelAttack_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Nicole_AngelAttack_Tag",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "AngelAttack_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Nicole_AngelAttack_Tag",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "AngelAttack_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Nicole_AngelAttack_Tag",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "AngelAttack_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Nicole_AngelAttack_Tag",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "AngelAttack_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Nicole_AngelAttack_Tag",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "AngelAttack_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Nicole_AngelAttack_Tag",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "AngelAttack_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Nicole_AngelAttack_Tag",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "AngelAttack_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Nicole_AngelAttack_Tag",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "AngelAttack_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Nicole_AngelAttack_Tag",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "AngelAttack_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Nicole_AngelAttack_Tag",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "AngelAttack_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Nicole_AngelAttack_Tag",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "AngelAttack_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Nicole_AngelAttack_Tag",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "AngelAttack_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Nicole_AngelAttack_Tag",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "AngelAttack_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "Attack01",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 6.6
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Atk01_Ratio"
+    },
+    {
+      "name": "Attack02",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 5.6
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Atk02_Ratio"
+    },
+    {
+      "name": "Attack03",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 8.7
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Atk03_Ratio"
+    },
+    {
+      "name": "ExtraAttack_Damage",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 100
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ExtraAttack_Damage"
+    },
+    {
+      "name": "Constellation_2",
+      "icd": {
+        "tag": "Nicole_AngelAttack_Tag",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Constellation_2_Ratio"
+    },
+    {
+      "name": "Constellation_2",
+      "icd": {
+        "tag": "Nicole_AngelAttack_Tag",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Constellation_2_Ratio"
+    },
+    {
+      "name": "Constellation_2",
+      "icd": {
+        "tag": "Nicole_AngelAttack_Tag",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Constellation_2_Ratio"
+    },
+    {
+      "name": "Constellation_2",
+      "icd": {
+        "tag": "Nicole_AngelAttack_Tag",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Constellation_2_Ratio"
+    },
+    {
+      "name": "Constellation_2",
+      "icd": {
+        "tag": "Nicole_AngelAttack_Tag",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Constellation_2_Ratio"
+    },
+    {
+      "name": "Constellation_2",
+      "icd": {
+        "tag": "Nicole_AngelAttack_Tag",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Constellation_2_Ratio"
+    },
+    {
+      "name": "Constellation_2",
+      "icd": {
+        "tag": "Nicole_AngelAttack_Tag",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Constellation_2_Ratio"
+    },
+    {
+      "name": "AngelAttack_Klee_Bomb_SkillObj",
+      "icd": {
+        "tag": "Nicole_AngelAttack_Tag",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "_ABILITY_Nicole_AngelAttack_Klee_Bomb_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementalArt_DropBall",
+      "skill": "OtherLogic",
+      "kind": "ElementalArt",
+      "element": "Pyro",
+      "per_drop": 1,
+      "lifetime": 15,
+      "chance": 100,
+      "cd": 0.5,
+      "applications": 1,
+      "drop_id": 2017
+    }
+  ],
   "special": true
 }

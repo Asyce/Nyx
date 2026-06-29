@@ -1015,6 +1015,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1052,6 +1056,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1103,6 +1111,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1140,6 +1152,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1191,6 +1207,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1228,6 +1248,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1279,6 +1303,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1316,6 +1344,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1367,6 +1399,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1404,6 +1440,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1455,6 +1495,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1492,6 +1536,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1543,6 +1591,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1587,6 +1639,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1624,6 +1680,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1682,6 +1742,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1717,6 +1781,10 @@
             "Birgitta Discharge DMG|{param4:F1P}",
             "Birgitta Duration|{param5:F1}s",
             "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1770,6 +1838,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1805,6 +1877,10 @@
             "Birgitta Discharge DMG|{param4:F1P}",
             "Birgitta Duration|{param5:F1}s",
             "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1858,6 +1934,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1893,6 +1973,10 @@
             "Birgitta Discharge DMG|{param4:F1P}",
             "Birgitta Duration|{param5:F1}s",
             "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1946,6 +2030,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1981,6 +2069,10 @@
             "Birgitta Discharge DMG|{param4:F1P}",
             "Birgitta Duration|{param5:F1}s",
             "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2034,6 +2126,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2069,6 +2165,10 @@
             "Birgitta Discharge DMG|{param4:F1P}",
             "Birgitta Duration|{param5:F1}s",
             "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2122,6 +2222,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2157,6 +2261,10 @@
             "Birgitta Discharge DMG|{param4:F1P}",
             "Birgitta Duration|{param5:F1}s",
             "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2210,6 +2318,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2254,6 +2366,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2289,6 +2405,10 @@
             "Birgitta Discharge DMG|{param4:F1P}",
             "Birgitta Duration|{param5:F1}s",
             "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2349,6 +2469,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2381,6 +2505,10 @@
             "Skill DMG|{param1:F1P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2437,6 +2565,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2469,6 +2601,10 @@
             "Skill DMG|{param1:F1P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2525,6 +2661,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2557,6 +2697,10 @@
             "Skill DMG|{param1:F1P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2613,6 +2757,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2645,6 +2793,10 @@
             "Skill DMG|{param1:F1P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2701,6 +2853,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2733,6 +2889,10 @@
             "Skill DMG|{param1:F1P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2789,6 +2949,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2821,6 +2985,10 @@
             "Skill DMG|{param1:F1P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2877,6 +3045,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2921,6 +3093,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2953,6 +3129,10 @@
             "Skill DMG|{param1:F1P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3937,5 +4117,189 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ElementalArt_Relay",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "EArtAttack"
+    },
+    {
+      "name": "ElementalArt_Relay_MoveController",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "RelayAttackRatio"
+    },
+    {
+      "name": "ElementalArt_Relay_MoveController",
+      "icd": {
+        "tag": "MoonShockDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalArt_Relay_MoveController",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": 1
+    },
+    {
+      "name": "Burst_Bullet",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 200
+      },
+      "element": "Electric",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "BurstAttackRatio"
+    },
+    {
+      "name": "Burst_T2_Attacker",
+      "icd": {
+        "tag": "MoonShockDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 100
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV4",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "Ineffa_Talent_6",
+      "icd": {
+        "tag": "MoonShockDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    }
+  ],
+  "energy": [
+    {
+      "name": "DropElemBall",
+      "skill": "Ineffa_Relay_ElemBallDrop_Driver",
+      "kind": "Other",
+      "element": "Electro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 66.7,
+      "cd": 0.5,
+      "applications": 1,
+      "drop_id": 2020
+    }
+  ]
 }

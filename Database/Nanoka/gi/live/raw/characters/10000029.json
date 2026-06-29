@@ -1030,6 +1030,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1066,6 +1070,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1118,6 +1126,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1154,6 +1166,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1206,6 +1222,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1242,6 +1262,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1294,6 +1318,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1330,6 +1358,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1382,6 +1414,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1418,6 +1454,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1470,6 +1510,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1506,6 +1550,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1558,6 +1606,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1602,6 +1654,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1638,6 +1694,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1697,6 +1757,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1730,6 +1794,10 @@
             "Mine DMG|{param4:F1P}",
             "Mine Duration|{param5:F1}s",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1785,6 +1853,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1818,6 +1890,10 @@
             "Mine DMG|{param4:F1P}",
             "Mine Duration|{param5:F1}s",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1873,6 +1949,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1906,6 +1986,10 @@
             "Mine DMG|{param4:F1P}",
             "Mine Duration|{param5:F1}s",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1961,6 +2045,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1994,6 +2082,10 @@
             "Mine DMG|{param4:F1P}",
             "Mine Duration|{param5:F1}s",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2049,6 +2141,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2082,6 +2178,10 @@
             "Mine DMG|{param4:F1P}",
             "Mine Duration|{param5:F1}s",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2137,6 +2237,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2170,6 +2274,10 @@
             "Mine DMG|{param4:F1P}",
             "Mine Duration|{param5:F1}s",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2225,6 +2333,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2269,6 +2381,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2302,6 +2418,10 @@
             "Mine DMG|{param4:F1P}",
             "Mine Duration|{param5:F1}s",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2364,6 +2484,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2397,6 +2521,10 @@
             "Duration|{param5:F1}s",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2452,6 +2580,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2485,6 +2617,10 @@
             "Duration|{param5:F1}s",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2540,6 +2676,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2573,6 +2713,10 @@
             "Duration|{param5:F1}s",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2628,6 +2772,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2661,6 +2809,10 @@
             "Duration|{param5:F1}s",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2716,6 +2868,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2749,6 +2905,10 @@
             "Duration|{param5:F1}s",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2804,6 +2964,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2837,6 +3001,10 @@
             "Duration|{param5:F1}s",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2892,6 +3060,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2936,6 +3108,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2969,6 +3145,10 @@
             "Duration|{param5:F1}s",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3968,5 +4148,310 @@
       ]
     ]
   },
+  "attack": [
+    {
+      "name": "ExtraAttack_Clover_Bullet",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV8",
+        "value": 180
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "ExtraAttack_Damage"
+    },
+    {
+      "name": "ExtraAttack_Clover_Bullet_Auto_01",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV8",
+        "value": 180
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "ExtraAttack_Damage"
+    },
+    {
+      "name": "NoarmalAttack_01_Damage",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 65
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "NormalAttack_01_Damage"
+    },
+    {
+      "name": "NoarmalAttack_02_Damage",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 65
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "NormalAttack_02_Damage"
+    },
+    {
+      "name": "NoarmalAttack_03_Damage",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 130
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "NormalAttack_03_Damage"
+    },
+    {
+      "name": "Jumping_Drug_Explode",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 40
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "ElementalArt_Damage_01"
+    },
+    {
+      "name": "Jumping_Drug_Explode2",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 40
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "ElementalArt_Damage_02"
+    },
+    {
+      "name": "Jumping_Drug_Explode3",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV3",
+        "value": 40
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "ElementalArt_Damage_03"
+    },
+    {
+      "name": "Mine",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 40
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "ElementalArt_Mine_Damage"
+    },
+    {
+      "name": "ElementalBurst_CreateFunnel",
+      "icd": {
+        "tag": "CreateFunnel",
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
+      "name": "Elemental_Burst_Explode",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0",
+        "value": 25
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "ElementalBurst_Damage"
+    },
+    {
+      "name": "Constellation_Explode",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0",
+        "value": 25
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Constellation_Explode_Damage"
+    },
+    {
+      "name": "Constellation_4",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV5",
+        "value": 120
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Klee_Constellation_4_Damage"
+    },
+    {
+      "name": "Constellation_4",
+      "icd": {
+        "tag": "Klee_C4_Damage",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV5",
+        "value": 120
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Klee_Constellation_4_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "Jumping_Drug_ElementBall",
+      "skill": "Jumping_Drug_Explode",
+      "kind": "Other",
+      "element": "Pyro",
+      "per_drop": 1,
+      "lifetime": 12,
+      "chance": 100,
+      "applications": 3,
+      "drop_id": 2017
+    },
+    {
+      "name": "Jumping_Drug_ElementBall",
+      "skill": "Jumping_Drug_Explode2",
+      "kind": "Other",
+      "element": "Pyro",
+      "per_drop": 1,
+      "lifetime": 12,
+      "chance": 100,
+      "applications": 3,
+      "drop_id": 2017
+    },
+    {
+      "name": "Jumping_Drug_ElementBall",
+      "skill": "Jumping_Drug_Explode3",
+      "kind": "Other",
+      "element": "Pyro",
+      "per_drop": 1,
+      "lifetime": 12,
+      "chance": 100,
+      "applications": 3,
+      "drop_id": 2017
+    }
+  ],
   "special": true
 }

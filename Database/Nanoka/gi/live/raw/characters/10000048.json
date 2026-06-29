@@ -973,6 +973,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1011,6 +1015,10 @@
             "Scarlet Seal Duration|{param19:F1}s",
             "Plunge DMG|{param16:F1P}",
             "Low/High Plunge DMG|{param17:P}/{param18:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1061,6 +1069,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1099,6 +1111,10 @@
             "Scarlet Seal Duration|{param19:F1}s",
             "Plunge DMG|{param16:F1P}",
             "Low/High Plunge DMG|{param17:P}/{param18:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1149,6 +1165,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1187,6 +1207,10 @@
             "Scarlet Seal Duration|{param19:F1}s",
             "Plunge DMG|{param16:F1P}",
             "Low/High Plunge DMG|{param17:P}/{param18:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1237,6 +1261,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1275,6 +1303,10 @@
             "Scarlet Seal Duration|{param19:F1}s",
             "Plunge DMG|{param16:F1P}",
             "Low/High Plunge DMG|{param17:P}/{param18:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1325,6 +1357,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1363,6 +1399,10 @@
             "Scarlet Seal Duration|{param19:F1}s",
             "Plunge DMG|{param16:F1P}",
             "Low/High Plunge DMG|{param17:P}/{param18:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1413,6 +1453,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1451,6 +1495,10 @@
             "Scarlet Seal Duration|{param19:F1}s",
             "Plunge DMG|{param16:F1P}",
             "Low/High Plunge DMG|{param17:P}/{param18:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1501,6 +1549,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1545,6 +1597,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1583,6 +1639,10 @@
             "Scarlet Seal Duration|{param19:F1}s",
             "Plunge DMG|{param16:F1P}",
             "Low/High Plunge DMG|{param17:P}/{param18:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1640,6 +1700,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1671,6 +1735,10 @@
           "desc": [
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1728,6 +1796,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1759,6 +1831,10 @@
           "desc": [
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1816,6 +1892,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1847,6 +1927,10 @@
           "desc": [
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1904,6 +1988,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1935,6 +2023,10 @@
           "desc": [
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1992,6 +2084,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2023,6 +2119,10 @@
           "desc": [
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2080,6 +2180,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2111,6 +2215,10 @@
           "desc": [
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2168,6 +2276,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2212,6 +2324,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2243,6 +2359,10 @@
           "desc": [
             "Skill DMG|{param1:P}",
             "CD|{param2:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2307,6 +2427,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2343,6 +2467,10 @@
             "Duration|{param3:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2395,6 +2523,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2431,6 +2563,10 @@
             "Duration|{param3:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2483,6 +2619,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2519,6 +2659,10 @@
             "Duration|{param3:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2571,6 +2715,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2607,6 +2755,10 @@
             "Duration|{param3:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2659,6 +2811,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2695,6 +2851,10 @@
             "Duration|{param3:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2747,6 +2907,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2783,6 +2947,10 @@
             "Duration|{param3:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2835,6 +3003,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2879,6 +3051,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2915,6 +3091,10 @@
             "Duration|{param3:F1}s",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3866,5 +4046,244 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "NormalAttackDamage01",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10.93905
+      },
+      "element": "Fire",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Feiyan_NormalAttack_01_DamagePercentage"
+    },
+    {
+      "name": "NormalAttackDamage02",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 9.77355
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Feiyan_NormalAttack_02_DamagePercentage"
+    },
+    {
+      "name": "NormalAttackDamage03",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 14.2524
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Feiyan_NormalAttack_03_DamagePercentage"
+    },
+    {
+      "name": "ExtraAttack_DoAttack",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Fire",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Feiyan_Talent_CriticalAttack_Damage"
+    },
+    {
+      "name": "ExtraAttack_Damage",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 80
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Feiyan_ExtraAttack_Weight_Damage_Lv00"
+    },
+    {
+      "name": "ExtraAttack_Damage",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 80
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Feiyan_ExtraAttack_Weight_Damage_Lv01"
+    },
+    {
+      "name": "ExtraAttack_Damage",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 80
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Feiyan_ExtraAttack_Weight_Damage_Lv02"
+    },
+    {
+      "name": "ExtraAttack_Damage",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 80
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Feiyan_ExtraAttack_Weight_Damage_Lv03"
+    },
+    {
+      "name": "ExtraAttack_Damage",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 80
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Feiyan_ExtraAttack_Weight_Damage_Lv04"
+    },
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 120
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Feiyan_ElementalArt_DamagePercentage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV3",
+        "value": 200
+      },
+      "element": "Fire",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "Feiyan_ElementalBurst_DamagePercentage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "Ball",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Pyro",
+      "per_drop": 1,
+      "lifetime": 9,
+      "chance": 100,
+      "cd": 0.2,
+      "applications": 1,
+      "drop_id": 2017
+    }
+  ]
 }

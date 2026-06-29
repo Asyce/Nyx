@@ -1008,6 +1008,10 @@
             "Pyrotechnic Strike DMG|{param15:F1P}",
             "Spiritbreath Thorn DMG|{param16:F1P}",
             "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1052,6 +1056,10 @@
             "Pyrotechnic Strike DMG|{param15:F1P}",
             "Spiritbreath Thorn DMG|{param16:F1P}",
             "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1096,6 +1104,10 @@
             "Pyrotechnic Strike DMG|{param15:F1P}",
             "Spiritbreath Thorn DMG|{param16:F1P}",
             "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1140,6 +1152,10 @@
             "Pyrotechnic Strike DMG|{param15:F1P}",
             "Spiritbreath Thorn DMG|{param16:F1P}",
             "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1184,6 +1200,10 @@
             "Pyrotechnic Strike DMG|{param15:F1P}",
             "Spiritbreath Thorn DMG|{param16:F1P}",
             "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1228,6 +1248,10 @@
             "Pyrotechnic Strike DMG|{param15:F1P}",
             "Spiritbreath Thorn DMG|{param16:F1P}",
             "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1272,6 +1296,10 @@
             "Pyrotechnic Strike DMG|{param15:F1P}",
             "Spiritbreath Thorn DMG|{param16:F1P}",
             "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1316,6 +1344,10 @@
             "Pyrotechnic Strike DMG|{param15:F1P}",
             "Spiritbreath Thorn DMG|{param16:F1P}",
             "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1360,6 +1392,10 @@
             "Pyrotechnic Strike DMG|{param15:F1P}",
             "Spiritbreath Thorn DMG|{param16:F1P}",
             "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1404,6 +1440,10 @@
             "Pyrotechnic Strike DMG|{param15:F1P}",
             "Spiritbreath Thorn DMG|{param16:F1P}",
             "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1448,6 +1488,10 @@
             "Pyrotechnic Strike DMG|{param15:F1P}",
             "Spiritbreath Thorn DMG|{param16:F1P}",
             "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1492,6 +1536,10 @@
             "Pyrotechnic Strike DMG|{param15:F1P}",
             "Spiritbreath Thorn DMG|{param16:F1P}",
             "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1536,6 +1584,10 @@
             "Pyrotechnic Strike DMG|{param15:F1P}",
             "Spiritbreath Thorn DMG|{param16:F1P}",
             "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1580,6 +1632,10 @@
             "Pyrotechnic Strike DMG|{param15:F1P}",
             "Spiritbreath Thorn DMG|{param16:F1P}",
             "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1624,6 +1680,10 @@
             "Pyrotechnic Strike DMG|{param15:F1P}",
             "Spiritbreath Thorn DMG|{param16:F1P}",
             "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1664,6 +1724,10 @@
             "Skill DMG Bonus|{param2:F1P} ATK/Stack",
             "HP Regeneration|{param3:P}/Stack",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1719,6 +1783,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1752,6 +1820,10 @@
             "Skill DMG Bonus|{param2:F1P} ATK/Stack",
             "HP Regeneration|{param3:P}/Stack",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1807,6 +1879,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1840,6 +1916,10 @@
             "Skill DMG Bonus|{param2:F1P} ATK/Stack",
             "HP Regeneration|{param3:P}/Stack",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1895,6 +1975,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1928,6 +2012,10 @@
             "Skill DMG Bonus|{param2:F1P} ATK/Stack",
             "HP Regeneration|{param3:P}/Stack",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1983,6 +2071,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2016,6 +2108,10 @@
             "Skill DMG Bonus|{param2:F1P} ATK/Stack",
             "HP Regeneration|{param3:P}/Stack",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2071,6 +2167,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2104,6 +2204,10 @@
             "Skill DMG Bonus|{param2:F1P} ATK/Stack",
             "HP Regeneration|{param3:P}/Stack",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2159,6 +2263,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2192,6 +2300,10 @@
             "Skill DMG Bonus|{param2:F1P} ATK/Stack",
             "HP Regeneration|{param3:P}/Stack",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2247,6 +2359,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2280,6 +2396,10 @@
             "Skill DMG Bonus|{param2:F1P} ATK/Stack",
             "HP Regeneration|{param3:P}/Stack",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2342,6 +2462,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2376,6 +2500,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2430,6 +2558,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2464,6 +2596,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2518,6 +2654,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2552,6 +2692,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2606,6 +2750,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2640,6 +2788,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2694,6 +2846,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2728,6 +2884,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2782,6 +2942,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2816,6 +2980,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2870,6 +3038,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2914,6 +3086,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2948,6 +3124,10 @@
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3901,5 +4081,245 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ShootArrow_Enchanted_WithoutFire",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithoutFire"
+    },
+    {
+      "name": "Bullet_Liney_ShootArrow_WithFire",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithFire"
+    },
+    {
+      "name": "Bullet_Liney_ShootArrow_WithFire_BeforeFission",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithFire_BeforeFission"
+    },
+    {
+      "name": "Bullet_Liney_ShootArrow_WithFire_BeforeFission",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithFire_BeforeFission"
+    },
+    {
+      "name": "SkillObj_Liney_ShootArrow_OusiaAgent",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithFire_Ousia"
+    },
+    {
+      "name": "Bullet_Liney_FissionAgent_EndBoom",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Avatar_Liney_ExtraAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "DamageWithFire_AfterFission",
+        "AfterFission_PermanentSkill_1_HurtUp",
+        "ADD"
+      ]
+    },
+    {
+      "name": "Bullet_Liney_FissionAgent_EndBoom_Constellation_6",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Avatar_Liney_ExtraAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "DamageWithFire_AfterFission",
+        "EndBoom_Constellation_6_DMGRatio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "SkillObj_Liney_FissionAgent_EndBoom_Enhanced",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Avatar_Liney_ExtraAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 90
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": [
+        "DamageWithFire_AfterFission_Enhanced",
+        "AfterFission_PermanentSkill_1_HurtUp",
+        "ADD"
+      ]
+    },
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 60
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "ElementalArt",
+        "LoseHp_Count",
+        "LoseHp_ElementalArtDamage_CountRatio",
+        "MUL",
+        "ADD"
+      ]
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 120
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "MagicMove_EndAttack"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "DropBall_Base",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Pyro",
+      "per_drop": 1,
+      "lifetime": 15,
+      "chance": 100,
+      "cd": 0.3,
+      "applications": 1,
+      "drop_id": 2017
+    }
+  ]
 }

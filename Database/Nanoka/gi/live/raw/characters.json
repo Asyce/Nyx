@@ -1839,6 +1839,22 @@
     "zh": "布伦妮",
     "ja": "プルーネ"
   },
+  "10000133": {
+    "birth": [
+      1,
+      13
+    ],
+    "release": "2026-06-30 00:00:00",
+    "icon": "UI_AvatarIcon_MarionetteNew",
+    "rank": "QUALITY_ORANGE",
+    "weapon": "WEAPON_CLAYMORE",
+    "element": "Cryo",
+    "en": "Sandrone",
+    "desc": "The Seventh of the Fatui Harbingers, \"Marionette.\" Interprets all phenomena through the prism of mathematics, and is an elegant lady who is never absent from a tea party.",
+    "ko": "산드로네",
+    "zh": "桑多涅",
+    "ja": "サンドローネ"
+  },
   "10000005-2": {
     "birth": [
       1,

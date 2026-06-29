@@ -75,6 +75,50 @@
           "def": 500,
           "em": 0
         }
+      },
+      "20010102": {
+        "monster_name": "Slime_Grass_02_SimplifiedAI",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010013,
+            "hp_percent": 60
+          },
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010013,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 10.8672,
+          "atk": 7.536,
+          "def": 500,
+          "em": 0
+        }
       }
     }
   },
@@ -368,6 +412,50 @@
       },
       "20010305": {
         "monster_name": "Slime_Wind_02",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010015,
+            "hp_percent": 60
+          },
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010015,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 10.8672,
+          "atk": 15.072,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "20010306": {
+        "monster_name": "Slime_Wind_02_SimplifiedAI",
         "type": "MONSTER_ORDINARY",
         "hp_drops": [
           {
@@ -1078,6 +1166,50 @@
           "em": 0
         }
       },
+      "20010507": {
+        "monster_name": "Slime_Electric_02_SimplifiedAI",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010014,
+            "hp_percent": 60
+          },
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010014,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 10.8672,
+          "atk": 7.536,
+          "def": 500,
+          "em": 0
+        }
+      },
       "20010581": {
         "monster_name": "Slime_Electric_02",
         "type": "MONSTER_ORDINARY",
@@ -1547,6 +1679,53 @@
           {}
         ],
         "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 27.168,
+          "atk": 52.752,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "20010608": {
+        "monster_name": "Slime_Electric_03_NoAI",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010014,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010014,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010034,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -2288,6 +2467,50 @@
           "em": 0
         }
       },
+      "20010809": {
+        "monster_name": "Slime_Ice_02_SimplifiedAI",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010016,
+            "hp_percent": 60
+          },
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010016,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 10.8672,
+          "atk": 7.536,
+          "def": 500,
+          "em": 0
+        }
+      },
       "20010881": {
         "monster_name": "Slime_Ice_02",
         "type": "MONSTER_ORDINARY",
@@ -3012,6 +3235,50 @@
           {}
         ],
         "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 10.8672,
+          "atk": 7.536,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "20011005": {
+        "monster_name": "Slime_Water_02_SimplifiedAI",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010012,
+            "hp_percent": 60
+          },
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010012,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -4008,6 +4275,50 @@
           "em": 0
         }
       },
+      "20011210": {
+        "monster_name": "Slime_Fire_02_SimplifiedAI",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010011,
+            "hp_percent": 60
+          },
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010011,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 10.8672,
+          "atk": 7.536,
+          "def": 500,
+          "em": 0
+        }
+      },
       "20011281": {
         "monster_name": "Slime_Fire_02",
         "type": "MONSTER_ORDINARY",
@@ -4943,6 +5254,50 @@
           {}
         ],
         "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 10.8672,
+          "atk": 7.536,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "20011404": {
+        "monster_name": "Slime_Rock_02_SimplifiedAI",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010017,
+            "hp_percent": 60
+          },
+          {},
+          {}
+        ],
+        "kill_drop_id": 22010017,
         "prop": [
           {
             "grow_curve": "GROW_CURVE_HP",
@@ -8094,6 +8449,53 @@
         "base": {
           "hp": 318.10358,
           "atk": 100.48,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "20051206": {
+        "monster_name": "Monster_Narcissusborn_Normal_01",
+        "type": "MONSTER_BOSS",
+        "hp_drops": [
+          {
+            "drop_id": 22010032,
+            "hp_percent": 66
+          },
+          {
+            "drop_id": 22010032,
+            "hp_percent": 33
+          },
+          {}
+        ],
+        "kill_drop_id": 22010022,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 224.136,
+          "atk": 75.36,
           "def": 500,
           "em": 0
         }
@@ -37265,6 +37667,156 @@
           "def": 500,
           "em": 0
         }
+      },
+      "24090204": {
+        "monster_name": "DragonClaw",
+        "type": "MONSTER_BOSS",
+        "hp_drops": [
+          {
+            "drop_id": 22010030,
+            "hp_percent": 75
+          },
+          {
+            "drop_id": 22010030,
+            "hp_percent": 50
+          },
+          {
+            "drop_id": 22010030,
+            "hp_percent": 25
+          }
+        ],
+        "kill_drop_id": 22010030,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 491.5412,
+          "atk": 100.48,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "24090205": {
+        "monster_name": "DragonClaw",
+        "type": "MONSTER_BOSS",
+        "hp_drops": [
+          {
+            "drop_id": 22010030,
+            "hp_percent": 75
+          },
+          {
+            "drop_id": 22010030,
+            "hp_percent": 50
+          },
+          {
+            "drop_id": 22010030,
+            "hp_percent": 25
+          }
+        ],
+        "kill_drop_id": 22010030,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 491.5412,
+          "atk": 100.48,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "24090206": {
+        "monster_name": "DragonClaw",
+        "type": "MONSTER_BOSS",
+        "hp_drops": [
+          {
+            "drop_id": 22010030,
+            "hp_percent": 75
+          },
+          {
+            "drop_id": 22010030,
+            "hp_percent": 50
+          },
+          {
+            "drop_id": 22010030,
+            "hp_percent": 25
+          }
+        ],
+        "kill_drop_id": 22010030,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 491.5412,
+          "atk": 100.48,
+          "def": 500,
+          "em": 0
+        }
       }
     }
   },
@@ -37572,6 +38124,126 @@
         "base": {
           "hp": 335.6541,
           "atk": 100.48,
+          "def": 500,
+          "em": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "24090601",
+    "contentStatus": "live",
+    "name": "Precursor's Secret Source Matrix of Overseer Network",
+    "type": "AUTOMATRON",
+    "title": "The Solitary Bringer of Light",
+    "description": "An ancient machine trapped amongst the lunar ruins. Even the sturdiest and most reliable machines will be conquered by the passing of long years, losing the purpose bestowed upon them by their creators. Now, this entity only attacks and eliminates anything that dares set foot on the ground it defends.\\nIn the records of a long-lost ancient civilization, these out-of-control machines were once called \"Ur-Namrasit-Tilimtu-Babbar,\" or \"the one who brings light to the darkness.\" With a yearning for the boundless sea of stars, the leaders of the \"pioneers\" engraved their most earnest words in golden sigils, hoping that their successors, with the help of these assistants, would be able to keep the light that illuminates the universe shining bright.\\nAlas, the light did not arise for anyone, and the machine that was given the title of \"overseer\" did not manage to wait for the one it should have served. Now, stranded in these ruins, it is but the last, out-of-control remnant of a long-lost ideal.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/monsters/UI_MonsterIcon_Monitor_01.webp"
+    },
+    "rewards": [
+      {
+        "id": 202,
+        "rank": 3,
+        "icon": "UI_ItemIcon_202"
+      },
+      {
+        "id": 112145,
+        "rank": 4,
+        "icon": "UI_ItemIcon_112145"
+      },
+      {
+        "id": 112144,
+        "rank": 3,
+        "icon": "UI_ItemIcon_112144"
+      },
+      {
+        "id": 112143,
+        "rank": 2,
+        "icon": "UI_ItemIcon_112143"
+      },
+      {
+        "id": 400023,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400033,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400043,
+        "rank": 4,
+        "icon": "UI_RelicIcon_10009_4"
+      },
+      {
+        "id": 400022,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10005_4"
+      },
+      {
+        "id": 400032,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10007_4"
+      },
+      {
+        "id": 400042,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10009_4"
+      },
+      {
+        "id": 400062,
+        "rank": 3,
+        "icon": "UI_RelicIcon_10013_4"
+      }
+    ],
+    "child": {
+      "24090601": {
+        "monster_name": "Monitor_01",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {
+            "drop_id": 22010010,
+            "hp_percent": 75
+          },
+          {
+            "drop_id": 22010010,
+            "hp_percent": 50
+          },
+          {
+            "drop_id": 22010010,
+            "hp_percent": 25
+          }
+        ],
+        "kill_drop_id": 22010030,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_2",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 114.1056,
+          "atk": 75.36,
           "def": 500,
           "em": 0
         }
@@ -64895,6 +65567,88 @@
           "def": 500,
           "em": 0
         }
+      },
+      "26151003": {
+        "monster_name": "MantaRay_Larva_01_FishingEvent",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 13.49,
+          "atk": 50,
+          "def": 0,
+          "em": 0
+        }
+      },
+      "26151004": {
+        "monster_name": "MantaRay_Larva_01_Large_FishingEvent",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 65.15,
+          "atk": 50,
+          "def": 0,
+          "em": 0
+        }
       }
     }
   },
@@ -65010,6 +65764,88 @@
           "hp": 32.4689,
           "atk": 50,
           "def": 500,
+          "em": 0
+        }
+      },
+      "26151103": {
+        "monster_name": "MantaRay_Larva_02_FishingEvent",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 13.49,
+          "atk": 50,
+          "def": 0,
+          "em": 0
+        }
+      },
+      "26151104": {
+        "monster_name": "MantaRay_Larva_02_Large_FishingEvent",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 65.15,
+          "atk": 50,
+          "def": 0,
           "em": 0
         }
       }
@@ -65129,6 +65965,47 @@
           "def": 500,
           "em": 0
         }
+      },
+      "26152103": {
+        "monster_name": "HermitCrab_Larva_01_Sea_FishingEvent",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 5.34,
+          "atk": 50,
+          "def": 0,
+          "em": 0
+        }
       }
     }
   },
@@ -65244,6 +66121,47 @@
           "hp": 10.59552,
           "atk": 45,
           "def": 500,
+          "em": 0
+        }
+      },
+      "26152203": {
+        "monster_name": "HermitCrab_Larva_02_Sea_FishingEvent",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 5.34,
+          "atk": 50,
+          "def": 0,
           "em": 0
         }
       }
@@ -65445,6 +66363,88 @@
           "def": 500,
           "em": 0
         }
+      },
+      "26153105": {
+        "monster_name": "Seal_Larva_01_Sea_FishingEvent",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 65.15,
+          "atk": 50,
+          "def": 0,
+          "em": 0
+        }
+      },
+      "26153106": {
+        "monster_name": "Seal_Larva_01_Small_Sea_FishingEvent",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 13.49,
+          "atk": 50,
+          "def": 0,
+          "em": 0
+        }
       }
     }
   },
@@ -65560,6 +66560,88 @@
           "hp": 32.4689,
           "atk": 50,
           "def": 500,
+          "em": 0
+        }
+      },
+      "26154103": {
+        "monster_name": "JellyFish_Larva_01_FishingEvent",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 13.49,
+          "atk": 50,
+          "def": 0,
+          "em": 0
+        }
+      },
+      "26154104": {
+        "monster_name": "JellyFish_Larva_01_Large_FishingEvent",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 65.15,
+          "atk": 50,
+          "def": 0,
           "em": 0
         }
       }
@@ -65679,6 +66761,88 @@
           "def": 500,
           "em": 0
         }
+      },
+      "26154203": {
+        "monster_name": "JellyFish_Larva_02_FishingEvent",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 13.49,
+          "atk": 50,
+          "def": 0,
+          "em": 0
+        }
+      },
+      "26154204": {
+        "monster_name": "JellyFish_Larva_02_Large_FishingEvent",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 65.15,
+          "atk": 50,
+          "def": 0,
+          "em": 0
+        }
       }
     }
   },
@@ -65753,6 +66917,47 @@
           "hp": 19.48134,
           "atk": 45,
           "def": 500,
+          "em": 0
+        }
+      },
+      "26155102": {
+        "monster_name": "SeaHorse_Larva_01_FishingEvent",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 5.34,
+          "atk": 50,
+          "def": 0,
           "em": 0
         }
       }
@@ -65831,6 +67036,47 @@
           "def": 500,
           "em": 0
         }
+      },
+      "26155202": {
+        "monster_name": "SeaHorse_Larva_02_FishingEvent",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 5.34,
+          "atk": 50,
+          "def": 0,
+          "em": 0
+        }
       }
     }
   },
@@ -65905,6 +67151,47 @@
           "hp": 19.48134,
           "atk": 45,
           "def": 500,
+          "em": 0
+        }
+      },
+      "26155302": {
+        "monster_name": "SeaHorse_Larva_03_FishingEvent",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 5.34,
+          "atk": 50,
+          "def": 0,
           "em": 0
         }
       }
@@ -65983,6 +67270,47 @@
           "def": 500,
           "em": 0
         }
+      },
+      "26156102": {
+        "monster_name": "Octopus_Larva_01_FishingEvent",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 13.49,
+          "atk": 50,
+          "def": 0,
+          "em": 0
+        }
       }
     }
   },
@@ -66057,6 +67385,47 @@
           "hp": 19.48134,
           "atk": 45,
           "def": 500,
+          "em": 0
+        }
+      },
+      "26156202": {
+        "monster_name": "Octopus_Larva_02_FishingEvent",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 13.49,
+          "atk": 50,
+          "def": 0,
           "em": 0
         }
       }
@@ -66135,6 +67504,47 @@
           "def": 500,
           "em": 0
         }
+      },
+      "26157102": {
+        "monster_name": "Aplysia_Larva_01_FishingEvent",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 13.49,
+          "atk": 50,
+          "def": 0,
+          "em": 0
+        }
       }
     }
   },
@@ -66209,6 +67619,47 @@
           "hp": 19.48134,
           "atk": 45,
           "def": 500,
+          "em": 0
+        }
+      },
+      "26157202": {
+        "monster_name": "Aplysia_Larva_02_FishingEvent",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 13.49,
+          "atk": 50,
+          "def": 0,
           "em": 0
         }
       }
@@ -66452,6 +67903,88 @@
           "em": 0
         }
       },
+      "26160106": {
+        "monster_name": "HermitCrab_Mature_01_Sea_FishingEvent",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 65.15,
+          "atk": 50,
+          "def": 0,
+          "em": 0
+        }
+      },
+      "26160107": {
+        "monster_name": "HermitCrab_Mature_01_Sea_FishingEvent_FishTank",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 64.9378,
+          "atk": 60,
+          "def": 500,
+          "em": 0
+        }
+      },
       "26160191": {
         "monster_name": "HermitCrab_Mature_01_Land",
         "type": "MONSTER_ORDINARY",
@@ -66650,6 +68183,88 @@
           "def": 500,
           "em": 0
         }
+      },
+      "26160203": {
+        "monster_name": "Aplysia_Mature_01_Sea_FishingEvent",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 65.15,
+          "atk": 50,
+          "def": 0,
+          "em": 0
+        }
+      },
+      "26160204": {
+        "monster_name": "Aplysia_Mature_01_Sea_FishingEvent_FishTank",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 64.9378,
+          "atk": 60,
+          "def": 500,
+          "em": 0
+        }
       }
     }
   },
@@ -66763,6 +68378,88 @@
         },
         "base": {
           "hp": 35.3184,
+          "atk": 60,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "26160303": {
+        "monster_name": "SeaHorse_Mature_01_Sea_FishingEvent",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 65.15,
+          "atk": 50,
+          "def": 0,
+          "em": 0
+        }
+      },
+      "26160304": {
+        "monster_name": "SeaHorse_Mature_01_Sea_FishingEvent_FishTank",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 64.9378,
           "atk": 60,
           "def": 500,
           "em": 0
@@ -67003,6 +68700,88 @@
         },
         "base": {
           "hp": 35.3184,
+          "atk": 60,
+          "def": 500,
+          "em": 0
+        }
+      },
+      "26160303": {
+        "monster_name": "SeaHorse_Mature_01_Sea_FishingEvent",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0,
+          "grass": 0,
+          "water": 0,
+          "elec": 0,
+          "wind": 0,
+          "ice": 0,
+          "rock": 0,
+          "physical": 0
+        },
+        "base": {
+          "hp": 65.15,
+          "atk": 50,
+          "def": 0,
+          "em": 0
+        }
+      },
+      "26160304": {
+        "monster_name": "SeaHorse_Mature_01_Sea_FishingEvent_FishTank",
+        "type": "MONSTER_ORDINARY",
+        "hp_drops": [
+          {},
+          {},
+          {}
+        ],
+        "kill_drop_id": 0,
+        "prop": [
+          {
+            "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
+            "type": "FIGHT_PROP_BASE_HP"
+          },
+          {
+            "grow_curve": "GROW_CURVE_ATTACK_2",
+            "type": "FIGHT_PROP_BASE_ATTACK"
+          },
+          {
+            "grow_curve": "GROW_CURVE_DEFENSE",
+            "type": "FIGHT_PROP_BASE_DEFENSE"
+          }
+        ],
+        "local_legend": false,
+        "sub_hurt": {
+          "fire": 0.1,
+          "grass": 0.1,
+          "water": 0.1,
+          "elec": 0.1,
+          "wind": 0.1,
+          "ice": 0.1,
+          "rock": 0.1,
+          "physical": 0.1
+        },
+        "base": {
+          "hp": 64.9378,
           "atk": 60,
           "def": 500,
           "em": 0
@@ -74601,6 +76380,17 @@
     "rewards": []
   },
   {
+    "id": "28041901",
+    "contentStatus": "live",
+    "name": "Moonglow Jellyfish",
+    "type": "CRITTER",
+    "description": "A primitive animal with an exceedingly simple body structure.\\nIn the poetry of ancient Fontaine, jellyfish were often paired with butterflies as symbols of the soul. People of bygone times and Remurian philosophers alike embraced this idea: that the soul dwells within the body as a butterfly is born from a caterpillar; that the soul passes endlessly through all waters, or through melody itself, just as a jellyfish grants itself new life at the moment of its own death.\\nAs an aside, the followers of the Mistress of Many Waters, later known as the illustrious and noble Lochknights, denounced the Remurian philosophers' views with righteous fury, branding them heresy that had to be cast aside entirely. As for how those views differed from their own beliefs, that was apparently a much deeper matter of principle, and not one to be discussed lightly.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/monsters/UI_AnimalIcon_JellyFish_02.webp"
+    },
+    "rewards": []
+  },
+  {
     "id": "28050101",
     "contentStatus": "live",
     "name": "Anemo Crystalfly",
@@ -74894,6 +76684,17 @@
     "description": "To most animals, Frostfin Whales are fierce predators... but not to humans.\\nTheir giant tail fins could easily sink a fishing boat, and they could swallow a human whole, but any old fisherfolk worth their sea salt knows that no Frostfin Whale has ever actively attacked a human. Instead, they love to race against ships and often leap from the water, as if enjoying playing with humanity.\\nIt is said that some busybodies have waited as long as several hours, trembling out in the cold, just to catch a glimpse of one making such a leap. How could anyone refuse when a creature of such power and beauty were to reveal its smile only to you?",
     "assets": {
       "icon": "Nanoka/gi/assets/monsters/UI_AnimalIcon_Orca_01.webp"
+    },
+    "rewards": []
+  },
+  {
+    "id": "28070801",
+    "contentStatus": "live",
+    "name": "Moonglow Frostfin Whale",
+    "type": "FISH",
+    "description": "A wondrous aquatic creature altered by the influence of kuuvahki.\\nAccording to the studies of the Snezhnayan biologist Hvylyolo Verkhratsky five hundred years ago, the concentration of kuuvahki on the surface is generally considered too low to cause physical changes in creatures of such enormous size. Perhaps that is why these rare, differently colored individuals have taken on a more romantic meaning. In the folk tales of Nod-Krai, it is said that anyone who sees a pink Frostfin Whale will have their wish come true. Some versions of the tales of Reed Miller, the legendary thief, even tell of a so-called \"King of Whales\" who helped Reed and his merry companions resist the sirens' bewitching song — and, in turn, caused the siren queen herself to fall in love with him at first sight.\\nBut tall tales are still tall tales, and a pink whale, in the end, is still only a whale.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/monsters/UI_AnimalIcon_Orca_01_Alter.webp"
     },
     "rewards": []
   },

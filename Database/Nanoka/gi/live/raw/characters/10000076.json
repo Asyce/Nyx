@@ -971,6 +971,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1008,6 +1012,10 @@
             "Fully-Charged Aimed Shot|{param6:P}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1059,6 +1067,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1096,6 +1108,10 @@
             "Fully-Charged Aimed Shot|{param6:P}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1147,6 +1163,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1184,6 +1204,10 @@
             "Fully-Charged Aimed Shot|{param6:P}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1235,6 +1259,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1272,6 +1300,10 @@
             "Fully-Charged Aimed Shot|{param6:P}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1323,6 +1355,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1360,6 +1396,10 @@
             "Fully-Charged Aimed Shot|{param6:P}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1411,6 +1451,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1448,6 +1492,10 @@
             "Fully-Charged Aimed Shot|{param6:P}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1499,6 +1547,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1543,6 +1595,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1580,6 +1636,10 @@
             "Fully-Charged Aimed Shot|{param6:P}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1638,6 +1698,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1671,6 +1735,10 @@
             "Pressurized Collapse Vortex DMG|{param2:F1P}",
             "Manifest Gale Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1726,6 +1794,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1759,6 +1831,10 @@
             "Pressurized Collapse Vortex DMG|{param2:F1P}",
             "Manifest Gale Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1814,6 +1890,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1847,6 +1927,10 @@
             "Pressurized Collapse Vortex DMG|{param2:F1P}",
             "Manifest Gale Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1902,6 +1986,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1935,6 +2023,10 @@
             "Pressurized Collapse Vortex DMG|{param2:F1P}",
             "Manifest Gale Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1990,6 +2082,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2023,6 +2119,10 @@
             "Pressurized Collapse Vortex DMG|{param2:F1P}",
             "Manifest Gale Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2078,6 +2178,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2111,6 +2215,10 @@
             "Pressurized Collapse Vortex DMG|{param2:F1P}",
             "Manifest Gale Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2166,6 +2274,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2210,6 +2322,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2243,6 +2359,10 @@
             "Pressurized Collapse Vortex DMG|{param2:F1P}",
             "Manifest Gale Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2305,6 +2425,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2342,6 +2466,10 @@
             "Duration|{param6:F1}s",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2393,6 +2521,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2430,6 +2562,10 @@
             "Duration|{param6:F1}s",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2481,6 +2617,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2518,6 +2658,10 @@
             "Duration|{param6:F1}s",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2569,6 +2713,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2606,6 +2754,10 @@
             "Duration|{param6:F1}s",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2657,6 +2809,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2694,6 +2850,10 @@
             "Duration|{param6:F1}s",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2745,6 +2905,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2782,6 +2946,10 @@
             "Duration|{param6:F1}s",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2833,6 +3001,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2877,6 +3049,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2914,6 +3090,10 @@
             "Duration|{param6:F1}s",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3864,5 +4044,180 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ShootArrow_Enchanted_Wind",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithWind"
+    },
+    {
+      "name": "ShootArrow_Enchanted_WithoutWind",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithoutWind"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "Elemental_Art",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 200
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Damage"
+    },
+    {
+      "name": "Wind_Arashi_Bullet",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 36
+      },
+      "element": "Wind",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "Faruzan_Wind_Arashi_Damage"
+    },
+    {
+      "name": "Aim_TrackBullet_Material",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "First_Bullet_Damage"
+    },
+    {
+      "name": "Constellation6_TrackBullet_Material",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "First_Bullet_Damage"
+    },
+    {
+      "name": "Faruzan_ElementalBurst_Gadget_Born_Attack",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 200
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Faruzan_ElementalBurst_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "WindZoneAttackLand_GenerateBall",
+      "skill": "Faruzan_WindSubHurtDown_Controller",
+      "kind": "Other",
+      "element": "Anemo",
+      "per_drop": 1,
+      "lifetime": 6,
+      "chance": 100,
+      "cd": 1,
+      "applications": 1,
+      "drop_id": 2021
+    }
+  ]
 }

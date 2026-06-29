@@ -525,6 +525,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -562,6 +566,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -613,6 +621,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -650,6 +662,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -701,6 +717,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -738,6 +758,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -789,6 +813,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -826,6 +854,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -877,6 +909,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -914,6 +950,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -965,6 +1005,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1002,6 +1046,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1053,6 +1101,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1097,6 +1149,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1134,6 +1190,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1192,6 +1252,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1224,6 +1288,10 @@
             "Skill DMG|{param1:F1P}",
             "Elemental Type Conversion Duration|{param2:F1}s",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1280,6 +1348,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1312,6 +1384,10 @@
             "Skill DMG|{param1:F1P}",
             "Elemental Type Conversion Duration|{param2:F1}s",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1368,6 +1444,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1400,6 +1480,10 @@
             "Skill DMG|{param1:F1P}",
             "Elemental Type Conversion Duration|{param2:F1}s",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1456,6 +1540,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1488,6 +1576,10 @@
             "Skill DMG|{param1:F1P}",
             "Elemental Type Conversion Duration|{param2:F1}s",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1544,6 +1636,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1576,6 +1672,10 @@
             "Skill DMG|{param1:F1P}",
             "Elemental Type Conversion Duration|{param2:F1}s",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1632,6 +1732,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1664,6 +1768,10 @@
             "Skill DMG|{param1:F1P}",
             "Elemental Type Conversion Duration|{param2:F1}s",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1720,6 +1828,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1764,6 +1876,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1796,6 +1912,10 @@
             "Skill DMG|{param1:F1P}",
             "Elemental Type Conversion Duration|{param2:F1}s",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1859,6 +1979,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1893,6 +2017,10 @@
             "Restricted Area Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1947,6 +2075,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1981,6 +2113,10 @@
             "Restricted Area Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2035,6 +2171,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2069,6 +2209,10 @@
             "Restricted Area Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2123,6 +2267,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2157,6 +2305,10 @@
             "Restricted Area Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2211,6 +2363,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2245,6 +2401,10 @@
             "Restricted Area Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2299,6 +2459,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2333,6 +2497,10 @@
             "Restricted Area Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2387,6 +2555,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2431,6 +2603,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2465,6 +2641,10 @@
             "Restricted Area Duration|{param3:F1}s",
             "CD|{param4:F1}s",
             "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3177,5 +3357,639 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "UziExplode",
+      "icd": {
+        "tag": "Elemental_Art_Hold",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Wind",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "SliceDamage1"
+    },
+    {
+      "name": "UziExplode",
+      "icd": {
+        "tag": "Elemental_Art_Hold",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "None",
+      "damage_param": [
+        "SliceDamage1",
+        "Element_Embrace_Factor",
+        "MUL"
+      ]
+    },
+    {
+      "name": "UziExplode",
+      "icd": {
+        "tag": "Elemental_Art_Hold",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "None",
+      "damage_param": [
+        "SliceDamage1",
+        "Element_Embrace_Factor",
+        "MUL"
+      ]
+    },
+    {
+      "name": "UziExplode",
+      "icd": {
+        "tag": "Elemental_Art_Hold",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "None",
+      "damage_param": [
+        "SliceDamage1",
+        "Element_Embrace_Factor",
+        "MUL"
+      ]
+    },
+    {
+      "name": "UziExplode",
+      "icd": {
+        "tag": "Elemental_Art_Hold",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "None",
+      "damage_param": [
+        "SliceDamage1",
+        "Element_Embrace_Factor",
+        "MUL"
+      ]
+    },
+    {
+      "name": "UziExplode",
+      "icd": {
+        "tag": "Elemental_Art_Hold",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Wind",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "SliceDamage2"
+    },
+    {
+      "name": "UziExplode",
+      "icd": {
+        "tag": "Elemental_Art_Hold",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "None",
+      "damage_param": [
+        "SliceDamage2",
+        "Element_Embrace_Factor",
+        "MUL"
+      ]
+    },
+    {
+      "name": "UziExplode",
+      "icd": {
+        "tag": "Elemental_Art_Hold",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "None",
+      "damage_param": [
+        "SliceDamage2",
+        "Element_Embrace_Factor",
+        "MUL"
+      ]
+    },
+    {
+      "name": "UziExplode",
+      "icd": {
+        "tag": "Elemental_Art_Hold",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "None",
+      "damage_param": [
+        "SliceDamage2",
+        "Element_Embrace_Factor",
+        "MUL"
+      ]
+    },
+    {
+      "name": "UziExplode",
+      "icd": {
+        "tag": "Elemental_Art_Hold",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "None",
+      "damage_param": [
+        "SliceDamage2",
+        "Element_Embrace_Factor",
+        "MUL"
+      ]
+    },
+    {
+      "name": "UziExplode_Strike_01",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 200
+      },
+      "element": "Wind",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "StrikeDamage1"
+    },
+    {
+      "name": "UziExplode_Strike_01",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": [
+        "StrikeDamage1",
+        "Element_Embrace_Factor",
+        "MUL"
+      ]
+    },
+    {
+      "name": "UziExplode_Strike_01",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": [
+        "StrikeDamage1",
+        "Element_Embrace_Factor",
+        "MUL"
+      ]
+    },
+    {
+      "name": "UziExplode_Strike_01",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": [
+        "StrikeDamage1",
+        "Element_Embrace_Factor",
+        "MUL"
+      ]
+    },
+    {
+      "name": "UziExplode_Strike_01",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": [
+        "StrikeDamage1",
+        "Element_Embrace_Factor",
+        "MUL"
+      ]
+    },
+    {
+      "name": "UziExplode_Strike_02",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV6",
+        "value": 200
+      },
+      "element": "Wind",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "StrikeDamage2"
+    },
+    {
+      "name": "UziExplode_Strike_02",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": [
+        "StrikeDamage2",
+        "Element_Embrace_Factor",
+        "MUL"
+      ]
+    },
+    {
+      "name": "UziExplode_Strike_02",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": [
+        "StrikeDamage2",
+        "Element_Embrace_Factor",
+        "MUL"
+      ]
+    },
+    {
+      "name": "UziExplode_Strike_02",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": [
+        "StrikeDamage2",
+        "Element_Embrace_Factor",
+        "MUL"
+      ]
+    },
+    {
+      "name": "UziExplode_Strike_02",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": [
+        "StrikeDamage2",
+        "Element_Embrace_Factor",
+        "MUL"
+      ]
+    },
+    {
+      "name": "UziExplode_Mix",
+      "icd": {
+        "tag": "UziExplode_Mix_Detect",
+        "group": "default"
+      },
+      "element": "AntiFire",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
+      "name": "WindBreathe_Tornado",
+      "icd": {
+        "tag": "Tornado_Drag_Detect",
+        "group": "default"
+      },
+      "gauge": 4,
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
+      "name": "WindBreathe_Tornado",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "value": 13
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Tornado_Damage"
+    },
+    {
+      "name": "WindBreathe_Tornado_Mix",
+      "icd": {
+        "tag": "Tornado_Mix_Detect",
+        "group": "default"
+      },
+      "element": "AntiFire",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
+      "name": "WindBreathe_Tornado_Mix",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "value": 3
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Tornado_Mixed_Damage"
+    },
+    {
+      "name": "WindBreathe_Tornado_Mix",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "value": 3
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Tornado_Mixed_Damage"
+    },
+    {
+      "name": "WindBreathe_Tornado_Mix",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "value": 3
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Tornado_Mixed_Damage"
+    },
+    {
+      "name": "WindBreathe_Tornado_Mix",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "value": 3
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Tornado_Mixed_Damage"
+    },
+    {
+      "name": "Arashi_Bullet",
+      "icd": {
+        "tag": "NormalAttack_05",
+        "group": "Avatar_Pole_ExtraAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 36
+      },
+      "element": "Wind",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "Player_Wind_Arashi_Damage"
+    },
+    {
+      "name": "EnhancedExtraAttack",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50.6
+      },
+      "element": "Wind",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": [
+        "ExtraAttack_Enhanced_1_BaseDamagePercentage",
+        "ExtraAttack_Enhanced_ratio",
+        "ADD"
+      ]
+    },
+    {
+      "name": "EnhancedExtraAttack",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50.6
+      },
+      "element": "Wind",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": [
+        "ExtraAttack_Enhanced_2_BaseDamagePercentage",
+        "ExtraAttack_Enhanced_ratio",
+        "ADD"
+      ]
+    },
+    {
+      "name": "Gadget_Player_Wind_EnhancedExtraAttack_AdditionnalStike_Electric",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Player_EnhancedExtraAttack_Wind_AdditionalAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ExtraAttack_Enhanced_ExtraRatio"
+    },
+    {
+      "name": "Gadget_Player_Wind_EnhancedExtraAttack_AdditionnalStike_Fire",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Player_EnhancedExtraAttack_Wind_AdditionalAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ExtraAttack_Enhanced_ExtraRatio"
+    },
+    {
+      "name": "Gadget_Player_Wind_EnhancedExtraAttack_AdditionnalStike_Water",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Player_EnhancedExtraAttack_Wind_AdditionalAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ExtraAttack_Enhanced_ExtraRatio"
+    },
+    {
+      "name": "Gadget_Player_Wind_EnhancedExtraAttack_AdditionnalStike_Ice",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Player_EnhancedExtraAttack_Wind_AdditionalAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ExtraAttack_Enhanced_ExtraRatio"
+    }
+  ],
+  "energy": [
+    {
+      "name": "DropBall_Base_1",
+      "skill": "UziExplode_Strike_01",
+      "kind": "Other",
+      "element": "Anemo",
+      "per_drop": 1,
+      "lifetime": 6,
+      "chance": 100,
+      "cd": 0.6,
+      "applications": 1,
+      "drop_id": 2021
+    },
+    {
+      "name": "DropBall_Base_2",
+      "skill": "UziExplode_Strike_01",
+      "kind": "Other",
+      "element": "Anemo",
+      "per_drop": 1,
+      "lifetime": 9,
+      "chance": 100,
+      "cd": 0.6,
+      "applications": 1,
+      "drop_id": 2021
+    },
+    {
+      "name": "DropBall_Base_2",
+      "skill": "UziExplode_Strike_01",
+      "kind": "Other",
+      "element": "Anemo",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 33,
+      "cd": 0.6,
+      "applications": 1,
+      "drop_id": 2021
+    }
+  ]
 }

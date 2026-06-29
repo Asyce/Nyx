@@ -1023,6 +1023,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1060,6 +1064,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1111,6 +1119,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1148,6 +1160,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1199,6 +1215,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1236,6 +1256,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1287,6 +1311,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1324,6 +1352,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1375,6 +1407,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1412,6 +1448,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1463,6 +1503,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1500,6 +1544,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1551,6 +1599,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1595,6 +1647,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1632,6 +1688,10 @@
             "Charged Attack Stamina Cost|{param7:F1}",
             "Plunge DMG|{param8:F1P}",
             "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1690,6 +1750,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1724,6 +1788,10 @@
             "Pactsworn Pathclearer Duration Bonus|{param3:F1}s",
             "CD|{param4:F1}s",
             "Mortuary Rite CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1778,6 +1846,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1812,6 +1884,10 @@
             "Pactsworn Pathclearer Duration Bonus|{param3:F1}s",
             "CD|{param4:F1}s",
             "Mortuary Rite CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1866,6 +1942,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1900,6 +1980,10 @@
             "Pactsworn Pathclearer Duration Bonus|{param3:F1}s",
             "CD|{param4:F1}s",
             "Mortuary Rite CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1954,6 +2038,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1988,6 +2076,10 @@
             "Pactsworn Pathclearer Duration Bonus|{param3:F1}s",
             "CD|{param4:F1}s",
             "Mortuary Rite CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2042,6 +2134,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2076,6 +2172,10 @@
             "Pactsworn Pathclearer Duration Bonus|{param3:F1}s",
             "CD|{param4:F1}s",
             "Mortuary Rite CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2130,6 +2230,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2164,6 +2268,10 @@
             "Pactsworn Pathclearer Duration Bonus|{param3:F1}s",
             "CD|{param4:F1}s",
             "Mortuary Rite CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2218,6 +2326,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2252,6 +2364,10 @@
             "Pactsworn Pathclearer Duration Bonus|{param3:F1}s",
             "CD|{param4:F1}s",
             "Mortuary Rite CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2306,6 +2422,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2331,7 +2451,9 @@
             0
           ]
         }
-      }
+      },
+      "special": true,
+      "special_desc": "Performs a swift thrust, dealing <color=#FFACFFFF>Electro DMG</color> to opponents along the way.\\n\\nWhen Cyno is in the Pactsworn Pathclearer state, he will instead unleash a <color=#FFD780FF>Mortuary Rite</color> that deals thunderous <color=#FFACFFFF>AoE Electro DMG</color>. If Cyno enters the Pactsworn Pathclearer through the Elemental Burst <color=#FFD780FF>Sacred Rite: Wolf's Swiftness</color>, unleashing <color=#FFD780FF>Mortuary Rite</color> will also extend the duration of the current instance of Pactsworn Pathclearer.\\n\\n<i>\"This judgment brooks no choice. There is no rejection or acceptance here... We have both long been bound up in this conviction.\"</i>"
     },
     {
       "id": 10715,
@@ -2355,6 +2477,10 @@
             "Basic Duration|{param13:F1}s",
             "CD|{param14:F1}s",
             "Energy Cost|{param15:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -2401,6 +2527,10 @@
             "Energy Cost|{param15:I}",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2443,6 +2573,10 @@
             "Basic Duration|{param13:F1}s",
             "CD|{param14:F1}s",
             "Energy Cost|{param15:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -2489,6 +2623,10 @@
             "Energy Cost|{param15:I}",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2531,6 +2669,10 @@
             "Basic Duration|{param13:F1}s",
             "CD|{param14:F1}s",
             "Energy Cost|{param15:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -2577,6 +2719,10 @@
             "Energy Cost|{param15:I}",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2619,6 +2765,10 @@
             "Basic Duration|{param13:F1}s",
             "CD|{param14:F1}s",
             "Energy Cost|{param15:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -2665,6 +2815,10 @@
             "Energy Cost|{param15:I}",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2707,6 +2861,10 @@
             "Basic Duration|{param13:F1}s",
             "CD|{param14:F1}s",
             "Energy Cost|{param15:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -2753,6 +2911,10 @@
             "Energy Cost|{param15:I}",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2795,6 +2957,10 @@
             "Basic Duration|{param13:F1}s",
             "CD|{param14:F1}s",
             "Energy Cost|{param15:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -2841,6 +3007,10 @@
             "Energy Cost|{param15:I}",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2883,6 +3053,10 @@
             "Basic Duration|{param13:F1}s",
             "CD|{param14:F1}s",
             "Energy Cost|{param15:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -2929,6 +3103,10 @@
             "Energy Cost|{param15:I}",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2973,6 +3151,10 @@
             "Energy Cost|{param15:I}",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3011,7 +3193,7 @@
       "param_list": [
         0.35,
         1,
-        0,
+        2,
         0,
         0,
         0,
@@ -3029,7 +3211,9 @@
         0,
         0,
         0
-      ]
+      ],
+      "special": true,
+      "special_desc": "When Cyno is in the Pactsworn Pathclearer state, he will enter the Endseer stance at intervals. If he activates <color=#FFD780FF>Secret Rite: Chasmic Soulfarer</color> while affected by this stance, he will activate the Judication effect, increasing the DMG of this Secret Rite: Chasmic Soulfarer by 35%, and firing off 3 Duststalker Bolts that deal 100% of Cyno's ATK as <color=#FFACFFFF>Electro DMG.</color> Duststalker Bolt DMG is considered Elemental Skill DMG.\\n\\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: When Judication is triggered, Cyno will instead fire 3 <color=#FFD780FF>Duststalker Bolts - Starsame</color> to his front, dealing <color=#FFACFFFF>Electro DMG</color> at 200% of his ATK. This DMG is considered Stellar-Conduct DMG."
     },
     {
       "id": 712201,
@@ -3040,7 +3224,7 @@
       "param_list": [
         1.5,
         2.5,
-        0,
+        6,
         0,
         0,
         0,
@@ -3058,7 +3242,9 @@
         0,
         0,
         0
-      ]
+      ],
+      "special": true,
+      "special_desc": "Cyno's DMG values will be increased based on his Elemental Mastery as follows:\\n· Pactsworn Pathclearer's Normal Attack DMG is increased by 150% of his Elemental Mastery.\\n· Duststalker Bolt DMG from his Ascension Talent Featherfall Judgment is increased by 250% of his Elemental Mastery.\\n· Duststalker Bolts - Starsame from the Ascension Talent \"Featherfall Judgment\": 600% of Elemental Mastery."
     },
     {
       "id": 712301,
@@ -3088,6 +3274,40 @@
         0,
         0
       ]
+    },
+    {
+      "id": 712401,
+      "name": "A Star With Which to Start the Journey",
+      "desc": "If Cyno unleashes the Elemental Skill <color=#FFD780FF>Secret Rite: Chasmic Soulfarer</color> while not in the Pactsworn Pathclearer state, he will enter Pactsworn Pathclearer for 6s.\\nAdditionally, when in a {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}, Cyno will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state.",
+      "icon": "UI_Talent_S_Cyno_08",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unlock": [
+        7469304
+      ],
+      "special": true,
+      "special_passive": true,
+      "special_desc": ""
     }
   ],
   "constellations": [
@@ -3099,13 +3319,15 @@
       "param_list": [
         0.2,
         10,
-        0,
+        200,
         0,
         0,
         0,
         0,
         0
-      ]
+      ],
+      "special": true,
+      "special_desc": "After using <color=#FFD780FF>Sacred Rite: Wolf's Swiftness</color>, Cyno's Normal Attack SPD will be increased by 20% for 10s. If the Judication effect of his Ascension Talent Featherfall Judgment is triggered during <color=#FFD780FF>Secret Rite: Chasmic Soulfarer</color>, the duration of this increase will be refreshed.\\nYou must first unlock the Ascension Talent \"Featherfall Judgment.\"\\n\\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: When Cyno enters the Pactsworn Pathclearer state, he will also gain the <color=#FFD780FF>Together We Rise</color> effect: Elemental Mastery is increased by 200. During this time, when switching characters from Cyno on the field, the incoming active character will take on the <color=#FFD780FF>Together We Rise</color> effect for the remaining duration."
     },
     {
       "id": 712,
@@ -3117,11 +3339,13 @@
         4,
         5,
         0.1,
-        0,
+        0.16,
         0,
         0,
         0
-      ]
+      ],
+      "special": true,
+      "special_desc": "When Cyno's Normal Attacks hit opponents, his <color=#FFACFFFF>Electro DMG Bonus</color> will increase by 10% for 4s. This effect can be triggered once every 0.1s. Max 5 stacks.\\n\\nAdditionally, when characters affected by <color=#FFD780FF>Together We Rise</color> hit opponents with their Normal Attacks or Charged Attacks, their Stellar-Conduct DMG dealt is increased by 16%. This effect, which can trigger once every 0.1s, will remain active for the remaining duration of <color=#FFD780FF>Together We Rise</color>. Max 5 stacks."
     },
     {
       "id": 713,
@@ -3142,18 +3366,20 @@
     {
       "id": 714,
       "name": "Austerity: Forbidding Guard",
-      "desc": "When Cyno is in the Pactsworn Pathclearer state triggered by <color=#FFD780FF>Sacred Rite: Wolf's Swiftness</color>, after he triggers an Electro-Charged, Lunar-Charged, Superconduct, Overloaded, Quicken, Aggravate, Hyperbloom, or Electro Swirl reaction, he will restore 3 Elemental Energy for all nearby party members (except himself.)\\nThis effect can occur 5 times within one use of <color=#FFD780FF>Sacred Rite: Wolf's Swiftness</color>.",
+      "desc": "When Cyno is in the Pactsworn Pathclearer state triggered by <color=#FFD780FF>Sacred Rite: Wolf's Swiftness</color>, after he triggers an Electro-Charged, Lunar-Charged, Superconduct, Stellar-Conduct, Overloaded, Quicken, Aggravate, Hyperbloom, or Electro Swirl reaction, he will restore 3 Elemental Energy for all nearby party members (except himself.)\\nThis effect can occur 5 times within one use of <color=#FFD780FF>Sacred Rite: Wolf's Swiftness</color>.",
       "icon": "UI_Talent_S_Cyno_03",
       "param_list": [
         3,
         5,
-        0,
-        0,
+        20,
+        18,
         0,
         0,
         0,
         0
-      ]
+      ],
+      "special": true,
+      "special_desc": "When Cyno is in the Pactsworn Pathclearer state triggered by <color=#FFD780FF>Sacred Rite: Wolf's Swiftness</color>, after he triggers an Electro-Charged, Lunar-Charged, Superconduct, Stellar-Conduct, Overloaded, Quicken, Aggravate, Hyperbloom, or Electro Swirl reaction, he will restore 3 Elemental Energy to all nearby party members (except himself). This effect can occur 5 times within one use of <color=#FFD780FF>Sacred Rite: Wolf's Swiftness</color>.\\n\\nWhen other characters affected by <color=#FFD780FF>Together We Rise</color> trigger the aforementioned reaction, they will also regenerate 20 Elemental Energy for Cyno. This effect can trigger once every 18s."
     },
     {
       "id": 715,
@@ -3185,7 +3411,9 @@
         0,
         0,
         0
-      ]
+      ],
+      "special": true,
+      "special_desc": "After using <color=#FFD780FF>Sacred Rite: Wolf's Swiftness</color> or triggering the Judication effect of the Ascension Talent \"Featherfall Judgment,\" Cyno will gain 4 stacks of the \"Day of the Jackal\" effect. When he hits opponents with Normal Attacks, he will consume 1 stack of \"Day of the Jackal\" to fire off one Duststalker Bolt. If Cyno is affected by <color=#FFD780FF>Together We Rise</color>, he will fire one <color=#FFD780FF>Duststalker Bolt - Starsame</color> instead.\\nDay of the Jackal\" lasts for 8s. Max 8 stacks for each instance of Pactsworn Pathclearer. It will be canceled once Pactsworn Pathclearer from Sacred Rite: Wolf's Swiftness ends.\\nA maximum of 1 Duststalker Bolt or 1 Duststalker Bolt - Starsame can be unleashed this way every 0.4s.\\nYou must first unlock the Ascension Talent \"Featherfall Judgment.\""
     }
   ],
   "materials": {
@@ -3916,5 +4144,233 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ExtraAttack_Bullet",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Avatar_Pole_ExtraAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 120
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Spear",
+      "damage_param": "ExtraAttack_Normal"
+    },
+    {
+      "name": "ElementalArt_Bullet",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Cyno_ElementalArt_Bullet"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "Elemental_Art_Bullet_Damage"
+    },
+    {
+      "name": "Cyno_ElementalArt_Click_BurstMode",
+      "icd": {
+        "tag": "Elemental_Art_Extra",
+        "group": "Cyno_ElementalArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 75
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "ElementalArt_BurstMode_Damage"
+    },
+    {
+      "name": "Cyno_ElementalArt_Click_BurstMode",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Cyno_ElementalArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 75
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "ElementalArt_BurstMode_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "value": 400
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_BurstMode_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_BurstMode_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_BurstMode_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "BurstMode_ExtraAttack_Bullet",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Avatar_Pole_ExtraAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 120
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Spear",
+      "damage_param": "Cyno_BurstMode_ExtraAttack_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementalArt_DropBall",
+      "skill": "Cyno_ElementalArt_Click",
+      "kind": "ElementalArt",
+      "element": "Electro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 33.300000000000004,
+      "cd": 0.5,
+      "applications": 1,
+      "drop_id": 2020
+    },
+    {
+      "name": "ElementalArt_DropBall",
+      "skill": "Cyno_ElementalArt_Click",
+      "kind": "ElementalArt",
+      "element": "Electro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "cd": 0.5,
+      "applications": 1,
+      "drop_id": 2020
+    },
+    {
+      "name": "ElementalArt_DropBall",
+      "skill": "Cyno_ElementalArt_Click",
+      "kind": "ElementalArt",
+      "element": "Electro",
+      "per_drop": 1,
+      "lifetime": 9,
+      "chance": 100,
+      "cd": 0.5,
+      "applications": 1,
+      "drop_id": 2020
+    }
+  ],
+  "special": true
 }

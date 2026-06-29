@@ -50077,19 +50077,19 @@
     "talents": {
       "1": {
         "name": "Paradise Lost",
-        "desc": "Anomaly Proficiency increases by <color=#2BAD00>96</color>; When the equipper triggers a <color=#FFFFFF>[Mutation]</color> reaction, they gain Attribute Anomaly DMG Boost of <color=#2BAD00>18%</color>, and apply a DMG Boost of <color=#2BAD00>20%</color> to the whole squad. Both effects last 30s; repeated triggers reset the duration."
+        "desc": "Anomaly Proficiency increases by <color=#2BAD00>96</color>; When the equipper triggers a <color=#FFFFFF>[Mutation]</color> reaction, they gain Attribute Anomaly DMG Boost of <color=#2BAD00>20%</color>, and apply a DMG Boost of <color=#2BAD00>20%</color> to the whole squad. Both effects last 30s; repeated triggers reset the duration."
       },
       "2": {
         "name": "Paradise Lost",
-        "desc": "Anomaly Proficiency increased by <color=#2BAD00>105</color>; When the equipper triggers a <color=#FFFFFF>[Mutation]</color> reaction, they gain Attribute Anomaly DMG Boost <color=#2BAD00>20%</color>, and apply a DMG Boost of <color=#2BAD00>22%</color> to the whole squad. Both effects last 30s; repeated triggers reset the duration."
+        "desc": "Anomaly Proficiency increased by <color=#2BAD00>105</color>; When the equipper triggers a <color=#FFFFFF>[Mutation]</color> reaction, they gain Attribute Anomaly DMG Boost <color=#2BAD00>21.5%</color>, and apply a DMG Boost of <color=#2BAD00>22%</color> to the whole squad. Both effects last 30s; repeated triggers reset the duration."
       },
       "3": {
         "name": "Paradise Lost",
-        "desc": "Anomaly Proficiency increases by <color=#2BAD00>115</color>; When the equipper triggers a <color=#FFFFFF>[Mutation]</color> reaction, they gain Attribute Anomaly DMG increase of <color=#2BAD00>22%</color>, and the whole squad receives a DMG increase of <color=#2BAD00>24%</color>. Both effects last 30s, and repeated triggers reset the duration."
+        "desc": "Anomaly Proficiency increases by <color=#2BAD00>115</color>; When the equipper triggers a <color=#FFFFFF>[Mutation]</color> reaction, they gain Attribute Anomaly DMG increase of <color=#2BAD00>23%</color>, and the whole squad receives a DMG increase of <color=#2BAD00>24%</color>. Both effects last 30s, and repeated triggers reset the duration."
       },
       "4": {
         "name": "Paradise Lost",
-        "desc": "Anomaly Proficiency increased by <color=#2BAD00>125</color>; When the equipper triggers a <color=#FFFFFF>[Mutation]</color> reaction, they gain Attribute Anomaly DMG Boost <color=#2BAD00>24%</color>, and apply a DMG Boost of <color=#2BAD00>26%</color> to the whole squad. Both effects last 30s; repeated triggers reset the duration."
+        "desc": "Anomaly Proficiency increased by <color=#2BAD00>125</color>; When the equipper triggers a <color=#FFFFFF>[Mutation]</color> reaction, they gain Attribute Anomaly DMG Boost <color=#2BAD00>24.5%</color>, and apply a DMG Boost of <color=#2BAD00>26%</color> to the whole squad. Both effects last 30s; repeated triggers reset the duration."
       },
       "5": {
         "name": "Paradise Lost",
@@ -50097,7 +50097,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "9e352d6f7860718d991358985c0de52963a3c76d386caee94c7555c5ebe2fac5"
+      "currentHash": "7035d4fbee18a37e21dd4b6ff645a9ed62fbb984fb95205dc2d49ce1b78e26ef"
     }
   },
   {

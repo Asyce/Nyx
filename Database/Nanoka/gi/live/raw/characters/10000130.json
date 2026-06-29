@@ -992,6 +992,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1028,6 +1032,10 @@
             "Fully-Charged Aimed Shot|{param5:P}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1080,6 +1088,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1116,6 +1128,10 @@
             "Fully-Charged Aimed Shot|{param5:P}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1168,6 +1184,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1204,6 +1224,10 @@
             "Fully-Charged Aimed Shot|{param5:P}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1256,6 +1280,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1292,6 +1320,10 @@
             "Fully-Charged Aimed Shot|{param5:P}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1344,6 +1376,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1380,6 +1416,10 @@
             "Fully-Charged Aimed Shot|{param5:P}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1432,6 +1472,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1468,6 +1512,10 @@
             "Fully-Charged Aimed Shot|{param5:P}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1520,6 +1568,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1564,6 +1616,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1600,6 +1656,10 @@
             "Fully-Charged Aimed Shot|{param5:P}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1659,6 +1719,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1693,6 +1757,10 @@
             "Lumi Million Ton Crush DMG|{param3:F1P} DEF",
             "Lumi Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1747,6 +1815,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1781,6 +1853,10 @@
             "Lumi Million Ton Crush DMG|{param3:F1P} DEF",
             "Lumi Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1835,6 +1911,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1869,6 +1949,10 @@
             "Lumi Million Ton Crush DMG|{param3:F1P} DEF",
             "Lumi Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1923,6 +2007,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1957,6 +2045,10 @@
             "Lumi Million Ton Crush DMG|{param3:F1P} DEF",
             "Lumi Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2011,6 +2103,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2045,6 +2141,10 @@
             "Lumi Million Ton Crush DMG|{param3:F1P} DEF",
             "Lumi Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2099,6 +2199,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2133,6 +2237,10 @@
             "Lumi Million Ton Crush DMG|{param3:F1P} DEF",
             "Lumi Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2187,6 +2295,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2231,6 +2343,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2265,6 +2381,10 @@
             "Lumi Million Ton Crush DMG|{param3:F1P} DEF",
             "Lumi Duration|{param4:F1}s",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2326,6 +2446,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2360,6 +2484,10 @@
             "Healing Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2414,6 +2542,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2448,6 +2580,10 @@
             "Healing Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2502,6 +2638,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2536,6 +2676,10 @@
             "Healing Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2590,6 +2734,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2624,6 +2772,10 @@
             "Healing Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2678,6 +2830,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2712,6 +2868,10 @@
             "Healing Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2766,6 +2926,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2800,6 +2964,10 @@
             "Healing Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2854,6 +3022,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2898,6 +3070,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2932,6 +3108,10 @@
             "Healing Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3914,5 +4094,184 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "Bullet_Linnea_ShootArrow_Enhanced_WithoutElement",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce"
+    },
+    {
+      "name": "Bullet_Linnea_ShootArrow_Enhanced_WithElement",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt"
+    },
+    {
+      "name": "Bullet_Linnea_ShootArrow_Special",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "Linnea_Partner_AttackSkill_01",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 35
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt"
+    },
+    {
+      "name": "Linnea_Partner_AttackSkill_01",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 35
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt"
+    },
+    {
+      "name": "Linnea_Partner_AttackSkill_02",
+      "icd": {
+        "tag": "MoonCrystallizeWaterDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV3",
+        "value": 70
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt"
+    },
+    {
+      "name": "Linnea_Partner_AttackSkill_02",
+      "icd": {
+        "tag": "MoonCrystallizeWaterDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt"
+    },
+    {
+      "name": "Linnea_Partner_AttackSkill_03",
+      "icd": {
+        "tag": "MoonCrystallizeWaterDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV5",
+        "value": 150
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt"
+    }
+  ],
+  "energy": [
+    {
+      "name": "GenerateElemBall",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Geo",
+      "per_drop": 1,
+      "lifetime": 9,
+      "chance": 100,
+      "cd": 9,
+      "applications": 1,
+      "drop_id": 2023
+    }
+  ]
 }

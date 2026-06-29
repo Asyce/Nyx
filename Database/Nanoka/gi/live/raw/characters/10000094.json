@@ -974,6 +974,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1011,6 +1015,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1062,6 +1070,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1099,6 +1111,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1150,6 +1166,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1187,6 +1207,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1238,6 +1262,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1275,6 +1303,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1326,6 +1358,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1363,6 +1399,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1414,6 +1454,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1451,6 +1495,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1502,6 +1550,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1546,6 +1598,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1583,6 +1639,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1641,6 +1701,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1675,6 +1739,10 @@
             "Tamoto Attack Interval|{param4:F1}s",
             "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
             "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1729,6 +1797,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1763,6 +1835,10 @@
             "Tamoto Attack Interval|{param4:F1}s",
             "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
             "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1817,6 +1893,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1851,6 +1931,10 @@
             "Tamoto Attack Interval|{param4:F1}s",
             "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
             "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1905,6 +1989,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1939,6 +2027,10 @@
             "Tamoto Attack Interval|{param4:F1}s",
             "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
             "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1993,6 +2085,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2027,6 +2123,10 @@
             "Tamoto Attack Interval|{param4:F1}s",
             "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
             "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2081,6 +2181,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2115,6 +2219,10 @@
             "Tamoto Attack Interval|{param4:F1}s",
             "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
             "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2169,6 +2277,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2213,6 +2325,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2247,6 +2363,10 @@
             "Tamoto Attack Interval|{param4:F1}s",
             "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
             "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2308,6 +2428,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2340,6 +2464,10 @@
             "Skill DMG|{param1:P} ATK+{param2:P} DEF",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2396,6 +2524,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2428,6 +2560,10 @@
             "Skill DMG|{param1:P} ATK+{param2:P} DEF",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2484,6 +2620,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2516,6 +2656,10 @@
             "Skill DMG|{param1:P} ATK+{param2:P} DEF",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2572,6 +2716,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2604,6 +2752,10 @@
             "Skill DMG|{param1:P} ATK+{param2:P} DEF",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2660,6 +2812,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2692,6 +2848,10 @@
             "Skill DMG|{param1:P} ATK+{param2:P} DEF",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2748,6 +2908,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2780,6 +2944,10 @@
             "Skill DMG|{param1:P} ATK+{param2:P} DEF",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2836,6 +3004,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2880,6 +3052,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2912,6 +3088,10 @@
             "Skill DMG|{param1:P} ATK+{param2:P} DEF",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3867,5 +4047,249 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "NormalAttack_04",
+      "icd": {
+        "tag": "NormalAttack_04",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 78.6
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "NormalAttack_04_DamagePercentage"
+    },
+    {
+      "name": "SkillObj_Chiori_ElementalArt_Turret",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Chiori_ElementArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Art_Turret_Self"
+    },
+    {
+      "name": "SkillObj_Chiori_ElementalArt_Turret",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Chiori_ElementArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Art_Turret_Self"
+    },
+    {
+      "name": "SkillObj_Chiori_ElementalArt_RockGadget_Turret",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Chiori_ElementArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Art_Turret_Stick"
+    },
+    {
+      "name": "SkillObj_Chiori_ElementalArt_RockGadget_Turret",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Chiori_ElementArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Art_Turret_Stick"
+    },
+    {
+      "name": "ElementalArt_Blink",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Chiori_ElementArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Art_EndBlink"
+    },
+    {
+      "name": "ElementalArt_JumpSwitch",
+      "icd": {
+        "tag": "Elemental_Art_Hold",
+        "group": "Chiori_ElementArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Slash",
+      "damage_param": [
+        "Damage_Art_EndBlinkDam",
+        "AfterChangeAvatar_Attack_Factor",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "value": 400
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "SkillObj_Chiori_Turret_Constellation",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Chiori_ElementArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": [
+        "Damage_Art_Turret",
+        "Turret_Constellation_Ratio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "SkillObj_Chiori_Turret_Constellation",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Chiori_ElementArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": [
+        "Damage_Art_Turret",
+        "Turret_Constellation_Ratio",
+        "MUL"
+      ]
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementalArt_DropBall",
+      "skill": "ElementalArt_PutTurret",
+      "kind": "ElementalArt",
+      "element": "Geo",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 80,
+      "cd": 3,
+      "applications": 1,
+      "drop_id": 2023
+    },
+    {
+      "name": "ElementalArt_DropBall",
+      "skill": "ElementalArt_PutTurret",
+      "kind": "ElementalArt",
+      "element": "Geo",
+      "per_drop": 1,
+      "lifetime": 6,
+      "chance": 19.999999999999996,
+      "cd": 3,
+      "applications": 1,
+      "drop_id": 2023
+    }
+  ]
 }

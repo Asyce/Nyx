@@ -1029,6 +1029,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1065,6 +1069,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1117,6 +1125,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1153,6 +1165,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1205,6 +1221,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1241,6 +1261,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1293,6 +1317,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1329,6 +1357,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1381,6 +1413,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1417,6 +1453,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1469,6 +1509,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1505,6 +1549,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1557,6 +1605,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1601,6 +1653,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1637,6 +1693,10 @@
             "Charged Attack Stamina Cost|{param5:F1}",
             "Plunge DMG|{param6:F1P}",
             "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1696,6 +1756,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1731,6 +1795,10 @@
             "Sesshou Sakura DMG: Level 4|{param4:F1P}",
             "Duration|{param5:F1}s",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1784,6 +1852,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1819,6 +1891,10 @@
             "Sesshou Sakura DMG: Level 4|{param4:F1P}",
             "Duration|{param5:F1}s",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1872,6 +1948,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1907,6 +1987,10 @@
             "Sesshou Sakura DMG: Level 4|{param4:F1P}",
             "Duration|{param5:F1}s",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1960,6 +2044,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1995,6 +2083,10 @@
             "Sesshou Sakura DMG: Level 4|{param4:F1P}",
             "Duration|{param5:F1}s",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2048,6 +2140,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2083,6 +2179,10 @@
             "Sesshou Sakura DMG: Level 4|{param4:F1P}",
             "Duration|{param5:F1}s",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2136,6 +2236,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2171,6 +2275,10 @@
             "Sesshou Sakura DMG: Level 4|{param4:F1P}",
             "Duration|{param5:F1}s",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2224,6 +2332,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2268,6 +2380,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2303,6 +2419,10 @@
             "Sesshou Sakura DMG: Level 4|{param4:F1P}",
             "Duration|{param5:F1}s",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2363,6 +2483,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2396,6 +2520,10 @@
             "Tenko Thunderbolt DMG|{param2:P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2451,6 +2579,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2484,6 +2616,10 @@
             "Tenko Thunderbolt DMG|{param2:P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2539,6 +2675,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2572,6 +2712,10 @@
             "Tenko Thunderbolt DMG|{param2:P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2627,6 +2771,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2660,6 +2808,10 @@
             "Tenko Thunderbolt DMG|{param2:P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2715,6 +2867,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2748,6 +2904,10 @@
             "Tenko Thunderbolt DMG|{param2:P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2803,6 +2963,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2836,6 +3000,10 @@
             "Tenko Thunderbolt DMG|{param2:P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2891,6 +3059,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2924,6 +3096,10 @@
             "Tenko Thunderbolt DMG|{param2:P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2979,6 +3155,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3004,7 +3184,9 @@
             0
           ]
         }
-      }
+      },
+      "special": true,
+      "special_desc": "Legends of \"kitsunetsuki,\" or the manifestation of a kitsune's might, are common in Inazuma's folktales. One that particularly captures the imagination is that of the Sky Kitsune, said to cause lightning to fall down upon the foes of the Grand Narukami Shrine. Summons a lightning strike, dealing <color=#FFACFFFF>AoE Electro DMG</color>.\\nWhen this is cast, Yae Miko will transform nearby Sesshou Sakura into Tenko Thunderbolts that descend from the skies, dealing <color=#FFACFFFF>AoE Electro DMG</color>. Each Sesshou Sakura within range transforms into one Tenko Thunderbolt.\\n\\n<i>Only at times like these will Yae reveal her Sky Kitsune form and wield lightning itself. None have seen the Lady Guuji's tails and lived to tell the story... so remember, as far as you are concerned, Lady Yae does not have a tail.</i>"
     }
   ],
   "passives": [
@@ -3015,8 +3197,8 @@
       "icon": "UI_Talent_S_Yae_05",
       "unlock": 1,
       "param_list": [
-        0,
-        0,
+        0.4,
+        0.5,
         0,
         0,
         0,
@@ -3035,7 +3217,9 @@
         0,
         0,
         0
-      ]
+      ],
+      "special": true,
+      "special_desc": "When <color=#FFD780FF>Great Secret Art: Tenko Kenshin</color> is unleashed, each Sesshou Sakura involved will reset the cooldown for one instance of <color=#FFD780FF>Yakan Evocation: Sesshou Sakura</color>.\\nWhen there are at least 3 Sesshou Sakura nearby at the same time, unleashing <color=#FFD780FF>Yakan Evocation: Sesshou Sakura</color> will cause Yae Miko to unleash an additional lightning strike which deals <color=#FFACFFFF>Electro DMG</color> at 40% of her ATK.\\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: The aforementioned additional lightning strike becomes an instance of <color=#FFACFFFF>Electro DMG</color> at 50% of Yae Miko's ATK instead. This DMG will also be considered Stellar-Conduct DMG."
     },
     {
       "id": 582201,
@@ -3094,6 +3278,40 @@
         0,
         0
       ]
+    },
+    {
+      "id": 585101,
+      "name": "Edict of Cleansing",
+      "desc": "Extends the duration of the Sesshou Sakura by 10s. When a nearby party member triggers a Superconduct or Stellar-Conduct reaction, the next instance of Sesshou Sakura lightning is enhanced as follows: DMG dealt is increased at 80% of Yae Miko's ATK. This effect can trigger once every 2.5s.\\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: An enhanced Sesshou Sakura lightning bolt hit on an opponent will also cause an additional instance of <color=#FFACFFFF>Electro DMG</color> at 200% of Yae Miko's ATK. This DMG is considered Stellar-Conduct DMG.\\nAdditionally, when inside a {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}, Yae Miko will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state.",
+      "icon": "UI_Talent_S_Yae_08",
+      "param_list": [
+        0.8,
+        2.5,
+        2,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unlock": [
+        7469804
+      ],
+      "special": true,
+      "special_passive": true,
+      "special_desc": ""
     }
   ],
   "constellations": [
@@ -3104,14 +3322,16 @@
       "icon": "UI_Talent_S_Yae_01",
       "param_list": [
         8,
-        0,
-        0,
+        0.5,
+        10,
         0,
         0,
         0,
         0,
         0
-      ]
+      ],
+      "special": true,
+      "special_desc": "Each time <color=#FFD780FF>Great Secret Art: Tenko Kenshin</color> activates a Tenko Thunderbolt, Yae Miko restores 8 Elemental Energy to herself. After Yae Miko triggers a Superconduct or Stellar-Conduct reaction, or deals Stellar-Conduct DMG, nearby party members will gain a 50% Electro DMG and Stellar-Conduct DMG Bonus for 10s. Triggering these reactions again will refresh the duration of the DMG bonuses."
     },
     {
       "id": 582,
@@ -3122,12 +3342,14 @@
         2.56,
         0.6,
         1,
-        0,
-        0,
-        0,
-        0,
+        60,
+        90,
+        120,
+        200,
         0
-      ]
+      ],
+      "special": true,
+      "special_desc": "<color=#FFD780FF>Sesshou Sakura</color> start at Level 2 when created, their max level is increased to 4, and their attack range is increased by 60%. Additionally, when there are Sesshou Sakura in the field, Yae Miko's and your current active character's Elemental Mastery will also be increased by 60/90/120/200 points, depending on the level of the Sesshou Sakura."
     },
     {
       "id": 583,
@@ -3153,13 +3375,15 @@
       "param_list": [
         0.2,
         5,
-        0,
-        0,
-        0,
+        8,
+        5,
+        1,
         0,
         0,
         0
-      ]
+      ],
+      "special": true,
+      "special_desc": "When <color=#FFD780FF>Sesshou Sakura</color> lightning hits opponents, the <color=#FFACFFFF>Electro DMG Bonus</color> of all nearby party members is increased by 20% for 5s, and Yae Miko regenerates 8 Elemental Energy. The aforementioned Elemental Energy recovery effect can trigger once every 5s. Additionally, Yae Miko's Elemental Burst DMG is increased by 100%."
     },
     {
       "id": 585,
@@ -3184,14 +3408,16 @@
       "icon": "UI_Talent_S_Yae_04",
       "param_list": [
         0.6,
-        0,
+        2,
         0,
         0,
         0,
         0,
         0,
         0
-      ]
+      ],
+      "special": true,
+      "special_desc": "<color=#FFD780FF>Sesshou Sakura's</color> attacks will ignore 60% of the opponents' DEF. The CRIT DMG of Yae Miko's Stellar-Conduct DMG is increased by 200%."
     }
   ],
   "materials": {
@@ -3922,5 +4148,493 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ExtraAttack_Bullet_Material",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Yae_ExtraAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 80
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ExtraAttack_Damage"
+    },
+    {
+      "name": "ExtraAttack_Bullet_Material",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Yae_ExtraAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 80
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ExtraAttack_Damage"
+    },
+    {
+      "name": "ExtraAttack_Bullet_Material",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Yae_ExtraAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 80
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ExtraAttack_Damage"
+    },
+    {
+      "name": "ExtraAttack_Bullet_Material",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Yae_ExtraAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 80
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ExtraAttack_Damage"
+    },
+    {
+      "name": "ExtraAttack_Bullet_Material",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Yae_ExtraAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 80
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ExtraAttack_Damage"
+    },
+    {
+      "name": "ExtraAttack_Bullet_Material",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Yae_ExtraAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 80
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ExtraAttack_Damage"
+    },
+    {
+      "name": "Attack01_Bullet_Material",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 7.436
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Attack01_Damage"
+    },
+    {
+      "name": "Attack02_Bullet_Material",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 7.222
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Attack02_Damage"
+    },
+    {
+      "name": "Attack03_Bullet_Material",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 10.667
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Attack03_Damage"
+    },
+    {
+      "name": "ElementalArt_Bullet_HasTarget_Material",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_Bullet_Damage"
+    },
+    {
+      "name": "ElementalArt_Bullet_Material",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_Bullet_Damage"
+    },
+    {
+      "name": "ElementalArt_Aim_Bullet_Material",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_Bullet_Damage"
+    },
+    {
+      "name": "ElementalArt_Bullet_Air_Material",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_Bullet_Damage"
+    },
+    {
+      "name": "FoxTower_ThunderFall_Level1",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FoxTower_Damage_Level_1"
+    },
+    {
+      "name": "FoxTower_ThunderFall_Level1",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FoxTower_Damage_Level_1"
+    },
+    {
+      "name": "FoxTower_ThunderFall_Level2",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FoxTower_Damage_Level_2"
+    },
+    {
+      "name": "FoxTower_ThunderFall_Level2",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FoxTower_Damage_Level_2"
+    },
+    {
+      "name": "FoxTower_ThunderFall_Level3",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FoxTower_Damage_Level_3"
+    },
+    {
+      "name": "FoxTower_ThunderFall_Level3",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FoxTower_Damage_Level_3"
+    },
+    {
+      "name": "FoxTower_ThunderFall_Level4",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FoxTower_Damage_Level_4"
+    },
+    {
+      "name": "FoxTower_ThunderFall_Level4",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FoxTower_Damage_Level_4"
+    },
+    {
+      "name": "ElementalBurst_TowerExplosion_Material",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 75
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "TowerExplosion_Damage"
+    },
+    {
+      "name": "ElementalBurst_TowerExplosion_Material",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 75
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "TowerExplosion_ExtraDamage"
+    },
+    {
+      "name": "ElementalBurst_TowerExplosion_Material",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 75
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "TowerExplosion_ExtraDamage"
+    },
+    {
+      "name": "ElementalBurst_TowerExplosion_Material",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 75
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "TowerExplosion_ExtraDamage"
+    },
+    {
+      "name": "PermanentSkill_3",
+      "icd": {
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "AS_Permanent3_ThunderDMG"
+    },
+    {
+      "name": "PermanentSkill_3",
+      "icd": {
+        "tag": "StarSuperconductorElectricDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Default"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementBall",
+      "skill": "ElementalArt_ElderBrain",
+      "kind": "ElementalArt",
+      "element": "Electro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "cd": 2.5,
+      "applications": 2,
+      "drop_id": 2020
+    }
+  ],
+  "special": true
 }

@@ -19689,7 +19689,7 @@
     "type": "Quest Item"
   },
   "100865": {
-    "name": "",
+    "name": "Mask of Memories",
     "desc": "Hanachirusato the shrine maiden used to wear this mask. It is deeply stained on the inside.\\nSome memories are contained inside, through which one may learn the art of creating the Catalyst known as \"Hakushin Ring.\"\\nNow that Hanachirusato has been separated from this mask, Paimon doesn't get to call her the \"Masked Maiden\" anymore, right?",
     "rank": 4,
     "icon": "UI_ItemIcon_221003",
@@ -49527,15 +49527,15 @@
     "type": "Food"
   },
   "108976": {
-    "name": "???",
-    "desc": "???",
+    "name": "Tea Party Polyphony",
+    "desc": "Sandrone's specialty. Appearing without fanfare at the tea party is an exquisitely crafted two-tiered assortment of pastries... Could she really have made this herself? Before the surprise in your eyes has time to fade, she folds her arms, turns slightly aside, and lifts her chin. \"Hah? What's that look for? They're only tea snacks. Hardly a challenge.\" A faint, delicate sweetness drifts through the air, as if silently backing up her claim. Well then, best not keep them waiting!",
     "rank": 3,
     "icon": "UI_ItemIcon_108880",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_FOOD",
     "jump_descs": [],
     "source_list": [
-      "???"
+      "Obtained by cooking"
     ],
     "title": "",
     "effect": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 1500s. In Co-Op Mode, this effect only applies to your own character(s).",
@@ -64884,8 +64884,8 @@
     "type": "Quest Item"
   },
   "120258": {
-    "name": "",
-    "desc": "",
+    "name": "？？？",
+    "desc": "？？？",
     "rank": 0,
     "icon": "UI_ItemIcon_120258",
     "item_type": "ITEM_MATERIAL",
@@ -64912,8 +64912,8 @@
     "type": "Quest Item"
   },
   "120260": {
-    "name": "",
-    "desc": "",
+    "name": "？？？",
+    "desc": "？？？",
     "rank": 0,
     "icon": "UI_ItemIcon_120001",
     "item_type": "ITEM_MATERIAL",
@@ -64926,8 +64926,8 @@
     "type": "Quest Item"
   },
   "120261": {
-    "name": "",
-    "desc": "",
+    "name": "？？？",
+    "desc": "？？？",
     "rank": 0,
     "icon": "UI_ItemIcon_120001",
     "item_type": "ITEM_MATERIAL",
@@ -64940,8 +64940,8 @@
     "type": "Quest Item"
   },
   "120262": {
-    "name": "",
-    "desc": "",
+    "name": "？？？",
+    "desc": "？？？",
     "rank": 0,
     "icon": "UI_ItemIcon_120001",
     "item_type": "ITEM_MATERIAL",
@@ -64954,8 +64954,8 @@
     "type": "Quest Item"
   },
   "120263": {
-    "name": "",
-    "desc": "",
+    "name": "？？？",
+    "desc": "？？？",
     "rank": 0,
     "icon": "UI_ItemIcon_120001",
     "item_type": "ITEM_MATERIAL",
@@ -64968,8 +64968,8 @@
     "type": "Quest Item"
   },
   "120264": {
-    "name": "",
-    "desc": "",
+    "name": "？？？",
+    "desc": "？？？",
     "rank": 0,
     "icon": "UI_ItemIcon_120001",
     "item_type": "ITEM_MATERIAL",
@@ -64982,8 +64982,8 @@
     "type": "Quest Item"
   },
   "120265": {
-    "name": "",
-    "desc": "",
+    "name": "？？？",
+    "desc": "？？？",
     "rank": 0,
     "icon": "UI_ItemIcon_120001",
     "item_type": "ITEM_MATERIAL",
@@ -64996,8 +64996,8 @@
     "type": "Quest Item"
   },
   "120266": {
-    "name": "",
-    "desc": "",
+    "name": "？？？",
+    "desc": "？？？",
     "rank": 0,
     "icon": "UI_ItemIcon_120001",
     "item_type": "ITEM_MATERIAL",
@@ -65010,8 +65010,8 @@
     "type": "Quest Item"
   },
   "120267": {
-    "name": "",
-    "desc": "",
+    "name": "？？？",
+    "desc": "？？？",
     "rank": 0,
     "icon": "UI_ItemIcon_120001",
     "item_type": "ITEM_MATERIAL",
@@ -65024,8 +65024,8 @@
     "type": "Quest Item"
   },
   "120268": {
-    "name": "",
-    "desc": "",
+    "name": "？？？",
+    "desc": "？？？",
     "rank": 0,
     "icon": "UI_ItemIcon_120001",
     "item_type": "ITEM_MATERIAL",
@@ -65038,8 +65038,8 @@
     "type": "Quest Item"
   },
   "120269": {
-    "name": "",
-    "desc": "",
+    "name": "？？？",
+    "desc": "？？？",
     "rank": 0,
     "icon": "UI_ItemIcon_120001",
     "item_type": "ITEM_MATERIAL",
@@ -65052,8 +65052,8 @@
     "type": "Quest Item"
   },
   "120270": {
-    "name": "",
-    "desc": "",
+    "name": "？？？",
+    "desc": "？？？",
     "rank": 0,
     "icon": "UI_ItemIcon_120001",
     "item_type": "ITEM_MATERIAL",
@@ -65066,8 +65066,8 @@
     "type": "Quest Item"
   },
   "120271": {
-    "name": "",
-    "desc": "",
+    "name": "？？？",
+    "desc": "？？？",
     "rank": 0,
     "icon": "UI_ItemIcon_120001",
     "item_type": "ITEM_MATERIAL",
@@ -65080,8 +65080,8 @@
     "type": "Quest Item"
   },
   "120272": {
-    "name": "",
-    "desc": "",
+    "name": "？？？",
+    "desc": "？？？",
     "rank": 0,
     "icon": "UI_ItemIcon_120001",
     "item_type": "ITEM_MATERIAL",
@@ -65431,7 +65431,7 @@
   },
   "120297": {
     "name": "Food and Lodging Arrangements",
-    "desc": "",
+    "desc": "？？？",
     "rank": 0,
     "icon": "UI_ItemIcon_100721",
     "item_type": "ITEM_MATERIAL",
@@ -79043,7 +79043,7 @@
   },
   "121291": {
     "name": "Scribbled Notes",
-    "desc": "???",
+    "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_100226",
     "item_type": "ITEM_MATERIAL",
@@ -79057,7 +79057,7 @@
   },
   "121292": {
     "name": "Beautifully-Written Notes",
-    "desc": "???",
+    "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_100226",
     "item_type": "ITEM_MATERIAL",
@@ -79840,8 +79840,8 @@
     "type": "Quest Item"
   },
   "121348": {
-    "name": "???",
-    "desc": "???",
+    "name": "",
+    "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_121146",
     "item_type": "ITEM_MATERIAL",
@@ -79854,8 +79854,8 @@
     "type": "Quest Item"
   },
   "121349": {
-    "name": "???",
-    "desc": "???",
+    "name": "",
+    "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_121146",
     "item_type": "ITEM_MATERIAL",
@@ -80599,7 +80599,7 @@
   },
   "121402": {
     "name": "Half-Burned Page",
-    "desc": "???",
+    "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_71700047",
     "item_type": "ITEM_MATERIAL",
@@ -80781,7 +80781,7 @@
   },
   "121418": {
     "name": "Scribbled Letter",
-    "desc": "???",
+    "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_71700047",
     "item_type": "ITEM_MATERIAL",
@@ -82708,8 +82708,8 @@
     "type": "Quest Item"
   },
   "121577": {
-    "name": "???",
-    "desc": "???",
+    "name": "",
+    "desc": "",
     "rank": 4,
     "icon": "UI_ItemIcon_121574",
     "item_type": "ITEM_MATERIAL",
@@ -82722,8 +82722,8 @@
     "type": "Quest Item"
   },
   "121578": {
-    "name": "???",
-    "desc": "???",
+    "name": "",
+    "desc": "",
     "rank": 4,
     "icon": "UI_ItemIcon_121574",
     "item_type": "ITEM_MATERIAL",
@@ -82736,8 +82736,8 @@
     "type": "Quest Item"
   },
   "121579": {
-    "name": "???",
-    "desc": "???",
+    "name": "",
+    "desc": "",
     "rank": 4,
     "icon": "UI_ItemIcon_121574",
     "item_type": "ITEM_MATERIAL",
@@ -82834,8 +82834,8 @@
     "type": "Quest Item"
   },
   "121596": {
-    "name": "???",
-    "desc": "???",
+    "name": "Sandrone's Tea Party Invitation Letter",
+    "desc": "A tea party invitation letter sent by Sandrone. The invitation is delicately patterned with exquisite handwriting. Is this what one calls a lady's elegance?",
     "rank": 0,
     "icon": "UI_ItemIcon_121596",
     "item_type": "ITEM_MATERIAL",
@@ -82912,9 +82912,9 @@
     "type": "Adventure Item"
   },
   "121606": {
-    "name": "???",
-    "desc": "???",
-    "rank": 0,
+    "name": "\"Family Portrait\" by Mamere",
+    "desc": "A family portrait that Mamere painted for her \"family members\" at a tea party hosted by Sandrone. Its warm and distinctive brushwork differs somewhat from her previous paintings, suggesting that, as she said, she has been trying her hand at all sorts of different styles during her travels.",
+    "rank": 4,
     "icon": "UI_ItemIcon_121606",
     "item_type": "ITEM_MATERIAL",
     "material_type": "MATERIAL_QUEST",
@@ -82926,8 +82926,8 @@
     "type": "Quest Item"
   },
   "121609": {
-    "name": "???",
-    "desc": "???",
+    "name": "Alain Guillotin's Epitaph",
+    "desc": "",
     "rank": 0,
     "icon": "UI_ItemIcon_100003",
     "item_type": "ITEM_MATERIAL",
@@ -82941,7 +82941,7 @@
   },
   "121625": {
     "name": "Moongazer's Engraving (I)",
-    "desc": "???",
+    "desc": "An ancient stone tablet discovered on the moon. Though the writing upon it is completely indecipherable, for some reason, anyone who reads it can understand its meaning in their native tongue.",
     "rank": 3,
     "icon": "UI_ItemIcon_121625",
     "item_type": "ITEM_MATERIAL",
@@ -82955,7 +82955,7 @@
   },
   "121626": {
     "name": "Moongazer's Engraving (II)",
-    "desc": "???",
+    "desc": "An ancient stone tablet discovered on the moon. Though the writing upon it is completely indecipherable, for some reason, anyone who reads it can understand its meaning in their native tongue.",
     "rank": 3,
     "icon": "UI_ItemIcon_121625",
     "item_type": "ITEM_MATERIAL",
@@ -93627,8 +93627,8 @@
     "type": ""
   },
   "210284": {
-    "name": "???",
-    "desc": "???",
+    "name": "Sandrone: Tea Break",
+    "desc": "Namecard style.\\nSandrone may have learned to enjoy tea parties from Alain. In those days, even a tea break for two never felt dull. But later, when there were finally enough people for a proper tea party, they left one after another. And in their absence, she seemed to come a little closer to the loneliness Alain had known.",
     "rank": 4,
     "icon": "UI_NameCardIcon_MarionetteNew",
     "item_type": "ITEM_MATERIAL",
@@ -95889,8 +95889,8 @@
     "type": "Gadget"
   },
   "220132": {
-    "name": "???",
-    "desc": "???",
+    "name": "Sandrone's Portable Tea Table",
+    "desc": "A portable tea table gifted to you by Sandrone. Easy to carry and store, and even fitted with a levitation device. With this, you can enjoy a leisurely tea party almost anywhere.",
     "rank": 4,
     "icon": "UI_ItemIcon_220132",
     "item_type": "ITEM_MATERIAL",
@@ -95903,8 +95903,8 @@
     "type": "Gadget"
   },
   "220134": {
-    "name": "???",
-    "desc": "???",
+    "name": "Witch's Revelation Case",
+    "desc": "The case Barbeloth once carried has found its way into your possession. Within it sleep all the oracles, both those already revealed and those yet to open their eyes. Whether their words may one day steer the course of fate... Barbeloth would only say this: \"Hehehe... The true colors of fate are never meant to be revealed lightly. Besides, a future with secrets yet to unfold is far more delightful, would you not agree?\"",
     "rank": 5,
     "icon": "UI_ItemIcon_220134",
     "item_type": "ITEM_MATERIAL",
@@ -126765,32 +126765,34 @@
     "type": ""
   },
   "340028": {
-    "name": "???",
-    "desc": "???",
-    "rank": 2,
-    "icon": "UI_ItemIcon_100001",
+    "name": "Whispers of Stars and Smoke",
+    "desc": "Citlali's outfit. When at home, Citlali will sometimes change into attire brimming with girlish charm. At such times, anyone troubling her with official duties has promptly come under heavy attack. Thus, this outfit has become a baleful thing, a subject of fearful rumor that all give a wide berth.",
+    "rank": 4,
+    "icon": "UI_AvatarIcon_CitlaliCostumeXia_Card",
     "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_AVATAR_MATERIAL",
-    "jump_descs": [],
+    "material_type": "MATERIAL_COSTUME",
+    "jump_descs": [
+      "Purchased from the Shop"
+    ],
     "source_list": [],
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Character Talent Material"
+    "type": ""
   },
   "340029": {
-    "name": "???",
-    "desc": "???",
-    "rank": 2,
-    "icon": "UI_ItemIcon_100001",
+    "name": "Hurlock Variations",
+    "desc": "Charlotte's outfit. Once used as a filming costume for Great Detective Hurlock, this outfit was presented to Charlotte by the production crew as a keepsake after the shoot concluded.",
+    "rank": 4,
+    "icon": "UI_AvatarIcon_CharlotteCostumeDong_Card",
     "item_type": "ITEM_MATERIAL",
-    "material_type": "MATERIAL_AVATAR_MATERIAL",
+    "material_type": "MATERIAL_COSTUME",
     "jump_descs": [],
     "source_list": [],
     "title": "",
     "effect": "",
     "special": "",
-    "type": "Character Talent Material"
+    "type": ""
   },
   "341001": {
     "name": "Radiant Phantasm",
@@ -129833,8 +129835,8 @@
     "type": "Furnishing Blueprint"
   },
   "380482": {
-    "name": "Standing Street Lamp: Beacon in the Misty Night",
-    "desc": "A detailed step-by-step blueprint for making a \"Standing Street Lamp: Beacon in the Misty Night.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "name": "Movable Small Spotlight",
+    "desc": "A detailed step-by-step blueprint for making \"Movable Small Spotlight.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -129847,8 +129849,8 @@
     "type": "Furnishing Blueprint"
   },
   "380483": {
-    "name": "Movable Small Spotlight",
-    "desc": "A detailed step-by-step blueprint for making \"Movable Small Spotlight.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "name": "Standing Street Lamp: Beacon in the Misty Night",
+    "desc": "A detailed step-by-step blueprint for making a \"Standing Street Lamp: Beacon in the Misty Night.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -131163,8 +131165,8 @@
     "type": "Furnishing Blueprint"
   },
   "381348": {
-    "name": "???",
-    "desc": "A detailed step-by-step blueprint for making \"???.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "name": "Tea Party Dining Table: The Perfect Gathering",
+    "desc": "A detailed step-by-step blueprint for making \"Tea Party Dining Table: The Perfect Gathering.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -131961,8 +131963,8 @@
     "type": "Furnishing Blueprint"
   },
   "382135": {
-    "name": "???",
-    "desc": "A detailed step-by-step blueprint for making \"???.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "name": "Tea Party Chair: Crimson and Gold",
+    "desc": "A detailed step-by-step blueprint for making a \"Tea Party Chair: Crimson and Gold.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -133235,8 +133237,8 @@
     "type": "Furnishing Blueprint"
   },
   "382324": {
-    "name": "???",
-    "desc": "A detailed step-by-step blueprint for making \"???.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "name": "Tea Party Carpet: Soft to the Touch",
+    "desc": "A detailed step-by-step blueprint for making \"Tea Party Carpet: Soft to the Touch.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -134355,8 +134357,8 @@
     "type": "Furnishing Blueprint"
   },
   "383397": {
-    "name": "???",
-    "desc": "A detailed step-by-step blueprint for making \"???.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "name": "Tea Party Cart: Dessert Time",
+    "desc": "A detailed step-by-step blueprint for making \"Tea Party Cart: Dessert Time.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 4,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -134579,8 +134581,8 @@
     "type": "Furnishing Blueprint"
   },
   "383416": {
-    "name": "???",
-    "desc": "A detailed step-by-step blueprint for making \"???.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "name": "Tea Party Cup: Refreshing Flavor",
+    "desc": "A detailed step-by-step blueprint for making \"Tea Party Cup: Refreshing Flavor.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",
@@ -146983,8 +146985,8 @@
     "type": "Furnishing Blueprint"
   },
   "394842": {
-    "name": "???",
-    "desc": "A detailed step-by-step blueprint for making \"???.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "name": "Infinite Recursion Formula",
+    "desc": "A detailed step-by-step blueprint for making \"Infinite Recursion Formula.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "rank": 3,
     "icon": "UI_ItemIcon_Home_Common",
     "item_type": "ITEM_MATERIAL",

@@ -2148,6 +2148,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2186,6 +2190,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2236,6 +2244,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2274,6 +2286,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2324,6 +2340,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2362,6 +2382,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2412,6 +2436,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2450,6 +2478,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2500,6 +2532,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2538,6 +2574,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2588,6 +2628,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2626,6 +2670,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2676,6 +2724,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2720,6 +2772,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2758,6 +2814,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2815,6 +2875,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2849,6 +2913,10 @@
             "Scorching Threshold|{param3:F1P}",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2903,6 +2971,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2937,6 +3009,10 @@
             "Scorching Threshold|{param3:F1P}",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2991,6 +3067,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3025,6 +3105,10 @@
             "Scorching Threshold|{param3:F1P}",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3079,6 +3163,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3113,6 +3201,10 @@
             "Scorching Threshold|{param3:F1P}",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3167,6 +3259,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3201,6 +3297,10 @@
             "Scorching Threshold|{param3:F1P}",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3255,6 +3355,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3289,6 +3393,10 @@
             "Scorching Threshold|{param3:F1P}",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3343,6 +3451,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3387,6 +3499,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3421,6 +3537,10 @@
             "Scorching Threshold|{param3:F1P}",
             "Nightsoul Point Limit|{param4:F1}",
             "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3482,6 +3602,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3514,6 +3638,10 @@
             "Skill DMG|{param1:F1P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3570,6 +3698,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3602,6 +3734,10 @@
             "Skill DMG|{param1:F1P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3658,6 +3794,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3690,6 +3830,10 @@
             "Skill DMG|{param1:F1P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3746,6 +3890,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3778,6 +3926,10 @@
             "Skill DMG|{param1:F1P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3834,6 +3986,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3866,6 +4022,10 @@
             "Skill DMG|{param1:F1P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3922,6 +4082,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3954,6 +4118,10 @@
             "Skill DMG|{param1:F1P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -4010,6 +4178,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -4054,6 +4226,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -4086,6 +4262,10 @@
             "Skill DMG|{param1:F1P}",
             "CD|{param2:F1}s",
             "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -4982,5 +5162,697 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ElementalArt_Click_Attack",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "EArtClickAttack"
+    },
+    {
+      "name": "ElementalArt_Click_Attack",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "EArtClickAttack"
+    },
+    {
+      "name": "ElementalArt_Fire_Hold_Attack",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 60
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "EArtChargeAttack_Start"
+    },
+    {
+      "name": "Player_Fire_ElementalArt_Hold_Bullet",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 40
+      },
+      "element": "Fire",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "EArtChargeAttack"
+    },
+    {
+      "name": "Player_Fire_ElementalArt_Hold_Bullet",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 40
+      },
+      "element": "Fire",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "EArtChargeAttack"
+    },
+    {
+      "name": "Fire_ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "BurstAttack"
+    },
+    {
+      "name": "Fire_ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "BurstAttack"
+    },
+    {
+      "name": "Fire_CrimsonPlum_Attack01",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 40.5
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": 0.44
+    },
+    {
+      "name": "Fire_CrimsonPlum_Attack02",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 39.6
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": 0.44
+    },
+    {
+      "name": "Fire_CrimsonPlum_Attack03",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 48.6
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": 0.54
+    },
+    {
+      "name": "Fire_CrimsonPlum_Attack04",
+      "icd": {
+        "tag": "NormalAttack_04",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 54
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": 0.6
+    },
+    {
+      "name": "Fire_CrimsonPlum_Attack05",
+      "icd": {
+        "tag": "NormalAttack_05",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV6",
+        "value": 64.8
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": 0.72
+    },
+    {
+      "name": "Fire_CrimsonPlum_ExtraAttack_1",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50.6
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": 0.5
+    },
+    {
+      "name": "Fire_CrimsonPlum_ExtraAttack_2",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV6",
+        "value": 50.6
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": 0.5
+    },
+    {
+      "name": "Fire_CrimsonPlum_FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "Fire_CrimsonPlum_FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "Fire_CrimsonPlum_Attack01",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 41.4
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": 0.46
+    },
+    {
+      "name": "Fire_CrimsonPlum_Attack02",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 43.2
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": 0.48
+    },
+    {
+      "name": "Fire_CrimsonPlum_Attack03",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 53.1
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": 0.59
+    },
+    {
+      "name": "Fire_CrimsonPlum_Attack04",
+      "icd": {
+        "tag": "NormalAttack_04",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 57.6
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": 0.64
+    },
+    {
+      "name": "Fire_CrimsonPlum_Attack05",
+      "icd": {
+        "tag": "NormalAttack_05",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV6",
+        "value": 70.2
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": 0.78
+    },
+    {
+      "name": "Fire_CrimsonPlum_ExtraAttack_1",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50.6
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": 0.5
+    },
+    {
+      "name": "Fire_CrimsonPlum_ExtraAttack_2",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV6",
+        "value": 50.6
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": 0.5
+    },
+    {
+      "name": "Fire_CrimsonPlum_FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "Fire_CrimsonPlum_FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "Player_Fire_FlameWaveBullet_NormalAttack_01",
+      "icd": {
+        "tag": "PlayerFire_FlameWaveBullet",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 15
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "Player_Fire_FlameWaveBullet_NormalAttack_02",
+      "icd": {
+        "tag": "PlayerFire_FlameWaveBullet",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 15
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "Player_Fire_FlameWaveBullet_NormalAttack_03",
+      "icd": {
+        "tag": "PlayerFire_FlameWaveBullet",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 15
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "Player_Fire_FlameWaveBullet_NormalAttack_04",
+      "icd": {
+        "tag": "PlayerFire_FlameWaveBullet",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 15
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "Player_Fire_FlameWaveBullet_NormalAttack_05",
+      "icd": {
+        "tag": "PlayerFire_FlameWaveBullet",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 15
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "Player_Fire_FlameWaveBullet_ExtraAttack_01",
+      "icd": {
+        "tag": "PlayerFire_FlameWaveBullet",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 15
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "Player_Fire_FlameWaveBullet_ExtraAttack_02",
+      "icd": {
+        "tag": "PlayerFire_FlameWaveBullet",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 15
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "Player_Fire_FlameWaveBullet_ExtraAttack_03",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 15
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "PlayerGirl_Fire_FlameWaveBullet_NormalAttack_01",
+      "icd": {
+        "tag": "PlayerFire_FlameWaveBullet",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 15
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "PlayerGirl_Fire_FlameWaveBullet_NormalAttack_02",
+      "icd": {
+        "tag": "PlayerFire_FlameWaveBullet",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 15
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "PlayerGirl_Fire_FlameWaveBullet_NormalAttack_03",
+      "icd": {
+        "tag": "PlayerFire_FlameWaveBullet",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 15
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "PlayerGirl_Fire_FlameWaveBullet_NormalAttack_04",
+      "icd": {
+        "tag": "PlayerFire_FlameWaveBullet",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 15
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "PlayerGirl_Fire_FlameWaveBullet_NormalAttack_05",
+      "icd": {
+        "tag": "PlayerFire_FlameWaveBullet",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 15
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "PlayerGirl_Fire_FlameWaveBullet_ExtraAttack_01",
+      "icd": {
+        "tag": "PlayerFire_FlameWaveBullet",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 15
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "PlayerGirl_Fire_FlameWaveBullet_ExtraAttack_02",
+      "icd": {
+        "tag": "PlayerFire_FlameWaveBullet",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 15
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "EnhancedExtraAttack",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50.6
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": [
+        "ExtraAttack_Enhanced_1_BaseDamagePercentage",
+        "ExtraAttack_Enhanced_ratio",
+        "ADD"
+      ]
+    },
+    {
+      "name": "EnhancedExtraAttack",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50.6
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": [
+        "ExtraAttack_Enhanced_2_BaseDamagePercentage",
+        "ExtraAttack_Enhanced_ratio",
+        "ADD"
+      ]
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElemBall_DropBall_Charge",
+      "skill": "ElementalArt_Fire_ElemBall",
+      "kind": "ElementalArt",
+      "element": "Pyro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "cd": 2.9,
+      "applications": 1,
+      "drop_id": 2017
+    },
+    {
+      "name": "ElemBall_DropBall_Click",
+      "skill": "ElementalArt_Fire_ElemBall",
+      "kind": "ElementalArt",
+      "element": "Pyro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "cd": 2.9,
+      "applications": 1,
+      "drop_id": 2017
+    }
+  ]
 }

@@ -3287,7 +3287,7 @@
     {
       "id": 395101,
       "name": "Choice Treasures",
-      "desc": "Within 20s after using the Elemental Skill <color=#FFD780FF>Icy Paws</color>, Diona will also fire off three <color=#FFD780FF>Icy Paws</color> when party members trigger Superconduct, Stellar-Conduct, or Cryo Swirl reactions. <color=#FFD780FF>Icy Paws</color> fired this way cannot generate Elemental Particles, nor will they generate a shield upon hitting opponents. This effect can occur once every 3.5s.\\nAdditionally, when inside a {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}, Diona will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state.",
+      "desc": "Within 20s after using the Elemental Skill <color=#FFD780FF>Icy Paws</color>, Diona will also fire off three <color=#FFD780FF>Icy Paws</color> when party members trigger Superconduct or Stellar-Conduct reactions. <color=#FFD780FF>Icy Paws</color> fired this way cannot generate Elemental Particles, nor will they generate a shield upon hitting opponents. This effect can occur once every 3.5s.\\nAdditionally, when inside a {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}, Diona will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state.",
       "icon": "UI_Talent_S_Diona_08",
       "param_list": [
         20,
@@ -3312,7 +3312,7 @@
         0
       ],
       "unlock": [
-        39604
+        7469204
       ],
       "special": true,
       "special_passive": true,
@@ -3416,7 +3416,7 @@
         0
       ],
       "special": true,
-      "special_desc": "Characters within <color=#FFD780FF>Signature Mix</color>'s radius gain the following effects based on their HP levels:\\n· The Incoming Healing Bonus is increased by 30% when HP is at, or lower than, 50%.\\n· Elemental Mastery is increased by 200 when HP is above 50%.\\n\\nAdditionally, Diona's Max HP is increased by 25%. \\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: Characters within <color=#FFD780FF>Signature Mix</color>'s radius deal 40% increased Superconduct, Stellar-Conduct, and Cryo Swirl Reaction DMG."
+      "special_desc": "Characters within <color=#FFD780FF>Signature Mix</color>'s radius gain the following effects based on their HP levels:\\n· The Incoming Healing Bonus is increased by 30% when HP is at, or lower than, 50%.\\n· Elemental Mastery is increased by 200 when HP is above 50%.\\n\\nAdditionally, Diona's Max HP is increased by 25%.\\n\\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: Characters within <color=#FFD780FF>Signature Mix</color>'s radius deal 40% increased Superconduct and Stellar-Conduct Reaction DMG."
     }
   ],
   "materials": {
@@ -3433,7 +3433,7 @@
             "name": "Calla Lily",
             "id": 100056,
             "count": 3,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Firm Arrowhead",
@@ -3462,7 +3462,7 @@
             "name": "Calla Lily",
             "id": 100056,
             "count": 10,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Firm Arrowhead",
@@ -3491,7 +3491,7 @@
             "name": "Calla Lily",
             "id": 100056,
             "count": 20,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Sharp Arrowhead",
@@ -3520,7 +3520,7 @@
             "name": "Calla Lily",
             "id": 100056,
             "count": 30,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Sharp Arrowhead",
@@ -3549,7 +3549,7 @@
             "name": "Calla Lily",
             "id": 100056,
             "count": 45,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Weathered Arrowhead",
@@ -3578,7 +3578,7 @@
             "name": "Calla Lily",
             "id": 100056,
             "count": 60,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Weathered Arrowhead",

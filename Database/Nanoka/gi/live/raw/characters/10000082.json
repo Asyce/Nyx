@@ -998,6 +998,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1035,6 +1039,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1086,6 +1094,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1123,6 +1135,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1174,6 +1190,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1211,6 +1231,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1262,6 +1286,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1299,6 +1327,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1350,6 +1382,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1387,6 +1423,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1438,6 +1478,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1475,6 +1519,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1526,6 +1574,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1570,6 +1622,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1607,6 +1663,10 @@
             "Charged Attack Stamina Cost|{param6:F1}",
             "Plunge DMG|{param7:F1P}",
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1665,6 +1725,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1697,6 +1761,10 @@
             "Skill DMG|{param1:F1P}",
             "Healing|{param2:F2P} Max HP+{param3:I}",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1753,6 +1821,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1785,6 +1857,10 @@
             "Skill DMG|{param1:F1P}",
             "Healing|{param2:F2P} Max HP+{param3:I}",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1841,6 +1917,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1873,6 +1953,10 @@
             "Skill DMG|{param1:F1P}",
             "Healing|{param2:F2P} Max HP+{param3:I}",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1929,6 +2013,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1961,6 +2049,10 @@
             "Skill DMG|{param1:F1P}",
             "Healing|{param2:F2P} Max HP+{param3:I}",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2017,6 +2109,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2049,6 +2145,10 @@
             "Skill DMG|{param1:F1P}",
             "Healing|{param2:F2P} Max HP+{param3:I}",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2105,6 +2205,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2137,6 +2241,10 @@
             "Skill DMG|{param1:F1P}",
             "Healing|{param2:F2P} Max HP+{param3:I}",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2193,6 +2301,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2237,6 +2349,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2269,6 +2385,10 @@
             "Skill DMG|{param1:F1P}",
             "Healing|{param2:F2P} Max HP+{param3:I}",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2332,6 +2452,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2368,6 +2492,10 @@
             "Pulsing Clarity Duration|{param8:F1}s",
             "CD|{param9:F1}s",
             "Energy Cost|{param10:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2420,6 +2548,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2456,6 +2588,10 @@
             "Pulsing Clarity Duration|{param8:F1}s",
             "CD|{param9:F1}s",
             "Energy Cost|{param10:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2508,6 +2644,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2544,6 +2684,10 @@
             "Pulsing Clarity Duration|{param8:F1}s",
             "CD|{param9:F1}s",
             "Energy Cost|{param10:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2596,6 +2740,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2632,6 +2780,10 @@
             "Pulsing Clarity Duration|{param8:F1}s",
             "CD|{param9:F1}s",
             "Energy Cost|{param10:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2684,6 +2836,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2720,6 +2876,10 @@
             "Pulsing Clarity Duration|{param8:F1}s",
             "CD|{param9:F1}s",
             "Energy Cost|{param10:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2772,6 +2932,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2808,6 +2972,10 @@
             "Pulsing Clarity Duration|{param8:F1}s",
             "CD|{param9:F1}s",
             "Energy Cost|{param10:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2860,6 +3028,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2904,6 +3076,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2940,6 +3116,10 @@
             "Pulsing Clarity Duration|{param8:F1}s",
             "CD|{param9:F1}s",
             "Energy Cost|{param10:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3891,5 +4071,221 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ExtraAttack_Gadget",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 80
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "ExtraAttack_Damage"
+    },
+    {
+      "name": "Attack01",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 7.2801
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_01_Damage"
+    },
+    {
+      "name": "Attack02",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 6.9396
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_02_Damage"
+    },
+    {
+      "name": "Attack03",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 4.2913
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_03_Damage"
+    },
+    {
+      "name": "Attack04",
+      "icd": {
+        "tag": "NormalAttack_04",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 10.3056
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_04_Damage"
+    },
+    {
+      "name": "ElementalArt_Bullet_01_Material",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Baizhuer_ElementalArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_Damage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV3",
+        "value": 200
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalBurst_Bullet_Material",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 50
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Damage"
+    },
+    {
+      "name": "ElementalArt_Bullet_03_Material",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Baizhuer_Talent"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Damage_Ratio"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "Ball",
+      "skill": "ElementalArt_Bullet_01_Material",
+      "kind": "ElementalArt",
+      "element": "Dendro",
+      "per_drop": 1,
+      "lifetime": 9,
+      "chance": 100,
+      "cd": 1,
+      "applications": 1,
+      "drop_id": 2019
+    },
+    {
+      "name": "Ball",
+      "skill": "ElementalArt_Bullet_01_Material",
+      "kind": "ElementalArt",
+      "element": "Dendro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 50,
+      "cd": 1,
+      "applications": 1,
+      "drop_id": 2019
+    }
+  ]
 }

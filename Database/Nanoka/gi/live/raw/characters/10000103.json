@@ -971,6 +971,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1011,6 +1015,10 @@
             "Blade Roller 2-Hit DMG|{param11:F1P} DEF",
             "Blade Roller 3-Hit DMG|{param12:F1P} DEF",
             "Blade Roller 4-Hit DMG|{param13:F1P} DEF",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1059,6 +1067,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1099,6 +1111,10 @@
             "Blade Roller 2-Hit DMG|{param11:F1P} DEF",
             "Blade Roller 3-Hit DMG|{param12:F1P} DEF",
             "Blade Roller 4-Hit DMG|{param13:F1P} DEF",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1147,6 +1163,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1187,6 +1207,10 @@
             "Blade Roller 2-Hit DMG|{param11:F1P} DEF",
             "Blade Roller 3-Hit DMG|{param12:F1P} DEF",
             "Blade Roller 4-Hit DMG|{param13:F1P} DEF",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1235,6 +1259,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1275,6 +1303,10 @@
             "Blade Roller 2-Hit DMG|{param11:F1P} DEF",
             "Blade Roller 3-Hit DMG|{param12:F1P} DEF",
             "Blade Roller 4-Hit DMG|{param13:F1P} DEF",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1323,6 +1355,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1363,6 +1399,10 @@
             "Blade Roller 2-Hit DMG|{param11:F1P} DEF",
             "Blade Roller 3-Hit DMG|{param12:F1P} DEF",
             "Blade Roller 4-Hit DMG|{param13:F1P} DEF",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1411,6 +1451,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1451,6 +1495,10 @@
             "Blade Roller 2-Hit DMG|{param11:F1P} DEF",
             "Blade Roller 3-Hit DMG|{param12:F1P} DEF",
             "Blade Roller 4-Hit DMG|{param13:F1P} DEF",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1499,6 +1547,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1543,6 +1595,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1583,6 +1639,10 @@
             "Blade Roller 2-Hit DMG|{param11:F1P} DEF",
             "Blade Roller 3-Hit DMG|{param12:F1P} DEF",
             "Blade Roller 4-Hit DMG|{param13:F1P} DEF",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1638,6 +1698,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1673,6 +1737,10 @@
             "Nightsoul Point Time Limit|{param4:F1}s",
             "Nightsoul Point Limit|{param5:F1}",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1726,6 +1794,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1761,6 +1833,10 @@
             "Nightsoul Point Time Limit|{param4:F1}s",
             "Nightsoul Point Limit|{param5:F1}",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1814,6 +1890,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1849,6 +1929,10 @@
             "Nightsoul Point Time Limit|{param4:F1}s",
             "Nightsoul Point Limit|{param5:F1}",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1902,6 +1986,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1937,6 +2025,10 @@
             "Nightsoul Point Time Limit|{param4:F1}s",
             "Nightsoul Point Limit|{param5:F1}",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1990,6 +2082,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2025,6 +2121,10 @@
             "Nightsoul Point Time Limit|{param4:F1}s",
             "Nightsoul Point Limit|{param5:F1}",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2078,6 +2178,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2113,6 +2217,10 @@
             "Nightsoul Point Time Limit|{param4:F1}s",
             "Nightsoul Point Limit|{param5:F1}",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2166,6 +2274,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2210,6 +2322,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2245,6 +2361,10 @@
             "Nightsoul Point Time Limit|{param4:F1}s",
             "Nightsoul Point Limit|{param5:F1}",
             "CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2305,6 +2425,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2340,6 +2464,10 @@
             "Follow-Up Beat DMG|{param5:F1P} DEF",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2393,6 +2521,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2428,6 +2560,10 @@
             "Follow-Up Beat DMG|{param5:F1P} DEF",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2481,6 +2617,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2516,6 +2656,10 @@
             "Follow-Up Beat DMG|{param5:F1P} DEF",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2569,6 +2713,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2604,6 +2752,10 @@
             "Follow-Up Beat DMG|{param5:F1P} DEF",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2657,6 +2809,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2692,6 +2848,10 @@
             "Follow-Up Beat DMG|{param5:F1P} DEF",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2745,6 +2905,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2780,6 +2944,10 @@
             "Follow-Up Beat DMG|{param5:F1P} DEF",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2833,6 +3001,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2877,6 +3049,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2912,6 +3088,10 @@
             "Follow-Up Beat DMG|{param5:F1P} DEF",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3893,5 +4073,237 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "NyxState_Attack",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 52.8
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "NyxState_Attack_01_Damage"
+    },
+    {
+      "name": "NyxState_Attack",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 51.9
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "NyxState_Attack_02_Damage"
+    },
+    {
+      "name": "NyxState_Attack",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 62.1
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "NyxState_Attack_03_Damage"
+    },
+    {
+      "name": "NyxState_Attack",
+      "icd": {
+        "tag": "NormalAttack_04",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 81.1
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "NyxState_Attack_04_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Slash"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt"
+    },
+    {
+      "name": "ElementalBurst_Gadget_DamageField",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 75
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "Elemental_Burst_01_Damage"
+    },
+    {
+      "name": "ElementalBurst_Gadget_DamageField",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 75
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "Elemental_Burst_01_Damage"
+    },
+    {
+      "name": "ElementalBurst_Gadget_DamageField",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 75
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "Elemental_Burst_02_Damage"
+    },
+    {
+      "name": "ElementalBurst_Gadget_DamageField",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 75
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "Elemental_Burst_02_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementalArt_DropBall",
+      "skill": "NyxState_Attack",
+      "kind": "ElementalArt",
+      "element": "Geo",
+      "per_drop": 1,
+      "lifetime": 12,
+      "chance": 100,
+      "cd": 0.5,
+      "applications": 1,
+      "drop_id": 2023
+    }
+  ]
 }

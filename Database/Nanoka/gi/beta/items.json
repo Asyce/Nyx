@@ -1403,7 +1403,7 @@
   },
   {
     "id": "196",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Venue Popularity",
     "rarity": 3,
     "type": "ITEM_VIRTUAL",
@@ -1412,6 +1412,7 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_196.webp"
     },
     "liveComparison": {
+      "liveHash": "2fea05b91f1b3d46a9636d302e223a47c972cbacfc6986dbdccebce4954ce20b",
       "currentHash": "2fea05b91f1b3d46a9636d302e223a47c972cbacfc6986dbdccebce4954ce20b"
     }
   },
@@ -6001,7 +6002,7 @@
   },
   {
     "id": "4129",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Lohen",
     "rarity": 5,
     "type": "Unlocks the associated character",
@@ -6010,7 +6011,7 @@
       "icon": "Nanoka/gi/assets/items/UI_AvatarIcon_Lohen_Card.webp"
     },
     "liveComparison": {
-      "liveHash": "d95a480622acdd1785bd6bf7e1476b44a9f40b0ab0bfd6c1f84aca192eda1011",
+      "liveHash": "340b07d243d9383cdd21d745116b11a14320294f04fb2382a4171d8a3742d24f",
       "currentHash": "340b07d243d9383cdd21d745116b11a14320294f04fb2382a4171d8a3742d24f"
     }
   },
@@ -6061,7 +6062,7 @@
   },
   {
     "id": "4133",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Sandrone",
     "rarity": 5,
     "type": "Unlocks the associated character",
@@ -6070,6 +6071,7 @@
       "icon": "Nanoka/gi/assets/items/UI_AvatarIcon_MarionetteNew_Card.webp"
     },
     "liveComparison": {
+      "liveHash": "b22e949fe3ea3cf35f749fe2bd388940ecb9792776843e7d3760952bfefdc78b",
       "currentHash": "b22e949fe3ea3cf35f749fe2bd388940ecb9792776843e7d3760952bfefdc78b"
     }
   },
@@ -6540,7 +6542,7 @@
   },
   {
     "id": "5133",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Sandrone's Stella Fortuna",
     "rarity": 5,
     "type": "Activates Constellation",
@@ -6549,6 +6551,7 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_1102.webp"
     },
     "liveComparison": {
+      "liveHash": "1b35ef46ad737f9de7441d38a73762cb1f1cafb39125174219539c2c06819e9c",
       "currentHash": "1b35ef46ad737f9de7441d38a73762cb1f1cafb39125174219539c2c06819e9c"
     }
   },
@@ -8309,7 +8312,7 @@
   },
   {
     "id": "6133",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Sandrone's Stella Fortuna",
     "rarity": 5,
     "type": "Activates Constellation",
@@ -8318,6 +8321,7 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_1102.webp"
     },
     "liveComparison": {
+      "liveHash": "3a6fd86ede8ceaed839dfe21196b7765cdf0a65ca789f55f312210a2aaf0788c",
       "currentHash": "3a6fd86ede8ceaed839dfe21196b7765cdf0a65ca789f55f312210a2aaf0788c"
     }
   },
@@ -19759,8 +19763,8 @@
   },
   {
     "id": "100865",
-    "contentStatus": "beta_changed",
-    "name": "100865",
+    "contentStatus": "live",
+    "name": "Mask of Memories",
     "rarity": 4,
     "type": "Forging Blueprint",
     "description": "Hanachirusato the shrine maiden used to wear this mask. It is deeply stained on the inside.\\nSome memories are contained inside, through which one may learn the art of creating the Catalyst known as \"Hakushin Ring.\"\\nNow that Hanachirusato has been separated from this mask, Paimon doesn't get to call her the \"Masked Maiden\" anymore, right?",
@@ -19769,7 +19773,7 @@
     },
     "liveComparison": {
       "liveHash": "758e790a6ce70862687b4b134aad65ef6627fbca4bcc184089fd8a72123787a1",
-      "currentHash": "133e557f99d4bc1e51fe4b2c77f48ea63e6cab5a7138ebaa3562107ea0699432"
+      "currentHash": "758e790a6ce70862687b4b134aad65ef6627fbca4bcc184089fd8a72123787a1"
     }
   },
   {
@@ -23178,7 +23182,7 @@
   },
   {
     "id": "101270",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Teardrop of the Moon",
     "rarity": 0,
     "type": "Local Specialty (Nod-Krai)",
@@ -23187,6 +23191,7 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_101270.webp"
     },
     "liveComparison": {
+      "liveHash": "29f93881a17141fc39e3f82ffd84c6205de904e1d8b5fb55fdca5c49595204c5",
       "currentHash": "29f93881a17141fc39e3f82ffd84c6205de904e1d8b5fb55fdca5c49595204c5"
     }
   },
@@ -33374,7 +33379,7 @@
   },
   {
     "id": "107032",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Frost Moon Shrine of Depths Key",
     "rarity": 0,
     "type": "Adventure Item",
@@ -33383,6 +33388,7 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_107032.webp"
     },
     "liveComparison": {
+      "liveHash": "e99ae342651132e3fcfbacac582e7494f7aa9aab5f280512df20ce053aa2e7e1",
       "currentHash": "e99ae342651132e3fcfbacac582e7494f7aa9aab5f280512df20ce053aa2e7e1"
     }
   },
@@ -48788,22 +48794,23 @@
   },
   {
     "id": "108976",
-    "contentStatus": "beta",
-    "name": "???",
+    "contentStatus": "live",
+    "name": "Tea Party Polyphony",
     "rarity": 3,
     "type": "Food",
-    "description": "???",
+    "description": "Sandrone's specialty. Appearing without fanfare at the tea party is an exquisitely crafted two-tiered assortment of pastries... Could she really have made this herself? Before the surprise in your eyes has time to fade, she folds her arms, turns slightly aside, and lifts her chin. \"Hah? What's that look for? They're only tea snacks. Hardly a challenge.\" A faint, delicate sweetness drifts through the air, as if silently backing up her claim. Well then, best not keep them waiting!",
     "effect": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 1500s. In Co-Op Mode, this effect only applies to your own character(s).",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_108880.webp"
     },
     "liveComparison": {
-      "currentHash": "325c3e61230c87facadaffbc169c678c2cca389dd6e4cf305336df0288afb7f1"
+      "liveHash": "e6b153c9c37a85af1aaf7d094ee5988184d0d4e0133a42932be5b62d7884f9a7",
+      "currentHash": "e6b153c9c37a85af1aaf7d094ee5988184d0d4e0133a42932be5b62d7884f9a7"
     }
   },
   {
     "id": "108977",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Suspicious Birch-Steamed Pork Ribs",
     "rarity": 3,
     "type": "Food",
@@ -48813,12 +48820,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_108881.webp"
     },
     "liveComparison": {
+      "liveHash": "598e8f2318dd1913e266bd9f00b296151a23d986860aa23b3aa575008376127b",
       "currentHash": "598e8f2318dd1913e266bd9f00b296151a23d986860aa23b3aa575008376127b"
     }
   },
   {
     "id": "108978",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Birch-Steamed Pork Ribs",
     "rarity": 3,
     "type": "Food",
@@ -48828,12 +48836,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_108881.webp"
     },
     "liveComparison": {
+      "liveHash": "63b4f30d8565f26554bdde76ef428a194e3d6443f3cca9839ba4f79a6f2c9575",
       "currentHash": "63b4f30d8565f26554bdde76ef428a194e3d6443f3cca9839ba4f79a6f2c9575"
     }
   },
   {
     "id": "108979",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Delicious Birch-Steamed Pork Ribs",
     "rarity": 3,
     "type": "Food",
@@ -48843,12 +48852,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_108881.webp"
     },
     "liveComparison": {
+      "liveHash": "e8e592aa2c3ec3334d6b2dba99cc9af67daaa1daba8444ea007d1cf89863f2f3",
       "currentHash": "e8e592aa2c3ec3334d6b2dba99cc9af67daaa1daba8444ea007d1cf89863f2f3"
     }
   },
   {
     "id": "108980",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Suspicious Meat-Filled Rye Bun",
     "rarity": 2,
     "type": "Food",
@@ -48858,12 +48868,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_108882.webp"
     },
     "liveComparison": {
+      "liveHash": "6b24a59e680b1d9497f0a48d8cfdfbe177dab53a323e312092a427ea638c0024",
       "currentHash": "6b24a59e680b1d9497f0a48d8cfdfbe177dab53a323e312092a427ea638c0024"
     }
   },
   {
     "id": "108981",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Meat-Filled Rye Bun",
     "rarity": 2,
     "type": "Food",
@@ -48873,12 +48884,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_108882.webp"
     },
     "liveComparison": {
+      "liveHash": "9f28c998251a8410d49d88f72e9633f84b331cdce3c74e8fbf6d81b0efc0bf96",
       "currentHash": "9f28c998251a8410d49d88f72e9633f84b331cdce3c74e8fbf6d81b0efc0bf96"
     }
   },
   {
     "id": "108982",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Delicious Meat-Filled Rye Bun",
     "rarity": 2,
     "type": "Food",
@@ -48888,12 +48900,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_108882.webp"
     },
     "liveComparison": {
+      "liveHash": "dfda0c81e4aad03aec97a65780b45dc0ca98ca3d691127ca84069070957b4731",
       "currentHash": "dfda0c81e4aad03aec97a65780b45dc0ca98ca3d691127ca84069070957b4731"
     }
   },
   {
     "id": "108983",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Tea Party Prelude: Herbal Tea",
     "rarity": 3,
     "type": "Food",
@@ -48903,12 +48916,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_108883.webp"
     },
     "liveComparison": {
+      "liveHash": "926d095441a70775acae174d14690887ba2e7e5e69ea75c968db176e8e3dbec2",
       "currentHash": "926d095441a70775acae174d14690887ba2e7e5e69ea75c968db176e8e3dbec2"
     }
   },
   {
     "id": "108984",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Tea Party Prelude: Artful Latte",
     "rarity": 3,
     "type": "Food",
@@ -48918,6 +48932,7 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_108884.webp"
     },
     "liveComparison": {
+      "liveHash": "bbcb64e5da24b61afcf6f6a5580fa5ca5aa3c5a1a87538a46facb2abbd581171",
       "currentHash": "bbcb64e5da24b61afcf6f6a5580fa5ca5aa3c5a1a87538a46facb2abbd581171"
     }
   },
@@ -52958,7 +52973,7 @@
   },
   {
     "id": "109653",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Recipe: Birch-Steamed Pork Ribs",
     "rarity": 3,
     "type": "Recipe",
@@ -52967,12 +52982,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_109000.webp"
     },
     "liveComparison": {
+      "liveHash": "512ae0c4138dbe9441320bf4556b65254a37ff94b350a236a10fcbc94d4fb601",
       "currentHash": "512ae0c4138dbe9441320bf4556b65254a37ff94b350a236a10fcbc94d4fb601"
     }
   },
   {
     "id": "109654",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Recipe: Meat-Filled Rye Bun",
     "rarity": 2,
     "type": "Recipe",
@@ -52981,6 +52997,7 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_109000.webp"
     },
     "liveComparison": {
+      "liveHash": "ca65a51e70f39d0ebc06365b31f98f294260ef8aa69249f821de08768438d92d",
       "currentHash": "ca65a51e70f39d0ebc06365b31f98f294260ef8aa69249f821de08768438d92d"
     }
   },
@@ -55835,7 +55852,7 @@
   },
   {
     "id": "112143",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Fractured Lunar Iron",
     "rarity": 2,
     "type": "Character and Weapon Enhancement Material",
@@ -55844,12 +55861,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112143.webp"
     },
     "liveComparison": {
+      "liveHash": "b7b00cb9daa4fd7fb59dc1b4c25a4ae71a76ecb37b286f226af14f085ed7b4d4",
       "currentHash": "b7b00cb9daa4fd7fb59dc1b4c25a4ae71a76ecb37b286f226af14f085ed7b4d4"
     }
   },
   {
     "id": "112144",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Depleted Lunar Iron",
     "rarity": 3,
     "type": "Character and Weapon Enhancement Material",
@@ -55858,12 +55876,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112144.webp"
     },
     "liveComparison": {
+      "liveHash": "b9cccad74217cee7803ab3fb1ceb41c2c87ac34fbc3bbaa8db3f61eaf5253120",
       "currentHash": "b9cccad74217cee7803ab3fb1ceb41c2c87ac34fbc3bbaa8db3f61eaf5253120"
     }
   },
   {
     "id": "112145",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Unblemished Lunar Iron",
     "rarity": 4,
     "type": "Character and Weapon Enhancement Material",
@@ -55872,6 +55891,7 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112145.webp"
     },
     "liveComparison": {
+      "liveHash": "03a9c37765687fbe7463c072a5dd8eea9aee1ade070515acb580f3ba12ebfedb",
       "currentHash": "03a9c37765687fbe7463c072a5dd8eea9aee1ade070515acb580f3ba12ebfedb"
     }
   },
@@ -63837,16 +63857,17 @@
   },
   {
     "id": "120258",
-    "contentStatus": "beta_changed",
-    "name": "120258",
+    "contentStatus": "live",
+    "name": "？？？",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "？？？",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_120258.webp"
     },
     "liveComparison": {
       "liveHash": "34f503ab6a808b75467c5e79d9cec5d14fd3805914a8bb85e48d684d809de809",
-      "currentHash": "4509a8965845b3a73584b135cd3e7eeb08752d6cef7f17d700a7240b9fbd7a78"
+      "currentHash": "34f503ab6a808b75467c5e79d9cec5d14fd3805914a8bb85e48d684d809de809"
     }
   },
   {
@@ -63866,184 +63887,197 @@
   },
   {
     "id": "120260",
-    "contentStatus": "beta_changed",
-    "name": "120260",
+    "contentStatus": "live",
+    "name": "？？？",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "？？？",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_120001.webp"
     },
     "liveComparison": {
       "liveHash": "ea3f7d042dc971c9c481ea015fd81485ad105e3bc59de5a0b328f629bc97907b",
-      "currentHash": "d881f780447bfb1a208864316483269760d46150aa22c44837b8bd12a3797247"
+      "currentHash": "ea3f7d042dc971c9c481ea015fd81485ad105e3bc59de5a0b328f629bc97907b"
     }
   },
   {
     "id": "120261",
-    "contentStatus": "beta_changed",
-    "name": "120261",
+    "contentStatus": "live",
+    "name": "？？？",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "？？？",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_120001.webp"
     },
     "liveComparison": {
       "liveHash": "06d75b51e6e389cb9b4701afe1e075dbd2f02199f22fa9b1dbb45fa63b770934",
-      "currentHash": "b4e080733b1646a30defe340f03b83dce20ca1d1d3af53045062135a07630662"
+      "currentHash": "06d75b51e6e389cb9b4701afe1e075dbd2f02199f22fa9b1dbb45fa63b770934"
     }
   },
   {
     "id": "120262",
-    "contentStatus": "beta_changed",
-    "name": "120262",
+    "contentStatus": "live",
+    "name": "？？？",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "？？？",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_120001.webp"
     },
     "liveComparison": {
       "liveHash": "aabeb4b7e17233f74d52a447e05422e20a7e8838df4086afcf42d720e4dd249c",
-      "currentHash": "1f46d296b2cf7742ca1474fa6e518fe7cfd522572b9c1afe622abaeb7eb65f7d"
+      "currentHash": "aabeb4b7e17233f74d52a447e05422e20a7e8838df4086afcf42d720e4dd249c"
     }
   },
   {
     "id": "120263",
-    "contentStatus": "beta_changed",
-    "name": "120263",
+    "contentStatus": "live",
+    "name": "？？？",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "？？？",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_120001.webp"
     },
     "liveComparison": {
       "liveHash": "75817cf364dc657846152de658f10ddf23a3a4ba670edf14fb7274dfa80b1527",
-      "currentHash": "f8523de6bbf4d43c4d77f438a75e6340fd3eecf08fb6b8de1f273cb7e66334dc"
+      "currentHash": "75817cf364dc657846152de658f10ddf23a3a4ba670edf14fb7274dfa80b1527"
     }
   },
   {
     "id": "120264",
-    "contentStatus": "beta_changed",
-    "name": "120264",
+    "contentStatus": "live",
+    "name": "？？？",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "？？？",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_120001.webp"
     },
     "liveComparison": {
       "liveHash": "32a66d102aad10298226de0560ee550e9b716401130216e1a390d7783c930371",
-      "currentHash": "ff386a91296da10ee7d17ad4a8ece1da72afc5d7301eae2e0336a80565fa3f85"
+      "currentHash": "32a66d102aad10298226de0560ee550e9b716401130216e1a390d7783c930371"
     }
   },
   {
     "id": "120265",
-    "contentStatus": "beta_changed",
-    "name": "120265",
+    "contentStatus": "live",
+    "name": "？？？",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "？？？",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_120001.webp"
     },
     "liveComparison": {
       "liveHash": "9e3f60493590914944bff9f601e0b5c529e2bb3bb31cc732de2c5d839bb1b316",
-      "currentHash": "3c7eed5b7034327fa556a0066149cae114e9ac6f908d43e286d733509aba21a7"
+      "currentHash": "9e3f60493590914944bff9f601e0b5c529e2bb3bb31cc732de2c5d839bb1b316"
     }
   },
   {
     "id": "120266",
-    "contentStatus": "beta_changed",
-    "name": "120266",
+    "contentStatus": "live",
+    "name": "？？？",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "？？？",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_120001.webp"
     },
     "liveComparison": {
       "liveHash": "b594e9dbb948b09a87842defb2c42d7f8da94500e5c0047bfea1ec2ecf8bbe3e",
-      "currentHash": "762c04cd1289d96530320308c24ea76498410405e0e8df044213d669beb129c5"
+      "currentHash": "b594e9dbb948b09a87842defb2c42d7f8da94500e5c0047bfea1ec2ecf8bbe3e"
     }
   },
   {
     "id": "120267",
-    "contentStatus": "beta_changed",
-    "name": "120267",
+    "contentStatus": "live",
+    "name": "？？？",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "？？？",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_120001.webp"
     },
     "liveComparison": {
       "liveHash": "ed00f9b442767831c334e7d206aba2c8d265574caf32c728be7595b60308265c",
-      "currentHash": "9556d82b96b5d83b5cfd68b251a57b9155c5c23d1a341df0b781b3ee4c653d16"
+      "currentHash": "ed00f9b442767831c334e7d206aba2c8d265574caf32c728be7595b60308265c"
     }
   },
   {
     "id": "120268",
-    "contentStatus": "beta_changed",
-    "name": "120268",
+    "contentStatus": "live",
+    "name": "？？？",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "？？？",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_120001.webp"
     },
     "liveComparison": {
       "liveHash": "c6bf814a578f79065451f8797e345c9d94920fc055b4f1385a20de4b78b2233f",
-      "currentHash": "1a1713f41a4caac347ce70ddcef2178198f8f16eb60e78481440ae4609a8f105"
+      "currentHash": "c6bf814a578f79065451f8797e345c9d94920fc055b4f1385a20de4b78b2233f"
     }
   },
   {
     "id": "120269",
-    "contentStatus": "beta_changed",
-    "name": "120269",
+    "contentStatus": "live",
+    "name": "？？？",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "？？？",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_120001.webp"
     },
     "liveComparison": {
       "liveHash": "5d237bf6bfb2f37eaf8c5c5df57b27b56351b92c6a6545939c41b81b628df382",
-      "currentHash": "3a82a5502badad9c180338429ae83c92c13eb4b993607b0ebbe9e49dc7a129dc"
+      "currentHash": "5d237bf6bfb2f37eaf8c5c5df57b27b56351b92c6a6545939c41b81b628df382"
     }
   },
   {
     "id": "120270",
-    "contentStatus": "beta_changed",
-    "name": "120270",
+    "contentStatus": "live",
+    "name": "？？？",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "？？？",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_120001.webp"
     },
     "liveComparison": {
       "liveHash": "631dae3c0cc8473fb9a292bd4de88bb71ca9adef7873881b6ac5a273ea53ef4e",
-      "currentHash": "89374f6a32ad04a8655d6c98a95ae4d30d4e145feb4a0f23dfdcbbeec9f1fd35"
+      "currentHash": "631dae3c0cc8473fb9a292bd4de88bb71ca9adef7873881b6ac5a273ea53ef4e"
     }
   },
   {
     "id": "120271",
-    "contentStatus": "beta_changed",
-    "name": "120271",
+    "contentStatus": "live",
+    "name": "？？？",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "？？？",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_120001.webp"
     },
     "liveComparison": {
       "liveHash": "9fed193ce3ca09a1615312c51b5f41bba201e2c965ce52f0d80b13d138b510e3",
-      "currentHash": "6fa6ca8058ff63ff624e4b4c89ae537fccfb9bd8058726759b80ad29c2f146e8"
+      "currentHash": "9fed193ce3ca09a1615312c51b5f41bba201e2c965ce52f0d80b13d138b510e3"
     }
   },
   {
     "id": "120272",
-    "contentStatus": "beta_changed",
-    "name": "120272",
+    "contentStatus": "live",
+    "name": "？？？",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "？？？",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_120001.webp"
     },
     "liveComparison": {
       "liveHash": "8e81f847b2522fab9710c6999d68bb087e8cc5a427c73bd113021281a89eec27",
-      "currentHash": "582fc5a1ad309bb15bff297b21e8ddb66111e4c83b1d565591d17334fac55241"
+      "currentHash": "8e81f847b2522fab9710c6999d68bb087e8cc5a427c73bd113021281a89eec27"
     }
   },
   {
@@ -64407,16 +64441,17 @@
   },
   {
     "id": "120297",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Food and Lodging Arrangements",
     "rarity": 0,
     "type": "Quest Item",
+    "description": "？？？",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_100721.webp"
     },
     "liveComparison": {
       "liveHash": "935db405bdd7226f7d538b9671157908dc5e47b4d5a763754bd61000115dae51",
-      "currentHash": "4984f4d480eaef8678345925305a19b72eb5ae214a95708cf3965876e13bac7e"
+      "currentHash": "935db405bdd7226f7d538b9671157908dc5e47b4d5a763754bd61000115dae51"
     }
   },
   {
@@ -78739,32 +78774,30 @@
   },
   {
     "id": "121291",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Scribbled Notes",
     "rarity": 0,
     "type": "Quest Item",
-    "description": "???",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_100226.webp"
     },
     "liveComparison": {
       "liveHash": "dd535774e4b15c6519b026ffb2e55d8a38894318fdf76de8919e0c2f79810ab7",
-      "currentHash": "edc0676fee47c616ed6c062134632dfeca46f578461e57f0712dd357d197de09"
+      "currentHash": "dd535774e4b15c6519b026ffb2e55d8a38894318fdf76de8919e0c2f79810ab7"
     }
   },
   {
     "id": "121292",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Beautifully-Written Notes",
     "rarity": 0,
     "type": "Quest Item",
-    "description": "???",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_100226.webp"
     },
     "liveComparison": {
       "liveHash": "0d170361200aee07ab28f07823d5f41ba4bbeaec5372816f858fde6c5240fe3b",
-      "currentHash": "40c47a2280915ef3993a746c1294d3d1645713e0e84b07f40fd5049223416c39"
+      "currentHash": "0d170361200aee07ab28f07823d5f41ba4bbeaec5372816f858fde6c5240fe3b"
     }
   },
   {
@@ -79586,32 +79619,30 @@
   },
   {
     "id": "121348",
-    "contentStatus": "beta_changed",
-    "name": "???",
+    "contentStatus": "live",
+    "name": "121348",
     "rarity": 0,
     "type": "Quest Item",
-    "description": "???",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121146.webp"
     },
     "liveComparison": {
       "liveHash": "9a2762b56e56fb0abebc377578ab1e1f672814cb454dfb82c6c64a860259abcd",
-      "currentHash": "349a87dc83830d6b0fcbada29ed002e6b0469c81a6d250e577fb3aa923bf539f"
+      "currentHash": "9a2762b56e56fb0abebc377578ab1e1f672814cb454dfb82c6c64a860259abcd"
     }
   },
   {
     "id": "121349",
-    "contentStatus": "beta_changed",
-    "name": "???",
+    "contentStatus": "live",
+    "name": "121349",
     "rarity": 0,
     "type": "Quest Item",
-    "description": "???",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121146.webp"
     },
     "liveComparison": {
       "liveHash": "505c38ea251d0c62c62af480513ad3d805a802b89627e7e27b4f56318fd4ac9d",
-      "currentHash": "001580cc63964b0b0d1d57f16bc2dcb0ca1b8efbe3b574d294058a6c047ebc34"
+      "currentHash": "505c38ea251d0c62c62af480513ad3d805a802b89627e7e27b4f56318fd4ac9d"
     }
   },
   {
@@ -80392,17 +80423,16 @@
   },
   {
     "id": "121402",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Half-Burned Page",
     "rarity": 0,
     "type": "Quest Item",
-    "description": "???",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_71700047.webp"
     },
     "liveComparison": {
       "liveHash": "42de4e6dff93a177a6ac76c86963aa50a24aa448ce87f31f6154818e819548b5",
-      "currentHash": "dde22e925923384ac3b354072657245ca6f2c35a63b9b4107cea26a4e2100123"
+      "currentHash": "42de4e6dff93a177a6ac76c86963aa50a24aa448ce87f31f6154818e819548b5"
     }
   },
   {
@@ -80587,17 +80617,16 @@
   },
   {
     "id": "121418",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Scribbled Letter",
     "rarity": 0,
     "type": "Quest Item",
-    "description": "???",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_71700047.webp"
     },
     "liveComparison": {
       "liveHash": "28f405f28c32c337d8ac045e72f2c3847b197feb11bdd1756fedb675425a9995",
-      "currentHash": "55558c3eff6bee54ae6ff11fe9c8c0f6e06782d7c0b295fc8cd3aad17fa4d436"
+      "currentHash": "28f405f28c32c337d8ac045e72f2c3847b197feb11bdd1756fedb675425a9995"
     }
   },
   {
@@ -81907,7 +81936,7 @@
   },
   {
     "id": "121518",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Secret Source: Ancient Moon's Fount",
     "rarity": 0,
     "type": "Quest Item",
@@ -81916,6 +81945,7 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121518.webp"
     },
     "liveComparison": {
+      "liveHash": "8c68666fcde2bb5bc7385fb8f44a5f8c0d4330a2d52ed3c89583dac330444934",
       "currentHash": "8c68666fcde2bb5bc7385fb8f44a5f8c0d4330a2d52ed3c89583dac330444934"
     }
   },
@@ -81996,7 +82026,7 @@
   },
   {
     "id": "121524",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Paimon's Notes",
     "rarity": 0,
     "type": "Quest Item",
@@ -82005,6 +82035,7 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_100362.webp"
     },
     "liveComparison": {
+      "liveHash": "ee77e67db368d03210d4d8c2e8c31f4272ae7568e45ade688f5e48c980052f62",
       "currentHash": "ee77e67db368d03210d4d8c2e8c31f4272ae7568e45ade688f5e48c980052f62"
     }
   },
@@ -82142,7 +82173,7 @@
   },
   {
     "id": "121534",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "121534",
     "rarity": 0,
     "type": "Quest Item",
@@ -82150,6 +82181,7 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_120965.webp"
     },
     "liveComparison": {
+      "liveHash": "4f4c74b2e2f190b655c95bcdcbc3fb2306cdfc8a9ecfb5f1faf6e135f4ca9981",
       "currentHash": "4f4c74b2e2f190b655c95bcdcbc3fb2306cdfc8a9ecfb5f1faf6e135f4ca9981"
     }
   },
@@ -82590,47 +82622,44 @@
   },
   {
     "id": "121577",
-    "contentStatus": "beta_changed",
-    "name": "???",
+    "contentStatus": "live",
+    "name": "121577",
     "rarity": 4,
     "type": "Quest Item",
-    "description": "???",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121574.webp"
     },
     "liveComparison": {
       "liveHash": "5000e484f1d3812cd1f4db685c0d2cff93faeb9d75970b15ebaf9a01cda0521f",
-      "currentHash": "1c38383f06d95f26dcea465249005293327da950b6e83f32ae7aef517d201cc4"
+      "currentHash": "5000e484f1d3812cd1f4db685c0d2cff93faeb9d75970b15ebaf9a01cda0521f"
     }
   },
   {
     "id": "121578",
-    "contentStatus": "beta_changed",
-    "name": "???",
+    "contentStatus": "live",
+    "name": "121578",
     "rarity": 4,
     "type": "Quest Item",
-    "description": "???",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121574.webp"
     },
     "liveComparison": {
       "liveHash": "3232bfa834c2bc6106086221f52564a416f8bbdfd5b8e7a531e31234e72899e9",
-      "currentHash": "cd9b947200075b3c0e8fdc8e0e6ff8f8084bc54fae57d256c458381e313c6593"
+      "currentHash": "3232bfa834c2bc6106086221f52564a416f8bbdfd5b8e7a531e31234e72899e9"
     }
   },
   {
     "id": "121579",
-    "contentStatus": "beta_changed",
-    "name": "???",
+    "contentStatus": "live",
+    "name": "121579",
     "rarity": 4,
     "type": "Quest Item",
-    "description": "???",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121574.webp"
     },
     "liveComparison": {
       "liveHash": "ca95877a604ee048d559506d60083cdb3450bf7440dd7ec95e5d0cda30d58316",
-      "currentHash": "ffae413493b2bf0c46a7422ae564d39c338bc96329939719ba792e39f39fb830"
+      "currentHash": "ca95877a604ee048d559506d60083cdb3450bf7440dd7ec95e5d0cda30d58316"
     }
   },
   {
@@ -82680,7 +82709,7 @@
   },
   {
     "id": "121583",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Witness of the Moon",
     "rarity": 4,
     "type": "Quest Item",
@@ -82689,12 +82718,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121583.webp"
     },
     "liveComparison": {
+      "liveHash": "12401a66b5b2acd0e2d8aba705917d5aa128a40b12e38e2cc3a7d0c9e79fdf56",
       "currentHash": "12401a66b5b2acd0e2d8aba705917d5aa128a40b12e38e2cc3a7d0c9e79fdf56"
     }
   },
   {
     "id": "121588",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Lost Flower of Ancient Times",
     "rarity": 1,
     "type": "Quest Item",
@@ -82703,12 +82733,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_100012.webp"
     },
     "liveComparison": {
+      "liveHash": "bf643dacedb3b9d731e29ff0c25e0e5878e498638a883384a6a6fb889b1882cb",
       "currentHash": "bf643dacedb3b9d731e29ff0c25e0e5878e498638a883384a6a6fb889b1882cb"
     }
   },
   {
     "id": "121595",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "121595",
     "rarity": 0,
     "type": "Quest Item",
@@ -82716,21 +82747,23 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121595.webp"
     },
     "liveComparison": {
+      "liveHash": "3c82bc6b8ad4a020666d30a5f94472ce165e31a234e43948b95324a7cdc8e934",
       "currentHash": "3c82bc6b8ad4a020666d30a5f94472ce165e31a234e43948b95324a7cdc8e934"
     }
   },
   {
     "id": "121596",
-    "contentStatus": "beta",
-    "name": "???",
+    "contentStatus": "live",
+    "name": "Sandrone's Tea Party Invitation Letter",
     "rarity": 0,
     "type": "Quest Item",
-    "description": "???",
+    "description": "A tea party invitation letter sent by Sandrone. The invitation is delicately patterned with exquisite handwriting. Is this what one calls a lady's elegance?",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121596.webp"
     },
     "liveComparison": {
-      "currentHash": "0e41123f8d09d2d6a1f31cca190b031e93ca559754a13928e37b3014787e9157"
+      "liveHash": "660838f938aab381261e87f09ecf1b3a52b960532b9429909665ef07bd07ea66",
+      "currentHash": "660838f938aab381261e87f09ecf1b3a52b960532b9429909665ef07bd07ea66"
     }
   },
   {
@@ -82765,7 +82798,7 @@
   },
   {
     "id": "121603",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Frost Moon Seal",
     "rarity": 4,
     "type": "Adventure Item",
@@ -82774,12 +82807,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121603.webp"
     },
     "liveComparison": {
+      "liveHash": "f77f927fcb2238d1238785ddb1b22b1310480c655bc561fbcecdb7fd32aa0198",
       "currentHash": "f77f927fcb2238d1238785ddb1b22b1310480c655bc561fbcecdb7fd32aa0198"
     }
   },
   {
     "id": "121604",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Frost Moon Seal",
     "rarity": 4,
     "type": "Adventure Item",
@@ -82788,63 +82822,67 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121604.webp"
     },
     "liveComparison": {
+      "liveHash": "68f407d34b7ba041d3b2449f04a9cb89ede8e59a1d5bf4d28a9e5aec24dc8470",
       "currentHash": "68f407d34b7ba041d3b2449f04a9cb89ede8e59a1d5bf4d28a9e5aec24dc8470"
     }
   },
   {
     "id": "121606",
-    "contentStatus": "beta",
-    "name": "???",
-    "rarity": 0,
+    "contentStatus": "live",
+    "name": "\"Family Portrait\" by Mamere",
+    "rarity": 4,
     "type": "Quest Item",
-    "description": "???",
+    "description": "A family portrait that Mamere painted for her \"family members\" at a tea party hosted by Sandrone. Its warm and distinctive brushwork differs somewhat from her previous paintings, suggesting that, as she said, she has been trying her hand at all sorts of different styles during her travels.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121606.webp"
     },
     "liveComparison": {
-      "currentHash": "4472b29f40b29667b679391f06edb609ddedc4aa441c43a8fb5d5f8a5adb422a"
+      "liveHash": "0756d4a2eabde19d9f596e24ec323ac915776a03031db4f73f3a6aa7b2e79fed",
+      "currentHash": "0756d4a2eabde19d9f596e24ec323ac915776a03031db4f73f3a6aa7b2e79fed"
     }
   },
   {
     "id": "121609",
-    "contentStatus": "beta",
-    "name": "???",
+    "contentStatus": "live",
+    "name": "Alain Guillotin's Epitaph",
     "rarity": 0,
     "type": "Quest Item",
-    "description": "???",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_100003.webp"
     },
     "liveComparison": {
-      "currentHash": "c66e7246e2fe5ebb3bf08f8f6992193c440acb8089b3d55ad833f762e14fbc65"
+      "liveHash": "b45820806ca552ac5678bd909c8faee89075a99fa3de46ffc2c2ec451e791e5f",
+      "currentHash": "b45820806ca552ac5678bd909c8faee89075a99fa3de46ffc2c2ec451e791e5f"
     }
   },
   {
     "id": "121625",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Moongazer's Engraving (I)",
     "rarity": 3,
     "type": "Quest Item",
-    "description": "???",
+    "description": "An ancient stone tablet discovered on the moon. Though the writing upon it is completely indecipherable, for some reason, anyone who reads it can understand its meaning in their native tongue.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121625.webp"
     },
     "liveComparison": {
-      "currentHash": "983cc600dbacaec1b56b52c604149e2a2c9db5291c076702c494b0650c938e93"
+      "liveHash": "6b0fea2b7773dd1426eca7e8109054da991ea2d659b0b1a86f547235a1ce8824",
+      "currentHash": "6b0fea2b7773dd1426eca7e8109054da991ea2d659b0b1a86f547235a1ce8824"
     }
   },
   {
     "id": "121626",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Moongazer's Engraving (II)",
     "rarity": 3,
     "type": "Quest Item",
-    "description": "???",
+    "description": "An ancient stone tablet discovered on the moon. Though the writing upon it is completely indecipherable, for some reason, anyone who reads it can understand its meaning in their native tongue.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121625.webp"
     },
     "liveComparison": {
-      "currentHash": "602d18534fa9a77b80a5c28e05fdb3b51f0b21c03f9d1751593ebe19659e95ed"
+      "liveHash": "0b9b6deb8ad1287aacfe2a730b40c996bfee094a46400678ad757b5449a4c774",
+      "currentHash": "0b9b6deb8ad1287aacfe2a730b40c996bfee094a46400678ad757b5449a4c774"
     }
   },
   {
@@ -87634,7 +87672,7 @@
   },
   {
     "id": "141285",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Radiant Spincrystal 183",
     "rarity": 4,
     "type": "Adventure Item",
@@ -87643,12 +87681,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_BGM_Common.webp"
     },
     "liveComparison": {
+      "liveHash": "c5cdc7332778a59afafd2af851c839e01df92cb05d1c1ca647ce780ef40739c8",
       "currentHash": "c5cdc7332778a59afafd2af851c839e01df92cb05d1c1ca647ce780ef40739c8"
     }
   },
   {
     "id": "141286",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Radiant Spincrystal 184",
     "rarity": 4,
     "type": "Adventure Item",
@@ -87657,12 +87696,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_BGM_Common.webp"
     },
     "liveComparison": {
+      "liveHash": "1f57e5fc58e3f2b263db654973543f7ad1e2609850c80e95e1a88c10527d2aba",
       "currentHash": "1f57e5fc58e3f2b263db654973543f7ad1e2609850c80e95e1a88c10527d2aba"
     }
   },
   {
     "id": "141287",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Radiant Spincrystal 185",
     "rarity": 4,
     "type": "Adventure Item",
@@ -87671,12 +87711,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_BGM_Common.webp"
     },
     "liveComparison": {
+      "liveHash": "b8105a0b0a0b9460fd07eadc5976a4e7f4ababbce58af9a1763373f4cceb1bd5",
       "currentHash": "b8105a0b0a0b9460fd07eadc5976a4e7f4ababbce58af9a1763373f4cceb1bd5"
     }
   },
   {
     "id": "141288",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Radiant Spincrystal 186",
     "rarity": 4,
     "type": "Adventure Item",
@@ -87685,12 +87726,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_BGM_Common.webp"
     },
     "liveComparison": {
+      "liveHash": "356d11131f536a171911c4d160bfb15ed41898ee6cea41a77f32b7c8e5484232",
       "currentHash": "356d11131f536a171911c4d160bfb15ed41898ee6cea41a77f32b7c8e5484232"
     }
   },
   {
     "id": "141289",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Radiant Spincrystal 187",
     "rarity": 4,
     "type": "Adventure Item",
@@ -87699,12 +87741,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_BGM_Common.webp"
     },
     "liveComparison": {
+      "liveHash": "a9d4d486972c9a88c657e89e62331339430d8a83dabdcc4c1b4c527f0e17ba73",
       "currentHash": "a9d4d486972c9a88c657e89e62331339430d8a83dabdcc4c1b4c527f0e17ba73"
     }
   },
   {
     "id": "141290",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Radiant Spincrystal 188",
     "rarity": 4,
     "type": "Adventure Item",
@@ -87713,6 +87756,7 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_BGM_Common.webp"
     },
     "liveComparison": {
+      "liveHash": "23eaaecb380a54182ebde1ebb36f26915e829e794e949b8efbd21380cbd1c655",
       "currentHash": "23eaaecb380a54182ebde1ebb36f26915e829e794e949b8efbd21380cbd1c655"
     }
   },
@@ -93493,21 +93537,22 @@
   },
   {
     "id": "210284",
-    "contentStatus": "beta",
-    "name": "???",
+    "contentStatus": "live",
+    "name": "Sandrone: Tea Break",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
-    "description": "???",
+    "description": "Namecard style.\\nSandrone may have learned to enjoy tea parties from Alain. In those days, even a tea break for two never felt dull. But later, when there were finally enough people for a proper tea party, they left one after another. And in their absence, she seemed to come a little closer to the loneliness Alain had known.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_NameCardIcon_MarionetteNew.webp"
     },
     "liveComparison": {
-      "currentHash": "e0aaa776560dc9bd0505549c2eab6ec28c4719199086ec8dddbe50d2518ac0cf"
+      "liveHash": "be04fa19a9bdaad1fbf7c1e30bedaec0ad661d4aa06209a67766ef5f8db50968",
+      "currentHash": "be04fa19a9bdaad1fbf7c1e30bedaec0ad661d4aa06209a67766ef5f8db50968"
     }
   },
   {
     "id": "210285",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Nod-Krai: Moonbright",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -93516,12 +93561,13 @@
       "icon": "Nanoka/gi/assets/items/UI_NameCardIcon_Moon.webp"
     },
     "liveComparison": {
+      "liveHash": "00d6b5b6f26599b4fdf1d07693c829876fb0a839719197c907729989b53d2930",
       "currentHash": "00d6b5b6f26599b4fdf1d07693c829876fb0a839719197c907729989b53d2930"
     }
   },
   {
     "id": "210286",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Travel Notes: Sunny Summer",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -93530,6 +93576,7 @@
       "icon": "Nanoka/gi/assets/items/UI_NameCardIcon_Bp51.webp"
     },
     "liveComparison": {
+      "liveHash": "2e3dddef9e35ad400c1b62463cb8f20c9c97c10639f958b7bffa21ecc9a5c22f",
       "currentHash": "2e3dddef9e35ad400c1b62463cb8f20c9c97c10639f958b7bffa21ecc9a5c22f"
     }
   },
@@ -95676,7 +95723,7 @@
   },
   {
     "id": "220123",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Luna Treasure Compass",
     "rarity": 4,
     "type": "Gadget",
@@ -95685,7 +95732,7 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_220123.webp"
     },
     "liveComparison": {
-      "liveHash": "c0fb9979801f9d2a0b2de5f2e055a02b5131d9331f44110a2af86efbf6fc1d27",
+      "liveHash": "e5db5f01038a1e66534b75f120714c5d8cc3aa7386ef7bfe120bebf0fbfe39c1",
       "currentHash": "e5db5f01038a1e66534b75f120714c5d8cc3aa7386ef7bfe120bebf0fbfe39c1"
     }
   },
@@ -95811,30 +95858,32 @@
   },
   {
     "id": "220132",
-    "contentStatus": "beta",
-    "name": "???",
+    "contentStatus": "live",
+    "name": "Sandrone's Portable Tea Table",
     "rarity": 4,
     "type": "Gadget",
-    "description": "???",
+    "description": "A portable tea table gifted to you by Sandrone. Easy to carry and store, and even fitted with a levitation device. With this, you can enjoy a leisurely tea party almost anywhere.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_220132.webp"
     },
     "liveComparison": {
-      "currentHash": "8ac02330f4fb22c9d13655dcbdb314611d00151769462857fb6a1d3d483d61ae"
+      "liveHash": "1d54f2c688e43ca3d0cf03e26be4ec7442e276b62f89c6c63d717528651567fb",
+      "currentHash": "1d54f2c688e43ca3d0cf03e26be4ec7442e276b62f89c6c63d717528651567fb"
     }
   },
   {
     "id": "220134",
-    "contentStatus": "beta",
-    "name": "???",
+    "contentStatus": "live",
+    "name": "Witch's Revelation Case",
     "rarity": 5,
     "type": "Gadget",
-    "description": "???",
+    "description": "The case Barbeloth once carried has found its way into your possession. Within it sleep all the oracles, both those already revealed and those yet to open their eyes. Whether their words may one day steer the course of fate... Barbeloth would only say this: \"Hehehe... The true colors of fate are never meant to be revealed lightly. Besides, a future with secrets yet to unfold is far more delightful, would you not agree?\"",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_220134.webp"
     },
     "liveComparison": {
-      "currentHash": "78fcfe39307f6484b0c7aef56f4362590a15a107ae29243f1deafd005960b033"
+      "liveHash": "1ac12125a16f9b351ca9dcb5d109ba55afc19d9dfb33147d7446f5d5e9364b52",
+      "currentHash": "1ac12125a16f9b351ca9dcb5d109ba55afc19d9dfb33147d7446f5d5e9364b52"
     }
   },
   {
@@ -99604,7 +99653,7 @@
   },
   {
     "id": "318189",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Healing Treats",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
@@ -99612,12 +99661,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_223018.webp"
     },
     "liveComparison": {
+      "liveHash": "c0aafc2d2587e50a7fb9a975b8e6ad6cfbd95b1404a1b566665b590cbb7b55f3",
       "currentHash": "c0aafc2d2587e50a7fb9a975b8e6ad6cfbd95b1404a1b566665b590cbb7b55f3"
     }
   },
   {
     "id": "318190",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Relaxed Readiness",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
@@ -99625,12 +99675,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_223018.webp"
     },
     "liveComparison": {
+      "liveHash": "eb832e4ee503a01d78e34316edee1da8f3374a034212f27c908d751ce6042911",
       "currentHash": "eb832e4ee503a01d78e34316edee1da8f3374a034212f27c908d751ce6042911"
     }
   },
   {
     "id": "318191",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Graceful Dance",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
@@ -99638,12 +99689,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_223018.webp"
     },
     "liveComparison": {
+      "liveHash": "b8a6d918c624643343654d6328ff60bc0c3f1def16a575a6f9189a8649c4f28b",
       "currentHash": "b8a6d918c624643343654d6328ff60bc0c3f1def16a575a6f9189a8649c4f28b"
     }
   },
   {
     "id": "318192",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Commanding Stance",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
@@ -99651,12 +99703,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_223018.webp"
     },
     "liveComparison": {
+      "liveHash": "985c0ea87858c559923690f7ec2fd5433dbcdb9ef641c45e376304ab1c761014",
       "currentHash": "985c0ea87858c559923690f7ec2fd5433dbcdb9ef641c45e376304ab1c761014"
     }
   },
   {
     "id": "318193",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Gentle Elegance",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
@@ -99664,12 +99717,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_223018.webp"
     },
     "liveComparison": {
+      "liveHash": "4307b782837653d1e7ccccb0f1e0a5044cc582df4cf6e943992d377a8fff3753",
       "currentHash": "4307b782837653d1e7ccccb0f1e0a5044cc582df4cf6e943992d377a8fff3753"
     }
   },
   {
     "id": "318194",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Poised to Strike",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
@@ -99677,12 +99731,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_223018.webp"
     },
     "liveComparison": {
+      "liveHash": "b319cb6f26091e076bb3c3bd4645ffde190b895508f9a3747573564123b87e65",
       "currentHash": "b319cb6f26091e076bb3c3bd4645ffde190b895508f9a3747573564123b87e65"
     }
   },
   {
     "id": "318195",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Share With You",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
@@ -99690,12 +99745,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_223018.webp"
     },
     "liveComparison": {
+      "liveHash": "5f58b59d242854919d50f88277c2bd12cd47d0a8c0233994367e0add1fe4812e",
       "currentHash": "5f58b59d242854919d50f88277c2bd12cd47d0a8c0233994367e0add1fe4812e"
     }
   },
   {
     "id": "318196",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Majestic Bearing",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
@@ -99703,6 +99759,7 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_223018.webp"
     },
     "liveComparison": {
+      "liveHash": "f02cc9b2dedb8d5fdb4cd9daa36508864ed112cfea593e7cc7391547b8db38b0",
       "currentHash": "f02cc9b2dedb8d5fdb4cd9daa36508864ed112cfea593e7cc7391547b8db38b0"
     }
   },
@@ -100044,7 +100101,7 @@
   },
   {
     "id": "319025",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Dovefeather Moondew",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -100052,6 +100109,7 @@
       "icon": "Nanoka/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Columbina.webp"
     },
     "liveComparison": {
+      "liveHash": "42d0268d22f65812fe2daf5d43e8c52829eea4ae2697267879f4365f0cc9767a",
       "currentHash": "42d0268d22f65812fe2daf5d43e8c52829eea4ae2697267879f4365f0cc9767a"
     }
   },
@@ -102186,7 +102244,7 @@
   },
   {
     "id": "326139",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Nefer",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -102195,12 +102253,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Char_Avatar_Nefer_Platinum.webp"
     },
     "liveComparison": {
+      "liveHash": "be6fa2bd1c25b1bd54babd75182447d35502f0d2b5777bdd64c9be9c1118645b",
       "currentHash": "be6fa2bd1c25b1bd54babd75182447d35502f0d2b5777bdd64c9be9c1118645b"
     }
   },
   {
     "id": "326140",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Wayward Hermetic Spiritspeaker",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -102209,12 +102268,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Char_Monster_Udugan_Platinum.webp"
     },
     "liveComparison": {
+      "liveHash": "591971836d929b8589a1d35ae2c9d952a18df382024c358ecd80066b9abbfba4",
       "currentHash": "591971836d929b8589a1d35ae2c9d952a18df382024c358ecd80066b9abbfba4"
     }
   },
   {
     "id": "326141",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Black Serpent Knight: Windcutter",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -102223,6 +102283,7 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Char_Monster_DarkwraithWind_Platinum.webp"
     },
     "liveComparison": {
+      "liveHash": "b2244145c7e79d1133237b7e8e8063d081af579955db9167a38f7919bc860c48",
       "currentHash": "b2244145c7e79d1133237b7e8e8063d081af579955db9167a38f7919bc860c48"
     }
   },
@@ -104313,7 +104374,7 @@
   },
   {
     "id": "326639",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Victory Flows from the Turning of Tides",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -104322,12 +104383,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Nefer_Platinum.webp"
     },
     "liveComparison": {
+      "liveHash": "49c96b02537b9378df2ac0f3cb2f4fb6f39741acc1fdf45271e2a7cfcabf0143",
       "currentHash": "49c96b02537b9378df2ac0f3cb2f4fb6f39741acc1fdf45271e2a7cfcabf0143"
     }
   },
   {
     "id": "326640",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Flow of Forms",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -104336,12 +104398,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Udugan_Platinum.webp"
     },
     "liveComparison": {
+      "liveHash": "66f2e94e42d4fe6e5095395a6f95d86067b770f1af97eef4d914f1d91afc9517",
       "currentHash": "66f2e94e42d4fe6e5095395a6f95d86067b770f1af97eef4d914f1d91afc9517"
     }
   },
   {
     "id": "326641",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "\"Once, the Lone Wind That Kept the Dark Calamity at Bay...\"",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -104350,6 +104413,7 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_DarkwraithWind_Platinum.webp"
     },
     "liveComparison": {
+      "liveHash": "eb1ac99a65d7e5cb6941fca893d5ef2c3c6acdc0e1d729ef171b47764e596e44",
       "currentHash": "eb1ac99a65d7e5cb6941fca893d5ef2c3c6acdc0e1d729ef171b47764e596e44"
     }
   },
@@ -107370,7 +107434,7 @@
   },
   {
     "id": "328084",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Nightmare Omen",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -107379,12 +107443,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Event_Emeng_Platinum.webp"
     },
     "liveComparison": {
+      "liveHash": "f246178c6dcd65c69ad5425665f4437c17a2de500ee07e5fba2b0a893094c917",
       "currentHash": "f246178c6dcd65c69ad5425665f4437c17a2de500ee07e5fba2b0a893094c917"
     }
   },
   {
     "id": "328085",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Elemental Transfiguration: Aquabreeze Blessing",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -107393,12 +107458,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Resonance_WaterWind_Platinum.webp"
     },
     "liveComparison": {
+      "liveHash": "05e9b6b18446ea828f1b58da502696b8e8fa6c4a9240dd4c5a1df05c19bebb83",
       "currentHash": "05e9b6b18446ea828f1b58da502696b8e8fa6c4a9240dd4c5a1df05c19bebb83"
     }
   },
   {
     "id": "328086",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Elemental Transfiguration: Thunderbloom Blessing",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -107407,6 +107473,7 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Resonance_ElecGrass_Platinum.webp"
     },
     "liveComparison": {
+      "liveHash": "c061e6d6a3238d1ac4c5ce101470633633eee06e55e29182c5e575cfc605029f",
       "currentHash": "c061e6d6a3238d1ac4c5ce101470633633eee06e55e29182c5e575cfc605029f"
     }
   },
@@ -109152,7 +109219,7 @@
   },
   {
     "id": "329116",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Lil' Fungi's Fun-Tastic Fiesta",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -109161,12 +109228,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Event_Dongwu_Platinum.webp"
     },
     "liveComparison": {
+      "liveHash": "de661a68d63402b8d64e70cb7ddd52a1ad61a5c5484f168092f826544d045703",
       "currentHash": "de661a68d63402b8d64e70cb7ddd52a1ad61a5c5484f168092f826544d045703"
     }
   },
   {
     "id": "329117",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "The Power of Research",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -109175,12 +109243,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Event_Keyan_Platinum.webp"
     },
     "liveComparison": {
+      "liveHash": "93af4f7fddd7e307d6bd1843d1c518ff9dff5c650b7cfc249d4813028c26af8b",
       "currentHash": "93af4f7fddd7e307d6bd1843d1c518ff9dff5c650b7cfc249d4813028c26af8b"
     }
   },
   {
     "id": "329118",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Lakkaberry Pie",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -109189,6 +109258,7 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Food_BaiLing_Platinum.webp"
     },
     "liveComparison": {
+      "liveHash": "a21f1e48310b180d9b50cd94be83987871103fc016fe37bab003d882f2fcbf25",
       "currentHash": "a21f1e48310b180d9b50cd94be83987871103fc016fe37bab003d882f2fcbf25"
     }
   },
@@ -111279,7 +111349,7 @@
   },
   {
     "id": "330139",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Nefer",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
@@ -111288,12 +111358,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Char_Avatar_Nefer.webp"
     },
     "liveComparison": {
+      "liveHash": "68a566e7e4e794a6888193890e9ed508f59dc516bb9d86068b248f1af73db4c3",
       "currentHash": "68a566e7e4e794a6888193890e9ed508f59dc516bb9d86068b248f1af73db4c3"
     }
   },
   {
     "id": "330140",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Wayward Hermetic Spiritspeaker",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
@@ -111302,12 +111373,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Char_Monster_Udugan.webp"
     },
     "liveComparison": {
+      "liveHash": "b7e9ff6f9ba1fe854085b61ef5a092bccd51202b26fca01912360c7e96150dca",
       "currentHash": "b7e9ff6f9ba1fe854085b61ef5a092bccd51202b26fca01912360c7e96150dca"
     }
   },
   {
     "id": "330141",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Black Serpent Knight: Windcutter",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
@@ -111316,6 +111388,7 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Char_Monster_DarkwraithWind.webp"
     },
     "liveComparison": {
+      "liveHash": "6ec9e3b9638b4d84063086e3f2cac4c5886a198d35316ac8d97ff62a09b65f71",
       "currentHash": "6ec9e3b9638b4d84063086e3f2cac4c5886a198d35316ac8d97ff62a09b65f71"
     }
   },
@@ -113406,7 +113479,7 @@
   },
   {
     "id": "330639",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Victory Flows from the Turning of Tides",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
@@ -113415,12 +113488,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Nefer.webp"
     },
     "liveComparison": {
+      "liveHash": "ffd8d38ecc958ea3c0e99224e623c5960ab94e5f630b494fa77dbf6c8ef76209",
       "currentHash": "ffd8d38ecc958ea3c0e99224e623c5960ab94e5f630b494fa77dbf6c8ef76209"
     }
   },
   {
     "id": "330640",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Flow of Forms",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
@@ -113429,12 +113503,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Udugan.webp"
     },
     "liveComparison": {
+      "liveHash": "20de0795bb7c9e34b1fc29bfec646f33b0519146ebac6672bacf923e8b351871",
       "currentHash": "20de0795bb7c9e34b1fc29bfec646f33b0519146ebac6672bacf923e8b351871"
     }
   },
   {
     "id": "330641",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "\"Once, the Lone Wind That Kept the Dark Calamity at Bay...\"",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
@@ -113443,6 +113518,7 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_DarkwraithWind.webp"
     },
     "liveComparison": {
+      "liveHash": "657cb31ee9c78a9985c53e0e9dacbae1f80b5066a1ef1c719fcad7ea04dacfb7",
       "currentHash": "657cb31ee9c78a9985c53e0e9dacbae1f80b5066a1ef1c719fcad7ea04dacfb7"
     }
   },
@@ -116463,7 +116539,7 @@
   },
   {
     "id": "332084",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Nightmare Omen",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
@@ -116472,12 +116548,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Event_Emeng.webp"
     },
     "liveComparison": {
+      "liveHash": "b6719602d9898247e099b790b0e30c5a77e5972ae7b342cbcb52f55a67145139",
       "currentHash": "b6719602d9898247e099b790b0e30c5a77e5972ae7b342cbcb52f55a67145139"
     }
   },
   {
     "id": "332085",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Elemental Transfiguration: Aquabreeze Blessing",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
@@ -116486,12 +116563,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Resonance_WaterWind.webp"
     },
     "liveComparison": {
+      "liveHash": "c82b2fac7126ad1dfa97f95d5c352d0bdab3bb50880d6cbde4488a5cf352f49b",
       "currentHash": "c82b2fac7126ad1dfa97f95d5c352d0bdab3bb50880d6cbde4488a5cf352f49b"
     }
   },
   {
     "id": "332086",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Elemental Transfiguration: Thunderbloom Blessing",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
@@ -116500,6 +116578,7 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Resonance_ElecGrass.webp"
     },
     "liveComparison": {
+      "liveHash": "bd86292971f36a2f0906818908c84ec8e7a1681ded7c695a26eb9e59fefbb65b",
       "currentHash": "bd86292971f36a2f0906818908c84ec8e7a1681ded7c695a26eb9e59fefbb65b"
     }
   },
@@ -118245,7 +118324,7 @@
   },
   {
     "id": "333116",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Lil' Fungi's Fun-Tastic Fiesta",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
@@ -118254,12 +118333,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Event_Dongwu.webp"
     },
     "liveComparison": {
+      "liveHash": "e8eb612a46342dd04e30a35f1e2e8da037a8d8756dac7d90f363e646f2368066",
       "currentHash": "e8eb612a46342dd04e30a35f1e2e8da037a8d8756dac7d90f363e646f2368066"
     }
   },
   {
     "id": "333117",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "The Power of Research",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
@@ -118268,12 +118348,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Event_Keyan.webp"
     },
     "liveComparison": {
+      "liveHash": "14ebe7098f5fe819650a2448aaa0a78212db4595eb9540af3a4a2cc5c7ffd46c",
       "currentHash": "14ebe7098f5fe819650a2448aaa0a78212db4595eb9540af3a4a2cc5c7ffd46c"
     }
   },
   {
     "id": "333118",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Lakkaberry Pie",
     "rarity": 3,
     "type": "ITEM_MATERIAL",
@@ -118282,6 +118363,7 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Food_BaiLing.webp"
     },
     "liveComparison": {
+      "liveHash": "91dc6c0aa864cd7e384ee7cebb8b666683f4d45c6696d1344b9795f560cef827",
       "currentHash": "91dc6c0aa864cd7e384ee7cebb8b666683f4d45c6696d1344b9795f560cef827"
     }
   },
@@ -120372,7 +120454,7 @@
   },
   {
     "id": "334139",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Nefer",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -120381,12 +120463,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Char_Avatar_Nefer_Golden.webp"
     },
     "liveComparison": {
+      "liveHash": "fc5732bfc4e712a15b9ded10b67cd5790c4a32652e389b08bdc1015e294e5f15",
       "currentHash": "fc5732bfc4e712a15b9ded10b67cd5790c4a32652e389b08bdc1015e294e5f15"
     }
   },
   {
     "id": "334140",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Wayward Hermetic Spiritspeaker",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -120395,12 +120478,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Char_Monster_Udugan_Golden.webp"
     },
     "liveComparison": {
+      "liveHash": "844283ecd74164dbe5b68f8148e16812dbab0c168eb4f78b439a7925b17d200e",
       "currentHash": "844283ecd74164dbe5b68f8148e16812dbab0c168eb4f78b439a7925b17d200e"
     }
   },
   {
     "id": "334141",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Black Serpent Knight: Windcutter",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -120409,6 +120493,7 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Char_Monster_DarkwraithWind_Golden.webp"
     },
     "liveComparison": {
+      "liveHash": "818b88421646fc3902e8d45ea0d732f8f46008979ce7d6a7e1e002a9f1072fdb",
       "currentHash": "818b88421646fc3902e8d45ea0d732f8f46008979ce7d6a7e1e002a9f1072fdb"
     }
   },
@@ -122499,7 +122584,7 @@
   },
   {
     "id": "334639",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Victory Flows from the Turning of Tides",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -122508,12 +122593,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Nefer_Golden.webp"
     },
     "liveComparison": {
+      "liveHash": "56f099782b4b2c5ab750995b010f409a37199e3d1c0e6dd24a43ef6245e4e78f",
       "currentHash": "56f099782b4b2c5ab750995b010f409a37199e3d1c0e6dd24a43ef6245e4e78f"
     }
   },
   {
     "id": "334640",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Flow of Forms",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -122522,12 +122608,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Udugan_Golden.webp"
     },
     "liveComparison": {
+      "liveHash": "e07a21054fa6cba558314a4be1bcc627ba879dd21f4fd39531c08ea6fe2a67fa",
       "currentHash": "e07a21054fa6cba558314a4be1bcc627ba879dd21f4fd39531c08ea6fe2a67fa"
     }
   },
   {
     "id": "334641",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "\"Once, the Lone Wind That Kept the Dark Calamity at Bay...\"",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -122536,6 +122623,7 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_DarkwraithWind_Golden.webp"
     },
     "liveComparison": {
+      "liveHash": "8dfd05548783c77043deadecd36699d3dd846c433f0a0f6b0a1e32d531087aa3",
       "currentHash": "8dfd05548783c77043deadecd36699d3dd846c433f0a0f6b0a1e32d531087aa3"
     }
   },
@@ -125556,7 +125644,7 @@
   },
   {
     "id": "336084",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Nightmare Omen",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -125565,12 +125653,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Event_Emeng_Golden.webp"
     },
     "liveComparison": {
+      "liveHash": "1ab029b04b1bc54760d26cadd233e25d88cd87f7e90d0c8edea59bc31ff510db",
       "currentHash": "1ab029b04b1bc54760d26cadd233e25d88cd87f7e90d0c8edea59bc31ff510db"
     }
   },
   {
     "id": "336085",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Elemental Transfiguration: Aquabreeze Blessing",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -125579,12 +125668,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Resonance_WaterWind_Golden.webp"
     },
     "liveComparison": {
+      "liveHash": "b445e1c9364fac2a07cdc21e8faa827443789b517adea69cde1e91f8708d3234",
       "currentHash": "b445e1c9364fac2a07cdc21e8faa827443789b517adea69cde1e91f8708d3234"
     }
   },
   {
     "id": "336086",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Elemental Transfiguration: Thunderbloom Blessing",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -125593,6 +125683,7 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Resonance_ElecGrass_Golden.webp"
     },
     "liveComparison": {
+      "liveHash": "ed5385d9f41369acf8afa77201cfc06f5d1f73c937772baaf257e6184c44a66c",
       "currentHash": "ed5385d9f41369acf8afa77201cfc06f5d1f73c937772baaf257e6184c44a66c"
     }
   },
@@ -127338,7 +127429,7 @@
   },
   {
     "id": "337116",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Lil' Fungi's Fun-Tastic Fiesta",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -127347,12 +127438,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Event_Dongwu_Golden.webp"
     },
     "liveComparison": {
+      "liveHash": "87e562d5959ad39673d70d540d413db2b02cfb8e1c86ecb23209582e2dbec703",
       "currentHash": "87e562d5959ad39673d70d540d413db2b02cfb8e1c86ecb23209582e2dbec703"
     }
   },
   {
     "id": "337117",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "The Power of Research",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -127361,12 +127453,13 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Event_Keyan_Golden.webp"
     },
     "liveComparison": {
+      "liveHash": "ec39c6ac2d047bc6f238308b43977b4298128138f70351bcbffd3f68d9dcc763",
       "currentHash": "ec39c6ac2d047bc6f238308b43977b4298128138f70351bcbffd3f68d9dcc763"
     }
   },
   {
     "id": "337118",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Lakkaberry Pie",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
@@ -127375,6 +127468,7 @@
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Food_BaiLing_Golden.webp"
     },
     "liveComparison": {
+      "liveHash": "9bbbbae1d9470184143b5fa46d45ce8a2d417378e01ba5051877dd2c5efda55e",
       "currentHash": "9bbbbae1d9470184143b5fa46d45ce8a2d417378e01ba5051877dd2c5efda55e"
     }
   },
@@ -128565,30 +128659,32 @@
   },
   {
     "id": "340028",
-    "contentStatus": "beta",
-    "name": "???",
-    "rarity": 2,
-    "type": "Character Talent Material",
-    "description": "???",
+    "contentStatus": "live",
+    "name": "Whispers of Stars and Smoke",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "Citlali's outfit. When at home, Citlali will sometimes change into attire brimming with girlish charm. At such times, anyone troubling her with official duties has promptly come under heavy attack. Thus, this outfit has become a baleful thing, a subject of fearful rumor that all give a wide berth.",
     "assets": {
-      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_100001.webp"
+      "icon": "Nanoka/gi/assets/items/UI_AvatarIcon_CitlaliCostumeXia_Card.webp"
     },
     "liveComparison": {
-      "currentHash": "6137dac9eb9a96e123a4c0a411579a4d471784fa3daac21d37e501264abddace"
+      "liveHash": "71f03f29687992fcf16d4fc1e4af780d8ac6f7918de1d31fa9b763eba0ac0291",
+      "currentHash": "71f03f29687992fcf16d4fc1e4af780d8ac6f7918de1d31fa9b763eba0ac0291"
     }
   },
   {
     "id": "340029",
-    "contentStatus": "beta",
-    "name": "???",
-    "rarity": 2,
-    "type": "Character Talent Material",
-    "description": "???",
+    "contentStatus": "live",
+    "name": "Hurlock Variations",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "Charlotte's outfit. Once used as a filming costume for Great Detective Hurlock, this outfit was presented to Charlotte by the production crew as a keepsake after the shoot concluded.",
     "assets": {
-      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_100001.webp"
+      "icon": "Nanoka/gi/assets/items/UI_AvatarIcon_CharlotteCostumeDong_Card.webp"
     },
     "liveComparison": {
-      "currentHash": "36fca7ea361861b6e8ba15f83d342cdf350d454841e63598f5e5f758a47b21c5"
+      "liveHash": "770402619c6f22c02cbfbc47f5c3382ccf8850ab611c88a5e9f3232c662bf102",
+      "currentHash": "770402619c6f22c02cbfbc47f5c3382ccf8850ab611c88a5e9f3232c662bf102"
     }
   },
   {
@@ -130063,7 +130159,7 @@
   },
   {
     "id": "350086",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "The Nation of Hydro's Mottled Colors",
     "rarity": 4,
     "type": "Furnishing Set Blueprint",
@@ -130072,7 +130168,7 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
     },
     "liveComparison": {
-      "liveHash": "2db7f0a5b35f64cb2442e773b5c2c9589530ba2eb36d755d0f07ae37fe2f9326",
+      "liveHash": "ca3b3aaa4c75379b613b6aba8d2a9ee447c42904df348839fad1958139211c4f",
       "currentHash": "ca3b3aaa4c75379b613b6aba8d2a9ee447c42904df348839fad1958139211c4f"
     }
   },
@@ -130348,7 +130444,7 @@
   },
   {
     "id": "350105",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "A Tea Party at Leisure",
     "rarity": 4,
     "type": "Furnishing Set Blueprint",
@@ -130357,6 +130453,7 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
     },
     "liveComparison": {
+      "liveHash": "5f431d2cfe6164412ea65fc6bbee619a7b3097685c6bd584339ab44c5ec6dbcc",
       "currentHash": "5f431d2cfe6164412ea65fc6bbee619a7b3097685c6bd584339ab44c5ec6dbcc"
     }
   },
@@ -131817,21 +131914,7 @@
   },
   {
     "id": "380482",
-    "contentStatus": "beta",
-    "name": "Standing Street Lamp: Beacon in the Misty Night",
-    "rarity": 3,
-    "type": "Furnishing Blueprint",
-    "description": "A detailed step-by-step blueprint for making a \"Standing Street Lamp: Beacon in the Misty Night.\"\\nAfter using this item, you can view it in the Creation Screen.",
-    "assets": {
-      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
-    },
-    "liveComparison": {
-      "currentHash": "284577991c01637b40098937a465c6633e0b8c8c8eb1b8376bb1ada5b8db489e"
-    }
-  },
-  {
-    "id": "380483",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Movable Small Spotlight",
     "rarity": 3,
     "type": "Furnishing Blueprint",
@@ -131840,7 +131923,23 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     },
     "liveComparison": {
-      "currentHash": "3f0ae2982cc53af8b1c6b5bea0cee05310ead4949ca6456d24f5923f720e4fb9"
+      "liveHash": "4512073f96d60e46943b4a232573eda06f49480772cd620c827f2de9b6eacff2",
+      "currentHash": "4512073f96d60e46943b4a232573eda06f49480772cd620c827f2de9b6eacff2"
+    }
+  },
+  {
+    "id": "380483",
+    "contentStatus": "live",
+    "name": "Standing Street Lamp: Beacon in the Misty Night",
+    "rarity": 3,
+    "type": "Furnishing Blueprint",
+    "description": "A detailed step-by-step blueprint for making a \"Standing Street Lamp: Beacon in the Misty Night.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    },
+    "liveComparison": {
+      "liveHash": "1883b7094a322b793ca8fec08feef42ea7e1d95a33dd8faae1fff41e7e1f17d6",
+      "currentHash": "1883b7094a322b793ca8fec08feef42ea7e1d95a33dd8faae1fff41e7e1f17d6"
     }
   },
   {
@@ -133240,16 +133339,17 @@
   },
   {
     "id": "381348",
-    "contentStatus": "beta",
-    "name": "???",
+    "contentStatus": "live",
+    "name": "Tea Party Dining Table: The Perfect Gathering",
     "rarity": 3,
     "type": "Furnishing Blueprint",
-    "description": "A detailed step-by-step blueprint for making \"???.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "description": "A detailed step-by-step blueprint for making \"Tea Party Dining Table: The Perfect Gathering.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     },
     "liveComparison": {
-      "currentHash": "dd6e6afed963b6fa03696a81e93bb5ced857197c00e4f67aeca506cd229d9cdd"
+      "liveHash": "aa2b8da680cc830873f9f40b99d2f03919d115e16c2c77c51244d531dee94d70",
+      "currentHash": "aa2b8da680cc830873f9f40b99d2f03919d115e16c2c77c51244d531dee94d70"
     }
   },
   {
@@ -134094,16 +134194,17 @@
   },
   {
     "id": "382135",
-    "contentStatus": "beta",
-    "name": "???",
+    "contentStatus": "live",
+    "name": "Tea Party Chair: Crimson and Gold",
     "rarity": 3,
     "type": "Furnishing Blueprint",
-    "description": "A detailed step-by-step blueprint for making \"???.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "description": "A detailed step-by-step blueprint for making a \"Tea Party Chair: Crimson and Gold.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     },
     "liveComparison": {
-      "currentHash": "165cb789f7afe322367d5e7c30806f70dbf792bf7a0e04994938a5287e2fbfc0"
+      "liveHash": "36b80be17d26fa3fca4089e9ac3a90a6c0e6e442fc923c1667b229d963cc9d51",
+      "currentHash": "36b80be17d26fa3fca4089e9ac3a90a6c0e6e442fc923c1667b229d963cc9d51"
     }
   },
   {
@@ -135458,16 +135559,17 @@
   },
   {
     "id": "382324",
-    "contentStatus": "beta",
-    "name": "???",
+    "contentStatus": "live",
+    "name": "Tea Party Carpet: Soft to the Touch",
     "rarity": 3,
     "type": "Furnishing Blueprint",
-    "description": "A detailed step-by-step blueprint for making \"???.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "description": "A detailed step-by-step blueprint for making \"Tea Party Carpet: Soft to the Touch.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     },
     "liveComparison": {
-      "currentHash": "5035cdb45f59901ea158d6b667eac31416b20308c6406555f679c2c632598745"
+      "liveHash": "3248f6925d4ba8b25cd624dc32f274046fc616851a751d9b92362524b5187a2d",
+      "currentHash": "3248f6925d4ba8b25cd624dc32f274046fc616851a751d9b92362524b5187a2d"
     }
   },
   {
@@ -136657,16 +136759,17 @@
   },
   {
     "id": "383397",
-    "contentStatus": "beta",
-    "name": "???",
+    "contentStatus": "live",
+    "name": "Tea Party Cart: Dessert Time",
     "rarity": 4,
     "type": "Furnishing Blueprint",
-    "description": "A detailed step-by-step blueprint for making \"???.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "description": "A detailed step-by-step blueprint for making \"Tea Party Cart: Dessert Time.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     },
     "liveComparison": {
-      "currentHash": "ebe702ca1c1cadafd908247dc1ddfbd3eacca5a3bd683b29dd6de27595ae8ca7"
+      "liveHash": "f94ba9d2e9a3873cb5d2869fe170b875e5cde9953ea456c14d601d471d71e131",
+      "currentHash": "f94ba9d2e9a3873cb5d2869fe170b875e5cde9953ea456c14d601d471d71e131"
     }
   },
   {
@@ -136896,16 +136999,17 @@
   },
   {
     "id": "383416",
-    "contentStatus": "beta",
-    "name": "???",
+    "contentStatus": "live",
+    "name": "Tea Party Cup: Refreshing Flavor",
     "rarity": 3,
     "type": "Furnishing Blueprint",
-    "description": "A detailed step-by-step blueprint for making \"???.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "description": "A detailed step-by-step blueprint for making \"Tea Party Cup: Refreshing Flavor.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     },
     "liveComparison": {
-      "currentHash": "2023be3275afa3a4666c759ce65aa68b4c5b21f1fc86d553b6c460e49037888c"
+      "liveHash": "ad41ec66516ee3567030fad7ed870d78cd211a0d05c4149c942222acfaf3831b",
+      "currentHash": "ad41ec66516ee3567030fad7ed870d78cd211a0d05c4149c942222acfaf3831b"
     }
   },
   {
@@ -147125,7 +147229,7 @@
   },
   {
     "id": "393495",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Camp Barrier: Treatment Area",
     "rarity": 3,
     "type": "Furnishing Blueprint",
@@ -147134,6 +147238,7 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     },
     "liveComparison": {
+      "liveHash": "2bc2300febb3cc105421a34a2fe1c172b0122b03497deb96a95efa31cfaac1a3",
       "currentHash": "2bc2300febb3cc105421a34a2fe1c172b0122b03497deb96a95efa31cfaac1a3"
     }
   },
@@ -147829,7 +147934,7 @@
   },
   {
     "id": "393941",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Unusable Legacy",
     "rarity": 3,
     "type": "Furnishing Blueprint",
@@ -147838,6 +147943,7 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     },
     "liveComparison": {
+      "liveHash": "92b420f073e78a8d854b1407de3a7f21fd68367c65ca51f8a96742fec8672ef8",
       "currentHash": "92b420f073e78a8d854b1407de3a7f21fd68367c65ca51f8a96742fec8672ef8"
     }
   },
@@ -149928,7 +150034,7 @@
   },
   {
     "id": "394655",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Nasha Stall: Deep-Rooted Traditions",
     "rarity": 3,
     "type": "Furnishing Blueprint",
@@ -149937,12 +150043,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     },
     "liveComparison": {
+      "liveHash": "91775b08e73f861e31e9e10f9172a28578ab5bb2e140f233d0a22e2e52deb0eb",
       "currentHash": "91775b08e73f861e31e9e10f9172a28578ab5bb2e140f233d0a22e2e52deb0eb"
     }
   },
   {
     "id": "394656",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Vessel of the Past",
     "rarity": 3,
     "type": "Furnishing Blueprint",
@@ -149951,12 +150058,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     },
     "liveComparison": {
+      "liveHash": "ef14778b8baf309f92e29da5588bdc5273847bf5d7f8b4167d93c5afcbb653c8",
       "currentHash": "ef14778b8baf309f92e29da5588bdc5273847bf5d7f8b4167d93c5afcbb653c8"
     }
   },
   {
     "id": "394657",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Large Cargo Crate: Reliable Support",
     "rarity": 3,
     "type": "Furnishing Blueprint",
@@ -149965,12 +150073,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     },
     "liveComparison": {
+      "liveHash": "65e8793dac129a9ec002a7634d3ac049f1a288784297a9ffdd7bbf68df58b5ba",
       "currentHash": "65e8793dac129a9ec002a7634d3ac049f1a288784297a9ffdd7bbf68df58b5ba"
     }
   },
   {
     "id": "394658",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Medium Cargo Crate: Basic Supplies",
     "rarity": 3,
     "type": "Furnishing Blueprint",
@@ -149979,12 +150088,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     },
     "liveComparison": {
+      "liveHash": "272727901744f9bd099e5b19fc215bf5621498ee34a65c37fe3d9f93ad3ed077",
       "currentHash": "272727901744f9bd099e5b19fc215bf5621498ee34a65c37fe3d9f93ad3ed077"
     }
   },
   {
     "id": "394659",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Medium Metal Scrap Barrel",
     "rarity": 3,
     "type": "Furnishing Blueprint",
@@ -149993,12 +150103,13 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     },
     "liveComparison": {
+      "liveHash": "a608e11a7828aa01d37a7fadb19e41887f2886143b5299d84c16a5fdeba1fd66",
       "currentHash": "a608e11a7828aa01d37a7fadb19e41887f2886143b5299d84c16a5fdeba1fd66"
     }
   },
   {
     "id": "394660",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Signalless Tower",
     "rarity": 3,
     "type": "Furnishing Blueprint",
@@ -150007,6 +150118,7 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     },
     "liveComparison": {
+      "liveHash": "8af26df138a5c70e29dfa4f5797b47973b4e4f2864ede6ae283019ebf651f75c",
       "currentHash": "8af26df138a5c70e29dfa4f5797b47973b4e4f2864ede6ae283019ebf651f75c"
     }
   },
@@ -150177,21 +150289,22 @@
   },
   {
     "id": "394842",
-    "contentStatus": "beta",
-    "name": "???",
+    "contentStatus": "live",
+    "name": "Infinite Recursion Formula",
     "rarity": 3,
     "type": "Furnishing Blueprint",
-    "description": "A detailed step-by-step blueprint for making \"???.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "description": "A detailed step-by-step blueprint for making \"Infinite Recursion Formula.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     },
     "liveComparison": {
-      "currentHash": "d28451b2448dd3e8e32fe737abb4faac3f5832a41d43e79a88abb47deae22f3a"
+      "liveHash": "a895a525d621a564f7f7baf756dfcc8027028c45df77e8c8586f98a2f32d19bf",
+      "currentHash": "a895a525d621a564f7f7baf756dfcc8027028c45df77e8c8586f98a2f32d19bf"
     }
   },
   {
     "id": "394843",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Moon Envoy of Silver Radiance",
     "rarity": 4,
     "type": "Furnishing Blueprint",
@@ -150200,6 +150313,7 @@
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     },
     "liveComparison": {
+      "liveHash": "fc672a9af03588b7cb88978931dbda71659be17a8bd8844184b05d6f26734ac7",
       "currentHash": "fc672a9af03588b7cb88978931dbda71659be17a8bd8844184b05d6f26734ac7"
     }
   }

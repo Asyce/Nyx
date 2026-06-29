@@ -1048,6 +1048,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1089,6 +1093,10 @@
             "Frostflake Arrow Bloom DMG|{param10:P}",
             "Plunge DMG|{param11:F1P}",
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1136,6 +1144,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1177,6 +1189,10 @@
             "Frostflake Arrow Bloom DMG|{param10:P}",
             "Plunge DMG|{param11:F1P}",
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1224,6 +1240,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1265,6 +1285,10 @@
             "Frostflake Arrow Bloom DMG|{param10:P}",
             "Plunge DMG|{param11:F1P}",
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1312,6 +1336,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1353,6 +1381,10 @@
             "Frostflake Arrow Bloom DMG|{param10:P}",
             "Plunge DMG|{param11:F1P}",
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1400,6 +1432,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1441,6 +1477,10 @@
             "Frostflake Arrow Bloom DMG|{param10:P}",
             "Plunge DMG|{param11:F1P}",
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1488,6 +1528,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1529,6 +1573,10 @@
             "Frostflake Arrow Bloom DMG|{param10:P}",
             "Plunge DMG|{param11:F1P}",
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1576,6 +1624,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1617,6 +1669,10 @@
             "Frostflake Arrow Bloom DMG|{param10:P}",
             "Plunge DMG|{param11:F1P}",
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1664,6 +1720,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1704,6 +1764,10 @@
             "Skill DMG|{param2:P}",
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1759,6 +1823,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1792,6 +1860,10 @@
             "Skill DMG|{param2:P}",
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1847,6 +1919,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1880,6 +1956,10 @@
             "Skill DMG|{param2:P}",
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1935,6 +2015,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1968,6 +2052,10 @@
             "Skill DMG|{param2:P}",
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2023,6 +2111,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2056,6 +2148,10 @@
             "Skill DMG|{param2:P}",
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2111,6 +2207,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2144,6 +2244,10 @@
             "Skill DMG|{param2:P}",
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2199,6 +2303,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2232,6 +2340,10 @@
             "Skill DMG|{param2:P}",
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2287,6 +2399,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2320,6 +2436,10 @@
             "Skill DMG|{param2:P}",
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2382,6 +2502,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2415,6 +2539,10 @@
             "Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2470,6 +2598,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2503,6 +2635,10 @@
             "Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2558,6 +2694,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2591,6 +2731,10 @@
             "Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2646,6 +2790,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2679,6 +2827,10 @@
             "Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2734,6 +2886,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2767,6 +2923,10 @@
             "Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2822,6 +2982,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2855,6 +3019,10 @@
             "Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2910,6 +3078,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2954,6 +3126,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2987,6 +3163,10 @@
             "Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3941,5 +4121,235 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ShootArrow_Enchanted_WithoutIce",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithoutIce"
+    },
+    {
+      "name": "Bullet_Ganyu_ShootArrow_WithIce",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithIce"
+    },
+    {
+      "name": "Bullet_Ganyu_ShootArrow_WithIce_BeforeFission",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithIce_BeforeFission"
+    },
+    {
+      "name": "Bullet_Ganyu_ShootArrow_WithIce_BeforeFission",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithIce_BeforeFission"
+    },
+    {
+      "name": "Bullet_Ganyu_ShootArrow_WithIce_AfterFission",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 40
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithIce_AfterFission"
+    },
+    {
+      "name": "Bullet_Ganyu_ShootArrow_WithIce_AfterFission",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 40
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithIce_AfterFission"
+    },
+    {
+      "name": "SkillObj_Ganyu_IceBreaker_Dummy",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 80
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "damage"
+    },
+    {
+      "name": "SkillObj_Ganyu_IceBreaker_Dummy_EndBoom",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 80
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "damage"
+    },
+    {
+      "name": "UnbreakableIce",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "value": 400
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
+      "name": "Bullet_Ganyu_UnbreakableIce_Iceberg1",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 60
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "Ball",
+      "skill": "SkillObj_Ganyu_IceBreaker_Dummy",
+      "kind": "Other",
+      "element": "Cryo",
+      "per_drop": 1,
+      "lifetime": 6,
+      "chance": 100,
+      "applications": 1,
+      "drop_id": 2022
+    },
+    {
+      "name": "Ball",
+      "skill": "SkillObj_Ganyu_IceBreaker_Dummy_EndBoom",
+      "kind": "Other",
+      "element": "Cryo",
+      "per_drop": 1,
+      "lifetime": 6,
+      "chance": 100,
+      "applications": 1,
+      "drop_id": 2022
+    }
+  ]
 }

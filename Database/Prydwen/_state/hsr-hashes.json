@@ -1,6 +1,6 @@
 {
   "game": "hsr",
-  "updatedAt": "2026-06-28T08:33:51.270Z",
+  "updatedAt": "2026-06-29T10:06:05.474Z",
   "hashes": {
     "records": {
       "characters:acheron": "abd953055aca2791939469f04b2a411b3102a3f04b5e9d9cc333f662c0356009",
@@ -11,7 +11,7 @@
       "characters:arlan": "d44dbc6b8d1d2f9771f4889b2b893c1430703e84cf25ab9d6344bacb91984fe5",
       "characters:ashveil": "475c11d19be858eec135f1a17687e2fb63d3849ca8417038b833d2984a7c7ce0",
       "characters:asta": "862073437a3f931e96a8c032f3485cd04495a2b0a25e30e59ad070b3ee939bcc",
-      "characters:aventurine": "d5fc0a0a72d3fd6f786883a1ff745f8301fc83b27f8ec47ceef6a6efcda2aff2",
+      "characters:aventurine": "edb1e90fd34b0fe62b757598ac351f7f96a260fdefbd5db1406633d9df785d07",
       "characters:bailu": "ede670a9e64e913985d7348ce65f7220c1ac26c7ebba556205ff2e427e3138e4",
       "characters:black-swan": "3cc257958e443175ef0dba7744dcf979e673a628012be2087ff7fb87abe12b57",
       "characters:blade": "9b2500aa84c094fc5b587044d0c5bfaf1167ff3d78b904368fe9c13d517f5be8",
@@ -51,7 +51,7 @@
       "characters:lingsha": "65b8471703f7afa41f3da5e6f615847ae78604b884abb37e511689a28df02b75",
       "characters:luka": "8412ed48b10e6837a02b95c9cf6ac455679148547e0867a6902768f1f57442b4",
       "characters:luocha": "6d8bff28fb78011910ff1e91c78f7b1d37accb463f9c3d47b220a9d18294aea2",
-      "characters:lynx": "00f931b4796c8599588c1bf55d7d70715e29cc4e9fcfa384fd4d7af753460d86",
+      "characters:lynx": "40f3a9308dac2f30066e3cba936c78942cccaaee276db2375459ec8fce481c98",
       "characters:march-7th": "001dbec77456ab0eb6773ebcf29e1ce59bd45322876497300441f9e60b4792b1",
       "characters:march-7th-evernight": "9174246f141d62b1381287040864fd8a1ce218bd4e5fb721a1e0a844e590d4de",
       "characters:march-7th-swordmaster": "4e53588476b843d6b8da14b516ef06e5d70600571bbbc699def56dc871b466ad",
@@ -71,7 +71,7 @@
       "characters:seele": "4f885318e274d8308a7e01af00695724f3d50b1afa5cf859d16bae7e3cf0853f",
       "characters:serval": "e2e9b6bc155cb7469b25f84b8cc1a0a7388650dd766d2bbf4f8e381810b0b23b",
       "characters:silver-wolf": "6d62d4e8bbd1c9d196762ab8450fb3f13b6ceee57cdcee749095e441e65c5931",
-      "characters:silver-wolf-lv-999": "ca1afd7d334b51f05a165624b385ab44a130e204585c81870c59953286663cb1",
+      "characters:silver-wolf-lv-999": "a414e4b731f94dd5b044ac5145257e9d48a6514000c510196475d4f4e0dd715d",
       "characters:sparkle": "837796adba9924966603fcedb4d9ada2682a7b429800c9852d7d2948bb04806c",
       "characters:sparxie": "e44074491eaf9ec98372217c1eaaa9c82494f44be60ceebdbf825c58e9c82217",
       "characters:sunday": "cfd44c0b4a4f28a4490da84a07989c726d7c93fd852c1178b9ed73b5b6c780a9",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T04:58:52.253Z",
+  "generatedAt": "2026-06-29T10:08:27.139Z",
   "note": "Generic shops, crafting, exchanges, and event rewards are intentionally filtered. Rows here need scraper/wiki-specific source data.",
   "count": 188,
   "missing": [
@@ -103,7 +103,7 @@
     },
     {
       "game": "gi",
-      "context": "Lohen talents",
+      "context": "Sandrone talents",
       "id": "104319",
       "name": "Crown of Insight",
       "kind": "crown"
@@ -432,7 +432,7 @@
     },
     {
       "game": "gi",
-      "context": "Wriothesley ascension",
+      "context": "Sandrone ascension",
       "id": "101239",
       "name": "Subdetection Unit",
       "kind": "specialty"

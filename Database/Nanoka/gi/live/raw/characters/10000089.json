@@ -1001,6 +1001,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1040,6 +1044,10 @@
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
             "Spiritbreath Thorn/Surging Blade DMG|{param10:F1P}",
             "Spiritbreath Thorn/Surging Blade DMG Interval|{param11:I}s/{param12:I}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1089,6 +1097,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1128,6 +1140,10 @@
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
             "Spiritbreath Thorn/Surging Blade DMG|{param10:F1P}",
             "Spiritbreath Thorn/Surging Blade DMG Interval|{param11:I}s/{param12:I}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1177,6 +1193,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1216,6 +1236,10 @@
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
             "Spiritbreath Thorn/Surging Blade DMG|{param10:F1P}",
             "Spiritbreath Thorn/Surging Blade DMG Interval|{param11:I}s/{param12:I}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1265,6 +1289,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1304,6 +1332,10 @@
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
             "Spiritbreath Thorn/Surging Blade DMG|{param10:F1P}",
             "Spiritbreath Thorn/Surging Blade DMG Interval|{param11:I}s/{param12:I}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1353,6 +1385,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1392,6 +1428,10 @@
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
             "Spiritbreath Thorn/Surging Blade DMG|{param10:F1P}",
             "Spiritbreath Thorn/Surging Blade DMG Interval|{param11:I}s/{param12:I}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1441,6 +1481,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1480,6 +1524,10 @@
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
             "Spiritbreath Thorn/Surging Blade DMG|{param10:F1P}",
             "Spiritbreath Thorn/Surging Blade DMG Interval|{param11:I}s/{param12:I}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1529,6 +1577,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1573,6 +1625,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1612,6 +1668,10 @@
             "Low/High Plunge DMG|{param8:P}/{param9:P}",
             "Spiritbreath Thorn/Surging Blade DMG|{param10:F1P}",
             "Spiritbreath Thorn/Surging Blade DMG Interval|{param11:I}s/{param12:I}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1668,6 +1728,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1707,6 +1771,10 @@
             "Mademoiselle Crabaletta HP Consumption|{param8:F1P} Max HP",
             "Singer of Many Waters Healing|{param9:F2P} Max HP+{param10:I}",
             "CD|{param11:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1756,6 +1824,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1795,6 +1867,10 @@
             "Mademoiselle Crabaletta HP Consumption|{param8:F1P} Max HP",
             "Singer of Many Waters Healing|{param9:F2P} Max HP+{param10:I}",
             "CD|{param11:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1844,6 +1920,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1883,6 +1963,10 @@
             "Mademoiselle Crabaletta HP Consumption|{param8:F1P} Max HP",
             "Singer of Many Waters Healing|{param9:F2P} Max HP+{param10:I}",
             "CD|{param11:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1932,6 +2016,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1971,6 +2059,10 @@
             "Mademoiselle Crabaletta HP Consumption|{param8:F1P} Max HP",
             "Singer of Many Waters Healing|{param9:F2P} Max HP+{param10:I}",
             "CD|{param11:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2020,6 +2112,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2059,6 +2155,10 @@
             "Mademoiselle Crabaletta HP Consumption|{param8:F1P} Max HP",
             "Singer of Many Waters Healing|{param9:F2P} Max HP+{param10:I}",
             "CD|{param11:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2108,6 +2208,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2147,6 +2251,10 @@
             "Mademoiselle Crabaletta HP Consumption|{param8:F1P} Max HP",
             "Singer of Many Waters Healing|{param9:F2P} Max HP+{param10:I}",
             "CD|{param11:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2196,6 +2304,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2240,6 +2352,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2279,6 +2395,10 @@
             "Mademoiselle Crabaletta HP Consumption|{param8:F1P} Max HP",
             "Singer of Many Waters Healing|{param9:F2P} Max HP+{param10:I}",
             "CD|{param11:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2335,6 +2455,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2371,6 +2495,10 @@
             "Fanfare to Incoming Healing Bonus Conversion Ratio|{param6:F2P}",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2423,6 +2551,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2459,6 +2591,10 @@
             "Fanfare to Incoming Healing Bonus Conversion Ratio|{param6:F2P}",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2511,6 +2647,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2547,6 +2687,10 @@
             "Fanfare to Incoming Healing Bonus Conversion Ratio|{param6:F2P}",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2599,6 +2743,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2635,6 +2783,10 @@
             "Fanfare to Incoming Healing Bonus Conversion Ratio|{param6:F2P}",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2687,6 +2839,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2723,6 +2879,10 @@
             "Fanfare to Incoming Healing Bonus Conversion Ratio|{param6:F2P}",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2775,6 +2935,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2811,6 +2975,10 @@
             "Fanfare to Incoming Healing Bonus Conversion Ratio|{param6:F2P}",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2863,6 +3031,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2907,6 +3079,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2943,6 +3119,10 @@
             "Fanfare to Incoming Healing Bonus Conversion Ratio|{param6:F2P}",
             "CD|{param7:F1}s",
             "Energy Cost|{param8:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3894,5 +4074,220 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ArkheGrade_Handler",
+      "icd": {
+        "tag": "NormalAttack_05",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "Furina_ArkheGrade_PneumaDMG"
+    },
+    {
+      "name": "ArkheGrade_Handler",
+      "icd": {
+        "tag": "NormalAttack_05",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "Furina_ArkheGrade_OusiaDMG"
+    },
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Default"
+    },
+    {
+      "name": "Furina_Octopus_EnergyLaserHit",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Furina_Octopus"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 15
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Default"
+    },
+    {
+      "name": "Furina_SeaHorse_WaterBulletHit",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Furina_SeaHorse"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Default"
+    },
+    {
+      "name": "Furina_HermitCrab_JumpAttack",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 30
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 120
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "GenerateElemBall",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Hydro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "cd": 2.5,
+      "applications": 1,
+      "drop_id": 2018
+    }
+  ]
 }

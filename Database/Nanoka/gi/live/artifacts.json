@@ -3367,7 +3367,7 @@
         "id": "2150051",
         "pieces": 4,
         "name": "Thundering Fury",
-        "description": "Increases the DMG caused by Overloaded, Electro-Charged, Superconduct, and Hyperbloom by 40%, the DMG Bonus conferred by Aggravate by 20%, and the DMG caused by Lunar-Charged by 20%. When Quicken or the aforementioned Elemental Reactions are triggered, Elemental Skill CD is decreased by 1s. Can only occur once every 0.8s.",
+        "description": "Increases the DMG caused by Overloaded, Electro-Charged, Superconduct, and Hyperbloom by 40%, the DMG Bonus conferred by Aggravate by 20%, and the DMG caused by Lunar-Charged and Stellar-Conduct by 20%. When Quicken or the aforementioned Elemental Reactions are triggered, Elemental Skill CD is decreased by 1s. Can only occur once every 0.8s.",
         "params": [
           0.4,
           0.8,
@@ -9289,11 +9289,11 @@
         "id": "2150461",
         "pieces": 4,
         "name": "Disenchantment in Deep Shadow",
-        "description": "Increases Superconduct Reaction DMG by 80%. When the equipping character attacks opponents affected by Superconduct, this attack's CRIT Rate is increased by 16%. An all-new blessing may be obtained as you make your way toward Snezhnaya...",
+        "description": "Increases Superconduct Reaction DMG by 80% and Stellar-Conduct Reaction DMG by 40%. When the wielder attacks opponents affected by Superconduct or Stellar-Conduct, this attack's CRIT Rate is increased by 16%.",
         "params": [
           0.8,
           0.16,
-          0,
+          0.4,
           0,
           0,
           0,

@@ -343,7 +343,7 @@
   "refinement": {
     "1": {
       "name": "Golden Blood-Tide",
-      "desc": "ATK is increased by <color=#99FFFFFF>16%</color>. When current HP increases or decreases, Normal Attack DMG is increased by <color=#99FFFFFF>16%</color>, Charged Attack DMG is increased by <color=#99FFFFFF>14%</color>, and Stellar-Conduct DMG is increased by 14% for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>8%</color>.",
+      "desc": "ATK is increased by <color=#99FFFFFF>16%</color>. When current HP increases or decreases, Normal Attack DMG is increased by <color=#99FFFFFF>16%</color>, Charged Attack DMG is increased by <color=#99FFFFFF>14%</color>, and Stellar-Conduct DMG is increased by <color=#99FFFFFF>14%</color> for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>8%</color>.",
       "param_list": [
         4,
         0.3,
@@ -357,7 +357,7 @@
     },
     "2": {
       "name": "Golden Blood-Tide",
-      "desc": "ATK is increased by <color=#99FFFFFF>20%</color>. When current HP increases or decreases, Normal Attack DMG is increased by <color=#99FFFFFF>20%</color>, Charged Attack DMG is increased by <color=#99FFFFFF>17.5%</color>, and Stellar-Conduct DMG is increased by 17.5% for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>10%</color>.",
+      "desc": "ATK is increased by <color=#99FFFFFF>20%</color>. When current HP increases or decreases, Normal Attack DMG is increased by <color=#99FFFFFF>20%</color>, Charged Attack DMG is increased by <color=#99FFFFFF>17.5%</color>, and Stellar-Conduct DMG is increased by <color=#99FFFFFF>17.5%</color> for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>10%</color>.",
       "param_list": [
         4,
         0.3,
@@ -371,7 +371,7 @@
     },
     "3": {
       "name": "Golden Blood-Tide",
-      "desc": "ATK is increased by <color=#99FFFFFF>24%</color>. When current HP increases or decreases, Normal Attack DMG is increased by <color=#99FFFFFF>24%</color>, Charged Attack DMG is increased by <color=#99FFFFFF>21%</color>, and Stellar-Conduct DMG is increased by 21% for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>12%</color>.",
+      "desc": "ATK is increased by <color=#99FFFFFF>24%</color>. When current HP increases or decreases, Normal Attack DMG is increased by <color=#99FFFFFF>24%</color>, Charged Attack DMG is increased by <color=#99FFFFFF>21%</color>, and Stellar-Conduct DMG is increased by <color=#99FFFFFF>21%</color> for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>12%</color>.",
       "param_list": [
         4,
         0.3,
@@ -385,7 +385,7 @@
     },
     "4": {
       "name": "Golden Blood-Tide",
-      "desc": "ATK is increased by <color=#99FFFFFF>28%</color>. When current HP increases or decreases, Normal Attack DMG is increased by <color=#99FFFFFF>28%</color>, Charged Attack DMG is increased by <color=#99FFFFFF>24.5%</color>, and Stellar-Conduct DMG is increased by 24.5% for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>14%</color>.",
+      "desc": "ATK is increased by <color=#99FFFFFF>28%</color>. When current HP increases or decreases, Normal Attack DMG is increased by <color=#99FFFFFF>28%</color>, Charged Attack DMG is increased by <color=#99FFFFFF>24.5%</color>, and Stellar-Conduct DMG is increased by <color=#99FFFFFF>24.5%</color> for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>14%</color>.",
       "param_list": [
         4,
         0.3,
@@ -399,7 +399,7 @@
     },
     "5": {
       "name": "Golden Blood-Tide",
-      "desc": "ATK is increased by <color=#99FFFFFF>32%</color>. When current HP increases or decreases, Normal Attack DMG is increased by <color=#99FFFFFF>32%</color>, Charged Attack DMG is increased by <color=#99FFFFFF>28%</color>, and Stellar-Conduct DMG is increased by 28% for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>16%</color>.",
+      "desc": "ATK is increased by <color=#99FFFFFF>32%</color>. When current HP increases or decreases, Normal Attack DMG is increased by <color=#99FFFFFF>32%</color>, Charged Attack DMG is increased by <color=#99FFFFFF>28%</color>, and Stellar-Conduct DMG is increased by <color=#99FFFFFF>28%</color> for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by <color=#99FFFFFF>16%</color>.",
       "param_list": [
         4,
         0.3,

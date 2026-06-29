@@ -189632,7 +189632,7 @@
     },
     "effect": {
       "name": "Spring Wreath",
-      "description": "Max HP is increased by {0}. Casting Resonance Liberation restores {1}Concerto Energy. This effect is triggered once every 20s. Casting Intro Skill or Resonance Skill grants nearby Resonators in the team Kingfisher for 30s. If the wielder is on the field, Resonators with Kingfisher have their ATK increased by {2}. If the wielder is not on the field, gain Tinted Snow for 6s each time they inflict Glacio Chafe, and gain Ripples  for 6s each time they apply healing. Having Tinted Snow and Ripples simoutaneously enhances Kingfisher's effect. If the wielder has applied healing and inflicted Glacio Chafe while on the field, they gain both Tinted Snow and Ripples for 6s upon casting Outro Skill, and resets the aforementioned effects. Effects of the same name cannot be stacked.",
+      "description": "Increases Max HP by {0}. Casting Resonance Liberation restores {1} points of Concerto Energy, triggered once every 20s. Inflicting Glacio Chafe grants Snow Taint for 6s. Applying healing grants Ripples for 6s. If the wielder has done both while on the field, the next Outro Skill grants both effects for 6s. When the wielder has both Snow Taint and Ripples, the ATK of all nearby Resonators in the team is increased by {2}. Effects of the same name do not stack.",
       "params": [
         [
           "12%",
@@ -189847,7 +189847,7 @@
       ]
     },
     "liveComparison": {
-      "currentHash": "48cf19a631705301a2e623adf53659baff537d66ea6e3a473d3b9660e0295a70"
+      "currentHash": "72584ca7b32c803aaa778874ad8d687d78c7540288f28d79880caf8f835c2aea"
     }
   },
   {

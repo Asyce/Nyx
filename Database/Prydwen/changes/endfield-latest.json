@@ -1,34 +1,21 @@
 {
   "provider": "Prydwen",
   "game": "endfield",
-  "generatedAt": "2026-06-28T08:33:51.270Z",
+  "generatedAt": "2026-06-29T10:06:05.474Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 2,
-      "unchanged": 29
+      "changed": 0,
+      "unchanged": 31
     }
   },
   "sections": {
     "records": {
       "added": [],
       "removed": [],
-      "changed": [
-        {
-          "id": "characters:camille",
-          "name": "Camille",
-          "previousHash": "aa81be6fea16ec0132f1ca8569004733cc1d149d32ec2be8f980af9c81ebfd48",
-          "currentHash": "4117f272e87f89e9fef89080163a4ae7268f0dd74332a4510375f3565f191c39"
-        },
-        {
-          "id": "characters:tangtang",
-          "name": "Tangtang",
-          "previousHash": "00af77c8d6c4eadeb5dbca163dd04e7bbd63a94138fba4ba9f448ba6b71aa2af",
-          "currentHash": "2e6c936f47fe205d93b206ff5b4a962f32198a0d9d74d25b10eca0d9311d7cab"
-        }
-      ],
-      "unchanged": 29,
+      "changed": [],
+      "unchanged": 31,
       "totals": {
         "previous": 31,
         "current": 31

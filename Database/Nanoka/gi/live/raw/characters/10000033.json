@@ -1059,6 +1059,10 @@
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1101,6 +1105,10 @@
             "Riptide Duration|{param14:F1}s",
             "Plunge DMG|{param11:F1P}",
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -1147,6 +1155,10 @@
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1189,6 +1201,10 @@
             "Riptide Duration|{param14:F1}s",
             "Plunge DMG|{param11:F1P}",
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -1235,6 +1251,10 @@
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1277,6 +1297,10 @@
             "Riptide Duration|{param14:F1}s",
             "Plunge DMG|{param11:F1P}",
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -1323,6 +1347,10 @@
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1365,6 +1393,10 @@
             "Riptide Duration|{param14:F1}s",
             "Plunge DMG|{param11:F1P}",
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -1411,6 +1443,10 @@
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1453,6 +1489,10 @@
             "Riptide Duration|{param14:F1}s",
             "Plunge DMG|{param11:F1P}",
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -1499,6 +1539,10 @@
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1541,6 +1585,10 @@
             "Riptide Duration|{param14:F1}s",
             "Plunge DMG|{param11:F1P}",
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -1587,6 +1635,10 @@
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1631,6 +1683,10 @@
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1673,6 +1729,10 @@
             "Riptide Duration|{param14:F1}s",
             "Plunge DMG|{param11:F1P}",
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -1726,6 +1786,10 @@
             "Max CD|{param16:F1}s",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1768,6 +1832,10 @@
             "Max Duration|{param13:F1}s",
             "Preemptive CD|{param14:F1}-{param15:F1}s",
             "Max CD|{param16:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -1814,6 +1882,10 @@
             "Max CD|{param16:F1}s",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1856,6 +1928,10 @@
             "Max Duration|{param13:F1}s",
             "Preemptive CD|{param14:F1}-{param15:F1}s",
             "Max CD|{param16:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -1902,6 +1978,10 @@
             "Max CD|{param16:F1}s",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1944,6 +2024,10 @@
             "Max Duration|{param13:F1}s",
             "Preemptive CD|{param14:F1}-{param15:F1}s",
             "Max CD|{param16:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -1990,6 +2074,10 @@
             "Max CD|{param16:F1}s",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2032,6 +2120,10 @@
             "Max Duration|{param13:F1}s",
             "Preemptive CD|{param14:F1}-{param15:F1}s",
             "Max CD|{param16:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -2078,6 +2170,10 @@
             "Max CD|{param16:F1}s",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2120,6 +2216,10 @@
             "Max Duration|{param13:F1}s",
             "Preemptive CD|{param14:F1}-{param15:F1}s",
             "Max CD|{param16:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -2166,6 +2266,10 @@
             "Max CD|{param16:F1}s",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2208,6 +2312,10 @@
             "Max Duration|{param13:F1}s",
             "Preemptive CD|{param14:F1}-{param15:F1}s",
             "Max CD|{param16:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -2254,6 +2362,10 @@
             "Max CD|{param16:F1}s",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2298,6 +2410,10 @@
             "Max CD|{param16:F1}s",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2340,6 +2456,10 @@
             "Max Duration|{param13:F1}s",
             "Preemptive CD|{param14:F1}-{param15:F1}s",
             "Max CD|{param16:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -2393,6 +2513,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2428,6 +2552,10 @@
             "Energy Return (Ranged)|{param4:I}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2481,6 +2609,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2516,6 +2648,10 @@
             "Energy Return (Ranged)|{param4:I}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2569,6 +2705,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2604,6 +2744,10 @@
             "Energy Return (Ranged)|{param4:I}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2657,6 +2801,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2692,6 +2840,10 @@
             "Energy Return (Ranged)|{param4:I}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2745,6 +2897,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2780,6 +2936,10 @@
             "Energy Return (Ranged)|{param4:I}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2833,6 +2993,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2868,6 +3032,10 @@
             "Energy Return (Ranged)|{param4:I}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2921,6 +3089,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2965,6 +3137,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -3000,6 +3176,10 @@
             "Energy Return (Ranged)|{param4:I}",
             "CD|{param5:F1}s",
             "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3952,5 +4132,328 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ShootArrow_Enchanted_Water",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithWater"
+    },
+    {
+      "name": "ShootArrow_Enchanted_Water",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithoutWater"
+    },
+    {
+      "name": "ShootArrow_Enchanted_WithoutWater",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithoutWater"
+    },
+    {
+      "name": "WaterFlower_Handler",
+      "icd": {
+        "tag": "NormalAttack_05",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV2",
+        "value": 100
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "AquaFlower_Kill_Damage"
+    },
+    {
+      "name": "WaterFlower_Handler",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 15
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "AquaFlower_Range_Damage"
+    },
+    {
+      "name": "WaterFlower_Handler",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 15
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "AquaFlower_Range_Damage"
+    },
+    {
+      "name": "WaterFlower_Handler",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 15
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "AquaFlower_Range_Damage"
+    },
+    {
+      "name": "WaterFlower_Handler",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 15
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "AquaFlower_Range_Damage"
+    },
+    {
+      "name": "WaterFlower_Handler",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 100
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "AquaFlower_Melee_Damage"
+    },
+    {
+      "name": "WaterFlower_Handler",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 100
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "AquaFlower_Melee_Damage"
+    },
+    {
+      "name": "WaterFlower_Handler",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV7",
+        "value": 100
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "AquaFlower_Reaper_Damage"
+    },
+    {
+      "name": "Gandalfr",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV3",
+        "value": 51.75
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Gandalfr_StartDamage"
+    },
+    {
+      "name": "AquariaBlade_Melee",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV7",
+        "value": 250
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "AquariaBlade_Melee_Damage"
+    },
+    {
+      "name": "AquariaBlade_Range_Gadget",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV5",
+        "value": 200
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Pierce",
+      "damage_param": "AquariaBlade_Range_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "WaterMagicArrow_AquaFlower_Range",
+      "skill": "WaterFlower_Handler",
+      "kind": "Other",
+      "element": "Hydro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "cd": 0.7,
+      "applications": 1,
+      "drop_id": 2018
+    },
+    {
+      "name": "WaterMagicArrow_AquaFlower_Range_Talent",
+      "skill": "WaterFlower_Handler",
+      "kind": "Other",
+      "element": "Hydro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "cd": 0.7,
+      "applications": 1,
+      "drop_id": 2018
+    },
+    {
+      "name": "WaterMagicArrow_AquaFlower_Melee",
+      "skill": "WaterFlower_Handler",
+      "kind": "Other",
+      "element": "Hydro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "cd": 1.5,
+      "applications": 1,
+      "drop_id": 2018
+    },
+    {
+      "name": "WaterMagicArrow_AquaFlower_Melee_Talent",
+      "skill": "WaterFlower_Handler",
+      "kind": "Other",
+      "element": "Hydro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "cd": 1.5,
+      "applications": 1,
+      "drop_id": 2018
+    }
+  ]
 }

@@ -112,7 +112,7 @@
     "icon": "UI_MonsterIcon_Slime_Fire_03",
     "en": "Large Pyro Slime",
     "desc": "A monster created by the sedimentation of Pyro dispersed throughout nature.\\nThough its intelligence has not increased with its size, it is very hot. During dry seasons, it can cause wildfires. It will spit forth blazing fireballs when angered, and will turn dark when it is feeling down. A most expressive slime, indeed.",
-    "ko": "거대 화염 슬라임",
+    "ko": "",
     "zh": "大型火史莱姆",
     "ja": "大型炎スライム"
   },
@@ -931,7 +931,7 @@
     "icon": "UI_MonsterIcon_Skirmisher_Male_Fat_SprayGun_Water_01",
     "en": "Fatui Skirmisher - Hydrogunner Legionnaire",
     "desc": "A soldier encased within a Fatui war machine.\\nArmed with equipment that can control the elements to a certain extent, their guns are capable of firing jets of water.\\nThese skirmishers do not question if they shall live or die as they advance into nations far from home to complete reconnaissance missions and lay the groundwork for operations to come.",
-    "ko": "우인단 선발대·물총 중보병",
+    "ko": "",
     "zh": "愚人众先遣队·水铳重卫士",
     "ja": "ファデュイ先遣隊·重衛士·水銃"
   },
@@ -1084,7 +1084,7 @@
     "icon": "UI_MonsterIcon_Oprichnik_Male_Strong_LanceArquebus",
     "en": "Oprichniki Fireblade Shock Trooper",
     "desc": "An elite officer of the Fatui Oprichniki who specializes in close combat using a giant blade.\\nWhether it be in the war against the dark calamity or against those ignoramuses who dare stand against the Tsaritsa's ideals, those who breach at the tip of the spear suffer the greatest casualties. As such, those who survive multiple battles are naturally the elite of the elite. There will always be those willing to become the fire and sword of the empire, just as there will always be those who chafe against the injustice of fate and the inequity of the Old World.",
-    "ko": "우인단 특수부대·화염검 돌격대",
+    "ko": "",
     "zh": "愚人众特辖队·火刃突击队",
     "ja": "ファデュイ特務隊・突撃兵・ファイアーブレイド"
   },
@@ -1246,9 +1246,9 @@
     "icon": "UI_MonsterIcon_Apparatus_Enigma_BionicInsecta",
     "en": "Ruin Defender",
     "desc": "Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals.\\nLegend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common Ruin Guards, their design has greater value in the study of biomimesis. The insect-like limbs are more agile than those of humanoid machines. The shield formed by its various components can resist any frontal attack.",
-    "ko": "유적 방어자",
+    "ko": "",
     "zh": "遗迹防卫者",
-    "ja": "遺跡防衛者"
+    "ja": ""
   },
   "24020401": {
     "codex": "AUTOMATRON",
@@ -1363,7 +1363,7 @@
     "icon": "UI_MonsterIcon_MachinaIustitia_Recon",
     "en": "Underwater Survey Mek",
     "desc": "A clockwork meka designed for underwater surveying.\\nIn the absence of significant breakthroughs in dynamics research, kinematics research has had the most significant impact on clockwork meka design. For machines designed to perform specific tasks, biomimesis has sometimes provided the most convenient solutions.",
-    "ko": "장치·수중 탐측 타입",
+    "ko": "",
     "zh": "机关·水下勘测型",
     "ja": "マシナリー·水中観測型"
   },
@@ -1484,6 +1484,15 @@
     "zh": "秘源机兵·统御械",
     "ja": "秘源機兵・統御デバイス"
   },
+  "24090601": {
+    "codex": "AUTOMATRON",
+    "icon": "UI_MonsterIcon_Monitor_01",
+    "en": "Precursor's Secret Source Matrix of Overseer Network",
+    "desc": "An ancient machine trapped amongst the lunar ruins. Even the sturdiest and most reliable machines will be conquered by the passing of long years, losing the purpose bestowed upon them by their creators. Now, this entity only attacks and eliminates anything that dares set foot on the ground it defends.\\nIn the records of a long-lost ancient civilization, these out-of-control machines were once called \"Ur-Namrasit-Tilimtu-Babbar,\" or \"the one who brings light to the darkness.\" With a yearning for the boundless sea of stars, the leaders of the \"pioneers\" engraved their most earnest words in golden sigils, hoping that their successors, with the help of these assistants, would be able to keep the light that illuminates the universe shining bright.\\nAlas, the light did not arise for anyone, and the machine that was given the title of \"overseer\" did not manage to wait for the one it should have served. Now, stranded in these ruins, it is but the last, out-of-control remnant of a long-lost ideal.",
+    "ko": "선구자의 비밀근원 관리체계",
+    "zh": "先驱秘源统辖阵列",
+    "ja": "先駆秘源コマンダー陣形"
+  },
   "24100101": {
     "codex": "AUTOMATRON",
     "icon": "UI_MonsterIcon_Gastrobot_01",
@@ -1579,7 +1588,7 @@
     "icon": "UI_MonsterIcon_Thoarder_Male_Crossbow_01",
     "en": "Treasure Hoarders: Raptor",
     "desc": "",
-    "ko": "보물 사냥단·「괴조」",
+    "ko": "",
     "zh": "盗宝团·「怪鸟」",
     "ja": "宝盗団·「怪鳥」"
   },
@@ -2263,7 +2272,7 @@
     "icon": "UI_MonsterIcon_Fungus_Un_Delta_Wind",
     "en": "Floating Anemo Fungus",
     "desc": "A spore organism of some intelligence. It possesses extreme adaptability.\\nThis mushroom may have a sizable cap, but the umbrella-shaped structure is in fact hollow, and thus does not make for a particularly good meal.",
-    "ko": "둥실 바람 버섯몬",
+    "ko": "",
     "zh": "浮游风蕈兽",
     "ja": "プカプカ風キノコン"
   },
@@ -2281,7 +2290,7 @@
     "icon": "UI_MonsterIcon_Fungus_Trois_Alpha_Ice",
     "en": "Whirling Cryo Fungus",
     "desc": "A spore organism of some intelligence. It possesses extreme adaptability.\\nPutting Fungi on ice does not make them taste any better, but it does at least help with relieving the heat.",
-    "ko": "빙글 얼음 버섯몬",
+    "ko": "",
     "zh": "旋转冰蕈兽",
     "ja": "グルグル氷キノコン"
   },
@@ -4526,6 +4535,15 @@
     "zh": "夜色明眼鱼",
     "ja": "夜色デメニギス"
   },
+  "28041901": {
+    "codex": "CRITTER",
+    "icon": "UI_AnimalIcon_JellyFish_02",
+    "en": "Moonglow Jellyfish",
+    "desc": "A primitive animal with an exceedingly simple body structure.\\nIn the poetry of ancient Fontaine, jellyfish were often paired with butterflies as symbols of the soul. People of bygone times and Remurian philosophers alike embraced this idea: that the soul dwells within the body as a butterfly is born from a caterpillar; that the soul passes endlessly through all waters, or through melody itself, just as a jellyfish grants itself new life at the moment of its own death.\\nAs an aside, the followers of the Mistress of Many Waters, later known as the illustrious and noble Lochknights, denounced the Remurian philosophers' views with righteous fury, branding them heresy that had to be cast aside entirely. As for how those views differed from their own beliefs, that was apparently a much deeper matter of principle, and not one to be discussed lightly.",
+    "ko": "달빛 해파리",
+    "zh": "月芒水母",
+    "ja": "月光クラゲ"
+  },
   "28050101": {
     "codex": "CRITTER",
     "icon": "UI_AnimalIcon_Wisp_Wind_01",
@@ -4768,6 +4786,15 @@
     "ko": "서리 범고래",
     "zh": "霜鳍鲸",
     "ja": "フロストフィンイルカ"
+  },
+  "28070801": {
+    "codex": "FISH",
+    "icon": "UI_AnimalIcon_Orca_01_Alter",
+    "en": "Moonglow Frostfin Whale",
+    "desc": "A wondrous aquatic creature altered by the influence of kuuvahki.\\nAccording to the studies of the Snezhnayan biologist Hvylyolo Verkhratsky five hundred years ago, the concentration of kuuvahki on the surface is generally considered too low to cause physical changes in creatures of such enormous size. Perhaps that is why these rare, differently colored individuals have taken on a more romantic meaning. In the folk tales of Nod-Krai, it is said that anyone who sees a pink Frostfin Whale will have their wish come true. Some versions of the tales of Reed Miller, the legendary thief, even tell of a so-called \"King of Whales\" who helped Reed and his merry companions resist the sirens' bewitching song — and, in turn, caused the siren queen herself to fall in love with him at first sight.\\nBut tall tales are still tall tales, and a pink whale, in the end, is still only a whale.",
+    "ko": "달빛 서리 범고래",
+    "zh": "月芒霜鳍鲸",
+    "ja": "月光フロストフィンイルカ"
   },
   "29010101": {
     "codex": "BOSS",

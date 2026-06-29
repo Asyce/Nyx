@@ -343,7 +343,7 @@
   "refinement": {
     "1": {
       "name": "Overloaded",
-      "desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>20%</color> for 12s.",
+      "desc": "Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>20%</color> for 12s.",
       "param_list": [
         0.2,
         12,
@@ -357,7 +357,7 @@
     },
     "2": {
       "name": "Overloaded",
-      "desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>25%</color> for 12s.",
+      "desc": "Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>25%</color> for 12s.",
       "param_list": [
         0.25,
         12,
@@ -371,7 +371,7 @@
     },
     "3": {
       "name": "Overloaded",
-      "desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>30%</color> for 12s.",
+      "desc": "Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>30%</color> for 12s.",
       "param_list": [
         0.3,
         12,
@@ -385,7 +385,7 @@
     },
     "4": {
       "name": "Overloaded",
-      "desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>35%</color> for 12s.",
+      "desc": "Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>35%</color> for 12s.",
       "param_list": [
         0.35,
         12,
@@ -399,7 +399,7 @@
     },
     "5": {
       "name": "Overloaded",
-      "desc": "Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>40%</color> for 12s.",
+      "desc": "Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by <color=#99FFFFFF>40%</color> for 12s.",
       "param_list": [
         0.4,
         12,

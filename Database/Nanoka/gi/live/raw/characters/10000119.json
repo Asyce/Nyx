@@ -982,6 +982,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1022,6 +1026,10 @@
             "Spiritcall Prayer DMG|{param9:F1P}",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1070,6 +1078,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1110,6 +1122,10 @@
             "Spiritcall Prayer DMG|{param9:F1P}",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1158,6 +1174,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1198,6 +1218,10 @@
             "Spiritcall Prayer DMG|{param9:F1P}",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1246,6 +1270,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1286,6 +1314,10 @@
             "Spiritcall Prayer DMG|{param9:F1P}",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1334,6 +1366,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1374,6 +1410,10 @@
             "Spiritcall Prayer DMG|{param9:F1P}",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1422,6 +1462,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1462,6 +1506,10 @@
             "Spiritcall Prayer DMG|{param9:F1P}",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1510,6 +1558,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1554,6 +1606,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1594,6 +1650,10 @@
             "Spiritcall Prayer DMG|{param9:F1P}",
             "Plunge DMG|{param10:F1P}",
             "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1649,6 +1709,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1687,6 +1751,10 @@
             "Elemental RES Decrease|{param8:F1P}",
             "Elemental RES Decrease Duration|{param9:F1}s",
             "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1737,6 +1805,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1775,6 +1847,10 @@
             "Elemental RES Decrease|{param8:F1P}",
             "Elemental RES Decrease Duration|{param9:F1}s",
             "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1825,6 +1901,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1863,6 +1943,10 @@
             "Elemental RES Decrease|{param8:F1P}",
             "Elemental RES Decrease Duration|{param9:F1}s",
             "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1913,6 +1997,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1951,6 +2039,10 @@
             "Elemental RES Decrease|{param8:F1P}",
             "Elemental RES Decrease Duration|{param9:F1}s",
             "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2001,6 +2093,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2039,6 +2135,10 @@
             "Elemental RES Decrease|{param8:F1P}",
             "Elemental RES Decrease Duration|{param9:F1}s",
             "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2089,6 +2189,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2127,6 +2231,10 @@
             "Elemental RES Decrease|{param8:F1P}",
             "Elemental RES Decrease Duration|{param9:F1}s",
             "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2177,6 +2285,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2221,6 +2333,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2259,6 +2375,10 @@
             "Elemental RES Decrease|{param8:F1P}",
             "Elemental RES Decrease Duration|{param9:F1}s",
             "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2316,6 +2436,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2352,6 +2476,10 @@
             "Pale Hymn Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2404,6 +2532,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2440,6 +2572,10 @@
             "Pale Hymn Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2492,6 +2628,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2528,6 +2668,10 @@
             "Pale Hymn Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2580,6 +2724,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2616,6 +2764,10 @@
             "Pale Hymn Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2668,6 +2820,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2704,6 +2860,10 @@
             "Pale Hymn Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2756,6 +2916,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2792,6 +2956,10 @@
             "Pale Hymn Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2844,6 +3012,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2888,6 +3060,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2924,6 +3100,10 @@
             "Pale Hymn Duration|{param5:F1}s",
             "CD|{param6:F1}s",
             "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3904,5 +4084,290 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 30
+      },
+      "element": "Grass",
+      "attack_type": "None",
+      "strike_type": "Default",
+      "damage_param": "DeerAttack_Damage_Attack"
+    },
+    {
+      "name": "ElementalArt_Click",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Grass",
+      "attack_type": "None",
+      "strike_type": "Default",
+      "damage_param": "Elemental_Art_Click_Damage"
+    },
+    {
+      "name": "ElementalArt_Hold",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Grass",
+      "attack_type": "None",
+      "strike_type": "Default",
+      "damage_param": "Elemental_Art_Hold_Damage"
+    },
+    {
+      "name": "ElementalArt_Hold",
+      "icd": {
+        "tag": "MoonOvergrowDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV1",
+        "value": 30
+      },
+      "element": "Grass",
+      "attack_type": "None",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalArt_Hold",
+      "icd": {
+        "tag": "MoonOvergrowDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV1",
+        "value": 30
+      },
+      "element": "Grass",
+      "attack_type": "None",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalArt_Hold",
+      "icd": {
+        "tag": "MoonOvergrowDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV1",
+        "value": 30
+      },
+      "element": "Grass",
+      "attack_type": "None",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "MoonOvergrowDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV1",
+        "value": 30
+      },
+      "element": "Grass",
+      "attack_type": "None",
+      "strike_type": "Default"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "Attack01",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 7.4
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_01_Damage"
+    },
+    {
+      "name": "Attack01",
+      "icd": {
+        "tag": "MoonOvergrowDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 7.4
+      },
+      "element": "Grass",
+      "attack_type": "None",
+      "strike_type": "Default"
+    },
+    {
+      "name": "Attack02",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 7.32
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_02_Damage"
+    },
+    {
+      "name": "Attack02",
+      "icd": {
+        "tag": "MoonOvergrowDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 7.32
+      },
+      "element": "Grass",
+      "attack_type": "None",
+      "strike_type": "Default"
+    },
+    {
+      "name": "Attack03",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_03_Damage"
+    },
+    {
+      "name": "Attack03",
+      "icd": {
+        "tag": "MoonOvergrowDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Grass",
+      "attack_type": "None",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ExtraAttack_Damage",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 80
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ExtraAttack_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementalArt_DropBall",
+      "skill": "OtherLogic",
+      "kind": "ElementalArt",
+      "element": "Dendro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 66.66667,
+      "cd": 3.3,
+      "applications": 1,
+      "drop_id": 2019
+    },
+    {
+      "name": "ElementalArt_DropBall",
+      "skill": "OtherLogic",
+      "kind": "ElementalArt",
+      "element": "Dendro",
+      "per_drop": 1,
+      "lifetime": 6,
+      "chance": 33.333330000000004,
+      "cd": 3.3,
+      "applications": 1,
+      "drop_id": 2019
+    }
+  ]
 }

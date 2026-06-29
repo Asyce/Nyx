@@ -1127,6 +1127,18 @@
     "zh": "狼的武功歌",
     "ja": "狼の武勲詩"
   },
+  "12516": {
+    "icon": "UI_EquipIcon_Claymore_CrystallineSword",
+    "rank": 5,
+    "type": "WEAPON_CLAYMORE",
+    "en": "A Teaspoon of Transcendence",
+    "atk": 674,
+    "sub": "FIGHT_PROP_CRITICAL_HURT",
+    "desc": "An object of fantasy with countless definitions amidst an endless sea of stories. On the grand scale of the universe or the realm of dreams, there is no real difference between the holy sword of the brave warrior and the princess's teaspoon, or between the ice-cold clockspring and the key that will unlock the gates of transcendence...",
+    "ko": "초월의 열쇠",
+    "zh": "超越之匙",
+    "ja": "超越の鍵"
+  },
   "13101": {
     "icon": "UI_EquipIcon_Pole_Gewalt",
     "rank": 1,

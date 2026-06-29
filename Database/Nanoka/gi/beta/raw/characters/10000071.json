@@ -3303,7 +3303,7 @@
         0
       ],
       "unlock": [
-        39604
+        7469304
       ],
       "special": true,
       "special_passive": true,
@@ -3413,7 +3413,7 @@
         0
       ],
       "special": true,
-      "special_desc": "After using <color=#FFD780FF>Sacred Rite: Wolf's Swiftness</color> or triggering the Judication effect of the Ascension Talent \"Featherfall Judgment,\" Cyno will gain 4 stacks of the \"Day of the Jackal\" effect. When he hits opponents with Normal Attacks, he will consume 1 stack of \"Day of the Jackal\" to fire off one Duststalker Bolt. If Cyno is affected by <color=#FFD780FF>Together We Rise</color>, he will fire one <color=#FFD780FF>Duststalker Bolt·- Starsame</color> instead.\\nDay of the Jackal\" lasts for 8s. Max 8 stacks for each instance of Pactsworn Pathclearer. It will be canceled once Pactsworn Pathclearer from Sacred Rite: Wolf's Swiftness ends.\\nA maximum of 1 Duststalker Bolt or 1 Duststalker Bolt - Starsame can be unleashed this way every 0.4s.\\nYou must first unlock the Ascension Talent \"Featherfall Judgment.\""
+      "special_desc": "After using <color=#FFD780FF>Sacred Rite: Wolf's Swiftness</color> or triggering the Judication effect of the Ascension Talent \"Featherfall Judgment,\" Cyno will gain 4 stacks of the \"Day of the Jackal\" effect. When he hits opponents with Normal Attacks, he will consume 1 stack of \"Day of the Jackal\" to fire off one Duststalker Bolt. If Cyno is affected by <color=#FFD780FF>Together We Rise</color>, he will fire one <color=#FFD780FF>Duststalker Bolt - Starsame</color> instead.\\nDay of the Jackal\" lasts for 8s. Max 8 stacks for each instance of Pactsworn Pathclearer. It will be canceled once Pactsworn Pathclearer from Sacred Rite: Wolf's Swiftness ends.\\nA maximum of 1 Duststalker Bolt or 1 Duststalker Bolt - Starsame can be unleashed this way every 0.4s.\\nYou must first unlock the Ascension Talent \"Featherfall Judgment.\""
     }
   ],
   "materials": {
@@ -3430,7 +3430,7 @@
             "name": "Scarab",
             "id": 101225,
             "count": 3,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Divining Scroll",
@@ -3459,7 +3459,7 @@
             "name": "Scarab",
             "id": 101225,
             "count": 10,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Divining Scroll",
@@ -3488,7 +3488,7 @@
             "name": "Scarab",
             "id": 101225,
             "count": 20,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Sealed Scroll",
@@ -3517,7 +3517,7 @@
             "name": "Scarab",
             "id": 101225,
             "count": 30,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Sealed Scroll",
@@ -3546,7 +3546,7 @@
             "name": "Scarab",
             "id": 101225,
             "count": 45,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Forbidden Curse Scroll",
@@ -3575,7 +3575,7 @@
             "name": "Scarab",
             "id": 101225,
             "count": 60,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Forbidden Curse Scroll",

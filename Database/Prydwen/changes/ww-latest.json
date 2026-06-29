@@ -1,21 +1,28 @@
 {
   "provider": "Prydwen",
   "game": "ww",
-  "generatedAt": "2026-06-28T08:33:51.270Z",
+  "generatedAt": "2026-06-29T10:06:05.474Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 0,
-      "unchanged": 63
+      "changed": 1,
+      "unchanged": 62
     }
   },
   "sections": {
     "records": {
       "added": [],
       "removed": [],
-      "changed": [],
-      "unchanged": 63,
+      "changed": [
+        {
+          "id": "characters:qingxiao",
+          "name": "Qingxiao",
+          "previousHash": "f6f904db7d805461023a2878565725f6fb84c1f2cad8336fdb048b404422eee8",
+          "currentHash": "fde2058446d3143e0d17a1bfaa76be4cac9aa72ed3370b403566dce1cd2225b8"
+        }
+      ],
+      "unchanged": 62,
       "totals": {
         "previous": 63,
         "current": 63

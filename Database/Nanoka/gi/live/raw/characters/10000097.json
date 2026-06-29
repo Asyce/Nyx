@@ -980,6 +980,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1017,6 +1021,10 @@
             "Shadowpiercing Shot DMG|{param7:F1P} ATK+{param8:F1P} Elemental Mastery",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:F1P}/{param11:F1P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1068,6 +1076,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1105,6 +1117,10 @@
             "Shadowpiercing Shot DMG|{param7:F1P} ATK+{param8:F1P} Elemental Mastery",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:F1P}/{param11:F1P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1156,6 +1172,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1193,6 +1213,10 @@
             "Shadowpiercing Shot DMG|{param7:F1P} ATK+{param8:F1P} Elemental Mastery",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:F1P}/{param11:F1P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1244,6 +1268,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1281,6 +1309,10 @@
             "Shadowpiercing Shot DMG|{param7:F1P} ATK+{param8:F1P} Elemental Mastery",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:F1P}/{param11:F1P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1332,6 +1364,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1369,6 +1405,10 @@
             "Shadowpiercing Shot DMG|{param7:F1P} ATK+{param8:F1P} Elemental Mastery",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:F1P}/{param11:F1P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1420,6 +1460,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1457,6 +1501,10 @@
             "Shadowpiercing Shot DMG|{param7:F1P} ATK+{param8:F1P} Elemental Mastery",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:F1P}/{param11:F1P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1508,6 +1556,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1545,6 +1597,10 @@
             "Shadowpiercing Shot DMG|{param7:F1P} ATK+{param8:F1P} Elemental Mastery",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:F1P}/{param11:F1P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1596,6 +1652,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1626,7 +1686,7 @@
     {
       "id": 10972,
       "name": "Ancient Rite: The Thundering Sands",
-      "desc": "Gathers the might of thunder, dealing <color=#FFACFFFF>AoE Electro DMG</color> and quickly retreating. If this attack triggers Electro-Charged, Lunar-Charged, Superconduct, Overloaded, Quicken, Aggravate, Hyperbloom, or Electro Swirl reactions, Sethos recovers a certain amount of Elemental Energy.\\n\\n<i>\"The God indwelt Priest, the Magi who turned pits to springs, the singers of the sea of sand still spread their stories... But I know those are not legends, for they are our ancestors.\"</i>",
+      "desc": "Gathers the might of thunder, dealing <color=#FFACFFFF>AoE Electro DMG</color> and quickly retreating. If this attack triggers Electro-Charged, Lunar-Charged, Superconduct, Stellar-Conduct, Overloaded, Quicken, Aggravate, Hyperbloom, or Electro Swirl reactions, Sethos recovers a certain amount of Elemental Energy.\\n\\n<i>\"The God indwelt Priest, the Magi who turned pits to springs, the singers of the sea of sand still spread their stories... But I know those are not legends, for they are our ancestors.\"</i>",
       "promote": {
         "0": {
           "level": 1,
@@ -1635,6 +1695,10 @@
             "Skill DMG|{param1:F1P}",
             "Energy Regeneration|{param2:I}",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1691,6 +1755,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1723,6 +1791,10 @@
             "Skill DMG|{param1:F1P}",
             "Energy Regeneration|{param2:I}",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1779,6 +1851,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1811,6 +1887,10 @@
             "Skill DMG|{param1:F1P}",
             "Energy Regeneration|{param2:I}",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1867,6 +1947,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1899,6 +1983,10 @@
             "Skill DMG|{param1:F1P}",
             "Energy Regeneration|{param2:I}",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1955,6 +2043,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1987,6 +2079,10 @@
             "Skill DMG|{param1:F1P}",
             "Energy Regeneration|{param2:I}",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2043,6 +2139,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2075,6 +2175,10 @@
             "Skill DMG|{param1:F1P}",
             "Energy Regeneration|{param2:I}",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2131,6 +2235,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2163,6 +2271,10 @@
             "Skill DMG|{param1:F1P}",
             "Energy Regeneration|{param2:I}",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2219,6 +2331,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2251,6 +2367,10 @@
             "Skill DMG|{param1:F1P}",
             "Energy Regeneration|{param2:I}",
             "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2314,6 +2434,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2347,6 +2471,10 @@
             "Twilight Meditation Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2402,6 +2530,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2435,6 +2567,10 @@
             "Twilight Meditation Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2490,6 +2626,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2523,6 +2663,10 @@
             "Twilight Meditation Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2578,6 +2722,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2611,6 +2759,10 @@
             "Twilight Meditation Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2666,6 +2818,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2699,6 +2855,10 @@
             "Twilight Meditation Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2754,6 +2914,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2787,6 +2951,10 @@
             "Twilight Meditation Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2842,6 +3010,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2886,6 +3058,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2919,6 +3095,10 @@
             "Twilight Meditation Duration|{param2:F1}s",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3873,5 +4053,116 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "Bullet_Sethos_ShootArrow_Enchanted_WithoutElec",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithoutElec"
+    },
+    {
+      "name": "Bullet_Sethos_ShootArrow_WithElec",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithElec"
+    },
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 50
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "ElementalArtDamage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "Ball",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Electro",
+      "per_drop": 1,
+      "lifetime": 6,
+      "chance": 100,
+      "cd": 0.5,
+      "applications": 1,
+      "drop_id": 2020
+    }
+  ]
 }

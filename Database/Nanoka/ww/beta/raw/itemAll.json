@@ -304,7 +304,7 @@
     ],
     "name": "Lollo Stamp",
     "desc": "The voucher used to redeem the Lollo Helper special delivery.",
-    "bg": "Thank you for being a Lollo Helper!\nTo express our gratitude, we'd love to present you with a Lollo Stamp. You can use it to exchange for your Lollo Helper special delivery at the designated Lollo Logistics stations.",
+    "bg": "Thank you for being a Lollo Helper!\nTo express our gratitude, we'd love to present you with a Lollo Stamp. You can use it to exchange for your Lollo Helper special delivery during all Lollo Campaign events.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_Act_01_UI.T_IconA_Act_01_UI",
     "source": []
   },
@@ -1355,7 +1355,7 @@
     "tag_num": [
       15
     ],
-    "name": "Demonstration Coin",
+    "name": "Sparring Coin",
     "desc": "A special token forged by the Skyworks, which can be exchanged for an assortment of supplies prepared for the participants.\nEvery fierce battle the Xuanfang Hold has endured will become the experience that strengthens its foundation.",
     "bg": "",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconRup/T_IconRup_B5_UI.T_IconRup_B5_UI",
@@ -1847,9 +1847,9 @@
     "tag_num": [
       10
     ],
-    "name": "",
-    "desc": "",
-    "bg": "",
+    "name": "Casket Sonar Use Permit: Mengzhou",
+    "desc": "Grants the bearer of this permit the access to Casket Sonar in given regions.",
+    "bg": "The use permit of the Casket Sonar in Mengzhou. To ensure frequency safety in Mengzhou, users are permitted to use the Casket Sonar only within authorized areas in compliance with this official permit.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_24_UI.T_IconA_24_UI",
     "source": []
   },
@@ -1863,9 +1863,9 @@
     "tag_num": [
       10
     ],
-    "name": "",
-    "desc": "",
-    "bg": "",
+    "name": "Lootmapper Use Permit: Mengzhou",
+    "desc": "Grants the bearer of this permit the access to the Lootmapper in given regions.",
+    "bg": "The use permit of the Lootmapper in Mengzhou. To ensure frequency safety in Mengzhou, users are permitted to use the Lootmapper only within authorized areas in compliance with this official permit.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_25_UI.T_IconA_25_UI",
     "source": []
   },
@@ -2232,7 +2232,7 @@
     "tag_num": [
       17
     ],
-    "name": "",
+    "name": "Special Tide",
     "desc": "Used to Convene one time in Featured Weapon Convene.",
     "bg": "\"Above the waves, I cry out loud. Brilliant ripples, answers found. With you, my blade, I shall ascend. In shimmering waves, our bond won't end.\"",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_jzmy_01_UI.T_IconA_jzmy_01_UI",
@@ -2252,7 +2252,7 @@
     "tag_num": [
       18
     ],
-    "name": "",
+    "name": "Exclusive Coral",
     "desc": "Used to redeem items in the Store.",
     "bg": "The ripples of the waves converge into the branches of hope.\n\"That is the proof of your encounter.\"",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_ybsh_UI.T_IconA_ybsh_UI",
@@ -2450,7 +2450,7 @@
     ],
     "name": "Magisterial Radiant Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_12_UI.T_IconGiftPack_dj_12_UI",
     "source": [],
     "giftpack": {
@@ -2480,7 +2480,7 @@
     ],
     "name": "Magisterial Forging Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_13_UI.T_IconGiftPack_dj_13_UI",
     "source": [],
     "giftpack": {
@@ -2510,7 +2510,7 @@
     ],
     "name": "Blake Bloom's Radiant Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -2540,7 +2540,7 @@
     ],
     "name": "Blake Bloom's Forging Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_18_UI.T_IconGiftPack_dj_18_UI",
     "source": [],
     "giftpack": {
@@ -2570,7 +2570,7 @@
     ],
     "name": "Champion's Radiant Collection I",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_27_UI.T_IconGiftPack_dj_27_UI",
     "source": [],
     "giftpack": {
@@ -2600,7 +2600,7 @@
     ],
     "name": "Champion's Forging Collection",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_28_UI.T_IconGiftPack_dj_28_UI",
     "source": [],
     "giftpack": {
@@ -2630,7 +2630,7 @@
     ],
     "name": "Traveler's Tube Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_033_UI.T_IconGiftPack_033_UI",
     "source": [],
     "giftpack": {
@@ -2660,7 +2660,7 @@
     ],
     "name": "Sage's Tube Support",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_035_UI.T_IconGiftPack_035_UI",
     "source": [],
     "giftpack": {
@@ -2690,7 +2690,7 @@
     ],
     "name": "Sage's Solvent Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -2720,7 +2720,7 @@
     ],
     "name": "Champion's Radiant Collection II",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -2750,7 +2750,7 @@
     ],
     "name": "Vault's Radiant Collection III",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -2784,7 +2784,7 @@
     ],
     "name": "Champion's Monthly Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -2818,7 +2818,7 @@
     ],
     "name": "Vault's Tide Collection",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -2852,7 +2852,7 @@
     ],
     "name": "Pioneer's Special Bounty I",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -2882,7 +2882,7 @@
     ],
     "name": "Pioneer's Special Bounty II",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -2912,7 +2912,7 @@
     ],
     "name": "Pioneer's Special Bounty III",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -2942,7 +2942,7 @@
     ],
     "name": "Pioneer's Special Bounty IV",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -2972,7 +2972,7 @@
     ],
     "name": "Pioneer's Special Bounty V",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3002,7 +3002,7 @@
     ],
     "name": "Pioneer's Special Bounty VI",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3032,7 +3032,7 @@
     ],
     "name": "Pioneer's Special Bounty VII",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3062,7 +3062,7 @@
     ],
     "name": "Reunion's Tidal Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_052_UI.T_IconGiftPack_052_UI",
     "source": [],
     "giftpack": {
@@ -3096,7 +3096,7 @@
     ],
     "name": "Reunion's Tidal Collection",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_053_UI.T_IconGiftPack_053_UI",
     "source": [],
     "giftpack": {
@@ -3126,7 +3126,7 @@
     ],
     "name": "Reunion's EXP Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_054_UI.T_IconGiftPack_054_UI",
     "source": [],
     "giftpack": {
@@ -3160,7 +3160,7 @@
     ],
     "name": "Reunion's Forgery Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_055_UI.T_IconGiftPack_055_UI",
     "source": [],
     "giftpack": {
@@ -3194,7 +3194,7 @@
     ],
     "name": "Reunion's Sealed Tube Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_061_UI.T_IconGiftPack_061_UI",
     "source": [],
     "giftpack": {
@@ -3228,7 +3228,7 @@
     ],
     "name": "Reunion's Shell Credit Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_051_UI.T_IconGiftPack_051_UI",
     "source": [],
     "giftpack": {
@@ -3254,7 +3254,7 @@
     ],
     "name": "New Voyage Radiant Lightpack",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3288,7 +3288,7 @@
     ],
     "name": "New Voyage Radiant Heavypack",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3322,7 +3322,7 @@
     ],
     "name": "Champion's Battlesong Collection",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3356,7 +3356,7 @@
     ],
     "name": "Truthseeker's Battlesong Collection",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3390,7 +3390,7 @@
     ],
     "name": "Truthseeker's Battlesong Collection II",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3424,7 +3424,7 @@
     ],
     "name": "Spacetrek Prep Protocol",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3458,7 +3458,7 @@
     ],
     "name": "Astro-Calibration Protocol",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3488,7 +3488,7 @@
     ],
     "name": "Truthseeker's Radiant Collection I",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3518,7 +3518,7 @@
     ],
     "name": "Truthseeker's Radiant Collection II",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3548,7 +3548,7 @@
     ],
     "name": "Truthseeker's Radiant Collection III",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3582,7 +3582,7 @@
     ],
     "name": "Truthseeker's Forging Collection",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3612,7 +3612,7 @@
     ],
     "name": "Truthseeker's Tidal Collection",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3646,7 +3646,7 @@
     ],
     "name": "TARD-E's Monthly Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3680,7 +3680,7 @@
     ],
     "name": "Truthseeker's Tuning Collection",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3714,7 +3714,7 @@
     ],
     "name": "Renegade's Shadowforge Collection I",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3740,7 +3740,7 @@
     ],
     "name": "Renegade's Dreamcatcher Collection",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3770,7 +3770,7 @@
     ],
     "name": "Renegade's Shadowforge Collection II",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3800,7 +3800,7 @@
     ],
     "name": "",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3830,7 +3830,7 @@
     ],
     "name": "",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3860,7 +3860,7 @@
     ],
     "name": "",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3890,7 +3890,7 @@
     ],
     "name": "",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3924,7 +3924,7 @@
     ],
     "name": "Awakening Bundle (For Pre-Sales)",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -3974,7 +3974,7 @@
     ],
     "name": "Awakening Bundle",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -4020,7 +4020,7 @@
     ],
     "name": "Adventurer's Starter Pack",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -4058,7 +4058,7 @@
     ],
     "name": "Quality Adventurer's Starter Pack",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -4096,7 +4096,7 @@
     ],
     "name": "Returnee's Radiant Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_057_UI.T_IconGiftPack_057_UI",
     "source": [],
     "giftpack": {
@@ -4126,7 +4126,7 @@
     ],
     "name": "Returnee's Radiant Collection",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_058_UI.T_IconGiftPack_058_UI",
     "source": [],
     "giftpack": {
@@ -4152,7 +4152,7 @@
     ],
     "name": "Returnee's Solvent Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_057_UI.T_IconGiftPack_057_UI",
     "source": [],
     "giftpack": {
@@ -4178,7 +4178,7 @@
     ],
     "name": "Returnee's Shell Credit Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_056_UI.T_IconGiftPack_056_UI",
     "source": [],
     "giftpack": {
@@ -4204,7 +4204,7 @@
     ],
     "name": "Returnee's Forgery Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_059_UI.T_IconGiftPack_059_UI",
     "source": [],
     "giftpack": {
@@ -4238,7 +4238,7 @@
     ],
     "name": "Returnee's Forgery Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -4276,7 +4276,7 @@
     ],
     "name": "Returnee's Forgery Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -4322,7 +4322,7 @@
     ],
     "name": "Adventurer's Starter Pack",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -4360,7 +4360,7 @@
     ],
     "name": "Returnee's Forgery Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -4398,7 +4398,7 @@
     ],
     "name": "Returnee's Forgery Aid",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -4432,7 +4432,7 @@
     ],
     "name": "",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -4466,7 +4466,7 @@
     ],
     "name": "",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -4492,7 +4492,7 @@
     ],
     "name": "",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -4526,7 +4526,7 @@
     ],
     "name": "",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -4560,7 +4560,7 @@
     ],
     "name": "",
     "desc": "Obtain to receive the items inside.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_19_UI.T_IconGiftPack_dj_19_UI",
     "source": [],
     "giftpack": {
@@ -4844,7 +4844,7 @@
     ],
     "name": "Peppermint",
     "desc": "Used to unlock a Resonator-specific outfit that grants the designated Resonator a new look.",
-    "bg": "Endless sunshine, golden sand beaches, and vibrant hues bursting everywhere—summer's here! Lynae's favorite season, hands down! Hm? The heatwave sapped your energy? Why not pop open another ice-cold soda? (∩^o^)⊃━☆ﾟ.*･",
+    "bg": "Endless sunshine, golden sand beaches, and vibrant hues bursting everywhere—summer's here! Lynae's favorite season, hands down! Hm? The heatwave sapped your energy? Why not pop open another ice-cold soda?\n(∩^o^)⊃━☆ﾟ.*･",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_61_Skin1_UI.T_IconRoleHead256_61_Skin1_UI",
     "source": [],
     "giftpack": {
@@ -6338,8 +6338,8 @@
     "tag_num": [
       21
     ],
-    "name": "test/Leaf",
-    "desc": "test/A Leaf",
+    "name": "Stay tuned",
+    "desc": "Stay tuned",
     "bg": "Leaf",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_010_1_UI.T_IconTask_Task_010_1_UI",
     "source": []
@@ -7535,7 +7535,7 @@
     ],
     "name": "",
     "desc": "A material used for Weapon & Resonator Ascension and Skill Upgrade.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.T_IconMout_O_007_4_UI",
     "source": [
       "Supply Pack",
@@ -8249,9 +8249,9 @@
     "tag_num": [
       8
     ],
-    "name": "",
-    "desc": "",
-    "bg": "",
+    "name": "Skyward Glazed Heart",
+    "desc": "Thousand-Puppet Pavilion's drop, used for Skill Upgrade.",
+    "bg": "He believes he exploited everything of this emotion, yet he never truly understands its essence.\n\nA foe’s burning hatred, a pining for home, a longing for the beloved, a wandering lost on the road ahead. The terror of death, the sheer tenacity for life.\n\nIt was never some incomprehensible impurity, nor the dawn of chaos.\n\nWhat the girl witnessed as she cast a glance back was voices fading softly into the drifting winds—hearts as clear as glass, carried away on feathers toward the far reaches of the sky.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMout/T_IconMout_L_026_UI.T_IconMout_L_026_UI",
     "source": [
       "Supply Pack",
@@ -8269,9 +8269,9 @@
     "tag_num": [
       7
     ],
-    "name": "",
-    "desc": "",
-    "bg": "",
+    "name": "Solidarity's Loneflame",
+    "desc": "Myriad Snare: Rustfire Chassis's drop, used for Resonator Ascension.",
+    "bg": "The forge fires have melted multiple modular parts into a singular mass. After a century of bitter warfare, only a lonely, unbending soul remains to drive this vessel, turning it into an unquenchable flame.\n\nThis obsession burns to this very day, fueled by the desire to repay that unwavering companionship that leaves no soul behind, and to fulfill a century-old vow to defend Xuanfang to the death. Within the flickering firelight, a fine line faintly comes into view: \"Son of Unyielding Virtue.\"",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMout/T_IconMout_L_027_UI.T_IconMout_L_027_UI",
     "source": [
       "AccessPath_236000_Description",
@@ -13437,8 +13437,8 @@
     "tag_num": [
       22
     ],
-    "name": "test/Universal Echo",
-    "desc": "test/Universal Echoes can substitute any Echo consumed during Tuning.",
+    "name": "Stay tuned",
+    "desc": "Stay tuned",
     "bg": "Echo Details",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_currency_6_UI.T_IconA_currency_6_UI",
     "source": [
@@ -13456,8 +13456,8 @@
     "tag_num": [
       22
     ],
-    "name": "test/Golden Universal Echo",
-    "desc": "test/Golden Universal Echoes can substitute any Echo consumed during Tuning.",
+    "name": "Stay tuned",
+    "desc": "Stay tuned",
     "bg": "Echo Details",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_currency_6_UI.T_IconA_currency_6_UI",
     "source": [
@@ -13477,7 +13477,7 @@
     ],
     "name": "Phantom: Impermanence Heron",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1014_UI.T_IconMonsterHead_1014_UI",
     "source": [
       "Illusive Store"
@@ -13495,7 +13495,7 @@
     ],
     "name": "Phantom: Dreamless",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_998_1_UI.T_IconMonsterHead_998_1_UI",
     "source": [
       "Illusive Store"
@@ -13531,7 +13531,7 @@
     ],
     "name": "Phantom: Lorelei",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_33011_UI.T_IconMonsterGoods_SG_33011_UI",
     "source": [
       "Unavailable now"
@@ -13549,7 +13549,7 @@
     ],
     "name": "Phantom: Nimbus Wraith",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31044_UI.T_IconMonsterGoods_SG_31044_UI",
     "source": [
       "Trial Store"
@@ -13567,7 +13567,7 @@
     ],
     "name": "Phantom: Crownless",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_9991_UI.T_IconMonsterGoods_SG_9991_UI",
     "source": [
       "\"Dreaming Deep\" Event"
@@ -13585,7 +13585,7 @@
     ],
     "name": "Phantom: Nightmare Crownless",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_33018_UI.T_IconMonsterGoods_SG_33018_UI",
     "source": [
       "\"Dreaming Deep\" Event"
@@ -13603,7 +13603,7 @@
     ],
     "name": "Phantom: Chest Mimic",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31048_UI.T_IconMonsterGoods_SG_31048_UI",
     "source": [
       "Unavailable now"
@@ -13621,7 +13621,7 @@
     ],
     "name": "Phantom: Fae Ignis",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31043_UI.T_IconMonsterGoods_SG_31043_UI",
     "source": [
       "Banners Never Fall"
@@ -13639,7 +13639,7 @@
     ],
     "name": "Phantom: Cuddle Wuddle",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32030_UI.T_IconMonsterGoods_SG_32030_UI",
     "source": [
       "Unavailable now"
@@ -13657,7 +13657,7 @@
     ],
     "name": "Phantom: Nightmare Inferno Rider",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_33019_UI.T_IconMonsterGoods_SG_33019_UI",
     "source": [
       "Unavailable now"
@@ -13771,7 +13771,7 @@
     ],
     "name": "Phantom: Fallacy of No Return",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_350_UI.T_IconMonsterGoods_SG_350_UI",
     "source": [
       "Unavailable now"
@@ -13789,7 +13789,7 @@
     ],
     "name": "Phantom: Kerasaur",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31062_UI.T_IconMonsterGoods_SG_31062_UI",
     "source": [
       "Overworld Exploration"
@@ -13807,7 +13807,7 @@
     ],
     "name": "Phantom: Chop Chop",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32028_UI.T_IconMonsterGoods_SG_32028_UI",
     "source": [
       "Peaks of Prestige: Rekindled Duel"
@@ -13825,7 +13825,7 @@
     ],
     "name": "Phantom: The False Sovereign",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_34017_UI.T_IconMonsterGoods_SG_34017_UI",
     "source": [
       "Unavailable now"
@@ -13843,7 +13843,7 @@
     ],
     "name": "Phantom: Zip Zap",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31082_UI.T_IconMonsterGoods_SG_31082_UI",
     "source": [
       "Event"
@@ -13861,7 +13861,7 @@
     ],
     "name": "Phantom: Twin Nova - Nebulous Cannon",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32049_UI.T_IconMonsterGoods_SG_32049_UI",
     "source": [
       "\"Operation: Frontier Renewal\" Event"
@@ -13879,7 +13879,7 @@
     ],
     "name": "Phantom: Twin Nova - Collapsar Blade",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32050_UI.T_IconMonsterGoods_SG_32050_UI",
     "source": [
       "\"Operation: Frontier Renewal\" Event"
@@ -13897,7 +13897,7 @@
     ],
     "name": "Phantom: Sigillum",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_34025_UI.T_IconMonsterGoods_SG_34025_UI",
     "source": [
       "\"Where Stars Cascade Down\" Event"
@@ -13915,7 +13915,7 @@
     ],
     "name": "Phantom: Iceglint Dancer",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31083_UI.T_IconMonsterGoods_SG_31083_UI",
     "source": [
       "Overworld Exploration"
@@ -13933,7 +13933,7 @@
     ],
     "name": "Phantom: Reactor Husk",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_34022_UI.T_IconMonsterGoods_SG_34022_UI",
     "source": [
       "Star Bouncing"
@@ -13951,7 +13951,7 @@
     ],
     "name": "Phantom: Kronaclaw",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32060_UI.T_IconMonsterGoods_SG_32060_UI",
     "source": [
       "Complete Exploration Quest \"A Perfect Day for Flying\""
@@ -13969,7 +13969,7 @@
     ],
     "name": "Phantom: Glommoth",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32061_UI.T_IconMonsterGoods_SG_32061_UI",
     "source": []
   },
@@ -13985,7 +13985,7 @@
     ],
     "name": "Stay tuned",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32068_UI.T_IconMonsterGoods_SG_32068_UI",
     "source": []
   },
@@ -14001,7 +14001,7 @@
     ],
     "name": "Stay tuned",
     "desc": "Unlocks the Phantom Appearance of the corresponding Echo.",
-    "bg": "",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31090_UI.T_IconMonsterGoods_SG_31090_UI",
     "source": []
   },
@@ -16825,7 +16825,7 @@
     ],
     "name": "Basic Enclosure Tank",
     "desc": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare2>Crude Ring*1</color>\n<color=Rare2>LF Whisperin Core*1</color>\n<color=Rare2>LF Howler Core*1</color>",
-    "bg": "",
+    "bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_023_UI.T_IconGiftPack_023_UI",
     "source": [],
     "giftpack": {
@@ -16859,7 +16859,7 @@
     ],
     "name": "Medium Enclosure Tank",
     "desc": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare3>Basic Ring*1</color>\n<color=Rare3>MF Whisperin Core*1</color>\n<color=Rare3>MF Howler Core*1</color>",
-    "bg": "",
+    "bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_024_UI.T_IconGiftPack_024_UI",
     "source": [],
     "giftpack": {
@@ -16893,7 +16893,7 @@
     ],
     "name": "Advanced Enclosure Tank",
     "desc": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare4>Improved Ring*1</color>\n<color=Rare4>HF Whisperin Core*1</color>\n<color=Rare4>HF Howler Core*1</color>",
-    "bg": "",
+    "bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_025_UI.T_IconGiftPack_025_UI",
     "source": [],
     "giftpack": {
@@ -16927,7 +16927,7 @@
     ],
     "name": "Premium Enclosure Tank",
     "desc": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare5>Tailored Ring*1</color>\n<color=Rare5>FF Whisperin Core*1</color>\n<color=Rare5>FF Howler Core*1</color>",
-    "bg": "",
+    "bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_026_UI.T_IconGiftPack_026_UI",
     "source": [],
     "giftpack": {
@@ -17392,7 +17392,7 @@
       16
     ],
     "name": "Voyager's Ascension Supply",
-    "desc": "Open to claim one material for Resonator Ascension of your choice:\nDream of Stars x1\nRedbell x1\nForget-Me-Not x1\nMoss Amber x1\nEdelschnee x1\n...",
+    "desc": "Open to claim one material for Resonator Ascension of your choice:\nCloudperch Seed x1\nFlowborne Dream x1\nBlade Blossom x1\nRedbell x1\nForget-Me-Not x1\n...",
     "bg": "Bio samples collected by the Black Shores' Bloombearers during their fieldwork, which were later transplanted, preserved, and archived in the Bank of Life at Tethys' Deep. When necessary, specimens stored within may be used as supplies and freely accessed by personnel in need.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_cllb_05.T_IconA_cllb_05",
     "source": [],
@@ -17534,7 +17534,7 @@
       16
     ],
     "name": "Reprise Ascension Supply",
-    "desc": "Open to claim one material for Resonator Ascension of your choice:\nDream of Stars x1\nRedbell x1\nForget-Me-Not x1\nMoss Amber x1\nEdelschnee x1\n...",
+    "desc": "Open to claim one material for Resonator Ascension of your choice:\nCloudperch Seed x1\nFlowborne Dream x1\nBlade Blossom x1\nRedbell x1\nForget-Me-Not x1\n...",
     "bg": "Bio samples collected by the Black Shores' Bloombearers during their fieldwork, which were later transplanted, preserved, and archived in the Bank of Life at Tethys' Deep. When necessary, specimens stored within may be used as supplies and freely accessed by personnel in need.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_cllb_05.T_IconA_cllb_05",
     "source": [],
@@ -18179,7 +18179,7 @@
     ],
     "name": "Basic Enclosure Tank",
     "desc": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare2>Crude Ring *1</color>\n<color=Rare2>LF Whisperin Core *1</color>\n<color=Rare2>LF Howler Core *1</color>\n<color=Rare2>LF Polygon Core *1</color>\n<color=Rare2>LF Tidal Residuum *1</color>",
-    "bg": "",
+    "bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_023_UI.T_IconGiftPack_023_UI",
     "source": [],
     "giftpack": {
@@ -18221,7 +18221,7 @@
     ],
     "name": "Medium Enclosure Tank",
     "desc": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare3>Basic Ring *1</color>\n<color=Rare3>MF Whisperin Core *1</color>\n<color=Rare3>MF Howler Core *1</color>\n<color=Rare3>MF Polygon Core *1</color>\n<color=Rare3>MF Tidal Residuum *1</color>",
-    "bg": "",
+    "bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_024_UI.T_IconGiftPack_024_UI",
     "source": [],
     "giftpack": {
@@ -18263,7 +18263,7 @@
     ],
     "name": "Advanced Enclosure Tank",
     "desc": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare4>Improved Ring *1</color>\n<color=Rare4>HF Whisperin Core *1</color>\n<color=Rare4>HF Howler Core *1</color>\n<color=Rare4>HF Polygon Core *1</color>\n<color=Rare4>HF Tidal Residuum *1</color>",
-    "bg": "",
+    "bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_025_UI.T_IconGiftPack_025_UI",
     "source": [],
     "giftpack": {
@@ -18305,7 +18305,7 @@
     ],
     "name": "Premium Enclosure Tank",
     "desc": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare5>Tailored Ring *1</color>\n<color=Rare5>FF Whisperin Core *1</color>\n<color=Rare5>FF Howler Core *1</color>\n<color=Rare5>FF Polygon Core *1</color>\n<color=Rare5>FF Tidal Residuum *1</color>",
-    "bg": "",
+    "bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_026_UI.T_IconGiftPack_026_UI",
     "source": [],
     "giftpack": {
@@ -18781,7 +18781,7 @@
     ],
     "name": "Basic Enclosure Tank II",
     "desc": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice:\n<color=Rare2>LF Exoswarm Core *1</color> \n<color=Rare2>LF Mech Core *1</color> \n<color=Rare2>Fractured Exoswarm Pendant *1</color>\n<color=Rare2>Crude Ring *1</color>\n<color=Rare2>LF Whisperin Core *1</color>\n<color=Rare2>LF Howler Core *1</color>\n<color=Rare2>LF Polygon Core *1</color>\n<color=Rare2>LF Tidal Residuum *1</color>",
-    "bg": "",
+    "bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_023_UI.T_IconGiftPack_023_UI",
     "source": [],
     "giftpack": {
@@ -18835,7 +18835,7 @@
     ],
     "name": "Medium Enclosure Tank II",
     "desc": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice: \n<color=Rare3>MF Exoswarm Core *1</color> \n<color=Rare3>MF Mech Core *1</color> \n<color=Rare3>Worn Exoswarm Pendant *1</color>\n<color=Rare3>Basic Ring *1</color>\n<color=Rare3>MF Whisperin Core *1</color>\n<color=Rare3>MF Howler Core *1</color>\n<color=Rare3>MF Polygon Core *1</color>\n<color=Rare3>MF Tidal Residuum *1</color>",
-    "bg": "",
+    "bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_024_UI.T_IconGiftPack_024_UI",
     "source": [],
     "giftpack": {
@@ -18889,7 +18889,7 @@
     ],
     "name": "Advanced Enclosure Tank II",
     "desc": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice: \n<color=Rare4>HF Exoswarm Core *1</color> \n<color=Rare4>HF Mech Core *1</color> \n<color=Rare4>Chipped Exoswarm Pendant *1</color>\n<color=Rare4>Improved Ring *1</color>\n<color=Rare4>HF Whisperin Core *1</color>\n<color=Rare4>HF Howler Core *1</color>\n<color=Rare4>HF Polygon Core *1</color>\n<color=Rare4>HF Tidal Residuum *1</color>",
-    "bg": "",
+    "bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_025_UI.T_IconGiftPack_025_UI",
     "source": [],
     "giftpack": {
@@ -18943,7 +18943,7 @@
     ],
     "name": "Premium Enclosure Tank II",
     "desc": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice: \n<color=Rare5>FF Exoswarm Core *1</color> \n<color=Rare5>FF Mech Core *1</color> \n<color=Rare5>Intact Exoswarm Pendant *1</color>\n<color=Rare5>Tailored Ring *1</color>\n<color=Rare5>FF Whisperin Core *1</color>\n<color=Rare5>FF Howler Core *1</color>\n<color=Rare5>FF Polygon Core *1</color>\n<color=Rare5>FF Tidal Residuum *1</color>",
-    "bg": "",
+    "bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_026_UI.T_IconGiftPack_026_UI",
     "source": [],
     "giftpack": {
@@ -19165,7 +19165,7 @@
     ],
     "name": "Basic Enclosure Tank - Lahai-Roi",
     "desc": "Open to claim one basic material for Weapon Ascension or Skill Upgrade of your choice: \n<color=Rare2>LF Exoswarm Core *1</color> \n<color=Rare2>LF Mech Core *1</color> \n<color=Rare2>Fractured Exoswarm Pendant *1</color>",
-    "bg": "",
+    "bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_cllb_01.T_IconA_cllb_01",
     "source": [],
     "giftpack": {
@@ -19199,7 +19199,7 @@
     ],
     "name": "Medium Enclosure Tank - Lahai-Roi",
     "desc": "Open to claim one medium material for Weapon Ascension or Skill Upgrade of your choice: \n<color=Rare3>MF Exoswarm Core *1</color> \n<color=Rare3>MF Mech Core *1</color> \n<color=Rare3>Worn Exoswarm Pendant *1</color>",
-    "bg": "",
+    "bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_cllb_02.T_IconA_cllb_02",
     "source": [],
     "giftpack": {
@@ -19233,7 +19233,7 @@
     ],
     "name": "Advanced Enclosure Tank - Lahai-Roi",
     "desc": "Open to claim one advanced material for Weapon Ascension or Skill Upgrade of your choice: \n<color=Rare4>HF Exoswarm Core *1</color> \n<color=Rare4>HF Mech Core *1</color> \n<color=Rare4>Chipped Exoswarm Pendant *1</color>",
-    "bg": "",
+    "bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_cllb_03.T_IconA_cllb_03",
     "source": [],
     "giftpack": {
@@ -19267,7 +19267,7 @@
     ],
     "name": "Premium Enclosure Tank - Lahai-Roi",
     "desc": "Open to claim one premium material for Weapon Ascension or Skill Upgrade of your choice: \n<color=Rare5>FF Exoswarm Core *1</color> \n<color=Rare5>FF Mech Core *1</color> \n<color=Rare5>Intact Exoswarm Pendant *1</color>",
-    "bg": "",
+    "bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_cllb_04.T_IconA_cllb_04",
     "source": [],
     "giftpack": {
@@ -19301,7 +19301,7 @@
     ],
     "name": "",
     "desc": "",
-    "bg": "",
+    "bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_cllb_01.T_IconA_cllb_01",
     "source": [],
     "giftpack": {
@@ -19347,7 +19347,7 @@
     ],
     "name": "",
     "desc": "",
-    "bg": "",
+    "bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_cllb_02.T_IconA_cllb_02",
     "source": [],
     "giftpack": {
@@ -19393,7 +19393,7 @@
     ],
     "name": "",
     "desc": "",
-    "bg": "",
+    "bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_cllb_03.T_IconA_cllb_03",
     "source": [],
     "giftpack": {
@@ -19439,7 +19439,7 @@
     ],
     "name": "",
     "desc": "",
-    "bg": "",
+    "bg": "The Bloom Bearers of the Black Shores always return from their field trips with abundant samples, which are inventoried and sealed away by the Gardener after running the necessary tests for future use.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_cllb_04.T_IconA_cllb_04",
     "source": [],
     "giftpack": {
@@ -22065,8 +22065,8 @@
       41,
       16
     ],
-    "name": "",
-    "desc": "",
+    "name": "Morphable Song of Feathered Trace",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Song of Feathered Trace.\n \n2pcs Set: Energy Regen +10%.\n\n5pcs Set: Upon inflicting Havoc Bane, gain Xuanling's Feather, which grants a 20% increase in Crit. Rate and 35% increase in Heavy Attack DMG Bonus to the Resonator, lasting 15s.\nUpon inflicting Glacio Chafe, gain Chongming's Feather, which grants a 0.1% increase in ATK to Resonators in the team for every 1% of the Resonator's Energy Regen, up to 25%, lasting 10s.",
     "bg": "The footprints in the rift will never fade...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_36_UI.T_IconA_shlb_36_UI",
     "source": []
@@ -22083,8 +22083,8 @@
       41,
       16
     ],
-    "name": "",
-    "desc": "",
+    "name": "Morphable Heart of Evil's Purge",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Heart of Evil's Purge\n \n2pcs Set: Aero DMG +10%.\n\n5pcs Set: Inflicting Tune Strain - Shifting inreases the Resonator's Crit. DMG by 20% and Aero DMG by 30%, lasting for 15s.",
     "bg": "The footprints in the rift will never fade...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_36_UI.T_IconA_shlb_36_UI",
     "source": []
@@ -22101,8 +22101,8 @@
       41,
       16
     ],
-    "name": "",
-    "desc": "",
+    "name": "Morphable Lamp of Nether Road",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Lamp of Nether Road\n\n2pcs Set: HP +10%.\n\n5pcs Set: Obtaining Shield increases the Resonator's Crit. Rate by 5% for 5s, stacking up to 4 times. This effect is triggered once every 0.5s. Reaching max stacks increases the Resonator's Fusion DMG by 15%.",
     "bg": "The footprints in the rift will never fade...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_36_UI.T_IconA_shlb_36_UI",
     "source": []
@@ -22119,8 +22119,8 @@
       41,
       16
     ],
-    "name": "",
-    "desc": "",
+    "name": "Morphable Song of Feathered Trace",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Song of Feathered Trace.\n \n2pcs Set: Energy Regen +10%.\n\n5pcs Set: Upon inflicting Havoc Bane, gain Xuanling's Feather, which grants a 20% increase in Crit. Rate and 35% increase in Heavy Attack DMG Bonus to the Resonator, lasting 15s.\nUpon inflicting Glacio Chafe, gain Chongming's Feather, which grants a 0.1% increase in ATK to Resonators in the team for every 1% of the Resonator's Energy Regen, up to 25%, lasting 10s.",
     "bg": "The footprints in the rift will never fade...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_38_UI.T_IconA_shlb_38_UI",
     "source": []
@@ -22137,8 +22137,8 @@
       41,
       16
     ],
-    "name": "",
-    "desc": "",
+    "name": "Morphable Heart of Evil's Purge",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Heart of Evil's Purge\n \n2pcs Set: Aero DMG +10%.\n\n5pcs Set: Inflicting Tune Strain - Shifting inreases the Resonator's Crit. DMG by 20% and Aero DMG by 30%, lasting for 15s.",
     "bg": "The footprints in the rift will never fade...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_40_UI.T_IconA_shlb_40_UI",
     "source": []
@@ -22155,8 +22155,8 @@
       41,
       16
     ],
-    "name": "",
-    "desc": "",
+    "name": "Morphable Lamp of Nether Road",
+    "desc": "Open to obtain a random Echo of the following Sonata Effect: Lamp of Nether Road\n\n2pcs Set: HP +10%.\n\n5pcs Set: Obtaining Shield increases the Resonator's Crit. Rate by 5% for 5s, stacking up to 4 times. This effect is triggered once every 0.5s. Reaching max stacks increases the Resonator's Fusion DMG by 15%.",
     "bg": "The footprints in the rift will never fade...",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_39_UI.T_IconA_shlb_39_UI",
     "source": []
@@ -30046,7 +30046,7 @@
       50
     ],
     "name": "The Scale of Heart and Soul",
-    "desc": "Inflicting Tune Strain - Shifting increases Resonators' total DMG dealt by 40% for 30s.\nDealing Tune Break DMG increases All-Attribute DMG of all Resonators in the team by 30%, plus an additional 30% Aero DMG Bonus for 30s.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "desc": "Inflicting Tune Strain - Shifting increases Resonators' total DMG dealt by 40% for 30s.\nDealing Tune Break DMG grants 30% All-Attribute DMG Bonus plus an additional 30% Aero DMG Bonus to all Resonators in the team for 30s.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
     "bg": "The left plate blanketed in dust, and the right scabbed. Your Honor, please place your weight.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMowing/T_IconMowing_50.T_IconMowing_50",
     "source": [
@@ -31231,9 +31231,9 @@
     "tag_num": [
       15
     ],
-    "name": "",
-    "desc": "",
-    "bg": "",
+    "name": "Stay tuned",
+    "desc": "Stay tuned",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_72010042_UI.T_IconA_72010042_UI",
     "source": []
   },
@@ -31603,7 +31603,7 @@
     ],
     "name": "Shuyun Herbal Tea",
     "desc": "Increases ATK and Crit. Rate of all Resonators in the team by 12% and 10% respectively, lasting for 30m. Only effective on your own Resonators in Co-op Mode.",
-    "bg": "Shuyun's ancestral secret herbal tea, most suitable for summer. But the taste is special, and the taste is polarized. The formula is never disclosed, and it is hard to buy. Usually, you can only ask Shuyun to make it.",
+    "bg": "Stay tuned",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_010_UI.T_IconCook_010_UI",
     "source": [
       "Cooking"
@@ -34729,7 +34729,7 @@
     "tag_num": [
       24
     ],
-    "name": "Recipe: Lotus Pastry",
+    "name": "Lotus Pastry Recipe",
     "desc": "Used to learn how to cook Lotus Pastry.",
     "bg": "A recipe that details how to make Lotus Pastry.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
@@ -34745,7 +34745,7 @@
     "tag_num": [
       24
     ],
-    "name": "Recipe: Spicy Meat with Pavo Plums",
+    "name": "Spicy Meat with Pavo Plums Recipe",
     "desc": "Used to learn how to cook Spicy Meat with Pavo Plums.",
     "bg": "A recipe that details how to make Spicy Meat with Pavo Plums.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
@@ -35294,8 +35294,8 @@
       24
     ],
     "name": "Skelecanth Tartare Recipe",
-    "desc": "",
-    "bg": "",
+    "desc": "Used to learn how to cook Jade Mushroom Soup.",
+    "bg": "A recipe that details how to cook Jade Mushroom Soup.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -35310,8 +35310,8 @@
       24
     ],
     "name": "Lichen Salad Recipe",
-    "desc": "",
-    "bg": "",
+    "desc": "Used to learn how to cook Cloudward Stew.",
+    "bg": "A recipe that details how to cook Cloudward Stew.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -35326,8 +35326,8 @@
       24
     ],
     "name": "Pine Needle Soda Recipe",
-    "desc": "",
-    "bg": "",
+    "desc": "Used to learn how to cook Sizzling Jade Stir-fry.",
+    "bg": "A recipe that details how to cook Sizzling Jade Stir-fry.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -35342,8 +35342,8 @@
       24
     ],
     "name": "Honeypot Jam Recipe",
-    "desc": "",
-    "bg": "",
+    "desc": "Used to learn how to cook Crab Braised Fish.",
+    "bg": "A recipe that details how to cook Crab Braised Fish.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -35358,8 +35358,8 @@
       24
     ],
     "name": "Smoked Meat Stew Recipe",
-    "desc": "",
-    "bg": "",
+    "desc": "Used to learn how to cook Little Snowy Moons.",
+    "bg": "A recipe that details how to cook Little Snowy Moons.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -35374,8 +35374,8 @@
       24
     ],
     "name": "Grilled Fern Spore Recipe",
-    "desc": "",
-    "bg": "",
+    "desc": "Used to learn how to cook Stir-Fried Trio.",
+    "bg": "A recipe that details how to cook Stir-Fried Trio.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -35390,8 +35390,8 @@
       24
     ],
     "name": "Fruit Crackle Recipe",
-    "desc": "",
-    "bg": "",
+    "desc": "Used to learn how to cook Flavor Under Heaven.",
+    "bg": "A recipe that details how to cook Flavor Under Heaven.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -35406,8 +35406,8 @@
       24
     ],
     "name": "\"Crack & Bolt\" Fish Jar Recipe",
-    "desc": "",
-    "bg": "",
+    "desc": "Used to learn how to cook Brocade Pearl Meatballs.",
+    "bg": "A recipe that details how to cook Brocade Pearl Meatballs.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -35422,8 +35422,8 @@
       24
     ],
     "name": "\"Munchie-More\" Bun Recipe",
-    "desc": "",
-    "bg": "",
+    "desc": "Used to learn how to cook Memories of Autumn.",
+    "bg": "A recipe that details how to cook Memories of Autumn.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -35438,8 +35438,8 @@
       24
     ],
     "name": "Complete Nutrition Squeezy Jelly Recipe",
-    "desc": "",
-    "bg": "",
+    "desc": "Used to learn how to cook Jade Broth Noodles.",
+    "bg": "A recipe that details how to cook Jade Broth Noodles.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -35454,8 +35454,8 @@
       24
     ],
     "name": "Lahai-Roi Special Plant Milk Recipe",
-    "desc": "",
-    "bg": "",
+    "desc": "Used to learn how to cook Classic Master Chef.",
+    "bg": "A recipe that details how to cook Classic Master Chef.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -35598,8 +35598,8 @@
       24
     ],
     "name": "",
-    "desc": "",
-    "bg": "",
+    "desc": "Used to learn how to cook Jade Mushroom Soup.",
+    "bg": "A recipe that details how to cook Jade Mushroom Soup.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -35614,8 +35614,8 @@
       24
     ],
     "name": "",
-    "desc": "",
-    "bg": "",
+    "desc": "Used to learn how to cook Cloudward Stew.",
+    "bg": "A recipe that details how to cook Cloudward Stew.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -35630,8 +35630,8 @@
       24
     ],
     "name": "",
-    "desc": "",
-    "bg": "",
+    "desc": "Used to learn how to cook Sizzling Jade Stir-fry.",
+    "bg": "A recipe that details how to cook Sizzling Jade Stir-fry.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -35646,8 +35646,8 @@
       24
     ],
     "name": "",
-    "desc": "",
-    "bg": "",
+    "desc": "Used to learn how to cook Crab Braised Fish.",
+    "bg": "A recipe that details how to cook Crab Braised Fish.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -35662,8 +35662,8 @@
       24
     ],
     "name": "",
-    "desc": "",
-    "bg": "",
+    "desc": "Used to learn how to cook Little Snowy Moons.",
+    "bg": "A recipe that details how to cook Little Snowy Moons.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -35678,8 +35678,8 @@
       24
     ],
     "name": "",
-    "desc": "",
-    "bg": "",
+    "desc": "Used to learn how to cook Stir-Fried Trio.",
+    "bg": "A recipe that details how to cook Stir-Fried Trio.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -35694,8 +35694,8 @@
       24
     ],
     "name": "",
-    "desc": "",
-    "bg": "",
+    "desc": "Used to learn how to cook Flavor Under Heaven.",
+    "bg": "A recipe that details how to cook Flavor Under Heaven.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -35710,8 +35710,8 @@
       24
     ],
     "name": "",
-    "desc": "",
-    "bg": "",
+    "desc": "Used to learn how to cook Brocade Pearl Meatballs.",
+    "bg": "A recipe that details how to cook Brocade Pearl Meatballs.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -35726,8 +35726,8 @@
       24
     ],
     "name": "",
-    "desc": "",
-    "bg": "",
+    "desc": "Used to learn how to cook Memories of Autumn.",
+    "bg": "A recipe that details how to cook Memories of Autumn.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -35742,8 +35742,8 @@
       24
     ],
     "name": "",
-    "desc": "",
-    "bg": "",
+    "desc": "Used to learn how to cook Jade Broth Noodles.",
+    "bg": "A recipe that details how to cook Jade Broth Noodles.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -35758,8 +35758,8 @@
       24
     ],
     "name": "",
-    "desc": "",
-    "bg": "",
+    "desc": "Used to learn how to cook Classic Master Chef.",
+    "bg": "A recipe that details how to cook Classic Master Chef.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconCook/T_IconCook_036_UI.T_IconCook_036_UI",
     "source": []
   },
@@ -40784,8 +40784,8 @@
       10
     ],
     "name": "Op Credit",
-    "desc": "Virtual operation currency issued by the Black Shores. Used in various simulations.",
-    "bg": "More comprehensive data from drills across a wider range of intensities will better equip us to deploy the right personnel for future Waveworn Phenomena.",
+    "desc": "Virtual operation currency issued by the Black Shores to be used in various simulations.",
+    "bg": "Simulation data collected across situations of varying criticality informs our future personnel assignment facing Waveworn Phenomena.",
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_80400001_UI.T_IconA_80400001_UI",
     "source": []
   },

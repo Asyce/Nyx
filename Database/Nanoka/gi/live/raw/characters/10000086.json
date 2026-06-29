@@ -976,6 +976,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1014,6 +1018,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1064,6 +1072,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1102,6 +1114,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1152,6 +1168,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1190,6 +1210,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1240,6 +1264,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1278,6 +1306,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1328,6 +1360,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1366,6 +1402,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1416,6 +1456,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1454,6 +1498,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1504,6 +1552,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1548,6 +1600,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1586,6 +1642,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1643,6 +1703,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1676,6 +1740,10 @@
             "HP Cost|{param2:F1P} Max HP",
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1731,6 +1799,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1764,6 +1836,10 @@
             "HP Cost|{param2:F1P} Max HP",
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1819,6 +1895,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1852,6 +1932,10 @@
             "HP Cost|{param2:F1P} Max HP",
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1907,6 +1991,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1940,6 +2028,10 @@
             "HP Cost|{param2:F1P} Max HP",
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1995,6 +2087,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2028,6 +2124,10 @@
             "HP Cost|{param2:F1P} Max HP",
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2083,6 +2183,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2116,6 +2220,10 @@
             "HP Cost|{param2:F1P} Max HP",
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2171,6 +2279,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2215,6 +2327,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2248,6 +2364,10 @@
             "HP Cost|{param2:F1P} Max HP",
             "Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2310,6 +2430,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2344,6 +2468,10 @@
             "CD|{param3:F1}s",
             "Surging Blade CD|{param5:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2398,6 +2526,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2432,6 +2564,10 @@
             "CD|{param3:F1}s",
             "Surging Blade CD|{param5:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2486,6 +2622,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2520,6 +2660,10 @@
             "CD|{param3:F1}s",
             "Surging Blade CD|{param5:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2574,6 +2718,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2608,6 +2756,10 @@
             "CD|{param3:F1}s",
             "Surging Blade CD|{param5:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2662,6 +2814,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2696,6 +2852,10 @@
             "CD|{param3:F1}s",
             "Surging Blade CD|{param5:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2750,6 +2910,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2784,6 +2948,10 @@
             "CD|{param3:F1}s",
             "Surging Blade CD|{param5:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2838,6 +3006,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2882,6 +3054,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2916,6 +3092,10 @@
             "CD|{param3:F1}s",
             "Surging Blade CD|{param5:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3041,6 +3221,40 @@
         0,
         0
       ]
+    },
+    {
+      "id": 865101,
+      "name": "There Shall Be an Unveiling for Injustice",
+      "desc": "<color=#FFD780FF>Radiance: Stellar-Conduct</color>: The Ascension Talent \"There Shall Be a Plea for Justice\" is changed to the following:\\nWhen Wriothesley's HP is less than 60%, he will obtain a \"Gracious Rebuke: Unveiling.\" This enhances the next Charged Attack of his <color=#FFD780FF>Normal Attack: Forceful Fists of Frost</color> into Luster: Vaulting Fist, which will not consume Stamina and restores 30% Max HP to Wriothesley upon hit. Wriothesley can gain HP in this way once every 2s.\\nAdditionally, the third and fifth strikes of Repelling Fist enhanced by <color=#FFD780FF>Chilling Penalty</color> will deal 60% and 80% of their original <color=#99FFFFFF>Cryo DMG</color> respectively, while Luster: Vaulting Fist will deal 100% of its original <color=#99FFFFFF>AoE Cryo DMG</color>. The aforementioned DMG is considered as Stellar-Conduct DMG, and Wriothesley deals 30% increased Stellar-Conduct DMG.\\nAdditionally, when inside a {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}, Wriothesley will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state.",
+      "icon": "UI_Talent_S_Wriothesley_08",
+      "param_list": [
+        0.6,
+        0.3,
+        2,
+        0.3,
+        -0.4,
+        -0.2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unlock": [
+        7469504
+      ],
+      "special": true,
+      "special_passive": true,
+      "special_desc": ""
     }
   ],
   "constellations": [
@@ -3053,12 +3267,14 @@
         2.5,
         1.5,
         4,
-        0,
-        0,
-        0,
+        0.5,
+        0.5,
+        5,
         0,
         0
-      ]
+      ],
+      "special": true,
+      "special_desc": "The Gracious Rebuke from the Ascension Talent \"There Shall Be a Plea for Justice\" is changed to this:\\nWhen Wriothesley's HP is less than 60% or while he is in the Chilling Penalty state caused by <color=#FFD780FF>Icefang Rush</color>, when the fifth attack of Repelling Fists hits, it will create a Gracious Rebuke. 1 Gracious Rebuke effect can be obtained every 2.5s.\\n\\nAdditionally, Rebuke: Vaulting Fist will obtain the following enhancement:\\n· The DMG Bonus gained will be further increased to 200%.\\n· When it hits while Wriothesley is in the Chilling Penalty state, that state's duration is extended by 4s.\\n\\n<color=#FFD780FF>Radiance: Stellar-Conduct:</color>\\n· After a Luster: Vaulting Fist attack hits an opponent, the next fifth attack of Repelling Fist enhanced by Chilling Penalty that hits within the next 5s deals 50% increased Stellar-Conduct DMG.\\n· After the fifth attack of Repelling Fist enhanced by Chilling Penalty hits an opponent, Luster: Vaulting Fists that hit within the next 5s deal 50% increased DMG.\\n· If Luster: Vaulting Fist hits an opponent while Wriothesley is in the Chilling Penalty state, that state's duration is extended by 4s.\\n\\n1 such extension can occur per 1 Chilling Penalty duration.\\n\\nYou must first unlock the Ascension Talent \"There Shall Be a Plea for Justice.\""
     },
     {
       "id": 862,
@@ -3067,14 +3283,16 @@
       "icon": "UI_Talent_S_Wriothesley_02",
       "param_list": [
         0.4,
-        0,
-        0,
-        0,
-        0,
-        0,
+        0.25,
+        0.3,
+        -0.1,
+        0.2,
+        0.5,
         0,
         0
-      ]
+      ],
+      "special": true,
+      "special_desc": "When <color=#FFD780FF>Darkgold Wolfbite</color> is unleashed, each instance of the Prosecution Edict effect from the Ascension Talent \"There Shall Be a Reckoning for Sin\" will increase the DMG dealt by 40%.\\n\\nAdditionally, when the Prosecution Edict stack reaches 5, if Wriothesley:\\n· Is in the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state: The Talent \"There Shall Be an Unveiling for Injustice\" will be enhanced, so that the third and fifth strikes of Repelling Fist, when enhanced by <color=#FFD780FF>Chilling Penalty</color>, deal 90% or 120% of their original <color=#99FFFFFF>Cryo DMG</color> respectively, while Luster: Vaulting Fist will deal 150% of its original <color=#99FFFFFF>AoE Cryo DMG</color>. The aforementioned DMG is considered Stellar-Conduct DMG.\\n· Is not in the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state: Normal Attacks and Charged Attacks will deal 125% or 130% of their original DMG respectively.\\n\\nYou must first unlock the Ascension Talent \"There Shall Be a Reckoning for Sin.\""
     },
     {
       "id": 863,
@@ -3103,10 +3321,12 @@
         0.1,
         6,
         0.2,
-        0,
-        0,
-        0
-      ]
+        0.25,
+        0.2,
+        0.1
+      ],
+      "special": true,
+      "special_desc": "The HP restored to Wriothesley through Rebuke: Vaulting Fist will be increased to 50% of his Max HP. You must first unlock the Ascension Talent \"There Shall Be a Plea for Justice.\"\\nAdditionally, when Wriothesley is healed, if the amount of healing overflows, the following effects will occur, depending on whether he is on the field. If he is on the field, his ATK SPD will be increased by 20% for 4s. If he is off-field, all of your own party members' ATK SPD will be increased by 10% for 6s. These two ATK SPD boosts cannot stack.\\n\\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: The aforementioned effect is changed to:\\nWriothesley takes 25% less DMG, and his ATK SPD is increased by 20%. Other nearby party members' ATK SPD is increased by 10%."
     },
     {
       "id": 865,
@@ -3133,12 +3353,14 @@
         0.1,
         0.8,
         1,
-        0,
-        0,
-        0,
+        0.1,
+        0.8,
+        0.2,
         0,
         0
-      ]
+      ],
+      "special": true,
+      "special_desc": "The CRIT Rate of Rebuke: Vaulting Fist will be increased by 10%, and its CRIT DMG by 80%. When unleashed, it will also create an additional icicle that deals 100% of Rebuke: Vaulting Fist's original DMG as <color=#99FFFFFF>Cryo DMG</color>. DMG dealt this way is regarded as Charged Attack DMG.\\n\\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: The aforementioned effect is changed to:\\n· The Repelling Fist enhanced by <color=#FFD780FF>Chilling Penalty</color>, as well as Luster: Vaulting Fist, gain a 10% CRIT Rate and 80% CRIT DMG boost. In addition, the fifth attack of Repelling Fists enhanced by <color=#FFD780FF>Chilling Penalty</color>, as well as Luster: Vaulting Fist, will each generate an additional icicle that deals <color=#99FFFFFF>Cryo DMG</color> at 60% of its original DMG. This DMG will be considered Stellar-Conduct DMG.\\n\\nYou must first unlock the Ascension Talent \"There Shall Be a Plea for Justice.\""
     }
   ],
   "materials": {
@@ -3869,5 +4091,322 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "ExtraAttack_Strike",
+      "icd": {
+        "tag": "StarSuperconductorIceDamage",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 110
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Blunt"
+    },
+    {
+      "name": "ExtraAttack_Strike",
+      "icd": {
+        "tag": "StarSuperconductorIceDamage",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 50
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ExtraAttack_Strike",
+      "icd": {
+        "tag": "StarSuperconductorIceDamage",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 110
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Blunt"
+    },
+    {
+      "name": "ExtraAttack_Strike",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 110
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": [
+        "Wriothesley_ExtraAttack_Damage_AtkRatio",
+        "Wriothesley_ExtraAttack_Damage_AtkRatio",
+        "Wriothesley_NoSSC_EA_FinalRatio",
+        "MUL",
+        "ADD"
+      ]
+    },
+    {
+      "name": "ExtraAttack_Strike",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 50
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": [
+        "Wriothesley_ExtraAttack_Damage_AtkRatio",
+        "Wriothesley_ExtraAttack_Constellation_6_Ratio",
+        "MUL",
+        "Wriothesley_ExtraAttack_Damage_AtkRatio",
+        "Wriothesley_ExtraAttack_Constellation_6_Ratio",
+        "MUL",
+        "Wriothesley_NoSSC_EA_FinalRatio",
+        "MUL",
+        "ADD"
+      ]
+    },
+    {
+      "name": "ExtraAttack_Strike",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 110
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": [
+        "Wriothesley_ExtraAttack_Damage_AtkRatio",
+        "Wriothesley_ExtraAttack_Damage_AtkRatio",
+        "Wriothesley_NoSSC_EA_FinalRatio",
+        "MUL",
+        "ADD"
+      ]
+    },
+    {
+      "name": "ExtraAttack_Strike",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 110
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": [
+        "Wriothesley_ExtraAttack_Damage_AtkRatio",
+        "Wriothesley_ExtraAttack_Damage_AtkRatio",
+        "Wriothesley_NoSSC_EA_FinalRatio",
+        "MUL",
+        "ADD"
+      ]
+    },
+    {
+      "name": "ExtraAttack_Strike",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 50
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": [
+        "Wriothesley_ExtraAttack_Damage_AtkRatio",
+        "Wriothesley_ExtraAttack_Constellation_6_Ratio",
+        "MUL",
+        "Wriothesley_ExtraAttack_Damage_AtkRatio",
+        "Wriothesley_ExtraAttack_Constellation_6_Ratio",
+        "MUL",
+        "Wriothesley_NoSSC_EA_FinalRatio",
+        "MUL",
+        "ADD"
+      ]
+    },
+    {
+      "name": "ExtraAttack_Strike",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 110
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": [
+        "Wriothesley_ExtraAttack_Damage_AtkRatio",
+        "Wriothesley_ExtraAttack_Damage_AtkRatio",
+        "Wriothesley_NoSSC_EA_FinalRatio",
+        "MUL",
+        "ADD"
+      ]
+    },
+    {
+      "name": "ExtraAttack_Strike",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 110
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": [
+        "Wriothesley_ExtraAttack_Damage_AtkRatio",
+        "Wriothesley_ExtraAttack_Damage_AtkRatio",
+        "Wriothesley_NoSSC_EA_FinalRatio",
+        "MUL",
+        "ADD"
+      ]
+    },
+    {
+      "name": "NormalAttack_Damage_Handler",
+      "icd": {
+        "tag": "StarSuperconductorIceDamage",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 71.9181
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalBurst_Bullet",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 50
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "Wriothesley_ElementalBurst_Damage"
+    },
+    {
+      "name": "ElementalBurst_Bullet",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV7",
+        "value": 20
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "Wriothesley_ElementalBurst_Damage_Arkhe"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Wriothesley_FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Wriothesley_FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Wriothesley_FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementalArt_GenerateEnergy",
+      "skill": "ElementalArt_Buff",
+      "kind": "ElementalArt",
+      "element": "Cryo",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "cd": 2,
+      "applications": 4,
+      "drop_id": 2022
+    }
+  ],
+  "special": true
 }

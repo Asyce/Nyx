@@ -270,7 +270,7 @@
         ]
       },
       {
-        "title": "About Marionette",
+        "title": "About Marionette: Research",
         "text": "I have little interest in her. She is extremely... passionate about her research and does not appear in public often. In fact, many of our officers have yet to see her at all. Compared to, let's say, someone who would go so far as to create segments of themselves to better wander across the land, I suppose you could say she is at the other end of the extreme.",
         "unlocked": [
           "Unlocks at Friendship Lv. 4"
@@ -510,6 +510,14 @@
         "title": "Joining Party: III",
         "text": "This will be a productive partnership, I hope.",
         "unlocked": []
+      },
+      {
+        "title": "About Marionette: Return",
+        "text": "After experiencing so much in Nod-Krai together, I've come to realize my previous assessment was unfair. She's a reliable comrade and a reassuring companion. On the eve of another harsh winter, every additional pair of hands is welcome, so I'm glad that Sandrone has returned. Her presence provides comfort to the children.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Sunny Summer Fontinalia\""
+        ]
       }
     ],
     "special_food": {
@@ -3384,7 +3392,7 @@
             "name": "Rainbow Rose",
             "id": 101236,
             "count": 3,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Recruit's Insignia",
@@ -3413,7 +3421,7 @@
             "name": "Rainbow Rose",
             "id": 101236,
             "count": 10,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Recruit's Insignia",
@@ -3442,7 +3450,7 @@
             "name": "Rainbow Rose",
             "id": 101236,
             "count": 20,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Sergeant's Insignia",
@@ -3471,7 +3479,7 @@
             "name": "Rainbow Rose",
             "id": 101236,
             "count": 30,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Sergeant's Insignia",
@@ -3500,7 +3508,7 @@
             "name": "Rainbow Rose",
             "id": 101236,
             "count": 45,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Lieutenant's Insignia",
@@ -3529,7 +3537,7 @@
             "name": "Rainbow Rose",
             "id": 101236,
             "count": 60,
-            "rank": 1
+            "rank": 0
           },
           {
             "name": "Lieutenant's Insignia",

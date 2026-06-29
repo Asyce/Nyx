@@ -976,6 +976,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1014,6 +1018,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1064,6 +1072,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1102,6 +1114,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1152,6 +1168,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1190,6 +1210,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1240,6 +1264,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1278,6 +1306,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1328,6 +1360,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1366,6 +1402,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1416,6 +1456,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1454,6 +1498,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1504,6 +1552,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1548,6 +1600,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1586,6 +1642,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1643,6 +1703,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1676,6 +1740,10 @@
             "Transient Blossom DMG|{param2:P} DEF",
             "Duration|{param3:F1}s",
             "Skill CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1731,6 +1799,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1764,6 +1836,10 @@
             "Transient Blossom DMG|{param2:P} DEF",
             "Duration|{param3:F1}s",
             "Skill CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1819,6 +1895,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1852,6 +1932,10 @@
             "Transient Blossom DMG|{param2:P} DEF",
             "Duration|{param3:F1}s",
             "Skill CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1907,6 +1991,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1940,6 +2028,10 @@
             "Transient Blossom DMG|{param2:P} DEF",
             "Duration|{param3:F1}s",
             "Skill CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1995,6 +2087,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2028,6 +2124,10 @@
             "Transient Blossom DMG|{param2:P} DEF",
             "Duration|{param3:F1}s",
             "Skill CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2083,6 +2183,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2116,6 +2220,10 @@
             "Transient Blossom DMG|{param2:P} DEF",
             "Duration|{param3:F1}s",
             "Skill CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2171,6 +2279,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2215,6 +2327,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2248,6 +2364,10 @@
             "Transient Blossom DMG|{param2:P} DEF",
             "Duration|{param3:F1}s",
             "Skill CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2310,6 +2430,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2343,6 +2467,10 @@
             "Fatal Blossom DMG|{param2:F1P} each",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2398,6 +2526,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2431,6 +2563,10 @@
             "Fatal Blossom DMG|{param2:F1P} each",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2486,6 +2622,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2519,6 +2659,10 @@
             "Fatal Blossom DMG|{param2:F1P} each",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2574,6 +2718,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2607,6 +2755,10 @@
             "Fatal Blossom DMG|{param2:F1P} each",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2662,6 +2814,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2695,6 +2851,10 @@
             "Fatal Blossom DMG|{param2:F1P} each",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2750,6 +2910,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2783,6 +2947,10 @@
             "Fatal Blossom DMG|{param2:F1P} each",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2838,6 +3006,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2882,6 +3054,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2915,6 +3091,10 @@
             "Fatal Blossom DMG|{param2:F1P} each",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3914,5 +4094,347 @@
       ]
     ]
   },
+  "attack": [
+    {
+      "name": "SkillObj_Albedo_FuriousMonolith",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 50
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "OpeningDamage"
+    },
+    {
+      "name": "SkillObj_Albedo_FuriousMonolith_Field",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 50
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt"
+    },
+    {
+      "name": "SkillObj_Albedo_FuriousMonolith_FullBloom",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Burst"
+    },
+    {
+      "name": "SkillObj_Albedo_FuriousMonolith_FullBloom",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Burst"
+    },
+    {
+      "name": "SkillObj_Albedo_FuriousMonolith_FullBloom",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Burst"
+    },
+    {
+      "name": "SkillObj_Albedo_FuriousMonolith_FullBloom",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Burst"
+    },
+    {
+      "name": "SkillObj_Albedo_FuriousMonolith_FullBloom",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Burst"
+    },
+    {
+      "name": "SkillObj_Albedo_FuriousMonolith_FullBloom",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Burst"
+    },
+    {
+      "name": "SkillObj_Albedo_FuriousMonolith_FullBloom",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Burst"
+    },
+    {
+      "name": "SkillObj_Albedo_FuriousMonolith_FullBloom",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Burst"
+    },
+    {
+      "name": "SkillObj_Albedo_FuriousMonolith_FullBloom",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Burst"
+    },
+    {
+      "name": "AlchemicalBreakOut",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "value": 400
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
+      "name": "AlchemicalBreakOut",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "OpeningDamage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "SkillObj_Albedo_FuriousMonolith_Hexenzirkel",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 50
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt"
+    },
+    {
+      "name": "HexenzirkelSkill",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt"
+    },
+    {
+      "name": "HexenzirkelSkill",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt"
+    },
+    {
+      "name": "HexenzirkelSkill",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt"
+    },
+    {
+      "name": "HexenzirkelSkill",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt"
+    }
+  ],
+  "energy": [
+    {
+      "name": "AlchemyTrap_BloomElemBall",
+      "skill": "SkillObj_Albedo_FuriousMonolith_Field",
+      "kind": "Other",
+      "element": "Geo",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 67,
+      "cd": 1,
+      "applications": 1,
+      "drop_id": 2023
+    }
+  ],
   "special": true
 }

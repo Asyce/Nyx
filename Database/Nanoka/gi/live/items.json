@@ -1026,6 +1026,17 @@
     }
   },
   {
+    "id": "196",
+    "contentStatus": "live",
+    "name": "Venue Popularity",
+    "rarity": 3,
+    "type": "ITEM_VIRTUAL",
+    "description": "During the \"Sunny Summer Fontinalia\" event, complete various aquarium tasks to raise your Venue Popularity. This score can be used to unlock valuable supply rewards.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_196.webp"
+    }
+  },
+  {
     "id": "201",
     "contentStatus": "live",
     "name": "Primogem",
@@ -4391,6 +4402,7 @@
     "name": "Lohen",
     "rarity": 5,
     "type": "Unlocks the associated character",
+    "description": "Vice Captain of the Knights of Favonius Ranged Company, a knight known for his unorthodox approach and fondness for unconventional tactics.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_AvatarIcon_Lohen_Card.webp"
     }
@@ -4426,6 +4438,17 @@
     "description": "A diminutive Witch Hunter who has journeyed all the way from Nod-Krai with the singular purpose of rooting out a witch who, to hear her tell it, has committed every sin imaginable — including bullying little kids!",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_AvatarIcon_Prune_Card.webp"
+    }
+  },
+  {
+    "id": "4133",
+    "contentStatus": "live",
+    "name": "Sandrone",
+    "rarity": 5,
+    "type": "Unlocks the associated character",
+    "description": "The Seventh of the Fatui Harbingers, \"Marionette.\" Interprets all phenomena through the prism of mathematics, and is an elegant lady who is never absent from a tea party.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_AvatarIcon_MarionetteNew_Card.webp"
     }
   },
   {
@@ -4767,6 +4790,17 @@
     "description": "Prune's Constellation Activation Material",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_1103.webp"
+    }
+  },
+  {
+    "id": "5133",
+    "contentStatus": "live",
+    "name": "Sandrone's Stella Fortuna",
+    "rarity": 5,
+    "type": "Activates Constellation",
+    "description": "Sandrone's Constellation Activation Material",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_1102.webp"
     }
   },
   {
@@ -6054,6 +6088,17 @@
     "description": "Prune's Constellation Activation Material",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_1103.webp"
+    }
+  },
+  {
+    "id": "6133",
+    "contentStatus": "live",
+    "name": "Sandrone's Stella Fortuna",
+    "rarity": 5,
+    "type": "Activates Constellation",
+    "description": "Sandrone's Constellation Activation Material",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_1102.webp"
     }
   },
   {
@@ -16936,6 +16981,17 @@
     }
   },
   {
+    "id": "101270",
+    "contentStatus": "live",
+    "name": "Teardrop of the Moon",
+    "rarity": 0,
+    "type": "Local Specialty (Nod-Krai)",
+    "description": "A clear, radiant azure crystal that holds an exceptionally pure form of kuuvahki. It possesses a near-perfect affinity with all types of elemental energy.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_101270.webp"
+    }
+  },
+  {
     "id": "101271",
     "contentStatus": "live",
     "name": "Windrest Flower",
@@ -24391,6 +24447,17 @@
     "description": "A key that can break the seal on the ancient Shrines of Depths scattered around Nod-Krai.\\nThese Shrines of Depths sealed themselves off when the civilization that built them was lost. Keys lost deep within domains are able to break the seals. Or perhaps that, for a moment, these keys help the seals to forget all that they have lost.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_107031.webp"
+    }
+  },
+  {
+    "id": "107032",
+    "contentStatus": "live",
+    "name": "Frost Moon Shrine of Depths Key",
+    "rarity": 0,
+    "type": "Adventure Item",
+    "description": "A key that can break the seal on the ancient Shrines of Depths scattered around the Frost Moon.\\nThese Shrines of Depths sealed themselves off when the civilization that built them was lost. Keys lost deep within domains are able to break the seals. Or perhaps that, for a moment, these keys help the seals to forget all that they have lost.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_107032.webp"
     }
   },
   {
@@ -35942,6 +36009,114 @@
     }
   },
   {
+    "id": "108976",
+    "contentStatus": "live",
+    "name": "Tea Party Polyphony",
+    "rarity": 3,
+    "type": "Food",
+    "description": "Sandrone's specialty. Appearing without fanfare at the tea party is an exquisitely crafted two-tiered assortment of pastries... Could she really have made this herself? Before the surprise in your eyes has time to fade, she folds her arms, turns slightly aside, and lifts her chin. \"Hah? What's that look for? They're only tea snacks. Hardly a challenge.\" A faint, delicate sweetness drifts through the air, as if silently backing up her claim. Well then, best not keep them waiting!",
+    "effect": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 1500s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_108880.webp"
+    }
+  },
+  {
+    "id": "108977",
+    "contentStatus": "live",
+    "name": "Suspicious Birch-Steamed Pork Ribs",
+    "rarity": 3,
+    "type": "Food",
+    "description": "A dish made with branches and ribs. You casually take a piece, only to find it deep reddish-brown from drying, with lines across its surface like the rings of an old tree. Add in that coarse texture, and... Hold on. Surely this is not a branch mistaken for a rib?",
+    "effect": "Decreases all party members' gliding and sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_108881.webp"
+    }
+  },
+  {
+    "id": "108978",
+    "contentStatus": "live",
+    "name": "Birch-Steamed Pork Ribs",
+    "rarity": 3,
+    "type": "Food",
+    "description": "A dish made with branches and ribs. The ribs are marinated, air-dried, then placed on birch branches and steamed. When served, the meat is fall-apart tender, with a distinctive woody aroma. It is one of Nod-Krai's traditional festive dishes.",
+    "effect": "Decreases all party members' gliding and sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_108881.webp"
+    }
+  },
+  {
+    "id": "108979",
+    "contentStatus": "live",
+    "name": "Delicious Birch-Steamed Pork Ribs",
+    "rarity": 3,
+    "type": "Food",
+    "description": "A dish made with branches and ribs. With the lightest nudge of a fork, the meat falls from the bone like snow sliding from a branch. As it touches your tongue, its deep, savory richness mingles with the faint woodland aroma of steamed birch, finally melting into a warmth that leaves you wholly content.",
+    "effect": "Decreases all party members' gliding and sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s).",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_108881.webp"
+    }
+  },
+  {
+    "id": "108980",
+    "contentStatus": "live",
+    "name": "Suspicious Meat-Filled Rye Bun",
+    "rarity": 2,
+    "type": "Food",
+    "description": "Fish-stuffed bread. The bread is hard enough to pass for a shoe sole, while stubborn fish scales cling to your teeth and resist every attempt to scrape them off... One bite in, and you will already be looking for water to rinse your mouth.",
+    "effect": "Restores 40 Stamina.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_108882.webp"
+    }
+  },
+  {
+    "id": "108981",
+    "contentStatus": "live",
+    "name": "Meat-Filled Rye Bun",
+    "rarity": 2,
+    "type": "Food",
+    "description": "Fish-stuffed bread. The fish has its head and bones removed before being wrapped in bacon, encased in rye dough, and baked. The thickness of the bread is key to keeping the fish juicy.",
+    "effect": "Restores 50 Stamina.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_108882.webp"
+    }
+  },
+  {
+    "id": "108982",
+    "contentStatus": "live",
+    "name": "Delicious Meat-Filled Rye Bun",
+    "rarity": 2,
+    "type": "Food",
+    "description": "Fish-stuffed bread. Crack open its crisp, charred crust, and rich, savory oils come rushing out, followed by the clean sweetness of the fish. In the end, every flavor settles into the hearty crust, now steeped in fragrant juices. A single bite is enough to make even the bitter wind draw back.",
+    "effect": "Restores 60 Stamina.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_108882.webp"
+    }
+  },
+  {
+    "id": "108983",
+    "contentStatus": "live",
+    "name": "Tea Party Prelude: Herbal Tea",
+    "rarity": 3,
+    "type": "Food",
+    "description": "A floral herbal tea well worth savoring. Gentle and smooth, with a soft floral aroma that is both elegant and full-bodied. Its orange-red liquor glows like rosy light through clouds, soothing the heart with warmth and calm.",
+    "effect": "Restores 34% of Max HP and an additional 1,900 HP to the selected character.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_108883.webp"
+    }
+  },
+  {
+    "id": "108984",
+    "contentStatus": "live",
+    "name": "Tea Party Prelude: Artful Latte",
+    "rarity": 3,
+    "type": "Food",
+    "description": "A latte well worth savoring. Carefully ground from specially roasted coffee beans, it is finished with delicate foam art, soft and dense as mist. Its flavor is rich and mellow, with an unusually refined aroma that sets it apart.",
+    "effect": "Restores 34% of Max HP and an additional 1,900 HP to the selected character.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_108884.webp"
+    }
+  },
+  {
     "id": "109000",
     "contentStatus": "live",
     "name": "Recipe Item",
@@ -38901,6 +39076,28 @@
     }
   },
   {
+    "id": "109653",
+    "contentStatus": "live",
+    "name": "Recipe: Birch-Steamed Pork Ribs",
+    "rarity": 3,
+    "type": "Recipe",
+    "description": "A detailed step-by-step recipe for making Birch-Steamed Pork Ribs.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_109000.webp"
+    }
+  },
+  {
+    "id": "109654",
+    "contentStatus": "live",
+    "name": "Recipe: Meat-Filled Rye Bun",
+    "rarity": 2,
+    "type": "Recipe",
+    "description": "A detailed step-by-step recipe for making Meat-Filled Rye Bun.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_109000.webp"
+    }
+  },
+  {
     "id": "110000",
     "contentStatus": "live",
     "name": "Crafted Items",
@@ -40991,6 +41188,39 @@
     "description": "The hilt remains of a flaming sword once wielded by a Domain Keeper.\\n A sword of blazing fire was once the symbol of admonition. Empowered by the authority of \"Space,\" it proclaimed the absolute and infallible will of the divine.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112142.webp"
+    }
+  },
+  {
+    "id": "112143",
+    "contentStatus": "live",
+    "name": "Fractured Lunar Iron",
+    "rarity": 2,
+    "type": "Character and Weapon Enhancement Material",
+    "description": "A fragment taken from within a defeated ancient machine that had wandered the lunar surface. It seems unlike the metals commonly found in Teyvat.\\nLost folktales from many lands tell of heroes who forged the \"divine iron\" granted by the Welkin Moon into indestructible weapons, then used them to defeat fearsome foes and monsters.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112143.webp"
+    }
+  },
+  {
+    "id": "112144",
+    "contentStatus": "live",
+    "name": "Depleted Lunar Iron",
+    "rarity": 3,
+    "type": "Character and Weapon Enhancement Material",
+    "description": "A component taken from within a defeated ancient machine that had wandered the lunar surface. It seems unlike the metals commonly found in Teyvat.\\nLost folktales from many lands tell of heroes who forged the \"divine iron\" granted by the Welkin Moon into indestructible weapons, then used them to defeat fearsome foes and monsters. But the metal that fell from the Welkin Moon was no divine blessing — even the gods who once resided upon the moon had long since fallen.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112144.webp"
+    }
+  },
+  {
+    "id": "112145",
+    "contentStatus": "live",
+    "name": "Unblemished Lunar Iron",
+    "rarity": 4,
+    "type": "Character and Weapon Enhancement Material",
+    "description": "A core taken from within a defeated ancient machine that had wandered the lunar surface. It seems unlike the metals commonly found in Teyvat.\\nIt was untouched by earthly impurity, eternal and free from the seven calamities and eight sufferings, and it once longed to sing out into the endless void. Yet when every calculation reached its end, all that remained in the lunar palace was useless, cold iron.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_112145.webp"
     }
   },
   {
@@ -59989,6 +60219,17 @@
     }
   },
   {
+    "id": "121518",
+    "contentStatus": "live",
+    "name": "Secret Source: Ancient Moon's Fount",
+    "rarity": 0,
+    "type": "Quest Item",
+    "description": "An artificial core that uses Secret Source techniques to encapsulate highly concentrated Archaeolune Energy.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121518.webp"
+    }
+  },
+  {
     "id": "121519",
     "contentStatus": "live",
     "name": "A Letter Carried by the Wind",
@@ -60041,6 +60282,17 @@
     "description": "Money Varka has set aside for drinks, brazenly tucked away in a desk drawer.\\n\"The most dangerous spot is actually the safest spot!\" He might claim that, but the truth is he probably keeps the money here because he believes the acting Grand Master will neither spend it nor reveal its hiding place.\\nThis money was originally set aside to buy the Dandelion Wine as an offering to the Archon, and has now been used to reward the Honorary Knight who saved Varka — or perhaps that knight might use it to treat every friend who helped save Varka.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_100309.webp"
+    }
+  },
+  {
+    "id": "121524",
+    "contentStatus": "live",
+    "name": "Paimon's Notes",
+    "rarity": 0,
+    "type": "Quest Item",
+    "description": "Jot down anything Paimon doesn't understand. Who knows? It might come in handy someday! That's a top adventure tip from the clever Paimon!",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_100362.webp"
     }
   },
   {
@@ -60137,6 +60389,16 @@
     "description": "A shared backpack. It's not that spacious... but there's never a dull moment inside!",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121533.webp"
+    }
+  },
+  {
+    "id": "121534",
+    "contentStatus": "live",
+    "name": "121534",
+    "rarity": 0,
+    "type": "Quest Item",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_120965.webp"
     }
   },
   {
@@ -60522,6 +60784,49 @@
     }
   },
   {
+    "id": "121583",
+    "contentStatus": "live",
+    "name": "Witness of the Moon",
+    "rarity": 4,
+    "type": "Quest Item",
+    "description": "The Moon Goddess once used her power to bear witness to the journey of the Moongazers. Now, it has become a witness to your journey as well.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121583.webp"
+    }
+  },
+  {
+    "id": "121588",
+    "contentStatus": "live",
+    "name": "Lost Flower of Ancient Times",
+    "rarity": 1,
+    "type": "Quest Item",
+    "description": "A preserved flower from a long-lost era, bearing a striking resemblance to a certain plant found in Teyvat. There may be a distant and ambiguous connection between the two.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_100012.webp"
+    }
+  },
+  {
+    "id": "121595",
+    "contentStatus": "live",
+    "name": "121595",
+    "rarity": 0,
+    "type": "Quest Item",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121595.webp"
+    }
+  },
+  {
+    "id": "121596",
+    "contentStatus": "live",
+    "name": "Sandrone's Tea Party Invitation Letter",
+    "rarity": 0,
+    "type": "Quest Item",
+    "description": "A tea party invitation letter sent by Sandrone. The invitation is delicately patterned with exquisite handwriting. Is this what one calls a lady's elegance?",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121596.webp"
+    }
+  },
+  {
     "id": "121601",
     "contentStatus": "live",
     "name": "Ancient Mondstadt Royal Seal",
@@ -60541,6 +60846,71 @@
     "description": "Collect all 3 Domain Control Modules to unlock the Secret Hall of the Realms.\\n\\nYou found this strange module by chance while exploring. If you collect three with the same markings, you may be able to open the secret hall within the Temple of Space.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121602.webp"
+    }
+  },
+  {
+    "id": "121603",
+    "contentStatus": "live",
+    "name": "Frost Moon Seal",
+    "rarity": 4,
+    "type": "Adventure Item",
+    "description": "Collect all 3 seals to unlock the treasure vault in Ungien's Circle.\\n\\nYou found this round, marked stone by chance while exploring. If you collect three with the same markings, you may be able to piece together a shadow of the bright moon that once illuminated the world.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121603.webp"
+    }
+  },
+  {
+    "id": "121604",
+    "contentStatus": "live",
+    "name": "Frost Moon Seal",
+    "rarity": 4,
+    "type": "Adventure Item",
+    "description": "Collect all 3 seals to unlock the treasure vault in Moontide Sea.\\n\\nYou found this round, marked stone by chance while exploring. If you collect three with the same markings, you may be able to piece together a shadow of the bright moon that once illuminated the world.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121604.webp"
+    }
+  },
+  {
+    "id": "121606",
+    "contentStatus": "live",
+    "name": "\"Family Portrait\" by Mamere",
+    "rarity": 4,
+    "type": "Quest Item",
+    "description": "A family portrait that Mamere painted for her \"family members\" at a tea party hosted by Sandrone. Its warm and distinctive brushwork differs somewhat from her previous paintings, suggesting that, as she said, she has been trying her hand at all sorts of different styles during her travels.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121606.webp"
+    }
+  },
+  {
+    "id": "121609",
+    "contentStatus": "live",
+    "name": "Alain Guillotin's Epitaph",
+    "rarity": 0,
+    "type": "Quest Item",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_100003.webp"
+    }
+  },
+  {
+    "id": "121625",
+    "contentStatus": "live",
+    "name": "Moongazer's Engraving (I)",
+    "rarity": 3,
+    "type": "Quest Item",
+    "description": "An ancient stone tablet discovered on the moon. Though the writing upon it is completely indecipherable, for some reason, anyone who reads it can understand its meaning in their native tongue.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121625.webp"
+    }
+  },
+  {
+    "id": "121626",
+    "contentStatus": "live",
+    "name": "Moongazer's Engraving (II)",
+    "rarity": 3,
+    "type": "Quest Item",
+    "description": "An ancient stone tablet discovered on the moon. Though the writing upon it is completely indecipherable, for some reason, anyone who reads it can understand its meaning in their native tongue.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_121625.webp"
     }
   },
   {
@@ -64045,6 +64415,72 @@
     "id": "141284",
     "contentStatus": "live",
     "name": "Radiant Spincrystal 182",
+    "rarity": 4,
+    "type": "Adventure Item",
+    "description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\"",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_BGM_Common.webp"
+    }
+  },
+  {
+    "id": "141285",
+    "contentStatus": "live",
+    "name": "Radiant Spincrystal 183",
+    "rarity": 4,
+    "type": "Adventure Item",
+    "description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\"",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_BGM_Common.webp"
+    }
+  },
+  {
+    "id": "141286",
+    "contentStatus": "live",
+    "name": "Radiant Spincrystal 184",
+    "rarity": 4,
+    "type": "Adventure Item",
+    "description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\"",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_BGM_Common.webp"
+    }
+  },
+  {
+    "id": "141287",
+    "contentStatus": "live",
+    "name": "Radiant Spincrystal 185",
+    "rarity": 4,
+    "type": "Adventure Item",
+    "description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\"",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_BGM_Common.webp"
+    }
+  },
+  {
+    "id": "141288",
+    "contentStatus": "live",
+    "name": "Radiant Spincrystal 186",
+    "rarity": 4,
+    "type": "Adventure Item",
+    "description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\"",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_BGM_Common.webp"
+    }
+  },
+  {
+    "id": "141289",
+    "contentStatus": "live",
+    "name": "Radiant Spincrystal 187",
+    "rarity": 4,
+    "type": "Adventure Item",
+    "description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\"",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_BGM_Common.webp"
+    }
+  },
+  {
+    "id": "141290",
+    "contentStatus": "live",
+    "name": "Radiant Spincrystal 188",
     "rarity": 4,
     "type": "Adventure Item",
     "description": "This wondrous crystal contains a certain rhythm, like something beautiful woven from delicate silk. These items can be found throughout the mainland or from merchants who collect curios. The tune held within this crystal can be revivified in your Serenitea Pot using either \"Euphonium Unbound: Winding\" or \"Euphonium Unbound: Soaring.\"",
@@ -68288,6 +68724,39 @@
     }
   },
   {
+    "id": "210284",
+    "contentStatus": "live",
+    "name": "Sandrone: Tea Break",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "Namecard style.\\nSandrone may have learned to enjoy tea parties from Alain. In those days, even a tea break for two never felt dull. But later, when there were finally enough people for a proper tea party, they left one after another. And in their absence, she seemed to come a little closer to the loneliness Alain had known.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_NameCardIcon_MarionetteNew.webp"
+    }
+  },
+  {
+    "id": "210285",
+    "contentStatus": "live",
+    "name": "Nod-Krai: Moonbright",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "Namecard style.\\nThe moon before my eyes is the moon above, and the figure upon it is the one I hold dear. I look up, as if to meet the moon, only to wonder whether my beloved sees me there.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_NameCardIcon_Moon.webp"
+    }
+  },
+  {
+    "id": "210286",
+    "contentStatus": "live",
+    "name": "Travel Notes: Sunny Summer",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "Namecard style.\\nSometimes, it's okay to go with the flow. Let go of your exhaustion and worries, and allow things to unfold as they will. Like waking from a long dream, you may find the world there, ready to embrace you in our place.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_NameCardIcon_Bp51.webp"
+    }
+  },
+  {
     "id": "215001",
     "contentStatus": "live",
     "name": "Echo: Dandelion Knight",
@@ -69862,7 +70331,7 @@
     "name": "Luna Treasure Compass",
     "rarity": 4,
     "type": "Gadget",
-    "description": "A compass that can be used in Nod-Krai to search for nearby treasures and relevant clues.\\nThis sublunary sphere holds countless unknown treasures, waiting to be discovered by adventurers with courage or wit.",
+    "description": "A compass that can be used in Nod-Krai and the Frost Moon to search for nearby treasures and relevant clues.\\nThis sublunary sphere holds countless unknown treasures, waiting to be discovered by adventurers with courage or wit.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_220123.webp"
     }
@@ -69953,6 +70422,28 @@
     "description": "A naturalist archive crafted by Linnea herself. It records her observations and discoveries.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_220131.webp"
+    }
+  },
+  {
+    "id": "220132",
+    "contentStatus": "live",
+    "name": "Sandrone's Portable Tea Table",
+    "rarity": 4,
+    "type": "Gadget",
+    "description": "A portable tea table gifted to you by Sandrone. Easy to carry and store, and even fitted with a levitation device. With this, you can enjoy a leisurely tea party almost anywhere.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_220132.webp"
+    }
+  },
+  {
+    "id": "220134",
+    "contentStatus": "live",
+    "name": "Witch's Revelation Case",
+    "rarity": 5,
+    "type": "Gadget",
+    "description": "The case Barbeloth once carried has found its way into your possession. Within it sleep all the oracles, both those already revealed and those yet to open their eyes. Whether their words may one day steer the course of fate... Barbeloth would only say this: \"Hehehe... The true colors of fate are never meant to be revealed lightly. Besides, a future with secrets yet to unfold is far more delightful, would you not agree?\"",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_220134.webp"
     }
   },
   {
@@ -72669,6 +73160,86 @@
     }
   },
   {
+    "id": "318189",
+    "contentStatus": "live",
+    "name": "Healing Treats",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_223018.webp"
+    }
+  },
+  {
+    "id": "318190",
+    "contentStatus": "live",
+    "name": "Relaxed Readiness",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_223018.webp"
+    }
+  },
+  {
+    "id": "318191",
+    "contentStatus": "live",
+    "name": "Graceful Dance",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_223018.webp"
+    }
+  },
+  {
+    "id": "318192",
+    "contentStatus": "live",
+    "name": "Commanding Stance",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_223018.webp"
+    }
+  },
+  {
+    "id": "318193",
+    "contentStatus": "live",
+    "name": "Gentle Elegance",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_223018.webp"
+    }
+  },
+  {
+    "id": "318194",
+    "contentStatus": "live",
+    "name": "Poised to Strike",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_223018.webp"
+    }
+  },
+  {
+    "id": "318195",
+    "contentStatus": "live",
+    "name": "Share With You",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_223018.webp"
+    }
+  },
+  {
+    "id": "318196",
+    "contentStatus": "live",
+    "name": "Majestic Bearing",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_223018.webp"
+    }
+  },
+  {
     "id": "319001",
     "contentStatus": "live",
     "name": "Fantastical Marvel",
@@ -72906,6 +73477,16 @@
     "type": "ITEM_MATERIAL",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Varka.webp"
+    }
+  },
+  {
+    "id": "319025",
+    "contentStatus": "live",
+    "name": "Dovefeather Moondew",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Icon_MusicGame_MusicShop_Motif_Columbina.webp"
     }
   },
   {
@@ -74470,6 +75051,39 @@
     }
   },
   {
+    "id": "326139",
+    "contentStatus": "live",
+    "name": "Nefer",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Char_Avatar_Nefer_Platinum.webp"
+    }
+  },
+  {
+    "id": "326140",
+    "contentStatus": "live",
+    "name": "Wayward Hermetic Spiritspeaker",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Char_Monster_Udugan_Platinum.webp"
+    }
+  },
+  {
+    "id": "326141",
+    "contentStatus": "live",
+    "name": "Black Serpent Knight: Windcutter",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Char_Monster_DarkwraithWind_Platinum.webp"
+    }
+  },
+  {
     "id": "326500",
     "contentStatus": "live",
     "name": "Undivided Heart",
@@ -75996,6 +76610,39 @@
     "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Gravitas_Platinum.webp"
+    }
+  },
+  {
+    "id": "326639",
+    "contentStatus": "live",
+    "name": "Victory Flows from the Turning of Tides",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Nefer_Platinum.webp"
+    }
+  },
+  {
+    "id": "326640",
+    "contentStatus": "live",
+    "name": "Flow of Forms",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Udugan_Platinum.webp"
+    }
+  },
+  {
+    "id": "326641",
+    "contentStatus": "live",
+    "name": "\"Once, the Lone Wind That Kept the Dark Calamity at Bay...\"",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_DarkwraithWind_Platinum.webp"
     }
   },
   {
@@ -78210,6 +78857,39 @@
     }
   },
   {
+    "id": "328084",
+    "contentStatus": "live",
+    "name": "Nightmare Omen",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Event_Emeng_Platinum.webp"
+    }
+  },
+  {
+    "id": "328085",
+    "contentStatus": "live",
+    "name": "Elemental Transfiguration: Aquabreeze Blessing",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Resonance_WaterWind_Platinum.webp"
+    }
+  },
+  {
+    "id": "328086",
+    "contentStatus": "live",
+    "name": "Elemental Transfiguration: Thunderbloom Blessing",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Resonance_ElecGrass_Platinum.webp"
+    }
+  },
+  {
     "id": "329000",
     "contentStatus": "live",
     "name": "Elemental Resonance: Woven Ice",
@@ -79483,6 +80163,39 @@
     "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Food_Lunpan_Platinum.webp"
+    }
+  },
+  {
+    "id": "329116",
+    "contentStatus": "live",
+    "name": "Lil' Fungi's Fun-Tastic Fiesta",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Event_Dongwu_Platinum.webp"
+    }
+  },
+  {
+    "id": "329117",
+    "contentStatus": "live",
+    "name": "The Power of Research",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Event_Keyan_Platinum.webp"
+    }
+  },
+  {
+    "id": "329118",
+    "contentStatus": "live",
+    "name": "Lakkaberry Pie",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. The card's artwork exhibits a unique visual effect, while its frame shines with a crystalline luster, making it a highly coveted collectible.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Food_BaiLing_Platinum.webp"
     }
   },
   {
@@ -81015,6 +81728,39 @@
     }
   },
   {
+    "id": "330139",
+    "contentStatus": "live",
+    "name": "Nefer",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Char_Avatar_Nefer.webp"
+    }
+  },
+  {
+    "id": "330140",
+    "contentStatus": "live",
+    "name": "Wayward Hermetic Spiritspeaker",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Char_Monster_Udugan.webp"
+    }
+  },
+  {
+    "id": "330141",
+    "contentStatus": "live",
+    "name": "Black Serpent Knight: Windcutter",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Char_Monster_DarkwraithWind.webp"
+    }
+  },
+  {
     "id": "330500",
     "contentStatus": "live",
     "name": "Undivided Heart",
@@ -82541,6 +83287,39 @@
     "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Gravitas.webp"
+    }
+  },
+  {
+    "id": "330639",
+    "contentStatus": "live",
+    "name": "Victory Flows from the Turning of Tides",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Nefer.webp"
+    }
+  },
+  {
+    "id": "330640",
+    "contentStatus": "live",
+    "name": "Flow of Forms",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Udugan.webp"
+    }
+  },
+  {
+    "id": "330641",
+    "contentStatus": "live",
+    "name": "\"Once, the Lone Wind That Kept the Dark Calamity at Bay...\"",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_DarkwraithWind.webp"
     }
   },
   {
@@ -84755,6 +85534,39 @@
     }
   },
   {
+    "id": "332084",
+    "contentStatus": "live",
+    "name": "Nightmare Omen",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Event_Emeng.webp"
+    }
+  },
+  {
+    "id": "332085",
+    "contentStatus": "live",
+    "name": "Elemental Transfiguration: Aquabreeze Blessing",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Resonance_WaterWind.webp"
+    }
+  },
+  {
+    "id": "332086",
+    "contentStatus": "live",
+    "name": "Elemental Transfiguration: Thunderbloom Blessing",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Resonance_ElecGrass.webp"
+    }
+  },
+  {
     "id": "333000",
     "contentStatus": "live",
     "name": "Elemental Resonance: Woven Ice",
@@ -86028,6 +86840,39 @@
     "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Food_Lunpan.webp"
+    }
+  },
+  {
+    "id": "333116",
+    "contentStatus": "live",
+    "name": "Lil' Fungi's Fun-Tastic Fiesta",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Event_Dongwu.webp"
+    }
+  },
+  {
+    "id": "333117",
+    "contentStatus": "live",
+    "name": "The Power of Research",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Event_Keyan.webp"
+    }
+  },
+  {
+    "id": "333118",
+    "contentStatus": "live",
+    "name": "Lakkaberry Pie",
+    "rarity": 3,
+    "type": "ITEM_MATERIAL",
+    "description": "A card for the tabletop game, Genius Invokation TCG. It is built tough, and some special printing method has been used for the illustration on the card's face, resulting in a truly exquisite appearance.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Food_BaiLing.webp"
     }
   },
   {
@@ -87560,6 +88405,39 @@
     }
   },
   {
+    "id": "334139",
+    "contentStatus": "live",
+    "name": "Nefer",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Char_Avatar_Nefer_Golden.webp"
+    }
+  },
+  {
+    "id": "334140",
+    "contentStatus": "live",
+    "name": "Wayward Hermetic Spiritspeaker",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Char_Monster_Udugan_Golden.webp"
+    }
+  },
+  {
+    "id": "334141",
+    "contentStatus": "live",
+    "name": "Black Serpent Knight: Windcutter",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Char_Monster_DarkwraithWind_Golden.webp"
+    }
+  },
+  {
     "id": "334500",
     "contentStatus": "live",
     "name": "Undivided Heart",
@@ -89086,6 +89964,39 @@
     "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Gravitas_Golden.webp"
+    }
+  },
+  {
+    "id": "334639",
+    "contentStatus": "live",
+    "name": "Victory Flows from the Turning of Tides",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Nefer_Golden.webp"
+    }
+  },
+  {
+    "id": "334640",
+    "contentStatus": "live",
+    "name": "Flow of Forms",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_Udugan_Golden.webp"
+    }
+  },
+  {
+    "id": "334641",
+    "contentStatus": "live",
+    "name": "\"Once, the Lone Wind That Kept the Dark Calamity at Bay...\"",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Modify_Talent_DarkwraithWind_Golden.webp"
     }
   },
   {
@@ -91300,6 +92211,39 @@
     }
   },
   {
+    "id": "336084",
+    "contentStatus": "live",
+    "name": "Nightmare Omen",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Event_Emeng_Golden.webp"
+    }
+  },
+  {
+    "id": "336085",
+    "contentStatus": "live",
+    "name": "Elemental Transfiguration: Aquabreeze Blessing",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Resonance_WaterWind_Golden.webp"
+    }
+  },
+  {
+    "id": "336086",
+    "contentStatus": "live",
+    "name": "Elemental Transfiguration: Thunderbloom Blessing",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Resonance_ElecGrass_Golden.webp"
+    }
+  },
+  {
     "id": "337000",
     "contentStatus": "live",
     "name": "Elemental Resonance: Woven Ice",
@@ -92576,6 +93520,39 @@
     }
   },
   {
+    "id": "337116",
+    "contentStatus": "live",
+    "name": "Lil' Fungi's Fun-Tastic Fiesta",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Event_Dongwu_Golden.webp"
+    }
+  },
+  {
+    "id": "337117",
+    "contentStatus": "live",
+    "name": "The Power of Research",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Event_Keyan_Golden.webp"
+    }
+  },
+  {
+    "id": "337118",
+    "contentStatus": "live",
+    "name": "Lakkaberry Pie",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "A card face that can be obtained from Genius Invokation TCG. For reasons unknown, the printing method used here allows you to see slightly different images on the card face when you view it from different angles...",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_Gcg_CardFace_Event_Food_BaiLing_Golden.webp"
+    }
+  },
+  {
     "id": "339000",
     "contentStatus": "live",
     "name": "Origin",
@@ -93442,6 +94419,28 @@
     "description": "Yaoyao's outfit. New shoots cast shifting shadows on the desk in disarray; at times the guest who enters is not the wind at play.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_AvatarIcon_YaoyaoCostumeWinter_Card.webp"
+    }
+  },
+  {
+    "id": "340028",
+    "contentStatus": "live",
+    "name": "Whispers of Stars and Smoke",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "Citlali's outfit. When at home, Citlali will sometimes change into attire brimming with girlish charm. At such times, anyone troubling her with official duties has promptly come under heavy attack. Thus, this outfit has become a baleful thing, a subject of fearful rumor that all give a wide berth.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_AvatarIcon_CitlaliCostumeXia_Card.webp"
+    }
+  },
+  {
+    "id": "340029",
+    "contentStatus": "live",
+    "name": "Hurlock Variations",
+    "rarity": 4,
+    "type": "ITEM_MATERIAL",
+    "description": "Charlotte's outfit. Once used as a filming costume for Great Detective Hurlock, this outfit was presented to Charlotte by the production crew as a keepsake after the shoot concluded.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_AvatarIcon_CharlotteCostumeDong_Card.webp"
     }
   },
   {
@@ -94528,7 +95527,7 @@
     "name": "The Nation of Hydro's Mottled Colors",
     "rarity": 4,
     "type": "Furnishing Set Blueprint",
-    "description": "A countryside scene full of luxurious plants. It contains all sorts of flowers and bushes that can be found everywhere in Fontaine. Flowers and plants are common themes in paintings, and are a starting point for explorations into \"color.\" Some painters in Fontaine believe that the world's palette uses plants to demonstrate the perfect combination of colors. As such, if all the colors in a painting may find their source in flowers, then this painting must surely have harmonious beauty equal to that of natural scenery. Of course, this is predicated on you not mixing all plant-derived colors together in a single conversation...\\nThis Furnishing Set is favored by the following companions: Clorinde, Emilie, Escoffier",
+    "description": "A countryside scene full of luxurious plants. It contains all sorts of flowers and bushes that can be found everywhere in Fontaine. Flowers and plants are common themes in paintings, and are a starting point for explorations into \"color.\" Some painters in Fontaine believe that the world's palette uses plants to demonstrate the perfect combination of colors. As such, if all the colors in a painting may find their source in flowers, then this painting must surely have harmonious beauty equal to that of natural scenery. Of course, this is predicated on you not mixing all plant-derived colors together in a single conversation...\\nThis Furnishing Set is favored by the following companions: Clorinde, Emilie, Escoffier, Sandrone",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Outdoor.webp"
     }
@@ -94727,6 +95726,17 @@
     "rarity": 4,
     "type": "Furnishing Set Blueprint",
     "description": "A fully equipped communal lounge, modeled after the room layouts of Piramida, recreates the quiet moments of rest the Ratniki take before battle. Veteran Ratniki know that the war against the Wild Hunt is long and unforgiving, and that whenever circumstances allow, rest is essential to maintaining peak combat readiness. Besides, a thoughtfully arranged lounge also gives the Ratniki time to get to know one another. On the battlefield, fighting alongside trusted companions inspires far greater confidence and coordination than fighting beside strangers. For this reason, the construction of rest lounges has long been a priority for the Starshyna.\\nThis Furnishing Set is favored by the following companions: Flins, Illuga",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
+    }
+  },
+  {
+    "id": "350105",
+    "contentStatus": "live",
+    "name": "A Tea Party at Leisure",
+    "rarity": 4,
+    "type": "Furnishing Set Blueprint",
+    "description": "A cozy and comfortable tea party setting inspired by the tastes of a certain host who loves gathering with friends. It captures a scene of friends seated around a table, chatting away in comfort. Delicious desserts, fragrant tea, an elegant tea table, soft carpets, and comfortable high-backed chairs... Every little detail helps guests settle in and relax. Here, all anyone needs to do is savor this peaceful, precious moment.\\nThis Furnishing Set is favored by the following companions: Sandrone",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Indoor.webp"
     }
@@ -95799,6 +96809,28 @@
     }
   },
   {
+    "id": "380482",
+    "contentStatus": "live",
+    "name": "Movable Small Spotlight",
+    "rarity": 3,
+    "type": "Furnishing Blueprint",
+    "description": "A detailed step-by-step blueprint for making \"Movable Small Spotlight.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    }
+  },
+  {
+    "id": "380483",
+    "contentStatus": "live",
+    "name": "Standing Street Lamp: Beacon in the Misty Night",
+    "rarity": 3,
+    "type": "Furnishing Blueprint",
+    "description": "A detailed step-by-step blueprint for making a \"Standing Street Lamp: Beacon in the Misty Night.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    }
+  },
+  {
     "id": "380504",
     "contentStatus": "live",
     "name": "Efflorescent Illumination",
@@ -96822,6 +97854,17 @@
     }
   },
   {
+    "id": "381348",
+    "contentStatus": "live",
+    "name": "Tea Party Dining Table: The Perfect Gathering",
+    "rarity": 3,
+    "type": "Furnishing Blueprint",
+    "description": "A detailed step-by-step blueprint for making \"Tea Party Dining Table: The Perfect Gathering.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    }
+  },
+  {
     "id": "381401",
     "contentStatus": "live",
     "name": "Breeze-Blessed Bed",
@@ -97433,6 +98476,17 @@
     "rarity": 3,
     "type": "Furnishing Blueprint",
     "description": "A detailed step-by-step blueprint for making a Pedunculate Oak Wood \"Moonrest\" Backed Chair.\\nAfter using this item, you can view it in the Creation Screen.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    }
+  },
+  {
+    "id": "382135",
+    "contentStatus": "live",
+    "name": "Tea Party Chair: Crimson and Gold",
+    "rarity": 3,
+    "type": "Furnishing Blueprint",
+    "description": "A detailed step-by-step blueprint for making a \"Tea Party Chair: Crimson and Gold.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     }
@@ -98428,6 +99482,17 @@
     }
   },
   {
+    "id": "382324",
+    "contentStatus": "live",
+    "name": "Tea Party Carpet: Soft to the Touch",
+    "rarity": 3,
+    "type": "Furnishing Blueprint",
+    "description": "A detailed step-by-step blueprint for making \"Tea Party Carpet: Soft to the Touch.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    }
+  },
+  {
     "id": "382401",
     "contentStatus": "live",
     "name": "Vibrant Pot: Born in Flames",
@@ -99297,6 +100362,17 @@
     }
   },
   {
+    "id": "383397",
+    "contentStatus": "live",
+    "name": "Tea Party Cart: Dessert Time",
+    "rarity": 4,
+    "type": "Furnishing Blueprint",
+    "description": "A detailed step-by-step blueprint for making \"Tea Party Cart: Dessert Time.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    }
+  },
+  {
     "id": "383401",
     "contentStatus": "live",
     "name": "Teahouse Tool: Miniscule Misses Make a Mile",
@@ -99457,6 +100533,17 @@
     "rarity": 3,
     "type": "Furnishing Blueprint",
     "description": "A detailed step-by-step blueprint for making a Frost Moon Small Table: Aroma of Fresh Fruit.\\nAfter using this item, you can view it in the Creation Screen.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    }
+  },
+  {
+    "id": "383416",
+    "contentStatus": "live",
+    "name": "Tea Party Cup: Refreshing Flavor",
+    "rarity": 3,
+    "type": "Furnishing Blueprint",
+    "description": "A detailed step-by-step blueprint for making \"Tea Party Cup: Refreshing Flavor.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     }
@@ -106953,6 +108040,17 @@
     }
   },
   {
+    "id": "393495",
+    "contentStatus": "live",
+    "name": "Camp Barrier: Treatment Area",
+    "rarity": 3,
+    "type": "Furnishing Blueprint",
+    "description": "A detailed step-by-step blueprint for making \"Camp Barrier: Treatment Area.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    }
+  },
+  {
     "id": "393511",
     "contentStatus": "live",
     "name": "Bookshelf: Free Reading",
@@ -107454,6 +108552,17 @@
     "rarity": 3,
     "type": "Furnishing Blueprint",
     "description": "A detailed step-by-step blueprint for making \"Gentle Embrace.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    }
+  },
+  {
+    "id": "393941",
+    "contentStatus": "live",
+    "name": "Unusable Legacy",
+    "rarity": 3,
+    "type": "Furnishing Blueprint",
+    "description": "A detailed step-by-step blueprint for making \"Unusable Legacy.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     }
@@ -108988,6 +110097,72 @@
     }
   },
   {
+    "id": "394655",
+    "contentStatus": "live",
+    "name": "Nasha Stall: Deep-Rooted Traditions",
+    "rarity": 3,
+    "type": "Furnishing Blueprint",
+    "description": "A detailed step-by-step blueprint for making a \"Nasha Stall: Deep-Rooted Traditions.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    }
+  },
+  {
+    "id": "394656",
+    "contentStatus": "live",
+    "name": "Vessel of the Past",
+    "rarity": 3,
+    "type": "Furnishing Blueprint",
+    "description": "A detailed step-by-step blueprint for making \"Vessel of the Past.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    }
+  },
+  {
+    "id": "394657",
+    "contentStatus": "live",
+    "name": "Large Cargo Crate: Reliable Support",
+    "rarity": 3,
+    "type": "Furnishing Blueprint",
+    "description": "A detailed step-by-step blueprint for making \"Large Cargo Crate: Reliable Support.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    }
+  },
+  {
+    "id": "394658",
+    "contentStatus": "live",
+    "name": "Medium Cargo Crate: Basic Supplies",
+    "rarity": 3,
+    "type": "Furnishing Blueprint",
+    "description": "A detailed step-by-step blueprint for making \"Medium Cargo Crate: Basic Supplies.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    }
+  },
+  {
+    "id": "394659",
+    "contentStatus": "live",
+    "name": "Medium Metal Scrap Barrel",
+    "rarity": 3,
+    "type": "Furnishing Blueprint",
+    "description": "A detailed step-by-step blueprint for making \"Medium Metal Scrap Barrel.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    }
+  },
+  {
+    "id": "394660",
+    "contentStatus": "live",
+    "name": "Signalless Tower",
+    "rarity": 3,
+    "type": "Furnishing Blueprint",
+    "description": "A detailed step-by-step blueprint for making \"Signalless Tower.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    }
+  },
+  {
     "id": "394800",
     "contentStatus": "live",
     "name": "Sir Capy of the Long Incisors",
@@ -109104,6 +110279,28 @@
     "rarity": 4,
     "type": "Furnishing Blueprint",
     "description": "A detailed step-by-step blueprint for making \"Miniature Stonecraft\".\\nAfter using this item, you can view it in the Creation Screen.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    }
+  },
+  {
+    "id": "394842",
+    "contentStatus": "live",
+    "name": "Infinite Recursion Formula",
+    "rarity": 3,
+    "type": "Furnishing Blueprint",
+    "description": "A detailed step-by-step blueprint for making \"Infinite Recursion Formula.\"\\nAfter using this item, you can view it in the Creation Screen.",
+    "assets": {
+      "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
+    }
+  },
+  {
+    "id": "394843",
+    "contentStatus": "live",
+    "name": "Moon Envoy of Silver Radiance",
+    "rarity": 4,
+    "type": "Furnishing Blueprint",
+    "description": "A detailed step-by-step blueprint for making \"Moon Envoy of Silver Radiance.\"\\nAfter using this item, you can view it in the Creation Screen.",
     "assets": {
       "icon": "Nanoka/gi/assets/items/UI_ItemIcon_Home_Common.webp"
     }

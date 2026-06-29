@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "zzz",
-  "generatedAt": "2026-06-28T08:33:51.270Z",
+  "generatedAt": "2026-06-29T10:06:05.474Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 3,
-      "unchanged": 65
+      "changed": 4,
+      "unchanged": 64
     }
   },
   "sections": {
@@ -16,25 +16,31 @@
       "removed": [],
       "changed": [
         {
+          "id": "characters:claret",
+          "name": "Claret",
+          "previousHash": "e1b52f0dde0bd539fe0a2ccd612e9a388993e60d01a1e0c1bf6ad44b8b10c46c",
+          "currentHash": "cc638ab1713e2b1173738c5cc325f71c14837c45593a8237b5f954986dfe715b"
+        },
+        {
+          "id": "characters:ellen",
+          "name": "Ellen",
+          "previousHash": "0115376840c6c616ca00ac8fa4639df113abdb9b9117c2467c43b5f7802c1009",
+          "currentHash": "534d77515f6389a0e117f5de060cac7ea2097c9e937fd8e8541f4f45f149c60c"
+        },
+        {
           "id": "characters:lighter",
           "name": "Lighter",
-          "previousHash": "63ee33f66d55049402aad3d8f59b1e308a253d0888229ac5ab2346c6e176ae8f",
-          "currentHash": "189d7d4af625a84ab6b07d9cd0e6ef0ba968c4e5cf258cba2023312d2abe02b2"
+          "previousHash": "189d7d4af625a84ab6b07d9cd0e6ef0ba968c4e5cf258cba2023312d2abe02b2",
+          "currentHash": "63ee33f66d55049402aad3d8f59b1e308a253d0888229ac5ab2346c6e176ae8f"
         },
         {
-          "id": "characters:lucy",
-          "name": "Lucy",
-          "previousHash": "a8170bb931abdbd677130ba5b4ed3a6682828c0470c4c5dbb139533e802889bd",
-          "currentHash": "c9395c91dc0f17c450d7aeec4cf38b1bed4646125749ca8426648f937eb1349d"
-        },
-        {
-          "id": "characters:seth",
-          "name": "Seth",
-          "previousHash": "ffcbc96b4afdb3596c58119a9667f88875c4b134c936b663d0ca29be23768ec9",
-          "currentHash": "cba5bbf4af56edfd949a5175cc2266c02227c2ff1feb838ecbd7f7f554af3dea"
+          "id": "characters:soldier-11",
+          "name": "Soldier 11",
+          "previousHash": "4f6eb87590d7bba5c52f67a2b621c7e9a36ea16f48c6e213d80e78abc6b661d7",
+          "currentHash": "753df682d82e1c9ce1859cc5975b5c5aa53ff679afa1e1a258da7f52ddc4583b"
         }
       ],
-      "unchanged": 65,
+      "unchanged": 64,
       "totals": {
         "previous": 68,
         "current": 68

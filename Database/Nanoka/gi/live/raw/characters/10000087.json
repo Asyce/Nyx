@@ -1045,6 +1045,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1084,6 +1088,10 @@
             "HP Loss|{param8:F1P} Max HP/{param9:F1}s",
             "Plunge DMG|{param11:F1P}",
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1133,6 +1141,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1172,6 +1184,10 @@
             "HP Loss|{param8:F1P} Max HP/{param9:F1}s",
             "Plunge DMG|{param11:F1P}",
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1221,6 +1237,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1260,6 +1280,10 @@
             "HP Loss|{param8:F1P} Max HP/{param9:F1}s",
             "Plunge DMG|{param11:F1P}",
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1309,6 +1333,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1348,6 +1376,10 @@
             "HP Loss|{param8:F1P} Max HP/{param9:F1}s",
             "Plunge DMG|{param11:F1P}",
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1397,6 +1429,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1436,6 +1472,10 @@
             "HP Loss|{param8:F1P} Max HP/{param9:F1}s",
             "Plunge DMG|{param11:F1P}",
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1485,6 +1525,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1524,6 +1568,10 @@
             "HP Loss|{param8:F1P} Max HP/{param9:F1}s",
             "Plunge DMG|{param11:F1P}",
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1573,6 +1621,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1617,6 +1669,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1656,6 +1712,10 @@
             "HP Loss|{param8:F1P} Max HP/{param9:F1}s",
             "Plunge DMG|{param11:F1P}",
             "Low/High Plunge DMG|{param12:P}/{param13:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1712,6 +1772,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1746,6 +1810,10 @@
             "Spiritbreath Thorn Interval|{param5:F1}s",
             "Sourcewater Droplet Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1800,6 +1868,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1834,6 +1906,10 @@
             "Spiritbreath Thorn Interval|{param5:F1}s",
             "Sourcewater Droplet Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1888,6 +1964,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1922,6 +2002,10 @@
             "Spiritbreath Thorn Interval|{param5:F1}s",
             "Sourcewater Droplet Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1976,6 +2060,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2010,6 +2098,10 @@
             "Spiritbreath Thorn Interval|{param5:F1}s",
             "Sourcewater Droplet Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2064,6 +2156,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2098,6 +2194,10 @@
             "Spiritbreath Thorn Interval|{param5:F1}s",
             "Sourcewater Droplet Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2152,6 +2252,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2186,6 +2290,10 @@
             "Spiritbreath Thorn Interval|{param5:F1}s",
             "Sourcewater Droplet Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2240,6 +2348,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2284,6 +2396,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2318,6 +2434,10 @@
             "Spiritbreath Thorn Interval|{param5:F1}s",
             "Sourcewater Droplet Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2379,6 +2499,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2412,6 +2536,10 @@
             "Waterfall DMG|{param2:F2P} Max HP",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2467,6 +2595,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2500,6 +2632,10 @@
             "Waterfall DMG|{param2:F2P} Max HP",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2555,6 +2691,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2588,6 +2728,10 @@
             "Waterfall DMG|{param2:F2P} Max HP",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2643,6 +2787,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2676,6 +2824,10 @@
             "Waterfall DMG|{param2:F2P} Max HP",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2731,6 +2883,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2764,6 +2920,10 @@
             "Waterfall DMG|{param2:F2P} Max HP",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2819,6 +2979,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2852,6 +3016,10 @@
             "Waterfall DMG|{param2:F2P} Max HP",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2907,6 +3075,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2951,6 +3123,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2984,6 +3160,10 @@
             "Waterfall DMG|{param2:F2P} Max HP",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3938,5 +4118,250 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "Attack01",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10.233
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Neuvillette_NormalAttack_01"
+    },
+    {
+      "name": "Attack02",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 8.67
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Neuvillette_NormalAttack_02"
+    },
+    {
+      "name": "Attack03",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 13.563
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Neuvillette_NormalAttack_03"
+    },
+    {
+      "name": "ExtraAttack",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 80
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ExtraAttack_Once_AtkRatio"
+    },
+    {
+      "name": "ExtraAttack_Attack_Gadget",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 25
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ExtraAttack_Attack_Gadget",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV3",
+        "value": 20
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Spear",
+      "damage_param": "ElementalArt_Arkhe_Ratio"
+    },
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 100
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Default"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "Constellation_6_Bullet",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 25
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Default"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementalArt_DropBall",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Hydro",
+      "per_drop": 1,
+      "lifetime": 12,
+      "chance": 100,
+      "cd": 0.3,
+      "applications": 1,
+      "drop_id": 2018
+    }
+  ]
 }

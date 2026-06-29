@@ -1026,6 +1026,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1065,6 +1069,10 @@
             "Clusterbloom Arrow DMG|{param8:F1P}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1114,6 +1122,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1153,6 +1165,10 @@
             "Clusterbloom Arrow DMG|{param8:F1P}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1202,6 +1218,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1241,6 +1261,10 @@
             "Clusterbloom Arrow DMG|{param8:F1P}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1290,6 +1314,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1329,6 +1357,10 @@
             "Clusterbloom Arrow DMG|{param8:F1P}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1378,6 +1410,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1417,6 +1453,10 @@
             "Clusterbloom Arrow DMG|{param8:F1P}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1466,6 +1506,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1505,6 +1549,10 @@
             "Clusterbloom Arrow DMG|{param8:F1P}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1554,6 +1602,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1598,6 +1650,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1637,6 +1693,10 @@
             "Clusterbloom Arrow DMG|{param8:F1P}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1693,6 +1753,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1726,6 +1790,10 @@
             "Vijnana-Khanda Field Duration|{param2:F1}s",
             "Vijnana Suffusion Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1781,6 +1849,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1814,6 +1886,10 @@
             "Vijnana-Khanda Field Duration|{param2:F1}s",
             "Vijnana Suffusion Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1869,6 +1945,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1902,6 +1982,10 @@
             "Vijnana-Khanda Field Duration|{param2:F1}s",
             "Vijnana Suffusion Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1957,6 +2041,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1990,6 +2078,10 @@
             "Vijnana-Khanda Field Duration|{param2:F1}s",
             "Vijnana Suffusion Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2045,6 +2137,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2078,6 +2174,10 @@
             "Vijnana-Khanda Field Duration|{param2:F1}s",
             "Vijnana Suffusion Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2133,6 +2233,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2166,6 +2270,10 @@
             "Vijnana-Khanda Field Duration|{param2:F1}s",
             "Vijnana Suffusion Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2221,6 +2329,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2265,6 +2377,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2298,6 +2414,10 @@
             "Vijnana-Khanda Field Duration|{param2:F1}s",
             "Vijnana Suffusion Duration|{param3:F1}s",
             "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2360,6 +2480,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2393,6 +2517,10 @@
             "Secondary Tanglevine Shaft DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2448,6 +2576,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2481,6 +2613,10 @@
             "Secondary Tanglevine Shaft DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2536,6 +2672,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2569,6 +2709,10 @@
             "Secondary Tanglevine Shaft DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2624,6 +2768,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2657,6 +2805,10 @@
             "Secondary Tanglevine Shaft DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2712,6 +2864,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2745,6 +2901,10 @@
             "Secondary Tanglevine Shaft DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2800,6 +2960,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2833,6 +2997,10 @@
             "Secondary Tanglevine Shaft DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2888,6 +3056,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2932,6 +3104,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2965,6 +3141,10 @@
             "Secondary Tanglevine Shaft DMG|{param2:F1P}",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3919,5 +4099,256 @@
         }
       ]
     ]
-  }
+  },
+  "attack": [
+    {
+      "name": "Bullet_Tighnari_Arrow_NoGrass_Material",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "NoGrassDamage"
+    },
+    {
+      "name": "Bullet_Tighnari_Arrow_WithGrass_Material",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "WithGrassDamage"
+    },
+    {
+      "name": "Tighnari_AimingArrow_BeforeFission_Material",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "Damage"
+    },
+    {
+      "name": "Tighnari_AimingArrow_BeforeFission_Material",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "Damage"
+    },
+    {
+      "name": "Tighnari_AimingArrow_Fission_Material",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Tighnari"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 20
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Pierce",
+      "damage_param": "Damage"
+    },
+    {
+      "name": "Tighnari_AimingArrow_Fission_LifeOver",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Tighnari"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 20
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Pierce",
+      "damage_param": "Damage"
+    },
+    {
+      "name": "Tighnari_AimingArrow_Fission_Material_Talent",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 20
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Pierce",
+      "damage_param": "Damage_Talent"
+    },
+    {
+      "name": "Tighnari_AimingArrow_Fission_LifeOver_Talent",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 20
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Pierce",
+      "damage_param": "Damage_Talent"
+    },
+    {
+      "name": "SkillObj_Tighnari_ElementalArt_Ball_Material",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Damage"
+    },
+    {
+      "name": "ElementalBurst_Bullet_Damage1",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 30
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Pierce",
+      "damage_param": "ElementalBurst_Bullet_Damage1"
+    },
+    {
+      "name": "ElementalBurst_Bullet_Damage2",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 30
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Pierce",
+      "damage_param": "ElementalBurst_Bullet_Damage2"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "Ball",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Dendro",
+      "per_drop": 1,
+      "lifetime": 9,
+      "chance": 100,
+      "cd": 0.3,
+      "applications": 1,
+      "drop_id": 2019
+    },
+    {
+      "name": "Ball",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Dendro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 50,
+      "cd": 0.3,
+      "applications": 1,
+      "drop_id": 2019
+    }
+  ]
 }

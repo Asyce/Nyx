@@ -1023,6 +1023,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1061,6 +1065,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1111,6 +1119,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1149,6 +1161,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1199,6 +1215,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1237,6 +1257,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1287,6 +1311,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1325,6 +1353,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1375,6 +1407,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1413,6 +1449,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1463,6 +1503,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1501,6 +1545,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1551,6 +1599,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1595,6 +1647,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1633,6 +1689,10 @@
             "Charged Attack Stamina Cost|{param8:F1}",
             "Plunge DMG|{param9:F1P}",
             "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -1690,6 +1750,10 @@
             "CD|{param19:F1}s",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1732,6 +1796,10 @@
             "Etched Into Bone and Soul DMG|{param17:F1P}×4",
             "DMG Increase From Will to Win|{param18:F2P}/Point",
             "CD|{param19:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -1778,6 +1846,10 @@
             "CD|{param19:F1}s",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1820,6 +1892,10 @@
             "Etched Into Bone and Soul DMG|{param17:F1P}×4",
             "DMG Increase From Will to Win|{param18:F2P}/Point",
             "CD|{param19:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -1866,6 +1942,10 @@
             "CD|{param19:F1}s",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1908,6 +1988,10 @@
             "Etched Into Bone and Soul DMG|{param17:F1P}×4",
             "DMG Increase From Will to Win|{param18:F2P}/Point",
             "CD|{param19:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -1954,6 +2038,10 @@
             "CD|{param19:F1}s",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -1996,6 +2084,10 @@
             "Etched Into Bone and Soul DMG|{param17:F1P}×4",
             "DMG Increase From Will to Win|{param18:F2P}/Point",
             "CD|{param19:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -2042,6 +2134,10 @@
             "CD|{param19:F1}s",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2084,6 +2180,10 @@
             "Etched Into Bone and Soul DMG|{param17:F1P}×4",
             "DMG Increase From Will to Win|{param18:F2P}/Point",
             "CD|{param19:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -2130,6 +2230,10 @@
             "CD|{param19:F1}s",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2172,6 +2276,10 @@
             "Etched Into Bone and Soul DMG|{param17:F1P}×4",
             "DMG Increase From Will to Win|{param18:F2P}/Point",
             "CD|{param19:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -2218,6 +2326,10 @@
             "CD|{param19:F1}s",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2260,6 +2372,10 @@
             "Etched Into Bone and Soul DMG|{param17:F1P}×4",
             "DMG Increase From Will to Win|{param18:F2P}/Point",
             "CD|{param19:F1}s",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -2306,6 +2422,10 @@
             "CD|{param19:F1}s",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2346,6 +2466,10 @@
             "DMG Increase From Will to Win|{param2:F2P}/Point",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2401,6 +2525,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2434,6 +2562,10 @@
             "DMG Increase From Will to Win|{param2:F2P}/Point",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2489,6 +2621,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2522,6 +2658,10 @@
             "DMG Increase From Will to Win|{param2:F2P}/Point",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2577,6 +2717,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2610,6 +2754,10 @@
             "DMG Increase From Will to Win|{param2:F2P}/Point",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2665,6 +2813,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2698,6 +2850,10 @@
             "DMG Increase From Will to Win|{param2:F2P}/Point",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2753,6 +2909,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2786,6 +2946,10 @@
             "DMG Increase From Will to Win|{param2:F2P}/Point",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2841,6 +3005,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2874,6 +3042,10 @@
             "DMG Increase From Will to Win|{param2:F2P}/Point",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -2929,6 +3101,10 @@
             "",
             "",
             "",
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "param": [
@@ -2962,6 +3138,10 @@
             "DMG Increase From Will to Win|{param2:F2P}/Point",
             "CD|{param3:F1}s",
             "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             "",
@@ -3951,5 +4131,301 @@
       ]
     ]
   },
+  "attack": [
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Lohen_Constellation_2",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Constellation_2_Attack"
+    },
+    {
+      "name": "ElementalArt_Raid",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Spear",
+      "damage_param": [
+        "Raid_Damage",
+        "Lohen_AnswerLevel_DamageExtraRatio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Raid",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Spear",
+      "damage_param": [
+        "Raid_Damage",
+        "Lohen_AnswerLevel_DamageExtraRatio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Raid",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Spear",
+      "damage_param": [
+        "Raid_Damage",
+        "Lohen_AnswerLevel_DamageExtraRatio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Raid",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 35
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Spear",
+      "damage_param": [
+        "Raid_Damage",
+        "Lohen_AnswerLevel_DamageExtraRatio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "SkillObj_Lohen_ElementalBurst_Gadget",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 40
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Burst01_Damage",
+        "Lohen_AnswerLevel_DamageExtraRatio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "SkillObj_Lohen_ElementalBurst_Gadget",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 40
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Burst02_Damage",
+        "Lohen_AnswerLevel_DamageExtraRatio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "SkillObj_Lohen_ElementalBurst_Gadget",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 40
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Burst03_Damage",
+        "Lohen_AnswerLevel_DamageExtraRatio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage_Ice"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Spear",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Spear",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage_Ice"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage_Ice"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage_Ice"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementalBall_GenerateEnergy",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Cryo",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "cd": 2,
+      "applications": 1,
+      "drop_id": 2022
+    }
+  ],
   "special": true
 }

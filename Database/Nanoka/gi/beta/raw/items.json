@@ -8738,7 +8738,7 @@
     "type": "Food"
   },
   "108976": {
-    "name": "???",
+    "name": "Tea Party Polyphony",
     "rank": 3,
     "icon": "UI_ItemIcon_108880",
     "type": "Food"
@@ -12754,27 +12754,15 @@
     "type": "Gadget"
   },
   "220132": {
-    "name": "???",
+    "name": "Sandrone's Portable Tea Table",
     "rank": 4,
     "icon": "UI_ItemIcon_220132",
     "type": "Gadget"
   },
   "220134": {
-    "name": "???",
+    "name": "Witch's Revelation Case",
     "rank": 5,
     "icon": "UI_ItemIcon_220134",
     "type": "Gadget"
-  },
-  "340028": {
-    "name": "???",
-    "rank": 2,
-    "icon": "UI_ItemIcon_100001",
-    "type": "Character Talent Material"
-  },
-  "340029": {
-    "name": "???",
-    "rank": 2,
-    "icon": "UI_ItemIcon_100001",
-    "type": "Character Talent Material"
   }
 }

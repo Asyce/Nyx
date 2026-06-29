@@ -871,10 +871,10 @@
           "ja": "雷のような怒り"
         },
         "desc": {
-          "en": "Increases the DMG caused by Overloaded, Electro-Charged, Superconduct, and Hyperbloom by 40%, the DMG Bonus conferred by Aggravate by 20%, and the DMG caused by Lunar-Charged by 20%. When Quicken or the aforementioned Elemental Reactions are triggered, Elemental Skill CD is decreased by 1s. Can only occur once every 0.8s.",
-          "ko": "과부하, 감전, 초전도, 만개 반응으로 주는 피해가 40% 증가하고, 촉진 반응이 주는 피해가 20% 증가하며, 달 감전 반응으로 주는 피해가 20% 증가한다. 위와 같은 원소 반응 또는 활성 반응 발동 시, 원소전투 스킬의 재사용 대기시간이 1초 줄어든다. 해당 효과는 0.8초마다 최대 1회 발동된다",
-          "zh": "超载、感电、超导、超绽放反应造成的伤害提升40%，超激化反应带来的伤害提升提高20%，月感电反应造成的伤害提升20%。触发上述元素反应或原激化反应时，元素战技冷却时间减少1秒。该效果每0.8秒最多触发一次。",
-          "ja": "過負荷、感電、超電導、超開花反応によるダメージ+40%、超激化反応によるダメージアップ効果+20%、月感電反応によるダメージ+20%。上記元素反応または原激化反応を起こすと、元素スキルのクールタイム-1秒。0.8秒毎に最大1回のみ発動可能。"
+          "en": "Increases the DMG caused by Overloaded, Electro-Charged, Superconduct, and Hyperbloom by 40%, the DMG Bonus conferred by Aggravate by 20%, and the DMG caused by Lunar-Charged and Stellar-Conduct by 20%. When Quicken or the aforementioned Elemental Reactions are triggered, Elemental Skill CD is decreased by 1s. Can only occur once every 0.8s.",
+          "ko": "과부하, 감전, 초전도, 만개 반응으로 주는 피해가 40% 증가하고, 촉진 반응이 주는 피해가 20% 증가하며, 달 감전과 별 초전도 반응으로 주는 피해가 20% 증가한다. 위와 같은 원소 반응 또는 활성 반응 발동 시, 원소전투 스킬의 재사용 대기시간이 1초 줄어든다. 해당 효과는 0.8초마다 최대 1회 발동된다",
+          "zh": "超载、感电、超导、超绽放反应造成的伤害提升40%，超激化反应带来的伤害提升提高20%，月感电、星超导反应造成的伤害提升20%。触发上述元素反应或原激化反应时，元素战技冷却时间减少1秒。该效果每0.8秒最多触发一次。",
+          "ja": "過負荷、感電、超電導、超開花反応によるダメージ+40%、超激化反応によるダメージアップ効果+20%、月感電、星電導反応によるダメージ+20%。上記元素反応または原激化反応を起こすと、元素スキルのクールタイム-1秒。0.8秒毎に最大1回のみ発動可能。"
         }
       }
     }
@@ -2372,10 +2372,10 @@
           "ja": "影に沈む幻"
         },
         "desc": {
-          "en": "Increases Superconduct Reaction DMG by 80%. When the equipping character attacks opponents affected by Superconduct, this attack's CRIT Rate is increased by 16%. An all-new blessing may be obtained as you make your way toward Snezhnaya...",
-          "ko": "초전도 반응으로 주는 피해가 80% 증가한다. 장착 캐릭터가 초전도 반응의 영향을 받은 적 공격 시, 이번 공격의 치명타 확률이 16% 증가한다. 스네즈나야로 향하는 여정에서 어쩌면 새로운 축복을 얻게 될지도 모른다…",
-          "zh": "超导反应造成的伤害提升80%；装备者攻击受到超导反应影响的敌人时，本次攻击的暴击率提高16%。前往至冬的途中，或许还会得到全新的祝赐…",
-          "ja": "超電導反応によるダメージ+80%。装備者が超電導反応の影響を受けた敵を攻撃する時、その攻撃の会心率+16%。スネージナヤへ向かう途中、新たな祝福を得られるかもしれない…"
+          "en": "Increases Superconduct Reaction DMG by 80% and Stellar-Conduct Reaction DMG by 40%. When the wielder attacks opponents affected by Superconduct or Stellar-Conduct, this attack's CRIT Rate is increased by 16%.",
+          "ko": "초전도 반응으로 주는 피해가 80% 증가하고, 별 초전도 반응으로 주는 피해가 40% 증가한다. 장착 캐릭터가 초전도 또는 별 초전도 반응의 영향을 받은 적 공격 시, 해당 공격의 치명타 확률이 16% 증가한다",
+          "zh": "超导反应造成的伤害提升80%，星超导反应造成的伤害提升40%；装备者攻击受到超导或星超导反应影响的敌人时，本次攻击的暴击率提高16%。",
+          "ja": "超電導反応によるダメージ+80%、星電導反応によるダメージ+40%。装備者が超電導または星電導反応の影響を受けた敵を攻撃する時、その攻撃の会心率+16%。"
         }
       }
     }

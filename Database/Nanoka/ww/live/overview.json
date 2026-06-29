@@ -5,20 +5,17 @@
   "channel": "live",
   "version": "3.4",
   "liveVersion": "3.4",
-  "betaVersion": "3.5.4",
+  "betaVersion": "3.5.5",
   "availableVersions": [
-    "3.3",
     "3.4",
-    "3.4.1",
-    "3.4.2",
-    "3.4.3",
     "3.5.0",
     "3.5.1",
     "3.5.2",
     "3.5.3",
-    "3.5.4"
+    "3.5.4",
+    "3.5.5"
   ],
-  "scrapedAt": "2026-06-28T08:33:03.708Z",
+  "scrapedAt": "2026-06-29T10:05:32.392Z",
   "counts": {
     "characters": 56,
     "weapons": 126,

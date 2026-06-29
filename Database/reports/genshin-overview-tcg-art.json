@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-06-29T04:58:49.433Z",
+  "generatedAt": "2026-06-29T10:08:24.450Z",
   "note": "overviewArtPool is used only by overview favourite cards. Material/detail art stays on normal character assets.",
   "counts": {
-    "roster": 115,
+    "roster": 116,
     "withCharacterCard": 104,
     "withManualExtra": 39,
     "withOverviewPool": 107,
-    "missingOverviewPool": 8
+    "missingOverviewPool": 9
   },
   "missingCharacterCards": [
     "Columbina",
@@ -17,6 +17,7 @@
     "Lohen",
     "Nicole",
     "Prune",
+    "Sandrone",
     "Traveler",
     "Varka",
     "Zibai"
@@ -28,6 +29,7 @@
     "Lohen",
     "Nicole",
     "Prune",
+    "Sandrone",
     "Varka",
     "Zibai"
   ],
@@ -38,6 +40,12 @@
     }
   ],
   "characters": [
+    {
+      "name": "Sandrone",
+      "automatic": 0,
+      "manual": 0,
+      "pool": 0
+    },
     {
       "name": "Lohen",
       "automatic": 0,

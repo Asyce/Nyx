@@ -993,7 +993,7 @@ window.NyxPulls = (function () {
   // verify it first. One file, parameterised by -Game.
   const PULLS_SCRIPT = {
     url: '/scripts/pengo-pulls.ps1',
-    sha256: 'e2c6201a75cdda7e6353ffa58d9c64998fa765b52f74c3ca32ed5f097890c733',
+    sha256: '49b5e855bf905f57e2af9898f48d00bea07bd5824db508547e1c4dc203db7fa1',
   };
   function quickCommand(game) {
     return "& ([scriptblock]::Create((irm 'https://pengo.gg/scripts/pengo-pulls.ps1'))) -Game " + game;

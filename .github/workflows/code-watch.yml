@@ -139,6 +139,11 @@ jobs:
         working-directory: Site
         run: npm run build:deploy
 
+      - name: Smoke deploy artifact
+        if: ${{ steps.changes.outputs.changed == 'true' }}
+        working-directory: Site
+        run: npm run smoke:deploy
+
       - name: Deploy to Cloudflare
         if: ${{ steps.changes.outputs.changed == 'true' && env.CF_API_TOKEN != '' }}
         env:

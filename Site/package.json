@@ -14,6 +14,7 @@
     "scrape:hsr-signatures": "node ./tools/scrape-hsr-signature-lightcones.mjs",
     "build": "npm run generate:data && npm run generate:weapons && node ./tools/build-site.mjs",
     "build:deploy": "npm run build && node ./tools/build-deploy.mjs && node ./tools/inject-seo.mjs",
+    "smoke:deploy": "node ./tools/smoke-deploy.mjs",
     "serve": "python -m http.server 5173 --bind 127.0.0.1 --directory .."
   },
   "dependencies": {

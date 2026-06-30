@@ -2636,8 +2636,35 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *){ font-famil
   .stage.is-compact-stage .gp-topbar .tb-center::-webkit-scrollbar{ display:none; }
   .stage.is-compact-stage .gp-topbar .banner{ min-width:178px; height:46px; padding:0 20px; font-size:12px; }
   .stage.is-compact-stage .banner-seat{ height:78px; left:-10px; bottom:-8px; }
-  .stage.is-compact-stage .gp-topbar .tb-pengo,
-  .stage.is-compact-stage .gp-corner{ display:none; }
+  .stage.is-compact-stage .gp-topbar .tb-pengo{ display:none; }
+  .stage.is-compact-stage .gp-corner{
+    left:auto; right:12px; top:10px; bottom:auto; width:auto; z-index:140;
+    align-items:flex-end; gap:8px; pointer-events:none;
+  }
+  .stage.is-compact-stage .gp-corner > *{ pointer-events:auto; }
+  .stage.is-compact-stage .gp-corner-actions{ width:auto; justify-content:flex-end; gap:7px; }
+  .stage.is-compact-stage .gp-kofi{ display:none; }
+  .stage.is-compact-stage .gp-corner .tb-pengo.corner{
+    width:44px; height:44px; background:rgba(8,6,20,.72);
+    box-shadow:inset 0 0 0 1px rgba(183,170,255,.34), 0 0 14px rgba(139,123,255,.34), 0 6px 16px rgba(0,0,0,.45);
+  }
+  .stage.is-compact-stage .gp-corner .tb-pengo.corner img{ height:38px; }
+  .stage.is-compact-stage .nyx-pengo-menu{
+    position:fixed; left:12px; right:12px; top:62px; bottom:auto; width:auto;
+    max-height:calc(100vh - 82px); overflow:auto;
+  }
+  .stage.is-compact-stage .nyx-pengo-menu [data-tip]::after{ display:none; }
+  .stage.is-compact-stage .cm-chan-switch{
+    position:fixed; right:12px; bottom:12px; z-index:140;
+    width:146px; height:34px; margin-top:0; transform-origin:100% 100%;
+  }
+  .stage.is-compact-stage .cm-chan-switch::before{ height:28px; width:calc(50% - 3px); }
+  .stage.is-compact-stage .cm-chan-switch.beta::before{ transform:translateX(70px); }
+  .stage.is-compact-stage .cm-chan-option{ height:28px; font-size:9.5px; letter-spacing:.1em; }
+  .stage.is-compact-stage .cm-chan-option.live-option{ padding:0 24px 0 6px; }
+  .stage.is-compact-stage .cm-chan-option.beta-option{ padding:0 6px 0 24px; }
+  .stage.is-compact-stage .cm-chan-medallion{ width:40px; height:40px; }
+  .stage.is-compact-stage .cm-chan-medallion img{ width:38px; height:38px; }
   .stage.is-compact-stage .gp-layout,
   .stage.is-compact-stage .gp-layout.has-aside{
     grid-template-columns:minmax(0, 1fr); grid-auto-rows:auto; gap:14px; overflow:auto; padding-bottom:8px;
@@ -2679,7 +2706,12 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *){ font-famil
   .stage.is-compact-stage .gp-topbar .tb-brand .tb-eye{ width:43px; height:43px; }
   .stage.is-compact-stage .gp-topbar .tb-brand .brand-mark{ gap:6px; }
   .stage.is-compact-stage .gp-topbar .tb-brand .wm{ font-size:26px; }
-  .stage.is-compact-stage .gp-topbar .tb-center{ margin-left:128px; max-width:calc(100vw - 140px); }
+  .stage.is-compact-stage .gp-topbar .tb-center{ margin-left:128px; max-width:calc(100vw - 184px); }
+  .stage.is-compact-stage .gp-corner{ right:8px; top:8px; }
+  .stage.is-compact-stage .gp-corner .tb-pengo.corner{ width:40px; height:40px; }
+  .stage.is-compact-stage .gp-corner .tb-pengo.corner img{ height:35px; }
+  .stage.is-compact-stage .cm-chan-switch{ right:8px; bottom:8px; width:136px; transform:scale(.92); }
+  .stage.is-compact-stage .cm-chan-switch.beta::before{ transform:translateX(65px); }
   .stage.is-compact-stage .gp-topbar .banner{ min-width:150px; font-size:10.5px; letter-spacing:.11em; }
   .stage.is-compact-stage .gp-favs > div:first-child{ gap:10px !important; }
   .stage.is-compact-stage .gp-sec{ gap:8px; }

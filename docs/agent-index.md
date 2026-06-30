@@ -131,12 +131,13 @@ If these disagree, follow `report-feedback-decisions-2026-06-30.md` first.
 npm test
 npm run validate
 npm run build:deploy
+npm run smoke:deploy
 ```
 
 Run from:
 
 - `Scraper` for scraper tests/validation.
-- `Site` for site build/deploy package.
+- `Site` for site build/deploy package and deploy smoke tests.
 
 Repository backup made before the 2026-06-30 implementation pass:
 
@@ -149,7 +150,7 @@ Repository backup made before the 2026-06-30 implementation pass:
 3. Run `npm test` in `Scraper`.
 4. Run `npm run validate` in `Scraper`.
 5. Run `npm run build:deploy` in `Site`.
-6. Smoke-check key routes/assets locally or in deploy output.
+6. Run `npm run smoke:deploy` in `Site`.
 7. Commit intentionally.
 8. Push to GitHub.
 9. Deploy with Wrangler only after build passes.

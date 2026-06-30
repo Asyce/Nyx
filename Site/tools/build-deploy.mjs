@@ -1,11 +1,14 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { execFile } from 'node:child_process';
+import { promisify } from 'node:util';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const siteDir = path.resolve(__dirname, '..');
 const root = path.resolve(siteDir, '..');
 const deployDir = path.resolve(root, '.deploy', 'pengo');
+const execFileAsync = promisify(execFile);
 
 const runtimeDirs = [
   ['assets', path.resolve(siteDir, 'assets')],
@@ -33,6 +36,15 @@ async function copyFile(src, dest) {
 
 async function copyDir(src, dest) {
   await fs.cp(src, dest, { recursive: true });
+}
+
+async function gitValue(args) {
+  try {
+    const { stdout } = await execFileAsync('git', args, { cwd: root });
+    return stdout.trim() || null;
+  } catch {
+    return null;
+  }
 }
 
 async function listFiles(dir) {
@@ -88,6 +100,20 @@ async function copyReferencedDatabaseAssets() {
   return { copied, missing };
 }
 
+async function writeVersionFile() {
+  const commit = process.env.PENGO_DEPLOY_COMMIT || process.env.GITHUB_SHA || await gitValue(['rev-parse', 'HEAD']);
+  const shortCommit = commit ? commit.slice(0, 8) : await gitValue(['rev-parse', '--short', 'HEAD']);
+  const branch = process.env.PENGO_DEPLOY_BRANCH || process.env.GITHUB_REF_NAME || await gitValue(['branch', '--show-current']);
+  const version = {
+    app: 'pengo-nyx',
+    builtAt: new Date().toISOString(),
+    commit,
+    shortCommit,
+    branch,
+  };
+  await fs.writeFile(path.resolve(deployDir, 'version.json'), JSON.stringify(version, null, 2) + '\n');
+}
+
 await fs.rm(deployDir, { recursive: true, force: true });
 await ensureDir(deployDir);
 
@@ -114,6 +140,7 @@ if (await exists(publicDir)) {
 }
 
 const databaseAssets = await copyReferencedDatabaseAssets();
+await writeVersionFile();
 const files = await listFiles(deployDir);
 const totalBytes = (await Promise.all(files.map(async (file) => (await fs.stat(file)).size)))
   .reduce((sum, size) => sum + size, 0);

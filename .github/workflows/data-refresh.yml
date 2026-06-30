@@ -92,6 +92,10 @@ jobs:
         working-directory: Site
         run: npm run build:deploy
 
+      - name: Smoke deploy artifact
+        working-directory: Site
+        run: npm run smoke:deploy
+
       - name: Deploy to Cloudflare
         if: ${{ env.CF_API_TOKEN != '' }}
         env:

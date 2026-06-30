@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T14:42:38.902Z",
+  "generatedAt": "2026-06-30T19:24:25.801Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,19 +9,8 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-06-30T14:42:38.902Z",
+      "lastSuccessfulFetch": "2026-06-30T19:24:07.338Z",
       "codes": [
-        {
-          "code": "MAGENICOLESPUZZLE",
-          "rewards": "Primogem x 60, Midsommar Torte x 1, Fruit Tandem Turnovers x 1, Chenyu Adeptea x 5",
-          "added": "2026-06-30",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MAGENICOLESPUZZLE",
-          "hoyoVerified": true,
-          "premium": true,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-06-13T20:18:32.371Z"
-        },
         {
           "code": "PFY1S40I88T9",
           "rewards": "Primogem x 60, Adventurer's Experience x 5",
@@ -42,16 +31,6 @@
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-06-22T20:55:49.647Z"
-        },
-        {
-          "code": "LCXGEA5SX65L",
-          "rewards": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
-          "added": "2026-06-12",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-06-13T20:18:32.371Z"
         }
       ]
     },
@@ -62,7 +41,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-06-30T14:42:34.112Z",
+      "lastSuccessfulFetch": "2026-06-30T19:24:25.801Z",
       "codes": [
         {
           "code": "4TKSX77Y58QK",
@@ -171,7 +150,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-06-30T14:42:35.701Z",
+      "lastSuccessfulFetch": "2026-06-30T19:24:07.565Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -243,7 +222,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-06-30T14:42:36.501Z",
+      "lastSuccessfulFetch": "2026-06-30T19:24:07.556Z",
       "codes": []
     },
     {
@@ -253,7 +232,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-06-30T14:42:38.101Z",
+      "lastSuccessfulFetch": "2026-06-30T19:24:07.324Z",
       "codes": [
         {
           "code": "ALLFIELD",

@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "ww",
-  "generatedAt": "2026-06-29T10:06:05.474Z",
+  "generatedAt": "2026-06-30T08:43:18.819Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 1,
-      "unchanged": 62
+      "changed": 3,
+      "unchanged": 60
     }
   },
   "sections": {
@@ -16,13 +16,25 @@
       "removed": [],
       "changed": [
         {
+          "id": "characters:brant",
+          "name": "Brant",
+          "previousHash": "cedd0e9dd32ce8d8ea1347be1b4700ee54be8d4f3f5c73acaaa950d0440aafad",
+          "currentHash": "9823074c7170aa4e5be1593cdd89a8ec031bad66aa25fdbf3274d971f8c97cf1"
+        },
+        {
+          "id": "characters:carlotta",
+          "name": "Carlotta",
+          "previousHash": "03a89df1ae3b0d085cf445d75b938576feb64fe4111e235672772f0688d846dd",
+          "currentHash": "337323187d36eca6b2105a345c3645dcb0c0b74918d463f170d386de36f6d9c4"
+        },
+        {
           "id": "characters:qingxiao",
           "name": "Qingxiao",
-          "previousHash": "f6f904db7d805461023a2878565725f6fb84c1f2cad8336fdb048b404422eee8",
-          "currentHash": "fde2058446d3143e0d17a1bfaa76be4cac9aa72ed3370b403566dce1cd2225b8"
+          "previousHash": "fde2058446d3143e0d17a1bfaa76be4cac9aa72ed3370b403566dce1cd2225b8",
+          "currentHash": "f6f904db7d805461023a2878565725f6fb84c1f2cad8336fdb048b404422eee8"
         }
       ],
-      "unchanged": 62,
+      "unchanged": 60,
       "totals": {
         "previous": 63,
         "current": 63

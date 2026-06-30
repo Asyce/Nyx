@@ -1,21 +1,28 @@
 {
   "provider": "Prydwen",
   "game": "endfield",
-  "generatedAt": "2026-06-29T10:06:05.474Z",
+  "generatedAt": "2026-06-30T08:43:18.819Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 0,
-      "unchanged": 31
+      "changed": 1,
+      "unchanged": 30
     }
   },
   "sections": {
     "records": {
       "added": [],
       "removed": [],
-      "changed": [],
-      "unchanged": 31,
+      "changed": [
+        {
+          "id": "characters:tangtang",
+          "name": "Tangtang",
+          "previousHash": "2e6c936f47fe205d93b206ff5b4a962f32198a0d9d74d25b10eca0d9311d7cab",
+          "currentHash": "00af77c8d6c4eadeb5dbca163dd04e7bbd63a94138fba4ba9f448ba6b71aa2af"
+        }
+      ],
+      "unchanged": 30,
       "totals": {
         "previous": 31,
         "current": 31

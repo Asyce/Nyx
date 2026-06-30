@@ -1,7 +1,7 @@
 {
   "provider": "Prydwen",
   "game": "zzz",
-  "generatedAt": "2026-06-29T10:06:05.474Z",
+  "generatedAt": "2026-06-30T08:43:18.819Z",
   "summary": {
     "records": {
       "added": 0,
@@ -18,26 +18,26 @@
         {
           "id": "characters:claret",
           "name": "Claret",
-          "previousHash": "e1b52f0dde0bd539fe0a2ccd612e9a388993e60d01a1e0c1bf6ad44b8b10c46c",
-          "currentHash": "cc638ab1713e2b1173738c5cc325f71c14837c45593a8237b5f954986dfe715b"
+          "previousHash": "cc638ab1713e2b1173738c5cc325f71c14837c45593a8237b5f954986dfe715b",
+          "currentHash": "e1b52f0dde0bd539fe0a2ccd612e9a388993e60d01a1e0c1bf6ad44b8b10c46c"
         },
         {
           "id": "characters:ellen",
           "name": "Ellen",
-          "previousHash": "0115376840c6c616ca00ac8fa4639df113abdb9b9117c2467c43b5f7802c1009",
-          "currentHash": "534d77515f6389a0e117f5de060cac7ea2097c9e937fd8e8541f4f45f149c60c"
+          "previousHash": "534d77515f6389a0e117f5de060cac7ea2097c9e937fd8e8541f4f45f149c60c",
+          "currentHash": "0115376840c6c616ca00ac8fa4639df113abdb9b9117c2467c43b5f7802c1009"
         },
         {
-          "id": "characters:lighter",
-          "name": "Lighter",
-          "previousHash": "189d7d4af625a84ab6b07d9cd0e6ef0ba968c4e5cf258cba2023312d2abe02b2",
-          "currentHash": "63ee33f66d55049402aad3d8f59b1e308a253d0888229ac5ab2346c6e176ae8f"
+          "id": "characters:roxy",
+          "name": "Roxy",
+          "previousHash": "dea248d76ee4dccbc1aa2ea4830a9fe135d54ffda4b104023c01838766ee900f",
+          "currentHash": "a2e5957b1382f0b264268fe2f09ad35f666fecd7d21ce22f8e207766f9fd6be4"
         },
         {
           "id": "characters:soldier-11",
           "name": "Soldier 11",
-          "previousHash": "4f6eb87590d7bba5c52f67a2b621c7e9a36ea16f48c6e213d80e78abc6b661d7",
-          "currentHash": "753df682d82e1c9ce1859cc5975b5c5aa53ff679afa1e1a258da7f52ddc4583b"
+          "previousHash": "753df682d82e1c9ce1859cc5975b5c5aa53ff679afa1e1a258da7f52ddc4583b",
+          "currentHash": "4f6eb87590d7bba5c52f67a2b621c7e9a36ea16f48c6e213d80e78abc6b661d7"
         }
       ],
       "unchanged": 64,

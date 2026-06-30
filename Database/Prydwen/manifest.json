@@ -1,6 +1,6 @@
 {
   "provider": "Prydwen",
-  "generatedAt": "2026-06-29T10:06:05.474Z",
+  "generatedAt": "2026-06-30T08:43:18.819Z",
   "games": {
     "hsr": {
       "game": "hsr",
@@ -22,8 +22,8 @@
         "records": {
           "added": 0,
           "removed": 0,
-          "changed": 3,
-          "unchanged": 90
+          "changed": 1,
+          "unchanged": 92
         }
       }
     },
@@ -47,8 +47,8 @@
         "records": {
           "added": 0,
           "removed": 0,
-          "changed": 1,
-          "unchanged": 62
+          "changed": 3,
+          "unchanged": 60
         }
       }
     },
@@ -97,8 +97,8 @@
         "records": {
           "added": 0,
           "removed": 0,
-          "changed": 0,
-          "unchanged": 31
+          "changed": 1,
+          "unchanged": 30
         }
       }
     }

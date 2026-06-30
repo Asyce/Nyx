@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "hsr",
-  "generatedAt": "2026-06-29T10:06:05.474Z",
+  "generatedAt": "2026-06-30T08:43:18.819Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 3,
-      "unchanged": 90
+      "changed": 1,
+      "unchanged": 92
     }
   },
   "sections": {
@@ -18,23 +18,11 @@
         {
           "id": "characters:aventurine",
           "name": "Aventurine",
-          "previousHash": "d5fc0a0a72d3fd6f786883a1ff745f8301fc83b27f8ec47ceef6a6efcda2aff2",
-          "currentHash": "edb1e90fd34b0fe62b757598ac351f7f96a260fdefbd5db1406633d9df785d07"
-        },
-        {
-          "id": "characters:lynx",
-          "name": "Lynx",
-          "previousHash": "00f931b4796c8599588c1bf55d7d70715e29cc4e9fcfa384fd4d7af753460d86",
-          "currentHash": "40f3a9308dac2f30066e3cba936c78942cccaaee276db2375459ec8fce481c98"
-        },
-        {
-          "id": "characters:silver-wolf-lv-999",
-          "name": "Silver Wolf • Lv. 999",
-          "previousHash": "ca1afd7d334b51f05a165624b385ab44a130e204585c81870c59953286663cb1",
-          "currentHash": "a414e4b731f94dd5b044ac5145257e9d48a6514000c510196475d4f4e0dd715d"
+          "previousHash": "edb1e90fd34b0fe62b757598ac351f7f96a260fdefbd5db1406633d9df785d07",
+          "currentHash": "d5fc0a0a72d3fd6f786883a1ff745f8301fc83b27f8ec47ceef6a6efcda2aff2"
         }
       ],
-      "unchanged": 90,
+      "unchanged": 92,
       "totals": {
         "previous": 93,
         "current": 93

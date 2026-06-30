@@ -1,13 +1,13 @@
 {
   "provider": "Fandom",
-  "generatedAt": "2026-06-29T10:08:04.994Z",
+  "generatedAt": "2026-06-30T08:45:20.023Z",
   "note": "Character subtitle data is scraped from each game wiki. Genshin and Wuthering Waves use infobox title, ZZZ uses Namecard names, and Honkai: Star Rail uses How to Obtain with exclusive light cone fallback. Endfield uses class in the site generator because its wiki does not expose character titles.",
   "games": {
     "gi": {
       "name": "Genshin Impact",
       "wiki": "Genshin Impact Wiki",
       "api": "https://genshin-impact.fandom.com/api.php",
-      "generatedAt": "2026-06-29T10:08:04.994Z",
+      "generatedAt": "2026-06-30T08:45:20.023Z",
       "count": 116,
       "entries": [
         {
@@ -22,7 +22,7 @@
           "requestedTitle": "Aino",
           "url": "https://genshin-impact.fandom.com/wiki/Aino",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -36,7 +36,7 @@
           "requestedTitle": "Albedo",
           "url": "https://genshin-impact.fandom.com/wiki/Albedo",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -50,7 +50,7 @@
           "requestedTitle": "Alhaitham",
           "url": "https://genshin-impact.fandom.com/wiki/Alhaitham",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -64,7 +64,7 @@
           "requestedTitle": "Amber",
           "url": "https://genshin-impact.fandom.com/wiki/Amber",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -78,7 +78,7 @@
           "requestedTitle": "Arataki Itto",
           "url": "https://genshin-impact.fandom.com/wiki/Arataki_Itto",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -92,7 +92,7 @@
           "requestedTitle": "Arlecchino",
           "url": "https://genshin-impact.fandom.com/wiki/Arlecchino",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -106,7 +106,7 @@
           "requestedTitle": "Baizhu",
           "url": "https://genshin-impact.fandom.com/wiki/Baizhu",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -120,7 +120,7 @@
           "requestedTitle": "Barbara",
           "url": "https://genshin-impact.fandom.com/wiki/Barbara",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -134,7 +134,7 @@
           "requestedTitle": "Beidou",
           "url": "https://genshin-impact.fandom.com/wiki/Beidou",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -148,7 +148,7 @@
           "requestedTitle": "Bennett",
           "url": "https://genshin-impact.fandom.com/wiki/Bennett",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -162,7 +162,7 @@
           "requestedTitle": "Candace",
           "url": "https://genshin-impact.fandom.com/wiki/Candace",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -176,7 +176,7 @@
           "requestedTitle": "Charlotte",
           "url": "https://genshin-impact.fandom.com/wiki/Charlotte",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -190,7 +190,7 @@
           "requestedTitle": "Chasca",
           "url": "https://genshin-impact.fandom.com/wiki/Chasca",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -204,7 +204,7 @@
           "requestedTitle": "Chevreuse",
           "url": "https://genshin-impact.fandom.com/wiki/Chevreuse",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -218,7 +218,7 @@
           "requestedTitle": "Chiori",
           "url": "https://genshin-impact.fandom.com/wiki/Chiori",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -232,7 +232,7 @@
           "requestedTitle": "Chongyun",
           "url": "https://genshin-impact.fandom.com/wiki/Chongyun",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -246,7 +246,7 @@
           "requestedTitle": "Citlali",
           "url": "https://genshin-impact.fandom.com/wiki/Citlali",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -260,7 +260,7 @@
           "requestedTitle": "Clorinde",
           "url": "https://genshin-impact.fandom.com/wiki/Clorinde",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -274,7 +274,7 @@
           "requestedTitle": "Collei",
           "url": "https://genshin-impact.fandom.com/wiki/Collei",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -288,7 +288,7 @@
           "requestedTitle": "Columbina",
           "url": "https://genshin-impact.fandom.com/wiki/Columbina",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -302,7 +302,7 @@
           "requestedTitle": "Cyno",
           "url": "https://genshin-impact.fandom.com/wiki/Cyno",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -316,7 +316,7 @@
           "requestedTitle": "Dahlia",
           "url": "https://genshin-impact.fandom.com/wiki/Dahlia",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -330,7 +330,7 @@
           "requestedTitle": "Dehya",
           "url": "https://genshin-impact.fandom.com/wiki/Dehya",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -344,7 +344,7 @@
           "requestedTitle": "Diluc",
           "url": "https://genshin-impact.fandom.com/wiki/Diluc",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -358,7 +358,7 @@
           "requestedTitle": "Diona",
           "url": "https://genshin-impact.fandom.com/wiki/Diona",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -372,7 +372,7 @@
           "requestedTitle": "Dori",
           "url": "https://genshin-impact.fandom.com/wiki/Dori",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -386,7 +386,7 @@
           "requestedTitle": "Durin",
           "url": "https://genshin-impact.fandom.com/wiki/Durin",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -400,7 +400,7 @@
           "requestedTitle": "Emilie",
           "url": "https://genshin-impact.fandom.com/wiki/Emilie",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -414,7 +414,7 @@
           "requestedTitle": "Escoffier",
           "url": "https://genshin-impact.fandom.com/wiki/Escoffier",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -428,7 +428,7 @@
           "requestedTitle": "Eula",
           "url": "https://genshin-impact.fandom.com/wiki/Eula",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -442,7 +442,7 @@
           "requestedTitle": "Faruzan",
           "url": "https://genshin-impact.fandom.com/wiki/Faruzan",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -456,7 +456,7 @@
           "requestedTitle": "Fischl",
           "url": "https://genshin-impact.fandom.com/wiki/Fischl",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -470,7 +470,7 @@
           "requestedTitle": "Flins",
           "url": "https://genshin-impact.fandom.com/wiki/Flins",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -484,7 +484,7 @@
           "requestedTitle": "Freminet",
           "url": "https://genshin-impact.fandom.com/wiki/Freminet",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -498,7 +498,7 @@
           "requestedTitle": "Furina",
           "url": "https://genshin-impact.fandom.com/wiki/Furina",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -512,7 +512,7 @@
           "requestedTitle": "Gaming",
           "url": "https://genshin-impact.fandom.com/wiki/Gaming",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -526,7 +526,7 @@
           "requestedTitle": "Ganyu",
           "url": "https://genshin-impact.fandom.com/wiki/Ganyu",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -540,7 +540,7 @@
           "requestedTitle": "Gorou",
           "url": "https://genshin-impact.fandom.com/wiki/Gorou",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -554,7 +554,7 @@
           "requestedTitle": "Hu Tao",
           "url": "https://genshin-impact.fandom.com/wiki/Hu_Tao",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -568,7 +568,7 @@
           "requestedTitle": "Iansan",
           "url": "https://genshin-impact.fandom.com/wiki/Iansan",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -582,7 +582,7 @@
           "requestedTitle": "Ifa",
           "url": "https://genshin-impact.fandom.com/wiki/Ifa",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -596,7 +596,7 @@
           "requestedTitle": "Illuga",
           "url": "https://genshin-impact.fandom.com/wiki/Illuga",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -610,7 +610,7 @@
           "requestedTitle": "Ineffa",
           "url": "https://genshin-impact.fandom.com/wiki/Ineffa",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -624,7 +624,7 @@
           "requestedTitle": "Jahoda",
           "url": "https://genshin-impact.fandom.com/wiki/Jahoda",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -638,7 +638,7 @@
           "requestedTitle": "Jean",
           "url": "https://genshin-impact.fandom.com/wiki/Jean",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -652,7 +652,7 @@
           "requestedTitle": "Kachina",
           "url": "https://genshin-impact.fandom.com/wiki/Kachina",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -666,7 +666,7 @@
           "requestedTitle": "Kaedehara Kazuha",
           "url": "https://genshin-impact.fandom.com/wiki/Kaedehara_Kazuha",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -680,7 +680,7 @@
           "requestedTitle": "Kaeya",
           "url": "https://genshin-impact.fandom.com/wiki/Kaeya",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -694,7 +694,7 @@
           "requestedTitle": "Kamisato Ayaka",
           "url": "https://genshin-impact.fandom.com/wiki/Kamisato_Ayaka",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -708,7 +708,7 @@
           "requestedTitle": "Kamisato Ayato",
           "url": "https://genshin-impact.fandom.com/wiki/Kamisato_Ayato",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -722,7 +722,7 @@
           "requestedTitle": "Kaveh",
           "url": "https://genshin-impact.fandom.com/wiki/Kaveh",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -736,7 +736,7 @@
           "requestedTitle": "Keqing",
           "url": "https://genshin-impact.fandom.com/wiki/Keqing",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -750,7 +750,7 @@
           "requestedTitle": "Kinich",
           "url": "https://genshin-impact.fandom.com/wiki/Kinich",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -764,7 +764,7 @@
           "requestedTitle": "Kirara",
           "url": "https://genshin-impact.fandom.com/wiki/Kirara",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -778,7 +778,7 @@
           "requestedTitle": "Klee",
           "url": "https://genshin-impact.fandom.com/wiki/Klee",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -792,7 +792,7 @@
           "requestedTitle": "Kujou Sara",
           "url": "https://genshin-impact.fandom.com/wiki/Kujou_Sara",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -806,7 +806,7 @@
           "requestedTitle": "Kuki Shinobu",
           "url": "https://genshin-impact.fandom.com/wiki/Kuki_Shinobu",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -820,7 +820,7 @@
           "requestedTitle": "Lan Yan",
           "url": "https://genshin-impact.fandom.com/wiki/Lan_Yan",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -834,7 +834,7 @@
           "requestedTitle": "Lauma",
           "url": "https://genshin-impact.fandom.com/wiki/Lauma",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -848,7 +848,7 @@
           "requestedTitle": "Layla",
           "url": "https://genshin-impact.fandom.com/wiki/Layla",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -862,7 +862,7 @@
           "requestedTitle": "Linnea",
           "url": "https://genshin-impact.fandom.com/wiki/Linnea",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -876,7 +876,7 @@
           "requestedTitle": "Lisa",
           "url": "https://genshin-impact.fandom.com/wiki/Lisa",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -890,7 +890,7 @@
           "requestedTitle": "Lohen",
           "url": "https://genshin-impact.fandom.com/wiki/Lohen",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -904,7 +904,7 @@
           "requestedTitle": "Lynette",
           "url": "https://genshin-impact.fandom.com/wiki/Lynette",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -918,7 +918,7 @@
           "requestedTitle": "Lyney",
           "url": "https://genshin-impact.fandom.com/wiki/Lyney",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -932,7 +932,7 @@
           "requestedTitle": "Mavuika",
           "url": "https://genshin-impact.fandom.com/wiki/Mavuika",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -946,7 +946,7 @@
           "requestedTitle": "Mika",
           "url": "https://genshin-impact.fandom.com/wiki/Mika",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -960,7 +960,7 @@
           "requestedTitle": "Mona",
           "url": "https://genshin-impact.fandom.com/wiki/Mona",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -974,7 +974,7 @@
           "requestedTitle": "Mualani",
           "url": "https://genshin-impact.fandom.com/wiki/Mualani",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -988,7 +988,7 @@
           "requestedTitle": "Nahida",
           "url": "https://genshin-impact.fandom.com/wiki/Nahida",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1002,7 +1002,7 @@
           "requestedTitle": "Navia",
           "url": "https://genshin-impact.fandom.com/wiki/Navia",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1016,7 +1016,7 @@
           "requestedTitle": "Nefer",
           "url": "https://genshin-impact.fandom.com/wiki/Nefer",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1030,7 +1030,7 @@
           "requestedTitle": "Neuvillette",
           "url": "https://genshin-impact.fandom.com/wiki/Neuvillette",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1044,7 +1044,7 @@
           "requestedTitle": "Nicole",
           "url": "https://genshin-impact.fandom.com/wiki/Nicole",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1058,7 +1058,7 @@
           "requestedTitle": "Nilou",
           "url": "https://genshin-impact.fandom.com/wiki/Nilou",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1072,7 +1072,7 @@
           "requestedTitle": "Ningguang",
           "url": "https://genshin-impact.fandom.com/wiki/Ningguang",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1086,7 +1086,7 @@
           "requestedTitle": "Noelle",
           "url": "https://genshin-impact.fandom.com/wiki/Noelle",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1100,7 +1100,7 @@
           "requestedTitle": "Ororon",
           "url": "https://genshin-impact.fandom.com/wiki/Ororon",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1114,7 +1114,7 @@
           "requestedTitle": "Prune",
           "url": "https://genshin-impact.fandom.com/wiki/Prune",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1128,7 +1128,7 @@
           "requestedTitle": "Qiqi",
           "url": "https://genshin-impact.fandom.com/wiki/Qiqi",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1142,7 +1142,7 @@
           "requestedTitle": "Raiden Shogun",
           "url": "https://genshin-impact.fandom.com/wiki/Raiden_Shogun",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1156,7 +1156,7 @@
           "requestedTitle": "Razor",
           "url": "https://genshin-impact.fandom.com/wiki/Razor",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1170,21 +1170,21 @@
           "requestedTitle": "Rosaria",
           "url": "https://genshin-impact.fandom.com/wiki/Rosaria",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
           "name": "Sandrone",
           "key": "sandrone",
-          "title": "Mirrored Analysis",
-          "rawTitle": "Mirrored Analysis",
+          "title": null,
+          "rawTitle": null,
           "sourceField": "title",
-          "status": "ok",
+          "status": "no-title",
           "pageTitle": "Sandrone",
           "requestedTitle": "Sandrone",
           "url": "https://genshin-impact.fandom.com/wiki/Sandrone",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1198,7 +1198,7 @@
           "requestedTitle": "Sangonomiya Kokomi",
           "url": "https://genshin-impact.fandom.com/wiki/Sangonomiya_Kokomi",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1212,7 +1212,7 @@
           "requestedTitle": "Sayu",
           "url": "https://genshin-impact.fandom.com/wiki/Sayu",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1226,7 +1226,7 @@
           "requestedTitle": "Sethos",
           "url": "https://genshin-impact.fandom.com/wiki/Sethos",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1240,7 +1240,7 @@
           "requestedTitle": "Shenhe",
           "url": "https://genshin-impact.fandom.com/wiki/Shenhe",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1254,7 +1254,7 @@
           "requestedTitle": "Shikanoin Heizou",
           "url": "https://genshin-impact.fandom.com/wiki/Shikanoin_Heizou",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1268,7 +1268,7 @@
           "requestedTitle": "Sigewinne",
           "url": "https://genshin-impact.fandom.com/wiki/Sigewinne",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1282,7 +1282,7 @@
           "requestedTitle": "Skirk",
           "url": "https://genshin-impact.fandom.com/wiki/Skirk",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1296,7 +1296,7 @@
           "requestedTitle": "Sucrose",
           "url": "https://genshin-impact.fandom.com/wiki/Sucrose",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1310,7 +1310,7 @@
           "requestedTitle": "Tartaglia",
           "url": "https://genshin-impact.fandom.com/wiki/Tartaglia",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1324,7 +1324,7 @@
           "requestedTitle": "Thoma",
           "url": "https://genshin-impact.fandom.com/wiki/Thoma",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1338,7 +1338,7 @@
           "requestedTitle": "Tighnari",
           "url": "https://genshin-impact.fandom.com/wiki/Tighnari",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1352,7 +1352,7 @@
           "requestedTitle": "Traveler",
           "url": "https://genshin-impact.fandom.com/wiki/Traveler",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1366,7 +1366,7 @@
           "requestedTitle": "Varesa",
           "url": "https://genshin-impact.fandom.com/wiki/Varesa",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1380,7 +1380,7 @@
           "requestedTitle": "Varka",
           "url": "https://genshin-impact.fandom.com/wiki/Varka",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1394,7 +1394,7 @@
           "requestedTitle": "Venti",
           "url": "https://genshin-impact.fandom.com/wiki/Venti",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1408,7 +1408,7 @@
           "requestedTitle": "Wanderer",
           "url": "https://genshin-impact.fandom.com/wiki/Wanderer",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1422,7 +1422,7 @@
           "requestedTitle": "Wriothesley",
           "url": "https://genshin-impact.fandom.com/wiki/Wriothesley",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1436,7 +1436,7 @@
           "requestedTitle": "Xiangling",
           "url": "https://genshin-impact.fandom.com/wiki/Xiangling",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1450,7 +1450,7 @@
           "requestedTitle": "Xianyun",
           "url": "https://genshin-impact.fandom.com/wiki/Xianyun",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1464,7 +1464,7 @@
           "requestedTitle": "Xiao",
           "url": "https://genshin-impact.fandom.com/wiki/Xiao",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1478,7 +1478,7 @@
           "requestedTitle": "Xilonen",
           "url": "https://genshin-impact.fandom.com/wiki/Xilonen",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1492,7 +1492,7 @@
           "requestedTitle": "Xingqiu",
           "url": "https://genshin-impact.fandom.com/wiki/Xingqiu",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1506,7 +1506,7 @@
           "requestedTitle": "Xinyan",
           "url": "https://genshin-impact.fandom.com/wiki/Xinyan",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1520,7 +1520,7 @@
           "requestedTitle": "Yae Miko",
           "url": "https://genshin-impact.fandom.com/wiki/Yae_Miko",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1534,7 +1534,7 @@
           "requestedTitle": "Yanfei",
           "url": "https://genshin-impact.fandom.com/wiki/Yanfei",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1548,7 +1548,7 @@
           "requestedTitle": "Yaoyao",
           "url": "https://genshin-impact.fandom.com/wiki/Yaoyao",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1562,7 +1562,7 @@
           "requestedTitle": "Yelan",
           "url": "https://genshin-impact.fandom.com/wiki/Yelan",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1576,7 +1576,7 @@
           "requestedTitle": "Yoimiya",
           "url": "https://genshin-impact.fandom.com/wiki/Yoimiya",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1590,7 +1590,7 @@
           "requestedTitle": "Yumemizuki Mizuki",
           "url": "https://genshin-impact.fandom.com/wiki/Yumemizuki_Mizuki",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1604,7 +1604,7 @@
           "requestedTitle": "Yun Jin",
           "url": "https://genshin-impact.fandom.com/wiki/Yun_Jin",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1618,7 +1618,7 @@
           "requestedTitle": "Zhongli",
           "url": "https://genshin-impact.fandom.com/wiki/Zhongli",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "gi",
@@ -1632,7 +1632,7 @@
           "requestedTitle": "Zibai",
           "url": "https://genshin-impact.fandom.com/wiki/Zibai",
           "source": "Genshin Impact Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         }
       ],
       "missing": [
@@ -1659,6 +1659,12 @@
           "status": "no-title",
           "pageTitle": "Ningguang",
           "url": "https://genshin-impact.fandom.com/wiki/Ningguang"
+        },
+        {
+          "name": "Sandrone",
+          "status": "no-title",
+          "pageTitle": "Sandrone",
+          "url": "https://genshin-impact.fandom.com/wiki/Sandrone"
         }
       ]
     },
@@ -1666,7 +1672,7 @@
       "name": "Honkai: Star Rail",
       "wiki": "Honkai: Star Rail Wiki",
       "api": "https://honkai-star-rail.fandom.com/api.php",
-      "generatedAt": "2026-06-29T10:08:04.994Z",
+      "generatedAt": "2026-06-30T08:45:20.023Z",
       "count": 90,
       "entries": [
         {
@@ -1681,7 +1687,7 @@
           "requestedTitle": "Acheron",
           "url": "https://honkai-star-rail.fandom.com/wiki/Acheron",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -1695,7 +1701,7 @@
           "requestedTitle": "Aglaea",
           "url": "https://honkai-star-rail.fandom.com/wiki/Aglaea",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -1709,7 +1715,7 @@
           "requestedTitle": "Anaxa",
           "url": "https://honkai-star-rail.fandom.com/wiki/Anaxa",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -1723,7 +1729,7 @@
           "requestedTitle": "Archer",
           "url": "https://honkai-star-rail.fandom.com/wiki/Archer",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -1737,7 +1743,7 @@
           "requestedTitle": "Argenti",
           "url": "https://honkai-star-rail.fandom.com/wiki/Argenti",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -1751,7 +1757,7 @@
           "requestedTitle": "Arlan",
           "url": "https://honkai-star-rail.fandom.com/wiki/Arlan",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -1765,7 +1771,7 @@
           "requestedTitle": "Ashveil",
           "url": "https://honkai-star-rail.fandom.com/wiki/Ashveil",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -1779,7 +1785,7 @@
           "requestedTitle": "Asta",
           "url": "https://honkai-star-rail.fandom.com/wiki/Asta",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -1793,7 +1799,7 @@
           "requestedTitle": "Aventurine",
           "url": "https://honkai-star-rail.fandom.com/wiki/Aventurine",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -1807,7 +1813,7 @@
           "requestedTitle": "Bailu",
           "url": "https://honkai-star-rail.fandom.com/wiki/Bailu",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -1821,7 +1827,7 @@
           "requestedTitle": "Black Swan",
           "url": "https://honkai-star-rail.fandom.com/wiki/Black_Swan",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -1835,7 +1841,7 @@
           "requestedTitle": "Blade",
           "url": "https://honkai-star-rail.fandom.com/wiki/Blade",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -1849,7 +1855,7 @@
           "requestedTitle": "Boothill",
           "url": "https://honkai-star-rail.fandom.com/wiki/Boothill",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -1863,7 +1869,7 @@
           "requestedTitle": "Bronya",
           "url": "https://honkai-star-rail.fandom.com/wiki/Bronya",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -1877,7 +1883,7 @@
           "requestedTitle": "Castorice",
           "url": "https://honkai-star-rail.fandom.com/wiki/Castorice",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -1891,7 +1897,7 @@
           "requestedTitle": "Cerydra",
           "url": "https://honkai-star-rail.fandom.com/wiki/Cerydra",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -1905,7 +1911,7 @@
           "requestedTitle": "Cipher",
           "url": "https://honkai-star-rail.fandom.com/wiki/Cipher",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -1919,7 +1925,7 @@
           "requestedTitle": "Clara",
           "url": "https://honkai-star-rail.fandom.com/wiki/Clara",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -1933,7 +1939,7 @@
           "requestedTitle": "Cyrene",
           "url": "https://honkai-star-rail.fandom.com/wiki/Cyrene",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -1947,7 +1953,7 @@
           "requestedTitle": "Dan Heng",
           "url": "https://honkai-star-rail.fandom.com/wiki/Dan_Heng",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -1961,7 +1967,7 @@
           "requestedTitle": "Dan Heng • Imbibitor Lunae",
           "url": "https://honkai-star-rail.fandom.com/wiki/Dan_Heng_%E2%80%A2_Imbibitor_Lunae",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -1975,7 +1981,7 @@
           "requestedTitle": "Dan Heng • Permansor Terrae",
           "url": "https://honkai-star-rail.fandom.com/wiki/Dan_Heng_%E2%80%A2_Permansor_Terrae",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -1989,7 +1995,7 @@
           "requestedTitle": "Dr. Ratio",
           "url": "https://honkai-star-rail.fandom.com/wiki/Dr._Ratio",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2003,7 +2009,7 @@
           "requestedTitle": "Evanescia",
           "url": "https://honkai-star-rail.fandom.com/wiki/Evanescia",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2017,7 +2023,7 @@
           "requestedTitle": "Feixiao",
           "url": "https://honkai-star-rail.fandom.com/wiki/Feixiao",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2031,7 +2037,7 @@
           "requestedTitle": "Firefly",
           "url": "https://honkai-star-rail.fandom.com/wiki/Firefly",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2045,7 +2051,7 @@
           "requestedTitle": "Fu Xuan",
           "url": "https://honkai-star-rail.fandom.com/wiki/Fu_Xuan",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2059,7 +2065,7 @@
           "requestedTitle": "Gallagher",
           "url": "https://honkai-star-rail.fandom.com/wiki/Gallagher",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2073,7 +2079,7 @@
           "requestedTitle": "Gepard",
           "url": "https://honkai-star-rail.fandom.com/wiki/Gepard",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2087,7 +2093,7 @@
           "requestedTitle": "Gilgamesh",
           "url": "https://honkai-star-rail.fandom.com/wiki/Gilgamesh",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2101,7 +2107,7 @@
           "requestedTitle": "Guinaifen",
           "url": "https://honkai-star-rail.fandom.com/wiki/Guinaifen",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2115,7 +2121,7 @@
           "requestedTitle": "Hanya",
           "url": "https://honkai-star-rail.fandom.com/wiki/Hanya",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2129,7 +2135,7 @@
           "requestedTitle": "Herta",
           "url": "https://honkai-star-rail.fandom.com/wiki/Herta",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2143,7 +2149,7 @@
           "requestedTitle": "Himeko",
           "url": "https://honkai-star-rail.fandom.com/wiki/Himeko",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2157,7 +2163,7 @@
           "requestedTitle": "Himeko Nova",
           "url": "https://honkai-star-rail.fandom.com/wiki/Himeko_%E2%80%A2_Nova",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2171,7 +2177,7 @@
           "requestedTitle": "Hook",
           "url": "https://honkai-star-rail.fandom.com/wiki/Hook",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2185,7 +2191,7 @@
           "requestedTitle": "Huohuo",
           "url": "https://honkai-star-rail.fandom.com/wiki/Huohuo",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2199,7 +2205,7 @@
           "requestedTitle": "Hyacine",
           "url": "https://honkai-star-rail.fandom.com/wiki/Hyacine",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2213,7 +2219,7 @@
           "requestedTitle": "Hysilens",
           "url": "https://honkai-star-rail.fandom.com/wiki/Hysilens",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2227,7 +2233,7 @@
           "requestedTitle": "Jade",
           "url": "https://honkai-star-rail.fandom.com/wiki/Jade",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2241,7 +2247,7 @@
           "requestedTitle": "Jiaoqiu",
           "url": "https://honkai-star-rail.fandom.com/wiki/Jiaoqiu",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2255,7 +2261,7 @@
           "requestedTitle": "Jing Yuan",
           "url": "https://honkai-star-rail.fandom.com/wiki/Jing_Yuan",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2269,7 +2275,7 @@
           "requestedTitle": "Jingliu",
           "url": "https://honkai-star-rail.fandom.com/wiki/Jingliu",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2283,7 +2289,7 @@
           "requestedTitle": "Kafka",
           "url": "https://honkai-star-rail.fandom.com/wiki/Kafka",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2297,7 +2303,7 @@
           "requestedTitle": "Lingsha",
           "url": "https://honkai-star-rail.fandom.com/wiki/Lingsha",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2311,7 +2317,7 @@
           "requestedTitle": "Luka",
           "url": "https://honkai-star-rail.fandom.com/wiki/Luka",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2325,7 +2331,7 @@
           "requestedTitle": "Luocha",
           "url": "https://honkai-star-rail.fandom.com/wiki/Luocha",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2339,7 +2345,7 @@
           "requestedTitle": "Lynx",
           "url": "https://honkai-star-rail.fandom.com/wiki/Lynx",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2353,7 +2359,7 @@
           "requestedTitle": "March 7th",
           "url": "https://honkai-star-rail.fandom.com/wiki/March_7th",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2367,7 +2373,7 @@
           "requestedTitle": "Evernight",
           "url": "https://honkai-star-rail.fandom.com/wiki/Evernight",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2381,7 +2387,7 @@
           "requestedTitle": "March 7th/The Hunt",
           "url": "https://honkai-star-rail.fandom.com/wiki/March_7th%2FThe_Hunt",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2395,7 +2401,7 @@
           "requestedTitle": "Misha",
           "url": "https://honkai-star-rail.fandom.com/wiki/Misha",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2409,7 +2415,7 @@
           "requestedTitle": "Mortenax Blade",
           "url": "https://honkai-star-rail.fandom.com/wiki/Mortenax_Blade",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2423,7 +2429,7 @@
           "requestedTitle": "Moze",
           "url": "https://honkai-star-rail.fandom.com/wiki/Moze",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2437,7 +2443,7 @@
           "requestedTitle": "Mydei",
           "url": "https://honkai-star-rail.fandom.com/wiki/Mydei",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2451,7 +2457,7 @@
           "requestedTitle": "Natasha",
           "url": "https://honkai-star-rail.fandom.com/wiki/Natasha",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2465,7 +2471,7 @@
           "requestedTitle": "Pela",
           "url": "https://honkai-star-rail.fandom.com/wiki/Pela",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2479,7 +2485,7 @@
           "requestedTitle": "Phainon",
           "url": "https://honkai-star-rail.fandom.com/wiki/Phainon",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2493,7 +2499,7 @@
           "requestedTitle": "Qingque",
           "url": "https://honkai-star-rail.fandom.com/wiki/Qingque",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2507,7 +2513,7 @@
           "requestedTitle": "Rappa",
           "url": "https://honkai-star-rail.fandom.com/wiki/Rappa",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2521,7 +2527,7 @@
           "requestedTitle": "Rin Tohsaka",
           "url": "https://honkai-star-rail.fandom.com/wiki/Rin_Tohsaka",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2535,7 +2541,7 @@
           "requestedTitle": "Robin",
           "url": "https://honkai-star-rail.fandom.com/wiki/Robin",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2549,7 +2555,7 @@
           "requestedTitle": "Ruan Mei",
           "url": "https://honkai-star-rail.fandom.com/wiki/Ruan_Mei",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2563,7 +2569,7 @@
           "requestedTitle": "Saber",
           "url": "https://honkai-star-rail.fandom.com/wiki/Saber",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2577,7 +2583,7 @@
           "requestedTitle": "Sampo",
           "url": "https://honkai-star-rail.fandom.com/wiki/Sampo",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2591,7 +2597,7 @@
           "requestedTitle": "Seele",
           "url": "https://honkai-star-rail.fandom.com/wiki/Seele",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2605,7 +2611,7 @@
           "requestedTitle": "Serval",
           "url": "https://honkai-star-rail.fandom.com/wiki/Serval",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2619,7 +2625,7 @@
           "requestedTitle": "Silver Wolf",
           "url": "https://honkai-star-rail.fandom.com/wiki/Silver_Wolf",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2633,7 +2639,7 @@
           "requestedTitle": "Silver Wolf LV.999",
           "url": "https://honkai-star-rail.fandom.com/wiki/Silver_Wolf_LV.999",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2647,7 +2653,7 @@
           "requestedTitle": "Sparkle",
           "url": "https://honkai-star-rail.fandom.com/wiki/Sparkle",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2661,7 +2667,7 @@
           "requestedTitle": "Sparxie",
           "url": "https://honkai-star-rail.fandom.com/wiki/Sparxie",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2675,7 +2681,7 @@
           "requestedTitle": "Sunday",
           "url": "https://honkai-star-rail.fandom.com/wiki/Sunday",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2689,7 +2695,7 @@
           "requestedTitle": "Sushang",
           "url": "https://honkai-star-rail.fandom.com/wiki/Sushang",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2703,7 +2709,7 @@
           "requestedTitle": "The Dahlia",
           "url": "https://honkai-star-rail.fandom.com/wiki/The_Dahlia",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2717,7 +2723,7 @@
           "requestedTitle": "The Herta",
           "url": "https://honkai-star-rail.fandom.com/wiki/The_Herta",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2731,7 +2737,7 @@
           "requestedTitle": "Tingyun",
           "url": "https://honkai-star-rail.fandom.com/wiki/Tingyun",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2745,7 +2751,7 @@
           "requestedTitle": "Fugue",
           "url": "https://honkai-star-rail.fandom.com/wiki/Fugue",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2759,7 +2765,7 @@
           "requestedTitle": "Topaz & Numby",
           "url": "https://honkai-star-rail.fandom.com/wiki/Topaz_%26_Numby",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2773,7 +2779,7 @@
           "requestedTitle": "Trailblazer/Destruction",
           "url": "https://honkai-star-rail.fandom.com/wiki/Trailblazer%2FDestruction",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2787,7 +2793,7 @@
           "requestedTitle": "Trailblazer/Elation",
           "url": "https://honkai-star-rail.fandom.com/wiki/Trailblazer%2FElation",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2801,7 +2807,7 @@
           "requestedTitle": "Trailblazer/Harmony",
           "url": "https://honkai-star-rail.fandom.com/wiki/Trailblazer%2FHarmony",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2815,7 +2821,7 @@
           "requestedTitle": "Trailblazer/Preservation",
           "url": "https://honkai-star-rail.fandom.com/wiki/Trailblazer%2FPreservation",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2829,7 +2835,7 @@
           "requestedTitle": "Trailblazer/Remembrance",
           "url": "https://honkai-star-rail.fandom.com/wiki/Trailblazer%2FRemembrance",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2843,7 +2849,7 @@
           "requestedTitle": "Tribbie",
           "url": "https://honkai-star-rail.fandom.com/wiki/Tribbie",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2857,7 +2863,7 @@
           "requestedTitle": "Welt",
           "url": "https://honkai-star-rail.fandom.com/wiki/Welt",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2871,7 +2877,7 @@
           "requestedTitle": "Xueyi",
           "url": "https://honkai-star-rail.fandom.com/wiki/Xueyi",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2885,7 +2891,7 @@
           "requestedTitle": "Yanqing",
           "url": "https://honkai-star-rail.fandom.com/wiki/Yanqing",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2899,7 +2905,7 @@
           "requestedTitle": "Yao Guang",
           "url": "https://honkai-star-rail.fandom.com/wiki/Yao_Guang",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2913,7 +2919,7 @@
           "requestedTitle": "Yukong",
           "url": "https://honkai-star-rail.fandom.com/wiki/Yukong",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "hsr",
@@ -2927,7 +2933,7 @@
           "requestedTitle": "Yunli",
           "url": "https://honkai-star-rail.fandom.com/wiki/Yunli",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         }
       ],
       "missing": [
@@ -3069,7 +3075,7 @@
       "name": "Zenless Zone Zero",
       "wiki": "Zenless Zone Zero Wiki",
       "api": "https://zenless-zone-zero.fandom.com/api.php",
-      "generatedAt": "2026-06-29T10:08:04.994Z",
+      "generatedAt": "2026-06-30T08:45:20.023Z",
       "count": 64,
       "entries": [
         {
@@ -3084,7 +3090,7 @@
           "requestedTitle": "Alice",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Alice_Thymefield",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3098,7 +3104,7 @@
           "requestedTitle": "Anby",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Anby_Demara",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3112,7 +3118,7 @@
           "requestedTitle": "Soldier 0 - Anby",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Soldier_0_-_Anby",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3126,7 +3132,7 @@
           "requestedTitle": "Anton",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Anton_Ivanov",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3140,7 +3146,7 @@
           "requestedTitle": "Aria",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Aria",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3154,7 +3160,7 @@
           "requestedTitle": "Astra Yao",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Astra_Yao",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3168,7 +3174,7 @@
           "requestedTitle": "Banyue",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Banyue",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3182,7 +3188,7 @@
           "requestedTitle": "Ben",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Ben_Bigger",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3196,7 +3202,7 @@
           "requestedTitle": "Billy",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Billy_Kid",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3210,7 +3216,7 @@
           "requestedTitle": "Starlight - Billy Kid",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Starlight_-_Billy_Kid",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3224,7 +3230,7 @@
           "requestedTitle": "Burnice",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Burnice_White",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3238,7 +3244,7 @@
           "requestedTitle": "Caesar",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Caesar_King",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3252,7 +3258,7 @@
           "requestedTitle": "Cissia",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Cissia",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3266,7 +3272,7 @@
           "requestedTitle": "Claret",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Claret_Flint",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3280,7 +3286,7 @@
           "requestedTitle": "Corin",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Corin_Wickes",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3294,7 +3300,7 @@
           "requestedTitle": "Dialyn",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Dialyn",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3308,7 +3314,7 @@
           "requestedTitle": "Ellen",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Ellen_Joe",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3322,7 +3328,7 @@
           "requestedTitle": "Evelyn",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Evelyn_Chevalier",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3336,7 +3342,7 @@
           "requestedTitle": "Grace",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Grace_Howard",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3350,7 +3356,7 @@
           "requestedTitle": "Harumasa",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Asaba_Harumasa",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3364,7 +3370,7 @@
           "requestedTitle": "Hugo",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Hugo_Vlad",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3378,7 +3384,7 @@
           "requestedTitle": "Jane Doe",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Jane_Doe",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3392,7 +3398,7 @@
           "requestedTitle": "Ju Fufu",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Ju_Fufu",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3406,7 +3412,7 @@
           "requestedTitle": "Koleda",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Koleda_Belobog",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3420,7 +3426,7 @@
           "requestedTitle": "Lighter",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Lighter",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3434,7 +3440,7 @@
           "requestedTitle": "Lucia",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Lucia_Elowen",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3448,7 +3454,7 @@
           "requestedTitle": "Lucy",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Luciana_de_Montefio",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3462,7 +3468,7 @@
           "requestedTitle": "Lycaon",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Von_Lycaon",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3476,7 +3482,7 @@
           "requestedTitle": "Manato",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Komano_Manato",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3490,7 +3496,7 @@
           "requestedTitle": "Miyabi",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Hoshimi_Miyabi",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3504,7 +3510,7 @@
           "requestedTitle": "Nangong Yu",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Nangong_Yu",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3518,7 +3524,7 @@
           "requestedTitle": "Nekomata",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Nekomiya_Mana",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3532,7 +3538,7 @@
           "requestedTitle": "Nicole",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Nicole_Demara",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3546,7 +3552,7 @@
           "requestedTitle": "Norma",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Norma_Hollowell",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3560,7 +3566,7 @@
           "requestedTitle": "Orphie & Magus",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Orphie_Magnusson_%26_Magus",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3574,7 +3580,7 @@
           "requestedTitle": "Pan Yinhu",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Pan_Yinhu",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3588,7 +3594,7 @@
           "requestedTitle": "Phoenix",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Phoenix",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3602,7 +3608,7 @@
           "requestedTitle": "Piper",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Piper_Wheel",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3616,7 +3622,7 @@
           "requestedTitle": "Promeia",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Promeia",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3630,7 +3636,7 @@
           "requestedTitle": "Pulchra",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Pulchra_Fellini",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3644,7 +3650,7 @@
           "requestedTitle": "Pyrois",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Pyrois",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3658,7 +3664,7 @@
           "requestedTitle": "Qingyi",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Qingyi",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3672,7 +3678,7 @@
           "requestedTitle": "Remielle",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Remielle_Dan",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3686,7 +3692,7 @@
           "requestedTitle": "Rina",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Alexandrina_Sebastiane",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3700,7 +3706,7 @@
           "requestedTitle": "Roxy",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Roxy",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3714,7 +3720,7 @@
           "requestedTitle": "Seed",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Seed",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3728,7 +3734,7 @@
           "requestedTitle": "Seth",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Seth_Lowell",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3742,7 +3748,7 @@
           "requestedTitle": "Severian",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Severian_Lowell",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3756,7 +3762,7 @@
           "requestedTitle": "Sigrid",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Sigrid_de_L'Azur",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3770,7 +3776,7 @@
           "requestedTitle": "Soldier 11",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Soldier_11",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3784,7 +3790,7 @@
           "requestedTitle": "Soukaku",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Soukaku",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3798,7 +3804,7 @@
           "requestedTitle": "Sunbringer",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Sunbringer",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3812,7 +3818,7 @@
           "requestedTitle": "Sunna",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Sunna",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3826,7 +3832,7 @@
           "requestedTitle": "The Storyteller",
           "url": "https://zenless-zone-zero.fandom.com/wiki/The_Storyteller",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3840,7 +3846,7 @@
           "requestedTitle": "Trigger",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Trigger",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3854,7 +3860,7 @@
           "requestedTitle": "Velina",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Velina_Airgid",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3868,7 +3874,7 @@
           "requestedTitle": "Vivian",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Vivian_Banshee",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3882,7 +3888,7 @@
           "requestedTitle": "Yanagi",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Tsukishiro_Yanagi",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3896,7 +3902,7 @@
           "requestedTitle": "Ye Shunguang",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Ye_Shunguang",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3910,7 +3916,7 @@
           "requestedTitle": "Yidhari",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Yidhari_Murphy",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3924,7 +3930,7 @@
           "requestedTitle": "Yixuan",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Yixuan",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3938,7 +3944,7 @@
           "requestedTitle": "Yuzuha",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Ukinami_Yuzuha",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3952,7 +3958,7 @@
           "requestedTitle": "Zhao",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Zhao",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "zzz",
@@ -3966,7 +3972,7 @@
           "requestedTitle": "Zhu Yuan",
           "url": "https://zenless-zone-zero.fandom.com/wiki/Zhu_Yuan",
           "source": "Zenless Zone Zero Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         }
       ],
       "missing": [
@@ -4036,7 +4042,7 @@
       "name": "Wuthering Waves",
       "wiki": "Wuthering Waves Wiki",
       "api": "https://wutheringwaves.fandom.com/api.php",
-      "generatedAt": "2026-06-29T10:08:04.994Z",
+      "generatedAt": "2026-06-30T08:45:20.023Z",
       "count": 60,
       "entries": [
         {
@@ -4051,7 +4057,7 @@
           "requestedTitle": "Aalto",
           "url": "https://wutheringwaves.fandom.com/wiki/Aalto",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4065,7 +4071,7 @@
           "requestedTitle": "Aemeath",
           "url": "https://wutheringwaves.fandom.com/wiki/Aemeath",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4079,7 +4085,7 @@
           "requestedTitle": "Augusta",
           "url": "https://wutheringwaves.fandom.com/wiki/Augusta",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4093,7 +4099,7 @@
           "requestedTitle": "Baizhi",
           "url": "https://wutheringwaves.fandom.com/wiki/Baizhi",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4107,7 +4113,7 @@
           "requestedTitle": "Brant",
           "url": "https://wutheringwaves.fandom.com/wiki/Brant",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4121,7 +4127,7 @@
           "requestedTitle": "Buling",
           "url": "https://wutheringwaves.fandom.com/wiki/Buling",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4135,7 +4141,7 @@
           "requestedTitle": "Calcharo",
           "url": "https://wutheringwaves.fandom.com/wiki/Calcharo",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4149,7 +4155,7 @@
           "requestedTitle": "Camellya",
           "url": "https://wutheringwaves.fandom.com/wiki/Camellya",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4163,7 +4169,7 @@
           "requestedTitle": "Cantarella",
           "url": "https://wutheringwaves.fandom.com/wiki/Cantarella",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4177,7 +4183,7 @@
           "requestedTitle": "Carlotta",
           "url": "https://wutheringwaves.fandom.com/wiki/Carlotta",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4191,7 +4197,7 @@
           "requestedTitle": "Cartethyia",
           "url": "https://wutheringwaves.fandom.com/wiki/Cartethyia",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4205,7 +4211,7 @@
           "requestedTitle": "Changli",
           "url": "https://wutheringwaves.fandom.com/wiki/Changli",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4219,7 +4225,7 @@
           "requestedTitle": "Chisa",
           "url": "https://wutheringwaves.fandom.com/wiki/Chisa",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4233,7 +4239,7 @@
           "requestedTitle": "Chixia",
           "url": "https://wutheringwaves.fandom.com/wiki/Chixia",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4247,7 +4253,7 @@
           "requestedTitle": "Ciaccona",
           "url": "https://wutheringwaves.fandom.com/wiki/Ciaccona",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4261,7 +4267,7 @@
           "requestedTitle": "Danjin",
           "url": "https://wutheringwaves.fandom.com/wiki/Danjin",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4275,7 +4281,7 @@
           "requestedTitle": "Denia",
           "url": "https://wutheringwaves.fandom.com/wiki/Denia",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4289,7 +4295,7 @@
           "requestedTitle": "Encore",
           "url": "https://wutheringwaves.fandom.com/wiki/Encore",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4303,7 +4309,7 @@
           "requestedTitle": "Galbrena",
           "url": "https://wutheringwaves.fandom.com/wiki/Galbrena",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4317,7 +4323,7 @@
           "requestedTitle": "Hiyuki",
           "url": "https://wutheringwaves.fandom.com/wiki/Hiyuki",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4331,7 +4337,7 @@
           "requestedTitle": "Hsin",
           "url": "https://wutheringwaves.fandom.com/wiki/Hsin",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4345,7 +4351,7 @@
           "requestedTitle": "Iuno",
           "url": "https://wutheringwaves.fandom.com/wiki/Iuno",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4359,7 +4365,7 @@
           "requestedTitle": "Jianxin",
           "url": "https://wutheringwaves.fandom.com/wiki/Jianxin",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4373,7 +4379,7 @@
           "requestedTitle": "Jingran",
           "url": "https://wutheringwaves.fandom.com/wiki/Jingran",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4387,7 +4393,7 @@
           "requestedTitle": "Jinhsi",
           "url": "https://wutheringwaves.fandom.com/wiki/Jinhsi",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4401,7 +4407,7 @@
           "requestedTitle": "Jiyan",
           "url": "https://wutheringwaves.fandom.com/wiki/Jiyan",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4415,7 +4421,7 @@
           "requestedTitle": "Lingyang",
           "url": "https://wutheringwaves.fandom.com/wiki/Lingyang",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4429,7 +4435,7 @@
           "requestedTitle": "Lucilla",
           "url": "https://wutheringwaves.fandom.com/wiki/Lucilla",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4443,7 +4449,7 @@
           "requestedTitle": "Lucy",
           "url": "https://wutheringwaves.fandom.com/wiki/Lucy",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4457,7 +4463,7 @@
           "requestedTitle": "Lumi",
           "url": "https://wutheringwaves.fandom.com/wiki/Lumi",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4471,7 +4477,7 @@
           "requestedTitle": "Lupa",
           "url": "https://wutheringwaves.fandom.com/wiki/Lupa",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4485,7 +4491,7 @@
           "requestedTitle": "Luuk Herssen",
           "url": "https://wutheringwaves.fandom.com/wiki/Luuk_Herssen",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4499,7 +4505,7 @@
           "requestedTitle": "Lynae",
           "url": "https://wutheringwaves.fandom.com/wiki/Lynae",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4513,7 +4519,7 @@
           "requestedTitle": "Mornye",
           "url": "https://wutheringwaves.fandom.com/wiki/Mornye",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4527,7 +4533,7 @@
           "requestedTitle": "Mortefi",
           "url": "https://wutheringwaves.fandom.com/wiki/Mortefi",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4541,7 +4547,7 @@
           "requestedTitle": "Phoebe",
           "url": "https://wutheringwaves.fandom.com/wiki/Phoebe",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4555,7 +4561,7 @@
           "requestedTitle": "Phrolova",
           "url": "https://wutheringwaves.fandom.com/wiki/Phrolova",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4569,7 +4575,7 @@
           "requestedTitle": "Qingxiao",
           "url": "https://wutheringwaves.fandom.com/wiki/Qingxiao",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4583,7 +4589,7 @@
           "requestedTitle": "Qiuyuan",
           "url": "https://wutheringwaves.fandom.com/wiki/Qiuyuan",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4597,7 +4603,7 @@
           "requestedTitle": "Rebecca",
           "url": "https://wutheringwaves.fandom.com/wiki/Rebecca",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4611,7 +4617,7 @@
           "requestedTitle": "Roccia",
           "url": "https://wutheringwaves.fandom.com/wiki/Roccia",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4625,7 +4631,7 @@
           "requestedTitle": "Rover-Aero",
           "url": "https://wutheringwaves.fandom.com/wiki/Rover-Aero",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4639,7 +4645,7 @@
           "requestedTitle": "Rover",
           "url": "https://wutheringwaves.fandom.com/wiki/Rover",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4653,7 +4659,7 @@
           "requestedTitle": "Rover-Havoc",
           "url": "https://wutheringwaves.fandom.com/wiki/Rover-Havoc",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4667,7 +4673,7 @@
           "requestedTitle": "Rover-Spectro",
           "url": "https://wutheringwaves.fandom.com/wiki/Rover-Spectro",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4681,7 +4687,7 @@
           "requestedTitle": "Sanhua",
           "url": "https://wutheringwaves.fandom.com/wiki/Sanhua",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4695,7 +4701,7 @@
           "requestedTitle": "Sigrika",
           "url": "https://wutheringwaves.fandom.com/wiki/Sigrika",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4709,7 +4715,7 @@
           "requestedTitle": "Suisui",
           "url": "https://wutheringwaves.fandom.com/wiki/Suisui",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4723,7 +4729,7 @@
           "requestedTitle": "Suoming",
           "url": "https://wutheringwaves.fandom.com/wiki/Suoming",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4737,7 +4743,7 @@
           "requestedTitle": "Taoqi",
           "url": "https://wutheringwaves.fandom.com/wiki/Taoqi",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4751,7 +4757,7 @@
           "requestedTitle": "The Shorekeeper",
           "url": "https://wutheringwaves.fandom.com/wiki/Shorekeeper",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4765,7 +4771,7 @@
           "requestedTitle": "Verina",
           "url": "https://wutheringwaves.fandom.com/wiki/Verina",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4779,7 +4785,7 @@
           "requestedTitle": "Xiangli Yao",
           "url": "https://wutheringwaves.fandom.com/wiki/Xiangli_Yao",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4793,7 +4799,7 @@
           "requestedTitle": "Yangyang",
           "url": "https://wutheringwaves.fandom.com/wiki/Yangyang",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4807,7 +4813,7 @@
           "requestedTitle": "Yangyang: Xuanling",
           "url": "https://wutheringwaves.fandom.com/wiki/Yangyang%3A_Xuanling",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4821,7 +4827,7 @@
           "requestedTitle": "Yinlin",
           "url": "https://wutheringwaves.fandom.com/wiki/Yinlin",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4835,7 +4841,7 @@
           "requestedTitle": "Youhu",
           "url": "https://wutheringwaves.fandom.com/wiki/Youhu",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4849,7 +4855,7 @@
           "requestedTitle": "Yuanwu",
           "url": "https://wutheringwaves.fandom.com/wiki/Yuanwu",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4863,7 +4869,7 @@
           "requestedTitle": "Zani",
           "url": "https://wutheringwaves.fandom.com/wiki/Zani",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         },
         {
           "game": "wuwa",
@@ -4877,7 +4883,7 @@
           "requestedTitle": "Zhezhi",
           "url": "https://wutheringwaves.fandom.com/wiki/Zhezhi",
           "source": "Wuthering Waves Wiki",
-          "scrapedAt": "2026-06-29T10:08:04.994Z"
+          "scrapedAt": "2026-06-30T08:45:20.023Z"
         }
       ],
       "missing": [
@@ -4923,8 +4929,8 @@
   "summary": {
     "gi": {
       "count": 116,
-      "titled": 112,
-      "missing": 4
+      "titled": 111,
+      "missing": 5
     },
     "hsr": {
       "count": 90,

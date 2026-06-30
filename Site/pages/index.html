@@ -29,13 +29,27 @@
   /* ===== full-viewport background stack ===== */
   .page-bg{
     position:fixed; inset:0; z-index:0; overflow:hidden;
-    background:#05040b url("../assets/bg/index-bg-poster.webp") center/cover no-repeat;
+    background:
+      radial-gradient(ellipse at 50% 112%, rgba(188,92,255,.44) 0%, rgba(127,54,214,.22) 28%, transparent 58%),
+      radial-gradient(ellipse at 84% 16%, rgba(198,102,255,.22) 0%, transparent 34%),
+      radial-gradient(ellipse at 15% 28%, rgba(117,61,204,.2) 0%, transparent 38%),
+      linear-gradient(180deg,#05030a 0%,#080414 42%,#130825 100%);
   }
-  .page-bg video{
-    position:absolute; inset:0; width:100%; height:100%; object-fit:cover;
-    opacity:0; transition:opacity .9s ease; pointer-events:none;
+  .page-bg::before{
+    content:""; position:absolute; inset:-18%; z-index:0; pointer-events:none;
+    background:
+      linear-gradient(118deg, transparent 0%, rgba(137,65,255,.08) 30%, rgba(230,177,255,.16) 51%, rgba(140,72,255,.1) 67%, transparent 100%);
+    filter:blur(18px);
+    opacity:.7;
   }
-  .page-bg video.is-active{ opacity:1; }
+  .page-bg::after{
+    content:""; position:absolute; inset:0; z-index:2; pointer-events:none;
+    background:
+      radial-gradient(ellipse at 50% 105%, rgba(226,161,255,.24) 0%, rgba(155,78,255,.12) 22%, transparent 45%),
+      linear-gradient(180deg, rgba(4,2,10,.04) 0%, transparent 34%, rgba(9,3,20,.28) 100%);
+    mix-blend-mode:screen;
+  }
+  .cosmic-bg{ position:absolute; inset:0; z-index:1; width:100%; height:100%; display:block; opacity:.96; }
   @keyframes rot{ from{ transform:rotate(0deg); } to{ transform:rotate(360deg); } }
   @keyframes chainloop{ from{ offset-distance:0%; } to{ offset-distance:100%; } }
 
@@ -179,7 +193,7 @@
   :root.no-motion .col.sim:hover .ballvibe{ animation:none; }
 
   @media (prefers-reduced-motion: reduce){
-    .page-bg video{ transition:none; }
+    .cosmic-bg{ opacity:.9; }
     .lk, .fx, .ringA, .ringB, .elayer.drips, .hd-eye .drop{ animation:none; }
   }
 
@@ -225,53 +239,210 @@
     </svg>
   </template>
   <div class="page-bg" aria-hidden="true">
-    <video id="bgVideoA" class="is-active" autoplay muted playsinline preload="metadata" poster="../assets/bg/index-bg-poster.webp">
-      <source src="../assets/bg/index-bg.webm" type="video/webm"/>
-    </video>
-    <video id="bgVideoB" muted playsinline preload="metadata" poster="../assets/bg/index-bg-poster.webp">
-      <source src="../assets/bg/index-bg.webm" type="video/webm"/>
-    </video>
+    <canvas id="cosmicBg" class="cosmic-bg"></canvas>
   </div>
   <script>
     (function(){
-      var a = document.getElementById('bgVideoA');
-      var b = document.getElementById('bgVideoB');
-      if (!a || !b) return;
-      var fadeMs = 900;
-      var current = a;
-      var next = b;
-      var transitioning = false;
+      var canvas = document.getElementById('cosmicBg');
+      if (!canvas) return;
+      var ctx = canvas.getContext('2d', { alpha:true });
+      if (!ctx) return;
 
-      function play(video){
-        var p = video.play && video.play();
-        if (p && p.catch) p.catch(function(){});
+      var motionQuery = window.matchMedia ? window.matchMedia('(prefers-reduced-motion: reduce)') : { matches:false };
+      var reducedMotion = !!motionQuery.matches;
+      var dpr = 1, w = 1, h = 1, raf = 0, resizeRaf = 0;
+      var stars = [], dust = [], wisps = [];
+
+      function rng(seed){
+        return function(){
+          seed |= 0;
+          seed = seed + 0x6D2B79F5 | 0;
+          var t = Math.imul(seed ^ seed >>> 15, 1 | seed);
+          t ^= t + Math.imul(t ^ t >>> 7, 61 | t);
+          return ((t ^ t >>> 14) >>> 0) / 4294967296;
+        };
       }
-      function crossfade(){
-        if (transitioning) return;
-        transitioning = true;
-        try { next.currentTime = 0; } catch(e) {}
-        play(next);
-        next.classList.add('is-active');
-        current.classList.remove('is-active');
-        var previous = current;
-        setTimeout(function(){
-          previous.pause();
-          try { previous.currentTime = 0; } catch(e) {}
-          var old = previous;
-          current = next;
-          next = old;
-          transitioning = false;
-        }, fadeMs);
+      function pick(rand, list){ return list[Math.floor(rand() * list.length)]; }
+      function wrap(value, min, max){
+        var range = max - min;
+        return ((((value - min) % range) + range) % range) + min;
+      }
+      function rgba(c, a){ return 'rgba(' + c.r + ',' + c.g + ',' + c.b + ',' + a + ')'; }
+
+      function buildField(){
+        var rand = rng(9127 + Math.round(w * 3.1) + Math.round(h * 5.7));
+        var starColors = [
+          { r:252, g:244, b:255 },
+          { r:226, g:202, b:255 },
+          { r:198, g:146, b:255 },
+          { r:160, g:112, b:255 }
+        ];
+        var hazeColors = [
+          { r:173, g:76, b:255 },
+          { r:207, g:123, b:255 },
+          { r:121, g:69, b:238 }
+        ];
+        var area = w * h;
+        var starCount = Math.max(260, Math.min(760, Math.round(area / 2800)));
+        var dustCount = Math.max(70, Math.min(220, Math.round(area / 9200)));
+
+        stars = [];
+        for (var i = 0; i < starCount; i++){
+          var depth = .25 + rand() * .95;
+          stars.push({
+            x: rand() * w,
+            y: rand() * h,
+            r: (.22 + rand() * 1.25) * depth,
+            depth: depth,
+            phase: rand() * Math.PI * 2,
+            pulse: .55 + rand() * 1.35,
+            driftX: (-1.8 + rand() * 3.6) * depth,
+            driftY: (.18 + rand() * 1.15) * depth,
+            alpha: .24 + rand() * .68,
+            color: pick(rand, starColors)
+          });
+        }
+
+        dust = [];
+        for (var j = 0; j < dustCount; j++){
+          dust.push({
+            x: rand() * w,
+            y: rand() * h,
+            len: 8 + rand() * 34,
+            slope: -.18 + rand() * .36,
+            speed: 3 + rand() * 12,
+            width: .35 + rand() * .9,
+            alpha: .035 + rand() * .13,
+            color: pick(rand, starColors)
+          });
+        }
+
+        wisps = [];
+        for (var k = 0; k < 8; k++){
+          wisps.push({
+            x: (.08 + rand() * .84) * w,
+            y: (.12 + rand() * .86) * h,
+            radius: Math.max(w, h) * (.16 + rand() * .24),
+            phase: rand() * Math.PI * 2,
+            speed: .06 + rand() * .1,
+            sway: 8 + rand() * 28,
+            alpha: .035 + rand() * .075,
+            color: pick(rand, hazeColors)
+          });
+        }
       }
 
-      [a, b].forEach(function(video){
-        video.muted = true;
-        video.playsInline = true;
-        video.addEventListener('ended', function(){
-          if (video === current) crossfade();
-        });
+      function drawNebula(t){
+        ctx.save();
+        ctx.globalCompositeOperation = 'screen';
+        for (var i = 0; i < wisps.length; i++){
+          var n = wisps[i];
+          var drift = reducedMotion ? 0 : Math.sin(t * n.speed + n.phase) * n.sway;
+          var x = n.x + drift;
+          var y = n.y + drift * .28;
+          var r = n.radius * (reducedMotion ? 1 : 1 + Math.sin(t * n.speed * .7 + n.phase) * .025);
+          var grad = ctx.createRadialGradient(x, y, 0, x, y, r);
+          grad.addColorStop(0, rgba(n.color, n.alpha));
+          grad.addColorStop(.46, rgba(n.color, n.alpha * .45));
+          grad.addColorStop(1, rgba(n.color, 0));
+          ctx.fillStyle = grad;
+          ctx.beginPath();
+          ctx.arc(x, y, r, 0, Math.PI * 2);
+          ctx.fill();
+        }
+        ctx.restore();
+      }
+
+      function drawDust(t){
+        ctx.save();
+        ctx.globalCompositeOperation = 'screen';
+        ctx.lineCap = 'round';
+        for (var i = 0; i < dust.length; i++){
+          var p = dust[i];
+          var x = wrap(p.x + (reducedMotion ? 0 : t * p.speed), -50, w + 50);
+          var y = wrap(p.y + (reducedMotion ? 0 : t * p.speed * .18), -30, h + 30);
+          ctx.strokeStyle = rgba(p.color, p.alpha);
+          ctx.lineWidth = p.width;
+          ctx.beginPath();
+          ctx.moveTo(x, y);
+          ctx.lineTo(x + p.len, y + p.len * p.slope);
+          ctx.stroke();
+        }
+        ctx.restore();
+      }
+
+      function drawStars(t){
+        ctx.save();
+        ctx.globalCompositeOperation = 'screen';
+        for (var i = 0; i < stars.length; i++){
+          var s = stars[i];
+          var twinkle = reducedMotion ? .86 : .72 + Math.sin(t * s.pulse + s.phase) * .28;
+          var alpha = Math.max(.08, s.alpha * twinkle);
+          var x = wrap(s.x + (reducedMotion ? 0 : t * s.driftX), -6, w + 6);
+          var y = wrap(s.y + (reducedMotion ? 0 : t * s.driftY), -6, h + 6);
+          if (s.r > .85){
+            var halo = ctx.createRadialGradient(x, y, 0, x, y, s.r * 5.5);
+            halo.addColorStop(0, rgba(s.color, alpha * .22));
+            halo.addColorStop(1, rgba(s.color, 0));
+            ctx.fillStyle = halo;
+            ctx.beginPath();
+            ctx.arc(x, y, s.r * 5.5, 0, Math.PI * 2);
+            ctx.fill();
+          }
+          ctx.fillStyle = rgba(s.color, alpha);
+          ctx.beginPath();
+          ctx.arc(x, y, Math.max(.24, s.r), 0, Math.PI * 2);
+          ctx.fill();
+        }
+        ctx.restore();
+      }
+
+      function draw(now){
+        var t = (now || 0) * .001;
+        ctx.clearRect(0, 0, w, h);
+        drawNebula(t);
+        drawDust(t);
+        drawStars(t);
+      }
+
+      function frame(now){
+        draw(now);
+        if (!reducedMotion && !document.hidden) raf = requestAnimationFrame(frame);
+      }
+
+      function start(){
+        cancelAnimationFrame(raf);
+        raf = 0;
+        frame(performance.now());
+      }
+
+      function resize(){
+        var rect = canvas.getBoundingClientRect();
+        w = Math.max(1, Math.round(rect.width || window.innerWidth || 1));
+        h = Math.max(1, Math.round(rect.height || window.innerHeight || 1));
+        dpr = Math.min(2, window.devicePixelRatio || 1);
+        canvas.width = Math.round(w * dpr);
+        canvas.height = Math.round(h * dpr);
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        buildField();
+        start();
+      }
+
+      window.addEventListener('resize', function(){
+        cancelAnimationFrame(resizeRaf);
+        resizeRaf = requestAnimationFrame(resize);
       });
-      play(current);
+      document.addEventListener('visibilitychange', function(){
+        if (document.hidden) cancelAnimationFrame(raf);
+        else start();
+      });
+      if (motionQuery.addEventListener) {
+        motionQuery.addEventListener('change', function(e){
+          reducedMotion = !!e.matches;
+          start();
+        });
+      }
+      resize();
     })();
   </script>
 

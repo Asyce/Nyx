@@ -999,9 +999,17 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *){ font-famil
 .gt-spin{ width:18px; height:18px; border-radius:50%; border:2.5px solid rgba(16,12,38,.35); border-top-color:#100c26;
   animation:gtSpin .7s linear infinite; }
 @keyframes gtSpin{ to{ transform:rotate(360deg); } }
-.gt-sample{ margin-top:14px; border:none; background:none; cursor:pointer; padding:4px 0;
-  color:#b3a9e0; font-family:'HSR',sans-serif; font-size:12.5px; letter-spacing:.04em; transition:color .2s; }
-.gt-sample:hover{ color:#fff; }
+.gt-method-grid{ display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:10px; margin:0 0 14px; }
+.gt-method{ min-width:0; padding:12px 13px; border-radius:12px; background:rgba(13,10,30,.56);
+  box-shadow:inset 0 0 0 1px rgba(183,170,255,.18); }
+.gt-method b{ display:block; color:#efeaff; font-family:'HSR',sans-serif; font-size:12.5px; letter-spacing:.04em; margin-bottom:4px; }
+.gt-method p{ margin:0 0 8px; color:#9f95c9; font-size:12px; line-height:1.45; }
+.gt-method-action{ border:none; cursor:pointer; border-radius:9px; min-height:34px; padding:0 13px;
+  color:#100c26; background:linear-gradient(160deg,#d3c8ff,#9a89ea); font-family:'HSR',sans-serif;
+  font-size:11px; letter-spacing:.11em; text-transform:uppercase; }
+.gt-method-action:disabled{ opacity:.55; cursor:default; }
+.gt-safe-links{ display:flex; flex-wrap:wrap; gap:8px; margin-bottom:8px; }
+.gt-safe-links a{ color:#cdb3ff; font-size:12px; }
 /* pull-tracker: command box, errors, progress, banner sub-tabs */
 .gt-cmd{ display:flex; align-items:center; gap:10px; margin:12px 0 4px; padding:10px 12px; border-radius:12px;
   background:rgba(13,10,30,.85); box-shadow:inset 0 0 0 1px rgba(183,170,255,.22); }
@@ -1014,19 +1022,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *){ font-famil
 .gt-err{ margin-top:10px; padding:9px 13px; border-radius:10px; color:#ffd9e2; font-family:'HSR',sans-serif;
   font-size:12.5px; background:rgba(120,30,55,.28); box-shadow:inset 0 0 0 1px rgba(255,120,150,.35); }
 
-/* safer download+verify alternative to the iex one-liner */
-.gt-safe{ margin:6px 0 2px; }
-.gt-safe > summary{ cursor:pointer; color:#b7aaff; font-family:'HSR',sans-serif; font-size:12px;
-  letter-spacing:.03em; padding:6px 2px; list-style:none; }
-.gt-safe > summary::-webkit-details-marker{ display:none; }
-.gt-safe > summary::before{ content:'\25B8'; display:inline-block; margin-right:7px; transition:transform .2s; }
-.gt-safe[open] > summary::before{ transform:rotate(90deg); }
-.gt-safe > summary:focus-visible{ outline:2px solid var(--accent-bright); outline-offset:2px; border-radius:6px; }
-.gt-safe-body{ padding:2px 2px 6px; }
 .gt-safe-note{ color:#b3a9e0; font-size:12px; line-height:1.5; margin-bottom:8px; }
-.gt-safe-steps{ margin:0; padding-left:18px; color:#cfc6ec; font-size:12.5px; line-height:1.55; }
-.gt-safe-steps > li{ margin-bottom:8px; }
-.gt-safe-steps a{ color:#cdb3ff; }
 .gt-sha{ margin-top:6px; color:#9a90c8; font-size:11px; word-break:break-all; }
 .gt-sha code{ color:#b7aaff; font-family:'Consolas','SF Mono',monospace; }
 .gt-prog{ margin-top:10px; color:#b3a9e0; font-family:'HSR',sans-serif; font-size:12.5px; letter-spacing:.03em; }
@@ -1800,6 +1796,10 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *){ font-famil
   overflow:hidden;
   text-overflow:ellipsis;
 }
+.gt-account b,
+.gt-account span{ display:block; min-width:0; overflow:hidden; text-overflow:ellipsis; }
+.gt-account b{ color:#cfc6ff; font-size:10.5px; font-weight:800; }
+.gt-account span{ margin-top:2px; color:#7f769e; font-size:9.5px; }
 .gt-overview-grid{
   grid-template-columns:minmax(340px,.9fr) minmax(410px,1.08fr) minmax(360px,1fr);
   grid-template-areas:"summary limited recent" "history history recent";
@@ -1883,6 +1883,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *){ font-famil
   .gt-account{ max-width:100%; }
 }
 @media (max-width: 760px){
+  .gt-method-grid{ grid-template-columns:1fr; }
   .gt-mode-tabs{ width:100%; }
   .gt-mode-tabs button{ flex:1 1 0; min-width:0; }
   .gt-tab-status{ width:100%; justify-content:space-between; }

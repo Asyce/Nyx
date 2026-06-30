@@ -12,6 +12,7 @@ function PullsOverview() {
     { key: 'hsr',  name: 'Honkai: Star Rail', pull: 'Warps',    accent: '#9fd0ff' },
     { key: 'zzz',  name: 'Zenless Zone Zero', pull: 'Signals',  accent: '#ffd76b' },
     { key: 'wuwa', name: 'Wuthering Waves',   pull: 'Convenes', accent: '#c4a6ff' },
+    { key: 'ae',   name: 'Arknights: Endfield', pull: 'Pulls',  accent: '#7ee6c6' },
   ];
   const [rows, setRows] = React.useState(null);
 

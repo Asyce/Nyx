@@ -4,14 +4,15 @@ Three scheduled jobs keep pengo.gg fresh and deploy automatically.
 
 | Workflow | Cadence | What it does |
 |---|---|---|
-| `code-watch.yml` | hourly, plus half-hour checks during detected livestream windows | detect official livestream windows -> active-code-only scrape -> semantic diff -> validate/build/deploy/commit only when codes changed |
-| `data-refresh.yml` | every 6h | scrape banners + codes -> unit tests -> validate -> build -> deploy -> commit `Database/` |
-| `roster-sync.yml` | daily | scrape rosters/materials/titles (`--skip-assets`) + banners + codes -> build -> deploy -> commit `Database/` |
+| `code-watch.yml` | hourly, plus half-hour checks during detected livestream windows | detect official livestream windows -> active-code-only scrape -> semantic diff -> validate -> commit -> build -> deploy only when codes changed |
+| `data-refresh.yml` | every 6h | scrape banners + codes -> unit tests -> validate -> commit `Database/` -> build -> deploy |
+| `roster-sync.yml` | daily | scrape rosters/materials/titles (`--skip-assets`) + banners + codes -> validate -> commit `Database/` -> build -> deploy |
 
 Before any deploy:
 - `data-refresh.yml` runs `Scraper` unit tests (`npm test`) and the structural data gate (`npm run validate`).
 - `roster-sync.yml` and `code-watch.yml` run the structural data gate (`npm run validate`).
 - A failure stops the run, so the already-live last-known-good is preserved.
+- Refreshed data is committed before the deploy step, so the deployed site maps back to a Git commit.
 - The deploy step is skipped automatically when no Cloudflare token is configured.
 
 `code-watch.yml` is intentionally lighter than the full refresh:

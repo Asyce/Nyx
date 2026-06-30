@@ -1,9 +1,9 @@
 // ============================================================
-// Nyxarium Cloudflare Worker
+// Pengo/Nyx Cloudflare Worker
 //
 // Owns the gacha-history proxy the browser can't call directly (the
-// HoYo/Kuro endpoints send no CORS headers). Ported from the proven
-// As-I've-Hoarded worker, scoped to what Nyxarium needs.
+// HoYo/Kuro endpoints send no CORS headers). Scoped to the Pengo/Nyx
+// browser app.
 //
 // Routes:
 //   POST /api/gacha/genshin|hsr|zzz   → HoYo getGachaLog proxy
@@ -24,16 +24,11 @@
 // ============================================================
 
 const TRUSTED_ORIGINS = new Set([
-  'https://asyce.com',
-  'https://www.asyce.com',
-  'https://nyxarium.com',
-  'https://www.nyxarium.com',
   'https://pengo.gg',
   'https://www.pengo.gg',
-  'https://asyce.pages.dev',
-  'https://nyxarium.pages.dev',
+  'https://pengo.pages.dev',
 ]);
-const TRUSTED_PAGES_PREVIEW_RE = /^https:\/\/[a-z0-9-]+\.(?:asyce|nyxarium)\.pages\.dev$/;
+const TRUSTED_PAGES_PREVIEW_RE = /^https:\/\/[a-z0-9-]+\.pengo\.pages\.dev$/;
 const LOCAL_ORIGIN_RE = /^http:\/\/(?:localhost|127\.0\.0\.1)(?::\d+)?$/;
 
 const MAX_BODY_BYTES = 8192; // 8 KiB
@@ -65,7 +60,7 @@ function envTrustedOrigins(env) {
 }
 
 function originAllowed(origin, env) {
-  if (!origin) return true;
+  if (!origin) return String(env?.ALLOW_NO_ORIGIN || '').toLowerCase() === 'true';
   if (TRUSTED_ORIGINS.has(origin)) return true;
   if (LOCAL_ORIGIN_RE.test(origin)) return true;
   if (TRUSTED_PAGES_PREVIEW_RE.test(origin)) return true;
@@ -207,7 +202,7 @@ async function handleHoyoGacha(request, gameKey, env) {
   try {
     upstream = await fetchUpstream(base + '?' + search.toString(), {
       method: 'GET',
-      headers: { Accept: 'application/json', 'User-Agent': 'Mozilla/5.0 (compatible; nyxarium/1.0)' },
+      headers: { Accept: 'application/json', 'User-Agent': 'Mozilla/5.0 (compatible; pengo-nyx/1.0)' },
     });
   } catch (e) { return upstreamErrorResponse(request, e, env, rid); }
 
@@ -240,7 +235,7 @@ async function handleWuwaGacha(request, env) {
   try {
     upstream = await fetchUpstream(WUWA_GACHA_URL, {
       method: 'POST',
-      headers: { Accept: 'application/json', 'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0 (compatible; nyxarium/1.0)' },
+      headers: { Accept: 'application/json', 'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0 (compatible; pengo-nyx/1.0)' },
       body: JSON.stringify(body),
     });
   } catch (e) { return upstreamErrorResponse(request, e, env, rid); }

@@ -1,5 +1,5 @@
 # ─────────────────────────────────────────────────────────────────
-# Asyce — As I've Pulled · gacha-history URL grabber  (rev 6)
+# Pengo Nyx - gacha-history URL grabber  (rev 7)
 #
 # Architecture follows the paimon.moe community script:
 #   1. Find the install dir from the Unity output log (LocalLow path
@@ -14,8 +14,8 @@
 #   4. Validate each candidate against the live Hoyo API. The first
 #      one that returns retcode 0 is the working URL.
 #
-# Output: working URL → clipboard. Paste it into
-# https://asyce.com/asivepulled/. The script doesn't send your data
+# Output: working URL -> clipboard. Paste it into
+# https://pengo.gg. The script doesn't send your data
 # anywhere; the only network call is the validation hit against
 # Hoyo's own endpoint.
 # ─────────────────────────────────────────────────────────────────
@@ -197,7 +197,7 @@ if ($cfg.Family -eq 'hoyo') {
     Write-Host ""
     Write-Host "Couldn't locate the $($cfg.Name) install." -ForegroundColor Red
     Write-Host "Open $($cfg.Label) in-game and try again, or pass the path:" -ForegroundColor Yellow
-    Write-Host "  & ([scriptblock]::Create((irm 'https://asyce.com/asivepulled/scripts/wishlog.ps1'))) -Game $Game -InstallDir 'D:\Your\Game\Path'"
+    Write-Host "  & ([scriptblock]::Create((irm 'https://pengo.gg/scripts/pengo-pulls.ps1'))) -Game $Game -InstallDir 'D:\Your\Game\Path'"
     exit 1
   }
   $sourceFile = Find-CacheDataFile (Join-Path $installDir 'webCaches')
@@ -395,7 +395,7 @@ if (-not $validUrl) {
 Set-Clipboard -Value $validUrl
 Write-Host ""
 Write-Host "OK - copied your $($cfg.Name) $($cfg.Label) URL to the clipboard." -ForegroundColor Green
-Write-Host "Paste it into https://asyce.com/asivepulled/ (the $($cfg.Name) tab)."
+Write-Host "Paste it into https://pengo.gg (the $($cfg.Name) tracker)."
 Write-Host ""
 Write-Host "Sanity check (first 80 chars):"
 Write-Host $validUrl.Substring(0, [Math]::Min(80, $validUrl.Length)) -ForegroundColor DarkGray

@@ -1,9 +1,9 @@
 // ============================================================
 // Nyx — wish/gacha import engine  (window.NyxPulls)
 //
-// Ported from the proven As-I've-Hoarded "asivepulled" adapters, but
-// rewritten as a self-contained browser global (no ES imports) so it
-// drops straight into Site's esbuild IIFE bundle.
+// Based on the earlier prototype import adapters, but rewritten as a
+// self-contained browser global (no ES imports) so it drops straight
+// into Site's esbuild IIFE bundle.
 //
 // Responsibilities:
 //   • parse a pasted in-game history URL into auth params
@@ -12,13 +12,13 @@
 //   • turn imported pulls into the view object the GachaTracker UI
 //     already renders (pity, 50/50, 5★ history, distribution, stream)
 //
-// Only Genshin ('gi') is wired for now; HSR/ZZZ/WuWa adapters slot in
-// behind the same interface in Phase 2. Endfield ('ae') has no public
-// endpoint yet → treated as "coming soon" by the UI.
+// Genshin, HSR, ZZZ, and Wuthering Waves support live URL import.
+// Endfield currently supports file/CSV/manual import only because no
+// stable public history endpoint is enabled here yet.
 //
 // The proxy base is window.NYX_API_BASE (default same-origin). During
 // local `python -m http.server` dev you can point it at a `wrangler dev`
-// instance or at https://asyce.com (both allowlist localhost origins).
+// instance.
 // ============================================================
 
 window.NyxPulls = (function () {
@@ -411,6 +411,114 @@ window.NyxPulls = (function () {
   function buildHsrBannerViews(pulls) { return buildViewsFor('hsr', pulls, HSR_VIEW_BANNERS, HSR_STANDARD_5); }
   function buildZzzBannerViews(pulls) { return buildViewsFor('zzz', pulls, ZZZ_VIEW_BANNERS, ZZZ_STANDARD_S); }
 
+  function parseSimpleCsv(text) {
+    const rows = [];
+    let row = [], cur = '', quote = false;
+    const pushCell = () => { row.push(cur); cur = ''; };
+    const pushRow = () => {
+      if (row.length || cur !== '') { pushCell(); rows.push(row); }
+      row = [];
+    };
+    for (let i = 0; i < String(text || '').length; i++) {
+      const ch = text[i], next = text[i + 1];
+      if (quote && ch === '"' && next === '"') { cur += '"'; i++; continue; }
+      if (ch === '"') { quote = !quote; continue; }
+      if (!quote && ch === ',') { pushCell(); continue; }
+      if (!quote && (ch === '\n' || ch === '\r')) {
+        if (ch === '\r' && next === '\n') i++;
+        pushRow();
+        continue;
+      }
+      cur += ch;
+    }
+    pushRow();
+    return rows.filter((r) => r.some((v) => String(v || '').trim() !== ''));
+  }
+
+  function csvObjects(text) {
+    const rows = parseSimpleCsv(text);
+    if (rows.length < 2) return [];
+    const headers = rows[0].map((h) => String(h || '').trim().toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, ''));
+    return rows.slice(1).map((cells) => {
+      const out = {};
+      headers.forEach((h, i) => { if (h) out[h] = cells[i] != null ? String(cells[i]).trim() : ''; });
+      return out;
+    });
+  }
+
+  function pick(row, keys) {
+    for (const k of keys) if (row[k] != null && String(row[k]).trim() !== '') return row[k];
+    return '';
+  }
+
+  function firstArray(value) {
+    if (Array.isArray(value)) return value;
+    if (!value || typeof value !== 'object') return null;
+    const keys = ['list', 'records', 'pulls', 'items', 'history', 'data'];
+    for (const key of keys) {
+      if (Array.isArray(value[key])) return value[key];
+      if (value[key] && typeof value[key] === 'object') {
+        const nested = firstArray(value[key]);
+        if (nested) return nested;
+      }
+    }
+    return null;
+  }
+
+  function importGenericRows(rows, opts) {
+    const codeKey = opts.codeKey || {};
+    const defaultBanner = opts.defaultBanner || 'character';
+    const defaultType = opts.defaultType || 'character';
+    const uid = String(opts.uid || pick(opts.meta || {}, ['uid', 'player_id', 'playerid', 'account_id', 'accountid']) || '');
+    const pulls = [];
+    rows.forEach((it, idx) => {
+      const row = it || {};
+      const code = String(pick(row, ['uigf_gacha_type', 'gacha_type', 'real_gacha_type', 'card_pool_type', 'cardpooltype', 'pool_type', 'banner_type']));
+      const rawBanner = String(pick(row, ['banner', 'banner_key', 'bannerkey', 'pool', 'pool_name', 'gacha_name', 'gacha_type_name', 'source_banner'])).toLowerCase();
+      let banner = codeKey[code] || '';
+      if (!banner) {
+        if (/weapon|light.?cone|w.?engine|engine/.test(rawBanner)) banner = opts.weaponBanner || 'weapon';
+        else if (/standard|permanent|stable|stellar/.test(rawBanner)) banner = 'standard';
+        else if (/beginner|departure|novice/.test(rawBanner)) banner = 'beginner';
+        else if (/bangboo/.test(rawBanner)) banner = 'bangboo';
+        else banner = defaultBanner;
+      }
+      const id = String(pick(row, ['id', 'record_id', 'recordid', 'history_id', 'historyid']) || (opts.idPrefix || 'import') + ':' + idx + ':' + pick(row, ['time', 'date', 'timestamp']));
+      const itemTypeRaw = String(pick(row, ['item_type', 'itemtype', 'resource_type', 'resourcetype', 'type', 'kind'])).toLowerCase();
+      const itemType = /weapon|light.?cone|w.?engine|engine/.test(itemTypeRaw) || ['weapon', 'lightcone', 'wengine', 'standard_wpn'].includes(banner)
+        ? (opts.weaponType || 'weapon')
+        : (/bangboo/.test(itemTypeRaw) || banner === 'bangboo' ? 'bangboo' : defaultType);
+      const rank = parseInt(pick(row, ['rank_type', 'rank', 'rarity', 'quality_level', 'qualitylevel']), 10) || 0;
+      const timeRaw = pick(row, ['time', 'date', 'datetime', 'timestamp', 'created_at', 'createdat']);
+      pulls.push({
+        id,
+        banner,
+        sourceBanner: pick(row, ['source_banner', 'sourcebanner', 'banner_name', 'banner', 'pool_name', 'gacha_name']),
+        name: pick(row, ['name', 'item_name', 'itemname', 'resource_name', 'resourcename']),
+        itemId: String(pick(row, ['item_id', 'itemid', 'resource_id', 'resourceid', 'id_item']) || ''),
+        itemType,
+        rank,
+        time: typeof timeRaw === 'number' ? timeRaw : (Date.parse(String(timeRaw).replace(' ', 'T') + (String(timeRaw).match(/z|[+-]\d\d:?\d\d$/i) ? '' : 'Z')) || 0),
+        source: opts.source || 'file',
+      });
+    });
+    return { uid, pulls: pulls.filter((p) => p.name || p.itemId || p.rank || p.time) };
+  }
+
+  function importGenericJson(json, opts) {
+    const root = Array.isArray(json) ? json : (json && (json.export || json.data || json.account || json));
+    const list = firstArray(root);
+    if (!list) return { error: 'No recognizable pull records found in that JSON file.' };
+    const meta = Array.isArray(root) ? {} : root;
+    return importGenericRows(list, Object.assign({}, opts, { meta }));
+  }
+
+  function importGenericCsv(text, opts) {
+    const rows = csvObjects(text);
+    if (!rows.length) return { error: 'No CSV rows found. Use a header row such as time,name,rank,banner.' };
+    return importGenericRows(rows, Object.assign({}, opts, { source:'csv-manual' }));
+  }
+
   // ---- import existing history (UIGF v4.x) ---------------------------
   // UIGF v4 is the community-standard interchange used by Paimon.moe,
   // Snap Hutao, stardb, HoYo.Gacha, etc. Genshin records live under the
@@ -426,7 +534,10 @@ window.NyxPulls = (function () {
 
   function importUIGFGenshin(json) {
     const acc = json && json.hk4e && json.hk4e[0];
-    if (!acc || !Array.isArray(acc.list)) return { error: 'No Genshin (hk4e) records found in this UIGF file.' };
+    if (!acc || !Array.isArray(acc.list)) return importGenericJson(json, {
+      codeKey: GI_CODE_KEY, defaultBanner:'character', defaultType:'character', weaponBanner:'weapon',
+      weaponType:'weapon', idPrefix:'gi-json', source:'json-genshin',
+    });
     const offset = (acc.timezone != null ? acc.timezone : 8) * 3600000;
     const pulls = [];
     for (const it of acc.list) {
@@ -738,6 +849,12 @@ window.NyxPulls = (function () {
     return { uid: String(acc.uid || ''), pulls: pulls };
   }
   function importUIGFHsr(json) {
+    if (!(json && json.hkrpg && json.hkrpg[0] && Array.isArray(json.hkrpg[0].list))) {
+      return importGenericJson(json, {
+        codeKey: HSR_CODE_KEY, defaultBanner:'character', defaultType:'character', weaponBanner:'lightcone',
+        weaponType:'light_cone', idPrefix:'hsr-json', source:'json-hsr',
+      });
+    }
     return importUIGFGame(json, 'hkrpg', HSR_CODE_KEY, function (key, it, offset) {
       return { id: String(it.id), banner: key, name: it.name || '', itemId: String(it.item_id || ''),
         itemType: /light\s*cone/i.test(it.item_type || '') ? 'light_cone' : 'character',
@@ -745,6 +862,12 @@ window.NyxPulls = (function () {
     });
   }
   function importUIGFZzz(json) {
+    if (!(json && json.nap && json.nap[0] && Array.isArray(json.nap[0].list))) {
+      return importGenericJson(json, {
+        codeKey: ZZZ_CODE_KEY, defaultBanner:'character', defaultType:'agent', weaponBanner:'wengine',
+        weaponType:'w_engine', idPrefix:'zzz-json', source:'json-zzz',
+      });
+    }
     return importUIGFGame(json, 'nap', ZZZ_CODE_KEY, function (key, it, offset) {
       const r = parseInt(it.rank_type, 10);
       return { id: String(it.id), banner: key, name: it.name || '', itemId: String(it.item_id || ''),
@@ -823,7 +946,10 @@ window.NyxPulls = (function () {
       list = acc.list || json.list || null;
       uid = String(acc.uid || acc.playerId || json.uid || '');
     }
-    if (!Array.isArray(list)) return { error: 'Unrecognized WuWa file — expected a list of convene records.' };
+    if (!Array.isArray(list)) return importGenericJson(json, {
+      codeKey: WW_CODE_KEY, defaultBanner:'character', defaultType:'resonator', weaponBanner:'weapon',
+      weaponType:'weapon', idPrefix:'wuwa-json', source:'json-wuwa',
+    });
     const pulls = [];
     for (const it of list) {
       const code = String(it.cardPoolType != null ? it.cardPoolType : (it.gacha_type != null ? it.gacha_type : ''));
@@ -847,13 +973,31 @@ window.NyxPulls = (function () {
   ];
   function buildWuwaBannerViews(pulls) { return buildViewsFor('wuwa', pulls, WW_VIEW_BANNERS, WW_STANDARD_5); }
 
-  // Safer alternative to the `iex (irm ...)` one-liner: a single versioned,
-  // inspectable script hosted on pengo.gg with a published checksum. Download +
-  // run are separate user actions. One file, parameterised by -Game.
+  // ---- Endfield file/manual import -----------------------------------
+  const AE_CODE_KEY = { '1':'character', '2':'weapon', '3':'standard', '4':'standard' };
+  const AE_VIEW_BANNERS = [
+    { key: 'character', label: 'Operator',  keys: ['character'], soft: 60, hard: 80, ff: true },
+    { key: 'weapon',    label: 'Weapon',    keys: ['weapon'],    soft: 60, hard: 80, ff: false },
+    { key: 'standard',  label: 'Standard',  keys: ['standard'],  soft: 60, hard: 80, ff: false },
+  ];
+  function importEndfieldJson(json) {
+    return importGenericJson(json, {
+      codeKey: AE_CODE_KEY, defaultBanner:'character', defaultType:'operator', weaponBanner:'weapon',
+      weaponType:'weapon', idPrefix:'ae-json', source:'json-endfield',
+    });
+  }
+  function buildEndfieldBannerViews(pulls) { return buildViewsFor('ae', pulls || [], AE_VIEW_BANNERS, new Set()); }
+
+  // One versioned, inspectable script hosted on pengo.gg with a published
+  // checksum. Users can either run it quickly from the URL or download and
+  // verify it first. One file, parameterised by -Game.
   const PULLS_SCRIPT = {
     url: '/scripts/pengo-pulls.ps1',
-    sha256: '750d63534196c05db3e3af4ec3a9c52ca005c36d69a5701653857a98af4bbc18',
+    sha256: 'e2c6201a75cdda7e6353ffa58d9c64998fa765b52f74c3ca32ed5f097890c733',
   };
+  function quickCommand(game) {
+    return "& ([scriptblock]::Create((irm 'https://pengo.gg/scripts/pengo-pulls.ps1'))) -Game " + game;
+  }
 
   // ---- adapter registry (Nyx game-key → adapter) ----------------
   // Nyx uses 'wuwa'/'ae'; the underlying data model uses 'ww'/
@@ -862,52 +1006,67 @@ window.NyxPulls = (function () {
     gi: {
       game: 'gi',
       label: 'Genshin Impact',
-      helperCommand: "iex (irm 'https://asyce.com/asivepulled/scripts/genshin.ps1')",
+      helperCommand: quickCommand('gi'),
       safeScript: PULLS_SCRIPT,
       parseAuth: parseGiAuth,
       runImport: importGenshin,
       buildView: buildGenshinView,
       buildViews: buildGenshinBannerViews,
       importFile: importUIGFGenshin,
+      importCsv: function (text) { return importGenericCsv(text, { codeKey:GI_CODE_KEY, defaultBanner:'character', defaultType:'character', weaponBanner:'weapon', weaponType:'weapon', idPrefix:'gi-csv' }); },
       importExcel: importPaimonXlsx,
     },
     hsr: {
       game: 'hsr',
       label: 'Honkai: Star Rail',
-      helperCommand: "iex (irm 'https://asyce.com/asivepulled/scripts/hsr.ps1')",
+      helperCommand: quickCommand('hsr'),
       safeScript: PULLS_SCRIPT,
       parseAuth: parseGiAuth,
       runImport: importHsr,
       buildView: function (p) { return buildHsrBannerViews(p)[0]; },
       buildViews: buildHsrBannerViews,
       importFile: importUIGFHsr,
+      importCsv: function (text) { return importGenericCsv(text, { codeKey:HSR_CODE_KEY, defaultBanner:'character', defaultType:'character', weaponBanner:'lightcone', weaponType:'light_cone', idPrefix:'hsr-csv' }); },
     },
     zzz: {
       game: 'zzz',
       label: 'Zenless Zone Zero',
-      helperCommand: "iex (irm 'https://asyce.com/asivepulled/scripts/zzz.ps1')",
+      helperCommand: quickCommand('zzz'),
       safeScript: PULLS_SCRIPT,
       parseAuth: parseGiAuth,
       runImport: importZzz,
       buildView: function (p) { return buildZzzBannerViews(p)[0]; },
       buildViews: buildZzzBannerViews,
       importFile: importUIGFZzz,
+      importCsv: function (text) { return importGenericCsv(text, { codeKey:ZZZ_CODE_KEY, defaultBanner:'character', defaultType:'agent', weaponBanner:'wengine', weaponType:'w_engine', idPrefix:'zzz-csv' }); },
     },
     wuwa: {
       game: 'wuwa',
       label: 'Wuthering Waves',
-      helperCommand: "iex (irm 'https://asyce.com/asivepulled/scripts/wuwa.ps1')",
+      helperCommand: quickCommand('wuwa'),
       safeScript: PULLS_SCRIPT,
       parseAuth: parseWuwaAuth,
       runImport: importWuwa,
       buildView: function (p) { return buildWuwaBannerViews(p)[0]; },
       buildViews: buildWuwaBannerViews,
       importFile: importWWGF,
+      importCsv: function (text) { return importGenericCsv(text, { codeKey:WW_CODE_KEY, defaultBanner:'character', defaultType:'resonator', weaponBanner:'weapon', weaponType:'weapon', idPrefix:'wuwa-csv' }); },
+    },
+    ae: {
+      game: 'ae',
+      label: 'Arknights: Endfield',
+      safeScript: null,
+      parseAuth: function () { return { error:'Endfield live-token import is not enabled yet. Use a JSON/CSV file or manual CSV backfill so your token stays off Pengo.' }; },
+      runImport: null,
+      buildView: function (p) { return buildEndfieldBannerViews(p)[0]; },
+      buildViews: buildEndfieldBannerViews,
+      importFile: importEndfieldJson,
+      importCsv: function (text) { return importGenericCsv(text, { codeKey:AE_CODE_KEY, defaultBanner:'character', defaultType:'operator', weaponBanner:'weapon', weaponType:'weapon', idPrefix:'ae-csv' }); },
     },
   };
 
   function adapterFor(nyxKey) {
-    return ADAPTERS[nyxKey] || null; // hsr/zzz/wuwa/ae return null until wired
+    return ADAPTERS[nyxKey] || null;
   }
 
   function buildView(nyxKey, pulls, opts) {

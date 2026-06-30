@@ -1,7 +1,7 @@
 // ============================================================
 // Nyx — pull history persistence  (window.NyxPullStore)
 //
-// Local-first store, ported from As-I've-Hoarded's asivepulled/storage.
+// Local-first pull-history store for Nyx.
 // IndexedDB keyed by [game, uid, id] so re-imports merge idempotently
 // (a duplicate pull id is a no-op). Every record carries (game, uid) so
 // a server-side or cloud merge can dedupe by the same key without extra
@@ -102,6 +102,8 @@ window.NyxPullStore = (function () {
       totalPulls: all.length,
       byBanner: byBanner,
       accountName: meta && meta.accountName ? String(meta.accountName) : '',
+      sourceLabel: meta && meta.sourceLabel ? String(meta.sourceLabel) : '',
+      importKind: meta && meta.importKind ? String(meta.importKind) : '',
     });
     await txDone(tx);
     return { added: added, skipped: skipped };

@@ -3,41 +3,8 @@
 // window.GachaTracker({ open, onClose, cfg })
 //   cfg = { pull, pulls, currency, cost, fives:[], fours:[], key }
 // Two phases: (1) import screen, (2) pull-history visualization.
-// Imported data is generated + persisted per game in localStorage.
+// Imported data is persisted per game in IndexedDB.
 // ============================================================
-
-function gtSimulate(cfg){
-  const fivePool = (cfg.fives && cfg.fives.length) ? cfg.fives : ['Featured'];
-  const fourPool = (cfg.fours && cfg.fours.length) ? cfg.fours : ['Four Star'];
-  const total = 170 + Math.floor(Math.random() * 200);
-  const now = Date.now();
-  let pity5 = 0, pity4 = 0, guaranteed = false;
-  const fives = [], stream = [];
-  let fourCount = 0, threeCount = 0;
-  for (let i = 1; i <= total; i++){
-    pity5++; pity4++;
-    let r5 = 0.006;
-    if (pity5 > 73) r5 = 0.006 + (pity5 - 73) * 0.06;
-    if (pity5 >= 90) r5 = 1;
-    if (Math.random() < r5){
-      const ff = !guaranteed;
-      let won;
-      if (guaranteed){ won = true; guaranteed = false; }
-      else { won = Math.random() < 0.5; if (!won) guaranteed = true; }
-      const name = won
-        ? fivePool[0]
-        : (fivePool.length > 1 ? fivePool[1 + Math.floor(Math.random() * (fivePool.length - 1))] : fivePool[0]);
-      fives.push({ idx:i, pity:pity5, pity5:pity5, rank:5, won, ff, name, time:now - (total - i) * 90000 });
-      stream.push(5); pity5 = 0; pity4 = 0;
-    } else if (pity4 >= 10 || Math.random() < 0.051){
-      fourCount++; stream.push(4); pity4 = 0;
-    } else {
-      threeCount++; stream.push(3);
-    }
-  }
-  return { total, fives, fourCount, threeCount, currentPity:pity5, guaranteed,
-           stream, ts:Date.now() };
-}
 
 function gtNormName(s){
   return String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
@@ -488,6 +455,7 @@ function gtRenderResultsView(ctx){
     avgPity, currentState, weaponView, currentLimited, bannerGroups, pityBanners, archiveRows, characterArchive,
     weaponArchive, archiveSort, archiveFilter, viewMode, expandedSource, pityFilter, setArchiveSort,
     setArchiveFilter, setViewMode, setExpandedSource, setPityFilter, fmt, PULLS, CUR, COST, accountLabel,
+    sourceLabel, importedAt,
   } = ctx;
   const nextState = currentState === 'Guaranteed' ? 'Next: Guaranteed' : (currentState === '50:50' ? 'Next: 50:50' : 'Next: ' + currentState);
   const sinceLastFive = characterView ? (characterView.currentPity || 0) : 0;
@@ -500,7 +468,10 @@ function gtRenderResultsView(ctx){
           <button type="button" className={viewMode === 'archive' ? 'on' : ''} onClick={() => setViewMode('archive')}>Archive</button>
         </div>
         <div className="gt-tab-status"><b>{nextState}</b><span>{fmt(sinceLastFive)} since last 5{'\u2605'}</span></div>
-        <div className="gt-account">{accountLabel}</div>
+        <div className="gt-account">
+          <b>{accountLabel}</b>
+          <span>{sourceLabel || 'Saved local import'}{importedAt ? ' / ' + gtFmtDate(importedAt) : ''}</span>
+        </div>
       </div>
 
       {viewMode === 'overview' ? (
@@ -670,10 +641,10 @@ function GachaTracker({ open, onClose, cfg, inline }){
   const TITLE = C.title || (PULL + ' Tracker');
   const CUR = C.currency || 'Primogems';
   const COST = C.cost || 160;
+  // Legacy sample/demo cache key. Kept only so old browser data can be removed.
   const LSKEY = 'nyx-tracker-' + (C.key || 'gi');
-  // Real importer for this game, when one is wired (Genshin today).
-  // Unsupported games fall back to the sample simulator so their tabs
-  // still render instead of breaking.
+  // Real importer for this game, when one is wired. Games can support live URL
+  // import, file import, CSV/manual import, or any combination of those.
   const ADAPT = (window.NyxPulls && window.NyxPulls.adapterFor) ? window.NyxPulls.adapterFor(C.key || 'gi') : null;
   const STORE = window.NyxPullStore || null;
 
@@ -692,12 +663,8 @@ function GachaTracker({ open, onClose, cfg, inline }){
   const [pityFilter, setPityFilter] = React.useState('all');
   const fileRef = React.useRef(null);
 
-  // Wrap a single (sample/legacy) view into the multi-banner shape the
-  // results renderer now expects.
-  const wrapSim = (d) => ({ banners: [Object.assign({ key: 'character', label: 'Character', soft: 74, hard: 90, ff: true }, d)] });
-
-  // On mount: prefer real imported history from IndexedDB; fall back to
-  // the old localStorage sample cache so existing demos still load.
+  // On mount: load real imported history from IndexedDB. Old sample/demo
+  // localStorage caches are intentionally ignored and removed.
   React.useEffect(() => {
     let cancelled = false;
     (async () => {
@@ -709,45 +676,38 @@ function GachaTracker({ open, onClose, cfg, inline }){
             if (!cancelled && all && all.length) {
               let summary = null;
               try { summary = STORE.loadSummary ? await STORE.loadSummary(ADAPT.game, uids[0]) : null; } catch (e) {}
-              setData({ banners: ADAPT.buildViews(all, { cost: COST }), uid: uids[0], accountName:(summary && summary.accountName) || '' });
+              setData({ banners: ADAPT.buildViews(all, { cost: COST }), uid: uids[0],
+                accountName:(summary && summary.accountName) || '',
+                sourceLabel:(summary && summary.sourceLabel) || 'Saved local import',
+                importedAt:(summary && summary.importedAt) || 0 });
               setBannerIdx(0); setUid(uids[0]); setPhase('results'); return;
             }
           }
         }
       } catch (e) {}
-      try {
-        const raw = localStorage.getItem(LSKEY);
-        if (!cancelled && raw){ setData(wrapSim(JSON.parse(raw))); setBannerIdx(0); setPhase('results'); }
-      } catch (e) {}
+      try { localStorage.removeItem(LSKEY); } catch (e) {}
     })();
     return () => { cancelled = true; };
   }, [LSKEY]);
 
-  // Sample data (the simulator) — used by "load sample" and as the
-  // fallback for games whose real importer isn't wired yet.
-  const runSample = () => {
-    setError(''); setPhase('loading');
-    setTimeout(() => {
-      const d = gtSimulate(C);
-      try { localStorage.setItem(LSKEY, JSON.stringify(d)); } catch (e) {}
-      setData(wrapSim(d)); setBannerIdx(0); setPhase('results');
-    }, 700);
-  };
-
   // Real import: parse the pasted URL → walk every banner via the proxy
   // → persist → render the character-banner view.
   const runImport = async () => {
-    if (!ADAPT || !STORE) { runSample(); return; }
+    if (!ADAPT || !STORE || !ADAPT.runImport || !ADAPT.parseAuth) {
+      setError('Live URL import is not available for this game yet. Use JSON/CSV import or manual CSV backfill instead.');
+      return;
+    }
     const auth = ADAPT.parseAuth(url);
     if (auth && auth.error) { setError(auth.error); return; }
     setError(''); setProgress(null); setPhase('loading');
     try {
       const res = await ADAPT.runImport(auth, (p) => setProgress(p));
       const accountName = res.accountName || res.nickname || res.name || '';
-      await STORE.savePulls(ADAPT.game, res.uid, res.pulls, { accountName });
+      await STORE.savePulls(ADAPT.game, res.uid, res.pulls, { accountName, sourceLabel:'Live history URL', importKind:'live-url' });
       const all = await STORE.loadPulls(ADAPT.game, res.uid);
       try { localStorage.removeItem(LSKEY); } catch (e) {}
-      setData({ banners: ADAPT.buildViews(all, { cost: COST }), uid: res.uid, accountName });
+      setData({ banners: ADAPT.buildViews(all, { cost: COST }), uid: res.uid, accountName,
+        sourceLabel:'Live history URL', importedAt:Date.now() });
       setBannerIdx(0); setUid(res.uid); setProgress(null); setPhase('results');
     } catch (e) {
       setError(String((e && e.message) || e || 'Import failed.'));
@@ -755,16 +715,21 @@ function GachaTracker({ open, onClose, cfg, inline }){
     }
   };
 
-  // Import an existing UIGF file (Paimon.moe / Snap Hutao / stardb / …).
+  // Import an existing UIGF/JSON/CSV/XLSX file (Paimon.moe, Snap Hutao,
+  // stardb, rng.moe, Wuwa/Endfield community exports, or manual CSV).
   const runImportFile = async (file) => {
-    if (!file || !ADAPT || !STORE || (!ADAPT.importFile && !ADAPT.importExcel)) return;
+    if (!file || !ADAPT || !STORE || (!ADAPT.importFile && !ADAPT.importExcel && !ADAPT.importCsv)) return;
     setError(''); setProgress(null); setPhase('loading');
     try {
       const isExcel = /\.xlsx$/i.test(file.name || '') || /spreadsheetml/i.test(file.type || '');
+      const isCsv = /\.csv$/i.test(file.name || '') || /csv/i.test(file.type || '');
       let res;
       if (isExcel) {
         if (!ADAPT.importExcel) throw new Error('Excel import is not available for this game yet.');
         res = await ADAPT.importExcel(await file.arrayBuffer());
+      } else if (isCsv) {
+        if (!ADAPT.importCsv) throw new Error('CSV/manual import is not available for this game yet.');
+        res = ADAPT.importCsv(await file.text());
       } else {
         if (!ADAPT.importFile) throw new Error('JSON import is not available for this game yet.');
         res = ADAPT.importFile(JSON.parse(await file.text()));
@@ -773,10 +738,11 @@ function GachaTracker({ open, onClose, cfg, inline }){
       if (!res.pulls || !res.pulls.length) throw new Error('No ' + (C.pulls || 'pulls').toLowerCase() + ' for this game in that file.');
       const id = res.uid || 'imported';
       const accountName = res.accountName || res.nickname || res.name || (/paimon/i.test(id) ? 'Paimon.moe import' : 'Imported history');
-      await STORE.savePulls(ADAPT.game, id, res.pulls, { accountName });
+      const sourceLabel = isExcel ? 'Paimon.moe Excel file' : (isCsv ? 'CSV/manual file' : 'JSON/UIGF file');
+      await STORE.savePulls(ADAPT.game, id, res.pulls, { accountName, sourceLabel, importKind:isCsv ? 'csv' : (isExcel ? 'xlsx' : 'json') });
       const all = await STORE.loadPulls(ADAPT.game, id);
       try { localStorage.removeItem(LSKEY); } catch (e) {}
-      setData({ banners: ADAPT.buildViews(all, { cost: COST }), uid: id, accountName });
+      setData({ banners: ADAPT.buildViews(all, { cost: COST }), uid: id, accountName, sourceLabel, importedAt:Date.now() });
       setBannerIdx(0); setUid(id); setPhase('results');
     } catch (e) {
       setError('Import failed: ' + String((e && e.message) || e)); setPhase('import');
@@ -799,6 +765,12 @@ function GachaTracker({ open, onClose, cfg, inline }){
   if (!inline && !open) return null;
 
   const fmt = (n) => n.toLocaleString('en-US');
+  const hasLiveImport = !!(ADAPT && ADAPT.runImport && ADAPT.parseAuth);
+  const hasFileImport = !!(ADAPT && (ADAPT.importFile || ADAPT.importExcel || ADAPT.importCsv));
+  const manualCsv = 'time,name,rank,banner,item_type,item_id,id,uid\n2026-06-30 12:00:00,Example Character,5,character,character,example-id,manual-1,';
+  const quickCommand = ADAPT && ADAPT.helperCommand;
+  const verifiedRunCommand = ADAPT && ADAPT.safeScript ? ('powershell -ExecutionPolicy Bypass -File pengo-pulls.ps1 -Game ' + ADAPT.game) : '';
+  const copyPlain = (text) => { try { navigator.clipboard.writeText(text); } catch (e) {} };
 
   return (
     <div className={inline ? 'gt-inline' : 'gt-overlay'}
@@ -808,8 +780,8 @@ function GachaTracker({ open, onClose, cfg, inline }){
           <span className="gt-dia"></span>
           <div className="gt-ttl">
             {phase === 'results'
-              ? <button type="button" className="gt-title-import" onClick={showImport}>Import</button>
-              : <div className="t">Import</div>}
+              ? <button type="button" className="gt-title-import" onClick={showImport}>Manage import</button>
+              : <div className="t">Import history</div>}
           </div>
           <button type="button" className="gt-x" title="Close" onClick={onClose} style={{ display:inline ? 'none' : undefined }}>{'\u2715'}</button>
         </div>
@@ -817,75 +789,79 @@ function GachaTracker({ open, onClose, cfg, inline }){
         {phase !== 'results' && (
           <div className="gt-import">
             <ol className="gt-steps">
-              <li><span className="n">1</span><div><b>Open your history</b><span>In {CUR === 'Primogems' ? 'Genshin' : 'the game'}, open the {PULL} history page so the feed URL is cached.</span></div></li>
-              <li><span className="n">2</span><div><b>Copy the feed URL</b><span>{ADAPT ? 'Open PowerShell (Windows search → PowerShell) and run the command below — it copies your link to the clipboard.' : 'Run the helper command, then copy the ' + PULL.toLowerCase() + ' history link it prints.'}</span></div></li>
-              <li><span className="n">3</span><div><b>Paste &amp; import</b><span>Drop the link below — Pengo&rsquo;s worker proxies it to the game to read every banner, and keeps nothing (no token, no history).</span></div></li>
+              <li><span className="n">1</span><div><b>Choose an import method</b><span>Use the quick command, the verified script, a live URL, a tracker export, or a CSV/manual backfill.</span></div></li>
+              <li><span className="n">2</span><div><b>Preview and save locally</b><span>Pengo stores imported history in this browser so it remembers previous uploads. Account sync can build on this later.</span></div></li>
+              <li><span className="n">3</span><div><b>Keep a backup</b><span>JSON/UIGF/CSV files are the safest way to move between trackers and recover history that the game no longer shows.</span></div></li>
             </ol>
-            {ADAPT && ADAPT.helperCommand && (
-              <div className="gt-cmd">
-                <code>{ADAPT.helperCommand}</code>
-                <button type="button" onClick={() => { try { navigator.clipboard.writeText(ADAPT.helperCommand); } catch (e) {} }}>Copy</button>
-              </div>
-            )}
-            {ADAPT && ADAPT.safeScript && (
-              <details className="gt-safe">
-                <summary>Prefer not to run a remote command? Download &amp; verify instead</summary>
-                <div className="gt-safe-body">
-                  <p className="gt-safe-note">
-                    The script only reads your local game cache to find the history link and copies it to your
-                    clipboard — its one network call is a validation hit to the game&rsquo;s own API. Pengo&rsquo;s
-                    worker then proxies the history request to the game provider and stores nothing: not your
-                    authorization token, not your pull history.
-                  </p>
-                  <ol className="gt-safe-steps">
-                    <li>
-                      <b>Download</b>{' '}
-                      <a href={ADAPT.safeScript.url} download>pengo-pulls.ps1</a>
-                      {'  ·  '}
-                      <a href={ADAPT.safeScript.url} target="_blank" rel="noopener noreferrer">view source</a>
-                    </li>
-                    <li>
-                      <b>Verify</b> (optional) — the hash should match:
-                      <div className="gt-cmd">
-                        <code>Get-FileHash pengo-pulls.ps1 -Algorithm SHA256</code>
-                        <button type="button" onClick={() => { try { navigator.clipboard.writeText('Get-FileHash pengo-pulls.ps1 -Algorithm SHA256'); } catch (e) {} }}>Copy</button>
-                      </div>
-                      <div className="gt-sha">SHA-256 <code>{ADAPT.safeScript.sha256}</code></div>
-                    </li>
-                    <li>
-                      <b>Run</b> it in PowerShell:
-                      <div className="gt-cmd">
-                        <code>{'powershell -ExecutionPolicy Bypass -File pengo-pulls.ps1 -Game ' + ADAPT.game}</code>
-                        <button type="button" onClick={() => { try { navigator.clipboard.writeText('powershell -ExecutionPolicy Bypass -File pengo-pulls.ps1 -Game ' + ADAPT.game); } catch (e) {} }}>Copy</button>
-                      </div>
-                    </li>
-                  </ol>
-                </div>
-              </details>
-            )}
+
+            <div className="gt-method-grid">
+              {quickCommand && (
+                <section className="gt-method">
+                  <b>Quick PowerShell command</b>
+                  <p>Fastest PC option. It downloads the Pengo helper, runs it, and copies the history link for you.</p>
+                  <div className="gt-cmd">
+                    <code>{quickCommand}</code>
+                    <button type="button" onClick={() => copyPlain(quickCommand)}>Copy</button>
+                  </div>
+                </section>
+              )}
+
+              {ADAPT && ADAPT.safeScript && (
+                <section className="gt-method">
+                  <b>Download and verify</b>
+                  <p>Safer PC option. Download the same helper first, inspect it, verify the hash, then run it yourself.</p>
+                  <div className="gt-safe-links">
+                    <a href={ADAPT.safeScript.url} download>Download script</a>
+                    <a href={ADAPT.safeScript.url} target="_blank" rel="noopener noreferrer">View source</a>
+                  </div>
+                  <div className="gt-cmd">
+                    <code>Get-FileHash pengo-pulls.ps1 -Algorithm SHA256</code>
+                    <button type="button" onClick={() => copyPlain('Get-FileHash pengo-pulls.ps1 -Algorithm SHA256')}>Copy</button>
+                  </div>
+                  <div className="gt-sha">SHA-256 <code>{ADAPT.safeScript.sha256}</code></div>
+                  <div className="gt-cmd">
+                    <code>{verifiedRunCommand}</code>
+                    <button type="button" onClick={() => copyPlain(verifiedRunCommand)}>Copy</button>
+                  </div>
+                </section>
+              )}
+
+              {hasFileImport && (
+                <section className="gt-method">
+                  <b>Import a file</b>
+                  <p>Best privacy option. Upload UIGF/JSON exports from other trackers, Paimon Excel where supported, Wuwa/Endfield JSON, or CSV/manual files.</p>
+                  <input ref={fileRef} type="file" accept=".json,application/json,.csv,text/csv,.xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" style={{ display:'none' }}
+                         onChange={(e) => { const f = e.target.files && e.target.files[0]; e.target.value = ''; runImportFile(f); }} />
+                  <button type="button" className="gt-method-action" disabled={phase === 'loading'}
+                          onClick={() => { if (fileRef.current) fileRef.current.click(); }}>
+                    Choose JSON / CSV / Excel
+                  </button>
+                </section>
+              )}
+
+              {ADAPT && ADAPT.importCsv && (
+                <section className="gt-method">
+                  <b>Manual CSV backfill</b>
+                  <p>Use this when old history expired. Create a CSV with time, name, rank, banner, item_type, item_id, id, and uid, then import it as a file.</p>
+                  <div className="gt-cmd">
+                    <code>{manualCsv}</code>
+                    <button type="button" onClick={() => copyPlain(manualCsv)}>Copy</button>
+                  </div>
+                </section>
+              )}
+            </div>
+
             <div className="gt-urlrow">
-              <input value={url} onChange={(e) => setUrl(e.target.value)} spellCheck="false"
-                     placeholder={'https://\u2026 ' + PULL.toLowerCase() + ' history URL'} />
-              <button type="button" className="gt-go" disabled={phase === 'loading'} onClick={runImport}>
-                {phase === 'loading' ? <span className="gt-spin"></span> : 'Import'}
+              <input value={url} onChange={(e) => setUrl(e.target.value)} spellCheck="false" disabled={!hasLiveImport}
+                     placeholder={hasLiveImport ? ('https://... ' + PULL.toLowerCase() + ' history URL') : 'Live URL import is not available for this game yet'} />
+              <button type="button" className="gt-go" disabled={phase === 'loading' || !hasLiveImport} onClick={runImport}>
+                {phase === 'loading' ? <span className="gt-spin"></span> : 'Import URL'}
               </button>
             </div>
+            <p className="gt-safe-note">Live URL import sends the temporary history link through Pengo&rsquo;s Worker to the game provider, then saves only the pull records in your browser. File import is parsed locally before saving.</p>
             {error && <div className="gt-err">{error}</div>}
             {phase === 'loading' && progress && (
               <div className="gt-prog">Importing {progress.bannerLabel}\u2026 {fmt(progress.fetched)} {PULLS.toLowerCase()}{progress.bannerTotal ? ' (' + (progress.bannerIndex + 1) + '/' + progress.bannerTotal + ')' : ''}</div>
-            )}
-            <button type="button" className="gt-sample" onClick={runSample} disabled={phase === 'loading'}>
-              or load sample data {'\u2192'}
-            </button>
-            {ADAPT && (ADAPT.importFile || ADAPT.importExcel) && (
-              <span>
-                <input ref={fileRef} type="file" accept=".json,application/json,.xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" style={{ display:'none' }}
-                       onChange={(e) => { const f = e.target.files && e.target.files[0]; e.target.value = ''; runImportFile(f); }} />
-                <button type="button" className="gt-sample" disabled={phase === 'loading'}
-                        onClick={() => { if (fileRef.current) fileRef.current.click(); }}>
-                  or import JSON / Paimon.moe Excel {'\u2192'}
-                </button>
-              </span>
             )}
           </div>
         )}
@@ -935,6 +911,7 @@ function GachaTracker({ open, onClose, cfg, inline }){
             avgPity, currentState, weaponView, currentLimited, bannerGroups, pityBanners, archiveRows, characterArchive,
             weaponArchive, archiveSort, archiveFilter, viewMode, expandedSource, pityFilter, setArchiveSort,
             setArchiveFilter, setViewMode, setExpandedSource, setPityFilter, fmt, PULLS, CUR, COST, accountLabel,
+            sourceLabel:data.sourceLabel || 'Saved local import', importedAt:data.importedAt || 0,
           });
         })()}
       </div>

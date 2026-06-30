@@ -50,11 +50,11 @@ jobs:
 
       - name: Install scraper deps
         working-directory: Scraper
-        run: npm install --no-audit --no-fund
+        run: npm ci --no-audit --no-fund
 
       - name: Install site deps
         working-directory: Site
-        run: npm install --no-audit --no-fund
+        run: npm ci --no-audit --no-fund
 
       - name: Unit tests
         working-directory: Scraper
@@ -75,16 +75,6 @@ jobs:
         working-directory: Scraper
         run: npm run validate
 
-      - name: Build site
-        working-directory: Site
-        run: npm run build:deploy
-
-      - name: Deploy to Cloudflare
-        if: ${{ env.CF_API_TOKEN != '' }}
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-        run: npx --yes wrangler deploy
-
       - name: Commit refreshed data
         run: |
           git config user.name "pengo-bot"
@@ -94,5 +84,16 @@ jobs:
             echo "No data changes to commit."
           else
             git commit -m "chore(data): scheduled roster/material sync [skip ci]"
+            git pull --rebase origin main
             git push
           fi
+
+      - name: Build site
+        working-directory: Site
+        run: npm run build:deploy
+
+      - name: Deploy to Cloudflare
+        if: ${{ env.CF_API_TOKEN != '' }}
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: npx --yes wrangler deploy

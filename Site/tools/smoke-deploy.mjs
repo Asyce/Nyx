@@ -140,9 +140,11 @@ async function main() {
   if (bundle.includes('asyce.com/asivepulled')) throw new Error('bundle contains old helper URL');
   if (!indexHtml.includes('id="cosmicBg"')) throw new Error('index page missing procedural cosmic canvas');
   if (!indexHtml.includes('function drawStars')) throw new Error('index page missing procedural starfield renderer');
+  if (!indexHtml.includes('function drawGlints')) throw new Error('index page missing soft glint renderer');
   if (indexHtml.includes('<video') || indexHtml.includes('index-bg.webm') || indexHtml.includes('index-bg-poster.webp')) throw new Error('index page still references video background assets');
-  if (indexHtml.includes('backgroundnyx.png')) throw new Error('index page still references old static background');
+  if (!indexHtml.includes('../assets/bg/backgroundnyx.png')) throw new Error('index page missing filtered Nyx background');
   if (indexHtml.includes('page-pattern') || indexHtml.includes('page-vignette')) throw new Error('index page still includes old background overlays');
+  if (indexHtml.includes('lineTo(') || indexHtml.includes('drawDust')) throw new Error('index page still includes line-like background particles');
   await assertNotExists('assets/bg/index-bg.webm');
   await assertNotExists('assets/bg/index-bg-poster.webp');
   await assertNotExists('dist/vendor');

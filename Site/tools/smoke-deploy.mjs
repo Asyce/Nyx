@@ -27,6 +27,7 @@ const contentTypes = {
   '.ps1': 'text/plain; charset=utf-8',
   '.txt': 'text/plain; charset=utf-8',
   '.webm': 'video/webm',
+  '.webp': 'image/webp',
   '.xml': 'application/xml; charset=utf-8',
 };
 
@@ -138,9 +139,11 @@ async function main() {
   if (!bundle.includes('Pengo encrypted sync')) throw new Error('bundle missing encrypted sync UI copy');
   if (bundle.includes('asyce.com/asivepulled')) throw new Error('bundle contains old helper URL');
   if (!indexHtml.includes('../assets/bg/index-bg.webm')) throw new Error('index page missing streamed video background');
+  if (!indexHtml.includes('../assets/bg/index-bg-poster.webp')) throw new Error('index page missing video poster frame');
   if (indexHtml.includes('backgroundnyx.png')) throw new Error('index page still references old static background');
   if (indexHtml.includes('page-pattern') || indexHtml.includes('page-vignette')) throw new Error('index page still includes old background overlays');
   if (!(await exists(path.resolve(deployDir, 'assets', 'bg', 'index-bg.webm')))) throw new Error('index video background missing from deploy output');
+  if (!(await exists(path.resolve(deployDir, 'assets', 'bg', 'index-bg-poster.webp')))) throw new Error('index video poster missing from deploy output');
   await assertNotExists('dist/vendor');
   for (const page of gamePages) {
     const html = await readDeployText(page);

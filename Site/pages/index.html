@@ -28,11 +28,12 @@
   }
   /* ===== full-viewport background stack ===== */
   .page-bg{
-    position:fixed; inset:0; z-index:0; overflow:hidden; background:#05040b;
+    position:fixed; inset:0; z-index:0; overflow:hidden;
+    background:#05040b url("../assets/bg/index-bg-poster.webp") center/cover no-repeat;
   }
   .page-bg video{
     position:absolute; inset:0; width:100%; height:100%; object-fit:cover;
-    opacity:0; transition:opacity 1.6s ease; pointer-events:none;
+    opacity:0; transition:opacity .9s ease; pointer-events:none;
   }
   .page-bg video.is-active{ opacity:1; }
   @keyframes rot{ from{ transform:rotate(0deg); } to{ transform:rotate(360deg); } }
@@ -224,10 +225,10 @@
     </svg>
   </template>
   <div class="page-bg" aria-hidden="true">
-    <video id="bgVideoA" class="is-active" autoplay muted playsinline preload="metadata">
+    <video id="bgVideoA" class="is-active" autoplay muted playsinline preload="metadata" poster="../assets/bg/index-bg-poster.webp">
       <source src="../assets/bg/index-bg.webm" type="video/webm"/>
     </video>
-    <video id="bgVideoB" muted playsinline preload="metadata">
+    <video id="bgVideoB" muted playsinline preload="metadata" poster="../assets/bg/index-bg-poster.webp">
       <source src="../assets/bg/index-bg.webm" type="video/webm"/>
     </video>
   </div>
@@ -236,43 +237,36 @@
       var a = document.getElementById('bgVideoA');
       var b = document.getElementById('bgVideoB');
       if (!a || !b) return;
-      var fadeSeconds = 1.6;
+      var fadeMs = 900;
       var current = a;
       var next = b;
-      var timer = null;
+      var transitioning = false;
 
       function play(video){
         var p = video.play && video.play();
         if (p && p.catch) p.catch(function(){});
       }
-      function schedule(){
-        clearTimeout(timer);
-        var d = Number(current.duration || 0);
-        if (!isFinite(d) || d <= fadeSeconds + .25) return;
-        timer = setTimeout(crossfade, Math.max(.25, d - fadeSeconds) * 1000);
-      }
       function crossfade(){
-        clearTimeout(timer);
+        if (transitioning) return;
+        transitioning = true;
         try { next.currentTime = 0; } catch(e) {}
         play(next);
         next.classList.add('is-active');
+        current.classList.remove('is-active');
+        var previous = current;
         setTimeout(function(){
-          current.pause();
-          current.classList.remove('is-active');
-          try { current.currentTime = 0; } catch(e) {}
-          var old = current;
+          previous.pause();
+          try { previous.currentTime = 0; } catch(e) {}
+          var old = previous;
           current = next;
           next = old;
-          schedule();
-        }, fadeSeconds * 1000);
+          transitioning = false;
+        }, fadeMs);
       }
 
       [a, b].forEach(function(video){
         video.muted = true;
         video.playsInline = true;
-        video.addEventListener('loadedmetadata', function(){
-          if (video === current) schedule();
-        });
         video.addEventListener('ended', function(){
           if (video === current) crossfade();
         });

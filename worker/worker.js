@@ -372,6 +372,82 @@ function assetRequest(request) {
   return new Request(url, request);
 }
 
+function assetGetRequestWithoutRange(request) {
+  const url = new URL(request.url);
+  if (url.pathname === '/') url.pathname = '/index.html';
+  const headers = new Headers(request.headers);
+  headers.delete('Range');
+  headers.delete('If-Range');
+  return new Request(url, { method: 'GET', headers });
+}
+
+function parseByteRange(value, size) {
+  const match = /^bytes=(\d*)-(\d*)$/.exec(String(value || '').trim());
+  if (!match) return null;
+  const startText = match[1];
+  const endText = match[2];
+  if (!startText && !endText) return null;
+
+  let start;
+  let end;
+  if (!startText) {
+    const suffix = Number(endText);
+    if (!Number.isSafeInteger(suffix) || suffix <= 0) return null;
+    start = Math.max(0, size - suffix);
+    end = size - 1;
+  } else {
+    start = Number(startText);
+    end = endText ? Number(endText) : size - 1;
+    if (!Number.isSafeInteger(start) || !Number.isSafeInteger(end)) return null;
+  }
+
+  if (start < 0 || end < start || start >= size) return null;
+  return { start, end: Math.min(end, size - 1) };
+}
+
+async function handleRangedVideoAsset(request, env) {
+  if (!env || !env.ASSETS || typeof env.ASSETS.fetch !== 'function') {
+    return new Response('Not found', { status: 404 });
+  }
+
+  const method = request.method.toUpperCase();
+  if (method !== 'GET' && method !== 'HEAD') {
+    return new Response('Method not allowed', { status: 405, headers: { Allow: 'GET, HEAD' } });
+  }
+
+  const range = request.headers.get('Range');
+  if (!range) {
+    const assetResponse = await env.ASSETS.fetch(assetRequest(request));
+    const headers = new Headers(assetResponse.headers);
+    headers.set('Accept-Ranges', 'bytes');
+    headers.set('Content-Type', headers.get('Content-Type') || 'video/webm');
+    return new Response(method === 'HEAD' ? null : assetResponse.body, {
+      status: assetResponse.status,
+      statusText: assetResponse.statusText,
+      headers,
+    });
+  }
+
+  const assetResponse = await env.ASSETS.fetch(assetGetRequestWithoutRange(request));
+  if (!assetResponse.ok) return assetResponse;
+  const body = await assetResponse.arrayBuffer();
+  const size = body.byteLength;
+  const parsed = parseByteRange(range, size);
+  const headers = new Headers(assetResponse.headers);
+  headers.set('Accept-Ranges', 'bytes');
+  headers.set('Content-Type', headers.get('Content-Type') || 'video/webm');
+  if (!parsed) {
+    headers.set('Content-Range', 'bytes */' + size);
+    headers.set('Content-Length', '0');
+    return new Response(null, { status: 416, headers });
+  }
+
+  const chunk = body.slice(parsed.start, parsed.end + 1);
+  headers.set('Content-Range', 'bytes ' + parsed.start + '-' + parsed.end + '/' + size);
+  headers.set('Content-Length', String(chunk.byteLength));
+  return new Response(method === 'HEAD' ? null : chunk, { status: 206, headers });
+}
+
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
@@ -387,6 +463,7 @@ export default {
     if (url.pathname.startsWith('/api/account/')) {
       return errorResponse(request, env, { status: 404, code: 'not_found', message: 'Unknown account endpoint.', rid: requestId() });
     }
+    if (url.pathname === '/assets/bg/index-bg.webm') return handleRangedVideoAsset(request, env);
 
     // Static assets, when an [assets] binding exists (production / full
     // `wrangler dev`). API-only `wrangler dev` has no binding → 404.

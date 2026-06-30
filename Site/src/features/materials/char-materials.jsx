@@ -809,6 +809,17 @@ function cmArtFor(ch){
   return ch.art || ch.card || ch.icon || ch.circle || (ch.n === 'Skirk' ? '../assets/char/skirk.jpg' : null);
 }
 
+function cmCssUrl(value){
+  return `url("${String(value || '').replace(/\\/g, '/').replace(/"/g, '\\"')}")`;
+}
+
+function cmBlockArtStyle(artOrChars){
+  const art = typeof artOrChars === 'string'
+    ? artOrChars
+    : cmArtFor(cmNewestChar(artOrChars || []) || {});
+  return art ? { '--cm-block-art': cmCssUrl(art) } : undefined;
+}
+
 // G29/G30: newest-released character in a list (by release / updated / sourceOrder).
 function cmCharRelease(ch){
   return Number(ch && (ch.release || ch.updated || ch.sourceOrder)) || 0;
@@ -1665,7 +1676,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
               {cfg.talentDomains ? (
                 <React.Fragment>
                   {giTalentBlocks.map((block, bi) => (
-                    <div className="cm-mgroup cm-domain" key={'domain-' + bi}>
+                    <div className={'cm-mgroup cm-domain' + (block.art ? ' has-bg' : '')} key={'domain-' + bi} style={cmBlockArtStyle(block.art)}>
                       <div className="cm-mgroup-hd">
                         <span className="t">{block.domain.name}</span>
                         <span className="sub">{qq ? 'search results' : day === 6 ? 'Sunday - all books' : CM_DAYS[day]}</span>
@@ -1694,7 +1705,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                   return (
                     <div className="cm-mgroup" key={gi}>
                       <div className="cm-mgroup-hd"><span className="t">{g.region}</span></div>
-                      <div className="cm-mrow">
+                      <div className={'cm-mrow' + (cmBlockArtStyle(chars) ? ' has-bg' : '')} style={cmBlockArtStyle(chars)}>
                         <CMToken name={g.region} color="#e3b269" glyph={'\u25A4'} />
                         <div className="cm-grid">{chars.map((c, i) => renderCell('day-' + gi, c, i))}</div>
                       </div>
@@ -1710,7 +1721,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                       <span className="t">{g.region}</span>
                       {g.label && <span className="sub">{g.label}</span>}
                     </div>
-                    <div className="cm-mrow">
+                    <div className={'cm-mrow' + (cmBlockArtStyle(chars) ? ' has-bg' : '')} style={cmBlockArtStyle(chars)}>
                       <div className="cm-mtokens">
                         {mats.map((m, mi) => (
                           <CMToken key={mi} name={m.n} color={tokenColor(g.region)} glyph={CM_GLYPHS[(gi + mi) % CM_GLYPHS.length]} icon={m.icon} sprite={m.sprite} />
@@ -1732,7 +1743,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                 <React.Fragment>
                   <div className="cm-trounce-grid">
                   {giWeeklyBlocks.map((block, bi) => (
-                    <div className="cm-bgroup cm-weekly" key={'weekly-' + bi}>
+                    <div className={'cm-bgroup cm-weekly' + (block.art ? ' has-bg' : '')} key={'weekly-' + bi} style={cmBlockArtStyle(block.art)}>
                       <div className="cm-bgroup-hd">{block.boss.bossName}</div>
                       {block.drops.map((row) => (
                         <div className="cm-brow cm-weekly-row" key={row.key}>

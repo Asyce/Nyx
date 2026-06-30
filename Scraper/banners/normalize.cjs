@@ -17,6 +17,7 @@ const HOUR = 3600 * 1000;
 // A banner check older than this (since the last *successful* fetch) is treated
 // as stale even if the timeline still looks valid.
 const STALE_AFTER_MS = 36 * HOUR;
+const TRANSITION_AFTER_MS = 48 * HOUR;
 
 function toMs(v) {
   const t = v ? new Date(v).getTime() : NaN;
@@ -102,16 +103,20 @@ function computeFreshness(group, reflowed, now) {
   const lastOk = toMs(f.lastSuccessfulFetch);
   const hasCurrent = !!reflowed.current;
   const hasFuture = !!reflowed.next || (reflowed.upcoming && reflowed.upcoming.length > 0);
+  const nextStart = toMs(reflowed.next && reflowed.next.start);
+  const recentlyChecked = lastOk == null || now - lastOk <= STALE_AFTER_MS;
+  const inTransition = !hasCurrent && recentlyChecked && nextStart != null && nextStart > now && nextStart - now <= TRANSITION_AFTER_MS;
 
   let status;
   if (hasCurrent) status = 'fresh';
+  else if (inTransition) status = 'transition';
   else if (hasFuture) status = 'invalid';
   else status = 'unavailable';
 
   // Age-based downgrade only applies while we'd otherwise call it fresh.
-  if (status === 'fresh' && lastOk != null && now - lastOk > STALE_AFTER_MS) status = 'stale';
+  if ((status === 'fresh' || status === 'transition') && lastOk != null && now - lastOk > STALE_AFTER_MS) status = 'stale';
   // Never upgrade past a scraper-declared stale (e.g. a failed fetch preserved old data).
-  if (f.status === 'stale' && status === 'fresh') status = 'stale';
+  if (f.status === 'stale' && (status === 'fresh' || status === 'transition')) status = 'stale';
 
   return {
     status,
@@ -134,6 +139,7 @@ function bannerFreshnessStatus(group, now) {
 
 module.exports = {
   STALE_AFTER_MS,
+  TRANSITION_AFTER_MS,
   toMs,
   isActiveAt,
   mergeSameWindow,

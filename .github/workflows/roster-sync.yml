@@ -73,7 +73,7 @@ jobs:
 
       - name: Validate scraped data
         working-directory: Scraper
-        run: npm run validate
+        run: npm run validate:strict
 
       - name: Commit refreshed data
         run: |

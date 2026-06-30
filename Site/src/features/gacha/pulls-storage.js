@@ -142,6 +142,65 @@ window.NyxPullStore = (function () {
     });
   }
 
+  async function listSummaries(game) {
+    const db = await openDb();
+    const tx = db.transaction(META, 'readonly');
+    const store = tx.objectStore(META);
+    return new Promise((resolve, reject) => {
+      const out = [];
+      const req = store.openCursor();
+      req.onsuccess = () => {
+        const cursor = req.result;
+        if (cursor) {
+          const v = cursor.value || {};
+          if (!game || v.game === game) out.push(Object.assign({}, v));
+          cursor.continue();
+        } else {
+          out.sort((a, b) => (b.importedAt || 0) - (a.importedAt || 0));
+          resolve(out);
+        }
+      };
+      req.onerror = () => reject(req.error || new Error('cursor failed'));
+    });
+  }
+
+  async function exportGame(game) {
+    const summaries = await listSummaries(game);
+    const accounts = [];
+    for (const meta of summaries) {
+      const pulls = await loadPulls(meta.game, meta.uid);
+      accounts.push({ meta: meta, pulls: pulls });
+    }
+    return {
+      version: 1,
+      kind: 'nyx-pull-sync',
+      exportedAt: Date.now(),
+      game: game,
+      accounts: accounts,
+    };
+  }
+
+  async function importBundle(bundle, opts) {
+    if (!bundle || !Array.isArray(bundle.accounts)) throw new Error('Sync payload is not a pull-history bundle.');
+    let added = 0;
+    let skipped = 0;
+    for (const account of bundle.accounts) {
+      const meta = account.meta || {};
+      const game = meta.game || bundle.game;
+      const uid = meta.uid;
+      const pulls = account.pulls || [];
+      if (!game || !uid || !pulls.length) continue;
+      const res = await savePulls(game, uid, pulls, {
+        accountName: meta.accountName || '',
+        sourceLabel: opts && opts.sourceLabel ? opts.sourceLabel : (meta.sourceLabel || 'Pengo sync'),
+        importKind: 'sync',
+      });
+      added += res.added || 0;
+      skipped += res.skipped || 0;
+    }
+    return { added: added, skipped: skipped };
+  }
+
   async function clearImport(game, uid) {
     const db = await openDb();
     const tx = db.transaction([PULLS, META], 'readwrite');
@@ -163,6 +222,9 @@ window.NyxPullStore = (function () {
     loadPulls: loadPulls,
     loadAllUids: loadAllUids,
     loadSummary: loadSummary,
+    listSummaries: listSummaries,
+    exportGame: exportGame,
+    importBundle: importBundle,
     clearImport: clearImport,
   };
 })();

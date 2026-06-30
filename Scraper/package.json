@@ -13,6 +13,7 @@
     "codes:test": "node --test codes/tests/",
     "test": "node --test codes/tests/ banners/tests/",
     "validate": "node ./validate-data.cjs",
+    "validate:strict": "node ./validate-data.cjs --strict-freshness",
     "endfield:wiki": "node ./endfield-wiki/scrape.mjs",
     "nanoka": "node ./nanoka/scrape.mjs",
     "nanoka:gi": "node ./nanoka/scrape.mjs --game gi",

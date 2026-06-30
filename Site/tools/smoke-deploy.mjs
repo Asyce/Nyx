@@ -83,6 +83,11 @@ async function readDeployText(rel) {
   return fs.readFile(path.resolve(deployDir, rel), 'utf8');
 }
 
+async function assertNotExists(rel) {
+  const target = path.resolve(deployDir, rel);
+  if (await exists(target)) throw new Error(`${rel} should not exist in deploy output`);
+}
+
 async function checkFetch(base, route, contains, minBytes = 500) {
   const res = await fetch(base + route);
   const text = await res.text();
@@ -121,13 +126,20 @@ async function main() {
   const scriptHash = crypto.createHash('sha256').update(script).digest('hex');
   const bundle = await readDeployText('dist/game-page.bundle.js');
   const version = JSON.parse(await readDeployText('version.json'));
+  const gamePages = ['genshin.html', 'hsr.html', 'zzz.html', 'wuwa.html', 'endfield.html', 'nyx.html'];
 
   if (!scriptText.includes('Pengo Nyx')) throw new Error('pengo-pulls.ps1 is missing Pengo branding');
   if (scriptText.includes('asyce.com/asivepulled')) throw new Error('pengo-pulls.ps1 contains old helper URL');
   if (!bundle.includes(scriptHash)) throw new Error(`bundle does not contain script SHA-256 ${scriptHash}`);
   if (!bundle.includes('Quick PowerShell command')) throw new Error('bundle missing quick import method copy');
   if (!bundle.includes('Manual CSV backfill')) throw new Error('bundle missing manual CSV import copy');
+  if (!bundle.includes('Pengo encrypted sync')) throw new Error('bundle missing encrypted sync UI copy');
   if (bundle.includes('asyce.com/asivepulled')) throw new Error('bundle contains old helper URL');
+  await assertNotExists('dist/vendor');
+  for (const page of gamePages) {
+    const html = await readDeployText(page);
+    if (html.includes('dist/vendor/react')) throw new Error(`${page} still references old React vendor scripts`);
+  }
   if (!version.commit || !version.shortCommit) throw new Error('version.json is missing commit metadata');
 
   console.log('Deploy smoke passed:');

@@ -128,8 +128,42 @@ function extractDateRange(str, hourUtc) {
     }
   }
 
+  // Some Game8 schedule tables concatenate start/end cells when read as row
+  // text, e.g. "Lucy June 8, 2026 July 9, 2026". Treat the first two full
+  // date expressions as [start,end] even without an explicit separator.
+  const dateExpr = /(January|February|March|April|May|June|July|August|September|October|November|December|Jan\.?|Feb\.?|Mar\.?|Apr\.?|Jun\.?|Jul\.?|Aug\.?|Sep\.?|Oct\.?|Nov\.?|Dec\.?)\s+\d{1,2},?\s+\d{4}/gi;
+  const matches = str.match(dateExpr);
+  if (matches && matches.length >= 2) {
+    return {
+      start: tokensToIso(parseDateTokens(matches[0]), hourUtc),
+      end: tokensToIso(parseDateTokens(matches[1]), hourUtc),
+    };
+  }
+
   const tokens = parseDateTokens(str);
   return { start: null, end: tokensToIso(tokens, hourUtc) };
+}
+
+function extractWuwaAvailableRows($, hourUtc, now) {
+  const text = normalizeText($('body').text());
+  const m = text.match(/Available Convene Banners in Wuthering Waves\s+Banners\s+Start Date\s+End Date\s+([\s\S]{0,900}?)\s+Version\s+\d+\.\d+/i);
+  if (!m) return [];
+  const rows = [];
+  const month = '(January|February|March|April|May|June|July|August|September|October|November|December|Jan\\.?|Feb\\.?|Mar\\.?|Apr\\.?|Jun\\.?|Jul\\.?|Aug\\.?|Sep\\.?|Oct\\.?|Nov\\.?|Dec\\.?)';
+  const re = new RegExp('([A-Z][A-Za-z:.\' -]{1,42}?)\\s+(' + month + '\\s+\\d{1,2},?\\s+\\d{4})\\s+(' + month + '\\s+\\d{1,2},?\\s+\\d{4})', 'gi');
+  let hit;
+  while ((hit = re.exec(m[1])) !== null) {
+    const name = normalizeText(hit[1]).replace(/\s+SP$/i, '');
+    if (!isLikelyCharName(name)) continue;
+    const startText = hit[2];
+    const endText = hit[4];
+    const start = tokensToIso(parseDateTokens(startText), hourUtc);
+    const end = tokensToIso(parseDateTokens(endText), hourUtc);
+    const startMs = start ? new Date(start).getTime() : NaN;
+    const endMs = end ? new Date(end).getTime() : NaN;
+    rows.push({ name, start, end, startText, endText, active: Number.isFinite(endMs) && endMs > now && (!Number.isFinite(startMs) || startMs <= now) });
+  }
+  return rows;
 }
 
 const JUNK_PATTERN = /banner|phase|version|event|wish|warp|convene|recruit|rerun|limited|★|element|weapon|rarity|rate|guaranteed|pull|roll|reward|item|material|promo|invocation|\brank\b|\bengine\b|\bduration\b|\bfeatured\b|\binformation\b|\bresonator\b|\bstandard\b|\bcharacters\b|\bcone\b|\bcones\b|\bindelible\b/i;
@@ -821,6 +855,14 @@ function parseGame8Page(html, game) {
   }
 
   const currentData = extractFromElements($, resolvedCurrentEls);
+  if (game.id === 'wuwa') {
+    const wuwaRows = extractWuwaAvailableRows($, game.defaultHourUtc, Date.now());
+    const activeRows = wuwaRows.filter((row) => row.active);
+    if (activeRows.length) {
+      currentData.characters = activeRows.map((row) => row.name);
+      currentData.dateStrings = activeRows.map((row) => `${row.startText} - ${row.endText}`);
+    }
+  }
   const nextGroups  = splitSubsections(resolvedNextEls);
   const nextData    = extractFromElements($, nextGroups[0] ?? []);
   const upcomingData = nextGroups.slice(1).map(g => extractFromElements($, g));
@@ -837,7 +879,7 @@ function parseGame8Page(html, game) {
   // per current section so the original first-match logic is correct.
   const now = Date.now();
   function bestEndDate(ds) {
-    if (game.id === 'endfield') {
+    if (game.id === 'endfield' || game.id === 'wuwa') {
       let bestFuture = null;
       let latest = null;
       for (const d of ds) {
@@ -858,7 +900,7 @@ function parseGame8Page(html, game) {
   }
 
   function bestStartDate(ds) {
-    if (game.id === 'endfield') {
+    if (game.id === 'endfield' || game.id === 'wuwa') {
       let earliest = null;
       for (const d of ds) {
         const { start } = extractDateRange(d, game.defaultHourUtc);

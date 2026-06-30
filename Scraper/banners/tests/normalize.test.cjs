@@ -84,6 +84,34 @@ test('valid timeline but old fetch downgrades to stale', () => {
   assert.equal(out.freshness.status, 'stale');
 });
 
+test('short no-current handoff before next phase is marked as transition', () => {
+  const now = Date.parse('2026-06-30T02:00:00.000Z');
+  const group = {
+    name: 'Genshin Impact',
+    freshness: { status: 'fresh', lastSuccessfulFetch: '2026-06-30T01:00:00.000Z' },
+    current: { phase: '6.6 Phase 2', characters: [ch('Lohen')], end: '2026-06-30T00:00:00.000Z' },
+    next: { phase: '6.7 Phase 1', characters: [ch('Sandrone')], start: '2026-07-01T10:00:00.000Z', end: '2026-07-21T10:00:00.000Z' },
+    upcoming: [],
+  };
+  const out = reflowBannerGroup(group, now);
+  assert.equal(out.current, null);
+  assert.equal(out.next.characters[0].name, 'Sandrone');
+  assert.equal(out.freshness.status, 'transition');
+});
+
+test('long no-current future-only timeline remains invalid', () => {
+  const now = Date.parse('2026-06-30T02:00:00.000Z');
+  const group = {
+    name: 'Genshin Impact',
+    freshness: { status: 'fresh', lastSuccessfulFetch: '2026-06-30T01:00:00.000Z' },
+    current: null,
+    next: { phase: '6.7 Phase 1', characters: [ch('Sandrone')], start: '2026-07-05T10:00:00.000Z', end: '2026-07-21T10:00:00.000Z' },
+    upcoming: [],
+  };
+  const out = reflowBannerGroup(group, now);
+  assert.equal(out.freshness.status, 'invalid');
+});
+
 test('lastValidUpdate is preserved when current is unavailable', () => {
   const group = {
     name: 'Wuthering Waves',

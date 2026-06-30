@@ -53,7 +53,9 @@ If these disagree, follow `report-feedback-decisions-2026-06-30.md` first.
 - `Site/src/features/gacha/pulls-engine.js`
   - Game adapters, live URL import, UIGF/JSON/CSV parsers, Wuwa/Endfield import normalization.
 - `Site/src/features/gacha/pulls-storage.js`
-  - IndexedDB local storage and future sync seam.
+  - IndexedDB local storage plus export/import helpers used by encrypted sync.
+- `Site/src/features/gacha/pulls-sync.js`
+  - Browser-side encrypted pull-history sync. Derives account credentials from a user phrase, encrypts locally with Web Crypto, and talks to `/api/account/sync/*`.
 - `Site/src/features/gacha/pulls-overview.jsx`
   - Cross-game pull overview on the Nyx hub.
 - `Site/public/scripts/pengo-pulls.ps1`
@@ -62,7 +64,7 @@ If these disagree, follow `report-feedback-decisions-2026-06-30.md` first.
 ### Data and scrapers
 
 - `Scraper/validate-data.cjs`
-  - Structural data validation. Needs future strict freshness gate.
+  - Structural data validation plus `--strict-freshness` for deploy-blocking banner freshness checks.
 - `Scraper/banners/*`
   - Banner scraping, normalization, and tests.
 - `Scraper/codes/*`
@@ -79,7 +81,7 @@ If these disagree, follow `report-feedback-decisions-2026-06-30.md` first.
 - `Site/tools/generate-site-data.mjs`
   - Large generated data builder.
 - `Site/tools/build-site.mjs`
-  - Custom React UMD/global bundle build.
+  - Custom esbuild bundle. React/ReactDOM are bundled into `dist/game-page.bundle.js`; `dist/vendor` is intentionally removed.
 - `Site/tools/build-deploy.mjs`
   - Builds `.deploy/pengo`.
 - `Site/tools/inject-seo.mjs`
@@ -93,7 +95,7 @@ If these disagree, follow `report-feedback-decisions-2026-06-30.md` first.
 
 - `worker/worker.js`
   - `/api/gacha/genshin`, `/api/gacha/hsr`, `/api/gacha/zzz`, `/api/gacha/wuwa`.
-  - Account endpoints are stubbed with 501.
+  - `/api/account/sync/push`, `/api/account/sync/pull`, `/api/account/sync/status` for encrypted pull-history sync backed by the `PULL_SYNC` KV namespace.
 
 ## Current implementation direction
 
@@ -109,9 +111,8 @@ If these disagree, follow `report-feedback-decisions-2026-06-30.md` first.
 
 ### React
 
-- Do not update React just because a newer version exists.
-- Current build depends on React UMD files.
-- React 19 upgrade belongs with a future build-system migration.
+- React is currently on 19.x.
+- Do not add UMD vendor scripts back to the HTML pages. `build-site.mjs` bundles React through esbuild into `dist/game-page.bundle.js`.
 
 ### Assets/deploy artifact
 
@@ -130,6 +131,7 @@ If these disagree, follow `report-feedback-decisions-2026-06-30.md` first.
 ```powershell
 npm test
 npm run validate
+npm run validate:strict
 npm run build:deploy
 npm run smoke:deploy
 ```
@@ -148,9 +150,10 @@ Repository backup made before the 2026-06-30 implementation pass:
 1. Confirm backup exists.
 2. `git status --short`
 3. Run `npm test` in `Scraper`.
-4. Run `npm run validate` in `Scraper`.
+4. Run `npm run validate:strict` in `Scraper`.
 5. Run `npm run build:deploy` in `Site`.
 6. Run `npm run smoke:deploy` in `Site`.
-7. Commit intentionally.
-8. Push to GitHub.
-9. Deploy with Wrangler only after build passes.
+7. Run a Worker dry run or local API check when touching `worker/worker.js`.
+8. Commit intentionally.
+9. Push to GitHub.
+10. Deploy with Wrangler only after build passes.

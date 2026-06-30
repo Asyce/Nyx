@@ -424,6 +424,7 @@ function bannerFreshness(key){
 }
 
 const BANNER_FRESH_LABEL = {
+  transition:  'Banner phase transition',
   stale:       'Banner data may be out of date',
   invalid:     'Current banner unconfirmed — refreshing',
   unavailable: 'Banner data unavailable — refreshing',

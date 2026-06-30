@@ -661,6 +661,9 @@ function GachaTracker({ open, onClose, cfg, inline }){
   const [viewMode, setViewMode] = React.useState('overview');
   const [expandedSource, setExpandedSource] = React.useState('');
   const [pityFilter, setPityFilter] = React.useState('all');
+  const [syncSecret, setSyncSecret] = React.useState('');
+  const [syncStatus, setSyncStatus] = React.useState('');
+  const [syncBusy, setSyncBusy] = React.useState(false);
   const fileRef = React.useRef(null);
 
   // On mount: load real imported history from IndexedDB. Old sample/demo
@@ -762,6 +765,44 @@ function GachaTracker({ open, onClose, cfg, inline }){
     setPhase('import');
   };
 
+  const runSync = async (mode) => {
+    const SYNC = window.NyxAccountSync || null;
+    if (!SYNC || !SYNC.available || !SYNC.available()) {
+      setSyncStatus('Encrypted sync is not available in this browser.');
+      return;
+    }
+    if (!ADAPT) {
+      setSyncStatus('Sync is not available for this game yet.');
+      return;
+    }
+    setSyncBusy(true);
+    setSyncStatus(mode === 'push' ? 'Encrypting and uploading history...' : 'Downloading and decrypting history...');
+    try {
+      const result = mode === 'push'
+        ? await SYNC.pushGame(syncSecret, ADAPT.game)
+        : await SYNC.pullGame(syncSecret, ADAPT.game);
+      if (mode === 'pull') {
+        const uids = await STORE.loadAllUids(ADAPT.game);
+        if (uids && uids.length) {
+          const all = await STORE.loadPulls(ADAPT.game, uids[0]);
+          const summary = STORE.loadSummary ? await STORE.loadSummary(ADAPT.game, uids[0]) : null;
+          setData({ banners: ADAPT.buildViews(all, { cost: COST }), uid: uids[0],
+            accountName:(summary && summary.accountName) || '',
+            sourceLabel:(summary && summary.sourceLabel) || 'Pengo sync',
+            importedAt:(summary && summary.importedAt) || 0 });
+          setBannerIdx(0); setUid(uids[0]); setPhase('results');
+        }
+      }
+      setSyncStatus(mode === 'push'
+        ? `Synced ${result.accounts || 1} saved account(s) for this game.`
+        : `Restored ${fmt(result.added || 0)} new and skipped ${fmt(result.skipped || 0)} duplicate ${PULLS.toLowerCase()}.`);
+    } catch (e) {
+      setSyncStatus(String((e && e.message) || e || 'Sync failed.'));
+    } finally {
+      setSyncBusy(false);
+    }
+  };
+
   if (!inline && !open) return null;
 
   const fmt = (n) => n.toLocaleString('en-US');
@@ -859,6 +900,25 @@ function GachaTracker({ open, onClose, cfg, inline }){
               </button>
             </div>
             <p className="gt-safe-note">Live URL import sends the temporary history link through Pengo&rsquo;s Worker to the game provider, then saves only the pull records in your browser. File import is parsed locally before saving.</p>
+
+            <section className="gt-sync">
+              <div>
+                <b>Pengo encrypted sync</b>
+                <span>Use the same sync phrase on another browser or device to restore this game&rsquo;s saved history. Pengo stores only encrypted data and cannot read your pulls.</span>
+              </div>
+              <div className="gt-sync-row">
+                <input
+                  type="password"
+                  value={syncSecret}
+                  autoComplete="off"
+                  onChange={(e) => setSyncSecret(e.target.value)}
+                  placeholder="Sync phrase, at least 10 characters"
+                />
+                <button type="button" disabled={syncBusy || !syncSecret} onClick={() => runSync('push')}>Upload</button>
+                <button type="button" disabled={syncBusy || !syncSecret} onClick={() => runSync('pull')}>Restore</button>
+              </div>
+              {syncStatus && <p className="gt-sync-status">{syncStatus}</p>}
+            </section>
             {error && <div className="gt-err">{error}</div>}
             {phase === 'loading' && progress && (
               <div className="gt-prog">Importing {progress.bannerLabel}\u2026 {fmt(progress.fetched)} {PULLS.toLowerCase()}{progress.bannerTotal ? ' (' + (progress.bannerIndex + 1) + '/' + progress.bannerTotal + ')' : ''}</div>

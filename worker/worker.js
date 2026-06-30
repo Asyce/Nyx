@@ -8,7 +8,7 @@
 // Routes:
 //   POST /api/gacha/genshin|hsr|zzz   → HoYo getGachaLog proxy
 //   POST /api/gacha/wuwa              → Kuro convene-record proxy
-//   *    /api/account/*               → first-party accounts (disabled, 501)
+//   POST /api/account/sync/*          -> encrypted pull-history sync
 //   else                              → static assets (when bound)
 //
 // Privacy & abuse controls:
@@ -32,6 +32,7 @@ const TRUSTED_PAGES_PREVIEW_RE = /^https:\/\/[a-z0-9-]+\.pengo\.pages\.dev$/;
 const LOCAL_ORIGIN_RE = /^http:\/\/(?:localhost|127\.0\.0\.1)(?::\d+)?$/;
 
 const MAX_BODY_BYTES = 8192; // 8 KiB
+const MAX_ACCOUNT_BODY_BYTES = 3 * 1024 * 1024; // encrypted pull bundles
 const UPSTREAM_TIMEOUT_MS = 20_000;
 const RATE_LIMIT_PER_MIN = 60;
 
@@ -47,6 +48,7 @@ const HOYO_ALLOWED_PARAMS = new Set([
   'gacha_id', 'gacha_type', 'real_gacha_type', 'lang', 'size', 'end_id',
   'begin_id', 'region', 'game_biz', 'timestamp', 'plat_type', 'page',
 ]);
+const ACCOUNT_GAMES = new Set(['gi', 'genshin', 'hsr', 'zzz', 'wuwa', 'ae', 'endfield']);
 
 function requestId() {
   try { return crypto.randomUUID(); } catch { return 'req-' + Date.now().toString(36); }
@@ -156,6 +158,124 @@ function bodyError(request, env, kind, rid) {
   return errorResponse(request, env, { status: 400, code: 'invalid_json', message: 'Invalid JSON body.', rid });
 }
 
+async function shaHex(text) {
+  const hash = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(String(text || '')));
+  return [...new Uint8Array(hash)].map((b) => b.toString(16).padStart(2, '0')).join('');
+}
+
+function normalizeAccountGame(game) {
+  const key = String(game || '').toLowerCase();
+  if (key === 'genshin') return 'gi';
+  if (key === 'endfield') return 'ae';
+  return key;
+}
+
+function validAccountId(value) {
+  return /^[a-f0-9]{32,64}$/i.test(String(value || ''));
+}
+
+function validAccountToken(value) {
+  return /^[a-f0-9]{64}$/i.test(String(value || ''));
+}
+
+function syncStorage(env) {
+  return env && env.PULL_SYNC && typeof env.PULL_SYNC.get === 'function' && typeof env.PULL_SYNC.put === 'function'
+    ? env.PULL_SYNC
+    : null;
+}
+
+function syncKey(accountId, game) {
+  return 'pulls:v1:' + accountId + ':' + game;
+}
+
+function syncAuthKey(accountId) {
+  return 'auth:v1:' + accountId;
+}
+
+function validEncryptedPayload(payload) {
+  if (!payload || typeof payload !== 'object') return false;
+  if (payload.format !== 'nyx-pull-sync-v1') return false;
+  if (!payload.iv || !payload.ciphertext) return false;
+  if (String(payload.iv).length > 128) return false;
+  if (String(payload.ciphertext).length > MAX_ACCOUNT_BODY_BYTES) return false;
+  return true;
+}
+
+async function requireSyncAuth(request, env, store, accountId, token, rid, opts) {
+  const tokenHash = await shaHex(token);
+  const key = syncAuthKey(accountId);
+  const existing = await store.get(key, 'json');
+  if (!existing) {
+    if (!opts || !opts.create) {
+      return {
+        error: errorResponse(request, env, { status: 404, code: 'sync_not_found', message: 'No Pengo sync account exists for that phrase yet.', rid }),
+      };
+    }
+    await store.put(key, JSON.stringify({ tokenHash, createdAt: new Date().toISOString() }));
+    return { ok: true };
+  }
+  if (existing.tokenHash !== tokenHash) {
+    return {
+      error: errorResponse(request, env, { status: 403, code: 'sync_auth_failed', message: 'That sync phrase does not match this Pengo sync account.', rid }),
+    };
+  }
+  return { ok: true };
+}
+
+async function handleAccountSync(request, action, env) {
+  const rid = requestId();
+  if (!trustedOrigin(request, env)) return errorResponse(request, env, { status: 403, code: 'origin_not_allowed', message: 'Origin not allowed.', rid });
+  if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: corsHeaders(request, env) });
+  if (request.method !== 'POST') return errorResponse(request, env, { status: 405, code: 'method_not_allowed', message: 'POST a sync request body.', rid, headers: { Allow: 'POST, OPTIONS' } });
+
+  const store = syncStorage(env);
+  if (!store) return errorResponse(request, env, { status: 501, code: 'sync_not_configured', message: 'Pengo sync storage is not configured yet.', rid });
+
+  if (await rateLimited(request, env, 'account-sync:' + action)) {
+    return errorResponse(request, env, { status: 429, code: 'rate_limited', message: 'Too many sync requests. Try again in a minute.', rid, headers: { 'Retry-After': '60' } });
+  }
+
+  const parsed = await readJsonCapped(request, MAX_ACCOUNT_BODY_BYTES);
+  if (parsed.error) return bodyError(request, env, parsed.error, rid);
+  const body = parsed.payload;
+  const accountId = String(body.accountId || '').toLowerCase();
+  const token = String(body.token || '').toLowerCase();
+  const game = normalizeAccountGame(body.game);
+  if (!validAccountId(accountId)) return errorResponse(request, env, { status: 400, code: 'bad_account', message: 'Invalid sync account id.', rid });
+  if (!validAccountToken(token)) return errorResponse(request, env, { status: 400, code: 'bad_token', message: 'Invalid sync token.', rid });
+  if (!ACCOUNT_GAMES.has(game)) return errorResponse(request, env, { status: 400, code: 'bad_game', message: 'Invalid sync game.', rid });
+
+  const auth = await requireSyncAuth(request, env, store, accountId, token, rid, { create: action === 'push' });
+  if (auth.error) return auth.error;
+
+  const key = syncKey(accountId, game);
+  if (action === 'push') {
+    if (!validEncryptedPayload(body.payload)) return errorResponse(request, env, { status: 400, code: 'bad_payload', message: 'Invalid encrypted sync payload.', rid });
+    const updatedAt = new Date().toISOString();
+    const record = {
+      version: 1,
+      accountId,
+      game,
+      payload: body.payload,
+      exportedAt: Number(body.exportedAt || Date.now()),
+      updatedAt,
+      size: JSON.stringify(body.payload).length,
+    };
+    await store.put(key, JSON.stringify(record));
+    return jsonResponse(request, { ok: true, updatedAt, size: record.size }, { status: 200 }, env);
+  }
+
+  const record = await store.get(key, 'json');
+  if (!record) return errorResponse(request, env, { status: 404, code: 'sync_empty', message: 'No synced history was found for this game.', rid });
+  if (action === 'status') {
+    return jsonResponse(request, { ok: true, exists: true, updatedAt: record.updatedAt || null, exportedAt: record.exportedAt || null, size: record.size || null }, { status: 200 }, env);
+  }
+  if (action === 'pull') {
+    return jsonResponse(request, { ok: true, payload: record.payload, updatedAt: record.updatedAt || null, exportedAt: record.exportedAt || null, size: record.size || null }, { status: 200 }, env);
+  }
+  return errorResponse(request, env, { status: 404, code: 'not_found', message: 'Unknown sync action.', rid });
+}
+
 // Best-effort per-IP rate limit. Uses the GACHA_RL rate-limiting binding when
 // configured; silently no-ops when absent (e.g. local dev) so requests still work.
 async function rateLimited(request, env, bucket) {
@@ -261,9 +381,11 @@ export default {
     if (url.pathname === '/api/gacha/zzz') return handleHoyoGacha(request, 'zzz', env);
     if (url.pathname === '/api/gacha/wuwa') return handleWuwaGacha(request, env);
 
-    // First-party accounts (Phase 3b): auth + D1-backed sync land here. Disabled.
+    if (url.pathname === '/api/account/sync/push') return handleAccountSync(request, 'push', env);
+    if (url.pathname === '/api/account/sync/pull') return handleAccountSync(request, 'pull', env);
+    if (url.pathname === '/api/account/sync/status') return handleAccountSync(request, 'status', env);
     if (url.pathname.startsWith('/api/account/')) {
-      return errorResponse(request, env, { status: 501, code: 'not_implemented', message: 'Accounts are not available yet.', rid: requestId() });
+      return errorResponse(request, env, { status: 404, code: 'not_found', message: 'Unknown account endpoint.', rid: requestId() });
     }
 
     // Static assets, when an [assets] binding exists (production / full

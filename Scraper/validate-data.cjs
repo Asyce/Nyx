@@ -21,6 +21,10 @@ const { reflowBannerGroup } = require('./banners/normalize.cjs');
 const root = path.join(__dirname, '..');
 const errors = [];
 const diagnostics = [];
+const strictFreshness = process.argv.includes('--strict-freshness') ||
+  String(process.env.NYX_STRICT_BANNER_FRESHNESS || '').toLowerCase() === 'true';
+const strictAllowed = new Set(['fresh', 'transition']);
+const strictOptionalGames = new Set(['endfield']);
 
 function load(rel) {
   const p = path.join(root, 'Database', rel);
@@ -44,6 +48,9 @@ if (banners) {
     const allChars = phases.flatMap((p) => p.characters || []);
     const nameless = allChars.filter((c) => !c || !c.name).length;
     if (nameless) errors.push(`banners[${g.id || g.name}]: ${nameless} featured character(s) missing a name`);
+    if (strictFreshness && !strictAllowed.has(r.freshness.status) && !strictOptionalGames.has(String(g.id || g.name).toLowerCase())) {
+      errors.push(`banners[${g.id || g.name}]: freshness is ${r.freshness.status}; expected fresh or transition`);
+    }
     diagnostics.push(
       `banner ${String(g.id || g.name).padEnd(9)} ${r.freshness.status.padEnd(12)}` +
         ` current=${r.current ? r.current.characters.length : 0}` +

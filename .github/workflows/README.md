@@ -5,15 +5,16 @@ Three scheduled jobs keep pengo.gg fresh and deploy automatically.
 | Workflow | Cadence | What it does |
 |---|---|---|
 | `code-watch.yml` | hourly, plus half-hour checks during detected livestream windows | detect official livestream windows -> active-code-only scrape -> semantic diff -> validate -> commit -> build -> smoke -> deploy only when codes changed |
-| `data-refresh.yml` | every 6h | scrape banners + codes -> unit tests -> validate -> commit `Database/` -> build -> smoke -> deploy |
-| `roster-sync.yml` | daily | scrape rosters/materials/titles (`--skip-assets`) + banners + codes -> validate -> commit `Database/` -> build -> smoke -> deploy |
+| `data-refresh.yml` | every 6h | scrape banners + codes -> unit tests -> strict validate -> commit `Database/` -> build -> smoke -> deploy |
+| `roster-sync.yml` | daily | scrape rosters/materials/titles (`--skip-assets`) + banners + codes -> strict validate -> commit `Database/` -> build -> smoke -> deploy |
 
 Before any deploy:
-- `data-refresh.yml` runs `Scraper` unit tests (`npm test`) and the structural data gate (`npm run validate`).
-- `roster-sync.yml` and `code-watch.yml` run the structural data gate (`npm run validate`).
+- `data-refresh.yml` runs `Scraper` unit tests (`npm test`) and the strict data gate (`npm run validate:strict`), which fails deploys when required banner data is stale, invalid, or unavailable.
+- `roster-sync.yml` runs the same strict data gate (`npm run validate:strict`).
+- `code-watch.yml` runs the structural data gate (`npm run validate`) because it is a fast codes-only deploy path and does not refresh banners.
 - A failure stops the run, so the already-live last-known-good is preserved.
 - Refreshed data is committed before the deploy step, so the deployed site maps back to a Git commit.
-- `Site` runs `npm run smoke:deploy` after `build:deploy` and before Wrangler deploy. It checks clean routes, key assets, import-helper copy, script checksum, and `version.json`.
+- `Site` runs `npm run smoke:deploy` after `build:deploy` and before Wrangler deploy. It checks clean routes, key assets, import-helper copy, encrypted sync UI, bundled React output, script checksum, and `version.json`.
 - The deploy step is skipped automatically when no Cloudflare token is configured.
 
 `code-watch.yml` is intentionally lighter than the full refresh:

@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-06-30T10:16:50.677Z",
+  "generatedAt": "2026-06-30T15:13:09.622Z",
   "providers": {
     "Prydwen": "2026-06-30T08:43:18.819Z",
     "Nanoka": {
@@ -16,7 +16,7 @@ var NYX_DB = {
     "EndfieldWiki": "2026-06-30T08:45:17.150Z"
   },
   "codes": {
-    "updated": "2026-06-30T10:00:32.371Z",
+    "updated": "2026-06-30T14:42:38.902Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -334,16 +334,16 @@ var NYX_DB = {
     }
   },
   "banners": {
-    "updated": "2026-06-30T10:05:20.335Z",
-    "checkedAt": "2026-06-30T10:05:20.335Z",
+    "updated": "2026-06-30T15:11:59.831Z",
+    "checkedAt": "2026-06-30T15:11:59.831Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-06-30T10:05:20.335Z",
-          "lastSuccessfulFetch": "2026-06-30T10:05:20.335Z",
-          "lastValidUpdate": "2026-06-30T10:05:20.335Z",
+          "checkedAt": "2026-06-30T15:11:59.831Z",
+          "lastSuccessfulFetch": "2026-06-30T15:11:59.831Z",
+          "lastValidUpdate": "2026-06-30T15:11:59.831Z",
           "source": "game8"
         },
         "current": {
@@ -396,9 +396,9 @@ var NYX_DB = {
       "gi": {
         "name": "Genshin Impact",
         "freshness": {
-          "status": "invalid",
-          "checkedAt": "2026-06-30T10:05:20.335Z",
-          "lastSuccessfulFetch": "2026-06-30T10:05:20.335Z",
+          "status": "transition",
+          "checkedAt": "2026-06-30T15:11:59.831Z",
+          "lastSuccessfulFetch": "2026-06-30T15:11:59.831Z",
           "lastValidUpdate": null,
           "source": "game8"
         },
@@ -452,13 +452,56 @@ var NYX_DB = {
       "wuwa": {
         "name": "Wuthering Waves",
         "freshness": {
-          "status": "invalid",
-          "checkedAt": "2026-06-30T10:05:20.335Z",
-          "lastSuccessfulFetch": "2026-06-30T10:05:20.335Z",
-          "lastValidUpdate": null,
+          "status": "fresh",
+          "checkedAt": "2026-06-30T15:11:59.831Z",
+          "lastSuccessfulFetch": "2026-06-30T15:11:59.831Z",
+          "lastValidUpdate": "2026-06-30T15:11:59.831Z",
           "source": "game8"
         },
-        "current": null,
+        "current": {
+          "phase": null,
+          "start": null,
+          "end": "2026-07-09T10:00:00.000Z",
+          "characters": [
+            {
+              "name": "Lucy",
+              "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_68_UI.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/Prydwen/ww/assets/characters/lucy-9479ec44b129.webp",
+              "namecard": null,
+              "rarity": 5
+            },
+            {
+              "name": "Rebecca",
+              "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_69_UI.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/Prydwen/ww/assets/characters/rebecca-7d52d26dbc84.webp",
+              "namecard": null,
+              "rarity": 5
+            },
+            {
+              "name": "Lucilla",
+              "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_66_UI.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/Prydwen/ww/assets/characters/lucilla-645cef8d92d9.webp",
+              "namecard": null,
+              "rarity": 5
+            },
+            {
+              "name": "Cartethyia",
+              "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_40_UI.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/Prydwen/ww/assets/characters/cartethyia-0aab3b75d895.webp",
+              "namecard": null,
+              "rarity": 5
+            }
+          ],
+          "subBanners": []
+        },
         "next": {
           "phase": null,
           "start": "2026-07-10T10:00:00.000Z",
@@ -598,9 +641,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-06-30T10:05:20.335Z",
-          "lastSuccessfulFetch": "2026-06-30T10:05:20.335Z",
-          "lastValidUpdate": "2026-06-30T10:05:20.335Z",
+          "checkedAt": "2026-06-30T15:11:59.831Z",
+          "lastSuccessfulFetch": "2026-06-30T15:11:59.831Z",
+          "lastValidUpdate": "2026-06-30T15:11:59.831Z",
           "source": "game8"
         },
         "current": {
@@ -661,8 +704,8 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "unavailable",
-          "checkedAt": "2026-06-30T10:05:20.335Z",
-          "lastSuccessfulFetch": "2026-06-30T10:05:20.335Z",
+          "checkedAt": "2026-06-30T15:11:59.831Z",
+          "lastSuccessfulFetch": "2026-06-30T15:11:59.831Z",
           "lastValidUpdate": null,
           "source": "game8"
         },
@@ -4400,9 +4443,9 @@ var NYX_DB = {
       "banners": {
         "name": "Genshin Impact",
         "freshness": {
-          "status": "invalid",
-          "checkedAt": "2026-06-30T10:05:20.335Z",
-          "lastSuccessfulFetch": "2026-06-30T10:05:20.335Z",
+          "status": "transition",
+          "checkedAt": "2026-06-30T15:11:59.831Z",
+          "lastSuccessfulFetch": "2026-06-30T15:11:59.831Z",
           "lastValidUpdate": null,
           "source": "game8"
         },
@@ -9624,9 +9667,9 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-06-30T10:05:20.335Z",
-          "lastSuccessfulFetch": "2026-06-30T10:05:20.335Z",
-          "lastValidUpdate": "2026-06-30T10:05:20.335Z",
+          "checkedAt": "2026-06-30T15:11:59.831Z",
+          "lastSuccessfulFetch": "2026-06-30T15:11:59.831Z",
+          "lastValidUpdate": "2026-06-30T15:11:59.831Z",
           "source": "game8"
         },
         "current": {
@@ -13265,9 +13308,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-06-30T10:05:20.335Z",
-          "lastSuccessfulFetch": "2026-06-30T10:05:20.335Z",
-          "lastValidUpdate": "2026-06-30T10:05:20.335Z",
+          "checkedAt": "2026-06-30T15:11:59.831Z",
+          "lastSuccessfulFetch": "2026-06-30T15:11:59.831Z",
+          "lastValidUpdate": "2026-06-30T15:11:59.831Z",
           "source": "game8"
         },
         "current": {
@@ -17535,13 +17578,56 @@ var NYX_DB = {
       "banners": {
         "name": "Wuthering Waves",
         "freshness": {
-          "status": "invalid",
-          "checkedAt": "2026-06-30T10:05:20.335Z",
-          "lastSuccessfulFetch": "2026-06-30T10:05:20.335Z",
-          "lastValidUpdate": null,
+          "status": "fresh",
+          "checkedAt": "2026-06-30T15:11:59.831Z",
+          "lastSuccessfulFetch": "2026-06-30T15:11:59.831Z",
+          "lastValidUpdate": "2026-06-30T15:11:59.831Z",
           "source": "game8"
         },
-        "current": null,
+        "current": {
+          "phase": null,
+          "start": null,
+          "end": "2026-07-09T10:00:00.000Z",
+          "characters": [
+            {
+              "name": "Lucy",
+              "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_68_UI.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/Prydwen/ww/assets/characters/lucy-9479ec44b129.webp",
+              "namecard": null,
+              "rarity": 5
+            },
+            {
+              "name": "Rebecca",
+              "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_69_UI.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/Prydwen/ww/assets/characters/rebecca-7d52d26dbc84.webp",
+              "namecard": null,
+              "rarity": 5
+            },
+            {
+              "name": "Lucilla",
+              "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_66_UI.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/Prydwen/ww/assets/characters/lucilla-645cef8d92d9.webp",
+              "namecard": null,
+              "rarity": 5
+            },
+            {
+              "name": "Cartethyia",
+              "icon": "../../Database/Nanoka/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_40_UI.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/Prydwen/ww/assets/characters/cartethyia-0aab3b75d895.webp",
+              "namecard": null,
+              "rarity": 5
+            }
+          ],
+          "subBanners": []
+        },
         "next": {
           "phase": null,
           "start": "2026-07-10T10:00:00.000Z",
@@ -21882,8 +21968,8 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "unavailable",
-          "checkedAt": "2026-06-30T10:05:20.335Z",
-          "lastSuccessfulFetch": "2026-06-30T10:05:20.335Z",
+          "checkedAt": "2026-06-30T15:11:59.831Z",
+          "lastSuccessfulFetch": "2026-06-30T15:11:59.831Z",
           "lastValidUpdate": null,
           "source": "game8"
         },

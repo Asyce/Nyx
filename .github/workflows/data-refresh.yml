@@ -73,7 +73,7 @@ jobs:
       # commit/deploy, so the already-live last-known-good is preserved.
       - name: Validate scraped data
         working-directory: Scraper
-        run: npm run validate
+        run: npm run validate:strict
 
       - name: Commit refreshed data
         run: |

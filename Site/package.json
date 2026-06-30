@@ -18,8 +18,8 @@
     "serve": "python -m http.server 5173 --bind 127.0.0.1 --directory .."
   },
   "dependencies": {
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
   },
   "devDependencies": {
     "esbuild": "^0.28.1"

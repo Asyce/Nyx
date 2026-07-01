@@ -1105,15 +1105,20 @@ async function main() {
     const old = existingById[game.id];
 
     if (!scraped) {
-      // Preserve old entry unchanged; mark it as stale
+      // Preserve old entry unchanged. Keep the last successful fetch timestamp
+      // so normalize.cjs can decide whether the preserved timeline is still
+      // fresh enough; a transient source failure should not instantly stale
+      // otherwise-valid banner data.
       if (old) {
+        const priorFreshness = old.freshness || {};
         console.warn(`[${game.id}] Using preserved data from last successful scrape`);
         updatedGames.push({
           ...old,
           freshness: {
-            status: 'stale',
+            ...priorFreshness,
+            status: priorFreshness.status || 'stale',
             checkedAt,
-            lastSuccessfulFetch: old.freshness?.lastSuccessfulFetch || old.lastSuccessfulFetch || existing.updated || null,
+            lastSuccessfulFetch: priorFreshness.lastSuccessfulFetch || old.lastSuccessfulFetch || existing.updated || null,
             message: 'This game failed to scrape during the latest banner check; preserved previous data.'
           }
         });
@@ -1215,7 +1220,8 @@ async function main() {
   // Honest freshness: derive each game's status from its actual timeline so an
   // expired or empty banner can't be stamped "fresh" merely because the HTTP
   // fetch succeeded (see banners/normalize.cjs). Games preserved from a failed
-  // scrape keep their 'stale' marker.
+  // scrape keep their prior lastSuccessfulFetch, so a brief source outage does
+  // not stale otherwise-valid data immediately.
   const freshNow = new Date(checkedAt).getTime();
   for (const game of updatedGames) {
     if (game && game.freshness) game.freshness.status = bannerFreshnessStatus(game, freshNow);

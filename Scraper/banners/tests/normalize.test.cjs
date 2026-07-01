@@ -84,6 +84,24 @@ test('valid timeline but old fetch downgrades to stale', () => {
   assert.equal(out.freshness.status, 'stale');
 });
 
+test('preserved data from a transient source failure stays fresh until the age gate', () => {
+  const group = {
+    name: 'Honkai: Star Rail',
+    freshness: {
+      status: 'fresh',
+      checkedAt: '2026-06-24T02:00:00.000Z',
+      lastSuccessfulFetch: '2026-06-24T01:00:00.000Z',
+      message: 'This game failed to scrape during the latest banner check; preserved previous data.',
+    },
+    current: { phase: '4.3', characters: [ch('Gilgamesh')], end: '2026-06-30T16:00:00.000Z' },
+    next: null,
+    upcoming: [],
+  };
+  const out = reflowBannerGroup(group, NOW);
+  assert.equal(out.freshness.status, 'fresh');
+  assert.equal(out.freshness.message, group.freshness.message);
+});
+
 test('short no-current handoff before next phase is marked as transition', () => {
   const now = Date.parse('2026-06-30T02:00:00.000Z');
   const group = {

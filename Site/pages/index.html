@@ -14,6 +14,7 @@
     --accent-bright:#b7aaff;
     --accent-glow:rgba(139,123,255,.6);
     --glow:1;
+    --spin:480s;
     --tx:#f3f0ff;
   }
   *{ box-sizing:border-box; margin:0; padding:0; }
@@ -28,26 +29,30 @@
   }
   /* ===== full-viewport background stack ===== */
   .page-bg{
-    position:fixed; inset:0; z-index:0; overflow:hidden;
-    background:#05030b;
-  }
-  .page-bg::before{
-    content:""; position:absolute; inset:-7vmax; z-index:0; pointer-events:none;
-    background:url("../assets/bg/backgroundnyx.png") 50% 48%/118% auto no-repeat;
-    filter:brightness(.42) saturate(1.18) hue-rotate(18deg) contrast(1.08);
+    position:fixed; inset:-6vmax; z-index:0;
+    background:#05040b url('../assets/bg/backgroundnyx.png') 50% 46%/112% auto no-repeat;
+    filter:brightness(.62) saturate(1.03) contrast(1.02);
     transform:scale(1.025);
-    opacity:.9;
+    transform-origin:center center;
   }
-  .page-bg::after{
-    content:""; position:absolute; inset:0; z-index:2; pointer-events:none;
-    background:
-      radial-gradient(ellipse at 50% 112%, rgba(92,70,178,.2) 0%, rgba(58,39,134,.1) 28%, transparent 58%),
-      linear-gradient(180deg, rgba(2,2,10,.08) 0%, transparent 42%, rgba(5,3,18,.18) 100%);
-    mix-blend-mode:screen;
+  .page-pattern{
+    position:fixed; top:50%; left:50%; width:150vmax; height:150vmax; z-index:1;
+    transform:translate(-50%,-50%) rotate(0deg); transform-origin:center center;
+    background:url('../assets/decor/pattern.png') center/84% no-repeat;
+    mix-blend-mode:screen; opacity:.2; pointer-events:none;
+    animation:spinPattern var(--spin) linear infinite;
   }
-  .cosmic-bg{ position:absolute; inset:0; z-index:1; width:100%; height:100%; display:block; opacity:.72; }
+  :root.no-motion .page-pattern{ animation-play-state:paused; }
+  @keyframes spinPattern{ from{ transform:translate(-50%,-50%) rotate(0deg); } to{ transform:translate(-50%,-50%) rotate(360deg); } }
   @keyframes rot{ from{ transform:rotate(0deg); } to{ transform:rotate(360deg); } }
   @keyframes chainloop{ from{ offset-distance:0%; } to{ offset-distance:100%; } }
+  .page-vignette{
+    position:fixed; inset:0; z-index:2; pointer-events:none;
+    background:
+      radial-gradient(120% 90% at 50% 8%, rgba(120,96,200,.18), transparent 46%),
+      radial-gradient(140% 120% at 50% 120%, rgba(70,48,140,.30), transparent 55%),
+      linear-gradient(180deg, rgba(5,4,11,.55) 0%, rgba(5,4,11,0) 24%, rgba(5,4,11,0) 62%, rgba(5,4,11,.78) 100%);
+  }
 
   /* ===== scaling stage ===== */
   .stage-wrap{ position:fixed; inset:0; z-index:3; display:grid; place-items:center; overflow:hidden; }
@@ -189,8 +194,7 @@
   :root.no-motion .col.sim:hover .ballvibe{ animation:none; }
 
   @media (prefers-reduced-motion: reduce){
-    .cosmic-bg{ opacity:.9; }
-    .lk, .fx, .ringA, .ringB, .elayer.drips, .hd-eye .drop{ animation:none; }
+    .page-pattern, .lk, .fx, .ringA, .ringB, .elayer.drips, .hd-eye .drop{ animation:none; }
   }
 
   /* screen-reader / crawler label — the cards stay imagery-only for sighted
@@ -234,217 +238,23 @@
       </g>
     </svg>
   </template>
-  <div class="page-bg" aria-hidden="true">
-    <canvas id="cosmicBg" class="cosmic-bg"></canvas>
-  </div>
+  <div class="page-bg"></div>
   <script>
     (function(){
-      var canvas = document.getElementById('cosmicBg');
-      if (!canvas) return;
-      var ctx = canvas.getContext('2d', { alpha:true });
-      if (!ctx) return;
-
-      var motionQuery = window.matchMedia ? window.matchMedia('(prefers-reduced-motion: reduce)') : { matches:false };
-      var reducedMotion = !!motionQuery.matches;
-      var dpr = 1, w = 1, h = 1, raf = 0, resizeRaf = 0;
-      var stars = [], glints = [], wisps = [];
-
-      function rng(seed){
-        return function(){
-          seed |= 0;
-          seed = seed + 0x6D2B79F5 | 0;
-          var t = Math.imul(seed ^ seed >>> 15, 1 | seed);
-          t ^= t + Math.imul(t ^ t >>> 7, 61 | t);
-          return ((t ^ t >>> 14) >>> 0) / 4294967296;
-        };
-      }
-      function pick(rand, list){ return list[Math.floor(rand() * list.length)]; }
-      function wrap(value, min, max){
-        var range = max - min;
-        return ((((value - min) % range) + range) % range) + min;
-      }
-      function rgba(c, a){ return 'rgba(' + c.r + ',' + c.g + ',' + c.b + ',' + a + ')'; }
-
-      function buildField(){
-        var rand = rng(9127 + Math.round(w * 3.1) + Math.round(h * 5.7));
-        var starColors = [
-          { r:239, g:244, b:255 },
-          { r:210, g:222, b:255 },
-          { r:184, g:186, b:255 },
-          { r:159, g:126, b:255 }
-        ];
-        var hazeColors = [
-          { r:91, g:83, b:210 },
-          { r:126, g:80, b:222 },
-          { r:61, g:93, b:196 }
-        ];
-        var area = w * h;
-        var starCount = Math.max(190, Math.min(520, Math.round(area / 4100)));
-        var glintCount = Math.max(24, Math.min(88, Math.round(area / 24000)));
-
-        stars = [];
-        for (var i = 0; i < starCount; i++){
-          var depth = .25 + rand() * .95;
-          stars.push({
-            x: rand() * w,
-            y: rand() * h,
-            r: (.22 + rand() * 1.25) * depth,
-            depth: depth,
-            phase: rand() * Math.PI * 2,
-            pulse: .55 + rand() * 1.35,
-            driftX: (-1.8 + rand() * 3.6) * depth,
-            driftY: (.18 + rand() * 1.15) * depth,
-            alpha: .24 + rand() * .68,
-            color: pick(rand, starColors)
-          });
-        }
-
-        glints = [];
-        for (var j = 0; j < glintCount; j++){
-          glints.push({
-            x: rand() * w,
-            y: rand() * h,
-            r: 1.1 + rand() * 3.6,
-            speedX: (-.55 + rand() * 1.1),
-            speedY: (-.25 + rand() * .5),
-            pulse: .35 + rand() * .9,
-            phase: rand() * Math.PI * 2,
-            alpha: .045 + rand() * .11,
-            color: pick(rand, starColors)
-          });
-        }
-
-        wisps = [];
-        for (var k = 0; k < 8; k++){
-          wisps.push({
-            x: (.08 + rand() * .84) * w,
-            y: (.12 + rand() * .86) * h,
-            radius: Math.max(w, h) * (.16 + rand() * .24),
-            phase: rand() * Math.PI * 2,
-            speed: .06 + rand() * .1,
-            sway: 8 + rand() * 28,
-            alpha: .022 + rand() * .04,
-            color: pick(rand, hazeColors)
-          });
-        }
-      }
-
-      function drawNebula(t){
-        ctx.save();
-        ctx.globalCompositeOperation = 'screen';
-        for (var i = 0; i < wisps.length; i++){
-          var n = wisps[i];
-          var drift = reducedMotion ? 0 : Math.sin(t * n.speed + n.phase) * n.sway;
-          var x = n.x + drift;
-          var y = n.y + drift * .28;
-          var r = n.radius * (reducedMotion ? 1 : 1 + Math.sin(t * n.speed * .7 + n.phase) * .025);
-          var grad = ctx.createRadialGradient(x, y, 0, x, y, r);
-          grad.addColorStop(0, rgba(n.color, n.alpha));
-          grad.addColorStop(.46, rgba(n.color, n.alpha * .45));
-          grad.addColorStop(1, rgba(n.color, 0));
-          ctx.fillStyle = grad;
-          ctx.beginPath();
-          ctx.arc(x, y, r, 0, Math.PI * 2);
-          ctx.fill();
-        }
-        ctx.restore();
-      }
-
-      function drawGlints(t){
-        ctx.save();
-        ctx.globalCompositeOperation = 'screen';
-        for (var i = 0; i < glints.length; i++){
-          var p = glints[i];
-          var shimmer = reducedMotion ? .72 : .58 + Math.sin(t * p.pulse + p.phase) * .28;
-          var x = wrap(p.x + (reducedMotion ? 0 : t * p.speedX), -8, w + 8);
-          var y = wrap(p.y + (reducedMotion ? 0 : t * p.speedY), -8, h + 8);
-          var r = p.r * shimmer;
-          var grad = ctx.createRadialGradient(x, y, 0, x, y, r * 5.2);
-          grad.addColorStop(0, rgba(p.color, p.alpha * shimmer));
-          grad.addColorStop(.35, rgba(p.color, p.alpha * .36 * shimmer));
-          grad.addColorStop(1, rgba(p.color, 0));
-          ctx.fillStyle = grad;
-          ctx.beginPath();
-          ctx.arc(x, y, r * 5.2, 0, Math.PI * 2);
-          ctx.fill();
-        }
-        ctx.restore();
-      }
-
-      function drawStars(t){
-        ctx.save();
-        ctx.globalCompositeOperation = 'screen';
-        for (var i = 0; i < stars.length; i++){
-          var s = stars[i];
-          var twinkle = reducedMotion ? .86 : .72 + Math.sin(t * s.pulse + s.phase) * .28;
-          var alpha = Math.max(.08, s.alpha * twinkle);
-          var x = wrap(s.x + (reducedMotion ? 0 : t * s.driftX), -6, w + 6);
-          var y = wrap(s.y + (reducedMotion ? 0 : t * s.driftY), -6, h + 6);
-          if (s.r > .85){
-            var halo = ctx.createRadialGradient(x, y, 0, x, y, s.r * 5.5);
-            halo.addColorStop(0, rgba(s.color, alpha * .22));
-            halo.addColorStop(1, rgba(s.color, 0));
-            ctx.fillStyle = halo;
-            ctx.beginPath();
-            ctx.arc(x, y, s.r * 5.5, 0, Math.PI * 2);
-            ctx.fill();
-          }
-          ctx.fillStyle = rgba(s.color, alpha);
-          ctx.beginPath();
-          ctx.arc(x, y, Math.max(.24, s.r), 0, Math.PI * 2);
-          ctx.fill();
-        }
-        ctx.restore();
-      }
-
-      function draw(now){
-        var t = (now || 0) * .001;
-        ctx.clearRect(0, 0, w, h);
-        drawNebula(t);
-        drawGlints(t);
-        drawStars(t);
-      }
-
-      function frame(now){
-        draw(now);
-        if (!reducedMotion && !document.hidden) raf = requestAnimationFrame(frame);
-      }
-
-      function start(){
-        cancelAnimationFrame(raf);
-        raf = 0;
-        frame(performance.now());
-      }
-
-      function resize(){
-        var rect = canvas.getBoundingClientRect();
-        w = Math.max(1, Math.round(rect.width || window.innerWidth || 1));
-        h = Math.max(1, Math.round(rect.height || window.innerHeight || 1));
-        dpr = Math.min(2, window.devicePixelRatio || 1);
-        canvas.width = Math.round(w * dpr);
-        canvas.height = Math.round(h * dpr);
-        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-        buildField();
-        start();
-      }
-
-      window.addEventListener('resize', function(){
-        cancelAnimationFrame(resizeRaf);
-        resizeRaf = requestAnimationFrame(resize);
-      });
-      document.addEventListener('visibilitychange', function(){
-        if (document.hidden) cancelAnimationFrame(raf);
-        else start();
-      });
-      if (motionQuery.addEventListener) {
-        motionQuery.addEventListener('change', function(e){
-          reducedMotion = !!e.matches;
-          start();
-        });
-      }
-      resize();
+      var bg = document.querySelector('.page-bg');
+      if (!bg) return;
+      function rnd(min, max){ return min + Math.random() * (max - min); }
+      var zoom = Math.round(rnd(106, 118));
+      var x = Math.round(rnd(28, 72));
+      var y = Math.round(rnd(24, 76));
+      var flip = Math.random() < .5 ? -1 : 1;
+      bg.style.backgroundPosition = x + '% ' + y + '%';
+      bg.style.backgroundSize = zoom + '% auto';
+      bg.style.transform = 'scaleX(' + flip + ') scale(1.025) rotate(' + rnd(-3.5, 3.5).toFixed(2) + 'deg)';
     })();
   </script>
+  <div class="page-pattern"></div>
+  <div class="page-vignette"></div>
 
   <div class="stage-wrap">
     <div class="stage" id="stage">

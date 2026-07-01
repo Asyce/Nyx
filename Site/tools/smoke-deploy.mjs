@@ -138,13 +138,12 @@ async function main() {
   if (!bundle.includes('Manual CSV backfill')) throw new Error('bundle missing manual CSV import copy');
   if (!bundle.includes('Pengo encrypted sync')) throw new Error('bundle missing encrypted sync UI copy');
   if (bundle.includes('asyce.com/asivepulled')) throw new Error('bundle contains old helper URL');
-  if (!indexHtml.includes('id="cosmicBg"')) throw new Error('index page missing procedural cosmic canvas');
-  if (!indexHtml.includes('function drawStars')) throw new Error('index page missing procedural starfield renderer');
-  if (!indexHtml.includes('function drawGlints')) throw new Error('index page missing soft glint renderer');
+  if (!indexHtml.includes('class="page-bg"')) throw new Error('index page missing restored background layer');
+  if (!indexHtml.includes('page-pattern')) throw new Error('index page missing restored pattern background');
+  if (!indexHtml.includes('page-vignette')) throw new Error('index page missing restored vignette background');
   if (indexHtml.includes('<video') || indexHtml.includes('index-bg.webm') || indexHtml.includes('index-bg-poster.webp')) throw new Error('index page still references video background assets');
-  if (!indexHtml.includes('../assets/bg/backgroundnyx.png')) throw new Error('index page missing filtered Nyx background');
-  if (indexHtml.includes('page-pattern') || indexHtml.includes('page-vignette')) throw new Error('index page still includes old background overlays');
-  if (indexHtml.includes('lineTo(') || indexHtml.includes('drawDust')) throw new Error('index page still includes line-like background particles');
+  if (!indexHtml.includes("../assets/bg/backgroundnyx.png")) throw new Error('index page missing Nyx background asset');
+  if (indexHtml.includes('id="cosmicBg"') || indexHtml.includes('function drawStars') || indexHtml.includes('function drawGlints')) throw new Error('index page still includes procedural cosmic background');
   await assertNotExists('assets/bg/index-bg.webm');
   await assertNotExists('assets/bg/index-bg-poster.webp');
   await assertNotExists('dist/vendor');

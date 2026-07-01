@@ -1,10 +1,10 @@
 {
   "provider": "Prydwen",
   "game": "hsr",
-  "generatedAt": "2026-06-30T08:43:18.819Z",
+  "generatedAt": "2026-07-01T09:00:25.858Z",
   "summary": {
     "records": {
-      "added": 0,
+      "added": 2,
       "removed": 0,
       "changed": 1,
       "unchanged": 92
@@ -12,20 +12,33 @@
   },
   "sections": {
     "records": {
-      "added": [],
+      "added": [
+        {
+          "id": "characters:aventurine-waveflair",
+          "name": "Aventurine Waveflair",
+          "previousHash": null,
+          "currentHash": "0f242e0b4536cae064f1098249c38dbe74cc63400d73822a787a9d382614ff4b"
+        },
+        {
+          "id": "characters:robin-summeretto",
+          "name": "Robin Summeretto",
+          "previousHash": null,
+          "currentHash": "33bcf23c135c65aac383a1f81b88232d648b930681bda5cb8a8fe4974e00d5ec"
+        }
+      ],
       "removed": [],
       "changed": [
         {
-          "id": "characters:aventurine",
-          "name": "Aventurine",
-          "previousHash": "edb1e90fd34b0fe62b757598ac351f7f96a260fdefbd5db1406633d9df785d07",
-          "currentHash": "d5fc0a0a72d3fd6f786883a1ff745f8301fc83b27f8ec47ceef6a6efcda2aff2"
+          "id": "collection:characters",
+          "name": "Honkai Star Rail Characters & Build Guides",
+          "previousHash": "7bb6ab93aac88ec8984056549efc3e1166e210f2f3fc4d6e51d5cd2a335660ec",
+          "currentHash": "53a2b3bd7daead43a09d1b7e4e8fbc2dddddf100c8feda85998adc31d8ccc3ef"
         }
       ],
       "unchanged": 92,
       "totals": {
         "previous": 93,
-        "current": 93
+        "current": 95
       }
     }
   }

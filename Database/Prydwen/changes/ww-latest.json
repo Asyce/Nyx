@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "ww",
-  "generatedAt": "2026-06-30T08:43:18.819Z",
+  "generatedAt": "2026-07-01T09:00:25.858Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 3,
-      "unchanged": 60
+      "changed": 4,
+      "unchanged": 59
     }
   },
   "sections": {
@@ -18,23 +18,29 @@
         {
           "id": "characters:brant",
           "name": "Brant",
-          "previousHash": "cedd0e9dd32ce8d8ea1347be1b4700ee54be8d4f3f5c73acaaa950d0440aafad",
-          "currentHash": "9823074c7170aa4e5be1593cdd89a8ec031bad66aa25fdbf3274d971f8c97cf1"
+          "previousHash": "9823074c7170aa4e5be1593cdd89a8ec031bad66aa25fdbf3274d971f8c97cf1",
+          "currentHash": "cedd0e9dd32ce8d8ea1347be1b4700ee54be8d4f3f5c73acaaa950d0440aafad"
+        },
+        {
+          "id": "characters:cantarella",
+          "name": "Cantarella",
+          "previousHash": "e16ff36ec097352f86ba69d533927eeb5adbdf01d07815156ea90d07a92f7bcd",
+          "currentHash": "c4089b9dcad7ea5deea7753b9fb1e134fbef5374a4be9dd227e53c97f15c8a4c"
         },
         {
           "id": "characters:carlotta",
           "name": "Carlotta",
-          "previousHash": "03a89df1ae3b0d085cf445d75b938576feb64fe4111e235672772f0688d846dd",
-          "currentHash": "337323187d36eca6b2105a345c3645dcb0c0b74918d463f170d386de36f6d9c4"
+          "previousHash": "337323187d36eca6b2105a345c3645dcb0c0b74918d463f170d386de36f6d9c4",
+          "currentHash": "03a89df1ae3b0d085cf445d75b938576feb64fe4111e235672772f0688d846dd"
         },
         {
-          "id": "characters:qingxiao",
-          "name": "Qingxiao",
-          "previousHash": "fde2058446d3143e0d17a1bfaa76be4cac9aa72ed3370b403566dce1cd2225b8",
-          "currentHash": "f6f904db7d805461023a2878565725f6fb84c1f2cad8336fdb048b404422eee8"
+          "id": "characters:yangyang",
+          "name": "Yangyang",
+          "previousHash": "574a6c57d44bd07776b116bde7e2fade69dbb732af765a2d829859261d942711",
+          "currentHash": "7374bfecd515bbfff01b1b79442db7163e38dc95c5343fb2acf8f0b9d77760a9"
         }
       ],
-      "unchanged": 60,
+      "unchanged": 59,
       "totals": {
         "previous": 63,
         "current": 63

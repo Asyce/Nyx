@@ -1,6 +1,6 @@
 {
   "game": "hsr",
-  "updatedAt": "2026-06-30T08:43:18.819Z",
+  "updatedAt": "2026-07-01T09:00:25.858Z",
   "hashes": {
     "records": {
       "characters:acheron": "abd953055aca2791939469f04b2a411b3102a3f04b5e9d9cc333f662c0356009",
@@ -12,6 +12,7 @@
       "characters:ashveil": "475c11d19be858eec135f1a17687e2fb63d3849ca8417038b833d2984a7c7ce0",
       "characters:asta": "862073437a3f931e96a8c032f3485cd04495a2b0a25e30e59ad070b3ee939bcc",
       "characters:aventurine": "d5fc0a0a72d3fd6f786883a1ff745f8301fc83b27f8ec47ceef6a6efcda2aff2",
+      "characters:aventurine-waveflair": "0f242e0b4536cae064f1098249c38dbe74cc63400d73822a787a9d382614ff4b",
       "characters:bailu": "ede670a9e64e913985d7348ce65f7220c1ac26c7ebba556205ff2e427e3138e4",
       "characters:black-swan": "3cc257958e443175ef0dba7744dcf979e673a628012be2087ff7fb87abe12b57",
       "characters:blade": "9b2500aa84c094fc5b587044d0c5bfaf1167ff3d78b904368fe9c13d517f5be8",
@@ -65,6 +66,7 @@
       "characters:rappa": "b3c3e76c5c834eef5c19f9fd941fc0b9e729342f6508aea573bd88f2138dd115",
       "characters:rin-tohsaka": "08e4a50893f19116b5ab805207630f16a865c0fd4d6e2e79d421d1b01c43f000",
       "characters:robin": "1db5f90418ba36d721dec0c62bf3959582ab3016d77744497fc3ec39fc32b77f",
+      "characters:robin-summeretto": "33bcf23c135c65aac383a1f81b88232d648b930681bda5cb8a8fe4974e00d5ec",
       "characters:ruan-mei": "eade76d1428e766fc4aebf67f06bbfecd929236a98973d25f16bf0edd4336c6f",
       "characters:saber": "0ab40f01738571d49a5dfa88734e2d9d58664af6b58a91ff1625ec20ca1e4938",
       "characters:sampo": "22faa90141a337bff8056e6be027cd8c4f9fb68bfdaa7da146c795bb9a0cfc12",
@@ -93,7 +95,7 @@
       "characters:yao-guang": "450e100eaf90969950680d99ac14aead20cc4ec7b7e71e9645d514802337dd6d",
       "characters:yukong": "63ccce158c18e7176524cda819c91e3a275872eade083d38be376fefabe9abce",
       "characters:yunli": "9cc95864cc8b0e9cce823e3ad303c17e14b6fb496821f2604806eef4f4a0e236",
-      "collection:characters": "7bb6ab93aac88ec8984056549efc3e1166e210f2f3fc4d6e51d5cd2a335660ec",
+      "collection:characters": "53a2b3bd7daead43a09d1b7e4e8fbc2dddddf100c8feda85998adc31d8ccc3ef",
       "collection:light-cones": "6f4adf233e2dedc90ca90ebacb88fde1b5182a4bec9c4ab4bd49f11a288fd1f5",
       "collection:relic-sets": "330b404cd6f29c988f7a50c1612611b599c2b28af4b4f3aa0ac98f772a583dae"
     }

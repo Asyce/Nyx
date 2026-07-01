@@ -3,9 +3,9 @@
   "game": "hsr",
   "collection": "characters",
   "sourcePath": "/star-rail/characters",
-  "scrapedAt": "2026-06-30T08:43:18.819Z",
-  "detailPagesTotal": 90,
-  "detailPagesScraped": 90,
+  "scrapedAt": "2026-07-01T09:00:25.858Z",
+  "detailPagesTotal": 92,
+  "detailPagesScraped": 92,
   "staleDetailPagesRemoved": 0,
   "items": [
     {
@@ -79,6 +79,16 @@
       "sourcePath": "/star-rail/characters/aventurine",
       "contentStatus": "live",
       "statusLabels": []
+    },
+    {
+      "id": "aventurine-waveflair",
+      "slug": "aventurine-waveflair",
+      "name": "Aventurine Waveflair 4.X",
+      "sourcePath": "/star-rail/characters/aventurine-waveflair",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "4.X"
+      ]
     },
     {
       "id": "bailu",
@@ -511,6 +521,16 @@
       "sourcePath": "/star-rail/characters/robin",
       "contentStatus": "live",
       "statusLabels": []
+    },
+    {
+      "id": "robin-summeretto",
+      "slug": "robin-summeretto",
+      "name": "Robin Summeretto 4.X",
+      "sourcePath": "/star-rail/characters/robin-summeretto",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "4.X"
+      ]
     },
     {
       "id": "ruan-mei",

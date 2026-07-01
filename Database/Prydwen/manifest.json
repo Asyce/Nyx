@@ -1,26 +1,26 @@
 {
   "provider": "Prydwen",
-  "generatedAt": "2026-06-30T08:43:18.819Z",
+  "generatedAt": "2026-07-01T09:00:25.858Z",
   "games": {
     "hsr": {
       "game": "hsr",
       "gameName": "Honkai: Star Rail",
       "counts": {
         "collections": 3,
-        "records": 93,
-        "characters": 90,
-        "assetsPlanned": 714,
+        "records": 95,
+        "characters": 92,
+        "assetsPlanned": 716,
         "errors": 0
       },
       "assets": {
-        "requested": 714,
-        "downloaded": 0,
+        "requested": 716,
+        "downloaded": 2,
         "cached": 714,
         "missing": 0
       },
       "changes": {
         "records": {
-          "added": 0,
+          "added": 2,
           "removed": 0,
           "changed": 1,
           "unchanged": 92
@@ -47,8 +47,8 @@
         "records": {
           "added": 0,
           "removed": 0,
-          "changed": 3,
-          "unchanged": 60
+          "changed": 4,
+          "unchanged": 59
         }
       }
     },
@@ -72,8 +72,8 @@
         "records": {
           "added": 0,
           "removed": 0,
-          "changed": 4,
-          "unchanged": 64
+          "changed": 2,
+          "unchanged": 66
         }
       }
     },
@@ -97,8 +97,8 @@
         "records": {
           "added": 0,
           "removed": 0,
-          "changed": 1,
-          "unchanged": 30
+          "changed": 4,
+          "unchanged": 27
         }
       }
     }

@@ -288,6 +288,32 @@
     "assetCount": 56
   },
   {
+    "id": "aventurine-waveflair",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Aventurine Waveflair",
+    "slug": "aventurine-waveflair",
+    "sourcePath": "/star-rail/characters/aventurine-waveflair",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "4.X"
+    ],
+    "updatedText": "30/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Quantum",
+      "path": "Elation"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/aventurine-waveflair-0fb8df0c48dc.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/aventurine-waveflair.json",
+    "recommendationSections": [
+      "teams"
+    ],
+    "assetCount": 1
+  },
+  {
     "id": "bailu",
     "provider": "Prydwen",
     "game": "hsr",
@@ -1971,6 +1997,32 @@
       "synergy"
     ],
     "assetCount": 54
+  },
+  {
+    "id": "robin-summeretto",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Robin Summeretto",
+    "slug": "robin-summeretto",
+    "sourcePath": "/star-rail/characters/robin-summeretto",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "4.X"
+    ],
+    "updatedText": "30/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Wind",
+      "path": "Remembrance"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/robin-summeretto-50f73fbdd44b.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/robin-summeretto.json",
+    "recommendationSections": [
+      "teams"
+    ],
+    "assetCount": 1
   },
   {
     "id": "ruan-mei",

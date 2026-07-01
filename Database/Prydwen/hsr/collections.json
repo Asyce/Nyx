@@ -4,11 +4,11 @@
     "label": "Characters",
     "sourcePath": "/star-rail/characters",
     "file": "Prydwen/hsr/collections/characters.json",
-    "detailPagesTotal": 90,
-    "detailPagesScraped": 90,
+    "detailPagesTotal": 92,
+    "detailPagesScraped": 92,
     "staleDetailPagesRemoved": 0,
-    "entries": 90,
-    "assets": 107
+    "entries": 92,
+    "assets": 109
   },
   {
     "id": "light-cones",

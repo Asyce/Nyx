@@ -27405,7 +27405,9 @@
     "rarity": 1,
     "type": "Corrupted",
     "description": "Unknown",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/zzz/assets/monsters/Monster_UVARaven.webp"
+    },
     "card": {
       "obtain": "[Unidentified] Defeat this monster in Hollow Zero 1 time to obtain its data",
       "quote": "None",
@@ -27444,8 +27446,8 @@
       "30015": 3000
     },
     "liveComparison": {
-      "liveHash": "701275909a9db3f9eec46d306d546fc6d19ffd80c4cf3a24d1935c51adf14044",
-      "currentHash": "701275909a9db3f9eec46d306d546fc6d19ffd80c4cf3a24d1935c51adf14044"
+      "liveHash": "061af6e51d7fa04d9818bc3d03fbc8be1d51e5967d9be4d85d77e4f60a5870b2",
+      "currentHash": "061af6e51d7fa04d9818bc3d03fbc8be1d51e5967d9be4d85d77e4f60a5870b2"
     }
   },
   {
@@ -48739,7 +48741,9 @@
     "rarity": 1,
     "type": "Ether Mutants",
     "description": "CardDesc_10040",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/zzz/assets/monsters/Monster_EvolvedBee.webp"
+    },
     "monsterInfo": {
       "31682": {
         "id": 31682,
@@ -49274,7 +49278,7 @@
       "30015": 3000
     },
     "liveComparison": {
-      "currentHash": "cd448b3ca6b1d5b3b0dda09211701e416638975fe1606d9c4633f83814f225b8"
+      "currentHash": "fb994fbe0a550b76d18e7d8c265aac7ba04907318106b55243c6cb6152d8ff3d"
     }
   },
   {
@@ -125489,7 +125493,9 @@
     "rarity": 3,
     "type": "Special",
     "description": "Unknown",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/zzz/assets/monsters/Monster_MazingerGoldenBomb.webp"
+    },
     "card": {
       "obtain": "[Unidentified] Defeat this monster in Hollow Zero 1 time to obtain its data",
       "quote": "None",
@@ -125528,8 +125534,8 @@
       "30015": 3000
     },
     "liveComparison": {
-      "liveHash": "dca2e4c9dc63cb50ef8dd050ff1f5e04e503bcec82674c464f6da69c728d09a2",
-      "currentHash": "dca2e4c9dc63cb50ef8dd050ff1f5e04e503bcec82674c464f6da69c728d09a2"
+      "liveHash": "b85b1db119cb73e5f360f4afc22597860e423d15990a75ae1b01599dce541b0d",
+      "currentHash": "b85b1db119cb73e5f360f4afc22597860e423d15990a75ae1b01599dce541b0d"
     }
   },
   {
@@ -193506,7 +193512,9 @@
     "rarity": 4,
     "type": "Ether Mutants",
     "description": "CardDesc_40008",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/zzz/assets/monsters/Monster_GirReborn.webp"
+    },
     "monsterInfo": {
       "31671": {
         "id": 31671,
@@ -194042,7 +194050,7 @@
       "30015": 3000
     },
     "liveComparison": {
-      "currentHash": "10b2a1ca930ddffab5b7ec95c3b5c36526287368d165f4c84afcd862ac1ca570"
+      "currentHash": "4c7dd149b671501a689c9505132234f902a269646afbb39a27d619baba675cb9"
     }
   },
   {
@@ -214048,7 +214056,9 @@
     "rarity": 1,
     "type": "Public Security",
     "description": "Unknown",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/zzz/assets/monsters/Monster_HeavySoldierPro.webp"
+    },
     "card": {
       "obtain": "[Unidentified] Defeat this monster in Hollow Zero 1 time to obtain its data",
       "quote": "None",
@@ -214087,8 +214097,8 @@
       "30015": 3000
     },
     "liveComparison": {
-      "liveHash": "cdff2af34fc6a2b860c145f3276a39da3a9a086c0bb5005f33e529eb20ca3308",
-      "currentHash": "cdff2af34fc6a2b860c145f3276a39da3a9a086c0bb5005f33e529eb20ca3308"
+      "liveHash": "fe07a898c6a3fa4375a9a6ea9f179ec688b36068c3af7f69ea72928e22f623e8",
+      "currentHash": "fe07a898c6a3fa4375a9a6ea9f179ec688b36068c3af7f69ea72928e22f623e8"
     }
   },
   {
@@ -214098,7 +214108,9 @@
     "rarity": 1,
     "type": "Public Security",
     "description": "Unknown",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/zzz/assets/monsters/Monster_MeleeSoldierPro.webp"
+    },
     "card": {
       "obtain": "[Unidentified] Defeat this monster in Hollow Zero 1 time to obtain its data",
       "quote": "None",
@@ -214137,8 +214149,8 @@
       "30015": 3000
     },
     "liveComparison": {
-      "liveHash": "5d1e7b851673b794fa1a111822076c15ef62ea8191e5ca758a959308428c55a6",
-      "currentHash": "5d1e7b851673b794fa1a111822076c15ef62ea8191e5ca758a959308428c55a6"
+      "liveHash": "1e0aa32dbf82a3f644c56ee894b963b689065130ab781f20a974484ef84d86cd",
+      "currentHash": "1e0aa32dbf82a3f644c56ee894b963b689065130ab781f20a974484ef84d86cd"
     }
   },
   {
@@ -214148,7 +214160,9 @@
     "rarity": 1,
     "type": "Public Security",
     "description": "Unknown",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/zzz/assets/monsters/Monster_RangeSoldierPro.webp"
+    },
     "card": {
       "obtain": "[Unidentified] Defeat this monster in Hollow Zero 1 time to obtain its data",
       "quote": "None",
@@ -214187,8 +214201,8 @@
       "30015": 3000
     },
     "liveComparison": {
-      "liveHash": "bee05c1f6bc61039e794839ba94e0d44771e1dc6ef876b4c13a2451dd439229b",
-      "currentHash": "bee05c1f6bc61039e794839ba94e0d44771e1dc6ef876b4c13a2451dd439229b"
+      "liveHash": "fd5ef53b3014c95a9f517e8d0a9a049f6bf29e72644882747a727e5dc489f169",
+      "currentHash": "fd5ef53b3014c95a9f517e8d0a9a049f6bf29e72644882747a727e5dc489f169"
     }
   },
   {
@@ -227932,7 +227946,9 @@
     "rarity": 1,
     "type": "Corrupted",
     "description": "Unknown",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/zzz/assets/monsters/Monster_UVARavenPro.webp"
+    },
     "card": {
       "obtain": "[Unidentified] Defeat this monster in Hollow Zero 1 time to obtain its data",
       "quote": "None",
@@ -227971,8 +227987,8 @@
       "30015": 3000
     },
     "liveComparison": {
-      "liveHash": "1ddb3c4be6c3fecf61810d620adf7f0f00931febf36eb301497228d48296c186",
-      "currentHash": "1ddb3c4be6c3fecf61810d620adf7f0f00931febf36eb301497228d48296c186"
+      "liveHash": "5560f6cc5a797d6617c8600a8a647cd8f956d871e022e6c977d38c357f77cfa3",
+      "currentHash": "5560f6cc5a797d6617c8600a8a647cd8f956d871e022e6c977d38c357f77cfa3"
     }
   },
   {
@@ -310294,7 +310310,9 @@
     "rarity": 3,
     "type": "Special",
     "description": "According to urban legends among Hollow Raiders, Golden Bangboo keep collecting Dennies and Gear Coins in the Hollow for one purpose: extracting the metals needed to crowdfund the construction of the Golden Mecha. (Of course, this \"gold\" is actually a chrome-copper alloy — only this could provide enough strength to support such a magnificent frame.)\nWhen the Golden Mecha is completed, the Bangboo with the highest contribution will enter the cockpit surrounded by fellow Bangboo, transforming into the Golden Mecha Mechboo to crush enemies who dare attack Golden Bangboo with flashy and powerful combat techniques.\n\"Gold Rush,\" \"Molten Gold Beam,\" \"Golden Missile\"...\nThe skill names might sound weird, but the Bangboo think they're super cool!\n\"Look! It's the Golden Mecha Mechboo!\" \"D—Don't be scared! If we take that thing down, we'll be rich!\"...\nEven though evil Hollow Raiders often treat it like a walking vault, the Bangboo still think it's absolutely awesome!",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/zzz/assets/monsters/Monster_MazingerGoldenBomb.webp"
+    },
     "monsterInfo": {
       "11571": {
         "id": 11571,
@@ -312808,8 +312826,8 @@
       "30015": 3000
     },
     "liveComparison": {
-      "liveHash": "fe97e39b25d837d73e890fddc514f6fd5e5894ae0e8f340d681368034116780d",
-      "currentHash": "fe97e39b25d837d73e890fddc514f6fd5e5894ae0e8f340d681368034116780d"
+      "liveHash": "a79e5afaffcdd42292e7b1da5cec174c528867f2fee61ac5e802f624725cfde7",
+      "currentHash": "a79e5afaffcdd42292e7b1da5cec174c528867f2fee61ac5e802f624725cfde7"
     }
   },
   {

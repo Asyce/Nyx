@@ -1,13 +1,13 @@
 {
   "provider": "Prydwen",
   "game": "endfield",
-  "generatedAt": "2026-06-30T08:43:18.819Z",
+  "generatedAt": "2026-07-01T09:00:25.858Z",
   "summary": {
     "records": {
       "added": 0,
       "removed": 0,
-      "changed": 1,
-      "unchanged": 30
+      "changed": 4,
+      "unchanged": 27
     }
   },
   "sections": {
@@ -16,13 +16,31 @@
       "removed": [],
       "changed": [
         {
+          "id": "characters:camille",
+          "name": "Camille",
+          "previousHash": "4117f272e87f89e9fef89080163a4ae7268f0dd74332a4510375f3565f191c39",
+          "currentHash": "6a4fa50f4c4c866c858ad2ab59c56d82bb2927c3ee9b5302a0a13a6b0ee1b03d"
+        },
+        {
+          "id": "characters:mi-fu",
+          "name": "Mi Fu",
+          "previousHash": "b0d4b9ba827428c5540e538b5eb4ea156d939a1d78f69e5f95db7852147e1682",
+          "currentHash": "ca42e98b9a81b6b297794cd39c18870fdbe212ad2a912447e3ab73b535823ef8"
+        },
+        {
           "id": "characters:tangtang",
           "name": "Tangtang",
-          "previousHash": "2e6c936f47fe205d93b206ff5b4a962f32198a0d9d74d25b10eca0d9311d7cab",
-          "currentHash": "00af77c8d6c4eadeb5dbca163dd04e7bbd63a94138fba4ba9f448ba6b71aa2af"
+          "previousHash": "00af77c8d6c4eadeb5dbca163dd04e7bbd63a94138fba4ba9f448ba6b71aa2af",
+          "currentHash": "2e6c936f47fe205d93b206ff5b4a962f32198a0d9d74d25b10eca0d9311d7cab"
+        },
+        {
+          "id": "collection:characters",
+          "name": "Arknights: Endfield Characters Build Guides",
+          "previousHash": "48b3f6e3b0b6ff50e201ce381693bf59bab89c81ffe2574b588b6c6ee8d785af",
+          "currentHash": "1f62f0df8cd90d2642d0ea7cea0b77fafb792304bc8686ba614748d466d18026"
         }
       ],
-      "unchanged": 30,
+      "unchanged": 27,
       "totals": {
         "previous": 31,
         "current": 31

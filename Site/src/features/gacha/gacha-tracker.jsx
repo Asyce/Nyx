@@ -25,14 +25,7 @@ function gtFmtDate(ms){
 
 function gtBg(src){
   if (!src) return undefined;
-  const bg = window.NyxArtwork
-    ? window.NyxArtwork.bgImage(src, 'banner')
-    : 'url("' + String(src).replace(/"/g, '%22') + '")';
-  return { backgroundImage:bg };
-}
-
-function gtArtworkImgProps(src, kind, extra) {
-  return window.NyxArtwork ? window.NyxArtwork.imgProps(src, kind, extra) : Object.assign({}, extra || {}, { src });
+  return { backgroundImage:'url("' + String(src).replace(/"/g, '%22') + '")' };
 }
 
 function gtRosterMeta(gameKey, name){
@@ -522,7 +515,7 @@ function gtRenderResultsView(ctx){
                 const bannerName = gtSourceBannerLabel(gameKey, row);
                 return (
                   <div key={(row.id || row.idx) + ':' + row.bannerKey + ':' + row.name} className="gt-recent-five-row">
-                    {(row.icon || row.art) ? <img {...gtArtworkImgProps(row.icon || row.art, 'character', { alt:'', loading:'lazy' })} /> : <span className="gt-img-fallback"></span>}
+                    {(row.icon || row.art) ? <img src={row.icon || row.art} alt="" loading="lazy" /> : <span className="gt-img-fallback"></span>}
                     <div>
                       <b>{row.name}</b>
                       <span>Banner: {bannerName} · {gtFmtDate(row.time)}</span>
@@ -568,7 +561,7 @@ function gtRenderResultsView(ctx){
                       <div className="gt-banner-history-detail">
                         {detailFives.map((five) => (
                           <div key={(five.id || five.idx) + ':' + five._source.key + ':' + five.name}>
-                            {(five.icon || five.art) ? <img {...gtArtworkImgProps(five.icon || five.art, 'character', { alt:'', loading:'lazy' })} /> : <span className="gt-img-fallback"></span>}
+                            {(five.icon || five.art) ? <img src={five.icon || five.art} alt="" loading="lazy" /> : <span className="gt-img-fallback"></span>}
                             <b>{five.name}</b>
                             <span>{five.isWeapon ? 'Weapon' : 'Character'} / {five._source.bannerKind}</span>
                             <em className={gtPullOutcomeClass(five, five._banner).replace(/\s+/g, '-')}>{gtPullOutcome(five, five._banner, gameKey)}</em>
@@ -612,7 +605,7 @@ function gtRenderResultsView(ctx){
             <div className="gt-archive-grid expanded">
               {archiveRows.map((rec) => (
                 <article key={rec.key} className={'gt-archive-card r' + rec.rank}>
-                  {(rec.icon || rec.art) ? <img {...gtArtworkImgProps(rec.icon || rec.art, 'item', { alt:'', loading:'lazy' })} /> : <span className="gt-img-fallback"></span>}
+                  {(rec.icon || rec.art) ? <img src={rec.icon || rec.art} alt="" loading="lazy" /> : <span className="gt-img-fallback"></span>}
                   <b>{rec.name}</b>
                   <i>{gtCopyMark(rec)}</i>
                   <em>{rec.copies} copies</em>
@@ -626,7 +619,7 @@ function gtRenderResultsView(ctx){
             <div className="gt-total-strip archive">
               {characterArchive.concat(weaponArchive).map((rec) => (
                 <div key={rec.key} className="gt-total-unit">
-                  {(rec.icon || rec.art) ? <img {...gtArtworkImgProps(rec.icon || rec.art, 'item', { alt:'', loading:'lazy' })} /> : <span className="gt-img-fallback"></span>}
+                  {(rec.icon || rec.art) ? <img src={rec.icon || rec.art} alt="" loading="lazy" /> : <span className="gt-img-fallback"></span>}
                   <b>{rec.name}</b>
                   <i>{gtCopyMark(rec)}</i>
                   <em>{rec.copies}</em>
@@ -828,7 +821,7 @@ function GachaTracker({ open, onClose, cfg, inline }){
           <span className="gt-dia"></span>
           <div className="gt-ttl">
             {phase === 'results'
-              ? <div className="gt-title-row"><div className="t">Pull history</div><button type="button" className="gt-title-import" onClick={showImport}>Manage import</button></div>
+              ? <button type="button" className="gt-title-import" onClick={showImport}>Manage import</button>
               : <div className="t">Import history</div>}
           </div>
           <button type="button" className="gt-x" title="Close" onClick={onClose} style={{ display:inline ? 'none' : undefined }}>{'\u2715'}</button>

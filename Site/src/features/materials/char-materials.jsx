@@ -16,17 +16,6 @@ const CM_GI_PRESETS = [
   { key:'9-9-9', label:'9/9/9', targets:[9, 9, 9] },
   { key:'10-10-10', label:'10/10/10', targets:[10, 10, 10] },
 ];
-
-function cmArtworkImgProps(src, kind, extra) {
-  return window.NyxArtwork ? window.NyxArtwork.imgProps(src, kind, extra) : Object.assign({}, extra || {}, { src });
-}
-
-function cmArtworkCssUrl(src, kind) {
-  if (!src) return undefined;
-  return window.NyxArtwork
-    ? window.NyxArtwork.bgImage(src, kind)
-    : `url("${String(src || '').replace(/\\/g, '/').replace(/"/g, '\\"')}")`;
-}
 const CM_GI_TALENT_LABELS = ['Normal Attack', 'Elemental Skill', 'Elemental Burst'];
 const CM_GI_TALENT_SHORT = ['NA', 'Skill', 'Burst'];
 // Per-game talent/trace input config: labels, short codes, and the max level of
@@ -431,7 +420,9 @@ function CMAvatar({ ch, big }){
         {real ? <img
           className={ch.iconZoom ? 'zoom' : ''}
           style={Object.keys(imgStyle).length ? imgStyle : undefined}
-          {...cmArtworkImgProps(real, 'character', { alt:ch.n, draggable:'false' })}
+          src={real}
+          alt={ch.n}
+          draggable="false"
         /> : <span className="mono">{cmInitials(ch.n)}</span>}
       </div>
       {artPending && <span className="cm-av-pending">art pending</span>}
@@ -452,7 +443,7 @@ function MatTile({ m }){
     <div className={'cm-mat' + (m.kind === 'currency' ? ' cur' : '')} title={(m.name || 'Material') + (qty ? ' x' + qty.toLocaleString('en-US') : '') + (source ? '\n' + source : '')}
          style={{ '--rA':pal.a, '--rB':pal.b, '--rarBg':'url("../../assets/mats/rarity' + rarity + '.png")' }}>
       <div className="ic">
-        {m.sprite ? <ZzzSpriteIcon icon={icon} sprite={m.sprite} alt="" /> : icon ? <img {...cmArtworkImgProps(icon, 'item', { alt:'', draggable:'false' })} /> : <span className="glyph">{g}</span>}
+        {m.sprite ? <ZzzSpriteIcon icon={icon} sprite={m.sprite} alt="" /> : icon ? <img src={icon} alt="" draggable="false" /> : <span className="glyph">{g}</span>}
       </div>
       <b className="qt">{qty ? qty.toLocaleString('en-US') : '-'}</b>
       <span className="nm">{m.name}</span>
@@ -466,7 +457,7 @@ function MatTile({ m }){
               {withIcon.length > 0 && (
                 <span className="src-icons">
                   {withIcon.map((detail, i) => (
-                    <img key={'i' + i} {...cmArtworkImgProps(detail.icon, 'item', { alt:detail.name || '', title:detail.name || '', draggable:'false' })} />
+                    <img key={'i' + i} src={detail.icon} alt={detail.name || ''} title={detail.name || ''} draggable="false" />
                   ))}
                 </span>
               )}
@@ -536,7 +527,7 @@ function ZzzSpriteIcon({ icon, sprite, alt }){
 
   return (
     <span className={'zzz-sprite' + (animated ? ' is-animated' : '')}>
-      {icon && <img {...cmArtworkImgProps(icon, 'item', { alt:alt || '', draggable:'false' })} />}
+      {icon && <img src={icon} alt={alt || ''} draggable="false" />}
       <canvas ref={canvasRef} aria-hidden="true"></canvas>
     </span>
   );
@@ -546,7 +537,7 @@ function CMToken({ name, color, glyph, icon, sprite, meta }){
   return (
     <div className="cm-mtoken">
       <span className="tk" style={{ '--tc':color || '#9a89ea' }}>
-        {sprite ? <ZzzSpriteIcon icon={icon} sprite={sprite} alt="" /> : icon ? <img {...cmArtworkImgProps(icon, 'item', { alt:'', draggable:'false' })} /> : glyph}
+        {sprite ? <ZzzSpriteIcon icon={icon} sprite={sprite} alt="" /> : icon ? <img src={icon} alt="" draggable="false" /> : glyph}
       </span>
       <span className="lbl">{name}</span>
       {meta && <span className="mt">{meta}</span>}
@@ -826,7 +817,7 @@ function cmBlockArtStyle(artOrChars){
   const art = typeof artOrChars === 'string'
     ? artOrChars
     : cmArtFor(cmNewestChar(artOrChars || []) || {});
-  return art ? { '--cm-block-art': cmArtworkCssUrl(art, 'splash') } : undefined;
+  return art ? { '--cm-block-art': cmCssUrl(art) } : undefined;
 }
 
 // G29/G30: newest-released character in a list (by release / updated / sourceOrder).
@@ -1807,7 +1798,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                   <div className="cm-ledger-title">
                     <div className="cm-pop-name-row">
                       <span className="cm-pop-name-wrap">
-                        {(view.icon || view.circle) && <img className="cm-name-circle" {...cmArtworkImgProps(view.icon || view.circle, 'character', { alt:'', draggable:'false' })}
+                        {(view.icon || view.circle) && <img className="cm-name-circle" src={view.icon || view.circle} alt="" draggable="false"
                           style={view.iconPosition ? { objectPosition:view.iconPosition } : undefined} />}
                         <span className="cm-pop-name">{sel.n}</span>
                         {sel.__betaNew && <span className="cm-beta-tag pop" title="Beta (latest) data — upcoming and subject to change">Beta</span>}
@@ -1887,7 +1878,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                 )}
 
                 <div className="cm-ledger-rows">
-                  {selArt && <div className={'cm-ledger-art' + specialArtClass} aria-hidden="true"><img {...cmArtworkImgProps(selArt, 'splash', { alt:'', draggable:'false' })} /></div>}
+                  {selArt && <div className={'cm-ledger-art' + specialArtClass} aria-hidden="true"><img src={selArt} alt="" draggable="false" /></div>}
                   {hasAscData && (
                     <div className="cm-ledger-row">
                       <div className="cm-ledger-label"><b>ASCENSION</b>
@@ -1923,7 +1914,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                               return (
                                 <div className="cm-skill-icons" title="Skills (leveled to max)">
                                   {skillIcons.map((src, i) => (
-                                    <span className="cm-skill-icon" key={i}><img {...cmArtworkImgProps(src, 'item', { alt:'', draggable:'false' })} /></span>
+                                    <span className="cm-skill-icon" key={i}><img src={src} alt="" draggable="false" /></span>
                                   ))}
                                   <span className="cm-talent-summary">Max</span>
                                 </div>
@@ -1951,7 +1942,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                                   return (
                                     <label className="cm-talent-control" key={index} title={`${label}: type a target level (1-${max})`}>
                                       <span className="cm-talent-icon">
-                                        {icon ? <img {...cmArtworkImgProps(icon, 'item', { alt:'', draggable:'false' })} /> : <em>{tcfg.short[index]}</em>}
+                                        {icon ? <img src={icon} alt="" draggable="false" /> : <em>{tcfg.short[index]}</em>}
                                       </span>
                                       <input
                                         type="number" min="1" max={max} inputMode="numeric"
@@ -1977,7 +1968,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                   {(weaponReq.length > 0 || weaponOptions.length > 0) && (
                     <div className="cm-ledger-row weapon">
                       <div className="cm-ledger-label cm-weapon-label">
-                        {activeWeapon?.icon && <img className="cm-weapon-watermark" {...cmArtworkImgProps(activeWeapon.icon, 'item', { alt:'', draggable:'false' })} />}
+                        {activeWeapon?.icon && <img className="cm-weapon-watermark" src={activeWeapon.icon} alt="" draggable="false" />}
                         <b>{weaponLabel}</b>
                         <div className="cm-weapon-pickrow">
                           <button
@@ -2033,7 +2024,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
                                   className={String(activeWeapon?.id) === String(weapon.id) ? 'on' : ''}
                                   onClick={() => pickWeapon(weapon.id)}
                                 >
-                                  {weapon.icon ? <img {...cmArtworkImgProps(weapon.icon, 'item', { alt:'', draggable:'false' })} /> : <span className="sig">{weapon.rarity || ''}</span>}
+                                  {weapon.icon ? <img src={weapon.icon} alt="" draggable="false" /> : <span className="sig">{weapon.rarity || ''}</span>}
                                   <span>{weapon.name}</span>
                                 </button>
                               ))}

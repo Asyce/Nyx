@@ -62,19 +62,6 @@ function bgUrl(src){
   return 'url("' + encodeURI(String(src)).replace(/#/g, '%23').replace(/"/g, '%22') + '")';
 }
 
-function artworkUrl(src, kind){
-  return window.NyxArtwork ? window.NyxArtwork.url(src, kind) : src;
-}
-
-function artworkBgUrl(src, kind){
-  if (!src) return undefined;
-  return window.NyxArtwork ? window.NyxArtwork.bgImage(src, kind) : bgUrl(src);
-}
-
-function artworkImgProps(src, kind, extra){
-  return window.NyxArtwork ? window.NyxArtwork.imgProps(src, kind, extra) : Object.assign({}, extra || {}, { src });
-}
-
 function randomRange(min, max){
   return min + Math.random() * (max - min);
 }
@@ -586,7 +573,7 @@ const buildTrack = (cfg) => Object.assign({ pull:'Wish', pulls:'Wishes', currenc
 function FavCardI({ ch, idx, w, hgt, dt, faded, h, art, manage, count }){
   const cardArt = overviewCardArt({ art }, ch, idx);
   const artStyle = {
-    backgroundImage:artworkBgUrl(cardArt || ch.art || art, 'character'),
+    backgroundImage:bgUrl(cardArt || ch.art || art),
     ...(ch.overviewArtZoom ? { backgroundSize:Math.round(Number(ch.overviewArtZoom || 1) * 100) + '% auto' } : {}),
   };
   // When not managing, the card itself is the button that opens details (keyboard
@@ -794,7 +781,7 @@ function Favourites({ cfg, onOpenMaterial }){
               onClick={() => addCandidate(ch)}
             >
               <span className="pick-ico">
-                <img {...artworkImgProps(ch.icon || cfg.benchIcon, 'character', { alt:'', draggable:'false' })} />
+                <img src={ch.icon || cfg.benchIcon} alt="" draggable="false" />
                 {cfg.key === 'nyx' && appGameIcon(ch.gameKey) && <i><img src={appGameIcon(ch.gameKey)} alt="" draggable="false" /></i>}
               </span>
               <span className="pick-meta">
@@ -839,7 +826,7 @@ function CodeCardRow({ row, currency, onCopy, onToggleRedeemed }){
         : <span className="cc no-link" title="No redeem link available">{r.code}</span>}
       <span className={'cc-reward' + (r.premium ? '' : ' plain')} tabIndex={0} aria-label="Show all rewards">
         {r.premium && (currency.icon
-          ? <img {...artworkImgProps(currency.icon, 'item', { alt:currency.name, draggable:'false' })} />
+          ? <img src={currency.icon} alt={currency.name} draggable="false" />
           : <span className="cur-glyph"></span>)}
         {r.premium && amount && <b>{amount}</b>}
         {!r.premium && <span className="reward-text">{rewardParts(r.reward)[0] || 'Reward'}</span>}
@@ -908,7 +895,7 @@ function CodesPanel({ codes, gameKey = 'nyx' }){
       <div className="codes-group" key={kind}>
         <div className="codes-group-hd">
           {kind === 'premium' && (currency.icon
-            ? <img {...artworkImgProps(currency.icon, 'item', { alt:'', draggable:'false' })} />
+            ? <img src={currency.icon} alt="" draggable="false" />
             : <span className="cur-glyph"></span>)}
           <span className="gl">{kind === 'premium' ? currency.name : 'Other rewards'}</span>
           <span className="rule"></span>
@@ -1108,7 +1095,7 @@ const BANNER_FLOW = {};
 SIM_GAMES.forEach((g, i) => {
   BANNER_FLOW[g.key] = bannerFlowFor(g, i);
 });
-const SIM_CC_COLORS = ['#dd6aa0','#635bff','#c08fe6','#9db5ff','#b8b3ff','#8b7bff','#8f7fd6','#e07fb0'];
+const SIM_CC_COLORS = ['#dd0044','#635bff','#c08fe6','#e3b552','#b8b3ff','#d8b86a','#8f7fd6','#e07fb0'];
 
 function SimChar({ name }){
   const ch = typeof name === 'string' ? { name } : name;
@@ -1116,7 +1103,7 @@ function SimChar({ name }){
   return (
     <div className="sim-cc" title={ch.name}>
       <div className="d" style={{ '--c':col }}>
-        {ch.icon ? <img {...artworkImgProps(ch.icon, 'character', { alt:'', draggable:'false' })} /> : <span>{simInitials(ch.name)}</span>}
+        {ch.icon ? <img src={ch.icon} alt="" draggable="false" /> : <span>{simInitials(ch.name)}</span>}
       </div>
       <span className="n">{ch.name}</span>
     </div>
@@ -1136,7 +1123,7 @@ function SimGameBanner({ g }){
   const ended = f.status === 'ended';
   return (
     <div className="sim-gbanner">
-      <div className="art" style={{ backgroundImage:artworkBgUrl(g.bg, 'banner'), backgroundPosition:g.pos }}></div>
+      <div className="art" style={{ backgroundImage:'url(' + g.bg + ')', backgroundPosition:g.pos }}></div>
       <div className="shade"></div>
       <div className="inner">
         <div className="ghd">{g.name}</div>
@@ -1243,7 +1230,7 @@ function CollectionCard({ item }){
   return (
     <article className="db-card" title={item.name}>
       <div className="db-art">
-        {item.art ? <img {...artworkImgProps(item.art, 'item', { alt:'', draggable:'false' })} /> : <span>{simInitials(item.name)}</span>}
+        {item.art ? <img src={item.art} alt="" draggable="false" /> : <span>{simInitials(item.name)}</span>}
       </div>
       <div className="db-meta">
         <div className="db-name">{item.name}</div>
@@ -1386,7 +1373,6 @@ const NYX_IDENTITY_GROUPS = [
 const NYX_PENGO_DEFAULTS = {
   whispers: true,
   animation: 'play',
-  artworkQuality: 'original',
   khaenriah: false,
   displayGames: NYX_PENGO_DISPLAY_DEFAULTS,
   identity: NYX_IDENTITY_DEFAULTS,
@@ -1417,7 +1403,6 @@ function loadPengoSettings(){
     const raw = JSON.parse(localStorage.getItem(NYX_PENGO_SETTINGS_KEY) || '{}');
     return Object.assign({}, NYX_PENGO_DEFAULTS, raw, {
       animation: ['play', 'pause', 'stop'].includes(raw.animation) ? raw.animation : NYX_PENGO_DEFAULTS.animation,
-      artworkQuality: raw.artworkQuality === 'faster' ? 'faster' : NYX_PENGO_DEFAULTS.artworkQuality,
       displayGames: Object.assign({}, NYX_PENGO_DISPLAY_DEFAULTS, raw.displayGames || {}),
       identity: sanitizeNyxIdentity(raw.identity),
       energy: clampPengoNumber(raw.energy ?? NYX_PENGO_DEFAULTS.energy, 1, 69),
@@ -1431,9 +1416,6 @@ function loadPengoSettings(){
 
 function PengoMenu({ settings, setSettings }){
   const update = (patch) => setSettings((prev) => Object.assign({}, prev, patch));
-  const [syncSecret, setSyncSecret] = React.useState('');
-  const [syncBusy, setSyncBusy] = React.useState(false);
-  const [syncStatus, setSyncStatus] = React.useState('');
   const identity = sanitizeNyxIdentity(settings.identity);
   const setIdentity = (group, value) => update({ identity:Object.assign({}, identity, { [group]:value }) });
   const opusCount = clampPengoNumber(settings.spawn ?? settings.sacrifice ?? NYX_PENGO_DEFAULTS.spawn, 0, 9999);
@@ -1450,7 +1432,6 @@ function PengoMenu({ settings, setSettings }){
   const resetInterface = () => update({
     whispers: NYX_PENGO_DEFAULTS.whispers,
     animation: NYX_PENGO_DEFAULTS.animation,
-    artworkQuality: NYX_PENGO_DEFAULTS.artworkQuality,
     khaenriah: NYX_PENGO_DEFAULTS.khaenriah,
     displayGames: Object.assign({}, NYX_PENGO_DISPLAY_DEFAULTS),
   });
@@ -1462,26 +1443,6 @@ function PengoMenu({ settings, setSettings }){
   });
   const nextAnim = settings.animation === 'play' ? 'pause' : (settings.animation === 'pause' ? 'stop' : 'play');
   const animIcon = settings.animation === 'play' ? '\u25b6' : (settings.animation === 'pause' ? '\u23f8' : '\u25a0');
-  const syncPreferences = async (mode) => {
-    if (!window.NyxArtwork || !syncSecret.trim()) return;
-    setSyncBusy(true);
-    setSyncStatus('');
-    try {
-      if (mode === 'push') {
-        await window.NyxArtwork.pushPreferences(syncSecret, { artworkQuality:settings.artworkQuality });
-        setSyncStatus('Saved');
-      } else {
-        const result = await window.NyxArtwork.pullPreferences(syncSecret);
-        const pref = result && result.preferences && result.preferences.artworkQuality;
-        if (pref) update({ artworkQuality:pref });
-        setSyncStatus(pref ? 'Restored' : 'No preferences');
-      }
-    } catch (e) {
-      setSyncStatus(e && e.message ? e.message : 'Sync failed');
-    } finally {
-      setSyncBusy(false);
-    }
-  };
   return (
     <div className="nyx-pengo-menu" role="dialog" aria-label="Pengo settings" onClick={(e) => e.stopPropagation()}>
       <section>
@@ -1518,30 +1479,6 @@ function PengoMenu({ settings, setSettings }){
                 onClick={() => update({ whispers:!settings.whispers })}>
           <span>Nyx Whispers</span><b className="pm-state">{settings.whispers ? 'On' : 'Off'}</b>
         </button>
-        <div className="pm-quality-row" role="group" aria-label="Artwork quality">
-          <span>Artwork quality</span>
-          <div className="pm-segments">
-            <button type="button" className={settings.artworkQuality !== 'faster' ? 'on' : ''}
-                    aria-pressed={settings.artworkQuality !== 'faster'}
-                    onClick={() => update({ artworkQuality:'original' })}>Original</button>
-            <button type="button" className={settings.artworkQuality === 'faster' ? 'on' : ''}
-                    aria-pressed={settings.artworkQuality === 'faster'}
-                    onClick={() => update({ artworkQuality:'faster' })}>Faster</button>
-          </div>
-        </div>
-        <div className="pm-pref-sync">
-          <input
-            type="password"
-            value={syncSecret}
-            autoComplete="off"
-            placeholder="Sync phrase"
-            aria-label="Preference sync phrase"
-            onChange={(e) => setSyncSecret(e.target.value)}
-          />
-          <button type="button" disabled={syncBusy || !syncSecret.trim()} onClick={() => syncPreferences('push')}>Save</button>
-          <button type="button" disabled={syncBusy || !syncSecret.trim()} onClick={() => syncPreferences('pull')}>Restore</button>
-          {syncStatus && <span className="pm-sync-status">{syncStatus}</span>}
-        </div>
         <button type="button" className="pm-row" data-tip="Change all fonts to the Ancient(Khaenri'ahn) Script"
                 onClick={() => update({ khaenriah:!settings.khaenriah })}>
           <span>Welcome to Khaenri'ah</span><b className="pm-state">{settings.khaenriah ? 'On' : 'Off'}</b>
@@ -1634,8 +1571,6 @@ function NyxApp(){
     root.classList.toggle('nyx-pattern-paused', pengoSettings.animation === 'pause');
     root.classList.toggle('nyx-pattern-off', pengoSettings.animation === 'stop');
     root.classList.toggle('nyx-khaenriah', !!pengoSettings.khaenriah);
-    if (window.NyxArtwork) window.NyxArtwork.applyQuality(pengoSettings.artworkQuality);
-    try { window.dispatchEvent(new CustomEvent('nyx:artwork-quality-changed', { detail:{ artworkQuality:pengoSettings.artworkQuality } })); } catch (e) {}
   }, [pengoSettings]);
 
   React.useEffect(() => {
@@ -1698,7 +1633,7 @@ function NyxApp(){
       '.overview-codes-scroll',
       '.gp-side-nav',
       '.gp-layout',
-      '.gp-main-pane'
+      '.gp-main-pane',
     ];
     const isVisible = (el) => {
       if (!el) return false;

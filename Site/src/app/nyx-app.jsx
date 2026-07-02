@@ -523,6 +523,148 @@ function bannerPhaseCards(cfg){
   return cards;
 }
 
+function currentBannerCards(cfg){
+  const buildFor = (gameCfg, source) => {
+    const cards = bannerPhaseCards(gameCfg).filter((card) => card.status === 'Ongoing');
+    if (cards.length) {
+      return cards.map((card) => Object.assign({}, card, { game:source || gameCfg }));
+    }
+    const b = gameCfg.banner || {};
+    return [{
+      title:b.title || 'Current Banner',
+      status:'Current',
+      five:'5\u2605 ' + (b.five || gameCfg.charName || gameCfg.name),
+      chips:(b.fours || []).map((name) => ({ key:name, text:name })),
+      time:b.time || 'Date pending',
+      pct:b.pct || 42,
+      art:b.art || gameCfg.art,
+      game:source || gameCfg,
+    }];
+  };
+  if (cfg.key !== 'nyx') return buildFor(cfg);
+  return SIM_GAMES.flatMap((game) => buildFor(GAME_REGISTRY[game.key], game));
+}
+
+function CurrentBannerStrip({ cfg }){
+  const cards = currentBannerCards(cfg);
+  if (!cards.length) return null;
+  return (
+    <section className="gp-current-banners" aria-label="Current banners">
+      <div className="gp-current-banners-head">
+        <GPSec title="Current Banners" icon="../assets/decor/orbit_burst.png" style={{ flex:1, minWidth:0 }} />
+        <span>{cards.length} active</span>
+      </div>
+      <div className="gp-current-banner-row">
+        {cards.map((card, i) => (
+          <div className="gp-current-banner-cell" key={(card.game?.key || cfg.key) + '-' + card.five + '-' + i}>
+            {cfg.key === 'nyx' && card.game && (
+              <div className="gp-current-banner-game">
+                <img src={card.game.icon || GAME_REGISTRY[card.game.key]?.benchIcon} alt="" draggable="false" />
+                <span>{card.game.name}</span>
+              </div>
+            )}
+            <GPBanner compact h={126}
+              art={card.art || GAME_REGISTRY[card.game?.key]?.art || cfg.art}
+              title={card.title}
+              status={card.status}
+              five={card.five}
+              fiveIcon={card.fiveIcon}
+              chips={card.chips}
+              time={card.time}
+              pct={card.pct} />
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+const RESET_MS = {
+  day:24 * 60 * 60 * 1000,
+  week:7 * 24 * 60 * 60 * 1000,
+};
+
+function nextLocalResetAt(now, year, month, day, hour){
+  return new Date(year, month, day, hour, 0, 0, 0).getTime();
+}
+
+function nextDailyReset(now){
+  const d = new Date(now);
+  let next = nextLocalResetAt(d, d.getFullYear(), d.getMonth(), d.getDate(), 4);
+  if (next <= now) next += RESET_MS.day;
+  return next;
+}
+
+function nextWeeklyReset(now){
+  const d = new Date(now);
+  const day = d.getDay();
+  const daysUntilMonday = (8 - day) % 7;
+  let next = nextLocalResetAt(d, d.getFullYear(), d.getMonth(), d.getDate() + daysUntilMonday, 4);
+  if (next <= now) next += RESET_MS.week;
+  return next;
+}
+
+function nextMonthlyReset(now){
+  const d = new Date(now);
+  let next = nextLocalResetAt(d, d.getFullYear(), d.getMonth(), 1, 4);
+  if (next <= now) next = nextLocalResetAt(d, d.getFullYear(), d.getMonth() + 1, 1, 4);
+  return next;
+}
+
+function nextSemiMonthlyReset(now){
+  const d = new Date(now);
+  const candidates = [
+    nextLocalResetAt(d, d.getFullYear(), d.getMonth(), 1, 4),
+    nextLocalResetAt(d, d.getFullYear(), d.getMonth(), 16, 4),
+    nextLocalResetAt(d, d.getFullYear(), d.getMonth() + 1, 1, 4),
+  ];
+  return candidates.find((ts) => ts > now) || candidates[candidates.length - 1];
+}
+
+function resetTimerRows(now){
+  return [
+    { key:'abyss', label:'Abyss', target:nextSemiMonthlyReset(now) },
+    { key:'theater', label:'Imaginarium', target:nextMonthlyReset(now) },
+    { key:'weekly', label:'Weekly', target:nextWeeklyReset(now) },
+    { key:'daily', label:'Daily', target:nextDailyReset(now) },
+  ];
+}
+
+function durationParts(ms){
+  const safe = Math.max(0, Math.floor(ms / 1000));
+  const d = Math.floor(safe / 86400);
+  const h = Math.floor(safe % 86400 / 3600);
+  const m = Math.floor(safe % 3600 / 60);
+  const s = safe % 60;
+  const pad = (n) => String(n).padStart(2, '0');
+  return d > 0 ? d + 'd ' + pad(h) + 'h ' + pad(m) + 'm' : pad(h) + 'h ' + pad(m) + 'm ' + pad(s) + 's';
+}
+
+function ResetTimersPanel({ gameKey }){
+  const [now, setNow] = React.useState(Date.now());
+  React.useEffect(() => {
+    const id = setInterval(() => setNow(Date.now()), 1000);
+    return () => clearInterval(id);
+  }, [gameKey]);
+  const rows = resetTimerRows(now);
+  return (
+    <section className="gp-reset-panel" aria-label="Reset timers">
+      <div className="gp-reset-head">
+        <span>Reset Timers</span>
+        <b>Local</b>
+      </div>
+      <div className="gp-reset-grid">
+        {rows.map((row) => (
+          <div className={'gp-reset-tile rt-' + row.key} key={row.key}>
+            <span className="k">{row.label}</span>
+            <span className="v">{durationParts(row.target - now)}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 function formatUpdated(iso){
   if (!iso) return 'local fixtures';
   const d = new Date(iso);
@@ -927,33 +1069,12 @@ function CodesPanel({ codes, gameKey = 'nyx' }){
 
 /* shared overview right rail */
 function OverviewAside({ cfg }){
-  const b = cfg.banner;
-  const phaseCards = bannerPhaseCards(cfg);
-  const ongoing = phaseCards.filter((c) => c.status === 'Ongoing');
-  const upcoming = phaseCards.filter((c) => c.status !== 'Ongoing');
   return (
     <aside style={{ display:'flex', flexDirection:'column', gap:'12px', minWidth:0, minHeight:0 }}>
+      <ResetTimersPanel gameKey={cfg.key} />
       <GPSec title="Redemption Codes" />
       <CodesPanel codes={cfg.codes} gameKey={cfg.key} />
       <BannerFreshnessNote fresh={bannerFreshness(cfg.key)} />
-      {ongoing.length > 0 ? ongoing.map((card, i) => (
-        <GPBanner key={'on-' + card.five + '-' + i} compact h={150}
-          art={card.art || cfg.art} title={card.title} status={card.status}
-          five={card.five} fiveIcon={card.fiveIcon} chips={card.chips} time={card.time} pct={card.pct} />
-      )) : (
-        <GPBanner compact h={158} art={b.art || cfg.art} title={b.title}
-          status="Database fallback" five={'5\u2605 ' + b.five}
-          chips={(b.fours || []).map((name) => ({ key:name, text:name }))} time={b.time} pct={b.pct} />
-      )}
-      {upcoming.length > 0 && (
-        <React.Fragment>
-          {upcoming.map((card, i) => (
-            <GPBanner key={'up-' + card.five + '-' + i} compact next h={84}
-              art={card.art || cfg.art} title={card.title} status={card.status}
-              five={card.five} fiveIcon={card.fiveIcon} chips={card.chips} time={card.time} pct={card.pct} />
-          ))}
-        </React.Fragment>
-      )}
     </aside>
   );
 }
@@ -1284,7 +1405,8 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings }
       </nav>
 
       {tab === 'overview' && (
-        <main className="gp-main-pane">
+        <main className="gp-main-pane gp-overview-main">
+          <CurrentBannerStrip cfg={cfg} />
           <Favourites key={cfg.key} cfg={cfg} onOpenMaterial={onOpenMaterial} />
         </main>
       )}
@@ -1330,7 +1452,8 @@ function SimContent({ tab, setTab, onOpenMaterial, settings, setSettings }){
         ))}
       </nav>
       {tab === 'overview' && (
-        <main className="gp-main-pane">
+        <main className="gp-main-pane gp-overview-main">
+          <CurrentBannerStrip cfg={NYX_META} />
           <Favourites key="nyx" cfg={NYX_META} onOpenMaterial={onOpenMaterial} />
         </main>
       )}
@@ -1628,8 +1751,10 @@ function NyxApp(){
       '.gt-results',
       '.db-grid',
       '.sim-gbangrid',
+      '.gp-overview-main',
       '.gp-codes-scroll',
       '.overview-codes-scroll',
+      '.gp-current-banner-row',
       '.settings-pane',
       '.nyx-pengo-menu.as-tab',
       '.gp-layout',
@@ -1672,7 +1797,7 @@ function NyxApp(){
       const candidates = contentScrollTargets
         .flatMap((selector) => Array.from(document.querySelectorAll(selector)))
         .filter((el) => canScrollY(el, event.deltaY));
-      const preferred = candidates.find((el) => el.matches('.cm-pop-main,.cm-pop.ledger .cm-pop-layout,.cm-body,.gt-results,.db-grid,.sim-gbangrid,.gp-codes-scroll,.overview-codes-scroll,.settings-pane,.nyx-pengo-menu.as-tab')) || candidates[0];
+      const preferred = candidates.find((el) => el.matches('.cm-pop-main,.cm-pop.ledger .cm-pop-layout,.cm-body,.gt-results,.db-grid,.sim-gbangrid,.gp-overview-main,.gp-codes-scroll,.overview-codes-scroll,.settings-pane,.nyx-pengo-menu.as-tab')) || candidates[0];
       if (!preferred) return;
       event.preventDefault();
       preferred.scrollBy({ top:event.deltaY, left:0, behavior:'auto' });

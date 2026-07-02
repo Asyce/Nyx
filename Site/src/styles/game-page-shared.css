@@ -361,6 +361,137 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 .gp-side-nav::-webkit-scrollbar-thumb{ background:rgba(139,123,255,.45); border-radius:4px; }
 .gp-main-pane{ min-width:0; min-height:0; display:flex; flex-direction:column; overflow:hidden; }
 .gp-main-pane.fill{ grid-column:2 / -1; }
+.gp-overview-main{
+  overflow-y:auto;
+  overflow-x:hidden;
+  gap:18px;
+  padding-right:4px;
+  overscroll-behavior:contain;
+}
+
+.gp-current-banners{ min-width:0; display:flex; flex-direction:column; gap:8px; }
+.gp-current-banners-head{ display:flex; align-items:center; gap:12px; min-width:0; }
+.gp-current-banners-head > span{
+  flex:none;
+  font-family:'HSR','Segoe UI',sans-serif;
+  font-size:10px;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:#a99fd6;
+}
+.gp-current-banner-row{
+  min-width:0;
+  display:flex;
+  gap:12px;
+  overflow-x:auto;
+  overflow-y:visible;
+  padding:4px 2px 2px;
+  overscroll-behavior-x:contain;
+}
+.gp-current-banner-cell{
+  flex:0 0 244px;
+  min-width:0;
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+}
+.gp-current-banner-game{
+  min-width:0;
+  display:flex;
+  align-items:center;
+  gap:7px;
+  padding:0 2px;
+  color:#cfc6f5;
+  font-family:'HSR','Segoe UI',sans-serif;
+  font-size:10px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+.gp-current-banner-game img{
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  object-fit:contain;
+  filter:grayscale(.4) brightness(.82);
+}
+.gp-current-banner-game span{
+  min-width:0;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.gp-current-banner-cell .gp-ban.compact .ban-art-card{ height:126px; }
+.gp-current-banner-cell .gp-ban.compact .inner{ padding:10px 13px; }
+.gp-current-banner-cell .gp-ban.f .ban-name{ font-size:20px; max-width:72%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.gp-current-banner-cell .gp-ban.f .ban-date{ font-size:12px; }
+.gp-current-banner-cell .gp-ban.f .four-icons img,
+.gp-current-banner-cell .gp-ban.f .four-init{ width:24px; height:24px; }
+.gp-current-banner-cell .gp-ban.f .four-init{ font-size:12px; }
+
+.gp-reset-panel{
+  min-width:0;
+  display:flex;
+  flex-direction:column;
+  gap:9px;
+  padding:11px 12px 12px;
+  border-radius:8px;
+  background:linear-gradient(180deg, rgba(30,22,66,.42), rgba(11,8,27,.32));
+  box-shadow:inset 0 0 0 1px rgba(183,170,255,.16);
+}
+.gp-reset-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  font-family:'HSR','Segoe UI',sans-serif;
+  text-transform:uppercase;
+}
+.gp-reset-head span{
+  color:#f4efff;
+  font-size:12px;
+  font-weight:900;
+  letter-spacing:.16em;
+}
+.gp-reset-head b{
+  color:#8f84bd;
+  font-size:9px;
+  letter-spacing:.18em;
+}
+.gp-reset-grid{
+  display:grid;
+  grid-template-columns:repeat(2, minmax(0, 1fr));
+  gap:7px;
+}
+.gp-reset-tile{
+  min-width:0;
+  min-height:50px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  gap:4px;
+  padding:8px 9px;
+  border-radius:7px;
+  background:rgba(11,8,28,.36);
+  box-shadow:inset 0 0 0 1px rgba(183,170,255,.1);
+}
+.gp-reset-tile .k{
+  min-width:0;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  color:#9f95ca;
+  font-family:'HSR','Segoe UI',sans-serif;
+  font-size:9.5px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+.gp-reset-tile .v{
+  color:#f5f1ff;
+  font-family:ui-monospace,'Cascadia Mono',monospace;
+  font-size:12px;
+  letter-spacing:.02em;
+  white-space:nowrap;
+}
 
 .gp-world-row{ display:flex; align-items:center; gap:12px; cursor:pointer; padding:7px 10px;
   border-radius:6px; transition:background .25s; }
@@ -887,6 +1018,8 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 }
 .gp-side-nav,
 .gp-cardrow.scroll,
+.gp-current-banner-row,
+.gp-overview-main,
 .gp-fav-picker,
 .overview-codes-scroll,
 .gp-codes-scroll,
@@ -909,6 +1042,8 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 }
 .gp-side-nav::-webkit-scrollbar,
 .gp-cardrow.scroll::-webkit-scrollbar,
+.gp-current-banner-row::-webkit-scrollbar,
+.gp-overview-main::-webkit-scrollbar,
 .gp-fav-picker::-webkit-scrollbar,
 .overview-codes-scroll::-webkit-scrollbar,
 .gp-codes-scroll::-webkit-scrollbar,

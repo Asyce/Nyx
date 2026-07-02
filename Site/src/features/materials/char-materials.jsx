@@ -89,6 +89,66 @@ function cmLoadIdentityPrefs(){
   }
 }
 
+const CM_SPECIAL_UNIT_DEFAULTS = {
+  gi: { aloy:true },
+  hsr: { archer:true, saber:true, rin_tohsaka:true, gilgamesh:true },
+  wuwa: { lucy:true, rebecca:true },
+};
+const CM_SPECIAL_UNIT_NAMES = {
+  gi: { aloy:['aloy'] },
+  hsr: {
+    archer:['archer'],
+    saber:['saber'],
+    rin_tohsaka:['rin tohsaka', 'rin'],
+    gilgamesh:['gilgamesh'],
+  },
+  wuwa: {
+    lucy:['lucy'],
+    rebecca:['rebecca'],
+  },
+};
+
+function cmNormalizeUnitName(name){
+  return String(name || '').trim().toLowerCase().replace(/\s+/g, ' ');
+}
+
+function cmSanitizeSpecialUnitPrefs(raw){
+  const src = (raw && typeof raw === 'object') ? raw : {};
+  const next = {};
+  Object.keys(CM_SPECIAL_UNIT_DEFAULTS).forEach((gameKey) => {
+    next[gameKey] = Object.assign({}, CM_SPECIAL_UNIT_DEFAULTS[gameKey], src[gameKey] || {});
+    Object.keys(CM_SPECIAL_UNIT_DEFAULTS[gameKey]).forEach((unitKey) => {
+      next[gameKey][unitKey] = next[gameKey][unitKey] !== false;
+    });
+  });
+  return next;
+}
+
+function cmLoadSpecialUnitPrefs(){
+  try {
+    if (typeof window !== 'undefined' && window.NYX_SPECIAL_UNIT_PREFS) {
+      return cmSanitizeSpecialUnitPrefs(window.NYX_SPECIAL_UNIT_PREFS);
+    }
+    const raw = JSON.parse(localStorage.getItem(CM_IDENTITY_SETTINGS_KEY) || '{}');
+    return cmSanitizeSpecialUnitPrefs(raw.specialUnits);
+  } catch (e) {
+    return cmSanitizeSpecialUnitPrefs();
+  }
+}
+
+function cmSpecialUnitKey(gameKey, name){
+  const map = CM_SPECIAL_UNIT_NAMES[gameKey] || {};
+  const n = cmNormalizeUnitName(name);
+  return Object.keys(map).find((key) => (map[key] || []).some((alias) => n === cmNormalizeUnitName(alias))) || null;
+}
+
+function cmSpecialUnitVisible(gameKey, ch, prefs){
+  const unitKey = cmSpecialUnitKey(gameKey, ch && (ch.n || ch.rawName || ch.baseName));
+  if (!unitKey) return true;
+  const safe = cmSanitizeSpecialUnitPrefs(prefs);
+  return !safe[gameKey] || safe[gameKey][unitKey] !== false;
+}
+
 // Genshin ascension is 6 phases unlocked at Lv 20/40/50/60/70/80, each capping
 // the level at 40/50/60/70/80/90. The material quantities per phase are
 // universal (identical for every character — only the gem/boss/specialty/mob
@@ -1157,6 +1217,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
   const [weaponSearch, setWeaponSearch] = React.useState('');
   const [totalIncludeByChar, setTotalIncludeByChar] = React.useState(cmLoadTotalIncludePrefs);
   const [identityPrefs, setIdentityPrefs] = React.useState(cmLoadIdentityPrefs);
+  const [unitPrefs, setUnitPrefs] = React.useState(cmLoadSpecialUnitPrefs);
 
   const betaAvailable = cmHasBeta(gk);
   const liveCfg = CM_CFG[gk] || null;
@@ -1191,7 +1252,16 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
     return () => window.removeEventListener('nyx:identity-changed', onIdentity);
   }, []);
 
-  React.useEffect(() => { setSel(null); }, [identityPrefs, gk]);
+  React.useEffect(() => {
+    const onSettings = (event) => {
+      const next = cmSanitizeSpecialUnitPrefs((event.detail || {}).specialUnits || cmLoadSpecialUnitPrefs());
+      setUnitPrefs(next);
+    };
+    window.addEventListener('nyx:settings-changed', onSettings);
+    return () => window.removeEventListener('nyx:settings-changed', onSettings);
+  }, []);
+
+  React.useEffect(() => { setSel(null); }, [identityPrefs, unitPrefs, gk]);
 
   React.useEffect(() => {
     let live = true;
@@ -1261,7 +1331,9 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
     if (!selectedName) return;
     const activeGame = game || gk;
     const nextCfg = CM_CFG[activeGame] || cfg || { roster:[] };
-    const nextRoster = (nextCfg.roster || []).map((ch) => cmApplyIdentityDisplay(activeGame, ch, identityPrefs));
+    const nextRoster = (nextCfg.roster || [])
+      .map((ch) => cmApplyIdentityDisplay(activeGame, ch, identityPrefs))
+      .filter((ch) => cmSpecialUnitVisible(activeGame, ch, unitPrefs));
     const wanted = String(selectedName).toLowerCase();
     const found = nextRoster.find((ch) => (
       String(ch.n || '').toLowerCase() === wanted
@@ -1275,7 +1347,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
         setActiveGender(form.gender || null);
       }
     }
-  }, [selectedName, game, gk, dataTick, identityPrefs]);
+  }, [selectedName, game, gk, dataTick, identityPrefs, unitPrefs]);
   React.useEffect(() => {
     setWeaponPickerOpen(false);
     setWeaponSearch('');
@@ -1333,7 +1405,9 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly, p
   }
 
   const gMeta = cfg;
-  const displayRoster = (cfg.roster || []).map((ch) => cmApplyIdentityDisplay(gk, ch, identityPrefs));
+  const displayRoster = (cfg.roster || [])
+    .map((ch) => cmApplyIdentityDisplay(gk, ch, identityPrefs))
+    .filter((ch) => cmSpecialUnitVisible(gk, ch, unitPrefs));
   const byName = {};
   displayRoster.forEach(ch => {
     [ch.n, ch.rawName, ch.baseName, ...(ch.aliases || [])].filter(Boolean).forEach((key) => {

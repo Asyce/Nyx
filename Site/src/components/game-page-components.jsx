@@ -194,18 +194,22 @@ function GPMedSim({ on, href, onSwitch }){
    When Nyx itself is active, the eye IS the highlighted medallion. */
 /* fixed game order on every page — the current page's icon is highlighted
    in place (never reordered to the front) so positions stay stable. */
-function GPGameRail({ active, onSwitch, displayGames }){
+function GPGameRail({ active, onSwitch, displayGames, gameIcons }){
   const isNyx = active === 'nyx';
   const visible = (g) => !displayGames || displayGames[g.key] !== false;
   return (
     <div className="gp-game-rail">
       <GPMedSim on={isNyx} href={GP_PAGE_HREF.nyx} onSwitch={onSwitch} />
       <div className="gp-game-rail-icons">
-        {GP_GAMES.filter(g => g.key !== 'nyx' && visible(g)).map(g => (
-          <GPMedallion key={g.key} game={g} size="sm"
-                       on={g.key === active} dim={g.key !== active}
-                       href={GP_PAGE_HREF[g.key]} onSwitch={onSwitch} railRival />
-        ))}
+        {GP_GAMES.filter(g => g.key !== 'nyx' && visible(g)).map(g => {
+          const icon = gameIcons && gameIcons[g.key] ? gameIcons[g.key] : g.icon;
+          const view = icon === g.icon ? g : Object.assign({}, g, { icon });
+          return (
+            <GPMedallion key={g.key} game={view} size="sm"
+                         on={g.key === active} dim={g.key !== active}
+                         href={GP_PAGE_HREF[g.key]} onSwitch={onSwitch} railRival />
+          );
+        })}
       </div>
     </div>
   );

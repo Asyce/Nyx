@@ -118,6 +118,55 @@ function appGameIcon(key){
   return ((window.CM_CFG || {})[key] || {}).icon || null;
 }
 
+const NYX_SPECIAL_UNIT_DEFAULTS = {
+  gi: { aloy:true },
+  hsr: { archer:true, saber:true, rin_tohsaka:true, gilgamesh:true },
+  wuwa: { lucy:true, rebecca:true },
+};
+
+const NYX_SPECIAL_UNIT_NAMES = {
+  gi: { aloy:['aloy'] },
+  hsr: {
+    archer:['archer'],
+    saber:['saber'],
+    rin_tohsaka:['rin tohsaka', 'rin'],
+    gilgamesh:['gilgamesh'],
+  },
+  wuwa: {
+    lucy:['lucy'],
+    rebecca:['rebecca'],
+  },
+};
+
+function normalizeUnitName(name){
+  return String(name || '').trim().toLowerCase().replace(/\s+/g, ' ');
+}
+
+function sanitizeSpecialUnits(raw){
+  const src = (raw && typeof raw === 'object') ? raw : {};
+  const next = {};
+  Object.keys(NYX_SPECIAL_UNIT_DEFAULTS).forEach((gameKey) => {
+    next[gameKey] = Object.assign({}, NYX_SPECIAL_UNIT_DEFAULTS[gameKey], src[gameKey] || {});
+    Object.keys(NYX_SPECIAL_UNIT_DEFAULTS[gameKey]).forEach((unitKey) => {
+      next[gameKey][unitKey] = next[gameKey][unitKey] !== false;
+    });
+  });
+  return next;
+}
+
+function specialUnitKey(gameKey, name){
+  const map = NYX_SPECIAL_UNIT_NAMES[gameKey] || {};
+  const n = normalizeUnitName(name);
+  return Object.keys(map).find((key) => (map[key] || []).some((alias) => n === normalizeUnitName(alias))) || null;
+}
+
+function isSpecialUnitVisible(gameKey, name, settings){
+  const unitKey = specialUnitKey(gameKey, name);
+  if (!unitKey) return true;
+  const prefs = sanitizeSpecialUnits(settings && settings.specialUnits);
+  return !prefs[gameKey] || prefs[gameKey][unitKey] !== false;
+}
+
 function overviewCardArt(cfg, ch, offset = 0){
   const pool = Array.isArray(ch.overviewArtPool)
     ? ch.overviewArtPool.filter(Boolean)
@@ -126,13 +175,14 @@ function overviewCardArt(cfg, ch, offset = 0){
   return pool[Math.abs(Number(offset) || 0) % pool.length];
 }
 
-function makeRoster(cfg){
+function makeRoster(cfg, settings){
   const source = cfg.roster || getCmRoster(cfg.key);
   if (!source || !source.length) return [{ id:cfg.key + '-main', name:cfg.charName, tag:'', art:cfg.art, icon:cfg.benchIcon }];
   const seen = new Set();
   const out = [];
   source.forEach((ch, i) => {
     const name = ch.n || ch.name;
+    if (!isSpecialUnitVisible(cfg.key, name, settings)) return;
     const key = String(name || '').toLowerCase();
     if (key && seen.has(key)) return;
     if (key) seen.add(key);
@@ -523,26 +573,298 @@ function bannerPhaseCards(cfg){
   return cards;
 }
 
+const BANNER_WEAPON_COLLECTIONS = {
+  gi:['weapons'],
+  hsr:['light-cones'],
+  zzz:['w-engines'],
+  wuwa:['weapons'],
+  ae:['weapons'],
+};
+
+const BANNER_WEAPON_TITLES = {
+  gi:'Weapon Event Wish',
+  hsr:'Light Cone Event Warp',
+  zzz:'W-Engine Channel',
+  wuwa:'Weapon Convene',
+  ae:'Weapon Headhunt',
+};
+
+function bannerFeaturedRank(gameKey){
+  if (gameKey === 'zzz') return 4;
+  if (gameKey === 'ae') return 6;
+  return 5;
+}
+
+function bannerSupportRank(gameKey){
+  if (gameKey === 'zzz') return 3;
+  if (gameKey === 'ae') return 5;
+  return 4;
+}
+
+function bannerRarityValue(value){
+  if (value === undefined || value === null || value === '') return 0;
+  if (typeof value === 'number') return value;
+  const text = String(value).trim();
+  if (/^s\b/i.test(text)) return 4;
+  if (/^a\b/i.test(text)) return 3;
+  if (/^b\b/i.test(text)) return 2;
+  const n = text.match(/[0-9]+/);
+  return n ? Number(n[0]) : 0;
+}
+
+function bannerRarityLabel(gameKey, rarity){
+  const r = bannerRarityValue(rarity);
+  if (!r) return '';
+  if (gameKey === 'zzz') return r >= 4 ? 'S' : (r === 3 ? 'A' : 'B');
+  if (gameKey === 'ae') return r + '\u2726';
+  return r + '\u2605';
+}
+
+function dedupeByName(list){
+  const seen = new Set();
+  return (list || []).filter((item) => {
+    const key = normalizeUnitName(item && item.name);
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+function dbCollectionItems(gameKey, keys){
+  const collections = (dbGame(gameKey) && dbGame(gameKey).collections) || [];
+  const wanted = new Set(keys || []);
+  return collections
+    .filter((col) => wanted.has(col.key))
+    .flatMap((col) => (col.items || []).map((item) => Object.assign({ collectionKey:col.key }, item)));
+}
+
+function weaponItemsFor(gameKey){
+  const generated = window.NYX_WEAPONS && window.NYX_WEAPONS[gameKey]
+    ? Object.values(window.NYX_WEAPONS[gameKey]).map((item) => Object.assign({ kind:'weapon' }, item))
+    : [];
+  const collection = dbCollectionItems(gameKey, BANNER_WEAPON_COLLECTIONS[gameKey] || ['weapons']);
+  return dedupeByName([...generated, ...collection]).map((item) => {
+    const rarity = bannerRarityValue(item.rarity || item.fields?.rarity);
+    return {
+      name:item.name,
+      icon:item.icon || item.art,
+      art:item.art || item.icon,
+      rarity,
+      badge:bannerRarityLabel(gameKey, rarity),
+    };
+  }).filter((item) => item.name && (item.icon || item.art));
+}
+
+function rosterUnitMap(gameCfg){
+  const map = new Map();
+  makeRoster(gameCfg).forEach((ch) => {
+    [ch.name, ch.rawName, ...(ch.aliases || [])].filter(Boolean).forEach((name) => {
+      const key = normalizeUnitName(name);
+      if (key && !map.has(key)) map.set(key, ch);
+    });
+  });
+  return map;
+}
+
+function phaseUnit(gameCfg, ch, rosterMap, index){
+  const name = ch.name || ch.n || '';
+  const match = rosterMap.get(normalizeUnitName(name));
+  const rarity = bannerRarityValue(ch.rarity || ch.r || match?.rarity);
+  const art = ch.namecard || ch.art || match?.art || ch.imageFallback || ch.image || match?.icon || gameCfg.art;
+  const icon = ch.icon || ch.image || ch.imageFallback || match?.icon || art;
+  return {
+    name,
+    icon,
+    art,
+    rarity,
+    badge:bannerRarityLabel(gameCfg.key, rarity || bannerFeaturedRank(gameCfg.key)),
+    order:index,
+  };
+}
+
+function fallbackRosterUnits(gameCfg, wantedRank, excludeNames, limit){
+  const blocked = excludeNames || new Set();
+  return makeRoster(gameCfg)
+    .filter((ch) => !blocked.has(normalizeUnitName(ch.name)))
+    .map((ch) => {
+      const rarity = bannerRarityValue(ch.rarity);
+      return {
+        name:ch.name,
+        icon:ch.icon,
+        art:ch.art,
+        rarity,
+        badge:bannerRarityLabel(gameCfg.key, rarity),
+      };
+    })
+    .filter((ch) => ch.rarity === wantedRank)
+    .slice(0, limit || 6);
+}
+
+function characterBannerCard(gameCfg, source){
+  const group = dbBannerGroup(gameCfg.key);
+  const phase = group && group.current;
+  const chars = (phase && phase.characters) || [];
+  const rosterMap = rosterUnitMap(gameCfg);
+  const units = dedupeByName(chars.map((ch, i) => phaseUnit(gameCfg, ch, rosterMap, i))).filter((ch) => ch.name);
+  if (!units.length) {
+    const fallback = fallbackRosterUnits(gameCfg, bannerFeaturedRank(gameCfg.key), new Set(), 2);
+    if (!fallback.length) return null;
+    const low = fallbackRosterUnits(gameCfg, bannerSupportRank(gameCfg.key), new Set(fallback.map((x) => normalizeUnitName(x.name))), 4);
+    return {
+      kind:'character',
+      category:'Character',
+      title:gameCfg.banner?.title || 'Character Banner',
+      status:'Ongoing',
+      featured:fallback,
+      supports:low,
+      supportLabel:'4-Star Characters',
+      time:gameCfg.banner?.time || 'Date pending',
+      pct:gameCfg.banner?.pct || 42,
+      artPool:fallback.map((u) => u.art).filter(Boolean),
+      game:source || gameCfg,
+    };
+  }
+  const featuredRank = bannerFeaturedRank(gameCfg.key);
+  const supportRank = bannerSupportRank(gameCfg.key);
+  const featured = units.filter((unit) => !unit.rarity || unit.rarity >= featuredRank);
+  const leads = featured.length ? featured : units.slice(0, Math.min(2, units.length));
+  const excluded = new Set(leads.map((unit) => normalizeUnitName(unit.name)));
+  const explicitSupports = units.filter((unit) => unit.rarity === supportRank && !excluded.has(normalizeUnitName(unit.name)));
+  const supports = explicitSupports.length ? explicitSupports : fallbackRosterUnits(gameCfg, supportRank, excluded, 4);
+  return {
+    kind:'character',
+    category:'Character',
+    title:phase.phase || gameCfg.banner?.title || 'Character Banner',
+    status:'Ongoing',
+    featured:leads,
+    supports,
+    supportLabel:'4-Star Characters',
+    time:phaseTimeLabel(phase) || gameCfg.banner?.time || 'Date pending',
+    pct:phasePct(phase, gameCfg.banner?.pct || 42),
+    artPool:leads.map((unit) => unit.art).filter(Boolean),
+    game:source || gameCfg,
+  };
+}
+
+function weaponBannerCard(gameCfg, source){
+  const items = weaponItemsFor(gameCfg.key);
+  if (!items.length) return null;
+  const featuredRank = bannerFeaturedRank(gameCfg.key);
+  const supportRank = bannerSupportRank(gameCfg.key);
+  const featured = items.filter((item) => item.rarity >= featuredRank).slice(0, 2);
+  const supports = items.filter((item) => item.rarity === supportRank).slice(0, 5);
+  if (!featured.length && !supports.length) return null;
+  const phase = dbBannerGroup(gameCfg.key)?.current;
+  return {
+    kind:'weapon',
+    category:gameCfg.key === 'hsr' ? 'Light Cone' : (gameCfg.key === 'zzz' ? 'W-Engine' : 'Weapon'),
+    title:BANNER_WEAPON_TITLES[gameCfg.key] || 'Weapon Banner',
+    status:'Ongoing',
+    featured:featured.length ? featured : items.slice(0, 2),
+    supports,
+    supportLabel:gameCfg.key === 'zzz' ? 'A-Rank Weapons' : '4-Star Weapons',
+    time:phaseTimeLabel(phase) || gameCfg.banner?.time || 'Date pending',
+    pct:phasePct(phase, gameCfg.banner?.pct || 42),
+    artPool:(featured.length ? featured : items.slice(0, 2)).map((item) => item.art || item.icon).filter(Boolean),
+    game:source || gameCfg,
+  };
+}
+
+function chronicleBannerCard(gameCfg, source){
+  if (gameCfg.key !== 'gi') return null;
+  const roster = makeRoster(gameCfg).filter((ch) => bannerRarityValue(ch.rarity) >= 5);
+  const weapons = weaponItemsFor(gameCfg.key).filter((item) => item.rarity >= 5);
+  if (!roster.length && !weapons.length) return null;
+  const featured = roster.map((ch) => ({
+    name:ch.name,
+    icon:ch.icon,
+    art:ch.art,
+    rarity:5,
+    badge:'5\u2605',
+  }));
+  const phase = dbBannerGroup(gameCfg.key)?.current;
+  return {
+    kind:'chronicle',
+    category:'Chronicle',
+    title:'Chronicled Wish',
+    status:'Ongoing',
+    featured,
+    supports:weapons,
+    supportLabel:'5-Star Weapons',
+    time:phaseTimeLabel(phase) || 'Selection banner',
+    pct:phasePct(phase, 42),
+    artPool:featured.map((item) => item.art).filter(Boolean),
+    game:source || gameCfg,
+  };
+}
+
 function currentBannerCards(cfg){
   const buildFor = (gameCfg, source) => {
-    const cards = bannerPhaseCards(gameCfg).filter((card) => card.status === 'Ongoing');
-    if (cards.length) {
-      return cards.map((card) => Object.assign({}, card, { game:source || gameCfg }));
-    }
-    const b = gameCfg.banner || {};
-    return [{
-      title:b.title || 'Current Banner',
-      status:'Current',
-      five:'5\u2605 ' + (b.five || gameCfg.charName || gameCfg.name),
-      chips:(b.fours || []).map((name) => ({ key:name, text:name })),
-      time:b.time || 'Date pending',
-      pct:b.pct || 42,
-      art:b.art || gameCfg.art,
-      game:source || gameCfg,
-    }];
+    return [
+      characterBannerCard(gameCfg, source),
+      weaponBannerCard(gameCfg, source),
+      chronicleBannerCard(gameCfg, source),
+    ].filter(Boolean);
   };
   if (cfg.key !== 'nyx') return buildFor(cfg);
   return SIM_GAMES.flatMap((game) => buildFor(GAME_REGISTRY[game.key], game));
+}
+
+function OverviewBannerCard({ card, index, showGame }){
+  const artPool = (card.artPool || []).filter(Boolean);
+  const [artIndex, setArtIndex] = React.useState(0);
+  React.useEffect(() => {
+    setArtIndex(0);
+    if (artPool.length < 2) return undefined;
+    const id = setInterval(() => setArtIndex((idx) => (idx + 1) % artPool.length), 4200);
+    return () => clearInterval(id);
+  }, [artPool.join('|')]);
+  const art = artPool.length ? artPool[artIndex % artPool.length] : (card.featured?.[0]?.art || card.game?.bg || card.game?.art);
+  const gameIcon = card.game?.icon || GAME_REGISTRY[card.game?.key]?.benchIcon;
+  return (
+    <article className={'gp-oban kind-' + card.kind} style={{ '--pct':(card.pct || 42) + '%' }}>
+      <div className="gp-oban-art" style={{ backgroundImage:bgUrl(art) }}></div>
+      <div className="gp-oban-shade"></div>
+      <div className="gp-oban-body">
+        <div className="gp-oban-top">
+          <span className="gp-oban-cat">{card.category}</span>
+          {showGame && card.game && (
+            <span className="gp-oban-game">
+              {gameIcon && <img src={gameIcon} alt="" draggable="false" />}
+              <span>{card.game.name}</span>
+            </span>
+          )}
+        </div>
+        <div className="gp-oban-title">{card.title}</div>
+        <div className="gp-oban-featured" aria-label={card.category + ' featured'}>
+          {(card.featured || []).map((unit) => (
+            <span key={unit.name} className="gp-oban-unit" title={unit.name}>
+              {unit.icon && <img src={unit.icon} alt="" draggable="false" />}
+              <b>{unit.name}</b>
+              {unit.badge && <em>{unit.badge}</em>}
+            </span>
+          ))}
+        </div>
+        {!!(card.supports || []).length && (
+          <div className="gp-oban-supports">
+            <span>{card.supportLabel}</span>
+            <div>
+              {card.supports.map((unit) => (
+                <i key={unit.name} title={unit.name}>
+                  {unit.icon && <img src={unit.icon} alt="" draggable="false" />}
+                  <b>{unit.name}</b>
+                </i>
+              ))}
+            </div>
+          </div>
+        )}
+        <div className="gp-oban-foot">
+          <span>{card.time}</span>
+          <i></i>
+        </div>
+      </div>
+    </article>
+  );
 }
 
 function CurrentBannerStrip({ cfg }){
@@ -552,26 +874,12 @@ function CurrentBannerStrip({ cfg }){
     <section className="gp-current-banners" aria-label="Current banners">
       <div className="gp-current-banners-head">
         <GPSec title="Current Banners" icon="../assets/decor/orbit_burst.png" style={{ flex:1, minWidth:0 }} />
-        <span>{cards.length} active</span>
+        <span>{cards.length} categories</span>
       </div>
       <div className="gp-current-banner-row">
         {cards.map((card, i) => (
-          <div className="gp-current-banner-cell" key={(card.game?.key || cfg.key) + '-' + card.five + '-' + i}>
-            {cfg.key === 'nyx' && card.game && (
-              <div className="gp-current-banner-game">
-                <img src={card.game.icon || GAME_REGISTRY[card.game.key]?.benchIcon} alt="" draggable="false" />
-                <span>{card.game.name}</span>
-              </div>
-            )}
-            <GPBanner compact h={126}
-              art={card.art || GAME_REGISTRY[card.game?.key]?.art || cfg.art}
-              title={card.title}
-              status={card.status}
-              five={card.five}
-              fiveIcon={card.fiveIcon}
-              chips={card.chips}
-              time={card.time}
-              pct={card.pct} />
+          <div className="gp-current-banner-cell" key={(card.game?.key || cfg.key) + '-' + card.kind + '-' + i}>
+            <OverviewBannerCard card={card} index={i} showGame={cfg.key === 'nyx'} />
           </div>
         ))}
       </div>
@@ -640,12 +948,66 @@ function durationParts(ms){
   return d > 0 ? d + 'd ' + pad(h) + 'h ' + pad(m) + 'm' : pad(h) + 'h ' + pad(m) + 'm ' + pad(s) + 's';
 }
 
+function customTimerKey(gameKey){
+  return 'nyx:custom-reset-timers:' + (gameKey || 'nyx') + ':v1';
+}
+
+function loadCustomTimers(gameKey){
+  try {
+    const rows = JSON.parse(localStorage.getItem(customTimerKey(gameKey)) || '[]');
+    return Array.isArray(rows)
+      ? rows.filter((row) => row && row.label && Number.isFinite(Number(row.target))).map((row) => ({
+        id:String(row.id || row.label + '-' + row.target),
+        label:String(row.label).slice(0, 42),
+        target:Number(row.target),
+      }))
+      : [];
+  } catch (e) {
+    return [];
+  }
+}
+
+function saveCustomTimers(gameKey, rows){
+  try { localStorage.setItem(customTimerKey(gameKey), JSON.stringify(rows)); } catch (e) {}
+}
+
+function datetimeLocalValue(ts){
+  const d = new Date(ts);
+  if (!Number.isFinite(d.getTime())) return '';
+  const pad = (n) => String(n).padStart(2, '0');
+  return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()) + 'T' + pad(d.getHours()) + ':' + pad(d.getMinutes());
+}
+
 function ResetTimersPanel({ gameKey }){
   const [now, setNow] = React.useState(Date.now());
+  const [custom, setCustom] = React.useState(() => loadCustomTimers(gameKey));
+  const [label, setLabel] = React.useState('');
+  const [target, setTarget] = React.useState(() => datetimeLocalValue(Date.now() + RESET_MS.day));
   React.useEffect(() => {
     const id = setInterval(() => setNow(Date.now()), 1000);
     return () => clearInterval(id);
   }, [gameKey]);
+  React.useEffect(() => {
+    setCustom(loadCustomTimers(gameKey));
+    setLabel('');
+    setTarget(datetimeLocalValue(Date.now() + RESET_MS.day));
+  }, [gameKey]);
+  const commitCustom = (fn) => {
+    setCustom((prev) => {
+      const next = fn(prev).slice(0, 12);
+      saveCustomTimers(gameKey, next);
+      return next;
+    });
+  };
+  const addTimer = () => {
+    const clean = label.trim();
+    const ts = new Date(target).getTime();
+    if (!clean || !Number.isFinite(ts)) return;
+    commitCustom((prev) => [...prev, { id:String(Date.now()) + '-' + Math.random().toString(16).slice(2), label:clean, target:ts }]);
+    setLabel('');
+    setTarget(datetimeLocalValue(Date.now() + RESET_MS.day));
+  };
+  const removeTimer = (id) => commitCustom((prev) => prev.filter((row) => row.id !== id));
   const rows = resetTimerRows(now);
   return (
     <section className="gp-reset-panel" aria-label="Reset timers">
@@ -660,6 +1022,22 @@ function ResetTimersPanel({ gameKey }){
             <span className="v">{durationParts(row.target - now)}</span>
           </div>
         ))}
+      </div>
+      {custom.length > 0 && (
+        <div className="gp-reset-custom">
+          {custom.map((row) => (
+            <div className="gp-reset-tile custom" key={row.id}>
+              <span className="k">{row.label}</span>
+              <span className="v">{row.target > now ? durationParts(row.target - now) : 'Expired'}</span>
+              <button type="button" aria-label={'Remove ' + row.label} title="Remove custom timer" onClick={() => removeTimer(row.id)}>x</button>
+            </div>
+          ))}
+        </div>
+      )}
+      <div className="gp-reset-form" aria-label="Add custom timer">
+        <input value={label} placeholder="Custom timer" maxLength="42" onChange={(e) => setLabel(e.target.value)} />
+        <input type="datetime-local" value={target} onChange={(e) => setTarget(e.target.value)} />
+        <button type="button" onClick={addTimer} disabled={!label.trim()}>Add</button>
       </div>
     </section>
   );
@@ -787,6 +1165,10 @@ function pinnedStorageKey(key){
   return 'nyx:pinned-favourites:' + key + ':v1';
 }
 
+function favsCollapsedStorageKey(key){
+  return 'nyx:pinned-favourites-collapsed:' + key + ':v1';
+}
+
 function pinnedSeed(cfg, roster){
   const names = PINNED_DEFAULTS[cfg.key] || [];
   const byName = new Map(roster.map((ch) => [String(ch.name || '').toLowerCase(), ch]));
@@ -808,12 +1190,16 @@ function savePinnedCards(cfg, cards){
   try { localStorage.setItem(pinnedStorageKey(cfg.key), JSON.stringify(cards.map((ch) => ch.id))); } catch (e) {}
 }
 
-function Favourites({ cfg, onOpenMaterial }){
+function Favourites({ cfg, onOpenMaterial, settings }){
   const cmVersion = useCmGameVersion(cfg.key);
-  const roster = React.useMemo(() => makeRoster(cfg), [cfg.key, cmVersion]);
+  const specialKey = JSON.stringify(settings?.specialUnits || {});
+  const roster = React.useMemo(() => makeRoster(cfg, settings), [cfg.key, cmVersion, specialKey]);
   const [cards, setCards] = React.useState(() => loadPinnedCards(cfg, roster));
   const [hov, setHov] = React.useState(null);
   const [manage, setManage] = React.useState(false);
+  const [collapsed, setCollapsed] = React.useState(() => {
+    try { return localStorage.getItem(favsCollapsedStorageKey(cfg.key)) === '1'; } catch (e) { return false; }
+  });
   const [q, setQ] = React.useState('');
   const [w, setW] = React.useState(900);
   const ref = React.useRef(null);
@@ -823,6 +1209,7 @@ function Favourites({ cfg, onOpenMaterial }){
     setHov(null);
     setManage(false);
     setQ('');
+    try { setCollapsed(localStorage.getItem(favsCollapsedStorageKey(cfg.key)) === '1'); } catch (e) { setCollapsed(false); }
   }, [cfg.key, roster]);
 
   React.useEffect(() => {
@@ -839,6 +1226,14 @@ function Favourites({ cfg, onOpenMaterial }){
       return next;
     });
   };
+  const toggleCollapsed = () => {
+    setCollapsed((prev) => {
+      const next = !prev;
+      try { localStorage.setItem(favsCollapsedStorageKey(cfg.key), next ? '1' : '0'); } catch (e) {}
+      if (next) setManage(false);
+      return next;
+    });
+  };
 
   const GAP = 16, ADDW = 72;
   const n = cards.length;
@@ -847,7 +1242,7 @@ function Favourites({ cfg, onOpenMaterial }){
   const pinnedIds = new Set(cards.map((ch) => ch.id));
   const candidates = roster.filter((ch) => !pinnedIds.has(ch.id) && match(ch)).slice(0, qq ? 24 : 12);
   const isFull = cards.length >= 5;
-  const hasAdd = manage && candidates.length > 0 && !isFull;
+  const hasAdd = manage && !collapsed && candidates.length > 0 && !isFull;
   const fixed = (hasAdd ? ADDW + GAP : 0) + (n > 1 ? (n - 1) * GAP : 0);
   let cardW = n > 0 ? Math.floor((w - fixed) / n) : 0;
   cardW = Math.max(152, Math.min(200, cardW));
@@ -890,10 +1285,10 @@ function Favourites({ cfg, onOpenMaterial }){
   });
 
   return (
-    <div ref={ref} className={'gp-favs game-' + cfg.key + (manage ? ' manage' : '')} style={{ width:'100%' }}>
+    <div ref={ref} className={'gp-favs game-' + cfg.key + (manage ? ' manage' : '') + (collapsed ? ' collapsed' : '')} style={{ width:'100%' }}>
       <div style={{ display:'flex', alignItems:'center', gap:'16px' }}>
         <GPSec title="Pinned Favourites" icon="../assets/decor/orbit_burst.png" style={{ flex:1, minWidth:0 }} />
-        {manage && <div className="gp-search-wrap">
+        {manage && !collapsed && <div className="gp-search-wrap">
           <div className="gp-search">
             <span className="ic"></span>
             <input value={q} placeholder="Search Characters" spellCheck="false"
@@ -901,18 +1296,23 @@ function Favourites({ cfg, onOpenMaterial }){
             {q !== '' && <button type="button" className="x" title="Clear" onClick={() => setQ('')}>{'\u2715'}</button>}
           </div>
         </div>}
-        <GPHex small fixw on={manage} onClick={() => setManage(m => !m)}>
+        <GPHex small fixw on={!collapsed} onClick={toggleCollapsed}>
+          <span>{collapsed ? 'Show' : 'Hide'}</span>
+        </GPHex>
+        <GPHex small fixw on={manage} onClick={() => { if (collapsed) toggleCollapsed(); setManage(m => !m); }}>
           <span>{manage ? 'Done' : 'Edit'}</span>
         </GPHex>
       </div>
-      <div className={'gp-cardrow' + (scroll ? ' scroll' : '')}
-           style={{ justifyContent: scroll ? 'flex-start' : 'center' }}>
-        {cards.map((c, i) => (
-          <FavCardI key={c.id} ch={c} idx={i} w={cardW} hgt={cardH} dt={isDt('card', i)} faded={!match(c)} h={h} art={cfg.art} manage={manage} count={cards.length} />
-        ))}
-        {hasAdd && <AddSlot hgt={cardH} dt={isDt('add', 0)} h={h} />}
-      </div>
-      {manage && (
+      {!collapsed && (
+        <div className={'gp-cardrow' + (scroll ? ' scroll' : '')}
+             style={{ justifyContent: scroll ? 'flex-start' : 'center' }}>
+          {cards.map((c, i) => (
+            <FavCardI key={c.id} ch={c} idx={i} w={cardW} hgt={cardH} dt={isDt('card', i)} faded={!match(c)} h={h} art={cfg.art} manage={manage} count={cards.length} />
+          ))}
+          {hasAdd && <AddSlot hgt={cardH} dt={isDt('add', 0)} h={h} />}
+        </div>
+      )}
+      {manage && !collapsed && (
         <div className="gp-fav-picker">
           {candidates.map((ch) => (
             <button
@@ -1014,23 +1414,6 @@ function CodesPanel({ codes, gameKey = 'nyx' }){
   };
   const premiumRows = rows.filter(r => r.premium).sort(sortRedeemedLast);
   const plainRows = rows.filter(r => !r.premium).sort(sortRedeemedLast);
-  // G5: the "N more below" hint reflects how many code rows are still below the
-  // scroll fold, recomputed live on scroll/resize (not a static count).
-  const scrollRef = React.useRef(null);
-  const [belowCount, setBelowCount] = React.useState(0);
-  const recountBelow = React.useCallback(() => {
-    const el = scrollRef.current;
-    if (!el) return;
-    const fold = el.getBoundingClientRect().bottom;
-    let n = 0;
-    el.querySelectorAll('.gp-code-row').forEach((r) => { if (r.getBoundingClientRect().top > fold - 6) n += 1; });
-    setBelowCount(n);
-  }, []);
-  React.useEffect(() => {
-    recountBelow();
-    window.addEventListener('resize', recountBelow);
-    return () => window.removeEventListener('resize', recountBelow);
-  }, [recountBelow, rows.length]);
 
   const renderGroup = (kind, list) => (
     list.length === 0 ? null : (
@@ -1053,16 +1436,11 @@ function CodesPanel({ codes, gameKey = 'nyx' }){
 
   return (
     <React.Fragment>
-      <div className="overview-codes-scroll" ref={scrollRef} onScroll={recountBelow}>
+      <div className="overview-codes-scroll">
         {renderGroup('premium', premiumRows)}
         {renderGroup('other', plainRows)}
         {rows.length === 0 && <div className="code-empty">No redemption codes found.</div>}
       </div>
-      {belowCount > 0 && (
-        <div className="codes-more-hint" aria-hidden="true">
-          <span className="chev">{'⌄'}</span>{belowCount} more below
-        </div>
-      )}
     </React.Fragment>
   );
 }
@@ -1070,11 +1448,10 @@ function CodesPanel({ codes, gameKey = 'nyx' }){
 /* shared overview right rail */
 function OverviewAside({ cfg }){
   return (
-    <aside style={{ display:'flex', flexDirection:'column', gap:'12px', minWidth:0, minHeight:0 }}>
+    <aside className="gp-overview-aside">
       <ResetTimersPanel gameKey={cfg.key} />
       <GPSec title="Redemption Codes" />
       <CodesPanel codes={cfg.codes} gameKey={cfg.key} />
-      <BannerFreshnessNote fresh={bannerFreshness(cfg.key)} />
     </aside>
   );
 }
@@ -1406,8 +1783,8 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings }
 
       {tab === 'overview' && (
         <main className="gp-main-pane gp-overview-main">
+          <Favourites key={cfg.key} cfg={cfg} onOpenMaterial={onOpenMaterial} settings={settings} />
           <CurrentBannerStrip cfg={cfg} />
-          <Favourites key={cfg.key} cfg={cfg} onOpenMaterial={onOpenMaterial} />
         </main>
       )}
       {tab === 'mats' && (
@@ -1453,8 +1830,8 @@ function SimContent({ tab, setTab, onOpenMaterial, settings, setSettings }){
       </nav>
       {tab === 'overview' && (
         <main className="gp-main-pane gp-overview-main">
+          <Favourites key="nyx" cfg={NYX_META} onOpenMaterial={onOpenMaterial} settings={settings} />
           <CurrentBannerStrip cfg={NYX_META} />
-          <Favourites key="nyx" cfg={NYX_META} onOpenMaterial={onOpenMaterial} />
         </main>
       )}
       {tab === 'pulls' && <main className="gp-main-pane fill"><PullsOverview /></main>}
@@ -1506,7 +1883,9 @@ const NYX_PENGO_DEFAULTS = {
   animation: 'play',
   khaenriah: false,
   displayGames: NYX_PENGO_DISPLAY_DEFAULTS,
+  gameIcons: {},
   identity: NYX_IDENTITY_DEFAULTS,
+  specialUnits: NYX_SPECIAL_UNIT_DEFAULTS,
   lapis: false,
   energy: 35,
   spawn: 1,
@@ -1529,13 +1908,24 @@ function sanitizeNyxIdentity(raw){
   return next;
 }
 
+function sanitizeGameIcons(raw){
+  const src = (raw && typeof raw === 'object') ? raw : {};
+  const next = {};
+  SIM_GAMES.forEach((game) => {
+    if (typeof src[game.key] === 'string' && src[game.key]) next[game.key] = src[game.key];
+  });
+  return next;
+}
+
 function loadPengoSettings(){
   try {
     const raw = JSON.parse(localStorage.getItem(NYX_PENGO_SETTINGS_KEY) || '{}');
     return Object.assign({}, NYX_PENGO_DEFAULTS, raw, {
       animation: ['play', 'pause', 'stop'].includes(raw.animation) ? raw.animation : NYX_PENGO_DEFAULTS.animation,
       displayGames: Object.assign({}, NYX_PENGO_DISPLAY_DEFAULTS, raw.displayGames || {}),
+      gameIcons: sanitizeGameIcons(raw.gameIcons),
       identity: sanitizeNyxIdentity(raw.identity),
+      specialUnits: sanitizeSpecialUnits(raw.specialUnits),
       energy: clampPengoNumber(raw.energy ?? NYX_PENGO_DEFAULTS.energy, 1, 69),
       spawn: clampPengoNumber(raw.spawn ?? NYX_PENGO_DEFAULTS.spawn, 0, 9999),
       sacrifice: clampPengoNumber(raw.sacrifice ?? NYX_PENGO_DEFAULTS.sacrifice, 0, 9999),
@@ -1545,9 +1935,101 @@ function loadPengoSettings(){
   }
 }
 
+const SETTINGS_IDENTITY_BY_GAME = { gi:'twin', hsr:'receptacle', zzz:'sibling', wuwa:'rover', ae:'endmin' };
+const SETTINGS_SPECIAL_TOGGLES = {
+  gi:[['aloy', 'Display Aloy']],
+  hsr:[['archer', 'Display Archer'], ['saber', 'Display Saber'], ['rin_tohsaka', 'Display Rin Tohsaka'], ['gilgamesh', 'Display Gilgamesh']],
+  wuwa:[['lucy', 'Display Lucy'], ['rebecca', 'Display Rebecca']],
+};
+
+function gameIconOptions(gameKey){
+  const sim = SIM_GAMES.find((game) => game.key === gameKey);
+  const cfg = GAME_REGISTRY[gameKey];
+  const out = [];
+  if (sim) out.push({ id:'default', name:'Default', icon:sim.icon, group:'Game', defaultIcon:true });
+  if (cfg) {
+    makeRoster(cfg).forEach((ch) => {
+      if (ch.icon) out.push({ id:'char-' + ch.id, name:ch.name, icon:ch.icon, group:'Characters' });
+      (ch.forms || []).forEach((form, i) => {
+        if (form.icon) out.push({ id:'form-' + ch.id + '-' + i, name:form.label || form.name || ch.name, icon:form.icon, group:'Characters' });
+      });
+    });
+  }
+  const identityAssets = (typeof CM_IDENTITY_ASSETS !== 'undefined' && CM_IDENTITY_ASSETS[gameKey]) ? CM_IDENTITY_ASSETS[gameKey] : {};
+  Object.keys(identityAssets).forEach((key) => {
+    const row = identityAssets[key];
+    if (row.icon) out.push({ id:'avatar-' + key, name:row.label || key, icon:row.icon, group:'Avatars' });
+  });
+  weaponItemsFor(gameKey).forEach((item) => {
+    if (item.icon || item.art) out.push({ id:'weapon-' + item.name, name:item.name, icon:item.icon || item.art, group:'Equipment' });
+  });
+  const collections = (dbGame(gameKey)?.collections || []);
+  collections.forEach((col) => {
+    (col.items || []).forEach((item) => {
+      const icon = item.icon || item.art;
+      if (icon) out.push({ id:'db-' + col.key + '-' + (item.id || item.name), name:item.name, icon, group:col.title || col.key });
+    });
+  });
+  const seen = new Set();
+  return out.filter((item) => {
+    const key = normalizeUnitName(item.name) + '|' + item.icon;
+    if (!item.icon || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+function GameIconPicker({ game, selected, onPick }){
+  const [open, setOpen] = React.useState(false);
+  const [q, setQ] = React.useState('');
+  const ref = React.useRef(null);
+  const options = React.useMemo(() => gameIconOptions(game.key), [game.key]);
+  const activeIcon = selected || game.icon;
+  const query = q.trim().toLowerCase();
+  const visible = options.filter((item) => !query || [item.name, item.group].join(' ').toLowerCase().includes(query));
+  React.useEffect(() => {
+    if (!open) return undefined;
+    const onDoc = (event) => {
+      if (ref.current && event.target instanceof Node && !ref.current.contains(event.target)) setOpen(false);
+    };
+    document.addEventListener('mousedown', onDoc);
+    return () => document.removeEventListener('mousedown', onDoc);
+  }, [open]);
+  return (
+    <div className="pm-icon-picker" ref={ref}>
+      <button type="button" className="pm-icon-trigger" onClick={() => setOpen((v) => !v)}
+              aria-expanded={open} aria-label={'Select ' + game.name + ' icon'}>
+        <img src={activeIcon} alt="" draggable="false" />
+        <span>Select Game Icon</span>
+      </button>
+      {open && (
+        <div className="pm-icon-pop">
+          <div className="pm-icon-search">
+            <input value={q} placeholder="Search icons" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
+          </div>
+          <div className="pm-icon-grid">
+            {visible.map((item) => (
+              <button type="button" key={item.id} title={item.group + ': ' + item.name}
+                      className={item.icon === activeIcon ? 'on' : ''}
+                      onClick={() => { onPick(item.defaultIcon ? null : item.icon); setOpen(false); }}>
+                <img src={item.icon} alt="" draggable="false" />
+                <span>{item.name}</span>
+              </button>
+            ))}
+            {visible.length === 0 && <div className="pm-icon-empty">No icons found.</div>}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
 function PengoMenu({ settings, setSettings, inline }){
   const update = (patch) => setSettings((prev) => Object.assign({}, prev, patch));
   const identity = sanitizeNyxIdentity(settings.identity);
+  const gameIcons = sanitizeGameIcons(settings.gameIcons);
+  const specialUnits = sanitizeSpecialUnits(settings.specialUnits);
+  const displayGames = Object.assign({}, NYX_PENGO_DISPLAY_DEFAULTS, settings.displayGames || {});
   const setIdentity = (group, value) => update({ identity:Object.assign({}, identity, { [group]:value }) });
   const opusCount = clampPengoNumber(settings.spawn ?? settings.sacrifice ?? NYX_PENGO_DEFAULTS.spawn, 0, 9999);
   const setOpusCount = (value) => {
@@ -1556,15 +2038,23 @@ function PengoMenu({ settings, setSettings, inline }){
   };
   const bumpOpusCount = (delta) => setOpusCount(opusCount + delta);
   const toggleDisplayGame = (key) => update({
-    displayGames: Object.assign({}, NYX_PENGO_DISPLAY_DEFAULTS, settings.displayGames || {}, {
-      [key]: !((settings.displayGames || {})[key] !== false),
+    displayGames:Object.assign({}, displayGames, { [key]:displayGames[key] === false }),
+  });
+  const setGameIcon = (key, icon) => {
+    const next = Object.assign({}, gameIcons);
+    if (icon) next[key] = icon;
+    else delete next[key];
+    update({ gameIcons:next });
+  };
+  const toggleSpecial = (gameKey, unitKey) => update({
+    specialUnits:Object.assign({}, specialUnits, {
+      [gameKey]:Object.assign({}, specialUnits[gameKey] || {}, { [unitKey]:(specialUnits[gameKey] || {})[unitKey] === false }),
     }),
   });
   const resetInterface = () => update({
     whispers: NYX_PENGO_DEFAULTS.whispers,
     animation: NYX_PENGO_DEFAULTS.animation,
     khaenriah: NYX_PENGO_DEFAULTS.khaenriah,
-    displayGames: Object.assign({}, NYX_PENGO_DISPLAY_DEFAULTS),
   });
   const resetOpus = () => update({
     lapis: NYX_PENGO_DEFAULTS.lapis,
@@ -1575,84 +2065,102 @@ function PengoMenu({ settings, setSettings, inline }){
   const nextAnim = settings.animation === 'play' ? 'pause' : (settings.animation === 'pause' ? 'stop' : 'play');
   const animIcon = settings.animation === 'play' ? '\u25b6' : (settings.animation === 'pause' ? '\u23f8' : '\u25a0');
   return (
-    <div className={'nyx-pengo-menu' + (inline ? ' as-tab' : '')}
+    <div className={'nyx-pengo-menu settings-board' + (inline ? ' as-tab' : '')}
          role={inline ? 'region' : 'dialog'}
          aria-label="Pengo settings"
          onClick={(e) => e.stopPropagation()}>
-      <section className="pm-section pm-opus">
-        <h3>Magnum Opus Pengonis</h3>
-        <button type="button" className="pm-row" data-tip="Power assistant Pengo On/Off"
-                onClick={() => update({ lapis:!settings.lapis })}>
-          <span>Lapis Philosophorum</span><b className="pm-state">{settings.lapis ? 'On' : 'Off'}</b>
-        </button>
-        <label className="pm-slider" data-tip="Change how much energy is being poured into Pengo. Size change.">
-          <span>Energy</span>
-          <input type="range" min="1" max="69" value={settings.energy}
-                 onChange={(e) => update({ energy:clampPengoNumber(e.target.value, 1, 69) })} />
-        </label>
-        <div className="pm-opus-actions">
-          <button type="button" className="pm-action" data-tip="Summon more Pengo assistants to keep you company!">Summon</button>
-          <button type="button" className="pm-action" data-tip="Every Pengo returns to the Void. There, they await your inevitable arrival, ready to serve once more.">Sacrifice</button>
-          <div className="pm-stepper" aria-label="Pengo count">
-            <button type="button" aria-label="Decrease Pengo count" onClick={() => bumpOpusCount(-1)}>-</button>
-            <input type="text" inputMode="numeric" pattern="[0-9]*" value={opusCount}
-                   aria-label="Pengo count" onChange={(e) => setOpusCount(e.target.value)} />
-            <button type="button" aria-label="Increase Pengo count" onClick={() => bumpOpusCount(1)}>+</button>
-          </div>
-        </div>
-        <button type="button" className="pm-reset" data-tip="Reset the Magnum Opus Pengonis to default" onClick={resetOpus}>Reset</button>
-      </section>
-      <section className="pm-section pm-interface">
-        <h3>Interface</h3>
-        <button type="button" className={'pm-row media ' + settings.animation}
-                data-tip="Turns On/Freezes/Off the rotating background"
-                onClick={() => update({ animation:nextAnim })}>
-          <span>Background Animation</span><b className="pm-state">{animIcon}</b>
-        </button>
-        <button type="button" className="pm-row" data-tip="Turns floating background on/off"
-                onClick={() => update({ whispers:!settings.whispers })}>
-          <span>Nyx Whispers</span><b className="pm-state">{settings.whispers ? 'On' : 'Off'}</b>
-        </button>
-        <button type="button" className="pm-row" data-tip="Change all fonts to the Ancient(Khaenri'ahn) Script"
-                onClick={() => update({ khaenriah:!settings.khaenriah })}>
-          <span>Welcome to Khaenri'ah</span><b className="pm-state">{settings.khaenriah ? 'On' : 'Off'}</b>
-        </button>
-        <div className="pm-display-games">
-          <span>Display Games</span>
-          <div className="pm-game-icons" aria-label="Display games">
-            {SIM_GAMES.map((game) => {
-              const on = (settings.displayGames || {})[game.key] !== false;
-              return (
-                <button key={game.key} type="button" className={on ? 'on' : ''} title={game.name}
-                        aria-label={'Display ' + game.name} aria-pressed={on}
-                        onClick={() => toggleDisplayGame(game.key)}>
-                  <img src={game.icon} alt="" draggable="false" />
-                </button>
-              );
-            })}
-          </div>
-        </div>
-        <button type="button" className="pm-reset" data-tip="Reset the interface to default" onClick={resetInterface}>Reset</button>
-      </section>
-      <section className="pm-section pm-identity">
-        <h3>Who are you?</h3>
-        <div className="pm-identity-list">
-          {NYX_IDENTITY_GROUPS.map((group) => (
-            <div key={group.key} className="pm-identity-row" data-tip={group.tip}>
-              <span>{group.label}</span>
-              <div className="pm-choice-set" role="group" aria-label={group.label}>
-                {group.options.map(([key, label]) => (
-                  <button key={key} type="button" className={identity[group.key] === key ? 'on' : ''}
-                          aria-pressed={identity[group.key] === key}
-                          onClick={() => setIdentity(group.key, key)}>
-                    {label}
-                  </button>
-                ))}
-              </div>
+      <div className="settings-nyx-col">
+        <section className="pm-section pm-opus">
+          <h3>Magnum Opus Pengonis</h3>
+          <button type="button" className="pm-row" data-tip="Power assistant Pengo On/Off"
+                  onClick={() => update({ lapis:!settings.lapis })}>
+            <span>Lapis Philosophorum</span><b className="pm-state">{settings.lapis ? 'On' : 'Off'}</b>
+          </button>
+          <label className="pm-slider" data-tip="Change how much energy is being poured into Pengo. Size change.">
+            <span>Energy</span>
+            <input type="range" min="1" max="69" value={settings.energy}
+                   onChange={(e) => update({ energy:clampPengoNumber(e.target.value, 1, 69) })} />
+          </label>
+          <div className="pm-opus-actions">
+            <button type="button" className="pm-action" data-tip="Summon more Pengo assistants to keep you company!">Summon</button>
+            <button type="button" className="pm-action" data-tip="Every Pengo returns to the Void. There, they await your inevitable arrival, ready to serve once more.">Sacrifice</button>
+            <div className="pm-stepper" aria-label="Pengo count">
+              <button type="button" aria-label="Decrease Pengo count" onClick={() => bumpOpusCount(-1)}>-</button>
+              <input type="text" inputMode="numeric" pattern="[0-9]*" value={opusCount}
+                     aria-label="Pengo count" onChange={(e) => setOpusCount(e.target.value)} />
+              <button type="button" aria-label="Increase Pengo count" onClick={() => bumpOpusCount(1)}>+</button>
             </div>
-          ))}
-        </div>
-      </section>
+          </div>
+          <button type="button" className="pm-reset" data-tip="Reset the Magnum Opus Pengonis to default" onClick={resetOpus}>Reset</button>
+        </section>
+        <section className="pm-section pm-interface">
+          <h3>Interface</h3>
+          <button type="button" className={'pm-row media ' + settings.animation}
+                  data-tip="Turns On/Freezes/Off the rotating background"
+                  onClick={() => update({ animation:nextAnim })}>
+            <span>Background Animation</span><b className="pm-state">{animIcon}</b>
+          </button>
+          <button type="button" className="pm-row" data-tip="Turns floating background on/off"
+                  onClick={() => update({ whispers:!settings.whispers })}>
+            <span>Nyx Whispers</span><b className="pm-state">{settings.whispers ? 'On' : 'Off'}</b>
+          </button>
+          <button type="button" className="pm-row" data-tip="Change all fonts to the Ancient(Khaenri'ahn) Script"
+                  onClick={() => update({ khaenriah:!settings.khaenriah })}>
+            <span>Welcome to Khaenri'ah</span><b className="pm-state">{settings.khaenriah ? 'On' : 'Off'}</b>
+          </button>
+          <button type="button" className="pm-reset" data-tip="Reset the interface to default" onClick={resetInterface}>Reset</button>
+        </section>
+      </div>
+      <div className="settings-games-col">
+        {SIM_GAMES.map((game) => {
+          const groupKey = SETTINGS_IDENTITY_BY_GAME[game.key];
+          const group = NYX_IDENTITY_GROUPS.find((row) => row.key === groupKey);
+          const specials = SETTINGS_SPECIAL_TOGGLES[game.key] || [];
+          const gameOn = displayGames[game.key] !== false;
+          return (
+            <section className="pm-section pm-game-section" key={game.key}>
+              <div className="pm-game-head">
+                <img src={gameIcons[game.key] || game.icon} alt="" draggable="false" />
+                <h3>{game.name}</h3>
+              </div>
+              <button type="button" className="pm-row" onClick={() => toggleDisplayGame(game.key)}>
+                <span>Display Game</span><b className="pm-state">{gameOn ? 'On' : 'Off'}</b>
+              </button>
+              <div className="pm-identity-row pm-icon-row">
+                <span>Select Game Icon</span>
+                <GameIconPicker game={game} selected={gameIcons[game.key]} onPick={(icon) => setGameIcon(game.key, icon)} />
+              </div>
+              {group && (
+                <div className="pm-identity-row" data-tip={group.tip}>
+                  <span>{group.label}</span>
+                  <div className="pm-choice-set" role="group" aria-label={group.label}>
+                    {group.options.map(([key, label]) => (
+                      <button key={key} type="button" className={identity[group.key] === key ? 'on' : ''}
+                              aria-pressed={identity[group.key] === key}
+                              onClick={() => setIdentity(group.key, key)}>
+                        {label}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+              {specials.length > 0 && (
+                <div className="pm-special-list">
+                  {specials.map(([unitKey, label]) => {
+                    const on = (specialUnits[game.key] || {})[unitKey] !== false;
+                    return (
+                      <button type="button" key={unitKey} className={'pm-row' + (on ? ' on' : '')}
+                              aria-pressed={on} onClick={() => toggleSpecial(game.key, unitKey)}>
+                        <span>{label}</span><b className="pm-state">{on ? 'On' : 'Off'}</b>
+                      </button>
+                    );
+                  })}
+                </div>
+              )}
+            </section>
+          );
+        })}
+      </div>
     </div>
   );
 }
@@ -1705,7 +2213,9 @@ function NyxApp(){
     try { localStorage.setItem(NYX_PENGO_SETTINGS_KEY, JSON.stringify(pengoSettings)); } catch (e) {}
     const identity = sanitizeNyxIdentity(pengoSettings.identity);
     window.NYX_IDENTITY_PREFS = identity;
+    window.NYX_SPECIAL_UNIT_PREFS = sanitizeSpecialUnits(pengoSettings.specialUnits);
     try { window.dispatchEvent(new CustomEvent('nyx:identity-changed', { detail:identity })); } catch (e) {}
+    try { window.dispatchEvent(new CustomEvent('nyx:settings-changed', { detail:pengoSettings })); } catch (e) {}
     const root = document.documentElement;
     root.classList.toggle('nyx-whispers-off', !pengoSettings.whispers);
     root.classList.toggle('nyx-pattern-paused', pengoSettings.animation === 'pause');
@@ -1752,6 +2262,7 @@ function NyxApp(){
       '.db-grid',
       '.sim-gbangrid',
       '.gp-overview-main',
+      '.gp-overview-aside',
       '.gp-codes-scroll',
       '.overview-codes-scroll',
       '.gp-current-banner-row',
@@ -1797,7 +2308,7 @@ function NyxApp(){
       const candidates = contentScrollTargets
         .flatMap((selector) => Array.from(document.querySelectorAll(selector)))
         .filter((el) => canScrollY(el, event.deltaY));
-      const preferred = candidates.find((el) => el.matches('.cm-pop-main,.cm-pop.ledger .cm-pop-layout,.cm-body,.gt-results,.db-grid,.sim-gbangrid,.gp-overview-main,.gp-codes-scroll,.overview-codes-scroll,.settings-pane,.nyx-pengo-menu.as-tab')) || candidates[0];
+      const preferred = candidates.find((el) => el.matches('.cm-pop-main,.cm-pop.ledger .cm-pop-layout,.cm-body,.gt-results,.db-grid,.sim-gbangrid,.gp-overview-main,.gp-overview-aside,.gp-codes-scroll,.overview-codes-scroll,.settings-pane,.nyx-pengo-menu.as-tab')) || candidates[0];
       if (!preferred) return;
       event.preventDefault();
       preferred.scrollBy({ top:event.deltaY, left:0, behavior:'auto' });
@@ -1865,7 +2376,7 @@ function NyxApp(){
           </span>
         </a>
         <div className="tb-center">
-          <GPGameRail active={activeKey} onSwitch={switchGame} displayGames={pengoSettings.displayGames} />
+          <GPGameRail active={activeKey} onSwitch={switchGame} displayGames={pengoSettings.displayGames} gameIcons={pengoSettings.gameIcons} />
         </div>
       </header>
 

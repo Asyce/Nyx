@@ -3329,7 +3329,7 @@
             "name": "Onikabuto",
             "id": 101201,
             "count": 3,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Treasure Hoarder Insignia",
@@ -3358,7 +3358,7 @@
             "name": "Onikabuto",
             "id": 101201,
             "count": 10,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Treasure Hoarder Insignia",
@@ -3387,7 +3387,7 @@
             "name": "Onikabuto",
             "id": 101201,
             "count": 20,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Silver Raven Insignia",
@@ -3416,7 +3416,7 @@
             "name": "Onikabuto",
             "id": 101201,
             "count": 30,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Silver Raven Insignia",
@@ -3445,7 +3445,7 @@
             "name": "Onikabuto",
             "id": 101201,
             "count": 45,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Golden Raven Insignia",
@@ -3474,7 +3474,7 @@
             "name": "Onikabuto",
             "id": 101201,
             "count": 60,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Golden Raven Insignia",
@@ -4323,21 +4323,6 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "poise": {
-        "level": "LV2",
-        "value": 5
-      },
-      "element": "Wind",
-      "attack_type": "Default",
-      "strike_type": "Default",
-      "damage_param": "Heizo_FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
       "gauge": 1,
       "poise": {
         "level": "LV3",
@@ -4363,6 +4348,21 @@
       "attack_type": "Default",
       "strike_type": "Default",
       "damage_param": "Heizo_FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Heizo_FallingAnthem_Normal_Loop_Damage"
     }
   ],
   "energy": [

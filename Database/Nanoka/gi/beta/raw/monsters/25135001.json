@@ -1,0 +1,196 @@
+{
+  "name": "Frostbite Arcane Mage",
+  "desc": "Snegovik, born for love amidst the Cryo and snow.\\nThe females among the Snegovik are called Snegurochka, and most of them are born as Mages capable of freely wielding the power of Cryo and snow. Legend has it that Snegovik were created with incomplete souls, and must fall in love with a human to become Perfect.\\nBut do Snegovik still need love after becoming Perfect? Perhaps the answer is no.\\nThis is perhaps the reason why so many Stories of Snegovik and humans falling in love ultimately end in tragedy.",
+  "icon": "UI_MonsterIcon_Human_Female_Staff_Snegurochka",
+  "codex": "BEAST",
+  "title": "Snegovik forged from Frostbite",
+  "special_names": [
+    "Frostbite Arcane Mage"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112148,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112148"
+    },
+    {
+      "id": 112147,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112147"
+    },
+    {
+      "id": 112146,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112146"
+    }
+  ],
+  "child": {
+    "25135001": {
+      "monster_name": "Human_Female_Staff_Snegurochka_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010016,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.3,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 16.3008,
+        "atk": 32.656,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25135002": {
+      "monster_name": "Human_Female_Staff_Snegurochka_01_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010016,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.3,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 16.3008,
+        "atk": 32.656,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25135003": {
+      "monster_name": "Human_Female_Staff_Snegurochka_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.3,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 4.57189,
+        "atk": 58.575787,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25135004": {
+      "monster_name": "Human_Female_Staff_Snegurochka_01_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.3,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 4.57189,
+        "atk": 58.575787,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

@@ -3388,7 +3388,7 @@
             "name": "Spring of the First Dewdrop",
             "id": 101240,
             "count": 3,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Transoceanic Pearl",
@@ -3417,7 +3417,7 @@
             "name": "Spring of the First Dewdrop",
             "id": 101240,
             "count": 10,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Transoceanic Pearl",
@@ -3446,7 +3446,7 @@
             "name": "Spring of the First Dewdrop",
             "id": 101240,
             "count": 20,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Transoceanic Chunk",
@@ -3475,7 +3475,7 @@
             "name": "Spring of the First Dewdrop",
             "id": 101240,
             "count": 30,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Transoceanic Chunk",
@@ -3504,7 +3504,7 @@
             "name": "Spring of the First Dewdrop",
             "id": 101240,
             "count": 45,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Xenochromatic Crystal",
@@ -3533,7 +3533,7 @@
             "name": "Spring of the First Dewdrop",
             "id": 101240,
             "count": 60,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Xenochromatic Crystal",
@@ -4381,36 +4381,6 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "poise": {
-        "level": "LV2",
-        "value": 35
-      },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Slash",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
-      "poise": {
-        "level": "LV2",
-        "value": 35
-      },
-      "element": "Rock",
-      "attack_type": "Melee",
-      "strike_type": "Slash",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
       "gauge": 1,
       "poise": {
         "level": "LV4",
@@ -4468,6 +4438,36 @@
       "attack_type": "Melee",
       "strike_type": "Blunt",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     }
   ],
   "energy": [

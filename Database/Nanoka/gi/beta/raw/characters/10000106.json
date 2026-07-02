@@ -3419,7 +3419,7 @@
             "name": "Withering Purpurbloom",
             "id": 101253,
             "count": 3,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Sentry's Wooden Whistle",
@@ -3448,7 +3448,7 @@
             "name": "Withering Purpurbloom",
             "id": 101253,
             "count": 10,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Sentry's Wooden Whistle",
@@ -3477,7 +3477,7 @@
             "name": "Withering Purpurbloom",
             "id": 101253,
             "count": 20,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Warrior's Metal Whistle",
@@ -3506,7 +3506,7 @@
             "name": "Withering Purpurbloom",
             "id": 101253,
             "count": 30,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Warrior's Metal Whistle",
@@ -3535,7 +3535,7 @@
             "name": "Withering Purpurbloom",
             "id": 101253,
             "count": 45,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Saurian-Crowned Warrior's Golden Whistle",
@@ -3564,7 +3564,7 @@
             "name": "Withering Purpurbloom",
             "id": 101253,
             "count": 60,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Saurian-Crowned Warrior's Golden Whistle",
@@ -4222,13 +4222,13 @@
       },
       "gauge": 1,
       "poise": {
-        "level": "LV4",
-        "value": 150
+        "level": "LV7",
+        "value": 200
       },
       "element": "None",
       "attack_type": "Melee",
       "strike_type": "Blunt",
-      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
     },
     {
       "name": "FallingAnthem",
@@ -4238,13 +4238,13 @@
       },
       "gauge": 1,
       "poise": {
-        "level": "LV7",
-        "value": 200
+        "level": "LV4",
+        "value": 150
       },
       "element": "None",
       "attack_type": "Melee",
       "strike_type": "Blunt",
-      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
     },
     {
       "name": "FallingAnthem",

@@ -1,7 +1,7 @@
 [
   {
     "id": "10001",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Resolution of Sojourner",
     "rarity": [
       1,
@@ -17,7 +17,7 @@
     "setEffects": [
       {
         "id": "2100010",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Resolution of Sojourner",
         "description": "ATK +18%.",
         "params": [
@@ -36,12 +36,10 @@
             "value": 0.18
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -62,16 +60,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -160,12 +155,12 @@
     ],
     "liveComparison": {
       "liveHash": "deacf8287a08ddf0ef94d8245b50b9bbc69a099052eb839be38e0ed2e8692589",
-      "currentHash": "deacf8287a08ddf0ef94d8245b50b9bbc69a099052eb839be38e0ed2e8692589"
+      "currentHash": "47d12f3b13ac1f7e23ee8d633b2a94d8503e00660bbac523c8b336a86b5103ab"
     }
   },
   {
     "id": "10002",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Brave Heart",
     "rarity": [
       1,
@@ -181,7 +176,7 @@
     "setEffects": [
       {
         "id": "2100020",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Brave Heart",
         "description": "ATK +18%.",
         "params": [
@@ -200,12 +195,10 @@
             "value": 0.18
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -226,16 +219,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -324,12 +314,12 @@
     ],
     "liveComparison": {
       "liveHash": "0cd1b21c683ae24c8e618054571683ceb30e3c1f5a42c20c439432718300c7e2",
-      "currentHash": "0cd1b21c683ae24c8e618054571683ceb30e3c1f5a42c20c439432718300c7e2"
+      "currentHash": "945644691f1970bd5632ade495cfc3470639136c6c0eba41d7144e5cb8165568"
     }
   },
   {
     "id": "10003",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Defender's Will",
     "rarity": [
       1,
@@ -345,7 +335,7 @@
     "setEffects": [
       {
         "id": "2100030",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Defender's Will",
         "description": "DEF +30%",
         "params": [
@@ -364,12 +354,10 @@
             "value": 0.3
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -390,16 +378,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -488,12 +473,12 @@
     ],
     "liveComparison": {
       "liveHash": "f18c2fff14359775900a3832739afc58efe0e776ac86175521ffd9a3a65b93ac",
-      "currentHash": "f18c2fff14359775900a3832739afc58efe0e776ac86175521ffd9a3a65b93ac"
+      "currentHash": "3b472727395f559b0df7dbc98c137af46cc55d61d627843946fa9510a0f3db85"
     }
   },
   {
     "id": "10004",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Tiny Miracle",
     "rarity": [
       1,
@@ -509,7 +494,7 @@
     "setEffects": [
       {
         "id": "2100040",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Tiny Miracle",
         "description": "All Elemental RES increased by 20%.",
         "params": [
@@ -524,16 +509,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -554,16 +536,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -652,12 +631,12 @@
     ],
     "liveComparison": {
       "liveHash": "19252550bba9ced77c077cc0f1ba5878b58eacbb2b9e7d992eefd91e7d4108f8",
-      "currentHash": "19252550bba9ced77c077cc0f1ba5878b58eacbb2b9e7d992eefd91e7d4108f8"
+      "currentHash": "4cebf0e0fa35cc75f02b7f5b7b75fee32c2d3ed1504e89a6d161a85f70596e9e"
     }
   },
   {
     "id": "10005",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Berserker",
     "rarity": [
       1,
@@ -673,7 +652,7 @@
     "setEffects": [
       {
         "id": "2100050",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Berserker",
         "description": "CRIT Rate +12%",
         "params": [
@@ -692,12 +671,10 @@
             "value": 0.12
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -718,16 +695,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -816,12 +790,12 @@
     ],
     "liveComparison": {
       "liveHash": "40fe18034ad7e3fed20ac8f80885387cb9014627c6507150dc235c1cad4c92ad",
-      "currentHash": "40fe18034ad7e3fed20ac8f80885387cb9014627c6507150dc235c1cad4c92ad"
+      "currentHash": "1964b33bfaf30ae3e025b26a634a447bfc3b485c4c83a3724026e33f4723d0ae"
     }
   },
   {
     "id": "10006",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Martial Artist",
     "rarity": [
       1,
@@ -837,7 +811,7 @@
     "setEffects": [
       {
         "id": "2100060",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Martial Artist",
         "description": "Normal and Charged Attack DMG +15%",
         "params": [
@@ -852,16 +826,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -882,16 +853,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -980,12 +948,12 @@
     ],
     "liveComparison": {
       "liveHash": "45b1d5080f21cd0eb9cdaa0737b031a12c3d143c4f67b417d89e0e211e977b2a",
-      "currentHash": "45b1d5080f21cd0eb9cdaa0737b031a12c3d143c4f67b417d89e0e211e977b2a"
+      "currentHash": "05233d6de8ac822dd942b4d69cf62c20b79f624cf3b99859b001cde3ed6484e8"
     }
   },
   {
     "id": "10007",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Instructor",
     "rarity": [
       1,
@@ -1001,7 +969,7 @@
     "setEffects": [
       {
         "id": "2100070",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Instructor",
         "description": "Increases Elemental Mastery by 80.",
         "params": [
@@ -1020,12 +988,10 @@
             "value": 80
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -1046,16 +1012,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -1144,12 +1107,12 @@
     ],
     "liveComparison": {
       "liveHash": "3eea48fbcdc0cf4a28738bb9cc23f46cb1942ce60660e7c9066dae8c40f13610",
-      "currentHash": "3eea48fbcdc0cf4a28738bb9cc23f46cb1942ce60660e7c9066dae8c40f13610"
+      "currentHash": "ee86096cac60164dc3b7fa3a51cf20ef8c3cc154bc4258bdab55e038cec9d1b3"
     }
   },
   {
     "id": "10008",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Gambler",
     "rarity": [
       2,
@@ -1164,7 +1127,7 @@
     "setEffects": [
       {
         "id": "2100080",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Gambler",
         "description": "Increases Elemental Skill DMG by 20%.",
         "params": [
@@ -1179,16 +1142,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -1209,16 +1169,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -1307,12 +1264,12 @@
     ],
     "liveComparison": {
       "liveHash": "9a2bc7190f490cfd90ed06b56cd23c396bcce7e78cf215f9e2cae8af87c1582e",
-      "currentHash": "9a2bc7190f490cfd90ed06b56cd23c396bcce7e78cf215f9e2cae8af87c1582e"
+      "currentHash": "f9cd88c3dd41665d7e2f9fc1f0c3fdd7969d127c78328067ed5fe1bb305e3e3d"
     }
   },
   {
     "id": "10009",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "The Exile",
     "rarity": [
       1,
@@ -1328,7 +1285,7 @@
     "setEffects": [
       {
         "id": "2100090",
-        "pieces": 2,
+        "pieces": 4,
         "name": "The Exile",
         "description": "Energy Recharge +20%",
         "params": [
@@ -1347,12 +1304,10 @@
             "value": 0.2
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -1373,16 +1328,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -1471,12 +1423,12 @@
     ],
     "liveComparison": {
       "liveHash": "0b38dfc973932d8e2d8cc31a8ded16b0563263c2a9ddcd98c6f760607941e203",
-      "currentHash": "0b38dfc973932d8e2d8cc31a8ded16b0563263c2a9ddcd98c6f760607941e203"
+      "currentHash": "ff3892e26f003d9ea401133cf252ef47bf57327a0eace4a26b9432c0d2ce6c36"
     }
   },
   {
     "id": "10010",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Adventurer",
     "rarity": [
       1,
@@ -1491,7 +1443,7 @@
     "setEffects": [
       {
         "id": "2100100",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Adventurer",
         "description": "Max HP increased by 1,000.",
         "params": [
@@ -1510,12 +1462,10 @@
             "value": 1000
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -1536,16 +1486,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -1634,12 +1581,12 @@
     ],
     "liveComparison": {
       "liveHash": "b986fa88a2e71ed5f82b99a80383f9108767372682be3eda64c99b42cedffebb",
-      "currentHash": "b986fa88a2e71ed5f82b99a80383f9108767372682be3eda64c99b42cedffebb"
+      "currentHash": "2d69a102df10d2094d34a44fc804337df5ab575ed725633545ca7bcd196881e9"
     }
   },
   {
     "id": "10011",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Lucky Dog",
     "rarity": [
       1,
@@ -1654,7 +1601,7 @@
     "setEffects": [
       {
         "id": "2100110",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Lucky Dog",
         "description": "DEF increased by 100.",
         "params": [
@@ -1673,12 +1620,10 @@
             "value": 100
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -1699,16 +1644,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -1797,12 +1739,12 @@
     ],
     "liveComparison": {
       "liveHash": "6570d47b4c350965c02b045e4b46e0eda19a19909a5f92b7883b287f689fe728",
-      "currentHash": "6570d47b4c350965c02b045e4b46e0eda19a19909a5f92b7883b287f689fe728"
+      "currentHash": "0c66436a1a9a7630b7f0c48dbada69ac3242e0a65b59b872184edd4e1f74f831"
     }
   },
   {
     "id": "10012",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Scholar",
     "rarity": [
       1,
@@ -1818,7 +1760,7 @@
     "setEffects": [
       {
         "id": "2100120",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Scholar",
         "description": "Energy Recharge +20%",
         "params": [
@@ -1837,12 +1779,10 @@
             "value": 0.2
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -1863,16 +1803,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -1961,12 +1898,12 @@
     ],
     "liveComparison": {
       "liveHash": "802a44aab113814d730dc31e1ac8ecc68133a1ed6057ea4c23e3b1e24ba21595",
-      "currentHash": "802a44aab113814d730dc31e1ac8ecc68133a1ed6057ea4c23e3b1e24ba21595"
+      "currentHash": "bd4aa1abe85520af1a64dccd23d2729fc85d799ab4d99cb5433bcb32366a8ea4"
     }
   },
   {
     "id": "10013",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Traveling Doctor",
     "rarity": [
       1,
@@ -1981,7 +1918,7 @@
     "setEffects": [
       {
         "id": "2100130",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Traveling Doctor",
         "description": "Increases incoming healing by 20%.",
         "params": [
@@ -2000,12 +1937,10 @@
             "value": 0.2
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -2026,16 +1961,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -2124,12 +2056,12 @@
     ],
     "liveComparison": {
       "liveHash": "d50151a77e0bc1ab8e0f0862002d795469e3c9a5f71efb06f8dada653365ab4c",
-      "currentHash": "d50151a77e0bc1ab8e0f0862002d795469e3c9a5f71efb06f8dada653365ab4c"
+      "currentHash": "847505d2857b30fa2e09514e9af0d92e0ff122095566715eb978165d9b0e4753"
     }
   },
   {
     "id": "14001",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Blizzard Strayer",
     "rarity": [
       3,
@@ -2143,7 +2075,7 @@
     "setEffects": [
       {
         "id": "2140010",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Blizzard Strayer",
         "description": "Cryo DMG Bonus +15%",
         "params": [
@@ -2162,12 +2094,10 @@
             "value": 0.15
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -2188,16 +2118,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -2281,12 +2208,12 @@
     ],
     "liveComparison": {
       "liveHash": "0a762d04b6d52c0048ac0b4b741f47c45197392e10b3ac01ddc4ac15295a265b",
-      "currentHash": "0a762d04b6d52c0048ac0b4b741f47c45197392e10b3ac01ddc4ac15295a265b"
+      "currentHash": "e458b69c257dede68eba6ebf6bc2a275a25196c0b4ca1bf239a56f813d314372"
     }
   },
   {
     "id": "14002",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Thundersoother",
     "rarity": [
       3,
@@ -2300,7 +2227,7 @@
     "setEffects": [
       {
         "id": "2140020",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Thundersoother",
         "description": "Electro RES increased by 40%.",
         "params": [
@@ -2319,12 +2246,10 @@
             "value": 0.4
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -2345,16 +2270,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -2443,12 +2365,12 @@
     ],
     "liveComparison": {
       "liveHash": "f43a429fd577a5de0a455af16aca8d63d44703875abb2251896088d7502198cc",
-      "currentHash": "f43a429fd577a5de0a455af16aca8d63d44703875abb2251896088d7502198cc"
+      "currentHash": "fcd63fcadeeca5c961b7975aa087cfec0f91f4335f24d9ca98512336fc238e2d"
     }
   },
   {
     "id": "14003",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Lavawalker",
     "rarity": [
       3,
@@ -2462,7 +2384,7 @@
     "setEffects": [
       {
         "id": "2140030",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Lavawalker",
         "description": "Pyro RES increased by 40%.",
         "params": [
@@ -2481,12 +2403,10 @@
             "value": 0.4
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -2507,16 +2427,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -2605,12 +2522,12 @@
     ],
     "liveComparison": {
       "liveHash": "a179853633223380bda564f1e9657bee9c5038c96bfa2a8b3002ab34abf53795",
-      "currentHash": "a179853633223380bda564f1e9657bee9c5038c96bfa2a8b3002ab34abf53795"
+      "currentHash": "13fa8d23d4d5b57339138b1d0a99e4eb70e8f372fc152f11f47e5b9869e84f2a"
     }
   },
   {
     "id": "14004",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Maiden Beloved",
     "rarity": [
       3,
@@ -2624,7 +2541,7 @@
     "setEffects": [
       {
         "id": "2140040",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Maiden Beloved",
         "description": "Character Healing Effectiveness +15%",
         "params": [
@@ -2643,12 +2560,10 @@
             "value": 0.15
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -2669,16 +2584,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -2762,12 +2674,12 @@
     ],
     "liveComparison": {
       "liveHash": "8279fd59b6963bd2626030d3fde430d0a228f4872b4285b3b968bb4a1994f0a9",
-      "currentHash": "8279fd59b6963bd2626030d3fde430d0a228f4872b4285b3b968bb4a1994f0a9"
+      "currentHash": "715b64e9fd3e9c0d2895b0e218540d867e90cbe3dfacb1740bdf4661e2929501"
     }
   },
   {
     "id": "15001",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Gladiator's Finale",
     "rarity": [
       3,
@@ -2781,7 +2693,7 @@
     "setEffects": [
       {
         "id": "2150010",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Gladiator's Finale",
         "description": "ATK +18%.",
         "params": [
@@ -2800,12 +2712,10 @@
             "value": 0.18
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -2826,16 +2736,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -2919,12 +2826,12 @@
     ],
     "liveComparison": {
       "liveHash": "9d2b3495734764dd884de5fe06468cee3b97de3081b3953042d72006960c1a48",
-      "currentHash": "9d2b3495734764dd884de5fe06468cee3b97de3081b3953042d72006960c1a48"
+      "currentHash": "912b993205a22083a98d0fe9d1d204faa370932352a0bb278c77a8b00368a481"
     }
   },
   {
     "id": "15002",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Viridescent Venerer",
     "rarity": [
       3,
@@ -2938,7 +2845,7 @@
     "setEffects": [
       {
         "id": "2150020",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Viridescent Venerer",
         "description": "Anemo DMG Bonus +15%",
         "params": [
@@ -2957,12 +2864,10 @@
             "value": 0.15
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -2970,7 +2875,7 @@
         "id": "2150021",
         "pieces": 4,
         "name": "Viridescent Venerer",
-        "description": "Increases Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s.",
+        "description": "Increases Swirl and Star Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s.",
         "params": [
           0.6,
           0.4,
@@ -2983,16 +2888,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -3076,12 +2978,12 @@
     ],
     "liveComparison": {
       "liveHash": "b353f40963f8c35395e14535dd86e281f706bb994cd1c4e1f776e4ae89cf44a9",
-      "currentHash": "b353f40963f8c35395e14535dd86e281f706bb994cd1c4e1f776e4ae89cf44a9"
+      "currentHash": "3123cc28a9572e984c5a82efcdde4acca176f22eb75151aa936cf57b30a5563a"
     }
   },
   {
     "id": "15003",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Wanderer's Troupe",
     "rarity": [
       3,
@@ -3095,7 +2997,7 @@
     "setEffects": [
       {
         "id": "2150030",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Wanderer's Troupe",
         "description": "Increases Elemental Mastery by 80.",
         "params": [
@@ -3114,12 +3016,10 @@
             "value": 80
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -3140,16 +3040,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -3238,12 +3135,12 @@
     ],
     "liveComparison": {
       "liveHash": "0a60d94b3d332c8bcd84eca4340d39fc246b58fc4efac388c0a22e83ff4c7e0a",
-      "currentHash": "0a60d94b3d332c8bcd84eca4340d39fc246b58fc4efac388c0a22e83ff4c7e0a"
+      "currentHash": "be43b08cc1a09968d9696458e82e287f3722ba75f2a5350f3f923eed49794561"
     }
   },
   {
     "id": "15004",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Glacier and Snowfield",
     "rarity": [
       3,
@@ -3257,7 +3154,7 @@
     "setEffects": [
       {
         "id": "2150040",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Glacier and Snowfield",
         "description": "Cryo DMG Bonus +15%",
         "params": [
@@ -3276,12 +3173,10 @@
             "value": 0.15
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -3302,16 +3197,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -3400,12 +3292,12 @@
     ],
     "liveComparison": {
       "liveHash": "f90a3d7e439a6faee290fe3c16739ae43bd5bbbb67c2a3e0398a15389c0e9993",
-      "currentHash": "f90a3d7e439a6faee290fe3c16739ae43bd5bbbb67c2a3e0398a15389c0e9993"
+      "currentHash": "4c50ea070b5bb594250a98f0b4ad5e6b6580b8d504e57cfa28303c9dff7c4e6e"
     }
   },
   {
     "id": "15005",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Thundering Fury",
     "rarity": [
       3,
@@ -3419,7 +3311,7 @@
     "setEffects": [
       {
         "id": "2150050",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Thundering Fury",
         "description": "Electro DMG Bonus +15%",
         "params": [
@@ -3438,12 +3330,10 @@
             "value": 0.15
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -3464,16 +3354,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -3557,12 +3444,12 @@
     ],
     "liveComparison": {
       "liveHash": "07571f3d9aa61e33690f93b4c0036796313db6bed8cbec4112251fb3ed254274",
-      "currentHash": "07571f3d9aa61e33690f93b4c0036796313db6bed8cbec4112251fb3ed254274"
+      "currentHash": "42156fc3fad78cc834b0e304f185b774a99fea50bd4e80623db1bb71690719bf"
     }
   },
   {
     "id": "15006",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Crimson Witch of Flames",
     "rarity": [
       3,
@@ -3576,7 +3463,7 @@
     "setEffects": [
       {
         "id": "2150060",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Crimson Witch of Flames",
         "description": "Pyro DMG Bonus +15%",
         "params": [
@@ -3595,12 +3482,10 @@
             "value": 0.15
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -3621,16 +3506,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -3714,12 +3596,12 @@
     ],
     "liveComparison": {
       "liveHash": "5c685181451a45cdafcd32221d12deb73919c91fe7f85f9d43927dce790b190f",
-      "currentHash": "5c685181451a45cdafcd32221d12deb73919c91fe7f85f9d43927dce790b190f"
+      "currentHash": "81c0d0869b91f2cd32c076742046eb9130ed284903f9006546e9e8ddc6b7d05d"
     }
   },
   {
     "id": "15007",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Noblesse Oblige",
     "rarity": [
       3,
@@ -3733,7 +3615,7 @@
     "setEffects": [
       {
         "id": "2150070",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Noblesse Oblige",
         "description": "Elemental Burst DMG +20%",
         "params": [
@@ -3748,16 +3630,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -3778,16 +3657,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -3871,12 +3747,12 @@
     ],
     "liveComparison": {
       "liveHash": "742266f0c5ef49e62b23eb47abe13dfa0bee96727b8c79395ff268dde740e566",
-      "currentHash": "742266f0c5ef49e62b23eb47abe13dfa0bee96727b8c79395ff268dde740e566"
+      "currentHash": "bb4d767f77406d9d5c8ddf930a29f900d045e9c1427c1e75453425e676519791"
     }
   },
   {
     "id": "15008",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Bloodstained Chivalry",
     "rarity": [
       3,
@@ -3890,7 +3766,7 @@
     "setEffects": [
       {
         "id": "2150080",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Bloodstained Chivalry",
         "description": "Physical DMG +25%",
         "params": [
@@ -3909,12 +3785,10 @@
             "value": 0.25
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -3935,16 +3809,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -4028,12 +3899,12 @@
     ],
     "liveComparison": {
       "liveHash": "3bd5ebf7d90df0782939f3cae20e289c895e76166465ae3ed851c0b3781b5a38",
-      "currentHash": "3bd5ebf7d90df0782939f3cae20e289c895e76166465ae3ed851c0b3781b5a38"
+      "currentHash": "0ba86df2907f4f90bdb95aa7f189bf47836a277837261e2e11434cb516cff52f"
     }
   },
   {
     "id": "15009",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Prayers for Illumination",
     "rarity": [
       3,
@@ -4047,7 +3918,7 @@
     "setEffects": [
       {
         "id": "2150090",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Prayers for Illumination",
         "description": "Affected by Pyro for 40% less time.",
         "params": [
@@ -4062,16 +3933,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -4096,12 +3964,12 @@
     ],
     "liveComparison": {
       "liveHash": "b25731307f98c7185dd930d42b4dae00e6dfa934b696a57abcf77c57a71c1f44",
-      "currentHash": "b25731307f98c7185dd930d42b4dae00e6dfa934b696a57abcf77c57a71c1f44"
+      "currentHash": "941e4140ceb01ff35cebd22f0b667909578fc958d3af18a3b2c05f7e162f5d99"
     }
   },
   {
     "id": "15010",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Prayers for Destiny",
     "rarity": [
       3,
@@ -4115,7 +3983,7 @@
     "setEffects": [
       {
         "id": "2150100",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Prayers for Destiny",
         "description": "Affected by Hydro for 40% less time.",
         "params": [
@@ -4130,16 +3998,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -4164,12 +4029,12 @@
     ],
     "liveComparison": {
       "liveHash": "bb09c043ecf60cc40663fa1923b2c2df6ca1f18c04c553faa9d3d5c80ca5ac36",
-      "currentHash": "bb09c043ecf60cc40663fa1923b2c2df6ca1f18c04c553faa9d3d5c80ca5ac36"
+      "currentHash": "e4b2249a04bf2beaadae5c6448c8ed82705fc0695f42c30ab165a281a5004c2f"
     }
   },
   {
     "id": "15011",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Prayers for Wisdom",
     "rarity": [
       3,
@@ -4183,7 +4048,7 @@
     "setEffects": [
       {
         "id": "2150110",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Prayers for Wisdom",
         "description": "Affected by Electro for 40% less time.",
         "params": [
@@ -4198,16 +4063,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -4232,12 +4094,12 @@
     ],
     "liveComparison": {
       "liveHash": "9556c251e408c1b8e4d584cb5351e179ce995a1b1e9e45342c2197f60b34ece8",
-      "currentHash": "9556c251e408c1b8e4d584cb5351e179ce995a1b1e9e45342c2197f60b34ece8"
+      "currentHash": "09114c960b9a62e49bd77adf2b46bd3912afef2f4985072ac06213e9651f0753"
     }
   },
   {
     "id": "15012",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Prayers to the Firmament",
     "rarity": [
       3,
@@ -4251,7 +4113,7 @@
     "setEffects": [
       {
         "id": "2150120",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Prayers to the Firmament",
         "description": "Affected by Anemo for 40% less time.",
         "params": [
@@ -4266,16 +4128,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -4300,12 +4159,12 @@
     ],
     "liveComparison": {
       "liveHash": "94d0b1e10aedb9a6ffe719d20ad07b3d39e33c25bd6231ffdfea52e945de4424",
-      "currentHash": "94d0b1e10aedb9a6ffe719d20ad07b3d39e33c25bd6231ffdfea52e945de4424"
+      "currentHash": "482cf2023c9a6ff4b9152cc38af659a9bb738f2ff5dda4412f8b225d9160d758"
     }
   },
   {
     "id": "15013",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Prayers to Springtime",
     "rarity": [
       3,
@@ -4319,7 +4178,7 @@
     "setEffects": [
       {
         "id": "2150130",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Prayers to Springtime",
         "description": "Affected by Cryo for 40% less time.",
         "params": [
@@ -4334,16 +4193,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -4368,12 +4224,12 @@
     ],
     "liveComparison": {
       "liveHash": "d128fab04491ea626116a7e598f867b6151f5ecbd3df7789657052b14104d56a",
-      "currentHash": "d128fab04491ea626116a7e598f867b6151f5ecbd3df7789657052b14104d56a"
+      "currentHash": "ad4eefb95a07942401a44500524802306043d8a97a391d5cb0f86a0a7838c7ab"
     }
   },
   {
     "id": "15014",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Archaic Petra",
     "rarity": [
       3,
@@ -4387,7 +4243,7 @@
     "setEffects": [
       {
         "id": "2150140",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Archaic Petra",
         "description": "Gain a 15% Geo DMG Bonus.",
         "params": [
@@ -4406,12 +4262,10 @@
             "value": 0.15
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -4432,16 +4286,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -4527,12 +4378,12 @@
     ],
     "liveComparison": {
       "liveHash": "1fbee2f257aca82b31dd7468de6932eebfca628e31475bb30cc6e8fe1d017e35",
-      "currentHash": "1fbee2f257aca82b31dd7468de6932eebfca628e31475bb30cc6e8fe1d017e35"
+      "currentHash": "4dad6d909007bade47c98bd736a938d838ca60c3bf771588a9133d9dfe67f7ff"
     }
   },
   {
     "id": "15015",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Retracing Bolide",
     "rarity": [
       3,
@@ -4546,7 +4397,7 @@
     "setEffects": [
       {
         "id": "2150150",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Retracing Bolide",
         "description": "Increases Shield Strength by 35%.",
         "params": [
@@ -4565,12 +4416,10 @@
             "value": 0.35
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -4591,16 +4440,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -4684,12 +4530,12 @@
     ],
     "liveComparison": {
       "liveHash": "1ea95b702bb4b43b0d02e38fb6035f23187a6dc9ac363985c9a293b03edcb955",
-      "currentHash": "1ea95b702bb4b43b0d02e38fb6035f23187a6dc9ac363985c9a293b03edcb955"
+      "currentHash": "13a733839f6d359b3c7351a5460a53f56b5b85ccd561266d80a3e8e525c22c17"
     }
   },
   {
     "id": "15016",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Heart of Depth",
     "rarity": [
       3,
@@ -4703,7 +4549,7 @@
     "setEffects": [
       {
         "id": "2150160",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Heart of Depth",
         "description": "Hydro DMG Bonus +15%",
         "params": [
@@ -4722,12 +4568,10 @@
             "value": 0.15
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -4748,16 +4592,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -4841,12 +4682,12 @@
     ],
     "liveComparison": {
       "liveHash": "1bbf673125c107454d484f11f7d9e36fb6dffadd21d1c6e1d6579519b059cdc3",
-      "currentHash": "1bbf673125c107454d484f11f7d9e36fb6dffadd21d1c6e1d6579519b059cdc3"
+      "currentHash": "4a1e34599d46d46af06971179c1bc9258fbba857d3cda0c2eb03fc1100c80e47"
     }
   },
   {
     "id": "15017",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Tenacity of the Millelith",
     "rarity": [
       3,
@@ -4860,7 +4701,7 @@
     "setEffects": [
       {
         "id": "2150170",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Tenacity of the Millelith",
         "description": "HP +20%",
         "params": [
@@ -4879,12 +4720,10 @@
             "value": 0.2
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -4905,16 +4744,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -4998,12 +4834,12 @@
     ],
     "liveComparison": {
       "liveHash": "cf698014d3e1e8907296da0cd5eb293dfb3587cc8c66cacd79db947267b3d5b5",
-      "currentHash": "cf698014d3e1e8907296da0cd5eb293dfb3587cc8c66cacd79db947267b3d5b5"
+      "currentHash": "66e65591bc149ec88bfbe9ab556f3aa315207bff60f9a3ba3760f82a610aa053"
     }
   },
   {
     "id": "15018",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Pale Flame",
     "rarity": [
       3,
@@ -5017,7 +4853,7 @@
     "setEffects": [
       {
         "id": "2150180",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Pale Flame",
         "description": "Physical DMG is increased by 25%.",
         "params": [
@@ -5036,12 +4872,10 @@
             "value": 0.25
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -5062,16 +4896,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -5155,12 +4986,12 @@
     ],
     "liveComparison": {
       "liveHash": "1bfdeaa40f3002f928f1ee99296cc5ae8e3b5f3b56785af192e2081cf70dcc0d",
-      "currentHash": "1bfdeaa40f3002f928f1ee99296cc5ae8e3b5f3b56785af192e2081cf70dcc0d"
+      "currentHash": "a83bcbaeb76a508ddf318f70e25f1eb5a2d8e820fcbbde66378ed1dd39b3b637"
     }
   },
   {
     "id": "15019",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Shimenawa's Reminiscence",
     "rarity": [
       4,
@@ -5173,7 +5004,7 @@
     "setEffects": [
       {
         "id": "2150190",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Shimenawa's Reminiscence",
         "description": "ATK +18%.",
         "params": [
@@ -5192,12 +5023,10 @@
             "value": 0.18
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -5218,16 +5047,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -5311,12 +5137,12 @@
     ],
     "liveComparison": {
       "liveHash": "4854d243140cc4acb93a19411751e7dce91038b46f7fa98fea22a4413018543d",
-      "currentHash": "4854d243140cc4acb93a19411751e7dce91038b46f7fa98fea22a4413018543d"
+      "currentHash": "d139abeff71fefc0bca2b1b53215f12673c976387e271f71eaf76b3b42cdbbb2"
     }
   },
   {
     "id": "15020",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Emblem of Severed Fate",
     "rarity": [
       4,
@@ -5329,7 +5155,7 @@
     "setEffects": [
       {
         "id": "2150200",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Emblem of Severed Fate",
         "description": "Energy Recharge +20%",
         "params": [
@@ -5348,12 +5174,10 @@
             "value": 0.2
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -5374,16 +5198,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -5467,12 +5288,12 @@
     ],
     "liveComparison": {
       "liveHash": "8778ed00fbba7424ecc8b021449f98fd2340a7c0afc3758bd23c6b016b574c9b",
-      "currentHash": "8778ed00fbba7424ecc8b021449f98fd2340a7c0afc3758bd23c6b016b574c9b"
+      "currentHash": "714eb4c801ed9f9a355d06a2508ec60e10f22f9270f738e6da33963885ef5670"
     }
   },
   {
     "id": "15021",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Husk of Opulent Dreams",
     "rarity": [
       4,
@@ -5485,7 +5306,7 @@
     "setEffects": [
       {
         "id": "2150210",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Husk of Opulent Dreams",
         "description": "DEF +30%",
         "params": [
@@ -5504,12 +5325,10 @@
             "value": 0.3
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -5530,16 +5349,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -5623,12 +5439,12 @@
     ],
     "liveComparison": {
       "liveHash": "0278312438c305cca6a47f72a7dbb2f3ebc177e16b4c88b50954dc8717f03298",
-      "currentHash": "0278312438c305cca6a47f72a7dbb2f3ebc177e16b4c88b50954dc8717f03298"
+      "currentHash": "80bba825b63bd9d21a6a1ed76feb436a7ef966d4234afffae7bae0b56e17304b"
     }
   },
   {
     "id": "15022",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Ocean-Hued Clam",
     "rarity": [
       4,
@@ -5641,7 +5457,7 @@
     "setEffects": [
       {
         "id": "2150220",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Ocean-Hued Clam",
         "description": "Healing Bonus +15%.",
         "params": [
@@ -5660,12 +5476,10 @@
             "value": 0.15
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -5686,16 +5500,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -5784,12 +5595,12 @@
     ],
     "liveComparison": {
       "liveHash": "204bd5430d02e1377b9de6fb579c5f40a21b22e7f0dd1edf578137d168c294f0",
-      "currentHash": "204bd5430d02e1377b9de6fb579c5f40a21b22e7f0dd1edf578137d168c294f0"
+      "currentHash": "968096b9be34511c328eb3dd902dc54b54a18915c001f1165e252b083ec0b159"
     }
   },
   {
     "id": "15023",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Vermillion Hereafter",
     "rarity": [
       4,
@@ -5802,7 +5613,7 @@
     "setEffects": [
       {
         "id": "2150230",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Vermillion Hereafter",
         "description": "ATK +18%.",
         "params": [
@@ -5821,12 +5632,10 @@
             "value": 0.18
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -5847,16 +5656,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -5945,12 +5751,12 @@
     ],
     "liveComparison": {
       "liveHash": "e8055dc318579185d8bbc5f1de23c004b0f37cf5d3b6f4670426a29fac6b39b2",
-      "currentHash": "e8055dc318579185d8bbc5f1de23c004b0f37cf5d3b6f4670426a29fac6b39b2"
+      "currentHash": "ead02b245f5d69062868d55a01e4cdb67c41b01f8820d020ad43d9d5f816cb24"
     }
   },
   {
     "id": "15024",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Echoes of an Offering",
     "rarity": [
       4,
@@ -5963,7 +5769,7 @@
     "setEffects": [
       {
         "id": "2150240",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Echoes of an Offering",
         "description": "ATK +18%.",
         "params": [
@@ -5982,12 +5788,10 @@
             "value": 0.18
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -6008,16 +5812,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -6106,12 +5907,12 @@
     ],
     "liveComparison": {
       "liveHash": "a3255eb5d497fbca6ab393a841b0b0a7d9596ebb61c0d9efa49b5027c38a54b3",
-      "currentHash": "a3255eb5d497fbca6ab393a841b0b0a7d9596ebb61c0d9efa49b5027c38a54b3"
+      "currentHash": "d1cf0b98368c89ff91655723ac11a703f5b1f71a73ef82a1c04771e45477865d"
     }
   },
   {
     "id": "15025",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Deepwood Memories",
     "rarity": [
       4,
@@ -6124,7 +5925,7 @@
     "setEffects": [
       {
         "id": "2150250",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Deepwood Memories",
         "description": "Dendro DMG Bonus +15%.",
         "params": [
@@ -6143,12 +5944,10 @@
             "value": 0.15
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -6169,16 +5968,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -6267,12 +6063,12 @@
     ],
     "liveComparison": {
       "liveHash": "ceab38204406b100f47df1bd5c426fe20eac7e955fc01188664c22ad89241c24",
-      "currentHash": "ceab38204406b100f47df1bd5c426fe20eac7e955fc01188664c22ad89241c24"
+      "currentHash": "b8c58584e84321709979d1d826df516d3124d2f31f48e3d6a5579ebe072d8023"
     }
   },
   {
     "id": "15026",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Gilded Dreams",
     "rarity": [
       4,
@@ -6285,7 +6081,7 @@
     "setEffects": [
       {
         "id": "2150260",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Gilded Dreams",
         "description": "Increases Elemental Mastery by 80.",
         "params": [
@@ -6304,12 +6100,10 @@
             "value": 80
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -6330,16 +6124,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -6428,12 +6219,12 @@
     ],
     "liveComparison": {
       "liveHash": "7c429ab96c315dfc4abdbdf7acdc36e254287dbd24b0dcfa06ca8554e1dd968c",
-      "currentHash": "7c429ab96c315dfc4abdbdf7acdc36e254287dbd24b0dcfa06ca8554e1dd968c"
+      "currentHash": "a8e81304b39ad668378125b6f9d6ee9d68afa888a43a66eef6544f88d45ef0fd"
     }
   },
   {
     "id": "15027",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Desert Pavilion Chronicle",
     "rarity": [
       4,
@@ -6446,7 +6237,7 @@
     "setEffects": [
       {
         "id": "2150270",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Desert Pavilion Chronicle",
         "description": "Anemo DMG Bonus +15%",
         "params": [
@@ -6465,12 +6256,10 @@
             "value": 0.15
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -6491,16 +6280,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -6589,12 +6375,12 @@
     ],
     "liveComparison": {
       "liveHash": "5ebd0bedd771d1e0dd8e035661227134e838b3183e6e37bd34d3b8b1db459a53",
-      "currentHash": "5ebd0bedd771d1e0dd8e035661227134e838b3183e6e37bd34d3b8b1db459a53"
+      "currentHash": "fc73e8221a45017336ca4ae34f04aecc164d52f36aee8d874e5241ac8e652943"
     }
   },
   {
     "id": "15028",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Flower of Paradise Lost",
     "rarity": [
       4,
@@ -6607,7 +6393,7 @@
     "setEffects": [
       {
         "id": "2150280",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Flower of Paradise Lost",
         "description": "Increases Elemental Mastery by 80.",
         "params": [
@@ -6626,12 +6412,10 @@
             "value": 80
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -6652,16 +6436,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -6750,12 +6531,12 @@
     ],
     "liveComparison": {
       "liveHash": "daed509c25b2097965a4be7e6d6b68ba7129546c0def823180744bf60921afc3",
-      "currentHash": "daed509c25b2097965a4be7e6d6b68ba7129546c0def823180744bf60921afc3"
+      "currentHash": "269d139d8d0c541b3223653cffc96141ac5219e118a9cc69ae586ba54104cb04"
     }
   },
   {
     "id": "15029",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Nymph's Dream",
     "rarity": [
       4,
@@ -6768,7 +6549,7 @@
     "setEffects": [
       {
         "id": "2150290",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Nymph's Dream",
         "description": "Hydro DMG Bonus +15%",
         "params": [
@@ -6787,12 +6568,10 @@
             "value": 0.15
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -6813,16 +6592,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -6911,12 +6687,12 @@
     ],
     "liveComparison": {
       "liveHash": "fea8f1d477753eb8d1ff2f54dbe77dd869d631cf57fa46cf2a3167e744eaa766",
-      "currentHash": "fea8f1d477753eb8d1ff2f54dbe77dd869d631cf57fa46cf2a3167e744eaa766"
+      "currentHash": "7559095736d8185a3dd5a2a106957461dabedb395e64de93055aeeefee7297b5"
     }
   },
   {
     "id": "15030",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Vourukasha's Glow",
     "rarity": [
       4,
@@ -6929,7 +6705,7 @@
     "setEffects": [
       {
         "id": "2150300",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Vourukasha's Glow",
         "description": "HP +20%",
         "params": [
@@ -6948,12 +6724,10 @@
             "value": 0.2
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -6974,16 +6748,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -7072,12 +6843,12 @@
     ],
     "liveComparison": {
       "liveHash": "edd981e25ec806a8b96c7a62e8cc3c582fd9731a67a593b0690d8cd9d0be9e9d",
-      "currentHash": "edd981e25ec806a8b96c7a62e8cc3c582fd9731a67a593b0690d8cd9d0be9e9d"
+      "currentHash": "d1cf444538f5de712bcc57283975002433f2267ca386e559e69df40cb6711384"
     }
   },
   {
     "id": "15031",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Marechaussee Hunter",
     "rarity": [
       4,
@@ -7090,7 +6861,7 @@
     "setEffects": [
       {
         "id": "2150310",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Marechaussee Hunter",
         "description": "Normal and Charged Attack DMG +15%",
         "params": [
@@ -7105,16 +6876,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -7135,16 +6903,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -7233,12 +6998,12 @@
     ],
     "liveComparison": {
       "liveHash": "23eb4c58eeccb9a71f54d490942eeb055430bfdadd92ff0648ec98404b282354",
-      "currentHash": "23eb4c58eeccb9a71f54d490942eeb055430bfdadd92ff0648ec98404b282354"
+      "currentHash": "1c7e886bb1bd2f5ebcbedf905643070e18e40483ee77407de60e19217a612b78"
     }
   },
   {
     "id": "15032",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Golden Troupe",
     "rarity": [
       4,
@@ -7251,7 +7016,7 @@
     "setEffects": [
       {
         "id": "2150320",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Golden Troupe",
         "description": "Increases Elemental Skill DMG by 20%.",
         "params": [
@@ -7266,16 +7031,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -7296,16 +7058,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -7394,12 +7153,12 @@
     ],
     "liveComparison": {
       "liveHash": "6eafeabc594b2eebb91a965415ee96b25c87a66e1b3b42a514a84d112755f3ce",
-      "currentHash": "6eafeabc594b2eebb91a965415ee96b25c87a66e1b3b42a514a84d112755f3ce"
+      "currentHash": "e2d853ab2eb9d1139e06766039721a35c9d5b95ec30bdb8e69d29ed934da3778"
     }
   },
   {
     "id": "15033",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Song of Days Past",
     "rarity": [
       4,
@@ -7412,7 +7171,7 @@
     "setEffects": [
       {
         "id": "2150330",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Song of Days Past",
         "description": "Healing Bonus +15%.",
         "params": [
@@ -7431,12 +7190,10 @@
             "value": 0.15
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -7457,16 +7214,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -7555,12 +7309,12 @@
     ],
     "liveComparison": {
       "liveHash": "be1951c0e0d5d7aac5588ac73114c20973af450a88beb223d175dad7c32898d7",
-      "currentHash": "be1951c0e0d5d7aac5588ac73114c20973af450a88beb223d175dad7c32898d7"
+      "currentHash": "07ceba6f9547f1ed2033e4569f53f0db6a7f8fd7225986cb36a5fc1940de9e16"
     }
   },
   {
     "id": "15034",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Nighttime Whispers in the Echoing Woods",
     "rarity": [
       4,
@@ -7573,7 +7327,7 @@
     "setEffects": [
       {
         "id": "2150340",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Nighttime Whispers in the Echoing Woods",
         "description": "ATK +18%.",
         "params": [
@@ -7592,12 +7346,10 @@
             "value": 0.18
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -7618,16 +7370,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -7716,12 +7465,12 @@
     ],
     "liveComparison": {
       "liveHash": "50489cf248072b13452cc7e82beed6de15bc23826bb3610235743dd0f74e62b8",
-      "currentHash": "50489cf248072b13452cc7e82beed6de15bc23826bb3610235743dd0f74e62b8"
+      "currentHash": "320ff0cc2a245c0a18465f2cb6f6b1211b5ad68fd0f4201e41fd310a967e5cda"
     }
   },
   {
     "id": "15035",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Fragment of Harmonic Whimsy",
     "rarity": [
       4,
@@ -7734,7 +7483,7 @@
     "setEffects": [
       {
         "id": "2150350",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Fragment of Harmonic Whimsy",
         "description": "ATK +18%.",
         "params": [
@@ -7753,12 +7502,10 @@
             "value": 0.18
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -7779,16 +7526,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -7877,12 +7621,12 @@
     ],
     "liveComparison": {
       "liveHash": "9d970a8cc059b02ee2c459dd8b3727ae2deff108eb112c4b233b9968f73e534f",
-      "currentHash": "9d970a8cc059b02ee2c459dd8b3727ae2deff108eb112c4b233b9968f73e534f"
+      "currentHash": "c80ace43b58be04008e21d19428f0ab354acc6a698265c95eaee2061a0a47f80"
     }
   },
   {
     "id": "15036",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Unfinished Reverie",
     "rarity": [
       4,
@@ -7895,7 +7639,7 @@
     "setEffects": [
       {
         "id": "2150360",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Unfinished Reverie",
         "description": "ATK +18%.",
         "params": [
@@ -7914,12 +7658,10 @@
             "value": 0.18
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -7940,16 +7682,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -8038,12 +7777,12 @@
     ],
     "liveComparison": {
       "liveHash": "8fc9ccd72817ba9ba7026e60f08d4a296e8a31cbcc605f474ca5b195cc988bc1",
-      "currentHash": "8fc9ccd72817ba9ba7026e60f08d4a296e8a31cbcc605f474ca5b195cc988bc1"
+      "currentHash": "c99369a3bef77654aa5ab6e38a57f8fc5a67aa761a013dda09737bab3e0e0ff2"
     }
   },
   {
     "id": "15037",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Scroll of the Hero of Cinder City",
     "rarity": [
       4,
@@ -8056,7 +7795,7 @@
     "setEffects": [
       {
         "id": "2150370",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Scroll of the Hero of Cinder City",
         "description": "When a nearby party member triggers a Nightsoul Burst, the equipping character regenerates 6 Elemental Energy.",
         "params": [
@@ -8071,16 +7810,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -8101,16 +7837,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -8199,12 +7932,12 @@
     ],
     "liveComparison": {
       "liveHash": "a907c51f2f5d84c129ce7cd7afb2f0c27ca300b82f885beef228dfc5781e4a49",
-      "currentHash": "a907c51f2f5d84c129ce7cd7afb2f0c27ca300b82f885beef228dfc5781e4a49"
+      "currentHash": "71827df1c5b51c7710572782e3486fbb71d8b86b2c504caff7731bcb88861516"
     }
   },
   {
     "id": "15038",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Obsidian Codex",
     "rarity": [
       4,
@@ -8217,7 +7950,7 @@
     "setEffects": [
       {
         "id": "2150380",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Obsidian Codex",
         "description": "While the equipping character is in Nightsoul's Blessing and is on the field, their DMG dealt is increased by 15%.",
         "params": [
@@ -8232,16 +7965,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -8262,16 +7992,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -8360,12 +8087,12 @@
     ],
     "liveComparison": {
       "liveHash": "d6920b9170af3b18fe00eb0be2f0bfe7bd5ea4dd0a9d8baf941c36ffabdd8ff4",
-      "currentHash": "d6920b9170af3b18fe00eb0be2f0bfe7bd5ea4dd0a9d8baf941c36ffabdd8ff4"
+      "currentHash": "29f430662dc6f849a5b02919d2ad177d74ea3422f2d9ec662409828cf9503bb4"
     }
   },
   {
     "id": "15039",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Long Night's Oath",
     "rarity": [
       4,
@@ -8378,7 +8105,7 @@
     "setEffects": [
       {
         "id": "2150390",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Long Night's Oath",
         "description": "Plunging Attack DMG increased by 25%.",
         "params": [
@@ -8393,16 +8120,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -8423,16 +8147,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -8521,12 +8242,12 @@
     ],
     "liveComparison": {
       "liveHash": "7976cf9a5143f88d399c30d8808334d0d1318d222f8b66ee8862d384a5881149",
-      "currentHash": "7976cf9a5143f88d399c30d8808334d0d1318d222f8b66ee8862d384a5881149"
+      "currentHash": "6606e328f0108bdf7f100c26467195c73909e6756cc5cb901ba7646646ef7ff6"
     }
   },
   {
     "id": "15040",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Finale of the Deep Galleries",
     "rarity": [
       4,
@@ -8539,7 +8260,7 @@
     "setEffects": [
       {
         "id": "2150400",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Finale of the Deep Galleries",
         "description": "Cryo DMG Bonus +15%",
         "params": [
@@ -8558,12 +8279,10 @@
             "value": 0.15
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -8584,16 +8303,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -8682,12 +8398,12 @@
     ],
     "liveComparison": {
       "liveHash": "bca284df58f1fb6f986b11c2684eaf59fa0f15bff8d459112a1b434a96c9f9ea",
-      "currentHash": "bca284df58f1fb6f986b11c2684eaf59fa0f15bff8d459112a1b434a96c9f9ea"
+      "currentHash": "afd84a04cb4b6dc981f487842241651f0b4b6f1ff4912c11c860663582d08c57"
     }
   },
   {
     "id": "15041",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Night of the Sky's Unveiling",
     "rarity": [
       4,
@@ -8700,7 +8416,7 @@
     "setEffects": [
       {
         "id": "2150410",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Night of the Sky's Unveiling",
         "description": "Increases Elemental Mastery by 80.",
         "params": [
@@ -8719,12 +8435,10 @@
             "value": 80
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -8745,16 +8459,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -8843,12 +8554,12 @@
     ],
     "liveComparison": {
       "liveHash": "6d77d0d8f913fc09d5bfbaf5cc42cbd841b1bbe2307797e57d6c5f034ea8cb8e",
-      "currentHash": "6d77d0d8f913fc09d5bfbaf5cc42cbd841b1bbe2307797e57d6c5f034ea8cb8e"
+      "currentHash": "0ebb88c7fe73168224914bdc410c05cc977a17e7556ceec5568d1134e0d13dbc"
     }
   },
   {
     "id": "15042",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Silken Moon's Serenade",
     "rarity": [
       4,
@@ -8861,7 +8572,7 @@
     "setEffects": [
       {
         "id": "2150420",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Silken Moon's Serenade",
         "description": "Energy Recharge +20%.",
         "params": [
@@ -8880,12 +8591,10 @@
             "value": 0.2
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -8906,16 +8615,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -9004,12 +8710,12 @@
     ],
     "liveComparison": {
       "liveHash": "4dadbf6394f1a64de5e400bb46993422b9df0b682c8e983ded15b564ea207157",
-      "currentHash": "4dadbf6394f1a64de5e400bb46993422b9df0b682c8e983ded15b564ea207157"
+      "currentHash": "3907ce0478f64520d81c8589e44a6f05d415175d2ed48386387c8c327b1f7436"
     }
   },
   {
     "id": "15043",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Aubade of Morningstar and Moon",
     "rarity": [
       4,
@@ -9022,7 +8728,7 @@
     "setEffects": [
       {
         "id": "2150430",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Aubade of Morningstar and Moon",
         "description": "Increases Elemental Mastery by 80.",
         "params": [
@@ -9041,12 +8747,10 @@
             "value": 80
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -9067,16 +8771,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -9165,12 +8866,12 @@
     ],
     "liveComparison": {
       "liveHash": "7398430fb19ad585f435af1eaaaa5a30af46b087197f61f2ae333f4fedd82b4c",
-      "currentHash": "7398430fb19ad585f435af1eaaaa5a30af46b087197f61f2ae333f4fedd82b4c"
+      "currentHash": "6ead27d62d46ccca511ad8c1a868487a32be7a0bdd526a46fe16b7c1b681fa91"
     }
   },
   {
     "id": "15044",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "A Day Carved From Rising Winds",
     "rarity": [
       4,
@@ -9183,7 +8884,7 @@
     "setEffects": [
       {
         "id": "2150440",
-        "pieces": 2,
+        "pieces": 4,
         "name": "A Day Carved From Rising Winds",
         "description": "ATK +18%.",
         "params": [
@@ -9202,12 +8903,10 @@
             "value": 0.18
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -9228,16 +8927,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -9326,12 +9022,12 @@
     ],
     "liveComparison": {
       "liveHash": "6e68598e7f35a19524b6050e750518606ba4faf4a0be6a447dce309c97837171",
-      "currentHash": "6e68598e7f35a19524b6050e750518606ba4faf4a0be6a447dce309c97837171"
+      "currentHash": "64690803656ed9011942d01279ab5f72b1ece886098e16f6bd126b2d49359c17"
     }
   },
   {
     "id": "15045",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Celestial Gift",
     "rarity": [
       4,
@@ -9344,7 +9040,7 @@
     "setEffects": [
       {
         "id": "2150450",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Celestial Gift",
         "description": "Energy Recharge +20%.",
         "params": [
@@ -9363,12 +9059,10 @@
             "value": 0.2
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -9389,16 +9083,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -9487,12 +9178,12 @@
     ],
     "liveComparison": {
       "liveHash": "332e110eaf10f032ebe2a252009984528e63de40c1159bbc480c7b9a1ff95bea",
-      "currentHash": "332e110eaf10f032ebe2a252009984528e63de40c1159bbc480c7b9a1ff95bea"
+      "currentHash": "b042dd55b6a70b36c41a958d7a8a06642a2532465a53165f47fbeb79994580f3"
     }
   },
   {
     "id": "15046",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Disenchantment in Deep Shadow",
     "rarity": [
       4,
@@ -9505,7 +9196,7 @@
     "setEffects": [
       {
         "id": "2150460",
-        "pieces": 2,
+        "pieces": 4,
         "name": "Disenchantment in Deep Shadow",
         "description": "ATK +18%.",
         "params": [
@@ -9524,12 +9215,10 @@
             "value": 0.18
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       },
@@ -9550,16 +9239,13 @@
         ],
         "addProps": [
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           },
           {
-            "prop_type": "FIGHT_PROP_NONE",
-            "value": 0
+            "prop_type": "FIGHT_PROP_NONE"
           }
         ]
       }
@@ -9648,7 +9334,225 @@
     ],
     "liveComparison": {
       "liveHash": "65c45c7ab94cf8cae46aca378ae0a6045be4da5275a94e266a47fadc319bfab0",
-      "currentHash": "65c45c7ab94cf8cae46aca378ae0a6045be4da5275a94e266a47fadc319bfab0"
+      "currentHash": "e61202be8629fdbf421b54b98b48be631058310414938945673f3eae5dad0183"
+    }
+  },
+  {
+    "id": "15047",
+    "contentStatus": "beta",
+    "name": "Crimson Proof",
+    "rarity": [
+      4,
+      5
+    ],
+    "type": "artifact set",
+    "assets": {
+      "icon": "Nanoka/gi/assets/artifacts/sets/UI_RelicIcon_15047_4.webp"
+    },
+    "setEffects": [
+      {
+        "id": "2150470",
+        "pieces": 4,
+        "name": "Crimson Proof",
+        "description": "ATK +18%.",
+        "params": [
+          0.18,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "addProps": [
+          {
+            "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+            "value": 0.18
+          },
+          {
+            "prop_type": "FIGHT_PROP_NONE"
+          },
+          {
+            "prop_type": "FIGHT_PROP_NONE"
+          }
+        ]
+      },
+      {
+        "id": "2150471",
+        "pieces": 4,
+        "name": "Proof of the Blood-Red",
+        "description": "Triggering a Stellar Swirl reaction increases the character's ATK by 16% and Stellar Swirl DMG by 40% for 10s.",
+        "params": [
+          0.16,
+          0.4,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "addProps": [
+          {
+            "prop_type": "FIGHT_PROP_NONE"
+          },
+          {
+            "prop_type": "FIGHT_PROP_NONE"
+          },
+          {
+            "prop_type": "FIGHT_PROP_NONE"
+          }
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "slot": "equip_bracer",
+        "name": "Thank you for your devotion",
+        "assets": {
+          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15047_4.webp"
+        }
+      },
+      {
+        "slot": "equip_dress",
+        "name": "Honor your faith",
+        "assets": {
+          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15047_3.webp"
+        }
+      },
+      {
+        "slot": "equip_necklace",
+        "name": "Remember your glorious deeds",
+        "assets": {
+          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15047_2.webp"
+        }
+      },
+      {
+        "slot": "equip_ring",
+        "name": "Drink deep of your blood and tears",
+        "assets": {
+          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15047_1.webp"
+        }
+      },
+      {
+        "slot": "equip_shoes",
+        "name": "Grant you the years",
+        "assets": {
+          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15047_5.webp"
+        }
+      }
+    ],
+    "liveComparison": {
+      "currentHash": "9cd6f64e9fe7190e4f50af98c27390855c73c7896c9b0d15ee4d593bcc754398"
+    }
+  },
+  {
+    "id": "15048",
+    "contentStatus": "beta",
+    "name": "15048",
+    "rarity": [
+      4,
+      5
+    ],
+    "type": "artifact set",
+    "assets": {
+      "icon": "Nanoka/gi/assets/artifacts/sets/UI_RelicIcon_15048_4.webp"
+    },
+    "setEffects": [
+      {
+        "id": "2150480",
+        "pieces": 4,
+        "description": "ATK +18%.",
+        "params": [
+          0.18,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "addProps": [
+          {
+            "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+            "value": 0.18
+          },
+          {
+            "prop_type": "FIGHT_PROP_NONE"
+          },
+          {
+            "prop_type": "FIGHT_PROP_NONE"
+          }
+        ]
+      },
+      {
+        "id": "2150481",
+        "pieces": 4,
+        "description": "When you trigger Stellar-Conduct, Stellar Swirl, or directly deal reaction DMG of the above types, your ATK increases by 12% and nearby party members gain a buff that increases their Stellar-Conduct and Stellar Swirl DMG by 50% for 12s. This effect is unique and cannot stack. Can be triggered even when the character is not on the field.",
+        "params": [
+          0.12,
+          0.5,
+          12,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "addProps": [
+          {
+            "prop_type": "FIGHT_PROP_NONE"
+          },
+          {
+            "prop_type": "FIGHT_PROP_NONE"
+          },
+          {
+            "prop_type": "FIGHT_PROP_NONE"
+          }
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "slot": "equip_bracer",
+        "name": "0",
+        "assets": {
+          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15048_4.webp"
+        }
+      },
+      {
+        "slot": "equip_dress",
+        "name": "0",
+        "assets": {
+          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15048_3.webp"
+        }
+      },
+      {
+        "slot": "equip_necklace",
+        "name": "0",
+        "assets": {
+          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15048_2.webp"
+        }
+      },
+      {
+        "slot": "equip_ring",
+        "name": "0",
+        "assets": {
+          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15048_1.webp"
+        }
+      },
+      {
+        "slot": "equip_shoes",
+        "name": "0",
+        "assets": {
+          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15048_5.webp"
+        }
+      }
+    ],
+    "liveComparison": {
+      "currentHash": "2a2191791fc201ff7d7c40698631aee9140262de198f24c9b71637d0c0a32155"
     }
   }
 ]

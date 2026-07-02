@@ -13,21 +13,17 @@
     {
       "add_props": [
         {
-          "prop_type": "FIGHT_PROP_NONE",
-          "value": 0
+          "prop_type": "FIGHT_PROP_NONE"
         },
         {
-          "prop_type": "FIGHT_PROP_NONE",
-          "value": 0
+          "prop_type": "FIGHT_PROP_NONE"
         },
         {
-          "prop_type": "FIGHT_PROP_NONE",
-          "value": 0
+          "prop_type": "FIGHT_PROP_NONE"
         }
       ],
       "affix_id": 2150320,
       "id": 215032,
-      "level": 0,
       "open_config": "Relic_ArtSkillDamageUp",
       "param_list": [
         0.2,
@@ -45,16 +41,13 @@
     {
       "add_props": [
         {
-          "prop_type": "FIGHT_PROP_NONE",
-          "value": 0
+          "prop_type": "FIGHT_PROP_NONE"
         },
         {
-          "prop_type": "FIGHT_PROP_NONE",
-          "value": 0
+          "prop_type": "FIGHT_PROP_NONE"
         },
         {
-          "prop_type": "FIGHT_PROP_NONE",
-          "value": 0
+          "prop_type": "FIGHT_PROP_NONE"
         }
       ],
       "affix_id": 2150321,

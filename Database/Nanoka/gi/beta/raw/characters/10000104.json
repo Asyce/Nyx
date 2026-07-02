@@ -3354,7 +3354,7 @@
             "name": "Withering Purpurbloom",
             "id": 101253,
             "count": 3,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Juvenile Fang",
@@ -3383,7 +3383,7 @@
             "name": "Withering Purpurbloom",
             "id": 101253,
             "count": 10,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Juvenile Fang",
@@ -3412,7 +3412,7 @@
             "name": "Withering Purpurbloom",
             "id": 101253,
             "count": 20,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Seasoned Fang",
@@ -3441,7 +3441,7 @@
             "name": "Withering Purpurbloom",
             "id": 101253,
             "count": 30,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Seasoned Fang",
@@ -3470,7 +3470,7 @@
             "name": "Withering Purpurbloom",
             "id": 101253,
             "count": 45,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Tyrant's Fang",
@@ -3499,7 +3499,7 @@
             "name": "Withering Purpurbloom",
             "id": 101253,
             "count": 60,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Tyrant's Fang",
@@ -4313,36 +4313,6 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "poise": {
-        "level": "LV2",
-        "value": 10
-      },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Pierce",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
-      "poise": {
-        "level": "LV2",
-        "value": 10
-      },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Pierce",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
       "gauge": 1,
       "poise": {
         "level": "LV2",
@@ -4400,6 +4370,36 @@
       "attack_type": "Melee",
       "strike_type": "Pierce",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     }
   ],
   "energy": [

@@ -3366,7 +3366,7 @@
             "name": "Onikabuto",
             "id": 101201,
             "count": 3,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Slime Condensate",
@@ -3395,7 +3395,7 @@
             "name": "Onikabuto",
             "id": 101201,
             "count": 10,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Slime Condensate",
@@ -3424,7 +3424,7 @@
             "name": "Onikabuto",
             "id": 101201,
             "count": 20,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Slime Secretions",
@@ -3453,7 +3453,7 @@
             "name": "Onikabuto",
             "id": 101201,
             "count": 30,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Slime Secretions",
@@ -3482,7 +3482,7 @@
             "name": "Onikabuto",
             "id": 101201,
             "count": 45,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Slime Concentrate",
@@ -3511,7 +3511,7 @@
             "name": "Onikabuto",
             "id": 101201,
             "count": 60,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Slime Concentrate",
@@ -4091,39 +4091,39 @@
       "gauge": 1,
       "poise": {
         "level": "LV4",
+        "value": 81.7
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "ExtraAttack_Loop_DamagePercentage"
+    },
+    {
+      "name": "SpecialExtra_Damage",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 81.7
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "ExtraAttack_Loop_DamagePercentage"
+    },
+    {
+      "name": "SpecialExtra_Damage",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
         "value": 143.4
-      },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Blunt",
-      "damage_param": "ExtraAttack_Loop_DamagePercentage"
-    },
-    {
-      "name": "SpecialExtra_Damage",
-      "icd": {
-        "tag": "ExtraAttack",
-        "group": "default"
-      },
-      "gauge": 1,
-      "poise": {
-        "level": "LV4",
-        "value": 81.7
-      },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Blunt",
-      "damage_param": "ExtraAttack_Loop_DamagePercentage"
-    },
-    {
-      "name": "SpecialExtra_Damage",
-      "icd": {
-        "tag": "ExtraAttack",
-        "group": "default"
-      },
-      "gauge": 1,
-      "poise": {
-        "level": "LV4",
-        "value": 81.7
       },
       "element": "None",
       "attack_type": "Melee",
@@ -4139,7 +4139,7 @@
       "gauge": 1,
       "poise": {
         "level": "LV4",
-        "value": 143.4
+        "value": 81.7
       },
       "element": "Rock",
       "attack_type": "Melee",
@@ -4171,7 +4171,7 @@
       "gauge": 1,
       "poise": {
         "level": "LV4",
-        "value": 81.7
+        "value": 143.4
       },
       "element": "Rock",
       "attack_type": "Melee",
@@ -4200,58 +4200,12 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "poise": {
-        "level": "LV2",
-        "value": 35
-      },
-      "element": "Rock",
-      "attack_type": "Melee",
-      "strike_type": "Slash",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
-      "poise": {
-        "level": "LV2",
-        "value": 35
-      },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Slash",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
-      "gauge": 1,
-      "poise": {
-        "level": "LV4",
-        "value": 150
-      },
-      "element": "Rock",
-      "attack_type": "Melee",
-      "strike_type": "Blunt",
-      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
       "gauge": 1,
       "poise": {
         "level": "LV7",
         "value": 200
       },
-      "element": "Rock",
+      "element": "None",
       "attack_type": "Melee",
       "strike_type": "Blunt",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
@@ -4283,10 +4237,56 @@
         "level": "LV7",
         "value": 200
       },
-      "element": "None",
+      "element": "Rock",
       "attack_type": "Melee",
       "strike_type": "Blunt",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 150
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     }
   ],
   "energy": [

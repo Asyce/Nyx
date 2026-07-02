@@ -3188,7 +3188,7 @@
     {
       "id": 532101,
       "name": "Someone More Capable",
-      "desc": "When Sayu triggers a Swirl reaction while active, she heals all your characters and nearby allies for 300 HP. She will also heal an additional 1.2 HP for every point of Elemental Mastery she has.\\nThis effect can be triggered once every 2s.",
+      "desc": "When Sayu triggers a Swirl or Astral Swirl reaction while active, she heals all your characters and nearby allies for 300 HP. She will also heal an additional 1.2 HP for every point of Elemental Mastery she has.\\nThis effect can be triggered once every 2s.",
       "icon": "UI_Talent_S_Sayu_05",
       "unlock": 1,
       "param_list": [
@@ -3325,7 +3325,7 @@
     {
       "id": 534,
       "name": "Skiving: New and Improved",
-      "desc": "Sayu recovers 1.2 Energy when she triggers a Swirl reaction.\\nThis effect occurs once every 2s.",
+      "desc": "Sayu recovers 1.2 Elemental Energy when she triggers a Swirl or Star Swirl reaction.\\nThis effect occurs once every 2s.",
       "icon": "UI_Talent_S_Sayu_03",
       "param_list": [
         1.2,
@@ -3385,7 +3385,7 @@
             "name": "Crystal Marrow",
             "id": 101203,
             "count": 3,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Whopperflower Nectar",
@@ -3414,7 +3414,7 @@
             "name": "Crystal Marrow",
             "id": 101203,
             "count": 10,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Whopperflower Nectar",
@@ -3443,7 +3443,7 @@
             "name": "Crystal Marrow",
             "id": 101203,
             "count": 20,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Shimmering Nectar",
@@ -3472,7 +3472,7 @@
             "name": "Crystal Marrow",
             "id": 101203,
             "count": 30,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Shimmering Nectar",
@@ -3501,7 +3501,7 @@
             "name": "Crystal Marrow",
             "id": 101203,
             "count": 45,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Energy Nectar",
@@ -3530,7 +3530,7 @@
             "name": "Crystal Marrow",
             "id": 101203,
             "count": 60,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Energy Nectar",
@@ -4305,21 +4305,6 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "poise": {
-        "level": "LV2",
-        "value": 35
-      },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Slash",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
       "gauge": 1,
       "poise": {
         "level": "LV4",
@@ -4345,6 +4330,21 @@
       "attack_type": "Melee",
       "strike_type": "Blunt",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     }
   ],
   "energy": [

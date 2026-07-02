@@ -1745,7 +1745,7 @@
     {
       "id": 11322,
       "name": "Ring-A-Ding-Ding! Hexhunter Chime",
-      "desc": "Unleash the wind's might to defeat the evil witch and save Descartes! Prune strikes the Witchlure Bell with her Banehunter Oathhammer, dealing <color=#80FFD7FF>Anemo DMG</color>.\\nIf Prune triggers Swirl on an opponent using this attack, <color=#FFD780FF>Ring-A-Ding-Ding! Hexhunter Chime</color> will be changed to <color=#FFD780FF>Clang Clang! Witch-tribution Comes!</color> for the next 6s.\\n\\n<color=#FFD780FF>Clang Clang! Witch-tribution Comes!</color>\\nPrune's hammer is now enshrouded by the element involved in the previous Swirl reaction, causing {LINK#N11320001}<color=#FFD780FF>Banehunter Oathhammer</color>{/LINK} to undergo Elemental Conversion. When activated with a Press, Prune will leap up and kick the Banehunter Oathhammer forward, dealing Elemental DMG of the corresponding type to opponents in front of her.",
+      "desc": "Unleash the wind's might to defeat the evil witch and save Descartes! Prune strikes the Witchlure Bell with her Banehunter Oathhammer, dealing <color=#80FFD7FF>Anemo DMG</color>.\\nIf Prune triggers Swirl or Star Swirl on an opponent using this attack, <color=#FFD780FF>Ring-A-Ding-Ding! Hexhunter Chime</color> will be changed to <color=#FFD780FF>Clang Clang! Witch-tribution Comes!</color> for the next 6s.\\n\\n<color=#FFD780FF>Clang Clang! Witch-tribution Comes!</color>\\nPrune's hammer is now enshrouded by the element involved in the previous Swirl reaction, causing {LINK#N11320001}<color=#FFD780FF>Banehunter Oathhammer</color>{/LINK} to undergo Elemental Conversion. When activated with a Press, Prune will leap up and kick the Banehunter Oathhammer forward, dealing Elemental DMG of the corresponding type to opponents in front of her.",
       "promote": {
         "0": {
           "level": 1,
@@ -3201,7 +3201,7 @@
     {
       "id": 1322101,
       "name": "Verdict and Punishment",
-      "desc": "During the Elemental Burst <color=#FFD780FF>{LINK#S11325}The Bell Tolls! The Hunt Is On!{/LINK}</color>, after the Witchlure Bell in Hunter-Seeker mode deals DMG to an opponent, if this DMG triggers Swirl on an opponent, it will also summon a {LINK#N11320001}<color=#FFD780FF>Banehunter Oathhammer</color>{/LINK} that will deal 150% of Prune's ATK as DMG to them, with the DMG Type matching the Elemental Conversion from the Swirl. This DMG is considered Elemental Burst DMG.",
+      "desc": "During the Elemental Burst <color=#FFD780FF>{LINK#S11325}The Bell Tolls! The Hunt Is On!{/LINK}</color>, after the Witchlure Bell in Hunter-Seeker mode deals DMG to an opponent, if this DMG triggers Swirl or Astral Swirl on an opponent, it will also summon a {LINK#N11320001}<color=#FFD780FF>Banehunter Oathhammer</color>{/LINK} that will deal 150% of Prune's ATK as DMG to them, with the DMG Type matching the Elemental Conversion from the Swirl. This DMG is considered Elemental Burst DMG.",
       "icon": "UI_Talent_S_Prune_05",
       "unlock": 1,
       "param_list": [
@@ -3288,7 +3288,7 @@
     {
       "id": 1325101,
       "name": "Witch's Eve Rite: Witchseeker's Vow",
-      "desc": "After completing <color=#FFD780FF>Witch's Homework: Of What Is Contested</color>, Prune becomes a <color=#FFD780FF>Hexerei</color> character. When the party includes at least 2 Hexerei characters, you gain the <color=#FFD780FF>Hexerei: Secret Rite</color> effect, which enhances Hexerei characters.\\n\\n<color=#FFD780FF>Hexerei: Secret Rite</color>\\nAfter a Hexerei character in the party affected by the Tolling Rally effect triggers an Elemental Reaction on an opponent, Prune's ATK is increased by 60% for 5s. If the Elemental Reaction triggered is a Swirl Reaction, the triggering character's ATK will additionally be increased by 30% for 5s.",
+      "desc": "After completing <color=#FFD780FF>Witch's Homework: Of What Is Contested</color>, Prune becomes a <color=#FFD780FF>Hexerei</color> character. When the party includes at least 2 Hexerei characters, you gain the <color=#FFD780FF>Hexerei: Secret Rite</color> effect, which enhances Hexerei characters.\\n\\n<color=#FFD780FF>Hexerei: Secret Rite</color>\\nAfter a Hexerei character in the party affected by the Tolling Rally effect triggers an Elemental Reaction on an opponent, Prune's ATK is increased by 60% for 5s. If the Elemental Reaction triggered is a Swirl or Astraswirl Reaction, the triggering character's ATK will additionally be increased by 30% for 5s.",
       "icon": "UI_Talent_S_Prune_07",
       "param_list": [
         0.6,
@@ -3432,7 +3432,7 @@
             "name": "Winter Icelea",
             "id": 101268,
             "count": 3,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Treasure Hoarder Insignia",
@@ -3461,7 +3461,7 @@
             "name": "Winter Icelea",
             "id": 101268,
             "count": 10,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Treasure Hoarder Insignia",
@@ -3490,7 +3490,7 @@
             "name": "Winter Icelea",
             "id": 101268,
             "count": 20,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Silver Raven Insignia",
@@ -3519,7 +3519,7 @@
             "name": "Winter Icelea",
             "id": 101268,
             "count": 30,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Silver Raven Insignia",
@@ -3548,7 +3548,7 @@
             "name": "Winter Icelea",
             "id": 101268,
             "count": 45,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Golden Raven Insignia",
@@ -3577,7 +3577,7 @@
             "name": "Winter Icelea",
             "id": 101268,
             "count": 60,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Golden Raven Insignia",
@@ -4218,21 +4218,6 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "poise": {
-        "level": "LV2",
-        "value": 5
-      },
-      "element": "Wind",
-      "attack_type": "Default",
-      "strike_type": "Default",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
       "gauge": 1,
       "poise": {
         "level": "LV3",
@@ -4258,6 +4243,21 @@
       "attack_type": "Default",
       "strike_type": "Default",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     },
     {
       "name": "ElementalArt",

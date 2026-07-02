@@ -1,0 +1,121 @@
+{
+  "name": "Chimera Horned Bear",
+  "desc": "A product of Bio-Alchemy, a Crafted magical beast that took shape in a highly unusual manner.\\nInstead of following artificial designs, this Crafted monster was formed through the self-assembly of life Segments, which even granted it the mystical trait of being able to freely Use the power of the Elements.\\nEven when life is shattered to the point where almost nothing but Segments remain, is there still some will and mighty power that compels them to Grow according to a mysterious plan?\\nToday, perhaps None know the answer to this anymore.",
+  "icon": "UI_MonsterIcon_Chimera_BearDeer",
+  "codex": "BEAST",
+  "title": "",
+  "special_names": [
+    "Chimera Horned Bear"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112151,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112151"
+    },
+    {
+      "id": 112150,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112150"
+    },
+    {
+      "id": 112149,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112149"
+    }
+  ],
+  "child": {
+    "26310401": {
+      "monster_name": "Monster_Chimera_BearDeer_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010011,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010011,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010011,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.3,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 108.672,
+        "atk": 60.288,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26310402": {
+      "monster_name": "Monster_Chimera_BearDeer_01_Tps",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.3,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 27.431341,
+        "atk": 90.11659,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

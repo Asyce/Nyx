@@ -1,0 +1,75 @@
+{
+  "name": "Chimeric Burrowing Beast",
+  "desc": "A product of Bio-Alchemy once prevalent across the frozen tundra, the heterogeneous crafted magical beast.\\nIf monsters that travel through earth, Cryo, and snow possessed the vision to see everything clearly in the shadows, would they become even more formidable predators?\\nThe results of the experiment were an extraordinary Success. These Burrowing Beasts shuttle beneath the surface at night, digging traps in the dark or hiding in the shadows to hunt.\\nAccording to a report in the Pioneers Herald, workers living in Rainbow Cryo Town once saw a giant Burrowing Beast almost as tall as two people... but that is probably None other than nonsense.",
+  "icon": "UI_MonsterIcon_Chimera_OwlPangolin",
+  "codex": "BEAST",
+  "title": "Remnant-Crafted Beast",
+  "special_names": [
+    "Chimeric Burrowing Beast"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112151,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112151"
+    },
+    {
+      "id": 112150,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112150"
+    },
+    {
+      "id": 112149,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112149"
+    }
+  ],
+  "child": {
+    "26310201": {
+      "monster_name": "Monster_Chimera_OwlPangolin",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010014,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.2,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 27.168,
+        "atk": 30.144,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

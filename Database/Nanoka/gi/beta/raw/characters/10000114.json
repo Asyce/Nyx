@@ -3160,7 +3160,7 @@
     {
       "id": 1142101,
       "name": "Reason Beyond Reason",
-      "desc": "When nearby party members trigger Frozen, Superconduct, Stellar-Conduct, Cryo Swirl, or Cryo Crystallize reactions against opponents, a Void Rift will be created near this opponent. This effect can be triggered once every 2.5s. 3 Void Rifts created by Skirk herself can exist on the field at once.\\n\\nSkirk can use the following methods to absorb nearby Void Rifts:\\n· When she hits an opponent with a Charged Attack in her {LINK#N11130006}<color=#FFD780FF>Seven-Phase Flash</color>{/LINK} mode.\\n· When she uses the special Elemental Burst <color=#FFD780FF>Havoc: Extinction</color> while in Seven-Phase Flash mode.\\n· When she Holds her Elemental Skill <color=#FFD780FF>Havoc: Warp</color> to engage in rapid movement.\\n\\nEach Rift absorbed will grant her 8 {LINK#N11130005}<color=#FFD780FF>Serpent's Subtlety</color>{/LINK} points.",
+      "desc": "When nearby party members trigger Frozen, Superconduct, Stellar-Conduct, Cryo Swirl, Stellar-Swirl, or Cryo Crystallize reactions against opponents, a Void Rift will be created near this opponent. This effect can be triggered once every 2.5s. 3 Void Rifts created by Skirk herself can exist on the field at once.\\n\\nSkirk can use the following methods to absorb nearby Void Rifts:\\n· When she hits an opponent with a Charged Attack in her {LINK#N11130006}<color=#FFD780FF>Seven-Phase Flash</color>{/LINK} mode.\\n· When she uses the special Elemental Burst <color=#FFD780FF>Havoc: Extinction</color> while in Seven-Phase Flash mode.\\n· When she Holds her Elemental Skill <color=#FFD780FF>Havoc: Warp</color> to engage in rapid movement.\\n\\nEach Rift absorbed will grant her 8 {LINK#N11130005}<color=#FFD780FF>Serpent's Subtlety</color>{/LINK} points.",
       "icon": "UI_Talent_S_SkirkNew_05",
       "unlock": 1,
       "param_list": [
@@ -3357,7 +3357,7 @@
             "name": "Skysplit Gembloom",
             "id": 101254,
             "count": 3,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Meshing Gear",
@@ -3386,7 +3386,7 @@
             "name": "Skysplit Gembloom",
             "id": 101254,
             "count": 10,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Meshing Gear",
@@ -3415,7 +3415,7 @@
             "name": "Skysplit Gembloom",
             "id": 101254,
             "count": 20,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Mechanical Spur Gear",
@@ -3444,7 +3444,7 @@
             "name": "Skysplit Gembloom",
             "id": 101254,
             "count": 30,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Mechanical Spur Gear",
@@ -3473,7 +3473,7 @@
             "name": "Skysplit Gembloom",
             "id": 101254,
             "count": 45,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Artificed Dynamic Gear",
@@ -3502,7 +3502,7 @@
             "name": "Skysplit Gembloom",
             "id": 101254,
             "count": 60,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Artificed Dynamic Gear",
@@ -4697,36 +4697,6 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "poise": {
-        "level": "LV2",
-        "value": 25
-      },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Slash",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
-      "poise": {
-        "level": "LV2",
-        "value": 25
-      },
-      "element": "Ice",
-      "attack_type": "Melee",
-      "strike_type": "Slash",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage_ElementalArt"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
       "gauge": 1,
       "poise": {
         "level": "LV4",
@@ -4784,6 +4754,36 @@
       "attack_type": "Melee",
       "strike_type": "Blunt",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage_ElementalArt"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage_ElementalArt"
     }
   ],
   "energy": [

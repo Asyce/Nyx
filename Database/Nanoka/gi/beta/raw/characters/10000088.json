@@ -3351,7 +3351,7 @@
             "name": "Beryl Conch",
             "id": 101232,
             "count": 3,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Meshing Gear",
@@ -3380,7 +3380,7 @@
             "name": "Beryl Conch",
             "id": 101232,
             "count": 10,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Meshing Gear",
@@ -3409,7 +3409,7 @@
             "name": "Beryl Conch",
             "id": 101232,
             "count": 20,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Mechanical Spur Gear",
@@ -3438,7 +3438,7 @@
             "name": "Beryl Conch",
             "id": 101232,
             "count": 30,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Mechanical Spur Gear",
@@ -3467,7 +3467,7 @@
             "name": "Beryl Conch",
             "id": 101232,
             "count": 45,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Artificed Dynamic Gear",
@@ -3496,7 +3496,7 @@
             "name": "Beryl Conch",
             "id": 101232,
             "count": 60,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Artificed Dynamic Gear",
@@ -4264,21 +4264,6 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "poise": {
-        "level": "LV2",
-        "value": 5
-      },
-      "element": "Ice",
-      "attack_type": "Default",
-      "strike_type": "Default",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
       "gauge": 1,
       "poise": {
         "level": "LV3",
@@ -4304,6 +4289,21 @@
       "attack_type": "Default",
       "strike_type": "Default",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     },
     {
       "name": "Constellation_ExtraCamera_Gadget",
@@ -4341,7 +4341,7 @@
       "kind": "ElementalArt",
       "element": "Cryo",
       "per_drop": 1,
-      "lifetime": 15,
+      "lifetime": 9,
       "chance": 100,
       "cd": 0.3,
       "applications": 1,
@@ -4353,7 +4353,7 @@
       "kind": "ElementalArt",
       "element": "Cryo",
       "per_drop": 1,
-      "lifetime": 9,
+      "lifetime": 15,
       "chance": 100,
       "cd": 0.3,
       "applications": 1,

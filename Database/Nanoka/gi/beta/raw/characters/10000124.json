@@ -3343,7 +3343,7 @@
             "name": "Portable Bearing",
             "id": 101257,
             "count": 3,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Broken Drive Shaft",
@@ -3372,7 +3372,7 @@
             "name": "Portable Bearing",
             "id": 101257,
             "count": 10,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Broken Drive Shaft",
@@ -3401,7 +3401,7 @@
             "name": "Portable Bearing",
             "id": 101257,
             "count": 20,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Reinforced Drive Shaft",
@@ -3430,7 +3430,7 @@
             "name": "Portable Bearing",
             "id": 101257,
             "count": 30,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Reinforced Drive Shaft",
@@ -3459,7 +3459,7 @@
             "name": "Portable Bearing",
             "id": 101257,
             "count": 45,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Precision Drive Shaft",
@@ -3488,7 +3488,7 @@
             "name": "Portable Bearing",
             "id": 101257,
             "count": 60,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Precision Drive Shaft",
@@ -4116,12 +4116,12 @@
       "gauge": 1,
       "poise": {
         "level": "LV3",
-        "value": 120
+        "value": 80
       },
       "element": "Wind",
       "attack_type": "Melee",
       "strike_type": "Default",
-      "damage_param": "ElementalArt_AvatarExplode"
+      "damage_param": "ElementalArt_AvatarExplode_Uncharged"
     },
     {
       "name": "ElementalArt_Second_Attack",
@@ -4132,23 +4132,23 @@
       "gauge": 1,
       "poise": {
         "level": "LV3",
-        "value": 80
+        "value": 120
       },
       "element": "Wind",
       "attack_type": "Melee",
       "strike_type": "Default",
-      "damage_param": "ElementalArt_AvatarExplode_Uncharged"
+      "damage_param": "ElementalArt_AvatarExplode"
     },
     {
       "name": "Bullet_Jahoda_ElementalArt_Attack",
       "icd": {
         "tag": "Elemental_Art",
-        "group": "Jahoda_Constellation_1"
+        "group": "default"
       },
       "gauge": 1,
       "poise": {
         "level": "LV2",
-        "value": 25
+        "value": 35
       },
       "element": "Fire",
       "attack_type": "Range",
@@ -4159,12 +4159,12 @@
       "name": "Bullet_Jahoda_ElementalArt_Attack",
       "icd": {
         "tag": "Elemental_Art",
-        "group": "Jahoda_Constellation_1"
+        "group": "default"
       },
       "gauge": 1,
       "poise": {
         "level": "LV2",
-        "value": 25
+        "value": 35
       },
       "element": "Water",
       "attack_type": "Range",
@@ -4175,12 +4175,12 @@
       "name": "Bullet_Jahoda_ElementalArt_Attack",
       "icd": {
         "tag": "Elemental_Art",
-        "group": "Jahoda_Constellation_1"
+        "group": "default"
       },
       "gauge": 1,
       "poise": {
         "level": "LV2",
-        "value": 25
+        "value": 35
       },
       "element": "Electric",
       "attack_type": "Range",
@@ -4191,12 +4191,12 @@
       "name": "Bullet_Jahoda_ElementalArt_Attack",
       "icd": {
         "tag": "Elemental_Art",
-        "group": "Jahoda_Constellation_1"
+        "group": "default"
       },
       "gauge": 1,
       "poise": {
         "level": "LV2",
-        "value": 25
+        "value": 35
       },
       "element": "Ice",
       "attack_type": "Range",
@@ -4207,12 +4207,12 @@
       "name": "Bullet_Jahoda_ElementalArt_Attack",
       "icd": {
         "tag": "Elemental_Art",
-        "group": "default"
+        "group": "Jahoda_Constellation_1"
       },
       "gauge": 1,
       "poise": {
         "level": "LV2",
-        "value": 35
+        "value": 25
       },
       "element": "Fire",
       "attack_type": "Range",
@@ -4223,12 +4223,12 @@
       "name": "Bullet_Jahoda_ElementalArt_Attack",
       "icd": {
         "tag": "Elemental_Art",
-        "group": "default"
+        "group": "Jahoda_Constellation_1"
       },
       "gauge": 1,
       "poise": {
         "level": "LV2",
-        "value": 35
+        "value": 25
       },
       "element": "Water",
       "attack_type": "Range",
@@ -4239,12 +4239,12 @@
       "name": "Bullet_Jahoda_ElementalArt_Attack",
       "icd": {
         "tag": "Elemental_Art",
-        "group": "default"
+        "group": "Jahoda_Constellation_1"
       },
       "gauge": 1,
       "poise": {
         "level": "LV2",
-        "value": 35
+        "value": 25
       },
       "element": "Electric",
       "attack_type": "Range",
@@ -4255,12 +4255,12 @@
       "name": "Bullet_Jahoda_ElementalArt_Attack",
       "icd": {
         "tag": "Elemental_Art",
-        "group": "default"
+        "group": "Jahoda_Constellation_1"
       },
       "gauge": 1,
       "poise": {
         "level": "LV2",
-        "value": 35
+        "value": 25
       },
       "element": "Ice",
       "attack_type": "Range",
@@ -4282,21 +4282,6 @@
       "attack_type": "Melee",
       "strike_type": "Default",
       "damage_param": "ElementalBurst_AvatarExplode"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
-      "poise": {
-        "level": "LV2",
-        "value": 10
-      },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Pierce",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     },
     {
       "name": "FallingAnthem",
@@ -4329,6 +4314,21 @@
       "attack_type": "Melee",
       "strike_type": "Pierce",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     }
   ],
   "energy": [

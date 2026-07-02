@@ -3331,7 +3331,7 @@
             "name": "Mourning Flower",
             "id": 101223,
             "count": 3,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Fungal Spores",
@@ -3360,7 +3360,7 @@
             "name": "Mourning Flower",
             "id": 101223,
             "count": 10,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Fungal Spores",
@@ -3389,7 +3389,7 @@
             "name": "Mourning Flower",
             "id": 101223,
             "count": 20,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Luminescent Pollen",
@@ -3418,7 +3418,7 @@
             "name": "Mourning Flower",
             "id": 101223,
             "count": 30,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Luminescent Pollen",
@@ -3447,7 +3447,7 @@
             "name": "Mourning Flower",
             "id": 101223,
             "count": 45,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Crystalline Cyst Dust",
@@ -3476,7 +3476,7 @@
             "name": "Mourning Flower",
             "id": 101223,
             "count": 60,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Crystalline Cyst Dust",
@@ -4066,22 +4066,6 @@
     {
       "name": "ElementalBurst",
       "icd": {
-        "tag": "Kaveh_ExtraStrike",
-        "group": "default"
-      },
-      "gauge": 1,
-      "poise": {
-        "level": "LV7",
-        "value": 25
-      },
-      "element": "Grass",
-      "attack_type": "Default",
-      "strike_type": "Default",
-      "damage_param": "Kaveh_ElementalBurst_ExtraStrike_Damage"
-    },
-    {
-      "name": "ElementalBurst",
-      "icd": {
         "tag": "Elemental_Burst",
         "group": "default"
       },
@@ -4096,34 +4080,20 @@
       "damage_param": "Kaveh_ElementalBurst_Damage"
     },
     {
-      "name": "FallingAnthem",
+      "name": "ElementalBurst",
       "icd": {
-        "tag": "FallingAttack",
+        "tag": "Kaveh_ExtraStrike",
         "group": "default"
       },
+      "gauge": 1,
       "poise": {
-        "level": "LV2",
-        "value": 35
-      },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Slash",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
-      "poise": {
-        "level": "LV2",
-        "value": 35
+        "level": "LV7",
+        "value": 25
       },
       "element": "Grass",
-      "attack_type": "Melee",
-      "strike_type": "Slash",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Kaveh_ElementalBurst_ExtraStrike_Damage"
     },
     {
       "name": "FallingAnthem",
@@ -4188,6 +4158,36 @@
       "attack_type": "Melee",
       "strike_type": "Blunt",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "Grass",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     }
   ],
   "energy": [

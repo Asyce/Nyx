@@ -3376,7 +3376,7 @@
             "name": "Jueyun Chili",
             "id": 100027,
             "count": 3,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Slime Condensate",
@@ -3405,7 +3405,7 @@
             "name": "Jueyun Chili",
             "id": 100027,
             "count": 10,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Slime Condensate",
@@ -3434,7 +3434,7 @@
             "name": "Jueyun Chili",
             "id": 100027,
             "count": 20,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Slime Secretions",
@@ -3463,7 +3463,7 @@
             "name": "Jueyun Chili",
             "id": 100027,
             "count": 30,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Slime Secretions",
@@ -3492,7 +3492,7 @@
             "name": "Jueyun Chili",
             "id": 100027,
             "count": 45,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Slime Concentrate",
@@ -3521,7 +3521,7 @@
             "name": "Jueyun Chili",
             "id": 100027,
             "count": 60,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Slime Concentrate",
@@ -4208,36 +4208,6 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "poise": {
-        "level": "LV2",
-        "value": 25
-      },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Slash",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
-      "poise": {
-        "level": "LV4",
-        "value": 25
-      },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Slash",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
       "gauge": 1,
       "poise": {
         "level": "LV4",
@@ -4263,6 +4233,36 @@
       "attack_type": "Melee",
       "strike_type": "Blunt",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV4",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     }
   ],
   "energy": [

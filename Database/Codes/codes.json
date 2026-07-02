@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T08:19:46.931Z",
+  "generatedAt": "2026-07-02T08:50:53.659Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -47,16 +47,6 @@
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-06-22T20:55:49.647Z"
-        },
-        {
-          "code": "LCXGEA5SX65L",
-          "rewards": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
-          "added": "2026-06-12",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-07-02T05:04:41.099Z"
         }
       ]
     },
@@ -230,16 +220,6 @@
           "firstSeen": "2026-06-13T20:18:20.166Z"
         },
         {
-          "code": "BEYONDTHECLOUDS",
-          "rewards": "300 Polychromes, 30k Dennies, Two Senior Investigation Logs, and Three W Engine Energy Modules",
-          "added": "2026-06-06",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=BEYONDTHECLOUDS",
-          "premium": true,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-06-25T15:11:40.186Z"
-        },
-        {
           "code": "ZZZ30BANGBOO",
           "rewards": "60 Polychrome, 6666 Denny",
           "added": "2026-06-06",
@@ -272,28 +252,7 @@
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
       "lastSuccessfulFetch": "2026-07-02T05:04:41.082Z",
-      "codes": [
-        {
-          "code": "ALLFIELD",
-          "rewards": "",
-          "added": "2026-06-28",
-          "sourceUrl": "https://nexus-codes.app/copy/?code=ALLFIELD",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-07-01T05:46:58.106Z"
-        },
-        {
-          "code": "RETURNOFALL",
-          "rewards": "",
-          "added": "2026-06-28",
-          "sourceUrl": "https://nexus-codes.app/copy/?code=RETURNOFALL",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-07-01T05:46:58.106Z"
-        }
-      ]
+      "codes": []
     }
   ]
 }

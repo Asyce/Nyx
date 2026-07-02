@@ -13,21 +13,17 @@
     {
       "add_props": [
         {
-          "prop_type": "FIGHT_PROP_NONE",
-          "value": 0
+          "prop_type": "FIGHT_PROP_NONE"
         },
         {
-          "prop_type": "FIGHT_PROP_NONE",
-          "value": 0
+          "prop_type": "FIGHT_PROP_NONE"
         },
         {
-          "prop_type": "FIGHT_PROP_NONE",
-          "value": 0
+          "prop_type": "FIGHT_PROP_NONE"
         }
       ],
       "affix_id": 2150390,
       "id": 215039,
-      "level": 0,
       "open_config": "Relic_FallingAttack_2",
       "param_list": [
         0.25,
@@ -45,16 +41,13 @@
     {
       "add_props": [
         {
-          "prop_type": "FIGHT_PROP_NONE",
-          "value": 0
+          "prop_type": "FIGHT_PROP_NONE"
         },
         {
-          "prop_type": "FIGHT_PROP_NONE",
-          "value": 0
+          "prop_type": "FIGHT_PROP_NONE"
         },
         {
-          "prop_type": "FIGHT_PROP_NONE",
-          "value": 0
+          "prop_type": "FIGHT_PROP_NONE"
         }
       ],
       "affix_id": 2150391,

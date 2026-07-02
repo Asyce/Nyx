@@ -13,21 +13,17 @@
     {
       "add_props": [
         {
-          "prop_type": "FIGHT_PROP_NONE",
-          "value": 0
+          "prop_type": "FIGHT_PROP_NONE"
         },
         {
-          "prop_type": "FIGHT_PROP_NONE",
-          "value": 0
+          "prop_type": "FIGHT_PROP_NONE"
         },
         {
-          "prop_type": "FIGHT_PROP_NONE",
-          "value": 0
+          "prop_type": "FIGHT_PROP_NONE"
         }
       ],
       "affix_id": 2150120,
       "id": 215012,
-      "level": 0,
       "open_config": "Relic_WindResistance",
       "param_list": [
         0.4,

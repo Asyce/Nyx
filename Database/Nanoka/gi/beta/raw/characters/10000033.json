@@ -568,7 +568,14 @@
         "quality": 0
       }
     ],
-    "trace_effect": []
+    "trace_effect": [
+      {
+        "id": 215022,
+        "name": "Echo: Childe",
+        "desc": "Tartaglia's Envisaged Echo",
+        "icon": "UI_TraceEffectIcon_Tartaglia"
+      }
+    ]
   },
   "weapon": "WEAPON_BOW",
   "rarity": "QUALITY_ORANGE",
@@ -3418,7 +3425,7 @@
             "name": "Starconch",
             "id": 100033,
             "count": 3,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Recruit's Insignia",
@@ -3447,7 +3454,7 @@
             "name": "Starconch",
             "id": 100033,
             "count": 10,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Recruit's Insignia",
@@ -3476,7 +3483,7 @@
             "name": "Starconch",
             "id": 100033,
             "count": 20,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Sergeant's Insignia",
@@ -3505,7 +3512,7 @@
             "name": "Starconch",
             "id": 100033,
             "count": 30,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Sergeant's Insignia",
@@ -3534,7 +3541,7 @@
             "name": "Starconch",
             "id": 100033,
             "count": 45,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Lieutenant's Insignia",
@@ -3563,7 +3570,7 @@
             "name": "Starconch",
             "id": 100033,
             "count": 60,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Lieutenant's Insignia",
@@ -4364,21 +4371,6 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "poise": {
-        "level": "LV2",
-        "value": 10
-      },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Pierce",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
       "gauge": 1,
       "poise": {
         "level": "LV2",
@@ -4404,6 +4396,21 @@
       "attack_type": "Melee",
       "strike_type": "Pierce",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     }
   ],
   "energy": [

@@ -1,0 +1,103 @@
+{
+  "id": 15047,
+  "icon": "UI_RelicIcon_15047_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.18
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150470,
+      "id": 215047,
+      "param_list": [
+        0.18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Crimson Proof",
+      "desc": "ATK +18%."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150471,
+      "id": 215047,
+      "level": 1,
+      "open_config": "Relic_7.0_StarWind",
+      "param_list": [
+        0.16,
+        0.4,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Proof of the Blood-Red",
+      "desc": "Triggering a Stellar Swirl reaction increases the character's ATK by 16% and Stellar Swirl DMG by 40% for 10s."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15047_1",
+      "name": "Drink deep of your blood and tears",
+      "desc": "",
+      "story": {}
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15047_2",
+      "name": "Remember your glorious deeds",
+      "desc": "",
+      "story": {}
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15047_3",
+      "name": "Honor your faith",
+      "desc": "",
+      "story": {}
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15047_4",
+      "name": "Thank you for your devotion",
+      "desc": "",
+      "story": {}
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15047_5",
+      "name": "Grant you the years",
+      "desc": "",
+      "story": {}
+    }
+  }
+}

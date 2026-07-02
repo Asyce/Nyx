@@ -1,28 +1,21 @@
 {
   "provider": "EndfieldWiki",
   "game": "endfield",
-  "generatedAt": "2026-07-01T09:02:06.149Z",
+  "generatedAt": "2026-07-02T08:50:33.761Z",
   "summary": {
     "characters": {
       "added": 0,
       "removed": 0,
-      "changed": 1,
-      "unchanged": 28
+      "changed": 0,
+      "unchanged": 29
     }
   },
   "sections": {
     "characters": {
       "added": [],
       "removed": [],
-      "changed": [
-        {
-          "id": "camille",
-          "name": "Camille",
-          "previousHash": "d53c6b51113b04b1fe2c201127c134d5aaaabec8493e8d757fd8459034724f74",
-          "currentHash": "6aed03849f06890e0609bcfca2aa68e6082e71671e5d708460bd6bd97f19a29f"
-        }
-      ],
-      "unchanged": 28,
+      "changed": [],
+      "unchanged": 29,
       "totals": {
         "previous": 29,
         "current": 29

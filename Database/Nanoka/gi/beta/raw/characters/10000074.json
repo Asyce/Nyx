@@ -3328,7 +3328,7 @@
             "name": "Nilotpala Lotus",
             "id": 101215,
             "count": 3,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Divining Scroll",
@@ -3357,7 +3357,7 @@
             "name": "Nilotpala Lotus",
             "id": 101215,
             "count": 10,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Divining Scroll",
@@ -3386,7 +3386,7 @@
             "name": "Nilotpala Lotus",
             "id": 101215,
             "count": 20,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Sealed Scroll",
@@ -3415,7 +3415,7 @@
             "name": "Nilotpala Lotus",
             "id": 101215,
             "count": 30,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Sealed Scroll",
@@ -3444,7 +3444,7 @@
             "name": "Nilotpala Lotus",
             "id": 101215,
             "count": 45,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Forbidden Curse Scroll",
@@ -3473,7 +3473,7 @@
             "name": "Nilotpala Lotus",
             "id": 101215,
             "count": 60,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Forbidden Curse Scroll",
@@ -4097,21 +4097,6 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "poise": {
-        "level": "LV2",
-        "value": 25
-      },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Slash",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
       "gauge": 1,
       "poise": {
         "level": "LV4",
@@ -4137,6 +4122,21 @@
       "attack_type": "Melee",
       "strike_type": "Blunt",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     }
   ],
   "energy": [

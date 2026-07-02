@@ -431,6 +431,30 @@
     "zh": "织月者的曙色",
     "ja": "月紡ぎの曙光"
   },
+  "11435": {
+    "icon": "UI_EquipIcon_Sword_SerpentTooth",
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "en": "BP Weapon",
+    "atk": 454,
+    "sub": "FIGHT_PROP_CRITICAL",
+    "desc": "",
+    "ko": "BP 무기",
+    "zh": "",
+    "ja": "BP武器"
+  },
+  "11436": {
+    "icon": "UI_EquipIcon_Sword_GlintstoneSword",
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "en": "Forgeable Weapon",
+    "atk": 510,
+    "sub": "FIGHT_PROP_ELEMENT_MASTERY",
+    "desc": "A longsword crafted with a gemstone blade; it is said to have been forged for the path of justice, and when unsheathed, it glimmers with an aura of blue Pyro flames.",
+    "ko": "단조 무기",
+    "zh": "引火之源",
+    "ja": "鍛造武器"
+  },
   "11501": {
     "icon": "UI_EquipIcon_Sword_Falcon",
     "rank": 5,
@@ -622,6 +646,30 @@
     "ko": "신월의 달빛",
     "zh": "朏魄含光",
     "ja": "三日月の含光"
+  },
+  "11520": {
+    "icon": "UI_EquipIcon_Sword_Swanlake",
+    "rank": 5,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "en": "Whitelake Frostfeather",
+    "atk": 674,
+    "sub": "FIGHT_PROP_CRITICAL",
+    "desc": "",
+    "ko": "흰 호수의 겨울깃",
+    "zh": "白湖冬羽",
+    "ja": "白き湖の冬羽JP0D"
+  },
+  "11521": {
+    "icon": "UI_EquipIcon_Sword_WeaponQuestSnezhnaya",
+    "rank": 5,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "en": "Staredge Saber",
+    "atk": 608,
+    "sub": "FIGHT_PROP_CRITICAL",
+    "desc": "",
+    "ko": "스타 샤프 소드",
+    "zh": "星锋剑",
+    "ja": "星鋒の剣JP0D"
   },
   "12101": {
     "icon": "UI_EquipIcon_Claymore_Aniki",
@@ -1006,6 +1054,30 @@
     "ko": "만능 열쇠",
     "zh": "万能钥匙",
     "ja": "万能の鍵"
+  },
+  "12435": {
+    "icon": "UI_EquipIcon_Claymore_EscapeWheel",
+    "rank": 4,
+    "type": "WEAPON_CLAYMORE",
+    "en": "BP Weapon",
+    "atk": 454,
+    "sub": "FIGHT_PROP_CRITICAL",
+    "desc": "",
+    "ko": "BP 무기",
+    "zh": "",
+    "ja": "BP武器"
+  },
+  "12436": {
+    "icon": "UI_EquipIcon_Claymore_GlintstoneClaymore",
+    "rank": 4,
+    "type": "WEAPON_CLAYMORE",
+    "en": "Forgeable Weapon",
+    "atk": 565,
+    "sub": "FIGHT_PROP_ATTACK_PERCENT",
+    "desc": "A greatsword of the Rucci ember heritage, said to be wielded only by the most valiant of warriors.",
+    "ko": "단조 무기",
+    "zh": "救赎之斩",
+    "ja": "鍛造武器"
   },
   "12501": {
     "icon": "UI_EquipIcon_Claymore_Dvalin",
@@ -1474,6 +1546,30 @@
     "ko": "신성한 제사의 지팡이",
     "zh": "圣祭者的辉杖",
     "ja": "聖祭者の輝杖"
+  },
+  "13435": {
+    "icon": "UI_EquipIcon_Pole_FaesCrystalle",
+    "rank": 4,
+    "type": "WEAPON_POLE",
+    "en": "BP Weapon",
+    "atk": 510,
+    "sub": "FIGHT_PROP_CHARGE_EFFICIENCY",
+    "desc": "",
+    "ko": "BP 무기",
+    "zh": "",
+    "ja": "BP武器"
+  },
+  "13436": {
+    "icon": "UI_EquipIcon_Pole_GlintstonePolearm",
+    "rank": 4,
+    "type": "WEAPON_POLE",
+    "en": "Forgeable Weapon",
+    "atk": 565,
+    "sub": "FIGHT_PROP_ELEMENT_MASTERY",
+    "desc": "A spear that once stood watch for the crowd, now plays an important role in children's make-believe games.",
+    "ko": "단조 무기",
+    "zh": "戍望谣歌",
+    "ja": "鍛造武器"
   },
   "13501": {
     "icon": "UI_EquipIcon_Pole_Homa",
@@ -2014,6 +2110,30 @@
     "ko": "서릿빛 새벽",
     "zh": "霜辰",
     "ja": "霜辰"
+  },
+  "14435": {
+    "icon": "UI_EquipIcon_Catalyst_SandMemoria",
+    "rank": 4,
+    "type": "WEAPON_CATALYST",
+    "en": "BP Weapon",
+    "atk": 454,
+    "sub": "FIGHT_PROP_CRITICAL",
+    "desc": "",
+    "ko": "BP 무기",
+    "zh": "",
+    "ja": "BP武器"
+  },
+  "14436": {
+    "icon": "UI_EquipIcon_Catalyst_GlintstoneCatalyst",
+    "rank": 4,
+    "type": "WEAPON_CATALYST",
+    "en": "Forgeable Weapon",
+    "atk": 565,
+    "sub": "FIGHT_PROP_ATTACK_PERCENT",
+    "desc": "The Catalyst used to solidify sounds seems to still seal away a vow of loyalty and a forgotten heart.",
+    "ko": "단조 무기",
+    "zh": "寸心余响",
+    "ja": "鍛造武器"
   },
   "14501": {
     "icon": "UI_EquipIcon_Catalyst_Dvalin",
@@ -2663,6 +2783,30 @@
     "zh": "虹蛇的雨弦",
     "ja": "虹蛇の雨弦"
   },
+  "15435": {
+    "icon": "UI_EquipIcon_Bow_ShatteredMirror",
+    "rank": 4,
+    "type": "WEAPON_BOW",
+    "en": "BP Weapon",
+    "atk": 454,
+    "sub": "FIGHT_PROP_CRITICAL",
+    "desc": "",
+    "ko": "BP 무기",
+    "zh": "",
+    "ja": "BP武器"
+  },
+  "15436": {
+    "icon": "UI_EquipIcon_Bow_GlintstoneBow",
+    "rank": 4,
+    "type": "WEAPON_BOW",
+    "en": "Forgeable Weapon",
+    "atk": 510,
+    "sub": "FIGHT_PROP_DEFENSE_PERCENT",
+    "desc": "A longbow crafted to maintain order, its luster as cold and impartial as the most just of laws.",
+    "ko": "단조 무기",
+    "zh": "霜雪誓约",
+    "ja": "鍛造武器"
+  },
   "15501": {
     "icon": "UI_EquipIcon_Bow_Dvalin",
     "rank": 5,
@@ -2950,6 +3094,18 @@
     "ko": "「슈퍼 울트라 마법 열쇠」",
     "zh": "「超厉害魔法钥匙」",
     "ja": "「マジカルマジックキー」"
+  },
+  "380003": {
+    "icon": "UI_EquipIcon_Sword_Icecream",
+    "rank": 4,
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "en": "",
+    "skin": true,
+    "tag": "TAG_TYPE_NONE",
+    "desc": "",
+    "ko": "",
+    "zh": "WQ赠送幻化",
+    "ja": ""
   },
   "390001": {
     "icon": "UI_EquipIcon_Claymore_VarkaTunkeldegen",

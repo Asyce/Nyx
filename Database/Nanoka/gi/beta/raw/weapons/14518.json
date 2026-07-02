@@ -343,7 +343,7 @@
   "refinement": {
     "1": {
       "name": "Bathhouses, Hawks, and Narukami",
-      "desc": "Elemental Mastery increases by <color=#99FFFFFF>120</color> for 6s after triggering Swirl. Elemental Mastery increases by <color=#99FFFFFF>96</color> for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by <color=#99FFFFFF>32</color> for 30s after the wielder's Elemental Burst hits an opponent.",
+      "desc": "Elemental Mastery increases by <color=#99FFFFFF>120</color> for 6s after triggering Swirl or Stellar Swirl. Elemental Mastery increases by <color=#99FFFFFF>96</color> for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by <color=#99FFFFFF>32</color> for 30s after the wielder's Elemental Burst hits an opponent.",
       "param_list": [
         120,
         96,
@@ -357,7 +357,7 @@
     },
     "2": {
       "name": "Bathhouses, Hawks, and Narukami",
-      "desc": "Elemental Mastery increases by <color=#99FFFFFF>150</color> for 6s after triggering Swirl. Elemental Mastery increases by <color=#99FFFFFF>120</color> for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by <color=#99FFFFFF>40</color> for 30s after the wielder's Elemental Burst hits an opponent.",
+      "desc": "Elemental Mastery increases by <color=#99FFFFFF>150</color> for 6s after triggering Swirl or Stellar Swirl. Elemental Mastery increases by <color=#99FFFFFF>120</color> for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by <color=#99FFFFFF>40</color> for 30s after the wielder's Elemental Burst hits an opponent.",
       "param_list": [
         150,
         120,
@@ -371,7 +371,7 @@
     },
     "3": {
       "name": "Bathhouses, Hawks, and Narukami",
-      "desc": "Elemental Mastery increases by <color=#99FFFFFF>180</color> for 6s after triggering Swirl. Elemental Mastery increases by <color=#99FFFFFF>144</color> for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by <color=#99FFFFFF>48</color> for 30s after the wielder's Elemental Burst hits an opponent.",
+      "desc": "Elemental Mastery increases by <color=#99FFFFFF>180</color> for 6s after triggering Swirl or Stellar Swirl. Elemental Mastery increases by <color=#99FFFFFF>144</color> for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by <color=#99FFFFFF>48</color> for 30s after the wielder's Elemental Burst hits an opponent.",
       "param_list": [
         180,
         144,
@@ -385,7 +385,7 @@
     },
     "4": {
       "name": "Bathhouses, Hawks, and Narukami",
-      "desc": "Elemental Mastery increases by <color=#99FFFFFF>210</color> for 6s after triggering Swirl. Elemental Mastery increases by <color=#99FFFFFF>168</color> for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by <color=#99FFFFFF>56</color> for 30s after the wielder's Elemental Burst hits an opponent.",
+      "desc": "Elemental Mastery increases by <color=#99FFFFFF>210</color> for 6s after triggering Swirl or Stellar Swirl. Elemental Mastery increases by <color=#99FFFFFF>168</color> for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by <color=#99FFFFFF>56</color> for 30s after the wielder's Elemental Burst hits an opponent.",
       "param_list": [
         210,
         168,
@@ -399,7 +399,7 @@
     },
     "5": {
       "name": "Bathhouses, Hawks, and Narukami",
-      "desc": "Elemental Mastery increases by <color=#99FFFFFF>240</color> for 6s after triggering Swirl. Elemental Mastery increases by <color=#99FFFFFF>192</color> for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by <color=#99FFFFFF>64</color> for 30s after the wielder's Elemental Burst hits an opponent.",
+      "desc": "Elemental Mastery increases by <color=#99FFFFFF>240</color> for 6s after triggering Swirl or Stellar Swirl. Elemental Mastery increases by <color=#99FFFFFF>192</color> for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by <color=#99FFFFFF>64</color> for 30s after the wielder's Elemental Burst hits an opponent.",
       "param_list": [
         240,
         192,

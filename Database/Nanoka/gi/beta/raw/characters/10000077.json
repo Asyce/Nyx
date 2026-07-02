@@ -476,7 +476,7 @@
       },
       {
         "title": "About Prune",
-        "text": "This one time, I saw Prune fall asleep while reading under a tree. Her forehead was all scrunched up, like she was arguing with someone in her dreams. Master once said that everyone has weaknesses they don't want others to see. As a friend, I felt like I should offer her a shoulder to rest on, so I sat down beside her. She seemed to sleep much better after that.",
+        "text": "Last time, she sat under a tree with a book, but fell asleep shortly after. Her brow was tightly furrowed while she slept, as if she were still arguing with someone in her dreams. Master once said that everyone has weaknesses they don't want others to see. As a friend, it's enough to just offer her a shoulder to lean on when she's tired. So, I sat down next to her, and she slept so soundly.",
         "unlocked": [
           "Unlocks at Friendship Lv. 4"
         ]
@@ -3361,7 +3361,7 @@
             "name": "Jueyun Chili",
             "id": 100027,
             "count": 3,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Slime Condensate",
@@ -3390,7 +3390,7 @@
             "name": "Jueyun Chili",
             "id": 100027,
             "count": 10,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Slime Condensate",
@@ -3419,7 +3419,7 @@
             "name": "Jueyun Chili",
             "id": 100027,
             "count": 20,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Slime Secretions",
@@ -3448,7 +3448,7 @@
             "name": "Jueyun Chili",
             "id": 100027,
             "count": 30,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Slime Secretions",
@@ -3477,7 +3477,7 @@
             "name": "Jueyun Chili",
             "id": 100027,
             "count": 45,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Slime Concentrate",
@@ -3506,7 +3506,7 @@
             "name": "Jueyun Chili",
             "id": 100027,
             "count": 60,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Slime Concentrate",
@@ -4115,36 +4115,6 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "poise": {
-        "level": "LV2",
-        "value": 25
-      },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Slash",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
-      "poise": {
-        "level": "LV2",
-        "value": 25
-      },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Spear",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
       "gauge": 1,
       "poise": {
         "level": "LV4",
@@ -4172,20 +4142,34 @@
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
     },
     {
-      "name": "Turnip_Bullet",
+      "name": "FallingAnthem",
       "icd": {
-        "tag": "Elemental_Burst",
-        "group": "Yaoyao_ElementalBurst"
+        "tag": "FallingAttack",
+        "group": "default"
       },
-      "gauge": 1,
       "poise": {
         "level": "LV2",
-        "value": 15
+        "value": 25
       },
-      "element": "Grass",
-      "attack_type": "Default",
-      "strike_type": "None",
-      "damage_param": "Yaoyao_Turnip_ElementalBurst_Damage"
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Spear",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     },
     {
       "name": "Turnip_Bullet",
@@ -4202,6 +4186,54 @@
       "attack_type": "Default",
       "strike_type": "None",
       "damage_param": "Yaoyao_Turnip_ElementalArt_Damage"
+    },
+    {
+      "name": "Turnip_Bullet",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Yaoyao_ElementalBurst"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 15
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Yaoyao_Turnip_ElementalBurst_Damage"
+    },
+    {
+      "name": "Turnip",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Yaoyao_GrassAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 15
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Yaoyao_Turnip_ElementalArt_Damage"
+    },
+    {
+      "name": "Turnip",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Yaoyao_ElementalBurst"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 15
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "Yaoyao_Turnip_ElementalBurst_Damage"
     },
     {
       "name": "Turnip",
@@ -4215,38 +4247,6 @@
       "element": "AntiFire",
       "attack_type": "Default",
       "strike_type": "Default"
-    },
-    {
-      "name": "Turnip",
-      "icd": {
-        "tag": "Elemental_Burst",
-        "group": "Yaoyao_ElementalBurst"
-      },
-      "gauge": 1,
-      "poise": {
-        "level": "LV2",
-        "value": 15
-      },
-      "element": "Grass",
-      "attack_type": "Default",
-      "strike_type": "None",
-      "damage_param": "Yaoyao_Turnip_ElementalBurst_Damage"
-    },
-    {
-      "name": "Turnip",
-      "icd": {
-        "tag": "Elemental_Art",
-        "group": "Yaoyao_GrassAttack"
-      },
-      "gauge": 1,
-      "poise": {
-        "level": "LV2",
-        "value": 15
-      },
-      "element": "Grass",
-      "attack_type": "Default",
-      "strike_type": "None",
-      "damage_param": "Yaoyao_Turnip_ElementalArt_Damage"
     },
     {
       "name": "Golden_Turnip_Bullet",
@@ -4267,19 +4267,6 @@
     {
       "name": "Golden_Turnip",
       "icd": {
-        "tag": "Yaoyao_CheckAlliance",
-        "group": "default"
-      },
-      "poise": {
-        "level": "LV0"
-      },
-      "element": "AntiFire",
-      "attack_type": "Default",
-      "strike_type": "Default"
-    },
-    {
-      "name": "Golden_Turnip",
-      "icd": {
         "tag": "Yaoyao_Constellation_6",
         "group": "default"
       },
@@ -4292,6 +4279,19 @@
       "attack_type": "Default",
       "strike_type": "None",
       "damage_param": "Yaoyao_Constellation_6_Damage"
+    },
+    {
+      "name": "Golden_Turnip",
+      "icd": {
+        "tag": "Yaoyao_CheckAlliance",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "AntiFire",
+      "attack_type": "Default",
+      "strike_type": "Default"
     }
   ],
   "energy": [

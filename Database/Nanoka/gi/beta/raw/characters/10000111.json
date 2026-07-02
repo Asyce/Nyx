@@ -3416,7 +3416,7 @@
             "name": "Skysplit Gembloom",
             "id": 101254,
             "count": 3,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Juvenile Fang",
@@ -3445,7 +3445,7 @@
             "name": "Skysplit Gembloom",
             "id": 101254,
             "count": 10,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Juvenile Fang",
@@ -3474,7 +3474,7 @@
             "name": "Skysplit Gembloom",
             "id": 101254,
             "count": 20,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Seasoned Fang",
@@ -3503,7 +3503,7 @@
             "name": "Skysplit Gembloom",
             "id": 101254,
             "count": 30,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Seasoned Fang",
@@ -3532,7 +3532,7 @@
             "name": "Skysplit Gembloom",
             "id": 101254,
             "count": 45,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Tyrant's Fang",
@@ -3561,7 +3561,7 @@
             "name": "Skysplit Gembloom",
             "id": 101254,
             "count": 60,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Tyrant's Fang",
@@ -4314,52 +4314,6 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "poise": {
-        "level": "LV2",
-        "value": 5
-      },
-      "element": "Electric",
-      "attack_type": "Melee",
-      "strike_type": "Blunt",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
-      "poise": {
-        "level": "LV2",
-        "value": 5
-      },
-      "element": "Electric",
-      "attack_type": "Melee",
-      "strike_type": "Blunt",
-      "damage_param": "SpecialFallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
-      "gauge": 1,
-      "poise": {
-        "level": "LV4",
-        "value": 50
-      },
-      "element": "Electric",
-      "attack_type": "Melee",
-      "strike_type": "Blunt",
-      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
       "gauge": 1,
       "poise": {
         "level": "LV7",
@@ -4368,7 +4322,7 @@
       "element": "Electric",
       "attack_type": "Melee",
       "strike_type": "Blunt",
-      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+      "damage_param": "SpecialFallingAnthem_Normal_Rank_2_Damage"
     },
     {
       "name": "FallingAnthem",
@@ -4400,7 +4354,53 @@
       "element": "Electric",
       "attack_type": "Melee",
       "strike_type": "Blunt",
-      "damage_param": "SpecialFallingAnthem_Normal_Rank_2_Damage"
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 50
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "SpecialFallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     }
   ],
   "energy": [

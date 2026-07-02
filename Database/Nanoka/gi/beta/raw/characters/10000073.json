@@ -3403,7 +3403,7 @@
             "name": "Kalpalata Lotus",
             "id": 101217,
             "count": 3,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Fungal Spores",
@@ -3432,7 +3432,7 @@
             "name": "Kalpalata Lotus",
             "id": 101217,
             "count": 10,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Fungal Spores",
@@ -3461,7 +3461,7 @@
             "name": "Kalpalata Lotus",
             "id": 101217,
             "count": 20,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Luminescent Pollen",
@@ -3490,7 +3490,7 @@
             "name": "Kalpalata Lotus",
             "id": 101217,
             "count": 30,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Luminescent Pollen",
@@ -3519,7 +3519,7 @@
             "name": "Kalpalata Lotus",
             "id": 101217,
             "count": 45,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Crystalline Cyst Dust",
@@ -3548,7 +3548,7 @@
             "name": "Kalpalata Lotus",
             "id": 101217,
             "count": 60,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Crystalline Cyst Dust",
@@ -4221,21 +4221,6 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "poise": {
-        "level": "LV2",
-        "value": 5
-      },
-      "element": "Grass",
-      "attack_type": "Default",
-      "strike_type": "Default",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
       "gauge": 1,
       "poise": {
         "level": "LV3",
@@ -4261,6 +4246,21 @@
       "attack_type": "Default",
       "strike_type": "Default",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     }
   ],
   "energy": [

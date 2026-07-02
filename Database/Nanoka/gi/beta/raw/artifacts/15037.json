@@ -13,21 +13,17 @@
     {
       "add_props": [
         {
-          "prop_type": "FIGHT_PROP_NONE",
-          "value": 0
+          "prop_type": "FIGHT_PROP_NONE"
         },
         {
-          "prop_type": "FIGHT_PROP_NONE",
-          "value": 0
+          "prop_type": "FIGHT_PROP_NONE"
         },
         {
-          "prop_type": "FIGHT_PROP_NONE",
-          "value": 0
+          "prop_type": "FIGHT_PROP_NONE"
         }
       ],
       "affix_id": 2150370,
       "id": 215037,
-      "level": 0,
       "open_config": "Relic_NyxTime_2",
       "param_list": [
         6,
@@ -45,16 +41,13 @@
     {
       "add_props": [
         {
-          "prop_type": "FIGHT_PROP_NONE",
-          "value": 0
+          "prop_type": "FIGHT_PROP_NONE"
         },
         {
-          "prop_type": "FIGHT_PROP_NONE",
-          "value": 0
+          "prop_type": "FIGHT_PROP_NONE"
         },
         {
-          "prop_type": "FIGHT_PROP_NONE",
-          "value": 0
+          "prop_type": "FIGHT_PROP_NONE"
         }
       ],
       "affix_id": 2150371,

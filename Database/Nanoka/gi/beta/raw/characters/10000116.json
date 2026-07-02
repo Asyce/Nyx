@@ -3403,7 +3403,7 @@
             "name": "Glowing Hornshroom",
             "id": 101252,
             "count": 3,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Sentry's Wooden Whistle",
@@ -3432,7 +3432,7 @@
             "name": "Glowing Hornshroom",
             "id": 101252,
             "count": 10,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Sentry's Wooden Whistle",
@@ -3461,7 +3461,7 @@
             "name": "Glowing Hornshroom",
             "id": 101252,
             "count": 20,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Warrior's Metal Whistle",
@@ -3490,7 +3490,7 @@
             "name": "Glowing Hornshroom",
             "id": 101252,
             "count": 30,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Warrior's Metal Whistle",
@@ -3519,7 +3519,7 @@
             "name": "Glowing Hornshroom",
             "id": 101252,
             "count": 45,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Saurian-Crowned Warrior's Golden Whistle",
@@ -3548,7 +3548,7 @@
             "name": "Glowing Hornshroom",
             "id": 101252,
             "count": 60,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Saurian-Crowned Warrior's Golden Whistle",
@@ -4217,36 +4217,6 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "poise": {
-        "level": "LV2",
-        "value": 25
-      },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Slash",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
-      "poise": {
-        "level": "LV4",
-        "value": 25
-      },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Slash",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
       "gauge": 1,
       "poise": {
         "level": "LV4",
@@ -4272,6 +4242,36 @@
       "attack_type": "Melee",
       "strike_type": "Blunt",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV4",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     },
     {
       "name": "Ineffa_Talent_6",

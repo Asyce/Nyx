@@ -1,0 +1,103 @@
+{
+  "id": 15048,
+  "icon": "UI_RelicIcon_15048_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.18
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150480,
+      "id": 215048,
+      "param_list": [
+        0.18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "",
+      "desc": "ATK +18%."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150481,
+      "id": 215048,
+      "level": 1,
+      "open_config": "Relic_7.0_StarSupport_4",
+      "param_list": [
+        0.12,
+        0.5,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "",
+      "desc": "When you trigger Stellar-Conduct, Stellar Swirl, or directly deal reaction DMG of the above types, your ATK increases by 12% and nearby party members gain a buff that increases their Stellar-Conduct and Stellar Swirl DMG by 50% for 12s. This effect is unique and cannot stack. Can be triggered even when the character is not on the field."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15048_1",
+      "name": "0",
+      "desc": "",
+      "story": {}
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15048_2",
+      "name": "0",
+      "desc": "",
+      "story": {}
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15048_3",
+      "name": "0",
+      "desc": "",
+      "story": {}
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15048_4",
+      "name": "0",
+      "desc": "",
+      "story": {}
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15048_5",
+      "name": "0",
+      "desc": "",
+      "story": {}
+    }
+  }
+}

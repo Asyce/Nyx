@@ -3382,7 +3382,7 @@
             "name": "Dandelion Seed",
             "id": 100057,
             "count": 3,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Damaged Mask",
@@ -3411,7 +3411,7 @@
             "name": "Dandelion Seed",
             "id": 100057,
             "count": 10,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Damaged Mask",
@@ -3440,7 +3440,7 @@
             "name": "Dandelion Seed",
             "id": 100057,
             "count": 20,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Stained Mask",
@@ -3469,7 +3469,7 @@
             "name": "Dandelion Seed",
             "id": 100057,
             "count": 30,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Stained Mask",
@@ -3498,7 +3498,7 @@
             "name": "Dandelion Seed",
             "id": 100057,
             "count": 45,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Ominous Mask",
@@ -3527,7 +3527,7 @@
             "name": "Dandelion Seed",
             "id": 100057,
             "count": 60,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Ominous Mask",
@@ -4101,34 +4101,6 @@
     {
       "name": "VortexSmash",
       "icd": {
-        "tag": "VortexSmash_Detect",
-        "group": "default"
-      },
-      "gauge": 2,
-      "poise": {
-        "level": "LV0"
-      },
-      "element": "None",
-      "attack_type": "Default",
-      "strike_type": "None"
-    },
-    {
-      "name": "VortexSmash",
-      "icd": {
-        "tag": "VortexSmash_Detect_Short",
-        "group": "default"
-      },
-      "gauge": 2,
-      "poise": {
-        "level": "LV0"
-      },
-      "element": "None",
-      "attack_type": "Default",
-      "strike_type": "None"
-    },
-    {
-      "name": "VortexSmash",
-      "icd": {
         "tag": "Elemental_Art",
         "group": "default"
       },
@@ -4158,6 +4130,34 @@
       "strike_type": "Default"
     },
     {
+      "name": "VortexSmash",
+      "icd": {
+        "tag": "VortexSmash_Detect",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
+      "name": "VortexSmash",
+      "icd": {
+        "tag": "VortexSmash_Detect_Short",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
       "name": "DandelionWind_Push",
       "icd": {
         "tag": "Elemental_Burst",
@@ -4172,21 +4172,6 @@
       "attack_type": "Default",
       "strike_type": "Default",
       "damage_param": "Burst_DMG"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
-      "poise": {
-        "level": "LV2",
-        "value": 25
-      },
-      "element": "None",
-      "attack_type": "Melee",
-      "strike_type": "Slash",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     },
     {
       "name": "FallingAnthem",
@@ -4219,6 +4204,21 @@
       "attack_type": "Melee",
       "strike_type": "Blunt",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     }
   ],
   "energy": [

@@ -3385,7 +3385,7 @@
             "name": "Valberry",
             "id": 100022,
             "count": 3,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Slime Condensate",
@@ -3414,7 +3414,7 @@
             "name": "Valberry",
             "id": 100022,
             "count": 10,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Slime Condensate",
@@ -3443,7 +3443,7 @@
             "name": "Valberry",
             "id": 100022,
             "count": 20,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Slime Secretions",
@@ -3472,7 +3472,7 @@
             "name": "Valberry",
             "id": 100022,
             "count": 30,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Slime Secretions",
@@ -3501,7 +3501,7 @@
             "name": "Valberry",
             "id": 100022,
             "count": 45,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Slime Concentrate",
@@ -3530,7 +3530,7 @@
             "name": "Valberry",
             "id": 100022,
             "count": 60,
-            "rank": 0
+            "rank": 1
           },
           {
             "name": "Slime Concentrate",
@@ -4120,20 +4120,6 @@
     {
       "name": "Attack01",
       "icd": {
-        "group": "default"
-      },
-      "gauge": 4,
-      "poise": {
-        "level": "LV3",
-        "value": 60
-      },
-      "element": "None",
-      "attack_type": "Default",
-      "strike_type": "None"
-    },
-    {
-      "name": "Attack01",
-      "icd": {
         "tag": "NormalAttack_01",
         "group": "default"
       },
@@ -4148,7 +4134,7 @@
       "damage_param": "Damage01"
     },
     {
-      "name": "Attack02",
+      "name": "Attack01",
       "icd": {
         "group": "default"
       },
@@ -4178,7 +4164,7 @@
       "damage_param": "Damage02"
     },
     {
-      "name": "Attack03",
+      "name": "Attack02",
       "icd": {
         "group": "default"
       },
@@ -4208,7 +4194,7 @@
       "damage_param": "Damage03"
     },
     {
-      "name": "Attack04",
+      "name": "Attack03",
       "icd": {
         "group": "default"
       },
@@ -4236,6 +4222,20 @@
       "attack_type": "Default",
       "strike_type": "Default",
       "damage_param": "Damage04"
+    },
+    {
+      "name": "Attack04",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV3",
+        "value": 60
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "None"
     },
     {
       "name": "FlickerWaveDamage",
@@ -4354,21 +4354,6 @@
         "tag": "FallingAttack",
         "group": "default"
       },
-      "poise": {
-        "level": "LV2",
-        "value": 5
-      },
-      "element": "Electric",
-      "attack_type": "Default",
-      "strike_type": "Default",
-      "damage_param": "FallingAnthem_Normal_Loop_Damage"
-    },
-    {
-      "name": "FallingAnthem",
-      "icd": {
-        "tag": "FallingAttack",
-        "group": "default"
-      },
       "gauge": 1,
       "poise": {
         "level": "LV3",
@@ -4394,6 +4379,21 @@
       "attack_type": "Default",
       "strike_type": "Default",
       "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
     }
   ],
   "energy": [

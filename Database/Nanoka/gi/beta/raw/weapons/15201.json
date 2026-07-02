@@ -9,7 +9,6 @@
       "type": "GROW_CURVE_ATTACK_101"
     },
     {
-      "init_value": 0,
       "prop_type": "FIGHT_PROP_NONE",
       "type": "GROW_CURVE_CRITICAL_101"
     }

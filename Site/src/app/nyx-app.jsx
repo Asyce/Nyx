@@ -1108,7 +1108,7 @@ const BANNER_FLOW = {};
 SIM_GAMES.forEach((g, i) => {
   BANNER_FLOW[g.key] = bannerFlowFor(g, i);
 });
-const SIM_CC_COLORS = ['#dd0044','#635bff','#c08fe6','#e3b552','#b8b3ff','#d8b86a','#8f7fd6','#e07fb0'];
+const SIM_CC_COLORS = ['#dd6aa0','#635bff','#c08fe6','#9db5ff','#b8b3ff','#8b7bff','#8f7fd6','#e07fb0'];
 
 function SimChar({ name }){
   const ch = typeof name === 'string' ? { name } : name;
@@ -1683,6 +1683,54 @@ function NyxApp(){
   }, []);
 
   React.useEffect(() => mountNyxAmbientText(), []);
+
+  React.useEffect(() => {
+    const scrollTargets = [
+      '.nyx-pengo-menu',
+      '.cm-pop-main',
+      '.cm-pop.ledger .cm-pop-layout',
+      '.gt-panel',
+      '.gt-results',
+      '.cm-body',
+      '.db-grid',
+      '.sim-gbangrid',
+      '.gp-codes-scroll',
+      '.overview-codes-scroll',
+      '.gp-side-nav',
+      '.gp-layout',
+      '.gp-main-pane'
+    ];
+    const isVisible = (el) => {
+      if (!el) return false;
+      const rect = el.getBoundingClientRect();
+      const styles = window.getComputedStyle(el);
+      return rect.width > 0 && rect.height > 0 && styles.display !== 'none' && styles.visibility !== 'hidden';
+    };
+    const canScrollY = (el, deltaY) => {
+      if (!el || !isVisible(el) || el.scrollHeight <= el.clientHeight + 1) return false;
+      if (deltaY > 0) return el.scrollTop + el.clientHeight < el.scrollHeight - 1;
+      if (deltaY < 0) return el.scrollTop > 1;
+      return false;
+    };
+    const onWheel = (event) => {
+      if (event.defaultPrevented || event.ctrlKey || event.metaKey) return;
+      if (Math.abs(event.deltaY) < 1 || Math.abs(event.deltaX) > Math.abs(event.deltaY) * 1.2) return;
+      let node = event.target instanceof Element ? event.target : null;
+      while (node && node !== document.body && node !== document.documentElement) {
+        if (canScrollY(node, event.deltaY)) return;
+        node = node.parentElement;
+      }
+      const candidates = scrollTargets
+        .flatMap((selector) => Array.from(document.querySelectorAll(selector)))
+        .filter((el) => canScrollY(el, event.deltaY));
+      const preferred = candidates.find((el) => el.matches('.gt-panel,.cm-body,.db-grid,.sim-gbangrid,.gt-results,.cm-pop-main,.nyx-pengo-menu')) || candidates[0];
+      if (!preferred) return;
+      event.preventDefault();
+      preferred.scrollBy({ top:event.deltaY, left:0, behavior:'auto' });
+    };
+    document.addEventListener('wheel', onWheel, { passive:false });
+    return () => document.removeEventListener('wheel', onWheel);
+  }, []);
 
   // background art crossfade between games (two viewport-level layers)
   const bgToggle = React.useRef(0);

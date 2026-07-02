@@ -83,12 +83,12 @@ function gpNav(e, onSwitch, key){
   onSwitch(key);
 }
 
-function GPMedallion({ game, size, on, dim, title, href, onSwitch }){
+function GPMedallion({ game, size, on, dim, title, href, onSwitch, railRival }){
   const cls = 'gp-med' + (size === 'sm' ? ' sz-sm' : '') + (on ? ' on' : '') + (dim ? ' dim' : '');
   const inner = <img className={game.glyph ? 'glyph' : ''} src={game.icon} alt={game.name} />;
-  if (href) return <a className={cls} href={href} title={title || game.name} onClick={(e) => gpNav(e, onSwitch, game.key)}>{inner}</a>;
+  if (href) return <a className={cls} href={href} title={title || game.name} data-nyx-rail-rival={railRival ? 'true' : undefined} onClick={(e) => gpNav(e, onSwitch, game.key)}>{inner}</a>;
   return (
-    <div className={cls} title={title || game.name}>{inner}</div>
+    <div className={cls} title={title || game.name} data-nyx-rail-rival={railRival ? 'true' : undefined}>{inner}</div>
   );
 }
 
@@ -106,12 +106,14 @@ function GPLogoBack({ size }){
 function GPMedSim({ on, href, onSwitch }){
   const ref = React.useRef(null);
   const ballRef = React.useRef(null);
+  const sadRef = React.useRef(false);
   React.useEffect(() => {
     const eye = ref.current, ball = ballRef.current;
     if (!eye || !ball) return;
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     let raf = null;
     const onMove = (e) => {
+      if (sadRef.current) return;
       if (raf) return;
       const mx = e.clientX, my = e.clientY;
       raf = requestAnimationFrame(() => {
@@ -128,8 +130,59 @@ function GPMedSim({ on, href, onSwitch }){
     document.addEventListener('mousemove', onMove);
     return () => { document.removeEventListener('mousemove', onMove); if (raf) cancelAnimationFrame(raf); };
   }, []);
+  React.useEffect(() => {
+    const eye = ref.current, ball = ballRef.current;
+    const rail = eye && eye.closest('.gp-game-rail');
+    if (!eye || !ball || !rail) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    let sad = false;
+    let sadTimer = null;
+    let droopTimer = null;
+    const clearSad = () => {
+      clearTimeout(sadTimer);
+      clearTimeout(droopTimer);
+      sadRef.current = false;
+      if (sad) {
+        sad = false;
+        eye.classList.remove('sad');
+        ball.style.transition = '';
+      }
+    };
+    const onOver = (event) => {
+      const target = event.target instanceof Element ? event.target : null;
+      if (!target || !target.closest('[data-nyx-rail-rival]')) return;
+      clearTimeout(sadTimer);
+      clearTimeout(droopTimer);
+      sadTimer = setTimeout(() => {
+        sad = true;
+        sadRef.current = true;
+        eye.classList.add('sad');
+        ball.style.transition = 'transform 1.1s cubic-bezier(.4,.1,.3,1)';
+        ball.style.transform = 'translate(0px, 0px)';
+        droopTimer = setTimeout(() => {
+          if (!sad) return;
+          ball.style.transition = 'transform 1.9s cubic-bezier(.45,.05,.3,1)';
+          ball.style.transform = 'translate(0px, 5px)';
+        }, 1150);
+      }, 500);
+    };
+    const onOut = (event) => {
+      const target = event.target instanceof Element ? event.target : null;
+      const rival = target && target.closest('[data-nyx-rail-rival]');
+      const related = event.relatedTarget instanceof Node ? event.relatedTarget : null;
+      if (!rival || (related && rival.contains(related))) return;
+      clearSad();
+    };
+    rail.addEventListener('mouseover', onOver);
+    rail.addEventListener('mouseout', onOut);
+    return () => {
+      rail.removeEventListener('mouseover', onOver);
+      rail.removeEventListener('mouseout', onOut);
+      clearSad();
+    };
+  }, []);
   return (
-    <a ref={ref} href={href || GP_PAGE_HREF.nyx} className={'gp-med sim' + (on ? ' on' : ' sz-sm')} title="Nyx" onClick={(e) => gpNav(e, onSwitch, 'nyx')}>
+    <a ref={ref} href={href || GP_PAGE_HREF.nyx} className={'gp-med sim' + (on ? ' on' : ' sz-sm dim')} title="Nyx" onClick={(e) => gpNav(e, onSwitch, 'nyx')}>
       <span className="ballvibe"><span className="ballscale"><span ref={ballRef} className="slayer ball"></span></span></span>
       <span className="slayer lid"></span>
       <span className="slayer drips"></span>
@@ -145,13 +198,13 @@ function GPGameRail({ active, onSwitch, displayGames }){
   const isNyx = active === 'nyx';
   const visible = (g) => !displayGames || displayGames[g.key] !== false;
   return (
-    <div style={{ display:'flex', alignItems:'center', gap:'16px' }}>
+    <div className="gp-game-rail">
       <GPMedSim on={isNyx} href={GP_PAGE_HREF.nyx} onSwitch={onSwitch} />
-      <div style={{ display:'flex', alignItems:'center', gap:'10px' }}>
+      <div className="gp-game-rail-icons">
         {GP_GAMES.filter(g => g.key !== 'nyx' && visible(g)).map(g => (
           <GPMedallion key={g.key} game={g} size="sm"
                        on={g.key === active} dim={g.key !== active}
-                       href={GP_PAGE_HREF[g.key]} onSwitch={onSwitch} />
+                       href={GP_PAGE_HREF[g.key]} onSwitch={onSwitch} railRival />
         ))}
       </div>
     </div>

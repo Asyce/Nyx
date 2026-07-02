@@ -1251,11 +1251,11 @@ function navKeyDown(fn){
   return (e) => { if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') { e.preventDefault(); fn(); } };
 }
 
-function GameContent({ cfg, tab, setTab, onOpenMaterial }){
+function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings }){
   const fns = cfg.fns || ['Character Materials','Artifact Sorter','Wish Tracker'];
   // G13: the section list the Character-Materials header icon-dropdown switches between.
   const sectionKey = (f) => /tracker$/i.test(f) ? 'tracker' : /^character materials$/i.test(f) ? 'mats' : 'library';
-  const sections = [{ key:'overview', label:'Overview' }, ...fns.map((f) => ({ key:sectionKey(f), label:f }))];
+  const sections = [{ key:'overview', label:'Overview' }, ...fns.map((f) => ({ key:sectionKey(f), label:f })), { key:'settings', label:'Settings' }];
   return (
     <div className={'gp-layout' + (tab === 'overview' ? ' has-aside' : '')}>
       <nav className="gp-side-nav" aria-label="Tools">
@@ -1276,6 +1276,11 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial }){
             </div>
           );
         })}
+        <div className={'gp-fn-row click' + (tab === 'settings' ? ' on' : '')}
+             role="button" tabIndex={0} aria-current={tab === 'settings' ? 'page' : undefined}
+             onClick={() => setTab('settings')} onKeyDown={navKeyDown(() => setTab('settings'))}>
+          <span className="dia" aria-hidden="true"></span><span>Settings</span><span className="go">{'\u203A'}</span>
+        </div>
       </nav>
 
       {tab === 'overview' && (
@@ -1298,18 +1303,20 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial }){
           <CollectionLibrary key={cfg.key} game={cfg.key} />
         </main>
       )}
+      {tab === 'settings' && <SettingsPane settings={settings} setSettings={setSettings} />}
 
       {tab === 'overview' && <OverviewAside cfg={cfg} />}
     </div>
   );
 }
 
-function SimContent({ tab, setTab, onOpenMaterial }){
+function SimContent({ tab, setTab, onOpenMaterial, settings, setSettings }){
   const NAV = [
     { key:'overview', label:'Overview' },
     { key:'pulls',    label:'Pull Overview' },
     { key:'codes',    label:'All Redemption Codes' },
     { key:'banners',  label:'All Banners' },
+    { key:'settings', label:'Settings' },
   ];
   return (
     <div className={'gp-layout' + (tab === 'overview' ? ' has-aside' : '')}>
@@ -1330,6 +1337,7 @@ function SimContent({ tab, setTab, onOpenMaterial }){
       {tab === 'pulls' && <main className="gp-main-pane fill"><PullsOverview /></main>}
       {tab === 'codes' && <main className="gp-main-pane fill"><AllCodesView /></main>}
       {tab === 'banners' && <main className="gp-main-pane fill"><AllBannersView /></main>}
+      {tab === 'settings' && <SettingsPane settings={settings} setSettings={setSettings} />}
       {tab === 'overview' && <OverviewAside cfg={NYX_META} />}
     </div>
   );
@@ -1347,7 +1355,7 @@ function keyFromLocation(){
 }
 
 function validTabsForKey(key){
-  return key === 'nyx' ? ['overview','pulls','codes','banners'] : ['overview','mats','library','tracker'];
+  return key === 'nyx' ? ['overview','pulls','codes','banners','settings'] : ['overview','mats','library','tracker','settings'];
 }
 
 function coerceTabForKey(key, wanted){
@@ -1414,7 +1422,7 @@ function loadPengoSettings(){
   }
 }
 
-function PengoMenu({ settings, setSettings }){
+function PengoMenu({ settings, setSettings, inline }){
   const update = (patch) => setSettings((prev) => Object.assign({}, prev, patch));
   const identity = sanitizeNyxIdentity(settings.identity);
   const setIdentity = (group, value) => update({ identity:Object.assign({}, identity, { [group]:value }) });
@@ -1444,7 +1452,10 @@ function PengoMenu({ settings, setSettings }){
   const nextAnim = settings.animation === 'play' ? 'pause' : (settings.animation === 'pause' ? 'stop' : 'play');
   const animIcon = settings.animation === 'play' ? '\u25b6' : (settings.animation === 'pause' ? '\u23f8' : '\u25a0');
   return (
-    <div className="nyx-pengo-menu" role="dialog" aria-label="Pengo settings" onClick={(e) => e.stopPropagation()}>
+    <div className={'nyx-pengo-menu' + (inline ? ' as-tab' : '')}
+         role={inline ? 'region' : 'dialog'}
+         aria-label="Pengo settings"
+         onClick={(e) => e.stopPropagation()}>
       <section>
         <h3>Magnum Opus Pengonis</h3>
         <button type="button" className="pm-row" data-tip="Power assistant Pengo On/Off"
@@ -1523,6 +1534,14 @@ function PengoMenu({ settings, setSettings }){
   );
 }
 
+function SettingsPane({ settings, setSettings }){
+  return (
+    <main className="gp-main-pane fill settings-pane">
+      <PengoMenu settings={settings} setSettings={setSettings} inline />
+    </main>
+  );
+}
+
 function NyxChannelToggle({ gameKey }){
   const [channel, setChannel] = React.useState(() => cmLoadChannel(gameKey));
   React.useEffect(() => { setChannel(cmLoadChannel(gameKey)); }, [gameKey]);
@@ -1540,12 +1559,12 @@ function NyxChannelToggle({ gameKey }){
          role="group" aria-label="Data channel: Live or Beta" onClick={toggle}
          title={betaAvailable ? undefined : 'Beta data is not available for this game yet'}>
       <button type="button" className={'cm-chan-option live-option' + (!isBeta ? ' on' : '')} aria-pressed={!isBeta}
-              title="Released, live-server data" onClick={(e) => { e.stopPropagation(); pick('live'); }}>Live</button>
+              title="Released, live-server data" onClick={(e) => { e.stopPropagation(); toggle(); }}>Live</button>
       <span className="cm-chan-medallion" aria-hidden="true">
         <img src="../assets/icon/pengoemote.png" alt="" draggable="false" />
       </span>
       <button type="button" className={'cm-chan-option beta-option' + (isBeta ? ' on' : '')} aria-pressed={isBeta}
-              aria-disabled={!betaAvailable} onClick={(e) => { e.stopPropagation(); pick('beta'); }}
+              aria-disabled={!betaAvailable} onClick={(e) => { e.stopPropagation(); toggle(); }}
               title={betaAvailable ? 'Beta (latest) data - upcoming, subject to change' : 'No beta data available yet'}>Beta</button>
     </div>
   );
@@ -1556,9 +1575,7 @@ function NyxApp(){
   const [activeKey, setActiveKey] = React.useState(initialKey);
   const [tab, setTab] = React.useState(DEFAULT_TAB(initialKey));
   const [materialModal, setMaterialModal] = React.useState(null);
-  const [pengoMenuOpen, setPengoMenuOpen] = React.useState(false);
   const [pengoSettings, setPengoSettings] = React.useState(loadPengoSettings);
-  const cornerRef = React.useRef(null);
   useCmGameVersion(activeKey);
 
   React.useEffect(() => {
@@ -1572,22 +1589,6 @@ function NyxApp(){
     root.classList.toggle('nyx-pattern-off', pengoSettings.animation === 'stop');
     root.classList.toggle('nyx-khaenriah', !!pengoSettings.khaenriah);
   }, [pengoSettings]);
-
-  React.useEffect(() => {
-    if (!pengoMenuOpen) return;
-    const onPointer = (event) => {
-      if (cornerRef.current && !cornerRef.current.contains(event.target)) setPengoMenuOpen(false);
-    };
-    const onKey = (event) => {
-      if (event.key === 'Escape') setPengoMenuOpen(false);
-    };
-    window.addEventListener('pointerdown', onPointer);
-    window.addEventListener('keydown', onKey);
-    return () => {
-      window.removeEventListener('pointerdown', onPointer);
-      window.removeEventListener('keydown', onKey);
-    };
-  }, [pengoMenuOpen]);
 
   // reveal the page once the app has actually mounted. The page-level
   // background paints the instant the HTML is parsed (well before this bundle
@@ -1621,19 +1622,20 @@ function NyxApp(){
 
   React.useEffect(() => {
     const scrollTargets = [
-      '.nyx-pengo-menu',
       '.cm-pop-main',
       '.cm-pop.ledger .cm-pop-layout',
+      '.cm-body',
       '.gt-panel',
       '.gt-results',
-      '.cm-body',
       '.db-grid',
       '.sim-gbangrid',
       '.gp-codes-scroll',
       '.overview-codes-scroll',
+      '.settings-pane',
+      '.nyx-pengo-menu.as-tab',
       '.gp-side-nav',
-      '.gp-layout',
       '.gp-main-pane',
+      '.gp-layout',
     ];
     const isVisible = (el) => {
       if (!el) return false;
@@ -1658,13 +1660,13 @@ function NyxApp(){
       const candidates = scrollTargets
         .flatMap((selector) => Array.from(document.querySelectorAll(selector)))
         .filter((el) => canScrollY(el, event.deltaY));
-      const preferred = candidates.find((el) => el.matches('.gt-panel,.cm-body,.db-grid,.sim-gbangrid,.gt-results,.cm-pop-main,.nyx-pengo-menu')) || candidates[0];
+      const preferred = candidates.find((el) => el.matches('.cm-pop-main,.cm-body,.gt-results,.db-grid,.sim-gbangrid,.gp-codes-scroll,.overview-codes-scroll,.settings-pane,.nyx-pengo-menu.as-tab')) || candidates[0];
       if (!preferred) return;
       event.preventDefault();
       preferred.scrollBy({ top:event.deltaY, left:0, behavior:'auto' });
     };
-    document.addEventListener('wheel', onWheel, { passive:false });
-    return () => document.removeEventListener('wheel', onWheel);
+    window.addEventListener('wheel', onWheel, { passive:false, capture:true });
+    return () => window.removeEventListener('wheel', onWheel, { capture:true });
   }, []);
 
   // background art crossfade between games (two viewport-level layers)
@@ -1730,24 +1732,18 @@ function NyxApp(){
         </div>
       </header>
 
-      <div className="gp-corner" ref={cornerRef}>
+      <div className="gp-corner">
         <div className="gp-corner-actions">
           <a className="gp-kofi" href="https://ko-fi.com/asyce" target="_blank" rel="noopener noreferrer" title="Ko-fi" aria-label="Ko-fi">
             <img src="../assets/icon/kofi-logo.png" alt="" draggable="false" />
           </a>
-          <button type="button" className={'tb-pengo corner menu-trigger' + (pengoMenuOpen ? ' on' : '')}
-                  title="Pengo menu" aria-label="Pengo menu" aria-expanded={pengoMenuOpen}
-                  onClick={() => setPengoMenuOpen((open) => !open)}>
-            <img src="../assets/icon/pengo.png" alt="" draggable="false" />
-          </button>
         </div>
-        {pengoMenuOpen && <PengoMenu settings={pengoSettings} setSettings={setPengoSettings} />}
         {!isNyx && <NyxChannelToggle gameKey={activeKey} />}
       </div>
 
       {isNyx
-        ? <SimContent tab={tab} setTab={setTab} onOpenMaterial={openMaterialModal} />
-        : <GameContent cfg={cfg} tab={tab} setTab={setTab} onOpenMaterial={openMaterialModal} />}
+        ? <SimContent tab={tab} setTab={setTab} onOpenMaterial={openMaterialModal} settings={pengoSettings} setSettings={setPengoSettings} />
+        : <GameContent cfg={cfg} tab={tab} setTab={setTab} onOpenMaterial={openMaterialModal} settings={pengoSettings} setSettings={setPengoSettings} />}
       {materialModal && (
         <CharMaterials
           inline

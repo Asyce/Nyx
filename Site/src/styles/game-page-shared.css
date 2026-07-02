@@ -123,6 +123,7 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 .gp-med.sim .ballscale{ transform-origin:50% 45%; transition:transform .5s cubic-bezier(.2,.7,.2,1); }
 .gp-med.sim:hover .ballscale{ transform:scale(1.09); }
 .gp-med.sim:hover .ballvibe{ animation:gpSimVibe .055s linear infinite alternate; }
+.gp-med.sim.sad .ballscale{ transform:scale(.86); transition-duration:1.1s; }
 @keyframes gpSimVibe{ from{ transform:translateX(-1px); } to{ transform:translateX(1px); } }
 .gp-med.sim .slayer{ position:absolute; inset:0;
   background:linear-gradient(165deg,#e3dcff,#9a89ea 70%,#7a69d8);
@@ -138,6 +139,8 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 @media (prefers-reduced-motion: reduce){ .gp-med.sim .slayer.drips{ animation:none; } }
 @media (prefers-reduced-motion: reduce){ .gp-med.sim:hover .ballvibe{ animation:none; } }
 .gp-med.sz-sm img.glyph{ width:24px; height:24px; }
+.gp-game-rail{ display:flex; align-items:center; gap:16px; }
+.gp-game-rail-icons{ display:flex; align-items:center; gap:10px; }
 
 /* ===== favourite character card (vertical, hub-frame style) ===== */
 .gp-fav{ position:relative; cursor:pointer; flex:none;
@@ -725,6 +728,66 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   font-size:11px; line-height:1.35; letter-spacing:.02em; text-transform:none; opacity:0; pointer-events:none;
   transform:translate(6px,-50%); transition:opacity .14s ease, transform .14s ease; }
 .nyx-pengo-menu [data-tip]:hover::after{ opacity:1; transform:translate(0,-50%); }
+.settings-pane{
+  overflow-y:auto;
+  align-items:flex-start;
+  padding:2px 8px 24px 2px;
+}
+.nyx-pengo-menu.as-tab{
+  position:relative;
+  left:auto;
+  bottom:auto;
+  width:min(560px, 100%);
+  max-height:none;
+  overflow:visible;
+  margin:0;
+}
+.nyx-pengo-menu.as-tab [data-tip]::after{
+  left:calc(100% + 12px);
+}
+.gp-side-nav,
+.gp-cardrow.scroll,
+.gp-fav-picker,
+.overview-codes-scroll,
+.gp-codes-scroll,
+.sim-gbangrid,
+.gt-results,
+.gt-fives .lst,
+.gt-archive-grid,
+.gt-history-table,
+.gt-recent-five-list,
+.gt-banner-history-list,
+.gt-archive-side .gt-total-strip.archive,
+.db-grid,
+.cm-body,
+.cm-pop-main,
+.cm-pop.ledger .cm-pop-layout,
+.settings-pane{
+  scrollbar-width:none;
+  -ms-overflow-style:none;
+}
+.gp-side-nav::-webkit-scrollbar,
+.gp-cardrow.scroll::-webkit-scrollbar,
+.gp-fav-picker::-webkit-scrollbar,
+.overview-codes-scroll::-webkit-scrollbar,
+.gp-codes-scroll::-webkit-scrollbar,
+.sim-gbangrid::-webkit-scrollbar,
+.gt-results::-webkit-scrollbar,
+.gt-fives .lst::-webkit-scrollbar,
+.gt-archive-grid::-webkit-scrollbar,
+.gt-history-table::-webkit-scrollbar,
+.gt-recent-five-list::-webkit-scrollbar,
+.gt-banner-history-list::-webkit-scrollbar,
+.gt-archive-side .gt-total-strip.archive::-webkit-scrollbar,
+.db-grid::-webkit-scrollbar,
+.cm-body::-webkit-scrollbar,
+.cm-pop-main::-webkit-scrollbar,
+.cm-pop.ledger .cm-pop-layout::-webkit-scrollbar,
+.settings-pane::-webkit-scrollbar{
+  width:0;
+  height:0;
+  display:none;
+}
 html.nyx-whispers-off .nyx-rune-field{ display:none !important; }
 html.nyx-pattern-paused .page-pattern, html.nyx-pattern-paused .gp-pattern{ animation-play-state:paused !important; }
 html.nyx-pattern-off .page-pattern, html.nyx-pattern-off .gp-pattern{ opacity:0 !important; animation:none !important; }

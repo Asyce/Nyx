@@ -730,20 +730,160 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 .nyx-pengo-menu [data-tip]:hover::after{ opacity:1; transform:translate(0,-50%); }
 .settings-pane{
   overflow-y:auto;
-  align-items:flex-start;
-  padding:2px 8px 24px 2px;
+  align-items:stretch;
+  padding:4px 10px 28px 2px;
 }
 .nyx-pengo-menu.as-tab{
   position:relative;
+  box-sizing:border-box;
   left:auto;
   bottom:auto;
-  width:min(560px, 100%);
+  width:100%;
+  min-height:100%;
   max-height:none;
   overflow:visible;
   margin:0;
+  padding:0;
+  border-radius:0;
+  background:transparent;
+  box-shadow:none;
+  backdrop-filter:none;
+  -webkit-backdrop-filter:none;
+  animation:none;
+  display:grid;
+  grid-template-columns:minmax(330px, .84fr) minmax(420px, 1.16fr);
+  grid-template-rows:auto 1fr;
+  align-content:start;
+  gap:14px 16px;
+}
+.nyx-pengo-menu.as-tab::before,
+.nyx-pengo-menu.as-tab::after{ display:none; }
+.nyx-pengo-menu.as-tab .pm-section{
+  position:relative;
+  box-sizing:border-box;
+  min-width:0;
+  padding:18px 20px;
+  border-radius:8px;
+  overflow:visible;
+  background:linear-gradient(180deg, rgba(32,23,70,.42), rgba(12,8,28,.26));
+  box-shadow:inset 0 0 0 1px rgba(196,183,255,.18), 0 18px 40px rgba(0,0,0,.2);
+}
+.nyx-pengo-menu.as-tab .pm-section::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:0;
+  pointer-events:none;
+  background:
+    linear-gradient(90deg, rgba(140,116,255,.14), transparent 42%),
+    linear-gradient(180deg, rgba(160,145,255,.1), transparent 58%);
+  opacity:.72;
+  border-radius:inherit;
+}
+.nyx-pengo-menu.as-tab .pm-section > *{ position:relative; z-index:1; }
+.nyx-pengo-menu.as-tab .pm-section + .pm-section{ margin-top:0; padding-top:18px; border-top:0; }
+.nyx-pengo-menu.as-tab .pm-opus{ grid-row:1 / span 2; align-self:stretch; display:flex; flex-direction:column; }
+.nyx-pengo-menu.as-tab .pm-opus .pm-reset{ margin-top:auto; }
+.nyx-pengo-menu.as-tab h3{
+  margin:0 0 16px;
+  font-size:14px;
+  letter-spacing:.18em;
+  color:#fbf8ff;
+  text-shadow:0 0 16px rgba(151,124,255,.24);
+}
+.nyx-pengo-menu.as-tab .pm-row,
+.nyx-pengo-menu.as-tab .pm-slider,
+.nyx-pengo-menu.as-tab .pm-display-games,
+.nyx-pengo-menu.as-tab .pm-identity-row{
+  min-height:42px;
+  grid-template-columns:minmax(160px, .86fr) minmax(0, 1fr);
+  gap:12px;
+  margin-top:7px;
+  padding:7px 9px;
+  border-radius:7px;
+  background:rgba(10,7,26,.18);
+  box-shadow:inset 0 0 0 1px rgba(185,172,255,.09);
+  font-size:11.5px;
+}
+.nyx-pengo-menu.as-tab .pm-row:hover,
+.nyx-pengo-menu.as-tab .pm-slider:hover,
+.nyx-pengo-menu.as-tab .pm-display-games:hover,
+.nyx-pengo-menu.as-tab .pm-identity-row:hover{
+  background:rgba(125,95,255,.13);
+  box-shadow:inset 0 0 0 1px rgba(197,184,255,.17);
+}
+.nyx-pengo-menu.as-tab .pm-state{
+  min-width:58px;
+  padding:6px 10px;
+  background:rgba(124,53,255,.18);
+  color:#efe9ff;
+}
+.nyx-pengo-menu.as-tab .pm-row.media.pause .pm-state,
+.nyx-pengo-menu.as-tab .pm-row.media.stop .pm-state{
+  color:#efe9ff;
+  background:rgba(89,118,255,.18);
+}
+.nyx-pengo-menu.as-tab .pm-slider input{ min-height:28px; }
+.nyx-pengo-menu.as-tab .pm-opus-actions{
+  grid-template-columns:minmax(0, 1fr) minmax(0, 1fr) 150px;
+  gap:10px;
+  margin-top:15px;
+}
+.nyx-pengo-menu.as-tab .pm-action,
+.nyx-pengo-menu.as-tab .pm-reset{
+  min-height:36px;
+  height:auto;
+  border-radius:7px;
+  background:rgba(124,53,255,.16);
+  font-size:10.5px;
+}
+.nyx-pengo-menu.as-tab .pm-stepper{
+  min-height:36px;
+  grid-template-columns:36px minmax(0,1fr) 36px;
+  border-radius:7px;
+}
+.nyx-pengo-menu.as-tab .pm-stepper button,
+.nyx-pengo-menu.as-tab .pm-stepper input{ height:36px; }
+.nyx-pengo-menu.as-tab .pm-interface{
+  display:grid;
+  grid-template-columns:repeat(2, minmax(0, 1fr));
+  align-content:start;
+  gap:8px 10px;
+}
+.nyx-pengo-menu.as-tab .pm-interface h3,
+.nyx-pengo-menu.as-tab .pm-interface .pm-display-games,
+.nyx-pengo-menu.as-tab .pm-interface .pm-reset{ grid-column:1 / -1; }
+.nyx-pengo-menu.as-tab .pm-interface .pm-row{ grid-template-columns:minmax(0, 1fr) auto; }
+.nyx-pengo-menu.as-tab .pm-game-icons{ gap:9px; }
+.nyx-pengo-menu.as-tab .pm-game-icons button{ width:34px; height:34px; }
+.nyx-pengo-menu.as-tab .pm-game-icons img{ width:27px; height:27px; }
+.nyx-pengo-menu.as-tab .pm-identity-list{
+  display:grid;
+  grid-template-columns:repeat(2, minmax(0, 1fr));
+  gap:8px;
+}
+.nyx-pengo-menu.as-tab .pm-identity-row{
+  grid-template-columns:1fr;
+  align-items:start;
+  min-height:auto;
+  margin-top:0;
+}
+.nyx-pengo-menu.as-tab .pm-identity-row > span{ padding-top:0; }
+.nyx-pengo-menu.as-tab .pm-choice-set{ justify-content:flex-start; gap:5px; }
+.nyx-pengo-menu.as-tab .pm-choice-set button{
+  height:25px;
+  padding:0 8px;
+  border-radius:6px;
+  font-size:9.5px;
 }
 .nyx-pengo-menu.as-tab [data-tip]::after{
-  left:calc(100% + 12px);
+  left:0;
+  top:calc(100% + 7px);
+  max-width:min(300px, calc(100vw - 40px));
+  transform:translateY(-4px);
+}
+.nyx-pengo-menu.as-tab [data-tip]:hover::after{
+  transform:translateY(0);
 }
 .gp-side-nav,
 .gp-cardrow.scroll,
@@ -762,6 +902,7 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 .cm-body,
 .cm-pop-main,
 .cm-pop.ledger .cm-pop-layout,
+.gp-layout,
 .settings-pane{
   scrollbar-width:none;
   -ms-overflow-style:none;
@@ -783,6 +924,7 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 .cm-body::-webkit-scrollbar,
 .cm-pop-main::-webkit-scrollbar,
 .cm-pop.ledger .cm-pop-layout::-webkit-scrollbar,
+.gp-layout::-webkit-scrollbar,
 .settings-pane::-webkit-scrollbar{
   width:0;
   height:0;
@@ -2817,6 +2959,65 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *){ font-famil
   .stage.is-compact-stage .cm-tool{ width:36px; height:36px; }
   .stage.is-compact-stage .cm-tabs button{ font-size:10.5px; letter-spacing:.08em; padding-inline:10px; }
 }
+
+@media (max-width: 1180px), (max-height: 760px){
+  .nyx-pengo-menu.as-tab{
+    grid-template-columns:1fr;
+    grid-template-rows:auto;
+  }
+  .nyx-pengo-menu.as-tab .pm-opus{ grid-row:auto; }
+  .nyx-pengo-menu.as-tab .pm-opus .pm-reset{ margin-top:14px; }
+  .nyx-pengo-menu.as-tab .pm-identity-list{ grid-template-columns:1fr; }
+}
+
+.stage.is-compact-stage .settings-pane{
+  overflow:visible;
+  padding:0 10px 82px;
+}
+.stage.is-compact-stage .nyx-pengo-menu.as-tab{
+  position:relative;
+  left:auto;
+  right:auto;
+  top:auto;
+  bottom:auto;
+  width:100%;
+  max-height:none;
+  overflow:visible;
+  display:grid;
+  grid-template-columns:1fr;
+  gap:12px;
+  padding:0;
+  border-radius:0;
+  background:transparent;
+  box-shadow:none;
+  backdrop-filter:none;
+  -webkit-backdrop-filter:none;
+}
+.stage.is-compact-stage .nyx-pengo-menu.as-tab .pm-section{
+  padding:14px;
+  border-radius:8px;
+}
+.stage.is-compact-stage .nyx-pengo-menu.as-tab .pm-row,
+.stage.is-compact-stage .nyx-pengo-menu.as-tab .pm-slider,
+.stage.is-compact-stage .nyx-pengo-menu.as-tab .pm-display-games,
+.stage.is-compact-stage .nyx-pengo-menu.as-tab .pm-identity-row{
+  grid-template-columns:1fr;
+  gap:7px;
+}
+.stage.is-compact-stage .nyx-pengo-menu.as-tab .pm-row{
+  grid-template-columns:minmax(0, 1fr) auto;
+}
+.stage.is-compact-stage .nyx-pengo-menu.as-tab .pm-opus-actions{
+  grid-template-columns:1fr;
+}
+.stage.is-compact-stage .nyx-pengo-menu.as-tab .pm-interface{
+  grid-template-columns:1fr;
+}
+.stage.is-compact-stage .nyx-pengo-menu.as-tab .pm-game-icons{
+  justify-content:flex-start;
+  flex-wrap:wrap;
+}
+.stage.is-compact-stage .nyx-pengo-menu.as-tab [data-tip]::after{ display:none; }
 
 /* Character materials: keep the ledger artwork softer so material rows stay readable. */
 .cm-ledger-art img{

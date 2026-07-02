@@ -1456,7 +1456,7 @@ function PengoMenu({ settings, setSettings, inline }){
          role={inline ? 'region' : 'dialog'}
          aria-label="Pengo settings"
          onClick={(e) => e.stopPropagation()}>
-      <section>
+      <section className="pm-section pm-opus">
         <h3>Magnum Opus Pengonis</h3>
         <button type="button" className="pm-row" data-tip="Power assistant Pengo On/Off"
                 onClick={() => update({ lapis:!settings.lapis })}>
@@ -1479,7 +1479,7 @@ function PengoMenu({ settings, setSettings, inline }){
         </div>
         <button type="button" className="pm-reset" data-tip="Reset the Magnum Opus Pengonis to default" onClick={resetOpus}>Reset</button>
       </section>
-      <section>
+      <section className="pm-section pm-interface">
         <h3>Interface</h3>
         <button type="button" className={'pm-row media ' + settings.animation}
                 data-tip="Turns On/Freezes/Off the rotating background"
@@ -1511,7 +1511,7 @@ function PengoMenu({ settings, setSettings, inline }){
         </div>
         <button type="button" className="pm-reset" data-tip="Reset the interface to default" onClick={resetInterface}>Reset</button>
       </section>
-      <section>
+      <section className="pm-section pm-identity">
         <h3>Who are you?</h3>
         <div className="pm-identity-list">
           {NYX_IDENTITY_GROUPS.map((group) => (
@@ -1621,11 +1621,10 @@ function NyxApp(){
   React.useEffect(() => mountNyxAmbientText(), []);
 
   React.useEffect(() => {
-    const scrollTargets = [
+    const contentScrollTargets = [
       '.cm-pop-main',
       '.cm-pop.ledger .cm-pop-layout',
       '.cm-body',
-      '.gt-panel',
       '.gt-results',
       '.db-grid',
       '.sim-gbangrid',
@@ -1633,9 +1632,12 @@ function NyxApp(){
       '.overview-codes-scroll',
       '.settings-pane',
       '.nyx-pengo-menu.as-tab',
+      '.gp-layout',
+    ];
+    const passiveScrollTargets = [
+      '.gt-panel',
       '.gp-side-nav',
       '.gp-main-pane',
-      '.gp-layout',
     ];
     const isVisible = (el) => {
       if (!el) return false;
@@ -1652,15 +1654,25 @@ function NyxApp(){
     const onWheel = (event) => {
       if (event.defaultPrevented || event.ctrlKey || event.metaKey) return;
       if (Math.abs(event.deltaY) < 1 || Math.abs(event.deltaX) > Math.abs(event.deltaY) * 1.2) return;
-      let node = event.target instanceof Element ? event.target : null;
-      while (node && node !== document.body && node !== document.documentElement) {
-        if (canScrollY(node, event.deltaY)) return;
-        node = node.parentElement;
+      const target = event.target instanceof Element ? event.target : null;
+      const closestContent = target && contentScrollTargets
+        .map((selector) => target.closest(selector))
+        .find((el) => canScrollY(el, event.deltaY));
+      if (closestContent) {
+        event.preventDefault();
+        closestContent.scrollBy({ top:event.deltaY, left:0, behavior:'auto' });
+        return;
       }
-      const candidates = scrollTargets
+      if (target) {
+        const passive = passiveScrollTargets
+          .map((selector) => target.closest(selector))
+          .find((el) => canScrollY(el, event.deltaY));
+        if (passive && !passive.matches('.gp-side-nav')) return;
+      }
+      const candidates = contentScrollTargets
         .flatMap((selector) => Array.from(document.querySelectorAll(selector)))
         .filter((el) => canScrollY(el, event.deltaY));
-      const preferred = candidates.find((el) => el.matches('.cm-pop-main,.cm-body,.gt-results,.db-grid,.sim-gbangrid,.gp-codes-scroll,.overview-codes-scroll,.settings-pane,.nyx-pengo-menu.as-tab')) || candidates[0];
+      const preferred = candidates.find((el) => el.matches('.cm-pop-main,.cm-pop.ledger .cm-pop-layout,.cm-body,.gt-results,.db-grid,.sim-gbangrid,.gp-codes-scroll,.overview-codes-scroll,.settings-pane,.nyx-pengo-menu.as-tab')) || candidates[0];
       if (!preferred) return;
       event.preventDefault();
       preferred.scrollBy({ top:event.deltaY, left:0, behavior:'auto' });

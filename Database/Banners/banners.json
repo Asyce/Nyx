@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-07-01T20:12:47.889Z",
+  "checkedAt": "2026-07-02T04:20:24.329Z",
   "updated": "2026-07-01T04:53:03.064Z",
   "games": [
     {
@@ -7,7 +7,7 @@
       "name": "Honkai: Star Rail",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-01T20:12:47.889Z",
+        "checkedAt": "2026-07-02T04:20:24.329Z",
         "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
         "source": "game8",
         "message": "This game failed to scrape during the latest banner check; preserved previous data."
@@ -53,7 +53,7 @@
       "name": "Genshin Impact",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-01T20:12:47.889Z",
+        "checkedAt": "2026-07-02T04:20:24.329Z",
         "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
         "source": "game8",
         "message": "This game failed to scrape during the latest banner check; preserved previous data."
@@ -98,7 +98,7 @@
       "name": "Wuthering Waves",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-01T20:12:47.889Z",
+        "checkedAt": "2026-07-02T04:20:24.329Z",
         "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
         "source": "game8",
         "message": "This game failed to scrape during the latest banner check; preserved previous data."
@@ -202,7 +202,7 @@
       "name": "Zenless Zone Zero",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-07-01T20:12:47.889Z",
+        "checkedAt": "2026-07-02T04:20:24.329Z",
         "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
         "source": "game8",
         "message": "This game failed to scrape during the latest banner check; preserved previous data."
@@ -260,7 +260,7 @@
       "name": "Arknights: Endfield",
       "freshness": {
         "status": "unavailable",
-        "checkedAt": "2026-07-01T20:12:47.889Z",
+        "checkedAt": "2026-07-02T04:20:24.329Z",
         "lastSuccessfulFetch": "2026-07-01T04:53:03.064Z",
         "source": "game8",
         "message": "This game failed to scrape during the latest banner check; preserved previous data."

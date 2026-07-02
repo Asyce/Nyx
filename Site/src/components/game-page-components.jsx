@@ -32,6 +32,17 @@ const GP_CODES = [
   { code:'KT7DKSFGCRWV', reward:'100 Primogems · 5 Hero\u2019s Wit' },
 ];
 
+function gpArtworkBg(src, kind) {
+  if (!src) return undefined;
+  return window.NyxArtwork
+    ? window.NyxArtwork.bgImage(src, kind)
+    : 'url("' + String(src).replace(/"/g, '%22') + '")';
+}
+
+function gpArtworkImgProps(src, kind, extra) {
+  return window.NyxArtwork ? window.NyxArtwork.imgProps(src, kind, extra) : Object.assign({}, extra || {}, { src });
+}
+
 function GPRoot({ children }){
   return (
     <div className="gp">
@@ -229,7 +240,7 @@ function GPFav({ w, h, land, name, art, pos }){
       <div className="frame"></div>
       <div className="topline"></div>
       <div className="artwrap">
-        <div className="art" style={{ backgroundImage:'url(' + (art || '../assets/char/skirk.jpg') + ')', backgroundPosition: pos || undefined }}></div>
+        <div className="art" style={{ backgroundImage:gpArtworkBg(art || '../assets/char/skirk.jpg', 'character'), backgroundPosition: pos || undefined }}></div>
         <div className="scrim"></div>
       </div>
       <span className="pin"></span>
@@ -253,7 +264,7 @@ function GPBanner({ w, h, next, compact, ph, title, five, fiveIcon, status, four
       <div className="ban-art-card" style={{ height: h ? h + 'px' : undefined }}>
         {usePh
           ? <div className="art ph"><span className="phnote">banner art</span></div>
-          : <div className="art" style={{ backgroundImage:'url(' + (art || '../assets/banner/skirk_namecard.png') + ')' }}></div>}
+          : <div className="art" style={{ backgroundImage:gpArtworkBg(art || '../assets/banner/skirk_namecard.png', 'banner') }}></div>}
         <div className="shade"></div>
         <div className="ban-name">{fiveName}</div>
         {next && <span className="ban-flag">Up next</span>}
@@ -262,7 +273,7 @@ function GPBanner({ w, h, next, compact, ph, title, five, fiveIcon, status, four
             ? <div className="four-icons">
                 {stars.map((s) => (
                   s.icon
-                    ? <img key={s.key || s.text} src={s.icon} alt={stripRarity(s.text)} title={stripRarity(s.text)} draggable="false" />
+                    ? <img key={s.key || s.text} {...gpArtworkImgProps(s.icon, 'character', { alt:stripRarity(s.text), title:stripRarity(s.text), draggable:'false' })} />
                     : <span key={s.key || s.text} className="four-init" title={stripRarity(s.text)}>{(stripRarity(s.text) || '?').slice(0, 1)}</span>
                 ))}
               </div>

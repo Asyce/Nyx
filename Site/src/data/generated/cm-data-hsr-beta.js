@@ -3953,7 +3953,6 @@
           "cost": 385000
         }
       },
-      "recent": 1,
       "betaStatus": "changed"
     },
     {

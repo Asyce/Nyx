@@ -97,7 +97,115 @@ async function copyReferencedDatabaseAssets() {
     await copyFile(src, path.resolve(deployDir, ref));
     copied += 1;
   }
-  return { copied, missing };
+  return { copied, missing, refs };
+}
+
+function webPath(value) {
+  return '/' + String(value || '').replace(/\\/g, '/').replace(/^\/+/, '');
+}
+
+function webpRef(ref) {
+  return String(ref || '').replace(/\.(?:png|jpe?g)$/i, '.webp');
+}
+
+function shouldGenerateArtworkWebpRef(ref) {
+  const value = String(ref || '').replace(/\\/g, '/');
+  if (!/\.(?:png|jpe?g)$/i.test(value)) return false;
+  if (/^assets\/(?:char|banner)\//i.test(value)) return true;
+  if (/^assets\/bg\/(?:noxbg|gibg2|hsrbg|zzzbg3|wuwabg2|aebg)\.(?:png|jpe?g)$/i.test(value)) return true;
+  if (!value.startsWith('Database/')) return false;
+  return (
+    /\/assets\/(?:characters|items|operators|weapons|light-cones|w-engines|bangboo|drive-discs|relic-sets|echoes)\//i.test(value) ||
+    /\/(?:birthday-art|holiday-art|banners?)\//i.test(value) ||
+    /\/(?:banner|splash|namecard|art|icon)\.(?:png|jpe?g)$/i.test(value)
+  );
+}
+
+async function collectSiteArtworkRefs() {
+  const refs = new Set();
+  const assetsDir = path.resolve(siteDir, 'assets');
+  if (!(await exists(assetsDir))) return refs;
+  for (const file of await listFiles(assetsDir)) {
+    const rel = 'assets/' + path.relative(assetsDir, file).replace(/\\/g, '/');
+    if (shouldGenerateArtworkWebpRef(rel)) refs.add(rel);
+  }
+  return refs;
+}
+
+async function findFfmpeg() {
+  try {
+    await execFileAsync('ffmpeg', ['-version'], { cwd: root });
+    return 'ffmpeg';
+  } catch {
+    return null;
+  }
+}
+
+async function mapLimit(items, limit, fn) {
+  let index = 0;
+  const workers = Array.from({ length: Math.min(limit, items.length) }, async () => {
+    while (index < items.length) {
+      const item = items[index++];
+      await fn(item);
+    }
+  });
+  await Promise.all(workers);
+}
+
+async function generateWebpVariants(databaseRefs) {
+  const refs = new Set();
+  for (const ref of databaseRefs || []) {
+    if (shouldGenerateArtworkWebpRef(ref)) refs.add(ref);
+  }
+  for (const ref of await collectSiteArtworkRefs()) refs.add(ref);
+
+  const targets = [...refs].sort();
+  const manifest = new Set();
+  const ffmpeg = await findFfmpeg();
+  if (!ffmpeg || targets.length === 0) {
+    return { generated: 0, failed: 0, skipped: targets.length, manifest };
+  }
+
+  let generated = 0;
+  let failed = 0;
+  await mapLimit(targets, 3, async (ref) => {
+    const src = ref.startsWith('assets/')
+      ? path.resolve(siteDir, ref)
+      : path.resolve(root, ref);
+    if (!(await exists(src))) return;
+    const outRef = webpRef(ref);
+    const dest = path.resolve(deployDir, outRef);
+    try {
+      await ensureDir(path.dirname(dest));
+      await execFileAsync(ffmpeg, [
+        '-hide_banner',
+        '-loglevel', 'error',
+        '-y',
+        '-i', src,
+        '-frames:v', '1',
+        '-c:v', 'libwebp',
+        '-q:v', '92',
+        '-compression_level', '6',
+        dest,
+      ], { cwd: root, maxBuffer: 1024 * 1024 });
+      manifest.add(webPath(outRef));
+      generated += 1;
+    } catch {
+      failed += 1;
+    }
+  });
+
+  return { generated, failed, skipped: targets.length - generated - failed, manifest };
+}
+
+async function writeWebpManifest(manifest) {
+  const entries = {};
+  for (const item of [...manifest].sort()) entries[item] = 1;
+  const body = 'window.NYX_WEBP_MANIFEST = Object.freeze(' + JSON.stringify(entries) + ');\n';
+  await ensureDir(path.resolve(deployDir, 'dist'));
+  await ensureDir(path.resolve(siteDir, 'dist'));
+  await fs.writeFile(path.resolve(deployDir, 'dist', 'artwork-webp-manifest.js'), body);
+  await fs.writeFile(path.resolve(siteDir, 'dist', 'artwork-webp-manifest.js'), body);
 }
 
 async function writeVersionFile() {
@@ -140,6 +248,8 @@ if (await exists(publicDir)) {
 }
 
 const databaseAssets = await copyReferencedDatabaseAssets();
+const webpVariants = await generateWebpVariants(databaseAssets.refs);
+await writeWebpManifest(webpVariants.manifest);
 await writeVersionFile();
 const files = await listFiles(deployDir);
 const totalBytes = (await Promise.all(files.map(async (file) => (await fs.stat(file)).size)))
@@ -147,3 +257,4 @@ const totalBytes = (await Promise.all(files.map(async (file) => (await fs.stat(f
 
 console.log(`Built ${path.relative(root, deployDir)} with ${files.length} files (${(totalBytes / 1024 / 1024).toFixed(2)} MB)`);
 console.log(`Copied ${databaseAssets.copied} referenced Database asset(s); ${databaseAssets.missing} missing reference(s)`);
+console.log(`Generated ${webpVariants.generated} optional WebP artwork variant(s); ${webpVariants.failed} failed; ${webpVariants.skipped} skipped`);

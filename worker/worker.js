@@ -9,6 +9,7 @@
 //   POST /api/gacha/genshin|hsr|zzz   → HoYo getGachaLog proxy
 //   POST /api/gacha/wuwa              → Kuro convene-record proxy
 //   POST /api/account/sync/*          -> encrypted pull-history sync
+//   POST /api/account/preferences/*   -> phrase-backed user preferences
 //   else                              → static assets (when bound)
 //
 // Privacy & abuse controls:
@@ -192,6 +193,18 @@ function syncAuthKey(accountId) {
   return 'auth:v1:' + accountId;
 }
 
+function preferencesKey(accountId) {
+  return 'prefs:v1:' + accountId;
+}
+
+function sanitizePreferences(value) {
+  const src = value && typeof value === 'object' ? value : {};
+  const out = {};
+  if (src.artworkQuality === 'faster') out.artworkQuality = 'faster';
+  else if (src.artworkQuality === 'original') out.artworkQuality = 'original';
+  return out;
+}
+
 function validEncryptedPayload(payload) {
   if (!payload || typeof payload !== 'object') return false;
   if (payload.format !== 'nyx-pull-sync-v1') return false;
@@ -274,6 +287,52 @@ async function handleAccountSync(request, action, env) {
     return jsonResponse(request, { ok: true, payload: record.payload, updatedAt: record.updatedAt || null, exportedAt: record.exportedAt || null, size: record.size || null }, { status: 200 }, env);
   }
   return errorResponse(request, env, { status: 404, code: 'not_found', message: 'Unknown sync action.', rid });
+}
+
+async function handleAccountPreferences(request, action, env) {
+  const rid = requestId();
+  if (!trustedOrigin(request, env)) return errorResponse(request, env, { status: 403, code: 'origin_not_allowed', message: 'Origin not allowed.', rid });
+  if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: corsHeaders(request, env) });
+  if (request.method !== 'POST') return errorResponse(request, env, { status: 405, code: 'method_not_allowed', message: 'POST a preference request body.', rid, headers: { Allow: 'POST, OPTIONS' } });
+
+  const store = syncStorage(env);
+  if (!store) return errorResponse(request, env, { status: 501, code: 'sync_not_configured', message: 'Pengo sync storage is not configured yet.', rid });
+
+  if (await rateLimited(request, env, 'account-preferences:' + action)) {
+    return errorResponse(request, env, { status: 429, code: 'rate_limited', message: 'Too many preference sync requests. Try again in a minute.', rid, headers: { 'Retry-After': '60' } });
+  }
+
+  const parsed = await readJsonCapped(request, MAX_BODY_BYTES);
+  if (parsed.error) return bodyError(request, env, parsed.error, rid);
+  const body = parsed.payload;
+  const accountId = String(body.accountId || '').toLowerCase();
+  const token = String(body.token || '').toLowerCase();
+  if (!validAccountId(accountId)) return errorResponse(request, env, { status: 400, code: 'bad_account', message: 'Invalid sync account id.', rid });
+  if (!validAccountToken(token)) return errorResponse(request, env, { status: 400, code: 'bad_token', message: 'Invalid sync token.', rid });
+
+  const auth = await requireSyncAuth(request, env, store, accountId, token, rid, { create: action === 'push' });
+  if (auth.error) return auth.error;
+
+  const key = preferencesKey(accountId);
+  if (action === 'push') {
+    const preferences = sanitizePreferences(body.preferences);
+    if (!Object.keys(preferences).length) {
+      return errorResponse(request, env, { status: 400, code: 'bad_preferences', message: 'No supported preferences were provided.', rid });
+    }
+    const updatedAt = new Date().toISOString();
+    await store.put(key, JSON.stringify({ version: 1, accountId, preferences, updatedAt }));
+    return jsonResponse(request, { ok: true, preferences, updatedAt }, { status: 200 }, env);
+  }
+
+  const record = await store.get(key, 'json');
+  if (!record) return errorResponse(request, env, { status: 404, code: 'preferences_empty', message: 'No synced preferences were found for this account.', rid });
+  if (action === 'status') {
+    return jsonResponse(request, { ok: true, exists: true, updatedAt: record.updatedAt || null }, { status: 200 }, env);
+  }
+  if (action === 'pull') {
+    return jsonResponse(request, { ok: true, preferences: sanitizePreferences(record.preferences), updatedAt: record.updatedAt || null }, { status: 200 }, env);
+  }
+  return errorResponse(request, env, { status: 404, code: 'not_found', message: 'Unknown preference action.', rid });
 }
 
 // Best-effort per-IP rate limit. Uses the GACHA_RL rate-limiting binding when
@@ -384,6 +443,9 @@ export default {
     if (url.pathname === '/api/account/sync/push') return handleAccountSync(request, 'push', env);
     if (url.pathname === '/api/account/sync/pull') return handleAccountSync(request, 'pull', env);
     if (url.pathname === '/api/account/sync/status') return handleAccountSync(request, 'status', env);
+    if (url.pathname === '/api/account/preferences/push') return handleAccountPreferences(request, 'push', env);
+    if (url.pathname === '/api/account/preferences/pull') return handleAccountPreferences(request, 'pull', env);
+    if (url.pathname === '/api/account/preferences/status') return handleAccountPreferences(request, 'status', env);
     if (url.pathname.startsWith('/api/account/')) {
       return errorResponse(request, env, { status: 404, code: 'not_found', message: 'Unknown account endpoint.', rid: requestId() });
     }

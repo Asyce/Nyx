@@ -9792,6 +9792,44 @@
   ],
   "roster": [
     {
+      "id": "hsr-aventurine-waveflair",
+      "n": "Aventurine Waveflair",
+      "slug": "aventurine-waveflair",
+      "updated": 1782770400000,
+      "sourceOrder": 0,
+      "icon": "../../Database/Prydwen/hsr/assets/characters/aventurine-waveflair-0fb8df0c48dc.webp",
+      "iconZoom": 1.18,
+      "art": "../../Database/Prydwen/hsr/assets/characters/aventurine-waveflair-0fb8df0c48dc.webp",
+      "card": "../../Database/Prydwen/hsr/assets/characters/aventurine-waveflair-0fb8df0c48dc.webp",
+      "status": "beta",
+      "labels": [
+        "4.X"
+      ],
+      "r": 5,
+      "el": "Quantum",
+      "path": "Elation",
+      "recent": 1
+    },
+    {
+      "id": "hsr-robin-summeretto",
+      "n": "Robin Summeretto",
+      "slug": "robin-summeretto",
+      "updated": 1782770400000,
+      "sourceOrder": 0,
+      "icon": "../../Database/Prydwen/hsr/assets/characters/robin-summeretto-50f73fbdd44b.webp",
+      "iconZoom": 1.18,
+      "art": "../../Database/Prydwen/hsr/assets/characters/robin-summeretto-50f73fbdd44b.webp",
+      "card": "../../Database/Prydwen/hsr/assets/characters/robin-summeretto-50f73fbdd44b.webp",
+      "status": "beta",
+      "labels": [
+        "4.X"
+      ],
+      "r": 5,
+      "el": "Wind",
+      "path": "Remembrance",
+      "recent": 1
+    },
+    {
       "id": "hsr-evanescia",
       "n": "Evanescia",
       "title": "The Demoiselle in Charge",
@@ -12821,8 +12859,7 @@
           ],
           "cost": 385000
         }
-      },
-      "recent": 1
+      }
     },
     {
       "id": "hsr-gilgamesh",
@@ -86918,7 +86955,7 @@
   ],
   "boss": {
     "title": "Echo of War",
-    "count": 86
+    "count": 88
   },
   "bossGroups": [
     {
@@ -87013,6 +87050,7 @@
         "Wind build guides"
       ],
       "chars": [
+        "Robin Summeretto",
         "Cerydra",
         "Anaxa",
         "Black Swan",
@@ -87032,6 +87070,7 @@
         "Quantum build guides"
       ],
       "chars": [
+        "Aventurine Waveflair",
         "Archer",
         "Castorice",
         "Cipher",

@@ -3,31 +3,33 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nyx Overview Mockups</title>
+  <title>Genshin Page Mockups</title>
   <style>
     @font-face{ font-family:GI; src:url('../assets/fonts/Genshin_Impact.ttf') format('truetype'); font-display:swap; }
     @font-face{ font-family:HSR; src:url('../assets/fonts/SDK_SC_Web.ttf') format('truetype'); font-display:swap; }
     :root{
-      --bg:#080617;
-      --ink:rgba(13,9,34,.62);
-      --ink-strong:rgba(10,7,29,.78);
-      --line:rgba(183,170,255,.24);
-      --line-strong:rgba(157,181,255,.42);
+      --bg:#070616;
+      --ink:rgba(12,8,32,.62);
+      --ink-strong:rgba(8,6,25,.82);
+      --line:rgba(183,170,255,.22);
+      --line-strong:rgba(157,181,255,.44);
       --violet:#8b7bff;
       --violet-soft:#b7aaff;
       --blue:#9db5ff;
       --white:#f7f4ff;
       --muted:#aaa0d8;
+      --hclip:polygon(0 0, calc(100% - 18px) 0, 100% 50%, calc(100% - 18px) 100%, 0 100%);
+      --vclip:polygon(16% 0, 84% 0, 100% 15%, 100% 100%, 0 100%, 0 15%);
     }
     *{ box-sizing:border-box; }
     html,body{ margin:0; min-height:100%; background:var(--bg); color:var(--white); }
     body{
       font-family:HSR, "Segoe UI", sans-serif;
       background:
-        radial-gradient(900px 520px at 18% 0%, rgba(139,123,255,.24), transparent 62%),
-        radial-gradient(760px 520px at 82% 12%, rgba(157,181,255,.18), transparent 60%),
-        linear-gradient(180deg, rgba(8,6,23,.56), rgba(8,6,23,.86)),
-        url('../assets/bg/backgroundnyx.png') center top/cover fixed no-repeat;
+        radial-gradient(960px 520px at 20% -4%, rgba(139,123,255,.24), transparent 64%),
+        radial-gradient(760px 520px at 84% 8%, rgba(157,181,255,.16), transparent 60%),
+        linear-gradient(180deg, rgba(7,6,22,.48), rgba(7,6,22,.9)),
+        url('../assets/bg/gibg2.png') center top/cover fixed no-repeat;
       overflow-x:hidden;
     }
     body::before{
@@ -36,15 +38,15 @@
       inset:0;
       pointer-events:none;
       background:
-        linear-gradient(90deg, rgba(183,170,255,.08) 1px, transparent 1px) 0 0/84px 84px,
-        linear-gradient(180deg, rgba(183,170,255,.06) 1px, transparent 1px) 0 0/84px 84px;
-      mask-image:linear-gradient(180deg, rgba(0,0,0,.88), transparent 78%);
+        linear-gradient(90deg, rgba(183,170,255,.08) 1px, transparent 1px) 0 0/88px 88px,
+        linear-gradient(180deg, rgba(183,170,255,.06) 1px, transparent 1px) 0 0/88px 88px;
+      mask-image:linear-gradient(180deg, rgba(0,0,0,.92), transparent 82%);
     }
     a{ color:inherit; }
     .page{
       position:relative;
       z-index:1;
-      width:min(1480px, calc(100vw - 32px));
+      width:min(1500px, calc(100vw - 32px));
       margin:0 auto;
       padding:28px 0 56px;
     }
@@ -62,9 +64,9 @@
       min-width:0;
       text-decoration:none;
     }
-    .brand img{ width:42px; height:42px; object-fit:contain; filter:drop-shadow(0 0 12px rgba(139,123,255,.44)); }
-    .brand b{ font-family:GI, serif; font-size:30px; line-height:1; font-weight:400; }
-    .brand span{ display:block; margin-top:3px; color:var(--muted); font-size:11px; letter-spacing:.14em; text-transform:uppercase; }
+    .brand img{ width:44px; height:44px; object-fit:contain; filter:drop-shadow(0 0 12px rgba(139,123,255,.44)); }
+    .brand b{ display:block; font-family:GI, serif; font-size:31px; line-height:1; font-weight:400; }
+    .brand span span{ display:block; margin-top:3px; color:var(--muted); font-size:11px; letter-spacing:.14em; text-transform:uppercase; }
     .link-back{
       margin-left:auto;
       min-height:34px;
@@ -82,7 +84,7 @@
     }
     .hero{
       display:grid;
-      grid-template-columns:minmax(0,1fr) minmax(300px,.36fr);
+      grid-template-columns:minmax(0,1fr) minmax(310px,.34fr);
       gap:18px;
       align-items:end;
       margin-bottom:18px;
@@ -90,25 +92,25 @@
     h1{
       margin:0;
       font-family:GI, serif;
-      font-size:clamp(34px, 5vw, 66px);
-      line-height:.96;
+      font-size:clamp(34px, 5vw, 64px);
+      line-height:.98;
       font-weight:400;
       text-shadow:0 0 26px rgba(139,123,255,.32), 0 3px 16px rgba(0,0,0,.62);
     }
     .hero p{
       margin:12px 0 0;
-      max-width:760px;
+      max-width:780px;
       color:#d6d0f4;
       font-size:14px;
       line-height:1.55;
     }
-    .legend{
+    .notes{
       display:grid;
-      grid-template-columns:repeat(3,minmax(0,1fr));
+      grid-template-columns:1fr;
       gap:8px;
     }
-    .legend span{
-      min-height:44px;
+    .notes span{
+      min-height:42px;
       display:flex;
       flex-direction:column;
       justify-content:center;
@@ -120,7 +122,7 @@
       color:#f4efff;
       font-size:12px;
     }
-    .legend i{ color:var(--muted); font-size:10px; font-style:normal; letter-spacing:.12em; text-transform:uppercase; }
+    .notes i{ color:var(--muted); font-size:10px; font-style:normal; letter-spacing:.12em; text-transform:uppercase; }
     .mock{
       margin-top:22px;
       border-radius:10px;
@@ -157,10 +159,141 @@
       height:1px;
       background:linear-gradient(90deg, rgba(157,181,255,.48), transparent);
     }
-    .shell{
+    .game-shell{
       min-height:760px;
       display:grid;
+      grid-template-columns:236px minmax(0,1fr) minmax(300px,360px);
+      gap:16px;
+      overflow:hidden;
+      border-radius:8px;
+      background:
+        radial-gradient(780px 480px at 44% 12%, rgba(139,123,255,.13), transparent 68%),
+        linear-gradient(180deg, rgba(7,5,20,.38), rgba(7,5,20,.64));
+      box-shadow:inset 0 0 0 1px rgba(183,170,255,.12);
+    }
+    .game-shell.no-aside{ grid-template-columns:236px minmax(0,1fr); }
+    .side-menu{
+      position:relative;
+      min-width:0;
+      min-height:0;
+      display:flex;
+      flex-direction:column;
+      padding:18px 0 16px;
+      background:
+        linear-gradient(180deg, rgba(10,7,28,.42), rgba(5,4,16,.64)),
+        url('../assets/bg/backgroundnyx.png') 12% center/cover no-repeat;
+      overflow:hidden;
+    }
+    .side-menu::before{
+      content:"";
+      position:absolute;
+      inset:0;
+      pointer-events:none;
+      background:
+        radial-gradient(280px 360px at 25% 24%, rgba(183,170,255,.12), transparent 70%),
+        linear-gradient(90deg, rgba(183,170,255,.12), transparent 48%);
+      opacity:.86;
+    }
+    .side-links,.side-foot{ position:relative; z-index:1; }
+    .side-links{ display:flex; flex-direction:column; gap:11px; }
+    .side-link{
+      position:relative;
+      min-height:47px;
+      display:flex;
+      align-items:center;
+      padding:0 12px 0 39px;
+      color:#d9d2ee;
+      font-size:16px;
+      font-weight:900;
+      letter-spacing:.06em;
+      text-transform:uppercase;
+      text-shadow:0 0 10px rgba(0,0,0,.45);
+    }
+    .side-link.on{
+      color:#fff;
+      background:linear-gradient(90deg, rgba(139,123,255,.54), rgba(67,49,128,.62));
+      box-shadow:inset 0 0 0 1px rgba(183,170,255,.24), 0 0 24px rgba(139,123,255,.16);
+      clip-path:var(--hclip);
+    }
+    .side-link.on::before{
+      content:"";
+      position:absolute;
+      left:6px;
+      width:21px;
+      height:21px;
+      transform:rotate(45deg);
+      background:linear-gradient(160deg,#f5f0ff,#9db5ff 48%,#8b7bff);
+      box-shadow:0 0 14px rgba(139,123,255,.62);
+    }
+    .side-fill{ flex:1; min-height:260px; }
+    .side-foot{
+      display:grid;
+      grid-template-columns:1fr 1fr;
       gap:12px;
+      align-items:end;
+      padding:0 28px;
+    }
+    .kofi{
+      height:34px;
+      display:grid;
+      place-items:center;
+      opacity:.96;
+    }
+    .kofi img{ max-width:92px; max-height:30px; object-fit:contain; }
+    .pengo-dot{
+      justify-self:center;
+      width:58px;
+      height:58px;
+      display:grid;
+      place-items:center;
+      border-radius:50%;
+      background:#0c0924;
+      box-shadow:0 0 0 3px rgba(139,123,255,.5), 0 0 18px rgba(139,123,255,.34);
+    }
+    .pengo-dot img{ width:78%; height:78%; object-fit:contain; }
+    .live-row{
+      grid-column:1 / -1;
+      height:48px;
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      align-items:center;
+      border-radius:13px;
+      background:rgba(8,6,22,.76);
+      box-shadow:inset 0 0 0 1px rgba(183,170,255,.22);
+      overflow:hidden;
+    }
+    .live-row span{
+      min-height:100%;
+      display:grid;
+      place-items:center;
+      color:#7f769d;
+      font-size:13px;
+      font-weight:900;
+      letter-spacing:.2em;
+      text-transform:uppercase;
+    }
+    .live-row span:first-child{
+      color:#fff;
+      background:linear-gradient(160deg, rgba(139,123,255,.78), rgba(91,63,190,.72));
+      box-shadow:inset 0 0 0 1px rgba(235,230,255,.2), 0 0 18px rgba(139,123,255,.42);
+    }
+    .main{
+      min-width:0;
+      min-height:0;
+      padding:18px 0 18px;
+      display:flex;
+      flex-direction:column;
+      gap:14px;
+      overflow:hidden;
+    }
+    .aside{
+      min-width:0;
+      min-height:0;
+      padding:18px 16px 18px 0;
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+      overflow:hidden;
     }
     .panel{
       min-width:0;
@@ -168,7 +301,7 @@
       border-radius:8px;
       background:
         radial-gradient(120% 90% at 50% 0%, rgba(139,123,255,.10), transparent 58%),
-        linear-gradient(180deg, rgba(17,12,44,.64), rgba(8,6,25,.48));
+        linear-gradient(180deg, rgba(17,12,44,.60), rgba(8,6,25,.42));
       box-shadow:inset 0 0 0 1px rgba(183,170,255,.18);
       overflow:hidden;
     }
@@ -192,62 +325,153 @@
       font-size:10px;
       letter-spacing:.08em;
     }
-    .game-rail{
+    .section-title{
+      min-height:36px;
       display:flex;
-      gap:7px;
-      padding:8px;
+      align-items:center;
+      gap:12px;
+      color:#f3efff;
+      font-size:17px;
+      letter-spacing:.04em;
+      text-transform:none;
+    }
+    .section-title b{ font-family:GI, serif; font-size:22px; line-height:1; font-weight:400; }
+    .section-title::after{ content:""; flex:1; height:1px; background:linear-gradient(90deg, rgba(157,181,255,.48), transparent); }
+    .fav-row{
+      min-width:0;
+      display:flex;
+      gap:18px;
+      padding:0 4px 6px;
       overflow:auto hidden;
     }
-    .game-rail::-webkit-scrollbar,.timeline::-webkit-scrollbar{ height:6px; }
-    .game-rail::-webkit-scrollbar-track,.timeline::-webkit-scrollbar-track{ background:rgba(183,170,255,.08); border-radius:4px; }
-    .game-rail::-webkit-scrollbar-thumb,.timeline::-webkit-scrollbar-thumb{ background:rgba(139,123,255,.55); border-radius:4px; }
-    .game{
-      flex:0 0 auto;
-      min-width:124px;
-      height:42px;
-      display:grid;
-      grid-template-columns:30px minmax(0,1fr);
-      align-items:center;
-      gap:8px;
-      padding:0 10px;
-      border-radius:8px;
-      background:rgba(14,10,34,.64);
-      box-shadow:inset 0 0 0 1px rgba(183,170,255,.16);
-      color:#d9d2ff;
-      font-size:11px;
+    .fav-row::-webkit-scrollbar,.banner-stack::-webkit-scrollbar,.codes::-webkit-scrollbar,.mini-banners::-webkit-scrollbar{ width:6px; height:6px; }
+    .fav-row::-webkit-scrollbar-track,.banner-stack::-webkit-scrollbar-track,.codes::-webkit-scrollbar-track,.mini-banners::-webkit-scrollbar-track{ background:rgba(183,170,255,.08); border-radius:4px; }
+    .fav-row::-webkit-scrollbar-thumb,.banner-stack::-webkit-scrollbar-thumb,.codes::-webkit-scrollbar-thumb,.mini-banners::-webkit-scrollbar-thumb{ background:rgba(139,123,255,.55); border-radius:4px; }
+    .fav-card{
+      position:relative;
+      flex:0 0 156px;
+      width:156px;
+      height:292px;
+      clip-path:var(--vclip);
+      filter:drop-shadow(0 0 4px rgba(139,123,255,.42)) drop-shadow(0 9px 18px rgba(0,0,0,.55));
+      background:linear-gradient(158deg,#cabfff 0%,#8a79e8 16%,#473a90 42%,#241c4c 58%,#5b4cb0 82%,#b6a7ff 100%);
+    }
+    .fav-card::before{
+      content:"";
+      position:absolute;
+      inset:3px;
+      clip-path:var(--vclip);
+      background:#0c0922;
+    }
+    .fav-card .art{
+      position:absolute;
+      inset:0 5px 5px;
+      clip-path:var(--vclip);
+      background:var(--art) center 14%/cover no-repeat, #0c0922;
+      box-shadow:inset 0 0 0 1.5px rgba(183,170,255,.2), inset 0 0 24px rgba(0,0,0,.55);
+    }
+    .fav-card .scrim{
+      position:absolute;
+      inset:0 5px 5px;
+      clip-path:var(--vclip);
+      background:linear-gradient(180deg, rgba(8,6,18,.04), rgba(8,6,18,0) 48%, rgba(8,6,18,.86));
+    }
+    .fav-card .line{
+      position:absolute;
+      z-index:2;
+      top:0;
+      left:11%;
+      right:11%;
+      height:3px;
+      border-radius:2px;
+      background:#b7aaff;
+      box-shadow:0 0 7px rgba(139,123,255,.55);
+    }
+    .fav-card .name{
+      position:absolute;
+      z-index:3;
+      left:8px;
+      right:8px;
+      bottom:17px;
+      text-align:center;
+      font-family:GI, serif;
+      font-size:18px;
+      line-height:1;
+      text-shadow:0 1px 8px rgba(0,0,0,.8), 0 0 14px rgba(139,123,255,.42);
+    }
+    .fav-card .name span{
+      display:block;
+      margin-top:4px;
+      font-family:HSR, "Segoe UI", sans-serif;
+      color:#cfc6f5;
+      font-size:10px;
       letter-spacing:.08em;
       text-transform:uppercase;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
     }
-    .game.on{ background:linear-gradient(160deg, rgba(139,123,255,.32), rgba(157,181,255,.16)); box-shadow:inset 0 0 0 1px rgba(213,205,255,.34); color:#fff; }
-    .game img{ width:30px; height:30px; object-fit:contain; }
+    .fav-card.empty .art{
+      background:
+        radial-gradient(circle at 50% 38%, rgba(183,170,255,.10), transparent 44%),
+        linear-gradient(180deg, rgba(20,15,44,.74), rgba(8,6,22,.82));
+    }
+    .fav-card.empty .name{ color:#7f75a6; }
+    .stats{
+      display:grid;
+      grid-template-columns:repeat(4,minmax(0,1fr));
+      gap:8px;
+    }
+    .stat{
+      min-height:72px;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      gap:6px;
+      border-radius:8px;
+      padding:10px 12px;
+      background:rgba(10,7,28,.52);
+      box-shadow:inset 0 0 0 1px rgba(183,170,255,.14);
+    }
+    .stat b{ font-family:GI, serif; font-size:25px; line-height:1; font-weight:400; }
+    .stat span{ color:#9f96c9; font-size:10px; letter-spacing:.1em; text-transform:uppercase; }
+    .banner-stack{
+      min-height:0;
+      display:grid;
+      grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:10px;
+      overflow:auto;
+      padding:11px;
+    }
     .banner-card{
       position:relative;
-      min-height:112px;
-      border-radius:8px;
+      min-height:154px;
+      border-radius:9px;
       overflow:hidden;
-      background:var(--banner) center/cover no-repeat;
+      background:var(--banner) center/cover no-repeat, #0c0922;
       box-shadow:inset 0 0 0 1px rgba(183,170,255,.20);
     }
+    .banner-card.big{ min-height:220px; }
     .banner-card::before{
       content:"";
       position:absolute;
       inset:0;
       background:
-        linear-gradient(90deg, rgba(8,6,22,.90), rgba(8,6,22,.54) 54%, rgba(8,6,22,.18)),
+        linear-gradient(90deg, rgba(8,6,22,.94), rgba(8,6,22,.62) 54%, rgba(8,6,22,.18)),
         radial-gradient(72% 88% at 82% 20%, transparent, rgba(8,6,22,.52));
     }
     .banner-card .copy{
       position:absolute;
-      left:13px;
-      right:13px;
-      bottom:11px;
       z-index:1;
+      left:14px;
+      right:14px;
+      bottom:12px;
       min-width:0;
     }
     .banner-card .copy b{
       display:block;
       font-family:GI, serif;
-      font-size:21px;
+      font-size:23px;
       line-height:1;
       font-weight:400;
       white-space:nowrap;
@@ -265,30 +489,25 @@
       overflow:hidden;
       text-overflow:ellipsis;
     }
-    .banner-card .tag{
+    .tag{
       position:absolute;
       z-index:1;
       top:10px;
       left:10px;
+      min-height:23px;
       display:inline-flex;
       align-items:center;
-      min-height:23px;
-      padding:0 8px;
       border-radius:999px;
+      padding:0 8px;
+      color:#ded8ff;
       background:rgba(18,13,44,.66);
       box-shadow:inset 0 0 0 1px rgba(183,170,255,.18);
-      color:#ded8ff;
       font-size:10px;
       letter-spacing:.12em;
       text-transform:uppercase;
     }
-    .code-list,.char-grid,.banner-list,.mini-stack,.timeline{
-      scrollbar-color:rgba(139,123,255,.55) rgba(183,170,255,.08);
-    }
-    .code-list::-webkit-scrollbar,.char-grid::-webkit-scrollbar,.banner-list::-webkit-scrollbar,.mini-stack::-webkit-scrollbar,.timeline::-webkit-scrollbar{ width:6px; height:6px; }
-    .code-list::-webkit-scrollbar-thumb,.char-grid::-webkit-scrollbar-thumb,.banner-list::-webkit-scrollbar-thumb,.mini-stack::-webkit-scrollbar-thumb,.timeline::-webkit-scrollbar-thumb{ background:rgba(139,123,255,.55); border-radius:4px; }
-    .code-list{
-      max-height:100%;
+    .codes{
+      min-height:0;
       overflow:auto;
       display:flex;
       flex-direction:column;
@@ -310,7 +529,7 @@
     .code span{ grid-column:1 / -1; color:#9f96c9; font-size:11px; line-height:1.25; }
     .code i{
       align-self:start;
-      color:#110d27;
+      color:#100b26;
       background:linear-gradient(160deg,#f5f0ff,#b7aaff);
       border-radius:5px;
       padding:3px 6px;
@@ -319,349 +538,282 @@
       letter-spacing:.1em;
       text-transform:uppercase;
     }
-    .char-grid{
-      display:grid;
-      grid-template-columns:repeat(auto-fill,minmax(148px,1fr));
-      gap:10px;
-      padding:11px;
-      overflow:auto;
-    }
-    .char{
-      min-width:0;
-      min-height:178px;
-      position:relative;
-      border-radius:8px;
-      overflow:hidden;
-      background:url('../assets/char/skirk.jpg') center 18%/cover no-repeat;
-      box-shadow:inset 0 0 0 1px rgba(183,170,255,.18);
-    }
-    .char:nth-child(2n){ background-image:url('../assets/bg/wuwabg2.png'); }
-    .char:nth-child(3n){ background-image:url('../assets/bg/hsrbg.png'); }
-    .char::before{ content:""; position:absolute; inset:0; background:linear-gradient(180deg, transparent 20%, rgba(8,6,22,.88)); }
-    .char b,.char span,.char i{ position:absolute; z-index:1; left:10px; right:10px; }
-    .char b{ bottom:34px; font-family:GI, serif; font-size:19px; line-height:1; font-weight:400; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-    .char span{ bottom:12px; color:#b9b0e2; font-size:10px; letter-spacing:.12em; text-transform:uppercase; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-    .char i{
-      top:10px;
-      right:auto;
-      left:10px;
-      width:32px;
-      height:32px;
-      display:grid;
-      place-items:center;
-      border-radius:50%;
-      background:rgba(14,10,36,.66);
-      box-shadow:inset 0 0 0 1px rgba(183,170,255,.24);
-      color:#dcd6ff;
-      font-style:normal;
-      font-size:11px;
-    }
-    .mock-a .shell{
-      grid-template-columns:minmax(280px,.74fr) minmax(0,1.26fr) minmax(250px,.52fr);
-      grid-template-rows:auto minmax(0,1fr);
-      grid-template-areas:
-        "games games games"
-        "banners chars codes";
-    }
-    .mock-a .games{ grid-area:games; }
-    .mock-a .banners{ grid-area:banners; }
-    .mock-a .chars{ grid-area:chars; }
-    .mock-a .codes{ grid-area:codes; }
-    .banner-list{
-      height:100%;
-      overflow:auto;
-      display:grid;
-      gap:9px;
-      padding:11px;
-      align-content:start;
-    }
-    .mock-b .shell{
-      grid-template-columns:minmax(250px,.55fr) minmax(0,1.35fr) minmax(230px,.46fr);
-      grid-template-rows:minmax(0,1fr);
-      grid-template-areas:"left atlas rail";
-    }
-    .mock-b .left{ grid-area:left; display:grid; grid-template-rows:auto minmax(0,1fr); gap:12px; }
-    .mock-b .atlas{ grid-area:atlas; }
-    .mock-b .rail{ grid-area:rail; }
-    .game-column{ display:grid; grid-template-columns:1fr; gap:8px; padding:11px; }
-    .atlas-grid{
-      height:100%;
-      overflow:auto;
-      display:grid;
-      grid-template-columns:repeat(auto-fill,minmax(214px,1fr));
-      grid-auto-rows:140px;
-      gap:10px;
-      padding:11px;
-    }
-    .atlas-grid .banner-card{ min-height:0; }
-    .atlas-grid .banner-card:nth-child(4n+1){ grid-row:span 2; }
-    .atlas-grid .banner-card:nth-child(6n){ grid-column:span 2; }
-    .mini-stack{
-      height:100%;
+    .mini-banners{
+      min-height:0;
       overflow:auto;
       display:flex;
       flex-direction:column;
-      gap:9px;
-      padding:11px;
-    }
-    .mini-char{
-      min-height:72px;
-      display:grid;
-      grid-template-columns:52px minmax(0,1fr);
-      align-items:center;
-      gap:10px;
-      padding:9px;
-      border-radius:8px;
-      background:rgba(10,7,28,.52);
-      box-shadow:inset 0 0 0 1px rgba(183,170,255,.15);
-    }
-    .mini-char img{ width:52px; height:52px; object-fit:cover; border-radius:8px; }
-    .mini-char b{ display:block; font-family:GI, serif; font-size:17px; line-height:1; font-weight:400; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-    .mini-char span{ display:block; margin-top:5px; color:#9f96c9; font-size:10px; letter-spacing:.12em; text-transform:uppercase; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-    .mock-c .shell{
-      grid-template-columns:minmax(270px,.58fr) minmax(0,1fr);
-      grid-template-rows:auto minmax(0,1fr) auto;
-      grid-template-areas:
-        "timeline timeline"
-        "control chars"
-        "games games";
-    }
-    .mock-c .timeline-panel{ grid-area:timeline; }
-    .mock-c .control{ grid-area:control; display:grid; grid-template-rows:minmax(0,1fr) auto; gap:12px; }
-    .mock-c .chars{ grid-area:chars; }
-    .mock-c .games{ grid-area:games; }
-    .timeline{
-      display:flex;
-      gap:10px;
-      overflow:auto hidden;
-      padding:11px;
-    }
-    .timeline .banner-card{
-      flex:0 0 270px;
-      min-height:128px;
-    }
-    .compact-game-grid{
-      display:grid;
-      grid-template-columns:repeat(2,minmax(0,1fr));
       gap:8px;
       padding:11px;
     }
-    .mock-c .char-grid{ grid-template-columns:repeat(auto-fill,minmax(170px,1fr)); }
+    .mini-banner{
+      min-height:74px;
+      display:grid;
+      grid-template-columns:62px minmax(0,1fr) auto;
+      align-items:center;
+      gap:10px;
+      border-radius:8px;
+      padding:8px;
+      background:rgba(10,7,28,.52);
+      box-shadow:inset 0 0 0 1px rgba(183,170,255,.15);
+    }
+    .mini-banner img{ width:62px; height:52px; object-fit:cover; border-radius:7px; }
+    .mini-banner b{ display:block; min-width:0; font-family:GI, serif; font-size:17px; line-height:1; font-weight:400; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .mini-banner span{ display:block; margin-top:5px; color:#9f96c9; font-size:10px; letter-spacing:.12em; text-transform:uppercase; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .mini-banner i{ color:#dcd6ff; font-style:normal; font-size:10px; white-space:nowrap; }
+    .option-a .main{ padding-right:0; }
+    .option-a .banner-panel{ flex:1 1 auto; }
+    .option-a .banner-stack{ max-height:292px; }
+    .option-b .main-grid{
+      min-height:0;
+      flex:1 1 auto;
+      display:grid;
+      grid-template-columns:minmax(0,1.08fr) minmax(280px,.72fr);
+      grid-template-rows:minmax(0,1fr) auto;
+      grid-template-areas:"banners codes" "chars chars";
+      gap:12px;
+      overflow:hidden;
+    }
+    .option-b .banners{ grid-area:banners; }
+    .option-b .codes-panel{ grid-area:codes; }
+    .option-b .chars-panel{ grid-area:chars; }
+    .option-b .banner-stack{ grid-template-columns:1fr; max-height:none; }
+    .option-b .fav-row{ padding:11px; }
+    .option-b .fav-card{ flex-basis:134px; width:134px; height:232px; }
+    .option-b .fav-card .name{ font-size:16px; }
+    .option-r .main-grid{
+      min-height:0;
+      flex:1 1 auto;
+      display:grid;
+      grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);
+      grid-template-rows:auto minmax(0,1fr);
+      grid-template-areas:"stats stats" "banners chars";
+      gap:12px;
+      overflow:hidden;
+    }
+    .option-r .stats{ grid-area:stats; }
+    .option-r .banners{ grid-area:banners; }
+    .option-r .chars-panel{ grid-area:chars; }
+    .option-r .banner-stack{ grid-template-columns:1fr; }
+    .option-r .fav-row{ height:100%; padding:11px; flex-wrap:wrap; align-content:flex-start; overflow:auto; }
+    .option-r .fav-card{ flex:0 0 142px; width:142px; height:250px; }
+    .option-r .aside{ display:none; }
     @media (max-width: 1180px){
       .hero{ grid-template-columns:1fr; }
-      .legend{ grid-template-columns:repeat(3,minmax(0,1fr)); }
-      .mock-a .shell,
-      .mock-b .shell,
-      .mock-c .shell{
+      .game-shell,
+      .game-shell.no-aside{
         min-height:auto;
+        grid-template-columns:1fr;
+      }
+      .side-menu{ min-height:360px; }
+      .main,.aside{ padding:0 12px 14px; }
+      .aside{ max-height:440px; }
+      .option-b .main-grid,
+      .option-r .main-grid{
         grid-template-columns:1fr;
         grid-template-areas:none;
       }
-      .mock-a .games,.mock-a .banners,.mock-a .chars,.mock-a .codes,
-      .mock-b .left,.mock-b .atlas,.mock-b .rail,
-      .mock-c .timeline-panel,.mock-c .control,.mock-c .chars,.mock-c .games{ grid-area:auto; }
-      .banner-list,.char-grid,.code-list,.atlas-grid,.mini-stack{ max-height:420px; }
-      .mock-b .left{ grid-template-rows:auto auto; }
+      .option-b .banners,.option-b .codes-panel,.option-b .chars-panel,
+      .option-r .stats,.option-r .banners,.option-r .chars-panel{ grid-area:auto; }
+      .banner-stack{ max-height:460px; }
     }
     @media (max-width: 700px){
-      .page{ width:min(100vw - 20px, 1480px); padding-top:18px; }
+      .page{ width:min(100vw - 20px, 1500px); padding-top:18px; }
       .top{ align-items:flex-start; flex-direction:column; gap:10px; }
       .link-back{ margin-left:0; }
-      h1{ max-width:320px; font-size:30px; line-height:1.04; }
-      .legend{ grid-template-columns:1fr; }
+      h1{ max-width:340px; font-size:30px; line-height:1.04; }
       .mock{ padding:11px; border-radius:8px; }
       .mock-head{ align-items:flex-start; flex-direction:column; gap:4px; }
       .mock-head::after{ width:100%; flex:none; }
-      .atlas-grid{ grid-template-columns:1fr; }
-      .atlas-grid .banner-card:nth-child(4n+1),
-      .atlas-grid .banner-card:nth-child(6n){ grid-row:auto; grid-column:auto; }
-      .compact-game-grid{ grid-template-columns:1fr; }
+      .side-menu{ min-height:460px; }
+      .side-link{ min-height:43px; font-size:14px; }
+      .side-fill{ min-height:210px; }
+      .banner-stack{ grid-template-columns:1fr; }
+      .stats{ grid-template-columns:repeat(2,minmax(0,1fr)); }
+      .fav-card{ flex-basis:142px; width:142px; height:252px; }
+      .option-b .fav-card,.option-r .fav-card{ flex-basis:130px; width:130px; height:230px; }
     }
   </style>
 </head>
 <body>
   <main class="page">
     <header class="top">
-      <a class="brand" href="./index.html" aria-label="Back to Nyx">
-        <img src="../assets/icon/nyx_logo.png" alt="" />
-        <span><b>Nyx</b><span>overview layout mockups</span></span>
+      <a class="brand" href="./genshin.html" aria-label="Open Genshin page">
+        <img src="../assets/icon/giicon.png" alt="" />
+        <span><b>Genshin</b><span>individual game layout mockups</span></span>
       </a>
-      <a class="link-back" href="./nyx.html">Open Current Overview</a>
+      <a class="link-back" href="./genshin.html">Open current Genshin page</a>
     </header>
 
     <section class="hero">
       <div>
-        <h1>Three overview directions</h1>
-        <p>Static layout studies for moving banners, codes, game selection, and character cards around while keeping enough room for HSR and Wuwa-sized banner histories.</p>
+        <h1>Genshin page directions</h1>
+        <p>These mockups keep the current individual-game menu visible, keep the existing arched character-card system, and focus on how Genshin banners, codes, and saved characters can fit inside one game page.</p>
       </div>
-      <div class="legend">
-        <span><i>Banners</i>long lists stay scrollable</span>
-        <span><i>Codes</i>visible without owning the page</span>
-        <span><i>Characters</i>cards keep breathing room</span>
-      </div>
-    </section>
-
-    <section class="mock mock-a">
-      <div class="mock-head"><b>Option A</b><span>top game rail, left banner queue, center characters, right codes</span></div>
-      <div class="shell">
-        <div class="panel games">
-          <div class="game-rail">
-            <div class="game on"><img src="../assets/icon/noxicon.png" alt="" />Nyx</div>
-            <div class="game"><img src="../assets/icon/giicon.png" alt="" />Genshin</div>
-            <div class="game"><img src="../assets/icon/hsricon.png" alt="" />HSR</div>
-            <div class="game"><img src="../assets/icon/wuwaicon.png" alt="" />Wuwa</div>
-            <div class="game"><img src="../assets/icon/zzzicon.png" alt="" />ZZZ</div>
-            <div class="game"><img src="../assets/icon/aeicon.png" alt="" />Endfield</div>
-          </div>
-        </div>
-        <div class="panel banners">
-          <div class="panel-hd"><img src="../assets/icon/hsricon.png" alt="" />Banner Queue<i>12 active/history</i></div>
-          <div class="banner-list">
-            <div class="banner-card" style="--banner:url('../assets/bg/hsrbg.png')"><span class="tag">phase 1</span><div class="copy"><b>Evernight Archive</b><span>character event warp</span></div></div>
-            <div class="banner-card" style="--banner:url('../assets/bg/wuwabg2.png')"><span class="tag">phase 1</span><div class="copy"><b>Threnodian Tide</b><span>featured resonator</span></div></div>
-            <div class="banner-card" style="--banner:url('../assets/banner/skirk_namecard.png')"><span class="tag">phase 2</span><div class="copy"><b>Void Star Path</b><span>character event wish</span></div></div>
-            <div class="banner-card" style="--banner:url('../assets/bg/zzzbg3.png')"><span class="tag">rerun</span><div class="copy"><b>Signal Search</b><span>exclusive channel</span></div></div>
-            <div class="banner-card" style="--banner:url('../assets/bg/gibg2.png')"><span class="tag">weapon</span><div class="copy"><b>Forged Moonlight</b><span>equipment banner</span></div></div>
-            <div class="banner-card" style="--banner:url('../assets/bg/aebg.png')"><span class="tag">future</span><div class="copy"><b>Frontier Dispatch</b><span>upcoming rotation</span></div></div>
-            <div class="banner-card" style="--banner:url('../assets/bg/noxbg.png')"><span class="tag">standard</span><div class="copy"><b>Permanent Signal</b><span>baseline pool</span></div></div>
-          </div>
-        </div>
-        <div class="panel chars">
-          <div class="panel-hd"><img src="../assets/icon/skirk_icon.png" alt="" />Character Cards<i>responsive grid</i></div>
-          <div class="char-grid">
-            <div class="char"><i>5</i><b>Skirk</b><span>tracked build</span></div>
-            <div class="char"><i>5</i><b>Castorice</b><span>materials ready</span></div>
-            <div class="char"><i>5</i><b>Phrolova</b><span>watchlist</span></div>
-            <div class="char"><i>4</i><b>Encore</b><span>ascension next</span></div>
-            <div class="char"><i>5</i><b>Aglaea</b><span>priority farm</span></div>
-            <div class="char"><i>5</i><b>Evelyn</b><span>drive discs</span></div>
-            <div class="char"><i>5</i><b>Lauma</b><span>beta watch</span></div>
-            <div class="char"><i>4</i><b>March</b><span>light cone</span></div>
-          </div>
-        </div>
-        <div class="panel codes">
-          <div class="panel-hd"><img src="../assets/icon/pengo.png" alt="" />Codes<i>compact rail</i></div>
-          <div class="code-list">
-            <div class="code"><b>NYXBLUEPURPLE</b><i>copy</i><span>jade, polychrome, astrite, and credits grouped by game.</span></div>
-            <div class="code"><b>WUTHERINGGIFT</b><i>copy</i><span>Wuwa rewards and expiry state.</span></div>
-            <div class="code"><b>STARRAILLIVE</b><i>copy</i><span>HSR livestream rewards.</span></div>
-            <div class="code"><b>GENSHINGIFT</b><i>copy</i><span>Genshin primogems and mora.</span></div>
-            <div class="code"><b>ZENLESSCODE</b><i>copy</i><span>ZZZ poly and dennies.</span></div>
-          </div>
-        </div>
+      <div class="notes">
+        <span><i>Menu</i>overview, character materials, artifact sorter, wish tracker stay accounted for</span>
+        <span><i>Cards</i>current favorite-card shape is used instead of generic square cards</span>
+        <span><i>Banners</i>stress-tested as stacked Genshin banner groups</span>
       </div>
     </section>
 
-    <section class="mock mock-b">
-      <div class="mock-head"><b>Option B</b><span>left command stack, central banner atlas, right character watchlist</span></div>
-      <div class="shell">
-        <div class="left">
-          <div class="panel">
-            <div class="panel-hd"><img src="../assets/icon/noxicon.png" alt="" />Games<i>stacked</i></div>
-            <div class="game-column">
-              <div class="game on"><img src="../assets/icon/hsricon.png" alt="" />HSR</div>
-              <div class="game"><img src="../assets/icon/wuwaicon.png" alt="" />Wuwa</div>
-              <div class="game"><img src="../assets/icon/giicon.png" alt="" />Genshin</div>
-              <div class="game"><img src="../assets/icon/zzzicon.png" alt="" />ZZZ</div>
-              <div class="game"><img src="../assets/icon/aeicon.png" alt="" />Endfield</div>
+    <section class="mock option-a">
+      <div class="mock-head"><b>Option A</b><span>closest to current overview, with banners given more room</span></div>
+      <div class="game-shell">
+        <nav class="side-menu" aria-label="Genshin mock navigation">
+          <div class="side-links">
+            <div class="side-link on">Overview</div>
+            <div class="side-link">Character Materials</div>
+            <div class="side-link">Artifact Sorter</div>
+            <div class="side-link">Wish Tracker</div>
+          </div>
+          <div class="side-fill"></div>
+          <div class="side-foot">
+            <div class="kofi"><img src="../assets/icon/kofi-logo.png" alt="Ko-fi" /></div>
+            <div class="pengo-dot"><img src="../assets/icon/pengo.png" alt="Pengo" /></div>
+            <div class="live-row"><span>Live</span><span>Beta</span></div>
+          </div>
+        </nav>
+        <section class="main">
+          <div class="section-title"><b>Pinned Characters</b></div>
+          <div class="fav-row">
+            <article class="fav-card" style="--art:url('../assets/char/skirk.jpg')"><div class="line"></div><div class="art"></div><div class="scrim"></div><div class="name">Skirk<span>Void Star</span></div></article>
+            <article class="fav-card" style="--art:url('../assets/bg/gibg2.png')"><div class="line"></div><div class="art"></div><div class="scrim"></div><div class="name">Varesa<span>Fiery Passion</span></div></article>
+            <article class="fav-card" style="--art:url('../assets/banner/skirk_namecard.png')"><div class="line"></div><div class="art"></div><div class="scrim"></div><div class="name">Iansan<span>Trial Coach</span></div></article>
+            <article class="fav-card empty"><div class="line"></div><div class="art"></div><div class="scrim"></div><div class="name">Empty<span>Pick a character</span></div></article>
+            <article class="fav-card empty"><div class="line"></div><div class="art"></div><div class="scrim"></div><div class="name">Empty<span>Pick a character</span></div></article>
+          </div>
+          <div class="panel banner-panel">
+            <div class="panel-hd"><img src="../assets/icon/giicon.png" alt="" />Current banners<i>active plus next</i></div>
+            <div class="banner-stack">
+              <article class="banner-card big" style="--banner:url('../assets/bg/gibg2.png')"><span class="tag">Phase 1</span><div class="copy"><b>Void Star Advent</b><span>character event wish</span></div></article>
+              <article class="banner-card big" style="--banner:url('../assets/banner/skirk_namecard.png')"><span class="tag">Weapon</span><div class="copy"><b>Starlit Arsenal</b><span>epitome invocation</span></div></article>
+              <article class="banner-card" style="--banner:url('../assets/char/skirk.jpg')"><span class="tag">Phase 2</span><div class="copy"><b>Returning Thunder</b><span>rerun slot</span></div></article>
+              <article class="banner-card" style="--banner:url('../assets/bg/backgroundnyx.png')"><span class="tag">Standard</span><div class="copy"><b>Wanderlust Invocation</b><span>always available</span></div></article>
             </div>
           </div>
-          <div class="panel">
-            <div class="panel-hd"><img src="../assets/icon/pengo.png" alt="" />Codes<i>below games</i></div>
-            <div class="code-list">
-              <div class="code"><b>HYACINEGIFT</b><i>copy</i><span>Short reward rows prevent the command stack from getting tall.</span></div>
-              <div class="code"><b>ASTRITEFLOW</b><i>copy</i><span>Game-specific filters can sit above this list.</span></div>
-              <div class="code"><b>POLYCHROME</b><i>copy</i><span>Redeemed state stays in place.</span></div>
+        </section>
+        <aside class="aside">
+          <div class="panel" style="flex:0 0 auto">
+            <div class="panel-hd"><img src="../assets/icon/pengo.png" alt="" />Redemption codes<i>Genshin only</i></div>
+            <div class="codes">
+              <div class="code"><b>GENSHINGIFT</b><i>copy</i><span>Primogems and Mora.</span></div>
+              <div class="code"><b>SKIRK2026</b><i>copy</i><span>Event rewards and enhancement ore.</span></div>
+              <div class="code"><b>PRIMOWISHES</b><i>copy</i><span>Short expiry livestream code.</span></div>
             </div>
           </div>
-        </div>
-        <div class="panel atlas">
-          <div class="panel-hd"><img src="../assets/icon/wuwaicon.png" alt="" />Banner Atlas<i>dense masonry</i></div>
-          <div class="atlas-grid">
-            <div class="banner-card" style="--banner:url('../assets/bg/wuwabg2.png')"><span class="tag">Wuwa</span><div class="copy"><b>Past and Present</b><span>resonator banner</span></div></div>
-            <div class="banner-card" style="--banner:url('../assets/bg/hsrbg.png')"><span class="tag">HSR</span><div class="copy"><b>Garden of Lost Dreams</b><span>event warp</span></div></div>
-            <div class="banner-card" style="--banner:url('../assets/bg/gibg2.png')"><span class="tag">GI</span><div class="copy"><b>Deep Sea Oath</b><span>event wish</span></div></div>
-            <div class="banner-card" style="--banner:url('../assets/bg/zzzbg3.png')"><span class="tag">ZZZ</span><div class="copy"><b>Signal Proxy</b><span>exclusive channel</span></div></div>
-            <div class="banner-card" style="--banner:url('../assets/bg/hsrbg.png')"><span class="tag">LC</span><div class="copy"><b>Light Cone Pair</b><span>equipment warp</span></div></div>
-            <div class="banner-card" style="--banner:url('../assets/banner/skirk_namecard.png')"><span class="tag">GI</span><div class="copy"><b>Starlit Blades</b><span>weapon banner</span></div></div>
-            <div class="banner-card" style="--banner:url('../assets/bg/wuwabg2.png')"><span class="tag">Wuwa</span><div class="copy"><b>Tower Resonance</b><span>featured rerun</span></div></div>
-            <div class="banner-card" style="--banner:url('../assets/bg/noxbg.png')"><span class="tag">All</span><div class="copy"><b>Standard Pools</b><span>always available</span></div></div>
-            <div class="banner-card" style="--banner:url('../assets/bg/aebg.png')"><span class="tag">AE</span><div class="copy"><b>Frontier Signal</b><span>future support</span></div></div>
+          <div class="panel" style="flex:1 1 auto">
+            <div class="panel-hd"><img src="../assets/icon/giicon.png" alt="" />Banner queue<i>rotation only</i></div>
+            <div class="mini-banners">
+              <div class="mini-banner"><img src="../assets/bg/gibg2.png" alt="" /><div><b>Phase 1</b><span>2 character wishes</span></div><i>14d</i></div>
+              <div class="mini-banner"><img src="../assets/banner/skirk_namecard.png" alt="" /><div><b>Weapon</b><span>paired with phase</span></div><i>14d</i></div>
+              <div class="mini-banner"><img src="../assets/char/skirk.jpg" alt="" /><div><b>Phase 2</b><span>rerun pair</span></div><i>21d</i></div>
+              <div class="mini-banner"><img src="../assets/bg/backgroundnyx.png" alt="" /><div><b>Standard</b><span>permanent pool</span></div><i>always</i></div>
+            </div>
           </div>
-        </div>
-        <div class="panel rail">
-          <div class="panel-hd"><img src="../assets/icon/skirk_icon.png" alt="" />Watchlist<i>right rail</i></div>
-          <div class="mini-stack">
-            <div class="mini-char"><img src="../assets/char/skirk_circle.png" alt="" /><div><b>Skirk</b><span>weekly boss left</span></div></div>
-            <div class="mini-char"><img src="../assets/bg/hsrbg.png" alt="" /><div><b>Castorice</b><span>trace materials</span></div></div>
-            <div class="mini-char"><img src="../assets/bg/wuwabg2.png" alt="" /><div><b>Carlotta</b><span>weapon ascension</span></div></div>
-            <div class="mini-char"><img src="../assets/bg/zzzbg3.png" alt="" /><div><b>Vivian</b><span>skill chips</span></div></div>
-            <div class="mini-char"><img src="../assets/bg/gibg2.png" alt="" /><div><b>Varesa</b><span>talents next</span></div></div>
-            <div class="mini-char"><img src="../assets/bg/aebg.png" alt="" /><div><b>Angelina</b><span>future slot</span></div></div>
-          </div>
-        </div>
+        </aside>
       </div>
     </section>
 
-    <section class="mock mock-c">
-      <div class="mock-head"><b>Option C</b><span>horizontal banner timeline, left controls, large character board</span></div>
-      <div class="shell">
-        <div class="panel timeline-panel">
-          <div class="panel-hd"><img src="../assets/icon/hsricon.png" alt="" />Banner Timeline<i>scrollable strip</i></div>
-          <div class="timeline">
-            <div class="banner-card" style="--banner:url('../assets/bg/hsrbg.png')"><span class="tag">now</span><div class="copy"><b>Current HSR Phase</b><span>two character banners</span></div></div>
-            <div class="banner-card" style="--banner:url('../assets/bg/wuwabg2.png')"><span class="tag">now</span><div class="copy"><b>Wuwa Resonators</b><span>multi-banner set</span></div></div>
-            <div class="banner-card" style="--banner:url('../assets/banner/skirk_namecard.png')"><span class="tag">next</span><div class="copy"><b>Weapon Pair</b><span>linked equipment</span></div></div>
-            <div class="banner-card" style="--banner:url('../assets/bg/gibg2.png')"><span class="tag">next</span><div class="copy"><b>Genshin Rotation</b><span>phase 2</span></div></div>
-            <div class="banner-card" style="--banner:url('../assets/bg/zzzbg3.png')"><span class="tag">soon</span><div class="copy"><b>ZZZ Channel</b><span>exclusive signal</span></div></div>
-            <div class="banner-card" style="--banner:url('../assets/bg/noxbg.png')"><span class="tag">base</span><div class="copy"><b>Permanent</b><span>standard pools</span></div></div>
+    <section class="mock option-b">
+      <div class="mock-head"><b>Option B</b><span>banner ledger for dense Genshin rotations</span></div>
+      <div class="game-shell no-aside">
+        <nav class="side-menu" aria-label="Genshin mock navigation">
+          <div class="side-links">
+            <div class="side-link on">Overview</div>
+            <div class="side-link">Character Materials</div>
+            <div class="side-link">Artifact Sorter</div>
+            <div class="side-link">Wish Tracker</div>
           </div>
-        </div>
-        <div class="control">
-          <div class="panel">
-            <div class="panel-hd"><img src="../assets/icon/pengo.png" alt="" />Codes<i>left dock</i></div>
-            <div class="code-list">
-              <div class="code"><b>OVERVIEWDOCK</b><i>copy</i><span>Docked codes keep the character board wide.</span></div>
-              <div class="code"><b>HSRMANYBANNERS</b><i>copy</i><span>Timeline absorbs banner overflow.</span></div>
-              <div class="code"><b>WUWATIMELINE</b><i>copy</i><span>Works when Wuwa has several concurrent cards.</span></div>
-              <div class="code"><b>NYXLAYOUTC</b><i>copy</i><span>Good for repeated daily checking.</span></div>
+          <div class="side-fill"></div>
+          <div class="side-foot">
+            <div class="kofi"><img src="../assets/icon/kofi-logo.png" alt="Ko-fi" /></div>
+            <div class="pengo-dot"><img src="../assets/icon/pengo.png" alt="Pengo" /></div>
+            <div class="live-row"><span>Live</span><span>Beta</span></div>
+          </div>
+        </nav>
+        <section class="main">
+          <div class="main-grid">
+            <div class="panel banners">
+              <div class="panel-hd"><img src="../assets/icon/giicon.png" alt="" />Banner ledger<i>scrolls vertically</i></div>
+              <div class="banner-stack">
+                <article class="banner-card" style="--banner:url('../assets/bg/gibg2.png')"><span class="tag">Now</span><div class="copy"><b>Void Star Advent</b><span>event wish - character</span></div></article>
+                <article class="banner-card" style="--banner:url('../assets/banner/skirk_namecard.png')"><span class="tag">Now</span><div class="copy"><b>Epitome Invocation</b><span>weapon wish</span></div></article>
+                <article class="banner-card" style="--banner:url('../assets/char/skirk.jpg')"><span class="tag">Next</span><div class="copy"><b>Returning Thunder</b><span>rerun character wish</span></div></article>
+                <article class="banner-card" style="--banner:url('../assets/bg/backgroundnyx.png')"><span class="tag">Base</span><div class="copy"><b>Wanderlust Invocation</b><span>standard wish</span></div></article>
+                <article class="banner-card" style="--banner:url('../assets/bg/gibg2.png')"><span class="tag">History</span><div class="copy"><b>Previous Phase</b><span>collapsed into the same rail</span></div></article>
+              </div>
+            </div>
+            <div class="panel codes-panel">
+              <div class="panel-hd"><img src="../assets/icon/pengo.png" alt="" />Codes<i>right column</i></div>
+              <div class="codes">
+                <div class="code"><b>GENSHINGIFT</b><i>copy</i><span>Primogems and Mora.</span></div>
+                <div class="code"><b>ABYSSRESET</b><i>copy</i><span>Resin, books, and ore.</span></div>
+                <div class="code"><b>NATLANLIVE</b><i>copy</i><span>Livestream rewards.</span></div>
+                <div class="code"><b>VOIDSTAR</b><i>copy</i><span>Short campaign code.</span></div>
+              </div>
+            </div>
+            <div class="panel chars-panel">
+              <div class="panel-hd"><img src="../assets/char/skirk_icon.png" alt="" />Pinned characters<i>same card system</i></div>
+              <div class="fav-row">
+                <article class="fav-card" style="--art:url('../assets/char/skirk.jpg')"><div class="line"></div><div class="art"></div><div class="scrim"></div><div class="name">Skirk<span>Void Star</span></div></article>
+                <article class="fav-card" style="--art:url('../assets/bg/gibg2.png')"><div class="line"></div><div class="art"></div><div class="scrim"></div><div class="name">Varesa<span>Ascension</span></div></article>
+                <article class="fav-card" style="--art:url('../assets/banner/skirk_namecard.png')"><div class="line"></div><div class="art"></div><div class="scrim"></div><div class="name">Iansan<span>Talents</span></div></article>
+                <article class="fav-card empty"><div class="line"></div><div class="art"></div><div class="scrim"></div><div class="name">Empty<span>Pick a character</span></div></article>
+                <article class="fav-card empty"><div class="line"></div><div class="art"></div><div class="scrim"></div><div class="name">Empty<span>Pick a character</span></div></article>
+              </div>
             </div>
           </div>
-          <div class="panel">
-            <div class="panel-hd"><img src="../assets/icon/noxicon.png" alt="" />Quick Games<i>2 columns</i></div>
-            <div class="compact-game-grid">
-              <div class="game on"><img src="../assets/icon/noxicon.png" alt="" />Nyx</div>
-              <div class="game"><img src="../assets/icon/hsricon.png" alt="" />HSR</div>
-              <div class="game"><img src="../assets/icon/wuwaicon.png" alt="" />Wuwa</div>
-              <div class="game"><img src="../assets/icon/giicon.png" alt="" />Genshin</div>
+        </section>
+      </div>
+    </section>
+
+    <section class="mock option-r">
+      <div class="mock-head"><b>Replacement Direction</b><span>compact dashboard with characters as the primary area</span></div>
+      <div class="game-shell no-aside">
+        <nav class="side-menu" aria-label="Genshin mock navigation">
+          <div class="side-links">
+            <div class="side-link on">Overview</div>
+            <div class="side-link">Character Materials</div>
+            <div class="side-link">Artifact Sorter</div>
+            <div class="side-link">Wish Tracker</div>
+          </div>
+          <div class="side-fill"></div>
+          <div class="side-foot">
+            <div class="kofi"><img src="../assets/icon/kofi-logo.png" alt="Ko-fi" /></div>
+            <div class="pengo-dot"><img src="../assets/icon/pengo.png" alt="Pengo" /></div>
+            <div class="live-row"><span>Live</span><span>Beta</span></div>
+          </div>
+        </nav>
+        <section class="main">
+          <div class="main-grid">
+            <div class="stats">
+              <div class="stat"><b>4</b><span>active wishes</span></div>
+              <div class="stat"><b>3</b><span>new codes</span></div>
+              <div class="stat"><b>5</b><span>pinned slots</span></div>
+              <div class="stat"><b>Live</b><span>data channel</span></div>
+            </div>
+            <div class="panel banners">
+              <div class="panel-hd"><img src="../assets/icon/giicon.png" alt="" />Banners<i>compact list</i></div>
+              <div class="banner-stack">
+                <article class="banner-card" style="--banner:url('../assets/bg/gibg2.png')"><span class="tag">Character</span><div class="copy"><b>Void Star Advent</b><span>phase 1</span></div></article>
+                <article class="banner-card" style="--banner:url('../assets/banner/skirk_namecard.png')"><span class="tag">Weapon</span><div class="copy"><b>Starlit Arsenal</b><span>paired weapons</span></div></article>
+                <article class="banner-card" style="--banner:url('../assets/char/skirk.jpg')"><span class="tag">Rerun</span><div class="copy"><b>Returning Thunder</b><span>phase 2</span></div></article>
+              </div>
+            </div>
+            <div class="panel chars-panel">
+              <div class="panel-hd"><img src="../assets/char/skirk_icon.png" alt="" />Character shelf<i>primary area</i></div>
+              <div class="fav-row">
+                <article class="fav-card" style="--art:url('../assets/char/skirk.jpg')"><div class="line"></div><div class="art"></div><div class="scrim"></div><div class="name">Skirk<span>Void Star</span></div></article>
+                <article class="fav-card" style="--art:url('../assets/bg/gibg2.png')"><div class="line"></div><div class="art"></div><div class="scrim"></div><div class="name">Varesa<span>Fiery Passion</span></div></article>
+                <article class="fav-card" style="--art:url('../assets/banner/skirk_namecard.png')"><div class="line"></div><div class="art"></div><div class="scrim"></div><div class="name">Iansan<span>Trial Coach</span></div></article>
+                <article class="fav-card" style="--art:url('../assets/bg/backgroundnyx.png')"><div class="line"></div><div class="art"></div><div class="scrim"></div><div class="name">Citlali<span>Shields</span></div></article>
+                <article class="fav-card empty"><div class="line"></div><div class="art"></div><div class="scrim"></div><div class="name">Empty<span>Pick a character</span></div></article>
+                <article class="fav-card empty"><div class="line"></div><div class="art"></div><div class="scrim"></div><div class="name">Empty<span>Pick a character</span></div></article>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="panel chars">
-          <div class="panel-hd"><img src="../assets/icon/skirk_icon.png" alt="" />Character Board<i>largest area</i></div>
-          <div class="char-grid">
-            <div class="char"><i>5</i><b>Skirk</b><span>favorite</span></div>
-            <div class="char"><i>5</i><b>Hyacine</b><span>trace target</span></div>
-            <div class="char"><i>5</i><b>Phrolova</b><span>echo farm</span></div>
-            <div class="char"><i>5</i><b>Astra Yao</b><span>drive discs</span></div>
-            <div class="char"><i>4</i><b>Sanhua</b><span>backup</span></div>
-            <div class="char"><i>5</i><b>Varesa</b><span>talents</span></div>
-            <div class="char"><i>5</i><b>Cipher</b><span>materials</span></div>
-            <div class="char"><i>5</i><b>Feixiao</b><span>relics</span></div>
-            <div class="char"><i>4</i><b>Nicole</b><span>utility</span></div>
-            <div class="char"><i>5</i><b>Lauma</b><span>future slot</span></div>
-          </div>
-        </div>
-        <div class="panel games">
-          <div class="game-rail">
-            <div class="game on"><img src="../assets/icon/noxicon.png" alt="" />Overview</div>
-            <div class="game"><img src="../assets/icon/giicon.png" alt="" />Genshin</div>
-            <div class="game"><img src="../assets/icon/hsricon.png" alt="" />HSR</div>
-            <div class="game"><img src="../assets/icon/wuwaicon.png" alt="" />Wuwa</div>
-            <div class="game"><img src="../assets/icon/zzzicon.png" alt="" />ZZZ</div>
-            <div class="game"><img src="../assets/icon/aeicon.png" alt="" />Endfield</div>
-          </div>
-        </div>
+        </section>
       </div>
     </section>
   </main>

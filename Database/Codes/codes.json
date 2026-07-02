@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T05:04:59.523Z",
+  "generatedAt": "2026-07-02T08:19:46.931Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -37,9 +37,12 @@
         },
         {
           "code": "LEGEDILJKSGM",
-          "rewards": "60 Primogems and Five Adventurer S Experience",
-          "added": "2026-06-25",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
+          "rewards": "60 Primogem, 5 Adventurer's Experience",
+          "added": "2026-06-21",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "regionLocked": null,
+          "expires": null,
+          "variants": [],
           "premium": true,
           "premium100": false,
           "cwSeen": true,
@@ -87,6 +90,17 @@
           "premium100": false,
           "cwSeen": false,
           "firstSeen": "2026-07-01T05:47:13.705Z"
+        },
+        {
+          "code": "BLADEFITCHECK",
+          "rewards": "",
+          "added": "2026-07-02",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=BLADEFITCHECK",
+          "hoyoVerified": true,
+          "premium": false,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-06-13T20:18:18.521Z"
         },
         {
           "code": "CREATIONNYMPH",
@@ -153,16 +167,6 @@
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-06-20T23:42:40.844Z"
-        },
-        {
-          "code": "BladeFitCheck",
-          "rewards": "Three Traveler S Guides and Two Cold Jokes",
-          "added": "2026-06-08",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=BladeFitCheck",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-06-13T20:18:18.521Z"
         }
       ]
     },
@@ -187,20 +191,26 @@
           "firstSeen": "2026-06-20T23:42:44.037Z"
         },
         {
-          "code": "ROSCAELIFER0617",
-          "rewards": "30 Polychrome",
+          "code": "ZZZSTEAM",
+          "rewards": "60 Polychrome, 2 Senior Investigator Log, 2 W-Engine Energy Module, 6666 Denny",
           "added": "2026-06-11",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Zenless_Zone_Zero",
+          "regionLocked": null,
+          "expires": null,
+          "variants": [],
           "premium": true,
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-06-13T20:18:20.166Z"
         },
         {
-          "code": "ZZZ30BANGBOO",
-          "rewards": "60 Polychrome",
-          "added": "2026-06-11",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
+          "code": "ROSCAELIFER0617",
+          "rewards": "30 Polychrome",
+          "added": "2026-06-09",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Zenless_Zone_Zero",
+          "regionLocked": null,
+          "expires": null,
+          "variants": [],
           "premium": true,
           "premium100": false,
           "cwSeen": true,
@@ -209,18 +219,11 @@
         {
           "code": "ZZZSEASON3",
           "rewards": "50 Polychrome",
-          "added": "2026-06-11",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
-          "premium": true,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-06-13T20:18:20.166Z"
-        },
-        {
-          "code": "ZZZSTEAM",
-          "rewards": "60 Polychrome, Two W Engine Energy Modules, Two Senior Investigator Logs, and 6,666 Denny",
-          "added": "2026-06-11",
-          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
+          "added": "2026-06-09",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Zenless_Zone_Zero",
+          "regionLocked": null,
+          "expires": null,
+          "variants": [],
           "premium": true,
           "premium100": false,
           "cwSeen": true,
@@ -235,6 +238,19 @@
           "premium100": false,
           "cwSeen": false,
           "firstSeen": "2026-06-25T15:11:40.186Z"
+        },
+        {
+          "code": "ZZZ30BANGBOO",
+          "rewards": "60 Polychrome, 6666 Denny",
+          "added": "2026-06-06",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Zenless_Zone_Zero",
+          "regionLocked": null,
+          "expires": null,
+          "variants": [],
+          "premium": true,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-06-13T20:18:20.166Z"
         }
       ]
     },
@@ -276,36 +292,6 @@
           "premium100": false,
           "cwSeen": false,
           "firstSeen": "2026-07-01T05:46:58.106Z"
-        },
-        {
-          "code": "ZAU2SYXHWX5L4ZH",
-          "rewards": "5k T Creds and Ten Arms Insp Kits",
-          "added": "2026-05-05",
-          "sourceUrl": "https://nexus-codes.app/copy/?code=ZAU2SYXHWX5L4ZH",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-06-27T02:44:42.442Z"
-        },
-        {
-          "code": "ENDFIELD4PC",
-          "rewards": "Two Advanced Combat Records, Two Arms Insp Kits, and 13k T Creds Pc Only",
-          "added": "2026-05-03",
-          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELD4PC",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-06-27T02:44:42.442Z"
-        },
-        {
-          "code": "ENDFIELDGIFT",
-          "rewards": "150 Oroberyl, 20 Intermediate Combat Records, 20 Arms Insp Kits, and 10k T Creds",
-          "added": "2026-05-03",
-          "sourceUrl": "https://nexus-codes.app/copy/?code=ENDFIELDGIFT",
-          "premium": true,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-06-27T02:44:42.442Z"
         }
       ]
     }
